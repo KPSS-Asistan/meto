@@ -72,7 +72,6 @@ dependencies:
   dartz: ^0.10.1  # Used by flashcard repository for Either pattern
   flutter_card_swiper: ^7.0.1
   google_fonts: ^6.2.1  # Typography - Merriweather for questions, Inter for options
-  moon_design: ^1.1.0  # Moon Design System - Professional UI kit
   fl_chart: ^0.69.0  # FL Chart - Modern data visualization
   
   # Notifications - Push & Local

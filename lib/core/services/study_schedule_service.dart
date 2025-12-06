@@ -265,6 +265,10 @@ class StudyScheduleService {
   }
 
   /// Tercihlere göre program oluştur (Pomodoro bazlı)
+  /// Aktivite ataması pedagojik kurallara göre:
+  /// - Bir dersin günde 1. bloğu = Öğrenme (yeni konu)
+  /// - Bir dersin günde 2. bloğu = Tekrar (pekiştirme)
+  /// - Bir dersin günde 3+ bloğu = Uygulama (soru çözme)
   static WeeklySchedule generateSchedule(StudyPreferences prefs) {
     final List<DailySchedule> days = [];
     
@@ -286,9 +290,6 @@ class StudyScheduleService {
     // Günde kaç pomodoro sığar
     final blocksPerDay = (dailyMinutes / blockTotal).floor();
 
-    // Aktivite döngüsü
-    final activities = ['learn', 'learn', 'review', 'practice'];
-
     for (int dayIndex = 0; dayIndex < 7; dayIndex++) {
       final List<StudyBlock> blocks = [];
 
@@ -300,6 +301,10 @@ class StudyScheduleService {
       int currentHour = prefs.startHour;
       int currentMinute = 0;
       int blockCount = 0;
+
+      // Her ders için o gün kaç kez kullanıldığını takip et
+      // Bu sayede pedagojik olarak doğru aktivite atanır
+      final Map<String, int> lessonDailyCount = {};
 
       while (blockCount < blocksPerDay && currentHour < prefs.endHour) {
         // Ders seç
@@ -318,7 +323,23 @@ class StudyScheduleService {
           selectedLesson = allLessons[idx].cast<String, String>();
         }
 
-        final activity = activities[(dayIndex + blockCount) % activities.length];
+        // Bu dersin gündeki kaçıncı bloğu olduğunu bul
+        final lessonId = selectedLesson['id']!;
+        final lessonBlockNumber = (lessonDailyCount[lessonId] ?? 0) + 1;
+        lessonDailyCount[lessonId] = lessonBlockNumber;
+
+        // Pedagojik aktivite ataması:
+        // 1. blok = Öğrenme (yeni konu)
+        // 2. blok = Tekrar (pekiştirme)
+        // 3+ blok = Uygulama (soru çözme)
+        String activity;
+        if (lessonBlockNumber == 1) {
+          activity = 'learn';
+        } else if (lessonBlockNumber == 2) {
+          activity = 'review';
+        } else {
+          activity = 'practice';
+        }
         
         // Her 4 blokta uzun mola
         final breakMins = (blockCount > 0 && blockCount % 4 == 0) 
@@ -327,7 +348,7 @@ class StudyScheduleService {
 
         blocks.add(StudyBlock(
           id: '${dayIndex}_$blockCount',
-          lessonId: selectedLesson['id']!,
+          lessonId: lessonId,
           lessonName: selectedLesson['name']!,
           startHour: currentHour,
           startMinute: currentMinute,

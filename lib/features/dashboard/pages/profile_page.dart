@@ -2,20 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:go_router/go_router.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:moon_design/moon_design.dart';
 import 'package:kpss_2026/features/profile/stats_page.dart';
 import 'package:kpss_2026/features/profile/achievements_page.dart';
 
-/// Moon Design System ile modernize edilmiş Profil Sayfası
-/// Profesyonel, minimalist ve fütüristik tasarım dili
+/// Profil Sayfası - Profesyonel, minimalist tasarım
 class ProfilePage extends StatelessWidget {
   final String? displayName;
   const ProfilePage({super.key, this.displayName});
+  
+  // Renk sabitleri
+  static const _primaryColor = Color(0xFF6366F1);
+  static const _secondaryTextColor = Color(0xFF64748B);
 
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    final moonColors = context.moonColors;
 
     return Scaffold(
       backgroundColor: isDark ? const Color(0xFF0F172A) : const Color(0xFFF8FAFC),
@@ -25,19 +26,19 @@ class ProfilePage extends StatelessWidget {
           physics: const BouncingScrollPhysics(),
           children: [
             // Section: Performans
-            _buildSectionHeader('Performans', Icons.bar_chart_rounded, moonColors),
+            _buildSectionHeader('Performans', Icons.bar_chart_rounded, isDark),
             const SizedBox(height: 12),
-            _buildMoonMenuItem(
+            _buildMenuItem(
               context: context,
               icon: Icons.trending_up_rounded,
               title: 'İstatistikler',
               subtitle: 'Performans analizi ve grafikler',
-              accentColor: moonColors?.piccolo ?? const Color(0xFF6366F1),
+              accentColor: _primaryColor,
               onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const StatsPage())),
               isDark: isDark,
               index: 0,
             ),
-            _buildMoonMenuItem(
+            _buildMenuItem(
               context: context,
               icon: Icons.emoji_events_rounded,
               title: 'Başarılar',
@@ -47,7 +48,7 @@ class ProfilePage extends StatelessWidget {
               isDark: isDark,
               index: 1,
             ),
-            _buildMoonMenuItem(
+            _buildMenuItem(
               context: context,
               icon: Icons.calendar_month_rounded,
               title: 'Çalışma Takvimi',
@@ -57,7 +58,7 @@ class ProfilePage extends StatelessWidget {
               isDark: isDark,
               index: 2,
             ),
-            _buildMoonMenuItem(
+            _buildMenuItem(
               context: context,
               icon: Icons.auto_awesome_rounded,
               title: 'Ders Programı',
@@ -71,9 +72,9 @@ class ProfilePage extends StatelessWidget {
             const SizedBox(height: 24),
 
             // Section: Ayarlar
-            _buildSectionHeader('Uygulama', Icons.settings_rounded, moonColors),
+            _buildSectionHeader('Uygulama', Icons.settings_rounded, isDark),
             const SizedBox(height: 12),
-            _buildMoonMenuItem(
+            _buildMenuItem(
               context: context,
               icon: Icons.tune_rounded,
               title: 'Ayarlar',
@@ -83,7 +84,7 @@ class ProfilePage extends StatelessWidget {
               isDark: isDark,
               index: 4,
             ),
-            _buildMoonMenuItem(
+            _buildMenuItem(
               context: context,
               icon: Icons.chat_bubble_outline_rounded,
               title: 'Geri Bildirim',
@@ -97,9 +98,9 @@ class ProfilePage extends StatelessWidget {
             const SizedBox(height: 24),
 
             // Section: Destek
-            _buildSectionHeader('Destek', Icons.help_outline_rounded, moonColors),
+            _buildSectionHeader('Destek', Icons.help_outline_rounded, isDark),
             const SizedBox(height: 12),
-            _buildMoonMenuItem(
+            _buildMenuItem(
               context: context,
               icon: Icons.quiz_rounded,
               title: 'Yardım Merkezi',
@@ -109,7 +110,7 @@ class ProfilePage extends StatelessWidget {
               isDark: isDark,
               index: 6,
             ),
-            _buildMoonMenuItem(
+            _buildMenuItem(
               context: context,
               icon: Icons.info_outline_rounded,
               title: 'Hakkında',
@@ -133,30 +134,30 @@ class ProfilePage extends StatelessWidget {
   }
 
   /// Section header with icon
-  Widget _buildSectionHeader(String title, IconData icon, MoonColors? moonColors) {
+  Widget _buildSectionHeader(String title, IconData icon, bool isDark) {
     return Row(
       children: [
         Icon(
           icon,
           size: 18,
-          color: moonColors?.trunks ?? const Color(0xFF64748B),
+          color: _secondaryTextColor,
         ),
         const SizedBox(width: 8),
         Text(
           title,
-          style: TextStyle(
+          style: const TextStyle(
             fontSize: 13,
             fontWeight: FontWeight.w600,
             letterSpacing: 0.5,
-            color: moonColors?.trunks ?? const Color(0xFF64748B),
+            color: _secondaryTextColor,
           ),
         ),
       ],
     ).animate().fadeIn(delay: 100.ms);
   }
 
-  /// Moon Design styled menu item - clean, flat icons (like stats page)
-  Widget _buildMoonMenuItem({
+  /// Custom menu item - clean, flat icons
+  Widget _buildMenuItem({
     required BuildContext context,
     required IconData icon,
     required String title,
@@ -168,55 +169,53 @@ class ProfilePage extends StatelessWidget {
   }) {
     return Padding(
       padding: const EdgeInsets.only(bottom: 10),
-      child: MoonMenuItem(
-        onTap: onTap,
+      child: Material(
+        color: isDark ? Colors.white.withValues(alpha: 0.04) : Colors.white,
         borderRadius: BorderRadius.circular(16),
-        backgroundColor: isDark
-            ? Colors.white.withValues(alpha: 0.04)
-            : Colors.white,
-        label: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 6),
-          child: Row(
-            children: [
-              // Sadece ikon - arka plan YOK
-              Icon(icon, color: accentColor, size: 26),
-              const SizedBox(width: 14),
-              // Text Content
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      title,
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600,
-                        color: isDark ? Colors.white : const Color(0xFF1E293B),
-                        letterSpacing: -0.2,
+        child: InkWell(
+          onTap: onTap,
+          borderRadius: BorderRadius.circular(16),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+            child: Row(
+              children: [
+                Icon(icon, color: accentColor, size: 26),
+                const SizedBox(width: 14),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        title,
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                          color: isDark ? Colors.white : const Color(0xFF1E293B),
+                          letterSpacing: -0.2,
+                        ),
                       ),
-                    ),
-                    const SizedBox(height: 3),
-                    Text(
-                      subtitle,
-                      style: TextStyle(
-                        fontSize: 13,
-                        color: isDark
-                            ? Colors.white.withValues(alpha: 0.5)
-                            : const Color(0xFF64748B),
+                      const SizedBox(height: 3),
+                      Text(
+                        subtitle,
+                        style: TextStyle(
+                          fontSize: 13,
+                          color: isDark
+                              ? Colors.white.withValues(alpha: 0.5)
+                              : const Color(0xFF64748B),
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
-              ),
-              // Arrow indicator
-              Icon(
-                Icons.chevron_right_rounded,
-                color: isDark
-                    ? Colors.white.withValues(alpha: 0.3)
-                    : const Color(0xFF94A3B8),
-                size: 22,
-              ),
-            ],
+                Icon(
+                  Icons.chevron_right_rounded,
+                  color: isDark
+                      ? Colors.white.withValues(alpha: 0.3)
+                      : const Color(0xFF94A3B8),
+                  size: 22,
+                ),
+              ],
+            ),
           ),
         ),
       ),
@@ -263,7 +262,7 @@ class ProfilePage extends StatelessWidget {
     ).animate().fadeIn(delay: 400.ms);
   }
 
-  /// Logout confirmation dialog - clean design
+  /// Logout confirmation dialog
   Future<void> _showLogoutDialog(BuildContext context) async {
     final isDark = Theme.of(context).brightness == Brightness.dark;
 
@@ -283,7 +282,6 @@ class ProfilePage extends StatelessWidget {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                // Icon
                 Container(
                   padding: const EdgeInsets.all(16),
                   decoration: BoxDecoration(
@@ -297,7 +295,6 @@ class ProfilePage extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 20),
-                // Title
                 Text(
                   'Çıkış Yap',
                   style: TextStyle(
@@ -307,7 +304,6 @@ class ProfilePage extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 8),
-                // Message
                 Text(
                   'Hesabınızdan çıkış yapmak istediğinize emin misiniz?',
                   textAlign: TextAlign.center,
@@ -317,7 +313,6 @@ class ProfilePage extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 24),
-                // Buttons
                 Row(
                   children: [
                     Expanded(

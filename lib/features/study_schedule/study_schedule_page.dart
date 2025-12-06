@@ -1768,7 +1768,7 @@ class _StudySchedulePageState extends State<StudySchedulePage> {
     );
   }
 
-  /// PDF Çıktı - Profesyonel Tablo Formatı
+  /// PDF Çıktı - Checklist Formatı
   Future<void> _exportToPdf() async {
     if (_savedSchedule == null) return;
 
@@ -1780,157 +1780,222 @@ class _StudySchedulePageState extends State<StudySchedulePage> {
     final ttf = await PdfGoogleFonts.notoSansRegular();
     final boldTtf = await PdfGoogleFonts.notoSansBold();
 
-    // Günlerin isimlerini al
-    final dayNames = ['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz'];
-    
-    // En erken ve en geç saatleri bul
-    int minHour = 23;
-    int maxHour = 0;
-    for (final day in schedule.days) {
-      for (final block in day.blocks) {
-        if (block.startHour < minHour) minHour = block.startHour;
-        final endHour = block.startHour + ((block.startMinute + block.durationMinutes) ~/ 60) + 1;
-        if (endHour > maxHour) maxHour = endHour;
-      }
-    }
-    if (minHour > maxHour) { minHour = 9; maxHour = 18; }
+    // Renk paleti
+    final dayColors = [
+      PdfColors.blue700,    // Pzt
+      PdfColors.teal700,    // Sal
+      PdfColors.green700,   // Çar
+      PdfColors.orange700,  // Per
+      PdfColors.purple700,  // Cum
+      PdfColors.pink700,    // Cmt
+      PdfColors.red700,     // Paz
+    ];
 
     pdf.addPage(
-      pw.Page(
-        pageFormat: PdfPageFormat.a4.landscape,
-        margin: const pw.EdgeInsets.all(24),
-        build: (context) {
-          return pw.Column(
-            crossAxisAlignment: pw.CrossAxisAlignment.start,
+      pw.MultiPage(
+        pageFormat: PdfPageFormat.a4,
+        margin: const pw.EdgeInsets.all(32),
+        header: (context) => pw.Container(
+          margin: const pw.EdgeInsets.only(bottom: 20),
+          child: pw.Row(
+            mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: pw.CrossAxisAlignment.end,
             children: [
-              // Header
-              pw.Row(
-                mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
+              pw.Column(
+                crossAxisAlignment: pw.CrossAxisAlignment.start,
                 children: [
-                  pw.Column(
-                    crossAxisAlignment: pw.CrossAxisAlignment.start,
-                    children: [
-                      pw.Text('KPSS Haftalık Ders Programı',
-                        style: pw.TextStyle(font: boldTtf, fontSize: 20, color: PdfColors.blue900)),
-                      pw.SizedBox(height: 4),
-                      pw.Text('${(schedule.totalWeeklyMinutes / 60).toStringAsFixed(0)} saat/hafta • ${schedule.totalBlocks} pomodoro',
-                        style: pw.TextStyle(font: ttf, fontSize: 11, color: PdfColors.grey600)),
-                    ],
-                  ),
-                  pw.Container(
-                    padding: const pw.EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                    decoration: pw.BoxDecoration(
-                      color: PdfColors.blue50,
-                      borderRadius: pw.BorderRadius.circular(8),
-                    ),
-                    child: pw.Text('KPSS Asistan 2026',
-                      style: pw.TextStyle(font: boldTtf, fontSize: 10, color: PdfColors.blue700)),
-                  ),
+                  pw.Text('KPSS Haftalık Çalışma Planı',
+                    style: pw.TextStyle(font: boldTtf, fontSize: 22, color: PdfColors.grey800)),
+                  pw.SizedBox(height: 4),
+                  pw.Text('Toplam ${(schedule.totalWeeklyMinutes / 60).toStringAsFixed(0)} saat • ${schedule.totalBlocks} pomodoro bloğu',
+                    style: pw.TextStyle(font: ttf, fontSize: 11, color: PdfColors.grey600)),
                 ],
               ),
-              pw.SizedBox(height: 16),
-              
-              // Tablo
-              pw.Expanded(
-                child: pw.Table(
-                  border: pw.TableBorder.all(color: PdfColors.grey300, width: 0.5),
-                  columnWidths: {
-                    0: const pw.FixedColumnWidth(50), // Saat sütunu
-                    for (int i = 1; i <= 7; i++) i: const pw.FlexColumnWidth(1),
-                  },
-                  children: [
-                    // Header row
-                    pw.TableRow(
-                      decoration: const pw.BoxDecoration(color: PdfColors.blue800),
-                      children: [
-                        pw.Container(
-                          padding: const pw.EdgeInsets.all(8),
-                          child: pw.Text('Saat', style: pw.TextStyle(font: boldTtf, fontSize: 10, color: PdfColors.white)),
-                        ),
-                        ...dayNames.map((name) => pw.Container(
-                          padding: const pw.EdgeInsets.all(8),
-                          alignment: pw.Alignment.center,
-                          child: pw.Text(name, style: pw.TextStyle(font: boldTtf, fontSize: 10, color: PdfColors.white)),
-                        )),
-                      ],
-                    ),
-                    // Time rows
-                    ...List.generate(maxHour - minHour, (hourIndex) {
-                      final hour = minHour + hourIndex;
-                      return pw.TableRow(
-                        decoration: pw.BoxDecoration(
-                          color: hourIndex.isEven ? PdfColors.white : PdfColors.grey50,
-                        ),
-                        children: [
-                          // Saat sütunu
-                          pw.Container(
-                            padding: const pw.EdgeInsets.all(6),
-                            child: pw.Text('${hour.toString().padLeft(2, '0')}:00',
-                              style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.grey700)),
-                          ),
-                          // Günler
-                          ...List.generate(7, (dayIndex) {
-                            final day = schedule.days.firstWhere((d) => d.dayIndex == dayIndex,
-                              orElse: () => DailySchedule(dayIndex: dayIndex, blocks: []));
-                            final blocksInHour = day.blocks.where((b) => b.startHour == hour).toList();
-                            
-                            if (blocksInHour.isEmpty) {
-                              return pw.Container(padding: const pw.EdgeInsets.all(4));
-                            }
-                            
-                            return pw.Container(
-                              padding: const pw.EdgeInsets.all(3),
-                              child: pw.Column(
-                                children: blocksInHour.map((block) {
-                                  final colors = [PdfColors.blue100, PdfColors.green100, PdfColors.orange100, 
-                                                  PdfColors.purple100, PdfColors.teal100, PdfColors.pink100];
-                                  final textColors = [PdfColors.blue800, PdfColors.green800, PdfColors.orange800,
-                                                     PdfColors.purple800, PdfColors.teal800, PdfColors.pink800];
-                                  final colorIdx = block.lessonId.hashCode.abs() % colors.length;
-                                  
-                                  return pw.Container(
-                                    width: double.infinity,
-                                    margin: const pw.EdgeInsets.only(bottom: 2),
-                                    padding: const pw.EdgeInsets.symmetric(horizontal: 4, vertical: 3),
-                                    decoration: pw.BoxDecoration(
-                                      color: colors[colorIdx],
-                                      borderRadius: pw.BorderRadius.circular(4),
-                                    ),
-                                    child: pw.Text(
-                                      block.lessonName.length > 12 ? '${block.lessonName.substring(0, 10)}..' : block.lessonName,
-                                      style: pw.TextStyle(font: boldTtf, fontSize: 7, color: textColors[colorIdx]),
-                                    ),
-                                  );
-                                }).toList(),
-                              ),
-                            );
-                          }),
-                        ],
-                      );
-                    }),
-                  ],
+              pw.Container(
+                padding: const pw.EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                decoration: pw.BoxDecoration(
+                  color: PdfColors.blue50,
+                  borderRadius: pw.BorderRadius.circular(6),
+                  border: pw.Border.all(color: PdfColors.blue200, width: 0.5),
                 ),
-              ),
-              
-              // Footer
-              pw.SizedBox(height: 12),
-              pw.Row(
-                mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
-                children: [
-                  pw.Text('Oluşturulma: ${DateTime.now().day}/${DateTime.now().month}/${DateTime.now().year}',
-                    style: pw.TextStyle(font: ttf, fontSize: 8, color: PdfColors.grey500)),
-                  pw.Row(
-                    children: [
-                      pw.Container(width: 8, height: 8, decoration: pw.BoxDecoration(color: PdfColors.blue100, borderRadius: pw.BorderRadius.circular(2))),
-                      pw.SizedBox(width: 4),
-                      pw.Text('Ders Bloğu (25dk)', style: pw.TextStyle(font: ttf, fontSize: 8, color: PdfColors.grey600)),
-                    ],
-                  ),
-                ],
+                child: pw.Text('KPSS Asistan',
+                  style: pw.TextStyle(font: boldTtf, fontSize: 9, color: PdfColors.blue700)),
               ),
             ],
-          );
-        },
+          ),
+        ),
+        footer: (context) => pw.Container(
+          alignment: pw.Alignment.centerRight,
+          margin: const pw.EdgeInsets.only(top: 16),
+          child: pw.Text(
+            'Sayfa ${context.pageNumber}/${context.pagesCount}',
+            style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.grey500),
+          ),
+        ),
+        build: (context) => [
+          // Her gün için section
+          ...schedule.days.where((day) => day.blocks.isNotEmpty).map((day) {
+            final dayColor = dayColors[day.dayIndex % dayColors.length];
+            final totalMinutes = day.blocks.fold<int>(0, (sum, b) => sum + b.durationMinutes);
+            
+            // Wrap kullanarak başlık ve içeriğin ayrılmasını engelle
+            // Eğer alan yetmezse tamamı yeni sayfaya taşınır
+            return pw.Wrap(
+              children: [
+                pw.Container(
+              margin: const pw.EdgeInsets.only(bottom: 20),
+              child: pw.Column(
+                crossAxisAlignment: pw.CrossAxisAlignment.start,
+                children: [
+                  // Gün başlığı
+                  pw.Container(
+                    width: double.infinity,
+                    padding: const pw.EdgeInsets.symmetric(vertical: 10, horizontal: 14),
+                    decoration: pw.BoxDecoration(
+                      color: dayColor,
+                      borderRadius: const pw.BorderRadius.only(
+                        topLeft: pw.Radius.circular(8),
+                        topRight: pw.Radius.circular(8),
+                      ),
+                    ),
+                    child: pw.Row(
+                      mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
+                      children: [
+                        pw.Text(
+                          StudyScheduleService.getDayName(day.dayIndex).toUpperCase(),
+                          style: pw.TextStyle(font: boldTtf, fontSize: 13, color: PdfColors.white, letterSpacing: 1),
+                        ),
+                        pw.Container(
+                          padding: const pw.EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                          decoration: pw.BoxDecoration(
+                            color: PdfColors.white,
+                            borderRadius: pw.BorderRadius.circular(10),
+                          ),
+                          child: pw.Text(
+                            '${day.blocks.length} ders • ${(totalMinutes / 60).toStringAsFixed(1)} saat',
+                            style: pw.TextStyle(font: boldTtf, fontSize: 9, color: dayColor),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  
+                  // Ders blokları - Checkbox listesi
+                  pw.Container(
+                    decoration: pw.BoxDecoration(
+                      border: pw.Border.all(color: PdfColors.grey300, width: 0.5),
+                      borderRadius: const pw.BorderRadius.only(
+                        bottomLeft: pw.Radius.circular(8),
+                        bottomRight: pw.Radius.circular(8),
+                      ),
+                    ),
+                    child: pw.Column(
+                      children: day.blocks.asMap().entries.map((entry) {
+                        final index = entry.key;
+                        final block = entry.value;
+                        final isLast = index == day.blocks.length - 1;
+                        
+                        return pw.Container(
+                          padding: const pw.EdgeInsets.symmetric(vertical: 10, horizontal: 12),
+                          decoration: pw.BoxDecoration(
+                            color: index.isEven ? PdfColors.white : PdfColors.grey50,
+                            border: isLast ? null : pw.Border(
+                              bottom: pw.BorderSide(color: PdfColors.grey200, width: 0.5),
+                            ),
+                            borderRadius: isLast ? const pw.BorderRadius.only(
+                              bottomLeft: pw.Radius.circular(8),
+                              bottomRight: pw.Radius.circular(8),
+                            ) : null,
+                          ),
+                          child: pw.Row(
+                            children: [
+                              // Checkbox (boş kare)
+                              pw.Container(
+                                width: 16,
+                                height: 16,
+                                decoration: pw.BoxDecoration(
+                                  border: pw.Border.all(color: PdfColors.grey400, width: 1.5),
+                                  borderRadius: pw.BorderRadius.circular(3),
+                                ),
+                              ),
+                              pw.SizedBox(width: 12),
+                              
+                              // Saat
+                              pw.SizedBox(
+                                width: 55,
+                                child: pw.Text(
+                                  block.timeRange,
+                                  style: pw.TextStyle(font: boldTtf, fontSize: 10, color: PdfColors.grey700),
+                                ),
+                              ),
+                              
+                              // Ders adı
+                              pw.Expanded(
+                                child: pw.Text(
+                                  block.lessonName,
+                                  style: pw.TextStyle(font: boldTtf, fontSize: 11, color: PdfColors.grey900),
+                                ),
+                              ),
+                              
+                              // Aktivite ve süre
+                              pw.Container(
+                                padding: const pw.EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                decoration: pw.BoxDecoration(
+                                  color: PdfColors.grey100,
+                                  borderRadius: pw.BorderRadius.circular(4),
+                                ),
+                                child: pw.Text(
+                                  '${block.activityName} • ${block.durationMinutes}dk',
+                                  style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.grey600),
+                                ),
+                              ),
+                            ],
+                          ),
+                        );
+                      }).toList(),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+              ],
+            );
+          }),
+          
+          // Alt bilgi
+          pw.SizedBox(height: 16),
+          pw.Container(
+            padding: const pw.EdgeInsets.all(12),
+            decoration: pw.BoxDecoration(
+              color: PdfColors.grey100,
+              borderRadius: pw.BorderRadius.circular(8),
+            ),
+            child: pw.Row(
+              mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
+              children: [
+                pw.Row(
+                  children: [
+                    pw.Container(
+                      width: 14, height: 14,
+                      decoration: pw.BoxDecoration(
+                        border: pw.Border.all(color: PdfColors.grey500, width: 1),
+                        borderRadius: pw.BorderRadius.circular(3),
+                      ),
+                      child: pw.Center(
+                        child: pw.Text('✓', style: pw.TextStyle(font: ttf, fontSize: 10, color: PdfColors.grey600)),
+                      ),
+                    ),
+                    pw.SizedBox(width: 6),
+                    pw.Text('Tamamlanan dersleri isaretleyin',
+                      style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.grey600)),
+                  ],
+                ),
+                pw.Text('Olusturulma: ${DateTime.now().day}/${DateTime.now().month}/${DateTime.now().year}',
+                  style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.grey500)),
+              ],
+            ),
+          ),
+        ],
       ),
     );
 
