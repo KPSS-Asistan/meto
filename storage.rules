@@ -1,0 +1,94 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // ========================================
+    // HELPER FUNCTIONS
+    // ========================================
+    
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+    
+    function isValidImageUpload() {
+      return request.resource.size < 5 * 1024 * 1024 // 5MB max
+             && request.resource.contentType.matches('image/.*');
+    }
+    
+    function isValidFileUpload() {
+      return request.resource.size < 10 * 1024 * 1024; // 10MB max
+    }
+    
+    // ========================================
+    // USER PROFILE IMAGES
+    // ========================================
+    
+    // Profil fotoğrafları - kullanıcıya özel
+    match /profile_images/{userId}/{fileName} {
+      allow read: if true; // Herkes profil fotoğraflarını görebilir
+      allow write: if isOwner(userId) && isValidImageUpload();
+      allow delete: if isOwner(userId);
+    }
+    
+    // ========================================
+    // LESSON CONTENT IMAGES
+    // ========================================
+    
+    // Ders görselleri - public read, admin write
+    match /lesson_images/{lessonId}/{fileName} {
+      allow read: if true; // Public
+      allow write: if false; // Sadece admin console'dan
+    }
+    
+    // Konu görselleri
+    match /topic_images/{topicId}/{fileName} {
+      allow read: if true;
+      allow write: if false; // Admin console
+    }
+    
+    // ========================================
+    // FLASHCARD IMAGES
+    // ========================================
+    
+    match /flashcard_images/{flashcardId}/{fileName} {
+      allow read: if isSignedIn();
+      allow write: if false; // Admin console
+    }
+    
+    // ========================================
+    // USER GENERATED CONTENT
+    // ========================================
+    
+    // Kullanıcı feedback'leri için ekler
+    match /feedback_attachments/{userId}/{fileName} {
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId) && isValidFileUpload();
+      allow delete: if isOwner(userId);
+    }
+    
+    // ========================================
+    // TEMPORARY UPLOADS
+    // ========================================
+    
+    // Geçici yüklemeler (24 saat sonra silinmeli)
+    match /temp/{userId}/{fileName} {
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId) && isValidFileUpload();
+      allow delete: if isOwner(userId);
+    }
+    
+    // ========================================
+    // DEFAULT DENY
+    // ========================================
+    
+    // Tanımlanmamış tüm path'ler için erişim yok
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

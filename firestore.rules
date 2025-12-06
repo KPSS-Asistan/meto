@@ -1,0 +1,167 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // ========================================
+    // HELPER FUNCTIONS
+    // ========================================
+    
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+    
+    function isAdmin() {
+      return isSignedIn() && 
+             get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+    
+    // ========================================
+    // USER DATA
+    // ========================================
+    
+    // Kullanıcı profilleri - sadece kendi profilini görebilir/düzenleyebilir
+    match /users/{userId} {
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId);
+      allow create: if isSignedIn(); // Kayıt sırasında
+    }
+    
+    // Kullanıcı progress verileri
+    match /user_progress/{progressId} {
+      allow read: if isSignedIn() && 
+                     resource.data.user_id == request.auth.uid;
+      allow write: if isSignedIn() && 
+                      request.resource.data.user_id == request.auth.uid;
+      allow create: if isSignedIn();
+    }
+    
+    // Kullanıcı favorileri
+    match /user_favorites/{favoriteId} {
+      allow read: if isSignedIn() && 
+                     resource.data.user_id == request.auth.uid;
+      allow write: if isSignedIn() && 
+                      request.resource.data.user_id == request.auth.uid;
+      allow create: if isSignedIn();
+    }
+    
+    // ========================================
+    // CONTENT DATA (Public Read, Admin Write)
+    // ========================================
+    
+    // Dersler - Herkes okuyabilir, sadece admin yazabilir
+    match /lessons/{lessonId} {
+      allow read: if true; // Public okuma
+      allow write: if isAdmin(); // Sadece admin
+    }
+    
+    // Konular - Herkes okuyabilir, sadece admin yazabilir
+    match /topics/{topicId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    // Sorular - Giriş yapanlar okuyabilir, sadece admin yazabilir
+    match /questions/{questionId} {
+      allow read: if isSignedIn(); // Giriş yapmış kullanıcılar
+      allow write: if isAdmin(); // Sadece admin
+    }
+    
+    // Flashcards - Giriş yapanlar okuyabilir, sadece admin yazabilir
+    match /flashcards/{flashcardId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    
+    // Konu anlatımları
+    match /topic_explanations/{explanationId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    
+    // Hikayeler
+    match /topic_stories/{storyId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    
+    // ========================================
+    // GAME & ACTIVITY DATA
+    // ========================================
+    
+    // Oyun skorları - kullanıcıya özel
+    match /game_scores/{scoreId} {
+      allow read: if isSignedIn() && 
+                     resource.data.user_id == request.auth.uid;
+      allow write: if isSignedIn() && 
+                      request.resource.data.user_id == request.auth.uid;
+      allow create: if isSignedIn();
+    }
+    
+    // Streak verileri - kullanıcıya özel
+    match /user_streaks/{streakId} {
+      allow read: if isSignedIn() && 
+                     resource.data.user_id == request.auth.uid;
+      allow write: if isSignedIn() && 
+                      request.resource.data.user_id == request.auth.uid;
+      allow create: if isSignedIn();
+    }
+    
+    // ========================================
+    // AI COACH DATA
+    // ========================================
+    
+    // AI sohbet geçmişi - kullanıcıya özel
+    match /ai_chat_history/{chatId} {
+      allow read: if isSignedIn() && 
+                     resource.data.user_id == request.auth.uid;
+      allow write: if isSignedIn() && 
+                      request.resource.data.user_id == request.auth.uid;
+      allow create: if isSignedIn();
+    }
+    
+    // ========================================
+    // STATISTICS & ANALYTICS (Read Only)
+    // ========================================
+    
+    // İstatistikler - herkes görebilir
+    match /statistics/{statId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    // ========================================
+    // PRODUCTIVITY CONTENT
+    // ========================================
+    
+    // Verimlilik teknikleri
+    match /productivity_techniques/{techniqueId} {
+      allow read: if true; // Public
+      allow write: if isAdmin();
+    }
+    
+    // ========================================
+    // FEEDBACK & SUPPORT
+    // ========================================
+    
+    // Kullanıcı geri bildirimleri
+    match /user_feedback/{feedbackId} {
+      allow read: if isAdmin(); // Sadece admin okuyabilir
+      allow create: if isSignedIn(); // Kullanıcılar oluşturabilir
+      allow update: if isOwner(resource.data.user_id); // Kendi feedback'ini güncelleyebilir
+    }
+    
+    // ========================================
+    // DEFAULT DENY
+    // ========================================
+    
+    // Tanımlanmamış tüm collection'lar için erişim yok
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

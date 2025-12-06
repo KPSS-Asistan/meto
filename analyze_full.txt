@@ -1,0 +1,8 @@
+[info] Dangling library doc comment (C:\Users\mertc\StudioProjects\kpss_2026\lib\core\data\explanations_data.dart:1:1)
+[info] Dangling library doc comment (C:\Users\mertc\StudioProjects\kpss_2026\lib\core\data\stories_data.dart:1:1)
+[info] Dangling library doc comment (C:\Users\mertc\StudioProjects\kpss_2026\lib\core\models\topic_explanation_model.dart:1:1)
+[info] The private field _expandedIds could be 'final' (C:\Users\mertc\StudioProjects\kpss_2026\lib\features\favorites\favorites_page.dart:18:15)
+[warning] The value of the local variable 'currentQuestionIndex' isn't used (C:\Users\mertc\StudioProjects\kpss_2026\lib\features\quiz\presentation\pages\quiz_hardcoded_page.dart:81:15)
+[warning] The value of the local variable 'totalQuestions' isn't used (C:\Users\mertc\StudioProjects\kpss_2026\lib\features\quiz\presentation\pages\quiz_hardcoded_page.dart:82:15)
+[info] The private field _expandedIds could be 'final' (C:\Users\mertc\StudioProjects\kpss_2026\lib\features\wrong_answers\wrong_answers_page.dart:18:15)
+[warning] The method doesn't override an inherited method (C:\Users\mertc\StudioProjects\kpss_2026\test\unit\cubits\lesson_cubit_test.mocks.dart:54:36)

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "584598436353",
+    "firebase_url": "https://kpss-c5cad-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "kpss-c5cad",
+    "storage_bucket": "kpss-c5cad.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584598436353:android:cc94fa1b79b323c1741e00",
+        "android_client_info": {
+          "package_name": "com.example.kpss_2026"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584598436353-d4bqgueceg90fon7rqfpkb18iq6170md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kpss_2026",
+            "certificate_hash": "3beb059ca5348acfaf9d7d374bd113bacb3afe08"
+          }
+        },
+        {
+          "client_id": "584598436353-fcjs5gts8o7m446ssj5ii4c47duvpg6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7LAJJ3Pxz1K1wU1TLyJj1JnDImXmgXb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584598436353-fcjs5gts8o7m446ssj5ii4c47duvpg6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

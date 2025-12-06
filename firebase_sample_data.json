@@ -1,0 +1,117 @@
+{
+  "topic_explanations": {
+    "sample_document_1": {
+      "topic_id": "djX84Qam8a2oxl3jbZDN",
+      "topic_name": "İslamiyet'ten Önceki Türk Devletleri",
+      "lesson_id": "caZ5LwfH3QJrBVUQCros",
+      "lesson_name": "TARİH",
+      "is_published": true,
+      "is_deleted": false,
+      "sections": [
+        {
+          "title": "Giriş",
+          "content": "İslamiyet'ten önce Türkler Orta Asya'da çeşitli devletler kurmuşlardır. Bu devletler arasında Hunlar, Göktürkler ve Uygurlar en önemlileridir. Bu devletler Türk tarihinin temelini oluşturmuştur.",
+          "key_points": [
+            "Hunlar MÖ 220'de kurulmuştur",
+            "Göktürkler 552'de kurulmuştur",
+            "Uygurlar 744'te kurulmuştur"
+          ],
+          "order": 1
+        },
+        {
+          "title": "Hunlar (MÖ 220 - MS 216)",
+          "content": "Hunlar, Türk tarihinin ilk büyük devletidir. MÖ 220 yılında Orta Asya'da kurulmuştur. En güçlü dönemini Mete Han zamanında yaşamıştır. Çin Seddi, Hun akınlarına karşı inşa edilmiştir. Hunlar, İpek Yolu ticaretini kontrol ederek zenginleşmişlerdir.",
+          "key_points": [
+            "MÖ 220'de Teoman tarafından kurulmuştur",
+            "Mete Han en güçlü hükümdarıdır",
+            "Çin Seddi Hunlar'a karşı inşa edilmiştir",
+            "İpek Yolu ticaretini kontrol etmişlerdir",
+            "Atlı okçuluk konusunda çok başarılıydılar"
+          ],
+          "order": 2
+        },
+        {
+          "title": "Göktürkler (552 - 744)",
+          "content": "Göktürkler, Türk tarihinin en önemli devletlerinden biridir. 552 yılında Bumin Kağan tarafından kurulmuştur. Orhun Yazıtları bu döneme aittir ve Türk tarihinin ilk yazılı belgeleridir. Göktürkler, geniş bir coğrafyaya hükmetmişlerdir.",
+          "key_points": [
+            "552'de Bumin Kağan tarafından kurulmuştur",
+            "Orhun Yazıtları bu döneme aittir",
+            "İlk yazılı Türkçe belgeler Göktürk dönemine aittir",
+            "Doğu ve Batı Göktürk olmak üzere ikiye ayrılmıştır",
+            "Bozkurt sembolü Göktürklere aittir"
+          ],
+          "order": 3
+        },
+        {
+          "title": "Uygurlar (744 - 840)",
+          "content": "Uygurlar, Göktürklerin yıkılmasından sonra kurulmuştur. 744 yılında Kutluk Bilge Kül Kağan tarafından kurulmuştur. Uygurlar, yerleşik hayata geçen ilk Türk devletidir. Maniheizm dinini kabul etmişlerdir.",
+          "key_points": [
+            "744'te Kutluk Bilge Kül Kağan tarafından kurulmuştur",
+            "Yerleşik hayata geçen ilk Türk devletidir",
+            "Maniheizm dinini kabul etmişlerdir",
+            "Tarım ve ticaretle uğraşmışlardır",
+            "Kırgızlar tarafından yıkılmıştır"
+          ],
+          "order": 4
+        }
+      ]
+    }
+  },
+  "topic_stories": {
+    "sample_document_1": {
+      "topic_id": "djX84Qam8a2oxl3jbZDN",
+      "topic_name": "İslamiyet'ten Önceki Türk Devletleri",
+      "lesson_id": "caZ5LwfH3QJrBVUQCros",
+      "lesson_name": "TARİH",
+      "is_published": true,
+      "is_deleted": false,
+      "sections": [
+        {
+          "title": "Mete Han'ın Islık Okları",
+          "content": "Orta Asya steplerinde, genç bir savaşçı vardı. Adı Mete'ydi. Babası Teoman, onu düşman bir kabile reisinin yanına rehine olarak göndermişti. Ama Mete kaçmayı başardı ve babasının yanına döndü.\n\nMete, babasının ordusunda sıradan bir askerdi. Ama içinde büyük bir ateş yanıyordu. Bir gün, özel bir ok yaptı. Bu ok ıslık çalıyordu. Askerlerine şu emri verdi: 'Islık okumun gittiği yere ok atın!'\n\nİlk hedef bir at oldu. Bazı askerler tereddüt etti. Mete onları cezalandırdı. İkinci hedef babasının en sevdiği atıydı. Yine bazıları tereddüt etti. Onlar da cezalandırıldı.\n\nÜçüncü hedef ise babasının kendisiydi. Islık oku havada uçtu. Tüm askerler tereddütsüz oklarını Teoman'a çevirdiler. Böylece Mete Han, Hun İmparatorluğu'nun yeni hükümdarı oldu.",
+          "key_points": [
+            "Mete Han, disiplinli bir ordu kurmuştur",
+            "Islık okları ile askerlerini test etmiştir",
+            "Babasını öldürerek tahta geçmiştir",
+            "Hun İmparatorluğu'nu en güçlü dönemine taşımıştır"
+          ],
+          "order": 1
+        },
+        {
+          "title": "Çin Seddi'nin İnşası",
+          "content": "Çin İmparatoru Shi Huang Ti, Hun akınlarından korkmaktaydı. Her gece rüyasında Hun atlılarının Çin topraklarına girdiğini görüyordu.\n\nBir gece, rüyasında dev bir duvar gördü. Bu duvar, Hun atlılarını durduruyordu. Sabah olduğunda, vezirlerini topladı.\n\n'Bir duvar inşa edeceğiz,' dedi. 'Bu duvar o kadar uzun olacak ki, Hunlar geçemeyecek!'\n\nYüz binlerce işçi çalıştırıldı. Yıllar süren bir inşaattan sonra, Çin Seddi tamamlandı. Ama Hun atlıları yine de gelmeye devam etti. Çünkü onlar duvardan değil, kapılardan giriyorlardı!\n\nMete Han, Çin İmparatoru'na bir mektup gönderdi: 'Duvarınız çok güzel. Ama bizim atlarımız daha hızlı!'",
+          "key_points": [
+            "Çin Seddi, Hunlar'a karşı inşa edilmiştir",
+            "Dünyanın en uzun yapısıdır",
+            "Yüz binlerce işçi çalışmıştır",
+            "Uzaydan görülebilen tek yapıdır"
+          ],
+          "order": 2
+        },
+        {
+          "title": "Göktürk Destanı: Bozkurt Efsanesi",
+          "content": "Altay Dağları'nın eteklerinde, korkunç bir savaş yaşandı. Türk kabilesi yenildi ve tüm erkekler öldürüldü. Sadece küçük bir çocuk hayatta kaldı.\n\nDüşmanlar çocuğu da öldürmek istediler. Ama o sırada bir dişi kurt belirdi. Kurt, çocuğu ağzına aldı ve dağlara kaçtı.\n\nYıllar geçti. Kurt, çocuğu büyüttü. Çocuk, güçlü bir savaşçı oldu. Bir gün, kurt ona şöyle dedi: 'Artık zamanı geldi. Git ve kavmini yeniden kur!'\n\nGenç savaşçı, dağlardan indi. Etrafına insanlar topladı. Bir ordu kurdu. Ve böylece Göktürk Devleti doğdu.\n\nGöktürkler, kurdun torunları olduklarına inanırlardı. Bu yüzden sancaklarında bozkurt figürü vardı. Bugün bile Türk bayrağında ay-yıldız, o eski Göktürk sembollerinin devamıdır.",
+          "key_points": [
+            "Bozkurt efsanesi Göktürkler'e aittir",
+            "Türk milleti kurt totemini kutsal sayar",
+            "Göktürk sancaklarında bozkurt figürü vardır",
+            "Orhun Yazıtları bu destanı anlatır"
+          ],
+          "order": 3
+        },
+        {
+          "title": "Bilge Kağan'ın Orhun Yazıtları",
+          "content": "Bilge Kağan, Göktürk İmparatorluğu'nun en bilge hükümdarıydı. Yaşlandığında, kavmine bir miras bırakmak istedi. Ama bu miras altın ya da gümüş değildi. Bilgi mirasıydı.\n\n'Yazıtlar dikilsin,' dedi. 'Gelecek nesiller, bizim hikayemizi okusun!'\n\nYontucular, dev taşları yontmaya başladılar. Taşlara Göktürk alfabesiyle yazılar yazdılar. Bu yazılar, Türk tarihinin ilk yazılı belgeleri oldu.\n\nYazıtlarda şöyle yazıyordu: 'Türk milleti, birlik olduğunda güçlüdür. Ama ayrılırsa, düşmanlar gelir ve yok eder. Atalarınızın sözünü unutmayın!'\n\nBugün, Orhun Yazıtları hala Moğolistan'da durmaktadır. Binlerce yıl sonra bile, Bilge Kağan'ın sözleri yankılanmaktadır.",
+          "key_points": [
+            "Orhun Yazıtları Bilge Kağan döneminde dikilmiştir",
+            "Türk tarihinin ilk yazılı belgeleridir",
+            "Göktürk alfabesi ile yazılmıştır",
+            "Moğolistan'da bulunmaktadır",
+            "Türk birliğinin önemini vurgular"
+          ],
+          "order": 4
+        }
+      ]
+    }
+  }
+}

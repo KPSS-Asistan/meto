@@ -1,0 +1,7 @@
+﻿Analyzing kpss_2026...                                          
+
+   info - Dangling library doc comment - lib\core\data\flashcards\tarih_islamiyet_oncesi.dart:1:1 - dangling_library_doc_comments
+  error - Expected to find ';' - lib\core\data\flashcards\tarih_islamiyet_oncesi.dart:6:66 - expected_token
+  error - Expected to find ']' - lib\core\data\flashcards\tarih_islamiyet_oncesi.dart:7:3 - expected_token
+warning - The method doesn't override an inherited method - test\unit\cubits\lesson_cubit_test.mocks.dart:54:36 - override_on_non_overriding_member
+
