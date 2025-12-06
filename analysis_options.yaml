@@ -12,21 +12,52 @@ include: package:flutter_lints/flutter.yaml
 analyzer:
   exclude:
     - kpss_flashcards/**
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+  errors:
+    unused_import: warning
+    unused_local_variable: warning
+    dead_code: warning
+    deprecated_member_use: warning
 
 linter:
-  # The lint rules applied to this project can be customized in the
-  # section below to disable rules from the `package:flutter_lints/flutter.yaml`
-  # included above or to enable additional rules. A list of all available lints
-  # and their documentation is published at https://dart.dev/lints.
-  #
-  # Instead of disabling a lint rule for the entire project in the
-  # section below, it can also be suppressed for a single line of code
-  # or a specific dart file by using the `// ignore: name_of_lint` and
-  # `// ignore_for_file: name_of_lint` syntax on the line or in the file
-  # producing the lint.
   rules:
-    avoid_print: false  # Debug prints allowed for now
-    # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+    # ═══════════════════════════════════════════════════════════════════════════
+    # PERFORMANS
+    # ═══════════════════════════════════════════════════════════════════════════
+    avoid_unnecessary_containers: true
+    sized_box_for_whitespace: false  # Çok fazla false positive
+    use_colored_box: false  # Kademeli düzeltme için kapalı
+    prefer_const_constructors: false  # Kademeli düzeltme için kapalı
+    prefer_const_literals_to_create_immutables: false  # Kademeli düzeltme için kapalı
+    prefer_const_declarations: false  # Kademeli düzeltme için kapalı
+    
+    # ═══════════════════════════════════════════════════════════════════════════
+    # GÜVENLİK
+    # ═══════════════════════════════════════════════════════════════════════════
+    no_logic_in_create_state: true
+    use_key_in_widget_constructors: true
+    
+    # ═══════════════════════════════════════════════════════════════════════════
+    # KOD KALİTESİ
+    # ═══════════════════════════════════════════════════════════════════════════
+    prefer_final_fields: true
+    prefer_final_locals: false  # Kademeli düzeltme için kapalı
+    avoid_print: false  # Debug prints allowed (AppLogger kullanılıyor)
+    always_declare_return_types: true
+    annotate_overrides: true
+    avoid_empty_else: true
+    avoid_returning_null_for_void: true
+    empty_catches: true
+    empty_statements: true
+    
+    # ═══════════════════════════════════════════════════════════════════════════
+    # OKUNABİLİRLİK
+    # ═══════════════════════════════════════════════════════════════════════════
+    prefer_single_quotes: false  # Mevcut kodla uyumsuz
+    sort_child_properties_last: true
+    use_full_hex_values_for_flutter_colors: true
+    unnecessary_brace_in_string_interps: true
 
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options
