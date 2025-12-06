@@ -4,47 +4,19 @@ import 'package:printing/printing.dart';
 import 'package:kpss_2026/core/services/study_schedule_service.dart';
 
 /// PDF olarak ders programı çıktısı oluşturur
-/// Checklist formatında, her gün için taktik önerileri içerir
+/// Her gün ayrı tablo - başlık ve içerik birleşik
 class SchedulePdfExporter {
   SchedulePdfExporter._(); // Private constructor
 
-  // Aktiviteye göre taktik önerileri
-  static const Map<String, List<String>> _tacticsPerActivity = {
-    'learn': [
-      '💡 İlk okuduğunuzda anlamaya değil, genel resmi görmeye çalışın',
-      '📝 Önemli kavramları kendi cümlelerinizle not alın',
-      '🎯 Bu konuyu öğrenme amacınızı hatırlayın',
-      '🔍 Zorlandığınız yerleri işaretleyin, sonra geri dönün',
-      '📚 Konuyu küçük parçalara bölün, her parçayı ayrı öğrenin',
-      '🧠 Aktif okuma yapın: "Bu ne anlama geliyor?" diye sorun',
-    ],
-    'review': [
-      '🔄 Dün öğrendiklerinizi hatırlamaya çalışın (aktif geri çağırma)',
-      '✍️ Notlarınıza bakmadan konuyu özetlemeye çalışın',
-      '🎯 Aralıklı Tekrar: Bugün tekrar = %80 kalıcılık',
-      '📊 Mindmap veya görsel şema çizerek tekrar edin',
-      '🗣️ Konuyu birine anlatıyormuş gibi sesli tekrar edin',
-      '❓ Kendi kendinize sorular sorun ve cevaplayın',
-    ],
-    'practice': [
-      '📝 Soru çözerken zaman tutun ama acelemaye gerek yok',
-      '❌ Yanlışlarınızı not alın, bunlar altın değerinde',
-      '🔍 Neden yanlış olduğunu anlayın, sadece doğru cevabı değil',
-      '⏱️ Gerçek sınav formatında pratik yapın',
-      '📈 Her soru grubundan sonra performansınızı değerlendirin',
-      '🎯 Zayıf konuları tespit edip ekstra pratik yapın',
-    ],
-  };
-
-  // Gün bazlı motivasyon mesajları
-  static const List<String> _dailyMotivations = [
-    'Pazartesi enerjinizi hafta boyuna yayın! 💪',
-    'Salı günü düzene oturmanın zamanı 📚',
-    'Çarşamba: Hafta ortası performans günü! 🎯',
-    'Perşembe: Son sprint öncesi konsantrasyon 🔥',
-    'Cuma: Haftayı güçlü kapatın! ✨',
-    'Cumartesi: Extra çalışma = Extra başarı 🚀',
-    'Pazar: Haftalık tekrar ve planlama günü 📅',
+  // Gün renkleri
+  static const List<PdfColor> _dayColors = [
+    PdfColors.blue600,    // Pzt
+    PdfColors.teal600,    // Sal
+    PdfColors.green600,   // Çar
+    PdfColors.orange600,  // Per
+    PdfColors.purple600,  // Cum
+    PdfColors.pink600,    // Cmt
+    PdfColors.red600,     // Paz
   ];
 
   /// PDF oluştur ve yazdırma/paylaşma dialogu aç
@@ -55,31 +27,18 @@ class SchedulePdfExporter {
     final ttf = await PdfGoogleFonts.notoSansRegular();
     final boldTtf = await PdfGoogleFonts.notoSansBold();
 
-    // Renk paleti
-    final dayColors = [
-      PdfColors.blue700,    // Pzt
-      PdfColors.teal700,    // Sal
-      PdfColors.green700,   // Çar
-      PdfColors.orange700,  // Per
-      PdfColors.purple700,  // Cum
-      PdfColors.pink700,    // Cmt
-      PdfColors.red700,     // Paz
-    ];
-
     pdf.addPage(
       pw.MultiPage(
         pageFormat: PdfPageFormat.a4,
-        margin: const pw.EdgeInsets.all(32),
+        margin: const pw.EdgeInsets.all(24),
         header: (context) => _buildHeader(schedule, ttf, boldTtf),
         footer: (context) => _buildFooter(context, ttf),
         build: (context) => [
-          // Her gün için section
+          // Her gün için ayrı tablo
           ...schedule.days.where((day) => day.blocks.isNotEmpty).map((day) {
-            return _buildDaySection(day, dayColors, ttf, boldTtf);
+            return _buildDayTable(day, ttf, boldTtf);
           }),
-          
-          // Alt bilgi
-          pw.SizedBox(height: 16),
+          pw.SizedBox(height: 12),
           _buildInfoBox(ttf),
         ],
       ),
@@ -93,30 +52,32 @@ class SchedulePdfExporter {
 
   static pw.Widget _buildHeader(WeeklySchedule schedule, pw.Font ttf, pw.Font boldTtf) {
     return pw.Container(
-      margin: const pw.EdgeInsets.only(bottom: 20),
+      margin: const pw.EdgeInsets.only(bottom: 12),
+      padding: const pw.EdgeInsets.all(10),
+      decoration: pw.BoxDecoration(
+        color: PdfColors.grey100,
+        borderRadius: pw.BorderRadius.circular(6),
+      ),
       child: pw.Row(
         mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
-        crossAxisAlignment: pw.CrossAxisAlignment.end,
         children: [
           pw.Column(
             crossAxisAlignment: pw.CrossAxisAlignment.start,
             children: [
               pw.Text('KPSS Haftalık Çalışma Planı',
-                style: pw.TextStyle(font: boldTtf, fontSize: 22, color: PdfColors.grey800)),
-              pw.SizedBox(height: 4),
-              pw.Text('Toplam ${(schedule.totalWeeklyMinutes / 60).toStringAsFixed(0)} saat • ${schedule.totalBlocks} pomodoro bloğu',
-                style: pw.TextStyle(font: ttf, fontSize: 11, color: PdfColors.grey600)),
+                style: pw.TextStyle(font: boldTtf, fontSize: 16, color: PdfColors.grey800)),
+              pw.Text('${(schedule.totalWeeklyMinutes / 60).toStringAsFixed(0)} saat • ${schedule.totalBlocks} ders',
+                style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.grey600)),
             ],
           ),
           pw.Container(
-            padding: const pw.EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+            padding: const pw.EdgeInsets.symmetric(horizontal: 6, vertical: 3),
             decoration: pw.BoxDecoration(
-              color: PdfColors.blue50,
-              borderRadius: pw.BorderRadius.circular(6),
-              border: pw.Border.all(color: PdfColors.blue200, width: 0.5),
+              color: PdfColors.blue600,
+              borderRadius: pw.BorderRadius.circular(4),
             ),
             child: pw.Text('KPSS Asistan 2026',
-              style: pw.TextStyle(font: boldTtf, fontSize: 9, color: PdfColors.blue700)),
+              style: pw.TextStyle(font: boldTtf, fontSize: 7, color: PdfColors.white)),
           ),
         ],
       ),
@@ -126,338 +87,148 @@ class SchedulePdfExporter {
   static pw.Widget _buildFooter(pw.Context context, pw.Font ttf) {
     return pw.Container(
       alignment: pw.Alignment.centerRight,
-      margin: const pw.EdgeInsets.only(top: 16),
+      margin: const pw.EdgeInsets.only(top: 6),
       child: pw.Text(
-        'Sayfa ${context.pageNumber}/${context.pagesCount}',
-        style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.grey500),
+        'Sayfa ${context.pageNumber}/${context.pagesCount} • ${DateTime.now().day}/${DateTime.now().month}/${DateTime.now().year}',
+        style: pw.TextStyle(font: ttf, fontSize: 8, color: PdfColors.grey500),
       ),
     );
   }
 
-  static pw.Widget _buildDaySection(
-    DailySchedule day,
-    List<PdfColor> dayColors,
-    pw.Font ttf,
-    pw.Font boldTtf,
-  ) {
-    final dayColor = dayColors[day.dayIndex % dayColors.length];
+  /// Her gün için ayrı tablo - başlık tablonun parçası
+  static pw.Widget _buildDayTable(DailySchedule day, pw.Font ttf, pw.Font boldTtf) {
+    final dayColor = _dayColors[day.dayIndex % _dayColors.length];
+    final dayName = StudyScheduleService.getDayName(day.dayIndex).toUpperCase();
     final totalMinutes = day.blocks.fold<int>(0, (sum, b) => sum + b.durationMinutes);
     
-    // O gündeki aktivitelere göre rastgele taktik seç
-    final activities = day.blocks.map((b) => b.activity).toSet();
-    final selectedTactics = <String>[];
-    for (final activity in activities) {
-      final tactics = _tacticsPerActivity[activity] ?? [];
-      if (tactics.isNotEmpty) {
-        // Her aktivite için bir taktik seç (deterministik - gün index'e göre)
-        final index = (day.dayIndex + activities.toList().indexOf(activity)) % tactics.length;
-        selectedTactics.add(tactics[index]);
-      }
-    }
-
-    return pw.Container(
-      margin: const pw.EdgeInsets.only(bottom: 20),
-      child: pw.Column(
-        crossAxisAlignment: pw.CrossAxisAlignment.start,
+    final rows = <pw.TableRow>[];
+    
+    // İlk satır = Gün başlığı (tablonun parçası)
+    rows.add(
+      pw.TableRow(
+        decoration: pw.BoxDecoration(color: dayColor),
         children: [
-          // Gün başlığı
+          // Gün adı - 3 sütunu kapsıyor
           pw.Container(
-            width: double.infinity,
-            padding: const pw.EdgeInsets.symmetric(vertical: 10, horizontal: 14),
-            decoration: pw.BoxDecoration(
-              color: dayColor,
-              borderRadius: const pw.BorderRadius.only(
-                topLeft: pw.Radius.circular(8),
-                topRight: pw.Radius.circular(8),
-              ),
-            ),
-            child: pw.Row(
-              mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
-              children: [
-                pw.Text(
-                  StudyScheduleService.getDayName(day.dayIndex).toUpperCase(),
-                  style: pw.TextStyle(font: boldTtf, fontSize: 13, color: PdfColors.white, letterSpacing: 1),
-                ),
-                pw.Container(
-                  padding: const pw.EdgeInsets.symmetric(horizontal: 8, vertical: 3),
-                  decoration: pw.BoxDecoration(
-                    color: PdfColors.white,
-                    borderRadius: pw.BorderRadius.circular(10),
-                  ),
-                  child: pw.Text(
-                    '${day.blocks.length} ders • ${(totalMinutes / 60).toStringAsFixed(1)} saat',
-                    style: pw.TextStyle(font: boldTtf, fontSize: 9, color: dayColor),
-                  ),
-                ),
-              ],
+            padding: const pw.EdgeInsets.symmetric(vertical: 8, horizontal: 8),
+            child: pw.Text(
+              dayName,
+              style: pw.TextStyle(font: boldTtf, fontSize: 11, color: PdfColors.white, letterSpacing: 0.5),
             ),
           ),
-          
-          // Ders blokları - Checkbox listesi
+          pw.Container(), // Boş
+          pw.Container(), // Boş
+          // Özet - sağ taraf
           pw.Container(
-            decoration: pw.BoxDecoration(
-              border: pw.Border.all(color: PdfColors.grey300, width: 0.5),
-            ),
-            child: pw.Column(
-              children: day.blocks.asMap().entries.map((entry) {
-                final index = entry.key;
-                final block = entry.value;
-                
-                return pw.Container(
-                  padding: const pw.EdgeInsets.symmetric(vertical: 10, horizontal: 12),
-                  decoration: pw.BoxDecoration(
-                    color: index.isEven ? PdfColors.white : PdfColors.grey50,
-                    border: index < day.blocks.length - 1 
-                      ? pw.Border(bottom: pw.BorderSide(color: PdfColors.grey200, width: 0.5))
-                      : null,
-                  ),
-                  child: pw.Row(
-                    children: [
-                      // Checkbox (boş kare)
-                      pw.Container(
-                        width: 16,
-                        height: 16,
-                        decoration: pw.BoxDecoration(
-                          border: pw.Border.all(color: PdfColors.grey400, width: 1.5),
-                          borderRadius: pw.BorderRadius.circular(3),
-                        ),
-                      ),
-                      pw.SizedBox(width: 12),
-                      
-                      // Saat
-                      pw.SizedBox(
-                        width: 55,
-                        child: pw.Text(
-                          block.timeRange,
-                          style: pw.TextStyle(font: boldTtf, fontSize: 10, color: PdfColors.grey700),
-                        ),
-                      ),
-                      
-                      // Ders adı
-                      pw.Expanded(
-                        child: pw.Text(
-                          block.lessonName,
-                          style: pw.TextStyle(font: boldTtf, fontSize: 11, color: PdfColors.grey900),
-                        ),
-                      ),
-                      
-                      // Aktivite ve süre
-                      pw.Container(
-                        padding: const pw.EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                        decoration: pw.BoxDecoration(
-                          color: PdfColors.grey100,
-                          borderRadius: pw.BorderRadius.circular(4),
-                        ),
-                        child: pw.Text(
-                          '${block.activityName} • ${block.durationMinutes}dk',
-                          style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.grey600),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              }).toList(),
+            padding: const pw.EdgeInsets.symmetric(vertical: 8, horizontal: 8),
+            child: pw.Text(
+              '${day.blocks.length} ders • ${(totalMinutes / 60).toStringAsFixed(1)} saat',
+              style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.white),
+              textAlign: pw.TextAlign.right,
             ),
           ),
-          
-          // Günün Taktiği - Profesyonel Kart Tasarımı
-          if (selectedTactics.isNotEmpty)
+        ],
+      ),
+    );
+    
+    // Ders satırları
+    for (int i = 0; i < day.blocks.length; i++) {
+      final block = day.blocks[i];
+      final rowColor = i.isEven ? PdfColors.white : PdfColors.grey50;
+      
+      rows.add(
+        pw.TableRow(
+          decoration: pw.BoxDecoration(color: rowColor),
+          children: [
+            // Checkbox + Saat
             pw.Container(
-              width: double.infinity,
-              margin: const pw.EdgeInsets.only(top: 8),
-              decoration: pw.BoxDecoration(
-                gradient: pw.LinearGradient(
-                  colors: [dayColor.shade(100), PdfColors.white],
-                  begin: pw.Alignment.topLeft,
-                  end: pw.Alignment.bottomRight,
-                ),
-                borderRadius: pw.BorderRadius.circular(10),
-                border: pw.Border.all(color: dayColor.shade(200), width: 1),
-              ),
-              child: pw.Column(
-                crossAxisAlignment: pw.CrossAxisAlignment.start,
+              padding: const pw.EdgeInsets.symmetric(vertical: 6, horizontal: 6),
+              child: pw.Row(
                 children: [
-                  // Başlık Bar
                   pw.Container(
-                    width: double.infinity,
-                    padding: const pw.EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                    width: 12,
+                    height: 12,
                     decoration: pw.BoxDecoration(
-                      color: dayColor.shade(800),
-                      borderRadius: const pw.BorderRadius.only(
-                        topLeft: pw.Radius.circular(9),
-                        topRight: pw.Radius.circular(9),
-                      ),
-                    ),
-                    child: pw.Row(
-                      children: [
-                        pw.Container(
-                          width: 20,
-                          height: 20,
-                          decoration: pw.BoxDecoration(
-                            color: PdfColors.white,
-                            borderRadius: pw.BorderRadius.circular(10),
-                          ),
-                          child: pw.Center(
-                            child: pw.Text('★', style: pw.TextStyle(font: boldTtf, fontSize: 10, color: dayColor)),
-                          ),
-                        ),
-                        pw.SizedBox(width: 10),
-                        pw.Text(
-                          'BUGÜNKÜ ÇALIŞMA TAKTİKLERİ',
-                          style: pw.TextStyle(font: boldTtf, fontSize: 11, color: PdfColors.white, letterSpacing: 0.5),
-                        ),
-                      ],
+                      border: pw.Border.all(color: PdfColors.grey400, width: 1),
+                      borderRadius: pw.BorderRadius.circular(2),
                     ),
                   ),
-                  
-                  // Taktik Kartları
-                  pw.Padding(
-                    padding: const pw.EdgeInsets.all(12),
-                    child: pw.Column(
-                      children: _buildTacticCards(activities.toList(), day.dayIndex, ttf, boldTtf, dayColor),
-                    ),
+                  pw.SizedBox(width: 6),
+                  pw.Text(
+                    block.timeRange,
+                    style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.grey700),
                   ),
                 ],
               ),
             ),
-        ],
-      ),
-    );
-  }
-
-  /// Her aktivite için ayrı kart oluştur
-  static List<pw.Widget> _buildTacticCards(
-    List<String> activities,
-    int dayIndex,
-    pw.Font ttf,
-    pw.Font boldTtf,
-    PdfColor dayColor,
-  ) {
-    final cards = <pw.Widget>[];
-    
-    // Aktivite bilgileri
-    final activityInfo = {
-      'learn': {
-        'label': '📖 YENİ KONU',
-        'color': PdfColors.blue600,
-        'bgColor': PdfColors.blue50,
-      },
-      'review': {
-        'label': '🔄 TEKRAR',
-        'color': PdfColors.orange600,
-        'bgColor': PdfColors.orange50,
-      },
-      'practice': {
-        'label': '✍️ PRATİK',
-        'color': PdfColors.green600,
-        'bgColor': PdfColors.green50,
-      },
-    };
-
-    for (int i = 0; i < activities.length && i < 3; i++) {
-      final activity = activities[i];
-      final info = activityInfo[activity];
-      final tactics = _tacticsPerActivity[activity] ?? [];
-      
-      if (tactics.isEmpty || info == null) continue;
-      
-      final tacticIndex = (dayIndex + i) % tactics.length;
-      final tactic = tactics[tacticIndex];
-      
-      // Emoji ve taktik metnini ayır
-      final tacticText = tactic.length > 2 ? tactic.substring(2).trim() : tactic;
-      final emoji = tactic.length > 2 ? tactic.substring(0, 2) : '💡';
-      
-      cards.add(
-        pw.Container(
-          margin: pw.EdgeInsets.only(bottom: i < activities.length - 1 ? 8 : 0),
-          padding: const pw.EdgeInsets.all(10),
-          decoration: pw.BoxDecoration(
-            color: info['bgColor'] as PdfColor,
-            borderRadius: pw.BorderRadius.circular(8),
-            border: pw.Border.all(color: (info['color'] as PdfColor).shade(200), width: 0.5),
-          ),
-          child: pw.Row(
-            crossAxisAlignment: pw.CrossAxisAlignment.start,
-            children: [
-              // Sol taraf - Aktivite etiketi
-              pw.Container(
-                width: 75,
-                padding: const pw.EdgeInsets.symmetric(horizontal: 6, vertical: 4),
-                decoration: pw.BoxDecoration(
-                  color: info['color'] as PdfColor,
-                  borderRadius: pw.BorderRadius.circular(4),
-                ),
-                child: pw.Text(
-                  (info['label'] as String).split(' ').last,
-                  style: pw.TextStyle(font: boldTtf, fontSize: 8, color: PdfColors.white),
-                  textAlign: pw.TextAlign.center,
-                ),
+            // Ders adı
+            pw.Container(
+              padding: const pw.EdgeInsets.symmetric(vertical: 6, horizontal: 6),
+              child: pw.Text(
+                block.lessonName,
+                style: pw.TextStyle(font: boldTtf, fontSize: 10, color: PdfColors.grey900),
               ),
-              pw.SizedBox(width: 10),
-              
-              // Sağ taraf - Taktik içeriği
-              pw.Expanded(
-                child: pw.Column(
-                  crossAxisAlignment: pw.CrossAxisAlignment.start,
-                  children: [
-                    pw.Row(
-                      crossAxisAlignment: pw.CrossAxisAlignment.start,
-                      children: [
-                        pw.Text(
-                          emoji,
-                          style: pw.TextStyle(font: ttf, fontSize: 12),
-                        ),
-                        pw.SizedBox(width: 6),
-                        pw.Expanded(
-                          child: pw.Text(
-                            tacticText,
-                            style: pw.TextStyle(font: ttf, fontSize: 10, color: PdfColors.grey800),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
+            ),
+            // Aktivite
+            pw.Container(
+              padding: const pw.EdgeInsets.symmetric(vertical: 6, horizontal: 4),
+              child: pw.Text(
+                block.activityName,
+                style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.grey600),
+                textAlign: pw.TextAlign.center,
               ),
-            ],
-          ),
+            ),
+            // Süre
+            pw.Container(
+              padding: const pw.EdgeInsets.symmetric(vertical: 6, horizontal: 6),
+              child: pw.Text(
+                '${block.durationMinutes}dk',
+                style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.grey600),
+                textAlign: pw.TextAlign.right,
+              ),
+            ),
+          ],
         ),
       );
     }
     
-    return cards;
+    return pw.Container(
+      margin: const pw.EdgeInsets.only(bottom: 12),
+      child: pw.Table(
+        border: pw.TableBorder.all(color: PdfColors.grey300, width: 0.5),
+        columnWidths: {
+          0: const pw.FixedColumnWidth(90),  // Checkbox + Saat
+          1: const pw.FlexColumnWidth(1),    // Ders
+          2: const pw.FixedColumnWidth(65),  // Aktivite
+          3: const pw.FixedColumnWidth(45),  // Süre
+        },
+        children: rows,
+      ),
+    );
   }
 
   static pw.Widget _buildInfoBox(pw.Font ttf) {
     return pw.Container(
-      padding: const pw.EdgeInsets.all(12),
+      padding: const pw.EdgeInsets.symmetric(vertical: 6, horizontal: 10),
       decoration: pw.BoxDecoration(
         color: PdfColors.grey100,
-        borderRadius: pw.BorderRadius.circular(8),
+        borderRadius: pw.BorderRadius.circular(4),
       ),
       child: pw.Row(
-        mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
         children: [
-          pw.Row(
-            children: [
-              pw.Container(
-                width: 14, height: 14,
-                decoration: pw.BoxDecoration(
-                  border: pw.Border.all(color: PdfColors.grey500, width: 1),
-                  borderRadius: pw.BorderRadius.circular(3),
-                ),
-                child: pw.Center(
-                  child: pw.Text('✓', style: pw.TextStyle(font: ttf, fontSize: 10, color: PdfColors.grey600)),
-                ),
-              ),
-              pw.SizedBox(width: 6),
-              pw.Text('Tamamlanan dersleri isaretleyin',
-                style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.grey600)),
-            ],
+          pw.Container(
+            width: 10, height: 10,
+            decoration: pw.BoxDecoration(
+              border: pw.Border.all(color: PdfColors.grey500, width: 1),
+              borderRadius: pw.BorderRadius.circular(2),
+            ),
+            child: pw.Center(
+              child: pw.Text('✓', style: pw.TextStyle(font: ttf, fontSize: 7, color: PdfColors.grey600)),
+            ),
           ),
-          pw.Text('Olusturulma: ${DateTime.now().day}/${DateTime.now().month}/${DateTime.now().year}',
-            style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.grey500)),
+          pw.SizedBox(width: 4),
+          pw.Text('Tamamlanan dersleri isaretleyin',
+            style: pw.TextStyle(font: ttf, fontSize: 8, color: PdfColors.grey600)),
         ],
       ),
     );
