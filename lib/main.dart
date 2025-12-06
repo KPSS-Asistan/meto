@@ -11,6 +11,8 @@ import 'package:kpss_2026/core/repositories/question_repository.dart';
 import 'package:kpss_2026/core/repositories/topic_repository.dart';
 import 'package:kpss_2026/core/services/notification_service.dart';
 import 'package:kpss_2026/core/services/purchase_service.dart';
+import 'package:kpss_2026/core/services/security_service.dart';
+import 'package:kpss_2026/core/utils/app_logger.dart';
 import 'package:provider/provider.dart';
 import 'core/router/app_router.dart';
 import 'core/theme/app_theme.dart';
@@ -62,6 +64,23 @@ void main() async {
   // IN-APP PURCHASE - Satın Alma Servisi
   // ═══════════════════════════════════════════════════════════════════════════
   await PurchaseService.initialize();
+  
+  // ═══════════════════════════════════════════════════════════════════════════
+  // 🔒 SECURITY CHECK - Güvenlik Kontrolü
+  // ═══════════════════════════════════════════════════════════════════════════
+  if (!kDebugMode) {
+    final securityResult = await SecurityService.instance.performFullSecurityCheck();
+    AppLogger.info('Security check: riskLevel=${securityResult.riskLevel}/10');
+    
+    // Kritik güvenlik riski varsa logla (opsiyonel: uygulamayı durdur)
+    if (securityResult.riskLevel >= 6) {
+      AppLogger.warning('High security risk detected: ${securityResult.risks}');
+      // Opsiyonel: Root cihazlarda uygulamayı kapat
+      // if (securityResult.isJailbroken) {
+      //   exit(0);
+      // }
+    }
+  }
   
   // ═══════════════════════════════════════════════════════════════════════════
   // RUN APP

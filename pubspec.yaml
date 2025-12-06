@@ -82,6 +82,12 @@ dependencies:
   # Security - Güvenli veri saklama
   flutter_secure_storage: ^9.2.4
   
+  # Security - Root/Jailbreak Detection
+  flutter_jailbreak_detection: ^1.10.0
+  
+  # Security - Tamper Detection
+  safe_device: ^1.1.7
+  
   # In-App Purchase
   in_app_purchase: ^3.2.0
   
