@@ -23,7 +23,43 @@
 5. ✅ `isMinifyEnabled = true` aktif
 6. ✅ `isShrinkResources = true` aktif
 7. ✅ Tree-shaking: MaterialIcons %98.2, CupertinoIcons %99.7 azalma
-8. ✅ `analysis_options.yaml` güçlendirildi  
+8. ✅ `analysis_options.yaml` güçlendirildi
+
+---
+
+## 🔒 GÜVENLİK ÖNLEMLERİ (7 Aralık 2025)
+
+### Uygulanan Güvenlik Katmanları
+
+| Özellik | Durum | Açıklama |
+|---------|-------|----------|
+| Root/Jailbreak Detection | ✅ | `flutter_jailbreak_detection` + `safe_device` |
+| Emulator Detection | ✅ | Gerçek cihaz kontrolü |
+| Screenshot Protection | ✅ | `FLAG_SECURE` (Android) |
+| Secure Storage | ✅ | AES-256 şifreleme (API keys) |
+| Network Security Config | ✅ | Cleartext traffic engelli |
+| Code Obfuscation | ✅ | `--obfuscate` flag ile build |
+| Backup Disabled | ✅ | `allowBackup=false` |
+| Debug Detection | ✅ | `kDebugMode` kontrolü |
+| Mock Location Detection | ✅ | Sahte konum tespiti |
+| Developer Options Detection | ✅ | Geliştirici seçenekleri kontrolü |
+
+### Risk Seviyeleri (0-10)
+- **0-2:** Güvenli ✅
+- **3-5:** Düşük risk ⚠️
+- **6-10:** Yüksek risk ⛔
+
+### Güvenlik Testleri
+```
+✅ 13 güvenlik testi geçti
+✅ SecurityCheckResult doğrulaması
+✅ Risk hesaplama doğrulaması
+```
+
+### Build Komutu (Obfuscation ile)
+```bash
+flutter build apk --release --obfuscate --split-debug-info=build/symbols
+```  
 
 ---
 

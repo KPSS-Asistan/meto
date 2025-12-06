@@ -12,7 +12,10 @@
         android:label="kpss_2026"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
-        android:supportsRtl="true">
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:allowBackup="false"
+        android:fullBackupContent="false">
         <activity
             android:name=".MainActivity"
             android:exported="true"

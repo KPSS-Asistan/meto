@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    🔒 NETWORK SECURITY CONFIGURATION
+    
+    Bu dosya uygulamanın ağ güvenlik politikalarını tanımlar:
+    - Cleartext traffic (HTTP) engellenir
+    - Yalnızca HTTPS bağlantılarına izin verilir
+    - Firebase ve Google servisleri için güvenli bağlantı
+    
+    Referans: https://developer.android.com/training/articles/security-config
+-->
+<network-security-config>
+    
+    <!-- 🔒 Varsayılan: Cleartext (HTTP) trafiği engelle -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <!-- Sistem CA sertifikalarına güven -->
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    
+    <!-- 🔥 Firebase servisleri için domain yapılandırması -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">firebaseio.com</domain>
+        <domain includeSubdomains="true">googleapis.com</domain>
+        <domain includeSubdomains="true">firebase.google.com</domain>
+        <domain includeSubdomains="true">firestore.googleapis.com</domain>
+        <domain includeSubdomains="true">cloudfunctions.net</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+    
+    <!-- 🤖 OpenRouter AI API için domain yapılandırması -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">openrouter.ai</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+    
+</network-security-config>
