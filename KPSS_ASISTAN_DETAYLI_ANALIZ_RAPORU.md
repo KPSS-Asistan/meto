@@ -6,6 +6,27 @@
 
 ---
 
+## ✅ UYGULANAN OPTİMİZASYONLAR (7 Aralık 2025)
+
+### APK Boyutları (Release Build)
+| Mimari | Boyut |
+|--------|-------|
+| armeabi-v7a | **24.4 MB** |
+| arm64-v8a | **26.0 MB** |
+| x86_64 | **27.2 MB** |
+
+### Yapılan Değişiklikler
+1. ✅ `.env` assets'ten kaldırıldı (güvenlik)
+2. ✅ `flutter_dotenv` paketi kaldırıldı
+3. ✅ `moon_design` paketi kaldırıldı (~2MB tasarruf)
+4. ✅ Proguard rules eklendi
+5. ✅ `isMinifyEnabled = true` aktif
+6. ✅ `isShrinkResources = true` aktif
+7. ✅ Tree-shaking: MaterialIcons %98.2, CupertinoIcons %99.7 azalma
+8. ✅ `analysis_options.yaml` güçlendirildi  
+
+---
+
 ## 📊 GENEL BAKIŞ
 
 | Metrik | Değer | Durum |
@@ -14,7 +35,7 @@
 | Sayfa Sayısı | 37 | ✅ |
 | Servis Sayısı | 23 | ✅ |
 | Repository Sayısı | 9 | ✅ |
-| Flutter Analyze | 2 uyarı | ✅ |
+| Flutter Analyze | 0 hata | ✅ |
 | TODO Sayısı | 143 | ⚠️ |
 
 ---

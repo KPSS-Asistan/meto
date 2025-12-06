@@ -260,40 +260,173 @@ class SchedulePdfExporter {
             ),
           ),
           
-          // Günün Taktiği - Motivasyon kutusu
+          // Günün Taktiği - Profesyonel Kart Tasarımı
           if (selectedTactics.isNotEmpty)
             pw.Container(
               width: double.infinity,
-              padding: const pw.EdgeInsets.all(10),
+              margin: const pw.EdgeInsets.only(top: 8),
               decoration: pw.BoxDecoration(
-                color: dayColor.shade(50),
-                border: pw.Border.all(color: PdfColors.grey300, width: 0.5),
-                borderRadius: const pw.BorderRadius.only(
-                  bottomLeft: pw.Radius.circular(8),
-                  bottomRight: pw.Radius.circular(8),
+                gradient: pw.LinearGradient(
+                  colors: [dayColor.shade(100), PdfColors.white],
+                  begin: pw.Alignment.topLeft,
+                  end: pw.Alignment.bottomRight,
                 ),
+                borderRadius: pw.BorderRadius.circular(10),
+                border: pw.Border.all(color: dayColor.shade(200), width: 1),
               ),
               child: pw.Column(
                 crossAxisAlignment: pw.CrossAxisAlignment.start,
                 children: [
-                  pw.Text(
-                    'Günün Taktikleri:',
-                    style: pw.TextStyle(font: boldTtf, fontSize: 9, color: dayColor),
-                  ),
-                  pw.SizedBox(height: 4),
-                  ...selectedTactics.take(2).map((tactic) => pw.Padding(
-                    padding: const pw.EdgeInsets.only(bottom: 2),
-                    child: pw.Text(
-                      tactic,
-                      style: pw.TextStyle(font: ttf, fontSize: 8, color: PdfColors.grey700),
+                  // Başlık Bar
+                  pw.Container(
+                    width: double.infinity,
+                    padding: const pw.EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                    decoration: pw.BoxDecoration(
+                      color: dayColor.shade(800),
+                      borderRadius: const pw.BorderRadius.only(
+                        topLeft: pw.Radius.circular(9),
+                        topRight: pw.Radius.circular(9),
+                      ),
                     ),
-                  )),
+                    child: pw.Row(
+                      children: [
+                        pw.Container(
+                          width: 20,
+                          height: 20,
+                          decoration: pw.BoxDecoration(
+                            color: PdfColors.white,
+                            borderRadius: pw.BorderRadius.circular(10),
+                          ),
+                          child: pw.Center(
+                            child: pw.Text('★', style: pw.TextStyle(font: boldTtf, fontSize: 10, color: dayColor)),
+                          ),
+                        ),
+                        pw.SizedBox(width: 10),
+                        pw.Text(
+                          'BUGÜNKÜ ÇALIŞMA TAKTİKLERİ',
+                          style: pw.TextStyle(font: boldTtf, fontSize: 11, color: PdfColors.white, letterSpacing: 0.5),
+                        ),
+                      ],
+                    ),
+                  ),
+                  
+                  // Taktik Kartları
+                  pw.Padding(
+                    padding: const pw.EdgeInsets.all(12),
+                    child: pw.Column(
+                      children: _buildTacticCards(activities.toList(), day.dayIndex, ttf, boldTtf, dayColor),
+                    ),
+                  ),
                 ],
               ),
             ),
         ],
       ),
     );
+  }
+
+  /// Her aktivite için ayrı kart oluştur
+  static List<pw.Widget> _buildTacticCards(
+    List<String> activities,
+    int dayIndex,
+    pw.Font ttf,
+    pw.Font boldTtf,
+    PdfColor dayColor,
+  ) {
+    final cards = <pw.Widget>[];
+    
+    // Aktivite bilgileri
+    final activityInfo = {
+      'learn': {
+        'label': '📖 YENİ KONU',
+        'color': PdfColors.blue600,
+        'bgColor': PdfColors.blue50,
+      },
+      'review': {
+        'label': '🔄 TEKRAR',
+        'color': PdfColors.orange600,
+        'bgColor': PdfColors.orange50,
+      },
+      'practice': {
+        'label': '✍️ PRATİK',
+        'color': PdfColors.green600,
+        'bgColor': PdfColors.green50,
+      },
+    };
+
+    for (int i = 0; i < activities.length && i < 3; i++) {
+      final activity = activities[i];
+      final info = activityInfo[activity];
+      final tactics = _tacticsPerActivity[activity] ?? [];
+      
+      if (tactics.isEmpty || info == null) continue;
+      
+      final tacticIndex = (dayIndex + i) % tactics.length;
+      final tactic = tactics[tacticIndex];
+      
+      // Emoji ve taktik metnini ayır
+      final tacticText = tactic.length > 2 ? tactic.substring(2).trim() : tactic;
+      final emoji = tactic.length > 2 ? tactic.substring(0, 2) : '💡';
+      
+      cards.add(
+        pw.Container(
+          margin: pw.EdgeInsets.only(bottom: i < activities.length - 1 ? 8 : 0),
+          padding: const pw.EdgeInsets.all(10),
+          decoration: pw.BoxDecoration(
+            color: info['bgColor'] as PdfColor,
+            borderRadius: pw.BorderRadius.circular(8),
+            border: pw.Border.all(color: (info['color'] as PdfColor).shade(200), width: 0.5),
+          ),
+          child: pw.Row(
+            crossAxisAlignment: pw.CrossAxisAlignment.start,
+            children: [
+              // Sol taraf - Aktivite etiketi
+              pw.Container(
+                width: 75,
+                padding: const pw.EdgeInsets.symmetric(horizontal: 6, vertical: 4),
+                decoration: pw.BoxDecoration(
+                  color: info['color'] as PdfColor,
+                  borderRadius: pw.BorderRadius.circular(4),
+                ),
+                child: pw.Text(
+                  (info['label'] as String).split(' ').last,
+                  style: pw.TextStyle(font: boldTtf, fontSize: 8, color: PdfColors.white),
+                  textAlign: pw.TextAlign.center,
+                ),
+              ),
+              pw.SizedBox(width: 10),
+              
+              // Sağ taraf - Taktik içeriği
+              pw.Expanded(
+                child: pw.Column(
+                  crossAxisAlignment: pw.CrossAxisAlignment.start,
+                  children: [
+                    pw.Row(
+                      crossAxisAlignment: pw.CrossAxisAlignment.start,
+                      children: [
+                        pw.Text(
+                          emoji,
+                          style: pw.TextStyle(font: ttf, fontSize: 12),
+                        ),
+                        pw.SizedBox(width: 6),
+                        pw.Expanded(
+                          child: pw.Text(
+                            tacticText,
+                            style: pw.TextStyle(font: ttf, fontSize: 10, color: PdfColors.grey800),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      );
+    }
+    
+    return cards;
   }
 
   static pw.Widget _buildInfoBox(pw.Font ttf) {
