@@ -1,3 +1,5 @@
+import 'dart:io';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 /// Lazy loading helper - Academic Premium style
@@ -122,7 +124,11 @@ class _LazyLoaderState<T> extends State<LazyLoader<T>> {
 
     if (_items.isEmpty && _isLoading) {
       return widget.loadingWidget ??
-          const Center(child: CircularProgressIndicator());
+          Center(
+            child: Platform.isIOS
+                ? const CupertinoActivityIndicator()
+                : const CircularProgressIndicator(),
+          );
     }
 
     if (_items.isEmpty) {
@@ -138,9 +144,13 @@ class _LazyLoaderState<T> extends State<LazyLoader<T>> {
         itemCount: _items.length + (_hasMore ? 1 : 0),
         itemBuilder: (context, index) {
           if (index >= _items.length) {
-            return const Padding(
-              padding: EdgeInsets.all(16.0),
-              child: Center(child: CircularProgressIndicator()),
+            return Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Center(
+                child: Platform.isIOS
+                    ? const CupertinoActivityIndicator()
+                    : const CircularProgressIndicator(),
+              ),
             );
           }
           return widget.itemBuilder(context, _items[index], index);

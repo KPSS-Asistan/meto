@@ -8,7 +8,7 @@ import 'package:kpss_2026/core/constants/study_techniques_data.dart';
 class ProductivityPage extends StatelessWidget {
   const ProductivityPage({super.key});
 
-  // Kategori verileri
+  // Kategori verileri - 7 ana kategori
   static const List<_CategoryData> _categories = [
     _CategoryData(
       id: 'timeManagement',
@@ -18,53 +18,18 @@ class ProductivityPage extends StatelessWidget {
       color: Color(0xFF6366F1),
     ),
     _CategoryData(
-      id: 'breakGuide',
-      title: 'Mola Rehberi',
-      subtitle: 'Nasıl dinlenmelisin?',
-      icon: Icons.coffee_rounded,
-      color: Color(0xFF10B981), // Green
-    ),
-    _CategoryData(
-      id: 'examHacks',
-      title: 'Sınav Taktikleri',
-      subtitle: 'Net arttıran taktikler',
-      icon: Icons.auto_graph_rounded,
-      color: Color(0xFFF43F5E), // Rose
-    ),
-    _CategoryData(
-      id: 'bioHacking',
-      title: 'Bio-Performans',
-      subtitle: 'Uyku, beslenme ve beyin',
-      icon: Icons.battery_charging_full_rounded,
-      color: Color(0xFF8B5CF6), // Violet
-    ),
-    _CategoryData(
-      id: 'noteTaking',
-      title: 'Not Alma Teknikleri',
-      subtitle: 'Bilgiyi kalıcı kaydet',
-      icon: Icons.edit_note_rounded,
-      color: Color(0xFF14B8A6),
-    ),
-    _CategoryData(
-      id: 'memory',
-      title: 'Hafıza Teknikleri',
-      subtitle: 'Uzun süre hatırla',
-      icon: Icons.psychology_rounded,
-      color: Color(0xFFF59E0B),
-    ),
-    _CategoryData(
-      id: 'reading',
-      title: 'Okuma Stratejileri',
-      subtitle: 'Hızlı ve etkili oku',
-      icon: Icons.menu_book_rounded,
-      color: Color(0xFFEC4899),
+      id: 'motivation',
+      title: 'Motivasyon',
+      subtitle: 'Hedefine odaklan',
+      icon: Icons.emoji_events_rounded,
+      color: Color(0xFF22C55E),
     ),
     _CategoryData(
       id: 'studyPlanning',
       title: 'Çalışma Planlama',
       subtitle: 'Programlı ilerle',
       icon: Icons.calendar_month_rounded,
-      color: Color(0xFF0EA5E9), // Sky
+      color: Color(0xFF0EA5E9),
     ),
     _CategoryData(
       id: 'concentration',
@@ -74,18 +39,25 @@ class ProductivityPage extends StatelessWidget {
       color: Color(0xFFEF4444),
     ),
     _CategoryData(
-      id: 'motivation',
-      title: 'Motivasyon',
-      subtitle: 'Hedefine odaklan',
-      icon: Icons.emoji_events_rounded,
-      color: Color(0xFF22C55E),
+      id: 'breakGuide',
+      title: 'Mola Rehberi',
+      subtitle: 'Nasıl dinlenmelisin?',
+      icon: Icons.coffee_rounded,
+      color: Color(0xFF10B981),
     ),
     _CategoryData(
-      id: 'stressManagement',
-      title: 'Stres Yönetimi',
-      subtitle: 'Kaygını kontrol et',
-      icon: Icons.spa_rounded,
-      color: Color(0xFF3B82F6),
+      id: 'examFastLearning',
+      title: 'Sınav & Hızlı Öğrenme',
+      subtitle: 'Net arttıran taktikler',
+      icon: Icons.auto_graph_rounded,
+      color: Color(0xFFF43F5E),
+    ),
+    _CategoryData(
+      id: 'noteMemory',
+      title: 'Not & Hafıza Teknikleri',
+      subtitle: 'Bilgiyi kalıcı kaydet',
+      icon: Icons.psychology_rounded,
+      color: Color(0xFFF59E0B),
     ),
   ];
 

@@ -10,7 +10,10 @@ import 'package:kpss_2026/core/services/notification_service.dart';
 import 'package:kpss_2026/core/services/quiz_session_service.dart';
 import 'package:kpss_2026/core/services/quiz_stats_service.dart';
 import 'package:kpss_2026/core/services/study_schedule_service.dart';
+import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../core/theme/theme_provider.dart';
 
 /// Ayarlar Sayfası - Modern ve Minimalist
 class SettingsPage extends StatefulWidget {
@@ -35,9 +38,11 @@ class _SettingsPageState extends State<SettingsPage> {
   }
 
   Future<void> _loadSettings() async {
+    final themeProvider = context.read<ThemeProvider>();
     final prefs = await SharedPreferences.getInstance();
+    if (!mounted) return;
     setState(() {
-      _darkMode = prefs.getBool('dark_mode') ?? false;
+      _darkMode = themeProvider.isDark;
       _dailyReminder = prefs.getBool('daily_reminder') ?? true;
       _streakAlert = prefs.getBool('streak_alert') ?? true;
       _soundEnabled = prefs.getBool('sound_enabled') ?? true;
@@ -87,7 +92,8 @@ class _SettingsPageState extends State<SettingsPage> {
               color: const Color(0xFF6366F1),
               onChanged: (v) {
                 setState(() => _darkMode = v);
-                unawaited(_saveSetting('dark_mode', v));
+                final themeProvider = context.read<ThemeProvider>();
+                themeProvider.setThemeMode(v ? ThemeMode.dark : ThemeMode.light);
               },
             ),
           ]),

@@ -1,3 +1,5 @@
+import 'dart:io';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:kpss_2026/core/theme/app_colors.dart';
 
@@ -32,10 +34,13 @@ class LoadingOverlay extends StatelessWidget {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    const CircularProgressIndicator(
-                      strokeWidth: 3,
-                      valueColor: AlwaysStoppedAnimation<Color>(AppColors.primary),
-                    ),
+                    if (Platform.isIOS)
+                      const CupertinoActivityIndicator(radius: 16)
+                    else
+                      const CircularProgressIndicator(
+                        strokeWidth: 3,
+                        valueColor: AlwaysStoppedAnimation<Color>(AppColors.primary),
+                      ),
                     if (message != null) ...[
                       const SizedBox(height: 16),
                       Text(
@@ -73,10 +78,13 @@ class LoadingIndicator extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const CircularProgressIndicator(
-            strokeWidth: 3,
-            valueColor: AlwaysStoppedAnimation<Color>(AppColors.primary),
-          ),
+          if (Platform.isIOS)
+            const CupertinoActivityIndicator(radius: 16)
+          else
+            const CircularProgressIndicator(
+              strokeWidth: 3,
+              valueColor: AlwaysStoppedAnimation<Color>(AppColors.primary),
+            ),
           if (message != null) ...[
             const SizedBox(height: 16),
             Text(

@@ -1,3 +1,5 @@
+import 'dart:io';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 /// Lazy loading list widget
@@ -142,10 +144,12 @@ class _LazyLoadListState<T> extends State<LazyLoadList<T>> {
           // Loading indicator
           if (index >= _items.length) {
             return widget.loadingWidget ??
-                const Center(
+                Center(
                   child: Padding(
-                    padding: EdgeInsets.all(16),
-                    child: CircularProgressIndicator(strokeWidth: 2),
+                    padding: const EdgeInsets.all(16),
+                    child: Platform.isIOS
+                        ? const CupertinoActivityIndicator()
+                        : const CircularProgressIndicator(strokeWidth: 2),
                   ),
                 );
           }
@@ -255,7 +259,11 @@ class _LazyLoadGridState<T> extends State<LazyLoadGrid<T>> {
       itemBuilder: (context, index) {
         if (index >= _items.length) {
           return widget.loadingWidget ??
-              const Center(child: CircularProgressIndicator(strokeWidth: 2));
+              Center(
+                child: Platform.isIOS
+                    ? const CupertinoActivityIndicator()
+                    : const CircularProgressIndicator(strokeWidth: 2),
+              );
         }
         return widget.itemBuilder(context, _items[index], index);
       },

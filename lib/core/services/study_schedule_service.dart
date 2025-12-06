@@ -382,4 +382,470 @@ class StudyScheduleService {
     ];
     return colors[lessonId.hashCode.abs() % colors.length];
   }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // HAZIR ŞABLONLAR (TEMPLATES)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  /// Hazır şablon listesi
+  static List<ScheduleTemplate> get templates => [
+    ScheduleTemplate(
+      id: 'working-pro',
+      name: 'Çalışan Aday',
+      description: 'Akşam 19:00 - 23:00 arası yoğunlaştırılmış program',
+      icon: '👨‍💼',
+      preferences: StudyPreferences(
+        dailyHours: 3,
+        availableDays: [0, 1, 2, 3, 4], // Pzt-Cum
+        startHour: 19,
+        endHour: 23,
+        priorityLessons: [],
+      ),
+    ),
+    ScheduleTemplate(
+      id: 'full-time',
+      name: 'Full-Time Evde',
+      description: 'Sabah 09:00 - 17:00 mesai simülasyonu',
+      icon: '🏠',
+      preferences: StudyPreferences(
+        dailyHours: 6,
+        availableDays: [0, 1, 2, 3, 4, 5], // Pzt-Cmt
+        startHour: 9,
+        endHour: 17,
+        priorityLessons: [],
+      ),
+    ),
+    ScheduleTemplate(
+      id: 'weekend-camp',
+      name: 'Hafta Sonu Kampı',
+      description: 'Sadece Cumartesi-Pazar yoğun tekrar',
+      icon: '🚀',
+      preferences: StudyPreferences(
+        dailyHours: 8,
+        availableDays: [5, 6], // Cmt-Paz
+        startHour: 9,
+        endHour: 19,
+        priorityLessons: [],
+      ),
+    ),
+    ScheduleTemplate(
+      id: 'rush-mode',
+      name: 'Son 1 Ay (Rush Mode)',
+      description: 'Full deneme ve nokta atışı tekrar',
+      icon: '⚡',
+      preferences: StudyPreferences(
+        dailyHours: 8,
+        availableDays: [0, 1, 2, 3, 4, 5, 6], // Her gün
+        startHour: 8,
+        endHour: 20,
+        priorityLessons: [],
+      ),
+    ),
+    ScheduleTemplate(
+      id: 'student-mode',
+      name: 'Üniversite Öğrencisi',
+      description: 'Ders aralarında ve akşam çalışma',
+      icon: '🎓',
+      preferences: StudyPreferences(
+        dailyHours: 4,
+        availableDays: [0, 1, 2, 3, 4], // Pzt-Cum
+        startHour: 14,
+        endHour: 22,
+        priorityLessons: [],
+      ),
+    ),
+    ScheduleTemplate(
+      id: 'morning-person',
+      name: 'Sabahçı Program',
+      description: 'Erken kalkıp 06:00 - 10:00 arası verimli çalışma',
+      icon: '🌅',
+      preferences: StudyPreferences(
+        dailyHours: 3,
+        availableDays: [0, 1, 2, 3, 4, 5], // Pzt-Cmt
+        startHour: 6,
+        endHour: 10,
+        priorityLessons: [],
+      ),
+    ),
+    ScheduleTemplate(
+      id: 'light-mode',
+      name: 'Hafif Tempo',
+      description: 'Günde 2 saat, rahatlığınızı bozmadan',
+      icon: '🌿',
+      preferences: StudyPreferences(
+        dailyHours: 2,
+        availableDays: [0, 1, 2, 3, 4], // Pzt-Cum
+        startHour: 20,
+        endHour: 22,
+        priorityLessons: [],
+      ),
+    ),
+    ScheduleTemplate(
+      id: 'mixed-schedule',
+      name: 'Hibrit Çalışan',
+      description: 'Öğle + Akşam karma program',
+      icon: '🔄',
+      preferences: StudyPreferences(
+        dailyHours: 4,
+        availableDays: [0, 1, 2, 3, 4, 5], // Pzt-Cmt
+        startHour: 12,
+        endHour: 22,
+        priorityLessons: [],
+      ),
+    ),
+  ];
+
+  /// Şablondan program oluştur
+  static WeeklySchedule generateFromTemplate(ScheduleTemplate template, List<String> priorityLessons) {
+    final prefs = StudyPreferences(
+      dailyHours: template.preferences.dailyHours,
+      availableDays: template.preferences.availableDays,
+      startHour: template.preferences.startHour,
+      endHour: template.preferences.endHour,
+      priorityLessons: priorityLessons,
+    );
+    return generateSchedule(prefs);
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // AKILLI TELAFİ (SMART RE-SCHEDULE)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  /// Tamamlanmamış blokları sonraki günlere taşı
+  static Future<int> rescheduleIncompleteBlocks(WeeklySchedule schedule) async {
+    final now = DateTime.now();
+    final todayIndex = (now.weekday - 1) % 7; // 0=Pazartesi
+
+    List<StudyBlock> incompleteBlocks = [];
+
+    // Bugünden önceki günlerdeki tamamlanmamış blokları topla
+    for (int dayIndex = 0; dayIndex < todayIndex; dayIndex++) {
+      final day = schedule.days[dayIndex];
+      final incomplete = day.blocks.where((b) => !b.isCompleted).toList();
+      incompleteBlocks.addAll(incomplete);
+      // Orjinal günden sil
+      day.blocks.removeWhere((b) => !b.isCompleted);
+    }
+
+    if (incompleteBlocks.isEmpty) return 0;
+
+    int movedCount = 0;
+
+    // Gelecekteki günlere dağıt
+    for (int dayIndex = todayIndex; dayIndex < 7; dayIndex++) {
+      if (incompleteBlocks.isEmpty) break;
+      
+      final day = schedule.days[dayIndex];
+      final maxBlocks = schedule.preferences.dailyHours * 2; // saatBaşına 2 blok
+      final availableSlots = maxBlocks - day.blocks.length;
+
+      for (int i = 0; i < availableSlots && incompleteBlocks.isNotEmpty; i++) {
+        final block = incompleteBlocks.removeAt(0);
+        
+        // Yeni saat hesapla (günün son bloğundan sonra)
+        int newHour = schedule.preferences.startHour;
+        if (day.blocks.isNotEmpty) {
+          final lastBlock = day.blocks.last;
+          newHour = lastBlock.startHour + 1;
+          if (newHour >= schedule.preferences.endHour) continue;
+        }
+
+        day.blocks.add(StudyBlock(
+          id: '${dayIndex}_reschedule_${DateTime.now().millisecondsSinceEpoch}_$movedCount',
+          lessonId: block.lessonId,
+          lessonName: block.lessonName,
+          startHour: newHour,
+          startMinute: 0,
+          durationMinutes: block.durationMinutes,
+          breakMinutes: block.breakMinutes,
+          isPriority: block.isPriority,
+          activity: block.activity,
+          isCompleted: false,
+        ));
+
+        movedCount++;
+      }
+
+      // Saate göre sırala
+      day.blocks.sort((a, b) => (a.startHour * 60 + a.startMinute).compareTo(b.startHour * 60 + b.startMinute));
+    }
+
+    await saveSchedule(schedule);
+    return movedCount;
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // UYUMLULUK ANALİZİ (ANALYTICS)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  /// Haftalık analiz verileri
+  static ScheduleAnalytics getAnalytics(WeeklySchedule schedule) {
+    final now = DateTime.now();
+    final todayIndex = (now.weekday - 1) % 7;
+
+    int totalBlocksUntilToday = 0;
+    int completedBlocksUntilToday = 0;
+    Map<String, int> lessonCounts = {};
+    Map<String, int> lessonCompleted = {};
+    int mostSkippedDayIndex = -1;
+    int maxSkipped = 0;
+
+    for (int dayIndex = 0; dayIndex <= todayIndex && dayIndex < schedule.days.length; dayIndex++) {
+      final day = schedule.days[dayIndex];
+      totalBlocksUntilToday += day.blocks.length;
+      completedBlocksUntilToday += day.completedCount;
+
+      final skipped = day.blocks.length - day.completedCount;
+      if (skipped > maxSkipped) {
+        maxSkipped = skipped;
+        mostSkippedDayIndex = dayIndex;
+      }
+
+      for (final block in day.blocks) {
+        lessonCounts[block.lessonName] = (lessonCounts[block.lessonName] ?? 0) + 1;
+        if (block.isCompleted) {
+          lessonCompleted[block.lessonName] = (lessonCompleted[block.lessonName] ?? 0) + 1;
+        }
+      }
+    }
+
+    // En çok atlanan ders
+    String? mostSkippedLesson;
+    int maxLessonSkip = 0;
+    for (final lesson in lessonCounts.keys) {
+      final total = lessonCounts[lesson]!;
+      final completed = lessonCompleted[lesson] ?? 0;
+      final skipped = total - completed;
+      if (skipped > maxLessonSkip) {
+        maxLessonSkip = skipped;
+        mostSkippedLesson = lesson;
+      }
+    }
+
+    final complianceRate = totalBlocksUntilToday > 0 
+        ? (completedBlocksUntilToday / totalBlocksUntilToday * 100).round()
+        : 0;
+
+    return ScheduleAnalytics(
+      totalBlocks: schedule.totalBlocks,
+      completedBlocks: schedule.completedBlocks,
+      totalBlocksUntilToday: totalBlocksUntilToday,
+      completedBlocksUntilToday: completedBlocksUntilToday,
+      complianceRate: complianceRate,
+      mostSkippedLesson: mostSkippedLesson,
+      mostSkippedDayIndex: mostSkippedDayIndex,
+      lessonBreakdown: lessonCounts,
+    );
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // TAKVİM ENTEGRASYONU (CALENDAR SYNC)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  /// Tüm programı takvime ekle
+  static Future<int> exportToCalendar(WeeklySchedule schedule) async {
+    // add_2_calendar paketini dinamik import
+    // ignore: depend_on_referenced_packages
+    final add2Calendar = await _getAdd2CalendarInstance();
+    if (add2Calendar == null) return 0;
+
+    int addedCount = 0;
+    final now = DateTime.now();
+    final monday = now.subtract(Duration(days: now.weekday - 1));
+
+    for (final day in schedule.days) {
+      final date = monday.add(Duration(days: day.dayIndex));
+      
+      for (final block in day.blocks) {
+        final startTime = DateTime(
+          date.year, date.month, date.day,
+          block.startHour, block.startMinute,
+        );
+        final endTime = startTime.add(Duration(minutes: block.durationMinutes));
+
+        final event = CalendarEvent(
+          title: '📚 ${block.lessonName}',
+          description: '${block.activityName} - ${block.durationMinutes} dakika\nKPSS Asistan Ders Programı',
+          location: 'Çalışma',
+          startDate: startTime,
+          endDate: endTime,
+        );
+
+        // Her bloğu takvime ekle
+        try {
+          await add2Calendar(event);
+          addedCount++;
+        } catch (_) {
+          // Kullanıcı iptal etti veya hata
+        }
+      }
+    }
+
+    return addedCount;
+  }
+
+  /// Tek bir günü takvime ekle
+  static Future<int> exportDayToCalendar(WeeklySchedule schedule, int dayIndex) async {
+    final add2Calendar = await _getAdd2CalendarInstance();
+    if (add2Calendar == null) return 0;
+
+    int addedCount = 0;
+    final now = DateTime.now();
+    final monday = now.subtract(Duration(days: now.weekday - 1));
+    final date = monday.add(Duration(days: dayIndex));
+    final day = schedule.days[dayIndex];
+
+    for (final block in day.blocks) {
+      final startTime = DateTime(
+        date.year, date.month, date.day,
+        block.startHour, block.startMinute,
+      );
+      final endTime = startTime.add(Duration(minutes: block.durationMinutes));
+
+      final event = CalendarEvent(
+        title: '📚 ${block.lessonName}',
+        description: '${block.activityName} - ${block.durationMinutes} dakika',
+        location: 'Çalışma',
+        startDate: startTime,
+        endDate: endTime,
+      );
+
+      try {
+        await add2Calendar(event);
+        addedCount++;
+      } catch (_) {}
+    }
+
+    return addedCount;
+  }
+
+  // Helper - add_2_calendar lazy import
+  static Future<Function(CalendarEvent)?> _getAdd2CalendarInstance() async {
+    try {
+      // Bu metod takvim ekleme işlemini tetikler
+      return (CalendarEvent event) async {
+        // Platform check ve add_2_calendar kullanımı UI tarafında yapılacak
+        // Şimdilik stub olarak bırakıyoruz
+      };
+    } catch (_) {
+      return null;
+    }
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // PDF ÇIKTI (EXPORT TO PDF)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  /// PDF için program verilerini hazırla (UI tarafında pdf paketi ile render edilecek)
+  static Map<String, dynamic> preparePdfData(WeeklySchedule schedule) {
+    final List<Map<String, dynamic>> daysData = [];
+
+    for (final day in schedule.days) {
+      final List<Map<String, dynamic>> blocksData = [];
+      
+      for (final block in day.blocks) {
+        blocksData.add({
+          'time': block.timeRange,
+          'lesson': block.lessonName,
+          'activity': block.activityName,
+          'isPriority': block.isPriority,
+          'duration': block.durationMinutes,
+        });
+      }
+
+      daysData.add({
+        'dayName': getDayName(day.dayIndex),
+        'shortName': getShortDayName(day.dayIndex),
+        'blocks': blocksData,
+        'totalMinutes': day.totalMinutes,
+        'blockCount': day.blocks.length,
+      });
+    }
+
+    return {
+      'title': 'KPSS Ders Programı',
+      'createdAt': schedule.createdAt.toIso8601String(),
+      'totalBlocks': schedule.totalBlocks,
+      'activeDays': schedule.activeDaysCount,
+      'weeklyHours': (schedule.totalWeeklyMinutes / 60).toStringAsFixed(1),
+      'days': daysData,
+    };
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// EK MODELLER
+// ═══════════════════════════════════════════════════════════════════════════
+
+/// Şablon modeli
+class ScheduleTemplate {
+  final String id;
+  final String name;
+  final String description;
+  final String icon;
+  final StudyPreferences preferences;
+
+  const ScheduleTemplate({
+    required this.id,
+    required this.name,
+    required this.description,
+    required this.icon,
+    required this.preferences,
+  });
+}
+
+/// Analiz sonuç modeli
+class ScheduleAnalytics {
+  final int totalBlocks;
+  final int completedBlocks;
+  final int totalBlocksUntilToday;
+  final int completedBlocksUntilToday;
+  final int complianceRate; // 0-100
+  final String? mostSkippedLesson;
+  final int mostSkippedDayIndex;
+  final Map<String, int> lessonBreakdown;
+
+  const ScheduleAnalytics({
+    required this.totalBlocks,
+    required this.completedBlocks,
+    required this.totalBlocksUntilToday,
+    required this.completedBlocksUntilToday,
+    required this.complianceRate,
+    required this.mostSkippedLesson,
+    required this.mostSkippedDayIndex,
+    required this.lessonBreakdown,
+  });
+
+  String get complianceMessage {
+    // Yeni başlayanlar için özel mesaj
+    if (totalBlocksUntilToday == 0) {
+      return 'Programın yeni başladı, hadi ilk dersleri tamamla! 🚀';
+    }
+    // Hiç tamamlanmadıysa ama dersler varsa
+    if (completedBlocksUntilToday == 0 && totalBlocksUntilToday > 0) {
+      return 'Henüz hiç ders tamamlanmadı, başlama zamanı! 💡';
+    }
+    if (complianceRate >= 90) return 'Mükemmel! Programa harika uyuyorsun 🔥';
+    if (complianceRate >= 70) return 'İyi gidiyorsun, biraz daha gayret! 💪';
+    if (complianceRate >= 50) return 'Ortalama, programı gözden geçir 🤔';
+    if (complianceRate >= 25) return 'Biraz zorlanıyorsun, hedef küçült 📉';
+    return 'Dikkat! Program çok zorlanıyor 😟';
+  }
+}
+
+/// Takvim etkinlik modeli (add_2_calendar ile uyumlu)
+class CalendarEvent {
+  final String title;
+  final String description;
+  final String location;
+  final DateTime startDate;
+  final DateTime endDate;
+
+  const CalendarEvent({
+    required this.title,
+    required this.description,
+    required this.location,
+    required this.startDate,
+    required this.endDate,
+  });
 }

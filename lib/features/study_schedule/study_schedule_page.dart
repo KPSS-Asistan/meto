@@ -3,6 +3,9 @@ import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:kpss_2026/core/data/lessons_data.dart';
 import 'package:kpss_2026/core/services/study_schedule_service.dart';
+import 'package:pdf/pdf.dart';
+import 'package:pdf/widgets.dart' as pw;
+import 'package:printing/printing.dart';
 
 /// Ders Programı Sayfası
 class StudySchedulePage extends StatefulWidget {
@@ -113,12 +116,13 @@ class _StudySchedulePageState extends State<StudySchedulePage> {
         surfaceTintColor: Colors.transparent,
         systemOverlayStyle: isDark ? SystemUiOverlayStyle.light : SystemUiOverlayStyle.dark,
         actions: [
-          if (_savedSchedule != null && !_showWizard)
+          if (_savedSchedule != null && !_showWizard) ...[
             IconButton(
-              icon: const Icon(Icons.refresh_rounded),
-              tooltip: 'Yeniden Oluştur',
-              onPressed: _startWizard,
+              icon: const Icon(Icons.more_vert_rounded),
+              tooltip: 'Seçenekler',
+              onPressed: _showMoreOptionsSheet,
             ),
+          ],
         ],
       ),
       body: _isLoading
@@ -177,6 +181,18 @@ class _StudySchedulePageState extends State<StudySchedulePage> {
               ),
               child: const Text('Programımı Oluştur', style: TextStyle(fontWeight: FontWeight.w600)),
             ).animate().fadeIn(delay: 300.ms).slideY(begin: 0.1, end: 0),
+            const SizedBox(height: 14),
+            OutlinedButton.icon(
+              onPressed: _showTemplatesSheet,
+              icon: const Icon(Icons.flash_on_rounded, size: 18),
+              label: const Text('Hazır Şablon Kullan'),
+              style: OutlinedButton.styleFrom(
+                foregroundColor: _successColor,
+                side: BorderSide(color: _successColor.withValues(alpha: 0.5)),
+                padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+              ),
+            ).animate().fadeIn(delay: 400.ms).slideY(begin: 0.1, end: 0),
           ],
         ),
       ),
@@ -1238,6 +1254,689 @@ class _StudySchedulePageState extends State<StudySchedulePage> {
           ),
         ),
       ),
+    );
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // YENİ ÖZELLİKLER
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  /// Şablon Seçim Bottom Sheet
+  void _showTemplatesSheet() {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final templates = StudyScheduleService.templates;
+
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: isDark ? const Color(0xFF1E293B) : Colors.white,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      isScrollControlled: true,
+      constraints: BoxConstraints(
+        maxHeight: MediaQuery.of(context).size.height * 0.75,
+      ),
+      builder: (context) => Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Center(
+              child: Container(
+                width: 40,
+                height: 4,
+                decoration: BoxDecoration(
+                  color: isDark ? Colors.white24 : Colors.grey.shade300,
+                  borderRadius: BorderRadius.circular(2),
+                ),
+              ),
+            ),
+            const SizedBox(height: 16),
+            Text(
+              '⚡ Hazır Şablonlar',
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                color: isDark ? Colors.white : const Color(0xFF1E293B),
+              ),
+            ),
+            const SizedBox(height: 8),
+            Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    'Durumuna uygun şablonu seç, hemen başla!',
+                    style: TextStyle(
+                      fontSize: 14,
+                      color: isDark ? Colors.white60 : const Color(0xFF64748B),
+                    ),
+                  ),
+                ),
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                  decoration: BoxDecoration(
+                    color: _primaryColor.withValues(alpha: 0.1),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(Icons.swipe_vertical_rounded, size: 14, color: _primaryColor),
+                      const SizedBox(width: 4),
+                      Text(
+                        '${templates.length} şablon',
+                        style: TextStyle(
+                          fontSize: 12,
+                          fontWeight: FontWeight.w600,
+                          color: _primaryColor,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 16),
+            Flexible(
+              child: ShaderMask(
+                shaderCallback: (Rect bounds) {
+                  return LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    colors: [
+                      Colors.white,
+                      Colors.white,
+                      Colors.white,
+                      Colors.white.withValues(alpha: 0),
+                    ],
+                    stops: const [0.0, 0.85, 0.95, 1.0],
+                  ).createShader(bounds);
+                },
+                blendMode: BlendMode.dstIn,
+                child: ListView.builder(
+                  shrinkWrap: true,
+                  padding: const EdgeInsets.only(bottom: 20),
+                  itemCount: templates.length,
+                  itemBuilder: (context, index) => _buildTemplateItem(templates[index], isDark),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildTemplateItem(ScheduleTemplate template, bool isDark) {
+    return GestureDetector(
+      onTap: () {
+        Navigator.pop(context);
+        _applyTemplate(template);
+      },
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 12),
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: isDark ? Colors.white.withValues(alpha: 0.05) : Colors.grey.shade50,
+          borderRadius: BorderRadius.circular(14),
+          border: Border.all(
+            color: isDark ? Colors.white12 : Colors.grey.shade200,
+          ),
+        ),
+        child: Row(
+          children: [
+            Text(template.icon, style: const TextStyle(fontSize: 28)),
+            const SizedBox(width: 14),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    template.name,
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w600,
+                      color: isDark ? Colors.white : const Color(0xFF1E293B),
+                    ),
+                  ),
+                  const SizedBox(height: 2),
+                  Text(
+                    template.description,
+                    style: TextStyle(
+                      fontSize: 13,
+                      color: isDark ? Colors.white60 : const Color(0xFF64748B),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Icon(
+              Icons.arrow_forward_ios_rounded,
+              size: 16,
+              color: isDark ? Colors.white38 : Colors.grey.shade400,
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Future<void> _applyTemplate(ScheduleTemplate template) async {
+    final schedule = StudyScheduleService.generateFromTemplate(
+      template,
+      _priorityLessons.toList(),
+    );
+    await StudyScheduleService.saveSchedule(schedule);
+    
+    if (mounted) {
+      setState(() => _savedSchedule = schedule);
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('${template.name} şablonu uygulandı! 🎉'),
+          behavior: SnackBarBehavior.floating,
+          backgroundColor: _successColor,
+        ),
+      );
+    }
+  }
+
+  /// Telafi İşlemi
+  Future<void> _rescheduleBlocks() async {
+    if (_savedSchedule == null) return;
+
+    final movedCount = await StudyScheduleService.rescheduleIncompleteBlocks(_savedSchedule!);
+    
+    if (!mounted) return;
+    await _loadSavedSchedule();
+    if (!mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(
+          movedCount > 0 
+            ? '$movedCount ders sonraki günlere taşındı! 📅' 
+            : 'Taşınacak eksik ders yok 👍',
+        ),
+        behavior: SnackBarBehavior.floating,
+        backgroundColor: movedCount > 0 ? _primaryColor : _successColor,
+      ),
+    );
+  }
+
+  /// Analitik Bottom Sheet
+  void _showAnalyticsSheet() {
+    if (_savedSchedule == null) return;
+
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final analytics = StudyScheduleService.getAnalytics(_savedSchedule!);
+
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: isDark ? const Color(0xFF1E293B) : Colors.white,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (context) => Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Center(
+              child: Container(
+                width: 40,
+                height: 4,
+                decoration: BoxDecoration(
+                  color: isDark ? Colors.white24 : Colors.grey.shade300,
+                  borderRadius: BorderRadius.circular(2),
+                ),
+              ),
+            ),
+            const SizedBox(height: 16),
+            Text(
+              '📊 Haftalık Analiz',
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                color: isDark ? Colors.white : const Color(0xFF1E293B),
+              ),
+            ),
+            const SizedBox(height: 20),
+
+            // Uyumluluk Oranı
+            Container(
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [
+                    _getComplianceColor(analytics.complianceRate).withValues(alpha: 0.15),
+                    _getComplianceColor(analytics.complianceRate).withValues(alpha: 0.05),
+                  ],
+                ),
+                borderRadius: BorderRadius.circular(14),
+              ),
+              child: Row(
+                children: [
+                  Container(
+                    width: 60,
+                    height: 60,
+                    decoration: BoxDecoration(
+                      color: _getComplianceColor(analytics.complianceRate),
+                      shape: BoxShape.circle,
+                    ),
+                    child: Center(
+                      child: Text(
+                        '%${analytics.complianceRate}',
+                        style: const TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 16),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          'Programa Uyum',
+                          style: TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.w600,
+                            color: isDark ? Colors.white : const Color(0xFF1E293B),
+                          ),
+                        ),
+                        const SizedBox(height: 4),
+                        Text(
+                          analytics.complianceMessage,
+                          style: TextStyle(
+                            fontSize: 13,
+                            color: isDark ? Colors.white60 : const Color(0xFF64748B),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 16),
+
+            // İstatistikler
+            Row(
+              children: [
+                _buildStatCard(
+                  '${analytics.completedBlocksUntilToday}/${analytics.totalBlocksUntilToday}',
+                  'Tamamlanan',
+                  Icons.check_circle_outline_rounded,
+                  _successColor,
+                  isDark,
+                ),
+                const SizedBox(width: 12),
+                _buildStatCard(
+                  '${analytics.totalBlocks - analytics.completedBlocks}',
+                  'Kalan',
+                  Icons.pending_outlined,
+                  _primaryColor,
+                  isDark,
+                ),
+              ],
+            ),
+
+            if (analytics.mostSkippedLesson != null) ...[
+              const SizedBox(height: 16),
+              Container(
+                padding: const EdgeInsets.all(12),
+                decoration: BoxDecoration(
+                  color: Colors.orange.withValues(alpha: 0.1),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Row(
+                  children: [
+                    const Icon(Icons.warning_amber_rounded, color: Colors.orange, size: 20),
+                    const SizedBox(width: 10),
+                    Expanded(
+                      child: Text(
+                        '"${analytics.mostSkippedLesson}" dersini en çok atlıyorsun',
+                        style: TextStyle(
+                          fontSize: 13,
+                          color: isDark ? Colors.white70 : const Color(0xFF64748B),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+            const SizedBox(height: 20),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildStatCard(String value, String label, IconData icon, Color color, bool isDark) {
+    return Expanded(
+      child: Container(
+        padding: const EdgeInsets.all(14),
+        decoration: BoxDecoration(
+          color: isDark ? Colors.white.withValues(alpha: 0.05) : Colors.grey.shade50,
+          borderRadius: BorderRadius.circular(12),
+        ),
+        child: Row(
+          children: [
+            Icon(icon, color: color, size: 24),
+            const SizedBox(width: 10),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  value,
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                    color: isDark ? Colors.white : const Color(0xFF1E293B),
+                  ),
+                ),
+                Text(
+                  label,
+                  style: TextStyle(
+                    fontSize: 12,
+                    color: isDark ? Colors.white60 : const Color(0xFF64748B),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Color _getComplianceColor(int rate) {
+    if (rate >= 80) return _successColor;
+    if (rate >= 50) return Colors.orange;
+    return Colors.red;
+  }
+
+  /// Daha Fazla Seçenekler (PDF, Takvim)
+  void _showMoreOptionsSheet() {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: isDark ? const Color(0xFF1E293B) : Colors.white,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (context) => Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Center(
+              child: Container(
+                width: 40,
+                height: 4,
+                decoration: BoxDecoration(
+                  color: isDark ? Colors.white24 : Colors.grey.shade300,
+                  borderRadius: BorderRadius.circular(2),
+                ),
+              ),
+            ),
+            const SizedBox(height: 20),
+            _buildMoreOptionTile(
+              icon: Icons.picture_as_pdf_rounded,
+              title: 'PDF Çıktı Al',
+              subtitle: 'Programı yazdır veya paylaş',
+              color: Colors.red,
+              isDark: isDark,
+              onTap: () {
+                Navigator.pop(context);
+                _exportToPdf();
+              },
+            ),
+            _buildMoreOptionTile(
+              icon: Icons.analytics_outlined,
+              title: 'Haftalık Analiz',
+              subtitle: 'Programa uyum istatistikleri',
+              color: _successColor,
+              isDark: isDark,
+              onTap: () {
+                Navigator.pop(context);
+                _showAnalyticsSheet();
+              },
+            ),
+            _buildMoreOptionTile(
+              icon: Icons.update_rounded,
+              title: 'Eksikleri Telafi Et',
+              subtitle: 'Yapılamayan dersleri sonraya taşı',
+              color: Colors.orange,
+              isDark: isDark,
+              onTap: () {
+                Navigator.pop(context);
+                _rescheduleBlocks();
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildMoreOptionTile({
+    required IconData icon,
+    required String title,
+    required String subtitle,
+    required Color color,
+    required bool isDark,
+    required VoidCallback onTap,
+  }) {
+    return ListTile(
+      onTap: onTap,
+      leading: Container(
+        width: 44,
+        height: 44,
+        decoration: BoxDecoration(
+          color: color.withValues(alpha: 0.1),
+          borderRadius: BorderRadius.circular(12),
+        ),
+        child: Icon(icon, color: color, size: 22),
+      ),
+      title: Text(
+        title,
+        style: TextStyle(
+          fontWeight: FontWeight.w600,
+          color: isDark ? Colors.white : const Color(0xFF1E293B),
+        ),
+      ),
+      subtitle: Text(
+        subtitle,
+        style: TextStyle(
+          fontSize: 13,
+          color: isDark ? Colors.white60 : const Color(0xFF64748B),
+        ),
+      ),
+      trailing: Icon(
+        Icons.arrow_forward_ios_rounded,
+        size: 16,
+        color: isDark ? Colors.white38 : Colors.grey.shade400,
+      ),
+      contentPadding: EdgeInsets.zero,
+    );
+  }
+
+  /// PDF Çıktı - Profesyonel Tablo Formatı
+  Future<void> _exportToPdf() async {
+    if (_savedSchedule == null) return;
+
+    final schedule = _savedSchedule!;
+    
+    final pdf = pw.Document();
+    
+    // Google Fonts'tan Türkçe destekli font yükle
+    final ttf = await PdfGoogleFonts.notoSansRegular();
+    final boldTtf = await PdfGoogleFonts.notoSansBold();
+
+    // Günlerin isimlerini al
+    final dayNames = ['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz'];
+    
+    // En erken ve en geç saatleri bul
+    int minHour = 23;
+    int maxHour = 0;
+    for (final day in schedule.days) {
+      for (final block in day.blocks) {
+        if (block.startHour < minHour) minHour = block.startHour;
+        final endHour = block.startHour + ((block.startMinute + block.durationMinutes) ~/ 60) + 1;
+        if (endHour > maxHour) maxHour = endHour;
+      }
+    }
+    if (minHour > maxHour) { minHour = 9; maxHour = 18; }
+
+    pdf.addPage(
+      pw.Page(
+        pageFormat: PdfPageFormat.a4.landscape,
+        margin: const pw.EdgeInsets.all(24),
+        build: (context) {
+          return pw.Column(
+            crossAxisAlignment: pw.CrossAxisAlignment.start,
+            children: [
+              // Header
+              pw.Row(
+                mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
+                children: [
+                  pw.Column(
+                    crossAxisAlignment: pw.CrossAxisAlignment.start,
+                    children: [
+                      pw.Text('KPSS Haftalık Ders Programı',
+                        style: pw.TextStyle(font: boldTtf, fontSize: 20, color: PdfColors.blue900)),
+                      pw.SizedBox(height: 4),
+                      pw.Text('${(schedule.totalWeeklyMinutes / 60).toStringAsFixed(0)} saat/hafta • ${schedule.totalBlocks} pomodoro',
+                        style: pw.TextStyle(font: ttf, fontSize: 11, color: PdfColors.grey600)),
+                    ],
+                  ),
+                  pw.Container(
+                    padding: const pw.EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                    decoration: pw.BoxDecoration(
+                      color: PdfColors.blue50,
+                      borderRadius: pw.BorderRadius.circular(8),
+                    ),
+                    child: pw.Text('KPSS Asistan 2026',
+                      style: pw.TextStyle(font: boldTtf, fontSize: 10, color: PdfColors.blue700)),
+                  ),
+                ],
+              ),
+              pw.SizedBox(height: 16),
+              
+              // Tablo
+              pw.Expanded(
+                child: pw.Table(
+                  border: pw.TableBorder.all(color: PdfColors.grey300, width: 0.5),
+                  columnWidths: {
+                    0: const pw.FixedColumnWidth(50), // Saat sütunu
+                    for (int i = 1; i <= 7; i++) i: const pw.FlexColumnWidth(1),
+                  },
+                  children: [
+                    // Header row
+                    pw.TableRow(
+                      decoration: const pw.BoxDecoration(color: PdfColors.blue800),
+                      children: [
+                        pw.Container(
+                          padding: const pw.EdgeInsets.all(8),
+                          child: pw.Text('Saat', style: pw.TextStyle(font: boldTtf, fontSize: 10, color: PdfColors.white)),
+                        ),
+                        ...dayNames.map((name) => pw.Container(
+                          padding: const pw.EdgeInsets.all(8),
+                          alignment: pw.Alignment.center,
+                          child: pw.Text(name, style: pw.TextStyle(font: boldTtf, fontSize: 10, color: PdfColors.white)),
+                        )),
+                      ],
+                    ),
+                    // Time rows
+                    ...List.generate(maxHour - minHour, (hourIndex) {
+                      final hour = minHour + hourIndex;
+                      return pw.TableRow(
+                        decoration: pw.BoxDecoration(
+                          color: hourIndex.isEven ? PdfColors.white : PdfColors.grey50,
+                        ),
+                        children: [
+                          // Saat sütunu
+                          pw.Container(
+                            padding: const pw.EdgeInsets.all(6),
+                            child: pw.Text('${hour.toString().padLeft(2, '0')}:00',
+                              style: pw.TextStyle(font: ttf, fontSize: 9, color: PdfColors.grey700)),
+                          ),
+                          // Günler
+                          ...List.generate(7, (dayIndex) {
+                            final day = schedule.days.firstWhere((d) => d.dayIndex == dayIndex,
+                              orElse: () => DailySchedule(dayIndex: dayIndex, blocks: []));
+                            final blocksInHour = day.blocks.where((b) => b.startHour == hour).toList();
+                            
+                            if (blocksInHour.isEmpty) {
+                              return pw.Container(padding: const pw.EdgeInsets.all(4));
+                            }
+                            
+                            return pw.Container(
+                              padding: const pw.EdgeInsets.all(3),
+                              child: pw.Column(
+                                children: blocksInHour.map((block) {
+                                  final colors = [PdfColors.blue100, PdfColors.green100, PdfColors.orange100, 
+                                                  PdfColors.purple100, PdfColors.teal100, PdfColors.pink100];
+                                  final textColors = [PdfColors.blue800, PdfColors.green800, PdfColors.orange800,
+                                                     PdfColors.purple800, PdfColors.teal800, PdfColors.pink800];
+                                  final colorIdx = block.lessonId.hashCode.abs() % colors.length;
+                                  
+                                  return pw.Container(
+                                    width: double.infinity,
+                                    margin: const pw.EdgeInsets.only(bottom: 2),
+                                    padding: const pw.EdgeInsets.symmetric(horizontal: 4, vertical: 3),
+                                    decoration: pw.BoxDecoration(
+                                      color: colors[colorIdx],
+                                      borderRadius: pw.BorderRadius.circular(4),
+                                    ),
+                                    child: pw.Text(
+                                      block.lessonName.length > 12 ? '${block.lessonName.substring(0, 10)}..' : block.lessonName,
+                                      style: pw.TextStyle(font: boldTtf, fontSize: 7, color: textColors[colorIdx]),
+                                    ),
+                                  );
+                                }).toList(),
+                              ),
+                            );
+                          }),
+                        ],
+                      );
+                    }),
+                  ],
+                ),
+              ),
+              
+              // Footer
+              pw.SizedBox(height: 12),
+              pw.Row(
+                mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
+                children: [
+                  pw.Text('Oluşturulma: ${DateTime.now().day}/${DateTime.now().month}/${DateTime.now().year}',
+                    style: pw.TextStyle(font: ttf, fontSize: 8, color: PdfColors.grey500)),
+                  pw.Row(
+                    children: [
+                      pw.Container(width: 8, height: 8, decoration: pw.BoxDecoration(color: PdfColors.blue100, borderRadius: pw.BorderRadius.circular(2))),
+                      pw.SizedBox(width: 4),
+                      pw.Text('Ders Bloğu (25dk)', style: pw.TextStyle(font: ttf, fontSize: 8, color: PdfColors.grey600)),
+                    ],
+                  ),
+                ],
+              ),
+            ],
+          );
+        },
+      ),
+    );
+
+    await Printing.layoutPdf(
+      onLayout: (format) async => pdf.save(),
+      name: 'KPSS_Ders_Programi.pdf',
     );
   }
 }

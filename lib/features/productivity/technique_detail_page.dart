@@ -427,28 +427,20 @@ class _TechniqueDetailPageState extends State<TechniqueDetailPage> {
 
   Color _getCategoryColor(String category) {
     switch (category) {
-      case 'examHacks':
-        return const Color(0xFFF43F5E);
-      case 'bioHacking':
-        return const Color(0xFF8B5CF6);
-      case 'breakGuide':
-        return const Color(0xFF10B981);
-      case 'noteTaking':
-        return const Color(0xFF14B8A6);
-      case 'memory':
-        return const Color(0xFFF59E0B);
-      case 'reading':
-        return const Color(0xFFEC4899);
       case 'timeManagement':
         return const Color(0xFF6366F1);
+      case 'motivation':
+        return const Color(0xFF22C55E);
       case 'studyPlanning':
         return const Color(0xFF0EA5E9);
       case 'concentration':
         return const Color(0xFFEF4444);
-      case 'motivation':
-        return const Color(0xFF22C55E);
-      case 'stressManagement':
-        return const Color(0xFF3B82F6);
+      case 'breakGuide':
+        return const Color(0xFF10B981);
+      case 'examFastLearning':
+        return const Color(0xFFF43F5E);
+      case 'noteMemory':
+        return const Color(0xFFF59E0B);
       default:
         return const Color(0xFF6366F1);
     }

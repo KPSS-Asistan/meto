@@ -86,6 +86,13 @@ dependencies:
   
   # In-App Purchase
   in_app_purchase: ^3.2.0
+  
+  # Calendar Integration - Takvime ders programı ekleme
+  add_2_calendar: ^3.0.1
+  
+  # PDF Generation - Program çıktısı alma
+  pdf: ^3.11.1
+  printing: ^5.13.2
 
 dev_dependencies:
   flutter_test:

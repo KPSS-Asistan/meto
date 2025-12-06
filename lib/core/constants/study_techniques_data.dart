@@ -4,17 +4,13 @@ class StudyTechniquesData {
   /// Tüm teknikleri getiren ana getter
   /// Kategorilere bölünmüş listeleri birleştirir
   static List<StudyTechnique> get all => [
-        ..._examHacks,      // 🚀 YENİ: Sınav Hackleri (En üste)
-        ..._timeManagement, // Zaman Yönetimi
-        ..._breakGuide,     // ☕ YENİ: Mola Rehberi
-        ..._bioHacking,     // 🧬 YENİ: Bio-Performans
-        ..._noteTaking,     // Not Alma
-        ..._memory,         // Hafıza (Duplicate temizlendi)
-        ..._reading,        // Okuma
-        ..._studyPlanning,  // Planlama
-        ..._concentration,  // Odaklanma
-        ..._motivation,     // Motivasyon
-        ..._stress,         // Stres
+        ..._timeManagement,     // 1. Zaman Yönetimi
+        ..._motivation,          // 2. Motivasyon
+        ..._studyPlanning,      // 3. Çalışma Planlama
+        ..._concentration,      // 4. Odaklanma
+        ..._breakGuide,         // 5. Mola Rehberi
+        ..._examFastLearning,   // 6. Sınav & Hızlı Öğrenme
+        ..._noteMemory,         // 7. Not & Hafıza Teknikleri
       ];
 
   /// Kategoriye göre filtreleme
@@ -32,249 +28,371 @@ class StudyTechniquesData {
   }
 
   // ═══════════════════════════════════════════════════════════════════════════
-  // 🚀 1. SINAV TAKTİKLERİ (EXAM TACTICS)
-  // ═══════════════════════════════════════════════════════════════════════════
-  static const List<StudyTechnique> _examHacks = [
-    StudyTechnique(
-      id: 'turlama-teknigi',
-      title: 'Turlama Tekniği',
-      category: 'examHacks',
-      shortDescription: 'Zor sorularla inatlaşma.',
-      fullDescription:
-          'Sınavdaki soruların zorluk dereceleri farklıdır, ancak çoğu sınavda her soru aynı puandır. Bu teknik, zor sorularla vakit kaybetmek yerine, önce "kolay ve yapılabilir" soruları çözüp, zor olanları ikinci tura bırakma stratejisidir.',
-      steps: [
-        'Hızlı Tarama: Soruyu oku. Cevabı hemen biliyorsan işaretle.',
-        'Karar: Soru karmaşıksa hemen yanına (?) koy ve geç.',
-        'İlerleme: Asla bir soruyla inatlaşma. Çözemediğin an geç.',
-        'İkinci Tur: Sınavın sonuna geldiğinde, boş bıraktığın sorulara geri dön.',
-      ],
-      benefits: [
-        'Sınavın başında kolay soruları çözmek özgüveni (moral) tavan yaptırır.',
-        '"Süre yetmedi, bildiğim soruları göremedim" pişmanlığını %100 engeller.',
-        'Zor sorulara döndüğünde, bilinçaltın çözüm üretmiş olabilir.',
-      ],
-      tips: [
-        'İşaret Dili: Yuvarlak içine almak "Döneceğim", çarpı atmak "Bilmiyorum" anlamına gelebilir.',
-        'İlk turda kitapçığın %60-70\'ini bitirdiğini görmek paniği yok eder.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'soru-koku-analizi',
-      title: 'Soru Kökü Analizi (Ters Okuma)',
-      category: 'examHacks',
-      shortDescription: 'Önce neyin sorulduğunu anla.',
-      fullDescription:
-          'Beynimiz metni baştan sona okumaya programlıdır. Ancak sınavlarda önce metni değil, neyin sorulduğunu (soru kökünü) okumak gerekir.',
-      steps: [
-        'Önce Koyu Kısım: Paragrafı okumadan önce en alttaki koyu yazılmış soru kökünü oku.',
-        'Anahtar Kelime: Olumsuz ifadelere (değildir, ulaşılamaz) odaklan.',
-        'Hedefli Okuma: Şimdi paragrafı, aradığın cevabı bilerek oku.',
-      ],
-      benefits: [
-        'Paragrafı iki kez okumak zorunda kalmazsın (zaman tasarrufu).',
-        'Odaklanma seviyesi (seçici dikkat) artar.',
-        'Olumsuz soru köklerini kaçırma riskini düşürür.',
-      ],
-      tips: [
-        'Soru kökündeki olumsuz ekin (-me, -ma, değildir) altını çiz.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'blok-kodlama',
-      title: 'Blok Kodlama (Grup İşaretleme)',
-      category: 'examHacks',
-      shortDescription: 'Kodlama hatası ve zaman kaybına son.',
-      fullDescription:
-          'Soruları optik forma geçirirken kullanılan en güvenli yöntemdir. Soruları tek tek kodlamak dikkat dağıtır, hepsini en sona bırakmak ise kaydırma riski yaratır.',
-      steps: [
-        'Çözüm: Bir sayfadaki tüm soruları veya 4-5 soruyu kitapçık üzerinde çöz.',
-        'Toplu Kodlama: Çözdüğün bu 4-5 soruyu optik forma sırayla geçir.',
-        'Kontrol: Kodlarken "15 A, 16 C" diye içinden tekrar et.',
-      ],
-      benefits: [
-        'Kitapçık-optik arası git-gel dikkati bölmez.',
-        'Kodlama anı, beyne 5-10 saniyelik mikro mola verir.',
-        'Kaydırma hatası (Shift Error) riskini minimize eder.',
-      ],
-      tips: [
-        'En pratik yöntem, "Sayfa bitince kodla" kuralıdır.',
-        'Asla tüm kodlamayı sınavın son dakikasına bırakma.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'celdirici-eleme',
-      title: 'Çeldirici Eleme Yöntemi',
-      category: 'examHacks',
-      shortDescription: 'Yanlışları eleyerek doğruyu bul.',
-      fullDescription:
-          'Doğru cevabı bulamadığında, yanlış olduğundan emin olduğun şıkları eleyerek doğruya ulaşma stratejisidir. İstatistiksel başarı şansını artırır.',
-      steps: [
-        'Yanlışı Bul: %100 yanlış olduğunu bildiğin şıkların üzerini çiz.',
-        'Daraltma: Seçenekleri 2 veya 3\'e indir.',
-        'Kıyaslama: Kalan şıkları birbirleriyle ve soru köküyle kıyasla.',
-      ],
-      benefits: [
-        '2 şıkkı elersen tatmin olma şansın %33\'e çıkar.',
-        'Zihinsel yükü azaltır; beyin daha az seçenekle kolay karar verir.',
-      ],
-      tips: [
-        'İki şık arasında kaldığında, ilk aklına gelen (içgüdüsel) cevap genellikle doğrudur.',
-        '(A) şıkkı genellikle "güçlü çeldirici" olarak tasarlanır, dikkat et.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'anahtar-kelime-avi',
-      title: 'Anahtar Kelime Avı',
-      category: 'examHacks',
-      shortDescription: 'Metnin iskeletini yakala.',
-      fullDescription:
-          'Uzun paragraf sorularında metnin tamamını ezberlemeye çalışmak yerine, metnin iskeletini oluşturan kelimeleri yakalama tekniğidir.',
-      steps: [
-        'Tarama: Soruyu okurken önemli tarihlerin, isimlerin, bağlaçların altını çiz.',
-        'Bağlaç Alarmı: "Ama, fakat, oysa" gibi kelimelerden sonrası genelde cevaptır.',
-        'Görselleştirme: Altı çizili kelimelerle metnin özetini çıkar.',
-      ],
-      benefits: [
-        'Metne geri dönmen gerektiğinde sadece işaretli yerleri okursun.',
-        'Pasif okuyucu olmaktan çıkarıp aktif analizci yapar.',
-      ],
-      tips: [
-        'Bütün satırların altını çizersen hiçbir şeyin altını çizmemiş olursun.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'zor-soru-yonetimi',
-      title: '"Zor Soru" Psikolojisi',
-      category: 'examHacks',
-      shortDescription: 'Zor soru puan getirmez, tuzaktır.',
-      fullDescription:
-          'Sınav kitapçıklarında bazen "şok etkisi" yaratmak için çok zor bir soru en başa konulabilir. Bu bir psikolojik dayanıklılık testidir.',
-      steps: [
-        'Farkındalık: "Bu soru herkes için zor. Yapamamak sınavı kaybettirmez."',
-        'Pas Geçme: Maksimum 1-1.5 dakikada çözemiyorsan hemen geç.',
-        'Nefes: Moralini bozduysa 10 saniyelik derin nefes molası ver.',
-      ],
-      benefits: [
-        'Sınav anında "donup kalma" durumunu engeller.',
-        'Enerjini tek bir soruya harcayıp kolay soruları kaçırmanı önler.',
-      ],
-      tips: [
-        'Zor soru da kolay soru da aynı puandır. Zoru çözmek için kendini paralama, kolayı çöz, puanı kap.',
-      ],
-    ),
-  ];
-
-  // ═══════════════════════════════════════════════════════════════════════════
-  // ☕ 2. MOLA REHBERİ (BREAK GUIDE) - YENİ
+  // 5. MOLA REHBERİ
   // ═══════════════════════════════════════════════════════════════════════════
   static const List<StudyTechnique> _breakGuide = [
     StudyTechnique(
-      id: '20-20-20-rule',
-      title: '20-20-20 Göz Kuralı',
+      id: 'nsdr',
+      title: 'NSDR (Non-Sleep Deep Rest / Yoga Nidra)',
       category: 'breakGuide',
-      shortDescription: 'Göz yorgunluğunu anında al.',
+      shortDescription: 'Uyumadan derin dinlenme.',
       fullDescription:
-          'Uzun süre yakına (kitap/ekran) bakmak göz kaslarını kasar ve baş ağrısı yapar. Bu kural gözlerini sıfırlar.',
+          'Stanford nörobilimcisi Andrew Huberman tarafından popülerleştirilen bu yöntem, "Uyumadan Derin Dinlenme" anlamına gelir. Beyni uykuya dalmadan, uykunun yenileyici etkisine sokmayı hedefler.',
       steps: [
-        'Her 20 dakikada bir çalışmayı durdur.',
-        '20 feet (yaklaşık 6 metre) uzağa bak.',
-        '20 saniye boyunca oraya odaklan.',
+        'Sessiz bir yerde sırtüstü uzan veya rahatça otur.',
+        'Gözlerini kapat.',
+        'YouTube veya bir uygulama üzerinden 10 veya 20 dakikalık bir "NSDR" veya "Yoga Nidra" ses kaydı aç.',
+        'Yönlendirmeleri takip ederek vücudunuzdaki belirli noktaları zihnen tarayın ve gevşetin.',
+      ],
+      benefits: [
+        '20 dakikalık bir NSDR, 3-4 saatlik uykuya eşdeğer bir tazelenme hissi yaratabilir.',
+        'Dopamin seviyelerini yeniler.',
+        'Öğrenilen bilgilerin hafızaya kazınmasını hızlandırır.',
+      ],
+      tips: [
+        'Öğleden sonra gelen rehavet çökmesi (afternoon slump) için kahveden daha etkilidir.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'twenty-twenty-twenty-rule',
+      title: '20-20-20 Kuralı (Dijital Göz Yorgunluğu İçin)',
+      category: 'breakGuide',
+      shortDescription: 'Göz ve zihin dinlendirme molası.',
+      fullDescription:
+          'Sürekli ekrana bakmak "siliyer kasları" kilitler ve göz yorgunluğuna neden olur. Bu optik kural, gözleri ve beynin görsel işlem merkezini sıfırlar.',
+      steps: [
+        'Her 20 dakikada bir çalışmaya ara ver.',
+        'En az 20 feet (yaklaşık 6 metre) uzaktaki bir nesneye bak.',
+        'Bu nesneye 20 saniye boyunca odaklan.',
       ],
       benefits: [
         'Göz kuruluğunu ve baş ağrısını önler.',
-        'Mental bulanıklığı giderir.',
+        'Görsel odaklanmayı yeniden keskinleştirir.',
+        'Kısa olduğu için iş akışını bozmaz.',
       ],
       tips: [
-        'Pencereden dışarı bakmak en iyisidir.',
-        'Bu sırada bol bol göz kırp.',
+        'Uzağa bakarken gözlerinizi bilinçli olarak daha sık kırpın.',
+        'Pencereden dışarı bakmak en iyi seçenektir.',
       ],
     ),
     StudyTechnique(
-      id: 'power-nap',
-      title: 'Power Nap (Güç Uykusu)',
+      id: 'niksen',
+      title: 'Niksen (Hiçbir Şey Yapmama Sanatı)',
       category: 'breakGuide',
-      shortDescription: '20 dakikada 2 saatlik enerji.',
+      shortDescription: 'Zihni serbest bırakma molası.',
       fullDescription:
-          'Öğleden sonra gelen ağırlığı atmak için yapılan kısa şekerleme. Dikkat: 20 dakikayı geçerse sersemleşirsin (uyku ataleti).',
+          'Hollanda kökenli bu kavram, "amaçsızca durmak" demektir. Meditasyon değildir; zihni serbest bırakmaktır.',
       steps: [
-        'Alarmını tam 20 dakikaya kur.',
-        'Karanlık veya loş bir ortam bul (veya göz bandı tak).',
-        'Uyumaya çalışmasan bile gözlerini kapat ve uzan.',
-        'Alarm çalar çalmaz kalk.',
+        '5-10 dakikalık bir mola ver.',
+        'Telefonu, kitabı veya herhangi bir girdiyi elinizden bırakın.',
+        'Sadece oturun ve pencereden dışarı bakın veya tavanı izleyin.',
+        'Düşüncelerin gelip geçmesine izin verin, hiçbir şeye odaklanmaya çalışmayın.',
       ],
       benefits: [
-        'Dikkat ve reaksiyon hızını artırır.',
-        'Öğrendiklerini hafızaya işler.',
+        'Beynin "Default Mode Network" (Varsayılan Mod Ağı) bölgesini aktive eder; bu bölge yaratıcılık ve problem çözme merkezidir.',
+        'Tükenmişliği (burnout) engeller.',
+        'Sürekli "üretken olma" baskısını azaltır.',
       ],
       tips: [
-        'Uyumadan hemen önce kahve içersen, uyandığında kafein kana karışmış olur (Coffee Nap).',
+        'Bunu yaparken "suçluluk" hissetmeyin, bu sürecin bir parçasıdır.',
+        'Sosyal medyada gezinmek Niksen değildir, çünkü orada beyniniz hala veri işler.',
       ],
     ),
     StudyTechnique(
-      id: 'active-rest',
-      title: 'Aktif Dinlenme (Esneme)',
+      id: 'nasa-power-nap',
+      title: 'NASA Usulü Güç Uykusu (Power Nap)',
       category: 'breakGuide',
-      shortDescription: 'Masa başında kan dolaşımını aç.',
+      shortDescription: '20 dakikada enerjini topla.',
       fullDescription:
-          'Telefona bakmak dinlenme değildir! Gerçek dinlenme, kan akışını hızlandırmakla olur.',
+          'NASA pilotları üzerinde yapılan araştırmalara dayanan, tam bir uyku döngüsüne girmeden uyanıklığı artıran kısa uyku yöntemidir.',
       steps: [
-        'Ayağa kalk ve kollarını yukarı uzat.',
-        'Boynunu yavaşça sağa-sola ve öne-arkaya esnet.',
-        'Omuzlarını dairesel hareketlerle rahatlat.',
-        'Odanın içinde 2-3 tur at.',
+        'Alarmınızı 10 ile 20 dakika arasına kurun (Asla 30 dakikayı geçmeyin).',
+        'Ortamı biraz karartın veya göz bandı takın.',
+        'Uyku moduna geçin.',
+        'Alarm çalar çalmaz kalkın ve yüzünüzü yıkayın.',
       ],
       benefits: [
-        'Oksijen alımını artırır, beyni canlandırır.',
-        'Sırt ve boyun ağrılarını engeller.',
+        'Bilişsel performansı %34, dikkati %54 artırdığı kanıtlanmıştır.',
+        'Gece uykusunu bozmaz.',
+        'Öğleden sonraki çöküşler için birebir.',
       ],
       tips: [
-        'Pencereyi açıp derin nefes alarak yap.',
+        '"Nappuccino" tekniği: Uyumadan hemen önce bir espresso için. Kafein kana karışana kadar (yaklaşık 20 dk) uyursunuz, uyandığınızda hem uykunun hem kafeinin etkisiyle süper enerjik kalkarsınız.',
+        '30 dakikayı geçerseniz "uyku sersemliği" (sleep inertia) yaşarsınız, daha yorgun uyanırsınız.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'palming',
+      title: 'Palming (Göz Avuçlama)',
+      category: 'breakGuide',
+      shortDescription: 'Çok eski bir göz rahatlama tekniği.',
+      fullDescription:
+          'Gözleri ışıktan tamamen izole ederek sinir sistemini sakinleştiren çok eski bir yöntemdir.',
+      steps: [
+        'Avuç içlerinizi birbirine sürterek ısıtın.',
+        'Dirseklerinizi masaya dayayın.',
+        'Avuç içlerinizi, göz kürelerine baskı yapmadan, gözlerinizi kapatacak şekilde yüzünüze yerleştirin.',
+        'Işığın hiç sızmadığından emin olun (Zifiri karanlık olmalı).',
+        '1-3 dakika boyunca bu karanlığın içinde nefes alıp verin.',
+      ],
+      benefits: [
+        'Optik sinirleri anında gevşetir.',
+        'Zihinsel gürültüyü azaltır.',
+        'Ekran başında çalışanlar için en hızlı rahatlama yöntemidir.',
+      ],
+      tips: [
+        'Gözleriniz kapalıyken siyah rengi hayal etmeye çalışın, bu gevşemeyi artırır.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'active-micro-exercises',
+      title: 'Aktif Mikro-Egzersizler',
+      category: 'breakGuide',
+      shortDescription: 'Enerji yenileme hareketleri.',
+      fullDescription:
+          'Oturmanın verdiği fiziksel stresi atmak için kalp ritmini hafifçe yükselten hareketlerdir. Pomodoro molaları için idealdir.',
+      steps: [
+        'Mola verdiğinizde yerinizde durmayın.',
+        '1 dakika boyunca "Jumping Jacks" (zıplayarak el çırpma) yapın.',
+        'Veya ofis içinde hızlı tempoda bir tur atın.',
+        'Veya 10 tane şınav çekin / squat yapın.',
+      ],
+      benefits: [
+        'Beyne giden kan akışını ve oksijeni artırır.',
+        'Uyuşukluğu (letarji) anında keser.',
+        'Endorfin salgılatır.',
+      ],
+      tips: [
+        'Terleyecek kadar değil, sadece kan dolaşımını hissedecek kadar yapın.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'social-fuel-break',
+      title: 'Sosyal Yakıt Molası',
+      category: 'breakGuide',
+      shortDescription: 'Oksitosin hormonu salgılatan sosyal dinlenme.',
+      fullDescription:
+          'Beynin odaklanan kısmını kapatıp, sosyal kısmını açarak yapılan dinlenmedir. Oksitosin hormonu salgılatır.',
+      steps: [
+        'İşle/dersle alakası olmayan bir arkadaşınızı veya aile üyenizi arayın.',
+        'Veya ofiste sevdiğiniz bir iş arkadaşının yanına gidin.',
+        'Kural: İş, proje veya stresli konular hakkında konuşmak yasak. Sadece havadan sudan veya komik bir olaydan bahsedin.',
+        '5-10 dakika sonra işe dönün.',
+      ],
+      benefits: [
+        'Yalnızlık hissini azaltır.',
+        'Duygusal bir "reset" atar.',
+      ],
+      tips: [
+        'Enerjinizi emen (negatif) insanlarla değil, size enerji veren kişilerle bu molayı yapın.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'green-break',
+      title: 'Yeşil Mola (40 Saniye Kuralı)',
+      category: 'breakGuide',
+      shortDescription: 'Melbourne Üniversitesi araştırmasına dayalı doğa molası.',
+      fullDescription:
+          'Melbourne Üniversitesi\'nin yaptığı bir araştırmaya göre, sadece doğaya bakmak bile dikkati toplar.',
+      steps: [
+        'Mola verdiğinizde bir parka gidin veya balkona çıkıp ağaçlara bakın.',
+        'Eğer dışarı çıkamıyorsanız, bilgisayarınızda veya telefonunuzda yüksek çözünürlüklü bir orman/doğa fotoğrafı açın.',
+        'En az 40 saniye boyunca bu yeşil görüntüye odaklanın.',
+      ],
+      benefits: [
+        'Hata yapma oranını düşürür.',
+        'Şehir hayatının yarattığı zihinsel yorgunluğu alır.',
+      ],
+      tips: [
+        'Masanızda canlı bir bitki bulundurmak bu etkiyi sürekli kılar.',
       ],
     ),
   ];
 
   // ═══════════════════════════════════════════════════════════════════════════
-  // 🧬 3. BIO-PERFORMANS (BIO-HACKING) - YENİ
+  // 6. SINAV & HIZLI ÖĞRENME
   // ═══════════════════════════════════════════════════════════════════════════
-  static const List<StudyTechnique> _bioHacking = [
+  static const List<StudyTechnique> _examFastLearning = [
     StudyTechnique(
-      id: 'sleep-cycles',
-      title: 'REM Uykusu Stratejisi',
-      category: 'bioHacking',
-      shortDescription: 'Bilgileri uykuda kaydet.',
+      id: 'feynman-technique-exam',
+      title: 'Feynman Tekniği',
+      category: 'examFastLearning',
+      shortDescription: 'Bir konuyu basitçe anlatamıyorsan anlamamışsındır.',
       fullDescription:
-          'Hafıza, REM uykusunda pekişir. Sınav döneminde "az uyumak" değil, "döngülü uyumak" önemlidir. Bir uyku döngüsü yaklaşık 90 dakikadır.',
+          'Nobel ödüllü fizikçi Richard Feynman\'dan adını alan bu teknik, bir konuyu tam anlamıyla öğrenmenin en iyi yolunun onu basitleştirerek anlatmak olduğu ilkesine dayanır.',
       steps: [
-        'Uyku süreni 90 dakikanın katları olarak ayarla (4.5 saat, 6 saat, 7.5 saat).',
-        'Örneğin 7.5 saat uyku (5 döngü), 8 saat uykudan daha dinç uyanmanı sağlar.',
-        'Aynı saatte yatmaya ve kalkmaya çalış.',
+        'Konuyu çalıştıktan sonra boş bir kağıt alın.',
+        'Konuyu hiç bilmeyen birine (örneğin 5 yaşındaki bir çocuğa) anlatır gibi yazın veya sesli anlatın.',
+        'Karmaşık jargon kullanmaktan kaçının, basit analojiler kurun.',
+        'Takıldığınız veya basitçe anlatamadığınız yerleri tespit edin; işte orası sizin eksik olduğunuz yerdir. Kaynağa dönüp o kısmı tekrar çalışın.',
       ],
       benefits: [
-        'Sabahları dinç uyanırsın (Sleep Inertia olmaz).',
-        'Ezberlediğin bilgiler kalıcı hafızaya geçer.',
+        'Ezberi değil, mantığı kavramayı sağlar.',
+        'Bilgi boşluklarını (illüzyonları) anında ortaya çıkarır.',
+        'Konuyu uzun süreli hafızaya atar.',
       ],
       tips: [
-        'Yatmadan 1 saat önce mavi ışığı (telefon) kes.',
+        'Gerçekten bir arkadaşınıza veya hayali bir dinleyiciye sesli anlatım yapın.',
+        '"Neden?" sorusunu sürekli kendinize sorun.',
       ],
     ),
     StudyTechnique(
-      id: 'brain-food',
-      title: 'Beyin Yakıtı (Beslenme)',
-      category: 'bioHacking',
-      shortDescription: 'Şeker çöküşünden kaçın.',
+      id: 'spaced-repetition-exam',
+      title: 'Aralıklı Tekrar (Spaced Repetition)',
+      category: 'examFastLearning',
+      shortDescription: 'Beyniniz unutma eğrisini kırın.',
       fullDescription:
-          'Karbonhidrat ağırlıklı beslenmek kan şekerini hızla yükseltip düşürür (Sugar Crash), bu da uyku getirir. Protein ve sağlıklı yağlar ise uzun süreli odaklanma sağlar.',
+          'Beynimiz öğrendiği bilgiyi zamanla unutur (Ebbinghaus Unutma Eğrisi). Bu yöntem, bilgiyi tam unutmak üzereyken tekrar ederek unutma eğrisini kırmayı hedefler.',
       steps: [
-        'Ders öncesi: Ceviz, badem, bitter çikolata.',
-        'Kahvaltı: Yumurta (B12 ve Protein).',
-        'Kaçın: Hamur işi, şekerli içecekler.',
+        'Bir konuyu çalıştıktan sonra şu aralıklarla tekrar edin:',
+        '1. Tekrar: 1 gün sonra.',
+        '2. Tekrar: 3 gün sonra.',
+        '3. Tekrar: 1 hafta sonra.',
+        'Tekrarlar sadece "okuma" değil, hatırlama egzersizi olmalıdır.',
       ],
       benefits: [
-        'Ders çalışırken uyuklamazsın.',
-        'Odaklanma süren uzar.',
+        'Bilgiyi kısa süreli hafızadan uzun süreli hafızaya en etkili aktaran yöntemdir.',
+        'Sınavdan önceki gece sabahlamayı (cramming) gereksiz kılar.',
+        'Daha az toplam çalışma süresiyle daha çok akılda tutmayı sağlar.',
       ],
       tips: [
-        'Yanında her zaman su bulundur. Dehidrasyon = Dikkat dağınıklığı.',
+        'Anki veya Quizlet gibi bu algoritmayı kullanan uygulamalar işi çok kolaylaştırır.',
+        'Takviminize tekrar günlerini önceden işleyin.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'active-recall',
+      title: 'Aktif Hatırlama (Active Recall)',
+      category: 'examFastLearning',
+      shortDescription: 'Beyni dışarıdan almaya değil, içeriden çıkarmaya zorlayın.',
+      fullDescription:
+          'Pasif okumanın (altını çizme, tekrar tekrar okuma) tam tersidir. Beyni bilgiyi dışarıdan almaya değil, içeriden geri çağırmaya zorlamaktır. Öğrenme, bilgi beyne girerken değil, beyinden çıkarken gerçekleşir.',
+      steps: [
+        'Bir sayfayı okuyun.',
+        'Kitabı/notu kapatın.',
+        '"Az önce ne okudum?" diyerek aklınızda kalanları sesli söyleyin veya yazın.',
+        'Kitabı açıp ne kadarını doğru hatırladığınızı kontrol edin.',
+      ],
+      benefits: [
+        'Bilimsel olarak kanıtlanmış en yüksek verimli çalışma yöntemidir (High Utility).',
+        'Beyindeki nöral bağlantıları güçlendirir.',
+        'Sınav stresini azaltır çünkü sınavın kendisi bir "aktif hatırlama" sürecidir.',
+      ],
+      tips: [
+        'Konu başlıklarını soruya çevirin (Örn: "Mitoz bölünme" başlığı yerine "Mitoz bölünmenin evreleri nelerdir?" yazın ve cevaplayın).',
+      ],
+    ),
+    StudyTechnique(
+      id: 'leitner-system',
+      title: 'Leitner Kutusu Sistemi',
+      category: 'examFastLearning',
+      shortDescription: 'Aralıklı tekrarın fiziksel kartlarla oyunlaştırılmış hali.',
+      fullDescription:
+          'Aralıklı tekrarın fiziksel kartlarla oyunlaştırılmış halidir. Özellikle yabancı dil kelimeleri, formüller veya tarih terimleri ezberlemek için mükemmeldir.',
+      steps: [
+        '3 veya 5 adet kutu (veya zarf) hazırlayın.',
+        'Tüm bilgi kartlarını 1. Kutuya koyun.',
+        'Kartı çekin ve soruyu cevaplayın:',
+        'Doğruysa: Kartı bir sonraki kutuya (Kutu 2) atın.',
+        'Yanlışsa: Kartı en başa (Kutu 1) geri gönderin (Hangi kutuda olursa olsun).',
+        'Kutu 1\'i her gün, Kutu 2\'yi 3 günde bir, Kutu 3\'ü haftada bir çalışın.',
+      ],
+      benefits: [
+        'Zaten bildiğiniz şeylere zaman harcamanızı engeller.',
+        'Zorlandığınız konulara daha sık maruz kalmanızı sağlar.',
+        'İlerlemeyi görselleştirir.',
+      ],
+      tips: [
+        'Kartın bir yüzüne soruyu, arkasına cevabı yazın.',
+        'Kartlar dijital değil, el yazısı olursa akılda kalıcılık artar.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'sq3r-method',
+      title: 'SQ3R Metodu',
+      category: 'examFastLearning',
+      shortDescription: 'Ders kitaplarını anlamak için sistematik yöntem.',
+      fullDescription:
+          'Francis Pleasant Robinson tarafından geliştirilen bu yöntem, ders kitaplarını veya akademik makaleleri okurken anlamayı maksimuma çıkarmak için kullanılır.',
+      steps: [
+        'Survey (Göz Gezdir): Başlıkları, görselleri, özetleri hızlıca tara. İskeleti gör.',
+        'Question (Soru Sor): Başlıkları soruya çevir (Örn: "Termodinamik Yasaları" -> "Bu yasalar nelerdir ve ne işe yarar?").',
+        'Read (Oku): Soruların cevabını bulmak için metni aktif şekilde oku.',
+        'Recite (Anlat/Tekrarla): Okuduğunu bakmadan kendi cümlelerinle özetle.',
+        'Review (Gözden Geçir): Tüm notları ve metni son kez kontrol et.',
+      ],
+      benefits: [
+        'Okuduğunu anlamama veya "gözlerin satırlarda kayıp gitmesi" sorununu çözer.',
+        'Metne bir amaçla yaklaşmanızı sağlar.',
+        'Ders kitabı çalışmayı sistematik hale getirir.',
+      ],
+      tips: [
+        'Göz gezdirme aşamasını asla atlamayın, beyni hazırlar.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'memory-palace-exam',
+      title: 'Zihin Sarayı (Loci Metodu)',
+      category: 'examFastLearning',
+      shortDescription: 'Bilgileri mekansal hafızayla kodlayarak hatırlayın.',
+      fullDescription:
+          'Antik Yunan hatiplerinin kullandığı, dünya hafıza şampiyonlarının favori tekniğidir. Bilgileri mekansal hafızayla kodlayarak sırasıyla hatırlamayı sağlar.',
+      steps: [
+        'Çok iyi bildiğiniz bir mekan seçin (Eviniz, okul yolu vb.).',
+        'Ezberlemeniz gereken maddeleri (örneğin elementler tablosu) bu mekandaki eşyalarla sırayla eşleştirin.',
+        'Absürt ve abartılı hayaller kurun (Örn: Kapı kolunda sarkan dev bir Hidrojen balonu, koltukta oturan Helyum sesli bir palyaço).',
+        'Zihninizde bu mekanda yürüyüşe çıkarak bilgileri toplayın.',
+      ],
+      benefits: [
+        'Sıralı listeleri ezberlemek için rakipsizdir.',
+        'Hafıza kapasitesini inanılmaz artırır.',
+        'Kalıcıdır, yıllar sonra bile o "yürüyüşü" yapıp hatırlayabilirsiniz.',
+      ],
+      tips: [
+        'Görseller ne kadar komik, korkunç veya tuhaf olursa o kadar iyi hatırlarsınız.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'interleaving',
+      title: 'Örgülü Çalışma (Interleaving)',
+      category: 'examFastLearning',
+      shortDescription: 'Konuları ve soru tiplerini karıştırarak çalışın.',
+      fullDescription:
+          'Genellikle yapılan "Blok Çalışma"nın (Önce A konusunu bitir, sonra B\'ye geç) aksine, konuları veya soru tiplerini karıştırarak çalışmaktır.',
+      steps: [
+        'Matematik çalışıyorsanız; sadece "Türev" çözmek yerine, testin içine "İntegral" ve "Trigonometri" soruları da serpiştirin.',
+        'Farklı dersleri veya aynı dersin farklı ünitelerini dönüşümlü çalışın (20 dk Tarih, 20 dk Coğrafya, tekrar Tarih).',
+      ],
+      benefits: [
+        'Beyni sürekli uyanık tutar.',
+        'Hangi problemin hangi teknikle çözüleceğini ayırt etme (discrimination) becerisini geliştirir.',
+        'Sınav simülasyonuna daha yakındır (Sınavda sorular karışık gelir).',
+      ],
+      tips: [
+        'Başlangıçta blok çalışmadan daha zor ve yavaş hissettirebilir, bu öğrenmenin gerçekleştiğinin işaretidir. Pes etmeyin.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'cornell-notes',
+      title: 'Cornell Not Tutma Sistemi',
+      category: 'examFastLearning',
+      shortDescription: 'Not almayı, tekrarı ve özeti tek sayfada birleştirin.',
+      fullDescription:
+          'Walter Pauk tarafından geliştirilen bu sistem, not almayı, tekrarı ve özeti tek sayfada birleştirir. Sınav haftası için mükemmel bir kaynak oluşturur.',
+      steps: [
+        'Kağıdı ters bir "T" şeklinde bölün:',
+        'Sağ Geniş Sütun (Notlar): Derste hocanın anlattıklarını ana hatlarıyla buraya yazın.',
+        'Sol Dar Sütun (İpuçları): Sağdaki notlarla ilgili anahtar kelimeleri veya potansiyel sınav sorularını buraya yazın.',
+        'Alt Kısım (Özet): Sayfanın en altına, tüm sayfanın 2-3 cümlelik özetini yazın.',
+        'Tekrar yaparken sağ tarafı kapatıp sadece soldaki sorulara bakarak konuyu anlatmaya çalışın.',
+      ],
+      benefits: [
+        'Notları daha sonra çalışılabilir bir formata sokar.',
+        'Ders sırasında aktif dinlemeyi sağlar.',
+        'Özet kısmı, konunun ana fikrini yakalamanıza yardımcı olur.',
+      ],
+      tips: [
+        'Ders biter bitmez (henüz sıcakken) sol sütunu ve özeti doldurun.',
       ],
     ),
   ];
@@ -287,467 +405,380 @@ class StudyTechniquesData {
       id: 'pomodoro',
       title: 'Pomodoro Tekniği',
       category: 'timeManagement',
-      shortDescription: 'Zamanı düşman değil, müttefik yap.',
+      shortDescription: '25 dakika çalış, 5 dakika mola.',
       fullDescription:
-          'İtalyan Francesco Cirillo tarafından geliştirilen bu teknik, zamanı bir düşman gibi görmek yerine müttefik haline getirmeyi amaçlar. Odaklanma süresini (25 dk) kısa molalarla (5 dk) dengeleyerek zihinsel çevikliği korur. Özellikle dikkat dağınıklığı yaşayanlar için en etkili yöntemdir.',
+          'Pomodoro Tekniği, Francesco Cirillo tarafından geliştirilen bir yöntemdir. Çalışma sürelerini kısa aralıklara bölerek odaklanmayı artırır ve yorgunluğu önler.',
       steps: [
-        'Görev Seçimi: O an üzerinde çalışacağın tek bir görev belirle (Asla birden fazla değil).',
-        'Zamanlayıcı Kurulumu: Zamanlayıcıyı tam 25 dakikaya ayarla.',
-        'Çalışma: Süre bitene kadar dış dünyayla iletişimini kes ve sadece göreve odaklan.',
-        'Kısa Mola: Zil çaldığında iş bitmese bile dur ve 5 dakika mola ver (Nefes al, su iç).',
-        'Döngü: Her 4 Pomodoro\'dan (100 dakika çalışma) sonra 15-30 dakikalık uzun bir mola ver.',
+        'Bir görev seç.',
+        'Zamanlayıcıyı 25 dakikaya ayarla (bir "Pomodoro").',
+        'Kesintisiz çalış.',
+        'Zaman dolunca 5 dakika mola ver.',
+        'Dört Pomodoro\'dan sonra 15-30 dakika uzun mola al.',
       ],
       benefits: [
-        'Büyük ve korkutucu görevleri yönetilebilir küçük parçalara böler.',
-        'Zamanın ne kadar hızlı geçtiğine dair farkındalık (zaman algısı) yaratır.',
-        'Sık molalar sayesinde zihinsel yorgunluğu ve tükenmişliği (burnout) engeller.',
+        'Odaklanmayı artırır ve ertelemeyi azaltır.',
+        'Verimliliği yükseltir, zihinsel yorgunluğu önler.',
+        'Günlük ilerlemeyi takip etmeyi kolaylaştırır.',
       ],
       tips: [
-        'Kesinti Yönetimi: Çalışırken aklına başka bir iş gelirse, kağıdın kenarına not al ve hemen işine dön.',
-        'Analog Kullanım: Telefon yerine fiziksel bir saat kullanmak, telefonun dikkat dağıtıcı unsurlarından seni korur.',
+        'Zamanlayıcı olarak telefon uygulamalarını kullan.',
+        'Molalarda ayağa kalk ve hareket et.',
+        'Görevleri küçük parçalara ayırarak başla.',
       ],
     ),
     StudyTechnique(
       id: 'eisenhower-matrix',
       title: 'Eisenhower Matrisi',
       category: 'timeManagement',
-      shortDescription: 'Meşgul olmakla üretken olmak arasındaki fark.',
+      shortDescription: 'Acil ve önemli olanı ayır.',
       fullDescription:
-          'Görevleri "Aciliyet" ve "Önem" derecesine göre dört kategoriye ayıran bir karar verme şablonudur. Meşgul olmakla üretken olmak arasındaki farkı netleştirir.',
+          'Dwight D. Eisenhower\'dan esinlenen bu matris, görevleri aciliyet ve önem derecesine göre sınıflandırarak önceliklendirme yapar.',
       steps: [
-        'Liste Oluşturma: Tüm yapılacaklar listeni önüne al.',
-        'Kutu 1 (Acil ve Önemli): Krizler, son teslim tarihi bugün olan projeler → Hemen Yap.',
-        'Kutu 2 (Acil Değil ama Önemli): Kişisel gelişim, spor, uzun vadeli planlar → Zaman Planla.',
-        'Kutu 3 (Acil ama Önemsiz): Gereksiz telefonlar, başkasının acil işleri → Devret.',
-        'Kutu 4 (Acil Değil ve Önemsiz): Sosyal medya, amaçsız internet sörfü → Sil (Yapma).',
-        'Uygulama: Günün başında önce Kutu 1\'i bitir, sonra vaktinin çoğunu Kutu 2\'ye ayır.',
+        'Görevlerini listele.',
+        'Her görevi acil/önemli, acil/değil önemli, önemli/acil değil, ne acil ne önemli olarak dört kadrana ayır.',
+        'Acil ve önemli olanları hemen yap.',
+        'Önemli ama acil olmayanları planla.',
+        'Diğerlerini devret veya sil.',
       ],
       benefits: [
-        'Kriz yönetimi becerisini artırır.',
-        'Gereksiz işlere "Hayır" demeyi kolaylaştırır.',
-        'Stratejik ve uzun vadeli hedeflere odaklanmayı sağlar.',
+        'Karar verme sürecini hızlandırır.',
+        'Stresi azaltır ve önemli işlere odaklanmayı sağlar.',
+        'Zamanı boşa harcayan görevleri ortadan kaldırır.',
       ],
       tips: [
-        'Kutu 2 Tuzağı: İnsanlar Kutu 2\'yi erteler çünkü acil değildir. Ancak başarının sırrı Kutu 2\'dedir.',
-        'Renk Kodlaması: Her kategoriyi farklı renkle işaretleyerek görsel bir harita oluştur.',
+        'Matrisi bir kağıt veya uygulama (örneğin Trello) ile çiz.',
+        'Haftalık gözden geçirme yap.',
+        '"Acil" ile "önemli"yi karıştırmamaya dikkat et.',
       ],
     ),
     StudyTechnique(
       id: 'time-blocking',
-      title: 'Zaman Bloklama (Time Blocking)',
+      title: 'Zaman Bloklama',
       category: 'timeManagement',
-      shortDescription: 'Yapılacaklar Listesi yerine Takvim kullan.',
+      shortDescription: 'Günü belirli bloklara ayır.',
       fullDescription:
-          'Günü saatlik dilimlere bölerek her bir zaman dilimine spesifik bir görev atama yöntemidir. "Şimdi ne yapsam?" sorusunu ortadan kaldırır.',
+          'Zaman Bloklama, günü belirli bloklara ayırarak her bloğa bir aktivite atama yöntemidir. Takvim gibi çalışır.',
       steps: [
-        'Tahmin: Yapacağın işlerin ne kadar süreceğini gerçekçi bir şekilde tahmin et.',
-        'Bloklama: Takviminde bu işler için kesin saat aralıkları oluştur (Örn: 09:00-10:30 Rapor Yazımı).',
-        'Gruplama (Batching): Benzer işleri (e-posta cevaplama, telefon görüşmeleri) tek bir zaman bloğuna topla.',
-        'Tampon Süre: Bloklar arasına 10-15 dakikalık boşluklar bırak (Beklenmedik durumlar için).',
+        'Gününü saatlik bloklara böl.',
+        'Her bloğa bir görev veya aktivite ata (örneğin 9-11 arası e-posta).',
+        'Bloklar arasında tampon zaman bırak.',
+        'Gün sonunda planı gözden geçir ve ayarla.',
       ],
       benefits: [
-        '"Şimdi ne yapsam?" karar yorgunluğunu ortadan kaldırır.',
-        'Tek bir işe derinlemesine odaklanmayı (Deep Work) kolaylaştırır.',
-        'Günün sonunda neye ne kadar vakit harcadığını net bir şekilde gösterir.',
+        'Günün yapısını sağlar ve dağılmayı önler.',
+        'Dengeli bir yaşam için iş-dinlenme dengesi kurar.',
+        'Verimliliği artırır ve beklenmedik işleri yönetir.',
       ],
       tips: [
-        'Tema Günleri: Mümkünse günleri temalara ayır. (Örn: Çarşamba toplantı günü, Perşembe üretim günü).',
-        'Katı Sınırlar: Blokladığın zaman diliminde iş bitmezse, takvimi revize et ya da diğer bloğa geç.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'eat-that-frog',
-      title: 'Kurbağayı Ye (Eat That Frog)',
-      category: 'timeManagement',
-      shortDescription: 'En zor işi sabah ilk yap.',
-      fullDescription:
-          'Günün en zor, en korkutucu ama en çok katma değer sağlayan işini sabah ilk sırada yapma tekniğidir. İrade gücünün sabah en yüksek seviyede olduğu gerçeğine dayanır.',
-      steps: [
-        'Kurbağayı Tanımla: Listendeki en zor, ertelemeye en meyilli olduğun görevi seç.',
-        'Hazırlık: Geceden masanı hazırla ki sabah direkt başlayabilesin.',
-        'İlk İş: Sabah e-postalarına veya telefona bakmadan önce doğrudan bu görevi yap.',
-        'Tamamlama: Görev bitmeden başka hiçbir şeye geçme.',
-      ],
-      benefits: [
-        'Erteleme (Procrastination) döngüsünü kırar.',
-        'Güne büyük bir başarı hissiyle başlamayı sağlar, motivasyonu gün boyu yüksek tutar.',
-        'Günün geri kalanında zihinsel baskıyı azaltır.',
-      ],
-      tips: [
-        'İki Kurbağa Kuralı: Eğer iki zor iş varsa, daha çirkin (daha zor) olanından başla.',
-        'Düşünme, Yap: Sabah uyanınca üzerine düşünmeye başlarsan erteleme ihtimalin artar. Robot gibi başla.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'gtd',
-      title: 'GTD (Getting Things Done)',
-      category: 'timeManagement',
-      shortDescription: 'Zihni boşalt, sisteme güven.',
-      fullDescription:
-          'Zihni hatırlama göreviyle yormayıp, tüm işleri harici bir sisteme kaydetme ve sistematik olarak işleme yöntemidir. David Allen tarafından geliştirilen kapsamlı bir akış yönetim sistemidir.',
-      steps: [
-        'Topla (Capture): Aklına gelen her şeyi (fikir, görev, ödeme) bir havuzda (defter/uygulama) topla.',
-        'İşle (Clarify): Her madde için karar ver: Yapılabilir mi? Hayırsa sil. Evetse bir sonraki adım ne?',
-        'Düzenle (Organize): Görevleri bağlamına göre listelere ayır (Örn: @Bilgisayar, @Telefon, @Ofis).',
-        'Gözden Geçir (Reflect): Haftada bir kez tüm listelerini kontrol et ve güncelle.',
-        'Yap (Engage): Bulunduğun ortama ve enerji durumuna uygun görevi seç ve yap.',
-      ],
-      benefits: [
-        'Zihinsel yükü (mental load) sıfırlar, stresi azaltır.',
-        'Hiçbir detayın veya görevin gözden kaçmamasını garanti eder.',
-        'Yaratıcılık için beyinde boş alan açar.',
-      ],
-      tips: [
-        '2 Dakika Kuralı: Eğer bir işi yapmak 2 dakikadan kısa sürüyorsa, asla listeye yazma. Hemen yap.',
-        'Gelen Kutusu Temizliği: Havuzunu her günün sonunda mutlaka boşalt (sınıflandır).',
+        'Google Calendar gibi araçlar kullan.',
+        'Esnek ol, her bloğu katı tutma.',
+        'Blokları renk kodlayarak görselleştir.',
       ],
     ),
     StudyTechnique(
       id: 'pareto-principle',
-      title: 'Pareto İlkesi (80/20 Kuralı)',
+      title: 'Pareto Prensibi (80/20 Kuralı)',
       category: 'timeManagement',
-      shortDescription: 'Sonuçların %80\'i, çabaların %20\'sinden.',
+      shortDescription: 'Sonuçların %80\'i çabaların %20\'sinden gelir.',
       fullDescription:
-          'Sonuçların %80\'inin, nedenlerin %20\'sinden kaynaklandığını savunan analiz yöntemidir. Az çabayla çok sonuç almayı hedefler. Mükemmeliyetçilik tuzağından kurtarır.',
+          'Vilfredo Pareto\'dan gelen bu prensip, sonuçların %80\'inin çabaların %20\'sinden geldiğini savunur. En etkili görevlere odaklanmayı teşvik eder.',
       steps: [
-        'Analiz: Yapılacaklar listendeki tüm işleri yaz.',
-        'Değerlendirme: Hangi görevlerin sana en büyük getiriyi (başarı, mutluluk) sağladığını tespit et.',
-        'Eleme: Düşük katma değerli işleri (kalan %80\'i) belirle.',
-        'Odaklanma: Enerjinin tamamını o "Altın %20"lik kısma harca. Diğerlerini mümkünse yapma.',
+        'Görevlerini listele.',
+        'Hangi %20\'lik kısmın %80 sonuç verdiğini belirle.',
+        'Bu görevlere öncelik ver.',
+        'Düşük etkili olanları azalt veya ortadan kaldır.',
       ],
       benefits: [
-        'Mükemmeliyetçilik tuzağından kurtarır.',
-        'Verimliliği (Efficiency) değil, etkinliği (Effectiveness) artırır.',
-        'Gereksiz detaylarda boğulmayı engeller.',
+        'Zamanı en değerli işlere harcar.',
+        'Verimliliği maksimize eder ve gereksiz çabayı azaltır.',
+        'Uzun vadeli başarıyı artırır.',
       ],
       tips: [
-        'Sürekli Sorgulama: "Şu an yaptığım iş o %20\'lik dilimde mi yoksa vakit mi öldürüyorum?" diye sor.',
-        'KPSS\'de en çok soru çıkan konulara (o %20\'lik kısma) odaklan.',
+        'Günlük raporlarla %20\'yi takip et.',
+        'Analiz için araçlar (örneğin Excel) kullan.',
+        'Prensibi hem iş hem kişisel hayatta uygula.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'gtd',
+      title: 'Getting Things Done (GTD)',
+      category: 'timeManagement',
+      shortDescription: 'Zihni boşalt, sisteme güven.',
+      fullDescription:
+          'David Allen\'ın yöntemi olan GTD, görevleri beyinden dışarı aktararak zihni rahatlatır ve sistematik bir süreç izler.',
+      steps: [
+        'Tüm görevleri topla (yakalama).',
+        'Her birini netleştir (ne yapılmalı?).',
+        'Organize et (listeler, takvimler).',
+        'Gözden geçir (haftalık inceleme).',
+        'Uygula (yap, devret, ertele).',
+      ],
+      benefits: [
+        'Zihinsel yükü azaltır ve yaratıcılığı artırır.',
+        'Kaosu kontrol altına alır.',
+        'Uzun vadeli hedeflere ulaşmayı kolaylaştırır.',
+      ],
+      tips: [
+        'Todoist veya Evernote gibi uygulamalar kullan.',
+        'Haftalık incelemeyi atlama.',
+        'Görevleri 2 dakikadan kısa olanları hemen yap.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'eat-that-frog',
+      title: 'Kurbağayı Ye (Eat the Frog)',
+      category: 'timeManagement',
+      shortDescription: 'En zor işi günün başında yap.',
+      fullDescription:
+          'Mark Twain\'den esinlenen bu yöntem, en zor veya istenmeyen görevi güne başlarken yaparak momentum kazanmayı hedefler.',
+      steps: [
+        'Günün en zor görevini belirle ("kurbağa").',
+        'Sabah ilk iş olarak onu yap.',
+        'Tamamlandıktan sonra diğer görevlere geç.',
+      ],
+      benefits: [
+        'Ertelemeyi önler ve motivasyonu artırır.',
+        'Günün kalanını daha hafif geçirir.',
+        'Başarı hissi yaratır ve üretkenliği yükseltir.',
+      ],
+      tips: [
+        'Kurbağayı önceki akşam belirle.',
+        'Görevi küçük adımlara böl.',
+        'Ödül sistemi ekle (tamamlanınca kahve molası).',
+      ],
+    ),
+    StudyTechnique(
+      id: 'abc-method',
+      title: 'ABC Yöntemi',
+      category: 'timeManagement',
+      shortDescription: 'Görevleri A, B, C olarak önceliklendir.',
+      fullDescription:
+          'Görevleri A (çok önemli), B (önemli), C (az önemli) olarak sınıflandıran basit bir önceliklendirme tekniğidir. Hızlı ve kolay uygulanır.',
+      steps: [
+        'Görev listesi oluştur.',
+        'Her göreve A, B veya C etiketi ver.',
+        'A\'ları hemen, B\'leri planlayarak, C\'leri boş zamanda yap.',
+        'Listeyi günlük güncelle.',
+      ],
+      benefits: [
+        'Hızlı ve kolay uygulanır.',
+        'Öncelikleri netleştirir ve zamanı optimize eder.',
+        'Stresi azaltır ve odaklanmayı sağlar.',
+      ],
+      tips: [
+        'A görevlerini en fazla 3-5 ile sınırla.',
+        'Kağıt kalem veya basit not uygulamaları kullan.',
+        'C görevlerini devretmeyi düşün.',
       ],
     ),
     StudyTechnique(
       id: 'kanban',
-      title: 'Kanban Tekniği',
+      title: 'Kanban Yöntemi',
       category: 'timeManagement',
-      shortDescription: 'İş akışını görselleştir.',
+      shortDescription: 'Görsel tahta ile iş akışını yönet.',
       fullDescription:
-          'İş akışını görselleştirmek için panoların ve kartların kullanıldığı bir yöntemdir. İşlerin hangi aşamada olduğunu net bir şekilde gösterir. Japonya\'da Toyota tarafından geliştirilmiştir.',
+          'Toyota\'dan gelen görsel bir sistem olan Kanban, görevleri "Yapılacak", "Yapılıyor", "Yapıldı" sütunlarında yönetir. İlerlemeyi görselleştirir.',
       steps: [
-        'Pano Hazırlığı: Bir kağıda, tahtaya veya Trello gibi bir uygulamaya 3 sütun çiz.',
-        'Sütun İsimleri: Yapılacaklar (To Do) | Yapılıyor (Doing) | Bitti (Done)',
-        'Kart Oluşturma: Görevleri kartlara yaz ve ilgili sütuna yerleştir.',
-        'Hareket: Süreç ilerledikçe kartı sağdaki sütuna taşı.',
+        'Bir tahta oluştur (fiziksel veya dijital).',
+        'Görevleri kartlara yaz.',
+        'Kartları sütunlar arasında taşı (ilerledikçe).',
+        'Akışı izle ve tıkanıklıkları gider.',
       ],
       benefits: [
-        'Süreçteki darboğazları (tıkanan yerleri) görmeyi sağlar.',
-        'Görsel olarak ilerlemeyi görmek beyinde dopamin salgılar ve motivasyon yaratır.',
-        'Aynı anda çok fazla işe başlanmasını engeller.',
+        'İlerlemeyi görselleştirir ve motivasyonu artırır.',
+        'Ekip çalışmaları için idealdir.',
+        'Esneklik sağlar ve aşırı yüklenmeyi önler.',
       ],
       tips: [
-        'WIP Limiti: "Yapılıyor" sütununa aynı anda en fazla 3 iş koyma kuralı getir. Odaklanmanı artırır.',
-        'Duvarına veya panona basitçe çizebilirsin, dijital uygulama şart değil.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'parkinson-law',
-      title: 'Parkinson Yasası',
-      category: 'timeManagement',
-      shortDescription: 'İşlere yapay süreler vererek hızlan.',
-      fullDescription:
-          '"Bir iş, tamamlanması için ayrılan süreyi dolduracak şekilde genişler." ilkesine dayanarak, işlere yapay ve kısa süreler verme tekniğidir. Kendine baskı oluşturarak verimliliği artırır.',
-      steps: [
-        'Süre Belirleme: Bir görevin normalde ne kadar süreceğini düşün (Örn: 2 saat).',
-        'Kısıtlama: Kendine bu sürenin yarısını ver (Örn: 1 saat).',
-        'Yarış: Sanki patronun başındaymış veya uçak kaçacakmış gibi o sürede işi bitirmeye çalış.',
-        'Değerlendirme: Süreyi tutturup tutturamadığını analiz et ve sonraki sefer ayarla.',
-      ],
-      benefits: [
-        'Çalışma hızını ve tempoyu artırır.',
-        'Gereksiz detaylarla uğraşmayı ve oyalanmayı engeller.',
-        'Karar verme mekanizmasını hızlandırır.',
-      ],
-      tips: [
-        'Şarjsız Çalışma: Bilgisayarının şarj aletini yanına alma. "Şarj bitene kadar bu iş bitecek" hedefi koymak en pratik uygulamadır.',
-        'Sınav provalarında gerçek sınav süresinin altında süre vererek pratik yap.',
+        'Trello veya Microsoft Planner gibi araçlar kullan.',
+        'Sütunlara limit koy (örneğin "Yapılıyor"da en fazla 3 kart).',
+        'Haftalık tahtayı temizle.',
       ],
     ),
   ];
 
   // ═══════════════════════════════════════════════════════════════════════════
-  // 5. NOT ALMA TEKNİKLERİ
+  // 7. NOT & HAFIZA TEKNİKLERİ
   // ═══════════════════════════════════════════════════════════════════════════
-  static const List<StudyTechnique> _noteTaking = [
-    StudyTechnique(
-      id: 'cornell-method',
-      title: 'Cornell Metodu',
-      category: 'noteTaking',
-      shortDescription: 'Sayfayı böl, verimli not al.',
-      fullDescription:
-          'Kağıdı 3 bölüme ayırarak notları organize etme sistemi. Hem not almayı hem de tekrar etmeyi kolaylaştırır.',
-      steps: [
-        'Sağ sütun: Ders notlarını ana hatlarıyla yaz.',
-        'Sol sütun: Anahtar kelimeleri ve soruları yaz.',
-        'Alt kısım: Sayfanın özetini 2-3 cümleyle yaz.',
-      ],
-      benefits: [
-        'Tekrar yaparken sağ tarafı kapatıp soldan kendini test edebilirsin.',
-        'Özet çıkarma becerini geliştirir.',
-      ],
-      tips: [
-        'Ders bittikten hemen sonra özeti doldur.',
-      ],
-    ),
+  static const List<StudyTechnique> _noteMemory = [
     StudyTechnique(
       id: 'mind-mapping',
-      title: 'Zihin Haritası (Mind Map)',
-      category: 'noteTaking',
-      shortDescription: 'Görsel bağlantılar kur.',
+      title: 'Zihin Haritası (Mind Mapping)',
+      category: 'noteMemory',
+      shortDescription: 'Doğrusal not almanın aksine, beynin doğal çalışma şekli.',
       fullDescription:
-          'Merkezi bir fikirden dallara ayrılarak konuları görselleştirme. Özellikle Tarih ve Vatandaşlık gibi sözel dersler için mükemmeldir.',
+          'Tony Buzan tarafından popülerleştirilen bu yöntem, doğrusal not almanın (alt alta yazmanın) aksine, beynin doğal çalışma şekli olan çağrışımsal ve dairesel düşünmeyi taklit eder.',
       steps: [
-        'Kağıdın ortasına ana konuyu yaz (Örn: Osmanlı Duraklama).',
-        'Ana dalları çıkar (Siyasi, Ekonomik, Sosyal).',
-        'Alt dallara detayları ekle, renkler ve çizimler kullan.',
+        'Kağıdın tam ortasına ana konuyu veya fikri yazın/çizin.',
+        'Ana konudan dışarıya doğru ana dallar (ana başlıklar) çıkarın.',
+        'Bu dallardan daha ince alt dallar (detaylar) çıkarın.',
+        'Bolca renk, sembol ve anahtar kelime kullanın (uzun cümleler değil).',
       ],
       benefits: [
-        'Bütün resmi görmeni sağlar.',
-        'Görsel hafızayı tetikler.',
+        'Büyük resmi tek sayfada görmeyi sağlar.',
+        'Sağ ve sol beyni aynı anda çalıştırır.',
+        'Yeni fikirler üretmeyi ve yaratıcılığı tetikler.',
       ],
       tips: [
-        'Farklı renkli kalemler kullanmak akılda kalıcılığı artırır.',
+        'Kağıdı yatay kullanın.',
+        'Her dal için farklı bir renk kullanmak görsel hafızayı güçlendirir.',
       ],
     ),
     StudyTechnique(
-      id: 'feynman-technique',
-      title: 'Feynman Tekniği',
-      category: 'noteTaking',
-      shortDescription: 'Basitleştirerek öğren.',
+      id: 'zettelkasten-method',
+      title: 'Zettelkasten Yöntemi (Kutu Sistemi)',
+      category: 'noteMemory',
+      shortDescription: '"İkinci Beyin" olarak bilinen bilgi yönetim sistemi.',
       fullDescription:
-          'Bir konuyu 5 yaşındaki bir çocuğa anlatacakmış gibi basitleştirerek not alma/anlatma yöntemi. Anlatamıyorsan, anlamamışsındır.',
+          'Üretken sosyolog Niklas Luhmann\'ın 70 kitap ve 400 makale yazmasını sağlayan, "atomik notlar" prensibine dayanan bir bilgi yönetim sistemidir.',
       steps: [
-        'Konuyu başlık olarak yaz.',
-        'Basit cümlelerle, jargon kullanmadan konuyu anlat.',
-        'Takıldığın yerleri belirle ve kaynağa dön.',
-        'Benzetmeler (analojiler) kullan.',
+        'Geçici Notlar: Aklınıza gelen fikirleri hızlıca karalayın.',
+        'Literatür Notları: Okuduğunuz kaynaktan kendi cümlelerinizle kısa notlar alın.',
+        'Kalıcı Notlar (Atomik): Tek bir fikri içeren, başlığı olan, kendi başına anlamlı kartlar oluşturun.',
+        'Bağlantı Kurma: Bu kartı, sistemdeki diğer ilgili kartlarla (notlarla) ilişkilendirin/numaralandırın.',
       ],
       benefits: [
-        'Ezberi değil, mantığı kavramayı sağlar.',
-        'Konu eksiğini nokta atışı buldurur.',
+        'Bilgiler arasında beklenmedik bağlantılar kurmanızı sağlar.',
+        'Notlarınızın "çöplüğe" dönüşmesini engeller, bir bilgi ağı oluşturur.',
+        'Yazarlar ve araştırmacılar için fikir üretimini otomatiğe bağlar.',
       ],
       tips: [
-        'Sesli olarak kendi kendine anlatmak da çok etkilidir.',
+        'Dijital uygulamalar (Obsidian, Roam Research) bu yöntem için idealdir.',
+        'Her notun "tek bir fikri" savunduğundan emin olun.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'chunking-memory',
+      title: 'Chunking (Parçalara Bölme)',
+      category: 'noteMemory',
+      shortDescription: 'Kısa süreli hafızanızın kapasitesini aşmak için gruplama.',
+      fullDescription:
+          'Kısa süreli hafızamızın sınırlı kapasitesini (genellikle 4 ila 7 birim) aşmak için kullanılan bir gruplama yöntemidir. Beyin, parçaları tek bir "birim" olarak algılayarak kapasiteyi artırır.',
+      steps: [
+        'Ezberlenecek uzun bilgi bütününü alın (Örn: 11 haneli bir sayı veya uzun bir liste).',
+        'Bunları anlamlı küçük gruplara bölün.',
+        'Örnek: "05321234567" yerine "0532 - 123 - 45 - 67" şeklinde gruplayın.',
+      ],
+      benefits: [
+        'Hafızanın işlem kapasitesini anında artırır.',
+        'Karmaşık bilgilerin daha kolay işlenmesini sağlar.',
+        'Öğrenme hızını artırır.',
+      ],
+      tips: [
+        'Kelimeleri kategorilerine göre gruplayın (Örn: Alışveriş listesini "Sebzeler", "Temizlik" diye bölmek).',
+      ],
+    ),
+    StudyTechnique(
+      id: 'linking-method',
+      title: 'Zincirleme Yöntemi (Linking Method)',
+      category: 'noteMemory',
+      shortDescription: 'Mekansız hafıza sarayı, tuhaf hikayelerle bağlama.',
+      fullDescription:
+          'Zihin Sarayı (Loci) yönteminin "mekansız" versiyonudur. Ezberlenecek maddeleri birbirine tuhaf hikayelerle bağlayarak bir zincir oluşturulur.',
+      steps: [
+        'Listenin 1. maddesi ile 2. maddesi arasında absürt bir görsel ilişki kurun.',
+        'Sonra 2. madde ile 3. maddeyi bağlayın.',
+        'Örnek: "Sabun, Ayı, Bal": "Sabunla yıkanan dev bir Ayı, üzerine dökülen Balı yiyor."',
+      ],
+      benefits: [
+        'Mekana ihtiyaç duymadan sırasız listeleri ezberlemeyi sağlar.',
+        'Yaratıcılığı geliştirir.',
+        'Hatırlaması eğlencelidir.',
+      ],
+      tips: [
+        'Hikayeler ne kadar saçma, korkunç veya tuhaf olursa akılda o kadar iyi kalır.',
+        'Zincir koptuğunda diğer elemanlar kaybolabilir, bu yüzden bağları güçlü kurun.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'dual-coding',
+      title: 'Çift Kodlama (Dual Coding)',
+      category: 'noteMemory',
+      shortDescription: 'Sözel ve görsel bilgiyi aynı anda kullanarak öğrenmeyi güçlendirin.',
+      fullDescription:
+          'Allan Paivio\'nun teorisine göre beyin, sözel ve görsel bilgiyi farklı kanallarda işler. İkisini aynı anda kullanmak öğrenmeyi iki kat güçlendirir.',
+      steps: [
+        'Ders notlarınıza sadece yazı yazmayın.',
+        'Yanına kavramı anlatan basit bir grafik, diyagram, zaman çizelgesi veya ikon çizin.',
+        'Ders çalışırken metni okurken aynı zamanda o olayı zihninizde film gibi canlandırın.',
+      ],
+      benefits: [
+        'Bilgiyi geri çağırmak için iki farklı "ipucu" (yazı ve resim) oluşturur.',
+        'Soyut kavramları somutlaştırır.',
+      ],
+      tips: [
+        'Ressam olmanıza gerek yok; çöp adam veya basit kutular yeterlidir.',
+        'İnfografik incelemek bu teknikte ustalaşmanızı sağlar.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'peg-system',
+      title: 'Kanca Sistemi (Peg System)',
+      category: 'noteMemory',
+      shortDescription: 'Sıralı listeleri önceden zihne yerleştirilmiş kancalara asma.',
+      fullDescription:
+          'Sıralı listeleri (1. madde, 5. madde gibi) ezberlemek için önceden zihne yerleştirilmiş "kancalar" kullanılır. Genellikle kafiye veya şekil benzerliği kullanılır.',
+      steps: [
+        'Önce kancaları ezberleyin (Örn: 1-Bir-Kir, 2-İki-Tilk, 3-Üç-Güç... veya 1-Mum, 2-Kuğu, 3-Martı gibi şekilsel).',
+        'Ezberlenecek bilgiyi bu kancaya asın.',
+        'Örnek: 1. madde "Elma" ise, "Kirli bir Elma" hayal edin. 2. madde "Kalem" ise, "Kalem çalan bir Tilki" hayal edin.',
+      ],
+      benefits: [
+        'Listenin sırasını karıştırmadan, örneğin direkt 7. maddeyi hatırlamanızı sağlar.',
+        'Uzun süreli hafıza için çok güçlüdür.',
+      ],
+      tips: [
+        'Kancalarınızı (1\'den 10\'a veya 20\'ye kadar) bir kez oluşturun ve ömür boyu aynılarını kullanın.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'flow-based-note-taking',
+      title: 'Akış Temelli Not Alma (Flow-Based Note Taking)',
+      category: 'noteMemory',
+      shortDescription: 'Dersi kelimesi kelimesine yazmak yerine, fikirleri akışkan şekilde dökme.',
+      fullDescription:
+          'Scott Young tarafından önerilen bu yöntem, dersi kelimesi kelimesine yazmak (transkripsiyon) yerine, fikirleri ve bağlantıları anında kağıda dökmeyi hedefler.',
+      steps: [
+        'Hocayı dinlerken "Burada ana fikir ne?" diye düşünün.',
+        'Fikri kağıda kısa bir kelimeyle yazın.',
+        'Yeni bir fikir geldiğinde, önceki fikirle nasıl bağlantılı olduğunu oklarla gösterin.',
+        'Hiyerarşik bir liste değil, karmaşık bir ağ oluşturun.',
+      ],
+      benefits: [
+        'Pasif dinlemeyi (duyduğunu yazmayı) engeller, aktif öğrenmeyi sağlar.',
+        'Konunun mantığını ders esnasında çözmenize yardımcı olur.',
+      ],
+      tips: [
+        'Bu notlar "dağınık" görünür, sonradan temize çekmek veya özetlemek gerekebilir.',
+        'Zor ve kavramsal dersler için idealdir, tarih gibi olgusal dersler için zor olabilir.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'charting-method',
+      title: 'Tablo Yöntemi (Charting Method)',
+      category: 'noteMemory',
+      shortDescription: 'Karşılaştırma gerektiren verileri kategorize etme.',
+      fullDescription:
+          'Karşılaştırma gerektiren, çok fazla veri içeren konular için en düzenli not alma biçimidir. Cornell veya Zihin Haritasından farklı olarak, veriyi kategorize eder.',
+      steps: [
+        'Sayfayı sütunlara bölün.',
+        'Sütun başlıklarına kategorileri yazın (Örn: Tarih, Önemli Kişiler, Olaylar, Sonuçlar).',
+        'Ders boyunca ilgili bilgiyi ilgili kutucuğa yazın.',
+      ],
+      benefits: [
+        'Bilgileri karşılaştırmayı (X ile Y arasındaki farklar nedir?) çok kolaylaştırır.',
+        'Ezber yaparken görsel hafızayı destekler.',
+        'Dağınık bilgiyi anında yapılandırır.',
+      ],
+      tips: [
+        'Dersin formatını önceden biliyorsanız tabloyu dersten önce çizin.',
+        'Sınavdan önce hızlı tekrar için mükemmeldir.',
       ],
     ),
   ];
 
   // ═══════════════════════════════════════════════════════════════════════════
-  // 6. HAFIZA TEKNİKLERİ
-  // ═══════════════════════════════════════════════════════════════════════════
-  static const List<StudyTechnique> _memory = [
-    StudyTechnique(
-      id: 'memory-palace',
-      title: 'Hafıza Sarayı (Loci)',
-      category: 'memory',
-      shortDescription: 'Bilgileri mekanlara yerleştir.',
-      fullDescription:
-          'Dünyanın en eski ve etkili hafıza tekniği. Bildiğin bir mekanı (evin, sokağın) kullanarak bilgileri o mekanın eşyalarıyla ilişkilendir.',
-      steps: [
-        'Zihninde bir rota belirle (Örn: Evin girişi).',
-        'Ezberleyeceğin maddeleri bu rotadaki eşyalarla hayali, komik ve abartılı şekilde ilişkilendir.',
-        'Geri çağırmak için zihninde o rotada yürü.',
-      ],
-      benefits: [
-        'Sıralı listeleri ezberlemek için rakipsizdir.',
-        'Kalıcı hafızaya atar.',
-      ],
-      tips: [
-        'Hayaller ne kadar saçma ve abartılı olursa o kadar akılda kalır.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'spaced-repetition',
-      title: 'Aralıklı Tekrar',
-      category: 'memory',
-      shortDescription: 'Unutmadan hemen önce tekrar et.',
-      fullDescription:
-          'Unutma eğrisini kırmak için yapılan sistematik tekrar. Bilgiyi tam unutacakken hatırlamak, nöral bağları güçlendirir.',
-      steps: [
-        '1. Tekrar: Dersten hemen sonra.',
-        '2. Tekrar: 1 gün sonra.',
-        '3. Tekrar: 1 hafta sonra.',
-        '4. Tekrar: 1 ay sonra.',
-      ],
-      benefits: [
-        'Bilgiyi kısa süreli hafızadan uzun süreliye aktarır.',
-        'Son hafta sabahlamalarını önler.',
-      ],
-      tips: [
-        'Flashcard uygulamamız bu sistemle çalışır, bol bol kullan.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'chunking',
-      title: 'Gruplama (Chunking)',
-      category: 'memory',
-      shortDescription: 'Parçalara bölerek ezberle.',
-      fullDescription:
-          'Beynimiz kısa sürede 7 (±2) birim bilgiyi tutabilir. Uzun bilgileri küçük gruplara bölmek kapasiteyi artırır.',
-      steps: [
-        'Büyük veriyi analiz et.',
-        'Benzer özellikleri olanları grupla.',
-        'Örneğin telefon numaralarını 3-3-4 diye ayırmak gibi.',
-      ],
-      benefits: [
-        'Karmaşık bilgileri yönetilebilir kılar.',
-        'Hatırlamayı kolaylaştırır.',
-      ],
-      tips: [
-        'Anayasa maddelerini veya tarihleri gruplamak için idealdir.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'akrostis',
-      title: 'Akrostiş Tekniği',
-      category: 'memory',
-      shortDescription: 'İlk harflerden kelime veya cümle oluştur.',
-      fullDescription:
-          'Ezberlenecek listenin her maddesinin ilk harfini alarak akılda kalıcı bir kelime veya cümle oluşturma tekniği. Özellikle sıralı listeler için mükemmeldir.',
-      steps: [
-        'Ezberlenecek maddelerin listesini çıkar.',
-        'Her maddenin ilk harfini al.',
-        'Bu harflerle anlamlı veya komik bir kelime/cümle oluştur.',
-        'Örnek: Osmanlı padişahları için "Osman, Orhan, Murat..." = "OOM..."',
-      ],
-      benefits: [
-        'Uzun listeleri tek kelimeye sıkıştırır.',
-        'Sırayı asla unutmazsın.',
-        'Sınav anında hızlı hatırlama sağlar.',
-      ],
-      tips: [
-        'Kendi oluşturduğun akrostişler başkasınınkinden daha akılda kalır.',
-        'Komik veya absürt olanlar daha etkili.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'hikaye-metodu',
-      title: 'Hikaye Metodu',
-      category: 'memory',
-      shortDescription: 'Bilgileri bir hikayeye dönüştür.',
-      fullDescription:
-          'Beynimiz hikayeleri, kuru bilgiden 22 kat daha iyi hatırlar (Stanford araştırması). Ezberlenecek bilgileri birbirine bağlayan absürt bir hikaye oluştur.',
-      steps: [
-        'Ezberlenecek maddeleri sırala.',
-        'Her maddeyi bir karaktere veya nesneye dönüştür.',
-        'Bunları birbirine bağlayan çılgın bir hikaye yaz.',
-        'Hikayeyi zihninde canlandırarak tekrar et.',
-      ],
-      benefits: [
-        'Birbiriyle alakasız bilgileri bağlar.',
-        'Duygusal bağ kurarak kalıcılığı artırır.',
-        'Görsel hafızayı devreye sokar.',
-      ],
-      tips: [
-        'Hikaye ne kadar absürt, duygusal veya komikse o kadar kalıcı.',
-        'Kendin hikayenin kahramanı ol.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'cagrisim-zinciri',
-      title: 'Çağrışım Zinciri',
-      category: 'memory',
-      shortDescription: 'Her bilgiyi bir sonrakine bağla.',
-      fullDescription:
-          'Ardışık bilgileri, her birini bir sonrakiyle görsel olarak ilişkilendirerek zincir gibi bağlama tekniği. Domino etkisiyle tüm listeyi hatırlarsın.',
-      steps: [
-        'İlk iki maddeyi akılda kalıcı şekilde ilişkilendir.',
-        '2. maddeyi 3. ile, 3.yü 4. ile bağla...',
-        'Tüm zincir boyunca devam et.',
-        'Geri çağırırken ilk halkadan başla, zincir seni götürür.',
-      ],
-      benefits: [
-        'Sıralı listelerde çok etkili.',
-        'Bir halkayı hatırlayınca tüm zincir gelir.',
-        'Hafıza Sarayı\'ndan daha basit.',
-      ],
-      tips: [
-        'Bağlantılar hareket, ses veya duygu içersin.',
-        'Örnek: Atatürk İlkeleri zinciri için her ilkeyi bir sonrakine bağla.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'gorsel-kodlama',
-      title: 'Görsel Kodlama (Peg System)',
-      category: 'memory',
-      shortDescription: 'Sayıları görsellerle eşleştir.',
-      fullDescription:
-          'Sayıları sabit görsellerle eşleştirerek numaralı listeleri ezberleme tekniği. 1=Mum, 2=Kuğu, 3=Kalp gibi şekil benzetmeleri kullanılır.',
-      steps: [
-        '1-10 arası sayıları sabit görsellerle eşle (1=Mum, 2=Kuğu, 3=Yonca...)',
-        'Ezberlenecek listedeki her maddeyi o sayının görseli ile ilişkilendir.',
-        '3. maddeyse Yonca ile, 7. maddeyse Orak ile bağla.',
-        'Geri çağırırken sayıyı düşün, görsel ve madde gelsin.',
-      ],
-      benefits: [
-        'Numaralı listelerde mükemmel.',
-        '"5. madde neydi?" sorusuna anında cevap.',
-        'Sınav sorularında sıra numarasıyla ilişkili sorular için ideal.',
-      ],
-      tips: [
-        'Kendi görsel-sayı eşleştirmeni oluştur ve ezberle.',
-        'Tarihler için yüzyılları da kodlayabilirsin.',
-      ],
-    ),
-  ];
-
-  // ═══════════════════════════════════════════════════════════════════════════
-  // 7. OKUMA STRATEJİLERİ
-  // ═══════════════════════════════════════════════════════════════════════════
-  static const List<StudyTechnique> _reading = [
-    StudyTechnique(
-      id: 'sq3r',
-      title: 'SQ3R Yöntemi',
-      category: 'reading',
-      shortDescription: 'Aktif ve derinlemesine okuma.',
-      fullDescription:
-          'Akademik metinleri anlamak için geliştirilmiş 5 aşamalı yöntem: Survey (Göz at), Question (Sor), Read (Oku), Recite (Anlat), Review (Tekrar et).',
-      steps: [
-        '1. Göz at: Başlıklara ve koyu yerlere bak.',
-        '2. Sor: Bu bölüm ne anlatıyor diye soru sor.',
-        '3. Oku: Cevabı arayarak oku.',
-        '4. Anlat: Okuduğunu kendi cümlelerinle özetle.',
-        '5. Tekrar et: Ertesi gün üzerinden geç.',
-      ],
-      benefits: [
-        'Okuduğunu anlamayı maksimize eder.',
-        'Pasif okumayı (göz gezdirme) engeller.',
-      ],
-      tips: [
-        'Zor paragraflarda bu yöntemi uygula.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'skimming-canning',
-      title: 'Göz Atma & Tarama',
-      category: 'reading',
-      shortDescription: 'Hızlıca ana fikri bul.',
-      fullDescription:
-          'Her kelimeyi okumak yerine, anahtar kelimeleri ve yapıyı yakalamaya yönelik hızlı okuma teknikleri.',
-      steps: [
-        'Skimming (Göz Atma): Genel fikri anlamak için başlık, giriş ve sonuca bak.',
-        'Scanning (Tarama): Spesifik bir bilgiyi (tarih, isim) aramak için metni tara.',
-      ],
-      benefits: [
-        'Paragraf sorularında zaman kazandırır.',
-        'Gereksiz detaylarda boğulmayı önler.',
-      ],
-      tips: [
-        'Paragraf sorularında önce soru kökünü oku (Scanning için ne aradığını bil).',
-      ],
-    ),
-  ];
-
-  // ═══════════════════════════════════════════════════════════════════════════
-  // 8. ODAKLANMA, PLANLAMA, MOTİVASYON (DİĞERLERİ)
+  // 3. ODAKLANMA
   // ═══════════════════════════════════════════════════════════════════════════
   static const List<StudyTechnique> _concentration = [
     StudyTechnique(
@@ -756,388 +787,542 @@ class StudyTechniquesData {
       category: 'concentration',
       shortDescription: 'Dikkat dağıtıcıları yok et.',
       fullDescription:
-          'Bilişsel yeteneklerinin sınırlarını zorlayarak, bölünmeden yapılan çalışma. "Yüzeysel çalışma"nın tam zıttıdır.',
+          'Cal Newport tarafından popülerleştirilen bu kavram, bilişsel olarak talepkar görevleri, dikkat dağıtıcı unsurlar olmadan (sıfır kesintiyle) yapma becerisidir. Yüzeysel çalışmanın tam tersidir.',
       steps: [
-        'Telefonu başka odaya koy.',
-        'İnterneti kapat.',
-        'En az 90 blokları halinde çalış.',
+        'Çalışma takviminize 2-4 saatlik "Derin Çalışma" blokları koyun.',
+        'Bu süre zarfında interneti, telefonu ve bildirimleri tamamen kapatın.',
+        'Kendinizi izole edin (kapıyı kilitleyin veya kütüphaneye gidin).',
+        'Beyninizi zorlayan tek bir yeteneğe veya projeye odaklanın.',
       ],
       benefits: [
-        'Zor konuları öğrenmenin tek yoludur.',
-        'Verimliliği 3-4 katına çıkarır.',
+        'Karmaşık bilgileri daha hızlı öğrenmenizi sağlar.',
+        'Daha az zamanda daha kaliteli iş üretirsiniz.',
+        'Zihinsel kapasitenin sınırlarını genişletir.',
       ],
       tips: [
-        'Kendine "Ulaşılamaz" modu ilan et.',
+        'Derin çalışmaya geçiş için bir ritüel belirleyin (örneğin kahve almak ve ışığı ayarlamak).',
+        'Başlangıçta 1 saat ile başlayıp süreyi yavaşça artırın (beyin kası gibidir).',
       ],
     ),
     StudyTechnique(
-      id: 'dopamin-detoks',
-      title: 'Dopamin Detoksu',
+      id: 'distraction-parking-lot',
+      title: 'Park Yeri Tekniği (Distraction Parking Lot)',
       category: 'concentration',
-      shortDescription: 'Beynini ödül bağımlılığından kurtar.',
+      shortDescription: 'Aklınıza gelen fikirleri not ederek dikkati koru.',
       fullDescription:
-          'Sosyal medya, oyunlar ve anlık bildirimler beynini sürekli dopamin ile bombardımana tutar. Bu, ders çalışmayı "sıkıcı" hissettir. Detoks ile beynini sıfırla.',
+          'Çalışırken aklınıza gelen alakasız düşünceleri veya yapılması gereken işleri, o anki odağınızı bozmadan yönetme yöntemidir. İçsel kesintileri kontrol altına alır.',
       steps: [
-        'Telefonu gri moda (renksiz) al - görsel çekicilik düşer.',
-        'Sosyal medya uygulamalarını sil (web üzerinden erişebilirsin).',
-        'Bildirimleri tamamen kapat.',
-        'Hafta sonları "dijital detoks günü" yap.',
+        'Yanınızda boş bir kağıt veya not defteri bulundurun (Dijital değil, analog olması daha iyidir).',
+        'Çalışırken aklınıza "Faturayı öde", "X\'i ara", "Acaba hava nasıl?" gibi bir düşünce gelirse;',
+        'Bunu hemen kağıda yazın ("Park edin").',
+        'Düşünceyi zihninizden atıp hemen işinize dönün.',
       ],
       benefits: [
-        'Ders çalışmak eskisi kadar sıkıcı gelmez.',
-        'Odaklanma süresi dramatik artar.',
-        'Uyku kalitesi iyileşir.',
+        'Aklınıza gelen fikirleri unutma korkusunu yok eder.',
+        'Dikkatin tamamen dağılmasını ve başka sekmelere geçişi engeller.',
+        'Çalışma bitiminde elinizde hazır bir yapılacaklar listesi olur.',
       ],
       tips: [
-        'İlk 3 gün zor geçer, sonra beyin adapte olur.',
-        'Telefonu yatak odasına sokma.',
+        'Bu listeyi sadece çalışma bloğunuz bittiğinde gözden geçirin.',
+        'Google aramalarını bile buraya yazın, hemen aramayın.',
       ],
     ),
     StudyTechnique(
-      id: 'iki-dakika-kurali',
-      title: 'İki Dakika Kuralı',
+      id: 'body-doubling',
+      title: 'Body Doubling (Eşlikçi Yöntemi)',
       category: 'concentration',
-      shortDescription: 'Ertelemeyi yenmek için mikro başlangıçlar.',
+      shortDescription: 'Yanınızda başka biriyle odaklanmayı artır.',
       fullDescription:
-          'Büyük görevler gözü korkutur. "Sadece 2 dakika başlayayım" demek, başlama direncini kırar. Başladıktan sonra devam etmek çok daha kolay.',
+          'Genellikle DEHB (Dikkat Eksikliği ve Hiperaktivite Bozukluğu) yönetiminde kullanılan bu yöntem, yanınızda başka birinin varlığıyla odaklanmayı sağlar. O kişi işe karışmaz, sadece orada "bulunur".',
       steps: [
-        'Yapman gereken görevi belirle.',
-        'Kendine "Sadece 2 dakika yapacağım" de.',
-        '2 dakikayı tamamla.',
-        'Devam etmek isteyip istemediğine karar ver (genelde edersin).',
+        'Çalışan veya kitap okuyan bir arkadaşınızı bulun (Fiziksel veya online kamera ile).',
+        'Birbirinize ne üzerinde çalışacağınızı söyleyin.',
+        'Sessizce kendi işlerinize odaklanın.',
+        'Başkası sizi izliyor veya yanınızda çalışıyor hissiyle göreve sadık kalın.',
       ],
       benefits: [
-        'Procrastination (erteleme) döngüsünü kırar.',
-        'Momentum oluşturur.',
-        'Büyük görevleri yönetilebilir kılar.',
+        'Sosyal sorumluluk hissiyle kaytarmanızı engeller.',
+        'Yalnızlık hissini ve çalışma sıkıntısını azaltır.',
+        'Ortama ciddiyet katar.',
       ],
       tips: [
-        'Anahtar: "2 dakika"nın çok kısa olduğunu bilmek ama yine de başlamak.',
-        'En nefret ettiğin derste bile işe yarar.',
+        '"Focusmate" gibi online platformları kullanabilirsiniz.',
+        'Eşlikçinizle sohbet etmeyin, sadece molalarda konuşun.',
       ],
     ),
     StudyTechnique(
-      id: 'ortam-tasarimi',
-      title: 'Ortam Tasarımı',
+      id: 'ultradian-rhythms',
+      title: 'Ultradiyen Ritimler',
       category: 'concentration',
-      shortDescription: 'Çevren seni şekillendirir, çevreni tasarla.',
+      shortDescription: '90 dakikalık doğal odaklanma döngülerini kullan.',
       fullDescription:
-          'İrade gücüne güvenme, çevreyi öyle tasarla ki doğru davranış kolay, yanlış davranış zor olsun. Telefon uzaktaysa almak için kalkmak gerekir.',
+          'Pomodoro\'nun (25 dk) aksine, bu yöntem vücudun doğal biyolojik saatine dayanır. İnsan beyni genellikle 90 dakikalık yüksek odaklanma döngüleriyle çalışır.',
       steps: [
-        'Çalışma masanı SADECE çalışma için olsun.',
-        'Dikkat dağıtıcıları fiziksel olarak uzaklaştır.',
-        'Çalışma malzemelerini hazır ve görünür tut.',
-        'Farklı aktiviteler için farklı mekanlar kullan.',
+        '90 dakika boyunca kesintisiz çalışın (Zihinsel enerjinin zirve yaptığı süre).',
+        'Ardından 20 dakika tam dinlenme yapın (Ekran yok, sadece dinlenme).',
+        'Bu döngüyü gün içinde enerjinize göre tekrarlayın.',
       ],
       benefits: [
-        'İrade gücüne ihtiyaç azalır.',
-        'Otomatik olarak doğru davranışa yönelirsin.',
-        'Çalışma moduna geçiş hızlanır.',
+        'Biyolojik saatinizle uyumlu olduğu için tükenmişliği (burnout) önler.',
+        'Derinlemesine odaklanma için yeterli uzunlukta süre tanır.',
+        'Enerji yönetimini optimize eder.',
       ],
       tips: [
-        'Masanda yatağı görmemen bile fark yaratır.',
-        'Kulaklık = çalışma modu sinyali olabilir.',
+        'Bu yöntemi sabahın en verimli saatlerinde uygulayın.',
+        '20 dakikalık molada mutlaka beyin aktivitesini düşürün (yürüyüş, nefes egzersizi).',
+      ],
+    ),
+    StudyTechnique(
+      id: 'box-breathing',
+      title: 'Kutu Nefesi (Box Breathing)',
+      category: 'concentration',
+      shortDescription: 'Navy SEALs\'ların stresli anlarda kullandığı nefes tekniği.',
+      fullDescription:
+          'Navy SEALs (Amerikan Donanması Özel Kuvvetleri) tarafından stresli anlarda odaklanmak ve sakinleşmek için kullanılan fizyolojik bir yöntemdir. Dağınık zihni anında "şimdiye" getirir.',
+      steps: [
+        '4 saniye boyunca burnunuzdan yavaşça nefes alın.',
+        '4 saniye boyunca nefesinizi tutun.',
+        '4 saniye boyunca ağzınızdan yavaşça nefes verin.',
+        '4 saniye boyunca nefessiz bekleyin.',
+        'Bu döngüyü 4-5 kez tekrarlayın.',
+      ],
+      benefits: [
+        'Parasempatik sinir sistemini aktive ederek stresi düşürür.',
+        'Beyne giden oksijeni düzenler ve zihinsel berraklık sağlar.',
+        'Çalışmaya başlamadan önce "başlatma butonu" işlevi görür.',
+      ],
+      tips: [
+        'Odaklanmakta zorlandığınız anlarda veya zor bir göreve başlarken yapın.',
+        'Sayarken sadece sayıya odaklanın.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'neuro-architecture',
+      title: 'Ortam Tasarımı (Neuro-Architecture)',
+      category: 'concentration',
+      shortDescription: 'Çevrenizi odaklanmayı zorunlu kılacak şekilde düzenleyin.',
+      fullDescription:
+          'İrade gücüne güvenmek yerine, çevrenizi odaklanmayı zorunlu kılacak şekilde düzenleme sanatıdır. "Sürtünme" prensibini kullanır.',
+      steps: [
+        'Sürtünmeyi Artırın: Telefonu başka odaya koyun, oyun konsolunun fişini çekin, sosyal medya uygulamalarına şifre koyun (ulaşması zor olsun).',
+        'Sürtünmeyi Azaltın: Kitabı masanın üzerine açık bırakın, suyunuzu hazırlayın, çalışma dosyasını ekranda açık tutun (başlaması kolay olsun).',
+        'Sadece çalışmak için kullanılan bir köşe veya masa lambası belirleyin.',
+      ],
+      benefits: [
+        'İrade gücünüzü harcamadan odaklanmanızı sağlar.',
+        'Beyniniz belirli nesneleri (örneğin o özel lambayı) çalışmakla ilişkilendirir (Klasik koşullanma).',
+        'Başlama ertelemesini minimize eder.',
+      ],
+      tips: [
+        'Masada sadece o anki işle ilgili nesneler kalsın.',
+        'Işıklandırmayı iyi ayarlayın; loş ışık uykuyu, parlak beyaz ışık odaklanmayı tetikler.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'binaural-beats',
+      title: 'Binaural Beats (İşitsel Odaklanma)',
+      category: 'concentration',
+      shortDescription: 'Beyin dalgalarını seslerle senkronize ederek odaklanma.',
+      fullDescription:
+          'Beyin dalgalarını belirli frekanslarla senkronize etmek için ses teknolojisinin kullanılmasıdır. Farklı frekanslar farklı zihinsel durumları tetikler.',
+      steps: [
+        'Kulaklık takın (Stereo olması şarttır).',
+        'Odaklanmak için 40 Hz (Gamma) veya 14-30 Hz (Beta) dalgaları içeren ses dosyaları açın.',
+        'Arka planda kısık sesle çalarken çalışmaya başlayın.',
+      ],
+      benefits: [
+        'Dış gürültüyü maskeler.',
+        'Beyni "odaklanma moduna" girmesi için biyolojik olarak uyarır.',
+        'Zihinsel yorgunluğu azaltabilir.',
+      ],
+      tips: [
+        'Sözlü müzikler dinlemeyin, sözler beynin dil merkezini meşgul eder.',
+        'YouTube veya Spotify\'da "Focus Music", "Binaural Beats for Concentration" şeklinde aratın.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'digital-minimalism',
+      title: 'Dijital Minimalizm (Gri Tonlama Modu)',
+      category: 'concentration',
+      shortDescription: 'Akıllı cihazların ödül mekanizmasını kırmak için gri tonlama.',
+      fullDescription:
+          'Akıllı cihazların ödül mekanizmasını kırmak için kullanılan bir yöntemdir. Renkli ikonlar beyni uyarır, gri tonlama ise bu cazibeyi yok eder.',
+      steps: [
+        'Telefonunuzun "Erişilebilirlik" ayarlarından ekranı "Gri Tonlama" (Grayscale) veya Siyah-Beyaz moduna alın.',
+        'Bildirimlerin "önizleme" özelliğini kapatın.',
+        'Ana ekranınızda sadece araçlar (takvim, notlar, harita) kalsın; sosyal medya uygulamalarını klasörlere gömün.',
+      ],
+      benefits: [
+        'Telefonu elinize aldığınızda aldığınız dopamin hazzını düşürür.',
+        'Ekranın sıkıcı görünmesi, telefonda geçirilen süreyi ve dikkat dağılmasını azaltır.',
+        'Bilinçsiz kaydırma (doomscrolling) alışkanlığını kırar.',
+      ],
+      tips: [
+        'Çalışma saatlerinde bu modu mutlaka aktif tutun.',
+        'Sadece fotoğraflara bakacağınız zaman renkli moda geçin, sonra hemen kapatın.',
       ],
     ),
   ];
 
   static const List<StudyTechnique> _studyPlanning = [
     StudyTechnique(
-      id: 'smart-goals',
-      title: 'SMART Hedef Belirleme',
+      id: 'ivy-lee-method',
+      title: 'Ivy Lee Metodu',
       category: 'studyPlanning',
-      shortDescription: 'Belirsiz değil, ölçülebilir hedefler koy.',
+      shortDescription: '100 yıllık geçmişe sahip günlük planlama tekniği.',
       fullDescription:
-          'Hedeflerini Specific (Spesifik), Measurable (Ölçülebilir), Achievable (Ulaşılabilir), Relevant (İlgili), Time-bound (Zamanlı) kriterlerine göre belirle.',
+          '100 yıllık bir geçmişe sahip olan bu yöntem, sadeliği ve karar yorgunluğunu ortadan kaldırmasıyla bilinir. Günlük planlama için en net tekniklerden biridir.',
       steps: [
-        'S - Spesifik: "Daha çok çalışacağım" değil, "Her gün 50 soru çözeceğim" de.',
-        'M - Ölçülebilir: Sayılarla ifade et (kaç soru, kaç saat, kaç sayfa).',
-        'A - Ulaşılabilir: Gerçekçi ol, günde 12 saat hedef koyma.',
-        'R - İlgili: KPSS hedefine doğrudan katkı sağlayan işleri seç.',
-        'T - Zamanlı: Bitiş tarihi koy (Bu hafta sonuna kadar, 15 Ocak\'a kadar).',
+        'Her iş gününün sonunda, yarın yapmanız gereken en önemli 6 görevi yazın (6\'dan fazla olmamalı).',
+        'Bu 6 görevi önem sırasına göre dizin.',
+        'Ertesi gün sadece ilk göreve odaklanın. O bitmeden ikinciye geçmeyin.',
+        'Gün bittiğinde bitmeyen işleri yarının listesine aktarın ve süreci tekrarlayın.',
       ],
       benefits: [
-        'Belirsiz "çalışacağım" sözleri yerine somut hedefler koyarsın.',
-        'İlerlemeyi ölçebilir, motivasyonunu takip edebilirsin.',
-        'Hesap verebilirliği artırır.',
+        '"Nereden başlasam?" sorusunu ortadan kaldırır.',
+        'Çoklu görev (multitasking) hatasına düşmeyi engeller.',
+        'Basit olduğu için sürdürülebilirliği yüksektir.',
       ],
       tips: [
-        'Haftalık ve günlük SMART hedefler belirle.',
-        'Her pazar günü gelecek haftanın hedeflerini yaz.',
+        'Listeyi mutlaka bir önceki akşamdan hazırlayın, sabah değil.',
+        '6 madde kuralına sadık kalın, listeyi şişirmeyin.',
       ],
     ),
     StudyTechnique(
-      id: 'weekly-review',
-      title: 'Haftalık Gözden Geçirme',
+      id: 'moscow-analysis',
+      title: 'MoSCoW Analizi',
       category: 'studyPlanning',
-      shortDescription: 'Her pazar rotanı kontrol et.',
+      shortDescription: 'Görevleri katı bir süzgeçten geçirerek önceliklendir.',
       fullDescription:
-          'Her hafta sonunda geçen haftayı değerlendirip, gelecek haftayı planlama ritüeli. Dümenin başında olmanı sağlar.',
+          'Genellikle proje yönetiminde kullanılan bu teknik, yapılacaklar listesini katı bir süzgeçten geçirerek önceliklendirir. Eisenhower matrisinden farklı olarak, yapılması gerekenler ile istenilenler arasındaki çizgiyi çizer.',
       steps: [
-        'Geçen haftanın hedeflerini gözden geçir: Hangilerini tamamladın?',
-        'Tamamlayamadıklarının nedenini analiz et: Zaman mı yetersizdi, motivasyon mu?',
-        'Öğrenilenleri not et: Ne işe yaradı, ne yaramadı?',
-        'Gelecek haftanın hedeflerini yaz.',
-        'Takvimini güncelle.',
+        'M (Must have): Kesinlikle yapılmalı, olmazsa proje/gün başarısız olur.',
+        'S (Should have): Yapılmalı, ama yapılmazsa dünya yıkılmaz (alternatifi vardır).',
+        'C (Could have): Yapılsa iyi olur, ama şart değil (bonus görevler).',
+        'W (Won\'t have): Şimdilik yapılmayacaklar (bilerek elediğiniz işler).',
       ],
       benefits: [
-        'Reaktif değil, proaktif olmanı sağlar.',
-        'Küçük sorunlar büyümeden fark edilir.',
-        'Sürekli iyileştirme (Kaizen) kültürü oluşturur.',
+        'Beklentileri yönetmeyi sağlar.',
+        'Zaman darlığında hangi görevden vazgeçileceğini önceden belirler.',
+        'Gereksiz mükemmeliyetçiliği önler.',
       ],
       tips: [
-        'Sabit bir gün ve saat belirle (Örn: Her pazar 18:00).',
-        '20-30 dakikadan fazla sürmesin.',
+        'Listenizin %60\'ından fazlasını "Must" (Zorunlu) kategorisine koymayın.',
+        'Ekip çalışmalarında ortak anlayış için çok etkilidir.',
       ],
     ),
     StudyTechnique(
-      id: 'geri-sayim',
-      title: 'Geri Sayım Metodu',
+      id: 'one-three-five-rule',
+      title: '1-3-5 Kuralı',
       category: 'studyPlanning',
-      shortDescription: 'Sınava kaç gün kaldı?',
+      shortDescription: 'Günlük yapılacaklar listesinin kapasitesini sınırlayarak gerçekçi planlama.',
       fullDescription:
-          'KPSS tarihinden geriye doğru sayarak, her konuya ne kadar zaman kalacağını hesaplama yöntemi. Panik yerine plan üretir.',
+          'Günlük yapılacaklar listesinin kapasitesini sınırlayarak gerçekçi bir planlama sunan yöntemdir. Enerji yönetimi temellidir.',
       steps: [
-        'Sınav tarihini belirle ve takvime koy.',
-        'Sınava kaç gün/hafta kaldığını hesapla.',
-        'Çalışılacak konuları listele ve önem sırasına koy.',
-        'Her konuya gerçekçi gün/hafta ayır.',
-        'Her haftayı ayrı bir "Sprint" olarak planla.',
+        'Gününüzü planlarken sadece şu kontenjanları doldurun:',
+        '1 Büyük İş: Çok efor gerektiren ana görev.',
+        '3 Orta İş: Yarım saat veya bir saat sürebilecek görevler.',
+        '5 Küçük İş: Hızlıca halledilebilecek ufak işler (e-posta, randevu alma vb.).',
       ],
       benefits: [
-        'Son haftalara yığılmayı önler.',
-        'Zaman kısıtını görünür kılarak acileyti hissettirir.',
-        'Panik yerine sistematik aksiyon alırsın.',
+        'Günün sonunda "her şeyi bitiremedim" suçluluğunu önler.',
+        'Zor ve kolay işleri dengeli bir şekilde dağıtır.',
+        'Esneklik sağlar.',
       ],
       tips: [
-        'Son 2-3 haftayı sadece tekrar ve deneme için ayır.',
-        'Buffer (Tampon) günler bırak, her şey plana göre gitmeyebilir.',
+        'Büyük işi, enerjinizin en yüksek olduğu saate koyun.',
+        'Beklenmedik işler çıkarsa, listeden eşit büyüklükte bir işi silin veya erteleyin.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'reverse-engineering',
+      title: 'Geriye Doğru Planlama (Reverse Engineering)',
+      category: 'studyPlanning',
+      shortDescription: 'Planlamayı son teslim tarihinden başlayarak geriye doğru yap.',
+      fullDescription:
+          'Planlamayı bugünden değil, son teslim tarihinden (deadline) başlatarak geriye doğru gelme yöntemidir.',
+      steps: [
+        'Projenin bitiş tarihini belirleyin.',
+        'Sonuçtan bir önceki adımın ne olması gerektiğini yazın.',
+        'Adım adım geriye gelerek bugüne kadar ulaşın.',
+        'Bugün yapmanız gereken "ilk adımı" bu şekilde tespit edin.',
+      ],
+      benefits: [
+        'Son teslim tarihini kaçırma riskini minimize eder.',
+        'Gerçekçi olmayan zaman tahminlerini ortaya çıkarır.',
+        'Projenin eksik parçalarını erkenden görmenizi sağlar.',
+      ],
+      tips: [
+        'Her aşama için "tampon süre" eklemeyi unutmayın.',
+        'Özellikle uzun vadeli (aylık/yıllık) projeler için idealdir.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'okr',
+      title: 'OKR (Objectives and Key Results)',
+      category: 'studyPlanning',
+      shortDescription: 'Sadece "ne" yapılacağını değil, başarının "nasıl" ölçüleceğini planlar.',
+      fullDescription:
+          'Google ve Intel gibi devlerin kullandığı bu sistem, sadece "ne" yapılacağını değil, başarının "nasıl" ölçüleceğini de planlar. Kişisel planlamaya da uyarlanabilir.',
+      steps: [
+        'Objective (Hedef): Nereye gitmek istiyorum? (İlham verici, niteliksel). Örn: "İngilizce konuşma becerimi profesyonel seviyeye taşımak."',
+        'Key Results (Anahtar Sonuçlar): Oraya vardığımı nasıl anlarım? (Ölçülebilir, sayısal). Örn: "1. TOEFL\'dan 100 almak. 2. Haftada 3 kez yabancılarla konuşma pratiği yapmak."',
+      ],
+      benefits: [
+        'Sadece meşgul olmayı değil, sonuç almayı hedefler.',
+        'Büyük resmi görmeyi sağlar.',
+        'İlerlemeyi net rakamlarla takip ettirir.',
+      ],
+      tips: [
+        'Hedefleri (Objective) az sayıda tutun (en fazla 3).',
+        'Her hedef için 3-4 anahtar sonuç belirleyin.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'bullet-journal',
+      title: 'Bullet Journal Sistemi',
+      category: 'studyPlanning',
+      shortDescription: 'Dijital araçlar yerine kağıt-kalem kullanılan bütüncül analog sistem.',
+      fullDescription:
+          'Ryder Carroll tarafından geliştirilen, dijital araçlar yerine kağıt-kalem kullanılan, geçmişi takip edip geleceği planlayan bütüncül bir analog sistemdir.',
+      steps: [
+        'Boş bir defter edinin.',
+        'Index: İçindekiler bölümü oluşturun.',
+        'Future Log: Gelecek aylar için genel plan sayfası yapın.',
+        'Monthly/Daily Log: Aylık ve günlük görevleri, simgelerle (görev için nokta, olay için daire vb.) listeleyin.',
+        'Tamamlanmayan görevleri bir sonraki güne/aya "göç ettirin" (migration).',
+      ],
+      benefits: [
+        'Dijital dikkat dağınıklığından uzaklaştırır.',
+        'Planlama yaparken aynı zamanda günlük tutmanızı sağlar (Mindfulness etkisi).',
+        'Kişiselleştirilebilir; çizimler, tablolar eklenebilir.',
+      ],
+      tips: [
+        'Süslü çizimlere takılmayın, sistemin işlevselliğine odaklanın.',
+        '"Göç ettirme" (erteleme) işlemi sırasında, o görevin gerçekten gerekli olup olmadığını sorgulayın.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'rpm',
+      title: 'RPM (Rapid Planning Method)',
+      category: 'studyPlanning',
+      shortDescription: 'Tony Robbins\'in geliştirdiği, "Sonuç-Amaç-Eylem" sistemi.',
+      fullDescription:
+          'Tony Robbins\'in geliştirdiği bu yöntem, sadece yapılacaklar listesi oluşturmayı değil, o işin arkasındaki "amacı" bulmayı hedefler. "Result-Purpose-Massive Action" (Sonuç-Amaç-Eylem) açılımıdır.',
+      steps: [
+        'Result (Sonuç): Ne elde etmek istiyorum? (Net vizyon).',
+        'Purpose (Amaç): Bunu neden istiyorum? (Güçlü bir "neden" motivasyonu tetikler).',
+        'Massive Action Plan (MAP): Oraya ulaşmak için hangi eylemleri yapmalıyım?',
+      ],
+      benefits: [
+        'Angarya işlerden ziyade, hayatınıza değer katan işlere odaklanmanızı sağlar.',
+        'Motivasyon düştüğünde "neden" sorusuna cevap vererek sizi yolda tutar.',
+        'Duygusal bağ kurdurur.',
+      ],
+      tips: [
+        'Kağıdınızı üç sütuna bölün (Sonuç | Amaç | Eylem Planı).',
+        'Özellikle "neden" kısmını detaylandırın; yakıtınız orasıdır.',
+      ],
+    ),
+    StudyTechnique(
+      id: 'agile-personal-planning',
+      title: 'Sprint (Çevik/Agile) Kişisel Planlama',
+      category: 'studyPlanning',
+      shortDescription: 'Yazılım dünyasındaki Scrum metodolojisinin kişisel hayata uyarlanması.',
+      fullDescription:
+          'Yazılım dünyasındaki Scrum metodolojisinin kişisel hayata uyarlanmasıdır. Yılı 12 aya değil, kısa döngülere (sprintlere) bölerek planlama yapılır.',
+      steps: [
+        'Sprint Planlama: Önünüzdeki 1 veya 2 hafta için hedefleri belirleyin.',
+        'Uygulama: Sadece bu süreye odaklanın, diğer her şeyi arka plana atın.',
+        'Review (Gözden Geçirme): Sprint sonunda ne kadarını yaptığınızı kontrol edin.',
+        'Retrospective (Geriye Bakış): Süreçte neyin iyi gittiğini, neyin kötü gittiğini analiz edip sonraki sprinti iyileştirin.',
+      ],
+      benefits: [
+        'Hızlı adaptasyon sağlar; çalışmayan planı 1 yıl sonra değil 1 hafta sonra fark edersiniz.',
+        'Düzenli iyileştirme kültürü oluşturur.',
+        'Uzun vadeli hedeflerin yarattığı baskıyı azaltır.',
+      ],
+      tips: [
+        'Sprint süresini sabit tutun (örneğin hep Pazar akşamı planlayıp Cuma bitirin).',
+        'Bitmemiş işleri bir sonraki sprinte otomatik aktarmayın, tekrar değerlendirin.',
       ],
     ),
   ];
 
   static const List<StudyTechnique> _motivation = [
+    // MOTİVASYON TEKNİKLERİ
     StudyTechnique(
-      id: 'five-minute-rule',
-      title: '5 Dakika Kuralı',
+      id: 'smart-goals',
+      title: 'SMART Hedefler',
       category: 'motivation',
-      shortDescription: 'Başlamak için kendini kandır.',
+      shortDescription: 'Belirsizliği yok et.',
       fullDescription:
-          'Canın hiç çalışmak istemediğinde kendine "Sadece 5 dakika bakıp bırakacağım" de. Genellikle 5 dakika sonra devam edersin.',
+          'Peter Drucker\'ın yönetim felsefesinden doğan bu yöntem, motivasyonun belirsizlikten kaybolmasını önler. Hedefleri somut ve ulaşılabilir hale getirerek harekete geçme isteğini tetikler.',
       steps: [
-        'Zor gelen görevi seç.',
-        'Kronometreyi 5 dakikaya kur.',
-        'Sadece 5 dakika dayan.',
+        'S (Specific): Hedefini net tanımla (Örn: "3 konu bitireceğim").',
+        'M (Measurable): İlerlemeyi ölçülebilir kıl (Sayısal veri).',
+        'A (Achievable): Gerçekçi ol, ulaşılabilir hedef seç.',
+        'R (Relevant): Hedefin uzun vadeli planınla ilgili olsun.',
+        'T (Time-bound): Son tarih belirle (Deadline etkisi).',
       ],
       benefits: [
-        'Erteleme hastalığını (Procrastination) yener.',
-        'Başlama sürtünmesini azaltır.',
+        'Zihinsel netlik sağlar.',
+        'Başarı hissini somutlaştırır.',
+        'Yol haritası çizerek kaybolmayı önler.',
       ],
       tips: [
-        'Gerçekten istemezsen 5 dakika sonra bırakabilirsin (ama bırakmayacaksın).',
+        'Hedefleri mutlaka yazılı hale getir.',
+        'Çok büyük hedefleri küçük SMART parçalarına böl.',
       ],
     ),
     StudyTechnique(
-      id: 'seinfeld-strategy',
-      title: 'Zinciri Kırma',
+      id: '5-second-rule',
+      title: '5 Saniye Kuralı',
       category: 'motivation',
-      shortDescription: 'Her gün küçük bir adım.',
+      shortDescription: 'Düşünme, harekete geç.',
       fullDescription:
-          'Komedyen Jerry Seinfeld\'in tekniği. Her gün hedefin için bir şey yap ve takvime bir çarpı at. Amaç o çarpı zincirini koparmamak.',
+          'Mel Robbins tarafından geliştirilen teknik. Beyin erteleme veya korku üretmeye başlamadan önce eyleme geçmeyi sağlayan bir "başlatma ritüeli"dir.',
       steps: [
-        'Büyük bir takvim al.',
-        'Görevi tamamlayınca üzerine büyük bir X at.',
-        'Tek kural: Zinciri kırma.',
+        'Yapman gereken zor bir görevi fark et.',
+        'İçinden geriye say: 5-4-3-2-1.',
+        '"1" dediğin an roket gibi fırla ve harekete geç.',
+        'Asla düşünmeye fırsat verme.',
       ],
       benefits: [
-        'Süreklilik kazandırır.',
-        'Görsel motivasyon sağlar.',
+        'Analiz felcini (aşırı düşünmeyi) kırar.',
+        'Cesaret ve özgüven kasını geliştirir.',
+        'Ertelemeyi anında durdurur.',
       ],
       tips: [
-        'Uygulamamızdaki "Streak" özelliği tam olarak budur!',
+        'Sayımı geriye doğru yap, bu beyni odaklar.',
+        'Sabah yataktan kalkmakta zorlanıyorsan hemen dene.',
       ],
     ),
     StudyTechnique(
-      id: 'odul-sistemi',
-      title: 'Ödül Sistemi',
+      id: 'seinfeld-chain',
+      title: 'Zinciri Kırma (Seinfeld)',
       category: 'motivation',
-      shortDescription: 'Kendini ödüllendirerek motive ol.',
+      shortDescription: 'Süreci oyuna çevir.',
       fullDescription:
-          'Beynimiz ödül bekleyince daha çok çalışır. Hedeflere ulaştığında kendine küçük ödüller vererek dopamin döngüsünü çalışmayla ilişkilendir.',
+          'Komedyen Jerry Seinfeld\'in tekniği. Tutarlılık ve görsel ilerlemeye dayanır. Motivasyonu "süreci bozmama" dürtüsü üzerine kurar. Uygulamamızdaki "Streak" özelliği budur.',
       steps: [
-        'Kısa vadeli hedef koy (Örn: 2 saat çalış).',
-        'Hedefe ulaşınca ödülü belirle (Çay molası, 1 bölüm dizi).',
-        'SADECE hedefe ulaşınca ödülü al (disiplin şart).',
-        'Büyük hedeflere büyük ödüller (Konu bitirince film, deneme puan artarsa restoran).',
+        'Büyük bir duvar takvimi edin.',
+        'Her gün hedefin için bir şey yap (Örn: 20 soru çöz).',
+        'Görevi tamamlayınca takvime kocaman bir çarpı (X) at.',
+        'Tek amaç: O X zincirini koparmamak.',
       ],
       benefits: [
-        'Çalışmayı zevkli hale getirir.',
-        'Beklenen ödül motivasyonu artırır.',
-        'Dopamini çalışmaya bağlar.',
+        'İlerlemeyi somut ve görsel hale getirir.',
+        'Alışkanlık kazanmayı oyunlaştırır.',
+        '"Sadece bugünü kurtar" mantığıyla stresi azaltır.',
       ],
       tips: [
-        'Ödülü önceden belirle ve görünür yap.',
-        'Hedefe ulaşamadıysan ödülü ASLA alma.',
+        'Zincir koptuğunda suçluluk duyma, hemen ertesi gün yenisini başlat.',
+        'Görevi "asla yapamayacağın" kadar zor seçme.',
       ],
     ),
     StudyTechnique(
-      id: 'hesap-verebilirlik',
-      title: 'Hesap Verebilirlik',
+      id: 'woop-method',
+      title: 'WOOP Tekniği',
       category: 'motivation',
-      shortDescription: 'Birine söz ver, baskı altında çalış.',
+      shortDescription: 'Engelleri önceden planla.',
       fullDescription:
-          'İnsanlar başkalarına karşı sorumlu olduklarında daha çok çalışır. Bir arkadaşa, aileye veya sosyal gruba hesap vermek motivasyonu artırır.',
+          'Sadece pozitif düşünmek yetmez. Hayallerle gerçek engelleri zihinde karşılaştırarak (Mental Contrasting) gerçekçi bir motivasyon sağlar.',
       steps: [
-        'Bir çalışma ortağı veya mentor bul.',
-        'Haftalık hedeflerini paylaş.',
-        'Her hafta ilerlemeyi raporla.',
-        'Başaramadığında bir "ceza" belirle (Örn: kahve ısmarlamak).',
+        'Wish (Dilek): Ne istiyorsun?',
+        'Outcome (Sonuç): En iyi sonucu hayal et.',
+        'Obstacle (Engel): Seni ne durdurabilir? (Tembellik, telefon vb.)',
+        'Plan: "Eğer [engel] çıkarsa, o zaman [şunu] yapacağım" diyerek planla.',
       ],
       benefits: [
-        'Tek başına çalışmanın monotonluğunu kırar.',
-        'Erteleme yapmak zorlaşır.',
-        'Sosyal baskı motivasyon sağlar.',
+        'Kuru iyimserlik yerine gerçekçi eylem planı sunar.',
+        'Bilinçaltını çözüm üretmeye programlar.',
       ],
       tips: [
-        'Çalışma grupları veya online topluluklar kullanabilirsin.',
-        'Aile bireyleri de iyi hesap verebilirlik ortakları olabilir.',
+        'Bu işlemi 5 dakikalık sessiz bir sürede zihninde yap.',
       ],
     ),
     StudyTechnique(
-      id: 'kimlik-temelli',
-      title: 'Kimlik Temelli Alışkanlıklar',
+      id: 'gamification',
+      title: 'Oyunlaştırma (Gamification)',
       category: 'motivation',
-      shortDescription: 'Kendin hakkındaki inancını değiştir.',
+      shortDescription: 'Hayatı bir RPG oyunu gibi oyna.',
       fullDescription:
-          'Yapman gerekeni değil, olmak istediğin kişinin ne yapacağını düşün. "Çalışmam lazım" yerine "Ben disiplinli bir öğrenciyim, çalışıyorum" de.',
+          'Oyun tasarım öğelerinin (puanlar, seviyeler, ödüller) gerçek hayatta kullanılmasıdır. Sıkıcı görevleri eğlenceli hale getirerek dopamin salgılanmasını tetikler.',
       steps: [
-        'Olmak istediğin kişiyi tanımla (Örn: "Atanmış öğretmen").',
-        'O kişi şu an ne yapardı diye sor.',
-        'Her küçük çalışma, o kimliğe bir kanıt.',
-        '"Ben X tipiyim" cümlelerini kullan.',
+        'Görevleri "Quest" olarak tanımla.',
+        'Her görev için XP (Puan) belirle (Rapor = 100 XP).',
+        'Puanlar birikince kendine gerçek ödül ver (Sinema, yemek).',
+        'Kendi seviyeni takip et.',
       ],
       benefits: [
-        'İrade gücü gerektirmez, kimlik otomatik yönlendirir.',
-        'Her çalışma kimliği güçlendirir.',
-        'Uzun vadeli motivasyon sağlar.',
+        'Sıkıcı işleri çekici hale getirir.',
+        'Anında geri bildirim ve tatmin sağlar.',
       ],
       tips: [
-        '"Ben tembelim" yerine "Ben henüz alışkanlık kurmadım" de.',
-        'Küçük başarılar kimlik kanıtıdır.',
+        'Ceza sistemi ekleme, sadece pozitif pekiştirmeye odaklan.',
       ],
     ),
-  ];
-
-  static const List<StudyTechnique> _stress = [
     StudyTechnique(
       id: 'visualization',
       title: 'Görselleştirme',
-      category: 'stressManagement',
+      category: 'motivation',
       shortDescription: 'Başarıyı zihninde yaşa.',
       fullDescription:
-          'Zihninde sınav anını, soruları rahatça çözdüğünü ve atandığını detaylıca hayal etme tekniği.',
+          'Elit sporcuların kullandığı teknik. Beyni başarının zaten gerçekleştiğine inandırarak performansı ve istekliliği artırır.',
       steps: [
-        'Gözlerini kapat ve sessiz bir ortamda otur.',
-        'Sınav salonuna girdiğini, sakince oturduğunu hayal et.',
-        'Soruları bildiğini ve keyifle çözdüğünü hisset.',
+        'Gözlerini kapat.',
+        'Hedefine ulaştığını, atandığını, o masada oturduğunu detaylarıyla (ses, koku, his) hayal et.',
+        'Süreci de hayal et: Zorlukları nasıl aştığını canlandır.',
       ],
       benefits: [
-        'Sınav kaygısını azaltır.',
-        'Beyni başarıya odaklar (Beyin hayal ile gerçeği ayırt edemez).',
+        'Özgüveni artırır, kaygıyı azaltır.',
+        'Beyindeki nöral yolları eyleme hazırlar.',
       ],
       tips: [
-        'Gece yatmadan önce yapmak çok etkilidir.',
+        'Sabah uyanınca veya gece yatmadan önce yap.',
       ],
     ),
     StudyTechnique(
-      id: 'breathing',
-      title: 'Kutu Nefes Tekniği',
-      category: 'stressManagement',
-      shortDescription: '4 saniyede sakinleş.',
+      id: 'growth-mindset',
+      title: 'Büyüme Zihniyeti (Growth Mindset)',
+      category: 'motivation',
+      shortDescription: '"Henüz" yapamıyorum.',
       fullDescription:
-          'ABD Deniz Komandolarının (Navy SEALs) stres altındayken sakinleşmek için kullandığı nefes tekniği.',
+          'Yeteneklerin sabit olmadığını, çabayla gelişebileceğini savunan yaklaşım. Başarısızlığı bir son değil, bir veri olarak görür.',
       steps: [
-        '4 saniye nefes al.',
-        '4 saniye tut.',
-        '4 saniye ver.',
-        '4 saniye tut (boş bırak).',
+        '"Bunu yapamam" yerine "Bunu HENÜZ yapamam" de.',
+        'Zorlukları tehdit değil, antrenman olarak gör.',
+        'Başkalarının başarısını kıskanma, ilham al.',
       ],
       benefits: [
-        'Kalp atışını anında yavaşlatır.',
-        'Panik atağı engeller.',
+        'Başarısızlık korkusunu ve kırılganlığı azaltır.',
+        'Dayanıklılığı (Resilience) artırır.',
       ],
       tips: [
-        'Sınav anında heyecanlanırsan 2-3 tur yap.',
+        'Kendine karşı kullandığın dile dikkat et.',
+        'Hata yaptığında "Buradan ne öğrendim?" diye sor.',
       ],
     ),
     StudyTechnique(
-      id: 'kaygi-donusturme',
-      title: 'Kaygıyı Heyecana Dönüştür',
-      category: 'stressManagement',
-      shortDescription: 'Korku yerine heyecan hisset.',
+      id: 'flow-state',
+      title: 'Akış (Flow) Teorisi',
+      category: 'motivation',
+      shortDescription: 'Zamanın nasıl geçtiğini unut.',
       fullDescription:
-          'Harvard araştırması: "Sakin ol" demek yerine "Heyecanlıyım" demek performansı artırır. Bedensel belirtiler aynı, sadece etiket değişiyor.',
+          'Kişinin yaptığı işe kendini tamamen kaptırdığı, zamanın akıp gittiği optimum odaklanma hali (Mihaly Csikszentmihalyi).',
       steps: [
-        'Kaygı hissedince dur ve fark et.',
-        'Kendine "Bu kaygı değil, heyecan" de.',
-        '"Vücudum beni hazırlıyor, bu iyi bir şey" diye düşün.',
-        'Enerjiyi performansa yönlendir.',
+        'Beceri ve zorluk seviyesi dengeli bir görev seç.',
+        'Net hedef ve anında geri bildirim olsun.',
+        'Tüm dikkat dağıtıcıları yok et.',
+        'Sonuca değil, sürece (o ana) odaklan.',
       ],
       benefits: [
-        'Kaygı belirtileri avantaja dönüşür.',
-        'Özgüven artar.',
-        'Performans düşmez, artar.',
+        'İçsel motivasyonu ve keyfi maksimize eder.',
+        'Yaratıcılığı ve performansı zirveye taşır.',
       ],
       tips: [
-        'Kalp çarpıntısı = Vücut oksijen pompalıyor = İyi şey!',
-        'Kaygı ve heyecan fizyolojik olarak aynıdır.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'grounding-54321',
-      title: 'Grounding (5-4-3-2-1)',
-      category: 'stressManagement',
-      shortDescription: 'Şu ana dön, panikten çık.',
-      fullDescription:
-          'Anksiyete anında zihni şu ana çekmek için duyuları kullanma tekniği. Panik ataklarını durdurmak için kullanılır.',
-      steps: [
-        '5 şey GÖR (etrafına bak, 5 nesne say).',
-        '4 şey DOKUN (masayı, kumaşı hisset).',
-        '3 şey DUY (klima sesi, dışarıdan trafik).',
-        '2 şey KOKLA (kağıt, parfüm).',
-        '1 şey TAT (suyu yudumla).',
-      ],
-      benefits: [
-        'Panik atağını anında durdurur.',
-        'Zihni geçmiş/gelecek kaygısından şu ana çeker.',
-        'Her yerde, gizlice yapılabilir.',
-      ],
-      tips: [
-        'Sınav salonunda sessizce yapabilirsin.',
-        'Düşünceler değil, duyular önemli.',
-      ],
-    ),
-    StudyTechnique(
-      id: 'pozitif-self-talk',
-      title: 'Pozitif Kendi Kendine Konuşma',
-      category: 'stressManagement',
-      shortDescription: 'İç sesin düşmanın değil, koçun olsun.',
-      fullDescription:
-          'Negatif iç konuşmalar ("Yapamayacağım", "Çok zor") performansı düşürür. Bunları bilinçli olarak pozitife çevirmek beynin modunu değiştirir.',
-      steps: [
-        'Negatif düşünceyi fark et ("Başaramayacağım").',
-        'Dur ve meydan oku ("Bu gerçekten doğru mu?").',
-        'Gerçekçi pozitife çevir ("Zor ama hazırlandım, elimden geleni yapacağım").',
-        'Bunu sesli veya yazılı olarak tekrarla.',
-      ],
-      benefits: [
-        'Özgüveni yeniden inşa eder.',
-        'Kaygı spiralini durdurur.',
-        'Beynin problem çözme moduna geçmesini sağlar.',
-      ],
-      tips: [
-        '"Yapamayacağım" → "Henüz yapamıyorum" (Growth Mindset).',
-        'Kendine bir arkadaşına konuşur gibi konuş.',
+        'Sevdiğin derslerle başlayarak bu modu tetikle.',
       ],
     ),
   ];

@@ -78,28 +78,20 @@ class TechniqueCategoryPage extends StatelessWidget {
 
   IconData _getCategoryIcon() {
     switch (category) {
-      case 'examHacks':
-        return Icons.auto_graph_rounded;
-      case 'bioHacking':
-        return Icons.battery_charging_full_rounded;
-      case 'breakGuide':
-        return Icons.coffee_rounded;
-      case 'noteTaking':
-        return Icons.edit_note_rounded;
-      case 'memory':
-        return Icons.psychology_rounded;
-      case 'reading':
-        return Icons.menu_book_rounded;
       case 'timeManagement':
         return Icons.schedule_rounded;
+      case 'motivation':
+        return Icons.emoji_events_rounded;
       case 'studyPlanning':
         return Icons.calendar_month_rounded;
       case 'concentration':
         return Icons.center_focus_strong_rounded;
-      case 'motivation':
-        return Icons.emoji_events_rounded;
-      case 'stressManagement':
-        return Icons.spa_rounded;
+      case 'breakGuide':
+        return Icons.coffee_rounded;
+      case 'examFastLearning':
+        return Icons.auto_graph_rounded;
+      case 'noteMemory':
+        return Icons.psychology_rounded;
       default:
         return Icons.lightbulb_rounded;
     }
@@ -107,28 +99,20 @@ class TechniqueCategoryPage extends StatelessWidget {
 
   String _getCategoryName() {
     switch (category) {
-      case 'examHacks':
-        return 'Sınav Hackleri';
-      case 'bioHacking':
-        return 'Bio-Performans';
-      case 'breakGuide':
-        return 'Mola Rehberi';
-      case 'noteTaking':
-        return 'Not Alma Teknikleri';
-      case 'memory':
-        return 'Hafıza Teknikleri';
-      case 'reading':
-        return 'Okuma Stratejileri';
       case 'timeManagement':
         return 'Zaman Yönetimi';
-      case 'studyPlanning':
-        return 'Çalışma Planı';
-      case 'concentration':
-        return 'Odaklanma';
       case 'motivation':
         return 'Motivasyon';
-      case 'stressManagement':
-        return 'Stres Yönetimi';
+      case 'studyPlanning':
+        return 'Çalışma Planlama';
+      case 'concentration':
+        return 'Odaklanma';
+      case 'breakGuide':
+        return 'Mola Rehberi';
+      case 'examFastLearning':
+        return 'Sınav & Hızlı Öğrenme';
+      case 'noteMemory':
+        return 'Not & Hafıza Teknikleri';
       default:
         return 'Teknikler';
     }
@@ -136,28 +120,20 @@ class TechniqueCategoryPage extends StatelessWidget {
 
   Color _getCategoryColor() {
     switch (category) {
-      case 'examHacks':
-        return const Color(0xFFF43F5E);
-      case 'bioHacking':
-        return const Color(0xFF8B5CF6);
-      case 'breakGuide':
-        return const Color(0xFF10B981);
-      case 'noteTaking':
-        return const Color(0xFF14B8A6);
-      case 'memory':
-        return const Color(0xFFF59E0B);
-      case 'reading':
-        return const Color(0xFFEC4899);
       case 'timeManagement':
         return const Color(0xFF6366F1);
+      case 'motivation':
+        return const Color(0xFF22C55E);
       case 'studyPlanning':
         return const Color(0xFF0EA5E9);
       case 'concentration':
         return const Color(0xFFEF4444);
-      case 'motivation':
-        return const Color(0xFF22C55E);
-      case 'stressManagement':
-        return const Color(0xFF3B82F6);
+      case 'breakGuide':
+        return const Color(0xFF10B981);
+      case 'examFastLearning':
+        return const Color(0xFFF43F5E);
+      case 'noteMemory':
+        return const Color(0xFFF59E0B);
       default:
         return const Color(0xFF6366F1);
     }
