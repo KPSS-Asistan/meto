@@ -180,20 +180,27 @@ class QuizCubit extends Cubit<QuizState> {
         final currentQuestion = state.questions[state.currentQuestionIndex];
         final isCorrect = state.selectedOption == currentQuestion.correctAnswer;
         
-        // Topic adını bul
+        // Topic adını ve lessonId'yi bul
         String? topicName;
+        String? lessonId = currentQuestion.lessonId;
+        
         if (state.topicId != null) {
           final topic = topicsData.firstWhere(
             (t) => t['id'] == state.topicId,
             orElse: () => <String, dynamic>{},
           );
           topicName = topic['name'] as String?;
+          
+          // Eğer question'da lessonId boşsa, topic'ten al
+          if (lessonId.isEmpty) {
+            lessonId = topic['lesson_id'] as String?;
+          }
         }
         
         // ⚡ İstatistikleri ANINDA kaydet (QuizStatsService)
         QuizStatsService.recordAnswer(
           isCorrect: isCorrect,
-          lessonId: currentQuestion.lessonId,
+          lessonId: lessonId,
           topicId: state.topicId,
           topicName: topicName,
         );

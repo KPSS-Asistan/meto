@@ -1,10 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:kpss_2026/core/theme/app_colors.dart';
-import 'package:kpss_2026/core/repositories/progress_repository.dart';
 import 'package:kpss_2026/core/services/last_study_service.dart';
+import 'package:kpss_2026/core/services/local_progress_service.dart';
 import 'package:kpss_2026/core/services/streak_service.dart';
 import 'package:kpss_2026/core/utils/app_logger.dart';
 import 'package:kpss_2026/core/utils/string_extensions.dart';
@@ -78,32 +77,45 @@ class _ModuleSelectionPageState extends State<ModuleSelectionPage> {
         return;
       }
 
-      final progressRepo = context.read<ProgressRepository>();
+      // ⚡ LocalProgressService'den konu bazlı istatistikleri al
+      final progressService = await LocalProgressService.getInstance();
+      final topicProgress = progressService.getTopicProgress(widget.topicId);
+      
+      // 🐛 DEBUG: Konu ilerlemesini logla
+      print('📊 DEBUG - Topic Progress for ${widget.topicId}:');
+      print('   - Data: $topicProgress');
+      print('   - Attempted: ${topicProgress?.attemptedQuestions ?? 0}');
+      print('   - Correct: ${topicProgress?.correctAnswers ?? 0}');
+      
+      // İstatistikleri hesapla
+      final totalSolved = topicProgress?.attemptedQuestions ?? 0;
+      final correctCount = topicProgress?.correctAnswers ?? 0;
+      final wrongCount = totalSolved - correctCount;
+      final successRate = totalSolved > 0 ? (correctCount / totalSolved * 100) : 0.0;
 
-      // Get topic statistics
-      final stats = await progressRepo.getTopicStats(userId, widget.topicId);
-
-      // ⚡ OPTIMIZED: Soru sayısı için Firebase'e gitmeye gerek yok
-      // Varsayılan 20 soru kullan - gerçek sayı quiz başladığında yüklenir
+      // Varsayılan soru sayısı (gerçek sayı quiz başladığında yüklenir)
       const questionCount = 20;
 
       // Calculate recommendation
       final recommendation = _calculateRecommendation(
-        stats.totalSolved,
+        totalSolved,
         questionCount,
-        stats.successRate,
+        successRate,
       );
 
-      setState(() {
-        _completedCountTopic = stats.totalSolved;
-        _correctCount = stats.correctCount;
-        _wrongCount = stats.wrongCount;
-        _recommendedAction = recommendation;
-        _isLoading = false;
-      });
+      if (mounted) {
+        setState(() {
+          _completedCountTopic = totalSolved;
+          _correctCount = correctCount;
+          _wrongCount = wrongCount;
+          _recommendedAction = recommendation;
+          _isLoading = false;
+        });
+      }
     } catch (e) {
       AppLogger.error('Load topic data failed', e);
-      setState(() => _isLoading = false);
+      print('❌ DEBUG - Error loading topic data: $e');
+      if (mounted) setState(() => _isLoading = false);
     }
   }
 

@@ -148,11 +148,18 @@ service cloud.firestore {
     // FEEDBACK & SUPPORT
     // ========================================
     
-    // Kullanıcı geri bildirimleri
+    // Kullanıcı geri bildirimleri (eski)
     match /user_feedback/{feedbackId} {
       allow read: if isAdmin(); // Sadece admin okuyabilir
       allow create: if isSignedIn(); // Kullanıcılar oluşturabilir
       allow update: if isOwner(resource.data.user_id); // Kendi feedback'ini güncelleyebilir
+    }
+    
+    // Geri bildirimler (yeni) - Herkes yazabilir (giriş yapmamış da)
+    match /feedbacks/{feedbackId} {
+      allow read: if isAdmin(); // Sadece admin okuyabilir
+      allow create: if true; // Herkes geri bildirim gönderebilir
+      allow update, delete: if isAdmin(); // Sadece admin düzenleyebilir
     }
     
     // ========================================

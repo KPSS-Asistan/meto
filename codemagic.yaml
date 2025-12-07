@@ -1,0 +1,131 @@
+workflows:
+  # ═══════════════════════════════════════════════════════════════════════════
+  # iOS App Store Build
+  # ═══════════════════════════════════════════════════════════════════════════
+  ios-release:
+    name: iOS App Store Release
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+      groups:
+        - app_store_credentials  # Codemagic'te tanımlanacak
+      vars:
+        BUNDLE_ID: "com.kpssasistan.app"
+        APP_STORE_APP_ID: "YOUR_APP_ID"  # App Store Connect'ten alınacak
+    
+    scripts:
+      - name: Flutter sürümünü kontrol et
+        script: flutter --version
+        
+      - name: Bağımlılıkları yükle
+        script: flutter pub get
+        
+      - name: iOS pod'larını yükle
+        script: |
+          cd ios
+          pod install
+          cd ..
+          
+      - name: iOS Release Build
+        script: |
+          flutter build ios --release --no-codesign
+          
+      - name: Xcode Archive oluştur
+        script: |
+          xcode-project use-profiles
+          xcode-project build-ipa \
+            --workspace ios/Runner.xcworkspace \
+            --scheme Runner \
+            --archive-flags="-destination 'generic/platform=iOS'"
+    
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - flutter_drive.log
+    
+    publishing:
+      app_store_connect:
+        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
+        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
+        submit_to_testflight: true
+        submit_to_app_store: false  # Manuel onay için false
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # Android Play Store Build
+  # ═══════════════════════════════════════════════════════════════════════════
+  android-release:
+    name: Android Play Store Release
+    instance_type: mac_mini_m2
+    max_build_duration: 30
+    
+    environment:
+      flutter: stable
+      java: 17
+      groups:
+        - play_store_credentials  # Codemagic'te tanımlanacak
+      vars:
+        PACKAGE_NAME: "com.kpssasistan.app"
+    
+    scripts:
+      - name: Flutter sürümünü kontrol et
+        script: flutter --version
+        
+      - name: Bağımlılıkları yükle
+        script: flutter pub get
+        
+      - name: Android App Bundle oluştur
+        script: |
+          flutter build appbundle --release \
+            --obfuscate \
+            --split-debug-info=build/debug-info
+    
+    artifacts:
+      - build/app/outputs/bundle/release/*.aab
+      - build/debug-info/**
+    
+    publishing:
+      google_play:
+        credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
+        track: internal  # internal, alpha, beta, production
+        submit_as_draft: true
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # Test Build (Her push'ta)
+  # ═══════════════════════════════════════════════════════════════════════════
+  test-build:
+    name: Test & Build
+    instance_type: mac_mini_m2
+    max_build_duration: 30
+    
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: 'main'
+          include: true
+        - pattern: 'develop'
+          include: true
+    
+    environment:
+      flutter: stable
+    
+    scripts:
+      - name: Bağımlılıkları yükle
+        script: flutter pub get
+        
+      - name: Kod analizi
+        script: flutter analyze --no-fatal-infos
+        
+      - name: Testleri çalıştır
+        script: flutter test || true
+        
+      - name: APK oluştur (test için)
+        script: flutter build apk --debug
+    
+    artifacts:
+      - build/app/outputs/flutter-apk/*.apk

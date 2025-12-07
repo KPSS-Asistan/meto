@@ -1,179 +1,298 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_animate/flutter_animate.dart';
+import 'package:kpss_2026/core/theme/app_colors.dart';
 
-/// Hakkında Sayfası - Modern ve Minimalist
 class AboutPage extends StatelessWidget {
   const AboutPage({super.key});
-
-  static const _primaryBlue = Color(0xFF6366F1);
 
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    final bgColor = isDark ? const Color(0xFF0F172A) : const Color(0xFFF8FAFC);
-    final cardColor = isDark ? const Color(0xFF1E293B) : Colors.white;
-    final textColor = isDark ? Colors.white : const Color(0xFF1E293B);
-    final subtextColor = isDark ? Colors.white60 : const Color(0xFF64748B);
 
     return Scaffold(
-      backgroundColor: bgColor,
+      backgroundColor: isDark ? AppColors.darkBackground : AppColors.background,
       appBar: AppBar(
-        title: const Text('Hakkında', style: TextStyle(fontWeight: FontWeight.w600)),
-        centerTitle: true,
-        backgroundColor: Colors.transparent,
-        elevation: 0,
+        title: const Text('Hakkında'),
+        backgroundColor: isDark ? AppColors.darkSurface : AppColors.surface,
         surfaceTintColor: Colors.transparent,
-        systemOverlayStyle: isDark ? SystemUiOverlayStyle.light : SystemUiOverlayStyle.dark,
       ),
       body: ListView(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-        physics: const BouncingScrollPhysics(),
+        padding: const EdgeInsets.all(24),
         children: [
-          // Logo ve Versiyon
+          // Logo & App Name
           Container(
             padding: const EdgeInsets.all(32),
-            decoration: BoxDecoration(color: cardColor, borderRadius: BorderRadius.circular(20)),
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                colors: [AppColors.primary, AppColors.primary.withValues(alpha: 0.8)],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+              ),
+              borderRadius: BorderRadius.circular(16),
+            ),
             child: Column(
               children: [
                 Container(
-                  width: 100,
-                  height: 100,
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [_primaryBlue, _primaryBlue.withValues(alpha: 0.7)],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                    borderRadius: BorderRadius.circular(24),
+                  padding: const EdgeInsets.all(20),
+                  decoration: const BoxDecoration(
+                    color: Colors.white,
+                    shape: BoxShape.circle,
                   ),
-                  child: const Icon(Icons.school_rounded, color: Colors.white, size: 48),
+                  child: Icon(
+                    Icons.school_rounded,
+                    size: 48,
+                    color: AppColors.primary,
+                  ),
                 ),
                 const SizedBox(height: 20),
-                Text('KPSS Asistan', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: textColor)),
-                const SizedBox(height: 4),
-                Text('2026', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: _primaryBlue)),
-                const SizedBox(height: 8),
-                Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                  decoration: BoxDecoration(
-                    color: _primaryBlue.withValues(alpha: 0.1),
-                    borderRadius: BorderRadius.circular(20),
+                const Text(
+                  'KPSS 2026',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 28,
+                    fontWeight: FontWeight.w800,
+                    letterSpacing: 1.2,
                   ),
-                  child: Text('Versiyon 1.0.0', style: TextStyle(fontSize: 13, color: _primaryBlue, fontWeight: FontWeight.w500)),
                 ),
-              ],
-            ),
-          ).animate().fadeIn(duration: 300.ms),
-          const SizedBox(height: 20),
-
-          // Açıklama
-          Container(
-            padding: const EdgeInsets.all(20),
-            decoration: BoxDecoration(color: cardColor, borderRadius: BorderRadius.circular(16)),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    Icon(Icons.info_outline_rounded, color: _primaryBlue, size: 22),
-                    const SizedBox(width: 10),
-                    Text('Uygulama Hakkında', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: textColor)),
-                  ],
-                ),
-                const SizedBox(height: 16),
+                const SizedBox(height: 8),
                 Text(
-                  'KPSS Asistan, KPSS sınavına hazırlanan adaylar için geliştirilmiş kapsamlı bir çalışma platformudur. '
-                  'Tarih, Türkçe, Coğrafya ve Vatandaşlık derslerinden binlerce soru ile pratik yapabilir, '
-                  'ilerlemenizi takip edebilir ve hedeflerinize ulaşabilirsiniz.',
-                  style: TextStyle(fontSize: 14, color: subtextColor, height: 1.6),
+                  'Versiyon 1.0.0',
+                  style: TextStyle(
+                    color: Colors.white.withValues(alpha: 0.9),
+                    fontSize: 14,
+                  ),
                 ),
               ],
             ),
-          ).animate().fadeIn(delay: 100.ms),
-          const SizedBox(height: 16),
-
-          // Özellikler
-          Container(
-            padding: const EdgeInsets.all(20),
-            decoration: BoxDecoration(color: cardColor, borderRadius: BorderRadius.circular(16)),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    Icon(Icons.star_outline_rounded, color: const Color(0xFFF59E0B), size: 22),
-                    const SizedBox(width: 10),
-                    Text('Özellikler', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: textColor)),
-                  ],
-                ),
-                const SizedBox(height: 16),
-                _buildFeature('📚', 'Binlerce güncel soru', subtextColor),
-                _buildFeature('📊', 'Detaylı istatistikler', subtextColor),
-                _buildFeature('🔥', 'Seri takip sistemi', subtextColor),
-                _buildFeature('🏆', 'Başarı rozetleri', subtextColor),
-                _buildFeature('📱', 'Offline çalışma modu', subtextColor),
-              ],
-            ),
-          ).animate().fadeIn(delay: 200.ms),
-          const SizedBox(height: 16),
-
-          // İletişim
-          Container(
-            padding: const EdgeInsets.all(20),
-            decoration: BoxDecoration(color: cardColor, borderRadius: BorderRadius.circular(16)),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    Icon(Icons.mail_outline_rounded, color: const Color(0xFF10B981), size: 22),
-                    const SizedBox(width: 10),
-                    Text('İletişim', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: textColor)),
-                  ],
-                ),
-                const SizedBox(height: 16),
-                _buildContactItem(Icons.email_rounded, 'destek@kpssasistan.com', subtextColor, textColor),
-                const SizedBox(height: 12),
-                _buildContactItem(Icons.language_rounded, 'www.kpssasistan.com', subtextColor, textColor),
-              ],
-            ),
-          ).animate().fadeIn(delay: 300.ms),
+          ),
           const SizedBox(height: 24),
 
-          // Footer
+          // Description
+          _buildSection(
+            isDark: isDark,
+            title: 'Uygulama Hakkında',
+            content:
+                'KPSS 2026, Kamu Personel Seçme Sınavına hazırlanan adaylar için geliştirilmiş kapsamlı bir eğitim platformudur. Amacımız, sınava hazırlık sürecini daha verimli ve etkili hale getirmektir.',
+          ),
+
+          const SizedBox(height: 16),
+
+          // Features
+          _buildSection(
+            isDark: isDark,
+            title: 'Özellikler',
+            bulletPoints: [
+              'Kapsamlı konu anlatımları',
+              'Binlerce çıkmış soru',
+              'Detaylı performans analizi',
+              'Flashcard ve ezber teknikleri',
+              'Çalışma programı oluşturma',
+              'Günlük seri takibi',
+              'Zayıf konu analizi',
+            ],
+          ),
+
+          const SizedBox(height: 16),
+
+          // Developer Info
+          _buildSection(
+            isDark: isDark,
+            title: 'Geliştirici',
+            content: 'KPSS 2026 Ekibi\n© 2025 Tüm hakları saklıdır.',
+          ),
+
+          const SizedBox(height: 16),
+
+          // Contact
+          _buildSection(
+            isDark: isDark,
+            title: 'İletişim',
+            content:
+                'E-posta: destek@kpss2026.com\nWeb: www.kpss2026.com',
+          ),
+
+          const SizedBox(height: 24),
+
+          // Social Links (Optional)
+          Container(
+            padding: const EdgeInsets.all(20),
+            decoration: BoxDecoration(
+              color: isDark ? AppColors.darkSurface : AppColors.surface,
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(
+                color: isDark ? AppColors.darkBorder : AppColors.border,
+              ),
+            ),
+            child: Column(
+              children: [
+                Text(
+                  'Bizi Takip Edin',
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w700,
+                    color: isDark
+                        ? AppColors.darkTextPrimary
+                        : AppColors.textPrimary,
+                  ),
+                ),
+                const SizedBox(height: 16),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    _SocialButton(
+                      icon: Icons.language,
+                      label: 'Web',
+                      color: AppColors.primary,
+                      isDark: isDark,
+                    ),
+                    const SizedBox(width: 12),
+                    _SocialButton(
+                      icon: Icons.email_outlined,
+                      label: 'E-posta',
+                      color: const Color(0xFFEF4444),
+                      isDark: isDark,
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+
+          const SizedBox(height: 16),
+
+          // Made with Love
           Center(
             child: Text(
-              '© 2024 KPSS Asistan. Tüm hakları saklıdır.',
-              style: TextStyle(fontSize: 12, color: subtextColor),
+              '❤️ Türkiye\'de yapıldı',
+              style: TextStyle(
+                fontSize: 14,
+                color: isDark
+                    ? AppColors.darkTextSecondary
+                    : AppColors.textSecondary,
+              ),
             ),
-          ).animate().fadeIn(delay: 400.ms),
-          const SizedBox(height: 32),
+          ),
         ],
       ),
     );
   }
 
-  Widget _buildFeature(String emoji, String text, Color subtextColor) {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 12),
-      child: Row(
+  Widget _buildSection({
+    required bool isDark,
+    required String title,
+    String? content,
+    List<String>? bulletPoints,
+  }) {
+    return Container(
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        color: isDark ? AppColors.darkSurface : AppColors.surface,
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(
+          color: isDark ? AppColors.darkBorder : AppColors.border,
+        ),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(emoji, style: const TextStyle(fontSize: 18)),
-          const SizedBox(width: 12),
-          Text(text, style: TextStyle(fontSize: 14, color: subtextColor)),
+          Text(
+            title,
+            style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.w700,
+              color:
+                  isDark ? AppColors.darkTextPrimary : AppColors.textPrimary,
+            ),
+          ),
+          if (content != null) ...[
+            const SizedBox(height: 12),
+            Text(
+              content,
+              style: TextStyle(
+                fontSize: 14,
+                height: 1.6,
+                color: isDark
+                    ? AppColors.darkTextSecondary
+                    : AppColors.textSecondary,
+              ),
+            ),
+          ],
+          if (bulletPoints != null) ...[
+            const SizedBox(height: 12),
+            ...bulletPoints.map(
+              (point) => Padding(
+                padding: const EdgeInsets.only(bottom: 8),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Container(
+                      width: 6,
+                      height: 6,
+                      margin: const EdgeInsets.only(top: 6, right: 10),
+                      decoration: BoxDecoration(
+                        color: AppColors.primary,
+                        borderRadius: BorderRadius.circular(3),
+                      ),
+                    ),
+                    Expanded(
+                      child: Text(
+                        point,
+                        style: TextStyle(
+                          fontSize: 14,
+                          height: 1.5,
+                          color: isDark
+                              ? AppColors.darkTextSecondary
+                              : AppColors.textSecondary,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
         ],
       ),
     );
   }
+}
 
-  Widget _buildContactItem(IconData icon, String text, Color subtextColor, Color textColor) {
-    return Row(
-      children: [
-        Icon(icon, color: subtextColor, size: 20),
-        const SizedBox(width: 12),
-        Text(text, style: TextStyle(fontSize: 14, color: textColor)),
-      ],
+class _SocialButton extends StatelessWidget {
+  final IconData icon;
+  final String label;
+  final Color color;
+  final bool isDark;
+
+  const _SocialButton({
+    required this.icon,
+    required this.label,
+    required this.color,
+    required this.isDark,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: 0.1),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: color.withValues(alpha: 0.3)),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(icon, color: color, size: 20),
+          const SizedBox(width: 8),
+          Text(
+            label,
+            style: TextStyle(
+              fontSize: 14,
+              fontWeight: FontWeight.w600,
+              color: color,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

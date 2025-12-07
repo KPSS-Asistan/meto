@@ -10,6 +10,7 @@ import 'package:kpss_2026/core/services/notification_service.dart';
 import 'package:kpss_2026/core/services/quiz_session_service.dart';
 import 'package:kpss_2026/core/services/quiz_stats_service.dart';
 import 'package:kpss_2026/core/services/study_schedule_service.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -108,17 +109,54 @@ class _SettingsPageState extends State<SettingsPage> {
               value: _dailyReminder,
               color: const Color(0xFF10B981),
               onChanged: (v) async {
-                setState(() => _dailyReminder = v);
-                await _saveSetting('daily_reminder', v);
                 if (v) {
-                  // Bildirimi planla
+                  // Açmaya çalışıyoruz - izin kontrolü yap
+                  try {
+                    final hasPermission = await NotificationService.hasPermission();
+                    
+                    if (!hasPermission) {
+                      // İzin yok - iste
+                      final granted = await NotificationService.requestPermission();
+                      
+                      if (!granted) {
+                        // İzin verilmedi - kalıcı mı kontrol et
+                        final isPermanentlyDenied = await NotificationService.isPermissionPermanentlyDenied();
+                        
+                        if (!mounted) return;
+                        
+                        if (isPermanentlyDenied) {
+                          // Ayarlara yönlendir
+                          _showPermissionDeniedDialog(context);
+                          return;
+                        } else {
+                          // Geçici red
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('Bildirim izni gerekli'),
+                              backgroundColor: Color(0xFFF59E0B),
+                            ),
+                          );
+                          return;
+                        }
+                      }
+                    }
+                  } catch (e) {
+                    // permission_handler yüklenmemişse devam et
+                    debugPrint('Permission check failed: $e');
+                  }
+                  
+                  // İzin var veya kontrol edilemedi - bildirimi planla
+                  setState(() => _dailyReminder = v);
+                  await _saveSetting('daily_reminder', v);
                   final parts = _reminderTime.split(':');
                   await NotificationService.scheduleDailyReminder(
                     hour: int.parse(parts[0]),
                     minute: int.parse(parts[1]),
                   );
                 } else {
-                  // Bildirimi iptal et
+                  // Kapatıyoruz
+                  setState(() => _dailyReminder = v);
+                  await _saveSetting('daily_reminder', v);
                   await NotificationService.cancelDailyReminder();
                 }
               },
@@ -138,11 +176,50 @@ class _SettingsPageState extends State<SettingsPage> {
               value: _streakAlert,
               color: const Color(0xFFEF4444),
               onChanged: (v) async {
-                setState(() => _streakAlert = v);
-                await _saveSetting('streak_alert', v);
                 if (v) {
+                  // Açmaya çalışıyoruz - izin kontrolü yap
+                  try {
+                    final hasPermission = await NotificationService.hasPermission();
+                    
+                    if (!hasPermission) {
+                      // İzin yok - iste
+                      final granted = await NotificationService.requestPermission();
+                      
+                      if (!granted) {
+                        // İzin verilmedi - kalıcı mı kontrol et
+                        final isPermanentlyDenied = await NotificationService.isPermissionPermanentlyDenied();
+                        
+                        if (!mounted) return;
+                        
+                        if (isPermanentlyDenied) {
+                          // Ayarlara yönlendir
+                          _showPermissionDeniedDialog(context);
+                          return;
+                        } else {
+                          // Geçici red
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('Bildirim izni gerekli'),
+                              backgroundColor: Color(0xFFF59E0B),
+                            ),
+                          );
+                          return;
+                        }
+                      }
+                    }
+                  } catch (e) {
+                    // permission_handler yüklenmemişse devam et
+                    debugPrint('Permission check failed: $e');
+                  }
+                  
+                  // İzin var veya kontrol edilemedi - bildirimi planla
+                  setState(() => _streakAlert = v);
+                  await _saveSetting('streak_alert', v);
                   await NotificationService.scheduleStreakAlert();
                 } else {
+                  // Kapatıyoruz
+                  setState(() => _streakAlert = v);
+                  await _saveSetting('streak_alert', v);
                   await NotificationService.cancelStreakAlert();
                 }
               },
@@ -185,6 +262,25 @@ class _SettingsPageState extends State<SettingsPage> {
               subtitle: 'Tüm istatistikleri temizle',
               color: const Color(0xFFF59E0B),
               onTap: () => _showResetDialog(context),
+            ),
+          ]),
+          const SizedBox(height: 16),
+
+          // Yasal
+          _buildSection('Yasal', cardColor, textColor, subtextColor, [
+            _buildTapTile(
+              icon: Icons.privacy_tip_outlined,
+              title: 'Gizlilik Politikası',
+              subtitle: 'Veri kullanımı ve gizlilik',
+              color: const Color(0xFF8B5CF6),
+              onTap: () => context.push('/privacy-policy'),
+            ),
+            _buildTapTile(
+              icon: Icons.description_outlined,
+              title: 'Kullanım Koşulları',
+              subtitle: 'Hizmet şartları ve kurallar',
+              color: const Color(0xFF06B6D4),
+              onTap: () => context.push('/terms-of-service'),
             ),
           ]),
           const SizedBox(height: 16),
@@ -249,7 +345,15 @@ class _SettingsPageState extends State<SettingsPage> {
         value: value,
         onChanged: onChanged,
         activeTrackColor: color,
-        thumbColor: WidgetStateProperty.all(Colors.white),
+        inactiveTrackColor: isDark 
+            ? Colors.white.withValues(alpha: 0.2) 
+            : Colors.black.withValues(alpha: 0.1),
+        thumbColor: WidgetStateProperty.resolveWith((states) {
+          if (states.contains(WidgetState.selected)) {
+            return Colors.white;
+          }
+          return isDark ? Colors.grey[400] : Colors.grey[600];
+        }),
       ),
     );
   }
@@ -549,5 +653,121 @@ class _SettingsPageState extends State<SettingsPage> {
         ),
       ),
     );
+  }
+
+  /// İzin reddedildi dialog'u - Ayarlara yönlendir
+  Future<void> _showPermissionDeniedDialog(BuildContext context) async {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final cardColor = isDark ? const Color(0xFF1E293B) : Colors.white;
+    final textColor = isDark ? Colors.white : const Color(0xFF1E293B);
+    final subtextColor = isDark ? Colors.white60 : const Color(0xFF64748B);
+
+    final result = await showModalBottomSheet<bool>(
+      context: context,
+      backgroundColor: Colors.transparent,
+      isScrollControlled: true,
+      builder: (ctx) => Container(
+        padding: const EdgeInsets.all(24),
+        decoration: BoxDecoration(
+          color: cardColor,
+          borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            // Handle
+            Container(
+              width: 40,
+              height: 4,
+              decoration: BoxDecoration(
+                color: subtextColor.withValues(alpha: 0.3),
+                borderRadius: BorderRadius.circular(2),
+              ),
+            ),
+            const SizedBox(height: 24),
+            // Icon
+            Container(
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: const Color(0xFFF59E0B).withValues(alpha: 0.1),
+                shape: BoxShape.circle,
+              ),
+              child: const Icon(Icons.notifications_off_rounded, color: Color(0xFFF59E0B), size: 32),
+            ),
+            const SizedBox(height: 20),
+            // Title
+            Text(
+              'Bildirim İzni Gerekli',
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w700,
+                color: textColor,
+              ),
+            ),
+            const SizedBox(height: 12),
+            // Message
+            Text(
+              'Hatırlatıcıları kullanabilmek için bildirim iznini açmanız gerekiyor.\n\nAyarlar > Bildirimler bölümünden izni aktif edebilirsiniz.',
+              style: TextStyle(fontSize: 14, color: subtextColor, height: 1.5),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 28),
+            // Buttons
+            Row(
+              children: [
+                Expanded(
+                  child: OutlinedButton(
+                    onPressed: () => Navigator.pop(ctx, false),
+                    style: OutlinedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(vertical: 14),
+                      side: BorderSide(color: subtextColor.withValues(alpha: 0.3)),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                    ),
+                    child: Text(
+                      'İptal',
+                      style: TextStyle(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w600,
+                        color: subtextColor,
+                      ),
+                    ),
+                  ),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: ElevatedButton(
+                    onPressed: () => Navigator.pop(ctx, true),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color(0xFFF59E0B),
+                      foregroundColor: Colors.white,
+                      padding: const EdgeInsets.symmetric(vertical: 14),
+                      elevation: 0,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                    ),
+                    child: const Text(
+                      'Ayarlara Git',
+                      style: TextStyle(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            SizedBox(height: MediaQuery.of(context).viewPadding.bottom + 8),
+          ],
+        ),
+      ),
+    );
+
+    if (result == true && mounted) {
+      // Sistem ayarlarına yönlendir
+      await openAppSettings();
+    }
   }
 }

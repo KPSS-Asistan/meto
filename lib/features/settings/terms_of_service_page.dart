@@ -10,78 +10,60 @@ class TermsOfServicePage extends StatelessWidget {
 
     final sections = <_TermSection>[
       const _TermSection(
-        title: '1. Giriş',
+        title: '1. Kabul',
         body:
-            'Bu Kullanım Koşulları ("Koşullar"), KPSS Asistan 2026 mobil uygulamasını ("Uygulama") kullanımınızı yönetir. Uygulamayı kullanarak, bu Koşulları kabul etmiş sayılırsınız.',
+            'KPSS 2026 uygulamasını kullanarak bu koşulları kabul etmiş sayılırsınız.',
       ),
       const _TermSection(
-        title: '2. Hizmet Tanımı',
+        title: '2. Hizmet',
         body:
-            'KPSS Asistan 2026, kullanıcıların KPSS sınavına hazırlanmalarına yardımcı olmak amacıyla geliştirilmiş bir mobil uygulamadır. Uygulama şu hizmetleri sunar:',
+            'KPSS sınavına hazırlık için eğitim içerikleri, testler ve performans takibi sunuyoruz.',
+      ),
+      const _TermSection(
+        title: '3. Hesap',
+        body:
+            'Hesap güvenliğinden siz sorumlusunuz. Doğru bilgiler sağlamalı ve şifrenizi kimseyle paylaşmamalısınız.',
+      ),
+      const _TermSection(
+        title: '4. Kullanım Kuralları',
+        body:
+            'Uygulamayı yalnızca kişisel eğitim amaçlı kullanabilirsiniz:',
         bulletPoints: [
-          'Konu anlatımları ve ders notları',
-          'Çıkmış sorular ve çözümleri',
-          'Deneme sınavları ve testler',
-          'Performans takip ve analiz',
-          'Kişiselleştirilmiş çalışma planı',
-        ],
-      ),
-      const _TermSection(
-        title: '3. Hesap Sorumlulukları',
-        body:
-            'Uygulamayı kullanmak için bir hesap oluşturmanız gerekebilir. Hesap bilgilerinizin güvenliğinden siz sorumlusunuz. Hesabınız aracılığıyla gerçekleştirilen tüm işlemlerden siz sorumlu olacaksınız.',
-      ),
-      const _TermSection(
-        title: '4. Kullanım Koşulları',
-        body:
-            'Uygulamayı kullanırken aşağıdaki kurallara uymayı kabul edersiniz:',
-        bulletPoints: [
-          'Uygulamayı yalnızca yasal amaçlarla kullanacaksınız.',
-          'Uygulamanın çalışmasını engelleyecek veya bozacak herhangi bir eylemde bulunmayacaksınız.',
-          'Telif hakkı, ticari marka veya diğer mülkiyet haklarını ihlal eden içerik paylaşmayacaksınız.',
-          'Diğer kullanıcıların deneyimini olumsuz etkileyecek davranışlarda bulunmayacaksınız.',
-          'Uygulamanın kaynak kodunu tersine mühendislik yapmayacak veya çoğaltmayacaksınız.',
+          'İçerikleri kopyalayamaz veya dağıtamazsınız',
+          'Ticari amaçla kullanamazsınız',
+          'Güvenliği tehlikeye atamazsınız',
+          'Diğer kullanıcılara zarar veremezsiniz',
         ],
       ),
       const _TermSection(
         title: '5. Fikri Mülkiyet',
         body:
-            'Uygulamada yer alan tüm içerik, telif hakkı, ticari marka ve diğer fikri mülkiyet yasalarıyla korunmaktadır. Uygulama içeriğini izinsiz kopyalayamaz, çoğaltamaz veya dağıtamazsınız.',
+            'Tüm içerikler telif hakkıyla korunmaktadır ve KPSS 2026\'ya aittir.',
       ),
       const _TermSection(
-        title: '6. Sorumluluk Reddi',
+        title: '6. Sorumluluk',
         body:
-            'Uygulama "olduğu gibi" ve "mümkün olduğu sürece" sunulmaktadır. Uygulamanın kesintisiz, güvenli veya hatasız olacağına dair herhangi bir garanti vermiyoruz. Sınav sonuçlarınız üzerinde doğrudan etkisi olabilecek kararlar vermeden önce resmi kaynakları kontrol etmelisiniz.',
+            'İçeriklerin doğruluğu için çaba gösteririz ancak garanti veremeyiz. Sınav sonuçlarınızdan sorumlu değiliz.',
       ),
       const _TermSection(
-        title: '7. Değişiklikler ve Güncellemeler',
+        title: '7. Hizmet Kesintileri',
         body:
-            'Uygulamanın içeriğini ve işlevselliğini herhangi bir zamanda değiştirme, güncelleme veya kaldırma hakkını saklı tutarız. Bu tür değişikliklerden önce sizi bilgilendirmeye çalışacağız, ancak bu her zaman mümkün olmayabilir.',
+            'Uygulama "olduğu gibi" sunulmaktadır. Kesintisiz hizmet garantisi yoktur.',
       ),
       const _TermSection(
-        title: '8. Üyelik ve Ödemeler',
+        title: '8. Hesap Kapatma',
         body:
-            'Bazı özellikler ücretli abonelik gerektirebilir. Ücretli hizmetler için ödeme yapmadan önce fiyatlandırma bilgilerini dikkatlice inceleyin. Abonelikler genellikle otomatik olarak yenilenir ve iptal edilmediği sürece devam eder.',
+            'Kuralları ihlal ederseniz hesabınız kapatılabilir.',
       ),
       const _TermSection(
-        title: '9. İptal ve İade Politikası',
+        title: '9. Değişiklikler',
         body:
-            'Uygulama içi satın alımlar için App Store ve Google Play mağazalarının iptal ve iade politikaları geçerlidir. Uygulama üzerinden doğrudan iade işlemi yapılamamaktadır.',
+            'Bu koşullar güncellenebilir. Önemli değişiklikler duyurulacaktır.\n\nSon güncelleme: Aralık 2025',
       ),
       const _TermSection(
-        title: '10. Sonlandırma',
+        title: '10. İletişim',
         body:
-            'Bu Koşulları ihlal etmeniz durumunda, uyarıda bulunmaksızın hesabınızı askıya alma veya sonlandırma hakkını saklı tutarız. Hesabınızın sonlandırılması durumunda, uygulamayı kullanma hakkınız da sona erecektir.',
-      ),
-      const _TermSection(
-        title: '11. Değişiklikler',
-        body:
-            'Bu Koşulları herhangi bir zamanda güncelleme hakkını saklı tutarız. Önemli değişiklikler için sizi bilgilendireceğiz, ancak düzenli olarak bu sayfayı gözden geçirmenizi öneririz.',
-      ),
-      const _TermSection(
-        title: '12. İletişim',
-        body:
-            'Bu Koşullar hakkında herhangi bir sorunuz varsa, lütfen bize support@kpssasistan.com adresinden ulaşın.',
+            'Sorularınız için: destek@kpss2026.com',
       ),
     ];
 

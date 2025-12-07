@@ -1,4 +1,4 @@
-ï»¿import 'dart:async';
+import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import '../../core/services/quiz_analysis_service.dart';
 import '../../core/models/question_model.dart';
@@ -160,7 +160,7 @@ class _QuizViewState extends State<_QuizView> {
             return state.when(
               initial: () => const SizedBox.shrink(),
               loading: () => const LoadingIndicator(
-                message: 'Sorular yÃ¼kleniyor...',
+                message: 'Sorular yükleniyor...',
               ),
               error: (msg) => ErrorState(
                 message: msg,
@@ -368,7 +368,7 @@ class _QuizViewState extends State<_QuizView> {
                                 isAnswered
                                     ? (currentIndex + 1 < totalQuestions
                                         ? 'Devam Et'
-                                        : 'SonuÃ§larÄ± GÃ¶r')
+                                        : 'Sonuçlarý Gör')
                                     : 'Cevapla',
                                 style: const TextStyle(
                                   fontSize: 15,
@@ -414,7 +414,7 @@ class _QuizViewState extends State<_QuizView> {
             ),
             const SizedBox(height: 20),
             const Text(
-              'Testten Ã‡Ä±k',
+              'Testten Çýk',
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w700,
@@ -423,7 +423,7 @@ class _QuizViewState extends State<_QuizView> {
             ),
             const SizedBox(height: 12),
             const Text(
-              'Ä°lerlemeniz kaydedilecek ve kaldÄ±ÄŸÄ±nÄ±z yerden devam edebilirsiniz.',
+              'Ýlerlemeniz kaydedilecek ve kaldýðýnýz yerden devam edebilirsiniz.',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 15,
@@ -475,7 +475,7 @@ class _QuizViewState extends State<_QuizView> {
                       ),
                     ),
                     child: const Text(
-                      'Ã‡Ä±k',
+                      'Çýk',
                       style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.w600,
@@ -600,7 +600,7 @@ class _QuizViewState extends State<_QuizView> {
                     ),
                   ),
                   child: const Text(
-                    'AnladÄ±m',
+                    'Anladým',
                     style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.w600,
@@ -631,7 +631,7 @@ class _QuizViewState extends State<_QuizView> {
     final percentage = (score / totalQuestions * 100).round();
     final wrongCount = totalQuestions - score;
 
-    // Wrong Questions HazÄ±rlÄ±ÄŸÄ±
+    // Wrong Questions Hazýrlýðý
     final wrongQuestionsList = <WrongQuestionInfo>[];
     for (int i = 0; i < questions.length; i++) {
       final q = questions[i];
@@ -657,17 +657,17 @@ class _QuizViewState extends State<_QuizView> {
       primaryColor = const Color(0xFF10B981);
       bgColor = const Color(0xFFECFDF5);
       icon = Icons.emoji_events_rounded;
-      message = 'MÃ¼kemmel!';
+      message = 'Mükemmel!';
     } else if (percentage >= 60) {
       primaryColor = const Color(0xFF6366F1);
       bgColor = const Color(0xFFEEF2FF);
       icon = Icons.thumb_up_rounded;
-      message = 'Ä°yi Gidiyorsun!';
+      message = 'Ýyi Gidiyorsun!';
     } else if (percentage >= 40) {
       primaryColor = const Color(0xFFF59E0B);
       bgColor = const Color(0xFFFFFBEB);
       icon = Icons.trending_up_rounded;
-      message = 'GeliÅŸtirebilirsin';
+      message = 'Geliþtirebilirsin';
     } else {
       primaryColor = const Color(0xFFEF4444);
       bgColor = const Color(0xFFFEF2F2);
@@ -709,7 +709,7 @@ class _QuizViewState extends State<_QuizView> {
                 Expanded(
                   child: StatCard(
                     value: '$score',
-                    label: 'DoÄŸru',
+                    label: 'Doðru',
                     color: const Color(0xFF10B981),
                     bgColor: const Color(0xFFECFDF5),
                   ),
@@ -718,7 +718,7 @@ class _QuizViewState extends State<_QuizView> {
                 Expanded(
                   child: StatCard(
                     value: '$wrongCount',
-                    label: 'YanlÄ±ÅŸ',
+                    label: 'Yanlýþ',
                     color: const Color(0xFFEF4444),
                     bgColor: const Color(0xFFFEF2F2),
                   ),
@@ -727,7 +727,7 @@ class _QuizViewState extends State<_QuizView> {
                 Expanded(
                   child: StatCard(
                     value: '%$percentage',
-                    label: 'BaÅŸarÄ±',
+                    label: 'Baþarý',
                     color: primaryColor,
                     bgColor: bgColor,
                   ),
@@ -772,7 +772,7 @@ class _QuizViewState extends State<_QuizView> {
           TextButton(
             onPressed: () => context.pop(),
             child: const Text(
-              'Ana Sayfaya DÃ¶n',
+              'Ana Sayfaya Dön',
               style: TextStyle(fontSize: 14, color: Color(0xFF6B7280)),
             ),
           ),

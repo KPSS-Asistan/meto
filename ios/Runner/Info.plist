@@ -45,5 +45,23 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	
+	<!-- Bildirim İzni -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	
+	<!-- Firebase için -->
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	
+	<!-- App Store için gerekli açıklamalar -->
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Bu uygulama, size daha iyi bir deneyim sunmak için kullanım verilerini analiz eder.</string>
+	
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 </dict>
 </plist>

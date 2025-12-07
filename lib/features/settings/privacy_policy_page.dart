@@ -10,46 +10,61 @@ class PrivacyPolicyPage extends StatelessWidget {
 
     final sections = <_PolicySection>[
       const _PolicySection(
-        title: 'Giriş',
+        title: '1. Genel Bilgiler',
         body:
-            'Bu Gizlilik Politikası, KPSS Asistan 2026 mobil uygulamasını cihazına yükleyen tüm kullanıcılar için yürürlüğe girer. Kullanıcı, uygulamayı kaldırarak politikayı sona erdirebilir.',
+            'KPSS 2026 uygulamasını kullanarak bu gizlilik politikasını kabul etmiş sayılırsınız. Kişisel verilerinizin korunması bizim için önemlidir.',
       ),
       const _PolicySection(
-        title: 'Bilgilerin Kullanılması',
+        title: '2. Toplanan Bilgiler',
         body:
-            'Toplanan kişisel veriler hizmeti sunmak, kişiselleştirmek, güvenliği sağlamak ve yasal yükümlülükleri yerine getirmek için kullanılır.',
+            'Hizmetlerimizi sunabilmek için aşağıdaki bilgileri topluyoruz:',
         bulletPoints: [
-          'Kimlik & iletişim: ad, soyad, e‑posta, profil görseli, sınav yılı.',
-          'Akademik veriler: çözülen sorular, yanlışlar, favoriler, flashcard ilerlemesi, AI koç sohbetleri.',
-          'Cihaz verileri: işletim sistemi, cihaz modeli, IP, çökme logları, performans ölçümleri.',
-          'Konum: yalnızca şehir/bölge (IP tabanlı) ve tercihe bağlı bildirim önerileri.',
-          'Ödeme: Kart bilgileri uygulamada saklanmaz; Google Play / App Store tarafından işlenir.',
+          'Hesap bilgileri (e-posta, kullanıcı adı)',
+          'Çalışma verileri (test sonuçları, ilerleme)',
+          'Cihaz bilgileri (model, işletim sistemi)',
+          'Kullanım istatistikleri',
         ],
       ),
       const _PolicySection(
-        title: 'Bilgilerin Paylaşılması',
+        title: '3. Bilgilerin Kullanımı',
         body:
-            'Veriler yalnızca hizmet sağlayıcılarımız (Firebase Auth, Firestore, Storage, Analytics, Crashlytics, bildirim servisleri) ile paylaşılır. Yasal zorunluluk olması hâlinde resmi mercilere aktarım yapılabilir.',
-      ),
-      const _PolicySection(
-        title: 'Kullanıcı İzinleri',
-        body:
-            'Uygulamanın sağlıklı çalışması için belirli cihaz izinlerine ihtiyaç duyulur; kullanıcı izinleri cihaz ayarlarından yönetilebilir.',
+            'Topladığımız bilgiler şu amaçlarla kullanılır:',
         bulletPoints: [
-          'Depolama / Fotoğraf: profil görseli ve offline veriler.',
-          'Push bildirimleri: hatırlatmalar ve duyurular.',
-          'Konum (opsiyonel): çalışma önerileri; gerçek koordinatlar tutulmaz.',
+          'Eğitim hizmetlerinin sunulması',
+          'Performans analizi ve öneriler',
+          'Uygulama iyileştirmeleri',
+          'Bildirimler ve hatırlatmalar',
         ],
       ),
       const _PolicySection(
-        title: 'Saklama Süresi',
+        title: '4. Veri Güvenliği',
         body:
-            'Hesap silme talebinden sonra veriler 90 gün içinde aktif sistemlerden kaldırılır. Log ve yedekler yasal gereklilikler sebebiyle azami 2 yıl saklanır.',
+            'Verileriniz endüstri standardı güvenlik önlemleriyle korunmaktadır. Ancak internet üzerinden yapılan hiçbir veri aktarımının %100 güvenli olduğunu garanti edemeyiz.',
       ),
       const _PolicySection(
-        title: 'Sorumluluğun Sınırlandırılması',
+        title: '5. Veri Paylaşımı',
         body:
-            'Tüm güvenlik önlemlerine rağmen internet altyapısı, üçüncü taraf saldırıları veya kullanıcı hatalarından doğan veri ihlallerinde KPSS Asistan’ın sorumluluğu yürürlükteki mevzuatın izin verdiği ölçüde sınırlıdır.',
+            'Kişisel bilgileriniz üçüncü taraflarla paylaşılmaz. Sadece hizmet sağlayıcılarımız (bulut altyapısı, analitik) ile gerekli ölçüde paylaşılır.',
+      ),
+      const _PolicySection(
+        title: '6. Kullanıcı Hakları',
+        body:
+            'Verilerinize erişebilir, düzeltebilir veya silebilirsiniz. Hesabınızı tamamen silmek için Ayarlar > Hesabı Sil seçeneğini kullanabilirsiniz.',
+      ),
+      const _PolicySection(
+        title: '7. Çerezler',
+        body:
+            'Uygulama, kullanıcı deneyimini iyileştirmek için çerezler ve benzeri teknolojiler kullanır.',
+      ),
+      const _PolicySection(
+        title: '8. Değişiklikler',
+        body:
+            'Bu politika zaman zaman güncellenebilir. Önemli değişiklikler uygulama içinde duyurulacaktır.\n\nSon güncelleme: Aralık 2025',
+      ),
+      const _PolicySection(
+        title: '9. İletişim',
+        body:
+            'Sorularınız için: destek@kpss2026.com',
       ),
     ];
 

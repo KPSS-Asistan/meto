@@ -43,18 +43,24 @@ class _StatsPageState extends State<StatsPage> {
         QuizStatsService.getTodayStats(),
         QuizStatsService.getWeakTopicAnalysis(),
       ]);
+      
+      // 🐛 DEBUG: Ders istatistiklerini logla
+      final lessonStats = results[3] as Map<String, Map<String, int>>;
+      print('📊 DEBUG - Lesson Stats: $lessonStats');
+      
       if (mounted) {
         setState(() {
           _totalQuestions = results[0] as int;
           _correctAnswers = results[1] as int;
           _weeklyStats = results[2] as List<Map<String, dynamic>>;
-          _lessonStats = results[3] as Map<String, Map<String, int>>;
+          _lessonStats = lessonStats;
           _todaySolved = (results[4] as Map<String, dynamic>)['solved'] ?? 0;
           _weakTopics = results[5] as List<Map<String, dynamic>>;
           _isLoading = false;
         });
       }
     } catch (e) {
+      print('❌ DEBUG - Stats load error: $e');
       if (mounted) setState(() => _isLoading = false);
     }
   }
@@ -78,6 +84,22 @@ class _StatsPageState extends State<StatsPage> {
         elevation: 0,
         surfaceTintColor: Colors.transparent,
         systemOverlayStyle: isDark ? SystemUiOverlayStyle.light : SystemUiOverlayStyle.dark,
+        actions: [
+          // 🐛 DEBUG: İstatistikleri temizle butonu
+          IconButton(
+            icon: const Icon(Icons.delete_outline),
+            tooltip: 'İstatistikleri Temizle',
+            onPressed: () async {
+              final messenger = ScaffoldMessenger.of(context);
+              await QuizStatsService.reset();
+              _loadStats();
+              if (!mounted) return;
+              messenger.showSnackBar(
+                const SnackBar(content: Text('İstatistikler temizlendi')),
+              );
+            },
+          ),
+        ],
       ),
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())

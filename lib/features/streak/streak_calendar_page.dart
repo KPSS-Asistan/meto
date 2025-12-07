@@ -82,18 +82,23 @@ class _StreakCalendarPageState extends State<StreakCalendarPage> {
           ? const Center(child: CircularProgressIndicator())
           : RefreshIndicator(
               onRefresh: _loadData,
-              child: ListView(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                physics: const BouncingScrollPhysics(),
-                children: [
-                  // İstatistikler
-                  _buildStats(cardColor, textColor, subtextColor),
-                  const SizedBox(height: 20),
-                  
-                  // Takvim
-                  _buildCalendar(cardColor, textColor, subtextColor, isDark),
-                  const SizedBox(height: 32),
-                ],
+              child: Center(
+                child: ConstrainedBox(
+                  constraints: const BoxConstraints(maxWidth: 600),
+                  child: ListView(
+                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+                    physics: const BouncingScrollPhysics(),
+                    children: [
+                      // İstatistikler
+                      _buildStats(cardColor, textColor, subtextColor),
+                      const SizedBox(height: 24),
+                      
+                      // Takvim
+                      _buildCalendar(cardColor, textColor, subtextColor, isDark),
+                      const SizedBox(height: 32),
+                    ],
+                  ),
+                ),
               ),
             ),
     );

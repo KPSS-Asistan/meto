@@ -218,6 +218,19 @@ class LocalProgressService {
     return getWrongAnswers(topicId: topicId).map((w) => w.questionId).toSet().toList();
   }
   
+  /// Tüm yanlış soruları getir (wrong_answers_page için)
+  List<String> getAllWrongQuestions() {
+    return _userData.wrongAnswers.map((w) => w.questionId).toSet().toList();
+  }
+  
+  /// Soruyu öğrenildi olarak işaretle (yanlışlardan kaldır)
+  Future<void> markQuestionAsLearned(String questionId) async {
+    final wrongAnswers = List<WrongAnswerData>.from(_userData.wrongAnswers);
+    wrongAnswers.removeWhere((w) => w.questionId == questionId);
+    _userData = _userData.copyWith(wrongAnswers: wrongAnswers);
+    await _saveData();
+  }
+  
   // ═══════════════════════════════════════════════════════════════════════════
   // FLASHCARD İLERLEMESİ
   // ═══════════════════════════════════════════════════════════════════════════

@@ -3,8 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
-/// Premium Üyelik Sayfası - Settings Page Tasarım Dili
-/// Temiz, Section-based, Modern ve Minimalist
+/// Premium Üyelik Sayfası - Enhanced Version
+/// Detaylı özellikler, Social Proof, SSS ve Stratejik Urgency
 class PremiumPage extends StatefulWidget {
   const PremiumPage({super.key});
 
@@ -14,10 +14,25 @@ class PremiumPage extends StatefulWidget {
 
 class _PremiumPageState extends State<PremiumPage> {
   int _selectedPlan = 1;
+  bool _showAllFeatures = false; // Tüm özellikleri göster/gizle
 
-  // Modern Renk Paleti (Settings ile uyumlu)
-  static const Color _accentPrimary = Color(0xFF6366F1);   // Indigo
-  static const Color _accentSuccess = Color(0xFF10B981);   // Emerald
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+  }
+
+
+
+  // Modern Renk Paleti
+  static const Color _accentPrimary = Color(0xFF6366F1);
+  static const Color _accentSuccess = Color(0xFF10B981);
+  // ignore: unused_field
+  static const Color _accentWarning = Color(0xFFF59E0B);
 
   final List<Map<String, dynamic>> _plans = [
     {
@@ -50,8 +65,8 @@ class _PremiumPageState extends State<PremiumPage> {
     },
   ];
 
-  // En önemli 3 özellik
-  final List<Map<String, dynamic>> _features = [
+  // Genişletilmiş özellikler listesi
+  final List<Map<String, dynamic>> _allFeatures = [
     {
       'icon': Icons.auto_graph_rounded,
       'title': 'AI Destekli Çalışma Planı',
@@ -70,7 +85,27 @@ class _PremiumPageState extends State<PremiumPage> {
       'subtitle': 'Sorularına anında cevap',
       'color': Color(0xFF8B5CF6),
     },
+    {
+      'icon': Icons.trending_up_rounded,
+      'title': 'Detaylı Performans Analizi',
+      'subtitle': 'Zayıf konularını keşfet',
+      'color': Color(0xFF10B981),
+    },
+    {
+      'icon': Icons.download_rounded,
+      'title': 'Offline Mod',
+      'subtitle': 'İnternetsiz çalış',
+      'color': Color(0xFF06B6D4),
+    },
+    {
+      'icon': Icons.block_rounded,
+      'title': 'Reklamsız Deneyim',
+      'subtitle': 'Kesintisiz odaklan',
+      'color': Color(0xFFEF4444),
+    },
   ];
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -102,25 +137,13 @@ class _PremiumPageState extends State<PremiumPage> {
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               physics: const BouncingScrollPhysics(),
               children: [
+
                 // Header Title & Slogan
                 _buildHeader(textColor, subtextColor),
                 const SizedBox(height: 20),
 
                 // Features Section
-                _buildSection(
-                  title: 'Premium Avantajları',
-                  cardColor: cardColor,
-                  textColor: textColor,
-                  subtextColor: subtextColor,
-                  children: _features.map((f) => _buildFeatureTile(
-                    icon: f['icon'] as IconData,
-                    title: f['title'] as String,
-                    subtitle: f['subtitle'] as String,
-                    color: f['color'] as Color,
-                    textColor: textColor,
-                    subtextColor: subtextColor,
-                  )).toList(),
-                ),
+                _buildFeaturesSection(cardColor, textColor, subtextColor),
                 const SizedBox(height: 16),
 
                 // Plan Selection Section
@@ -141,17 +164,97 @@ class _PremiumPageState extends State<PremiumPage> {
                     );
                   }).toList(),
                 ),
-                const SizedBox(height: 120), // Bottom padding for CTA + Trust section
+                const SizedBox(height: 120),
               ],
             ),
           ),
 
-          // Fixed Bottom CTA + Trust Badges
+          // Fixed Bottom CTA
           _buildBottomSection(isDark, cardColor, subtextColor),
         ],
       ),
     );
   }
+
+
+
+
+
+  Widget _buildFeaturesSection(Color cardColor, Color textColor, Color subtextColor) {
+    final featuresToShow = _showAllFeatures ? _allFeatures : _allFeatures.take(3).toList();
+    
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.only(left: 4, bottom: 8),
+          child: Text(
+            'Premium Avantajları',
+            style: TextStyle(
+              fontSize: 13,
+              fontWeight: FontWeight.w600,
+              color: subtextColor,
+            ),
+          ),
+        ),
+        Container(
+          decoration: BoxDecoration(
+            color: cardColor,
+            borderRadius: BorderRadius.circular(16),
+          ),
+          child: Column(
+            children: [
+              ...featuresToShow.map((f) => _buildFeatureTile(
+                icon: f['icon'] as IconData,
+                title: f['title'] as String,
+                subtitle: f['subtitle'] as String,
+                color: f['color'] as Color,
+                textColor: textColor,
+                subtextColor: subtextColor,
+              )),
+              // Daha Fazla Butonu
+              if (!_showAllFeatures)
+                InkWell(
+                  onTap: () => setState(() => _showAllFeatures = true),
+                  borderRadius: const BorderRadius.vertical(bottom: Radius.circular(16)),
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(vertical: 12),
+                    decoration: BoxDecoration(
+                      border: Border(
+                        top: BorderSide(
+                          color: subtextColor.withValues(alpha: 0.1),
+                        ),
+                      ),
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          'Daha Fazla',
+                          style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600,
+                            color: _accentPrimary,
+                          ),
+                        ),
+                        const SizedBox(width: 4),
+                        Icon(
+                          Icons.keyboard_arrow_down_rounded,
+                          color: _accentPrimary,
+                          size: 20,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+            ],
+          ),
+        ),
+      ],
+    ).animate().fadeIn(duration: 300.ms);
+  }
+
+
 
   Widget _buildHeader(Color textColor, Color subtextColor) {
     return Column(
@@ -164,18 +267,6 @@ class _PremiumPageState extends State<PremiumPage> {
             fontWeight: FontWeight.w800,
             color: textColor,
             letterSpacing: -0.5,
-          ),
-        ),
-        const SizedBox(height: 8),
-        // Slogan
-        Text(
-          'Binlerce öğrenci Premium ile hedefine ulaştı.\nSıradaki sen ol.',
-          textAlign: TextAlign.center,
-          style: TextStyle(
-            fontSize: 14,
-            fontWeight: FontWeight.w500,
-            color: subtextColor,
-            height: 1.4,
           ),
         ),
       ],
@@ -250,8 +341,6 @@ class _PremiumPageState extends State<PremiumPage> {
   }) {
     final isSelected = _selectedPlan == index;
     final color = plan['color'] as Color;
-
-    // 3 aylık plan (index == 1) için özel vurgu
     final isPopular = index == 1;
     
     return InkWell(
@@ -288,7 +377,6 @@ class _PremiumPageState extends State<PremiumPage> {
         ),
         child: Row(
           children: [
-            // Radio Button
             AnimatedContainer(
               duration: const Duration(milliseconds: 150),
               width: 22,
@@ -306,10 +394,8 @@ class _PremiumPageState extends State<PremiumPage> {
                   : null,
             ),
             const SizedBox(width: 12),
-            // Plan Icon
             Icon(plan['icon'] as IconData, color: color, size: 22),
             const SizedBox(width: 12),
-            // Plan Details
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -341,7 +427,6 @@ class _PremiumPageState extends State<PremiumPage> {
                 ],
               ),
             ),
-            // Price
             Column(
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
@@ -453,7 +538,6 @@ class _PremiumPageState extends State<PremiumPage> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            // CTA Button
             Container(
               width: double.infinity,
               height: 56,
@@ -510,13 +594,8 @@ class _PremiumPageState extends State<PremiumPage> {
             ),
             
             const SizedBox(height: 12),
-            
-            // Trust Badges (moved below CTA)
             _buildTrustBadges(subtextColor),
-            
             const SizedBox(height: 8),
-            
-            // Legal Links
             _buildLegalLinks(subtextColor),
           ],
         ),
@@ -556,6 +635,62 @@ class _PremiumPageState extends State<PremiumPage> {
         content: Text('${selectedPlan['period']} planı yakında aktif olacak'),
         behavior: SnackBarBehavior.floating,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+      ),
+    );
+  }
+}
+
+class _FAQTile extends StatefulWidget {
+  final String question;
+  final String answer;
+  final Color textColor;
+  final Color subtextColor;
+
+  const _FAQTile({
+    required this.question,
+    required this.answer,
+    required this.textColor,
+    required this.subtextColor,
+  });
+
+  @override
+  State<_FAQTile> createState() => _FAQTileState();
+}
+
+class _FAQTileState extends State<_FAQTile> {
+  bool _isExpanded = false;
+
+  @override
+  Widget build(BuildContext context) {
+    return Theme(
+      data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
+      child: ExpansionTile(
+        tilePadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+        childrenPadding: const EdgeInsets.only(left: 16, right: 16, bottom: 12),
+        leading: Icon(
+          _isExpanded ? Icons.remove_circle_outline : Icons.add_circle_outline,
+          color: const Color(0xFF6366F1),
+          size: 20,
+        ),
+        title: Text(
+          widget.question,
+          style: TextStyle(
+            fontSize: 14,
+            fontWeight: FontWeight.w600,
+            color: widget.textColor,
+          ),
+        ),
+        onExpansionChanged: (v) => setState(() => _isExpanded = v),
+        children: [
+          Text(
+            widget.answer,
+            style: TextStyle(
+              fontSize: 13,
+              height: 1.5,
+              color: widget.subtextColor,
+            ),
+          ),
+        ],
       ),
     );
   }

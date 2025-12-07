@@ -1,107 +1,153 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_animate/flutter_animate.dart';
+import 'package:kpss_2026/core/theme/app_colors.dart';
 
-/// Yardım Merkezi Sayfası - Modern ve Minimalist
-class HelpPage extends StatefulWidget {
+class HelpPage extends StatelessWidget {
   const HelpPage({super.key});
-
-  @override
-  State<HelpPage> createState() => _HelpPageState();
-}
-
-class _HelpPageState extends State<HelpPage> {
-  final List<_FaqItem> _faqs = [
-    _FaqItem(
-      question: 'Quiz nasıl çözülür?',
-      answer: 'Ana sayfadan veya Dersler sayfasından bir konu seçin. Quiz otomatik olarak başlayacak ve 20 rastgele soru sorulacaktır.',
-    ),
-    _FaqItem(
-      question: 'Seri (Streak) sistemi nasıl çalışır?',
-      answer: 'Her gün en az bir quiz çözdüğünüzde seri devam eder. Günü kaçırırsanız seri sıfırlanır. Düzenli çalışma için harika bir motivasyon kaynağı!',
-    ),
-    _FaqItem(
-      question: 'İlerleme nasıl takip edilir?',
-      answer: 'Profil > İstatistikler bölümünden toplam çözülen soru, başarı yüzdesi ve ders bazlı performansınızı görebilirsiniz.',
-    ),
-    _FaqItem(
-      question: 'Yanlış cevapları nasıl görebilirim?',
-      answer: 'Quiz tamamlandıktan sonra sonuç ekranında yanlış cevaplarınızı inceleyebilirsiniz. Her sorunun doğru cevabı ve açıklaması gösterilir.',
-    ),
-    _FaqItem(
-      question: 'Favorilere nasıl eklenir?',
-      answer: 'Quiz sırasında soru üzerindeki kalp ikonuna tıklayarak o soruyu favorilere ekleyebilirsiniz. Favoriler sayfasından istediğiniz zaman tekrar çözebilirsiniz.',
-    ),
-    _FaqItem(
-      question: 'Rozetler ve başarılar nasıl kazanılır?',
-      answer: 'Belirli hedeflere ulaştığınızda rozetler otomatik olarak açılır. Örneğin: 100 soru çözmek, 7 gün üst üste çalışmak gibi.',
-    ),
-  ];
 
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    final bgColor = isDark ? const Color(0xFF0F172A) : const Color(0xFFF8FAFC);
-    final cardColor = isDark ? const Color(0xFF1E293B) : Colors.white;
-    final textColor = isDark ? Colors.white : const Color(0xFF1E293B);
-    final subtextColor = isDark ? Colors.white60 : const Color(0xFF64748B);
+
+    final faqs = <_FaqItem>[
+      const _FaqItem(
+        question: 'Uygulamayı nasıl kullanırım?',
+        answer:
+            'Ana sayfadan dersler, konular ve modüller arasında gezinebilirsiniz. Quiz çözmek, konu anlatımı okumak veya flashcard çalışmak için ilgili modülü seçin.',
+      ),
+      const _FaqItem(
+        question: 'İlerleme nasıl takip edilir?',
+        answer:
+            'Profil > İstatistikler bölümünden toplam çözülen soru sayınızı, başarı oranınızı ve ders bazlı performansınızı görebilirsiniz.',
+      ),
+      const _FaqItem(
+        question: 'Seri (Streak) sistemi nedir?',
+        answer:
+            'Her gün en az bir quiz çözdüğünüzde seriniz devam eder. Günü kaçırırsanız seri sıfırlanır. Düzenli çalışma için harika bir motivasyon kaynağı!',
+      ),
+      const _FaqItem(
+        question: 'Favorilere nasıl eklenir?',
+        answer:
+            'Quiz sırasında soru üzerindeki yıldız ikonuna tıklayarak o soruyu favorilere ekleyebilirsiniz. Favoriler sayfasından istediğiniz zaman tekrar çözebilirsiniz.',
+      ),
+      const _FaqItem(
+        question: 'Yanlış cevaplarımı nasıl görebilirim?',
+        answer:
+            'Quiz tamamlandıktan sonra sonuç ekranında yanlış cevaplarınızı inceleyebilirsiniz. Ayrıca Profil > Yanlış Cevaplar bölümünden tüm yanlışlarınızı görebilirsiniz.',
+      ),
+      const _FaqItem(
+        question: 'Bildirimler nasıl ayarlanır?',
+        answer:
+            'Ayarlar > Bildirimler bölümünden günlük hatırlatıcı ve seri uyarılarını açıp kapatabilirsiniz.',
+      ),
+      const _FaqItem(
+        question: 'Verilerim güvende mi?',
+        answer:
+            'Evet! Tüm verileriniz güvenli sunucularda şifreli olarak saklanır. Gizlilik Politikası sayfasından detaylı bilgi alabilirsiniz.',
+      ),
+      const _FaqItem(
+        question: 'Hesabımı nasıl silerim?',
+        answer:
+            'Ayarlar > Hesabı Sil seçeneğinden hesabınızı ve tüm verilerinizi kalıcı olarak silebilirsiniz. Bu işlem geri alınamaz.',
+      ),
+    ];
 
     return Scaffold(
-      backgroundColor: bgColor,
+      backgroundColor: isDark ? AppColors.darkBackground : AppColors.background,
       appBar: AppBar(
-        title: const Text('Yardım Merkezi', style: TextStyle(fontWeight: FontWeight.w600)),
-        centerTitle: true,
-        backgroundColor: Colors.transparent,
-        elevation: 0,
+        title: const Text('Yardım Merkezi'),
+        backgroundColor: isDark ? AppColors.darkSurface : AppColors.surface,
         surfaceTintColor: Colors.transparent,
-        systemOverlayStyle: isDark ? SystemUiOverlayStyle.light : SystemUiOverlayStyle.dark,
       ),
       body: ListView(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-        physics: const BouncingScrollPhysics(),
+        padding: const EdgeInsets.all(24),
         children: [
           // Header
           Container(
             padding: const EdgeInsets.all(24),
             decoration: BoxDecoration(
               gradient: LinearGradient(
-                colors: [const Color(0xFF10B981), const Color(0xFF10B981).withValues(alpha: 0.8)],
+                colors: [AppColors.primary, AppColors.primary.withValues(alpha: 0.8)],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
               ),
               borderRadius: BorderRadius.circular(16),
             ),
             child: Column(
               children: [
-                const Icon(Icons.support_agent_rounded, color: Colors.white, size: 48),
+                Icon(
+                  Icons.help_outline_rounded,
+                  color: Colors.white,
+                  size: 48,
+                ),
                 const SizedBox(height: 12),
-                const Text('Nasıl Yardımcı Olabiliriz?',
-                  style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w600),
+                const Text(
+                  'Nasıl Yardımcı Olabiliriz?',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20,
+                    fontWeight: FontWeight.w700,
+                  ),
                 ),
                 const SizedBox(height: 8),
-                Text('Sık sorulan soruları inceleyin',
-                  style: TextStyle(color: Colors.white.withValues(alpha: 0.8), fontSize: 14),
+                Text(
+                  'Sık sorulan soruları inceleyin',
+                  style: TextStyle(
+                    color: Colors.white.withValues(alpha: 0.9),
+                    fontSize: 14,
+                  ),
                 ),
               ],
             ),
-          ).animate().fadeIn(duration: 300.ms),
+          ),
           const SizedBox(height: 24),
 
-          // FAQ
-          Text('Sık Sorulan Sorular', 
-            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: textColor),
-          ),
-          const SizedBox(height: 12),
+          // FAQ List
+          ...faqs.map((faq) => _FaqTile(faq: faq, isDark: isDark)),
 
-          ...(_faqs.asMap().entries.map((e) {
-            final i = e.key;
-            final faq = e.value;
-            return _FaqTile(
-              faq: faq,
-              cardColor: cardColor,
-              textColor: textColor,
-              subtextColor: subtextColor,
-            ).animate().fadeIn(delay: (100 + i * 50).ms);
-          })),
-          const SizedBox(height: 32),
+          const SizedBox(height: 24),
+
+          // Contact Card
+          Container(
+            padding: const EdgeInsets.all(20),
+            decoration: BoxDecoration(
+              color: isDark ? AppColors.darkSurface : AppColors.surface,
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(
+                color: isDark ? AppColors.darkBorder : AppColors.border,
+              ),
+            ),
+            child: Column(
+              children: [
+                Icon(
+                  Icons.email_outlined,
+                  color: AppColors.primary,
+                  size: 32,
+                ),
+                const SizedBox(height: 12),
+                Text(
+                  'Sorunuz mu var?',
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w700,
+                    color: isDark
+                        ? AppColors.darkTextPrimary
+                        : AppColors.textPrimary,
+                  ),
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  'Bize ulaşın: destek@kpss2026.com',
+                  style: TextStyle(
+                    fontSize: 14,
+                    color: isDark
+                        ? AppColors.darkTextSecondary
+                        : AppColors.textSecondary,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
@@ -111,20 +157,20 @@ class _HelpPageState extends State<HelpPage> {
 class _FaqItem {
   final String question;
   final String answer;
-  _FaqItem({required this.question, required this.answer});
+
+  const _FaqItem({
+    required this.question,
+    required this.answer,
+  });
 }
 
 class _FaqTile extends StatefulWidget {
   final _FaqItem faq;
-  final Color cardColor;
-  final Color textColor;
-  final Color subtextColor;
+  final bool isDark;
 
   const _FaqTile({
     required this.faq,
-    required this.cardColor,
-    required this.textColor,
-    required this.subtextColor,
+    required this.isDark,
   });
 
   @override
@@ -139,36 +185,53 @@ class _FaqTileState extends State<_FaqTile> {
     return Container(
       margin: const EdgeInsets.only(bottom: 12),
       decoration: BoxDecoration(
-        color: widget.cardColor,
+        color: widget.isDark ? AppColors.darkSurface : AppColors.surface,
         borderRadius: BorderRadius.circular(16),
+        border: Border.all(
+          color: widget.isDark ? AppColors.darkBorder : AppColors.border,
+        ),
       ),
       child: Theme(
         data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
         child: ExpansionTile(
           tilePadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-          childrenPadding: const EdgeInsets.only(left: 16, right: 16, bottom: 16),
+          childrenPadding:
+              const EdgeInsets.only(left: 16, right: 16, bottom: 16),
           leading: Icon(
             _isExpanded ? Icons.help_rounded : Icons.help_outline_rounded,
-            color: const Color(0xFF6366F1),
+            color: AppColors.primary,
           ),
           title: Text(
             widget.faq.question,
             style: TextStyle(
               fontSize: 15,
-              fontWeight: FontWeight.w500,
-              color: widget.textColor,
+              fontWeight: FontWeight.w600,
+              color: widget.isDark
+                  ? AppColors.darkTextPrimary
+                  : AppColors.textPrimary,
             ),
           ),
           trailing: AnimatedRotation(
             turns: _isExpanded ? 0.5 : 0,
             duration: const Duration(milliseconds: 200),
-            child: Icon(Icons.keyboard_arrow_down_rounded, color: widget.subtextColor),
+            child: Icon(
+              Icons.keyboard_arrow_down_rounded,
+              color: widget.isDark
+                  ? AppColors.darkTextSecondary
+                  : AppColors.textSecondary,
+            ),
           ),
           onExpansionChanged: (v) => setState(() => _isExpanded = v),
           children: [
             Text(
               widget.faq.answer,
-              style: TextStyle(fontSize: 14, color: widget.subtextColor, height: 1.5),
+              style: TextStyle(
+                fontSize: 14,
+                height: 1.5,
+                color: widget.isDark
+                    ? AppColors.darkTextSecondary
+                    : AppColors.textSecondary,
+              ),
             ),
           ],
         ),

@@ -1,7 +1,6 @@
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_jailbreak_detection/flutter_jailbreak_detection.dart';
 import 'package:safe_device/safe_device.dart';
 import 'package:kpss_2026/core/utils/app_logger.dart';
 
@@ -69,11 +68,13 @@ class SecurityService {
     return results;
   }
   
-  /// Root/Jailbreak kontrolü
+  /// Root/Jailbreak kontrolü (safe_device kullanarak)
   Future<bool> _checkJailbreak() async {
     try {
-      _isJailbroken = await FlutterJailbreakDetection.jailbroken;
-      return _isJailbroken!;
+      // safe_device ile jailbreak kontrolü
+      final isJailBroken = await SafeDevice.isJailBroken;
+      _isJailbroken = isJailBroken;
+      return isJailBroken;
     } catch (e) {
       AppLogger.warning('Jailbreak check failed: $e');
       return false;

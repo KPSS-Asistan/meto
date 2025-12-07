@@ -2,6 +2,7 @@ import 'dart:io';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:timezone/timezone.dart' as tz;
 import 'package:timezone/data/latest.dart' as tz;
@@ -162,50 +163,37 @@ class NotificationService {
   
   /// Bildirim izni iste
   static Future<bool> requestPermission() async {
-    // iOS için izin iste
-    if (Platform.isIOS) {
-      final settings = await _firebaseMessaging.requestPermission(
-        alert: true,
-        badge: true,
-        sound: true,
-      );
-      
-      if (settings.authorizationStatus == AuthorizationStatus.authorized) {
-        // Local notifications için de izin iste
+    // permission_handler ile izin kontrolü
+    final status = await Permission.notification.request();
+    
+    if (status.isGranted) {
+      // iOS için ek izinler
+      if (Platform.isIOS) {
+        await _firebaseMessaging.requestPermission(
+          alert: true,
+          badge: true,
+          sound: true,
+        );
         await _localNotifications
             .resolvePlatformSpecificImplementation<IOSFlutterLocalNotificationsPlugin>()
             ?.requestPermissions(alert: true, badge: true, sound: true);
-        return true;
       }
-      return false;
+      return true;
     }
     
-    // Android 13+ için izin iste
-    if (Platform.isAndroid) {
-      final androidPlugin = _localNotifications
-          .resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>();
-      
-      final granted = await androidPlugin?.requestNotificationsPermission();
-      return granted ?? false;
-    }
-    
-    return true;
+    return false;
   }
   
   /// Bildirim izni durumu
   static Future<bool> hasPermission() async {
-    if (Platform.isIOS) {
-      final settings = await _firebaseMessaging.getNotificationSettings();
-      return settings.authorizationStatus == AuthorizationStatus.authorized;
-    }
-    
-    if (Platform.isAndroid) {
-      final androidPlugin = _localNotifications
-          .resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>();
-      return await androidPlugin?.areNotificationsEnabled() ?? false;
-    }
-    
-    return true;
+    final status = await Permission.notification.status;
+    return status.isGranted;
+  }
+  
+  /// İzin kalıcı olarak reddedilmiş mi?
+  static Future<bool> isPermissionPermanentlyDenied() async {
+    final status = await Permission.notification.status;
+    return status.isPermanentlyDenied;
   }
   
   // ═══════════════════════════════════════════════════════════════════════════

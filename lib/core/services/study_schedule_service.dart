@@ -532,67 +532,116 @@ class StudyScheduleService {
   // AKILLI TELAFİ (SMART RE-SCHEDULE)
   // ═══════════════════════════════════════════════════════════════════════════
 
-  /// Tamamlanmamış blokları sonraki günlere taşı
+  /// Tamamlanmamış blokları akıllıca sonraki günlere taşı
   static Future<int> rescheduleIncompleteBlocks(WeeklySchedule schedule) async {
     final now = DateTime.now();
     final todayIndex = (now.weekday - 1) % 7; // 0=Pazartesi
 
-    List<StudyBlock> incompleteBlocks = [];
-
-    // Bugünden önceki günlerdeki tamamlanmamış blokları topla
+    // 1. Taşınacak aday blokları belirle (Geçmiş günlerden)
+    List<_RescheduleCandidate> candidates = [];
+    
     for (int dayIndex = 0; dayIndex < todayIndex; dayIndex++) {
       final day = schedule.days[dayIndex];
       final incomplete = day.blocks.where((b) => !b.isCompleted).toList();
-      incompleteBlocks.addAll(incomplete);
-      // Orjinal günden sil
-      day.blocks.removeWhere((b) => !b.isCompleted);
+      
+      for (var block in incomplete) {
+        candidates.add(_RescheduleCandidate(originalDayIndex: dayIndex, block: block));
+      }
     }
 
-    if (incompleteBlocks.isEmpty) return 0;
+    if (candidates.isEmpty) return 0;
 
     int movedCount = 0;
+    
+    // 2. Gelecek günlere dengeli dağıt
+    // Basitçe sıradaki güne yığmak yerine, haftanın kalan günlerine yayıyoruz.
+    int targetDayIndex = todayIndex; 
+    
+    // Sonsuz döngüden kaçınmak ve sadece bu haftaya bakmak için
+    // Her adayı yerleştirmeye çalış
+    List<_RescheduleCandidate> successfullyMoved = [];
 
-    // Gelecekteki günlere dağıt
-    for (int dayIndex = todayIndex; dayIndex < 7; dayIndex++) {
-      if (incompleteBlocks.isEmpty) break;
+    for (var candidate in candidates) {
       
-      final day = schedule.days[dayIndex];
-      final maxBlocks = schedule.preferences.dailyHours * 2; // saatBaşına 2 blok
-      final availableSlots = maxBlocks - day.blocks.length;
-
-      for (int i = 0; i < availableSlots && incompleteBlocks.isNotEmpty; i++) {
-        final block = incompleteBlocks.removeAt(0);
+      // Bugün dahil haftanın sonuna kadar dene
+      for (int i = 0; i < (7 - todayIndex); i++) {
+        // Round-robin dağıtım için modüler aritmetik
+        // Örnek: Bugün Çarşamba (2). Blok 1 -> Çarşamba, Blok 2 -> Perşembe, Blok 3 -> Cuma...
+        int currentTryDayIndex = todayIndex + ((targetDayIndex - todayIndex) % (7 - todayIndex));
         
-        // Yeni saat hesapla (günün son bloğundan sonra)
-        int newHour = schedule.preferences.startHour;
-        if (day.blocks.isNotEmpty) {
-          final lastBlock = day.blocks.last;
-          newHour = lastBlock.startHour + 1;
-          if (newHour >= schedule.preferences.endHour) continue;
+        final day = schedule.days[currentTryDayIndex];
+        final maxBlocks = schedule.preferences.dailyHours * 2; // Hedef kapasite (esnetilebilir)
+        
+        // Eğer gün çok doluysa (kapasitenin %120'si) o günü pas geç
+        if (day.blocks.length >= maxBlocks + 2) {
+          targetDayIndex++;
+          continue;
         }
 
-        day.blocks.add(StudyBlock(
-          id: '${dayIndex}_reschedule_${DateTime.now().millisecondsSinceEpoch}_$movedCount',
-          lessonId: block.lessonId,
-          lessonName: block.lessonName,
-          startHour: newHour,
-          startMinute: 0,
-          durationMinutes: block.durationMinutes,
-          breakMinutes: block.breakMinutes,
-          isPriority: block.isPriority,
-          activity: block.activity,
-          isCompleted: false,
-        ));
-
-        movedCount++;
+        // Gün içindeki uygun boşluğu bul
+        int? availableHour = _findAvailableSlot(day, schedule.preferences);
+        
+        if (availableHour != null) {
+          // Bloğu yeni güne ekle
+          day.blocks.add(StudyBlock(
+            id: '${currentTryDayIndex}_reschedule_${DateTime.now().millisecondsSinceEpoch}_$movedCount',
+            lessonId: candidate.block.lessonId,
+            lessonName: candidate.block.lessonName,
+            startHour: availableHour,
+            startMinute: 0,
+            durationMinutes: candidate.block.durationMinutes,
+            breakMinutes: candidate.block.breakMinutes,
+            isPriority: candidate.block.isPriority,
+            activity: candidate.block.activity,
+            isCompleted: false,
+          ));
+          
+          // Saate göre sırala
+          day.blocks.sort((a, b) => (a.startHour * 60 + a.startMinute).compareTo(b.startHour * 60 + b.startMinute));
+          
+          successfullyMoved.add(candidate);
+          movedCount++;
+          
+          // Bir sonraki blok için bir sonraki günü hedefle (Dengeli dağıtım)
+          targetDayIndex++;
+          break; // Bu blok yerleşti, diğerine geç
+        } else {
+           // Bu günde yer yok, sonraki güne bakacağız
+           targetDayIndex++; 
+        }
       }
+    }
 
-      // Saate göre sırala
-      day.blocks.sort((a, b) => (a.startHour * 60 + a.startMinute).compareTo(b.startHour * 60 + b.startMinute));
+    // 3. Başarıyla taşınanları eski yerlerinden sil
+    for (var moved in successfullyMoved) {
+      final day = schedule.days[moved.originalDayIndex];
+      day.blocks.remove(moved.block);
     }
 
     await saveSchedule(schedule);
     return movedCount;
+  }
+
+  /// Bir gün içindeki boş saati bulur (Basit mantık: Dolu olmayan ilk saat)
+  static int? _findAvailableSlot(DailySchedule day, StudyPreferences prefs) {
+    // Mevcut dolu saatleri set'e at
+    final occupiedHours = day.blocks.map((b) => b.startHour).toSet();
+    
+    // Tercih edilen aralıktaki boş saatlere bak
+    for (int hour = prefs.startHour; hour < prefs.endHour; hour++) {
+      if (!occupiedHours.contains(hour)) {
+        return hour;
+      }
+    }
+    
+    // Eğer tercih edilen aralık doluysa, esnek saatlere bak (Akşam 24:00'e kadar)
+    for (int hour = prefs.endHour; hour < 23; hour++) {
+      if (!occupiedHours.contains(hour)) {
+         return hour;
+      }
+    }
+
+    return null;
   }
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -794,9 +843,7 @@ class StudyScheduleService {
   }
 }
 
-// ═══════════════════════════════════════════════════════════════════════════
-// EK MODELLER
-// ═══════════════════════════════════════════════════════════════════════════
+
 
 /// Şablon modeli
 class ScheduleTemplate {
@@ -869,4 +916,10 @@ class CalendarEvent {
     required this.startDate,
     required this.endDate,
   });
+}
+
+class _RescheduleCandidate {
+  final int originalDayIndex;
+  final StudyBlock block;
+  _RescheduleCandidate({required this.originalDayIndex, required this.block});
 }

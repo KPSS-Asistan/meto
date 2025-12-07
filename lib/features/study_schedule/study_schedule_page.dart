@@ -135,63 +135,73 @@ class _StudySchedulePageState extends State<StudySchedulePage> {
 
   Widget _buildEmptyState(bool isDark) {
     return Center(
-      child: Padding(
-        padding: const EdgeInsets.all(32),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Container(
-              padding: const EdgeInsets.all(20),
-              decoration: BoxDecoration(
-                color: _primaryColor.withValues(alpha: 0.1),
-                borderRadius: BorderRadius.circular(20),
-              ),
-              child: Icon(Icons.calendar_month_rounded, size: 56, color: _primaryColor),
-            ).animate().scale(duration: 400.ms, curve: Curves.easeOutBack),
-            const SizedBox(height: 28),
-            Text(
-              'Pomodoro Ders Programı',
-              style: TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.bold,
-                color: isDark ? Colors.white : const Color(0xFF1E293B),
-              ),
-            ).animate().fadeIn(delay: 100.ms),
-            const SizedBox(height: 10),
-            Text(
-              '25 dakika çalışma + 5 dakika mola\nBilimsel olarak kanıtlanmış en etkili yöntem',
-              style: TextStyle(
-                fontSize: 14,
-                color: isDark ? Colors.white60 : const Color(0xFF64748B),
-                height: 1.5,
-              ),
-              textAlign: TextAlign.center,
-            ).animate().fadeIn(delay: 200.ms),
-            const SizedBox(height: 36),
-            ElevatedButton(
-              onPressed: _startWizard,
-              style: ElevatedButton.styleFrom(
-                backgroundColor: _primaryColor,
-                foregroundColor: Colors.white,
-                padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
-                elevation: 0,
-              ),
-              child: const Text('Programımı Oluştur', style: TextStyle(fontWeight: FontWeight.w600)),
-            ).animate().fadeIn(delay: 300.ms).slideY(begin: 0.1, end: 0),
-            const SizedBox(height: 14),
-            OutlinedButton.icon(
-              onPressed: _showTemplatesSheet,
-              icon: const Icon(Icons.flash_on_rounded, size: 18),
-              label: const Text('Hazır Şablon Kullan'),
-              style: OutlinedButton.styleFrom(
-                foregroundColor: _successColor,
-                side: BorderSide(color: _successColor.withValues(alpha: 0.5)),
-                padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-              ),
-            ).animate().fadeIn(delay: 400.ms).slideY(begin: 0.1, end: 0),
-          ],
+      child: ConstrainedBox(
+        constraints: const BoxConstraints(maxWidth: 400),
+        child: Padding(
+          padding: const EdgeInsets.all(32),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                padding: const EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                  color: _primaryColor.withValues(alpha: 0.1),
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: Icon(Icons.calendar_month_rounded, size: 56, color: _primaryColor),
+              ).animate().scale(duration: 400.ms, curve: Curves.easeOutBack),
+              const SizedBox(height: 28),
+              Text(
+                'Pomodoro Ders Programı',
+                style: TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                  color: isDark ? Colors.white : const Color(0xFF1E293B),
+                ),
+                textAlign: TextAlign.center,
+              ).animate().fadeIn(delay: 100.ms),
+              const SizedBox(height: 10),
+              Text(
+                '25 dakika çalışma + 5 dakika mola\nBilimsel olarak kanıtlanmış en etkili yöntem',
+                style: TextStyle(
+                  fontSize: 14,
+                  color: isDark ? Colors.white60 : const Color(0xFF64748B),
+                  height: 1.5,
+                ),
+                textAlign: TextAlign.center,
+              ).animate().fadeIn(delay: 200.ms),
+              const SizedBox(height: 36),
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: _startWizard,
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: _primaryColor,
+                    foregroundColor: Colors.white,
+                    padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+                    elevation: 0,
+                  ),
+                  child: const Text('Programımı Oluştur', style: TextStyle(fontWeight: FontWeight.w600)),
+                ),
+              ).animate().fadeIn(delay: 300.ms).slideY(begin: 0.1, end: 0),
+              const SizedBox(height: 14),
+              SizedBox(
+                width: double.infinity,
+                child: OutlinedButton.icon(
+                  onPressed: _showTemplatesSheet,
+                  icon: const Icon(Icons.flash_on_rounded, size: 18),
+                  label: const Text('Hazır Şablon Kullan'),
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: _successColor,
+                    side: BorderSide(color: _successColor.withValues(alpha: 0.5)),
+                    padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                  ),
+                ),
+              ).animate().fadeIn(delay: 400.ms).slideY(begin: 0.1, end: 0),
+            ],
+          ),
         ),
       ),
     );
@@ -202,73 +212,78 @@ class _StudySchedulePageState extends State<StudySchedulePage> {
     final textColor = isDark ? Colors.white : const Color(0xFF1E293B);
     final subtextColor = isDark ? Colors.white60 : const Color(0xFF64748B);
 
-    return Column(
-      children: [
-        // Progress
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-          child: Row(
-            children: List.generate(4, (index) {
-              final isActive = index <= _currentStep;
-              return Expanded(
-                child: Container(
-                  height: 4,
-                  margin: EdgeInsets.only(right: index < 3 ? 8 : 0),
-                  decoration: BoxDecoration(
-                    color: isActive ? _primaryColor : subtextColor.withValues(alpha: 0.2),
-                    borderRadius: BorderRadius.circular(2),
-                  ),
-                ),
-              );
-            }),
-          ),
-        ),
-
-        // Soru
-        Expanded(
-          child: AnimatedSwitcher(
-            duration: const Duration(milliseconds: 250),
-            child: _buildQuestion(_currentStep, cardColor, textColor, subtextColor, isDark),
-          ),
-        ),
-
-        // Butonlar
-        Padding(
-          padding: const EdgeInsets.all(20),
-          child: Row(
-            children: [
-              if (_currentStep > 0)
-                OutlinedButton(
-                  onPressed: _prevStep,
-                  style: OutlinedButton.styleFrom(
-                    side: BorderSide(color: subtextColor.withValues(alpha: 0.3)),
-                    padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                  ),
-                  child: Text('Geri', style: TextStyle(color: textColor)),
-                ),
-              if (_currentStep > 0) const SizedBox(width: 12),
-              Expanded(
-                child: ElevatedButton(
-                  onPressed: _canProceed() ? _nextStep : null,
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: _primaryColor,
-                    foregroundColor: Colors.white,
-                    disabledBackgroundColor: _primaryColor.withValues(alpha: 0.3),
-                    padding: const EdgeInsets.symmetric(vertical: 16),
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                    elevation: 0,
-                  ),
-                  child: Text(
-                    _currentStep < 3 ? 'Devam' : 'Oluştur',
-                    style: const TextStyle(fontWeight: FontWeight.w600),
-                  ),
-                ),
+    return Center(
+      child: ConstrainedBox(
+        constraints: const BoxConstraints(maxWidth: 600),
+        child: Column(
+          children: [
+            // Progress
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+              child: Row(
+                children: List.generate(4, (index) {
+                  final isActive = index <= _currentStep;
+                  return Expanded(
+                    child: Container(
+                      height: 4,
+                      margin: EdgeInsets.only(right: index < 3 ? 8 : 0),
+                      decoration: BoxDecoration(
+                        color: isActive ? _primaryColor : subtextColor.withValues(alpha: 0.2),
+                        borderRadius: BorderRadius.circular(2),
+                      ),
+                    ),
+                  );
+                }),
               ),
-            ],
-          ),
+            ),
+
+            // Soru
+            Expanded(
+              child: AnimatedSwitcher(
+                duration: const Duration(milliseconds: 250),
+                child: _buildQuestion(_currentStep, cardColor, textColor, subtextColor, isDark),
+              ),
+            ),
+
+            // Butonlar
+            Padding(
+              padding: const EdgeInsets.all(20),
+              child: Row(
+                children: [
+                  if (_currentStep > 0)
+                    OutlinedButton(
+                      onPressed: _prevStep,
+                      style: OutlinedButton.styleFrom(
+                        side: BorderSide(color: subtextColor.withValues(alpha: 0.3)),
+                        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                      ),
+                      child: Text('Geri', style: TextStyle(color: textColor)),
+                    ),
+                  if (_currentStep > 0) const SizedBox(width: 12),
+                  Expanded(
+                    child: ElevatedButton(
+                      onPressed: _canProceed() ? _nextStep : null,
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: _primaryColor,
+                        foregroundColor: Colors.white,
+                        disabledBackgroundColor: _primaryColor.withValues(alpha: 0.3),
+                        padding: const EdgeInsets.symmetric(vertical: 16),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                        elevation: 0,
+                      ),
+                      child: Text(
+                        _currentStep < 3 ? 'Devam' : 'Oluştur',
+                        style: const TextStyle(fontWeight: FontWeight.w600),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
         ),
-      ],
+      ),
     );
   }
 
@@ -733,41 +748,46 @@ class _StudySchedulePageState extends State<StudySchedulePage> {
     // Bugünün günü
     final today = DateTime.now().weekday - 1; // 0=Pazartesi
 
-    return ListView(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-      physics: const BouncingScrollPhysics(),
-      children: [
-        // Pomodoro bilgi kartı
-        _buildInfoCard(schedule, cardColor, textColor, subtextColor),
-        const SizedBox(height: 16),
+    return Center(
+      child: ConstrainedBox(
+        constraints: const BoxConstraints(maxWidth: 600),
+        child: ListView(
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+          physics: const BouncingScrollPhysics(),
+          children: [
+            // Pomodoro bilgi kartı
+            _buildInfoCard(schedule, cardColor, textColor, subtextColor),
+            const SizedBox(height: 16),
 
-        // İlerleme
-        _buildProgressCard(schedule, cardColor, textColor, subtextColor),
-        const SizedBox(height: 20),
+            // İlerleme
+            _buildProgressCard(schedule, cardColor, textColor, subtextColor),
+            const SizedBox(height: 20),
 
-        // Haftalık mini görünüm
-        _buildWeekMini(schedule, today, cardColor, textColor, subtextColor, isDark),
-        const SizedBox(height: 20),
+            // Haftalık mini görünüm
+            _buildWeekMini(schedule, today, cardColor, textColor, subtextColor, isDark),
+            const SizedBox(height: 24),
 
-        // Günlük to-do listeler
-        ...schedule.days.map((day) {
-          if (day.blocks.isEmpty) return const SizedBox.shrink();
-          return _buildDayTodoList(day, day.dayIndex == today, cardColor, textColor, subtextColor, isDark);
-        }),
+            // Günlük to-do listeler
+            ...schedule.days.map((day) {
+              if (day.blocks.isEmpty) return const SizedBox.shrink();
+              return _buildDayTodoList(day, day.dayIndex == today, cardColor, textColor, subtextColor, isDark);
+            }),
 
-        const SizedBox(height: 20),
-        OutlinedButton(
-          onPressed: _resetSchedule,
-          style: OutlinedButton.styleFrom(
-            foregroundColor: Colors.red.shade400,
-            side: BorderSide(color: Colors.red.shade400.withValues(alpha: 0.5)),
-            padding: const EdgeInsets.symmetric(vertical: 14),
-            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-          ),
-          child: const Text('Programı Sıfırla'),
+            const SizedBox(height: 24),
+            OutlinedButton(
+              onPressed: _resetSchedule,
+              style: OutlinedButton.styleFrom(
+                foregroundColor: Colors.red.shade400,
+                side: BorderSide(color: Colors.red.shade400.withValues(alpha: 0.5)),
+                padding: const EdgeInsets.symmetric(vertical: 14),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+              ),
+              child: const Text('Programı Sıfırla'),
+            ),
+            const SizedBox(height: 40),
+          ],
         ),
-        const SizedBox(height: 32),
-      ],
+      ),
     );
   }
 

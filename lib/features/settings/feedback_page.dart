@@ -1,5 +1,7 @@
+import 'dart:io';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
 /// Geri Bildirim Sayfası - Modern ve Minimalist
@@ -31,24 +33,57 @@ class _FeedbackPageState extends State<FeedbackPage> {
   }
 
   Future<void> _sendFeedback() async {
-    if (_controller.text.trim().isEmpty) return;
+    final message = _controller.text.trim();
+    if (message.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Lütfen mesajınızı yazın'),
+          backgroundColor: Color(0xFFEF4444),
+        ),
+      );
+      return;
+    }
 
     setState(() => _isSending = true);
     
-    // Simulate sending
-    await Future.delayed(const Duration(seconds: 1));
-    
-    if (mounted) {
-      setState(() => _isSending = false);
-      _controller.clear();
+    try {
+      // Firebase'e kaydet
+      final user = FirebaseAuth.instance.currentUser;
+      final typeInfo = _types.firstWhere((t) => t['id'] == _selectedType);
       
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Geri bildiriminiz alındı. Teşekkürler! 🙏'),
-          backgroundColor: Color(0xFF10B981),
-        ),
-      );
-      Navigator.pop(context);
+      await FirebaseFirestore.instance.collection('feedbacks').add({
+        'message': message,
+        'type': _selectedType,
+        'typeName': typeInfo['title'],
+        'userId': user?.uid,
+        'userEmail': user?.email,
+        'createdAt': FieldValue.serverTimestamp(),
+        'status': 'new', // new, read, resolved
+        'platform': Platform.isAndroid ? 'android' : 'ios'
+      });
+      
+      if (mounted) {
+        setState(() => _isSending = false);
+        _controller.clear();
+        
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('Geri bildiriminiz alındı. Teşekkürler! 🙏'),
+            backgroundColor: Color(0xFF10B981),
+          ),
+        );
+        Navigator.pop(context);
+      }
+    } catch (e) {
+      if (mounted) {
+        setState(() => _isSending = false);
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Hata oluştu: $e'),
+            backgroundColor: const Color(0xFFEF4444),
+          ),
+        );
+      }
     }
   }
 
@@ -68,7 +103,6 @@ class _FeedbackPageState extends State<FeedbackPage> {
         backgroundColor: Colors.transparent,
         elevation: 0,
         surfaceTintColor: Colors.transparent,
-        systemOverlayStyle: isDark ? SystemUiOverlayStyle.light : SystemUiOverlayStyle.dark,
       ),
       body: ListView(
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),

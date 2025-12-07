@@ -78,12 +78,10 @@ dependencies:
   flutter_local_notifications: ^18.0.1
   firebase_messaging: ^15.1.6
   timezone: ^0.10.0
+  permission_handler: ^11.3.1  # Permission management for notifications
   
   # Security - Güvenli veri saklama
   flutter_secure_storage: ^9.2.4
-  
-  # Security - Root/Jailbreak Detection
-  flutter_jailbreak_detection: ^1.10.0
   
   # Security - Tamper Detection
   safe_device: ^1.1.7
