@@ -1,0 +1,82 @@
+[
+    {
+        "id": "tarih_001",
+        "topicId": "xQWHl1hBYAKM96X4deR8",
+        "subtopicId": "xx-yuzyil-baslarinda-dunya",
+        "subtopic": "XX. Yüzyıl Başlarında Dünya",
+        "q": "Sovyet Rusya'nın Türkistan'ı işgaline karşı başlayan ve 'Basmacı Hareketi' olarak adlandırılan millî mücadeleye katılarak bu davaya liderlik eden, 1922 yılında Tacikistan'da girdiği bir çatışmada şehit olan ünlü komutan ve devlet adamı aşağıdakilerden hangisidir?",
+        "o": [
+            "Zeki Velidi Togan",
+            "İsmail Gaspıralı",
+            "Enver Paşa",
+            "Yusuf Akçura",
+            "Sultan Galiyev"
+        ],
+        "a": 2,
+        "e": "Basmacı Hareketi, Türkistan Türklerinin Rus işgaline karşı başlattığı bağımsızlık mücadelesidir. Osmanlı Devleti'nin eski Harbiye Nazırı Enver Paşa, bu harekete katılarak liderlik yapmış ve 1922 yılında Ruslarla girdiği çatışmada şehit olmuştur."
+    },
+    {
+        "id": "tarih_002",
+        "topicId": "xQWHl1hBYAKM96X4deR8",
+        "subtopicId": "ii-dunya-savasi",
+        "subtopic": "II. Dünya Savaşı",
+        "q": "II. Dünya Savaşı sürecinde Türkiye'nin savaşa Müttefik Devletler yanında katılması konusunu görüşmek üzere; İsmet İnönü, Winston Churchill ve Franklin D. Roosevelt'in bir araya geldiği konferans aşağıdakilerden hangisidir?",
+        "o": [
+            "Kazablanka Konferansı",
+            "II. Kahire Konferansı",
+            "Yalta Konferansı",
+            "Potsdam Konferansı",
+            "Tahran Konferansı"
+        ],
+        "a": 1,
+        "e": "1943 yılında düzenlenen II. Kahire Konferansı'nda Türkiye Cumhurbaşkanı İsmet İnönü, ABD Başkanı Roosevelt ve İngiltere Başbakanı Churchill ile bir araya gelmiş ve Türkiye'nin savaşa katılması konusu görüşülmüştür."
+    },
+    {
+        "id": "tarih_003",
+        "topicId": "xQWHl1hBYAKM96X4deR8",
+        "subtopicId": "soguk-savas-donemi",
+        "subtopic": "Soğuk Savaş Dönemi",
+        "q": "Soğuk Savaş döneminde Batı Bloku (ABD önderliğinde) tarafından SSCB ve komünizm tehdidine karşı oluşturulan örgütlenmeler arasında aşağıdakilerden hangisi yer almaz?",
+        "o": [
+            "NATO",
+            "Avrupa Konseyi",
+            "SEATO",
+            "CENTO",
+            "COMECON"
+        ],
+        "a": 4,
+        "e": "NATO, Avrupa Konseyi, SEATO ve CENTO Batı Bloku'nun siyasi veya askeri örgütlenmeleridir. Ancak COMECON (Karşılıklı Ekonomik Yardımlaşma Konseyi), Doğu Bloku ülkeleri arasında ekonomik iş birliğini sağlamak amacıyla SSCB önderliğinde kurulmuştur."
+    },
+    {
+        "id": "tarih_004",
+        "topicId": "xQWHl1hBYAKM96X4deR8",
+        "subtopicId": "yumusama-donemi",
+        "subtopic": "Yumuşama Dönemi ve Sonrası",
+        "q": "Türkiye'nin garantörlük hakkını kullanarak gerçekleştirdiği 1974 Kıbrıs Barış Harekatı sırasında Türkiye Cumhuriyeti Başbakanı aşağıdakilerden hangisidir?",
+        "o": [
+            "Süleyman Demirel",
+            "Necmettin Erbakan",
+            "Bülent Ecevit",
+            "Turgut Özal",
+            "Nihat Erim"
+        ],
+        "a": 2,
+        "e": "1974 Kıbrıs Barış Harekatı sırasında iktidarda CHP-MSP koalisyon hükümeti bulunmaktaydı ve Başbakan Bülent Ecevit'ti. Necmettin Erbakan ise Başbakan Yardımcısı olarak görev yapmaktaydı."
+    },
+    {
+        "id": "tarih_005",
+        "topicId": "xQWHl1hBYAKM96X4deR8",
+        "subtopicId": "kuresellesen-dunya",
+        "subtopic": "Küreselleşen Dünya",
+        "q": "Bosna-Hersek'te yaşanan iç savaşı sona erdiren, Aliya İzzetbegoviç'in 'Bu adil bir barış olmayabilir, fakat süren bir savaştan daha iyidir.' sözleriyle imzaladığı antlaşma aşağıdakilerden hangisidir?",
+        "o": [
+            "Dayton Antlaşması",
+            "Maastricht Antlaşması",
+            "Helsinki Nihai Senedi",
+            "Kyoto Protokolü",
+            "Camp David Antlaşması"
+        ],
+        "a": 0,
+        "e": "Bosna Savaşı, 1995 yılında ABD'nin Ohio eyaletinde imzalanan Dayton Antlaşması ile sona ermiştir. Bu antlaşma ile Bosna-Hersek'in toprak bütünlüğü korunmuş ve savaş durdurulmuştur."
+    }
+]
