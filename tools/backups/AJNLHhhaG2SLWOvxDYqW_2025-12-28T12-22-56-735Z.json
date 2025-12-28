@@ -1,0 +1,322 @@
+[
+  {
+    "id": "turkce_001",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "yakin-anlam",
+    "subtopic": "Yakın Anlamlı Cümleler",
+    "q": "“Bir yazarın büyüklüğü, yazdıklarının ne kadar çok kişi tarafından okunduğuyla değil, okuyanların zihninde ne kadar derin izler bıraktığıyla ölçülür.”\n\nBu cümleye anlamca en yakın cümle aşağıdakilerden hangisidir?",
+    "o": [
+      "Çok satan kitaplar genellikle edebi değeri düşük eserlerdir.",
+      "Nitelikli bir eser, okur sayısından ziyade okurdaki etkisiyle değer kazanır.",
+      "Yazarların kalıcılığı yakalaması, evrensel konuları işlemesine bağlıdır.",
+      "Okuyucuyu etkilemek isteyen yazar, sade ve anlaşılır bir dil kullanmalıdır.",
+      "Popüler kültürün etkisiyle yazılan eserler, zamanla unutulmaya mahkûmdur."
+    ],
+    "a": 1,
+    "e": "Soru kökündeki cümlede, yazarın büyüklüğünün (değerinin) nicelikle (sayı) değil, nitelikle (etki/iz bırakma) ilgili olduğu vurgulanmıştır. B seçeneğindeki 'okur sayısından ziyade okurdaki etkisiyle değer kazanır' ifadesi bu düşünceyi tam olarak karşılamaktadır."
+  },
+  {
+    "id": "turkce_002",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "cumle-tamamlama",
+    "subtopic": "Cümle Tamamlama",
+    "q": "Eleştirmen, eseri değerlendirirken yazarın kişiliğine değil, metnin kendisine odaklanmalıdır; aksi takdirde ----.",
+    "o": [
+      "nesnellikten uzaklaşarak eserin gerçek değerini ortaya koyamaz",
+      "yazarın hayat hikayesini bilmek eseri anlamayı kolaylaştırır",
+      "okuyucular eleştirmenin görüşlerine daha fazla önem verir",
+      "eserdeki üslup özelliklerini daha iyi analiz edebilir",
+      "edebiyat dünyasında kalıcı bir yer edinebilir"
+    ],
+    "a": 0,
+    "e": "Cümlede eleştirmenin yapması gereken (metne odaklanmak) ve yapmaması gereken (yazarın kişiliğine odaklanmak) belirtilmiştir. 'Aksi takdirde' ifadesi, bu kurala uyulmadığında ortaya çıkacak olumsuz sonucu işaret eder. Bu da nesnelliğin kaybolmasıdır."
+  },
+  {
+    "id": "turkce_003",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "kesin-yargi",
+    "subtopic": "Cümleden Çıkarılacak Kesin Yargı",
+    "q": "Nobel Edebiyat Ödülü’nü 2006 yılında kazanan Orhan Pamuk, bu ödülü alan ilk ve tek Türk yazardır.\n\nBu cümleden kesin olarak çıkarılabilecek yargı aşağıdakilerden hangisidir?",
+    "o": [
+      "Orhan Pamuk, 2006 yılından önce de Nobel’e aday gösterilmiştir.",
+      "2006 yılından sonra hiçbir Türk yazar uluslararası ödül almamıştır.",
+      "Nobel Edebiyat Ödülü her yıl düzenli olarak verilmektedir.",
+      "Orhan Pamuk dışında Nobel Edebiyat Ödülü'nü kazanan Türk yazar yoktur.",
+      "Orhan Pamuk’un en başarılı eseri 2006 yılında yayımlanmıştır."
+    ],
+    "a": 3,
+    "e": "Cümlede Orhan Pamuk'un bu ödülü alan 'ilk ve tek' Türk yazar olduğu belirtilmiştir. Bu ifade, ondan başka (öncesinde veya sonrasında) bu ödülü alan bir Türk yazarın olmadığını kesin olarak gösterir."
+  },
+  {
+    "id": "turkce_004",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "neden-sonuc-amac-sonuc",
+    "subtopic": "Neden-Sonuç / Amaç-Sonuç İlişkisi",
+    "q": "Aşağıdaki cümlelerin hangisinde 'amaç-sonuç' ilişkisi vardır?",
+    "o": [
+      "Hava aniden soğuduğu için piknik planımızı iptal ettik.",
+      "Düzenli çalışmadığından sınavlarda istediği başarıyı yakalayamadı.",
+      "Yazar, eserlerinde toplumsal sorunları dile getirmek üzere kalemini kullanır.",
+      "Gözleri iyi görmediğinden ön sıraya oturmak istedi.",
+      "Yağmurun yağmasıyla trafik kilitlendi."
+    ],
+    "a": 2,
+    "e": "A, B, D ve E seçeneklerinde eylemin gerçekleşme nedeni (sebebi) bellidir (Neden-Sonuç). Ancak C seçeneğinde yazarın kalemini kullanmasının bir 'hedefi/amacı' (toplumsal sorunları dile getirmek) vardır. 'Üzere' yerine 'amacıyla' getirilebildiği için Amaç-Sonuç cümlesidir."
+  },
+  {
+    "id": "turkce_005",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "uslup-icerik",
+    "subtopic": "Üslup ve İçerik",
+    "q": "(I) Roman, Kurtuluş Savaşı yıllarındaki Anadolu insanının mücadelesini anlatıyor. (II) Yazar, olayları aktarırken yöresel ağızlara sıkça başvurmuş. (III) Köy hayatının zorlukları ve cephe gerisindeki fedakarlıklar gözler önüne seriliyor. (IV) Eserdeki kahramanlar, gerçek hayattan alınmışçasına canlı duruyor. (V) Yazarın kısa ve devrik cümlelerle kurduğu anlatım, okumayı akıcı hale getiriyor.\n\nBu parçadaki numaralanmış cümlelerden hangileri eserin 'üslubu' ile ilgilidir?",
+    "o": [
+      "I ve III",
+      "II ve V",
+      "III ve IV",
+      "I ve IV",
+      "II ve III"
+    ],
+    "a": 1,
+    "e": "İçerik 'ne anlatıldığı', üslup ise 'nasıl anlatıldığı' ile ilgilidir. I ve III içeriktir. II (yöresel ağız kullanımı) ve V (kısa, devrik cümleler, akıcılık) yazarın dili kullanma biçimi yani üslubu ile ilgilidir."
+  },
+  {
+    "id": "turkce_006",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "kavramlar",
+    "subtopic": "Cümlede Kavramlar (Varsayım)",
+    "q": "Aşağıdaki cümlelerin hangisinde 'varsayım' anlamı vardır?",
+    "o": [
+      "Belki o da bizimle gelmek ister.",
+      "Tut ki sınavı kazandın, peki sonra ne yapacaksın?",
+      "Keşke bu evi daha önce görseydim.",
+      "Sanırım bu proje zamanında bitmeyecek.",
+      "O, bu saatlerde genellikle uyur."
+    ],
+    "a": 1,
+    "e": "Varsayım, gerçekleşmemiş bir durumu geçici olarak gerçekleşmiş kabul etmektir. 'Tut ki', 'diyelim ki', 'farz edelim' gibi ifadelerle sağlanır. B seçeneğinde sınav kazanılmamış olsa bile kazanılmış kabul edilerek bir durum sorgulanmaktadır."
+  },
+  {
+    "id": "turkce_007",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "oznel-nesnel",
+    "subtopic": "Öznel ve Nesnel Yargılar",
+    "q": "Aşağıdaki cümlelerin hangisi, kanıtlanabilirlik açısından diğerlerinden farklıdır?",
+    "o": [
+      "Yazarın son romanı üç bölümden oluşuyor.",
+      "Film, geçen hafta vizyona girdi.",
+      "Şair, şiirlerinde hece ölçüsünü kullanmıştır.",
+      "Eserin etkileyici dili okuyucuyu hemen sarıyor.",
+      "Türkiye'nin başkenti Ankara'dır."
+    ],
+    "a": 3,
+    "e": "A, B, C ve E seçenekleri kişisel görüş içermeyen, kanıtlanabilir (nesnel) yargılardır. D seçeneğindeki 'etkileyici dil' ve 'sarması' ifadeleri kişisel beğeni içerdiği için özneldir."
+  },
+  {
+    "id": "turkce_008",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "ortulu-anlam",
+    "subtopic": "Örtülü Anlam",
+    "q": "“Toplantıya Ahmet Bey de katıldı.”\n\nBu cümleden çıkarılabilecek örtülü anlam aşağıdakilerden hangisidir?",
+    "o": [
+      "Toplantı çok kalabalıktı.",
+      "Ahmet Bey toplantıya geç kaldı.",
+      "Toplantıya Ahmet Bey dışında katılanlar da oldu.",
+      "Ahmet Bey toplantıları hiç kaçırmaz.",
+      "Toplantı Ahmet Bey için düzenlendi."
+    ],
+    "a": 2,
+    "e": "Cümledeki 'de' bağlacı, eylemi gerçekleştiren başka kişilerin de olduğu anlamını katar. Ahmet Bey'in katılması, başkalarının da katıldığı bilgisini örtülü olarak verir."
+  },
+  {
+    "id": "turkce_009",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "celisen-cumleler",
+    "subtopic": "Anlamca Çelişen Cümleler",
+    "q": "I. Sanatçı, eserini oluştururken kendi duygularından sıyrılıp dış dünyayı bir ayna gibi yansıtmalıdır.\nII. Gerçek sanat, dış dünyayı olduğu gibi değil, sanatçının iç dünyasında yoğurarak yeniden biçimlendirmesiyle oluşur.\nIII. Edebiyat, toplumun sorunlarına çözüm arayan bir araçtır.\nIV. Sanatçı, çağının tanığı olmak zorundadır.\n\nYukarıdaki numaralanmış cümlelerden hangileri anlamca birbiriyle çelişmektedir?",
+    "o": [
+      "I ve II",
+      "II ve III",
+      "I ve IV",
+      "III ve IV",
+      "I ve III"
+    ],
+    "a": 0,
+    "e": "I. cümlede sanatçının duygularını katmadan nesnel bir yansıtıcı olması gerektiği savunulurken, II. cümlede sanatın, dış dünyanın sanatçının iç dünyasında (duygularıyla) değiştirilmesiyle oluştuğu savunulmaktadır. Bu iki görüş birbirine zıttır."
+  },
+  {
+    "id": "turkce_010",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "cumle-olusturma",
+    "subtopic": "Cümle Oluşturma",
+    "q": "1. başarının\n2. anahtarı\n3. pes etmeden\n4. çalışmaktır\n5. sürekli\n\nNumaralanmış sözcüklerle anlamlı ve kurallı bir cümle oluşturulduğunda sıralama nasıl olur?",
+    "o": [
+      "1 - 2 - 5 - 3 - 4",
+      "1 - 5 - 3 - 2 - 4",
+      "5 - 3 - 4 - 1 - 2",
+      "1 - 2 - 3 - 5 - 4",
+      "3 - 5 - 4 - 1 - 2"
+    ],
+    "a": 0,
+    "e": "Sözcükler anlamlı bir bütün oluşturacak şekilde sıralandığında: 'Başarının (1) anahtarı (2), sürekli (5) pes etmeden (3) çalışmaktır (4).' cümlesi ortaya çıkar. Doğru sıralama 1-2-5-3-4 şeklindedir."
+  },
+  {
+    "id": "turkce_011",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "duygusal-kavramlar",
+    "subtopic": "Hayıflanma ve Pişmanlık",
+    "q": "Aşağıdaki cümlelerin hangisinde 'hayıflanma' anlamı vardır?",
+    "o": [
+      "Keşke o sert sözleri söylemeseydim.",
+      "Gençliğimde bir enstrüman çalmayı öğrenseydim ne güzel olurdu.",
+      "Bu arabayı aldığım güne lanet olsun.",
+      "Sınavdan düşük alınca çok üzüldü.",
+      "Oraya gitmekle hata ettik."
+    ],
+    "a": 1,
+    "e": "Pişmanlık yapılan bir işten duyulan üzüntüdür (A, C, E). Hayıflanma ise yapılmayan bir işten dolayı duyulan üzüntüdür. B seçeneğinde kişi, gençliğinde bir enstrüman çalmayı öğrenmediği (yapmadığı) için üzülmektedir."
+  },
+  {
+    "id": "turkce_012",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "tanim-cumlesi",
+    "subtopic": "Tanım Cümlesi",
+    "q": "Aşağıdaki cümlelerin hangisi bir 'tanım' cümlesidir?",
+    "o": [
+      "Şiir, duyguların estetik bir dille ifade edilmesidir.",
+      "Roman, hikayeye göre daha uzun ve detaylıdır.",
+      "Tiyatro, insanlara yaşamı farklı bir pencereden sunar.",
+      "Eleştiri, yazarları geliştiren en önemli unsurdur.",
+      "Deneme, yazarın herhangi bir konudaki görüşlerini içerir."
+    ],
+    "a": 0,
+    "e": "Tanım cümlesi 'Bu nedir?' sorusuna cevap verir. A seçeneğine 'Şiir nedir?' diye sorulduğunda 'Duyguların estetik bir dille ifade edilmesidir' cevabı alınabilir. Diğer seçenekler açıklama veya karşılaştırma niteliğindedir."
+  },
+  {
+    "id": "turkce_013",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "asamali-durum",
+    "subtopic": "Aşamalı Durum Bildiren Cümleler",
+    "q": "Aşağıdaki cümlelerin hangisinde 'aşamalı bir durum' söz konusudur?",
+    "o": [
+      "Sabahları erken kalkmayı alışkanlık haline getirdi.",
+      "Hasta, günden güne iyileşiyordu.",
+      "Kitabı bir solukta okuyup bitirdi.",
+      "Yazın gelmesiyle okullar tatil oldu.",
+      "Aniden bastıran yağmur herkesi ıslattı."
+    ],
+    "a": 1,
+    "e": "Aşamalı durum, bir olayın zamana yayılarak kademe kademe değişmesini ifade eder. 'Günden güne', 'giderek', 'yavaş yavaş' gibi ifadelerle sağlanır. B seçeneğinde iyileşme süreci zamana yayılmıştır."
+  },
+  {
+    "id": "turkce_014",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "kavramlar",
+    "subtopic": "Önyargı Cümlesi",
+    "q": "Aşağıdaki cümlelerin hangisinde 'önyargı' anlamı vardır?",
+    "o": [
+      "Bu kitap, yazarın en çok satan kitabı olacak.",
+      "Filmin sonunu çok merak ediyorum.",
+      "Görüşmelerin olumlu sonuçlanacağını umuyorum.",
+      "Bu işi başarabilmek için çok çalışmalısın.",
+      "Göreceksin, bu takım bu sene de şampiyon olamayacak."
+    ],
+    "a": 4,
+    "e": "Önyargı, bir olay veya kişi hakkında sonuç gerçekleşmeden önce edinilen (genellikle olumsuz) peşin hükümdür. E seçeneğinde henüz lig bitmeden şampiyon olunamayacağı peşinen söylenmiştir."
+  },
+  {
+    "id": "turkce_015",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "yakin-anlam",
+    "subtopic": "Yakın Anlamlı Cümleler",
+    "q": "“Kusursuz dost arayan, dostsuz kalır.”\n\nBu cümleyle anlatılmak istenen aşağıdakilerden hangisidir?",
+    "o": [
+      "Dostluklar zamanla fedakarlık gerektirir.",
+      "İnsanları hatalarıyla kabul etmeyenler yalnızlığa mahkûmdur.",
+      "Gerçek dost, arkadaşının hatasını yüzüne söyleyendir.",
+      "Yalnızlık, bazen kötü bir dosttan daha iyidir.",
+      "Dostluk kurmak zor, sürdürmek daha zordur."
+    ],
+    "a": 1,
+    "e": "Cümle, her insanın kusuru olabileceğini, eğer hatasız birini ararsak kimseyi bulamayacağımızı ve yalnız kalacağımızı anlatır. B seçeneği bu düşünceyi tam olarak yansıtır."
+  },
+  {
+    "id": "turkce_016",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "dolayli-dogrudan-anlatim",
+    "subtopic": "Dolaylı ve Doğrudan Anlatım",
+    "q": "Aşağıdaki cümlelerin hangisinde 'dolaylı anlatım' yapılmıştır?",
+    "o": [
+      "Öğretmen: 'Yarın sınav olacaksınız.' dedi.",
+      "Atatürk: 'Hayatta en hakiki mürşit ilimdir.' demiştir.",
+      "Babam, akşam eve erken gelmemiz gerektiğini söyledi.",
+      "Doktor, ilaçlarımı düzenli kullanmamı tembihlediği halde kullanmadım.",
+      "Yazar, kitabının önsözünde 'Bu eseri kızıma ithaf ediyorum.' diyor."
+    ],
+    "a": 2,
+    "e": "Doğrudan anlatım, başkasının sözünü değiştirmeden aktarmaktır (tırnak içi veya virgülle). Dolaylı anlatım ise sözün anlamını değiştirmeden, kendi cümlelerimizle ve yüklemi değiştirerek (söyledi, belirtti vb.) aktarmaktır. C seçeneğinde babanın sözü 'gerektiğini söyledi' şeklinde dolaylı aktarılmıştır."
+  },
+  {
+    "id": "turkce_017",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "kesin-yargi",
+    "subtopic": "Karşılaştırmalı Kesin Yargı",
+    "q": "Türkiye'de çay tarımının yapıldığı tek bölge Karadeniz Bölgesi'dir ve en çok çay Rize ilinde üretilmektedir.\n\nBu cümleden aşağıdakilerin hangisine kesin olarak ulaşılır?",
+    "o": [
+      "Karadeniz Bölgesi'nde sadece çay tarımı yapılmaktadır.",
+      "Rize dışındaki Karadeniz illerinde çay üretimi yapılmamaktadır.",
+      "Türkiye'de Karadeniz Bölgesi dışında çay yetiştirilen bir yer yoktur.",
+      "Rize'nin en önemli geçim kaynağı çaydır.",
+      "Dünyada en kaliteli çay Rize'de üretilmektedir."
+    ],
+    "a": 2,
+    "e": "Cümlede 'çay tarımının yapıldığı tek bölge Karadeniz'dir' denilmektedir. Bu, diğer bölgelerde (Ege, Akdeniz vb.) çay yetişmediği anlamına gelir (C seçeneği). B seçeneği yanlıştır çünkü Rize 'en çok' üretendir, 'tek' üreten değildir; diğer Karadeniz illerinde de olabilir."
+  },
+  {
+    "id": "turkce_018",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "kavramlar",
+    "subtopic": "Kanıksama",
+    "q": "Aşağıdaki cümlelerin hangisinde 'kanıksama' anlamı vardır?",
+    "o": [
+      "Benzine yine zam gelmiş, artık şaşırmıyoruz.",
+      "Bu kadar yüksek bir not alacağını hiç sanmıyordum.",
+      "Buraların havası insanı hemen çarpıverir.",
+      "Onun bu davranışlarına artık dayanamıyorum.",
+      "Keşke tatilde yanıma daha fazla kitap alsaydım."
+    ],
+    "a": 0,
+    "e": "Kanıksama, çok tekrarlanan bir olaya alışma, tepki vermeme, duyarsızlaşma durumudur. A seçeneğinde zam gelmesine 'artık şaşırmamak', bu durumun kanıksandığını gösterir."
+  },
+  {
+    "id": "turkce_019",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "kavramlar",
+    "subtopic": "Azımsama ve Küçümseme",
+    "q": "Aşağıdaki cümlelerin hangisinde 'azımsama' anlamı vardır?",
+    "o": [
+      "Bu kadarcık maaşla bir ay geçinilmez.",
+      "Sen kim, roman yazmak kim!",
+      "Bu soruyu ilkokul çocuğu bile çözer.",
+      "Yazdığı şiirleri sanat eseri mi sanıyor?",
+      "Böyle basit işlerle uğraşacak vaktim yok."
+    ],
+    "a": 0,
+    "e": "Azımsama, bir şeyi miktar olarak az bulmaktır (nicelik). Küçümseme ise bir şeye veya kişiye değer vermemek, onu aşağı görmektir (nitelik). A seçeneğinde maaşın miktarı az bulunduğu için azımsama vardır. Diğerlerinde küçümseme vardır."
+  },
+  {
+    "id": "turkce_020",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "genel-ozel-anlam",
+    "subtopic": "Genel ve Özel Anlam",
+    "q": "Aşağıdaki cümlelerin hangisinde 'özelden genele' bir anlatım vardır?",
+    "o": [
+      "Varlıklar içinde en değerlisi insandır.",
+      "Ağaç, doğanın akciğeridir.",
+      "Papatya, en sevdiğim çiçektir.",
+      "Roman, edebi türler içinde okuyucuyu en çok etkileyendir.",
+      "Meyvelerden elmayı, sebzelerden pırasayı severim."
+    ],
+    "a": 3,
+    "e": "Özelden genele anlatımda önce dar kapsamlı bir kavram, sonra onu kapsayan daha geniş bir kavram verilir. D seçeneğinde 'Roman' (özel/bir tür) ile başlayıp 'edebi türler' (genel/kategori) ile devam edilmiştir."
+  }
+]

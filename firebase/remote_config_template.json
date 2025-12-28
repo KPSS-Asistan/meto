@@ -1,0 +1,70 @@
+{
+  "conditions": [],
+  "parameters": {
+    "questions_version": {
+      "defaultValue": {
+        "value": "1"
+      },
+      "description": "Sorular JSON versiyonu",
+      "valueType": "NUMBER"
+    },
+    "flashcards_version": {
+      "defaultValue": {
+        "value": "1"
+      },
+      "description": "Flashcards versiyonu",
+      "valueType": "NUMBER"
+    },
+    "stories_version": {
+      "defaultValue": {
+        "value": "1"
+      },
+      "description": "Hikayeler versiyonu",
+      "valueType": "NUMBER"
+    },
+    "explanations_version": {
+      "defaultValue": {
+        "value": "1"
+      },
+      "description": "Konu anlatimlari versiyonu",
+      "valueType": "NUMBER"
+    },
+    "matching_games_version": {
+      "defaultValue": {
+        "value": "1"
+      },
+      "description": "Eslestirme oyunlari versiyonu",
+      "valueType": "NUMBER"
+    },
+    "minimum_app_version": {
+      "defaultValue": {
+        "value": "1.0.0"
+      },
+      "description": "Minimum uygulama versiyonu",
+      "valueType": "STRING"
+    },
+    "maintenance_mode": {
+      "defaultValue": {
+        "value": "false"
+      },
+      "description": "Bakim modu",
+      "valueType": "BOOLEAN"
+    },
+    "daily_question_limit_free": {
+      "defaultValue": {
+        "value": "20"
+      },
+      "description": "Ucretsiz gunluk limit",
+      "valueType": "NUMBER"
+    },
+    "ai_coach_enabled": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "description": "AI Coach aktif mi",
+      "valueType": "BOOLEAN"
+    }
+  },
+  "parameterGroups": {},
+  "version": {}
+}

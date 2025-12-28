@@ -1,0 +1,26 @@
+﻿Alias name: upload
+Creation date: 19 Ara 2025
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=KPSS Asistan, OU=Development, O=KPSS Asistan, L=Bursa, ST=Bursa, C=TR
+Issuer: CN=KPSS Asistan, OU=Development, O=KPSS Asistan, L=Bursa, ST=Bursa, C=TR
+Serial number: 2e5d652f
+Valid from: Fri Dec 19 23:57:56 TRT 2025 until: Tue May 06 23:57:56 TRT 2053
+Certificate fingerprints:
+	 SHA1: 01:9D:35:AE:2A:90:A9:97:AE:E4:9A:CD:CE:80:F1:9D:34:6F:0C:60
+	 SHA256: 7F:28:5F:B1:85:89:BA:9D:8B:4D:47:FE:49:04:D2:36:9F:8C:5B:03:8B:DC:5E:93:69:34:19:39:01:7C:32:EC
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 69 AD 6C BA 62 DD 00 84   1A 78 08 57 5A 82 93 8B  i.l.b....x.WZ...
+0010: 6C 48 01 FC                                        lH..
+]
+]
+

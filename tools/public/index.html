@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPSS Manager Pro v8.2</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card: #1e293b;
+            --sidebar: #0f172a;
+            --accent: #6366f1;
+            --accent-hover: #4f46e5;
+            --success: #22c55e;
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --input-bg: #334155;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            height: 100vh;
+            display: grid;
+            grid-template-rows: auto 1fr;
+        }
+
+        /* Modern Navbar */
+        .nav {
+            background: var(--card);
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-brand {
+            font-weight: 800;
+            font-size: 1.25rem;
+            background: linear-gradient(135deg, #fff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 0.5rem;
+            height: 100%;
+            align-items: center;
+        }
+
+        .nav-link {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 0.9rem;
+            border-radius: 6px;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            height: 36px;
+        }
+
+        .nav-link:hover {
+            background: var(--border);
+            color: var(--text);
+        }
+
+        .nav-link.active {
+            background: var(--accent);
+            color: white;
+        }
+
+        /* Main Area */
+        .main-content {
+            padding: 2rem;
+            overflow-y: auto;
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .page {
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Cards & Grid */
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+        }
+
+        /* Stats */
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 0.25rem;
+        }
+
+        .stat-label {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Sync Section (New) */
+        .sync-container {
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        .sync-status-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sync-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .sync-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+        }
+
+        .file-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .file-icon {
+            width: 32px;
+            height: 32px;
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--accent);
+            border-radius: 6px;
+            display: grid;
+            place-items: center;
+            font-weight: bold;
+        }
+
+        .file-name {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-weight: 500;
+        }
+
+        .file-badge {
+            font-size: 0.7rem;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: auto;
+            font-weight: bold;
+        }
+
+        .badge-mod {
+            background: rgba(234, 179, 8, 0.1);
+            color: #eab308;
+        }
+
+        .badge-new {
+            background: rgba(34, 197, 94, 0.1);
+            color: #22c55e;
+        }
+
+        .sync-action-area {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 500px;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.05), rgba(99, 102, 241, 0.0));
+            border-radius: 12px;
+            border: 1px dashed var(--border);
+            position: relative;
+        }
+
+        .big-sync-btn {
+            background: var(--accent);
+            color: white;
+            border: none;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 0 0 10px rgba(99, 102, 241, 0.1);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .big-sync-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 0 15px rgba(99, 102, 241, 0.2);
+        }
+
+        .big-sync-btn:active {
+            transform: scale(0.95);
+        }
+
+        .big-sync-btn i {
+            font-size: 3rem;
+        }
+
+        .big-sync-btn.loading {
+            animation: pulse 1.5s infinite;
+            background: var(--success);
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4);
+            }
+
+            70% {
+                box-shadow: 0 0 0 20px rgba(34, 197, 94, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+            }
+        }
+
+        /* Inputs */
+        input,
+        select,
+        textarea {
+            width: 100%;
+            background: var(--input-bg);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 0.75rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            font-family: inherit;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--card);
+            border: 1px solid var(--border);
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            display: none;
+            z-index: 1000;
+            border-left: 4px solid var(--success);
+        }
+    </style>
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav-brand">
+            <span class="material-icons-round" style="color:var(--accent)">school</span>
+            KPSS Manager Pro
+        </div>
+        <div class="nav-links">
+            <button class="nav-link active" onclick="showPage('dashboard')" data-page="dashboard"><span
+                    class="material-icons-round">dashboard</span> Genel Bakış</button>
+            <button class="nav-link" onclick="showPage('add')" data-page="add"><span
+                    class="material-icons-round">add_circle</span> Soru Ekle</button>
+            <button class="nav-link" onclick="showPage('browse')" data-page="browse"><span
+                    class="material-icons-round">search</span> Görüntüle</button>
+            <button class="nav-link" onclick="showPage('sync')" data-page="sync"><span
+                    class="material-icons-round">cloud_sync</span> GitHub Sync</button>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <!-- DASHBOARD -->
+        <div id="page-dashboard" class="page active">
+            <div style="margin-bottom:2rem">
+                <h1 style="font-size:1.8rem; margin-bottom:0.5rem">Hoş Geldin, Mertcan 👋</h1>
+                <p style="color:var(--text-muted)">Bugünkü veri giriş hedeflerini tamamlamaya çok yakınsın.</p>
+            </div>
+
+            <div class="grid-4">
+                <div class="card">
+                    <div class="stat-value" style="color:var(--accent)" id="statTotal">-</div>
+                    <div class="stat-label">Toplam Soru</div>
+                </div>
+                <div class="card">
+                    <div class="stat-value" style="color:#eab308" id="statTopics">-</div>
+                    <div class="stat-label">Aktif Konu</div>
+                </div>
+                <div class="card">
+                    <div class="stat-value" style="color:#22c55e" id="statQuality">%100</div>
+                    <div class="stat-label">Veri Kalitesi</div>
+                </div>
+                <div class="card">
+                    <div class="stat-value" style="color:#ef4444" id="statMissing">-</div>
+                    <div class="stat-label">Eksik Açıklama</div>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top:2rem">
+                <h3 style="margin-bottom:1rem; font-size:1.1rem">Ders Bazlı Dağılım</h3>
+                <div id="lessonStats"
+                    style="display:grid; grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); gap:1rem"></div>
+            </div>
+        </div>
+
+        <!-- ADD QUESTION -->
+        <div id="page-add" class="page">
+            <div class="card" style="max-width:800px; margin:0 auto">
+                <h2 style="margin-bottom:1.5rem">Yeni Soru Ekle</h2>
+                <div style="display:grid; grid-template-columns: 2fr 1fr; gap:1rem">
+                    <select id="addTopicSelect">
+                        <option value="">Ders ve Konu Seç...</option>
+                    </select>
+                    <input type="text" id="addSubtopic" placeholder="Alt Başlık (Opsiyonel)">
+                </div>
+                <textarea id="addQuestionText" rows="4" placeholder="Soru metnini buraya giriniz..."></textarea>
+
+                <label
+                    style="font-size:0.8rem; color:var(--text-muted); display:block; margin-bottom:0.5rem">Seçenekler</label>
+                <div style="display:grid; gap:0.5rem">
+                    <input type="text" id="opt0" placeholder="A Seçeneği">
+                    <input type="text" id="opt1" placeholder="B Seçeneği">
+                    <input type="text" id="opt2" placeholder="C Seçeneği">
+                    <input type="text" id="opt3" placeholder="D Seçeneği">
+                    <input type="text" id="opt4" placeholder="E Seçeneği">
+                </div>
+
+                <div style="display:flex; gap:1rem; align-items:center; margin-top:1rem">
+                    <div style="flex:1">
+                        <label
+                            style="font-size:0.8rem; color:var(--text-muted); display:block; margin-bottom:0.5rem">Doğru
+                            Cevap</label>
+                        <select id="addCorrectAns">
+                            <option value="0">A</option>
+                            <option value="1">B</option>
+                            <option value="2">C</option>
+                            <option value="3">D</option>
+                            <option value="4">E</option>
+                        </select>
+                    </div>
+                    <div style="flex:4">
+                        <label
+                            style="font-size:0.8rem; color:var(--text-muted); display:block; margin-bottom:0.5rem">Açıklama</label>
+                        <input type="text" id="addExplanation" style="margin-bottom:0"
+                            placeholder="Cevap açıklaması...">
+                    </div>
+                </div>
+
+                <button class="btn-primary" style="width:100%; margin-top:1.5rem" onclick="addQuestion()">Soruyu
+                    Kaydet</button>
+            </div>
+        </div>
+
+        <!-- SYNC / GITHUB -->
+        <div id="page-sync" class="page">
+            <div style="margin-bottom:1rem; display:flex; justify-content:space-between; align-items:center">
+                <div>
+                    <h1 style="font-size:1.8rem">Bulut Senkronizasyon</h1>
+                    <p style="color:var(--text-muted)">Sadece soru verileri (JSON) GitHub ile eşitlenir.</p>
+                </div>
+                <div style="display:flex; gap:0.5rem; align-items:center">
+                    <div
+                        style="background:var(--input-bg); padding:0.5rem 1rem; border-radius:20px; font-size:0.85rem; color:var(--text-muted); display:flex; align-items:center; gap:0.5rem">
+                        <span>Remote:</span> <span style="color:var(--text); font-weight:bold"
+                            id="gitRemoteInfo">...</span>
+                        <button onclick="configureGit()" title="URL Değiştir"
+                            style="background:none; border:none; color:var(--accent); cursor:pointer; padding:2px"><span
+                                class="material-icons-round" style="font-size:1.1rem">settings</span></button>
+                    </div>
+                    <div
+                        style="background:var(--input-bg); padding:0.5rem 1rem; border-radius:20px; font-size:0.85rem; color:var(--text-muted)">
+                        Branch: <span style="color:var(--accent); font-weight:bold" id="gitBranch">main</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sync-container">
+                <!-- Sol: Dosya Listesi -->
+                <div class="sync-status-card">
+                    <div class="sync-header">
+                        <h3 style="font-size:1rem">Bekleyen Değişiklikler</h3>
+                    </div>
+                    <div class="sync-list" id="gitStatusList">
+                        <div style="text-align:center; margin-top:3rem; color:var(--text-muted); opacity:0.6">
+                            <span class="material-icons-round" style="font-size:3rem">check_circle</span>
+                            <p>Her şey güncel!</p>
+                        </div>
+                    </div>
+                    <div style="padding:1rem; border-top:1px solid var(--border)">
+                        <button
+                            style="width:100%; padding:0.5rem; background:transparent; border:1px solid var(--border); color:var(--text-muted); border-radius:6px; cursor:pointer"
+                            onclick="checkGitStatus()">Listeyi Yenile</button>
+                    </div>
+                </div>
+
+                <!-- Sağ: Dev Buton -->
+                <div class="sync-action-area">
+                    <button class="big-sync-btn" id="syncBtn" onclick="smartSync()">
+                        <span class="material-icons-round">cloud_upload</span>
+                        <span>EŞİTLE</span>
+                    </button>
+                    <p style="margin-top:2rem; color:var(--text-muted); max-width:300px">
+                        Değişiklikleri kaydetmek ve GitHub'a göndermek için butona bas. Otomatik commit mesajı
+                        oluşturulur.
+                    </p>
+                    <div style="margin-top:1rem; width:80%">
+                        <input type="text" id="customCommitMsg" placeholder="Özel mesaj (Opsiyonel)"
+                            style="background:var(--bg); text-align:center">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BROWSE -->
+        <div id="page-browse" class="page">
+            <div class="card">
+                <div style="display:flex; gap:1rem; margin-bottom:1rem">
+                    <input type="text" id="searchInput" style="margin-bottom:0" placeholder="Soru ara..."
+                        onkeyup="if(event.key==='Enter') searchQuestions()">
+                    <button class="btn-primary" onclick="searchQuestions()" style="width:100px">Ara</button>
+                </div>
+                <div style="display:flex; gap:1rem; margin-bottom:1rem">
+                    <select id="browseLessonSelect" onchange="loadBrowseTopics()">
+                        <option value="">Tüm Dersler</option>
+                    </select>
+                    <select id="browseTopicSelect" onchange="loadBrowseQuestions()">
+                        <option value="">Konu Seçin...</option>
+                    </select>
+                </div>
+                <div id="browseList"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="toast" id="toast">İşlem tamamlandı</div>
+
+    <script src="app.js"></script>
+    <script>
+        window.onload = () => { loadStats(); };
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+            document.getElementById('page-' + pageId).classList.add('active');
+            document.querySelector(`[data-page="${pageId}"]`).classList.add('active');
+            if (pageId === 'dashboard') loadStats();
+            if (pageId === 'add') loadAddTopics();
+            if (pageId === 'sync') checkGitStatus();
+        }
+    </script>
+</body>
+
+</html>

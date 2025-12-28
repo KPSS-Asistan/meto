@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPSS Soru Editör Pro</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --bg2: #1e293b;
+            --bg3: #334155;
+            --accent: #6366f1;
+            --success: #22c55e;
+            --warn: #f59e0b;
+            --error: #ef4444;
+            --text: #f1f5f9;
+            --text2: #94a3b8;
+            --border: #475569;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+        }
+
+        /* HEADER */
+        .header {
+            background: linear-gradient(135deg, var(--accent), #a855f7);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            font-size: 1.25rem;
+        }
+
+        /* LAYOUT */
+        .container {
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            min-height: calc(100vh - 56px);
+        }
+
+        .sidebar {
+            background: var(--bg2);
+            padding: 1rem;
+            overflow-y: auto;
+            border-right: 1px solid var(--border);
+        }
+
+        .main {
+            padding: 1rem;
+            overflow-y: auto;
+        }
+
+        /* CARD */
+        .card {
+            background: var(--bg2);
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid var(--border);
+        }
+
+        .card-title {
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* FORM */
+        label {
+            display: block;
+            font-size: 0.75rem;
+            color: var(--text2);
+            margin-bottom: 0.3rem;
+        }
+
+        select,
+        textarea,
+        input {
+            width: 100%;
+            padding: 0.6rem;
+            background: var(--bg3);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text);
+            font-size: 0.85rem;
+        }
+
+        textarea {
+            min-height: 150px;
+            font-family: monospace;
+            font-size: 0.75rem;
+        }
+
+        /* BUTTONS */
+        .btn {
+            padding: 0.5rem 0.75rem;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            filter: brightness(1.1);
+            transform: translateY(-1px);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+        }
+
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+
+        .btn-warn {
+            background: var(--warn);
+            color: black;
+        }
+
+        .btn-error {
+            background: var(--error);
+            color: white;
+        }
+
+        .btn-ai {
+            background: linear-gradient(135deg, #ec4899, #8b5cf6);
+            color: white;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-top: 0.75rem;
+        }
+
+        /* STATS */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .stat {
+            background: var(--bg2);
+            padding: 0.6rem;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid var(--border);
+        }
+
+        .stat-val {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .stat-label {
+            font-size: 0.6rem;
+            color: var(--text2);
+        }
+
+        /* QUESTION CARD */
+        .q-card {
+            background: var(--bg3);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+            border-left: 6px solid var(--accent);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .q-card.has-error {
+            border-left-color: var(--error);
+            background: #2f1515;
+        }
+
+        .q-card.has-warn {
+            border-left-color: var(--warn);
+        }
+
+        .q-card.valid {
+            border-left-color: var(--success);
+        }
+
+        .q-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.8rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .q-id {
+            font-family: monospace;
+            font-size: 0.9rem;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .q-card.has-error .q-id {
+            color: #fca5a5;
+        }
+
+        .q-card.valid .q-id {
+            color: #86efac;
+        }
+
+        .q-text {
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-bottom: 0.8rem;
+            color: #e2e8f0;
+        }
+
+        /* ISSUES */
+        .issue-group {
+            margin-top: 0.8rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+
+        .issue {
+            padding: 0.5rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 500;
+        }
+
+        .issue-critical {
+            background: rgba(220, 38, 38, 0.2);
+            color: #fca5a5;
+            border: 1px solid rgba(220, 38, 38, 0.3);
+        }
+
+        .issue-error {
+            background: rgba(220, 38, 38, 0.15);
+            color: #fca5a5;
+            border: 1px solid rgba(220, 38, 38, 0.2);
+        }
+
+        .issue-warn {
+            background: rgba(245, 158, 11, 0.15);
+            color: #fcd34d;
+            border: 1px solid rgba(245, 158, 11, 0.2);
+        }
+
+        /* DIFF VIEW */
+        .diff-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 0.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .diff-box h5 {
+            color: var(--text2);
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 0.25rem;
+        }
+
+        .diff-content {
+            font-size: 0.8rem;
+            line-height: 1.4;
+            color: #e2e8f0;
+            white-space: pre-wrap;
+        }
+
+        .highlight {
+            background: rgba(255, 255, 0, 0.2);
+            color: #fff;
+            padding: 0 2px;
+            border-radius: 2px;
+        }
+
+        /* INFO BOX */
+        .info-box {
+            background: var(--bg3);
+            padding: 0.75rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            margin: 0.75rem 0;
+        }
+
+        /* AI RESULT */
+        .ai-result {
+            background: linear-gradient(135deg, rgba(236, 72, 153, 0.15), rgba(139, 92, 246, 0.15));
+            border: 1px solid #a855f7;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 0.75rem 0;
+        }
+
+        .ai-result h4 {
+            color: #e879f9;
+            margin-bottom: 0.5rem;
+        }
+
+        /* MODAL */
+        .modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+        }
+
+        .modal-content {
+            background: var(--bg2);
+            border-radius: 12px;
+            padding: 1.5rem;
+            width: 90%;
+            max-width: 700px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group textarea {
+            min-height: 80px;
+        }
+
+        .options-grid {
+            display: grid;
+            gap: 0.5rem;
+        }
+
+        .option-row {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .option-label {
+            width: 30px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .option-input {
+            flex: 1;
+        }
+
+        .option-correct {
+            width: 40px;
+            height: 20px;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #fff;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>🔬 KPSS Soru Editör Pro</h1>
+        <span style="font-size:0.8rem;opacity:0.8">Validasyon + Düzenleme + AI Tespit</span>
+    </div>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="card" style="border-left:4px solid var(--accent)">
+                <div class="card-title">1. AYARLAR</div>
+                <label>Ders Seçin</label>
+                <select id="lessonSelect">
+                    <option value="">-- Ders Seç --</option>
+                </select>
+                <label style="margin-top:0.5rem">Konu Seçin</label>
+                <select id="topicSelect" disabled>
+                    <option value="">-- Önce ders seç --</option>
+                </select>
+                <div id="topicInfo" class="info-box hidden">
+                    <strong id="topicName" style="color:var(--accent)"></strong><br>
+                    Mevcut: <strong id="currentCount">0</strong> soru
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">2. İÇERİK GİRİŞİ</div>
+
+                <!-- TABS -->
+                <div
+                    style="display:flex;gap:0.5rem;margin-bottom:0.8rem;border-bottom:1px solid var(--border);padding-bottom:0.5rem">
+                    <button class="btn" style="flex:1;background:var(--bg3);font-size:0.7rem" onclick="showTab('paste')"
+                        id="btnTabPaste">📝 Yapıştır</button>
+                    <button class="btn"
+                        style="flex:1;background:transparent;border:1px solid var(--border);font-size:0.7rem"
+                        onclick="showTab('ai')" id="btnTabAi">✨ AI Üret</button>
+                </div>
+
+                <!-- PASTE TAB -->
+                <div id="tabPaste">
+                    <textarea id="input" placeholder='[{"id":"...","q":"...","o":[],"a":0}]'
+                        style="min-height:120px"></textarea>
+                    <div class="btn-group">
+                        <button class="btn btn-ai" onclick="detectTopic()" id="detectBtn" style="font-size:0.7rem">🤖 AI
+                            Tespit</button>
+                        <button class="btn" style="background:var(--bg3);font-size:0.7rem" onclick="format()">📐
+                            Format</button>
+                    </div>
+                </div>
+
+                <!-- AI TAB -->
+                <div id="tabAi" class="hidden">
+                    <div class="form-group">
+                        <textarea id="aiContext" style="min-height:80px;font-family:sans-serif"
+                            placeholder="Hangi konuda soru üretilsin? (Opsiyonel: Metin yapıştırın)"></textarea>
+                    </div>
+                    <div style="display:flex;gap:0.5rem;align-items:center">
+                        <input type="number" id="aiCount" value="5" style="width:50px;text-align:center" min="1"
+                            max="20">
+                        <span>Adet</span>
+                        <button class="btn btn-ai" style="flex:1" onclick="generateQuestions()" id="genBtn">✨
+                            Başlat</button>
+                    </div>
+                </div>
+
+                <!-- AI RESULT - Both tabs can show this -->
+                <div id="aiResult" class="ai-result hidden"
+                    style="margin-top:0.5rem;background:var(--bg);padding:0.75rem;border-radius:8px;border:1px solid var(--accent)">
+                    <div id="aiContent" style="font-size:0.75rem"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">3. ANALİZ & İŞLEMLER</div>
+                <button class="btn btn-primary" style="width:100%;padding:0.6rem;margin-bottom:0.5rem"
+                    onclick="parseAndValidate()">🔍 ANALİZ ET</button>
+
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem">
+                    <button class="btn btn-warn" onclick="autoIds()">🔢 Oto ID</button>
+                    <button class="btn" style="background:var(--bg3)" onclick="fixTopicIds()">🔄 Topic Fix</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <button class="btn btn-success" style="width:100%;padding:1rem;font-size:1rem;font-weight:bold"
+                    onclick="addToFile()" id="addBtn" disabled>
+                    ✅ KAYDET
+                </button>
+                <p style="font-size:0.7rem;color:var(--text2);margin-top:0.5rem;text-align:center">Hatasız olmalı</p>
+            </div>
+        </aside>
+
+        <main class="main">
+            <!-- STATS -->
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-val" id="sTotal" style="color:var(--accent)">0</div>
+                    <div class="stat-label">Toplam</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-val" id="sValid" style="color:var(--success)">0</div>
+                    <div class="stat-label">Geçerli</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-val" id="sCritical" style="color:#ef4444">0</div>
+                    <div class="stat-label">Kritik</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-val" id="sError" style="color:#f87171">0</div>
+                    <div class="stat-label">Hata</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-val" id="sWarn" style="color:var(--warn)">0</div>
+                    <div class="stat-label">Uyarı</div>
+                </div>
+            </div>
+
+            <!-- QUESTION LIST -->
+            <div id="questionList">
+                <div class="card" style="text-align:center;color:var(--text2)">
+                    JSON yapıştırın ve "Analiz" butonuna tıklayın
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- EDIT MODAL -->
+    <div id="editModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-title">✏️ Soru Düzenle</div>
+            <div class="form-group">
+                <label>ID</label>
+                <input type="text" id="editId">
+            </div>
+            <div class="form-group">
+                <label>Soru Metni</label>
+                <textarea id="editQ" style="min-height:100px"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Seçenekler (Doğru cevabı işaretle)</label>
+                <div class="options-grid" id="optionsGrid"></div>
+            </div>
+            <div class="form-group">
+                <label>Açıklama</label>
+                <textarea id="editE"></textarea>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+                <div class="form-group">
+                    <label>Subtopic ID</label>
+                    <input type="text" id="editSubtopicId">
+                </div>
+                <div class="form-group">
+                    <label>Subtopic Adı</label>
+                    <input type="text" id="editSubtopic">
+                </div>
+            </div>
+            <div class="btn-group" style="justify-content:flex-end">
+                <button class="btn btn-error" onclick="deleteQuestion()">🗑️ Sil</button>
+                <button class="btn" style="background:var(--bg3)" onclick="closeModal()">İptal</button>
+                <button class="btn btn-success" onclick="saveEdit()">💾 Kaydet</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API = 'http://localhost:3456';
+        let topics = [];
+        let selectedTopic = null;
+        let inputData = [];
+        let validationResult = null;
+        let editingIndex = -1;
+
+        // ═══════════════════════════════════════════════════════════
+        // INIT
+        // ═══════════════════════════════════════════════════════════
+        async function loadTopics() {
+            const res = await fetch(API + '/topics');
+            topics = await res.json();
+
+            const lessonSel = document.getElementById('lessonSelect');
+            lessonSel.innerHTML = '<option value="">-- Ders Seç --</option>';
+            const lessons = [...new Set(topics.map(t => t.lesson))];
+            lessons.forEach(l => lessonSel.innerHTML += `<option value="${l}">${l}</option>`);
+        }
+
+        document.getElementById('lessonSelect').onchange = function (e) {
+            const topicSel = document.getElementById('topicSelect');
+            topicSel.innerHTML = '<option value="">-- Konu Seç --</option>';
+            if (!e.target.value) { topicSel.disabled = true; return; }
+
+            const filtered = topics.filter(t => t.lesson === e.target.value);
+            filtered.forEach(t => topicSel.innerHTML += `<option value="${t.id}">${t.name} (${t.count})</option>`);
+            topicSel.disabled = false;
+        };
+
+        document.getElementById('topicSelect').onchange = function (e) {
+            const t = topics.find(x => x.id === e.target.value);
+            if (t) {
+                selectedTopic = t;
+                document.getElementById('topicName').textContent = t.name;
+                document.getElementById('currentCount').textContent = t.count;
+                document.getElementById('topicInfo').classList.remove('hidden');
+                if (inputData.length > 0) parseAndValidate();
+            } else {
+                selectedTopic = null;
+                document.getElementById('topicInfo').classList.add('hidden');
+            }
+            checkAddButton();
+        };
+
+        // ═══════════════════════════════════════════════════════════
+        // AI KONU TESPİTİ
+        // ═══════════════════════════════════════════════════════════
+        async function detectTopic() {
+            const input = document.getElementById('input').value.trim();
+            if (!input) { alert('JSON girin!'); return; }
+
+            try { inputData = JSON.parse(input); }
+            catch (e) { alert('JSON Hatası: ' + e.message); return; }
+
+            const btn = document.getElementById('detectBtn');
+            btn.innerHTML = '<span class="loading"></span>';
+            btn.disabled = true;
+
+            try {
+                const res = await fetch(API + '/detect', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ questions: inputData })
+                });
+                const data = await res.json();
+
+                const aiDiv = document.getElementById('aiResult');
+                const aiContent = document.getElementById('aiContent');
+
+                if (data.topicId) {
+                    const confColor = data.confidence >= 80 ? 'var(--success)' : data.confidence >= 50 ? 'var(--warn)' : 'var(--error)';
+                    aiContent.innerHTML = `
+                <p><strong>${data.ders}</strong> → <strong>${data.konu}</strong></p>
+                <span style="background:${confColor};color:white;padding:0.2rem 0.5rem;border-radius:4px;font-size:0.75rem">${data.confidence}% Güven</span>
+                <button class="btn btn-success" style="margin-left:0.5rem;padding:0.3rem 0.6rem" onclick="selectDetected('${data.topicId}','${data.ders}')">✓ Uygula</button>
+            `;
+                    aiDiv.classList.remove('hidden');
+                } else {
+                    aiContent.innerHTML = '<p style="color:var(--warn)">Konu tespit edilemedi. Manuel seçin.</p>';
+                    aiDiv.classList.remove('hidden');
+                }
+            } catch (e) {
+                alert('Hata: ' + e.message);
+            }
+
+            btn.innerHTML = '🤖 AI Tespit';
+            btn.disabled = false;
+        }
+
+        function selectDetected(topicId, lessonName) {
+            document.getElementById('lessonSelect').value = lessonName;
+            document.getElementById('lessonSelect').dispatchEvent(new Event('change'));
+            setTimeout(() => {
+                document.getElementById('topicSelect').value = topicId;
+                document.getElementById('topicSelect').dispatchEvent(new Event('change'));
+            }, 50);
+        }
+
+        // ═══════════════════════════════════════════════════════════
+        // VALİDASYON
+        // ═══════════════════════════════════════════════════════════
+        async function parseAndValidate() {
+            const input = document.getElementById('input').value.trim();
+            if (!input) { alert('JSON girin!'); return; }
+
+            try { inputData = JSON.parse(input); }
+            catch (e) { alert('JSON Hatası: ' + e.message); return; }
+
+            if (!Array.isArray(inputData)) { alert('Array olmalı!'); return; }
+
+            const res = await fetch(API + '/validate', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ topicId: selectedTopic?.id, questions: inputData })
+            });
+            validationResult = await res.json();
+            renderResults();
+        }
+
+        function renderResults() {
+            const v = validationResult;
+
+            // Stats
+            document.getElementById('sTotal').textContent = v.stats.total;
+            document.getElementById('sValid').textContent = v.stats.valid;
+            document.getElementById('sCritical').textContent = v.stats.criticalErrors;
+            document.getElementById('sError').textContent = v.stats.errors;
+            document.getElementById('sWarn').textContent = v.stats.warnings;
+
+            // Question cards
+            let html = '';
+            v.results.forEach((r, i) => {
+                const hasError = r.errors.length > 0;
+                const hasWarn = r.warnings.length > 0;
+                const cls = hasError ? 'has-error' : hasWarn ? 'has-warn' : 'valid';
+
+                html += `<div class="q-card ${cls}">`;
+
+                // Header
+                html += `<div class="q-header">`;
+                html += `<span class="q-id">#${i + 1} ${r.id || '(ID yok)'}</span>`;
+                html += `<div class="q-badges">`;
+
+                const criticalErrors = r.errors.filter(e => e.severity === 'critical');
+                const normalErrors = r.errors.filter(e => e.severity === 'error');
+
+                if (criticalErrors.length > 0) html += `<span class="badge badge-error">${criticalErrors.length} KRİTİK</span>`;
+                if (normalErrors.length > 0) html += `<span class="badge badge-error">${normalErrors.length} hata</span>`;
+                if (r.warnings.length > 0) html += `<span class="badge badge-warn">${r.warnings.length} uyarı</span>`;
+
+                if (r.errors.length > 0) {
+                    html += `<button class="btn btn-ai" style="margin-left:0.5rem;padding:0.3rem 0.6rem;font-size:0.75rem" onclick="fixQuestion(${i})" id="fixBtn${i}">🪄 AI Düzelt</button>`;
+                }
+
+                html += `<button class="btn btn-primary" style="margin-left:0.5rem;padding:0.3rem 0.6rem" onclick="editQuestion(${i})">✏️</button>`;
+                html += `</div></div>`;
+
+                // Content
+                const qText = (r.data.q || '').substring(0, 150);
+                html += `<div class="q-text">${qText}${r.data.q?.length > 150 ? '...' : ''}</div>`;
+
+                if (r.data.o && Array.isArray(r.data.o)) {
+                    html += `<div class="q-meta" style="margin-bottom:0.5rem">Doğru Cevap: <span style="color:var(--success);font-weight:bold">${String.fromCharCode(65 + (r.data.a || 0))}</span> | Karakter: ${r.data.q?.length || 0}</div>`;
+                }
+
+                // Issues List
+                if (r.errors.length > 0 || r.warnings.length > 0 || r.info?.length > 0) {
+                    html += `<div class="issue-group">`;
+
+                    // Critical & Error combined iteration to handle display logic
+                    [...criticalErrors, ...normalErrors].forEach(e => {
+                        // Similarity Visualization Check
+                        if (e.type === 'SIMILARITY_DETECTED' || e.type === 'DUPLICATE_ID') {
+                            const matchText = e.matchedText || '';
+                            const origText = e.originalText || r.data.q || '';
+                            const score = e.similarityScore || 100;
+
+                            html += `
+                    <div class="issue issue-error" style="flex-direction:column;align-items:flex-start">
+                        <div style="display:flex;align-items:center;gap:0.5rem;width:100%">
+                            <span>⛔ [${e.field}] ${e.msg.replace(/\(%(\d+)\)/, '')}</span>
+                            <span class="badge" style="background:white;color:black;margin-left:auto;font-size:0.9rem">%${score} BENZERLİK</span>
+                        </div>
+                        
+                        <div class="diff-container">
+                            <div class="diff-box">
+                                <h5>Mevcut Eklenen (Yeni)</h5>
+                                <div class="diff-content">${origText}</div>
+                            </div>
+                            <div class="diff-box">
+                                <h5>Veritabanındaki (Eski: ${e.matchedId})</h5>
+                                <div class="diff-content" style="color:#fcd34d">${matchText}</div>
+                            </div>
+                        </div>
+                    </div>`;
+                        } else {
+                            // Standard Error
+                            html += `<div class="issue issue-${e.severity}">❌ [${e.field}] ${e.msg}</div>`;
+                        }
+                    });
+
+                    // Warnings
+                    r.warnings.forEach(w => {
+                        html += `<div class="issue issue-warn">⚠️ [${w.field}] ${w.msg}</div>`;
+                    });
+
+                    // Info
+                    if (r.info) {
+                        r.info.forEach(inf => {
+                            html += `<div class="issue" style="background:rgba(59, 130, 246, 0.1);color:#60a5fa">ℹ️ [${inf.field}] ${inf.msg}</div>`;
+                        });
+                    }
+
+                    html += `</div>`;
+                }
+
+                html += `</div>`;
+            });
+
+            document.getElementById('questionList').innerHTML = html || '<div class="card">Soru yok</div>';
+            checkAddButton();
+        }
+
+        function checkAddButton() {
+            const hasData = inputData.length > 0;
+            const hasTopic = selectedTopic !== null;
+            const noCritical = validationResult ? validationResult.stats.criticalErrors === 0 : false;
+            document.getElementById('addBtn').disabled = !(hasData && hasTopic && noCritical);
+        }
+
+        // ═══════════════════════════════════════════════════════════
+        // SORU DÜZENLEME
+        // ═══════════════════════════════════════════════════════════
+        function editQuestion(index) {
+            editingIndex = index;
+            const q = inputData[index];
+
+            document.getElementById('editId').value = q.id || '';
+            document.getElementById('editQ').value = q.q || '';
+            document.getElementById('editE').value = q.e || '';
+            document.getElementById('editSubtopicId').value = q.subtopicId || '';
+            document.getElementById('editSubtopic').value = q.subtopic || '';
+
+            let optHtml = '';
+            for (let i = 0; i < 5; i++) {
+                const opt = q.o?.[i] || '';
+                const checked = q.a === i ? 'checked' : '';
+                optHtml += `
+            <div class="option-row">
+                <span class="option-label">${String.fromCharCode(65 + i)}</span>
+                <input type="text" class="option-input" id="opt${i}" value="${opt.replace(/"/g, '&quot;')}">
+                <input type="radio" name="correctAnswer" value="${i}" ${checked} class="option-correct">
+            </div>
+        `;
+            }
+            document.getElementById('optionsGrid').innerHTML = optHtml;
+            document.getElementById('editModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('editModal').classList.add('hidden');
+            editingIndex = -1;
+        }
+
+        function saveEdit() {
+            if (editingIndex < 0) return;
+
+            const options = [];
+            for (let i = 0; i < 5; i++) {
+                options.push(document.getElementById('opt' + i).value);
+            }
+
+            const correctEl = document.querySelector('input[name="correctAnswer"]:checked');
+            const correctAnswer = correctEl ? parseInt(correctEl.value) : 0;
+
+            inputData[editingIndex] = {
+                ...inputData[editingIndex],
+                id: document.getElementById('editId').value,
+                q: document.getElementById('editQ').value,
+                o: options,
+                a: correctAnswer,
+                e: document.getElementById('editE').value,
+                subtopicId: document.getElementById('editSubtopicId').value,
+                subtopic: document.getElementById('editSubtopic').value,
+            };
+
+            document.getElementById('input').value = JSON.stringify(inputData, null, 2);
+            closeModal();
+            parseAndValidate();
+        }
+
+        function deleteQuestion() {
+            if (editingIndex < 0) return;
+            if (!confirm('Bu soruyu silmek istediğinize emin misiniz?')) return;
+
+            inputData.splice(editingIndex, 1);
+            document.getElementById('input').value = JSON.stringify(inputData, null, 2);
+            closeModal();
+            parseAndValidate();
+        }
+
+        // ═══════════════════════════════════════════════════════════
+        // OTOMATİK ID
+        // ═══════════════════════════════════════════════════════════
+        async function autoIds() {
+            if (!selectedTopic) { alert('Önce konu seçin!'); return; }
+
+            const input = document.getElementById('input').value.trim();
+            if (!input) { alert('JSON girin!'); return; }
+
+            try { inputData = JSON.parse(input); }
+            catch (e) { alert('JSON Hatası'); return; }
+
+            const res = await fetch(API + '/auto-id', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ topicId: selectedTopic.id, questions: inputData })
+            });
+            const data = await res.json();
+
+            inputData = data.questions;
+            document.getElementById('input').value = JSON.stringify(inputData, null, 2);
+            parseAndValidate();
+        }
+
+        function fixTopicIds() {
+            if (!selectedTopic) { alert('Önce konu seçin!'); return; }
+            if (inputData.length === 0) { alert('Önce JSON girin!'); return; }
+
+            inputData = inputData.map(q => ({ ...q, topicId: selectedTopic.id }));
+            document.getElementById('input').value = JSON.stringify(inputData, null, 2);
+            parseAndValidate();
+        }
+
+        // ═══════════════════════════════════════════════════════════
+        // DOSYAYA EKLE
+        // ═══════════════════════════════════════════════════════════
+        async function addToFile() {
+            if (!selectedTopic || inputData.length === 0) return;
+            if (!confirm(`${inputData.length} soru "${selectedTopic.name}" konusuna eklenecek. Devam?`)) return;
+
+            const res = await fetch(API + '/add', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ topicId: selectedTopic.id, questions: inputData })
+            });
+            const data = await res.json();
+
+            if (data.success) {
+                alert('✅ ' + data.message + '\nToplam: ' + data.total + ' soru');
+                document.getElementById('input').value = '';
+                inputData = [];
+                validationResult = null;
+                document.getElementById('questionList').innerHTML = '<div class="card" style="text-align:center;color:var(--text2)">Sorular başarıyla eklendi!</div>';
+                loadTopics();
+            } else {
+                alert('❌ Hata: ' + (data.message || data.error));
+            }
+        }
+
+        // ═══════════════════════════════════════════════════════════
+        // ═══════════════════════════════════════════════════════════
+        // AI GENERATE & FIX
+        // ═══════════════════════════════════════════════════════════
+        async function generateQuestions() {
+            if (!selectedTopic) { alert('Önce konu seçin!'); return; }
+            const context = document.getElementById('aiContext').value;
+            const count = document.getElementById('aiCount').value;
+
+            const btn = document.getElementById('genBtn');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<span class="loading"></span> Üretiliyor...';
+            btn.disabled = true;
+
+            try {
+                const res = await fetch(API + '/ai-generate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ topic: selectedTopic.name, context, count: parseInt(count) })
+                });
+                const data = await res.json();
+
+                if (data.success) {
+                    // ID ATA
+                    const startId = selectedTopic.count + 1 + inputData.length;
+                    const newQs = data.questions.map((q, i) => ({
+                        ...q,
+                        id: `${selectedTopic.prefix}_${String(startId + i).padStart(3, '0')}`,
+                        topicId: selectedTopic.id
+                    }));
+
+                    inputData = [...inputData, ...newQs];
+                    document.getElementById('input').value = JSON.stringify(inputData, null, 2);
+                    parseAndValidate();
+                    alert(`${newQs.length} soru üretildi!`);
+                } else {
+                    alert('Hata: ' + data.error);
+                }
+            } catch (e) { alert('Hata: ' + e.message); }
+
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+        }
+
+        async function fixQuestion(index) {
+            const btn = document.getElementById(`fixBtn${index}`);
+            btn.innerHTML = '<span class="loading"></span>';
+            btn.disabled = true;
+
+            const q = inputData[index];
+            const errors = validationResult.results[index].errors;
+
+            try {
+                const res = await fetch(API + '/ai-fix', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question: q, errors })
+                });
+                const data = await res.json();
+
+                if (data.success) {
+                    inputData[index] = data.fixed;
+                    document.getElementById('input').value = JSON.stringify(inputData, null, 2);
+                    parseAndValidate();
+                } else {
+                    alert('Düzeltilemedi: ' + data.error);
+                    btn.innerHTML = '🪄 AI Düzelt';
+                    btn.disabled = false;
+                }
+            } catch (e) {
+                alert('Hata: ' + e.message);
+                btn.innerHTML = '🪄 AI Düzelt';
+                btn.disabled = false;
+            }
+        }
+
+        // YARDIMCI
+        function format() {
+            try {
+                const val = document.getElementById('input').value;
+                document.getElementById('input').value = JSON.stringify(JSON.parse(val), null, 2);
+            } catch (e) { }
+        }
+
+        // INIT
+        loadTopics();
+    </script>
+</body>
+
+</html>
