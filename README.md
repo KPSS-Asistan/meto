@@ -2,7 +2,6 @@
 
 Bu repo, **KPSS Asistan 2026** uygulamasının içerik güncellemelerini barındırır. Uygulama açılışta bu repodan güncellemeleri kontrol eder ve yeni içerikleri otomatik olarak indirir.
 
-> ⚠️ **Önemli:** Bu repo **private** olarak ayarlanmalıdır. Uygulama, GitHub API token'ı ile bu repoya erişir.
 
 ---
 
