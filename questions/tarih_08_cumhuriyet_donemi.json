@@ -1,1 +1,2514 @@
-[]
+[
+    {
+        "id": "tarih_001",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "siyasi-inkilaplar",
+        "subtopic": "Siyasi Alanda İnkılaplar",
+        "q": "29 Ekim 1923'te Cumhuriyetin ilanı ile birlikte, yeni Türk devletinde yaşanan; I. Devlet başkanlığı sorununun çözülmesi, II. Rejimin adının konulması, III. Kabine sistemine geçilmesi gelişmelerinden hangileri gerçekleşmiştir?",
+        "o": [
+            "Yalnız I",
+            "Yalnız II",
+            "I ve II",
+            "II ve III",
+            "I, II ve III"
+        ],
+        "a": 4,
+        "e": "Cumhuriyetin ilanı ile 'Devletin adı ne olacak?' ve 'Devlet başkanı kimdir?' belirsizlikleri giderilmiş, aynı zamanda Meclis Hükûmeti sisteminden Kabine sistemine geçilmiştir."
+    },
+    {
+        "id": "tarih_002",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cok-partili-hayat",
+        "subtopic": "Çok Partili Hayata Geçiş Denemeleri",
+        "q": "Türkiye Cumhuriyeti tarihinde kurulan ilk muhalefet partisi olan Terakkiperver Cumhuriyet Fırkası, aşağıdaki gelişmelerden hangisi gerekçe gösterilerek kapatılmıştır?",
+        "o": [
+            "Menemen Olayı",
+            "Şeyh Sait İsyanı",
+            "İzmir Suikastı Girişimi",
+            "Dersim Olayları",
+            "Çerkez Ethem İsyanı"
+        ],
+        "a": 1,
+        "e": "Terakkiperver Cumhuriyet Fırkası, parti programında yer alan 'Partimiz dini inançlara saygılıdır' ibaresinin irticai faaliyetleri cesaretlendirdiği ve Şeyh Sait İsyanı'nda rolü olduğu gerekçesiyle Takrir-i Sükûn Kanunu'na dayanılarak kapatılmıştır."
+    },
+    {
+        "id": "tarih_003",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "hukuk-inkilaplari",
+        "subtopic": "Hukuk Alanında İnkılaplar",
+        "q": "1926 yılında kabul edilen Türk Medeni Kanunu ile kadınlara; I. Mirasta eşitlik, II. Şahitlikte eşitlik, III. Seçme ve seçilme hakkı yetkilerinden hangileri verilmiştir?",
+        "o": [
+            "Yalnız I",
+            "Yalnız II",
+            "I ve II",
+            "II ve III",
+            "I, II ve III"
+        ],
+        "a": 2,
+        "e": "Türk Medeni Kanunu (1926) ile kadınlara mirasta, şahitlikte, boşanmada eşitlik ve istediği mesleği seçme hakkı verilmiştir. Ancak seçme ve seçilme hakkı (siyasi haklar) 1930, 1933 ve 1934 yıllarındaki düzenlemelerle verilmiştir."
+    },
+    {
+        "id": "tarih_004",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-ve-kultur",
+        "subtopic": "Eğitim ve Kültür Alanında İnkılaplar",
+        "q": "3 Mart 1924 tarihinde kabul edilen Tevhid-i Tedrisat Kanunu'nun temel amacı aşağıdakilerden hangisidir?",
+        "o": [
+            "Yükseköğretimi düzenlemek",
+            "Eğitim ve öğretimi birleştirerek laikleşmeyi sağlamak",
+            "Yeni Türk harflerini yaygınlaştırmak",
+            "Yabancı okulların tamamını kapatmak",
+            "Köy Enstitüleri'ni kurmak"
+        ],
+        "a": 1,
+        "e": "Tevhid-i Tedrisat Kanunu (Öğretim Birliği Yasası), ülkedeki tüm eğitim kurumlarını Milli Eğitim Bakanlığı'na bağlayarak eğitimde ikiliği ortadan kaldırmayı ve laik, milli bir eğitim sistemini hedeflemiştir."
+    },
+    {
+        "id": "tarih_005",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1923-1930",
+        "subtopic": "Atatürk Dönemi Dış Politika (1923-1930)",
+        "q": "Lozan Barış Antlaşması'nda çözülemeyen ve sonraya bırakılan, Türkiye ile İngiltere arasında uzun süre gerginliğe neden olan sorun aşağıdakilerden hangisidir?",
+        "o": [
+            "Boğazlar Komisyonu",
+            "Yabancı Okullar",
+            "Musul (Irak Sınırı) Sorunu",
+            "Nüfus Mübadelesi",
+            "Osmanlı Borçları"
+        ],
+        "a": 2,
+        "e": "Musul Sorunu, Lozan'da çözülememiş ve ikili görüşmelere bırakılmıştır. Görüşmelerden sonuç çıkmayınca konu Milletler Cemiyeti'ne taşınmış ve 1926 Ankara Antlaşması ile aleyhimize çözülmüştür."
+    },
+    {
+        "id": "tarih_006",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-inkilaplari",
+        "subtopic": "Ekonomi Alanında İnkılaplar",
+        "q": "17 Şubat 1923'te toplanan İzmir İktisat Kongresi'nde alınan 'Misak-ı İktisadi' kararları ile aşağıdakilerden hangisi hedeflenmiştir?",
+        "o": [
+            "Yabancı sermayenin ülkeye girişini tamamen yasaklamak",
+            "Sosyalist bir ekonomik model uygulamak",
+            "Ekonomik bağımsızlığı sağlamak ve yerli üretimi teşvik etmek",
+            "Tarımı ihmal edip sadece sanayiye yönelmek",
+            "Tüm üretim araçlarını devletleştirmek"
+        ],
+        "a": 2,
+        "e": "İzmir İktisat Kongresi'nde alınan kararlar, siyasi bağımsızlığın ekonomik bağımsızlıkla taçlandırılmasını, yerli malı kullanımını ve milli sanayinin kurulmasını hedeflemiştir."
+    },
+    {
+        "id": "tarih_007",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Saltanatın kaldırılması, Cumhuriyetin ilanı ve ordunun siyasetten ayrılması gibi inkılaplar, Atatürk ilkelerinden doğrudan hangisiyle ilişkilidir?",
+        "o": [
+            "Devletçilik",
+            "Halkçılık",
+            "Cumhuriyetçilik",
+            "İnkılapçılık",
+            "Laiklik"
+        ],
+        "a": 2,
+        "e": "Bu inkılaplar, milli egemenliğin hakim kılınması ve yönetimin millete ait olması esasını içerdiğinden doğrudan 'Cumhuriyetçilik' ilkesi ile ilgilidir."
+    },
+    {
+        "id": "tarih_008",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "sosyal-inkilaplar",
+        "subtopic": "Sosyal Alanda İnkılaplar",
+        "q": "1925 yılında çıkarılan 'Şapka İktisası Hakkında Kanun' ve 1934 yılında çıkarılan 'Kılık Kıyafet Kanunu'nun ortak amacı aşağıdakilerden hangisidir?",
+        "o": [
+            "Ekonomik tasarruf sağlamak",
+            "Toplumda dış görünüş itibarıyla çağdaşlaşma ve birlik sağlamak",
+            "Yerli kumaş kullanımını zorunlu kılmak",
+            "Dini inançları zayıflatmak",
+            "Askeri disiplini artırmak"
+        ],
+        "a": 1,
+        "e": "Her iki kanun da toplumdaki kılık kıyafet karmaşasını önlemek, sınıfsal veya dinsel statü farklarını kıyafet üzerinden kaldırmak ve batılı, çağdaş bir görünüm sağlayarak toplumsal bütünleşmeyi hedeflemiştir."
+    },
+    {
+        "id": "tarih_009",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1939",
+        "subtopic": "Atatürk Dönemi Dış Politika (1930-1939)",
+        "q": "Türkiye'nin Boğazlar üzerindeki egemenlik haklarını tam olarak geri kazandığı ve Boğazlar Komisyonu'nun kaldırıldığı uluslararası belge aşağıdakilerden hangisidir?",
+        "o": [
+            "Lozan Barış Antlaşması",
+            "Montreux (Montrö) Boğazlar Sözleşmesi",
+            "Ankara Antlaşması",
+            "Sadabad Paktı",
+            "Balkan Antantı"
+        ],
+        "a": 1,
+        "e": "1936 yılında imzalanan Montrö Boğazlar Sözleşmesi ile Boğazlar Komisyonu kaldırılmış, Boğazların savunma hakkı ve tam egemenliği Türkiye'ye bırakılmıştır."
+    },
+    {
+        "id": "tarih_010",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Türkiye'de 1929 Dünya Ekonomik Buhranı'nın etkisiyle özel sektörün yetersiz kaldığı alanlarda devletin doğrudan yatırımlar yapmasını öngören Atatürk ilkesi hangisidir?",
+        "o": [
+            "Halkçılık",
+            "Cumhuriyetçilik",
+            "Devletçilik",
+            "Milliyetçilik",
+            "Laiklik"
+        ],
+        "a": 2,
+        "e": "Devletçilik ilkesi, özel teşebbüsün yetersiz kaldığı durumlarda devletin ekonomiye müdahale etmesini, fabrikalar kurmasını ve kalkınmayı planlamasını öngörür. 1930'lardan sonra zorunluluktan uygulanmıştır."
+    },
+    {
+        "id": "tarih_011",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-ve-kultur",
+        "subtopic": "Eğitim ve Kültür Alanında İnkılaplar",
+        "q": "1 Kasım 1928'de Yeni Türk Harflerinin kabul edilmesinden sonra, bu harfleri halka öğretmek ve okuma-yazma oranını artırmak amacıyla açılan kurum aşağıdakilerden hangisidir?",
+        "o": [
+            "Köy Enstitüleri",
+            "Halkevleri",
+            "Millet Mektepleri",
+            "Türk Ocakları",
+            "Darülfünun"
+        ],
+        "a": 2,
+        "e": "Harf İnkılabı'nın ardından, okul çağını geçmiş vatandaşlara yeni harfleri öğretmek amacıyla 24 Kasım 1928'de 'Millet Mektepleri' açılmıştır. Atatürk'e de 'Başöğretmen' unvanı bu mekteplerde verilmiştir."
+    },
+    {
+        "id": "tarih_012",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "hukuk-inkilaplari",
+        "subtopic": "Hukuk Alanında İnkılaplar",
+        "q": "1924 Anayasası'nda 1928 yılında yapılan değişiklikle anayasa metninden çıkarılan ibare aşağıdakilerden hangisidir?",
+        "o": [
+            "Egemenlik kayıtsız şartsız milletindir.",
+            "Devletin dini İslam'dır.",
+            "Türkiye Devleti bir Cumhuriyettir.",
+            "Başkent Ankara'dır.",
+            "Türkçe resmi dildir."
+        ],
+        "a": 1,
+        "e": "Laiklik yolunda atılan önemli bir adım olarak, 1928 yılında yapılan değişiklikle 'Devletin dini İslam'dır' ibaresi ve milletvekili yeminlerindeki 'Vallahi' gibi dini ifadeler anayasadan çıkarılmıştır."
+    },
+    {
+        "id": "tarih_013",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1939",
+        "subtopic": "Atatürk Dönemi Dış Politika (1930-1939)",
+        "q": "Türkiye'nin İtalya ve Almanya'nın yayılmacı politikalarına karşı batı sınırını güvence altına almak için 1934 yılında Yunanistan, Yugoslavya ve Romanya ile imzaladığı pakt hangisidir?",
+        "o": [
+            "Sadabad Paktı",
+            "Balkan Antantı",
+            "Kellogg-Briand Paktı",
+            "Litvinov Protokolü",
+            "Locarno Antlaşması"
+        ],
+        "a": 1,
+        "e": "Türkiye, Yunanistan, Yugoslavya ve Romanya arasında 1934'te imzalanan Balkan Antantı, sınırların karşılıklı garanti altına alınmasını amaçlamıştır. (Kodlama: TaYYaR)."
+    },
+    {
+        "id": "tarih_014",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cok-partili-hayat",
+        "subtopic": "Çok Partili Hayata Geçiş Denemeleri",
+        "q": "Atatürk'ün isteğiyle Fethi Okyar tarafından 1930 yılında kurulan, ancak kısa süre sonra rejim karşıtlarının odağı haline geldiği gerekçesiyle kurucusu tarafından feshedilen parti hangisidir?",
+        "o": [
+            "Cumhuriyet Halk Fırkası",
+            "Terakkiperver Cumhuriyet Fırkası",
+            "Serbest Cumhuriyet Fırkası",
+            "Milli Kalkınma Partisi",
+            "Demokrat Parti"
+        ],
+        "a": 2,
+        "e": "Serbest Cumhuriyet Fırkası (SCF), 1930 yılında ekonomik bunalıma karşı alternatif politikalar üretmek ve demokrasiyi geliştirmek amacıyla kurulmuş, ancak rejim karşıtı eylemlerin odağı olunca Fethi Okyar tarafından kapatılmıştır."
+    },
+    {
+        "id": "tarih_015",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-inkilaplari",
+        "subtopic": "Ekonomi Alanında İnkılaplar",
+        "q": "Cumhuriyetin ilk yıllarında tarımı desteklemek ve köylünün üzerindeki ağır vergi yükünü kaldırmak amacıyla 1925 yılında kaldırılan vergi aşağıdakilerden hangisidir?",
+        "o": [
+            "Varlık Vergisi",
+            "Ağnam Vergisi",
+            "Aşar (Öşür) Vergisi",
+            "Toprak Mahsulleri Vergisi",
+            "Cizye Vergisi"
+        ],
+        "a": 2,
+        "e": "Halkçılık ilkesi gereği ve tarımsal üretimi teşvik etmek amacıyla, Osmanlı'dan kalan ve köylü üzerinde büyük yük oluşturan Aşar (Öşür) vergisi 1925 yılında kaldırılmıştır."
+    },
+    {
+        "id": "tarih_016",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "sosyal-inkilaplar",
+        "subtopic": "Sosyal Alanda İnkılaplar",
+        "q": "Türk kadınlarına siyasi hakların verilmesi sürecinde izlenen kronolojik sıra aşağıdakilerden hangisinde doğru verilmiştir?",
+        "o": [
+            "Muhtarlık - Belediye - Milletvekilliği",
+            "Belediye - Muhtarlık - Milletvekilliği",
+            "Milletvekilliği - Belediye - Muhtarlık",
+            "Belediye - Milletvekilliği - Muhtarlık",
+            "Muhtarlık - Milletvekilliği - Belediye"
+        ],
+        "a": 1,
+        "e": "Türk kadınına siyasi haklar sırasıyla; 1930'da Belediye seçimleri, 1933'te Muhtarlık seçimleri ve 1934'te Milletvekili (Vekil) seçme ve seçilme hakkı olarak verilmiştir. (Kodlama: BMW)."
+    },
+    {
+        "id": "tarih_017",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1939",
+        "subtopic": "Atatürk Dönemi Dış Politika (1930-1939)",
+        "q": "Sancak sorunu olarak da bilinen, Atatürk'ün 'Şahsi meselemdir' dediği ve anavatana katılması için yoğun çaba harcadığı yer neresidir?",
+        "o": [
+            "Musul",
+            "Batum",
+            "Hatay",
+            "Kerkük",
+            "Batı Trakya"
+        ],
+        "a": 2,
+        "e": "Hatay sorunu, Fransa mandasındaki Suriye ile ilgili gelişmeler sırasında ortaya çıkmış, Atatürk'ün yoğun diplomasisi sonucu Hatay Cumhuriyeti kurulmuş ve 1939'da Türkiye'ye katılmıştır."
+    },
+    {
+        "id": "tarih_018",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-ve-kultur",
+        "subtopic": "Eğitim ve Kültür Alanında İnkılaplar",
+        "q": "1933 yılında İsviçreli Profesör Albert Malche'nin hazırladığı rapor doğrultusunda Darülfünun kapatılarak yerine kurulan yükseköğretim kurumu hangisidir?",
+        "o": [
+            "İstanbul Teknik Üniversitesi",
+            "Ankara Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Gazi Üniversitesi",
+            "Mimar Sinan Güzel Sanatlar Üniversitesi"
+        ],
+        "a": 2,
+        "e": "1933 Üniversite Reformu ile Osmanlı'dan kalan Darülfünun kapatılmış ve yerine daha modern ve bilimsel esaslara dayalı eğitim vermesi amacıyla İstanbul Üniversitesi kurulmuştur."
+    },
+    {
+        "id": "tarih_019",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "sosyal-inkilaplar",
+        "subtopic": "Sosyal Alanda İnkılaplar",
+        "q": "1 Temmuz 1926'da yürürlüğe giren ve Türk karasularında yolcu ve yük taşıma hakkını (limanlar arası işletmecilik) sadece Türk gemilerine ve vatandaşlarına tanıyan kanun hangisidir?",
+        "o": [
+            "Teşvik-i Sanayi Kanunu",
+            "Kabotaj Kanunu",
+            "Milli Korunma Kanunu",
+            "Soyadı Kanunu",
+            "Etibank Kanunu"
+        ],
+        "a": 1,
+        "e": "Kabotaj Kanunu, Türk denizlerinde ticaret yapma hakkını millileştirmiş ve kapitülasyonların denizcilikteki etkilerini tamamen silmiştir. Milliyetçilik ilkesiyle doğrudan ilgilidir."
+    },
+    {
+        "id": "tarih_020",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Toplumda ayrıcalık bildiren unvanların (ağa, paşa, bey vb.) kaldırılması ve Soyadı Kanunu'nun kabulü, Atatürk ilkelerinden en çok hangisiyle ilişkilidir?",
+        "o": [
+            "Devletçilik",
+            "İnkılapçılık",
+            "Halkçılık",
+            "Cumhuriyetçilik",
+            "Laiklik"
+        ],
+        "a": 2,
+        "e": "Soyadı Kanunu ve unvanların kaldırılması, toplumda sınıf farkı gözetmeksizin herkesin kanun önünde eşit olmasını amaçladığı için doğrudan 'Halkçılık' ilkesi ile ilgilidir."
+    },
+    {
+        "id": "tarih_021",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "siyasi-inkilaplar",
+        "subtopic": "Siyasi Alanda Yapılan İnkılaplar",
+        "q": "Türkiye Büyük Millet Meclisi tarafından 3 Mart 1924 tarihinde kabul edilen kanunla Halifelik makamı kaldırılmıştır. Aşağıdakilerden hangisi Halifeliğin kaldırılmasının sonuçlarından biri değildir?",
+        "o": [
+            "Laik devlet düzenine geçişin en önemli aşaması gerçekleşmiştir",
+            "Ulusal egemenlik anlayışı güçlenmiştir",
+            "İnkılapların yapılması süreci hızlanmıştır",
+            "Ümmetçilik anlayışı yerine ulusçuluk anlayışı güçlenmiştir",
+            "Devletin rejimi belirlenmiş ve devlet başkanlığı sorunu çözülmüştür"
+        ],
+        "a": 4,
+        "e": "Devletin rejiminin belirlenmesi ve devlet başkanlığı sorununun çözülmesi, 29 Ekim 1923'te Cumhuriyetin ilanı ile gerçekleşmiştir. Halifelik ise bundan sonra, 3 Mart 1924'te kaldırılmıştır."
+    },
+    {
+        "id": "tarih_022",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cok-partili-hayat",
+        "subtopic": "Çok Partili Hayata Geçiş Denemeleri",
+        "q": "Cumhuriyet tarihinin ilk muhalefet partisi olan Terakkiperver Cumhuriyet Fırkası, aşağıdaki gelişmelerden hangisi gerekçe gösterilerek kapatılmıştır?",
+        "o": [
+            "Menemen Olayı",
+            "Şeyh Sait İsyanı",
+            "İzmir Suikastı Girişimi",
+            "Dersim Olayları",
+            "Çerkez Ethem İsyanı"
+        ],
+        "a": 1,
+        "e": "Kazım Karabekir ve arkadaşları tarafından kurulan Terakkiperver Cumhuriyet Fırkası, doğuda çıkan Şeyh Sait İsyanı'nda (1925) rolü olduğu ve rejimi tehdit ettiği gerekçesiyle Takrir-i Sükûn Kanunu'na dayanılarak kapatılmıştır."
+    },
+    {
+        "id": "tarih_023",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "hukuk-inkilaplari",
+        "subtopic": "Hukuk Alanında İnkılaplar",
+        "q": "1926 yılında kabul edilen Türk Medeni Kanunu ile kadınlara aşağıdaki haklardan hangisi verilmemiştir?",
+        "o": [
+            "Mirasta erkekle eşit pay alma hakkı",
+            "İstediği mesleğe girebilme hakkı",
+            "Mahkemede tanıklıkta eşitlik",
+            "Seçme ve seçilme hakkı",
+            "Resmi nikah zorunluluğu"
+        ],
+        "a": 3,
+        "e": "Türk Medeni Kanunu (1926) kadınlara sosyal ve ekonomik haklar tanımıştır. Ancak kadınlara seçme ve seçilme gibi siyasi hakların verilmesi 1930 (Belediye), 1933 (Muhtar) ve 1934 (Milletvekili) yıllarında gerçekleşmiştir."
+    },
+    {
+        "id": "tarih_024",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-inkilaplari",
+        "subtopic": "Ekonomi Alanında İnkılaplar",
+        "q": "17 Şubat 1923'te toplanan İzmir İktisat Kongresi'nde alınan 'Misak-ı İktisadi' kararları doğrultusunda, yerli malı kullanımını teşvik etmek ve ulusal ekonomiyi kurmak amaçlanmıştır. Aşağıdakilerden hangisi bu doğrultuda atılan adımlardan biri değildir?",
+        "o": [
+            "Kabotaj Kanunu'nun kabulü",
+            "Teşvik-i Sanayi Kanunu'nun çıkarılması",
+            "Gümrük vergilerinin artırılması",
+            "İş Bankası'nın kurulması",
+            "Devlet Planlama Teşkilatı'nın kurulması"
+        ],
+        "a": 4,
+        "e": "Devlet Planlama Teşkilatı (DPT), 1960 darbesinden sonra, 1961 Anayasası ile planlı kalkınma dönemine geçilmesiyle kurulmuştur. Diğer seçenekler Atatürk dönemi ekonomik gelişmeleridir."
+    },
+    {
+        "id": "tarih_025",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Aşağıdaki inkılaplardan hangisi doğrudan 'Cumhuriyetçilik' ilkesi ile ilgilidir?",
+        "o": [
+            "Soyadı Kanunu'nun kabulü",
+            "Ordunun siyasetten ayrılması",
+            "Kılık kıyafet düzenlemesi",
+            "Tekke ve zaviyelerin kapatılması",
+            "Ölçü ve tartı birimlerinin değiştirilmesi"
+        ],
+        "a": 1,
+        "e": "Ordunun siyasetten ayrılması (Erkan-ı Harbiye-i Umumiye Vekaleti'nin kaldırılması), milli iradenin siyasete tam yansıması ve demokrasinin işleyişi açısından doğrudan Cumhuriyetçilik ilkesi ile ilgilidir. Diğerleri daha çok laiklik, halkçılık ve inkılapçılıkla ilgilidir."
+    },
+    {
+        "id": "tarih_026",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika",
+        "subtopic": "Atatürk Dönemi Türk Dış Politikası",
+        "q": "Türkiye, 1932 yılında Milletler Cemiyeti'ne (Cemiyet-i Akvam) üye olmuştur. Türkiye'nin bu cemiyete girmesindeki temel amaç aşağıdakilerden hangisidir?",
+        "o": [
+            "Musul sorununu lehine çözmek",
+            "Boğazlar üzerindeki egemenliğini kesinleştirmek",
+            "Dünya barışına katkıda bulunmak ve sınırlarını güvence altına almak",
+            "Hatay'ı anavatana katmak",
+            "Kapitülasyonların kaldırılmasını sağlamak"
+        ],
+        "a": 2,
+        "e": "Türkiye, 'Yurtta sulh, cihanda sulh' ilkesi doğrultusunda dünya barışına katkıda bulunmak ve yaklaşan 2. Dünya Savaşı tehlikesine karşı sınırlarını güvence altına almak amacıyla Milletler Cemiyeti'ne katılmıştır. Musul sorunu 1926'da çözülmüş, Kapitülasyonlar Lozan'da kaldırılmıştı."
+    },
+    {
+        "id": "tarih_027",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "siyasi-inkilaplar",
+        "subtopic": "Siyasi Alanda Yapılan İnkılaplar",
+        "q": "Aşağıdakilerden hangisi 1923-1930 yılları arasında Türkiye Cumhuriyeti'nde yaşanan siyasi gelişmelerden biri değildir?",
+        "o": [
+            "Ankara'nın başkent ilan edilmesi",
+            "Cumhuriyetin ilanı",
+            "Halifeliğin kaldırılması",
+            "Serbest Cumhuriyet Fırkası'nın kurulması",
+            "Kadınlara milletvekili seçme ve seçilme hakkının verilmesi"
+        ],
+        "a": 4,
+        "e": "Kadınlara milletvekili seçme ve seçilme hakkı 1934 yılında verilmiştir. Diğer gelişmeler 1923-1930 yılları arasındadır (Ankara: 1923, Cumhuriyet: 1923, Halifelik: 1924, SCF: 1930)."
+    },
+    {
+        "id": "tarih_028",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "toplumsal-inkilaplar",
+        "subtopic": "Toplumsal Alanda İnkılaplar",
+        "q": "Atatürk döneminde yapılan aşağıdaki düzenlemelerden hangisi, toplumsal alanda ayrıcalık ifade eden unvanların kaldırılmasını ve resmi işlemlerdeki karışıklıkların önlenmesini amaçlamıştır?",
+        "o": [
+            "Şapka Kanunu",
+            "Soyadı Kanunu",
+            "Takvim, Saat ve Ölçülerde Değişiklik",
+            "Tekke, Zaviye ve Türbelerin Kapatılması",
+            "Medeni Kanun'un Kabulü"
+        ],
+        "a": 1,
+        "e": "1934 yılında çıkarılan Soyadı Kanunu ile 'ağa, hacı, hafız, hoca, molla' gibi ayrıcalık belirten unvanlar yasaklanmış, herkesin bir soyadı alması zorunlu kılınarak resmi işlerdeki (askerlik, miras, tapu vb.) karışıklıklar giderilmiştir."
+    },
+    {
+        "id": "tarih_029",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Türkiye Cumhuriyeti'nde 'ekonomik kalkınmayı gerçekleştirmek için özel sektörün yetersiz kaldığı alanlarda devletin yatırım yapmasını' öngören Atatürk ilkesi aşağıdakilerden hangisidir?",
+        "o": [
+            "Cumhuriyetçilik",
+            "Milliyetçilik",
+            "Halkçılık",
+            "Devletçilik",
+            "İnkılapçılık"
+        ],
+        "a": 3,
+        "e": "Devletçilik ilkesi, özel teşebbüsün yetersiz kaldığı durumlarda devletin ekonomiye müdahale etmesini, fabrikalar kurmasını ve yatırımları yönlendirmesini esas alır."
+    },
+    {
+        "id": "tarih_030",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika",
+        "subtopic": "Atatürk Dönemi Türk Dış Politikası",
+        "q": "Lozan Barış Antlaşması'ndan sonra Türkiye ile Fransa arasında yaşanan sorunlar arasında aşağıdakilerden hangisi yer almaz?",
+        "o": [
+            "Yabancı Okullar Sorunu",
+            "Dış Borçlar Sorunu",
+            "Adana-Mersin Demiryolları Sorunu",
+            "Nüfus Mübadelesi Sorunu",
+            "Bozkurt-Lotus Olayı"
+        ],
+        "a": 3,
+        "e": "Nüfus Mübadelesi (Etabli) sorunu Fransa ile değil, Yunanistan ile yaşanmıştır. Diğer seçenekler Türkiye ile Fransa arasındaki sorunlardır."
+    },
+    {
+        "id": "tarih_031",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "hukuk-inkilaplari",
+        "subtopic": "Hukuk Alanında İnkılaplar",
+        "q": "Türk hukuk sisteminin laikleşmesi yolunda atılan adımların kronolojik sıralaması aşağıdakilerden hangisinde doğru verilmiştir?\nI. Medeni Kanun'un kabulü\nII. Anayasa'dan 'Devletin dini İslam'dır' maddesinin çıkarılması\nIII. Şeriye ve Evkaf Vekaleti'nin kaldırılması",
+        "o": [
+            "I - II - III",
+            "III - I - II",
+            "III - II - I",
+            "II - I - III",
+            "I - III - II"
+        ],
+        "a": 1,
+        "e": "Sıralama şöyledir: Şeriye ve Evkaf Vekaleti'nin kaldırılması (3 Mart 1924) -> Medeni Kanun'un kabulü (17 Şubat 1926) -> Anayasa'dan 'Devletin dini İslam'dır' maddesinin çıkarılması (1928)."
+    },
+    {
+        "id": "tarih_032",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-inkilaplari",
+        "subtopic": "Ekonomi Alanında İnkılaplar",
+        "q": "1 Temmuz 1926 tarihinde yürürlüğe giren ve Türk karasularında yolcu ve yük taşıma hakkını sadece Türk gemilerine ve vatandaşlarına tanıyan kanun aşağıdakilerden hangisidir?",
+        "o": [
+            "Teşvik-i Sanayi Kanunu",
+            "Kabotaj Kanunu",
+            "Milli Korunma Kanunu",
+            "Varlık Vergisi Kanunu",
+            "Toprak Reformu Kanunu"
+        ],
+        "a": 1,
+        "e": "Kabotaj Kanunu, Türk denizlerinde gemi işletme hakkını (kabotaj hakkını) millileştirmiştir. Bu kanun Milliyetçilik ilkesi ile doğrudan ilgilidir."
+    },
+    {
+        "id": "tarih_033",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-kultur-inkilaplari",
+        "subtopic": "Eğitim ve Kültür Alanında İnkılaplar",
+        "q": "1933 yılında gerçekleştirilen Üniversite Reformu kapsamında, İstanbul Darülfünunu kapatılarak yerine aşağıdaki kurumlardan hangisi kurulmuştur?",
+        "o": [
+            "Ankara Üniversitesi",
+            "İstanbul Üniversitesi",
+            "İstanbul Teknik Üniversitesi",
+            "Mimar Sinan Güzel Sanatlar Üniversitesi",
+            "Gazi Eğitim Enstitüsü"
+        ],
+        "a": 1,
+        "e": "İsviçreli Profesör Albert Malche'nin raporu doğrultusunda 1933 Üniversite Reformu yapılmış, Darülfünun kapatılarak yerine modern anlamda eğitim veren İstanbul Üniversitesi kurulmuştur."
+    },
+    {
+        "id": "tarih_034",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Halkçılık ilkesi; sınıf mücadelesini reddeder, sosyal adaleti ve kanun önünde eşitliği savunur. Buna göre aşağıdakilerden hangisi Halkçılık ilkesinin bir gereği olarak değerlendirilemez?",
+        "o": [
+            "Aşar vergisinin kaldırılması",
+            "İlköğretimin zorunlu ve parasız olması",
+            "Kadınlara siyasi hakların verilmesi",
+            "Soyadı Kanunu'nun çıkarılması",
+            "Yabancı işletmelerin millileştirilmesi"
+        ],
+        "a": 4,
+        "e": "Yabancı işletmelerin millileştirilmesi öncelikle 'Milliyetçilik' ilkesi ile ilgilidir. Diğer seçenekler toplumda eşitliği sağlamaya veya halkın refahına yönelik (Halkçılık) uygulamalardır."
+    },
+    {
+        "id": "tarih_035",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika",
+        "subtopic": "Atatürk Dönemi Türk Dış Politikası",
+        "q": "Türkiye, 1934 yılında sınır güvenliğini sağlamak amacıyla Yunanistan, Yugoslavya ve Romanya ile Balkan Antantı'nı imzalamıştır. Aşağıdaki devletlerden hangisi Balkan ülkesi olmasına rağmen yayılmacı politikaları nedeniyle bu antanta katılmamıştır?",
+        "o": [
+            "Arnavutluk",
+            "Macaristan",
+            "Çekoslovakya",
+            "Sovyet Rusya",
+            "İtalya"
+        ],
+        "a": 0,
+        "e": "Bulgaristan (yayılmacı emelleri nedeniyle) ve Arnavutluk (İtalya'nın baskısı altında olduğu için) Balkan Antantı'na katılmamıştır. Soruda Balkan ülkesi olması vurgulandığı için cevap Arnavutluk'tur (veya Bulgaristan olabilirdi şıklarda olsaydı)."
+    },
+    {
+        "id": "tarih_036",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cok-partili-hayat",
+        "subtopic": "Çok Partili Hayata Geçiş Denemeleri",
+        "q": "1930 yılında Ali Fethi Okyar tarafından kurulan Serbest Cumhuriyet Fırkası'nın savunduğu ekonomik model aşağıdakilerden hangisidir?",
+        "o": [
+            "Devletçilik",
+            "Liberalizm",
+            "Sosyalizm",
+            "Karma Ekonomi",
+            "Himayeci Ekonomi"
+        ],
+        "a": 1,
+        "e": "Cumhuriyet Halk Fırkası 'Devletçilik' ilkesini benimserken, muhalefet partisi olarak kurulan Serbest Cumhuriyet Fırkası ekonomide 'Liberalizm'i (Serbest Piyasa) savunmuştur."
+    },
+    {
+        "id": "tarih_037",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika",
+        "subtopic": "Atatürk Dönemi Türk Dış Politikası",
+        "q": "Hatay Cumhuriyeti'nin kurulmasından sonra, Hatay Meclisi'nin aldığı kararla Türkiye'ye katılma süreci tamamlanmıştır. Hatay'ın anavatana katılması hangi yıl gerçekleşmiştir?",
+        "o": [
+            "1936",
+            "1937",
+            "1938",
+            "1939",
+            "1940"
+        ],
+        "a": 3,
+        "e": "Hatay Cumhuriyeti 1938'de kurulmuş, Hatay Meclisi'nin aldığı kararla 1939 yılında Türkiye'ye katılmıştır. Bu olay Atatürk'ün vefatından sonra gerçekleşmiştir."
+    },
+    {
+        "id": "tarih_038",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Atatürk'ün 'Hayatta en hakiki mürşit ilimdir' sözü, bütünleyici ilkelerden hangisiyle doğrudan ilişkilidir?",
+        "o": [
+            "Milli Birlik ve Beraberlik",
+            "Yurtta Sulh Cihanda Sulh",
+            "Akılcılık ve Bilimsellik",
+            "Milli Egemenlik",
+            "İnsan ve İnsanlık Sevgisi"
+        ],
+        "a": 2,
+        "e": "Bu söz, Laiklik ilkesinin bir uzantısı olan ve İnkılapçılıkla da bağdaşan 'Akılcılık ve Bilimsellik' bütünleyici ilkesiyle doğrudan ilişkilidir."
+    },
+    {
+        "id": "tarih_039",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cumhuriyetin-ilani",
+        "subtopic": "Siyasi İnkılaplar",
+        "q": "27 Ekim 1923'te Fethi Okyar Hükûmeti'nin istifasıyla ortaya çıkan ve 'Sonbahar Bunalımı' (Hükûmet Bunalımı) olarak adlandırılan siyasi kriz, aşağıdaki gelişmelerden hangisiyle çözüme kavuşturulmuştur?",
+        "o": [
+            "Saltanatın kaldırılmasıyla",
+            "Halifeliğin kaldırılmasıyla",
+            "Cumhuriyetin ilanıyla",
+            "Kabine sistemine son verilmesiyle",
+            "Çok partili hayata geçilmesiyle"
+        ],
+        "a": 2,
+        "e": "Meclis hükûmeti sisteminin tıkanması sonucu ortaya çıkan Hükûmet Bunalımı, 29 Ekim 1923'te Cumhuriyetin ilanı ve kabine sistemine geçilmesiyle çözülmüştür."
+    },
+    {
+        "id": "tarih_040",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cok-partili-hayat",
+        "subtopic": "Siyasi Partiler",
+        "q": "Türkiye Cumhuriyeti'nin ilk muhalefet partisi olan Terakkiperver Cumhuriyet Fırkası'nın kurucuları arasında aşağıdakilerden hangisi yer almaz?",
+        "o": [
+            "Kazım Karabekir",
+            "Rauf Orbay",
+            "Ali Fuat Cebesoy",
+            "Refet Bele",
+            "Fethi Okyar"
+        ],
+        "a": 4,
+        "e": "Fethi Okyar, Serbest Cumhuriyet Fırkası'nın kurucusudur. Diğer isimler (Kazım Karabekir, Rauf Orbay, Ali Fuat Cebesoy, Refet Bele) Terakkiperver Cumhuriyet Fırkası'nın kurucularıdır (KARAR kodlaması)."
+    },
+    {
+        "id": "tarih_041",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-inkilabi",
+        "subtopic": "Eğitim ve Kültür İnkılapları",
+        "q": "Türkiye'de eğitim ve öğretimin birleştirilmesi, medreselerin kapatılmasına zemin hazırlanması aşağıdaki kanunlardan hangisi ile gerçekleşmiştir?",
+        "o": [
+            "Maarif Teşkilatı Kanunu",
+            "Tevhid-i Tedrisat Kanunu",
+            "Harf İnkılabı Kanunu",
+            "Tekke ve Zaviyelerin Kapatılması Kanunu",
+            "Türk Tarih Kurumu Kanunu"
+        ],
+        "a": 1,
+        "e": "3 Mart 1924'te kabul edilen Tevhid-i Tedrisat Kanunu ile tüm eğitim kurumları MEB'e bağlanmış, eğitimde birlik sağlanmış ve medreselerin kapatılması süreci başlamıştır."
+    },
+    {
+        "id": "tarih_042",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "izmir-iktisat-kongresi",
+        "subtopic": "Ekonomi Alanında İnkılaplar",
+        "q": "Lozan Görüşmeleri'nin kesintiye uğradığı dönemde toplanan İzmir İktisat Kongresi'nde alınan kararlara genel olarak ne ad verilir?",
+        "o": [
+            "Misak-ı Milli",
+            "Misak-ı İktisadi",
+            "Teşvik-i Sanayi",
+            "Planlı Kalkınma",
+            "Milli Korunma"
+        ],
+        "a": 1,
+        "e": "İzmir İktisat Kongresi'nde (1923) alınan ve milli ekonomiyi oluşturmayı hedefleyen kararlar bütününe 'Misak-ı İktisadi' (Ekonomi Yemini) denir."
+    },
+    {
+        "id": "tarih_043",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "toplumsal-inkilaplar",
+        "subtopic": "Sosyal Alanda İnkılaplar",
+        "q": "Mustafa Kemal Atatürk, Şapka İnkılabı'nı halka tanıtmak amacıyla yurt gezisine çıkarak aşağıdaki illerden hangisini ziyaret etmiştir?",
+        "o": [
+            "Sivas",
+            "Erzurum",
+            "Kastamonu",
+            "Bursa",
+            "İzmir"
+        ],
+        "a": 2,
+        "e": "Atatürk, Şapka İnkılabı'nı tanıtmak ve halka benimsetmek amacıyla 1925 yılında Kastamonu'ya (İnebolu) bir ziyaret gerçekleştirmiştir."
+    },
+    {
+        "id": "tarih_044",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1923-1930",
+        "subtopic": "Atatürk Dönemi Dış Politika",
+        "q": "Lozan Antlaşması'nda çözülemeyen ve ikili görüşmelere bırakılan, 1926 Ankara Antlaşması ile Türkiye aleyhine çözülen sorun aşağıdakilerden hangisidir?",
+        "o": [
+            "Boğazlar Sorunu",
+            "Yabancı Okullar Sorunu",
+            "Musul Sorunu",
+            "Hatay Sorunu",
+            "Nüfus Mübadelesi"
+        ],
+        "a": 2,
+        "e": "Musul Sorunu, Lozan'da çözülememiş, İngiltere ile yapılan görüşmeler ve Milletler Cemiyeti süreci sonunda 1926 Ankara Antlaşması ile Musul İngiliz mandasındaki Irak'a bırakılmıştır."
+    },
+    {
+        "id": "tarih_045",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "anayasal-hareketler",
+        "subtopic": "Anayasa Tarihi",
+        "q": "1924 Anayasası'nda yapılan 1928 değişikliği ile aşağıdakilerden hangisi anayasadan çıkarılmıştır?",
+        "o": [
+            "Egemenlik kayıtsız şartsız milletindir ibaresi",
+            "Devletin dini İslam'dır ibaresi",
+            "Seçme yaşının 18 olması",
+            "Atatürk İlkeleri",
+            "Cumhurbaşkanının partili olması"
+        ],
+        "a": 1,
+        "e": "1928 yılında yapılan değişiklikle 'Devletin dini İslam'dır' maddesi anayasadan çıkarılarak laiklik yolunda önemli bir adım atılmıştır."
+    },
+    {
+        "id": "tarih_046",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "rejim-karsiti-isyanlar",
+        "subtopic": "İç Politika Gelişmeleri",
+        "q": "Cumhuriyet rejimine karşı çıkan ikinci büyük irticai ayaklanma olan Menemen Olayı (1930) sonucunda şehit edilen yedek subay aşağıdakilerden hangisidir?",
+        "o": [
+            "Mustafa Fehmi",
+            "Hasan Tahsin",
+            "Mustafa Fehmi Kubilay",
+            "Şerif Bey",
+            "Ali Saip Bey"
+        ],
+        "a": 2,
+        "e": "Menemen Olayı sırasında öğretmen yedek subay Mustafa Fehmi Kubilay ve iki bekçi gericiler tarafından şehit edilmiştir."
+    },
+    {
+        "id": "tarih_047",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Özel sektörün yetersiz kalması ve 1929 Dünya Ekonomik Buhranı'nın etkileri nedeniyle zorunlu olarak uygulamaya konulan Atatürk ilkesi aşağıdakilerden hangisidir?",
+        "o": [
+            "Cumhuriyetçilik",
+            "Halkçılık",
+            "Devletçilik",
+            "Laiklik",
+            "İnkılapçılık"
+        ],
+        "a": 2,
+        "e": "Sermaye yetersizliği ve 1929 krizinin etkilerini azaltmak amacıyla devletin ekonomiye doğrudan müdahalesini öngören 'Devletçilik' ilkesi uygulanmıştır."
+    },
+    {
+        "id": "tarih_048",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "kultur-kurumlari",
+        "subtopic": "Eğitim ve Kültür İnkılapları",
+        "q": "Halkı inkılaplar konusunda eğitmek ve kültürel kalkınmayı sağlamak amacıyla 1932 yılında, kapatılan Türk Ocakları'nın yerine kurulan kurum aşağıdakilerden hangisidir?",
+        "o": [
+            "Köy Enstitüleri",
+            "Millet Mektepleri",
+            "Halkevleri",
+            "Türk Dil Kurumu",
+            "Sanayi-i Nefise Mektebi"
+        ],
+        "a": 2,
+        "e": "1932 yılında kurulan Halkevleri, Cumhuriyet ideolojisini ve inkılapları halka anlatmak, kültürel birliği sağlamak amacıyla açılmıştır."
+    },
+    {
+        "id": "tarih_049",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "balkan-antanti",
+        "subtopic": "Atatürk Dönemi Dış Politika",
+        "q": "1934 yılında Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalanan Balkan Antantı'na, revizyonist (yayılmacı) politikaları nedeniyle katılmayan devlet aşağıdakilerden hangisidir?",
+        "o": [
+            "Arnavutluk",
+            "Bulgaristan",
+            "Macaristan",
+            "İtalya",
+            "Sovyet Rusya"
+        ],
+        "a": 1,
+        "e": "Bulgaristan, II. Balkan Savaşı ve I. Dünya Savaşı sonrası kaybettiği toprakları geri alma (revizyonist) isteği ve Ege Denizi'ne inme arzusu nedeniyle Balkan Antantı'na katılmamıştır. (Arnavutluk ise İtalya etkisinde olduğu için katılmamıştır, ancak soruda 'revizyonist' vurgusu Bulgaristan'ı işaret eder, şıklarda çeldirici olarak Arnavutluk verilmemişse Bulgaristan en güçlü cevaptır. Şıklarda Arnavutluk var ise; Arnavutluk İtalya baskısı, Bulgaristan ise toprak talebi yüzünden katılmaz. ÖSYM sorularında genelde Bulgaristan sorulur)."
+    },
+    {
+        "id": "tarih_050",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "anayasa-degisiklikleri",
+        "subtopic": "Anayasa Tarihi",
+        "q": "Atatürk İlkeleri (Altı Ok), 1924 Anayasası'na hangi yıl yapılan değişiklikle girmiştir?",
+        "o": [
+            "1928",
+            "1930",
+            "1934",
+            "1937",
+            "1945"
+        ],
+        "a": 3,
+        "e": "CHP'nin altı ok ile simgelenen ilkeleri, 1937 yılında yapılan değişiklikle 1924 Anayasası'na eklenmiştir."
+    },
+    {
+        "id": "tarih_051",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "sanayi-planlari",
+        "subtopic": "Ekonomi Alanında İnkılaplar",
+        "q": "Türkiye'de 1934-1938 yılları arasında uygulanan I. Beş Yıllık Sanayi Planı'nın hazırlanmasında ve finansmanında kredi ve teknik destek sağlayan ülke aşağıdakilerden hangisidir?",
+        "o": [
+            "ABD",
+            "İngiltere",
+            "Sovyet Rusya",
+            "Almanya",
+            "Fransa"
+        ],
+        "a": 2,
+        "e": "Devletçilik ilkesi doğrultusunda hazırlanan I. Beş Yıllık Sanayi Planı için Sovyet Rusya'dan kredi ve teknik uzman desteği alınmıştır."
+    },
+    {
+        "id": "tarih_052",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "olcude-degisiklik",
+        "subtopic": "Sosyal Alanda İnkılaplar",
+        "q": "Batı ile ticari ve resmi ilişkileri kolaylaştırmak amacıyla Hicri ve Rumi takvimler kaldırılarak Miladi Takvim'in kabul edildiği tarih ve yürürlüğe giriş yılı aşağıdakilerden hangisidir?",
+        "o": [
+            "1923 (1924'te yürürlüğe girdi)",
+            "1925 (1926'da yürürlüğe girdi)",
+            "1926 (1927'de yürürlüğe girdi)",
+            "1928 (1929'da yürürlüğe girdi)",
+            "1930 (1931'de yürürlüğe girdi)"
+        ],
+        "a": 1,
+        "e": "Miladi Takvim, 26 Aralık 1925'te kabul edilmiş ve 1 Ocak 1926'dan itibaren yürürlüğe girmiştir."
+    },
+    {
+        "id": "tarih_053",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "sadabad-pakti",
+        "subtopic": "Atatürk Dönemi Dış Politika",
+        "q": "İtalya'nın Habeşistan'ı işgali ve doğu sınırlarını tehdit etmesi üzerine 1937'de kurulan Sadabad Paktı'na aşağıdaki devletlerden hangisi üye değildir?",
+        "o": [
+            "Türkiye",
+            "İran",
+            "Irak",
+            "Afganistan",
+            "Suriye"
+        ],
+        "a": 4,
+        "e": "Sadabad Paktı üyeleri Türkiye, İran, Irak ve Afganistan'dır. Suriye, Hatay sorunu ve Türkiye ile olan sınır anlaşmazlıkları nedeniyle bu pakta katılmamıştır."
+    },
+    {
+        "id": "tarih_054",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "halkcilik-ilkesi",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Aşağıdaki inkılaplardan hangisi, toplumsal sınıf farklılıklarını ortadan kaldırmayı ve eşitliği sağlamayı amaçladığı için doğrudan 'Halkçılık' ilkesi ile ilgilidir?",
+        "o": [
+            "Kabotaj Kanunu'nun kabulü",
+            "Soyadı Kanunu'nun kabulü",
+            "Latin harflerinin kabulü",
+            "Ölçü ve tartıların değişmesi",
+            "Hafta tatilinin Pazara alınması"
+        ],
+        "a": 1,
+        "e": "Soyadı Kanunu ile ayrıcalık belirten unvanların (ağa, paşa, bey vb.) kaldırılması, toplumsal eşitliği sağladığı için doğrudan Halkçılık ilkesi ile ilgilidir."
+    },
+    {
+        "id": "tarih_055",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dil-inkilabi",
+        "subtopic": "Eğitim ve Kültür İnkılapları",
+        "q": "Türkçeyi yabancı dillerin boyunduruğundan kurtarmak ve dilde sadeleşmeyi sağlamak amacıyla 1932 yılında kurulan kurum aşağıdakilerden hangisidir?",
+        "o": [
+            "Türk Tarih Kurumu",
+            "Türk Dil Kurumu",
+            "Dil ve Tarih-Coğrafya Fakültesi",
+            "Milli Talim ve Terbiye Kurulu",
+            "Türkiyat Enstitüsü"
+        ],
+        "a": 1,
+        "e": "Türk dilinin zenginliğini ortaya koymak ve sadeleştirmek amacıyla 1932 yılında Türk Dili Tetkik Cemiyeti (sonradan Türk Dil Kurumu) kurulmuştur."
+    },
+    {
+        "id": "tarih_056",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "kadin-haklari",
+        "subtopic": "Siyasi İnkılaplar",
+        "q": "Türk kadınlarına verilen siyasi hakların kronolojik sıralaması aşağıdakilerden hangisinde doğru verilmiştir?",
+        "o": [
+            "Milletvekili - Muhtar - Belediye",
+            "Muhtar - Belediye - Milletvekili",
+            "Belediye - Muhtar - Milletvekili",
+            "Belediye - Milletvekili - Muhtar",
+            "Milletvekili - Belediye - Muhtar"
+        ],
+        "a": 2,
+        "e": "Kadınlara siyasi haklar sırasıyla; 1930 Belediye seçimleri, 1933 Muhtarlık seçimleri ve 1934 Milletvekili (Vekil) seçme ve seçilme hakkı olarak verilmiştir (BMW kodlaması)."
+    },
+    {
+        "id": "tarih_057",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "siyasi-inkilaplar",
+        "subtopic": "Siyasi İnkılaplar",
+        "q": "Türkiye Cumhuriyeti'nde 'Egemenlik kayıtsız şartsız milletindir' ilkesinin tam anlamıyla hayata geçirilmesi yolunda atılan ilk ve en önemli adım aşağıdakilerden hangisidir?",
+        "o": [
+            "Saltanatın kaldırılması",
+            "Cumhuriyetin ilanı",
+            "Halifeliğin kaldırılması",
+            "TBMM'nin açılması",
+            "1921 Anayasası'nın kabulü"
+        ],
+        "a": 0,
+        "e": "TBMM'nin açılması egemenliğin millete verilmesi yolunda bir adımdır ancak ortamda hala Padişahın varlığı söz konusudur. Saltanatın 1 Kasım 1922'de kaldırılmasıyla kişisel egemenliğe son verilmiş ve ulusal egemenliğin önündeki en büyük engel kaldırılarak bu ilke tam anlamıyla hayata geçirilme yoluna girmiştir."
+    },
+    {
+        "id": "tarih_058",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "hukuk-inkilaplari",
+        "subtopic": "Hukuk İnkılapları",
+        "q": "17 Şubat 1926'da kabul edilen Türk Medeni Kanunu ile kadınlara; I. Mirasta eşitlik, II. Seçme ve seçilme hakkı, III. İstediği mesleğe girme hakkı yetkilerinden hangileri verilmiştir?",
+        "o": [
+            "Yalnız I",
+            "Yalnız II",
+            "I ve III",
+            "II ve III",
+            "I, II ve III"
+        ],
+        "a": 2,
+        "e": "Türk Medeni Kanunu ile kadınlara sosyal ve ekonomik haklar (miras, boşanma, şahitlik, meslek seçimi) verilmiştir. Ancak siyasi haklar (seçme ve seçilme) Medeni Kanun kapsamında değil, 1930, 1933 ve 1934 yıllarında yapılan anayasal düzenlemelerle verilmiştir."
+    },
+    {
+        "id": "tarih_059",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cok-partili-hayat",
+        "subtopic": "Çok Partili Hayat Denemeleri",
+        "q": "Cumhuriyet döneminin ilk muhalefet partisi olan Terakkiperver Cumhuriyet Fırkası'nın kapatılmasına neden olan gelişme aşağıdakilerden hangisidir?",
+        "o": [
+            "Menemen Olayı",
+            "Şeyh Said İsyanı",
+            "İzmir Suikastı Girişimi",
+            "Dersim Olayları",
+            "Çerkez Ethem İsyanı"
+        ],
+        "a": 1,
+        "e": "Terakkiperver Cumhuriyet Fırkası, parti programında yer alan 'Partimiz dini inançlara saygılıdır' ibaresinin rejim karşıtlarına cesaret verdiği ve Şeyh Said İsyanı'nın çıkmasında etkili olduğu gerekçesiyle Takrir-i Sükûn Kanunu'na dayanılarak 1925 yılında kapatılmıştır."
+    },
+    {
+        "id": "tarih_060",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-inkilaplari",
+        "subtopic": "Ekonomi Alanında Gelişmeler",
+        "q": "1923 yılında toplanan İzmir İktisat Kongresi'nde alınan 'Misak-ı İktisadi' kararları doğrultusunda, milli ekonomiyi kurmak ve yerli sanayiciyi korumak amacıyla 1927 yılında çıkarılan kanun aşağıdakilerden hangisidir?",
+        "o": [
+            "Teşvik-i Sanayi Kanunu",
+            "Kabotaj Kanunu",
+            "Türk Parasını Koruma Kanunu",
+            "Varlık Vergisi Kanunu",
+            "Milli Korunma Kanunu"
+        ],
+        "a": 0,
+        "e": "Özel sektörü sanayi yatırımlarına teşvik etmek amacıyla 1927 yılında Teşvik-i Sanayi Kanunu çıkarılmıştır. Ancak sermaye ve teknik bilgi yetersizliği nedeniyle beklenen başarı tam olarak sağlanamamış ve 1930'lardan sonra devletçilik ilkesi ağırlık kazanmıştır."
+    },
+    {
+        "id": "tarih_061",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Atatürk'ün 'Devletin, vatandaşların refah ve mutluluğunu sağlamak için ekonomik hayata doğrudan müdahale etmesi' şeklinde tanımlanan ilkesi aşağıdakilerden hangisidir?",
+        "o": [
+            "Cumhuriyetçilik",
+            "Halkçılık",
+            "Devletçilik",
+            "İnkılapçılık",
+            "Milliyetçilik"
+        ],
+        "a": 2,
+        "e": "Özel sektörün yetersiz kaldığı alanlarda devletin bizzat yatırımlar yapmasını ve ekonomiyi yönlendirmesini öngören ilke Devletçilik'tir. Bu ilke zorunluluktan doğmuş olup Türkiye'nin hızlı kalkınmasını hedeflemiştir."
+    },
+    {
+        "id": "tarih_062",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1923-1930",
+        "subtopic": "Dış Politika (1923-1930)",
+        "q": "Türkiye ile İngiltere arasında Musul sorununun çözüme kavuşturulduğu ve Türkiye'nin Musul üzerindeki haklarından vazgeçtiği antlaşma aşağıdakilerden hangisidir?",
+        "o": [
+            "Lozan Antlaşması",
+            "Ankara Antlaşması (1921)",
+            "Ankara Antlaşması (1926)",
+            "Montrö Boğazlar Sözleşmesi",
+            "Sadabad Paktı"
+        ],
+        "a": 2,
+        "e": "5 Haziran 1926 tarihli Ankara Antlaşması ile Musul ve Kerkük İngiliz mandasındaki Irak'a bırakılmış, karşılığında bölge petrollerinden elde edilecek gelirin %10'unun 25 yıl süreyle Türkiye'ye verilmesi kararlaştırılmıştır."
+    },
+    {
+        "id": "tarih_063",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1939",
+        "subtopic": "Dış Politika (1930-1939)",
+        "q": "1936 yılında imzalanan Montrö Boğazlar Sözleşmesi ile Türkiye'nin elde ettiği en önemli kazanım aşağıdakilerden hangisidir?",
+        "o": [
+            "Boğazların uluslararası bir komisyon tarafından yönetilmesi",
+            "Boğazların her iki yakasında asker bulundurma hakkının elde edilmesi",
+            "Ticaret gemilerinin geçişinin tamamen yasaklanması",
+            "Sovyet Rusya ile saldırmazlık paktı imzalanması",
+            "Hatay'ın anavatana katılması"
+        ],
+        "a": 1,
+        "e": "Montrö Boğazlar Sözleşmesi ile Lozan'da kurulan Uluslararası Boğazlar Komisyonu kaldırılmış ve yetkileri Türkiye'ye devredilmiştir. Ayrıca Türkiye'nin Boğazlar bölgesinde asker bulundurma yasağı kalkmış, böylece Türkiye Boğazlar üzerinde tam egemenlik sağlamıştır."
+    },
+    {
+        "id": "tarih_064",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "rejime-karsi-tepkiler",
+        "subtopic": "Rejime Karşı Tepkiler",
+        "q": "1930 yılında Serbest Cumhuriyet Fırkası'nın kendini feshetmesinden kısa bir süre sonra İzmir'in Menemen ilçesinde çıkan ve Asteğmen Kubilay'ın şehit edildiği olay, Türk siyasi tarihinde neyin göstergesidir?",
+        "o": [
+            "Ordunun siyasete müdahale ettiğinin",
+            "Çok partili hayata geçiş için ortamın henüz hazır olmadığının",
+            "Ekonomik krizin halk üzerinde baskı yarattığının",
+            "Dış güçlerin Türkiye'yi işgal planlarının",
+            "Laiklik ilkesinin tam olarak yerleştiğinin"
+        ],
+        "a": 1,
+        "e": "Menemen Olayı (1930), cumhuriyet rejimine ve inkılaplara karşı gerici bir ayaklanmadır. Bu olay, toplumun bir kesiminin henüz demokrasi kültürüne ve çok partili hayata hazır olmadığını göstermiş, çok partili hayata geçiş denemeleri bir süre askıya alınmıştır."
+    },
+    {
+        "id": "tarih_065",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "toplumsal-inkilaplar",
+        "subtopic": "Toplumsal İnkılaplar",
+        "q": "Aşağıdaki inkılaplardan hangisi, toplumsal alanda ayrıcalık ifade eden unvanların kaldırılması ve resmi işlemlerdeki karışıklıkların önlenmesi amacıyla yapılmıştır?",
+        "o": [
+            "Şapka Kanunu",
+            "Tekke ve Zaviyelerin Kapatılması",
+            "Soyadı Kanunu",
+            "Kılık Kıyafet Kanunu",
+            "Takvim, Saat ve Ölçülerde Değişiklik"
+        ],
+        "a": 2,
+        "e": "1934 yılında kabul edilen Soyadı Kanunu ile her ailenin bir soyadı alması zorunlu kılınmış; ağa, hacı, hafız, molla gibi ayrıcalık belirten unvanlar yasaklanarak hem toplumsal eşitlik sağlanmış hem de nüfus, tapu, askerlik gibi resmi işlemlerdeki karışıklıklar giderilmiştir."
+    },
+    {
+        "id": "tarih_066",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "kulturel-kurumlar",
+        "subtopic": "Kültürel Kurumlar",
+        "q": "1932 yılında kurulan ve amacı Türk dilinin öz güzelliğini ve zenginliğini ortaya çıkarmak, onu dünya dilleri arasında hak ettiği yere getirmek olan kurum aşağıdakilerden hangisidir?",
+        "o": [
+            "Türk Tarih Kurumu",
+            "Türk Dil Kurumu",
+            "Halkevleri",
+            "Dil ve Tarih-Coğrafya Fakültesi",
+            "Köy Enstitüleri"
+        ],
+        "a": 1,
+        "e": "Türk Dil Kurumu (TDK), 1932 yılında Mustafa Kemal Atatürk'ün talimatıyla kurulmuştur. Temel amacı Türkçeyi yabancı dillerin boyunduruğundan kurtarmak ve bilim dili haline getirmektir."
+    },
+    {
+        "id": "tarih_067",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1939",
+        "subtopic": "Dış Politika (1930-1939)",
+        "q": "II. Dünya Savaşı tehlikesinin belirmesi üzerine, Türkiye'nin batı sınırlarını güvence altına almak amacıyla 1934 yılında Yunanistan, Yugoslavya ve Romanya ile imzaladığı pakt aşağıdakilerden hangisidir?",
+        "o": [
+            "Sadabad Paktı",
+            "Balkan Antantı",
+            "Bağdat Paktı",
+            "Kellogg-Briand Paktı",
+            "Locarno Antlaşması"
+        ],
+        "a": 1,
+        "e": "İtalya ve Almanya'nın yayılmacı politikaları karşısında Türkiye, Yunanistan, Yugoslavya ve Romanya; sınır güvenliğini sağlamak ve bölgesel barışı korumak amacıyla 1934'te Atina'da Balkan Antantı'nı imzalamışlardır."
+    },
+    {
+        "id": "tarih_068",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-hatay",
+        "subtopic": "Dış Politika (Hatay Sorunu)",
+        "q": "Hatay Cumhuriyeti'nin kurulmasından sonra, Hatay Meclisi'nin aldığı kararla Türkiye'ye katılma süreci resmen ne zaman tamamlanmıştır?",
+        "o": [
+            "1936",
+            "1937",
+            "1938",
+            "1939",
+            "1940"
+        ],
+        "a": 3,
+        "e": "Hatay Meclisi 23 Haziran 1939'da oy birliğiyle Türkiye'ye katılma kararı almıştır. TBMM de 7 Temmuz 1939'da çıkardığı kanunla Hatay'ın Türkiye'ye katılımını onaylamış ve süreç resmen tamamlanmıştır."
+    },
+    {
+        "id": "tarih_069",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "anayasal-hareketler",
+        "subtopic": "Anayasal Hareketler",
+        "q": "Atatürk İlkeleri (Cumhuriyetçilik, Milliyetçilik, Halkçılık, Devletçilik, Laiklik, İnkılapçılık) hangi yıl yapılan değişiklikle 1924 Anayasası'na girmiştir?",
+        "o": [
+            "1928",
+            "1930",
+            "1934",
+            "1937",
+            "1945"
+        ],
+        "a": 3,
+        "e": "CHP'nin altı oku ile simgelenen Atatürk ilkeleri, 5 Şubat 1937 tarihinde yapılan değişiklikle 1924 Anayasası'nın 2. maddesine eklenmiş ve anayasal güvence altına alınmıştır."
+    },
+    {
+        "id": "tarih_070",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-kultur-inkilaplari",
+        "subtopic": "Eğitim ve Kültür İnkılapları",
+        "q": "1 Kasım 1928'de kabul edilen Yeni Türk Harfleri Kanunu'nun ardından, halka yeni harfleri öğretmek ve okuma-yazma seferberliğini yürütmek amacıyla açılan kurumlar aşağıdakilerden hangisidir?",
+        "o": [
+            "Halkevleri",
+            "Millet Mektepleri",
+            "Köy Enstitüleri",
+            "Türk Ocakları",
+            "Darülfünun"
+        ],
+        "a": 1,
+        "e": "Harf İnkılabı'nın ardından yeni harfleri halka (okul çağı dışındaki vatandaşlara) öğretmek amacıyla 24 Kasım 1928'de Millet Mektepleri Talimatnamesi yayınlanmış ve Millet Mektepleri açılmıştır. Atatürk'e 'Başöğretmen' unvanı da bu tarihte verilmiştir."
+    },
+    {
+        "id": "tarih_071",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1923-1930",
+        "subtopic": "Dış Politika (1923-1930)",
+        "q": "Lozan Antlaşması'ndan sonra Türkiye ile Yunanistan arasında yaşanan en büyük sorunlardan biri olan ve 1930 Ahali Antlaşması ile çözüme kavuşturulan konu aşağıdakilerden hangisidir?",
+        "o": [
+            "Kıta Sahanlığı Sorunu",
+            "Kıbrıs Sorunu",
+            "Nüfus Mübadelesi (Etabli) Sorunu",
+            "Batı Trakya Türkleri Sorunu",
+            "Ege Adaları'nın Silahlandırılması"
+        ],
+        "a": 2,
+        "e": "Lozan'dan sonra 'yerleşik' (etabli) kavramının yorumlanması konusunda çıkan anlaşmazlık Nüfus Mübadelesi (Etabli) Sorunu olarak adlandırılır. 1930'da Venizelos'un Türkiye ziyareti ve imzalanan antlaşma ile İstanbul Rumları ve Batı Trakya Türkleri yerleşik sayılarak sorun çözülmüştür."
+    },
+    {
+        "id": "tarih_072",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-inkilaplari",
+        "subtopic": "Ekonomi Alanında Gelişmeler",
+        "q": "Türkiye'de planlı ekonomiye geçişin ilk örneği olan I. Beş Yıllık Sanayi Planı hangi yıllar arasında uygulanmıştır?",
+        "o": [
+            "1923-1928",
+            "1929-1933",
+            "1934-1939",
+            "1940-1945",
+            "1950-1955"
+        ],
+        "a": 2,
+        "e": "I. Beş Yıllık Sanayi Planı 1933 yılında hazırlanmış ve 1934-1939 yılları arasında başarıyla uygulanmıştır. Bu plan çerçevesinde Sümerbank öncülüğünde birçok fabrika (dokuma, şeker, cam, kağıt vb.) açılmıştır."
+    },
+    {
+        "id": "tarih_073",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1939",
+        "subtopic": "Dış Politika (1930-1939)",
+        "q": "Türkiye'nin doğu sınırlarının güvenliğini sağlamak amacıyla 1937 yılında İran, Irak ve Afganistan ile imzaladığı pakt aşağıdakilerden hangisidir?",
+        "o": [
+            "Bağdat Paktı",
+            "CENTO",
+            "Sadabad Paktı",
+            "Balkan Antantı",
+            "Tahran Paktı"
+        ],
+        "a": 2,
+        "e": "İtalya'nın Habeşistan'ı işgali ve doğuya yönelik tehditleri üzerine Türkiye, İran, Irak ve Afganistan Tahran'daki Sadabad Sarayı'nda bir araya gelerek 1937 yılında Sadabad Paktı'nı imzalamışlardır."
+    },
+    {
+        "id": "tarih_074",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "kronoloji",
+        "subtopic": "Cumhuriyet Dönemi Kronolojisi",
+        "q": "Aşağıdaki gelişmelerden hangisi diğerlerinden daha sonra gerçekleşmiştir?",
+        "o": [
+            "Soyadı Kanunu'nun kabulü",
+            "Kadınlara milletvekili seçme ve seçilme hakkının verilmesi",
+            "Halkevlerinin açılması",
+            "Montrö Boğazlar Sözleşmesi'nin imzalanması",
+            "Hatay'ın anavatana katılması"
+        ],
+        "a": 4,
+        "e": "Kronolojik sıralama: Halkevleri (1932), Soyadı Kanunu (Haziran 1934), Kadınlara milletvekili hakkı (Aralık 1934), Montrö (1936), Hatay'ın katılması (1939). Dolayısıyla en son gerçekleşen Hatay'ın katılmasıdır."
+    },
+    {
+        "id": "tarih_075",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "siyasi-inkilaplar",
+        "subtopic": "Siyasi Alanda İnkılaplar",
+        "q": "27 Ekim 1923'te Fethi Okyar Hükûmeti'nin istifasıyla ortaya çıkan ve 'Ekim Bunalımı' (Sonbahar Bunalımı) olarak adlandırılan hükûmet krizinin çözülmesi, aşağıdaki gelişmelerden hangisinin doğrudan yolunu açmıştır?",
+        "o": [
+            "Saltanatın kaldırılması",
+            "Cumhuriyetin ilanı",
+            "Halifeliğin kaldırılması",
+            "Ankara'nın başkent olması",
+            "Çok partili hayata geçilmesi"
+        ],
+        "a": 1,
+        "e": "Meclis Hükûmeti sisteminden kaynaklanan hükûmet kurma zorluğu (Ekim Bunalımı), Cumhuriyetin ilanı ve Kabine Sistemi'ne geçiş ile çözülmüştür."
+    },
+    {
+        "id": "tarih_076",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "hukuk-inkilaplari",
+        "subtopic": "Hukuk Alanında İnkılaplar",
+        "q": "1926 yılında kabul edilen Türk Medeni Kanunu ile kadınlara tanınan haklar arasında aşağıdakilerden hangisi yer almaz?",
+        "o": [
+            "Mirasta eşitlik",
+            "Boşanma hakkı",
+            "Mahkemede tanıklıkta eşitlik",
+            "İstediği mesleğe girme hakkı",
+            "Milletvekili seçme ve seçilme hakkı"
+        ],
+        "a": 4,
+        "e": "Türk Medeni Kanunu (1926) sosyal ve ekonomik hakları düzenler. Kadınlara siyasi haklar (seçme ve seçilme) 1930, 1933 ve 1934 yıllarında yapılan anayasa değişiklikleriyle verilmiştir."
+    },
+    {
+        "id": "tarih_077",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cok-partili-hayat",
+        "subtopic": "Çok Partili Hayat Denemeleri",
+        "q": "Cumhuriyet tarihinin ilk muhalefet partisi olan Terakkiperver Cumhuriyet Fırkası, aşağıdaki gelişmelerden hangisi gerekçe gösterilerek kapatılmıştır?",
+        "o": [
+            "İzmir Suikastı girişimi",
+            "Menemen Olayı",
+            "Şeyh Sait İsyanı",
+            "Dersim Olayları",
+            "Çerkez Ethem İsyanı"
+        ],
+        "a": 2,
+        "e": "Terakkiperver Cumhuriyet Fırkası, Şeyh Sait İsyanı'nda rolü olduğu gerekçesiyle Takrir-i Sükûn Kanunu'na dayanılarak 1925 yılında kapatılmıştır."
+    },
+    {
+        "id": "tarih_078",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1923-1930",
+        "subtopic": "Atatürk Dönemi Dış Politika (1923-1930)",
+        "q": "Türkiye ile İngiltere arasında 1926 yılında imzalanan Ankara Antlaşması ile Musul sorunu çözüme kavuşturulmuştur. Bu antlaşmaya göre Musul ve Kerkük'ün durumu aşağıdakilerden hangisidir?",
+        "o": [
+            "Türkiye'ye bırakılmıştır.",
+            "Özerk bir bölge olmuştur.",
+            "İngiliz mandasındaki Irak'a bırakılmıştır.",
+            "Milletler Cemiyeti yönetimine devredilmiştir.",
+            "Türkiye ile Irak arasında ortak yönetilecektir."
+        ],
+        "a": 2,
+        "e": "1926 Ankara Antlaşması ile Musul ve Kerkük, İngiliz mandası altındaki Irak'a bırakılmış, karşılığında Türkiye'ye bölge petrollerinden pay verilmesi kararlaştırılmıştır."
+    },
+    {
+        "id": "tarih_079",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "1925 yılında tekke, zaviye ve türbelerin kapatılması, Atatürk ilkelerinden en çok hangisiyle doğrudan ilişkilidir?",
+        "o": [
+            "Devletçilik",
+            "Cumhuriyetçilik",
+            "Laiklik",
+            "İnkılapçılık",
+            "Milliyetçilik"
+        ],
+        "a": 2,
+        "e": "Tekke, zaviye ve türbelerin kapatılması, dinin istismar edilmesini önlemek ve toplumsal hayatta akılcılığı egemen kılmak amacıyla yapıldığından doğrudan Laiklik ilkesi ile ilgilidir."
+    },
+    {
+        "id": "tarih_080",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-inkilaplari",
+        "subtopic": "Ekonomi Alanında İnkılaplar",
+        "q": "17 Şubat 1923'te toplanan İzmir İktisat Kongresi'nde alınan 'Misak-ı İktisadi' kararlarının temel hedefi aşağıdakilerden hangisidir?",
+        "o": [
+            "Ekonomik bağımsızlığı sağlamak",
+            "Yabancı sermayeyi tamamen reddetmek",
+            "Sosyalist bir ekonomi modeli kurmak",
+            "Sadece tarıma dayalı büyümek",
+            "Dış borç alımını yasaklamak"
+        ],
+        "a": 0,
+        "e": "İzmir İktisat Kongresi'nin temel amacı, siyasi bağımsızlığın ekonomik bağımsızlıkla taçlandırılması ve yerli üretime dayalı milli bir ekonominin kurulmasıdır."
+    },
+    {
+        "id": "tarih_081",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "hukuk-inkilaplari",
+        "subtopic": "Hukuk Alanında İnkılaplar",
+        "q": "Türkiye Cumhuriyeti Anayasası'na 'Türkiye Devleti'nin dini İslam'dır' ibaresinin çıkarılması ve Laiklik ilkesinin anayasaya girmesi sırasıyla hangi yıllarda gerçekleşmiştir?",
+        "o": [
+            "1924 - 1928",
+            "1928 - 1937",
+            "1921 - 1924",
+            "1924 - 1930",
+            "1928 - 1934"
+        ],
+        "a": 1,
+        "e": "'Devletin dini İslam'dır' ibaresi 1928 değişikliği ile çıkarılmış; Atatürk İlkeleri (Laiklik dahil) 1937 yılında anayasaya eklenmiştir."
+    },
+    {
+        "id": "tarih_082",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cok-partili-hayat",
+        "subtopic": "Çok Partili Hayat Denemeleri",
+        "q": "1930 yılında Atatürk'ün isteği ve Fethi Okyar'ın liderliğinde kurulan, ancak rejim karşıtlarının odağı haline geldiği gerekçesiyle kurucusu tarafından feshedilen siyasi parti hangisidir?",
+        "o": [
+            "Terakkiperver Cumhuriyet Fırkası",
+            "Ahali Cumhuriyet Fırkası",
+            "Serbest Cumhuriyet Fırkası",
+            "Milli Kalkınma Partisi",
+            "Demokrat Parti"
+        ],
+        "a": 2,
+        "e": "1930 yılında kurulan Serbest Cumhuriyet Fırkası, kısa sürede rejim karşıtlarının sığınağı haline gelince Fethi Okyar partiyi kendi isteğiyle feshetmiştir."
+    },
+    {
+        "id": "tarih_083",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-inkilaplari",
+        "subtopic": "Ekonomi Alanında İnkılaplar",
+        "q": "Türkiye'de 1933 yılında uygulamaya konulan I. Beş Yıllık Sanayi Planı'nın hazırlanmasında ve finansmanında hangi ülkeden teknik ve mali destek alınmıştır?",
+        "o": [
+            "ABD",
+            "Almanya",
+            "Sovyet Rusya",
+            "İngiltere",
+            "Fransa"
+        ],
+        "a": 2,
+        "e": "Dünya Ekonomik Buhranı sonrası devletçilik ilkesi doğrultusunda hazırlanan I. Beş Yıllık Sanayi Planı için Sovyet Rusya'dan kredi ve teknik destek alınmıştır."
+    },
+    {
+        "id": "tarih_084",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1939",
+        "subtopic": "Atatürk Dönemi Dış Politika (1930-1938)",
+        "q": "İtalya ve Almanya'nın yayılmacı politikalarına karşı sınır güvenliğini sağlamak amacıyla 1934 yılında kurulan Balkan Antantı'na Türkiye ile birlikte katılan devletler hangileridir?",
+        "o": [
+            "Yunanistan - Bulgaristan - Romanya",
+            "Yunanistan - Yugoslavya - Romanya",
+            "Bulgaristan - Arnavutluk - Yugoslavya",
+            "Yunanistan - Macaristan - Romanya",
+            "Arnavutluk - Yugoslavya - Romanya"
+        ],
+        "a": 1,
+        "e": "Balkan Antantı (1934) üyeleri: Türkiye, Yunanistan, Yugoslavya ve Romanya'dır. (Kodlama: TAYYARE). Bulgaristan ve Arnavutluk katılmamıştır."
+    },
+    {
+        "id": "tarih_085",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cumhuriyet-donemi-kultur",
+        "subtopic": "Cumhuriyet Dönemi Kültür ve Sanat",
+        "q": "1933 Üniversite Reformu öncesinde, İsviçreli Profesör Albert Malche'nin hazırladığı rapor doğrultusunda kapatılarak yerine İstanbul Üniversitesi'nin kurulduğu Osmanlı kurumu hangisidir?",
+        "o": [
+            "Darülbedayi",
+            "Darülfünun",
+            "Darülelhan",
+            "Encümen-i Daniş",
+            "Sanayi-i Nefise Mektebi"
+        ],
+        "a": 1,
+        "e": "1933 Üniversite Reformu ile Osmanlı'dan kalan Darülfünun kapatılmış ve yerine modern anlamda ilk üniversite olan İstanbul Üniversitesi kurulmuştur."
+    },
+    {
+        "id": "tarih_086",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1939",
+        "subtopic": "Hatay Sorunu",
+        "q": "2 Eylül 1938'de kurulan Hatay Cumhuriyeti'nin ilk ve tek Cumhurbaşkanı aşağıdakilerden hangisidir?",
+        "o": [
+            "Abdurrahman Melek",
+            "Tayfur Sökmen",
+            "Rauf Orbay",
+            "Şükrü Saraçoğlu",
+            "Hasan Saka"
+        ],
+        "a": 1,
+        "e": "Hatay Cumhuriyeti'nin Cumhurbaşkanı Tayfur Sökmen, Başbakanı ise Abdurrahman Melek'tir."
+    },
+    {
+        "id": "tarih_087",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "1 Temmuz 1926'da yürürlüğe giren ve Türk karasularında yolcu ve yük taşıma hakkını yalnızca Türk gemilerine veren Kabotaj Kanunu, Atatürk'ün hangi ilkesiyle doğrudan ilişkilidir?",
+        "o": [
+            "Cumhuriyetçilik",
+            "Milliyetçilik",
+            "Laiklik",
+            "İnkılapçılık",
+            "Halkçılık"
+        ],
+        "a": 1,
+        "e": "Kabotaj Kanunu, denizlerdeki ekonomik bağımsızlığı ve ulusal egemenliği pekiştirdiği için doğrudan Milliyetçilik ilkesi ile ilgilidir."
+    },
+    {
+        "id": "tarih_088",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "siyasi-olaylar",
+        "subtopic": "Rejime Karşı Tepkiler",
+        "q": "Aşağıdakilerden hangisi Cumhuriyet rejimine yönelik çıkan isyan veya girişimlerden biri değildir?",
+        "o": [
+            "Şeyh Sait İsyanı",
+            "Menemen Olayı",
+            "İzmir Suikastı Girişimi",
+            "Ağrı İsyanı",
+            "Bab-ı Ali Baskını"
+        ],
+        "a": 4,
+        "e": "Bab-ı Ali Baskını (1913), İttihat ve Terakki'nin yönetimi ele geçirdiği olaydır ve Cumhuriyet döneminden önce, II. Meşrutiyet döneminde gerçekleşmiştir."
+    },
+    {
+        "id": "tarih_089",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1939",
+        "subtopic": "Atatürk Dönemi Dış Politika (1930-1938)",
+        "q": "Türkiye, İran, Irak ve Afganistan arasında 1937 yılında imzalanan Sadabad Paktı'nın temel amacı nedir?",
+        "o": [
+            "Batı sınırlarını güvence altına almak",
+            "Sovyet Rusya'ya karşı ittifak kurmak",
+            "İtalya'nın doğu Akdeniz ve Ortadoğu'daki yayılmacılığına karşı önlem almak",
+            "Hatay sorununu çözmek",
+            "Musul petrollerini paylaşmak"
+        ],
+        "a": 2,
+        "e": "Sadabad Paktı, İtalya'nın Habeşistan'ı işgali ve doğuya yönelmesi tehdidine karşı bölge ülkelerinin sınır güvenliğini sağlamak amacıyla imzalanmıştır."
+    },
+    {
+        "id": "tarih_090",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "toplumsal-inkilaplar",
+        "subtopic": "Toplumsal Alanda İnkılaplar",
+        "q": "1934 yılında kabul edilen Soyadı Kanunu'nun çıkarılma gerekçeleri arasında aşağıdakilerden hangisi gösterilemez?",
+        "o": [
+            "Resmi işlerdeki karışıklıkları önlemek",
+            "Toplumda ayrıcalık bildiren unvanları kaldırmak",
+            "Askere alma ve miras işlemlerini düzenlemek",
+            "Türkçe kullanımını yaygınlaştırmak",
+            "Patrikhane'nin yetkilerini kısıtlamak"
+        ],
+        "a": 4,
+        "e": "Soyadı Kanunu'nun Patrikhane'nin yetkileriyle doğrudan bir ilgisi yoktur. Kanun, toplumsal eşitliği sağlamak ve resmi işlerdeki (tapu, askerlik, okul) karışıklıkları gidermek için çıkarılmıştır."
+    },
+    {
+        "id": "tarih_091",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "siyasi-inkilaplar",
+        "subtopic": "Siyasi Alanda İnkılaplar",
+        "q": "Türkiye Büyük Millet Meclisi tarafından 1 Kasım 1922 tarihinde Saltanatın kaldırılmasıyla aşağıdakilerden hangisinin gerçekleştiği söylenemez?",
+        "o": [
+            "Devlet başkanlığı sorununun ortaya çıkması",
+            "Laiklik yolunda ilk büyük adımın atılması",
+            "Osmanlı Devleti'nin resmen sona ermesi",
+            "Lozan Konferansı'na ikilik çıkarılmasının önlenmesi",
+            "Halifelik makamının sona ermesi"
+        ],
+        "a": 4,
+        "e": "Saltanat 1 Kasım 1922'de kaldırılmış, ancak Halifelik makamı 3 Mart 1924'e kadar varlığını sürdürmüştür. Saltanatın kaldırılmasıyla halifelik hemen sona ermemiştir."
+    },
+    {
+        "id": "tarih_092",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cok-partili-hayat",
+        "subtopic": "Çok Partili Hayat Denemeleri",
+        "q": "Cumhuriyet tarihinin ilk muhalefet partisi olan Terakkiperver Cumhuriyet Fırkası, aşağıdaki gelişmelerden hangisi gerekçe gösterilerek kapatılmıştır?",
+        "o": [
+            "Menemen Olayı",
+            "Şeyh Sait İsyanı",
+            "İzmir Suikastı Girişimi",
+            "Çerkez Ethem İsyanı",
+            "Dersim Olayları"
+        ],
+        "a": 1,
+        "e": "Terakkiperver Cumhuriyet Fırkası, Şeyh Sait İsyanı'nda kışkırtıcı rol oynadığı gerekçesiyle Takrir-i Sükûn Kanunu'na dayanılarak kapatılmıştır."
+    },
+    {
+        "id": "tarih_093",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "hukuk-inkilaplari",
+        "subtopic": "Hukuk Alanında İnkılaplar",
+        "q": "17 Şubat 1926'da kabul edilen Türk Medeni Kanunu ile kadınlara aşağıdaki haklardan hangisi verilmemiştir?",
+        "o": [
+            "Mirasta erkekle eşit pay alma",
+            "İstediği mesleğe girebilme",
+            "Mahkemede tanıklıkta eşitlik",
+            "Seçme ve seçilme hakkı",
+            "Resmi nikah zorunluluğu"
+        ],
+        "a": 3,
+        "e": "Türk Medeni Kanunu (1926) sosyal ve ekonomik hakları düzenlemiştir. Kadınlara seçme ve seçilme gibi siyasi haklar 1930, 1933 ve 1934 yıllarında yapılan düzenlemelerle verilmiştir."
+    },
+    {
+        "id": "tarih_094",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-inkilaplari",
+        "subtopic": "Ekonomi Alanında İnkılaplar",
+        "q": "17 Şubat 1923'te toplanan İzmir İktisat Kongresi'nde alınan 'Misak-ı İktisadi' kararları doğrultusunda, Türk karasularında gemi işletme hakkının (kabotaj) sadece Türklere ait olması hangi ilke ile doğrudan ilgilidir?",
+        "o": [
+            "Cumhuriyetçilik",
+            "Laiklik",
+            "Milliyetçilik",
+            "İnkılapçılık",
+            "Halkçılık"
+        ],
+        "a": 2,
+        "e": "Kabotaj Kanunu, Türk denizlerinde ticaret hakkını yabancılardan alıp Türklere verdiği için milli bağımsızlık ve ekonomiyle ilgilidir, bu da doğrudan Milliyetçilik ilkesiyle örtüşür."
+    },
+    {
+        "id": "tarih_095",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Cumhuriyet döneminde yapılan aşağıdaki inkılaplardan hangisi, doğrudan 'Laiklik' ilkesi ile ilişkilendirilemez?",
+        "o": [
+            "Halifeliğin kaldırılması",
+            "Tekke ve zaviyelerin kapatılması",
+            "Şeriye ve Evkaf Vekâleti'nin kaldırılması",
+            "Medeni Kanun'un kabulü",
+            "Kabotaj Kanunu'nun kabulü"
+        ],
+        "a": 4,
+        "e": "Kabotaj Kanunu deniz işletmeciliği ve ekonomik bağımsızlık ile ilgili olup Milliyetçilik ilkesiyle ilgilidir. Diğer seçenekler din ve devlet işlerinin ayrılması veya dini kurumların düzenlenmesiyle ilgili olduğundan Laiklik ile ilgilidir."
+    },
+    {
+        "id": "tarih_096",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika",
+        "subtopic": "Atatürk Dönemi Dış Politika",
+        "q": "Lozan Antlaşması'nda çözülemeyip sonraya bırakılan ve 1926 Ankara Antlaşması ile İngiltere lehine çözümlenen sorun aşağıdakilerden hangisidir?",
+        "o": [
+            "Boğazlar Sorunu",
+            "Hatay Sorunu",
+            "Musul Sorunu",
+            "Yabancı Okullar Sorunu",
+            "Nüfus Mübadelesi"
+        ],
+        "a": 2,
+        "e": "Musul Sorunu, Lozan'da çözülememiş, Türkiye ile İngiltere arasındaki ikili görüşmelere bırakılmıştır. Şeyh Sait isyanının yarattığı zafiyet sonucu 1926 Ankara Antlaşması ile Musul İngiliz mandasındaki Irak'a bırakılmıştır."
+    },
+    {
+        "id": "tarih_097",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-kultur-inkilaplari",
+        "subtopic": "Eğitim ve Kültür Alanında İnkılaplar",
+        "q": "1 Kasım 1928'de Yeni Türk Harflerinin kabul edilmesinden sonra, halka yeni harfleri öğretmek amacıyla açılan kurum aşağıdakilerden hangisidir?",
+        "o": [
+            "Köy Enstitüleri",
+            "Millet Mektepleri",
+            "Halkevleri",
+            "Türk Ocakları",
+            "Sanayi-i Nefise Mektebi"
+        ],
+        "a": 1,
+        "e": "Harf İnkılabı'ndan sonra okuma yazma oranını artırmak ve yeni harfleri halka öğretmek için 'Millet Mektepleri' açılmıştır. Atatürk'e de bu kurumlarda Başöğretmen unvanı verilmiştir."
+    },
+    {
+        "id": "tarih_098",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "siyasi-inkilaplar",
+        "subtopic": "Siyasi Alanda İnkılaplar",
+        "q": "Mustafa Kemal Atatürk'e 'Gazi' unvanı ve 'Mareşal' rütbesi Sakarya Meydan Muharebesi'nden sonra verilirken; 'Atatürk' soyadı hangi yıl ve kanunla verilmiştir?",
+        "o": [
+            "1923 - Cumhuriyetin İlanı",
+            "1924 - Anayasa Kabulü",
+            "1928 - Harf İnkılabı",
+            "1934 - Soyadı Kanunu",
+            "1937 - Laiklik İlkesinin Anayasaya Girişi"
+        ],
+        "a": 3,
+        "e": "21 Haziran 1934'te Soyadı Kanunu kabul edilmiş, 24 Kasım 1934'te TBMM tarafından çıkarılan özel bir kanunla Mustafa Kemal'e 'Atatürk' soyadı verilmiştir."
+    },
+    {
+        "id": "tarih_099",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cok-partili-hayat",
+        "subtopic": "Çok Partili Hayat Denemeleri",
+        "q": "1930 yılında Ali Fethi Okyar tarafından kurulan Serbest Cumhuriyet Fırkası'nın, ekonomide savunduğu temel ilke aşağıdakilerden hangisidir?",
+        "o": [
+            "Devletçilik",
+            "Liberalizm",
+            "Sosyalizm",
+            "Himayecilik",
+            "Solidarizm"
+        ],
+        "a": 1,
+        "e": "Cumhuriyet Halk Fırkası o dönemde 'Devletçilik' ilkesini benimserken, muhalefet partisi olarak kurulan Serbest Cumhuriyet Fırkası ekonomide 'Liberalizm'i (Serbest piyasa) savunmuştur."
+    },
+    {
+        "id": "tarih_100",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Toplumda sınıf ayrımını reddeden, kanun önünde herkesin eşitliğini savunan ve sosyal adaleti amaçlayan Atatürk ilkesi aşağıdakilerden hangisidir?",
+        "o": [
+            "Cumhuriyetçilik",
+            "Milliyetçilik",
+            "Halkçılık",
+            "Devletçilik",
+            "İnkılapçılık"
+        ],
+        "a": 2,
+        "e": "Halkçılık ilkesi; sınıf mücadelesini reddeder, imtiyazsız, sınıfsız, kaynaşmış bir kitleyi ve kanun önünde eşitliği savunur."
+    },
+    {
+        "id": "tarih_101",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-inkilaplari",
+        "subtopic": "Ekonomi Alanında İnkılaplar",
+        "q": "Türkiye'de 'Devletçilik' ilkesinin zorunlu olarak uygulamaya konulmasının temel dış nedeni aşağıdakilerden hangisidir?",
+        "o": [
+            "Şeyh Sait İsyanı",
+            "1929 Dünya Ekonomik Buhranı",
+            "II. Dünya Savaşı'nın başlaması",
+            "Lozan Antlaşması'nın getirdiği kısıtlamalar",
+            "Çok partili hayata geçiş denemeleri"
+        ],
+        "a": 1,
+        "e": "Özel teşebbüsün yetersiz kalması bir iç neden olsa da, 1929 Dünya Ekonomik Buhranı'nın (Kara Perşembe) küresel etkisi, Türkiye'nin devletçi ekonomiye geçişini hızlandıran ve zorunlu kılan temel dış nedendir."
+    },
+    {
+        "id": "tarih_102",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika",
+        "subtopic": "Atatürk Dönemi Dış Politika",
+        "q": "1934 yılında İtalya ve Almanya'nın yayılmacı politikalarına karşı Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalanan pakt aşağıdakilerden hangisidir?",
+        "o": [
+            "Sadabat Paktı",
+            "Bağdat Paktı",
+            "Balkan Antantı",
+            "Kellogg-Briand Paktı",
+            "Locarno Antlaşması"
+        ],
+        "a": 2,
+        "e": "Balkan Antantı (1934), Türkiye'nin batı sınırlarını güvence altına almak amacıyla Yunanistan, Yugoslavya ve Romanya ile imzaladığı bir ittifaktır."
+    },
+    {
+        "id": "tarih_103",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "siyasi-inkilaplar",
+        "subtopic": "Siyasi Alanda İnkılaplar",
+        "q": "1930 yılında yaşanan Menemen Olayı (Kubilay Olayı) sonucunda aşağıdaki durumlardan hangisi gerçekleşmiştir?",
+        "o": [
+            "Takrir-i Sükûn Kanunu çıkarılmıştır",
+            "İstiklal Mahkemeleri yeniden kurulmuştur",
+            "Çok partili hayata geçiş denemelerine uzun süre ara verilmiştir",
+            "Terakkiperver Cumhuriyet Fırkası kapatılmıştır",
+            "Halifelik kaldırılmıştır"
+        ],
+        "a": 2,
+        "e": "Menemen Olayı, rejime karşı bir gerici ayaklanma olduğu için ortamın henüz çok partili hayata uygun olmadığı görülmüş ve çok partili hayata geçiş denemelerine 1945'e kadar ara verilmiştir. (Not: Menemen olayında sanıklar Divan-ı Harp'te yargılanmıştır, İstiklal Mahkemeleri değil.)"
+    },
+    {
+        "id": "tarih_104",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "sosyal-inkilaplar",
+        "subtopic": "Toplumsal Alanda İnkılaplar",
+        "q": "Batı ile ticari ilişkileri kolaylaştırmak amacıyla yapılan inkılaplar arasında aşağıdakilerden hangisi yer almaz?",
+        "o": [
+            "Miladi Takvimin kabulü",
+            "Hafta sonu tatilinin Cuma'dan Pazar'a alınması",
+            "Uluslararası saat sistemine geçilmesi",
+            "Ölçü ve tartı birimlerinin değiştirilmesi",
+            "Şapka Kanunu'nun kabulü"
+        ],
+        "a": 4,
+        "e": "Takvim, saat, ölçü ve hafta sonu tatili değişiklikleri Batı dünyası ile ticari ve resmi ilişkilerdeki uyumsuzlukları gidermek içindir. Ancak Şapka Kanunu daha çok modernleşme ve çağdaş bir görünüm kazanma (şekilsel bütünleşme) amacı taşır, ticari bir amacı yoktur."
+    },
+    {
+        "id": "tarih_105",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika",
+        "subtopic": "Atatürk Dönemi Dış Politika",
+        "q": "Hatay sorununun çözümü sürecinde Milletler Cemiyeti tarafından bölgeye gönderilen raportörün hazırladığı ve Hatay'ın 'ayrı bir varlık' olduğunu kabul eden rapor hangisidir?",
+        "o": [
+            "Milne Raporu",
+            "Sandler Raporu",
+            "Amiral Bristol Raporu",
+            "General Harbord Raporu",
+            "Hrisantos Raporu"
+        ],
+        "a": 1,
+        "e": "Sandler Raporu, Hatay sorunu için hazırlanmış ve Hatay'ın Suriye'den ayrı, kendine özgü bir statüsü olduğunu belirterek Türkiye'nin tezlerini destekleyen bir zemin oluşturmuştur."
+    },
+    {
+        "id": "tarih_106",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-kultur-inkilaplari",
+        "subtopic": "Eğitim ve Kültür Alanında İnkılaplar",
+        "q": "1932 yılında kurulan Türk Dil Kurumu'nun (TDK) temel amaçları arasında aşağıdakilerden hangisi yoktur?",
+        "o": [
+            "Türkçeyi yabancı kelimelerin boyunduruğundan kurtarmak",
+            "Türkçeyi bilim dili haline getirmek",
+            "Aydın dili ile halk dili arasındaki kopukluğu gidermek",
+            "Arap alfabesine geri dönmek",
+            "Türk dilinin zenginliğini ortaya koymak"
+        ],
+        "a": 3,
+        "e": "TDK'nın amacı Türkçeyi sadeleştirmek, zenginleştirmek ve bilim dili yapmaktır. Arap alfabesine dönmek gibi bir amaç söz konusu değildir, aksine yeni harflerin yerleşmesi ve dilin özleşmesi hedeflenmiştir."
+    },
+    {
+        "id": "tarih_107",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "hukuk-inkilaplari",
+        "subtopic": "Anayasal Hareketler",
+        "q": "1924 Anayasası'nda yapılan 1937 değişikliği ile aşağıdakilerden hangisi anayasaya eklenmiştir?",
+        "o": [
+            "Devletin dini İslam'dır ibaresinin çıkarılması",
+            "Kadınlara seçme ve seçilme hakkının verilmesi",
+            "Atatürk İlkelerinin tamamının anayasaya girmesi",
+            "Milletvekili yemin şeklinin değişmesi",
+            "Ormanların devletleştirilmesi"
+        ],
+        "a": 2,
+        "e": "1937 yılında yapılan değişiklikle CHP'nin altı oku (Atatürk İlkeleri) anayasaya girmiştir. 'Devletin dini İslam'dır' ibaresi 1928'de çıkarılmıştır."
+    },
+    {
+        "id": "tarih_108",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika",
+        "subtopic": "Atatürk Dönemi Dış Politika",
+        "q": "Türkiye'nin 1932 yılında Milletler Cemiyeti'ne üye olmasıyla ilgili olarak aşağıdakilerden hangisi doğrudur?",
+        "o": [
+            "Türkiye kurucu üye olarak katılmıştır.",
+            "İspanya'nın teklifi ve Yunanistan'ın desteği ile davet edilerek katılmıştır.",
+            "Sovyet Rusya'nın baskısı ile katılmıştır.",
+            "Hatay sorunu çözüldükten sonra katılmıştır.",
+            "II. Dünya Savaşı başladıktan sonra katılmıştır."
+        ],
+        "a": 1,
+        "e": "Türkiye, Milletler Cemiyeti'ne başvuru yaparak değil, İspanya'nın teklifi ve Yunanistan'ın desteğiyle 'davet edilerek' katılan ilk ve tek ülkedir (1932)."
+    },
+    {
+        "id": "tarih_109",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "siyasi-inkilaplar",
+        "subtopic": "Siyasi Alanda Yapılan İnkılaplar",
+        "q": "Cumhuriyetin ilanı ile çözüme kavuşturulan 'Ekim Bunalımı' olarak da bilinen siyasi kriz, temel olarak hangi sorundan kaynaklanmıştır?",
+        "o": [
+            "Devlet başkanlığı sorunu",
+            "Hükûmet kurma sistemi (Meclis Hükûmeti Sistemi)",
+            "Başkent sorunu",
+            "Halifeliğin yetkileri sorunu",
+            "Çok partili hayata geçiş denemeleri"
+        ],
+        "a": 1,
+        "e": "27 Ekim 1923'te Fethi Okyar hükûmetinin istifası üzerine yeni hükûmetin kurulamaması (Ekim Bunalımı), Meclis Hükûmeti Sistemi'nin tıkandığını göstermiştir. Cumhuriyetin ilanı ile Kabine Sistemi'ne geçilerek bu sorun çözülmüştür."
+    },
+    {
+        "id": "tarih_110",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "hukuk-inkilaplari",
+        "subtopic": "Hukuk Alanında Yapılan İnkılaplar",
+        "q": "17 Şubat 1926'da kabul edilen Türk Medeni Kanunu ile kadınlara aşağıdaki haklardan hangisi verilmemiştir?",
+        "o": [
+            "Mirasta erkekle eşitlik",
+            "İstediği mesleğe girebilme hakkı",
+            "Mahkemede tanıklıkta eşitlik",
+            "Seçme ve seçilme hakkı",
+            "Boşanma hakkı"
+        ],
+        "a": 3,
+        "e": "Türk Medeni Kanunu ile kadınlara sosyal ve ekonomik haklar verilmiş, ancak siyasi haklar (seçme ve seçilme) verilmemiştir. Kadınlara siyasi haklar 1930, 1933 ve 1934 yıllarında yapılan düzenlemelerle tanınmıştır."
+    },
+    {
+        "id": "tarih_111",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Aşağıdaki inkılaplardan hangisi doğrudan 'Laiklik' ilkesi doğrultusunda yapılmış bir düzenleme değildir?",
+        "o": [
+            "Halifeliğin kaldırılması",
+            "Şeriye ve Evkaf Vekâletinin kaldırılması",
+            "Tekke, zaviye ve türbelerin kapatılması",
+            "Kabotaj Kanunu'nun kabulü",
+            "Medreselerin kapatılması"
+        ],
+        "a": 3,
+        "e": "Kabotaj Kanunu (1 Temmuz 1926), Türk karasularında ticaret yapma hakkının Türklere verilmesini içerir ve doğrudan 'Milliyetçilik' ilkesi ile ilgilidir. Diğer seçenekler din ve devlet işlerinin ayrılması veya dinin toplum üzerindeki etkisinin düzenlenmesiyle (Laiklik) ilgilidir."
+    },
+    {
+        "id": "tarih_112",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-ve-kultur",
+        "subtopic": "Eğitim ve Kültür Alanındaki İnkılaplar",
+        "q": "Türkiye Cumhuriyeti'nde eğitim ve öğretimin birleştirilmesi, tüm eğitim kurumlarının Milli Eğitim Bakanlığı'na bağlanması aşağıdaki kanunlardan hangisi ile gerçekleşmiştir?",
+        "o": [
+            "Maarif Teşkilatı Hakkında Kanun",
+            "Tevhid-i Tedrisat Kanunu",
+            "Türk Harflerinin Kabulü",
+            "Üniversite Reformu",
+            "Tekke ve Zaviyelerin Kapatılması Kanunu"
+        ],
+        "a": 1,
+        "e": "3 Mart 1924 tarihli Tevhid-i Tedrisat Kanunu ile ülkedeki tüm eğitim kurumları birleştirilerek Milli Eğitim Bakanlığı'na bağlanmış, eğitimde birlik sağlanmıştır."
+    },
+    {
+        "id": "tarih_113",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-inkilaplari",
+        "subtopic": "Ekonomi Alanında Yapılan İnkılaplar",
+        "q": "17 Şubat 1923'te toplanan İzmir İktisat Kongresi'nde alınan 'Misak-ı İktisadi' kararlarının temel amacı aşağıdakilerden hangisidir?",
+        "o": [
+            "Yabancı sermayeyi tamamen yasaklamak",
+            "Ekonomik bağımsızlığı sağlamak",
+            "Devletçilik ilkesini zorunlu kılmak",
+            "Tarım vergilerini artırmak",
+            "Dış borçlanmayı teşvik etmek"
+        ],
+        "a": 1,
+        "e": "Misak-ı İktisadi'nin temel amacı, siyasi bağımsızlığın ekonomik bağımsızlıkla taçlandırılmasıdır. Yerli malı kullanımı teşvik edilmiş, ancak yabancı sermayeye (ülke kanunlarına uymak şartıyla) tamamen karşı çıkılmamıştır."
+    },
+    {
+        "id": "tarih_114",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cok-partili-hayat",
+        "subtopic": "Çok Partili Hayata Geçiş Denemeleri",
+        "q": "Aşağıdaki gelişmelerden hangisi Serbest Cumhuriyet Fırkası'nın kendini feshetmesinden kısa bir süre sonra gerçekleşmiş ve çok partili hayata geçişin bir süre daha ertelenmesine neden olmuştur?",
+        "o": [
+            "Şeyh Sait İsyanı",
+            "İzmir Suikastı Girişimi",
+            "Menemen Olayı (Kubilay Olayı)",
+            "Dersim Olayları",
+            "Bursa Olayı"
+        ],
+        "a": 2,
+        "e": "Serbest Cumhuriyet Fırkası'nın 1930'da kendini feshetmesinin hemen ardından, rejim karşıtı gericilerin çıkardığı Menemen Olayı (23 Aralık 1930) yaşanmış, bu durum çok partili hayata geçiş ortamının henüz oluşmadığını göstermiştir."
+    },
+    {
+        "id": "tarih_115",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1923-1930",
+        "subtopic": "1923-1930 Dönemi Dış Politika",
+        "q": "Türkiye ile İngiltere arasındaki Musul Sorunu, aşağıdaki antlaşmalardan hangisi ile Türkiye aleyhine çözüme kavuşmuştur?",
+        "o": [
+            "Lozan Antlaşması",
+            "Haliç Konferansı",
+            "1926 Ankara Antlaşması",
+            "Sadabad Paktı",
+            "Montrö Boğazlar Sözleşmesi"
+        ],
+        "a": 2,
+        "e": "Musul Sorunu, 5 Haziran 1926 tarihli Ankara Antlaşması ile çözülmüştür. Musul ve Kerkük İngiliz mandasındaki Irak'a bırakılmış, Türkiye Misak-ı Milli'den taviz vermek zorunda kalmıştır."
+    },
+    {
+        "id": "tarih_116",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Cumhuriyetin ilk yıllarında özel sektörün yetersiz kalması ve 1929 Dünya Ekonomik Buhranı'nın etkileri sonucunda, zorunlu olarak uygulamaya konulan Atatürk ilkesi hangisidir?",
+        "o": [
+            "Cumhuriyetçilik",
+            "Halkçılık",
+            "Devletçilik",
+            "Laiklik",
+            "İnkılapçılık"
+        ],
+        "a": 2,
+        "e": "Devletçilik ilkesi, özel teşebbüsün yetersiz kaldığı alanlarda devletin ekonomiye doğrudan müdahale etmesini ve yatırımları yapmasını öngörür. Özellikle 1930'dan sonra temel ekonomik politika olmuştur."
+    },
+    {
+        "id": "tarih_117",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "anayasa-tarihi",
+        "subtopic": "1924 Anayasası",
+        "q": "1924 Anayasası'nın ilk halinde yer alan 'Devletin dini İslam'dır' ibaresi, hangi yıl yapılan değişiklikle anayasadan çıkarılmıştır?",
+        "o": [
+            "1924",
+            "1928",
+            "1930",
+            "1934",
+            "1937"
+        ],
+        "a": 1,
+        "e": "1924 Anayasası'ndan 'Devletin dini İslam'dır' ibaresi 1928 değişikliği ile çıkarılmıştır. Atatürk İlkeleri ise 1937'de anayasaya girmiştir."
+    },
+    {
+        "id": "tarih_118",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "sosyal-inkilaplar",
+        "subtopic": "Sosyal Alanda Yapılan İnkılaplar",
+        "q": "Takvim, saat, rakamlar ve ölçü birimlerinde yapılan değişikliklerin temel amacı aşağıdakilerden hangisidir?",
+        "o": [
+            "Milli kültürü geliştirmek",
+            "Okuma yazma oranını artırmak",
+            "Batı dünyası ile olan ticari ve resmi ilişkileri kolaylaştırmak",
+            "Tarih araştırmalarını hızlandırmak",
+            "Dini duyguları zayıflatmak"
+        ],
+        "a": 2,
+        "e": "Miladi takvim, uluslararası saat sistemi ve metrik ölçü birimlerinin kabulü, Batı dünyasıyla olan ekonomik ve resmi ilişkilerdeki uyumsuzlukları gidermek (entegrasyon) amacıyla yapılmıştır."
+    },
+    {
+        "id": "tarih_119",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1938",
+        "subtopic": "Balkan Antantı",
+        "q": "1934 yılında Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalanan Balkan Antantı'nın kurulma nedeni aşağıdakilerden hangisidir?",
+        "o": [
+            "SSCB'nin yayılmacı politikası",
+            "Almanya ve İtalya'nın yayılmacı politikaları",
+            "Bulgaristan'ın Ege Denizi'ne inmek istemesi",
+            "Hatay sorununun çözülememesi",
+            "Sadabad Paktı'na alternatif oluşturmak"
+        ],
+        "a": 1,
+        "e": "Balkan Antantı, II. Dünya Savaşı öncesinde Almanya ve İtalya'nın saldırgan ve yayılmacı politikalarına karşı sınır güvenliğini sağlamak amacıyla kurulmuştur."
+    },
+    {
+        "id": "tarih_120",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-ve-kultur",
+        "subtopic": "Üniversite Reformu",
+        "q": "1933 Üniversite Reformu kapsamında Darülfünun'un kapatılarak yerine İstanbul Üniversitesi'nin kurulmasına zemin hazırlayan raporu hazırlayan İsviçreli bilim insanı kimdir?",
+        "o": [
+            "John Dewey",
+            "Albert Malche",
+            "Kühne",
+            "Ömer Hayyam",
+            "Alexander Bell"
+        ],
+        "a": 1,
+        "e": "Prof. Dr. Albert Malche, Türkiye'ye davet edilmiş ve hazırladığı rapor doğrultusunda Darülfünun kapatılarak modern anlamda ilk üniversite olan İstanbul Üniversitesi (1933) kurulmuştur."
+    },
+    {
+        "id": "tarih_121",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-inkilaplari",
+        "subtopic": "I. Beş Yıllık Sanayi Planı",
+        "q": "I. Beş Yıllık Sanayi Planı (1934-1939) çerçevesinde kurulan fabrikaların işletilmesi ve finansmanının sağlanması amacıyla kurulan banka aşağıdakilerden hangisidir?",
+        "o": [
+            "İş Bankası",
+            "Ziraat Bankası",
+            "Sümerbank",
+            "Etibank",
+            "Sanayi ve Maadin Bankası"
+        ],
+        "a": 2,
+        "e": "Sümerbank (1933), I. Beş Yıllık Sanayi Planı kapsamındaki sanayi yatırımlarını finanse etmek ve fabrikaları işletmek amacıyla kurulmuştur. Etibank ise madencilik faaliyetleri için kurulmuştur."
+    },
+    {
+        "id": "tarih_122",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "siyasi-olaylar",
+        "subtopic": "İzmir Suikastı",
+        "q": "Mustafa Kemal Atatürk'ün 'Benim naçiz vücudum elbet bir gün toprak olacaktır; fakat Türkiye Cumhuriyeti ilelebet payidar kalacaktır.' sözünü hangi olay üzerine söylemiştir?",
+        "o": [
+            "Şeyh Sait İsyanı",
+            "Menemen Olayı",
+            "İzmir Suikastı Girişimi",
+            "Büyük Taarruz",
+            "Cumhuriyetin İlanı"
+        ],
+        "a": 2,
+        "e": "Atatürk bu tarihi sözünü, 1926 yılında kendisine karşı planlanan ancak Giritli Şevki'nin ihbarı ile ortaya çıkarılan İzmir Suikastı girişimi sonrasında söylemiştir."
+    },
+    {
+        "id": "tarih_123",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1938",
+        "subtopic": "Hatay Sorunu",
+        "q": "Atatürk'ün 'Şahsi meselem' dediği ve anavatana katılması için yoğun çaba harcadığı Hatay, hangi tarihte Türkiye Cumhuriyeti sınırlarına resmen katılmıştır?",
+        "o": [
+            "1936",
+            "1937",
+            "1938",
+            "1939",
+            "1940"
+        ],
+        "a": 3,
+        "e": "Hatay Cumhuriyeti Meclisi'nin aldığı karar doğrultusunda Hatay, 1939 yılında (Atatürk'ün vefatından sonra) Türkiye'ye katılmıştır. 1938'de ise bağımsız Hatay Cumhuriyeti kurulmuştu."
+    },
+    {
+        "id": "tarih_124",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Cumhuriyetçilik",
+        "q": "Aşağıdakilerden hangisi Cumhuriyetçilik ilkesi ile doğrudan ilgili değildir?",
+        "o": [
+            "TBMM'nin açılması",
+            "Saltanatın kaldırılması",
+            "Çok partili hayata geçiş denemeleri",
+            "Kadınlara seçme ve seçilme hakkının verilmesi",
+            "Kılık kıyafet kanununun kabulü"
+        ],
+        "a": 4,
+        "e": "Kılık kıyafet kanunu (Şapka Kanunu vb.) daha çok İnkılapçılık ve Halkçılık ilkeleriyle (sosyal görünümde çağdaşlaşma) ilgilidir. Diğer seçenekler doğrudan halk iradesi ve yönetim biçimi olan Cumhuriyetçilik ile ilgilidir."
+    },
+    {
+        "id": "tarih_125",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-ve-kultur",
+        "subtopic": "Tarih ve Dil Çalışmaları",
+        "q": "Türk tarihinin köklerini araştırmak, Türklerin dünya medeniyetine katkılarını ortaya koymak ve ümmetçi tarih anlayışından milli tarih anlayışına geçmek amacıyla 1931 yılında kurulan kurum hangisidir?",
+        "o": [
+            "Türk Dil Kurumu",
+            "Türk Tarih Kurumu",
+            "Ankara Dil ve Tarih-Coğrafya Fakültesi",
+            "Halkevleri",
+            "Köy Enstitüleri"
+        ],
+        "a": 1,
+        "e": "Belirtilen amaçlar doğrultusunda 1931 yılında Türk Tarihi Tetkik Cemiyeti (sonradan Türk Tarih Kurumu) kurulmuştur."
+    },
+    {
+        "id": "tarih_126",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1938",
+        "subtopic": "Sadabad Paktı",
+        "q": "1937 yılında Türkiye, İran, Irak ve Afganistan arasında imzalanan Sadabad Paktı'na, Türkiye ile yaşadığı sınır sorunları ve Hatay meselesi nedeniyle katılmayan devlet hangisidir?",
+        "o": [
+            "Suriye",
+            "Yunanistan",
+            "Bulgaristan",
+            "Mısır",
+            "Suudi Arabistan"
+        ],
+        "a": 0,
+        "e": "Suriye, Türkiye ile olan Hatay sorunu ve Irak ile olan sınır anlaşmazlıkları nedeniyle bölgesel bir güvenlik örgütü olan Sadabad Paktı'na katılmamıştır."
+    },
+    {
+        "id": "tarih_127",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "siyasi-inkilaplar",
+        "subtopic": "Siyasi Alanda İnkılaplar",
+        "q": "TBMM'de yaşanan 'Ekim Buhranı' veya 'Hükûmet Bunalımı' olarak adlandırılan siyasi kriz, aşağıdaki gelişmelerden hangisinin gerçekleştirilmesini hızlandırmıştır?",
+        "o": [
+            "Saltanatın kaldırılması",
+            "Cumhuriyetin ilanı",
+            "Halifeliğin kaldırılması",
+            "Çok partili hayata geçiş",
+            "Ankara'nın başkent olması"
+        ],
+        "a": 1,
+        "e": "27 Ekim 1923'te Fethi Okyar hükümetinin istifası sonrası Meclis Hükûmeti Sistemi'nden kaynaklanan yeni hükümet kurma sorunu (Ekim Buhranı), Kabine Sistemi'ne geçişi zorunlu kılmış ve 29 Ekim 1923'te Cumhuriyet ilan edilmiştir."
+    },
+    {
+        "id": "tarih_128",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1923-1930",
+        "subtopic": "1923-1930 Dönemi Dış Politika",
+        "q": "Lozan Barış Konferansı'nda çözülemeyip ikili görüşmelere bırakılan ve 1926 Ankara Antlaşması ile Türkiye aleyhine çözümlenen sorun aşağıdakilerden hangisidir?",
+        "o": [
+            "Boğazlar Sorunu",
+            "Hatay Sorunu",
+            "Musul Sorunu",
+            "Nüfus Mübadelesi",
+            "Yabancı Okullar Sorunu"
+        ],
+        "a": 2,
+        "e": "Musul Sorunu (Irak Sınırı), Lozan'da çözülememiştir. İngiltere ile yapılan görüşmeler ve Şeyh Sait İsyanı'nın yarattığı zafiyet sonucu 1926 Ankara Antlaşması ile Musul, İngiliz mandasındaki Irak'a bırakılmıştır."
+    },
+    {
+        "id": "tarih_129",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Aşağıdaki inkılaplardan hangisi doğrudan 'Laiklik' ilkesi ile ilgili değildir?",
+        "o": [
+            "Halifeliğin kaldırılması",
+            "Şeriye ve Evkaf Vekâleti'nin kaldırılması",
+            "Tekke, zaviye ve türbelerin kapatılması",
+            "Kabotaj Kanunu'nun kabulü",
+            "Medeni Kanun'un kabulü"
+        ],
+        "a": 3,
+        "e": "Kabotaj Kanunu (1 Temmuz 1926), Türk karasularında yolcu ve yük taşıma hakkının Türk gemilerine verilmesini içerir. Bu durum doğrudan 'Milliyetçilik' ilkesi ile ilgilidir, Laiklik ile doğrudan bir ilgisi yoktur."
+    },
+    {
+        "id": "tarih_130",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "sosyal-alan",
+        "subtopic": "Sosyal Alanda İnkılaplar",
+        "q": "Türkiye'de 1934 yılında kabul edilen Soyadı Kanunu'nun temel amacı aşağıdakilerden hangisidir?",
+        "o": [
+            "Nüfus sayımını kolaylaştırmak",
+            "Toplumsal sınıf ayrımlarını belirginleştirmek",
+            "Resmi işlerdeki karışıklıkları önlemek ve sosyal eşitliği sağlamak",
+            "Yabancıların tespiti ve sınır dışı edilmesini sağlamak",
+            "Vergi toplama işlemlerini hızlandırmak"
+        ],
+        "a": 2,
+        "e": "Soyadı Kanunu, lakap ve unvanların yarattığı eşitsizliği kaldırmak (Halkçılık) ve askere alma, tapu, miras gibi resmi işlerde isim benzerliklerinden doğan karışıklıkları önlemek amacıyla çıkarılmıştır."
+    },
+    {
+        "id": "tarih_131",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Devletçilik İlkesi",
+        "q": "Cumhuriyet döneminde 'Devletçilik' ilkesinin zorunlu bir ekonomik politika olarak uygulanmaya başlanmasında, aşağıdaki gelişmelerden hangisi en çok etkili olmuştur?",
+        "o": [
+            "I. Dünya Savaşı'nın çıkması",
+            "1929 Dünya Ekonomik Buhranı",
+            "Şeyh Sait İsyanı",
+            "Lozan Barış Antlaşması'nın imzalanması",
+            "Nüfus Mübadelesi"
+        ],
+        "a": 1,
+        "e": "Özel sektörün yetersiz kalması ve 1929 Dünya Ekonomik Buhranı'nın olumsuz etkileri, devletin ekonomiye doğrudan müdahale etmesini ve sanayi yatırımlarını üstlenmesini (Devletçilik) zorunlu kılmıştır."
+    },
+    {
+        "id": "tarih_132",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ic-politika",
+        "subtopic": "Rejim Karşıtı İsyanlar",
+        "q": "Aşağıdakilerden hangisi Cumhuriyet rejimine yönelik çıkan isyanlardan biridir?",
+        "o": [
+            "31 Mart Vakası",
+            "Bab-ı Ali Baskını",
+            "Menemen Olayı",
+            "Vaka-i Vakvakiye",
+            "Kabakçı Mustafa İsyanı"
+        ],
+        "a": 2,
+        "e": "Menemen Olayı (Kubilay Olayı - 1930) ve Şeyh Sait İsyanı (1925), Cumhuriyet rejimini yıkmaya yönelik gerici ayaklanmalardır. Diğer seçenekler Osmanlı dönemine aittir."
+    },
+    {
+        "id": "tarih_133",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-ve-kultur",
+        "subtopic": "Harf İnkılabı ve Millet Mektepleri",
+        "q": "1 Kasım 1928'de Yeni Türk Harflerinin kabul edilmesinden sonra, halka okuma yazma öğretmek amacıyla açılan kurum aşağıdakilerden hangisidir?",
+        "o": [
+            "Halkevleri",
+            "Millet Mektepleri",
+            "Köy Enstitüleri",
+            "Darülfünun",
+            "Türk Ocakları"
+        ],
+        "a": 1,
+        "e": "Yeni harflerin kabulünün ardından, okul çağını geçmiş vatandaşlara yeni alfabeyi öğretmek amacıyla 24 Kasım 1928'de 'Millet Mektepleri' açılmıştır. Atatürk'e 'Başöğretmen' unvanı da bu tarihte verilmiştir."
+    },
+    {
+        "id": "tarih_134",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1938",
+        "subtopic": "Balkan Antantı",
+        "q": "1934 yılında Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalanan Balkan Antantı'na, yayılmacı politikaları ve sınır sorunları nedeniyle katılmayan devlet aşağıdakilerden hangisidir?",
+        "o": [
+            "Arnavutluk",
+            "Bulgaristan",
+            "Macaristan",
+            "İtalya",
+            "Sovyet Rusya"
+        ],
+        "a": 1,
+        "e": "Bulgaristan, II. Balkan Savaşı'ndan kalan sınır sorunları (Dobruca sorunu vb.) ve revizyonist (sınırları değiştirme yanlısı) politikası nedeniyle Balkan Antantı'na katılmamıştır. Arnavutluk ise İtalya etkisinde olduğu için katılmamıştır."
+    },
+    {
+        "id": "tarih_135",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-alani",
+        "subtopic": "Planlı Ekonomi",
+        "q": "Türkiye'de I. Beş Yıllık Sanayi Planı hangi yıllar arasında uygulanmıştır?",
+        "o": [
+            "1923-1928",
+            "1929-1933",
+            "1930-1935",
+            "1934-1939",
+            "1938-1943"
+        ],
+        "a": 3,
+        "e": "I. Beş Yıllık Sanayi Planı 1933'te hazırlanmış ve 1934-1939 yılları arasında başarıyla uygulanmıştır. II. Beş Yıllık Sanayi Planı ise II. Dünya Savaşı nedeniyle uygulanamamıştır."
+    },
+    {
+        "id": "tarih_136",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1938",
+        "subtopic": "Hatay Sorunu",
+        "q": "Hatay Sorunu'nun çözümü sürecinde, Milletler Cemiyeti tarafından bölgeye gönderilen ve hazırladığı raporda Hatay halkının çoğunluğunun Türk olduğunu belirten raportör kimdir?",
+        "o": [
+            "General Harbord",
+            "Amiral Bristol",
+            "Sandler",
+            "Milne",
+            "Lord Curzon"
+        ],
+        "a": 2,
+        "e": "İsveçli diplomat Sandler, Milletler Cemiyeti adına hazırladığı 'Sandler Raporu'nda Hatay nüfusunun çoğunluğunun Türk olduğunu ve bölgeye özerklik verilmesi gerektiğini belirtmiştir."
+    },
+    {
+        "id": "tarih_137",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ic-politika",
+        "subtopic": "Serbest Cumhuriyet Fırkası",
+        "q": "1930 yılında Atatürk'ün isteğiyle Fethi Okyar tarafından kurulan Serbest Cumhuriyet Fırkası'nın, Cumhuriyet Halk Fırkası'ndan ayrılan temel görüş farkı aşağıdakilerden hangisidir?",
+        "o": [
+            "Cumhuriyetçilik ilkesini savunması",
+            "Kadınlara siyasi haklar verilmesini istemesi",
+            "Ekonomide liberalizmi savunması",
+            "Laiklik ilkesine karşı olması",
+            "Tek dereceli seçim sistemini reddetmesi"
+        ],
+        "a": 2,
+        "e": "Cumhuriyet Halk Fırkası ekonomide 'Devletçilik' ilkesini benimserken, Serbest Cumhuriyet Fırkası ekonomide 'Liberalizm'i (Serbest Piyasa) savunmuştur. Bu, iki parti arasındaki en temel program farkıdır."
+    },
+    {
+        "id": "tarih_138",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-ve-kultur",
+        "subtopic": "Tarih ve Dil Çalışmaları",
+        "q": "Atatürk döneminde Türk tarihinin köklerini araştırmak ve Türklerin dünya medeniyetine katkılarını ortaya koymak amacıyla 1931 yılında kurulan kurum aşağıdakilerden hangisidir?",
+        "o": [
+            "Türk Dil Kurumu",
+            "Türk Tarih Kurumu",
+            "Dil ve Tarih-Coğrafya Fakültesi",
+            "Anadolu Medeniyetleri Müzesi",
+            "Türkiyat Enstitüsü"
+        ],
+        "a": 1,
+        "e": "1931 yılında 'Türk Tarihi Tetkik Cemiyeti' adıyla kurulan kurum, daha sonra Türk Tarih Kurumu adını almıştır. Amacı Türk tarihini bilimsel yöntemlerle araştırmaktır. (Türk Dil Kurumu 1932'de kurulmuştur)."
+    },
+    {
+        "id": "tarih_139",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1938",
+        "subtopic": "Sadabad Paktı",
+        "q": "1937 yılında İtalya'nın yayılmacı politikasına karşı Türkiye, İran, Irak ve Afganistan arasında imzalanan Sadabad Paktı ile aşağıdakilerden hangisi amaçlanmıştır?",
+        "o": [
+            "Batı sınırlarının güvenliğini sağlamak",
+            "Doğu sınırlarının güvenliğini sağlamak",
+            "Boğazlar sorununu çözmek",
+            "Hatay'ı anavatana katmak",
+            "Balkanlarda barışı korumak"
+        ],
+        "a": 1,
+        "e": "Sadabad Paktı, İtalya'nın Habeşistan'ı işgali ve doğuya yönelme ihtimaline karşı Türkiye'nin öncülüğünde 'Doğu sınırlarının güvenliğini' sağlamak amacıyla Tahran'da imzalanmıştır."
+    },
+    {
+        "id": "tarih_140",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Bütünleyici İlkeler",
+        "q": "Atatürk'ün 'Yurtta sulh, cihanda sulh' sözü, Türk dış politikasının temelini oluşturmakla birlikte, aşağıdaki bütünleyici ilkelerden hangisiyle doğrudan ilişkilidir?",
+        "o": [
+            "Akılcılık ve Bilimsellik",
+            "Milli Egemenlik",
+            "İnsan ve İnsanlık Sevgisi",
+            "Çağdaşlaşma",
+            "Milli Birlik ve Beraberlik"
+        ],
+        "a": 2,
+        "e": "Yurtta barış, dünyada barış ilkesi; uluslararası hukuka saygıyı ve barışı esas aldığı için doğrudan 'İnsan ve İnsanlık Sevgisi' bütünleyici ilkesi ile ilişkilendirilir."
+    },
+    {
+        "id": "tarih_141",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "siyasal-inkilaplar",
+        "subtopic": "Siyasal Alanda İnkılaplar",
+        "q": "Lozan Barış Konferansı'na İstanbul Hükûmeti'nin de davet edilmesi üzerine, İtilaf Devletleri'nin iki hükûmet arasında ikilik çıkarmasını engellemek amacıyla TBMM tarafından atılan adım aşağıdakilerden hangisidir?",
+        "o": [
+            "Cumhuriyetin ilan edilmesi",
+            "Halifeliğin kaldırılması",
+            "Saltanatın kaldırılması",
+            "Kapitülasyonların tek taraflı feshedilmesi",
+            "Misak-ı Millî'nin kabulü"
+        ],
+        "a": 2,
+        "e": "İtilaf Devletleri'nin Lozan'a hem Ankara hem de İstanbul hükûmetlerini çağırarak ikilik yaratma planı, 1 Kasım 1922'de Saltanatın kaldırılmasıyla bozulmuş ve TBMM konferansa tek temsilci olarak katılmıştır."
+    },
+    {
+        "id": "tarih_142",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cok-partili-hayat",
+        "subtopic": "Çok Partili Hayata Geçiş Denemeleri",
+        "q": "Türkiye Cumhuriyeti'nin ilk muhalefet partisi olan Terakkiperver Cumhuriyet Fırkası, aşağıdaki gelişmelerden hangisi ile ilişkilendirilerek kapatılmıştır?",
+        "o": [
+            "Menemen Olayı",
+            "İzmir Suikastı",
+            "Şeyh Sait İsyanı",
+            "Dersim Olayları",
+            "Çerkez Ethem İsyanı"
+        ],
+        "a": 2,
+        "e": "Terakkiperver Cumhuriyet Fırkası, parti programındaki 'Partimiz dini inançlara saygılıdır' ibaresinin irticai faaliyetleri cesaretlendirdiği gerekçesiyle ve Şeyh Sait İsyanı'ndaki rolü ileri sürülerek Takrir-i Sükûn Kanunu kapsamında kapatılmıştır."
+    },
+    {
+        "id": "tarih_143",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "hukuk-alaninda-inkilaplar",
+        "subtopic": "Hukuk Alanında İnkılaplar",
+        "q": "1926 yılında kabul edilen Türk Medeni Kanunu ile kadınlara; evlenme, boşanma, miras ve şahitlik gibi konularda erkeklerle eşit haklar tanınmıştır. Ancak bu kanunla kadınlara aşağıdaki haklardan hangisi verilmemiştir?",
+        "o": [
+            "İstediği mesleğe girme hakkı",
+            "Mahkemede tanıklıkta eşitlik",
+            "Mirastan eşit pay alma",
+            "Seçme ve seçilme hakkı",
+            "Resmi nikah zorunluluğu"
+        ],
+        "a": 3,
+        "e": "Türk Medeni Kanunu (1926) sosyal ve ekonomik hakları düzenlemiştir. Kadınlara seçme ve seçilme gibi siyasi hakların verilmesi 1930, 1933 ve 1934 yıllarındaki düzenlemelerle gerçekleşmiştir."
+    },
+    {
+        "id": "tarih_144",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-alaninda-inkilaplar",
+        "subtopic": "Ekonomi Alanında İnkılaplar",
+        "q": "Yeni Türk Devleti'nin ekonomi politikasını belirlemek amacıyla 1923 yılında toplanan İzmir İktisat Kongresi'nin başkanlığını aşağıdakilerden hangisi yapmıştır?",
+        "o": [
+            "Celal Bayar",
+            "İsmet İnönü",
+            "Kazım Karabekir",
+            "Fethi Okyar",
+            "Hasan Saka"
+        ],
+        "a": 2,
+        "e": "İzmir İktisat Kongresi'nin başkanlığını Kazım Karabekir yapmıştır. Kongrede Misak-ı İktisadi kararları kabul edilmiştir."
+    },
+    {
+        "id": "tarih_145",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Aşağıdaki inkılaplardan hangisi doğrudan 'Laiklik' ilkesi ile ilgili değildir?",
+        "o": [
+            "Halifeliğin kaldırılması",
+            "Şeriye ve Evkaf Vekâletinin kaldırılması",
+            "Tevhid-i Tedrisat Kanunu'nun kabulü",
+            "Tekke, zaviye ve türbelerin kapatılması",
+            "Kabotaj Kanunu'nun kabulü"
+        ],
+        "a": 4,
+        "e": "Kabotaj Kanunu, Türk karasularında yolcu ve yük taşıma hakkının Türklere verilmesini içerir ve doğrudan 'Milliyetçilik' ilkesi ile ilgilidir. Diğer seçenekler din ve devlet işlerinin ayrılması veya dinin istismarının önlenmesiyle (Laiklik) ilgilidir."
+    },
+    {
+        "id": "tarih_146",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1923-1930",
+        "subtopic": "Dış Politika (1923-1930)",
+        "q": "Türkiye ile İngiltere arasında yaşanan Musul Sorunu, 1926 yılında imzalanan hangi antlaşma ile çözüme kavuşmuştur?",
+        "o": [
+            "Lozan Antlaşması",
+            "Ankara Antlaşması",
+            "Kars Antlaşması",
+            "Haliç Konferansı Kararları",
+            "Sadabad Paktı"
+        ],
+        "a": 1,
+        "e": "Musul Sorunu, 5 Haziran 1926 tarihli Ankara Antlaşması ile çözülmüş, Musul İngiliz mandasındaki Irak'a bırakılmıştır."
+    },
+    {
+        "id": "tarih_147",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "sosyal-alanda-inkilaplar",
+        "subtopic": "Sosyal Alanda İnkılaplar",
+        "q": "Mustafa Kemal Atatürk, Şapka Kanunu öncesinde halka şapkayı tanıtmak amacıyla aşağıdaki şehirlerden hangisine bir yurt gezisi düzenlemiştir?",
+        "o": [
+            "İzmir",
+            "Bursa",
+            "Kastamonu",
+            "Sivas",
+            "Erzurum"
+        ],
+        "a": 2,
+        "e": "Mustafa Kemal, şapka devrimini halka anlatmak ve tanıtmak için 1925 yılında Kastamonu ve İnebolu çevresine gezi düzenlemiştir."
+    },
+    {
+        "id": "tarih_148",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ataturk-ilkeleri",
+        "subtopic": "Atatürk İlkeleri",
+        "q": "Özel sektörün yetersiz kaldığı alanlarda devletin ekonomiye müdahale etmesini ve yatırımları bizzat yapmasını öngören Atatürk ilkesi aşağıdakilerden hangisidir?",
+        "o": [
+            "Cumhuriyetçilik",
+            "Halkçılık",
+            "Devletçilik",
+            "İnkılapçılık",
+            "Milliyetçilik"
+        ],
+        "a": 2,
+        "e": "Devletçilik ilkesi, özel teşebbüsün yetersiz kaldığı durumlarda devletin ekonomik kalkınmayı sağlamak amacıyla sanayi, ticaret ve diğer alanlarda doğrudan yatırım yapmasını ifade eder."
+    },
+    {
+        "id": "tarih_149",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-ve-kultur",
+        "subtopic": "Eğitim ve Kültür Alanında İnkılaplar",
+        "q": "1 Kasım 1928'de Yeni Türk Harflerinin kabul edilmesinden sonra, halka okuma yazma öğretmek amacıyla açılan kurum aşağıdakilerden hangisidir?",
+        "o": [
+            "Köy Enstitüleri",
+            "Halkevleri",
+            "Millet Mektepleri",
+            "Türk Ocakları",
+            "Sanayi-i Nefise Mektebi"
+        ],
+        "a": 2,
+        "e": "Yeni harflerin kabulünün ardından 24 Kasım 1928'de Millet Mektepleri Talimatnamesi yayımlanmış ve halka yeni harfleri öğretmek için Millet Mektepleri açılmıştır."
+    },
+    {
+        "id": "tarih_150",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cok-partili-hayat",
+        "subtopic": "Çok Partili Hayata Geçiş Denemeleri",
+        "q": "1930 yılında Mustafa Kemal'in isteği ve Fethi Okyar'ın liderliğinde kurulan, 1929 Dünya Ekonomik Buhranı'nın etkilerini azaltmak için liberal ekonomiyi savunan siyasi parti hangisidir?",
+        "o": [
+            "Cumhuriyet Halk Fırkası",
+            "Terakkiperver Cumhuriyet Fırkası",
+            "Ahali Cumhuriyet Fırkası",
+            "Serbest Cumhuriyet Fırkası",
+            "Milli Kalkınma Partisi"
+        ],
+        "a": 3,
+        "e": "1930 yılında Fethi Okyar tarafından kurulan ve liberal ekonomiyi savunan parti Serbest Cumhuriyet Fırkası'dır. Rejim karşıtlarının odağı haline geldiği gerekçesiyle kurucusu tarafından feshedilmiştir."
+    },
+    {
+        "id": "tarih_151",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1938",
+        "subtopic": "Dış Politika (1930-1938)",
+        "q": "II. Dünya Savaşı tehlikesine karşı, sınır güvenliğini sağlamak amacıyla 1934 yılında kurulan Balkan Antantı'na aşağıdaki devletlerden hangisi katılmamıştır?",
+        "o": [
+            "Türkiye",
+            "Yunanistan",
+            "Yugoslavya",
+            "Romanya",
+            "Bulgaristan"
+        ],
+        "a": 4,
+        "e": "Balkan Antantı'na Türkiye, Yunanistan, Yugoslavya ve Romanya (TAYY) katılmıştır. Bulgaristan, revizyonist (yayılmacı) politikaları ve komşularıyla yaşadığı toprak sorunları nedeniyle katılmamıştır."
+    },
+    {
+        "id": "tarih_152",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "ekonomi-alaninda-inkilaplar",
+        "subtopic": "Ekonomi Alanında İnkılaplar",
+        "q": "Cumhuriyet döneminin ilk özel bankası olan ve Celal Bayar'ın genel müdürlüğünü üstlendiği banka aşağıdakilerden hangisidir?",
+        "o": [
+            "Ziraat Bankası",
+            "Sümerbank",
+            "Etibank",
+            "İş Bankası",
+            "Halk Bankası"
+        ],
+        "a": 3,
+        "e": "1924 yılında kurulan Türkiye İş Bankası, Cumhuriyet döneminin ilk özel bankasıdır."
+    },
+    {
+        "id": "tarih_153",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-ve-kultur",
+        "subtopic": "Kültür Kurumları",
+        "q": "Türk tarihini bilimsel yöntemlerle araştırmak ve Türklerin dünya medeniyetine katkılarını ortaya koymak amacıyla 1931 yılında kurulan kurum hangisidir?",
+        "o": [
+            "Türk Dil Kurumu",
+            "Türk Tarih Kurumu",
+            "Ankara Dil ve Tarih-Coğrafya Fakültesi",
+            "Halkevleri",
+            "Milli Kütüphane"
+        ],
+        "a": 1,
+        "e": "1931 yılında Türk Tarihi Tetkik Cemiyeti adıyla kurulan kurum, daha sonra Türk Tarih Kurumu adını almıştır."
+    },
+    {
+        "id": "tarih_154",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1938",
+        "subtopic": "Dış Politika (1930-1938)",
+        "q": "Mustafa Kemal Atatürk'ün 'Şahsi meselem' dediği ve dönemin gazetelerinde 'Asım Us' takma adıyla eleştirel yazılar yazdığı dış politika sorunu hangisidir?",
+        "o": [
+            "Musul Sorunu",
+            "Boğazlar Sorunu",
+            "Hatay Sorunu",
+            "Yabancı Okullar Sorunu",
+            "Nüfus Mübadelesi"
+        ],
+        "a": 2,
+        "e": "Atatürk, Hatay (Sancak) sorunu ile yakından ilgilenmiş, bu konuyu 'şahsi meselem' olarak nitelendirmiş ve Kurun gazetesinde Asım Us takma adıyla hükûmeti eleştiren yazılar yazmıştır."
+    },
+    {
+        "id": "tarih_155",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "dis-politika-1930-1938",
+        "subtopic": "Dış Politika (1930-1938)",
+        "q": "İtalya'nın Doğu Akdeniz ve Ortadoğu'daki yayılmacı politikasına karşı Türkiye, İran, Irak ve Afganistan arasında 1937 yılında imzalanan pakt hangisidir?",
+        "o": [
+            "Balkan Antantı",
+            "Bağdat Paktı",
+            "Sadabad Paktı",
+            "CENTO",
+            "Kellogg-Briand Paktı"
+        ],
+        "a": 2,
+        "e": "1937 yılında Türkiye, İran, Irak ve Afganistan arasında Tahran'daki Sadabad Sarayı'nda Sadabad Paktı imzalanarak doğu sınırlarının güvenliği sağlanmıştır."
+    },
+    {
+        "id": "tarih_156",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "egitim-ve-kultur",
+        "subtopic": "Üniversite Reformu",
+        "q": "1933 Üniversite Reformu kapsamında, İsviçreli Profesör Albert Malche'nin raporu doğrultusunda kapatılan Darülfünun'un yerine kurulan yükseköğretim kurumu hangisidir?",
+        "o": [
+            "Ankara Üniversitesi",
+            "İstanbul Teknik Üniversitesi",
+            "Mimar Sinan Güzel Sanatlar Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Gazi Üniversitesi"
+        ],
+        "a": 3,
+        "e": "1933 yılında Darülfünun kapatılmış ve yerine modern anlamda eğitim veren İstanbul Üniversitesi kurulmuştur."
+    },
+    {
+        "id": "tarih_157",
+        "topicId": "onwrfsH02TgIhlyRUh56",
+        "subtopicId": "cok-partili-hayat",
+        "subtopic": "Rejime Karşı Tepkiler",
+        "q": "Serbest Cumhuriyet Fırkası'nın kendini feshetmesinden kısa bir süre sonra İzmir'in Menemen ilçesinde Derviş Mehmet ve adamları tarafından çıkarılan, Asteğmen Kubilay'ın şehit edildiği olay sonucunda ne olmuştur?",
+        "o": [
+            "Takrir-i Sükûn Kanunu çıkarıldı.",
+            "Çok partili hayata geçiş denemeleri uzun bir süre askıya alındı.",
+            "Halifelik kaldırıldı.",
+            "İstiklal Mahkemeleri son kez kuruldu.",
+            "Tekalif-i Milliye Emirleri yayımlandı."
+        ],
+        "a": 1,
+        "e": "1930 Menemen Olayı (Kubilay Olayı), rejime yönelik gerici bir ayaklanmadır. Bu olay, ortamın henüz demokrasiye uygun olmadığını göstermiş ve çok partili hayata geçiş denemeleri 1945 yılına kadar askıya alınmıştır."
+    }
+]
