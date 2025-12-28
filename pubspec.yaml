@@ -48,7 +48,7 @@ dependencies:
   google_sign_in: ^6.2.1
   
   # State Management
-  flutter_bloc: ^8.1.6
+  flutter_bloc: ^9.1.1
   equatable: ^2.0.7
   provider: ^6.1.2
   
@@ -116,7 +116,7 @@ dev_dependencies:
   
   # Testing
   mockito: ^5.4.4
-  bloc_test: ^9.1.7
+  bloc_test: ^10.0.0
   fake_cloud_firestore: ^3.0.3
   
   # App Icon
