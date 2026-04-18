@@ -1,0 +1,87 @@
+[
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 1: Bölüm 1: Saymanın Temel İlkeleri ve Faktöriyel Kavramı",
+    "content": "Bir zamanlar, uzak bir diyarda, Kral Matematik'in ülkesinde, her şeyin bir düzeni vardı. Kral, tebaasının her şeyi doğru bir şekilde saymasını isterdi. Bir gün, ülkenin en genç ve meraklı öğrencisi olan Ali, pazarda satılan elmaları saymakla görevlendirildi. Kırmızı elmalar ve yeşil elmalar vardı. Ali, kırmızı elmaları sayarken bir yöntem, yeşil elmaları sayarken başka bir yöntem kullandı. Sonra ikisini topladı. İşte bu, 'Toplama Yoluyla Sayma İlkesi'ydi. Eğer bir iş A farklı yolla, başka bir iş B farklı yolla yapılabiliyorsa ve bu iki iş aynı anda yapılamıyorsa, bu işlerden biri veya diğeri A+B farklı yolla yapılabilir. Ali, ertesi gün ise bir ziyafet için hazırlık yapan aşçıbaşına yardım etti. Aşçıbaşı, başlangıç yemeği olarak 3 farklı çorba ve ana yemek olarak 4 farklı et yemeği sunacaktı. Ali'ye, bir çorba ve bir ana yemekten oluşan kaç farklı menü oluşturulabileceğini sordu. Ali düşündü: Her bir çorba için 4 farklı ana yemek seçeneği vardı. Yani 3 çorba için 3 x 4 = 12 farklı menü. Bu da 'Çarpma Yoluyla Sayma İlkesi'ydi. Eğer bir iş A farklı yolla ve bu işe bağlı başka bir iş B farklı yolla yapılabiliyorsa, bu iki iş birlikte A x B farklı yolla yapılabilir. Kral Matematik'in ülkesinde bir de 'Faktöriyel' adında sihirli bir sayı vardı. Bu sayı, özellikle nesneleri sıralarken çok işe yarıyordu. Örneğin, 3 farklı kitabı bir rafa kaç farklı şekilde dizebileceğimizi merak eden Ali, ilk kitap için 3, ikinci kitap için kalan 2, son kitap için ise 1 yer olduğunu fark etti. Yani 3 x 2 x 1 = 6 farklı sıralama. İşte buna '3 faktöriyel' deniyordu ve '3!' şeklinde gösteriliyordu. Genel olarak, n farklı nesnenin sıralanma sayısı n! ile ifade edilirdi. Ali, bu sayıları sadeleştirmeyi de öğrendi. Büyük faktöriyelleri küçük faktöriyellere bölerek karmaşık hesaplamaları basitleştirmek, onun en sevdiği hilelerden biri haline geldi. Böylece Ali, Kral Matematik'in ülkesinde saymanın temel sırlarını çözmüş oldu.",
+    "key_points": [
+      "Toplama yoluyla sayma ilkesi ve uygulama alanları",
+      "Çarpma yoluyla sayma ilkesi ve problem çözümlerinde kullanımı",
+      "Faktöriyel tanımı, özellikleri ve sadeleştirme işlemleri"
+    ],
+    "type": "story",
+    "id": "story_1776013565638_0",
+    "createdAt": "2026-04-12T17:06:05.638Z",
+    "updatedAt": "2026-04-12T17:06:05.638Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:06:18.316Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_PERMUTASYON_KOMBINASYON_0.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 2: Bölüm 2: Permütasyon (Sıralama) Kavramı ve Çeşitleri",
+    "content": "Kral Matematik'in ülkesinde, saymanın temel ilkelerini öğrenen Ali, şimdi daha zorlu bir görevle karşı karşıyaydı: 'Sıralama Sanatı'nı öğrenmek. Bu sanata 'Permütasyon' deniyordu. Kral, ülkenin en değerli hazinelerinden olan 5 farklı renkteki mücevheri, özel bir vitrine sıralamak istiyordu. Vitrinde sadece 3 mücevherlik yer vardı. Ali, kaç farklı şekilde bu mücevherleri dizebileceğini merak etti. İlk yer için 5, ikinci yer için kalan 4, üçüncü yer için ise 3 seçenek olduğunu fark etti. Yani 5 x 4 x 3 = 60 farklı sıralama. İşte bu, 'Permütasyon'du. n farklı nesneden r tanesini seçip sıralamanın formülü P(n,r) = n! / (n-r)! idi. Ali, bu formülü kullanarak hızlıca cevap verdi. Bir gün, Kral'ın ülkesinde bir festival düzenlendi. Festivalde, 'MATEMATİK' kelimesindeki harfleri kullanarak kaç farklı kelime yazılabileceği soruldu. Ali, harflere baktı: 'M' harfi iki kez, 'A' harfi iki kez geçiyordu. Bu, 'Tekrarlı Permütasyon'du. Eğer bazı nesneler özdeş ise, sıralama sayısı, toplam nesne sayısının faktöriyeli bölü tekrarlayan nesnelerin faktöriyellerinin çarpımıyla bulunuyordu. Yani 8! / (2! * 2!) gibi. Ali, bu formülü de başarıyla uyguladı. Festivalin sonunda, Kral ve konukları yuvarlak bir masada oturacaktı. 7 kişi yuvarlak bir masaya kaç farklı şekilde oturabilirdi? Ali, düz bir sırada 7! olduğunu biliyordu. Ancak yuvarlak masada başlangıç noktası önemli değildi. Her bir kişi, masayı döndürdüğümüzde aynı sıralamayı oluşturduğu için, toplam sıralamayı kişi sayısına bölmek gerekiyordu. Yani (7-1)! = 6! farklı sıralama. Bu da 'Dairesel Permütasyon'du. Ali, Kral Matematik'in ülkesinde sıralamanın tüm inceliklerini öğrenerek büyük bir bilgin olma yolunda ilerliyordu.",
+    "key_points": [
+      "Permütasyon tanımı ve formülü",
+      "Tekrarlı permütasyon ve farklı nesnelerin sıralanması",
+      "Dairesel permütasyon ve özel durumlar"
+    ],
+    "type": "story",
+    "id": "story_1776013565638_1",
+    "createdAt": "2026-04-12T17:06:05.638Z",
+    "updatedAt": "2026-04-12T17:06:05.638Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:06:18.316Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_PERMUTASYON_KOMBINASYON_1.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 3: Bölüm 3: Kombinasyon (Seçme) Kavramı ve Özellikleri",
+    "content": "Ali, Kral Matematik'in ülkesinde sıralama sanatını (Permütasyon) ustalıkla öğrenmişti. Şimdi ise sıra, 'Seçme Sanatı'na yani 'Kombinasyon'a gelmişti. Kral, ülkenin en iyi 10 okçusu arasından, bir yarışma için 3 kişilik bir takım kurmak istedi. Ali'ye, kaç farklı takım oluşturulabileceği soruldu. Ali düşündü: Eğer sıra önemli olsaydı, bu bir permütasyon olurdu. Ancak bir takımda 'Ali, Ayşe, Can' olması ile 'Ayşe, Can, Ali' olması arasında bir fark yoktu, çünkü aynı takımdılar. Yani sıra önemli değildi, sadece kimlerin seçildiği önemliydi. Bu durumda, permütasyon sayısını, seçilen elemanların kendi aralarındaki sıralanma sayısına bölmek gerekiyordu. Yani P(10,3) / 3! idi. Bu da C(n,r) = n! / (r! * (n-r)!) formülüyle hesaplanıyordu. Ali, C(10,3) = 10! / (3! * 7!) = (10*9*8) / (3*2*1) = 120 farklı takım oluşturulabileceğini buldu. Ali, Permütasyon ile Kombinasyon arasındaki farkı çok iyi anlamıştı: Permütasyonda sıra önemliyken, Kombinasyonda önemli değildi. Bir gün, Kral'ın kütüphanesinde gezinirken Ali, 'Pascal Üçgeni' adında gizemli bir desen keşfetti. Bu üçgenin her satırındaki sayılar, kombinasyon değerlerini temsil ediyordu. Örneğin, üçüncü satır 1, 3, 3, 1 idi ve bunlar C(3,0), C(3,1), C(3,2), C(3,3) değerlerine karşılık geliyordu. Ali, bu üçgenin, kombinasyonların birçok ilginç özelliğini barındırdığını fark etti. Özellikle, C(n,r) = C(n, n-r) gibi simetrik özellikler ve her satırdaki sayıların toplamının 2^n olması gibi özellikler onu çok etkiledi. Kral Matematik, Ali'nin bu bilgelik yolculuğundan çok memnun kaldı. Ali, artık sadece bir öğrenci değil, ülkesinin en bilge matematikçilerinden biriydi. Saymanın her sırrını çözmüş, permütasyon ve kombinasyonun büyülü dünyasında ustalaşmıştı.",
+    "key_points": [
+      "Kombinasyon tanımı ve formülü",
+      "Kombinasyon ile permütasyon arasındaki farklar",
+      "Kombinasyonun temel özellikleri ve Pascal üçgeni ilişkisi"
+    ],
+    "type": "story",
+    "id": "story_1776013565638_2",
+    "createdAt": "2026-04-12T17:06:05.638Z",
+    "updatedAt": "2026-04-12T17:06:05.638Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:06:18.316Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_PERMUTASYON_KOMBINASYON_2.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 4: Bölüm 4: Permütasyon ve Kombinasyon Uygulamaları",
+    "content": "Kadim zamanların Bilge Matematikçisi İbn-i Sina, genç öğrencilerini etrafına toplamış, onlara Permütasyon ve Kombinasyonun günlük hayattaki ve bilimdeki uygulamalarını anlatıyordu. 'Ey gençler,' dedi, 'Gruplandırma ve seçim problemleri, aslında hayatın ta kendisidir. Bir kervanın hangi yolu seçeceği, bir divanın hangi üyelerden oluşacağı, hepsi birer seçimdir.' Sonra tahtaya döndü ve 'Sıralama ve diziliş problemleri de öyle. Bir şiirdeki kelimelerin dizilişi, bir ordudaki askerlerin dizilişi, her biri farklı bir anlam ve güç taşır.' Öğrencilerden biri sordu: 'Peki ya özel şartlar, hocam? Mesela iki kişinin hep yan yana gelmesi gerektiğinde veya asla yan yana gelmemesi gerektiğinde ne yaparız?' İbn-i Sina gülümsedi. 'İşte o zaman, Permütasyon ve Kombinasyonun sihirli anahtarları devreye girer. Birlikte olmak isteyenleri tek bir parça gibi düşünür, ayrı kalmak isteyenleri ise tüm ihtimallerden çıkarırız. Her bir özel şart, problemin çözümüne giden yolda yeni bir ipucudur.' Öğrenciler, bu derin bilgiler karşısında hayranlıkla başlarını salladılar. Sayıların sadece rakamlardan ibaret olmadığını, hayatın her alanında birer hikaye anlattığını bir kez daha anladılar.",
+    "key_points": [
+      "Gruplandırma ve seçim problemleri",
+      "Sıralama ve diziliş problemleri",
+      "Özel şartlar içeren (birlikte olma, ayrı kalma vb.) permütasyon ve kombinasyon soruları"
+    ],
+    "type": "story",
+    "id": "story_1776013578317_0",
+    "createdAt": "2026-04-12T17:06:18.317Z",
+    "updatedAt": "2026-04-12T17:06:18.317Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:06:26.315Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_PERMUTASYON_KOMBINASYON_3.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 5: Bölüm 5: Karmaşık Problemler ve Olasılığa Giriş",
+    "content": "İbn-i Sina, bir sonraki dersinde öğrencilerini daha karmaşık problemlerin derinliklerine götürdü. 'Şimdi,' dedi, 'Hem Permütasyonun hem de Kombinasyonun birlikte kullanıldığı, adeta bir satranç oyunu gibi strateji gerektiren durumlara bakalım. Bir mecliste hem komite seçimi yapılacak hem de seçilen komitenin başkan ve yardımcıları belirlenecekse, işte burada iki gücü birleştirmemiz gerekir.' Tahtada Binom açılımını göstererek, 'Gördüğünüz gibi, bu açılımdaki katsayılar da aslında birer kombinasyon sonucudur. Kombinasyon, sadece seçim yapmakla kalmaz, aynı zamanda bu tür matematiksel ifadelerin yapısını da ortaya çıkarır.' Son olarak, öğrencileri olasılık dünyasının kapısına getirdi. 'Hayatta her şey kesin değildir, gençler. Yarın havanın nasıl olacağı, bir zarın hangi yüzünün geleceği... İşte bu belirsizlikleri anlamak için olasılığa ihtiyaç duyarız. Ve bu olasılıkları hesaplarken, Permütasyon ve Kombinasyon, bize basit olayların kaç farklı şekilde gerçekleşebileceğini gösteren pusulalarımız olur.' İbn-i Sina, elindeki kum saatini göstererek sözlerini tamamladı: 'Her bir kum tanesi, bir olayın gerçekleşme ihtimali gibidir. Permütasyon ve Kombinasyon, bu taneleri saymamıza ve gelecek hakkında daha doğru tahminlerde bulunmamıza yardımcı olur.' Öğrenciler, artık matematiksel düşünmenin sadece sayılarla değil, aynı zamanda hayatın belirsizlikleriyle de nasıl başa çıkılacağını anlıyorlardı.",
+    "key_points": [
+      "Hem permütasyon hem de kombinasyon içeren karmaşık problem çözümleri",
+      "Binom açılımı ile kombinasyon ilişkisi",
+      "Olasılık hesaplamalarında permütasyon ve kombinasyonun kullanımı (basit olaylar)"
+    ],
+    "type": "story",
+    "id": "story_1776013578317_1",
+    "createdAt": "2026-04-12T17:06:18.317Z",
+    "updatedAt": "2026-04-12T17:06:18.317Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:06:26.315Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_PERMUTASYON_KOMBINASYON_4.mp3?alt=media"
+  }
+]

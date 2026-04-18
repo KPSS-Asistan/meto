@@ -1,0 +1,1560 @@
+[
+  {
+    "id": "asal_sayi",
+    "term": "Asal Sayı",
+    "definition": "1'den büyük ve 1 ile kendisinden başka pozitif tam böleni olmayan doğal sayıdır. KPSS'de asal sayı tanımı ve örnekleri temel sorularda yer alır. 2, en küçük asal sayıdır.",
+    "examples": [
+      "2, 3, 5, 7 asal sayılardır.",
+      "9 asal değildir, çünkü 3'e tam bölünür.",
+      "KPSS sorusu: 17 asal sayı mı?"
+    ],
+    "relatedTerms": [
+      "Bileşik Sayı",
+      "Tam Bölen",
+      "Birim"
+    ],
+    "order": 1
+  },
+  {
+    "id": "bilesik_sayi",
+    "term": "Bileşik Sayı",
+    "definition": "1'den büyük, asal olmayan ve birden fazla asal çarpanı olan doğal sayıdır. KPSS'de asal sayı ile ayrımı sorulur. 1 ne asal ne bileşiktir.",
+    "examples": [
+      "4 = 2×2 bileşiktir.",
+      "15 = 3×5 bileşiktir.",
+      "KPSS: 25 bileşik sayı mı?"
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Asal Çarpan",
+      "Tam Bölen"
+    ],
+    "order": 2
+  },
+  {
+    "id": "birim",
+    "term": "Birim",
+    "definition": "Doğal sayılar arasında 1 sayısıdır; hiçbir sayıyı tam bölmez, her sayının tam bölenidir. KPSS'de asal sayı tanımında hariç tutulur. Asal veya bileşik değildir.",
+    "examples": [
+      "1'in tam bölenleri sadece 1'dir.",
+      "KPSS: 1 asal sayı değildir.",
+      "Her sayının tam böleni 1'dir."
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Tam Bölen",
+      "Bileşik Sayı"
+    ],
+    "order": 3
+  },
+  {
+    "id": "tam_bolen",
+    "term": "Tam Bölen",
+    "definition": "Bir sayıyı böldüğünde kalan bırakmayan pozitif tam sayıdır. KPSS'de tam bölen listeleme ve sayısı hesaplanır. Kendisi ve 1 her zaman tam bölenidir.",
+    "examples": [
+      "12'nin tam bölenleri: 1,2,3,4,6,12.",
+      "KPSS sorusu: 18'in tam bölenleri nelerdir?",
+      "7'nin tam bölenleri: 1,7."
+    ],
+    "relatedTerms": [
+      "Tam Bölen Sayısı",
+      "Asal Çarpan",
+      "Bölen"
+    ],
+    "order": 4
+  },
+  {
+    "id": "tam_bolen_sayisi",
+    "term": "Tam Bölen Sayısı",
+    "definition": "Bir doğal sayının pozitif tam bölenlerinin toplam sayısıdır. KPSS'de asal çarpanlara göre formülle hesaplanır: (e1+1)(e2+1)... . Sınavda sıkça sorulur.",
+    "examples": [
+      "12=2^2×3 için tam bölen sayısı (2+1)(1+1)=6.",
+      "KPSS: 30'un tam bölen sayısı kaçtır? (8)",
+      "Prime p için 2'dir."
+    ],
+    "relatedTerms": [
+      "Asal Çarpanlara Ayırma",
+      "Tam Bölen",
+      "Asal Sayı"
+    ],
+    "order": 5
+  },
+  {
+    "id": "asal_capran",
+    "term": "Asal Çarpan",
+    "definition": "Bir sayıyı oluşturan asal sayılardır. KPSS'de çarpanlara ayırma ile tam bölen sayısı ve EBOB hesaplanır. Tekrarlanabilir.",
+    "examples": [
+      "12=2^2×3, asal çarpanlar 2 ve 3.",
+      "KPSS: 100'ün asal çarpanları neler? (2,5)",
+      "7=7^1 tek asal çarpan."
+    ],
+    "relatedTerms": [
+      "Asal Çarpanlara Ayırma",
+      "Tam Bölen Sayısı",
+      "Asal Sayı"
+    ],
+    "order": 6
+  },
+  {
+    "id": "asal_capranlara_ayirma",
+    "term": "Asal Çarpanlara Ayırma",
+    "definition": "Bir sayıyı asal çarpanlarının çarpımı olarak yazmadır. KPSS'de EBOB, EKOK ve tam bölen sayısı için zorunludur. Temel Aritmetik Teoremi'ne dayanır.",
+    "examples": [
+      "36=2^2×3^2.",
+      "KPSS sorusu: 48'i asal çarpanlara ayırın. (2^4×3)",
+      "90=2×3^2×5."
+    ],
+    "relatedTerms": [
+      "Asal Çarpan",
+      "Tam Bölen Sayısı",
+      "Temel Aritmetik Teoremi"
+    ],
+    "order": 7
+  },
+  {
+    "id": "ebob",
+    "term": "En Büyük Ortak Bölen (EBOB)",
+    "definition": "İki veya daha fazla sayının ortak tam bölenlerinin en büyüğüdür. KPSS'de Euclid algoritması veya çarpanlarla hesaplanır. Ortak asal çarpanların min üsleri alınır.",
+    "examples": [
+      "EBOB(12,18)=6.",
+      "KPSS: EBOB(24,36) kaçtır? (12)",
+      "EBOB(7,13)=1."
+    ],
+    "relatedTerms": [
+      "Euclid Algoritması",
+      "EKOK",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 8
+  },
+  {
+    "id": "ekok",
+    "term": "En Küçük Ortak Kat (EKOK)",
+    "definition": "İki veya daha fazla sayının ortak katlarının en küçüğüdür. KPSS'de çarpanlarla max üsler alınarak bulunur. a×b = EBOB(a,b)×EKOK(a,b).",
+    "examples": [
+      "EKOK(12,18)=36.",
+      "KPSS: EKOK(4,6)=12.",
+      "EKOK(8,12)=24."
+    ],
+    "order": 9
+  },
+  {
+    "id": "euclid_algoritmasi",
+    "term": "Euclid Algoritması",
+    "definition": "EBOB'u bulmak için tekrarlı bölme yöntemi: EBOB(a,b)=EBOB(b,a mod b). KPSS'de hızlı hesaplama için kullanılır. Sıfır kalana kadar devam eder.",
+    "examples": [
+      "EBOB(48,18): 48=2×18+12, 18=1×12+6,12=2×6+0 →6.",
+      "KPSS sorusu: Euclid ile EBOB(100,28).",
+      "Hızlı ve sınavda pratik."
+    ],
+    "relatedTerms": [
+      "EBOB",
+      "Asal Çarpanlara Ayırma",
+      "EKOK"
+    ],
+    "order": 10
+  },
+  {
+    "id": "ebob_ekok_ozelligi",
+    "term": "EBOB x EKOK Özelliği",
+    "definition": "İki sayı a ve b için a×b = EBOB(a,b) × EKOK(a,b) formülüdür. KPSS'de EKOK veya EBOB eksikken kullanılır. Çarpanlara ayırmadan bağımsızdır.",
+    "examples": [
+      "12×18=6×36=216.",
+      "KPSS: EBOB(15,25)=5, EKOK=75 doğrula.",
+      "Hesaplamayı hızlandırır."
+    ],
+    "relatedTerms": [
+      "EBOB",
+      "EKOK",
+      "Euclid Algoritması"
+    ],
+    "order": 11
+  },
+  {
+    "id": "coklu_ebob",
+    "term": "Çoklu Sayıların EBOB'u",
+    "definition": "Üç veya daha fazla sayının ortak tam bölenlerinin en büyüğüdür. KPSS'de ikili EBOB'lar alınarak bulunur. Min üsler kuralı geçerlidir.",
+    "examples": [
+      "EBOB(12,18,24)=6.",
+      "KPSS: EBOB(30,42,60)=6.",
+      "Adım adım: EBOB(EBOB(12,18),24)."
+    ],
+    "relatedTerms": [
+      "EBOB",
+      "Euclid Algoritması",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 12
+  },
+  {
+    "id": "coklu_ekok",
+    "term": "Çoklu Sayıların EKOK'u",
+    "definition": "Üç veya daha fazla sayının ortak katlarının en küçüğüdür. KPSS'de ikili EKOK'lar veya max üslerle hesaplanır. Problemlerde sıkça çıkar.",
+    "examples": [
+      "EKOK(4,6,8)=24.",
+      "KPSS: EKOK(12,18,30)=180.",
+      "Max üs: 2^3×3^2×5."
+    ],
+    "relatedTerms": [
+      "EKOK",
+      "EBOB x EKOK Özelliği",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 13
+  },
+  {
+    "id": "temel_aritmetik_teoremi",
+    "term": "Temel Aritmetik Teoremi",
+    "definition": "Her doğal sayı >1 benzersiz asal çarpanlara ayrılır. KPSS'de çarpanlara ayırma ve tam bölen sayısının temelidir. Teklik vurgusu önemlidir.",
+    "examples": [
+      "12=2^2×3 sadece bu şekilde.",
+      "KPSS: 100=2^2×5^2 benzersizdir.",
+      "Asal çarpanların sırası fark etmez."
+    ],
+    "relatedTerms": [
+      "Asal Çarpanlara Ayırma",
+      "Asal Çarpan",
+      "Tam Bölen Sayısı"
+    ],
+    "order": 14
+  },
+  {
+    "id": "asallik_testi",
+    "term": "Asallık Testi",
+    "definition": "Bir sayının asal olup olmadığını kontrol için 2'den kareköküne kadar asallarla bölme yöntemidir. KPSS'de küçük sayılarda kullanılır. Çiftlik ve 3 kuralı hızlandırır.",
+    "examples": [
+      "17: 2'ye değil,3'e değil,√17~4<5 →asal.",
+      "KPSS: 29 asal mı? Evet.",
+      "25:5'e bölünür,asal değil."
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Tam Bölen",
+      "Euclid Algoritması"
+    ],
+    "order": 15
+  },
+  {
+    "id": "birim_sayi",
+    "term": "Birim Sayı",
+    "definition": "Her tam sayıya bölen olan ve asal olmayan tek pozitif tam sayı 1'dir. KPSS'de bölen sayılarında birim her zaman dahil edilir.",
+    "examples": [
+      "1'in tam bölenleri sadece kendisidir."
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Tam Bölen",
+      "Bölen Sayısı"
+    ],
+    "order": 16
+  },
+  {
+    "id": "bolen_sayisi",
+    "term": "Bölen Sayısı",
+    "definition": "Bir sayının pozitif tam bölenlerinin toplam sayısıdır. KPSS'de asal çarpanlara ayrıldıktan sonra (p1^a1 * p2^a2 * ...) formülüyle hesaplanır: (a1+1)(a2+1)...",
+    "examples": [
+      "36'nın bölen sayısı: 2^2*3^2 → (2+1)(2+1)=9."
+    ],
+    "relatedTerms": [
+      "Tam Bölen",
+      "Asal Çarpanlara Ayırma",
+      "Asal Bölen"
+    ],
+    "order": 17
+  },
+  {
+    "id": "asal_bolen",
+    "term": "Asal Bölen",
+    "definition": "Bir sayıyı bölen asal sayılardır. KPSS'de asal çarpanlara ayırmada kullanılır.",
+    "examples": [
+      "30'nun asal bölenleri: 2,3,5."
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Asal Çarpan",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 18
+  },
+  {
+    "id": "euclidean_algoritmasi",
+    "term": "Euclidean Algoritması",
+    "definition": "EBOB'yi hızlı hesaplamak için kalanlı bölme ile iterasyon yapan yöntemdir. KPSS'de büyük sayılarda EBOB için kullanılır.",
+    "examples": [
+      "EBOB(48,18): 48=2*18+12, 18=1*12+6, 12=2*6+0 → 6."
+    ],
+    "relatedTerms": [
+      "EBOB",
+      "Tam Bölen",
+      "Ortak Bölen"
+    ],
+    "order": 19
+  },
+  {
+    "id": "ebob_ekok_formulu",
+    "term": "EBOB-EKOK Formülü",
+    "definition": "İki sayı için EKOK(a,b) * EBOB(a,b) = a * b geçerlidir. KPSS'de birini bilerek diğerini bulmada kullanılır.",
+    "examples": [
+      "EBOB(12,18)=6, 12*18=216, EKOK=216/6=36."
+    ],
+    "relatedTerms": [
+      "EBOB",
+      "EKOK",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 20
+  },
+  {
+    "id": "ortak_bolen",
+    "term": "Ortak Bölen",
+    "definition": "İki veya daha fazla sayıyı bölen tam sayılardır. KPSS'de EBOB bulmada ilk adımdır.",
+    "examples": [
+      "12 ve 18'in ortak bölenleri: 1,2,3,6."
+    ],
+    "relatedTerms": [
+      "EBOB",
+      "Tam Bölen",
+      "Asal Bölen"
+    ],
+    "order": 21
+  },
+  {
+    "id": "ortak_kat",
+    "term": "Ortak Kat",
+    "definition": "İki veya daha fazla sayının katı olan sayılardır. KPSS'de EKOK için kullanılır.",
+    "examples": [
+      "12 ve 18'in ortak katları: 36,72,..."
+    ],
+    "relatedTerms": [
+      "EKOK",
+      "EBOB-EKOK Formülü",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 22
+  },
+  {
+    "id": "benzersiz_ayrisim_teoremi",
+    "term": "Benzersiz Ayrışım Teoremi",
+    "definition": "Her 1'den büyük doğal sayı, asal çarpanlarına çarpan olarak yalnızca bir biçimde ayrılır. KPSS'de çarpanlara ayırma uniqueness'ini doğrulatır.",
+    "examples": [
+      "12=2^2×3, başka biçimde yazılamaz.",
+      "100=2^2×5^2 benzersizdir."
+    ],
+    "relatedTerms": [
+      "Asal Çarpanlara Ayırma",
+      "Asal Çarpan"
+    ],
+    "order": 23
+  },
+  {
+    "id": "iki_ye_bolunebilme_kurali",
+    "term": "2'ye Bölünebilme Kuralı",
+    "definition": "Bir sayının birler basamağı 0, 2, 4, 6 veya 8 ise 2'ye tam bölünür. KPSS'de hızlı tam bölen kontrolü için kullanılır.",
+    "examples": [
+      "324 birler basamağı 4 olduğundan 2'ye tam bölünür.",
+      "567 birler basamağı 7 olduğundan bölünmez."
+    ],
+    "relatedTerms": [
+      "Tam Bölen",
+      "Asal Sayı",
+      "Bölen Sayısı"
+    ],
+    "order": 24
+  },
+  {
+    "id": "uc_e_bolunebilme_kurali",
+    "term": "3'e Bölünebilme Kuralı",
+    "definition": "Bir sayının rakamları toplamı 3'e tam bölünüyorsa sayı 3'e tam bölünür. Tekrarlanarak uygulanabilir.",
+    "examples": [
+      "123: 1+2+3=6 (3'e tam bölünür).",
+      "124: 1+2+4=7 (bölünmez)."
+    ],
+    "relatedTerms": [
+      "Tam Bölen",
+      "Ortak Bölen",
+      "Asal Bölen"
+    ],
+    "order": 25
+  },
+  {
+    "id": "dort_e_bolunebilme_kurali",
+    "term": "4'e Bölünebilme Kuralı",
+    "definition": "Bir sayının son iki basamağı oluşturan sayı 4'e tam bölünüyorsa sayı 4'e tam bölünür.",
+    "examples": [
+      "1232: 32÷4=8 tam.",
+      "1234: 34÷4=8.5 değil."
+    ],
+    "relatedTerms": [
+      "Tam Bölen",
+      "Bölen Sayısı",
+      "Asal Çarpan"
+    ],
+    "order": 26
+  },
+  {
+    "id": "bes_e_bolunebilme_kurali",
+    "term": "5'e Bölünebilme Kuralı",
+    "definition": "Bir sayının birler basamağı 0 veya 5 ise 5'e tam bölünür. KPSS hızlı testlerde sık kullanılır.",
+    "examples": [
+      "125 sonu 5, tam bölünür.",
+      "126 sonu 6, bölünmez."
+    ],
+    "relatedTerms": [
+      "Tam Bölen",
+      "Asal Sayı",
+      "Ortak Bölen"
+    ],
+    "order": 27
+  },
+  {
+    "id": "alti_ya_bolunebilme_kurali",
+    "term": "6'ya Bölünebilme Kuralı",
+    "definition": "Bir sayı hem 2'ye hem 3'e tam bölünüyorsa 6'ya tam bölünür.",
+    "examples": [
+      "18: çift ve 1+8=9 (3'e bölünür).",
+      "15: tek, bölünmez."
+    ],
+    "relatedTerms": [
+      "2'ye Bölünebilme Kuralı",
+      "3'e Bölünebilme Kuralı",
+      "Tam Bölen"
+    ],
+    "order": 28
+  },
+  {
+    "id": "sekiz_e_bolunebilme_kurali",
+    "term": "8'e Bölünebilme Kuralı",
+    "definition": "Bir sayının son üç basamağı 8'e tam bölünüyorsa sayı 8'e tam bölünür.",
+    "examples": [
+      "1232: 232÷8=29 tam.",
+      "1234: 234÷8=29.25 değil."
+    ],
+    "relatedTerms": [
+      "Tam Bölen",
+      "Bölen Sayısı",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 29
+  },
+  {
+    "id": "dokuz_a_bolunebilme_kurali",
+    "term": "9'a Bölünebilme Kuralı",
+    "definition": "Bir sayının rakamları toplamı 9'a tam bölünüyorsa sayı 9'a tam bölünür.",
+    "examples": [
+      "81: 8+1=9 tam.",
+      "82: 8+2=10 değil."
+    ],
+    "relatedTerms": [
+      "3'e Bölünebilme Kuralı",
+      "Tam Bölen",
+      "Ortak Bölen"
+    ],
+    "order": 30
+  },
+  {
+    "id": "on_a_bolunebilme_kurali",
+    "term": "10'a Bölünebilme Kuralı",
+    "definition": "Bir sayının birler basamağı 0 ise 10'a tam bölünür.",
+    "examples": [
+      "120 sonu 0, tam.",
+      "121 sonu 1, değil."
+    ],
+    "relatedTerms": [
+      "2'ye Bölünebilme Kuralı",
+      "5'e Bölünebilme Kuralı",
+      "Tam Bölen"
+    ],
+    "order": 31
+  },
+  {
+    "id": "on_bir_e_bolunebilme_kurali",
+    "term": "11'e Bölünebilme Kuralı",
+    "definition": "Rakamların sağdan sola alternatif toplamı (farkı) 11'in katı ise 11'e tam bölünür.",
+    "examples": [
+      "121: 1-2+1=0 (11 katı).",
+      "122: 1-2+2=1 değil."
+    ],
+    "relatedTerms": [
+      "Tam Bölen",
+      "Asal Sayı",
+      "Asal Bölen"
+    ],
+    "order": 32
+  },
+  {
+    "id": "mukemmel_sayi",
+    "term": "Mükemmel Sayı",
+    "definition": "Kendisi hariç tam bölenlerinin toplamı kendisine eşit olan sayıdır. KPSS'de bölen toplamı soruları için bilinir.",
+    "examples": [
+      "6: 1+2+3=6.",
+      "28: 1+2+4+7+14=28."
+    ],
+    "relatedTerms": [
+      "Tam Bölen",
+      "Bölen Sayısı",
+      "Tam Bölen Sayısı"
+    ],
+    "order": 33
+  },
+  {
+    "id": "arkadas_sayilar",
+    "term": "Arkadaş Sayılar",
+    "definition": "Bir sayının kendisi hariç tam bölenleri toplamı diğerine, diğerinin toplamı ilkine eşit olan sayı çiftleridir.",
+    "examples": [
+      "220 ve 284 çifti."
+    ],
+    "relatedTerms": [
+      "Mükemmel Sayı",
+      "Tam Bölen",
+      "Bölen Sayısı"
+    ],
+    "order": 34
+  },
+  {
+    "id": "bolluklu_sayi",
+    "term": "Bolluklu Sayı",
+    "definition": "Kendisi hariç tam bölenleri toplamı 2×kendisine büyük olan sayıdır.",
+    "examples": [
+      "12: 1+2+3+4+6=16 > 24? Hayır, düzelt: 16>12×2? Bolluklu için >2n.",
+      "Standart: 12 bölen toplamı 1+2+3+4+6+12=28>24 bolluklu."
+    ],
+    "relatedTerms": [
+      "Mükemmel Sayı",
+      "Tam Bölen Sayısı",
+      "Bölen Sayısı"
+    ],
+    "order": 35
+  },
+  {
+    "id": "eksik_sayi",
+    "term": "Eksik Sayı",
+    "definition": "Kendisi hariç tam bölenleri toplamı kendisinden küçük olan sayıdır.",
+    "examples": [
+      "8: 1+2+4=7<8.",
+      "14: 1+2+7=10<14."
+    ],
+    "relatedTerms": [
+      "Mükemmel Sayı",
+      "Bolluklu Sayı",
+      "Tam Bölen"
+    ],
+    "order": 36
+  },
+  {
+    "id": "asal_ikizler",
+    "term": "Asal İkizler",
+    "definition": "Aralarında 2 fark olan iki asal sayı çifti KPSS asal sayı sorularında örneklenir.",
+    "examples": [
+      "(3,5), (5,7), (11,13)."
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Bileşik Sayı",
+      "Asallık Testi"
+    ],
+    "order": 37
+  },
+  {
+    "id": "bolenler_toplami",
+    "term": "Bölenler Toplamı",
+    "definition": "Bir sayının tüm tam bölenlerinin toplamıdır, asal çarpan formülünden hesaplanır: ∏(1+p+...+p^k).",
+    "examples": [
+      "6: 1+2+3+6=12.",
+      "12: 1+2+3+4+6+12=28."
+    ],
+    "relatedTerms": [
+      "Bölen Sayısı",
+      "Tam Bölen",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 38
+  },
+  {
+    "id": "goreli_asal_sayilar",
+    "term": "Göreli Asal Sayılar",
+    "definition": "İki doğal sayının en büyük ortak böleni (EBOB) 1 ise bu sayılar birbirine göreli asaldır. KPSS'de EBOB hesaplamalarında ve sayı teorisi sorularında temel kavramdır. Bu özellik, sayılar arasındaki bağımsızlık ilişkisini gösterir.",
+    "examples": [
+      "12 ve 13 göreli asaldır çünkü EBOB(12,13)=1.",
+      "15 ve 28 göreli asaldır, EBOB=1.",
+      "KPSS sorusu: 35 ve 48 göreli asal mı? (Evet, EBOB=1)."
+    ],
+    "relatedTerms": [
+      "En Büyük Ortak Bölen (EBOB)",
+      "Tam Bölen",
+      "Asal Sayı"
+    ],
+    "order": 39
+  },
+  {
+    "id": "eratosthenes_eligi",
+    "term": "Eratosthenes Eleği",
+    "definition": "Belirli bir limite kadar asal sayıları sistematik olarak bulan eleme yöntemidir. KPSS'de asal sayı listeleme ve sayma sorularında kullanılır. 2'den başlayarak katlarını silerek asalları elde eder.",
+    "examples": [
+      "1-30 arası asalları bul: 2,3,5,7,11,13,17,19,23,29.",
+      "KPSS: 100'e kadar kaç asal var? (Eleği kullanarak 25)."
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Asal Çarpanlara Ayırma",
+      "Asallık Testi"
+    ],
+    "order": 40
+  },
+  {
+    "id": "bolme_algoritmasi",
+    "term": "Bölme Algoritması",
+    "definition": "Her a, b doğal sayılar için a = b*q + r şeklinde yazılır, burada q bölüm, r kalan ve 0 ≤ r < b. KPSS'de kalan ve bölüm soruları ile EBOB hesaplamalarında temel alınır. Euclid algoritmasının dayanağıdır.",
+    "examples": [
+      "30 = 7*4 + 2, bölüm=4, kalan=2.",
+      "KPSS: 123 / 17 = ? (7 bölüm, 4 kalan)."
+    ],
+    "relatedTerms": [
+      "Euclid Algoritması",
+      "Kalan",
+      "Bölüm"
+    ],
+    "order": 41
+  },
+  {
+    "id": "bolum",
+    "term": "Bölüm",
+    "definition": "Bölme işleminde tam sayı olarak elde edilen katsayıdır (q). KPSS'de tam bölünme ve algoritma sorularında kullanılır. a = b*q + r formülünde q'dır.",
+    "examples": [
+      "48 / 5 = 9 bölüm, 3 kalan.",
+      "KPSS sorusu: 100 / 23 bölüm kaçtır? (4)."
+    ],
+    "relatedTerms": [
+      "Bölme Algoritması",
+      "Kalan",
+      "Tam Bölen"
+    ],
+    "order": 42
+  },
+  {
+    "id": "kalan",
+    "term": "Kalan",
+    "definition": "Bölme işleminde bölenin katı çıkarıldıktan sonra geriye kalan 0'dan küçük bölen sayısından küçük pozitif tam sayıdır (r). KPSS'de modüler aritmetik ve EBOB sorularında kritiktir.",
+    "examples": [
+      "17 / 5 = 3 bölüm, 2 kalan.",
+      "KPSS: 99 mod 8 = 3 kalan."
+    ],
+    "relatedTerms": [
+      "Bölme Algoritması",
+      "Bölüm",
+      "Euclid Algoritması"
+    ],
+    "order": 43
+  },
+  {
+    "id": "tam_kat",
+    "term": "Tam Kat",
+    "definition": "Bir sayı diğerinin tam böleni ile çarpımı ise tam katıdır. KPSS'de EKOK ve ortak kat sorularında kullanılır. Kalan sıfır olur.",
+    "examples": [
+      "24, 6'nın tam katıdır (6*4).",
+      "KPSS: 36 hangi sayıların tam katı? (1,2,3,4,6,9,12,18,36)."
+    ],
+    "relatedTerms": [
+      "En Küçük Ortak Kat (EKOK)",
+      "Ortak Kat",
+      "Tam Bölen"
+    ],
+    "order": 44
+  },
+  {
+    "id": "ikiz_asal_sayilar",
+    "term": "İkiz Asal Sayılar",
+    "definition": "Aralarında 2 fark olan ve her ikisi de asal olan sayı çiftleridir. KPSS'de asal sayı özellikleri sorularında sıkça sorulur.",
+    "examples": [
+      "(3,5), (5,7), (11,13), (17,19).",
+      "KPSS: İlk ikiz asal çifti nedir? (3,5)."
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Asallık Testi",
+      "Bileşik Sayı"
+    ],
+    "order": 45
+  },
+  {
+    "id": "zengin_sayi",
+    "term": "Zengin Sayı",
+    "definition": "Kendi dışındaki tam bölenlerinin toplamı kendisinden büyük olan sayıdır. KPSS'de sayı sınıflandırma sorularında mükemmel sayı ile karşılaştırılır.",
+    "examples": [
+      "12 (1+2+3+4+6=16>12).",
+      "KPSS: 18 zengin sayı mı? (Evet, 1+2+3+6+9=21>18)."
+    ],
+    "relatedTerms": [
+      "Mükemmel Sayı",
+      "Bölenler Toplamı",
+      "Tam Bölen"
+    ],
+    "order": 46
+  },
+  {
+    "id": "yoksul_sayi",
+    "term": "Yoksul Sayı",
+    "definition": "Kendi dışındaki tam bölenlerinin toplamı kendisinden küçük olan sayıdır. KPSS'de zengin ve mükemmel ile birlikte sorulur, asalların çoğu yoksuldur.",
+    "examples": [
+      "8 (1+2+4=7<8).",
+      "KPSS: 7 yoksul sayı mı? (Evet, 1<7)."
+    ],
+    "relatedTerms": [
+      "Mükemmel Sayı",
+      "Zengin Sayı",
+      "Bölenler Toplamı"
+    ],
+    "order": 47
+  },
+  {
+    "id": "yedi_bölünebilme_kurali",
+    "term": "7'ye Bölünebilme Kuralı",
+    "definition": "Bir sayının son rakamını 2 ile çarpıp baştaki sayıdan çıkarın; sonuç 7'ye (veya 7'nin katına) tam bölünüyorsa sayı 7'ye tam bölünür. Tekrarlanabilir kuraldır. KPSS'de büyük sayılarda hızlı kontrol için kullanılır.",
+    "examples": [
+      "686: 68 - 2×6 = 56 (56÷7=8).",
+      "49: 4 - 2×9 = -14 (-14÷7=-2).",
+      "KPSS sorusu: 1232 7'ye bölünür mü? 123 - 2×2=119, 119÷7=17 evet."
+    ],
+    "relatedTerms": [
+      "3'e Bölünebilme Kuralı",
+      "11'e Bölünebilme Kuralı",
+      "Bölme Algoritması",
+      "Kalan"
+    ],
+    "order": 48
+  },
+  {
+    "id": "yirmi_bes_bölünebilme_kurali",
+    "term": "25'e Bölünebilme Kuralı",
+    "definition": "Bir sayının son iki hanesi 00, 25, 50 veya 75 ise 25'e tam bölünür. 100'ün 1/4'ü olduğundan son iki hane bu değerlerden biri olmalıdır. KPSS'de EKOK ve tam kat hesaplarında sık sorulur.",
+    "examples": [
+      "325 son iki hane 25, 325÷25=13.",
+      "750 son iki 50, 750÷25=30.",
+      "KPSS sorusu: 1875'in son iki hanesi 75, 25'e bölünür."
+    ],
+    "relatedTerms": [
+      "5'e Bölünebilme Kuralı",
+      "10'a Bölünebilme Kuralı",
+      "Tam Kat",
+      "EKOK"
+    ],
+    "order": 49
+  },
+  {
+    "id": "asal_sayi_ozellikleri",
+    "term": "Asal Sayı Özellikleri",
+    "definition": "Asal sayılar sadece 1'e ve kendisine bölünebilen sayılardır. En küçük asal sayı 2'dir ve tek çift asal sayıdır. Diğer tüm asal sayılar tek sayıdır.",
+    "examples": [
+      "2, 3, 5, 7, 11, 13...",
+      "1 asal sayı değildir.",
+      "4, 6, 8, 9, 10 bileşik sayılardır."
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Bileşik Sayı",
+      "Asal Çarpan"
+    ],
+    "order": 50
+  },
+  {
+    "id": "asal_carpanlara_ayirma_yontemleri",
+    "term": "Asal Çarpanlara Ayırma Yöntemleri",
+    "definition": "Bir sayıyı asal çarpanlarının çarpımı şeklinde yazmaya asal çarpanlara ayırma denir. Bu işlem, sayıyı sürekli olarak en küçük asal sayıdan başlayarak bölerek yapılır.",
+    "examples": [
+      "12 = 2 x 2 x 3 = 2² x 3",
+      "30 = 2 x 3 x 5",
+      "100 = 2 x 2 x 5 x 5 = 2² x 5²"
+    ],
+    "relatedTerms": [
+      "Asal Çarpan",
+      "Asal Sayı",
+      "Temel Aritmetik Teoremi"
+    ],
+    "order": 51
+  },
+  {
+    "id": "ebob_ekok_hesaplama_yontemleri",
+    "term": "EBOB ve EKOK Hesaplama Yöntemleri",
+    "definition": "İki sayının EBOB'u, bu sayıların ortak asal çarpanlarının en küçüğünün aynı kuvvetlerinin çarpımıdır. EKOK'u ise, bu sayıların tüm asal çarpanlarının en büyüğünün aynı kuvvetlerinin çarpımıdır.",
+    "examples": [
+      "12 ve 18'in EBOB'u: 6",
+      "12 ve 18'in EKOK'u: 36",
+      "24 ve 36'nın EBOB'u: 12"
+    ],
+    "relatedTerms": [
+      "En Büyük Ortak Bölen (EBOB)",
+      "En Küçük Ortak Kat (EKOK)",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 52
+  },
+  {
+    "id": "ebob_ekok_uygulamalari",
+    "term": "EBOB ve EKOK Uygulamaları",
+    "definition": "EBOB ve EKOK problemleri genellikle bölme, gruplama, eşit uzunlukta parçalara ayırma veya en az sayıda gibi ifadelerle karşımıza çıkar. EBOB, en büyük ortak böleni bulmak için kullanılırken, EKOK en küçük ortak katı bulmak için kullanılır.",
+    "examples": [
+      "Bir bahçenin etrafına eşit aralıklarla fidan dikilecektir. En az sayıda fidan dikmek için aralıklar EBOB ile bulunur.",
+      "İki zilden biri 3 dakikada bir, diğeri 5 dakikada bir çalmaktadır. İki zil aynı anda çaldıktan sonra tekrar ne zaman birlikte çalarlar sorusu EKOK ile çözülür.",
+      "48 ve 60 litrelik iki bidon, hiç artmayacak şekilde eşit hacimli şişelere doldurulacaktır. Şişelerin hacmi en fazla kaç litre olabilir sorusu EBOB ile bulunur."
+    ],
+    "relatedTerms": [
+      "En Büyük Ortak Bölen (EBOB)",
+      "En Küçük Ortak Kat (EKOK)",
+      "Bölme Algoritması"
+    ],
+    "order": 53
+  },
+  {
+    "id": "bolunebilme_kurallari_genel",
+    "term": "Bölünebilme Kuralları (Genel)",
+    "definition": "Bir sayının belirli bir sayıya kalansız bölünüp bölünemeyeceğini anlamamızı sağlayan kurallardır. Bu kurallar, sayının son basamakları veya rakamlarının toplamı gibi özelliklerine dayanır.",
+    "examples": [
+      "Bir sayının çift olması 2'ye bölünebilmesini sağlar.",
+      "Bir sayının rakamları toplamı 3'ün katı ise o sayı 3'e tam bölünür.",
+      "Bir sayının son iki basamağı 4'ün katı ise o sayı 4'e tam bölünür."
+    ],
+    "relatedTerms": [
+      "2'ye Bölünebilme Kuralı",
+      "3'e Bölünebilme Kuralı",
+      "4'e Bölünebilme Kuralı",
+      "5'e Bölünebilme Kuralı"
+    ],
+    "order": 54
+  },
+  {
+    "id": "coklu_sayilarin_ebob_ekok_hesaplanmasi",
+    "term": "Çoklu Sayıların EBOB ve EKOK Hesaplanması",
+    "definition": "Üç veya daha fazla sayının EBOB'unu bulmak için, sayılar asal çarpanlarına ayrılır ve tüm sayılarda ortak olan asal çarpanların en küçüğünün kuvvetleri çarpılır. EKOK'u bulmak için ise, tüm sayılarda bulunan tüm asal çarpanların en büyüğünün kuvvetleri çarpılır.",
+    "examples": [
+      "12, 18 ve 24'ün EBOB'u: 6",
+      "12, 18 ve 24'ün EKOK'u: 72",
+      "30, 45 ve 60'ın EBOB'u: 15"
+    ],
+    "relatedTerms": [
+      "Çoklu Sayıların EBOB'u",
+      "Çoklu Sayıların EKOK'u",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 55
+  },
+  {
+    "id": "ebob_ekok_ozelligi_carpim",
+    "term": "EBOB ve EKOK Çarpım Özelliği",
+    "definition": "İki pozitif tam sayının EBOB'u ile EKOK'unun çarpımı, bu iki sayının çarpımına eşittir. Yani, EBOB(a, b) * EKOK(a, b) = a * b.",
+    "examples": [
+      "a=12, b=18 için EBOB(12, 18)=6, EKOK(12, 18)=36. 6 * 36 = 216 ve 12 * 18 = 216.",
+      "a=10, b=15 için EBOB(10, 15)=5, EKOK(10, 15)=30. 5 * 30 = 150 ve 10 * 15 = 150.",
+      "EBOB(a, b) = 4, EKOK(a, b) = 20 ise a*b = 80'dir."
+    ],
+    "relatedTerms": [
+      "En Büyük Ortak Bölen (EBOB)",
+      "En Küçük Ortak Kat (EKOK)",
+      "EBOB x EKOK Özelliği"
+    ],
+    "order": 56
+  },
+  {
+    "id": "ortak_bolenler_ve_katlar",
+    "term": "Ortak Bölenler ve Katlar",
+    "definition": "Ortak bölenler, iki veya daha fazla sayıyı kalansız bölen sayılardır. Ortak katlar ise, iki veya daha fazla sayının tam katı olan sayılardır. EBOB, en büyük ortak böleni; EKOK ise en küçük ortak katı ifade eder.",
+    "examples": [
+      "12 ve 18'in ortak bölenleri: 1, 2, 3, 6. En büyüğü 6'dır (EBOB).",
+      "4 ve 6'nın ortak katları: 12, 24, 36... En küçüğü 12'dir (EKOK).",
+      "10 ve 20'nin ortak bölenleri: 1, 2, 5, 10. En büyüğü 10'dur (EBOB)."
+    ],
+    "relatedTerms": [
+      "Ortak Bölen",
+      "Ortak Kat",
+      "En Büyük Ortak Bölen (EBOB)",
+      "En Küçük Ortak Kat (EKOK)"
+    ],
+    "order": 57
+  },
+  {
+    "id": "asal_sayi_ve_bolenleri",
+    "term": "Asal Sayı ve Bölenleri",
+    "definition": "Asal sayının sadece iki pozitif tam böleni vardır: 1 ve kendisi. Bu özelliği, asal sayıları diğer sayılardan ayırır. Bir sayının asal olup olmadığını anlamak için bölenlerinin sayısına bakılabilir.",
+    "examples": [
+      "7'nin bölenleri: 1, 7. (2 tane)",
+      "13'ün bölenleri: 1, 13. (2 tane)",
+      "15'in bölenleri: 1, 3, 5, 15. (4 tane, asal değil)"
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Bölen Sayısı",
+      "Tam Bölen"
+    ],
+    "order": 58
+  },
+  {
+    "id": "asal_carpan_ve_bolen_farki",
+    "term": "Asal Çarpan ve Asal Bölen Farkı",
+    "definition": "Asal çarpan, bir sayıyı oluşturan asal sayılardır. Asal bölen ise, bir sayıyı kalansız bölen asal sayılardır. Bir sayının asal çarpanları aynı zamanda o sayının asal bölenleridir.",
+    "examples": [
+      "12'nin asal çarpanları: 2 ve 3.",
+      "12'nin asal bölenleri: 2 ve 3.",
+      "30'un asal çarpanları: 2, 3 ve 5."
+    ],
+    "relatedTerms": [
+      "Asal Çarpan",
+      "Asal Bölen",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 59
+  },
+  {
+    "id": "bolen_sayisi_hesaplama",
+    "term": "Bölen Sayısı Hesaplama",
+    "definition": "Bir sayının asal çarpanlarına ayrılmış hali (a^x * b^y * c^z ...) biliniyorsa, o sayının pozitif bölen sayısı (x+1)(y+1)(z+1)... formülü ile bulunur.",
+    "examples": [
+      "12 = 2² x 3¹. Bölen sayısı = (2+1)(1+1) = 3 x 2 = 6.",
+      "100 = 2² x 5². Bölen sayısı = (2+1)(2+1) = 3 x 3 = 9.",
+      "72 = 2³ x 3². Bölen sayısı = (3+1)(2+1) = 4 x 3 = 12."
+    ],
+    "relatedTerms": [
+      "Bölen Sayısı",
+      "Asal Çarpanlara Ayırma",
+      "Tam Bölen"
+    ],
+    "order": 60
+  },
+  {
+    "id": "tam_bolen_ve_pozitif_bolen",
+    "term": "Tam Bölen ve Pozitif Bölen",
+    "definition": "Tam bölenler, bir sayıyı kalansız bölen hem pozitif hem de negatif tam sayılardır. Pozitif bölenler ise sadece pozitif tam sayılardır. Bir sayının pozitif bölen sayısı, tam bölen sayısının yarısıdır (0 hariç).",
+    "examples": [
+      "12'nin pozitif bölenleri: 1, 2, 3, 4, 6, 12 (6 tane).",
+      "12'nin tam bölenleri: ±1, ±2, ±3, ±4, ±6, ±12 (12 tane).",
+      "8'in pozitif bölenleri: 1, 2, 4, 8 (4 tane)."
+    ],
+    "relatedTerms": [
+      "Tam Bölen",
+      "Bölen Sayısı",
+      "Asal Sayı"
+    ],
+    "order": 61
+  },
+  {
+    "id": "bolme_algoritmasi_temel",
+    "term": "Bölme Algoritması (Temel)",
+    "definition": "Herhangi iki pozitif tam sayıdan, bölünen (a) ve bölen (b) olmak üzere, a = b.q + r şeklinde bir eşitlik yazılabilir. Burada q bölüm ve r kalandır. Kalan (r) her zaman 0'dan büyük veya eşittir ve bölenden (b) küçüktür (0 ≤ r < b).",
+    "examples": [
+      "25'i 7'ye böldüğümüzde: 25 = 7 * 3 + 4. (bölüm=3, kalan=4)",
+      "40'ı 5'e böldüğümüzde: 40 = 5 * 8 + 0. (bölüm=8, kalan=0)",
+      "13'ü 4'e böldüğümüzde: 13 = 4 * 3 + 1. (bölüm=3, kalan=1)"
+    ],
+    "relatedTerms": [
+      "Bölme Algoritması",
+      "Bölüm",
+      "Kalan",
+      "Tam Bölen"
+    ],
+    "order": 62
+  },
+  {
+    "id": "asal_ikizler_ve_ozellikleri",
+    "term": "Asal İkizler ve Özellikleri",
+    "definition": "Arasındaki fark 2 olan asal sayılara asal ikizler denir. Bu çiftler, asal sayılar arasındaki boşlukların incelenmesinde önemlidir. Sonsuz sayıda asal ikiz olup olmadığı hala bir araştırma konusudur.",
+    "examples": [
+      "(3, 5)",
+      "(5, 7)",
+      "(11, 13)",
+      "(17, 19)"
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Asal İkizler",
+      "Asallık Testi"
+    ],
+    "order": 63
+  },
+  {
+    "id": "göreli_asal_sayilar",
+    "term": "Göreli Asal Sayılar (Aralarında Asal)",
+    "definition": "İki sayının 1'den başka ortak böleni yoksa bu sayılara aralarında asal sayılar denir. EBOB'ları 1'e eşittir. Bu durum, sayıların kendilerinin asal olmasını gerektirmez.",
+    "examples": [
+      "8 ve 9 aralarında asaldır (EBOB(8,9)=1).",
+      "15 ve 28 aralarında asaldır (EBOB(15,28)=1).",
+      "10 ve 15 aralarında asal değildir (EBOB(10,15)=5)."
+    ],
+    "relatedTerms": [
+      "En Büyük Ortak Bölen (EBOB)",
+      "Göreli Asal Sayılar",
+      "Asal Sayı"
+    ],
+    "order": 64
+  },
+  {
+    "id": "temel_aritmetik_teoremi_uygulama",
+    "term": "Temel Aritmetik Teoremi Uygulamaları",
+    "definition": "Her pozitif tam sayı, 1'den farklı olarak, asal sayıların çarpımı şeklinde yazılabilir ve bu yazılış, çarpanların sırası dışında tektir. Bu teorem, EBOB, EKOK ve bölen sayısı gibi kavramların temelini oluşturur.",
+    "examples": [
+      "24'ün asal çarpanlarına ayrılmış hali tektir: 2³ x 3.",
+      "Bu teorem sayesinde kesirlerin sadeleştirilmesi ve eşitliğin sağlanması kolaylaşır.",
+      "Bir sayının bölenlerinin sayısını bulmak için bu teorem kullanılır."
+    ],
+    "relatedTerms": [
+      "Temel Aritmetik Teoremi",
+      "Asal Çarpanlara Ayırma",
+      "Bölen Sayısı"
+    ],
+    "order": 65
+  },
+  {
+    "id": "ebob_ekok_kullanilarak_sayi_bulma",
+    "term": "EBOB ve EKOK Kullanılarak Sayı Bulma",
+    "definition": "Verilen EBOB ve EKOK değerlerine göre sayıları bulmak için, sayılar EBOB cinsinden ifade edilir ve EKOK formülü kullanılır. Bu tür sorularda genellikle sayılar arasındaki ilişki ve EBOB x EKOK = a x b özelliği kullanılır.",
+    "examples": [
+      "EBOB(a,b)=5 ve EKOK(a,b)=60 ise, a ve b sayıları 5k ve 5m (k, m aralarında asal) şeklinde yazılır ve 5k * 5m = 300 denklemi çözülerek sayılar bulunur.",
+      "İki sayının EBOB'u 6, EKOK'u 72 ise, sayılar 6x ve 6y (x, y aralarında asal) şeklinde yazılır.",
+      "EBOB(a,b)=7, a*b=294 ise EKOK(a,b) = 294/7 = 42'dir."
+    ],
+    "relatedTerms": [
+      "En Büyük Ortak Bölen (EBOB)",
+      "En Küçük Ortak Kat (EKOK)",
+      "EBOB x EKOK Özelliği",
+      "Göreli Asal Sayılar"
+    ],
+    "order": 66
+  },
+  {
+    "id": "bolunebilme_kurallari_kombinasyon",
+    "term": "Bölünebilme Kuralları (Kombinasyon)",
+    "definition": "Bazı sayılara bölünebilme kuralları, daha basit kuralların birleşiminden oluşur. Örneğin, bir sayının 6'ya bölünebilmesi için hem 2'ye hem de 3'e bölünebilmesi gerekir.",
+    "examples": [
+      "Bir sayının 6'ya bölünebilmesi için hem 2'ye hem de 3'e tam bölünmelidir.",
+      "Bir sayının 10'a bölünebilmesi için hem 2'ye hem de 5'e tam bölünmelidir.",
+      "Bir sayının 12'ye bölünebilmesi için hem 3'e hem de 4'e tam bölünmelidir."
+    ],
+    "relatedTerms": [
+      "2'ye Bölünebilme Kuralı",
+      "3'e Bölünebilme Kuralı",
+      "4'e Bölünebilme Kuralı",
+      "6'ya Bölünebilme Kuralı"
+    ],
+    "order": 67
+  },
+  {
+    "id": "asal_sayi_olmayan_sayilar",
+    "term": "Asal Sayı Olmayan Sayılar (Bileşik Sayılar)",
+    "definition": "1'den büyük ve asal olmayan sayılara bileşik sayılar denir. Bu sayılar en az üç pozitif tam bölene sahiptir. 1 sayısı ne asal ne de bileşik sayıdır.",
+    "examples": [
+      "4'ün bölenleri: 1, 2, 4.",
+      "6'nın bölenleri: 1, 2, 3, 6.",
+      "9'un bölenleri: 1, 3, 9."
+    ],
+    "relatedTerms": [
+      "Bileşik Sayı",
+      "Asal Sayı",
+      "Bölen Sayısı"
+    ],
+    "order": 68
+  },
+  {
+    "id": "ebob_ekok_ve_kalanli_bolme",
+    "term": "EBOB, EKOK ve Kalanlı Bölme İlişkisi",
+    "definition": "Bazı sorularda, sayılar belirli bir sayıya bölündüğünde aynı kalanı verir. Bu tür durumlarda, sayılar arasındaki farkın EBOB'u veya sayılardan birinin EKOK'u ile ilgili bir durum söz konusu olabilir. Bu, bölme algoritması ve EBOB/EKOK kavramlarının birleşimiyle çözülür.",
+    "examples": [
+      "Bir sayının 12 ve 18'e bölümünden kalan 3 ise, bu sayı 3 + EKOK(12,18) şeklinde olabilir.",
+      "Aynı sayının 15 ve 25'e bölümünden kalan 5 ise, bu sayı 5 + EKOK(15,25) şeklinde olabilir.",
+      "İki sayının farkı, bu sayıların ortak bölenlerinden biridir."
+    ],
+    "relatedTerms": [
+      "En Büyük Ortak Bölen (EBOB)",
+      "En Küçük Ortak Kat (EKOK)",
+      "Bölme Algoritması",
+      "Kalan"
+    ],
+    "order": 69
+  },
+  {
+    "id": "asal_sayi_tanimi",
+    "term": "Asal Sayı Tanımı",
+    "definition": "Sadece 1'e ve kendisine bölünebilen, 1'den büyük doğal sayılara asal sayı denir. En küçük asal sayı 2'dir.",
+    "examples": [
+      "2, 3, 5, 7, 11 asal sayılardır.",
+      "4 asal değildir çünkü 1, 2 ve 4'e bölünür.",
+      "1 asal sayı değildir."
+    ],
+    "relatedTerms": [
+      "Bileşik Sayı",
+      "Asal Çarpan",
+      "Asal Sayı Özellikleri"
+    ],
+    "order": 70
+  },
+  {
+    "id": "bileşik_sayi_tanimi",
+    "term": "Bileşik Sayı Tanımı",
+    "definition": "1'den büyük, asal olmayan doğal sayılara bileşik sayı denir. Bileşik sayılar, 1'den ve kendisinden başka en az bir pozitif tam bölene sahiptir.",
+    "examples": [
+      "4, 6, 8, 9, 10 bileşik sayılardır.",
+      "4'ün bölenleri 1, 2, 4'tür.",
+      "6'nın bölenleri 1, 2, 3, 6'dır."
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Bölen Sayısı",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 71
+  },
+  {
+    "id": "pozitif_bölenler_toplami",
+    "term": "Pozitif Bölenler Toplamı",
+    "definition": "Bir sayının tüm pozitif bölenlerinin toplamıdır. Eğer bir sayının asal çarpanlarına ayrılmış hali n = p₁ᵃ¹ * p₂ᵃ² * ... * pₖᵃᵏ ise, bölenler toplamı (1+p₁+...+p₁ᵃ¹)(1+p₂+...+p₂ᵃ²)...(1+pₖ+...+pₖᵃᵏ) formülü ile hesaplanır.",
+    "examples": [
+      "12 = 2² x 3¹ olduğundan, bölenler toplamı (1+2+2²)(1+3¹) = (1+2+4)(1+3) = 7 x 4 = 28'dir.",
+      "6'nın bölenleri 1, 2, 3, 6'dır. Toplamı 1+2+3+6 = 12'dir.",
+      "10'un bölenleri 1, 2, 5, 10'dur. Toplamı 1+2+5+10 = 18'dir."
+    ],
+    "relatedTerms": [
+      "Bölen Sayısı Hesaplama",
+      "Asal Çarpanlara Ayırma",
+      "Bölenler Toplamı"
+    ],
+    "order": 72
+  },
+  {
+    "id": "eratosthenes_eleği_uygulamasi",
+    "term": "Eratosthenes Eleği Uygulaması",
+    "definition": "Belirli bir aralıktaki tüm asal sayıları bulmak için kullanılan tarihi bir algoritmadır. İşlem, sayılar listesinden asal olmayanların sistematik olarak elenmesiyle yapılır.",
+    "examples": [
+      "1'den 30'a kadar olan asal sayıları bulmak için kullanılır.",
+      "Önce 2'nin katları elenir, sonra 3'ün katları, sonra 5'in katları vb.",
+      "Bu yöntem, küçük ve orta büyüklükteki sayılar için oldukça etkilidir."
+    ],
+    "relatedTerms": [
+      "Asal Sayı Tanımı",
+      "Asal Sayı",
+      "Asal İkizler",
+      "Bileşik Sayı"
+    ],
+    "order": 73
+  },
+  {
+    "id": "ebob_nedir",
+    "term": "EBOB (En Büyük Ortak Bölen)",
+    "definition": "İki veya daha fazla pozitif tam sayının ortak bölenlerinin en büyüğüdür. EBOB, sayılar kümesindeki en büyük ortak böleni temsil eder.",
+    "examples": [
+      "12 ve 18'in EBOB'u 6'dır.",
+      "24, 36 ve 48'in EBOB'u 12'dir.",
+      "7 ve 11'in EBOB'u 1'dir."
+    ],
+    "relatedTerms": [
+      "Ortak Bölen",
+      "EKOK",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 74
+  },
+  {
+    "id": "ekok_nedir",
+    "term": "EKOK (En Küçük Ortak Kat)",
+    "definition": "İki veya daha fazla pozitif tam sayının ortak katlarının en küçüğüdür. EKOK, sayılar kümesindeki en küçük ortak katı temsil eder.",
+    "examples": [
+      "4 ve 6'nın EKOK'u 12'dir.",
+      "5, 10 ve 15'in EKOK'u 30'dur.",
+      "3 ve 7'nin EKOK'u 21'dir."
+    ],
+    "relatedTerms": [
+      "Ortak Kat",
+      "EBOB",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 75
+  },
+  {
+    "id": "aralarinda_asal",
+    "term": "Aralarında Asal Sayılar",
+    "definition": "İki veya daha fazla sayının 1'den başka ortak böleni yoksa bu sayılara aralarında asal sayılar denir. Bu sayılar asal olmak zorunda değildir.",
+    "examples": [
+      "8 ve 9 aralarında asaldır (EBOB(8,9) = 1).",
+      "15 ve 28 aralarında asaldır (EBOB(15,28) = 1).",
+      "6 ve 10 aralarında asal değildir (EBOB(6,10) = 2)."
+    ],
+    "relatedTerms": [
+      "EBOB",
+      "Asal Sayı",
+      "Göreli Asal Sayılar"
+    ],
+    "order": 76
+  },
+  {
+    "id": "asal_carpan_sayisi",
+    "term": "Asal Çarpan Sayısı",
+    "definition": "Bir sayının asal çarpanlarına ayrıldığında, birbirinden farklı kaç tane asal çarpanı olduğunu ifade eder. Üslü ifadelerdeki tabanlar dikkate alınır.",
+    "examples": [
+      "12 = 2^2 * 3. Farklı asal çarpanları 2 ve 3'tür. Asal çarpan sayısı 2'dir.",
+      "30 = 2 * 3 * 5. Asal çarpan sayısı 3'tür.",
+      "100 = 2^2 * 5^2. Asal çarpan sayısı 2'dir."
+    ],
+    "relatedTerms": [
+      "Asal Çarpan",
+      "Asal Çarpanlara Ayırma",
+      "Bölen Sayısı"
+    ],
+    "order": 77
+  },
+  {
+    "id": "asal_carpan_toplami",
+    "term": "Asal Çarpanlar Toplamı",
+    "definition": "Bir sayının asal çarpanlarına ayrıldığında elde edilen farklı asal çarpanlarının toplamıdır. Üslü kısımlar dikkate alınmaz.",
+    "examples": [
+      "12 = 2^2 * 3. Farklı asal çarpanları 2 ve 3'tür. Asal çarpanlar toplamı 2 + 3 = 5'tir.",
+      "30 = 2 * 3 * 5. Asal çarpanlar toplamı 2 + 3 + 5 = 10'dur.",
+      "100 = 2^2 * 5^2. Asal çarpanlar toplamı 2 + 5 = 7'dir."
+    ],
+    "relatedTerms": [
+      "Asal Çarpan",
+      "Asal Çarpanlara Ayırma",
+      "Bölenler Toplamı"
+    ],
+    "order": 78
+  },
+  {
+    "id": "ebob_ekok_farkli_sayilar",
+    "term": "Çoklu Sayıların EBOB ve EKOK'u",
+    "definition": "Üç veya daha fazla sayının EBOB ve EKOK'unu hesaplama işlemidir. Sayılar asal çarpanlarına ayrılır ve her asal çarpan için EBOB'da en küçük üs, EKOK'ta en büyük üs alınır.",
+    "examples": [
+      "EBOB(8, 12, 20) = 4",
+      "EKOK(6, 8, 10) = 120",
+      "EBOB(15, 25, 35) = 5"
+    ],
+    "relatedTerms": [
+      "EBOB",
+      "EKOK",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 79
+  },
+  {
+    "id": "asal_carpan_kullanarak_ebob_ekok",
+    "term": "Asal Çarpan Yöntemiyle EBOB/EKOK",
+    "definition": "Sayıları asal çarpanlarına ayırarak EBOB ve EKOK'larını bulma yöntemidir. Bu yöntem, özellikle büyük sayılar veya birden fazla sayının EBOB/EKOK'u hesaplanırken kullanışlıdır.",
+    "examples": [
+      "18 = 2 * 3^2 ve 24 = 2^3 * 3. EBOB(18,24) = 2^1 * 3^1 = 6. EKOK(18,24) = 2^3 * 3^2 = 72.",
+      "36 = 2^2 * 3^2 ve 40 = 2^3 * 5. EBOB(36,40) = 2^2 = 4. EKOK(36,40) = 2^3 * 3^2 * 5 = 360.",
+      "70 = 2 * 5 * 7 ve 105 = 3 * 5 * 7. EBOB(70,105) = 5 * 7 = 35. EKOK(70,105) = 2 * 3 * 5 * 7 = 210."
+    ],
+    "relatedTerms": [
+      "EBOB",
+      "EKOK",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 80
+  },
+  {
+    "id": "asal_bolen_sayisi",
+    "term": "Asal Bölen Sayısı",
+    "definition": "Bir sayıyı kalansız olarak bölebilen farklı asal sayıların adedidir. Bu, sayının asal çarpanlarına ayrılmasıyla bulunur ve farklı asal tabanların sayısıdır.",
+    "examples": [
+      "12 = 2^2 * 3. Asal bölenleri 2 ve 3'tür. Asal bölen sayısı 2'dir.",
+      "30 = 2 * 3 * 5. Asal bölenleri 2, 3, 5'tir. Asal bölen sayısı 3'tür.",
+      "100 = 2^2 * 5^2. Asal bölenleri 2 ve 5'tir. Asal bölen sayısı 2'dir."
+    ],
+    "relatedTerms": [
+      "Asal Bölen",
+      "Asal Çarpan",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 81
+  },
+  {
+    "id": "asal_sayi_bolenleri_toplami",
+    "term": "Asal Sayıların Bölenleri Toplamı",
+    "definition": "Bir asal sayının kendisi ve 1 olmak üzere yalnızca iki pozitif böleni vardır. Bu iki bölenin toplamı, asal sayının kendisinden her zaman 1 fazladır.",
+    "examples": [
+      "7'nin bölenleri 1 ve 7'dir. Toplamları 1+7=8'dir.",
+      "13'ün bölenleri 1 ve 13'tür. Toplamları 1+13=14'tür."
+    ],
+    "relatedTerms": [
+      "Asal Sayı Tanımı",
+      "Bölen Sayısı Hesaplama",
+      "Pozitif Bölenler Toplamı"
+    ],
+    "order": 82
+  },
+  {
+    "id": "ebob_ekok_ortak_bolen_kat_iliski",
+    "term": "EBOB, EKOK ve Ortak Bölen/Kat İlişkisi",
+    "definition": "İki sayının EBOB'u, bu sayıların tüm ortak bölenlerinin en büyüğüdür. EKOK'u ise bu sayıların tüm ortak katlarının en küçüğüdür. Ortak bölenler EBOB'un bölenleri, ortak katlar ise EKOK'un katlarıdır.",
+    "examples": [
+      "12 ve 18'in ortak bölenleri {1, 2, 3, 6}'dır. EBOB(12, 18) = 6'dır.",
+      "12 ve 18'in ortak katları {36, 72, 108, ...}'dir. EKOK(12, 18) = 36'dır."
+    ],
+    "relatedTerms": [
+      "EBOB (En Büyük Ortak Bölen)",
+      "EKOK (En Küçük Ortak Kat)",
+      "Ortak Bölenler ve Katlar",
+      "Asal Sayı ve Bölenleri"
+    ],
+    "order": 83
+  },
+  {
+    "id": "asal_carpan_ve_sayi_degeri",
+    "term": "Asal Çarpanların Sayı Değerine Etkisi",
+    "definition": "Bir sayının asal çarpanları ve bu çarpanların üsleri, sayının kendisini belirler. Farklı asal çarpanlara sahip sayılar veya aynı asal çarpanlara farklı üslerde sahip sayılar farklı değerlere sahiptir.",
+    "examples": [
+      "2^3 * 3^1 = 24",
+      "2^1 * 3^3 = 54",
+      "2^2 * 5^1 = 20"
+    ],
+    "relatedTerms": [
+      "Asal Çarpanlara Ayırma Yöntemleri",
+      "Asal Çarpan ve Asal Bölen Farkı",
+      "Temel Aritmetik Teoremi Uygulamaları"
+    ],
+    "order": 84
+  },
+  {
+    "id": "bolunebilirlik_kuralı_ozet",
+    "term": "Bölünebilme Kuralları Özeti",
+    "definition": "Bir sayının belirli bir sayıya tam bölünüp bölünmediğini anlamak için kullanılan pratik yöntemlerdir. Her sayının kendine özgü bir bölünebilme kuralı olmayabilir, ancak bazı yaygın kurallar (2, 3, 4, 5, 6, 8, 9, 10) bilinmesi önemlidir.",
+    "examples": [
+      "Son rakamı çift ise 2'ye bölünür.",
+      "Rakamları toplamı 3'ün katı ise 3'e bölünür.",
+      "Son iki rakamı 00 veya 4'ün katı ise 4'e bölünür."
+    ],
+    "relatedTerms": [
+      "Bölünebilme Kuralları (Genel)",
+      "11'e Bölünebilme Kuralı",
+      "7'ye Bölünebilme Kuralı",
+      "25'e Bölünebilme Kuralı"
+    ],
+    "order": 85
+  },
+  {
+    "id": "ebob_ekok_sayi_bulma_yontemleri",
+    "term": "EBOB ve EKOK Kullanarak Sayı Bulma",
+    "definition": "Verilen EBOB ve EKOK değerleri ile bu değerlere sahip olabilecek sayıları veya sayı çiftlerini bulma yöntemleridir. Bu yöntemler genellikle sayılar arasındaki ilişkiyi ve asal çarpanları kullanır.",
+    "examples": [
+      "EBOB(a, b) = 6 ve EKOK(a, b) = 36 ise, a ve b sayıları 6'nın katı ve çarpımları 6*36 = 216 olmalıdır. Olası sayılar (6, 36), (12, 36), (18, 36) vb.",
+      "EBOB(a, b) = 5 ve EKOK(a, b) = 150 ise, sayılar 5'in katı olmalı ve çarpımları 5*150 = 750 olmalıdır."
+    ],
+    "relatedTerms": [
+      "EBOB ve EKOK Uygulamaları",
+      "EBOB ve EKOK Çarpım Özelliği",
+      "Asal Çarpanlara Ayırma Yöntemleri"
+    ],
+    "order": 86
+  },
+  {
+    "id": "asal_carpan_sayisi_hesaplama",
+    "term": "Asal Çarpan Sayısı Hesaplama",
+    "definition": "Bir sayının asal çarpanlarına ayrıldıktan sonra, birbirinden farklı asal çarpanlarının sayısını bulma işlemidir. Bu, sayının yapısını anlamak için önemlidir.",
+    "examples": [
+      "72 = 2^3 * 3^2. Farklı asal çarpanları 2 ve 3'tür. Asal çarpan sayısı 2'dir.",
+      "100 = 2^2 * 5^2. Farklı asal çarpanları 2 ve 5'tir. Asal çarpan sayısı 2'dir."
+    ],
+    "relatedTerms": [
+      "Asal Çarpanlara Ayırma Yöntemleri",
+      "Asal Çarpan ve Asal Bölen Farkı",
+      "Bölen Sayısı Hesaplama"
+    ],
+    "order": 87
+  },
+  {
+    "id": "asal_carpanlar_toplami_hesaplama",
+    "term": "Asal Çarpanlar Toplamı Hesaplama",
+    "definition": "Bir sayının asal çarpanlarına ayrıldıktan sonra, birbirinden farklı olan asal çarpanlarının toplamını bulma işlemidir.",
+    "examples": [
+      "72 = 2^3 * 3^2. Asal çarpanları 2 ve 3'tür. Asal çarpanlar toplamı 2+3=5'tir.",
+      "100 = 2^2 * 5^2. Asal çarpanları 2 ve 5'tir. Asal çarpanlar toplamı 2+5=7'dir."
+    ],
+    "relatedTerms": [
+      "Asal Çarpanlara Ayırma Yöntemleri",
+      "Asal Sayıların Bölenleri Toplamı",
+      "Bölenler Toplamı"
+    ],
+    "order": 88
+  },
+  {
+    "id": "bolme_algoritmasi_uygulama",
+    "term": "Bölme Algoritması Uygulamaları",
+    "definition": "Bölme algoritmasının (a = bq + r, 0 ≤ r < b) farklı senaryolarda kullanılarak bilinmeyenleri bulma veya sayıların özelliklerini belirleme işlemidir. Kalanın sıfır olması tam bölünebilirlik anlamına gelir.",
+    "examples": [
+      "Bir sayının 5'e bölümünden kalan 3 ise, bu sayı 5k+3 şeklindedir.",
+      "Bir sayıyı 7'ye böldüğümüzde bölüm 12 ve kalan 4 ise, sayı 7*12 + 4 = 88'dir."
+    ],
+    "relatedTerms": [
+      "Bölme Algoritması",
+      "Kalan",
+      "Bölüm",
+      "Tam Kat"
+    ],
+    "order": 89
+  },
+  {
+    "id": "aralarinda_asal_sayilar_ozellikleri",
+    "term": "Aralarında Asal Sayılar Özellikleri",
+    "definition": "İki sayının 1'den başka ortak böleni yoksa bu sayılar aralarında asal sayılardır. Aralarında asal olan sayıların EBOB'u her zaman 1'dir.",
+    "examples": [
+      "8 ve 9 aralarında asaldır (EBOB(8,9)=1).",
+      "15 ve 28 aralarında asaldır (EBOB(15,28)=1).",
+      "6 ve 10 aralarında asal değildir (EBOB(6,10)=2)."
+    ],
+    "relatedTerms": [
+      "Göreli Asal Sayılar",
+      "EBOB (En Büyük Ortak Bölen)",
+      "Asal Sayı Tanımı"
+    ],
+    "order": 90
+  },
+  {
+    "id": "asal_carpan_yontemi_ebob_ekok",
+    "term": "Asal Çarpan Yöntemiyle EBOB ve EKOK",
+    "definition": "Sayıları asal çarpanlarına ayırarak EBOB ve EKOK'larını bulma yöntemidir. EBOB için ortak asal çarpanların en küçük üslüleri, EKOK için tüm asal çarpanların en büyük üslüleri alınır.",
+    "examples": [
+      "12 = 2^2 * 3, 18 = 2 * 3^2. EBOB(12,18) = 2^1 * 3^1 = 6. EKOK(12,18) = 2^2 * 3^2 = 36.",
+      "24 = 2^3 * 3, 36 = 2^2 * 3^2. EBOB(24,36) = 2^2 * 3^1 = 12. EKOK(24,36) = 2^3 * 3^2 = 72."
+    ],
+    "relatedTerms": [
+      "Asal Çarpanlara Ayırma Yöntemleri",
+      "EBOB ve EKOK Hesaplama Yöntemleri",
+      "Asal Çarpan ve Asal Bölen Farkı"
+    ],
+    "order": 91
+  },
+  {
+    "id": "bolen_sayisi_hesaplama_formul",
+    "term": "Bölen Sayısı Hesaplama Formülü",
+    "definition": "Bir sayının asal çarpanlarına ayrılmış halindeki üslerinin birer fazlasının çarpımı, o sayının pozitif bölen sayısını verir. Eğer n = p1^a1 * p2^a2 * ... * pk^ak ise, bölen sayısı (a1+1)(a2+1)...(ak+1)'dir.",
+    "examples": [
+      "72 = 2^3 * 3^2. Bölen sayısı (3+1)(2+1) = 4*3 = 12'dir.",
+      "100 = 2^2 * 5^2. Bölen sayısı (2+1)(2+1) = 3*3 = 9'dur."
+    ],
+    "relatedTerms": [
+      "Asal Çarpanlara Ayırma Yöntemleri",
+      "Pozitif Bölenler Toplamı",
+      "Asal Sayı Özellikleri"
+    ],
+    "order": 92
+  },
+  {
+    "id": "asal_sayi_olmayanlar_bileşik",
+    "term": "Asal Sayı Olmayanlar (Bileşik Sayılar)",
+    "definition": "1'den büyük, kendisi ve 1'den başka pozitif tam böleni olan sayılara bileşik sayılar denir. 1 sayısı ne asal ne de bileşiktir.",
+    "examples": [
+      "4'ün bölenleri 1, 2, 4'tür.",
+      "6'nın bölenleri 1, 2, 3, 6'dır.",
+      "9'un bölenleri 1, 3, 9'dur."
+    ],
+    "relatedTerms": [
+      "Asal Sayı Tanımı",
+      "Bileşik Sayı Tanımı",
+      "Asal Sayı Özellikleri"
+    ],
+    "order": 93
+  },
+  {
+    "id": "ebob_ekok_carpim_ozelligi_uygulama",
+    "term": "EBOB ve EKOK Çarpım Özelliği Uygulaması",
+    "definition": "İki pozitif tam sayının çarpımı, bu sayıların EBOB'u ile EKOK'unun çarpımına eşittir. a * b = EBOB(a, b) * EKOK(a, b). Bu özellik, bilinmeyen sayıyı veya EBOB/EKOK'tan birini bulmak için kullanılır.",
+    "examples": [
+      "EBOB(a, b) = 7 ve EKOK(a, b) = 140 ise, a*b = 7*140 = 980'dir. Eğer a=35 ise, b = 980/35 = 28'dir.",
+      "a=12, b=18 ise, 12*18 = 216. EBOB(12,18)=6, EKOK(12,18)=36. 6*36 = 216."
+    ],
+    "relatedTerms": [
+      "EBOB ve EKOK Çarpım Özelliği",
+      "EBOB ve EKOK Uygulamaları",
+      "EBOB (En Büyük Ortak Bölen)",
+      "EKOK (En Küçük Ortak Kat)"
+    ],
+    "order": 94
+  },
+  {
+    "id": "pozitif_bolenler_toplami_hesaplama",
+    "term": "Pozitif Bölenler Toplamı Hesaplama",
+    "definition": "Bir sayının tüm pozitif bölenlerinin toplamını bulma işlemidir. Eğer n = p1^a1 * p2^a2 * ... * pk^ak ise, bölenler toplamı (1+p1+...+p1^a1) * (1+p2+...+p2^a2) * ... * (1+pk+...+pk^ak) formülüyle bulunur.",
+    "examples": [
+      "12 = 2^2 * 3^1. Bölenler toplamı (1+2+2^2)*(1+3) = (1+2+4)*(4) = 7*4 = 28'dir. (Bölenler: 1, 2, 3, 4, 6, 12)",
+      "30 = 2^1 * 3^1 * 5^1. Bölenler toplamı (1+2)*(1+3)*(1+5) = 3*4*6 = 72'dir."
+    ],
+    "relatedTerms": [
+      "Bölenler Toplamı",
+      "Asal Çarpanlara Ayırma Yöntemleri",
+      "Bölen Sayısı Hesaplama Formülü"
+    ],
+    "order": 95
+  },
+  {
+    "id": "tam_bolen_ve_pozitif_bolen_farki",
+    "term": "Tam Bölen ve Pozitif Bölen Farkı",
+    "definition": "Pozitif bölenler, bir sayıyı kalansız bölen pozitif tam sayılardır. Tam bölenler ise hem pozitif hem de negatif bölenleri kapsar. Örneğin, 6'nın pozitif bölenleri {1, 2, 3, 6}'dır, tam bölenleri ise {-6, -3, -2, -1, 1, 2, 3, 6}'dır.",
+    "examples": [
+      "10'un pozitif bölenleri: 1, 2, 5, 10.",
+      "10'un tam bölenleri: -10, -5, -2, -1, 1, 2, 5, 10."
+    ],
+    "relatedTerms": [
+      "Bölen Sayısı Hesaplama",
+      "Pozitif Bölenler Toplamı",
+      "Asal Sayı ve Bölenleri"
+    ],
+    "order": 96
+  },
+  {
+    "id": "asal_sayi_boyutlari",
+    "term": "Asal Sayı Boyutları",
+    "definition": "Bir sayının asal sayı olup olmadığını anlamak için, o sayının sadece 1'e ve kendisine bölünebilmesi gerekir. Bu durum, sayının bölenlerinin sayısını ve bu bölenlerin niteliğini belirler.",
+    "examples": [
+      "7'nin bölenleri 1 ve 7'dir. Sadece iki böleni olduğu için asal sayıdır.",
+      "12'nin bölenleri 1, 2, 3, 4, 6, 12'dir. İki asal böleni (2 ve 3) olmasına rağmen, kendisinden ve 1'den başka bölenleri olduğu için asal değildir.",
+      "1'in sadece bir tane böleni (1) vardır, bu yüzden asal sayı değildir."
+    ],
+    "relatedTerms": [
+      "Asal Sayı Tanımı",
+      "Bölen Sayısı Hesaplama",
+      "Asal Çarpanlara Ayırma Yöntemleri"
+    ],
+    "order": 97
+  },
+  {
+    "id": "ebob_ekok_kullanilarak_sayi_bulma_yontemleri",
+    "term": "EBOB ve EKOK Kullanılarak Sayı Bulma Yöntemleri",
+    "definition": "Verilen EBOB ve EKOK değerlerine sahip sayıları bulmak için asal çarpanlara ayırma veya bölme algoritmaları gibi yöntemler kullanılır. Bu yöntemler, sayıların ortak bölen ve kat ilişkilerini kullanarak sayıları belirlemeye yardımcı olur.",
+    "examples": [
+      "EBOB(a, b) = 6 ve EKOK(a, b) = 72 ise, a ve b sayılarını bulabiliriz. a = 6x, b = 6y ve EBOB(x, y) = 1 olmalıdır. 6xy = 72 => xy = 12. Olası (x, y) çiftleri (1, 12) ve (3, 4)'tür. Sayılar (6, 72) veya (18, 24) olabilir.",
+      "EBOB(a, b) = 5 ve EKOK(a, b) = 150 ise, a ve b sayıları 5'in katı olmalı ve aralarında asal çarpanları 150/5 = 30'u vermelidir. Olası sayılar (5, 150) veya (15, 50) veya (30, 25) olabilir.",
+      "EBOB(a, b) = 10 ve EKOK(a, b) = 120 ise, a ve b sayıları 10'un katı olmalı ve aralarında asal çarpanları 120/10 = 12'yi vermelidir. Olası sayılar (10, 120) veya (20, 60) veya (30, 40) olabilir."
+    ],
+    "relatedTerms": [
+      "EBOB ve EKOK Hesaplama Yöntemleri",
+      "EBOB ve EKOK Çarpım Özelliği",
+      "EBOB, EKOK ve Kalanlı Bölme İlişkisi"
+    ],
+    "order": 98
+  },
+  {
+    "id": "asal_carpan_sayisi_ve_toplami",
+    "term": "Asal Çarpan Sayısı ve Toplamı",
+    "definition": "Bir sayının asal çarpanlarına ayrılması sonucu elde edilen farklı asal sayıların adedi asal çarpan sayısını, bu farklı asal sayıların toplamı ise asal çarpanlar toplamını verir.",
+    "examples": [
+      "72 = 2³ * 3². Farklı asal çarpanları 2 ve 3'tür. Asal çarpan sayısı 2'dir. Asal çarpanlar toplamı 2 + 3 = 5'tir.",
+      "100 = 2² * 5². Farklı asal çarpanları 2 ve 5'tir. Asal çarpan sayısı 2'dir. Asal çarpanlar toplamı 2 + 5 = 7'dir.",
+      "30 = 2 * 3 * 5. Farklı asal çarpanları 2, 3 ve 5'tir. Asal çarpan sayısı 3'tür. Asal çarpanlar toplamı 2 + 3 + 5 = 10'dur."
+    ],
+    "relatedTerms": [
+      "Asal Çarpanlara Ayırma Yöntemleri",
+      "Asal Çarpan ve Asal Bölen Farkı",
+      "Asal Çarpan Sayısı Hesaplama",
+      "Asal Çarpanlar Toplamı Hesaplama"
+    ],
+    "order": 99
+  },
+  {
+    "id": "aralarinda_asal_sayilarin_ozellikleri",
+    "term": "Aralarında Asal Sayıların Özellikleri",
+    "definition": "İki veya daha fazla sayının 1'den başka ortak böleni yoksa bu sayılara aralarında asal sayılar denir. Aralarında asal sayıların EBOB'u her zaman 1'dir.",
+    "examples": [
+      "8 ve 15 aralarında asaldır. EBOB(8, 15) = 1.",
+      "9 ve 10 aralarında asaldır. EBOB(9, 10) = 1.",
+      "6 ve 35 aralarında asaldır. EBOB(6, 35) = 1. (6=2*3, 35=5*7)"
+    ],
+    "relatedTerms": [
+      "Göreli Asal Sayılar (Aralarında Asal)",
+      "EBOB (En Büyük Ortak Bölen)",
+      "Asal Sayı Özellikleri"
+    ],
+    "order": 100
+  }
+]

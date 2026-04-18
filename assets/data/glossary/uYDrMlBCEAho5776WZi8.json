@@ -1,0 +1,1001 @@
+[
+  {
+    "id": "nufus_piramidi",
+    "term": "Nüfus Piramidi",
+    "definition": "Bir ülkenin yaş ve cinsiyet gruplarına göre nüfus dağılımını gösteren grafiksel bir araçtır. Ülkenin demografik yapısı, geçmişteki nüfus hareketleri ve gelecekteki nüfus projeksiyonları hakkında bilgi verir.",
+    "examples": [
+      "Gelişmiş ülkelerde genellikle çan şeklinde piramitler görülürken, gelişmekte olan ülkelerde geniş tabanlı piramitler yaygındır."
+    ],
+    "relatedTerms": [
+      "Doğum Oranı",
+      "Ölüm Oranı",
+      "Ortalama Yaş"
+    ],
+    "order": 1
+  },
+  {
+    "id": "kentsel_donusum",
+    "term": "Kentsel Dönüşüm",
+    "definition": "Şehirlerdeki eski, yıpranmış veya riskli yapıların yerine modern, güvenli ve yaşanabilir konutların yapılması sürecidir. Amaç, kentlerin fiziksel ve sosyal yapısını iyileştirmektir.",
+    "examples": [
+      "Depreme dayanıksız binaların yıkılıp yenilerinin yapılması, gecekonduların ıslah edilmesi."
+    ],
+    "relatedTerms": [
+      "İmar Planı",
+      "Gecekondu",
+      "Yapı Denetimi"
+    ],
+    "order": 2
+  },
+  {
+    "id": "goc_nedenleri",
+    "term": "Göç Nedenleri",
+    "definition": "İnsanların yaşadıkları yerleri terk ederek başka yerlere yerleşmelerine yol açan faktörlerdir. İtici ve çekici faktörler olarak ikiye ayrılır.",
+    "examples": [
+      "İşsizlik, savaşlar, doğal afetler (itici); daha iyi iş imkanları, eğitim olanakları, siyasi istikrar (çekici)."
+    ],
+    "relatedTerms": [
+      "İç Göç",
+      "Dış Göç",
+      "Beyin Göçü"
+    ],
+    "order": 3
+  },
+  {
+    "id": "sehirlesme",
+    "term": "Şehirleşme",
+    "definition": "Kırsal alanlardan kentlere doğru nüfusun yığılması ve kentlerin nüfus, işlev ve yayılma alanlarının genişlemesi sürecidir. Sanayileşme ve modernleşme ile yakından ilişkilidir.",
+    "examples": [
+      "Sanayi devrimi sonrası kırsaldan kente göçün artması, büyük metropollerin oluşması."
+    ],
+    "relatedTerms": [
+      "Kır-Kent Nüfusu",
+      "Sanayileşme",
+      "Kentleşme"
+    ],
+    "order": 4
+  },
+  {
+    "id": "nufus_artisi",
+    "term": "Nüfus Artışı",
+    "definition": "Belirli bir bölgedeki nüfusun zaman içinde artması durumudur. Doğumların ölümlerden fazla olması ve göçler nüfus artışına neden olur.",
+    "examples": [
+      "Gelişmekte olan ülkelerde yüksek doğum oranları nedeniyle hızlı nüfus artışı yaşanır."
+    ],
+    "relatedTerms": [
+      "Doğal Nüfus Artışı",
+      "Mekansal Nüfus Artışı",
+      "Nüfus Yoğunluğu"
+    ],
+    "order": 5
+  },
+  {
+    "id": "tarimsal_nufus",
+    "term": "Tarımsal Nüfus",
+    "definition": "Nüfusun büyük bir kısmının geçimini tarım ve hayvancılıkla sağladığı nüfus grubudur. Genellikle gelişmekte olan ülkelerde daha yaygındır.",
+    "examples": [
+      "Geleneksel tarım toplumlarında nüfusun çoğunluğu tarımla uğraşır."
+    ],
+    "relatedTerms": [
+      "Sanayi Nüfusu",
+      "Hizmet Nüfusu",
+      "Kır Nüfusu"
+    ],
+    "order": 6
+  },
+  {
+    "id": "sanayi_nufusu",
+    "term": "Sanayi Nüfusu",
+    "definition": "Nüfusun önemli bir kısmının sanayi sektöründe istihdam edildiği nüfus grubudur. Gelişmiş ve gelişmekte olan ülkelerde sanayileşme ile birlikte artış gösterir.",
+    "examples": [
+      "Sanayi devrimi sonrası Avrupa ve Kuzey Amerika'da sanayi nüfusu artmıştır."
+    ],
+    "relatedTerms": [
+      "Tarımsal Nüfus",
+      "Hizmet Nüfusu",
+      "İşgücü"
+    ],
+    "order": 7
+  },
+  {
+    "id": "hizmet_nufusu",
+    "term": "Hizmet Nüfusu",
+    "definition": "Nüfusun büyük bir bölümünün hizmet sektöründe (ticaret, eğitim, sağlık, ulaşım vb.) çalıştığı nüfus grubudur. Gelişmiş ülkelerde en büyük paya sahiptir.",
+    "examples": [
+      "Modern ekonomilerde hizmet sektörü istihdamı artırmıştır."
+    ],
+    "relatedTerms": [
+      "Tarımsal Nüfus",
+      "Sanayi Nüfusu",
+      "Üçüncül Sektör"
+    ],
+    "order": 8
+  },
+  {
+    "id": "nufus_siklasi",
+    "term": "Nüfus Sınıflaması",
+    "definition": "Nüfusun yaş gruplarına göre sınıflandırılmasıdır. Genellikle genç, aktif ve yaşlı nüfus olarak gruplandırılır.",
+    "examples": [
+      "0-14 yaş (genç nüfus), 15-64 yaş (aktif nüfus), 65 yaş ve üstü (yaşlı nüfus)."
+    ],
+    "relatedTerms": [
+      "Nüfus Piramidi",
+      "Ortalama Yaş",
+      "Bağımlı Nüfus"
+    ],
+    "order": 9
+  },
+  {
+    "id": "dogal_nufus_artisi",
+    "term": "Doğal Nüfus Artışı",
+    "definition": "Bir bölgedeki doğum sayısı ile ölüm sayısı arasındaki farktır. Göçler hesaba katılmadan nüfusun kendiliğinden artışını ifade eder.",
+    "examples": [
+      "Doğum oranı yüksek, ölüm oranı düşük olan ülkelerde doğal nüfus artışı fazladır."
+    ],
+    "relatedTerms": [
+      "Doğum Oranı",
+      "Ölüm Oranı",
+      "Nüfus Artışı"
+    ],
+    "order": 10
+  },
+  {
+    "id": "mekansal_nufus_artisi",
+    "term": "Mekansal Nüfus Artışı",
+    "definition": "Bir bölgeye olan göçlerin, o bölgeden olan göçlerden fazla olması durumunda ortaya çıkan nüfus artışıdır. Nüfusun coğrafi dağılımındaki değişimi gösterir.",
+    "examples": [
+      "İş imkanlarının yoğun olduğu büyük şehirlere göç artışı."
+    ],
+    "relatedTerms": [
+      "Göç",
+      "İç Göç",
+      "Dış Göç"
+    ],
+    "order": 11
+  },
+  {
+    "id": "nufus_seyrekligi",
+    "term": "Nüfus Seyrekliliği",
+    "definition": "Belirli bir alanda yaşayan insan sayısının az olması durumudur. Genellikle ulaşımın zor olduğu, iklim koşullarının elverişsiz olduğu veya doğal kaynakların yetersiz olduğu yerlerde görülür.",
+    "examples": [
+      "Çöller, kutup bölgeleri, yüksek dağlık alanlar."
+    ],
+    "relatedTerms": [
+      "Nüfus Yoğunluğu",
+      "Yerleşme",
+      "Engebe"
+    ],
+    "order": 12
+  },
+  {
+    "id": "nufus_yogunlugu",
+    "term": "Nüfus Yoğunluğu",
+    "definition": "Belirli bir alanda yaşayan insan sayısının o alanın yüzölçümüne oranıdır. Kilometrekareye düşen insan sayısı ile ifade edilir.",
+    "examples": [
+      "Sanayileşmiş ve gelişmiş bölgelerde nüfus yoğunluğu genellikle daha fazladır."
+    ],
+    "relatedTerms": [
+      "Nüfus Seyrekliliği",
+      "Yerleşme",
+      "Kişi Başına Düşen Alan"
+    ],
+    "order": 13
+  },
+  {
+    "id": "yapisal_degisim",
+    "term": "Yapısal Değişim",
+    "definition": "Bir toplumun ekonomik, sosyal ve demografik yapısında meydana gelen köklü değişimlerdir. Sanayileşme, kentleşme ve eğitim seviyesinin yükselmesi gibi faktörler yapısal değişime yol açar.",
+    "examples": [
+      "Tarım toplumundan sanayi toplumuna geçiş, okuryazarlık oranının artması."
+    ],
+    "relatedTerms": [
+      "Sanayileşme",
+      "Kentleşme",
+      "Eğitim Seviyesi"
+    ],
+    "order": 14
+  },
+  {
+    "id": "gelismis_ulkeler_nufusu",
+    "term": "Gelişmiş Ülkeler Nüfusu",
+    "definition": "Genellikle düşük doğum ve ölüm oranlarına sahip, yaşlı nüfus oranının yüksek olduğu nüfus yapısıdır. Nüfus artış hızı düşüktür veya negatiftir.",
+    "examples": [
+      "Avrupa ülkeleri, Japonya, Kanada."
+    ],
+    "relatedTerms": [
+      "Nüfus Piramidi (Çan Şekli)",
+      "Yaşlı Nüfus",
+      "Düşük Doğum Oranı"
+    ],
+    "order": 15
+  },
+  {
+    "id": "gelismekte_olan_ulkeler_nufusu",
+    "term": "Gelişmekte Olan Ülkeler Nüfusu",
+    "definition": "Genellikle yüksek doğum oranlarına ve düşmekte olan ölüm oranlarına sahip, genç nüfus oranının yüksek olduğu nüfus yapısıdır. Nüfus artış hızı yüksektir.",
+    "examples": [
+      "Hindistan, Nijerya, Brezilya."
+    ],
+    "relatedTerms": [
+      "Nüfus Piramidi (Geniş Tabanlı)",
+      "Genç Nüfus",
+      "Yüksek Doğum Oranı"
+    ],
+    "order": 16
+  },
+  {
+    "id": "beyin_gocu",
+    "term": "Beyin Göçü",
+    "definition": "Nitelikli ve eğitimli insanların, daha iyi çalışma, araştırma ve yaşam koşulları bulmak amacıyla kendi ülkelerinden başka ülkelere göç etmesidir. Ülkeler için önemli bir kaynak kaybıdır.",
+    "examples": [
+      "Bilim insanlarının, doktorların ve mühendislerin yurt dışına gitmesi."
+    ],
+    "relatedTerms": [
+      "Göç",
+      "Nitelikli İşgücü",
+      "İnsan Kaynağı"
+    ],
+    "order": 17
+  },
+  {
+    "id": "kalkinma_duzeyi",
+    "term": "Kalkınma Düzeyi",
+    "definition": "Bir ülkenin ekonomik, sosyal ve teknolojik olarak ulaştığı gelişmişlik seviyesidir. Nüfus yapısı, eğitim, sağlık ve yaşam standartları gibi birçok faktörle ilişkilidir.",
+    "examples": [
+      "Kişi başına düşen milli gelir, okuryazarlık oranı, ortalama yaşam süresi."
+    ],
+    "relatedTerms": [
+      "Gelişmiş Ülkeler",
+      "Gelişmekte Olan Ülkeler",
+      "Ekonomik Büyüme"
+    ],
+    "order": 18
+  },
+  {
+    "id": "nufus_politikasi",
+    "term": "Nüfus Politikası",
+    "definition": "Bir devletin nüfusun miktarını, yapısını ve dağılımını kendi amaçları doğrultusunda etkilemeye yönelik aldığı önlemler ve uygulamalardır. Nüfus artışını teşvik edici veya sınırlayıcı olabilir.",
+    "examples": [
+      "Çocuk sahibi olmayı teşvik eden vergi indirimleri, aile planlaması hizmetleri."
+    ],
+    "relatedTerms": [
+      "Doğum Oranı",
+      "Nüfus Planlaması",
+      "Demografi"
+    ],
+    "order": 19
+  },
+  {
+    "id": "kentlesme_sorunlari",
+    "term": "Kentleşme Sorunları",
+    "definition": "Hızlı ve kontrolsüz kentleşmenin neden olduğu olumsuz sonuçlardır. Konut yetersizliği, çevre kirliliği, altyapı sorunları, işsizlik ve sosyal adaletsizlik gibi sorunları içerir.",
+    "examples": [
+      "Gecekondu bölgelerinin oluşması, trafik sıkışıklığı, hava kirliliği."
+    ],
+    "relatedTerms": [
+      "Kentleşme",
+      "Gecekondu",
+      "Çevre Kirliliği"
+    ],
+    "order": 20
+  },
+  {
+    "id": "nufus_dagilisi",
+    "term": "Nüfus Dağılışı",
+    "definition": "Bir bölgedeki nüfusun yeryüzüne yayılış biçimidir. Bu dağılış, iklim, yer şekilleri, su kaynakları, toprak verimliliği ve ekonomik faaliyetler gibi faktörlerden etkilenir. Nüfusun yoğun olduğu alanlar ile seyrek olduğu alanlar arasındaki farklılıkları inceler.",
+    "examples": [
+      "Dünyada nüfusun büyük çoğunluğunun kıyı kesimlerinde ve alüvyal ovalarda toplanması.",
+      "Çöl ve kutup bölgelerinde nüfusun seyrek olması.",
+      "Dağlık ve engebeli alanlarda yerleşimin sınırlı olması."
+    ],
+    "relatedTerms": [
+      "Nüfus Yoğunluğu",
+      "Nüfus Seyrekliliği",
+      "Yerleşme Coğrafyası"
+    ],
+    "order": 21
+  },
+  {
+    "id": "dogum_orani",
+    "term": "Doğum Oranı",
+    "definition": "Belirli bir bölgede, belirli bir yılda, her 1000 kişiye düşen canlı doğum sayısını ifade eder. Yüksek doğum oranları genellikle gelişmekte olan ülkelerde görülür ve nüfus artış hızını doğrudan etkiler.",
+    "examples": [
+      "Hindistan'da yüksek doğum oranları.",
+      "Bazı Afrika ülkelerinde binde 40'ın üzerinde doğum oranları.",
+      "Gelişmiş ülkelerde düşen doğum oranları."
+    ],
+    "relatedTerms": [
+      "Ölüm Oranı",
+      "Doğal Nüfus Artışı",
+      "Nüfus Politikası"
+    ],
+    "order": 22
+  },
+  {
+    "id": "olum_orani",
+    "term": "Ölüm Oranı",
+    "definition": "Belirli bir bölgede, belirli bir yılda, her 1000 kişiye düşen ölüm sayısını ifade eder. Gelişmiş ülkelerde sağlık hizmetlerinin iyileşmesiyle ölüm oranları düşüş eğilimindedir.",
+    "examples": [
+      "Japonya'da düşük ölüm oranları.",
+      "Gelişmiş ülkelerde yaşlı nüfusun artmasıyla ölüm oranlarında hafif artışlar.",
+      "Salgın hastalıkların görüldüğü bölgelerde ani ölüm oranı yükselişleri."
+    ],
+    "relatedTerms": [
+      "Doğum Oranı",
+      "Ortalama Yaşam Süresi",
+      "Sağlık Coğrafyası"
+    ],
+    "order": 23
+  },
+  {
+    "id": "nufus_yapisi",
+    "term": "Nüfus Yapısı",
+    "definition": "Nüfusun yaş, cinsiyet, eğitim, meslek, medeni durum gibi çeşitli özelliklerine göre gösterdiği dağılımdır. Nüfusun yaş yapısı, bağımlı nüfus oranını ve iş gücü potansiyelini belirler.",
+    "examples": [
+      "Yaşlı nüfusun fazla olduğu ülkelerde emeklilik sistemlerinin zorlanması.",
+      "Genç nüfusun yoğun olduğu ülkelerde eğitim ve istihdam sorunları.",
+      "Cinsiyet dengesizliğinin toplumsal etkileri."
+    ],
+    "relatedTerms": [
+      "Nüfus Piramidi",
+      "Bağımlı Nüfus Oranı",
+      "İş Gücü"
+    ],
+    "order": 24
+  },
+  {
+    "id": "goc_turleri",
+    "term": "Göç Türleri",
+    "definition": "Nüfusun bir yerden başka bir yere taşınmasıdır. Göçler, nedenlerine (zorunlu, isteğe bağlı), sürekliliğine (kalıcı, geçici) ve niteliğine (iç, dış) göre sınıflandırılır.",
+    "examples": [
+      "Suriye'den Türkiye'ye yaşanan zorunlu iç göç.",
+      "Avrupa ülkelerine yönelik isteğe bağlı dış göç.",
+      "Mevsimlik tarım işçilerinin göçü."
+    ],
+    "relatedTerms": [
+      "Göç Nedenleri",
+      "İç Göç",
+      "Dış Göç",
+      "Beyin Göçü"
+    ],
+    "order": 25
+  },
+  {
+    "id": "tarimsal_nufus_orani",
+    "term": "Tarımsal Nüfus Oranı",
+    "definition": "Toplam nüfus içinde tarım sektöründe çalışanların oranını ifade eder. Bu oran, bir ülkenin ekonomik gelişmişlik düzeyi hakkında önemli bir göstergedir. Gelişmiş ülkelerde bu oran düşüktür.",
+    "examples": [
+      "Gelişmiş ülkelerde tarımsal nüfus oranının %5'in altında olması.",
+      "Gelişmekte olan ülkelerde bu oranın yüksek seyretmesi.",
+      "Türkiye'de zamanla azalan tarımsal nüfus oranı."
+    ],
+    "relatedTerms": [
+      "Sanayi Nüfusu",
+      "Hizmet Nüfusu",
+      "Kalkınma Düzeyi"
+    ],
+    "order": 26
+  },
+  {
+    "id": "sanayilesme",
+    "term": "Sanayileşme",
+    "definition": "Bir bölgede tarım dışı ekonomik faaliyetlerin, özellikle sanayinin gelişmesi sürecidir. Sanayileşme, nüfusun kır kökenli olup kentlere göç etmesine ve kentleşme oranının artmasına neden olur.",
+    "examples": [
+      "Sanayi Devrimi ile başlayan süreç.",
+      "Türkiye'de 1950'lerden sonra artan sanayileşme.",
+      "Gelişmiş ülkelerde yüksek sanayileşme oranı."
+    ],
+    "relatedTerms": [
+      "Sanayi Nüfusu",
+      "Kentleşme",
+      "Ekonomik Faaliyetler"
+    ],
+    "order": 27
+  },
+  {
+    "id": "hizmet_sektoru",
+    "term": "Hizmet Sektörü",
+    "definition": "Ekonomide mal üretimi dışındaki faaliyetleri kapsayan sektördür. Bankacılık, eğitim, sağlık, turizm, ulaşım ve iletişim gibi alanları içerir. Gelişmiş ülkelerde nüfusun büyük çoğunluğu bu sektörde çalışır.",
+    "examples": [
+      "Lüks otellerin bulunduğu turizm bölgelerinde hizmet sektöründe çalışan nüfusun yoğunluğu.",
+      "Finans merkezlerinde bankacılık ve sigortacılık faaliyetleri.",
+      "Teknoloji şirketlerinin yoğunlaştığı bölgelerde bilişim hizmetleri."
+    ],
+    "relatedTerms": [
+      "Hizmet Nüfusu",
+      "Ekonomik Faaliyetler",
+      "Gelişmiş Ülkeler"
+    ],
+    "order": 28
+  },
+  {
+    "id": "kalkinmislik_gostergeleri",
+    "term": "Kalkınmışlık Göstergeleri",
+    "definition": "Bir ülkenin ekonomik ve sosyal gelişim düzeyini ölçmek için kullanılan çeşitli istatistiksel verilerdir. Kişi başına düşen milli gelir, okuryazarlık oranı, ortalama yaşam süresi, bebek ölüm oranı gibi unsurları içerir.",
+    "examples": [
+      "Kişi başına düşen milli gelirin yüksekliği.",
+      "Okuryazarlık oranının %90'ın üzerinde olması.",
+      "Bebek ölüm oranının düşüklüğü."
+    ],
+    "relatedTerms": [
+      "Kalkınma Düzeyi",
+      "Gelişmiş Ülkeler",
+      "Gelişmekte Olan Ülkeler"
+    ],
+    "order": 29
+  },
+  {
+    "id": "nufus_politikasi_ornekleri",
+    "term": "Nüfus Politikası Örnekleri",
+    "definition": "Devletlerin nüfusun miktarını, yapısını ve dağılışını etkilemek amacıyla uyguladığı politikalardır. Nüfus artış hızını yükseltme, düşürme veya belirli bir düzeyde tutmaya yönelik tedbirleri içerir.",
+    "examples": [
+      "Çin'in 'Tek Çocuk Politikası' (geçmişte).",
+      "Fransa'nın doğum oranlarını artırmaya yönelik teşvikleri.",
+      "Bazı ülkelerin göçmen kabul politikaları."
+    ],
+    "relatedTerms": [
+      "Nüfus Politikası",
+      "Doğum Oranı",
+      "Göç Politikası"
+    ],
+    "order": 30
+  },
+  {
+    "id": "kentlesme_hizi",
+    "term": "Kentleşme Hızı",
+    "definition": "Bir bölgede kentsel nüfusun toplam nüfusa oranının belirli bir zaman diliminde ne kadar hızlı arttığını gösterir. Bu hız, genellikle sanayileşme ve kırsal kesimden kentlere göç ile ilişkilidir.",
+    "examples": [
+      "Gelişmekte olan ülkelerde yüksek kentleşme hızı.",
+      "Sanayinin geliştiği bölgelerde kentleşme hızının artması.",
+      "Türkiye'de 1980 sonrası hızlanan kentleşme."
+    ],
+    "relatedTerms": [
+      "Kentleşme",
+      "Sanayileşme",
+      "Kır-Kent Nüfusu"
+    ],
+    "order": 31
+  },
+  {
+    "id": "kentsel_nufus",
+    "term": "Kentsel Nüfus",
+    "definition": "Yerleşim yeri olarak kentlerde yaşayan nüfusu ifade eder. Kentleşme süreciyle birlikte kentsel nüfus oranı artar. Kentler, ekonomik ve sosyal açıdan daha gelişmiş merkezlerdir.",
+    "examples": [
+      "İstanbul'un büyük kentsel nüfusu.",
+      "Metropollerde yaşayan nüfusun yoğunluğu.",
+      "Kentsel alanlarda konut ihtiyacının artması."
+    ],
+    "relatedTerms": [
+      "Kentleşme",
+      "Şehirleşme",
+      "Kır Nüfusu"
+    ],
+    "order": 32
+  },
+  {
+    "id": "koy_nufusu",
+    "term": "Köy Nüfusu",
+    "definition": "Yerleşim yeri olarak köylerde yaşayan nüfusu ifade eder. Kentleşme ve sanayileşme ile birlikte köy nüfusu genellikle azalma eğilimindedir. Tarımsal faaliyetler bu nüfusun temel geçim kaynağıdır.",
+    "examples": [
+      "Tarım arazilerinin azaldığı bölgelerde köy nüfusunun göç etmesi.",
+      "Köyden kente göçün yoğun yaşandığı alanlar.",
+      "Geleneksel yaşam biçiminin sürdürüldüğü köyler."
+    ],
+    "relatedTerms": [
+      "Kentsel Nüfus",
+      "Kır-Kent Nüfusu",
+      "Tarımsal Nüfus"
+    ],
+    "order": 33
+  },
+  {
+    "id": "bagimli_nufus",
+    "term": "Bağımlı Nüfus",
+    "definition": "Çalışma çağının dışında kalan (genellikle 0-14 yaş ve 65 yaş üstü) nüfusu ifade eder. Bağımlı nüfusun yüksek olması, çalışan nüfus üzerinde ekonomik bir yük oluşturur.",
+    "examples": [
+      "Yaşlı nüfusun fazla olduğu ülkelerde sosyal güvenlik sistemlerinin zorlanması.",
+      "Çok genç nüfusa sahip ülkelerde eğitim ve sağlık harcamalarının artması.",
+      "Çalışan nüfusun, bakmakla yükümlü olduğu çocuk ve yaşlı sayısı."
+    ],
+    "relatedTerms": [
+      "Nüfus Yapısı",
+      "Yaşlı Nüfus",
+      "Çocuk Nüfusu"
+    ],
+    "order": 34
+  },
+  {
+    "id": "aktif_nufus",
+    "term": "Aktif Nüfus",
+    "definition": "Ekonomik faaliyetlerde bulunan, yani çalışan veya iş arayan nüfusu ifade eder. Genellikle 15-64 yaş arası nüfus aktif nüfus olarak kabul edilir. Bir ülkenin üretim gücünü temsil eder.",
+    "examples": [
+      "İşsizlik oranının yüksek olduğu ülkelerde aktif nüfusun potansiyelinin tam kullanılamaması.",
+      "Genç ve dinamik aktif nüfusa sahip ülkelerin ekonomik büyüme potansiyeli.",
+      "Sektörlere göre dağılımı (tarım, sanayi, hizmet)."
+    ],
+    "relatedTerms": [
+      "İş Gücü",
+      "Bağımlı Nüfus",
+      "Ekonomik Faaliyetler"
+    ],
+    "order": 35
+  },
+  {
+    "id": "demografik_yatirim",
+    "term": "Demografik Yatırım",
+    "definition": "Nüfusun niteliğini ve verimliliğini artırmak için yapılan harcamalardır. Eğitim, sağlık, beslenme ve barınma gibi alanlardaki yatırımları kapsar. Nüfusun beşeri sermayesini güçlendirir.",
+    "examples": [
+      "Okulların ve hastanelerin yapımına yapılan yatırımlar.",
+      "Aşılama programları ve sağlık taramaları.",
+      "Eğitim materyallerinin sağlanması."
+    ],
+    "relatedTerms": [
+      "Beşeri Sermaye",
+      "Nüfus Politikası",
+      "Eğitim Coğrafyası"
+    ],
+    "order": 36
+  },
+  {
+    "id": "nufus_yogunlugu_haritalari",
+    "term": "Nüfus Yoğunluğu Haritaları",
+    "definition": "Belirli bir coğrafi alandaki nüfusun yeryüzüne dağılışını ve yoğunluğunu gösteren haritalardır. Bu haritalar, nüfusun yoğun olduğu alanları kırmızı, seyrek olduğu alanları ise farklı renk tonlarıyla gösterir.",
+    "examples": [
+      "Türkiye'de nüfus yoğunluğunun en fazla olduğu Marmara Bölgesi'ni gösteren harita.",
+      "Dünyada insan yerleşiminin olmadığı veya çok seyrek olduğu alanları gösteren haritalar.",
+      "Belirli bir şehirdeki mahallelerin nüfus yoğunluğunu gösteren detaylı haritalar."
+    ],
+    "relatedTerms": [
+      "Nüfus Yoğunluğu",
+      "Nüfus Dağılışı",
+      "Harita Bilgisi"
+    ],
+    "order": 37
+  },
+  {
+    "id": "nufus_yenilenmesi",
+    "term": "Nüfus Yenilenmesi",
+    "definition": "Bir neslin yerini bir sonraki neslin alması sürecidir. Bu, doğum ve ölüm oranları arasındaki ilişkiyle belirlenir. Nüfusun yaşlanması veya gençleşmesi bu süreci yansıtır.",
+    "examples": [
+      "Doğum oranının ölüm oranından yüksek olduğu durumlarda nüfusun yenilenmesi ve artması.",
+      "Ölüm oranının doğum oranından yüksek olduğu durumlarda nüfusun yaşlanması ve azalması.",
+      "Gelişmiş ülkelerde düşen doğum oranları nedeniyle nüfus yenilenme hızının yavaşlaması."
+    ],
+    "relatedTerms": [
+      "Doğum Oranı",
+      "Ölüm Oranı",
+      "Nüfus Yapısı"
+    ],
+    "order": 38
+  },
+  {
+    "id": "gelismis_ulkeler_nufus_ozellikleri",
+    "term": "Gelişmiş Ülkeler Nüfus Özellikleri",
+    "definition": "Genellikle düşük doğum ve ölüm oranlarına, yüksek ortalama yaşam süresine, yaşlı nüfusun fazla olmasına ve kentleşme oranının yüksekliğine sahip ülkelerin nüfus özellikleridir. Nüfus artış hızları düşüktür veya negatiftir.",
+    "examples": [
+      "Japonya'da yaşlı nüfusun oranı.",
+      "Almanya'da düşük doğum oranları.",
+      "İskandinav ülkelerinde yüksek yaşam standartları ve ortalama yaşam süresi."
+    ],
+    "relatedTerms": [
+      "Gelişmiş Ülkeler",
+      "Nüfus Yapısı",
+      "Doğum Oranı",
+      "Ölüm Oranı"
+    ],
+    "order": 39
+  },
+  {
+    "id": "gelismekte_olan_ulkeler_nufus_ozellikleri",
+    "term": "Gelişmekte Olan Ülkeler Nüfus Özellikleri",
+    "definition": "Genellikle yüksek doğum ve ölüm oranlarına, düşük ortalama yaşam süresine, genç nüfusun fazla olmasına ve kentleşme oranının hızla arttığı ülkelere ait nüfus özellikleridir. Nüfus artış hızları genellikle yüksektir.",
+    "examples": [
+      "Hindistan'da yüksek doğum oranları ve genç nüfus.",
+      "Afrika ülkelerinde ortalama yaşam süresinin düşüklüğü.",
+      "Asya'daki bazı ülkelerde hızla artan kent nüfusu."
+    ],
+    "relatedTerms": [
+      "Gelişmekte Olan Ülkeler",
+      "Doğum Oranı",
+      "Genç Nüfus",
+      "Kentleşme Hızı"
+    ],
+    "order": 40
+  },
+  {
+    "id": "nufus_hareketliligi",
+    "term": "Nüfus Hareketliliği",
+    "definition": "Belirli bir zaman diliminde insanların coğrafi olarak yer değiştirmesidir. Bu hareketlilik iç göçler ve dış göçler olarak ikiye ayrılır. Nüfus hareketliliği, bir bölgenin nüfus yapısını ve dağılışını doğrudan etkiler.",
+    "examples": [
+      "Tarım işçilerinin mevsimlik olarak farklı bölgelere göç etmesi",
+      "İş bulma umuduyla büyük şehirlere göç edenler",
+      "Üniversite eğitimi için farklı bir ülkeye giden öğrenciler"
+    ],
+    "relatedTerms": [
+      "Göç Nedenleri",
+      "Göç Türleri",
+      "Nüfus Dağılışı"
+    ],
+    "order": 41
+  },
+  {
+    "id": "demografik_yatirimlar",
+    "term": "Demografik Yatırımlar",
+    "definition": "Nüfusun niteliğini ve niceliğini artırmaya yönelik yapılan harcamalardır. Eğitim, sağlık, beslenme ve barınma gibi alanlardaki yatırımlar bu kapsama girer. Demografik yatırımlar, uzun vadede ülkenin kalkınma potansiyelini yükseltir.",
+    "examples": [
+      "Okul inşaatları ve öğretmen maaşları",
+      "Sağlık ocakları ve hastanelerin yapımı",
+      "Anne ve çocuk sağlığı programları"
+    ],
+    "relatedTerms": [
+      "Kalkınma Düzeyi",
+      "Nüfus Politikası",
+      "İnsan Sermayesi"
+    ],
+    "order": 42
+  },
+  {
+    "id": "nufus_yapisi_yas_grubu",
+    "term": "Nüfus Yapısı (Yaş Grubu)",
+    "definition": "Nüfusun yaş gruplarına göre dağılımını ifade eder. Genellikle üç ana yaş grubu incelenir: 0-14 yaş (çocuklar), 15-64 yaş (aktif nüfus) ve 65 yaş ve üstü (yaşlılar). Yaş yapısı, bir ülkenin gelecekteki iş gücü potansiyeli ve sosyal güvenlik sistemi üzerinde etkilidir.",
+    "examples": [
+      "Gelişmiş ülkelerde yaşlı nüfus oranının yüksek olması",
+      "Gelişmekte olan ülkelerde genç nüfus oranının fazla olması",
+      "Nüfus piramidinin geniş tabanlı olması (genç nüfusun fazla olduğunu gösterir)"
+    ],
+    "relatedTerms": [
+      "Nüfus Piramidi",
+      "Bağımlı Nüfus",
+      "Aktif Nüfus"
+    ],
+    "order": 43
+  },
+  {
+    "id": "nufus_yapisi_cinsiyet",
+    "term": "Nüfus Yapısı (Cinsiyet)",
+    "definition": "Nüfusun kadın ve erkek oranlarına göre dağılımını ifade eder. Cinsiyet oranı, genellikle 100 kadına düşen erkek sayısı (erkek oranı) olarak belirtilir. Doğal nedenler ve göçler cinsiyet oranını etkileyebilir.",
+    "examples": [
+      "Bazı ülkelerde erkek nüfus oranının daha yüksek olması",
+      "Savaşlar sonrası kadın nüfus oranının artması",
+      "Göç alan bölgelerde erkek nüfus oranının artması"
+    ],
+    "relatedTerms": [
+      "Nüfus Piramidi",
+      "Göç Türleri",
+      "Doğal Nüfus Artışı"
+    ],
+    "order": 44
+  },
+  {
+    "id": "nufus_yogunlugu_aritmetik",
+    "term": "Aritmetik Nüfus Yoğunluğu",
+    "definition": "Bir bölgedeki toplam nüfusun, o bölgenin yüzölçümüne bölünmesiyle elde edilen değerdir. Birim alana düşen insan sayısını gösterir ve nüfusun alan üzerindeki genel dağılımı hakkında fikir verir. Ancak tarım alanları gibi kullanıma uygun olmayan alanları dikkate almaz.",
+    "examples": [
+      "Türkiye'nin aritmetik nüfus yoğunluğunun hesaplanması",
+      "İstanbul'un aritmetik nüfus yoğunluğunun yüksek olması",
+      "Sivas'ın aritmetik nüfus yoğunluğunun düşük olması"
+    ],
+    "relatedTerms": [
+      "Nüfus Yoğunluğu",
+      "Nüfus Seyrekliliği",
+      "Nüfus Dağılışı"
+    ],
+    "order": 45
+  },
+  {
+    "id": "nufus_yogunlugu_tarimsal",
+    "term": "Tarımsal Nüfus Yoğunluğu",
+    "definition": "Bir bölgedeki toplam tarımsal nüfusun, o bölgedeki tarım alanlarına bölünmesiyle elde edilen değerdir. Tarımsal nüfusun tarım alanlarına oranı hakkında bilgi verir. Tarımsal nüfus yoğunluğunun yüksek olması, tarım alanlarının darlığını veya tarımsal nüfusun fazlalığını gösterebilir.",
+    "examples": [
+      "Tarım arazisi az olan bölgelerde tarımsal nüfus yoğunluğunun yüksek olması",
+      "Gelişmiş ülkelerde tarımsal nüfus yoğunluğunun genellikle düşük olması",
+      "Tarımsal nüfus yoğunluğunun, tarımsal verimlilikle ilişkilendirilmesi"
+    ],
+    "relatedTerms": [
+      "Tarımsal Nüfus",
+      "Tarım Alanları",
+      "Nüfus Yoğunluğu"
+    ],
+    "order": 46
+  },
+  {
+    "id": "nufus_yogunlugu_fizyolojik",
+    "term": "Fizyolojik Nüfus Yoğunluğu",
+    "definition": "Bir bölgedeki toplam nüfusun, o bölgedeki tarım alanlarına bölünmesiyle elde edilen değerdir. Birim tarım alanına düşen insan sayısını gösterir ve tarım alanlarının insanları doyurma kapasitesi hakkında bir fikir verir. Tarım alanlarının sınırlı olduğu yerlerde fizyolojik nüfus yoğunluğu artar.",
+    "examples": [
+      "Nüfusun büyük kısmının tarımla uğraştığı ülkelerde fizyolojik nüfus yoğunluğunun yüksek olması",
+      "Tarım alanları sınırlı olan Hollanda gibi ülkelerde bu değerin yüksek çıkması",
+      "Yükseltisi ve iklimi tarıma elverişli olmayan bölgelerde fizyolojik nüfus yoğunluğunun düşük olması"
+    ],
+    "relatedTerms": [
+      "Tarımsal Nüfus",
+      "Tarım Alanları",
+      "Nüfus Yoğunluğu"
+    ],
+    "order": 47
+  },
+  {
+    "id": "nufus_yenilenme_hizi",
+    "term": "Nüfus Yenilenme Hızı",
+    "definition": "Bir ülkenin nüfusunun ne kadar sürede ikiye katlanacağını gösteren bir ölçüttür. Doğum ve ölüm oranlarındaki farka bağlı olarak hesaplanır. Yüksek nüfus yenilenme hızı, hızlı nüfus artışını ifade eder.",
+    "examples": [
+      "Gelişmekte olan ülkelerde nüfus yenilenme hızının daha yüksek olması",
+      "Nüfus artış hızının düşmesiyle nüfus yenilenme hızının da azalması",
+      "Nüfus yenilenme hızının, gelecekteki nüfus projeksiyonları için kullanılması"
+    ],
+    "relatedTerms": [
+      "Doğal Nüfus Artışı",
+      "Nüfus Artışı",
+      "Demografi"
+    ],
+    "order": 48
+  },
+  {
+    "id": "nufus_yapisi_ekonomik",
+    "term": "Nüfus Yapısı (Ekonomik)",
+    "definition": "Nüfusun ekonomik faaliyet kollarına göre dağılımını ifade eder. Tarım, sanayi ve hizmet sektörlerinde çalışan nüfus oranları incelenir. Ekonomik nüfus yapısı, bir ülkenin gelişmişlik düzeyi hakkında önemli ipuçları verir.",
+    "examples": [
+      "Gelişmiş ülkelerde hizmet sektöründe çalışan nüfus oranının yüksek olması",
+      "Sanayileşmiş ülkelerde sanayi sektöründe çalışan nüfus oranının artması",
+      "Tarım sektöründe çalışan nüfus oranının azaldığı ülkelerin gelişmişlik düzeyinin yüksek olması"
+    ],
+    "relatedTerms": [
+      "Sanayi Nüfusu",
+      "Hizmet Nüfusu",
+      "Tarımsal Nüfus",
+      "Kalkınma Düzeyi"
+    ],
+    "order": 49
+  },
+  {
+    "id": "beyin_gocu_nedenleri",
+    "term": "Beyin Göçü Nedenleri",
+    "definition": "Yüksek eğitimli ve nitelikli insanların, daha iyi çalışma koşulları, yüksek maaşlar, bilimsel araştırma imkanları veya siyasi istikrar gibi nedenlerle kendi ülkelerinden başka ülkelere göç etmesidir. Ülkelerin bilimsel ve ekonomik gelişimini olumsuz etkileyebilir.",
+    "examples": [
+      "Yurt dışında doktora yapan öğrencilerin orada kalmayı tercih etmesi",
+      "Yetenekli yazılımcıların daha iyi teknoloji şirketlerinde çalışmak için göç etmesi",
+      "Araştırma fonlarının yetersizliği nedeniyle bilim insanlarının yurt dışına gitmesi"
+    ],
+    "relatedTerms": [
+      "Beyin Göçü",
+      "Göç Nedenleri",
+      "İnsan Sermayesi"
+    ],
+    "order": 50
+  },
+  {
+    "id": "nufus_politikasi_yas_sinirlama",
+    "term": "Nüfus Politikası (Yaş Sınırlama)",
+    "definition": "Devletlerin, nüfusun yaş yapısını belirli bir amaca yönelik olarak değiştirmeye veya korumaya yönelik uyguladığı politikalardır. Genç nüfusu artırmaya yönelik teşvikler veya yaşlı nüfusun refahını artırmaya yönelik düzenlemeler bu kapsamdadır.",
+    "examples": [
+      "Çin'in tek çocuk politikasından vazgeçerek iki veya üç çocuk yapmayı teşvik etmesi",
+      "Bazı Avrupa ülkelerinin doğum oranlarını artırmak için ailelere maddi destek sağlaması",
+      "Yaşlı nüfusun emeklilik ve sağlık hizmetlerinin iyileştirilmesi"
+    ],
+    "relatedTerms": [
+      "Nüfus Politikası",
+      "Doğum Oranı",
+      "Yaşlı Nüfus"
+    ],
+    "order": 51
+  },
+  {
+    "id": "nufus_politikasi_nitelik_artirma",
+    "term": "Nüfus Politikası (Nitelik Artırma)",
+    "definition": "Devletlerin, nüfusun eğitim, sağlık ve genel yaşam standartlarını yükselterek niteliğini artırmaya yönelik uyguladığı politikalardır. Bu politikalar, ülkenin beşeri sermayesini güçlendirerek kalkınmasına katkı sağlar.",
+    "examples": [
+      "Eğitim sisteminin iyileştirilmesi ve yaygınlaştırılması",
+      "Sağlık hizmetlerine erişimin kolaylaştırılması",
+      "Mesleki eğitim ve işsizlikle mücadele programları"
+    ],
+    "relatedTerms": [
+      "Nüfus Politikası",
+      "Demografik Yatırımlar",
+      "Kalkınma Düzeyi"
+    ],
+    "order": 52
+  },
+  {
+    "id": "kentsel_donusum_nedenleri",
+    "term": "Kentsel Dönüşüm Nedenleri",
+    "definition": "Şehirlerdeki eski, yıpranmış veya afet riski taşıyan yapıların yenilenmesi ve kentsel alanların daha yaşanabilir hale getirilmesi sürecinin altında yatan sebeplerdir. Deprem riski, yapıların ekonomik ömrünü tamamlaması, altyapı yetersizliği ve plansız yapılaşma gibi nedenler bu süreci tetikler.",
+    "examples": [
+      "Depreme dayanıksız binaların yıkılarak yeniden yapılması",
+      "Eski sanayi bölgelerinin konut ve sosyal alanlara dönüştürülmesi",
+      "Altyapısı yetersiz gecekondu bölgelerinin planlı hale getirilmesi"
+    ],
+    "relatedTerms": [
+      "Kentsel Dönüşüm",
+      "Şehirleşme",
+      "Kentleşme Sorunları"
+    ],
+    "order": 53
+  },
+  {
+    "id": "kentlesme_hizi_etkenleri",
+    "term": "Kentleşme Hızı Etkenleri",
+    "definition": "Şehirleşme oranının zaman içinde ne kadar hızlı değiştiğini etkileyen faktörlerdir. Sanayileşme, tarımdan sanayiye geçiş, kırsal kesimdeki yoksulluk, eğitim ve sağlık hizmetlerinin şehirlerde daha iyi olması gibi nedenler kentleşme hızını artırır.",
+    "examples": [
+      "Sanayi tesislerinin şehir merkezlerine yakın kurulması",
+      "Kırsal alanlarda tarımsal arazilerin daralması",
+      "Eğitim ve iş imkanlarının şehirlerde daha fazla olması"
+    ],
+    "relatedTerms": [
+      "Şehirleşme",
+      "Kentleşme Hızı",
+      "Sanayileşme",
+      "Göç Nedenleri"
+    ],
+    "order": 54
+  },
+  {
+    "id": "nufus_artisi_azaltma_politikasi",
+    "term": "Nüfus Artışı Azaltma Politikası",
+    "definition": "Doğum oranlarını düşürerek nüfus artış hızını yavaşlatmayı amaçlayan devlet politikalarıdır. Aile planlaması hizmetlerinin yaygınlaştırılması, eğitim seviyesinin yükseltilmesi ve kadınların iş gücüne katılımının artırılması gibi yöntemler kullanılır.",
+    "examples": [
+      "Gelişmekte olan ülkelerde uygulanan aile planlaması programları",
+      "Eğitimli kadınların daha az çocuk sahibi olma eğilimi",
+      "Doğum kontrol yöntemlerinin erişilebilirliğinin artırılması"
+    ],
+    "relatedTerms": [
+      "Nüfus Politikası",
+      "Doğum Oranı",
+      "Nüfus Artışı"
+    ],
+    "order": 55
+  },
+  {
+    "id": "nufus_artisi_artirma_politikasi",
+    "term": "Nüfus Artışı Artırma Politikası",
+    "definition": "Doğum oranlarını teşvik ederek nüfus artış hızını yükseltmeyi amaçlayan devlet politikalarıdır. Genellikle nüfusun yaşlanması veya az nüfuslu ülkelerde nüfusun artırılması hedeflenir. Ailelere maddi destek, vergi indirimleri gibi teşvikler uygulanır.",
+    "examples": [
+      "Bazı Avrupa ülkelerinin çocuk başına verilen maddi destekleri artırması",
+      "Nüfusun azalma tehlikesiyle karşı karşıya olan ülkelerde evliliği ve çocuk sahibi olmayı teşvik eden kampanyalar",
+      "Doğum izinlerinin uzatılması"
+    ],
+    "relatedTerms": [
+      "Nüfus Politikası",
+      "Doğum Oranı",
+      "Nüfus Artışı",
+      "Yaşlı Nüfus"
+    ],
+    "order": 56
+  },
+  {
+    "id": "nufus_dagilisi_etkileyen_fiziki_faktorler",
+    "term": "Nüfus Dağılışı (Fiziki Faktörler)",
+    "definition": "Nüfusun yeryüzüne dengesiz dağılımını etkileyen doğal coğrafya koşullarıdır. İklim, yer şekilleri, su kaynakları, toprak verimliliği ve doğal kaynakların varlığı gibi faktörler nüfusun yoğunlaştığı veya seyrek olduğu alanları belirler.",
+    "examples": [
+      "Dağlık ve engebeli alanlarda nüfusun seyrek olması",
+      "Su kaynaklarına yakın ve verimli tarım alanlarında nüfusun yoğunlaşması",
+      "Çöl ve kutup bölgelerinde nüfusun çok az olması"
+    ],
+    "relatedTerms": [
+      "Nüfus Dağılışı",
+      "Nüfus Yoğunluğu",
+      "İklim",
+      "Yer Şekilleri"
+    ],
+    "order": 57
+  },
+  {
+    "id": "nufus_dagilisi_etkileyen_beseri_faktorler",
+    "term": "Nüfus Dağılışı (Beşeri Faktörler)",
+    "definition": "Nüfusun yeryüzüne dağılımını etkileyen insan faaliyetleri ve toplumsal etkenlerdir. Sanayileşme, tarımsal faaliyetler, ulaşım ağları, turizm, tarihi ve kültürel faktörler ile siyasi ve ekonomik koşullar nüfus dağılışını şekillendirir.",
+    "examples": [
+      "Sanayi bölgelerinde iş imkanlarının fazla olması nedeniyle nüfusun yoğunlaşması",
+      "Tarihi ticaret yolları üzerinde kurulan şehirlerin nüfusunun artması",
+      "Turizm potansiyeli yüksek bölgelerde nüfusun mevsimsel olarak artması"
+    ],
+    "relatedTerms": [
+      "Nüfus Dağılışı",
+      "Sanayileşme",
+      "Şehirleşme",
+      "Ulaşım Ağları"
+    ],
+    "order": 58
+  },
+  {
+    "id": "nufus_piramitleri",
+    "term": "Nüfus Piramitleri",
+    "definition": "Bir ülkenin nüfusunun yaş ve cinsiyet gruplarına göre dağılımını gösteren grafiklerdir. Genellikle tabanı geniş, yukarı doğru daralan üçgen şeklindedirler. Ülkelerin gelişmişlik düzeyi, doğum ve ölüm oranları hakkında bilgi verirler.",
+    "examples": [
+      "Geniş tabanlı ve dar tepeli piramit (Gelişmekte olan ülkeler)",
+      "Daha düzgün, çan şeklinde piramit (Gelişmiş ülkeler)",
+      "Dar tabanlı ve geniş orta yaş gruplı piramit (Doğurganlığın azaldığı ülkeler)"
+    ],
+    "relatedTerms": [
+      "Nüfus Yapısı (Yaş Grubu)",
+      "Nüfus Yapısı (Cinsiyet)",
+      "Doğum Oranı",
+      "Ölüm Oranı"
+    ],
+    "order": 59
+  },
+  {
+    "id": "demografik_yatirim_orani",
+    "term": "Demografik Yatırım Oranı",
+    "definition": "Bir ülkenin nüfusunun artış hızına bağlı olarak eğitim, sağlık, altyapı gibi alanlara yaptığı harcamaların toplam harcamalar içindeki payıdır. Nüfus artış hızının yüksek olduğu ülkelerde bu oran genellikle daha düşüktür.",
+    "examples": [
+      "Eğitim harcamaları",
+      "Sağlık harcamaları",
+      "Altyapı yatırımları"
+    ],
+    "relatedTerms": [
+      "Demografik Yatırım",
+      "Nüfus Artışı",
+      "Kalkınma Düzeyi"
+    ],
+    "order": 60
+  },
+  {
+    "id": "nufus_piramidi_yapisi",
+    "term": "Nüfus Piramidi Yapısı",
+    "definition": "Bir ülkenin nüfusunun yaş ve cinsiyet gruplarına göre dağılımını gösteren grafiksel sunumdur. Üç temel tipi vardır: geniş tabanlı (hızlı artış), dar tabanlı (azalan artış) ve düzgün tabanlı (dengeli artış). Ülkenin demografik geçmişi ve gelecekteki eğilimleri hakkında bilgi verir.",
+    "examples": [
+      "Geniş tabanlı piramit (Nijerya)",
+      "Düzgün tabanlı piramit (Fransa)",
+      "Dar tabanlı piramit (Japonya)"
+    ],
+    "relatedTerms": [
+      "Nüfus Yapısı",
+      "Doğum Oranı",
+      "Ölüm Oranı",
+      "Ortalama Yaşam Süresi"
+    ],
+    "order": 61
+  },
+  {
+    "id": "kentsel_donusum_sonuclari",
+    "term": "Kentsel Dönüşüm Sonuçları",
+    "definition": "Kentsel dönüşüm projelerinin hayata geçirilmesiyle ortaya çıkan olumlu veya olumsuz etkilerdir. Yapıların güvenliğinin artması, yaşam kalitesinin yükselmesi, çevre düzenlemeleri gibi olumlu sonuçların yanı sıra, sosyo-ekonomik etkiler ve yerinden edilmeler gibi olumsuz sonuçlar da görülebilir.",
+    "examples": [
+      "Yapı stokunun deprem güvenliği açısından iyileşmesi.",
+      "Yeşil alanların ve sosyal donatıların artması.",
+      "Kiracıların veya mülk sahiplerinin farklı bölgelere taşınması."
+    ],
+    "relatedTerms": [
+      "Kentsel Dönüşüm",
+      "Kentleşme",
+      "Afet Riski",
+      "Sosyo-Ekonomik Etkiler",
+      "Şehircilik"
+    ],
+    "order": 62
+  },
+  {
+    "id": "kentsel_alan_sinirlari",
+    "term": "Kentsel Alan Sınırları",
+    "definition": "Bir şehrin veya yerleşmenin idari ve coğrafi sınırlarını belirleyen çizgidir. Bu sınırlar, şehirleşmenin yayılma alanını, nüfusun yerleşimini ve kentsel hizmetlerin kapsamını belirlemede önemlidir. İdari sınırlar ile fiili yerleşim alanları farklılık gösterebilir.",
+    "examples": [
+      "Büyükşehir belediyelerinin sınırları.",
+      "İlçe belediyelerinin sınırları.",
+      "Sanayi bölgeleri veya serbest bölgelerin sınırları."
+    ],
+    "relatedTerms": [
+      "Kentleşme",
+      "Yerleşim Alanı",
+      "İdari Sınır",
+      "Şehirleşme"
+    ],
+    "order": 63
+  },
+  {
+    "id": "kirsallasma_ve_kentlesme",
+    "term": "Kırsallaşma ve Kentleşme",
+    "definition": "Kırsallaşma, kırsal nüfusun ve kırsal alanların azalması, kentleşme ise kent nüfusunun ve kent alanlarının artması sürecidir. Bu iki kavram genellikle birbirini tamamlar ve nüfusun yerleşim yerlerine göre dağılımındaki değişimi ifade eder. Modernleşme ve sanayileşme ile yakından ilişkilidir.",
+    "examples": [
+      "Tarım dışı sektörlerin gelişmesiyle kırsaldan kente göç.",
+      "Kentlerin çevresindeki yerleşimlerin kentleşmesi.",
+      "Köyden kente göç eden nüfusun artması."
+    ],
+    "relatedTerms": [
+      "Kentleşme",
+      "Kırsal Nüfus",
+      "Kentsel Nüfus",
+      "Sanayileşme",
+      "Göç"
+    ],
+    "order": 64
+  }
+]

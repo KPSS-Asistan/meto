@@ -1,0 +1,90 @@
+[
+  {
+    "topicId": "MAT_FONKSIYONLAR",
+    "title": "Bölüm 1: Fonksiyon Kavramı ve Tanım Kümesi",
+    "content": "Bir zamanlar, Matematik Krallığı'nda 'Bağıntılar' adında geniş bir aile yaşarmış. Bu ailede, her bireyin bir diğeriyle bir ilişkisi, bir bağıntısı varmış. Ancak bu büyük aile içinde, 'Fonksiyonlar' adında özel bir grup dikkat çekermiş. Fonksiyonlar, Bağıntılardan farklı olarak, çok düzenli ve kurallara bağlılarmış. Her Fonksiyon bireyi, kendi 'Tanım Kümesi'ndeki her elemanı, 'Değer Kümesi'ndeki yalnızca bir elemanla eşlermiş. Sanki her öğrencinin sadece bir sırası, her anahtarın sadece bir kilidi olurmuş gibi. Eğer bir Bağıntı bu kuralı çiğner, yani bir eleman iki farklı elemanla eşleşirse, o artık bir Fonksiyon olamazmış. İşte bu kuralı anlamak için 'Düşey Doğru Testi' adında sihirli bir yöntem kullanılırmış. Bir grafiğe düşey bir çizgi çektiğinizde, bu çizgi grafiği birden fazla noktada kesiyorsa, o grafik bir Fonksiyon değil, sadece bir Bağıntıymış. Fonksiyonlar, bu katı kuralları sayesinde, 'Görüntü Kümesi' adını verdikleri, eşleşen elemanlardan oluşan özel bir koleksiyon oluştururlarmış. Bu özellikleriyle Fonksiyonlar, Krallık'taki en güvenilir ve düzenli yapılar olarak ün salmışlar.",
+    "key_points": [
+      "Fonksiyon nedir?",
+      "Bağıntı ile farkları",
+      "Tanım, değer ve görüntü kümesi",
+      "Düşey doğru testi ile fonksiyon olup olmadığını anlama"
+    ],
+    "type": "story",
+    "id": "story_1776013563681_0",
+    "createdAt": "2026-04-12T17:06:03.681Z",
+    "updatedAt": "2026-04-12T17:06:03.681Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:06:13.118Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_FONKSIYONLAR_0.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_FONKSIYONLAR",
+    "title": "Bölüm 2: Fonksiyon Çeşitleri ve Özellikleri",
+    "content": "Matematik Krallığı'ndaki Fonksiyonlar ailesi büyüdükçe, her biri farklı özelliklere sahip çeşitli türleri ortaya çıkmış. 'Birebir (İnjeksiyon) Fonksiyonlar', tıpkı parmak izleri gibi, her elemanın farklı bir elemanla eşleştiği özel türlermiş. Yani, hiç kimse başkasının eşleştiği yere eşleşemezmiş. 'Örten (Sürjeksiyon) Fonksiyonlar' ise, Değer Kümesi'ndeki hiçbir elemanı boş bırakmazlarmış; adeta her sandalye dolu olurmuş. Eğer bazı sandalyeler boş kalırsa, o fonksiyona 'İçine Fonksiyon' denirmiş. Bir de 'Birim Fonksiyon' varmış ki, o tam bir ayna gibiymiş; ne girerse aynen onu geri verirmiş. 'Sabit Fonksiyon' ise, ne verirseniz verin, hep aynı cevabı veren inatçı bir karaktermiş. Krallık'ta geceleri ışık saçan 'Tek Fonksiyonlar' ve gündüzleri parlayan 'Çift Fonksiyonlar' da varmış. Tek Fonksiyonlar, f(-x) = -f(x) kuralına uyarken, Çift Fonksiyonlar f(-x) = f(x) simetrisini sergilerlermiş. Bu çeşitlilik, Fonksiyonlar Krallığı'nı daha da ilginç ve zengin kılıyormuş.",
+    "key_points": [
+      "Birebir (İnjeksiyon) ve Örten (Sürjeksiyon) fonksiyonlar",
+      "İçine fonksiyon",
+      "Birim fonksiyon",
+      "Sabit fonksiyon",
+      "Tek ve çift fonksiyonlar"
+    ],
+    "type": "story",
+    "id": "story_1776013563681_1",
+    "createdAt": "2026-04-12T17:06:03.681Z",
+    "updatedAt": "2026-04-12T17:06:03.681Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:06:13.118Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_FONKSIYONLAR_1.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_FONKSIYONLAR",
+    "title": "Bölüm 3: Fonksiyonlarda Dört İşlem ve Bileşke Fonksiyon",
+    "content": "Matematik Krallığı'nda Fonksiyonlar sadece kendi başlarına var olmakla kalmaz, aynı zamanda birbirleriyle etkileşime de girerlermiş. Tıpkı sayılar gibi, Fonksiyonlar da 'Toplama', 'Çıkarma', 'Çarpma' ve 'Bölme' gibi dört temel işlemi yapabilirmiş. İki Fonksiyonu toplamak, çıkarmak, çarpmak veya bölmek, onların Tanım Kümelerinin kesişiminde yeni bir Fonksiyon oluşturmak demekmiş. Ama Fonksiyonların en büyülü etkileşimi 'Bileşke Fonksiyon' imiş. Bu, bir Fonksiyonun çıktısını alıp, onu başka bir Fonksiyonun girdisi yapmak gibiymiş. Sanki bir fabrika, ürettiği malı doğrudan başka bir fabrikanın üretim hattına gönderirmiş gibi. Bileşke Fonksiyonun kendine has özellikleri varmış; örneğin, genellikle 'değişme özelliği' göstermezmiş, yani f(g(x)) ile g(f(x)) genellikle farklı sonuçlar verirmiş. Bu durum, Fonksiyonlar arasındaki hiyerarşiyi ve sıranın önemini ortaya koyarmış. Bu işlemler sayesinde Fonksiyonlar, Krallık'taki en karmaşık problemleri bile çözebilecek güce ve esnekliğe sahip olurlarmış.",
+    "key_points": [
+      "Toplama, çıkarma, çarpma ve bölme işlemleri",
+      "Bileşke fonksiyonun tanımı ve özellikleri",
+      "Bileşke fonksiyonun değişme özelliği"
+    ],
+    "type": "story",
+    "id": "story_1776013563681_2",
+    "createdAt": "2026-04-12T17:06:03.681Z",
+    "updatedAt": "2026-04-12T17:06:03.681Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:06:13.118Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_FONKSIYONLAR_2.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_FONKSIYONLAR",
+    "title": "Bölüm 4: Ters Fonksiyon ve Grafikler",
+    "content": "Osmanlı'nın son dönemlerinde, matematik eğitimi alan genç bir beyefendi olan Ahmet, fonksiyonların sırlarını çözmeye çalışıyordu. Bir gün, hocası ona şöyle dedi: 'Ahmet evladım, her olayın bir tersi olduğu gibi, her fonksiyonun da bir tersi vardır. Ama dikkat et, her fonksiyonun tersi olmaz. Tıpkı her padişahın tahtı bırakıp halkın arasına karışamayacağı gibi, bir fonksiyonun da tersinin olabilmesi için 'birebir' ve 'örten' olması gerekir.' Ahmet, bu sözler üzerine kafa yordu. Ters fonksiyonu bulmak için 'y' yerine 'x', 'x' yerine 'y' yazıp, yeni 'y'yi yalnız bırakmanın, tıpkı bir fermanı tersine çevirip yeni bir düzen kurmaya benzediğini düşündü. En ilginç keşfi ise, bir fonksiyonun grafiği ile tersinin grafiğinin, 'y=x' doğrusuna göre simetrik olmasıydı. Sanki o doğru, bir ayna gibi, fonksiyonu ve onun tersini yansıtıyordu. Bu, Ahmet'e, tarihteki olayların da bazen kendi tersini doğurduğunu ve bu tersin, başlangıçtaki olayla bir şekilde ilişkili olduğunu düşündürdü.",
+    "key_points": [
+      "Ters fonksiyonun tanımı ve varlık şartları (birebir ve örten olma)",
+      "Ters fonksiyon bulma yöntemleri (x ve y'nin yerini değiştirip y'yi yalnız bırakma)",
+      "Fonksiyon ve ters fonksiyonun grafikleri arasındaki ilişki (y=x doğrusuna göre simetri)"
+    ],
+    "type": "story",
+    "id": "story_1776013573118_0",
+    "createdAt": "2026-04-12T17:06:13.118Z",
+    "updatedAt": "2026-04-12T17:06:13.118Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:06:19.699Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_FONKSIYONLAR_3.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_FONKSIYONLAR",
+    "title": "Bölüm 5: Parçalı Fonksiyonlar ve Uygulamaları",
+    "content": "Ahmet, ters fonksiyonların ardından, hayatın karmaşıklığını daha iyi anlatan başka bir fonksiyon türüyle karşılaştı: Parçalı Fonksiyonlar. Hocası, 'Evladım, hayatın her döneminde farklı kurallar geçerli olabilir. Çocukluğumuzda başka, gençliğimizde başka, yaşlılığımızda başka... İşte parçalı fonksiyonlar da böyledir. Tıpkı Osmanlı'da farklı eyaletlerde farklı kanunların uygulanması gibi, bir fonksiyon da farklı aralıklarda farklı kurallara göre hareket edebilir' dedi. Ahmet, bu fonksiyonları anlamak için, her aralıkta hangi kuralın geçerli olduğunu dikkatle inceledi. Değer bulurken, tıpkı bir kadının hangi bölgede hangi verginin geçerli olduğunu bilmesi gibi, verilen 'x' değerinin hangi aralığa düştüğünü tespit etti. Grafik çiziminde ise, her parçayı ayrı ayrı çizip, sonra birleştirdi. Özellikle 'mutlak değer' fonksiyonunun, tıpkı bir devlet adamının kararlarının hem olumlu hem olumsuz yönlerinin olabileceği gibi, pozitif ve negatif değerler için farklı davrandığını gözlemledi. İşaret fonksiyonu ise, tıpkı bir fermanın 'onay' veya 'red' cevabı gibi, sadece üç farklı değer alarak, sayının işaretini gösteriyordu. Ahmet, matematik ile tarihin, aslında ne kadar iç içe olduğunu bir kez daha anladı.",
+    "key_points": [
+      "Parçalı fonksiyonların tanımı ve gösterimi (farklı aralıklarda farklı kurallar)",
+      "Parçalı fonksiyonlarda değer bulma ve grafik çizimi (her parçayı ayrı ayrı inceleme)",
+      "Mutlak değer ve işaret fonksiyonu gibi özel parçalı fonksiyonlar"
+    ],
+    "type": "story",
+    "id": "story_1776013573118_1",
+    "createdAt": "2026-04-12T17:06:13.118Z",
+    "updatedAt": "2026-04-12T17:06:13.118Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:06:19.699Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_FONKSIYONLAR_4.mp3?alt=media"
+  }
+]

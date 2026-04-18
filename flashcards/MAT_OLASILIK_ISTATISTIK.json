@@ -1,0 +1,452 @@
+[
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir örneklem uzayında gerçekleşmesi istenen durumların tüm durumlara oranına ne denir?",
+    "answer": "Olasılık",
+    "additionalInfo": "Olasılık değeri her zaman 0 ile 1 arasındadır.",
+    "id": "flash_1776014519874_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir madeni paranın havaya atılması deneyinde örneklem uzayının eleman sayısı kaçtır?",
+    "answer": "2",
+    "additionalInfo": "Yazı veya Tura.",
+    "id": "flash_1776014519874_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir zarın havaya atılması deneyinde örneklem uzayının eleman sayısı kaçtır?",
+    "answer": "6",
+    "additionalInfo": "1, 2, 3, 4, 5, 6.",
+    "id": "flash_1776014519874_3",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Gerçekleşmesi imkansız olan bir olayın olasılık değeri kaçtır?",
+    "answer": "0",
+    "additionalInfo": "İmkansız olay boş küme ile gösterilir.",
+    "id": "flash_1776014519874_4",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Gerçekleşmesi kesin olan bir olayın olasılık değeri kaçtır?",
+    "answer": "1",
+    "additionalInfo": "Örneklem uzayının tamamını kapsayan olaydır.",
+    "id": "flash_1776014519874_5",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir olayın tümleyeni ile kendisinin olasılıkları toplamı kaçtır?",
+    "answer": "1",
+    "additionalInfo": "P(A) + P(A') = 1 formülünü hatırla.",
+    "id": "flash_1776014519874_6",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "n tane nesnenin r tanesinin seçilmesine ne ad verilir?",
+    "answer": "Kombinasyon",
+    "additionalInfo": "Sıralama önemli değildir.",
+    "id": "flash_1776014519874_7",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "n tane nesnenin r tanesinin sıralanmasına ne ad verilir?",
+    "answer": "Permütasyon",
+    "additionalInfo": "Sıralama önemlidir.",
+    "id": "flash_1776014519874_8",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Aritmetik ortalama nasıl bulunur?",
+    "answer": "Verilerin toplamının veri sayısına bölünmesiyle",
+    "additionalInfo": "Merkezi eğilim ölçütüdür.",
+    "id": "flash_1776014519874_9",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir veri grubunda en çok tekrar eden değere ne denir?",
+    "answer": "Mod (Tepe Değer)",
+    "additionalInfo": "Birden fazla modu olabilir.",
+    "id": "flash_1776014519874_10",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Küçükten büyüğe sıralanmış bir veri grubunun tam ortasındaki değere ne denir?",
+    "answer": "Medyan (Ortanca)",
+    "additionalInfo": "Veri sayısı çift ise ortadaki iki değerin ortalaması alınır.",
+    "id": "flash_1776014519874_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir veri grubundaki en büyük değer ile en küçük değer arasındaki farka ne denir?",
+    "answer": "Açıklık (Ranj)",
+    "additionalInfo": "Verilerin yayılımı hakkında bilgi verir.",
+    "id": "flash_1776014519874_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "n elemanlı bir kümenin alt küme sayısı nasıl hesaplanır?",
+    "answer": "2 üzeri n",
+    "additionalInfo": "Boş küme de bir alt kümedir.",
+    "id": "flash_1776014519874_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "İki zar atıldığında toplamlarının 7 olma olasılığı nedir?",
+    "answer": "1/6",
+    "additionalInfo": "Tüm durumlar 36, istenen durumlar 6 tanedir.",
+    "id": "flash_1776014519874_14",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir torbada 3 kırmızı, 2 beyaz bilye varsa, çekilen bir bilyenin kırmızı olma olasılığı nedir?",
+    "answer": "3/5",
+    "additionalInfo": "İstenen/Tüm durumlar.",
+    "id": "flash_1776014519874_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "n faktöriyel (n!) ne demektir?",
+    "answer": "1'den n'e kadar olan sayıların çarpımı",
+    "additionalInfo": "0! = 1 olduğunu unutma.",
+    "id": "flash_1776014519874_16",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bağımsız iki olayın aynı anda gerçekleşme olasılığı nasıl bulunur?",
+    "answer": "Olasılıkların çarpımı ile",
+    "additionalInfo": "P(A ve B) = P(A) * P(B).",
+    "id": "flash_1776014519874_17",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir zar atıldığında asal sayı gelme olasılığı nedir?",
+    "answer": "1/2",
+    "additionalInfo": "Asal sayılar: 2, 3, 5.",
+    "id": "flash_1776014519874_18",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Ayrık iki olayın birleşiminin olasılığı nasıl bulunur?",
+    "answer": "Olasılıkların toplamı ile",
+    "additionalInfo": "P(A veya B) = P(A) + P(B).",
+    "id": "flash_1776014519874_19",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "3 madeni para atıldığında örneklem uzayı kaç elemanlıdır?",
+    "answer": "8",
+    "additionalInfo": "2 üzeri 3 = 8.",
+    "id": "flash_1776014519874_20",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "5 kişiden 2 kişi kaç farklı şekilde seçilir?",
+    "answer": "10",
+    "additionalInfo": "Kombinasyon: 5'in 2'li kombinasyonu.",
+    "id": "flash_1776014519874_21",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "3 farklı kitap bir rafa kaç farklı şekilde sıralanır?",
+    "answer": "6",
+    "additionalInfo": "3 faktöriyel (3!).",
+    "id": "flash_1776014519874_22",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir veri setinde değerlerin birbirine yakın olması neyi ifade eder?",
+    "answer": "Standart sapmanın düşük olduğunu",
+    "additionalInfo": "Veriler ortalamaya yakındır.",
+    "id": "flash_1776014519874_23",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Varyans nedir?",
+    "answer": "Standart sapmanın karesi",
+    "additionalInfo": "Yayılım ölçüsüdür.",
+    "id": "flash_1776014519874_24",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Aynı anda gerçekleşemeyen olaylara ne denir?",
+    "answer": "Ayrık olaylar",
+    "additionalInfo": "Kesişimleri boştur.",
+    "id": "flash_1776014519874_25",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir madeni paranın 2 kez atılmasında en az bir yazı gelme olasılığı nedir?",
+    "answer": "3/4",
+    "additionalInfo": "Tüm durumlar: YY, YT, TY, TT.",
+    "id": "flash_1776014519874_26",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "5'in 0'lı kombinasyonu kaçtır?",
+    "answer": "1",
+    "additionalInfo": "Her kümenin 0 elemanlı alt kümesi 1 tanedir (boş küme).",
+    "id": "flash_1776014519874_27",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "4'ün 4'lü kombinasyonu kaçtır?",
+    "answer": "1",
+    "additionalInfo": "Kümenin kendisi.",
+    "id": "flash_1776014519874_28",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir torbada 4 mavi ve 6 sarı top varsa, rastgele çekilen bir topun mavi olma olasılığı nedir?",
+    "answer": "0.4",
+    "additionalInfo": "4/10 sadeleştirilirse 2/5 olur.",
+    "id": "flash_1776014519874_29",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "n elemanlı bir kümenin 1 elemanlı alt küme sayısı kaçtır?",
+    "answer": "n",
+    "additionalInfo": "n'in 1'li kombinasyonu n'dir.",
+    "id": "flash_1776014519874_30",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Permütasyon formülü nedir?",
+    "answer": "P(n,r) = n! / (n-r)!",
+    "additionalInfo": "Sıralama önemlidir.",
+    "id": "flash_1776014519874_31",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Kombinasyon formülü nedir?",
+    "answer": "C(n,r) = n! / (r! * (n-r)!)",
+    "additionalInfo": "Seçme işlemidir.",
+    "id": "flash_1776014519874_32",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir zar atıldığında 6'dan büyük gelme olasılığı nedir?",
+    "answer": "0",
+    "additionalInfo": "İmkansız olaydır.",
+    "id": "flash_1776014519874_33",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir zar atıldığında çift sayı gelme olasılığı nedir?",
+    "answer": "1/2",
+    "additionalInfo": "Çiftler: 2, 4, 6.",
+    "id": "flash_1776014519874_34",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Veri grubunda tüm veriler aynıysa standart sapma kaçtır?",
+    "answer": "0",
+    "additionalInfo": "Değişkenlik yoktur.",
+    "id": "flash_1776014519874_35",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "3 farklı kişi yan yana kaç farklı şekilde fotoğraf çektirebilir?",
+    "answer": "6",
+    "additionalInfo": "3! = 3*2*1.",
+    "id": "flash_1776014519874_36",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir torbada 2 top var, ikisi de aynı renkteyse çekilen iki topun aynı renk olma olasılığı nedir?",
+    "answer": "1",
+    "additionalInfo": "Kesin olaydır.",
+    "id": "flash_1776014519874_37",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "2, 4, 6, 8 veri grubunun medyanı kaçtır?",
+    "answer": "5",
+    "additionalInfo": "4 ve 6'nın ortalaması.",
+    "id": "flash_1776014519874_38",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "2, 2, 3, 5, 5, 5 veri grubunun modu kaçtır?",
+    "answer": "5",
+    "additionalInfo": "En çok tekrar eden değer.",
+    "id": "flash_1776014519874_39",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir madeni para 2 kez atıldığında ikisinin de tura gelme olasılığı nedir?",
+    "answer": "1/4",
+    "additionalInfo": "1/2 * 1/2 = 1/4.",
+    "id": "flash_1776014519874_40",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "5 elemanlı bir kümenin boş küme dışındaki alt küme sayısı kaçtır?",
+    "answer": "31",
+    "additionalInfo": "2 üzeri 5 - 1.",
+    "id": "flash_1776014519874_41",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir olayın gerçekleşme olasılığı 1/4 ise gerçekleşmeme olasılığı nedir?",
+    "answer": "3/4",
+    "additionalInfo": "1 - 1/4 = 3/4.",
+    "id": "flash_1776014519874_42",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Aritmetik ortalaması 10 olan 3 sayının toplamı kaçtır?",
+    "answer": "30",
+    "additionalInfo": "Ortalama * Sayı adedi = Toplam.",
+    "id": "flash_1776014519874_43",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "4 farklı mektup 3 farklı posta kutusuna kaç farklı şekilde atılabilir?",
+    "answer": "81",
+    "additionalInfo": "3 üzeri 4.",
+    "id": "flash_1776014519874_44",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir torbada 5 bilye var, 2'si çekiliyor. Kaç farklı seçim yapılabilir?",
+    "answer": "10",
+    "additionalInfo": "5'in 2'li kombinasyonu.",
+    "id": "flash_1776014519874_45",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir zar atıldığında 3'ten büyük gelme olasılığı nedir?",
+    "answer": "1/2",
+    "additionalInfo": "4, 5, 6.",
+    "id": "flash_1776014519874_46",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Merkezi yayılım ölçüsü nedir?",
+    "answer": "Standart Sapma",
+    "additionalInfo": "Verilerin ortalamadan ne kadar saptığını gösterir.",
+    "id": "flash_1776014519874_47",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Bir torbadan rastgele çekilen bir topun beyaz olma olasılığı 1/3 ise, beyaz olmayan top olma olasılığı nedir?",
+    "answer": "2/3",
+    "additionalInfo": "Tümleyeni.",
+    "id": "flash_1776014519874_48",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "3 kişinin yan yana dizilimi (permütasyon) kaçtır?",
+    "answer": "6",
+    "additionalInfo": "3!.",
+    "id": "flash_1776014519874_49",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "question": "Sıralı bir veri grubunda açıklık nasıl bulunur?",
+    "answer": "Son terim - İlk terim",
+    "additionalInfo": "En büyük - En küçük.",
+    "id": "flash_1776014519874_50",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:11.434Z"
+  }
+]

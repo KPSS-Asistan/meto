@@ -1,0 +1,89 @@
+[
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 1: Kümelerin Temel Tanımı ve Gösterimi",
+    "content": "Bir zamanlar, bilgiye aç bir genç olan Ayşe, KPSS maratonuna hazırlanıyordu. Tarih ve coğrafya kitapları arasında boğuşurken, matematik dersinde karşılaştığı 'kümeler' konusu dikkatini çekti. Öğretmeni, kümeleri anlatmaya başladığında, Ayşe'nin zihninde yeni bir dünya belirdi.\n\n'Çocuklar,' dedi öğretmeni, 'küme, belirli ve iyi tanımlanmış nesneler topluluğudur.' Ayşe, hemen etrafına bakındı. Sınıftaki öğrenciler bir küme miydi? Evet! Çünkü kimin öğrenci olduğu belliydi. Sıradaki kalemler, çantalar... Her biri ayrı bir küme oluşturabilirdi. Önemli olan, bir nesnenin o kümeye ait olup olmadığının kesin olarak belirlenebilmesiydi. Mesela 'güzel çiçekler' bir küme olamazdı, çünkü güzellik kişiden kişiye değişirdi, iyi tanımlı değildi.\n\nÖğretmen devam etti: 'Kümeleri göstermenin üç temel yolu vardır.' Birincisi, liste yöntemiydi. Kümenin elemanlarını süslü parantezler içine yazıp virgülle ayırmak. Örneğin, A = {Ali, Ayşe, Can} gibi. İkincisi, ortak özellik yöntemiydi. Kümenin elemanlarını tanımlayan bir özellik belirtmek. Örneğin, B = {x | x, Türkiye'nin başkenti} gibi. Bu yöntemde x'in ne olduğu, hangi özelliklere sahip olduğu belirtilirdi. Üçüncüsü ise Venn şemasıydı. Kümeleri kapalı eğrilerle (genellikle dairelerle) göstermek. Bu, görsel olarak kümeler arasındaki ilişkileri anlamak için harikaydı.\n\nAyşe, notlarını alırken, 'Peki ya eleman sayısı?' diye düşündü. Öğretmeni tam da bu konuya geldi. 'Bir kümenin eleman sayısına kardinalite denir ve s(A) şeklinde gösterilir.' dedi. 'Eğer bir kümenin hiç elemanı yoksa, ona boş küme denir ve {} veya Ø sembolüyle gösterilir.' Ayşe'nin aklına, 'Türkiye'de yaşayan tek boynuzlu atlar kümesi' geldi, evet, o bir boş kümeydi! Son olarak, üzerinde çalıştığımız tüm elemanları içeren en büyük kümeye ise evrensel küme denirdi ve genellikle U harfi ile gösterilirdi. Ayşe, kümelerin temelini anladığını hissetti ve bir sonraki dersi sabırsızlıkla beklemeye başladı.",
+    "key_points": [
+      "Küme kavramının anlamı ve kümelerin iyi tanımlılığı",
+      "Kümelerin liste yöntemi, ortak özellik yöntemi ve Venn şeması ile gösterimi",
+      "Eleman sayısı (kardinalite) ve boş küme, evrensel küme kavramları"
+    ],
+    "type": "story",
+    "id": "story_1776013564085_0",
+    "createdAt": "2026-04-12T17:06:04.085Z",
+    "updatedAt": "2026-04-12T17:06:04.085Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:06:15.351Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_KUMELER_0.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 2: Küme İlişkileri ve Özel Kümeler",
+    "content": "Ayşe, kümelerin temel tanımını ve gösterimini öğrendikten sonra, ikinci derste küme ilişkileri ve özel kümeler konusuna geçti. Öğretmeni, tahtaya iki farklı küme yazdı: A = {1, 2, 3} ve B = {3, 2, 1}. 'Çocuklar,' dedi, 'bu iki küme aynı elemanlara sahip, sadece yazılış sıraları farklı. Bu tür kümelere eşit kümeler deriz. Yani A = B.' Ayşe, mantıklı buldu, elemanlar aynıysa küme de aynıydı.\n\nSonra öğretmen, C = {kırmızı, mavi} ve D = {elma, armut} kümelerini yazdı. 'Peki bu iki küme eşit mi?' diye sordu. Ayşe, hayır dedi. 'Ama' diye devam etti öğretmen, 'bu iki kümenin eleman sayıları aynı. C kümesinin de 2, D kümesinin de 2 elemanı var. Eleman sayıları eşit olan kümelere denk kümeler deriz ve C ≡ D şeklinde gösteririz.' Ayşe bu ayrımı hemen not aldı: Eşit kümeler aynı elemanlara sahipken, denk kümeler sadece aynı sayıda elemana sahipti.\n\nArdından en önemli konulardan birine geçtiler: alt küme. Öğretmen, E = {1, 2, 3, 4} ve F = {1, 2} kümelerini yazdı. 'F kümesinin tüm elemanları E kümesinde de var mı?' diye sordu. Ayşe, evet dedi. 'O zaman F kümesi, E kümesinin bir alt kümesidir ve F ⊆ E şeklinde gösterilir.' Eğer F, E'nin bir alt kümesi olup E'ye eşit değilse, yani E'de F'de olmayan en az bir eleman varsa, o zaman F'ye E'nin öz alt kümesi denirdi ve F ⊂ E şeklinde gösterilirdi. Ayşe, her kümenin kendisinin bir alt kümesi olduğunu ama öz alt kümesi olmadığını kavradı. Boş kümenin ise her kümenin alt kümesi olduğunu öğrendi.\n\nÖğretmen, 'Şimdi gelelim alt küme sayısına,' dedi. 'n elemanlı bir kümenin 2^n tane alt kümesi vardır. Öz alt küme sayısı ise 2^n - 1'dir.' Ayşe, bu formülü hemen ezberledi. Son olarak, bir kümenin tüm alt kümelerinin oluşturduğu kümeye kuvvet kümesi dendiğini ve P(A) şeklinde gösterildiğini öğrendiler. Ayşe, bu ilişkilerin kümeleri daha iyi anlamasına yardımcı olduğunu fark etti. Kümeler arasındaki bu bağlantılar, ona KPSS'deki diğer konuları da birbiriyle ilişkilendirme becerisi kazandırıyordu.",
+    "key_points": [
+      "Eşit kümeler, denk kümeler ve alt küme ilişkisi",
+      "Öz alt küme kavramı ve alt küme sayıları",
+      "Kuvvet kümesi ve özellikleri"
+    ],
+    "type": "story",
+    "id": "story_1776013564085_1",
+    "createdAt": "2026-04-12T17:06:04.085Z",
+    "updatedAt": "2026-04-12T17:06:04.085Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:06:15.351Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_KUMELER_1.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 3: Kümelerde Temel İşlemler",
+    "content": "Kümelerin gizemli dünyasında derinleşen Ayşe, son derste kümeler üzerinde yapılan işlemleri öğrenmeye başladı. Öğretmeni, tahtaya A = {a, b, c} ve B = {c, d, e} kümelerini yazdı. 'Çocuklar, şimdi bu kümeleri bir araya getirelim,' dedi. 'Hem A'daki hem de B'deki tüm elemanları içeren yeni kümeye birleşim kümesi deriz ve A ∪ B şeklinde gösteririz.' Ayşe, A ∪ B = {a, b, c, d, e} olduğunu kolayca anladı. Birleşim işlemi, kümeleri genişletiyordu.\n\nSonra öğretmen, 'Peki ya her iki kümede de ortak olan elemanlar?' diye sordu. 'İşte bu, kesişim işlemidir ve A ∩ B şeklinde gösterilir. A ∩ B = {c} olur.' Ayşe, kesişimin, kümelerin ortak paydasını bulmak gibi olduğunu düşündü. Birleşim ve kesişimin birçok özelliği vardı; değişme, birleşme, dağılma özellikleri gibi.\n\nSıra fark işlemine geldi. 'A fark B, yani A \\ B veya A - B, A kümesinde olup B kümesinde olmayan elemanlardan oluşur.' dedi öğretmen. 'A \\ B = {a, b} olur. B \\ A ise {d, e} olur.' Ayşe, bu işlemi, bir kümeden diğerinin elemanlarını 'çıkarmak' gibi algıladı. Bu, kümeler arasındaki özgün farklılıkları ortaya koyuyordu.\n\nEn son olarak tümleme işlemi geldi. Öğretmen, 'Evrensel kümemiz U = {a, b, c, d, e, f} olsun. A kümesinin tümleyeni, A'da olmayan ama evrensel kümede olan elemanlardır ve A' veya Aᶜ şeklinde gösterilir.' dedi. 'A' = {d, e, f} olur.' Ayşe, tümlemenin, bir kümenin 'dışında kalanları' bulmak olduğunu anladı.\n\nÖğretmen, son olarak çok önemli bir kuraldan bahsetti: De Morgan kuralları. 'Bu kurallar, birleşim veya kesişim işlemlerinin tümleyenini alırken çok işimize yarar.' dedi. '(A ∪ B)' = A' ∩ B' ve '(A ∩ B)' = A' ∪ B' kurallarını tahtaya yazdı. Ayşe, bu kuralların, kümelerle yapılan işlemlerde karmaşık ifadeleri basitleştirmek için harika olduğunu fark etti. Kümelerin bu temel işlemleri, Ayşe'nin zihninde matematiğin sadece sayılarla değil, aynı zamanda mantıklı gruplamalarla da ilgili olduğunu gösterdi. KPSS yolculuğunda, bu mantık yürütme becerisinin ona çok yardımcı olacağını biliyordu.",
+    "key_points": [
+      "Birleşim işlemi ve özellikleri",
+      "Kesişim işlemi ve özellikleri",
+      "Fark işlemi ve özellikleri",
+      "Tümleme işlemi ve özellikleri",
+      "De Morgan kuralları"
+    ],
+    "type": "story",
+    "id": "story_1776013564085_2",
+    "createdAt": "2026-04-12T17:06:04.085Z",
+    "updatedAt": "2026-04-12T17:06:04.085Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:06:15.351Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_KUMELER_2.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 4: Küme Problemleri ve Uygulamaları",
+    "content": "Kpss Kasabası'nda her sabah güneşin doğuşuyla birlikte büyük bir heyecan başlardı. Bu heyecan, kasabanın en popüler kafesi olan 'Matematik Köşesi'nde yaşanırdı. Kafe sahibi Ayşe Teyze, her gün farklı bir matematik problemiyle kasaba halkını sınardı. Bir gün, elinde iki sepetle çıktı ortaya: 'Bir sepette Türkçe bilenler, diğerinde İngilizce bilenler var. Ama dikkat edin, bazıları iki dili de biliyor!' dedi gülümseyerek. \n\nKasabalılar hemen kağıt kalemlerine sarıldı. Ali, 'Ayşe Teyze, bize kaç kişi sadece Türkçe biliyor, kaç kişi sadece İngilizce biliyor ve kaç kişi her iki dili de biliyor, bunları bulmamız için bir ipucu ver. Sonra da bu bilgileri birleştirip toplam kaç kişi olduğunu bulalım!' diye atıldı. Fatma ise, 'Venn şemasını çizelim, böylece her şey gözümüzün önünde olur. Birleşim ve kesişim formüllerini kullanarak bu karmaşık problemi çözebiliriz.' diye ekledi. \n\nAyşe Teyze, kasaba halkının heyecanını keyifle izledi. Onlar, 'En az bir dil bilenler' ve 'sadece bir dil bilenler' gibi kavramları Venn şemaları üzerinde görselleştirerek, zor görünen bu dil problemini nasıl da kolayca çözdüklerini gördüler. Kimi zaman bir spor kulübündeki üyelerin branş dağılımını, kimi zaman bir anketin sonuçlarını analiz ederken, küme problemlerinin gerçek hayattaki ne kadar çok alana uygulanabildiğini keşfettiler. Bu sayede, Kpss Kasabası'nda küme problemleri, sadece bir ders konusu olmaktan çıkıp, günlük hayatın bir parçası haline geldi.",
+    "key_points": [
+      "Birleşim ve kesişim formülleri yardımıyla problem çözümü",
+      "En az bir dil bilenler, sadece bir dil bilenler gibi Venn şeması uygulamaları",
+      "Gerçek hayat problemlerine kümelerin uygulanması"
+    ],
+    "type": "story",
+    "id": "story_1776013575351_0",
+    "createdAt": "2026-04-12T17:06:15.351Z",
+    "updatedAt": "2026-04-12T17:06:15.351Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:06:23.435Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_KUMELER_3.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 5: Kartezyen Çarpım ve Küme Sayma Problemleri",
+    "content": "Kpss Kasabası'nda matematik rüzgarları esmeye devam ediyordu. Ayşe Teyze, bu sefer daha da ilginç bir problemle geldi: 'Bir akşam yemeği menüsü hazırlayacağım. Üç farklı çorba ve iki farklı ana yemek seçeneğim var. Kaç farklı şekilde çorba ve ana yemek ikilisi oluşturabilirim?' diye sordu. Kasabalılar şaşkınlıkla birbirine baktı. Ali, 'Bu ne demek şimdi? Çorbaları ve ana yemekleri nasıl eşleştireceğiz?' diye düşündü.\n\nFatma, hemen atıldı: 'Ayşe Teyze, sen aslında bize sıralı ikililerden ve kartezyen çarpımdan bahsediyorsun! Her bir çorbayı, her bir ana yemekle ayrı ayrı eşleştirerek elde ettiğimiz tüm olası kombinasyonları saymalıyız. Mesela, 'Mercimek Çorbası - Tavuk Sote' bir sıralı ikili olur.' Ayşe Teyze başını salladı onaylarcasına. 'Evet, tam da bunu kastediyorum. Bu çarpımın eleman sayısı da zaten her bir kümenin eleman sayılarının çarpımına eşittir.'\n\nKasaba halkı, bu yeni kavramı öğrendikçe daha da heyecanlandı. Bir kıyafet seçerken farklı gömlek ve pantolon kombinasyonlarını, bir gezi planlarken farklı şehir ve ulaşım seçeneklerini düşünürken artık 'kartezyen çarpım' terimini kullanmaya başladılar. Daha ileri seviyede ise, bir anahtar kasasındaki şifre kombinasyonları gibi daha karmaşık sayma problemlerinde kombinasyon ve permütasyon ilişkisiyle birlikte kartezyen çarpımın gücünü keşfettiler. Böylece Kpss Kasabası'nda, matematik sadece soyut bir kavram değil, hayatın her alanında karşılaşılan pratik bir araç haline geldi.",
+    "key_points": [
+      "Sıralı ikili ve kartezyen çarpım tanımı",
+      "Kartezyen çarpımın özellikleri ve eleman sayısı",
+      "Kombinasyon ve permütasyon ilişkisi ile ileri seviye küme sayma uygulamaları"
+    ],
+    "type": "story",
+    "id": "story_1776013575351_1",
+    "createdAt": "2026-04-12T17:06:15.351Z",
+    "updatedAt": "2026-04-12T17:06:15.351Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:06:23.435Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_KUMELER_4.mp3?alt=media"
+  }
+]

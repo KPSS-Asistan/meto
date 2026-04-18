@@ -1,0 +1,902 @@
+[
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 1: Denklem Kavramına Giriş",
+    "content": [
+      {
+        "type": "text",
+        "text": "Denklem, içerisinde en az bir bilinmeyen bulunduran ve eşitlik bildiren matematiksel ifadelerdir. Değişkenler genellikle x, y veya z gibi harflerle temsil edilirken, sabit terimler değişmeyen sayısal değerlerdir. Eşitliğin her iki tarafına aynı işlemin uygulanması, denklemin dengesini korumak için temel kuraldır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Değişken: Değeri bilinmeyen veya değişebilen niceliklerdir.\n• Sabit Terim: Yanında değişken bulunmayan gerçek sayılardır.\n• Eşitlik İlkesi: Eşitliğin her iki yanına aynı sayı eklenebilir veya çıkarılabilir.\n• Terim: Toplama veya çıkarma işaretiyle ayrılan her bir ifade parçasıdır."
+      },
+      {
+        "type": "text",
+        "text": "Denklem çözme sürecinde amaç, değişkeni yalnız bırakarak değerini bulmaktır. Bu süreçte eşitliğin her iki tarafının aynı sayı ile çarpılması veya bölünmesi (sıfır hariç) denklemi bozmaz. KPSS sorularında bu temel prensiplere dayalı basit denklemler, genellikle diğer konuların ön koşulu olarak karşımıza çıkar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Eşitliğin bir tarafındaki terim, diğer tarafa geçerken işaret değiştirir; artı eksiye, eksi artıya dönüşür."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000637164_MAT__1",
+    "createdAt": "2026-04-12T13:30:37.164Z",
+    "updatedAt": "2026-04-12T13:30:37.164Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T13:30:58.007Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_0.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 2: Birinci Dereceden Bir Bilinmeyenli Denklemler",
+    "content": [
+      {
+        "type": "text",
+        "text": "Birinci dereceden denklemler, bilinmeyenin en büyük kuvvetinin 1 olduğu ifadelerdir. Çözüm kümesini bulmak için bilinmeyenleri bir tarafa, sabit sayıları diğer tarafa toplamak standart yöntemdir. İşlem önceliği kuralı, denklemin doğru çözümü için hayati önem taşır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Bilinmeyenler bir tarafa, sabitler diğer tarafa toplanır.\n• İşlem önceliğinde parantez içi, çarpma/bölme, toplama/çıkarma sırası izlenir.\n• Çözüm kümesi, denklemi sağlayan x değeridir.\n• Denklemi sağlayan değer bulunurken, değişkenin katsayısına her iki taraf bölünür."
+      },
+      {
+        "type": "text",
+        "text": "Denklemleri çözerken işlem sırasını doğru takip etmek, hatalı sonuçları engellemek için kritiktir. Özellikle negatif katsayılarla çalışırken işaret hatalarına karşı dikkatli olunmalıdır. KPSS sınavında bu konu, temel problem çözme becerisinin temelini oluşturur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Eğer değişkenler birbirini götürür ve geriye '0=0' gibi doğru bir ifade kalırsa çözüm kümesi tüm reel sayılardır; '0=5' gibi imkansız bir sonuç çıkarsa çözüm kümesi boş kümedir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000637165_MAT__2",
+    "createdAt": "2026-04-12T13:30:37.164Z",
+    "updatedAt": "2026-04-12T13:30:37.164Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T13:30:58.007Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_1.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 3: Denklemlerde Parantez ve Payda İşlemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Parantezli ifadeler içeren denklemlerde, çarpmanın toplama ve çıkarma üzerine dağılma özelliği kullanılır. Paydalı denklemlerde ise paydaları eşitlemek veya denklemin tüm terimlerini paydaların en küçük ortak katı ile çarpmak işleri kolaylaştırır. Bu adımlar, karmaşık görünen denklemleri daha yönetilebilir hale getirir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Dağılma özelliği: a(b+c) = ab + ac.\n• Negatif işaretli parantez açılırken içerdeki tüm işaretler değişir.\n• Payda eşitleme: Rasyonel ifadeleri toplayabilmek için paydalar aynı sayıya genişletilir.\n• Paydalardan kurtulma: Tüm denklemi ortak kat ile çarparak tam sayılı denkleme dönüştürme."
+      },
+      {
+        "type": "text",
+        "text": "Özellikle eksi işaretli parantezlerin önündeki eksiyi dağıtırken yapılan hatalar, KPSS adaylarının en sık yaptığı yanlışlardandır. Payda işlemlerinde ise her terimin genişletildiğinden emin olunmalıdır. Düzenli ve adım adım çözüm, bu tür sorularda başarıyı getiren anahtardır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Parantezin önündeki negatif işaret, parantez içindeki tüm terimlerin işaretini değiştirir; buna mutlaka dikkat edilmelidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000637166_MAT__3",
+    "createdAt": "2026-04-12T13:30:37.164Z",
+    "updatedAt": "2026-04-12T13:30:37.164Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T13:30:58.007Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_2.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 4: İki Bilinmeyenli Denklem Sistemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "İki bilinmeyenli denklem sistemleri, genellikle iki farklı değişkenin değerini bulmamızı gerektirir. Bu tür sistemleri çözmek için yok etme metodu veya yerine koyma metodu kullanılır. Yok etme metodunda, değişkenlerden birinin katsayıları zıt olacak şekilde denklemler uygun sayılarla genişletilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Yok etme metodu: Bir değişkeni katsayıları eşitleyerek yok et.\n• Yerine koyma metodu: Bir denklemden bir değişkeni çekip diğerinde yaz.\n• Sistem çözümü: Her iki denklemi de sağlayan ortak bir (x, y) ikilisi arıyoruz.\n• Kontrol: Bulunan değerleri her iki denklemde yerine koyarak doğrula."
+      },
+      {
+        "type": "text",
+        "text": "Yerine koyma metodu, özellikle değişkenlerden birinin katsayısı 1 veya -1 olduğunda oldukça pratiktir. KPSS sınavında sıkça karşılaşılan bu soru tipinde, hız kazanmak için her iki yönteme de aşina olmak gerekir. Hatalı işlem yapmamak için denklemleri alt alta yazmak her zaman daha güvenlidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Yok etme metodunda, değişkeni yok etmek için denklemleri taraf tarafa topladığınızda değişkenin katsayılarının toplamının sıfır olduğundan emin olun."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000637167_MAT__4",
+    "createdAt": "2026-04-12T13:30:37.164Z",
+    "updatedAt": "2026-04-12T13:30:37.164Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T13:30:58.007Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_3.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 5: Rasyonel Denklemler ve Tanımsızlık Durumları",
+    "content": [
+      {
+        "type": "text",
+        "text": "Rasyonel denklemler, bilinmeyenin paydada bulunduğu ifadelerdir. Bu denklemleri çözerken paydanın sıfır olamayacağı kuralı unutulmamalıdır, aksi takdirde ifade tanımsız olur. İçler dışlar çarpımı, bu denklemlerin çözümünde yaygın kullanılan etkili bir yöntemdir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Paydayı sıfır yapan değer, çözüm kümesine dahil edilemez.\n• İçler dışlar çarpımı: a/b = c/d ise a.d = b.c.\n• Tanımsızlık: Matematikte paydanın sıfır olması durumu.\n• Çözüm kontrolü: Bulunan sonucun paydayı sıfırlayıp sıfırlamadığını mutlaka kontrol et."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavında bazen çözüm kümesini bulduktan sonra, bulunan sonucun paydayı sıfırlayıp sıfırlamadığına dair çeldirici sorular gelebilir. Her zaman bulduğunuz değeri orijinal denklemde kontrol etmek sizi puan kaybından koruyacaktır. Bu dikkat, matematiksel doğruluğun bir parçasıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Bir rasyonel denklemde payda sıfır olamaz; bu nedenle bulduğunuz kök paydayı sıfır yapıyorsa, o kök çözüm kümesine alınmaz."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000637168_MAT__5",
+    "createdAt": "2026-04-12T13:30:37.164Z",
+    "updatedAt": "2026-04-12T13:30:37.164Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T13:30:58.007Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_4.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 6: Sayı Problemleri - Temel Kurulum",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sayı problemleri, sözel ifadelerin matematiksel modellere dönüştürülmesini gerektiren sorulardır. Başarılı bir çözüm için, problemin dikkatlice okunması ve bilinmeyenlerin doğru atanması gerekir. "
+      },
+      {
+        "type": "bulletList",
+        "text": "• Bir sayının 2 katı: 2x\n• Bir sayının 3 eksiği: x-3\n• Bir sayının yarısının 5 fazlası: x/2 + 5\n• İki sayının toplamı: x+y"
+      },
+      {
+        "type": "text",
+        "text": "Sözel ifadeleri denkleme dökerken, kelimelerin matematiksel karşılıklarını iyi bilmek gerekir. Örneğin, 'fazlası' toplama, 'katı' çarpma işlemiyle ilgilidir. KPSS adaylarının bu aşamayı çok hızlı ve hatasız yapmaları, problem çözme hızlarını doğrudan etkiler."
+      },
+      {
+        "type": "highlighted",
+        "text": "Problemdeki 'bir sayının...' ifadesi genellikle x ile temsil edilir; 'ardışık iki sayının toplamı' gibi ifadelerde ise x ve x+1 değişkenlerini kullanmak işi kolaylaştırır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000637169_MAT__6",
+    "createdAt": "2026-04-12T13:30:37.164Z",
+    "updatedAt": "2026-04-12T13:30:37.164Z",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T13:30:58.007Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_5.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 7: Ardışık Sayı Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Ardışık sayılar, belirli bir kurala göre art arda gelen sayılardır. Ardışık tam sayılar birer birer artarken, ardışık tek veya çift sayılar ikişer ikişer artar. Bu kuralları doğru modellemek, problemin çözümünü oldukça basitleştirir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Ardışık tam sayılar: x, x+1, x+2...\n• Ardışık çift sayılar: 2n, 2n+2, 2n+4...\n• Ardışık tek sayılar: 2n-1, 2n+1, 2n+3...\n• Ardışık sayıların toplamı: (Terim Sayısı / 2) * (İlk Terim + Son Terim)"
+      },
+      {
+        "type": "text",
+        "text": "KPSS sorularında ardışık sayıların toplamı ile ilgili pratik formüller, zaman kazandırıcıdır. Özellikle 'n tane ardışık sayının toplamı' verildiğinde, ortanca terimi bularak veya toplam formülünü kullanarak bilinmeyene ulaşmak mümkündür. Pratik yapmak, bu formüllerin hafızaya yerleşmesini sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Ardışık tek ve çift sayılar arasındaki fark her zaman 2'dir; bu yüzden denklemi kurarken x, x+2, x+4 şeklinde ilerlemek en mantıklısıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000637170_MAT__7",
+    "createdAt": "2026-04-12T13:30:37.164Z",
+    "updatedAt": "2026-04-12T13:30:37.164Z",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T13:30:58.007Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_6.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 8: Kesir Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kesir problemleri, bir bütünün parçaları arasındaki ilişkiyi inceler. Bu tür problemlerde, bütünü temsil etmek için genellikle paydaların ortak katı olan bir sayı seçilir. Bu strateji, kesirli sayılarla uğraşmak yerine tam sayılarla işlem yapmanızı sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Bütüne değer verme: Paydaların çarpımı veya EKOK'u tercih edilir.\n• Parçadan bütüne: Bir kısmı verilen değerden bütüne ulaşma.\n• Bütünün kesrini alma: x sayısının a/b'si için x * (a/b) işlemi yapılır.\n• Kalanın kesri: 'Kalanın 1/3'ü' dendiğinde, önce kalan bulunur sonra işlem yapılır."
+      },
+      {
+        "type": "text",
+        "text": "Kesir problemlerinde 'kalanın' ifadesi çok önemlidir; bu ifade atlandığında sonuç yanlış çıkar. KPSS adayları, 'paranın 1/3'ü' ile 'paranın kalanının 1/3'ü' arasındaki büyük farkı mutlaka ayırt etmelidir. Dikkatli okuma, bu konunun başarısındaki ana unsurdur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Problemlerde 'kalanın' ifadesi geçtiği her yerde, işlemin o anki güncel bakiye üzerinden yürütülmesi gerektiğini unutmayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000637171_MAT__8",
+    "createdAt": "2026-04-12T13:30:37.164Z",
+    "updatedAt": "2026-04-12T13:30:37.164Z",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T13:30:58.007Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_7.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 9: Yaş Problemleri - Temel Mantık",
+    "content": [
+      {
+        "type": "text",
+        "text": "Yaş problemleri, değişkenler arasındaki doğrusal ilişkiye dayanan temel matematiksel modelleme sorularıdır. İki kişi arasındaki yaş farkı zaman geçse de asla değişmez ve sabit kalır. Bu temel prensip, yaş problemlerinin çözümünde en kritik başlangıç noktasıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İki kişi arasındaki yaş farkı her zaman sabittir.\n• n yıl sonra herkesin yaşı n kadar artar.\n• n yıl önce herkesin yaşı n kadar azalır.\n• Yaşlar toplamı, kişi sayısına bağlı olarak değişim gösterir."
+      },
+      {
+        "type": "text",
+        "text": "Yaşlar oranı ise zamanla değişen bir değişkendir, bu nedenle oran sorularında yaşların güncel değerlerini bulmak önemlidir. Denklem kurarken genellikle bugünkü yaşları x ve y gibi değişkenlerle ifade etmek çözüm sürecini hızlandırır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kritik Bilgi: x yıl sonra yaşlar toplamı (A + B + 2x) şeklinde artar, yani kişi sayısı kadar katlanarak artış gösterir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000658007_MAT__9",
+    "createdAt": "2026-04-12T13:30:58.007Z",
+    "updatedAt": "2026-04-12T13:30:58.007Z",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T13:31:17.228Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_8.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 10: İleri Seviye Yaş Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "İleri seviye yaş problemleri, genellikle üç veya daha fazla kişinin yaşlarının birbirine oranlanması veya geçmiş ile gelecek zaman dilimlerinin bir arada kullanılmasıyla oluşturulur. Bu sorularda tablo yöntemi kullanmak karmaşık bilgileri düzenli hale getirir. Geçmiş, bugün ve gelecek sütunları ile kişi satırları hatasız denklemler kurmanıza yardımcı olur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Birden fazla kişinin yaş ilişkisi tablo ile gösterilmelidir.\n• 'x yıl önce' ve 'y yıl sonra' ifadeleri bağımsız değişkenler gibi düşünülmelidir.\n• Yaşların oranı sorulduğunda, bulunan yaşların oranlanması unutulmamalıdır.\n• Denklemler kurulurken zaman farklarına dikkat edilmelidir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavlarında çıkan yaş problemleri genellikle bir kişinin yaşının diğerinin yaşının katı olması veya yaş farklarının bir orana eşitlenmesi üzerine kuruludur. Sabit fark prensibini kullanarak bilinmeyenleri tek bir değişkene indirgemek hız kazandırır."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Bir kişinin bugünkü yaşı x ise, a yıl sonraki yaşı ile b yıl önceki yaşının toplamı 2x + a - b formülüyle ifade edilir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000658008_MAT__10",
+    "createdAt": "2026-04-12T13:30:58.007Z",
+    "updatedAt": "2026-04-12T13:30:58.007Z",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T13:31:17.228Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_9.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 11: İşçi ve Havuz Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "İşçi problemleri, bir işin bitirilme süresi ile işçi kapasitesi arasındaki ters orantıya dayanır. Bir işçi işin tamamını t sürede bitiriyorsa, birim zamanda (1 saatte veya 1 günde) işin 1/t kadarını yapar. Bu temel mantık, tüm işçi problemlerinde ortak çözüm yöntemidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Birim zamanda yapılan iş miktarı (1/t) esastır.\n• İşçi sayısı arttıkça süre kısalır (ters orantı).\n• Kapasite (hız) arttıkça süre kısalır.\n• İşin tamamı 1 olarak kabul edilerek denklem kurulur."
+      },
+      {
+        "type": "text",
+        "text": "İşçi problemlerinde farklı kapasitedeki işçilerin birlikte çalışması durumunda, her birinin birim zamandaki iş miktarları toplanarak ortak bir denklem oluşturulur. Problemin çözümü için ortak çalışma süresine t denilerek (1/t1 + 1/t2) * t = 1 formülü kullanılır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: İşçi sayısı ile süre arasındaki ilişki ters orantılıdır, bu nedenle işçi sayısı iki katına çıkarsa süre yarıya iner."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000658009_MAT__11",
+    "createdAt": "2026-04-12T13:30:58.007Z",
+    "updatedAt": "2026-04-12T13:30:58.007Z",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T13:31:17.228Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_10.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 12: Havuz Problemlerinde Musluk Kapasiteleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Havuz problemleri, işçi problemlerinin bir alt dalı olup dolduran ve boşaltan musluklar arasındaki etkileşimi inceler. Dolduran musluklar işe pozitif katkı sağlarken, boşaltan musluklar negatif katkı sağlar. Havuzun tamamı doldurulduğunda denklem sonucu 1'e eşitlenir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Dolduran musluklar 1/t ile toplanır.\n• Boşaltan musluklar 1/t ile çıkarılır.\n• Havuzun bir kısmı doluysa başlangıçtaki miktar hesaba katılır.\n• Muslukların kapasitesi farklıysa oranlama yapılarak süre bulunur."
+      },
+      {
+        "type": "text",
+        "text": "Havuzun tabanındaki bir deliğin boşaltma süresi, muslukların toplam kapasitesinden çıkarılarak net dolum süresi bulunur. Sınavlarda genellikle muslukların çalışma sürelerinin farklı olduğu karmaşık senaryolarla karşılaşılır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Havuzun tamamı boşken dolduran musluklar pozitif, boşaltanlar negatif etki eder; eğer havuz doluysa boşaltan musluklar için denklem ayrı kurulmalıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000658010_MAT__12",
+    "createdAt": "2026-04-12T13:30:58.007Z",
+    "updatedAt": "2026-04-12T13:30:58.007Z",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T13:31:17.228Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_11.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 13: Hareket Problemleri - Temel Denklemler",
+    "content": [
+      {
+        "type": "text",
+        "text": "Hareket problemleri, fiziksel temel olan 'Yol = Hız x Zaman' formülü etrafında şekillenir. Birimlerin tutarlılığı, bu bölümdeki en yaygın hata kaynağıdır; kilometre ve saat, metre ve saniye uyumu mutlaka kontrol edilmelidir. Hızın sabit olduğu varsayılan durumlarda basit doğrusal denklemler kullanılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Yol = Hız x Zaman (x = v.t).\n• Birim dönüşümlerine dikkat edilmeli (km/sa -> m/sn).\n• Hız birimleri aynı türden ifade edilmeli.\n• Zaman birimleri aynı türden olmalı."
+      },
+      {
+        "type": "text",
+        "text": "Hareket problemlerinde grafik okuma becerisi de ön plandadır; yol-zaman grafiklerinde eğim hızı verir. Sabit hızla hareket eden araçların konumları arasındaki fark, hız farkı ile zamanın çarpımına eşittir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli Kural: Hız birimi km/sa ise, zaman saat, yol ise km cinsinden olmalıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000658011_MAT__13",
+    "createdAt": "2026-04-12T13:30:58.007Z",
+    "updatedAt": "2026-04-12T13:30:58.007Z",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T13:31:17.228Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_12.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 14: Hareket Problemleri - Karşılaşma ve Yetişme",
+    "content": [
+      {
+        "type": "text",
+        "text": "Hareketli nesnelerin birbirine göre hareketleri iki ana başlıkta incelenir: zıt yönlü hareket ve aynı yönlü hareket. Zıt yönlü harekette hızlar toplanırken, aynı yönlü harekette hız farkı alınır. Karşılaşma süresi, aradaki toplam mesafenin bağıl hıza bölünmesiyle bulunur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Zıt yönlü hareketlerde hızlar toplanır (v1 + v2).\n• Aynı yönlü hareketlerde hızlar çıkarılır (v1 - v2).\n• Yetişme süresi = Aradaki mesafe / Hız farkı.\n• Karşılaşma süresi = Toplam yol / Toplam hız."
+      },
+      {
+        "type": "text",
+        "text": "Yetişme problemlerinde hızlı olan aracın yavaş olanı yakalaması için aradaki mesafeyi hız farkıyla kapatması gerekir. KPSS'de sıkça sorulan dairesel pist sorularında da benzer mantık yürütülür; tur bindirme durumunda aradaki mesafe pistin uzunluğuna eşittir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: Aynı yönlü hareketlerde yetişme gerçekleşmesi için arkadaki aracın hızının öndekinden büyük olması şarttır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000658012_MAT__14",
+    "createdAt": "2026-04-12T13:30:58.007Z",
+    "updatedAt": "2026-04-12T13:30:58.007Z",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T13:31:17.228Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_13.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 15: Tren ve Tünel Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Tren ve tünel problemleri, hareketli bir nesnenin boyunun hesaba katılması gereken özel durumlardır. Trenin bir tüneli tamamen geçmesi, kendi boyu ile tünelin boyunun toplamı kadar yol alması demektir. Formülde yol kısmı (Tren Boyu + Tünel Boyu) olarak alınmalıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Trenin geçtiği toplam yol = Tren boyu + Tünel boyu.\n• Bir direği geçme süresi sadece trenin boyu ile hesaplanır.\n• İki trenin birbirini geçmesi durumunda boylar toplanır.\n• Boylar her zaman metre, hızlar km/sa ise dönüşüm yapılmalıdır."
+      },
+      {
+        "type": "text",
+        "text": "Trenin bir noktayı (direk, ağaç) geçmesi ile bir tüneli geçmesi arasındaki fark, alınan yolun uzunluğudur. Trenin hızı v, boyu L1, tünel boyu L2 ise geçiş süresi t = (L1 + L2) / v formülüyle bulunur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kritik İpucu: Trenin bir gözlemciyi geçmesi, trenin kendi boyu kadar yol almasıyla eşdeğerdir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000658013_MAT__15",
+    "createdAt": "2026-04-12T13:30:58.007Z",
+    "updatedAt": "2026-04-12T13:30:58.007Z",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T13:31:17.228Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_14.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 16: Ortalama Hız Kavramı",
+    "content": [
+      {
+        "type": "text",
+        "text": "Ortalama hız, yolculuğun tamamındaki toplam yolun toplam zamana oranlanmasıyla elde edilen bir değerdir. Hızların aritmetik ortalaması, ortalama hızı vermez; bu çok yaygın bir yanılgıdır. Doğru hesaplama için her bir parçadaki yol ve zaman ayrı ayrı bulunmalıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Ortalama Hız = Toplam Yol / Toplam Zaman.\n• Hızların aritmetik ortalaması asla alınmaz.\n• V_ort = (2 * v1 * v2) / (v1 + v2) formülü sadece eşit yollar için geçerlidir.\n• Farklı yollar için genel tanım kullanılmalıdır."
+      },
+      {
+        "type": "text",
+        "text": "Eşit mesafeli iki yolun farklı hızlarla gidildiği durumlarda harmonik ortalama formülü pratik bir çözüm sağlar. Ancak yol uzunlukları farklı ise mutlaka toplam yol ve toplam zaman prensibine dönülmelidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Uyarı: Ortalama hız sorulduğunda, hızların ortalamasını almak yerine toplam mesafeyi ve toplam süreyi bulmaya odaklanın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000658014_MAT__16",
+    "createdAt": "2026-04-12T13:30:58.007Z",
+    "updatedAt": "2026-04-12T13:30:58.007Z",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T13:31:17.228Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_15.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 17: Yüzde Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Yüzde problemleri, bir bütünün belirli bir kısmını 100 payda üzerinden ifade etme esasına dayanır. KPSS sınavında sıklıkla karşımıza çıkan bu sorularda, oran-orantı mantığı temel araç olarak kullanılır. Değişkenleri 100x olarak seçmek, işlemleri sadeleştirmek adına büyük kolaylık sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Bir sayının %a'sı bulunurken sayı a/100 ile çarpılır.\n• Bir sayının %a artırılması sayıyı (1 + a/100) ile çarpmak demektir.\n• Bir sayının %a azaltılması sayıyı (1 - a/100) ile çarpmak demektir.\n• Yüzde problemlerinde başlangıç değeri bilinmiyorsa 100x değeri vermek işlem hızını artırır."
+      },
+      {
+        "type": "text",
+        "text": "Artış ve azalış oranları hesaplanırken daima başlangıç değeri baz alınmalıdır. Bir değerin önce %20 artıp sonra %20 azalması, sonucun başlangıç değerinden küçük çıkmasına neden olur. Bu durum yüzdelerin ardışık uygulanmasındaki kritik bir noktadır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Yüzde problemlerinde 'neye göre' sorusu sorulmalıdır; artış veya azalış daima ilk duruma göre hesaplanır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000677229_MAT__17",
+    "createdAt": "2026-04-12T13:31:17.229Z",
+    "updatedAt": "2026-04-12T13:31:17.229Z",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T13:31:36.919Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_16.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 18: Kar ve Zarar Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kar ve zarar problemleri, ticaret hayatındaki maliyet-satış dengesini matematiksel denklemlere döker. Temel denklem, satış fiyatının maliyet fiyatı ile karın toplamına eşit olmasıdır. Zarar durumunda ise maliyetten satış fiyatı çıkarılarak zarar miktarı bulunur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Satış Fiyatı = Maliyet + Kar\n• Satış Fiyatı = Maliyet - Zarar\n• Kar marjı daima maliyet fiyatı üzerinden hesaplanır.\n• Etiket fiyatı, ürünün üzerine yazılan satış fiyatıdır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sorularında genellikle maliyet fiyatı 100x olarak belirlenerek işlem yapılır. Satış üzerinden kar hesaplaması istendiğinde, paydanın satış fiyatı olması gerektiğine dikkat edilmelidir. Bu ayrım, sınavda çeldirici olarak sıkça sorulmaktadır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kritik Bilgi: Kar veya zarar oranı sorulduğunda, payda her zaman maliyet fiyatıdır, satış fiyatı değildir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000677230_MAT__18",
+    "createdAt": "2026-04-12T13:31:17.229Z",
+    "updatedAt": "2026-04-12T13:31:17.229Z",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T13:31:36.919Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_17.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 19: İndirim ve Zam Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "İndirim ve zam problemleri, etiket fiyatı üzerinden gerçekleştirilen yüzdesel değişimleri konu alır. Ardışık zam veya indirimlerde, her yeni işlem bir önceki işlemden elde edilen güncel fiyat üzerinden yapılır. Bu durum, doğrudan toplama çıkarma yapmanın hatalı sonuç vereceğini gösterir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Zam, etiket fiyatını artırırken indirim azaltır.\n• Ardışık değişimlerde 100 üzerinden adım adım ilerlemek hata payını düşürür.\n• İndirimli fiyat = Etiket Fiyatı * (1 - indirim oranı/100).\n• Zamlı fiyat = Etiket Fiyatı * (1 + zam oranı/100)."
+      },
+      {
+        "type": "text",
+        "text": "Özellikle iki aşamalı indirim veya zam sorulduğunda, toplam değişim oranı tek bir işlemle bulunabilir. Ancak sınavlarda adım adım ilerlemek, işlem sırasındaki olası hataları minimize etmek için daha güvenli bir yöntemdir. Etiket fiyatı üzerinden yapılan indirim, maliyeti değil satış fiyatını etkiler."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: Ardışık yapılan %20 zam ve %20 indirim, ürünün fiyatını %4 azaltır, sabit bırakmaz."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000677231_MAT__19",
+    "createdAt": "2026-04-12T13:31:17.229Z",
+    "updatedAt": "2026-04-12T13:31:17.229Z",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T13:31:36.919Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_18.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 20: Faiz Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Faiz problemleri, paranın belirli bir süre sonunda getirdiği kazancı ifade eder. Basit faiz formülü, ana para, faiz oranı ve süre arasındaki doğrusal ilişkiyi temel alır. KPSS müfredatında genellikle yıllık veya aylık faiz hesaplamaları üzerinden sorular sorulmaktadır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Yıllık faiz formülü: F = (A * n * t) / 100\n• Aylık faiz formülü: F = (A * n * t) / 1200\n• Günlük faiz formülü: F = (A * n * t) / 36000\n• 'A' ana parayı, 'n' faiz yüzdesini, 't' süreyi temsil eder."
+      },
+      {
+        "type": "text",
+        "text": "Faiz problemlerinde zaman birimi ile formülün paydasındaki sabit sayı uyumlu olmalıdır. Yıl bazında hesaplama yapılırken 100, ay bazında 1200 ve gün bazında 36000 rakamları kullanılır. Soruda verilen zaman birimine dikkat etmek, formülün hatalı uygulanmasını engeller."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Faiz problemlerinde ana para, faiz oranı ve zaman birimlerinin aynı zaman dilimine göre ayarlandığından emin olun."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000677232_MAT__20",
+    "createdAt": "2026-04-12T13:31:17.229Z",
+    "updatedAt": "2026-04-12T13:31:17.229Z",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T13:31:36.919Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_19.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 21: Karışım Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Karışım problemleri, farklı oranlara sahip maddelerin birleştirilmesi sonucunda oluşan yeni karışımın yüzdesini bulmaya yöneliktir. Temel mantık, karışımdaki saf madde miktarının toplam karışıma oranlanmasıdır. Bu denklemler genellikle ağırlık esaslı olarak kurulur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Karışım Yüzdesi = (Saf Madde Miktarı / Toplam Karışım) * 100\n• Saf madde miktarı = Karışım miktarı * (Yüzde / 100)\n• Farklı yüzdeli karışımlar için: (M1*Y1 + M2*Y2) = (M1+M2)*Yson\n• Karışım sorularında tablo veya şema kullanmak görselleştirme sağlar."
+      },
+      {
+        "type": "text",
+        "text": "Karışım problemlerinde her bir bileşenin katkısı ayrı ayrı hesaplanarak toplam karışıma eklenir. Saf madde miktarı toplamı, toplam ağırlığa bölündüğünde karışımın yeni yüzdesi elde edilir. Bu yöntem, KPSS problemlerinde standart ve en güvenilir yoldur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Karışım problemlerinde daima 'saf madde' üzerinden denklem kurmak hata payını sıfıra indirir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "hard",
+    "id": "exp_1776000677233_MAT__21",
+    "createdAt": "2026-04-12T13:31:17.229Z",
+    "updatedAt": "2026-04-12T13:31:17.229Z",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T13:31:36.919Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_20.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 22: Karışım Problemleri - Buharlaştırma ve İlave",
+    "content": [
+      {
+        "type": "text",
+        "text": "Karışıma dışarıdan madde eklenmesi veya mevcut karışımdan buharlaştırma yapılması, karışımın toplam miktarını ve derişimini değiştirir. Saf su eklendiğinde saf madde miktarı değişmezken, saf madde eklendiğinde toplam miktar ve saf madde miktarı aynı oranda artar. Buharlaştırma ise toplam miktarı azaltırken saf madde miktarını sabit tutar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Saf su eklenirse: Pay (saf madde) sabit kalır, payda (toplam) artar.\n• Saf madde eklenirse: Pay artar, payda artar.\n• Buharlaştırma yapılırsa: Pay sabit kalır, payda azalır.\n• Tuz veya şeker eklendiğinde bu madde %100 saf kabul edilir."
+      },
+      {
+        "type": "text",
+        "text": "Bu tarz sorularda, denklemde değişmeyen unsuru tespit etmek çözümün anahtarıdır. Örneğin, su buharlaştırılıyorsa, karışımdaki tuz miktarı değişmediği için tuz üzerinden denklem kurmak en hızlı yöntemdir. İşlem yaparken giren ve çıkan maddelerin yüzdelerini doğru belirlemek gerekir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kritik: Buharlaştırma işlemlerinde, buharlaşan kısmın içinde hiç saf madde (tuz/şeker) olmadığını unutmayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "hard",
+    "id": "exp_1776000677234_MAT__22",
+    "createdAt": "2026-04-12T13:31:17.229Z",
+    "updatedAt": "2026-04-12T13:31:17.229Z",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T13:31:36.919Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_21.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 23: Grafik Problemleri - Sütun ve Çizgi Grafiği",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sütun ve çizgi grafikleri, verilerin zaman içindeki değişimini veya kategorik karşılaştırmalarını görselleştirmek için kullanılır. Sütun grafikleri genellikle miktarlar arası kıyaslama yaparken, çizgi grafikleri periyodik değişimleri ve eğilimleri izlemek için tercih edilir. KPSS'de bu grafikler genellikle yorumlama ve hesaplama soruları ile birleştirilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sütun grafiğinde çubuk uzunlukları değerle doğru orantılıdır.\n• Çizgi grafiğinde eğim, değişimin hızı hakkında bilgi verir.\n• Grafik okumada eksenlerin neyi temsil ettiği iyi analiz edilmelidir.\n• Verilen değerlerin toplamına dikkat ederek oranlama yapılmalıdır."
+      },
+      {
+        "type": "text",
+        "text": "Grafik sorularını çözerken önce eksenlerin birimlerini ve ölçeklerini kontrol etmek gerekir. Özellikle artış hızı veya yüzde değişim sorulduğunda, iki veri noktası arasındaki farkı başlangıç değerine oranlayarak sonuca ulaşılır. Veri setindeki eksik bilgileri tamamlamak için denklemlerden yararlanılabilir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Grafik sorularında sadece görünen değere odaklanmayın, veriler arasındaki matematiksel ilişkiyi (oran/yüzde) kurun."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000677235_MAT__23",
+    "createdAt": "2026-04-12T13:31:17.229Z",
+    "updatedAt": "2026-04-12T13:31:17.229Z",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T13:31:36.919Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_22.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 24: Grafik Problemleri - Daire Grafiği",
+    "content": [
+      {
+        "type": "text",
+        "text": "Daire grafiği, bir bütünün parçalarını 360 derecelik bir daire dilimi içinde gösterir. Dairenin tamamı %100'e karşılık gelirken, her bir dilim merkez açısı ile orantılıdır. KPSS sınavında daire grafiği soruları, derece-yüzde-miktar dönüşümleri ile zenginleştirilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• 360 derece = %100 orana karşılık gelir.\n• 1 derece = %100 / 360 orana tekabül eder.\n• Dilim miktarı = (Dilim Açısı / 360) * Toplam Miktar.\n• Açılar arasında sadeleştirme yaparak işlem yükünü azaltın."
+      },
+      {
+        "type": "text",
+        "text": "Daire grafiğinde bir dilimin miktarını bulmak için açıların oranını kullanmak yeterlidir. Eğer toplam miktar verilmemişse, açılar arasındaki oranlardan yola çıkarak bilinmeyen değerler tahmin edilebilir veya denklem kurulabilir. Dilimler arası geçişlerde orantı kurmak en pratik yöntemdir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: Daire grafiği sorularında dereceyi yüzdelik dilime dönüştürmek, sorunun çözümünü büyük ölçüde kolaylaştırır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000677236_MAT__24",
+    "createdAt": "2026-04-12T13:31:17.229Z",
+    "updatedAt": "2026-04-12T13:31:17.229Z",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T13:31:36.919Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_23.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 25: Tablo Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Tablo problemleri, birden fazla değişkenin belirli kriterlere göre eşleştirilmesini gerektiren mantıksal analiz sorularıdır. Bu problemlerde değişkenler arası ilişkileri doğru kurmak, çözümün anahtarını oluşturur. KPSS sınavında veri analizi ve çıkarım yapma yeteneğini ölçmek amacıyla sıkça tercih edilen bir soru tipidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Değişkenleri satır ve sütunlara doğru yerleştirin.\n• Verilmeyen bilgileri mevcut verilerden yola çıkarak çıkarım yoluyla doldurun.\n• Kesin olmayan durumları olasılıklar bazında değerlendirin.\n• Tablodaki çapraz eşleşmeleri mutlaka kontrol edin.\n• Çok değişkenli problemlerde tabloyu sadeleştirerek çözüm yapın."
+      },
+      {
+        "type": "text",
+        "text": "Tablo oluştururken satır ve sütunların kesişim noktalarında hata yapmamak hayati önem taşır. Özellikle üçlü veya dörtlü değişken gruplarında tabloyu iki aşamalı olarak kurgulamak, hata payını minimize eder."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Eğer bir hücreye iki farklı değer atanamıyorsa, eleme yöntemiyle tek bir ihtimal kalana kadar seçenekleri daraltın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000696919_MAT__25",
+    "createdAt": "2026-04-12T13:31:36.919Z",
+    "updatedAt": "2026-04-12T13:31:36.919Z",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T13:31:47.591Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_24.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 26: Rutin Olmayan Problemler",
+    "content": [
+      {
+        "type": "text",
+        "text": "Rutin olmayan problemler, standart formüllerle çözülemeyen, daha çok mantık yürütme ve örüntü keşfi gerektiren sorulardır. Bu sorular öğrencinin yaratıcı düşünme ve problem çözme becerisini doğrudan ölçer. KPSS'de genellikle sınavın son kısımlarında yer alan ayırt edici sorulardır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Küçük sayılarla denemeler yaparak örüntü yakalayın.\n• Şekil ve sayı dizileri arasındaki mantıksal bağı bulun.\n• Problemi daha küçük alt parçalara bölerek basitleştirin.\n• Tersten giderek veya tümevarım yöntemini uygulayın.\n• Problemin kısıtlayıcı koşullarını belirleyerek odak noktasını daraltın."
+      },
+      {
+        "type": "text",
+        "text": "Bu tarz problemlerde en büyük hata, doğrudan formül aramaya çalışmaktır. Bunun yerine, sorunun sunduğu özel kısıtlamaları ve mantıksal çerçeveyi anlamak çözüme daha hızlı ulaştırır. Sabırlı bir analiz süreci, bu tip soruları çözmenin temelidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Rutin olmayan problemlerde zaman kaybını önlemek için, soruyu 2 dakika içinde çözemeyeceğinizi anladığınızda işaretleyip geçmeyi unutmayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "hard",
+    "id": "exp_1776000696920_MAT__26",
+    "createdAt": "2026-04-12T13:31:36.919Z",
+    "updatedAt": "2026-04-12T13:31:36.919Z",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T13:31:47.591Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_25.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 27: Sayfa Numarası ve Kuyruk Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sayfa numarası ve kuyruk problemleri, terim sayısı formülü ve sıra mantığının temel alındığı sorulardır. Bu problemlerde özellikle sıra başı ve sıra sonu ifadeleri, hesaplamayı doğrudan etkiler. KPSS sınavlarında sıkça sorulan, temel matematik okuryazarlığı gerektiren bir başlıktır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Terim sayısı = (Son Terim - İlk Terim) / Artış Miktarı + 1 formülünü kullanın.\n• Kuyruk sorularında 'kendisi' dahil mi hariç mi ayrımına dikkat edin.\n• Sıra sorularında (Baştan Sıra + Sondan Sıra - 1) formülünü uygulayın.\n• Sayfa numaralarında tek ve çift sayfaların dizilimine dikkat edin.\n• Toplam kişi sayısını bulurken çakışan noktaları çıkarın."
+      },
+      {
+        "type": "text",
+        "text": "Bu problemler genellikle 'bir kişi baştan n. sırada, sondan m. sırada' gibi kalıplarla gelir. Bu tip sorularda '1' sayısının neden çıkarıldığı veya eklendiğini anlamak, ezberden kurtulmanızı sağlar. Görselleştirme yapmak hata ihtimalini azaltır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Sıra sorularında 'iki kişi arasında x kişi var' ifadesi, bu kişilerin birbirine göre konumuna göre farklı sonuçlar doğurabilir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000696921_MAT__27",
+    "createdAt": "2026-04-12T13:31:36.919Z",
+    "updatedAt": "2026-04-12T13:31:36.919Z",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T13:31:47.591Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_26.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 28: Denklemlerde Parametrik Çözümler",
+    "content": [
+      {
+        "type": "text",
+        "text": "Parametrik çözümler, birden fazla bilinmeyenin birbirine bağlı olduğu denklemlerde pratik çözüm üretmeyi sağlar. Bilinmeyenleri tek bir 'k' sabiti cinsinden yazmak, denklemleri basitleştirir. KPSS'de oran-orantı ve denklem kurma problemlerinde sıklıkla karşımıza çıkar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Oranları 'k' sabiti ile eşitleyerek değişkenleri tek türden ifade edin.\n• Denklem sistemlerinde ortak çarpanları belirleyin.\n• Parametrik yazımda en küçük ortak katları kullanarak tamsayılarla çalışın.\n• Bilinmeyen sayısı denklem sayısından fazlaysa parametrik çözüm zorunludur.\n• Oran-orantı özelliklerini denkleme entegre edin."
+      },
+      {
+        "type": "text",
+        "text": "Parametrik çözüm yaklaşımı, özellikle yaş ve karışım problemlerinde işlemlerin karmaşıklaşmasını engeller. Değişkenleri 'k' türünden yazmak, çözümün tutarlılığını artırır. Bu yöntem, sınavda zaman yönetimi açısından büyük avantaj sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: 'k' sabitini kullanırken değişkenlerin pozitif tamsayı mı yoksa reel sayı mı olduğu şartını mutlaka kontrol edin."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000696922_MAT__28",
+    "createdAt": "2026-04-12T13:31:36.919Z",
+    "updatedAt": "2026-04-12T13:31:36.919Z",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T13:31:47.591Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_27.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 29: Problem Çözme Stratejileri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Problem çözme stratejileri, karmaşık soruların hızlı ve hatasız çözülmesini sağlayan teknikler bütünüdür. Tersine işlem yöntemi ve şıklardan gitme taktikleri, özellikle çoktan seçmeli sınavlarda kurtarıcıdır. Bu stratejiler KPSS adaylarının performansını doğrudan artıran yöntemlerdir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Tersine işlemde sonucu alıp başlangıç noktasına kadar işlemleri tersine alın.\n• Şıkları denerken en ortadaki değeri seçerek eleme yapın.\n• Denklemi kurmadan önce sorunun ne istediğine odaklanın.\n• Gereksiz verileri ayıklayarak problemi sadeleştirin.\n• Tahmin ve kontrol yöntemini son çare olarak kullanın."
+      },
+      {
+        "type": "text",
+        "text": "Tersine işlem yöntemi, özellikle sayı problemlerinde başlangıç değeri bilinmediğinde kullanılır. Şıklardan gitme stratejisi ise zamanın daraldığı anlarda etkili bir hız tekniğidir. Her iki yöntem de sınav stresi altında hata yapma riskini azaltır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Şıklardan gitme taktiğini kullanırken, şıkların büyüklük sırasına göre dizilmiş olması avantajını kullanmayı ihmal etmeyin."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000696923_MAT__29",
+    "createdAt": "2026-04-12T13:31:36.919Z",
+    "updatedAt": "2026-04-12T13:31:36.919Z",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T13:31:47.591Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_28.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "title": "Bölüm 30: Genel Değerlendirme ve Sınav Simülasyonu",
+    "content": [
+      {
+        "type": "text",
+        "text": "Genel değerlendirme bölümü, tüm problem türlerinin karma olarak çözüldüğü bir simülasyon aşamasıdır. Bu aşamada amaç, farklı soru tipleri arasında geçiş yaparken hız ve doğruluk dengesini korumaktır. KPSS sınav provası niteliğindeki bu çalışmalar, eksiklerinizi belirlemenize yardımcı olur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Karma sorularda çözüm stratejisini 10 saniye içinde belirleyin.\n• Zaman yönetimi için her soru başına ortalama 1.5 dakika hedefleyin.\n• Çözemediğiniz soruları işaretleyip hızla diğerine geçin.\n• Sınav simülasyonunda gerçek sınav ortamı sessizliğini sağlayın.\n• Hata yaptığınız soru tiplerini not ederek tekrar konu çalışması yapın."
+      },
+      {
+        "type": "text",
+        "text": "Sınav simülasyonu, sadece matematik bilginizi değil, aynı zamanda odaklanma sürenizi de test eder. Karma problemler, gerçek sınavın zorluk seviyesini yansıtan bir aynadır. Düzenli simülasyon, sınav anındaki stresi kontrol altına almanın en etkili yoludur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Simülasyon sonunda yaptığınız doğruları değil, boş bıraktığınız ve yanlış yaptığınız soruların çözüm yollarını öğrenmeye odaklanın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "hard",
+    "id": "exp_1776000696924_MAT__30",
+    "createdAt": "2026-04-12T13:31:36.919Z",
+    "updatedAt": "2026-04-12T13:31:36.919Z",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T13:31:47.591Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_DENKLEM_PROBLEMLER_29.mp3?alt=media"
+  }
+]

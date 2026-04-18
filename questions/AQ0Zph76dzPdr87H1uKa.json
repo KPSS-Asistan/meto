@@ -1,0 +1,2555 @@
+[
+  {
+    "id": "AQ0Zph76dzPdr87H1uKa_1",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "lessonId": "vatandaslik",
+    "q": "Kişilerin dış dünyaya yansıyan, hukuk tarafından kendilerine sonuç bağlanan irade açıklamalarına ne ad verilir?",
+    "o": [
+      "Hukuki Olay",
+      "Hukuki Fiil",
+      "Hukuki İşlem",
+      "Haksız Fiil",
+      "Sebepsiz Zenginleşme"
+    ],
+    "a": 2,
+    "e": "İrade açıklaması yoluyla bir veya birden çok kişinin hukuki sonuç doğurmaya yönelik işlemlerine hukuki işlem denir.",
+    "subtopicId": "hukukun-dallari",
+    "subtopic": "Hukukun Dalları",
+    "_part": 1
+  },
+  {
+    "id": "vat_001",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuki-yaptirimlar",
+    "subtopic": "Hukuki Yaptırımlar (Müeyyideler)",
+    "q": "Hukuk kurallarına aykırı bir işlemin, hukuk düzenince öngörülen kurucu unsurlara sahip olmaması nedeniyle, o işlemin hiç yapılmamış sayılmasına ne ad verilir?",
+    "o": [
+      "Mutlak Butlan",
+      "Nispi Butlan",
+      "Yokluk",
+      "Tek Taraflı Bağlamazlık",
+      "İptal"
+    ],
+    "a": 2,
+    "e": "Bir hukuki işlemin kurucu unsurlarının (örneğin evlilikte resmi memur) bulunmaması haline 'Yokluk' denir. İşlem hukuk aleminde hiç doğmamıştır. Mutlak butlanda ise işlem doğmuş ancak kamu düzenine aykırılık gibi sebeplerle geçersizdir.",
+    "_part": 2
+  },
+  {
+    "id": "vat_002",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-kaynaklari",
+    "subtopic": "Hukukun Kaynakları ve Normlar Hiyerarşisi",
+    "q": "Türk Medeni Kanunu'nun 1. maddesine göre, hakim önüne gelen bir uyuşmazlıkta uygulanacak yazılı bir hüküm bulamazsa öncelikle aşağıdakilerden hangisine başvurmalıdır?",
+    "o": [
+      "Bilimsel görüşlere (Doktrin)",
+      "Yargı kararlarına (İçtihat)",
+      "Hukuk yaratma yetkisine",
+      "Örf ve adet hukukuna",
+      "Uluslararası antlaşmalara"
+    ],
+    "a": 3,
+    "e": "TMK m.1'e göre; kanunda (yazılı kaynaklarda) hüküm yoksa hakim, örf ve adet hukukuna bakar. Orada da hüküm yoksa kendisi kanun koyucu gibi hareket ederek hukuk yaratır. Bilimsel görüşler ve yargı kararları ise yardımcı kaynaklardır, bağlayıcı değildir.",
+    "_part": 3
+  },
+  {
+    "id": "vat_003",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuk-boslugu",
+    "subtopic": "Hukukta Boşluk Türleri",
+    "q": "Bir somut olaya uygulanacak yazılı veya yazısız (örf ve adet) hiçbir hukuk kuralının bulunmaması durumuna ne ad verilir?",
+    "o": [
+      "Kural içi boşluk",
+      "Açık boşluk",
+      "Hukuk boşluğu",
+      "Kanun boşluğu",
+      "Örtülü boşluk"
+    ],
+    "a": 2,
+    "e": "Hem yazılı (kanun) hem de yazısız (örf ve adet) kaynaklarda hüküm bulunmaması durumu 'Hukuk Boşluğu'dur. Sadece yazılı kaynaklarda hüküm yoksa 'Kanun Boşluğu' olur. Hukuk boşluğunda hakim hukuk yaratır.",
+    "_part": 4
+  },
+  {
+    "id": "vat_004",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuk-kavramlari",
+    "subtopic": "Hukukun Çeşitli Anlamları",
+    "q": "Bir ülkede belli bir dönemde yürürlükte olan, yetkili makamlarca konulmuş yazılı hukuk kurallarının tamamına ne ad verilir?",
+    "o": [
+      "Pozitif Hukuk (Müspet Hukuk)",
+      "Mevzu Hukuk (Mevzuat)",
+      "Tabii Hukuk (Doğal Hukuk)",
+      "İdeal Hukuk",
+      "Tarihi Hukuk"
+    ],
+    "a": 1,
+    "e": "Sadece yetkili makamlarca konulan 'yazılı' kuralların tamamına 'Mevzu Hukuk' denir. Eğer tanımda yazılı ve yazısız (örf ve adet) kuralların tümü sorulsaydı cevap 'Pozitif Hukuk' olurdu.",
+    "_part": 5
+  },
+  {
+    "id": "vat_005",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "ehliyet-turleri",
+    "subtopic": "Fiil Ehliyeti ve Türleri",
+    "q": "Ayırt etme gücüne sahip, ergin olmuş ancak kendisine yasal danışman atanmış bir kişinin fiil ehliyeti bakımından sınıflandırılması aşağıdakilerden hangisidir?",
+    "o": [
+      "Tam ehliyetli",
+      "Tam ehliyetsiz",
+      "Sınırlı ehliyetsiz",
+      "Sınırlı ehliyetli",
+      "Kısıtlı"
+    ],
+    "a": 3,
+    "e": "Ayırt etme gücü olan ve ergin kişilere 'yasal danışman' atanması durumunda, bu kişiler 'Sınırlı Ehliyetli' grubuna girer. (Not: ÖSYM literatüründe bu grup bazen tartışmalı olsa da, kendisine yasal danışman atananlar ehliyetleri kısıtlanmadığı, sadece sınırlandığı için 'Sınırlı Ehliyetli' kategorisindedir. Tam ehliyetlilerden farkı, bazı işlemler için danışman onayı gerekmesidir.)",
+    "_part": 6
+  },
+  {
+    "id": "vat_006",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "haklarin-turleri",
+    "subtopic": "Hakların Sınıflandırılması",
+    "q": "Aşağıdakilerden hangisi kullanılmasıyla yeni bir hukuki durum yaratan, var olan durumu değiştiren veya sona erdiren 'Yenilik Doğuran (İnşai) Haklar'dan biri değildir?",
+    "o": [
+      "İstifa hakkı",
+      "Fesih hakkı",
+      "Kabul hakkı",
+      "Velayet hakkı",
+      "Azil hakkı"
+    ],
+    "a": 3,
+    "e": "Velayet hakkı, anne ve babanın ergin olmayan çocukları üzerindeki hak ve yükümlülüklerini ifade eder ve 'Alelad (Sıradan) Haklar' grubundadır; kullanıldıkça tükenmez. Diğer seçenekler (istifa, fesih, kabul, azil) kullanıldığında hukuki durumu değiştiren veya bitiren yenilik doğuran haklardır.",
+    "_part": 7
+  },
+  {
+    "id": "vat_007",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "iyiniyet-durustluk",
+    "subtopic": "Dürüstlük Kuralı ve İyiniyet",
+    "q": "I. Hakların kazanılmasında geçerlidir.\nII. Bir hakkın varlığı için gerekli unsurun eksikliğini bilmemek veya bilebilecek durumda olmamaktır.\nIII. Türk Medeni Kanunu'nun 3. maddesinde düzenlenmiştir.\n\nYukarıda özellikleri verilen hukuk ilkesi aşağıdakilerden hangisidir?",
+    "o": [
+      "Objektif İyiniyet (Dürüstlük Kuralı)",
+      "Subjektif İyiniyet",
+      "Hakkın Kötüye Kullanımı",
+      "Sözleşme Serbestisi",
+      "Kusursuz Sorumluluk"
+    ],
+    "a": 1,
+    "e": "Tanımlanan kavram 'Subjektif İyiniyet'tir. Hakların kazanılmasında (örneğin emin sıfatıyla zilyetten mal edinme) rol oynar ve TMK m.3'te düzenlenmiştir. Hakların kullanılmasında ve borçların ifasında ise 'Objektif İyiniyet' (Dürüstlük Kuralı - TMK m.2) geçerlidir.",
+    "_part": 8
+  },
+  {
+    "id": "vat_008",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "gaiplik",
+    "subtopic": "Kişiliğin Sona Ermesi ve Gaiplik",
+    "q": "Ölüm tehlikesi içinde kaybolan veya kendisinden uzun süredir haber alınamayan bir kişi hakkında gaiplik kararı verilebilmesi için, son haber tarihinden itibaren geçmesi gereken süreler sırasıyla aşağıdakilerden hangisinde doğru verilmiştir?",
+    "o": [
+      "1 yıl - 5 yıl",
+      "6 ay - 2 yıl",
+      "1 yıl - 3 yıl",
+      "5 yıl - 15 yıl",
+      "2 yıl - 10 yıl"
+    ],
+    "a": 0,
+    "e": "TMK'ya göre; ölüm tehlikesi içinde kaybolma durumunda bekleme süresi 1 yıl, kendisinden uzun süredir haber alınamama durumunda ise bekleme süresi 5 yıldır. Bu sürelerin sonunda mahkemeye başvurulabilir.",
+    "_part": 9
+  },
+  {
+    "id": "vat_009",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "haklarin-korunmasi",
+    "subtopic": "Hakların Korunması",
+    "q": "Bir kimsenin, kendisinin veya başkasının şahsına ya da malvarlığına yöneltilen, halen mevcut veya gerçekleşmesi muhakkak haksız bir saldırıyı defetmek amacıyla orantılı güç kullanmasına ne ad verilir?",
+    "o": [
+      "Iztırar Hali (Zorda Kalma)",
+      "Meşru Müdafaa (Haklı Savunma)",
+      "Kuvvet Kullanma",
+      "Hakkın Kötüye Kullanılması",
+      "Mücbir Sebep"
+    ],
+    "a": 1,
+    "e": "Tanım 'Meşru Müdafaa'ya (Haklı Savunma) aittir. Iztırar halinden farkı, meşru müdafaada bir 'saldırı' olmasıdır. Iztırar halinde ise bir tehlikeden kaçarken üçüncü bir kişinin malına zarar verilmesi söz konusudur.",
+    "_part": 10
+  },
+  {
+    "id": "vat_010",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "yerlesim-yeri",
+    "subtopic": "Yerleşim Yeri (İkametgah)",
+    "q": "Türk Medeni Kanunu'na göre yerleşim yeri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Bir kimsenin sürekli kalma niyetiyle oturduğu yerdir.",
+      "Bir kimsenin aynı anda birden çok yerleşim yeri olamaz (Teklik ilkesi).",
+      "Ticari ve sınai kuruluşlar için teklik ilkesi geçerli değildir.",
+      "Velayet altındaki çocuğun yerleşim yeri, anne ve babasının yerleşim yeridir.",
+      "Vesayet altındaki kişilerin yerleşim yeri, vasi olarak atanan kişinin yerleşim yeridir."
+    ],
+    "a": 4,
+    "e": "Vesayet altındaki kişilerin yerleşim yeri, vasinin ikametgahı değil, vesayet makamının (Sulh Hukuk Mahkemesi) bulunduğu yerdir. Diğer seçenekler doğrudur.",
+    "_part": 11
+  },
+  {
+    "id": "vat_011",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "sosyal-duzen-kurallari",
+    "subtopic": "Sosyal Düzen Kuralları",
+    "q": "Sosyal hayatı düzenleyen kurallar ile ilgili aşağıda verilen öncüllerden hangileri, devlet gücüne dayalı maddi bir yaptırıma sahip olmaları bakımından diğerlerinden ayrılır?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 1,
+    "e": "Sosyal hayatı düzenleyen kurallar; din, ahlak, görgü ve hukuk kurallarıdır. Din, ahlak ve görgü kurallarının yaptırımı (müeyyidesi) manevidir (ayıplama, günahkar sayılma, dışlanma vb.). Ancak hukuk kuralları, devlet gücüyle desteklenmiş olup uyulmadığında maddi yaptırım (ceza, cebri icra, tazminat vb.) uygulanır. Bu nedenle hukuk kuralları (II), maddi yaptırıma sahip olmasıyla diğerlerinden ayrılır. Doğru cevap Yalnız II'dir.",
+    "_part": 12
+  },
+  {
+    "id": "vat_012",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "mueyyideler",
+    "subtopic": "Hukuki Yaptırımlar",
+    "q": "Hukuki işlemin kurucu unsurlarından en az birinin eksik olması durumunda ortaya çıkan yaptırım türü aşağıdakilerden hangisidir?",
+    "o": [
+      "Mutlak Butlan",
+      "Nisbi Butlan",
+      "Yokluk",
+      "Tek Taraflı Bağlamazlık",
+      "İptal"
+    ],
+    "a": 2,
+    "e": "Bir hukuki işlemin kanunen var olabilmesi için gerekli olan kurucu unsurlardan (örneğin; evlilikte resmi memur veya iki ayrı cinsiyet) birinin veya tamamının eksik olması durumunda işlem hukuk aleminde hiç doğmamış sayılır. Bu duruma 'Yokluk' denir. Mutlak ve nisbi butlanda işlem doğmuştur ancak geçerlilik şartlarında sakatlık vardır. Yoklukta ise işlem hiç oluşmamıştır.",
+    "_part": 13
+  },
+  {
+    "id": "vat_013",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-kaynaklari",
+    "subtopic": "Hukukun Kaynakları",
+    "q": "Türk hukuk sisteminde hakimin karar verirken başvurmak zorunda olduğu bağlayıcı kaynaklar ve başvurabileceği yardımcı kaynaklar bulunmaktadır. Buna göre, aşağıdakilerden hangisi hakimi bağlayan 'asli' kaynaklardan biri değildir?",
+    "o": [
+      "Anayasa",
+      "Kanunlar",
+      "Cumhurbaşkanlığı Kararnameleri",
+      "Bilimsel Görüşler (Doktrin)",
+      "İçtihadı Birleştirme Kararları"
+    ],
+    "a": 3,
+    "e": "Hukukun kaynakları yazılı (asli), yazısız (tali) ve yardımcı kaynaklar olarak ayrılır. Anayasa, Kanun, CBK ve Yönetmelikler yazılı kaynaklardır ve bağlayıcıdır. Yüksek mahkemelerin 'İçtihadı Birleştirme Kararları' da kanun hükmünde olup bağlayıcıdır. Ancak Bilimsel Görüşler (Doktrin) ve Yargısal Kararlar (Sıradan mahkeme içtihatları) yardımcı kaynak statüsünde olup hakimi bağlayıcı nitelikte değildir; hakim bunlardan sadece faydalanabilir.",
+    "_part": 14
+  },
+  {
+    "id": "vat_014",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "ehliyet-kavrami",
+    "subtopic": "Hak ve Fiil Ehliyeti",
+    "q": "Medeni Kanun'a göre, bir kimsenin kendi fiilleriyle hak edinebilmesi ve borç altına girebilmesi için 'fiil ehliyetine' sahip olması gerekir. Aşağıdakilerden hangisi tam fiil ehliyetine sahip olmanın şartlarından biri değildir?",
+    "o": [
+      "Ergin olmak",
+      "Ayırt etme gücüne sahip olmak",
+      "Kısıtlı olmamak",
+      "Gerçek kişilik kazanmış olmak",
+      "Kamu hizmetinden yasaklı olmamak"
+    ],
+    "a": 4,
+    "e": "Fiil ehliyetinin üç temel şartı vardır: 1) Ergin (reşit) olmak, 2) Ayırt etme gücüne (temyiz kudretine) sahip olmak, 3) Kısıtlı (mahcur) olmamak. Gerçek kişilik kazanmak (tam ve sağ doğum) hak ehliyetinin başlangıcıdır ve fiil ehliyeti için ön koşuldur. Ancak 'Kamu hizmetinden yasaklı olmamak' ceza hukuku ile ilgili bir yaptırım sonucudur ve özel hukuktaki fiil ehliyetinin kurucu unsurlarından biri değildir.",
+    "_part": 15
+  },
+  {
+    "id": "vat_015",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuk-kurallarinin-nitelikleri",
+    "subtopic": "Hukuk Kurallarının Çeşitleri",
+    "q": "Tarafların aksini kararlaştırabildikleri, ancak bir şart belirtmedikleri durumlarda devreye giren ve boşluğu dolduran hukuk kurallarına ne ad verilir?",
+    "o": [
+      "Emredici hukuk kuralları",
+      "Tamamlayıcı hukuk kuralları",
+      "Yorumlayıcı hukuk kuralları",
+      "Tanımlayıcı hukuk kuralları",
+      "Yetki verici hukuk kuralları"
+    ],
+    "a": 1,
+    "e": "Tamamlayıcı hukuk kuralları, tarafların iradeleriyle aksini düzenleyebildikleri, ancak düzenlemedikleri takdirde kanunun öngördüğü hükmün uygulandığı kurallardır (Örneğin; faiz oranı belirlenmemişse yasal faizin uygulanması). Emredici kuralların aksine karar verilemez. Yorumlayıcı kurallar ise tarafların beyanlarındaki belirsiz kavramların ne anlama geldiğini açıklar.",
+    "_part": 16
+  },
+  {
+    "id": "vat_016",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-dallari",
+    "subtopic": "Kamu Hukuku - Özel Hukuk Ayrımı",
+    "q": "Aşağıdaki hukuk dallarından hangisi, taraflar arasındaki eşitlik ilkesine dayanan ve devletin üstün kamu gücünü kullanmadığı 'Özel Hukuk' dalları arasında yer alır?",
+    "o": [
+      "İdare Hukuku",
+      "Vergi Hukuku",
+      "Devletler Umumi Hukuku",
+      "Ticaret Hukuku",
+      "Ceza Hukuku"
+    ],
+    "a": 3,
+    "e": "Hukuk sistematiğinde; İdare, Vergi, Ceza ve Devletler Umumi Hukuku 'Kamu Hukuku' dallarıdır ve bu dallarda devlet üstün yetkilerle donatılmıştır. Ticaret Hukuku (Borçlar ve Medeni Hukuk gibi) ise 'Özel Hukuk' dalıdır. Özel hukukta taraflar (birey-birey veya devlet-birey) eşit statüdedir.",
+    "_part": 17
+  },
+  {
+    "id": "vat_017",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuki-olay-fiil-islem",
+    "subtopic": "Hukuki İşlemler",
+    "q": "Kişinin iradesini bir hukuki sonuç doğurmaya yönelik olarak açıklamasına 'hukuki işlem' denir. Buna göre, aşağıdakilerden hangisi tek taraflı bir hukuki işlem değildir?",
+    "o": [
+      "Vasiyetname düzenlemek",
+      "Mirasın reddi",
+      "Vakıf kurma işlemi",
+      "İstifa etmek",
+      "Satım sözleşmesi yapmak"
+    ],
+    "a": 4,
+    "e": "Hukuki işlemler irade açıklamasına katılan taraf sayısına göre tek taraflı ve çok taraflı olarak ayrılır. Vasiyetname, mirasın reddi, vakıf kurma (özgüleme) ve istifa tek bir kişinin irade beyanıyla hüküm doğurur. Ancak satım sözleşmesi, alıcı ve satıcı olmak üzere karşılıklı ve birbirine uygun iki irade beyanı gerektirdiği için çok taraflı bir hukuki işlemdir (sözleşmedir).",
+    "_part": 18
+  },
+  {
+    "id": "vat_018",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukta-bosluk",
+    "subtopic": "Hukuk ve Kanun Boşluğu",
+    "q": "Bir somut olaya uygulanacak yazılı (kanun) ve yazısız (örf ve adet) herhangi bir hukuk kuralının bulunmaması durumuna ne ad verilir ve hakim bu durumda ne yapar?",
+    "o": [
+      "Kanun boşluğu - Hakim takdir yetkisini kullanır",
+      "Kural içi boşluk - Hakim atıf yapar",
+      "Hukuk boşluğu - Hakim hukuk yaratır",
+      "Açık boşluk - Hakim kıyas yapar",
+      "Örtülü boşluk - Hakim amaçsal yorum yapar"
+    ],
+    "a": 2,
+    "e": "Eğer somut olaya uygulanacak yazılı bir hüküm yoksa 'Kanun Boşluçu' vardır. Hakim bu durumda örf ve adet hukukuna bakar. Eğer örf ve adet hukukunda da (yazısız kaynak) bir hüküm yoksa, bu duruma 'Hukuk Boşluğu' denir. Medeni Kanun madde 1'e göre hakim, hukuk boşluğu durumunda 'kendisi kanun koyucu olsaydı nasıl bir kural koyacak idiyse ona göre' karar verir, yani Hukuk Yaratır.",
+    "_part": 19
+  },
+  {
+    "id": "vat_019",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "kisilik-kavrami",
+    "subtopic": "Kişiliğin Başlangıcı ve Sonu",
+    "q": "I. Gaiplik kararı\nII. Ölüm karinesi\nIII. Ölüm\n\nYukarıdakilerden hangileri, mahkeme kararına gerek kalmaksızın kişiliği kendiliğinden sona erdiren hallerdendir?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "Yalnız III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 3,
+    "e": "Gerçek kişiliği sona erdiren hukuki olay 'Ölüm'dür (III) ve mahkeme kararına gerek olmaksızın kişiliği sona erdirir. 'Ölüm karinesi' (II) de ceset bulunamamasına rağmen ölümüne kesin gözle bakılan hallerde mülki amirin emriyle kütüğe ölü kaydı düşülmesidir, mahkeme kararı gerektirmez. Ancak soru kökü 'kendiliğinden' ifadesini içerse de hukuk tekniği açısından ölüm karinesi idari bir işlem gerektirir, ölüm ise biyolojik bir olaydır. ÖSYM formatında en net ayrım şudur: Gaiplik (I) mahkeme kararı gerektirir. Ölüm (III) ve Ölüm Karinesi (II) mahkeme kararı gerektirmez. Ancak sorunun kurgusu 'hukuki durumun kendiliğinden değişmesi' üzerine ise; Ölüm ve Ölüm karinesi mahkemesizdir. Gaiplik mahkemelidir. Cevap anahtarı kurgusu: Ölüm ve Ölüm karinesi mahkemesizdir. Doğru seçenek II ve III olmalıdır. Düzeltme: Soruda 'mahkeme kararına gerek kalmaksızın' denildiği için hem ölüm hem de ölüm karinesi (mülki amir kararı yeterlidir, mahkeme gerekmez) bu kapsama girer.",
+    "_part": 20
+  },
+  {
+    "id": "vat_020",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "haklarin-siniflandirilmasi",
+    "subtopic": "Yenilik Doğuran Haklar",
+    "q": "Kullanılmasıyla birlikte var olan hukuki durumu değiştiren, sona erdiren veya yeni bir hukuki durum yaratan haklara 'yenilik doğuran (inşai) haklar' denir. Aşağıdakilerden hangisi 'bozucu' yenilik doğuran bir haktır?",
+    "o": [
+      "Alım hakkı (İştira)",
+      "Önalım hakkı (Şufa)",
+      "Fesih hakkı",
+      "Ayıplı malın değiştirilmesini isteme hakkı",
+      "Kabul beyanı"
+    ],
+    "a": 2,
+    "e": "Yenilik doğuran haklar üç tiptir: 1) Kurucu (örn: kabul, alım), 2) Değiştirici (örn: ayıplı malda indirim veya değişim isteme), 3) Bozucu (örn: fesih, istifa, azil). Fesih hakkı, mevcut bir sözleşme ilişkisini sona erdirdiği için 'bozucu' yenilik doğuran haktır. Alım ve önalım kurucu; malın değiştirilmesi ise değiştirici yenilik doğuran haktır.",
+    "_part": 21
+  },
+  {
+    "id": "vat_021",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "sosyal-duzen-kurallari",
+    "subtopic": "Sosyal Düzen Kuralları ve Müeyyideler",
+    "q": "Sosyal hayatı düzenleyen kurallar ile bu kurallara uyulmaması durumunda karşılaşılan yaptırım türleri arasındaki ilişki düşünüldüğünde, aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+    "o": [
+      "Din Kuralları - Manevi Yaptırım",
+      "Hukuk Kuralları - Maddi Yaptırım",
+      "Ahlak Kuralları - Manevi Yaptırım",
+      "Görgü Kuralları - Maddi Yaptırım",
+      "Örf ve Adet Kuralları (Hukukileşmemiş) - Manevi Yaptırım"
+    ],
+    "a": 3,
+    "e": "Sosyal düzen kuralları; din, ahlak, görgü ve hukuk kuralları olmak üzere dörde ayrılır. Hukuk kuralları dışındaki (din, ahlak, görgü) kurallara uyulmadığında karşılaşılan tepki (yaptırım), ayıplama, kınama, dışlama veya günahkar sayılma gibi 'manevi' niteliktedir. Ancak hukuk kuralları devlet gücüne dayandığı için yaptırımı 'maddi' niteliktedir. Görgü kurallarına uyulmaması durumunda karşılaşılan yaptırım maddi değil, manevidir (ayıplama, kınama vb.).",
+    "_part": 22
+  },
+  {
+    "id": "vat_022",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuki-yaptirimlar",
+    "subtopic": "Hukuki Yaptırım Türleri",
+    "q": "Hukuki işlemin kurucu unsurlarının tam olduğu, ancak geçerlilik şartlarından bir veya birkaçının eksik olması veya kamu düzenine aykırılık teşkil etmesi durumunda ortaya çıkan yaptırım türü aşağıdakilerden hangisidir?",
+    "o": [
+      "Yokluk",
+      "Mutlak Butlan",
+      "Nisbi Butlan",
+      "Tek Taraflı Bağlamazlık",
+      "İptal"
+    ],
+    "a": 1,
+    "e": "Hukuki işlemin kurucu unsurları mevcut olmakla birlikte, işlemin kanunun emredici hükümlerine, ahlaka, kamu düzenine aykırı olması veya işlemin konusunun imkansız olması ya da işlem yapanın tam ehliyetsiz olması durumunda uygulanan yaptırım 'Mutlak Butlan'dır. Yoklukta kurucu unsur eksiktir; nisbi butlanda ise irade sakatlığı gibi daha hafif sebepler vardır.",
+    "_part": 23
+  },
+  {
+    "id": "vat_023",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-kaynaklari",
+    "subtopic": "Hukukun Kaynakları ve Normlar Hiyerarşisi",
+    "q": "Türk hukuk sistemindeki normlar hiyerarşisi ve hukukun kaynakları dikkate alındığında; \n\nI. Cumhurbaşkanlığı Kararnamesi\nII. Milletlerarası Antlaşmalar\nIII. Yönetmelik\n\nyukarıdaki yazılı kaynakların hiyerarşik sıralaması (üstten alta) aşağıdakilerden hangisinde doğru verilmiştir?",
+    "o": [
+      "II - I - III",
+      "I - II - III",
+      "II - III - I",
+      "III - I - II",
+      "I - III - II"
+    ],
+    "a": 0,
+    "e": "Normlar hiyerarşisinde Anayasa en tepededir. Usulüne göre yürürlüğe konulmuş temel hak ve özgürlüklere ilişkin Milletlerarası Antlaşmalar kanunların üzerindedir (veya kanunlarla eşdeğer sayılır ancak çatışma durumunda antlaşma esas alınır). Cumhurbaşkanlığı Kararnameleri kanunlardan sonra, Yönetmelikler ise kararnamelerden sonra gelir. Dolayısıyla doğru sıralama Milletlerarası Antlaşmalar > Cumhurbaşkanlığı Kararnamesi > Yönetmelik şeklindedir.",
+    "_part": 24
+  },
+  {
+    "id": "vat_024",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukta-bosluk",
+    "subtopic": "Hukukta Boşluk Türleri",
+    "q": "Bir somut olaya uygulanacak yazılı (kanun) veya yazısız (örf ve adet) herhangi bir hukuk kuralının bulunmaması durumuna ne ad verilir ve bu durumda hakim ne yapar?",
+    "o": [
+      "Kanun Boşluğu - Hakim takdir yetkisini kullanır.",
+      "Kural İçi Boşluk - Hakim atıf yapar.",
+      "Hukuk Boşluğu - Hakim hukuk yaratır.",
+      "Açık Boşluk - Hakim örf ve adete bakar.",
+      "Örtülü Boşluk - Hakim amaçsal yorum yapar."
+    ],
+    "a": 2,
+    "e": "Eğer somut olaya uygulanacak yazılı bir hüküm yoksa 'Kanun Boşluğu' vardır; bu durumda hakim örf ve adet hukukuna bakar. Eğer örf ve adet hukukunda da bir kural yoksa, yani ne yazılı ne de yazısız kaynaklarda hüküm bulunmuyorsa buna 'Hukuk Boşluğu' denir. Hukuk boşluğu durumunda hakim, Türk Medeni Kanunu'nun 1. maddesi gereğince 'Kanun koyucu gibi hareket ederek' hukuk yaratır.",
+    "_part": 25
+  },
+  {
+    "id": "vat_025",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "ehliyet-kavrami",
+    "subtopic": "Fiil Ehliyeti Şartları",
+    "q": "Türk Medeni Kanunu'na göre, bir gerçek kişinin fiil ehliyetine tam olarak sahip olabilmesi için aşağıdaki şartlardan hangilerinin bir arada bulunması gerekir?\n\nI. Ergin olmak\nII. Ayırt etme gücüne sahip olmak\nIII. Kısıtlı olmamak",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Fiil ehliyeti, kişinin bizzat kendi fiil ve işlemleriyle hak edinebilmesi ve borç altına girebilmesidir. Türk Medeni Kanunu'na göre tam fiil ehliyeti için üç şartın birlikte gerçekleşmesi gerekir: 1) Ergin (reşit) olmak, 2) Ayırt etme gücüne (temyiz kudretine) sahip olmak, 3) Kısıtlı (mahcur) olmamak.",
+    "_part": 26
+  },
+  {
+    "id": "vat_026",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "haklarin-siniflandirilmasi",
+    "subtopic": "Hakların Türleri ve Nitelikleri",
+    "q": "Aşağıdaki haklardan hangisi, niteliği gereği 'Devredilebilen Haklar' kategorisinde yer almaz?",
+    "o": [
+      "Mülkiyet hakkı",
+      "Telif hakkı",
+      "Alacak hakkı",
+      "İntifa hakkı",
+      "Oturma (Sükna) hakkı"
+    ],
+    "a": 4,
+    "e": "Mülkiyet, telif, alacak ve intifa hakları kural olarak başkalarına devredilebilir veya miras yoluyla intikal edebilir. Ancak 'Oturma (Sükna) Hakkı', şahsa sıkı sıkıya bağlı irtifak haklarındandır; sadece hak sahibi tarafından kullanılabilir ve başkasına devredilemez, mirasçılara geçmez.",
+    "_part": 27
+  },
+  {
+    "id": "vat_027",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "iyi-niyet-durustluk",
+    "subtopic": "Hakların Kazanılması ve Kullanılması",
+    "q": "Türk hukukunda hakların kazanılmasında ve hakların kullanılmasında geçerli olan ana ilkeler sırasıyla aşağıdakilerden hangisidir?",
+    "o": [
+      "Objektif İyiniyet - Subjektif İyiniyet",
+      "Dürüstlük Kuralı - İyiniyet",
+      "Subjektif İyiniyet - Objektif İyiniyet (Dürüstlük)",
+      "Kusursuzluk - Hakkaniyet",
+      "Eşitlik - Genellik"
+    ],
+    "a": 2,
+    "e": "Türk Medeni Kanunu'nun 2. ve 3. maddeleri uyarınca; hakların kazanılmasında geçerli olan ilke 'Subjektif İyiniyet'tir (bir hakkın doğumuna engel olan durumu bilmemek). Hakların kullanılmasında ve borçların yerine getirilmesinde geçerli olan ilke ise 'Objektif İyiniyet' yani 'Dürüstlük Kuralı'dır.",
+    "_part": 28
+  },
+  {
+    "id": "vat_028",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-dallari",
+    "subtopic": "Kamu Hukuku ve Özel Hukuk Dalları",
+    "q": "Aşağıdakilerden hangisi Özel Hukuk'un alt dallarından biri değildir?",
+    "o": [
+      "Medeni Hukuk",
+      "Borçlar Hukuku",
+      "Ticaret Hukuku",
+      "Devletler Özel Hukuku",
+      "Vergi Hukuku"
+    ],
+    "a": 4,
+    "e": "Özel hukuk dalları; Medeni Hukuk, Borçlar Hukuku, Ticaret Hukuku ve Devletler Özel Hukuku'dur. Vergi Hukuku ise devlet ile birey arasındaki egemenlik ilişkisine dayandığı için 'Kamu Hukuku'nun bir alt dalıdır.",
+    "_part": 29
+  },
+  {
+    "id": "vat_029",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "gercek-kisilik",
+    "subtopic": "Kişiliğin Başlangıcı ve Sona Ermesi",
+    "q": "Türk Medeni Kanunu'na göre gerçek kişilik ne zaman başlar?",
+    "o": [
+      "Ana rahmine düşüldüğü anda",
+      "Tam ve sağ doğumla",
+      "Nüfus kütüğüne kayıtla",
+      "Ayırt etme gücünün kazanılmasıyla",
+      "On sekiz yaşın doldurulmasıyla"
+    ],
+    "a": 1,
+    "e": "Türk Medeni Kanunu Madde 28'e göre kişilik, çocuğun sağ olarak tamamıyla doğduğu anda başlar ve ölümle sona erer. Çocuk hak ehliyetini ise sağ doğmak koşuluyla ana rahmine düştüğü andan itibaren kazanır, ancak 'kişilik' tam ve sağ doğumla başlar.",
+    "_part": 30
+  },
+  {
+    "id": "vat_030",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "borclar-hukuku-temel",
+    "subtopic": "Borcun Unsurları",
+    "q": "Borçlar hukukuna göre, aşağıdakilerden hangisi borç ilişkisinin temel unsurlarından biri değildir?",
+    "o": [
+      "Alacaklı",
+      "Borçlu",
+      "Edim",
+      "Hukuki Sebep",
+      "Sözleşme"
+    ],
+    "a": 4,
+    "e": "Borç ilişkisinin üç temel unsuru vardır: 1) Alacaklı (ifayı talep eden), 2) Borçlu (ifayı yerine getirmekle yükümlü olan), 3) Edim (borcun konusu olan davranış). Hukuki sebep de borcun kaynağı olarak değerlendirilebilir. Ancak 'Sözleşme' borcun bir unsuru değil, borcu doğuran kaynaklardan sadece biridir (diğerleri haksız fiil ve sebepsiz zenginleşmedir). Dolayısıyla her borç ilişkisinde sözleşme bulunmak zorunda değildir.",
+    "_part": 31
+  },
+  {
+    "id": "vat_031",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "sosyal-duzen-kurallari",
+    "subtopic": "Sosyal Düzen Kuralları ve Müeyyideler",
+    "q": "Sosyal hayatı düzenleyen kurallar ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Hukuk kuralları, devlet gücüne dayalı maddi yaptırımlarla desteklenmiştir.",
+      "Din ve ahlak kurallarının yaptırımı manevi niteliktedir.",
+      "Görgü kurallarına aykırılık durumunda kişi 'ayıplama' veya 'dışlanma' gibi tepkilerle karşılaşır.",
+      "Hukuk kuralları, diğer sosyal düzen kurallarından bağımsız olarak oluşur ve onlardan etkilenmez.",
+      "Ahlak kuralları, subjektif (kişisel) ve objektif (toplumsal) olmak üzere ikiye ayrılır."
+    ],
+    "a": 3,
+    "e": "Hukuk kuralları, toplumun inançlarından, ahlaki değerlerinden ve örf-adetlerinden tamamen bağımsız değildir; aksine bu kurallardan beslenir ve zamanla bu kuralların bazıları hukuk kuralı haline gelebilir. Diğer seçenekler doğrudur; hukuk maddi, diğerleri manevi yaptırımlıdır.",
+    "_part": 32
+  },
+  {
+    "id": "vat_032",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuki-yaptirimlar",
+    "subtopic": "Hukuki Yaptırım Türleri",
+    "q": "Bir hukuk kuralına aykırı davranılması sonucunda, o işlemin hukuk düzeninde hiç yapılmamış sayılmasına veya sonradan geçersiz kılınmasına yol açan yaptırım türleri düşünüldüğünde; kurucu unsurları tam olan ancak geçerlilik şartlarında kamu düzenini ilgilendiren bir eksiklik bulunan işlemin yaptırımı aşağıdakilerden hangisidir?",
+    "o": [
+      "Yokluk",
+      "Mutlak Butlan",
+      "Nisbi Butlan",
+      "Tek Taraflı Bağlamazlık",
+      "İptal"
+    ],
+    "a": 1,
+    "e": "Soruda 'kurucu unsurları tam' dendiği için 'Yokluk' elenir. Geçerlilik şartlarında 'kamu düzenini ilgilendiren' bir sakatlık (örneğin; ehliyetsizlik, ahlaka aykırılık, şekil eksikliği) varsa yaptırım 'Mutlak Butlan'dır. İşlem baştan itibaren geçersizdir.",
+    "_part": 33
+  },
+  {
+    "id": "vat_033",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-kaynaklari",
+    "subtopic": "Hukukun Kaynakları ve Normlar Hiyerarşisi",
+    "q": "Türk hukuk sistemindeki normlar hiyerarşisi ve hukukun kaynakları ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "o": [
+      "Milletlerarası antlaşmalar, kanun hükmündedir ve kural olarak Anayasa'ya aykırılığı iddia edilemez.",
+      "İçtihadı Birleştirme Kararları, yazılı kaynaklar arasında yer alır ve mahkemeleri bağlayıcıdır.",
+      "Yönetmelikler, kanunlara ve Cumhurbaşkanlığı kararnamelerine aykırı olamaz.",
+      "Örf ve adet hukuku, yazısız kaynak olup hakimin önüne gelen uyuşmazlıkta kanunda hüküm bulunmadığında başvurulur.",
+      "Bilimsel görüşler (Doktrin), yardımcı kaynak olup hakimi bağlayıcı niteliktedir."
+    ],
+    "a": 4,
+    "e": "Bilimsel görüşler (Doktrin) ve Yargısal Kararlar (İçtihatlar - İçtihadı Birleştirme Kararları hariç), hukukun 'yardımcı' kaynaklarıdır. Hakim bu kaynaklardan faydalanabilir ancak bunlara uymak zorunda değildir, yani bağlayıcı değildir.",
+    "_part": 34
+  },
+  {
+    "id": "vat_034",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuk-kurallarinin-cesitleri",
+    "subtopic": "Hukuk Kurallarının Niteliklerine Göre Çeşitleri",
+    "q": "Tarafların iradeleriyle aksini kararlaştıramadıkları, uymak zorunda oldukları ve kamu düzeni ile genel ahlakı korumayı amaçılayan hukuk kuralları aşağıdakilerden hangisidir?",
+    "o": [
+      "Yedek Kurallar",
+      "Tamamlayıcı Kurallar",
+      "Yorumlayıcı Kurallar",
+      "Emredici Kurallar",
+      "Tanımlayıcı Kurallar"
+    ],
+    "a": 3,
+    "e": "Aksine işlem yapılamayan, kamu düzeni, genel ahlak ve zayıfların korunması amacıyla konulan ve uyulması zorunlu olan kurallar 'Emredici Hukuk Kuralları'dır. Tamamlayıcı ve yorumlayıcı kurallar ise 'Yedek Kurallar' başlığı altında toplanır ve aksi kararlaştırılabilir.",
+    "_part": 35
+  },
+  {
+    "id": "vat_035",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "bosluk-turleri",
+    "subtopic": "Hukukta Boşluk Türleri ve Hakimin Takdir Yetkisi",
+    "q": "Somut bir olaya uygulanacak yazılı (mevzuat) ve yazısız (örf-adet) herhangi bir hukuk kuralının bulunmaması durumuna ne ad verilir?",
+    "o": [
+      "Kanun Boşluğu",
+      "Kural İşi Boşluk",
+      "Hukuk Boşluğu",
+      "Açık Boşluk",
+      "Örtülü Boşluk"
+    ],
+    "a": 2,
+    "e": "Eğer sadece yazılı kaynaklarda hüküm yoksa 'Kanun Boşluğu' vardır. Ancak soruda hem yazılı hem de yazısız (örf-adet) kaynaklarda hüküm bulunmadığı belirtilmiştir. Bu duruma 'Hukuk Boşluğu' denir ve hakim bu durumda hukuk yaratır.",
+    "_part": 36
+  },
+  {
+    "id": "vat_036",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "haklarin-kazanilmasi",
+    "subtopic": "Hakların Kazanılması ve İyiniyet",
+    "q": "I. Hakların kazanılmasında geçerli olan temel ilke subjektif iyiniyettir.\nII. Hakların kullanılmasında ve borçların ifasında geçerli olan temel ilke dürüstlük kuralıdır.\nIII. Bir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.\n\nYukarıdaki öncüllerden hangileri Türk Medeni Kanunu'na göre doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "TMK m.2 ve m.3 uyarınca; hakların kazanılmasında 'iyiniyet' (subjektif iyiniyet), hakların kullanılması ve borçların yerine getirilmesinde ise 'dürüstlük kuralı' (objektif iyiniyet) geçerlidir. Ayrıca hakkın kötüye kullanılması hukuk düzenince korunmaz. Üç öncül de doğrudur.",
+    "_part": 37
+  },
+  {
+    "id": "vat_037",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "ehliyet-kavrami",
+    "subtopic": "Hak ve Fiil Ehliyeti",
+    "q": "Fiil ehliyeti ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Tam ehliyetliler; ayırt etme gücüne sahip, ergin ve kısıtlı olmayan kişilerdir.",
+      "Sınırlı ehliyetliler, kendilerine yasal danışman atanan kişilerdir.",
+      "Ayırt etme gücü olmayan kişiler tam ehliyetsizdir.",
+      "Tam ehliyetsizlerin yaptıkları hukuki işlemler, yasal temsilcileri onaylasa bile geçersizdir (mutlak butlan).",
+      "Sınırlı ehliyetsizler, ayırt etme gücüne sahip küçükler ve kısıtlılardır; bağış yapabilir ve kefil olabilirler."
+    ],
+    "a": 4,
+    "e": "Sınırlı ehliyetsizler (ayırt etme gücü olan küçükler ve kısıtlılar), yasal temsilcilerinin rızası olsa dahi 'önemli bağışlarda bulunamaz', 'kefil olamaz' ve 'vakıf kuramazlar'. Bu işlemler yasaklı işlemlerdir.",
+    "_part": 38
+  },
+  {
+    "id": "vat_038",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "kisilik-hukuku",
+    "subtopic": "Kişiliğin Başlangıcı ve Sona Ermesi",
+    "q": "Ölüm tehlikesi içinde kaybolan veya kendisinden uzun süre haber alınamayan bir kimsenin ölümü hakkında kuvvetli olasılık varsa, hakları bu ölüme bağlı olanların başvurusu üzerine mahkemece verilen karar aşağıdakilerden hangisidir?",
+    "o": [
+      "Birlikte Ölüm Karinesi",
+      "Ölüm Karinesi",
+      "Gaiplik",
+      "Temyiz Kudretinin Kaybı",
+      "Hacir Altına Alınma"
+    ],
+    "a": 2,
+    "e": "Tanım 'Gaiplik' kurumuna aittir. Ölümüne kesin gözle bakılacak bir durumda kaybolma (ölüm karinesi) ile karıştırılmamalıdır; gaiplik için mahkeme kararı gerekirken, ölüm karinesinde mülki amirin emriyle kütüğe ölü kaydı düşülür. Soruda 'mahkemece verilen karar' ve 'kuvvetli olasılık' vurgusu gaipliği işaret eder.",
+    "_part": 39
+  },
+  {
+    "id": "vat_039",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuki-olay-fiil-islem",
+    "subtopic": "Hukuki Olay, Fiil ve İşlem Ayrımı",
+    "q": "Aşağıdaki eşleştirmelerden hangisi hukuk tekniği açısından yanlıştır?",
+    "o": [
+      "Doğum - Hukuki Olay",
+      "Ölüm - Hukuki Olay",
+      "Sözleşme yapmak - Hukuki İşlem",
+      "ikametgahı değiştirmek - Hukuki Fiil",
+      "Vasiyetname düzenlemek - Hukuki Fiil"
+    ],
+    "a": 4,
+    "e": "Vasiyetname düzenlemek, kişinin hukuki sonuç doğurmaya yönelik irade beyanı olduğu için bir 'Hukuki İşlem'dir. Hukuki fiil ise insan iradesiyle gerçekleşen ancak hukuki sonucun iradeye bağlı olmadığı veya irade dışı sonuçların doğduğu durumlardır (örneğin haksız fiil).",
+    "_part": 40
+  },
+  {
+    "id": "vat_040",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "haksiz-fiil",
+    "subtopic": "Borcun Kaynakları ve Haksız Fiil",
+    "q": "Haksız fiil, bir kimsenin hukuka aykırı ve kusurlu bir eylemle başkasına zarar vermesidir. Buna göre, aşağıdakilerden hangisi haksız fiilin kurucu unsurlarından biri değildir?",
+    "o": [
+      "Hukuka aykırı fiil",
+      "Zarar",
+      "Kusur",
+      "İlliyet bağı (Nedensellik)",
+      "Sözleşme"
+    ],
+    "a": 4,
+    "e": "Haksız fiilin dört unsuru vardır: 1) Fiil (Hukuka aykırı eylem), 2) Zarar, 3) Kusur, 4) İlliyet Bağı. 'Sözleşme' ise borcun kaynaklarından biridir ancak haksız fiilin bir unsuru değildir; haksız fiil genellikle taraflar arasında bir sözleşme ilişkisi yokken gerçekleşir.",
+    "_part": 41
+  },
+  {
+    "id": "vat_041",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "sosyal-duzen-kurallari",
+    "subtopic": "Sosyal Düzen Kuralları ve Yaptırımlar",
+    "q": "Sosyal hayatı düzenleyen kurallar ile hukuk kuralları arasındaki temel farklar dikkate alındığında; din, ahlak ve görgü kurallarının yaptırımı manevi nitelik taşırken, hukuk kurallarının yaptırımı maddi niteliktedir.\n\nBuna göre, aşağıdakilerden hangisi hukuk kurallarına özgü maddi yaptırım türlerinden biri **değildir**?",
+    "o": [
+      "Cebri İcra",
+      "Tazminat",
+      "İptal",
+      "Hapis Cezası",
+      "Aforoz"
+    ],
+    "a": 4,
+    "e": "Hukuk kurallarının yaptırımı devlet gücüyle desteklenen 'maddi' yaptırımlardır. Bunlar; ceza, cebri icra, tazminat, iptal ve hükümsüzlüktür. 'Aforoz' ise din kurallarının ihlali durumunda karşılaşılan, hukuk düzeni dışındaki manevi bir yaptırım türüdür.",
+    "_part": 42
+  },
+  {
+    "id": "vat_042",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuki-yaptirimlar",
+    "subtopic": "Hükümsüzlük Türleri",
+    "q": "Ayırt etme gücüne sahip olmayan (tam ehliyetsiz) bir kişinin yapmış olduğu satım sözleşmesinin hukuki sonucu aşağıdakilerden hangisidir?",
+    "o": [
+      "Yokluk",
+      "Mutlak Butlan",
+      "Nisbi Butlan (İptal edilebilirlik)",
+      "Askıda Geçersizlik (Tek taraflı bağlamazlık)",
+      "Eksik Borç"
+    ],
+    "a": 1,
+    "e": "Tam ehliyetsizlerin (ayırt etme gücü olmayanların) yaptıkları hukuki işlemler, kurucu unsurları tamam olsa bile kanunun emredici hükmü gereği baştan itibaren geçersizdir. Bu duruma 'Mutlak Butlan' denir. Yokluk, kurucu unsur eksikliğinde (örneğin resmi nikah memuru önünde yapılmayan evlilik) söz konusu olur.",
+    "_part": 43
+  },
+  {
+    "id": "vat_043",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-kaynaklari",
+    "subtopic": "Hukukun Kaynakları ve Normlar Hiyerarşisi",
+    "q": "Türk hukuk sistemindeki kaynaklar 'Asli' ve 'Yardımcı' kaynaklar olarak sınıflandırılmaktadır.\n\nBuna göre, aşağıdakilerden hangisi hakimin davayı çözerken uymak zorunda olduğu **bağlayıcı** kaynaklardan biri **değildir**?",
+    "o": [
+      "Anayasa",
+      "Kanun",
+      "Cumhurbaşkanlığı Kararnamesi",
+      "Bilimsel İçtihatlar (Doktrin)",
+      "İçtihadı Birleştirme Kararları"
+    ],
+    "a": 3,
+    "e": "Hukukun kaynakları arasında Anayasa, Kanun, Cumhurbaşkanlığı Kararnamesi, Yönetmelik ve İçtihadı Birleştirme Kararları (Yargıtay/Danıştay) bağlayıcı (asli) kaynaklardır. Ancak Bilimsel İçtihatlar (Doktrin) ve normal Yargısal İçtihatlar (Mahkeme kararları) yardımcı kaynak statüsündedir ve hakim bunları uygulamak zorunda değildir.",
+    "_part": 44
+  },
+  {
+    "id": "vat_044",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuk-kurallarinin-nitelikleri",
+    "subtopic": "Hukuk Kurallarının Çeşitleri",
+    "q": "I. Emredici Hukuk Kuralları\nII. Tamamlayıcı Hukuk Kuralları\nIII. Yorumlayıcı Hukuk Kuralları\n\nYukarıdaki hukuk kuralı türlerinden hangileri, tarafların aksi yönde karar almaları veya sözleşme yapmaları durumunda **uygulanmazlar**?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 3,
+    "e": "Emredici hukuk kurallarına (I) uyulması zorunludur ve taraflar aksini kararlaştıramaz. Ancak Tamamlayıcı (II) ve Yorumlayıcı (III) hukuk kuralları 'yedek' niteliktedir; taraflar aksini kararlaştırmadığı sürece uygulanırlar. Taraflar iradeleriyle bu kuralların aksini düzenleyebilirler.",
+    "_part": 45
+  },
+  {
+    "id": "vat_045",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "haklarin-kazanilmasi",
+    "subtopic": "İyiniyet ve Dürüstlük Kuralı",
+    "q": "Medeni Hukuk'ta hakların kazanılmasında ve kullanılmasında geçerli olan temel ilkeler ile ilgili;\n\nI. Hakların kazanılmasında 'Subjektif İyiniyet' kuralı geçerlidir.\nII. Hakların kullanılmasında ve borçların ifasında 'Objektif İyiniyet' (Dürüstlük) kuralı geçerlidir.\nIII. Bir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Türk Medeni Kanunu'na göre; hakların kazanılmasında kişinin o andaki durumu bilmemesi veya bilecek durumda olmaması anlamına gelen 'Subjektif İyiniyet' (I) esastır. Hakların kullanılması ve borçların ifasında ise 'Dürüstlük Kuralı' (Objektif İyiniyet) (II) geçerlidir. Ayrıca kanun, hakkın kötüye kullanılmasını açıkça himaye etmez (III). Üç öncül de doğrudur.",
+    "_part": 46
+  },
+  {
+    "id": "vat_046",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-uygulanmasi",
+    "subtopic": "Boşluk Türleri ve Hakimin Yetkisi",
+    "q": "Bir somut olaya uygulanacak yazılı (kanun, KHK vb.) veya yazısız (örf ve adet) herhangi bir hukuk kuralının bulunmaması durumuna ne ad verilir ve hakimin bu durumda yapması gereken nedir?",
+    "o": [
+      "Kanun Boşluğu - Hakim takdir yetkisini kullanır.",
+      "Kural İçi Boşluk - Hakim atıf yapar.",
+      "Hukuk Boşluğu - Hakim hukuk yaratır.",
+      "Açık Boşluk - Hakim örf ve adete bakar.",
+      "Örtülü Boşluk - Hakim amaçsal yorum yapar."
+    ],
+    "a": 2,
+    "e": "Hem yazılı hem de yazısız kaynaklarda hüküm bulunmaması durumuna 'Hukuk Boşluğu' denir. Türk Medeni Kanunu'nun 1. maddesine göre, hukuk boşluğu durumunda hakim 'kanun koyucu gibi hareket ederek' hukuk yaratır. Sadece yazılı kaynakta hüküm yoksa 'Kanun Boşluğu' olur ve hakim örf adete gider.",
+    "_part": 47
+  },
+  {
+    "id": "vat_047",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "kisiler-hukuku",
+    "subtopic": "Ehliyet Türleri",
+    "q": "Kendisine yasal danışman atanan bir kişi, fiil ehliyeti bakımından hangi kategoride değerlendirilir?",
+    "o": [
+      "Tam Ehliyetli",
+      "Sınırlı Ehliyetli",
+      "Tam Ehliyetsiz",
+      "Sınırlı Ehliyetsiz",
+      "Kısıtlı"
+    ],
+    "a": 1,
+    "e": "Kendisine yasal danışman atanan kişiler, kural olarak ehliyetlidirler ancak bazı işlemleri danışmanlarının onayı ile yapabilirler. Bu statüdeki kişiler 'Sınırlı Ehliyetli' grubuna girer. (Not: Bazı akademik kaynaklarda ayrım farklılaşsa da ÖSYM müfredatında yasal danışman atananlar sınırlı ehliyetli kabul edilir. Evli kişiler de aile konutu şerhi gibi durumlarda sınırlı ehliyetli sayılabilir.)",
+    "_part": 48
+  },
+  {
+    "id": "vat_048",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "haklarin-korunmasi",
+    "subtopic": "Hakların Korunması Yolları",
+    "q": "Kişinin, hakkını bizzat kuvvet kullanarak koruyabileceği istisnai haller Türk Borçlar Kanunu ve Ceza Kanunu'nda düzenlenmiştir.\n\nBuna göre aşağıdakilerden hangisi kişinin hakkını bizzat kuvvet kullanarak koruduğu hallerden biri **değildir**?",
+    "o": [
+      "Meşru Müdafaa (Haklı Savunma)",
+      "Zaruret Hali (Iztırar Hali)",
+      "Kuvvet Kullanma (Güç Kullanma)",
+      "Talep Hakkı",
+      "Hakkını Korumak İçin Kuvvet Kullanma"
+    ],
+    "a": 3,
+    "e": "Talep hakkı, kişinin hakkını bizzat kuvvet kullanarak değil, karşı taraftan istemesi veya devlet organlarına başvurması (dava) öncesi bir aşamadır. Meşru müdafaa, zaruret hali ve hakkın korunması için kuvvet kullanma ise bizzat güç kullanılan istisnai durumlardır.",
+    "_part": 49
+  },
+  {
+    "id": "vat_049",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "kamu-ozel-hukuk",
+    "subtopic": "Hukuk Dalları",
+    "q": "Aşağıdaki hukuk dallarından hangisi, eşitlik ilkesinin değil, 'egemenlik/üstünlük' ilkesinin hakim olduğu Kamu Hukuku dalları arasında yer **almaz**?",
+    "o": [
+      "İdare Hukuku",
+      "Vergi Hukuku",
+      "Ceza Hukuku",
+      "Devletler Umumi Hukuku",
+      "Devletler Özel Hukuku"
+    ],
+    "a": 4,
+    "e": "İdare, Vergi, Ceza ve Devletler Umumi (Genel) Hukuku, Kamu Hukuku dallarıdır ve devletin üstünlüğü esastır. Ancak 'Devletler Özel Hukuku', yabancılık unsuru taşıyan özel hukuk uyuşmazlıklarını (örneğin bir Türk ile bir Alman'ın evlenmesi) konu alır ve Özel Hukuk dalıdır; taraflar arası eşitlik esastır.",
+    "_part": 50
+  },
+  {
+    "id": "vat_050",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "suc-ve-ceza",
+    "subtopic": "Suç ve Cezalara İlişkin Anayasal İlkeler",
+    "q": "1982 Anayasası'nın 38. maddesinde düzenlenen 'Suç ve Cezalara İlişkin Esaslar' ile ilgili aşağıdakilerden hangisi **yanlıştır**?",
+    "o": [
+      "Ceza ve ceza yerine geçen güvenlik tedbirleri ancak kanunla konulur.",
+      "Suçluluğu hükmen sabit oluncaya kadar kimse suçlu sayılamaz (Masumiyet Karinesi).",
+      "Hiç kimse yalnızca sözleşmeden doğan bir yükümlülüğü yerine getirememesinden dolayı özgürlüğünden alıkonulamaz.",
+      "Ölüm cezası ve genel müsadere cezası verilemez.",
+      "İdare, kişi hürriyetinin kısıtlanması sonucunu doğuran bir müeyyideyi hiçbir koşulda uygulayamaz."
+    ],
+    "a": 4,
+    "e": "Anayasa'nın 38. maddesine göre idare, kişi hürriyetinin kısıtlanması sonucunu doğuran bir müeyyide uygulayamaz; ANCAK bu kuralın istisnası 'Silahlı Kuvvetlerin iç düzeni bakımından bu kanunla düzenlenenler saklıdır' hükmüdür. Yani askeri disiplin cezaları gibi istisnalar olabileceği için 'hiçbir koşulda' ifadesi yanlıştır. Diğer seçenekler Anayasa'nın açık hükümleridir.",
+    "_part": 51
+  },
+  {
+    "id": "vat_051",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuk-kurallari-yaptirim",
+    "subtopic": "Hukuk Kurallarının Yaptırımları",
+    "q": "Hukuk kurallarını diğer sosyal düzen kurallarından ayıran temel nitelik maddi yaptırımdır. Aşağıdaki durumlardan hangisinde, hukuk düzeninin öngördüğü yaptırım türü 'cebri icra' olarak nitelendirilir?",
+    "o": [
+      "Bir kimsenin, borcunu ödememesi üzerine alacaklının talebiyle devlet gücü aracılığıyla borcun tahsil edilmesi",
+      "Akıl hastalığı sebebiyle ayırt etme gücüne sahip olmayan bir kişinin yaptığı evlilik sözleşmesi",
+      "Hukuka veya ahlaka aykırı bir sözleşmenin baştan itibaren geçersiz sayılması",
+      "Bir kamu görevlisinin, göreviyle ilgili kusurlu bir davranışı nedeniyle devlete verdiği zararı ödemekle yüküçümlü tutulması",
+      "idari bir işlemin, hukuka aykırı olması nedeniyle yargı organınca ortadan kaldırılması"
+    ],
+    "a": 0,
+    "e": "Cebri icra, borcunu yerine getirmeyen borçlunun, devlet gücü zoruyla borcunu yerine getirmeye zorlanmasıdır. A seçeneği tam olarak bu tanıma uyar. B ve C seçenekleri 'hükümsüzlük (mutlak butlan)', D seçeneği 'tazminat', E seçeneği ise 'iptal' yaptırımına örnektir.",
+    "_part": 52
+  },
+  {
+    "id": "vat_052",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuki-islemlerin-gecersizligi",
+    "subtopic": "Hükümsüzlük Türleri",
+    "q": "Hukuki işlemlerin kurucu unsurlarının tam olduğu ancak geçerlilik şartlarında kamu düzenini ilgilendiren bir eksikliğin bulunduğu durumlar 'mutlak butlan' ile sakattır. Buna göre, aşağıdakilerden hangisi mutlak butlan yaptırımına tabi bir işlemdir?",
+    "o": [
+      "Resmi evlendirme memuru önünde yapılmayan imam nikahı",
+      "Sarhoşluk etkisi altındayken imzalanan bir satım sözleşmesi",
+      "Konusu emredici hukuk kurallarına, ahlaka veya kamu düzenine aykırı olan sözleşmeler",
+      "Tehdit (ikrah) altında imzalanan bir senet",
+      "Ayırt etme gücüne sahip küçük bir çocuğun kendisine bağışlanan bir malı kabul etmesi"
+    ],
+    "a": 2,
+    "e": "Konusu kanunun emredici hükümlerine, ahlaka, kamu düzenine veya kişilik haklarına aykırı olan sözleşmeler 'mutlak butlan' ile batıldır (geçersizdir). A seçeneği 'yokluk' (kurucu unsur eksik), B ve D seçenekleri 'nisbi butlan' (iptal edilebilirlik) kapsamındadır. E seçeneği ise geçerli bir işlemdir.",
+    "_part": 53
+  },
+  {
+    "id": "vat_053",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-kaynaklari",
+    "subtopic": "Normlar Hiyerarşisi",
+    "q": "1982 Anayasası'na göre normlar hiyerarşisi dikkate alındığında, aşağıdakilerden hangisi 'kanun' ile eş değer hukuk normları arasında yer almaz?",
+    "o": [
+      "Milletlerarası Antlaşmalar",
+      "Olağanüstü Hal Cumhurbaşkanlığı Kararnameleri",
+      "İçtihadı Birleştirme Kararları",
+      "Anayasa Mahkemesi İptal Kararları",
+      "Cumhurbaşkanlığı Kararnameleri (Olağan Dönem)"
+    ],
+    "a": 4,
+    "e": "Normlar hiyerarşisinde Milletlerarası Antlaşmalar, OHAL Cumhurbaşkanlığı Kararnameleri, İçtihadı Birleştirme Kararları ve Anayasa Mahkemesi Kararları kanun hükmünde veya kanun gücündedir. Ancak olağan dönem Cumhurbaşkanlığı Kararnameleri, kanunların altındadır ve kanunla çelişirse kanun hükümleri uygulanır.",
+    "_part": 54
+  },
+  {
+    "id": "vat_054",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuk-kurallarinin-nitelikleri",
+    "subtopic": "Hukuk Kurallarının Çeşitleri",
+    "q": "Borçlar Kanunu'na göre, taraflar sözleşmede faiz oranını belirlememişlerse yasal faiz oranı uygulanır. Taraflar aksini kararlaştırabildiği sürece uygulanan, ancak kararlaştırmadıklarında devreye giren bu tür hukuk kurallarına ne ad verilir?",
+    "o": [
+      "Emredici hukuk kuralları",
+      "Yedek (Tamamlayıcı) hukuk kuralları",
+      "Yorumlayıcı hukuk kuralları",
+      "Tanımlayıcı hukuk kuralları",
+      "İlga edici hukuk kuralları"
+    ],
+    "a": 1,
+    "e": "Tarafların aksi kararlaştırılmadığı durumlarda devreye giren ve eksik irade beyanlarını tamamlayan kurallara 'Tamamlayıcı (Yedek) Hukuk Kuralları' denir. Emredici kuralların aksine, tarafların iradesiyle bertaraf edilebilirler.",
+    "_part": 55
+  },
+  {
+    "id": "vat_055",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukta-bosluk",
+    "subtopic": "Boşluk Türleri ve Hakimin Yetkisi",
+    "q": "Bir somut olaya uygulanacak yazılı (kanun) ve yazısız (örf ve adet) herhangi bir hukuk kuralının bulunmaması durumuna ne ad verilir ve hakim bu durumda ne yapar?",
+    "o": [
+      "Kanun Boşluğu - Hakim, kanun koyucu gibi hareket ederek hukuk yaratır.",
+      "Kural İçi Boşluk - Hakim takdir yetkisini kullanır.",
+      "Hukuk Boşluğu - Hakim, kanun koyucu gibi hareket ederek hukuk yaratır.",
+      "Açık Boşluk - Hakim kıyas yoluna başvurur.",
+      "Örtülü Boşluk - Hakim amaçsal yorum yapar."
+    ],
+    "a": 2,
+    "e": "Hem yazılı hem de yazısız kaynaklarda hüküm bulunmaması durumuna 'Hukuk Boşluğu' denir. Medeni Kanun'un 1. maddesine göre hakim, hukuk boşluğu durumunda kanun koyucu olsaydı nasıl bir kural koyacak idiyse ona göre karar verir (Hukuk Yaratma).",
+    "_part": 56
+  },
+  {
+    "id": "vat_056",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "kisilik-haklari",
+    "subtopic": "Gerçek Kişilerde Ehliyet",
+    "q": "Türk Medeni Kanunu'na göre, gerçek kişilerin fiil ehliyetine tam olarak sahip olabilmeleri için aşağıdaki şartlardan hangilerinin bir arada bulunması gerekir?\n\nI. Ergin olmak\nII. Ayırt etme gücüne sahip olmak\nIII. Kısıtlı olmamak",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Tam fiil ehliyeti için üç şartın kümülatif olarak (aynı anda) sağlanması gerekir: 1) Ergin (reşit) olmak, 2) Ayırt etme gücüne (temyiz kudretine) sahip olmak, 3) Kısaltılmış (mahcur) olmamak.",
+    "_part": 57
+  },
+  {
+    "id": "vat_057",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "haklarin-siniflandirilmasi",
+    "subtopic": "Yenilik Doğuran Haklar",
+    "q": "Sahibi tarafından tek taraflı irade beyanıyla kullanılan ve kullanılmasıyla yeni bir hukuki durum yaratan, mevcut durumu değiştiren veya ortadan kaldıran haklara 'Yenilik Doğuran (İnşai) Haklar' denir. Buna göre, aşağıdakilerden hangisi yenilik doğuran bir hak değildir?",
+    "o": [
+      "İstifa hakkı",
+      "Alım (iştira) hakkı",
+      "Velayet hakkı",
+      "Fesih hakkı",
+      "Önalım (şufa) hakkı"
+    ],
+    "a": 2,
+    "e": "Velayet hakkı, yenilik doğuran bir hak değil, ebeveynlerin çocukları üzerindeki 'hak ve yükümlülükleri' içeren, mutlak bir haktır. Kullanılmasıyla hukuki durum değişmez, süreklidir. Diğer seçenekler (istifa, alım, fesih, önalım) kullanıldığında hukuki statüyü değiştiren inşai haklardır.",
+    "_part": 58
+  },
+  {
+    "id": "vat_058",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "haklarin-korunmasi",
+    "subtopic": "Hukuka Uygunluk Sebepleri",
+    "q": "Bir kimsenin kendisinin veya başkasının şahsına ya da malına yönelik, halen mevcut veya muhakkak bir tehlikeyi bertaraf etmek amacıyla, tehlikeye sebebiyet veren üçüncü kişinin malına zarar vermesi durumuna ne ad verilir?",
+    "o": [
+      "Meşru Müdafaa (Haklı Savunma)",
+      "Iztırar Hali (Zorunluluk Hali)",
+      "Kuvvet Kullanma",
+      "Hakkın Kötüye Kullanılması",
+      "Mücbir Sebep"
+    ],
+    "a": 1,
+    "e": "Iztırar Hali (Zorunluluk Hali), bir tehlikeden kurtulmak için tehlikeyle ilgisi olmayan üçüncü bir kişinin malına zarar verilmesidir. Meşru müdafaada zarar saldırgana verilirken, ıztırar halinde zarar tehlikeye neden olmayan masum üçüncü kişinin malına verilir.",
+    "_part": 59
+  },
+  {
+    "id": "vat_059",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-dallari",
+    "subtopic": "Kamu Hukuku - Özel Hukuk Ayrımı",
+    "q": "Hukuk kuralları, düzenledikleri ilişkilerin niteliğine göre Kamu Hukuku ve Özel Hukuk olarak sınıflandırılır. Aşağıdaki hukuk dallarından hangisi 'Karma Hukuk' dalları arasında kabul edilir?",
+    "o": [
+      "İdare Hukuku",
+      "Ceza Hukuku",
+      "İş Hukuku",
+      "Ticaret Hukuku",
+      "Vergi Hukuku"
+    ],
+    "a": 2,
+    "e": "İş Hukuku, hem işçiyi koruyan emredici kurallar (kamu hukuku niteliği) hem de sözleşme serbestisi (özel hukuk niteliği) barındırdığı için 'Karma Hukuk' dalı olarak kabul edilir. İdare, Ceza ve Vergi hukuku Kamu Hukuku'na; Ticaret Hukuku ise Özel Hukuk'a dahildir.",
+    "_part": 60
+  },
+  {
+    "id": "vat_060",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuki-olay-fiil-islem",
+    "subtopic": "Hukuki Fiil ve İşlem Ayrımı",
+    "q": "Hukuki sonuç doğuran insan davranışları ile ilgili olarak;\n\nI. İnsan iradesiyle gerçekleşen ve hukuki sonuç doğuran davranışlara hukuki fiil denir.\nII. Bir veya birden fazla kişinin hukuki bir sonuç elde etmek amacıyla irade açıklamasına hukuki işlem denir.\nIII. Haksız fiiller, hukuka aykırı hukuki işlemlerdir.\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 2,
+    "e": "I. ve II. öncüller doğrudur. Hukuki fiil, iradi davranıştır; hukuki işlem ise irade beyanıdır. Ancak III. öncül yanlıştır; haksız fiiller 'hukuki işlem' değildir, hukuka aykırı 'hukuki fiil'dir. Hukuki işlem (örneğin sözleşme) ile haksız fiil (örneğin cam kırmak) farklı kavramlardır.",
+    "_part": 61
+  },
+  {
+    "id": "vat_061",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "sosyal-duzen-kurallari",
+    "subtopic": "Sosyal Düzen Kuralları ve Yaptırımlar",
+    "q": "Sosyal hayatı düzenleyen kurallar ile ilgili aşağıda verilen öncüllerden hangileri hukuk kurallarını diğer sosyal düzen kurallarından ayıran temel özelliklerdendir?\n\nI. Devlet gücüne dayalı maddi yaptırım içermesi\nII. Toplumsal yaşamı düzenleme amacı gütmesi\nIII. Kişiler arası ilişkileri konu edinmesi",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
+    ],
+    "a": 0,
+    "e": "Din, ahlak ve görgü kuralları da toplumsal yaşamı düzenler ve kişiler arası ilişkileri konu edinir. Ancak hukuk kurallarını diğerlerinden ayıran en temel ve belirleyici özellik, arkasında kamu gücünün (devletin) bulunması ve uyulmadığında 'maddi' bir yaptırımla (ceza, cebri icra vb.) karşılaşılmasıdır. Diğer kuralların yaptırımı manevidir.",
+    "_part": 62
+  },
+  {
+    "id": "vat_062",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuki-yaptirimlar",
+    "subtopic": "Hukuki Yaptırım Türleri",
+    "q": "Resmi nikah memuru önünde yapılmayan, sadece dini törenle gerçekleştirilen bir evlilik işlemi, hukuk dünyasında hangi yaptırım türü ile ifade edilir?",
+    "o": [
+      "Mutlak Butlan",
+      "Nisbi Butlan",
+      "Yokluk",
+      "Tek Taraflı Bağlamazlık",
+      "İptal"
+    ],
+    "a": 2,
+    "e": "Bir hukuki işlemin kurucu unsurlarından birinin eksik olması durumunda o işlem hiç doğmamış sayılır. Resmi evlilikte 'resmi memur' kurucu bir unsurdur. Bu unsurun eksikliği işlemin 'yokluk' (keenlemyekün) ile sakat olmasına neden olur. Mutlak butlanda işlem doğmuştur ancak emredici hükümlere aykırıdır; yoklukta ise işlem hukuk aleminde hiç oluşmamıştır.",
+    "_part": 63
+  },
+  {
+    "id": "vat_063",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-kaynaklari",
+    "subtopic": "Hukukun Kaynakları ve Hiyerarşi",
+    "q": "Türk Medeni Kanunu'nun 1. maddesine göre, hakim önüne gelen bir uyuşmazlıkta uygulanacak yazılı bir hüküm bulamazsa sırasıyla hangi yola başvurmalıdır?",
+    "o": [
+      "Hukuk yaratır - Örf ve adet hukukuna bakar",
+      "Örf ve adet hukukuna bakar - Hukuk yaratır",
+      "Bilimsel görüşlere bakar - Örf ve adet hukukuna bakar",
+      "Yargı kararlarına bakar - Hukuk yaratır",
+      "Örf ve adet hukukuna bakar - Bilimsel görüşlere bakar"
+    ],
+    "a": 1,
+    "e": "TMK Madde 1'e göre; kanunda uygulanabilir bir hüküm yoksa, hakim 'örf ve adet hukukuna' göre karar verir. Eğer orada da bir hüküm yoksa (hukuk boşluğu), hakim 'kendisi kanun koyucu olsaydı nasıl bir kural koyacak idiyse' ona göre karar verir (Hukuk yaratır). Bilimsel görüşler ve yargı kararları ise yardımcı kaynaklardır, bağlayıcı değildir.",
+    "_part": 64
+  },
+  {
+    "id": "vat_064",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-turleri",
+    "subtopic": "Hukukun Farklı Anlamları",
+    "q": "Bir ülkede belli bir dönemde yürürlükte bulunan, yetkili makamlarca konulmuş yazılı hukuk kurallarının tamamına ne ad verilir?",
+    "o": [
+      "Müspet Hukuk",
+      "Mevzu Hukuk",
+      "Tabii Hukuk",
+      "İdeal Hukuk",
+      "Tarihi Hukuk"
+    ],
+    "a": 1,
+    "e": "Sadece yetkili makamlarca konulan 'yazılı' kuralların tamamına 'Mevzu Hukuk' (Mevzuat) denir. Eğer tanım hem yazılı hem de yazısız (örf ve adet) kuralların tamamını kapsasaydı cevap 'Müspet (Pozitif) Hukuk' olurdu. İdeal (Tabii) hukuk ise olması gereken hukuktur.",
+    "_part": 65
+  },
+  {
+    "id": "vat_065",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "ehliyet-kavrami",
+    "subtopic": "Hak ve Fiil Ehliyeti",
+    "q": "Ayırt etme gücüne sahip, ergin ancak kısıtlanmış bir kişinin fiil ehliyeti bakımından hukuki durumu aşağıdakilerden hangisidir?",
+    "o": [
+      "Tam ehliyetli",
+      "Sınırlı ehliyetli",
+      "Tam ehliyetsiz",
+      "Sınırlı ehliyetsiz",
+      "Yarı ehliyetli"
+    ],
+    "a": 3,
+    "e": "Kısıtlanmış (mahcur) kişiler, ayırt etme güçleri olsa dahi hukuken 'Sınırlı Ehliyetsiz' kategorisine girerler. Kendilerine yasal danışman atananlar da bu gruptadır. Ancak soruda 'kısıtlanmış' ifadesi net kullanıldığı ve ayırt etme gücü olduğu belirtildiği için, genel akademik sınıflandırmada kısıtlılar 'Sınırlı Ehliyetsiz' grubunda değerlendirilir. (Not: Bazı kaynak ayrımlarında kısıtlılar tam ehliyetsiz grubuna yaklaştırılsa da, ayırt etme gücü olan kısıtlılar sınırlı ehliyetsizdir; yasal temsilci onayıyla işlem yapabilirler.)",
+    "_part": 66
+  },
+  {
+    "id": "vat_066",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "iyiniyet-durustluk",
+    "subtopic": "Subjektif ve Objektif İyiniyet",
+    "q": "Hakların kazanılmasında ______ kuralı, hakların kullanılmasında ve borçların ifasında ise ______ kuralı geçerlidir.\n\nYukarıdaki cümlede boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+    "o": [
+      "Dürüstlük - İyiniyet",
+      "Subjektif İyiniyet - Objektif İyiniyet",
+      "Objektif İyiniyet - Subjektif İyiniyet",
+      "Kusursuzluk - Dürüstlük",
+      "Dürüstlük - Kusursuzluk"
+    ],
+    "a": 1,
+    "e": "TMK Madde 2 ve 3 uyarınca; hakların kazanılmasında (örneğin emin sıfatıyla zilyetten mal edinme) 'Subjektif İyiniyet' (bilmemek/bilmemesi gerekmemek) esastır. Hakların kullanılması ve borçların yerine getirilmesinde ise 'Objektif İyiniyet' yani 'Dürüstlük' kuralı geçerlidir.",
+    "_part": 67
+  },
+  {
+    "id": "vat_067",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hak-turleri",
+    "subtopic": "Özel Hakların Türleri",
+    "q": "Aşağıdakilerden hangisi kullanılmasıyla yeni bir hukuki durum yaratan, mevcut durumu değiştiren veya ortadan kaldıran 'yenilik doğuran' (inşai) haklardan biri değildir?",
+    "o": [
+      "Sözleşmeyi fesih hakkı",
+      "İstifa hakkı",
+      "Alım (iştira) hakkı",
+      "Velayet hakkı",
+      "Önalım (şufa) hakkı"
+    ],
+    "a": 3,
+    "e": "Velayet hakkı; anne ve babanın ergin olmayan çocukları üzerindeki hakimiyet hakkıdır ve 'mutlak haklar' grubunda yer alır. Yenilik doğuran bir hak değildir; sürekli kullanılan bir haktır. Diğer seçenekler (fesih, istifa, alım, önalım) kullanıldığında hukuki ilişkide bir değişiklik yaratan veya ilişkiyi sona erdiren yenilik doğuran haklardır.",
+    "_part": 68
+  },
+  {
+    "id": "vat_068",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuk-boslugu",
+    "subtopic": "Boşluk Türleri",
+    "q": "Kanunda, somut bir olaya uygulanacak hiçbir hükmün bulunmaması durumuna 'Kanun Boşluğu' denir. Aşağıdakilerden hangisi hakimin takdir yetkisini kullanarak doldurduğu, kanun koyucu tarafından bilerek ve isteyerek bırakılan boşluk türüdür?",
+    "o": [
+      "Açık Boşluk",
+      "Kapalı Boşluk",
+      "Kural İçi Boşluk",
+      "Hukuk Boşluğu",
+      "Gerçek Olmayan Boşluk"
+    ],
+    "a": 2,
+    "e": "Kural içi boşluk; kanun koyucunun bilerek ve isteyerek bıraktığı, hakimin takdir yetkisi (TMK m.4) ile doldurması beklenen boşluktur (örneğin 'haklı sebep' veya 'munzam kusur' gibi ifadeler). Açık ve kapalı boşluklar ise kanun koyucunun istemeden bıraktığı 'kural dışı' boşluklardır.",
+    "_part": 69
+  },
+  {
+    "id": "vat_069",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuki-olay-fiil",
+    "subtopic": "Hukuki Olay, Fiil ve İşlem",
+    "q": "İnsan iradesine bağlı olup olmadığına bakılmaksızın, hukuk düzeninin kendisine bir sonuç bağladığı olaylara 'Hukuki Olay' denir. Buna göre aşağıdakilerden hangisi dar anlamda hukuki olaydır (hukuki fiil veya işlem değildir)?",
+    "o": [
+      "Sözleşme yapmak",
+      "Vasiyetname düzenlemek",
+      "Doğum ve Ölüçüm",
+      "Haksız fiil işlemek",
+      "İkametgahı değiştirmek"
+    ],
+    "a": 2,
+    "e": "Doğum ve ölüm, kişinin iradesi dışında gerçekleşen biyolojik olaylardır ancak hukuk bunlara (kişilişin başlaması, mirasın geçmesi gibi) sonuçlar bağlar. Bu nedenle saf 'Hukuki Olay' niteliğindedir. Sözleşme ve vasiyetname 'Hukuki İşlem' (irade beyanı), haksız fiil ve ikametgah değiştirme ise 'Hukuki Fiil' kategorisine daha yakındır.",
+    "_part": 70
+  },
+  {
+    "id": "vat_070",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuk-dallari",
+    "subtopic": "Kamu Hukuku - Özel Hukuk Ayrımı",
+    "q": "Aşağıdaki hukuk dallarından hangisi, taraflar arasındaki eşitlik ilkesine dayanan ve irade özgürlüğünün hakim olduğu 'Özel Hukuk' dallarından biri değildir?",
+    "o": [
+      "Borçlar Hukuku",
+      "Ticaret Hukuku",
+      "Devletler Özel Hukuku",
+      "Medeni Hukuk",
+      "Vergi Hukuku"
+    ],
+    "a": 4,
+    "e": "Vergi Hukuku, devletin egemenlik gücüne dayanarak tek taraflı iradesiyle vergi saldığı, taraflar arasında ast-üst ilişkisinin bulunduğu bir 'Kamu Hukuku' dalıdır. Diğer seçenekler (Borçlar, Ticaret, Devletler Özel, Medeni) özel hukuk dallarıdır.",
+    "_part": 71
+  },
+  {
+    "id": "vat_071",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "sosyal-duzen-kurallari",
+    "subtopic": "Sosyal Düzen Kuralları ve Yaptırımlar",
+    "q": "Hukuk kurallarını diğer sosyal düzen kurallarından (din, ahlak, görgü) ayıran temel fark aşağıdakilerden hangisidir?",
+    "o": [
+      "Toplumsal ilişkileri düzenlemesi",
+      "Zaman içerisinde değişikliğe uğraması",
+      "Devlet gücüne dayalı maddi yaptırım içermesi",
+      "Genel ve soyut nitelikte olması",
+      "İnsan davranışlarını konu edinmesi"
+    ],
+    "a": 2,
+    "e": "Hukuk kuralları ile diğer sosyal düzen kuralları (din, ahlak, görgü) arasındaki en temel ve ayırt edici fark yaptırımın (müeyyidenin) niteliğidir. Diğer kuralların yaptırımı maneviyken (ayıplama, dışlama, günahkarlık hissi), hukuk kurallarının yaptırımı devlet gücüne dayalı maddi (cebri) niteliktedir.",
+    "_part": 72
+  },
+  {
+    "id": "vat_072",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-kaynaklari",
+    "subtopic": "Hukukun Kaynakları ve Normlar Hiyerarşisi",
+    "q": "Türk hukuk sisteminde 'hakimin hukuk yaratması' kurumu ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "o": [
+      "Kanunda bir hüküm bulunmaması durumunda (Kanun boşluğu) hakim hukuk yaratır.",
+      "Hukuk yaratma yetkisi, sadece Yargıtay ve Danıştay'a tanınmış bir yetkidir.",
+      "Hakimin yarattığı hukuk kuralı, üst mahkemeleri bağlayıcı niteliktedir.",
+      "Hakim, önüne gelen uyuşmazlıkta hem yazılı hem de yazısız kaynaklarda hüküm bulamazsa (Hukuk boşluğu) hukuk yaratır.",
+      "Hakim, takdir yetkisini kullanarak her durumda yeni bir kural koyabilir."
+    ],
+    "a": 3,
+    "e": "Türk Medeni Kanunu'nun 1. maddesine göre; hakim, kanunda (yazılı kaynaklar) ve örf ve adet hukukunda (yazısız kaynaklar) uygulanacak bir hüküm bulunmadığı takdirde, kanun koyucu gibi hareket ederek hüküm kurar. Bu durum 'Hukuk Boşluğu' olarak adlandırılır ve hakim bu durumda hukuk yaratır. Kanun boşluğunda ise hakim takdir yetkisini kullanır veya kıyas yapar, hukuk yaratmaz.",
+    "_part": 73
+  },
+  {
+    "id": "vat_073",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuki-yaptirimlar",
+    "subtopic": "Hükümsüzlük Türleri",
+    "q": "Bir hukukî işlemin kurucu unsurlarından en az birinin eksik olması durumunda ortaya çıkan ve işlemin hukuk aleminde hiç doğmamış sayılmasına neden olan yaptırım türü aşağıdakilerden hangisidir?",
+    "o": [
+      "Mutlak Butlan",
+      "Nisbi Butlan",
+      "Yokluk",
+      "İptal",
+      "Tek Taraflı Bağlamazlık"
+    ],
+    "a": 2,
+    "e": "Hukuki işlemin 'kurucu unsurlarının' eksik olması haline 'Yokluk' denir (Örneğin resmi memur önünde yapılmayan evlilik). İşlem hukuk aleminde hiç doğmamış sayılır. 'Mutlak butlan'da ise işlem doğmuştur ancak emredici hükümlere aykırılık nedeniyle baştan itibaren geçersizdir.",
+    "_part": 74
+  },
+  {
+    "id": "vat_074",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "ehliyet-kavrami",
+    "subtopic": "Hak ve Fiil Ehliyeti",
+    "q": "Türk Medeni Kanunu'na göre, aşağıdakilerden hangisi 'tam ehliyetli' grubunda yer alan bir kişinin özelliklerinden biri değildir?",
+    "o": [
+      "Ayırt etme gücüne sahip olması",
+      "Ergin (reşit) olması",
+      "Kısıtlı (mahcur) olmaması",
+      "Fiil ehliyetine tam olarak sahip olması",
+      "Yasal danışman atanmış olması"
+    ],
+    "a": 4,
+    "e": "Tam ehliyetliler; ayırt etme gücüne sahip, ergin ve kısıtlı olmayan kişilerdir. Kendisine 'yasal danışman' atanan kişiler ise 'Sınırlı Ehliyetli' grubunda yer alır. Yasal danışman atanması, kişinin ehliyetini belirli işlemler açısından sınırlar.",
+    "_part": 75
+  },
+  {
+    "id": "vat_075",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-temel-ilkeleri",
+    "subtopic": "İyiniyet ve Dürüstlük Kuralı",
+    "q": "I. Hakların kazanılmasında geçerli olan ilkedir.\nII. Borçların ifasında ve hakların kullanılmasında geçerli olan ilkedir.\nIII. Objektif iyiniyet olarak da adlandırılır.\n\nYukarıdaki öncüllerde özellikleri verilen kavramlar aşağıdakilerin hangisinde doğru eşleştirilmiştir?",
+    "o": [
+      "I: Dürüstlük - II: İyiniyet - III: Dürüstlük",
+      "I: İyiniyet - II: Dürüstlük - III: İyiniyet",
+      "I: İyiniyet - II: Dürüstlük - III: Dürüstlük",
+      "I: Dürüstlük - II: İyiniyet - III: İyiniyet",
+      "I: İyiniyet - II: İyiniyet - III: Dürüstlük"
+    ],
+    "a": 2,
+    "e": "Türk Medeni Kanunu'na göre; hakların kazanılmasında 'İyiniyet' (Sübjektif iyiniyet), hakların kullanılması ve borçların ifasında ise 'Dürüstlük' (Objektif iyiniyet) kuralı geçerlidir. Dolayısıyla I. öncül İyiniyet, II. ve III. öncüller Dürüstlük kuralını tanımlar.",
+    "_part": 76
+  },
+  {
+    "id": "vat_076",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuk-dallari",
+    "subtopic": "Kamu Hukuku ve Özel Hukuk Ayrımı",
+    "q": "Aşağıdakilerden hangisi 'Özel Hukuk'un dallarından biri değildir?",
+    "o": [
+      "Medeni Hukuk",
+      "Borçlar Hukuku",
+      "Ticaret Hukuku",
+      "Vergi Hukuku",
+      "Devletler Özel Hukuku"
+    ],
+    "a": 3,
+    "e": "Vergi Hukuku, devlet ile birey arasındaki üstünlük-astlık ilişkisini düzenleyen ve kamu gücünün kullanıldığı 'Kamu Hukuku'nun bir alt dalıdır. Diğer seçenekler (Medeni, Borçlar, Ticaret, Devletler Özel) eşitler arası ilişkiyi düzenleyen Özel Hukuk dallarıdır.",
+    "_part": 77
+  },
+  {
+    "id": "vat_077",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "ceza-hukuku-ilkeleri",
+    "subtopic": "Suç ve Cezada Kanunilik",
+    "q": "Ceza hukukuna hakim olan 'Kanunsuz suç ve ceza olmaz' (Kanunilik) ilkesi gereğince aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Suç ve cezalar ancak kanunla konulur.",
+      "Ceza hukukunda kıyas yasaktır.",
+      "İdarenin düzenleyici işlemleriyle (yönetmelik vb.) suç ve ceza oluşturulabilir.",
+      "Ceza kanunları, failin aleyhine olacak şekilde geçmişe yürütülemez.",
+      "Kanunlarda suç tanımları açık ve belirgin olmalıdır."
+    ],
+    "a": 2,
+    "e": "Kanunilik ilkesinin en temel sonucu, suç ve cezaların ancak TBMM tarafından çıkarılan 'Kanun' ile belirlenmesidir. İdarenin yönetmelik, kararname veya genelge gibi düzenleyici işlemleriyle suç ve ceza ihdas edilemez. Bu yetki devredilemez.",
+    "_part": 78
+  },
+  {
+    "id": "vat_078",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "kisilik-kavrami",
+    "subtopic": "Kişiliğin Başlangıcı ve Sona Ermesi",
+    "q": "Türk Medeni Kanunu'na göre gerçek kişilik ne zaman başlar?",
+    "o": [
+      "Ana rahmine düşüldüğü anda",
+      "Sağ ve tam doğumun gerçekleştiği anda",
+      "Nüfus kütüğüne tescil edildiği anda",
+      "Ayırt etme gücünün kazanıldığı anda",
+      "Ergin (reşit) olunduğu anda"
+    ],
+    "a": 1,
+    "e": "Türk Medeni Kanunu Madde 28'e göre kişilik, çocuğun sağ olarak tamamıyla doğduğu anda başlar. Ancak, çocuk sağ doğmak koşuluyla, ana rahmine düştüğü andan başlayarak hak ehliyetini elde eder. Soruda 'gerçek kişiliğin ne zaman başladığı' (başlangıç anı) sorulduğu için cevap 'sağ ve tam doğum'dur.",
+    "_part": 79
+  },
+  {
+    "id": "vat_079",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuk-kurallari-uygulama",
+    "subtopic": "Hukuk Kurallarının Yer Bakımından Uygulanması",
+    "q": "Türkiye Cumhuriyeti sınırları içerisinde işlenen bir suçta, failin vatandaşlığına bakılmaksızın Türk kanunlarının uygulanmasını ifade eden ilke aşağıdakilerden hangisidir?",
+    "o": [
+      "Şahsilik İlkesi",
+      "Mülkilik (Yersellik) İlkesi",
+      "Evrensellik İlkesi",
+      "Koruma İlkesi",
+      "Geriye Yürümezlik İlkesi"
+    ],
+    "a": 1,
+    "e": "Mülkilik (Yersellik) ilkesi, bir devletin egemenlik sınırları (ülkesi) içerisinde gerçekleşen hukuki olaylara, ilgili kişilerin vatandaşlığına bakılmaksızın o devletin kanunlarının uygulanmasıdır. Türk Ceza Kanunu'nda asıl olan ilke mülkiliktir.",
+    "_part": 80
+  },
+  {
+    "id": "vat_080",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "haklarin-turleri",
+    "subtopic": "Yenilik Doğuran Haklar",
+    "q": "Kullanılmasıyla birlikte yeni bir hukuki durum yaratan, mevcut bir hukuki durumu değiştiren veya ortadan kaldıran haklara 'Yenilik Doğuran (İnşai) Haklar' denir. Buna göre, aşağıdakilerden hangisi yenilik doğuran bir hak değildir?",
+    "o": [
+      "İstifa hakkı",
+      "Sözleşmeyi fesih hakkı",
+      "Velayet hakkı",
+      "Önalım (Şufa) hakkı",
+      "Boşanma davası açma hakkı"
+    ],
+    "a": 2,
+    "e": "Velayet hakkı, anne ve babanın ergin olmayan çocukları üzerindeki bakım ve gözetim yetkisini ifade eder ve 'Mutlak Haklar' kategorisindedir; sürekli kullanılan bir haktır, tek bir kullanımla tükenmez veya durumu değiştirmez. Diğer seçenekler (İstifa, Fesih, Önalım, Boşanma) kullanıldığında hukuki durumu değiştiren veya sona erdiren yenilik doğuran haklardır.",
+    "_part": 81
+  },
+  {
+    "id": "vat_081",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "sosyal-duzen-kurallari-ve-mueyyideler",
+    "subtopic": "Sosyal Düzen Kuralları ve Müeyyideler",
+    "q": "Hukuk kurallarını diğer sosyal düzen kurallarından ayıran en temel özellik aşağıdakilerden hangisidir?",
+    "o": [
+      "Toplumsal barışı sağlamayı amaçlaması",
+      "İnsan davranışlarını düzenlemesi",
+      "Devlet gücüne dayalı maddi yaptırım içermesi",
+      "Zamanla değişebilir nitelikte olması",
+      "Genel ve soyut nitelik taşıması"
+    ],
+    "a": 2,
+    "e": "Din, ahlak ve görgü kuralları manevi yaptırımlarla (ayıplama, dışlanma, günahkar sayılma) desteklenirken; hukuk kuralları devlet gücüyle desteklenen 'maddi' yaptırımlara (ceza, cebri icra, tazminat vb.) sahiptir. Bu, hukuk kurallarının en ayırt edici özelliğidir.",
+    "_part": 82
+  },
+  {
+    "id": "vat_082",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-kaynaklari",
+    "subtopic": "Hukukun Kaynakları",
+    "q": "Türk Medeni Kanunu'nun 1. maddesine göre, hakim önüne gelen bir uyuşmazlıkta uygulanacak yazılı bir hüküm bulamazsa öncelikle aşağıdakilerden hangisine başvurmalıdır?",
+    "o": [
+      "Bilimsel içtihatlara (Doktrin)",
+      "Yargısal iştihatlara (Emsal Kararlar)",
+      "Örf ve adet hukukuna",
+      "Hukuk yaratma yetkisine",
+      "Uluslararası antlaşmalara"
+    ],
+    "a": 2,
+    "e": "TMK Madde 1'e göre kanunda uygulanabilir bir hüküm yoksa (kanun boşluğu), hakim 'örf ve adet hukukuna' göre karar verir. Eğer orada da hüküm yoksa (hukuk boşluğu), kendisi kanun koyucu olsaydı nasıl bir kural koyacak idiyse ona göre karar verir (Hukuk yaratma). Bilimsel ve yargısal içtihatlar ise yardımcı kaynaktır, bağlayıcı değildir.",
+    "_part": 83
+  },
+  {
+    "id": "vat_083",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuki-yaptirim-turleri",
+    "subtopic": "Hukuki Yaptırım Türleri",
+    "q": "Hukuki işlemin kurucu unsurlarının tam olmasına rağmen, geçerlilik şartlarından birinin eksik olması (örneğin ayırt etme gücü olmayan birinin sözleşme yapması) durumunda ortaya çıkan yaptırım türü aşağıdakilerden hangisidir?",
+    "o": [
+      "Yokluk",
+      "Mutlak Butlan",
+      "Nispi Butlan",
+      "Tek Taraflı Bağlamazlık",
+      "İptal"
+    ],
+    "a": 1,
+    "e": "İşlemin kurucu unsurları (örneğin irade beyanı) mevcutsa ancak kanunun emrettiği geçerlilik şartları (örneğin tam ehliyetsizlik, şekle aykırılık, konusu ahlaka aykırılık) ihlal edilmişse, o işlem baştan itibaren geçersizdir ve sonradan düzeltilemez. Bu duruma 'Mutlak Butlan' denir. Kurucu unsur eksik olsaydı (örneğin resmi memur önünde yapılmayan evlilik) cevap 'Yokluk' olurdu.",
+    "_part": 84
+  },
+  {
+    "id": "vat_084",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "haklarin-kazanilmasi-ve-kullanilmasi",
+    "subtopic": "Hakların Kazanılması ve Kullanılması",
+    "q": "I. Hakların kazanılmasında geçerli olan ilke 'Subjektif İyiniyet'tir.\nII. Hakların kullanılmasında ve borçların ifasında geçerli olan ilke 'Dürüstlük Kuralı'dır.\nIII. Bir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.\n\nYukarıdaki ifadelerden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "TMK Madde 2 ve 3'e göre; hakların kazanılmasında (örneğin emin sıfatıyla zilyetten mal edinimi) kişinin durumu bilmemesi yani 'iyiniyet' (subjektif iyiniyet) esastır. Hakların kullanılması ve borçların yerine getirilmesinde ise 'dürüstlük kuralı' (objektif iyiniyet) geçerlidir. Ayrıca TMK m.2/2 uyarınca hakkın kötüye kullanımı korunmaz. Tüm öncüller doğrudur.",
+    "_part": 85
+  },
+  {
+    "id": "vat_085",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuk-kurallarinin-nitelikleri",
+    "subtopic": "Hukuk Kurallarının Nitelikleri",
+    "q": "Aksine bir hukuki işlem yapılması mümkün olmayan, tarafların kendi iradeleriyle değiştiremeyecekleri hukuk kurallarına ne ad verilir?",
+    "o": [
+      "Tamamlayıcı hukuk kuralları",
+      "Yorumlayıcı hukuk kuralları",
+      "Emredici hukuk kuralları",
+      "Tanımlayıcı hukuk kuralları",
+      "Yetki verici hukuk kuralları"
+    ],
+    "a": 2,
+    "e": "Kamu düzenini, genel ahlakı ve zayıfları korumak amacıyla konulan ve tarafların aksini kararlaştüramadığı kurallara 'Emredici Hukuk Kuralları' denir. Tamamlayıcı kurallar ise taraflar aksini kararlaştırmadıkça uygulanan kurallardır.",
+    "_part": 86
+  },
+  {
+    "id": "vat_086",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "ehliyet-turleri",
+    "subtopic": "Ehliyet Türleri",
+    "q": "Ayırt etme gücüne sahip, ergin ancak kısıtlanmış bir kişinin ehliyet durumu aşağıdakilerden hangisidir?",
+    "o": [
+      "Tam ehliyetli",
+      "Sınırlı ehliyetli",
+      "Tam ehliyetsiz",
+      "Sınırlı ehliyetsiz",
+      "Kısmi ehliyetli"
+    ],
+    "a": 3,
+    "e": "Ayırt etme gücüne sahip ve ergin olmasına rağmen mahkeme kararıyla kısıtlanmış (hacir altına alınmış) kişiler ile ayırt etme gücüne sahip küçükler 'Sınırlı Ehliyetsiz' grubuna girer. Bu kişiler kendilerini borç altına sokan işlemleri yasal temsilcilerinin rızasıyla yapabilirler.",
+    "_part": 87
+  },
+  {
+    "id": "vat_087",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hak-turleri",
+    "subtopic": "Hak Türleri",
+    "q": "Kullanılmalarıyla birlikte var olan hukuki durumu değiştiren, ortadan kaldıran veya yeni bir hukuki durum yaratan haklara 'Yenilik Doğuran Haklar' denir. Buna göre, aşağıdakilerden hangisi 'Bozucu Yenilik Doğuran' bir haktır?",
+    "o": [
+      "istifa hakkı",
+      "Alım hakkı (İştira)",
+      "Önalım hakkı (Şufa)",
+      "Geri alım hakkı (Vefa)",
+      "Ayıplı malın değiştirilmesini isteme hakkı"
+    ],
+    "a": 0,
+    "e": "Yenilik doğuran haklar üçtür: Kurucu (örn. alım), Değiştirici (örn. ayıplı malda indirim isteme) ve Bozucu. İstifa, azil, fesih, iptal gibi haklar mevcut hukuki ilişkiyi sona erdirdiği işin 'Bozucu Yenilik Doğuran Haklar' kategorisindedir.",
+    "_part": 88
+  },
+  {
+    "id": "vat_088",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukta-bosluk-turleri",
+    "subtopic": "Hukukta Boşluk Türleri",
+    "q": "Kanun koyucunun bilerek ve isteyerek bıraktığı, hakimin takdir yetkisiyle doldurulması hedeflenen boşluk türü aşağıdakilerden hangisidir?",
+    "o": [
+      "Açık boşluk",
+      "Örtülü boşluk",
+      "Kural içi boşluk",
+      "Gerçek olmayan boşluk",
+      "Hukuk boşluğu"
+    ],
+    "a": 2,
+    "e": "Kanun koyucunun konuyu düzenlediği ancak somut olayın özelliklerine göre çözümün hakimin takdirine bırakıldığı (örn. 'hakim hakkaniyete göre karar verir' veya 'haklı sebeplerin varlığı halinde' ifadeleri) durumlar 'Kural İçi Boşluk' olarak adlandırılır.",
+    "_part": 89
+  },
+  {
+    "id": "vat_089",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "kisilik-hukuku",
+    "subtopic": "Kişilik Hukuku",
+    "q": "Türk hukukuna göre gerçek kişilik ne zaman başlar?",
+    "o": [
+      "Ana rahmine düşüldüğü anda",
+      "Doğum sancılarının başladığı anda",
+      "Çocuğun tam ve sağ doğması şartıyla ana rahmine düştüğü anda",
+      "Tam ve sağ doğumun gerçekleştiği anda",
+      "Nüfus kütüğüne kayıt edildiği anda"
+    ],
+    "a": 3,
+    "e": "TMK Madde 28'e göre kişilik, çocuğun sağ olarak tamamıyla doğduğu anda başlar ve ölümle sona erer. 'Tam ve sağ doğmak şartıyla ana rahmine düştüğü an' hak ehliyetinin başlangıcıdır, kişiliğin başlangıcı ise doğum anıdır.",
+    "_part": 90
+  },
+  {
+    "id": "vat_090",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "ozel-hukuk-dallari",
+    "subtopic": "Özel Hukuk Dalları",
+    "q": "Aşağıdakilerden hangisi Medeni Hukuk'un alt dallarından biri değildir?",
+    "o": [
+      "Kişiler Hukuku",
+      "Aile Hukuku",
+      "Miras Hukuku",
+      "Eşya Hukuku",
+      "Ticaret Hukuku"
+    ],
+    "a": 4,
+    "e": "Medeni Hukuk'un dört alt dalı vardır: Kişiler Hukuku, Aile Hukuku, Miras Hukuku ve Eşya Hukuku. Borçlar Hukuku ayrı bir kanun olsa da doktrinde Medeni Hukuk'un tamamlayıcısı sayılır. Ancak 'Ticaret Hukuku' Türk Ticaret Kanunu ile düzenlenen ayrı ve bağımsız bir özel hukuk dalıdır.",
+    "_part": 91
+  },
+  {
+    "id": "vat_091",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "sosyal-duzen-kurallari",
+    "subtopic": "Sosyal Düzen Kuralları",
+    "q": "Sosyal hayatı düzenleyen kurallar ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Hukuk kuralları, devlet gücüyle desteklenen maddi yaptırıma sahip tek sosyal düzen kuralıdır.",
+      "Ahlak kuralları, kişinin kendi vicdanına (sübjektif) ve topluma karşı (objektif) ödevlerini düzenler.",
+      "Görgü kurallarına uyulmaması durumunda karşılaşılan tepki genellikle 'ayıplama' veya 'kınama' şeklindedir.",
+      "Din kuralları, uhrevi nitelik taşısa da toplumsal düzenin sağlanmasında etkili olabilir.",
+      "Sosyal düzen kuralları arasındaki çatışmada her zaman ve sadece hukuk kuralları uygulanır, diğer kurallar yok sayılır."
+    ],
+    "a": 4,
+    "e": "Sosyal düzen kuralları birbirini destekler ve tamamlar. Hukuk kuralları üstün ve bağlayıcı olsa da, bir hukuk kuralı aynı zamanda ahlak veya din kuralı ile örtüşebilir (örneğin hırsızlık). Diğer kurallar 'yok sayılmaz', sadece maddi yaptırım gücü hukukta mevcuttur. Çatışma durumunda hukuk kurallarının maddi yaptırımı devreye girer ancak bu durum diğer kuralların sosyolojik varlığını ortadan kaldırmaz.",
+    "_part": 92
+  },
+  {
+    "id": "vat_092",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuki-yaptirimlar",
+    "subtopic": "Hukuki Yaptırımlar",
+    "q": "Bir hukuki işlemin kurucu unsurlarından birinin veya birkaçının bulunmaması haline 'yokluk' denir. Buna göre, aşağıdakilerden hangisi yokluk yaptırımına tabi bir işlemdir?",
+    "o": [
+      "Ayırt etme gücü olmayan birinin evlenmesi",
+      "Resmi nikah memuru önünde yapılmayan evlilik (İmam nikahı)",
+      "Tehdit altında imzalanan bir sözleşme",
+      "Konusu hukuka veya ahlaka aykırı olan sözleşme",
+      "Muvazaalı (danışıklı) yapılan gayrimenkul satışı"
+    ],
+    "a": 1,
+    "e": "Resmi evlendirme memuru, evlilik akdinin 'kurucu unsuru'dur. Bu unsurun eksikliği işlemin hiç doğmamasına (Yokluk) neden olur. Diğer seçeneklerdeki durumlar (ayırt etme gücü yokluğu, tehdit, hukuka aykırılık, muvazaa) işlemin kurulduğu ancak geçersiz olduğu 'Mutlak Butlan' veya 'Nisbi Butlan' (İptal Edilebilirlik) halleridir.",
+    "_part": 93
+  },
+  {
+    "id": "vat_093",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukukun-kaynaklari",
+    "subtopic": "Hukukun Kaynakları",
+    "q": "Türk hukuk sisteminde hakimin hukuku uygularken başvuracağı kaynakların hiyerarşisi ve bağlayıcılığı ile ilgili;\n\nI. Hakim, önüne gelen bir uyuşmazlıkta yazılı bir hüküm bulamazsa örf ve adet hukukuna başvurur.\nII. Bilimsel görüşler (Doktrin) ve Yargısal kararlar (İçtihatlar) hakim için bağlayıcı kaynaklardır.\nIII. Yargıtay İçtihadı Birleştirme Kararları, kanun gücünde olup tüm mahkemeleri bağlar.\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 2,
+    "e": "I. öncül doğrudur; Medeni Kanun m.1 gereği yazılı kaynak yoksa örf ve adete bakılır. III. öncül doğrudur; İçtihadı Birleştirme Kararları yazılı ve bağlayıcı kaynak statüsündedir. Ancak II. öncül yanlıştır; Doktrin ve sıradan yargı kararları 'yardımcı kaynak'tır ve hakim için bağlayıcı değildir.",
+    "_part": 94
+  },
+  {
+    "id": "vat_094",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuk-kavramlari",
+    "subtopic": "Hukuk Türleri ve Kavramları",
+    "q": "Bir ülkede belli bir dönemde yürürlükte bulunan, yetkili makamlarca konulmuş yazılı hukuk kuralları ile toplumda uygulanan yazısız hukuk kurallarının (örf ve adet) tamamına ne ad verilir?",
+    "o": [
+      "Mevzu Hukuk",
+      "Müspet (Pozitif) Hukuk",
+      "Tabii (Doğal) Hukuk",
+      "Tarihi Hukuk",
+      "İdeal Hukuk"
+    ],
+    "a": 1,
+    "e": "Müspet (Pozitif) Hukuk, bir ülkede belli bir zamanda yürürlükte olan yazılı ve yazısız hukuk kurallarının tamamını ifade eder. Mevzu hukuk sadece 'yazılı' olanları kapsar. Tabii hukuk ise olması gereken, ideal hukuku ifade eder.",
+    "_part": 95
+  },
+  {
+    "id": "vat_095",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "ehliyet-kavramlari",
+    "subtopic": "Ehliyet ve Kişilik",
+    "q": "Fiil ehliyeti, kişinin kendi fiilleriyle hak edinebilmesi ve borç altına girebilmesidir. Aşağıdakilerden hangisi tam fiil ehliyetine sahip olmanın şartlarından biri değildir?",
+    "o": [
+      "Ergin olmak",
+      "Ayırt etme gücüne sahip olmak",
+      "Kısıtlı olmamak",
+      "Gerçek kişilik sahibi olmak",
+      "Okur-yazar olmak"
+    ],
+    "a": 4,
+    "e": "Tam fiil ehliyetinin üç temel şartı vardır: Ergin olmak (Rüşt), Ayırt etme gücüne sahip olmak (Mümeyyiz) ve Kısıtlı olmamak (Mahcur olmamak). Gerçek kişilik zaten insanın doğumla kazandığı bir statüdür ancak fiil ehliyeti için özel şart değildir, zeminidir. 'Okur-yazar olmak' ise fiil ehliyetinin genel bir şartı değildir.",
+    "_part": 96
+  },
+  {
+    "id": "vat_096",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "iyi-niyet-durustluk",
+    "subtopic": "İyiniyet ve Dürüstlük Kuralı",
+    "q": "Medeni Kanun'un 2. maddesinde düzenlenen 'Dürüstlük Kuralı' (Objektif İyiniyet) aşağıdaki durumların hangisinde uygulama alanı bulmaz?",
+    "o": [
+      "Hakların kullanılmasında",
+      "Borçların ifa edilmesinde",
+      "Sözleşmelerin yorumlanmasında",
+      "Bir hakkın kazanılmasında",
+      "Kanuna karşı hilenin tespitinde"
+    ],
+    "a": 3,
+    "e": "Dürüstlük kuralı (Objektif İyiniyet); hakların kullanılması ve borçların ifasında geçerlidir (TMK m.2). Ancak bir hakkın 'kazanılmasında' geçerli olan ilke 'Sübjektif İyiniyet'tir (TMK m.3). Örneğin, çalıntı bir malı bilmeden satın alarak mülkiyeti kazanmak sübjektif iyiniyetle ilgilidir.",
+    "_part": 97
+  },
+  {
+    "id": "vat_097",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hak-turleri",
+    "subtopic": "Hakların Türleri",
+    "q": "Haklar, ileri sürülebileceği çevreye göre 'Mutlak Haklar' ve 'Nisbi Haklar' olarak ikiye ayrılır. Buna göre aşağıdakilerden hangisi herkese karşı ileri sürülebilen mutlak haklardan biri değildir?",
+    "o": [
+      "Mülkiyet hakkı",
+      "Telif hakkı",
+      "Alacak hakkı",
+      "Velayet hakkı",
+      "İntifa hakkı"
+    ],
+    "a": 2,
+    "e": "Alacak hakkı, sadece hukuki ilişkinin tarafı olan borçluya karşı ileri sürülebilen 'Nisbi' bir haktır. Diğer seçenekler (Mülkiyet, Telif, Velayet, İntifa) herkese karşı ileri sürülebilen mutlak haklar kategorisindedir.",
+    "_part": 98
+  },
+  {
+    "id": "vat_098",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "gaiplik",
+    "subtopic": "Kişiliğin Sona Ermesi: Gaiplik",
+    "q": "Ölüm tehlikesi içinde kaybolma veya kendisinden uzun süre haber alınamama durumlarında mahkeme kararı ile kişiliğin sona ermesine gaiplik denir. Gaiplik ile ilgili aşağıdaki eşleştirmelerden hangisi doğrudur?",
+    "o": [
+      "Ölüm tehlikesi: 1 yıl bekleme süresi - Miras için teminat süresi: 5 yıl",
+      "Haber alamama: 5 yıl bekleme süresi - Miras için teminat süresi: 15 yıl",
+      "Ölüm tehlikesi: 5 yıl bekleme süresi - Miras için teminat süresi: 10 yıl",
+      "Haber alamama: 1 yıl bekleme süresi - Miras için teminat süresi: 5 yıl",
+      "Ölüm tehlikesi: 6 ay bekleme süresi - Miras için teminat süresi: 2 yıl"
+    ],
+    "a": 1,
+    "e": "Gaiplik süreleri şöyledir: Ölüm tehlikesi içinde kaybolmada başvuru için 1 yıl, miras teminatı için 5 yıl beklenir. Uzun süre haber alamamada ise başvuru için 5 yıl, miras teminatı için 15 yıl (veya gaip 100 yaşına gelene kadar) beklenir. B seçeneği bu süreleri doğru eşleştirmiştir.",
+    "_part": 99
+  },
+  {
+    "id": "vat_099",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "hukuk-dallari",
+    "subtopic": "Kamu Hukuku - Özel Hukuk Ayrımı",
+    "q": "Aşağıdakilerden hangisi Özel Hukuk'un bir dalı olmayıp Kamu Hukuku kapsamında yer alır?",
+    "o": [
+      "Borçlar Hukuku",
+      "Ticaret Hukuku",
+      "Devletler Özel Hukuku",
+      "İcra ve İflas Hukuku",
+      "Medeni Hukuk"
+    ],
+    "a": 3,
+    "e": "İcra ve İflas Hukuku, devlet gücünün (icra daireleri, mahkemeler) yoğun kullanıldığı ve kamu yararının gözetildiği bir alan olduğundan genellikle Karma Hukuk veya Kamu Hukuku dalı olarak sınıflandırılır (ÖSYM müfredatında Kamu Hukuku içinde değerlendirilir). Diğer seçeneklerin tamamı Özel Hukuk dallarıdır.",
+    "_part": 100
+  },
+  {
+    "id": "vat_100",
+    "topicId": "AQ0Zph76dzPdr87H1uKa",
+    "subtopicId": "yorum-yontemleri",
+    "subtopic": "Hukukta Yorum Yöntemleri",
+    "q": "Bir hukuk kuralının, konulduğu zamanki kanun koyucunun iradesi yerine, kuralın uygulandığı zamanki toplumsal ihtiyaçlara ve amaca göre yorumlanması gerektiğini savunan yorum yöntemi aşağıdakilerden hangisidir?",
+    "o": [
+      "Lafzi (Sözel) Yorum",
+      "Tarihi Yorum",
+      "Gai (Amaçsal) Yorum",
+      "Sistematik Yorum",
+      "Kıyas"
+    ],
+    "a": 2,
+    "e": "Gai (Amaçsal) Yorum, kanunun metninden ziyade, kanunun konuluş amacına ve güncel ihtiyaçlara göre yorumlanmasını esas alır. Tarihi yorum kanun koyucunun o anki iradesine, lafzi yorum kelime anlamına, sistematik yorum ise kanunun bütünü içindeki yerine bakar.",
+    "_part": 101
+  },
+  {
+    "id": "HG_001",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hukuk-kurallari",
+    "subtopic": "Hukuk Kurallarının Özellikleri",
+    "q": "Aşağıdakilerden hangisi hukuk kurallarının diğer sosyal düzen kurallarından temel farkını oluşturan en belirgin özelliktir?",
+    "o": [
+      "Toplumsal yaşamı düzenlemesi",
+      "Manevi yaptırıma sahip olması",
+      "Devlet gücüyle desteklenmesi",
+      "Yazılı olması zorunluluğu",
+      "İnsan davranışlarını konu alması"
+    ],
+    "a": 2,
+    "e": "Hukuk kurallarını diğerlerinden ayıran temel özellik, ihlal edildiğinde devlet gücüyle (cebir) desteklenen maddi bir yaptırıma sahip olmasıdır.",
+    "_part": 102,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_002",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yaptirim-turleri",
+    "subtopic": "Hukuki Yaptırımlar",
+    "q": "Bir hukuk kuralının ihlali sonucu ortaya çıkan ve hukuka aykırı işlemin hukuk dünyasındaki sonuç doğurmaması durumuna ne ad verilir?",
+    "o": [
+      "İptal",
+      "Tazminat",
+      "Ceza",
+      "Geçersizlik",
+      "Cebri icra"
+    ],
+    "a": 3,
+    "e": "Geçersizlik (hükümsüzlük), bir işlemin kurucu unsurları tam olsa bile geçerlilik şartlarını taşımaması nedeniyle sonuç doğurmamasıdır.",
+    "_part": 103,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_003",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hukuk-dallari",
+    "subtopic": "Hukuk Dalları",
+    "q": "Aşağıdakilerden hangisi kamu hukuku dalları arasında yer almaz?",
+    "o": [
+      "Anayasa Hukuku",
+      "İdare Hukuku",
+      "Ceza Hukuku",
+      "Medeni Hukuk",
+      "Vergi Hukuku"
+    ],
+    "a": 3,
+    "e": "Medeni Hukuk, özel hukuk dallarından biridir. Kamu hukuku; devletin egemenlik yetkisini kullandığı alanları düzenler.",
+    "_part": 104,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_004",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "normlar-hiyerarsisi",
+    "subtopic": "Normlar Hiyerarşisi",
+    "q": "Normlar hiyerarşisine göre aşağıdakilerden hangisi diğerlerinden daha üstün bir konumdadır?",
+    "o": [
+      "Yönetmelik",
+      "Cumhurbaşkanlığı Kararnamesi",
+      "Kanun",
+      "Anayasa",
+      "Genelge"
+    ],
+    "a": 3,
+    "e": "Normlar hiyerarşisinde en üstte Anayasa bulunur. Kanunlar Anayasa'ya, Cumhurbaşkanlığı Kararnameleri kanunlara aykırı olamaz.",
+    "_part": 105,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_005",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yargi-turleri",
+    "subtopic": "Yargı Kolları",
+    "q": "İdari işlemlerden kaynaklanan uyuşmazlıkların çözümünde görevli olan yargı kolu aşağıdakilerden hangisidir?",
+    "o": [
+      "Adli Yargı",
+      "İdari Yargı",
+      "Uyuşmazlık Mahkemesi",
+      "Anayasa Mahkemesi",
+      "Sayıştay"
+    ],
+    "a": 1,
+    "e": "İdari yargı, idarenin eylem ve işlemlerinden doğan uyuşmazlıkları çözer. Adli yargı ise özel hukuk ve ceza hukuku uyuşmazlıklarına bakar.",
+    "_part": 106,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_006",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hak-turleri",
+    "subtopic": "Hak Türleri",
+    "q": "Herkesin herkese karşı ileri sürebildiği, sahibine en geniş yetkiler tanıyan mutlak haklara ne ad verilir?",
+    "o": [
+      "Nispi hak",
+      "Alacak hakkı",
+      "Mülkiyet hakkı",
+      "Kişilik hakkı",
+      "Borç hakkı"
+    ],
+    "a": 2,
+    "e": "Mülkiyet hakkı, eşya üzerinde en geniş yetkiyi veren mutlak bir haktır. Nispi haklar sadece belirli kişilere karşı ileri sürülebilir.",
+    "_part": 107,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_007",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "ehliyet",
+    "subtopic": "Fiil Ehliyeti",
+    "q": "Fiil ehliyetine sahip olabilmek için gerekli olan temel şartlar aşağıdakilerin hangisinde doğru verilmiştir?",
+    "o": [
+      "Reşit olmak, ayırt etme gücüne sahip olmak",
+      "Sadece reşit olmak",
+      "Sadece kısıtlı olmamak",
+      "Sadece ayırt etme gücü",
+      "Vatandaş olmak"
+    ],
+    "a": 0,
+    "e": "Tam ehliyetli olmak için ayırt etme gücüne sahip olmak, ergin (reşit) olmak ve kısıtlı olmamak gerekir.",
+    "_part": 108,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_008",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hukukun-kaynaklari",
+    "subtopic": "Hukukun Kaynakları",
+    "q": "Yazılı olmayan hukuk kurallarının (örf ve adet) hukuk sistemindeki yeri için aşağıdakilerden hangisi doğrudur?",
+    "o": [
+      "Asli kaynak",
+      "Yardımcı kaynak",
+      "Tamamlayıcı kaynak",
+      "Sözlü kaynak",
+      "Dış kaynak"
+    ],
+    "a": 0,
+    "e": "Örf ve adet hukuku, kanunun emredici hükümlerine aykırı olmamak şartıyla asli bir hukuk kaynağıdır.",
+    "_part": 109,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_009",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "haklarin-kazanilmasi",
+    "subtopic": "Hakların Kazanılması",
+    "q": "Bir hakkın, önceki sahibinin rızasına bağlı olmaksızın kazanılmasına ne ad verilir?",
+    "o": [
+      "Devren kazanma",
+      "Aslen kazanma",
+      "Tesis ederek kazanma",
+      "Hukuki işlem",
+      "Hukuki fiil"
+    ],
+    "a": 1,
+    "e": "Aslen kazanma, hakkın önceki sahibinden devralınmaksızın doğrudan doğruya kazanılmasıdır (örneğin sahipsiz bir malı sahiplenme).",
+    "_part": 110,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_010",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yargi-organlari",
+    "subtopic": "Yargı Organları",
+    "q": "Adli yargıda ilk derece mahkemesi olarak görev yapan ve genel mahkeme niteliğinde olan mahkeme hangisidir?",
+    "o": [
+      "İdare Mahkemesi",
+      "Sulh Ceza",
+      "Asliye Hukuk",
+      "İş Mahkemesi",
+      "Tüketici Mahkemesi"
+    ],
+    "a": 2,
+    "e": "Asliye Hukuk Mahkemesi, özel hukuk alanındaki uyuşmazlıklarda genel görevli mahkemedir. Diğerleri özel görevli mahkemelerdir.",
+    "_part": 111,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_011",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hukuki-olay",
+    "subtopic": "Hukuki Olay ve Fiil",
+    "q": "Hukuk düzeninin kendisine bir sonuç bağladığı insan davranışlarına ne ad verilir?",
+    "o": [
+      "Hukuki olay",
+      "Hukuki işlem",
+      "Hukuki fiil",
+      "Hukuki durum",
+      "Hukuki ilişki"
+    ],
+    "a": 2,
+    "e": "Hukuki fiil, insanın iradesiyle veya iradesi dışında gerçekleşen ancak hukuk düzeninin sonuç bağladığı eylemlerdir.",
+    "_part": 112,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_012",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yaptirim-turu",
+    "subtopic": "Yaptırımlar",
+    "q": "Hukuka aykırı bir fiilin işlenmesi sonucunda, devletin cebriyle malvarlığının eksiltilmesi veya el konulması yaptırımı aşağıdakilerden hangisidir?",
+    "o": [
+      "Ceza",
+      "İptal",
+      "Cebri icra",
+      "Tazminat",
+      "Geçersizlik"
+    ],
+    "a": 2,
+    "e": "Cebri icra, borcunu yerine getirmeyen kişinin malvarlığına devlet zoruyla el konularak borcun tahsil edilmesidir.",
+    "_part": 113,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_013",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yargi",
+    "subtopic": "Yargı İlkeleri",
+    "q": "Mahkemelerin bağımsızlığı ve hakimlik teminatı hangi temel hukuk ilkesinin bir parçasıdır?",
+    "o": [
+      "Hukuk devleti",
+      "Sosyal devlet",
+      "Laik devlet",
+      "Demokratik devlet",
+      "Üniter devlet"
+    ],
+    "a": 0,
+    "e": "Hukuk devleti ilkesinin en önemli unsuru, yargı bağımsızlığı ve hakimlik teminatıdır.",
+    "_part": 114,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_014",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hak-kullanimi",
+    "subtopic": "Dürüstlük Kuralı",
+    "q": "Hak sahibinin hakkını kullanırken ve borçlunun borcunu ifa ederken uyması gereken temel kural aşağıdakilerden hangisidir?",
+    "o": [
+      "İyiniyet",
+      "Dürüstlük kuralı",
+      "Yasal temsil",
+      "Gaiplik",
+      "Kısıtlılık"
+    ],
+    "a": 1,
+    "e": "Dürüstlük kuralı (objektif iyiniyet), herkesin haklarını kullanırken ve borçlarını yerine getirirken dürüst davranma yükümlülüğüdür.",
+    "_part": 115,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_015",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "kisi-turleri",
+    "subtopic": "Kişilik",
+    "q": "Gerçek kişilerin kişiliği ne zaman başlar?",
+    "o": [
+      "Doğumla birlikte",
+      "Sağ ve tam doğmak kaydıyla",
+      "Çocuğun nüfusa kaydıyla",
+      "18 yaşını doldurmakla",
+      "Ana rahmine düşmekle"
+    ],
+    "a": 1,
+    "e": "Kişilik, çocuğun sağ ve tam doğması şartıyla ana rahmine düştüğü andan itibaren kazanılmış sayılır.",
+    "_part": 116,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_016",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "temsil",
+    "subtopic": "Temsil",
+    "q": "Bir kimsenin kendi adına ancak başkasının hesabına işlem yapmasına ne ad verilir?",
+    "o": [
+      "Doğrudan temsil",
+      "Dolaylı temsil",
+      "Yetkisiz temsil",
+      "Kanuni temsil",
+      "Vekalet"
+    ],
+    "a": 1,
+    "e": "Dolaylı temsilde temsilci, kendi adına hareket eder ancak sonuçlar temsil edilene geçer. Doğrudan temsilde ise temsilci temsil edilen adına hareket eder.",
+    "_part": 117,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_017",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hukuk-dallari",
+    "subtopic": "Özel Hukuk",
+    "q": "Aşağıdakilerden hangisi özel hukuk alanına giren dallardan biridir?",
+    "o": [
+      "İdare Hukuku",
+      "Ceza Hukuku",
+      "Ticaret Hukuku",
+      "Vergi Hukuku",
+      "İcra ve İflas Hukuku"
+    ],
+    "a": 2,
+    "e": "Ticaret Hukuku, özel hukuk dallarından biridir. Diğer seçenekler kamu hukuku dallarıdır.",
+    "_part": 118,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_018",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yargi-organlari",
+    "subtopic": "Anayasa Mahkemesi",
+    "q": "Anayasa Mahkemesi'nin görevlerinden biri aşağıdakilerden hangisidir?",
+    "o": [
+      "Temyiz incelemesi yapmak",
+      "İdari uyuşmazlıkları çözmek",
+      "Anayasaya aykırılık denetimi yapmak",
+      "Alt derece mahkemelerini denetlemek",
+      "Yönetmelik çıkarmak"
+    ],
+    "a": 2,
+    "e": "Anayasa Mahkemesi, kanunların, KHK'ların (döneminde) ve Meclis İçtüzüğü'nün Anayasa'ya uygunluğunu denetler.",
+    "_part": 119,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_019",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "haklar",
+    "subtopic": "Mutlak Haklar",
+    "q": "Aşağıdakilerden hangisi mutlak haklar arasında yer almaz?",
+    "o": [
+      "Mülkiyet hakkı",
+      "Alacak hakkı",
+      "Telif hakkı",
+      "Kişilik hakkı",
+      "Rehin hakkı"
+    ],
+    "a": 1,
+    "e": "Alacak hakkı bir nispi haktır; sadece borçluya karşı ileri sürülebilir. Diğerleri herkese karşı ileri sürülebilir.",
+    "_part": 120,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_020",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hukuk-kurallari",
+    "subtopic": "Hukuk Kuralları",
+    "q": "Hukuk kurallarının 'genel' olması ne anlama gelir?",
+    "o": [
+      "Herkes için geçerli olması",
+      "Sürekli olması",
+      "Yazılı olması",
+      "Devlet tarafından konulması",
+      "Yaptırımının olması"
+    ],
+    "a": 0,
+    "e": "Hukuk kurallarının genel olması, belirli bir kişiye değil, o durumdaki herkese uygulanabilir olması demektir.",
+    "_part": 121,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_021",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "kisi-ehliyeti",
+    "subtopic": "Ayırt Etme Gücü",
+    "q": "Ayırt etme gücünü ortadan kaldıran sebepler arasında aşağıdakilerden hangisi yer almaz?",
+    "o": [
+      "Yaş küçüklüğü",
+      "Akıl hastalığı",
+      "Sarhoşluk",
+      "Siyasi görüş",
+      "Ağır hastalık"
+    ],
+    "a": 3,
+    "e": "Siyasi görüş bir kişinin ayırt etme gücünü etkilemez. Yaş küçüklüğü, akıl hastalığı ve sarhoşluk gibi durumlar bu gücü etkileyebilir.",
+    "_part": 122,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_022",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yaptirim",
+    "subtopic": "Ceza Yaptırımı",
+    "q": "Suç işleyen kişiye uygulanan ve amacı caydırıcılık olan yaptırım türü hangisidir?",
+    "o": [
+      "Tazminat",
+      "Geçersizlik",
+      "Ceza",
+      "İptal",
+      "Cebri icra"
+    ],
+    "a": 2,
+    "e": "Ceza, suç teşkil eden bir fiilin karşılığı olarak devletin uyguladığı yaptırımdır.",
+    "_part": 123,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_023",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yargi-kollari",
+    "subtopic": "Yargı Kolları",
+    "q": "Uyuşmazlık Mahkemesi'nin görevi nedir?",
+    "o": [
+      "Anayasa değişikliğini onaylamak",
+      "Adli ve idari yargı arasındaki görev uyuşmazlıklarını çözmek",
+      "Yargıtay kararlarını incelemek",
+      "Cumhurbaşkanını yargılamak",
+      "Kanun çıkarmak"
+    ],
+    "a": 1,
+    "e": "Uyuşmazlık Mahkemesi, adli ve idari yargı organları arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözer.",
+    "_part": 124,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_024",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hukuk-kaynaklari",
+    "subtopic": "Yardımcı Kaynaklar",
+    "q": "Hukukta yardımcı kaynaklar arasında aşağıdakilerden hangisi yer alır?",
+    "o": [
+      "Kanunlar",
+      "Örf ve adet",
+      "Doktrin ve içtihat",
+      "Uluslararası antlaşmalar",
+      "Genelgeler"
+    ],
+    "a": 2,
+    "e": "Doktrin (bilimsel görüşler) ve yargısal içtihatlar, hakimin karar verirken yararlanabileceği yardımcı kaynaklardır.",
+    "_part": 125,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_025",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "kisi-hukuku",
+    "subtopic": "Kısıtlılık",
+    "q": "Ergin olmasına rağmen, belirli nedenlerle (savurganlık, alkol bağımlılığı vb.) kişinin kendi işlerini görememesi sonucu fiil ehliyetinin sınırlandırılmasına ne denir?",
+    "o": [
+      "Gaiplik",
+      "Kısıtlılık",
+      "Tam ehliyet",
+      "Hak ehliyeti",
+      "Temsil"
+    ],
+    "a": 1,
+    "e": "Kısıtlılık, kişinin ergin olmasına rağmen mahkeme kararıyla fiil ehliyetinin sınırlandırılması veya tamamen alınması durumudur.",
+    "_part": 126,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_026",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hukuk-dallari",
+    "subtopic": "Karma Hukuk Dalları",
+    "q": "Aşağıdakilerden hangisi karma hukuk dallarından biri değildir?",
+    "o": [
+      "İş Hukuku",
+      "Fikir ve Sanat Eserleri Hukuku",
+      "Toprak Hukuku",
+      "Medeni Hukuk",
+      "Hava Hukuku"
+    ],
+    "a": 3,
+    "e": "Medeni Hukuk, saf bir özel hukuk dalıdır. İş Hukuku ve Fikir ve Sanat Eserleri Hukuku gibi dallar kamu ve özel hukukun kesişimindedir.",
+    "_part": 127,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_027",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yargi",
+    "subtopic": "Yargı",
+    "q": "Hukuk uyuşmazlıklarında 'tarafsız' bir organ olan hakimin, uyuşmazlığı çözme sürecine ne denir?",
+    "o": [
+      "İdari işlem",
+      "Yargılama",
+      "Yasama",
+      "Yürütme",
+      "Temsil"
+    ],
+    "a": 1,
+    "e": "Yargılama, mahkemelerin hukuki uyuşmazlıkları inceleyip sonuca bağlama faaliyetidir.",
+    "_part": 128,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_028",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hak-kazanma",
+    "subtopic": "Devren Kazanma",
+    "q": "Bir hakkın, önceki sahibinin iradesine dayanarak kazanılmasına ne ad verilir?",
+    "o": [
+      "Aslen kazanma",
+      "Devren kazanma",
+      "Tesis ederek kazanma",
+      "Hukuki fiil",
+      "Kısıtlılık"
+    ],
+    "a": 1,
+    "e": "Devren kazanma, hakkın bir kişiden diğerine hukuki bir işlemle (satış, bağış vb.) geçmesidir.",
+    "_part": 129,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_029",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hukuk-kaynagi",
+    "subtopic": "Hukuk Kaynakları",
+    "q": "Yazılı hukuk kaynakları arasında aşağıdakilerden hangisi bulunmaz?",
+    "o": [
+      "Anayasa",
+      "Kanun",
+      "Örf ve adet",
+      "Cumhurbaşkanlığı Kararnamesi",
+      "Yönetmelik"
+    ],
+    "a": 2,
+    "e": "Örf ve adet hukuku yazılı olmayan bir hukuk kaynağıdır. Diğerleri yazılı kaynaklar hiyerarşisinde yer alır.",
+    "_part": 130,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_030",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "ehliyet",
+    "subtopic": "Fiil Ehliyeti",
+    "q": "Tam ehliyetli bir kişinin fiil ehliyetini kaybedebileceği durum aşağıdakilerden hangisidir?",
+    "o": [
+      "Evlenmek",
+      "Yaşını doldurmak",
+      "Akıl hastalığına yakalanmak",
+      "Diploma almak",
+      "İş kurmak"
+    ],
+    "a": 2,
+    "e": "Tam ehliyetli iken akıl hastalığına yakalanan kişi, durumuna göre kısıtlanabilir ve ehliyetini kaybedebilir.",
+    "_part": 131,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_031",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yargi-organi",
+    "subtopic": "Yargıtay",
+    "q": "Adli yargı ilk derece mahkemelerinden verilen kararların son inceleme mercii aşağıdakilerden hangisidir?",
+    "o": [
+      "Anayasa Mahkemesi",
+      "Danıştay",
+      "Yargıtay",
+      "İstinaf Mahkemesi",
+      "Sayıştay"
+    ],
+    "a": 2,
+    "e": "Yargıtay, adli mahkemelerden verilen karar ve hükümlerin son inceleme merciidir.",
+    "_part": 132,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_032",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yaptirim",
+    "subtopic": "Tazminat",
+    "q": "Bir kimsenin hukuka aykırı fiiliyle başkasına verdiği zararı giderme yükümlülüğüne ne ad verilir?",
+    "o": [
+      "Ceza",
+      "İptal",
+      "Tazminat",
+      "Cebri icra",
+      "Geçersizlik"
+    ],
+    "a": 2,
+    "e": "Tazminat, hukuka aykırı fiil sonucu meydana gelen zararın maddi veya manevi olarak giderilmesidir.",
+    "_part": 133,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_033",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "haklar",
+    "subtopic": "Kişilik Hakları",
+    "q": "Aşağıdakilerden hangisi kişilik hakları kapsamında korunur?",
+    "o": [
+      "Mülkiyet hakkı",
+      "Vücut bütünlüğü",
+      "Alacak hakkı",
+      "Rehin hakkı",
+      "İntifa hakkı"
+    ],
+    "a": 1,
+    "e": "Kişilik hakları; kişinin yaşamı, bedensel bütünlüğü ve şeref ve haysiyeti gibi temel değerleri korur.",
+    "_part": 134,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_034",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yargi-organi",
+    "subtopic": "Danıştay",
+    "q": "İdari yargıda yüksek mahkeme ve son inceleme mercii olan kurum hangisidir?",
+    "o": [
+      "Yargıtay",
+      "Danıştay",
+      "Anayasa Mahkemesi",
+      "Uyuşmazlık Mahkemesi",
+      "İdare Mahkemesi"
+    ],
+    "a": 1,
+    "e": "Danıştay, idari yargı merciinden verilen karar ve hükümlerin son inceleme merciidir.",
+    "_part": 135,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_035",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yargi",
+    "subtopic": "Yargı",
+    "q": "Hakimlerin görevlerini yerine getirirken hiçbir merciden emir almaması ilkesine ne ad verilir?",
+    "o": [
+      "Hakimlik teminatı",
+      "Mahkemelerin bağımsızlığı",
+      "Yargı denetimi",
+      "Hukuk devleti",
+      "Eşitlik"
+    ],
+    "a": 1,
+    "e": "Mahkemelerin bağımsızlığı, yargı yetkisinin hiçbir organ veya kişiden talimat almaksızın kullanılmasıdır.",
+    "_part": 136,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_036",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "kisi-ehliyeti",
+    "subtopic": "Erginlik",
+    "q": "Normal erginlik yaşı kaçtır?",
+    "o": [
+      "15",
+      "16",
+      "17",
+      "18",
+      "21"
+    ],
+    "a": 3,
+    "e": "Türk Medeni Kanunu'na göre erginlik yaşı 18'in doldurulmasıyla başlar.",
+    "_part": 137,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_037",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hukuki-islem",
+    "subtopic": "Hukuki İşlem",
+    "q": "Tarafların iradelerini hukuk düzeninin sonuç bağladığı yönde açıklamalarına ne ad verilir?",
+    "o": [
+      "Hukuki fiil",
+      "Hukuki işlem",
+      "Hukuki olay",
+      "Temsil",
+      "Kısıtlılık"
+    ],
+    "a": 1,
+    "e": "Hukuki işlem, bir veya birden fazla kişinin irade açıklamasıyla hukuki sonuç doğuran eylemlerdir.",
+    "_part": 138,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_038",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yargi-organi",
+    "subtopic": "Sayıştay",
+    "q": "Devletin gelir ve giderlerini denetleyen ve kesin hükme bağlayan kurum hangisidir?",
+    "o": [
+      "Yargıtay",
+      "Danıştay",
+      "Sayıştay",
+      "Anayasa Mahkemesi",
+      "Maliye Bakanlığı"
+    ],
+    "a": 2,
+    "e": "Sayıştay, TBMM adına merkezi yönetim bütçesi kapsamındaki kamu idarelerini denetleyen bir yüksek denetim organıdır.",
+    "_part": 139,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_039",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hukuk-dallari",
+    "subtopic": "Ceza Hukuku",
+    "q": "Ceza hukukunda 'suçta ve cezada kanunilik' ilkesi neyi ifade eder?",
+    "o": [
+      "Suçların mahkemece belirlenmesini",
+      "Kanunda açıkça suç sayılmayan fiilden ceza verilemeyeceğini",
+      "Suçun herkes için aynı olduğunu",
+      "Cezaların caydırıcı olmasını",
+      "Hukuk devletini"
+    ],
+    "a": 1,
+    "e": "Suçta ve cezada kanunilik ilkesi, bir eylemin suç sayılabilmesi için önceden kanunda tanımlanmış olması gerektiğini ifade eder.",
+    "_part": 140,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_040",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "haklarin-kazanilmasi",
+    "subtopic": "Gaiplik",
+    "q": "Ölüm tehlikesi içinde kaybolan veya uzun süredir haber alınamayan kişi hakkında mahkemece verilen karara ne denir?",
+    "o": [
+      "Kısıtlılık",
+      "Gaiplik",
+      "Erginlik",
+      "Temsil",
+      "Vasi"
+    ],
+    "a": 1,
+    "e": "Gaiplik, ölüm ihtimali yüksek veya uzun süre haber alınamayan kişi hakkında mahkemenin verdiği hukuksal karardır.",
+    "_part": 141,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_041",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hukuk-kaynagi",
+    "subtopic": "Yönetmelik",
+    "q": "Yönetmelikleri kimler çıkarabilir?",
+    "o": [
+      "Cumhurbaşkanı",
+      "Bakanlıklar ve kamu tüzel kişileri",
+      "Sadece TBMM",
+      "Sadece Anayasa Mahkemesi",
+      "Valilikler"
+    ],
+    "a": 1,
+    "e": "Yönetmelikler, Cumhurbaşkanı, bakanlıklar ve kamu tüzel kişileri tarafından kendi görev alanlarını düzenlemek için çıkarılır.",
+    "_part": 142,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_042",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yaptirim",
+    "subtopic": "İptal",
+    "q": "İdari bir işlemin hukuka aykırı olması nedeniyle yargı organınca hükümsüz kılınmasına ne ad verilir?",
+    "o": [
+      "Ceza",
+      "Tazminat",
+      "İptal",
+      "Cebri icra",
+      "Geçersizlik"
+    ],
+    "a": 2,
+    "e": "İptal, idari yargı organlarının hukuka aykırı bulduğu idari işlemleri ortadan kaldırmasıdır.",
+    "_part": 143,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_043",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "kisi-ehliyeti",
+    "subtopic": "Ayırt Etme Gücü",
+    "q": "Ayırt etme gücüne sahip olan kişiye ne ad verilir?",
+    "o": [
+      "Mümeyyiz",
+      "Ehliyetsiz",
+      "Kısıtlı",
+      "Ergin",
+      "Gaiplik"
+    ],
+    "a": 0,
+    "e": "Ayırt etme gücü olan kişiye 'mümeyyiz' (temyiz kudretine sahip) kişi denir.",
+    "_part": 144,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_044",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hukuk-dallari",
+    "subtopic": "Anayasa Hukuku",
+    "q": "Anayasa Hukuku hangi hukuk dalı içerisinde incelenir?",
+    "o": [
+      "Özel Hukuk",
+      "Kamu Hukuku",
+      "Karma Hukuk",
+      "Uluslararası Ticaret Hukuku",
+      "İş Hukuku"
+    ],
+    "a": 1,
+    "e": "Anayasa Hukuku, kamu hukuku dallarının en başında gelir ve devletin temel yapısını düzenler.",
+    "_part": 145,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_045",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hak-kullanimi",
+    "subtopic": "İyiniyet",
+    "q": "Bir hakkın kazanılmasında engel olan bir durumun, kişinin bilmemesi gereken hallerde 'bilmiyormuş gibi' hareket etmesine ne denir?",
+    "o": [
+      "Dürüstlük",
+      "İyiniyet",
+      "Temsil",
+      "Kısıtlılık",
+      "Gaiplik"
+    ],
+    "a": 1,
+    "e": "İyiniyet (subjektif), bir hakkın kazanılmasına engel olan bir durumu bilmemeyi veya bilebilecek durumda olmamayı ifade eder.",
+    "_part": 146,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_046",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "yargi-organi",
+    "subtopic": "İdare Mahkemesi",
+    "q": "İdari yargıda ilk derece mahkemesi hangisidir?",
+    "o": [
+      "Danıştay",
+      "İdare Mahkemesi",
+      "Yargıtay",
+      "Asliye Hukuk",
+      "Sulh Ceza"
+    ],
+    "a": 1,
+    "e": "İdare Mahkemesi, idari yargıda genel görevli ilk derece mahkemesidir.",
+    "_part": 147,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  },
+  {
+    "id": "HG_047",
+    "topicId": "HUKUKA_GIRIS",
+    "subtopicId": "hukuk",
+    "_part": 148,
+    "_generatedAt": "2026-04-15T18:36:36.716Z"
+  }
+]

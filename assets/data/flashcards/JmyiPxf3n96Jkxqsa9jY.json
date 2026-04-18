@@ -1,0 +1,548 @@
+[
+  {
+    "question": "Gerçek (Temel) Anlam nedir?",
+    "answer": "Sözcüğün akla gelen ilk anlamı",
+    "additionalInfo": "\"Çocuğun burnu kanadı.\" (Gerçek).",
+    "_part": 1
+  },
+  {
+    "question": "Mecaz (Değişmece) Anlam nedir?",
+    "answer": "Sözcüğün gerçek anlamından tamamen uzaklaşarak kazandığı yeni anlam",
+    "additionalInfo": "\"Ona çok kırıldım.\" (Üzüldüm). \"Burnundan kıl aldırmıyor.\" (Kibir).",
+    "_part": 2
+  },
+  {
+    "question": "Yan Anlam (Yakıştırmaca) nedir?",
+    "answer": "Sözcüğün şekil veya işlev benzerliğiyle kazandığı anlam",
+    "additionalInfo": "\"Dağın eteği\", \"Masanın gözü\", \"Ayakkabının burnu\".",
+    "_part": 3
+  },
+  {
+    "question": "Terim Anlam nedir?",
+    "answer": "Bilim, sanat, spor gibi alanlara özgü kavramlar",
+    "additionalInfo": "\"Üçgenin hipotenüsü\" (Matematik), \"Nota\" (Müzik), \"Penaltı\" (Spor).",
+    "_part": 4
+  },
+  {
+    "question": "Somut Anlamlı Sözcükler",
+    "answer": "Beş duyu organıyla algılanabilenler",
+    "additionalInfo": "Rüzgar, ışık, ses, sıcak, mavi.",
+    "_part": 5
+  },
+  {
+    "question": "Soyut Anlamlı Sözcükler",
+    "answer": "Duyu organlarıyla algılanamayan, zihinsel kavramlar",
+    "additionalInfo": "Sevgi, korku, rüya, düşünce, melek.",
+    "_part": 6
+  },
+  {
+    "question": "Eş Anlamlı (Anlamdaş) Kelimeler",
+    "answer": "Yazılışları farklı, anlamları aynı olan kelimeler",
+    "additionalInfo": "Beyaz-Ak, Siyah-Kara, Okul-Mektep, İhtiyar-Yaşlı.",
+    "_part": 7
+  },
+  {
+    "question": "Zıt (Karşıt) Anlamlı Kelimeler",
+    "answer": "Anlamca birbirinin tersi olan kelimeler",
+    "additionalInfo": "Güzel-Çirkin, Gelmek-Gitmek. (Olumsuzluk zıtlık değildir: Geldi-Gelmedi zıt değildir).",
+    "_part": 8
+  },
+  {
+    "question": "Eş Sesli (Sesteş) Kelimeler",
+    "answer": "Yazılışları aynı, anlamları farklı olan kelimeler",
+    "additionalInfo": "Yüz (Sayı/Çehre/Yüzmek), Gül (Çiçek/Gülmek).",
+    "_part": 9
+  },
+  {
+    "question": "Genel ve Özel Anlam İlişkisi",
+    "answer": "Kapsayıcı kelimeden özele doğru",
+    "additionalInfo": "Varlık -> Canlı -> Bitki -> Çiçek -> Papatya.",
+    "_part": 10
+  },
+  {
+    "question": "Nicel Anlamlı Sözcükler",
+    "answer": "Ölçülebilen, sayılabilen özellikler",
+    "additionalInfo": "\"Ağır çanta\" (Tartılabilir), \"Uzun yol\" (Ölçülebilir).",
+    "_part": 11
+  },
+  {
+    "question": "Nitel Anlamlı Sözcükler",
+    "answer": "Ölçülemeyen, özellik bildiren kelimeler",
+    "additionalInfo": "\"Ağır sözler\" (Kırıcı), \"Güzel insan\".",
+    "_part": 12
+  },
+  {
+    "question": "Ad Aktarması (Mecaz-ı Mürsel) nedir?",
+    "answer": "Benzetme amacı gütmeden bir sözün başka bir söz yerine kullanılması",
+    "additionalInfo": "\"Ankara bu karara tepki gösterdi.\" (Ankara halkı/hükümeti). \"Sobayı yak.\" (İçindeki odunu).",
+    "_part": 13
+  },
+  {
+    "question": "Deyim Aktarması (Eğretileme) nedir?",
+    "answer": "İnsandan doğaya, doğadan insana özellik aktarımı",
+    "additionalInfo": "\"Rüzgar uluyor.\" (Doğadan doğaya), \"Hırçın dalgalar\" (İnsandan doğaya).",
+    "_part": 14
+  },
+  {
+    "question": "Dolaylama nedir?",
+    "answer": "Tek kelime ile anlatılabilecek bir kavramı birden çok kelimeyle anlatmak",
+    "additionalInfo": "Kıbrıs -> \"Yavru Vatan\", Atatürk -> \"Ulu Önder\", Kömür -> \"Kara Elmas\".",
+    "_part": 15
+  },
+  {
+    "question": "Güzel Adlandırma nedir?",
+    "answer": "Söylenmesi hoş olmayan kavramları güzel sözlerle anlatmak",
+    "additionalInfo": "Ölmek -> \"Hakkın rahmetine kavuşmak\", Verem -> \"İnce hastalık\".",
+    "_part": 16
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Sözcüğün akla gelen ilk anlamına ne ad verilir?",
+    "answer": "Gerçek anlam",
+    "additionalInfo": "Temel anlam olarak da bilinir.",
+    "id": "flash_1",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Bir sözcüğün gerçek anlamından tamamen uzaklaşarak kazandığı yeni anlama ne denir?",
+    "answer": "Mecaz anlam",
+    "additionalInfo": "Soyutlaşma veya somutlaşma içerebilir.",
+    "id": "flash_2",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Bir sözcüğün temel anlamıyla bağlantısını koparmadan kazandığı yeni anlama ne denir?",
+    "answer": "Yan anlam",
+    "additionalInfo": "Genellikle yakıştırmaca yoluyla oluşur.",
+    "id": "flash_3",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Bilim, sanat, spor gibi özel bir alana ait kavramları karşılayan sözcüklere ne denir?",
+    "answer": "Terim anlam",
+    "additionalInfo": "Cümledeki kullanıma göre değişebilir.",
+    "id": "flash_4",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Anlamları aynı, yazılışları farklı olan sözcüklere ne denir?",
+    "answer": "Eş anlamlı (Anlamdaş)",
+    "additionalInfo": "Cümlede birbirinin yerine kullanılabilirler.",
+    "id": "flash_5",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Yazılışları aynı, anlamları tamamen farklı olan sözcüklere ne denir?",
+    "answer": "Eş sesli (Sesteş)",
+    "additionalInfo": "Ek alırken kökte değişiklik olmaz.",
+    "id": "flash_6",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Birbirinin karşıtı olan kavramları karşılayan sözcüklere ne denir?",
+    "answer": "Zıt (Karşıt) anlamlı",
+    "additionalInfo": "Her sözcüğün zıttı yoktur.",
+    "id": "flash_7",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Duyuları beş duyu organımızdan en az biriyle algılanabilen kavramlara ne denir?",
+    "answer": "Somut anlam",
+    "additionalInfo": "Örn: rüzgar, koku, masa.",
+    "id": "flash_8",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Duyularla algılanamayan, sadece düşünce yoluyla kavranabilen kavramlara ne denir?",
+    "answer": "Soyut anlam",
+    "additionalInfo": "Örn: sevgi, umut, hüzün.",
+    "id": "flash_9",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Bir türün tamamını karşılayacak şekilde kullanılan sözcüklere ne denir?",
+    "answer": "Genel anlam",
+    "additionalInfo": "Daha kapsamlıdır.",
+    "id": "flash_10",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Bir türün tek bir örneğini karşılayacak şekilde kullanılan sözcüklere ne denir?",
+    "answer": "Özel anlam",
+    "additionalInfo": "Daha dar kapsamlıdır.",
+    "id": "flash_11",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Kalıplaşmış, genellikle mecazlı, en az iki sözcükten oluşan anlatım kalıplarına ne denir?",
+    "answer": "Deyim",
+    "additionalInfo": "Genellikle mastar ekiyle biter.",
+    "id": "flash_12",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Deneyimlere dayanan, öğüt verici, anonim özlü sözlere ne denir?",
+    "answer": "Atasözü",
+    "additionalInfo": "Cümle yapısındadırlar.",
+    "id": "flash_13",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Bir sözcüğün cümlede kazandığı tüm çağrışımları içine alan anlama ne denir?",
+    "answer": "Yan anlam",
+    "additionalInfo": "Bağlam önemlidir.",
+    "id": "flash_14",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Sözcüğün sözlükteki ilk ve en yaygın anlamına ne ad verilir?",
+    "answer": "Temel anlam",
+    "additionalInfo": "Gerçek anlam ile aynıdır.",
+    "id": "flash_15",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Bir sözcüğün başka bir sözcükle yer değiştirmesiyle oluşan anlam ilişkisine ne denir?",
+    "answer": "Anlamsal bağ",
+    "additionalInfo": "Synonymy (eş anlam) buna örnektir.",
+    "id": "flash_16",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Niteliği ölçülemeyen, öznel yargı bildiren ifadelere ne denir?",
+    "answer": "Nitel anlam",
+    "additionalInfo": "Örn: güzel, kötü, akıllı.",
+    "id": "flash_17",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Sayılabilen, ölçülebilen özellikleri bildiren ifadelere ne denir?",
+    "answer": "Nicel anlam",
+    "additionalInfo": "Örn: uzun, kısa, az, çok.",
+    "id": "flash_18",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "İnsana ait bir özelliğin insan dışı varlıklara aktarılmasına ne denir?",
+    "answer": "Kişileştirme (Teşhis)",
+    "additionalInfo": "Mecazlı anlatım türüdür.",
+    "id": "flash_19",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Bir kavramın, başka bir kavramın özellikleriyle anlatılmasına ne denir?",
+    "answer": "Benzetme (Teşbih)",
+    "additionalInfo": "Benzerlik ilişkisi kurulur.",
+    "id": "flash_20",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Sözcüklerin yan yana gelerek oluşturduğu anlam bütünlüğüne ne denir?",
+    "answer": "Bağlam",
+    "additionalInfo": "Sözcüğün anlamını belirler.",
+    "id": "flash_21",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Bir sözcüğün karşıt anlamlısının olmaması, onun zıt anlamlısı olduğunu mu gösterir?",
+    "answer": "Hayır",
+    "additionalInfo": "Olumsuzu zıttı değildir.",
+    "id": "flash_22",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Deyimler genellikle hangi yapıda olur?",
+    "answer": "Mastar (-mak/-mek)",
+    "additionalInfo": "Cümle içinde çekimlenirler.",
+    "id": "flash_23",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Atasözleri hangi özelliğiyle deyimlerden ayrılır?",
+    "answer": "Tam bir yargı bildirmeleri",
+    "additionalInfo": "Deyimler yargı bildirmez.",
+    "id": "flash_24",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Somut bir sözcüğün soyut bir anlam kazanmasına ne denir?",
+    "answer": "Soyutlaşma",
+    "additionalInfo": "Örn: 'Kalbi kırıldı' (kalp burada gönül anlamında).",
+    "id": "flash_25",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Soyut bir sözcüğün somut bir anlam kazanmasına ne denir?",
+    "answer": "Somutlaşma",
+    "additionalInfo": "Örn: 'Anlayışsız bir kafa' (kafa burada zihin yerine).",
+    "id": "flash_26",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Bir sözcüğün birden fazla terim anlamı olabilir mi?",
+    "answer": "Evet",
+    "additionalInfo": "Alanına göre değişir.",
+    "id": "flash_27",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Eş sesli sözcüklerde anlamlar arasında bir bağ var mıdır?",
+    "answer": "Hayır",
+    "additionalInfo": "Tamamen bağımsızdır.",
+    "id": "flash_28",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Bir sözcüğün hem gerçek hem mecaz anlama gelecek şekilde kullanılmasına ne denir?",
+    "answer": "Kinaye",
+    "additionalInfo": "Genellikle mecaz kastedilir.",
+    "id": "flash_29",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Sözcüklerin çağrışım dünyasına ne denir?",
+    "answer": "Yan anlamlar",
+    "additionalInfo": "Kültürel etki barındırır.",
+    "id": "flash_30",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Deyimler cümlede hangi öge görevinde kullanılabilir?",
+    "answer": "Herhangi bir öge",
+    "additionalInfo": "Yüklem de olabilir.",
+    "id": "flash_31",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Atasözleri değiştirilebilir mi?",
+    "answer": "Hayır",
+    "additionalInfo": "Kalıplaşmışlardır.",
+    "id": "flash_32",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Sözcük öbeği nedir?",
+    "answer": "Birden fazla sözcüğün anlam bütünlüğü oluşturması",
+    "additionalInfo": "Deyimler buna örnektir.",
+    "id": "flash_33",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Nitelik bildiren sözcükler nasıl bulunur?",
+    "answer": "Nasıl sorusuyla",
+    "additionalInfo": "İsimlere sorulur.",
+    "id": "flash_34",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Nicelik bildiren sözcükler nasıl bulunur?",
+    "answer": "Ne kadar sorusuyla",
+    "additionalInfo": "Ölçülebilir olmalıdır.",
+    "id": "flash_35",
+    "_part": 51,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Bir sözcüğün ilk anlamıyla yan anlamı arasındaki fark nedir?",
+    "answer": "Yakınlık",
+    "additionalInfo": "Yan anlam temel anlama bağlıdır.",
+    "id": "flash_36",
+    "_part": 52,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Yansıma sözcükler hangi yolla oluşur?",
+    "answer": "Doğadaki sesleri taklit ederek",
+    "additionalInfo": "Örn: şırıl, pat, hav.",
+    "id": "flash_37",
+    "_part": 53,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "İkilemeler nasıl yazılır?",
+    "answer": "Ayrı",
+    "additionalInfo": "Araya noktalama işareti gelmez.",
+    "id": "flash_38",
+    "_part": 54,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Bir sözcüğün bir bütünü temsil etmesine ne denir?",
+    "answer": "Ad aktarması (mecaz-ı mürsel)",
+    "additionalInfo": "Benzetme amacı güdülmez.",
+    "id": "flash_39",
+    "_part": 55,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Terim anlamlı sözcükler hangi metin türlerinde daha çok bulunur?",
+    "answer": "Bilimsel/Teknik metinler",
+    "additionalInfo": "Özel bir disipline aittir.",
+    "id": "flash_40",
+    "_part": 56,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Sözcüklerin olumsuzları zıt anlamlı mıdır?",
+    "answer": "Hayır",
+    "additionalInfo": "İş/oluşun olumsuzu karşıttır.",
+    "id": "flash_41",
+    "_part": 57,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Eş anlamlı sözcükler cümlede birbirinin yerine kullanılınca anlam bozulur mu?",
+    "answer": "Hayır",
+    "additionalInfo": "Anlam korunur.",
+    "id": "flash_42",
+    "_part": 58,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Deyimler ve atasözleri hangi dilde yazılır?",
+    "answer": "Öz Türkçe/Kalıplaşmış",
+    "additionalInfo": "Değiştirilemezler.",
+    "id": "flash_43",
+    "_part": 59,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Sözcüğün bağlam içindeki değeri nedir?",
+    "answer": "Gerçek anlamından kayabilir",
+    "additionalInfo": "Bağlam anlamı belirler.",
+    "id": "flash_44",
+    "_part": 60,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Somut anlamlı sözcükler hangi yolla soyutlaşabilir?",
+    "answer": "Mecazlaşma",
+    "additionalInfo": "Deyimler sıkça kullanır.",
+    "id": "flash_45",
+    "_part": 61,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "İkilemelerin oluşum yollarından biri nedir?",
+    "answer": "Aynı sözcüğün tekrarı",
+    "additionalInfo": "Örn: hızlı hızlı.",
+    "id": "flash_46",
+    "_part": 62,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Ad aktarması ile benzetme arasındaki temel fark nedir?",
+    "answer": "Benzetme amacı",
+    "additionalInfo": "Ad aktarmasında benzetme yoktur.",
+    "id": "flash_47",
+    "_part": 63,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Anlamca kapsam daralması nedir?",
+    "answer": "Genel bir sözcüğün özele inmesi",
+    "additionalInfo": "Cümledeki kullanım öne çıkar.",
+    "id": "flash_48",
+    "_part": 64,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "Deyimlerde 'anlam kayması' olur mu?",
+    "answer": "Evet",
+    "additionalInfo": "Sözcükler kendi anlamlarını yitirir.",
+    "id": "flash_49",
+    "_part": 65,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  },
+  {
+    "topicId": "sozcukte_anlam",
+    "question": "KPSS'de sözcükte anlam soruları genellikle neyi ölçer?",
+    "answer": "Bağlam kurma becerisi",
+    "additionalInfo": "Paragrafı dikkatli okuyun.",
+    "id": "flash_50",
+    "_part": 66,
+    "_generatedAt": "2026-04-12T17:22:28.087Z"
+  }
+]

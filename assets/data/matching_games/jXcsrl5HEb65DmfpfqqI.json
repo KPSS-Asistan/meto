@@ -1,0 +1,162 @@
+[
+  {
+    "topicId": "anlatim_bozuklugu_01",
+    "question": "Gereksiz Sözcük Kullanımı",
+    "answer": "Anlamca aynı olan sözcüklerin cümlede bir arada bulunması",
+    "id": "match_001",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_02",
+    "question": "Sözcüğün Yanlış Anlamda Kullanılması",
+    "answer": "Sözcüğün benzer anlamlısı ile karıştırılarak yanlış kullanımı",
+    "id": "match_002",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_03",
+    "question": "Deyim Yanlışlığı",
+    "answer": "Deyimin kalıbının bozulması veya bağlama uymaması",
+    "id": "match_003",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_04",
+    "question": "Özne-Yüklem Uyumsuzluğu",
+    "answer": "Tekillik-çoğulluk veya kişi yönünden uyumsuzluk",
+    "id": "match_004",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_05",
+    "question": "Mantık Hatası",
+    "answer": "Cümledeki kavramların birbirini çürütmesi veya saçmalık içermesi",
+    "id": "match_005",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_06",
+    "question": "Anlam Belirsizliği",
+    "answer": "Kişi zamiri eksikliğinden kaynaklı anlam karmaşası",
+    "id": "match_006",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_07",
+    "question": "Tamlama Yanlışlığı",
+    "answer": "İsim ve sıfat tamlamasının aynı tamlanana bağlanması",
+    "id": "match_007",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_08",
+    "question": "Ek Yanlışlığı",
+    "answer": "Eklerin eksik veya yanlış yerde kullanılması",
+    "id": "match_008",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_09",
+    "question": "Çatı Uyuşmazlığı",
+    "answer": "Etken ve edilgen fiillerin aynı cümlede özneye bağlanması",
+    "id": "match_009",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_10",
+    "question": "Sözcüğün Yanlış Yerde Kullanılması",
+    "answer": "Sözcüğün anlamı değiştirecek şekilde yanlış konumlanması",
+    "id": "match_010",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_11",
+    "question": "Nesne Eksikliği",
+    "answer": "Yüklemin nesne alması gerektiği yerde nesne bulunmaması",
+    "id": "match_011",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_12",
+    "question": "Dolaylı Tümleç Eksikliği",
+    "answer": "Cümlede yer tamlayıcısının eksik olması",
+    "id": "match_012",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_13",
+    "question": "Yüklem Eksikliği",
+    "answer": "Birden fazla yargılı cümlede yüklemin tek kalması",
+    "id": "match_013",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_14",
+    "question": "Zarf Tümleci Eksikliği",
+    "answer": "Cümlede zaman veya durum bildiren öğenin eksikliği",
+    "id": "match_014",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_15",
+    "question": "Edat Eksikliği",
+    "answer": "Cümle yapısını bozan edatın veya ilgecin eksikliği",
+    "id": "match_015",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_16",
+    "question": "Özne Eksikliği",
+    "answer": "Sıralı cümlelerde öznenin ortak kullanılamaması",
+    "id": "match_016",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_17",
+    "question": "Bağlaç Yanlışlığı",
+    "answer": "Bağlacın cümlenin anlam akışına uygun kullanılmaması",
+    "id": "match_017",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_18",
+    "question": "Sıralama Hatası",
+    "answer": "Sözcüklerin cümle içinde yer değiştirmesi gereken durum",
+    "id": "match_018",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_19",
+    "question": "Anlamsal Çelişki",
+    "answer": "Birbiriyle zıt anlamlı sözcüklerin bir arada kullanılması",
+    "id": "match_019",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  },
+  {
+    "topicId": "anlatim_bozuklugu_20",
+    "question": "Yanlış Yapılandırılmış Cümle",
+    "answer": "Dil bilgisi kurallarına aykırı cümle kuruluşu",
+    "id": "match_020",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:41:53.683Z"
+  }
+]

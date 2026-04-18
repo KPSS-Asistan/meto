@@ -1,0 +1,500 @@
+[
+  {
+    "question": "Sözel Mantık sorusuna başlamadan önce ne yapılmalı?",
+    "answer": "Değişkenler tespit edilmeli",
+    "additionalInfo": "Kişiler, yerler, günler, nesneler gibi unsurlar not edilir.",
+    "_part": 1
+  },
+  {
+    "question": "Tablo oluşturmanın amacı nedir?",
+    "answer": "Verilen karmaşık bilgileri görselleştirerek ilişkilendirmek",
+    "additionalInfo": "Tablosuz çözüm hata riskini artırır.",
+    "_part": 2
+  },
+  {
+    "question": "Sıralama sorularında tablonun ana sütunu ne olmalıdır?",
+    "answer": "Sıra numaraları (1, 2, 3...)",
+    "additionalInfo": "Örn: Yarışma sonucu, raf sırası, gün sırası.",
+    "_part": 3
+  },
+  {
+    "question": "Yerleştirme sorularında tablonun ana sütunu ne olmalıdır?",
+    "answer": "Az olan değişken (Sabit değişken)",
+    "additionalInfo": "Örn: 3 sınıf ve 10 öğrenci varsa, sınıflar tablo başlığı olur.",
+    "_part": 4
+  },
+  {
+    "question": "Kesin bilgi ile ihtimalli bilgi nasıl ayırt edilir?",
+    "answer": "İhtimaller ok veya parantez ile gösterilir",
+    "additionalInfo": "A kişisi 1. sırada (Kesin), B kişisi 2 veya 3. sırada (İhtimal).",
+    "_part": 5
+  },
+  {
+    "question": "Öncülde \"A, B'nin hemen sağındadır\" diyorsa ne anlaşılır?",
+    "answer": "A ve B bitişiktir, araya kimse giremez",
+    "additionalInfo": "Blok halinde yerleştirilir (AB).",
+    "_part": 6
+  },
+  {
+    "question": "Öncülde \"A, B'nin sağındadır\" diyorsa ne anlaşılır?",
+    "answer": "A, B'den sonraki herhangi bir yerdedir",
+    "additionalInfo": "Hemen sağında olmak zorunda değildir, araya başkaları girebilir.",
+    "_part": 7
+  },
+  {
+    "question": "Tablo doldurulduktan sonra ne yapılmalı?",
+    "answer": "Seçenekler tek tek kontrol edilerek elenmeli",
+    "additionalInfo": "Bazen tablo tam dolmaz, seçeneklerden gidilir.",
+    "_part": 8
+  },
+  {
+    "topicId": "sözel_mantık_01",
+    "question": "Sözel mantık sorularında çözümün ilk adımı nedir?",
+    "answer": "Öncülleri analiz ederek değişkenleri ve kısıtlamaları belirlemek.",
+    "additionalInfo": "Tablo oluşturmadan önce değişkenleri tanımlamak hata payını azaltır.",
+    "id": "flash_001",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_02",
+    "question": "Sözel mantıkta 'kesinlikle doğrudur' ifadesi ne anlama gelir?",
+    "answer": "Tüm olası durumlarda geçerli olan seçenek demektir.",
+    "additionalInfo": "Tek bir istisna bile varsa seçenek yanlıştır.",
+    "id": "flash_002",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_03",
+    "question": "Sıralama sorularında ne tür bir tablo kullanılır?",
+    "answer": "Sütunlu veya doğrusal tablo.",
+    "additionalInfo": "Zaman veya sıra belirten sorularda tercih edilir.",
+    "id": "flash_003",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_04",
+    "question": "Gruplandırma sorularında hangi tablo tipi daha kullanışlıdır?",
+    "answer": "Matris (çapraz) tablo.",
+    "additionalInfo": "Kişiler ve özellikler eşleştirilirken kullanılır.",
+    "id": "flash_004",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_05",
+    "question": "Sözel mantıkta 'negatif öncül' nedir?",
+    "answer": "Bir durumun gerçekleşmeyeceğini belirten öncüldür (Örn: A, 2. sırada değildir).",
+    "additionalInfo": "Bu ipuçları seçenek elemede en güçlü araçtır.",
+    "id": "flash_005",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_06",
+    "question": "Sözel mantık sorularında 'en az bir' ifadesi neyi ifade eder?",
+    "answer": "Bir veya daha fazla anlamına gelir.",
+    "additionalInfo": "Sıfır olma ihtimalini dışlar.",
+    "id": "flash_006",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_07",
+    "question": "Sözel mantıkta 'ardışık' ne anlama gelir?",
+    "answer": "Kendisinden hemen sonra veya önce gelen.",
+    "additionalInfo": "Örn: A'dan sonra B geliyorsa AB bloğu oluşur.",
+    "id": "flash_007",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_08",
+    "question": "Değişkenler arası 'ilişkiyi' nasıl gösteririz?",
+    "answer": "Ok işaretleri veya bloklama yöntemiyle.",
+    "additionalInfo": "Görselleştirme zihinsel yükü azaltır.",
+    "id": "flash_008",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_09",
+    "question": "Sıralama sorusunda 'X, Y'den önce, Z'den sonra' ifadesi nasıl kodlanır?",
+    "answer": "Z < X < Y",
+    "additionalInfo": "Sıralama sorularında yön oklarını kullanmak karışıklığı önler.",
+    "id": "flash_009",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_10",
+    "question": "Sözel mantıkta 'koşullu öncül' nasıl işlenir?",
+    "answer": "Eğer-ise yapısı kurularak (p ise q).",
+    "additionalInfo": "İhtimal durumlarını (p değilse q'nun durumu) göz ardı etme.",
+    "id": "flash_010",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_11",
+    "question": "Sözel mantıkta 'sabit değişken' nedir?",
+    "answer": "Yeri kesin olarak belli olan değişkendir.",
+    "additionalInfo": "Soruyu çözmeye genellikle sabitlerden başlanır.",
+    "id": "flash_011",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_12",
+    "question": "Sözel mantıkta 'bloklama' yöntemi nedir?",
+    "answer": "Birlikte olması gereken değişkenleri tek bir birim gibi düşünmektir.",
+    "additionalInfo": "Örn: (AB), (CD) gibi gruplar oluşturulur.",
+    "id": "flash_012",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_13",
+    "question": "Tablo oluştururken değişken sayısını nasıl belirleriz?",
+    "answer": "Soru kökünde verilen kişi, ürün veya zaman dilimlerini sayarak.",
+    "additionalInfo": "Değişken sayısı tablo boyutunu belirler.",
+    "id": "flash_013",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_14",
+    "question": "Sözel mantıkta 'olabilir' ile 'doğrudur' arasındaki fark nedir?",
+    "answer": "Olabilir: En az bir durumda doğru, Doğrudur: Her durumda doğru.",
+    "additionalInfo": "Soruyu okurken bu anahtar kelimelere dikkat et.",
+    "id": "flash_014",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_15",
+    "question": "Sözel mantıkta 'herkes' ifadesi neyi kapsar?",
+    "answer": "Kümeye dahil olan tüm bireyleri.",
+    "additionalInfo": "İstisnalara karşı dikkatli ol.",
+    "id": "flash_015",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_16",
+    "question": "Sözel mantıkta 'çapraz eşleme' ne zaman kullanılır?",
+    "answer": "Kişi-ürün veya gün-ders gibi iki farklı küme eşleştirilirken.",
+    "additionalInfo": "Satır ve sütunların kesişim noktaları işaretlenir.",
+    "id": "flash_016",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_17",
+    "question": "Sözel mantıkta 'en çok' ifadesi neyi ifade eder?",
+    "answer": "Verilen sayıyı geçemez (o sayı dahil).",
+    "additionalInfo": "Üst sınırı belirler.",
+    "id": "flash_017",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_18",
+    "question": "Sıralama sorularında 'yer değiştirebilir' ifadesi ne anlama gelir?",
+    "answer": "Değişkenlerin konumu kesin değildir.",
+    "additionalInfo": "Bu tip değişkenler için birden fazla senaryo üretilmelidir.",
+    "id": "flash_018",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_19",
+    "question": "Öncüllerde 'A ve B yan yanadır' denildiğinde ne yapılır?",
+    "answer": "AB veya BA şeklinde iki ihtimal oluşturulur.",
+    "additionalInfo": "Sıralama belirtilmemişse her iki yönü de düşünmelisin.",
+    "id": "flash_019",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_20",
+    "question": "Sözel mantıkta 'kesin olarak yanlıştır' ne demektir?",
+    "answer": "Hiçbir durumda gerçekleşemeyen durumdur.",
+    "additionalInfo": "Çelişkili öncülleri bulmak için kullanılır.",
+    "id": "flash_020",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_21",
+    "question": "Sözel mantıkta 'sınırlandırma' (kısıtlama) nedir?",
+    "answer": "Değişkenlerin alabileceği yerleri daraltan kurallardır.",
+    "additionalInfo": "Kısıtlamalar sorunun çözüm anahtarıdır.",
+    "id": "flash_021",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_22",
+    "question": "Sözel mantıkta 'öncül' nedir?",
+    "answer": "Sorunun çözümünde kullanılan ipuçları ve kurallardır.",
+    "additionalInfo": "Tüm öncülleri mutlaka kullanmalısın.",
+    "id": "flash_022",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_23",
+    "question": "Sözel mantıkta 'eşdeğer' ifadesi neyi anlatır?",
+    "answer": "İki durumun aynı anda ya var ya da yok olduğunu.",
+    "additionalInfo": "Mantıksal olarak birbirini gerektirirler.",
+    "id": "flash_023",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_24",
+    "question": "Sözel mantıkta 'tek bir ihtimal' varsa ne olur?",
+    "answer": "Soru çok hızlı çözülür.",
+    "additionalInfo": "Genelde öncüller birbirini kısıtladığında oluşur.",
+    "id": "flash_024",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_25",
+    "question": "Sıralamada 'arası' ifadesi neyi belirtir?",
+    "answer": "Belirtilen iki değişkenin arasında başka değişkenlerin olduğunu.",
+    "additionalInfo": "Kaç tane olduğu belirtilmemişse boşluk bırakılır.",
+    "id": "flash_025",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_26",
+    "question": "Sözel mantıkta 'tabloyu bölmek' ne zaman gerekir?",
+    "answer": "İhtimal sayısı arttığında.",
+    "additionalInfo": "2-3 ana senaryo üzerinden ilerlemek mantıklıdır.",
+    "id": "flash_026",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_27",
+    "question": "Sözel mantıkta 'tüm değişkenler' neyi ifade eder?",
+    "answer": "Soruda adı geçen tüm ögelerin tabloya yerleşmesi gerektiğini.",
+    "additionalInfo": "Eksik değişken bırakmamaya dikkat et.",
+    "id": "flash_027",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_28",
+    "question": "Sözel mantıkta 'aynı kişi' ifadesi ne anlama gelir?",
+    "answer": "Değişkenlerin çakışmaması gerektiğini.",
+    "additionalInfo": "Bir kişi aynı anda iki farklı yerde olamaz.",
+    "id": "flash_028",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_29",
+    "question": "Sözel mantıkta 'en uçtaki' ne demektir?",
+    "answer": "Sıralamanın 1. veya sonuncu sırası.",
+    "additionalInfo": "Uç noktalar kısıtlayıcıdır.",
+    "id": "flash_029",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_30",
+    "question": "Sözel mantıkta 'tekil' değişken nedir?",
+    "answer": "Hakkında özel bir kısıtlama olan değişkendir.",
+    "additionalInfo": "Genellikle sorunun başlangıç noktasıdır.",
+    "id": "flash_030",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_31",
+    "question": "Sıralama sorularında 'boşluk' ne anlama gelir?",
+    "answer": "Henüz yerleşmemiş değişken veya sıra.",
+    "additionalInfo": "Boşlukları takip etmek eksik kalanları bulmanı sağlar.",
+    "id": "flash_031",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_32",
+    "question": "Sözel mantıkta 'kapsayıcı' öncül nedir?",
+    "answer": "Birden fazla değişkeni etkileyen kurallardır.",
+    "additionalInfo": "Önce bu öncülleri işlemek tabloyu daha çabuk şekillendirir.",
+    "id": "flash_032",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_33",
+    "question": "Mantık sorularında 'zaman kaybı' nasıl önlenir?",
+    "answer": "Öncülleri tabloya hızlıca sembolize ederek.",
+    "additionalInfo": "Yazı yazmayı değil, sembol kullanmayı tercih et.",
+    "id": "flash_033",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_34",
+    "question": "Sözel mantıkta 'birbirinden farklı' neyi ifade eder?",
+    "answer": "Her değişkene sadece bir yer ayrılacağını.",
+    "additionalInfo": "Çakışma ihtimalini ortadan kaldırır.",
+    "id": "flash_034",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_35",
+    "question": "Sözel mantıkta 'ikili grup' nedir?",
+    "answer": "İki değişkenin her zaman birlikte hareket ettiği durum.",
+    "additionalInfo": "Bunu tek bir değişken gibi kodla.",
+    "id": "flash_035",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_36",
+    "question": "Sözel mantıkta 'ters ilişki' nasıl kurulur?",
+    "answer": "A, B'nin yanındaysa ve B, C'nin yanındaysa.",
+    "additionalInfo": "Zincirleme kuralları birleştir.",
+    "id": "flash_036",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_37",
+    "question": "Sıralama sorularında '3. sırada değil' ne anlama gelir?",
+    "answer": "3. sıra haricindeki tüm yerler olabilir.",
+    "additionalInfo": "Negatif bilgiyi tabloya çarpı koyarak işle.",
+    "id": "flash_037",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_38",
+    "question": "Sözel mantıkta 'kesinlik' nasıl sağlanır?",
+    "answer": "Tüm öncüllerin tabloya tam olarak yerleşmesiyle.",
+    "additionalInfo": "Eğer öncüller yetmiyorsa birden fazla durum vardır.",
+    "id": "flash_038",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_39",
+    "question": "Sözel mantıkta 'istisnai durum' nasıl yönetilir?",
+    "answer": "Özel bir not düşülerek.",
+    "additionalInfo": "İstisnalar genelde soru köklerinde ipucu olarak verilir.",
+    "id": "flash_039",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_40",
+    "question": "Sözel mantıkta 'kıyaslama' soruları nasıl çözülür?",
+    "answer": "Daha büyük/küçük ilişkisi kuran oklarla.",
+    "additionalInfo": "Sıralama sorularının bir alt türüdür.",
+    "id": "flash_040",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_41",
+    "question": "Sözel mantıkta 'örnekleme' yaparken nelere dikkat edilir?",
+    "answer": "Kuralların ihlal edilip edilmediğine.",
+    "additionalInfo": "Seçenekleri elemek için örnekleme yapabilirsin.",
+    "id": "flash_041",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_42",
+    "question": "Sözel mantıkta 'değişken sayısı' ile 'yer sayısı' eşit değilse ne olur?",
+    "answer": "Bazı yerler boş kalır veya bazı değişkenler dışarıda kalır.",
+    "additionalInfo": "Soru kökünü iyi oku.",
+    "id": "flash_042",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_43",
+    "question": "Mantık sorularında 'kalem oynatmak' neden önemlidir?",
+    "answer": "Zihinsel karmaşayı dışa aktarmak için.",
+    "additionalInfo": "Görsel hafıza, zihinsel işlemden daha güvenilirdir.",
+    "id": "flash_043",
+    "_part": 51,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_44",
+    "question": "Sözel mantıkta 'çelişki' neye işaret eder?",
+    "answer": "Yanlış bir öncül yorumuna veya hatalı tabloya.",
+    "additionalInfo": "Çelişki bulursan tabloyu baştan kontrol et.",
+    "id": "flash_044",
+    "_part": 52,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_45",
+    "question": "Sözel mantıkta 'kapsamlı' düşünmek ne demektir?",
+    "answer": "Tüm olasılıkları tek tek değerlendirmek.",
+    "additionalInfo": "Özellikle 'hangisi kesinlikle yanlıştır' sorularında gereklidir.",
+    "id": "flash_045",
+    "_part": 53,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_46",
+    "question": "Sözel mantıkta 'sıralı grup' neyi ifade eder?",
+    "answer": "Belli bir düzen içinde dizilmiş değişkenleri.",
+    "additionalInfo": "Örn: Pazartesi-Cuma arası günler.",
+    "id": "flash_046",
+    "_part": 54,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_47",
+    "question": "Sözel mantıkta 'işaretleme' yöntemi nedir?",
+    "answer": "Tablo üzerinde olasılıkları not etmek.",
+    "additionalInfo": "Kesin olanları yaz, ihtimalleri küçük harflerle kenara not et.",
+    "id": "flash_047",
+    "_part": 55,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_48",
+    "question": "Sözel mantıkta 'sabitlenmiş değişken' nedir?",
+    "answer": "Yeri öncülde açıkça belirtilen değişkendir.",
+    "additionalInfo": "Tabloyu kurarken ilk yerleştirilecek ögelerdir.",
+    "id": "flash_048",
+    "_part": 56,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_49",
+    "question": "Sözel mantık sorularında 'zaman yönetimi' nasıl olmalıdır?",
+    "answer": "Tabloyu kurmak için 2-3 dakika, sorular için 3-4 dakika.",
+    "additionalInfo": "Tabloyu doğru kurarsan soruları saniyeler içinde çözersin.",
+    "id": "flash_049",
+    "_part": 57,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  },
+  {
+    "topicId": "sözel_mantık_50",
+    "question": "Sözel mantıkta 'en son' neye bakılır?",
+    "answer": "Tüm soruların seçeneklerinin elenip elenmediğine.",
+    "additionalInfo": "Son kontrol her zaman hayat kurtarır.",
+    "id": "flash_050",
+    "_part": 58,
+    "_generatedAt": "2026-04-12T17:22:44.039Z"
+  }
+]

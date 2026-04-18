@@ -1,0 +1,554 @@
+[
+  {
+    "question": "Türkiye'de nüfusun en seyrek olduğu yerler",
+    "answer": "Hakkari, Yıldız Dağları, Tuz Gölü Çevresi, Taşeli Platosu",
+    "additionalInfo": "Yer şekilleri ve iklim (kuraklık) temel nedendir.",
+    "_part": 1
+  },
+  {
+    "question": "Nüfus yoğunluğunun fazla olmasının temel nedeni",
+    "answer": "Sanayileşme ve iş imkanları",
+    "additionalInfo": "Çatalca-Kocaeli bölümü (İstanbul) örnektir.",
+    "_part": 2
+  },
+  {
+    "question": "Türkiye nüfusunun yapısal özellikleri",
+    "answer": "Genç ve dinamik nüfus fazladır. Kent nüfusu kır nüfusundan fazladır.",
+    "additionalInfo": "Ortanca yaş (Medyan yaş) giderek artmaktadır (Nüfus yaşlanıyor).",
+    "_part": 3
+  },
+  {
+    "question": "Aritmetik Nüfus Yoğunluğu formülü",
+    "answer": "Toplam Nüfus / Yüz ölçümü",
+    "additionalInfo": "En fazla Marmara, en az Doğu Anadolu.",
+    "_part": 4
+  },
+  {
+    "question": "Tarımsal Nüfus Yoğunluğu formülü",
+    "answer": "Çiftçi Sayısı / Tarım Alanı",
+    "additionalInfo": "Engebeli yerlerde (Doğu Karadeniz) fazladır. Düz yerlerde (İç Anadolu) azdır.",
+    "_part": 5
+  },
+  {
+    "question": "Mevsimlik işçi göçü alan yerler",
+    "answer": "Adana (Çukurova - Pamuk), Ordu/Giresun (Fındık), Muğla/Antalya (Turizm)",
+    "additionalInfo": "Nüfus yıl içinde dalgalanma gösterir.",
+    "_part": 6
+  },
+  {
+    "question": "Beyin Göçü nedir?",
+    "answer": "Yetişmiş, nitelikli insanların yurt dışına gitmesi",
+    "additionalInfo": "Gelişmekte olan ülkelerden gelişmiş ülkelere doğrudur.",
+    "_part": 7
+  },
+  {
+    "question": "Dağınık Yerleşmenin görüldüğü yerler ve nedeni",
+    "answer": "Karadeniz Bölgesi - Su bol, arazi engebeli",
+    "additionalInfo": "Evler birbirinden uzaktır.",
+    "_part": 8
+  },
+  {
+    "question": "Toplu Yerleşmenin görüldüğü yerler ve nedeni",
+    "answer": "İç Anadolu ve Güneydoğu - Su az, arazi düz",
+    "additionalInfo": "İnsanlar su kaynağı etrafında toplanır.",
+    "_part": 9
+  },
+  {
+    "question": "Köyden küçük, geçici yerleşmeler",
+    "answer": "Yayla, Ağıl, Kom, Oba",
+    "additionalInfo": "Genelde hayvancılık amaçlı kullanılır.",
+    "_part": 10
+  },
+  {
+    "question": "Köyden küçük, sürekli yerleşmeler",
+    "answer": "Mahalle, Divan, Mezra, Çiftlik",
+    "additionalInfo": "Tarım ve hayvancılık bir arada yapılır.",
+    "_part": 11
+  },
+  {
+    "question": "Divan yerleşmesi en çok nerede görülür?",
+    "answer": "Batı Karadeniz (Sakarya, Bolu, Kastamonu)",
+    "additionalInfo": "Birkaç mahallenin birleşmesiyle oluşur.",
+    "_part": 12
+  },
+  {
+    "question": "Dalyan yerleşmesi ne ile ilgilidir?",
+    "answer": "Balıkçılık",
+    "additionalInfo": "Ege ve Akdeniz kıyılarında görülür.",
+    "_part": 13
+  },
+  {
+    "question": "Tabanı geniş nüfus piramidi neyi gösterir?",
+    "answer": "Doğum oranının yüksek olduğunu (Gelişmemiş ülke)",
+    "additionalInfo": "Çocuk nüfus fazladır.",
+    "_part": 14
+  },
+  {
+    "question": "Arı kovanı şeklindeki piramit neyi gösterir?",
+    "answer": "Doğum ve ölüm oranlarının düşük olduğunu (Gelişmiş ülke)",
+    "additionalInfo": "Nüfus artış hızı düşüktür. Yaşlı nüfus fazladır.",
+    "_part": 15
+  },
+  {
+    "question": "Türkiye'nin nüfus piramidindeki son değişim",
+    "answer": "Taban daralmaktadır",
+    "additionalInfo": "Doğum oranları düşüyor, ortanca yaş yükseliyor.",
+    "_part": 16
+  },
+  {
+    "question": "Nüfus artış hızını azaltmaya yönelik politikalar",
+    "answer": "1965-1980 ve 1923-1965 arası (kısmen) ve günümüzde",
+    "additionalInfo": "Eskiden artırıcı (1923-1960), şimdi dengeli/nitelik artırıcı politika izlenir.",
+    "_part": 17
+  },
+  {
+    "topicId": "beseri_cografya_01",
+    "question": "Türkiye'de nüfusun en yoğun olduğu bölge hangisidir?",
+    "answer": "Marmara Bölgesi",
+    "additionalInfo": "Sanayi ve ticaretin gelişmiş olması temel nedendir.",
+    "id": "flash_1776014532629_1",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_02",
+    "question": "Türkiye'de nüfusun en seyrek olduğu bölge hangisidir?",
+    "answer": "Doğu Anadolu Bölgesi",
+    "additionalInfo": "Yükselti, engebe ve sert iklim koşulları etkilidir.",
+    "id": "flash_1776014532629_2",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_03",
+    "question": "Türkiye'de aritmetik nüfus yoğunluğunun en fazla olduğu il hangisidir?",
+    "answer": "İstanbul",
+    "id": "flash_1776014532629_3",
+    "additionalInfo": "Yüzölçümü küçük, nüfusu çok fazladır.",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_04",
+    "question": "Türkiye'de nüfusun ilk kez sayıldığı yıl hangisidir?",
+    "answer": "1927",
+    "id": "flash_1776014532629_4",
+    "additionalInfo": "Modern anlamda ilk genel nüfus sayımıdır.",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_05",
+    "question": "Nüfus artış hızının en düşük olduğu dönem hangisidir?",
+    "answer": "1940-1945 arası",
+    "id": "flash_1776014532629_5",
+    "additionalInfo": "II. Dünya Savaşı yıllarıdır.",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_06",
+    "question": "Türkiye'de göçlerin en temel sebebi nedir?",
+    "answer": "Ekonomik nedenler",
+    "id": "flash_1776014532629_6",
+    "additionalInfo": "İş olanakları ve geçim sıkıntısı.",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_07",
+    "question": "Türkiye'de köy altı yerleşmelerinden hangisi süreklidir?",
+    "answer": "Mahalle",
+    "id": "flash_1776014532629_7",
+    "additionalInfo": "Diğerleri (kom, oba, yayla) genellikle geçicidir.",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_08",
+    "question": "Yaylacılık faaliyeti en çok hangi bölgede yapılır?",
+    "answer": "Karadeniz Bölgesi",
+    "id": "flash_1776014532629_8",
+    "additionalInfo": "Kültürel ve ekonomik bir gelenektir.",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_09",
+    "question": "Türkiye'de tarım ürünlerinden hangisi en çok ihraç edilir?",
+    "answer": "Fındık",
+    "id": "flash_1776014532629_9",
+    "additionalInfo": "Dünya üretiminde lideriz.",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_10",
+    "question": "Akdeniz ikliminin en belirgin tarım ürünü nedir?",
+    "answer": "Zeytin",
+    "id": "flash_1776014532629_10",
+    "additionalInfo": "Kış ılıklığı ister.",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_11",
+    "question": "Türkiye'de çay tarımı en çok hangi ilde yapılır?",
+    "answer": "Rize",
+    "id": "flash_1776014532629_11",
+    "additionalInfo": "Bol yağış ve ılıman iklim ister.",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_12",
+    "question": "Türkiye'de en çok yetiştirilen tahıl ürünü nedir?",
+    "answer": "Buğday",
+    "id": "flash_1776014532629_12",
+    "additionalInfo": "İç Anadolu'da üretimi çoktur.",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_13",
+    "question": "Muz üretimi hangi ilimizde yoğunlaşmıştır?",
+    "answer": "Antalya (Alanya, Anamur)",
+    "id": "flash_1776014532629_13",
+    "additionalInfo": "Mikroklima özelliği etkilidir.",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_14",
+    "question": "Türkiye'de büyükbaş hayvancılık en çok nerede yapılır?",
+    "answer": "Erzurum-Kars platosu",
+    "id": "flash_1776014532629_14",
+    "additionalInfo": "Çayır bitki örtüsüne bağlıdır.",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_15",
+    "question": "Ankara keçisinin anavatanı neresidir?",
+    "answer": "Ankara",
+    "id": "flash_1776014532629_15",
+    "additionalInfo": "Tiftik üretimi için önemlidir.",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_16",
+    "question": "Türkiye'de en çok üretilen maden hangisidir?",
+    "answer": "Bor mineralleri",
+    "id": "flash_1776014532629_16",
+    "additionalInfo": "Dünya rezervinin çoğu bizdedir.",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_17",
+    "question": "Demir-çelik fabrikalarının enerji kaynağı nedir?",
+    "answer": "Taş kömürü",
+    "id": "flash_1776014532629_17",
+    "additionalInfo": "Zonguldak havzasında bulunur.",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_18",
+    "question": "Türkiye'de petrolün en çok çıkarıldığı bölge neresidir?",
+    "answer": "Güneydoğu Anadolu",
+    "id": "flash_1776014532629_18",
+    "additionalInfo": "Batman en önemli merkezdir.",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_19",
+    "question": "Linyit yataklarının en yaygın olduğu bölge hangisidir?",
+    "answer": "Ege Bölgesi",
+    "id": "flash_1776014532629_19",
+    "additionalInfo": "Termik santrallerde kullanılır.",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_20",
+    "question": "Türkiye'de sanayinin en gelişmiş olduğu bölge neresidir?",
+    "answer": "Marmara Bölgesi",
+    "id": "flash_1776014532629_20",
+    "additionalInfo": "Ulaşım ve pazar olanakları etkilidir.",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_21",
+    "question": "Otomotiv sanayisi en çok hangi illerde gelişmiştir?",
+    "answer": "İstanbul, Bursa, Kocaeli",
+    "id": "flash_1776014532629_21",
+    "additionalInfo": "Lojistik avantajı vardır.",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_22",
+    "question": "Türkiye'de ulaşımın en kolay olduğu bölge neresidir?",
+    "answer": "Marmara Bölgesi",
+    "id": "flash_1776014532629_22",
+    "additionalInfo": "Yer şekilleri sadedir.",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_23",
+    "question": "Türkiye'de demiryolu ağının en az olduğu bölge neresidir?",
+    "answer": "Antalya bölümü",
+    "id": "flash_1776014532629_23",
+    "additionalInfo": "Yer şekilleri engebelidir.",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_24",
+    "question": "En büyük limanımız hangisidir?",
+    "answer": "İstanbul Limanı",
+    "id": "flash_1776014532629_24",
+    "additionalInfo": "Hinterlandı en geniş olandır.",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_25",
+    "question": "Türkiye'de turizm gelirlerinin en yüksek olduğu bölge neresidir?",
+    "answer": "Akdeniz Bölgesi",
+    "id": "flash_1776014532629_25",
+    "additionalInfo": "Deniz turizmi çok gelişmiştir.",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_26",
+    "question": "Peri Bacaları hangi ilimizdedir?",
+    "answer": "Nevşehir",
+    "id": "flash_1776014532629_26",
+    "additionalInfo": "Kültürel turizm merkezidir.",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_27",
+    "question": "Pamukkale travertenleri hangi ilimizdedir?",
+    "answer": "Denizli",
+    "id": "flash_1776014532629_27",
+    "additionalInfo": "UNESCO miras listesindedir.",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_28",
+    "question": "Türkiye'de serbest ticaret bölgesinin en çok olduğu il hangisidir?",
+    "answer": "İstanbul",
+    "id": "flash_1776014532629_28",
+    "additionalInfo": "Ticaretin merkezidir.",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_29",
+    "question": "İç göçlerin en çok yaşandığı mevsim hangisidir?",
+    "answer": "Yaz",
+    "id": "flash_1776014532629_29",
+    "additionalInfo": "Tarım işçiliği nedeniyle.",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_30",
+    "question": "Türkiye'nin en çok nüfusa sahip ikinci ili hangisidir?",
+    "answer": "Ankara",
+    "id": "flash_1776014532629_30",
+    "additionalInfo": "İdari başkenttir.",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_31",
+    "question": "Türkiye'de nüfusun en çok arttığı dönemler hangisidir?",
+    "answer": "Cumhuriyetin ilk yılları",
+    "id": "flash_1776014532629_31",
+    "additionalInfo": "Nüfus artırıcı politikalar izlenmiştir.",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_32",
+    "question": "Türkiye'de eğitim düzeyi en yüksek olan bölge neresidir?",
+    "answer": "Marmara Bölgesi",
+    "id": "flash_1776014532629_32",
+    "additionalInfo": "Sosyo-ekonomik gelişmişlik seviyesi.",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_33",
+    "question": "Türkiye'de kırsal yerleşmelerde ev yapımında kullanılan en yaygın malzeme nedir?",
+    "answer": "Taş ve kerpiç",
+    "id": "flash_1776014532629_33",
+    "additionalInfo": "İklim ve çevre şartlarına göre değişir.",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_34",
+    "question": "İpek böcekçiliği hangi ilimizde meşhurdur?",
+    "answer": "Bursa",
+    "id": "flash_1776014532629_34",
+    "additionalInfo": "Dut ağacı varlığına bağlıdır.",
+    "_part": 51,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_35",
+    "question": "Türkiye'de şeker pancarı en çok hangi bölgede yetişir?",
+    "answer": "İç Anadolu",
+    "id": "flash_1776014532629_35",
+    "additionalInfo": "Çabuk bozulduğu için fabrika yakın olmalıdır.",
+    "_part": 52,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_36",
+    "question": "Tütün üretimi en çok hangi bölgede yapılır?",
+    "answer": "Ege Bölgesi",
+    "id": "flash_1776014532629_36",
+    "additionalInfo": "Devlet kontrolündedir.",
+    "_part": 53,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_37",
+    "question": "Türkiye'de balıkçılığın en çok yapıldığı bölge neresidir?",
+    "answer": "Karadeniz Bölgesi",
+    "id": "flash_1776014532629_37",
+    "additionalInfo": "Avlanan balık miktarı bakımından.",
+    "_part": 54,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_38",
+    "question": "Bakır madeni en çok hangi ilimizde çıkarılır?",
+    "answer": "Artvin (Murgul)",
+    "id": "flash_1776014532629_38",
+    "additionalInfo": "Elektrik-elektronik sanayisinde kullanılır.",
+    "_part": 55,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_39",
+    "question": "Türkiye'de jeotermal enerji santrali en çok hangi bölgededir?",
+    "answer": "Ege Bölgesi",
+    "id": "flash_1776014532629_39",
+    "additionalInfo": "Fay hatları bakımından yoğundur.",
+    "_part": 56,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_40",
+    "question": "Türkiye'nin en büyük barajı hangisidir?",
+    "answer": "Atatürk Barajı",
+    "id": "flash_1776014532629_40",
+    "additionalInfo": "GAP projesi kapsamında inşa edilmiştir.",
+    "_part": 57,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_41",
+    "question": "Türkiye'de dış ticaret hacmi en yüksek il hangisidir?",
+    "answer": "İstanbul",
+    "id": "flash_1776014532629_41",
+    "additionalInfo": "İhracat ve ithalatın merkezidir.",
+    "_part": 58,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_42",
+    "question": "Türkiye'de serbest bölgeler ne amaçla kurulmuştur?",
+    "answer": "İhracatı artırmak",
+    "id": "flash_1776014532629_42",
+    "additionalInfo": "Vergi muafiyetleri sağlanır.",
+    "_part": 59,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_43",
+    "question": "Türkiye'de nüfusun yaş ortalamasının en genç olduğu bölge neresidir?",
+    "answer": "Güneydoğu Anadolu",
+    "id": "flash_1776014532629_43",
+    "additionalInfo": "Doğum oranları yüksektir.",
+    "_part": 60,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_44",
+    "question": "Türkiye'de kentsel nüfus oranı en yüksek bölge neresidir?",
+    "answer": "Marmara Bölgesi",
+    "id": "flash_1776014532629_44",
+    "additionalInfo": "Sanayileşme ile doğrudan ilgilidir.",
+    "_part": 61,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_45",
+    "question": "Göç veren illerimizde en çok hangi yaş grubu göç eder?",
+    "answer": "Genç nüfus",
+    "id": "flash_1776014532629_45",
+    "additionalInfo": "İş gücü ihtiyacı.",
+    "_part": 62,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_46",
+    "question": "Türkiye'de en çok hangi ülkeden yabancı turist gelir?",
+    "answer": "Rusya",
+    "id": "flash_1776014532629_46",
+    "additionalInfo": "Yıllara göre değişebilir ama genelde liderdir.",
+    "_part": 63,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_47",
+    "question": "Türkiye'de seracılık en çok hangi bölgede yapılır?",
+    "answer": "Akdeniz Bölgesi",
+    "id": "flash_1776014532629_47",
+    "additionalInfo": "Kış ılıklığı sayesinde.",
+    "_part": 64,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_48",
+    "question": "Türkiye'de demir cevheri en çok nerede işlenir?",
+    "answer": "Karabük ve Ereğli",
+    "id": "flash_1776014532629_48",
+    "additionalInfo": "Enerji kaynağına yakınlık.",
+    "_part": 65,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_49",
+    "question": "Türkiye'de orman varlığı en çok hangi bölgededir?",
+    "answer": "Karadeniz Bölgesi",
+    "id": "flash_1776014532629_49",
+    "additionalInfo": "Nem ve yağış fazlalığı.",
+    "_part": 66,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  },
+  {
+    "topicId": "beseri_cografya_50",
+    "question": "Türkiye'de kış turizmi en çok hangi bölgede gelişmiştir?",
+    "answer": "Doğu Anadolu",
+    "id": "flash_1776014532629_50",
+    "additionalInfo": "Yükselti ve karın yerde kalma süresi.",
+    "_part": 67,
+    "_generatedAt": "2026-04-12T17:22:30.837Z"
+  }
+]

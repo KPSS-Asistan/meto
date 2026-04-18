@@ -1,0 +1,90 @@
+[
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "title": "Bölüm 1: Bölüm 1: Asal Sayılar ve Özellikleri",
+    "content": "Bir zamanlar, matematiğin büyülü ormanlarında sayılar krallığı vardı. Bu krallıkta, özel bir sayı türü yaşardı: Asal Sayılar. Onlar o kadar nadir ve eşsizdi ki, sadece kendilerine ve 1'e bölünebilirlerdi. Mesela, 2 isimli minik bir sayı vardı. O, sadece 1'e ve kendine bölünebilen tek çift sayıydı ve tüm asal sayıların en küçüğüydü. 3, 5, 7 gibi diğer asiller de vardı. Ama 1'e gelince... Krallığın bilgeleri, 1'in asal sayı olamayacağına karar vermişlerdi, çünkü asal sayılar dünyasında ikiden fazla böleni olmayan sayılar aranıyordu ve 1'in sadece bir böleni vardı. Bu asal sayıları anlamak için, büyük sayıları küçük parçalara ayırmayı öğrendiler. Buna 'asal çarpanlara ayırma' diyorlardı. Tıpkı bir yapbozu parçalara ayırıp tekrar birleştirmek gibi. Örneğin, 12 sayısını ele alalım. Onu 2 x 2 x 3 şeklinde ayırabiliyorduk. İşte bu küçük, bölümleri olmayan sayılar asal çarpanlardı.",
+    "key_points": [
+      "Asal sayı tanımı ve örnekleri",
+      "1'in asal sayı olmama durumu ve nedenleri",
+      "En küçük asal sayı ve tek çift asal sayı",
+      "Asal çarpanlara ayırma yöntemi ve örnekleri"
+    ],
+    "type": "story",
+    "id": "story_1776013560333_0",
+    "createdAt": "2026-04-12T17:06:00.333Z",
+    "updatedAt": "2026-04-12T17:06:00.333Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:06:08.758Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_ASAL_EBOB_EKOK_0.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "title": "Bölüm 2: Bölüm 2: Sayıların Pozitif ve Tam Bölen Sayıları",
+    "content": "Asal sayıların sırrını çözdükten sonra, krallık yeni bir maceraya atıldı: Bir sayının kaç tane dostu olduğunu, yani kaç tane böleni olduğunu bulmak. Her sayının pozitif bölenleri vardı. Örneğin, 6 sayısının dostları 1, 2, 3 ve 6 idi. Bilgeler, bu dostları bulmak için sihirli bir formül keşfettiler. Bir sayıyı asal çarpanlarına ayırdıktan sonra, her asal çarpanın üssüne 1 ekleyip çıkan sonuçları çarparsanız, pozitif bölen sayısını bulurdunuz. Ama hikaye burada bitmiyordu. Sayıların sadece pozitif değil, negatif dostları da vardı! Böylece, bir sayının tüm tam sayı bölenlerini bulmak için, pozitif bölen sayısını ikiyle çarpmak yeterliydi. Hatta daha da ileri gidip, bu dostların toplamını, çarpımını ve kaç tanesinin tek, kaç tanesinin çift olduğunu da bulabiliyorlardı. Bu bilgiler, krallığın hazine sandıklarını paylaşırken veya tarlaları eşit parçalara bölerken çok işlerine yarıyordu.",
+    "key_points": [
+      "Bir sayının pozitif tam sayı bölenlerinin bulunması (formül)",
+      "Bir sayının tüm tam sayı bölenlerinin bulunması",
+      "Bölenlerin toplamı, çarpımı ve tek/çift bölen sayıları",
+      "Örnek problemler ve uygulama alanları"
+    ],
+    "type": "story",
+    "id": "story_1776013560333_1",
+    "createdAt": "2026-04-12T17:06:00.333Z",
+    "updatedAt": "2026-04-12T17:06:00.333Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:06:08.758Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_ASAL_EBOB_EKOK_1.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "title": "Bölüm 3: Bölüm 3: En Büyük Ortak Bölen (EBOB)",
+    "content": "Krallıkta iki sayının en yakın ortak dostunu bulmak gerektiğinde EBOB devreye girerdi. EBOB, 'En Büyük Ortak Bölen' anlamına geliyordu ve iki veya daha fazla sayıyı aynı anda bölebilen en büyük sayıydı. Örneğin, 12 ve 18 sayılarının ortak dostları 1, 2, 3 ve 6 idi. Bu dostların en büyüğü ise 6'ydı. EBOB'u bulmak için iki temel yöntem vardı: Birincisi, her iki sayıyı da asal çarpanlarına ayırıp, ortak olan asal çarpanlardan üssü en küçük olanları çarpmaktı. İkincisi ise, daha eski ve bilgece bir yöntem olan Öklid algoritmasıydı. Bu yöntem, büyük sayılarda bile EBOB'u hızlıca bulmaya yarayan bir dizi bölme işlemiydi. EBOB, krallıkta çok önemliydi. Tarlaları eşit büyüklükteki parsellere ayırırken, elmalar ve armutları eşit gruplara bölerken veya en uzun ortak çiti inşa ederken hep EBOB'a danışırlardı. O, problemlerin en büyük ortak çözümünü sunan bilge bir rehberdi.",
+    "key_points": [
+      "EBOB tanımı ve iki veya daha fazla sayı için hesaplanması",
+      "Asal çarpanlara ayırma yöntemiyle EBOB bulma",
+      "Öklid algoritması ile EBOB bulma",
+      "EBOB'un özellikleri ve problem çözümlerinde kullanımı (parçalama, bölme problemleri)"
+    ],
+    "type": "story",
+    "id": "story_1776013560333_2",
+    "createdAt": "2026-04-12T17:06:00.333Z",
+    "updatedAt": "2026-04-12T17:06:00.333Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:06:08.758Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_ASAL_EBOB_EKOK_2.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "title": "Bölüm 4: En Küçük Ortak Kat (EKOK)",
+    "content": "Kadim zamanların matematik diyarında, EBOB'un hikayesi dilden dile dolaşırken, onun bir de neşeli ve birleştirici kuzeni vardı: EKOK. EKOK, yani En Küçük Ortak Kat, tıpkı bir orkestra şefi gibi, farklı ritimlerde çalan sayıları en küçük ortak noktada buluştururdu. İki veya daha fazla sayının katları arasında, hepsinin aynı anda buluştuğu ilk duraktı o. Örneğin, 3 ve 4 sayıları, farklı yollarda ilerleyen iki gezgin gibiydi. 3'ün katları (3, 6, 9, 12, 15...), 4'ün katları (4, 8, 12, 16...) derken, ilk kez 12 sayısında bir araya gelirlerdi. İşte bu 12, 3 ve 4'ün EKOK'uydu. EKOK'u bulmanın en pratik yolu, sayıları tıpkı EBOB'ta olduğu gibi asal çarpanlarına ayırmaktı. Her sayının asal çarpanlarını belirledikten sonra, tüm asal çarpanlardan en yüksek üslü olanları seçip çarptığımızda EKOK'a ulaşırdık. Mesela, 12 ve 18'in EKOK'unu bulmak için: 12 = 2^2 * 3^1 ve 18 = 2^1 * 3^2. En yüksek üslü çarpanlar 2^2 ve 3^2 olduğundan, EKOK(12, 18) = 2^2 * 3^2 = 4 * 9 = 36 olurdu. EKOK'un gücü, birleştirme gerektiren problemlerde ortaya çıkardı. Örneğin, farklı aralıklarla çalan zillerin ne zaman tekrar birlikte çalacağını bulmak, ya da farklı uzunluktaki kumaş parçalarını eşit boyutta bölerek en küçük ortak bir bütün oluşturmak gibi durumlarda EKOK, bize yol gösterirdi. Periyodik tekrarlanan olaylar, EKOK'un en sevdiği oyun alanıydı. İki otobüsün farklı saatlerde kalkan seferleri, ne zaman tekrar aynı durakta buluşacaklarını EKOK ile hesaplardık. EKOK, sayıların uyumunu ve bir araya gelişini temsil eden, matematiğin neşeli ve birleştirici yüzüydü.",
+    "key_points": [
+      "EKOK tanımı: İki veya daha fazla sayının ortak katlarının en küçüğüdür.",
+      "Asal çarpanlara ayırma yöntemiyle EKOK bulma: Sayılar asal çarpanlarına ayrılır, tüm asal çarpanlardan en yüksek üslü olanlar seçilip çarpılır.",
+      "EKOK'un özellikleri ve problem çözümlerinde kullanımı: Birleştirme, periyodik tekrarlayan olaylar (zillerin birlikte çalması, otobüs seferleri gibi) ve en küçük ortak bütün oluşturma problemlerinde kullanılır."
+    ],
+    "type": "story",
+    "id": "story_1776013568758_0",
+    "createdAt": "2026-04-12T17:06:08.758Z",
+    "updatedAt": "2026-04-12T17:06:08.758Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:06:17.998Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_ASAL_EBOB_EKOK_3.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "title": "Bölüm 5: EBOB-EKOK İlişkisi ve Uygulamalı Problemler",
+    "content": "Matematik diyarında EBOB ile EKOK, birbirini tamamlayan iki kadim dost gibiydi. Biri sayıları en büyük parçalara ayırmanın ustasıyken, diğeri sayıları en küçük ortak bütünlerde birleştirmenin üstadıydı. Bu iki dost arasında öyle güçlü bir bağ vardı ki, bu bağ bir formülle özetlenmişti: İki sayının çarpımı, o sayıların EBOB'u ile EKOK'unun çarpımına eşitti. Yani, a ve b gibi iki sayı için a . b = EBOB(a,b) . EKOK(a,b) idi. Bu formül, EBOB veya EKOK'tan birini bildiğimizde diğerini kolayca bulmamızı sağlayan sihirli bir anahtar gibiydi. Özellikle ardışık sayılar ve aralarında asal sayılar için bu ilişki daha da belirginleşirdi. Ardışık iki sayının EBOB'u her zaman 1'di çünkü 1'den başka ortak bölenleri yoktu. Dolayısıyla, ardışık sayıların EKOK'u, o iki sayının çarpımına eşit olurdu. Benzer şekilde, aralarında asal olan iki sayının EBOB'u da 1'di ve EKOK'ları o iki sayının çarpımıyla bulunurdu. Yeni nesil problemlerde EBOB ve EKOK, artık sadece basit hesaplamalarla sınırlı kalmıyordu. Gerçek hayat senaryolarına ışık tutan karmaşık hikayelerle karşımıza çıkıyordu. Örneğin, farklı ölçülerdeki karolarla bir zemini boşluk kalmayacak şekilde kaplamak için en büyük boyutlu karoları bulmak (EBOB), ya da farklı aralıklarla yanan lambaların ne zaman tekrar aynı anda yanacağını hesaplamak (EKOK) gibi. Bir çiftçi, dikdörtgen şeklindeki tarlasının etrafına eşit aralıklarla fidan dikecekse, fidanlar arasındaki en uzun mesafeyi EBOB ile bulurdu. Ya da bir fırıncı, farklı gramajlardaki hamurları eşit büyüklükte parçalara ayıracaksa, her bir parçanın en büyük ağırlığını yine EBOB ile belirlerdi. Diğer yandan, bir terzi, farklı uzunluktaki kumaşları kullanarak eşit boyutta perdeler dikecekse, en küçük ortak uzunluğu EKOK ile hesaplardı. EBOB ve EKOK, sadece matematiksel kavramlar değil, aynı zamanda günlük hayatın düzenini ve uyumunu sağlayan pratik araçlardı. Onların ilişkisini ve uygulama alanlarını kavramak, bizlere sadece sınavda değil, hayatın her alanında problem çözme becerisi kazandırırdı.",
+    "key_points": [
+      "İki sayının çarpımı ile EBOB ve EKOK arasındaki ilişki: a . b = EBOB(a,b) . EKOK(a,b).",
+      "Ardışık sayılar ve aralarında asal sayılar için EBOB-EKOK: Ardışık sayıların EBOB'u 1, EKOK'u sayıların çarpımıdır. Aralarında asal sayıların EBOB'u 1, EKOK'u sayıların çarpımıdır.",
+      "EBOB ve EKOK'u içeren karmaşık yeni nesil problemler: Gerçek hayat senaryolarında (karo döşeme, fidan dikme, lambaların yanması, kumaş bölme vb.) EBOB ve EKOK kullanımı."
+    ],
+    "type": "story",
+    "id": "story_1776013568758_1",
+    "createdAt": "2026-04-12T17:06:08.758Z",
+    "updatedAt": "2026-04-12T17:06:08.758Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:06:17.998Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_ASAL_EBOB_EKOK_4.mp3?alt=media"
+  }
+]

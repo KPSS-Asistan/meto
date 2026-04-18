@@ -1,0 +1,902 @@
+[
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 1: Oran Kavramı ve Temel Özellikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "İki çokluğun birbirine bölünerek karşılaştırılmasına oran denir. Bir oranın ifade edilebilmesi için çoklukların aynı türden olması gerekmez, ancak birimlerin birbirine uyumu önemlidir. KPSS sorularında birimli ve birimsiz oran ayrımı temel bir kazanım olarak karşımıza çıkar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Aynı birime sahip çoklukların oranı birimsizdir.\n• Farklı birime sahip çoklukların oranı birimlidir.\n• a'nın b'ye oranı a/b şeklinde gösterilir.\n• Oranlama işleminde payda sıfır olamaz.\n• Birimler sadeleştiğinde sonuç birimsiz bir sayı olur."
+      },
+      {
+        "type": "text",
+        "text": "Özellikle hız, yoğunluk veya işçi problemleri gibi konularda birimli oranlar sıklıkla kullanılır. Birimsiz oranlar ise genellikle yüzdeler veya ölçekler gibi saf sayısal karşılaştırmalarda tercih edilir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Bir oranda pay veya payda sıfır olursa oran tanımsız veya sıfır olabilir, ancak payda asla sıfır olamaz."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000504637_MAT__1",
+    "createdAt": "2026-04-12T13:28:24.637Z",
+    "updatedAt": "2026-04-12T13:28:24.637Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T13:28:36.206Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_0.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 2: Orantı Tanımı ve Orantı Sabiti",
+    "content": [
+      {
+        "type": "text",
+        "text": "İki veya daha fazla oranın birbirine eşitlenmesine orantı denir. Orantı, matematiksel modellemede değişkenler arasındaki ilişkiyi kurmak için kullanılan en temel yapıdır. Bu eşitliğin sonucunda elde edilen sabit değere ise orantı sabiti adı verilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• a/b = c/d = k eşitliğinde k orantı sabitidir.\n• Orantı sabiti, değişkenler arasındaki değişmez ilişkiyi temsil eder.\n• Orantı en az iki orandan oluşur.\n• Orantı sabiti (k) negatif, pozitif veya rasyonel olabilir.\n• Değişkenler k cinsinden ifade edilebilir."
+      },
+      {
+        "type": "text",
+        "text": "Problemlerde bilinmeyenleri tek bir değişken olan 'k' türünden yazmak, çözüm sürecini hızlandırır. Bu yöntem özellikle yaş, karışım ve paylaştırma problemlerinde oldukça pratiktir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Orantıda tüm oranlar aynı k sabitine eşittir, bu durum değişkenler arasındaki bağımlılığı gösterir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000504638_MAT__2",
+    "createdAt": "2026-04-12T13:28:24.637Z",
+    "updatedAt": "2026-04-12T13:28:24.637Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T13:28:36.206Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_1.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 3: Orantının Temel Özellikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Orantıların en temel özelliği içler ve dışlar çarpımının birbirine eşit olmasıdır. Bu özellik, denklem çözümlerinde bilinmeyenleri bulmak için kullanılan ana araçtır. Orantının korunması için pay ve payda üzerinde yapılan işlemler her iki tarafa da uygulanmalıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İçler dışlar çarpımı: a/b = c/d ise a.d = b.c dir.\n• İçler yer değiştirebilir: a/c = b/d.\n• Dışlar yer değiştirebilir: d/b = c/a.\n• Pay ve payda yer değiştirebilir: b/a = d/c.\n• Orantı özellikleri denklemleri sadeleştirmeyi sağlar."
+      },
+      {
+        "type": "text",
+        "text": "Bu özellikler sayesinde karmaşık görünen rasyonel ifadeler kolayca çözülebilir hale getirilir. Özellikle KPSS sınavında hız kazanmak için bu özelliklerin pratik kullanımı hayati önem taşır."
+      },
+      {
+        "type": "highlighted",
+        "text": "İçler dışlar çarpımı sadece iki oran arasında değil, daha fazla oran arasındaki eşitliklerde de temel prensiptir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000504639_MAT__3",
+    "createdAt": "2026-04-12T13:28:24.637Z",
+    "updatedAt": "2026-04-12T13:28:24.637Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T13:28:36.206Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_2.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 4: Orantıda Yer Değiştirme ve İşlem Özellikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Orantıdaki terimlerin yer değiştirmesi, orantı sabitinin değişmediği durumlarda denklemi basitleştirir. Bu özellikler, özellikle çoklu oranların olduğu sorularda değişkenleri yalnız bırakmak için kullanılır. İşlem yeteneği, bu özelliklerin doğru uygulanmasıyla gelişir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Orantıyı ters çevirmek sabiti 1/k yapar.\n• Payların toplamı paydaların toplamına oranlanırsa sonuç k değişmez.\n• Terimlerin yer değiştirmesi denklem çözümünde kolaylık sağlar.\n• Orantı sabitinin karesi veya küpü alındığında özellikler değişebilir.\n• İşlem özellikleri sayesinde karmaşık ifadeler sadeleşir."
+      },
+      {
+        "type": "text",
+        "text": "Soru çözerken içler ve dışların yerini değiştirmek, denklemdeki değişkenleri istenilen tarafa toplamaya yardımcı olur. Bu, özellikle KPSS'deki cebirsel ifade içeren oran sorularında hayat kurtarıcıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "a/b = c/d = k ise (a+c)/(b+d) = k kuralı, oran sorularının çoğunda kullanılan en önemli özelliktir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000504640_MAT__4",
+    "createdAt": "2026-04-12T13:28:24.637Z",
+    "updatedAt": "2026-04-12T13:28:24.637Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T13:28:36.206Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_3.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 5: Orantı Sabitine Ekleme ve Çıkarma Yapma",
+    "content": [
+      {
+        "type": "text",
+        "text": "Orantı terimlerini uygun sayılarla genişletip topladığımızda orantı sabitinin değişmediğini görmek, ileri düzey oran sorularını çözmemizi sağlar. Bu yöntem, özellikle bilinmeyenlerin birbirine oranlandığı sorularda kullanılır. Matematiksel olarak pay ve paydadaki işlemlerin tutarlı olması gerekir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Payları n ile çarpıp toplarsak, paydaları da n ile çarpmalıyız.\n• Sabitlerin toplamı orantı sabitini değiştirmez.\n• Her oranın pay ve paydasına aynı işlem uygulanmalıdır.\n• Bu kural çoklu oranlarda bilinmeyenleri bulmayı kolaylaştırır.\n• İşlem hatası yapmamak için katsayılara dikkat edilmelidir."
+      },
+      {
+        "type": "text",
+        "text": "Bu özellik, özellikle paydası sıfır olmayan durumlarda uygulanabilir. KPSS adaylarının bu kuralı kavraması, sınavda çıkabilecek zaman alıcı soruları kısa sürede çözmelerini sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "a/b = c/d = e/f = k ise (ma + nc + pe)/(mb + nd + pf) = k eşitliği her zaman geçerlidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000504641_MAT__5",
+    "createdAt": "2026-04-12T13:28:24.637Z",
+    "updatedAt": "2026-04-12T13:28:24.637Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T13:28:36.206Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_4.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 6: Doğru Orantı Kavramı",
+    "content": [
+      {
+        "type": "text",
+        "text": "İki çokluktan biri artarken diğeri de aynı oranda artıyorsa veya biri azalırken diğeri de aynı oranda azalıyorsa bu çokluklar doğru orantılıdır. Doğru orantı, günlük hayatta birçok değişken arasındaki ilişkinin temelidir. Grafik üzerinde doğru orantı, orijinden geçen düz bir çizgi ile temsil edilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Doğru orantılı çoklukların bölümleri sabittir (y/x = k).\n• Grafik daima orijinden başlar.\n• Eğimi pozitif ve sabittir.\n• Biri artınca diğeri de artar.\n• Doğru orantı denklemi y = k.x şeklindedir."
+      },
+      {
+        "type": "text",
+        "text": "Bu kavram, özellikle iş, zaman ve maliyet hesaplarında kullanılır. KPSS sınavında doğru orantı grafiklerini yorumlamak, analitik düşünme becerisini test eden önemli bir başlıktır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Doğru orantıda bölümlerin sabit olduğunu unutmamak, problem çözümlerinde hata yapmanızı engeller."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000504642_MAT__6",
+    "createdAt": "2026-04-12T13:28:24.637Z",
+    "updatedAt": "2026-04-12T13:28:24.637Z",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T13:28:36.206Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_5.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 7: Doğru Orantı Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Günlük yaşamda karşılaştığımız birçok problem doğru orantı mantığıyla çözülür. Birim fiyat üzerinden toplam maliyeti hesaplamak, ölçekli haritalarda gerçek mesafeyi bulmak buna örnektir. Problemi kurarken birimlerin alt alta gelmesine dikkat edilmelidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İçler dışlar çarpımı ile kolayca çözülür.\n• Birimlerin aynı olmasına dikkat edilmelidir.\n• Problemi okurken artış yönü belirlenmelidir.\n• Denklemler kurulurken pay ve payda tutarlı olmalıdır.\n• Orantı sabiti üzerinden de çözüm yapılabilir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de çıkan doğru orantı problemleri genellikle mantık yürütmeyi ve hızlı işlem yapmayı gerektirir. Problemi kurduktan sonra sadeleştirme yapmak, büyük sayıların çarpımından kurtarır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Doğru orantı problemlerinde 'çapraz çarpım' yöntemi en güvenilir çözüm yoludur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000504643_MAT__7",
+    "createdAt": "2026-04-12T13:28:24.637Z",
+    "updatedAt": "2026-04-12T13:28:24.637Z",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T13:28:36.206Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_6.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 8: Ters Orantı Kavramı",
+    "content": [
+      {
+        "type": "text",
+        "text": "İki çokluktan biri artarken diğeri aynı oranda azalıyorsa bu çokluklar ters orantılıdır. Ters orantıda çoklukların bölümleri değil, çarpımları sabittir. Bu durum, özellikle işçi ve zaman gibi değişkenler arasında sıkça görülür."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Ters orantılı çoklukların çarpımları sabittir (x.y = k).\n• Biri artarken diğeri azalır.\n• Grafik bir hiperbol eğrisidir.\n• İşçi sayısı ile işin bitme süresi ters orantılıdır.\n• Ters orantıda yan yana çarpım yapılır."
+      },
+      {
+        "type": "text",
+        "text": "Ters orantı, özellikle hız-zaman ve işçi problemlerinde karşımıza çıkar. KPSS hazırlığında ters orantı mantığını doğru kurmak, soruyu yanlış çözmekten koruyan en önemli adımdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Ters orantıda doğru orantıdan farklı olarak yan yana çarpım yapılarak denklem kurulur; bu kuralı karıştırmamak gerekir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000504644_MAT__8",
+    "createdAt": "2026-04-12T13:28:24.637Z",
+    "updatedAt": "2026-04-12T13:28:24.637Z",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T13:28:36.206Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_7.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 9: Ters Orantı Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "İki çokluktan biri artarken diğeri aynı oranda azalıyorsa bu çokluklar ters orantılıdır. Ters orantılı iki çokluğun çarpımı her zaman sabit bir değere eşittir. KPSS sorularında işçi sayısı ile işin bitirilme süresi arasındaki ilişki bu mantıkla çözülür."
+      },
+      {
+        "type": "bulletList",
+        "text": "• x ve y ters orantılı ise x.y = k (sabit) formülü kullanılır.\n• İşçi sayısı arttıkça işin bitirilme süresi azalır.\n• Hız ile varış süresi ters orantılıdır.\n• Musluk sayısı ile havuzun dolma süresi ters orantılıdır."
+      },
+      {
+        "type": "text",
+        "text": "Problemleri çözerken verilerin çarpım durumunda olduğunu unutmamak önemlidir. Özellikle işçi problemlerinde 'işçi x zaman = sabit' eşitliği denklemi kurmanızı sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Ters orantı problemlerinde değişkenlerin çarpımı sabittir; bu yüzden işçi problemlerinde iş miktarı pay kısmına, diğer değişkenler payda kısmına yazılmalıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000516207_MAT__9",
+    "createdAt": "2026-04-12T13:28:36.207Z",
+    "updatedAt": "2026-04-12T13:28:36.207Z",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T13:28:53.539Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_8.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 10: Bileşik Orantı",
+    "content": [
+      {
+        "type": "text",
+        "text": "Bileşik orantı, ikiden fazla değişkenin birbiriyle olan ilişkisini ifade eden orantı türüdür. Bir çokluğun diğer birkaç çoklukla aynı anda doğru veya ters orantılı olması durumudur. Bu yöntemde değişkenler arasındaki ilişki tek bir denklem çatısı altında toplanır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Bileşik orantıda bir değişken diğerleriyle ayrı ayrı analiz edilir.\n• Pay kısmına doğru orantılı çokluklar yazılır.\n• Payda kısmına ters orantılı çokluklar yazılır.\n• Tüm oranlar tek bir orantı sabiti olan k'ya eşitlenir."
+      },
+      {
+        "type": "text",
+        "text": "Bileşik orantı kurarken değişkenlerin birbirine bağımlılığını doğru tespit etmek gerekir. Genellikle yapılan iş miktarı tüm değişkenlerin paydasına oranlanır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Yapılan iş miktarı her zaman doğru orantılı kabul edilir ve denklemin pay kısmına yazılır, diğer değişkenler ise iş miktarına göre konumlandırılır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000516208_MAT__10",
+    "createdAt": "2026-04-12T13:28:36.207Z",
+    "updatedAt": "2026-04-12T13:28:36.207Z",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T13:28:53.539Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_9.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 11: Bileşik Orantı Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "KPSS sınavlarında sıkça sorulan 'işçi, gün, saat ve yapılan iş' problemleri bileşik orantı mantığıyla çözülür. Burada temel kural, aynı türden verilerin alt alta yazılmasıdır. Formülize edilmiş bir yapı üzerinden bilinmeyen rahatlıkla bulunur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Birinci durumdaki (İşçi*Gün*Saat) / İş = İkinci durumdaki (İşçi*Gün*Saat) / İş formülü uygulanır.\n• Verilen tüm değişkenler birbiriyle çarpım veya bölüm durumunda ilişkilendirilir.\n• Çalışma kapasitesi artarsa işin süresi kısalır.\n• Verilen değerlerin birimlerinin aynı olmasına dikkat edilmelidir."
+      },
+      {
+        "type": "text",
+        "text": "Problemi okurken 'yapılan iş' kısmını doğru belirlemek en kritik noktadır. Yapılan iş paydada, diğer tüm değişkenler pay kısmında çarpım halindedir."
+      },
+      {
+        "type": "highlighted",
+        "text": "İşçi-iş problemlerinde her zaman 'Yapılan İş1 / Yapılan İş2 = Diğer Değişkenlerin Çarpımı1 / Diğer Değişkenlerin Çarpımı2' kuralını uygulayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000516209_MAT__11",
+    "createdAt": "2026-04-12T13:28:36.207Z",
+    "updatedAt": "2026-04-12T13:28:36.207Z",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T13:28:53.539Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_10.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 12: Orantı Sabitinin Değişimi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Orantı sabitinin değişimi, değişkenlerin kuvvetleri veya kökleri ile ilgilidir. Bir sayı başka bir sayının karesi veya karekökü ile orantılı olabilir. Bu durum orantı denklemini etkileyen temel bir değişkendir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• x, y'nin karesi ile doğru orantılı ise x = k.y² yazılır.\n• x, y'nin karekökü ile doğru orantılı ise x = k.√y yazılır.\n• Ters orantı durumunda değişken paydaya kuvvetiyle yazılır.\n• Orantı sabitini bulmak için verilen ilk değerler kullanılır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de bu konu genellikle geometrik şekillerin alan veya hacim değişimi sorularında karşımıza çıkar. Yarıçapın karesi alanla, küpü ise hacimle orantılıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Değişkenin hangi kuvvetiyle orantılı olduğu ifade edilmişse, formülde o kuvveti mutlaka dahil etmelisiniz."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000516210_MAT__12",
+    "createdAt": "2026-04-12T13:28:36.207Z",
+    "updatedAt": "2026-04-12T13:28:36.207Z",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T13:28:53.539Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_11.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 13: Aritmetik Ortalama",
+    "content": [
+      {
+        "type": "text",
+        "text": "Aritmetik ortalama, bir veri grubundaki sayıların toplamının veri adedine bölünmesiyle elde edilen değerdir. Merkezi eğilim ölçülerinin en yaygın kullanılanıdır. İstatistiksel analizlerde verilerin genel eğilimini gösterir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Aritmetik Ortalama = Verilerin Toplamı / Veri Sayısı.\n• Veri grubu arttıkça ortalama değişebilir.\n• Tüm veriler aynı miktarda artarsa ortalama da aynı miktarda artar.\n• Sınav puanları ve yaş ortalaması hesaplarında kullanılır."
+      },
+      {
+        "type": "text",
+        "text": "Aritmetik ortalama sorularında toplamın değişmediği durumlara odaklanmak işlem kolaylığı sağlar. Özellikle 'toplam = ortalama x adet' formülü çok pratiktir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Veri grubuna yeni bir eleman eklendiğinde veya çıkarıldığında toplam değer üzerinden gitmek çözüm hızınızı artıracaktır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000516211_MAT__13",
+    "createdAt": "2026-04-12T13:28:36.207Z",
+    "updatedAt": "2026-04-12T13:28:36.207Z",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T13:28:53.539Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_12.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 14: Geometrik Ortalama",
+    "content": [
+      {
+        "type": "text",
+        "text": "Geometrik ortalama, n tane pozitif sayının çarpımlarının n. dereceden köküdür. İki sayı için bu ortalama, sayıların çarpımının kareköküne eşittir. Genellikle büyüme oranları ve finansal veriler gibi çarpımsal ilişkilerde kullanılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İki sayı için: √(a.b) formülü kullanılır.\n• Üç sayı için: 3. dereceden √(a.b.c) kullanılır.\n• Sayıların hepsi pozitif olmalıdır.\n• Geometrik ortalama, her zaman aritmetik ortalamadan küçük veya eşittir."
+      },
+      {
+        "type": "text",
+        "text": "Geometrik ortalama soruları genellikle tam kare sayılar üzerinden sorulur. İşlem yaparken sayıları asal çarpanlarına ayırmak kök dışına çıkarmayı kolaylaştırır."
+      },
+      {
+        "type": "highlighted",
+        "text": "İki sayının geometrik ortalaması, sayıların çarpımının kareköküdür; bu bilgi özellikle oran-orantı problemlerinde çokça kullanılır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000516212_MAT__14",
+    "createdAt": "2026-04-12T13:28:36.207Z",
+    "updatedAt": "2026-04-12T13:28:36.207Z",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T13:28:53.539Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_13.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 15: Harmonik Ortalama",
+    "content": [
+      {
+        "type": "text",
+        "text": "Harmonik ortalama, veri sayısının verilerin çarpmaya göre terslerinin toplamına bölünmesiyle elde edilir. Hız problemlerinde, özellikle aynı yolu farklı hızlarla giden araçların ortalama hızını bulmak için kullanılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İki sayı için formül: 2ab / (a+b).\n• Verilerin birbirine göre tersi üzerinden işlem yapılır.\n• Hız problemlerinde ortalama hız hesabı için temel yöntemdir.\n• Veri grubu arttıkça formül karmaşıklaşır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de karşınıza çıkabilecek en yaygın harmonik ortalama sorusu, gidiş-dönüş hızları verilen bir aracın ortalama hızını bulmaktır. Burada verilen formül doğrudan çözüm sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Ortalama hız = 2v1v2 / (v1 + v2) formülü, sadece aynı yolu giden araçlar için geçerlidir; farklı yollar için toplam yol/toplam zaman kullanılır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000516213_MAT__15",
+    "createdAt": "2026-04-12T13:28:36.207Z",
+    "updatedAt": "2026-04-12T13:28:36.207Z",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T13:28:53.539Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_14.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 16: Orantı Gruplama Yöntemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Orantı gruplama, karmaşık orantı problemlerini basitleştirmek için kullanılan bir tekniktir. Değişkenleri kendi aralarında gruplandırarak orantı sabitine eşitlemek, bilinmeyenleri bulmayı kolaylaştırır. Bu yöntem özellikle denklem sistemlerinde çok etkilidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Orantı sabitini k olarak tanımlayıp değişkenleri çekin.\n• Toplam veya fark özelliklerini kullanın.\n• Grupları kendi içinde oranlayarak sadeleştirme yapın.\n• Ortak değişkenler üzerinden köprü kurun."
+      },
+      {
+        "type": "text",
+        "text": "Birden fazla orantı verildiğinde, ortak olan değişkeni her iki grupta da aynı sayıya eşitlemek en pratik yoldur. Bu, tüm değişkenleri tek bir 'k' türünden yazmanızı sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "a/b = c/d = e/f = k ise, payların toplamının paydaların toplamına oranı da k'ya eşittir; bu kural zor soruların anahtarıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000516214_MAT__16",
+    "createdAt": "2026-04-12T13:28:36.207Z",
+    "updatedAt": "2026-04-12T13:28:36.207Z",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T13:28:53.539Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_15.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 17: Orantı ve Denklemler",
+    "content": [
+      {
+        "type": "text",
+        "text": "Orantı, iki oranın birbirine eşitlenmesiyle oluşan matematiksel bir yapıdır. Denklem sistemlerinde orantı sabitini kullanmak, değişkenler arasındaki bağımlılığı belirginleştirerek çözüm sürecini hızlandırır. Bu yöntem, özellikle bilinmeyenlerin birbirine bağlı olduğu çok değişkenli problemlerde temel stratejidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• a/b = c/d = k orantı sabitini tanımlayın.\n• İçler dışlar çarpımı özelliğini denklem çözümünde uygulayın.\n• Orantı özelliklerini (toplama, çıkarma, genişletme) kullanın.\n• Değişkenleri k türünden yazarak denklemi tek bilinmeyenli hale getirin."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavlarında genellikle 'a/2 = b/3 = c/4' gibi ifadeler verilerek toplamları üzerinden değer bulma soruları sorulmaktadır. Bu tür sorularda her bir değişkeni orantı sabiti olan 'k' cinsinden ifade ederek sonuca ulaşmak en güvenilir yoldur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Orantı sabitini (k) kullanmak, karmaşık görünen denklem sistemlerini basit birer çarpan problemine dönüştürür."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000533539_MAT__17",
+    "createdAt": "2026-04-12T13:28:53.539Z",
+    "updatedAt": "2026-04-12T13:28:53.539Z",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T13:29:13.626Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_16.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 18: Şekil ve Ölçek Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Harita ölçekleri, gerçek uzunlukların kağıt üzerindeki izdüşümüne oranını ifade eder. Benzer çokgenlerde ise kenarlar arasındaki oran, şekillerin benzerlik oranını belirler. Bu kavramlar, coğrafi hesaplamalardan geometrik çizimlere kadar geniş bir alanda kullanılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Ölçek = Harita Uzunluğu / Gerçek Uzunluk formülünü uygulayın.\n• Alanlar oranı, benzerlik oranının karesine eşittir.\n• Benzer üçgenlerde kenar oranlarını orantı sabiti ile ilişkilendirin.\n• Birim çevrimlerine (km'den cm'ye geçiş) dikkat edin."
+      },
+      {
+        "type": "text",
+        "text": "Ölçek problemlerinde en sık yapılan hata birim dönüşümlerinin atlanmasıdır. Gerçek uzunluklar genellikle kilometre veya metre cinsinden verilirken, harita uzunlukları santimetre cinsinden ifade edilir; bu yüzden dönüşüm oranlarını doğru kurmak kritiktir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: Alan benzerliğinde oranların karesini almayı unutmayın, bu KPSS'de sıkça sorulan bir çeldiricidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000533540_MAT__18",
+    "createdAt": "2026-04-12T13:28:53.539Z",
+    "updatedAt": "2026-04-12T13:28:53.539Z",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T13:29:13.626Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_17.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 19: Karışım Problemlerinde Oran",
+    "content": [
+      {
+        "type": "text",
+        "text": "Karışım problemleri, maddelerin birbirine oranlanması ve toplam içindeki saf madde miktarının hesaplanması prensibine dayanır. Orantı kurarken toplam karışım miktarını ve saf madde miktarını ayrı ayrı takip etmek hata payını minimize eder. Bu konu, kimya ve matematiksel modelleme kesişiminde yer alır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Karışım yüzdesi = (Saf Madde / Toplam Karışım) x 100 formülünü kullanın.\n• Karışımdan madde ekleme veya çıkarma durumlarını denkleme yansıtın.\n• Saf madde miktarını değişmez bir değer olarak sabitleyin.\n• İki farklı karışımı birleştirirken toplam saf madde miktarını toplayın."
+      },
+      {
+        "type": "text",
+        "text": "Sınavda karşılaşacağınız karışım sorularında, su buharlaştırılması veya saf madde eklenmesi durumlarında toplam karışım miktarının nasıl değiştiğini iyi analiz etmelisiniz. Doğru orantı kurmak için her zaman 'saf madde / toplam miktar' yaklaşımını benimseyin."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Karışım problemlerinde her zaman 'saf madde' miktarı üzerinden denklem kurmak işlemleri daha pratik kılar."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000533541_MAT__19",
+    "createdAt": "2026-04-12T13:28:53.539Z",
+    "updatedAt": "2026-04-12T13:28:53.539Z",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T13:29:13.626Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_18.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 20: Hız ve Yol Problemleri (Orantısal)",
+    "content": [
+      {
+        "type": "text",
+        "text": "Hız, yol ve zaman arasındaki ilişki temel bir doğru orantı modelidir. Yol sabit kaldığında hız ile zaman ters orantılıyken, zaman sabit kaldığında yol ile hız doğru orantılıdır. Bu ilişkileri kavramak, hareket problemlerinde çözüm süresini oldukça kısaltır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Yol = Hız x Zaman temel denklemini her zaman hatırlayın.\n• Aynı sürede alınan yolların hızlarla doğru orantılı olduğunu bilin.\n• Hızın değiştiği durumlarda toplam yol hesabını parçalı düşünün.\n• Birimlerin (km/sa, m/sn) uyumunu mutlaka kontrol edin."
+      },
+      {
+        "type": "text",
+        "text": "Hareket problemlerinde orantı kullanırken, araçların birbirine doğru gelmesi veya aynı yöne gitmesi durumlarını hızların farkı veya toplamı üzerinden değerlendirin. Orantısal yaklaşım, özellikle ortalama hız sorularında büyük kolaylık sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Hız ile zaman her zaman ters orantılıdır; bu kuralı unutmak tüm hesabın yanlış çıkmasına neden olur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000533542_MAT__20",
+    "createdAt": "2026-04-12T13:28:53.539Z",
+    "updatedAt": "2026-04-12T13:28:53.539Z",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T13:29:13.626Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_19.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 21: Paylaştırma Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Paylaştırma problemleri, verilen bir miktarın belirli oranlara göre gruplara dağıtılmasıdır. Doğru orantılı paylaştırmada paylar büyürken, ters orantılı paylaştırmada paylar küçülür. Bu yöntem, miras veya bütçe bölüştürme gibi pratik hayattan gelen sorularda sıkça kullanılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Doğru orantıda payları k, 2k, 3k gibi sabitlerle ifade edin.\n• Ters orantıda payları k/a, k/b, k/c şeklinde kurgulayın.\n• Ters orantılı çoklukları en küçük ortak kat ile genişleterek doğru orantıya çevirin.\n• Toplam miktarı payların toplamına eşitleyerek k değerini bulun."
+      },
+      {
+        "type": "text",
+        "text": "Ters orantılı paylaştırmada paydayı yok etmek için katsayıları eşitlemek en pratik yöntemdir. Örneğin, 2, 3 ve 4 ile ters orantılı paylaştırmada 12'de birleşen katsayılar (6k, 4k, 3k) işinizi kolaylaştıracaktır."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Ters orantılı paylaştırmada, sayı ile orantılı olan payın ters orantılı olduğunu unutmayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000533543_MAT__21",
+    "createdAt": "2026-04-12T13:28:53.539Z",
+    "updatedAt": "2026-04-12T13:28:53.539Z",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T13:29:13.626Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_20.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 22: Yaş Problemleri ve Orantı",
+    "content": [
+      {
+        "type": "text",
+        "text": "Yaş problemleri, iki kişi arasındaki yaş farkının zaman geçse de sabit kalması prensibi üzerine kuruludur. Zamanla yaşlar arasındaki oran değişir, ancak yaşlar farkı daima aynı kalır. Bu durum, orantı kurmak için anahtar bir veridir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İki kişi arasındaki yaş farkının her zaman sabit olduğunu unutmayın.\n• x yıl sonraki yaşları (a+x, b+x) şeklinde ifade edin.\n• Yaş oranları verildiğinde, verilen oranları k sabiti ile denkleme dökün.\n• Geçmiş ve gelecek zaman ifadelerini dikkatli bir şekilde denkleme yansıtın."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de yaş soruları genellikle 'x yıl önceki yaş oranı' ile 'y yıl sonraki yaş oranı' arasındaki geçişi sorgular. Sabit olan yaş farkını kullanarak iki farklı zaman dilimi arasında köprü kurmak sizi doğru sonuca götürecektir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kritik: Yaşlar toplamı zamanla kişi sayısına bağlı olarak artar, yaşlar farkı ise değişmez."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000533544_MAT__22",
+    "createdAt": "2026-04-12T13:28:53.539Z",
+    "updatedAt": "2026-04-12T13:28:53.539Z",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T13:29:13.626Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_21.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 23: Yüzde Problemlerine Giriş",
+    "content": [
+      {
+        "type": "text",
+        "text": "Yüzde kavramı, bir bütünün 100 eşit parçaya bölünerek ifade edilmesi yöntemidir. Oran-orantı konusunun bir alt başlığı olarak, sayıların 100'lük sisteme uyarlanmasıdır. Matematiksel işlemlerde yüzde sembolü (%), kesirsel bir ifade (1/100) olarak ele alınmalıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• 'a' sayısının %x'i: a * (x/100) formülünü kullanın.\n• Sayı problemlerinde kolay hesap için 100x değişkenini atayın.\n• Yüzdeyi kesre çevirerek işlemleri sadeleştirin.\n• Bütünün parçası ile yüzdelik dilim arasındaki doğru orantıyı kurun."
+      },
+      {
+        "type": "text",
+        "text": "Yüzde sorularında işlem yaparken başlangıç değerine 100x demek, kesirli ifadelerden kurtulmanızı sağlar. Bu basit strateji, sınavda zaman yönetimi açısından oldukça etkilidir ve işlem hatasını azaltır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: %20 demek, bir bütünün 5'te 1'i demektir; bu tür pratik kesir dönüşümleri hayat kurtarır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000533545_MAT__23",
+    "createdAt": "2026-04-12T13:28:53.539Z",
+    "updatedAt": "2026-04-12T13:28:53.539Z",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T13:29:13.626Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_22.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 24: Yüzde Artış ve Azalış",
+    "content": [
+      {
+        "type": "text",
+        "text": "Yüzde artış ve azalış, bir değerin belirli bir oranda büyümesi veya küçülmesini ifade eder. Kar ve zarar problemleri bu konunun uygulamalı alanıdır. Artışta ana değer üzerine ekleme yapılırken, azalışta ana değerden çıkarma işlemi uygulanır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• %x artışlı fiyat: Satış = Maliyet * (1 + x/100).\n• %x indirimli fiyat: Satış = Liste Fiyatı * (1 - x/100).\n• Ardışık yüzdelik değişimlerde değerleri sırayla uygulayın.\n• Kar ve zarar oranlarını her zaman maliyet fiyatı üzerinden hesaplayın."
+      },
+      {
+        "type": "text",
+        "text": "Ardışık artış veya azalışlarda dikkat edilmesi gereken nokta, her işlemin bir önceki aşamada oluşan yeni değer üzerinden hesaplanmasıdır. Asla ilk baştaki sayıya geri dönüp tekrar işlem yapmaya çalışmayın, bu yaygın bir hatadır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: Kar/zarar oranları daima maliyet (alış) fiyatı üzerinden hesaplanır, satış fiyatı üzerinden değil."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000533546_MAT__24",
+    "createdAt": "2026-04-12T13:28:53.539Z",
+    "updatedAt": "2026-04-12T13:28:53.539Z",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T13:29:13.626Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_23.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 25: Orantısal Grafik Okuma",
+    "content": [
+      {
+        "type": "text",
+        "text": "Grafik problemleri, oran-orantı mantığının veriye dökülmüş halidir. Daire grafikleri bütünün parçalarını oranlamak için kullanılırken, sütun grafikleri değerler arasındaki sayısal kıyaslamaları kolaylaştırır. Doğru grafik okuma, orantı katsayısını veriden hızlıca çekebilmeyi gerektirir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Daire grafiğinde 360 derecenin toplam veri miktarına oranı en kritik katsayıdır.\n• Sütun grafiklerinde değerler arası fark, artış veya azalış miktarını belirlemede kullanılır.\n• Grafiklerde verilen yüzdelik dilimler, toplam miktar ile çarpılarak gerçek değerlere dönüştürülür.\n• Orantısal grafik sorularında, değişkenler arası doğru orantı ilişkisi göz ardı edilmemelidir."
+      },
+      {
+        "type": "text",
+        "text": "Grafik sorularında zaman kazanmak adına, verilen değerleri en sade halleriyle oranlamak işlem yükünü azaltır. Özellikle çoklu grafik sorularında ortak olan değişkeni bulmak, çözümün anahtarını oluşturur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Daire grafiğinde merkez açılar ile veri miktarları arasında doğrudan doğru orantı vardır; bu orantıyı kurmak tüm soruları saniyeler içinde çözer."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000553626_MAT__25",
+    "createdAt": "2026-04-12T13:29:13.626Z",
+    "updatedAt": "2026-04-12T13:29:13.626Z",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T13:29:29.837Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_24.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 26: İleri Seviye Orantı Soruları",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sınavda karşılaşabileceğiniz karmaşık orantı soruları, genellikle birden fazla orantı sabitinin birleştirilmesini gerektirir. Bu tarz sorularda, değişkenler arasındaki ilişkiyi tek bir denklem sistemine indirgemek başarının anahtarıdır. Stratejik yaklaşım, büyük denklemler yerine küçük parçalarla ilerlemektir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Bileşik orantı sorularında tüm değişkenleri tek bir orantı sabitine eşitleyin.\n• Birbirine bağlı değişken gruplarında, her bir grup için ayrı bir katsayı atayın.\n• Ters orantı ve doğru orantının iç içe geçtiği sorularda yönü belirlemek için ok çizme yöntemini kullanın.\n• Karmaşık problemlerde, orantı sabitini 'k' olarak belirleyip tüm değişkenleri 'k' cinsinden yazın."
+      },
+      {
+        "type": "text",
+        "text": "İleri seviye sorular sadece işlem becerisi değil, aynı zamanda mantıksal kurgu yeteneği de ölçer. Verilen oranları en sade haline getirmek, büyük sayılarla işlem yapmanızı engelleyerek hata payını düşürür."
+      },
+      {
+        "type": "highlighted",
+        "text": "Pay ve payda arasındaki ilişkiyi 'k' sabiti üzerinden kurmak, sınavın en zorlayıcı orantı sorularını bile standart bir hale getirir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "hard",
+    "id": "exp_1776000553627_MAT__26",
+    "createdAt": "2026-04-12T13:29:13.626Z",
+    "updatedAt": "2026-04-12T13:29:13.626Z",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T13:29:29.837Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_25.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 27: Orantıda Değişken Dönüşümü",
+    "content": [
+      {
+        "type": "text",
+        "text": "Orantı sorularında bilinmeyen sayısı arttığında değişken dönüşümü yapmak hayat kurtarıcıdır. Verilen oranları bir orantı sabitine (k) eşitleyerek her bir değişkeni tek bir bilinmeyen cinsinden ifade edebilirsiniz. Bu yöntem, denklem çözme sürecini oldukça hızlandırır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• a/b = c/d = k eşitliğini kullanarak a=bk ve c=dk dönüşümlerini yapın.\n• Değişkenler arası ilişkide pay ve payda sadeleştirmesini yaparak katsayıları küçük tutun.\n• Birbiriyle bağlantılı orantı dizilerinde ortak değişkeni (k) merkezde tutun.\n• Parametrik çözümlerde, değişkenlerin sıfırdan farklı olduğu kuralını her zaman hatırlayın."
+      },
+      {
+        "type": "text",
+        "text": "Değişken dönüşümü yaparken hata yapmamak için her değişkenin orantı sabitine olan bağlılığını açıkça yazın. Özellikle oranların kareleri veya kökleri alındığında, orantı sabitinin de aynı işleme tabi tutulması gerektiğini unutmayın."
+      },
+      {
+        "type": "highlighted",
+        "text": "Herhangi bir orantı dizisinde değişkenleri 'k' cinsinden tanımlamak, karmaşık cebirsel ifadelerin saniyeler içinde sadeleşmesini sağlar."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000553628_MAT__27",
+    "createdAt": "2026-04-12T13:29:13.626Z",
+    "updatedAt": "2026-04-12T13:29:13.626Z",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T13:29:29.837Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_26.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 28: Orantısal İlişkili Geometrik Şekiller",
+    "content": [
+      {
+        "type": "text",
+        "text": "Geometrik şekillerin kenar uzunlukları ile çevre veya alanları arasındaki ilişki, doğrudan orantı ilkeleriyle yönetilir. Bir şeklin kenarları 'k' oranında artırıldığında, çevresi 'k' katına, alanı ise 'k' kare katına çıkar. Bu kural sınavda hız kazandıran en önemli bilgidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Benzer üçgenlerde kenarların oranı çevreye eşittir.\n• Benzer şekillerin alanları oranı, benzerlik oranının karesine eşittir.\n• Hacimsel değişimlerde ise benzerlik oranının küpü dikkate alınmalıdır.\n• Orantısal artış sorularında, uzunluk birimleri ile alan birimlerini karıştırmayın."
+      },
+      {
+        "type": "text",
+        "text": "Geometrik orantı sorularında şekil çizmek, sorunun çözümünü görselleştirerek hata yapma riskini minimize eder. Özellikle benzerlik oranı verilen sorularda, bu oranı bir 'k' katsayısı olarak kabul edip işleme başlayın."
+      },
+      {
+        "type": "highlighted",
+        "text": "Alan değişimleri daima benzerlik oranının karesiyle doğru orantılıdır; bu kuralı bilmek zor soruları kolaylaştırır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000553629_MAT__28",
+    "createdAt": "2026-04-12T13:29:13.626Z",
+    "updatedAt": "2026-04-12T13:29:13.626Z",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T13:29:29.837Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_27.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 29: KPSS Çıkmış Soru Analizleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "KPSS'de çıkan oran-orantı soruları genellikle günlük yaşam problemlerine uyarlanmış veya grafik yorumlama odaklıdır. Geçmiş yılların sorularını incelediğimizde, temel kavramların (doğru/ters orantı) çok iyi anlaşılmasının yeterli olduğunu görüyoruz. Sınav stratejisi olarak, soru kökünü doğru okumak en önemli adımdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Geçmiş yıllarda işçi-havuz problemlerinin oran-orantı mantığıyla çözüldüğü görülmektedir.\n• Sayısal mantık sorularında orantı kurmak için tablo oluşturma tekniğini kullanın.\n• Soru kökünde 'ters orantılıdır' ifadesi geçiyorsa çarpım durumunda olduğunu unutmayın.\n• Çıkmış sorularda bazen şıklardan gitmek, uzun denklem çözmekten daha hızlı sonuç verir."
+      },
+      {
+        "type": "text",
+        "text": "Çıkmış soruların analizi, sınavın hangi noktalar üzerinde yoğunlaştığını anlamanızı sağlar. Özellikle son 5 yılın sorularında, orantı sabitinin yorumlanması gereken soruların arttığı dikkat çekmektedir."
+      },
+      {
+        "type": "highlighted",
+        "text": "KPSS sınavında başarılı olmanın sırrı, çıkmış soruların mantığını kavramak ve benzer kurgular üzerinde pratik yapmaktır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000553630_MAT__29",
+    "createdAt": "2026-04-12T13:29:13.626Z",
+    "updatedAt": "2026-04-12T13:29:13.626Z",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T13:29:29.837Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_28.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "title": "Bölüm 30: Genel Tekrar ve Hızlı Çözüm Teknikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Oran ve orantı, diğer tüm matematik konularının temel yapı taşıdır. Hızlı çözüm teknikleri, orantı sabitini kullanma yeteneğiniz ve değişkenleri sadeleştirme hızınızla doğrudan ilişkilidir. Genel tekrar sürecinde, hatalarınızı analiz ederek hangi noktalarda yavaşladığınızı tespit edin."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İçler dışlar çarpımı yapmadan önce sadeleştirme yapılıp yapılamayacağını kontrol edin.\n• Ters orantı sorularında değerler küçülürken diğerinin büyümesi gerektiğini zihinsel olarak test edin.\n• Hata analizi yaparken, işlem hatası mı yoksa mantık hatası mı yaptığınızı mutlaka not edin.\n• Kendi hızınızı artırmak için her gün mutlaka süre tutarak 10 adet orantı sorusu çözün."
+      },
+      {
+        "type": "text",
+        "text": "Genel tekrar sürecinde, zorlandığınız soru tiplerini biriktirerek 'hata defteri' oluşturun. Bu defter sınav öncesi son dokunuşları yapmanız için en değerli kaynağınız olacaktır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Hızlı çözüm, bol soru çözümüyle kazanılan bir reflekstir; orantı mantığını içselleştirdiğinizde soruları okurken çözmeye başlayacaksınız."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000553631_MAT__30",
+    "createdAt": "2026-04-12T13:29:13.626Z",
+    "updatedAt": "2026-04-12T13:29:13.626Z",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T13:29:29.837Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_ORAN_ORANTI_29.mp3?alt=media"
+  }
+]

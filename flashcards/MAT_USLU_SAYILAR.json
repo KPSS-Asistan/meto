@@ -1,0 +1,452 @@
+[
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "a sıfırdan farklı bir reel sayı olmak üzere, a üssü 0 kaça eşittir?",
+    "answer": "1",
+    "additionalInfo": "Sıfır hariç tüm sayıların 0. kuvveti 1'dir.",
+    "id": "flash_1776014517679_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "Negatif bir sayının çift kuvveti her zaman nedir?",
+    "answer": "Pozitif",
+    "additionalInfo": "Parantez durumuna dikkat edilmelidir.",
+    "id": "flash_1776014517679_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "Negatif bir sayının tek kuvveti her zaman nedir?",
+    "answer": "Negatif",
+    "additionalInfo": "İşaret korunur.",
+    "id": "flash_1776014517679_3",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "Tabanları aynı olan iki üslü ifade çarpılırken üsler ne yapılır?",
+    "answer": "Toplanır",
+    "additionalInfo": "a^n * a^m = a^(n+m)",
+    "id": "flash_1776014517679_4",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "Tabanları aynı olan iki üslü ifade bölünürken üsler ne yapılır?",
+    "answer": "Çıkarılır",
+    "additionalInfo": "Payın üssünden paydanın üssü çıkarılır.",
+    "id": "flash_1776014517679_5",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "Bir üslü ifadenin üssü alınırken üsler ne yapılır?",
+    "answer": "Çarpılır",
+    "additionalInfo": "(a^n)^m = a^(n*m)",
+    "id": "flash_1776014517679_6",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "x^-n ifadesi rasyonel olarak nasıl yazılır?",
+    "answer": "1 / x^n",
+    "additionalInfo": "Negatif üs sayıyı ters çevirir.",
+    "id": "flash_1776014517679_7",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "(a/b)^-n ifadesi nasıl pozitif üsse çevrilir?",
+    "answer": "(b/a)^n",
+    "additionalInfo": "Pay ve payda yer değiştirir.",
+    "id": "flash_1776014517679_8",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "0 üssü 0 ifadesi nedir?",
+    "answer": "Tanımsız",
+    "additionalInfo": "Belirsizlik konusuna girer.",
+    "id": "flash_1776014517679_9",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "Üslü denklemlerde tabanlar 1 ve -1 dışında eşitse, üsler için ne söylenebilir?",
+    "answer": "Üsler birbirine eşittir",
+    "additionalInfo": "a^x = a^y ise x=y.",
+    "id": "flash_1776014517679_10",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "a^x = 1 denkleminin sağlanması için x ne olabilir?",
+    "answer": "x = 0",
+    "additionalInfo": "Taban 1 veya -1 değilse.",
+    "id": "flash_1776014517679_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "2^10 hangi sayıya eşittir?",
+    "answer": "1024",
+    "additionalInfo": "KPSS'de sıkça kullanılan bir değerdir.",
+    "id": "flash_1776014517679_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "3^4 değeri kaçtır?",
+    "answer": "81",
+    "additionalInfo": "3*3*3*3",
+    "id": "flash_1776014517679_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "Üslü sayılarda toplama işlemi nasıl yapılır?",
+    "answer": "Ortak paranteze alınarak",
+    "additionalInfo": "Üsler doğrudan toplanmaz.",
+    "id": "flash_1776014517679_14",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "(-2)^4 ile -2^4 arasındaki fark nedir?",
+    "answer": "(-2)^4 = 16, -2^4 = -16",
+    "additionalInfo": "Parantez işareti etkiler.",
+    "id": "flash_1776014517679_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "5^x = 25^y ise x ile y arasındaki ilişki nedir?",
+    "answer": "x = 2y",
+    "additionalInfo": "Tabanları eşitlemeyi unutma.",
+    "id": "flash_1776014517679_16",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "Üslü sayılarda sıralama yaparken neye dikkat edilmelidir?",
+    "answer": "Tabanlar veya üsler eşitlenmelidir",
+    "additionalInfo": "Tabanlar eşitse üssü büyük olan büyüktür.",
+    "id": "flash_1776014517679_17",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "1'in tüm reel kuvvetleri nedir?",
+    "answer": "1",
+    "additionalInfo": "1^n = 1",
+    "id": "flash_1776014517679_18",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "(-1)'in çift kuvvetleri nedir?",
+    "answer": "1",
+    "additionalInfo": "(-1)^2n = 1",
+    "id": "flash_1776014517679_19",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "(-1)'in tek kuvvetleri nedir?",
+    "answer": "-1",
+    "additionalInfo": "(-1)^(2n+1) = -1",
+    "id": "flash_1776014517679_20",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "x^a = y^a ve a tek sayı ise sonuç nedir?",
+    "answer": "x = y",
+    "additionalInfo": "Üs tek ise mutlak değere gerek yoktur.",
+    "id": "flash_1776014517679_21",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "x^a = y^a ve a çift sayı ise sonuç nedir?",
+    "answer": "x = y veya x = -y",
+    "additionalInfo": "Mutlak değer mantığıyla düşün.",
+    "id": "flash_1776014517679_22",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "0,5 üssü -1 kaça eşittir?",
+    "answer": "2",
+    "additionalInfo": "0,5 = 1/2'dir.",
+    "id": "flash_1776014517679_23",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "Üslü sayılarda çarpma işleminde üsler aynıysa ne yapılır?",
+    "answer": "Tabanlar çarpılır, ortak üs yazılır",
+    "additionalInfo": "a^n * b^n = (a*b)^n",
+    "id": "flash_1776014517679_24",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "10^6 sayısı kaç basamaklıdır?",
+    "answer": "7",
+    "additionalInfo": "1'in yanına 6 tane sıfır gelir.",
+    "id": "flash_1776014517679_25",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "Üslü sayılarda bölme işleminde üsler aynıysa ne yapılır?",
+    "answer": "Tabanlar bölünür, ortak üs yazılır",
+    "additionalInfo": "a^n / b^n = (a/b)^n",
+    "id": "flash_1776014517679_26",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "a^x = b ise x nedir?",
+    "answer": "log_a(b)",
+    "additionalInfo": "Logaritma tanımı.",
+    "id": "flash_1776014517679_27",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "2^5 + 2^5 işleminin sonucu nedir?",
+    "answer": "2^6",
+    "additionalInfo": "2 * 2^5 = 2^1 * 2^5 = 2^6",
+    "id": "flash_1776014517679_28",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "8^3 sayısı 2 tabanında nasıl yazılır?",
+    "answer": "2^9",
+    "additionalInfo": "(2^3)^3 = 2^9",
+    "id": "flash_1776014517679_29",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "9^2 sayısı 3 tabanında nasıl yazılır?",
+    "answer": "3^4",
+    "additionalInfo": "(3^2)^2 = 3^4",
+    "id": "flash_1776014517679_30",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "Üslü sayılarda bölme yaparken paydanın üssü yukarı nasıl çıkar?",
+    "answer": "İşaret değiştirerek",
+    "additionalInfo": "a^n / a^m = a^(n-m)",
+    "id": "flash_1776014517679_31",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "4^-2 değeri kaçtır?",
+    "answer": "1/16",
+    "additionalInfo": "1 / 4^2",
+    "id": "flash_1776014517679_32",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "a^n * a^m * a^k işleminin sonucu nedir?",
+    "answer": "a^(n+m+k)",
+    "additionalInfo": "Tabanlar aynıysa üsler toplanır.",
+    "id": "flash_1776014517679_33",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "(x^2)^3 ile x^2^3 arasındaki fark nedir?",
+    "answer": "(x^2)^3 = x^6, x^2^3 = x^8",
+    "additionalInfo": "İkincisinde işlem yukarıdan aşağıya yapılır.",
+    "id": "flash_1776014517679_34",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "x^0 = 1 olması için hangi koşul gereklidir?",
+    "answer": "x ≠ 0",
+    "additionalInfo": "Sıfırın sıfırıncı kuvveti belirsizdir.",
+    "id": "flash_1776014517679_35",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "Negatif bir sayının tek kuvveti negatif midir?",
+    "answer": "Evet",
+    "additionalInfo": "(-2)^3 = -8",
+    "id": "flash_1776014517679_36",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "a^x = a^y ise x=y olması için ne gereklidir?",
+    "answer": "a ≠ 0, 1, -1",
+    "additionalInfo": "Özel durumlar incelenmelidir.",
+    "id": "flash_1776014517679_37",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "2^-3 değeri kaçtır?",
+    "answer": "1/8",
+    "additionalInfo": "1/2^3",
+    "id": "flash_1776014517679_38",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "Üslü sayılarda tabanlar farklı, üsler aynıysa ne yapılır?",
+    "answer": "Tabanlar çarpılır, ortak üs yazılır",
+    "additionalInfo": "3^2 * 4^2 = 12^2",
+    "id": "flash_1776014517679_39",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "a^x = 1 ise x hangi değerleri alabilir?",
+    "answer": "x=0 veya a=1 veya (a=-1 ve x çift)",
+    "additionalInfo": "3 farklı durum kontrol edilmelidir.",
+    "id": "flash_1776014517679_40",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "2^10 * 5^10 sonucu kaç basamaklıdır?",
+    "answer": "11",
+    "additionalInfo": "10^10 = 10...0 (10 tane sıfır)",
+    "id": "flash_1776014517679_41",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "(-3)^2 kaça eşittir?",
+    "answer": "9",
+    "additionalInfo": "Negatif sayının çift kuvveti pozitiftir.",
+    "id": "flash_1776014517679_42",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "-3^2 kaça eşittir?",
+    "answer": "-9",
+    "additionalInfo": "Parantez olmadığı için sadece 3'ün karesi alınır.",
+    "id": "flash_1776014517679_43",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "1/27 sayısı 3'ün kaçıncı kuvvetidir?",
+    "answer": "3^-3",
+    "additionalInfo": "1/3^3 = 3^-3",
+    "id": "flash_1776014517679_44",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "a^n * a^n * a^n işleminin sonucu nedir?",
+    "answer": "a^3n",
+    "additionalInfo": "Üsler toplanır: n+n+n=3n",
+    "id": "flash_1776014517679_45",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "0,25 üssü -2 kaçtır?",
+    "answer": "16",
+    "additionalInfo": "(1/4)^-2 = 4^2 = 16",
+    "id": "flash_1776014517679_46",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "Üslü denklemde taban 1 ise üs ne olabilir?",
+    "answer": "Her reel sayı",
+    "additionalInfo": "1^n daima 1'dir.",
+    "id": "flash_1776014517679_47",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "5^x+1 ifadesi nasıl açılır?",
+    "answer": "5^x * 5^1",
+    "additionalInfo": "Çarpma kuralının tersi.",
+    "id": "flash_1776014517679_48",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "2^x = y ise 2^(x+2) nedir?",
+    "answer": "4y",
+    "additionalInfo": "2^x * 2^2 = y * 4",
+    "id": "flash_1776014517679_49",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  },
+  {
+    "topicId": "MAT_USLU_SAYILAR",
+    "question": "a^n = a^m ise n=m olması için ne gerekir?",
+    "answer": "a ≠ 1, -1, 0",
+    "additionalInfo": "Tabanın özel durumlarını kontrol et.",
+    "id": "flash_1776014517679_50",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:10.195Z"
+  }
+]

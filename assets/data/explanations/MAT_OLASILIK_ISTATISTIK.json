@@ -1,0 +1,934 @@
+[
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 1: Temel Sayma İlkeleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sayma yöntemleri, olasılık ve permütasyon konularının temelini oluşturur. Toplama yoluyla sayma, ayrık olayların birbirini etkilemediği durumlarda seçeneklerin toplanması prensibine dayanır. Çarpma yoluyla sayma ise ardışık gerçekleşen bağımsız olayların toplam durum sayısını bulmak için kullanılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Ayrık kümelerin birleşimi toplama kuralı ile hesaplanır.\n• Birbirini takip eden işlemler çarpma kuralı ile hesaplanır.\n• 'Veya' bağlacı genellikle toplama işlemini çağrıştırır.\n• 'Ve' bağlacı çarpma işlemini ifade eder.\n• Seçim yaparken olayların birbirine bağımlılığına dikkat edilmelidir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavlarında genellikle 'kaç farklı yol' veya 'kaç farklı şekilde giyinebilir' gibi sorular bu prensiplerle çözülür. İşlem yaparken her adımın kaç farklı seçeneği olduğu dikkatle belirlenmelidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "İki işlemden biri A yoluyla, diğeri B yoluyla gerçekleşiyorsa, toplam durum sayısı A x B kadardır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001450338_MAT__1",
+    "createdAt": "2026-04-12T13:44:10.338Z",
+    "updatedAt": "2026-04-12T13:44:10.338Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T13:44:28.681Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_0.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 2: Faktöriyel Kavramı ve İşlemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Faktöriyel, 1'den n'e kadar olan doğal sayıların çarpımıdır ve n! şeklinde gösterilir. İşlem kolaylığı sağlamak adına büyük faktöriyeller küçükler cinsinden yazılabilir. 0! değerinin 1 olduğu unutulmamalıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• 0! = 1 olarak kabul edilir.\n• n! = n x (n-1)!\n• Faktöriyel işlemleri sadeleştirme sorularında sıkça kullanılır.\n• Negatif sayıların faktöriyeli tanımlı değildir.\n• Büyük faktöriyel ifadeleri en küçük olana benzetilerek sadeleştirilir."
+      },
+      {
+        "type": "text",
+        "text": "Sınavda faktöriyel soruları genellikle rasyonel ifadelerin sadeleştirilmesi veya basamak kavramı ile birleştirilerek sorulur. Pay ve payda arasındaki farkı kullanarak hızlıca sadeleştirme yapabilirsiniz."
+      },
+      {
+        "type": "highlighted",
+        "text": "n! / (n-2)! gibi ifadelerde n x (n-1) sonucu elde edilir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001450339_MAT__2",
+    "createdAt": "2026-04-12T13:44:10.338Z",
+    "updatedAt": "2026-04-12T13:44:10.338Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T13:44:28.681Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_1.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 3: Permütasyon (Sıralama)",
+    "content": [
+      {
+        "type": "text",
+        "text": "Permütasyon, nesnelerin belirli bir sıraya göre dizilmesidir. n elemanlı bir kümenin r'li permütasyonları, nesnelerin sıralanış biçimlerini ifade eder. Sıralama önemli olduğu için elemanların yer değiştirmesi farklı bir durum yaratır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• P(n, r) = n! / (n-r)!\n• Tüm elemanların sıralanışı n! kadardır.\n• Sıralama sorularında 'yan yana' veya 'ayrı' şartları önemlidir.\n• Permütasyon, seçim ve sıralama işlemini kapsar.\n• İsimlerin veya sayıların dizilişi permütasyon ile çözülür."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de kitapların rafa dizilmesi veya kişilerin yan yana fotoğraf çektirmesi gibi sorular permütasyonun klasik örnekleridir. Şartlı durumlarda, şartı sağlayanlar bir bütün olarak düşünülmelidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Sıralama varsa permütasyon, sadece seçim varsa kombinasyon kullanılır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001450340_MAT__3",
+    "createdAt": "2026-04-12T13:44:10.338Z",
+    "updatedAt": "2026-04-12T13:44:10.338Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T13:44:28.681Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_2.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 4: Tekrarlı Permütasyon",
+    "content": [
+      {
+        "type": "text",
+        "text": "Tekrarlı permütasyon, özdeş nesnelerin bulunduğu durumlarda sıralama mantığıdır. Toplam dizilim sayısından, özdeş olanların kendi aralarındaki sıralanışları bölünerek çıkartılır. Özellikle kelime anagramları ve yol problemleri için kritiktir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• n! / (n1! x n2! x ...)\n• Kelimelerdeki harflerin yer değişimi bu yöntemle bulunur.\n• Özdeş bilyelerin dağılımı bu kapsamdadır.\n• Yol bulma sorularında sağ ve yukarı hamleler tekrarlı permütasyondur.\n• Özdeş nesnelerin yer değiştirmesi dizilimi değiştirmez."
+      },
+      {
+        "type": "text",
+        "text": "Sınavda verilen bir kelimenin harflerinin yer değiştirilmesiyle kaç farklı anlamlı veya anlamsız kelime yazılacağı sorulur. Toplam harf sayısı paya, tekrarlayan harflerin faktöriyelleri paydaya yazılır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Tekrarlı permütasyonda özdeş olan nesnelerin sayısı kadar faktöriyele bölünür."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001450341_MAT__4",
+    "createdAt": "2026-04-12T13:44:10.338Z",
+    "updatedAt": "2026-04-12T13:44:10.338Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T13:44:28.681Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_3.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 5: Dairesel Permütasyon",
+    "content": [
+      {
+        "type": "text",
+        "text": "Dairesel permütasyon, nesnelerin yuvarlak bir masa etrafında dizilme durumudur. Düz bir sıradan farkı, başlangıç noktasının olmamasıdır. Bu yüzden dizilim sayısı (n-1)! formülü ile hesaplanır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• n kişi yuvarlak masaya (n-1)! şekilde oturur.\n• Sabitlenen bir kişi etrafındaki diğerlerinin dizilimi önemlidir.\n• Anahtarlık veya boncuk dizilimleri 2'ye bölünerek hesaplanır.\n• Yan yana oturma şartı varsa grup tek kişi sayılır.\n• Dairesel dizilimlerde dönme simetrisi dikkate alınır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de yuvarlak masa etrafına oturma sorularında, belirli iki kişinin yan yana gelmesi gibi kısıtlamalar sıkça sorulur. Bir kişiyi sabit tutarak diğerlerini ona göre sıralamak en güvenli yoldur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Yuvarlak masa diziliminde n eleman için (n-1)! kuralı geçerlidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001450342_MAT__5",
+    "createdAt": "2026-04-12T13:44:10.338Z",
+    "updatedAt": "2026-04-12T13:44:10.338Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T13:44:28.681Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_4.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 6: Kombinasyon (Seçme)",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kombinasyon, bir kümeden eleman seçme işlemidir ve sıralama dikkate alınmaz. n elemanlı bir kümeden seçilen r elemanlı alt kümelerin sayısı kombinasyon formülü ile bulunur. Seçim yapmak, grubun içindeki sıradan bağımsızdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• C(n, r) = n! / (r! x (n-r)!)\n• Seçim sorularında sıra önemli değildir.\n• Takım oluşturma veya komite seçimi kombinasyondur.\n• En az bir kişi seçilmesi gereken durumlarda tüm durumdan hiç seçilmeme durumu çıkarılır.\n• Kombinasyon, olasılık hesaplarının temelini oluşturur."
+      },
+      {
+        "type": "text",
+        "text": "Sınavlarda genellikle 5 kişilik bir gruptan 3 kişilik kaç farklı kurul oluşturulabileceği gibi sorular gelir. Eğer şartlar varsa, seçimler parçalara ayrılarak çarpma yoluyla birleştirilir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kombinasyon, sadece seçim yapılması gereken durumlarda kullanılır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001450343_MAT__6",
+    "createdAt": "2026-04-12T13:44:10.338Z",
+    "updatedAt": "2026-04-12T13:44:10.338Z",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T13:44:28.681Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_5.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 7: Kombinasyonun Özellikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kombinasyonun temel özellikleri, işlemleri pratikleştirir. Özellikle C(n, r) = C(n, n-r) eşitliği, büyük sayıların seçiminde kolaylık sağlar. Pascal üçgeni ile olan ilişkisi ise binom katsayılarının temelini oluşturur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• C(n, 0) = C(n, n) = 1\n• C(n, 1) = n\n• C(n, r) = C(n, n-r)\n• C(n, r) + C(n, r+1) = C(n+1, r+1)\n• Alt küme sayısı 2^n formülü ile bulunur."
+      },
+      {
+        "type": "text",
+        "text": "Sınav sorularında C(n, 10) = C(n, 12) gibi bir eşitlik verilirse n değerinin toplamı (10+12) olduğu bilgisi hayat kurtarır. Bu tür özellikler denklem çözme sorularında sıklıkla kullanılır."
+      },
+      {
+        "type": "highlighted",
+        "text": "C(n, r) = C(n, n-r) özelliği, işlem yükünü azaltan en önemli özelliktir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001450344_MAT__7",
+    "createdAt": "2026-04-12T13:44:10.338Z",
+    "updatedAt": "2026-04-12T13:44:10.338Z",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T13:44:28.681Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_6.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 8: Binom Açılımı",
+    "content": [
+      {
+        "type": "text",
+        "text": "(x + y)^n ifadesinin açılımı, kombinasyon katsayıları kullanılarak yapılır. Her terimdeki x ve y'nin üsleri toplamı n'i verir. Binom açılımında terim sayısı n+1 tanedir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• (x + y)^n = Σ C(n, k) * x^(n-k) * y^k\n• Baştan r+1. terim C(n, r) * x^(n-r) * y^r formülü ile bulunur.\n• Katsayılar toplamı için değişkenlere 1 verilir.\n• Sabit terimi bulmak için değişkenlerin üssü 0 yapılır.\n• Pascal üçgenindeki katsayılar binom katsayılarıdır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de genellikle bir açılımdaki sabit terim veya belirli bir değişkenin katsayısı sorulur. Genel terim formülünü kullanmak, tüm açılımı yazmaktan çok daha hızlı sonuç verir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Binom açılımında baştan r+1. terimi bulmak için C(n, r) formülü kullanılır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001450345_MAT__8",
+    "createdAt": "2026-04-12T13:44:10.338Z",
+    "updatedAt": "2026-04-12T13:44:10.338Z",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T13:44:28.681Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_7.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 9: Olasılık Kavramına Giriş",
+    "content": [
+      {
+        "type": "text",
+        "text": "Olasılık, bir olayın gerçekleşme şansını sayısal olarak ifade eden matematiksel bir disiplindir. Bir deneyin tüm olası sonuçlarının oluşturduğu kümeye örnek uzay denir. Örnek uzayın her bir alt kümesi ise bir olay olarak adlandırılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Deney: Bir zarın atılması veya bir paranın havaya atılması gibi sonuçları gözlemlenebilen her türlü eylemdir.\n• Örnek Uzay (E): Bir deneyin tüm olası çıktılarını içeren kümedir.\n• Olay (A): Örnek uzayın herhangi bir alt kümesidir.\n• Basit Olay: Sadece tek bir çıktıdan oluşan olaylardır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sorularında örnek uzay kavramı genellikle zar, madeni para veya top çekme problemleri üzerinden sorgulanır. Örnek uzaydaki eleman sayısını doğru belirlemek, olasılık hesaplamalarının temelini oluşturur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Bir deney sonucunda gerçekleşebilecek tüm durumların kümesi olan örnek uzay, olasılık problemlerinin evrensel kümesidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001468681_MAT__9",
+    "createdAt": "2026-04-12T13:44:28.681Z",
+    "updatedAt": "2026-04-12T13:44:28.681Z",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T13:44:46.807Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_8.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 10: Eş Olumlu Örnek Uzay",
+    "content": [
+      {
+        "type": "text",
+        "text": "Eş olumlu örnek uzay, örnek uzaydaki tüm çıktıların gerçekleşme olasılığının birbirine eşit olduğu durumları ifade eder. Bir olayın olasılığı, istenen durum sayısının tüm durum sayısına oranıyla bulunur. Bir olayın tümleyeni, o olayın gerçekleşmemesi durumunu temsil eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• P(A): A olayının gerçekleşme olasılığıdır.\n• P(A') = 1 - P(A): Bir olayın tümleyeni ile kendisinin toplamı 1'dir.\n• Eş olumlu uzayda her çıktı 1/n olasılığa sahiptir.\n• Olasılık değeri her zaman 0 ile 1 arasındadır."
+      },
+      {
+        "type": "text",
+        "text": "Sınavlarda genellikle hilesiz zar veya düzgün para gibi kavramlar kullanılır; bu ifadeler eş olumlu örnek uzayı işaret eder. Bir olayın tümleyenini kullanmak, bazen doğrudan olasılık hesaplamaktan daha pratik sonuçlar verir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Bir olayın gerçekleşme olasılığı ile gerçekleşmeme olasılığının toplamı her zaman 1'e eşittir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001468682_MAT__10",
+    "createdAt": "2026-04-12T13:44:28.681Z",
+    "updatedAt": "2026-04-12T13:44:28.681Z",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T13:44:46.807Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_9.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 11: İmkansız ve Kesin Olay",
+    "content": [
+      {
+        "type": "text",
+        "text": "Olasılık teorisinde gerçekleşmesi mümkün olmayan olaylara imkansız olay, gerçekleşmesi yüzde yüz olan olaylara ise kesin olay denir. İmkansız olayın olasılığı 0, kesin olayın olasılığı ise 1 olarak tanımlanır. Tüm olayların olasılık değerleri bu iki sınır arasında yer alır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İmkansız Olay: P(A) = 0 değerine sahiptir.\n• Kesin Olay: P(A) = 1 değerine sahiptir.\n• Olasılık Aralığı: 0 ≤ P(A) ≤ 1 şartı tüm olaylar için geçerlidir.\n• Zar atıldığında 7 gelmesi imkansız olaydır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS testlerinde olasılık değeri 1.2 veya -0.5 gibi sonuçlar veren seçenekler doğrudan elenmelidir. Kesin olayın örnek uzayın kendisine eşit olduğu unutulmamalıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Olasılık değeri asla 0'dan küçük veya 1'den büyük olamaz; bu matematiksel bir zorunluluktur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001468683_MAT__11",
+    "createdAt": "2026-04-12T13:44:28.681Z",
+    "updatedAt": "2026-04-12T13:44:28.681Z",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T13:44:46.807Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_10.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 12: Ayrık Olaylar",
+    "content": [
+      {
+        "type": "text",
+        "text": "Aynı örnek uzayda bulunan ve ortak elemanı olmayan olaylara ayrık olaylar denir. Ayrık olayların kesişim kümesi boş kümedir. Bu tür olayların birleşiminin olasılığı, olayların olasılıklarının toplamına eşittir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• A ∩ B = ∅ ise A ve B ayrıktır.\n• P(A ∪ B) = P(A) + P(B) kuralı geçerlidir.\n• Bir zar atıldığında çift sayı gelmesi ile asal sayı gelmesi ayrık değildir.\n• Bir zar atıldığında 1 gelmesi ile 6 gelmesi ayrık olaylardır."
+      },
+      {
+        "type": "text",
+        "text": "Ayrık olmayan olaylarda birleşim olasılığı hesaplanırken kesişim kümesinin olasılığı çıkarılmalıdır. KPSS sorularında 'veya' bağlacı genellikle birleşim işlemini ifade eder."
+      },
+      {
+        "type": "highlighted",
+        "text": "Ayrık olaylarda P(A ∩ B) = 0 olduğundan, birleşim olasılığı doğrudan toplamları ile hesaplanır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001468684_MAT__12",
+    "createdAt": "2026-04-12T13:44:28.681Z",
+    "updatedAt": "2026-04-12T13:44:28.681Z",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T13:44:46.807Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_11.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 13: Bağımsız Olaylar",
+    "content": [
+      {
+        "type": "text",
+        "text": "Bir olayın gerçekleşip gerçekleşmemesinin diğer bir olayın sonucunu etkilemediği durumlara bağımsız olaylar denir. İki bağımsız olayın aynı anda gerçekleşme olasılığı, bu olayların olasılıklarının çarpımına eşittir. Bu kural, çok aşamalı deneylerde yaygın olarak kullanılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• P(A ∩ B) = P(A) · P(B) formülü uygulanır.\n• Bir paranın yazı gelmesi ile bir zarın 5 gelmesi bağımsızdır.\n• Bir çuvaldan çekilen topun geri atılması durumu bağımsızlık sağlar.\n• Ardışık deneyler genellikle bağımsız olaylar içerir."
+      },
+      {
+        "type": "text",
+        "text": "Sınavlarda 'çekilen top tekrar atılmak şartıyla' ifadesi, olayların bağımsız olduğunu vurgulayan kritik bir anahtar kelimedir. Çarpım kuralı sadece bağımsız olaylar için geçerlidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "İki olayın bağımsız olması, birinin sonucunun diğerinin gerçekleşme şansını değiştirmemesi demektir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001468685_MAT__13",
+    "createdAt": "2026-04-12T13:44:28.681Z",
+    "updatedAt": "2026-04-12T13:44:28.681Z",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T13:44:46.807Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_12.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 14: Koşullu Olasılık",
+    "content": [
+      {
+        "type": "text",
+        "text": "Koşullu olasılık, bir olayın gerçekleşmiş olması durumunda diğer bir olayın gerçekleşme olasılığını inceler. Bu durumda örnek uzay daralır ve sadece koşulun sağlandığı durumlar dikkate alınır. P(A|B) gösterimi 'B gerçekleştiğinde A'nın gerçekleşme olasılığı' anlamına gelir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• P(A|B) = P(A ∩ B) / P(B) formülü kullanılır.\n• P(B) > 0 olma şartı aranır.\n• Örnek uzay B olayı ile kısıtlanır.\n• Verilen bilgi, payda kısmını değiştirir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sorularında 'bilindiğine göre' veya 'koşuluyla' gibi ifadeler koşullu olasılık sorulduğunu gösterir. Daraltılmış örnek uzay mantığı, işlemleri basitleştiren en önemli araçtır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Koşullu olasılıkta payda, tüm örnek uzay değil, sadece koşulun sağlandığı alt kümenin eleman sayısıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001468686_MAT__14",
+    "createdAt": "2026-04-12T13:44:28.681Z",
+    "updatedAt": "2026-04-12T13:44:28.681Z",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T13:44:46.807Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_13.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 15: İstatistiksel Veri Toplama",
+    "content": [
+      {
+        "type": "text",
+        "text": "İstatistik, verilerin toplanması, düzenlenmesi ve analiz edilmesi süreciyle ilgilenir. Veri toplama aşamasında anket, gözlem ve doküman incelemesi gibi yöntemler kullanılır. Veriler, kategorik ve sayısal olmak üzere temel gruplara ayrılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Nitel Veri: Kategorik, sayısal olmayan verilerdir.\n• Nicel Veri: Ölçülebilir ve sayılabilir verilerdir.\n• Anket: Belirli bir kitleye soru sorma yöntemidir.\n• Gözlem: Olayların doğal ortamında incelenmesidir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS eğitim bilimleri ve genel kültür istatistik sorularında veri toplama yöntemlerinin avantajları ve dezavantajları sıkça sorulur. Doğru veri toplama, analizin güvenilirliği için kritiktir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Veri toplama yöntemi, araştırmanın amacına ve incelenen kitlenin özelliklerine uygun seçilmelidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001468687_MAT__15",
+    "createdAt": "2026-04-12T13:44:28.681Z",
+    "updatedAt": "2026-04-12T13:44:28.681Z",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T13:44:46.807Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_14.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 16: Veri Gruplandırma ve Frekans",
+    "content": [
+      {
+        "type": "text",
+        "text": "Büyük veri kümelerini anlamlı hale getirmek için veriler gruplandırılır ve frekans tabloları oluşturulur. Frekans, bir değerin veri grubu içerisinde kaç kez tekrarlandığını ifade eder. Grup genişliği ve aralığı, verinin homojen dağılımını sağlamak için hesaplanır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Frekans: Bir verinin tekrar sayısıdır.\n• Grup Genişliği: (En büyük değer - En küçük değer) / Grup sayısı.\n• Sıklık Tablosu: Verilerin düzenlenmiş listesidir.\n• Açıklık: Veri grubundaki en büyük ve en küçük değer farkıdır."
+      },
+      {
+        "type": "text",
+        "text": "Frekans tabloları, verinin merkezi eğilim ve yayılım ölçülerini hesaplamadan önce veriyi görselleştiren temel bir araçtır. KPSS matematik sorularında basit frekans hesaplamaları sıkça görülür."
+      },
+      {
+        "type": "highlighted",
+        "text": "Grup genişliği, verilerin birbirine çok yakın veya uzak olmasını dengelemek için kritik bir parametredir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001468688_MAT__16",
+    "createdAt": "2026-04-12T13:44:28.681Z",
+    "updatedAt": "2026-04-12T13:44:28.681Z",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T13:44:46.807Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_15.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 17: Veri Görselleştirme",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Veri Görselleştirme Teknikleri"
+      },
+      {
+        "type": "text",
+        "text": "Veri görselleştirme, karmaşık sayısal bilgilerin grafiksel formlara dönüştürülerek daha anlaşılır hale getirilmesi sürecidir. Sütun grafikleri kategorik verilerin karşılaştırılmasında, daire grafikleri bir bütünün parçalarını göstermede, histogramlar ise sürekli verilerin frekans dağılımlarını analiz etmede kullanılır. KPSS sınavında bu grafiklerin doğru yorumlanması ve veriler arası ilişkilerin kurulması beklenmektedir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sütun grafikleri, farklı grupların değerlerini kıyaslamak için idealdir.\n• Daire grafikleri, verilerin toplam içindeki yüzde payını görselleştirir.\n• Histogramlar, verileri sınıf aralıklarına ayırarak sürekli veri dağılımını gösterir.\n• Grafik okuma sorularında eksenlerin doğru tanımlanması çözüm için kritiktir."
+      },
+      {
+        "type": "text",
+        "text": "Grafiklerin eksenlerinde yer alan birimlere ve ölçeklendirmelere dikkat edilmelidir. Hatalı ölçeklendirilmiş bir grafik, verilerin olduğundan farklı algılanmasına yol açabilir. Analiz yaparken grafiğin türüne uygun yorumlama teknikleri tercih edilmelidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Histogram oluşturulurken verilerin ardışık aralıklara bölünmesi ve sınıflar arasında boşluk bırakılmaması kuralı unutulmamalıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001486808_MAT__17",
+    "createdAt": "2026-04-12T13:44:46.808Z",
+    "updatedAt": "2026-04-12T13:44:46.808Z",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T13:45:07.945Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_16.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 18: Merkezi Eğilim Ölçüleri - Aritmetik Ortalama",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Aritmetik Ortalama ve Özellikleri"
+      },
+      {
+        "type": "text",
+        "text": "Aritmetik ortalama, bir veri grubundaki tüm değerlerin toplamının veri sayısına bölünmesiyle elde edilen temel merkezi eğilim ölçüsüdür. Ağırlıklı ortalama ise, verilerin farklı önem derecelerine sahip olduğu durumlarda her değerin kendi ağırlığıyla çarpılıp toplam ağırlığa bölünmesiyle hesaplanır. KPSS matematik sorularında ortalama üzerinden değişken eksikliği bulma soruları sıkça yer almaktadır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Tüm değerlerin toplamı, ortalama ile veri sayısının çarpımına eşittir.\n• Aritmetik ortalama, veri setindeki uç değerlerden doğrudan etkilenir.\n• Ağırlıklı ortalama, not hesaplamaları gibi değişken ağırlıklı durumlarda kullanılır.\n• Veri setindeki her bir elemana aynı sabit sayı eklenirse ortalama da aynı miktarda artar."
+      },
+      {
+        "type": "text",
+        "text": "Ortalama hesaplamalarında veri setine yeni bir eleman eklendiğinde veya çıkarıldığında oluşan değişimleri takip etmek, denklem kurma becerisi gerektirir. Toplam değer üzerinden hareket etmek, işlem hatası yapma riskini minimize eder."
+      },
+      {
+        "type": "highlighted",
+        "text": "Aritmetik ortalama, veri setindeki değerlerin toplamını dengede tutan merkez değerdir; uç değerlerin varlığı ortalamayı merkezin dışına çekebilir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001486809_MAT__18",
+    "createdAt": "2026-04-12T13:44:46.808Z",
+    "updatedAt": "2026-04-12T13:44:46.808Z",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T13:45:07.945Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_17.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 19: Merkezi Eğilim Ölçüleri - Medyan (Ortanca)",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Medyan (Ortanca) Hesaplama"
+      },
+      {
+        "type": "text",
+        "text": "Medyan, küçükten büyüğe sıralanmış bir veri grubunun tam orta noktasında bulunan değerdir. Veri sayısı tek ise tam ortadaki sayı medyanı verirken, veri sayısı çift ise ortadaki iki değerin aritmetik ortalaması medyan olarak kabul edilir. Medyan, aşırı uç değerlerden etkilenmediği için ortalamaya göre daha dirençli bir ölçüdür."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Veriler mutlaka küçükten büyüğe sıralanmalıdır.\n• Tek sayıda veride medyan, (n+1)/2'nci sıradaki değerdir.\n• Çift sayıda veride medyan, ortadaki iki değerin ortalamasıdır.\n• Medyan, veri dağılımının merkezini belirlemede dengeli bir ölçü sunar."
+      },
+      {
+        "type": "text",
+        "text": "Sınavlarda sıralanmamış veri setleri verilerek öğrencinin dikkat seviyesi ölçülür. Öncelikle verileri sıralamak, medyan hesaplamasındaki temel adımdır. Sıralama yapmadan bulunan orta değer yanlış sonuç doğurur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Medyan, veri setindeki en küçük veya en büyük değerlerin değişmesinden etkilenmez; bu özelliği ile çarpık dağılımlarda ortalamadan daha güvenilir bir merkez ölçüsüdür."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001486810_MAT__19",
+    "createdAt": "2026-04-12T13:44:46.808Z",
+    "updatedAt": "2026-04-12T13:44:46.808Z",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T13:45:07.945Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_18.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 20: Merkezi Eğilim Ölçüleri - Mod (Tepe Değer)",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Mod (Tepe Değer) Analizi"
+      },
+      {
+        "type": "text",
+        "text": "Mod, bir veri setinde en fazla frekansa (tekrar sayısına) sahip olan değerdir. Bir veri dizisinde birden fazla mod bulunabileceği gibi, her değerin eşit frekansta olduğu durumlarda mod olmayabilir. Mod, özellikle nitel verilerin analizinde ve popüler olan değerin belirlenmesinde oldukça kullanışlı bir istatistiksel araçtır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• En çok tekrar eden sayı moddur.\n• Birden fazla değer aynı en yüksek frekansa sahipse seri çok modludur.\n• Hiçbir değer tekrar etmiyorsa veri setinin modu yoktur.\n• Mod hesaplaması için verilerin sıralanması zorunlu değildir."
+      },
+      {
+        "type": "text",
+        "text": "Sınav sorularında frekans tablosu verilerek modun bulunması istenebilir. Tabloyu inceleyerek en yüksek frekansa sahip olan satırı belirlemek yeterlidir. Eğer veriler liste halindeyse, her sayının kaç kez geçtiğini çetele tutarak belirlemek en sağlıklı yöntemdir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Mod, sadece en sık gözlenen değeri gösterir; bu nedenle veri setinin tamamı hakkında sınırlı bilgi verir fakat hızlı bir referans noktasıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001486811_MAT__20",
+    "createdAt": "2026-04-12T13:44:46.808Z",
+    "updatedAt": "2026-04-12T13:44:46.808Z",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T13:45:07.945Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_19.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 21: Merkezi Yayılım Ölçüleri - Açıklık",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Veri Yayılımında Açıklık"
+      },
+      {
+        "type": "text",
+        "text": "Açıklık (ranj), bir veri grubundaki en büyük değer ile en küçük değer arasındaki farktır. Verilerin dağılımının ne kadar geniş bir aralığa yayıldığını gösteren en basit yayılım ölçüsüdür. Ancak, yalnızca iki uç değeri baz aldığı için verilerin genel dağılımı hakkında detaylı bilgi sunmaz."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Açıklık = En Büyük Değer - En Küçük Değer.\n• Küçük açıklık, verilerin birbirine yakın ve homojen olduğunu gösterir.\n• Büyük açıklık, verilerin geniş bir aralığa yayıldığını ve heterojen olduğunu gösterir.\n• Açıklık, tek bir uç değerin değişmesiyle bile ciddi oranda değişebilir."
+      },
+      {
+        "type": "text",
+        "text": "Açıklık hesaplanırken negatif sayıların bulunduğu veri setlerine dikkat edilmelidir. En büyük ve en küçük değer belirlenirken sayı doğrusu üzerindeki konumları esas alınmalıdır. Bu basit fark, veri grubunun yayılım karakterini anlamamıza yardımcı olur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Açıklık, verilerin birbirine göre saçılımını gösteren ilk göstergedir; ancak tek başına veri setinin güvenilirliğini kanıtlamaya yetmez."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001486812_MAT__21",
+    "createdAt": "2026-04-12T13:44:46.808Z",
+    "updatedAt": "2026-04-12T13:44:46.808Z",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T13:45:07.945Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_20.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 22: Standart Sapma",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Standart Sapma ve Varyans"
+      },
+      {
+        "type": "text",
+        "text": "Standart sapma, verilerin aritmetik ortalamadan ne kadar uzaklaştığını gösteren en önemli yayılım ölçüsüdür. Varyansın karekökü olarak hesaplanır ve veri grubunun tutarlılığını veya kararlılığını analiz etmekte kullanılır. Düşük standart sapma, verilerin ortalamaya yakın ve birbirine benzer olduğunu, yüksek standart sapma ise verilerin birbirinden uzak ve değişken olduğunu ifade eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Varyans, verilerin ortalamadan farklarının karelerinin toplamının veri sayısına bölümüdür.\n• Standart sapma, varyansın kareköküdür.\n• Standart sapma sıfıra yakınsa veriler homojendir.\n• Standart sapma büyükse veriler heterojen ve değişkendir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de standart sapma ile ilgili sorular genellikle karşılaştırmalı olarak sorulur. İki farklı grubun başarı durumunu kıyaslarken, ortalamaları aynı olan gruplardan standart sapması küçük olan grup daha istikrarlı ve başarılı kabul edilir. İşlem yaparken ortalamadan sapma karelerinin toplamına odaklanmak gerekir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Standart sapma, verilerin ortalamadan ne kadar saptığını ölçerek grubun homojenlik derecesini belirleyen en güvenilir ölçüttür."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001486813_MAT__22",
+    "createdAt": "2026-04-12T13:44:46.808Z",
+    "updatedAt": "2026-04-12T13:44:46.808Z",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T13:45:07.945Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_21.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 23: Çeyrekler Açıklığı",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Çeyrekler Açıklığı ve Veri Dağılımı"
+      },
+      {
+        "type": "text",
+        "text": "Çeyrekler açıklığı, sıralı bir veri grubunun üst çeyreği (Q3) ile alt çeyreği (Q1) arasındaki farktır. Verilerin orta yüzde ellilik kısmının hangi aralıkta toplandığını gösterir. Uç değerlerden etkilenmediği için açıklığa göre daha güvenilir bir yayılım ölçüsüdür ve box-plot (kutu grafiği) analizlerinde temel teşkil eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Alt çeyrek (Q1), verilerin ilk %25'lik kısmını belirleyen değerdir.\n• Üst çeyrek (Q3), verilerin %75'lik kısmını belirleyen değerdir.\n• Çeyrekler Açıklığı (IQR) = Q3 - Q1.\n• Verilerin merkezindeki yoğunlaşmayı anlamamıza yardımcı olur."
+      },
+      {
+        "type": "text",
+        "text": "Çeyrekler açıklığını hesaplamak için öncelikle tüm verinin medyanını bulup ardından alt ve üst yarıların medyanlarını (Q1 ve Q3) hesaplamak gerekir. Bu yöntemle verinin yayılımı hakkında çok daha detaylı bir perspektif elde edilir. Özellikle aykırı değerlerin tespiti için kullanılır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Çeyrekler açıklığı, uç değerlerin etkisini dışarıda bıraktığı için veri setinin ana gövdesindeki değişkenliği en iyi ifade eden değerdir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001486814_MAT__23",
+    "createdAt": "2026-04-12T13:44:46.808Z",
+    "updatedAt": "2026-04-12T13:44:46.808Z",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T13:45:07.945Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_22.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 24: Örneklem ve Popülasyon",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Popülasyon ve Örneklem İlişkisi"
+      },
+      {
+        "type": "text",
+        "text": "İstatistiksel araştırmalarda incelenen grubun tamamına popülasyon (anakütle), bu büyük grubu temsil etmek üzere seçilen daha küçük alt gruba ise örneklem denir. Örneklemin popülasyonu temsil gücü, araştırmanın güvenilirliği açısından hayati önem taşır. Örneklem seçimindeki yanlılık, elde edilen sonuçların genellenememesine neden olur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Popülasyon, araştırmanın kapsadığı tüm elemanları ifade eder.\n• Örneklem, popülasyondan seçilen temsilci gruptur.\n• Temsil gücü yüksek örneklem, popülasyonun genel özelliklerini yansıtır.\n• İstatistiksel çıkarım, örneklem verileriyle popülasyon hakkında tahminde bulunmaktır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sorularında örneklem seçiminin rastgele yapılması gerekliliği sıkça vurgulanır. Rastgele seçim, popülasyonun her bir elemanının örnekleme seçilme şansının eşit olduğunu gösterir. Bu yöntem, verilerin tarafsız ve genellenebilir olmasını sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Bir araştırmada örneklem ne kadar iyi seçilirse, elde edilen sonuçların popülasyonu yansıtma payı o kadar yüksek olur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001486815_MAT__24",
+    "createdAt": "2026-04-12T13:44:46.808Z",
+    "updatedAt": "2026-04-12T13:44:46.808Z",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T13:45:07.945Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_23.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 25: Olasılık Problemlerinde Stratejiler",
+    "content": [
+      {
+        "type": "text",
+        "text": "Olasılık problemlerinde doğru stratejiyi belirlemek, çözüm sürecini önemli ölçüde hızlandırır. Özellikle karmaşık örnek uzaylarında doğrudan hesaplama yerine tümleyen (ters durum) yöntemini kullanmak işlem yükünü azaltır. Venn şemaları, küme mantığına dayalı olasılık sorularında görselleştirme yaparak hata payını minimize eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Ters durumdan gitmek için toplam olasılıktan istenmeyen durumların olasılığını çıkarın.\n• Venn şemasını kesişim bölgelerinden dışa doğru doldurmaya başlayın.\n• Verilen değerleri gruplandırırken ayrık olayları birbirinden net bir şekilde ayırın.\n• Örnek uzayını belirlerken tekrarlı permütasyon durumlarını göz ardı etmeyin.\n• Soru kökünde 'en az bir' ifadesi geçiyorsa tümleyen yöntemini önceliklendirin."
+      },
+      {
+        "type": "text",
+        "text": "Stratejik yaklaşım, sınavda zaman yönetimi açısından kritiktir. Soruyu analiz ederken olayların bağımlı mı bağımsız mı olduğunu belirlemek, doğru formülün seçilmesini sağlar. Temel olasılık prensiplerini doğru uygulamak, sınavda çıkabilecek tüm olasılık sorularının temelini oluşturur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Tümleyen yöntemi: P(A) = 1 - P(A') formülü, özellikle en az bir durumunu içeren sorularda zaman kazandırır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001507945_MAT__25",
+    "createdAt": "2026-04-12T13:45:07.945Z",
+    "updatedAt": "2026-04-12T13:45:07.945Z",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T13:45:23.501Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_24.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 26: Geometrik Olasılık",
+    "content": [
+      {
+        "type": "text",
+        "text": "Geometrik olasılık, bir olayın gerçekleşme olasılığının uzunluk, alan veya hacim oranları ile ifade edildiği bir yöntemdir. Bu tür sorularda istenen durumun alanı veya uzunluğu, tüm örnek uzayın geometrik büyüklüğüne bölünür. KPSS sınavında genellikle alan üzerinden oranlama yapılan dikdörtgen veya çember soruları sorulmaktadır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İstenen bölgenin alanını tüm şeklin alanına oranlayarak sonucu bulun.\n• Uzunluk sorularında bir doğru parçası üzerindeki hedef bölgenin uzunluğunu toplam uzunluğa bölün.\n• Şekil içerisinde nokta seçimi sorularında alan oranları temel alınır.\n• İç içe geçmiş geometrik şekillerde taralı bölge olasılığını hesaplarken fark yöntemini kullanın.\n• Birim karelerden oluşan sistemlerde sayma yöntemini geometrik oranlara uyarlayın."
+      },
+      {
+        "type": "text",
+        "text": "Geometrik olasılık sorularında şekil çizmek, sorunun çözümünü somutlaştırır. Özellikle koordinat düzlemi üzerinde tanımlanan bölgelerde, eşitsizliklerin belirttiği alanları hesaplamak başarıyı getirir. Oranlama yaparken toplam alanın doğru hesaplanması en yaygın işlem hatasıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Geometrik Olasılık P = (İstenen Bölgenin Ölçüsü) / (Tüm Örnek Uzayın Ölçüsü) formülü ile hesaplanır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001507946_MAT__26",
+    "createdAt": "2026-04-12T13:45:07.945Z",
+    "updatedAt": "2026-04-12T13:45:07.945Z",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T13:45:23.501Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_25.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 27: Birleşik Olayların Olasılığı",
+    "content": [
+      {
+        "type": "text",
+        "text": "Birleşik olaylarda 've' ile 'veya' bağlaçları, olasılık hesaplamalarında farklı işlem operatörlerine karşılık gelir. 'Veya' bağlacı, birleşim kümesi mantığıyla toplama kuralını gerektirirken, 've' bağlacı kesişim mantığıyla çarpma kuralını ifade eder. Olayların bağımsız olup olmadığı, çarpma kuralında belirleyici bir etkendir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• P(A veya B) = P(A) + P(B) - P(A ve B) formülünü mutlaka kullanın.\n• Bağımsız olaylarda P(A ve B) = P(A) * P(B) eşitliği geçerlidir.\n• Bağımlı olaylarda ikinci olayın olasılığı, ilk olayın gerçekleşmesine bağlı değişir.\n• 'Veya' bağlacı içeren sorularda kesişim kümesini çıkarmayı unutmayın.\n• Birbirini dışlayan olaylarda kesişim kümesi boştur ve olasılığı sıfıra eşittir."
+      },
+      {
+        "type": "text",
+        "text": "Bu konu, KPSS matematik testlerinde en çok hata yapılan kısımlardan biridir. Olayların birbirinden bağımsız olması, ikinci durumun olasılığını etkileyip etkilemediğini anlamakla başlar. Özellikle ardışık çekiliş veya seçim sorularında bu ayrım hayati önem taşır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Bağımsız olaylarda P(A ve B) çarpım kuralı ile hesaplanır; ancak ayrık olaylarda P(A veya B) toplam kuralı ile bulunur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001507947_MAT__27",
+    "createdAt": "2026-04-12T13:45:07.945Z",
+    "updatedAt": "2026-04-12T13:45:07.945Z",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T13:45:23.501Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_26.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 28: İstatistiksel Hata Payı",
+    "content": [
+      {
+        "type": "text",
+        "text": "İstatistiksel analizlerde hata payı, örneklemden elde edilen verilerin ana kütleyi ne kadar temsil ettiğini gösterir. Güven aralığı, gerçek değerin hangi aralıkta bulunabileceğine dair bir olasılık tahmini sunar. Veri setindeki aşırı uç değerler (outliers), ortalama ve standart sapmayı bozarak hata payını doğrudan etkiler."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Örneklem büyüklüğü arttıkça hata payı genellikle azalma eğilimi gösterir.\n• Uç değerler, aritmetik ortalamayı kaydırarak istatistiksel sapmaya neden olur.\n• Güven aralığı, verilerin ne kadar güvenilir olduğunu belirleyen bir parametredir.\n• Standart sapmanın yüksek olması, verilerin yayılımının fazla olduğunu gösterir.\n• Medyan, uç değerlerden ortalamaya göre çok daha az etkilenen bir merkezi eğilim ölçüsüdür."
+      },
+      {
+        "type": "text",
+        "text": "Veri setindeki uç değerlerin tespiti, istatistiksel sonuçların doğruluğu için ilk adımdır. KPSS müfredatında bu konu genellikle veri setinin yorumlanması ve merkezi eğilim ölçülerinin analizi üzerinden sorulmaktadır. Veri dağılımının simetrisi, hata payının yorumlanmasında önemli bir ipucudur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Uç değerler veri setinin güvenilirliğini azaltır; bu nedenle medyan ve açıklık gibi ölçüler, ortalamayı destekleyici olarak kullanılmalıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001507948_MAT__28",
+    "createdAt": "2026-04-12T13:45:07.945Z",
+    "updatedAt": "2026-04-12T13:45:07.945Z",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T13:45:23.501Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_27.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 29: Korelasyon Temelleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Korelasyon, iki değişken arasındaki ilişkinin yönünü ve gücünü ölçen bir istatistiksel yöntemdir. Pozitif korelasyonda değişkenler aynı yönde hareket ederken, negatif korelasyonda ters yönlü bir ilişki gözlemlenir. Serpme diyagramları (scatter plots), bu ilişkinin görselleştirilmesi için kullanılan en etkili araçtır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Korelasyon katsayısı -1 ile +1 arasında değerler alır.\n• Pozitif korelasyonda grafik sağa doğru yükselen bir eğilim gösterir.\n• Negatif korelasyonda değişkenler biri artarken diğeri azalma eğilimindedir.\n• Sıfıra yakın korelasyon, iki değişken arasında hiçbir ilişki olmadığını gösterir.\n• Serpme diyagramındaki noktaların doğruya yakınlığı, ilişkinin gücünü yansıtır."
+      },
+      {
+        "type": "text",
+        "text": "Korelasyon ile nedensellik arasındaki farkı karıştırmamak gerekir; korelasyon sadece ilişkinin varlığını belirtir, birinin diğerini doğurduğunu kanıtlamaz. KPSS sorularında bu kavram, genellikle grafik yorumlama veya tablo analizi üzerinden sorgulanır. Değişkenler arasındaki ilişkinin yönünü belirlemek, basit istatistiksel çıkarımlar için yeterlidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Korelasyon katsayısı r = +1 mükemmel pozitif ilişkiyi, r = -1 mükemmel negatif ilişkiyi, r = 0 ise ilişki olmadığını belirtir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001507949_MAT__29",
+    "createdAt": "2026-04-12T13:45:07.945Z",
+    "updatedAt": "2026-04-12T13:45:07.945Z",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T13:45:23.501Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_28.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_OLASILIK_ISTATISTIK",
+    "title": "Bölüm 30: İleri Seviye Soru Çözüm Teknikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "İleri seviye olasılık ve istatistik soruları, birden fazla kavramın iç içe geçmesini gerektirir. Karma sorularda önce problemi parçalara ayırmak, ardından bağımsız parçaları çözüp birleştirmek en etkili yöntemdir. Zaman yönetimi için sorunun zorluk derecesini ilk bakışta saptamak ve stratejiyi buna göre belirlemek oldukça önemlidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Karmaşık soruları küçük alt problemlere bölün ve adım adım ilerleyin.\n• Sınavda zaman kaybettiren sorularda 'tahmin ve eleme' yöntemini değerlendirin.\n• Verilen tüm verileri bir tabloya dökmek, karmaşık olasılık sorularını basitleştirir.\n• Zaman yönetimi için çok uzun metinli soruları en sona bırakın.\n• İstatistiksel kavramları günlük hayat örnekleriyle eşleştirerek mantığınızı güçlendirin."
+      },
+      {
+        "type": "text",
+        "text": "Sınav tarzı sorular, yalnızca bilgi değil, aynı zamanda muhakeme yeteneği de ölçer. Özellikle olasılık sorularında örnek uzayını eksiksiz belirlemek, sonucu doğrudan etkiler. Pratik yaparak hız kazanan adaylar, karmaşık görünen sorularda bile kısa sürede çözüme ulaşabilirler."
+      },
+      {
+        "type": "highlighted",
+        "text": "Karma sorularda başarının anahtarı, sorunun hangi konuya ait olduğunu (permütasyon, kombinasyon veya olasılık) başlangıçta doğru tanımlamaktır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001507950_MAT__30",
+    "createdAt": "2026-04-12T13:45:07.945Z",
+    "updatedAt": "2026-04-12T13:45:07.945Z",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T13:45:23.501Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_OLASILIK_ISTATISTIK_29.mp3?alt=media"
+  }
+]

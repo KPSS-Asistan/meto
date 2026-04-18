@@ -1,0 +1,1519 @@
+[
+  {
+    "id": "esitlik_ilkes",
+    "term": "Eşitlik İlkesi",
+    "definition": "Anayasa md.10'a göre herkes, dil, ırk, renk, cinsiyet, siyasi düşünce, felsefi inanç, din, mezhep ve benzeri ayrım gözetilmeksizin kanun önünde eşittir. Kadınlar ve erkekler eşit haklara sahiptir. Eşitlik mutlak olmayıp benzer durumlar arasında geçerlidir.",
+    "examples": [
+      "KPSS sorusu: Eşitlik ilkesinin istisnaları nelerdir? (Askerlik, emeklilik yaşı).",
+      "Anayasa'da eşitlik ilkesine aykırı düzenleme örnek: Zorunlu askerlik sadece erkeklere."
+    ],
+    "relatedTerms": [
+      "Hukuk Devleti",
+      "Kişi Hürriyeti ve Güvenliği",
+      "Temel Hakların Sınırlandırılması"
+    ],
+    "order": 1
+  },
+  {
+    "id": "hukuk_devleti",
+    "term": "Hukuk Devleti",
+    "definition": "Anayasa md.2'ye göre Türkiye Cumhuriyeti hukuk devletidir; idare keyfi davranamaz, işlemler hukuka uygun olmalıdır. Yasama, yürütme ve yargı kuvvetler ayrılığına tabidir. Bireysel haklar hukukun üstünlüğü ile korunur.",
+    "examples": [
+      "KPSS sorusu: Hukuk devletinin unsurları nelerdir? (Yasallık, kuvvetler ayrılığı).",
+      "İdare mahkemesi kararları hukuk devleti ilkesini sağlar."
+    ],
+    "relatedTerms": [
+      "Eşitlik İlkesi",
+      "Temel Hakların Sınırlandırılması",
+      "Kanunsuz Suç ve Ceza Olmaz"
+    ],
+    "order": 2
+  },
+  {
+    "id": "kisi_hurriyeti_ve_guvenligi",
+    "term": "Kişi Hürriyeti ve Güvenliği",
+    "definition": "Anayasa md.19'a göre herkes kişi hürriyetinden ve güvenliğinden yararlanır. Tutuklama ancak hakim kararıyla ve suçüstü hali dışında yapılır. Gözaltı süresi en fazla 24 saattir.",
+    "examples": [
+      "KPSS sorusu: Gözaltı süresi uzatılabilir mi? (Savcı emriyle 48 saate kadar).",
+      "Tutuklama yasağı: Yakalama emri olmadan kişi hapsedilemez."
+    ],
+    "relatedTerms": [
+      "Tutuklama",
+      "Gözaltı",
+      "Konut Dokunulmazlığı"
+    ],
+    "order": 3
+  },
+  {
+    "id": "temel_haklarin_sinirlandirilmasi",
+    "term": "Temel Hakların Sınırlandırılması",
+    "definition": "Anayasa md.13'e göre temel haklar ancak kanunla sınırlanabilir ve özüne dokunulamaz. Sınırlama demokratik toplum düzeninde gerekli olmalı ve ölçülülük ilkesine uygunmalıdır. Anayasanın ilgili maddesinde öngörülmüş olmalıdır.",
+    "examples": [
+      "KPSS sorusu: Hak sınırlamasında ölçülülük ilkesi nedir? (Orantılılık).",
+      "Seyahat hürriyeti salgın hastalıkta sınırlanabilir."
+    ],
+    "relatedTerms": [
+      "Eşitlik İlkesi",
+      "Hukuk Devleti",
+      "Özüne Dokunulmama"
+    ],
+    "order": 4
+  },
+  {
+    "id": "konut_dokunulmazligi",
+    "term": "Konut Dokunulmazlığı",
+    "definition": "Anayasa md.21'e göre herkesin konut dokunulmazlığı vardır; konut ancak kanunda öngörülen sebeplerle hakim kararıyla girilebilir. Kanunlarda sayılan arama ve el koyma hallerinde savcı kararı yeterlidir.",
+    "examples": [
+      "KPSS sorusu: Konut araması için yetkili merci nedir? (Hakim kararı).",
+      "Suçüstü hali dışında konut girişi yasaktır."
+    ],
+    "relatedTerms": [
+      "Kişi Hürriyeti ve Güvenliği",
+      "Haberleşme Hürriyeti",
+      "Özellik Tedbiri"
+    ],
+    "order": 5
+  },
+  {
+    "id": "haberlesme_hurriyeti",
+    "term": "Haberleşme Hürriyeti",
+    "definition": "Anayasa md.22'ye göre haberleşme hürriyeti vardır; gizliliği esastır. Sınırlandırma ancak hakim kararıyla ve milli güvenlik gibi sebeplerle yapılabilir. Telgraf, telefon gibi araçlar korunur.",
+    "examples": [
+      "KPSS sorusu: Telefon dinlemesi için karar merci kimdir? (Hakim).",
+      "Haberleşme gizliliği ihlali suçtur."
+    ],
+    "relatedTerms": [
+      "Konut Dokunulmazlığı",
+      "Kişi Hürriyeti ve Güvenliği",
+      "İfade Özgürlüğü"
+    ],
+    "order": 6
+  },
+  {
+    "id": "yerlesme_ve_seyahat_hurriyeti",
+    "term": "Yerleşme ve Seyahat Hürriyeti",
+    "definition": "Anayasa md.23'e göre herkes yerleşme ve seyahat hürriyetine sahiptir. Sınırlandırma kamu düzeni, genel sağlık gibi sebeplerle kanunla yapılır. Yurtdışına çıkışta pasaport hakkı vardır.",
+    "examples": [
+      "KPSS sorusu: Seyahat hürriyeti hangi hallerde sınırlanır? (Salgın, savaş).",
+      "Siyasi mülteci çıkışı engellenemez."
+    ],
+    "relatedTerms": [
+      "Kişi Hürriyeti ve Güvenliği",
+      "Temel Hakların Sınırlandırılması"
+    ],
+    "order": 7
+  },
+  {
+    "id": "dusunce_ozgurlugu",
+    "term": "Düşünce Özgürlüğü",
+    "definition": "Anayasa md.25'e göre herkes düşünce ve kanaat hürriyetine sahiptir. Düşünce suç sayılmaz ve ifade edilebilir. Sınırlama ancak kanunla ve demokratik toplum gereklerine uygundur.",
+    "examples": [
+      "KPSS sorusu: Düşünce suçu var mıdır? (Yoktur, ifade suçu olabilir).",
+      "Düşünceyi açıklama araçları korunur."
+    ],
+    "relatedTerms": [
+      "İfade Özgürlüğü",
+      "Din ve Vicdan Hürriyeti",
+      "Basın Özgürlüğü"
+    ],
+    "order": 8
+  },
+  {
+    "id": "ifade_ozgurlugu",
+    "term": "İfade Özgürlüğü",
+    "definition": "Anayasa md.26'ya göre herkes düşünce ve görüşlerini sözle, yazı ile ve her çeşit bildiriyle tek başına veya toplu olarak açıklayabilir. Propaganda özgürlüğü de kapsar. Sınırlama md.13 ve 28'e tabidir.",
+    "examples": [
+      "KPSS sorusu: İfade özgürlüğünün sınırları nelerdir? (Nefret söylemi, milli güvenlik).",
+      "Eleştiri ifade özgürlüğü kapsamındadır."
+    ],
+    "relatedTerms": [
+      "Düşünce Özgürlüğü",
+      "Toplantı ve Gösteri Yürüyüşü Hakkı",
+      "Basın Özgürlüğü"
+    ],
+    "order": 9
+  },
+  {
+    "id": "din_vicdan_hurriyeti",
+    "term": "Din ve Vicdan Hürriyeti",
+    "definition": "Anayasa md.24'e göre herkes vicdan, dini inanç ve kanaat hürriyetine sahiptir. İbadet yerleri açılabilir. Devlet din işlerine karışamaz, laiklik esas alınır.",
+    "examples": [
+      "KPSS sorusu: Din eğitimi zorunlu mudur? (Hayır, seçmelidir).",
+      "Dini propaganda özgürlüğü sınırlanabilir."
+    ],
+    "relatedTerms": [
+      "Düşünce Özgürlüğü",
+      "Eşitlik İlkesi",
+      "Laiklik İlkesi"
+    ],
+    "order": 10
+  },
+  {
+    "id": "toplanti_hakki",
+    "term": "Toplantı ve Gösteri Yürüyüşü Hakkı",
+    "definition": "Anayasa md.34'e göre herkes önceden haber vermeksizin toplantı ve gösteri yürüyüşü düzenleyebilir. Silahsız ve saldırısız olmalıdır. Kamu düzenini bozan toplantı dağıtılabilir.",
+    "examples": [
+      "KPSS sorusu: Toplantı için bildirim süresi nedir? (48 saat).",
+      "Açık yer toplantıları izne tabidir."
+    ],
+    "relatedTerms": [
+      "İfade Özgürlüğü",
+      "Örgütlenme Özgürlüğü"
+    ],
+    "order": 11
+  },
+  {
+    "id": "orgutlenme_ozgurlugu",
+    "term": "Örgütlenme Özgürlüğü",
+    "definition": "Anayasa md.33'e göre herkes dernek kurma hakkına sahiptir. Siyasi partiler md.68'de düzenlenir. Anayasa dışı amaç taşıyan örgütler yasaklanabilir.",
+    "examples": [
+      "KPSS sorusu: Dernek kurma şartı nedir? (En az 7 gerçek kişi).",
+      "Vakıf kurma özgürlüğü de kapsar."
+    ],
+    "relatedTerms": [
+      "Toplantı ve Gösteri Yürüyüşü Hakkı",
+      "Sendika Kurma Hakkı"
+    ],
+    "order": 12
+  },
+  {
+    "id": "sendika_kurma_hakki",
+    "term": "Sendika Kurma Hakkı",
+    "definition": "Anayasa md.51'e göre işçiler ve işverenler sendika kurabilir. Zorunlu üyelik yasaktır. Sendika özgürlüğü grev hakkı ile bağlantılıdır.",
+    "examples": [
+      "KPSS sorusu: Sendika üyeliği özgür müdür? (Evet, zorunlu olamaz).",
+      "Kamu görevlileri sendika kurabilir."
+    ],
+    "relatedTerms": [
+      "Örgütlenme Özgürlüğü",
+      "Grev Hakkı"
+    ],
+    "order": 13
+  },
+  {
+    "id": "grev_hakki",
+    "term": "Grev Hakkı",
+    "definition": "Anayasa md.54'e göre grev hakkıdır; toplu iş sözleşmesi uyuşmazlıklarında kullanılır. Kamu hizmetlerinde sınırlıdır. Lokavt da tanınır.",
+    "examples": [
+      "KPSS sorusu: Hangi grev yasaktır? (Genel grev, siyasi grev).",
+      "Barış grevi meşrudur."
+    ],
+    "relatedTerms": [
+      "Sendika Kurma Hakkı",
+      "Toplu Sözleşme Hakkı"
+    ],
+    "order": 14
+  },
+  {
+    "id": "mulkiyet_hakki",
+    "term": "Mülkiyet Hakkı",
+    "definition": "Anayasa md.35'e göre herkes mülkiyet ve miras hakkına sahiptir. Kamulaştırma ancak kamu yararı için ve bedel ödenerek yapılır. Sınırlandırma md.13'e tabidir.",
+    "examples": [
+      "KPSS sorusu: Kamulaştırmasız el atma nedir? (Bedelsiz el koyma tazminatı gerektirir).",
+      "İrtifak hakkı mülkiyet kapsamındadır."
+    ],
+    "relatedTerms": [
+      "Temel Hakların Sınırlandırılması",
+      "Konut Dokunulmazlığı"
+    ],
+    "order": 15
+  },
+  {
+    "id": "kisi_dokunulmazligi",
+    "term": "Kişi Dokunulmazlığı",
+    "definition": "Hiçbir kimse hak ve özgürlüklerinden yoksun bırakılamaz ve kutsal sayılan hayatına dokunulamaz. Tutsaklar ve tutuklulara insancıl muamele yapılır. Anayasa md. 17 ile korunan temel haktır.",
+    "examples": [
+      "Polis tarafından sebepsiz yere dövülmek kişi dokunulmazlığını ihlal eder.",
+      "Ceza infazında işkence yasağı bu hakka dayanır."
+    ],
+    "relatedTerms": [
+      "Yaşam Hakkı",
+      "Özgürlük ve Güvenlik Hakkı",
+      "İşkence Yasağı"
+    ],
+    "order": 16
+  },
+  {
+    "id": "dusunce_kanaat_hurriyeti",
+    "term": "Düşünce, Kanaat ve Kanaat Bildirme Hürriyeti",
+    "definition": "Herkes düşünce ve kanaatlerini serbestçe oluşturur ve yayar, ancak sınırlamalar anayasal sebeplere dayanır. Anayasa md. 25-26 ile korunur.",
+    "examples": [
+      "Düşünce suçu kavramı Anayasa Mahkemesi tarafından iptal edilmiştir.",
+      "Eleştiri sınırları aşılmadıkça cezalandırılamaz."
+    ],
+    "relatedTerms": [
+      "İfade Özgürlüğü",
+      "Basın Özgürlüğü",
+      "Bilim Özgürlüğü"
+    ],
+    "order": 17
+  },
+  {
+    "id": "toplanma_hakki",
+    "term": "Toplanma Hakkı",
+    "definition": "Herkes önceden izin almadan silahsız ve saldırısız toplanma hakkına sahiptir. Anayasa md. 34 ile düzenlenir.",
+    "examples": [
+      "Miting için valilik izni zorunludur.",
+      "Silahlı toplanma hakkı yoktur."
+    ],
+    "relatedTerms": [
+      "Gösteri ve Yürüyüş Hakkı",
+      "Örgütlenme Özgürlüğü",
+      "İfade Özgürlüğü"
+    ],
+    "order": 18
+  },
+  {
+    "id": "gosteri_yuruyus_hakki",
+    "term": "Gösteri ve Yürüyüş Yürütme Hakkı",
+    "definition": "Toplanma özgürlüğünün bir parçası olarak gösteri ve yürüyüşler önceden bildirimle yapılabilir. Kamu düzeni için sınırlanabilir. Anayasa md. 34'te yer alır.",
+    "examples": [
+      "Yasaklanan yerde yürüyüş yapmak suçtur.",
+      "Barışçıl gösteriler korunur."
+    ],
+    "relatedTerms": [
+      "Toplanma Hakkı",
+      "İfade Özgürlüğü",
+      "Basın Özgürlüğü"
+    ],
+    "order": 19
+  },
+  {
+    "id": "egitim_hakki",
+    "term": "Eğitim ve Öğrenim Hakkı",
+    "definition": "Herkes eğitim alma hakkına sahiptir, öğretim bir ve parasızdır. Özel öğretim kurumları kurulabilir. Anayasa md. 42 ile korunur.",
+    "examples": [
+      "İlköğretim zorunlu ve parasızdır.",
+      "Üniversiteye girişte eşitlik ilkesi geçerlidir."
+    ],
+    "relatedTerms": [
+      "Öğrenim Özgürlüğü",
+      "Bilim ve Sanat Özgürlüğü",
+      "Din Eğitimi"
+    ],
+    "order": 20
+  },
+  {
+    "id": "calisma_hakki",
+    "term": "Çalışma Hakkı",
+    "definition": "Çalışma hakkı koruma altına alınmış olup, herkesin yararlanma hakkı vardır. Çalışma koşulları kanunla düzenlenir. Anayasa md. 49-65 arası sosyal haklarda yer alır.",
+    "examples": [
+      "İşsizlik maaşı çalışma hakkının bir sonucudur.",
+      "Çocuk işçiliği yasaktır."
+    ],
+    "relatedTerms": [
+      "Sendika Hakkı",
+      "Ücret Hakkı",
+      "Sosyal Güvenlik Hakkı"
+    ],
+    "order": 21
+  },
+  {
+    "id": "mutlak_haklar",
+    "term": "Mutlak Haklar",
+    "definition": "Anayasa'da sınırlanamayacak haklardır. Yaşam hakkı, işkence yasağı gibi haklar örnektir. Hiçbir koşulda kısıtlanamazlar.",
+    "examples": [
+      "KPSS sorusu: Yaşam hakkı mutlak hak mıdır? (Evet)"
+    ],
+    "relatedTerms": [
+      "Hakların Özüne Dokunulmazlık",
+      "Olağanüstü Hal"
+    ],
+    "order": 22
+  },
+  {
+    "id": "kisilik_haklari",
+    "term": "Kişilik Hakları",
+    "definition": "Bireyin varoluşuyla doğan maddi ve manevi bütünlüklü haklardır. Anayasa md. 17-24'te düzenlenir. Korunması devletin yükümlülüğündedir.",
+    "examples": [
+      "KPSS sorusu: Kişilik hakları hangi maddelerle korunur? (Md. 17-24)",
+      "Örnek: Ad, soyad değiştirme hakkı."
+    ],
+    "relatedTerms": [
+      "Konut Dokunulmazlığı",
+      "Haberleşme Hürriyeti"
+    ],
+    "order": 23
+  },
+  {
+    "id": "ozel_hayatin_gizliligi",
+    "term": "Özel Hayatın Gizliliği",
+    "definition": "Özel hayat, aile ve şeref dokunulmazdır; kanunla sınırlanabilir. Anayasa md. 20'de düzenlenir. Fotoğraf çekme gibi ihlaller yasaktır.",
+    "examples": [
+      "KPSS sorusu: Özel hayat gizliliği hangi maddedir? (Md. 20)",
+      "Örnek: İzinsiz ses kaydı."
+    ],
+    "relatedTerms": [
+      "Haberleşme Hürriyeti",
+      "Kişisel Verilerin Korunması"
+    ],
+    "order": 24
+  },
+  {
+    "id": "seyahat_hurriyeti",
+    "term": "Seyahat Hürriyeti",
+    "definition": "Herkes ikamet ve seyahat hakkına sahiptir; kanunla sınırlanabilir. Anayasa md. 23'te yer alır. Yargı kararıyla kısıtlanabilir.",
+    "examples": [
+      "KPSS sorusu: Seyahat özgürlüğü kısıtlaması neye tabidir? (Kanun)"
+    ],
+    "relatedTerms": [
+      "Yerleşme Hürriyeti",
+      "Yurtdışına Çıkma Hakkı"
+    ],
+    "order": 25
+  },
+  {
+    "id": "yerlesme_hurriyeti",
+    "term": "Yerleşme Hürriyeti",
+    "definition": "Yerleşmeyi ve seyahati özgürce seçme hakkıdır; genel salgın gibi nedenlerle sınırlanabilir. Anayasa md. 23 ile düzenlenir. Sınır bölgeleri kısıtlanabilir.",
+    "examples": [
+      "KPSS sorusu: Yerleşme hürriyeti hangi nedenle sınırlanır? (Genel salgın)"
+    ],
+    "relatedTerms": [
+      "Seyahat Hürriyeti",
+      "İkamet Hakkı"
+    ],
+    "order": 26
+  },
+  {
+    "id": "toplanma_ozgurlugu",
+    "term": "Toplanma Özgürlüğü",
+    "definition": "Silahsız ve saldırısız toplanma hakkıdır; kanunla sınırlanabilir. Anayasa md. 34'te düzenlenir. Açık havada izne tabidir.",
+    "examples": [
+      "KPSS sorusu: Toplanma özgürlüğü izne tabi midir? (Kısmen)"
+    ],
+    "relatedTerms": [
+      "Gösteri ve Yürüyüş Hakkı",
+      "Dernek Kurma Hakkı"
+    ],
+    "order": 27
+  },
+  {
+    "id": "orantililik_ilkes i",
+    "term": "Orantılılık İlkesi",
+    "definition": "Hak sınırlamalarında kullanılan, müdahalenin hakkın niteliğine uygun olması ilkesidir. Anayasa md. 13'te yer alır. Gereklilik ve uygunluk testleri uygulanır.",
+    "examples": [
+      "KPSS sorusu: Hak sınırlamasında orantılılık şartı nedir? (Md. 13)"
+    ],
+    "relatedTerms": [
+      "Hakların Sınırlanması",
+      "Demokratik Toplum Düzeni"
+    ],
+    "order": 28
+  },
+  {
+    "id": "haklarin_ozune_dokunulmazlik",
+    "term": "Hakların Özüne Dokunulmazlık",
+    "definition": "Temel hakların özü ve çekirdeği dokunulmazdır; sınırlama özünü kaldıramaz. Anayasa md. 13 ve 15'te belirtilir. Anayasa değişikliğiyle bile sınırlanamaz.",
+    "examples": [
+      "KPSS sorusu: Hakların özü sınırlanabilir mi? (Hayır)"
+    ],
+    "relatedTerms": [
+      "Mutlak Haklar",
+      "Olağanüstü Hal"
+    ],
+    "order": 29
+  },
+  {
+    "id": "kanunilik_ilkesı",
+    "term": "Kanunilik İlkesi",
+    "definition": "Temel hak ve özgürlükler ancak kanunla sınırlanabilir, idari işlemle sınırlanamaz. Anayasa md. 13'e göre sınırlama kanunun anayasa hükümlerine uygun, ölçülü ve demokratik toplum düzeninin gereklerine uygun olmalıdır. KPSS'de sınırlama sebepleriyle ilgili sorularda temel kavramdır.",
+    "examples": [
+      "Toplantı ve gösteri yürüyüşü özgürlüğü ancak kanunla sınırlanabilir (md. 34).",
+      "Kişi hürriyeti ancak kanunda sayılan sebeplerle sınırlanır (md. 19)."
+    ],
+    "relatedTerms": [
+      "Orantılılık İlkesi",
+      "Özüne Dokunulmazlık İlkesi",
+      "Belirlilik İlkesi"
+    ],
+    "order": 30
+  },
+  {
+    "id": "ozune_dokunulmazlık_ilkesı",
+    "term": "Özüne Dokunulmazlık İlkesi",
+    "definition": "Temel hak ve özgürlüklerin sınırlanması hakların özüne dokunamaz, varlığını yok edemez. Anayasa md. 13 ve ilgili maddelerde korunur. KPSS'de hakların mutlak korunması sorusu için ezberlenmelidir.",
+    "examples": [
+      "Yaşama hakkı özüne dokunulamaz, sınırlanamaz (md. 17).",
+      "Konut dokunulmazlığı özüne dokunulamaz şekilde sınırlanamaz."
+    ],
+    "relatedTerms": [
+      "Kanunilik İlkesi",
+      "Orantılılık İlkesi",
+      "Mutlak Haklar"
+    ],
+    "order": 31
+  },
+  {
+    "id": "belirlilik_ilkesı",
+    "term": "Belirlilik İlkesi",
+    "definition": "Hak ve özgürlükleri sınırlayan kanun hükmünün açık, net ve öngörülebilir olması gerekir. Soyut ve muğlak ifadelerle sınırlama yapılamaz. KPSS'de Avrupa İnsan Hakları Sözleşmesi ile bağlantılı sorularda yer alır.",
+    "examples": [
+      "'Kamu düzeni' ifadesi somut kriterlerle belirlenmelidir.",
+      "Ceza kanunlarında suç ve ceza belirsiz olamaz (md. 38)."
+    ],
+    "relatedTerms": [
+      "Kanunilik İlkesi",
+      "Orantılılık İlkesi",
+      "Öngörülebilirlik İlkesi"
+    ],
+    "order": 32
+  },
+  {
+    "id": "demokratik_toplum_gerekleri",
+    "term": "Demokratik Toplum Düzeninin Gerekleri",
+    "definition": "Temel hakların sınırlanması demokratik toplum düzeninin ve laik cumhuriyetin gereklerine uygun olmalıdır. Anayasa md. 13'te yer alır, geniş yorumlanır. KPSS'de sınırlama nedenleri arasında en kapsayıcı kavramdır.",
+    "examples": [
+      "Özel hayatın gizliliği ulusal güvenlik gerekçesiyle sınırlanabilir.",
+      "Düşünce özgürlüğü nefret söylemiyle sınırlanabilir."
+    ],
+    "relatedTerms": [
+      "Kanunilik İlkesi",
+      "Orantılılık İlkesi",
+      "Özüne Dokunulmazlık İlkesi"
+    ],
+    "order": 33
+  },
+  {
+    "id": "secme_ve_secilme_hakki",
+    "term": "Seçme ve Seçilme Hakkı",
+    "definition": "Anayasa md. 67'ye göre vatandaşlar, kanunda öngörülen şartlara uygun olarak seçme, seçilme ve siyasi faaliyette bulunma hakkına sahiptir. Bu hak, demokratik toplumun temel unsurlarından olup yaş, ceza infazı gibi sınırlamalara tabidir.",
+    "examples": [
+      "18 yaşını doldurmamış bireyler seçme hakkından yoksundur.",
+      "Hükümlüler mahkeme kararıyla seçilme hakkını kaybedebilir."
+    ],
+    "relatedTerms": [
+      "Eşitlik İlkesi",
+      "Hukuk Devleti",
+      "Örgütlenme Özgürlüğü"
+    ],
+    "order": 34
+  },
+  {
+    "id": "kamu_hizmetine_girme_hakki",
+    "term": "Kamu Hizmetine Girme Hakkı",
+    "definition": "Anayasa md. 70'e göre her Türk, kamu hizmetine girme hakkına sahiptir. Bu hak, liyakat esas alınarak ve eşitlik ilkesi gözetilerek kullanılır.",
+    "examples": [
+      "KPSS puanıyla memuriyet başvurusu yapılabilir.",
+      "Siyasi partililer üst düzey görevlere açıktır."
+    ],
+    "relatedTerms": [
+      "Eşitlik İlkesi",
+      "Çalışma Hakkı",
+      "Hukuk Devleti"
+    ],
+    "order": 35
+  },
+  {
+    "id": "aile_hayati_hakki",
+    "term": "Aile Hayatı Hakkı",
+    "definition": "Anayasa md. 41'e göre aile, toplumun temelidir ve korunur. Devlet, ailenin huzur ve refahını sağlamakla yükümlüdür.",
+    "examples": [
+      "Aile birliği bozulmamak kaydıyla konut dokunulmazlığı geçerlidir.",
+      "Çocuk velayeti aile bütünlüğü gözetilerek belirlenir."
+    ],
+    "relatedTerms": [
+      "Konut Dokunulmazlığı",
+      "Kişi Dokunulmazlığı",
+      "Çocukların Korunması"
+    ],
+    "order": 36
+  },
+  {
+    "id": "cocuklarin_korunmasi_hakki",
+    "term": "Çocukların Korunması Hakkı",
+    "definition": "Anayasa md. 41'e göre çocuklar özel olarak korunur ve Devlet, her çocuğun esenliğini sağlamakla görevlidir. Bu hak, istismar ve ihmalden koruma içerir.",
+    "examples": [
+      "Çocuk işçiliği yasaktır.",
+      "Şiddet mağduru çocuklar koruma altına alınır."
+    ],
+    "relatedTerms": [
+      "Aile Hayatı Hakkı",
+      "Eğitim ve Öğrenim Hakkı",
+      "Kişilik Hakları"
+    ],
+    "order": 37
+  },
+  {
+    "id": "miras_hakki",
+    "term": "Miras Hakkı",
+    "definition": "Anayasa md. 35 ve Medeni Kanun'a göre mülkiyet hakkı kapsamında miras bırakma ve mirasçılık hakkı tanınır. Bu hak, irade beyanıyla sınırlanamaz.",
+    "examples": [
+      "Vasiyetname ile malvarlığı mirasçılara aktarılır.",
+      "Saklı paylar miras hukukunda korunur."
+    ],
+    "relatedTerms": [
+      "Mülkiyet Hakkı",
+      "Eşitlik İlkesi"
+    ],
+    "order": 38
+  },
+  {
+    "id": "adil_yargilanma_hakki",
+    "term": "Adil Yargılanma Hakkı",
+    "definition": "Anayasa md. 36'ya göre herkes, adil yargılanma hakkına sahiptir. Bu hak, makul sürede yargılama ve tarafsız mahkeme içerir.",
+    "examples": [
+      "Yargılama süresi uzarsa tazminat hakkı doğar.",
+      "Duruşmada avukat zorunludur."
+    ],
+    "relatedTerms": [
+      "Kişi Hürriyeti ve Güvenliği",
+      "Hukuk Devleti"
+    ],
+    "order": 39
+  },
+  {
+    "id": "masumiyet_karinesi",
+    "term": "Masumiyet Karinesi",
+    "definition": "Anayasa md. 38'e göre suçluluğu hükmen sabit oluncaya kadar kimse suçlu sayılamaz. Bu ilke, medya ve idareyi bağlar.",
+    "examples": [
+      "Tutuklu sanık suçlu ilan edilemez.",
+      "İdare, hüküm kesinleşmeden işlem yapamaz."
+    ],
+    "relatedTerms": [
+      "Adil Yargılanma Hakkı",
+      "Suç ve Cezaların Kanuniliği"
+    ],
+    "order": 40
+  },
+  {
+    "id": "suç_ve_cezalarin_kanuniligi",
+    "term": "Suç ve Cezaların Kanuniliği İlkesi",
+    "definition": "Anayasa md. 38'e göre suç ve ceza, kanunla tanımlanır; kanunsuz suç ve ceza olmaz. Bu ilke, keyfi cezalandırmayı önler.",
+    "examples": [
+      "Yeni kanun geriye yürümez.",
+      "Analojiyle ceza verilemez."
+    ],
+    "relatedTerms": [
+      "Geriye Yürümeme İlkesi",
+      "Hukuk Devleti"
+    ],
+    "order": 41
+  },
+  {
+    "id": "geriye_yurumeme_ilkes",
+    "term": "Geriye Yürümeme İlkesi",
+    "definition": "Anayasa md. 38'e göre ceza kanunları geriye yürümez, lehe haller hariç. Bu ilke, bireyi korur.",
+    "examples": [
+      "Yasak fiil sonrası af lehe uygulanır.",
+      "Ceza artırıcı kanun geriye yürümez."
+    ],
+    "relatedTerms": [
+      "Suç ve Cezaların Kanuniliği",
+      "Masumiyet Karinesi"
+    ],
+    "order": 42
+  },
+  {
+    "id": "savunma_hakki",
+    "term": "Savunma Hakkı",
+    "definition": "Anayasa md. 36'ya göre herkes savunma hakkına sahiptir. Bu hak, avukat yardımı ve delil toplama içerir.",
+    "examples": [
+      "Sessiz kalma hakkı tanınır.",
+      "Avukatın dosyaya erişimi engellenemez."
+    ],
+    "relatedTerms": [
+      "Adil Yargılanma Hakkı",
+      "Kişi Hürriyeti ve Güvenliği"
+    ],
+    "order": 43
+  },
+  {
+    "id": "saglik_hizmetleri_hakki",
+    "term": "Sağlık Hizmetleri Hakkı",
+    "definition": "Anayasa md. 56'ya göre herkes sağlıklı ve dengeli çevrede yaşama ile sağlık hizmetlerinden yararlanma hakkına sahiptir. Devlet, önleyici sağlık hizmetleri sağlar.",
+    "examples": [
+      "Ücretsiz sağlık hizmeti verilir.",
+      "Aşı zorunluluğu halk sağlığı için getirilebilir."
+    ],
+    "relatedTerms": [
+      "Çevre Hakkı",
+      "Sosyal Güvenlik Hakkı"
+    ],
+    "order": 44
+  },
+  {
+    "id": "sosyal_guvenlik_hakki",
+    "term": "Sosyal Güvenlik Hakkı",
+    "definition": "Anayasa md. 60'a göre herkes sosyal güvenlik hakkına sahiptir. Devlet, sosyal sigortaları düzenler.",
+    "examples": [
+      "Emeklilik sigortası zorunludur.",
+      "İşsizlik maaşı sosyal güvence sağlar."
+    ],
+    "relatedTerms": [
+      "Çalışma Hakkı",
+      "Sağlık Hizmetleri Hakkı"
+    ],
+    "order": 45
+  },
+  {
+    "id": "cevre_hakki",
+    "term": "Çevreyi Koruma Hakkı",
+    "definition": "Anayasa md. 56'ya göre herkes sağlıklı çevrede yaşama hakkına sahiptir. Devlet, çevreyi korur ve kirlenmeyi önler.",
+    "examples": [
+      "ÇED raporu zorunludur.",
+      "Orman yangınlarında çevre korunur."
+    ],
+    "relatedTerms": [
+      "Sağlık Hizmetleri Hakkı",
+      "Mülkiyet Hakkı"
+    ],
+    "order": 46
+  },
+  {
+    "id": "tuketici_koruma_hakki",
+    "term": "Tüketiciyi Koruma Hakkı",
+    "definition": "Anayasa md. 172'ye göre tüketici hakları korunur. Devlet, tüketiciyi ekonomik sömürüden korur.",
+    "examples": [
+      "Ayıplı malda iade hakkı vardır.",
+      "Reklamlarda yanıltma yasaktır."
+    ],
+    "relatedTerms": [
+      "Mülkiyet Hakkı",
+      "Eşitlik İlkesi"
+    ],
+    "order": 47
+  },
+  {
+    "id": "bilim_ve_sanat_ozgurlugu",
+    "term": "Bilim ve Sanat Özgürlüğü",
+    "definition": "Anayasa md. 27'ye göre bilim ve sanat özgürdür. Devlet, araştırmayı destekler.",
+    "examples": [
+      "Üniversiteler özerktir.",
+      "Sanat eserleri sansürlenemez."
+    ],
+    "relatedTerms": [
+      "Düşünce Özgürlüğü",
+      "Eğitim ve Öğrenim Hakkı"
+    ],
+    "order": 48
+  },
+  {
+    "id": "basin_ozgurlugu",
+    "term": "Basın Özgürlüğü",
+    "definition": "Anayasa md. 28'de düzenlenen, basın ve yayın organlarının kurulması, gazetecilik faaliyetleri ve sansür yasağını içeren temel haktır. Sınırlandırılması ancak kanunla ve demokratik toplum düzeninin gereklerine uygun olarak yapılabilir. KPSS'de sansür yasağı ve ön inceleme sıkça sorulur.",
+    "examples": [
+      "Sansür Anayasa ile yasaklanmıştır.",
+      "Basın yoluyla gizli haber alma yöntemi anayasal değildir.",
+      "Yayınların toplatılması ancak mahkeme kararıyla mümkündür."
+    ],
+    "relatedTerms": [
+      "İfade Özgürlüğü",
+      "Düşünce Özgürlüğü",
+      "Temel Hakların Sınırlandırılması"
+    ],
+    "order": 49
+  },
+  {
+    "id": "hak_arama_ozgurlugu",
+    "term": "Hak Arama Özgürlüğü",
+    "definition": "Herkes, meşru vasıta ve yollardan faydalanmak suretiyle yargı mercileri önünde davacı veya davalı olarak iddia, savunma ve itiraz haklarını kullanabilir. Bu hak, devletin yargısal mekanizmalarına erişimi güvence altına alır.",
+    "examples": [
+      "Bir vatandaşın vergi dairesine karşı dava açması.",
+      "Bir şirketin ticari alacakları için icra takibi başlatması.",
+      "Bir öğrencinin üniversite yönetimine itiraz dilekçesi vermesi."
+    ],
+    "relatedTerms": [
+      "Adil Yargılanma Hakkı",
+      "Hukuk Devleti",
+      "Hak Arama Özgürlüğü"
+    ],
+    "order": 50
+  },
+  {
+    "id": "yukumluluk_ve_sorumluluklar",
+    "term": "Yükümlülük ve Sorumluluklar",
+    "definition": "Temel hak ve özgürlüklerin kullanılmasının yanında, bireylerin devlete ve topluma karşı yerine getirmesi gereken ödevleri ve sorumlulukları bulunur. Bu yükümlülükler, hakların dengeli ve adil bir şekilde kullanılmasını sağlar.",
+    "examples": [
+      "Vergi ödeme yükümlülüğü.",
+      "Askerlik görevi.",
+      "Kanunlara uyma zorunluluğu."
+    ],
+    "relatedTerms": [
+      "Toplumsal Düzen",
+      "Kamu Hizmeti",
+      "Vatandaşlık Görevleri"
+    ],
+    "order": 51
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_nedenleri",
+    "term": "Özgürlüklerin Sınırlandırılması Nedenleri",
+    "definition": "Temel hak ve özgürlükler, anayasada belirtilen sebeplere (milli güvenlik, kamu düzeni, suç işlenmesini önleme, kamu sağlığı ve ahlakı, başkalarının hak ve özgürlüklerinin korunması) bağlı olarak ve kanunla sınırlanabilir. Sınırlandırmalar orantılı olmalı ve hakların özüne dokunmamalıdır.",
+    "examples": [
+      "Milli güvenlik nedeniyle belirli bölgelere seyahat kısıtlaması.",
+      "Kamu sağlığı için zorunlu aşı uygulaması.",
+      "Suç işlenmesini önlemek amacıyla belirli yerlerde gösteri yasağı."
+    ],
+    "relatedTerms": [
+      "Temel Hakların Sınırlandırılması",
+      "Orantılılık İlkesi",
+      "Demokratik Toplum Düzeninin Gerekleri"
+    ],
+    "order": 52
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_kosullari",
+    "term": "Özgürlüklerin Sınırlandırılması Koşulları",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılması, yalnızca kanunla yapılabilir. Bu sınırlamalar, meşru bir amaca dayanmalı, gerekli ve orantılı olmalı, hakların özüne dokunmamalı ve bu sınırlamalarla ulaşılmak istenen amaç arasında bir denge kurulmalıdır.",
+    "examples": [
+      "Sokağa çıkma yasağının sadece kanunla ve belirli gerekçelerle konulabilmesi.",
+      "İfade özgürlüğünün, nefret söylemi gibi yasal suçları kapsamayacak şekilde sınırlandırılması.",
+      "Toplantı ve gösteri özgürlüğünün, kamu güvenliğini tehlikeye atmayacak şekilde düzenlenmesi."
+    ],
+    "relatedTerms": [
+      "Kanunilik İlkesi",
+      "Orantılılık İlkesi",
+      "Hakların Özüne Dokunulmazlık"
+    ],
+    "order": 53
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_sinirlari",
+    "term": "Özgürlüklerin Sınırlandırılması Sınırları",
+    "definition": "Temel hak ve özgürlükler, anayasada güvence altına alınmış olup, bu hakların özüne dokunulamaz. Sınırlandırmalar, bu hakların varlığını ortadan kaldıracak nitelikte olmamalıdır. Örneğin, işkence yasağı mutlak bir haktır ve hiçbir koşulda sınırlandırılamaz.",
+    "examples": [
+      "İşkence ve kötü muamele yasağının hiçbir koşulda kaldırılamaması.",
+      "Din ve vicdan hürriyetinin temelini oluşturan inanç özgürlüğünün kısıtlanamaması.",
+      "Haberleşme hürriyetinin gizliliğinin ortadan kaldırılamayacak şekilde korunması."
+    ],
+    "relatedTerms": [
+      "Mutlak Haklar",
+      "Özgürlüklerin Sınırlandırılması",
+      "Hakların Özüne Dokunulmazlık"
+    ],
+    "order": 54
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_amaclari",
+    "term": "Özgürlüklerin Sınırlandırılması Amaçları",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılması, milli güvenlik, kamu düzeni, suç işlenmesini önleme, kamu sağlığı ve ahlakı gibi meşru amaçlara hizmet etmelidir. Bu amaçlar, demokratik toplum düzeninin korunması için gereklidir.",
+    "examples": [
+      "Kamu sağlığını korumak amacıyla salgın hastalık döneminde sokağa çıkma kısıtlamaları.",
+      "Kamu düzenini sağlamak için belirli alanlarda gösteri yasağı.",
+      "Suç işlenmesini önlemek amacıyla güvenlik tedbirleri."
+    ],
+    "relatedTerms": [
+      "Milli Güvenlik",
+      "Kamu Düzeni",
+      "Demokratik Toplum Düzeninin Gerekleri"
+    ],
+    "order": 55
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_yollari",
+    "term": "Özgürlüklerin Sınırlandırılması Yolları",
+    "definition": "Temel hak ve özgürlükler, yalnızca kanunla sınırlanabilir. Bu, sınırlamaların keyfi olmasını engelleyen bir güvencedir. Anayasa, sınırlama nedenlerini ve koşullarını belirlerken, kanun ise bu sınırların nasıl uygulanacağını detaylandırır.",
+    "examples": [
+      "OHAL ilanının kanuni düzenlemelere tabi olması.",
+      "Toplantı ve gösteri yürüyüşleri kanunu ile gösteri hakkının düzenlenmesi.",
+      "Basın kanunu ile basın özgürlüğünün sınırlarının belirlenmesi."
+    ],
+    "relatedTerms": [
+      "Kanunilik İlkesi",
+      "Temel Hakların Sınırlandırılması",
+      "Belirlilik İlkesi"
+    ],
+    "order": 56
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_yok_edilemezligi",
+    "term": "Özgürlüklerin Sınırlandırılması Yok Edilemezliği",
+    "definition": "Temel hak ve özgürlüklerin hiçbir şekilde özüne dokunulamaz. Bu, sınırlamaların hakların varlığını ortadan kaldırmayacağı anlamına gelir. Örneğin, işkence yasağı gibi mutlak haklar hiçbir şekilde sınırlandırılamaz.",
+    "examples": [
+      "İşkence ve zalimane, insanlık dışı veya onur kırıcı muamele yasağının hiçbir koşulda kaldırılamaması.",
+      "Din ve vicdan özgürlüğünün temelini oluşturan inanç özgürlüğünün kısıtlanamaması.",
+      "Masumiyet karinesinin ortadan kaldırılamaması."
+    ],
+    "relatedTerms": [
+      "Mutlak Haklar",
+      "Hakların Özüne Dokunulmazlık",
+      "İşkence Yasağı"
+    ],
+    "order": 57
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_hak_ve_ozgurluklerin_korunmasi",
+    "term": "Özgürlüklerin Sınırlandırılmasında Hak ve Özgürlüklerin Korunması",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılmasının bir amacı da, başkalarının hak ve özgürlüklerinin korunmasıdır. Bir kişinin hak ve özgürlüğünü kullanması, diğerlerinin haklarını ihlal etmemelidir.",
+    "examples": [
+      "İfade özgürlüğünün, nefret söylemi veya hakaret içermeyecek şekilde sınırlandırılması.",
+      "Toplantı ve gösteri hakkının, kamu güvenliğini veya başkalarının mülkiyet hakkını ihlal etmeyecek şekilde düzenlenmesi.",
+      "Çalışma hakkının, iş sağlığı ve güvenliği kurallarına uyularak kullanılması."
+    ],
+    "relatedTerms": [
+      "İfade Özgürlüğü",
+      "Toplantı ve Gösteri Yürüyüşü Hakkı",
+      "Mülkiyet Hakkı"
+    ],
+    "order": 58
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_kamu_sagligi_ve_ahlaki",
+    "term": "Özgürlüklerin Sınırlandırılmasında Kamu Sağlığı ve Ahlakı",
+    "definition": "Temel hak ve özgürlükler, kamu sağlığını ve ahlakını korumak amacıyla kanunla sınırlanabilir. Bu sınırlamalar, toplumun genel refahını ve sağlığını güvence altına almayı hedefler.",
+    "examples": [
+      "Tütün ürünlerinin kullanımının kamu alanlarında yasaklanması.",
+      "Uyuşturucu madde kullanımının engellenmesi için yasal düzenlemeler.",
+      "Çocukların zararlı içeriklerden korunması için yayın denetimi."
+    ],
+    "relatedTerms": [
+      "Kamu Sağlığı",
+      "Kamu Ahlakı",
+      "Temel Hakların Sınırlandırılması"
+    ],
+    "order": 59
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_milli_guvenlik_ve_kamu_duzeni",
+    "term": "Özgürlüklerin Sınırlandırılmasında Milli Güvenlik ve Kamu Düzeni",
+    "definition": "Milli güvenlik ve kamu düzeninin sağlanması, temel hak ve özgürlüklerin sınırlandırılmasının en önemli gerekçelerindendir. Bu sınırlamalar, devletin varlığını ve toplumun huzurunu korumayı amaçlar.",
+    "examples": [
+      "Terörle mücadele kapsamında alınan önlemler.",
+      "Sınır güvenliğinin sağlanması için seyahat kısıtlamaları.",
+      "Toplumsal olayların önlenmesi için güvenlik güçlerinin yetkileri."
+    ],
+    "relatedTerms": [
+      "Milli Güvenlik",
+      "Kamu Düzeni",
+      "Hukuk Devleti"
+    ],
+    "order": 60
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_orantililik_ilkesi",
+    "term": "Özgürlüklerin Sınırlandırılmasında Orantılılık İlkesi",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılmasında orantılılık ilkesi esastır. Sınırlama ile ulaşılmak istenen amaç arasında makul bir denge bulunmalı, amaç için gerekli olandan daha fazlası yapılamamalıdır.",
+    "examples": [
+      "Bir suçun önlenmesi için alınan tedbirin, suçun ağırlığıyla orantılı olması.",
+      "Seyahat özgürlüğünün kısıtlanmasının, tehdidin boyutuna göre belirlenmesi.",
+      "İfade özgürlüğünün sınırlanmasının, zararın büyüklüğüyle orantılı olması."
+    ],
+    "relatedTerms": [
+      "Orantılılık İlkesi",
+      "Temel Hakların Sınırlandırılması",
+      "Demokratik Toplum Düzeninin Gerekleri"
+    ],
+    "order": 61
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_kanunilik_ilkesi",
+    "term": "Özgürlüklerin Sınırlandırılmasında Kanunilik İlkesi",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılması, yalnızca kanunla yapılabilir. Bu ilke, sınırlamaların keyfi ve rastgele olmasını engeller, bireylere öngörülebilirlik sağlar.",
+    "examples": [
+      "Sokağa çıkma yasağının sadece kanunla getirilebilmesi.",
+      "Toplantı ve gösteri hakkının kanunla düzenlenmesi.",
+      "Basın özgürlüğünün kanunlarla sınırlandırılması."
+    ],
+    "relatedTerms": [
+      "Kanunilik İlkesi",
+      "Temel Hakların Sınırlandırılması",
+      "Belirlilik İlkesi"
+    ],
+    "order": 62
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_haklarin_ozune_dokunulmazlik",
+    "term": "Özgürlüklerin Sınırlandırılmasında Hakların Özüne Dokunulmazlık",
+    "definition": "Temel hak ve özgürlüklerin özüne dokunulamaz. Bu, sınırlamaların hakların varlığını ortadan kaldırmayacağı anlamına gelir. Örneğin, işkence yasağı gibi mutlak haklar hiçbir şekilde sınırlandırılamaz.",
+    "examples": [
+      "İşkence ve kötü muamele yasağının hiçbir koşulda kaldırılamaması.",
+      "Din ve vicdan hürriyetinin temelini oluşturan inanç özgürlüğünün kısıtlanamaması.",
+      "Masumiyet karinesinin ortadan kaldırılamaması."
+    ],
+    "relatedTerms": [
+      "Mutlak Haklar",
+      "Hakların Özüne Dokunulmazlık",
+      "İşkence Yasağı"
+    ],
+    "order": 63
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_belirlilik_ilkesi",
+    "term": "Özgürlüklerin Sınırlandırılmasında Belirlilik İlkesi",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılmasına ilişkin kanunların açık, anlaşılır ve öngörülebilir olması gerekir. Bireyler, hangi eylemlerin yasak olduğunu ve bu yasakların hangi koşullarda uygulanacağını bilmelidir.",
+    "examples": [
+      "Ceza kanunlarındaki suç tanımlarının net olması.",
+      "Toplantı ve gösteri yürüyüşleri kanunundaki izin ve yasakların açıkça belirtilmesi.",
+      "Vergi kanunlarındaki yükümlülüklerin anlaşılır olması."
+    ],
+    "relatedTerms": [
+      "Belirlilik İlkesi",
+      "Kanunilik İlkesi",
+      "Hukuk Devleti"
+    ],
+    "order": 64
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_demokratik_toplum_gerekleri",
+    "term": "Özgürlüklerin Sınırlandırılmasında Demokratik Toplum Gerekleri",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılması, demokratik bir toplumda zorunlu görülen nedenlere dayanmalıdır. Bu nedenler, milli güvenlik, kamu güvenliği, kamu düzeni, kamu sağlığı veya ahlakı gibi değerlerin korunmasını içerir.",
+    "examples": [
+      "Nefret söylemi veya ayrımcılık içeren ifadelerin yasaklanması.",
+      "Kamu sağlığını tehdit eden eylemlerin önlenmesi.",
+      "Toplumsal barışı bozacak nitelikteki gösterilerin sınırlandırılması."
+    ],
+    "relatedTerms": [
+      "Demokratik Toplum Düzeninin Gerekleri",
+      "Temel Hakların Sınırlandırılması",
+      "Kamu Düzeni"
+    ],
+    "order": 65
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_hak_ve_ozgurluklerin_kullanimi",
+    "term": "Özgürlüklerin Sınırlandırılmasında Hak ve Özgürlüklerin Kullanımı",
+    "definition": "Temel hak ve özgürlükler, başkalarının hak ve özgürlüklerini ihlal etmeyecek şekilde kullanılmalıdır. Bir kişinin hak ve özgürlüğünü kullanması, diğerlerinin haklarını tehlikeye atmamalıdır.",
+    "examples": [
+      "İfade özgürlüğünün, hakaret veya iftira içermeyecek şekilde kullanılması.",
+      "Mülkiyet hakkının, başkalarının yaşam alanlarına tecavüz etmeyecek şekilde kullanılması.",
+      "Toplantı ve gösteri hakkının, kamu malına zarar vermeyecek şekilde kullanılması."
+    ],
+    "relatedTerms": [
+      "İfade Özgürlüğü",
+      "Mülkiyet Hakkı",
+      "Toplantı ve Gösteri Yürüyüşü Hakkı"
+    ],
+    "order": 66
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_hukuki_denetim",
+    "term": "Özgürlüklerin Sınırlandırılmasında Hukuki Denetim",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılmasına ilişkin kanunlar ve idari işlemler, yargı denetimine tabidir. Mahkemeler, bu sınırlamaların anayasaya ve kanunlara uygunluğunu denetler.",
+    "examples": [
+      "Bir kişinin idari bir kararla seyahat özgürlüğünün kısıtlanmasına karşı dava açması.",
+      "Bir derneğin kapatılmasına ilişkin idari işlemin iptali davası.",
+      "Bir gazeteye uygulanan sansürün mahkemece incelenmesi."
+    ],
+    "relatedTerms": [
+      "Hukuk Devleti",
+      "Adil Yargılanma Hakkı",
+      "Temel Hakların Sınırlandırılması"
+    ],
+    "order": 67
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_yasak_olmayan_haklar",
+    "term": "Özgürlüklerin Sınırlandırılmasında Yasak Olmayan Haklar",
+    "definition": "Anayasada güvence altına alınan bazı temel hak ve özgürlükler, hiçbir koşulda ve hiçbir gerekçeyle sınırlandırılamaz veya kaldırılamaz. Bunlar, hakların özüne dokunulmazlık ilkesinin en önemli örnekleridir.",
+    "examples": [
+      "İşkence ve zalimane, insanlık dışı veya onur kırıcı muamele yasağı.",
+      "Suç ve cezaların kanuniliği ilkesi.",
+      "Masumiyet karinesi."
+    ],
+    "relatedTerms": [
+      "Mutlak Haklar",
+      "Hakların Özüne Dokunulmazlık",
+      "İşkence Yasağı"
+    ],
+    "order": 68
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi_idari_tedbirler",
+    "term": "Özgürlüklerin Sınırlandırılmasında İdari Tedbirler",
+    "definition": "Bazı durumlarda, kamu düzenini veya güvenliğini sağlamak amacıyla idari makamlar tarafından temel hak ve özgürlüklere yönelik geçici ve sınırlı tedbirler alınabilir. Bu tedbirler, kanuni düzenlemelere uygun olmalı ve yargı denetimine tabi tutulmalıdır.",
+    "examples": [
+      "Bir bölgede güvenlik gerekçesiyle geçici olarak sokağa çıkma yasağı ilan edilmesi.",
+      "Kamu sağlığını tehdit eden bir durumda karantina uygulaması.",
+      "Toplu etkinliklerde güvenlik önlemleri kapsamında kimlik kontrolü yapılması."
+    ],
+    "relatedTerms": [
+      "Kamu Düzeni",
+      "Milli Güvenlik",
+      "Temel Hakların Sınırlandırılması"
+    ],
+    "order": 69
+  },
+  {
+    "id": "hukukun_ustunlugu",
+    "term": "Hukukun Üstünlüğü",
+    "definition": "Yasaların herkese eşit uygulanması ve devletin de hukuka bağlı olması ilkesidir. Hiç kimse hukukun üzerinde değildir ve tüm işlemler hukuka uygun olmalıdır. Bu ilke, temel hak ve özgürlüklerin güvencesidir.",
+    "examples": [
+      "Bir bakanın da sıradan bir vatandaş gibi mahkemeye çıkarılması",
+      "Yasaların anayasaya uygunluğunun denetlenmesi",
+      "İdari işlemlerin yargı denetimine tabi olması"
+    ],
+    "relatedTerms": [
+      "Kanunilik İlkesi",
+      "Hukuk Devleti",
+      "Yargı Bağımsızlığı"
+    ],
+    "order": 70
+  },
+  {
+    "id": "din_ve_vicdan_ozgurlugu",
+    "term": "Din ve Vicdan Özgürlüğü",
+    "definition": "Herkesin istediği dini seçme, inanma, ibadet etme ve inancını yayma özgürlüğüdür. Ayrıca kimsenin din ve vicdan özgürlüğüne zorlanamaması anlamına gelir. Bu özgürlük, kamu düzeni, kamu güvenliği ve başkalarının hak ve özgürlükleri ile sınırlanabilir.",
+    "examples": [
+      "Farklı dinlere mensup insanların barış içinde yaşaması",
+      "Dini inançları nedeniyle kimsenin ayrımcılığa uğramaması",
+      "İbadet yerlerinin korunması"
+    ],
+    "relatedTerms": [
+      "Vicdan Özgürlüğü",
+      "İnanç Özgürlüğü",
+      "Dini Özgürlükler",
+      "Laiklik"
+    ],
+    "order": 71
+  },
+  {
+    "id": "toplanma_ve_gosteri_hakki",
+    "term": "Toplanma ve Gösteri Hakkı",
+    "definition": "İnsanların barışçıl amaçlarla bir araya gelerek düşüncelerini ifade etme ve kamuoyu oluşturma hakkıdır. Bu hak, önceden bildirim şartına bağlı olabilir ve kamu düzenini bozmayacak şekilde kullanılmalıdır. Yürüyüşler, mitingler ve oturma eylemleri bu kapsamdadır.",
+    "examples": [
+      "Sendikaların grev ve yürüyüş yapması",
+      "Öğrencilerin eğitim politikalarını protesto etmesi",
+      "Çevresel konularda farkındalık yaratmak için yapılan etkinlikler"
+    ],
+    "relatedTerms": [
+      "Toplanma Özgürlüğü",
+      "Dernek Kurma Özgürlüğü",
+      "Kamu Düzeni",
+      "Barışçıl Gösteri"
+    ],
+    "order": 72
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasi",
+    "term": "Özgürlüklerin Sınırlandırılması",
+    "definition": "Temel hak ve özgürlüklerin, kanunla ve belirli amaçlar doğrultusunda kısıtlanabilmesi durumudur. Bu kısıtlamalar, demokratik toplum düzeninin gerekleri, kamu sağlığı, kamu güvenliği ve başkalarının haklarını korumak amacıyla yapılabilir. Sınırlandırmada orantılılık ve hakların özüne dokunulmazlık ilkeleri gözetilmelidir.",
+    "examples": [
+      "Sokağa çıkma yasakları",
+      "Toplantı ve gösteri yürüyüşlerinin belirli saatlerde ve yerlerde yapılmasına izin verilmesi",
+      "Haberleşme özgürlüğünün terörle mücadele kapsamında sınırlanması"
+    ],
+    "relatedTerms": [
+      "Orantılılık İlkesi",
+      "Kanunilik İlkesi",
+      "Demokratik Toplum Düzeninin Gerekleri",
+      "Milli Güvenlik"
+    ],
+    "order": 73
+  },
+  {
+    "id": "mali_mulkiyet_hakki",
+    "term": "Mali Mülkiyet Hakkı",
+    "definition": "Kişilerin mal edinme, kullanma, tasarruf etme ve miras bırakma hakkıdır. Bu hak, kamu yararı amacıyla ve kanunda belirtilen usullere göre sınırlanabilir veya kamulaştırılabilir. Mülkiyet hakkının güvencesi, ekonomik özgürlüklerin temelini oluşturur.",
+    "examples": [
+      "Ev ve arsa sahibi olmak",
+      "Şirket kurarak ticari faaliyetlerde bulunmak",
+      "Eser sahipliğinden doğan telif hakları"
+    ],
+    "relatedTerms": [
+      "Miras Hakkı",
+      "Kamulaştırma",
+      "Tazminat Hakkı",
+      "Ekonomik Özgürlükler"
+    ],
+    "order": 74
+  },
+  {
+    "id": "cogulculuk_ilkesi",
+    "term": "Çoğulculuk İlkesi",
+    "definition": "Toplumdaki farklı görüş, inanç, yaşam tarzı ve siyasi düşüncelerin bir arada barış içinde var olabilmesi ve temsil edilebilmesi ilkesidir. Devletin, tüm vatandaşların hak ve özgürlüklerini güvence altına alırken farklılıkları da tanıması anlamına gelir. Siyasi partilerin varlığı ve ifade özgürlüğü bu ilkenin yansımasıdır.",
+    "examples": [
+      "Farklı siyasi partilerin mecliste temsil edilmesi",
+      "Azınlıkların kültürel haklarının korunması",
+      "Medyanın farklı görüşlere yer vermesi"
+    ],
+    "relatedTerms": [
+      "Demokratik Toplum Düzeninin Gerekleri",
+      "Laiklik",
+      "İfade Özgürlüğü",
+      "Siyasi Katılım"
+    ],
+    "order": 75
+  },
+  {
+    "id": "haklarin_sinirlandirilmasi_kosullari",
+    "term": "Hakların Sınırlandırılması Koşulları",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılabilmesi için gereken şartlardır. Bu şartlar arasında kanunilik, meşru amaç, gereklilik ve orantılılık ilkeleri yer alır. Sınırlandırmalar, demokratik bir toplumda zorunlu olmalı ve hakların özüne dokunmamalıdır.",
+    "examples": [
+      "Terörle mücadele kapsamında olağanüstü hal ilan edilmesi",
+      "Halk sağlığını tehdit eden durumlarda karantina uygulanması",
+      "Kamu düzenini bozan gösterilerin yasaklanması"
+    ],
+    "relatedTerms": [
+      "Özgürlüklerin Sınırlandırılması",
+      "Kanunilik İlkesi",
+      "Orantılılık İlkesi",
+      "Demokratik Toplum Düzeninin Gerekleri"
+    ],
+    "order": 76
+  },
+  {
+    "id": "ozel_yasam_gizliligi",
+    "term": "Özel Yaşamın Gizliliği",
+    "definition": "Bireylerin aile yaşamına, konutuna, haberleşmesine ve kişisel bilgilerine keyfi müdahale olmaksızın saygı gösterilmesi hakkıdır. Bu hak, devletin ve üçüncü kişilerin özel hayata müdahalesini engeller. Ancak, suç soruşturması gibi durumlarda kanuni istisnaları olabilir.",
+    "examples": [
+      "Telefon konuşmalarının izinsiz dinlenememesi",
+      "Konut dokunulmazlığının ihlal edilememesi",
+      "Kişisel sağlık bilgilerinin gizli tutulması"
+    ],
+    "relatedTerms": [
+      "Kişilik Hakları",
+      "Konut Dokunulmazlığı",
+      "Haberleşme Özgürlüğü",
+      "Veri Gizliliği"
+    ],
+    "order": 77
+  },
+  {
+    "id": "seyahat_ozgurlugu",
+    "term": "Seyahat Özgürlüğü",
+    "definition": "Vatandaşların yurt içinde ve yurt dışında serbestçe seyahat etme, yerleşme ve seçme hakkıdır. Bu özgürlük, kamu sağlığı, kamu düzeni, suç işlenmesini önleme gibi nedenlerle kanunla sınırlanabilir. Vize uygulamaları ve pasaport zorunluluğu bu sınırlamalara örnektir.",
+    "examples": [
+      "Yurt dışına tatile gitme",
+      "Ülke içinde istediği şehirde yaşama",
+      "İş veya eğitim nedeniyle farklı ülkelere göç etme"
+    ],
+    "relatedTerms": [
+      "Yerleşme Hürriyeti",
+      "Vatandaşlık Bağı",
+      "Sınır Güvenliği",
+      "Uluslararası Hukuk"
+    ],
+    "order": 78
+  },
+  {
+    "id": "hukuki_denetim",
+    "term": "Hukuki Denetim",
+    "definition": "Devletin tüm organlarının ve işlemlerinin hukuka uygunluğunun yargı mercileri tarafından denetlenmesi sürecidir. Bu denetim, idari işlemlerin iptali, idari para cezalarının kaldırılması ve kanunların anayasaya uygunluğunun denetlenmesi gibi çeşitli biçimlerde olabilir. Hukukun üstünlüğünün sağlanmasında temel bir araçtır.",
+    "examples": [
+      "İdari Mahkemelerde idari işlemlerin iptali davaları",
+      "Anayasa Mahkemesi'nin kanunların anayasaya uygunluğunu denetlemesi",
+      "Yargıtay'ın yerel mahkeme kararlarını bozması veya onaması"
+    ],
+    "relatedTerms": [
+      "Yargı Denetimi",
+      "Hukukun Üstünlüğü",
+      "İdari Yargı",
+      "Anayasa Yargısı"
+    ],
+    "order": 79
+  },
+  {
+    "id": "haklarin_kullanimi",
+    "term": "Hakların Kullanımı",
+    "definition": "Bireylerin sahip oldukları temel hak ve özgürlükleri kendi iradeleriyle ve yasal sınırlar çerçevesinde kullanmalarıdır. Bu kullanım, başkalarının haklarına zarar vermeden ve kamu düzenini bozmadan gerçekleştirilmelidir. Hakların kötüye kullanılması ise hukuki sorumluluk doğurur.",
+    "examples": [
+      "Seçme ve seçilme hakkını kullanarak oy kullanmak",
+      "İfade özgürlüğünü kullanarak barışçıl protesto yapmak",
+      "Mali mülkiyet hakkını kullanarak yatırım yapmak"
+    ],
+    "relatedTerms": [
+      "Hakların Sınırlandırılması",
+      "Yükümlülük ve Sorumluluklar",
+      "Hukuki Sorumluluk",
+      "Özgürlüklerin Sınırlandırılması Sınırları"
+    ],
+    "order": 80
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasinda_haklarin_ozune_dokunulmazligi",
+    "term": "Özgürlüklerin Sınırlandırılmasında Hakların Özüne Dokunulmazlığı",
+    "definition": "Temel hak ve özgürlüklerin, özünü oluşturan çekirdek unsurlarının hiçbir şekilde sınırlandırılamayacağını belirten ilkedir. Sınırlandırmalar, hakkın kullanılmasını zorlaştırsa da, hakkın varlığını ortadan kaldırmamalıdır. Örneğin, işkence yasağı mutlak bir haktır.",
+    "examples": [
+      "İnsan onuruna aykırı muamele yasağının mutlaklığı",
+      "Yaşam hakkının keyfi olarak sonlandırılamaması",
+      "Masumiyet karinesinin temel güvencesinin kaldırılmaması"
+    ],
+    "relatedTerms": [
+      "Özüne Dokunulmazlık İlkesi",
+      "Temel Hak ve Özgürlükler",
+      "Hukukun Üstünlüğü"
+    ],
+    "order": 81
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasinda_yok_edilemezlik",
+    "term": "Özgürlüklerin Sınırlandırılmasında Yok Edilemezlik",
+    "definition": "Temel hak ve özgürlüklerin, sınırlandırma adı altında tamamen ortadan kaldırılamayacağını ifade eder. Sınırlandırmalar, hakların kullanılmasını zorlaştırabilir ancak hakların varlığını ve özünü yok etmemelidir. Haklar, birer güvence olarak varlığını sürdürmelidir.",
+    "examples": [
+      "Sıkıyönetim durumunda bile temel insan haklarının korunması",
+      "Savaş hallerinde bile işkence yasağının devam etmesi",
+      "Olağanüstü durumlarda bile adil yargılanma hakkının güvencelerinin sürdürülmesi"
+    ],
+    "relatedTerms": [
+      "Özgürlüklerin Sınırlandırılması",
+      "Temel Hak ve Özgürlükler",
+      "Özüne Dokunulmazlık İlkesi"
+    ],
+    "order": 82
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasinda_haklarin_sinirlandirilmasi_kosullari",
+    "term": "Özgürlüklerin Sınırlandırılmasında Hakların Sınırlandırılması Koşulları",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılabilmesi için Anayasa ve uluslararası hukukta belirtilen şartların yerine gelmesi gerekliliğidir. Bu koşullar arasında kanunilik, meşru amaç, gereklilik ve orantılılık ilkeleri yer alır. Bu koşullar sağlanmadan yapılan sınırlamalar hukuka aykırıdır.",
+    "examples": [
+      "Milli güvenlik gibi meşru bir amaç olmalı",
+      "Sınırlandırma ancak kanunla yapılmalı",
+      "Uygulanan tedbir, amaca ulaşmak için gerekli ve orantılı olmalı"
+    ],
+    "relatedTerms": [
+      "Özgürlüklerin Sınırlandırılması Koşulları",
+      "Kanunilik İlkesi",
+      "Orantılılık İlkesi"
+    ],
+    "order": 83
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasinda_haklarin_sinirlandirilmasi_amaclari",
+    "term": "Özgürlüklerin Sınırlandırılmasında Hakların Sınırlandırılması Amaçları",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılmasının hangi meşru amaçlarla yapılabileceğini belirten ilkedir. Bu amaçlar genellikle milli güvenlik, kamu düzeni, kamu sağlığı, genel ahlak ve başkalarının hak ve özgürlüklerinin korunması gibi nedenleri içerir. Sınırlandırmalar, belirtilen amaçlar dışında yapılamaz.",
+    "examples": [
+      "Kamu sağlığının korunması (örneğin salgın hastalıklar)",
+      "Milli güvenliğin sağlanması (örneğin terörle mücadele)",
+      "Başkalarının hak ve özgürlüklerinin korunması (örneğin özel yaşamın gizliliği)"
+    ],
+    "relatedTerms": [
+      "Özgürlüklerin Sınırlandırılması Amaçları",
+      "Meşru Amaç",
+      "Demokratik Toplum Düzeninin Gerekleri"
+    ],
+    "order": 84
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasinda_haklarin_sinirlandirilmasi_sinirlari",
+    "term": "Özgürlüklerin Sınırlandırılmasında Hakların Sınırlandırılması Sınırları",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılmasının ne kadar ileri gidebileceğini belirleyen ölçütlerdir. Bu sınırlar, hakların özüne dokunulmazlık, kanunilik, gereklilik ve orantılılık ilkeleriyle çizilir. Sınırlandırmalar, hakkın varlığını ortadan kaldırmamalı ve amacı aşmamalıdır.",
+    "examples": [
+      "İfade özgürlüğünün nefret söylemiyle sınırlanması, ancak düşünceyi açıklama hakkının yok edilmemesi",
+      "Toplanma özgürlüğünün belirli alan ve zamanlarla kısıtlanması, ancak tamamen yasaklanmaması",
+      "Mali mülkiyet hakkının kamu yararı için sınırlandırılması, ancak el konulmasının adil tazminatla gerçekleşmesi"
+    ],
+    "relatedTerms": [
+      "Özgürlüklerin Sınırlandırılması Sınırları",
+      "Özüne Dokunulmazlık İlkesi",
+      "Orantılılık İlkesi"
+    ],
+    "order": 85
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasinda_haklarin_sinirlandirilmasi_yollari",
+    "term": "Özgürlüklerin Sınırlandırılmasında Hakların Sınırlandırılması Yolları",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılmasında başvurulan hukuki ve idari yöntemleri ifade eder. Bu yollar arasında kanun çıkarma, olağanüstü hal ilan etme, idari kararlar alma gibi çeşitli araçlar bulunur. Kullanılan yolun, hukuka uygunluk, gereklilik ve orantılılık ilkelerine uygun olması esastır.",
+    "examples": [
+      "TBMM tarafından çıkarılan kanunlar",
+      "Cumhurbaşkanlığı Kararnameleri (olağanüstü hal dönemlerinde)",
+      "Valiliklerin aldığı idari kararlar (örneğin belirli bölgelerde sokağa çıkma yasağı)"
+    ],
+    "relatedTerms": [
+      "Kanunilik İlkesi",
+      "İdari Tedbirler",
+      "Olağanüstü Hal"
+    ],
+    "order": 86
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasinda_haklarin_sinirlandirilmasi_nedenleri",
+    "term": "Özgürlüklerin Sınırlandırılmasında Hakların Sınırlandırılması Nedenleri",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılmasının dayanaklarını oluşturan meşru gerekçeleri ifade eder. Bu nedenler, Anayasa ve uluslararası hukuk metinlerinde açıkça belirtilmiştir. Başlıca nedenler arasında milli güvenlik, kamu düzeni, kamu sağlığı, genel ahlak ve başkalarının hak ve özgürlüklerinin korunması bulunur.",
+    "examples": [
+      "Terörle mücadele kapsamında alınan önlemler (milli güvenlik)",
+      "Salgın hastalıklar nedeniyle uygulanan karantinalar (kamu sağlığı)",
+      "Toplumun huzurunu bozabilecek eylemlerin önlenmesi (kamu düzeni)"
+    ],
+    "relatedTerms": [
+      "Meşru Amaç",
+      "Milli Güvenlik",
+      "Kamu Düzeni",
+      "Kamu Sağlığı"
+    ],
+    "order": 87
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasinda_haklarin_sinirlandirilmasi_sorumluluklar",
+    "term": "Özgürlüklerin Sınırlandırılmasında Hakların Sınırlandırılması Sorumlulukları",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılması durumunda devletin ve bireylerin üstlenmesi gereken yükümlülükleri ifade eder. Devlet, sınırlandırmaların hukuka uygunluğunu ve gerekliliğini sağlamakla sorumludur. Bireyler ise, haklarını kullanırken başkalarının haklarına ve kamu düzenine zarar vermemekle yükümlüdür.",
+    "examples": [
+      "Devletin, sınırlandırmaların orantılılığını sağlaması",
+      "Bireylerin, ifade özgürlüğünü kullanırken nefret söyleminden kaçınması",
+      "Toplanma hakkını kullanırken kamu malına zarar vermemesi"
+    ],
+    "relatedTerms": [
+      "Yükümlülük ve Sorumluluklar",
+      "Devletin Sorumluluğu",
+      "Bireyin Sorumluluğu"
+    ],
+    "order": 88
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasinda_haklarin_sinirlandirilmasi_denetimi",
+    "term": "Özgürlüklerin Sınırlandırılmasında Hakların Sınırlandırılması Denetimi",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılmasına ilişkin yapılan işlemlerin hukuki uygunluğunun yargı organları tarafından incelenmesi sürecidir. Bu denetim, sınırlandırmaların kanunlara, Anayasa'ya ve uluslararası hukuka uygunluğunu, gerekliliğini ve orantılılığını sağlar. Bireylerin haklarının korunmasında önemli bir güvencedir.",
+    "examples": [
+      "Anayasa Mahkemesi'nin iptal davaları",
+      "İdare Mahkemeleri'nin yürütmeyi durdurma kararları",
+      "Avrupa İnsan Hakları Mahkemesi'nin bireysel başvuru yoluyla denetimi"
+    ],
+    "relatedTerms": [
+      "Hukuki Denetim",
+      "Yargı Denetimi",
+      "Temel Hak ve Özgürlükler"
+    ],
+    "order": 89
+  },
+  {
+    "id": "ozgurluklerin_sinirlandirilmasinda_haklarin_ozune_dokunulmazligi_ve_sinirlilik",
+    "term": "Özgürlüklerin Sınırlandırılmasında Hakların Özüne Dokunulmazlığı ve Sınırlılık",
+    "definition": "Temel hak ve özgürlüklerin özünü korurken, kullanımlarını belirli sınırlar içinde düzenlemeyi ifade eder. Hakların özüne dokunulmadan, sadece kullanım biçimleri veya kapsamları sınırlandırılabilir. Bu, hakların varlığını sürdürmesini sağlar.",
+    "examples": [
+      "İfade özgürlüğünün, hakaret veya nefret söylemi gibi kullanımlarını sınırlandırmak.",
+      "Mali mülkiyet hakkının, kamu yararı amacıyla kamulaştırılması ancak bedelinin ödenmesi.",
+      "Seyahat özgürlüğünün, suçluların takibi için belirli durumlarda kısıtlanması."
+    ],
+    "relatedTerms": [
+      "Hakların Özüne Dokunulmazlık",
+      "Özgürlüklerin Sınırlandırılması",
+      "Sınırlandırma Sınırları"
+    ],
+    "order": 90
+  },
+  {
+    "id": "yasama_sorumsuzluğu",
+    "term": "Yasama Sorumsuzluğu",
+    "definition": "Milletvekillerinin, yasama faaliyetleri sırasındaki görüş ve düşüncelerinden dolayı TBMM dışında sorumlu tutulamamasıdır. Bu, milletvekillerinin özgürce oy kullanabilmesini sağlar.",
+    "examples": [
+      "Bir milletvekilinin meclis kürsüsünde dile getirdiği bir eleştiri nedeniyle dava açılmaması.",
+      "Milletvekillerinin oy kullanırken baskı altında hissetmemesi.",
+      "Yasama dokunulmazlığından farklı olarak, yasama sorumsuzluğu kural olarak kaldırılamaz."
+    ],
+    "relatedTerms": [
+      "Yasama Dokunulmazlığı",
+      "Milletvekili Dokunulmazlığı",
+      "TBMM"
+    ],
+    "order": 91
+  },
+  {
+    "id": "yasama_dokunulmazlığı",
+    "term": "Yasama Dokunulmazlığı",
+    "definition": "Milletvekillerinin, TBMM kararı olmadan veya fezleke olmaksızın ağır ceza gerektiren suçlar dışında yargılanamaması ve tutuklanamamasıdır. Bu, milletvekillerinin görevlerini serbestçe yapabilmelerini güvence altına alır.",
+    "examples": [
+      "Bir milletvekilinin, TBMM kararı olmadan bir suçtan dolayı tutuklanamaması.",
+      "Milletvekillerinin, görevleri sırasında veya dışında işledikleri suçlar için fezleke ile soruşturulabilmesi.",
+      "Dokunulmazlığın kaldırılması durumunda milletvekilliğinin sona ermesi."
+    ],
+    "relatedTerms": [
+      "Yasama Sorumsuzluğu",
+      "Milletvekili Dokunulmazlığı",
+      "Fezleke"
+    ],
+    "order": 92
+  },
+  {
+    "id": "kanunilik_ilkesi",
+    "term": "Kanunilik İlkesi (Temel Hak ve Özgürlükler Bağlamında)",
+    "definition": "Temel hak ve özgürlüklerin sınırlandırılmasının ancak kanunla yapılabileceği ilkesidir. Bu, keyfi müdahaleleri önler ve hukuki belirliliği sağlar.",
+    "examples": [
+      "Temel hakların sınırlandırılmasına ilişkin düzenlemelerin TBMM tarafından çıkarılan bir kanunla yapılması.",
+      "Yönetmelik veya genelgelerle temel hakların sınırlandırılamaması.",
+      "Kanunun açık ve net olması."
+    ],
+    "relatedTerms": [
+      "Kanunilik İlkesi (Ceza Hukuku)",
+      "Hukukun Üstünlüğü",
+      "Belirlilik İlkesi",
+      "Özgürlüklerin Sınırlandırılması Koşulları"
+    ],
+    "order": 93
+  },
+  {
+    "id": "orantılılık_ilkesi",
+    "term": "Orantılılık İlkesi (Temel Hak ve Özgürlükler Bağlamında)",
+    "definition": "Temel hak ve özgürlükleri sınırlandıran önlemlerin, ulaşılmak istenen amaçla orantılı olması gerektiği ilkesidir. Amaç ile araç arasında makul bir denge bulunmalıdır.",
+    "examples": [
+      "Bir gösteriyi sona erdirmek için aşırı güç kullanımının orantısız olması.",
+      "Suçla mücadele için getirilen bir tedbirin, bireylerin temel haklarını aşırı derecede kısıtlamaması.",
+      "Sınırlandırmanın en az müdahale edici yolla yapılması."
+    ],
+    "relatedTerms": [
+      "Özgürlüklerin Sınırlandırılması Sınırları",
+      "Özgürlüklerin Sınırlandırılması Amaçları",
+      "Hak ve Özgürlüklerin Korunması"
+    ],
+    "order": 94
+  },
+  {
+    "id": "özel_yasamın_gizliliği_ve_korunması",
+    "term": "Özel Yaşamın Gizliliği ve Korunması",
+    "definition": "Bireylerin aile yaşamı, konutu, ticari sırları ve kişisel bilgileri gibi özel yaşam alanlarına devletin veya üçüncü kişilerin keyfi müdahale edemeyeceği hakkıdır. Bu hak, bireyin kişisel bütünlüğünü ve özgürlüğünü korur.",
+    "examples": [
+      "Konut dokunulmazlığı.",
+      "Kişisel verilerin korunması.",
+      "İletişimin gizliliği."
+    ],
+    "relatedTerms": [
+      "Konut Dokunulmazlığı",
+      "Kişisel Verilerin Korunması",
+      "İletişim Özgürlüğü"
+    ],
+    "order": 95
+  },
+  {
+    "id": "toplantı_ve_gösteri_yürüyüşü_düzenleme_hakkı",
+    "term": "Toplantı ve Gösteri Yürüyüşü Düzenleme Hakkı",
+    "definition": "Bireylerin barışçıl amaçlarla bir araya gelerek düşüncelerini ifade etme ve kamuoyu oluşturma hakkıdır. Bu hak, demokratik toplumların vazgeçilmez bir unsurudur.",
+    "examples": [
+      "Barışçıl bir yürüyüş düzenlemek.",
+      "Bir meydanda toplanarak bildiri dağıtmak.",
+      "Sendika grevi yapmak."
+    ],
+    "relatedTerms": [
+      "Dernek Kurma Hakkı",
+      "Özgürlüklerin Sınırlandırılması Koşulları",
+      "İfade Özgürlüğü"
+    ],
+    "order": 96
+  },
+  {
+    "id": "çevre_hakkı",
+    "term": "Çevre Hakkı",
+    "definition": "Herkesin sağlıklı ve dengeli bir çevrede yaşama hakkıdır. Devlet, bu hakkın korunması, geliştirilmesi ve çevre kirliliğinin önlenmesi için gerekli tedbirleri almakla yükümlüdür.",
+    "examples": [
+      "Temiz hava solumak.",
+      "Temiz su kaynaklarına erişim.",
+      "Doğal güzelliklerin korunması."
+    ],
+    "relatedTerms": [
+      "Çevreyi Koruma Hakkı",
+      "Sürdürülebilirlik",
+      "Çevre Mevzuatı"
+    ],
+    "order": 97
+  },
+  {
+    "id": "eğitim_hakkı",
+    "term": "Eğitim Hakkı",
+    "definition": "Herkesin eğitim alma ve öğrenim görme hakkıdır. Devlet, bu hakkı parasız ve zorunlu eğitimle güvence altına alır ve eğitim kurumlarını denetler.",
+    "examples": [
+      "İlkokulda ücretsiz eğitim almak.",
+      "Meslek liselerinde beceri kazanmak.",
+      "Üniversite eğitimi görmek."
+    ],
+    "relatedTerms": [
+      "Öğrenim Hakkı",
+      "Eğitimde Fırsat Eşitliği",
+      "Devletin Eğitim Yükümlülüğü"
+    ],
+    "order": 98
+  },
+  {
+    "id": "seyahat_ve_yerleşme_özgürlüğü",
+    "term": "Seyahat ve Yerleşme Özgürlüğü",
+    "definition": "Bireylerin Türkiye içinde diledikleri yere seyahat etme ve diledikleri yerde yerleşme hakkıdır. Bu hak, ancak suç soruşturması veya kovuşturması gibi kanuni sınırlamalara tabi olabilir.",
+    "examples": [
+      "Farklı bir şehre taşınmak.",
+      "Tatil için ülkenin farklı bölgelerini gezmek.",
+      "Yurt dışına seyahat etmek (pasaport ve vize şartlarına bağlı olarak)."
+    ],
+    "relatedTerms": [
+      "Seyahat Özgürlüğü",
+      "Yerleşme Özgürlüğü",
+      "Sınır Dışı Edilme"
+    ],
+    "order": 99
+  }
+]

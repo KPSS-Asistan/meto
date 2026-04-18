@@ -1,0 +1,1312 @@
+[
+  {
+    "id": "istimalet_politikasi",
+    "term": "İstimalet Politikası",
+    "definition": "Osmanlı Devleti'nin fethettiği bölgelerdeki halka hoşgörüyle yaklaşarak onları devlete bağlama politikasıdır. Bu politika sayesinde Balkanlar'da kalıcı hakimiyet sağlanmıştır.",
+    "examples": [
+      "Balkanlar'da uygulanan hoşgörü politikası",
+      "Gayrimüslimlere tanınan inanç özgürlüğü"
+    ],
+    "relatedTerms": [
+      "İskan Politikası",
+      "Millet Sistemi"
+    ],
+    "order": 1
+  },
+  {
+    "id": "iskan_politikasi",
+    "term": "İskan Politikası",
+    "definition": "Fethedilen bölgelerin Türkleşmesini sağlamak amacıyla Anadolu'daki göçebe Türkmenlerin bu bölgelere yerleştirilmesidir. Fetihlerin kalıcılığını sağlayan temel stratejidir.",
+    "examples": [
+      "Rumeli'ye yapılan Türk göçleri",
+      "Fethedilen yerlere aşiretlerin yerleştirilmesi"
+    ],
+    "relatedTerms": [
+      "İstimalet Politikası",
+      "Fetih"
+    ],
+    "order": 2
+  },
+  {
+    "id": "kizilelma",
+    "term": "Kızıl Elma",
+    "definition": "Türk devletlerinde ulaşılması gereken hedefi veya fethedilmesi amaçlanan yeri temsil eden sembolik ülküdür. Osmanlı döneminde cihan hakimiyeti anlayışıyla özdeşleşmiştir.",
+    "examples": [
+      "İstanbul'un fethi hedefi",
+      "Viyana'nın kuşatılması"
+    ],
+    "relatedTerms": [
+      "Cihan Hakimiyeti",
+      "Gaza ve Cihat"
+    ],
+    "order": 3
+  },
+  {
+    "id": "gaza_ve_cihat",
+    "term": "Gaza ve Cihat",
+    "definition": "İslam dinini yaymak ve korumak amacıyla yapılan kutsal savaştır. Osmanlı Beyliği'nin kısa sürede büyümesinde bu anlayışın etkisi büyüktür.",
+    "examples": [
+      "Osmanlı'nın Bizans sınırındaki akınları",
+      "Haçlı Seferleri'ne karşı yapılan mücadeleler"
+    ],
+    "relatedTerms": [
+      "Gazi",
+      "Cihad-ı Ekber"
+    ],
+    "order": 4
+  },
+  {
+    "id": "veraset_sistemi",
+    "term": "Veraset Sistemi",
+    "definition": "Tahta geçme usulüdür. Osmanlı'da merkezi otoriteyi güçlendirmek için 'Ülke hanedan üyelerinindir' anlayışından 'Ülke padişahın oğullarınındır' ve son olarak 'Ekber ve Erşed' sistemine geçilmiştir.",
+    "examples": [
+      "I. Murat'ın veraset değişikliği",
+      "I. Ahmet'in getirdiği Ekber ve Erşed sistemi"
+    ],
+    "relatedTerms": [
+      "Kafes Usulü",
+      "Sancak Sistemi"
+    ],
+    "order": 5
+  },
+  {
+    "id": "sancak_sistemi",
+    "term": "Sancak Sistemi",
+    "definition": "Şehzadelerin devlet yönetimini öğrenmeleri için illere vali olarak gönderilmesidir. Şehzadenin yanında lala adı verilen tecrübeli devlet adamları bulunurdu.",
+    "examples": [
+      "Manisa, Amasya ve Konya sancakları",
+      "Şehzade Mustafa'nın sancak beyliği"
+    ],
+    "relatedTerms": [
+      "Şehzade",
+      "Lala"
+    ],
+    "order": 6
+  },
+  {
+    "id": "devsirme_sistemi",
+    "term": "Devşirme Sistemi",
+    "definition": "Hristiyan ailelerin çocuklarının alınarak Türk-İslam kültürüne göre yetiştirilmesi ve asker veya bürokrat yapılmasıdır. Kapıkulu ordusunun temelini oluşturur.",
+    "examples": [
+      "Yeniçeri Ocağı'na asker alımı",
+      "Devşirme kökenli sadrazamlar"
+    ],
+    "relatedTerms": [
+      "Kapıkulu",
+      "Pençik Sistemi"
+    ],
+    "order": 7
+  },
+  {
+    "id": "pencik_sistemi",
+    "term": "Pençik Sistemi",
+    "definition": "Savaş esirlerinin beşte birinin orduya alınması usulüdür. Osmanlı'nın ilk düzenli ordusu olan Yaya ve Müsellem'den sonra asker ihtiyacını karşılamak için uygulanmıştır.",
+    "examples": [
+      "I. Murat dönemindeki esir kullanımı",
+      "Yeniçeri Ocağı'nın ilk askerleri"
+    ],
+    "relatedTerms": [
+      "Devşirme Sistemi",
+      "Kapıkulu"
+    ],
+    "order": 8
+  },
+  {
+    "id": "istimlak",
+    "term": "İstimlak",
+    "definition": "Osmanlı'da devletin kamu yararı için özel mülkiyete el koymasıdır. Genellikle fethedilen yerlerdeki toprak düzenlemeleri için kullanılmıştır.",
+    "examples": [
+      "Cami veya yol yapımı için arazi alınması",
+      "Fetih sonrası toprakların devletleştirilmesi"
+    ],
+    "relatedTerms": [
+      "Miri Arazi",
+      "Mülk Arazi"
+    ],
+    "order": 9
+  },
+  {
+    "id": "fetret_devri",
+    "term": "Fetret Devri",
+    "definition": "Ankara Savaşı'ndan sonra Yıldırım Bayezid'in oğulları arasında yaşanan taht kavgaları dönemidir (1402-1413). Devletin yıkılma tehlikesiyle karşı karşıya kaldığı 11 yıllık süreçtir.",
+    "examples": [
+      "Çelebi Mehmet'in devleti yeniden toplaması",
+      "Şehzadeler arası mücadele"
+    ],
+    "relatedTerms": [
+      "Ankara Savaşı",
+      "Fetret"
+    ],
+    "order": 10
+  },
+  {
+    "id": "cihan_hakimiyeti",
+    "term": "Cihan Hakimiyeti",
+    "definition": "Türk devlet geleneğinde dünyanın tamamına hükmetme idealidir. Osmanlı padişahları bu anlayışla 'Dünya İmparatorluğu' kurmayı hedeflemiştir.",
+    "examples": [
+      "Fatih Sultan Mehmet'in İstanbul'u alması",
+      "Kanuni'nin Avrupa seferleri"
+    ],
+    "relatedTerms": [
+      "Kızıl Elma",
+      "Gaza ve Cihat"
+    ],
+    "order": 11
+  },
+  {
+    "id": "kapikulu",
+    "term": "Kapıkulu",
+    "definition": "Doğrudan padişaha bağlı, merkezde görev yapan maaşlı askerlerdir. Devşirme kökenlidirler ve üç ayda bir 'ulufe' adı verilen maaş alırlar.",
+    "examples": [
+      "Yeniçeriler",
+      "Topçular",
+      "Cebeciler"
+    ],
+    "relatedTerms": [
+      "Devşirme Sistemi",
+      "Ulufe"
+    ],
+    "order": 12
+  },
+  {
+    "id": "ulufe",
+    "term": "Ulufe",
+    "definition": "Kapıkulu askerlerine üç ayda bir verilen maaştır. Padişah değişikliğinde verilen bahşişe ise 'Cülus Bahşişi' denir.",
+    "examples": [
+      "Yeniçerilerin maaş ödemeleri",
+      "Cülus bahşişi dağıtımı"
+    ],
+    "relatedTerms": [
+      "Kapıkulu",
+      "Cülus"
+    ],
+    "order": 13
+  },
+  {
+    "id": "cülus",
+    "term": "Cülus",
+    "definition": "Padişahın tahta çıkmasıdır. Tahta çıkan padişahın kapıkulu askerlerine dağıttığı paraya 'Cülus Bahşişi' denir.",
+    "examples": [
+      "Padişahın tahta cülusu",
+      "Cülus bahşişi krizi"
+    ],
+    "relatedTerms": [
+      "Ulufe",
+      "Taht Değişikliği"
+    ],
+    "order": 14
+  },
+  {
+    "id": "millet_sistemi",
+    "term": "Millet Sistemi",
+    "definition": "Osmanlı'da halkın dil veya ırka göre değil, dini inançlarına göre gruplandırılmasıdır. Her millet kendi dini lideri ve kuralları çerçevesinde yönetilirdi.",
+    "examples": [
+      "Ortodoks, Ermeni ve Yahudi cemaatleri",
+      "Dini liderlerin (Patrik, Hahambaşı) yönetimi"
+    ],
+    "relatedTerms": [
+      "İstimalet Politikası",
+      "Gayrimüslim"
+    ],
+    "order": 15
+  },
+  {
+    "id": "senedi_ittifak",
+    "term": "Sened-i İttifak",
+    "definition": "II. Mahmut ile ayanlar arasında imzalanan, padişahın yetkilerini ilk kez sınırlandıran belgedir. Osmanlı tarihinde demokratikleşme yolunda atılan ilk adımdır.",
+    "examples": [
+      "Padişahın yetkilerini kısıtlayan ilk belge olması.",
+      "Ayanların varlığının hukuken tanınması."
+    ],
+    "relatedTerms": [
+      "II. Mahmut",
+      "Ayan",
+      "Tanzimat Fermanı"
+    ],
+    "order": 16
+  },
+  {
+    "id": "vaka_i_hayriye",
+    "term": "Vaka-i Hayriye",
+    "definition": "II. Mahmut döneminde Yeniçeri Ocağı'nın kaldırılması olayıdır. Yerine Asakir-i Mansure-i Muhammediye ordusu kurulmuştur.",
+    "examples": [
+      "Yeniçeri Ocağı'nın topa tutularak kaldırılması.",
+      "Modern orduya geçişin sağlanması."
+    ],
+    "relatedTerms": [
+      "II. Mahmut",
+      "Yeniçeri Ocağı",
+      "Asakir-i Mansure-i Muhammediye"
+    ],
+    "order": 17
+  },
+  {
+    "id": "tanzimat_fermani",
+    "term": "Tanzimat Fermanı",
+    "definition": "1839'da Abdülmecid döneminde Mustafa Reşit Paşa tarafından ilan edilen, hukuk devleti olma yolunda atılan ilk adımdır. Müslüman ve gayrimüslim herkesin kanun önünde eşit olduğunu vurgular.",
+    "examples": [
+      "Gülhane Hatt-ı Hümayunu olarak da bilinir.",
+      "Can, mal ve namus güvenliğinin devlet garantisine alınması."
+    ],
+    "relatedTerms": [
+      "Abdülmecid",
+      "Mustafa Reşit Paşa",
+      "Islahat Fermanı"
+    ],
+    "order": 18
+  },
+  {
+    "id": "islahat_fermani",
+    "term": "Islahat Fermanı",
+    "definition": "1856'da Paris Barış Konferansı öncesinde Avrupalı devletlerin baskısıyla ilan edilmiştir. Tanzimat Fermanı'ndan farklı olarak ağırlıklı olarak gayrimüslimlere yeni haklar tanımıştır.",
+    "examples": [
+      "Gayrimüslimlere devlet memuru olma hakkı verilmesi.",
+      "Cizye vergisinin kaldırılması."
+    ],
+    "relatedTerms": [
+      "Tanzimat Fermanı",
+      "Paris Barış Konferansı",
+      "Abdülmecid"
+    ],
+    "order": 19
+  },
+  {
+    "id": "birinci_mesrutiyet",
+    "term": "I. Meşrutiyet",
+    "definition": "1876'da II. Abdülhamid döneminde ilan edilen, halkın ilk kez yönetime katıldığı rejimdir. Kanun-i Esasi'nin yürürlüğe girmesiyle Osmanlı'da anayasal düzene geçilmiştir.",
+    "examples": [
+      "Jön Türklerin çalışmalarıyla ilan edilmesi.",
+      "Mebusan Meclisi'nin açılması."
+    ],
+    "relatedTerms": [
+      "II. Abdülhamid",
+      "Kanun-i Esasi",
+      "Genç Osmanlılar"
+    ],
+    "order": 20
+  },
+  {
+    "id": "kanuni_esasi",
+    "term": "Kanun-i Esasi",
+    "definition": "Osmanlı Devleti'nin ilk ve tek anayasasıdır. Padişaha meclisi açma ve kapatma yetkisi veren otoriter bir yapıya sahiptir.",
+    "examples": [
+      "1876 yılında yürürlüğe girmesi.",
+      "Padişahın mutlak otoritesinin korunması."
+    ],
+    "relatedTerms": [
+      "I. Meşrutiyet",
+      "II. Abdülhamid",
+      "Mebusan Meclisi"
+    ],
+    "order": 21
+  },
+  {
+    "id": "duyun_u_umumiye",
+    "term": "Düyun-u Umumiye",
+    "definition": "1881'de Muharrem Kararnamesi ile kurulan, Osmanlı'nın dış borçlarını yöneten uluslararası kurumdur. Osmanlı'nın mali bağımsızlığını kaybettiğinin göstergesidir.",
+    "examples": [
+      "Avrupalı devletlerin Osmanlı gelirlerine el koyması.",
+      "Ekonomik bağımsızlığın sona ermesi."
+    ],
+    "relatedTerms": [
+      "II. Abdülhamid",
+      "Dış Borçlar",
+      "Muharrem Kararnamesi"
+    ],
+    "order": 22
+  },
+  {
+    "id": "31_mart_vakasi",
+    "term": "31 Mart Vakası",
+    "definition": "II. Meşrutiyet'e karşı çıkan ilk gerici ayaklanmadır. Hareket Ordusu tarafından bastırılmış ve II. Abdülhamid tahttan indirilmiştir.",
+    "examples": [
+      "İsyanı bastıran ordunun başında Mahmut Şevket Paşa'nın bulunması.",
+      "Mustafa Kemal'in tarih sahnesine ilk çıkışı."
+    ],
+    "relatedTerms": [
+      "II. Meşrutiyet",
+      "Hareket Ordusu",
+      "II. Abdülhamid"
+    ],
+    "order": 23
+  },
+  {
+    "id": "babiali_baskini",
+    "term": "Babıali Baskını",
+    "definition": "1913 yılında İttihat ve Terakki'nin hükümet darbesiyle yönetimi tamamen ele geçirmesidir. Kamil Paşa hükümeti düşürülmüş, yerine Mahmut Şevket Paşa getirilmiştir.",
+    "examples": [
+      "İttihat ve Terakki'nin tek başına iktidar olması.",
+      "Enver Paşa'nın etkisinin artması."
+    ],
+    "relatedTerms": [
+      "İttihat ve Terakki",
+      "I. Balkan Savaşı",
+      "Enver Paşa"
+    ],
+    "order": 24
+  },
+  {
+    "id": "kutsal_emanetler",
+    "term": "Kutsal Emanetler",
+    "definition": "Yavuz Sultan Selim'in Mısır seferi sonucunda Osmanlı'ya geçen, halifeliğin sembolü olan eşyalardır. Topkapı Sarayı'nda muhafaza edilmiştir.",
+    "examples": [
+      "Yavuz Sultan Selim'in Mısır'ı fethi.",
+      "Halifeliğin Osmanlı'ya geçişi."
+    ],
+    "relatedTerms": [
+      "Yavuz Sultan Selim",
+      "Mısır Seferi",
+      "Halifelik"
+    ],
+    "order": 25
+  },
+  {
+    "id": "kucuk_kaynarca_antlasmasi",
+    "term": "Küçük Kaynarca Antlaşması",
+    "definition": "1774 yılında Rusya ile imzalanan, Osmanlı'nın Kırım'ı kaybettiği ve ilk kez halifelik makamını siyasi amaçla kullandığı antlaşmadır.",
+    "examples": [
+      "Rusya'ya İstanbul'da elçilik açma hakkı verilmesi.",
+      "Kırım'ın bağımsız olması."
+    ],
+    "relatedTerms": [
+      "Rusya",
+      "Kırım",
+      "Halifelik"
+    ],
+    "order": 26
+  },
+  {
+    "id": "ziyaret_i_hümayun",
+    "term": "Ziyaret-i Hümayun",
+    "definition": "Osmanlı padişahlarının sefere çıkması veya önemli devlet işleri için yaptığı resmi ziyaretlerdir. Merkezi otoritenin gücünü göstermek amacıyla yapılırdı.",
+    "examples": [
+      "Padişahın ordunun başında sefere çıkması.",
+      "Eyaletlerdeki otoriteyi denetleme."
+    ],
+    "relatedTerms": [
+      "Padişah",
+      "Merkezi Otorite",
+      "Sefer-i Hümayun"
+    ],
+    "order": 27
+  },
+  {
+    "id": "senedi_ittifak_ozelligi",
+    "term": "Sened-i İttifak'ın Önemi",
+    "definition": "Padişahın kendi gücü dışında başka bir gücü (ayanları) tanıdığı ilk belgedir. İngiltere'deki Magna Carta ile benzerlik gösterir.",
+    "examples": [
+      "Padişahın ayanlara uymayı kabul etmesi.",
+      "Merkezi otoritenin zayıfladığının kanıtı."
+    ],
+    "relatedTerms": [
+      "II. Mahmut",
+      "Ayan",
+      "Magna Carta"
+    ],
+    "order": 28
+  },
+  {
+    "id": "girit_meselesi",
+    "term": "Girit Meselesi",
+    "definition": "XIX. yüzyılda Osmanlı'nın elinden çıkan ve Yunanistan'ın ilhak etmek istediği stratejik adadır. Halepa Fermanı ile bölgede geçici barış sağlanmaya çalışılmıştır.",
+    "examples": [
+      "Yunanistan'ın adayı ilhak etme çabası.",
+      "Halepa Fermanı'nın imzalanması."
+    ],
+    "relatedTerms": [
+      "Yunanistan",
+      "Halepa Fermanı",
+      "Doğu Akdeniz"
+    ],
+    "order": 29
+  },
+  {
+    "id": "edirne_olayi",
+    "term": "Edirne Olayı",
+    "definition": "1703 yılında II. Mustafa'nın tahttan indirilmesiyle sonuçlanan ayaklanmadır. Padişahın İstanbul yerine Edirne'de vakit geçirmesi halkın tepkisine yol açmıştır.",
+    "examples": [
+      "II. Mustafa'nın tahttan indirilmesi.",
+      "III. Ahmet'in tahta çıkması."
+    ],
+    "relatedTerms": [
+      "II. Mustafa",
+      "III. Ahmet",
+      "Lale Devri"
+    ],
+    "order": 30
+  },
+  {
+    "id": "edirne_segedin",
+    "term": "Edirne-Segedin Antlaşması",
+    "definition": "II. Murat döneminde Osmanlı ile Haçlılar arasında imzalanan ilk büyük antlaşmadır. Osmanlı'nın Balkanlardaki hakimiyetini pekiştiren ve 10 yıl süreli bir barış öngören metindir.",
+    "examples": [
+      "Osmanlı'nın Balkanlarda batıya karşı imzaladığı ilk önemli barış antlaşması."
+    ],
+    "relatedTerms": [
+      "II. Murat",
+      "Varna Savaşı",
+      "Haçlı Seferleri"
+    ],
+    "order": 31
+  },
+  {
+    "id": "ferman_i_girit",
+    "term": "Girit'in Fethi",
+    "definition": "Osmanlı Devleti'nin en uzun süren kuşatması sonucunda ele geçirdiği adadır. IV. Mehmet döneminde Köprülüler zamanında tamamlanmıştır.",
+    "examples": [
+      "Girit'in kuşatılmasının 24 yıl sürmesi."
+    ],
+    "relatedTerms": [
+      "IV. Mehmet",
+      "Köprülüler",
+      "Venedik"
+    ],
+    "order": 32
+  },
+  {
+    "id": "bucaş_antlasmasi",
+    "term": "Bucaş Antlaşması",
+    "definition": "Osmanlı Devleti'nin batıda toprak kazandığı son antlaşmadır. Lehistan ile imzalanmış olup Batı Podolya Osmanlı yönetimine geçmiştir.",
+    "examples": [
+      "Osmanlı'nın batıdaki en geniş sınırlara ulaşması."
+    ],
+    "relatedTerms": [
+      "IV. Mehmet",
+      "Lehistan",
+      "Batı Podolya"
+    ],
+    "order": 33
+  },
+  {
+    "id": "ferhat_pasa",
+    "term": "Ferhat Paşa Antlaşması",
+    "definition": "Osmanlı Devleti'nin doğuda en geniş sınırlara ulaştığı antlaşmadır. III. Murat döneminde İran (Safeviler) ile imzalanmıştır.",
+    "examples": [
+      "Tebriz, Karabağ ve Gence'nin Osmanlı hakimiyetine girmesi."
+    ],
+    "relatedTerms": [
+      "III. Murat",
+      "Safeviler",
+      "Doğu Sınırı"
+    ],
+    "order": 34
+  },
+  {
+    "id": "nasuh_pasa",
+    "term": "Nasuh Paşa Antlaşması",
+    "definition": "Osmanlı'nın Ferhat Paşa ile aldığı toprakları geri verdiği antlaşmadır. Osmanlı'nın doğudaki toprak kaybını başlatan süreç olarak kabul edilir.",
+    "examples": [
+      "İran'ın vergi ödemeyi kabul etmesi."
+    ],
+    "relatedTerms": [
+      "I. Ahmed",
+      "Safeviler",
+      "Doğu Sınırı"
+    ],
+    "order": 35
+  },
+  {
+    "id": "kasri_sirin",
+    "term": "Kasr-ı Şirin Antlaşması",
+    "definition": "IV. Murat döneminde İran ile imzalanan ve bugünkü Türkiye-İran sınırının temelini oluşturan antlaşmadır. Zagros Dağları sınır kabul edilmiştir.",
+    "examples": [
+      "Günümüz Türkiye-İran sınırının büyük ölçüde belirlenmesi."
+    ],
+    "relatedTerms": [
+      "IV. Murat",
+      "Safeviler",
+      "Sınır Antlaşmaları"
+    ],
+    "order": 36
+  },
+  {
+    "id": "prut_antlasmasi",
+    "term": "Prut Antlaşması",
+    "definition": "Rusya'ya karşı kazanılan zafer sonrası imzalanan ve Azak Kalesi'nin geri alınmasını sağlayan antlaşmadır. Osmanlı'nın Karadeniz'in Türk gölü olma özelliğini korumasına dair umutlarını artırmıştır.",
+    "examples": [
+      "Azak Kalesi'nin Ruslardan geri alınması."
+    ],
+    "relatedTerms": [
+      "III. Ahmed",
+      "Rusya",
+      "Karadeniz"
+    ],
+    "order": 37
+  },
+  {
+    "id": "pasarofca_antlasmasi",
+    "term": "Pasarofça Antlaşması",
+    "definition": "Lale Devri'nin başlangıcı sayılan ve Avusturya'ya karşı kaybedilen toprakların geri alınamayacağının anlaşıldığı antlaşmadır. Osmanlı'nın Avrupa'daki üstünlüğünü kaybettiğini gösterir.",
+    "examples": [
+      "Belgrad'ın Avusturya'ya bırakılması."
+    ],
+    "relatedTerms": [
+      "Lale Devri",
+      "Avusturya",
+      "III. Ahmed"
+    ],
+    "order": 38
+  },
+  {
+    "id": "belgrad_antlasmasi",
+    "term": "Belgrad Antlaşması",
+    "definition": "Osmanlı'nın 18. yüzyılda imzaladığı son kazançlı antlaşmadır. Avusturya ve Rusya'ya karşı kazanılan başarılar sonucu imzalanmış olup Karadeniz'in Türk gölü olduğu son kez tescillenmiştir.",
+    "examples": [
+      "Rusya'nın Karadeniz'de donanma bulunduramayacağının kabul edilmesi."
+    ],
+    "relatedTerms": [
+      "I. Mahmud",
+      "Rusya",
+      "Avusturya"
+    ],
+    "order": 39
+  },
+  {
+    "id": "müsadere_sistemi",
+    "term": "Müsadere Sistemi",
+    "definition": "Devletin, haksız kazanç elde eden veya görevini kötüye kullanan devlet memurlarının mallarına el koyması uygulamasıdır. Merkezi otoriteyi güçlendirmek ve hazineye gelir sağlamak amacıyla uygulanmış, II. Mahmut döneminde kaldırılmıştır.",
+    "examples": [
+      "Fatih Sultan Mehmet döneminde Çandarlı Halil Paşa'nın mallarına el konulması.",
+      "Tanzimat Fermanı ile birlikte bu uygulamanın hukuka aykırı olduğu kabul edilerek kaldırılması."
+    ],
+    "relatedTerms": [
+      "Merkezi Otorite",
+      "Tanzimat Fermanı",
+      "Hukuk Devleti"
+    ],
+    "order": 40
+  },
+  {
+    "id": "beylikten_devlete",
+    "term": "Beylikten Devlete Geçiş",
+    "definition": "Osmanlı'nın uç beyliği statüsünden merkeziyetçi bir imparatorluğa dönüşme sürecidir. Özellikle Osman Bey ve Orhan Bey dönemlerindeki teşkilatlanma hamlelerini kapsar.",
+    "examples": [
+      "Karacahisar'ın fethi",
+      "İlk düzenli ordunun kurulması"
+    ],
+    "relatedTerms": [
+      "Uç Beyliği",
+      "Gaza Beyliği",
+      "İstiklal"
+    ],
+    "order": 41
+  },
+  {
+    "id": "ahilik_teskilati",
+    "term": "Ahilik Teşkilatı",
+    "definition": "Osmanlı'nın kuruluşunda etkili olan, esnaf ve zanaatkarları örgütleyen sosyal ve ekonomik bir yapıdır. Şeyh Edebali'nin desteği devletin meşruiyet kazanmasında kritik rol oynamıştır.",
+    "examples": [
+      "Esnaf dayanışması",
+      "Kaliteli üretim denetimi"
+    ],
+    "relatedTerms": [
+      "Lonca Teşkilatı",
+      "Fütüvvet",
+      "Şeyh Edebali"
+    ],
+    "order": 42
+  },
+  {
+    "id": "timar_sistemi",
+    "term": "Tımar Sistemi",
+    "definition": "Devletin toprak gelirlerini belirli bir hizmet karşılığında asker ve memurlara bırakmasıdır. Hem üretimin sürekliliğini sağlar hem de hazineden para çıkmadan ordu beslenmesini sağlar.",
+    "examples": [
+      "Cebelü yetiştirilmesi",
+      "Tımarlı Sipahi"
+    ],
+    "relatedTerms": [
+      "Dirlik",
+      "Has",
+      "Zeamet"
+    ],
+    "order": 43
+  },
+  {
+    "id": "salyangoz_eyaletler",
+    "term": "Salyaneli Eyaletler",
+    "definition": "Yıllık verginin doğrudan merkeze gönderildiği, tımar sisteminin uygulanmadığı uzak eyaletlerdir. Bu eyaletlerde vergi toplama işi iltizam usulüyle yapılır.",
+    "examples": [
+      "Mısır",
+      "Yemen",
+      "Tunus"
+    ],
+    "relatedTerms": [
+      "İltizam",
+      "Mültezim",
+      "Salyanesiz Eyaletler"
+    ],
+    "order": 44
+  },
+  {
+    "id": "iltizam_sistemi",
+    "term": "İltizam Sistemi",
+    "definition": "Devletin belirli bir bölgenin vergisini toplama hakkını açık artırma yoluyla bir şahsa devretmesidir. Bu sistemi uygulayan kişiye mültezim denir.",
+    "examples": [
+      "Vergi toplama ihalesi",
+      "Mültezimlerin görevlendirilmesi"
+    ],
+    "relatedTerms": [
+      "Mültezim",
+      "Malikane",
+      "Salyane"
+    ],
+    "order": 45
+  },
+  {
+    "id": "müsadere_uygulamasi",
+    "term": "Müsadere",
+    "definition": "Devletin, haksız kazanç elde eden veya suç işleyen görevlilerin mallarına el koymasıdır. Merkezi otoriteyi güçlendirmek ve zenginleşen bürokratları denetlemek için kullanılmıştır.",
+    "examples": [
+      "Çandarlı Halil Paşa'nın mallarına el konulması",
+      "Fatih Sultan Mehmet döneminde sık uygulanması"
+    ],
+    "relatedTerms": [
+      "Merkezi Otorite",
+      "Kul Sistemi",
+      "Bürokrasi"
+    ],
+    "order": 46
+  },
+  {
+    "id": "divan_i_hümayun",
+    "term": "Divan-ı Hümayun",
+    "definition": "Orhan Bey döneminde kurulan, devlet işlerinin görüşüldüğü en yüksek karar organıdır. Fatih dönemine kadar padişah başkanlık ederken, sonrasında sadrazam başkanlık etmeye başlamıştır.",
+    "examples": [
+      "Siyasi kararların alınması",
+      "Şikayetlerin dinlenmesi"
+    ],
+    "relatedTerms": [
+      "Sadrazam",
+      "Nişancı",
+      "Kazasker"
+    ],
+    "order": 47
+  },
+  {
+    "id": "kapitülasyonlar",
+    "term": "Kapitülasyonlar",
+    "definition": "Osmanlı Devleti'nin yabancı devletlere tanıdığı ticari, hukuki ve sosyal ayrıcalıklardır. İlk kez Fatih döneminde Venedik'e verilmiş, Kanuni döneminde Fransa'ya genişletilmiştir.",
+    "examples": [
+      "Venedik'e verilen ticaret imtiyazları",
+      "Fransız tüccarlara tanınan haklar"
+    ],
+    "relatedTerms": [
+      "Ticaret Antlaşmaları",
+      "Ekonomik Bağımsızlık",
+      "Dış Politika"
+    ],
+    "order": 48
+  },
+  {
+    "id": "celali_isyani",
+    "term": "Celali İsyanları",
+    "definition": "17. yüzyılda Anadolu'da çıkan, ekonomik bozulma ve otorite boşluğundan kaynaklanan halk ve asker isyanlarıdır. Devletin iç güvenliğini sarsan en önemli iç sorunlardandır.",
+    "examples": [
+      "Karayazıcı İsyanı",
+      "Canbolatoğlu İsyanı"
+    ],
+    "relatedTerms": [
+      "Tımar Sisteminin Bozulması",
+      "Ekonomik Kriz",
+      "Anadolu İsyanları"
+    ],
+    "order": 49
+  },
+  {
+    "id": "vakayi_vakvakiyye",
+    "term": "Vaka-i Vakvakiyye",
+    "definition": "IV. Mehmet döneminde 30'dan fazla devlet adamının Çınar ağacına asılarak öldürüldüğü olaydır. Yeniçeri baskısının ve siyasi istikrarsızlığın bir göstergesidir.",
+    "examples": [
+      "Çınar Vakası",
+      "Yeniçeri ayaklanması"
+    ],
+    "relatedTerms": [
+      "Yeniçeri Ocağı",
+      "Siyasi İstikrarsızlık",
+      "Saray Darbeleri"
+    ],
+    "order": 50
+  },
+  {
+    "id": "nizam_i_cedid",
+    "term": "Nizam-ı Cedid",
+    "definition": "III. Selim tarafından kurulan, Avrupa tarzında eğitim almış yeni ordudur. Bu ordunun masraflarını karşılamak için İrad-ı Cedid hazinesi oluşturulmuştur.",
+    "examples": [
+      "Modern piyade birliği",
+      "İrad-ı Cedid hazinesi"
+    ],
+    "relatedTerms": [
+      "III. Selim",
+      "Batılılaşma",
+      "Islahat"
+    ],
+    "order": 51
+  },
+  {
+    "id": "ayaniyet",
+    "term": "Ayanlık",
+    "definition": "Taşrada nüfuz sahibi olan, halkın devlete karşı temsilcisi konumundaki yerel güç odaklarıdır. II. Mahmut döneminde Sened-i İttifak ile varlıkları resmen tanınmıştır.",
+    "examples": [
+      "Tepedelenli Ali Paşa",
+      "Yerel eşraf"
+    ],
+    "relatedTerms": [
+      "Sened-i İttifak",
+      "Merkeziyetçilik",
+      "Taşra Yönetimi"
+    ],
+    "order": 52
+  },
+  {
+    "id": "cerime",
+    "term": "Cerime",
+    "definition": "Osmanlı hukuk sisteminde suç işleyenlerden alınan para cezasıdır. Şer'i ve örfi hukukun bir parçası olarak uygulanmıştır.",
+    "examples": [
+      "Cürüm cezaları",
+      "Para cezası uygulamaları"
+    ],
+    "relatedTerms": [
+      "Şer'i Hukuk",
+      "Örfi Hukuk",
+      "Kaza"
+    ],
+    "order": 53
+  },
+  {
+    "id": "tercüme_odasi",
+    "term": "Tercüme Odası",
+    "definition": "Babıali'de yabancı dillerden çeviri yapmak amacıyla kurulan birimdir. Tanzimat döneminde diplomatik ilişkilerin yürütülmesinde ve Batı'nın tanınmasında önemli rol oynamıştır.",
+    "examples": [
+      "Diplomatik yazışmalar",
+      "Batı literatürünün çevirisi"
+    ],
+    "relatedTerms": [
+      "Hariciye Nezareti",
+      "Diplomasi",
+      "Tanzimat"
+    ],
+    "order": 54
+  },
+  {
+    "id": "karantina_uygulamasi",
+    "term": "Karantina Uygulaması",
+    "definition": "II. Mahmut döneminde salgın hastalıkları önlemek amacıyla başlatılan sağlık tedbirleridir. Modernleşme sürecinde sosyal devlet anlayışının bir göstergesidir.",
+    "examples": [
+      "Meclis-i Tahaffuz",
+      "Salgın hastalık kontrolü"
+    ],
+    "relatedTerms": [
+      "II. Mahmut",
+      "Modernleşme",
+      "Sosyal Devlet"
+    ],
+    "order": 55
+  },
+  {
+    "id": "cariyeler_sistemi",
+    "term": "Harem",
+    "definition": "Sarayın kadınlara ayrılan bölümü olup padişahın ailesinin yaşadığı yerdir. Aynı zamanda devlet adamı yetiştiren bir eğitim kurumu işlevi görmüştür.",
+    "examples": [
+      "Hürrem Sultan'ın etkisi",
+      "Valide Sultan otoritesi"
+    ],
+    "relatedTerms": [
+      "Harem-i Hümayun",
+      "Cariye",
+      "Valide Sultan"
+    ],
+    "order": 56
+  },
+  {
+    "id": "dirlik_sistemi",
+    "term": "Dirlik Sistemi",
+    "definition": "Devletin toprak gelirlerini memurlara ve askerlere maaş karşılığı bırakmasıdır. Üretimde sürekliliği ve ordunun hazır bulunmasını sağlar.",
+    "examples": [
+      "Has",
+      "Zeamet",
+      "Tımar"
+    ],
+    "relatedTerms": [
+      "Tımar Sistemi",
+      "Cebelü",
+      "Miri Arazi"
+    ],
+    "order": 57
+  },
+  {
+    "id": "ilmiye_sinifi",
+    "term": "İlmiye Sınıfı",
+    "definition": "Osmanlı'da eğitim, hukuk ve din işlerinden sorumlu olan sınıftır. Başında Şeyhülislam bulunur.",
+    "examples": [
+      "Kadı",
+      "Müderris",
+      "Kazasker"
+    ],
+    "relatedTerms": [
+      "Seyfiye",
+      "Kalemiye",
+      "Şeyhülislam"
+    ],
+    "order": 58
+  },
+  {
+    "id": "seyfiye_sinifi",
+    "term": "Seyfiye Sınıfı",
+    "definition": "Osmanlı'da yönetim ve askeri işlerden sorumlu olan sınıftır. Kılıç kullanma yetkisi olan yöneticileri kapsar.",
+    "examples": [
+      "Sadrazam",
+      "Yeniçeri Ağası",
+      "Kaptan-ı Derya"
+    ],
+    "relatedTerms": [
+      "İlmiye",
+      "Kalemiye",
+      "Vezir-i Azam"
+    ],
+    "order": 59
+  },
+  {
+    "id": "kalemiye_sinifi",
+    "term": "Kalemiye Sınıfı",
+    "definition": "Devletin bürokratik, mali ve yazışma işlerini yürüten sınıftır. Devletin kalem işlerinden sorumludurlar.",
+    "examples": [
+      "Nişancı",
+      "Defterdar",
+      "Reisülküttab"
+    ],
+    "relatedTerms": [
+      "Divan-ı Hümayun",
+      "Maliye",
+      "Bürokrasi"
+    ],
+    "order": 60
+  },
+  {
+    "id": "vaka_i_vakvakiye",
+    "term": "Vaka-i Vakvakiye",
+    "definition": "IV. Mehmet döneminde yeniçerilerin devleti yönetenleri ağaçlara asarak öldürdüğü isyandır. Çınar Vakası olarak da bilinir.",
+    "examples": [
+      "IV. Mehmet dönemi",
+      "Yeniçeri isyanları"
+    ],
+    "relatedTerms": [
+      "Yeniçeri İsyanı",
+      "IV. Mehmet",
+      "Saray İsyanları"
+    ],
+    "order": 61
+  },
+  {
+    "id": "malikane_sistemi",
+    "term": "Malikane Sistemi",
+    "definition": "Tımar sisteminin bozulmasıyla toprakların ömür boyu kişilere devredilmesidir. Merkezi otoritenin zayıflamasına neden olmuştur.",
+    "examples": [
+      "Ayanların güçlenmesi",
+      "İltizamın yaygınlaşması"
+    ],
+    "relatedTerms": [
+      "İltizam",
+      "Ayan",
+      "Tımar"
+    ],
+    "order": 62
+  },
+  {
+    "id": "cereme",
+    "term": "Cereme",
+    "definition": "Osmanlı'da suç işleyenlerin ödediği tazminat veya ceza bedelidir. Hukuk sisteminde tazminat mantığına dayanır.",
+    "examples": [
+      "Suç tazminatı",
+      "Hukuki yaptırım"
+    ],
+    "relatedTerms": [
+      "Şer'i Hukuk",
+      "Örfi Hukuk",
+      "Kadı"
+    ],
+    "order": 63
+  },
+  {
+    "id": "tertip_i_cedid",
+    "term": "Tertip-i Cedid",
+    "definition": "Tanzimat döneminde askeri ve idari alanda yapılan yeni düzenlemeleri ifade etmek için kullanılan terimdir.",
+    "examples": [
+      "Askeri reformlar",
+      "İdari düzenlemeler"
+    ],
+    "relatedTerms": [
+      "Tanzimat",
+      "Islahat",
+      "Modernleşme"
+    ],
+    "order": 64
+  },
+  {
+    "id": "muhtesip",
+    "term": "Muhtesip",
+    "definition": "Çarşı ve pazarlarda fiyatları, ölçü aletlerini ve ürün kalitesini denetleyen görevlidir. Belediye hizmetlerine benzer işler yapar.",
+    "examples": [
+      "Narh sistemi denetimi",
+      "Esnaf kontrolü"
+    ],
+    "relatedTerms": [
+      "Narh",
+      "Lonca",
+      "Belediye"
+    ],
+    "order": 65
+  },
+  {
+    "id": "cizye",
+    "term": "Cizye",
+    "definition": "Osmanlı Devleti'nde gayrimüslim erkeklerin askerlik yapmama karşılığında devlete ödedikleri baş vergisidir. Devletin temel gelir kaynaklarından biridir.",
+    "examples": [
+      "Gayrimüslimlerin askerlikten muaf tutulması karşılığında ödediği vergi."
+    ],
+    "relatedTerms": [
+      "Haraç",
+      "Millet Sistemi",
+      "Zimmi"
+    ],
+    "order": 66
+  },
+  {
+    "id": "ahilik",
+    "term": "Ahilik",
+    "definition": "Anadolu'da kurulan esnaf ve zanaatkarlar teşkilatıdır. Hem mesleki eğitim verir hem de üyeleri arasında dini ve ahlaki değerleri korur.",
+    "examples": [
+      "Osmanlı'nın kuruluş döneminde esnafın örgütlenmesi."
+    ],
+    "relatedTerms": [
+      "Lonca",
+      "Fütüvvet",
+      "Esnaf"
+    ],
+    "order": 67
+  },
+  {
+    "id": "vakif_sistemi",
+    "term": "Vakıf Sistemi",
+    "definition": "Kişilerin taşınır veya taşınmaz mallarını toplumsal hizmet amacıyla devretmesidir. Sosyal devlet anlayışının en önemli göstergesidir.",
+    "examples": [
+      "İmaret, hastane ve medrese yapımı."
+    ],
+    "relatedTerms": [
+      "Sosyal Devlet",
+      "Hayır Kurumu",
+      "Vakfiye"
+    ],
+    "order": 68
+  },
+  {
+    "id": "karlofca_antlasmasi",
+    "term": "Karlofça Antlaşması",
+    "definition": "Osmanlı Devleti'nin batıda büyük ölçüde toprak kaybettiği ve gerileme döneminin resmen başladığı kabul edilen 1699 tarihli antlaşmadır. İlk kez müzakere yoluyla diplomasi kullanılmıştır.",
+    "examples": [
+      "Avusturya, Venedik ve Lehistan ile imzalanmıştır.",
+      "Osmanlı'nın Orta Avrupa'daki hakimiyeti sona ermiştir."
+    ],
+    "relatedTerms": [
+      "Gerileme Dönemi",
+      "Kutsal İttifak",
+      "Diplomasi"
+    ],
+    "order": 69
+  },
+  {
+    "id": "hunkar_iskelesi",
+    "term": "Hünkar İskelesi Antlaşması",
+    "definition": "1833 yılında Rusya ile imzalanan, Osmanlı'nın Boğazlar üzerindeki mutlak egemenlik hakkını kullandığı son antlaşmadır. Boğazlar meselesi ilk kez uluslararası bir sorun haline gelmiştir.",
+    "examples": [
+      "Rusya'nın Osmanlı'yı koruma garantisi vermesi.",
+      "Boğazlar sorununun başlangıcı sayılır."
+    ],
+    "relatedTerms": [
+      "Boğazlar Sorunu",
+      "Rusya",
+      "Mehmet Ali Paşa İsyanı"
+    ],
+    "order": 70
+  },
+  {
+    "id": "baltalimani_ticaret_antlasmasi",
+    "term": "Baltalimanı Ticaret Antlaşması",
+    "definition": "1838 yılında İngiltere ile imzalanan ve Osmanlı'yı dışa bağımlı hale getiren serbest ticaret antlaşmasıdır. Yerli tüccarın yabancı tüccar karşısında rekabet gücünü kaybetmesine neden olmuştur.",
+    "examples": [
+      "Osmanlı ekonomisinin yarı sömürge haline gelmesi.",
+      "Yed-i vahit sisteminin kaldırılması."
+    ],
+    "relatedTerms": [
+      "Kapitülasyonlar",
+      "Ekonomi",
+      "Dış Borçlar"
+    ],
+    "order": 71
+  },
+  {
+    "id": "ziyavet_antlasmasi",
+    "term": "Zitvatorok Antlaşması",
+    "definition": "1606 yılında Avusturya ile imzalanan, Osmanlı padişahının protokol bakımından Avusturya İmparatoru'na eşit sayıldığı antlaşmadır. Osmanlı'nın Orta Avrupa'daki üstünlüğünün sona erdiğini gösterir.",
+    "examples": [
+      "Osmanlı'nın siyasi üstünlüğü sona ermiştir.",
+      "Avusturya arşidükü, Osmanlı padişahı ile denk sayılmıştır."
+    ],
+    "relatedTerms": [
+      "Avusturya",
+      "Siyasi Üstünlük",
+      "Diplomasi"
+    ],
+    "order": 72
+  },
+  {
+    "id": "kutsal_yerler_sorunu",
+    "term": "Kutsal Yerler Sorunu",
+    "definition": "Filistin'deki kutsal mekanların yönetimi konusunda Fransa ve Rusya arasında çıkan ve Kırım Savaşı'na neden olan diplomatik krizdir.",
+    "examples": [
+      "Kırım Savaşı'nın temel nedenlerinden biridir.",
+      "Osmanlı'nın denge siyaseti izlediği bir süreçtir."
+    ],
+    "relatedTerms": [
+      "Kırım Savaşı",
+      "Denge Siyaseti",
+      "Rusya"
+    ],
+    "order": 73
+  },
+  {
+    "id": "ayastefanos_antlasmasi",
+    "term": "Ayastefanos Antlaşması",
+    "definition": "93 Harbi sonunda Rusya ile imzalanan ancak yürürlüğe girmeyen ölü doğmuş bir antlaşmadır. İngiltere ve Avusturya'nın baskısıyla yerini Berlin Antlaşması'na bırakmıştır.",
+    "examples": [
+      "Büyük Bulgaristan Krallığı'nın kurulması öngörülmüştür.",
+      "Ermeni meselesinin ilk kez uluslararası platformda gündeme gelmesi."
+    ],
+    "relatedTerms": [
+      "93 Harbi",
+      "Berlin Antlaşması",
+      "Ermeni Meselesi"
+    ],
+    "order": 74
+  },
+  {
+    "id": "edirne_antlasmasi_1829",
+    "term": "Edirne Antlaşması (1829)",
+    "definition": "Yunanistan'ın bağımsızlığını kazandığı ve Osmanlı'nın imzaladığı ilk bağımsızlık antlaşmasıdır. Sırbistan'a özerklik verilmiştir.",
+    "examples": [
+      "Yunanistan'ın bağımsız bir devlet olması.",
+      "Sırplara ayrıcalık verilmesi."
+    ],
+    "relatedTerms": [
+      "Yunan İsyanı",
+      "Milliyetçilik Akımı",
+      "Sırbistan"
+    ],
+    "order": 75
+  },
+  {
+    "id": "don_volga_projesi",
+    "term": "Don-Volga Kanal Projesi",
+    "definition": "Sokullu Mehmet Paşa döneminde tasarlanan, Don ve Volga nehirlerinin birleştirilerek Rusya'nın güneye inmesini engellemek ve İpek Yolu'nu canlandırmak amacıyla planlanan projedir.",
+    "examples": [
+      "Rusya'nın güneye inmesini engellemek.",
+      "İpek Yolu ticaretini yeniden canlandırmak."
+    ],
+    "relatedTerms": [
+      "Sokullu Mehmet Paşa",
+      "İpek Yolu",
+      "Rusya"
+    ],
+    "order": 76
+  },
+  {
+    "id": "ekber_ve_ersed_sistemi",
+    "term": "Ekber ve Erşed Sistemi",
+    "definition": "I. Ahmet döneminde getirilen, tahta en yaşlı ve en olgun (akıllı) hanedan üyesinin geçmesini öngören veraset sistemidir. Bu sistemle taht kavgaları bir nebze azaltılmaya çalışılmış, ancak şehzadelerin sancağa çıkma uygulamasının kaldırılmasıyla tecrübesiz padişahların tahta geçmesine neden olmuştur. Osmanlı veraset sisteminde köklü bir değişikliktir.",
+    "examples": [
+      "I. Ahmet'ten sonra tahta çıkan I. Mustafa'nın akli dengesinin yerinde olmaması, bu sistemin olumsuz sonuçlarından biri olarak gösterilir.",
+      "Bu sistem, kardeş katli uygulamasını büyük ölçüde sona erdirmiştir."
+    ],
+    "relatedTerms": [
+      "Veraset Sistemi",
+      "Kafes Sistemi",
+      "Kardeş Katli",
+      "I. Ahmet"
+    ],
+    "order": 77
+  },
+  {
+    "id": "gerileme_donemi",
+    "term": "Gerileme Dönemi",
+    "definition": "Osmanlı tarihinde 1699 Karlofça Antlaşması ile başlayıp 1792 Yaş Antlaşması'na kadar süren dönemdir. Bu dönemde Osmanlı Devleti, kaybettiği toprakları geri alma ve Avrupa karşısında denge kurma politikası izlemiştir. Askeri ve ekonomik alanda bozulmaların hızlandığı bir süreçtir.",
+    "examples": [
+      "Karlofça Antlaşması ile büyük toprak kayıpları yaşanması, bu dönemin başlangıcı kabul edilir.",
+      "Yaş Antlaşması ile Kırım'ın Rusya'ya ait olduğu resmen kabul edilmiştir."
+    ],
+    "relatedTerms": [
+      "Karlofça Antlaşması",
+      "Yaş Antlaşması",
+      "Duraklama Dönemi",
+      "Lale Devri"
+    ],
+    "order": 78
+  },
+  {
+    "id": "lale_devri",
+    "term": "Lale Devri",
+    "definition": "1718 Pasarofça Antlaşması ile başlayıp 1730 Patrona Halil İsyanı ile sona eren, III. Ahmet dönemindeki barış ve yenileşme dönemidir. Bu dönemde Avrupa'ya ilk kez elçiler gönderilmiş, matbaa getirilmiş ve sanatsal faaliyetler artmıştır. Ancak lüks ve israfın artması, halkın tepkisine neden olmuştur.",
+    "examples": [
+      "İbrahim Müteferrika ve Said Efendi'nin ilk Türk matbaasını kurması, Lale Devri'nin önemli olaylarındandır.",
+      "Paris'e gönderilen ilk daimi elçi Yirmisekiz Çelebi Mehmet Efendi, Avrupa'daki gelişmeleri rapor etmiştir."
+    ],
+    "relatedTerms": [
+      "III. Ahmet",
+      "Patrona Halil İsyanı",
+      "Pasarofça Antlaşması",
+      "Matbaa"
+    ],
+    "order": 79
+  },
+  {
+    "id": "denge_politikasi",
+    "term": "Denge Politikası",
+    "definition": "Osmanlı Devleti'nin 18. yüzyıl sonlarından itibaren, Avrupalı büyük devletlerin (İngiltere, Fransa, Rusya) kendi çıkarları doğrultusunda birbirleriyle olan rekabetinden faydalanarak varlığını sürdürme stratejisidir. Bir devletin desteğini alarak diğer devletin baskısını dengeleme amacı taşır. Özellikle Kırım Savaşı döneminde belirginleşmiştir.",
+    "examples": [
+      "Kırım Savaşı'nda İngiltere ve Fransa'nın desteğinin alınması, denge politikasının bir sonucudur.",
+      "Mısır Meselesi'nde Mehmet Ali Paşa'ya karşı İngiltere'nin desteğinin aranması."
+    ],
+    "relatedTerms": [
+      "Kırım Savaşı",
+      "Şark Meselesi",
+      "Mısır Meselesi",
+      "Avrupa Devletleri"
+    ],
+    "order": 80
+  },
+  {
+    "id": "sark_meselesi",
+    "term": "Şark Meselesi",
+    "definition": "Avrupalı büyük devletlerin 18. yüzyıldan itibaren Osmanlı Devleti'nin topraklarını paylaşma ve Türkleri Avrupa'dan atma politikasına verilen addır. Osmanlı'nın zayıflamasıyla ortaya çıkan bu sorun, özellikle Balkanlar ve boğazlar üzerinde yoğunlaşmıştır. Avrupa diplomasisinin önemli gündem maddelerinden biri olmuştur.",
+    "examples": [
+      "Berlin Antlaşması'nda Osmanlı topraklarının paylaşılması, Şark Meselesi'nin somut bir sonucudur.",
+      "Rusya'nın sıcak denizlere inme politikası, Şark Meselesi'nin önemli bir boyutudur."
+    ],
+    "relatedTerms": [
+      "Berlin Antlaşması",
+      "Boğazlar Meselesi",
+      "Balkan Savaşları",
+      "Denge Politikası"
+    ],
+    "order": 81
+  },
+  {
+    "id": "yeniçeri_ocağı",
+    "term": "Yeniçeri Ocağı",
+    "definition": "Osmanlı Devleti'nin Kapıkulu piyade ocaklarının en önemlisi ve en kalabalık olanıdır. Devşirme sistemiyle yetiştirilen profesyonel askerlerden oluşurdu. Başlangıçta ordunun vurucu gücü olmasına rağmen, zamanla disiplinsizleşerek ve siyasete karışarak devlet için sorun haline gelmiştir.",
+    "examples": [
+      "Fatih Sultan Mehmet'in İstanbul'u fethinde Yeniçeriler önemli rol oynamıştır.",
+      "II. Mahmut tarafından Vaka-i Hayriye ile kaldırılmıştır."
+    ],
+    "relatedTerms": [
+      "Devşirme Sistemi",
+      "Kapıkulu Ocakları",
+      "Vaka-i Hayriye",
+      "Sekban-ı Cedid"
+    ],
+    "order": 82
+  },
+  {
+    "id": "ikinci_mesrutiyet",
+    "term": "İkinci Meşrutiyet",
+    "definition": "1908 yılında İttihat ve Terakki Cemiyeti'nin baskısıyla II. Abdülhamit tarafından Kanun-i Esasi'nin yeniden yürürlüğe konulmasıyla başlayan dönemdir. Bu dönemde siyasi partiler kurulmuş, çok partili hayata geçişin ilk adımları atılmıştır. Ancak 31 Mart Vakası gibi olaylarla siyasi istikrarsızlık yaşanmıştır.",
+    "examples": [
+      "İttihat ve Terakki'nin yönetime etkin olarak katılması bu dönemin belirleyici özelliğidir.",
+      "31 Mart Vakası, meşrutiyet rejimine karşı çıkan ilk isyan olma özelliğini taşır."
+    ],
+    "relatedTerms": [
+      "II. Abdülhamit",
+      "İttihat ve Terakki",
+      "31 Mart Vakası",
+      "Kanun-i Esasi",
+      "Mebusan Meclisi"
+    ],
+    "order": 83
+  },
+  {
+    "id": "ittihat_ve_terakki_cemiyeti",
+    "term": "İttihat ve Terakki Cemiyeti",
+    "definition": "Osmanlı Devleti'nin son dönemlerinde etkili olmuş, Meşrutiyet'in ilanında ve korunmasında önemli rol oynamış siyasi bir örgüttür. Başlangıçta gizli bir cemiyet olarak kurulmuş, daha sonra siyasi parti haline gelmiştir. 1908'den sonra ülke yönetiminde etkin rol oynamış, özellikle Balkan Savaşları ve I. Dünya Savaşı döneminde iktidarda kalmıştır.",
+    "examples": [
+      "II. Meşrutiyet'in ilanında ve 31 Mart Vakası'nın bastırılmasında etkili olmuşlardır.",
+      "Enver Paşa, Talat Paşa ve Cemal Paşa gibi liderleri vardır."
+    ],
+    "relatedTerms": [
+      "Jön Türkler",
+      "İkinci Meşrutiyet",
+      "31 Mart Vakası",
+      "Bab-ı Ali Baskını"
+    ],
+    "order": 84
+  },
+  {
+    "id": "bab_i_ali_baskini",
+    "term": "Bab-ı Ali Baskını",
+    "definition": "23 Ocak 1913 tarihinde İttihat ve Terakki Cemiyeti tarafından gerçekleştirilen hükümet darbesidir. Bu baskınla Kamil Paşa hükümeti devrilmiş ve İttihat ve Terakki Cemiyeti, Enver Paşa'nın liderliğinde yönetimi tamamen ele geçirmiştir. Balkan Savaşları'ndaki başarısızlıklar darbenin gerekçesi olarak gösterilmiştir.",
+    "examples": [
+      "Harbiye Nazırı Nazım Paşa'nın öldürülmesi, baskının kanlı geçtiğini gösterir.",
+      "Bu olaydan sonra Osmanlı Devleti I. Dünya Savaşı'na İttihat ve Terakki'nin kararlarıyla girmiştir."
+    ],
+    "relatedTerms": [
+      "İttihat ve Terakki Cemiyeti",
+      "Enver Paşa",
+      "Balkan Savaşları",
+      "İkinci Meşrutiyet"
+    ],
+    "order": 85
+  },
+  {
+    "id": "sancağa_çıkma_usulü",
+    "term": "Sancağa Çıkma Usulü",
+    "definition": "Osmanlı şehzadelerinin devlet yönetimi tecrübesi kazanmaları için belirli sancaklara gönderilmesi uygulamasıdır. Şehzadeler burada vali gibi görev yaparak idari, askeri ve mali konularda deneyim kazanırdı. Bu usul, taht kavgalarını azaltmayı ve deneyimli padişahlar yetiştirmeyi amaçlardı.",
+    "examples": [
+      "Fatih Sultan Mehmet'in Manisa Sancağı'nda görev yapması, Sancağa Çıkma Usulü'nün önemli bir örneğidir.",
+      "Şehzade Mustafa'nın Amasya Sancağı'nda bulunması, bu uygulamanın bir parçasıdır."
+    ],
+    "relatedTerms": [
+      "Şehzade",
+      "Veraset Sistemi",
+      "Taht Kavgaları"
+    ],
+    "order": 86
+  },
+  {
+    "id": "ferman",
+    "term": "Ferman",
+    "definition": "Osmanlı padişahlarının herhangi bir konuda verdiği yazılı emir veya buyruktur. Fermanlar, devletin yasama, yürütme ve yargı alanındaki kararlarını halka duyurmak ve uygulamak için kullanılırdı. Padişahın mutlak otoritesini temsil ederdi.",
+    "examples": [
+      "Bir bölgede yeni bir vergi uygulaması başlatılması bir fermanla duyurulurdu.",
+      "Padişahın bir kadıyı görevden alması veya ataması ferman ile gerçekleşirdi."
+    ],
+    "relatedTerms": [
+      "Padişah",
+      "Berat",
+      "Kanunname",
+      "Hatt-ı Hümayun"
+    ],
+    "order": 87
+  },
+  {
+    "id": "misak_i_milli",
+    "term": "Misak-ı Milli",
+    "definition": "Osmanlı Mebusan Meclisi tarafından 28 Ocak 1920'de kabul edilen, Türk Kurtuluş Savaşı'nın siyasi manifestosu niteliğindeki altı maddelik bildiridir. Türkiye'nin bağımsızlık ve toprak bütünlüğü hedeflerini ortaya koymuştur.",
+    "examples": [
+      "Misak-ı Milli kararları, İtilaf Devletleri tarafından İstanbul'un işgaline neden olmuştur.",
+      "Lozan Barış Konferansı'nda Türk heyetinin temel dayanağını Misak-ı Milli ilkeleri oluşturmuştur."
+    ],
+    "relatedTerms": [
+      "Mebusan Meclisi",
+      "Kurtuluş Savaşı",
+      "Lozan Antlaşması"
+    ],
+    "order": 88
+  }
+]

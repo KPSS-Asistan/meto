@@ -1,0 +1,92 @@
+[
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "title": "Bölüm 1: Eşitsizlik Kavramı ve Temel Özellikleri",
+    "content": "Bir zamanlar, matematik diyarında sayılar arasında bir denge vardı. Ancak bazen bu denge bozulur, bir sayı diğerinden 'daha büyük', 'daha küçük' ya da 'eşit veya daha büyük', 'eşit veya daha küçük' olabilirdi. İşte bu durumları ifade etmek için Eşitsizlikler kavramı ortaya çıktı. Küçük (<), büyük (>), küçük eşit (≤) ve büyük eşit (≥) sembolleri, sayıların bu özel ilişkilerini gösteren gizemli anahtarlardı. Sayılar, tıpkı bir terazinin kefeleri gibiydi; bir tarafa sayı eklediğimizde veya çıkardığımızda, diğer tarafa da aynısını yaparsak denge (eşitsizlik) korunurdu. Ama dikkat! Eğer bir terazinin kefelerindeki ağırlıkları negatif bir sayıyla çarpar veya bölersek, terazinin yönü aniden tersine dönerdi. Yani, 'daha ağır' olan bir anda 'daha hafif' duruma düşebilirdi! Ayrıca, sayı doğrusu üzerindeki belirli bir aralığı ifade etmek için de özel gösterimler vardı: açık aralıklar (parantezlerle gösterilen, uç noktaların dahil olmadığı), kapalı aralıklar (köşeli parantezlerle gösterilen, uç noktaların dahil olduğu) ve yarı açık aralıklar (bir tarafı dahil, diğer tarafı hariç olan). Bu gösterimler, çözüm kümelerini görselleştirmek için vazgeçilmezdi.",
+    "key_points": [
+      "Eşitsizlik tanımı ve gösterimleri (<, >, ≤, ≥)",
+      "Eşitsizliklerin toplama, çıkarma, çarpma ve bölme işlemleriyle ilişkisi",
+      "Eşitsizlik yönünün değiştiği durumlar (negatif sayıyla çarpma/bölme)",
+      "Aralık kavramı ve gösterimleri (açık aralık, kapalı aralık, yarı açık aralık)"
+    ],
+    "type": "story",
+    "id": "story_1776013561432_0",
+    "createdAt": "2026-04-12T17:06:01.432Z",
+    "updatedAt": "2026-04-12T17:06:01.432Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:06:09.615Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_ESITSIZLIK_MUTLAK_0.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "title": "Bölüm 2: Birinci Dereceden Bir Bilinmeyenli Eşitsizlikler ve Çözüm Kümeleri",
+    "content": "Matematik köyünde, bir bilinmeyenli eşitsizlikler adeta bir bilmece gibiydi. 'x' adında gizemli bir kahraman vardı ve onun hangi değerleri alabileceğini bulmak gerekiyordu. Bu bilmeceleri çözmek için belirli adımlar izlenirdi: önce 'x'i yalnız bırakmak için denklemlerdeki gibi işlemler yapılır, ancak eşitsizlik yönünün negatif sayıyla çarpma/bölme durumunda değiştiği unutulmazdı. Çözüm bulunduğunda, bu çözümlerin oluşturduğu küme, sayı doğrusu üzerinde bir gölge gibi işaretlenirdi. Örneğin, 'x > 3' ise, 3'ün sağındaki tüm sayılar çözüm kümesi olurdu. Bazen iki farklı bilmece aynı anda sorulurdu; bu durumda her iki bilmecenin de ortak çözümünü bulmak için kesişim kümeleri oluşturulurdu. Gerçek hayatta da bu bilmecelerle sıkça karşılaşılırdı. Örneğin, 'bir otobüs en fazla 50 yolcu taşıyabilir' dediğimizde, yolcu sayısı (y) için 'y ≤ 50' gibi bir eşitsizlik modeli kurmuş olurduk. Bu sayede, günlük hayattaki kısıtlamaları ve sınırları matematiksel olarak ifade edebilir, problemlerimize çözümler bulabilirdik.",
+    "key_points": [
+      "Doğrusal eşitsizliklerin çözümü için adımlar",
+      "Çözüm kümesinin sayı doğrusunda gösterimi",
+      "Eşitsizlik sistemlerinin çözümü ve kesişim kümeleri",
+      "Gerçek hayat problemlerinde eşitsizliklerin modellenmesi"
+    ],
+    "type": "story",
+    "id": "story_1776013561432_1",
+    "createdAt": "2026-04-12T17:06:01.432Z",
+    "updatedAt": "2026-04-12T17:06:01.432Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:06:09.615Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_ESITSIZLIK_MUTLAK_1.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "title": "Bölüm 3: Mutlak Değer Kavramı ve Özellikleri",
+    "content": "Matematik diyarında bir de 'Mutlak Değer' adında özel bir büyü vardı. Bu büyü, bir sayının sayı doğrusu üzerindeki sıfıra olan uzaklığını ifade ederdi, yönü ne olursa olsun her zaman pozitif bir sonuç verirdi. Tıpkı bir pusula gibi, sadece mesafeyi ölçerdi, hangi yöne gidildiğini değil. Cebirsel olarak ifade etmek gerekirse, eğer bir sayı (x) sıfırdan büyük veya eşitse, mutlak değeri kendisiydi (|x| = x). Ama eğer sayı sıfırdan küçükse, mutlak değeri onun negatif haliydi (|x| = -x), yani onu pozitif yapardı. Bu büyünün bazı temel özellikleri vardı: her sayının mutlak değeri her zaman sıfırdan büyük veya eşitti (|x| ≥ 0). Bir sayının pozitifinin veya negatifinin mutlak değeri aynıydı (|-x| = |x|). İki sayının çarpımının mutlak değeri, mutlak değerlerinin çarpımına eşitti (|xy| = |x||y|). Aynı şekilde, iki sayının bölümünün mutlak değeri de mutlak değerlerinin bölümüne eşitti (|x/y| = |x|/|y|). Bu özellikler sayesinde, karmaşık görünen mutlak değerli ifadeleri basitleştirebilir ve matematiksel problemleri daha kolay çözebilirdik. Mutlak değer, sayıların gizli mesafelerini ortaya çıkaran güçlü bir araçtı.",
+    "key_points": [
+      "Mutlak değerin tanımı (sayı doğrusunda uzaklık)",
+      "Mutlak değerin cebirsel tanımı (|x| = x, eğer x≥0; |x| = -x, eğer x<0)",
+      "Mutlak değerin temel özellikleri (|x|≥0, |-x|=|x|, |xy|=|x||y|, |x/y|=|x|/|y|)",
+      "Mutlak değerli ifadelerin sadeleştirilmesi"
+    ],
+    "type": "story",
+    "id": "story_1776013561432_2",
+    "createdAt": "2026-04-12T17:06:01.432Z",
+    "updatedAt": "2026-04-12T17:06:01.432Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:06:09.615Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_ESITSIZLIK_MUTLAK_2.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "title": "Bölüm 4: Mutlak Değer İçeren Denklemler",
+    "content": "Bir varmış bir yokmuş, KPSS diyarının matematik krallığında, mutlak değer adında gizemli bir büyücü yaşarmış. Bu büyücünün en büyük özelliği, sayıları her zaman pozitif göstermesiymiş. Günlerden bir gün, krallıkta 'Mutlak Değer İçeren Denklemler' adında karmaşık bilmeceler ortaya çıkmış. Kimi zaman 'ax+b' adlı bir kasabanın gizemli gücünün 'c' adlı bir hazineye eşit olduğu söylentisi yayılmış. Büyücü, 'c' hazinesi negatif olmadığı sürece (c≥0 durumu), bu kasabanın ya doğrudan hazineye eşit olduğunu ya da hazinenin gizli yansımasına (-c) eşit olduğunu fısıldamış. Böylece, |ax+b|=c şeklindeki denklemlerin sırrı çözülmüş. Bir başka zaman, iki farklı kasabanın, yani 'ax+b' ve 'cx+d'nin gizemli güçlerinin birbirine eşit olduğu, yani |ax+b|=|cx+d| olduğu görülmüş. Bu durumda büyücü, kasabalardan birinin diğerine aynen eşit olduğunu ya da diğerinin tam tersine eşit olduğunu söylemiş. Ancak en zorlu bilmeceler, birden fazla mutlak değer içeren denklemlerdi. Bu durumlarda, büyücü 'kritik noktalar' adında özel işaretler kullanırmış. Her mutlak değerin içini sıfır yapan noktaları bulur, sayı doğrusunu bu noktalara göre bölgelere ayırır ve her bölgede mutlak değerleri işaretlerine göre açarak ayrı ayrı denklemler çözermiş. Sonunda, her denklemin çözüm kümesi özenle bir araya getirilerek krallığın huzuru sağlanırmış.",
+    "key_points": [
+      "|ax+b|=c şeklindeki denklemlerin çözümü (c≥0 durumu)",
+      "|ax+b|=|cx+d| şeklindeki denklemlerin çözümü",
+      "Birden fazla mutlak değer içeren denklemlerin kritik noktalar yöntemiyle çözümü",
+      "Mutlak değerli denklemlerin çözüm kümeleri"
+    ],
+    "type": "story",
+    "id": "story_1776013569615_0",
+    "createdAt": "2026-04-12T17:06:09.615Z",
+    "updatedAt": "2026-04-12T17:06:09.615Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:06:17.393Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_ESITSIZLIK_MUTLAK_3.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "title": "Bölüm 5: Mutlak Değer İçeren Eşitsizlikler",
+    "content": "Matematik krallığında maceralar bitmek bilmezmiş. Mutlak değer büyücüsü, bu kez 'Eşitsizlikler' adında yeni bir meydan okumayla karşı karşıyaymış. Kasabaların gizemli gücü artık belirli bir hazineden küçük ya da büyük olabiliyormuş. Örneğin, |ax+b|<c ve |ax+b|≤c şeklindeki eşitsizlikler ortaya çıktığında, büyücü, kasabanın gücünün -c ile c hazineleri arasında bir yerde olduğunu fısıldamış. Yani, -c < ax+b < c şeklinde bir aralıkta çözüm aranırmış. Eğer güç, |ax+b|>c ve |ax+b|≥c şeklinde hazineden daha büyükse, o zaman kasabanın gücü ya direkt c'den büyük ya da -c'den küçük olmak zorundaymış. Yani, ax+b > c veya ax+b < -c şeklinde iki ayrı çözüm kümesi bulunmuş. En ilginç durumlardan biri ise, c < |ax+b| < d şeklinde iki farklı hazine arasında sıkışmış güçlerdi. Burada büyücü, bu eşitsizliği iki ayrı parçaya ayırırmış: c < |ax+b| ve |ax+b| < d. Her birini ayrı ayrı çözüp, her iki koşulu da sağlayan ortak bölgeleri bulurmuş. Tüm bu maceraların sonunda, bulunan çözüm kümeleri, krallığın haritası olan sayı doğrusu üzerinde net bir şekilde işaretlenerek, tüm kargaşa son bulurmuş. Böylece, mutlak değerli eşitsizliklerin sırrı da çözülmüş olurmuş.",
+    "key_points": [
+      "|ax+b|<c ve |ax+b|≤c şeklindeki eşitsizliklerin çözümü",
+      "|ax+b|>c ve |ax+b|≥c şeklindeki eşitsizliklerin çözümü",
+      "c < |ax+b| < d şeklindeki eşitsizliklerin çözümü",
+      "Mutlak değerli eşitsizliklerin çözüm kümelerinin sayı doğrusunda gösterimi"
+    ],
+    "type": "story",
+    "id": "story_1776013569615_1",
+    "createdAt": "2026-04-12T17:06:09.615Z",
+    "updatedAt": "2026-04-12T17:06:09.615Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:06:17.393Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_ESITSIZLIK_MUTLAK_4.mp3?alt=media"
+  }
+]

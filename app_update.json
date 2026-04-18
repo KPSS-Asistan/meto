@@ -1,0 +1,17 @@
+{
+    "last_updated": "2026-04-13",
+    "android": {
+        "min_version": "1.0.0",
+        "latest_version": "1.0.10",
+        "force_update": true,
+        "update_message": "🚨 ZORUNLU GÜNCELLEME: Bu versiyon artık desteklenmiyor. Lütfen güncelleyin.",
+        "store_url": "https://play.google.com/store/apps/details?id=kpss.asistan"
+    },
+    "ios": {
+        "min_version": "1.0.0",
+        "latest_version": "1.0.9",
+        "force_update": false,
+        "update_message": "Yeni özellikler ve performans iyileştirmeleri mevcut!",
+        "store_url": "https://apps.apple.com/app/kpss-asistan"
+    }
+}

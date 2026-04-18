@@ -1,0 +1,1324 @@
+[
+  {
+    "id": "kok",
+    "term": "Kök",
+    "definition": "Bir kelimenin anlamlı, daha küçük parçalara ayrılamayan en küçük yapı taşıdır. İsim kökü ve fiil kökü olmak üzere ikiye ayrılır.",
+    "examples": [
+      "Göz-lük kelimesinin kökü 'göz'dür.",
+      "Gel-di kelimesinin kökü 'gel'dir."
+    ],
+    "relatedTerms": [
+      "Gövde",
+      "Ek",
+      "İsim Kökü",
+      "Fiil Kökü"
+    ],
+    "order": 1
+  },
+  {
+    "id": "isim_koku",
+    "term": "İsim Kökü",
+    "definition": "Varlıkların, kavramların veya duyguların ismi olan, -mak/-mek mastar ekini alamayan köklerdir. İsim kökleri cümlede isim soylu görev üstlenir.",
+    "examples": [
+      "Kitap, masa, su, akıl."
+    ],
+    "relatedTerms": [
+      "Fiil Kökü",
+      "Sesteş Kök",
+      "Ortak Kök"
+    ],
+    "order": 2
+  },
+  {
+    "id": "fiil_koku",
+    "term": "Fiil Kökü",
+    "definition": "İş, oluş veya hareket bildiren, -mak/-mek mastar ekini alabilen köklerdir. Fiil kökleri çekim eki alarak zaman veya kişi bildirebilir.",
+    "examples": [
+      "Gel-, yaz-, oku-, koş-."
+    ],
+    "relatedTerms": [
+      "İsim Kökü",
+      "Çekim Eki",
+      "Yapım Eki"
+    ],
+    "order": 3
+  },
+  {
+    "id": "sestes_kok",
+    "term": "Sesteş Kök",
+    "definition": "Yazılışları aynı ancak anlamları tamamen farklı olan köklerdir. Aralarında hiçbir anlam ilişkisi bulunmaz.",
+    "examples": [
+      "Yüz (sayı), yüz (çehre), yüz (yüzmek).",
+      "Gül (çiçek), gül (gülmek)."
+    ],
+    "relatedTerms": [
+      "Ortak Kök",
+      "Kök",
+      "Anlamdaş"
+    ],
+    "order": 4
+  },
+  {
+    "id": "ortak_kok",
+    "term": "Ortak Kök (İkili Kök)",
+    "definition": "Hem isim hem fiil olarak kullanılabilen ve aralarında anlam ilişkisi bulunan köklerdir. Cümledeki kullanıma göre türü belirlenir.",
+    "examples": [
+      "Boyama işi çok 'eski' (isim).",
+      "Duvarlar zamanla 'eski'di (fiil)."
+    ],
+    "relatedTerms": [
+      "Sesteş Kök",
+      "Kök",
+      "Yapım Eki"
+    ],
+    "order": 5
+  },
+  {
+    "id": "yapim_eki",
+    "term": "Yapım Eki",
+    "definition": "Geldiği kelimenin anlamını veya türünü değiştiren eklerdir. Sözcüğün yeni bir anlam kazanmasını sağlar.",
+    "examples": [
+      "Göz-lük (isimden isim), sev-gi (fiilden isim)."
+    ],
+    "relatedTerms": [
+      "Çekim Eki",
+      "Gövde",
+      "Türemiş Kelime"
+    ],
+    "order": 6
+  },
+  {
+    "id": "cekim_eki",
+    "term": "Çekim Eki",
+    "definition": "Kelimenin anlamını değiştirmeyen, onu cümlede diğer kelimelerle ilişkilendiren veya zaman/kişi bildiren eklerdir.",
+    "examples": [
+      "Kitap-lar (çoğul eki), ev-de (hal eki), gel-di (kip eki)."
+    ],
+    "relatedTerms": [
+      "Yapım Eki",
+      "İyelik Eki",
+      "Hal Eki"
+    ],
+    "order": 7
+  },
+  {
+    "id": "govde",
+    "term": "Gövde",
+    "definition": "Bir kelimenin en az bir yapım eki almış halidir. Kökten türetilmiş yeni kelime yapısıdır.",
+    "examples": [
+      "Göz-lük kelimesinde 'gözlük' gövdedir.",
+      "Kitap-lık-çı kelimesinde 'kitaplık' ve 'kitaplıkçı' gövdedir."
+    ],
+    "relatedTerms": [
+      "Kök",
+      "Yapım Eki",
+      "Türemiş Kelime"
+    ],
+    "order": 8
+  },
+  {
+    "id": "iyelik_eki",
+    "term": "İyelik Eki",
+    "definition": "İsimlere gelerek o varlığın kime ait olduğunu bildiren çekim ekleridir. Şahıs zamirleriyle ilişkilidir.",
+    "examples": [
+      "Kalem-im (benim), kalem-in (senin), kalem-i (onun)."
+    ],
+    "relatedTerms": [
+      "Çekim Eki",
+      "Tamlayan Eki",
+      "İsim Tamlaması"
+    ],
+    "order": 9
+  },
+  {
+    "id": "hal_ekleri",
+    "term": "Hal Ekleri (Durum Ekleri)",
+    "definition": "İsimlerin cümlede üstlendiği görevleri belirleyen çekim ekleridir. Yalın, belirtme, yönelme, bulunma ve ayrılma halleri vardır.",
+    "examples": [
+      "Ev-i (belirtme), ev-e (yönelme), ev-de (bulunma), ev-den (ayrılma)."
+    ],
+    "relatedTerms": [
+      "Çekim Eki",
+      "İsim",
+      "İyelik Eki"
+    ],
+    "order": 10
+  },
+  {
+    "id": "basit_kelime",
+    "term": "Basit Kelime",
+    "definition": "Hiçbir yapım eki almamış, sadece kök halindeki veya çekim eki almış kelimelerdir.",
+    "examples": [
+      "Kitaplar, yoldan, geldim."
+    ],
+    "relatedTerms": [
+      "Türemiş Kelime",
+      "Birleşik Kelime",
+      "Kök"
+    ],
+    "order": 11
+  },
+  {
+    "id": "turemis_kelime",
+    "term": "Türemiş Kelime",
+    "definition": "Kök veya gövdelere yapım eki getirilerek oluşturulan kelimelerdir. En az bir yapım eki içerirler.",
+    "examples": [
+      "Gözcü, kitaplık, sevgi, yazgı."
+    ],
+    "relatedTerms": [
+      "Basit Kelime",
+      "Birleşik Kelime",
+      "Yapım Eki"
+    ],
+    "order": 12
+  },
+  {
+    "id": "birlesik_kelime",
+    "term": "Birleşik Kelime",
+    "definition": "En az iki kelimenin bir araya gelerek yeni bir kavramı karşılamasıdır. Anlam kayması veya ses düşmesi yoluyla oluşabilirler.",
+    "examples": [
+      "Ayakkabı, hanımeli, sütlaç, kaynana."
+    ],
+    "relatedTerms": [
+      "Basit Kelime",
+      "Türemiş Kelime",
+      "Anlam Kayması"
+    ],
+    "order": 13
+  },
+  {
+    "id": "fiilden_isim_yapan_ek",
+    "term": "Fiilden İsim Yapan Ek",
+    "definition": "Fiil kök veya gövdelerine gelerek onları isim soylu kelimelere dönüştüren yapım ekleridir.",
+    "examples": [
+      "Oku-l, sev-gi, yaz-ı, seç-im."
+    ],
+    "relatedTerms": [
+      "Yapım Eki",
+      "İsimden İsim Yapan Ek",
+      "Fiilden Fiil Yapan Ek"
+    ],
+    "order": 14
+  },
+  {
+    "id": "fiilden_fiil_yapan_ek",
+    "term": "Fiilden Fiil Yapan Ek",
+    "definition": "Fiil kök veya gövdelerine gelerek anlamı değiştiren veya fiilin çatısını etkileyen yapım ekleridir.",
+    "examples": [
+      "Yaz-dır-, sev-il-, gül-üş-, kaç-ır-."
+    ],
+    "relatedTerms": [
+      "Yapım Eki",
+      "Fiil Çatısı",
+      "Fiilden İsim Yapan Ek"
+    ],
+    "order": 15
+  },
+  {
+    "id": "isim_kokleri",
+    "term": "İsim Kökleri",
+    "definition": "Varlıkların, kavramların veya duyguların ismi olan köklerdir. Mak-mek mastar ekini alamazlar.",
+    "examples": [
+      "Kitap",
+      "Masa",
+      "Balık"
+    ],
+    "relatedTerms": [
+      "Fiil Kökleri",
+      "Ortak Kök",
+      "Sesteş Kök"
+    ],
+    "order": 16
+  },
+  {
+    "id": "fiil_kokleri",
+    "term": "Fiil Kökleri",
+    "definition": "İş, oluş veya hareket bildiren köklerdir. Mak-mek mastar ekini alabilirler.",
+    "examples": [
+      "Gel-",
+      "Oku-",
+      "Yaz-"
+    ],
+    "relatedTerms": [
+      "İsim Kökleri",
+      "Yapım Eki",
+      "Çekim Eki"
+    ],
+    "order": 17
+  },
+  {
+    "id": "fiilden_isim_yapim_eki",
+    "term": "Fiilden İsim Yapım Eki",
+    "definition": "Fiil kök veya gövdelerine gelerek onları isim soylu sözcüklere dönüştüren eklerdir.",
+    "examples": [
+      "Bil-gi",
+      "Gül-ücük",
+      "Yaz-ı"
+    ],
+    "relatedTerms": [
+      "Yapım Eki",
+      "İsimden İsim Yapım Eki",
+      "Fiilden Fiil Yapım Eki"
+    ],
+    "order": 18
+  },
+  {
+    "id": "isimden_fiil_yapim_eki",
+    "term": "İsimden Fiil Yapım Eki",
+    "definition": "İsim kök veya gövdelerine gelerek onları fiil soylu sözcüklere dönüştüren eklerdir.",
+    "examples": [
+      "Su-la-mak",
+      "Baş-la-mak",
+      "Az-al-mak"
+    ],
+    "relatedTerms": [
+      "Yapım Eki",
+      "Fiilden İsim Yapım Eki",
+      "İsimden İsim Yapım Eki"
+    ],
+    "order": 19
+  },
+  {
+    "id": "fiilden_fiil_yapim_eki",
+    "term": "Fiilden Fiil Yapım Eki",
+    "definition": "Fiil kök veya gövdelerine gelerek anlamı değiştiren veya fiilin çatısını etkileyen eklerdir.",
+    "examples": [
+      "Yaz-dır-mak",
+      "Sev-il-mek",
+      "Gör-üş-mek"
+    ],
+    "relatedTerms": [
+      "Yapım Eki",
+      "Fiilden İsim Yapım Eki",
+      "Çatı Ekleri"
+    ],
+    "order": 20
+  },
+  {
+    "id": "isimden_isim_yapim_eki",
+    "term": "İsimden İsim Yapım Eki",
+    "definition": "İsim kök veya gövdelerine gelerek yine isim soylu sözcükler türeten eklerdir.",
+    "examples": [
+      "Göz-lük",
+      "Kitap-çı",
+      "Türk-çe"
+    ],
+    "relatedTerms": [
+      "Yapım Eki",
+      "İsimden Fiil Yapım Eki",
+      "Fiilden İsim Yapım Eki"
+    ],
+    "order": 21
+  },
+  {
+    "id": "birlesik_sozcuk",
+    "term": "Birleşik Sözcük",
+    "definition": "En az iki sözcüğün yeni bir kavramı karşılamak üzere bir araya gelmesiyle oluşan sözcüklerdir. Anlam kayması, ses düşmesi veya türeme yoluyla oluşabilirler.",
+    "examples": [
+      "Hanımeli",
+      "Sütlaç",
+      "Affetmek"
+    ],
+    "relatedTerms": [
+      "Türemiş Sözcük",
+      "Basit Sözcük",
+      "Anlam Kayması"
+    ],
+    "order": 22
+  },
+  {
+    "id": "basit_sozcuk",
+    "term": "Basit Sözcük",
+    "definition": "Hiçbir yapım eki almamış, sadece çekim eki alabilen veya hiç ek almamış sözcüklerdir. Kök halindeki sözcükler de basit sözcüktür.",
+    "examples": [
+      "Kitaplar",
+      "Geldi",
+      "Masa"
+    ],
+    "relatedTerms": [
+      "Türemiş Sözcük",
+      "Birleşik Sözcük",
+      "Yapım Eki"
+    ],
+    "order": 23
+  },
+  {
+    "id": "fiilimsi_eki",
+    "term": "Fiilimsi Eki",
+    "definition": "Fiillere gelerek onları cümlede isim, sıfat veya zarf görevinde kullandıran eklerdir. Fiilimsiler yapıca türemiş sözcük kabul edilir.",
+    "examples": [
+      "Gül-en",
+      "Gel-ince",
+      "Oku-yup"
+    ],
+    "relatedTerms": [
+      "Türemiş Sözcük",
+      "Yapım Eki",
+      "Fiil"
+    ],
+    "order": 24
+  },
+  {
+    "id": "kok_turleri",
+    "term": "Kök Türleri",
+    "definition": "Sözcüğün anlamlı en küçük parçasıdır. İsim kökü ve fiil kökü olmak üzere ikiye ayrılır; ortak kök ve sesteş kök kavramları da sınavda önem taşır.",
+    "examples": [
+      "Kitap (İsim kökü)",
+      "Gel- (Fiil kökü)",
+      "Yüz (Sesteş kök)"
+    ],
+    "relatedTerms": [
+      "Sesteş Kök",
+      "Ortak Kök",
+      "Gövde"
+    ],
+    "order": 25
+  },
+  {
+    "id": "ek_fiil",
+    "term": "Ek Fiil (İmek)",
+    "definition": "İsim soylu sözcükleri yüklem yapan veya basit zamanlı fiilleri birleşik zamanlı hale getiren eklerdir. İsimlere gelerek onları çekimli hale getirir.",
+    "examples": [
+      "Öğrenciymiş",
+      "Geliyormuş",
+      "Güzeldi"
+    ],
+    "relatedTerms": [
+      "Çekim Eki",
+      "Birleşik Zamanlı Fiil"
+    ],
+    "order": 26
+  },
+  {
+    "id": "yansima_kok",
+    "term": "Yansıma Kök",
+    "definition": "Doğadaki seslerin taklidiyle oluşan köklerdir. İsim kökü olarak kabul edilirler ve yapım eki alarak fiilleşebilirler.",
+    "examples": [
+      "Horultu",
+      "Fısıltı",
+      "Çatırtı"
+    ],
+    "relatedTerms": [
+      "İsim Kökü",
+      "Yapım Eki"
+    ],
+    "order": 27
+  },
+  {
+    "id": "kaynastirma_harfi",
+    "term": "Kaynaştırma Harfi",
+    "definition": "İki ünlü yan yana gelemeyeceği için araya giren 'y, ş, s, n' harfleridir. Yapım veya çekim eki değildir, ses olayıdır.",
+    "examples": [
+      "Kitabı-n-ı",
+      "İki-y-er",
+      "Masa-s-ı"
+    ],
+    "relatedTerms": [
+      "Ses Olayları",
+      "Çekim Eki"
+    ],
+    "order": 28
+  },
+  {
+    "id": "eklesmeli_yapi",
+    "term": "Eklemeli Yapı",
+    "definition": "Türkçenin sondan eklemeli bir dil olmasıdır; kelime köklerine ekler getirilerek yeni anlamlar veya görevler kazandırılır.",
+    "examples": [
+      "Göz-lük-çü-ler-imiz-den"
+    ],
+    "relatedTerms": [
+      "Yapım Eki",
+      "Çekim Eki"
+    ],
+    "order": 29
+  },
+  {
+    "id": "birlesik_fiil",
+    "term": "Birleşik Fiil",
+    "definition": "En az iki kelimenin birleşmesiyle oluşan, anlamca kaynaşmış veya kurallı olarak kurulan fiillerdir.",
+    "examples": [
+      "Öngörmek",
+      "Yardım etmek",
+      "Yapabilmek"
+    ],
+    "relatedTerms": [
+      "Birleşik Kelime",
+      "Fiil"
+    ],
+    "order": 30
+  },
+  {
+    "id": "ilgi_eki",
+    "term": "İlgi Eki (Tamlayan Eki)",
+    "definition": "İsim tamlamalarında tamlayana gelen '-in, -ın, -un, -ün' ekidir. Belirtili isim tamlaması kurar.",
+    "examples": [
+      "Kapı-nın kolu",
+      "Okul-un bahçesi"
+    ],
+    "relatedTerms": [
+      "Çekim Eki",
+      "İsim Tamlaması"
+    ],
+    "order": 31
+  },
+  {
+    "id": "bildirme_eki",
+    "term": "Bildirme Eki (Ek Fiil)",
+    "definition": "İsimlere gelerek onları cümlede yüklem yapan ve şahıs bildiren eklerdir. Genellikle '-dir, -tır' şeklinde karşımıza çıkar.",
+    "examples": [
+      "Öğrencidir",
+      "Sınavdır"
+    ],
+    "relatedTerms": [
+      "Ek Fiil",
+      "Çekim Eki"
+    ],
+    "order": 32
+  },
+  {
+    "id": "cogul_eki",
+    "term": "Çoğul Eki",
+    "definition": "İsimlere gelerek onları sayıca birden fazla hale getiren '-lar, -ler' ekidir. Çekim ekidir, kelimenin anlamını değiştirmez.",
+    "examples": [
+      "Kitaplar",
+      "İnsanlar"
+    ],
+    "relatedTerms": [
+      "Çekim Eki",
+      "İsim"
+    ],
+    "order": 33
+  },
+  {
+    "id": "kisi_eki",
+    "term": "Kişi (Şahıs) Eki",
+    "definition": "Fiillere gelerek eylemi yapanı belirten eklerdir. Sadece fiil çekiminde kullanılır.",
+    "examples": [
+      "Geldim",
+      "Geldin",
+      "Geldi"
+    ],
+    "relatedTerms": [
+      "Çekim Eki",
+      "Fiil Çekimi"
+    ],
+    "order": 34
+  },
+  {
+    "id": "yapi_bakimindan_kelime",
+    "term": "Yapı Bakımından Kelime",
+    "definition": "Sözcüklerin ek alıp almamasına veya birleşip birleşmemesine göre sınıflandırılmasıdır.",
+    "examples": [
+      "Basit",
+      "Türemiş",
+      "Birleşik"
+    ],
+    "relatedTerms": [
+      "Yapım Eki",
+      "Birleşik Kelime"
+    ],
+    "order": 35
+  },
+  {
+    "id": "sifat_fiil",
+    "term": "Sıfat-Fiil (Ortaç)",
+    "definition": "Fiillere getirilen '-an, -ası, -mez, -ar, -dik, -ecek, -miş' ekleriyle oluşturulan, cümlede sıfat görevi gören kelimelerdir.",
+    "examples": [
+      "Gelen çocuk",
+      "Okunacak kitap"
+    ],
+    "relatedTerms": [
+      "Fiilimsi Eki",
+      "Yapım Eki"
+    ],
+    "order": 36
+  },
+  {
+    "id": "zarf_fiil",
+    "term": "Zarf-Fiil (Ulaç)",
+    "definition": "Fiillere getirilen '-ip, -erek, -meden, -ince' gibi eklerle oluşturulan, cümlede zarf tümleci görevi gören kelimelerdir.",
+    "examples": [
+      "Gülerek geldi",
+      "Koşup gitti"
+    ],
+    "relatedTerms": [
+      "Fiilimsi Eki",
+      "Yapım Eki"
+    ],
+    "order": 37
+  },
+  {
+    "id": "isim_fiil",
+    "term": "İsim-Fiil (Mastar)",
+    "definition": "Fiillere getirilen '-ma, -ış, -mak' ekleriyle oluşturulan, fiilin isim halidir.",
+    "examples": [
+      "Okumak güzeldir",
+      "Gelişi şaşırttı"
+    ],
+    "relatedTerms": [
+      "Fiilimsi Eki",
+      "Yapım Eki"
+    ],
+    "order": 38
+  },
+  {
+    "id": "ek_koku_etkisi",
+    "term": "Ek-Kök İlişkisi",
+    "definition": "Bir kelimenin kökü ile aldığı yapım eki arasındaki anlam bağıdır. Yapım eki, kökün anlamını mutlaka değiştirmelidir.",
+    "examples": [
+      "Göz-lük",
+      "Yaz-ı"
+    ],
+    "relatedTerms": [
+      "Yapım Eki",
+      "Kök"
+    ],
+    "order": 39
+  },
+  {
+    "id": "belirtme_durum_eki",
+    "term": "Belirtme Durum Eki",
+    "definition": "İsmin '-i, -ı, -u, -ü' halidir. Nesneyi belirtili hale getirir ve iyelik ekiyle karıştırılmamalıdır.",
+    "examples": [
+      "Kitabı aldım",
+      "Evi gördüm"
+    ],
+    "relatedTerms": [
+      "Hal Ekleri",
+      "İyelik Eki"
+    ],
+    "order": 40
+  },
+  {
+    "id": "anlamsal_koken_esligi",
+    "term": "Anlamsal Köken Eşliği",
+    "definition": "Ortak köklerin, isim ve fiil görevlerinde kullanıldığında aralarında anlam bağı bulunması durumudur. Sesteş köklerden farkı, anlam ilişkisinin korunmasıdır.",
+    "examples": [
+      "Boyalar duvara sürüldü (isim).",
+      "Duvarı maviye boya (fiil)."
+    ],
+    "relatedTerms": [
+      "Ortak Kök",
+      "Sesteş Kök"
+    ],
+    "order": 41
+  },
+  {
+    "id": "yardimci_ses",
+    "term": "Yardımcı Ses (Yardımcı Ünlü)",
+    "definition": "Ünsüzle biten kök veya gövdelere ünlüyle başlayan ek getirildiğinde, kelimenin yapısını bozmamak için araya giren seslerdir.",
+    "examples": [
+      "Göz-ü-n-ü (n harfi yardımcı ünsüzdür).",
+      "Kitab-ı (ı harfi yardımcı ünlüdür)."
+    ],
+    "relatedTerms": [
+      "Kaynaştırma Harfi",
+      "Ek"
+    ],
+    "order": 42
+  },
+  {
+    "id": "yapim_eki_siralamasi",
+    "term": "Yapım Eki Sıralaması",
+    "definition": "Bir kelimeye birden fazla yapım eki geldiğinde, eklerin kelimenin anlamını değiştirme sırasıdır. Genellikle önce isimden fiil, sonra fiilden isim yapan ekler gelir.",
+    "examples": [
+      "Göz-lük-çü (Gözden gözlük, gözlükten gözlükçü)."
+    ],
+    "relatedTerms": [
+      "Yapım Eki",
+      "Gövde"
+    ],
+    "order": 43
+  },
+  {
+    "id": "kuralli_birlesik_fiil",
+    "term": "Kurallı Birleşik Fiil",
+    "definition": "İki fiilin belirli kurallara göre birleşmesiyle oluşan özel anlamlı fiillerdir. Yeterlilik, tezlik, sürerlik ve yaklaşma fiillerini kapsar.",
+    "examples": [
+      "Yapıverdi (tezlik).",
+      "Gidebilir (yeterlilik)."
+    ],
+    "relatedTerms": [
+      "Birleşik Fiil",
+      "Fiil"
+    ],
+    "order": 44
+  },
+  {
+    "id": "anlamca_kaynasmis_birlesik_fiil",
+    "term": "Anlamca Kaynaşmış Birleşik Fiil",
+    "definition": "En az bir kelimesinin gerçek anlamını yitirerek deyimleştiği birleşik fiillerdir. Genellikle bir isimle bir yardımcı fiilin veya iki fiilin kalıplaşmasıyla oluşur.",
+    "examples": [
+      "Gözden düşmek.",
+      "Ağzı açık kalmak."
+    ],
+    "relatedTerms": [
+      "Birleşik Fiil",
+      "Deyim"
+    ],
+    "order": 45
+  },
+  {
+    "id": "yardimci_fiille_kurulan_birlesik_fiil",
+    "term": "Yardımcı Fiille Kurulan Birleşik Fiil",
+    "definition": "İsim soylu bir kelimenin etmek, eylemek, olmak, kılmak gibi yardımcı fiillerle birleşmesiyle oluşan fiillerdir.",
+    "examples": [
+      "Sabretmek.",
+      "Mutlu olmak."
+    ],
+    "relatedTerms": [
+      "Birleşik Fiil",
+      "İsim"
+    ],
+    "order": 46
+  },
+  {
+    "id": "ek_yigilmasi",
+    "term": "Ek Yığılması",
+    "definition": "Bir kelimenin kök veya gövdesine art arda birden fazla çekim eki gelmesi durumudur. Genellikle iyelik ve hal eklerinin birleşimiyle görülür.",
+    "examples": [
+      "Ev-im-de-ki (İyelik + Hal + Yapım eki)."
+    ],
+    "relatedTerms": [
+      "Çekim Eki",
+      "Yapım Eki"
+    ],
+    "order": 47
+  },
+  {
+    "id": "belirtisiz_isim_tamlamasi_yapisi",
+    "term": "Belirtisiz İsim Tamlaması Yapısı",
+    "definition": "Tamlayanın ek almadığı, sadece tamlananın iyelik eki aldığı tamlama yapısıdır. Yapı bilgisi sorularında türemiş kelime olarak sıkça sorulur.",
+    "examples": [
+      "Okul yolu.",
+      "Kitap kapağı."
+    ],
+    "relatedTerms": [
+      "İyelik Eki",
+      "İsim Tamlaması"
+    ],
+    "order": 48
+  },
+  {
+    "id": "kok_degismesi",
+    "term": "Kök Değişmesi (Ünlü Değişimi)",
+    "definition": "Bazı kelimelere yönelme durumu eki geldiğinde kökteki ünlülerin değişmesidir. Sadece 'ben' ve 'sen' zamirlerinde görülür.",
+    "examples": [
+      "Bana (ben+a).",
+      "Sana (sen+a)."
+    ],
+    "relatedTerms": [
+      "Hal Ekleri",
+      "Kök"
+    ],
+    "order": 49
+  },
+  {
+    "id": "yansimadan_tureme",
+    "term": "Yansımadan Türeme",
+    "definition": "Yansıma köklere yapım eki getirilerek yeni kelimeler türetilmesidir. KPSS'de 'gövdeden türemiş' kavramı içinde sıkça yer alır.",
+    "examples": [
+      "Hor-ultu (Hor sesinden).",
+      "Gür-ültü (Gür sesinden)."
+    ],
+    "relatedTerms": [
+      "Yansıma Kök",
+      "Yapım Eki"
+    ],
+    "order": 50
+  },
+  {
+    "id": "sifir_tureme",
+    "term": "Sıfır Türeme",
+    "definition": "Kelimenin yapım eki almadan görev değiştirmesidir. Genellikle isimlerin fiil gibi kullanılması veya fiilimsilerin isimleşmesi ile oluşur.",
+    "examples": [
+      "Yemek (fiilden isme dönüşmüş).",
+      "Giriş (fiilden isme dönüşmüş)."
+    ],
+    "relatedTerms": [
+      "Türemiş Kelime",
+      "Fiilimsi"
+    ],
+    "order": 51
+  },
+  {
+    "id": "ek_fiil_genis_zaman",
+    "term": "Ek Fiil (Geniş Zaman)",
+    "definition": "İsim soylu kelimelerin yüklem olmasını sağlayan, kişi ekleriyle çekimlenen ek fiil biçimidir. Ek fiilin diğer zamanlarından farklı olarak doğrudan isimlere eklenir.",
+    "examples": [
+      "Öğrenciyim.",
+      "Mutlusun."
+    ],
+    "relatedTerms": [
+      "Ek Fiil",
+      "Kişi Eki"
+    ],
+    "order": 52
+  },
+  {
+    "id": "govdeden_tureme",
+    "term": "Gövdeden Türeme",
+    "definition": "Bir kelimenin en az iki yapım eki alarak türetilmesi sürecidir. Kelime, ilk yapım ekini aldığında gövde olur, ikinci yapım ekiyle gövdeden türemiş olur.",
+    "examples": [
+      "Göz-lük-çü (Gözlük gövdedir, gözlükçü gövdeden türemiştir)."
+    ],
+    "relatedTerms": [
+      "Gövde",
+      "Yapım Eki"
+    ],
+    "order": 53
+  },
+  {
+    "id": "birlesik_sifat",
+    "term": "Birleşik Sıfat",
+    "definition": "İki veya daha fazla kelimenin birleşerek bir ismi nitelediği sıfat türüdür. Kurallı birleşik sıfatlar yapı bilgisi sorularında sıkça test edilir.",
+    "examples": [
+      "Kırık kalpli insan.",
+      "Beş yıllık plan."
+    ],
+    "relatedTerms": [
+      "Birleşik Kelime",
+      "Sıfat"
+    ],
+    "order": 54
+  },
+  {
+    "id": "yapi_bakimindan_fiil",
+    "term": "Yapı Bakımından Fiil",
+    "definition": "Fiillerin basit, türemiş veya birleşik yapıda olup olmadığının incelenmesidir. Özellikle yardımcı eylemlerle kurulan birleşik fiiller sınavda sıklıkla sorulur.",
+    "examples": [
+      "Geldi (basit)",
+      "Mutlu etti (birleşik)"
+    ],
+    "relatedTerms": [
+      "Birleşik Fiil",
+      "Türemiş Kelime"
+    ],
+    "order": 55
+  },
+  {
+    "id": "yardimci_eylemle_kurulan_birlesik_fiil",
+    "term": "Yardımcı Eylemle Kurulan Birleşik Fiil",
+    "definition": "İsim soylu bir sözcüğün 'etmek, olmak, kılmak, eylemek' yardımcı fiilleriyle birleşmesiyle oluşur. İsimde ses düşmesi veya türemesi varsa bitişik yazılır.",
+    "examples": [
+      "Hissediyorum",
+      "Sabretmek",
+      "Namaz kılmak"
+    ],
+    "relatedTerms": [
+      "Ses Olayları",
+      "Birleşik Fiil"
+    ],
+    "order": 56
+  },
+  {
+    "id": "yansima_koklu_turetme",
+    "term": "Yansıma Köklü Türetme",
+    "definition": "Doğadaki sesleri taklit eden köklerden yapım ekiyle yeni kelime türetilmesidir. Yansıma kökler isim kökü kabul edilir.",
+    "examples": [
+      "Gürültü (gür)",
+      "Fısıltı (fıs)"
+    ],
+    "relatedTerms": [
+      "Yansıma Kök",
+      "Yapım Eki"
+    ],
+    "order": 57
+  },
+  {
+    "id": "isim_fiil_grubu",
+    "term": "İsim-Fiil Grubu",
+    "definition": "Fiil kök veya gövdelerine getirilen -ma, -ış, -mak ekleriyle oluşturulan, cümlede isim görevinde kullanılan sözcüklerdir. Fiilimsi ekleri yapım eki sayılır.",
+    "examples": [
+      "Okumak güzeldir",
+      "Gelişini bekledim"
+    ],
+    "relatedTerms": [
+      "Fiilimsi Eki",
+      "İsim-Fiil"
+    ],
+    "order": 58
+  },
+  {
+    "id": "sifat_fiil_grubu",
+    "term": "Sıfat-Fiil Grubu",
+    "definition": "Fiillere getirilen -an, -ası, -mez, -ar, -dik, -ecek, -miş ekleriyle oluşturulan ve genellikle sıfat görevinde kullanılan kelimelerdir.",
+    "examples": [
+      "Gelen çocuk",
+      "Tanıdık yüzler"
+    ],
+    "relatedTerms": [
+      "Fiilimsi Eki",
+      "Ortaç"
+    ],
+    "order": 59
+  },
+  {
+    "id": "zarf_fiil_grubu",
+    "term": "Zarf-Fiil Grubu",
+    "definition": "Fiillere getirilen -ip, -arak, -madan, -ınca, -ken gibi eklerle oluşturulan ve cümlede zarf tümleci görevini üstlenen kelimelerdir.",
+    "examples": [
+      "Koşarak gitti",
+      "Gelince haber ver"
+    ],
+    "relatedTerms": [
+      "Fiilimsi Eki",
+      "Ulaç"
+    ],
+    "order": 60
+  },
+  {
+    "id": "kok_degisimi",
+    "term": "Kök Değişimi",
+    "definition": "Bazı kelimelerin ek aldığında köklerinde meydana gelen ünlü değişimidir. Türkçede sadece 'ben' ve 'sen' zamirlerinde görülür.",
+    "examples": [
+      "Bana (ben+a)",
+      "Sana (sen+a)"
+    ],
+    "relatedTerms": [
+      "Kök",
+      "Zamirler"
+    ],
+    "order": 61
+  },
+  {
+    "id": "ek_fiil_hali",
+    "term": "Ek Fiil Hali",
+    "definition": "İsim soylu kelimelerin yüklem olmasını veya fiillerin birleşik zamanlı olmasını sağlayan eklerdir. İdi, imiş, ise ve -dir ekleridir.",
+    "examples": [
+      "Öğrenciydi",
+      "Geliyormuş"
+    ],
+    "relatedTerms": [
+      "Ek Fiil",
+      "Yüklem"
+    ],
+    "order": 62
+  },
+  {
+    "id": "gövdeden_türemiş",
+    "term": "Gövdeden Türemiş",
+    "definition": "En az bir yapım eki almış bir gövdeye, tekrar yapım eki getirilerek oluşturulan kelimelerdir. Yapıca türemiş kelime grubundadır.",
+    "examples": [
+      "Göz-lük-çü (gözlük gövdedir)"
+    ],
+    "relatedTerms": [
+      "Gövde",
+      "Yapım Eki"
+    ],
+    "order": 63
+  },
+  {
+    "id": "belgisiz_zamir_yapisi",
+    "term": "Belgisiz Zamir Yapısı",
+    "definition": "Birden fazla kelimenin birleşmesiyle oluşan belgisiz zamirlerin yapıca birleşik kabul edilmesidir.",
+    "examples": [
+      "Birkaç",
+      "Birçok"
+    ],
+    "relatedTerms": [
+      "Birleşik Kelime",
+      "Zamir"
+    ],
+    "order": 64
+  },
+  {
+    "id": "sifattan_türemiş_fiil",
+    "term": "Sıfattan Türemiş Fiil",
+    "definition": "Sıfat kök veya gövdelerine isimden fiil yapım eki getirilerek oluşturulan fiillerdir.",
+    "examples": [
+      "Azalmak (az-al-mak)",
+      "Düzeltmek (düz-el-t-mek)"
+    ],
+    "relatedTerms": [
+      "İsimden Fiil Yapım Eki",
+      "Türemiş Kelime"
+    ],
+    "order": 65
+  },
+  {
+    "id": "ek_eylem_hikaye",
+    "term": "Ek Eylem Hikaye Birleşik Zaman",
+    "definition": "İsim soylu kelimelerin veya fiillerin sonuna gelen '-di' ekinin, kelimeye geçmiş zaman anlamı katmasıdır. İsimlerde yüklem yapma, fiillerde ise birleşik zaman oluşturma görevi görür.",
+    "examples": [
+      "Öğrenciydi (isim)",
+      "Geliyordu (fiil)"
+    ],
+    "relatedTerms": [
+      "Ek Fiil",
+      "Zaman Ekleri",
+      "Bildirme Eki"
+    ],
+    "order": 66
+  },
+  {
+    "id": "ulama",
+    "term": "Ulama",
+    "definition": "Ünsüzle biten bir kelimeden sonra ünlüyle başlayan bir kelime geldiğinde, iki kelimenin birbirine bağlanarak okunmasıdır. Yapı bilgisi sorularında kelimelerin ekleşme süreçlerinde dikkat edilmesi gereken bir ses olayıdır.",
+    "examples": [
+      "Kitap okudu",
+      "Gül ağacı"
+    ],
+    "relatedTerms": [
+      "Ses Olayları",
+      "Ünsüz Benzeşmesi",
+      "Ünlü Düşmesi"
+    ],
+    "order": 67
+  },
+  {
+    "id": "yapi_bakimindan_sozcuk",
+    "term": "Gövdeden Türemiş Kelime",
+    "definition": "En az iki yapım eki almış kelimelerdir. Kelime önce bir yapım eki alarak gövde haline gelir, sonra ikinci bir yapım ekiyle tekrar türetilir.",
+    "examples": [
+      "Göz-cü-lük",
+      "Baş-la-ngıç",
+      "Sulu-k-tan"
+    ],
+    "relatedTerms": [
+      "Gövde",
+      "Yapım Eki",
+      "Türemiş Kelime"
+    ],
+    "order": 68
+  },
+  {
+    "id": "fiilde_cati_eki",
+    "term": "Çatı Eki",
+    "definition": "Fiillerin özne veya nesne ile ilişkisini belirten eklerdir. Genellikle fiilden fiil yapım eki olarak görev yaparlar.",
+    "examples": [
+      "Yaz-ıl-dı (edilgen)",
+      "Yaz-dır-dı (ettirgen)",
+      "Yaz-ış-tı (işteş)"
+    ],
+    "relatedTerms": [
+      "Fiilden Fiil Yapım Eki",
+      "Fiil",
+      "Yüklem"
+    ],
+    "order": 69
+  },
+  {
+    "id": "gövde_haline_gelme",
+    "term": "Gövdeleşme",
+    "definition": "Bir kelimenin köküne en az bir yapım ekinin getirilmesiyle oluşan yeni yapıdır. Gövde, çekim eki alabilir ancak kök değildir.",
+    "examples": [
+      "Kitap-lık (kitap kök, kitaplık gövde)",
+      "Göz-lük-çü (gözlük gövde, gözlükçü yeni gövde)"
+    ],
+    "relatedTerms": [
+      "Gövde",
+      "Yapım Eki",
+      "Kök"
+    ],
+    "order": 70
+  },
+  {
+    "id": "ek_fiil_sart",
+    "term": "Ek Fiil Şart",
+    "definition": "İsim soylu kelimelerin sonuna gelerek onları şart kipine sokan '-se' ekidir. İsimlerin yüklem olabileceği gibi, fiillerde birleşik zamanlı fiil de oluşturabilir.",
+    "examples": [
+      "Hastaysa (isim)",
+      "Gelirse (fiil)"
+    ],
+    "relatedTerms": [
+      "Ek Fiil",
+      "Şart Kipi",
+      "Çekim Eki"
+    ],
+    "order": 71
+  },
+  {
+    "id": "yalin_hal",
+    "term": "Yalın Hal (İsmin Yalın Hali)",
+    "definition": "İsim kök veya gövdelerinin hiçbir durum eki (hal eki) almamış halidir. Kelimenin çoğul, iyelik veya şahıs eki alması onun yalın halini bozmaz.",
+    "examples": [
+      "Kitaplar masada duruyor.",
+      "Çocuklar bahçeye çıktı."
+    ],
+    "relatedTerms": [
+      "İsim Çekim Ekleri",
+      "İyelik Eki",
+      "Çoğul Eki"
+    ],
+    "order": 72
+  },
+  {
+    "id": "yonelme_durum_eki",
+    "term": "Yönelme Durum Eki (-e)",
+    "definition": "İsmin -e hali olup eklendiği kelimeye yaklaşma, yönelme anlamı katar. Fiillere gelerek dolaylı tümleç görevinde kullanılır.",
+    "examples": [
+      "Eve doğru yürümeye başladı.",
+      "Akşama bize gelin."
+    ],
+    "relatedTerms": [
+      "İsim Durum Ekleri",
+      "Dolaylı Tümleç",
+      "Hal Ekleri"
+    ],
+    "order": 73
+  },
+  {
+    "id": "bulunma_durum_eki",
+    "term": "Bulunma Durum Eki (-de)",
+    "definition": "İsmin -de hali olup eklendiği kelimeye bulunma, zaman veya durum anlamı katar. Cümlede yer tamlayıcısı görevini üstlenir.",
+    "examples": [
+      "Çantam evde kalmış.",
+      "Bu konuda haklısın."
+    ],
+    "relatedTerms": [
+      "İsim Durum Ekleri",
+      "Hal Ekleri",
+      "Yer Tamlayıcısı"
+    ],
+    "order": 74
+  },
+  {
+    "id": "ayrilma_durum_eki",
+    "term": "Ayrılma (Çıkma) Durum Eki (-den)",
+    "definition": "İsmin -den hali olup eklendiği kelimeye ayrılma, uzaklaşma veya çıkma anlamı katar. Bazen karşılaştırma anlamı da verebilir.",
+    "examples": [
+      "Okuldan şimdi çıktım.",
+      "Senden daha hızlı koşuyor."
+    ],
+    "relatedTerms": [
+      "İsim Durum Ekleri",
+      "Hal Ekleri",
+      "Karşılaştırma"
+    ],
+    "order": 75
+  },
+  {
+    "id": "birlesik_fiil_yapisi",
+    "term": "Birleşik Fiil Yapısı",
+    "definition": "Birden fazla kelimenin bir araya gelerek tek bir fiil anlamı oluşturmasıdır. Kurallı birleşik fiiller, yardımcı fiillerle kurulan birleşik fiiller ve anlamca kaynaşmış birleşik fiiller olmak üzere üç ana başlıkta incelenir.",
+    "examples": [
+      "Gidebilmek (yeterlilik)",
+      "Hasta olmak (yardımcı fiil)",
+      "Göz gezdirmek (deyimleşmiş)"
+    ],
+    "relatedTerms": [
+      "Kurallı Birleşik Fiil",
+      "Yardımcı Fiille Kurulan Birleşik Fiil",
+      "Anlamca Kaynaşmış Birleşik Fiil"
+    ],
+    "order": 76
+  },
+  {
+    "id": "yapim_eki_cesitleri",
+    "term": "Yapım Eki Çeşitleri",
+    "definition": "Eklendiği sözcüğün anlamını veya türünü değiştiren eklerdir. İsimden isim yapım eki, isimden fiil yapım eki, fiilden isim yapım eki ve fiilden fiil yapım eki olmak üzere dört ana gruba ayrılır.",
+    "examples": [
+      "Ev-li (isimden isim)",
+      "Göz-le (isimden fiil)",
+      "Gel-iş (fiilden isim)",
+      "Oku-t (fiilden fiil)"
+    ],
+    "relatedTerms": [
+      "Çekim Eki",
+      "Kök",
+      "Gövde"
+    ],
+    "order": 77
+  },
+  {
+    "id": "cekim_eki_cesitleri",
+    "term": "Çekim Eki Çeşitleri",
+    "definition": "Eklendiği sözcüğün anlamını veya türünü değiştirmeyen, sadece görevini belirten eklerdir. İsim çekim ekleri (hal, iyelik, çoğul) ve fiil çekim ekleri (kip, kişi) olarak ikiye ayrılır.",
+    "examples": [
+      "Ev-ler (çoğul)",
+      "Kitab-ım (iyelik)",
+      "Gel-di (kip)",
+      "Yaz-dı-m (kişi)"
+    ],
+    "relatedTerms": [
+      "Yapım Eki",
+      "İsim Çekim Ekleri",
+      "Fiil Çekim Ekleri"
+    ],
+    "order": 78
+  },
+  {
+    "id": "kok_cesitleri",
+    "term": "Kök Çeşitleri",
+    "definition": "Bir sözcüğün anlamlı en küçük parçasıdır. İsim kökü (varlıkları karşılayan) ve fiil kökü (iş, oluş, hareket bildiren) olmak üzere ikiye ayrılır.",
+    "examples": [
+      "Ev (isim kökü)",
+      "Gel (fiil kökü)",
+      "Su (isim kökü)",
+      "Oku (fiil kökü)"
+    ],
+    "relatedTerms": [
+      "Gövde",
+      "Ek",
+      "Sözcüğün Yapısı"
+    ],
+    "order": 79
+  },
+  {
+    "id": "basit_yapili_sozcuk",
+    "term": "Basit Yapılı Sözcük",
+    "definition": "Hiçbir yapım eki almamış, sadece kök halinde veya sadece çekim eki almış sözcüklerdir. Anlamı ve türü değişmemiştir.",
+    "examples": [
+      "Ev",
+      "Kitaplar",
+      "Geldi",
+      "Suya"
+    ],
+    "relatedTerms": [
+      "Türemiş Yapılı Sözcük",
+      "Birleşik Yapılı Sözcük",
+      "Kök"
+    ],
+    "order": 80
+  },
+  {
+    "id": "turemis_yapili_sozcuk",
+    "term": "Türemiş Yapılı Sözcük",
+    "definition": "En az bir yapım eki almış sözcüklerdir. Yapım eki alarak yeni bir anlam kazanmış veya türü değişmiştir.",
+    "examples": [
+      "Evli",
+      "Gözlük",
+      "Gelgit",
+      "Okul"
+    ],
+    "relatedTerms": [
+      "Basit Yapılı Sözcük",
+      "Birleşik Yapılı Sözcük",
+      "Yapım Eki"
+    ],
+    "order": 81
+  },
+  {
+    "id": "birlesik_yapili_sozcuk",
+    "term": "Birleşik Yapılı Sözcük",
+    "definition": "En az iki sözcüğün bir araya gelerek yeni bir anlam oluşturduğu sözcüklerdir. İsimler, sıfatlar ve fiiller birleşik yapılı olabilir.",
+    "examples": [
+      "Gecekondu",
+      "Aslanağzı",
+      "Vazgeçmek",
+      "Açıkgöz"
+    ],
+    "relatedTerms": [
+      "Basit Yapılı Sözcük",
+      "Türemiş Yapılı Sözcük",
+      "Birleşik Fiil Yapısı"
+    ],
+    "order": 82
+  },
+  {
+    "id": "ikilemelerin_yapisi",
+    "term": "İkilemelerin Yapısı",
+    "definition": "Anlamı güçlendirmek veya pekiştirmek amacıyla iki sözcüğün tekrarıyla oluşan sözcük gruplarıdır. Farklı şekillerde oluşabilirler (aynı sözcüğün tekrarı, eş anlamlı/yakın anlamlı, zıt anlamlı, biri anlamlı biri anlamsız, ikisi de anlamsız).",
+    "examples": [
+      "Güzel güzel",
+      "Eş dost",
+      "İyi kötü",
+      "Eciş bücüş"
+    ],
+    "relatedTerms": [
+      "Pekiştirme",
+      "Sözcük Grubu",
+      "Deyim"
+    ],
+    "order": 83
+  },
+  {
+    "id": "yansima_sozcukler",
+    "term": "Yansıma Sözcükler",
+    "definition": "Doğadaki seslerin taklit edilmesiyle oluşmuş sözcüklerdir. Genellikle fiil veya isim olarak kullanılırlar ve yapım eki alarak türeyebilirler.",
+    "examples": [
+      "Miyav",
+      "Horultu",
+      "Şırıl şırıl",
+      "Gıcırtı"
+    ],
+    "relatedTerms": [
+      "Kök",
+      "Türemiş Yapılı Sözcük",
+      "Ses Taklidi"
+    ],
+    "order": 84
+  },
+  {
+    "id": "unlu_uyumu",
+    "term": "Ünlü Uyumu (Büyük ve Küçük)",
+    "definition": "Türkçedeki ünlülerin belirli kurallara göre yan yana gelmesidir. Büyük ünlü uyumu (kalınlık-incelik) ve küçük ünlü uyumu (düzlük-yuvarlaklık) olarak ikiye ayrılır. Sözcüklerin yapısını etkileyen önemli bir ses olayıdır.",
+    "examples": [
+      "Kitap (büyük uymaz)",
+      "Geliyor (küçük uymaz)",
+      "Kapı (büyük uyar)"
+    ],
+    "relatedTerms": [
+      "Ünlü Düşmesi",
+      "Ünlü Türemesi",
+      "Ses Olayları"
+    ],
+    "order": 85
+  },
+  {
+    "id": "unsuz_uyumu",
+    "term": "Ünsüz Uyumu (Benzeşmesi)",
+    "definition": "Sert ünsüzle biten bir sözcüğe yumuşak ünsüzle başlayan bir ekin gelmesiyle ekin başındaki ünsüzün sertleşmesidir. Fıstıkçı Şahap kuralı olarak da bilinir.",
+    "examples": [
+      "Kitap-çı (kitapçı)",
+      "Ağaç-tan (ağaçtan)",
+      "Kes-kin (keskin)"
+    ],
+    "relatedTerms": [
+      "Ünsüz Yumuşaması",
+      "Ünsüz Düşmesi",
+      "Ses Olayları"
+    ],
+    "order": 86
+  },
+  {
+    "id": "ikileme_yapisi",
+    "term": "İkileme Yapısı",
+    "definition": "İki kelimenin bir araya gelerek anlamı pekiştirmesi veya yeni bir anlam oluşturmasıdır. Farklı şekillerde oluşabilir: aynı kelimenin tekrarı, eş anlamlı/yakın anlamlı kelimeler, zıt anlamlı kelimeler, biri anlamlı biri anlamsız kelimeler, ikisi de anlamsız kelimeler.",
+    "examples": [
+      "Ağır ağır",
+      "Eş dost",
+      "İyi kötü",
+      "Eciş bücüş"
+    ],
+    "relatedTerms": [
+      "Pekiştirme",
+      "Sözcük Grubu",
+      "Deyim"
+    ],
+    "order": 87
+  },
+  {
+    "id": "ek_fiilin_gorevleri",
+    "term": "Ek Fiilin Görevleri",
+    "definition": "Ek fiil (imek), isim soylu sözcükleri yüklem yapar veya basit zamanlı fiilleri birleşik zamanlı fiil yapar. İki temel görevi vardır: isim ve isim soylu sözcükleri yüklem yapmak, birleşik zamanlı fiil oluşturmak.",
+    "examples": [
+      "Çocuktu (isim yüklem)",
+      "Geliyormuş (birleşik zaman)",
+      "Öğretmendir (isim yüklem)"
+    ],
+    "relatedTerms": [
+      "Basit Zamanlı Fiil",
+      "Birleşik Zamanlı Fiil",
+      "Yüklem"
+    ],
+    "order": 88
+  },
+  {
+    "id": "fiil_cati_ekleri",
+    "term": "Fiil Çatı Ekleri",
+    "definition": "Fiillerin özne ve nesne ile olan ilişkisini belirten eklerdir. Etken, edilgen, dönüşlü, işteş ve oldurgan, ettirgen çatı ekleri fiillerin yapısını değiştirerek farklı anlamlar kazandırır.",
+    "examples": [
+      "Yaz-ıl-dı (edilgen)",
+      "Gör-üş-tü (işteş)",
+      "Oku-t-tu (ettirgen)"
+    ],
+    "relatedTerms": [
+      "Fiilde Çatı",
+      "Etken Çatı",
+      "Edilgen Çatı"
+    ],
+    "order": 89
+  }
+]

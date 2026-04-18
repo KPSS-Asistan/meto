@@ -1,0 +1,934 @@
+[
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 1: Sözel Mantığa Giriş ve Temel Kavramlar",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Sözel Mantığa Giriş ve Temel Kavramlar"
+      },
+      {
+        "type": "text",
+        "text": "Sözel mantık soruları, verilen sınırlı bilgilerden yola çıkarak mantıksal sonuçlara ulaşma becerisini ölçer. Bu süreçte değişkenler, öncüller ve kısıtlamalar arasındaki ilişkilerin doğru tanımlanması temel teşkil eder. Başarılı olmak için metindeki her bir ifadeyi bir kısıtlama olarak ele almalısınız."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Değişkenleri belirleme ve listeleme\n• Öncüller arasındaki hiyerarşiyi anlama\n• Olumlu ve olumsuz kısıtlamaları not etme\n• Mantıksal çıkarım kurallarını uygulama"
+      },
+      {
+        "type": "text",
+        "text": "Kavramlar arasındaki ilişkiler genellikle 'biri diğerinden önce', 'biri diğerinin yanında' veya 'aynı grupta yer almaz' gibi ifadelerle kurulur. Bu ilişkileri görselleştirmek, zihinsel yükünüzü azaltarak hata payını düşürür. İlk aşamada değişkenleri netleştirmek, çözüm sürecini hızlandıracaktır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Sözel mantıkta her bilgi değerlidir; gereksiz bilgi içeren soru tipi nadirdir, bu yüzden her öncülü mutlaka kullanın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997423776_wnt2_1",
+    "createdAt": "2026-04-12T12:37:03.776Z",
+    "updatedAt": "2026-04-12T12:37:03.776Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T12:37:16.506Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_0.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 2: Öncül Analizi ve Bilgi İşleme",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Öncül Analizi ve Bilgi İşleme"
+      },
+      {
+        "type": "text",
+        "text": "Öncüller, sorunun çözüm anahtarı olan temel veri setidir. Pozitif öncüller kesin bilgileri sunarken, negatif öncüller (örneğin: 'A, B'nin yanında değildir') elenmesi gereken durumları belirtir. Bu bilgileri işlerken en kısıtlayıcı olan öncülden başlamak stratejik bir avantaj sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Kesin bilgileri (sabitleri) tabloya yerleştirme\n• Negatif öncülleri 'çarpı' işaretiyle işaretleme\n• İhtimalleri sınırlandıran öncülleri önceliklendirme\n• Bağlaçları ('ve', 'veya', 'ise') doğru yorumlama"
+      },
+      {
+        "type": "text",
+        "text": "Bilgileri işlerken 'eğer' veya 'ise' ile başlayan koşullu öncülleri es geçmemek gerekir. Bu tür ifadeler, soruyu dallara ayırarak çözüm yapmanızı gerektirir. Küçük bir not defteri veya karalama alanı kullanarak ihtimalleri somutlaştırmak, KPSS sınavında hata riskini minimize eder."
+      },
+      {
+        "type": "highlighted",
+        "text": "En kısıtlayıcı öncül, seçenekleri en çok azaltan öncüldür; her zaman analizine buradan başlayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997423777_wnt2_2",
+    "createdAt": "2026-04-12T12:37:03.776Z",
+    "updatedAt": "2026-04-12T12:37:03.776Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T12:37:16.506Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_1.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 3: Tablo Oluşturma Stratejileri",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Tablo Oluşturma Stratejileri"
+      },
+      {
+        "type": "text",
+        "text": "Sözel mantıkta tablo, zihinsel karmaşayı kağıda aktarmanın en etkili yoludur. Değişkenlerin sayısına ve türüne göre matris, sıralı liste veya kümeleme tablolarından uygun olanı seçilmelidir. Yanlış tablo seçimi, sorunun çözümünü imkansız hale getirebilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Değişken sayısına uygun tablo tipi seçimi\n• Sabit değişkenleri satır veya sütuna yerleştirme\n• Tabloyu temiz ve okunur tutma\n• İhtimalleri tablo üzerinde belirtme"
+      },
+      {
+        "type": "text",
+        "text": "Eğer değişkenleriniz iki farklı gruptan oluşuyorsa (örneğin kişiler ve ürünler), matris tipi tablo en kullanışlı olanıdır. Eğer sıralama söz konusu ise doğrusal bir dizilim tablosu tercih edilmelidir. Tablonun görsel düzeni, karmaşık öncülleri tek bakışta analiz etmenize olanak tanır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Tablonun soluna veya üstüne değişkenleri yazarken kısaltma yapın; bu, zaman kazanmanızı sağlar."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997423778_wnt2_3",
+    "createdAt": "2026-04-12T12:37:03.776Z",
+    "updatedAt": "2026-04-12T12:37:03.776Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T12:37:16.506Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_2.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 4: Sıralama Problemleri (Lineer Dizilim)",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Sıralama Problemleri (Lineer Dizilim)"
+      },
+      {
+        "type": "text",
+        "text": "Doğrusal sıralama sorularında nesneler veya kişiler belirli bir sıra (1., 2., 3. gibi) içine yerleştirilir. Burada 'önce', 'sonra', 'hemen arkasında' gibi ifadeler kritik öneme sahiptir. Sıralama sorularında mutlaka bir 'sıra çizgisi' oluşturulmalıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sıra numaralarını net bir şekilde yazma\n• 'Arasındadır' ifadesini doğru yorumlama\n• Sabit yerleri (1. veya sonuncu) hemen işaretleme\n• İki farklı olasılık varsa iki ayrı çizgi çizme"
+      },
+      {
+        "type": "text",
+        "text": "Özellikle 'A, B'den önce ancak C'den sonra' gibi ifadeler, üçlü bloklar oluşturmanıza yarar. Bu blokları sıralama çizgisine yerleştirirken boşluklara dikkat etmelisiniz. Doğrusal sıralama sorularında bir değişkenin yeri kesinleştiğinde, diğer değişkenler için alan daralır ve çözüm kolaylaşır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Sıralama sorularında 'hemen' kelimesine dikkat edin; 'A, B'den hemen sonra' ifadesi ile 'A, B'den sonra' ifadesi farklı sonuçlar doğurur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997423779_wnt2_4",
+    "createdAt": "2026-04-12T12:37:03.776Z",
+    "updatedAt": "2026-04-12T12:37:03.776Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T12:37:16.506Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_3.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 5: Grup Oluşturma ve Kümeleme",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Grup Oluşturma ve Kümeleme"
+      },
+      {
+        "type": "text",
+        "text": "Grup oluşturma sorularında elemanları belirli kapasitelere sahip kümelere (örneğin; A, B, C takımları veya sabah/öğle/akşam grupları) yerleştirmeniz istenir. Burada her kümenin kapasitesi ve elemanların gruplara dağılım kuralları en önemli kısıtlamalardır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Grupların kapasitesini not etme\n• Küme isimlerini tablo başlığı yapma\n• Kısıtlamaları (örneğin: 'A ve B aynı grupta olamaz') not etme\n• Boş kontenjanları takip etme"
+      },
+      {
+        "type": "text",
+        "text": "Bu tarz sorularda elemanların tümünün yerleşip yerleşmediğini kontrol etmek hayati önem taşır. Eğer bir eleman mutlaka bir grupta bulunmak zorundaysa, bu durum diğerlerine yer kalmayacağını veya zorunlu seçimleri işaret eder. Gruplandırma mantığı, KPSS'de en çok zaman kazandıran tekniklerden biridir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Gruplandırma sorularında 'en az bir' veya 'en fazla iki' gibi ifadeler, küme kapasitesini doğrudan etkiler, mutlaka dikkate alın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997423780_wnt2_5",
+    "createdAt": "2026-04-12T12:37:03.776Z",
+    "updatedAt": "2026-04-12T12:37:03.776Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T12:37:16.506Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_4.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 6: Eşleştirme Problemleri",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Eşleştirme Problemleri"
+      },
+      {
+        "type": "text",
+        "text": "Eşleştirme sorularında iki veya daha fazla değişken kümesini birbiriyle ilişkilendirirsiniz. Örneğin, kişilerin hangi gün hangi kursa gittiği gibi senaryolar bu gruba girer. Matris tipi tablo bu tür soruların çözümünde en yüksek başarıyı sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Satır ve sütun değişkenlerini belirleme\n• Birebir eşleşmeleri 'tik' ile işaretleme\n• Eşleşmesi imkansız olanları 'çarpı' ile elemeyi unutma\n• Çoklu eşleşme senaryolarında olasılıkları ayırma"
+      },
+      {
+        "type": "text",
+        "text": "Eşleştirme yaparken her sütunda ve her satırda sadece bir doğru eşleşme olabileceği kuralını unutmamak gerekir. Eğer bir kişi sadece bir kursa gidebiliyorsa, o satırın geri kalanını eleyebilirsiniz. Bu eleme yöntemi, tabloyu hızla doldurmanıza yardımcı olur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Eşleştirme tablolarında 'çarpı' atmak, 'tik' atmak kadar önemlidir; eleme yaparak geriye kalan seçenekleri daraltın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997423781_wnt2_6",
+    "createdAt": "2026-04-12T12:37:03.776Z",
+    "updatedAt": "2026-04-12T12:37:03.776Z",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T12:37:16.506Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_5.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 7: Zaman Çizelgesi ve Kronolojik Sıralama",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Zaman Çizelgesi ve Kronolojik Sıralama"
+      },
+      {
+        "type": "text",
+        "text": "Zaman temelli sorularda gün, saat veya tarih, tablonun omurgasını oluşturur. Kronolojik akışın bozulmaması için zaman birimlerini soldan sağa doğru sıralamak en sağlıklı yöntemdir. Zaman kısıtlamaları genellikle 'şu saatten önce' veya 'şu gün değil' gibi ifadelerle verilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Zaman birimlerini (Pazartesi-Cuma gibi) tabloya yerleştirme\n• Zaman aralıklarını ve çakışmaları gözlemleme\n• 'Gün boyu' veya 'belirli saat' ayrımlarını not etme\n• Kronolojik sırayı bozmadan yerleştirme yapma"
+      },
+      {
+        "type": "text",
+        "text": "Zaman çizelgesi sorularında hafta içi-hafta sonu veya sabah-öğle-akşam gibi döngüsel kavramlar soruyu zorlaştırabilir. Bu durumda zamanı bir döngü gibi düşünmek ve tabloyu ona göre yapılandırmak gerekir. Zamanı doğru yönetmek, mantık sorularındaki en büyük zaman biriktirme stratejisidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Zaman çizelgesi sorularında günleri veya saatleri yazarken boşluk bırakın; sonradan araya girebilecek bilgileri eklemek için yeriniz olsun."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997423782_wnt2_7",
+    "createdAt": "2026-04-12T12:37:03.776Z",
+    "updatedAt": "2026-04-12T12:37:03.776Z",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T12:37:16.506Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_6.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 8: Yer ve Konum Bildiren Sorular",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Yer ve Konum Bildiren Sorular"
+      },
+      {
+        "type": "text",
+        "text": "Yer ve konum soruları, nesnelerin veya kişilerin birbirine göre sağ-sol, ön-arka veya kuzey-güney ilişkilerini sorgular. Bu sorularda bakış açısı (kendi sağımız mı, kişinin sağı mı) çok önemlidir. Basit bir krokisel çizim, karmaşık konum ilişkilerini kolaylaştırır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Yön okları ile bir koordinat sistemi çizme\n• Sağ-sol ilişkilerini kişinin bakış açısına göre belirleme\n• 'Karşısında', 'yanında', 'çaprazında' ifadelerini görselleştirme\n• Sabit referans noktası belirleme"
+      },
+      {
+        "type": "text",
+        "text": "Konum sorularında en büyük hata, kendi bakış açımızla soruya yaklaşmaktır. Her zaman sorudaki karakterlerin yerleşimine göre 'sağ' ve 'sol' kavramlarını değerlendirmelisiniz. Referans noktası (örneğin 'kapının sağı') belirlendiğinde, diğer tüm parçalar bu noktaya göre yerleştirilmelidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Konum sorularında 'karşılıklı' ifadesi, mutlaka yüz yüze bakmayı gerektirir; bunu unutmadan tabloyu çizin."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997423783_wnt2_8",
+    "createdAt": "2026-04-12T12:37:03.776Z",
+    "updatedAt": "2026-04-12T12:37:03.776Z",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T12:37:16.506Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_7.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 9: Koşullu Önermeler ve Mantıksal Çıkarım",
+    "content": [
+      {
+        "type": "text",
+        "text": "Koşullu önermeler, bir durumun gerçekleşmesinin başka bir duruma bağlı olduğu mantıksal yapılardır. KPSS sözel mantık sorularında bu yapılar genellikle 'eğer-ise' bağlaçları veya zaman bildiren kısıtlayıcı ifadelerle kurulur. Bu önermeleri doğru analiz etmek, tablodaki yerleşimleri hatasız yapmak için kritik bir adımdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Eğer-ise yapısını 'P ise Q' şeklinde sembolize ederek düşünün.\n• Koşullu durumlarda öncülün gerçekleşmemesi durumunu da göz ardı etmeyin.\n• Bağlaçları doğru yorumlamak için 'ancak ve ancak' gibi özel ifadeleri not edin.\n• Koşullu verileri tabloya aktarırken olasılıkları oklarla birbirine bağlayın."
+      },
+      {
+        "type": "text",
+        "text": "Bu önermeler, tablodaki değişkenler arasındaki hiyerarşiyi belirlemek için kullanılır. Çıkarım yaparken verilen öncülün kesinliğini sorgulamak, hata payını minimize eder. Özellikle 'X gelirse Y gelmez' gibi ters orantılı ifadeler, eleme yöntemiyle hızlıca çözülmelidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Koşullu önermelerde 'ya da' ile 'veya' arasındaki ayrım, çözümün anahtarını oluşturur; 'ya da' dışlayıcı bir yapıya sahipken, 'veya' en az birinin doğruluğunu temsil eder."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997436506_wnt2_9",
+    "createdAt": "2026-04-12T12:37:16.506Z",
+    "updatedAt": "2026-04-12T12:37:16.506Z",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T12:37:31.158Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_8.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 10: Kesinlik Bildiren İfadelerin Analizi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sözel mantık sorularında 'kesinlikle doğrudur' ibaresi, tüm senaryolarda değişmeyen verileri bulmanızı gerektirir. Bu tür sorular, değişkenlerin alabileceği tüm olası durumların tek bir noktada birleştiği bilgileri hedef alır. Sabit veriler, tabloyu kurarken ilk yerleştirilmesi gereken temel direklerdir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sadece tek bir seçeneği olan değişkenleri tabloya yerleştirin.\n• 'Kesinlikle' kelimesinin vurgusunu analiz ederek tüm ihtimalleri test edin.\n• İki farklı olasılıkta da aynı sonucu veren değişkenleri belirleyin.\n• Sabit verileri tabloya yazarken özel bir işaretleme yöntemi kullanın."
+      },
+      {
+        "type": "text",
+        "text": "Sabit verilerin belirlenmesi, karmaşık soruların çözümünde zaman kazandıran en önemli stratejidir. Eğer bir değişkenin yeri birden fazla seçenekten birine denk geliyorsa, o değişken kesinlik bildirmez. Sadece tüm senaryolarda aynı konuma yerleşen değişkenler 'kesinlikle doğrudur' yargısını sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kesinlik sorularında 'olamaz' ve 'kesinlikle doğrudur' ayrımı, çözüm sürecinin doğruluğunu teyit etmede anahtar bir rol oynar; her zaman tüm senaryoları kapsayan veriye odaklanın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997436507_wnt2_10",
+    "createdAt": "2026-04-12T12:37:16.506Z",
+    "updatedAt": "2026-04-12T12:37:16.506Z",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T12:37:31.158Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_9.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 11: Olasılık ve Seçeneklerin Değerlendirilmesi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Bazı sözel mantık soruları, tek bir tablo yerine değişkenlerin durumuna göre dallanan senaryolar üretmeyi gerektirir. 'Olabilir' soruları, kısıtlı verilerin izin verdiği farklı dizilimleri bulmanıza odaklanır. Bu aşamada, her bir seçenek için küçük şemalar oluşturmak, hata riskini büyük oranda azaltır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İki veya daha fazla seçenek sunan öncülleri belirleyin.\n• Her bir seçenek için ayrı bir küçük alternatif tablo oluşturun.\n• 'Olabilir' sorularında sadece bir senaryoda doğru olması yeterlidir.\n• Çelişen durumları hızlıca eleyerek olasılık alanını daraltın."
+      },
+      {
+        "type": "text",
+        "text": "Senaryo üretme teknikleri, değişken sayısı arttığında karmaşıklığı yönetmenize yardımcı olur. Bir öncülün iki farklı olasılığı varsa, her iki yolu da takip ederek tablonun geri kalanını doldurmanız gerekir. Bu yöntem, sınav anında yaşanabilecek kafa karışıklığını önlemek için oldukça etkilidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Olasılık sorularında 'olabilir' ifadesi, 'en az bir senaryoda gerçekleşmesi yeterlidir' anlamına gelir; bu yüzden tüm tabloyu tek bir senaryoya hapsetmekten kaçının."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997436508_wnt2_11",
+    "createdAt": "2026-04-12T12:37:16.506Z",
+    "updatedAt": "2026-04-12T12:37:16.506Z",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T12:37:31.158Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_10.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 12: Olumsuzlama ve Yanlışlama Yöntemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "'Hangisi yanlıştır' veya 'hangisi olamaz' tarzındaki sorular, doğrudan bilgiyi değil, çelişen öncülleri bulmanızı ister. Bu tip sorularda, seçenekleri tek tek tabloya yerleştirip tutarlılıklarını kontrol etmek en güvenli yoldur. Olumsuz ifadeler, mantıksal bir hatayı veya imkansız bir eşleşmeyi işaret eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Seçeneklerdeki ifadeleri tablo kuralları ile karşılaştırın.\n• Çelişen öncülleri işaretleyerek eleme sürecini hızlandırın.\n• 'Yanlıştır' sorularında diğer dört seçeneğin doğru olduğunu unutmayın.\n• Olumsuzlama yaparken mantıksal geçişleri tersten okuyun."
+      },
+      {
+        "type": "text",
+        "text": "Yanlışlama yöntemi, kuralların sınırlarını belirlemek için oldukça etkilidir. Bir seçeneğin yanlış olması, tabloya yerleştirildiğinde kural ihlaline yol açması demektir. Bu yüzden, öncülleri okurken mutlaka 'olamaz' veya 'yapılamaz' ifadelerinin altını çizerek ilerleyin."
+      },
+      {
+        "type": "highlighted",
+        "text": "Yanlışlama sorularında, verilen kuralın tam tersini düşünmek, kuralın hangi noktada ihlal edildiğini görmenizi kolaylaştıran en hızlı yoldur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997436509_wnt2_12",
+    "createdAt": "2026-04-12T12:37:16.506Z",
+    "updatedAt": "2026-04-12T12:37:16.506Z",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T12:37:31.158Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_11.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 13: Birden Fazla Değişkenli Karmaşık Sorular",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sözel mantıkta değişken sayısı arttıkça, çok boyutlu tablolar kurmak kaçınılmaz hale gelir. Değişkenler arası hiyerarşiyi kurmak, sorunun bütününü görmenizi sağlar. Bu bölümde, matris tipi tabloların nasıl verimli kullanılacağını ve değişkenlerin birbirine etkisini öğreneceğiz."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Değişkenleri satır ve sütunlara mantıksal bir sırayla yerleştirin.\n• Değişkenler arası geçişi sağlayan ana unsurları merkeze alın.\n• Çok boyutlu tablolarda kesişim noktalarını dikkatle işaretleyin.\n• Hiyerarşik sıralama gerektiren sorularda sayısal değerleri kullanın."
+      },
+      {
+        "type": "text",
+        "text": "Hiyerarşi, bir değişkenin diğerinden önce veya sonra gelmesi gibi durumları tanımlar. Çok boyutlu tablolarda her bir değişkenin birbiriyle olan ilişkisini sembollerle ifade etmek, karmaşıklığı azaltır. Bu yöntem, KPSS sınavında karşılaşılabilecek en zorlayıcı sorularda bile organize kalmanızı sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Çok boyutlu sorularda anahtar strateji, en kısıtlayıcı değişkeni belirleyip tabloyu onun etrafında inşa etmektir; kısıtlayıcı değişken, tablonun geri kalanını otomatik olarak şekillendirir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997436510_wnt2_13",
+    "createdAt": "2026-04-12T12:37:16.506Z",
+    "updatedAt": "2026-04-12T12:37:16.506Z",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T12:37:31.158Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_12.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 14: Sınırlandırıcı İpuçlarını Yakalama",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sözel mantık sorularındaki en kıymetli veriler, değişkenlerin alanını daraltan kısıtlayıcı ipuçlarıdır. 'Sadece', 'ilk', 'son', 'yan yana' gibi ifadeler, tabloyu inşa ederken atılacak ilk adımları belirler. Bu ipuçlarını gözden kaçırmak, sorunun çözümünü imkansız kılabilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sınırlandırıcı ifadeleri (en, son, ilk, tek) daire içine alın.\n• 'Yan yana' veya 'aralarında' gibi yerleşim kurallarını not edin.\n• Kısıtlı verilerin sağladığı eleme gücünü sonuna kadar kullanın.\n• İpuçlarını birleştirerek bir zincirleme mantık kurun."
+      },
+      {
+        "type": "text",
+        "text": "Kısıtlı veriler, tablonun boşluklarını doldururken hata yapmanızı engeller. Özellikle 'X, Y ile Z arasında değildir' gibi ifadeler, yerleştirme yaparken seçenekleri daraltmak için harika fırsatlardır. Bu ipuçlarını önceliklendirerek tabloya başlamak, süreci hızlandırır."
+      },
+      {
+        "type": "highlighted",
+        "text": "En kuvvetli kısıtlayıcılar, değişkenlerin yerini sabitleyen ifadelerdir; bu ipuçlarını yakaladığınız an, sorunun %50'sini çözmüş sayılırsınız."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997436511_wnt2_14",
+    "createdAt": "2026-04-12T12:37:16.506Z",
+    "updatedAt": "2026-04-12T12:37:16.506Z",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T12:37:31.158Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_13.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 15: Mantıksal Akış ve Zincirleme İlişkiler",
+    "content": [
+      {
+        "type": "text",
+        "text": "Mantıksal akış, bir öncülün diğerini tetiklediği zincirleme çıkarım yöntemidir. KPSS sorularında genellikle bir değişkenin durumu, diğer değişkenin yerini belirler. Bu ilişkileri zincirleme bir şekilde takip etmek, tabloyu bütünsel bir yapıda kurmanıza olanak tanır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Öncülleri birbiriyle bağlantısına göre sıralayın.\n• Zincirleme çıkarım yaparken 'Eğer A ise B, B ise C' mantığını izleyin.\n• Bağlantılı verileri tabloya aktarırken ok işaretleri kullanın.\n• Zincirin herhangi bir noktasındaki hatanın tüm tabloyu bozacağını unutmayın."
+      },
+      {
+        "type": "text",
+        "text": "Zincirleme ilişkilerde, bir değişkenin konumu netleştiğinde, ona bağlı olan diğer değişkenler de domino etkisiyle yerleşir. Bu yüzden, ipuçlarını dağınık değil, birbirini destekleyecek şekilde okumak gerekir. Mantıksal akışı doğru kurmak, sorunun çözümünde duraksamamanızı sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Zincirleme çıkarım yaparken en zayıf halkayı bulmak önemlidir; çünkü en çok kısıtlamaya sahip olan değişken, genellikle zinciri başlatan veya bitiren noktadır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997436512_wnt2_15",
+    "createdAt": "2026-04-12T12:37:16.506Z",
+    "updatedAt": "2026-04-12T12:37:16.506Z",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T12:37:31.158Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_14.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 16: Çizelge Yerleştirme Hataları ve Çözümleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sözel mantıkta yapılan en yaygın hatalar, öncülleri yanlış yorumlamak veya tabloyu karmaşıklaştırmaktır. Hataları azaltmak için sistematik bir doğrulama süreci uygulamak gerekir. Bu bölüm, sınav anında yapılabilecek işlem hatalarını önceden fark etmeniz için rehberlik eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Tabloyu kurduktan sonra tüm öncülleri tekrar kontrol edin.\n• Yerleştirme sırasında 'olası' durumları net bir şekilde ayrıştırın.\n• İsim benzerlikleri veya değişken karışıklıklarını önlemek için kısaltmaları doğru kullanın.\n• Çözümden sonra en az bir kez tabloyu sağlamasını yapın."
+      },
+      {
+        "type": "text",
+        "text": "Doğrulama adımları, sınavda özgüvenli ilerlemenizi sağlar. Bir hatayı fark etmek, tüm soruyu silmekten daha kolaydır; bu yüzden küçük adımlarla ilerleyip her adımda tutarlılığı kontrol edin. Çizelge yerleştirme hataları genellikle aceleci davranmaktan kaynaklanır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Çizelgeyi bitirdiğinizde 'tüm öncüller bu tabloyla uyumlu mu?' sorusunu sormak, sınavda yapabileceğiniz en büyük hataları önleyen bir güvenlik mekanizmasıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997436513_wnt2_16",
+    "createdAt": "2026-04-12T12:37:16.506Z",
+    "updatedAt": "2026-04-12T12:37:16.506Z",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T12:37:31.158Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_15.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 17: Sözel Mantıkta Hız Kazanma Teknikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "KPSS sözel mantık sorularında zamanı yönetmek, başarının en temel anahtarıdır. Öğrenciler metnin tamamını okumak yerine, öncelikle tabloyu oluşturmaya yarayacak kilit ifadeleri taramalıdır. Hızlı okuma ve not alma teknikleri, karmaşık senaryoların çözüm süresini önemli ölçüde kısaltır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Metindeki olumsuzluk bildiren ifadeleri (değildir, hariç, dışında) daire içine alın.\n• Değişkenleri ve grupları belirleyip hemen tablo taslağını çizin.\n• İlk okumada kesin yargı bildiren öncülleri tabloya yerleştirin.\n• Soru köklerini okuduktan sonra tabloya dönerek sadece gerekli bölümleri inceleyin."
+      },
+      {
+        "type": "text",
+        "text": "Zaman yönetimi, sadece hızlı olmak değil, hangi sorunun vakit alacağını önceden sezmektir. Zorlayıcı soruları sona bırakmak, tüm sınavın genel başarısını artıracaktır. Pratik yaparak bu süreci otomatikleştirmek, sınav anındaki stresi minimize eder."
+      },
+      {
+        "type": "highlighted",
+        "text": "Sözel mantıkta hız, metni anlamaktan ziyade verileri hızlıca tabloya aktarabilme yeteneği ile doğru orantılıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997451158_wnt2_17",
+    "createdAt": "2026-04-12T12:37:31.158Z",
+    "updatedAt": "2026-04-12T12:37:31.158Z",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T12:37:52.037Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_16.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 18: Alternatif Senaryo Oluşturma",
+    "content": [
+      {
+        "type": "text",
+        "text": "Bazı sorularda öncüller tek bir çözüm sunmaz, bunun yerine iki veya daha fazla olasılık ortaya çıkarır. Bu durum dallanan mantık ağaçlarını kullanmayı zorunlu kılar. İhtimalleri erkenden fark edip tabloyu ikiye bölmek, sorunun çözümünü hatasız hale getirir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İki ihtimalli durumlarda vakit kaybetmeden iki farklı tablo taslağı hazırlayın.\n• Birbirini dışlayan öncülleri belirleyerek ihtimalleri daraltın.\n• 'X, Y'den öncedir' gibi ifadeleri oklarla göstererek alternatifleri görselleştirin.\n• Her ihtimali ayrı bir sütunda değerlendirerek çelişkileri hızla eleyin."
+      },
+      {
+        "type": "text",
+        "text": "Alternatif senaryoları yönetirken tablonun güncelliği korunmalıdır. Bir senaryonun geçersiz olduğu anlaşıldığında, diğer senaryo üzerine yoğunlaşmak sınavda zaman kazandırır. Bu yöntem, özellikle yerleştirme ve sıralama sorularında hayat kurtarıcıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "İki ihtimalli bir soruda tek bir tabloya bağlı kalmak, en büyük hata kaynağıdır; mutlaka ihtimalleri ayrı tablolarla takip edin."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997451159_wnt2_18",
+    "createdAt": "2026-04-12T12:37:31.158Z",
+    "updatedAt": "2026-04-12T12:37:31.158Z",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T12:37:52.037Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_17.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 19: Öncüllerdeki Gizli Bilgileri Çıkarma",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sözel mantık sorularında her bilgi doğrudan verilmez; bazıları örtük biçimde sunulur. Bu gizli bilgileri çıkarmak, çıkarımsal düşünme yeteneği gerektirir. Öncüller arasındaki bağlantıları kurmak, sorunun kilit noktasını çözmenizi sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• 'Yalnızca' veya 'Sadece' ifadelerinin sınırlarını doğru belirleyin.\n• Negatif öncülleri (A, B'de değildir gibi) pozitif bir çıkarım için kullanın.\n• Zincirleme öncülleri birleştirerek karmaşık ilişkileri basitleştirin.\n• Metnin bağlamından çıkarılabilecek dolaylı bilgileri tabloya not edin."
+      },
+      {
+        "type": "text",
+        "text": "Örtük bilgilerin analizi, sorunun zorluk derecesini belirleyen faktörlerden biridir. Bir öncülün diğerini nasıl etkilediğini anlamak, tüm tabloyu tamamlamanıza yardımcı olur. Bu süreçte mantıksal tutarlılığı korumak oldukça önemlidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Öncüllerdeki 'her', 'hiçbir', 'bazı' gibi tümce belirteçleri, çözüm yolunu tamamen değiştirebilecek kritik ipuçlarıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997451160_wnt2_19",
+    "createdAt": "2026-04-12T12:37:31.158Z",
+    "updatedAt": "2026-04-12T12:37:31.158Z",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T12:37:52.037Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_18.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 20: Kıyaslama ve Karşılaştırma Soruları",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sıralama sorularında 'daha az', 'daha çok', 'en ağır', 'en hafif' gibi kıyas ifadeleri sıklıkla kullanılır. Bu ilişkileri kurarken matematiksel sembollerden (>, <, =) faydalanmak süreci hızlandırır. Sıralamayı belirleyen farkları doğru tespit etmek, hatayı önler."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sıralama sorularında büyüktür/küçüktür sembollerini kullanın.\n• Eşitlik durumlarını net bir şekilde sembolize edin.\n• Kıyaslama zincirlerini (A>B, B>C ise A>C) tek bir satırda birleştirin.\n• Aradaki farkları belirten sayısal ipuçlarını tabloya işleyin."
+      },
+      {
+        "type": "text",
+        "text": "Kıyaslama sorularında en büyük zorluk, değişkenlerin birbirine göre konumunu belirlemektir. Tüm değişkenleri bir sayı doğrusu gibi düşünerek yerleştirmek, boşlukları doldurmanızı kolaylaştırır. Farkların net olduğu durumlarda sıralama oldukça hızlı yapılabilir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Sıralama sorularında sembolik gösterim kullanmak, metne tekrar tekrar dönme ihtiyacını ortadan kaldırır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997451161_wnt2_20",
+    "createdAt": "2026-04-12T12:37:31.158Z",
+    "updatedAt": "2026-04-12T12:37:31.158Z",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T12:37:52.037Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_19.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 21: Öncül İlişkilerinde Çelişki Yönetimi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Bazen öncüller arasında görünürde bir çelişki olabilir veya farklı senaryolar birbirini yanlış yönlendirebilir. Çelişen verileri elemek, doğru tabloya ulaşmanın tek yoludur. Tutarlı bir tablo kurmak için verilerin mantıksal süzgeçten geçirilmesi şarttır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Çelişkili ifadeleri fark ettiğinizde her iki ihtimali ayrı ayrı test edin.\n• Hangi verinin diğerini geçersiz kıldığını not alın.\n• Tabloyu kurarken öncelikle kesin yargıları, ardından çelişkili seçenekleri yerleştirin.\n• Tutarsızlık yaratan durumları eleyerek elinizde kalan seçeneklere odaklanın."
+      },
+      {
+        "type": "text",
+        "text": "Çelişki yönetimi, mantıksal akıl yürütmenin en üst seviyesidir. Bir verinin neden diğerine uymadığını anlamak, sorunun çözümünü netleştirir. Bu süreçte aceleci davranmadan her öncülün birbiriyle uyumunu kontrol etmek gerekir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Bir öncül diğerleriyle mantıksal bir çelişki yaratıyorsa, o öncülün sunduğu senaryo mutlaka yanlıştır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997451162_wnt2_21",
+    "createdAt": "2026-04-12T12:37:31.158Z",
+    "updatedAt": "2026-04-12T12:37:31.158Z",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T12:37:52.037Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_20.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 22: Sözel Mantıkta Soru Tipi Analizi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sözel mantık soruları genellikle sıralama, gruplandırma veya yerleştirme şeklinde sınıflandırılır. Her soru tipi için geliştirilecek strateji, başarı oranını artırır. Soru köklerini doğru anlamak, hangi yöntemin uygulanacağını belirler."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sıralama sorularında zaman veya sıra kavramına odaklanın.\n• Gruplandırma sorularında değişkenleri kümeler halinde tabloya yazın.\n• Yerleştirme sorularında boşluk doldurma mantığıyla hareket edin.\n• Karma sorularda değişkenleri hem sıra hem küme bazlı inceleyin."
+      },
+      {
+        "type": "text",
+        "text": "Soru köklerini doğru analiz etmek, gereksiz işlem yapmanızı engeller. 'Hangisi kesinlikle doğrudur?', 'Hangisi kesinlikle yanlıştır?' gibi ifadeler, tablonun nasıl yorumlanacağını belirler. Strateji belirlemek, zamanı verimli kullanmanın bir parçasıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Soru tipi analizi yapmadan tabloya başlamak, yanlış yöntem seçimine ve zaman kaybına neden olur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997451163_wnt2_22",
+    "createdAt": "2026-04-12T12:37:31.158Z",
+    "updatedAt": "2026-04-12T12:37:31.158Z",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T12:37:52.037Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_21.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 23: Tabloyu Güncelleme ve Revize Etme",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sözel mantıkta tablo, statik bir yapı değil, dinamik bir süreçtir. Yeni bir öncül veya soru kökü, tablonun güncellenmesini gerektirebilir. Verilere göre tabloyu revize etmek, çözümü kolaylaştırır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Her yeni öncül sonrası tabloyu güncelleyerek kontrol edin.\n• Kesinleşen her bilgiyi tabloya kalıcı olarak işleyin.\n• Yanlış olduğu anlaşılan ihtimalleri tablodan silerek karmaşayı önleyin.\n• Tablonun genel görünümünü temiz tutarak hata payını düşürün."
+      },
+      {
+        "type": "text",
+        "text": "Dinamik tablo yönetimi, sınavda karşılaşılan karmaşık sorularda en büyük yardımcıdır. Tabloyu revize ederken eski verilerle çelişmemeye dikkat edilmelidir. Sürekli güncellenen bir tablo, sorunun cevabına giden en kısa yoldur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Tabloyu revize etmekten korkmayın; her yeni bilgi, tablonun daha da netleşmesini sağlar."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997451164_wnt2_23",
+    "createdAt": "2026-04-12T12:37:31.158Z",
+    "updatedAt": "2026-04-12T12:37:31.158Z",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T12:37:52.037Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_22.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 24: Mantıksal Boşluk Doldurma",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sözel mantıkta tüm veriler bazen doğrudan verilmez; bazı boşlukların mantıksal çıkarımlarla doldurulması gerekir. Eksik verileri tahmin etmek, tutarlılık testinden geçirilerek yapılmalıdır. Mantıksal boşlukları doldurmak, tablonun bütünlüğünü sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Tablodaki boşlukları, kesin bilgilerle kıyaslayarak doldurun.\n• Tahminlerinizi mutlaka diğer öncüllerle test edin.\n• 'Eğer bu buysa, şu ne olmalı?' sorusunu kendinize sorun.\n• Mantıksal tutarlılığı bozacak hiçbir tahmine yer vermeyin."
+      },
+      {
+        "type": "text",
+        "text": "Mantıksal boşluk doldurma, sorunun çözümünü tamamlayan son adımdır. Eksik verileri tahmin ederken seçeneklerden de faydalanabilirsiniz. Doğru tahmin, tüm tablonun puzzle parçaları gibi yerine oturmasını sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Boşluk doldururken sezgilerinize değil, öncüllerin sunduğu mantıksal çerçeveye güvenin."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997451165_wnt2_24",
+    "createdAt": "2026-04-12T12:37:31.158Z",
+    "updatedAt": "2026-04-12T12:37:31.158Z",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T12:37:52.037Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_23.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 25: Çoklu Soru Grupları İçin Strateji",
+    "content": [
+      {
+        "type": "text",
+        "text": "KPSS sözel mantık sorularında, tek bir öncül grubundan türetilen çoklu sorular zaman yönetimi açısından kritiktir. Oluşturulan ana tablonun doğruluğu, o sete bağlı tüm soruların kaderini belirler. Bu nedenle, öncülleri analiz ederken değişkenleri doğru konumlandırmak esastır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Değişkenleri tabloya yerleştirirken kesin bilgileri önce işleyin.\n• Olasılıkları tek bir tabloda değil, yardımcı taslaklarda değerlendirin.\n• Negatif öncülleri (örneğin; X, Y'nin yanında değildir) son aşamaya bırakın.\n• Soru köklerini okurken 'kesinlikle' veya 'olabilir' ifadelerine dikkat edin."
+      },
+      {
+        "type": "text",
+        "text": "Soru setlerini analiz ederken her bir sorunun tabloya getirdiği yeni kısıtlamaları not etmek, sonraki soruların çözümünü kolaylaştırır. Bazı sorularda verilen ek bilgiler, önceki soruların sağlamasını yapmanıza da olanak tanır."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Bir soru grubunda takıldığınızda, o grubun en genel sorusundan başlayarak tabloyu netleştirmeye çalışın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997472038_wnt2_25",
+    "createdAt": "2026-04-12T12:37:52.038Z",
+    "updatedAt": "2026-04-12T12:37:52.038Z",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T12:38:08.523Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_24.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 26: İleri Seviye Yerleştirme Teknikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Karmaşık sözel mantık kısıtlamaları, adayları zorlayan en önemli unsurdur. Matematiksel mantık ögelerini kullanarak öncülleri sembolize etmek, karmaşayı azaltır ve işlem hızını artırır. Özellikle sıralama ve eşleştirme sorularında, kısıtlamaları mantıksal operatörlerle (ve, veya, değil) ilişkilendirmek hata payını düşürür."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Zincirleme kısıtlamaları (A, B'den önce; C, A'dan önce) birleştirerek şema çizin.\n• Kümeleme mantığında (1. grup, 2. grup) her bir öğenin yerleşebileceği maksimum ve minimum kapasiteyi hesaplayın.\n• 'Yalnızca' veya 'sadece' gibi kısıtlayıcı ifadelerin kapsamını netleştirin.\n• Döngüsel yerleştirmelerde (dairesel masalar) referans noktası belirleyerek başlayın."
+      },
+      {
+        "type": "text",
+        "text": "İleri seviye tekniklerde, değişkenler arasındaki mantıksal zorunlulukları belirlemek için ok çizelgeleri kullanılır. Yanlış yerleştirmeleri elemek için 'eğer-ise' mantığını devreye sokarak, bir değişkenin konumuyla diğerlerinin nasıl etkilendiğini gözlemleyin."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Karmaşık kısıtlamalarda 'çelişen öncüller' genellikle sorunun çözüm anahtarıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "hard",
+    "id": "exp_1775997472039_wnt2_26",
+    "createdAt": "2026-04-12T12:37:52.038Z",
+    "updatedAt": "2026-04-12T12:37:52.038Z",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T12:38:08.523Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_25.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 27: Sözel Mantıkta Dikkat ve Odaklanma",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sözel mantık testlerinde dikkatin dağılması, basit bir öncülün yanlış yorumlanmasına yol açar. Odaklı okuma teknikleri, metindeki anahtar kelimeleri hızlıca yakalamanızı ve gereksiz detayları elemenizi sağlar. Sınav anında zihinsel yorgunluğu yönetmek, mantıksal çıkarımların doğruluğu için hayati önem taşır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Öncülleri okurken her bir cümleyi ayrı bir kural gibi numaralandırın.\n• 'Okuma-Yazma-Çizme' döngüsünü kullanarak metinle bağınızı koparmayın.\n• Çeldirici seçenekleri, doğrudan tabloyla kıyaslayarak dikkatle inceleyin.\n• Uzun paragraflı mantık sorularında sadece değişkenlere ve ilişkilere odaklanın."
+      },
+      {
+        "type": "text",
+        "text": "Dikkat dağıtan unsurları elemek için, sorunun kendisinden bağımsız olan bilgileri süpürün. Sadece değişkenlerin birbirleriyle olan zorunlu bağlantılarına odaklanmak, zihinsel kapasitenizi daha verimli kullanmanıza yardımcı olur."
+      },
+      {
+        "type": "warning",
+        "text": "Dikkat: Öncüllerde verilen 'aynı gün içinde', 'ardışık olarak' gibi zaman belirteçlerini atlamak, tüm sorunun yanlış çözülmesine sebep olur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997472040_wnt2_27",
+    "createdAt": "2026-04-12T12:37:52.038Z",
+    "updatedAt": "2026-04-12T12:37:52.038Z",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T12:38:08.523Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_26.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 28: KPSS Çıkmış Soru Analizleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Geçmiş yılların KPSS soruları, ÖSYM'nin mantık kurgusunu anlamak için en iyi kaynaktır. Soru kalıplarının evrimini incelediğimizde, kurguların giderek daha fazla kısıtlamaya dayalı ve çok boyutlu hale geldiğini görmekteyiz. Çıkmış soruları analiz etmek, sınavda neyle karşılaşacağınızı bilmenin verdiği özgüveni sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Son 5 yılın sözel mantık sorularını kronolojik olarak çözün.\n• Soru köklerinde kullanılan standart kalıpları (örneğin; 'Hangisi kesinlikle doğrudur?') ezberleyin.\n• Hangi soru tiplerinde daha çok vakit kaybettiğinizi not edin.\n• ÖSYM'nin benzer kısıtlama türlerini (sıralama, eşleştirme) nasıl değiştirdiğini gözlemleyin."
+      },
+      {
+        "type": "text",
+        "text": "Soru analizi yaparken sadece doğru cevabı bulmakla yetinmeyin, yanlış seçeneklerin neden yanlış olduğunu da irdeleyin. Bu, mantık yürütme becerinizi geliştirir ve sınavda tuzaklara düşmenizi engeller."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Çıkmış sorularda 'en az' ve 'en çok' ifadelerinin kullanıldığı sorulara özel bir çalışma yapın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997472041_wnt2_28",
+    "createdAt": "2026-04-12T12:37:52.038Z",
+    "updatedAt": "2026-04-12T12:37:52.038Z",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T12:38:08.523Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_27.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 29: Deneme Sınavı Simülasyonu",
+    "content": [
+      {
+        "type": "text",
+        "text": "Süre baskısı altında performans göstermek, sınav hazırlığının en zorlayıcı aşamasıdır. Deneme simülasyonları, gerçek sınav ortamını taklit ederek kaygı yönetimini sağlar. Yanlış yaptığınız soruları analiz ederek, hatanın yapısal mı yoksa dikkatsizlik kaynaklı mı olduğunu belirlemelisiniz."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Deneme çözerken kronometre kullanın ve süreyi asla aşmayın.\n• Sözel mantık için ayrılan süreyi 15-20 dakika ile sınırlandırın.\n• Hata analizi defteri tutarak yanlışlarınızı kategorize edin.\n• Zorlandığınız anlarda soruyu pas geçip sona bırakma pratiği yapın."
+      },
+      {
+        "type": "text",
+        "text": "Hata düzeltme süreci, yanlış yapılan her sorunun çözümünü tekrar çözerek başlar. Doğru mantık kurgusuna ulaşana kadar aynı soruyu farklı yöntemlerle denemek, zihinsel esnekliğinizi artırır."
+      },
+      {
+        "type": "warning",
+        "text": "Uyarı: Deneme sonuçlarınıza takılıp moral bozmak yerine, her denemeyi öğrenme fırsatı olarak görün."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "hard",
+    "id": "exp_1775997472042_wnt2_29",
+    "createdAt": "2026-04-12T12:37:52.038Z",
+    "updatedAt": "2026-04-12T12:37:52.038Z",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T12:38:08.523Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_28.mp3?alt=media"
+  },
+  {
+    "topicId": "wnt2zWaV1pX8p8s8BBc9",
+    "title": "Bölüm 30: Genel Değerlendirme ve Sınav Taktikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sözel mantık, sistematik düşünme ve disiplinli çalışma gerektiren bir alandır. Sınav anı yönetimi, bildiğiniz bilgiyi doğru şekilde kağıda aktarmanızı sağlar. Özet stratejilerle desteklenen bu süreç, sınav günü karmaşayı bir düzene dönüştürür."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sınavın başında en iyi bildiğiniz soru tipine odaklanın.\n• Tablonuzu net ve anlaşılır çizin, karmaşık notlar almaktan kaçının.\n• Zamanın daraldığını hissettiğinizde en kolay sorulara yönelin.\n• Sınav anında derin nefes alarak odaklanmanızı tazeleyin."
+      },
+      {
+        "type": "text",
+        "text": "Genel değerlendirme, sınav sürecinde kazandığınız tüm deneyimlerin birleşimidir. Kendi çözüm tarzınızı oluşturduğunuzda, önünüze gelen her türlü sözel mantık sorusunu çözebilecek yetkinliğe ulaşırsınız."
+      },
+      {
+        "type": "highlighted",
+        "text": "Başarı Notu: Sözel mantık bir yetenek değil, pratikle geliştirilen bir yöntemler bütünüdür."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775997472043_wnt2_30",
+    "createdAt": "2026-04-12T12:37:52.038Z",
+    "updatedAt": "2026-04-12T12:37:52.038Z",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T12:38:08.523Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_wnt2zWaV1pX8p8s8BBc9_29.mp3?alt=media"
+  }
+]

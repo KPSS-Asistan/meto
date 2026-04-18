@@ -1,0 +1,1216 @@
+[
+  {
+    "id": "isim_tamlamasi",
+    "term": "İsim Tamlaması",
+    "definition": "En az iki ismin bir araya gelerek oluşturduğu, birinin diğerini sahiplik veya ilgi yönüyle belirttiği sözcük grubudur. Tamlayan ve tamlanan olmak üzere iki öğeden oluşur.",
+    "examples": [
+      "Okulun kapısı kapalıydı.",
+      "Güneş gözlüğü çok şık."
+    ],
+    "relatedTerms": [
+      "Belirtili İsim Tamlaması",
+      "Belirtisiz İsim Tamlaması",
+      "Zincirleme İsim Tamlaması"
+    ],
+    "order": 1
+  },
+  {
+    "id": "sifat_tamlamasi",
+    "term": "Sıfat Tamlaması",
+    "definition": "Bir ismin önüne gelerek onu niteleyen veya belirten sözcüklerin oluşturduğu yapıdır. Niteleme sıfatları veya belirtme sıfatları ile kurulur.",
+    "examples": [
+      "Kırmızı elma masada duruyor.",
+      "Bu çocuk sınavı kazandı."
+    ],
+    "relatedTerms": [
+      "Niteleme Sıfatı",
+      "Belirtme Sıfatı",
+      "Adlaşmış Sıfat"
+    ],
+    "order": 2
+  },
+  {
+    "id": "niteleme_sifati",
+    "term": "Niteleme Sıfatı",
+    "definition": "İsimlere sorulan 'nasıl' sorusuna cevap veren, ismin durumunu, rengini veya şeklini bildiren sözcüklerdir. İsmin önüne gelirler.",
+    "examples": [
+      "Eski evimizi özlüyorum.",
+      "Uzun yollar bizi bekler."
+    ],
+    "relatedTerms": [
+      "Sıfat",
+      "Belirtme Sıfatı",
+      "İsim"
+    ],
+    "order": 3
+  },
+  {
+    "id": "belgisiz_sifat",
+    "term": "Belgisiz Sıfat",
+    "definition": "İsimleri sayı ve miktar bakımından kesinlik bildirmeden, belirsiz şekilde etkileyen sözcüklerdir. 'Bir, birkaç, çoğu, bazı' gibi kelimelerle kurulur.",
+    "examples": [
+      "Bazı günler dışarı çıkmam.",
+      "Birkaç kişi bizi sordu."
+    ],
+    "relatedTerms": [
+      "Belgisiz Zamir",
+      "Sayı Sıfatı",
+      "Belirtme Sıfatı"
+    ],
+    "order": 4
+  },
+  {
+    "id": "kisi_zamiri",
+    "term": "Kişi Zamiri",
+    "definition": "İnsan isimlerinin yerini tutan 'ben, sen, o, biz, siz, onlar' sözcükleridir. Sadece insan varlıkları için kullanılırlar.",
+    "examples": [
+      "O, dün akşam bize geldi.",
+      "Ben bu konuyu çok iyi biliyorum."
+    ],
+    "relatedTerms": [
+      "Dönüşlülük Zamiri",
+      "İşaret Zamiri",
+      "Zamir"
+    ],
+    "order": 5
+  },
+  {
+    "id": "donusluluk_zamiri",
+    "term": "Dönüşlülük Zamiri",
+    "definition": "Kendi sözcüğüdür; cümlede özneyi pekiştirmek veya eylemin özne tarafından yapıldığını vurgulamak için kullanılır. Ek alabilir.",
+    "examples": [
+      "Bu projeyi kendim yaptım.",
+      "Kendine iyi bakmalısın."
+    ],
+    "relatedTerms": [
+      "Kişi Zamiri",
+      "Pekiştirme",
+      "Zamir"
+    ],
+    "order": 6
+  },
+  {
+    "id": "isaret_zamiri",
+    "term": "İşaret Zamiri",
+    "definition": "İsimlerin yerini işaret yoluyla tutan sözcüklerdir. 'Bu, şu, o, bunlar, şunlar, onlar, öteki, beriki' gibi kelimelerdir.",
+    "examples": [
+      "Bunu dolaba yerleştir.",
+      "Şunu bana verir misin?"
+    ],
+    "relatedTerms": [
+      "İşaret Sıfatı",
+      "Kişi Zamiri",
+      "Zamir"
+    ],
+    "order": 7
+  },
+  {
+    "id": "durum_zarfi",
+    "term": "Durum Zarfı",
+    "definition": "Fiillerin veya fiilimsilerin nasıl yapıldığını, durumunu belirten sözcüklerdir. Fiile sorulan 'nasıl' sorusuna yanıt verirler.",
+    "examples": [
+      "Yavaşça kapıyı kapattı.",
+      "Çocuklar neşeyle koşuyor."
+    ],
+    "relatedTerms": [
+      "Zarf",
+      "Fiil",
+      "Fiilimsi"
+    ],
+    "order": 8
+  },
+  {
+    "id": "zaman_zarfi",
+    "term": "Zaman Zarfı",
+    "definition": "Eylemin yapıldığı zamanı bildiren sözcüklerdir. Fiillere sorulan 'ne zaman' sorusuna cevap verirler.",
+    "examples": [
+      "Yarın erkenden yola çıkacağız.",
+      "Akşamları kitap okurum."
+    ],
+    "relatedTerms": [
+      "Zarf",
+      "Fiil",
+      "Zaman"
+    ],
+    "order": 9
+  },
+  {
+    "id": "miktar_zarfi",
+    "term": "Miktar Zarfı",
+    "definition": "Fiillerin, sıfatların veya zarfların miktarını ölçüsünü bildiren sözcüklerdir. 'Ne kadar' sorusuna yanıt verirler.",
+    "examples": [
+      "Çok çalışırsan kazanırsın.",
+      "Az uyumak sağlığa zararlıdır."
+    ],
+    "relatedTerms": [
+      "Zarf",
+      "Derecelendirme",
+      "Sıfat"
+    ],
+    "order": 10
+  },
+  {
+    "id": "edat",
+    "term": "Edat (İlgeç)",
+    "definition": "Tek başına anlamı olmayan, cümle içinde sözcükler arasında anlam ilgisi kuran kelimelerdir. 'İle, için, gibi, kadar, göre' en sık kullanılanlarıdır.",
+    "examples": [
+      "Senin için her şeyi yaparım.",
+      "Aslan gibi güçlü biridir."
+    ],
+    "relatedTerms": [
+      "Bağlaç",
+      "Ünlem",
+      "İsim"
+    ],
+    "order": 11
+  },
+  {
+    "id": "baglac",
+    "term": "Bağlaç",
+    "definition": "Eş görevli sözcükleri veya cümleleri birbirine bağlayan, anlamca ilişkilendiren kelimelerdir. 'Ve, veya, ama, fakat, çünkü' örnek verilebilir.",
+    "examples": [
+      "Çay ve simit aldık.",
+      "Çok çalıştı ama kazanamadı."
+    ],
+    "relatedTerms": [
+      "Edat",
+      "Cümle",
+      "Sözcük"
+    ],
+    "order": 12
+  },
+  {
+    "id": "unlem",
+    "term": "Ünlem",
+    "definition": "Sevinç, üzüntü, korku, şaşma gibi duyguları veya seslenmeleri ifade eden sözcüklerdir. Cümleye duygu değeri katarlar.",
+    "examples": [
+      "Eyvah, geç kaldım!",
+      "Hey, buraya bak!"
+    ],
+    "relatedTerms": [
+      "Edat",
+      "Bağlaç",
+      "Duygu"
+    ],
+    "order": 13
+  },
+  {
+    "id": "soru_zamiri",
+    "term": "Soru Zamiri",
+    "definition": "İsimlerin yerini soru yoluyla tutan sözcüklerdir. 'Kim, ne, hangisi, kaçı' gibi kelimelerdir.",
+    "examples": [
+      "Dün akşam kim geldi?",
+      "Çantada ne var?"
+    ],
+    "relatedTerms": [
+      "Soru Sıfatı",
+      "Soru Zarfı",
+      "Zamir"
+    ],
+    "order": 14
+  },
+  {
+    "id": "adlasmis_sifat",
+    "term": "Adlaşmış Sıfat",
+    "definition": "Sıfat tamlamalarında ismin düşüp sıfatın ismin yerini tutmasıyla oluşur. Sıfat, isim çekim eklerini alarak isimleşir.",
+    "examples": [
+      "Gençler (genç insanlar) çok çalışmalı.",
+      "İyiler (iyi insanlar) asla kaybetmez."
+    ],
+    "relatedTerms": [
+      "Sıfat",
+      "İsim",
+      "Sıfat Tamlaması"
+    ],
+    "order": 15
+  },
+  {
+    "id": "belgisiz_zamir",
+    "term": "Belgisiz Zamir",
+    "definition": "İsimlerin yerini tam olarak değil, yaklaşık olarak tutan sözcüklerdir. Ek aldıklarında isim çekim eklerini kabul ederler.",
+    "examples": [
+      "Herkes sınavda başarılı olmak istiyor.",
+      "Bazıları konuyu anlamadığını söyledi."
+    ],
+    "relatedTerms": [
+      "Kişi Zamiri",
+      "Soru Zamiri",
+      "İşaret Zamiri"
+    ],
+    "order": 16
+  },
+  {
+    "id": "isaret_sifati",
+    "term": "İşaret Sıfatı",
+    "definition": "Varlıkları işaret yoluyla belirten 'bu, şu, o, öteki, beriki' gibi sözcüklerdir. İsme sorulan 'hangi' sorusuna cevap verirler.",
+    "examples": [
+      "Bu kitap sınavda çıkabilir.",
+      "O çocuk çok başarılı."
+    ],
+    "relatedTerms": [
+      "İşaret Zamiri",
+      "Belirtme Sıfatı",
+      "Sıfat Tamlaması"
+    ],
+    "order": 17
+  },
+  {
+    "id": "yer_yon_zarfi",
+    "term": "Yer-Yön Zarfları",
+    "definition": "Fiili yer yönünden belirten 'ileri, geri, aşağı, yukarı, içeri, dışarı' gibi sözcüklerdir. Ek almazlar, ek alırlarsa isimleşirler.",
+    "examples": [
+      "Hemen içeri gir.",
+      "Biraz dışarı çık."
+    ],
+    "relatedTerms": [
+      "Zaman Zarfları",
+      "Durum Zarfları",
+      "Zarf"
+    ],
+    "order": 18
+  },
+  {
+    "id": "soru_sifati",
+    "term": "Soru Sıfatı",
+    "definition": "İsimleri soru yoluyla belirten sözcüklerdir. İsmin önüne gelerek ismi soru yönünden etkilerler.",
+    "examples": [
+      "Hangi gün sınav var?",
+      "Kaçıncı soru zordu?"
+    ],
+    "relatedTerms": [
+      "Soru Zamiri",
+      "Soru Zarfı",
+      "Belirtme Sıfatı"
+    ],
+    "order": 19
+  },
+  {
+    "id": "tamlama_ekleri",
+    "term": "Tamlama Ekleri",
+    "definition": "İsim tamlamalarında tamlayan ve tamlanan arasında ilgi kuran eklerdir. Tamlayan eki '-(n)in', tamlanan eki ise iyelik ekleridir.",
+    "examples": [
+      "Sınavın soruları zor geldi.",
+      "Öğrenci masası düzenliydi."
+    ],
+    "relatedTerms": [
+      "İsim Tamlaması",
+      "İyelik Eki",
+      "İlgi Eki"
+    ],
+    "order": 20
+  },
+  {
+    "id": "turemis_isim",
+    "term": "Türemiş İsim",
+    "definition": "İsim kök veya gövdelerine yapım eki getirilerek oluşturulan isimlerdir. Sözcüğün anlamını değiştirerek yeni bir kavram türetirler.",
+    "examples": [
+      "Gözlükçü",
+      "Kitaplık",
+      "Saygı"
+    ],
+    "relatedTerms": [
+      "Basit İsim",
+      "Birleşik İsim",
+      "Yapım Eki"
+    ],
+    "order": 21
+  },
+  {
+    "id": "birlesik_isim",
+    "term": "Birleşik İsim",
+    "definition": "En az iki sözcüğün bir araya gelip yeni bir kavramı karşılamak üzere kalıplaşmasıyla oluşan isimlerdir. Anlam kayması veya ses düşmesi görülebilir.",
+    "examples": [
+      "Aslanağzı",
+      "Hanımeli",
+      "Bilirkişi"
+    ],
+    "relatedTerms": [
+      "İsim Tamlaması",
+      "Türemiş İsim",
+      "Yalın Hal"
+    ],
+    "order": 22
+  },
+  {
+    "id": "yalin_hal",
+    "term": "Yalın Hal",
+    "definition": "İsimlerin i, e, de, den durum eklerini almamış halidir. Çoğul eki veya iyelik eki almış olması yalın halini bozmaz.",
+    "examples": [
+      "Kitap masanın üzerindeydi.",
+      "Çocuklar bahçede oynuyor."
+    ],
+    "relatedTerms": [
+      "İsmin Durum Ekleri",
+      "İyelik Eki",
+      "Çoğul Eki"
+    ],
+    "order": 23
+  },
+  {
+    "id": "ilgi_eki",
+    "term": "İlgi Eki",
+    "definition": "İsim tamlamalarında tamlayana gelen -ın, -in, -un, -ün (ve ben/biz için -ım, -im) ekleridir. Belirtili isim tamlaması kurar.",
+    "examples": [
+      "Ev-in kapısı",
+      "Okul-un bahçesi"
+    ],
+    "relatedTerms": [
+      "İsim Tamlaması",
+      "İyelik Eki",
+      "Tamlayan"
+    ],
+    "order": 24
+  },
+  {
+    "id": "iyelik_eki",
+    "term": "İyelik Eki",
+    "definition": "İsimlere gelerek o varlığın kime ait olduğunu bildiren eklerdir. Sözcüğün başına 'benim, senin, onun...' getirilerek bulunabilir.",
+    "examples": [
+      "Kalem-im",
+      "Defter-in",
+      "Okul-u"
+    ],
+    "relatedTerms": [
+      "İlgi Eki",
+      "Tamlanan",
+      "Kişi Zamiri"
+    ],
+    "order": 25
+  },
+  {
+    "id": "birlesik_sifat",
+    "term": "Birleşik Sıfat",
+    "definition": "İki veya daha fazla kelimenin birleşerek bir ismi nitelediği veya belirttiği sıfatlardır. Kurallı birleşik sıfatlar ve anlamca kaynaşmış birleşik sıfatlar olarak ikiye ayrılır.",
+    "examples": [
+      "Açık göz adam",
+      "Beş para etmez iş",
+      "Vatansever millet"
+    ],
+    "relatedTerms": [
+      "Niteleme Sıfatı",
+      "Sıfat Tamlaması",
+      "Kurallı Birleşik Sıfat"
+    ],
+    "order": 26
+  },
+  {
+    "id": "kuralli_birlesik_sifat",
+    "term": "Kurallı Birleşik Sıfat",
+    "definition": "Sıfat tamlamalarına -lı, -lık, -sız ekleri getirilerek veya isim tamlamalarının yer değiştirmesiyle oluşturulan sıfatlardır.",
+    "examples": [
+      "Kırık camlı pencere",
+      "Üç gün-lük dünya"
+    ],
+    "relatedTerms": [
+      "Birleşik Sıfat",
+      "Sıfat Tamlaması",
+      "İsim Tamlaması"
+    ],
+    "order": 27
+  },
+  {
+    "id": "soru_zarfi",
+    "term": "Soru Zarfı",
+    "definition": "Fiillerin veya fiilimsilerin anlamını soru yoluyla belirten, zaman, sebep veya miktar bildiren sözcüklerdir.",
+    "examples": [
+      "Neden gelmedin?",
+      "Nasıl gidiyorsun?",
+      "Ne kadar bekledin?"
+    ],
+    "relatedTerms": [
+      "Durum Zarfı",
+      "Zaman Zarfı",
+      "Miktar Zarfı"
+    ],
+    "order": 28
+  },
+  {
+    "id": "fiilimsi",
+    "term": "Fiilimsi (Eylemsi)",
+    "definition": "Fiil kök veya gövdelerine getirilen özel eklerle türetilen; cümlede isim, sıfat veya zarf görevinde kullanılan sözcüklerdir.",
+    "examples": [
+      "Gelen gideni aratır.",
+      "Koşarak geldi.",
+      "Okumak güzeldir."
+    ],
+    "relatedTerms": [
+      "İsim-Fiil",
+      "Sıfat-Fiil",
+      "Zarf-Fiil"
+    ],
+    "order": 29
+  },
+  {
+    "id": "isim_fiil",
+    "term": "İsim-Fiil",
+    "definition": "-ma/-me, -mak/-mek, -ış/-iş eklerini alarak fiillerin isimleşmiş halidir. Cümlede isim gibi görev yaparlar.",
+    "examples": [
+      "Gülüşü çok güzel.",
+      "Kitap okumayı seviyorum."
+    ],
+    "relatedTerms": [
+      "Fiilimsi",
+      "Sıfat-Fiil",
+      "Zarf-Fiil"
+    ],
+    "order": 30
+  },
+  {
+    "id": "sifat_fiil",
+    "term": "Sıfat-Fiil (Ortaç)",
+    "definition": "-an/-en, -ası/-esi, -mez/-maz, -ar/-er, -dık/-dik, -acak/-ecek, -mış/-miş ekleriyle kurulan, genellikle niteleme sıfatı görevinde kullanılan fiilimsilerdir.",
+    "examples": [
+      "Gezilecek yerler",
+      "Tanıdık yüzler",
+      "Yıkılası dağlar"
+    ],
+    "relatedTerms": [
+      "Fiilimsi",
+      "Niteleme Sıfatı",
+      "İsim-Fiil"
+    ],
+    "order": 31
+  },
+  {
+    "id": "zarf_fiil",
+    "term": "Zarf-Fiil (Ulaç)",
+    "definition": "-ken, -alı, -madan, -ince, -ip, -arak, -dıkça gibi eklerle kurulan, fiilleri zaman veya durum yönünden niteleyen sözcüklerdir.",
+    "examples": [
+      "Gülerek anlattı.",
+      "Gelince haber ver.",
+      "Okurken uyuyakalmış."
+    ],
+    "relatedTerms": [
+      "Fiilimsi",
+      "Durum Zarfı",
+      "Zaman Zarfı"
+    ],
+    "order": 32
+  },
+  {
+    "id": "ek_eylem",
+    "term": "Ek Eylem (İmek)",
+    "definition": "İsim soylu sözcükleri yüklem yapan veya basit zamanlı fiilleri birleşik zamanlı fiillere dönüştüren eklerdir (-idi, -imiş, -ise, -dir).",
+    "examples": [
+      "Öğrenciydi.",
+      "Geliyormuş.",
+      "Güzeldir."
+    ],
+    "relatedTerms": [
+      "Birleşik Zamanlı Fiil",
+      "Yüklem",
+      "İsim Tamlaması"
+    ],
+    "order": 33
+  },
+  {
+    "id": "edat_grubu",
+    "term": "Edat Grubu",
+    "definition": "Edatların kendinden önceki kelimeyle öbekleşerek oluşturduğu, cümlede zarf veya sıfat görevinde kullanılan sözcük gruplarıdır.",
+    "examples": [
+      "Sabaha kadar çalıştık.",
+      "Çocuk gibi davranıyor."
+    ],
+    "relatedTerms": [
+      "Edat",
+      "Zarf",
+      "Sıfat"
+    ],
+    "order": 34
+  },
+  {
+    "id": "unlem_grubu",
+    "term": "Ünlem Grubu",
+    "definition": "Ünlemlerin bir isimle öbekleşerek duygu veya seslenme bildirdiği sözcük gruplarıdır.",
+    "examples": [
+      "Hey gidi günler!",
+      "Ey Türk gençliği!"
+    ],
+    "relatedTerms": [
+      "Ünlem",
+      "Seslenme",
+      "İsim"
+    ],
+    "order": 35
+  },
+  {
+    "id": "basit_turemis_birlesik_sozcuk",
+    "term": "Yapısına Göre Sözcükler",
+    "definition": "Sözcüklerin kök ve ek alma durumlarına göre sınıflandırılmasıdır. Yapım eki almamış sözcükler basit, yapım eki alanlar türemiş, iki veya daha fazla sözcüğün birleşmesiyle oluşanlar ise birleşik sözcük olarak adlandırılır.",
+    "examples": [
+      "Kitap (basit)",
+      "Kitaplık (türemiş)",
+      "Hanımeli (birleşik)"
+    ],
+    "relatedTerms": [
+      "Yapım Eki",
+      "Çekim Eki",
+      "Gövde"
+    ],
+    "order": 36
+  },
+  {
+    "id": "eylemsi_fiilimsi",
+    "term": "Eylemsi (Fiilimsi)",
+    "definition": "Fiil kök veya gövdelerinden türeyen, cümlede isim, sıfat veya zarf görevinde kullanılan sözcüklerdir. Kip ve kişi eki almazlar, olumsuzluk eki olan '-ma/-me'yi alabilirler.",
+    "examples": [
+      "Gelen gideni aratır.",
+      "Koşarak eve gitti.",
+      "Okumayı seviyorum."
+    ],
+    "relatedTerms": [
+      "İsim-Fiil",
+      "Sıfat-Fiil",
+      "Zarf-Fiil"
+    ],
+    "order": 37
+  },
+  {
+    "id": "unvan_sifati",
+    "term": "Unvan Sıfatı",
+    "definition": "Kişilerin makamını, rütbesini, lakabını veya akrabalık bildiren isimlerini belirten sıfatlardır. Özel isimlerle birlikte kullanılır ve büyük harfle başlar.",
+    "examples": [
+      "Doktor Ahmet Bey",
+      "Yüzbaşı Selim",
+      "Ayşe Hanım"
+    ],
+    "relatedTerms": [
+      "Özel İsim",
+      "Niteleme Sıfatı",
+      "İsim Tamlaması"
+    ],
+    "order": 38
+  },
+  {
+    "id": "derecelendirme_zarfi",
+    "term": "Derecelendirme Zarfı",
+    "definition": "Sıfatların veya zarfların önüne gelerek onların anlamını pekiştiren, azaltan veya çoğaltan sözcüklerdir. Genellikle 'en, daha, çok, oldukça, gayet' gibi sözcüklerle yapılır.",
+    "examples": [
+      "Daha güzel bir gün.",
+      "En zor sınav.",
+      "Oldukça hızlı yürüdü."
+    ],
+    "relatedTerms": [
+      "Miktar Zarfı",
+      "Niteleme Sıfatı",
+      "Zarf"
+    ],
+    "order": 39
+  },
+  {
+    "id": "kisi_ekleri",
+    "term": "Kişi (Şahıs) Ekleri",
+    "definition": "Fiillere gelerek eylemi gerçekleştiren özneyi belirten eklerdir. Fiil çekiminde kip eklerinden sonra gelir ve eylemin kim tarafından yapıldığını bildirir.",
+    "examples": [
+      "Gel-di-m (Birinci tekil şahıs)",
+      "Oku-yacak-sın (İkinci tekil şahıs)",
+      "Yaz-dı-lar (Üçüncü çoğul şahıs)"
+    ],
+    "relatedTerms": [
+      "Fiil Çekimi",
+      "Kip Ekleri",
+      "Ek Eylem"
+    ],
+    "order": 40
+  },
+  {
+    "id": "basit_yapili_sozcuk",
+    "term": "Basit Yapılı Sözcük",
+    "definition": "Yapım eki almamış, kök halindeki sözcüklerdir. Çekim eki alabilirler ancak anlamları değişmez.",
+    "examples": [
+      "Kitaplar masada duruyor.",
+      "Yolumuz çok uzundu."
+    ],
+    "relatedTerms": [
+      "Yapısına Göre Sözcükler",
+      "Türemiş İsim",
+      "Birleşik İsim"
+    ],
+    "order": 41
+  },
+  {
+    "id": "turemis_sozcuk",
+    "term": "Türemiş Sözcük",
+    "definition": "En az bir yapım eki alarak kök veya gövdeden türetilen sözcüklerdir. Sözcüğün anlamı veya türü değişebilir.",
+    "examples": [
+      "Gözlükçü dükkanı kapattı.",
+      "Kitaplıkta çok kitap var."
+    ],
+    "relatedTerms": [
+      "Yapım Ekleri",
+      "Gövde",
+      "Basit Yapılı Sözcük"
+    ],
+    "order": 42
+  },
+  {
+    "id": "birlesik_sozcuk",
+    "term": "Birleşik Sözcük",
+    "definition": "En az iki sözcüğün birleşerek yeni bir kavramı karşılamasıdır. Anlam kayması veya ses düşmesi görülebilir.",
+    "examples": [
+      "Hanımeli çiçeği çok güzel kokuyor.",
+      "Bugün gökyüzü çok açık."
+    ],
+    "relatedTerms": [
+      "Birleşik İsim",
+      "Birleşik Sıfat",
+      "Yapısına Göre Sözcükler"
+    ],
+    "order": 43
+  },
+  {
+    "id": "yapim_ekleri",
+    "term": "Yapım Ekleri",
+    "definition": "Sözcüğe eklenerek onun anlamını veya türünü değiştiren eklerdir. İsimden isim, isimden fiil, fiilden fiil veya fiilden isim yapabilirler.",
+    "examples": [
+      "Göz-lük",
+      "Yaz-gı",
+      "Kitap-çı"
+    ],
+    "relatedTerms": [
+      "Gövde",
+      "Türemiş Sözcük",
+      "Çekim Ekleri"
+    ],
+    "order": 44
+  },
+  {
+    "id": "cekim_ekleri",
+    "term": "Çekim Ekleri",
+    "definition": "Sözcüğün anlamını değiştirmeyen, onu cümlede görevli kılan veya diğer sözcüklerle bağ kurmasını sağlayan eklerdir.",
+    "examples": [
+      "Ev-ler",
+      "Gel-di",
+      "Kitab-ım"
+    ],
+    "relatedTerms": [
+      "İyelik Eki",
+      "Durum Ekleri",
+      "Kişi Ekleri"
+    ],
+    "order": 45
+  },
+  {
+    "id": "belirtme_durum_eki",
+    "term": "Belirtme Durum Eki",
+    "definition": "İsmin -i hali ekidir. Fiilin belirttiği nesneyi gösterir ve genellikle belirtili nesne görevinde kullanılır.",
+    "examples": [
+      "Kitabı masaya bıraktı.",
+      "Evi çok beğendim."
+    ],
+    "relatedTerms": [
+      "Durum Ekleri",
+      "Belirtili Nesne",
+      "İyelik Eki"
+    ],
+    "order": 46
+  },
+  {
+    "id": "yonelme_durum_eki",
+    "term": "Yönelme Durum Eki",
+    "definition": "İsmin -e hali ekidir. Eylemin yöneldiği yeri veya zamanı belirtir.",
+    "examples": [
+      "Eve doğru yürüdük.",
+      "Akşama size geleceğiz."
+    ],
+    "relatedTerms": [
+      "Durum Ekleri",
+      "Dolaylı Tümleç"
+    ],
+    "order": 47
+  },
+  {
+    "id": "bulunma_durum_eki",
+    "term": "Bulunma Durum Eki",
+    "definition": "İsmin -de hali ekidir. Varlığın bulunduğu yeri veya zamanı bildirir.",
+    "examples": [
+      "Okulda ders çalışıyor.",
+      "Aklım onda kaldı."
+    ],
+    "relatedTerms": [
+      "Durum Ekleri",
+      "Dolaylı Tümleç"
+    ],
+    "order": 48
+  },
+  {
+    "id": "ayrilma_durum_eki",
+    "term": "Ayrılma Durum Eki",
+    "definition": "İsmin -den hali ekidir. Çıkma, ayrılma veya karşılaştırma anlamı katar.",
+    "examples": [
+      "Okuldan şimdi çıktı.",
+      "Senden daha hızlıyım."
+    ],
+    "relatedTerms": [
+      "Durum Ekleri",
+      "Dolaylı Tümleç"
+    ],
+    "order": 49
+  },
+  {
+    "id": "vasita_eki",
+    "term": "Vasıta Eki",
+    "definition": "İsme getirilen '-le/-la' ekidir. Araç, birliktelik veya neden anlamı katar.",
+    "examples": [
+      "Otobüsle geldim.",
+      "Arkadaşıyla buluştu."
+    ],
+    "relatedTerms": [
+      "Edat",
+      "Bağlaç"
+    ],
+    "order": 50
+  },
+  {
+    "id": "ilgi_zamiri",
+    "term": "İlgi Zamiri",
+    "definition": "İsim tamlamasında düşen tamlananın yerini tutan '-ki' ekidir. Her zaman bitişik yazılır.",
+    "examples": [
+      "Benimki bozulmuş.",
+      "Seninki gelmedi."
+    ],
+    "relatedTerms": [
+      "Sıfat Yapan Ki",
+      "Bağlaç Olan Ki",
+      "Zamirler"
+    ],
+    "order": 51
+  },
+  {
+    "id": "sifat_yapan_ki",
+    "term": "Sıfat Yapan Ki",
+    "definition": "İsimlere gelerek onları yer veya zaman bakımından niteleyen ve sıfat görevinde kullanılmasını sağlayan ektir.",
+    "examples": [
+      "Yarınki sınav önemli.",
+      "Masadaki kitap benim."
+    ],
+    "relatedTerms": [
+      "İlgi Zamiri",
+      "Bağlaç Olan Ki",
+      "Sıfatlar"
+    ],
+    "order": 52
+  },
+  {
+    "id": "ek_eylem_genis_zaman",
+    "term": "Ek Eylem Geniş Zaman",
+    "definition": "İsim soylu sözcüklere gelerek onları yüklem yapan eklerdir. Şahıs ekleriyle birleşerek çekimlenir.",
+    "examples": [
+      "Öğrenciyim.",
+      "Mutlusun.",
+      "Hava güzeldir."
+    ],
+    "relatedTerms": [
+      "Ek Eylem",
+      "İsim Cümlesi"
+    ],
+    "order": 53
+  },
+  {
+    "id": "fiilden_isim_yapim_eki",
+    "term": "Fiilden İsim Yapım Eki",
+    "definition": "Fiil kök veya gövdelerine gelerek onları isim soylu yapan eklerdir. Genellikle fiilimsilerde de karşımıza çıkar.",
+    "examples": [
+      "Gez-i",
+      "Yaz-gı",
+      "Bak-ış"
+    ],
+    "relatedTerms": [
+      "Yapım Ekleri",
+      "Fiilimsi"
+    ],
+    "order": 54
+  },
+  {
+    "id": "isimden_fiil_yapim_eki",
+    "term": "İsimden Fiil Yapım Eki",
+    "definition": "İsim kök veya gövdelerine gelerek onları fiil haline getiren eklerdir.",
+    "examples": [
+      "Su-la-mak",
+      "Az-al-mak",
+      "Düz-el-mek"
+    ],
+    "relatedTerms": [
+      "Yapım Ekleri",
+      "Eylem"
+    ],
+    "order": 55
+  },
+  {
+    "id": "basit_isim",
+    "term": "Basit İsim",
+    "definition": "Yapım eki almamış, kök halindeki veya sadece çekim eki almış isimlerdir. Sözcüğün anlamını değiştiren hiçbir ek içermezler.",
+    "examples": [
+      "Kitaplar masada duruyor.",
+      "Yolun sonuna geldik."
+    ],
+    "relatedTerms": [
+      "Türemiş İsim",
+      "Birleşik İsim",
+      "Yapısına Göre Sözcükler"
+    ],
+    "order": 56
+  },
+  {
+    "id": "belirtili_isim_tamlamasi",
+    "term": "Belirtili İsim Tamlaması",
+    "definition": "Tamlayanın ilgi eki (-in), tamlananın ise iyelik eki aldığı tamlama türüdür. Tamlayan ve tamlanan birbirine sıkı sıkıya bağlıdır.",
+    "examples": [
+      "Evin kapısı kilitli.",
+      "Öğrencinin başarısı takdire şayandır."
+    ],
+    "relatedTerms": [
+      "İsim Tamlaması",
+      "İlgi Eki",
+      "İyelik Eki"
+    ],
+    "order": 57
+  },
+  {
+    "id": "belirtisiz_isim_tamlamasi",
+    "term": "Belirtisiz İsim Tamlaması",
+    "definition": "Tamlayanın ek almadığı, sadece tamlananın iyelik eki aldığı tamlamadır. Genellikle tür bildiren veya kalıplaşmış ifadelerde görülür.",
+    "examples": [
+      "Okul bahçesi çok geniş.",
+      "İstanbul boğazı eşsizdir."
+    ],
+    "relatedTerms": [
+      "İsim Tamlaması",
+      "İyelik Eki"
+    ],
+    "order": 58
+  },
+  {
+    "id": "zincirleme_isim_tamlamasi",
+    "term": "Zincirleme İsim Tamlaması",
+    "definition": "En az üç ismin birbirine bağlanmasıyla oluşan tamlamalardır. Tamlayan veya tamlanan kendi içinde başka bir tamlama oluşturur.",
+    "examples": [
+      "Okul müdürünün odası boyandı.",
+      "Sınav sorularının zorluğu herkesi şaşırttı."
+    ],
+    "relatedTerms": [
+      "İsim Tamlaması",
+      "Belirtili İsim Tamlaması"
+    ],
+    "order": 59
+  },
+  {
+    "id": "takisiz_isim_tamlamasi",
+    "term": "Takısız İsim Tamlaması",
+    "definition": "Tamlayanın ve tamlananın ek almadığı, tamlananın neden yapıldığını veya neye benzediğini belirttiği tamlamalardır. (Not: Modern dilbilgisi kitaplarında sıfat tamlaması kabul edilir).",
+    "examples": [
+      "Demir kapı açıldı.",
+      "Taş duvar örüldü."
+    ],
+    "relatedTerms": [
+      "Sıfat Tamlaması",
+      "İsim Tamlaması"
+    ],
+    "order": 60
+  },
+  {
+    "id": "sayi_sifati",
+    "term": "Sayı Sıfatı",
+    "definition": "İsimleri sayı yönünden belirten sıfatlardır. Asıl, sıra, üleştirme ve kesir sayı sıfatı olarak türlere ayrılır.",
+    "examples": [
+      "Üç elma aldım.",
+      "İkinci sınıfta okuyor."
+    ],
+    "relatedTerms": [
+      "Sıfat Tamlaması",
+      "Belgisiz Sıfat"
+    ],
+    "order": 61
+  },
+  {
+    "id": "durum_hal_ekleri",
+    "term": "Durum (Hal) Ekleri",
+    "definition": "İsimlere gelerek onları cümlede nesne, dolaylı tümleç veya zarf tümleci yapan eklerdir. Yalın hal dışında belirtme, yönelme, bulunma ve ayrılma halleri vardır.",
+    "examples": [
+      "Eve gidiyorum.",
+      "Kitabı masaya bıraktım."
+    ],
+    "relatedTerms": [
+      "Yalın Hal",
+      "İsim"
+    ],
+    "order": 62
+  },
+  {
+    "id": "birlesik_fiil",
+    "term": "Birleşik Fiil",
+    "definition": "En az iki sözcüğün birleşerek tek bir eylemi karşılamasıdır. Kurallı, yardımcı eylemle kurulan veya anlamca kaynaşmış birleşik fiiller olarak ayrılır.",
+    "examples": [
+      "Bu soruyu çözebilirim.",
+      "Ona yardım etmelisin."
+    ],
+    "relatedTerms": [
+      "Fiil",
+      "Yapısına Göre Sözcükler"
+    ],
+    "order": 63
+  },
+  {
+    "id": "ozel_isim",
+    "term": "Özel İsim",
+    "definition": "Tek bir varlığı karşılayan, eşi benzeri olmayan, büyük harfle başlayan isimlerdir. Kişi adları, yer adları, kurum ve kuruluş adları bu gruba girer.",
+    "examples": [
+      "Ankara'ya gitmek için hazırlıklarını tamamladı.",
+      "Türk Dil Kurumu yeni kararlar aldı."
+    ],
+    "relatedTerms": [
+      "Cins İsim",
+      "Somut İsim"
+    ],
+    "order": 64
+  },
+  {
+    "id": "cins_isim",
+    "term": "Cins İsim (Tür Adı)",
+    "definition": "Aynı türden olan varlıkların ortak adıdır. Cümle içinde özel isim olmadıkça küçük harfle başlar.",
+    "examples": [
+      "Bahçedeki ağaçlar çiçek açtı.",
+      "Kitap okumak zihni geliştirir."
+    ],
+    "relatedTerms": [
+      "Özel İsim",
+      "Somut İsim"
+    ],
+    "order": 65
+  },
+  {
+    "id": "somut_isim",
+    "term": "Somut İsim",
+    "definition": "Beş duyu organımızdan en az biriyle algılanabilen varlıkları karşılayan isimlerdir.",
+    "examples": [
+      "Rüzgar tenimi ürpertti.",
+      "Sıcak bir çay içmek iyi geldi."
+    ],
+    "relatedTerms": [
+      "Soyut İsim",
+      "Cins İsim"
+    ],
+    "order": 66
+  },
+  {
+    "id": "soyut_isim",
+    "term": "Soyut İsim",
+    "definition": "Beş duyu organımızla algılanamayan, zihin yoluyla kavranan kavramlardır.",
+    "examples": [
+      "Mutluluk paylaştıkça artar.",
+      "İnsanların önyargılarını kırmak zordur."
+    ],
+    "relatedTerms": [
+      "Somut İsim",
+      "Cins İsim"
+    ],
+    "order": 67
+  },
+  {
+    "id": "tekil_isim",
+    "term": "Tekil İsim",
+    "definition": "Çoğul eki (-lar/-ler) almamış, tek bir varlığı karşılayan isimlerdir.",
+    "examples": [
+      "Öğrenci sınıfa girdi.",
+      "Kalem masanın üzerinde duruyor."
+    ],
+    "relatedTerms": [
+      "Çoğul İsim",
+      "Topluluk İsmi"
+    ],
+    "order": 68
+  },
+  {
+    "id": "cogul_isim",
+    "term": "Çoğul İsim",
+    "definition": "İsimlere gelen -lar/-ler ekiyle oluşturulan, birden fazla varlığı karşılayan isimlerdir.",
+    "examples": [
+      "Çocuklar parkta oynuyor.",
+      "Kitaplar raflara dizildi."
+    ],
+    "relatedTerms": [
+      "Tekil İsim",
+      "Tamlama Ekleri"
+    ],
+    "order": 69
+  },
+  {
+    "id": "topluluk_ismi",
+    "term": "Topluluk İsmi",
+    "definition": "Çoğul eki almadığı halde anlamca birden fazla varlığı ifade eden isimlerdir.",
+    "examples": [
+      "Ordu düşmana karşı ilerledi.",
+      "Sürü ovada otluyor."
+    ],
+    "relatedTerms": [
+      "Tekil İsim",
+      "Çoğul İsim"
+    ],
+    "order": 70
+  },
+  {
+    "id": "hal_ekleri",
+    "term": "Hal Ekleri (Durum Ekleri)",
+    "definition": "İsimlerin cümledeki görevlerini belirleyen -i, -e, -de, -den ekleridir. İsmi fiile veya başka bir isme bağlar.",
+    "examples": [
+      "Kitabı masaya bıraktı.",
+      "Okulda bekliyorum."
+    ],
+    "relatedTerms": [
+      "İyelik Eki",
+      "İlgi Eki"
+    ],
+    "order": 71
+  },
+  {
+    "id": "ek_eylem_sarti",
+    "term": "Ek Eylem Şartı",
+    "definition": "Ek eylemin 'ise' biçimidir. İsim soylu sözcüklere gelerek onları koşullu bir yargı haline getirir.",
+    "examples": [
+      "Hava güzelse yürüyüşe çıkalım.",
+      "Ödevin zorsa yardım edebilirim."
+    ],
+    "relatedTerms": [
+      "Ek Eylem",
+      "Fiilimsi"
+    ],
+    "order": 72
+  },
+  {
+    "id": "birlesik_zamanli_fiil",
+    "term": "Birleşik Zamanlı Fiil",
+    "definition": "Fiilin üzerine iki farklı kip ekinin gelmesiyle oluşan fiillerdir. Birinci kip eki zamanı, ikinci kip eki (idi, imiş, ise) ise ek eylemi ifade eder.",
+    "examples": [
+      "Geliyordu (Şimdiki zamanın hikayesi).",
+      "Okumuşsa (Öğrenilen geçmiş zamanın şartı)."
+    ],
+    "relatedTerms": [
+      "Basit Zamanlı Fiil",
+      "Ek Eylem",
+      "Haber Kipleri"
+    ],
+    "order": 73
+  },
+  {
+    "id": "ek_eylem_hikayesi",
+    "term": "Ek Eylem Hikayesi",
+    "definition": "İsim soylu sözcüklerin veya fiillerin sonuna gelen '-di' ekinin, geçmiş zaman anlamı katarak yüklemleşmesini sağlayan yapıdır. Fiillerde birleşik zamanlı fiil oluşturur.",
+    "examples": [
+      "Dün hava çok soğuktu.",
+      "Daha önce buraya gelmişti."
+    ],
+    "relatedTerms": [
+      "Ek Eylem Rivayeti",
+      "Ek Eylem Şartı",
+      "Birleşik Zamanlı Fiil"
+    ],
+    "order": 74
+  },
+  {
+    "id": "belirtme_sifati",
+    "term": "Belirtme Sıfatı",
+    "definition": "Varlıkları işaret, sayı, belirsizlik veya soru yoluyla belirten sıfatlardır. Niteleme sıfatlarından farklı olarak varlığın niteliğini değil, durumunu belirtirler.",
+    "examples": [
+      "Şu ev çok güzeldi.",
+      "Birkaç öğrenci dışarı çıktı."
+    ],
+    "relatedTerms": [
+      "Niteleme Sıfatı",
+      "İşaret Sıfatı",
+      "Sayı Sıfatı",
+      "Belgisiz Sıfat",
+      "Soru Sıfatı"
+    ],
+    "order": 75
+  },
+  {
+    "id": "fiil_koku",
+    "term": "Fiil Kökü",
+    "definition": "Bir fiilin anlamlı en küçük parçasıdır. Mastar eki (-mek, -mak) alabilen sözcük kökleridir.",
+    "examples": [
+      "Gel-mek",
+      "Oku-mak"
+    ],
+    "relatedTerms": [
+      "İsim Kökü",
+      "Gövde",
+      "Fiil"
+    ],
+    "order": 76
+  },
+  {
+    "id": "isim_koku",
+    "term": "İsim Kökü",
+    "definition": "Bir ismin anlamlı en küçük parçasıdır. Mastar eki (-mek, -mak) alamayan sözcük kökleridir.",
+    "examples": [
+      "Ev",
+      "Su"
+    ],
+    "relatedTerms": [
+      "Fiil Kökü",
+      "Gövde",
+      "İsim"
+    ],
+    "order": 77
+  },
+  {
+    "id": "fiilimsi_isim_fiil",
+    "term": "İsim-Fiil (Mastar)",
+    "definition": "Fiillere '-ma, -ış, -mak' ekleri getirilerek oluşturulan ve cümlede isim görevinde kullanılan fiilimsilerdir. Olumsuzluk eki alabilirler.",
+    "examples": [
+      "Okumak güzeldir.",
+      "Gülüşün beni mutlu etti."
+    ],
+    "relatedTerms": [
+      "Sıfat-Fiil",
+      "Zarf-Fiil",
+      "Fiilimsiler"
+    ],
+    "order": 78
+  },
+  {
+    "id": "fiilimsi_zarf_fiil",
+    "term": "Zarf-Fiil (Bağ-Fiil, Ulaç)",
+    "definition": "Fiillere '-ip, -erek, -meden, -ince, -ken, -alı, -dıkça, -r...mez, -esiye, -e...e' gibi ekler getirilerek oluşturulan ve cümlede zarf görevinde kullanılan fiilimsilerdir. Fiili veya fiilimsiyi durum ya da zaman yönünden belirtirler.",
+    "examples": [
+      "Gülerek konuştu.",
+      "Gelince haber ver."
+    ],
+    "relatedTerms": [
+      "İsim-Fiil",
+      "Sıfat-Fiil",
+      "Zarf"
+    ],
+    "order": 79
+  },
+  {
+    "id": "ek_eylem_rivayet",
+    "term": "Ek Eylem Rivayeti",
+    "definition": "İsim soylu sözcüklere veya basit zamanlı fiillere '-imiş' ekinin getirilmesiyle oluşan çekimli fiil yapısıdır. Başkasından duyulan veya sonradan fark edilen bir durumu ifade eder.",
+    "examples": [
+      "Çok çalışkanmış.",
+      "Geliyormuş."
+    ],
+    "relatedTerms": [
+      "Ek Eylem Hikayesi",
+      "Ek Eylem Şartı",
+      "Ek Eylem Geniş Zaman"
+    ],
+    "order": 80
+  },
+  {
+    "id": "zarf_belirtec",
+    "term": "Zarf (Belirteç)",
+    "definition": "Fiilleri, fiilimsileri, sıfatları veya kendi türünden sözcükleri durum, zaman, miktar, yer-yön, soru gibi yönlerden belirten sözcüklerdir. Cümlede genellikle nasıl, ne zaman, ne kadar, nereye gibi sorulara cevap verir.",
+    "examples": [
+      "Çok **hızlı** koştu.",
+      "Yarın **gelecek**."
+    ],
+    "relatedTerms": [
+      "Sıfat",
+      "Edat",
+      "Fiilimsiler"
+    ],
+    "order": 81
+  }
+]
