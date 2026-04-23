@@ -1073,5 +1073,378 @@
       "Söz Sanatları"
     ],
     "order": 78
+  },
+  {
+    "id": "sozcuk_turu_hatasi",
+    "term": "Sözcük Türü Hatası",
+    "definition": "Bir sözcüğün cümlede isim, sıfat veya zarf olarak yanlış türde kullanılmasıdır. Özellikle sıfat ve zarf görevindeki kelimelerin birbirinin yerine kullanılması anlatımı bozar.",
+    "examples": [
+      "Onunla çok konuşmak, beni yoruyor."
+    ],
+    "relatedTerms": [
+      "Sözcüğün Yanlış Anlamda Kullanılması",
+      "Sözcük Türetme Hatası"
+    ],
+    "order": 79
+  },
+  {
+    "id": "sozcuk_yapisi_hatasi",
+    "term": "Sözcük Yapısı Hatası",
+    "definition": "Sözcüğün kök veya eklerinin yanlış birleştirilmesi veya yanlış ek almasıdır. Kelimenin dil bilgisi kurallarına aykırı şekilde türetilmesi veya çekimlenmesidir.",
+    "examples": [
+      "Bu sorunun cevabını herkesçe biliniyor."
+    ],
+    "relatedTerms": [
+      "Sözcük Türetme Hatası",
+      "Ek Yanlış Kullanımı"
+    ],
+    "order": 80
+  },
+  {
+    "id": "yanlis_baglac_kullanimi",
+    "term": "Yanlış Bağlaç Kullanımı",
+    "definition": "Cümlenin anlam akışına uygun olmayan bağlaçların seçilmesidir. Neden-sonuç veya karşıtlık bildiren ifadelerde yanlış bağlaç kullanılması anlatımı bozar.",
+    "examples": [
+      "Çok çalıştı ve başarılı olamadı."
+    ],
+    "relatedTerms": [
+      "Bağlaç Yanlışlığı",
+      "Bağlaç Kullanım Hatası"
+    ],
+    "order": 81
+  },
+  {
+    "id": "anlamsal_belirsizlik_noktalama",
+    "term": "Anlamsal Belirsizlik (Noktalama Kaynaklı)",
+    "definition": "Virgül işaretinin kullanılmaması veya yanlış yerde kullanılması sonucunda cümlenin iki farklı anlama gelmesidir. Genellikle özneyi belirtmek için virgülün zorunlu olduğu durumlarda oluşur.",
+    "examples": [
+      "Genç doktora bir şeyler söyledi.",
+      "İhtiyar adama yardım etti."
+    ],
+    "relatedTerms": [
+      "Anlam Karışıklığı",
+      "Noktalama Eksikliği"
+    ],
+    "order": 82
+  },
+  {
+    "id": "gereksiz_yardimci_fiil_kullanimi",
+    "term": "Gereksiz Yardımcı Fiil Kullanımı",
+    "definition": "Türkçede tek başına fiil olarak kullanılabilecek bir kelime varken, onun yerine 'etmek, olmak, kılmak' gibi yardımcı fiillerle birleşik fiil oluşturulmasıdır. Anlatımı gereksiz yere uzatır ve duruluğu bozar. Özellikle yabancı kökenli kelimelerde sıkça görülür.",
+    "examples": [
+      "Yardım etmek yerine 'yardımlaşmak' denilebilir.",
+      "Hissetmek yerine 'duymak' denilebilir."
+    ],
+    "relatedTerms": [
+      "Duruluk",
+      "Sözcük Ekonomisi",
+      "Anlatım Yalınlığı"
+    ],
+    "order": 83
+  },
+  {
+    "id": "fiilimsilerin_yanlis_kullanimi",
+    "term": "Fiilimsilerin Yanlış Kullanımı",
+    "definition": "Cümlede fiilimsilerin (isim fiil, sıfat fiil, zarf fiil) dil bilgisi kurallarına veya anlama uygun olmayan şekilde kullanılmasıdır. Özellikle farklı türdeki fiilimsilerin aynı görevde kullanılmasıyla ortaya çıkar. Anlatımda anlamsal veya yapısal bozukluğa yol açar.",
+    "examples": [
+      "Kitap okumayı ve müzik dinlemekten hoşlanırım.",
+      "Gelerek ve giderek işleri karıştırdı."
+    ],
+    "relatedTerms": [
+      "Eylemsi Yanlışlığı",
+      "Yapısal Bozukluk",
+      "Dil Bilgisi Hatası"
+    ],
+    "order": 84
+  },
+  {
+    "id": "ozne_yuklem_uyumsuzlugu_kisi",
+    "term": "Özne-Yüklem Uyumsuzluğu (Kişi)",
+    "definition": "Cümlede özne ile yüklem arasında kişi bakımından uyumsuzluk bulunmasıdır. Özne hangi kişiyse (ben, sen, o, biz, siz, onlar) yüklem de o kişiye göre çekimlenmelidir. Özellikle birden fazla öznenin olduğu durumlarda dikkat edilmelidir.",
+    "examples": [
+      "Ben ve sen yarın okula gidecek.",
+      "Siz ve o bu işi başarırız."
+    ],
+    "relatedTerms": [
+      "Dil Bilgisi Hatası",
+      "Yüklem Uyumsuzluğu",
+      "Kişi Uyumsuzluğu"
+    ],
+    "order": 85
+  },
+  {
+    "id": "tamlama_yanlisligi_tur",
+    "term": "Tamlama Yanlışlığı (Tür)",
+    "definition": "Bir isim tamlamasında tamlayan veya tamlananın türünün (isim, sıfat) yanlış kullanılması veya birbiriyle uyumsuz olmasıdır. Özellikle sıfat ve isim tamlamalarının karıştırılmasıyla ortaya çıkar. Anlatımda anlamsal ve yapısal bozukluğa yol açar.",
+    "examples": [
+      "Yeşil ağacın yaprakları döküldü.",
+      "Çalışkan öğrencinin başarısı takdir edildi."
+    ],
+    "relatedTerms": [
+      "Tamlama Hatası",
+      "Sıfat Tamlaması",
+      "İsim Tamlaması"
+    ],
+    "order": 86
+  },
+  {
+    "id": "anlam_karisikligi_noktalama",
+    "term": "Anlam Karışıklığı (Noktalama Kaynaklı)",
+    "definition": "Cümlede noktalama işaretlerinin (virgül, noktalı virgül vb.) eksik veya yanlış kullanılması nedeniyle anlamın belirsizleşmesidir. Özellikle virgülün özneyi ayırmaması veya yanlış yerde kullanılmasıyla ortaya çıkar. Cümlenin doğru anlaşılmasını engeller.",
+    "examples": [
+      "Genç doktora seslendi.",
+      "Oku adam ol baban gibi."
+    ],
+    "relatedTerms": [
+      "Noktalama Hatası",
+      "Anlamsal Belirsizlik",
+      "Anlam Açıklığı"
+    ],
+    "order": 87
+  },
+  {
+    "id": "yardimci_fiil_yanlisligi",
+    "term": "Yardımcı Fiil Yanlışlığı",
+    "definition": "Türkçede isim soylu sözcüklerle birlikte kullanılan 'etmek, olmak, eylemek, kılmak' gibi yardımcı fiillerin yanlış veya gereksiz kullanılmasıyla ortaya çıkan anlatım bozukluğudur. Özellikle etmek ve olmak fiillerinin gereksiz yere kullanılması yaygındır.",
+    "examples": [
+      "Yardım etmek yerine yardım etti. (Doğrusu: Yardım etti.)",
+      "Hasta olmak yerine hastalandı. (Doğrusu: Hastalandı.)"
+    ],
+    "relatedTerms": [
+      "Gereksiz Fiil Kullanımı",
+      "Sözcük Yapısı Hatası"
+    ],
+    "order": 88
+  },
+  {
+    "id": "zamir_yanlisligi",
+    "term": "Zamir Yanlışlığı",
+    "definition": "Cümlede zamirlerin yanlış kişi, sayı veya durumda kullanılmasıyla oluşan anlatım bozukluğudur. Özellikle kişi zamirlerinin gereksiz yere kullanılması veya yanlış bir varlığa işaret etmesi anlam belirsizliğine yol açar.",
+    "examples": [
+      "Seninle konuşmak istiyorum. O gelince konuşuruz. (Doğrusu: Seninle konuşmak istiyorum. Sen gelince konuşuruz. veya O gelince konuşuruz.)",
+      "Onlar gelmeden önce biz hazırlık yaptık. (Doğrusu: Onlar gelmeden önce hazırlık yaptık.)"
+    ],
+    "relatedTerms": [
+      "Kişi Zamiri Eksikliği",
+      "Anlamsal Belirsizlik"
+    ],
+    "order": 89
+  },
+  {
+    "id": "tamlama_eksikligi",
+    "term": "Tamlama Eksikliği",
+    "definition": "Birleşik veya sıralı cümlelerde, ortak bir tamlayana veya tamlanana bağlı olarak, tamlamanın bir ögesinin eksik bırakılması durumudur. Özellikle isim veya sıfat tamlamalarında bu eksiklik anlamı bozar.",
+    "examples": [
+      "Kültür ve sanat eserleri sergilendi. (Doğrusu: Kültür eserleri ve sanat eserleri sergilendi.)",
+      "Ekonomi ve siyaset sorunları tartışıldı. (Doğrusu: Ekonomi sorunları ve siyaset sorunları tartışıldı.)"
+    ],
+    "relatedTerms": [
+      "Tamlama Yanlışı",
+      "Ortak Öge Eksikliği"
+    ],
+    "order": 90
+  },
+  {
+    "id": "noktalama_eksikligi",
+    "term": "Noktalama Eksikliği",
+    "definition": "Cümlede virgül, noktalı virgül gibi noktalama işaretlerinin eksik kullanılması veya hiç kullanılmaması durumudur. Özellikle anlam belirsizliğine yol açarak anlatım bozukluğuna neden olur.",
+    "examples": [
+      "Genç doktora seslendi. (Doğrusu: Genç, doktora seslendi. veya Genç doktor, seslendi.)",
+      "O adamı tanımıyorum. (Doğrusu: O, adamı tanımıyorum.)"
+    ],
+    "relatedTerms": [
+      "Anlamsal Belirsizlik (Noktalama Kaynaklı)",
+      "Noktalama Yanlışlığı"
+    ],
+    "order": 91
+  },
+  {
+    "id": "deyim_yanlis_anlamda_kullanimi",
+    "term": "Deyimin Yanlış Anlamda Kullanımı",
+    "definition": "Deyimlerin kendi gerçek anlamları dışında veya bağlama uygun olmayan bir şekilde kullanılmasıyla ortaya çıkan anlatım bozukluğudur. Deyimlerin kalıplaşmış anlamlarının bilinmemesinden kaynaklanır.",
+    "examples": [
+      "Çok sevinçli olduğu için etekleri zil çalıyordu. (Doğrusu: Çok sevinçli olduğu için etekleri tutuşuyordu.)",
+      "O kadar korktu ki dili damağına yapıştı. (Doğrusu: O kadar korktu ki dili tutuldu.)"
+    ],
+    "relatedTerms": [
+      "Deyim Yanlışlığı",
+      "Atasözü Yanlışlığı",
+      "Kalıplaşmış İfadelerin Yanlış Kullanımı"
+    ],
+    "order": 92
+  },
+  {
+    "id": "tamlanan_eksikligi",
+    "term": "Tamlanan Eksikliği",
+    "definition": "Ad tamlamalarında tamlananın cümlede bulunmaması veya ortak kullanılması gereken tamlananın eksik bırakılmasıdır. Anlatımın akıcılığını ve açıklığını bozar.",
+    "examples": [
+      "Bu araba benim, diğeri senin. (Bu araba benim arabam, diğeri senin araban olmalı.)",
+      "Onun düşünceleri ve benimkiler farklıydı. (Onun düşünceleri ve benim düşüncelerim farklıydı olmalı.)"
+    ],
+    "relatedTerms": [
+      "Tamlama Eksikliği",
+      "Tamlayan Eksikliği",
+      "Anlamsal Belirsizlik"
+    ],
+    "order": 93
+  },
+  {
+    "id": "gereksiz_edat_kullanimi",
+    "term": "Gereksiz Edat Kullanımı",
+    "definition": "Cümlede anlamı zaten başka bir sözcük veya ek tarafından karşılanan bir edatın fazladan kullanılmasıdır. Anlatımda duruluğu bozar ve anlatım bozukluğuna yol açar.",
+    "examples": [
+      "Onunla birlikte sinemaya gittik. (Onunla sinemaya gittik yeterli.)",
+      "Bu işi sen ile yapmalıyız. (Bu işi seninle yapmalıyız yeterli.)"
+    ],
+    "relatedTerms": [
+      "Gereksiz Sözcük Kullanımı",
+      "Duruluk İlkesi",
+      "Sözcük Ekonomisi"
+    ],
+    "order": 94
+  },
+  {
+    "id": "cift_olumsuzluk",
+    "term": "Çift Olumsuzluk",
+    "definition": "Bir cümlede iki olumsuzluk ifadesinin bir arada kullanılmasıyla cümlenin anlamının olumluya dönmesi veya anlatımın bozulmasıdır. Genellikle gereksiz yere olumsuzluk eklerinin tekrarıdır.",
+    "examples": [
+      "Hiçbir şey yapmamazlık etmedi. (Her şeyi yaptı anlamına gelir.)",
+      "Gelmemesi mümkün değil değil. (Gelmesi mümkün anlamına gelir.)"
+    ],
+    "relatedTerms": [
+      "Gereksiz Sözcük Kullanımı",
+      "Anlam Karışıklığı",
+      "Mantık Hatası"
+    ],
+    "order": 95
+  },
+  {
+    "id": "virgul_eksikligi",
+    "term": "Virgül Eksikliği",
+    "definition": "Cümlede virgülün kullanılması gereken yerde kullanılmaması durumudur. Özellikle eş görevli sözcükleri ayırmada veya anlam karışıklığını gidermede önemlidir.",
+    "examples": [
+      "Genç doktora seslendi. (Genç, doktora seslendi olmalı.)",
+      "Bu, onun en sevdiği kitaptı. (Bu onun en sevdiği kitaptı olmalı.)"
+    ],
+    "relatedTerms": [
+      "Noktalama Eksikliği",
+      "Anlam Karışıklığı",
+      "Sıralama Yanlışlığı"
+    ],
+    "order": 96
+  },
+  {
+    "id": "ozne_yuklem_uyumsuzlugu_sahis",
+    "term": "Özne-Yüklem Uyumsuzluğu (Şahıs)",
+    "definition": "Cümlede özne ile yüklem arasında şahıs (kişi) açısından uyum olmaması durumudur. Özellikle birden fazla öznenin farklı şahısları temsil ettiği durumlarda yüklemin doğru şahıs ekini almaması hatadır.",
+    "examples": [
+      "Ben ve sen sinemaya gittiler. (Ben ve sen sinemaya gittik olmalı.)",
+      "O ve ben ders çalıştılar. (O ve ben ders çalıştık olmalı.)"
+    ],
+    "relatedTerms": [
+      "Özne-Yüklem Uyumsuzluğu (Tekillik-Çoğulluk)",
+      "Yüklem Eksikliği",
+      "Şahıs Eki Yanlışlığı"
+    ],
+    "order": 97
+  },
+  {
+    "id": "yardimci_fiil_yanlis_kullanimi",
+    "term": "Yardımcı Fiil Yanlış Kullanımı",
+    "definition": "İsim soylu sözcüklerle birlikte kullanılan 'etmek, olmak, kılmak, eylemek' gibi yardımcı fiillerin gereksiz yere veya yanlış biçimde kullanılmasıdır. Özellikle tek başına fiil olarak kullanılabilecek durumlarda yardımcı fiile başvurulması hatadır.",
+    "examples": [
+      "Bu durumu arz etmek isterim. (Bu durumu sunmak isterim.)",
+      "Hasta olmak istemiyorum. (Hasta olmak istemiyorum doğru, ancak 'hasta etmek' yerine 'hastalandırmak' tercih edilebilir.)"
+    ],
+    "relatedTerms": [
+      "Gereksiz Sözcük Kullanımı",
+      "Sözcük Ekonomisi",
+      "Fiilimsilerin Yanlış Kullanımı"
+    ],
+    "order": 98
+  },
+  {
+    "id": "tamlayan_durumu_eki_eksikligi",
+    "term": "Tamlayan Durumu Eki Eksikliği",
+    "definition": "İsim tamlamalarında tamlayan görevindeki sözcüğün '-ın, -in, -un, -ün' ekini almaması sonucu oluşan anlatım bozukluğudur. Tamlamanın yapısını ve anlamını bozar.",
+    "examples": [
+      "Çocuk oyuncağı kırıldı.",
+      "Ev kapısı açık kaldı."
+    ],
+    "relatedTerms": [
+      "Tamlama Yanlışlığı",
+      "Ek Eksikliği"
+    ],
+    "order": 99
+  },
+  {
+    "id": "anlamca_celisen_sozcuklerin_bir_arada_kullanimi",
+    "term": "Anlamca Çelişen Sözcüklerin Bir Arada Kullanımı",
+    "definition": "Cümlede anlamca birbirine zıt veya çelişen iki sözcüğün aynı anda kullanılmasıdır. Bu durum, cümlenin anlamsal tutarlılığını bozar ve mantık hatası yaratır.",
+    "examples": [
+      "Kesinlikle bu işi yapabilirim sanırım.",
+      "Yaklaşık tam beş yıl önce gelmişti."
+    ],
+    "relatedTerms": [
+      "Mantık Hatası",
+      "Gereksiz Sözcük Kullanımı"
+    ],
+    "order": 100
+  },
+  {
+    "id": "edat_yanlis_kullanimi",
+    "term": "Edat Yanlış Kullanımı",
+    "definition": "Cümlede edatların (ilgeçlerin) anlamlarına veya kullanım amaçlarına uygun olmayan bir şekilde kullanılmasıdır. Cümlenin anlamını bozarak anlatım bozukluğuna yol açar.",
+    "examples": [
+      "Bu konuda senin için değil, benim için konuşmalıyız.",
+      "Sabaha doğru gibi yola çıktık."
+    ],
+    "relatedTerms": [
+      "Yanlış Anlamda Sözcük Kullanımı",
+      "Bağlaç Yanlış Kullanımı"
+    ],
+    "order": 101
+  },
+  {
+    "id": "yardimci_fiil_gereksiz_kullanimi",
+    "term": "Yardımcı Fiil Gereksiz Kullanımı",
+    "definition": "Türkçede isim soylu sözcüklerin sonuna getirilen 'etmek, olmak, eylemek, kılmak' gibi yardımcı fiillerin, tek bir fiille ifade edilebilecek bir durumu gereksiz yere uzatarak kullanılmasıdır. Anlatımda duruluğu bozar.",
+    "examples": [
+      "Bu durumu arz etmek isterim.",
+      "Beni hasta etti."
+    ],
+    "relatedTerms": [
+      "Gereksiz Sözcük Kullanımı",
+      "Anlatım Ekonomisi"
+    ],
+    "order": 102
+  },
+  {
+    "id": "fiilimsi_yanlis_kullanimi",
+    "term": "Fiilimsi Yanlış Kullanımı",
+    "definition": "Cümlede isim fiil, sıfat fiil veya zarf fiillerin anlamlarına, görevlerine veya yapılarına uygun olmayan bir şekilde kullanılmasıdır. Cümlenin yapısını ve anlamını bozar.",
+    "examples": [
+      "Kitap okumayı severim, yazmayı da.",
+      "Gelirken ekmek alıp gel."
+    ],
+    "relatedTerms": [
+      "Yapısal Bozukluk",
+      "Ek Yanlış Kullanımı"
+    ],
+    "order": 103
+  },
+  {
+    "id": "virgul_eksikligi_anlam_karisikligi",
+    "term": "Virgül Eksikliği (Anlam Karışıklığı)",
+    "definition": "Cümlede virgülün kullanılmaması nedeniyle sözcüklerin gruplanmasında veya anlamlandırılmasında belirsizlik ortaya çıkmasıdır. Özellikle özne ile yüklem arasında veya eş görevli sözcükler arasında önemlidir.",
+    "examples": [
+      "Genç doktora seslendi.",
+      "Oraya gitmek istemediğini söyledi."
+    ],
+    "relatedTerms": [
+      "Noktalama Eksikliği",
+      "Anlamsal Belirsizlik"
+    ],
+    "order": 104
   }
 ]

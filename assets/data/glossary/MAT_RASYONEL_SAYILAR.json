@@ -895,5 +895,454 @@
       "Devirli Ondalık Sayı"
     ],
     "order": 58
+  },
+  {
+    "id": "denk_rasyonel_sayilar",
+    "term": "Denk Rasyonel Sayılar",
+    "definition": "Bir rasyonel sayının pay ve paydası aynı sıfırdan farklı bir tam sayı ile çarpılır veya bölünürse, rasyonel sayının değeri değişmez. Elde edilen bu sayılara denk rasyonel sayılar denir.",
+    "examples": [
+      "1/2 ile 2/4 denktir.",
+      "3/6 ile 1/2 denktir."
+    ],
+    "relatedTerms": [
+      "Sadeleştirme",
+      "Genişletme",
+      "Kesir"
+    ],
+    "order": 59
+  },
+  {
+    "id": "rasyonel_sayilarda_siralama",
+    "term": "Rasyonel Sayılarda Sıralama",
+    "definition": "Rasyonel sayıları sıralamak için paydalar eşitlenir veya paylar eşitlenir. Paydalar eşitse payı büyük olan daha büyüktür; paylar eşitse paydası küçük olan daha büyüktür (pozitif sayılar için).",
+    "examples": [
+      "1/3 < 2/3",
+      "3/5 > 3/7"
+    ],
+    "relatedTerms": [
+      "Payda Eşitleme",
+      "Pay Eşitleme",
+      "Eşitsizlik"
+    ],
+    "order": 60
+  },
+  {
+    "id": "rasyonel_sayilarda_cikarma",
+    "term": "Rasyonel Sayılarda Çıkarma İşlemi",
+    "definition": "Rasyonel sayılar çıkarılırken paydalar eşitlenir. Eşitlenen paydalar ortak payda olarak yazılır ve paylar çıkarılarak paya yazılır.",
+    "examples": [
+      "3/4 - 1/2 = 3/4 - 2/4 = 1/4",
+      "1/3 - (-1/3) = 2/3"
+    ],
+    "relatedTerms": [
+      "Ortak Payda",
+      "Kesirlerde Çıkarma",
+      "Payda Eşitleme"
+    ],
+    "order": 61
+  },
+  {
+    "id": "devirli_ondalik_sayi_tanimi",
+    "term": "Devirli Ondalık Sayı Tanımı",
+    "definition": "Ondalık kısmındaki rakamların belirli bir düzen içinde tekrar ettiği ondalık sayılara devirli ondalık sayı denir. Devreden kısım üzerine çizgi konularak gösterilir.",
+    "examples": [
+      "0.333... = 0.3̅",
+      "1.272727... = 1.27̅"
+    ],
+    "relatedTerms": [
+      "Ondalık Sayı",
+      "Rasyonel Sayı",
+      "Kesir"
+    ],
+    "order": 62
+  },
+  {
+    "id": "rasyonel_sayilarla_merdivenli_islemler",
+    "term": "Rasyonel Sayılarla Merdivenli İşlemler",
+    "definition": "Birden fazla kesir çizgisinin iç içe geçtiği işlemlere merdivenli işlemler denir. Bu tür işlemlerde en alttan veya en içten başlanarak adım adım çözüme ulaşılır.",
+    "examples": [
+      "1 + 1/(1 + 1/2) işlemini çözme",
+      "1 - 1/(2 - 1/3) işlemini çözme"
+    ],
+    "relatedTerms": [
+      "Bileşik Kesir",
+      "İşlem Önceliği",
+      "Kesir Problemleri"
+    ],
+    "order": 63
+  },
+  {
+    "id": "rasyonel_sayilarda_negatiflik",
+    "term": "Rasyonel Sayılarda Negatiflik",
+    "definition": "Bir rasyonel sayının payı veya paydası negatifse, tüm rasyonel sayı negatiftir. Hem pay hem de payda negatifse, rasyonel sayı pozitiftir.",
+    "examples": [
+      "-1/2 negatiftir.",
+      "1/-2 negatiftir.",
+      "-1/-2 pozitiftir."
+    ],
+    "relatedTerms": [
+      "Pozitif Sayılar",
+      "Negatif Sayılar",
+      "İşaret Kuralları"
+    ],
+    "order": 64
+  },
+  {
+    "id": "rasyonel_sayilarda_genisletme",
+    "term": "Rasyonel Sayılarda Genişletme",
+    "definition": "Bir rasyonel sayının payını ve paydasını aynı sıfırdan farklı bir tam sayı ile çarpmaya genişletme denir. Genişletme, rasyonel sayının değerini değiştirmez.",
+    "examples": [
+      "1/2 sayısını 2 ile genişletirsek 2/4 elde ederiz.",
+      "3/5 sayısını 3 ile genişletirsek 9/15 elde ederiz."
+    ],
+    "relatedTerms": [
+      "Sadeleştirme",
+      "Denk Kesirler",
+      "Payda Eşitleme"
+    ],
+    "order": 65
+  },
+  {
+    "id": "rasyonel_sayilarda_sadelestirme",
+    "term": "Rasyonel Sayılarda Sadeleştirme",
+    "definition": "Bir rasyonel sayının payını ve paydasını aynı sıfırdan farklı bir tam sayıya bölmeye sadeleştirme denir. Sadeleştirme, rasyonel sayıyı en sade haline getirir.",
+    "examples": [
+      "4/8 sayısını 4 ile sadeleştirirsek 1/2 elde ederiz.",
+      "15/20 sayısını 5 ile sadeleştirirsek 3/4 elde ederiz."
+    ],
+    "relatedTerms": [
+      "Genişletme",
+      "Denk Kesirler",
+      "Ortak Bölen"
+    ],
+    "order": 66
+  },
+  {
+    "id": "rasyonel_sayi_ile_tam_sayi_islemleri",
+    "term": "Rasyonel Sayı ile Tam Sayı İşlemleri",
+    "definition": "Bir rasyonel sayı ile tam sayı arasında işlem yapılırken, tam sayı paydası 1 olan bir rasyonel sayı gibi düşünülür. Ardından rasyonel sayılar için geçerli işlem kuralları uygulanır.",
+    "examples": [
+      "2 + 1/3 = 2/1 + 1/3 = 6/3 + 1/3 = 7/3",
+      "3 * 1/4 = 3/1 * 1/4 = 3/4"
+    ],
+    "relatedTerms": [
+      "Tam Sayılar",
+      "Kesir",
+      "Dört İşlem"
+    ],
+    "order": 67
+  },
+  {
+    "id": "rasyonel_sayilarda_payda_esitleme_teknikleri",
+    "term": "Rasyonel Sayılarda Payda Eşitleme Teknikleri",
+    "definition": "Rasyonel sayılarda toplama ve çıkarma yaparken paydaları eşitlemek için genellikle en küçük ortak kat (EKOK) bulunur. Paydalar EKOK'a genişletilir.",
+    "examples": [
+      "1/2 ve 1/3 için paydaları 6'da eşitleriz.",
+      "1/4 ve 1/6 için paydaları 12'de eşitleriz."
+    ],
+    "relatedTerms": [
+      "EKOK",
+      "Genişletme",
+      "Ortak Kat"
+    ],
+    "order": 68
+  },
+  {
+    "id": "rasyonel_sayilarda_sadeleştirme_genişletme",
+    "term": "Kesir Sadeleştirme ve Genişletme",
+    "definition": "Sadeleştirme, bir kesrin pay ve paydasını ortak bölen en büyük sayıya bölerek daha basit bir forma dönüştürmektir. Genişletme, bir kesrin pay ve paydasını aynı sayı ile çarparak farklı ama denk bir kesir elde etmektir.",
+    "examples": [
+      "6/9 kesrini 2/3 olarak sadeleştirmek.",
+      "1/4 kesrini 3/12 olarak genişletmek."
+    ],
+    "relatedTerms": [
+      "Denk Kesirler",
+      "En Sade Hali",
+      "Ortak Bölen"
+    ],
+    "order": 69
+  },
+  {
+    "id": "rasyonel_sayilarda_siralamada_pay_eşitleme",
+    "term": "Sıralamada Pay Eşitleme",
+    "definition": "Rasyonel sayıları sıralarken paydaları eşitlemek yerine, bazen payları eşitlemek işlemi kolaylaştırabilir. Paylar eşitlendiğinde, paydası küçük olan kesir daha büyük olur.",
+    "examples": [
+      "3/5 ile 3/7'yi sıralarken payları 3'te eşit olduğu için 3/5 > 3/7 denir.",
+      "5/8 ile 5/6'yı sıralarken 5/6 > 5/8 denir."
+    ],
+    "relatedTerms": [
+      "Rasyonel Sayıları Karşılaştırma",
+      "Payda Eşitleme",
+      "Kesirlerde Sıralama"
+    ],
+    "order": 70
+  },
+  {
+    "id": "rasyonel_sayilarda_ardışık_işlemler",
+    "term": "Ardışık İşlemler",
+    "definition": "Birden fazla rasyonel sayı işleminin (toplama, çıkarma, çarpma, bölme) belirli bir sıra dahilinde yapılmasıdır. İşlem önceliği kurallarına dikkat edilmelidir.",
+    "examples": [
+      "(1/2 + 1/3) * 1/5 işlemini yapmak.",
+      "3/4 - (1/2 / 2/3) işlemini yapmak."
+    ],
+    "relatedTerms": [
+      "İşlem Önceliği",
+      "Parantez",
+      "Dört İşlem"
+    ],
+    "order": 71
+  },
+  {
+    "id": "rasyonel_sayilarda_bileşik_kesir_dönüşümleri",
+    "term": "Bileşik Kesir ve Tam Sayılı Kesir Dönüşümleri",
+    "definition": "Bileşik kesir, payı paydasından büyük veya eşit olan kesirdir. Tam sayılı kesir ise bir tam sayı ve bir basit kesirden oluşur. Bu iki form arasında birbirine dönüşüm yapılabilir.",
+    "examples": [
+      "7/3 bileşik kesrini 2 tam 1/3 tam sayılı kesre çevirmek.",
+      "1 tam 3/4 tam sayılı kesrini 7/4 bileşik kesre çevirmek."
+    ],
+    "relatedTerms": [
+      "Bileşik Kesir",
+      "Tam Sayılı Kesir",
+      "Basit Kesir"
+    ],
+    "order": 72
+  },
+  {
+    "id": "rasyonel_sayilarda_ondalık_kesir_dönüşümleri",
+    "term": "Ondalık Sayı ve Kesir Dönüşümleri",
+    "definition": "Bir rasyonel sayıyı ondalık sayıya veya bir ondalık sayıyı kesre çevirme işlemidir. Bu dönüşümler rasyonel sayılarla ilgili problemlerde sıkça kullanılır.",
+    "examples": [
+      "3/4 kesrini 0.75 ondalık sayıya çevirmek.",
+      "0.25 ondalık sayısını 1/4 kesrine çevirmek."
+    ],
+    "relatedTerms": [
+      "Ondalık Sayı",
+      "Kesir",
+      "Devirli Ondalık Sayı"
+    ],
+    "order": 73
+  },
+  {
+    "id": "rasyonel_sayilarda_devirli_ondalık_kesir_dönüşümleri",
+    "term": "Devirli Ondalık Sayıyı Kesre Çevirme",
+    "definition": "Periyodik olarak tekrar eden ondalık basamaklara sahip devirli ondalık sayıları kesir formuna dönüştürme yöntemidir. Belirli bir formül kullanılarak yapılır.",
+    "examples": [
+      "0.3 devirli ondalık sayısını 1/3 kesrine çevirmek.",
+      "1.25 devirli ondalık sayısını 124/99 kesrine çevirmek."
+    ],
+    "relatedTerms": [
+      "Devirli Ondalık Sayı",
+      "Kesir",
+      "Rasyonel Sayı"
+    ],
+    "order": 74
+  },
+  {
+    "id": "rasyonel_sayilarda_üs_alma_negatif_üs",
+    "term": "Rasyonel Sayılarda Negatif Üs",
+    "definition": "Bir rasyonel sayının negatif üssü, o sayının çarpmaya göre tersinin pozitif üssü alınması anlamına gelir. Örneğin, (a/b)^-n = (b/a)^n şeklindedir.",
+    "examples": [
+      "(1/2)^-1 = 2.",
+      "(2/3)^-2 = (3/2)^2 = 9/4."
+    ],
+    "relatedTerms": [
+      "Üslü Sayılar",
+      "Çarpmaya Göre Ters",
+      "Pozitif Üs"
+    ],
+    "order": 75
+  },
+  {
+    "id": "rasyonel_sayilarda_işlem_önceliği_karmaşık",
+    "term": "Rasyonel Sayılarda İşlem Önceliği (Karmaşık)",
+    "definition": "Rasyonel sayılarla yapılan işlemlerde (parantezler, üslü ifadeler, çarpma/bölme, toplama/çıkarma) belirli bir sıraya göre hareket etme kuralıdır. PEMDAS/BODMAS kuralı geçerlidir.",
+    "examples": [
+      "1/2 + 3/4 * (2/3 - 1/6) işlemini doğru sırayla çözmek.",
+      "5/6 / (1/3)^2 - 1/2 işlemini yapmak."
+    ],
+    "relatedTerms": [
+      "İşlem Önceliği",
+      "Parantez",
+      "Üslü İfadeler"
+    ],
+    "order": 76
+  },
+  {
+    "id": "rasyonel_sayilarda_denklemler",
+    "term": "Rasyonel Sayılı Denklemler",
+    "definition": "Bilinmeyeni içeren ve katsayıları rasyonel sayılar olan denklemlerdir. Denklemi sağlayan bilinmeyen değeri bulunmaya çalışılır.",
+    "examples": [
+      "x + 1/2 = 3/4 denklemini çözmek.",
+      "2x/3 - 1/6 = 1/2 denklemini çözmek."
+    ],
+    "relatedTerms": [
+      "Denklem Çözme",
+      "Bilinmeyen",
+      "Rasyonel Sayı"
+    ],
+    "order": 77
+  },
+  {
+    "id": "rasyonel_sayilarda_eşitsizlikler",
+    "term": "Rasyonel Sayılı Eşitsizlikler",
+    "definition": "Bilinmeyeni içeren ve rasyonel sayılarla oluşturulmuş eşitsizliklerdir. Eşitsizliği sağlayan bilinmeyen değer aralığı bulunur.",
+    "examples": [
+      "x + 1/3 > 2/3 eşitsizliğini çözmek.",
+      "1/2 < x/4 <= 3/4 eşitsizliğini çözmek."
+    ],
+    "relatedTerms": [
+      "Eşitsizlik Çözme",
+      "Sayı Doğrusu",
+      "Aralık"
+    ],
+    "order": 78
+  },
+  {
+    "id": "rasyonel_sayilarda_ortalama_hesaplama",
+    "term": "Rasyonel Sayılarda Ortalama Hesaplama",
+    "definition": "Verilen rasyonel sayıların toplamının, sayı adedine bölünmesiyle elde edilen değerdir. Aritmetik ortalama olarak da bilinir.",
+    "examples": [
+      "1/2, 1/3 ve 1/6 sayılarının ortalamasını bulmak.",
+      "Bir öğrencinin rasyonel sayılar konusundaki 3 sınavının ortalamasını hesaplamak."
+    ],
+    "relatedTerms": [
+      "Aritmetik Ortalama",
+      "Toplam",
+      "Sayı Adedi"
+    ],
+    "order": 79
+  },
+  {
+    "id": "rasyonel_sayilarda_işlem_hataları_ve_kontrolü",
+    "term": "Rasyonel Sayılarda İşlem Hataları ve Kontrolü",
+    "definition": "Rasyonel sayılarla işlem yaparken sıkça yapılan hataları (işaret, payda eşitleme, sadeleştirme vb.) tanımak ve sonuçları kontrol etme yöntemleridir. Tahmin etme ve sağlamasını yapma önemlidir.",
+    "examples": [
+      "Payda eşitlemeden toplama yapmak gibi hatalar.",
+      "Bir işlemin sonucunu yaklaşık değerlerle kontrol etmek."
+    ],
+    "relatedTerms": [
+      "İşlem Kontrolü",
+      "Hata Tespiti",
+      "Tahmin Etme"
+    ],
+    "order": 80
+  },
+  {
+    "id": "rasyonel_sayilarda_problemler_kesir_bütün_ilişkisi",
+    "term": "Rasyonel Sayı Problemleri: Kesir-Bütün İlişkisi",
+    "definition": "Bir bütünün belirli bir kesir kadarının veya bir kesir kadarı verilen bir sayının bütününü bulmaya yönelik problemlerdir. Genellikle 'kesrin kesri' veya 'bir sayının kesri' şeklinde karşımıza çıkar.",
+    "examples": [
+      "Bir yolun 2/5'i gidildikten sonra kalan yolun 1/3'ü daha gidilirse toplam ne kadar yol gidilmiştir?",
+      "Bir deponun 3/4'ü doluysa ve bu 60 litreye denk geliyorsa deponun tamamı kaç litredir?"
+    ],
+    "relatedTerms": [
+      "Kesir Problemleri",
+      "Bütün-Parça İlişkisi",
+      "Oran-Orantı"
+    ],
+    "order": 81
+  },
+  {
+    "id": "rasyonel_sayilarda_toplama_cikarma",
+    "term": "Rasyonel Sayılarda Toplama ve Çıkarma",
+    "definition": "Rasyonel sayılarda toplama ve çıkarma işlemi yapabilmek için paydaların eşit olması gerekir. Paydalar eşitlendikten sonra paylar toplanır veya çıkarılır, payda ise aynen kalır.",
+    "examples": [
+      "1/3 + 2/5 işlemini yapmak için paydalar 15'te eşitlenir: 5/15 + 6/15 = 11/15.",
+      "3/4 - 1/2 işlemini yapmak için paydalar 4'te eşitlenir: 3/4 - 2/4 = 1/4."
+    ],
+    "relatedTerms": [
+      "Payda Eşitleme Teknikleri",
+      "Kesir Sadeleştirme ve Genişletme",
+      "Ardışık İşlemler"
+    ],
+    "order": 82
+  },
+  {
+    "id": "tam_sayili_kesirler",
+    "term": "Tam Sayılı Kesirler",
+    "definition": "Tam sayılı kesir, bir tam sayı ve bir basit kesirden oluşan ifadedir. Bileşik kesre dönüştürülerek veya ayrı ayrı işlem yapılarak rasyonel sayılarla işlemlere dahil edilebilir.",
+    "examples": [
+      "2 tam 1/3 kesri, (2*3 + 1) / 3 = 7/3 olarak bileşik kesre dönüştürülebilir.",
+      "3 tam 1/2 + 1 tam 1/4 işlemini yapmak için önce bileşik kesre çevrilir: 7/2 + 5/4 = 14/4 + 5/4 = 19/4."
+    ],
+    "relatedTerms": [
+      "Bileşik Kesir Tanımı ve Özellikleri",
+      "Basit Kesir Tanımı ve Özellikleri",
+      "Bileşik Kesir ve Tam Sayılı Kesir Dönüşümleri"
+    ],
+    "order": 83
+  },
+  {
+    "id": "rasyonel_sayilarda_kare_alma",
+    "term": "Rasyonel Sayılarda Kare Alma",
+    "definition": "Bir rasyonel sayının karesi alınırken, hem payın hem de paydanın karesi alınır. Sonuç her zaman pozitiftir.",
+    "examples": [
+      "(2/3)^2 = (2^2) / (3^2) = 4/9.",
+      "(-1/4)^2 = ((-1)^2) / (4^2) = 1/16."
+    ],
+    "relatedTerms": [
+      "Rasyonel Sayılarda Üs Alma",
+      "Rasyonel Sayılarda Negatif Üs"
+    ],
+    "order": 84
+  },
+  {
+    "id": "rasyonel_sayilarda_kup_alma",
+    "term": "Rasyonel Sayılarda Küp Alma",
+    "definition": "Bir rasyonel sayının küpü alınırken, hem payın hem de paydanın küpü alınır. İşaret, tabanın işaretiyle aynı kalır.",
+    "examples": [
+      "(1/2)^3 = (1^3) / (2^3) = 1/8.",
+      "(-2/3)^3 = ((-2)^3) / (3^3) = -8/27."
+    ],
+    "relatedTerms": [
+      "Rasyonel Sayılarda Üs Alma",
+      "Rasyonel Sayılarda Negatif Üs"
+    ],
+    "order": 85
+  },
+  {
+    "id": "rasyonel_sayilarda_siralama_pay_esitleme",
+    "term": "Rasyonel Sayılarda Sıralama (Pay Eşitleme)",
+    "definition": "Rasyonel sayıları sıralarken paydalar eşitlenebildiği gibi, bazı durumlarda payları eşitlemek de sıralamayı kolaylaştırır. Payları eşit olan pozitif kesirlerde paydası küçük olan daha büyüktür.",
+    "examples": [
+      "1/2, 1/3, 1/4 sayılarını sıralarken paylar eşit olduğu için paydası küçük olan (1/2) en büyüktür: 1/2 > 1/3 > 1/4.",
+      "2/5 ve 2/7 sayılarını sıralarken paylar eşit olduğu için paydası küçük olan (2/5) daha büyüktür: 2/5 > 2/7."
+    ],
+    "relatedTerms": [
+      "Rasyonel Sayılarda Sıralama",
+      "Payda Eşitleme Teknikleri",
+      "Birim Kesir Özellikleri"
+    ],
+    "order": 86
+  },
+  {
+    "id": "rasyonel_sayilarda_carpma_bolme",
+    "term": "Rasyonel Sayılarda Çarpma ve Bölme İşlemleri",
+    "definition": "Rasyonel sayılarda çarpma işlemi, paylar kendi arasında, paydalar kendi arasında çarpılarak yapılır. Bölme işleminde ise birinci kesir aynen yazılır, ikinci kesir ters çevrilerek çarpılır. Bu işlemler, kesirlerin sadeleştirilmesi veya genişletilmesi ile kolaylaştırılabilir.",
+    "examples": [
+      "(2/3) * (4/5) = 8/15",
+      "(3/4) / (1/2) = (3/4) * (2/1) = 6/4 = 3/2"
+    ],
+    "relatedTerms": [
+      "Rasyonel Sayılarda Sadeleştirme",
+      "Rasyonel Sayılarda Genişletme",
+      "Ardışık İşlemler"
+    ],
+    "order": 87
+  },
+  {
+    "id": "rasyonel_sayilarda_mutlak_deger",
+    "term": "Rasyonel Sayılarda Mutlak Değer",
+    "definition": "Bir rasyonel sayının mutlak değeri, o sayının sayı doğrusu üzerindeki başlangıç noktasına (sıfıra) olan uzaklığını ifade eder ve daima pozitif veya sıfırdır. Sayının işaretine bakılmaksızın pozitif değeri alınır. KPSS sorularında sıralama ve eşitsizlik konularında karşımıza çıkabilir.",
+    "examples": [
+      "| -3/4 | = 3/4",
+      "| 5/2 | = 5/2"
+    ],
+    "relatedTerms": [
+      "Rasyonel Sayılarda Negatiflik",
+      "Rasyonel Sayılarda Sıralama",
+      "Rasyonel Sayılı Eşitsizlikler"
+    ],
+    "order": 88
   }
 ]

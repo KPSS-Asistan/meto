@@ -1092,5 +1092,624 @@
       "Kutsal Topraklar"
     ],
     "order": 74
+  },
+  {
+    "id": "ihtisab_agasi",
+    "term": "İhtisab Ağası",
+    "definition": "Çarşı ve pazarlarda fiyatları, tartı aletlerini ve ürün kalitesini denetleyen görevlidir. Belediye hizmetlerine benzer işler yürütür.",
+    "examples": [
+      "Pazarda bozuk terazi kullananın cezalandırılması"
+    ],
+    "relatedTerms": [
+      "Kadı",
+      "Narh",
+      "Lonca"
+    ],
+    "order": 75
+  },
+  {
+    "id": "pasmaklik",
+    "term": "Paşmaklık",
+    "definition": "Gelirleri doğrudan padişahın eşlerine, kızlarına veya annelerine bırakılan topraklardır. Bu arazilerin geliri saray kadınlarının masrafları için kullanılır.",
+    "examples": [
+      "Sultan eşlerine ayrılan arazi gelirleri"
+    ],
+    "relatedTerms": [
+      "Dirlik",
+      "Has",
+      "Miri Arazi"
+    ],
+    "order": 76
+  },
+  {
+    "id": "ocaklik",
+    "term": "Ocaklık",
+    "definition": "Gelirleri kale muhafızlarına ve tersane giderlerine ayrılan topraklardır. Devletin askeri ve savunma ihtiyaçlarını karşılamak için düzenlenmiştir.",
+    "examples": [
+      "Kale muhafızlarının maaşlarının karşılanması"
+    ],
+    "relatedTerms": [
+      "Dirlik",
+      "Miri Arazi",
+      "Has"
+    ],
+    "order": 77
+  },
+  {
+    "id": "mekkari_taifesi",
+    "term": "Mekkari Taifesi",
+    "definition": "Osmanlı'da kiralık hayvanlarla yük ve yolcu taşımacılığı yapan esnaf grubudur. Lojistik ve ulaşım hizmetlerinde önemli rol oynamışlardır.",
+    "examples": [
+      "Kervanlarda yük taşıyan kiralık hayvan sahipleri"
+    ],
+    "relatedTerms": [
+      "Menzil",
+      "Ticaret",
+      "Ulaşım"
+    ],
+    "order": 78
+  },
+  {
+    "id": "arpalik",
+    "term": "Arpalık",
+    "definition": "Üst düzey devlet görevlilerine emekliliklerinde veya görevden alındıklarında geçimlerini sağlamaları için verilen topraklardır.",
+    "examples": [
+      "Emekli bir valiye bağlanan arazi geliri"
+    ],
+    "relatedTerms": [
+      "Dirlik",
+      "Has",
+      "Miri Arazi"
+    ],
+    "order": 79
+  },
+  {
+    "id": "muhtesip",
+    "term": "Muhtesip",
+    "definition": "Çarşı ve pazarlarda fiyatları, ölçü ve tartı aletlerini denetleyen görevlidir. Ayrıca esnafın kurallara uyup uymadığını kontrol eder.",
+    "examples": [
+      "Terazilerin ayarının kontrol edilmesi",
+      "Malın kalitesinin denetlenmesi"
+    ],
+    "relatedTerms": [
+      "Narh Sistemi",
+      "Belediye İşleri"
+    ],
+    "order": 80
+  },
+  {
+    "id": "baç",
+    "term": "Baç",
+    "definition": "Pazar yerlerinde satılan mallardan alınan vergi türüdür. Ticari faaliyetlerin vergilendirilmesi kapsamında uygulanmıştır.",
+    "examples": [
+      "Pazar yerinde alınan vergi",
+      "Ticari mal vergisi"
+    ],
+    "relatedTerms": [
+      "Gümrük Vergisi",
+      "Avarız"
+    ],
+    "order": 81
+  },
+  {
+    "id": "arazi_miri",
+    "term": "Miri Arazi",
+    "definition": "Mülkiyeti devlete, kullanım hakkı halka ait olan topraklardır. Osmanlı topraklarının büyük çoğunluğunu oluşturur.",
+    "examples": [
+      "Tımar arazileri",
+      "Paşmaklık araziler"
+    ],
+    "relatedTerms": [
+      "Mülk Arazi",
+      "Vakıf Arazi"
+    ],
+    "order": 82
+  },
+  {
+    "id": "icmal_defteri",
+    "term": "İcmal Defteri",
+    "definition": "Tahrir defterlerindeki bilgilerin özetlenerek oluşturulduğu, tımar sahiplerinin gelirlerini gösteren defterlerdir.",
+    "examples": [
+      "Tımar gelirlerinin listelenmesi",
+      "Toprak dağılımının özeti"
+    ],
+    "relatedTerms": [
+      "Tahrir Defterleri",
+      "Tımar Sistemi"
+    ],
+    "order": 83
+  },
+  {
+    "id": "harem",
+    "term": "Harem",
+    "definition": "Sarayda padişahın ailesinin yaşadığı bölümdür. Aynı zamanda saraya alınacak cariyelerin eğitim gördüğü bir okuldur.",
+    "examples": [
+      "Padişah ailesinin yaşam alanı",
+      "Cariyelere eğitim verilmesi"
+    ],
+    "relatedTerms": [
+      "Enderun",
+      "Topkapı Sarayı"
+    ],
+    "order": 84
+  },
+  {
+    "id": "gedik_sistemi",
+    "term": "Gedik Sistemi",
+    "definition": "Bir dükkanın veya iş yerinin işletme hakkının devredilebilir olmasıdır. Osmanlı'da esnafın iş yeri açma ruhsatı ve tekel hakkını ifade eder.",
+    "examples": [
+      "Bir dükkanın devri sırasında alınan izin"
+    ],
+    "relatedTerms": [
+      "Lonca",
+      "Narh Sistemi"
+    ],
+    "order": 85
+  },
+  {
+    "id": "iltizam_sistemi",
+    "term": "İltizam Sistemi",
+    "definition": "Devletin vergi toplama hakkını açık artırma yoluyla kişilere devretmesidir. Bu sistemi uygulayan kişiye mültezim denir.",
+    "examples": [
+      "Vergi toplama ihalesini kazanan mültezim"
+    ],
+    "relatedTerms": [
+      "Malikane Sistemi",
+      "Mültezim"
+    ],
+    "order": 86
+  },
+  {
+    "id": "şehremini",
+    "term": "Şehremini",
+    "definition": "Osmanlı'da belediye işlerinden, imar faaliyetlerinden ve şehirdeki inşaatların denetiminden sorumlu olan görevlidir.",
+    "examples": [
+      "İstanbul'daki imar çalışmalarının yönetimi"
+    ],
+    "relatedTerms": [
+      "Muhtesip",
+      "İhtisab Ağası"
+    ],
+    "order": 87
+  },
+  {
+    "id": "buyruldu",
+    "term": "Buyruldu",
+    "definition": "Sadrazam, vezirler veya beylerbeyi tarafından verilen yazılı emirlerdir. Padişahın tuğrasını taşıyan fermanlardan farklıdır.",
+    "examples": [
+      "Sadrazamın bir idari emri"
+    ],
+    "relatedTerms": [
+      "Ferman",
+      "Berat"
+    ],
+    "order": 88
+  },
+  {
+    "id": "yaya_ve_müsellem",
+    "term": "Yaya ve Müsellem",
+    "definition": "Osmanlı'nın ilk düzenli ordu birimleridir. Yaya olanlar piyade, müsellem olanlar ise atlı birlikleri oluştururdu.",
+    "examples": [
+      "Orhan Bey döneminde kurulan ilk ordu"
+    ],
+    "relatedTerms": [
+      "Tımar Sistemi",
+      "Yeniçeri Ocağı"
+    ],
+    "order": 89
+  },
+  {
+    "id": "tophane",
+    "term": "Tophane",
+    "definition": "Osmanlı'da top dökümü, top arabaları ve mühimmatın üretildiği, depolandığı askeri sanayi merkezidir. Tophane-i Amire olarak da bilinir.",
+    "examples": [
+      "İstanbul'da bulunan büyük top dökümhaneleri."
+    ],
+    "relatedTerms": [
+      "Topçu Ocağı",
+      "Humbaracı",
+      "Kulluk"
+    ],
+    "order": 90
+  },
+  {
+    "id": "terekeler",
+    "term": "Terekeler",
+    "definition": "Ölen bir kişinin bıraktığı mal varlığının dökümünü içeren, kadı tarafından tutulan defterlerdir. Sosyal ve ekonomik tarih araştırmaları için önemli bir kaynaktır.",
+    "examples": [
+      "Bir esnafın vefatı sonrası evinde bulunan eşyaların listelenmesi."
+    ],
+    "relatedTerms": [
+      "Şeriyye Sicilleri",
+      "Kadı",
+      "Miras Hukuku"
+    ],
+    "order": 91
+  },
+  {
+    "id": "çift_hane",
+    "term": "Çift Hane",
+    "definition": "Bir çift öküzün işleyebileceği büyüklükteki arazi birimidir. Osmanlı tarım sisteminde vergilendirme ve üretim kapasitesinin temel ölçüsüdür.",
+    "examples": [
+      "Bir köylü ailesinin işlediği standart tarım arazisi."
+    ],
+    "relatedTerms": [
+      "Tımar",
+      "Miri Arazi",
+      "Reaya"
+    ],
+    "order": 92
+  },
+  {
+    "id": "menzil_han",
+    "term": "Menzil Han",
+    "definition": "Ulakların, devlet görevlilerinin ve ordunun konaklama, at değişimi ve ihtiyaç giderme noktalarıdır. Haberleşme ağının sürekliliği için kritik öneme sahiptir.",
+    "examples": [
+      "Anadolu'daki ana yollar üzerinde bulunan devlet konaklama tesisleri."
+    ],
+    "relatedTerms": [
+      "Menzil Teşkilatı",
+      "Ulak",
+      "Derbent"
+    ],
+    "order": 93
+  },
+  {
+    "id": "enderun_mektebi",
+    "term": "Enderun Mektebi",
+    "definition": "Osmanlı sarayında, devşirme sistemiyle alınan çocukların üst düzey devlet adamı ve idareci olarak yetiştirildiği özel okuldur. Burada dini, idari, askeri ve edebi eğitimler verilirdi.",
+    "examples": [
+      "Fatih Sultan Mehmet döneminde kurumsal bir yapıya kavuşan Enderun, nitelikli bürokratlar yetiştirmiştir.",
+      "Lale Devri'nin önemli şairlerinden Nedim'in Enderun'da eğitim aldığı bilinmektedir."
+    ],
+    "relatedTerms": [
+      "Devşirme Sistemi",
+      "Saray Okulları",
+      "Kapıkulu"
+    ],
+    "order": 94
+  },
+  {
+    "id": "ulufeciler",
+    "term": "Ulufeciler",
+    "definition": "Kapıkulu Süvari Ocakları'ndan biridir. Savaşlarda padişahın ve ordunun sancağını taşıyan, hazineyi koruyan birliklerdir. Sağ ve Sol Ulufeciler olarak ikiye ayrılırlardı.",
+    "examples": [
+      "Ulufeciler, savaş meydanında sancağı koruyarak ordunun moralini yüksek tutardı.",
+      "Hazine-i Hassa'nın korunması görevini de üstlenirlerdi."
+    ],
+    "relatedTerms": [
+      "Kapıkulu Süvarileri",
+      "Sipahiler",
+      "Silahtarlar"
+    ],
+    "order": 95
+  },
+  {
+    "id": "cebeci_ocagi",
+    "term": "Cebeci Ocağı",
+    "definition": "Kapıkulu Ocakları'na bağlı, ordunun silah ve mühimmat ihtiyacını karşılayan, bunların bakım ve onarımını yapan ocaktır. Savaş öncesi ve sırasında silahların hazır olmasından sorumluydu.",
+    "examples": [
+      "Yeniçerilerin kullandığı tüfeklerin ve kılıçların bakımı Cebeci Ocağı tarafından yapılırdı.",
+      "Savaş alanına mühimmat sevkiyatı Cebeciler tarafından gerçekleştirilirdi."
+    ],
+    "relatedTerms": [
+      "Kapıkulu Ocakları",
+      "Topçu Ocağı",
+      "Humbaracı Ocağı"
+    ],
+    "order": 96
+  },
+  {
+    "id": "humbaraci_ocagi",
+    "term": "Humbaracı Ocağı",
+    "definition": "Osmanlı ordusunda havan topu ve el bombası (humbara) yapan ve kullanan sınıftır. Özellikle kuşatmalarda ve kale savunmalarında etkili olmuşlardır.",
+    "examples": [
+      "Humbaracılar, kalelerin duvarlarını yıkmada etkili olan humbaraları imal ederlerdi.",
+      "18. yüzyılda Comte de Bonneval (Humbaracı Ahmet Paşa) tarafından modernize edilmiştir."
+    ],
+    "relatedTerms": [
+      "Topçu Ocağı",
+      "Lağımcı Ocağı",
+      "Kapıkulu Ocakları"
+    ],
+    "order": 97
+  },
+  {
+    "id": "lağımcı_ocagi",
+    "term": "Lağımcı Ocağı",
+    "definition": "Osmanlı ordusunda kale kuşatmalarında tüneller kazarak surların altına patlayıcı yerleştiren veya düşman tünellerini imha eden sınıftır. Özellikle istihkam ve yıkım faaliyetlerinde görev alırlardı.",
+    "examples": [
+      "İstanbul'un fethinde Lağımcılar, surların altına tüneller kazarak şehre giriş denemeleri yapmışlardır.",
+      "Kale kuşatmalarında düşman savunmasını zayıflatmak için lağımcıların faaliyetleri kritik öneme sahipti."
+    ],
+    "relatedTerms": [
+      "Humbaracı Ocağı",
+      "İstihkam",
+      "Kuşatma"
+    ],
+    "order": 98
+  },
+  {
+    "id": "akıncılar",
+    "term": "Akıncılar",
+    "definition": "Osmanlı ordusunun sınır bölgelerinde görev yapan, düşman topraklarına öncü akınlar düzenleyen hafif süvari birlikleridir. Keşif, yıpratma ve psikolojik savaş görevlerini üstlenirlerdi.",
+    "examples": [
+      "Akıncılar, fetihlerden önce düşman topraklarında keşif yaparak bilgi toplardı.",
+      "Düşman ordusunun moralini bozmak ve ikmal yollarını kesmek akıncıların temel görevlerindendi."
+    ],
+    "relatedTerms": [
+      "Deliler",
+      "Azaplar",
+      "Sınır Beyleri"
+    ],
+    "order": 99
+  },
+  {
+    "id": "azaplar",
+    "term": "Azaplar",
+    "definition": "Osmanlı ordusunda, özellikle savaşların ön saflarında yer alan, bekar Türk gençlerinden oluşan hafif piyade birlikleridir. Fedai birlikleri olarak da bilinirlerdi.",
+    "examples": [
+      "Azaplar, savaşın ilk anlarında düşmanla doğrudan temasa geçerek ordunun ana gövdesine zaman kazandırırdı.",
+      "Deniz savaşlarında da gemilerde görev alan azaplar bulunmaktaydı."
+    ],
+    "relatedTerms": [
+      "Akıncılar",
+      "Yeniçeriler",
+      "Yayalar"
+    ],
+    "order": 100
+  },
+  {
+    "id": "zimmi",
+    "term": "Zimmi",
+    "definition": "Osmanlı Devleti'nde Müslüman olmayan, ancak devletin himayesi altında yaşayan ve cizye vergisi ödeyen gayrimüslimlerdir. Can ve mal güvenlikleri devlet tarafından garanti altına alınırdı.",
+    "examples": [
+      "Hristiyan ve Yahudi topluluklar Osmanlı'da zimmi statüsündeydi.",
+      "Zimmiler, kendi ibadethanelerini ve okullarını serbestçe işletebilirlerdi."
+    ],
+    "relatedTerms": [
+      "Cizye",
+      "Millet Sistemi",
+      "Gayrimüslim"
+    ],
+    "order": 101
+  },
+  {
+    "id": "avarız_vergisi",
+    "term": "Avarız Vergisi",
+    "definition": "Osmanlı Devleti'nde olağanüstü durumlarda (savaş, doğal afet vb.) halktan toplanan bir vergidir. Başlangıçta geçici iken sonraları sürekli hale gelmiştir.",
+    "examples": [
+      "Deprem veya büyük bir yangın sonrası devlet, halktan avarız vergisi toplayabilirdi.",
+      "Savaş giderlerini karşılamak için avarız vergisine başvurulmuştur."
+    ],
+    "relatedTerms": [
+      "Olağanüstü Haller",
+      "Vergi Sistemi",
+      "Cizye"
+    ],
+    "order": 102
+  },
+  {
+    "id": "gulam_sistemi",
+    "term": "Gulam Sistemi",
+    "definition": "İslam devletlerinde, özellikle Selçuklularda ve öncesinde, savaş esirlerinin veya satın alınan kölelerin askeri ve idari alanda yetiştirilmesi sistemidir. Osmanlı'daki devşirme sisteminin öncüsü sayılabilir.",
+    "examples": [
+      "Gazneliler ve Karahanlılar gibi Türk-İslam devletlerinde gulam sistemi yaygın olarak kullanılmıştır.",
+      "Gulamlar, sultanın en güvenilir askeri gücünü oluştururdu."
+    ],
+    "relatedTerms": [
+      "Devşirme Sistemi",
+      "Kölemen",
+      "Memlük"
+    ],
+    "order": 103
+  },
+  {
+    "id": "miri_sistem",
+    "term": "Miri Sistem",
+    "definition": "Osmanlı Devleti'nde toprakların büyük çoğunluğunun mülkiyetinin devlete ait olduğu sistemdir. Topraklar işleme hakkı karşılığında köylülere dağıtılır, köylüler toprağı işler ve vergisini devlete öderdi. Bu sistem, özel mülkiyetin yaygınlaşmasını engellemiştir.",
+    "examples": [
+      "Dirlik sistemi, miri sistemin bir uygulamasıdır.",
+      "Miri topraklar alınıp satılamaz, miras bırakılamazdı."
+    ],
+    "relatedTerms": [
+      "Miri Arazi",
+      "Dirlik Sistemi",
+      "Vakıf Toprakları",
+      "Mülk Toprakları"
+    ],
+    "order": 104
+  },
+  {
+    "id": "redif_birlikleri",
+    "term": "Redif Birlikleri",
+    "definition": "Osmanlı Devleti'nde 19. yüzyılda kurulan, askerlik hizmetini tamamlamış veya belirli yaş grubundaki erkeklerden oluşan yedek askerî birliklerdir. Nizam-ı Cedit ve ardından Sekban-ı Cedit ordularının kurulmasıyla ortaya çıkmıştır. Yerel savunma ve sefer zamanı orduya takviye amacıyla kullanılırdı.",
+    "examples": [
+      "Redif birlikleri, Tanzimat Dönemi'nde ordunun modernleşme çabalarının bir parçasıydı.",
+      "Kırım Savaşı'nda redif birlikleri de görev almıştır."
+    ],
+    "relatedTerms": [
+      "Nizam-ı Cedit",
+      "Sekban-ı Cedit",
+      "Asakir-i Mansure-i Muhammediye",
+      "Tanzimat Fermanı"
+    ],
+    "order": 105
+  },
+  {
+    "id": "ehline_tevcih",
+    "term": "Ehline Tevcih",
+    "definition": "Osmanlı Devleti'nde bir göreve veya makama atama yapılırken liyakat ve ehliyetin esas alınması ilkesidir. Özellikle yükselme dönemlerinde bu ilkeye uyulması devletin güçlü kalmasında etkili olmuştur. Ancak duraklama ve gerileme dönemlerinde bu ilkenin dışına çıkıldığı görülmüştür.",
+    "examples": [
+      "Kanuni Sultan Süleyman döneminde ehline tevcih ilkesine sıkıca uyulmuştur.",
+      "Rüşvet ve iltimasın yaygınlaşması ehline tevcih ilkesinin bozulduğunu gösterir."
+    ],
+    "relatedTerms": [
+      "Liyakat",
+      "İltimas",
+      "Rüşvet",
+      "Kul Sistemi"
+    ],
+    "order": 106
+  },
+  {
+    "id": "ehli_hirfet",
+    "term": "Ehli Hıref",
+    "definition": "Osmanlı Devleti'nde saraya bağlı olarak çalışan sanatkarlar ve zanaatkarlar topluluğudur. Sarayın ihtiyaç duyduğu her türlü sanat ve zanaat ürününü üretirlerdi. Çeşitli zanaat dallarına ayrılmışlardı ve her birinin başında bir usta bulunurdu.",
+    "examples": [
+      "Ehli Hıref arasında hattatlar, nakkaşlar, kuyumcular ve çiniciler bulunurdu.",
+      "Saray için özel kumaşlar ve işlemeler Ehli Hıref tarafından yapılırdı."
+    ],
+    "relatedTerms": [
+      "Lonca",
+      "Gedik Sistemi",
+      "Enderun Mektebi",
+      "Hassa Mimarları Ocağı"
+    ],
+    "order": 107
+  },
+  {
+    "id": "fetihname",
+    "term": "Fetihname",
+    "definition": "Osmanlı Devleti'nde bir şehrin veya bölgenin fethedildiğini, kazanılan zaferleri ve bu zaferlerin dini ve siyasi gerekçelerini anlatan resmi mektup veya belgedir. Genellikle padişah adına yazılır ve diğer İslam devletlerine veya önemli kişilere gönderilirdi.",
+    "examples": [
+      "İstanbul'un fethinden sonra Fatih Sultan Mehmet, çeşitli İslam hükümdarlarına fetihnameler göndermiştir.",
+      "Fetihnameler, Osmanlı'nın gücünü ve meşruiyetini duyurma aracıydı."
+    ],
+    "relatedTerms": [
+      "Ferman",
+      "Berat",
+      "Ahitname",
+      "Nâme-i Hümayun"
+    ],
+    "order": 108
+  },
+  {
+    "id": "derbentçi",
+    "term": "Derbentçi",
+    "definition": "Osmanlı Devleti'nde, önemli geçitleri, boğazları ve yolları korumak, güvenliğini sağlamak ve yolcuların geçişini kolaylaştırmakla görevli özel birliklerdir. Genellikle belirli bir bölgenin halkından seçilirler ve karşılığında vergiden muaf tutulurlardı.",
+    "examples": [
+      "Derbentçiler, kervanların ve yolcuların güvenliğini sağlamakla yükümlüydü.",
+      "Dağlık ve geçit vermesi zor bölgelerde derbentçi teşkilatı önemliydi."
+    ],
+    "relatedTerms": [
+      "Yaya ve Müsellem",
+      "Akıncılar",
+      "Voynuklar",
+      "Martoloslar"
+    ],
+    "order": 109
+  },
+  {
+    "id": "kadilik",
+    "term": "Kadılık",
+    "definition": "Osmanlı Devleti'nde şer'i hukuka göre yargılama yapan, aynı zamanda idari ve belediye işlerinden de sorumlu olan görevlilere kadı denirdi. Kadılar, bulundukları bölgelerde adaleti sağlarken, evlenme, boşanma, miras gibi hukuki işlemleri de yürütürlerdi. Ayrıca vakıfların denetimi ve çarşı-pazar düzeni gibi görevleri de vardı.",
+    "examples": [
+      "Kadı, miras davalarına bakarak hüküm verirdi.",
+      "Yeni bir caminin yapımı için kadıdan izin alınırdı."
+    ],
+    "relatedTerms": [
+      "Şeriat",
+      "Kazasker",
+      "Naib",
+      "İlmiye Sınıfı"
+    ],
+    "order": 110
+  },
+  {
+    "id": "lonca_teskilati",
+    "term": "Lonca Teşkilatı",
+    "definition": "Osmanlı şehirlerinde esnaf ve zanaatkarların örgütlendiği, mesleki dayanışmayı, kalite kontrolünü ve fiyat denetimini sağlayan bir meslek kuruluşudur. Üretimden tüketime kadar birçok alanda düzenlemeler yaparak haksız rekabeti önler ve mesleki eğitimi sağlardı. Ahilik geleneğinin devamı niteliğindedir.",
+    "examples": [
+      "Lonca, ayakkabıcıların ürettiği malların kalitesini denetlerdi.",
+      "Yeni bir dükkan açmak isteyen esnafın loncadan onay alması gerekirdi."
+    ],
+    "relatedTerms": [
+      "Ahilik",
+      "Gedik",
+      "Narh Sistemi",
+      "Ehl-i Hiref"
+    ],
+    "order": 111
+  },
+  {
+    "id": "berat_sistemi",
+    "term": "Berat Sistemi",
+    "definition": "Osmanlı Devleti'nde padişah tarafından verilen, bir kişiye görev, unvan, imtiyaz veya bir hakkın tanındığını gösteren resmi belgedir. Özellikle memuriyet atamaları, tımar tahsisleri, vergi muafiyetleri veya bazı mesleki yetkilerin verilmesinde kullanılırdı. Berat, padişahın mutlak otoritesinin bir göstergesiydi.",
+    "examples": [
+      "Yeni atanan bir kadı, görevine başlamadan önce padişahtan berat alırdı.",
+      "Bir sipahiye tımar tahsisi, berat ile resmiyet kazanırdı."
+    ],
+    "relatedTerms": [
+      "Ferman",
+      "Nişan",
+      "Menşur",
+      "Hatt-ı Hümayun"
+    ],
+    "order": 112
+  },
+  {
+    "id": "misir_carsisi",
+    "term": "Mısır Çarşısı",
+    "definition": "İstanbul'da bulunan, özellikle baharat, aktariye ve geleneksel ürünlerin satıldığı tarihi bir çarşıdır. Yeni Cami'nin külliyesinin bir parçası olarak inşa edilmiştir ve camiye gelir sağlamak amacıyla kullanılmıştır.",
+    "examples": [
+      "Mısır Çarşısı, Yeni Cami'ye vakıf geliri sağlamak amacıyla inşa edilmiştir.",
+      "Osmanlı döneminde doğu ile batı arasındaki ticaretin önemli merkezlerinden biriydi."
+    ],
+    "relatedTerms": [
+      "Külliye",
+      "Vakıf",
+      "Bedesten",
+      "Arasta"
+    ],
+    "order": 113
+  },
+  {
+    "id": "cizye_vergisi",
+    "term": "Cizye Vergisi",
+    "definition": "Osmanlı Devleti'nde Müslüman olmayan erkeklerden (zimmi) askerlik hizmetinden muaf tutulmaları karşılığında alınan baş vergisidir. Bu vergi, onların can ve mal güvenliğinin devlet tarafından sağlanmasının bir karşılığı olarak görülmüştür.",
+    "examples": [
+      "Cizye vergisi, Osmanlı'da gayrimüslim tebaanın statüsünü belirleyen önemli bir uygulamaydı.",
+      "Tanzimat Dönemi'nde cizye vergisi kaldırılmıştır."
+    ],
+    "relatedTerms": [
+      "Haraç",
+      "Zimmi",
+      "Aşar",
+      "Öşür"
+    ],
+    "order": 114
+  },
+  {
+    "id": "ehli_orfi",
+    "term": "Ehli Örfi",
+    "definition": "Osmanlı Devleti'nde örfî hukuka göre yargılama yapan, genellikle askerî ve idari davalara bakan görevliler sınıfıdır. Bu sınıfın başında padişah ve onun adına sadrazam bulunurdu.",
+    "examples": [
+      "Orfi hukuk, şer'i hukukun yetersiz kaldığı alanlarda uygulanırdı.",
+      "Ehli Örfi, daha çok devletin idari ve askeri düzenini ilgilendiren konularda yetkiliydi."
+    ],
+    "relatedTerms": [
+      "Şer'i Hukuk",
+      "Kadı",
+      "Kazasker",
+      "Nişancı"
+    ],
+    "order": 115
+  },
+  {
+    "id": "imaret",
+    "term": "İmaret",
+    "definition": "Osmanlı Devleti'nde özellikle yoksullara, öğrencilere ve yolculara ücretsiz yemek dağıtan hayır kurumlarıdır. Genellikle cami ve medrese gibi külliyelerin bir parçası olarak inşa edilirdi.",
+    "examples": [
+      "Fatih Külliyesi bünyesinde bir imaret de bulunuyordu.",
+      "İmarethaneler, sosyal devlet anlayışının önemli bir göstergesiydi."
+    ],
+    "relatedTerms": [
+      "Külliye",
+      "Vakıf",
+      "Zaviye",
+      "Darüşşifa"
+    ],
+    "order": 116
   }
 ]

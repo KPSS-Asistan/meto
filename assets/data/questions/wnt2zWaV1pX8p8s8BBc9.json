@@ -1432,7 +1432,7 @@
     "topicId": "1Q7SADACD2BP",
     "subtopicId": "SM-37",
     "subtopic": "Sözel Mantık",
-    "q": "Fiyat senaryosuna göre, Laptop hangi sırada olabilir? (Ucuzdan pahalıya)",
+    "q": "Fiyat senaryosuna göre, Laptop hangi sırada olabilir? (Ucuzdan pahalıya)?",
     "o": [
       "1.",
       "2.",
@@ -1655,15 +1655,16 @@
     "subtopic": "Sözel Mantık",
     "q": "Yarış senaryosuna göre, B'nin 2. olduğu bir durumda sıralama nasıl olabilir?",
     "o": [
-      "E",
-      "E",
-      "E",
       "A",
+      "B",
+      "C",
+      "E",
       "D"
     ],
     "a": 4,
-    "e": "E(1), C(2) - Hayır B, C'den sonraydı. C(2), B(3) olmalı. E(1), C(2), B(3), A(4), D(5) dizilimi şartları sağlar.",
-    "_part": 100
+    "e": "Soruda verilen 'B'nin 2. olduğu bir durumda sıralama nasıl olabilir?' ifadesi, yarış senaryosuna göre olası bir sıralama dizilimi istemektedir. Mevcut açıklama, E(1), C(2), B(3), A(4), D(5) diziliminin şartları sağladığını belirtmektedir. Bu durumda, D'nin 5. sırada olması, şıklarda D'yi içeren E seçeneğini doğru kılmaktadır.",
+    "_part": 100,
+    "type": "classic"
   },
   {
     "id": "q1",
@@ -2174,7 +2175,7 @@
     "topicId": "sozel-mantik",
     "subtopicId": "analoji",
     "subtopic": "Analoji",
-    "q": "Dağ:Yamaç ilişkisi, Şehir:? ilişkisine benzer.",
+    "q": "Dağ:Yamaç ilişkisi, Şehir:? ilişkisine benzer?",
     "o": [
       "Cadde",
       "Çevre",

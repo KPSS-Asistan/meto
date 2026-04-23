@@ -729,5 +729,355 @@
       "Dönemli Fonksiyon"
     ],
     "order": 50
+  },
+  {
+    "id": "fonksiyonun_tanim_kumesi",
+    "term": "Fonksiyonun Tanım Kümesi",
+    "definition": "Bir fonksiyonda bağımsız değişkenin (x) alabileceği tüm değerlerin kümesidir. Fonksiyonun tanımlı olduğu aralığı ifade eder.",
+    "examples": [
+      "f(x) = 1/(x-2) fonksiyonunun tanım kümesi R - {2}'dir.",
+      "f(x) = √x fonksiyonunun tanım kümesi [0, ∞)'dur."
+    ],
+    "relatedTerms": [
+      "Görüntü Kümesi",
+      "Değer Kümesi",
+      "Bağımsız Değişken"
+    ],
+    "order": 51
+  },
+  {
+    "id": "fonksiyonun_deger_kumesi",
+    "term": "Fonksiyonun Değer Kümesi",
+    "definition": "Bir fonksiyonun tanım kümesindeki elemanların fonksiyon altında eşleştiği tüm elemanların oluşturduğu kümedir. Görüntü kümesi ile karıştırılmamalıdır.",
+    "examples": [
+      "f: R → R, f(x) = x² fonksiyonunun değer kümesi R'dir, görüntü kümesi [0, ∞)'dur.",
+      "f: N → Z, f(x) = x-5 fonksiyonunun değer kümesi Z'dir."
+    ],
+    "relatedTerms": [
+      "Görüntü Kümesi",
+      "Tanım Kümesi",
+      "Kod Alan"
+    ],
+    "order": 52
+  },
+  {
+    "id": "tek_sayi_fonksiyonu",
+    "term": "Tek Sayı Fonksiyonu",
+    "definition": "f(-x) = -f(x) koşulunu sağlayan fonksiyondur. Grafiği orijine göre simetriktir.",
+    "examples": [
+      "f(x) = x³ tek fonksiyondur.",
+      "f(x) = sin(x) tek fonksiyondur."
+    ],
+    "relatedTerms": [
+      "Çift Fonksiyon",
+      "Simetri",
+      "Orijin"
+    ],
+    "order": 53
+  },
+  {
+    "id": "fonksiyonun_grafiği",
+    "term": "Fonksiyonun Grafiği",
+    "definition": "Bir fonksiyonun bağımsız değişken (x) ve bağımlı değişken (y) değerlerinin koordinat düzleminde noktalarla gösterimidir. Fonksiyonun davranışını görselleştirir.",
+    "examples": [
+      "f(x) = 2x + 1 fonksiyonunun grafiği bir doğrudur.",
+      "f(x) = x² fonksiyonunun grafiği bir paraboldür."
+    ],
+    "relatedTerms": [
+      "Koordinat Düzlemi",
+      "X Ekseni",
+      "Y Ekseni"
+    ],
+    "order": 54
+  },
+  {
+    "id": "fonksiyonun_sifiri",
+    "term": "Fonksiyonun Sıfırı",
+    "definition": "Bir fonksiyonda f(x) = 0 yapan x değerleridir. Bu noktalar, fonksiyonun grafiğinin x eksenini kestiği noktalardır.",
+    "examples": [
+      "f(x) = x - 3 fonksiyonunun sıfırı x = 3'tür.",
+      "f(x) = x² - 4 fonksiyonunun sıfırları x = 2 ve x = -2'dir."
+    ],
+    "relatedTerms": [
+      "X-kesen",
+      "Kök",
+      "Denklem"
+    ],
+    "order": 55
+  },
+  {
+    "id": "fonksiyon_limiti",
+    "term": "Fonksiyon Limiti",
+    "definition": "Bir fonksiyonun bağımsız değişkeni belirli bir değere yaklaşırken, fonksiyon değerinin yaklaştığı sayıdır. Bir noktada fonksiyonun davranışını inceler.",
+    "examples": [
+      "lim (x→2) (x² - 4) / (x - 2) = 4'tür.",
+      "lim (x→∞) (1/x) = 0'dır."
+    ],
+    "relatedTerms": [
+      "Süreklilik",
+      "Türev",
+      "Yaklaşım"
+    ],
+    "order": 56
+  },
+  {
+    "id": "fonksiyonun_turevi",
+    "term": "Fonksiyonun Türevi",
+    "definition": "Bir fonksiyonun bir noktadaki anlık değişim oranını ifade eder. Fonksiyonun o noktadaki teğetinin eğimini verir.",
+    "examples": [
+      "f(x) = x² fonksiyonunun türevi f'(x) = 2x'tir.",
+      "f(x) = sin(x) fonksiyonunun türevi f'(x) = cos(x)'tir."
+    ],
+    "relatedTerms": [
+      "Limit",
+      "Eğim",
+      "Değişim Oranı",
+      "İntegral"
+    ],
+    "order": 57
+  },
+  {
+    "id": "fonksiyonun_integrali",
+    "term": "Fonksiyonun İntegrali",
+    "definition": "Bir fonksiyonun belirli bir aralıktaki altındaki alanı veya bir fonksiyonun ters türevini bulma işlemidir. Türevin tersi olarak düşünülebilir.",
+    "examples": [
+      "∫(2x)dx = x² + C'dir.",
+      "∫(sin(x))dx = -cos(x) + C'dir."
+    ],
+    "relatedTerms": [
+      "Türev",
+      "Alan",
+      "Antitürev"
+    ],
+    "order": 58
+  },
+  {
+    "id": "fonksiyonun_maksimum_degeri",
+    "term": "Fonksiyonun Maksimum Değeri",
+    "definition": "Bir fonksiyonun belirli bir aralıkta veya tüm tanım kümesinde alabileceği en büyük değerdir. Türev yardımıyla bulunabilir.",
+    "examples": [
+      "f(x) = -x² + 4 fonksiyonunun maksimum değeri 4'tür.",
+      "f(x) = sin(x) fonksiyonunun maksimum değeri 1'dir."
+    ],
+    "relatedTerms": [
+      "Minimum Değer",
+      "Yerel Maksimum",
+      "Ekstremum Noktalar"
+    ],
+    "order": 59
+  },
+  {
+    "id": "fonksiyonun_minimum_degeri",
+    "term": "Fonksiyonun Minimum Değeri",
+    "definition": "Bir fonksiyonun belirli bir aralıkta veya tüm tanım kümesinde alabileceği en küçük değerdir. Türev yardımıyla bulunabilir.",
+    "examples": [
+      "f(x) = x² - 3 fonksiyonunun minimum değeri -3'tür.",
+      "f(x) = cos(x) fonksiyonunun minimum değeri -1'dir."
+    ],
+    "relatedTerms": [
+      "Maksimum Değer",
+      "Yerel Minimum",
+      "Ekstremum Noktalar"
+    ],
+    "order": 60
+  },
+  {
+    "id": "fonksiyonun_simetrisi",
+    "term": "Fonksiyonun Simetrisi",
+    "definition": "Bir fonksiyonun grafiğinin belirli bir eksene veya noktaya göre simetrik olması durumudur. Tek ve çift fonksiyonlar simetri özelliklerine sahiptir.",
+    "examples": [
+      "f(x) = x² fonksiyonu y eksenine göre simetriktir (çift fonksiyon).",
+      "f(x) = x³ fonksiyonu orijine göre simetriktir (tek fonksiyon)."
+    ],
+    "relatedTerms": [
+      "Tek Fonksiyon",
+      "Çift Fonksiyon",
+      "Grafik"
+    ],
+    "order": 61
+  },
+  {
+    "id": "mutlak_deger_fonksiyonu_grafiği",
+    "term": "Mutlak Değer Fonksiyonu Grafiği",
+    "definition": "f(x) = |g(x)| şeklinde tanımlanan fonksiyonların grafiği, g(x)'in x ekseninin altında kalan kısımlarının x eksenine göre yansımasıyla elde edilir.",
+    "examples": [
+      "f(x) = |x| fonksiyonunun grafiği 'V' şeklindedir.",
+      "f(x) = |x-2| fonksiyonunun grafiği, x=2 noktasında kırılan bir 'V' şeklindedir."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer",
+      "Parçalı Tanımlı Fonksiyon",
+      "Grafik"
+    ],
+    "order": 62
+  },
+  {
+    "id": "isaret_fonksiyonu",
+    "term": "İşaret Fonksiyonu (sgn(x))",
+    "definition": "Bir sayının işaretini belirten fonksiyondur. x > 0 için 1, x < 0 için -1, x = 0 için 0 değerini alır. sgn(x) olarak gösterilir ve parçalı tanımlı bir fonksiyondur.",
+    "examples": [
+      "sgn(5) = 1",
+      "sgn(-2) = -1",
+      "sgn(0) = 0"
+    ],
+    "relatedTerms": [
+      "Parçalı Tanımlı Fonksiyon",
+      "Mutlak Değer Fonksiyonu",
+      "Tanım Kümesi"
+    ],
+    "order": 63
+  },
+  {
+    "id": "tam_deger_fonksiyonu",
+    "term": "Tam Değer Fonksiyonu (⌊x⌋)",
+    "definition": "Bir x sayısından küçük veya eşit en büyük tam sayıyı veren fonksiyondur. ⌊x⌋ veya [x] ile gösterilir. Grafiği basamaklı bir yapıya sahiptir.",
+    "examples": [
+      "⌊3.7⌋ = 3",
+      "⌊-2.3⌋ = -3",
+      "⌊5⌋ = 5"
+    ],
+    "relatedTerms": [
+      "Parçalı Tanımlı Fonksiyon",
+      "Sürekli Fonksiyon",
+      "Tavan Fonksiyonu"
+    ],
+    "order": 64
+  },
+  {
+    "id": "tavan_fonksiyonu",
+    "term": "Tavan Fonksiyonu (⌈x⌉)",
+    "definition": "Bir x sayısından büyük veya eşit en küçük tam sayıyı veren fonksiyondur. ⌈x⌉ ile gösterilir. Grafiği basamaklı bir yapıya sahiptir.",
+    "examples": [
+      "⌈3.2⌉ = 4",
+      "⌈-1.8⌉ = -1",
+      "⌈7⌉ = 7"
+    ],
+    "relatedTerms": [
+      "Parçalı Tanımlı Fonksiyon",
+      "Tam Değer Fonksiyonu",
+      "Sürekli Fonksiyon"
+    ],
+    "order": 65
+  },
+  {
+    "id": "fonksiyonun_tersi",
+    "term": "Fonksiyonun Tersi",
+    "definition": "Bir fonksiyonun tersi, fonksiyonun yaptığı işlemi geri alan fonksiyondur. f(x) = y ise f⁻¹(y) = x'tir. Bir fonksiyonun tersinin olabilmesi için birebir ve örten olması gerekir.",
+    "examples": [
+      "f(x) = 3x-1 ise f⁻¹(x) = (x+1)/3.",
+      "f(x) = x² fonksiyonunun R'de tersi yoktur, çünkü birebir değildir."
+    ],
+    "relatedTerms": [
+      "Birebir Fonksiyon",
+      "Örten Fonksiyon",
+      "Bileşke Fonksiyon"
+    ],
+    "order": 66
+  },
+  {
+    "id": "fonksiyonel_denklemler",
+    "term": "Fonksiyonel Denklemler",
+    "definition": "Bilinmeyen fonksiyonlar içeren denklemlerdir. Bu denklemleri çözerek fonksiyonun kuralını veya belirli noktalardaki değerlerini bulmaya çalışılır. Genellikle f(x+y) = f(x) + f(y) gibi formlarda karşımıza çıkar.",
+    "examples": [
+      "f(x+y) = f(x) + f(y) denkleminin çözümü f(x) = cx şeklindedir.",
+      "f(x+y) = f(x)f(y) denkleminin çözümü f(x) = aˣ şeklindedir."
+    ],
+    "relatedTerms": [
+      "Fonksiyon Türleri",
+      "Özellikler",
+      "Denklem Çözme"
+    ],
+    "order": 67
+  },
+  {
+    "id": "fonksiyonlarda_4_islem",
+    "term": "Fonksiyonlarda Dört İşlem",
+    "definition": "İki fonksiyon arasında toplama, çıkarma, çarpma ve bölme işlemleri yapılabilir. (f+g)(x) = f(x)+g(x), (f-g)(x) = f(x)-g(x), (f.g)(x) = f(x).g(x) ve (f/g)(x) = f(x)/g(x) (g(x)≠0) şeklinde tanımlanır.",
+    "examples": [
+      "f(x)=x+1, g(x)=x-1 ise (f+g)(x) = 2x.",
+      "f(x)=x², g(x)=x ise (f/g)(x) = x (x≠0)."
+    ],
+    "relatedTerms": [
+      "Tanım Kümesi",
+      "Bileşke Fonksiyon",
+      "Fonksiyon Türleri"
+    ],
+    "order": 68
+  },
+  {
+    "id": "fonksiyonun_sifir_noktalari",
+    "term": "Fonksiyonun Sıfır Noktaları (Kökler)",
+    "definition": "Bir fonksiyonu sıfır yapan x değerleridir, yani f(x) = 0 denkleminin çözüm kümesidir. Bu noktalar, fonksiyon grafiğinin x eksenini kestiği noktalardır.",
+    "examples": [
+      "f(x) = x-3 fonksiyonunun sıfır noktası x=3'tür.",
+      "f(x) = x²-4 fonksiyonunun sıfır noktaları x=2 ve x=-2'dir."
+    ],
+    "relatedTerms": [
+      "Tanım Kümesi",
+      "Y-Kesim Noktası",
+      "Grafik"
+    ],
+    "order": 69
+  },
+  {
+    "id": "fonksiyonun_y_kesim_noktasi",
+    "term": "Fonksiyonun Y-Kesim Noktası",
+    "definition": "Bir fonksiyonun grafiğinin y eksenini kestiği noktadır. Bu nokta, x=0 alındığında elde edilen f(0) değeridir. Bir fonksiyonun en fazla bir tane y-kesim noktası olabilir.",
+    "examples": [
+      "f(x) = 2x+5 fonksiyonunun y-kesim noktası (0, 5)'tir.",
+      "f(x) = x²-3x+2 fonksiyonunun y-kesim noktası (0, 2)'dir."
+    ],
+    "relatedTerms": [
+      "Sıfır Noktası",
+      "Grafik",
+      "Tanım Kümesi"
+    ],
+    "order": 70
+  },
+  {
+    "id": "birim_fonksiyon",
+    "term": "Birim Fonksiyon",
+    "definition": "Tanım kümesindeki her elemanı kendisine eşleyen fonksiyondur. f(x) = x şeklinde gösterilir ve genellikle I(x) ile ifade edilir. Fonksiyonlarda bileşke işleminde etkisiz elemandır.",
+    "examples": [
+      "f(x) = x fonksiyonu birim fonksiyondur.",
+      "f(5) = 5",
+      "f(a) = a"
+    ],
+    "relatedTerms": [
+      "Sabit Fonksiyon",
+      "Bileşke Fonksiyon",
+      "Ters Fonksiyon"
+    ],
+    "order": 71
+  },
+  {
+    "id": "birebir_ve_orten_fonksiyon",
+    "term": "Birebir ve Örten (Bijeksiyon) Fonksiyon",
+    "definition": "Hem birebir hem de örten olan fonksiyondur. Bu tür fonksiyonların tersi de bir fonksiyondur ve tek türlü belirlidir. Ters fonksiyonun varlığı için temel şarttır.",
+    "examples": [
+      "f: R → R, f(x) = 3x - 2 fonksiyonu birebir ve örtendir.",
+      "f: R → R, f(x) = x³ fonksiyonu birebir ve örtendir."
+    ],
+    "relatedTerms": [
+      "Birebir Fonksiyon",
+      "Örten Fonksiyon",
+      "Fonksiyonun Tersi"
+    ],
+    "order": 72
+  },
+  {
+    "id": "parçalı_fonksiyon",
+    "term": "Parçalı Fonksiyon",
+    "definition": "Tanım kümesinin farklı aralıklarında farklı kurallarla tanımlanan fonksiyondur. Her bir aralık için ayrı bir fonksiyon ifadesi bulunur. Süreklilik ve türevlenebilirlik incelenirken kritik noktalara dikkat edilir.",
+    "examples": [
+      "f(x) = { x+1, x<0 ; x², x≥0 }",
+      "Mutlak değer fonksiyonu bir parçalı fonksiyondur."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Fonksiyonu",
+      "Tanım Kümesi",
+      "Süreklilik"
+    ],
+    "order": 73
   }
 ]

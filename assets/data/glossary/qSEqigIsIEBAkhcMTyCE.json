@@ -1298,5 +1298,661 @@
       "Virgülün Kullanımı"
     ],
     "order": 90
+  },
+  {
+    "id": "ulestirme_sayilari",
+    "term": "Üleştirme Sayılarının Yazımı",
+    "definition": "Üleştirme sayıları rakamla değil, her zaman yazıyla gösterilir. Rakamla yazılması yazım yanlışı kabul edilir.",
+    "examples": [
+      "İkişer",
+      "Yedişer"
+    ],
+    "relatedTerms": [
+      "Sayıların Yazımı",
+      "Sıra Sayıları"
+    ],
+    "order": 91
+  },
+  {
+    "id": "kısaltmalarin_yazimi",
+    "term": "Kısaltmalarda Eklerin Getirilmesi",
+    "definition": "Kısaltmalara getirilen ekler, kısaltmanın okunuşuna göre değil, son harfin okunuşuna göre getirilir. Büyük harfle yapılan kısaltmalarda kesme işareti kullanılır.",
+    "examples": [
+      "TDK'nin",
+      "TBMM'ye",
+      "TV'de"
+    ],
+    "relatedTerms": [
+      "Özel Adlarda Kısaltmalar",
+      "Kesme İşareti"
+    ],
+    "order": 92
+  },
+  {
+    "id": "kisa_cizgi_satir_basi",
+    "term": "Kısa Çizginin Satır Sonu Kullanımı",
+    "definition": "Satıra sığmayan kelimeler bölünürken satır sonuna konur. Kelime içinde hece bölünmesi kurallarına dikkat edilmelidir.",
+    "examples": [
+      "İlko-kul",
+      "Başöğret-men"
+    ],
+    "relatedTerms": [
+      "Satır Sonu Bölmeleri",
+      "Heceleme"
+    ],
+    "order": 93
+  },
+  {
+    "id": "soru_eki_bitisik_yazimi",
+    "term": "Soru Eki ve Sonrasındaki Ekler",
+    "definition": "Soru eki olan 'mi' kendinden önceki kelimeden ayrı yazılır ancak kendisinden sonra gelen ekler 'mi'ye bitişik yazılır.",
+    "examples": [
+      "Gelecek misin?",
+      "Güzel miydi?"
+    ],
+    "relatedTerms": [
+      "Soru Eki Mi",
+      "Eklerin Yazımı"
+    ],
+    "order": 94
+  },
+  {
+    "id": "unvan_sifatlari",
+    "term": "Unvan ve Makam Adlarının Büyük Yazımı",
+    "definition": "Kişi adlarından önce veya sonra gelen unvanlar, saygı sözleri ve rütbe adları büyük harfle başlar.",
+    "examples": [
+      "Avukat Ahmet Bey",
+      "Yüzbaşı Cengiz"
+    ],
+    "relatedTerms": [
+      "Akrabalık Adları",
+      "Özel İsimler"
+    ],
+    "order": 95
+  },
+  {
+    "id": "ozel_ad_turetme",
+    "term": "Özel Adlardan Türetilen Kelimeler",
+    "definition": "Özel adlara getirilen yapım ekleri, çokluk eki ve bunlardan sonra gelen diğer ekler kesme işaretiyle ayrılmaz.",
+    "examples": [
+      "Türkleşmek",
+      "Ankaralı",
+      "Türkçenin"
+    ],
+    "relatedTerms": [
+      "Özel İsimler",
+      "Kesme İşareti"
+    ],
+    "order": 96
+  },
+  {
+    "id": "tarihi_olay_adlari",
+    "term": "Tarihi Olay, Çağ ve Dönem Adları",
+    "definition": "Tarihi olay, çağ ve dönem adları büyük harfle başlar. Bu adlara gelen ekler kesme işaretiyle ayrılır.",
+    "examples": [
+      "Kurtuluş Savaşı",
+      "Cilalı Taş Devri",
+      "Orta Çağ"
+    ],
+    "relatedTerms": [
+      "Tarihi Dönem Adları",
+      "Özel İsimler"
+    ],
+    "order": 97
+  },
+  {
+    "id": "soru_eki_baglam",
+    "term": "Soru Ekinin Bağlamı",
+    "definition": "Soru eki 'mi' kendinden önceki kelimeden her zaman ayrı yazılır. Ancak kendisinden sonra gelen eklerle bitişik yazılır.",
+    "examples": [
+      "Gelecek misin?",
+      "Güzel mi güzel bir gün."
+    ],
+    "relatedTerms": [
+      "Soru Eki Mi",
+      "Eklerin Yazımı"
+    ],
+    "order": 98
+  },
+  {
+    "id": "kitalar_ve_yollar",
+    "term": "Yer Adlarında Büyük Harf",
+    "definition": "Yer adları (kıta, bölge, il, ilçe, köy, semt vb.) büyük harfle başlar. Özel isme dahil olan 'mahalle, meydan, bulvar, cadde, sokak' kelimeleri de büyük harfle başlar.",
+    "examples": [
+      "Atatürk Bulvarı.",
+      "Kızılay Meydanı."
+    ],
+    "relatedTerms": [
+      "Özel Adlar",
+      "Büyük Harflerin Kullanımı"
+    ],
+    "order": 99
+  },
+  {
+    "id": "tarihi_devir_adlari",
+    "term": "Tarihi Dönem ve Çağ Adları",
+    "definition": "Tarihi dönem, çağ ve devir adları büyük harfle başlar. Bu isimlere gelen ekler kesme işareti ile ayrılır.",
+    "examples": [
+      "Cilalı Taş Devri'nde.",
+      "İlk Çağ'ın başlangıcı."
+    ],
+    "relatedTerms": [
+      "Özel Adlar",
+      "Tarihlerin Yazımı"
+    ],
+    "order": 100
+  },
+  {
+    "id": "yuzde_isareti",
+    "term": "Yüzde İşaretinin Yazımı",
+    "definition": "Yüzde işareti (%) sayı ile yüzde işareti arasında boşluk bırakılmadan yazılır. Ancak yüzde işareti sayıdan önce yazılır.",
+    "examples": [
+      "%50 indirim.",
+      "%25 vergi."
+    ],
+    "relatedTerms": [
+      "Sayıların Yazımı",
+      "Noktalama İşaretleri"
+    ],
+    "order": 101
+  },
+  {
+    "id": "uc_nokta_kullanimi",
+    "term": "Üç Noktanın Kullanımı",
+    "definition": "Anlatım olarak tamamlanmamış cümlelerin sonuna konur. Ayrıca kaba sayıldığı için söylenmek istenmeyen veya alıntılarda atlanan kısımları belirtmek için kullanılır.",
+    "examples": [
+      "Karşımızda masmavi bir deniz...",
+      "Kılavuzu karga olanın burnu b...ten çıkmaz."
+    ],
+    "relatedTerms": [
+      "Noktalama İşaretleri",
+      "Alıntıların Noktalanması"
+    ],
+    "order": 102
+  },
+  {
+    "id": "de_da_baglaci",
+    "term": "Bağlaç Olan De/Da'nın Yazımı",
+    "definition": "Bağlaç olan 'de/da' her zaman ayrı yazılır ve asla 'te/ta' biçimine dönüşmez. Cümleden çıkarıldığında anlam bozulmaz ancak daralabilir.",
+    "examples": [
+      "Gidip de gelmemek var",
+      "Sen de mi geldin?"
+    ],
+    "relatedTerms": [
+      "Ek Olan De/Da",
+      "Bağlaçlar"
+    ],
+    "order": 103
+  },
+  {
+    "id": "kitalar_ve_yonler",
+    "term": "Yer Adları ve Yönlerin Yazımı",
+    "definition": "Yer adları (kıta, bölge, il, ilçe, köy) büyük harfle başlar. Yön adları (doğu, batı, kuzey, güney) tek başına veya özel isimden sonra kullanıldığında küçük, özel isimden önce kullanıldığında büyük yazılır.",
+    "examples": [
+      "Kuzey Amerika",
+      "Anadolu'nun doğusu"
+    ],
+    "relatedTerms": [
+      "Yön Adlarının Yazımı",
+      "Özel Adlar"
+    ],
+    "order": 104
+  },
+  {
+    "id": "gok_cisimleri",
+    "term": "Gök Cisimlerinin Yazımı",
+    "definition": "Dünya, Güneş ve Ay kelimeleri gezegen anlamında kullanıldıklarında büyük harfle başlar. Coğrafi veya terim anlamı dışında kullanıldıklarında küçük harfle yazılırlar.",
+    "examples": [
+      "Dünya Güneş etrafında döner.",
+      "Seni dünyalar kadar seviyorum."
+    ],
+    "relatedTerms": [
+      "Özel Adlar",
+      "Terimler"
+    ],
+    "order": 105
+  },
+  {
+    "id": "kitap_dergi_adlari",
+    "term": "Kitap ve Dergi Adlarının Yazımı",
+    "definition": "Kitap, dergi, gazete ve sanat eseri adlarının her kelimesi büyük harfle başlar. Ancak özel ada dahil olmayan 'gazete, dergi, tablo' gibi sözler küçük harfle başlar.",
+    "examples": [
+      "Sinekli Bakkal romanı",
+      "Resmî Gazete"
+    ],
+    "relatedTerms": [
+      "Özel Adlar",
+      "Büyük Harflerin Kullanımı"
+    ],
+    "order": 106
+  },
+  {
+    "id": "ek_olan_ki",
+    "term": "Ek Olan Ki'nin Yazımı",
+    "definition": "İlgi zamiri olan '-ki' eklendiği kelimeye bitişik yazılır. Sıfat yapan '-ki' de eklendiği kelimeye bitişik yazılır.",
+    "examples": [
+      "Bendeki kalem",
+      "Evdeki hesap"
+    ],
+    "relatedTerms": [
+      "Bağlaç Olan Ki",
+      "Ekler"
+    ],
+    "order": 107
+  },
+  {
+    "id": "yazimi_karistirilan_kelimeler",
+    "term": "Yazımı Karıştırılan Kelimeler",
+    "definition": "Sınavlarda sıklıkla sorulan; kökeni veya yapısı gereği telaffuz ile yazımı farklılık gösteren kelimelerin doğru yazılışıdır. Özellikle 'yalnız, yanlış, herkes, şoför, orijinal' gibi kelimeler üzerinde durulmalıdır.",
+    "examples": [
+      "Bu işi herkes yapamaz.",
+      "Orijinal fikirleri ile herkesi etkiledi."
+    ],
+    "relatedTerms": [
+      "Bitişik Yazılan Birleşik Kelimeler",
+      "Ayrı Yazılan Birleşik Kelimeler"
+    ],
+    "order": 108
+  },
+  {
+    "id": "sayi_basamaklari_yazimi",
+    "term": "Sayı Basamaklarının Yazımı",
+    "definition": "Birden fazla kelimeden oluşan sayılar ayrı yazılır. Ancak para ile ilgili işlemlerle çek, senet gibi ticari belgelerde sayılar bitişik yazılır.",
+    "examples": [
+      "İki yüz elli beş lira",
+      "Yüz yirmi iki bin beş yüz"
+    ],
+    "relatedTerms": [
+      "Sıra Sayılarının Yazımı",
+      "Üleştirme Sayılarının Yazımı"
+    ],
+    "order": 109
+  },
+  {
+    "id": "kesme_isareti_istisnalari",
+    "term": "Kesme İşaretinin Kullanılmadığı Durumlar",
+    "definition": "Özel adlara getirilen yapım ekleri, çokluk eki ve bunlardan sonra gelen diğer ekler kesme işaretiyle ayrılmaz. Ayrıca kurum adlarına gelen ekler de ayrılmaz.",
+    "examples": [
+      "Türkçenin kuralları",
+      "Ankaralılar bugün toplandı."
+    ],
+    "relatedTerms": [
+      "Kısaltmalarda Eklerin Getirilmesi",
+      "Özel Adlarda Büyük Harf İstisnaları"
+    ],
+    "order": 110
+  },
+  {
+    "id": "soru_eki_mi",
+    "term": "Soru Ekinin Yazımı",
+    "definition": "Soru eki olan 'mi' her zaman ayrı yazılır ancak kendisinden önceki kelimenin son ünlüsüne uyum sağlar. Soru ekinden sonra gelen ekler ise bu eke bitişik yazılır.",
+    "examples": [
+      "Gelecek misin?",
+      "Güzel miydi?"
+    ],
+    "relatedTerms": [
+      "Soru Ekinin Bağlamı",
+      "Soru Eki ve Sonrasındaki Ekler"
+    ],
+    "order": 111
+  },
+  {
+    "id": "sayi_yazimi_kurallari",
+    "term": "Sayılarda Üleştirme",
+    "definition": "Üleştirme sayıları rakamla değil, mutlaka yazı ile gösterilmelidir. Rakamla yazılan üleştirme sayıları yazım yanlışı kabul edilir.",
+    "examples": [
+      "İkişer ikişer saydılar.",
+      "Beşer elma paylaştırdılar."
+    ],
+    "relatedTerms": [
+      "Üleştirme Sayılarının Yazımı",
+      "Sıra Sayılarının Yazımı"
+    ],
+    "order": 112
+  },
+  {
+    "id": "de_da_baglac_ayrimi",
+    "term": "Bağlaç Olan 'De/Da' ile Ek Olan '-de/-da' Ayırımı",
+    "definition": "Türkçede 'de/da' bağlacı her zaman ayrı yazılır ve cümleden çıkarıldığında anlam bozulmaz. Hal eki olan '-de/-da' ise bitişik yazılır ve cümleden çıkarıldığında anlam bozulur veya değişir.",
+    "examples": [
+      "Sen de gelmelisin. (Bağlaç)",
+      "Evde kimse yoktu. (Hal eki)"
+    ],
+    "relatedTerms": [
+      "Ek Olan Ki'nin Yazımı",
+      "Bağlaçlardan Önce ve Sonra Virgül Kullanımı",
+      "Edat ve Bağlaçların Yazımı"
+    ],
+    "order": 113
+  },
+  {
+    "id": "ki_baglac_ek_ayrimi",
+    "term": "Bağlaç Olan 'Ki' ile Ek Olan '-ki' Ayırımı",
+    "definition": "Bağlaç olan 'ki' her zaman ayrı yazılır ve genellikle iki cümleyi birbirine bağlar. Ek olan '-ki' ise bitişik yazılır (ilgi eki veya sıfat yapan ek) ve cümleden çıkarılamaz.",
+    "examples": [
+      "Duydum ki geliyormuşsun. (Bağlaç)",
+      "Evdeki hesap çarşıya uymaz. (Ek)"
+    ],
+    "relatedTerms": [
+      "De/Da Bağlaç Ayırımı",
+      "Ek Olan De/Da'nın Yazımı",
+      "Bağlaçlardan Önce ve Sonra Virgül Kullanımı"
+    ],
+    "order": 114
+  },
+  {
+    "id": "birlesik_fiillerin_yazimi",
+    "term": "Birleşik Fiillerin Yazımı",
+    "definition": "Yardımcı fiillerle kurulan birleşik fiiller (etmek, olmak, eylemek, kılmak) ses düşmesi veya türemesi olduğunda bitişik, aksi takdirde ayrı yazılır. Kurallı birleşik fiiller (yeterlik, tezlik, sürerlik, yaklaşma) her zaman bitişik yazılır.",
+    "examples": [
+      "Hissetmek (ses düşmesi/türemesi), fark etmek (ayrı)",
+      "Gidebilmek (yeterlik), düşeyazmak (yaklaşma)"
+    ],
+    "relatedTerms": [
+      "Bitişik Yazılan Birleşik Kelimeler",
+      "İkinci Kelimesi Anlam Kaybına Uğrayan Birleşik Kelimeler"
+    ],
+    "order": 115
+  },
+  {
+    "id": "ay_ve_gun_adlarinin_yazimi",
+    "term": "Ay ve Gün Adlarının Yazımı",
+    "definition": "Belirli bir tarihle birlikte kullanılan ay ve gün adları büyük harfle başlar. Belirli bir tarih bildirmeyen ay ve gün adları küçük harfle yazılır.",
+    "examples": [
+      "29 Ekim 1923 Salı günü (büyük)",
+      "Her salı toplantı yaparız (küçük)"
+    ],
+    "relatedTerms": [
+      "Belirli Tarih Belirten Gün ve Ay Adları",
+      "Tarihi Olay, Çağ ve Dönem Adları",
+      "Unvan ve Makam Adlarının Büyük Yazımı"
+    ],
+    "order": 116
+  },
+  {
+    "id": "buyuk_harflerin_kullanildigi_yerler",
+    "term": "Büyük Harflerin Kullanıldığı Yerler (Genel)",
+    "definition": "Cümle başları, özel adlar, unvanlar, millet, dil, din adları, gezegen ve yıldız adları büyük harfle başlar. Ayrıca belirli kanun, tüzük, yönetmelik adları ve kurum, kuruluş adları da büyük harfle yazılır.",
+    "examples": [
+      "Türk Dili ve Edebiyatı (özel ad)",
+      "Ayşe Hanım (unvan)",
+      "Mars (gezegen)"
+    ],
+    "relatedTerms": [
+      "Özel Adlardan Türetilen Kelimeler",
+      "Yer Adlarında Büyük Harf",
+      "Unvan ve Makam Adlarının Büyük Yazımı"
+    ],
+    "order": 117
+  },
+  {
+    "id": "kesme_isaretinin_kullanimi",
+    "term": "Kesme İşaretinin Kullanımı",
+    "definition": "Özel adlara gelen çekim eklerini ayırmak için kullanılır. Kısaltmalara getirilen ekleri, sayılara getirilen ekleri ve belli bir harf veya ekten sonra gelen ekleri ayırmada da görev alır.",
+    "examples": [
+      "Ankara'ya (özel ad)",
+      "TBMM'nin (kısaltma)",
+      "1990'lı yıllar (sayı)"
+    ],
+    "relatedTerms": [
+      "Kesme İşaretinin Kullanılmadığı Durumlar",
+      "Kısaltmalarda Eklerin Getirilmesi",
+      "Özel Adlarda Kısaltmaların Yazımı"
+    ],
+    "order": 118
+  },
+  {
+    "id": "noktali_virgulun_kullanimi",
+    "term": "Noktalı Virgülün Kullanımı",
+    "definition": "Cümle içinde virgüllerle ayrılmış tür veya takımları birbirinden ayırmak için kullanılır. Ögeleri arasında virgül bulunan sıralı cümleleri ayırmada da görev alır. Cümleleri anlam karışıklığı olmadan düzenler.",
+    "examples": [
+      "Erkek çocuklara Ali, Can, Emre; kız çocuklara Ayşe, Elif, Zeynep adları verildi.",
+      "At ölür, meydan kalır; yiğit ölür, şan kalır."
+    ],
+    "relatedTerms": [
+      "Virgülün Öznede Kullanımı",
+      "İki Noktanın Kullanımı",
+      "Üç Noktanın Kullanımı"
+    ],
+    "order": 119
+  },
+  {
+    "id": "tirenin_kullanimi",
+    "term": "Tirenin (Kısa Çizginin) Kullanımı",
+    "definition": "Satır sonuna sığmayan kelimeleri bölmede, ara sözleri veya ara cümleleri ayırmada kullanılır. Kelimelerin köklerini, eklerini ayırmada ve fiil kök veya gövdelerini göstermede de görev alır.",
+    "examples": [
+      "kitap-lık (satır sonu)",
+      "Bu konuyu -çok önemliydi- tekrar gözden geçirelim.",
+      "gel- (fiil kökü)"
+    ],
+    "relatedTerms": [
+      "Kısa Çizginin Satır Sonu Kullanımı",
+      "Kısa Çizginin Ara Sözlerde Kullanımı",
+      "Pekiştirme ve İkilemelerde Kısa Çizgi Kullanımı"
+    ],
+    "order": 120
+  },
+  {
+    "id": "parantez_yay_ayracin_kullanimi",
+    "term": "Parantez (Yay Ayraç) Kullanımı",
+    "definition": "Cümledeki anlamı tamamlayan ve cümlenin dışında kalan ek bilgiler için kullanılır. Tiyatro eserlerinde konuşanın hareketlerini, durumunu açıklamak ve alıntıların kaynağını göstermek için de görev alır.",
+    "examples": [
+      "Anadolu'nun birçok yeri (özellikle İç Anadolu) gezmeye değerdir.",
+      "Yunus Emre (1240-1320) Anadolu'nun önemli şairlerindendir."
+    ],
+    "relatedTerms": [
+      "Tırnak İşaretinin Kullanımı",
+      "Alıntıların Noktalanması"
+    ],
+    "order": 121
+  },
+  {
+    "id": "noktanin_kullanimi",
+    "term": "Noktanın Kullanımı",
+    "definition": "Tamamlanmış cümlelerin sonuna konur. Bazı kısaltmaların sonuna, sıra sayılarını belirtmek için rakamlardan sonra ve tarihlerin yazımında gün, ay, yıl arasına konur.",
+    "examples": [
+      "Bugün hava çok güzeldi.",
+      "Dr. (doktor)",
+      "15.05.2023"
+    ],
+    "relatedTerms": [
+      "Virgülün Öznede Kullanımı",
+      "İki Noktanın Kullanımı",
+      "Üç Noktanın Kullanımı"
+    ],
+    "order": 122
+  },
+  {
+    "id": "edebi_eser_adlarinin_yazimi",
+    "term": "Edebi Eser Adlarının Yazımı",
+    "definition": "Kitap, dergi, gazete, tablo, heykel vb. eserlerin her kelimesi büyük harfle başlar. Ancak aradaki bağlaçlar ve edatlar küçük harfle yazılır. Eser adları tırnak içine alınabilir veya italik yazılabilir.",
+    "examples": [
+      "Nutuk",
+      "Milliyet Gazetesi",
+      "Suç ve Ceza"
+    ],
+    "relatedTerms": [
+      "Kitap ve Dergi Adlarının Yazımı",
+      "Tırnak İşaretinin Kullanımı"
+    ],
+    "order": 123
+  },
+  {
+    "id": "pekiştirme_kelimelerin_yazimi",
+    "term": "Pekiştirme Kelimelerin Yazımı",
+    "definition": "Pekiştirme sıfatları ve zarfları genellikle bitişik yazılır. 'M' sesiyle yapılan pekiştirmeler de bu kurala uyar.",
+    "examples": [
+      "Tertemiz (sıfat)",
+      "Masmasmavi (sıfat)",
+      "Sapsarı (sıfat)"
+    ],
+    "relatedTerms": [
+      "Pekiştirilmiş Kelimelerin Yazımı",
+      "İkilemelerde Noktalama İşareti Yasağı",
+      "Pekiştirme ve İkilemelerde Kısa Çizgi Kullanımı"
+    ],
+    "order": 124
+  },
+  {
+    "id": "pekiştirme_sözcüklerinin_yazimi",
+    "term": "Pekiştirme Sözcüklerinin Yazımı",
+    "definition": "M, P, R, S ünsüzleriyle yapılan pekiştirmeler bitişik yazılır. İkileme yoluyla yapılan pekiştirmeler ise ayrı yazılır.",
+    "examples": [
+      "Tertemiz, sapsarı, yemyeşil.",
+      "Güzel güzel, ağır ağır."
+    ],
+    "relatedTerms": [
+      "İkilemelerde Noktalama İşareti Yasağı",
+      "Pekiştirilmiş Kelimelerin Yazımı",
+      "İkilemelerin Yazımı"
+    ],
+    "order": 125
+  },
+  {
+    "id": "de_da_baglacinin_yazimi",
+    "term": "De/Da Bağlacının Yazımı",
+    "definition": "Bağlaç olan 'de/da' her zaman ayrı yazılır ve cümleden çıkarıldığında anlam bozulmaz. Bulunma hâl eki olan '-de/-da' ise bitişik yazılır ve cümleden çıkarıldığında anlam bozulur.",
+    "examples": [
+      "Sen de gel, ben de geleyim.",
+      "Evde kal, okulda bekle."
+    ],
+    "relatedTerms": [
+      "Bağlaç Olan De/Da'nın Yazımı",
+      "Bağlaçların Yazımı",
+      "Eklerin Yazımı"
+    ],
+    "order": 126
+  },
+  {
+    "id": "büyük_harflerin_kullanildigi_yerler",
+    "term": "Büyük Harflerin Kullanıldığı Yerler",
+    "definition": "Cümle başları, özel adlar, unvanlar, millet, dil, din adları, gezegen ve yıldız adları, belirli tarih bildiren ay ve gün adları büyük harfle başlar. Kitap, dergi, gazete adları ve başlıklar da büyük harfle yazılır.",
+    "examples": [
+      "Türk Dili ve Edebiyatı, 29 Ekim Cumhuriyet Bayramı.",
+      "Milliyet Gazetesi, Vatan Yahut Silistre."
+    ],
+    "relatedTerms": [
+      "Özel Adların Yazımı",
+      "Unvan ve Makam Adlarının Büyük Yazımı",
+      "Belirli Tarih Belirten Gün ve Ay Adları"
+    ],
+    "order": 127
+  },
+  {
+    "id": "denden_isaretinin_kullanimi",
+    "term": "Denden İşaretinin Kullanımı",
+    "definition": "Bir yazı veya listede aynı sözcüklerin veya söz gruplarının tekrar yazılmasını önlemek için kullanılır. Alt alta gelen aynı kelimelerin yerine konur.",
+    "examples": [
+      "Türkçe dersi: 3 saat",
+      "Matematik  : 4 saat"
+    ],
+    "relatedTerms": [
+      "Noktalama İşaretleri",
+      "Kısaltmaların Yazımı",
+      "Liste Oluşturma"
+    ],
+    "order": 128
+  },
+  {
+    "id": "parantez_isaretinin_kullanimi",
+    "term": "Parantez İşaretinin Kullanımı",
+    "definition": "Cümledeki anlamı tamamlayan ve cümlenin dışında kalan ek bilgiler için kullanılır. Özel veya cins isme ait açıklamalar, alıntıların kaynakları ve tiyatro metinlerinde hareketleri belirtmek için kullanılır.",
+    "examples": [
+      "Anadolu'nun (Küçük Asya) birçok medeniyete ev sahipliği yaptığı bilinir.",
+      "Yunus Emre (1240?-1320) Anadolu'nun önemli şairlerindendir."
+    ],
+    "relatedTerms": [
+      "Kısa Çizginin Ara Sözlerde Kullanımı",
+      "Tırnak İşaretinin Kullanımı",
+      "Köşeli Ayraç"
+    ],
+    "order": 129
+  },
+  {
+    "id": "dogrudan_anlatimda_virgul",
+    "term": "Doğrudan Anlatımda Virgül",
+    "definition": "Başka bir kimseden veya yazıdan olduğu gibi aktarılan sözlerin tırnak içine alınmadığı durumlarda alıntı cümle bittikten sonra virgül kullanılır. Bu virgül, alıntıyı belirten fiilden önce gelir.",
+    "examples": [
+      "Yarın geleceğim, dedi.",
+      "Bu konuyu tekrar görüşelim, diye ekledi."
+    ],
+    "relatedTerms": [
+      "Virgülün Kullanımı",
+      "Tırnak İşaretinin Kullanımı",
+      "Alıntıların Noktalanması"
+    ],
+    "order": 130
+  },
+  {
+    "id": "virgülün_farkli_gorevleri",
+    "term": "Virgülün Farklı Görevleri",
+    "definition": "Virgül, eş görevli kelime ve kelime gruplarını ayırma, sıralı cümleleri ayırma, ara sözleri belirtme ve anlam karışıklığını giderme gibi çeşitli görevlerde kullanılır. Kullanım amacı cümlenin yapısına göre değişiklik gösterir.",
+    "examples": [
+      "Ali, Ayşe, Can ve Elif sinemaya gitti.",
+      "O, bu konuda çok başarılıydı."
+    ],
+    "relatedTerms": [
+      "Noktalı Virgülün Kullanımı",
+      "Noktanın Kullanımı",
+      "Doğrudan Anlatımda Virgül"
+    ],
+    "order": 131
+  },
+  {
+    "id": "ünlem_işaretinin_kullanimi",
+    "term": "Ünlem İşaretinin Kullanımı",
+    "definition": "Ünlem işareti, sevinç, korku, şaşkınlık, acı gibi ani ve şiddetli duyguları anlatan cümlelerin sonuna konur. Ayrıca seslenme, hitap ve uyarı sözlerinden sonra da kullanılır.",
+    "examples": [
+      "Eyvah, geç kaldım!",
+      "Dur, yolcu!"
+    ],
+    "relatedTerms": [
+      "Soru Ekinin Bağlamı",
+      "Noktanın Kullanımı"
+    ],
+    "order": 132
+  },
+  {
+    "id": "alıntı_işaretinin_kullanımı",
+    "term": "Alıntı İşaretinin Kullanımı",
+    "definition": "Başka bir kimseden veya yazıdan olduğu gibi aktarılan sözler tırnak içine alınır. Tırnak içine alınan sözlerden sonra gelen ekler tırnak dışına yazılır.",
+    "examples": [
+      "Atatürk'ün 'Hayatta en hakiki mürşit ilimdir.' sözü, yolumuzu aydınlatır.",
+      "Öğretmenimiz, 'Derslerinize düzenli çalışın.' dedi."
+    ],
+    "relatedTerms": [
+      "Doğrudan Anlatımda Virgül",
+      "Parantez (Yay Ayraç) Kullanımı"
+    ],
+    "order": 133
+  },
+  {
+    "id": "de_da_baglacinin_ayrimi",
+    "term": "De/Da Bağlacının Ayırımı",
+    "definition": "Türkçede 'de/da' iki farklı görevde kullanılır: bağlaç ve ek. Bağlaç olan 'de/da' her zaman ayrı yazılır ve cümleden çıkarıldığında anlam bozulmaz. Ek olan '-de/-da' ise bitişik yazılır ve cümleden çıkarıldığında anlam bozulur.",
+    "examples": [
+      "Sen de gelmelisin. (Bağlaç)",
+      "Evde kimse yoktu. (Ek)"
+    ],
+    "relatedTerms": [
+      "Bağlaç Olan De/Da'nın Yazımı",
+      "Ek Olan Ki'nin Yazımı"
+    ],
+    "order": 134
+  },
+  {
+    "id": "ki_baglacinin_ayrimi",
+    "term": "Ki Bağlacının Ayırımı",
+    "definition": "Türkçede 'ki' bağlaç, zamir veya sıfat yapım eki olarak kullanılabilir. Bağlaç olan 'ki' ayrı yazılır ve cümleden çıkarıldığında anlamda büyük bir bozukluk olmaz. Ek olan '-ki' ise bitişik yazılır ve aitlik veya sıfat görevi görür.",
+    "examples": [
+      "Biliyorum ki sen de haklısın. (Bağlaç)",
+      "Evdeki hesap çarşıya uymadı. (Ek - sıfat yapan)",
+      "Seninki daha güzel. (Ek - zamir olan)"
+    ],
+    "relatedTerms": [
+      "Ek Olan Ki'nin Yazımı",
+      "Bağlaç Olan De/Da'nın Yazımı"
+    ],
+    "order": 135
   }
 ]

@@ -710,5 +710,370 @@
       "Standart Sapma"
     ],
     "order": 48
+  },
+  {
+    "id": "rassal_deney",
+    "term": "Rassal Deney",
+    "definition": "Sonucu önceden kesin olarak bilinemeyen, ancak olası tüm sonuçları bilinen ve her tekrarlandığında aynı koşullar altında yapılan deneylerdir.",
+    "examples": [
+      "Bir zarın atılması.",
+      "Bir madeni paranın yazı-tura gelmesi."
+    ],
+    "relatedTerms": [
+      "Örneklem Uzayı",
+      "Olay",
+      "Olasılık"
+    ],
+    "order": 49
+  },
+  {
+    "id": "dağılım_fonksiyonu",
+    "term": "Dağılım Fonksiyonu (Kümülatif Dağılım Fonksiyonu)",
+    "definition": "Bir rassal değişkenin belirli bir değerden küçük veya eşit olma olasılığını veren fonksiyondur. F(x) = P(X ≤ x) şeklinde gösterilir.",
+    "examples": [
+      "Bir öğrencinin sınavdan 70 veya daha az puan alma olasılığı.",
+      "Bir ürünün ömrünün 5 yıldan az olma olasılığı."
+    ],
+    "relatedTerms": [
+      "Olasılık Yoğunluk Fonksiyonu",
+      "Olasılık Kütle Fonksiyonu",
+      "Rassal Değişken"
+    ],
+    "order": 50
+  },
+  {
+    "id": "olasılık_kütle_fonksiyonu",
+    "term": "Olasılık Kütle Fonksiyonu (OKF)",
+    "definition": "Kesikli bir rassal değişkenin belirli bir değeri alma olasılığını veren fonksiyondur. Her bir x değeri için P(X=x) olasılığını belirtir.",
+    "examples": [
+      "Bir zar atıldığında 3 gelme olasılığı.",
+      "Bir ailenin 2 erkek çocuğu olma olasılığı."
+    ],
+    "relatedTerms": [
+      "Kesikli Rassal Değişken",
+      "Dağılım Fonksiyonu",
+      "Beklenen Değer"
+    ],
+    "order": 51
+  },
+  {
+    "id": "olasılık_yoğunluk_fonksiyonu",
+    "term": "Olasılık Yoğunluk Fonksiyonu (OYF)",
+    "definition": "Sürekli bir rassal değişkenin belirli bir aralıkta değer alma olasılığını gösteren fonksiyondur. Fonksiyonun belirli bir aralıktaki integrali, o aralıktaki olasılığı verir.",
+    "examples": [
+      "Bir öğrencinin boyunun 1.70 ile 1.80 arasında olma olasılığı.",
+      "Bir pilin ömrünün 100 ile 120 saat arasında olma olasılığı."
+    ],
+    "relatedTerms": [
+      "Sürekli Rassal Değişken",
+      "Dağılım Fonksiyonu",
+      "Normal Dağılım"
+    ],
+    "order": 52
+  },
+  {
+    "id": "güvenilirlik_düzeyi",
+    "term": "Güvenilirlik Düzeyi (Güven Düzeyi)",
+    "definition": "Bir parametrenin belirli bir aralıkta yer alacağına olan inancımızın yüzdesel ifadesidir. Genellikle %90, %95, %99 gibi değerler alır.",
+    "examples": [
+      "Bir anketin %95 güven düzeyinde yapılması.",
+      "Bir makine parçasının %99 güven düzeyinde çalışması."
+    ],
+    "relatedTerms": [
+      "Güven Aralığı",
+      "Anlamlılık Düzeyi",
+      "Hipotez Testi"
+    ],
+    "order": 53
+  },
+  {
+    "id": "anlamlılık_düzeyi",
+    "term": "Anlamlılık Düzeyi (Alfa)",
+    "definition": "Hipotez testlerinde, boş hipotezin reddedilmesi için kabul edilen hata payıdır. Genellikle α ile gösterilir ve %1, %5, %10 gibi değerler alır.",
+    "examples": [
+      "Bir ilacın etkisinin testinde %5 anlamlılık düzeyi kullanılması.",
+      "İki grubun ortalamaları arasındaki farkın testinde α=0.01 seçilmesi."
+    ],
+    "relatedTerms": [
+      "Hipotez Testi",
+      "Güvenilirlik Düzeyi",
+      "p-değeri"
+    ],
+    "order": 54
+  },
+  {
+    "id": "p_degeri",
+    "term": "p-değeri",
+    "definition": "Hipotez testlerinde, boş hipotezin doğru olduğu varsayımı altında, gözlenen örneklem sonucunun veya daha uç bir sonucun elde edilme olasılığıdır. p-değeri anlamlılık düzeyinden küçükse boş hipotez reddedilir.",
+    "examples": [
+      "Bir araştırmada p-değerinin 0.03 çıkması, boş hipotezin reddedilmesini sağlar (α=0.05 için).",
+      "İki ürünün satış farkının p-değeri 0.12 ise, fark istatistiksel olarak anlamlı değildir (α=0.05 için)."
+    ],
+    "relatedTerms": [
+      "Hipotez Testi",
+      "Anlamlılık Düzeyi",
+      "Boş Hipotez"
+    ],
+    "order": 55
+  },
+  {
+    "id": "boş_hipotez",
+    "term": "Boş Hipotez (H0)",
+    "definition": "İstatistiksel hipotez testlerinde, araştırılan etki veya farkın olmadığını iddia eden hipotezdir. Genellikle 'fark yoktur', 'ilişki yoktur' gibi ifadelerle kurulur.",
+    "examples": [
+      "Yeni bir ilacın eski ilaçtan farkı yoktur.",
+      "İki grubun ortalama puanları arasında fark yoktur."
+    ],
+    "relatedTerms": [
+      "Alternatif Hipotez",
+      "Hipotez Testi",
+      "Anlamlılık Düzeyi"
+    ],
+    "order": 56
+  },
+  {
+    "id": "alternatif_hipotez",
+    "term": "Alternatif Hipotez (H1 veya Ha)",
+    "definition": "İstatistiksel hipotez testlerinde, boş hipotezin reddedilmesi durumunda kabul edilen hipotezdir. Araştırılan etki veya farkın var olduğunu iddia eder.",
+    "examples": [
+      "Yeni bir ilaç eski ilaçtan daha etkilidir.",
+      "İki grubun ortalama puanları arasında fark vardır."
+    ],
+    "relatedTerms": [
+      "Boş Hipotez",
+      "Hipotez Testi",
+      "p-değeri"
+    ],
+    "order": 57
+  },
+  {
+    "id": "tip_i_hata",
+    "term": "Tip I Hata (Alfa Hatası)",
+    "definition": "Hipotez testlerinde, boş hipotez doğru olduğu halde reddedilmesi durumunda yapılan hatadır. Olasılığı anlamlılık düzeyi (α) ile gösterilir.",
+    "examples": [
+      "Etkisiz bir ilacın etkili olduğuna karar vermek.",
+      "İki grup arasında fark yokken fark olduğuna karar vermek."
+    ],
+    "relatedTerms": [
+      "Tip II Hata",
+      "Anlamlılık Düzeyi",
+      "Hipotez Testi"
+    ],
+    "order": 58
+  },
+  {
+    "id": "tip_ii_hata",
+    "term": "Tip II Hata (Beta Hatası)",
+    "definition": "Hipotez testlerinde, boş hipotez yanlış olduğu halde reddedilmemesi durumunda yapılan hatadır. Olasılığı β ile gösterilir.",
+    "examples": [
+      "Etkili bir ilacın etkisiz olduğuna karar vermek.",
+      "İki grup arasında fark varken fark olmadığına karar vermek."
+    ],
+    "relatedTerms": [
+      "Tip I Hata",
+      "Testin Gücü",
+      "Hipotez Testi"
+    ],
+    "order": 59
+  },
+  {
+    "id": "serbestlik_derecesi",
+    "term": "Serbestlik Derecesi (sd veya df)",
+    "definition": "Bir istatistiksel hesaplamada bağımsız olarak değişebilen veri sayısını ifade eder. Örneklem büyüklüğü ve parametre sayısına bağlı olarak değişir.",
+    "examples": [
+      "n gözlemli bir örneklem için ortalama hesaplamasında n-1 serbestlik derecesi.",
+      "Ki-kare testinde (satır-1)*(sütun-1) serbestlik derecesi."
+    ],
+    "relatedTerms": [
+      "t-Dağılımı",
+      "Ki-Kare Dağılımı",
+      "F-Dağılımı"
+    ],
+    "order": 60
+  },
+  {
+    "id": "kesikli_rassal_degisken",
+    "term": "Kesikli Rassal Değişken",
+    "definition": "Belirli bir aralıktaki sayılabilir sayıda değer alabilen rassal değişkendir. Genellikle sayma işlemleri sonucunda ortaya çıkar.",
+    "examples": [
+      "Bir sınıftaki öğrenci sayısı",
+      "Bir zarın atılması sonucu gelen sayı",
+      "Bir günde hastaneye başvuran hasta sayısı"
+    ],
+    "relatedTerms": [
+      "Sürekli Rassal Değişken",
+      "Olasılık Dağılımı",
+      "Beklenen Değer"
+    ],
+    "order": 61
+  },
+  {
+    "id": "surekli_rassal_degisken",
+    "term": "Sürekli Rassal Değişken",
+    "definition": "Belirli bir aralıkta sonsuz sayıda değer alabilen rassal değişkendir. Ölçme işlemleri sonucunda ortaya çıkar ve ondalıklı değerler alabilir.",
+    "examples": [
+      "Bir öğrencinin boyu",
+      "Bir ürünün ağırlığı",
+      "Bir sınavda alınan puan"
+    ],
+    "relatedTerms": [
+      "Kesikli Rassal Değişken",
+      "Olasılık Yoğunluk Fonksiyonu",
+      "Beklenen Değer"
+    ],
+    "order": 62
+  },
+  {
+    "id": "olasılık_dağılımı",
+    "term": "Olasılık Dağılımı",
+    "definition": "Bir rassal değişkenin alabileceği her bir değere karşılık gelen olasılıkları gösteren fonksiyondur. Kesikli ve sürekli rassal değişkenler için farklı formları vardır.",
+    "examples": [
+      "Bir zarın atılması sonucu her bir yüzün gelme olasılıkları",
+      "Bir madeni paranın 3 kez atılması sonucu yazı gelme sayısı olasılıkları"
+    ],
+    "relatedTerms": [
+      "Kesikli Rassal Değişken",
+      "Sürekli Rassal Değişken",
+      "Olasılık Yoğunluk Fonksiyonu"
+    ],
+    "order": 63
+  },
+  {
+    "id": "kümülatif_dağılım_fonksiyonu",
+    "term": "Kümülatif Dağılım Fonksiyonu (KDF)",
+    "definition": "Bir rassal değişkenin belirli bir değerden küçük veya eşit olma olasılığını veren fonksiyondur. Hem kesikli hem de sürekli rassal değişkenler için tanımlanabilir.",
+    "examples": [
+      "Bir sınavda 70 puandan az alan öğrenci olasılığı",
+      "Bir ürünün ömrünün 5 yıldan az olma olasılığı"
+    ],
+    "relatedTerms": [
+      "Olasılık Dağılımı",
+      "Olasılık Yoğunluk Fonksiyonu",
+      "Medyan"
+    ],
+    "order": 64
+  },
+  {
+    "id": "merkezi_limit_teoremi",
+    "term": "Merkezi Limit Teoremi",
+    "definition": "Yeterince büyük örneklemler alındığında, anakütle dağılımı ne olursa olsun örneklem ortalamalarının dağılımının normale yakın olacağını belirten önemli bir teoremdir. İstatistiksel çıkarım için temel oluşturur.",
+    "examples": [
+      "Çok sayıda farklı anakütleden alınan örneklem ortalamalarının histogramının çan eğrisi şeklinde olması",
+      "Büyük örneklemlerle tahmin edilen anakütle ortalamasının dağılımının normal dağılıma uyması"
+    ],
+    "relatedTerms": [
+      "Normal Dağılım",
+      "Örneklem Dağılımı",
+      "Hipotez Testi"
+    ],
+    "order": 65
+  },
+  {
+    "id": "hipotez_testi",
+    "term": "Hipotez Testi",
+    "definition": "Bir anakütle parametresi hakkında yapılan iddiaların (hipotezlerin) örneklem verileri kullanılarak istatistiksel olarak doğrulanması veya reddedilmesi sürecidir. Sıfır hipotezi ve alternatif hipotez olmak üzere iki ana hipotez içerir.",
+    "examples": [
+      "Yeni bir ilacın mevcut ilaçtan daha etkili olup olmadığını test etmek",
+      "İki farklı öğretim yönteminin öğrenci başarısı üzerindeki etkilerini karşılaştırmak"
+    ],
+    "relatedTerms": [
+      "Sıfır Hipotezi",
+      "Alternatif Hipotez",
+      "p-değeri",
+      "Anlamlılık Düzeyi"
+    ],
+    "order": 66
+  },
+  {
+    "id": "sıfır_hipotezi",
+    "term": "Sıfır Hipotezi (H0)",
+    "definition": "Hipotez testinde test edilen temel varsayımdır. Genellikle 'fark yoktur', 'ilişki yoktur' veya 'etki yoktur' gibi bir durumu ifade eder.",
+    "examples": [
+      "Yeni ilacın mevcut ilaçla aynı etkiye sahip olduğu",
+      "İki öğretim yönteminin öğrenci başarısı üzerinde bir fark yaratmadığı"
+    ],
+    "relatedTerms": [
+      "Alternatif Hipotez",
+      "Hipotez Testi",
+      "p-değeri"
+    ],
+    "order": 67
+  },
+  {
+    "id": "testin_gücü",
+    "term": "Testin Gücü (1-Beta)",
+    "definition": "Yanlış olan sıfır hipotezini doğru bir şekilde reddetme olasılığıdır. Testin gücü arttıkça, Tip II hata yapma olasılığı azalır. Örneklem büyüklüğü ve etki büyüklüğü testin gücünü etkiler.",
+    "examples": [
+      "Bir testin gücü %80 ise, yanlış olan sıfır hipotezini reddetme olasılığı %80'dir.",
+      "Daha büyük örneklem kullanmak testin gücünü artırabilir."
+    ],
+    "relatedTerms": [
+      "Tip II Hata",
+      "Hipotez Testi",
+      "Örneklem Büyüklüğü"
+    ],
+    "order": 68
+  },
+  {
+    "id": "regresyon_analizi",
+    "term": "Regresyon Analizi",
+    "definition": "İki veya daha fazla değişken arasındaki ilişkiyi modellemek ve bir değişkenin diğer değişken(ler) üzerindeki etkisini tahmin etmek için kullanılan istatistiksel bir yöntemdir. Bağımlı ve bağımsız değişkenler arasındaki ilişkiyi inceler.",
+    "examples": [
+      "Bir öğrencinin ders çalışma süresi ile sınav notu arasındaki ilişkiyi tahmin etmek",
+      "Bir evin büyüklüğü ile satış fiyatı arasındaki ilişkiyi modellemek"
+    ],
+    "relatedTerms": [
+      "Korelasyon Katsayısı",
+      "Bağımlı Değişken",
+      "Bağımsız Değişken",
+      "Doğrusal Regresyon"
+    ],
+    "order": 69
+  },
+  {
+    "id": "merkezi_egilim_olculeri",
+    "term": "Merkezi Eğilim Ölçüleri",
+    "definition": "Bir veri setindeki verilerin hangi değer etrafında toplandığını gösteren istatistiksel ölçülerdir. Veri setinin 'merkezini' tanımlamaya yardımcı olurlar.",
+    "examples": [
+      "Aritmetik ortalama, medyan ve mod en bilinen merkezi eğilim ölçüleridir.",
+      "Bir sınıfın sınav notlarının ortalaması, o sınıfın genel başarı seviyesini gösterir."
+    ],
+    "relatedTerms": [
+      "Aritmetik Ortalama",
+      "Medyan",
+      "Mod",
+      "Yayılım Ölçüleri"
+    ],
+    "order": 70
+  },
+  {
+    "id": "olasılık_fonksiyonu",
+    "term": "Olasılık Fonksiyonu",
+    "definition": "Kesikli bir rassal değişkenin belirli bir değeri alma olasılığını veren fonksiyondur. Her bir olası çıktının olasılığını listeler. Tüm olasılıkların toplamı 1'e eşit olmalıdır.",
+    "examples": [
+      "Bir zar atışında her bir sayının (1, 2, 3, 4, 5, 6) gelme olasılığı 1/6'dır; bu bir olasılık fonksiyonudur.",
+      "Bir madeni paranın iki kez atılması durumunda 'Tura' sayısının olasılık fonksiyonu."
+    ],
+    "relatedTerms": [
+      "Kesikli Rassal Değişken",
+      "Olasılık Dağılımı",
+      "Beklenen Değer"
+    ],
+    "order": 71
+  },
+  {
+    "id": "parametrik_testler",
+    "term": "Parametrik Testler",
+    "definition": "Verilerin belirli bir dağılıma (genellikle normal dağılım) sahip olduğu ve anakütle parametreleri hakkında varsayımlar yapıldığı istatistiksel testlerdir. Daha güçlü sonuçlar verirler ancak veri dağılımı ve varyans homojenliği gibi varsayımların karşılanmasını gerektirirler. Örneklem büyüklüğü genellikle daha büyük olmalıdır.",
+    "examples": [
+      "İki grup ortalamasını karşılaştırmak için kullanılan t-testi parametrik bir testtir.",
+      "Üç veya daha fazla grup ortalamasını karşılaştırmak için kullanılan ANOVA testi."
+    ],
+    "relatedTerms": [
+      "Non-parametrik Testler",
+      "Hipotez Testi",
+      "Normal Dağılım"
+    ],
+    "order": 72
   }
 ]

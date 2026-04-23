@@ -1586,5 +1586,460 @@
       "Sanayi Yatırımı Teşvikleri"
     ],
     "order": 99
+  },
+  {
+    "id": "bolgesel_kalkinma_farkliliklari",
+    "term": "Bölgesel Kalkınma Farklılıkları",
+    "definition": "Türkiye'de bölgeler arası ekonomik ve sosyal gelişmişlik düzeylerindeki farklılıkları ifade eder. Bu farklılıklar, coğrafi koşullar, kaynak dağılımı ve uygulanan politikalar sonucunda ortaya çıkar.",
+    "examples": [
+      "Doğu Anadolu Bölgesi'nin sosyo-ekonomik gelişmişlik düzeyinin Marmara Bölgesi'ne göre daha düşük olması.",
+      "GAP projesi ile Güneydoğu Anadolu Bölgesi'nin kalkınma hızının artırılması hedeflenmesi."
+    ],
+    "relatedTerms": [
+      "Bölgesel Eşitsizlikler",
+      "Kalkınma Ajansları",
+      "Bölgesel Politikalar"
+    ],
+    "order": 100
+  },
+  {
+    "id": "tarimsal_urun_deseni",
+    "term": "Tarımsal Ürün Deseni",
+    "definition": "Bir bölgede veya ülkede yetiştirilen tarım ürünlerinin türleri ve bunların üretimdeki paylarını gösteren yapıdır. İklim, toprak yapısı ve pazar koşulları bu deseni belirler.",
+    "examples": [
+      "Akdeniz Bölgesi'nde turunçgil ve seracılık ürünlerinin yoğun olması.",
+      "İç Anadolu Bölgesi'nde buğday ve arpa üretiminin öne çıkması."
+    ],
+    "relatedTerms": [
+      "İklim Kuşakları",
+      "Toprak Tipleri",
+      "Tarımsal Coğrafya"
+    ],
+    "order": 101
+  },
+  {
+    "id": "ulasim_aglari_ve_ekonomi",
+    "term": "Ulaşım Ağları ve Ekonomi",
+    "definition": "Karayolu, demiryolu, denizyolu ve havayolu gibi ulaşım sistemlerinin ekonomik faaliyetler üzerindeki etkisidir. Mal ve hizmet akışını kolaylaştırarak ticaret ve sanayiyi geliştirir.",
+    "examples": [
+      "İstanbul'un coğrafi konumu sayesinde önemli bir uluslararası ticaret merkezi olması.",
+      "Yeni otoyolların tarımsal ürünlerin pazara ulaşım süresini kısaltması."
+    ],
+    "relatedTerms": [
+      "Lojistik",
+      "Ticaret Yolları",
+      "Altyapı Yatırımları"
+    ],
+    "order": 102
+  },
+  {
+    "id": "kentlesme_ve_ekonomik_etkileri",
+    "term": "Kentleşme ve Ekonomik Etkileri",
+    "definition": "Nüfusun kırsal alanlardan kentlere doğru hareket etmesi ve kentlerde yoğunlaşması sürecidir. Bu durum, hizmet sektörünün büyümesi, sanayileşme ve işgücü piyasasında değişimlere yol açar.",
+    "examples": [
+      "Büyük şehirlerde hizmet sektörünün ve sanayinin gelişmesiyle iş imkanlarının artması.",
+      "Kentlerdeki konut ve altyapı yatırımlarının ekonomik büyümeyi tetiklemesi."
+    ],
+    "relatedTerms": [
+      "Metropol Alanlar",
+      "Kentsel Dönüşüm",
+      "Göç Hareketleri"
+    ],
+    "order": 103
+  },
+  {
+    "id": "balikcilik_ve_su_urunleri",
+    "term": "Balıkçılık ve Su Ürünleri",
+    "definition": "Denizlerde, göllerde ve akarsularda yapılan balık avcılığı ile su ürünleri yetiştiriciliğini kapsar. Türkiye'nin üç tarafının denizlerle çevrili olması bu sektöre potansiyel sunar.",
+    "examples": [
+      "Karadeniz'de hamsi avcılığının yoğun olması.",
+      "Tatlı su balıkçılığının ve alabalık tesislerinin iç bölgelerde yaygınlaşması."
+    ],
+    "relatedTerms": [
+      "Deniz Ticareti",
+      "Kıyı Coğrafyası",
+      "Akuakültür"
+    ],
+    "order": 104
+  },
+  {
+    "id": "orman_urunleri_endustrisi",
+    "term": "Orman Ürünleri Endüstrisi",
+    "definition": "Ormanlardan elde edilen odun ve odun dışı ürünlerin işlenerek ekonomiye kazandırılmasıdır. Mobilya, kağıt ve inşaat sektörleri için hammadde sağlar.",
+    "examples": [
+      "Karadeniz ve Akdeniz bölgelerindeki ormanlardan kereste üretimi.",
+      "Mobilya sanayisinin orman ürünlerine bağımlılığı."
+    ],
+    "relatedTerms": [
+      "Ormancılık",
+      "Ağaçlandırma",
+      "Sürdürülebilir Orman Yönetimi"
+    ],
+    "order": 105
+  },
+  {
+    "id": "hayvancilik_faaliyetleri",
+    "term": "Hayvancılık Faaliyetleri",
+    "definition": "Büyükbaş, küçükbaş ve kümes hayvancılığı başta olmak üzere hayvanların yetiştirilmesi ve bunlardan et, süt, yün gibi ürünlerin elde edilmesidir. Bölgesel iklim ve bitki örtüsü ile ilişkilidir.",
+    "examples": [
+      "Doğu Anadolu'da büyükbaş hayvancılığın yaygın olması.",
+      "İç Anadolu'da küçükbaş hayvancılığın önemli yer tutması."
+    ],
+    "relatedTerms": [
+      "Mera Hayvancılığı",
+      "Besicilik",
+      "Yem Bitkileri"
+    ],
+    "order": 106
+  },
+  {
+    "id": "yer_alti_kaynaklari_dagilimi",
+    "term": "Yer Altı Kaynakları Dağılımı",
+    "definition": "Türkiye'deki madenlerin ve enerji hammaddelerinin coğrafi olarak bulunduğu yerleri ve rezerv miktarlarını ifade eder. Ülke ekonomisi için stratejik öneme sahiptir.",
+    "examples": [
+      "Bor madenlerinin dünya rezervlerinin büyük kısmının Türkiye'de bulunması.",
+      "Zonguldak ve çevresinde taş kömürü yataklarının yoğunlaşması."
+    ],
+    "relatedTerms": [
+      "Maden Yatakları",
+      "Jeolojik Yapı",
+      "Enerji Hammaddeleri"
+    ],
+    "order": 107
+  },
+  {
+    "id": "jeotermal_enerji_potansiyeli",
+    "term": "Jeotermal Enerji Potansiyeli",
+    "definition": "Yer altından çıkan sıcak su ve buhardan elde edilen yenilenebilir enerji kaynağıdır. Türkiye, fay hatları üzerinde bulunması nedeniyle bu potansiyel açısından zengindir.",
+    "examples": [
+      "Denizli Sarayköy'deki jeotermal enerji santrali.",
+      "Afyonkarahisar'da jeotermal suların ısınma ve turizm amaçlı kullanılması."
+    ],
+    "relatedTerms": [
+      "Yenilenebilir Enerji",
+      "Fay Hatları",
+      "Termal Turizm"
+    ],
+    "order": 108
+  },
+  {
+    "id": "ruzgar_enerjisi_potansiyeli",
+    "term": "Rüzgar Enerjisi Potansiyeli",
+    "definition": "Rüzgar gücünden elektrik enerjisi üretme kapasitesidir. Türkiye'nin özellikle Ege ve Marmara kıyılarında rüzgar koridorları açısından yüksek potansiyeli bulunmaktadır.",
+    "examples": [
+      "Çanakkale ve İzmir'deki rüzgar enerji santralleri (RES).",
+      "Rüzgar atlası verileriyle uygun alanların belirlenmesi."
+    ],
+    "relatedTerms": [
+      "Yenilenebilir Enerji",
+      "Meteorolojik Veriler",
+      "Enerji Santralleri"
+    ],
+    "order": 109
+  },
+  {
+    "id": "gunes_enerjisi_potansiyeli",
+    "term": "Güneş Enerjisi Potansiyeli",
+    "definition": "Güneş ışınlarından elektrik veya ısı enerjisi üretme kapasitesidir. Türkiye, coğrafi konumu itibarıyla yüksek güneşlenme süresine sahip olup önemli bir potansiyel taşır.",
+    "examples": [
+      "Konya Karapınar'da kurulan büyük ölçekli güneş enerjisi santrali (GES).",
+      "Evlerin çatılarında güneş panellerinin kullanılması."
+    ],
+    "relatedTerms": [
+      "Yenilenebilir Enerji",
+      "Güneşlenme Süresi",
+      "Fotovoltaik Paneller"
+    ],
+    "order": 110
+  },
+  {
+    "id": "sinir_ticareti_ve_ekonomi",
+    "term": "Sınır Ticareti ve Ekonomi",
+    "definition": "Komşu ülkeler arasında sınır bölgelerinde yapılan ticari faaliyetlerdir. Bölgesel ekonomilere canlılık katar ve kültürel etkileşimi artırır.",
+    "examples": [
+      "Güneydoğu Anadolu Bölgesi'nin Suriye ve Irak ile yaptığı sınır ticareti.",
+      "Doğu Karadeniz Bölgesi'nin Gürcistan ile olan ticari ilişkileri."
+    ],
+    "relatedTerms": [
+      "Gümrük Kapıları",
+      "Dış Ticaret",
+      "Bölgesel Kalkınma"
+    ],
+    "order": 111
+  },
+  {
+    "id": "tarimsal_sanayi_entegrasyonu",
+    "term": "Tarımsal Sanayi Entegrasyonu",
+    "definition": "Tarım ürünlerinin işlenerek katma değeri yüksek ürünlere dönüştürülmesi sürecidir. Bu entegrasyon, tarım sektörünün gelişimini destekler ve sanayiye hammadde sağlar.",
+    "examples": [
+      "Şeker pancarından şeker üretimi.",
+      "Domatesin salça veya konserve olarak işlenmesi."
+    ],
+    "relatedTerms": [
+      "Gıda Sanayi",
+      "Tarım Ürünleri İşleme",
+      "Katma Değer"
+    ],
+    "order": 112
+  },
+  {
+    "id": "kalkinmada_oncelikli_bolgeler",
+    "term": "Kalkınmada Öncelikli Bölgeler",
+    "definition": "Ekonomik ve sosyal gelişmişlik düzeyi düşük olan, devlet tarafından özel teşvik ve desteklerle kalkındırılması hedeflenen bölgelerdir. Bölgesel eşitsizlikleri azaltmayı amaçlar.",
+    "examples": [
+      "Doğu ve Güneydoğu Anadolu bölgelerine sağlanan yatırım teşvikleri.",
+      "OSB'lerin (Organize Sanayi Bölgeleri) bu bölgelerde yaygınlaştırılması."
+    ],
+    "relatedTerms": [
+      "Bölgesel Kalkınma Planları",
+      "Teşvik Politikaları",
+      "GAP"
+    ],
+    "order": 113
+  },
+  {
+    "id": "ulasim_aglari_ve_etkileri",
+    "term": "Ulaşım Ağları ve Etkileri",
+    "definition": "Karayolu, demiryolu, denizyolu ve havayolu gibi farklı ulaşım sistemlerinin birbiriyle bağlantılı yapısı ve bu ağların ekonomik, sosyal ve kültürel etkileridir. Ulaşım ağları, bölgeler arası ticaretin, üretimin ve nüfus hareketlerinin temelini oluşturur. KPSS'de ulaşım koridorlarının bölgesel kalkınmaya etkileri ve Türkiye'deki önemli ulaşım projeleri sorulabilir.",
+    "examples": [
+      "Marmaray projesinin İstanbul trafiği ve ulaşımına etkileri.",
+      "Kuzey Anadolu Otoyolu'nun Karadeniz Bölgesi'ne erişimi kolaylaştırması."
+    ],
+    "relatedTerms": [
+      "Lojistik Merkezleri",
+      "Ticaret Yolları",
+      "Altyapı Yatırımları"
+    ],
+    "order": 114
+  },
+  {
+    "id": "kentlesme_ve_cevre_sorunlari",
+    "term": "Kentleşme ve Çevre Sorunları",
+    "definition": "Nüfusun kırsal alanlardan kentlere doğru hareket etmesiyle ortaya çıkan kentleşme sürecinin yol açtığı çevresel problemlerdir. Hava kirliliği, su kirliliği, atık yönetimi, gürültü kirliliği ve yeşil alanların azalması başlıca sorunlardır. KPSS'de kentleşmenin çevresel etkileri ve sürdürülebilir kentleşme politikaları önemli bir konudur.",
+    "examples": [
+      "Büyük şehirlerdeki trafik yoğunluğunun hava kirliliğini artırması.",
+      "Sanayi bölgelerindeki atıkların su kaynaklarını kirletmesi."
+    ],
+    "relatedTerms": [
+      "Sürdürülebilir Kalkınma",
+      "Ekolojik Ayak İzi",
+      "Atık Yönetimi"
+    ],
+    "order": 115
+  },
+  {
+    "id": "sinir_ticareti_ve_ekonomik_etkileri",
+    "term": "Sınır Ticareti ve Ekonomik Etkileri",
+    "definition": "Komşu ülkeler arasında sınır bölgelerinde gerçekleştirilen mal ve hizmet alışverişidir. Bu ticaret, sınır bölgelerinin ekonomisine canlılık katar, istihdam yaratır ve kültürel etkileşimi artırır. KPSS'de Türkiye'nin sınır komşularıyla olan ticaret ilişkileri ve bu ticaretin bölgesel kalkınmaya katkıları incelenir.",
+    "examples": [
+      "Güneydoğu Anadolu Bölgesi'nin Suriye ve Irak ile yaptığı sınır ticareti.",
+      "Doğu Anadolu Bölgesi'nin İran ve Nahçıvan ile olan ticari ilişkileri."
+    ],
+    "relatedTerms": [
+      "Dış Ticaret",
+      "Gümrük Birliği",
+      "Serbest Bölgeler"
+    ],
+    "order": 116
+  },
+  {
+    "id": "iklim_degisikliginin_ekonomik_etkileri",
+    "term": "İklim Değişikliğinin Ekonomik Etkileri",
+    "definition": "Küresel iklim değişikliğinin tarım, sanayi, turizm ve enerji gibi ekonomik sektörler üzerindeki olumsuz ve olumlu yansımalarıdır. Kuraklık, sel, aşırı hava olayları gibi durumlar üretim kayıplarına, altyapı hasarlarına ve maliyet artışlarına yol açar. KPSS'de iklim değişikliğinin Türkiye ekonomisi üzerindeki potansiyel etkileri ve uyum stratejileri sorulabilir.",
+    "examples": [
+      "Kuraklık nedeniyle tarımsal verimdeki düşüşler.",
+      "Deniz seviyesinin yükselmesinin kıyı turizmine etkileri."
+    ],
+    "relatedTerms": [
+      "Küresel Isınma",
+      "Karbon Ayak İzi",
+      "Yenilenebilir Enerji"
+    ],
+    "order": 117
+  },
+  {
+    "id": "demografik_yapi_ve_isgucu",
+    "term": "Demografik Yapı ve İşgücü",
+    "definition": "Bir ülkenin veya bölgenin nüfusunun yaş, cinsiyet, eğitim düzeyi ve mesleki dağılım gibi özelliklerini ifade eden demografik yapının işgücü piyasası üzerindeki etkileridir. Nüfusun yaşlanması, genç işsizliği veya nitelikli işgücü eksikliği gibi durumlar ekonomik büyümeyi etkiler. KPSS'de Türkiye'nin demografik dönüşümü ve bunun işgücü piyasasına yansımaları önemlidir.",
+    "examples": [
+      "Genç ve dinamik nüfusun işgücü piyasasına katkısı.",
+      "Nüfusun yaşlanmasının sosyal güvenlik sistemi üzerindeki baskısı."
+    ],
+    "relatedTerms": [
+      "Nüfus Artış Hızı",
+      "Göç Hareketleri",
+      "İşsizlik Oranları"
+    ],
+    "order": 118
+  },
+  {
+    "id": "kirsaldan_kente_goc_ve_sonuclari",
+    "term": "Kırsaldan Kente Göç ve Sonuçları",
+    "definition": "Kırsal bölgelerde yaşayan insanların daha iyi eğitim, sağlık, iş ve yaşam koşulları arayışıyla kentlere taşınması olayıdır. Bu durum, kentlerde plansız büyümeye, altyapı yetersizliklerine ve sosyal sorunlara yol açarken, kırsal bölgelerde nüfus azalması ve tarımsal üretimin düşmesine neden olabilir. KPSS'de göçün nedenleri, sonuçları ve bölgesel etkileri sıkça sorulan konular arasındadır.",
+    "examples": [
+      "1950'lerden sonra Türkiye'de hızlanan kırsaldan kente göç dalgası.",
+      "Büyük şehirlerin çevresinde oluşan gecekondu bölgeleri."
+    ],
+    "relatedTerms": [
+      "İç Göç",
+      "Kentleşme Oranı",
+      "Bölgesel Gelişmişlik"
+    ],
+    "order": 119
+  },
+  {
+    "id": "cografya_ve_ticaret_yollari",
+    "term": "Coğrafya ve Ticaret Yolları",
+    "definition": "Bir bölgenin veya ülkenin coğrafi konumu, doğal geçitleri, denizlere ve su yollarına erişimi gibi faktörlerin uluslararası ticaret yollarının oluşumu ve gelişimi üzerindeki etkisidir. Tarih boyunca İpek Yolu, Baharat Yolu gibi ticaret yolları coğrafi konumun önemini göstermiştir. KPSS'de Türkiye'nin jeopolitik konumu ve küresel ticaret yollarındaki rolü incelenir.",
+    "examples": [
+      "İstanbul ve Çanakkale Boğazları'nın uluslararası deniz ticaretindeki önemi.",
+      "Türkiye'nin Avrupa ve Asya arasındaki köprü konumu."
+    ],
+    "relatedTerms": [
+      "Jeopolitik Konum",
+      "Boğazlar",
+      "Ulaşım Koridorları"
+    ],
+    "order": 120
+  },
+  {
+    "id": "tarimsal_bolgelendirme",
+    "term": "Tarımsal Bölgelendirme",
+    "definition": "Benzer iklim, toprak, topografya ve ekonomik özelliklere sahip alanların tarımsal üretim potansiyellerine göre gruplandırılmasıdır. Bu bölgelendirme, tarım politikalarının belirlenmesinde ve kaynakların etkin kullanımında rehberlik eder. KPSS'de Türkiye'deki tarım bölgeleri ve bu bölgelerin karakteristik özellikleri sorulabilir.",
+    "examples": [
+      "Karadeniz Bölgesi'nin fındık ve çay tarımı için uygun olması.",
+      "Ege Bölgesi'nin zeytin ve pamuk üretimine elverişli olması."
+    ],
+    "relatedTerms": [
+      "İklim Tipleri",
+      "Toprak Verimliliği",
+      "Tarımsal Ürün Deseni"
+    ],
+    "order": 121
+  },
+  {
+    "id": "sanayi_kurulus_yer_secimi",
+    "term": "Sanayi Kuruluş Yeri Seçimi",
+    "definition": "Bir sanayi tesisinin kurulacağı yerin belirlenmesinde hammadde kaynaklarına yakınlık, pazar, ulaşım olanakları, işgücü, enerji kaynakları ve teşvikler gibi faktörlerin dikkate alınmasıdır. Doğru yer seçimi, işletmenin karlılığı ve rekabet gücü açısından kritik öneme sahiptir. KPSS'de sanayi tesislerinin yer seçimini etkileyen faktörler ve Türkiye'deki sanayi bölgelerinin dağılımı incelenir.",
+    "examples": [
+      "Demir-çelik fabrikalarının demir madenlerine yakın kurulması.",
+      "Otomotiv sanayinin pazara ve yan sanayiye yakın bölgelerde yoğunlaşması."
+    ],
+    "relatedTerms": [
+      "Sanayi Bölgeleri",
+      "Hammadde Kaynakları",
+      "Pazar Ekonomisi"
+    ],
+    "order": 122
+  },
+  {
+    "id": "ekoturizm_ve_kirsal_kalkinma",
+    "term": "Ekoturizm ve Kırsal Kalkınma",
+    "definition": "Doğal alanlara yapılan, çevreyi korumayı ve yerel halkın refahını artırmayı amaçlayan sorumlu turizm türüdür. Kırsal bölgelerde gelir kaynaklarını çeşitlendirerek ve yerel ürünlerin tanıtımını sağlayarak kalkınmaya katkıda bulunur. KPSS'de ekoturizmin kırsal bölgelerdeki potansiyeli ve sürdürülebilir turizm yaklaşımları sorulabilir.",
+    "examples": [
+      "Karadeniz yaylalarında yapılan doğa yürüyüşleri ve konaklama tesisleri.",
+      "Kapadokya'daki balon turları ve yerel el sanatlarının tanıtımı."
+    ],
+    "relatedTerms": [
+      "Sürdürülebilir Turizm",
+      "Kırsal Turizm",
+      "Yerel Ürünler"
+    ],
+    "order": 123
+  },
+  {
+    "id": "bolgesel_tesvik_sistemleri",
+    "term": "Bölgesel Teşvik Sistemleri",
+    "definition": "Devletin, bölgeler arası gelişmişlik farklarını azaltmak ve az gelişmiş bölgelerde yatırımı teşvik etmek amacıyla uyguladığı ekonomik destek ve avantajlar bütünüdür. Vergi indirimleri, faiz destekleri, arsa tahsisi gibi uygulamaları içerir. KPSS'de Türkiye'deki bölgesel teşvik sistemlerinin amaçları, kapsamı ve etkileri sıklıkla sorulur.",
+    "examples": [
+      "Doğu ve Güneydoğu Anadolu Bölgeleri'ne sağlanan cazip yatırım teşvikleri.",
+      "Organize Sanayi Bölgeleri'ndeki yatırım avantajları."
+    ],
+    "relatedTerms": [
+      "Kalkınma Ajansları",
+      "Yatırım Teşvikleri",
+      "Bölgesel Kalkınma"
+    ],
+    "order": 124
+  },
+  {
+    "id": "ekonomik_koridorlar",
+    "term": "Ekonomik Koridorlar",
+    "definition": "Bölgeler veya ülkeler arasında ekonomik faaliyetleri ve ticareti kolaylaştırmak amacıyla oluşturulan, genellikle ulaşım altyapılarıyla desteklenen coğrafi alanlardır. Bu koridorlar, üretimden tüketime kadar tüm tedarik zincirini kapsayabilir ve bölgesel entegrasyonu teşvik eder.",
+    "examples": [
+      "Trans-Anadolu Doğalgaz Boru Hattı (TANAP) güzergahı boyunca gelişen ekonomik faaliyetler.",
+      "İpek Yolu güzergahında tarihi ticaretin canlanması çabaları."
+    ],
+    "relatedTerms": [
+      "Bölgesel Kalkınma",
+      "Ulaşım Ağları",
+      "Ticaret Yolları",
+      "Lojistik"
+    ],
+    "order": 125
+  },
+  {
+    "id": "kentsel_tarim",
+    "term": "Kentsel Tarım",
+    "definition": "Şehir içinde veya çevresinde, gıda üretimi, işlenmesi ve dağıtımını içeren faaliyetlerdir. Sürdürülebilir şehir yaşamını destekler, gıda güvenliğini artırır ve yerel ekonomiye katkıda bulunur.",
+    "examples": [
+      "Şehir merkezindeki boş arazilerde kurulan bostanlar ve hobi bahçeleri.",
+      "Çatılarda veya dikey çiftliklerde sebze-meyve üretimi."
+    ],
+    "relatedTerms": [
+      "Sürdürülebilir Şehirler",
+      "Gıda Güvenliği",
+      "Yerel Ekonomi",
+      "Yeşil Alanlar"
+    ],
+    "order": 126
+  },
+  {
+    "id": "mavi_ekonomi",
+    "term": "Mavi Ekonomi",
+    "definition": "Deniz ve okyanus kaynaklarının sürdürülebilir kullanımı yoluyla ekonomik büyüme, geçim kaynaklarının iyileştirilmesi ve ekosistem sağlığının korunmasını hedefleyen bir yaklaşımdır. Balıkçılık, deniz turizmi, deniz taşımacılığı ve deniz enerjisi gibi sektörleri kapsar.",
+    "examples": [
+      "Deniz rüzgar enerjisi santrallerinin kurulması.",
+      "Sürdürülebilir balıkçılık uygulamaları ve deniz ürünleri yetiştiriciliği."
+    ],
+    "relatedTerms": [
+      "Sürdürülebilir Kalkınma",
+      "Deniz Kaynakları",
+      "Ekoturizm",
+      "Yenilenebilir Enerji"
+    ],
+    "order": 127
+  },
+  {
+    "id": "dijital_gocmenlik",
+    "term": "Dijital Göçmenlik",
+    "definition": "Bireylerin veya şirketlerin, coğrafi konumdan bağımsız olarak uzaktan çalışma imkanlarını kullanarak farklı bir ülkeye veya bölgeye yerleşmesidir. Bu durum, özellikle hizmet sektöründe ve bilgi teknolojileri alanında ekonomik ve demografik değişimlere yol açar.",
+    "examples": [
+      "Avrupa'dan Türkiye'ye gelip uzaktan çalışarak yaşayan yazılımcılar.",
+      "Pandemi sonrası uzaktan çalışma imkanlarının artmasıyla kırsal bölgelere yerleşen beyaz yakalılar."
+    ],
+    "relatedTerms": [
+      "Uzaktan Çalışma",
+      "Beyin Göçü",
+      "Demografik Yapı",
+      "Hizmet Sektörü"
+    ],
+    "order": 128
+  },
+  {
+    "id": "ekonomik_bolgesel_entegrasyon",
+    "term": "Ekonomik Bölgesel Entegrasyon",
+    "definition": "Coğrafi olarak birbirine yakın ülkelerin veya bölgelerin, ekonomik ilişkilerini derinleştirmek ve ortak bir pazar oluşturmak amacıyla yaptıkları işbirliğidir. Gümrük birliği, serbest ticaret bölgeleri veya ortak para birimi gibi farklı düzeylerde gerçekleşebilir.",
+    "examples": [
+      "Avrupa Birliği'nin (AB) tek pazar uygulamaları.",
+      "Karadeniz Ekonomik İşbirliği (KEİ) üyesi ülkeler arasındaki ticari anlaşmalar."
+    ],
+    "relatedTerms": [
+      "Küreselleşme",
+      "Serbest Ticaret Bölgesi",
+      "Gümrük Birliği",
+      "Ortak Pazar"
+    ],
+    "order": 129
   }
 ]

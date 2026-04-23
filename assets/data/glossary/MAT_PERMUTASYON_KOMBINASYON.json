@@ -699,5 +699,411 @@
       "Komite Seçimi"
     ],
     "order": 48
+  },
+  {
+    "id": "kosullu_permutasyon",
+    "term": "Koşullu Permütasyon",
+    "definition": "Belirli elemanların yan yana olması, belli bir sırada olması veya belli pozisyonlarda bulunması gibi ek koşulların olduğu sıralama problemleridir. Koşullar genellikle 'bir bütün' olarak düşünülerek çözülür.",
+    "examples": [
+      "3 kız ve 2 erkek öğrencinin, kızların yan yana olması koşuluyla kaç farklı şekilde sıralanabileceği.",
+      "Bir kelimedeki sesli harflerin belirli bir düzende olması gereken sıralamalar."
+    ],
+    "relatedTerms": [
+      "Permütasyon",
+      "Kısıtlı Permütasyon",
+      "Blok Permütasyonu"
+    ],
+    "order": 49
+  },
+  {
+    "id": "kosullu_kombinasyon",
+    "term": "Koşullu Kombinasyon",
+    "definition": "Seçim yapılırken belirli elemanların mutlaka seçilmesi, kesinlikle seçilmemesi veya belirli sayıda elemanın seçilmesi gibi ek şartların olduğu kombinasyon problemleridir. Koşullara göre küme elemanları yeniden düzenlenir.",
+    "examples": [
+      "10 kişilik bir gruptan 3 kişi seçilecek, ancak belirli bir kişinin mutlaka seçilmesi gerektiği durum.",
+      "5 erkek ve 4 kadından oluşan bir gruptan, en az 2 erkek ve en çok 1 kadın seçilerek 3 kişilik bir komite oluşturulması."
+    ],
+    "relatedTerms": [
+      "Kombinasyon",
+      "Kısıtlı Seçim",
+      "Komite Seçimi"
+    ],
+    "order": 50
+  },
+  {
+    "id": "kombinasyon_ozellikleri",
+    "term": "Kombinasyon Özellikleri",
+    "definition": "Kombinasyon hesaplamalarını kolaylaştıran ve bazı özel durumları ifade eden kurallardır. C(n,r) = C(n, n-r) gibi eşitlikler bu kapsamdadır.",
+    "examples": [
+      "C(7,2) = C(7,5) eşitliğinin kullanılması.",
+      "C(n,0) = 1 ve C(n,n) = 1 özelliklerinin uygulanması."
+    ],
+    "relatedTerms": [
+      "Kombinasyon",
+      "Binom Katsayısı",
+      "Pascal Üçgeni"
+    ],
+    "order": 51
+  },
+  {
+    "id": "yol_problemleri",
+    "term": "Yol Problemleri",
+    "definition": "Bir noktadan başka bir noktaya en kısa yoldan veya belirli koşullarla kaç farklı şekilde gidilebileceğini bulan permütasyon veya kombinasyon uygulamalarıdır. Genellikle tekrarlı permütasyon mantığıyla çözülür.",
+    "examples": [
+      "Bir şehir haritasında A noktasından B noktasına sadece sağa ve yukarı hareket ederek kaç farklı yoldan gidilebileceği.",
+      "Bir ızgara üzerinde belirli bir noktadan diğerine giden farklı rotaların sayısı."
+    ],
+    "relatedTerms": [
+      "Tekrarlı Permütasyon",
+      "Izgara Problemleri",
+      "Çarpma Prensibi"
+    ],
+    "order": 52
+  },
+  {
+    "id": "harf_siralamalari",
+    "term": "Harf Sıralamaları",
+    "definition": "Verilen bir kelimenin harflerinin yerleri değiştirilerek anlamlı veya anlamsız kaç farklı kelime yazılabileceğini bulma problemleridir. Harflerin tekrar edip etmemesine göre permütasyon veya tekrarlı permütasyon kullanılır.",
+    "examples": [
+      "MATEMATİK kelimesinin harfleriyle kaç farklı kelime yazılabileceği.",
+      "ANKARA kelimesinin harfleriyle yazılabilecek 6 harfli farklı kelimeler."
+    ],
+    "relatedTerms": [
+      "Permütasyon",
+      "Tekrarlı Permütasyon",
+      "Faktöriyel"
+    ],
+    "order": 53
+  },
+  {
+    "id": "sayi_olusturma_problemleri",
+    "term": "Sayı Oluşturma Problemleri",
+    "definition": "Verilen rakamlarla belirli basamaklı, belirli özelliklere sahip (tek, çift, 5'e bölünebilen vb.) kaç farklı sayı oluşturulabileceğini bulan problemlerdir. Basamak basamak düşünülerek çözülür.",
+    "examples": [
+      "{0, 1, 2, 3, 4} kümesinin elemanları kullanılarak 3 basamaklı kaç farklı sayı yazılabileceği.",
+      "Rakamları farklı, 4 basamaklı kaç çift sayı yazılabileceği."
+    ],
+    "relatedTerms": [
+      "Çarpma Prensibi",
+      "Permütasyon",
+      "Kısıtlı Permütasyon"
+    ],
+    "order": 54
+  },
+  {
+    "id": "kume_altkume_sayisi",
+    "term": "Küme ve Alt Küme Sayısı",
+    "definition": "Bir kümenin elemanlarından oluşturulabilecek alt kümelerin veya belirli sayıda eleman içeren alt kümelerin sayısını bulma işlemidir. Kombinasyon kavramıyla doğrudan ilişkilidir.",
+    "examples": [
+      "5 elemanlı bir kümenin 3 elemanlı alt küme sayısı.",
+      "Bir kümenin tüm alt küme sayısı (2^n formülü)."
+    ],
+    "relatedTerms": [
+      "Kombinasyon",
+      "Küme Teorisi",
+      "Seçim"
+    ],
+    "order": 55
+  },
+  {
+    "id": "dagilim_problemleri",
+    "term": "Dağılım Problemleri",
+    "definition": "Farklı veya özdeş nesnelerin farklı veya özdeş kutulara kaç farklı şekilde dağıtılabileceğini bulan problemlerdir. Nesnelerin ve kutuların özelliklerine göre farklı yöntemler kullanılır.",
+    "examples": [
+      "4 farklı oyuncağın 3 çocuğa kaç farklı şekilde dağıtılabileceği.",
+      "Özdeş 5 topun 3 farklı kutuya kaç farklı şekilde atılabileceği."
+    ],
+    "relatedTerms": [
+      "Tekrarlı Kombinasyon",
+      "Yıldız ve Çubuk Yöntemi",
+      "Permütasyon"
+    ],
+    "order": 56
+  },
+  {
+    "id": "sirali_secim",
+    "term": "Sıralı Seçim",
+    "definition": "Elemanların hem seçildiği hem de seçildikleri sıraya göre dizildiği durumlardır. Permütasyon kavramıyla eşdeğerdir ve özellikle sıralamanın önemli olduğu durumlarda kullanılır.",
+    "examples": [
+      "10 yarışmacı arasından ilk 3'e gireceklerin kaç farklı şekilde belirlenebileceği.",
+      "Bir şifrenin kaç farklı şekilde oluşturulabileceği."
+    ],
+    "relatedTerms": [
+      "Permütasyon",
+      "Sıralama",
+      "Çarpma Prensibi"
+    ],
+    "order": 57
+  },
+  {
+    "id": "sirali_olmayan_secim",
+    "term": "Sıralı Olmayan Seçim",
+    "definition": "Elemanların sadece seçildiği, sıralamasının önemli olmadığı durumlardır. Kombinasyon kavramıyla eşdeğerdir ve gruplama, komite oluşturma gibi durumlarda kullanılır.",
+    "examples": [
+      "Bir sınıftan 2 öğrencinin kaç farklı şekilde seçilebileceği.",
+      "Bir torbadaki farklı renkli bilyelerden belirli sayıda bilyenin kaç farklı şekilde alınabileceği."
+    ],
+    "relatedTerms": [
+      "Kombinasyon",
+      "Seçim",
+      "Komite Seçimi"
+    ],
+    "order": 58
+  },
+  {
+    "id": "pascal_ucgeni",
+    "term": "Pascal Üçgeni",
+    "definition": "Binom katsayılarını (kombinasyon değerlerini) gösteren üçgen biçiminde bir sayılar dizisidir. Her sayı, üstündeki iki sayının toplamıdır ve kombinasyon problemlerinde pratik çözümler sunabilir.",
+    "examples": [
+      "Pascal üçgeninin 4. satırındaki sayıların (1, 4, 6, 4, 1) C(4,r) değerlerini vermesi.",
+      "Binom açılımındaki katsayıları bulmak için kullanılması."
+    ],
+    "relatedTerms": [
+      "Binom Katsayısı",
+      "Kombinasyon",
+      "Binom Açılımı"
+    ],
+    "order": 59
+  },
+  {
+    "id": "ayrik_olaylar_toplami",
+    "term": "Ayrık Olaylar Toplamı",
+    "definition": "İki veya daha fazla olayın aynı anda gerçekleşemediği durumlarda, bu olaylardan birinin veya diğerinin gerçekleşme sayısını bulmak için kullanılan prensiptir. Her bir olayın gerçekleşme sayısı toplanır.",
+    "examples": [
+      "Bir sınıfta 10 erkek veya 12 kız öğrenci arasından bir öğrenci kaç farklı şekilde seçilebilir?"
+    ],
+    "relatedTerms": [
+      "Toplama Prensibi",
+      "Birleşim Kümesi"
+    ],
+    "order": 60
+  },
+  {
+    "id": "bagimsiz_olaylar_carpimi",
+    "term": "Bağımsız Olaylar Çarpımı",
+    "definition": "Bir olayın gerçekleşmesi diğer olayın gerçekleşmesini etkilemiyorsa, bu olayların art arda gerçekleşme sayısını bulmak için kullanılan prensiptir. Her bir olayın gerçekleşme sayısı çarpılır.",
+    "examples": [
+      "Bir zar ve bir madeni para aynı anda atıldığında kaç farklı sonuç elde edilir?"
+    ],
+    "relatedTerms": [
+      "Çarpma Prensibi",
+      "Kartezyen Çarpım"
+    ],
+    "order": 61
+  },
+  {
+    "id": "kutu_ve_nesne_problemleri",
+    "term": "Kutu ve Nesne Problemleri",
+    "definition": "Belirli sayıda nesnenin belirli sayıda kutuya farklı koşullar altında (boş kutu, özdeş kutu, farklı kutu vb.) kaç farklı şekilde yerleştirilebileceğini inceleyen problemlerdir. Genellikle permütasyon veya kombinasyon prensipleriyle çözülür.",
+    "examples": [
+      "5 farklı topu 3 farklı kutuya kaç farklı şekilde yerleştirebiliriz?"
+    ],
+    "relatedTerms": [
+      "Dağıtım",
+      "Özdeş Nesneler",
+      "Farklı Nesneler"
+    ],
+    "order": 62
+  },
+  {
+    "id": "seçim_ve_siralamali_problemler",
+    "term": "Seçim ve Sıralamalı Problemler",
+    "definition": "Önce bir grup elemanın seçilmesi, ardından seçilen bu elemanların belirli bir düzende sıralanması gereken durumları kapsar. Hem kombinasyon hem de permütasyon adımlarını içerir.",
+    "examples": [
+      "8 kişilik bir gruptan 3 kişi seçilip bu 3 kişi kendi aralarında kaç farklı şekilde sıralanabilir?"
+    ],
+    "relatedTerms": [
+      "Kombinasyon",
+      "Permütasyon",
+      "Adım Adım Çözüm"
+    ],
+    "order": 63
+  },
+  {
+    "id": "en_az_en_çok_problemleri",
+    "term": "En Az / En Çok Problemleri",
+    "definition": "Belirli bir koşulu sağlayan eleman sayısının 'en az' veya 'en çok' kaç olabileceğini soran permütasyon ve kombinasyon problemleridir. Genellikle tüm durumdan istenmeyen durumların çıkarılmasıyla çözülür.",
+    "examples": [
+      "Bir sınıftaki 10 kişiden en az 2 erkek olacak şekilde 4 kişilik bir komite kaç farklı şekilde seçilebilir?"
+    ],
+    "relatedTerms": [
+      "Tüm Durumlar",
+      "Tümleme",
+      "Dahil Etme - Dışlama Prensibi"
+    ],
+    "order": 64
+  },
+  {
+    "id": "özdeş_nesnelerin_dağıtımı",
+    "term": "Özdeş Nesnelerin Dağıtımı",
+    "definition": "Birbirinden ayırt edilemeyen nesnelerin, birbirinden farklı veya özdeş kutulara dağıtılması durumlarını inceler. Yıldız ve Çubuk Yöntemi gibi teknikler kullanılır.",
+    "examples": [
+      "10 özdeş kalemi 3 farklı öğrenciye kaç farklı şekilde dağıtabiliriz?"
+    ],
+    "relatedTerms": [
+      "Yıldız ve Çubuk Yöntemi",
+      "Tekrarlı Kombinasyon",
+      "Kutu ve Nesne Problemleri"
+    ],
+    "order": 65
+  },
+  {
+    "id": "farkli_nesnelerin_dağıtımı",
+    "term": "Farklı Nesnelerin Dağıtımı",
+    "definition": "Birbirinden ayırt edilebilen nesnelerin, birbirinden farklı veya özdeş kutulara dağıtılması durumlarını inceler. Her nesnenin gidebileceği yer sayısı çarpılarak bulunur.",
+    "examples": [
+      "5 farklı kitabı 3 farklı rafa kaç farklı şekilde dizebiliriz?"
+    ],
+    "relatedTerms": [
+      "Çarpma Prensibi",
+      "Permütasyon",
+      "Kutu ve Nesne Problemleri"
+    ],
+    "order": 66
+  },
+  {
+    "id": "olasilik_ile_iliskili_problemler",
+    "term": "Olasılık ile İlişkili Problemler",
+    "definition": "Permütasyon ve kombinasyon bilgisi kullanılarak, belirli bir olayın gerçekleşme olasılığının hesaplandığı problemlerdir. İstenen durum sayısı, tüm durum sayısına bölünerek olasılık bulunur.",
+    "examples": [
+      "Bir torbadaki 5 kırmızı ve 3 mavi toptan rastgele seçilen 2 topun ikisinin de kırmızı olma olasılığı nedir?"
+    ],
+    "relatedTerms": [
+      "Olasılık",
+      "Tüm Durumlar",
+      "İstenen Durumlar"
+    ],
+    "order": 67
+  },
+  {
+    "id": "yol_ve_güzergah_problemleri",
+    "term": "Yol ve Güzergah Problemleri",
+    "definition": "Bir noktadan başka bir noktaya, belirli kısıtlamalar altında (sadece sağa veya yukarı gitme gibi) kaç farklı yoldan gidilebileceğini inceleyen problemlerdir. Tekrarlı permütasyon mantığıyla çözülür.",
+    "examples": [
+      "Bir şehir haritasında A noktasından B noktasına sadece sağa ve yukarı hareket ederek kaç farklı yoldan gidilebilir?"
+    ],
+    "relatedTerms": [
+      "Tekrarlı Permütasyon",
+      "Izgara Problemleri"
+    ],
+    "order": 68
+  },
+  {
+    "id": "fonksiyon_sayisi_problemleri",
+    "term": "Fonksiyon Sayısı Problemleri",
+    "definition": "İki küme arasında tanımlanabilecek farklı fonksiyonların (birebir, örten, içine, sabit vb.) sayısını bulma problemleridir. Permütasyon ve kombinasyon prensipleri uygulanır.",
+    "examples": [
+      "A = {1, 2, 3} kümesinden B = {a, b} kümesine kaç farklı fonksiyon tanımlanabilir?"
+    ],
+    "relatedTerms": [
+      "Fonksiyon",
+      "Birebir Fonksiyon",
+      "Örten Fonksiyon"
+    ],
+    "order": 69
+  },
+  {
+    "id": "şifre_ve_kod_oluşturma",
+    "term": "Şifre ve Kod Oluşturma",
+    "definition": "Belirli karakter setleri (rakam, harf, sembol) kullanılarak, belirli uzunlukta ve kısıtlamalarla (tekrar eden, etmeyen, belirli bir konumda belirli bir karakter vb.) kaç farklı şifre veya kod oluşturulabileceğini inceler.",
+    "examples": [
+      "Rakamları farklı 4 basamaklı kaç farklı sayı yazılabilir?"
+    ],
+    "relatedTerms": [
+      "Permütasyon",
+      "Tekrarlı Permütasyon",
+      "Kısıtlı Permütasyon"
+    ],
+    "order": 70
+  },
+  {
+    "id": "binok_aciklimi",
+    "term": "Binom Açılımı",
+    "definition": "(x+y)^n şeklindeki ifadelerin açılımında yer alan terimlerin katsayılarını ve terimlerin yapısını inceleyen konudur. Kombinasyon bilgisiyle doğrudan ilişkilidir ve katsayılar C(n,r) şeklinde ifade edilir.",
+    "examples": [
+      "(a+b)^3 ifadesinin açılımındaki terimler ve katsayıları.",
+      "(2x-y)^4 ifadesinin açılımındaki sabit terim veya belirli bir terimin katsayısı."
+    ],
+    "relatedTerms": [
+      "Kombinasyon",
+      "Pascal Üçgeni",
+      "Katsayılar"
+    ],
+    "order": 71
+  },
+  {
+    "id": "gruplama_ve_paylastirma",
+    "term": "Gruplama ve Paylaştırma",
+    "definition": "Belirli sayıda nesnenin, belirli sayıda grup veya kişiye nasıl paylaştırılacağını veya gruplandırılacağını inceleyen problemlerdir. Nesnelerin özdeş veya farklı olması, grupların özdeş veya farklı olması durumları çözümü etkiler.",
+    "examples": [
+      "10 farklı oyuncağın 3 çocuğa kaç farklı şekilde dağıtılabileceği.",
+      "6 özdeş kalemin 4 farklı kutuya kaç farklı şekilde yerleştirilebileceği."
+    ],
+    "relatedTerms": [
+      "Kombinasyon",
+      "Permütasyon",
+      "Dağıtım Problemleri"
+    ],
+    "order": 72
+  },
+  {
+    "id": "en_az_en_cok_secim",
+    "term": "En Az / En Çok Seçim",
+    "definition": "Belirli bir koşula göre 'en az' veya 'en çok' sayıda eleman içeren seçimlerin veya düzenlemelerin sayısını bulma problemleridir. Genellikle tüm durumdan istenmeyen durumların çıkarılmasıyla çözülür.",
+    "examples": [
+      "8 kişilik bir gruptan en az 3 kızın bulunduğu 5 kişilik bir komite kaç farklı şekilde seçilebilir?",
+      "10 kitaptan en çok 2 roman içeren 4 kitap kaç farklı şekilde seçilebilir?"
+    ],
+    "relatedTerms": [
+      "Kombinasyon",
+      "Koşullu Seçim",
+      "Tüm Durumlar"
+    ],
+    "order": 73
+  },
+  {
+    "id": "fonksiyon_sayisi",
+    "term": "Fonksiyon Sayısı",
+    "definition": "İki küme arasında tanımlanabilecek farklı türdeki fonksiyonların (birebir, örten, içine vb.) sayısını hesaplama yöntemidir. Permütasyon ve kombinasyon prensipleri kullanılarak çözülür.",
+    "examples": [
+      "A kümesinden B kümesine kaç farklı fonksiyon tanımlanabilir?",
+      "A kümesinden B kümesine kaç farklı birebir fonksiyon tanımlanabilir?"
+    ],
+    "relatedTerms": [
+      "Permütasyon",
+      "Kombinasyon",
+      "Küme Teorisi"
+    ],
+    "order": 74
+  },
+  {
+    "id": "secim_siralamasi",
+    "term": "Seçim ve Sıralama",
+    "definition": "Bir kümeden belirli sayıda eleman seçildikten sonra, seçilen bu elemanların kendi aralarında farklı şekillerde sıralanması durumlarını inceler. Bu tür problemler genellikle önce kombinasyon (seçim) ve ardından permütasyon (sıralama) adımlarını içerir.",
+    "examples": [
+      "10 kişilik bir gruptan seçilen 3 kişinin bir sıraya kaç farklı şekilde oturabileceği.",
+      "5 farklı kitaptan 3'ü seçilip bir rafa kaç farklı şekilde dizilebileceği."
+    ],
+    "relatedTerms": [
+      "Kombinasyon",
+      "Permütasyon",
+      "Sıralı Seçim"
+    ],
+    "order": 75
+  },
+  {
+    "id": "kombinasyonun_ozellikleri_ve_iliskileri",
+    "term": "Kombinasyonun Özellikleri ve İlişkileri",
+    "definition": "Kombinasyonun temel özellikleri ve diğer matematiksel kavramlarla (örneğin Pascal üçgeni, binom açılımı) olan ilişkilerini kapsar. C(n,r) = C(n, n-r) gibi eşitlikler ve C(n,r) + C(n, r+1) = C(n+1, r+1) gibi özdeşlikler bu başlık altında incelenir. Bu özellikler, karmaşık kombinasyon problemlerini basitleştirmek için kullanılır.",
+    "examples": [
+      "C(7,2) = C(7,5) eşitliğinin doğruluğu.",
+      "C(n,r) formülünün Pascal üçgenindeki yerleşimini açıklama."
+    ],
+    "relatedTerms": [
+      "Kombinasyon",
+      "Pascal Üçgeni",
+      "Binom Açılımı"
+    ],
+    "order": 76
   }
 ]

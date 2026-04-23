@@ -1627,5 +1627,454 @@
       "Jeotermal Enerji"
     ],
     "order": 100
+  },
+  {
+    "id": "bakı_etkisi",
+    "term": "Bakı Etkisi",
+    "definition": "Bir dağın yamacının güneşe dönük olma durumudur. Türkiye'de dağların güney yamaçları bakı etkisindedir; bu durum sıcaklık, tarım ürünleri ve kalıcı kar sınırı üzerinde belirleyici rol oynar.",
+    "examples": [
+      "Toroslarda güney yamaçlarda tarım ürünlerinin daha erken olgunlaşması.",
+      "Kuzey yamaçlarda orman üst sınırının daha alçak olması."
+    ],
+    "relatedTerms": [
+      "Güneşlenme Süresi",
+      "Kalıcı Kar Sınırı",
+      "Sıcaklık Dağılışı"
+    ],
+    "order": 101
+  },
+  {
+    "id": "grup_yildiz_etkisi",
+    "term": "Grup ve Tan Süresi",
+    "definition": "Güneş'in doğuş ve batış anındaki alacakaranlık süresidir. Türkiye orta kuşakta yer aldığı için bu süre ekvatoral bölgelere göre daha uzundur.",
+    "examples": [
+      "Sinop'ta grup ve tan süresinin Hatay'dan daha uzun olması.",
+      "Türkiye'nin kuzeyine gidildikçe bu sürenin uzaması."
+    ],
+    "relatedTerms": [
+      "Çizgisel Hız",
+      "Enlem Etkisi",
+      "Dünya'nın Şekli"
+    ],
+    "order": 102
+  },
+  {
+    "id": "cizgisel_hiz",
+    "term": "Çizgisel Hız",
+    "definition": "Dünya'nın kendi ekseni etrafındaki dönüş hızıdır. Ekvator'dan kutuplara doğru gidildikçe azalır; Türkiye'de güneyden kuzeye gidildikçe çizgisel hız azalır.",
+    "examples": [
+      "Hatay'da çizgisel hızın Sinop'tan daha fazla olması.",
+      "Yerel saat farklarının enlem değiştikçe çizgisel hızla ilişkilendirilmesi."
+    ],
+    "relatedTerms": [
+      "Dünya'nın Dönüşü",
+      "Enlem Etkisi",
+      "Paralel Daireleri"
+    ],
+    "order": 103
+  },
+  {
+    "id": "orta_kusak_ozellikleri",
+    "term": "Orta Kuşak Özellikleri",
+    "definition": "Türkiye'nin 36-42 derece kuzey paralelleri arasında yer almasıdır. Bu konum, dört mevsimin belirgin yaşanmasını ve Akdeniz iklim kuşağında bulunmamızı sağlar.",
+    "examples": [
+      "Yıl içinde sıcaklık farklarının belirgin olması.",
+      "Cephesel yağışların görülmesi."
+    ],
+    "relatedTerms": [
+      "Matematiksel Konum",
+      "İklim Kuşakları",
+      "Dört Mevsim"
+    ],
+    "order": 104
+  },
+  {
+    "id": "cephe_yagislari",
+    "term": "Cephe Yağışları (Frontal)",
+    "definition": "Farklı karakterdeki hava kütlelerinin karşılaşmasıyla oluşan yağışlardır. Türkiye'nin orta kuşakta yer alması nedeniyle kış aylarında sıkça görülür.",
+    "examples": [
+      "Akdeniz iklim bölgesinde kışın görülen yağışlar.",
+      "Sıcak ve soğuk hava kütlelerinin karşılaşması."
+    ],
+    "relatedTerms": [
+      "Orta Kuşak",
+      "İklim Tipleri",
+      "Hava Kütleleri"
+    ],
+    "order": 105
+  },
+  {
+    "id": "gunduz_suresi_degisimi",
+    "term": "Gündüz Süresi Değişimi",
+    "definition": "Yıl içinde gece ve gündüz sürelerinin değişmesidir. Türkiye'de kuzeye gidildikçe yazın gündüz süresi uzar, kışın ise kısalır.",
+    "examples": [
+      "21 Haziran'da en uzun gündüzün Sinop'ta yaşanması.",
+      "21 Aralık'ta en uzun gecenin Sinop'ta yaşanması."
+    ],
+    "relatedTerms": [
+      "Eksen Eğikliği",
+      "Yıl İçinde Değişim",
+      "Enlem"
+    ],
+    "order": 106
+  },
+  {
+    "id": "gölge_boyu_degisimi",
+    "term": "Gölge Boyu Değişimi",
+    "definition": "Güneş ışınlarının geliş açısına bağlı olarak cisimlerin gölge boyunun değişmesidir. Türkiye'de yıl boyunca gölge yönü kuzeyi gösterir ve gölge boyu asla sıfır olmaz.",
+    "examples": [
+      "Öğle vaktinde gölgenin daima kuzeye düşmesi.",
+      "Güneş ışınlarının hiçbir zaman dik açıyla gelmemesi."
+    ],
+    "relatedTerms": [
+      "Dönenceler Dışı",
+      "Güneş Işınları",
+      "Matematiksel Konum"
+    ],
+    "order": 107
+  },
+  {
+    "id": "yer_sekilleri_cesitliligi",
+    "term": "Yer Şekillerinin Çeşitliliği",
+    "definition": "Türkiye'nin kısa mesafelerde farklı yer şekillerine sahip olmasıdır. Bu durum özel konumun bir sonucu olup iklim, tarım ve ulaşımı etkiler.",
+    "examples": [
+      "Doğu Anadolu'da yüksek dağların bulunması.",
+      "Kıyı bölgeler ile iç bölgeler arasında yükselti farkı."
+    ],
+    "relatedTerms": [
+      "Göreceli Konum",
+      "Yükselti",
+      "Dağlık Yapı"
+    ],
+    "order": 108
+  },
+  {
+    "id": "yükselti_etkisi",
+    "term": "Yükselti Etkisi",
+    "definition": "Yükseltinin sıcaklık ve iklim üzerindeki etkisidir. Türkiye'de batıdan doğuya gidildikçe yükselti arttığı için sıcaklıklar genel olarak düşer.",
+    "examples": [
+      "Erzurum-Kars platosunda sıcaklık ortalamalarının düşük olması.",
+      "Doğu Anadolu'da karın yerde kalma süresinin uzunluğu."
+    ],
+    "relatedTerms": [
+      "Sıcaklık Ortalamaları",
+      "Karasallık",
+      "Göreceli Konum"
+    ],
+    "order": 109
+  },
+  {
+    "id": "kıta_sahanligi",
+    "term": "Kıta Sahanlığı",
+    "definition": "Kıyı çizgisinden itibaren deniz derinliğinin 200 metreye kadar olan kısmıdır. Türkiye'de Ege Denizi'nde geniş, Karadeniz ve Akdeniz'de dardır.",
+    "examples": [
+      "Ege'de adaların çokluğu ve kıta sahanlığı sorunu.",
+      "Doğu Karadeniz'de dağların kıyıya paralel uzanması."
+    ],
+    "relatedTerms": [
+      "Kıyı Tipleri",
+      "Dağların Uzanışı",
+      "Denizler"
+    ],
+    "order": 110
+  },
+  {
+    "id": "kıyı_tipleri",
+    "term": "Kıyı Tipleri",
+    "definition": "Yer şekillerinin denize göre konumuna bağlı olarak oluşan kıyı şekilleridir. Türkiye'nin üç tarafının denizlerle çevrili olması zengin bir kıyı tipi çeşitliliği sağlar.",
+    "examples": [
+      "Dalmaçya kıyı tipi (Antalya-Kaş).",
+      "Ria kıyı tipi (İstanbul ve Çanakkale boğazları)."
+    ],
+    "relatedTerms": [
+      "Dağların Uzanış Doğrultusu",
+      "Denizellik",
+      "Kıyı Morfolojisi"
+    ],
+    "order": 111
+  },
+  {
+    "id": "özel_konum_etkisi",
+    "term": "Özel Konum (Göreceli Konum)",
+    "definition": "Bir yerin denizlere, dağlara, ulaşım yollarına ve komşularına göre sahip olduğu kendine has özelliklerdir. Matematiksel konum dışındaki tüm faktörleri kapsar.",
+    "examples": [
+      "İstanbul ve Çanakkale boğazlarının varlığı.",
+      "Yükseltinin batıdan doğuya artması."
+    ],
+    "relatedTerms": [
+      "Matematiksel Konum",
+      "Beşeri Coğrafya",
+      "Ekonomik Coğrafya"
+    ],
+    "order": 112
+  },
+  {
+    "id": "dağların_uzanış_doğrultusu",
+    "term": "Dağların Uzanış Doğrultusu",
+    "definition": "Dağların kıyı çizgisine paralel veya dik uzanma durumudur. Bu durum nemli havanın iç kesimlere sokulup sokulmamasını belirler.",
+    "examples": [
+      "Karadeniz ve Akdeniz'de paralel uzanış.",
+      "Ege'de dik uzanışın iç kesimlere ulaşımı kolaylaştırması."
+    ],
+    "relatedTerms": [
+      "İklim Çeşitliliği",
+      "Ulaşım",
+      "Kıyı Tipleri"
+    ],
+    "order": 113
+  },
+  {
+    "id": "nemlilik_etkisi",
+    "term": "Nemlilik Etkisi",
+    "definition": "Havadaki su buharı miktarının sıcaklık üzerindeki düzenleyici etkisidir. Kıyı bölgelerde nemlilik fazla olduğu için yıllık ve günlük sıcaklık farkları azdır.",
+    "examples": [
+      "Akdeniz kıyılarında kışın ılıman geçmesi.",
+      "İç Anadolu'da nem azlığı nedeniyle gece-gündüz farkının fazla olması."
+    ],
+    "relatedTerms": [
+      "Denizellik",
+      "Karasallık",
+      "Sıcaklık Farkı"
+    ],
+    "order": 114
+  },
+  {
+    "id": "güneşlenme_süresi",
+    "term": "Güneşlenme Süresi",
+    "definition": "Bir yerin yıl içinde güneşten doğrudan yararlandığı toplam süredir. Türkiye'de güneyden kuzeye gidildikçe güneşlenme süresi genellikle azalır.",
+    "examples": [
+      "Güneydoğu Anadolu'nun en yüksek güneşlenme süresine sahip olması.",
+      "Bulutluluk oranının güneşlenme süresini kısıtlaması."
+    ],
+    "relatedTerms": [
+      "Enlem Etkisi",
+      "Bulutluluk",
+      "İklim"
+    ],
+    "order": 115
+  },
+  {
+    "id": "yengec_donencesi_etkisi",
+    "term": "Yengeç Dönencesi Kuzeyi Etkisi",
+    "definition": "Türkiye'nin Yengeç Dönencesi'nin kuzeyinde yer alması nedeniyle güneş ışınlarının hiçbir zaman dik açıyla gelmemesi durumudur. Bu durum gölge boyunun yıl boyunca kuzeyi göstermesine ve cisimlerin gölgesinin hiçbir zaman sıfır olmamasına neden olur.",
+    "examples": [
+      "Güneş ışınlarının hiçbir zaman 90 derece ile gelmemesi",
+      "Gölge yönünün daima kuzey olması"
+    ],
+    "relatedTerms": [
+      "Güneş Işınları",
+      "Gölge Boyu",
+      "Bakı Etkisi"
+    ],
+    "order": 116
+  },
+  {
+    "id": "guney_yamac_baki",
+    "term": "Güney Yamaç Bakı Etkisi",
+    "definition": "Türkiye'nin Kuzey Yarım Küre'de yer alması nedeniyle dağların güney yamaçlarının güneşe dönük olmasıdır. Bu durum güney yamaçlarda sıcaklıkların daha yüksek, kalıcı kar sınırının daha yukarıda olmasına yol açar.",
+    "examples": [
+      "Güney yamaçlarda tarım ürünlerinin erken olgunlaşması",
+      "Güney yamaçlarda yerleşmelerin daha yoğun olması"
+    ],
+    "relatedTerms": [
+      "Bakı",
+      "Kalıcı Kar Sınırı",
+      "Sıcaklık Farkı"
+    ],
+    "order": 117
+  },
+  {
+    "id": "bati_ruzgarlari",
+    "term": "Batı Rüzgarları Etkisi",
+    "definition": "Türkiye'nin 30-60 derece enlemleri arasında bulunması nedeniyle yıl boyunca etkili olan rüzgarlardır. Bu rüzgarlar özellikle kıyı bölgelerimizde yağış oluşumuna katkı sağlar.",
+    "examples": [
+      "Kış aylarında etkili olan yağışlı hava sistemleri"
+    ],
+    "relatedTerms": [
+      "Orta Kuşak",
+      "Genel Hava Dolaşımı",
+      "İklim"
+    ],
+    "order": 118
+  },
+  {
+    "id": "kuzey_yarim_kure_konumu",
+    "term": "Kuzey Yarım Küre Konumu",
+    "definition": "Türkiye'nin Ekvator'un kuzeyinde yer almasıdır. Bu konum, Türkiye'de kuzeye gidildikçe güneş ışınlarının geliş açısının daralmasına ve sıcaklığın düşmesine neden olur.",
+    "examples": [
+      "Kuzeyden esen rüzgarların sıcaklığı düşürmesi",
+      "Güneye gidildikçe gece-gündüz süresinin kısalması"
+    ],
+    "relatedTerms": [
+      "Enlem Etkisi",
+      "Sıcaklık",
+      "Güneş Işınları"
+    ],
+    "order": 119
+  },
+  {
+    "id": "yerel_saat_boylam_iliskisi",
+    "term": "Yerel Saat ve Boylam İlişkisi",
+    "definition": "Her 1 derecelik boylam farkının 4 dakikalık zaman farkına denk gelmesi prensibidir. Türkiye'de doğu ve batı uçları arasında 76 dakikalık (19 boylam) yerel saat farkı bulunur.",
+    "examples": [
+      "Iğdır ile Çanakkale arasındaki saat farkı",
+      "Güneşin Iğdır'da daha erken doğması"
+    ],
+    "relatedTerms": [
+      "Boylam",
+      "Meridyen",
+      "Ulusal Saat"
+    ],
+    "order": 120
+  },
+  {
+    "id": "izdususum_yukseklik",
+    "term": "İzdüşüm Yüzölçümü",
+    "definition": "Bir yerin engebeleri yok sayılarak düz bir alanmış gibi hesaplanan yüzölçümüdür. Türkiye'nin gerçek yüzölçümü ile izdüşüm yüzölçümü arasındaki farkın fazla olması, ülkenin engebeli olduğunu gösterir.",
+    "examples": [
+      "Türkiye'nin gerçek alanı ile izdüşüm alanı arasındaki fark"
+    ],
+    "relatedTerms": [
+      "Yer Şekilleri",
+      "Engebe",
+      "Göreceli Konum"
+    ],
+    "order": 121
+  },
+  {
+    "id": "uc_deniz_etkisi",
+    "term": "Üç Tarafı Denizlerle Çevrili Olma",
+    "definition": "Türkiye'nin bir yarımada konumunda olmasıdır. Bu durum kıyı bölgelerinde nemliliği artırarak ılıman iklim koşullarının oluşmasını ve deniz turizminin gelişmesini sağlar.",
+    "examples": [
+      "Kıyı bölgelerinde sıcaklık farkının az olması",
+      "Deniz turizminin gelişmiş olması"
+    ],
+    "relatedTerms": [
+      "Denizellik",
+      "Yarımada",
+      "Göreceli Konum"
+    ],
+    "order": 122
+  },
+  {
+    "id": "yeralti_kaynaklari_cesitliligi",
+    "term": "Jeolojik Yapı ve Yer Altı Kaynakları",
+    "definition": "Türkiye'nin genç oluşumlu bir ülke olması nedeniyle yer altı kaynakları bakımından çeşitlilik göstermesidir. Özellikle Alp-Himalaya kıvrım kuşağında yer alması linyit, bor ve mermer gibi kaynakların zenginliğini açıklar.",
+    "examples": [
+      "Bor yataklarının yaygınlığı",
+      "Linyit kömürü rezervleri"
+    ],
+    "relatedTerms": [
+      "Jeolojik Devirler",
+      "Orojenez",
+      "Göreceli Konum"
+    ],
+    "order": 123
+  },
+  {
+    "id": "transit_ticaret_yolu",
+    "term": "Transit Ticaret Yolu Konumu",
+    "definition": "Türkiye'nin Asya, Avrupa ve Afrika kıtalarının birbirine en çok yaklaştığı noktada bulunmasıdır. Bu konum ülkeyi uluslararası enerji koridorları ve ticaret yolları için stratejik bir merkez haline getirir.",
+    "examples": [
+      "Bakü-Tiflis-Ceyhan boru hattı",
+      "İpek Yolu güzergahı"
+    ],
+    "relatedTerms": [
+      "Jeopolitik",
+      "Enerji Koridoru",
+      "Kıtalararası Konum"
+    ],
+    "order": 124
+  },
+  {
+    "id": "kisa_mesafede_iklim_degisimi",
+    "term": "Kısa Mesafede İklim Değişimi",
+    "definition": "Türkiye'nin yer şekillerinin çeşitliliği ve yükselti farkları nedeniyle çok kısa mesafelerde farklı iklim tiplerinin görülmesidir. Bu durum bitki örtüsü ve tarım ürünü çeşitliliğini doğrudan etkiler.",
+    "examples": [
+      "Deniz kıyısı ile iç kesimler arasındaki sıcaklık farkı",
+      "Dağların denize paralel uzanması"
+    ],
+    "relatedTerms": [
+      "Yer Şekilleri",
+      "Yükselti",
+      "Mikroklima"
+    ],
+    "order": 125
+  },
+  {
+    "id": "kuzey_guney_sicaklik_farki",
+    "term": "Kuzey-Güney Sıcaklık Farkı",
+    "definition": "Türkiye'de enlem etkisine bağlı olarak güneyden kuzeye gidildikçe sıcaklığın genel olarak azalması durumudur. Bu durum deniz suyu sıcaklıklarının da güneyden kuzeye azalmasına neden olur.",
+    "examples": [
+      "Akdeniz'de deniz turizm sezonunun uzun olması",
+      "Karadeniz'de orman üst sınırının daha alçak olması"
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Deniz Suyu Sıcaklığı",
+      "Sıcaklık Dağılışı"
+    ],
+    "order": 126
+  },
+  {
+    "id": "mikroklima_alanlari",
+    "term": "Mikroklima Alanları",
+    "definition": "Çevresine göre daha farklı iklim özellikleri gösteren dar alanlardır. Türkiye'de özel konum şartları (dağların uzanışı, vadi etkisi) sayesinde bazı bölgelerde normalde yetişmemesi gereken ürünler yetişebilir.",
+    "examples": [
+      "Rize'de turunçgil yetişmesi",
+      "Iğdır'da pamuk tarımı yapılması"
+    ],
+    "relatedTerms": [
+      "Özel Konum",
+      "Yer Şekilleri",
+      "Tarım"
+    ],
+    "order": 127
+  },
+  {
+    "id": "matematiksel_konum",
+    "term": "Matematiksel Konum (Mutlak Konum)",
+    "definition": "Bir yerin başlangıç paraleli ve meridyenine göre belirlenen, enlem ve boylam değerlerine dayalı konumudur. Türkiye'nin 36-42 derece kuzey paralelleri ile 26-45 derece doğu meridyenleri arasında yer alması bu kapsamdadır.",
+    "examples": [
+      "Türkiye'de dört mevsimin belirgin yaşanması",
+      "Güneş ışınlarının hiçbir zaman dik açıyla gelmemesi"
+    ],
+    "relatedTerms": [
+      "Enlem Etkisi",
+      "Boylam Etkisi",
+      "Paralel",
+      "Meridyen"
+    ],
+    "order": 128
+  },
+  {
+    "id": "jeopolitik_konum",
+    "term": "Jeopolitik Konum",
+    "definition": "Bir ülkenin sahip olduğu coğrafi özelliklerin, o ülkenin dünya siyaseti ve stratejik kararları üzerindeki etkisidir. Türkiye'nin üç kıta arasında bir köprü vazifesi görmesi ve boğazlara sahip olması en temel jeopolitik unsurlarıdır.",
+    "examples": [
+      "İstanbul ve Çanakkale Boğazlarının stratejik önemi",
+      "Enerji koridoru üzerinde yer alması"
+    ],
+    "relatedTerms": [
+      "Stratejik Bölge",
+      "Uluslararası İlişkiler",
+      "Sınır Komşuları"
+    ],
+    "order": 129
+  },
+  {
+    "id": "saat_dilimi_farki",
+    "term": "Ulusal Saat Uygulaması",
+    "definition": "Bir ülkenin boylam değerlerine göre kullandığı ortak zaman dilimidir. Türkiye, 45 derece doğu boylamındaki Iğdır'ın yerel saatini yıl boyunca ulusal saat olarak kullanmaktadır.",
+    "examples": [
+      "45 derece doğu meridyeninin esas alınması",
+      "İleri saat uygulaması"
+    ],
+    "relatedTerms": [
+      "Yerel Saat",
+      "Boylam",
+      "Güneşin Tepe Noktası"
+    ],
+    "order": 130
   }
 ]

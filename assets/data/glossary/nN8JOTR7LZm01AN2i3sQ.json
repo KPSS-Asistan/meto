@@ -1059,5 +1059,419 @@
       "Düşünce Akışı"
     ],
     "order": 77
+  },
+  {
+    "id": "yan_tumsan",
+    "term": "Yan Tutum (Önyargı)",
+    "definition": "Yazarın bir konu veya kişi hakkında tarafsızlığını yitirerek olumlu veya olumsuz yönde taraf tutmasıdır. Metinde nesnellikten uzak, kişisel beğenilerin veya tepkilerin baskın olduğu durumlarda görülür.",
+    "examples": [
+      "Yazarın, ele aldığı sanatçının eserlerini hiçbir kusur bulmadan övmesi.",
+      "Toplumsal bir olayı değerlendirirken sadece kendi ideolojisine yakın olanları haklı görmesi."
+    ],
+    "relatedTerms": [
+      "Öznel Yargı",
+      "Yazarın Öznel Tavrı",
+      "Eleştirel Bakış"
+    ],
+    "order": 78
+  },
+  {
+    "id": "duruluk",
+    "term": "Duruluk",
+    "definition": "Bir cümlede veya metinde gereksiz sözcük bulunmamasıdır. Cümleden çıkarıldığında anlamda daralma veya bozulma olmayan her sözcük duruluğu bozar.",
+    "examples": [
+      "'O, kendi kendine kendi başına konuştu.' cümlesinde gereksiz kelimeler vardır.",
+      "Anlatımın gereksiz eklerden ve tekrarlardan arındırılması."
+    ],
+    "relatedTerms": [
+      "Yalınlık",
+      "Anlatım Bozukluğu",
+      "Ekonomi"
+    ],
+    "order": 79
+  },
+  {
+    "id": "yadsima",
+    "term": "Yadsıma (İnkar)",
+    "definition": "Daha önce kabul edilen veya bilinen bir durumun, sonradan reddedilmesi veya varlığının kabul edilmemesidir. Metinde şaşırma veya reddetme ifadesi olarak karşımıza çıkar.",
+    "examples": [
+      "Onun bu kadar başarılı olabileceğini kimse düşünmemişti.",
+      "Yazar, geçmişteki fikirlerinin kendisine ait olmadığını iddia etti."
+    ],
+    "relatedTerms": [
+      "Eleştiri",
+      "Sorgulama",
+      "İtiraz"
+    ],
+    "order": 80
+  },
+  {
+    "id": "kaniksama",
+    "term": "Kanıksama",
+    "definition": "Bir durumun, olayın veya davranışın çok sık tekrarlanması sonucu artık yadırganmaz, normal karşılanır hale gelmesidir. Alışılmışlık durumunu ifade eder.",
+    "examples": [
+      "Halk, bu zamlara artık alıştı.",
+      "Yazarın eleştirileri artık kimseyi şaşırtmıyor."
+    ],
+    "relatedTerms": [
+      "Alışkanlık",
+      "Bıkkınlık",
+      "Kabullenme"
+    ],
+    "order": 81
+  },
+  {
+    "id": "yakinma",
+    "term": "Yakınma (Şikayet)",
+    "definition": "Bir durumdan, kişiden veya olaydan duyulan rahatsızlığın dile getirilmesidir. Sitemden farkı, sitemin doğrudan kişiye yapılması, yakınmanın ise üçüncü kişilere yapılmasıdır.",
+    "examples": [
+      "Şehrin gürültüsü artık çekilmez oldu.",
+      "İnsanların birbirine olan güveni tamamen yok oldu."
+    ],
+    "relatedTerms": [
+      "Sitem",
+      "Eleştiri",
+      "Hayıflanma"
+    ],
+    "order": 82
+  },
+  {
+    "id": "hayiflanma",
+    "term": "Hayıflanma",
+    "definition": "Kişinin kaçırılan bir fırsat, yapılamayan bir iş veya geçmişte kalan bir durum için duyduğu üzüntüdür. 'Keşke' ifadesi sıklıkla kullanılır.",
+    "examples": [
+      "Keşke o gün ona o sözleri söylemeseydim.",
+      "Gençliğimde daha çok kitap okumalıydım."
+    ],
+    "relatedTerms": [
+      "Pişmanlık",
+      "Üzüntü",
+      "Özlem"
+    ],
+    "order": 83
+  },
+  {
+    "id": "sitem",
+    "term": "Sitem",
+    "definition": "Bir kimseye karşı duyulan kırgınlığın, üzüntünün veya tepkinin doğrudan o kişiye ifade edilmesidir. Kişi, beklediği davranışı görmediğinde sitem eder.",
+    "examples": [
+      "Beni düğününe bile çağırmadın, çok kırıldım.",
+      "Sana güvenmiştim ama sen beni yarı yolda bıraktın."
+    ],
+    "relatedTerms": [
+      "Yakınma",
+      "Kırgınlık",
+      "Beklenti"
+    ],
+    "order": 84
+  },
+  {
+    "id": "tasari",
+    "term": "Tasarı",
+    "definition": "Gelecekte yapılması planlanan, zihinde kurgulanan iş veya eylemlerdir. Henüz gerçekleşmemiş, yapılması hedeflenen durumları belirtir.",
+    "examples": [
+      "Önümüzdeki yıl yeni bir roman yazmayı düşünüyorum.",
+      "Bu projeyi bitirince tatile çıkacağım."
+    ],
+    "relatedTerms": [
+      "Hedef",
+      "Plan",
+      "Beklenti"
+    ],
+    "order": 85
+  },
+  {
+    "id": "begenme",
+    "term": "Beğenme (Takdir)",
+    "definition": "Bir eserin, kişinin veya durumun niteliklerini olumlu bularak ona değer verme, övme durumudur. Öznel bir yargı bildirir.",
+    "examples": [
+      "Yazarın bu eseri, Türk edebiyatının en iyi örneklerinden biri.",
+      "Onun bu tutumu herkes tarafından takdir edildi."
+    ],
+    "relatedTerms": [
+      "Övgü",
+      "Öznel Yargı",
+      "Memnuniyet"
+    ],
+    "order": 86
+  },
+  {
+    "id": "yadirgama",
+    "term": "Yadırgama",
+    "definition": "Bir durumun veya kişinin alışılanın dışında olması nedeniyle garipsenmesi, ona uyum sağlayamamasıdır. İlk kez karşılaşılan veya tuhaf bulunan durumlar için kullanılır.",
+    "examples": [
+      "Köyden şehre gelen çocuk, yüksek binaların arasında kendini yabancı hissetti."
+    ],
+    "relatedTerms": [
+      "Kanıksama",
+      "Şaşkınlık"
+    ],
+    "order": 87
+  },
+  {
+    "id": "tasarim",
+    "term": "Tasarım (Tasarı)",
+    "definition": "Gelecekte yapılması planlanan bir işin, bir eylemin önceden zihinde kurgulanmasıdır.",
+    "examples": [
+      "Önümüzdeki ay yeni bir roman yazmayı planlıyorum."
+    ],
+    "relatedTerms": [
+      "Öngörü",
+      "Tahmin"
+    ],
+    "order": 88
+  },
+  {
+    "id": "on_yargi",
+    "term": "Ön Yargı",
+    "definition": "Bir kişi veya olayla ilgili, henüz yeterli bilgi sahibi olmadan önceden edinilmiş olumlu veya olumsuz peşin hükümlerdir.",
+    "examples": [
+      "Bu yazarın tüm kitaplarının sıkıcı olduğunu peşinen söyleyebilirim."
+    ],
+    "relatedTerms": [
+      "Eleştiri",
+      "Görüş Farkı"
+    ],
+    "order": 89
+  },
+  {
+    "id": "paragrafin_konusu",
+    "term": "Paragrafın Konusu",
+    "definition": "Paragrafta üzerinde durulan, hakkında bilgi verilen veya tartışılan kavram, durum ya da olaydır. 'Bu paragrafta neden bahsediliyor?' sorusunun cevabıdır.",
+    "examples": [
+      "Bir metinde 'küresel ısınmanın nedenleri' anlatılıyorsa, paragrafın konusu küresel ısınmanın nedenleridir.",
+      "Yazarın ele aldığı temel problem veya mesele."
+    ],
+    "relatedTerms": [
+      "Ana Düşünce",
+      "Başlık",
+      "İçerik"
+    ],
+    "order": 90
+  },
+  {
+    "id": "anlatimda_tutarlilik",
+    "term": "Anlatımda Tutarlılık",
+    "definition": "Paragraftaki düşüncelerin, olayların veya bilgilerin birbiriyle çelişmemesi, uyumlu olması durumudur. Mantıksal bir bütünlük ve akış sağlar.",
+    "examples": [
+      "Bir paragrafta önce 'çevre kirliliği zararlıdır' denilip, sonra 'çevre kirliliği doğal bir süreçtir' denilmesi tutarsızlık örneğidir.",
+      "Yazarın baştan sona aynı görüşü veya bakış açısını koruması."
+    ],
+    "relatedTerms": [
+      "Bağdaşıklık",
+      "Bağlaşıklık",
+      "Mantıksal Akış"
+    ],
+    "order": 91
+  },
+  {
+    "id": "anlatimda_akicilik",
+    "term": "Anlatımda Akıcılık",
+    "definition": "Paragrafın kolay okunabilmesi, telaffuzda zorluk çıkarmaması ve kulağa hoş gelmesidir. Ses ve anlam açısından pürüzsüz bir ilerleyişi ifade eder.",
+    "examples": [
+      "Bir paragrafta gereksiz tekrarların veya kulağa tırmalayan seslerin olmaması akıcılığı sağlar.",
+      "Uzun ve karmaşık cümlelerin yerine kısa, anlaşılır cümlelerin tercih edilmesi."
+    ],
+    "relatedTerms": [
+      "Duruluk",
+      "Yalınlık",
+      "Sürükleyicilik"
+    ],
+    "order": 92
+  },
+  {
+    "id": "anlatimda_yogunluk",
+    "term": "Anlatımda Yoğunluk",
+    "definition": "Az sözle çok şey ifade etme, anlam derinliği ve çağrışım gücüdür. Her kelimenin bir anlam taşıması ve gereksiz sözcüklerden kaçınılmasıdır.",
+    "examples": [
+      "Bir şairin 'güneşin batışı'nı sadece birkaç kelimeyle etkileyici bir şekilde anlatması yoğunluk göstergesidir.",
+      "Deyimlerin ve atasözlerinin kullanılması anlatıma yoğunluk katar."
+    ],
+    "relatedTerms": [
+      "Özlülük",
+      "Yoğun Anlatım",
+      "Derin Anlam"
+    ],
+    "order": 93
+  },
+  {
+    "id": "anlatimda_ozgunluk",
+    "term": "Anlatımda Özgünlük",
+    "definition": "Yazarın kendi düşüncelerini, duygularını ve tarzını yansıtması, başkalarını taklit etmemesidir. Eserin kendine has, orijinal bir nitelik taşımasıdır.",
+    "examples": [
+      "Bir yazarın daha önce işlenmemiş bir konuyu farklı bir bakış açısıyla ele alması özgünlüktür.",
+      "Kendi cümle yapısını ve kelime seçimini kullanarak benzersiz bir üslup oluşturması."
+    ],
+    "relatedTerms": [
+      "Orijinallik",
+      "Bireysellik",
+      "Yaratıcılık"
+    ],
+    "order": 94
+  },
+  {
+    "id": "anlatimda_evrensellik",
+    "term": "Anlatımda Evrensellik",
+    "definition": "Eserin veya düşüncenin sadece belirli bir toplumu veya dönemi değil, tüm insanlığı ilgilendiren, her yerde ve her zaman geçerli olabilecek konuları ele almasıdır. İnsanlığın ortak değerlerine seslenmesidir.",
+    "examples": [
+      "Aşk, ölüm, adalet gibi temaların işlenmesi evrensellik taşır.",
+      "Bir eserin farklı kültürlerde de anlaşılıp takdir edilmesi."
+    ],
+    "relatedTerms": [
+      "Genel Geçerlilik",
+      "İnsanlık Durumu",
+      "Kalıcılık"
+    ],
+    "order": 95
+  },
+  {
+    "id": "paragrafin_basligi",
+    "term": "Paragrafın Başlığı",
+    "definition": "Paragrafın içeriğini en iyi şekilde özetleyen, ana düşüncesini veya konusunu yansıtan kısa ve dikkat çekici ifadedir. Okuyucuya paragraf hakkında ilk bilgiyi verir.",
+    "examples": [
+      "Bir paragraf 'Kent Yaşamının Zorlukları' başlığını taşıyorsa, paragrafın bu konuyu işlediği anlaşılır.",
+      "Başlık, genellikle anahtar kelimelerden oluşur ve paragrafın özünü yansıtır."
+    ],
+    "relatedTerms": [
+      "Konu",
+      "Ana Düşünce",
+      "Özet"
+    ],
+    "order": 96
+  },
+  {
+    "id": "anlatimda_dogallik",
+    "term": "Anlatımda Doğallık",
+    "definition": "Yazarın yapmacıklıktan uzak, içten ve samimi bir dille yazmasıdır. Zorlama ve yapaylıktan kaçınarak, günlük konuşma diline yakın bir üslup kullanmasıdır.",
+    "examples": [
+      "Bir yazarın okuyucuyla sohbet ediyormuş gibi bir dil kullanması doğallık örneğidir.",
+      "Süslü ve ağdalı ifadelerden kaçınarak, sade ve anlaşılır bir dil tercih etmesi."
+    ],
+    "relatedTerms": [
+      "Samimiyet",
+      "İçtenlik",
+      "Yalınlık"
+    ],
+    "order": 97
+  },
+  {
+    "id": "anlatimda_nesnellik",
+    "term": "Anlatımda Nesnellik",
+    "definition": "Yazarın kişisel duygu, düşünce ve yorumlarını katmadan, olayları veya bilgileri olduğu gibi aktarmasıdır. Tarafsız ve objektif bir bakış açısıyla yazmasıdır.",
+    "examples": [
+      "Bilimsel makalelerde veya haber metinlerinde nesnel bir dil kullanılır.",
+      "Bir olayın sadece gözlemlenebilir gerçeklerini aktarmak."
+    ],
+    "relatedTerms": [
+      "Objektiflik",
+      "Tarafsızlık",
+      "Bilimsel Anlatım"
+    ],
+    "order": 98
+  },
+  {
+    "id": "anlatimda_oznellik",
+    "term": "Anlatımda Öznellik",
+    "definition": "Yazarın kişisel duygu, düşünce, yorum ve yargılarını metne katmasıdır. Kendi bakış açısını ve izlenimlerini okuyucuya aktarmasıdır.",
+    "examples": [
+      "Bir eleştirmenin 'bu film harikaydı' demesi öznel bir ifadedir.",
+      "Şiirlerde ve denemelerde öznel bir anlatım sıklıkla görülür."
+    ],
+    "relatedTerms": [
+      "Subjektiflik",
+      "Kişisel Yorum",
+      "Yazarın Bakış Açısı"
+    ],
+    "order": 99
+  },
+  {
+    "id": "evrensellik",
+    "term": "Evrensellik",
+    "definition": "Bir eserin, düşüncenin veya konunun zaman ve mekandan bağımsız olarak tüm insanlığı ilgilendirmesi, her yerde ve her dönemde geçerli olmasıdır. İnsanlığın ortak değerlerine seslenmesidir.",
+    "examples": [
+      "Aşk, ölüm, yalnızlık gibi temalar evrenseldir ve her kültürde karşılık bulur.",
+      "Dostoyevski'nin eserlerindeki insan psikolojisi tahlilleri evrensel bir nitelik taşır."
+    ],
+    "relatedTerms": [
+      "Genellik",
+      "Kapsayıcılık",
+      "İnsanlık Durumu"
+    ],
+    "order": 100
+  },
+  {
+    "id": "yerellik",
+    "term": "Yerellik",
+    "definition": "Bir eserin veya konunun belirli bir bölgeye, kültüre veya topluma özgü özellikler taşımasıdır. O bölgenin geleneklerini, yaşam tarzını yansıtmasıdır.",
+    "examples": [
+      "Anadolu'nun köy yaşamını anlatan romanlar yerel özellikler taşır.",
+      "Karadeniz fıkralarındaki mizah anlayışı, bölgenin yerel kültürünü yansıtır."
+    ],
+    "relatedTerms": [
+      "Mahallilik",
+      "Bölgesellik",
+      "Özgülük"
+    ],
+    "order": 101
+  },
+  {
+    "id": "cogulculuk",
+    "term": "Çoğulculuk",
+    "definition": "Farklı görüşlerin, inançların veya yaşam tarzlarının bir arada var olabilmesini, hoşgörüyle karşılanmasını savunan anlayıştır. Tek bir doğrunun olmadığını kabul etmektir.",
+    "examples": [
+      "Yazar, farklı bakış açılarını sunarak çoğulcu bir yaklaşım sergilemiştir.",
+      "Toplumdaki farklı seslere yer verilmesi, çoğulcu bir yapının göstergesidir."
+    ],
+    "relatedTerms": [
+      "Çeşitlilik",
+      "Hoşgörü",
+      "Farklılık"
+    ],
+    "order": 102
+  },
+  {
+    "id": "tekduzelik",
+    "term": "Tekdüzelik",
+    "definition": "Bir anlatımın, konunun veya yapının monoton, sıkıcı ve değişiklik göstermeyen bir biçimde ilerlemesidir. Yenilik veya çeşitlilikten uzak olmasıdır.",
+    "examples": [
+      "Yazarın hep aynı cümle kalıplarını kullanması, anlatımda tekdüzeliğe yol açmıştır.",
+      "Konunun sürekli aynı açılardan ele alınması, metni tekdüze kılmıştır."
+    ],
+    "relatedTerms": [
+      "Monotonluk",
+      "Sıradanlık",
+      "Yineleme"
+    ],
+    "order": 103
+  },
+  {
+    "id": "aktarim",
+    "term": "Aktarım",
+    "definition": "Bir başkasına ait sözü, düşünceyi veya bilgiyi olduğu gibi veya özetleyerek kendi metnine dahil etme işlemidir. Doğrudan veya dolaylı aktarım şeklinde olabilir.",
+    "examples": [
+      "Yazar, 'Sanat sanat içindir.' diyenlerin aksine, sanatın toplumsal bir işlevi olduğunu savunur.",
+      "Eleştirmen, yazarın bu konudaki düşüncelerini alıntılarla aktarmıştır."
+    ],
+    "relatedTerms": [
+      "Alıntı",
+      "Referans",
+      "Nakil"
+    ],
+    "order": 104
+  },
+  {
+    "id": "kurgu",
+    "term": "Kurgu",
+    "definition": "Bir eserde olayların, karakterlerin ve mekanların yazar tarafından belli bir amaca göre düzenlenmesi, bir araya getirilmesi işlemidir. Gerçek olmayan, hayali bir dünya yaratma sürecidir.",
+    "examples": [
+      "Romanın kurgusu o kadar başarılıydı ki okuyucu kendini olayların içinde hissetti.",
+      "Yazar, gerçek hayattan esinlenerek özgün bir kurgu oluşturmuştur."
+    ],
+    "relatedTerms": [
+      "Senaryo",
+      "Taslak",
+      "Yapı"
+    ],
+    "order": 105
   }
 ]

@@ -1432,7 +1432,7 @@
     "topicId": "ICNDiSlTmmjWEQPT6rmT",
     "subtopicId": "karma-sozcuk-turleri",
     "subtopic": "Karma Sözcük Türleri",
-    "q": "Sanatçı, (I) bu eserinde toplumsal gerçekleri (II) tüm çıplaklığıyla gözler önüne sererken (III) nasıl bir yol izlemesi gerektiğini (IV) genç yazarlara (V) ustaca göstermiş.",
+    "q": "Sanatçı, (I) bu eserinde toplumsal gerçekleri (II) tüm çıplaklığıyla gözler önüne sererken (III) nasıl bir yol izlemesi gerektiğini (IV) genç yazarlara (V) ustaca göstermiş?",
     "o": [
       "I. İşaret Sıfatı",
       "II. Belgisiz Sıfat",
@@ -2605,7 +2605,7 @@
     "topicId": "ICNDiSlTmmjWEQPT6rmT",
     "subtopicId": "fiilimsiler",
     "subtopic": "Fiilimsiler (Eylemsiler)",
-    "q": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük, sözcük türü bakımından diğerlerinden farklıdır? (Sözcükler parantez içinde belirtilmiştir)",
+    "q": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük, sözcük türü bakımından diğerlerinden farklıdır? (Sözcükler parantez içinde belirtilmiştir)?",
     "o": [
       "(Gelen) gideni aratır derler.",
       "(Koşar) adım yanımıza geldi.",
@@ -2639,7 +2639,7 @@
     "topicId": "ICNDiSlTmmjWEQPT6rmT",
     "subtopicId": "sozcuk-turleri-karma",
     "subtopic": "Sözcük Türleri (Karma)",
-    "q": "Bu eski mahallenin dar sokaklarında yürürken, çocukluğumun o masum günlerini hüzünle anımsadım.\n\nBu cümledeki altı çizili sözcüklerin türleri, aşağıdakilerin hangisinde sırasıyla doğru verilmiştir? (Sözcükler: Bu, dar, o, hüzünle)",
+    "q": "Bu eski mahallenin dar sokaklarında yürürken, çocukluğumun o masum günlerini hüzünle anımsadım.\n\nBu cümledeki altı çizili sözcüklerin türleri, aşağıdakilerin hangisinde sırasıyla doğru verilmiştir? (Sözcükler: Bu, dar, o, hüzünle)?",
     "o": [
       "Sıfat - Sıfat - Zamir - Zarf",
       "Zamir - Sıfat - Sıfat - Edat",
@@ -2673,7 +2673,7 @@
     "topicId": "ICNDiSlTmmjWEQPT6rmT",
     "subtopicId": "edat-baglac",
     "subtopic": "Edat ve Bağlaçlar",
-    "q": "I. Seninle konuşmak, çölde su bulmak gibidir.\nII. Kitabı getirdim ancak aradığın sayfalar eksik.\nIII. Akşama doğru hava iyice soğumuştu.\nIV. Bu işi yalnız sen halledebilirsin.\nV. Hem suçlu hem güçlü bir tavrı vardı.\n\nNumaralanmış cümlelerdeki altı çizili sözcüklerden hangileri 'edat' (ilgeç) görevindedir? (Altı çizili sözcükler: I. gibidir, II. ancak, III. doğru, IV. yalnız, V. Hem...hem)",
+    "q": "I. Seninle konuşmak, çölde su bulmak gibidir.\nII. Kitabı getirdim ancak aradığın sayfalar eksik.\nIII. Akşama doğru hava iyice soğumuştu.\nIV. Bu işi yalnız sen halledebilirsin.\nV. Hem suçlu hem güçlü bir tavrı vardı.\n\nNumaralanmış cümlelerdeki altı çizili sözcüklerden hangileri 'edat' (ilgeç) görevindedir? (Altı çizili sözcükler: I. gibidir, II. ancak, III. doğru, IV. yalnız, V. Hem...hem)?",
     "o": [
       "I, III ve IV",
       "I, II ve V",
@@ -2775,7 +2775,7 @@
     "topicId": "ICNDiSlTmmjWEQPT6rmT",
     "subtopic": "SIFATLAR",
     "subtopicId": "sifatlar",
-    "q": "Cümlede isimleri niteleyen, onlardan önce gelerek miktar, durum, şekil veya yön bildiren sözcükler sıfattır. Aşağıdaki cümlede sıfat olarak kullanılan sözcük aşağıdakilerden hangisidir? Gecenin sessizliğinde, eski bir saat yavaşça tik tak sesleri çıkarıyordu.",
+    "q": "Cümlede isimleri niteleyen, onlardan önce gelerek miktar, durum, şekil veya yön bildiren sözcükler sıfattır. Aşağıdaki cümlede sıfat olarak kullanılan sözcük aşağıdakilerden hangisidir? Gecenin sessizliğinde, eski bir saat yavaşça tik tak sesleri çıkarıyordu?",
     "o": [
       "gecenin",
       "sessizliğinde",

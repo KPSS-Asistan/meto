@@ -925,5 +925,230 @@
       "Politika Analizi"
     ],
     "order": 59
+  },
+  {
+    "id": "dunyal_bankasi",
+    "term": "Dünya Bankası Grubu",
+    "definition": "Gelişmekte olan ülkelerde yoksulluğu azaltmak ve kalkınmayı desteklemek amacıyla finansal ve teknik yardım sağlayan uluslararası bir kuruluştur. Kredi, hibe ve danışmanlık hizmetleri sunar. Türkiye, Dünya Bankası Grubu'na üyedir.",
+    "examples": [
+      "Dünya Bankası, altyapı projeleri için gelişmekte olan ülkelere kredi verir.",
+      "Eğitim ve sağlık gibi sosyal kalkınma projeleri Dünya Bankası tarafından desteklenir."
+    ],
+    "relatedTerms": [
+      "Uluslararası İmar ve Kalkınma Bankası (IBRD)",
+      "Uluslararası Kalkınma Birliği (IDA)",
+      "Uluslararası Para Fonu (IMF)"
+    ],
+    "order": 60
+  },
+  {
+    "id": "g8_buyuk_sekizler",
+    "term": "G8 (Büyük Sekizler) / G7 (Büyük Yediler)",
+    "definition": "Dünyanın en büyük gelişmiş ekonomilerine sahip ülkelerin liderlerinin bir araya geldiği, uluslararası ekonomik ve politik konuları tartıştığı bir forumdur. Rusya'nın üyeliğinin askıya alınmasıyla G7 olarak devam etmektedir. Türkiye G8/G7 üyesi değildir ancak G20 üyesidir.",
+    "examples": [
+      "G7 zirvelerinde küresel ekonomik büyüme ve iklim değişikliği gibi konular ele alınır.",
+      "G8, 1990'lı yıllarda küresel yönetişimde önemli bir rol oynamıştır."
+    ],
+    "relatedTerms": [
+      "G20",
+      "Gelişmiş Ekonomiler",
+      "Küresel Yönetişim"
+    ],
+    "order": 61
+  },
+  {
+    "id": "dunyal_saglik_orgutu",
+    "term": "Dünya Sağlık Örgütü (DSÖ)",
+    "definition": "Uluslararası halk sağlığını yönlendirmek ve koordine etmek, sağlık sorunlarına çözüm bulmak ve küresel sağlık standartlarını belirlemek amacıyla kurulmuş bir BM uzmanlık kuruluşudur. Türkiye, DSÖ'ye üyedir.",
+    "examples": [
+      "DSÖ, salgın hastalıklarla mücadele konusunda ülkelere rehberlik eder.",
+      "DSÖ, aşı programlarının geliştirilmesi ve uygulanmasını destekler."
+    ],
+    "relatedTerms": [
+      "Halk Sağlığı",
+      "Pandemi",
+      "Küresel Sağlık"
+    ],
+    "order": 62
+  },
+  {
+    "id": "g8_gelismekte_olan_ulkeler",
+    "term": "D-8 (Gelişen Sekiz Ülke)",
+    "definition": "Gelişmekte olan ülkeler arasında ekonomik işbirliğini geliştirmek amacıyla Türkiye'nin girişimiyle kurulan bir örgüttür. Üye ülkeler arasında ticaret, sanayi, bankacılık ve turizm gibi alanlarda işbirliğini teşvik eder.",
+    "examples": [
+      "D-8 zirvelerinde üye ülkeler arasındaki ticari ilişkilerin ele alınması.",
+      "Türkiye'nin D-8 Dönem Başkanlığı yapması."
+    ],
+    "relatedTerms": [
+      "Güney-Güney İşbirliği",
+      "Ekonomik Entegrasyon",
+      "Ticaret Hacmi"
+    ],
+    "order": 63
+  },
+  {
+    "id": "turk_devletleri_teskilati",
+    "term": "Türk Devletleri Teşkilatı (TDT)",
+    "definition": "Türk dili konuşan devletler arasında kapsamlı işbirliğini teşvik etmek amacıyla kurulmuş uluslararası bir örgüttür. Eskiden Türk Konseyi olarak bilinen bu kurum, siyasi, ekonomik ve kültürel alanlarda işbirliğini hedefler.",
+    "examples": [
+      "TDT zirvelerinde bölgesel konuların ele alınması.",
+      "Ortak Türk kültürü ve mirasın korunması projeleri."
+    ],
+    "relatedTerms": [
+      "Türk Kültürü",
+      "Ortak Tarih",
+      "Türksoy"
+    ],
+    "order": 64
+  },
+  {
+    "id": "asya_altyapi_yatirim_bankasi",
+    "term": "Asya Altyapı Yatırım Bankası (AAYB)",
+    "definition": "Asya'da ve ötesinde sürdürülebilir ekonomik kalkınmayı desteklemek için altyapı projelerine finansman sağlayan çok taraflı bir kalkınma bankasıdır. Türkiye, AAYB'nin kurucu üyelerindendir.",
+    "examples": [
+      "Türkiye'nin AAYB'den demiryolu projeleri için finansman sağlaması.",
+      "AAYB'nin İpek Yolu güzergahındaki altyapı yatırımları."
+    ],
+    "relatedTerms": [
+      "Kalkınma Bankacılığı",
+      "Altyapı Finansmanı",
+      "Yeni İpek Yolu"
+    ],
+    "order": 65
+  },
+  {
+    "id": "uluslararasi_enerji_forumu",
+    "term": "Uluslararası Enerji Forumu (IEF)",
+    "definition": "Dünyanın en büyük enerji bakanları toplantısıdır ve küresel enerji diyaloğunu kolaylaştırır. Üretici ve tüketici ülkeler arasındaki enerji güvenliği ve sürdürülebilirliği konularında işbirliğini teşvik eder.",
+    "examples": [
+      "Türkiye'nin enerji güvenliği stratejilerinin IEF'de sunulması.",
+      "IEF'in petrol ve gaz piyasaları üzerine raporları."
+    ],
+    "relatedTerms": [
+      "Enerji Güvenliği",
+      "Enerji Politikaları",
+      "Yenilenebilir Enerji"
+    ],
+    "order": 66
+  },
+  {
+    "id": "g77_cin",
+    "term": "G-77 ve Çin",
+    "definition": "Gelişmekte olan ülkelerin Birleşmiş Milletler'deki çıkarlarını koordine etmek ve ortak müzakere gücü oluşturmak amacıyla kurulmuş bir gruptur. Türkiye, bu grubun aktif üyelerindendir.",
+    "examples": [
+      "BM Genel Kurulu'nda G-77 ve Çin'in ortak bildiri yayınlaması.",
+      "İklim değişikliği müzakerelerinde gelişmekte olan ülkelerin pozisyonlarının savunulması."
+    ],
+    "relatedTerms": [
+      "Kalkınma Diplomasisi",
+      "Çok Taraflı Diplomasi",
+      "Küresel Yönetişim"
+    ],
+    "order": 67
+  },
+  {
+    "id": "dunya_bankasi",
+    "term": "Dünya Bankası",
+    "definition": "Gelişmekte olan ülkelerde yoksulluğu azaltmak ve sürdürülebilir kalkınmayı desteklemek amacıyla finansal ve teknik yardım sağlayan uluslararası bir kuruluştur. Türkiye, Dünya Bankası'nın üyesidir.",
+    "examples": [
+      "Dünya Bankası, altyapı projelerine finansman sağlar.",
+      "Eğitim ve sağlık projeleri, Dünya Bankası'nın desteklediği alanlardandır."
+    ],
+    "relatedTerms": [
+      "Uluslararası İmar ve Kalkınma Bankası (IBRD)",
+      "Uluslararası Kalkınma Birliği (IDA)",
+      "Kalkınma Yardımı"
+    ],
+    "order": 68
+  },
+  {
+    "id": "avrupa_yeniden_imar_kalkinma_bankasi",
+    "term": "Avrupa İmar ve Kalkınma Bankası (EBRD)",
+    "definition": "Eski Doğu Bloku ülkeleri ve Orta Asya'da piyasa ekonomisine geçişi desteklemek amacıyla kurulmuş uluslararası bir finans kuruluşudur. Türkiye, EBRD'nin kurucu üyelerindendir ve önemli bir operasyon alanıdır.",
+    "examples": [
+      "EBRD, özel sektör yatırımlarını destekler.",
+      "Enerji verimliliği ve altyapı projeleri, EBRD'nin finansman sağladığı alanlardır."
+    ],
+    "relatedTerms": [
+      "Piyasa Ekonomisi",
+      "Geçiş Ekonomileri",
+      "Yatırım Bankacılığı"
+    ],
+    "order": 69
+  },
+  {
+    "id": "gida_tarim_orgutu",
+    "term": "Gıda ve Tarım Örgütü (FAO)",
+    "definition": "Açlığı sona erdirmek, gıda güvenliğini sağlamak ve sürdürülebilir tarımı geliştirmek amacıyla çalışan bir BM uzmanlık kuruluşudur. Türkiye, FAO'nun üyesidir.",
+    "examples": [
+      "FAO, gıda krizleriyle mücadele için programlar yürütür.",
+      "Tarım ve balıkçılık sektöründe sürdürülebilir uygulamaları teşvik eder."
+    ],
+    "relatedTerms": [
+      "Gıda Güvenliği",
+      "Sürdürülebilir Tarım",
+      "Kırsal Kalkınma"
+    ],
+    "order": 70
+  },
+  {
+    "id": "karadeniz_ekonomik_isbirligi_orgutu",
+    "term": "Karadeniz Ekonomik İşbirliği Örgütü (KEİ)",
+    "definition": "Karadeniz havzasındaki ülkeler arasında ekonomik işbirliğini geliştirmeyi amaçlayan bölgesel bir kuruluştur. Türkiye'nin kurucu üyelerinden biridir ve bölgesel istikrar ile refahın artırılmasına katkıda bulunur.",
+    "examples": [
+      "KEİ, üye ülkeler arasında ticaret, ulaştırma ve enerji alanlarında projeler yürütmektedir.",
+      "Türkiye, KEİ bünyesinde çeşitli çalışma gruplarına aktif olarak katılmaktadır."
+    ],
+    "relatedTerms": [
+      "Bölgesel İşbirliği",
+      "Ekonomik Diplomasi",
+      "Çok Taraflı Anlaşmalar"
+    ],
+    "order": 71
+  },
+  {
+    "id": "birlesmis_milletler_sanayi_kalkinma_orgutu",
+    "term": "Birleşmiş Milletler Sanayi Kalkınma Örgütü (UNIDO)",
+    "definition": "Gelişmekte olan ülkelerde sürdürülebilir sanayi kalkınmasını teşvik etmek ve sanayi üretimini artırmak amacıyla kurulan BM'ye bağlı bir kuruluştur. Teknik yardım ve kapasite geliştirme desteği sunar.",
+    "examples": [
+      "UNIDO, yeşil sanayi ve enerji verimliliği projelerine destek vermektedir.",
+      "Türkiye, UNIDO'nun faaliyetlerine aktif olarak katılmaktadır."
+    ],
+    "relatedTerms": [
+      "Sanayi Politikası",
+      "Sürdürülebilir Kalkınma",
+      "Teknik Yardım"
+    ],
+    "order": 72
+  },
+  {
+    "id": "karadeniz_ticaret_ve_kalkinma_bankasi",
+    "term": "Karadeniz Ticaret ve Kalkınma Bankası (BSTDB)",
+    "definition": "Karadeniz Ekonomik İşbirliği (KEİ) üyesi ülkelerin ekonomik kalkınmasını ve bölgesel işbirliğini desteklemek amacıyla kurulmuş uluslararası bir finans kuruluşudur. Kamu ve özel sektör projelerine finansman sağlar.",
+    "examples": [
+      "BSTDB, enerji ve ulaştırma altyapı projelerine kredi vermektedir.",
+      "Türkiye, BSTDB'nin en büyük hissedarlarından biridir."
+    ],
+    "relatedTerms": [
+      "Karadeniz Ekonomik İşbirliği",
+      "Bölgesel Kalkınma Bankaları",
+      "Altyapı Projeleri"
+    ],
+    "order": 73
+  },
+  {
+    "id": "uluslararasi_yenilenebilir_enerji_ajansi",
+    "term": "Uluslararası Yenilenebilir Enerji Ajansı (IRENA)",
+    "definition": "Yenilenebilir enerjinin dünya çapında yaygın ve sürdürülebilir kullanımını teşvik etmek amacıyla kurulmuş hükümetler arası bir kuruluştur. Üye ülkelere politika tavsiyeleri sunar.",
+    "examples": [
+      "IRENA, güneş ve rüzgar enerjisi projelerinin geliştirilmesini desteklemektedir.",
+      "Türkiye, yenilenebilir enerji hedeflerine ulaşmak için IRENA ile işbirliği yapmaktadır."
+    ],
+    "relatedTerms": [
+      "Yenilenebilir Enerji",
+      "Sürdürülebilir Kalkınma",
+      "Enerji Politikaları"
+    ],
+    "order": 74
   }
 ]

@@ -633,7 +633,7 @@
     "topicId": "80e0wkTLvaTQzPD6puB7",
     "subtopicId": "kaynastirma-harfleri",
     "subtopic": "Kaynaştırma Ünsüzleri",
-    "q": "Aşağıdaki cümlelerin hangisinde kaynaştürma ünsüzü (y, ş, s, n) kullanılmamıştır",
+    "q": "Aşağıdaki cümlelerin hangisinde kaynaştürma ünsüzü (y, ş, s, n) kullanılmamıştır?",
     "o": [
       "Kapının kolu bozulmuçtu.",
       "İkişerli gruplar halinde dizildiler.",
@@ -684,7 +684,7 @@
     "topicId": "80e0wkTLvaTQzPD6puB7",
     "subtopicId": "unsuz-benzemesi",
     "subtopic": "Ünsüz Benzeşmesi (Sertleşmesi)",
-    "q": "Bu parçada aşağıdaki ses olaylarından hangisi **yoktur**?\n\n'Sokaktan geçen satıcıların sesleri, hafifçe aralanmış pencereden içeri süzülüyordu. Akşamın hüznü yavaşça çöküyordu şehre.'",
+    "q": "Bu parçada aşağıdaki ses olaylarından hangisi **yoktur**?\n\n'Sokaktan geçen satıcıların sesleri, hafifçe aralanmış pencereden içeri süzülüyordu. Akşamın hüznü yavaşça çöküyordu şehre.'?",
     "o": [
       "Ünsüz benzeşmesi",
       "Ünlü düşmesi",
@@ -2010,7 +2010,7 @@
     "topicId": "80e0wkTLvaTQzPD6puB7",
     "subtopicId": "sozcuk-turleri-karma",
     "subtopic": "Karma Sözcük Türleri",
-    "q": "Bu parçada aşağıdakilerden hangisi **yoktur**?\n\n(I) Eski İstanbul sokaklarında dolaşırken insan kendini bir masalın içinde hisseder. (II) Ahşap evlerin cumbaları, sanki yorgunluktan sokağa eğilmiştir. (III) Arnavut kaldırımlı dar yollarda yürümek, geçmişe yapılan sessiz bir yolculuk gibidir. (IV) Burada zaman, modern dünyanın o baş döndürücü hızına inat ağır akar. (V) Her köşe başışığında sizi karşılayan tarih, unutulmaya yüz tutmuş anıları canlandırır.",
+    "q": "Bu parçada aşağıdakilerden hangisi **yoktur**?\n\n(I) Eski İstanbul sokaklarında dolaşırken insan kendini bir masalın içinde hisseder. (II) Ahşap evlerin cumbaları, sanki yorgunluktan sokağa eğilmiştir. (III) Arnavut kaldırımlı dar yollarda yürümek, geçmişe yapılan sessiz bir yolculuk gibidir. (IV) Burada zaman, modern dünyanın o baş döndürücü hızına inat ağır akar. (V) Her köşe başışığında sizi karşılayan tarih, unutulmaya yüz tutmuş anıları canlandırır?",
     "o": [
       "Dönüşlülük zamiri",
       "Birleşik yapılı fiil",
@@ -3608,7 +3608,7 @@
     "topicId": "80e0wkTLvaTQzPD6puB7",
     "subtopicId": "ses-bilgisi-karma",
     "subtopic": "Karma Ses Bilgisi (Öncüllü)",
-    "q": "\"Sararmış yapraklar rüzgârda savrulurken, gönlümdeki hüzün de artıyordu.\"\n\nBu cümlede aşağıdaki ses olaylarından hangileri vardır?\n\nI. Ünlü düşmesi\nII. Ünsüz yumuşaması\nIII. Ünsüz benzeşmesi\nIV. Ünlü daralması",
+    "q": "\"Sararmış yapraklar rüzgârda savrulurken, gönlümdeki hüzün de artıyordu.\"\n\nBu cümlede aşağıdaki ses olaylarından hangileri vardır?\n\nI. Ünlü düşmesi\nII. Ünsüz yumuşaması\nIII. Ünsüz benzeşmesi\nIV. Ünlü daralması?",
     "o": [
       "Yalnız I",
       "I ve II",
@@ -3761,7 +3761,7 @@
     "topicId": "80e0wkTLvaTQzPD6puB7",
     "subtopicId": "kaynastirma",
     "subtopic": "Kaynaştırma Ünsüzleri",
-    "q": "Türkçede 'y, ş, s, n' sesleri kaynaştırma ünsüzü olarak kullanılır. Aşağıdaki altı çizili sözcüklerin hangisinde kaynaştırma ünsüzünün işlevi diğerlerinden farklıdır? (Soru teknik nedenlerle altı çizili yerine parantez içi belirtilmiştir.)",
+    "q": "Türkçede 'y, ş, s, n' sesleri kaynaştırma ünsüzü olarak kullanılır. Aşağıdaki altı çizili sözcüklerin hangisinde kaynaştırma ünsüzünün işlevi diğerlerinden farklıdır? (Soru teknik nedenlerle altı çizili yerine parantez içi belirtilmiştir.)?",
     "o": [
       "Masanın (ayağı) kırılmıştı.",
       "Onun (düşüncesi) bizim için önemliydi.",

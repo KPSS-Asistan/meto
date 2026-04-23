@@ -1308,5 +1308,466 @@
       "Lozan Antlaşması"
     ],
     "order": 88
+  },
+  {
+    "id": "senedi_ittifak_kapsam",
+    "term": "Ayan",
+    "definition": "Taşrada nüfuz sahibi olan, devletle halk arasında köprü görevi gören yerel güçlerdir. Özellikle merkezi otoritenin zayıfladığı dönemlerde güç kazanmışlardır.",
+    "examples": [
+      "Tepedelenli Ali Paşa",
+      "Ayanların vergi toplaması"
+    ],
+    "relatedTerms": [
+      "Sened-i İttifak",
+      "Merkezi Otorite",
+      "II. Mahmut"
+    ],
+    "order": 89
+  },
+  {
+    "id": "müsadere_usulü",
+    "term": "Müsadere Usulü",
+    "definition": "Devletin, görevden alınan veya ölen devlet memurlarının mallarına el koymasıdır. Özel mülkiyetin gelişimini engellemiş, Fatih Sultan Mehmet döneminden itibaren uygulanmıştır.",
+    "examples": [
+      "Çandarlı Halil Paşa'nın mallarına el konulması"
+    ],
+    "relatedTerms": [
+      "Özel Mülkiyet",
+      "Tımar Sistemi",
+      "Merkezi Otorite"
+    ],
+    "order": 90
+  },
+  {
+    "id": "ihtisab_agasi",
+    "term": "İhtisab Ağası",
+    "definition": "Osmanlı şehirlerinde çarşı ve pazarın denetiminden, fiyatların kontrolünden ve esnafın kurallara uygun çalışmasından sorumlu görevlidir.",
+    "examples": [
+      "Narh sisteminin uygulanması",
+      "Ürün kalitesinin kontrolü"
+    ],
+    "relatedTerms": [
+      "Narh Sistemi",
+      "Lonca",
+      "Muhtesip"
+    ],
+    "order": 91
+  },
+  {
+    "id": "sancak_beyi",
+    "term": "Sancak Beyi",
+    "definition": "Taşra teşkilatında sancağın yönetiminden sorumlu olan, güvenliği sağlayan ve merkezden atanan askeri ve idari yöneticidir.",
+    "examples": [
+      "Sancaklarda asayişin sağlanması",
+      "Tımar sisteminin denetimi"
+    ],
+    "relatedTerms": [
+      "Taşra Teşkilatı",
+      "Beylerbeyi",
+      "Tımar"
+    ],
+    "order": 92
+  },
+  {
+    "id": "cullus_bahsisi",
+    "term": "Cülus Bahşişi",
+    "definition": "Padişahların tahta çıkışlarında Kapıkulu askerlerine dağıttıkları geleneksel paradır. Fatih Sultan Mehmet döneminde kanunlaşmıştır.",
+    "examples": [
+      "Padişah değişikliğinde askere ödenen ücret",
+      "Tahta çıkış merasimi"
+    ],
+    "relatedTerms": [
+      "Kapıkulu",
+      "Yeniçeri",
+      "Padişah"
+    ],
+    "order": 93
+  },
+  {
+    "id": "niyabet_saltanati",
+    "term": "Niyabet-i Saltanat",
+    "definition": "Padişahın çocuk yaşta olması veya uzun süre başkentte bulunmaması durumunda devleti yöneten makamdır. Genellikle sadrazamlar bu görevi üstlenmiştir.",
+    "examples": [
+      "Fatih Sultan Mehmet'in ilk tahta çıkışı",
+      "Padişahın sefere çıkması"
+    ],
+    "relatedTerms": [
+      "Sadrazam",
+      "Padişah",
+      "Vekil-i Mutlak"
+    ],
+    "order": 94
+  },
+  {
+    "id": "buyuk_elcilik",
+    "term": "Daimi Elçilikler",
+    "definition": "III. Selim döneminde Avrupa başkentlerinde açılan sürekli temsilciliklerdir. Avrupa'daki gelişmelerin yakından takip edilmesi amaçlanmıştır.",
+    "examples": [
+      "Londra Elçiliği",
+      "Paris Elçiliği"
+    ],
+    "relatedTerms": [
+      "III. Selim",
+      "Nizam-ı Cedid",
+      "Diplomasi"
+    ],
+    "order": 95
+  },
+  {
+    "id": "istibdat_donemi",
+    "term": "İstibdat Dönemi",
+    "definition": "II. Abdülhamid'in 1878'de Meclis-i Mebusan'ı kapatmasıyla başlayan baskıcı yönetim dönemidir. 1908'de II. Meşrutiyet'in ilanıyla sona ermiştir.",
+    "examples": [
+      "Sansür uygulamaları",
+      "Hafiye teşkilatı"
+    ],
+    "relatedTerms": [
+      "II. Abdülhamid",
+      "Kanun-i Esasi",
+      "Meşrutiyet"
+    ],
+    "order": 96
+  },
+  {
+    "id": "buyruk_ve_berat",
+    "term": "Berat",
+    "definition": "Padişahın bir göreve atama yaparken veya bir ayrıcalık tanırken verdiği resmi belgedir. Osmanlı bürokrasisinde yetkiyi belgeleyen temel dokümandır.",
+    "examples": [
+      "Vali atamalarında verilen berat",
+      "Ticari imtiyazların beratla onaylanması"
+    ],
+    "relatedTerms": [
+      "Ferman",
+      "Nişan",
+      "Divan-ı Hümayun"
+    ],
+    "order": 97
+  },
+  {
+    "id": "terakkiperver_cumhuriyet_firkasi",
+    "term": "Terakkiperver Cumhuriyet Fırkası",
+    "definition": "Cumhuriyet döneminin ilk muhalefet partisidir. Liberal ekonomi modelini benimsemiş ve dini inançlara saygılı olma ilkesiyle hareket etmiştir.",
+    "examples": [
+      "Kazım Karabekir'in genel başkan olması",
+      "Şeyh Sait İsyanı ile ilişkilendirilip kapatılması"
+    ],
+    "relatedTerms": [
+      "Çok Partili Hayat",
+      "Cumhuriyet",
+      "Muhalefet"
+    ],
+    "order": 98
+  },
+  {
+    "id": "hicaz_demir_yolu",
+    "term": "Hicaz Demiryolu",
+    "definition": "II. Abdülhamid döneminde İslam dünyasını birbirine bağlamak ve kutsal topraklara ulaşımı kolaylaştırmak amacıyla inşa edilen stratejik demiryolu projesidir.",
+    "examples": [
+      "Şam-Medine hattı",
+      "İslamcılık politikası"
+    ],
+    "relatedTerms": [
+      "II. Abdülhamid",
+      "İslamcılık",
+      "Panislamizm"
+    ],
+    "order": 99
+  },
+  {
+    "id": "kanunname_i_ali_osman",
+    "term": "Kanunname-i Âli Osman",
+    "definition": "Fatih Sultan Mehmet tarafından hazırlatılan, Osmanlı Devleti'nin örfi hukuk kurallarını ve devlet teşkilatının işleyişini düzenleyen kanunlar bütünüdür. Kardeş katli yasası gibi tartışmalı maddeleri de içermiştir.",
+    "examples": [
+      "Fatih Kanunnamesi olarak da bilinen bu belge, merkezi otoriteyi güçlendirmeyi amaçlamıştır.",
+      "Devletin yönetim yapısı ve protokol kuralları bu kanunname ile belirlenmiştir."
+    ],
+    "relatedTerms": [
+      "Fatih Sultan Mehmet",
+      "Örfi Hukuk",
+      "Şeri Hukuk"
+    ],
+    "order": 100
+  },
+  {
+    "id": "ilk_turk_islam_devletleri",
+    "term": "İlk Türk İslam Devletleri",
+    "definition": "Karahanlılar, Gazneliler, Büyük Selçuklular gibi Türklerin İslamiyet'i kabul ettikten sonra kurdukları devletlerdir. Bu devletler, Türk-İslam sentezinin oluşmasında ve İslam medeniyetinin yayılmasında önemli rol oynamışlardır.",
+    "examples": [
+      "Karahanlılar, Türkçeyi resmi dil olarak kullanan ilk Türk İslam devletidir.",
+      "Gazneliler, Hindistan'a seferler düzenleyerek İslamiyet'in yayılmasına katkıda bulunmuştur."
+    ],
+    "relatedTerms": [
+      "Karahanlılar",
+      "Gazneliler",
+      "Büyük Selçuklu Devleti"
+    ],
+    "order": 101
+  },
+  {
+    "id": "osmanlicilik",
+    "term": "Osmanlıcılık",
+    "definition": "Osmanlı Devleti'ni dağılmaktan kurtarmak amacıyla ortaya atılan fikir akımlarından biridir. Dil, din, ırk ayrımı yapmaksızın tüm Osmanlı vatandaşlarını eşit kabul ederek ortak bir Osmanlı kimliği oluşturmayı hedeflemiştir.",
+    "examples": [
+      "Tanzimat ve Islahat Fermanları, Osmanlıcılık akımının yansımalarıdır.",
+      "Bu akım, Balkan Savaşları ile birlikte önemini yitirmiştir."
+    ],
+    "relatedTerms": [
+      "İslamcılık",
+      "Türkçülük",
+      "Batıcılık",
+      "Tanzimat Fermanı"
+    ],
+    "order": 102
+  },
+  {
+    "id": "panislamizm",
+    "term": "Panislamizm (İslamcılık)",
+    "definition": "Osmanlı Devleti'ni dağılmaktan kurtarmak amacıyla ortaya atılan fikir akımlarından biridir. Tüm Müslümanları halifenin etrafında birleştirerek güçlü bir İslam birliği oluşturmayı amaçlamıştır.",
+    "examples": [
+      "II. Abdülhamit döneminde devlet politikası olarak benimsenmiştir.",
+      "I. Dünya Savaşı'nda halifenin cihat çağrısı Panislamizm ideolojisinin bir yansımasıydı."
+    ],
+    "relatedTerms": [
+      "Osmanlıcılık",
+      "Türkçülük",
+      "II. Abdülhamit",
+      "Halifelik"
+    ],
+    "order": 103
+  },
+  {
+    "id": "turkculuk_turancilik",
+    "term": "Türkçülük / Turancılık",
+    "definition": "Osmanlı Devleti'ni dağılmaktan kurtarmak amacıyla ortaya atılan fikir akımlarından biridir. Tüm dünya Türklerini tek bir devlet çatısı altında birleştirmeyi hedeflemiştir. Ziya Gökalp ve Yusuf Akçura gibi isimler önemli temsilcileridir.",
+    "examples": [
+      "İttihat ve Terakki Cemiyeti'nin son dönemlerinde etkili olmuştur.",
+      "Enver Paşa'nın Sarıkamış Harekatı'nda Turancılık ideolojisinin etkisi olduğu söylenir."
+    ],
+    "relatedTerms": [
+      "Osmanlıcılık",
+      "İslamcılık",
+      "İttihat ve Terakki",
+      "Ziya Gökalp"
+    ],
+    "order": 104
+  },
+  {
+    "id": "uc_tarz_i_siyaset",
+    "term": "Üç Tarz-ı Siyaset",
+    "definition": "Yusuf Akçura'nın 1904 yılında yayımladığı makale olup, Osmanlı Devleti'nin kurtuluşu için öne sürülen Osmanlıcılık, İslamcılık ve Türkçülük fikir akımlarını karşılaştırır. Makale, Türkçülük akımının önemini vurgulamıştır.",
+    "examples": [
+      "Bu makale, Türkçülük akımının teorik temellerini atmıştır.",
+      "Osmanlı aydınları arasında büyük tartışmalara yol açmıştır."
+    ],
+    "relatedTerms": [
+      "Yusuf Akçura",
+      "Osmanlıcılık",
+      "İslamcılık",
+      "Türkçülük"
+    ],
+    "order": 105
+  },
+  {
+    "id": "uc_beyligi",
+    "term": "Uç Beyliği",
+    "definition": "Osmanlı Devleti'nin kuruluş döneminde Bizans sınırında yer alan ve fetihler yaparak topraklarını genişleten beyliklerdir. Bu beylikler, gaza ve cihat anlayışıyla hareket ederek Osmanlı'nın büyümesinde önemli rol oynamışlardır.",
+    "examples": [
+      "Osmanlı Beyliği, Söğüt ve Domaniç civarında bir uç beyliği olarak kurulmuştur.",
+      "Uç beyleri, fetihlerde öncü rol oynayarak gaza ruhunu canlı tutmuşlardır."
+    ],
+    "relatedTerms": [
+      "Gaza ve Cihat",
+      "Bizans İmparatorluğu",
+      "Fetih Politikası",
+      "Osmanlı Kuruluşu"
+    ],
+    "order": 106
+  },
+  {
+    "id": "koyunhisar_savasi",
+    "term": "Koyunhisar Savaşı (Bafeus Savaşı)",
+    "definition": "1302 yılında Osmanlı Beyliği ile Bizans İmparatorluğu arasında gerçekleşen ve Osmanlı'nın Bizans'a karşı kazandığı ilk büyük zaferdir. Bu savaş, Osmanlı'nın bölgedeki gücünü artırmış ve kuruluş sürecini hızlandırmıştır.",
+    "examples": [
+      "Koyunhisar Savaşı, Osmanlı'nın bağımsızlık yolundaki önemli adımlarından biridir.",
+      "Bu zafer, Osman Gazi'nin karizmasını artırmıştır."
+    ],
+    "relatedTerms": [
+      "Osman Gazi",
+      "Bizans İmparatorluğu",
+      "Osmanlı Kuruluşu",
+      "Domaniç Savaşı"
+    ],
+    "order": 107
+  },
+  {
+    "id": "kanuni_kadim",
+    "term": "Kanun-i Kadim",
+    "definition": "Osmanlı Devleti'nde gelenekselleşmiş, köklü ve değişmez kabul edilen devlet düzeni, yasaları ve kurumları ifade eden genel bir kavramdır. Özellikle 17. yüzyıldan itibaren bozulan düzeni eski haline getirme çabalarında referans noktası olmuştur.",
+    "examples": [
+      "Osmanlı ıslahatçıları, Kanun-i Kadim'e dönme çağrıları yaparak bozulmaları gidermeye çalışmışlardır.",
+      "Yeniçeriler, Kanun-i Kadim'e aykırı gördükleri yeniliklere karşı çıkmışlardır."
+    ],
+    "relatedTerms": [
+      "Adaletname",
+      "Islahat",
+      "Merkezi Otorite"
+    ],
+    "order": 108
+  },
+  {
+    "id": "üçlü_ittifak",
+    "term": "Üçlü İttifak (Bağlaşma)",
+    "definition": "I. Dünya Savaşı öncesinde Almanya, Avusturya-Macaristan ve İtalya arasında kurulan askeri ve siyasi bloktur. Osmanlı Devleti, savaşın ilerleyen dönemlerinde bu ittifaka katılmıştır.",
+    "examples": [
+      "İtalya, savaş başlayınca İttifak'tan ayrılarak İtilaf Devletleri safına geçmiştir.",
+      "Osmanlı Devleti, Almanya'nın desteğiyle bu bloka dahil olmuştur."
+    ],
+    "relatedTerms": [
+      "Üçlü İtilaf",
+      "I. Dünya Savaşı",
+      "Almanya",
+      "Avusturya-Macaristan"
+    ],
+    "order": 109
+  },
+  {
+    "id": "üçlü_itilaf",
+    "term": "Üçlü İtilaf (Anlaşma)",
+    "definition": "I. Dünya Savaşı öncesinde İngiltere, Fransa ve Rusya arasında kurulan askeri ve siyasi bloktur. Savaş sırasında bu bloka başka devletler de katılarak İtilaf Devletleri grubunu oluşturmuşlardır.",
+    "examples": [
+      "İtilaf Devletleri, Osmanlı topraklarını kendi aralarında paylaşma planları yapmışlardır.",
+      "ABD'nin savaşa girmesiyle İtilaf bloğu daha da güçlenmiştir."
+    ],
+    "relatedTerms": [
+      "Üçlü İttifak",
+      "I. Dünya Savaşı",
+      "İngiltere",
+      "Fransa",
+      "Rusya"
+    ],
+    "order": 110
+  },
+  {
+    "id": "kanuni_esas_ilk_anayasa",
+    "term": "Kanun-i Esasi (İlk Osmanlı Anayasası)",
+    "definition": "23 Aralık 1876'da ilan edilen, Osmanlı Devleti'nin ilk anayasasıdır. Jön Türkler'in çabaları ve Mithat Paşa'nın etkisiyle II. Abdülhamid döneminde yürürlüğe girmiştir. Bu anayasa ile meşrutiyet yönetimine geçilerek halkın yönetime katılımı sağlanmış, çift meclisli (Ayan ve Mebusan) bir parlamento kurulmuştur.",
+    "examples": [
+      "Kanun-i Esasi'nin ilanıyla Birinci Meşrutiyet dönemi başlamıştır.",
+      "Padişaha geniş yetkiler tanıması ve meclisi feshetme hakkı vermesi önemli bir özelliğidir."
+    ],
+    "relatedTerms": [
+      "Birinci Meşrutiyet",
+      "İkinci Meşrutiyet",
+      "Jön Türkler",
+      "Mithat Paşa",
+      "Meclis-i Mebusan"
+    ],
+    "order": 111
+  },
+  {
+    "id": "duyun_u_umumiye_idaresi",
+    "term": "Duyun-u Umumiye İdaresi (Genel Borçlar İdaresi)",
+    "definition": "1881'de Muharrem Kararnamesi ile kurulan, Osmanlı Devleti'nin dış borçlarını tahsil etmek amacıyla alacaklı devletler tarafından oluşturulan uluslararası bir kurumdur. Osmanlı Devleti'nin bazı gelir kaynaklarına (tuz, tütün, ipek, pul vb.) doğrudan el koyarak borçları ödemiştir. Bu durum, Osmanlı'nın ekonomik bağımsızlığını kaybetmesinin en somut göstergelerinden biridir.",
+    "examples": [
+      "Duyun-u Umumiye İdaresi, Osmanlı ekonomisinin uluslararası denetime girdiğinin kanıtıdır.",
+      "Bu kurumun varlığı, Osmanlı'nın kapitülasyonlar nedeniyle yaşadığı ekonomik sıkıntıların bir sonucudur."
+    ],
+    "relatedTerms": [
+      "Kapitülasyonlar",
+      "Dış Borçlar",
+      "Muharrem Kararnamesi",
+      "Ekonomik Bağımsızlık"
+    ],
+    "order": 112
+  },
+  {
+    "id": "genç_osmanlilar",
+    "term": "Genç Osmanlılar (Jön Türkler)",
+    "definition": "19. yüzyılın ikinci yarısında ortaya çıkan, meşrutiyetin ilanını ve anayasal bir yönetimi savunan aydın ve bürokrat grubudur. Namık Kemal, Ziya Paşa gibi isimler öne çıkmıştır.",
+    "examples": [
+      "Genç Osmanlılar, Abdülaziz dönemindeki mutlakiyetçi yönetime karşı çıkmışlardır.",
+      "1876 Kanun-i Esasi'nin ilanında etkili olmuşlardır."
+    ],
+    "relatedTerms": [
+      "Meşrutiyet",
+      "Kanun-i Esasi",
+      "Namık Kemal"
+    ],
+    "order": 113
+  },
+  {
+    "id": "kutsal_ittifak_savaslari",
+    "term": "Kutsal İttifak Savaşları",
+    "definition": "1683 II. Viyana Kuşatması sonrası Osmanlı'ya karşı Avrupa devletlerinin (Avusturya, Lehistan, Venedik, Rusya, Malta) oluşturduğu ittifakın yaptığı savaşlardır. Bu savaşlar Osmanlı'nın büyük toprak kayıplarına yol açmıştır.",
+    "examples": [
+      "Kutsal İttifak Savaşları sonucunda Karlofça Antlaşması imzalanmıştır.",
+      "Bu savaşlar Osmanlı'nın gerileme dönemine girmesinde önemli bir etkendir."
+    ],
+    "relatedTerms": [
+      "Karlofça Antlaşması",
+      "II. Viyana Kuşatması",
+      "Gerileme Dönemi"
+    ],
+    "order": 114
+  },
+  {
+    "id": "ziştovi_antlasmasi",
+    "term": "Ziştovi Antlaşması",
+    "definition": "1791 yılında Osmanlı Devleti ile Avusturya arasında imzalanan antlaşmadır. Avusturya, Fransız İhtilali'nin etkisiyle savaştan çekilmiş ve aldığı yerleri geri vermiştir. Bu, Osmanlı'nın son kazançlı antlaşmalarından biridir.",
+    "examples": [
+      "Ziştovi Antlaşması, Osmanlı-Avusturya savaşlarına son vermiştir.",
+      "Fransız İhtilali'nin Avrupa siyasetine etkisi bu antlaşmada görülmüştür."
+    ],
+    "relatedTerms": [
+      "Fransız İhtilali",
+      "Yaş Antlaşması",
+      "III. Selim"
+    ],
+    "order": 115
+  },
+  {
+    "id": "yaş_antlasmasi",
+    "term": "Yaş Antlaşması",
+    "definition": "1792 yılında Osmanlı Devleti ile Rusya arasında imzalanan antlaşmadır. Kırım'ın Rusya'ya ait olduğu kesinleşmiş ve Osmanlı'nın gerileme dönemi bitişi, dağılma döneminin başlangıcı olarak kabul edilir.",
+    "examples": [
+      "Yaş Antlaşması ile Kırım'ın kaybı kesinleşmiştir.",
+      "Bu antlaşma, Osmanlı'nın dağılma sürecine girdiğinin önemli bir göstergesidir."
+    ],
+    "relatedTerms": [
+      "Kırım",
+      "Ziştovi Antlaşması",
+      "Dağılma Dönemi"
+    ],
+    "order": 116
+  },
+  {
+    "id": "kabakci_mustafa_isyani",
+    "term": "Kabakçı Mustafa İsyanı",
+    "definition": "1807'de Nizam-ı Cedid ordusuna karşı çıkan ve III. Selim'in tahttan indirilmesine neden olan isyandır. Bu isyan, reform hareketlerinin önündeki engelleri göstermiştir.",
+    "examples": [
+      "Kabakçı Mustafa İsyanı sonucunda III. Selim tahttan indirilmiş ve IV. Mustafa padişah olmuştur.",
+      "Nizam-ı Cedid ordusu bu isyanla dağıtılmıştır."
+    ],
+    "relatedTerms": [
+      "Nizam-ı Cedid",
+      "III. Selim",
+      "Alemdar Mustafa Paşa"
+    ],
+    "order": 117
+  },
+  {
+    "id": "navarin_olayi",
+    "term": "Navarin Olayı",
+    "definition": "1827 yılında İngiliz, Fransız ve Rus donanmalarının, Yunan isyanını desteklemek amacıyla Osmanlı ve Mısır donanmalarını Navarin'de yakması olayıdır. Bu olay, Yunanistan'ın bağımsızlığına giden süreci hızlandırmıştır.",
+    "examples": [
+      "Navarin Olayı, Osmanlı donanmasının büyük bir darbe almasına neden olmuştur.",
+      "Bu olay, Avrupa devletlerinin Osmanlı'nın iç işlerine müdahalesinin açık bir göstergesidir."
+    ],
+    "relatedTerms": [
+      "Yunan İsyanı",
+      "Londra Antlaşması (1830)",
+      "II. Mahmud"
+    ],
+    "order": 118
   }
 ]

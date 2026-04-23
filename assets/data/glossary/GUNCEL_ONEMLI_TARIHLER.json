@@ -742,5 +742,385 @@
       "Milli Mücadele"
     ],
     "order": 49
+  },
+  {
+    "id": "mudanya_ateskesi",
+    "term": "Mudanya Ateşkes Antlaşması",
+    "definition": "Türk Kurtuluş Savaşı'nın Batı Cephesi'ndeki sıcak çatışmaları sona erdiren ve Lozan Barış Konferansı'na zemin hazırlayan antlaşmadır. Doğu Trakya, İstanbul ve Boğazlar savaş yapılmadan kurtarılmıştır.",
+    "examples": [
+      "İtilaf Devletleri'nin TBMM Hükümeti'ni resmen tanıdığı ilk belgedir.",
+      "İngiltere'de hükümet değişikliğine yol açmıştır."
+    ],
+    "relatedTerms": [
+      "Lozan Barış Antlaşması",
+      "Büyük Taarruz",
+      "Doğu Trakya"
+    ],
+    "order": 50
+  },
+  {
+    "id": "serbest_cumhuriyet_firkasi",
+    "term": "Serbest Cumhuriyet Fırkası",
+    "definition": "1930 yılında Fethi Okyar tarafından Mustafa Kemal Atatürk'ün isteği üzerine kurulan, ancak kısa süre sonra kendi kendini fesheden muhalefet partisidir. Çok partili hayata geçiş denemelerinden biridir.",
+    "examples": [
+      "Partinin kapatılmasında Menemen Olayı'nın etkisi olmuştur.",
+      "Ekonomik buhranın etkisiyle halkın tepkilerini dile getirme aracı olmuştur."
+    ],
+    "relatedTerms": [
+      "Çok Partili Hayat",
+      "Terakkiperver Cumhuriyet Fırkası",
+      "Menemen Olayı"
+    ],
+    "order": 51
+  },
+  {
+    "id": "balkan_antanti",
+    "term": "Balkan Antantı",
+    "definition": "1934 yılında Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalanan, bölgesel barışı ve güvenliği sağlamayı amaçlayan bir ittifaktır. İtalya ve Almanya'nın yayılmacı politikalarına karşı bir önlem niteliğindedir.",
+    "examples": [
+      "Türkiye'nin 'Yurtta Sulh, Cihanda Sulh' ilkesinin bir göstergesidir.",
+      "Balkan ülkeleri arasında iş birliğini artırmıştır."
+    ],
+    "relatedTerms": [
+      "Sadabat Paktı",
+      "Montrö Boğazlar Sözleşmesi",
+      "Dış Politika"
+    ],
+    "order": 52
+  },
+  {
+    "id": "montro_bogazlar_sozlesmesi",
+    "term": "Montrö Boğazlar Sözleşmesi",
+    "definition": "1936 yılında imzalanan bu sözleşme ile Türkiye, Boğazlar üzerindeki tam egemenlik haklarını geri kazanmıştır. Boğazlar Komisyonu kaldırılmış ve Boğazların askerileştirilmesi hakkı Türkiye'ye verilmiştir.",
+    "examples": [
+      "Lozan'dan kalan önemli bir sorun çözülmüştür.",
+      "Türkiye'nin uluslararası alandaki prestijini artırmıştır."
+    ],
+    "relatedTerms": [
+      "Lozan Barış Antlaşması",
+      "Boğazlar Sorunu",
+      "Dış Politika"
+    ],
+    "order": 53
+  },
+  {
+    "id": "sadabat_pakti",
+    "term": "Sadabat Paktı",
+    "definition": "1937 yılında Türkiye, İran, Irak ve Afganistan arasında imzalanan, Ortadoğu'da barışı ve güvenliği sağlamayı amaçlayan bir ittifaktır. Bölgesel iş birliğini ve karşılıklı saldırmazlığı esas almıştır.",
+    "examples": [
+      "Türkiye'nin doğu sınırlarının güvenliğini pekiştirmiştir.",
+      "İtalya'nın Akdeniz'deki yayılmacı politikalarına karşı bir tepkidir."
+    ],
+    "relatedTerms": [
+      "Balkan Antantı",
+      "Ortadoğu",
+      "Dış Politika"
+    ],
+    "order": 54
+  },
+  {
+    "id": "milli_korunma_kanunu",
+    "term": "Milli Korunma Kanunu",
+    "definition": "1940 yılında İkinci Dünya Savaşı'nın getirdiği ekonomik sıkıntılar ve savaş tehdidi karşısında çıkarılan kanundur. Devletin ekonomiye müdahale yetkisini artırarak temel ihtiyaç maddelerinin teminini ve dağıtımını düzenlemiştir.",
+    "examples": [
+      "Karne uygulaması ile temel gıda maddeleri dağıtılmıştır.",
+      "Fiyat denetimleri ve stokçuluğa karşı önlemler alınmıştır."
+    ],
+    "relatedTerms": [
+      "İkinci Dünya Savaşı",
+      "Ekonomi Politikaları",
+      "Varlık Vergisi"
+    ],
+    "order": 55
+  },
+  {
+    "id": "cok_partili_hayata_gecis",
+    "term": "Çok Partili Hayata Geçiş",
+    "definition": "1946 yılında Demokrat Parti'nin kurulmasıyla Türkiye'de tek parti döneminden çok partili siyasi hayata geçiş süreci resmen başlamıştır. Bu süreç, 1950 seçimleriyle sonuçlanmıştır.",
+    "examples": [
+      "Demokrat Parti, Celal Bayar, Adnan Menderes, Fuat Köprülü ve Refik Koraltan tarafından kurulmuştur.",
+      "1946 seçimleri, açık oy gizli sayım ilkesiyle yapılmıştır."
+    ],
+    "relatedTerms": [
+      "Demokrat Parti",
+      "Milli Şef Dönemi",
+      "1950 Seçimleri"
+    ],
+    "order": 56
+  },
+  {
+    "id": "marshall_yardimlari",
+    "term": "Marshall Yardımları",
+    "definition": "İkinci Dünya Savaşı sonrası ABD tarafından Avrupa ülkelerine ekonomik yardım sağlamak amacıyla başlatılan programdır. Türkiye de bu yardımlardan faydalanarak ekonomik kalkınma ve modernleşme sürecine girmiştir.",
+    "examples": [
+      "Türkiye'nin Batı Bloğu'na yakınlaşmasında etkili olmuştur.",
+      "Tarım ve sanayide modernleşme çabalarını desteklemiştir."
+    ],
+    "relatedTerms": [
+      "Truman Doktrini",
+      "Soğuk Savaş",
+      "NATO Üyeliği"
+    ],
+    "order": 57
+  },
+  {
+    "id": "bagimsiz_turkiye_cumhuriyeti",
+    "term": "Bağımsız Türkiye Cumhuriyeti",
+    "definition": "29 Ekim 1923'te Cumhuriyetin ilanı ile kurulan, ulusal egemenliğe dayalı, laik ve demokratik bir devlettir. Lozan Antlaşması ile uluslararası alanda tanınan bağımsızlığını kazanmıştır.",
+    "examples": [
+      "Türkiye Cumhuriyeti, Misak-ı Milli sınırları içinde kurulmuştur.",
+      "Hukuk, eğitim ve toplumsal alanda köklü inkılaplar yapılmıştır."
+    ],
+    "relatedTerms": [
+      "Cumhuriyetin İlanı",
+      "Lozan Barış Antlaşması",
+      "Ulusal Egemenlik"
+    ],
+    "order": 58
+  },
+  {
+    "id": "tbmm_hukumeti",
+    "term": "TBMM Hükümeti",
+    "definition": "23 Nisan 1920'de Ankara'da açılan Türkiye Büyük Millet Meclisi tarafından kurulan hükümettir. Kurtuluş Savaşı'nı yönetmiş ve yeni Türk devletinin temellerini atmıştır.",
+    "examples": [
+      "İlk hükümet başkanı Mustafa Kemal Atatürk'tür.",
+      "İstanbul Hükümeti'nin yanında ulusal iradeyi temsil etmiştir."
+    ],
+    "relatedTerms": [
+      "TBMM'nin Ankara'da Açılması",
+      "Kurtuluş Savaşı",
+      "Ulusal Egemenlik"
+    ],
+    "order": 59
+  },
+  {
+    "id": "mudafaai_hukuk_cemiyetleri",
+    "term": "Müdafaa-i Hukuk Cemiyetleri",
+    "definition": "Mondros Ateşkes Antlaşması sonrası Anadolu'nun işgaline karşı bölgesel direnişi örgütlemek amacıyla kurulan sivil toplum kuruluşlarıdır. Ulusal bilincin uyanmasında ve Kurtuluş Savaşı'nın başlamasında önemli rol oynamışlardır.",
+    "examples": [
+      "Trabzon Muhafaza-i Hukuk Cemiyeti, İzmir Redd-i İlhak Cemiyeti başlıca örnekleridir.",
+      "Sivas Kongresi'nde Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti adı altında birleştirilmişlerdir."
+    ],
+    "relatedTerms": [
+      "Mondros Ateşkes Antlaşması",
+      "Sivas Kongresi",
+      "Kuva-yi Milliye"
+    ],
+    "order": 60
+  },
+  {
+    "id": "kuva_yi_milliye",
+    "term": "Kuva-yi Milliye",
+    "definition": "Mondros Ateşkes Antlaşması sonrası işgallere karşı halk tarafından oluşturulan düzensiz silahlı direniş birlikleridir. Düzenli ordu kuruluncaya kadar işgallere karşı mücadele etmişlerdir.",
+    "examples": [
+      "Yunan işgaline karşı Batı Anadolu'da etkili olmuşlardır.",
+      "Düzenli orduya geçiş sürecinde bazı sorunlar yaşanmıştır."
+    ],
+    "relatedTerms": [
+      "Mondros Ateşkes Antlaşması",
+      "Müdafaa-i Hukuk Cemiyetleri",
+      "Düzenli Ordu"
+    ],
+    "order": 61
+  },
+  {
+    "id": "terakkiperver_cumhuriyet_firkasi",
+    "term": "Terakkiperver Cumhuriyet Fırkası'nın Kurulması ve Kapatılması",
+    "definition": "1924'te kurulan, Türkiye Cumhuriyeti'nin ilk muhalefet partisidir. Liberal ekonomiyi ve dini değerlere saygıyı savunan parti, Şeyh Sait İsyanı sonrası çıkan Takrir-i Sükun Kanunu ile 1925'te kapatılmıştır.",
+    "examples": [
+      "Kazım Karabekir, Terakkiperver Cumhuriyet Fırkası'nın kurucuları arasındadır.",
+      "Partinin kapatılması, çok partili hayata geçiş denemesinin başarısızlıkla sonuçlandığını göstermiştir."
+    ],
+    "relatedTerms": [
+      "Şeyh Sait İsyanı",
+      "Takrir-i Sükun Kanunu",
+      "Çok Partili Hayat"
+    ],
+    "order": 62
+  },
+  {
+    "id": "balfour_deklarasyonu",
+    "term": "Balfour Deklarasyonu",
+    "definition": "1917'de İngiltere Dışişleri Bakanı Arthur Balfour tarafından yayımlanan, Filistin'de Yahudiler için bir 'ulusal yurt' kurulmasını destekleyen bildiri. Ortadoğu tarihinde önemli bir dönüm noktasıdır.",
+    "examples": [
+      "Balfour Deklarasyonu, Filistin sorununun temelini oluşturan belgelerden biridir.",
+      "Bu deklarasyon, Siyonist hareket için önemli bir başarı olarak kabul edilmiştir."
+    ],
+    "relatedTerms": [
+      "Filistin Sorunu",
+      "Siyonizm",
+      "I. Dünya Savaşı"
+    ],
+    "order": 63
+  },
+  {
+    "id": "varlik_vergisi",
+    "term": "Varlık Vergisi",
+    "definition": "1942'de İkinci Dünya Savaşı koşullarında çıkarılan, olağanüstü bir servet vergisidir. Savaşın getirdiği ekonomik sıkıntıları hafifletmek ve karaborsacılığı önlemek amacıyla uygulanmıştır.",
+    "examples": [
+      "Varlık Vergisi, özellikle gayrimüslim vatandaşlar üzerinde ağır yükler oluşturmuştur.",
+      "Vergi, ekonomik eşitsizliklere yol açtığı gerekçesiyle eleştirilmiştir."
+    ],
+    "relatedTerms": [
+      "İkinci Dünya Savaşı ve Türkiye",
+      "Ekonomik Politikalar",
+      "Savaş Ekonomisi"
+    ],
+    "order": 64
+  },
+  {
+    "id": "koy_enstituleri",
+    "term": "Köy Enstitüleri",
+    "definition": "1940'ta açılan, köy çocuklarını öğretmen ve aydın olarak yetiştirmeyi amaçlayan eğitim kurumlarıdır. Köylerin kalkınmasında ve okuryazarlık oranının artırılmasında önemli rol oynamışlardır.",
+    "examples": [
+      "Köy Enstitüleri, uygulamalı eğitime önem veren özgün bir eğitim modelidir.",
+      "Bu enstitüler, çok partili hayata geçişle birlikte kapatılmıştır."
+    ],
+    "relatedTerms": [
+      "Eğitim Reformları",
+      "Halkevleri",
+      "Cumhuriyet Dönemi Eğitim"
+    ],
+    "order": 65
+  },
+  {
+    "id": "demokrat_partinin_kurulmasi",
+    "term": "Demokrat Parti'nin Kurulması",
+    "definition": "1946'da Adnan Menderes, Celal Bayar, Fuat Köprülü ve Refik Koraltan tarafından kurulan siyasi partidir. Türkiye'de çok partili hayata geçişin önemli bir adımıdır ve 1950 seçimlerini kazanmıştır.",
+    "examples": [
+      "Demokrat Parti, 'Yeter! Söz Milletindir!' sloganıyla iktidara gelmiştir.",
+      "Partinin kurulması, tek parti döneminin sona ermesinde etkili olmuştur."
+    ],
+    "relatedTerms": [
+      "Çok Partili Hayat",
+      "Tek Parti Döneminin Sonu",
+      "1950 Seçimleri"
+    ],
+    "order": 66
+  },
+  {
+    "id": "marshall_yardimi",
+    "term": "Marshall Yardımı",
+    "definition": "İkinci Dünya Savaşı sonrası ABD tarafından Avrupa ülkelerine ekonomik yardım programıdır. Türkiye de bu yardımlardan faydalanarak ekonomisini canlandırmaya çalışmıştır.",
+    "examples": [
+      "Marshall Yardımı, Türkiye'nin Batı Bloğu'na yakınlaşmasında etkili olmuştur.",
+      "Yardımlar, Türkiye'nin tarım ve sanayisinde modernleşme sürecini hızlandırmıştır."
+    ],
+    "relatedTerms": [
+      "Soğuk Savaş",
+      "NATO Üyeliği",
+      "Truman Doktrini"
+    ],
+    "order": 67
+  },
+  {
+    "id": "havza_genelgesi",
+    "term": "Havza Genelgesi",
+    "definition": "Mustafa Kemal Paşa tarafından yayımlanan ilk genelgedir. Milli Mücadele'nin başlangıcında halkın işgallere karşı protesto mitingleri düzenlemesini ve ulusal bilincin uyandırılmasını amaçlamıştır. İşgallere karşı ilk resmi tepki niteliğindedir.",
+    "examples": [
+      "Havza Genelgesi ile işgallere karşı protesto mitingleri yapılması istenmiştir.",
+      "Mustafa Kemal'in Samsun'dan sonra ilk durağı Havza'dır."
+    ],
+    "relatedTerms": [
+      "Amasya Genelgesi",
+      "Samsun Raporu",
+      "Milli Mücadele"
+    ],
+    "order": 68
+  },
+  {
+    "id": "amasya_gorusmeleri",
+    "term": "Amasya Görüşmeleri",
+    "definition": "Temsil Heyeti ile İstanbul Hükümeti arasında yapılan ilk resmi temaslardır. İstanbul Hükümeti'nin Temsil Heyeti'ni resmen tanıdığı anlamına gelir. Bu görüşmelerde Mebusan Meclisi'nin toplanması kararı alınmıştır.",
+    "examples": [
+      "Amasya Görüşmeleri ile İstanbul Hükümeti, Milli Mücadele hareketini tanımıştır.",
+      "Mebusan Meclisi'nin toplanması kararı Amasya Görüşmeleri'nde alınmıştır."
+    ],
+    "relatedTerms": [
+      "Temsil Heyeti",
+      "Mebusan Meclisi",
+      "Sivas Kongresi"
+    ],
+    "order": 69
+  },
+  {
+    "id": "ataturk_ilkelerinin_anayasaya_girmesi",
+    "term": "Atatürk İlkelerinin Anayasaya Girmesi",
+    "definition": "1937 yılında Cumhuriyet Halk Partisi'nin altı ilkesinin (Cumhuriyetçilik, Milliyetçilik, Halkçılık, Devletçilik, Laiklik, İnkılapçılık) anayasaya dahil edilmesidir. Bu durum, Atatürkçü düşüncenin devletin temel felsefesi haline geldiğini gösterir. Türkiye Cumhuriyeti'nin temel niteliklerini belirlemiştir.",
+    "examples": [
+      "1937 değişikliği ile Atatürk İlkeleri anayasal güvence altına alınmıştır.",
+      "Altı Ok, devletin temel nitelikleri olarak anayasada yer almıştır."
+    ],
+    "relatedTerms": [
+      "Cumhuriyetçilik",
+      "Laiklik",
+      "Devletçilik"
+    ],
+    "order": 70
+  },
+  {
+    "id": "lozan_baris_konferansi",
+    "term": "Lozan Barış Konferansı",
+    "definition": "Türk Kurtuluş Savaşı'nın ardından, yeni Türk devletinin uluslararası alanda tanınmasını sağlayan ve Türkiye Cumhuriyeti'nin tapu senedi niteliğindeki barış antlaşmasının yapıldığı konferanstır. Kapitülasyonlar, Boğazlar, Musul gibi önemli konular tartışılmıştır.",
+    "examples": [
+      "İsmet İnönü'nün Türk heyetine başkanlık etmesi.",
+      "Kapitülasyonların tamamen kaldırılması kararı."
+    ],
+    "relatedTerms": [
+      "Mudanya Ateşkes Antlaşması",
+      "Sevr Antlaşması",
+      "Boğazlar Sorunu",
+      "Musul Sorunu"
+    ],
+    "order": 71
+  },
+  {
+    "id": "medeni_kanunun_kabulü",
+    "term": "Medeni Kanun'un Kabulü",
+    "definition": "17 Şubat 1926 tarihinde İsviçre Medeni Kanunu'nun esas alınarak kabul edilmesiyle, aile, miras, şahıs ve eşya hukukunda köklü değişiklikler yapılmıştır. Kadınlara erkeklerle eşit haklar tanınmasında önemli bir adımdır.",
+    "examples": [
+      "Tek eşliliğin zorunlu hale gelmesi.",
+      "Kadınlara boşanma hakkının tanınması."
+    ],
+    "relatedTerms": [
+      "Kadın Hakları",
+      "Laiklik",
+      "Hukuk İnkılabı",
+      "Şer'iye Mahkemeleri'nin Kaldırılması"
+    ],
+    "order": 72
+  },
+  {
+    "id": "kabotaj_kanunu",
+    "term": "Kabotaj Kanunu",
+    "definition": "1 Temmuz 1926 tarihinde yürürlüğe giren kanunla, Türk karasularında yük ve yolcu taşıma hakkı ile liman hizmetleri Türk vatandaşlarına ve Türk bayraklı gemilere verilmiştir. Denizcilikte millileşmeyi ve ulusal ekonominin güçlenmesini hedeflemiştir.",
+    "examples": [
+      "Yabancı gemilerin Türk limanları arasındaki taşımacılık yapmasının yasaklanması.",
+      "Denizcilik sektöründe Türk sermayesinin teşvik edilmesi."
+    ],
+    "relatedTerms": [
+      "Denizcilik",
+      "Ekonomik Bağımsızlık",
+      "Milliyetçilik",
+      "Teşvik-i Sanayi Kanunu"
+    ],
+    "order": 73
+  },
+  {
+    "id": "birinci_bes_yillik_sanayi_plani",
+    "term": "Birinci Beş Yıllık Sanayi Planı",
+    "definition": "1933 yılında uygulamaya konulan, Türkiye'nin sanayileşme sürecini hızlandırmak amacıyla hazırlanan devletçi ekonomi politikasıdır. Sümerbank ve Etibank gibi kurumlar aracılığıyla temel sanayi dallarında yatırımlar yapılmıştır.",
+    "examples": [
+      "Tekstil, şeker, demir-çelik gibi alanlarda fabrikaların kurulması.",
+      "Devlet eliyle sanayinin geliştirilmesi."
+    ],
+    "relatedTerms": [
+      "Devletçilik",
+      "İkinci Beş Yıllık Sanayi Planı",
+      "Sümerbank",
+      "Etibank",
+      "Ekonomi Politikaları"
+    ],
+    "order": 74
   }
 ]

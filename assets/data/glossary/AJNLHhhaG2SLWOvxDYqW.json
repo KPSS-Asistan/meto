@@ -1009,5 +1009,474 @@
       "Süreç"
     ],
     "order": 72
+  },
+  {
+    "id": "onaylama",
+    "term": "Onaylama",
+    "definition": "Bir düşünceyi, davranışı veya kararı doğru bularak kabul etmektir. Bir fikre katıldığını belirtmektir.",
+    "examples": [
+      "Senin bu konuda attığın adımları sonuna kadar destekliyorum.",
+      "Yaptığın plan oldukça mantıklı, uygulayabiliriz."
+    ],
+    "relatedTerms": [
+      "Destekleme",
+      "Katılma",
+      "Beğenme"
+    ],
+    "order": 73
+  },
+  {
+    "id": "otokritik",
+    "term": "Öz Eleştiri",
+    "definition": "Kişinin kendi davranışlarını, düşüncelerini veya eserini tarafsız bir şekilde değerlendirip hatalarını görmesidir.",
+    "examples": [
+      "Bu projede zamanı iyi kullanamadığımı şimdi daha iyi anlıyorum.",
+      "Hatalarımın farkındayım ve bunları düzeltmek için çabalıyorum."
+    ],
+    "relatedTerms": [
+      "Eleştiri",
+      "Pişmanlık",
+      "Değerlendirme"
+    ],
+    "order": 74
+  },
+  {
+    "id": "tavsiye",
+    "term": "Tavsiye",
+    "definition": "Bir konuda yol göstermek, bir işin yapılması veya yapılmaması için öneride bulunmaktır. Öğüt verme niteliği taşır.",
+    "examples": [
+      "Bu kitabı mutlaka okumalısın, ufkunu genişletecektir.",
+      "Sınava hazırlanırken bol bol soru çözmeni öneririm."
+    ],
+    "relatedTerms": [
+      "Uyarı",
+      "Öneri",
+      "Öğüt"
+    ],
+    "order": 75
+  },
+  {
+    "id": "sorgulama",
+    "term": "Sorgulama",
+    "definition": "Bir durumun doğruluğunu, nedenini veya niteliğini anlamak için derinlemesine inceleme veya soru sorma sürecidir.",
+    "examples": [
+      "Neden hep başkalarının düşüncelerine göre hareket ediyoruz?",
+      "Bu sistemin gerçekten adil olup olmadığını hiç düşündün mü?"
+    ],
+    "relatedTerms": [
+      "Eleştiri",
+      "Merak",
+      "Analiz"
+    ],
+    "order": 76
+  },
+  {
+    "id": "elestiri",
+    "term": "Eleştiri (Tenkit)",
+    "definition": "Bir eseri, bir durumu veya bir kişiyi doğru ve yanlış yönleriyle değerlendirme sürecidir. Hem olumlu hem olumsuz olabilir.",
+    "examples": [
+      "Yazar, karakter analizlerinde oldukça yüzeysel kalmış.",
+      "Bu film, toplumsal sorunları çok başarılı bir dille yansıtıyor."
+    ],
+    "relatedTerms": [
+      "Değerlendirme",
+      "Üslup Özelliği"
+    ],
+    "order": 77
+  },
+  {
+    "id": "tasvir",
+    "term": "Tasvir (Betimleme)",
+    "definition": "Varlıkların, mekanların veya olayların zihinde canlanacak şekilde kelimelerle resmedilmesidir. Gözlem gücüne dayanır.",
+    "examples": [
+      "Kırmızı kiremitli evlerin arasından dar ve taşlı yollar geçiyordu.",
+      "Yaşlı adamın yüzündeki derin çizgiler, geçmişin yorgunluğunu anlatıyordu."
+    ],
+    "relatedTerms": [
+      "Somutlama",
+      "Gözlem"
+    ],
+    "order": 78
+  },
+  {
+    "id": "duyarlilik",
+    "term": "Duyarlılık",
+    "definition": "Çevredeki olaylara, toplumsal sorunlara veya sanatsal değerlere karşı hassas olma, çabuk etkilenme durumudur.",
+    "examples": [
+      "Yazar, eserlerinde toplumsal acılara karşı büyük bir duyarlılık gösteriyor.",
+      "Doğadaki her değişim onu derinden etkilerdi."
+    ],
+    "relatedTerms": [
+      "İlgi",
+      "Empati"
+    ],
+    "order": 79
+  },
+  {
+    "id": "amaç_gayet",
+    "term": "Amaç (Gayet)",
+    "definition": "Bir eylemin veya durumun gerçekleştirilme nedenini, hedefini ifade eden yargıdır. Genellikle '-mek için', '-mek üzere' gibi eklerle belirtilir.",
+    "examples": [
+      "Sınavı kazanmak için çok çalışıyor.",
+      "Yeni bilgiler edinmek üzere kursa yazıldı."
+    ],
+    "relatedTerms": [
+      "Neden (Sebep)",
+      "Sonuç"
+    ],
+    "order": 80
+  },
+  {
+    "id": "neden_sebep",
+    "term": "Neden (Sebep)",
+    "definition": "Bir olayın veya durumun ortaya çıkmasına yol açan gerekçeyi bildiren yargıdır. Genellikle '-dığı için', '-den dolayı' gibi ifadelerle kurulur.",
+    "examples": [
+      "Yağmur yağdığı için piknik iptal oldu.",
+      "Uykusuzluktan dolayı derste uyuyakaldı."
+    ],
+    "relatedTerms": [
+      "Amaç (Gayet)",
+      "Sonuç"
+    ],
+    "order": 81
+  },
+  {
+    "id": "sonuç",
+    "term": "Sonuç",
+    "definition": "Bir eylemin ya da durumun ardından ortaya çıkan durumu, neticeyi ifade eden yargıdır. Neden-sonuç ilişkisinde, nedenin ardından gelen kısımdır.",
+    "examples": [
+      "Çok çalıştığı için sınavı kazandı.",
+      "Geç kaldığından otobüsü kaçırdı."
+    ],
+    "relatedTerms": [
+      "Neden (Sebep)",
+      "Amaç (Gayet)"
+    ],
+    "order": 82
+  },
+  {
+    "id": "tanım",
+    "term": "Tanım",
+    "definition": "Bir kavramın, nesnenin veya varlığın ne olduğunu, temel özelliklerini açıklayan ifadedir. Genellikle 'nedir?', 'kimdir?' sorularına cevap verir.",
+    "examples": [
+      "İsim, varlıkları ve kavramları karşılayan sözcüklerdir.",
+      "Demokrasi, halkın kendi kendini yönetmesidir."
+    ],
+    "relatedTerms": [
+      "Açıklama",
+      "Kavram"
+    ],
+    "order": 83
+  },
+  {
+    "id": "öneri",
+    "term": "Öneri",
+    "definition": "Bir sorunun çözümü, bir durumun iyileştirilmesi veya bir işin daha iyi yapılması için sunulan fikir veya tekliftir. 'Yapmalısın', 'edebilirsin' gibi ifadelerle belirtilir.",
+    "examples": [
+      "Daha fazla kitap okumalısın.",
+      "Bu konuyu bir de bu açıdan değerlendirebilirsin."
+    ],
+    "relatedTerms": [
+      "Tavsiye",
+      "Eleştiri (Tenkit)"
+    ],
+    "order": 84
+  },
+  {
+    "id": "yadsıma",
+    "term": "Yadsıma",
+    "definition": "Bir şeyi, bir durumu veya bir gerçeği kabul etmeme, inkar etme eylemidir. Söylenen veya var olan bir şeyi reddetme anlamını taşır.",
+    "examples": [
+      "Bu suçu işlediğini yadsıyor.",
+      "Gerçekleri yadsımak, sorunları çözmez."
+    ],
+    "relatedTerms": [
+      "Reddetme",
+      "İnkar"
+    ],
+    "order": 85
+  },
+  {
+    "id": "kaygı_endişe",
+    "term": "Kaygı (Endişe)",
+    "definition": "Gelecekte olabilecek kötü bir durum veya olay karşısında duyulan huzursuzluk, korku ve tedirginlik halidir. Belirsizlikten beslenir.",
+    "examples": [
+      "Sınav sonuçları hakkında büyük bir kaygı duyuyorum.",
+      "Çocuğunun sağlığı için endişeleniyor."
+    ],
+    "relatedTerms": [
+      "Korku",
+      "Tedirginlik"
+    ],
+    "order": 86
+  },
+  {
+    "id": "ön yargı",
+    "term": "Ön Yargı (Peşin Hüküm)",
+    "definition": "Bir kişi, olay veya durum hakkında yeterli bilgi edinmeden, araştırma yapmadan önceden edinilmiş olumlu veya olumsuz yargıdır. Genellikle deneyimlere dayanmaz.",
+    "examples": [
+      "Onu tanımadan önce hakkında ön yargılarım vardı.",
+      "Ön yargılar, doğru kararlar vermeyi engeller."
+    ],
+    "relatedTerms": [
+      "Kalıp Yargı",
+      "Taraflılık"
+    ],
+    "order": 87
+  },
+  {
+    "id": "neden_sonuc_iliskisi",
+    "term": "Neden-Sonuç İlişkisi",
+    "definition": "Bir olayın veya durumun ortaya çıkış sebebini ve bu sebebin yol açtığı sonucu ifade eden cümlelerdir. 'Çünkü', 'için', 'den dolayı', 'bu yüzden' gibi bağlaçlarla kurulur.",
+    "examples": [
+      "Yağmur yağdığı için piknik iptal oldu.",
+      "Çok çalıştığından sınavda başarılı oldu."
+    ],
+    "relatedTerms": [
+      "Amaç-Sonuç İlişkisi",
+      "Koşul (Şart)",
+      "Gerekçe"
+    ],
+    "order": 88
+  },
+  {
+    "id": "amac_sonuc_iliskisi",
+    "term": "Amaç-Sonuç İlişkisi",
+    "definition": "Bir eylemin hangi maksatla, hangi hedefle yapıldığını ve bu eylemin sonucunu belirten cümlelerdir. Genellikle 'mek/mak için', 'diye', 'üzere' gibi ifadelerle kurulur.",
+    "examples": [
+      "Sınavı kazanmak için çok çalışıyor.",
+      "Sağlıklı kalmak üzere spor yapıyor."
+    ],
+    "relatedTerms": [
+      "Neden-Sonuç İlişkisi",
+      "Hedef",
+      "Gaye"
+    ],
+    "order": 89
+  },
+  {
+    "id": "yargi",
+    "term": "Yargı",
+    "definition": "Bir düşünceyi, bir durumu veya bir olayı değerlendirerek varılan sonuçtur. Cümlede bir iddia, bir tespit veya bir yorum şeklinde ortaya çıkar.",
+    "examples": [
+      "Bu kitap, Türk edebiyatının önemli eserlerinden biridir.",
+      "Hava bugün oldukça soğuktu."
+    ],
+    "relatedTerms": [
+      "Hüküm",
+      "Tespit",
+      "Görüş"
+    ],
+    "order": 90
+  },
+  {
+    "id": "cikarsama",
+    "term": "Çıkarım (Çıkarsama)",
+    "definition": "Verilen bilgilerden veya gözlemlerden hareketle, mantıksal bir sonuca ulaşma işlemidir. Doğrudan söylenmeyeni, dolaylı yoldan anlama becerisidir.",
+    "examples": [
+      "Yazarın son eserinde toplumsal sorunlara daha fazla değinmesi, onun bu konudaki duyarlılığını gösteriyor.",
+      "Sabah erken kalktığına göre önemli bir işi olmalı."
+    ],
+    "relatedTerms": [
+      "Yorum",
+      "Varsayım",
+      "Akıl Yürütme"
+    ],
+    "order": 91
+  },
+  {
+    "id": "kinama",
+    "term": "Kınama",
+    "definition": "Bir davranışın veya durumun yanlış, uygunsuz veya etik dışı olduğunu belirterek onu eleştirme, ayıplama eylemidir. Genellikle olumsuz bir yargı içerir.",
+    "examples": [
+      "Bu tür sorumsuz davranışları şiddetle kınıyorum.",
+      "Arkadaşına karşı söylediği o sözler hiç hoş değildi, onu kınadım."
+    ],
+    "relatedTerms": [
+      "Eleştiri (Tenkit)",
+      "Yadırgama",
+      "Ayıplama"
+    ],
+    "order": 92
+  },
+  {
+    "id": "ozgulluk",
+    "term": "Özgüllük (Ayırt Edicilik)",
+    "definition": "Bir varlığın, kavramın veya durumun sadece kendisine ait olan, onu diğerlerinden ayıran belirgin özelliğidir. O şeye has, sadece ona özgü nitelikleri ifade eder.",
+    "examples": [
+      "Bu yazarın dili, eserlerine özgü bir akıcılığa sahiptir.",
+      "Anadolu'nun kendine özgü mimarisi, bölgenin kültürel zenginliğini yansıtır."
+    ],
+    "relatedTerms": [
+      "Farklılık",
+      "Ayırt Edici Özellik",
+      "Karakteristik"
+    ],
+    "order": 93
+  },
+  {
+    "id": "gecersizlestirme",
+    "term": "Geçersizleştirme",
+    "definition": "Bir düşüncenin, iddianın veya argümanın doğru olmadığını, temelsiz olduğunu veya geçerliliğini yitirdiğini belirtme eylemidir. Bir görüşü çürütme amacı taşır.",
+    "examples": [
+      "Bu tezin dayandığı veriler eski olduğu için iddiaları geçersizdir.",
+      "Yapılan yeni araştırmalar, eski teoriyi tamamen geçersiz kıldı."
+    ],
+    "relatedTerms": [
+      "Çürütme",
+      "Reddetme",
+      "İptal Etme"
+    ],
+    "order": 94
+  },
+  {
+    "id": "dogrulama",
+    "term": "Doğrulama",
+    "definition": "Bir bilginin, iddianın veya olayın gerçekliğini, geçerliliğini veya doğruluğunu teyit etme, onaylama işlemidir. Bir şeyin doğru olduğunu kanıtlama amacı taşır.",
+    "examples": [
+      "Yapılan testler, iddiaların doğruluğunu kanıtladı.",
+      "Şahitlerin ifadeleri, olayın bu şekilde gerçekleştiğini doğruluyor."
+    ],
+    "relatedTerms": [
+      "Onaylama",
+      "Teyit Etme",
+      "Kanıtlama"
+    ],
+    "order": 95
+  },
+  {
+    "id": "yaklasma",
+    "term": "Yaklaşma (Yaklaşık Anlam)",
+    "definition": "Bir durumun veya miktarın tam olarak değil, ona yakın bir değerde olduğunu ifade etme biçimidir. 'Yaklaşık', 'hemen hemen', 'aşağı yukarı' gibi kelimelerle belirtilir.",
+    "examples": [
+      "Toplantı yaklaşık iki saat sürdü.",
+      "Hemen hemen tüm öğrenciler sınava katıldı."
+    ],
+    "relatedTerms": [
+      "Tahmin",
+      "Olasılık",
+      "Belirsizlik"
+    ],
+    "order": 96
+  },
+  {
+    "id": "olanak",
+    "term": "Olanak (İmkan)",
+    "definition": "Bir şeyin gerçekleşme ihtimali, yapılabilirlik durumu veya elverişli şartlardır. Bir işi yapmaya elverişli olma, fırsat bulma durumunu ifade eder.",
+    "examples": [
+      "Bu proje için yeterli maddi olanaklarımız mevcut.",
+      "Şu an ders çalışmaya pek olanak bulamıyorum."
+    ],
+    "relatedTerms": [
+      "Fırsat",
+      "İhtimal",
+      "Koşul (Şart)"
+    ],
+    "order": 97
+  },
+  {
+    "id": "çelişki",
+    "term": "Çelişki",
+    "definition": "Bir cümlede veya metinde birbirini tutmayan, birbirine aykırı düşüncelerin ya da ifadelerin bulunmasıdır. Bir yargının kendisiyle veya başka bir yargıyla ters düşmesidir.",
+    "examples": [
+      "O, hem çok cimri hem de herkese yardım eden biridir.",
+      "Sözleri dürüsttü ama davranışları aksini gösteriyordu."
+    ],
+    "relatedTerms": [
+      "Tutarsızlık",
+      "Aykırılık",
+      "Paradoks"
+    ],
+    "order": 98
+  },
+  {
+    "id": "soyutlama",
+    "term": "Soyutlama",
+    "definition": "Somut bir varlığın ya da özelliğin, zihinsel bir kavram haline getirilmesidir. Genellikle somut kelimelerin mecaz anlamda kullanılmasıyla gerçekleşir.",
+    "examples": [
+      "Bu işte onun eli var.",
+      "Yüreğindeki acı, dağları delerdi."
+    ],
+    "relatedTerms": [
+      "Somutlama",
+      "Mecaz Anlam",
+      "Yan Anlam"
+    ],
+    "order": 99
+  },
+  {
+    "id": "saptama",
+    "term": "Saptama",
+    "definition": "Bir durum, olay veya gerçekliği belirgin bir şekilde ortaya koyma, tespit etme eylemidir. Gözlem ve inceleme sonucunda ulaşılan bir bilgiyi ifade eder.",
+    "examples": [
+      "Yapılan araştırmalar, gençlerin kitap okuma oranının düştüğünü saptadı.",
+      "Bu rapor, bölgedeki ekonomik sorunları saptamıştır."
+    ],
+    "relatedTerms": [
+      "Tespit",
+      "Belirleme",
+      "Ortaya Koyma"
+    ],
+    "order": 100
+  },
+  {
+    "id": "değerlendirme",
+    "term": "Değerlendirme",
+    "definition": "Bir durum, olay, eser veya kişi hakkında, belirli ölçütlere göre yargıda bulunmaktır. Olumlu veya olumsuz bir görüş belirtmeyi içerir.",
+    "examples": [
+      "Romanın kurgusu zayıf, dili ise oldukça akıcıydı.",
+      "Bu proje, beklentilerin altında kalmıştır."
+    ],
+    "relatedTerms": [
+      "Yargı",
+      "Eleştiri",
+      "Kıyaslama"
+    ],
+    "order": 101
+  },
+  {
+    "id": "kurgu",
+    "term": "Kurgu",
+    "definition": "Gerçekte olmayan, hayal gücüyle oluşturulmuş olaylar dizisi veya durum. Edebi eserlerde, filmlerde ve oyunlarda sıkça kullanılır.",
+    "examples": [
+      "Romanın kurgusu o kadar başarılıydı ki bir solukta okudum.",
+      "Bu hikaye tamamen yazarın kurgusuna dayanıyor."
+    ],
+    "relatedTerms": [
+      "Hayal",
+      "Gerçeküstü",
+      "Fantastik"
+    ],
+    "order": 102
+  },
+  {
+    "id": "bireysellik",
+    "term": "Bireysellik",
+    "definition": "Kişinin kendine özgü niteliklere sahip olması, diğerlerinden farklı ve bağımsız olması durumu. Özgünlük ve teklik anlamlarını taşır.",
+    "examples": [
+      "Sanatçının eserlerinde güçlü bir bireysellik göze çarpıyor.",
+      "Her insanın düşünceleri ve kararları bireysellik taşır."
+    ],
+    "relatedTerms": [
+      "Özgünlük",
+      "Tekillik",
+      "Farklılık"
+    ],
+    "order": 103
+  },
+  {
+    "id": "yetersizlik",
+    "term": "Yetersizlik",
+    "definition": "Bir işi yapmaya veya bir durumu karşılamaya gücünün, bilgisinin veya imkanının olmaması durumu. Eksiklik ve kifayetsizlik anlamlarına gelir.",
+    "examples": [
+      "Bu görevi tamamlamak için yeterli zamanımız yoktu.",
+      "Ders çalışma konusundaki yetersizliği onu başarısızlığa sürükledi."
+    ],
+    "relatedTerms": [
+      "Eksiklik",
+      "Kifayetsizlik",
+      "Acizlik"
+    ],
+    "order": 104
   }
 ]

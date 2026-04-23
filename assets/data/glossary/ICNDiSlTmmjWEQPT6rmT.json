@@ -1212,5 +1212,283 @@
       "Fiilimsiler"
     ],
     "order": 81
+  },
+  {
+    "id": "ilgi_zamiri_ki",
+    "term": "İlgi Zamiri (ki)",
+    "definition": "İsim tamlamasında düşen tamlananın yerini tutan '-ki' ekidir. Her zaman bitişik yazılır.",
+    "examples": [
+      "Seninki gelmedi",
+      "Benimki bozuldu"
+    ],
+    "relatedTerms": [
+      "Sıfat Yapan Ki",
+      "Bağlaç Olan Ki"
+    ],
+    "order": 82
+  },
+  {
+    "id": "basit_zamanli_fiil",
+    "term": "Basit Zamanlı Fiil",
+    "definition": "Sadece bir tane kip eki alan fiillerdir. Haber veya dilek kiplerinden herhangi biriyle çekimlenirler.",
+    "examples": [
+      "Geldi",
+      "Okuyacak",
+      "Yazmalı"
+    ],
+    "relatedTerms": [
+      "Birleşik Zamanlı Fiil",
+      "Fiil Çekimi"
+    ],
+    "order": 83
+  },
+  {
+    "id": "fiilde_cati",
+    "term": "Fiilde Çatı",
+    "definition": "Fiillerin özne ve nesne ile olan ilişkisini belirten özelliktir. Etken, edilgen, geçişli ve geçişsiz gibi türleri vardır.",
+    "examples": [
+      "Kitabı okudu (Etken-Geçişli)",
+      "Kapı açıldı (Edilgen)"
+    ],
+    "relatedTerms": [
+      "Özne-Yüklem İlişkisi",
+      "Nesne-Yüklem İlişkisi"
+    ],
+    "order": 84
+  },
+  {
+    "id": "adillik_zamir",
+    "term": "Adıllık (Zamir)",
+    "definition": "İsimlerin yerini tutan, onların görevini üstlenen sözcüklerdir. Cümlede isim gibi görev yaparlar ve çekim ekleri alabilirler.",
+    "examples": [
+      "O, buraya geldi.",
+      "Kim geldi?",
+      "Bazıları anlamadı."
+    ],
+    "relatedTerms": [
+      "Kişi Zamiri",
+      "İşaret Zamiri",
+      "Soru Zamiri",
+      "Belgisiz Zamir"
+    ],
+    "order": 85
+  },
+  {
+    "id": "asıl_sayı_sıfatı",
+    "term": "Asıl Sayı Sıfatı",
+    "definition": "Varlıkların kesin sayısını belirten sıfatlardır. İsme sorulan 'Kaç?' sorusuna cevap verirler. Sayı adları doğrudan isimden önce gelerek bu görevi üstlenir.",
+    "examples": [
+      "Üç elma",
+      "Beş kitap"
+    ],
+    "relatedTerms": [
+      "Sıra Sayı Sıfatı",
+      "Üleştirme Sayı Sıfatı",
+      "Kesir Sayı Sıfatı"
+    ],
+    "order": 86
+  },
+  {
+    "id": "sıra_sayı_sıfatı",
+    "term": "Sıra Sayı Sıfatı",
+    "definition": "Varlıkların sırasını belirten sıfatlardır. İsme sorulan 'Kaçıncı?' sorusuna cevap verirler. Sayı adlarına '-inci / -ıncı' ekleri getirilerek oluşturulur.",
+    "examples": [
+      "Birinci kat",
+      "İkinci öğrenci"
+    ],
+    "relatedTerms": [
+      "Asıl Sayı Sıfatı",
+      "Üleştirme Sayı Sıfatı",
+      "Kesir Sayı Sıfatı"
+    ],
+    "order": 87
+  },
+  {
+    "id": "üleştirme_sayı_sıfatı",
+    "term": "Üleştirme Sayı Sıfatı",
+    "definition": "Varlıkların eşit parçalara bölündüğünü, paylaştırıldığını belirten sıfatlardır. İsme sorulan 'Kaçar?' sorusuna cevap verirler. Sayı adlarına '-er / -ar' ekleri getirilerek oluşturulur.",
+    "examples": [
+      "İkişer kalem",
+      "Üçer elma"
+    ],
+    "relatedTerms": [
+      "Asıl Sayı Sıfatı",
+      "Sıra Sayı Sıfatı",
+      "Kesir Sayı Sıfatı"
+    ],
+    "order": 88
+  },
+  {
+    "id": "kesir_sayı_sıfatı",
+    "term": "Kesir Sayı Sıfatı",
+    "definition": "Varlıkların bir bütünün kaçta kaçı olduğunu belirten sıfatlardır. İsme sorulan 'Kaçta kaç?' sorusuna cevap verirler. Kesirli sayılarla ifade edilir.",
+    "examples": [
+      "Yarım ekmek",
+      "Çeyrek altın"
+    ],
+    "relatedTerms": [
+      "Asıl Sayı Sıfatı",
+      "Sıra Sayı Sıfatı",
+      "Üleştirme Sayı Sıfatı"
+    ],
+    "order": 89
+  },
+  {
+    "id": "pekiştirme_sıfatı",
+    "term": "Pekiştirme Sıfatı",
+    "definition": "Niteleme sıfatının anlamını güçlendiren, pekiştiren sıfatlardır. Genellikle 'm, p, r, s' ünsüzlerinden biriyle yapılan pekiştirmelerle veya ikilemelerle oluşur.",
+    "examples": [
+      "Tertemiz oda",
+      "Masavi deniz"
+    ],
+    "relatedTerms": [
+      "Niteleme Sıfatı",
+      "Küçültme Sıfatı",
+      "Sıfat"
+    ],
+    "order": 90
+  },
+  {
+    "id": "küçültme_sıfatı",
+    "term": "Küçültme Sıfatı",
+    "definition": "Varlıkların küçüklüğünü, azlığını, zayıflığını veya benzerliğini anlatan sıfatlardır. İsimlere '-cik, -cek, -imsi, -ımsı, -mtırak' ekleri getirilerek oluşturulur.",
+    "examples": [
+      "Küçücük ev",
+      "Yeşilimsi elbise"
+    ],
+    "relatedTerms": [
+      "Niteleme Sıfatı",
+      "Pekiştirme Sıfatı",
+      "Sıfat"
+    ],
+    "order": 91
+  },
+  {
+    "id": "belirsizlik_zamiri",
+    "term": "Belirsizlik Zamiri",
+    "definition": "Varlıkların yerini belirsiz bir şekilde tutan zamirlerdir. Genellikle 'bazısı', 'birkaçı', 'herkes', 'kimse', 'çoğu' gibi kelimelerle ifade edilir.",
+    "examples": [
+      "Bazıları derse geç kaldı.",
+      "Herkes onu tanır.",
+      "Kimse gelmemişti."
+    ],
+    "relatedTerms": [
+      "İşaret Zamiri",
+      "Soru Zamiri",
+      "Kişi Zamiri"
+    ],
+    "order": 92
+  },
+  {
+    "id": "belirsizlik_sifati",
+    "term": "Belirsizlik Sıfatı",
+    "definition": "Varlıkları belirsiz bir şekilde belirten sıfatlardır. İsmin önüne gelerek onu sayı, miktar veya nitelik bakımından tam olarak belirtmez.",
+    "examples": [
+      "Birkaç öğrenci geldi.",
+      "Bazı insanlar böyledir.",
+      "Herhangi bir sorun yok."
+    ],
+    "relatedTerms": [
+      "Niteleme Sıfatı",
+      "İşaret Sıfatı",
+      "Sayı Sıfatı"
+    ],
+    "order": 93
+  },
+  {
+    "id": "yeterlilik_fiili",
+    "term": "Yeterlilik Fiili",
+    "definition": "Fiil kök veya gövdelerine '-e bilmek' yardımcı fiilinin getirilmesiyle oluşan birleşik fiildir. Cümleye 'yapabilme', 'gücü yetme' anlamı katar.",
+    "examples": [
+      "Bu soruyu çözebilirim.",
+      "Yarın gelebiliriz.",
+      "O, çok hızlı koşabilir."
+    ],
+    "relatedTerms": [
+      "Birleşik Fiil",
+      "Tezlik Fiili",
+      "Sürerlilik Fiili"
+    ],
+    "order": 94
+  },
+  {
+    "id": "tezlik_fiili",
+    "term": "Tezlik Fiili",
+    "definition": "Fiil kök veya gövdelerine '-i vermek' yardımcı fiilinin getirilmesiyle oluşan birleşik fiildir. Eylemin çabukluk, kolaylık veya aniden olma anlamını taşır.",
+    "examples": [
+      "Hemen geliverdi.",
+      "Soruyu çözüverdi.",
+      "Kitabı okuyuverdi."
+    ],
+    "relatedTerms": [
+      "Birleşik Fiil",
+      "Yeterlilik Fiili",
+      "Sürerlilik Fiili"
+    ],
+    "order": 95
+  },
+  {
+    "id": "yardimci_fiil",
+    "term": "Yardımcı Fiil",
+    "definition": "İsim soylu sözcüklerle birleşerek birleşik fiil oluşturan 'etmek, olmak, eylemek, kılmak' gibi fiillerdir. Asıl anlamlarını kaybederek isimle birlikte yeni bir anlam kazanırlar.",
+    "examples": [
+      "'Yardım etmek'teki 'etmek'.",
+      "Hasta olmak",
+      "Namzet eylemek"
+    ],
+    "relatedTerms": [
+      "Birleşik Fiil",
+      "Asıl Fiil",
+      "Fiil"
+    ],
+    "order": 96
+  },
+  {
+    "id": "yansima_sozcukler",
+    "term": "Yansıma Sözcükler",
+    "definition": "Doğadaki seslerin taklidiyle oluşmuş sözcüklerdir. Genellikle isim veya fiil olarak kullanılırlar.",
+    "examples": [
+      "'Miyav', 'hav hav', 'güm güm'",
+      "Horultu",
+      "Fısıltı"
+    ],
+    "relatedTerms": [
+      "İsim",
+      "Fiil",
+      "Yansıma"
+    ],
+    "order": 97
+  },
+  {
+    "id": "ikileme",
+    "term": "İkileme",
+    "definition": "Anlamı güçlendirmek, pekiştirmek veya çeşitli anlamlar katmak amacıyla iki sözcüğün art arda kullanılmasıyla oluşan söz öbekleridir. Aralarına noktalama işareti konmaz.",
+    "examples": [
+      "'Ağır ağır', 'güzel güzel', 'er geç'",
+      "Eğri büğrü",
+      "Abur cubur"
+    ],
+    "relatedTerms": [
+      "Pekiştirme",
+      "Sıfat",
+      "Zarf"
+    ],
+    "order": 98
+  },
+  {
+    "id": "yansima_sozcuk",
+    "term": "Yansıma Sözcük",
+    "definition": "Doğadaki seslerin taklit edilmesiyle oluşan, canlı veya cansız varlıkların çıkardığı sesleri ifade eden sözcüklerdir. Genellikle isim veya fiil olarak kullanılabilirler ve cümleye canlılık katarlar.",
+    "examples": [
+      "Kapıdan **güm güm** sesler geliyordu.",
+      "Kuşlar **cik cik** ötüyordu.",
+      "Su **şırıl şırıl** akıyordu."
+    ],
+    "relatedTerms": [
+      "İsim",
+      "Fiil",
+      "Ses"
+    ],
+    "order": 99
   }
 ]

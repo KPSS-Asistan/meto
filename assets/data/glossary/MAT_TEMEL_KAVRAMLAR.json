@@ -1372,5 +1372,448 @@
       "Toplama ve Çıkarma İşlemleri"
     ],
     "order": 86
+  },
+  {
+    "id": "basamak_degeri_farki",
+    "term": "Basamak Değeri Farkı",
+    "definition": "Bir sayının rakamlarının basamak değerleri arasındaki farkları ifade eder. Özellikle iki basamaklı sayılarda rakamların yer değiştirmesiyle oluşan yeni sayının farkı gibi problemlerde kullanılır.",
+    "examples": [
+      "AB iki basamaklı sayısı için A ve B rakamlarının basamak değerleri farkı 9A-9B şeklinde ifade edilebilir."
+    ],
+    "relatedTerms": [
+      "Sayı Basamakları",
+      "Sayı Çözümleme Teknikleri",
+      "Rakam Değeri"
+    ],
+    "order": 87
+  },
+  {
+    "id": "sayi_kumesi_genisletme",
+    "term": "Sayı Kümesi Genişletme",
+    "definition": "Doğal sayılardan tam sayılara, tam sayılardan rasyonel sayılara ve rasyonel sayılardan reel sayılara geçişi ifade eder. Her kümenin bir önceki kümeyi kapsadığını ve kendine özgü özelliklere sahip olduğunu vurgular.",
+    "examples": [
+      "Her doğal sayı aynı zamanda bir tam sayıdır, ancak her tam sayı bir doğal sayı değildir."
+    ],
+    "relatedTerms": [
+      "Tam Sayı Kümesi",
+      "Doğal Sayı Kümesi",
+      "Rasyonel Sayılar"
+    ],
+    "order": 88
+  },
+  {
+    "id": "ardisik_tek_cift_sayilar",
+    "term": "Ardışık Tek/Çift Sayılar",
+    "definition": "Ardışık tek sayılar arasında 2, ardışık çift sayılar arasında da 2 fark bulunan sayı dizileridir. Bu tür dizilerin toplamları veya terim sayıları ile ilgili problemler sıkça sorulur.",
+    "examples": [
+      "Ardışık üç tek sayının toplamı 45 ise, ortadaki sayı 15'tir.",
+      "2, 4, 6, ..., 20 dizisindeki çift sayıların sayısı."
+    ],
+    "relatedTerms": [
+      "Ardışık Sayı Toplamları",
+      "Tek ve Çift Sayı Özellikleri",
+      "Ardışık Sayı Farkları"
+    ],
+    "order": 89
+  },
+  {
+    "id": "devirli_ondalik_sayilar",
+    "term": "Devirli Ondalık Sayılar",
+    "definition": "Payı paydaya bölündüğünde ondalık kısımda belirli bir rakam grubunun sürekli tekrar ettiği ondalık sayılardır. Bu sayıların rasyonel sayıya çevrilmesi KPSS'de önemli bir konudur.",
+    "examples": [
+      "0.333... = 1/3",
+      "1.252525... = 124/99"
+    ],
+    "relatedTerms": [
+      "Kesir ve Ondalık Sayı Dönüşümleri",
+      "Ondalık Sayı İşlemleri",
+      "Rasyonel Sayılar"
+    ],
+    "order": 90
+  },
+  {
+    "id": "basamak_kaydirma_islemleri",
+    "term": "Basamak Kaydırma İşlemleri",
+    "definition": "Bir sayının ondalık virgülünün sağa veya sola kaydırılmasıyla sayının değerinin nasıl değiştiğini inceleyen konudur. Genellikle çarpma ve bölme işlemlerinde 10'un kuvvetleriyle ilişkilidir.",
+    "examples": [
+      "12.34 x 100 = 1234",
+      "567.8 / 10 = 56.78"
+    ],
+    "relatedTerms": [
+      "Ondalık Sayı İşlemleri",
+      "Sayı Basamakları",
+      "Sayı Çözümleme Teknikleri"
+    ],
+    "order": 91
+  },
+  {
+    "id": "faktoriyel_temel_islemler",
+    "term": "Faktöriyel Temel İşlemler",
+    "definition": "Bir sayının kendisinden başlayarak 1'e kadar olan tüm doğal sayılarla çarpımını ifade eden matematiksel bir işlemdir (n!). Özellikle sadeleştirme ve basamak çözümleme problemlerinde kullanılır.",
+    "examples": [
+      "5! = 5 x 4 x 3 x 2 x 1 = 120",
+      "7! / 5! = 7 x 6 = 42"
+    ],
+    "relatedTerms": [
+      "Faktöriyel Özellikleri",
+      "Asal Çarpanlara Ayırma Yöntemleri",
+      "Bölünebilme Kuralları Uygulamaları"
+    ],
+    "order": 92
+  },
+  {
+    "id": "uslu_sayilarda_taban_esitleme",
+    "term": "Üslü Sayılarda Taban Eşitleme",
+    "definition": "Üslü ifade içeren denklemlerde veya karşılaştırmalarda tabanları eşitleyerek üsler arasında ilişki kurma yöntemidir. Denklem çözme ve sıralama problemlerinde kritik öneme sahiptir.",
+    "examples": [
+      "2^x = 8 ise, 2^x = 2^3 olduğundan x=3'tür.",
+      "3^a < 9^b ise, 3^a < (3^2)^b yani 3^a < 3^(2b) olduğundan a < 2b'dir."
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Taban-Us İlişkisi",
+      "Üslü Sayı Özel Durumlar",
+      "Eşitsizlik Çözme"
+    ],
+    "order": 93
+  },
+  {
+    "id": "koklu_sayilarda_eslenik",
+    "term": "Köklü Sayılarda Eşlenik",
+    "definition": "Paydada köklü ifade bulunan kesirleri rasyonel hale getirmek için kullanılan yöntemdir. Paydanın köklü ifadesinin eşleniği ile hem pay hem de payda çarpılır.",
+    "examples": [
+      "1 / (√2 - 1) ifadesinin paydasını rasyonel yapmak için (√2 + 1) ile çarpılır."
+    ],
+    "relatedTerms": [
+      "Kök Alma Temel Kavramı",
+      "Kök Alma Özellikleri",
+      "Kesir İşlem Sıralama"
+    ],
+    "order": 94
+  },
+  {
+    "id": "mutlak_deger_aralik_cozumleri",
+    "term": "Mutlak Değer Aralık Çözümleri",
+    "definition": "Mutlak değer içeren eşitsizliklerin çözüm kümesini aralık olarak bulma yöntemidir. Mutlak değerin tanımı gereği pozitif ve negatif durumlar ayrı ayrı incelenir.",
+    "examples": [
+      "|x - 2| < 3 eşitsizliğinin çözümü -1 < x < 5 aralığıdır."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Denklem Çözme",
+      "Eşitsizlik Çözme ve Gösterim",
+      "Mutlak Değer Özellikleri"
+    ],
+    "order": 95
+  },
+  {
+    "id": "asal_carpan_sayisi_ve_toplami",
+    "term": "Asal Çarpan Sayısı ve Toplamı",
+    "definition": "Bir sayının asal çarpanlarının kaç tane olduğunu ve bu asal çarpanların toplamını bulma yöntemidir. Özellikle sayı teorisi problemlerinde ve OKEK/OBEB hesaplamalarında kullanılır.",
+    "examples": [
+      "12 sayısının asal çarpanları 2 ve 3'tür. Asal çarpan sayısı 2, toplamı ise 5'tir."
+    ],
+    "relatedTerms": [
+      "Asal Çarpanlara Ayırma Yöntemleri",
+      "Asal Sayı Tanımı ve Bulma",
+      "Asal Çarpan Sayısı Hesaplama"
+    ],
+    "order": 96
+  },
+  {
+    "id": "rasyonel_sayi_siralamasi",
+    "term": "Rasyonel Sayı Sıralaması",
+    "definition": "Farklı paydalara sahip rasyonel sayıları küçükten büyüğe veya büyükten küçüğe sıralama yöntemidir. Paydaları eşitleme veya payları eşitleme gibi teknikler kullanılır.",
+    "examples": [
+      "1/2, 2/3, 3/4 sayılarını sıralarken paydalar 12'de eşitlenebilir."
+    ],
+    "relatedTerms": [
+      "Kesir İşlem Sıralama",
+      "Ondalık Sayı İşlem Sıralama",
+      "Kesir ve Ondalık Sayı Dönüşümleri"
+    ],
+    "order": 97
+  },
+  {
+    "id": "ussu_ussu_sayilar",
+    "term": "Üssün Üssü Sayılar",
+    "definition": "Bir üslü ifadenin tekrar üssünün alınması durumudur. Bu durumda üsler birbiriyle çarpılır. Üslü sayılarda sadeleştirme ve denklem çözme için önemlidir.",
+    "examples": [
+      "(2^3)^4 = 2^(3x4) = 2^12",
+      "((a^x)^y)^z = a^(xyz)"
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Taban-Us İlişkisi",
+      "Üslü Sayı Özel Durumlar",
+      "İşlem Önceliği Uygulamaları"
+    ],
+    "order": 98
+  },
+  {
+    "id": "koklu_ifadelerde_sadeleştirme",
+    "term": "Köklü İfadelerde Sadeleştirme",
+    "definition": "Kök içindeki sayıyı çarpanlarına ayırarak tam kare olan çarpanları kök dışına çıkarma işlemidir. Köklü sayılarla yapılan işlemlerde kolaylık sağlar.",
+    "examples": [
+      "√12 = √(4 x 3) = 2√3",
+      "√50 = √(25 x 2) = 5√2"
+    ],
+    "relatedTerms": [
+      "Kök Alma Temel Kavramı",
+      "Kök Alma Özellikleri",
+      "Asal Çarpanlara Ayırma Yöntemleri"
+    ],
+    "order": 99
+  },
+  {
+    "id": "sayi_deger_problemleri",
+    "term": "Sayı Değer Problemleri",
+    "definition": "Bir sayının rakamlarının yer değiştirmesi, eklenmesi veya çıkarılmasıyla oluşan yeni sayılarla ilgili problemlerdir. Genellikle iki veya üç basamaklı sayılar üzerinden sorulur.",
+    "examples": [
+      "AB iki basamaklı sayısının rakamları yer değiştirildiğinde sayı 36 artıyorsa, A ve B arasındaki ilişki."
+    ],
+    "relatedTerms": [
+      "Sayı Basamakları ve Değerleri",
+      "Sayı Çözümleme Teknikleri",
+      "Basamak Değeri Farkı"
+    ],
+    "order": 100
+  },
+  {
+    "id": "rasyonel_sayi_tanimi",
+    "term": "Rasyonel Sayı Tanımı",
+    "definition": "a/b şeklinde yazılabilen, a ve b tam sayı (b sıfırdan farklı) olan sayılardır. KPSS'de rasyonel sayılarla yapılan temel dört işlem ve sıralama sıkça sorulur.",
+    "examples": [
+      "2/3 bir rasyonel sayıdır.",
+      "-5 bir rasyonel sayıdır (çünkü -5/1 olarak yazılabilir)."
+    ],
+    "relatedTerms": [
+      "Tam Sayı Kümesi",
+      "Kesir ve Ondalık Sayı Dönüşümleri",
+      "İrrasyonel Sayı"
+    ],
+    "order": 101
+  },
+  {
+    "id": "irrasyonel_sayi_kavrami",
+    "term": "İrrasyonel Sayı Kavramı",
+    "definition": "Rasyonel olmayan, yani a/b şeklinde yazılamayan sayılardır. Genellikle kök dışına çıkamayan sayılar veya pi (π) gibi özel sayılar irrasyoneldir.",
+    "examples": [
+      "√2 bir irrasyonel sayıdır.",
+      "π (pi) bir irrasyonel sayıdır."
+    ],
+    "relatedTerms": [
+      "Rasyonel Sayı Tanımı",
+      "Gerçek Sayılar",
+      "Kök Alma Temel Kavramı"
+    ],
+    "order": 102
+  },
+  {
+    "id": "gercek_sayilar_kumesi",
+    "term": "Gerçek Sayılar Kümesi (Reel Sayılar)",
+    "definition": "Rasyonel sayılar kümesi ile irrasyonel sayılar kümesinin birleşimiyle oluşan sayılar kümesidir. Sayı doğrusu üzerindeki her noktaya karşılık gelen bir gerçek sayı vardır.",
+    "examples": [
+      "2, -3.5, √7, π hepsi birer gerçek sayıdır."
+    ],
+    "relatedTerms": [
+      "Rasyonel Sayı Tanımı",
+      "İrrasyonel Sayı Kavramı",
+      "Sayı Kümesi Özellikleri"
+    ],
+    "order": 103
+  },
+  {
+    "id": "sayi_kumeleri_arasi_iliskiler",
+    "term": "Sayı Kümeleri Arası İlişkiler",
+    "definition": "Doğal sayılar, tam sayılar, rasyonel sayılar ve gerçek sayılar kümeleri arasındaki kapsama ilişkilerini ifade eder. Her doğal sayı bir tam sayıdır, her tam sayı bir rasyonel sayıdır ve her rasyonel sayı bir gerçek sayıdır.",
+    "examples": [
+      "N ⊂ Z ⊂ Q ⊂ R şeklinde gösterilir."
+    ],
+    "relatedTerms": [
+      "Doğal Sayı Kümesi",
+      "Tam Sayı Kümesi",
+      "Rasyonel Sayı Tanımı",
+      "Gerçek Sayılar Kümesi"
+    ],
+    "order": 104
+  },
+  {
+    "id": "pozitif_negatif_sayi_ozellikleri",
+    "term": "Pozitif ve Negatif Sayı Özellikleri",
+    "definition": "Sayıların sıfıra göre konumlarına göre pozitif (+) veya negatif (-) olma durumları ve bu durumların toplama, çıkarma, çarpma, bölme işlemlerine etkileridir. Özellikle işaret kuralları KPSS'de işlem yeteneğini ölçer.",
+    "examples": [
+      "(+) x (-) = (-)",
+      "(-) / (-) = (+)",
+      "Bir sayının karesi her zaman pozitiftir (sıfır hariç)."
+    ],
+    "relatedTerms": [
+      "Tam Sayı Kümesi",
+      "İşlem Önceliği Uygulamaları",
+      "Mutlak Değer Özellikleri"
+    ],
+    "order": 105
+  },
+  {
+    "id": "sayi_cozumleme_uygulamalari",
+    "term": "Sayı Çözümleme Uygulamaları",
+    "definition": "Bir sayıyı basamak değerlerine göre açarak (örneğin abc = 100a + 10b + c) denklem kurma ve problem çözme yöntemidir. Özellikle iki veya üç basamaklı sayılarla ilgili problemlerde kullanılır.",
+    "examples": [
+      "'ab' iki basamaklı sayısı 'ba' iki basamaklı sayısından 27 fazlaysa, 10a+b = 10b+a+27 denklemi kurulur."
+    ],
+    "relatedTerms": [
+      "Sayı Çözümleme Teknikleri",
+      "Sayı Basamakları ve Değerleri",
+      "Denklem Çözme"
+    ],
+    "order": 106
+  },
+  {
+    "id": "negatif_sayilarda_kuvvetler",
+    "term": "Negatif Sayılarda Kuvvetler",
+    "definition": "Negatif bir sayının çift kuvvetleri pozitif, tek kuvvetleri ise negatiftir. Bu kural, üslü sayılarla ilgili işlemlerde işaret hatası yapmamak için kritik öneme sahiptir.",
+    "examples": [
+      "(-2)^3 = -8",
+      "(-3)^4 = 81",
+      "-2^4 = -16 (parantez olmadığına dikkat!)"
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Taban-Us İlişkisi",
+      "Üslü Sayı Özel Durumlar",
+      "Pozitif Negatif Sayı Özellikleri"
+    ],
+    "order": 107
+  },
+  {
+    "id": "mutlak_deger_esitsizlikleri",
+    "term": "Mutlak Değer Eşitsizlikleri",
+    "definition": "Mutlak değerli ifadelerin eşitsizliklerle birlikte kullanıldığı durumlardır. |x| < a ise -a < x < a, |x| > a ise x > a veya x < -a şeklinde çözülür.",
+    "examples": [
+      "|x-2| < 3 eşitsizliğinin çözüm kümesi (-1, 5) aralığıdır.",
+      "|2x+1| ≥ 5 eşitsizliğinin çözüm kümesi (-∞, -3] U [2, ∞)'dir."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Denklem Çözme",
+      "Eşitsizlik Çözme ve Gösterim",
+      "Mutlak Değer Özellikleri"
+    ],
+    "order": 108
+  },
+  {
+    "id": "sayi_dogrusu_gosterimi",
+    "term": "Sayı Doğrusu Gösterimi",
+    "definition": "Sayıların (tam sayılar, rasyonel sayılar, gerçek sayılar) sayı doğrusu üzerindeki yerlerini ve aralarındaki uzaklıkları görselleştirmektir. Özellikle eşitsizliklerin çözüm kümelerini göstermede kullanılır.",
+    "examples": [
+      "x > 3 eşitsizliğinin sayı doğrusunda gösterimi 3'ten büyük tüm sayılar (3 dahil değil) olarak ifade edilir.",
+      "-2 ile 5 arasındaki tam sayılar sayı doğrusunda işaretlenir."
+    ],
+    "relatedTerms": [
+      "Gerçek Sayılar Kümesi",
+      "Eşitsizlik Çözme ve Gösterim",
+      "Mutlak Değer Temel Kavramı"
+    ],
+    "order": 109
+  },
+  {
+    "id": "faktoriyele_giris",
+    "term": "Faktöriyele Giriş",
+    "definition": "Bir n doğal sayısının faktöriyeli, 1'den n'ye kadar olan tüm doğal sayıların çarpımıdır (n!). Özellikle permütasyon ve kombinasyon konularının temelini oluşturur.",
+    "examples": [
+      "5! = 5 x 4 x 3 x 2 x 1 = 120",
+      "0! = 1 olarak kabul edilir."
+    ],
+    "relatedTerms": [
+      "Faktöriyel Özellikleri",
+      "Permütasyon",
+      "Kombinasyon"
+    ],
+    "order": 110
+  },
+  {
+    "id": "asal_carpanlarin_ustel_gosterimi",
+    "term": "Asal Çarpanların Üstel Gösterimi",
+    "definition": "Bir sayının asal çarpanlarına ayrıldıktan sonra, aynı asal çarpanların üslü biçimde yazılmasıdır. Bu gösterim, OBEB, OKEK ve tam bölen sayısını bulmada temeldir.",
+    "examples": [
+      "72 sayısının asal çarpanlara ayrılmış üslü gösterimi 2^3 x 3^2'dir.",
+      "100 = 2^2 x 5^2'dir."
+    ],
+    "relatedTerms": [
+      "Asal Çarpanlara Ayırma Yöntemleri",
+      "Asal Çarpan Sayısı",
+      "Obeb ve Okek Uygulamalı Problemler"
+    ],
+    "order": 111
+  },
+  {
+    "id": "sayi_basamaklari_toplami",
+    "term": "Sayı Basamakları Toplamı",
+    "definition": "Bir sayının basamak değerlerinin toplamıdır. Özellikle sayı çözümleme problemlerinde ve kalansız bölünebilme durumlarında kullanılır. Sayının rakamlarının toplamı olarak da ifade edilebilir.",
+    "examples": [
+      "245 sayısının basamakları toplamı 2+4+5=11'dir.",
+      "Bir sayının 3 veya 9 ile tam bölünüp bölünmediğini anlamak için basamakları toplamına bakılır."
+    ],
+    "relatedTerms": [
+      "Sayı Çözümleme Uygulamaları",
+      "Basamak Değeri Farkı",
+      "Bölünebilme Kuralları Özeti"
+    ],
+    "order": 112
+  },
+  {
+    "id": "ardisik_sayilar_toplami",
+    "term": "Ardışık Sayılar Toplamı",
+    "definition": "Belirli bir kurala göre art arda gelen sayıların toplamını bulma yöntemidir. Genellikle terim sayısı ve ilk/son terim kullanılarak pratik formüllerle hesaplanır. KPSS'de genellikle ortalama veya terim sayısı ile ilişkilendirilir.",
+    "examples": [
+      "1'den n'e kadar olan sayıların toplamı n*(n+1)/2 formülüyle bulunur.",
+      "Ardışık tek sayıların toplamı n² (n terim sayısı) formülüyle bulunur."
+    ],
+    "relatedTerms": [
+      "Ardışık Sayı Farkları",
+      "Ardışık Tek/Çift Sayılar",
+      "Sayı Değer Problemleri"
+    ],
+    "order": 113
+  },
+  {
+    "id": "sayi_degeri_ve_basamak_degeri",
+    "term": "Sayı Değeri ve Basamak Değeri",
+    "definition": "Bir rakamın sayı değeri, rakamın kendisini ifade ederken; basamak değeri, rakamın bulunduğu basamağa göre aldığı değeri ifade eder. Bu ayrım, sayı çözümleme ve basamak problemleri için temeldir.",
+    "examples": [
+      "345 sayısında 4 rakamının sayı değeri 4, basamak değeri ise onlar basamağında olduğu için 40'tır.",
+      "Bir sayının basamak değerleri toplamı sayının kendisini verir."
+    ],
+    "relatedTerms": [
+      "Basamak Değeri Farkı",
+      "Sayı Çözümleme Uygulamaları",
+      "Temel Kavramlar ve Sayı Basamakları"
+    ],
+    "order": 114
+  },
+  {
+    "id": "dogal_sayilar_ve_tam_sayilar",
+    "term": "Doğal Sayılar ve Tam Sayılar",
+    "definition": "Doğal sayılar (N), sayma sayılarının sıfırı da içerecek şekilde genişletilmiş halidir ({0, 1, 2, ...}). Tam sayılar (Z) ise doğal sayılar kümesine negatif sayıların eklenmesiyle oluşur ({..., -2, -1, 0, 1, 2, ...}). Bu kümeler, sayı problemlerinin çözümünde başlangıç noktasıdır.",
+    "examples": [
+      "Bir problemde 'doğal sayı' denildiğinde negatif değerler ve kesirli sayılar elenir.",
+      "Sıcaklık değerleri genellikle tam sayılarla ifade edilir."
+    ],
+    "relatedTerms": [
+      "Sayı Kümesi Özellikleri",
+      "Sayı Kümesi Genişletme",
+      "Pozitif ve Negatif Sayı Özellikleri"
+    ],
+    "order": 115
+  },
+  {
+    "id": "rasyonel_sayilarda_islemler",
+    "term": "Rasyonel Sayılarda İşlemler",
+    "definition": "a/b şeklinde yazılabilen sayılar olan rasyonel sayılarda (b≠0), toplama, çıkarma, çarpma ve bölme gibi temel aritmetik işlemlerin kurallarıdır. Özellikle payda eşitleme, sadeleştirme ve ters çevirip çarpma gibi adımlar önemlidir.",
+    "examples": [
+      "1/2 + 1/3 = 3/6 + 2/6 = 5/6 (payda eşitleme)",
+      "(2/3) / (1/4) = (2/3) * (4/1) = 8/3 (ters çevirip çarpma)"
+    ],
+    "relatedTerms": [
+      "Rasyonel Sayı Tanımı",
+      "Rasyonel Sayı Sıralaması",
+      "İşlem Önceliği Karma"
+    ],
+    "order": 116
   }
 ]

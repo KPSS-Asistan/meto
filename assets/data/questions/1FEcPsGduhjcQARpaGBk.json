@@ -13,8 +13,9 @@
       "Cisimlerin gölge boyunun yıl içinde iki kez sıfır olması"
     ],
     "a": 4,
-    "e": "Türkiye, Yengeç Dönencesi'nin kuzeyinde (36°-42° K) yer aldığı için güneş ışınlarını hiçbir zaman 90 derecelik dik açıyla alamaz. Bu nedenle cisimlerin gölge boyu asla sıfır olmaz. Gölge boyunun sıfır olduğu yerler sadece dönenceler arasıdır.",
-    "_part": 1
+    "e": "Türkiye, Yengeç Dönencesi'nin kuzeyinde yer aldığı için güneş ışınlarını hiçbir zaman dik açıyla almaz. Bu durum, cisimlerin gölge boyunun hiçbir zaman sıfır olmaması anlamına gelir. Gölge boyunun yıl içinde iki kez sıfır olduğu yerler sadece dönenceler arasında kalan tropikal kuşaktır.",
+    "_part": 1,
+    "type": "negative"
   },
   {
     "id": "cog_002",
@@ -1058,7 +1059,7 @@
     "topicId": "1FEcPsGduhjcQARpaGBk",
     "subtopicId": "yerel-saat",
     "subtopic": "Yerel Saat ve Saat Dilimleri",
-    "q": "Güneş Iğdır'da doğduktan kaç dakika sonra İzmit'te (30° Doğu) tepe noktasına ulaşır? (Iğdır: 45° Doğu)",
+    "q": "Güneş Iğdır'da doğduktan kaç dakika sonra İzmit'te (30° Doğu) tepe noktasına ulaşır? (Iğdır: 45° Doğu)?",
     "o": [
       "30 dakika",
       "45 dakika",

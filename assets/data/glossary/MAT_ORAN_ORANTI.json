@@ -721,5 +721,454 @@
       "Oran Çarpanı"
     ],
     "order": 49
+  },
+  {
+    "id": "orantı_sabiti",
+    "term": "Orantı Sabiti (k)",
+    "definition": "Doğru orantılı çoklukların oranının veya ters orantılı çoklukların çarpımının her zaman eşit olduğu sabit değerdir. Genellikle 'k' ile gösterilir.",
+    "examples": [
+      "a ve b doğru orantılı ise a/b = k'dır.",
+      "x ve y ters orantılı ise x * y = k'dır."
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Ters Orantı",
+      "Orantılılık"
+    ],
+    "order": 50
+  },
+  {
+    "id": "bileşik_orantı",
+    "term": "Bileşik Orantı",
+    "definition": "İki veya daha fazla çokluğun hem doğru hem de ters orantı ilişkisi içinde olduğu durumlardır. Problemler genellikle 'işçi-iş-zaman' gibi senaryolarda karşımıza çıkar.",
+    "examples": [
+      "x, y ile doğru orantılı, z ile ters orantılıdır.",
+      "3 işçi 5 günde 10 m duvar örerse, 6 işçi 8 günde kaç m duvar örer?"
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Ters Orantı",
+      "Orantı Problemleri"
+    ],
+    "order": 51
+  },
+  {
+    "id": "orantı_problemleri",
+    "term": "Orantı Problemleri",
+    "definition": "Oran ve orantı kavramlarını kullanarak günlük hayattaki veya matematiksel senaryolardaki bilinmeyen değerleri bulmaya yönelik sorulardır. KPSS'de sıklıkla karşılaşılan temel soru tipleridir.",
+    "examples": [
+      "Bir karışımın oranlarını kullanarak yeni bir karışım hazırlama.",
+      "Bir işin belirli bir kısmını yapan kişi sayısını veya süreyi hesaplama."
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Ters Orantı",
+      "Bileşik Orantı"
+    ],
+    "order": 52
+  },
+  {
+    "id": "orantılı_büyüme_katsayısı",
+    "term": "Orantılı Büyüme Katsayısı",
+    "definition": "Bir büyüklüğün zamanla veya başka bir değişkene bağlı olarak ne kadar kat arttığını veya azaldığını gösteren orandır. Genellikle yüzde olarak ifade edilir.",
+    "examples": [
+      "Nüfusun yıllık büyüme katsayısı.",
+      "Bir yatırımın getiri katsayısı."
+    ],
+    "relatedTerms": [
+      "Yüzde Artış",
+      "Yüzde Azalış",
+      "Oran"
+    ],
+    "order": 53
+  },
+  {
+    "id": "orantısal_dağılım",
+    "term": "Orantısal Dağılım",
+    "definition": "Bir bütünün belirli oranlara göre parçalara ayrılması işlemidir. Genellikle miras paylaşımı, kar dağıtımı gibi konularda kullanılır.",
+    "examples": [
+      "Bir mirasın 2:3:5 oranında paylaşılması.",
+      "Bir şirketin karının ortaklar arasında sermaye oranlarına göre dağıtılması."
+    ],
+    "relatedTerms": [
+      "Orantılı Bölme",
+      "Oran",
+      "Paylaşım"
+    ],
+    "order": 54
+  },
+  {
+    "id": "orantısal_temsil",
+    "term": "Orantısal Temsil",
+    "definition": "Bir bütünün veya grubun içindeki farklı bileşenlerin oranlarını gösteren temsildir. Genellikle grafikler (pasta grafiği, sütun grafiği) ile ifade edilir.",
+    "examples": [
+      "Bir ülkedeki farklı yaş gruplarının nüfusa oranı.",
+      "Bir bütçedeki harcama kalemlerinin toplam harcamaya oranı."
+    ],
+    "relatedTerms": [
+      "Yüzde Oranı",
+      "Oran",
+      "Veri Analizi"
+    ],
+    "order": 55
+  },
+  {
+    "id": "ters_orantılı_bölme",
+    "term": "Ters Orantılı Bölme",
+    "definition": "Bir sayının veya miktarın belirli sayılarla ters orantılı olacak şekilde parçalara ayrılmasıdır. Sayılar büyüdükçe düşen pay azalır.",
+    "examples": [
+      "Bir ödülün yaşları ile ters orantılı olarak dağıtılması.",
+      "Bir işin maliyetinin işin zorluğu ile ters orantılı olarak paylaşılması."
+    ],
+    "relatedTerms": [
+      "Doğru Orantılı Bölme",
+      "Ters Orantı",
+      "Orantısal Dağılım"
+    ],
+    "order": 56
+  },
+  {
+    "id": "orantı_kuralları",
+    "term": "Orantı Kuralları",
+    "definition": "Orantılarla işlem yaparken kullanılan temel cebirsel özelliklerdir. İçler dışlar çarpımı, oranların toplanıp çıkarılması gibi kuralları içerir.",
+    "examples": [
+      "a/b = c/d ise a*d = b*c'dir.",
+      "a/b = c/d = k ise (a+c)/(b+d) = k'dır."
+    ],
+    "relatedTerms": [
+      "Orantı",
+      "Denklem Çözme",
+      "Cebirsel İfadeler"
+    ],
+    "order": 57
+  },
+  {
+    "id": "orantı_grafikleri",
+    "term": "Orantı Grafikleri",
+    "definition": "Doğru veya ters orantılı ilişkileri görsel olarak temsil eden grafiklerdir. Doğru orantı genellikle orijinden geçen bir doğru, ters orantı ise bir eğri ile gösterilir.",
+    "examples": [
+      "Yol-zaman grafiği (sabit hızda doğru orantı).",
+      "Hız-zaman grafiği (sabit mesafe için ters orantı)."
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Ters Orantı",
+      "Fonksiyon Grafikleri"
+    ],
+    "order": 58
+  },
+  {
+    "id": "orantı_sistemleri",
+    "term": "Orantı Sistemleri",
+    "definition": "Birden fazla orantının bir arada bulunduğu ve birbirini etkilediği durumlardır. Genellikle karmaşık problemleri çözmek için kullanılır.",
+    "examples": [
+      "Bir fabrikadaki üretim hattında farklı makinelerin verimlilik oranları.",
+      "Bir projedeki farklı ekiplerin iş tamamlama oranları."
+    ],
+    "relatedTerms": [
+      "Bileşik Orantı",
+      "Orantı Problemleri",
+      "Sistem Analizi"
+    ],
+    "order": 59
+  },
+  {
+    "id": "oran_tahmini",
+    "term": "Oran Tahmini",
+    "definition": "Verilen bilgilere dayanarak bir olayın veya durumun gelecekteki oranını veya değerini öngörme işlemidir. İstatistik ve olasılıkla ilişkilidir.",
+    "examples": [
+      "Geçmiş verilere dayanarak bir ürünün satış oranını tahmin etme.",
+      "Seçim anketlerindeki oranlara göre sonuç tahmini."
+    ],
+    "relatedTerms": [
+      "Olasılık",
+      "İstatistik",
+      "Tahmin"
+    ],
+    "order": 60
+  },
+  {
+    "id": "orantısal_model",
+    "term": "Orantısal Model",
+    "definition": "Gerçek dünya olaylarını veya ilişkilerini oran ve orantı prensipleriyle basitleştirerek açıklayan matematiksel bir modeldir. Bilimsel ve mühendislik alanlarında kullanılır.",
+    "examples": [
+      "Bir harita üzerindeki ölçek (orantısal model).",
+      "Kimyasal reaksiyonlardaki madde oranları."
+    ],
+    "relatedTerms": [
+      "Matematiksel Modelleme",
+      "Oran",
+      "Uygulamalı Matematik"
+    ],
+    "order": 61
+  },
+  {
+    "id": "orantısal_ölçekleme",
+    "term": "Orantısal Ölçekleme",
+    "definition": "Bir nesnenin veya görüntünün boyutlarını belirli bir oranda büyütme veya küçültme işlemidir. Şeklin oranları korunur.",
+    "examples": [
+      "Bir fotoğrafı belirli bir oranda büyütme veya küçültme.",
+      "Bir mimari çizimin ölçeğini değiştirme."
+    ],
+    "relatedTerms": [
+      "Ölçek",
+      "Oran",
+      "Geometri"
+    ],
+    "order": 62
+  },
+  {
+    "id": "ters_orantili_iliskiler",
+    "term": "Ters Orantılı İlişkiler",
+    "definition": "İki değişkenin çarpımı sabit bir değere eşitse, bu değişkenler ters orantılıdır. Bir değişken artarken diğeri aynı oranda azalır.",
+    "examples": [
+      "Bir işi yapan işçi sayısı arttıkça işin bitme süresi azalır.",
+      "Sabit bir mesafeyi kat eden aracın hızı arttıkça yolculuk süresi azalır."
+    ],
+    "relatedTerms": [
+      "Doğru Orantılı İlişkiler",
+      "Orantı Sabiti",
+      "Oran"
+    ],
+    "order": 63
+  },
+  {
+    "id": "dogru_orantili_iliskiler",
+    "term": "Doğru Orantılı İlişkiler",
+    "definition": "İki değişkenin oranı sabit bir değere eşitse, bu değişkenler doğru orantılıdır. Bir değişken arttıkça diğeri de aynı oranda artar.",
+    "examples": [
+      "Alınan mal miktarı arttıkça ödenen ücret artar.",
+      "Bir aracın sabit hızla gittiği süre arttıkça katettiği mesafe artar."
+    ],
+    "relatedTerms": [
+      "Ters Orantılı İlişkiler",
+      "Oran Sabiti",
+      "Orantı"
+    ],
+    "order": 64
+  },
+  {
+    "id": "k_orantısı",
+    "term": "k Orantısı",
+    "definition": "Oran ve orantı problemlerinde kullanılan, orantılı çoklukların eşitlendiği sabite verilen genel addır. Problemleri çözmede kolaylık sağlar.",
+    "examples": [
+      "a/b = c/d = k eşitliğinde k, orantı sabitidir.",
+      "x:y:z = 2:3:5 ise x=2k, y=3k, z=5k şeklinde ifade edilir."
+    ],
+    "relatedTerms": [
+      "Orantı Sabiti",
+      "Oran",
+      "Doğru Orantı"
+    ],
+    "order": 65
+  },
+  {
+    "id": "orantı_kurma",
+    "term": "Orantı Kurma",
+    "definition": "Verilen iki veya daha fazla çokluk arasındaki ilişkiyi doğru veya ters orantı prensiplerine göre matematiksel bir denkleme dönüştürme işlemidir. Problemlerin çözümünde ilk adımdır.",
+    "examples": [
+      "3 kalem 15 TL ise 5 kalem kaç TL'dir? (3/15 = 5/x)",
+      "4 işçi bir işi 6 günde yaparsa, 8 işçi aynı işi kaç günde yapar? (4*6 = 8*x)"
+    ],
+    "relatedTerms": [
+      "Orantı Denklem Kurma",
+      "Problem Çözme",
+      "Orantı"
+    ],
+    "order": 66
+  },
+  {
+    "id": "ortalama_orantı_sayısı",
+    "term": "Ortalama Orantı Sayısı",
+    "definition": "İki sayının geometrik ortalamasına verilen diğer bir isimdir. a ve b sayılarının ortalama orantısı √(a*b) şeklinde bulunur.",
+    "examples": [
+      "4 ve 9 sayılarının ortalama orantısı √(4*9) = √36 = 6'dır."
+    ],
+    "relatedTerms": [
+      "Geometrik Ortalama",
+      "Orantı",
+      "Kareköklü İfadeler"
+    ],
+    "order": 67
+  },
+  {
+    "id": "orantısal_bölme",
+    "term": "Orantısal Bölme",
+    "definition": "Bir bütünün, belirli oranlara göre parçalara ayrılması işlemidir. Paylaştırma problemlerinde sıkça kullanılır.",
+    "examples": [
+      "120 TL'yi 2:3 oranında iki kişiye paylaştırmak.",
+      "Bir karışımı 1:2:3 oranında hazırlamak."
+    ],
+    "relatedTerms": [
+      "Oran Payı",
+      "Oran",
+      "Paylaştırma"
+    ],
+    "order": 68
+  },
+  {
+    "id": "orantı_özellikleri",
+    "term": "Orantı Özellikleri",
+    "definition": "Orantıların korunmasını sağlayan ve problem çözümünde kullanılan matematiksel kurallardır. İçler dışlar çarpımı, oranların toplanıp çıkarılması gibi özellikleri içerir.",
+    "examples": [
+      "a/b = c/d ise a*d = b*c (içler dışlar çarpımı)",
+      "a/b = c/d = (a+c)/(b+d)"
+    ],
+    "relatedTerms": [
+      "Orantı",
+      "Oran",
+      "Denklem Çözme"
+    ],
+    "order": 69
+  },
+  {
+    "id": "orantı_ile_yüzde_ilişkisi",
+    "term": "Orantı ile Yüzde İlişkisi",
+    "definition": "Yüzde kavramının, bir sayının 100'e oranlanması esasına dayanması nedeniyle orantı ile doğrudan ilişkilidir. Yüzde problemleri orantı kurularak çözülebilir.",
+    "examples": [
+      "30'un %20'si kaçtır? (30/x = 100/20)",
+      "Bir ürün %10 zamlanırsa yeni fiyatı ne olur? (Eski fiyat/Yeni fiyat = 100/110)"
+    ],
+    "relatedTerms": [
+      "Yüzde Oranı",
+      "Oran",
+      "Yüzde Problemleri"
+    ],
+    "order": 70
+  },
+  {
+    "id": "orantı_ile_kesir_ilişkisi",
+    "term": "Orantı ile Kesir İlişkisi",
+    "definition": "Oranlar, kesirler şeklinde ifade edilebilir ve kesirlerin temel özelliklerini taşır. Kesirlerle yapılan işlemler, orantılar için de geçerlidir.",
+    "examples": [
+      "2/3 oranı, bir bütünden 3 parçadan 2'sini ifade eden kesirdir.",
+      "Kesirlerde sadeleştirme, oranlarda da yapılabilir."
+    ],
+    "relatedTerms": [
+      "Oran",
+      "Kesirler",
+      "Sadeleştirme"
+    ],
+    "order": 71
+  },
+  {
+    "id": "orantı_ve_ölçek",
+    "term": "Orantı ve Ölçek",
+    "definition": "Haritalar, planlar ve modellerde kullanılan ölçekler, gerçek boyutlar ile çizim boyutları arasındaki sabit bir oranı ifade eder. Orantı prensipleriyle çalışır.",
+    "examples": [
+      "1:1000 ölçekli bir haritada 1 cm, gerçekte 1000 cm'ye karşılık gelir.",
+      "Bir model arabanın gerçek arabaya oranı."
+    ],
+    "relatedTerms": [
+      "Ölçek",
+      "Oran",
+      "Harita Bilgisi"
+    ],
+    "order": 72
+  },
+  {
+    "id": "orantı_ve_oran_farkı",
+    "term": "Orantı ve Oran Farkı",
+    "definition": "Oran, iki çokluğun birbirine bölünmesiyle elde edilen bir sayıdır. Orantı ise iki veya daha fazla oranın birbirine eşit olması durumudur.",
+    "examples": [
+      "3/5 bir orandır.",
+      "3/5 = 6/10 bir orantıdır."
+    ],
+    "relatedTerms": [
+      "Oran",
+      "Orantı",
+      "Eşitlik"
+    ],
+    "order": 73
+  },
+  {
+    "id": "dogru_orantili_bolme",
+    "term": "Doğru Orantılı Bölme",
+    "definition": "Bir bütünün, verilen oranlara göre parçalara ayrılması işlemidir. Parçalar, oranlarla doğru orantılı olarak büyür veya küçülür. Genellikle miras paylaşımı veya kâr dağıtımında kullanılır.",
+    "examples": [
+      "120 TL'yi 2:3 oranında bölüştürmek.",
+      "Bir şirketin kârını ortaklar arasında sermayeleri oranında dağıtmak."
+    ],
+    "relatedTerms": [
+      "Ters Orantılı Bölme",
+      "Orantısal Dağılım",
+      "Oran Payı"
+    ],
+    "order": 74
+  },
+  {
+    "id": "ortalama_hiz_problemleri",
+    "term": "Ortalama Hız Problemleri",
+    "definition": "Farklı hızlarla farklı mesafeler kat edilen durumlarda toplam yolun toplam zamana oranlanmasıyla bulunan ortalama hızı ifade eder. Genellikle iki nokta arasında gidiş-dönüş süreleri ve hızları üzerinden hesaplanır.",
+    "examples": [
+      "Bir aracın A noktasından B noktasına 60 km/s, B noktasından A noktasına 40 km/s hızla gitmesi durumunda ortalama hızı.",
+      "Bir koşucunun farklı etaplardaki hızlarına göre tüm parkurdaki ortalama hızı."
+    ],
+    "relatedTerms": [
+      "Doğru Orantılı İlişkiler",
+      "Oran Problemleri",
+      "Aritmetik Ortalama Orantı"
+    ],
+    "order": 75
+  },
+  {
+    "id": "is_havuz_problemleri",
+    "term": "İş ve Havuz Problemleri",
+    "definition": "Birden fazla kişinin veya kaynağın (musluk gibi) belirli bir işi veya havuzu doldurma/boşaltma süresi ile ilgili orantısal hesaplamaları içerir. İşin tamamı '1' kabul edilerek birim zamanda yapılan iş miktarları toplanır veya çıkarılır.",
+    "examples": [
+      "İki işçinin bir duvarı farklı sürelerde örmesi durumunda birlikte ne kadar sürede örecekleri.",
+      "İki musluğun bir havuzu farklı sürelerde doldurması ve bir musluğun boşaltması durumunda havuzun dolma süresi."
+    ],
+    "relatedTerms": [
+      "Ters Orantılı İlişkiler",
+      "Oran Problemleri",
+      "Bileşik Orantı"
+    ],
+    "order": 76
+  },
+  {
+    "id": "karisim_problemleri",
+    "term": "Karışım Problemleri",
+    "definition": "Farklı oranlarda veya yüzdelerde maddelerin karıştırılması sonucunda oluşan yeni karışımın oranını veya yüzdesini bulmaya yönelik problemlerdir. Genellikle tuzlu su, alkollü su gibi sıvı karışımlarında kullanılır.",
+    "examples": [
+      "Yüzde 20'lik tuzlu su ile yüzde 30'luk tuzlu suyun karıştırılmasıyla oluşan yeni karışımın tuz oranı.",
+      "Farklı ayardaki altınların eritilerek yeni bir alaşım elde edilmesi."
+    ],
+    "relatedTerms": [
+      "Yüzde Oranı",
+      "Oran Dönüşümü",
+      "Orantı Problemleri"
+    ],
+    "order": 77
+  },
+  {
+    "id": "yas_problemleri",
+    "term": "Yaş Problemleri",
+    "definition": "Kişilerin yaşları arasındaki oranların veya farkların zaman içindeki değişimini inceleyen problemlerdir. Genellikle birden fazla kişinin yaşları arasındaki orantısal ilişkileri ve bu ilişkilerin geçmiş veya gelecekteki durumunu sorgular.",
+    "examples": [
+      "Bir babanın yaşının oğlunun yaşının 3 katı olması ve 5 yıl sonraki yaş oranları.",
+      "İki kardeşin yaşları toplamının belirli bir oranda artması."
+    ],
+    "relatedTerms": [
+      "Oran Problemleri",
+      "Doğru Orantılı İlişkiler",
+      "Orantı Kurma"
+    ],
+    "order": 78
+  },
+  {
+    "id": "ortalama_orantili_bolme",
+    "term": "Ortalama Orantılı Bölme",
+    "definition": "Bir sayının belirli oranlara göre bölüştürülmesi işlemidir. Genellikle bir bütünün, verilen oranlar doğrultusunda parçalara ayrılmasında kullanılır ve her parçanın bütün içindeki payını belirler.",
+    "examples": [
+      "Bir mirası 2:3:5 oranında paylaşan üç kardeşin alacağı payları hesaplama.",
+      "Bir karışımı belirli oranlarda oluşturan maddelerin miktarlarını bulma."
+    ],
+    "relatedTerms": [
+      "Orantılı Bölme",
+      "Doğru Orantılı Bölme",
+      "Bileşik Orantı"
+    ],
+    "order": 79
   }
 ]

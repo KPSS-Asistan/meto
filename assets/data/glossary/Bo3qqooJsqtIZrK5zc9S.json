@@ -1515,5 +1515,425 @@
       "Sınır Dışı Edilme"
     ],
     "order": 99
+  },
+  {
+    "id": "yaşama_hakkı",
+    "term": "Yaşama Hakkı",
+    "definition": "Her bireyin doğuştan sahip olduğu, en temel ve vazgeçilmez haktır. Devletin pozitif ve negatif yükümlülükleri kapsamında korunur ve güvence altına alınır. Hiç kimsenin yaşamına kasten son verilemez.",
+    "examples": [
+      "Devletin, vatandaşlarının güvenliğini sağlamak amacıyla terörle mücadele etmesi.",
+      "İşkence ve kötü muamele yasağı."
+    ],
+    "relatedTerms": [
+      "İşkence Yasağı",
+      "Kişi Dokunulmazlığı",
+      "İnsan Onuru"
+    ],
+    "order": 100
+  },
+  {
+    "id": "düşünce_ve_kanaat_hürriyeti",
+    "term": "Düşünce ve Kanaat Hürriyeti",
+    "definition": "Herkesin düşüncelerini ve kanaatlerini serbestçe açıklama, yayma ve bunlara sahip olma hakkıdır. Bu hak, demokratik toplumun temelini oluşturur ve sansürlenemez. Ancak, başkalarının hak ve özgürlüklerini ihlal etmemelidir.",
+    "examples": [
+      "Bir makalede siyasi görüşlerin ifade edilmesi.",
+      "Sosyal medyada kişisel fikirlerin paylaşılması."
+    ],
+    "relatedTerms": [
+      "İfade Özgürlüğü",
+      "Basın Özgürlüğü",
+      "Bilim ve Sanat Özgürlüğü"
+    ],
+    "order": 101
+  },
+  {
+    "id": "dernek_kurma_hakkı",
+    "term": "Dernek Kurma Hakkı",
+    "definition": "Bireylerin önceden izin almaksızın dernek kurma ve bunlara üye olma hakkıdır. Bu hak, toplumsal katılımı ve sivil toplumun gelişimini sağlar. Ancak, kanunla sınırlanabilir.",
+    "examples": [
+      "Çevre koruma amacıyla bir dernek kurulması.",
+      "Mesleki dayanışma için bir derneğe üye olunması."
+    ],
+    "relatedTerms": [
+      "Sendika Kurma Hakkı",
+      "Sivil Toplum Kuruluşları",
+      "Örgütlenme Özgürlüğü"
+    ],
+    "order": 102
+  },
+  {
+    "id": "sağlık_hakkı",
+    "term": "Sağlık Hakkı",
+    "definition": "Herkesin sağlıklı bir çevrede yaşama ve sağlık hizmetlerinden yararlanma hakkıdır. Devlet, bu hakkın gerçekleşmesi için gerekli tedbirleri almakla yükümlüdür. Koruyucu ve tedavi edici sağlık hizmetlerini kapsar.",
+    "examples": [
+      "Devlet hastanelerinde ücretsiz sağlık hizmeti alma.",
+      "Sağlıklı içme suyuna erişim."
+    ],
+    "relatedTerms": [
+      "Sosyal Güvenlik Hakkı",
+      "Çevre Hakkı",
+      "Yaşama Hakkı"
+    ],
+    "order": 103
+  },
+  {
+    "id": "seçme_seçilme_siyasi_faaliyette_bulunma_hakkı",
+    "term": "Seçme, Seçilme ve Siyasi Faaliyette Bulunma Hakkı",
+    "definition": "Vatandaşların, devlet yönetiminde söz sahibi olmak amacıyla oy kullanma, aday olma ve siyasi parti kurma veya üye olma hakkıdır. Demokratik katılımın temelini oluşturur. Bu hak, belirli yaş ve vatandaşlık koşullarına tabidir.",
+    "examples": [
+      "Genel seçimlerde oy kullanma.",
+      "Bir siyasi partinin ilçe teşkilatına üye olma."
+    ],
+    "relatedTerms": [
+      "Demokratik Yönetim",
+      "Vatandaşlık Hakkı",
+      "Siyasi Parti"
+    ],
+    "order": 104
+  },
+  {
+    "id": "bilgi_edinme_hakkı",
+    "term": "Bilgi Edinme Hakkı",
+    "definition": "Herkesin kamu kurum ve kuruluşlarının sahip olduğu bilgilere ulaşma hakkıdır. Şeffaf ve hesap verebilir bir yönetim anlayışının gereğidir. Bu hak, ancak kanunla belirtilen istisnalar dışında kısıtlanamaz.",
+    "examples": [
+      "Bir belediyeden imar planları hakkında bilgi talep etme.",
+      "Kamu kurumlarının bütçe harcamaları hakkında bilgi edinme."
+    ],
+    "relatedTerms": [
+      "Şeffaflık",
+      "Hesap Verebilirlik",
+      "Kamu Denetimi"
+    ],
+    "order": 105
+  },
+  {
+    "id": "dilekçe_hakkı",
+    "term": "Dilekçe Hakkı",
+    "definition": "Vatandaşların ve Türkiye'de ikamet eden yabancıların, kendileriyle veya kamuyla ilgili konularda yetkili makamlara dilek ve şikayetlerini yazılı olarak sunma hakkıdır. Bu hak, demokratik katılımın ve denetimin bir aracıdır. Dilekçelere cevap verilmesi zorunludur.",
+    "examples": [
+      "Bir kamu hizmeti hakkında şikayette bulunmak için dilekçe yazma.",
+      "Bir konuda bilgi almak için resmi kuruma başvurma."
+    ],
+    "relatedTerms": [
+      "Bilgi Edinme Hakkı",
+      "Kamu Denetimi",
+      "Şikayet Hakkı"
+    ],
+    "order": 106
+  },
+  {
+    "id": "çalışma_ve_sözleşme_hürriyeti",
+    "term": "Çalışma ve Sözleşme Hürriyeti",
+    "definition": "Herkesin dilediği alanda çalışma, iş kurma ve sözleşme yapma hakkıdır. Bu hak, ekonomik özgürlüğün bir parçasıdır. Ancak, kamu yararı ve sosyal adalet ilkeleri doğrultusunda kanunla sınırlanabilir.",
+    "examples": [
+      "Bir kişinin kendi işyerini açması.",
+      "İki taraf arasında hukuki geçerliliği olan bir sözleşme imzalanması."
+    ],
+    "relatedTerms": [
+      "Ekonomik Özgürlük",
+      "Sendika Kurma Hakkı",
+      "Sosyal Güvenlik Hakkı"
+    ],
+    "order": 107
+  },
+  {
+    "id": "hak_arama_hürriyeti",
+    "term": "Hak Arama Hürriyeti",
+    "definition": "Herkesin meşru vasıta ve yollara başvurmak suretiyle yargı mercileri önünde davacı veya davalı olarak iddia ve savunma ile adil yargılanma hakkına sahip olmasıdır. Bu hak, hukukun üstünlüğü ve adalet ilkesinin bir gereğidir. Hiç kimse mahkemeye çıkmaktan alıkonulamaz.",
+    "examples": [
+      "Bir haksızlığa uğradığını düşünen kişinin dava açması.",
+      "Mahkemede kendi lehine deliller sunma."
+    ],
+    "relatedTerms": [
+      "Adil Yargılanma Hakkı",
+      "Hukuk Devleti",
+      "Savunma Hakkı"
+    ],
+    "order": 108
+  },
+  {
+    "id": "haberlesme_ozgurlugu",
+    "term": "Haberleşme Özgürlüğü",
+    "definition": "Herkesin mektup, telgraf, telefon ve diğer iletişim araçlarıyla haberleşme özgürlüğüdür. Haberleşmenin gizliliği esastır ve bu gizliliğe müdahale ancak kanunla belirlenen durumlarda ve usulüne uygun olarak yapılabilir. Bu hak, bireylerin özel yaşamlarının korunması için temeldir.",
+    "examples": [
+      "Bir kişinin telefon görüşmesinin mahkeme kararı olmaksızın dinlenememesi.",
+      "E-postaların izinsiz okunmasının yasak olması."
+    ],
+    "relatedTerms": [
+      "Özel Hayatın Gizliliği",
+      "Telekomünikasyon",
+      "İletişimin Gizliliği"
+    ],
+    "order": 109
+  },
+  {
+    "id": "konut_hakki",
+    "term": "Konut Hakkı",
+    "definition": "Devletin, şehirlerin ve konut ihtiyacını karşılayacak tedbirleri alması ve bu konuda planlamalar yapması yükümlülüğüdür. Herkesin insan onuruna yakışır bir konutta yaşama hakkı bulunmaktadır. Bu, özellikle dar gelirli vatandaşlar için önemlidir.",
+    "examples": [
+      "Devletin sosyal konut projeleri geliştirmesi.",
+      "Kentsel dönüşüm projeleriyle yaşanabilir konut alanları oluşturulması."
+    ],
+    "relatedTerms": [
+      "Sosyal Devlet İlkesi",
+      "Mülkiyet Hakkı",
+      "Yaşam Kalitesi"
+    ],
+    "order": 110
+  },
+  {
+    "id": "kamu_hizmetlerine_girme_hakki",
+    "term": "Kamu Hizmetlerine Girme Hakkı",
+    "definition": "Her Türk vatandaşının, kamu hizmetlerine girme hakkına sahip olmasıdır. Görevde yükselmede liyakat ve eşitlik esastır. Bu hak, vatandaşların kamu görevlerinde ayrımcılığa uğramadan istihdam edilmesini güvence altına alır.",
+    "examples": [
+      "Bir kişinin KPSS sınavına girerek devlet memuru olmaya hak kazanması.",
+      "Kamu kurumlarında personel alımında cinsiyet veya etnik köken ayrımı yapılmaması."
+    ],
+    "relatedTerms": [
+      "Eşitlik İlkesi",
+      "Liyakat İlkesi",
+      "Kamu Görevlileri"
+    ],
+    "order": 111
+  },
+  {
+    "id": "insan_haysiyeti",
+    "term": "İnsan Haysiyeti",
+    "definition": "Temel hak ve özgürlüklerin temelini oluşturan, her bireyin doğuştan sahip olduğu onur ve değerdir. Hiçbir koşulda ihlal edilemez ve devletin koruması altındadır.",
+    "examples": [
+      "İşkence yasağı, insan haysiyetinin korunmasının bir sonucudur.",
+      "Kölelik ve angarya yasağı, insan haysiyetine aykırıdır."
+    ],
+    "relatedTerms": [
+      "Yaşama Hakkı",
+      "Kişi Dokunulmazlığı",
+      "Onur"
+    ],
+    "order": 112
+  },
+  {
+    "id": "pozitif_statü_haklari",
+    "term": "Pozitif Statü Hakları (Sosyal ve Ekonomik Haklar)",
+    "definition": "Devletten bir hizmet veya edim talep etme hakkını ifade eder. Bireyin refahını ve sosyal güvenliğini sağlamaya yönelik haklardır.",
+    "examples": [
+      "Eğitim hakkı, devletin bireylere eğitim hizmeti sunmasını gerektirir.",
+      "Sağlık hakkı, devletin sağlık hizmetlerini sağlamasını öngörür."
+    ],
+    "relatedTerms": [
+      "Negatif Statü Hakları",
+      "Aktif Statü Hakları",
+      "Sosyal Devlet İlkesi"
+    ],
+    "order": 113
+  },
+  {
+    "id": "negatif_statü_haklari",
+    "term": "Negatif Statü Hakları (Koruyucu Haklar)",
+    "definition": "Devletin bireyin alanına müdahale etmemesini, bireyi korumasını gerektiren haklardır. Bireyin özgürlük alanını güvence altına alır.",
+    "examples": [
+      "Konut dokunulmazlığı, devletin bireyin evine izinsiz girmesini engeller.",
+      "Haberleşme özgürlüğü, devletin bireylerin iletişimine müdahale etmemesini sağlar."
+    ],
+    "relatedTerms": [
+      "Pozitif Statü Hakları",
+      "Aktif Statü Hakları",
+      "Özgürlük"
+    ],
+    "order": 114
+  },
+  {
+    "id": "aktif_statü_haklari",
+    "term": "Aktif Statü Hakları (Katılma Hakları)",
+    "definition": "Bireyin devlet yönetimine katılmasını, siyasal yaşama aktif olarak dahil olmasını sağlayan haklardır. Demokrasinin temelini oluşturur.",
+    "examples": [
+      "Seçme ve seçilme hakkı, bireylerin siyasi iradeye katılmasını sağlar.",
+      "Dilekçe hakkı, vatandaşların kamuya başvuru yapabilmesini ifade eder."
+    ],
+    "relatedTerms": [
+      "Siyasi Haklar",
+      "Demokratik Katılım",
+      "Vatandaşlık Hakkı"
+    ],
+    "order": 115
+  },
+  {
+    "id": "haklarin_kötüye_kullanimi_yasagi",
+    "term": "Hakların Kötüye Kullanımı Yasağı",
+    "definition": "Anayasa'da tanınan hiçbir hakkın, Anayasa'ya aykırı amaçlarla kullanılamayacağını ifade eder. Temel hak ve özgürlüklerin suistimal edilmesini engeller.",
+    "examples": [
+      "Terör propagandası yapmak, düşünce ve ifade özgürlüğünün kötüye kullanılmasıdır.",
+      "Bir derneğin yasa dışı faaliyetlerde bulunması, dernek kurma hakkının kötüye kullanılmasıdır."
+    ],
+    "relatedTerms": [
+      "Anayasa'ya Bağlılık",
+      "Hukukun Üstünlüğü",
+      "Kamu Düzeni"
+    ],
+    "order": 116
+  },
+  {
+    "id": "kanunsuz_suç_ve_ceza_olmaz_ilkesi",
+    "term": "Kanunsuz Suç ve Ceza Olmaz İlkesi",
+    "definition": "Hiç kimsenin, işlendiği zaman yürürlükte bulunan kanunun suç saymadığı bir fiilden dolayı cezalandırılamayacağını ifade eder. Hukuk güvenliğinin temelidir.",
+    "examples": [
+      "Bir eylem, işlendiği tarihte suç değilse, sonradan çıkarılan bir kanunla suç sayılarak cezalandırılamaz.",
+      "Bir suçun cezası, suç işlendikten sonra artırılamaz ve bu artırım geriye yürümez."
+    ],
+    "relatedTerms": [
+      "Hukuk Devleti",
+      "Geriye Yürümezlik İlkesi",
+      "Ceza Hukuku"
+    ],
+    "order": 117
+  },
+  {
+    "id": "vicdan_ve_dini_inanç_hürriyeti",
+    "term": "Vicdan ve Dini İnanç Hürriyeti",
+    "definition": "Herkesin vicdan, dini inanç ve kanaat hürriyetine sahip olmasıdır. Kimse ibadete, dini ayin ve törenlere katılmaya zorlanamaz veya engellenemez.",
+    "examples": [
+      "Bir kişinin istediği dine inanma veya hiçbir dine inanmama hakkı vardır.",
+      "Devlet, farklı inanç gruplarının ibadetlerini serbestçe yerine getirmesini sağlamalıdır."
+    ],
+    "relatedTerms": [
+      "Düşünce Özgürlüğü",
+      "İfade Özgürlüğü",
+      "Laiklik İlkesi"
+    ],
+    "order": 118
+  },
+  {
+    "id": "basın_hürriyeti",
+    "term": "Basın Hürriyeti",
+    "definition": "Basın organlarının haber ve düşünceleri serbestçe yayınlama hakkıdır. Demokratik bir toplumda kamuoyunun oluşması için vazgeçilmezdir.",
+    "examples": [
+      "Gazetecilerin haber kaynaklarını açıklamaya zorlanamaması, basın hürriyetinin bir güvencesidir.",
+      "Sansür yasağı, basın hürriyetinin temel ilkelerindendir."
+    ],
+    "relatedTerms": [
+      "İfade Özgürlüğü",
+      "Bilgi Edinme Hakkı",
+      "Sansür Yasağı"
+    ],
+    "order": 119
+  },
+  {
+    "id": "bilim_ve_sanat_hürriyeti",
+    "term": "Bilim ve Sanat Hürriyeti",
+    "definition": "Herkesin bilim ve sanatı serbestçe öğrenme, öğretme, açıklama, yayma ve bu alanlarda her türlü araştırma hakkına sahip olmasıdır. Devlet, bu özgürlüklerin gelişmesi için gerekli tedbirleri alır.",
+    "examples": [
+      "Bir üniversite profesörünün bilimsel araştırmalarını özgürce yapabilmesi.",
+      "Bir sanatçının eserlerini herhangi bir kısıtlama olmaksızın sergileyebilmesi."
+    ],
+    "relatedTerms": [
+      "Düşünce Özgürlüğü",
+      "Eğitim Hakkı",
+      "Akademik Özgürlük"
+    ],
+    "order": 120
+  },
+  {
+    "id": "ispat_hakkı",
+    "term": "İspat Hakkı",
+    "definition": "Kamu görevlileri ve kamu hizmeti gören kişilerin görevleriyle ilgili olarak yaptıkları isnat ve iddialara karşı, ilgililerin ispat hakkına sahip olmasıdır. Bu hak, yargı önünde gerçeği ortaya çıkarma amacına hizmet eder.",
+    "examples": [
+      "Bir kamu görevlisi hakkında yapılan yolsuzluk iddiasına karşı, o görevlinin kendini savunma ve delil sunma hakkı.",
+      "Bir vatandaşın, bir kamu kurumunun haksız işlemine karşı mahkemede delil sunabilmesi."
+    ],
+    "relatedTerms": [
+      "Savunma Hakkı",
+      "Adil Yargılanma Hakkı",
+      "Hukuk Devleti"
+    ],
+    "order": 121
+  },
+  {
+    "id": "vatandaşlık_hakkı",
+    "term": "Vatandaşlık Hakkı",
+    "definition": "Türk Devletine vatandaşlık bağı ile bağlı olan herkesin Türk vatandaşı olmasıdır. Vatandaşlık, kanunun gösterdiği şartlarla kazanılır ve ancak kanunda belirtilen hallerde kaybedilir.",
+    "examples": [
+      "Doğumla kazanılan vatandaşlık.",
+      "Evlilik yoluyla vatandaşlık kazanılması."
+    ],
+    "relatedTerms": [
+      "Vatandaşlık",
+      "Siyasi Haklar",
+      "Devlet"
+    ],
+    "order": 122
+  },
+  {
+    "id": "vicdan_ve_dini_inanc_hurriyeti",
+    "term": "Vicdan ve Dinî İnanç Hürriyeti",
+    "definition": "Herkesin vicdan, dinî inanç ve kanaat hürriyetine sahip olmasıdır. Kimse, ibadete, dinî ayin ve törenlere katılmaya, dinî inanç ve kanaatlerini açıklamaya zorlanamaz; dinî inanç ve kanaatlerinden dolayı kınanamaz ve suçlanamaz.",
+    "examples": [
+      "Bir kişinin belirli bir dine inanma veya inanmama özgürlüğü.",
+      "Bir ibadethanede dinî törenlere katılma hakkı."
+    ],
+    "relatedTerms": [
+      "Düşünce ve Kanaat Hürriyeti",
+      "Laiklik İlkesi",
+      "İfade Özgürlüğü"
+    ],
+    "order": 123
+  },
+  {
+    "id": "genel_esitlik_ilkesi",
+    "term": "Genel Eşitlik İlkesi",
+    "definition": "Anayasa'da belirtilen temel hak ve özgürlüklerin kullanılmasında, herkesin dil, ırk, renk, cinsiyet, siyasi düşünce, felsefi inanç, din, mezhep ve benzeri sebeplerle ayrım gözetilmeksizin eşit muamele görmesini ifade eder. Bu ilke, hukuk önünde eşitliği ve ayrımcılık yasağını güvence altına alır.",
+    "examples": [
+      "Devlet memuru alımında cinsiyet ayrımı yapılmaması.",
+      "Vatandaşların oy kullanma hakkının din veya ırk farkı gözetmeksizin tanınması."
+    ],
+    "relatedTerms": [
+      "Ayrımcılık Yasağı",
+      "Hukuk Devleti İlkesi",
+      "Sosyal Devlet İlkesi"
+    ],
+    "order": 124
+  },
+  {
+    "id": "milletlerarasi_hukuk_ve_temel_haklar",
+    "term": "Milletlerarası Hukuk ve Temel Haklar",
+    "definition": "Türkiye Cumhuriyeti Anayasası'na göre, usulüne göre yürürlüğe konulmuş milletlerarası antlaşmalar, temel hak ve özgürlüklere ilişkin konularda kanun hükmündedir. Bu antlaşmalar ile kanunların aynı konuda farklı hükümler içermesi halinde, milletlerarası antlaşma hükümleri esas alınır.",
+    "examples": [
+      "Avrupa İnsan Hakları Sözleşmesi'nin, Türkiye'deki temel hak ve özgürlüklerin yorumlanmasında esas alınması.",
+      "Çocuk Hakları Sözleşmesi'nin ulusal mevzuatın üzerinde kabul edilmesi."
+    ],
+    "relatedTerms": [
+      "Anayasanın Üstünlüğü",
+      "Hukuk Devleti",
+      "Milletlerarası Antlaşmalar"
+    ],
+    "order": 125
+  },
+  {
+    "id": "temel_haklarin_devredilmezligi",
+    "term": "Temel Hakların Devredilmezliği",
+    "definition": "İnsanların doğuştan sahip olduğu ve vazgeçilemez nitelikte olan hakları ifade eder. Bu haklar, kişinin iradesiyle dahi başkasına devredilemez veya bu haklardan feragat edilemez.",
+    "examples": [
+      "Yaşama hakkından kimsenin kendi isteğiyle dahi vazgeçememesi.",
+      "Köleliğin yasaklanması ve bireyin özgürlüğünden feragat edememesi."
+    ],
+    "relatedTerms": [
+      "Vazgeçilmez Haklar",
+      "Doğuştan Haklar",
+      "İnsan Haysiyeti"
+    ],
+    "order": 126
+  },
+  {
+    "id": "kamu_denetimi_kurumu",
+    "term": "Kamu Denetçiliği Kurumu (Ombudsmanlık)",
+    "definition": "İdarenin her türlü eylem ve işlemleri ile tutum ve davranışlarını, insan haklarına saygılı, hukuka uygunluk, hakkaniyet ve iyi yönetim ilkeleri çerçevesinde incelemek, araştırmak ve önerilerde bulunmakla görevli bağımsız bir denetim organıdır. Bireylerin idare karşısında haklarını korumayı amaçlar.",
+    "examples": [
+      "Bir vatandaşın idari bir karardan şikayetçi olması üzerine Kurumun inceleme başlatması.",
+      "Kamu hizmetlerinde yaşanan aksaklıklar hakkında rapor hazırlaması."
+    ],
+    "relatedTerms": [
+      "Hukuk Devleti",
+      "İdari Yargı",
+      "Dilekçe Hakkı"
+    ],
+    "order": 127
   }
 ]

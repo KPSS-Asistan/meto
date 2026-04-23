@@ -1132,5 +1132,390 @@
       "Uluslararası Para Fonu (IMF)"
     ],
     "order": 76
+  },
+  {
+    "id": "avrupa_birligi",
+    "term": "Avrupa Birliği (AB)",
+    "definition": "27 üye ülkeden oluşan, siyasi ve ekonomik bir birliktir. Ortak pazar, ortak para birimi (Euro) ve ortak politikalarla bölgesel entegrasyonu hedefler.",
+    "examples": [
+      "Türkiye'nin Avrupa Birliği'ne tam üyelik süreci.",
+      "Schengen Bölgesi, AB'nin serbest dolaşım ilkesinin bir örneğidir."
+    ],
+    "relatedTerms": [
+      "Ortak Pazar",
+      "Euro Bölgesi",
+      "Siyasi Entegrasyon"
+    ],
+    "order": 77
+  },
+  {
+    "id": "petrol_ihrac_eden_ulkeler_orgutu",
+    "term": "Petrol İhraç Eden Ülkeler Örgütü (OPEC)",
+    "definition": "Petrol üreten ülkeler arasında petrol politikalarını koordine etmek ve petrol piyasasında istikrarı sağlamak amacıyla kurulmuş uluslararası bir karteldir. Üye ülkelerin petrol gelirlerini maksimize etmeyi hedefler.",
+    "examples": [
+      "OPEC'in petrol üretim kotaları kararları.",
+      "Petrol fiyatlarındaki dalgalanmalarda OPEC'in rolü."
+    ],
+    "relatedTerms": [
+      "Petrol Piyasası",
+      "Kartel",
+      "Enerji Politikaları"
+    ],
+    "order": 78
+  },
+  {
+    "id": "g20",
+    "term": "G20 (Yirmiler Grubu)",
+    "definition": "Dünyanın en büyük ekonomilerine sahip 19 ülke ve Avrupa Birliği'nden oluşan uluslararası bir forumdur. Küresel ekonomik istikrar, sürdürülebilir büyüme ve finansal düzenlemeler konularında işbirliği yapar.",
+    "examples": [
+      "G20 liderler zirvesinde küresel ekonomik sorunların ele alınması.",
+      "G20'nin iklim değişikliği ile mücadele kararları."
+    ],
+    "relatedTerms": [
+      "Küresel Ekonomi",
+      "Finansal İstikrar",
+      "Uluslararası Forum"
+    ],
+    "order": 79
+  },
+  {
+    "id": "g7",
+    "term": "G7 (Yediler Grubu)",
+    "definition": "Dünyanın en büyük yedi gelişmiş ekonomisine sahip ülkelerin oluşturduğu bir forumdur. Küresel ekonomik ve siyasi konuları tartışmak ve ortak politikalar geliştirmek amacıyla toplanır.",
+    "examples": [
+      "G7 liderlerinin uluslararası güvenlik konularındaki açıklamaları.",
+      "G7 ülkelerinin ekonomik büyüme stratejileri."
+    ],
+    "relatedTerms": [
+      "Gelişmiş Ekonomiler",
+      "Küresel Siyaset",
+      "Ekonomik Forum"
+    ],
+    "order": 80
+  },
+  {
+    "id": "latin_amerika_entegrasyon_birligi",
+    "term": "Latin Amerika Entegrasyon Birliği (ALADI)",
+    "definition": "Latin Amerika ülkeleri arasında bölgesel entegrasyonu, serbest ticareti ve ekonomik işbirliğini geliştirmeyi amaçlayan bir kuruluştur. Üye ülkeler arasında ortak pazar oluşturmayı hedefler.",
+    "examples": [
+      "ALADI çerçevesinde uygulanan tercihli ticaret anlaşmaları.",
+      "Latin Amerika ülkeleri arasındaki gümrük birliği çalışmaları."
+    ],
+    "relatedTerms": [
+      "Bölgesel Entegrasyon",
+      "Serbest Ticaret Bölgesi",
+      "Latin Amerika"
+    ],
+    "order": 81
+  },
+  {
+    "id": "uluslararasi_kizilay_ve_kizilhac_federasyonu",
+    "term": "Uluslararası Kızılhaç ve Kızılay Dernekleri Federasyonu (IFRC)",
+    "definition": "Dünya genelinde insani yardım ve felaketlere müdahale sağlayan, ulusal Kızılhaç ve Kızılay derneklerini bir araya getiren bir kuruluştur. İnsan acısını hafifletmeyi ve insan onurunu korumayı amaçlar.",
+    "examples": [
+      "Deprem sonrası insani yardım faaliyetlerinde IFRC'nin rolü.",
+      "Savaş bölgelerinde tıbbi yardım sağlama çalışmaları."
+    ],
+    "relatedTerms": [
+      "İnsani Yardım",
+      "Felaket Yönetimi",
+      "Sivil Toplum Kuruluşu"
+    ],
+    "order": 82
+  },
+  {
+    "id": "uluslararasi_adalet_divani",
+    "term": "Uluslararası Adalet Divanı (UAD)",
+    "definition": "Birleşmiş Milletler'in başlıca yargı organıdır. Devletler arasındaki hukuki uyuşmazlıkları çözmek ve uluslararası hukuka uygun olarak danışma görüşleri vermekle görevlidir.",
+    "examples": [
+      "Devletler arasındaki sınır anlaşmazlıklarının UAD'de görülmesi.",
+      "UAD'nin soykırım davalarına ilişkin kararları."
+    ],
+    "relatedTerms": [
+      "Uluslararası Hukuk",
+      "Birleşmiş Milletler",
+      "Yargı Organı"
+    ],
+    "order": 83
+  },
+  {
+    "id": "uluslararasi_atom_enerjisi_ajansi",
+    "term": "Uluslararası Atom Enerjisi Ajansı (UAEA)",
+    "definition": "Nükleer enerjinin barışçıl amaçlarla kullanımını teşvik eden ve nükleer silahların yayılmasını önlemeyi amaçlayan bağımsız bir kuruluştur. Nükleer tesislerin denetimini yapar.",
+    "examples": [
+      "UAEA'nın İran'ın nükleer programını denetlemesi.",
+      "Nükleer güvenlik standartlarının belirlenmesi."
+    ],
+    "relatedTerms": [
+      "Nükleer Enerji",
+      "Nükleer Güvenlik",
+      "Silahsızlanma"
+    ],
+    "order": 84
+  },
+  {
+    "id": "birlesmis_milletler_kalkinma_programi",
+    "term": "Birleşmiş Milletler Kalkınma Programı (UNDP)",
+    "definition": "Yoksulluğu azaltmak, eşitsizlikleri gidermek ve sürdürülebilir kalkınmayı teşvik etmek amacıyla faaliyet gösteren bir BM kuruluşudur. Ülkelerin kalkınma kapasitelerini artırmayı hedefler.",
+    "examples": [
+      "UNDP'nin Afrika'da yoksullukla mücadele projeleri.",
+      "İnsani Gelişme Raporu UNDP tarafından yayınlanır."
+    ],
+    "relatedTerms": [
+      "Sürdürülebilir Kalkınma",
+      "Yoksullukla Mücadele",
+      "Birleşmiş Milletler"
+    ],
+    "order": 85
+  },
+  {
+    "id": "birlesmis_milletler_multeciler_yuksek_komiserligi",
+    "term": "Birleşmiş Milletler Mülteciler Yüksek Komiserliği (UNHCR)",
+    "definition": "Mültecilerin haklarını korumak, onlara uluslararası koruma sağlamak ve gönüllü geri dönüşlerini veya yerleşimlerini kolaylaştırmak amacıyla kurulmuş bir BM kuruluşudur. Mülteci krizlerine müdahale eder.",
+    "examples": [
+      "UNHCR'nin Suriyeli mültecilere yönelik yardım kampanyaları.",
+      "Mülteci kamplarındaki yaşam koşullarının iyileştirilmesi."
+    ],
+    "relatedTerms": [
+      "Mülteci Hakları",
+      "Uluslararası Koruma",
+      "İnsani Krizler"
+    ],
+    "order": 86
+  },
+  {
+    "id": "d8_gelisen_sekiz_ulke",
+    "term": "D-8 (Gelişen Sekiz Ülke)",
+    "definition": "Türkiye, İran, Pakistan, Bangladeş, Malezya, Endonezya, Mısır ve Nijerya'dan oluşan ekonomik işbirliği örgütüdür. Üye ülkeler arasında ticareti, sanayiyi ve kalkınmayı teşvik etmeyi amaçlar.",
+    "examples": [
+      "D-8, üye ülkeler arasında tercihli ticaret anlaşmaları yapmayı hedefler.",
+      "D-8'in temel amacı, üye ülkelerin küresel ekonomideki konumlarını güçlendirmektir."
+    ],
+    "relatedTerms": [
+      "İslam İşbirliği Teşkilatı",
+      "ASEAN",
+      "BRICS"
+    ],
+    "order": 87
+  },
+  {
+    "id": "uluslararasi_kizilay_ve_kizil_hilal_hareketi",
+    "term": "Uluslararası Kızılhaç ve Kızılay Hareketi",
+    "definition": "Uluslararası insani yardım kuruluşudur. Savaş, doğal afet ve diğer acil durumlarda insan acılarını hafifletmeyi, yaşamı ve sağlığı korumayı amaçlar. Kızılay ve Kızılhaç ulusal derneklerinden oluşur.",
+    "examples": [
+      "Türk Kızılayı, bu hareketin Türkiye'deki temsilcisidir.",
+      "Savaş bölgelerinde insani yardım sağlama çalışmaları yürütürler."
+    ],
+    "relatedTerms": [
+      "Birleşmiş Milletler",
+      "UNICEF",
+      "Dünya Sağlık Örgütü"
+    ],
+    "order": 88
+  },
+  {
+    "id": "uluslararasi_tarimsal_kalkinma_fonu",
+    "term": "Uluslararası Tarımsal Kalkınma Fonu (IFAD)",
+    "definition": "Gelişmekte olan ülkelerde kırsal yoksulluğu azaltmayı amaçlayan bir Birleşmiş Milletler kuruluşudur. Kırsal kesimdeki küçük çiftçilere ve yoksul topluluklara finansman ve destek sağlar.",
+    "examples": [
+      "IFAD, Afrika'daki tarım projelerine kredi sağlamaktadır.",
+      "Gıda güvenliğini artırmaya yönelik programlar yürütür."
+    ],
+    "relatedTerms": [
+      "Dünya Bankası",
+      "FAO",
+      "Birleşmiş Milletler Kalkınma Programı"
+    ],
+    "order": 89
+  },
+  {
+    "id": "uluslararasi_yenilenebilir_enerji_ajansi",
+    "term": "Uluslararası Yenilenebilir Enerji Ajansı (IRENA)",
+    "definition": "Yenilenebilir enerji kaynaklarının dünya genelinde benimsenmesini ve sürdürülebilir kullanımını teşvik eden hükümetler arası bir kuruluştur. Politika tavsiyeleri, teknoloji transferi ve kapasite geliştirme konularında destek sağlar.",
+    "examples": [
+      "IRENA, güneş ve rüzgar enerjisi projelerine teknik destek sunar.",
+      "Üye ülkelerin yenilenebilir enerji hedeflerine ulaşmalarına yardımcı olur."
+    ],
+    "relatedTerms": [
+      "Uluslararası Enerji Ajansı",
+      "Birleşmiş Milletler Çevre Programı",
+      "Paris Anlaşması"
+    ],
+    "order": 90
+  },
+  {
+    "id": "uluslararasi_goc_orgutu",
+    "term": "Uluslararası Göç Örgütü (IOM)",
+    "definition": "Göçün düzenli ve insancıl bir şekilde yönetilmesini sağlamayı amaçlayan başlıca uluslararası kuruluştur. Göçmenlere yardım, göç politikası geliştirme ve göçmen haklarının korunması konularında faaliyet gösterir.",
+    "examples": [
+      "IOM, afet sonrası yerinden edilmiş kişilere barınma ve gıda yardımı sağlar.",
+      "Göçmenlerin entegrasyonu için programlar yürütür."
+    ],
+    "relatedTerms": [
+      "Birleşmiş Milletler Mülteciler Yüksek Komiserliği",
+      "UNICEF"
+    ],
+    "order": 91
+  },
+  {
+    "id": "uluslararasi_kriminal_polis_teskilati",
+    "term": "Uluslararası Kriminal Polis Teşkilatı (Interpol)",
+    "definition": "Uluslararası suçla mücadele etmek amacıyla dünya genelindeki emniyet teşkilatları arasında işbirliğini sağlayan bir kuruluştur. Üye ülkeler arasında bilgi alışverişini ve operasyonel desteği kolaylaştırır.",
+    "examples": [
+      "Interpol, uluslararası aranan suçluların yakalanmasında önemli rol oynar.",
+      "Terörizm ve organize suçlarla mücadele eder."
+    ],
+    "relatedTerms": [
+      "Europol",
+      "Birleşmiş Milletler"
+    ],
+    "order": 92
+  },
+  {
+    "id": "uluslararasi_deniz_hukuku_mahkemesi",
+    "term": "Uluslararası Deniz Hukuku Mahkemesi (ITLOS)",
+    "definition": "Birleşmiş Milletler Deniz Hukuku Sözleşmesi'nin yorumlanması ve uygulanmasından doğan uyuşmazlıkları çözmek için kurulmuş bağımsız bir yargı organıdır. Deniz alanlarındaki devletler arası anlaşmazlıklara bakar.",
+    "examples": [
+      "Deniz sınırları ve balıkçılık hakları konusundaki anlaşmazlıklar ITLOS'ta ele alınabilir.",
+      "Deniz çevresinin korunması ile ilgili davalara bakar."
+    ],
+    "relatedTerms": [
+      "Uluslararası Adalet Divanı",
+      "Birleşmiş Milletler"
+    ],
+    "order": 93
+  },
+  {
+    "id": "uluslararasi_ticaret_merkezi",
+    "term": "Uluslararası Ticaret Merkezi (ITC)",
+    "definition": "Gelişmekte olan ülkelerin uluslararası ticarete katılımını artırmayı ve ihracat kapasitelerini geliştirmeyi amaçlayan bir kuruluştur. Dünya Ticaret Örgütü ve Birleşmiş Milletler'in ortak ajansıdır.",
+    "examples": [
+      "ITC, küçük ve orta ölçekli işletmelere ihracat danışmanlığı sağlar.",
+      "Pazar araştırmaları ve ticaret bilgileri sunar."
+    ],
+    "relatedTerms": [
+      "Dünya Ticaret Örgütü",
+      "Birleşmiş Milletler Ticaret ve Kalkınma Konferansı"
+    ],
+    "order": 94
+  },
+  {
+    "id": "uluslararasi_sivil_savunma_orgutu",
+    "term": "Uluslararası Sivil Savunma Örgütü (ICDO)",
+    "definition": "Üye ülkeler arasında sivil savunma ve afet yönetimi alanında işbirliğini geliştirmeyi amaçlayan hükümetler arası bir kuruluştur. Doğal ve insan kaynaklı afetlere karşı hazırlık ve müdahale kapasitelerini artırır.",
+    "examples": [
+      "ICDO, afet risk azaltma eğitimleri düzenler.",
+      "Üye ülkeler arasında acil durum ekipmanlarının paylaşımını teşvik eder."
+    ],
+    "relatedTerms": [
+      "Birleşmiş Milletler Afet Riskini Azaltma Ofisi",
+      "Kızılay/Kızılhaç"
+    ],
+    "order": 95
+  },
+  {
+    "id": "ekonomik_isbirligi_orgutu_eco",
+    "term": "Ekonomik İşbirliği Teşkilatı (ECO)",
+    "definition": "Türkiye, İran ve Pakistan tarafından kurulan, Orta Asya ve Kafkasya ülkelerini de içine alan bölgesel bir ekonomik örgüttür. Temel amacı üye ülkeler arasında sürdürülebilir ekonomik kalkınmayı teşvik etmektir. Ticaretin serbestleştirilmesi ve bölgesel entegrasyon hedeflenir.",
+    "examples": [
+      "ECO'nun en önemli faaliyetlerinden biri üye ülkeler arasında tercihli ticaret anlaşmaları imzalamaktır.",
+      "ECO, bölgesel altyapı projelerinin geliştirilmesine destek vermektedir."
+    ],
+    "relatedTerms": [
+      "İslam İşbirliği Teşkilatı (İİT)",
+      "Avrasya Ekonomik Birliği",
+      "Gelişen Sekiz Ülke (D-8)"
+    ],
+    "order": 96
+  },
+  {
+    "id": "körfez_isbirligi_konseyi_kik",
+    "term": "Körfez İşbirliği Konseyi (KİK)",
+    "definition": "Basra Körfezi'ndeki altı Arap ülkesi (Suudi Arabistan, Kuveyt, Birleşik Arap Emirlikleri, Katar, Bahreyn ve Umman) tarafından kurulmuş bölgesel bir örgüttür. Üye ülkeler arasında ekonomik, siyasi, askeri ve sosyal işbirliğini ve entegrasyonu teşvik eder. Ortak pazar ve gümrük birliği oluşturma hedefleri vardır.",
+    "examples": [
+      "KİK ülkeleri, ortak bir savunma anlaşması çerçevesinde askeri işbirliği yapmaktadır.",
+      "Bölgesel mali ve ekonomik politikaların uyumlaştırılması KİK'in önemli hedeflerindendir."
+    ],
+    "relatedTerms": [
+      "Arap Ligi",
+      "OPEC",
+      "İslam İşbirliği Teşkilatı (İİT)"
+    ],
+    "order": 97
+  },
+  {
+    "id": "güneydoğu_asya_uluslar_birliği_asean",
+    "term": "Güneydoğu Asya Ulusları Birliği (ASEAN)",
+    "definition": "Güneydoğu Asya ülkeleri arasında bölgesel işbirliğini, ekonomik büyümeyi, sosyal ilerlemeyi ve kültürel gelişmeyi teşvik eden bir örgüttür. Bölgesel barış ve istikrarın sağlanmasına katkıda bulunur. Ortak bir pazar ve üretim üssü oluşturmayı hedefler.",
+    "examples": [
+      "ASEAN, üye ülkeler arasında serbest ticaret anlaşmaları yaparak ekonomik entegrasyonu derinleştirir.",
+      "Bölgesel güvenlik konularında ortak deklarasyonlar yayınlar ve işbirliği yapar."
+    ],
+    "relatedTerms": [
+      "APEC",
+      "Doğu Asya Zirvesi",
+      "Mekong Nehri Komisyonu"
+    ],
+    "order": 98
+  },
+  {
+    "id": "akdeniz_için_birlik",
+    "term": "Akdeniz İçin Birlik (AiB)",
+    "definition": "Avrupa Birliği üye ülkeleri ile Akdeniz'in güney kıyısındaki ülkeleri bir araya getiren bir işbirliği platformudur. Bölgesel istikrar, güvenlik ve ekonomik kalkınmayı teşvik etmeyi amaçlar. Enerji, ulaştırma, çevre gibi alanlarda projeler geliştirir.",
+    "examples": [
+      "AiB, Akdeniz'de yenilenebilir enerji projelerini destekleyerek sürdürülebilir kalkınmaya katkıda bulunur.",
+      "Bölgesel su yönetimi ve kirlilikle mücadele konularında ortak projeler yürütülür."
+    ],
+    "relatedTerms": [
+      "Avrupa Birliği (AB)",
+      "Arap Ligi",
+      "Karadeniz Ekonomik İşbirliği Örgütü (KEİ)"
+    ],
+    "order": 99
+  },
+  {
+    "id": "turk_devletleri_teskilati",
+    "term": "Türk Devletleri Teşkilatı (TDT)",
+    "definition": "Türk dili konuşan devletler arasında kapsamlı işbirliğini amaçlayan uluslararası bir kuruluştur. Üye ülkeler arasında siyasi, ekonomik, kültürel ve sosyal bağları güçlendirmeyi hedefler.",
+    "examples": [
+      "TDT, üye ülkeler arasında ortak tarih ve kültürü vurgulayan projeler gerçekleştirmektedir.",
+      "Ekonomik entegrasyon ve ticaret hacminin artırılması TDT'nin önceliklerindendir."
+    ],
+    "relatedTerms": [
+      "Ekonomik İşbirliği Teşkilatı",
+      "Türksoy",
+      "Ortak Pazar"
+    ],
+    "order": 100
+  },
+  {
+    "id": "uluslararasi_kalkinma_ajansi",
+    "term": "Uluslararası Kalkınma Ajansı (IDA)",
+    "definition": "Dünya Bankası Grubu'nun bir parçası olan IDA, dünyanın en yoksul ülkelerine faizsiz kredi ve hibe sağlayarak kalkınmalarına yardımcı olur. Yoksulluğun azaltılması ve yaşam standartlarının yükseltilmesi hedeflenir.",
+    "examples": [
+      "IDA, Afrika'daki birçok ülkeye altyapı projeleri için finansman sağlamıştır.",
+      "Eğitim ve sağlık hizmetlerinin geliştirilmesi, IDA'nın desteklediği alanlardır."
+    ],
+    "relatedTerms": [
+      "Dünya Bankası",
+      "Uluslararası Para Fonu",
+      "Birleşmiş Milletler Kalkınma Programı"
+    ],
+    "order": 101
+  },
+  {
+    "id": "uluslararasi_tarim_ve_gida_orgutu",
+    "term": "Birleşmiş Milletler Gıda ve Tarım Örgütü (FAO)",
+    "definition": "Açlığı yenmek ve gıda güvenliğini sağlamak için uluslararası çabaları yöneten bir Birleşmiş Milletler kuruluşudur. Tarımsal üretimi artırma, beslenmeyi iyileştirme ve kırsal kalkınmayı destekleme konularında çalışmalar yapar.",
+    "examples": [
+      "FAO, gelişmekte olan ülkelerde sürdürülebilir tarım tekniklerini teşvik etmektedir.",
+      "Gıda israfının azaltılması, FAO'nun küresel kampanyalarından biridir."
+    ],
+    "relatedTerms": [
+      "Dünya Gıda Programı",
+      "Uluslararası Tarımsal Kalkınma Fonu",
+      "Dünya Sağlık Örgütü"
+    ],
+    "order": 102
   }
 ]

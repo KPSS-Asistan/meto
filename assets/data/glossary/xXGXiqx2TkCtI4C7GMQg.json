@@ -1221,5 +1221,463 @@
       "Yerinden Yönetim"
     ],
     "order": 75
+  },
+  {
+    "id": "demokratik_devlet_ilkesi",
+    "term": "Demokratik Devlet İlkesi",
+    "definition": "Devlet yönetiminde egemenliğin halka ait olması ve halkın temsilcileri aracılığıyla bu egemenliği kullanmasıdır. Seçimler, siyasi partiler ve katılım mekanizmaları temel unsurlarıdır.",
+    "examples": [
+      "Genel seçimler ve referandumlar",
+      "Siyasi partilerin faaliyetleri",
+      "Sivil toplum kuruluşlarının katılımı"
+    ],
+    "relatedTerms": [
+      "Egemenlik Milletindir ve Kullanımı",
+      "Seçme ve Seçilme Hakkı",
+      "Çoğulculuk"
+    ],
+    "order": 76
+  },
+  {
+    "id": "cumhuriyetcilik_ilkesi",
+    "term": "Cumhuriyetçilik İlkesi",
+    "definition": "Devlet başkanının seçimle işbaşına geldiği ve belirli bir süre görev yaptığı yönetim biçimidir. Egemenliğin millete ait olduğu ve kimseye bırakılamayacağı anlayışını benimser.",
+    "examples": [
+      "Cumhurbaşkanının halk tarafından seçilmesi",
+      "Yasama, yürütme ve yargı yetkilerinin ayrılığı",
+      "Saltanatın kaldırılması"
+    ],
+    "relatedTerms": [
+      "Demokratik Devlet İlkesi",
+      "Milli Egemenlik",
+      "Hukuk Devleti"
+    ],
+    "order": 77
+  },
+  {
+    "id": "hukuk_devleti_ilkesi",
+    "term": "Hukuk Devleti İlkesi",
+    "definition": "Devletin tüm eylem ve işlemlerinde hukuka bağlı olması, vatandaşlarına hukuk güvenliği sağlamasıdır. Yargı denetimi ve hukukun üstünlüğü esastır.",
+    "examples": [
+      "İdarenin her türlü eyleminin yargı denetimine tabi olması",
+      "Kanun önünde eşitlik",
+      "Temel hak ve özgürlüklerin güvence altına alınması"
+    ],
+    "relatedTerms": [
+      "Yargı Denetimi",
+      "Anayasanın Üstünlüğü",
+      "Kanunilik İlkesi"
+    ],
+    "order": 78
+  },
+  {
+    "id": "laiklik_ilkesi",
+    "term": "Laiklik İlkesi",
+    "definition": "Devletin din ve vicdan özgürlüğünü güvence altına alması, din işlerini devlet işlerinden ayırmasıdır. Devletin tüm dinlere eşit mesafede durmasını ifade eder.",
+    "examples": [
+      "Din eğitimi ve öğretiminin devletin gözetim ve denetiminde yapılması",
+      "Devletin resmi bir dininin olmaması",
+      "Herkesin vicdan, dini inanç ve kanaat hürriyetine sahip olması"
+    ],
+    "relatedTerms": [
+      "Din ve Vicdan Özgürlüğü",
+      "Devletin Tarafsızlığı",
+      "Eşitlik İlkesi"
+    ],
+    "order": 79
+  },
+  {
+    "id": "insan_haklarina_saygili_devlet",
+    "term": "İnsan Haklarına Saygılı Devlet",
+    "definition": "Devletin, Anayasa ve uluslararası sözleşmelerle tanınmış temel hak ve özgürlüklere uygun hareket etmesi ve bunları korumasıdır. Bireyin onurunu ve değerini esas alır.",
+    "examples": [
+      "Yaşama hakkının güvence altına alınması",
+      "İşkence ve kötü muamele yasağı",
+      "Düşünce ve ifade özgürlüğünün korunması"
+    ],
+    "relatedTerms": [
+      "Temel Hak ve Özgürlükler",
+      "Hukuk Devleti",
+      "Evrensel Hukuk İlkeleri"
+    ],
+    "order": 80
+  },
+  {
+    "id": "milli_devlet",
+    "term": "Milli Devlet",
+    "definition": "Devletin, belirli bir milletin ortak kültürü, dili ve değerleri üzerine kurulmasıdır. Ülke ve milletin bölünmez bütünlüğünü esas alır.",
+    "examples": [
+      "Türk vatandaşlığı tanımı",
+      "Resmi dilin Türkçe olması",
+      "Milli bayramların kutlanması"
+    ],
+    "relatedTerms": [
+      "Devletin Bölünmez Bütünlüğü",
+      "Vatandaşlık Bağı",
+      "Millet ve Ulus Kavramları"
+    ],
+    "order": 81
+  },
+  {
+    "id": "kuvvetler_ayriliği",
+    "term": "Kuvvetler Ayrılığı",
+    "definition": "Devletin yasama, yürütme ve yargı yetkilerinin farklı organlara verilerek birbirlerini denetlemesidir. Bu, keyfi yönetimi önlemeyi ve özgürlükleri güvence altına almayı amaçlar.",
+    "examples": [
+      "TBMM'nin kanun yapması",
+      "Cumhurbaşkanının yürütme yetkisini kullanması",
+      "Bağımsız mahkemelerin yargılama yapması"
+    ],
+    "relatedTerms": [
+      "Yasama Yetkisi",
+      "Yürütme Yetkisi",
+      "Yargı Bağımsızlığı"
+    ],
+    "order": 82
+  },
+  {
+    "id": "anayasanin_baglayiciligi",
+    "term": "Anayasanın Bağlayıcılığı",
+    "definition": "Anayasa hükümlerinin yasama, yürütme ve yargı organlarını, idare makamlarını ve diğer kuruluş ve kişileri bağlamasıdır. Hiçbir kanun veya işlem Anayasaya aykırı olamaz.",
+    "examples": [
+      "Kanunların Anayasaya uygunluğunun Anayasa Mahkemesi tarafından denetlenmesi",
+      "İdari işlemlerin Anayasaya uygunluğunun yargı denetimi",
+      "Vatandaşların Anayasal haklarını talep etmesi"
+    ],
+    "relatedTerms": [
+      "Anayasanın Üstünlüğü",
+      "Hukukun Üstünlüğü",
+      "Anayasal Denetim"
+    ],
+    "order": 83
+  },
+  {
+    "id": "temel_hak_ve_ozgurluklerin_niteliği",
+    "term": "Temel Hak ve Özgürlüklerin Niteliği",
+    "definition": "Temel hak ve özgürlüklerin dokunulmaz, devredilmez ve vazgeçilmez olmasıdır. Herkes bu haklara doğuştan sahiptir ve devlet bunları korumakla yükümlüdür.",
+    "examples": [
+      "Yaşama hakkının kutsallığı",
+      "Düşünceyi açıklama özgürlüğünün korunması",
+      "Özel hayatın gizliliği"
+    ],
+    "relatedTerms": [
+      "İnsan Haklarına Saygılı Devlet",
+      "Temel Hakların Sınırlanabilirliği",
+      "Temel Hakların Kötüye Kullanılamaması"
+    ],
+    "order": 84
+  },
+  {
+    "id": "seçimlerin_genelliği",
+    "term": "Seçimlerin Genelliği İlkesi",
+    "definition": "Seçme hakkının, kanunda belirtilen istisnalar dışında, hiçbir ayrım gözetilmeksizin bütün vatandaşlara tanınmasıdır. Hiçbir vatandaşın seçme hakkı kısıtlanamaz.",
+    "examples": [
+      "Cinsiyet, ırk, din ayrımı yapılmaksızın herkesin oy kullanabilmesi",
+      "Okuma yazma bilmeyenlerin de oy kullanabilmesi",
+      "Askerlerin oy kullanma yasağı (istisna)"
+    ],
+    "relatedTerms": [
+      "Seçme ve Seçilme Hakkı",
+      "Eşitlik İlkesi",
+      "Demokratik Devlet İlkesi"
+    ],
+    "order": 85
+  },
+  {
+    "id": "seçimlerin_eşitliği",
+    "term": "Seçimlerin Eşitliği İlkesi",
+    "definition": "Her seçmenin tek bir oya sahip olması ve her oyun eşit değere sahip olmasıdır. Milletvekili seçimlerinde her seçmenin oyu eşit sayılır.",
+    "examples": [
+      "Bir seçmenin birden fazla oy kullanamaması",
+      "Her oyun aynı ağırlıkta sayılması",
+      "Seçim bölgelerinin nüfus dengesine göre oluşturulması"
+    ],
+    "relatedTerms": [
+      "Seçme ve Seçilme Hakkı",
+      "Eşitlik İlkesi",
+      "Demokratik Devlet İlkesi"
+    ],
+    "order": 86
+  },
+  {
+    "id": "idarenin_bütünlüğü",
+    "term": "İdarenin Bütünlüğü İlkesi",
+    "definition": "Devlet idaresinin merkezden ve yerinden yönetim kuruluşlarıyla bir bütün oluşturmasıdır. Bu bütünlük hiyerarşi ve idari vesayet yoluyla sağlanır.",
+    "examples": [
+      "Bakanlıkların merkeze bağlı olması",
+      "Vali ve kaymakamların merkezi idarenin temsilcisi olması",
+      "Belediyelerin merkezi idare tarafından denetlenmesi"
+    ],
+    "relatedTerms": [
+      "İdari Teşkilat",
+      "Hiyerarşi",
+      "İdari Vesayet"
+    ],
+    "order": 87
+  },
+  {
+    "id": "yargıç_güvencesi",
+    "term": "Yargıç Güvencesi",
+    "definition": "Yargıçların bağımsızlıklarını temin eden ve görevden alınmalarını, aylık ve ödeneklerinin azaltılmasını engelleyen anayasal düzenlemedir. Yargı bağımsızlığının temelidir.",
+    "examples": [
+      "Yargıçların azledilememesi",
+      "Yargıçların emeklilik yaşından önce görevden alınamaması",
+      "Yargıçların maaşlarının kanunla belirlenmesi"
+    ],
+    "relatedTerms": [
+      "Yargı Bağımsızlığı",
+      "Hukuk Devleti",
+      "Kuvvetler Ayrılığı"
+    ],
+    "order": 88
+  },
+  {
+    "id": "kanunsuz_suç_ve_ceza_olmaz",
+    "term": "Kanunsuz Suç ve Ceza Olmaz İlkesi",
+    "definition": "Hiç kimsenin, işlendiği zaman yürürlükte bulunan kanunun suç saymadığı bir fiilden dolayı cezalandırılamamasıdır. Ceza hukukunun temel ilkelerindendir.",
+    "examples": [
+      "Bir eylemin suç sayılması için kanunda açıkça belirtilmesi",
+      "Kanunda öngörülmeyen bir cezanın verilememesi",
+      "Sonradan çıkan kanunların sanık lehine uygulanması"
+    ],
+    "relatedTerms": [
+      "Hukuk Devleti",
+      "Kanunilik İlkesi",
+      "Masumiyet Karinesi"
+    ],
+    "order": 89
+  },
+  {
+    "id": "milli_egemenlik",
+    "term": "Milli Egemenlik",
+    "definition": "Devletin en üstün gücünün ve yetkisinin millete ait olmasıdır. Yönetme yetkisinin kaynağının halk olduğunu ve bu yetkinin halk adına kullanıldığını ifade eder.",
+    "examples": [
+      "Anayasanın başlangıç kısmında 'Egemenlik kayıtsız şartsız milletindir' ifadesi",
+      "Milletvekillerinin halk tarafından seçilmesi",
+      "Halk oylaması (referandum) ile Anayasa değişikliğinin onaylanması"
+    ],
+    "relatedTerms": [
+      "Demokratik Devlet",
+      "Cumhuriyetçilik",
+      "Halkın Katılımı"
+    ],
+    "order": 90
+  },
+  {
+    "id": "temel_hak_ve_ozgurluklerin_sinirlanmasi",
+    "term": "Temel Hak ve Özgürlüklerin Sınırlandırılması",
+    "definition": "Anayasada belirtilen temel hak ve özgürlüklerin, ancak Anayasanın ruhuna uygun olarak ve belirli koşullar altında kanunla kısıtlanabilmesidir. Sınırlama, hakkın özüne dokunamaz ve demokratik toplum düzeninin gereklerine aykırı olamaz.",
+    "examples": [
+      "Toplantı ve gösteri yürüyüşü hakkının kamu düzeni gerekçesiyle sınırlandırılması",
+      "Seyahat özgürlüğünün salgın hastalık durumunda kısıtlanması",
+      "Özel hayatın gizliliğinin yargı kararıyla ihlal edilmesi"
+    ],
+    "relatedTerms": [
+      "Temel Hakların Özü",
+      "Demokratik Toplum Düzeni",
+      "Kanunilik İlkesi"
+    ],
+    "order": 91
+  },
+  {
+    "id": "yasama_yetkisinin_devredilemezligi",
+    "term": "Yasama Yetkisinin Devredilemezliği",
+    "definition": "Türkiye Büyük Millet Meclisi'ne ait olan yasama yetkisinin, başka bir organa veya kişiye devredilemeyeceğini ifade eder. Kanun yapma yetkisi münhasıran TBMM'ye aittir.",
+    "examples": [
+      "Bakanlar Kurulu'nun kanun hükmünde kararname çıkarma yetkisinin kaldırılması",
+      "Cumhurbaşkanlığı Kararnamelerinin kanunlara aykırı olamaması",
+      "TBMM'nin kendi yetkisini başka bir kuruma devredememesi"
+    ],
+    "relatedTerms": [
+      "Kuvvetler Ayrılığı",
+      "TBMM'nin Görevleri",
+      "Kanun Yapma Süreci"
+    ],
+    "order": 92
+  },
+  {
+    "id": "idarenin_malvarligi_sorumlulugu",
+    "term": "İdarenin Malvarlığı Sorumluluğu",
+    "definition": "İdarenin, kamu hizmeti yürütürken veya idari faaliyetleri sırasında neden olduğu zararları tazmin etme yükümlülüğüdür. Bu sorumluluk, kusurlu veya kusursuz olabilir.",
+    "examples": [
+      "Devletin hatalı bir imar uygulaması nedeniyle vatandaşın uğradığı zararı tazmin etmesi",
+      "Kamu görevlisinin görevi sırasında verdiği zararın idare tarafından karşılanması",
+      "Terör olayları sonucu oluşan zararların devlet tarafından tazmin edilmesi"
+    ],
+    "relatedTerms": [
+      "Tam Yargı Davası",
+      "İdari Yargı",
+      "Hukuk Devleti"
+    ],
+    "order": 93
+  },
+  {
+    "id": "masumiyet_karinesi",
+    "term": "Masumiyet Karinesi",
+    "definition": "Bir kişinin suçluluğu mahkeme kararıyla kesinleşinceye kadar masum kabul edilmesi ilkesidir. Yargılamanın adil ve tarafsız yapılmasını güvence altına alır.",
+    "examples": [
+      "Sanığın duruşmalara tutuksuz yargılanarak katılması",
+      "Basında bir kişinin suçlu ilan edilememesi",
+      "Yargılama sürecinde sanığın savunma hakkının kısıtlanmaması"
+    ],
+    "relatedTerms": [
+      "Adil Yargılanma Hakkı",
+      "Hukuk Devleti",
+      "Yargı Bağımsızlığı"
+    ],
+    "order": 94
+  },
+  {
+    "id": "tabii_yargıç_ilkesi",
+    "term": "Tabii Yargıç İlkesi",
+    "definition": "Hiç kimsenin tabi olduğu mahkemeden başka bir mahkeme önüne çıkarılamayacağı ilkesidir. Kişinin yargılanacağı mahkemenin, suçun işlendiği tarihten önce kanunla belirlenmiş olmasını ifade eder.",
+    "examples": [
+      "Olağanüstü mahkemelerin kurulmasının yasak olması",
+      "Bir suçun işlendiğinde hangi mahkemede yargılanacağının önceden belli olması",
+      "Yargılamayı yapan hakimin olaydan sonra atanmaması"
+    ],
+    "relatedTerms": [
+      "Adil Yargılanma Hakkı",
+      "Hukuk Devleti",
+      "Yargı Bağımsızlığı"
+    ],
+    "order": 95
+  },
+  {
+    "id": "idarenin_takdir_yetkisi",
+    "term": "İdarenin Takdir Yetkisi",
+    "definition": "İdarenin, belirli durumlarda kanunların çizdiği sınırlar içinde, kendi iradesiyle karar verme ve işlem yapma yetkisidir. Bu yetki, kamu yararı ve hizmet gerekleri doğrultusunda kullanılır ve yargı denetimine tabidir.",
+    "examples": [
+      "Bir kamu görevlisinin atanmasında liyakat ve başarıya göre tercih yapılması",
+      "Belediyenin bir parkın yerini belirlemesi",
+      "İdarenin bir ruhsat başvurusunu değerlendirirken belirli kriterlere göre karar vermesi"
+    ],
+    "relatedTerms": [
+      "İdarenin Kanuniliği",
+      "Yargı Denetimi",
+      "Kamu Yararı"
+    ],
+    "order": 96
+  },
+  {
+    "id": "sayistayin_gorevleri",
+    "term": "Sayıştay'ın Görevleri",
+    "definition": "Genel ve katma bütçeli dairelerin bütün gelir ve giderleri ile mallarını Türkiye Büyük Millet Meclisi adına denetlemek ve sorumluların hesap ve işlemlerini kesin hükme bağlamaktır. Merkezi yönetim bütçesi kapsamındaki kamu idareleri ile sosyal güvenlik kurumlarının bütün gelir ve giderlerini denetler.",
+    "examples": [
+      "Bakanlıkların harcamalarının mevzuata uygunluğunu denetlemesi",
+      "Kamu iktisadi teşebbüslerinin mali tablolarını incelemesi",
+      "Belediyelerin bütçe uygulamalarını denetlemesi"
+    ],
+    "relatedTerms": [
+      "TBMM",
+      "Mali Denetim",
+      "Kamu Maliyesi"
+    ],
+    "order": 97
+  },
+  {
+    "id": "anayasa_mahkemesinin_gorevleri",
+    "term": "Anayasa Mahkemesi'nin Görevleri",
+    "definition": "Kanunların, Cumhurbaşkanlığı kararnamelerinin ve Türkiye Büyük Millet Meclisi İçtüzüğü'nün Anayasaya şekil ve esas bakımından uygunluğunu denetlemek, bireysel başvuruları karara bağlamak ve siyasi partilerin kapatılması davalarına bakmaktır.",
+    "examples": [
+      "Bir kanunun Anayasaya aykırı olduğu gerekçesiyle iptaline karar vermesi",
+      "Vatandaşın Anayasal hakkının ihlal edildiği iddiasıyla yaptığı bireysel başvuruyu incelemesi",
+      "Bir siyasi partinin Anayasa'ya aykırı faaliyetleri nedeniyle kapatılmasına karar vermesi"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Norm Denetimi",
+      "Bireysel Başvuru"
+    ],
+    "order": 98
+  },
+  {
+    "id": "anayasanin_baglayiciligi_ve_ustunlugu",
+    "term": "Anayasanın Bağlayıcılığı ve Üstünlüğü",
+    "definition": "Anayasanın, devletin tüm organlarını, idare makamlarını ve tüm bireyleri bağlayıcı en üst hukuk normu olmasıdır. Hiçbir kanun veya idari işlem Anayasaya aykırı olamaz.",
+    "examples": [
+      "Bir kanunun Anayasa Mahkemesi tarafından Anayasaya aykırı bulunarak iptal edilmesi.",
+      "Yürütme organının çıkardığı bir yönetmeliğin Anayasaya uygunluğunun denetlenmesi."
+    ],
+    "relatedTerms": [
+      "Hukuk Devleti İlkesi",
+      "Anayasa Yargısı",
+      "Kanunların Anayasaya Uygunluğu"
+    ],
+    "order": 99
+  },
+  {
+    "id": "temel_hak_ve_ozgurluklerin_kullanilmasi",
+    "term": "Temel Hak ve Özgürlüklerin Kullanılması",
+    "definition": "Herkesin, Anayasada güvence altına alınan temel hak ve özgürlüklerini, başkalarının haklarına ve Anayasanın ruhuna aykırı düşmeyecek şekilde kullanma hakkıdır. Bu hakların kötüye kullanılması Anayasa tarafından yasaklanmıştır.",
+    "examples": [
+      "İfade özgürlüğünün başkalarının şeref ve haysiyetine saldırmayacak şekilde kullanılması.",
+      "Toplantı ve gösteri yürüyüşü düzenleme hakkının kamu düzenini bozmayacak şekilde kullanılması."
+    ],
+    "relatedTerms": [
+      "Temel Hakların Sınırlandırılması",
+      "İnsan Haklarına Saygılı Devlet",
+      "Demokratik Toplum Düzeni"
+    ],
+    "order": 100
+  },
+  {
+    "id": "idarenin_kanuniligi_ilkesi",
+    "term": "İdarenin Kanuniliği İlkesi",
+    "definition": "İdarenin tüm eylem ve işlemlerinin Anayasaya ve kanunlara uygun olması zorunluluğunu ifade eder. İdare, yetkisini yalnızca kanundan alır ve kanunla belirlenen sınırlar içinde hareket eder.",
+    "examples": [
+      "Bir kamu görevlisinin, kanunda açıkça belirtilmeyen bir yetkiyi kullanarak işlem yapamaması.",
+      "Belediyenin, bir imar planı değişikliğini kanunlara uygun olarak gerçekleştirmesi."
+    ],
+    "relatedTerms": [
+      "Hukuk Devleti İlkesi",
+      "Yetki Genişliği",
+      "Kanunsuz Emir"
+    ],
+    "order": 101
+  },
+  {
+    "id": "yasama_dokunulmazligi_ve_sorumsuzlugu",
+    "term": "Yasama Dokunulmazlığı ve Sorumsuzluğu",
+    "definition": "Milletvekillerinin, Meclis çalışmalarındaki oy ve sözlerinden, Mecliste ileri sürdükleri düşüncelerden dolayı sorumlu tutulamaması (sorumsuzluk) ve seçimden önce veya sonra işledikleri iddia edilen suçlardan dolayı Meclis kararı olmaksızın tutulamaması, sorguya çekilememesi veya yargılanamaması (dokunulmazlık) ilkesidir.",
+    "examples": [
+      "Bir milletvekilinin Genel Kurul'da yaptığı konuşmalar nedeniyle hakkında dava açılamaması.",
+      "Bir milletvekilinin seçimden önce işlediği iddia edilen bir suçtan dolayı Meclis kararı olmadan gözaltına alınamaması."
+    ],
+    "relatedTerms": [
+      "Kuvvetler Ayrılığı",
+      "Milletvekili Statüsü",
+      "Yasama Yetkisi"
+    ],
+    "order": 102
+  },
+  {
+    "id": "anayasanin_genel_esaslari",
+    "term": "Anayasanın Genel Esasları",
+    "definition": "Anayasanın başlangıç kısmında yer alan ve devletin temel niteliklerini, kuruluş felsefesini ve temel değerlerini belirten ilkeler bütünüdür. Bu esaslar, Anayasanın diğer maddelerinin yorumlanmasında ve uygulanmasında yol gösterici niteliktedir.",
+    "examples": [
+      "Başlangıç kısmında yer alan 'Türk vatanı ve milletinin ebedi varlığı' ilkesi.",
+      "Başlangıç kısmında vurgulanan 'demokratik, laik ve sosyal bir hukuk devleti' anlayışı."
+    ],
+    "relatedTerms": [
+      "Cumhuriyetçilik İlkesi",
+      "Milli Egemenlik",
+      "Laiklik İlkesi"
+    ],
+    "order": 103
+  },
+  {
+    "id": "kamu_hizmeti_gorme_ilkesi",
+    "term": "Kamu Hizmeti Görme İlkesi",
+    "definition": "Devletin ve kamu tüzel kişilerinin, kamu yararını gerçekleştirmek amacıyla sunduğu hizmetlerin genel, eşit, sürekli ve düzenli bir şekilde yürütülmesini ifade eden ilkedir. Bu hizmetler, ayrım gözetmeksizin herkese açık olmalıdır.",
+    "examples": [
+      "Belediyelerin temizlik, su ve kanalizasyon hizmetlerini tüm vatandaşlara sunması.",
+      "Devlet okullarında eğitimin tüm çocuklara eşit fırsatlarla sağlanması."
+    ],
+    "relatedTerms": [
+      "Sosyal Devlet İlkesi",
+      "İdarenin Bütünlüğü İlkesi",
+      "Eşitlik İlkesi"
+    ],
+    "order": 104
   }
 ]

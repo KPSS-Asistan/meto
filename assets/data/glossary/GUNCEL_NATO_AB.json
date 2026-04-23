@@ -1494,5 +1494,440 @@
       "Ulusal Egemenlik"
     ],
     "order": 100
+  },
+  {
+    "id": "nato_kurulus_amaci",
+    "term": "NATO'nun Kuruluş Amacı",
+    "definition": "Kuzey Atlantik Antlaşması Örgütü'nün (NATO) temel kuruluş amacı, üye ülkelerin özgürlük ve güvenliklerini askeri ve siyasi yollarla korumaktır. Özellikle Soğuk Savaş döneminde Sovyetler Birliği'nin yayılmacı politikalarına karşı kolektif savunma sağlamak üzere kurulmuştur.",
+    "examples": [
+      "NATO'nun 5. maddesi, bir üye ülkeye yapılan saldırının tüm üyelere yapılmış sayılmasını öngörerek kolektif savunmayı güvence altına alır.",
+      "NATO, Soğuk Savaş döneminde Batı Avrupa'nın güvenliğini sağlamada kilit rol oynamıştır."
+    ],
+    "relatedTerms": [
+      "Kolektif Savunma",
+      "5. Madde",
+      "Soğuk Savaş"
+    ],
+    "order": 101
+  },
+  {
+    "id": "ab_kurulus_amaci",
+    "term": "Avrupa Birliği'nin Kuruluş Amacı",
+    "definition": "Avrupa Birliği'nin (AB) temel amacı, üye ülkeler arasında ekonomik ve siyasi entegrasyonu derinleştirerek barışı, istikrarı ve refahı sağlamaktır. Ortak bir pazar oluşturarak serbest dolaşımı ve ortak politikaları teşvik eder.",
+    "examples": [
+      "AB, kömür ve çelik sektöründe başlayan işbirliğini zamanla birçok alana yaymıştır.",
+      "Euro para birimi, AB'nin ekonomik entegrasyonunun önemli bir göstergesidir."
+    ],
+    "relatedTerms": [
+      "Avrupa Entegrasyonu",
+      "Ortak Pazar",
+      "Euro"
+    ],
+    "order": 102
+  },
+  {
+    "id": "nato_baris_icin_ortaklik",
+    "term": "NATO Barış İçin Ortaklık (PfP)",
+    "definition": "NATO'nun 1994 yılında başlattığı bir program olup, NATO üyesi olmayan Avrupa ve Avrasya ülkeleriyle askeri işbirliğini ve güvenliği artırmayı amaçlar. Ortak ülkelerin kendi savunma yeteneklerini geliştirmelerine ve NATO operasyonlarına katılmalarına olanak tanır.",
+    "examples": [
+      "İsveç ve İrlanda gibi ülkeler, PfP programı aracılığıyla NATO ile işbirliği yapmaktadır.",
+      "PfP, barışı koruma operasyonlarında ortak ülkelerin katılımını kolaylaştırmıştır."
+    ],
+    "relatedTerms": [
+      "Ortaklık",
+      "Askeri İşbirliği",
+      "NATO Genişlemesi"
+    ],
+    "order": 103
+  },
+  {
+    "id": "ab_maastricht_antlasmasi",
+    "term": "Maastricht Antlaşması (AB)",
+    "definition": "1992 yılında imzalanan ve 1993'te yürürlüğe giren bu antlaşma, Avrupa Birliği'ni resmen kurmuştur. Avrupa Ekonomik Topluluğu'nu Avrupa Birliği'ne dönüştürerek ortak para birimi (Euro) ve Ortak Dış ve Güvenlik Politikası gibi yeni sütunları getirmiştir.",
+    "examples": [
+      "Maastricht Antlaşması, Avrupa vatandaşlığı kavramını ortaya çıkarmıştır.",
+      "Antlaşma, AB'nin üç sütunlu yapısını oluşturmuştur."
+    ],
+    "relatedTerms": [
+      "Avrupa Birliği",
+      "Euro",
+      "Ortak Dış ve Güvenlik Politikası"
+    ],
+    "order": 104
+  },
+  {
+    "id": "nato_kolektif_savunma",
+    "term": "NATO Kolektif Savunma",
+    "definition": "NATO Antlaşması'nın 5. maddesinde belirtilen, bir üye devlete yapılan silahlı saldırının tüm üyelere yapılmış sayılacağı ilkesidir. Bu ilke, NATO'nun temelini oluşturur ve üyeler arasında karşılıklı yardımlaşma taahhüdünü ifade eder.",
+    "examples": [
+      "11 Eylül saldırıları sonrası NATO, 5. maddeyi ilk kez devreye sokmuştur.",
+      "Kolektif savunma, NATO'nun caydırıcılık stratejisinin merkezindedir."
+    ],
+    "relatedTerms": [
+      "5. Madde",
+      "Caydırıcılık",
+      "Washington Antlaşması"
+    ],
+    "order": 105
+  },
+  {
+    "id": "nato_hizli_mukabele_kuvveti",
+    "term": "NATO Hızlı Mukabele Kuvveti (NRF)",
+    "definition": "NATO'nun krizlere hızlı ve etkin bir şekilde müdahale edebilmek için oluşturduğu yüksek hazırlık seviyesine sahip, çok uluslu bir askeri güçtür. Terörle mücadele, barışı koruma ve insani yardım operasyonlarında kullanılabilir.",
+    "examples": [
+      "NRF, potansiyel tehditlere karşı NATO'nun ilk müdahale gücünü oluşturur.",
+      "Tatbikatlar, NRF'nin operasyonel yeteneklerini test etmek için düzenlenir."
+    ],
+    "relatedTerms": [
+      "Kriz Yönetimi",
+      "Çok Uluslu Güç",
+      "Yüksek Hazırlık Seviyesi"
+    ],
+    "order": 106
+  },
+  {
+    "id": "nato_acik_kapi_politikasi",
+    "term": "NATO Açık Kapı Politikası",
+    "definition": "NATO'nun, Avrupa-Atlantik bölgesinde demokratik değerleri paylaşan ve ittifakın güvenlik ilkelerine bağlı olan her ülkeye üyelik kapısını açık tuttuğu ilkesidir. Üyelik için belirli siyasi, ekonomik ve askeri kriterlerin karşılanması gerekir.",
+    "examples": [
+      "Kuzey Makedonya, Açık Kapı Politikası sayesinde NATO'ya üye olmuştur.",
+      "Ukrayna ve Gürcistan'ın NATO üyeliği perspektifi, bu politikanın bir yansımasıdır."
+    ],
+    "relatedTerms": [
+      "Üyelik Kriterleri",
+      "Genişleme",
+      "Demokratik Değerler"
+    ],
+    "order": 107
+  },
+  {
+    "id": "ab_tek_pazar",
+    "term": "Avrupa Tek Pazarı",
+    "definition": "Avrupa Birliği'nin temel ekonomik entegrasyon aracıdır ve malların, hizmetlerin, sermayenin ve kişilerin serbest dolaşımını sağlar. Üye ülkeler arasındaki ticaret engellerini kaldırarak ekonomik büyümeyi teşvik eder.",
+    "examples": [
+      "Tek pazar sayesinde AB vatandaşları herhangi bir üye ülkede çalışabilir ve yaşayabilir.",
+      "Üye ülkeler arasında gümrük vergisi uygulanmaz."
+    ],
+    "relatedTerms": [
+      "Serbest Dolaşım",
+      "Gümrük Birliği",
+      "Ekonomik Entegrasyon"
+    ],
+    "order": 108
+  },
+  {
+    "id": "nato_ortak_guvenlik_taahhudleri",
+    "term": "NATO Ortak Güvenlik Taahhütleri",
+    "definition": "NATO üyelerinin, ittifakın genel güvenliğine katkıda bulunma ve birbirlerinin güvenliğini karşılıklı olarak destekleme yükümlülüğüdür. Bu, askeri harcamalar, yetenek geliştirme ve ortak operasyonlara katılım gibi alanları kapsar.",
+    "examples": [
+      "Üye ülkeler, GSYİH'lerinin belirli bir oranını savunmaya ayırma taahhüdünde bulunur.",
+      "NATO misyonlarına asker göndermek, ortak güvenlik taahhütlerinin bir parçasıdır."
+    ],
+    "relatedTerms": [
+      "Savunma Harcamaları",
+      "Yetenek Geliştirme",
+      "Ortak Operasyonlar"
+    ],
+    "order": 109
+  },
+  {
+    "id": "ab_avrupa_konseyi",
+    "term": "Avrupa Konseyi",
+    "definition": "Avrupa Birliği'nin en üst düzey siyasi organıdır ve üye devletlerin devlet veya hükümet başkanlarından oluşur. AB'nin genel siyasi yönelimlerini ve önceliklerini belirler, önemli stratejik kararlar alır.",
+    "examples": [
+      "Avrupa Konseyi, AB'nin genişleme politikası hakkında kararlar alır.",
+      "AB'nin dış ilişkilerinde stratejik yönlendirme sağlar."
+    ],
+    "relatedTerms": [
+      "Devlet Başkanları",
+      "Siyasi Yönelim",
+      "Stratejik Kararlar"
+    ],
+    "order": 110
+  },
+  {
+    "id": "nato_nukleer_caydiricilik",
+    "term": "NATO Nükleer Caydırıcılık",
+    "definition": "NATO'nun, potansiyel bir düşmanın saldırısını engellemek amacıyla nükleer silahları kullanma kapasitesine ve istekliliğine dayanan savunma stratejisidir. Bu strateji, ittifakın güvenliğinin temel bir unsuru olarak kabul edilir.",
+    "examples": [
+      "Nükleer caydırıcılık, Soğuk Savaş boyunca NATO'nun güvenliğini sağlamıştır.",
+      "NATO, nükleer silahların nihai güvenlik garantisi olduğunu belirtir."
+    ],
+    "relatedTerms": [
+      "Caydırıcılık",
+      "Stratejik Konsept",
+      "Soğuk Savaş"
+    ],
+    "order": 111
+  },
+  {
+    "id": "nato_baris_icin_ortaklik_programi",
+    "term": "NATO Barış İçin Ortaklık (PfP) Programı",
+    "definition": "NATO'nun eski Varşova Paktı ülkeleri ve diğer Avrupa ülkeleriyle işbirliğini geliştirmek amacıyla 1994'te başlattığı bir programdır. Askeri şeffaflık, savunma reformu ve barış gücü operasyonlarına katılımı teşvik eder. Ortakların NATO standartlarına uyumunu hedefler.",
+    "examples": [
+      "Macaristan, Polonya ve Çek Cumhuriyeti gibi ülkeler, NATO üyeliği öncesinde PfP programına katılarak NATO ile uyum sağladı.",
+      "PfP, ortak ülkelerin barışı koruma misyonlarına katkıda bulunma kapasitelerini artırmıştır."
+    ],
+    "relatedTerms": [
+      "NATO Genişlemesi",
+      "Avrupa-Atlantik Ortaklık Konseyi",
+      "Bireysel Ortaklık Eylem Planı"
+    ],
+    "order": 112
+  },
+  {
+    "id": "nato_kolektif_savunma_ilkesi",
+    "term": "NATO Kolektif Savunma İlkesi (Madde 5)",
+    "definition": "NATO Antlaşması'nın 5. Maddesi'nde yer alan ve bir üye ülkeye yapılan silahlı saldırının tüm üyelere yapılmış sayılacağını belirten temel ilkedir. Bu ilke, NATO'nun varlık nedenini ve caydırıcılık gücünü oluşturur. Üyelerin birbirlerini savunma taahhüdünü içerir.",
+    "examples": [
+      "11 Eylül 2001 terör saldırılarının ardından NATO, tarihinde ilk ve tek kez 5. Madde'yi devreye sokmuştur.",
+      "Kolektif savunma, üyelerin toprak bütünlüğü ve siyasi bağımsızlıklarını güvence altına alır."
+    ],
+    "relatedTerms": [
+      "Washington Antlaşması",
+      "Caydırıcılık",
+      "Kriz Yönetimi"
+    ],
+    "order": 113
+  },
+  {
+    "id": "nato_stratejik_konsept",
+    "term": "NATO Stratejik Konsept",
+    "definition": "NATO'nun güvenlik ortamına ilişkin analizini, temel görevlerini ve gelecekteki adaptasyonunu belirleyen üst düzey politika belgesidir. Her birkaç yılda bir güncellenerek ittifakın tehdit algılamalarını ve bunlara karşı stratejilerini yansıtır. En son 2022 Madrid Zirvesi'nde kabul edilmiştir.",
+    "examples": [
+      "2010 Lizbon Stratejik Konsepti, siber tehditler ve terörizm gibi yeni tehditlere odaklanmıştır.",
+      "2022 Madrid Stratejik Konsepti, Rusya'yı en önemli ve doğrudan tehdit olarak tanımlamıştır."
+    ],
+    "relatedTerms": [
+      "NATO Zirveleri",
+      "Caydırıcılık",
+      "Kriz Yönetimi"
+    ],
+    "order": 114
+  },
+  {
+    "id": "ab_ekonomik_ve_parasal_birlik_emu",
+    "term": "AB Ekonomik ve Parasal Birlik (EMU)",
+    "definition": "AB üye ülkeleri arasında ekonomik ve mali politikaların koordinasyonunu ve ortak para birimi Euro'nun kullanımını içeren entegrasyon aşamasıdır. Tek para politikası Avrupa Merkez Bankası tarafından yürütülür. Fiyat istikrarı ve sürdürülebilir kamu maliyesi hedefler.",
+    "examples": [
+      "Euro Bölgesi'ndeki ülkelerin ortak para birimi Euro'yu kullanması EMU'nun en somut örneğidir.",
+      "Avrupa Merkez Bankası'nın faiz oranları kararları, tüm Euro Bölgesi ülkelerini etkiler."
+    ],
+    "relatedTerms": [
+      "Euro Bölgesi",
+      "Avrupa Merkez Bankası",
+      "Maastricht Kriterleri"
+    ],
+    "order": 115
+  },
+  {
+    "id": "ab_ortak_guvenlik_ve_savunma_politikasi_ogsp",
+    "term": "AB Ortak Güvenlik ve Savunma Politikası (OGSP)",
+    "definition": "AB'nin kriz yönetimi, barışı koruma ve insani yardım misyonları gibi askeri ve sivil operasyonları yürütme kapasitesini geliştirmeyi amaçlayan politikasıdır. AB'nin uluslararası sahnede bir güvenlik aktörü olarak rolünü güçlendirmeyi hedefler. NATO'dan bağımsız bir kapasite geliştirmeyi amaçlar.",
+    "examples": [
+      "AB'nin Bosna-Hersek'teki EUFOR Althea misyonu, OGSP kapsamında yürütülen bir askeri operasyondur.",
+      "Afrika'daki eğitim misyonları, AB'nin OGSP çerçevesindeki sivil ve askeri katkılarına örnektir."
+    ],
+    "relatedTerms": [
+      "AB Savaş Grupları",
+      "Avrupa Savunma Ajansı",
+      "PESCO"
+    ],
+    "order": 116
+  },
+  {
+    "id": "ab_avrupa_yesil_mutabakati",
+    "term": "AB Avrupa Yeşil Mutabakatı (European Green Deal)",
+    "definition": "Avrupa Birliği'nin 2050 yılına kadar iklim nötrlüğüne ulaşmayı hedefleyen kapsamlı bir büyüme stratejisidir. Çevre dostu teknolojilere yatırım, sürdürülebilir sanayi ve enerji dönüşümü gibi alanları kapsar. AB ekonomisini modern, kaynak verimli ve rekabetçi hale getirmeyi amaçlar.",
+    "examples": [
+      "Enerji verimliliği standartlarının yükseltilmesi ve yenilenebilir enerji kaynaklarına geçiş, Yeşil Mutabakat'ın hedeflerindendir.",
+      "Karbon emisyonlarının azaltılmasına yönelik yasal düzenlemeler, bu mutabakatın somut adımlarıdır."
+    ],
+    "relatedTerms": [
+      "İklim Nötrlüğü",
+      "Sürdürülebilir Kalkınma",
+      "Emisyon Ticaret Sistemi"
+    ],
+    "order": 117
+  },
+  {
+    "id": "nato_terorizmle_mucadele",
+    "term": "NATO Terörizmle Mücadele",
+    "definition": "NATO'nun 11 Eylül saldırılarının ardından öncelikli gündem maddelerinden biri haline gelen, terör örgütleriyle mücadele ve terörizmin yayılmasını önlemeye yönelik faaliyetleridir. İstihbarat paylaşımı, kapasite geliştirme ve operasyonel işbirliğini içerir. Afganistan'daki ISAF misyonu önemli bir örnektir.",
+    "examples": [
+      "NATO'nun 'Kararlı Destek Misyonu' (Resolute Support Mission) Afganistan'da terörle mücadele ve güvenlik güçlerini eğitme amacı taşımıştır.",
+      "NATO'nun terörizmle mücadeledeki rolü, siber güvenlik ve kritik altyapı korumasını da kapsar."
+    ],
+    "relatedTerms": [
+      "Kriz Yönetimi",
+      "Siber Savunma",
+      "İstihbarat Paylaşımı"
+    ],
+    "order": 118
+  },
+  {
+    "id": "ab_avrupa_vatandasligi",
+    "term": "AB Avrupa Vatandaşlığı",
+    "definition": "Maastricht Antlaşması ile oluşturulan ve her AB üyesi ülke vatandaşının aynı zamanda Avrupa Birliği vatandaşı olmasını sağlayan statüdür. Bu statü, üye ülkelerde serbest dolaşım, Avrupa Parlamentosu seçimlerinde oy kullanma ve AB dışındaki ülkelerde diplomatik koruma gibi haklar tanır. Ulusal vatandaşlığa ek bir statüdür.",
+    "examples": [
+      "Bir İspanyol vatandaşının Almanya'da ikamet etme ve çalışma hakkı, Avrupa vatandaşlığının bir sonucudur.",
+      "AB vatandaşı olan bir kişinin, AB dışındaki bir ülkede kendi ülkesinin konsolosluğu yoksa, başka bir AB ülkesinin konsolosluğundan yardım alabilmesi bu hakkın bir örneğidir."
+    ],
+    "relatedTerms": [
+      "Maastricht Antlaşması",
+      "Serbest Dolaşım",
+      "Avrupa Parlamentosu"
+    ],
+    "order": 119
+  },
+  {
+    "id": "ab_avrupa_adalet_divani",
+    "term": "AB Avrupa Adalet Divanı (AAD)",
+    "definition": "Avrupa Birliği hukukunun üye ülkelerde doğru ve tutarlı bir şekilde yorumlanmasını ve uygulanmasını sağlayan yargı organıdır. Üye devletler, AB kurumları ve bireyler arasındaki hukuki anlaşmazlıkları çözmekle görevlidir. AB hukukunun üstünlüğünü sağlar.",
+    "examples": [
+      "Bir üye ülkenin AB yasalarına aykırı bir düzenleme yapması durumunda, AAD bu durumu inceleyebilir.",
+      "Bireyler, ulusal mahkemelerde haklarını aradıktan sonra, belirli koşullar altında AAD'ye başvurabilirler."
+    ],
+    "relatedTerms": [
+      "AB Hukuku",
+      "Avrupa Birliği Antlaşması",
+      "Ön Karar Mekanizması"
+    ],
+    "order": 120
+  },
+  {
+    "id": "nato_partnerlik_ve_isbirligi",
+    "term": "NATO Partnerlik ve İşbirliği",
+    "definition": "NATO'nun üye olmayan ülkelerle siyasi diyalog, askeri işbirliği ve karşılıklı anlayışı geliştirmeyi amaçlayan geniş bir çerçevedir. Barış İçin Ortaklık (PfP), Akdeniz Diyaloğu ve İstanbul İşbirliği Girişimi gibi programları kapsar. Bölgesel güvenlik ve istikrara katkıda bulunmayı hedefler.",
+    "examples": [
+      "NATO'nun Gürcistan ve Ukrayna ile yaptığı işbirliği, bu ülkelerin güvenlik kapasitelerini artırmayı amaçlar.",
+      "Körfez ülkeleriyle yürütülen İstanbul İşbirliği Girişimi, bölgesel güvenlik konularında diyalog sağlar."
+    ],
+    "relatedTerms": [
+      "Barış İçin Ortaklık",
+      "Akdeniz Diyaloğu",
+      "İstanbul İşbirliği Girişimi"
+    ],
+    "order": 121
+  },
+  {
+    "id": "nato_esnek_mukabele",
+    "term": "NATO Esnek Mukabele Stratejisi",
+    "definition": "Soğuk Savaş döneminde geliştirilen, nükleer ve konvansiyonel güçlerin dengeli kullanımıyla her türlü tehdide karşı kademeli ve esnek bir karşılık vermeyi amaçlayan stratejidir. Bu strateji, tırmanmayı kontrol altında tutarak çatışmanın nükleer savaşa dönüşmesini engellemeyi hedefler. NATO'nun savunma planlamasında önemli bir yere sahiptir.",
+    "examples": [
+      "1967'de onaylanan Esnek Mukabele Stratejisi, NATO'nun Sovyet tehdidine karşı caydırıcılığını artırmıştır.",
+      "Strateji, konvansiyonel saldırıya karşı ilk etapta konvansiyonel güçlerle yanıt verilmesini öngörür."
+    ],
+    "relatedTerms": [
+      "NATO Stratejik Konsept",
+      "NATO Kolektif Savunma",
+      "NATO Nükleer Caydırıcılık"
+    ],
+    "order": 122
+  },
+  {
+    "id": "ab_schengen_bolgesi",
+    "term": "AB Schengen Bölgesi",
+    "definition": "Avrupa Birliği üyesi bazı ülkeler ile AB dışı bazı ülkeler arasında sınır kontrollerinin kaldırıldığı, serbest dolaşım sağlayan bir alandır. Bu bölge, iç sınırlarda pasaport kontrolü olmaksızın seyahat etme imkanı sunarak vatandaşların ve malların serbest dolaşımını kolaylaştırır. Schengen Anlaşması ile temelleri atılmıştır.",
+    "examples": [
+      "Bir AB vatandaşı, Schengen Bölgesi içinde vize almadan serbestçe seyahat edebilir.",
+      "Türkiye'nin AB üyeliği sürecinde Schengen Bölgesi'ne dahil olma konusu önemli bir müzakere başlığıdır."
+    ],
+    "relatedTerms": [
+      "Avrupa Tek Pazarı",
+      "AB Avrupa Vatandaşlığı",
+      "Lizbon Antlaşması"
+    ],
+    "order": 123
+  },
+  {
+    "id": "ab_ortak_dis_ve_guvenlik_politikasi",
+    "term": "AB Ortak Dış ve Güvenlik Politikası (ODGP)",
+    "definition": "Avrupa Birliği'nin dış ilişkilerde ve güvenlik konularında ortak bir duruş sergilemesini amaçlayan politikadır. Üye devletlerin dış politika kararlarını koordine etmelerini ve ortak çıkarlar doğrultusunda hareket etmelerini hedefler. Lizbon Antlaşması ile güçlendirilmiştir.",
+    "examples": [
+      "AB'nin Ortadoğu'daki barış sürecine ilişkin ortak açıklamaları, ODGP kapsamında değerlendirilir.",
+      "Rusya'ya yönelik yaptırımlar, ODGP çerçevesinde alınan kararlara örnektir."
+    ],
+    "relatedTerms": [
+      "AB Ortak Güvenlik ve Savunma Politikası (OGSP)",
+      "Lizbon Antlaşması",
+      "Maastricht Antlaşması"
+    ],
+    "order": 124
+  },
+  {
+    "id": "nato_kriz_mukabele_operasyonlari",
+    "term": "NATO Kriz Mukabele Operasyonları",
+    "definition": "NATO'nun kendi toprakları dışında, üye ülkelerin güvenliğini tehdit eden veya bölgesel istikrarı bozan krizlere müdahale etmek amacıyla yürüttüğü operasyonlardır. Bu operasyonlar, barışı koruma, insani yardım ve terörle mücadele gibi çeşitli amaçlarla gerçekleştirilebilir. Birleşmiş Milletler Güvenlik Konseyi kararları doğrultusunda da hareket edebilirler.",
+    "examples": [
+      "NATO'nun Kosova'daki KFOR misyonu, kriz mukabele operasyonlarına örnektir.",
+      "Afganistan'daki ISAF misyonu da NATO'nun kriz mukabele operasyonları kapsamında yürütülmüştür."
+    ],
+    "relatedTerms": [
+      "NATO Kolektif Savunma",
+      "NATO Hızlı Mukabele Kuvveti (NRF)",
+      "NATO Terörizmle Mücadele"
+    ],
+    "order": 125
+  },
+  {
+    "id": "ab_avrupa_merkez_bankasi",
+    "term": "AB Avrupa Merkez Bankası (AMB)",
+    "definition": "Euro Bölgesi'nin para politikasını belirleyen ve uygulayan merkezi bankadır. Temel amacı, fiyat istikrarını sağlamak ve böylece Euro Bölgesi'nde ekonomik büyümeyi desteklemektir. Bağımsız bir kurum olarak faaliyet gösterir.",
+    "examples": [
+      "AMB'nin faiz oranlarını belirlemesi, Euro Bölgesi'ndeki enflasyon ve büyüme üzerinde doğrudan etkilidir.",
+      "Euro'nun değerini korumak, AMB'nin öncelikli görevlerindendir."
+    ],
+    "relatedTerms": [
+      "AB Ekonomik ve Parasal Birlik (EMU)",
+      "Maastricht Antlaşması",
+      "Avrupa Tek Pazarı"
+    ],
+    "order": 126
+  },
+  {
+    "id": "nato_stratejik_konsept_2010",
+    "term": "NATO Stratejik Konsept (2010)",
+    "definition": "NATO'nun güvenlik ortamındaki değişikliklere uyum sağlamak ve gelecekteki tehditlere karşı yol haritasını belirlemek amacıyla kabul ettiği belgedir. Bu konsept, kolektif savunma, kriz yönetimi ve kooperatif güvenlik olmak üzere üç temel görevi vurgular. Siber güvenlik ve terörizm gibi yeni tehditlere de odaklanır.",
+    "examples": [
+      "2010 Stratejik Konsepti, siber saldırıları Madde 5 kapsamında değerlendirilebilecek bir tehdit olarak tanımlamıştır.",
+      "Bu konsept, NATO'nun 21. yüzyılın güvenlik zorluklarına nasıl yanıt vereceğini şekillendirmiştir."
+    ],
+    "relatedTerms": [
+      "NATO Stratejik Konsept",
+      "NATO Kolektif Savunma İlkesi (Madde 5)",
+      "NATO Terörizmle Mücadele"
+    ],
+    "order": 127
+  },
+  {
+    "id": "ab_avrupa_parlamentosu",
+    "term": "AB Avrupa Parlamentosu",
+    "definition": "Avrupa Birliği'nin yasama organlarından biridir ve doğrudan AB vatandaşları tarafından seçilen milletvekillerinden oluşur. AB bütçesini onaylama, yasaları Avrupa Birliği Konseyi ile birlikte çıkarma ve Avrupa Komisyonu'nu denetleme gibi önemli yetkilere sahiptir. AB'nin demokratik meşruiyetini temsil eder.",
+    "examples": [
+      "Avrupa Parlamentosu, yeni AB yasalarının kabul edilmesinde aktif rol oynar.",
+      "Her beş yılda bir yapılan seçimlerle Avrupa Parlamentosu üyeleri belirlenir."
+    ],
+    "relatedTerms": [
+      "Avrupa Konseyi",
+      "Lizbon Antlaşması",
+      "AB Avrupa Adalet Divanı (AAD)"
+    ],
+    "order": 128
+  },
+  {
+    "id": "nato_guvenlik_icin_bilim",
+    "term": "NATO Güvenlik İçin Bilim Programı",
+    "definition": "NATO'nun bilimsel işbirliğini teşvik ederek güvenlik alanında yenilikçi çözümler üretmeyi amaçlayan bir programıdır. Üye ve ortak ülkelerden bilim insanlarını bir araya getirerek terörizmle mücadele, siber savunma ve çevre güvenliği gibi alanlarda araştırma ve geliştirme projelerini destekler. Bilimsel ve teknolojik üstünlüğün korunmasına katkı sağlar.",
+    "examples": [
+      "Program kapsamında, mayın temizleme teknolojileri üzerine ortak araştırmalar yapılmaktadır.",
+      "Siber güvenlik alanındaki yeni tehditlere karşı çözümler geliştirmek için projeler desteklenir."
+    ],
+    "relatedTerms": [
+      "NATO Siber Savunma Politika Belgesi",
+      "NATO Partnerlik ve İşbirliği",
+      "NATO Terörizmle Mücadele"
+    ],
+    "order": 129
   }
 ]

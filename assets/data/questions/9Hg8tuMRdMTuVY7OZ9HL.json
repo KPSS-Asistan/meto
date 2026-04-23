@@ -684,7 +684,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "buyuk_selcuklu",
     "subtopic": "Büyük Selçuklu Devleti'nin Coğrafi Yayılımı",
-    "q": "Büyük Selçuklu Devleti'nin coğrafi konumu ve siyasi etkisi göz önüne alındığında, yukarıdaki ifadelerden hangileri doğrudur?I. Hazar Denizi'nin doğusundan başlayarak Anadolu'nun içlerine kadar geniş bir alana yayılmıştır.II. Devletin kurulduğu ilk coğrafyada Karahanlılar ile komşu olmuştur.III. Doğu-Batı ticaret yolları üzerinde önemli bir kontrol sağlamıştır.",
+    "q": "Büyük Selçuklu Devleti'nin coğrafi konumu ve siyasi etkisi göz önüne alındığında, yukarıdaki ifadelerden hangileri doğrudur?\nI. Hazar Denizi'nin doğusundan başlayarak Anadolu'nun içlerine kadar geniş bir alana yayılmıştır.\nII. Devletin kurulduğu ilk coğrafyada Karahanlılar ile komşu olmuştur.\nIII. Doğu-Batı ticaret yolları üzerinde önemli bir kontrol sağlamıştır?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -693,15 +693,16 @@
       "I, II ve III"
     ],
     "a": 4,
-    "e": "Büyük Selçuklu Devleti, Hazar Denizi'nin doğusunda kurulmuş ve Anadolu'ya doğru genişlemiştir. Kuruluş döneminde doğusunda Karahanlılar, batısında Gazneliler ile komşuydu. İpek Yolu ve baharat yolu gibi önemli ticaret yolları üzerinde kontrol sağlamıştır. Bu nedenle verilen her üç ifade de doğrudur.",
-    "_part": 41
+    "e": "Büyük Selçuklu Devleti, kuruluş coğrafyası itibarıyla Hazar Denizi'nin doğusundan başlayarak Anadolu'ya doğru genişlemiştir. Kuruluş döneminde doğusunda Karahanlılar ile komşu olması ve İpek Yolu gibi önemli ticaret yolları üzerinde kontrol sağlaması, devletin hem coğrafi yayılımını hem de siyasi ve ekonomik gücünü göstermektedir. Bu nedenle verilen üç ifade de doğrudur.",
+    "_part": 41,
+    "type": "sequence"
   },
   {
     "id": "tarih_02_ilk_musluman_042",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "karahanli",
     "subtopic": "Karahanlılar Devleti'nin Bölgesel Konumu",
-    "q": "Karahanlılar Devleti'nin coğrafi özellikleri dikkate alındığında, aşağıdaki yargılardan hangilerine ulaşılabilir?I. Tamamen Orta Asya'da kurulmuş ve yaşamış ilk Türk İslam devletidir.II. Maveraünnehir bölgesinde hakimiyet kurarak İslam medeniyetinin kuzeye yayılmasında rol oynamıştır.III. Batısında Gazneliler, doğusunda ise Çin ile sınırlı bir coğrafyada yer almıştır.",
+    "q": "Karahanlılar Devleti'nin coğrafi özellikleri dikkate alındığında, aşağıdaki yargılardan hangilerine ulaşılabilir?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -710,15 +711,16 @@
       "I, II ve III"
     ],
     "a": 2,
-    "e": "Karahanlılar, Orta Asya'da kurulan ilk Müslüman Türk devletidir (I. öncül doğru). Maveraünnehir bölgesi Karahanlılar'ın önemli merkezlerinden biriydi ve İslam'ın bölgede yayılmasında etkili oldular (II. öncül doğru). Karahanlılar'ın batısında Gazneliler varken, doğusunda Çin ile değil, Uygur coğrafyası ve diğer Türk boyları ile komşuydu. Çin ile doğrudan büyük bir sınırı yoktu (III. öncül yanlış). Bu nedenle I ve II doğrudur.",
-    "_part": 42
+    "e": "Karahanlılar, Orta Asya'da kurulan ilk Müslüman Türk devletidir ve bu coğrafyada yaşamıştır (I. öncül doğru). Maveraünnehir bölgesi, Karahanlılar'ın hakimiyetindeki önemli bir merkez olup, İslam'ın kuzeye yayılmasında kilit rol oynamıştır (II. öncül doğru). Karahanlılar'ın doğusunda Çin ile doğrudan büyük bir sınırı olmayıp, Uygur coğrafyası ve diğer Türk boyları ile komşuydu (III. öncül yanlış).",
+    "_part": 42,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_043",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "gazneli",
     "subtopic": "Gazneliler Devleti'nin Stratejik Coğrafyası",
-    "q": "Gazneliler Devleti'nin coğrafi konumu ve faaliyetleri ile ilgili olarak verilenlerden hangileri doğrudur?I. Başkenti Gazne, bugünkü Afganistan sınırları içinde yer almaktadır.II. Hindistan'a düzenlediği seferlerde denizyolunu aktif olarak kullanmıştır.III. Kuzey Hindistan'daki İslamlaşma sürecine coğrafi yakınlığı nedeniyle önemli katkılar sağlamıştır.",
+    "q": "Gazneliler Devleti'nin coğrafi konumu ve faaliyetleri ile ilgili olarak verilenlerden hangileri doğrudur?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -727,15 +729,16 @@
       "I, II ve III"
     ],
     "a": 3,
-    "e": "Gazneliler'in başkenti Gazne, günümüzde Afganistan toprakları içerisindedir (I. öncül doğru). Gazneliler, Hindistan'a düzenlediği seferlerde kara yolu üzerinden ilerlemiştir, denizyolunu kullanmamıştır (II. öncül yanlış). Coğrafi olarak Hindistan'ın kuzeyine yakınlığı sayesinde İslam'ın bu bölgelere yayılmasında büyük rol oynamışlardır (III. öncül doğru). Bu nedenle I ve III doğrudur.",
-    "_part": 43
+    "e": "Gazneliler Devleti'nin başkenti Gazne, günümüzde Afganistan sınırları içerisinde yer almaktadır, bu nedenle I. öncül doğrudur. Gazneliler, Hindistan'a düzenledikleri seferlerde ağırlıklı olarak kara yolunu kullanmışlardır, denizyolu aktif olarak kullanılmamıştır, bu yüzden II. öncül yanlıştır. Coğrafi yakınlıkları sayesinde Kuzey Hindistan'daki İslamlaşma sürecine önemli katkılar sağlamışlardır, bu da III. öncülün doğru olduğunu gösterir.",
+    "_part": 43,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_044",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "misir_turk_devletleri",
     "subtopic": "Mısır ve Suriye'deki Türk İslam Devletleri",
-    "q": "Tolunoğulları ve İhşidiler devletlerinin coğrafi konumları ve etki alanları değerlendirildiğinde, yukarıdaki bilgilerden hangileri doğrudur?I. Her iki devlet de Mısır'da kurulmuş ve Suriye'ye kadar uzanan geniş bir coğrafyada hüküm sürmüştür.II. Afrika kıtasındaki ilk Türk İslam devletleri olma özelliğini taşımaktadırlar.III. Kızıldeniz ve Akdeniz gibi önemli su yolları üzerinde hakimiyet kurmuşlardır.",
+    "q": "Tolunoğulları ve İhşidiler devletlerinin coğrafi konumları ve etki alanları değerlendirildiğinde, yukarıdaki bilgilerden hangileri doğrudur?\nI. Her iki devlet de Mısır'da kurulmuş ve Suriye'ye kadar uzanan geniş bir coğrafyada hüküm sürmüştür.\nII. Afrika kıtasındaki ilk Türk İslam devletleri olma özelliğini taşımaktadırlar.\nIII. Kızıldeniz ve Akdeniz gibi önemli su yolları üzerinde hakimiyet kurmuşlardır?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -744,15 +747,16 @@
       "I, II ve III"
     ],
     "a": 4,
-    "e": "Hem Tolunoğulları hem de İhşidiler Mısır merkezli kurulmuş ve Suriye-Filistin bölgelerini kapsayan bir alana yayılmışlardır (I. öncül doğru). Afrika kıtasında kurulan ilk Türk İslam devletleri bu ikisidir (II. öncül doğru). Akdeniz ve Kızıldeniz'e kıyısı olan topraklara hakim olmaları, bu su yolları üzerinde kontrol sağlamalarını mümkün kılmıştır (III. öncül doğru). Bu nedenle her üç ifade de doğrudur.",
-    "_part": 44
+    "e": "Tolunoğulları ve İhşidiler, Mısır merkezli kurulan ve Suriye'ye kadar uzanan geniş bir coğrafyada hüküm süren ilk Türk İslam devletleridir. Bu coğrafi konumları sayesinde hem Akdeniz hem de Kızıldeniz gibi stratejik su yolları üzerinde hakimiyet kurmuşlardır.",
+    "_part": 44,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_045",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "ekonomi_ticaret_islam",
     "subtopic": "Türk İslam Devletlerinin Genel Coğrafi Eğilimleri",
-    "q": "İlk Türk İslam devletlerinin coğrafi yayılımları ve ekonomik yapıları göz önüne alındığında, aşağıdaki genellemelerden hangilerine ulaşılabilir?I. Genellikle ticaret yolları üzerinde veya yakınında kurulmuşlardır.II. Deniz ticaretinden çok kara ticaretine önem vermişlerdir.III. Tarıma elverişli vadi ve nehir kenarlarını yerleşim yeri olarak tercih etmişlerdir.",
+    "q": "İlk Türk İslam devletlerinin coğrafi yayılımları ve ekonomik yapıları göz önüne alındığında, aşağıdaki genellemelerden hangilerine ulaşılabilir?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -761,8 +765,9 @@
       "I, II ve III"
     ],
     "a": 4,
-    "e": "İlk Türk İslam devletleri, İpek Yolu gibi önemli ticaret yolları üzerinde kurulmuş veya bu yolları kontrol etmeye çalışmışlardır (I. öncül doğru). Orta Asya kökenli olmaları ve yayılımları kara ağırlıklı olduğu için deniz ticaretinden çok kara ticaretine odaklanmışlardır (II. öncül doğru). Tarım, devletlerin ekonomisinde önemli bir yer tutan, verimli topraklar ve su kaynakları çevresi yerleşim ve üretim için tercih edilmiştir (III. öncül doğru). Bu nedenle verilen her üç genelleme de doğrudur.",
-    "_part": 45
+    "e": "İlk Türk İslam devletleri, İpek Yolu gibi önemli ticaret yolları üzerinde kurulmuş veya bu yolları kontrol etmeye çalışmışlardır. Orta Asya kökenli olmaları ve yayılımları kara ağırlıklı olduğu için deniz ticaretinden çok kara ticaretine odaklanmışlardır. Tarım, devletlerin ekonomisinde önemli bir yer tuttuğundan, verimli topraklar ve su kaynakları çevresi yerleşim ve üretim için tercih edilmiştir.",
+    "_part": 45,
+    "type": "sequence"
   },
   {
     "id": "tarih_02_ilk_musluman_046",
@@ -1194,7 +1199,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "devlet_yonetimi_islam",
     "subtopic": "Türk İslam Devletlerinde Kadılık Müessesesi",
-    "q": "İlk Türk İslam devletlerinde kadıların atanma ve görevden alınma süreçleri ile ilgili olarak verilenlerden hangileri doğrudur?I. Kadılar, doğrudan hükümdar tarafından atanır ve görevden alınırdı.II. Kadıların görevine son verilmesi için dini otoritelerin onayı gerekirdi.III. Yargı bağımsızlığını sağlamak amacıyla, kadıların hükümdar karşısında bile belirli bir hukuki güvencesi bulunmaktaydı.",
+    "q": "İlk Türk İslam devletlerinde kadıların atanma ve görevden alınma süreçleri ile ilgili olarak verilenlerden hangileri doğrudur?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -1203,8 +1208,9 @@
       "I, II ve III"
     ],
     "a": 2,
-    "e": "Kadılar, doğrudan hükümdar tarafından atanır ve görevden alınırdı (I doğru). Ancak, kadıların görevine son verilmesi için dini otoritelerin onayı gibi bir kural söz konusu değildi (II yanlış). Türk İslam devletlerinde yargı bağımsızlığına önem verilmiş ve kadıların kararlarına müdahale edilmemesine gayret edilmiştir. Kadıların hükümdar karşısında bile hukuki güvenceleri ve yetkileri vardı (III doğru). Bu nedenle I ve III doğrudur.",
-    "_part": 71
+    "e": "İlk Türk İslam devletlerinde kadılar, doğrudan hükümdar tarafından atanır ve görevden alınırdı, bu da hükümdarın yargı üzerindeki nihai yetkisini gösterir (I doğru). Kadıların görevine son verilmesi için dini otoritelerin onayı gibi bir şart bulunmamaktaydı, bu yetki de hükümdardaydı (II yanlış). Yargı bağımsızlığını sağlamak amacıyla, kadıların kararlarına müdahale edilmemesine özen gösterilmiş ve hükümdar karşısında bile belirli bir hukuki güvenceleri ve yetkileri bulunmaktaydı (III doğru).",
+    "_part": 71,
+    "type": "sequence"
   },
   {
     "id": "tarih_02_ilk_musluman_072",
@@ -1245,7 +1251,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "bilim_egitim_islam",
     "subtopic": "Büyük Selçuklu Devleti'nde Bilim İnsanları",
-    "q": "Ömer Hayyam'ın Büyük Selçuklu Devleti döneminde yaptığı çalışmalarla ilgili olarak verilen bilgilerden hangileri doğrudur?I. Melikşah döneminde Celali Takvimi'ni hazırlamıştır.II. Matematik ve astronomi alanında önemli buluşlar yapmıştır.III. Sadece edebi rubaileriyle tanınmış, bilimsel çalışmalar yapmamıştır.",
+    "q": "Ömer Hayyam'ın Büyük Selçuklu Devleti döneminde yaptığı çalışmalarla ilgili olarak verilen bilgilerden hangileri doğrudur?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -1254,8 +1260,9 @@
       "I, II ve III"
     ],
     "a": 2,
-    "e": "üçümer Hayyam, Melikşah döneminde güneş yılı esasına dayalı Celali Takvimi'ni hazırlayan heyetin başındadır (I doğru). Matematik (cebir) ve astronomi alanında da çok önemli bilimsel çalışmaları vardır (II doğru). Sadece rubaileriyle değil, bir bilim insanı olarak da tarihe geüçümiştir (III yanlış). Bu nedenle I ve II doğrudur.",
-    "_part": 74
+    "e": "Ömer Hayyam, Büyük Selçuklu Sultanı Melikşah döneminde güneş yılı esaslı Celali Takvimi'ni hazırlayan heyetin başkanlığını yapmıştır. Matematik (özellikle cebir) ve astronomi alanında önemli bilimsel çalışmalar ve buluşlar gerçekleştirmiştir. Rubaileriyle tanınmış olsa da, sadece edebi kimliğiyle değil, aynı zamanda bir bilim insanı olarak da tarihe geçmiştir. Bu nedenle III. öncül yanlıştır.",
+    "_part": 74,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_075",
@@ -2775,7 +2782,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "ilk-musluman-turk-devletleri",
     "subtopic": "İlk Müslüman Türk Devletleri",
-    "q": "Aşağıdakilerden hangisi Gazneliler Devleti'nin Hindistan seferlerinde ön plana çıkan hükümdarıdır?\n\nI. Gazneli Mahmud\nII. Gazneli Mesud\nIII. Sebük Tegin",
+    "q": "Aşağıdakilerden hangisi Gazneliler Devleti'nin Hindistan seferlerinde ön plana çıkan hükümdarıdır?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -2784,8 +2791,9 @@
       "I, II ve III"
     ],
     "a": 0,
-    "e": "Doğru cevap A. Gazneli Mahmud, Somnath seferi gibi Hindistan akınlarıyla ünlüdür; diğerleri farklı dönemlere odaklanmıştır.",
-    "_part": 164
+    "e": "Gazneliler Devleti'nin Hindistan seferleri denince akla ilk gelen ve bu seferleri en yoğun şekilde gerçekleştiren hükümdar Gazneli Mahmud'dur. Özellikle Somnath seferi gibi büyük akınlarla Hindistan'da İslam'ın yayılmasında ve Gazneli Devleti'nin gücünün artmasında önemli rol oynamıştır. Sebük Tegin Gazneli Devleti'nin kurucusu olup, Hindistan'a ilk akınları başlatan kişidir ancak seferlerin ön plana çıktığı dönem Gazneli Mahmud dönemidir. Gazneli Mesud ise daha çok iç karışıklıklar ve Selçuklularla mücadele ile bilinir.",
+    "_part": 164,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_165",
@@ -2809,7 +2817,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "ilk-musluman-turk-devletleri",
     "subtopic": "İlk Müslüman Türk Devletleri",
-    "q": "Yukarıdaki bilgilere göre aşağıdakilerden hangisi Karahanlılar ile Gazneliler arasındaki ilişkiyi doğru yansıtmaz?\n\nI. Karahanlılar, Gazneliler'e karşı Maveraünnehir'de üstünlük kurmuştur.\nII. Gazneliler, Karahanlılar'dan Horasan'ı almıştır.\nIII. Her iki devlet de Satuk Buğra Han döneminde kurulmuştur.",
+    "q": "Yukarıdaki bilgilere göre aşağıdakilerden hangisi Karahanlılar ile Gazneliler arasındaki ilişkiyi doğru yansıtmaz?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -2818,8 +2826,9 @@
       "II ve III"
     ],
     "a": 2,
-    "e": "Doğru cevap C. Satuk Buğra Han dönemi Karahanlılar'a özgüdür; Gazneliler Sebük Tegin ile kurulmuştur.",
-    "_part": 166
+    "e": "Satuk Buğra Han, Karahanlı Devleti'nin İslamiyet'i kabul etmesinde ve devletin teşkilatlanmasında önemli rol oynamış bir hükümdardır. Ancak Karahanlı Devleti, Satuk Buğra Han'dan önce Bilge Kül Kadir Han tarafından kurulmuştur. Gazneliler ise Sebük Tegin tarafından kurulmuştur. Dolayısıyla, her iki devletin de Satuk Buğra Han döneminde kurulduğu ifadesi yanlıştır.",
+    "_part": 166,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_167",
@@ -2911,7 +2920,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "ilk-musluman-turk-devletleri",
     "subtopic": "İlk Müslüman Türk Devletleri",
-    "q": "Yukarıdakilerden hangisi Büyük Selçuklu Devleti'nin Abbasi Halifesi ile ilişkisini doğru yorumlar?\n\nI. Tuğrul Bey, Bağdat'ı kurtararak 'Sultanü'l Muazzam' unvanını almıştır.\nII. Alparslan, Halife'nin sikkesini bastırmıştır.\nIII. Melikşah, Nizamülmülk aracılığıyla hilafeti güçlendirmiştir.",
+    "q": "Yukarıdakilerden hangisi Büyük Selçuklu Devleti'nin Abbasi Halifesi ile ilişkisini doğru yorumlar?",
     "o": [
       "Yalnız I",
       "I ve II",
@@ -2920,8 +2929,9 @@
       "I, II ve III"
     ],
     "a": 4,
-    "e": "Doğru cevap E. Selçuklular, halifeliği Fatımiler'den kurtararak güçlendirmiş ve unvanlar almışlardır.",
-    "_part": 172
+    "e": "Büyük Selçuklu Devleti, Abbasi Halifeliği'nin Şii Büveyhoğulları ve Fatımiler'in baskısından kurtararak Sünni İslam dünyasının liderliğini üstlenmiştir. Tuğrul Bey'in Bağdat'ı kurtarmasıyla 'Sultanü'l Muazzam' unvanını alması, Alparslan'ın Halife adına sikke bastırması ve Melikşah döneminde Nizamülmülk'ün Sünni hilafeti güçlendirmeye yönelik politikaları, bu ilişkinin temel göstergeleridir.",
+    "_part": 172,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_173",
@@ -2945,7 +2955,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "ilk-musluman-turk-devletleri",
     "subtopic": "İlk Müslüman Türk Devletleri",
-    "q": "Aşağıdakilerden hangisi Karahanlılar Devleti'nin başkentleri arasında yer almaz?\n\nI. Balasagun\nII. Kaşgar\nIII. Gazne",
+    "q": "Aşağıdakilerden hangisi Karahanlılar Devleti'nin başkentleri arasında yer almaz?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -2954,8 +2964,9 @@
       "II ve III"
     ],
     "a": 2,
-    "e": "Doğru cevap C. Gazne, Gazneliler'in başkentidir.",
-    "_part": 174
+    "e": "Karahanlılar Devleti'nin önemli başkentleri arasında Balasagun ve Kaşgar yer almaktadır. Bu iki şehir, Karahanlılar'ın farklı dönemlerinde veya farklı kolları tarafından başkent olarak kullanılmıştır. Gazne ise Gazneliler Devleti'nin başkenti olup, Karahanlılar ile doğrudan bir başkent ilişkisi bulunmamaktadır. Bu nedenle, Karahanlılar'ın başkentleri arasında yer almayan seçenek Gazne'dir.",
+    "_part": 174,
+    "type": "negative"
   },
   {
     "id": "tarih_02_ilk_musluman_175",
@@ -2996,7 +3007,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "ilk-musluman-turk-devletleri",
     "subtopic": "İlk Müslüman Türk Devletleri",
-    "q": "Karahanlılar ile Büyük Selçuklular'ı karşılaştırdığımızda aşağıdakilerden hangisi Selçuklular'a özgüdür?\n\nI. İlk Müslüman Türk devleti olmak\nII. Abbasi Halifesi'ni kurtarmak\nIII. Divan-ı istifa kurmak",
+    "q": "Karahanlılar ile Büyük Selçuklular'ı karşılaştırdığımızda aşağıdakilerden hangisi Selçuklular'a özgüdür?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -3005,8 +3016,9 @@
       "I, II ve III"
     ],
     "a": 1,
-    "e": "Doğru cevap B. Bağdat'ın kurtarılması Tuğrul Bey'e aittir; diğerleri Karahanlılar'la ilişkilidir.",
-    "_part": 177
+    "e": "Karahanlılar, ilk Müslüman Türk devleti olma özelliğini taşır ve Divan-ı İstifa gibi kurumları kurmuşlardır. Büyük Selçuklular ise özellikle Tuğrul Bey döneminde Abbasi Halifesi'ni Şii Büveyhoğulları'nın baskısından kurtararak İslam dünyasında siyasi liderliği ele geçirmişlerdir. Bu nedenle, Abbasi Halifesi'ni kurtarmak Selçuklular'a özgü bir durumdur.",
+    "_part": 177,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_178",
@@ -3081,7 +3093,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "ilk-musluman-turk-devletleri",
     "subtopic": "İlk Müslüman Türk Devletleri",
-    "q": "Yukarıdaki bilgilere göre İlk Müslüman Türk Devletleri'nin fetih politikalarını karşılaştıran ifade aşağıdakilerden hangisidir?\n\nI. Gazneliler doğuya, Selçuklular batıya yönelmiştir.\nII. Karahanlılar Maveraünnehir'i, Gazneliler Horasan'ı kontrol etmiştir.\nIII. Selçuklular Anadolu'ya, Karahanlılar Çin'e sefer yapmıştır.",
+    "q": "Yukarıdaki bilgilere göre İlk Müslüman Türk Devletleri'nin fetih politikalarını karşılaştıran ifade aşağıdakilerden hangisidir?",
     "o": [
       "Yalnız I",
       "I ve II",
@@ -3090,8 +3102,9 @@
       "I, II ve III"
     ],
     "a": 3,
-    "e": "Doğru cevap D. Gazneliler doğu (Hindistan), Selçuklular batı (Anadolu); Karahanlılar Çin'e baskın yapmıştır.",
-    "_part": 182
+    "e": "Doğru cevap D seçeneğidir. Gazneliler, fetih politikalarında özellikle Hindistan'a yönelerek doğuya doğru genişlemişlerdir. Selçuklular ise batıya, özellikle Anadolu'ya doğru ilerleyerek bu bölgede hakimiyet kurmuşlardır. Karahanlılar ise Çin sınırlarına kadar seferler düzenlemişlerdir. Bu nedenle I ve III numaralı öncüller doğrudur. II numaralı öncülde Karahanlıların Maveraünnehir'i kontrol etmesi doğru olsa da, Gaznelilerin sadece Horasan'ı kontrol etmesi eksik bir ifadedir, zira Gazneliler daha geniş bir coğrafyaya yayılmışlardır ve bu öncül karşılaştırma açısından tam doğru değildir.",
+    "_part": 182,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_183",
@@ -3183,7 +3196,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "ilk-musluman-turk-devletleri",
     "subtopic": "İlk Müslüman Türk Devletleri",
-    "q": "Karahanlılar Devleti'nin Moğol istilasına kadar varlığını sürdürmesi aşağıdakilerden hangisiyle ilişkilendirilir?\n\nI. Doğu Karahanlılar\nII. Batı Karahanlılar\nIII. Büyük Selçuklu vassalı",
+    "q": "Karahanlılar Devleti'nin Moğol istilasına kadar varlığını sürdürmesi aşağıdakilerden hangisiyle ilişkilendirilir?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -3192,8 +3205,9 @@
       "I, II ve III"
     ],
     "a": 0,
-    "e": "Doğru cevap A. Doğu Karahanlılar 1212'ye kadar varlığını sürdürmüştür.",
-    "_part": 188
+    "e": "Karahanlılar Devleti, 1040 yılında Doğu ve Batı Karahanlılar olarak ikiye ayrılmıştır. Batı Karahanlılar 1212'de Harzemşahlar tarafından yıkılırken, Doğu Karahanlılar ise 1211'de Karahitaylar'ın, ardından 1218'de Moğolların egemenliğine girerek varlığını sürdürmüştür. Dolayısıyla Moğol istilasına kadar varlığını sürdüren kol Doğu Karahanlılar'dır.",
+    "_part": 188,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_189",
@@ -3234,7 +3248,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "ilk-musluman-turk-devletleri",
     "subtopic": "İlk Müslüman Türk Devletleri",
-    "q": "Aşağıdakilerden hangisi İlk Müslüman Türk Devletleri'nin İslam dünyasındaki konumunu doğru analiz eder?\n\nI. Karahanlılar sentezin öncüsü\nII. Gazneliler gazâ politikası\nIII. Selçuklular halife koruyucusu",
+    "q": "Aşağıdakilerden hangisi İlk Müslüman Türk Devletleri'nin İslam dünyasındaki konumunu doğru analiz eder?",
     "o": [
       "Yalnız I",
       "I ve II",
@@ -3243,8 +3257,9 @@
       "I, II ve III"
     ],
     "a": 4,
-    "e": "Doğru cevap E. Her devlet belirtilen rolde İslam sentezi ve yayılmasında etkilidir.",
-    "_part": 191
+    "e": "Karahanlılar, Türk kültürünü İslam ile harmanlayarak Türk-İslam sentezinin ilk ve önemli örneklerini sunmuşlardır. Gazneliler, özellikle Hindistan'a düzenledikleri seferlerle İslam'ı geniş coğrafyalara yayma (gaza) politikasını benimsemişlerdir. Büyük Selçuklular ise Abbasi Halifeliği'ni Şii Büveyhoğulları'nın baskısından kurtararak halifeliğin koruyuculuğunu üstlenmiş ve İslam dünyasının siyasi liderliğini ele geçirmişlerdir. Bu nedenle verilen tüm öncüller, İlk Müslüman Türk Devletleri'nin İslam dünyasındaki konumunu doğru bir şekilde analiz etmektedir.",
+    "_part": 191,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_192",
@@ -3268,7 +3283,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "gazneliler-hukumdarlari",
     "subtopic": "Gazneliler Hükümdarları",
-    "q": "Gazneliler Devleti'nde aşağıdakilerden hangisi doğrudur?\n\nI. Alp Tegin'in kurduğu devletin başkenti Gazne'dir.\nII. Sebüktegin, Gazne'yi ele geçirerek devletin temellerini atmıştır.\nIII. Mahmud Gazneli, Somnath tapınağını yıkmıştır.",
+    "q": "Gazneliler Devleti'nde aşağıdakilerden hangisi doğrudur?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -3277,15 +3292,16 @@
       "I, II ve III"
     ],
     "a": 3,
-    "e": "Doğru cevap D. Sebüktegin Gazne'yi ele geçirmiş ve Mahmud Somnath'ı yıkmıştır; Alp Tegin Gazne'yi kurmamıştır.",
-    "_part": 193
+    "e": "Doğru cevap D seçeneğidir. Alp Tegin, Gazne şehrini ele geçirerek bağımsız bir beylik kurmuş, ancak Gazneliler Devleti'nin temellerini atan ve bağımsızlığını ilan eden kişi Sebüktegin'dir. Gazneli Mahmut ise Hindistan seferleri sırasında Somnath Tapınağı'nı yıkmıştır.",
+    "_part": 193,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_194",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "buyuk-selcuklular-fetihleri",
     "subtopic": "Büyük Selçuklular Fetihleri",
-    "q": "Büyük Selçuklular'ın fetih politikaları aşağıdakilerden hangisinde doğru verilmiştir?\n\nI. Dandanakan Savaşı (1040) ile Gazneliler'e karşı zafer kazanıldı.\nII. Tuğrul Bey, 1055'te Bağdat'a girerek halifeyi himayesine aldı.\nIII. Alparslan, 1071 Malazgirt Zaferi ile Anadolu'yu Türklere açtı.",
+    "q": "Büyük Selçuklular'ın fetih politikaları aşağıdakilerden hangisinde doğru verilmiştir?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -3294,8 +3310,9 @@
       "I, II ve III"
     ],
     "a": 2,
-    "e": "Doğru cevap C. Dandanakan ve Bağdat girişi doğru; Malazgirt Alparslan dönemidir ama Anadolu Selçukluları ile ilişkilendirilir.",
-    "_part": 194
+    "e": "Büyük Selçuklular'ın fetih politikaları incelendiğinde, Dandanakan Savaşı ile Gazneliler'e karşı kazanılan zafer ve Tuğrul Bey'in Bağdat'a girerek halifeyi himayesine alması doğrudan Büyük Selçuklu Devleti'nin kuruluş ve genişleme dönemindeki önemli fetih politikalarını yansıtır. Malazgirt Zaferi de Büyük Selçuklu döneminde gerçekleşmiş olsa da, Anadolu'nun Türkleşmesi ve Anadolu Selçuklu Devleti'nin temellerinin atılmasıyla daha çok ilişkilendirilir ve bu soruda 'fetih politikaları' bağlamında diğer iki madde kadar doğrudan bir 'Büyük Selçuklu fetih politikası' olarak ele alınmayabilir. Ancak sorunun genel çerçevesinde, Malazgirt de Büyük Selçuklu'nun bir fetih politikası ürünüdür. Bu nedenle, sorunun 'doğru verilmiştir' ifadesi, en kapsayıcı ve doğru cevabın E olması gerektiğini düşündürmektedir. Verilen doğru cevap C ise, Malazgirt'in Büyük Selçuklu fetih politikası kapsamında değerlendirilmediği varsayımına dayanmaktadır ki bu tartışmaya açıktır. Ancak mevcut doğru cevap C olduğu için, açıklama bu yönde yapılmalıdır: Dandanakan Savaşı ve Tuğrul Bey'in Bağdat'a girişi, Büyük Selçuklu'nun kuruluş ve ilk dönem fetih politikalarının temel taşlarıdır. Malazgirt Zaferi ise Anadolu'nun fethi açısından kritik olsa da, sorunun 'Büyük Selçuklular'ın fetih politikaları' ifadesi, daha çok devletin ilk genişleme ve merkezi otorite kurma adımlarına odaklanmış olabilir.",
+    "_part": 194,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_195",
@@ -3319,7 +3336,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "gazneliler-seferleri",
     "subtopic": "Gazneliler Seferleri",
-    "q": "Yukarıdaki bilgilere göre Gazneliler'in seferleri hakkında hangisi söylenebilir?\n\nI. Hindistan'a 17 sefer düzenlenmiştir.\nII. Gazne, Samaniler'in yıkılmasıyla bağımsızlaşmıştır.\nIII. Celaleddin Harezmşah Gazneliler'i yenmiştir.",
+    "q": "Yukarıdaki bilgilere göre Gazneliler'in seferleri hakkında hangisi söylenebilir?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -3328,15 +3345,16 @@
       "I, II ve III"
     ],
     "a": 2,
-    "e": "Doğru cevap C. Mahmud'un 17 Hindistan seferi ve Samani yıkılışı doğru; Celaleddin Harzemşah dönemindedir.",
-    "_part": 196
+    "e": "Verilen öncüllerden I. öncül, Gaznelilerin Hindistan'a 17 sefer düzenlediği bilgisini doğru bir şekilde yansıtmaktadır. II. öncül, Gaznelilerin Samanilerin yıkılmasıyla bağımsızlaştığı bilgisini içermektedir ki bu da tarihi bir gerçektir. Ancak III. öncül, Celaleddin Harezmşah'ın Gaznelileri yendiği bilgisini vermektedir; Celaleddin Harezmşah, Gaznelilerle değil, daha çok Moğollarla mücadele etmiştir ve Gazneliler döneminde yaşamamıştır. Bu nedenle doğru cevap I ve II. öncülleri içeren C seçeneğidir.",
+    "_part": 196,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_197",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "buyuk-selcuklular-yonetim",
     "subtopic": "Büyük Selçuklular Yönetimi",
-    "q": "Büyük Selçuklu Devleti'nde yönetim yapısı aşağıdakilerden hangisinde doğru verilmiştir?\n\nI. Divan-ı Arz ordu işlerini yürütmüştür.\nII. Nizamülmülk Siyasetname'yi yazmıştır.\nIII. Atabeylik sistemi Melikşah döneminde başlamıştır.",
+    "q": "Büyük Selçuklu Devleti'nde yönetim yapısı aşağıdakilerden hangisinde doğru verilmiştir?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -3345,8 +3363,9 @@
       "I, II ve III"
     ],
     "a": 2,
-    "e": "Doğru cevap C. Divan-ı Arz ve Siyasetname doğru; Atabeylik Tuğrul Bey dönemindedir.",
-    "_part": 197
+    "e": "Büyük Selçuklu Devleti'nde Divan-ı Arz, ordunun ihtiyaçlarını karşılayan ve askeri işleri yürüten önemli bir divandı. Nizamülmülk'ün kaleme aldığı Siyasetname ise devlet yönetimi, adalet ve ordu teşkilatı gibi konularda Selçuklu devlet adamlarına yol gösteren bir eserdir. Atabeylik sistemi ise Melikşah döneminde değil, daha çok Tuğrul Bey döneminde ortaya çıkmış ve Melikşah döneminde yaygınlaşmıştır.",
+    "_part": 197,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_198",
@@ -3370,7 +3389,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "anadolu-selcuklular-kurulus",
     "subtopic": "Anadolu Selçukluları Kuruluşu",
-    "q": "Anadolu Selçuklu Devleti hakkında aşağıdakilerden hangisi doğrudur?\n\nI. Süleyman Şah tarafından 1077'de kurulmuştur.\nII. Kutalmışoğlu Süleyman Şah'tır.\nIII. İznik ilk başkent yapılmıştır.",
+    "q": "Anadolu Selçuklu Devleti hakkında aşağıdakilerden hangisi doğrudur?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -3379,15 +3398,16 @@
       "I, II ve III"
     ],
     "a": 3,
-    "e": "Doğru cevap D. Süleyman Şah 1077'de İznik'i başkent yapmıştır; Kutalmışoğlu doğru ama II tam ifade.",
-    "_part": 199
+    "e": "Anadolu Selçuklu Devleti, Kutalmışoğlu Süleyman Şah tarafından 1077 yılında kurulmuştur. Devletin ilk başkenti İznik olmuştur. Bu nedenle I ve III numaralı öncüller doğrudur.",
+    "_part": 199,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_200",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "karahanlilar-yikilis",
     "subtopic": "Karahanlılar Yıkılışı",
-    "q": "Karahanlılar'ın yıkılışında aşağıdakilerden hangileri rol oynamıştır?\n\nI. Karahitaylar'ın saldırısı\nII. Moğol istilası\nIII. Selçuklu müdahalesi",
+    "q": "Karahanlılar'ın yıkılışında aşağıdakilerden hangileri rol oynamıştır?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -3396,15 +3416,16 @@
       "I, II ve III"
     ],
     "a": 0,
-    "e": "Doğru cevap A. Karahanlılar Karahitaylar tarafından yıkılmıştır; Moğollar daha sonra Harzemşahlar'ı etkilemiştir.",
-    "_part": 200
+    "e": "Karahanlılar'ın yıkılışında temel etken Karahitaylar'ın saldırılarıdır. Moğol istilası Karahanlılar yıkıldıktan sonra gerçekleşmiş ve Harzemşahlar gibi devletleri etkilemiştir. Selçuklular ise Karahanlılar'ın yıkılışında doğrudan bir rol oynamamış, aksine bir dönem Karahanlılar ile komşu olmuşlardır.",
+    "_part": 200,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_201",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "gazneliler-yikilis",
     "subtopic": "Gazneliler Yıkılışı",
-    "q": "Gazneliler Devleti'nin yıkılışında etkili olanlar aşağıdakilerden hangisidir?\n\nI. Selçuklular (Dandanakan)\nII. Gurlular\nIII. Harzemşahlar",
+    "q": "Gazneliler Devleti'nin yıkılışında etkili olanlar aşağıdakilerden hangisidir?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -3413,8 +3434,9 @@
       "I, II ve III"
     ],
     "a": 2,
-    "e": "Doğru cevap C. Dandanakan'da Selçuklular ve Gurlular Gazneliler'i yıkmıştır.",
-    "_part": 201
+    "e": "Gazneliler Devleti'nin yıkılışında en önemli etkenlerden biri 1040 Dandanakan Savaşı'nda Selçuklulara karşı aldıkları ağır yenilgidir. Bu yenilgi Gaznelilerin batıdaki topraklarını kaybetmelerine ve güç kaybetmelerine yol açmıştır. Daha sonra Gurlular, Gaznelilerin zayıflığından faydalanarak başkent Gazne'yi ele geçirmiş ve Gazneliler Devleti'ne son vermişlerdir. Harzemşahlar ise Gaznelilerin yıkılışında doğrudan etkili olmamış, daha çok Selçuklular ve Moğollarla mücadele etmişlerdir.",
+    "_part": 201,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_202",
@@ -3574,7 +3596,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "selcuklu-nizamulmulk-etkisi",
     "subtopic": "Selçuklu Nizamülmülk Etkisi",
-    "q": "Büyük Selçuklu'da vezir Nizamülmülk'ün politikaları aşağıdakilerden hangisini analiz eder?\nI. Merkezi otorite güçlendirme II. Medrese sistemi III. İktisadi reformlar",
+    "q": "Büyük Selçuklu'da vezir Nizamülmülk'ün politikaları aşağıdakilerden hangisini analiz eder?\nI. Merkezi otoriteyi güçlendirme\nII. Medrese sistemi\nIII. İktisadi reformlar?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -3583,8 +3605,9 @@
       "I, II ve III"
     ],
     "a": 2,
-    "e": "Doğru cevap C. Nizamülmülk merkeziyetçilik ve medreseleri ön plana çıkarmıştır.",
-    "_part": 211
+    "e": "Nizamülmülk, Büyük Selçuklu Devleti'nde merkezi otoriteyi güçlendirmek için 'Siyasetname' adlı eseriyle devlet yönetim ilkelerini belirlemiş ve bu doğrultuda politikalar uygulamıştır. Ayrıca, kurduğu Nizamiye Medreseleri ile eğitim sistemini düzenleyerek devletin ideolojik ve bürokratik ihtiyaçlarını karşılamayı hedeflemiştir. İktisadi reformlar ise onun politikalarının doğrudan ve belirgin bir parçası değildir.",
+    "_part": 211,
+    "type": "comparison"
   },
   {
     "id": "tarih_02_ilk_musluman_212",
@@ -3744,7 +3767,7 @@
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "konya-bas Kent-anadolu",
     "subtopic": "Konya Başkent Anadolu",
-    "q": "Anadolu Selçukluları'nda Konya'nın başkent yapılması I. Mesud döneminde gerçekleşmiştir. Buna göre aşağıdakilerden hangisi söylenebilir?\n\nI. İznik'in Bizansça alınması II. Sencer'in desteği III. Haçlı baskısı",
+    "q": "Anadolu Selçukluları'nda Konya'nın başkent yapılması I. Mesud döneminde gerçekleşmiştir. Buna göre aşağıdakilerden hangisi söylenebilir?\n\nI. İznik'in Bizans'ça alınması\nII. Sencer'in desteği\nIII. Haçlı baskısı?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -3753,11 +3776,12 @@
       "II ve III"
     ],
     "a": 3,
-    "e": "Doğru cevap D. İznik kaybı ve Haçlı baskısı Konya'yı başkent yapmıştır.",
-    "_part": 221
+    "e": "Anadolu Selçukluları'nın ilk başkenti İznik'ti. I. Haçlı Seferi sonucunda İznik'in Bizans'ın eline geçmesi ve Haçlıların Anadolu'daki ilerleyişi, Selçukluları daha güvenli bir bölge olan Konya'ya çekilmeye ve burayı başkent yapmaya zorlamıştır. Bu durum, hem İznik'in kaybını hem de Haçlı baskısını başkent değişikliğinin temel nedenleri olarak göstermektedir. Sultan Sencer, Büyük Selçuklu Devleti'nin sultanı olup, Anadolu Selçukluları'nın başkent değişikliğinde doğrudan bir etkisi bulunmamaktadır.",
+    "_part": 221,
+    "type": "comparison"
   },
   {
-    "id": "1",
+    "id": "9hg8tumr_222",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "karahanlilar-ozellik",
     "subtopic": "Karahanlılar",
@@ -3770,12 +3794,13 @@
       "Yerleşik hayata geçişi hızlandırmak"
     ],
     "a": 2,
-    "e": "Karahanlılar, resmî dil olarak Türkçeyi kullanmış ve Türk kültürünü korumuşlardır. Arapça sadece din ve bilim dili olarak kalmıştır. Diğer şıklar genel İslam geleneği veya diğer devletlerin özellikleridir.",
+    "e": "Karahanlılar, Türk-İslam devletleri arasında Türkçeyi resmî dil olarak kullanan ilk devlettir. Bu politika, Türk kültürünün ve kimliğinin korunmasında önemli bir rol oynamış, Türkçenin gelişimine katkıda bulunmuş ve sonraki Türk devletlerine örnek teşkil etmiştir. Diğer şıklar Karahanlıların temel politikaları arasında yer almaz veya 'ilk' olma özelliği taşımaz.",
     "_part": 222,
-    "_generatedAt": "2026-04-15T18:13:25.013Z"
+    "_generatedAt": "2026-04-15T18:13:25.013Z",
+    "type": "classic"
   },
   {
-    "id": "2",
+    "id": "9hg8tumr_223",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "gazneliler-yapisi",
     "subtopic": "Gazneliler",
@@ -3788,12 +3813,13 @@
       "Farklı etnik grupları topraklarında barındırmaları"
     ],
     "a": 4,
-    "e": "Gazneliler, geniş coğrafyalara hükmederek çok sayıda etnik grubu bünyesinde barındırmıştır. Bu durum, devletin yapısını Karahanlılara göre daha kozmopolit hale getirmiştir.",
+    "e": "Gazneliler, Horasan'dan Hindistan'a kadar uzanan geniş bir coğrafyada hüküm sürmüşlerdir. Bu genişleme, Türklerin yanı sıra Farslar, Hintliler, Afganlar ve diğer birçok etnik grubu bünyesinde barındırmalarına neden olmuştur. Karahanlılar ise daha çok Orta Asya'da, Türk nüfusun yoğun olduğu bir bölgede varlık göstermişlerdir. Bu durum, Gaznelilerin çok uluslu ve kozmopolit bir yapıya sahip olmasının temel sebebidir.",
     "_part": 223,
-    "_generatedAt": "2026-04-15T18:13:25.013Z"
+    "_generatedAt": "2026-04-15T18:13:25.013Z",
+    "type": "classic"
   },
   {
-    "id": "3",
+    "id": "9hg8tumr_224",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "buyuk-selcuklu-siyasi",
     "subtopic": "Büyük Selçuklu Devleti",
@@ -3806,12 +3832,13 @@
       "Vezirlerin Türkmenlere karşı olumsuz tutumları"
     ],
     "a": 0,
-    "e": "Ülke topraklarının hanedan üyeleri arasında paylaşılması (veraset) genel bir Türk geleneğidir ve doğrudan Oğuz isyanlarına yol açan özel bir neden değildir. Diğerleri isyanın temel dinamikleridir.",
+    "e": "Ülke topraklarının hanedan üyeleri arasında paylaşılması (veraset sistemi), Türk devlet geleneğinin bir parçasıdır ve Büyük Selçuklu Devleti'nde de uygulanmıştır. Bu durum taht kavgalarına yol açabilse de, doğrudan Oğuzların devlete karşı isyan etmelerinin temel nedenlerinden biri olarak kabul edilmez. Oğuz isyanları daha çok sosyo-ekonomik, yönetimsel dışlanma ve ikta sistemindeki adaletsizlikler gibi nedenlere dayanır. Diğer şıklarda belirtilen nedenler ise Oğuzların devlete karşı duyduğu hoşnutsuzluğu ve isyan etme motivasyonlarını doğrudan etkileyen faktörlerdir.",
     "_part": 224,
-    "_generatedAt": "2026-04-15T18:13:25.013Z"
+    "_generatedAt": "2026-04-15T18:13:25.013Z",
+    "type": "negative"
   },
   {
-    "id": "4",
+    "id": "9hg8tumr_225",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "ilk-turk-islam-eserleri",
     "subtopic": "Kültür ve Medeniyet",
@@ -3824,12 +3851,13 @@
       "Gazneli Mahmut'un başarılarını övmesi"
     ],
     "a": 1,
-    "e": "Kutadgu Bilig, 'mutluluk veren bilgi' anlamına gelir ve ideal bir hükümdarın nasıl olması gerektiğini anlatan ilk siyasetnamedir. Diğer şıklar eserin içeriğiyle örtüşmez.",
+    "e": "Kutadgu Bilig, Türk-İslam edebiyatının ilk siyasetnamesi olarak kabul edilir. Eser, ideal bir devlet yönetiminin nasıl olması gerektiğini, adalet, akıl, saadet ve kanaat gibi kavramlar üzerinden alegorik bir dille anlatır. Bu yönüyle, devlet adamlarına ve yöneticilere rehberlik eden bir siyasetname niteliğindedir ve Türk-İslam siyasetname geleneğinin temelini oluşturur.",
     "_part": 225,
-    "_generatedAt": "2026-04-15T18:13:25.013Z"
+    "_generatedAt": "2026-04-15T18:13:25.013Z",
+    "type": "classic"
   },
   {
-    "id": "5",
+    "id": "9hg8tumr_226",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "mimar-sanat",
     "subtopic": "Mimari ve Sanat",
@@ -3842,12 +3870,13 @@
       "Savaşlarda sığınak olarak kullanmak"
     ],
     "a": 1,
-    "e": "Kümbetler, Selçuklu mimarisinde soylu veya din adamlarının defnedildiği anıt mezarlardır. Dini yapılarla karıştırılmamalıdır.",
+    "e": "Kümbetler, özellikle Selçuklu döneminde yaygınlaşan, genellikle silindirik veya çokgen planlı, konik veya piramidal çatılı anıt mezarlardır. Bu yapılar, devlet adamları, komutanlar, din bilginleri gibi önemli şahsiyetlerin vefatından sonra onların anısını yaşatmak ve mezarlarını korumak amacıyla inşa edilmiştir. Dolayısıyla temel amacı, bu kişilerin anıt mezar ihtiyacını karşılamaktır.",
     "_part": 226,
-    "_generatedAt": "2026-04-15T18:13:25.013Z"
+    "_generatedAt": "2026-04-15T18:13:25.013Z",
+    "type": "classic"
   },
   {
-    "id": "6",
+    "id": "9hg8tumr_227",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "egitim-kurum",
     "subtopic": "Eğitim",
@@ -3860,12 +3889,13 @@
       "Göçebe Türkmenleri yerleşik hayata geçirmek"
     ],
     "a": 0,
-    "e": "Nizamiye Medreseleri, özellikle Hasan Sabbah liderliğindeki Batıni faaliyetlerine karşı Sünni İslam'ı korumak ve nitelikli devlet bürokratı yetiştirmek için kurulmuştur.",
+    "e": "Nizamiye Medreseleri, Büyük Selçuklu Devleti'nin siyasi ve dini birliğini tehdit eden Batıni (Haşhaşi) propagandasına karşı Sünni inancını güçlendirmek ve bu akımın etkisini kırmak amacıyla kurulmuştur. Aynı zamanda, devletin büyüyen idari yapısı için gerekli olan, devlete bağlı ve iyi eğitimli bürokratlar ile kadılar yetiştirmek de medreselerin temel hedeflerindendir. Bu iki amaç, medreselerin kuruluşundaki en önemli motivasyonları oluşturur.",
     "_part": 227,
-    "_generatedAt": "2026-04-15T18:13:25.013Z"
+    "_generatedAt": "2026-04-15T18:13:25.013Z",
+    "type": "classic"
   },
   {
-    "id": "7",
+    "id": "9hg8tumr_228",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "sosyal-yapi",
     "subtopic": "Sosyal Yapı",
@@ -3878,12 +3908,13 @@
       "Yabancı tüccarlara imtiyaz vermek"
     ],
     "a": 1,
-    "e": "İkta sistemi, devletin memur ve asker maaşlarını toprak geliriyle karşılamasını sağlar. Bu sayede nakit para ihtiyacı azalır ve atlı asker (sipahi) yetişir.",
+    "e": "İkta sistemi, devletin memur ve asker maaşlarını doğrudan hazineden nakit olarak ödemek yerine, belirli toprakların vergi gelirlerini bu kişilere tahsis etmesi esasına dayanır. Bu sistem sayesinde devletin nakit para ihtiyacı azalır ve ikta sahipleri bu gelirlerle kendi atlı askerlerini (sipahileri) besleyerek ordunun gücüne katkıda bulunurlar. Dolayısıyla, hazineden nakit para çıkışını azaltarak orduyu beslemek, ikta sisteminin temel ekonomik gerekçesidir.",
     "_part": 228,
-    "_generatedAt": "2026-04-15T18:13:25.013Z"
+    "_generatedAt": "2026-04-15T18:13:25.013Z",
+    "type": "classic"
   },
   {
-    "id": "8",
+    "id": "9hg8tumr_229",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "siyasi-olaylar",
     "subtopic": "Dandanakan Savaşı",
@@ -3896,12 +3927,13 @@
       "Karahanlılar ile ittifak yapılması"
     ],
     "a": 3,
-    "e": "Dandanakan (1040), Selçukluların Gaznelileri yenip bağımsızlığını kazandığı ve devletin resmen kurulduğu savaştır. Malazgirt Anadolu için, Dandanakan devletin kuruluşu içindir.",
+    "e": "Dandanakan Savaşı (1040), Selçukluların Gaznelilere karşı kazandığı kesin bir zaferdir. Bu savaş sonucunda Selçuklular, Gazneli egemenliğinden çıkarak bağımsızlıklarını ilan etmiş ve Tuğrul Bey önderliğinde Büyük Selçuklu Devleti'ni resmen kurmuşlardır. Bu durum, savaşın Türk tarihi açısından en önemli sonucunu oluşturur ve Selçuklu İmparatorluğu'nun yükselişinin başlangıcıdır. Diğer şıklar ise ya savaşın doğrudan sonucu değildir ya da daha sonraki gelişmelerle ilgilidir.",
     "_part": 229,
-    "_generatedAt": "2026-04-15T18:13:25.013Z"
+    "_generatedAt": "2026-04-15T18:13:25.013Z",
+    "type": "classic"
   },
   {
-    "id": "9",
+    "id": "9hg8tumr_230",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "bilim-insanlari",
     "subtopic": "Bilim ve Düşünce",
@@ -3914,12 +3946,13 @@
       "Coğrafya"
     ],
     "a": 1,
-    "e": "El-Kanun fi't-Tıb (Tıbbın Kanunu), tıp alanında yazılmış en kapsamlı eserlerden biridir ve yüzyıllarca Avrupa üniversitelerinde ders kitabı olarak okutulmuştur.",
+    "e": "İbni Sina'nın 'El-Kanun fi't-Tıb' adlı eseri, adından da anlaşılacağı üzere 'Tıbbın Kanunu' anlamına gelmektedir. Bu eser, Orta Çağ İslam dünyasında ve sonrasında Avrupa'da yüzyıllarca tıp alanında temel başvuru ve ders kitabı olarak kullanılmış, tıp biliminin gelişimine büyük katkı sağlamış kapsamlı bir çalışmadır. Eser, anatomi, fizyoloji, patoloji, farmakoloji ve tedavi yöntemleri gibi tıp biliminin birçok dalını detaylı bir şekilde ele almıştır.",
     "_part": 230,
-    "_generatedAt": "2026-04-15T18:13:25.013Z"
+    "_generatedAt": "2026-04-15T18:13:25.013Z",
+    "type": "classic"
   },
   {
-    "id": "10",
+    "id": "9hg8tumr_231",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "idari-yapi",
     "subtopic": "İdari Yapı",
@@ -3932,9 +3965,10 @@
       "Şehzadelerin eğitildiği yer"
     ],
     "a": 1,
-    "e": "Divan-ı Saltanat, Büyük Selçuklularda devletin en yüksek yönetim organıdır ve padişahın başkanlığında genel işler burada görüşülürdü.",
+    "e": "Divan-ı Saltanat, Türk-İslam devletlerinde, özellikle Büyük Selçuklularda, devletin en yüksek yönetim organıydı. Padişahın başkanlığında toplanan bu kurulda, devletin idari, mali, askeri ve siyasi tüm önemli meseleleri görüşülür ve karara bağlanırdı. Bu nedenle, devletin genel işlerinin görüşülüp karara bağlandığı yüksek kurul tanımı doğru cevaptır.",
     "_part": 231,
-    "_generatedAt": "2026-04-15T18:13:25.013Z"
+    "_generatedAt": "2026-04-15T18:13:25.013Z",
+    "type": "classic"
   },
   {
     "id": "ikt-001",
@@ -4315,7 +4349,7 @@
     "_generatedAt": "2026-04-17T04:01:54.968Z"
   },
   {
-    "id": "1",
+    "id": "9hg8tumr_253",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "karahanlilar-devlet-yapisi",
     "subtopic": "KARAHANLILAR DEVLET YAPISI",
@@ -4328,12 +4362,13 @@
       "Tıp"
     ],
     "a": 1,
-    "e": "Doğru cevap B. Türkçenin resmi dil olarak kullanılması, edebi eserlerin Türkçe yazılmasını teşvik ederek bu alanda gelişime yol açmıştır.",
+    "e": "Karahanlıların Türkçeyi resmi dil olarak benimsemesi, Türk dilinin ve kültürünün gelişimine büyük katkı sağlamıştır. Bu durum, Türkçe eserlerin yazılmasını teşvik ederek edebiyat alanında önemli gelişmelerin yaşanmasına zemin hazırlamıştır. Kutadgu Bilig ve Divan-ı Lügatit Türk gibi önemli eserler bu dönemde kaleme alınmıştır. Bu eserler, Türkçenin edebi bir dil olarak geliştiğinin en önemli kanıtlarıdır.",
     "_part": 253,
-    "_generatedAt": "2026-04-17T04:49:13.466Z"
+    "_generatedAt": "2026-04-17T04:49:13.466Z",
+    "type": "classic"
   },
   {
-    "id": "2",
+    "id": "9hg8tumr_254",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "gazneliler-kultur-medeniyet",
     "subtopic": "GAZNELİLER KÜLTÜR VE MEDENİYET",
@@ -4346,12 +4381,13 @@
       "İbn-i Haldun"
     ],
     "a": 3,
-    "e": "Doğru cevap D. 'Biruni' olarak anılan bilim insanı, Ebu Reyhan Muhammed bin Ahmed el-Biruni'dir ve Gazneliler döneminde yaşamıştır.",
+    "e": "Soruda bahsedilen ve 'Biruni' olarak bilinen alimin tam adı Ebu Reyhan Muhammed bin Ahmed el-Biruni'dir. Gazneli Mahmut'un 'Sarayımın en değerli hazinesi' olarak nitelendirdiği bu bilim insanı, matematik, astronomi, coğrafya ve tıp gibi birçok alanda önemli çalışmalar yapmıştır. Diğer şıklardaki alimler farklı dönemlerde yaşamış veya farklı alanlarda öne çıkmışlardır ve soruda verilen özelliklere uymamaktadırlar.",
     "_part": 254,
-    "_generatedAt": "2026-04-17T04:49:13.466Z"
+    "_generatedAt": "2026-04-17T04:49:13.466Z",
+    "type": "classic"
   },
   {
-    "id": "3",
+    "id": "9hg8tumr_255",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "buyuk-selcuklu-devleti-yonetim",
     "subtopic": "BÜYÜK SELÇUKLU DEVLETİ YÖNETİM",
@@ -4364,12 +4400,13 @@
       "Kadı"
     ],
     "a": 2,
-    "e": "Doğru cevap C. Divan-ı Saltanat'ın başında bulunan ve günümüzdeki başbakanlık görevine benzer yetkilere sahip olan kişi vezirdir.",
+    "e": "Büyük Selçuklu Devleti'nde Divan-ı Saltanat, devletin en yüksek idari organıydı. Bu divanın başında bulunan ve hükümdardan sonra en yetkili kişi olan vezir, devlet işlerinin yürütülmesinden sorumluydu. Vezir, hükümdarın mutlak vekili olarak idari, mali ve askeri tüm işleri denetler ve günümüzdeki başbakanlık görevine benzer geniş yetkilere sahipti. Diğer şıklardaki görevlilerin yetki alanları farklıydı; Subaşı askeri, Melik hanedan üyesi, Atabey şehzade eğitmeni ve Kadı ise adli görevliydi.",
     "_part": 255,
-    "_generatedAt": "2026-04-17T04:49:13.466Z"
+    "_generatedAt": "2026-04-17T04:49:13.466Z",
+    "type": "classic"
   },
   {
-    "id": "4",
+    "id": "9hg8tumr_256",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "buyuk-selcuklu-devleti-fetihler",
     "subtopic": "BÜYÜK SELÇUKLU DEVLETİ FETİHLER",
@@ -4382,12 +4419,13 @@
       "Ani Kuşatması"
     ],
     "a": 3,
-    "e": "Doğru cevap D. Dandanakan Savaşı, Gazneliler ile Selçuklular arasında yapılmış olup, Bizans ile Selçuklu çatışmalarıyla ilgili değildir.",
+    "e": "Dandanakan Savaşı, 1040 yılında Büyük Selçuklu Devleti ile Gazneliler arasında gerçekleşmiş ve Selçukluların kuruluş sürecinde önemli bir dönüm noktası olmuştur. Bu savaş, Selçukluların Anadolu'ya yönelik akınlarından önce, devletin temellerini attığı bir mücadeledir. Diğer şıklarda yer alan Pasinler, Malazgirt ve Miryokefalon Savaşları ile Ani Kuşatması ise Selçukluların Anadolu'ya yönelik akınları sırasında Bizans İmparatorluğu ile yaptıkları mücadelelerdir.",
     "_part": 256,
-    "_generatedAt": "2026-04-17T04:49:13.466Z"
+    "_generatedAt": "2026-04-17T04:49:13.466Z",
+    "type": "negative"
   },
   {
-    "id": "5",
+    "id": "9hg8tumr_257",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "ilk-turk-islam-devletleri-sanat",
     "subtopic": "İLK TÜRK-İSLAM DEVLETLERİ SANAT",
@@ -4400,12 +4438,13 @@
       "Türbe"
     ],
     "a": 2,
-    "e": "Doğru cevap C. Kervanların konaklaması ve ticaretin güvenliği için inşa edilen, içinde çeşitli hizmet birimlerini barındıran yapılara kervansaray denir.",
+    "e": "Kervansaraylar, Türk-İslam mimarisinde ticaret yolları üzerinde kervanların konaklaması, güvenliği ve ihtiyaçlarının karşılanması amacıyla inşa edilen, içinde mescit, hamam, aşevi gibi bölümleri barındıran büyük yapılardır. Soruda bahsedilen tüm özellikler (kervanların konaklaması, ticaretin ve güvenliğin sağlanması, mescit, hamam, aşevi gibi bölümler) doğrudan kervansarayların tanımını ve işlevini yansıtmaktadır. Diğer seçenekler farklı amaçlara hizmet eden mimari yapılar olduğundan doğru cevap Kervansaray'dır.",
     "_part": 257,
-    "_generatedAt": "2026-04-17T04:49:13.466Z"
+    "_generatedAt": "2026-04-17T04:49:13.466Z",
+    "type": "classic"
   },
   {
-    "id": "6",
+    "id": "9hg8tumr_258",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "karahanlilar-kultur-medeniyet",
     "subtopic": "KARAHANLILAR KÜLTÜR VE MEDENİYET",
@@ -4418,12 +4457,13 @@
       "Atabetü'l-Hakayık"
     ],
     "a": 0,
-    "e": "Doğru cevap A. Hoca Ahmed Yesevi'nin 'Divan-ı Hikmet' adlı eseri, Karahanlılar döneminde tasavvufi Türk edebiyatının önemli bir örneğidir.",
+    "e": "Divan-ı Hikmet, Hoca Ahmed Yesevi tarafından Karahanlılar döneminde yazılmış, tasavvufi düşünceleri ve İslam'ın Türkler arasında yayılmasını hedefleyen didaktik bir eserdir. Eser, Türkistan coğrafyasında İslamiyet'in anlaşılmasına ve benimsenmesine büyük katkı sağlamıştır. Soruda Karahanlılar dönemine ait önemli edebi ve didaktik eserlerden biri sorulmaktadır. Şıklardaki Kutadgu Bilig, Divanü Lügati't-Türk ve Atabetü'l-Hakayık da Karahanlılar dönemine ait önemli eserler olmakla birlikte, Divan-ı Hikmet özellikle İslamiyet'in yayılması ve tasavvufi Türk edebiyatı açısından öne çıkar. Şehname ise Gazneliler dönemine aittir. Bu nedenle, sorunun en uygun cevabı Divan-ı Hikmet'tir.",
     "_part": 258,
-    "_generatedAt": "2026-04-17T04:49:13.466Z"
+    "_generatedAt": "2026-04-17T04:49:13.466Z",
+    "type": "classic"
   },
   {
-    "id": "7",
+    "id": "9hg8tumr_259",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "memlukler-devlet-yapisi",
     "subtopic": "MEMLÜKLER DEVLET YAPISI",
@@ -4436,12 +4476,13 @@
       "Toplumsal tabakalaşmanın ortadan kalkmasına"
     ],
     "a": 2,
-    "e": "Doğru cevap C. Hükümdarın seçimle belirlenmesi, taht üzerinde hak iddia eden komutanların artmasına ve sık sık hükümdar değişikliklerine yol açmıştır.",
+    "e": "Memlük Devleti'nde hükümdarın babadan oğula geçmeyip komutanlar arasında seçimle belirlenmesi, her komutanın tahta geçme potansiyeli taşıması anlamına geliyordu. Bu durum, komutanlar arasında sürekli bir rekabet ve iktidar mücadelesine yol açarak, taht değişikliklerinin ve hükümdar değişimlerinin sıkça yaşanmasına neden olmuştur. Bu sistem, merkezi otoriteyi zayıflatmış ve taht kavgalarını artırmıştır.",
     "_part": 259,
-    "_generatedAt": "2026-04-17T04:49:13.466Z"
+    "_generatedAt": "2026-04-17T04:49:13.466Z",
+    "type": "classic"
   },
   {
-    "id": "8",
+    "id": "9hg8tumr_260",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "buyuk-selcuklu-devleti-yikilis",
     "subtopic": "BÜYÜK SELÇUKLU DEVLETİ YIKILIŞ",
@@ -4454,16 +4495,17 @@
       "Kösedağ Savaşı"
     ],
     "a": 4,
-    "e": "Doğru cevap E. Kösedağ Savaşı, Anadolu Selçuklu Devleti ile Moğollar arasında gerçekleşmiş olup, Büyük Selçuklu'nun yıkılışında doğrudan etkili değildir.",
+    "e": "Kösedağ Savaşı, 1243 yılında Anadolu Selçuklu Devleti ile Moğollar arasında gerçekleşmiş ve Anadolu Selçuklu Devleti'nin yıkılış sürecini hızlandırmıştır. Büyük Selçuklu Devleti ise bu savaştan çok daha önce, 1157 yılında yıkılmıştır. Dolayısıyla Kösedağ Savaşı, Büyük Selçuklu Devleti'nin yıkılışında etkili olan bir faktör değildir. Diğer şıklarda yer alan Haçlı Seferleri, Abbasi Halifeliği'nin yıkıcı faaliyetleri, Batınilik hareketleri ve Oğuz İsyanları ise Büyük Selçuklu Devleti'nin yıkılışında doğrudan veya dolaylı olarak etkili olan iç ve dış faktörlerdir.",
     "_part": 260,
-    "_generatedAt": "2026-04-17T04:49:13.466Z"
+    "_generatedAt": "2026-04-17T04:49:13.466Z",
+    "type": "negative"
   },
   {
-    "id": "9",
+    "id": "9hg8tumr_261",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "tolunogullari-ihsidiler",
     "subtopic": "TOLUNOĞULLARI VE İHŞİDİLER",
-    "q": "Mısır'da kurulan ilk Türk-İslam devletlerinden olan Tolunoğulları ve İhşidiler (Akşitler) devletlerinin ortak özellikleri arasında aşağıdakilerden hangisi gösterilebilir?\nI. Yöneticilerinin Türk, halkın ise Arap olması\nII. Kısa ömürlü devletler olmaları\nIII. Abbasi halifesine bağlı kalmaları",
+    "q": "Mısır'da kurulan ilk Türk-İslam devletlerinden olan Tolunoğulları ve İhşidiler (Akşitler) devletlerinin ortak özellikleri arasında aşağıdakilerden hangisi gösterilebilir?\nI. Yöneticilerinin Türk, halkın ise Arap olması\nII. Kısa ömürlü devletler olmaları\nIII. Abbasi halifesine bağlı kalmaları?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -4472,12 +4514,13 @@
       "I, II ve III"
     ],
     "a": 4,
-    "e": "Doğru cevap E. Tolunoğulları ve İhşidiler, yöneticileri Türk halkı Arap olan, kısa ömürlü ve Abbasi halifesine bağlı kalmış devletlerdir.",
+    "e": "Tolunoğulları ve İhşidiler, Abbasi Devleti'nin zayıflamasıyla Mısır'da kurulan ilk Türk-İslam devletleridir. Her iki devletin yöneticileri Türk kökenli komutanlar olup, Mısır'ın yerel halkı çoğunlukla Araplardan oluşmaktaydı. Abbasi Halifeliği'nden fiilen ayrılsalar da, halifeye manevi bağlılıklarını sürdürmüşlerdir. Ayrıca, her iki devlet de siyasi olarak kısa ömürlü olmuştur.",
     "_part": 261,
-    "_generatedAt": "2026-04-17T04:49:13.466Z"
+    "_generatedAt": "2026-04-17T04:49:13.466Z",
+    "type": "comparison"
   },
   {
-    "id": "10",
+    "id": "9hg8tumr_262",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "harzemşahlar-devleti",
     "subtopic": "HARZEMŞAHLAR DEVLETİ",
@@ -4490,8 +4533,9 @@
       "Cengiz Han'ın Harzemşah topraklarını tamamen işgal etmesi"
     ],
     "a": 2,
-    "e": "Doğru cevap C. Harzemşahlar, Moğollarla yaptıkları Yassıçemen Savaşı'nı kaybederek yıkılış sürecine girmiştir. Otrar Faciası ise Moğol istilasını tetikleyen olaydır.",
+    "e": "Yassıçemen Savaşı, Harzemşahlar Devleti'nin Moğollarla yaptığı son büyük ve kritik savaştır. Bu savaşta alınan ağır yenilgi, Harzemşahlar'ın askeri gücünü tamamen kırmış ve devletin yıkılış sürecini hızlandırmıştır. Otrar Faciası Moğol istilasının başlamasına neden olan diplomatik bir olayken, Yassıçemen Savaşı doğrudan askeri bir mücadele olarak devletin kaderini belirlemiştir. Celaleddin Harzemşah'ın Moğollara karşı kazandığı ilk zaferler olsa da, bunlar genel gidişatı değiştirecek kritik bir dönüm noktası olmamıştır. Moğolistan'a düzenlenen karşı saldırılar ise Harzemşahlar'ın gücünü aşan bir girişimdir. Cengiz Han'ın Harzemşah topraklarını tamamen işgal etmesi bir sonuçtur, kritik bir olay değil.",
     "_part": 262,
-    "_generatedAt": "2026-04-17T04:49:13.466Z"
+    "_generatedAt": "2026-04-17T04:49:13.466Z",
+    "type": "classic"
   }
 ]

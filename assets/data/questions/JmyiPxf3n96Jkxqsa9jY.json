@@ -157,7 +157,7 @@
     "topicId": "JmyiPxf3n96Jkxqsa9jY",
     "subtopicId": "nicel-nitel-anlam",
     "subtopic": "Nicel ve Nitel Anlam",
-    "q": "(I) Şehrin yüksek binaları, gökyüzünü adeta hapsetmişti. (II) Geniş caddelerde insanlar karınca sürüsü gibi görünüyordu. (III) Bu kötü mimari, insanın ruhunu daraltıyordu. (IV) Ağır çantasıyla yürümekte zorlanan bir öğrenci gördüm. (V) Yakın bir gelecekte bu beton yığınından kurtulmayı umuyordum.\n\nNumaralanmış cümlelerdeki altı çizili sözcüklerden hangisi 'nitel' anlamda kullanılmıştır? (Altı çizili sözcükler: I. Yüksek, II. Geniş, III. Kötü, IV. Ağır, V. Yakın)",
+    "q": "(I) Şehrin yüksek binaları, gökyüzünü adeta hapsetmişti. (II) Geniş caddelerde insanlar karınca sürüsü gibi görünüyordu. (III) Bu kötü mimari, insanın ruhunu daraltıyordu. (IV) Ağır çantasıyla yürümekte zorlanan bir öğrenci gördüm. (V) Yakın bir gelecekte bu beton yığınından kurtulmayı umuyordum.\n\nNumaralanmış cümlelerdeki altı çizili sözcüklerden hangisi 'nitel' anlamda kullanılmıştır? (Altı çizili sözcükler: I. Yüksek, II. Geniş, III. Kötü, IV. Ağır, V. Yakın)?",
     "o": [
       "I",
       "II",
@@ -225,7 +225,7 @@
     "topicId": "JmyiPxf3n96Jkxqsa9jY",
     "subtopicId": "bosluk-doldurma",
     "subtopic": "Sözcük Yerleştirme (Boşluk Doldurma)",
-    "q": "Bilim insanları, karmaşık verileri analiz ederken sadece ---- sonuçlara odaklanmamalı, aynı zamanda bu sonuçların altında yatan nedenleri de ---- çalışmalıdır.",
+    "q": "Bilim insanları, karmaşık verileri analiz ederken sadece ---- sonuçlara odaklanmamalı, aynı zamanda bu sonuçların altında yatan nedenleri de ---- çalışmalıdır?",
     "o": [
       "nicel - irdelemeye",
       "yüzeysel - saklamaya",
@@ -395,7 +395,7 @@
     "topicId": "JmyiPxf3n96Jkxqsa9jY",
     "subtopicId": "bosluk-doldurma",
     "subtopic": "Cümlede Boşluk Doldurma",
-    "q": "Bilim insanları, eleştirel düşüncenin gelişmediği toplumlarda, bilginin ---- değil, ---- bir inanç nesnesi haline geleceğini savunurlar.",
+    "q": "Bilim insanları, eleştirel düşüncenin gelişmediği toplumlarda, bilginin ---- değil, ---- bir inanç nesnesi haline geleceğini savunurlar?",
     "o": [
       "sorgulanan - dogmatik",
       "üretilen - durağan",
@@ -633,7 +633,7 @@
     "topicId": "JmyiPxf3n96Jkxqsa9jY",
     "subtopicId": "bosluk-doldurma",
     "subtopic": "Cümlede Anlam (Boşluk Doldurma)",
-    "q": "Bilim insanı, doğadaki olayları gözlemlerken kişisel ....... bir kenara bırakmalı, sadece ....... verilere dayanarak sonuca ulaşmalıdır.",
+    "q": "Bilim insanı, doğadaki olayları gözlemlerken kişisel ....... bir kenara bırakmalı, sadece ....... verilere dayanarak sonuca ulaşmalıdır?",
     "o": [
       "endişelerini - sezgisel",
       "yargılarını - somut",
@@ -854,7 +854,7 @@
     "topicId": "JmyiPxf3n96Jkxqsa9jY",
     "subtopicId": "bosluk-doldurma",
     "subtopic": "Cümlede Boşluk Doldurma",
-    "q": "Sanatçı, eserini oluştururken sadece yaşadığı döneme ---- kalmamalı, aynı zamanda gelecek kuşaklara da ---- bir köprü kurmalıdır.",
+    "q": "Sanatçı, eserini oluştururken sadece yaşadığı döneme ---- kalmamalı, aynı zamanda gelecek kuşaklara da ---- bir köprü kurmalıdır?",
     "o": [
       "bağlı - uzanan",
       "takılı - yıkan",
@@ -956,7 +956,7 @@
     "topicId": "JmyiPxf3n96Jkxqsa9jY",
     "subtopicId": "nicel-nitel",
     "subtopic": "Nicel ve Nitel Anlam",
-    "q": "I. Bu geniş salonda yüzlerce kişi toplanmıştı. II. Geniş hayal dünyasıyla herkesi kendine hayran bırakırdı. III. Yüksek binaların arasından güneş zorlukla görülüyordu. IV. Yüksek idealleri uğruna her türlü zorluğa katlandı. V. Ağır çantayı taşımakta bir hayli zorlandı. Numaralanmış cümlelerin hangilerinde altı çizili sözcükler 'nicel' anlamda kullanılmıştır",
+    "q": "I. Bu geniş salonda yüzlerce kişi toplanmıştı. II. Geniş hayal dünyasıyla herkesi kendine hayran bırakırdı. III. Yüksek binaların arasından güneş zorlukla görülüyordu. IV. Yüksek idealleri uğruna her türlü zorluğa katlandı. V. Ağır çantayı taşımakta bir hayli zorlandı. Numaralanmış cümlelerin hangilerinde altı çizili sözcükler 'nicel' anlamda kullanılmıştır?",
     "o": [
       "I, III ve V",
       "I, II ve IV",
@@ -1058,7 +1058,7 @@
     "topicId": "JmyiPxf3n96Jkxqsa9jY",
     "subtopicId": "sozcukte-anlam-bosluk",
     "subtopic": "Boşluk Doldurma",
-    "q": "Bir yazarın büyüklüğü, ele aldığı konunun evrenselliği kadar o konuyu işlerken kullandığı dilin ---- ile de ölçülür; çünkü sıradan bir konuyu bile ---- bir üslupla şaheser haline getirebilir.",
+    "q": "Bir yazarın büyüklüğü, ele aldığı konunun evrenselliği kadar o konuyu işlerken kullandığı dilin ---- ile de ölçülür; çünkü sıradan bir konuyu bile ---- bir üslupla şaheser haline getirebilir?",
     "o": [
       "yalınlığı - karmaşık",
       "özgünlüğü - büyüleyici",
@@ -1177,7 +1177,7 @@
     "topicId": "JmyiPxf3n96Jkxqsa9jY",
     "subtopicId": "bosluk-doldurma",
     "subtopic": "Cümle Tamamlama (Boşluk Doldurma)",
-    "q": "Bilim insanları, doğadaki karmaşık yapıları ---- için çalışmalarını sürdürürken, bazen hiç beklemedikleri bir anda ---- basit bir gerçekle karşılaşıyorlar.",
+    "q": "Bilim insanları, doğadaki karmaşık yapıları ---- için çalışmalarını sürdürürken, bazen hiç beklemedikleri bir anda ---- basit bir gerçekle karşılaşıyorlar?",
     "o": [
       "yorumlamak - yadsınamaz",
       "çözümlemek - yalın",
@@ -1415,7 +1415,7 @@
     "topicId": "JmyiPxf3n96Jkxqsa9jY",
     "subtopicId": "bosluk-doldurma",
     "subtopic": "Cümlede Boşluk Doldurma",
-    "q": "Bilim insanı, doğadaki olayları ---- bir gözle incelemeli; elde ettiği bulguları kendi ---- süzgecinden geçirmeden olduğu gibi aktarmalıdır.",
+    "q": "Bilim insanı, doğadaki olayları ---- bir gözle incelemeli; elde ettiği bulguları kendi ---- süzgecinden geçirmeden olduğu gibi aktarmalıdır?",
     "o": [
       "eleştirel - duygu",
       "subjektif - mantık",
@@ -1568,7 +1568,7 @@
     "topicId": "JmyiPxf3n96Jkxqsa9jY",
     "subtopicId": "bosluk-doldurma",
     "subtopic": "Cümle Tamamlama",
-    "q": "Modern insan, teknolojinin sunduğu hız sayesinde zamandan tasarruf ettiğini sanıyor; oysa ---- bir yaşamın içinde, kendine ayıracağı vakti ---- tüketiyor.",
+    "q": "Modern insan, teknolojinin sunduğu hız sayesinde zamandan tasarruf ettiğini sanıyor; oysa ---- bir yaşamın içinde, kendine ayıracağı vakti ---- tüketiyor?",
     "o": [
       "dingin - yavaşça",
       "kaotik - hızla",

@@ -1411,5 +1411,457 @@
       "Yargı Denetimi Kapsamı"
     ],
     "order": 88
+  },
+  {
+    "id": "yasama_yetkisinin_devredilmezligi",
+    "term": "Yasama Yetkisinin Devredilmezliği",
+    "definition": "Türkiye Büyük Millet Meclisi'ne (TBMM) ait olan yasama yetkisinin, başka bir organa veya kişiye devredilemeyeceği ilkesidir. Bu ilke, kuvvetler ayrılığı prensibinin bir gereğidir.",
+    "examples": [
+      "TBMM'nin kanun yapma yetkisini Cumhurbaşkanlığına devredememesi.",
+      "Bir bakanlığın, kendi görev alanına giren konularda kanun gücünde düzenleme yapamaması."
+    ],
+    "relatedTerms": [
+      "Kuvvetler Ayrılığı",
+      "Kanunilik İlkesi",
+      "TBMM'nin Görevleri"
+    ],
+    "order": 89
+  },
+  {
+    "id": "yurutme_yetkisi_ve_gorevi",
+    "term": "Yürütme Yetkisi ve Görevi",
+    "definition": "Anayasa ve kanunlara uygun olarak ülkenin yönetilmesi, kamu hizmetlerinin yürütülmesi ve devletin işleyişinin sağlanması yetkisidir. Türkiye'de bu yetki Cumhurbaşkanı tarafından anayasal sınırlar içinde kullanılır.",
+    "examples": [
+      "Cumhurbaşkanının bakanları ataması ve görevden alması.",
+      "Kamu kurum ve kuruluşlarının denetlenmesi ve yönlendirilmesi."
+    ],
+    "relatedTerms": [
+      "Cumhurbaşkanlığı Hükümet Sistemi",
+      "Bakanlar",
+      "İdari Vesayet"
+    ],
+    "order": 90
+  },
+  {
+    "id": "kanunlarin_yuruturluk_tarihi",
+    "term": "Kanunların Yürürlük Tarihi",
+    "definition": "TBMM tarafından kabul edilen kanunların, Resmî Gazete'de yayımlandığı tarihten itibaren veya kanunda belirtilen başka bir tarihte hukuken bağlayıcı hale gelmesidir. Yürürlüğe girmeyen kanunlar uygulanamaz.",
+    "examples": [
+      "Bir kanunun 'yayımı tarihinde yürürlüğe girer' hükmü.",
+      "Kanunun yürürlüğe girişinin belirli bir tarihe ertelenmesi."
+    ],
+    "relatedTerms": [
+      "Resmî Gazete",
+      "Kanun Yapma Süreci",
+      "Hukuki Güvenlik İlkesi"
+    ],
+    "order": 91
+  },
+  {
+    "id": "anayasa_degisikligi_usulu",
+    "term": "Anayasa Değişikliği Usulü",
+    "definition": "Anayasa'nın maddelerinde değişiklik yapılması için izlenmesi gereken özel ve nitelikli usuldür. Kanun yapma sürecinden farklı olarak daha ağırlaştırılmış şartlar içerir.",
+    "examples": [
+      "TBMM'de üçte iki çoğunlukla kabul edilen anayasa değişikliğinin halkoyuna sunulması.",
+      "Cumhurbaşkanının anayasa değişikliği kanununu halkoyuna sunma yetkisi."
+    ],
+    "relatedTerms": [
+      "Nitelikli Çoğunluk",
+      "Halkoylaması",
+      "Anayasanın Üstünlüğü"
+    ],
+    "order": 92
+  },
+  {
+    "id": "bakanlarin_gorev_ve_yetkileri",
+    "term": "Bakanların Görev ve Yetkileri",
+    "definition": "Cumhurbaşkanı tarafından atanan ve Cumhurbaşkanına karşı sorumlu olan bakanların, kendi bakanlıklarının görev alanına giren konularda sahip oldukları yetkilerdir. Cumhurbaşkanlığı Kararnameleri ile düzenlenir.",
+    "examples": [
+      "Milli Eğitim Bakanının eğitim politikalarını belirlemesi.",
+      "Adalet Bakanının yargı reformu çalışmalarını yürütmesi."
+    ],
+    "relatedTerms": [
+      "Cumhurbaşkanı",
+      "Bakanlıklar",
+      "İdari Vesayet"
+    ],
+    "order": 93
+  },
+  {
+    "id": "idari_yargi_kolu",
+    "term": "İdari Yargı Kolu",
+    "definition": "İdarenin eylem ve işlemlerinin hukuka uygunluğunu denetleyen, idare ile kişiler arasındaki uyuşmazlıklara bakan yargı koludur. Danıştay en üst idari yargı organıdır.",
+    "examples": [
+      "Bir kamu görevlisinin atama işleminin iptali için Danıştay'a dava açılması.",
+      "İmar planı değişikliğine karşı açılan iptal davası."
+    ],
+    "relatedTerms": [
+      "Danıştay",
+      "İdari Dava",
+      "Hukuk Devleti"
+    ],
+    "order": 94
+  },
+  {
+    "id": "adli_yargi_kolu",
+    "term": "Adli Yargı Kolu",
+    "definition": "Kişiler arasındaki özel hukuk uyuşmazlıkları ile suç ve ceza davalarına bakan yargı koludur. Yargıtay en üst adli yargı organıdır.",
+    "examples": [
+      "Bir alacak davasının Asliye Hukuk Mahkemesi'nde görülmesi.",
+      "Hırsızlık suçundan açılan ceza davasının Ağır Ceza Mahkemesi'nde yargılanması."
+    ],
+    "relatedTerms": [
+      "Yargıtay",
+      "Ceza Hukuku",
+      "Medeni Hukuk"
+    ],
+    "order": 95
+  },
+  {
+    "id": "uyusmazlik_mahkemesi",
+    "term": "Uyuşmazlık Mahkemesi",
+    "definition": "Adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözümleyen yüksek mahkemedir. Yargı kolları arasındaki yetki çatışmalarını giderir.",
+    "examples": [
+      "Bir davanın hem adli hem de idari yargıda açılması durumunda görevli mahkemenin belirlenmesi.",
+      "Farklı yargı kollarının aynı konuda çelişkili kararlar vermesi."
+    ],
+    "relatedTerms": [
+      "Yargı Kolları",
+      "Görev Uyuşmazlığı",
+      "Hüküm Uyuşmazlığı"
+    ],
+    "order": 96
+  },
+  {
+    "id": "kamu_denetciligi_kurumu",
+    "term": "Kamu Denetçiliği Kurumu (Ombudsmanlık)",
+    "definition": "İdarenin işleyişiyle ilgili şikayetleri inceleyen, idarenin hukuka ve hakkaniyete uygunluğunu denetleyen bağımsız bir denetim mekanizmasıdır. Tavsiye niteliğinde kararlar alır.",
+    "examples": [
+      "Bir vatandaşın idari bir işlemden dolayı şikayetini Kamu Denetçiliği Kurumu'na iletmesi.",
+      "Kurumun, bir kamu hizmetinin sunumundaki aksaklıklar hakkında rapor hazırlaması."
+    ],
+    "relatedTerms": [
+      "İdari Denetim",
+      "Şikayet Hakkı",
+      "İyi Yönetim İlkeleri"
+    ],
+    "order": 97
+  },
+  {
+    "id": "yerel_yonetimlerin_organlari",
+    "term": "Yerel Yönetimlerin Organları",
+    "definition": "İl özel idaresi, belediye ve köy gibi yerel yönetim birimlerinin karar alma ve yürütme organlarıdır. Bu organlar, yerel halkın ihtiyaçlarını karşılamak üzere görev yapar.",
+    "examples": [
+      "Belediye Meclisi'nin bütçeyi onaylaması.",
+      "İl Genel Meclisi'nin ilin kalkınma planlarını görüşmesi."
+    ],
+    "relatedTerms": [
+      "Yerel Yönetimler",
+      "Belediye",
+      "İl Özel İdaresi"
+    ],
+    "order": 98
+  },
+  {
+    "id": "merkezi_idaresinin_tasra_teskilati",
+    "term": "Merkezi İdarenin Taşra Teşkilatı",
+    "definition": "Merkezi idarenin, ülke genelinde kamu hizmetlerini sunmak amacıyla iller ve ilçeler bazında oluşturduğu örgütlenmedir. Vali ve Kaymakam bu teşkilatın başındadır.",
+    "examples": [
+      "Valinin ildeki tüm kamu kurumlarını denetlemesi.",
+      "Kaymakamın ilçedeki kamu düzenini sağlaması."
+    ],
+    "relatedTerms": [
+      "Merkezi İdare",
+      "Vali",
+      "Kaymakam",
+      "İdari Vesayet"
+    ],
+    "order": 99
+  },
+  {
+    "id": "idarenin_kanunsuz_emre_uymama_gorevi",
+    "term": "İdarenin Kanunsuz Emre Uymama Görevi",
+    "definition": "Kamu görevlilerinin, amirlerinden aldıkları emrin kanunlara aykırı olduğunu düşündüklerinde bu emri yerine getirmeme ve durumu amirine bildirme yükümlülüğüdür. Kanunsuz emirde ısrar edilmesi halinde emri yerine getiren de sorumlu olur.",
+    "examples": [
+      "Bir memurun, kanuna aykırı bir atama emrini yerine getirmeyi reddetmesi.",
+      "Bir polisin, hukuka aykırı bir gözaltı emrine uymaması."
+    ],
+    "relatedTerms": [
+      "Kanunilik İlkesi",
+      "Kamu Görevlileri",
+      "Sorumluluk"
+    ],
+    "order": 100
+  },
+  {
+    "id": "olağanüstü_hal_yönetimi",
+    "term": "Olağanüstü Hal Yönetimi",
+    "definition": "Anayasa'da belirtilen savaş, seferberlik, ayaklanma, şiddet olayları gibi durumlarda Cumhurbaşkanı tarafından ilan edilen ve temel hak ve özgürlüklerin kısmen veya tamamen durdurulabildiği özel yönetim rejimidir. OHAL kararı TBMM onayına sunulur.",
+    "examples": [
+      "15 Temmuz darbe girişimi sonrası ilan edilen Olağanüstü Hal.",
+      "Doğal afetler nedeniyle belirli bölgelerde OHAL ilan edilmesi."
+    ],
+    "relatedTerms": [
+      "Cumhurbaşkanlığı Kararnamesi",
+      "Temel Hak ve Özgürlükler",
+      "TBMM Onayı"
+    ],
+    "order": 101
+  },
+  {
+    "id": "milletlerarasi_anlasmalarin_onayi",
+    "term": "Milletlerarası Anlaşmaların Onayı",
+    "definition": "Türkiye Cumhuriyeti adına yabancı devletlerle ve milletlerarası kuruluşlarla yapılacak anlaşmaların TBMM tarafından uygun bulunması ve Cumhurbaşkanı tarafından onaylanması sürecidir. Usulüne göre yürürlüğe konulmuş milletlerarası anlaşmalar kanun hükmündedir.",
+    "examples": [
+      "Paris İklim Anlaşması'nın TBMM tarafından onaylanması.",
+      "Avrupa İnsan Hakları Sözleşmesi'nin Türkiye tarafından imzalanıp onaylanması."
+    ],
+    "relatedTerms": [
+      "TBMM",
+      "Cumhurbaşkanı",
+      "Kanun Hükmü"
+    ],
+    "order": 102
+  },
+  {
+    "id": "kamu_tuzel_kisiligi",
+    "term": "Kamu Tüzel Kişiliği",
+    "definition": "Devletin kendisi dışında, kanunla veya Cumhurbaşkanlığı Kararnamesiyle kurulmuş, kamu gücünü kullanarak kamu hizmeti gören, kendine ait malvarlığı ve bütçesi olan hukuki kişiliklerdir. Merkezi idarenin hiyerarşisi dışında, idari özerkliğe sahiptirler.",
+    "examples": [
+      "Belediyeler, üniversiteler, TRT, YÖK.",
+      "Devlet Su İşleri Genel Müdürlüğü."
+    ],
+    "relatedTerms": [
+      "Merkezi İdare",
+      "Yerinden Yönetim",
+      "İdari Özerklik"
+    ],
+    "order": 103
+  },
+  {
+    "id": "idarenin_mali_sorumlulugu",
+    "term": "İdarenin Mali Sorumluluğu",
+    "definition": "İdarenin, kamu hizmeti yürütürken neden olduğu zararları tazmin etme yükümlülüğüdür. Kusurlu veya kusursuz sorumluluk ilkelerine dayanabilir ve idari yargıda dava konusu edilebilir.",
+    "examples": [
+      "Devlet hastanesinde yapılan hatalı tedavi sonucu hastanın zarar görmesi.",
+      "Karayollarının bakımsızlığı nedeniyle meydana gelen trafik kazası."
+    ],
+    "relatedTerms": [
+      "Tam Yargı Davası",
+      "Kusursuz Sorumluluk",
+      "Hizmet Kusuru"
+    ],
+    "order": 104
+  },
+  {
+    "id": "devlet_denetleme_kurulu",
+    "term": "Devlet Denetleme Kurulu",
+    "definition": "Cumhurbaşkanlığına bağlı olarak çalışan, idarenin hukuka uygunluğunu, düzenli ve verimli bir şekilde yürütülmesini sağlamak amacıyla her türlü idari soruşturma, inceleme ve denetleme yetkisine sahip organdır. Yargı organları bu denetimin dışındadır.",
+    "examples": [
+      "Bir bakanlığın yolsuzluk iddialarıyla ilgili DDK tarafından incelenmesi.",
+      "Kamu kurumlarında verimlilik denetimi yapılması."
+    ],
+    "relatedTerms": [
+      "Cumhurbaşkanlığı",
+      "İdari Soruşturma",
+      "Denetim"
+    ],
+    "order": 105
+  },
+  {
+    "id": "milli_guvenlik_kurulu",
+    "term": "Milli Güvenlik Kurulu",
+    "definition": "Devletin milli güvenlik siyasetinin tayini, tespiti ve uygulanması ile ilgili görüş bildirmek ve tavsiyelerde bulunmak üzere Cumhurbaşkanı başkanlığında toplanan Anayasal organdır. Kararları tavsiye niteliğindedir.",
+    "examples": [
+      "Ülkenin dış politika stratejileri hakkında MGK'da görüşmeler yapılması.",
+      "Terörle mücadele konusunda alınacak önlemlerin MGK'da değerlendirilmesi."
+    ],
+    "relatedTerms": [
+      "Cumhurbaşkanı",
+      "Milli Güvenlik Siyaseti",
+      "Tavsiye Kararı"
+    ],
+    "order": 106
+  },
+  {
+    "id": "yuksek_secim_kurulu",
+    "term": "Yüksek Seçim Kurulu",
+    "definition": "Seçimlerin başlangıcından bitimine kadar, seçimin düzen içinde yönetimi ile ilgili bütün işlemleri yapma ve yaptırma, seçim süresince ve seçimden sonra seçim konularıyla ilgili bütün şikayet ve itirazları inceleme ve kesin karara bağlama yetkisine sahip organdır. Kararları kesindir.",
+    "examples": [
+      "Seçim sonuçlarına yapılan itirazların YSK tarafından değerlendirilmesi.",
+      "Milletvekili seçimlerinde aday listelerinin kesinleşmesi."
+    ],
+    "relatedTerms": [
+      "Seçimler",
+      "Kesin Karar",
+      "Adil Seçim"
+    ],
+    "order": 107
+  },
+  {
+    "id": "idarenin_butunlugu_ilkesi",
+    "term": "İdarenin Bütünlüğü İlkesi",
+    "definition": "Devlet idaresinin, merkezi ve yerel yönetim birimleri arasında belirli bir hiyerarşi ve idari vesayet ilişkisi içinde bir bütün olarak işleyişini ifade eden Anayasal ilkedir. Kamu hizmetlerinin etkin ve uyumlu bir şekilde yürütülmesini sağlar.",
+    "examples": [
+      "Valinin, ildeki belediyelerin işlemlerini hukuka uygunluk açısından denetlemesi.",
+      "Bakanlıkların, taşra teşkilatları üzerindeki hiyerarşik yetkisi."
+    ],
+    "relatedTerms": [
+      "Hiyerarşi",
+      "İdari Vesayet",
+      "Merkezi İdare",
+      "Yerel Yönetimler"
+    ],
+    "order": 108
+  },
+  {
+    "id": "yasama_yetkisinin_genelligi",
+    "term": "Yasama Yetkisinin Genelliği",
+    "definition": "Yasama organının, anayasaya aykırı olmamak kaydıyla, istediği her konuda düzenleme yapabilme yetkisidir. Konu sınırlaması olmaksızın her alanda kanun çıkarabilir.",
+    "examples": [
+      "TBMM'nin eğitimden sağlığa, ekonomiden çevreye kadar her alanda kanun yapabilmesi.",
+      "Bir konunun kanunla düzenlenmesinin önünde anayasal bir engel bulunmaması."
+    ],
+    "relatedTerms": [
+      "Yasama Yetkisinin Asliliği",
+      "Kanunilik İlkesi",
+      "Anayasanın Üstünlüğü"
+    ],
+    "order": 109
+  },
+  {
+    "id": "yasama_yetkisinin_asliligi",
+    "term": "Yasama Yetkisinin Asliliği",
+    "definition": "Yasama organının, bir konuda ilk elden, doğrudan ve başka bir makamın iznine veya onayına bağlı olmaksızın düzenleme yapabilme yetkisidir. Konuyu ilk kez ve doğrudan düzenleme yetkisidir.",
+    "examples": [
+      "Bir verginin ilk kez kanunla konulması.",
+      "Yeni bir suç tanımının doğrudan kanunla yapılması."
+    ],
+    "relatedTerms": [
+      "Yasama Yetkisinin Genelliği",
+      "Kanun Hükmünde Kararname",
+      "Yürütmenin Düzenleyici İşlemleri"
+    ],
+    "order": 110
+  },
+  {
+    "id": "kanun_hukmunde_kararname_yetkisi",
+    "term": "Kanun Hükmünde Kararname (KHK) Çıkarma Yetkisi",
+    "definition": "Cumhurbaşkanının, belirli konularda kanun gücünde düzenlemeler yapabilme yetkisidir. Olağan dönemde sadece sosyal ve ekonomik haklar gibi sınırlı konularda, olağanüstü hallerde ise daha geniş konularda çıkarılabilir.",
+    "examples": [
+      "Olağanüstü hal döneminde çıkarılan bir KHK ile kamu görevlilerinin ihraç edilmesi.",
+      "Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesi."
+    ],
+    "relatedTerms": [
+      "Cumhurbaşkanlığı Kararnamesi",
+      "Yasama Yetkisinin Devredilmezliği",
+      "Yürütmenin Düzenleyici İşlemleri"
+    ],
+    "order": 111
+  },
+  {
+    "id": "idarenin_takdir_yetkisi",
+    "term": "İdarenin Takdir Yetkisi",
+    "definition": "İdarenin, kanunların kendisine tanıdığı sınırlar içinde, bir konuda karar verirken birden fazla seçenekten birini seçme serbestisidir. Bu yetki keyfi değildir ve kamu yararı ile hizmet gerekleri çerçevesinde kullanılmalıdır.",
+    "examples": [
+      "Bir memurun atamasında birden fazla uygun aday arasından seçim yapılması.",
+      "Belediyenin bir imar planı değişikliği yapıp yapmama konusunda karar vermesi."
+    ],
+    "relatedTerms": [
+      "Bağlı Yetki",
+      "Hukuk Devleti İlkesi",
+      "İdari Yargı Denetimi"
+    ],
+    "order": 112
+  },
+  {
+    "id": "bagli_yetki_ilkesi",
+    "term": "Bağlı Yetki İlkesi",
+    "definition": "İdarenin, kanunların kendisine tanıdığı yetkiyi kullanırken, belirli koşullar oluştuğunda sadece tek bir şekilde hareket etme zorunluluğudur. Takdir yetkisi bulunmaz, kanunun emrettiği şekilde davranmak zorundadır.",
+    "examples": [
+      "Kanunda belirtilen şartları taşıyan bir kişiye ruhsat verilmesi zorunluluğu.",
+      "Emeklilik şartlarını yerine getiren bir memurun emekliye sevk edilmesi."
+    ],
+    "relatedTerms": [
+      "İdarenin Takdir Yetkisi",
+      "Kanunilik İlkesi",
+      "Hukuk Devleti İlkesi"
+    ],
+    "order": 113
+  },
+  {
+    "id": "anayasa_mahkemesi_bireysel_basvuru",
+    "term": "Anayasa Mahkemesine Bireysel Başvuru",
+    "definition": "Temel hak ve özgürlükleri, kamu gücü tarafından ihlal edildiğini iddia eden kişilerin, olağan kanun yollarının tükenmesi üzerine Anayasa Mahkemesine yaptığı başvurudur. Amacı, hak ihlallerinin giderilmesidir.",
+    "examples": [
+      "Adil yargılanma hakkının ihlal edildiği iddiasıyla yapılan başvuru.",
+      "Mülkiyet hakkının kamu gücü tarafından ihlal edildiği gerekçesiyle yapılan başvuru."
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Temel Hak ve Özgürlükler",
+      "Olağan Kanun Yolları"
+    ],
+    "order": 114
+  },
+  {
+    "id": "yasama_sorumsuzlugu",
+    "term": "Yasama Sorumsuzluğu (Mutlak Sorumsuzluk)",
+    "definition": "Milletvekillerinin, TBMM çalışmalarındaki oy ve sözlerinden, Genel Kurulda ileri sürdükleri düşüncelerden dolayı hukuken veya cezai yönden sorumlu tutulamamasıdır. Bu durum milletvekilliği sona erse bile devam eder.",
+    "examples": [
+      "Genel Kurulda yaptığı bir konuşma nedeniyle milletvekiline dava açılamaması.",
+      "Verdiği oylardan dolayı yargılanamaması."
+    ],
+    "relatedTerms": [
+      "Yasama Dokunulmazlığı",
+      "Milletvekili Statüsü",
+      "Parlamenter Rejim"
+    ],
+    "order": 115
+  },
+  {
+    "id": "anayasa_mahkemesi_norm_denetimi",
+    "term": "Anayasa Mahkemesinin Norm Denetimi",
+    "definition": "Kanunların, Cumhurbaşkanlığı kararnamelerinin ve TBMM İçtüzüğünün Anayasaya uygunluğunu denetleme yetkisidir. Bu denetim, iptal davası veya itiraz yoluyla yapılabilir.",
+    "examples": [
+      "Bir kanun maddesinin Anayasaya aykırılığı iddiasıyla açılan iptal davası.",
+      "Bir mahkemenin baktığı davada uygulayacağı kanun hükmünün Anayasaya aykırı olduğunu düşünerek Anayasa Mahkemesine başvurması (itiraz yolu)."
+    ],
+    "relatedTerms": [
+      "Anayasanın Üstünlüğü",
+      "Anayasa Yargısı",
+      "Soyut Norm Denetimi"
+    ],
+    "order": 116
+  },
+  {
+    "id": "idarenin_hukuka_uygunluk_karinesi",
+    "term": "İdari İşlemlerin Hukuka Uygunluk Karinesi",
+    "definition": "İdarenin yaptığı işlemlerin, iptal edilene veya kaldırılana kadar hukuka uygun kabul edilmesi ilkesidir. Bu karine, idari işlemlerin uygulanabilirliğini ve kamu düzenini sağlar.",
+    "examples": [
+      "Bir atama kararının, iptal davası açılsa bile mahkeme iptal edene kadar geçerli olması.",
+      "Bir vergi tahakkukunun, dava açılsa dahi ödenmesi gereken bir borç olarak kabul edilmesi."
+    ],
+    "relatedTerms": [
+      "İdari İşlemin Yürütülmesi",
+      "İdari Yargı Denetimi",
+      "İptal Davası"
+    ],
+    "order": 117
+  },
+  {
+    "id": "cumhurbaskanligi_sisteminin_ozellikleri",
+    "term": "Cumhurbaşkanlığı Hükümet Sisteminin Özellikleri",
+    "definition": "Yürütme yetkisinin tek başına Cumhurbaşkanında toplandığı, yasama ve yürütmenin sert bir şekilde ayrıldığı bir hükümet sistemidir. Bakanlar Kurulu bulunmaz, bakanlar doğrudan Cumhurbaşkanına bağlıdır.",
+    "examples": [
+      "Cumhurbaşkanının hem devlet başkanı hem de hükümet başkanı olması.",
+      "Yasama organının yürütmeyi güvensizlik oyu ile düşürememesi."
+    ],
+    "relatedTerms": [
+      "Parlamenter Sistem",
+      "Yarı Başkanlık Sistemi",
+      "Kuvvetler Ayrılığı"
+    ],
+    "order": 118
   }
 ]

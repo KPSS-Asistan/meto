@@ -1241,5 +1241,263 @@
       "Saltanatın Kaldırılması"
     ],
     "order": 85
+  },
+  {
+    "id": "nüfus_mübadelesi",
+    "term": "Nüfus Mübadelesi",
+    "definition": "Lozan Antlaşması'na bağlı olarak Türkiye ve Yunanistan arasında yapılan zorunlu göç anlaşmasıdır. Türk-Yunan ilişkilerinde uzun süre sorun teşkil etmiştir.",
+    "examples": [
+      "İstanbul Rumları ve Batı Trakya Türkleri mübadele dışında tutulmuştur."
+    ],
+    "relatedTerms": [
+      "Lozan Antlaşması",
+      "Dış Politika"
+    ],
+    "order": 86
+  },
+  {
+    "id": "kadina_siyasi_haklar",
+    "term": "Kadına Siyasi Haklar",
+    "definition": "1930, 1933 ve 1934 yıllarında yapılan düzenlemelerle kadınlara belediye seçimlerine katılma, muhtar olma ve milletvekili seçme/seçilme hakları verilmiştir.",
+    "examples": [
+      "1934 yılında kadınlara genel seçimlerde seçme ve seçilme hakkı tanınmıştır."
+    ],
+    "relatedTerms": [
+      "Demokrasi",
+      "Toplumsal Eşitlik"
+    ],
+    "order": 87
+  },
+  {
+    "id": "niyaz_olayi",
+    "term": "Menemen Olayı (Kubilay Olayı)",
+    "definition": "1930 yılında İzmir'in Menemen ilçesinde meydana gelen, cumhuriyet rejimine karşı gerçekleştirilen gerici ayaklanmadır. Çok partili hayata geçiş denemelerinin kesintiye uğramasına neden olmuştur.",
+    "examples": [
+      "Asteğmen Kubilay şehit edilmiştir."
+    ],
+    "relatedTerms": [
+      "Cumhuriyet Rejimi",
+      "Çok Partili Hayat"
+    ],
+    "order": 88
+  },
+  {
+    "id": "etibank",
+    "term": "Etibank",
+    "definition": "1935 yılında madenlerin işletilmesi ve sanayinin ihtiyaç duyduğu finansmanın sağlanması amacıyla kurulan devlet bankasıdır. Devletçilik ilkesinin bir uygulamasıdır.",
+    "examples": [
+      "Maden Tetkik ve Arama Enstitüsü (MTA) ile koordineli çalışmıştır."
+    ],
+    "relatedTerms": [
+      "Devletçilik",
+      "Ekonomik Kalkınma"
+    ],
+    "order": 89
+  },
+  {
+    "id": "milli_iktisat_ve_tasarruf_cemiyeti",
+    "term": "Milli İktisat ve Tasarruf Cemiyeti",
+    "definition": "1929 Dünya Ekonomik Buhranı'nın etkilerini azaltmak ve yerli malı kullanımını teşvik etmek amacıyla kurulan kuruluştur.",
+    "examples": [
+      "Yerli malı haftasının düzenlenmesi."
+    ],
+    "relatedTerms": [
+      "Ekonomi Kongresi",
+      "Devletçilik"
+    ],
+    "order": 90
+  },
+  {
+    "id": "milletler_cemiyeti",
+    "term": "Milletler Cemiyeti'ne Giriş",
+    "definition": "Türkiye, 1932 yılında dünya barışına katkıda bulunmak ve dış politikada saygınlığını artırmak amacıyla Milletler Cemiyeti'ne üye olmuştur.",
+    "examples": [
+      "Türkiye'nin davet üzerine cemiyete katılması."
+    ],
+    "relatedTerms": [
+      "Barışçıl Dış Politika",
+      "Briand-Kellogg Paktı"
+    ],
+    "order": 91
+  },
+  {
+    "id": "hafta_tatili_kanunu",
+    "term": "Hafta Tatili Kanunu",
+    "definition": "1935 yılında çıkarılan kanunla, Cuma günü olan hafta tatili Pazar gününe alınarak uluslararası ticaret ve çalışma saatleriyle uyum sağlanmıştır.",
+    "examples": [
+      "Uluslararası takvim ve saat ile uyum."
+    ],
+    "relatedTerms": [
+      "Miladi Takvim",
+      "Uluslararası Ölçüler"
+    ],
+    "order": 92
+  },
+  {
+    "id": "türk_tarih_tezi",
+    "term": "Türk Tarih Tezi",
+    "definition": "Türklerin dünya medeniyetine katkılarını bilimsel olarak kanıtlamak amacıyla 1930'larda geliştirilen, Türk tarihinin kökenlerini Orta Asya'ya dayandıran görüştür.",
+    "examples": [
+      "Türk Tarih Kurumu'nun çalışmaları."
+    ],
+    "relatedTerms": [
+      "Türk Tarih Kurumu",
+      "Milliyetçilik"
+    ],
+    "order": 93
+  },
+  {
+    "id": "nuri_demirdag",
+    "term": "Nuri Demirağ",
+    "definition": "Cumhuriyet döneminin ilk yerli uçak fabrikasını kuran, demiryolu ağlarının inşasında önemli rol oynayan iş insanıdır. Türkiye'de çok partili hayata geçiş sürecinde Milli Kalkınma Partisi'ni kurmuştur.",
+    "examples": [
+      "İlk yerli Türk uçağının yapımı",
+      "Milli Kalkınma Partisi'nin kuruluşu"
+    ],
+    "relatedTerms": [
+      "Ekonomik Kalkınma",
+      "Sanayileşme"
+    ],
+    "order": 94
+  },
+  {
+    "id": "niyazi_berkes",
+    "term": "Niyazi Berkes",
+    "definition": "Cumhuriyet dönemi sosyolojisi ve laikleşme süreci üzerine çalışmalarıyla bilinen önemli bir düşünürdür. Özellikle 'Türkiye'de Çağdaşlaşma' eseri ile Atatürk İnkılaplarının toplumsal temellerini analiz etmiştir.",
+    "examples": [
+      "Türkiye'de Çağdaşlaşma eseri",
+      "Laiklik üzerine sosyolojik analizler"
+    ],
+    "relatedTerms": [
+      "Atatürk İlkeleri",
+      "Cumhuriyet İnkılapları"
+    ],
+    "order": 95
+  },
+  {
+    "id": "musul_sorunu",
+    "term": "Musul Sorunu",
+    "definition": "Lozan'da çözülemeyen ve Türkiye ile İngiltere arasında gerginliğe yol açan sınırdır. 1926 Ankara Antlaşması ile Musul'un İngiliz mandasındaki Irak'a bırakılmasıyla sonuçlanmıştır.",
+    "examples": [
+      "Şeyh Sait İsyanı'nın Musul üzerindeki etkisi",
+      "1926 Ankara Antlaşması"
+    ],
+    "relatedTerms": [
+      "Lozan Barış Antlaşması",
+      "Dış Politika"
+    ],
+    "order": 96
+  },
+  {
+    "id": "yavuz_zırhlısı",
+    "term": "Yavuz Zırhlısı",
+    "definition": "Cumhuriyet döneminde donanmanın modernizasyonu kapsamında bakımı yapılan ve Türk deniz gücünün sembolü haline gelen savaş gemisidir. Dönemin dış politikasında caydırıcı bir güç olarak kullanılmıştır.",
+    "examples": [
+      "Donanmanın modernizasyonu",
+      "Deniz gücünün artırılması"
+    ],
+    "relatedTerms": [
+      "Savunma Politikası",
+      "Cumhuriyet Dönemi Askeri Gelişmeler"
+    ],
+    "order": 97
+  },
+  {
+    "id": "milli_korunma_kanunu",
+    "term": "Milli Korunma Kanunu",
+    "definition": "1940 yılında İkinci Dünya Savaşı'nın olumsuz etkilerinden korunmak amacıyla çıkarılan, hükümete ekonomiye müdahale etme ve fiyatları kontrol etme yetkisi veren kanundur. Savaş ekonomisi şartlarının bir sonucudur.",
+    "examples": [
+      "Karaborsacılıkla mücadele",
+      "Ekonomik denetim"
+    ],
+    "relatedTerms": [
+      "İkinci Dünya Savaşı",
+      "Ekonomi Politikaları"
+    ],
+    "order": 98
+  },
+  {
+    "id": "siyasi_partiler_kanunu",
+    "term": "Siyasi Partiler Kanunu (1946)",
+    "definition": "Çok partili hayata geçiş sürecini hızlandıran ve partilerin kurulmasını kolaylaştıran yasal düzenlemedir. Bu kanunla birlikte Nuri Demirağ tarafından Milli Kalkınma Partisi kurulmuştur.",
+    "examples": [
+      "Milli Kalkınma Partisi Türkiye'nin ilk muhalefet partisidir."
+    ],
+    "relatedTerms": [
+      "Demokrat Parti",
+      "Çok Partili Hayat",
+      "Demokrasi"
+    ],
+    "order": 99
+  },
+  {
+    "id": "kik_kanunu",
+    "term": "Köy İktisat Komisyonları",
+    "definition": "Köylünün üretimini artırmak ve yerel pazarları canlandırmak için kurulan teşkilatlanmalardır. Cumhuriyetin ilk yıllarında tarımsal kalkınmayı tabana yaymayı hedeflemiştir.",
+    "examples": [
+      "Tarımda makineleşmenin teşvik edilmesi temel amaçtır."
+    ],
+    "relatedTerms": [
+      "Ziraat Bankası",
+      "Aşar Vergisinin Kaldırılması",
+      "Tarım"
+    ],
+    "order": 100
+  },
+  {
+    "id": "macaristan_dostluk",
+    "term": "Türkiye-Macaristan Dostluk Antlaşması",
+    "definition": "Cumhuriyetin ilk yıllarında Balkan devletleriyle kurulan iyi ilişkilerin bir parçasıdır. 1923 yılında imzalanan bu antlaşma, Türkiye'nin Avrupa'daki ilk dostluk antlaşmalarından biridir.",
+    "examples": [
+      "Kültürel ve siyasi iş birliği hedeflenmiştir."
+    ],
+    "relatedTerms": [
+      "Dış Politika",
+      "Balkan Antantı",
+      "Diplomasi"
+    ],
+    "order": 101
+  },
+  {
+    "id": "soyad_kanunu_etkisi",
+    "term": "Lakap ve Unvanların Kaldırılması",
+    "definition": "Ağa, hacı, hoca, bey, paşa gibi toplumsal hiyerarşi belirten unvanların resmi kullanımdan kaldırılmasıdır. Halkçılık ilkesiyle doğrudan ilişkilidir.",
+    "examples": [
+      "Toplumsal eşitliği sağlamak amaçlanmıştır."
+    ],
+    "relatedTerms": [
+      "Soyadı Kanunu",
+      "Halkçılık",
+      "Eşitlik"
+    ],
+    "order": 102
+  },
+  {
+    "id": "nyon_konferansi",
+    "term": "Nyon Konferansı",
+    "definition": "Akdeniz'de İtalyan saldırganlığına karşı alınan önlemleri görüşmek üzere 1937'de toplanan konferanstır. Türkiye bu konferansa katılarak Akdeniz'deki güvenliğini pekiştirmiştir.",
+    "examples": [
+      "Türkiye'nin bölgesel güvenlik arayışının bir parçasıdır."
+    ],
+    "relatedTerms": [
+      "Akdeniz Paktı",
+      "Dış Politika",
+      "Güvenlik"
+    ],
+    "order": 103
+  },
+  {
+    "id": "darulfunun_reformu",
+    "term": "Darülfünun Reformu",
+    "definition": "İstanbul Üniversitesi'ne dönüştürülmek üzere 1933 yılında yapılan köklü eğitim reformudur. Albert Malche'nin raporu doğrultusunda modern bir üniversite yapısı kurulmuştur.",
+    "examples": [
+      "Alman bilim insanları Türkiye'ye davet edilmiştir."
+    ],
+    "relatedTerms": [
+      "Üniversite Reformu",
+      "Eğitim",
+      "Modernleşme"
+    ],
+    "order": 104
   }
 ]

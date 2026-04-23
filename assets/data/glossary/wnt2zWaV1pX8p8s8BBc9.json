@@ -1297,5 +1297,413 @@
       "Veri Kısıtlaması"
     ],
     "order": 95
+  },
+  {
+    "id": "degisken_seti",
+    "term": "Değişken Seti",
+    "definition": "Soru içerisinde yer alan ve birbirleriyle ilişkilendirilmesi beklenen ana öğeler grubudur. Genellikle kişiler, günler, ürünler veya mekanlar olarak kategorize edilirler.",
+    "examples": [
+      "Pazartesi, Salı, Çarşamba günlerinden oluşan zaman değişkeni seti."
+    ],
+    "relatedTerms": [
+      "Sabit Değişken",
+      "Değişken Dağılımı"
+    ],
+    "order": 96
+  },
+  {
+    "id": "kapsam_sinirlama",
+    "term": "Kapsam Sınırlama",
+    "definition": "Bir değişkenin alabileceği değerlerin, verilen kurallar çerçevesinde daraltılması işlemidir. Soru kökündeki 'yalnızca', 'sadece' gibi ifadelerle tetiklenir.",
+    "examples": [
+      "Kırmızı gömleği sadece Ali veya Veli giymiş olabilir ifadesi."
+    ],
+    "relatedTerms": [
+      "Olasılık Daraltma",
+      "Negatif Eleme"
+    ],
+    "order": 97
+  },
+  {
+    "id": "baglantisal_kurgu",
+    "term": "Bağlantısal Kurgu",
+    "definition": "Farklı değişken grupları arasında kurulan köprü ilişkileridir. Bir değişkenin durumunun diğerinin yerini kesinleştirdiği durumlarda kullanılır.",
+    "examples": [
+      "A kişisi B'den hemen sonra geliyorsa, A'nın yeri B'ye bağlıdır."
+    ],
+    "relatedTerms": [
+      "Ardışıklık Kuralı",
+      "Çift Yönlü Bağlantı"
+    ],
+    "order": 98
+  },
+  {
+    "id": "matris_tasarimi",
+    "term": "Matris Tasarımı",
+    "definition": "Sözel mantık sorularında verileri görselleştirmek için kullanılan tablo düzenidir. Değişkenlerin kesişim noktalarına doğru/yanlış veya var/yok işaretleri koymaya yarar.",
+    "examples": [
+      "Kişiler ve günler eksenli 3x4'lük bir çözüm tablosu oluşturmak."
+    ],
+    "relatedTerms": [
+      "Doğruluk Tablosu",
+      "Mantıksal Kısıtlama Matrisi"
+    ],
+    "order": 99
+  },
+  {
+    "id": "sabit_cikarim",
+    "term": "Sabit Çıkarım",
+    "definition": "Tüm olasılıklar değerlendirildiğinde değişmeyen ve kesin olarak doğru kabul edilen sonuçlardır. Soru çözümünde 'kesinlikle doğrudur' sorularının temelini oluşturur.",
+    "examples": [
+      "Tüm senaryolarda Ahmet'in 1. sırada olması durumu."
+    ],
+    "relatedTerms": [
+      "Mutlak Konum",
+      "Mantıksal Kurgu"
+    ],
+    "order": 100
+  },
+  {
+    "id": "esdegerlik_ilkesi",
+    "term": "Eşdeğerlik İlkesi",
+    "definition": "İki farklı değişkenin aynı konumda veya aynı grupta bulunma zorunluluğudur. Genellikle 'A ve B aynı gün gitmiştir' gibi ifadelerle tanımlanır.",
+    "examples": [
+      "Mavi ve yeşil aracın aynı gün servise girmesi."
+    ],
+    "relatedTerms": [
+      "Değişken Eşitliği",
+      "Bloklama Tekniği"
+    ],
+    "order": 101
+  },
+  {
+    "id": "ayristirma_yontemi",
+    "term": "Ayrıştırma Yöntemi",
+    "definition": "Karmaşık kuralları tek bir tabloda çözmek yerine, olası iki veya üç farklı senaryo (şema) üzerinden ayrı ayrı inceleme yöntemidir.",
+    "examples": [
+      "Ahmet'in 1. sırada olduğu durum ve 2. sırada olduğu durum için iki ayrı tablo çizmek."
+    ],
+    "relatedTerms": [
+      "Çift Olasılık",
+      "Varsayım Temelli Çözüm"
+    ],
+    "order": 102
+  },
+  {
+    "id": "konum_kistasi",
+    "term": "Konum Kısıtası",
+    "definition": "Bir değişkenin belirli bir sırada veya grupta bulunamayacağını belirten negatif kurallardır. Yerleştirme yaparken seçenekleri elemek için kullanılır.",
+    "examples": [
+      "Zeynep 3. sırada olamaz kuralı."
+    ],
+    "relatedTerms": [
+      "Negatif Eleme",
+      "Yoksunluk İfadesi"
+    ],
+    "order": 103
+  },
+  {
+    "id": "blok_kaydirma",
+    "term": "Blok Kaydırma",
+    "definition": "Birbirinden ayrılmayan iki veya daha fazla değişkenin, sıralama içerisinde birlikte hareket ettirilmesi tekniğidir. Bloklar arası boşluklar, diğer değişkenlerin yerleşimi için kritiktir.",
+    "examples": [
+      "A ve B ikilisinin her zaman yan yana olması ve 1-2 veya 2-3 konumlarına yerleştirilmesi."
+    ],
+    "relatedTerms": [
+      "Bloklama Tekniği",
+      "Sıralı Yerleştirme"
+    ],
+    "order": 104
+  },
+  {
+    "id": "karsit_durum_analizi",
+    "term": "Karşıt Durum Analizi",
+    "definition": "Verilen bir durumun gerçekleşmediği varsayımıyla yapılan mantıksal irdelemedir. Çelişkiyi bulmak için başvurulan bir doğrulama yöntemidir.",
+    "examples": [
+      "Ali'nin 1. sırada olmadığını varsayarak tablonun tutarlılığını kontrol etmek."
+    ],
+    "relatedTerms": [
+      "Ters Mantık",
+      "Karşıt Örneklendirme"
+    ],
+    "order": 105
+  },
+  {
+    "id": "degisken_turu_belirleme",
+    "term": "Değişken Türü Belirleme",
+    "definition": "Sorudaki değişkenlerin 'sabit' mi yoksa 'hareketli' mi olduğunun saptanmasıdır. Sabitler (günler, katlar) tabloyu kurarken temel iskeleti oluşturur.",
+    "examples": [
+      "Haftanın günlerini sabit eksen, kişileri değişken olarak belirlemek."
+    ],
+    "relatedTerms": [
+      "Sabit Değişken Çapası",
+      "Sıralama Kriteri"
+    ],
+    "order": 106
+  },
+  {
+    "id": "mantiksal_tutarli_kontrol",
+    "term": "Mantıksal Tutarlı Kontrol",
+    "definition": "Oluşturulan tablonun, soruda verilen tüm öncüllerle uyumlu olup olmadığının son aşamada teyit edilmesidir. Hatalı yerleştirmeleri fark etmeyi sağlar.",
+    "examples": [
+      "Tablodaki tüm yerleşimlerin 'A, B'den önce gelir' kuralına uyup uymadığını kontrol etmek."
+    ],
+    "relatedTerms": [
+      "Kapsamlı Analiz",
+      "Doğruluk Tablosu"
+    ],
+    "order": 107
+  },
+  {
+    "id": "bagimsiz_degisken_analizi",
+    "term": "Bağımsız Değişken Analizi",
+    "definition": "Hiçbir kurala bağlı olmayan veya kısıtlamalardan etkilenmeyen değişkenlerin belirlenmesidir. Bu değişkenler genellikle 'artık' kalan boşluklara yerleştirilir.",
+    "examples": [
+      "Tüm kurallar yerleştirildikten sonra boş kalan yere kalan son kişinin atanması."
+    ],
+    "relatedTerms": [
+      "Bağımsız Bilgi",
+      "Mantıksal Boşluk"
+    ],
+    "order": 108
+  },
+  {
+    "id": "siralama_zinciri",
+    "term": "Sıralama Zinciri",
+    "definition": "Değişkenlerin birbirine göre 'önce-sonra' veya 'büyük-küçük' ilişkisiyle oluşturduğu mantıksal dizilimdir. Zincirleme kurallar, yerleştirme sırasını belirler.",
+    "examples": [
+      "A, B'den önce; B, C'den önce geliyorsa A-B-C zincirini kurmak."
+    ],
+    "relatedTerms": [
+      "Ardışıklık Kuralı",
+      "Sıralı Yerleştirme"
+    ],
+    "order": 109
+  },
+  {
+    "id": "karsilikli_dislama",
+    "term": "Karşılıklı Dışlama",
+    "definition": "İki veya daha fazla değişkenin aynı anda aynı konumda bulunamayacağını belirten kısıtlayıcı kuraldır. Bir değişkenin varlığı, diğerinin o konumda olmasını imkansız kılar.",
+    "examples": [
+      "Ali ve Veli aynı koltukta oturamaz.",
+      "Salı günü hem matematik hem de tarih dersi işlenemez."
+    ],
+    "relatedTerms": [
+      "Negatif Eleme",
+      "Mantıksal Kısıtlama Matrisi"
+    ],
+    "order": 110
+  },
+  {
+    "id": "zincirleme_baginti",
+    "term": "Zincirleme Bağıntı",
+    "definition": "Bir değişkenin yerinin belirlenmesinin, diğer değişkenlerin konumunu sırayla etkilediği durumdur. Bir hamle, domino etkisiyle tüm tabloyu şekillendirir.",
+    "examples": [
+      "A kişisi 1. sıradaysa B kişisi 3. sıradadır.",
+      "X dersi Y'den önceyse Z dersi en son sıradadır."
+    ],
+    "relatedTerms": [
+      "Ardışıklık Kuralı",
+      "Sıralı Yerleştirme"
+    ],
+    "order": 111
+  },
+  {
+    "id": "degisken_kumeleme",
+    "term": "Değişken Kümeleme",
+    "definition": "Belirli değişkenlerin bir grup oluşturarak tablo içinde birlikte hareket etmesi durumudur. Bu değişkenler birbirinden ayrılamaz bir bütün olarak kabul edilir.",
+    "examples": [
+      "Kırmızı ve mavi kalemler her zaman yan yana kutulardadır.",
+      "A ve B takımları aynı grupta yer almalıdır."
+    ],
+    "relatedTerms": [
+      "Bloklama Tekniği",
+      "Değişken Etkileşimi"
+    ],
+    "order": 112
+  },
+  {
+    "id": "konum_esnekligi",
+    "term": "Konum Esnekliği",
+    "definition": "Bir değişkenin tablo içerisinde birden fazla farklı konumda bulunabilme potansiyelidir. Sabitlenmemiş değişkenler için geçerli olan serbestlik derecesidir.",
+    "examples": [
+      "Ali 2. veya 4. sırada olabilir.",
+      "Kitaplar raflara herhangi bir sırayla dizilebilir."
+    ],
+    "relatedTerms": [
+      "Olasılık Daraltma",
+      "Sıralama Kriteri"
+    ],
+    "order": 113
+  },
+  {
+    "id": "karsit_kosul",
+    "term": "Karşıt Koşul",
+    "definition": "Bir önermenin gerçekleşmemesi durumunda ortaya çıkan ikincil kısıtlamadır. Mantıksal çıkarım yaparken 'değilse' durumunu analiz etmeyi gerektirir.",
+    "examples": [
+      "Eğer Ali gelmezse Veli mutlaka gelmelidir.",
+      "Pazartesi boş değilse Salı günü doludur."
+    ],
+    "relatedTerms": [
+      "Ters Mantık",
+      "Varsayım Temelli Çözüm"
+    ],
+    "order": 114
+  },
+  {
+    "id": "sabit_konum_agirligi",
+    "term": "Sabit Konum Ağırlığı",
+    "definition": "Tabloda yeri kesinleşmiş olan değişkenlerin, diğer değişkenlerin yerleşimi üzerindeki baskın etkisidir. Çözümün başlangıç noktası olarak kabul edilir.",
+    "examples": [
+      "Ayşe kesin olarak 1. sıradadır.",
+      "X ürünü her zaman en alt raftadır."
+    ],
+    "relatedTerms": [
+      "Sabit Değişken Çapası",
+      "Mutlak Konum"
+    ],
+    "order": 115
+  },
+  {
+    "id": "kapsam_disi_eleme",
+    "term": "Kapsam Dışı Eleme",
+    "definition": "Verilen kısıtlamalar sonucunda, belirli bir konuma yerleşemeyeceği kesinleşen değişkenlerin seçeneklerden elenmesi sürecidir.",
+    "examples": [
+      "Ali 3. sırada olamayacağı için seçeneklerden elenir.",
+      "Salı günü dersi olmayanlar listeden çıkarılır."
+    ],
+    "relatedTerms": [
+      "Pozitif Eleme",
+      "Negatif Eleme"
+    ],
+    "order": 116
+  },
+  {
+    "id": "degisken_karsilastirma_matrisi",
+    "term": "Değişken Karşılaştırma Matrisi",
+    "definition": "Değişkenlerin birbirlerine göre durumunu (önce, sonra, büyük, küçük) gösteren görselleştirme aracıdır. Karmaşık ilişkileri basitleştirmek için kullanılır.",
+    "examples": [
+      "A, B'den uzundur; B, C'den uzundur.",
+      "X, Y'den önce; Z, X'ten sonra gelir."
+    ],
+    "relatedTerms": [
+      "Mantıksal Kısıtlama Matrisi",
+      "Doğruluk Tablosu"
+    ],
+    "order": 117
+  },
+  {
+    "id": "gecisli_iliski",
+    "term": "Geçişli İlişki",
+    "definition": "A'nın B ile, B'nin de C ile olan ilişkisinden yola çıkarak A ile C arasındaki ilişkinin tahmin edilmesidir. Mantıksal akıl yürütmenin temelidir.",
+    "examples": [
+      "A, B'den önceyse ve B, C'den önceyse A, C'den öncedir.",
+      "Ali, Veli'den uzunsa ve Veli, Can'dan uzunsa Ali, Can'dan uzundur."
+    ],
+    "relatedTerms": [
+      "Bağlamsal İlişki",
+      "Çıkarım Kuralları"
+    ],
+    "order": 118
+  },
+  {
+    "id": "tekil_konum_zorunlulugu",
+    "term": "Tekil Konum Zorunluluğu",
+    "definition": "Bir değişkenin sadece tek bir konumda bulunabileceğini ifade eden kuraldır. Yerleştirme yapıldığında diğer tüm olasılıklar iptal edilir.",
+    "examples": [
+      "Sadece bir kişi 1. sırada olabilir.",
+      "Her kutuya sadece bir top konulabilir."
+    ],
+    "relatedTerms": [
+      "Mutlak Konum",
+      "Sıralı Yerleştirme"
+    ],
+    "order": 119
+  },
+  {
+    "id": "sinirlandirici_degisken",
+    "term": "Sınırlandırıcı Değişken",
+    "definition": "Tablodaki diğer değişkenlerin yerleşimini kısıtlayan, en fazla kurala sahip değişkendir. Çözüme bu değişkenden başlanması önerilir.",
+    "examples": [
+      "X değişkeni hem 1. hem 3. sırayı etkilemektedir.",
+      "Pazartesi günü sadece iki ders verilmektedir."
+    ],
+    "relatedTerms": [
+      "Sabit Değişken Çapası",
+      "Değişken Etkileşimi"
+    ],
+    "order": 120
+  },
+  {
+    "id": "alternatif_senaryo_kurma",
+    "term": "Alternatif Senaryo Kurma",
+    "definition": "Bir değişkenin iki farklı konumda olabileceği durumlarda, her iki ihtimali de ayrı ayrı değerlendirerek doğruya ulaşma yöntemidir.",
+    "examples": [
+      "Ali 1. sıradaysa tablo şu şekildedir; Ali 2. sıradaysa tablo bu şekildedir.",
+      "Eğer X, Y'den önceyse... veya X, Y'den sonraysa..."
+    ],
+    "relatedTerms": [
+      "Varsayım Temelli Çözüm",
+      "Çift Olasılık"
+    ],
+    "order": 121
+  },
+  {
+    "id": "veri_bütünleştirme",
+    "term": "Veri Bütünleştirme",
+    "definition": "Parçalı halde verilen öncüllerin, tek bir mantıksal kurguda birleştirilmesi sürecidir. Tüm bilgilerin aynı anda değerlendirilmesini sağlar.",
+    "examples": [
+      "Öncül 1 ve Öncül 3 birleştirilerek tablo oluşturulur.",
+      "Dağınık kuralların tek bir şemaya dökülmesi."
+    ],
+    "relatedTerms": [
+      "Kapsamlı Analiz",
+      "Mantıksal Kurgu"
+    ],
+    "order": 122
+  },
+  {
+    "id": "kisit_eslesmesi",
+    "term": "Kısıt Eşleşmesi",
+    "definition": "Belirli bir kuralın belirli bir değişken grubuna uygulanmasıdır. Kuralın kapsamı ile değişkenin kapsamının çakıştırılmasıdır.",
+    "examples": [
+      "Sadece A ve B takımları için geçerli olan kural.",
+      "Pazartesi günü dersi olanlar için uygulanan kısıtlama."
+    ],
+    "relatedTerms": [
+      "Küme Kapsamı",
+      "Bağlamsal İlişki"
+    ],
+    "order": 123
+  },
+  {
+    "id": "negatif_eleme_kurali",
+    "term": "Negatif Eleme Kuralı",
+    "definition": "Bir değişkenin belirli bir konumda bulunamayacağının kesinleştiği durumlarda, o değişkenin diğer tüm olasılıklardan elenerek doğru konuma zorlanmasıdır. Sözel mantıkta 'olumsuzluk bildiren' öncüllerin doğrudan analiz edilerek seçeneklerin daraltılmasını sağlar.",
+    "examples": [
+      "Ayşe'nin 1. sırada olmadığı bilgisiyle, 1. sıradaki boşluğun diğer adaylara daraltılması.",
+      "Mavi gömleğin salı günü giyilmediğinin kesinleşmesiyle, diğer günlerin değerlendirilmesi."
+    ],
+    "relatedTerms": [
+      "Pozitif Eleme",
+      "Kapsam Sınırlama",
+      "Mantıksal Boşluk"
+    ],
+    "order": 124
+  },
+  {
+    "id": "coklu_degisken_esleme",
+    "term": "Çoklu Değişken Eşleme",
+    "definition": "Birden fazla değişken grubunun (örneğin kişiler, günler ve meslekler) aynı tablo üzerinde birbirine çapraz referansla bağlanmasıdır. Her bir değişkenin diğer değişkenlerle olan zorunlu bağlantılarının kurulmasıyla çözümün bütününe ulaşılır.",
+    "examples": [
+      "Üç farklı kişinin hangi gün hangi şehirde bulunduğunun tabloya işlenmesi.",
+      "Kişi, semt ve ulaşım aracı değişkenlerinin birleştirilerek tek bir matriste çözümlenmesi."
+    ],
+    "relatedTerms": [
+      "Matris Tasarımı",
+      "Değişken Seti",
+      "Bağlamsal İlişki"
+    ],
+    "order": 125
   }
 ]

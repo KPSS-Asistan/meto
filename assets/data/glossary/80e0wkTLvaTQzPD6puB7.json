@@ -1179,5 +1179,591 @@
       "Ünsüz Türemesi"
     ],
     "order": 81
+  },
+  {
+    "id": "kaynastirma_unsunleri",
+    "term": "Kaynaştırma Ünsüzleri (Yaşasın)",
+    "definition": "İki ünlü yan yana gelemeyeceği için ünlüyle biten sözcüklere ünlüyle başlayan ek geldiğinde araya giren 'y, ş, s, n' sesleridir.",
+    "examples": [
+      "Araba-y-a",
+      "Kapı-n-ın"
+    ],
+    "relatedTerms": [
+      "Koruyucu Ünsüz",
+      "Yardımcı Ses"
+    ],
+    "order": 82
+  },
+  {
+    "id": "unlu_dusmesi_asindirma",
+    "term": "Aşınma (Ünlü Düşmesi)",
+    "definition": "İki sözcüğün birleşmesi sırasında sözcüklerden birindeki ünlünün düşerek ses kaybına uğramasıdır.",
+    "examples": [
+      "Ne asıl -> Nasıl",
+      "Pazar ertesi -> Pazartesi"
+    ],
+    "relatedTerms": [
+      "Hece Düşmesi",
+      "Birleşik Sözcüklerde Kaynaşma"
+    ],
+    "order": 83
+  },
+  {
+    "id": "tonlulasma_aykiri",
+    "term": "Ünsüz Yumuşamasına Aykırılık",
+    "definition": "Özel isimlerde, tek heceli bazı sözcüklerde veya yabancı kökenli kelimelerde sert ünsüzlerin (p, ç, t, k) ünlüyle başlayan ek alsa bile yumuşamaması durumudur.",
+    "examples": [
+      "Ahmet'i",
+      "Hukuk-u"
+    ],
+    "relatedTerms": [
+      "Ünsüz Yumuşaması",
+      "Sert Ünsüzler"
+    ],
+    "order": 84
+  },
+  {
+    "id": "buyuk_unlu_uyumu_bozanlar",
+    "term": "Büyük Ünlü Uyumu İstisnaları",
+    "definition": "Türkçe kökenli olmasına rağmen bazı ekler (yor, -ki, -leyin, -daş) veya birleşik kelimeler nedeniyle büyük ünlü uyumuna uymayan durumlar.",
+    "examples": [
+      "Anne (baba ile uyumsuz)",
+      "Kardeş (kardaş'tan evrilme)"
+    ],
+    "relatedTerms": [
+      "Büyük Ünlü Uyumu",
+      "Ek Ses Uyumu"
+    ],
+    "order": 85
+  },
+  {
+    "id": "yabanci_sozcuk_ses",
+    "term": "Yabancı Sözcüklerde Ses Özelliği",
+    "definition": "Türkçenin ses yapısına aykırı olan yabancı kökenli sözcüklerde görülen uzun ünlüler veya çift ünsüzle başlayan kelimelerdir.",
+    "examples": [
+      "Tren (istisna)",
+      "Saat (uzun ünlü)"
+    ],
+    "relatedTerms": [
+      "Yabancı Kökenli Sözcüklerde Ses Özelliği",
+      "Hece Yapısı"
+    ],
+    "order": 86
+  },
+  {
+    "id": "unlu_dusmesi_turetme",
+    "term": "Yapım Ekiyle Ünlü Düşmesi",
+    "definition": "İsimden isim veya fiilden isim yapım eki alırken sözcüğün ikinci hecesindeki dar ünlünün düşmesidir.",
+    "examples": [
+      "Yalın-ız -> Yalnız",
+      "Oyun-a -> Oynamak"
+    ],
+    "relatedTerms": [
+      "Hece Düşmesi",
+      "Türetme"
+    ],
+    "order": 87
+  },
+  {
+    "id": "kucuk_unlu_uyumu_istisna",
+    "term": "Küçük Ünlü Uyumu İstisnaları",
+    "definition": "Düz-yuvarlak uyumu kuralına uymayan durumlar; özellikle \"-yor\" ekinin her zaman yuvarlak ünlüyü koruması ve bazı Türkçe sözcüklerdeki \"o, ö\" sesleridir.",
+    "examples": [
+      "Çamur",
+      "Yağmur",
+      "Konser"
+    ],
+    "relatedTerms": [
+      "Küçük Ünlü Uyumu",
+      "Düzlük-Yuvarlaklık"
+    ],
+    "order": 88
+  },
+  {
+    "id": "unlu_dusmesi_birlesik",
+    "term": "Birleşik Sözcüklerde Ünlü Düşmesi",
+    "definition": "İki sözcüğün birleşmesi sırasında sözcüklerden birindeki ünlünün düşmesi olayıdır.",
+    "examples": [
+      "Kahve-altı -> Kahvaltı",
+      "Ne-asıl -> Nasıl"
+    ],
+    "relatedTerms": [
+      "Birleşik Sözcüklerde Kaynaşma",
+      "Hece Düşmesi"
+    ],
+    "order": 89
+  },
+  {
+    "id": "dudak_unsuzu_uyumu",
+    "term": "Dudak Ünsüzü Uyumu (B-M)",
+    "definition": "Türkçede \"b\" sesi kendisinden önceki \"n\" sesini \"m\" sesine dönüştürür. Bu kural özel isimlerde ve birleşik sözcüklerde uygulanmaz.",
+    "examples": [
+      "Saklan-baç -> Saklambaç",
+      "Pembe (Penbe)"
+    ],
+    "relatedTerms": [
+      "Geniz Ünsüzü Etkisi",
+      "Ünsüz Değişimi"
+    ],
+    "order": 90
+  },
+  {
+    "id": "kucuk_unlu_uyumu_kurali",
+    "term": "Küçük Ünlü Uyumu Kuralı",
+    "definition": "Sözcükte düz ünlülerden sonra düz, yuvarlak ünlülerden sonra ise ya düz-geniş (a, e) ya da yuvarlak-dar (u, ü) ünlülerin gelmesi kuralıdır.",
+    "examples": [
+      "Geliyor (e-i-o-o X), Okuyor (o-u-o-u)"
+    ],
+    "relatedTerms": [
+      "Düzlük-Yuvarlaklık",
+      "Ünlü Uyumu"
+    ],
+    "order": 91
+  },
+  {
+    "id": "yabanci_sozcuk_uyum",
+    "term": "Yabancı Sözcüklerde Uyuma Aykırılık",
+    "definition": "Türkçe kökenli olmayan sözcüklerin büyük veya küçük ünlü uyumu kurallarına tabi olmaması durumudur.",
+    "examples": [
+      "Televizyon",
+      "Fasulye",
+      "Badem"
+    ],
+    "relatedTerms": [
+      "Köken Bilgisi",
+      "Ses Özellikleri"
+    ],
+    "order": 92
+  },
+  {
+    "id": "birlesik_sozcuk_ses",
+    "term": "Birleşik Sözcüklerde Ses Olayı",
+    "definition": "İki sözcüğün birleşmesi esnasında meydana gelen ünlü veya ünsüz düşmesi/türemesi olaylarıdır.",
+    "examples": [
+      "Pazar ertesi -> Pazartesi",
+      "Ne asıl -> Nasıl",
+      "Sütlü aş -> Sütlaç"
+    ],
+    "relatedTerms": [
+      "Aşınma",
+      "Birleşik Sözcük"
+    ],
+    "order": 93
+  },
+  {
+    "id": "yardimci_unlu",
+    "term": "Yardımcı Ünlü",
+    "definition": "Sessizle biten bir köke ünlüyle başlayan bir ek getirildiğinde, söyleyişi kolaylaştırmak için araya giren yardımcı sestir.",
+    "examples": [
+      "Göz-ü-m",
+      "Gel-i-yor",
+      "Sev-i-yor"
+    ],
+    "relatedTerms": [
+      "Ek Yapısı",
+      "Ses Akışı"
+    ],
+    "order": 94
+  },
+  {
+    "id": "unsus_benzesmesi",
+    "term": "Ünsüz Benzeşmesi (Sertleşme)",
+    "definition": "Sert ünsüzle (f, s, t, k, ç, ş, h, p) biten sözcüklere yumuşak ünsüzle başlayan ek geldiğinde, ekin başındaki ünsüzün sertleşerek c, d, g harflerine dönüşmesidir.",
+    "examples": [
+      "Kitap-çı",
+      "Sokak-tan",
+      "Çalış-kan"
+    ],
+    "relatedTerms": [
+      "Ünsüz Sertleşmesi",
+      "Ünsüz Uyumu"
+    ],
+    "order": 95
+  },
+  {
+    "id": "kaynasmis_birlesik_sozcuk",
+    "term": "Kaynaşmış Birleşik Sözcüklerde Ses Olayı",
+    "definition": "Anlamca kaynaşmış birleşik sözcüklerin oluşumu sırasında meydana gelen ses düşmesi veya değişimi durumudur.",
+    "examples": [
+      "Nasıl (ne-asıl)",
+      "Niçin (ne-için)",
+      "Pazartesi (pazar-ertesi)"
+    ],
+    "relatedTerms": [
+      "Sözcük Türetme",
+      "Birleşik Sözcük"
+    ],
+    "order": 96
+  },
+  {
+    "id": "dudak_unsusu_uyumu",
+    "term": "Dudak Ünsüzü Uyumu",
+    "definition": "Türkçede 'b' ünsüzünün kendinden önceki 'n' ünsüzünü 'm'ye dönüştürmesi kuralıdır. Yazımda mutlaka uygulanır.",
+    "examples": [
+      "Saklanbaç değil saklambaç",
+      "Dolambaç",
+      "Pembe (penbe değil)"
+    ],
+    "relatedTerms": [
+      "Ünsüz Değişimi",
+      "Yazım Kuralları"
+    ],
+    "order": 97
+  },
+  {
+    "id": "tonlu_tonsuz_unsuzler",
+    "term": "Tonlu ve Tonsuz Ünsüzler",
+    "definition": "Tonlu (yumuşak) ünsüzler, gırtlakta ses tellerinin titreşimiyle oluşan ünsüzlerdir (b, c, d, g, ğ, j, l, m, n, r, v, y, z). Tonsuz (sert) ünsüzler ise, ses tellerinin titreşimi olmadan oluşan ünsüzlerdir (f, h, k, p, s, ş, t, ç). Bu ayrım, ünsüz benzeşmesi ve yumuşaması gibi olaylarda temeldir.",
+    "examples": [
+      "b-p (tonlu-tonsuz)",
+      "c-ç (tonlu-tonsuz)",
+      "d-t (tonlu-tonsuz)"
+    ],
+    "relatedTerms": [
+      "Ünsüz Benzeşmesi",
+      "Ünsüz Yumuşaması"
+    ],
+    "order": 98
+  },
+  {
+    "id": "unlu_temsilcisi",
+    "term": "Ünlü Temsilcisi (Yardımcı Ünlü)",
+    "definition": "Türkçede bazı alıntı sözcüklerde iki ünsüz arasına giren ve kelimenin telaffuzunu kolaylaştıran ünlülerdir. Genellikle Arapça ve Farsça kökenli kelimelerde görülür.",
+    "examples": [
+      "fikr-i > fikir",
+      "ömr-ü > ömür",
+      "hükm-ü > hüküm"
+    ],
+    "relatedTerms": [
+      "Ünlü Türemesi",
+      "Heceleme"
+    ],
+    "order": 99
+  },
+  {
+    "id": "tonlama",
+    "term": "Tonlama (Ezgi)",
+    "definition": "Cümledeki sesin alçalıp yükselmesi, yani inişli çıkışlı seyridir. Cümlenin anlamını (soru, sevinç, öfke vb.) ve konuşmacının duygu durumunu yansıtır.",
+    "examples": [
+      "Geliyor musun? (soru tonlaması)",
+      "Geliyor! (sevinç tonlaması)",
+      "Geliyor... (beklenti tonlaması)"
+    ],
+    "relatedTerms": [
+      "Vurgu",
+      "Ezgi"
+    ],
+    "order": 100
+  },
+  {
+    "id": "durak",
+    "term": "Durak",
+    "definition": "Şiirde veya düz yazıda, okurken nefes almak veya anlamı pekiştirmek için yapılan kısa beklemelerdir. Vezinli şiirlerde ölçüye göre belirlenir.",
+    "examples": [
+      "Bir an durdu, / sonra devam etti.",
+      "Şiirde 4+4 duraklı hece ölçüsü."
+    ],
+    "relatedTerms": [
+      "Vezin",
+      "Ritim"
+    ],
+    "order": 101
+  },
+  {
+    "id": "sert_unsuz_benzesmesi_istisnasi",
+    "term": "Sert Ünsüz Benzeşmesi İstisnası",
+    "definition": "Sert ünsüzle biten bir kelimeye, sert ünsüzle başlayan bir ek gelmesi gerekirken, bazı özel durumlarda bu kuralın uygulanmamasıdır. Özellikle özel isimlerde ve bazı birleşik kelimelerde görülür.",
+    "examples": [
+      "Ahmet'gil (Ahmet-cil değil)",
+      "Saat'çi (saat-çi olması beklenirken)",
+      "Çiçek'çi (çiçek-çi olması beklenirken)"
+    ],
+    "relatedTerms": [
+      "Ünsüz Benzeşmesi",
+      "Yazım Kuralları"
+    ],
+    "order": 102
+  },
+  {
+    "id": "unlu_birlesmesi",
+    "term": "Ünlü Birleşmesi (Aşınma)",
+    "definition": "İki ayrı sözcüğün birleşmesi sırasında, yan yana gelen iki ünlüden birinin düşerek tek ünlüye dönüşmesidir. Genellikle 'ne' sözcüğü ile başlayan birleşmelerde görülür.",
+    "examples": [
+      "ne asıl > nasıl",
+      "ne için > niçin",
+      "ne ise > neyse"
+    ],
+    "relatedTerms": [
+      "Ünlü Düşmesi",
+      "Aşınma"
+    ],
+    "order": 103
+  },
+  {
+    "id": "hece_kaymasi",
+    "term": "Hece Kayması",
+    "definition": "Şiirde vezin gereği bir kelimenin hecesinin, kendisinden sonraki kelimeye bağlanarak okunmasıdır. Ulama ile benzerlik gösterir ancak daha çok vezinli şiirlerde kullanılır.",
+    "examples": [
+      "Gönül / kuşu / uçar / gider (vezin gereği hece bölünmesi)",
+      "Bülbül / öter / gül / dalında"
+    ],
+    "relatedTerms": [
+      "Ulama",
+      "Vezin"
+    ],
+    "order": 104
+  },
+  {
+    "id": "unsuz_sertlesmesi_istisnasi",
+    "term": "Ünsüz Sertleşmesi İstisnası",
+    "definition": "Sert ünsüzle biten bir kelimeye, c, d, g ile başlayan bir ek gelmesi durumunda, bu eklerin ç, t, k'ye dönüşmesi gerekirken, bu kurala uymayan durumlardır. Özellikle özel isimler ve bazı alıntı kelimelerde görülür.",
+    "examples": [
+      "Sinop'tan (Sinop-dan değil)",
+      "Bilecik'te (Bilecik-de değil)",
+      "kitap'çı (kitap-cı değil)"
+    ],
+    "relatedTerms": [
+      "Ünsüz Benzeşmesi",
+      "Yazım Kuralları"
+    ],
+    "order": 105
+  },
+  {
+    "id": "kaynastirma_harfi_kullanimi",
+    "term": "Kaynaştırma Harfi Kullanımı",
+    "definition": "Türkçede iki ünlünün yan yana gelmesini engellemek için araya 'y, ş, s, n' ünsüzlerinden birinin girmesidir. Genellikle iyelik ekleri, hal ekleri ve bazı fiil çekimlerinde karşımıza çıkar.",
+    "examples": [
+      "su-y-u",
+      "masa-n-ın",
+      "oku-y-acak"
+    ],
+    "relatedTerms": [
+      "Ünlü Düşmesi",
+      "Ünsüz Türemesi",
+      "Ulama"
+    ],
+    "order": 106
+  },
+  {
+    "id": "yardimci_unlu_turemesi",
+    "term": "Yardımcı Ünlü Türemesi",
+    "definition": "Bazı fiil çekimlerinde veya eklerin getirilmesinde ses uyumunu sağlamak ya da telaffuzu kolaylaştırmak amacıyla araya fazladan bir ünlünün girmesidir. Özellikle emir kipinde ve bazı zarf fiil eklerinde görülür.",
+    "examples": [
+      "gel-i-yor",
+      "gül-e-rek",
+      "bak-a-rak"
+    ],
+    "relatedTerms": [
+      "Ünlü Daralması",
+      "Ünlü Düşmesi",
+      "Heceleme"
+    ],
+    "order": 107
+  },
+  {
+    "id": "unsuz_benzesmesi_istisnalari",
+    "term": "Ünsüz Benzeşmesi İstisnaları",
+    "definition": "Türkçede sert ünsüzle biten bir sözcüğe yumuşak ünsüzle başlayan bir ek geldiğinde benzeşme kuralının uygulanmaması durumudur. Genellikle özel isimlerde ve bazı alıntı kelimelerde görülür.",
+    "examples": [
+      "Sinop'ta (Sinop'da değil)",
+      "kitapçı (kitapcı değil)",
+      "üçgen (üçken değil)"
+    ],
+    "relatedTerms": [
+      "Ünsüz Benzeşmesi",
+      "Ünsüz Yumuşaması İstisnası",
+      "Özel İsimlerde Ses Olayı"
+    ],
+    "order": 108
+  },
+  {
+    "id": "ikilemelerde_ses_olaylari",
+    "term": "İkilemelerde Ses Olayları",
+    "definition": "İkilemelerde bazen ses düşmesi, türemesi veya değişimi gibi ses olaylarının meydana gelmesidir. Genellikle ikilemeyi oluşturan sözcüklerin birleşimi sırasında ortaya çıkar.",
+    "examples": [
+      "ufak tefek (ufak ufak değil)",
+      "eğri büğrü",
+      "çoluk çocuk"
+    ],
+    "relatedTerms": [
+      "Ünlü Düşmesi",
+      "Ünsüz Türemesi",
+      "Hece Düşmesi"
+    ],
+    "order": 109
+  },
+  {
+    "id": "pekiştirmelerde_ses_olaylari",
+    "term": "Pekiştirmelerde Ses Olayları",
+    "definition": "Sıfat veya zarfların anlamını güçlendirmek için yapılan pekiştirmelerde, sözcüğün ilk hecesine 'm, p, r, s' ünsüzlerinden birinin eklenmesiyle oluşan ses değişiklikleridir. Bazen ünlü türemesi de eşlik edebilir.",
+    "examples": [
+      "mas-mavi",
+      "sap-sağlam",
+      "ter-temiz",
+      "yap-yalnız"
+    ],
+    "relatedTerms": [
+      "Ünsüz Türemesi",
+      "Ünlü Türemesi",
+      "Hece Yapısı"
+    ],
+    "order": 110
+  },
+  {
+    "id": "yabanci_sozcuklerde_unlu_uyumu",
+    "term": "Yabancı Sözcüklerde Ünlü Uyumu",
+    "definition": "Türkçeye farklı dillerden geçmiş sözcüklerin, Türkçenin ünlü uyumu kurallarına uymaması durumudur. Bu sözcükler, uyuma aykırı olsalar bile dilimizde yerleşmişlerdir.",
+    "examples": [
+      "kalem (a-e uyumsuz)",
+      "kitap (i-a uyumsuz)",
+      "telefon (e-o uyumsuz)"
+    ],
+    "relatedTerms": [
+      "Büyük Ünlü Uyumu",
+      "Küçük Ünlü Uyumu",
+      "Yabancı Sözcüklerde Ses Özelliği"
+    ],
+    "order": 111
+  },
+  {
+    "id": "unsuz_yumusamasi_istisnalari",
+    "term": "Ünsüz Yumuşaması İstisnaları",
+    "definition": "Sert ünsüzle (p, ç, t, k) biten bazı tek heceli sözcükler veya özel isimler ünlüyle başlayan bir ek aldığında yumuşamaya uğramaz. Bu durum, dilin yerleşik kurallarına bir istisna teşkil eder.",
+    "examples": [
+      "saç-ı (saçı değil)",
+      "top-u (topu değil)",
+      "Ahmet'i (Ahmedi değil)"
+    ],
+    "relatedTerms": [
+      "Ünsüz Yumuşaması",
+      "Ünsüz Benzeşmesi İstisnaları",
+      "Özel İsimlerde Ses Olayı"
+    ],
+    "order": 112
+  },
+  {
+    "id": "ikinci_hece_daralmasi",
+    "term": "İkinci Hece Daralması",
+    "definition": "Türkçede bazı sözcüklerde, özellikle fiillerde, ikinci hecedeki geniş ünlünün daralması durumudur. Genellikle '-yor' ekiyle oluşan daralmadan farklı olarak, kökte meydana gelir.",
+    "examples": [
+      "oyna-mak > oynuyor (oyna-yor değil, kökteki 'a' daralır)",
+      "boya-mak > boyuyor"
+    ],
+    "relatedTerms": [
+      "Ünlü Daralması",
+      "Ünlü Düşmesi",
+      "Hece Yapısı"
+    ],
+    "order": 113
+  },
+  {
+    "id": "yansima_sozcuklerde_ses_ozelligi",
+    "term": "Yansıma Sözcüklerde Ses Özelliği",
+    "definition": "Doğadaki seslerin taklidiyle oluşmuş yansıma sözcüklerin, genellikle ünlü ve ünsüz uyumlarına uymama, farklı ses olayları gösterme durumudur. Bu sözcükler dilin doğal akışına aykırı sesler içerebilir.",
+    "examples": [
+      "horul horul",
+      "pat küt",
+      "şırıl şırıl"
+    ],
+    "relatedTerms": [
+      "Ses Yansımaları",
+      "İkilemelerde Ses Olayları",
+      "Hece Yapısı"
+    ],
+    "order": 114
+  },
+  {
+    "id": "kaynastirma_unlusu",
+    "term": "Kaynaştırma Ünlüsü",
+    "definition": "Türkçede iki ünlü arasına giren 'y, ş, s, n' harfleri kaynaştırma ünsüzü olarak bilinir. Ancak bazı durumlarda, özellikle tamlamalarda veya ekleşmelerde, iki ünsüz arasına giren ve sadece telaffuzu kolaylaştıran bir ünlü türemesi de kaynaştırma ünlüsü olarak adlandırılabilir.",
+    "examples": [
+      "İki-ş-er (ikişer)",
+      "Su-y-u (suyu)",
+      "O-n-un (onun)"
+    ],
+    "relatedTerms": [
+      "Ünlü Türemesi",
+      "Kaynaştırma Harfi",
+      "Yardımcı Ünlü"
+    ],
+    "order": 115
+  },
+  {
+    "id": "hece_düşmesi",
+    "term": "Hece Düşmesi (Ses Düşmesi)",
+    "definition": "İki heceli bazı sözcüklerin ünlüyle başlayan bir ek aldıklarında veya birleşik sözcük oluştururken ikinci hecedeki ünlünün düşmesidir. Bu durum, ünlü düşmesinin daha genel bir adlandırmasıdır ve hece sayısında azalmaya neden olur.",
+    "examples": [
+      "karın + -ı > karnı",
+      "beyin + -i > beyni",
+      "kayıp olmak > kaybolmak"
+    ],
+    "relatedTerms": [
+      "Ünlü Düşmesi",
+      "Ünsüz Düşmesi",
+      "Aşınma"
+    ],
+    "order": 116
+  },
+  {
+    "id": "kaynasma_uns_düşmesi",
+    "term": "Kaynaşma Ünsüzü Düşmesi",
+    "definition": "Türkçede nadiren görülen, iki ünlünün yan yana gelmesini engellemek için kullanılan kaynaştırma ünsüzlerinden birinin zamanla düşmesidir. Bu durum, dilin tarihsel gelişiminde veya bazı ağızlarda ortaya çıkabilir.",
+    "examples": [
+      "su-yu > su (eski kullanım)",
+      "iki-şer > ikişer (ş'nin düşmesi)"
+    ],
+    "relatedTerms": [
+      "Kaynaştırma Harfi",
+      "Ünlü Düşmesi",
+      "Aşınma"
+    ],
+    "order": 117
+  },
+  {
+    "id": "ikizlesme",
+    "term": "İkizleşme (Ünsüz İkizleşmesi)",
+    "definition": "Bir sözcüğün sonundaki ünsüzün, ünlüyle başlayan bir ek aldığında veya birleşik sözcük oluşumunda tekrar ederek ikizleşmesidir. Bu durum, genellikle Arapça kökenli sözcüklerde ünsüz türemesi olarak da adlandırılır.",
+    "examples": [
+      "hak + -ı > hakkı",
+      "sır + -ı > sırrı",
+      "af + -etmek > affetmek"
+    ],
+    "relatedTerms": [
+      "Ünsüz Türemesi",
+      "Ünsüz Benzeşmesi",
+      "Ünsüz Yumuşaması"
+    ],
+    "order": 118
+  },
+  {
+    "id": "unlu_uyumu_aykiriligi",
+    "term": "Ünlü Uyumu Aykırılığı",
+    "definition": "Büyük veya Küçük Ünlü Uyumu kurallarına uymayan sözcükleri ifade eder. Genellikle Türkçe olmayan kelimelerde veya zamanla dilimize yerleşmiş bazı istisnai Türkçe sözcüklerde görülür. Bu durum, dilbilgisi kurallarının istisnalarını oluşturur.",
+    "examples": [
+      "kitap (büyük ünlü uyumuna aykırı)",
+      "kalem (küçük ünlü uyumuna aykırı)",
+      "anne (büyük ünlü uyumuna aykırı)"
+    ],
+    "relatedTerms": [
+      "Büyük Ünlü Uyumu",
+      "Küçük Ünlü Uyumu",
+      "Yabancı Kökenli Sözcükler"
+    ],
+    "order": 119
+  },
+  {
+    "id": "hece_yapisi_degisimi",
+    "term": "Hece Yapısı Değişimi",
+    "definition": "Bir sözcüğün ek alması veya başka bir sözcükle birleşmesi sonucunda hece sayısının veya hece türünün (açık/kapalı hece) değişmesidir. Ünlü düşmesi, ünlü türemesi gibi ses olayları hece yapısını doğrudan etkiler.",
+    "examples": [
+      "burun (bu-run, iki hece) + -u > burnu (bur-nu, iki hece, hece türü değişimi)",
+      "kitap (ki-tap) + -lık > kitaplık (ki-tap-lık)"
+    ],
+    "relatedTerms": [
+      "Heceleme",
+      "Ünlü Düşmesi",
+      "Ünlü Türemesi"
+    ],
+    "order": 120
   }
 ]

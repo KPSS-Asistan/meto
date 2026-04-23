@@ -986,5 +986,327 @@
       "Söz Sanatları"
     ],
     "order": 70
+  },
+  {
+    "id": "somutlastirma",
+    "term": "Somutlaştırma",
+    "definition": "Soyut bir kavramın, zihinde daha kolay canlanabilmesi için somut bir sözcükle karşılanmasıdır.",
+    "examples": [
+      "Bu karmaşık meseleyi çözmek için biraz daha zamana ihtiyacımız var."
+    ],
+    "relatedTerms": [
+      "Soyutlaştırma",
+      "Anlam Aktarması"
+    ],
+    "order": 71
+  },
+  {
+    "id": "soyutlastirma",
+    "term": "Soyutlaştırma",
+    "definition": "Somut bir kavramın, zamanla veya bağlam içinde soyut bir anlam kazanarak kullanılmasıdır.",
+    "examples": [
+      "Olayın iç yüzünü henüz kimse anlamadı."
+    ],
+    "relatedTerms": [
+      "Somutlaştırma",
+      "Yan Anlam"
+    ],
+    "order": 72
+  },
+  {
+    "id": "yalinlik",
+    "term": "Yalınlık",
+    "definition": "Anlatımda süsten, gösterişten ve gereksiz sözcüklerden kaçınılması durumudur.",
+    "examples": [
+      "Yazar, süslü ifadelerden kaçınarak sade bir dil kullanmış."
+    ],
+    "relatedTerms": [
+      "Duruluk",
+      "Özlülük"
+    ],
+    "order": 73
+  },
+  {
+    "id": "duruluk",
+    "term": "Duruluk",
+    "definition": "Cümlede gereksiz sözcük bulunmaması, anlatımın fazlalıklardan arındırılmış olmasıdır.",
+    "examples": [
+      "Bu konuda karşılıklı olarak birbirimizle konuştuk."
+    ],
+    "relatedTerms": [
+      "Yalınlık",
+      "Anlatım Bozukluğu"
+    ],
+    "order": 74
+  },
+  {
+    "id": "ozluluk",
+    "term": "Özlülük",
+    "definition": "Az sözle çok şey anlatma sanatıdır; yoğun ve derinlikli bir ifade biçimidir.",
+    "examples": [
+      "Atasözleri, özlü sözlerin en güzel örnekleridir."
+    ],
+    "relatedTerms": [
+      "Yalınlık",
+      "Yoğunluk"
+    ],
+    "order": 75
+  },
+  {
+    "id": "yogunluk",
+    "term": "Yoğunluk",
+    "definition": "Bir sözcüğün veya cümlenin birden fazla anlam katmanını barındırması, derinlikli olmasıdır.",
+    "examples": [
+      "Şiirdeki imgeler, okuyucuya çok katmanlı bir dünya sunuyor."
+    ],
+    "relatedTerms": [
+      "Özlülük",
+      "Çok Anlamlılık"
+    ],
+    "order": 76
+  },
+  {
+    "id": "yansizlik",
+    "term": "Yansızlık (Nesnellik)",
+    "definition": "Yazarın kişisel görüşlerini katmadan, olayları olduğu gibi aktarmasıdır.",
+    "examples": [
+      "Yazar, karakterlerin hatalarını yargılamadan okuyucuya sunmuştur."
+    ],
+    "relatedTerms": [
+      "Öznellik",
+      "Eleştirel Bakış"
+    ],
+    "order": 77
+  },
+  {
+    "id": "oznellik",
+    "term": "Öznellik",
+    "definition": "Kişisel duygu, düşünce ve beğenilerin metne yansıtılmasıdır.",
+    "examples": [
+      "Bu roman, son yıllarda okuduğum en etkileyici eserdi."
+    ],
+    "relatedTerms": [
+      "Yansızlık",
+      "Üslup"
+    ],
+    "order": 78
+  },
+  {
+    "id": "tutarlilik",
+    "term": "Tutarlılık",
+    "definition": "Düşüncelerin birbirini desteklemesi, çelişki içermemesi ve mantıksal bir bütünlük taşımasıdır.",
+    "examples": [
+      "Yazarın giriş bölümündeki iddiası, sonuç bölümüyle örtüşüyor."
+    ],
+    "relatedTerms": [
+      "Anlamsal Çelişki",
+      "Bütünlük"
+    ],
+    "order": 79
+  },
+  {
+    "id": "aciklik",
+    "term": "Açıklık",
+    "definition": "Anlatımın herkes tarafından tek bir şekilde anlaşılması, yoruma kapalı olmasıdır.",
+    "examples": [
+      "Dün okulda seni gördüm cümlesi, kimin gördüğü belirsiz olduğu için açık değildir."
+    ],
+    "relatedTerms": [
+      "Anlatım Bozukluğu",
+      "Duruluk"
+    ],
+    "order": 80
+  },
+  {
+    "id": "yalin_anlatim",
+    "term": "Yalın Anlatım",
+    "definition": "Söz sanatlarına başvurmadan, herkesin anlayabileceği basitlikte bir dil kullanılmasıdır.",
+    "examples": [
+      "Çocuk kitaplarında genellikle yalın bir anlatım tercih edilir."
+    ],
+    "relatedTerms": [
+      "Yalınlık",
+      "Akıcılık"
+    ],
+    "order": 81
+  },
+  {
+    "id": "akicilik",
+    "term": "Akıcılık",
+    "definition": "Okumayı zorlaştıran, dile takılan sözcüklerin bulunmaması ve anlatımın pürüzsüz olmasıdır.",
+    "examples": [
+      "Yazarın dili o kadar akıcı ki kitap bir çırpıda bitiyor."
+    ],
+    "relatedTerms": [
+      "Yalınlık",
+      "Açıklık"
+    ],
+    "order": 82
+  },
+  {
+    "id": "etkileyicilik",
+    "term": "Etkileyicilik",
+    "definition": "Metnin okuyucunun duygu ve düşünce dünyasında iz bırakması, onu sarsmasıdır.",
+    "examples": [
+      "Final sahnesindeki betimlemeler, okuyucuyu derinden etkiledi."
+    ],
+    "relatedTerms": [
+      "Yoğunluk",
+      "Özlülük"
+    ],
+    "order": 83
+  },
+  {
+    "id": "ozgunluk",
+    "term": "Özgünlük",
+    "definition": "Bir eserin veya anlatımın başka hiçbir örneğe benzememesi, sanatçının kendine has bir üslup geliştirmesidir. Başkalarını taklit etmeden, yeni bir söyleyiş tarzı oluşturma durumudur.",
+    "examples": [
+      "Yazarın bu eseri, Türk edebiyatında daha önce denenmemiş bir teknikle kaleme alınmış.",
+      "Onun üslubu, kimseye benzemeyen bir renk taşıyor."
+    ],
+    "relatedTerms": [
+      "Üslup",
+      "Sanatlı Söyleyiş"
+    ],
+    "order": 84
+  },
+  {
+    "id": "etimolojik_koken",
+    "term": "Etimolojik Köken",
+    "definition": "Bir sözcüğün tarihsel süreçte hangi dilden geldiği ve hangi anlam değişimlerine uğradığıdır. Sözcüğün kökenbilimsel incelemesi, anlamını kavramada yardımcı olur.",
+    "examples": [
+      "'Okul' sözcüğünün kökeni 'okumak' eylemine dayanır.",
+      "'Vatan' sözcüğünün Arapça kökenli olması anlam derinliğini açıklar."
+    ],
+    "relatedTerms": [
+      "Sözcük Yapısı",
+      "Anlam Değişmesi"
+    ],
+    "order": 85
+  },
+  {
+    "id": "anlamsal_kayma",
+    "term": "Anlamsal Kayma",
+    "definition": "Bir sözcüğün zamanla temel anlamından uzaklaşarak farklı bir kavramı karşılamaya başlamasıdır. Dilin tarihsel gelişimi içerisinde görülen doğal bir süreçtir.",
+    "examples": [
+      "'Oğul' kelimesinin eski Türkçede hem erkek hem kız çocuk için kullanılması.",
+      "'Yavuz' kelimesinin eskiden 'kötü' anlamındayken bugün 'yiğit' anlamında kullanılması."
+    ],
+    "relatedTerms": [
+      "Anlam İyileşmesi",
+      "Anlam Kötüleşmesi"
+    ],
+    "order": 86
+  },
+  {
+    "id": "sozcuk_odagi",
+    "term": "Sözcük Odağı",
+    "definition": "Bir metnin veya cümlenin anlamını taşıyan anahtar sözcüklerdir. Bu sözcükler çıkarıldığında metnin ana fikri veya konusu anlaşılamaz hale gelir.",
+    "examples": [
+      "Bu metnin sözcük odağı 'küreselleşme' kavramıdır.",
+      "Cümledeki anahtar sözcükler metnin mesajını belirler."
+    ],
+    "relatedTerms": [
+      "Ana Fikir",
+      "Kavram Alanı"
+    ],
+    "order": 87
+  },
+  {
+    "id": "soz_obegi",
+    "term": "Söz Öbeği",
+    "definition": "Birden fazla sözcüğün bir araya gelerek tek bir kavramı karşılamasıdır. Deyimler, ikilemeler ve birleşik fiiller söz öbeği yapısına örnektir.",
+    "examples": [
+      "Gözden düşmek bir söz öbeğidir.",
+      "Etekleri zil çalmak bir deyimleşmiş söz öbeğidir."
+    ],
+    "relatedTerms": [
+      "Deyimleşme",
+      "İkilemeler"
+    ],
+    "order": 88
+  },
+  {
+    "id": "anlamsal_yogunluk",
+    "term": "Anlamsal Yoğunluk",
+    "definition": "Az sayıda sözcükle çok fazla anlamın ifade edilmesidir. Şiir dilinde ve özlü sözlerde sıkça rastlanan bir anlatım özelliğidir.",
+    "examples": [
+      "Az sözle çok şey anlatmak onun tarzıydı.",
+      "Şiirindeki anlamsal yoğunluk okuyucuyu düşündürüyor."
+    ],
+    "relatedTerms": [
+      "Yalınlık",
+      "Özlü Söz"
+    ],
+    "order": 89
+  },
+  {
+    "id": "soz_sanati",
+    "term": "Söz Sanatı",
+    "definition": "Sözcüklerin gerçek anlamları dışında, estetik bir etki yaratmak amacıyla kullanılmasıdır. Sözcükte anlam bilgisini pekiştiren ve edebi metinleri çözümlemeyi sağlayan araçlardır.",
+    "examples": [
+      "Teşbih (benzetme) bir söz sanatıdır.",
+      "İstiare (eğretileme) anlamı derinleştiren bir sanattır."
+    ],
+    "relatedTerms": [
+      "Mecaz",
+      "Anlam Aktarması"
+    ],
+    "order": 90
+  },
+  {
+    "id": "ozlu_anlatim",
+    "term": "Özlülük (Yoğunluk)",
+    "definition": "Az sözle çok şey anlatma sanatıdır. Anlatımda gereksiz sözcüklerden kaçınılarak anlamın derinleştirilmesi ve yoğunlaştırılmasıdır.",
+    "examples": [
+      "Atasözleri, özlü anlatımın en belirgin örnekleridir."
+    ],
+    "relatedTerms": [
+      "Anlamsal Yoğunluk",
+      "Yalınlık"
+    ],
+    "order": 91
+  },
+  {
+    "id": "anlamsal_baglam",
+    "term": "Anlamsal Bağlam",
+    "definition": "Bir sözcüğün cümle içindeki diğer kelimelerle kurduğu anlam ilişkisiyle kazandığı değerdir. Sözcüğün gerçek anlamı, cümledeki bağlamı sayesinde özelleşebilir veya değişebilir.",
+    "examples": [
+      "O, çok ağır bir adam.",
+      "Bu çanta çok ağır."
+    ],
+    "relatedTerms": [
+      "Cümle Anlamı",
+      "Sözcük Öbeği"
+    ],
+    "order": 92
+  },
+  {
+    "id": "anlamsal_pekiştirme",
+    "term": "Anlamsal Pekiştirme",
+    "definition": "Bir sözcüğün anlamını güçlendirmek, vurguyu artırmak için kullanılan yöntemlerdir. Genellikle 'm, p, r, s' harfleriyle veya benzer anlamlı sözcüklerin yan yana gelmesiyle yapılır.",
+    "examples": [
+      "Masmavi deniz.",
+      "Tertemiz bir oda."
+    ],
+    "relatedTerms": [
+      "Vurgu",
+      "Anlatım Gücü"
+    ],
+    "order": 93
+  },
+  {
+    "id": "sozcukte_yapisal_anlam",
+    "term": "Sözcükte Yapısal Anlam",
+    "definition": "Sözcüğün kök ve eklerinin birleşerek oluşturduğu yeni anlam katmanıdır. Yapım ekleri, sözcüğün temel anlamını değiştirerek yeni bir anlam türetir.",
+    "examples": [
+      "Göz (organ) -> Gözlük (araç).",
+      "Kitap (nesne) -> Kitapçı (meslek)."
+    ],
+    "relatedTerms": [
+      "Yapım Eki",
+      "Kök Bilgisi"
+    ],
+    "order": 94
   }
 ]

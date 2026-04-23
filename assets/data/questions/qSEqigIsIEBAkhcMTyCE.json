@@ -2338,14 +2338,15 @@
     "o": [
       "15 Mayıs 2023",
       "15 mayıs 2023",
-      "20 Mayıs 2023",
+      "Salı günü",
       "Mayıs'ta",
-      "Mayıs'ın 15'i"
+      "29 Ekim Cumhuriyet Bayramı"
     ],
     "a": 1,
-    "e": "Doğru cevap B'dir. Belirli bir tarih bildiren ay adları büyük harfle başlar.",
+    "e": "Belirli bir tarih bildiren ay ve gün adları büyük harfle başlar. '15 mayıs 2023' ifadesinde 'mayıs' kelimesi belirli bir tarihi belirttiği halde küçük harfle yazıldığı için yazım yanlışı yapılmıştır. Diğer şıklarda yazım yanlışı bulunmamaktadır.",
     "_part": 136,
-    "_generatedAt": "2026-04-15T18:36:26.860Z"
+    "_generatedAt": "2026-04-15T18:36:26.860Z",
+    "type": "classic"
   },
   {
     "id": "q37",
@@ -2447,13 +2448,14 @@
       "TDK'nin",
       "TDK'nın",
       "TDK'nun",
-      "TDK'nin",
-      "TDK'un"
+      "TDK'ye",
+      "TDK'dan"
     ],
     "a": 0,
-    "e": "Doğru cevap A'dır. Kısaltmalarda son harfin okunuşu esas alınır.",
+    "e": "Türk Dil Kurumu'nun kısaltması olan TDK, son harfi 'K' olarak okunduğu için, bu harfe gelen ek 'nin' şeklinde olmalıdır. Kısaltmalara getirilen ekler, kısaltmanın son harfinin okunuşuna göre belirlenir. Bu kurala göre 'TDK'nin' doğru kullanımdır.",
     "_part": 142,
-    "_generatedAt": "2026-04-15T18:36:26.860Z"
+    "_generatedAt": "2026-04-15T18:36:26.860Z",
+    "type": "classic"
   },
   {
     "id": "q43",
@@ -2514,7 +2516,7 @@
     "topicId": "qSEqigIsIEBAkhcMTyCE",
     "subtopicId": "virgul-kullanim",
     "subtopic": "Virgül Kullanımı",
-    "q": "Bir konuşma metninde, yüklemin önünde sıralanan birden fazla öge varsa virgülle ayrılır. Aşağıdaki cümlede bu kurala göre virgül kullanımı en uygundur:",
+    "q": "Bir konuşma metninde, yüklemin önünde sıralanan birden fazla öge varsa virgülle ayrılır. Aşağıdaki cümlede bu kurala göre virgül kullanımı en uygundur:?",
     "o": [
       "Annesi babası ve kardeşleri pikniğe gitti.",
       "Annesi, babası, kardeşleri pikniğe gitti.",

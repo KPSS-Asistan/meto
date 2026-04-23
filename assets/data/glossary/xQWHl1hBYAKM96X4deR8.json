@@ -1228,5 +1228,460 @@
       "Diplomasi"
     ],
     "order": 86
+  },
+  {
+    "id": "cominform",
+    "term": "Cominform",
+    "definition": "SSCB'nin, Batı bloğunun Marshall Planı'na karşı 1947'de kurduğu, komünist partilerin faaliyetlerini koordine eden teşkilattır. Komintern'in devamı niteliğindedir.",
+    "examples": [
+      "Doğu bloğu ülkelerinin dış politikalarını Moskova'ya bağlamıştır."
+    ],
+    "relatedTerms": [
+      "Doğu Bloğu",
+      "Molotov Planı",
+      "SSCB"
+    ],
+    "order": 87
+  },
+  {
+    "id": "taliban",
+    "term": "Taliban",
+    "definition": "Afganistan'da 1990'ların ortasında ortaya çıkan, şeriat kurallarını katı bir şekilde uygulamayı hedefleyen radikal İslamcı örgüt ve siyasi harekettir.",
+    "examples": [
+      "Afganistan'daki iç savaş sonrası yönetimi ele geçirmişlerdir."
+    ],
+    "relatedTerms": [
+      "Afganistan",
+      "Sovyet-Afgan Savaşı",
+      "Radikalizm"
+    ],
+    "order": 88
+  },
+  {
+    "id": "nelson_mandela",
+    "term": "Nelson Mandela",
+    "definition": "Güney Afrika'da ırkçı 'Apartheid' rejimine karşı mücadele eden, uzun yıllar hapis yattıktan sonra ülkenin ilk siyahi devlet başkanı olan liderdir.",
+    "examples": [
+      "Apartheid rejiminin sona ermesinde sembol isimdir."
+    ],
+    "relatedTerms": [
+      "Apartheid",
+      "Güney Afrika",
+      "İnsan Hakları"
+    ],
+    "order": 89
+  },
+  {
+    "id": "berlin_buhranı",
+    "term": "Berlin Buhranı",
+    "definition": "II. Dünya Savaşı sonrası Almanya ve Berlin'in işgal bölgelerine ayrılmasıyla başlayan, SSCB'nin Berlin'e giden yolları kapatmasıyla tırmanan gerilimdir. Berlin Duvarı'nın yapılmasına giden süreci tetiklemiştir.",
+    "examples": [
+      "Berlin Hava Köprüsü",
+      "Almanya'nın ikiye bölünmesi"
+    ],
+    "relatedTerms": [
+      "Almanya'nın Bölünmesi",
+      "Soğuk Savaş",
+      "Berlin Duvarı"
+    ],
+    "order": 90
+  },
+  {
+    "id": "shanghai_beslisi",
+    "term": "Şanghay Beşlisi",
+    "definition": "1996 yılında Çin, Rusya, Kazakistan, Kırgızistan ve Tacikistan arasında sınır güvenliğini sağlamak amacıyla kurulan iş birliği platformudur. Daha sonra Özbekistan'ın katılımıyla Şanghay İşbirliği Örgütü'ne dönüşmüştür.",
+    "examples": [
+      "Bölgesel güvenlik iş birliği",
+      "Orta Asya politikaları"
+    ],
+    "relatedTerms": [
+      "Çin",
+      "Rusya",
+      "Orta Asya"
+    ],
+    "order": 91
+  },
+  {
+    "id": "ikinci_dunya_sonrasi_almanya",
+    "term": "Almanya'nın Bölünmesi",
+    "definition": "II. Dünya Savaşı sonrası Almanya'nın SSCB, ABD, İngiltere ve Fransa tarafından işgal bölgelerine ayrılmasıdır. 1949'da Federal Almanya ve Demokratik Almanya olarak ikiye bölünmüştür.",
+    "examples": [
+      "Berlin Duvarı",
+      "Almanya'nın birleşmesi (1990)"
+    ],
+    "relatedTerms": [
+      "Berlin Buhranı",
+      "Soğuk Savaş",
+      "SSCB"
+    ],
+    "order": 92
+  },
+  {
+    "id": "ikinci_dunya_sonrasi_japonya",
+    "term": "Japonya'nın Yeniden Yapılanması",
+    "definition": "II. Dünya Savaşı sonrası ABD işgali altında hazırlanan 1947 Anayasası ile Japonya'nın militarist yapıdan arındırılması ve demokratikleşmesi sürecidir. Japonya bu süreçte ekonomik bir dev haline gelmiştir.",
+    "examples": [
+      "Japonya'nın silahsızlanması",
+      "Ekonomik mucize"
+    ],
+    "relatedTerms": [
+      "II. Dünya Savaşı",
+      "ABD",
+      "Pasifik"
+    ],
+    "order": 93
+  },
+  {
+    "id": "salt_gorusmeleri",
+    "term": "SALT (Stratejik Silahları Sınırlandırma Görüşmeleri)",
+    "definition": "ABD ve SSCB arasında nükleer silahlanma yarışını kontrol altına almak amacıyla yapılan görüşmelerdir. Detant döneminin en önemli silahsızlanma adımlarından biridir.",
+    "examples": [
+      "SALT I",
+      "SALT II"
+    ],
+    "relatedTerms": [
+      "Detant",
+      "Nükleer Silahlanma",
+      "Soğuk Savaş"
+    ],
+    "order": 94
+  },
+  {
+    "id": "molotof_plani",
+    "term": "Molotof Planı",
+    "definition": "Marshall Planı'na karşı SSCB'nin Doğu Bloku ülkelerinin ekonomik kalkınmasını sağlamak ve onları kendine bağlamak için oluşturduğu ekonomik iş birliği projesidir. Bu planın devamında COMECON kurulmuştur.",
+    "examples": [
+      "Doğu Bloku ülkelerinin ekonomik entegrasyonu"
+    ],
+    "relatedTerms": [
+      "Marshall Planı",
+      "SSCB",
+      "COMECON"
+    ],
+    "order": 95
+  },
+  {
+    "id": "agik",
+    "term": "AGİK (Avrupa Güvenlik ve İşbirliği Konferansı)",
+    "definition": "Avrupa'da güvenliği sağlamak ve devletler arası iş birliğini artırmak amacıyla 1970'lerde kurulan platformdur. Günümüzde AGİT adıyla faaliyetlerini sürdürmektedir.",
+    "examples": [
+      "Helsinki Nihai Senedi",
+      "Avrupa güvenliği"
+    ],
+    "relatedTerms": [
+      "Avrupa Birliği",
+      "Soğuk Savaş",
+      "Helsinki"
+    ],
+    "order": 96
+  },
+  {
+    "id": "baas_rejimi",
+    "term": "Baas Rejimi",
+    "definition": "Arap milliyetçiliği ve sosyalizmini temel alan, özellikle Irak ve Suriye'de etkili olan siyasi ideoloji ve yönetim biçimidir. Pan-Arabizm ideolojisini savunarak bölgede güçlü bir Arap birliği kurmayı hedeflemiştir.",
+    "examples": [
+      "Saddam Hüseyin dönemi Irak",
+      "Hafız Esad dönemi Suriye"
+    ],
+    "relatedTerms": [
+      "Pan-Arabizm",
+      "Saddam Hüseyin",
+      "Ortadoğu Siyaseti"
+    ],
+    "order": 97
+  },
+  {
+    "id": "soğuk_savaş",
+    "term": "Soğuk Savaş",
+    "definition": "II. Dünya Savaşı sonrası ABD liderliğindeki Batı Bloku ile SSCB liderliğindeki Doğu Bloku arasında yaşanan ideolojik, siyasi ve askeri gerginlik dönemidir. Doğrudan sıcak çatışmaya dönüşmeden, vekalet savaşları ve silahlanma yarışı şeklinde sürmüştür.",
+    "examples": [
+      "Küba Füze Krizi, Soğuk Savaş'ın zirve noktalarından biridir.",
+      "Kore Savaşı, Soğuk Savaş döneminin vekalet savaşlarından biridir."
+    ],
+    "relatedTerms": [
+      "Doğu Bloku",
+      "Batı Bloku",
+      "Demir Perde",
+      "NATO",
+      "Varşova Paktı"
+    ],
+    "order": 98
+  },
+  {
+    "id": "demokratikleşme_hareketleri_doğu_avrupa",
+    "term": "Doğu Avrupa Demokratikleşme Hareketleri",
+    "definition": "1980'lerin sonlarında Doğu Avrupa ülkelerinde Sovyet kontrolüne ve komünist rejimlere karşı ortaya çıkan halk ayaklanmaları ve reform hareketleridir. Bu hareketler, Berlin Duvarı'nın yıkılması ve komünist rejimlerin çöküşüyle sonuçlanmıştır.",
+    "examples": [
+      "Çekoslovakya'daki Kadife Devrim, kansız bir geçişle komünist rejimi sonlandırmıştır.",
+      "Polonya'daki Solidarność (Dayanışma) hareketi, bu sürecin öncülerindendir."
+    ],
+    "relatedTerms": [
+      "Kadife Devrim",
+      "Berlin Duvarı'nın Yıkılması",
+      "SSCB'nin Dağılması"
+    ],
+    "order": 99
+  },
+  {
+    "id": "avrupa_kömür_ve_çelik_topluluğu",
+    "term": "Avrupa Kömür ve Çelik Topluluğu (AKÇT)",
+    "definition": "1951'de Fransa, Batı Almanya, İtalya, Belçika, Hollanda ve Lüksemburg tarafından kurulan uluslararası bir örgüttür. Temel amacı, üye ülkelerin kömür ve çelik üretimini ortak bir otorite altında toplayarak savaş riskini azaltmak ve ekonomik entegrasyonu sağlamaktır. Avrupa Birliği'nin temelini oluşturmuştur.",
+    "examples": [
+      "AKÇT, ekonomik işbirliği yoluyla siyasi entegrasyonun ilk adımıydı.",
+      "Schuman Deklarasyonu, AKÇT'nin kurulmasına giden yolu açmıştır."
+    ],
+    "relatedTerms": [
+      "Schuman Deklarasyonu",
+      "Roma Antlaşması",
+      "Avrupa Ekonomik Topluluğu (AET)"
+    ],
+    "order": 100
+  },
+  {
+    "id": "pan_afrikanizm",
+    "term": "Pan-Afrikanizm",
+    "definition": "Afrika kökenli tüm halkların birliğini ve dayanışmasını savunan siyasi ve kültürel bir ideolojidir. Afrika kıtasının sömürgecilikten kurtulması ve siyasi birliğini sağlaması hedeflenmiştir.",
+    "examples": [
+      "Afrika Birliği Örgütü (şimdiki Afrika Birliği), Pan-Afrikanizm ideolojisinin bir ürünüdür.",
+      "Kwame Nkrumah ve Patrice Lumumba gibi liderler, Pan-Afrikanizm'in önemli temsilcileridir."
+    ],
+    "relatedTerms": [
+      "Dekolonizasyon",
+      "Afrika Birliği",
+      "Sömürgecilik"
+    ],
+    "order": 101
+  },
+  {
+    "id": "globalleşme_küreselleşme",
+    "term": "Globalleşme (Küreselleşme)",
+    "definition": "Dünya genelinde ekonomik, kültürel, siyasi ve teknolojik etkileşimlerin artmasıyla ortaya çıkan bir süreçtir. Ulusal sınırlar ötesi ilişkilerin yoğunlaşması ve karşılıklı bağımlılığın artması anlamına gelir.",
+    "examples": [
+      "İnternet ve mobil iletişim teknolojileri, küreselleşmenin önemli araçlarıdır.",
+      "Çok uluslu şirketlerin dünya genelinde faaliyet göstermesi, ekonomik küreselleşmenin bir göstergesidir."
+    ],
+    "relatedTerms": [
+      "Neoliberalizm",
+      "Uluslararası Ticaret",
+      "Teknolojik Gelişmeler"
+    ],
+    "order": 102
+  },
+  {
+    "id": "barış_için_ortaklık",
+    "term": "Barış İçin Ortaklık (BiO)",
+    "definition": "1994 yılında NATO tarafından kurulan bir programdır. Amacı, NATO üyesi olmayan Avrupa ve eski Sovyetler Birliği ülkeleriyle askeri işbirliğini geliştirmek, güven inşa etmek ve bölgesel istikrara katkıda bulunmaktır.",
+    "examples": [
+      "Türkiye, BiO programına aktif olarak katılan ülkelerden biridir.",
+      "BiO, askeri tatbikatlar ve eğitim programları aracılığıyla işbirliğini sağlamıştır."
+    ],
+    "relatedTerms": [
+      "NATO",
+      "Avrupa Güvenlik ve İşbirliği Teşkilatı (AGİT)",
+      "Soğuk Savaş Sonrası"
+    ],
+    "order": 103
+  },
+  {
+    "id": "terörle_küresel_mücadele",
+    "term": "Terörle Küresel Mücadele",
+    "definition": "11 Eylül saldırıları sonrasında ABD liderliğinde başlatılan ve uluslararası alanda terörizme karşı yürütülen askeri, siyasi ve diplomatik çabaların bütünüdür. El Kaide ve daha sonra IŞİD gibi örgütlere karşı odaklanmıştır.",
+    "examples": [
+      "Afganistan'a yönelik askeri operasyonlar, bu mücadelenin ilk adımlarından biriydi.",
+      "Birleşmiş Milletler Güvenlik Konseyi, terörle mücadele kararları almıştır."
+    ],
+    "relatedTerms": [
+      "11 Eylül Saldırıları",
+      "El Kaide",
+      "IŞİD",
+      "Asimetrik Savaş"
+    ],
+    "order": 104
+  },
+  {
+    "id": "nükleer_silahların_yayılmasının_önlenmesi_antlaşması",
+    "term": "Nükleer Silahların Yayılmasının Önlenmesi Antlaşması (NPT)",
+    "definition": "1968'de imzalanan ve 1970'te yürürlüğe giren uluslararası bir antlaşmadır. Amacı, nükleer silahların yayılmasını engellemek, nükleer silahsızlanmayı teşvik etmek ve nükleer enerjinin barışçıl kullanımını sağlamaktır.",
+    "examples": [
+      "Antlaşma, nükleer silaha sahip beş ülkeyi (ABD, Rusya, Çin, İngiltere, Fransa) tanımıştır.",
+      "İran'ın nükleer programı, NPT çerçevesinde uluslararası denetime tabi tutulmuştur."
+    ],
+    "relatedTerms": [
+      "Silahsızlanma",
+      "Uluslararası Atom Enerjisi Ajansı (UAEA)",
+      "Soğuk Savaş"
+    ],
+    "order": 105
+  },
+  {
+    "id": "afganistan_işgali_sscb",
+    "term": "Afganistan'ın SSCB Tarafından İşgali",
+    "definition": "1979 yılında Sovyetler Birliği'nin Afganistan'a askeri müdahalesi ve ülkeyi işgal etmesidir. Bu işgal, Soğuk Savaş'ın son dönemlerindeki en önemli olaylardan biri olup, mücahitlerin direnişi ve ABD'nin desteğiyle Sovyetler Birliği'nin geri çekilmesiyle sonuçlanmıştır.",
+    "examples": [
+      "ABD, Sovyet işgaline karşı mücahitlere silah ve eğitim desteği sağlamıştır.",
+      "İşgal, Sovyetler Birliği'nin ekonomik ve siyasi olarak zayıflamasına katkıda bulunmuştur."
+    ],
+    "relatedTerms": [
+      "Soğuk Savaş",
+      "Mücahitler",
+      "Taliban",
+      "Usame Bin Ladin"
+    ],
+    "order": 106
+  },
+  {
+    "id": "çekiç_güç",
+    "term": "Çekiç Güç",
+    "definition": "1991 Körfez Savaşı sonrası Kuzey Irak'ta uçuşa yasak bölgeyi denetlemek ve Kürt nüfusunu Saddam Hüseyin rejiminin saldırılarından korumak amacıyla kurulan çok uluslu askeri güçtür. Türkiye'deki İncirlik Üssü'nü kullanmıştır.",
+    "examples": [
+      "Çekiç Güç'ün varlığı, Türkiye'nin Irak sınırındaki güvenliğini etkilemiştir.",
+      "Operasyon Provide Comfort (Huzur Harekatı) kapsamında faaliyet göstermiştir."
+    ],
+    "relatedTerms": [
+      "Körfez Savaşı",
+      "Kuzey Irak",
+      "Uçuşa Yasak Bölge",
+      "İncirlik Üssü"
+    ],
+    "order": 107
+  },
+  {
+    "id": "dot-com_balonu",
+    "term": "Dot-com Balonu",
+    "definition": "1990'lı yılların sonlarında internet tabanlı şirketlerin hisse senetlerinde yaşanan spekülatif yükseliş ve ardından gelen ani çöküştür. Bu dönemde birçok teknoloji şirketi değerini kaybetmiş veya iflas etmiştir.",
+    "examples": [
+      "Birçok internet girişiminin gerçek bir iş modeli olmamasına rağmen yüksek değerlemelere ulaşması balonun göstergesiydi.",
+      "2000'li yılların başında balonun patlamasıyla küresel ekonomide bir durgunluk yaşanmıştır."
+    ],
+    "relatedTerms": [
+      "Küreselleşme",
+      "Teknoloji Devrimi",
+      "Ekonomik Krizler"
+    ],
+    "order": 108
+  },
+  {
+    "id": "kyoto_protokolü",
+    "term": "Kyoto Protokolü",
+    "definition": "1997 yılında Japonya'nın Kyoto şehrinde imzalanan ve küresel ısınmaya neden olan sera gazı emisyonlarını azaltmayı hedefleyen uluslararası bir anlaşmadır. Gelişmiş ülkeler için bağlayıcı emisyon azaltım hedefleri belirlemiştir.",
+    "examples": [
+      "ABD'nin protokolü onaylamaması, etkinliği konusunda tartışmalara yol açmıştır.",
+      "Protokol, karbon ticareti gibi mekanizmalarla emisyon azaltımını teşvik etmiştir."
+    ],
+    "relatedTerms": [
+      "Küresel Isınma",
+      "Sera Gazları",
+      "Çevre Politikaları",
+      "Paris Anlaşması"
+    ],
+    "order": 109
+  },
+  {
+    "id": "bretton_woods_sistemi",
+    "term": "Bretton Woods Sistemi",
+    "definition": "1944 yılında Bretton Woods Konferansı'nda kurulan ve II. Dünya Savaşı sonrası uluslararası para sistemini düzenleyen yapıdır. ABD dolarını altın standardına bağlayarak diğer para birimlerinin dolara sabitlenmesini öngörmüştür.",
+    "examples": [
+      "Uluslararası Para Fonu (IMF) ve Dünya Bankası, Bretton Woods Sistemi'nin ürünleridir.",
+      "1971'de Nixon'ın doların altın karşılığını kaldırmasıyla sistem sona ermiştir."
+    ],
+    "relatedTerms": [
+      "IMF",
+      "Dünya Bankası",
+      "Altın Standardı",
+      "Dolar"
+    ],
+    "order": 110
+  },
+  {
+    "id": "kültür_ihtilali",
+    "term": "Büyük Proleter Kültür İhtilali (Çin)",
+    "definition": "Çin'de Mao Zedong tarafından başlatılan ve 1966-1976 yılları arasında süren siyasi ve sosyal hareket. Amacı, Komünist Parti içindeki muhalif unsurları tasfiye etmek ve Çin toplumunda komünist ideolojiyi pekiştirmekti.",
+    "examples": [
+      "Kültür İhtilali sırasında Kızıl Muhafızlar, geleneksel Çin kültürüne ait birçok eseri yok etmiştir.",
+      "Bu dönemde entelektüeller ve parti yetkilileri baskı görmüştür."
+    ],
+    "relatedTerms": [
+      "Mao Zedong",
+      "Çin Komünist Partisi",
+      "Kızıl Muhafızlar"
+    ],
+    "order": 111
+  },
+  {
+    "id": "prag_baharı",
+    "term": "Prag Baharı",
+    "definition": "1968 yılında Çekoslovakya'da Alexander Dubček liderliğinde başlatılan liberalleşme ve demokratikleşme hareketidir. Sovyetler Birliği ve Varşova Paktı ülkeleri tarafından askeri müdahale ile bastırılmıştır.",
+    "examples": [
+      "Dubček'in 'insan yüzlü sosyalizm' sloganı, Prag Baharı'nın özünü yansıtmıştır.",
+      "Bu olay, Sovyetler Birliği'nin Doğu Avrupa üzerindeki hegemonyasını pekiştirmiştir."
+    ],
+    "relatedTerms": [
+      "Alexander Dubček",
+      "Varşova Paktı",
+      "Sovyetler Birliği"
+    ],
+    "order": 112
+  },
+  {
+    "id": "kıbrıs_barış_harekatı",
+    "term": "Kıbrıs Barış Harekâtı",
+    "definition": "Türkiye'nin 1974 yılında Kıbrıs'taki Türk azınlığın güvenliğini sağlamak ve Ada'daki Rum darbesini durdurmak amacıyla gerçekleştirdiği askeri müdahaledir. Harekât sonucunda Kıbrıs fiilen ikiye bölünmüştür.",
+    "examples": [
+      "Harekât, Yunanistan'daki cunta yönetiminin sona ermesine katkıda bulunmuştur.",
+      "Kıbrıs sorunu, günümüzde de Türkiye'nin dış politikasında önemli bir yer tutmaktadır."
+    ],
+    "relatedTerms": [
+      "Kıbrıs Sorunu",
+      "Ege Sorunları",
+      "Türkiye-Yunanistan İlişkileri"
+    ],
+    "order": 113
+  },
+  {
+    "id": "doktrinler_soğuk_savaş",
+    "term": "Soğuk Savaş Doktrinleri",
+    "definition": "Soğuk Savaş döneminde ABD ve SSCB'nin kendi ideolojilerini yaymak ve etki alanlarını genişletmek için geliştirdiği siyasi ve askeri stratejilerdir. Truman Doktrini ve Eisenhower Doktrini gibi örnekleri vardır.",
+    "examples": [
+      "Truman Doktrini, komünizm tehdidi altındaki ülkelere ekonomik ve askeri yardım sağlamayı hedeflemiştir.",
+      "Eisenhower Doktrini, Ortadoğu'da komünist yayılmacılığı engellemeyi amaçlamıştır."
+    ],
+    "relatedTerms": [
+      "Truman Doktrini",
+      "Eisenhower Doktrini",
+      "Soğuk Savaş",
+      "Çevreleme Politikası"
+    ],
+    "order": 114
+  },
+  {
+    "id": "ulusal_bagimsizlik_hareketleri_afrika_asya",
+    "term": "Afrika ve Asya'da Ulusal Bağımsızlık Hareketleri",
+    "definition": "II. Dünya Savaşı sonrasında sömürgeci güçlere karşı Afrika ve Asya kıtalarında ortaya çıkan siyasi ve askeri mücadelelerdir. Bu hareketler sonucunda birçok ülke bağımsızlığını kazanmış ve dünya siyasetinde yeni aktörler ortaya çıkmıştır. Sömürgeciliğin sona ermesi ve Üçüncü Dünya ülkelerinin oluşumunda kilit rol oynamışlardır.",
+    "examples": [
+      "Hindistan'ın Mahatma Gandhi önderliğinde İngiliz sömürgeciliğine karşı verdiği bağımsızlık mücadelesi.",
+      "Cezayir'in Fransa'ya karşı kazandığı bağımsızlık savaşı."
+    ],
+    "relatedTerms": [
+      "Sömürgecilik",
+      "Bağlantısızlar Hareketi",
+      "Dekolonizasyon",
+      "Üçüncü Dünya"
+    ],
+    "order": 115
+  },
+  {
+    "id": "berlin_duvarinin_yıkılması",
+    "term": "Berlin Duvarı'nın Yıkılması",
+    "definition": "9 Kasım 1989 tarihinde Doğu Almanya hükümetinin seyahat kısıtlamalarını kaldırmasıyla Berlin Duvarı'nın yıkılması olayıdır. Bu olay, Doğu Bloku'nun çöküşünün ve Soğuk Savaş'ın sona erişinin sembolü haline gelmiştir. Almanya'nın birleşmesine giden yolu açmıştır.",
+    "examples": [
+      "Berlin Duvarı'nın yıkılması, Doğu Avrupa'daki komünist rejimlerin sonunu hızlandırdı.",
+      "Bu olay, Alman halkı için büyük bir sevinç kaynağı oldu."
+    ],
+    "relatedTerms": [
+      "Almanya'nın Birleşmesi",
+      "Soğuk Savaş'ın Sonu",
+      "Doğu Bloku"
+    ],
+    "order": 116
   }
 ]

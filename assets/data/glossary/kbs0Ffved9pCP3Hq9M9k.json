@@ -1362,5 +1362,473 @@
       "Tarım"
     ],
     "order": 84
+  },
+  {
+    "id": "matematiksel_konum",
+    "term": "Türkiye'nin Matematiksel Konumu",
+    "definition": "Türkiye'nin Ekvator'a ve Greenwich'e göre belirlenen, paralel ve meridyen değerlerine dayalı konumudur. Dört mevsimin belirgin yaşanması ve orta kuşakta yer alması bu konumun sonucudur.",
+    "examples": [
+      "Türkiye'nin 36-42 kuzey paralelleri arasında yer alması"
+    ],
+    "relatedTerms": [
+      "Orta Kuşak",
+      "Yerel Saat",
+      "Güneş Işınları"
+    ],
+    "order": 85
+  },
+  {
+    "id": "ozel_konum",
+    "term": "Türkiye'nin Özel Konumu",
+    "definition": "Türkiye'nin denizlere, kıtalara, boğazlara ve yer şekillerine göre belirlenen göreceli konumudur. Kısa mesafede iklim çeşitliliğinin görülmesi ve jeopolitik önem bu konumla ilgilidir.",
+    "examples": [
+      "İstanbul ve Çanakkale boğazlarına sahip olması",
+      "Üç tarafının denizlerle çevrili olması"
+    ],
+    "relatedTerms": [
+      "Jeopolitik",
+      "Yükselti",
+      "Denizellik"
+    ],
+    "order": 86
+  },
+  {
+    "id": "bakı_etkisi",
+    "term": "Bakı Etkisi",
+    "definition": "Dağların güneşe dönük yamaçlarının diğer yamaçlara göre daha sıcak ve aydınlık olması durumudur. Türkiye'de dağların güney yamaçları bakı etkisindedir.",
+    "examples": [
+      "Güney yamaçlarda karların daha erken erimesi",
+      "Güney yamaçlarda yerleşmelerin daha yoğun olması"
+    ],
+    "relatedTerms": [
+      "Güneşlenme Süresi",
+      "Sıcaklık Farkı",
+      "Yamaç Dengesi"
+    ],
+    "order": 87
+  },
+  {
+    "id": "karstik_sekiller",
+    "term": "Karstik Şekiller",
+    "definition": "Kalker, jips ve kaya tuzu gibi kolay eriyebilen kayaçların bulunduğu alanlarda suların etkisiyle oluşan yeryüzü şekilleridir. Özellikle Akdeniz Bölgesi'nde yaygındır.",
+    "examples": [
+      "Obruk",
+      "Mağara",
+      "Traverten"
+    ],
+    "relatedTerms": [
+      "Kimyasal Tortul Kayaçlar",
+      "Polye",
+      "Uvala"
+    ],
+    "order": 88
+  },
+  {
+    "id": "buzul_sekilleri",
+    "term": "Buzul Şekilleri",
+    "definition": "Yüksek dağlık alanlarda geçmişteki veya günümüzdeki buzullaşma etkisiyle oluşan aşınım ve birikim şekilleridir. Türkiye'de yükseltinin fazla olduğu dağlarda görülür.",
+    "examples": [
+      "Sirk gölleri",
+      "Hörgüç kaya",
+      "Morenler"
+    ],
+    "relatedTerms": [
+      "Sirk",
+      "Buzul Vadisi",
+      "Yüksek Dağlık Alanlar"
+    ],
+    "order": 89
+  },
+  {
+    "id": "kıyı_tipleri",
+    "term": "Türkiye'nin Kıyı Tipleri",
+    "definition": "Deniz ve kara etkileşimiyle oluşan, kıyı çizgisinin şekillenmesini ifade eden jeomorfolojik yapılardır. Türkiye'de enine, boyuna, dalmaçya ve ria tipi kıyılar görülür.",
+    "examples": [
+      "Ege'deki enine kıyılar",
+      "Karadeniz'deki boyuna kıyılar",
+      "Kaş çevresindeki dalmaçya kıyılar"
+    ],
+    "relatedTerms": [
+      "Falez",
+      "Kıyı Çizgisi",
+      "Kıta Sahanlığı"
+    ],
+    "order": 90
+  },
+  {
+    "id": "kıta_sahanligi",
+    "term": "Kıta Sahanlığı",
+    "definition": "Deniz kıyısından başlayarak 200 metre derinliğe kadar olan deniz tabanıdır. Ege'de geniş, Karadeniz ve Akdeniz'de dardır.",
+    "examples": [
+      "Ege'de kıta sahanlığının geniş olması",
+      "Akdeniz'de falezlerin yaygın olması"
+    ],
+    "relatedTerms": [
+      "Deniz Derinliği",
+      "Kıyı Şeridi",
+      "Batimetri"
+    ],
+    "order": 91
+  },
+  {
+    "id": "volkanik_sekiller",
+    "term": "Volkanik Şekiller",
+    "definition": "Yer altındaki magmanın yeryüzüne çıkması veya yer kabuğuna sokulmasıyla oluşan şekillerdir. İç Anadolu ve Doğu Anadolu'da yoğunlaşmıştır.",
+    "examples": [
+      "Koni",
+      "Krater",
+      "Kaldera"
+    ],
+    "relatedTerms": [
+      "Püskürük Kayaçlar",
+      "Lav",
+      "Tüf"
+    ],
+    "order": 92
+  },
+  {
+    "id": "akarsu_asindirma",
+    "term": "Akarsu Aşındırma Şekilleri",
+    "definition": "Akarsuların yataklarını derinleştirmesi veya genişletmesi sonucu oluşan yer şekilleridir. Türkiye'nin yüksek ve engebeli olması bu şekillerin oluşumunu hızlandırmıştır.",
+    "examples": [
+      "Vadi",
+      "Dev kazanı",
+      "Peri bacaları"
+    ],
+    "relatedTerms": [
+      "Erozyon",
+      "Akarsu Debisi",
+      "Yatak Eğimi"
+    ],
+    "order": 93
+  },
+  {
+    "id": "akarsu_biriktirme",
+    "term": "Akarsu Biriktirme Şekilleri",
+    "definition": "Akarsuların taşıdığı materyalleri eğimin azaldığı yerlerde bırakmasıyla oluşan şekillerdir. Özellikle delta ovaları bu kapsamda değerlendirilir.",
+    "examples": [
+      "Delta ovası",
+      "Birikinti konisi",
+      "Irmak adası"
+    ],
+    "relatedTerms": [
+      "Alüvyon",
+      "Eğim",
+      "Taşıma Gücü"
+    ],
+    "order": 94
+  },
+  {
+    "id": "rüzgar_sekilleri",
+    "term": "Rüzgar Aşındırma ve Biriktirme Şekilleri",
+    "definition": "Kurak ve yarı kurak bölgelerde rüzgarın etkisiyle oluşan şekillerdir. Türkiye'de en çok İç Anadolu ve Güneydoğu Anadolu'da görülür.",
+    "examples": [
+      "Mantarkaya",
+      "Yardang",
+      "Barkan"
+    ],
+    "relatedTerms": [
+      "Kuraklık",
+      "Bitki Örtüsü",
+      "Erozyon"
+    ],
+    "order": 95
+  },
+  {
+    "id": "dag_olusum_tipleri",
+    "term": "Dağ Oluşum Tipleri",
+    "definition": "Yer kabuğu hareketleri sonucu oluşan dağların yapısal farklılıklarıdır. Türkiye'de kıvrımlı ve kırıklı dağlar yaygındır.",
+    "examples": [
+      "Toros Dağları (Kıvrımlı)",
+      "Kaz Dağları (Kırıklı)",
+      "Kaçkar Dağları (Kıvrımlı)"
+    ],
+    "relatedTerms": [
+      "Orojenez",
+      "Antiklinal",
+      "Senklinal"
+    ],
+    "order": 96
+  },
+  {
+    "id": "falez_olusumu",
+    "term": "Falez (Yalıyar) Oluşumu",
+    "definition": "Dağların kıyıya paralel uzandığı yerlerde dalgaların kıyıyı aşındırmasıyla oluşan dik yamaçlardır. Karadeniz ve Akdeniz kıyılarında yaygındır.",
+    "examples": [
+      "Antalya falezleri",
+      "Doğu Karadeniz kıyıları"
+    ],
+    "relatedTerms": [
+      "Kıyı Aşındırması",
+      "Dalga",
+      "Kıta Sahanlığı"
+    ],
+    "order": 97
+  },
+  {
+    "id": "kıyı_biriktirme",
+    "term": "Kıyı Biriktirme Şekilleri",
+    "definition": "Dalga ve akıntıların taşıdığı materyalleri kıyıda biriktirmesiyle oluşan şekillerdir. Kıyı okları ve lagünler bu gruba girer.",
+    "examples": [
+      "Kıyı oku",
+      "Tombolo",
+      "Lagün (Deniz kulağı)"
+    ],
+    "relatedTerms": [
+      "Kıyı Akıntıları",
+      "Kıyı Kordonu",
+      "Alüvyon"
+    ],
+    "order": 98
+  },
+  {
+    "id": "yerel_saat_hesaplari",
+    "term": "Yerel Saat ve Meridyen İlişkisi",
+    "definition": "Meridyenlerin boylam değerlerine göre oluşan zaman farklarıdır. Türkiye'de yerel saat farkı azdır ancak tek ortak saat kullanılır.",
+    "examples": [
+      "Iğdır ile İzmir arasındaki yerel saat farkı",
+      "Boylam farkının zaman üzerindeki etkisi"
+    ],
+    "relatedTerms": [
+      "Boylam",
+      "Güneşin Tepe Noktası",
+      "Ortak Saat"
+    ],
+    "order": 99
+  },
+  {
+    "id": "matematiksel_konum_etkisi",
+    "term": "Türkiye'nin Matematiksel Konumunun İklim Üzerindeki Etkisi",
+    "definition": "Türkiye'nin orta kuşakta yer alması nedeniyle dört mevsimin belirgin yaşanması ve cephe yağışlarının görülmesidir. Yengeç dönencesinin kuzeyinde bulunması güneş ışınlarının hiçbir zaman dik açıyla gelmemesini sağlar.",
+    "examples": [
+      "Dört mevsimin aynı anda yaşanması",
+      "Yıl boyu batı rüzgarlarının etkisi"
+    ],
+    "relatedTerms": [
+      "Mutlak Konum",
+      "Yıllık Hareket",
+      "Cephe Yağışları"
+    ],
+    "order": 100
+  },
+  {
+    "id": "ozel_konum_faktoru",
+    "term": "Türkiye'nin Özel Konumu ve Yerşekilleri Etkileşimi",
+    "definition": "Türkiye'nin üç tarafının denizlerle çevrili olması, yükseltinin batıdan doğuya artması ve dağların uzanış doğrultusudur. Bu durum kısa mesafelerde iklim çeşitliliğinin artmasına neden olur.",
+    "examples": [
+      "Denizellik ve karasallık etkisi",
+      "Kısa mesafede bitki örtüsünün değişmesi"
+    ],
+    "relatedTerms": [
+      "Yükselti",
+      "Bakı Etkisi",
+      "Denizellik"
+    ],
+    "order": 101
+  },
+  {
+    "id": "mikroklima_alanlari",
+    "term": "Mikroklima Alanları",
+    "definition": "Çevresine göre dar bir alanda farklı iklim özelliklerinin görülmesidir. Yer şekillerinin etkisiyle normalde yetişmemesi gereken ürünlerin özel şartlar altında yetiştiği bölgelerdir.",
+    "examples": [
+      "Rize'de turunçgil tarımı",
+      "Iğdır'da pamuk tarımı",
+      "Artvin-Yusufeli'nde zeytin tarımı"
+    ],
+    "relatedTerms": [
+      "Yerel İklim",
+      "Çukur Alanlar",
+      "Vadi Tabanları"
+    ],
+    "order": 102
+  },
+  {
+    "id": "kiyilarin_olusumu",
+    "term": "Kıyı Tipi Oluşumları",
+    "definition": "Türkiye'nin jeolojik yapısı ve deniz seviyesi değişimlerine bağlı olarak kıyılarda oluşan farklı şekillerdir. Dağların kıyıya uzanışına göre çeşitlilik gösterir.",
+    "examples": [
+      "Boyuna kıyı tipi",
+      "Enine kıyı tipi",
+      "Ria tipi kıyı",
+      "Dalmaçya kıyı tipi"
+    ],
+    "relatedTerms": [
+      "Falez",
+      "Kıyı Oku",
+      "Tombolo"
+    ],
+    "order": 103
+  },
+  {
+    "id": "tektonik_goller",
+    "term": "Tektonik Göller",
+    "definition": "Yer kabuğu hareketleri sonucu oluşan çukurların suyla dolmasıyla meydana gelen göllerdir. Türkiye'de en yaygın görülen göl oluşum tipidir.",
+    "examples": [
+      "Tuz Gölü",
+      "Manyas Gölü",
+      "Sapanca Gölü",
+      "Burdur Gölü"
+    ],
+    "relatedTerms": [
+      "Fay Hattı",
+      "Yer Kabuğu",
+      "Çöküntü"
+    ],
+    "order": 104
+  },
+  {
+    "id": "delta_ovasi",
+    "term": "Delta Ovaları",
+    "definition": "Akarsuların taşıdığı alüvyonları denize döküldükleri yerde biriktirmesiyle oluşan verimli ovalardır. Kıyıda kıta sahanlığının geniş olması gerekir.",
+    "examples": [
+      "Çukurova",
+      "Bafra Ovası",
+      "Çarşamba Ovası",
+      "Silifke Ovası"
+    ],
+    "relatedTerms": [
+      "Alüvyon",
+      "Kıta Sahanlığı",
+      "Akarsu Biriktirmesi"
+    ],
+    "order": 105
+  },
+  {
+    "id": "fay_kaynaklari",
+    "term": "Fay Kaynakları (Kaplıcalar)",
+    "definition": "Yer kabuğundaki kırık hatlar boyunca yüzeye çıkan sıcak sulardır. Türkiye'nin genç oluşumlu ve tektonik açıdan aktif olması nedeniyle yaygındır.",
+    "examples": [
+      "Termal turizm",
+      "Jeotermal enerji",
+      "Madensuyu"
+    ],
+    "relatedTerms": [
+      "Tektonizma",
+      "Sıcak Su",
+      "Fay Hattı"
+    ],
+    "order": 106
+  },
+  {
+    "id": "yükselti_kademeleri",
+    "term": "Türkiye'nin Yükselti Kademeleri",
+    "definition": "Türkiye'nin ortalama yükseltisinin fazla olduğu (yaklaşık 1132 metre) ve batıdan doğuya doğru yükseltinin arttığı gerçeğidir. Bu durum sıcaklık değerlerini ve tarım faaliyetlerini doğrudan etkiler.",
+    "examples": [
+      "Doğu Anadolu'nun yüksekliği",
+      "Ege'nin alçaklığı",
+      "Yükseltiye bağlı sıcaklık değişimi"
+    ],
+    "relatedTerms": [
+      "İzohips",
+      "Yer Şekilleri",
+      "Sıcaklık Ortalaması"
+    ],
+    "order": 107
+  },
+  {
+    "id": "jeolojik_zamanlar_turkiye",
+    "term": "Türkiye'nin Jeolojik Oluşum Süreçleri",
+    "definition": "Türkiye arazisinin büyük kısmının III. ve IV. jeolojik zamanlarda (Tersiyer ve Kuvaterner) şekillenmesi sürecidir. Bu süreç, günümüzdeki yüksek ve engebeli yapının temelini oluşturmuştur.",
+    "examples": [
+      "Ege bölgesindeki horst ve graben sistemlerinin oluşumu",
+      "Anadolu'nun toptan yükselmesi"
+    ],
+    "relatedTerms": [
+      "Orojenez",
+      "Epirojenez",
+      "Tektonizma"
+    ],
+    "order": 108
+  },
+  {
+    "id": "epirojenik_hareketler",
+    "term": "Türkiye'de Epirojenez",
+    "definition": "Anadolu'nun toptan yükselmesi ve buna bağlı olarak akarsuların derine aşındırma yapması olayıdır. Bu hareket, Türkiye'nin ortalama yükseltisinin fazla olmasının temel nedenidir.",
+    "examples": [
+      "Anadolu'nun kuzey ve güneyden sıkıştırılarak yükselmesi",
+      "Akarsu vadilerinin derinleşmesi"
+    ],
+    "relatedTerms": [
+      "İzostatik Denge",
+      "Toptan Yükselme",
+      "Peneplenleşme"
+    ],
+    "order": 109
+  },
+  {
+    "id": "karstik_hidrografya",
+    "term": "Karstik Kaynaklar ve Yeraltı Suları",
+    "definition": "Kireçtaşı, jips ve kaya tuzu gibi kolay eriyebilen kayaçların bulunduğu alanlarda yeraltına sızan suların oluşturduğu kaynak türüdür. Debileri mevsimlik yağışlara bağlı olarak büyük değişim gösterir.",
+    "examples": [
+      "Manavgat Şelalesi'ni besleyen kaynaklar",
+      "Düden Şelalesi"
+    ],
+    "relatedTerms": [
+      "Voklüz",
+      "Polye",
+      "Obruk"
+    ],
+    "order": 110
+  },
+  {
+    "id": "denizellik_etkisi",
+    "term": "Denizellik ve Karasallık Faktörü",
+    "definition": "Denizlerin nemli ve ılımanlaştırıcı etkisinin kıyılardan iç kesimlere doğru azalmasıdır. Türkiye'de dağların kıyıya paralel uzanması, bu etkinin iç kesimlere girmesini engeller.",
+    "examples": [
+      "Akdeniz kıyılarında kış ılıklığı",
+      "İç Anadolu'da yıllık sıcaklık farkının yüksek olması"
+    ],
+    "relatedTerms": [
+      "Nemlilik",
+      "Sıcaklık Farkı",
+      "Deniz Etkisi"
+    ],
+    "order": 111
+  },
+  {
+    "id": "vadi_cesitleri",
+    "term": "Türkiye'de Vadi Tipleri",
+    "definition": "Akarsuların aşındırma gücüne ve arazinin yapısına göre oluşan şekillerdir. Türkiye'nin yüksek ve engebeli yapısı nedeniyle çentik vadiler oldukça yaygındır.",
+    "examples": [
+      "Çentik vadi",
+      "Kanyon vadi",
+      "Geniş tabanlı vadi"
+    ],
+    "relatedTerms": [
+      "Akarsu Aşındırması",
+      "Eğim",
+      "Akış Hızı"
+    ],
+    "order": 112
+  },
+  {
+    "id": "dogal_liman_olusu",
+    "term": "Doğal Liman Oluşum Koşulları",
+    "definition": "Kıyı girinti ve çıkıntısının fazla olduğu, dağların kıyıya dik uzandığı alanlarda oluşan korunaklı limanlardır. Türkiye'de en fazla doğal liman Ege Bölgesi'nde bulunur.",
+    "examples": [
+      "İzmir Limanı",
+      "Marmaris Limanı"
+    ],
+    "relatedTerms": [
+      "Girintili Çıkıntılı Kıyı",
+      "Koy ve Körfez",
+      "Kıyı Topoğrafyası"
+    ],
+    "order": 113
+  },
+  {
+    "id": "yillik_sicaklik_farki",
+    "term": "Yıllık Sıcaklık Farklarının Dağılımı",
+    "definition": "Bir bölgedeki en sıcak ve en soğuk ay ortalamaları arasındaki farktır. Türkiye'de karasallığın şiddetlendiği Doğu Anadolu'da bu fark en yüksek seviyededir.",
+    "examples": [
+      "Erzurum-Kars'ta yüksek sıcaklık farkı",
+      "Antalya'da düşük sıcaklık farkı"
+    ],
+    "relatedTerms": [
+      "Karasallık",
+      "Nem oranı",
+      "Sıcaklık rejimi"
+    ],
+    "order": 114
   }
 ]

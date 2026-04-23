@@ -997,5 +997,456 @@
       "Göç"
     ],
     "order": 64
+  },
+  {
+    "id": "nufus_cift_sayimi",
+    "term": "Nüfus Çift Sayımı",
+    "definition": "Bir bölgedeki nüfusun belirli bir zaman diliminde iki farklı yöntemle sayılması ve sonuçların karşılaştırılmasıdır. Bu yöntem, nüfus sayımlarının doğruluğunu ve eksiksizliğini kontrol etmek amacıyla kullanılır.",
+    "examples": [
+      "Türkiye'de 2007 yılında uygulanan Adrese Dayalı Nüfus Kayıt Sistemi (ADNKS) öncesi, eski sayım yöntemlerinin doğruluğunu test etmek için benzer uygulamalar yapılmıştır."
+    ],
+    "relatedTerms": [
+      "Nüfus Sayımı",
+      "ADNKS",
+      "Nüfus Verileri"
+    ],
+    "order": 65
+  },
+  {
+    "id": "mekansal_nufus_dengesi",
+    "term": "Mekansal Nüfus Dengesi",
+    "definition": "Bir bölgedeki nüfusun, doğal kaynaklar ve ekonomik faaliyetler ile uyumlu bir dağılım göstermesidir. Bu denge, yaşam kalitesi ve sürdürülebilirlik açısından önemlidir.",
+    "examples": [
+      "Çok yoğun nüfuslu bir şehirde su kaynaklarının yetersiz kalması, mekansal nüfus dengesizliğine örnektir.",
+      "Tarım alanlarının verimliliği ile tarımsal nüfusun orantılı dağılımı."
+    ],
+    "relatedTerms": [
+      "Nüfus Dağılımı",
+      "Taşıma Kapasitesi",
+      "Sürdürülebilirlik"
+    ],
+    "order": 66
+  },
+  {
+    "id": "nufus_dinamigi",
+    "term": "Nüfus Dinamiği",
+    "definition": "Bir bölgedeki nüfusun zaman içindeki değişimini ifade eden süreçler bütünüdür. Doğumlar, ölümler ve göçler gibi faktörler nüfus dinamiğini etkiler.",
+    "examples": [
+      "Türkiye'nin genç nüfus oranının azalması, nüfus dinamiğindeki bir değişimi gösterir.",
+      "Bir ülkenin doğum oranlarının artması nüfus dinamiğini etkiler."
+    ],
+    "relatedTerms": [
+      "Doğum Oranı",
+      "Ölüm Oranı",
+      "Göç"
+    ],
+    "order": 67
+  },
+  {
+    "id": "nufus_projeksiyonlari",
+    "term": "Nüfus Projeksiyonları",
+    "definition": "Mevcut nüfus verileri ve eğilimleri kullanılarak gelecekteki nüfus büyüklüğü, yapısı ve dağılımı hakkında yapılan tahminlerdir. Kamu hizmetleri planlaması ve ekonomik stratejiler için kritik öneme sahiptir.",
+    "examples": [
+      "TÜİK'in 2050 yılı için Türkiye nüfusuna ilişkin tahminleri, nüfus projeksiyonlarına örnektir.",
+      "Emeklilik sistemlerinin gelecekteki yükünü belirlemek için nüfus projeksiyonları kullanılır."
+    ],
+    "relatedTerms": [
+      "Nüfus Tahmini",
+      "Demografik Modelleme",
+      "TÜİK"
+    ],
+    "order": 68
+  },
+  {
+    "id": "nufus_yasanmislik_endeksi",
+    "term": "Nüfus Yaşanmışlık Endeksi",
+    "definition": "Bir bölgedeki nüfusun yaşam kalitesini, refah düzeyini ve sosyal imkanlara erişimini gösteren bir ölçüttür. Eğitim, sağlık, güvenlik ve çevre gibi faktörleri kapsar.",
+    "examples": [
+      "Bir şehrin düşük suç oranı ve yüksek eğitim seviyesi, yüksek bir yaşanmışlık endeksine işaret edebilir.",
+      "Kırsal bölgelerde sağlık hizmetlerine erişimin zorluğu, yaşanmışlık endeksini düşürür."
+    ],
+    "relatedTerms": [
+      "Yaşam Kalitesi",
+      "İnsani Gelişme Endeksi",
+      "Sosyal Refah"
+    ],
+    "order": 69
+  },
+  {
+    "id": "nufus_yenilenme_esigi",
+    "term": "Nüfus Yenilenme Eşiği",
+    "definition": "Bir nüfusun mevcut büyüklüğünü koruyabilmesi için gerekli olan ortalama doğum oranıdır. Genellikle her kadın başına 2.1 çocuk olarak kabul edilir.",
+    "examples": [
+      "Japonya'nın doğum oranlarının yenilenme eşiğinin altında olması, nüfusun yaşlanmasına neden olmaktadır.",
+      "Bir ülkenin nüfusunun azalmaması için doğum oranının yenilenme eşiğinin üzerinde olması gerekir."
+    ],
+    "relatedTerms": [
+      "Doğurganlık Oranı",
+      "Nüfusun Yaşlanması",
+      "Nüfus Artış Hızı"
+    ],
+    "order": 70
+  },
+  {
+    "id": "nufus_yaslanma_endeksi",
+    "term": "Nüfus Yaşlanma Endeksi",
+    "definition": "Bir nüfustaki yaşlı nüfusun (genellikle 65 yaş ve üzeri) genç nüfusa (genellikle 0-14 yaş) oranını gösteren bir ölçüttür. Bu endeks, bir ülkenin demografik yapısındaki yaşlanma eğilimini ortaya koyar.",
+    "examples": [
+      "Avrupa ülkelerinin birçoğunda nüfus yaşlanma endeksi oldukça yüksektir.",
+      "Türkiye'de son yıllarda nüfus yaşlanma endeksinde artış gözlenmektedir."
+    ],
+    "relatedTerms": [
+      "Yaşlı Bağımlılık Oranı",
+      "Nüfus Piramidi",
+      "Demografik Geçiş"
+    ],
+    "order": 71
+  },
+  {
+    "id": "nufus_kalkinma_iliskisi",
+    "term": "Nüfus-Kalkınma İlişkisi",
+    "definition": "Nüfusun büyüklüğü, yapısı ve dağılımı ile bir ülkenin ekonomik ve sosyal kalkınması arasındaki karşılıklı etkileşimdir. Nüfusun niteliği ve niceliği kalkınma süreçlerini doğrudan etkiler.",
+    "examples": [
+      "Eğitimli ve sağlıklı bir genç nüfus, ekonomik kalkınmayı hızlandırabilir.",
+      "Hızlı nüfus artışı, kaynakların yetersiz kalmasına ve kalkınmayı yavaşlatabilir."
+    ],
+    "relatedTerms": [
+      "Ekonomik Kalkınma",
+      "İnsani Gelişme",
+      "Demografik Fırsat Penceresi"
+    ],
+    "order": 72
+  },
+  {
+    "id": "nufus_dagilisinda_esik_degeri",
+    "term": "Nüfus Dağılışında Eşik Değeri",
+    "definition": "Bir bölgede nüfusun yaşamını sürdürebilmesi veya belirli bir ekonomik faaliyeti gerçekleştirebilmesi için gerekli olan minimum nüfus büyüklüğüdür. Bu eşik değerin altında kalan yerleşimler genellikle küçülme veya terk edilme riski taşır.",
+    "examples": [
+      "Bir köyün okulu veya sağlık ocağının açık kalabilmesi için belirli bir nüfus eşiğine sahip olması gerekir.",
+      "Bir ticaret merkezinin kurulabilmesi için çevresinde belirli bir müşteri potansiyeli (nüfus eşiği) olmalıdır."
+    ],
+    "relatedTerms": [
+      "Yerleşim Birimi",
+      "Kırsal Yerleşme",
+      "Hizmet Fonksiyonu"
+    ],
+    "order": 73
+  },
+  {
+    "id": "nufus_kapasitesi",
+    "term": "Nüfus Kapasitesi",
+    "definition": "Bir bölgenin mevcut kaynakları ve teknolojik imkanları ile sürdürülebilir bir şekilde destekleyebileceği maksimum insan sayısıdır. Bu kapasite, doğal çevre ve ekonomik yapı ile doğrudan ilişkilidir.",
+    "examples": [
+      "Bir adanın sınırlı su kaynakları, adanın nüfus kapasitesini belirleyen önemli bir faktördür.",
+      "Tarım alanlarının büyüklüğü ve verimliliği, bir bölgenin nüfus kapasitesini etkiler."
+    ],
+    "relatedTerms": [
+      "Taşıma Kapasitesi",
+      "Sürdürülebilir Kalkınma",
+      "Doğal Kaynaklar"
+    ],
+    "order": 74
+  },
+  {
+    "id": "nufus_politikasi_uygulama_araclari",
+    "term": "Nüfus Politikası Uygulama Araçları",
+    "definition": "Bir ülkenin nüfus hedeflerine ulaşmak için kullandığı yasal, ekonomik ve sosyal tedbirler bütünüdür. Doğum oranlarını etkilemeye yönelik teşvikler veya kısıtlamalar bu araçlara örnektir.",
+    "examples": [
+      "Çocuk yardımları, doğum izni süreleri ve aile planlaması hizmetleri nüfus politikası uygulama araçlarındandır.",
+      "Vergi indirimleri veya ek vergilendirmeler nüfus politikası aracı olarak kullanılabilir."
+    ],
+    "relatedTerms": [
+      "Nüfus Politikası",
+      "Doğum Kontrolü",
+      "Aile Planlaması"
+    ],
+    "order": 75
+  },
+  {
+    "id": "nufus_istatistikleri",
+    "term": "Nüfus İstatistikleri",
+    "definition": "Bir bölgedeki nüfusun büyüklüğü, yapısı, dağılımı ve demografik olayları (doğum, ölüm, göç) hakkında toplanan sayısal verilerdir. Bu veriler, kamu politikalarının oluşturulmasında temel teşkil eder.",
+    "examples": [
+      "TÜİK tarafından yayımlanan doğum ve ölüm oranları, nüfus istatistiklerine örnektir.",
+      "Nüfus sayımı sonuçları, ülkenin demografik yapısını ortaya koyan önemli istatistiklerdir."
+    ],
+    "relatedTerms": [
+      "Demografi",
+      "Nüfus Sayımı",
+      "Veri Analizi"
+    ],
+    "order": 76
+  },
+  {
+    "id": "nufus_bolgesel_farkliliklar",
+    "term": "Nüfus Bölgesel Farklılıklar",
+    "definition": "Bir ülkenin farklı coğrafi bölgeleri arasındaki nüfusun büyüklüğü, yoğunluğu, yaş yapısı, cinsiyet dağılımı gibi demografik özelliklerdeki farklılıklardır. Bu farklılıklar, bölgesel kalkınma politikalarını şekillendirir.",
+    "examples": [
+      "Doğu Anadolu Bölgesi'nde genç nüfus oranının yüksek, Ege Bölgesi'nde ise yaşlı nüfus oranının daha fazla olması bölgesel farklılıklara örnektir.",
+      "Şehir merkezleri ile kırsal alanlar arasındaki nüfus yoğunluğu farkları."
+    ],
+    "relatedTerms": [
+      "Bölgesel Kalkınma",
+      "Nüfus Dağılımı",
+      "Demografik Yapı"
+    ],
+    "order": 77
+  },
+  {
+    "id": "nufus_yas_yapisi_degisimi",
+    "term": "Nüfus Yaş Yapısı Değişimi",
+    "definition": "Bir nüfusun yaş gruplarına göre dağılımının zaman içinde gösterdiği değişikliklerdir. Doğum oranları, ölüm oranları ve göçler bu değişimi etkileyen temel faktörlerdir.",
+    "examples": [
+      "Bir ülkenin doğum oranlarının düşmesiyle genç nüfus oranının azalması, yaş yapısı değişimine örnektir.",
+      "Ortalama yaşam süresinin uzaması, yaşlı nüfusun artışına neden olur."
+    ],
+    "relatedTerms": [
+      "Nüfus Piramidi",
+      "Demografik Geçiş Modeli",
+      "Nüfusun Yaşlanması"
+    ],
+    "order": 78
+  },
+  {
+    "id": "nufus_yogunlugu_turleri",
+    "term": "Nüfus Yoğunluğu Türleri",
+    "definition": "Bir bölgedeki nüfusun alana göre dağılımını gösteren farklı hesaplama yöntemleridir. Aritmetik, fizyolojik ve tarımsal nüfus yoğunluğu gibi türleri bulunur.",
+    "examples": [
+      "Aritmetik nüfus yoğunluğu, toplam nüfusun toplam alana bölünmesiyle elde edilir.",
+      "Fizyolojik nüfus yoğunluğu, toplam nüfusun tarım alanlarına bölünmesiyle hesaplanır."
+    ],
+    "relatedTerms": [
+      "Aritmetik Nüfus Yoğunluğu",
+      "Fizyolojik Nüfus Yoğunluğu",
+      "Tarımsal Nüfus Yoğunluğu"
+    ],
+    "order": 79
+  },
+  {
+    "id": "mekansal_ayrisma",
+    "term": "Mekansal Ayrışma",
+    "definition": "Kent veya yerleşim alanlarında farklı sosyo-ekonomik, etnik veya kültürel grupların belirli bölgelerde yoğunlaşması ve birbirinden ayrı yaşaması durumudur. Genellikle gelir eşitsizlikleri veya kültürel farklılıklar sonucu ortaya çıkar.",
+    "examples": [
+      "Zenginlerin ve yoksulların farklı mahallelerde yaşaması.",
+      "Etnik azınlıkların belirli semtlerde toplanması."
+    ],
+    "relatedTerms": [
+      "Kentleşme",
+      "Getto",
+      "Sosyal Dışlanma"
+    ],
+    "order": 80
+  },
+  {
+    "id": "nufus_piramitleri_tipleri",
+    "term": "Nüfus Piramitleri Tipleri",
+    "definition": "Bir ülkenin yaş ve cinsiyet yapısını gösteren grafiklerdir. Üç temel tipi vardır: üçgen (az gelişmiş), arı kovanı (gelişmekte olan) ve çan (gelişmiş) piramitleri.",
+    "examples": [
+      "Doğum oranının yüksek olduğu ülkelerde üçgen piramit görülmesi.",
+      "Yaşlı nüfusun fazla olduğu ülkelerde çan piramit görülmesi."
+    ],
+    "relatedTerms": [
+      "Nüfus Yapısı",
+      "Doğum Oranı",
+      "Ölüm Oranı"
+    ],
+    "order": 81
+  },
+  {
+    "id": "kirsal_yerlesme_tipleri",
+    "term": "Kırsal Yerleşme Tipleri",
+    "definition": "Kırsal alanlarda insanların yerleşim biçimlerini ifade eder. Dağınık, toplu, çizgisel gibi farklı tipleri bulunur ve coğrafi koşullara göre değişiklik gösterir.",
+    "examples": [
+      "Doğu Karadeniz'de dağınık yerleşmelerin yaygın olması.",
+      "İç Anadolu'da toplu yerleşmelerin görülmesi."
+    ],
+    "relatedTerms": [
+      "Kırsal Nüfus",
+      "Yerleşme Dokusu",
+      "Coğrafi Koşullar"
+    ],
+    "order": 82
+  },
+  {
+    "id": "kentsel_fonksiyonlar",
+    "term": "Kentsel Fonksiyonlar",
+    "definition": "Kentlerin yerine getirdiği ekonomik, sosyal ve kültürel işlevlerdir. Ticaret, sanayi, yönetim, eğitim, turizm gibi farklı fonksiyonlar kentin gelişimini ve yapısını belirler.",
+    "examples": [
+      "İstanbul'un ticaret ve finans merkezi olması.",
+      "Ankara'nın idari ve siyasi fonksiyonu."
+    ],
+    "relatedTerms": [
+      "Kentleşme",
+      "Şehir Planlama",
+      "Metropol"
+    ],
+    "order": 83
+  },
+  {
+    "id": "nufus_artisi_oranlari",
+    "term": "Nüfus Artışı Oranları",
+    "definition": "Belirli bir dönemde bir bölgenin nüfusunda meydana gelen değişimin yüzde olarak ifadesidir. Doğal nüfus artışı (doğum-ölüm) ve gerçek nüfus artışı (doğum-ölüm + göç) olarak ikiye ayrılır.",
+    "examples": [
+      "Türkiye'nin yıllık nüfus artış hızı.",
+      "Bir ilin göçlerle birlikte nüfusundaki artış."
+    ],
+    "relatedTerms": [
+      "Doğum Oranı",
+      "Ölüm Oranı",
+      "Göç"
+    ],
+    "order": 84
+  },
+  {
+    "id": "demografik_gecis_modeli",
+    "term": "Demografik Geçiş Modeli",
+    "definition": "Ülkelerin zaman içinde yüksek doğum ve ölüm oranlarından düşük doğum ve ölüm oranlarına geçişini açıklayan teorik bir modeldir. Beş aşamadan oluşur ve sanayileşme ile ilişkilidir.",
+    "examples": [
+      "Sanayi Devrimi sonrası Avrupa ülkelerinin yaşadığı demografik değişim.",
+      "Az gelişmiş ülkelerin yüksek doğum ve ölüm oranları aşamasında olması."
+    ],
+    "relatedTerms": [
+      "Doğum Oranı",
+      "Ölüm Oranı",
+      "Sanayileşme"
+    ],
+    "order": 85
+  },
+  {
+    "id": "beyin_gocu_sonuclari",
+    "term": "Beyin Göçü Sonuçları",
+    "definition": "Nitelikli ve eğitimli iş gücünün bir ülkeden başka bir ülkeye göç etmesinin yarattığı etkilerdir. Gönderen ülke için nitelikli iş gücü kaybı, alan ülke için ise beşeri sermaye artışı anlamına gelir.",
+    "examples": [
+      "Bir ülkenin bilimsel araştırma kapasitesinin azalması.",
+      "Kalkınmakta olan ülkelerde doktor açığının oluşması."
+    ],
+    "relatedTerms": [
+      "Beyin Göçü",
+      "Nitelikli İş Gücü",
+      "Beşeri Sermaye"
+    ],
+    "order": 86
+  },
+  {
+    "id": "nufus_dagilisi_etkileyen_faktörler",
+    "term": "Nüfus Dağılışını Etkileyen Faktörler",
+    "definition": "Nüfusun yeryüzüne dengesiz dağılmasına neden olan doğal ve beşeri unsurlardır. İklim, yer şekilleri, su kaynakları doğal faktörlerken; sanayileşme, tarım, ulaşım beşeri faktörlerdir.",
+    "examples": [
+      "Çöl bölgelerinin seyrek nüfuslu olması (doğal faktör).",
+      "Sanayi bölgelerinin yoğun nüfuslu olması (beşeri faktör)."
+    ],
+    "relatedTerms": [
+      "Nüfus Yoğunluğu",
+      "Coğrafi Koşullar",
+      "Ekonomik Faaliyetler"
+    ],
+    "order": 87
+  },
+  {
+    "id": "kentsel_gelisme_modelleri",
+    "term": "Kentsel Gelişme Modelleri",
+    "definition": "Kentlerin zaman içindeki büyüme ve mekansal yapılanma süreçlerini açıklayan teorik yaklaşımlardır. Konsantrik halkalar, sektör ve çok çekirdekli modeller başlıcalarıdır.",
+    "examples": [
+      "Chicago Okulu'nun konsantrik halkalar modeli.",
+      "Modern kentlerde çok çekirdekli yapıların oluşması."
+    ],
+    "relatedTerms": [
+      "Kentleşme",
+      "Şehir Planlama",
+      "Arazi Kullanımı"
+    ],
+    "order": 88
+  },
+  {
+    "id": "nufus_yaslanmasi",
+    "term": "Nüfus Yaşlanması",
+    "definition": "Bir ülkenin veya bölgenin nüfusunun ortalama yaşının artması ve yaşlı nüfus oranının genç nüfus oranına göre yükselmesidir. Düşük doğum oranları ve artan yaşam beklentisi sonucunda meydana gelir.",
+    "examples": [
+      "Avrupa ülkelerinde yaşlı nüfusun artması.",
+      "Emeklilik sistemleri üzerindeki baskının artması."
+    ],
+    "relatedTerms": [
+      "Yaşam Beklentisi",
+      "Doğum Oranı",
+      "Bağımlı Nüfus"
+    ],
+    "order": 89
+  },
+  {
+    "id": "nufus_politikasi_tesvikler",
+    "term": "Nüfus Politikası (Teşvikler)",
+    "definition": "Devletlerin nüfus artışını veya azalışını yönlendirmek amacıyla uyguladığı maddi veya manevi desteklerdir. Doğum oranlarını artırmak veya azaltmak için kullanılabilir.",
+    "examples": [
+      "Çok çocuklu ailelere yapılan maddi yardımlar.",
+      "Doğum kontrol yöntemlerinin ücretsiz sağlanması."
+    ],
+    "relatedTerms": [
+      "Nüfus Politikası",
+      "Doğum Oranı",
+      "Sosyal Yardım"
+    ],
+    "order": 90
+  },
+  {
+    "id": "kentsel_sicrama",
+    "term": "Kentsel Sıçrama",
+    "definition": "Kentlerin ana yerleşim alanlarından uzakta, genellikle tarım arazileri üzerine plansız ve düzensiz bir şekilde yeni yerleşim alanlarının oluşmasıdır. Genellikle ulaşım kolaylıkları ve ucuz arsa nedeniyle ortaya çıkar.",
+    "examples": [
+      "Büyük şehirlerin eteklerinde oluşan uydu kentler.",
+      "Ana yol güzergahları boyunca gelişen yerleşimler."
+    ],
+    "relatedTerms": [
+      "Kentleşme",
+      "Gecekondu",
+      "Arazi Kullanımı"
+    ],
+    "order": 91
+  },
+  {
+    "id": "nufus_sayim_yontemleri",
+    "term": "Nüfus Sayım Yöntemleri",
+    "definition": "Bir ülkenin veya bölgenin nüfusunu belirlemek için kullanılan tekniklerdir. De facto (fiili) ve de jure (hukuki) olmak üzere başlıca iki yöntem bulunur.",
+    "examples": [
+      "Sayım anında bulunulan yerde nüfusun kaydedilmesi (de facto).",
+      "Kişinin kayıtlı olduğu adrese göre nüfusun belirlenmesi (de jure)."
+    ],
+    "relatedTerms": [
+      "Nüfus Sayımı",
+      "Demografi",
+      "Veri Toplama"
+    ],
+    "order": 92
+  },
+  {
+    "id": "demografik_gecis_teorisi",
+    "term": "Demografik Geçiş Teorisi",
+    "definition": "Nüfusun doğum ve ölüm oranlarındaki değişimlerle birlikte, az gelişmiş toplum yapısından gelişmiş toplum yapısına geçişini açıklayan teoridir. Bu geçiş, dört veya beş aşamalı olarak incelenir ve nüfus artış hızındaki dalgalanmaları gösterir.",
+    "examples": [
+      "Sanayi Devrimi sonrası Avrupa ülkelerinin yüksek doğum ve ölüm oranlarından düşük oranlara geçişi.",
+      "Günümüzde az gelişmiş ülkelerin yüksek doğum oranına sahip olup ölüm oranlarının düşmeye başlaması."
+    ],
+    "relatedTerms": [
+      "Nüfus Artış Hızı",
+      "Doğum Oranı",
+      "Ölüm Oranı",
+      "Nüfus Piramitleri"
+    ],
+    "order": 93
+  },
+  {
+    "id": "demografik_dividand",
+    "term": "Demografik Dividand (Nüfus Fırsat Penceresi)",
+    "definition": "Bir ülkenin genç bağımlılık oranının düşüp, çalışma çağındaki nüfus oranının yükseldiği ve bu durumun ekonomik büyümeye olumlu katkı sağladığı dönemi ifade eder. Bu dönemde işgücü arzı artar, tasarruf oranları yükselir ve beşeri sermaye yatırımları hızlanır. Ülkenin ekonomik kalkınması için önemli bir fırsat penceresidir.",
+    "examples": [
+      "Türkiye'nin 1980'lerden 2010'lu yıllara kadar yaşadığı nüfus yapısı değişimi, demografik dividand dönemine örnek gösterilebilir.",
+      "Güneydoğu Asya ülkelerinin 20. yüzyılın son çeyreğinde yakaladığı hızlı ekonomik büyüme, demografik dividandın etkin kullanımıyla ilişkilidir."
+    ],
+    "relatedTerms": [
+      "Nüfus Yapısı",
+      "Bağımlılık Oranı",
+      "Ekonomik Kalkınma",
+      "İşgücü Piyasası"
+    ],
+    "order": 94
   }
 ]

@@ -1010,5 +1010,535 @@
       "Misak-ı Milli"
     ],
     "order": 72
+  },
+  {
+    "id": "tevhidi_tedrisat",
+    "term": "Tevhid-i Tedrisat Kanunu",
+    "definition": "Eğitim ve öğretimin birleştirilerek Milli Eğitim Bakanlığına bağlandığı yasadır. Eğitimde laikleşme ve millileşme yolunda atılan en önemli adımdır.",
+    "examples": [
+      "Medreselerin kapatılması sürecini başlatmıştır.",
+      "Yabancı okulların denetim altına alınmasını sağlamıştır."
+    ],
+    "relatedTerms": [
+      "Harf İnkılabı",
+      "Maarif Teşkilatı Hakkında Kanun"
+    ],
+    "order": 73
+  },
+  {
+    "id": "gunduz_bey_olayi",
+    "term": "Gündüz Bey Olayı",
+    "definition": "Milli Mücadele döneminde işgalci güçlerin bölge halkına yaptığı baskılara karşı yerel direnişin sembollerinden biridir.",
+    "examples": [
+      "Güney Cephesi'ndeki direniş hareketlerini tetiklemiştir."
+    ],
+    "relatedTerms": [
+      "Sütçü İmam",
+      "Şahin Bey"
+    ],
+    "order": 74
+  },
+  {
+    "id": "istiklal_marsinin_kabulu",
+    "term": "İstiklal Marşı'nın Kabulü",
+    "definition": "12 Mart 1921'de TBMM tarafından kabul edilen milli marşımızdır. Mehmet Akif Ersoy tarafından yazılmış, orduya moral vermek amacıyla hazırlanmıştır.",
+    "examples": [
+      "İlk kez 1921 Anayasası'nda yer almıştır.",
+      "Bestecisi Osman Zeki Üngör'dür."
+    ],
+    "relatedTerms": [
+      "Kurtuluş Savaşı",
+      "Birinci İnönü Zaferi"
+    ],
+    "order": 75
+  },
+  {
+    "id": "duyunuumumiye",
+    "term": "Düyun-u Umumiye",
+    "definition": "Osmanlı Devleti'nin dış borçlarını ödeyememesi üzerine kurulan Genel Borçlar İdaresi'dir. Lozan'da tamamen kaldırılmıştır.",
+    "examples": [
+      "Ekonomik bağımsızlığın önündeki en büyük engellerden biriydi.",
+      "Lozan Antlaşması ile tasfiye edilmiştir."
+    ],
+    "relatedTerms": [
+      "Kapitülasyonlar",
+      "Lozan Antlaşması"
+    ],
+    "order": 76
+  },
+  {
+    "id": "birinci_inonu_zaferi",
+    "term": "I. İnönü Zaferi",
+    "definition": "Düzenli ordunun kazandığı ilk askeri zaferdir. Bu zaferin ardından TBMM'nin iç ve dış saygınlığı artmıştır.",
+    "examples": [
+      "Londra Konferansı toplanmıştır.",
+      "Teşkilat-ı Esasiye kabul edilmiştir."
+    ],
+    "relatedTerms": [
+      "İstiklal Marşı",
+      "Afganistan Dostluk Antlaşması"
+    ],
+    "order": 77
+  },
+  {
+    "id": "amasy_gorusmesi",
+    "term": "Amasya Görüşmesi",
+    "definition": "Temsil Heyeti ile İstanbul Hükümeti (Salih Paşa) arasında yapılan görüşmedir. İstanbul Hükümeti, Temsil Heyeti'ni resmen tanımıştır.",
+    "examples": [
+      "Mebusan Meclisi'nin toplanması kararının alınması."
+    ],
+    "relatedTerms": [
+      "Temsil Heyeti",
+      "İstanbul Hükümeti"
+    ],
+    "order": 78
+  },
+  {
+    "id": "kutul_amare",
+    "term": "Kut'ül Amare",
+    "definition": "I. Dünya Savaşı'nda Irak Cephesi'nde İngilizlere karşı kazanılan büyük bir zaferdir. Halil Paşa komutasındaki Osmanlı ordusu İngiliz kuvvetlerini esir almıştır.",
+    "examples": [
+      "Halil Kut Paşa'nın başarısı."
+    ],
+    "relatedTerms": [
+      "I. Dünya Savaşı Cepheleri",
+      "Irak Cephesi"
+    ],
+    "order": 79
+  },
+  {
+    "id": "tehcir_kanunu",
+    "term": "Tehcir Kanunu",
+    "definition": "1915 yılında çıkarılan 'Sevk ve İskan Kanunu'dur. Savaş bölgelerinde devlete karşı isyan eden Ermenilerin iç bölgelere göç ettirilmesini kapsar.",
+    "examples": [
+      "Savaş zamanı güvenliğin sağlanması.",
+      "Ermeni isyanlarının bastırılması."
+    ],
+    "relatedTerms": [
+      "I. Dünya Savaşı",
+      "Doğu Cephesi"
+    ],
+    "order": 80
+  },
+  {
+    "id": "istanbul_hukumeti",
+    "term": "İstanbul Hükümeti",
+    "definition": "Mütareke döneminde İtilaf Devletleri'nin baskısı altında kalan ve Milli Mücadele'ye karşı mesafeli duran Osmanlı yönetimidir.",
+    "examples": [
+      "Damat Ferit Paşa kabineleri.",
+      "TBMM'ye karşı çıkarılan isyanlardaki rolü."
+    ],
+    "relatedTerms": [
+      "Temsil Heyeti",
+      "TBMM"
+    ],
+    "order": 81
+  },
+  {
+    "id": "son_osmanli_mebusan_meclisi",
+    "term": "Son Osmanlı Mebusan Meclisi",
+    "definition": "Misak-ı Milli kararlarının alındığı, İstanbul'un işgali ile fiilen sona eren Osmanlı'nın son yasama organıdır.",
+    "examples": [
+      "Misak-ı Milli kararları burada kabul edilmiştir.",
+      "İşgal sonrası meclis üyeleri tutuklanarak Malta'ya sürülmüştür."
+    ],
+    "relatedTerms": [
+      "Misak-ı Milli",
+      "İstanbul'un İşgali",
+      "Felah-ı Vatan Grubu"
+    ],
+    "order": 82
+  },
+  {
+    "id": "duyunu_umumiye_idare",
+    "term": "Düyun-u Umumiye İdaresi",
+    "definition": "Osmanlı Devleti'nin dış borçlarını ödeyememesi üzerine alacaklı devletlerin kurduğu, devletin mali bağımsızlığını kısıtlayan kurumdur.",
+    "examples": [
+      "Muharrem Kararnamesi ile kurulmuştur.",
+      "Lozan'da kaldırılmasına karar verilmiştir."
+    ],
+    "relatedTerms": [
+      "Dış Borçlar",
+      "Osmanlı Ekonomisi",
+      "Lozan Antlaşması"
+    ],
+    "order": 83
+  },
+  {
+    "id": "takrir_i_sukun",
+    "term": "Takrir-i Sükun Kanunu",
+    "definition": "Şeyh Sait İsyanı'nı bastırmak ve ülkede huzuru sağlamak amacıyla çıkarılan, hükümete geniş yetkiler veren olağanüstü hal yasasıdır.",
+    "examples": [
+      "İsyanın bastırılmasında etkili olmuştur.",
+      "Çok partili hayata geçiş denemelerini kesintiye uğratmıştır."
+    ],
+    "relatedTerms": [
+      "Şeyh Sait İsyanı",
+      "İstiklal Mahkemeleri",
+      "Cumhuriyet Rejimi"
+    ],
+    "order": 84
+  },
+  {
+    "id": "misaki_iktisadi",
+    "term": "Misak-ı İktisadi",
+    "definition": "İzmir İktisat Kongresi'nde kabul edilen, milli ekonominin temellerini oluşturan ve yerli malı kullanımını teşvik eden kararlar bütünüdür.",
+    "examples": [
+      "Ekonomik bağımsızlık hedeflenmiştir.",
+      "Hammaddesi yurt içinde olan ürünlere dayalı sanayi kurulması kararlaştırılmıştır."
+    ],
+    "relatedTerms": [
+      "İzmir İktisat Kongresi",
+      "Ekonomik Bağımsızlık",
+      "Yerli Üretim"
+    ],
+    "order": 85
+  },
+  {
+    "id": "teşkilatı_esasiye",
+    "term": "Teşkilat-ı Esasiye (1921 Anayasası)",
+    "definition": "TBMM'nin kabul ettiği ilk anayasadır. Güçler birliği ilkesini benimsemiş ve egemenliğin kayıtsız şartsız millete ait olduğunu belirtmiştir.",
+    "examples": [
+      "Egemenlik kayıtsız şartsız milletindir maddesi",
+      "Meclis hükümeti sisteminin benimsenmesi"
+    ],
+    "relatedTerms": [
+      "Egemenlik",
+      "Güçler Birliği",
+      "Birinci TBMM"
+    ],
+    "order": 86
+  },
+  {
+    "id": "albay_rakov",
+    "term": "Albay Rakov",
+    "definition": "Kurtuluş Savaşı sürecinde Sovyet Rusya'nın Ankara'ya gönderdiği ilk diplomatik temsilcidir. Türk-Sovyet ilişkilerinin başlamasında kritik rol oynamıştır.",
+    "examples": [
+      "Moskova Antlaşması öncesi diplomatik temaslarda bulunmuştur."
+    ],
+    "relatedTerms": [
+      "Moskova Antlaşması",
+      "Ali Fuat Cebesoy"
+    ],
+    "order": 87
+  },
+  {
+    "id": "nasihat_heyetleri",
+    "term": "Nasihat Heyetleri",
+    "definition": "İstanbul Hükümeti'nin Anadolu'daki işgallere karşı halkın direnişini kırmak ve sükuneti sağlamak için kurduğu heyetlerdir.",
+    "examples": [
+      "Halkı Kuvâ-yi Milliye'den vazgeçirmeye çalışmışlardır."
+    ],
+    "relatedTerms": [
+      "İstanbul Hükümeti",
+      "Damat Ferit Paşa"
+    ],
+    "order": 88
+  },
+  {
+    "id": "franklin_bouillon",
+    "term": "Franklin Bouillon",
+    "definition": "Sakarya Meydan Muharebesi sonrası Fransa ile TBMM arasında Ankara Antlaşması'nı imzalayan Fransız temsilcidir.",
+    "examples": [
+      "Ankara Antlaşması'nın mimarlarındandır."
+    ],
+    "relatedTerms": [
+      "Ankara Antlaşması",
+      "Güney Cephesi"
+    ],
+    "order": 89
+  },
+  {
+    "id": "mondros_ateskes_antlasmasi",
+    "term": "Mondros Ateşkes Antlaşması",
+    "definition": "30 Ekim 1918'de Osmanlı Devleti ile İtilaf Devletleri arasında imzalanan, I. Dünya Savaşı'nı Osmanlı açısından bitiren ateşkestir. Özellikle 7. ve 24. maddeleri, Anadolu'nun işgaline zemin hazırlamıştır.",
+    "examples": [
+      "Mondros Ateşkesi'nin 7. maddesi, İtilaf Devletleri'ne güvenliklerini tehdit eden bir durum karşısında istedikleri stratejik noktayı işgal etme hakkı tanımıştır.",
+      "Bu antlaşma ile Osmanlı ordusu terhis edilmiş, silahları toplanmıştır."
+    ],
+    "relatedTerms": [
+      "Sevr Antlaşması",
+      "İşgaller",
+      "Milli Cemiyetler"
+    ],
+    "order": 90
+  },
+  {
+    "id": "cemiyetler_kurulus_nedenleri",
+    "term": "Milli Cemiyetler (Kuruluş Nedenleri)",
+    "definition": "Mondros Ateşkes Antlaşması sonrası başlayan işgallere karşı, bölgesel olarak kurulan ve vatanın bağımsızlığını savunan sivil direniş örgütleridir. Başlangıçta bölgesel olsalar da Sivas Kongresi'nde birleştirilmişlerdir.",
+    "examples": [
+      "İzmir Müdafaa-i Hukuk Cemiyeti, Batı Anadolu'nun Yunan işgaline karşı kurulmuştur.",
+      "Doğu Anadolu Müdafaa-i Hukuk Cemiyeti, Ermeni tehlikesine karşı faaliyet göstermiştir."
+    ],
+    "relatedTerms": [
+      "Kuvâ-yi Milliye",
+      "Sivas Kongresi",
+      "İşgaller"
+    ],
+    "order": 91
+  },
+  {
+    "id": "ali_fuat_paşa",
+    "term": "Ali Fuat Paşa (Cebesoy)",
+    "definition": "Milli Mücadele'nin önemli komutanlarından ve siyasetçilerindendir. Batı Cephesi'nde Kuvâ-yi Milliye birliklerinin komutanlığını yapmış, Gediz Muharebesi sonrası Moskova Büyükelçiliği görevine atanmıştır.",
+    "examples": [
+      "Ali Fuat Paşa, Amasya Genelgesi'ni imzalayan komutanlardan biridir.",
+      "Gediz Muharebesi'ndeki başarısızlığı, düzenli orduya geçiş sürecini hızlandırmıştır."
+    ],
+    "relatedTerms": [
+      "Kuvâ-yi Milliye",
+      "Gediz Muharebesi",
+      "Moskova Büyükelçiliği"
+    ],
+    "order": 92
+  },
+  {
+    "id": "düzenli_orduya_geçiş",
+    "term": "Düzenli Orduya Geçiş",
+    "definition": "Kuvâ-yi Milliye'nin yetersiz kalması ve disiplinsiz hareketleri nedeniyle, Milli Mücadele'de daha etkin ve merkezi bir direniş için kurulan askeri yapıdır. Gediz Muharebesi sonrası hız kazanmıştır.",
+    "examples": [
+      "Düzenli orduya geçiş, Batı Cephesi'nde Yunan ilerleyişini durdurmak için zorunlu hale gelmiştir.",
+      "Bu süreçte Kuvâ-yi Milliye liderlerinden bazıları düzenli orduya katılmayı reddetmiştir."
+    ],
+    "relatedTerms": [
+      "Kuvâ-yi Milliye",
+      "Gediz Muharebesi",
+      "İnönü Savaşları"
+    ],
+    "order": 93
+  },
+  {
+    "id": "başkomutanlık_yasası",
+    "term": "Başkomutanlık Yasası",
+    "definition": "Kütahya-Eskişehir Muharebeleri'ndeki başarısızlık sonrası, TBMM tarafından Mustafa Kemal'e üç aylık süreyle tüm yetkileri devreden yasadır. Bu yasa ile Mustafa Kemal, ordunun başına geçerek Sakarya Meydan Muharebesi'ni yönetmiştir.",
+    "examples": [
+      "Başkomutanlık Yasası, Mustafa Kemal'e yasama, yürütme ve yargı yetkilerini kullanma hakkı vermiştir.",
+      "Bu yasa, Türk ordusunun Sakarya'da toparlanmasında ve zafer kazanmasında kritik rol oynamıştır."
+    ],
+    "relatedTerms": [
+      "Kütahya-Eskişehir Muharebeleri",
+      "Sakarya Meydan Muharebesi",
+      "TBMM"
+    ],
+    "order": 94
+  },
+  {
+    "id": "kuva_yi_inzibatiye",
+    "term": "Kuvâ-yi İnzibatiye (Hilafet Ordusu)",
+    "definition": "İstanbul Hükümeti tarafından Kuvâ-yi Milliye'ye karşı kurulan, İngiliz destekli ve halifeliği koruma amacı taşıyan düzensiz ordu. İzmit ve Adapazarı bölgelerinde faaliyet göstermiş, ancak kısa sürede dağıtılmıştır.",
+    "examples": [
+      "Kuvâ-yi İnzibatiye, Ali Fuat Paşa komutasındaki birliklerce bastırılmıştır.",
+      "Bu oluşum, Milli Mücadele'ye karşı çıkarılan iç isyanlardan biridir."
+    ],
+    "relatedTerms": [
+      "Anzavur Ayaklanması",
+      "İstanbul Hükümeti",
+      "Kuvâ-yi Milliye"
+    ],
+    "order": 95
+  },
+  {
+    "id": "tekalif_i_milliye_emirleri",
+    "term": "Tekâlif-i Milliye Emirleri",
+    "definition": "Kütahya-Eskişehir Muharebeleri sonrası ordunun ihtiyaçlarını karşılamak amacıyla Başkomutan Mustafa Kemal Paşa tarafından yayımlanan ulusal yükümlülük emirleridir. Türk halkının fedakarlığı ile ordunun lojistik sorunları giderilmeye çalışılmıştır.",
+    "examples": [
+      "Her aileden bir çift çorap, bir çift çarık istenmesi Tekâlif-i Milliye Emirleri'ne örnektir.",
+      "Bu emirler, Sakarya Meydan Muharebesi öncesi ordunun eksiklerini gidermede önemli rol oynamıştır."
+    ],
+    "relatedTerms": [
+      "Başkomutanlık Kanunu",
+      "Sakarya Meydan Muharebesi",
+      "Kütahya-Eskişehir Muharebeleri"
+    ],
+    "order": 96
+  },
+  {
+    "id": "firariler_kanunu",
+    "term": "Firariler Kanunu",
+    "definition": "TBMM tarafından çıkarılan, asker kaçaklarını ve ordudan firar edenleri cezalandırmayı amaçlayan kanundur. Milli Mücadele döneminde ordunun disiplinini sağlamak ve asker kaçaklarını önlemek için önemli bir adımdır.",
+    "examples": [
+      "Firariler Kanunu'nun uygulanması için İstiklal Mahkemeleri kurulmuştur.",
+      "Bu kanun, düzenli ordunun kurulma ve güçlenme sürecine katkıda bulunmuştur."
+    ],
+    "relatedTerms": [
+      "İstiklal Mahkemeleri",
+      "Düzenli Ordu",
+      "Başkomutanlık Kanunu"
+    ],
+    "order": 97
+  },
+  {
+    "id": "fransizlarla_ankara_antlasmasi",
+    "term": "Fransızlarla Ankara Antlaşması (1921)",
+    "definition": "TBMM Hükümeti ile Fransa arasında imzalanan, Güney Cephesi'ndeki sıcak çatışmaları sona erdiren antlaşmadır. Fransa, TBMM Hükümeti'ni resmen tanımış ve Hatay hariç bugünkü Suriye sınırı çizilmiştir.",
+    "examples": [
+      "Fransa, bu antlaşma ile İtilaf Bloğu'ndan ayrılan ilk devlettir.",
+      "Antlaşma sonucunda Güney Cephesi'ndeki birlikler Batı Cephesi'ne kaydırılmıştır."
+    ],
+    "relatedTerms": [
+      "Güney Cephesi",
+      "Sakarya Meydan Muharebesi",
+      "Hatay"
+    ],
+    "order": 98
+  },
+  {
+    "id": "sevr_antlasmasi_taslagi",
+    "term": "Sevr Antlaşması Taslağı",
+    "definition": "Osmanlı Devleti'ne dayatılan ve I. Dünya Savaşı sonrası topraklarını parçalamayı hedefleyen antlaşma metnidir. Hukuken geçersiz sayılmış, Türk milleti tarafından hiçbir zaman kabul edilmemiştir.",
+    "examples": [
+      "Sevr Antlaşması'nın taslağı, San Remo Konferansı'nda hazırlanmıştır.",
+      "Osmanlı Mebusan Meclisi kapalı olduğu için onaylanamamıştır."
+    ],
+    "relatedTerms": [
+      "Mondros Ateşkes Antlaşması",
+      "Lozan Barış Antlaşması",
+      "Misak-ı Milli"
+    ],
+    "order": 99
+  },
+  {
+    "id": "balikesir_alashehir_kongreleri",
+    "term": "Balıkesir ve Alaşehir Kongreleri",
+    "definition": "Batı Anadolu'da Yunan işgaline karşı bölgesel direnişi örgütlemek amacıyla toplanan kongrelerdir. Kuva-yi Milliye'nin teşkilatlanmasında önemli rol oynamışlardır.",
+    "examples": [
+      "Bu kongrelerde düzenli orduya geçişten ziyade bölgesel direniş ön planda tutulmuştur."
+    ],
+    "relatedTerms": [
+      "Kuva-yi Milliye",
+      "Batı Anadolu Cephesi"
+    ],
+    "order": 100
+  },
+  {
+    "id": "kuva_yi_milliye_ruh_ve_ozellikleri",
+    "term": "Kuva-yi Milliye'nin Ruh ve Özellikleri",
+    "definition": "Kurtuluş Savaşı'nın ilk dönemlerinde işgalci güçlere karşı halkın kendi imkanlarıyla oluşturduğu düzensiz silahlı direniş birlikleridir. Vatanseverlik ve bağımsızlık ruhuyla hareket etmişlerdir.",
+    "examples": [
+      "Bölgesel nitelikli olmaları ve disiplinsiz hareket etmeleri düzenli orduya geçişi zorunlu kılmıştır."
+    ],
+    "relatedTerms": [
+      "Düzenli Orduya Geçiş",
+      "Cepheler"
+    ],
+    "order": 101
+  },
+  {
+    "id": "son_osmanli_mebusan_meclisi_calismalari",
+    "term": "Son Osmanlı Mebusan Meclisi'nin Çalışmaları",
+    "definition": "İstanbul'da toplanan ve Misak-ı Milli kararlarını kabul eden son Osmanlı parlamentosudur. Bu kararların kabulü, İtilaf Devletleri'nin İstanbul'u resmen işgal etmesine neden olmuştur.",
+    "examples": [
+      "Misak-ı Milli kararları bu mecliste kabul edilmiştir.",
+      "Meclisin dağıtılması üzerine Ankara'da TBMM açılmıştır."
+    ],
+    "relatedTerms": [
+      "Misak-ı Milli",
+      "İstanbul'un İşgali",
+      "TBMM'nin Açılması"
+    ],
+    "order": 102
+  },
+  {
+    "id": "tbmm_acilis_nedenleri",
+    "term": "TBMM'nin Açılış Nedenleri",
+    "definition": "İstanbul'un işgali ve Son Osmanlı Mebusan Meclisi'nin dağıtılması üzerine, milli iradeyi temsil etmek ve bağımsızlık mücadelesini yürütmek amacıyla Ankara'da açılmıştır. Olağanüstü yetkilere sahip bir meclistir.",
+    "examples": [
+      "Milli Mücadele'nin tek temsilcisi olma özelliğini taşır."
+    ],
+    "relatedTerms": [
+      "Son Osmanlı Mebusan Meclisi",
+      "İstanbul'un İşgali",
+      "Milli Egemenlik"
+    ],
+    "order": 103
+  },
+  {
+    "id": "duzenli_ordu_kurulusu",
+    "term": "Düzenli Ordunun Kuruluşu",
+    "definition": "Kuva-yi Milliye'nin disiplinsizliği ve yetersiz kalması üzerine, Batı Cephesi'nde Yunan ilerleyişini durdurmak amacıyla kurulmuştur. İsmet İnönü bu ordunun başında önemli görevler üstlenmiştir.",
+    "examples": [
+      "Gediz Muharebesi'ndeki başarısızlık düzenli orduya geçişi hızlandırmıştır."
+    ],
+    "relatedTerms": [
+      "Kuva-yi Milliye",
+      "İsmet İnönü",
+      "Gediz Muharebesi"
+    ],
+    "order": 104
+  },
+  {
+    "id": "cepheler_genel_ozellikleri",
+    "term": "Kurtuluş Savaşı Cepheleri (Genel Özellikler)",
+    "definition": "Kurtuluş Savaşı'nda Doğu, Güney ve Batı olmak üzere üç ana cephede mücadele edilmiştir. Her cephenin kendine özgü düşmanları ve mücadele yöntemleri olmuştur.",
+    "examples": [
+      "Doğu Cephesi'nde Ermenilerle, Güney Cephesi'nde Fransız ve Ermenilerle, Batı Cephesi'nde ise Yunanlılarla mücadele edilmiştir."
+    ],
+    "relatedTerms": [
+      "Doğu Cephesi",
+      "Güney Cephesi",
+      "Batı Cephesi"
+    ],
+    "order": 105
+  },
+  {
+    "id": "ankara_hukuku_ve_tbmm_hukuku",
+    "term": "Ankara Hükümeti ve TBMM Hukuku",
+    "definition": "Kurtuluş Savaşı döneminde Ankara'da kurulan ve milli iradeyi temsil eden hükümetin hukuki statüsüdür. Ulusal egemenliğe dayalı, halkın temsilcilerinden oluşan yeni bir devletin temellerini atmıştır.",
+    "examples": [
+      "TBMM'nin açılmasıyla İstanbul Hükümeti'ne karşı alternatif bir yönetim merkezi oluşmuştur.",
+      "Sevr Antlaşması'nı tanımayarak kendi hukukunu ortaya koymuştur."
+    ],
+    "relatedTerms": [
+      "TBMM'nin Açılması",
+      "Milli Egemenlik",
+      "İstanbul Hükümeti"
+    ],
+    "order": 106
+  },
+  {
+    "id": "basarilarin_nedenleri",
+    "term": "Kurtuluş Savaşı Başarı Nedenleri",
+    "definition": "Milli Mücadele'nin başarıya ulaşmasında Mustafa Kemal'in liderliği, halkın topyekün desteği, düzenli ordunun kurulması ve doğru stratejilerin uygulanması etkili olmuştur.",
+    "examples": [
+      "Tekalif-i Milliye Emirleri ile halkın orduya desteği.",
+      "Misak-ı Milli etrafında birleşme."
+    ],
+    "relatedTerms": [
+      "Mustafa Kemal Atatürk",
+      "Halk Desteği",
+      "Düzenli Ordu"
+    ],
+    "order": 107
+  },
+  {
+    "id": "kuva_yi_milliye_nedenleri",
+    "term": "Kuvâ-yi Milliye'nin Ortaya Çıkış Nedenleri",
+    "definition": "Mondros Ateşkesi sonrası ortaya çıkan işgaller karşısında Osmanlı Hükümeti'nin aciz kalması ve halkın kendi can ve mal güvenliğini sağlama ihtiyacı Kuvâ-yi Milliye'nin doğmasına yol açmıştır.",
+    "examples": [
+      "İşgallere karşı ilk direniş hareketleridir.",
+      "Halkın bölgesel savunma çabalarıdır."
+    ],
+    "relatedTerms": [
+      "Mondros Ateşkes Antlaşması",
+      "İşgaller",
+      "Düzenli Orduya Geçiş"
+    ],
+    "order": 108
+  },
+  {
+    "id": "tbmm_acilisi",
+    "term": "TBMM'nin Açılması ve İlk Çalışmaları",
+    "definition": "23 Nisan 1920'de açılan TBMM, ulusal egemenliği temsil eden tek güç olmuştur. Olağanüstü yetkilere sahip bir meclis olarak yasama, yürütme ve yargı yetkilerini kullanmıştır.",
+    "examples": [
+      "Hıyanet-i Vataniye Kanunu çıkarılmıştır.",
+      "İstiklal Mahkemeleri kurulmuştur."
+    ],
+    "relatedTerms": [
+      "Misak-ı Milli",
+      "Temsil Heyeti",
+      "Teşkilat-ı Esasiye"
+    ],
+    "order": 109
   }
 ]

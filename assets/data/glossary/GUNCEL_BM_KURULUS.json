@@ -1540,5 +1540,463 @@
       "Cinsiyet Eşitliği"
     ],
     "order": 96
+  },
+  {
+    "id": "bm_genel_kurulu_gorevleri",
+    "term": "BM Genel Kurulu'nun Temel Görevleri",
+    "definition": "Birleşmiş Milletler'in ana istişare, politika belirleme ve temsil organıdır. Üye devletlerin tamamının eşit temsil edildiği tek organdır. Barış ve güvenliğin korunması, yeni üye kabulü ve bütçe onayı gibi konularda tavsiye kararları alır.",
+    "examples": [
+      "Yıllık genel görüşmelerde uluslararası sorunları tartışmak.",
+      "Güvenlik Konseyi'nin tavsiyesi üzerine yeni üye devletleri kabul etmek."
+    ],
+    "relatedTerms": [
+      "BM Güvenlik Konseyi",
+      "BM Genel Sekreteri",
+      "BM Tüzüğü"
+    ],
+    "order": 97
+  },
+  {
+    "id": "bm_guvenlik_konseyi_yapisi",
+    "term": "BM Güvenlik Konseyi'nin Yapısı ve Yetkileri",
+    "definition": "Uluslararası barış ve güvenliğin birincil sorumluluğunu taşıyan BM organıdır. Beş daimi ve on geçici üyeden oluşur. Bağlayıcı kararlar alma yetkisine sahiptir.",
+    "examples": [
+      "Bir çatışma bölgesine barış gücü gönderme kararı almak.",
+      "Uluslararası yaptırımlar uygulama kararı almak."
+    ],
+    "relatedTerms": [
+      "BM Genel Kurulu",
+      "Veto Hakkı",
+      "Daimi Üyeler"
+    ],
+    "order": 98
+  },
+  {
+    "id": "bm_tuzugu_temel_ilkeleri",
+    "term": "BM Tüzüğü'nün Temel İlkeleri",
+    "definition": "Birleşmiş Milletler'in kuruluş belgesi ve uluslararası hukukun temelini oluşturan antlaşmadır. Üye devletlerin egemen eşitliği, iç işlerine karışmama ve uluslararası anlaşmazlıkların barışçıl yollarla çözümü gibi ilkeleri içerir.",
+    "examples": [
+      "Devletlerin toprak bütünlüğüne saygı ilkesi.",
+      "Uluslararası ilişkilerde güç kullanma tehdidinden kaçınma."
+    ],
+    "relatedTerms": [
+      "Uluslararası Hukuk",
+      "Egemen Eşitlik",
+      "Barışçıl Çözüm"
+    ],
+    "order": 99
+  },
+  {
+    "id": "uluslararasi_adalet_divani_gorevleri",
+    "term": "Uluslararası Adalet Divanı (UAD) Görevleri",
+    "definition": "Birleşmiş Milletler'in ana yargı organıdır. Devletler arasındaki hukuki anlaşmazlıkları BM Tüzüğü ve uluslararası hukuk kurallarına göre çözer. Ayrıca BM organlarına hukuki danışma görüşleri verir.",
+    "examples": [
+      "İki devlet arasındaki sınır anlaşmazlığını çözmek.",
+      "Deniz yetki alanları konusundaki hukuki ihtilaflara bakmak."
+    ],
+    "relatedTerms": [
+      "Uluslararası Ceza Mahkemesi",
+      "Lahey",
+      "BM Tüzüğü"
+    ],
+    "order": 100
+  },
+  {
+    "id": "uluslararasi_calisma_orgutu_ilo",
+    "term": "Uluslararası Çalışma Örgütü (ILO)",
+    "definition": "Birleşmiş Milletler'in uzmanlık kuruluşlarından biridir. Uluslararası çalışma standartlarını belirleyerek çalışma hayatındaki hakları, istihdamı ve sosyal korumayı iyileştirmeyi hedefler. İşçi, işveren ve hükümet temsilcileri üçlü yapıda çalışır.",
+    "examples": [
+      "Çocuk işçiliğinin önlenmesi için sözleşmeler hazırlamak.",
+      "İş sağlığı ve güvenliği standartlarını belirlemek."
+    ],
+    "relatedTerms": [
+      "BM Uzman Kuruluşları",
+      "Sosyal Haklar",
+      "Sendikalar"
+    ],
+    "order": 101
+  },
+  {
+    "id": "dunya_saglik_orgutu_who",
+    "term": "Dünya Sağlık Örgütü (WHO)",
+    "definition": "Birleşmiş Milletler'in sağlık alanındaki uzmanlık kuruluşudur. Uluslararası sağlık sorunlarına çözüm bulmayı, hastalıklarla mücadele etmeyi ve dünya genelinde sağlık standartlarını yükseltmeyi amaçlar. Salgın hastalıklarla mücadelede öncü rol oynar.",
+    "examples": [
+      "Küresel aşı programlarını koordine etmek.",
+      "Pandemi durumlarında uluslararası rehberlik sağlamak."
+    ],
+    "relatedTerms": [
+      "ECOSOC",
+      "Salgın Hastalıklar",
+      "Halk Sağlığı"
+    ],
+    "order": 102
+  },
+  {
+    "id": "unesco_gorevleri",
+    "term": "UNESCO'nun Temel Görevleri",
+    "definition": "Birleşmiş Milletler Eğitim, Bilim ve Kültür Örgütü'dür. Eğitim, bilim, kültür ve iletişim yoluyla uluslararası barış ve güvenliğe katkıda bulunmayı hedefler. Dünya Mirası Listesi ile kültürel ve doğal mirasın korunmasını sağlar.",
+    "examples": [
+      "Eğitimde fırsat eşitliğini teşvik etmek.",
+      "Tarihi ve kültürel miras alanlarını koruma altına almak."
+    ],
+    "relatedTerms": [
+      "Dünya Mirası Listesi",
+      "Kültürel Diplomasi",
+      "Bilimsel İşbirliği"
+    ],
+    "order": 103
+  },
+  {
+    "id": "uluslararasi_atom_enerjisi_kurumu_iaea",
+    "term": "Uluslararası Atom Enerjisi Kurumu (IAEA)",
+    "definition": "Birleşmiş Milletler ailesine bağlı özerk bir kuruluştur. Nükleer enerjinin barışçıl amaçlarla kullanımını teşvik ederken, askeri amaçlarla kullanılmasını önlemek için denetimler yapar. Nükleer güvenlik standartlarını belirler.",
+    "examples": [
+      "Nükleer santrallerin güvenliğini denetlemek.",
+      "Üye ülkelerin nükleer programlarını izlemek."
+    ],
+    "relatedTerms": [
+      "Nükleer Silahsızlanma",
+      "Nükleer Güvenlik",
+      "BM Güvenlik Konseyi"
+    ],
+    "order": 104
+  },
+  {
+    "id": "bm_insan_haklari_konseyi",
+    "term": "BM İnsan Hakları Konseyi",
+    "definition": "Birleşmiş Milletler Genel Kurulu'na bağlı hükümetler arası bir organdır. Dünya genelindeki insan hakları ihlallerini ele alır ve insan haklarının korunması ve geliştirilmesi için tavsiyelerde bulunur. Evrensel Periyodik İnceleme mekanizmasıyla üye devletlerin insan hakları karnesini değerlendirir.",
+    "examples": [
+      "İnsan hakları ihlalleriyle ilgili raporlar hazırlamak.",
+      "Üye ülkelerin insan hakları durumunu periyodik olarak incelemek."
+    ],
+    "relatedTerms": [
+      "İnsan Hakları Evrensel Beyannamesi",
+      "OHCHR",
+      "Evrensel Periyodik İnceleme"
+    ],
+    "order": 105
+  },
+  {
+    "id": "bm_baris_gucu_operasyonlari",
+    "term": "BM Barış Gücü Operasyonları",
+    "definition": "BM Güvenlik Konseyi kararıyla başlatılan ve çatışma bölgelerinde barışın korunması, insani yardımın ulaştırılması ve istikrarın sağlanması amacıyla yürütülen operasyonlardır. Mavi Bereliler olarak bilinen askerler genellikle tarafsızlık ilkesiyle hareket eder.",
+    "examples": [
+      "Kıbrıs'taki BM Barış Gücü (UNFICYP).",
+      "Çatışma sonrası bölgelerde seçim güvenliğini sağlamak."
+    ],
+    "relatedTerms": [
+      "BM Güvenlik Konseyi",
+      "Barış İnşası",
+      "Çatışma Çözümü"
+    ],
+    "order": 106
+  },
+  {
+    "id": "bm_mil_kalkinma_hedefleri",
+    "term": "BM Binyıl Kalkınma Hedefleri (BKH)",
+    "definition": "2000 yılında BM tarafından belirlenen ve 2015 yılına kadar ulaşılması hedeflenen sekiz uluslararası kalkınma hedefidir. Aşırı yoksulluğu ve açlığı azaltma, evrensel ilköğretimi sağlama gibi konuları içerir. Yerini Sürdürülebilir Kalkınma Hedefleri'ne bırakmıştır.",
+    "examples": [
+      "Çocuk ölümlerini azaltma hedefi.",
+      "HIV/AIDS, sıtma ve diğer hastalıklarla mücadele."
+    ],
+    "relatedTerms": [
+      "Sürdürülebilir Kalkınma Hedefleri",
+      "UNDP",
+      "Yoksullukla Mücadele"
+    ],
+    "order": 107
+  },
+  {
+    "id": "bm_surdurulebilir_kalkinma_hedefleri",
+    "term": "BM Sürdürülebilir Kalkınma Hedefleri (SKH)",
+    "definition": "2015 yılında Binyıl Kalkınma Hedefleri'nin devamı olarak kabul edilen ve 2030 yılına kadar ulaşılması hedeflenen 17 küresel hedeftir. Yoksulluğa son verme, açlığı bitirme, kaliteli eğitim, temiz su ve sanitasyon gibi geniş bir yelpazeyi kapsar.",
+    "examples": [
+      "İklim eylemi hedefi.",
+      "Cinsiyet eşitliğini sağlama hedefi."
+    ],
+    "relatedTerms": [
+      "Binyıl Kalkınma Hedefleri",
+      "Çevre Koruma",
+      "Küresel İşbirliği"
+    ],
+    "order": 108
+  },
+  {
+    "id": "bm_uzay_isleri_ofisi_unoosa",
+    "term": "BM Uzay İşleri Ofisi (UNOOSA)",
+    "definition": "Birleşmiş Milletler'in uzayın barışçıl amaçlarla kullanımını teşvik eden ve uluslararası uzay işbirliğini koordine eden ofisidir. Uzay hukuku ve uzay teknolojilerinin kalkınma için kullanımına odaklanır.",
+    "examples": [
+      "Uzay çöplüğü sorununa çözüm arayışları.",
+      "Uzaydan elde edilen verilerin afet yönetiminde kullanılması."
+    ],
+    "relatedTerms": [
+      "Uzay Hukuku",
+      "Uluslararası İşbirliği",
+      "Uzay Teknolojileri"
+    ],
+    "order": 109
+  },
+  {
+    "id": "bm_kadin_birimi_un_women",
+    "term": "BM Kadın Birimi (UN Women)",
+    "definition": "Cinsiyet eşitliği ve kadınların güçlendirilmesi için çalışan Birleşmiş Milletler kuruluşudur. Kadınlara yönelik ayrımcılığın sona erdirilmesi ve kadınların tüm alanlarda eşit katılımının sağlanması için programlar yürütür.",
+    "examples": [
+      "Kadına yönelik şiddetle mücadele kampanyaları.",
+      "Kadınların siyasete katılımını destekleyen projeler."
+    ],
+    "relatedTerms": [
+      "Cinsiyet Eşitliği",
+      "Kadın Hakları",
+      "CEDAW"
+    ],
+    "order": 110
+  },
+  {
+    "id": "bm_sekreterligi_gorevleri",
+    "term": "BM Sekreterliği ve Görevleri",
+    "definition": "Birleşmiş Milletler'in günlük işlerini yürüten idari organdır. BM Genel Sekreteri tarafından yönetilir ve dünya çapında on binlerce uluslararası memurdan oluşur.",
+    "examples": [
+      "BM organlarının toplantılarını organize etmek.",
+      "BM programlarını ve politikalarını uygulamak.",
+      "Uluslararası sorunlarla ilgili analiz ve araştırmalar yapmak."
+    ],
+    "relatedTerms": [
+      "BM Genel Sekreteri",
+      "BM Genel Kurulu",
+      "BM Ekonomik ve Sosyal Konsey"
+    ],
+    "order": 111
+  },
+  {
+    "id": "uluslararasi_adalet_divani",
+    "term": "Uluslararası Adalet Divanı (UAD)",
+    "definition": "Birleşmiş Milletler'in başlıca yargı organıdır. Devletler arasındaki hukuki uyuşmazlıkları çözer ve BM organları ile uzmanlık kuruluşlarına hukuki görüşler verir.",
+    "examples": [
+      "Devletler arası sınır anlaşmazlıklarını çözmek.",
+      "Soykırım Sözleşmesi'nin yorumlanması konusunda kararlar almak."
+    ],
+    "relatedTerms": [
+      "Uluslararası Ceza Mahkemesi",
+      "Uluslararası Hukuk",
+      "BM Şartı"
+    ],
+    "order": 112
+  },
+  {
+    "id": "bm_endustriyel_kalkinma_orgutu_unido",
+    "term": "BM Endüstriyel Kalkınma Örgütü (UNIDO)",
+    "definition": "Yoksulluğun azaltılması, kapsayıcı küreselleşme ve çevresel sürdürülebilirlik için endüstriyel kalkınmayı teşvik eden Birleşmiş Milletler uzmanlık kuruluşudur. Gelişmekte olan ülkelerin endüstriyel kapasitelerini artırmalarına yardımcı olur.",
+    "examples": [
+      "Küçük ve orta ölçekli işletmeleri desteklemek.",
+      "Yeşil endüstriyel teknolojilerin yaygınlaştırılması.",
+      "Endüstriyel politikaların oluşturulmasına danışmanlık yapmak."
+    ],
+    "relatedTerms": [
+      "Sürdürülebilir Kalkınma",
+      "Ekonomik Kalkınma",
+      "Teknoloji Transferi"
+    ],
+    "order": 113
+  },
+  {
+    "id": "uluslararasi_sivil_havacilik_orgutu_icao",
+    "term": "Uluslararası Sivil Havacılık Örgütü (ICAO)",
+    "definition": "Uluslararası hava seyrüseferinin ilkelerini ve tekniklerini kodlayan ve uluslararası hava taşımacılığının planlanması ve geliştirilmesini teşvik eden Birleşmiş Milletler uzmanlık kuruluşudur. Küresel sivil havacılık standartlarını belirler.",
+    "examples": [
+      "Uçuş güvenliği standartlarını belirlemek.",
+      "Hava trafik kontrol sistemlerinin uyumluluğunu sağlamak.",
+      "Çevresel etkileri azaltmaya yönelik havacılık politikaları geliştirmek."
+    ],
+    "relatedTerms": [
+      "Hava Taşımacılığı",
+      "Havacılık Güvenliği",
+      "Uluslararası Hukuk"
+    ],
+    "order": 114
+  },
+  {
+    "id": "uluslararasi_denizcilik_orgutu_imo",
+    "term": "Uluslararası Denizcilik Örgütü (IMO)",
+    "definition": "Uluslararası denizciliğin güvenliğini ve emniyetini artırmak, gemilerden kaynaklanan deniz kirliliğini önlemekle görevli Birleşmiş Milletler uzmanlık kuruluşudur. Denizcilik sektöründe uluslararası standartlar geliştirir.",
+    "examples": [
+      "Gemi inşa standartlarını belirlemek.",
+      "Deniz kazalarını önlemeye yönelik düzenlemeler yapmak.",
+      "Deniz çevresinin korunması için protokoller oluşturmak."
+    ],
+    "relatedTerms": [
+      "Deniz Hukuku",
+      "Deniz Güvenliği",
+      "Deniz Kirliliği"
+    ],
+    "order": 115
+  },
+  {
+    "id": "uluslararasi_telekomunikasyon_birligi_itu",
+    "term": "Uluslararası Telekomünikasyon Birliği (ITU)",
+    "definition": "Bilgi ve iletişim teknolojileri (BİT) konusunda Birleşmiş Milletler uzmanlık kuruluşudur. Küresel ağlar ve hizmetlerin sorunsuz işleyişini sağlamak için uluslararası standartlar ve düzenlemeler geliştirir.",
+    "examples": [
+      "Radyo frekans tahsisini düzenlemek.",
+      "Telekomünikasyon altyapısının geliştirilmesini desteklemek.",
+      "Siber güvenlikle ilgili standartlar oluşturmak."
+    ],
+    "relatedTerms": [
+      "Bilgi Teknolojileri",
+      "Siber Güvenlik",
+      "Küresel İletişim"
+    ],
+    "order": 116
+  },
+  {
+    "id": "dunya_turizm_orgutu_unto",
+    "term": "Dünya Turizm Örgütü (UNWTO)",
+    "definition": "Sorumlu, sürdürülebilir ve evrensel olarak erişilebilir turizmin teşvik edilmesinden sorumlu Birleşmiş Milletler uzmanlık kuruluşudur. Turizmin ekonomik kalkınma, çevresel sürdürülebilirlik ve kültürel anlayışa katkısını artırmayı hedefler.",
+    "examples": [
+      "Sürdürülebilir turizm politikaları geliştirmek.",
+      "Turizm istatistiklerini toplamak ve analiz etmek.",
+      "Turizm sektöründe istihdamı artırmak."
+    ],
+    "relatedTerms": [
+      "Sürdürülebilir Kalkınma",
+      "Kültürel Miras",
+      "Ekonomik Kalkınma"
+    ],
+    "order": 117
+  },
+  {
+    "id": "dunya_posta_birligi_upu",
+    "term": "Dünya Posta Birliği (UPU)",
+    "definition": "Üye ülkeler arasında evrensel bir posta hizmeti sağlamak için posta politikalarını koordine eden Birleşmiş Milletler uzmanlık kuruluşudur. Uluslararası posta alışverişini kolaylaştıran kurallar ve düzenlemeler belirler.",
+    "examples": [
+      "Uluslararası posta ücretlerini standartlaştırmak.",
+      "Posta güvenliğini artırmak için işbirliği yapmak.",
+      "Posta hizmetlerinde teknolojik gelişmeleri teşvik etmek."
+    ],
+    "relatedTerms": [
+      "Uluslararası Ticaret",
+      "Lojistik",
+      "İletişim"
+    ],
+    "order": 118
+  },
+  {
+    "id": "bm_genel_sekreteri_secimi",
+    "term": "BM Genel Sekreteri Seçimi",
+    "definition": "Birleşmiş Milletler Genel Sekreteri, Güvenlik Konseyi'nin tavsiyesi üzerine Genel Kurul tarafından beş yıllık bir dönem için seçilir. Bu seçimde Güvenlik Konseyi'nin daimi üyeleri veto yetkisine sahiptir.",
+    "examples": [
+      "Birleşmiş Milletler Genel Sekreteri'nin atanmasında Güvenlik Konseyi'nin hangi üyelerinin veto hakkı bulunmaktadır?",
+      "Genel Sekreterin görev süresi kaç yıldır?"
+    ],
+    "relatedTerms": [
+      "BM Genel Kurulu",
+      "BM Güvenlik Konseyi",
+      "Veto Hakkı"
+    ],
+    "order": 119
+  },
+  {
+    "id": "uluslararasi_ceza_mahkemesi_gorevleri",
+    "term": "Uluslararası Ceza Mahkemesi (UCM) Görevleri",
+    "definition": "Uluslararası Ceza Mahkemesi, soykırım, insanlığa karşı suçlar, savaş suçları ve saldırı suçları gibi en ciddi uluslararası suçları işleyen bireyleri yargılamakla görevli bağımsız bir kurumdur. Devletlerin yargı yetkisini tamamlayıcı bir rol oynar.",
+    "examples": [
+      "Uluslararası Ceza Mahkemesi'nin yargı yetkisine giren suç türleri nelerdir?",
+      "Uluslararası Ceza Mahkemesi'nin temel amacı nedir?"
+    ],
+    "relatedTerms": [
+      "Roma Statüsü",
+      "Soykırım Suçu",
+      "Savaş Suçları"
+    ],
+    "order": 120
+  },
+  {
+    "id": "bm_baris_koruma_operasyonlari_ilkeleri",
+    "term": "BM Barış Koruma Operasyonları İlkeleri",
+    "definition": "BM Barış Koruma Operasyonları, tarafların rızası, tarafsızlık ve güç kullanımı sadece meşru müdafaa veya görevi yerine getirme amacıyla olmak üzere üç temel ilkeye dayanır. Bu ilkeler, operasyonların etkinliğini ve uluslararası hukuka uygunluğunu sağlar.",
+    "examples": [
+      "BM Barış Gücü operasyonlarının temel ilkelerinden biri nedir?",
+      "Birleşmiş Milletler barış koruma operasyonlarında tarafsızlık ilkesinin önemi nedir?"
+    ],
+    "relatedTerms": [
+      "BM Barış Gücü",
+      "Mavi Baretliler",
+      "Tarafsızlık İlkesi"
+    ],
+    "order": 121
+  },
+  {
+    "id": "bm_vesayet_konseyi_gorevi",
+    "term": "BM Vesayet Konseyi'nin Görevi",
+    "definition": "Birleşmiş Milletler Vesayet Konseyi, II. Dünya Savaşı sonrası bağımsızlığını kazanamamış vesayet altındaki bölgelerin kendi kendini yönetme veya bağımsızlıklarını kazanma süreçlerini denetlemek amacıyla kurulmuştur. Son vesayet bölgesi Palau'nun bağımsızlığını kazanmasıyla 1994'te faaliyetlerini askıya almıştır.",
+    "examples": [
+      "Birleşmiş Milletler'in hangi organı vesayet altındaki bölgelerin bağımsızlık süreçlerini denetlemiştir?",
+      "Vesayet Konseyi'nin faaliyetlerini askıya almasının nedeni nedir?"
+    ],
+    "relatedTerms": [
+      "BM Ana Organları",
+      "Vesayet Sistemi",
+      "Palau"
+    ],
+    "order": 122
+  },
+  {
+    "id": "bm_insan_haklari_evrensel_bildirgesi",
+    "term": "BM İnsan Hakları Evrensel Bildirgesi (İHEB)",
+    "definition": "1948 yılında Birleşmiş Milletler Genel Kurulu tarafından kabul edilen İnsan Hakları Evrensel Bildirgesi, tüm insanların sahip olduğu temel hak ve özgürlükleri tanımlayan dönüm noktası niteliğinde bir belgedir. Uluslararası insan hakları hukukunun temelini oluşturur.",
+    "examples": [
+      "İnsan Hakları Evrensel Bildirgesi hangi yıl ve hangi BM organı tarafından kabul edilmiştir?",
+      "İHEB'in temel amacı nedir?"
+    ],
+    "relatedTerms": [
+      "İnsan Hakları",
+      "BM Genel Kurulu",
+      "Uluslararası İnsan Hakları Hukuku"
+    ],
+    "order": 123
+  },
+  {
+    "id": "bm_uluslararasi_adalet_divani_yetkisi",
+    "term": "Uluslararası Adalet Divanı (UAD) Yetkisi",
+    "definition": "Uluslararası Adalet Divanı, Birleşmiş Milletler'in temel yargı organıdır ve devletler arasındaki hukuki uyuşmazlıkları çözmekle görevlidir. Ayrıca, BM organları ve uzmanlık kuruluşlarının hukuki konularda danışma görüşleri vermektedir. Yargı yetkisi sadece davaya taraf olan devletlerin rızasıyla mümkündür.",
+    "examples": [
+      "Uluslararası Adalet Divanı'nın yargı yetkisi hangi durumlarda geçerlidir?",
+      "UAD'nin temel görevi nedir?"
+    ],
+    "relatedTerms": [
+      "Lahey Adalet Divanı",
+      "Devletlerarası Uyuşmazlıklar",
+      "BM Tüzüğü"
+    ],
+    "order": 124
+  },
+  {
+    "id": "bm_guvenlik_konseyi_karar_alma_sureci",
+    "term": "BM Güvenlik Konseyi Karar Alma Süreci",
+    "definition": "BM Güvenlik Konseyi'nin kararları, daimi üyelerin (Çin, Fransa, Rusya, Birleşik Krallık, ABD) veto hakkı saklı kalmak kaydıyla, on beş üyesinden dokuzunun olumlu oyu ile alınır. Usuli konularda veto hakkı yoktur.",
+    "examples": [
+      "BM Güvenlik Konseyi'nde bir kararın kabul edilebilmesi için kaç olumlu oy gereklidir?",
+      "Güvenlik Konseyi'nde veto hakkına sahip ülkeler hangileridir?"
+    ],
+    "relatedTerms": [
+      "BM Güvenlik Konseyi",
+      "Daimi Üyeler",
+      "Veto Hakkı"
+    ],
+    "order": 125
+  },
+  {
+    "id": "bm_ekonomik_sosyal_konseyi_gorevleri",
+    "term": "BM Ekonomik ve Sosyal Konseyi (ECOSOC) Görevleri",
+    "definition": "Birleşmiş Milletler'in ekonomik, sosyal, kültürel, eğitim, sağlık ve ilgili alanlardaki uluslararası sorunları ele alan ana organıdır. Politika incelemesi, politika diyaloğu ve kalkınma konularında tavsiyelerde bulunmakla görevlidir. BM uzmanlık kuruluşları, programları ve fonları ile koordinasyonu sağlar.",
+    "examples": [
+      "ECOSOC, sürdürülebilir kalkınma hedeflerinin uygulanması için yıllık yüksek düzeyli siyasi forumlar düzenler.",
+      "Dünya Sağlık Örgütü (WHO) gibi uzmanlık kuruluşlarının raporlarını inceler ve tavsiyelerde bulunur."
+    ],
+    "relatedTerms": [
+      "BM Genel Kurulu",
+      "BM Güvenlik Konseyi",
+      "BM Sürdürülebilir Kalkınma Hedefleri (SKH)",
+      "BM uzmanlık kuruluşları"
+    ],
+    "order": 126
   }
 ]

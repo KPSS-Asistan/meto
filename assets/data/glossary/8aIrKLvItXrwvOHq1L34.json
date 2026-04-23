@@ -1264,5 +1264,262 @@
       "divan-ı arz"
     ],
     "order": 89
+  },
+  {
+    "id": "ikinci_beylikler_donemi",
+    "term": "İkinci Beylikler Dönemi",
+    "definition": "Kösedağ Savaşı'ndan sonra Türkiye Selçuklu otoritesinin zayıflamasıyla Anadolu'da kurulan bağımsız Türk beylikleridir. Bu beylikler Anadolu'nun Türkleşmesine katkıda bulunmuştur.",
+    "examples": [
+      "Osmanoğulları, Karamanoğulları, Germiyanoğulları."
+    ],
+    "relatedTerms": [
+      "Kösedağ Savaşı",
+      "Oğuz Boyları",
+      "Uç Beyliği"
+    ],
+    "order": 90
+  },
+  {
+    "id": "divan_i_nuyyab",
+    "term": "Divan-ı Niyabet",
+    "definition": "Hükümdar başkentte bulunmadığı zamanlarda devleti yöneten kuruldur. Naib-i Sultan tarafından yönetilir.",
+    "relatedTerms": [
+      "Naib-i Sultan",
+      "Merkezi Otorite",
+      "Divan"
+    ],
+    "order": 91
+  },
+  {
+    "id": "kayseri_giyaseddin_keyhusrev_medresesi",
+    "term": "Gevher Nesibe Medresesi",
+    "definition": "Anadolu'nun ilk tıp medresesi ve hastanesidir. I. Gıyaseddin Keyhüsrev tarafından kız kardeşi Gevher Nesibe Sultan anısına yaptırılmıştır.",
+    "examples": [
+      "Çifte Medrese olarak da bilinir.",
+      "Tıp eğitimi verilmiştir."
+    ],
+    "relatedTerms": [
+      "Darüşşifa",
+      "Tıp",
+      "Eğitim"
+    ],
+    "order": 92
+  },
+  {
+    "id": "alimler_ve_sanatkarlar",
+    "term": "Selçuklu'da Bilim ve Sanat",
+    "definition": "Moğol istilasından kaçan birçok bilim insanı ve sanatçı Anadolu'ya gelerek Selçuklu kültürünü zenginleştirmiştir. Bu dönemde tasavvuf ve mimari zirve yapmıştır.",
+    "examples": [
+      "Mevlana Celaleddin Rumi.",
+      "Hacı Bektaş-ı Veli."
+    ],
+    "relatedTerms": [
+      "Tasavvuf",
+      "Mimari",
+      "Kültür"
+    ],
+    "order": 93
+  },
+  {
+    "id": "merkezi_otorite",
+    "term": "Merkezi Otorite",
+    "definition": "Devletin başkentten ülkenin her yerine hakim olma gücüdür. Selçuklularda bu otoriteyi güçlendirmek için ikta sistemi ve atabeylikler gibi mekanizmalar kullanılmıştır.",
+    "relatedTerms": [
+      "Sultan",
+      "Divan",
+      "Atabey"
+    ],
+    "order": 94
+  },
+  {
+    "id": "kirsehir_cacabey",
+    "term": "Cacabey Medresesi",
+    "definition": "Kırşehir'de bulunan ve döneminde astronomi eğitimi verilen bir medresedir. Selçuklu bilim ve eğitim anlayışının en somut örneklerinden biridir.",
+    "relatedTerms": [
+      "Medrese",
+      "Astronomi",
+      "Caca Bey"
+    ],
+    "order": 95
+  },
+  {
+    "id": "hassa_ordusu",
+    "term": "Hassa Ordusu",
+    "definition": "Doğrudan sultana bağlı olan, maaşlı ve profesyonel askerlerden oluşan birliklerdir. Devletin merkez güvenliğini sağlamakla görevlidirler.",
+    "examples": [
+      "Hassa askerleri üç ayda bir 'bistegani' adı verilen maaş alırlardı.",
+      "Bu birlikler genellikle gulam sisteminden yetişenlerden oluşurdu."
+    ],
+    "relatedTerms": [
+      "Gulam Sistemi",
+      "Sultan",
+      "Merkez Ordusu"
+    ],
+    "order": 96
+  },
+  {
+    "id": "sultanu_l_bahr",
+    "term": "Sultanü'l-Bahr",
+    "definition": "Denizlerin sultanı anlamına gelen ve özellikle Alaeddin Keykubat için kullanılan unvandır. Selçukluların denizcilik faaliyetlerine verdiği önemi gösterir.",
+    "examples": [
+      "Alanya'nın fethiyle bu unvanın kullanımı yaygınlaşmıştır.",
+      "Selçukluların Akdeniz ticaretindeki hakimiyetini simgeler."
+    ],
+    "relatedTerms": [
+      "Alaeddin Keykubat",
+      "Denizcilik",
+      "Alanya"
+    ],
+    "order": 97
+  },
+  {
+    "id": "kubbeli_vezir",
+    "term": "Kubbeli Vezir",
+    "definition": "Divan-ı Saltanat'ta sultanın başkanlığında toplanan kurulun en üst düzey yöneticisidir. Devlet işlerinin yürütülmesinden birinci derecede sorumludur.",
+    "examples": [
+      "Vezir, sultanın mutlak vekili olarak görev yapardı.",
+      "Devletin idari ve mali işlerinde en yetkili kişidir."
+    ],
+    "relatedTerms": [
+      "Divan-ı Saltanat",
+      "Sultan",
+      "Bürokrasi"
+    ],
+    "order": 98
+  },
+  {
+    "id": "tarih_i_al_i_selcuk",
+    "term": "Tarih-i Al-i Selçuk",
+    "definition": "Yazıcıoğlu Ali tarafından kaleme alınan, Selçuklu tarihi hakkında önemli bilgiler sunan temel kaynaklardan biridir.",
+    "examples": [
+      "Selçuklu devlet teşkilatı hakkında detaylı bilgiler içerir.",
+      "Dönemin siyasi olaylarını kronolojik olarak aktarır."
+    ],
+    "relatedTerms": [
+      "İbn Bibi",
+      "Selçuklu Tarihçiliği",
+      "Kaynak Eserler"
+    ],
+    "order": 99
+  },
+  {
+    "id": "imarethane",
+    "term": "İmarethane",
+    "definition": "Yoksullara, öğrencilere ve yolculara ücretsiz yemek verilen sosyal yardım kurumlarıdır. Vakıf sistemiyle finanse edilirdi.",
+    "examples": [
+      "İmarethaneler sosyal adaletin sağlanmasında önemli rol oynamıştır.",
+      "Genellikle medreselerin yanında inşa edilirdi."
+    ],
+    "relatedTerms": [
+      "Vakıf",
+      "Sosyal Devlet",
+      "Sosyal Yardım"
+    ],
+    "order": 100
+  },
+  {
+    "id": "nizamiye_medreseleri",
+    "term": "Nizamiye Medreseleri",
+    "definition": "Büyük Selçuklu Devleti'nde Vezir Nizamülmülk tarafından kurulan, devletin ihtiyaç duyduğu bürokratları yetiştiren yükseköğretim kurumlarıdır. Türkiye Selçukluları da bu eğitim modelini örnek almıştır.",
+    "examples": [
+      "Eğitimde merkezi otoritenin güçlendirilmesi",
+      "Batıni faaliyetlere karşı mücadele"
+    ],
+    "relatedTerms": [
+      "Nizamülmülk",
+      "Siyasetname",
+      "Eğitim"
+    ],
+    "order": 101
+  },
+  {
+    "id": "siyasetname",
+    "term": "Siyasetname",
+    "definition": "Nizamülmülk tarafından kaleme alınan, devlet yönetimi, adalet ve hükümdarın sorumlulukları hakkında öğütler içeren eserdir. Türk devlet geleneğinin yazılı kaynaklarından biridir.",
+    "examples": [
+      "Devlet adamlarına rehberlik etmesi",
+      "Hükümdarlık ilkelerinin belirlenmesi"
+    ],
+    "relatedTerms": [
+      "Nizamülmülk",
+      "Devlet Yönetimi",
+      "Siyasal Bilgiler"
+    ],
+    "order": 102
+  },
+  {
+    "id": "divan_i_saltanat",
+    "term": "Divan-ı Saltanat",
+    "definition": "Devlet işlerinin görüşüldüğü en yüksek yönetim organıdır. Hükümdarın başkanlığında toplanır ve devletin genel siyaseti burada belirlenirdi.",
+    "examples": [
+      "Büyük devlet meselelerinin karara bağlanması",
+      "Vezirlerin divana başkanlık etmesi"
+    ],
+    "relatedTerms": [
+      "Vezir",
+      "Devlet Yönetimi",
+      "Merkezi Otorite"
+    ],
+    "order": 103
+  },
+  {
+    "id": "ahlatshahlar",
+    "term": "Ahlatşahlar",
+    "definition": "Van Gölü çevresinde kurulan ve Türkiye Selçukluları ile yakın ilişkiler içerisinde olan bir Türk beyliğidir. Bölgenin imarında önemli rol oynamışlardır.",
+    "examples": [
+      "Van Gölü havzasında hüküm sürmüşlerdir.",
+      "Selçuklu kültürünün doğuda yayılmasını sağlamışlardır."
+    ],
+    "relatedTerms": [
+      "Anadolu Beylikleri",
+      "Sökmenliler",
+      "Van"
+    ],
+    "order": 104
+  },
+  {
+    "id": "sultan_i_iklimi_rum",
+    "term": "Sultan-ı İklim-i Rum",
+    "definition": "Anadolu Selçuklu sultanlarına verilen 'Anadolu Sultanı' anlamına gelen unvandır. Sultanın Anadolu üzerindeki mutlak hakimiyetini simgeler.",
+    "examples": [
+      "Alaeddin Keykubat için sıkça kullanılan bir unvandır.",
+      "Sultanın otoritesini ifade eder."
+    ],
+    "relatedTerms": [
+      "Sultan",
+      "Merkezi Otorite",
+      "Türkiye Selçuklu Devleti"
+    ],
+    "order": 105
+  },
+  {
+    "id": "tursun_bey",
+    "term": "Tursun Bey",
+    "definition": "Selçuklu döneminde devletin idari ve askeri yapısını anlatan tarihçilerden biridir. Dönemin olaylarını kayıt altına almıştır.",
+    "examples": [
+      "Selçuklu tarih yazıcılığında önemli bir yere sahiptir.",
+      "Dönemin siyasi olaylarını eserlerinde işlemiştir."
+    ],
+    "relatedTerms": [
+      "İbn Bibi",
+      "Tarih Yazıcılığı",
+      "Selçukname"
+    ],
+    "order": 106
+  },
+  {
+    "id": "kervansaray_ekonomisi",
+    "term": "Ticaret Yolları Politikası",
+    "definition": "Türkiye Selçuklularının Anadolu'yu uluslararası bir ticaret merkezi haline getirmek için uyguladıkları politikadır. Ticari güvenliği sağlamak için kervansaraylar inşa edilmiş ve sigortacılık sistemi geliştirilmiştir.",
+    "examples": [
+      "Uluslararası ticaretin Anadolu'dan geçmesi sağlanmıştır.",
+      "Ticaret yolları üzerinde güvenlik önlemleri alınmıştır."
+    ],
+    "relatedTerms": [
+      "Kervansaray",
+      "İpek Yolu",
+      "Sigortacılık"
+    ],
+    "order": 107
   }
 ]

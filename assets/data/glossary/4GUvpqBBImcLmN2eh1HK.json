@@ -1155,5 +1155,528 @@
       "Hukuk İnkılabı"
     ],
     "order": 77
+  },
+  {
+    "id": "siyasi_partilerin_kapatilmasi",
+    "term": "Siyasi Partilerin Kapatılması",
+    "definition": "Cumhuriyetin ilk yıllarında kurulan Terakkiperver ve Serbest Cumhuriyet fırkalarının, rejim karşıtı faaliyetlerin odağı haline gelmeleri sebebiyle kapatılmasıdır.",
+    "examples": [
+      "Şeyh Sait İsyanı, Terakkiperver Cumhuriyet Fırkası'nın kapatılmasında etkili olmuştur."
+    ],
+    "relatedTerms": [
+      "Takrir-i Sükun",
+      "Çok Partili Hayat",
+      "Demokrasi"
+    ],
+    "order": 78
+  },
+  {
+    "id": "kadınlara_siyasal_haklar",
+    "term": "Kadınlara Siyasal Haklar",
+    "definition": "Türk kadınının seçme ve seçilme hakkını 1930, 1933 ve 1934 yıllarında aşamalı olarak kazanmasıdır. Halkçılık ve Cumhuriyetçilik ilkeleriyle ilgilidir.",
+    "examples": [
+      "Kadınlar milletvekili seçme ve seçilme hakkını 1934'te tam olarak kazanmıştır."
+    ],
+    "relatedTerms": [
+      "Halkçılık",
+      "Cumhuriyetçilik",
+      "Toplumsal Eşitlik"
+    ],
+    "order": 79
+  },
+  {
+    "id": "buyuk_taarruz",
+    "term": "Büyük Taarruz",
+    "definition": "Kurtuluş Savaşı'nın askeri safhasını sona erdiren ve Yunan ordusunun Anadolu'dan atılmasını sağlayan kesin zaferdir. Başkomutanlık Meydan Muharebesi olarak da bilinir.",
+    "examples": [
+      "Bu zaferle Mudanya Ateşkes Antlaşması'na giden yol açılmıştır."
+    ],
+    "relatedTerms": [
+      "Kurtuluş Savaşı",
+      "Mudanya Ateşkesi",
+      "Mustafa Kemal"
+    ],
+    "order": 80
+  },
+  {
+    "id": "kadina_siyasi_haklar",
+    "term": "Kadınlara Siyasi Hakların Verilmesi",
+    "definition": "Türk kadınının seçme ve seçilme hakkını aşamalı olarak (muhtarlık, belediye, milletvekilliği) kazandığı süreçtir. 'BMV' (Belediye, Muhtarlık, Vekillik) şifresiyle hatırlanır.",
+    "examples": [
+      "1934'te milletvekili seçme ve seçilme hakkı",
+      "Kadınların meclise girmesi"
+    ],
+    "relatedTerms": [
+      "Halkçılık",
+      "Eşitlik",
+      "Demokrasi"
+    ],
+    "order": 81
+  },
+  {
+    "id": "hukuk_birliği",
+    "term": "Hukuk Birliği",
+    "definition": "Osmanlı'dan kalan çok başlı hukuk sisteminin kaldırılarak yerine laik ve modern hukuk kurallarının getirilmesidir. Türk Medeni Kanunu bu sürecin en önemli halkasıdır.",
+    "examples": [
+      "Mecelle'nin kaldırılması",
+      "Türk Medeni Kanunu'nun kabulü"
+    ],
+    "relatedTerms": [
+      "Laiklik",
+      "Türk Medeni Kanunu",
+      "Hukuk İnkılabı"
+    ],
+    "order": 82
+  },
+  {
+    "id": "mil_i_korunma_kanunu",
+    "term": "Milli Korunma Kanunu",
+    "definition": "II. Dünya Savaşı yıllarında ekonomiyi kontrol altına almak, fiyat artışlarını engellemek ve devletin ekonomiye müdahalesini artırmak için 1940'ta çıkarılan kanundur.",
+    "examples": [
+      "Karaborsacılıkla mücadele edilmesi.",
+      "Devletin ekonomiyi yönlendirmesi."
+    ],
+    "relatedTerms": [
+      "II. Dünya Savaşı",
+      "Ekonomik Müdahale",
+      "Karaborsacılık"
+    ],
+    "order": 83
+  },
+  {
+    "id": "hıyanet_i_vataniye",
+    "term": "Hıyanet-i Vataniye Kanunu",
+    "definition": "TBMM'ye karşı çıkan isyanları bastırmak ve otoriteyi sağlamak amacıyla 1920'de çıkarılan vatana ihanet yasasıdır. İstiklal Mahkemeleri'nin kurulmasına dayanak oluşturmuştur.",
+    "examples": [
+      "TBMM'ye karşı ayaklananların yargılanması.",
+      "Otoritenin korunması."
+    ],
+    "relatedTerms": [
+      "TBMM",
+      "Kurtuluş Savaşı",
+      "İstiklal Mahkemeleri"
+    ],
+    "order": 84
+  },
+  {
+    "id": "mil_i_aşiret_isyanı",
+    "term": "Milli Aşiret İsyanı",
+    "definition": "Kurtuluş Savaşı sırasında Urfa bölgesinde Fransızların kışkırtmasıyla çıkan, TBMM'nin otoritesine karşı gerçekleştirilen ayaklanmalardan biridir.",
+    "examples": [
+      "Güney Cephesi'ndeki karışıklıklar.",
+      "İtilaf devletlerinin kışkırtmaları."
+    ],
+    "relatedTerms": [
+      "Kurtuluş Savaşı",
+      "TBMM'ye Karşı İsyanlar",
+      "Güney Cephesi"
+    ],
+    "order": 85
+  },
+  {
+    "id": "şapka_inkılabı",
+    "term": "Şapka İktisası Hakkında Kanun",
+    "definition": "1925 yılında kabul edilen, çağdaşlaşma ve kılık kıyafette modernleşmeyi hedefleyen, fesin yerine şapkanın kullanılmasını zorunlu kılan düzenlemedir.",
+    "examples": [
+      "Kastamonu'da halka tanıtılması.",
+      "Kılık kıyafette batılılaşma."
+    ],
+    "relatedTerms": [
+      "İnkılapçılık",
+      "Toplumsal Modernleşme",
+      "Kılık Kıyafet Kanunu"
+    ],
+    "order": 86
+  },
+  {
+    "id": "montreux_bogazlar_sozlesmesi",
+    "term": "Montreux Boğazlar Sözleşmesi",
+    "definition": "1936 yılında imzalanan ve Boğazlar üzerindeki tam egemenlik hakkını Türkiye'ye veren uluslararası sözleşmedir. Boğazlar Komisyonu kaldırılmış ve yetkileri Türkiye'ye devredilmiştir.",
+    "examples": [
+      "Türkiye'nin Boğazlarda asker bulundurma hakkı tanınmıştır.",
+      "Milletler Cemiyeti gözetiminde imzalanmıştır."
+    ],
+    "relatedTerms": [
+      "Lozan Boğazlar Komisyonu",
+      "Dış Politika",
+      "Egemenlik Hakları"
+    ],
+    "order": 87
+  },
+  {
+    "id": "milletler_cemiyeti",
+    "term": "Milletler Cemiyeti",
+    "definition": "Birinci Dünya Savaşı sonrası dünya barışını korumak için kurulan uluslararası örgüttür. Türkiye, 1932 yılında İspanya'nın daveti ve Yunanistan'ın desteğiyle bu örgüte üye olmuştur.",
+    "examples": [
+      "Türkiye'nin örgüte girişi dış politikada barışçı bir tutum izlediğinin kanıtıdır.",
+      "Musul meselesi aleyhimize sonuçlanmıştır."
+    ],
+    "relatedTerms": [
+      "Dış Politika",
+      "Barışçıl Diplomasi",
+      "Musul Meselesi"
+    ],
+    "order": 88
+  },
+  {
+    "id": "milletler_cemiyeti_giris",
+    "term": "Türkiye'nin Milletler Cemiyeti'ne Girişi",
+    "definition": "Türkiye'nin 1932 yılında, İspanya'nın daveti ve Yunanistan'ın desteğiyle cemiyete üye olmasıdır. Türkiye'nin barışçıl dış politikasının uluslararası alanda tescilidir.",
+    "examples": [
+      "Uluslararası barışa verilen önemi gösterir.",
+      "Türkiye'nin prestiji artmıştır."
+    ],
+    "relatedTerms": [
+      "Dış Politika",
+      "Barışçıl Diplomasi",
+      "Milletler Cemiyeti"
+    ],
+    "order": 89
+  },
+  {
+    "id": "ceza_kanunu",
+    "term": "Türk Ceza Kanunu",
+    "definition": "1926 yılında İtalyan Ceza Kanunu örnek alınarak hazırlanan, hukuk sistemini modernleştiren kanundur. Şer'i hukuktan vazgeçilerek laik ceza sistemine geçilmiştir.",
+    "examples": [
+      "Hukuk birliği sağlanmıştır.",
+      "Kişi hak ve özgürlükleri güvence altına alınmıştır."
+    ],
+    "relatedTerms": [
+      "Hukuk İnkılabı",
+      "Laiklik",
+      "Batılılaşma"
+    ],
+    "order": 90
+  },
+  {
+    "id": "saglik_politikasi",
+    "term": "Sağlık Bakanlığı'nın Kurulması",
+    "definition": "1920 yılında kurulan bakanlık ile halk sağlığını koruma, salgın hastalıklarla mücadele ve yerli aşı üretimi hedeflenmiştir. Cumhuriyetin ilk yıllarında sosyal devlet anlayışının bir göstergesidir.",
+    "examples": [
+      "Sıtma ve veremle mücadele edilmiştir.",
+      "Refik Saydam Hıfzıssıhha Enstitüsü kurulmuştur."
+    ],
+    "relatedTerms": [
+      "Sosyal Devlet",
+      "Halkçılık",
+      "Hıfzıssıhha"
+    ],
+    "order": 91
+  },
+  {
+    "id": "takrir_i_sükûn_kanunu",
+    "term": "Takrir-i Sükûn Kanunu",
+    "definition": "1925 yılında Şeyh Said İsyanı'nın bastırılması amacıyla çıkarılan ve iki yıl süreyle yürürlükte kalan olağanüstü bir kanundur. Hükümete geniş yetkiler vererek iç güvenliği sağlamayı ve inkılapları korumayı amaçlamıştır.",
+    "examples": [
+      "Bu kanunla Terakkiperver Cumhuriyet Fırkası kapatılmıştır.",
+      "Basın üzerinde kısıtlamalar getirmiştir."
+    ],
+    "relatedTerms": [
+      "Şeyh Said İsyanı",
+      "İstiklal Mahkemeleri",
+      "Terakkiperver Cumhuriyet Fırkası"
+    ],
+    "order": 92
+  },
+  {
+    "id": "ağustos_1921_başkomutanlık_kanunu",
+    "term": "Başkomutanlık Kanunu",
+    "definition": "5 Ağustos 1921'de Kütahya-Eskişehir Savaşları sonrası meclis tarafından Mustafa Kemal Paşa'ya verilen olağanüstü yetkilerdir. Bu yetkilerle Mustafa Kemal, ordunun başına geçerek Sakarya Meydan Muharebesi'ni yönetmiştir.",
+    "examples": [
+      "Yasama, yürütme ve yargı yetkilerini üç aylığına Mustafa Kemal'e devretmiştir.",
+      "Sakarya Meydan Muharebesi öncesi ordunun sevk ve idaresini sağlamıştır."
+    ],
+    "relatedTerms": [
+      "Sakarya Meydan Muharebesi",
+      "Kütahya-Eskişehir Savaşları",
+      "Mustafa Kemal Atatürk"
+    ],
+    "order": 93
+  },
+  {
+    "id": "seyh_said_isyani",
+    "term": "Şeyh Said İsyanı",
+    "definition": "Cumhuriyet tarihinin ilk büyük isyanlarından olup, Doğu Anadolu'da dini ve etnik motiflerle ortaya çıkmıştır. İsyanın bastırılmasıyla Terakkiperver Cumhuriyet Fırkası kapatılmıştır.",
+    "examples": [
+      "1925 yılında meydana gelmiştir.",
+      "İsyanın bastırılması için Takrir-i Sükun Kanunu çıkarılmıştır."
+    ],
+    "relatedTerms": [
+      "Takrir-i Sükun Kanunu",
+      "Terakkiperver Cumhuriyet Fırkası",
+      "Doğu İsyanları"
+    ],
+    "order": 94
+  },
+  {
+    "id": "şer_iye_ve_evkaf_vekaletinin_kaldırılması",
+    "term": "Şer'iye ve Evkaf Vekaleti'nin Kaldırılması",
+    "definition": "Dini işler ile vakıfların yönetimini üstlenen bu bakanlığın kaldırılması, devlet işlerinin dinden ayrılması anlamına geliyordu. Yerine Diyanet İşleri Başkanlığı kurulmuştur.",
+    "examples": [
+      "3 Mart 1924 tarihinde gerçekleşmiştir.",
+      "Laik devlet yapısının güçlenmesine katkı sağlamıştır."
+    ],
+    "relatedTerms": [
+      "Halifeliğin Kaldırılması",
+      "Diyanet İşleri Başkanlığı",
+      "Laiklik İlkesi"
+    ],
+    "order": 95
+  },
+  {
+    "id": "unvan_ve_lakapların_kaldırılması",
+    "term": "Unvan ve Lakapların Kaldırılması",
+    "definition": "Toplumda ayrıcalık ifade eden ağa, bey, paşa, efendi gibi unvan ve lakapların kullanımını yasaklayan kanundur. Soyadı Kanunu ile birlikte toplumsal eşitliği pekiştirmiştir.",
+    "examples": [
+      "1934 yılında Soyadı Kanunu ile birlikte yürürlüğe girmiştir.",
+      "Sınıfsız, imtiyazsız bir toplum oluşturma hedefinin bir parçasıdır."
+    ],
+    "relatedTerms": [
+      "Soyadı Kanunu",
+      "Halkçılık İlkesi",
+      "Toplumsal Eşitlik"
+    ],
+    "order": 96
+  },
+  {
+    "id": "hafta_tatilinin_cumartesi_pazara_alınması",
+    "term": "Hafta Tatilinin Cumartesi-Pazara Alınması",
+    "definition": "Cuma olan hafta tatilinin uluslararası standartlara uygun olarak Cumartesi öğleden sonra ve Pazar gününe alınmasıdır. Batı ile ekonomik ve sosyal uyumu sağlamayı amaçlamıştır.",
+    "examples": [
+      "1935 yılında gerçekleştirilmiştir.",
+      "Uluslararası ticaret ve ilişkilerde kolaylık sağlamıştır."
+    ],
+    "relatedTerms": [
+      "Uluslararası Saat ve Takvim Uygulaması",
+      "Batılılaşma",
+      "Ekonomik Reformlar"
+    ],
+    "order": 97
+  },
+  {
+    "id": "atatürk_ilkeleri",
+    "term": "Atatürk İlkeleri",
+    "definition": "Cumhuriyet Halk Partisi'nin temel programını oluşturan ve Türkiye Cumhuriyeti'nin temel niteliklerini belirleyen altı ilkedir. Cumhuriyetçilik, Milliyetçilik, Halkçılık, Devletçilik, Laiklik ve İnkılapçılıktır.",
+    "examples": [
+      "1937 yılında Anayasa'ya girmiştir.",
+      "Türkiye'nin çağdaşlaşma ve kalkınma yol haritasını oluşturur."
+    ],
+    "relatedTerms": [
+      "Cumhuriyetçilik İlkesi",
+      "Milliyetçilik İlkesi",
+      "Halkçılık İlkesi"
+    ],
+    "order": 98
+  },
+  {
+    "id": "türk_dil_kurumu",
+    "term": "Türk Dil Kurumu (TDK)",
+    "definition": "1932 yılında kurulan TDK, Türk dilini yabancı dillerin etkisinden arındırmak, zenginleştirmek ve geliştirmek amacıyla çalışmalar yapmıştır. Dilin bilimsel incelenmesi ve sadeleşmesi hedeflenmiştir.",
+    "examples": [
+      "Türkçenin özleşmesi ve yeni terimlerin türetilmesi için çalışmalar yapmıştır.",
+      "Güneş Dil Teorisi gibi dilbilimsel yaklaşımları desteklemiştir."
+    ],
+    "relatedTerms": [
+      "Harf İnkılabı",
+      "Türk Tarih Kurumu",
+      "Milli Kültür"
+    ],
+    "order": 99
+  },
+  {
+    "id": "türk_tarih_kurumu",
+    "term": "Türk Tarih Kurumu (TTK)",
+    "definition": "1931 yılında kurulan TTK, Türk tarihinin kökenlerini araştırmak, Türklerin dünya medeniyetine katkılarını ortaya koymak ve milli tarih bilincini geliştirmek amacıyla faaliyet göstermiştir. Özellikle Orta Asya ve Anadolu tarihi üzerine yoğunlaşmıştır.",
+    "examples": [
+      "Türk Tarih Tezi'nin geliştirilmesinde önemli rol oynamıştır.",
+      "Anadolu'daki arkeolojik kazıları desteklemiştir."
+    ],
+    "relatedTerms": [
+      "Türk Tarih Tezi",
+      "Milli Tarih",
+      "Türk Dil Kurumu"
+    ],
+    "order": 100
+  },
+  {
+    "id": "serbest_cumhuriyet_fırkası",
+    "term": "Serbest Cumhuriyet Fırkası (SCF)",
+    "definition": "1930 yılında Fethi Okyar tarafından kurulan ve Atatürk'ün isteğiyle açılan ikinci muhalefet partisidir. Çok partili hayata geçiş denemesi olarak kurulmuş, ancak kısa sürede kapatılmıştır.",
+    "examples": [
+      "Menemen Olayı'nın SCF'nin kapatılmasında etkili olduğu düşünülür.",
+      "Liberal ekonomi politikalarını savunmuştur."
+    ],
+    "relatedTerms": [
+      "Çok Partili Hayat",
+      "Terakkiperver Cumhuriyet Fırkası",
+      "Cumhuriyet Halk Fırkası"
+    ],
+    "order": 101
+  },
+  {
+    "id": "terakkiperver_cumhuriyet_fırkası",
+    "term": "Terakkiperver Cumhuriyet Fırkası (TCF)",
+    "definition": "1924 yılında Kazım Karabekir, Rauf Orbay gibi isimler tarafından kurulan ilk muhalefet partisidir. Cumhuriyet Halk Fırkası'ndan ayrılanlarca kurulmuş, ancak Şeyh Said İsyanı sonrası kapatılmıştır.",
+    "examples": [
+      "Ekonomide liberalizmi, siyasette ise daha geniş özgürlükleri savunmuştur.",
+      "Şeyh Said İsyanı ile ilişkilendirilerek kapatılmasına karar verilmiştir."
+    ],
+    "relatedTerms": [
+      "Şeyh Said İsyanı",
+      "Çok Partili Hayat",
+      "Serbest Cumhuriyet Fırkası"
+    ],
+    "order": 102
+  },
+  {
+    "id": "beş_yıllık_sanayi_planları",
+    "term": "Birinci ve İkinci Beş Yıllık Sanayi Planları",
+    "definition": "1933 ve 1938 yıllarında uygulamaya konulan bu planlarla, devlet eliyle sanayileşme hızlandırılmıştır. Özellikle temel tüketim malları ve ağır sanayi alanında önemli yatırımlar yapılmıştır.",
+    "examples": [
+      "Sümerbank ve Etibank gibi kurumlar bu planlar çerçevesinde kurulmuştur.",
+      "Demir-çelik, tekstil ve şeker fabrikaları açılmıştır."
+    ],
+    "relatedTerms": [
+      "Devletçilik",
+      "Ekonomik Kalkınma",
+      "Sanayileşme"
+    ],
+    "order": 103
+  },
+  {
+    "id": "cumhuriyetçilik_ilkesi",
+    "term": "Cumhuriyetçilik İlkesi",
+    "definition": "Atatürk İlkeleri'nin temelini oluşturan bu ilke, devlet yönetiminde egemenliğin millete ait olması ve yönetim biçiminin cumhuriyet olması gerektiğini ifade eder. Seçme ve seçilme hakkı ile temsil esasına dayanır.",
+    "examples": [
+      "Saltanatın kaldırılması ve TBMM'nin açılması bu ilkenin yansımalarıdır.",
+      "Kadınlara siyasal hakların verilmesi cumhuriyetçilik ilkesiyle ilişkilidir."
+    ],
+    "relatedTerms": [
+      "Milli Egemenlik",
+      "TBMM",
+      "Demokrasi",
+      "Atatürk İlkeleri"
+    ],
+    "order": 104
+  },
+  {
+    "id": "eğitim_şuraları",
+    "term": "Eğitim Şuraları",
+    "definition": "Cumhuriyet döneminde eğitim sisteminin geliştirilmesi, sorunların tespiti ve çözüm önerileri sunulması amacıyla düzenlenen toplantılardır. Eğitim politikalarının belirlenmesinde önemli rol oynamışlardır.",
+    "examples": [
+      "İlk Eğitim Şurası, Tevhid-i Tedrisat Kanunu sonrası eğitimdeki yeni hedefleri belirlemek üzere toplanmıştır.",
+      "Eğitim Şuraları, öğretmenlerin ve eğitimcilerin görüşlerinin alınmasına olanak sağlamıştır."
+    ],
+    "relatedTerms": [
+      "Tevhid-i Tedrisat Kanunu",
+      "Eğitim Reformları",
+      "Milli Eğitim Bakanlığı"
+    ],
+    "order": 105
+  },
+  {
+    "id": "tekke_zaviye_türbelerin_kapatılması",
+    "term": "Tekke, Zaviye ve Türbelerin Kapatılması",
+    "definition": "30 Kasım 1925'te çıkarılan kanunla tekke, zaviye ve türbeler kapatılmıştır. Toplumda din istismarını önlemek, çağdaşlaşmayı sağlamak ve laik devlet yapısını güçlendirmek hedeflenmiştir.",
+    "examples": [
+      "Bu uygulama, laiklik ilkesinin önemli yansımalarından biridir.",
+      "Şeyhlik, dervişlik gibi unvanlar kaldırılmıştır."
+    ],
+    "relatedTerms": [
+      "Laiklik İlkesi",
+      "Şapka İktisası Hakkında Kanun",
+      "Çağdaşlaşma"
+    ],
+    "order": 106
+  },
+  {
+    "id": "anadolu_ajansı",
+    "term": "Anadolu Ajansı'nın Kurulması",
+    "definition": "6 Nisan 1920'de Mustafa Kemal Atatürk'ün talimatıyla kurulan Anadolu Ajansı, Milli Mücadele döneminde halkı doğru bilgilendirmek ve propaganda faaliyetlerini yürütmek amacıyla kurulmuştur. Cumhuriyet döneminde de resmi haber ajansı olarak görevine devam etmiştir.",
+    "examples": [
+      "Milli Mücadele'nin sesini duyurmak için önemli bir araç olmuştur.",
+      "Atatürk'ün direktifleriyle kurulmuştur."
+    ],
+    "relatedTerms": [
+      "Milli Mücadele",
+      "Cumhuriyetçilik İlkesi",
+      "Basın Özgürlüğü"
+    ],
+    "order": 107
+  },
+  {
+    "id": "numune_çiftlikleri",
+    "term": "Atatürk Orman Çiftliği ve Numune Çiftlikleri",
+    "definition": "Atatürk'ün öncülüğünde kurulan numune çiftlikleri, modern tarım tekniklerini halka tanıtmak, çiftçiyi eğitmek ve tarımsal üretimi artırmak amacıyla oluşturulmuştur. Tarımda çağdaşlaşmanın sembollerinden biridir.",
+    "examples": [
+      "Ankara'da kurulan Atatürk Orman Çiftliği bunun en bilinen örneğidir.",
+      "Tarım sektöründe verimliliği artırmayı hedeflemiştir."
+    ],
+    "relatedTerms": [
+      "Devletçilik İlkesi",
+      "Tarım Reformları",
+      "Ekonomik Bağımsızlık"
+    ],
+    "order": 108
+  },
+  {
+    "id": "musul_sorunu",
+    "term": "Musul Sorunu",
+    "definition": "Lozan Barış Antlaşması'nda çözülemeyen ve Türkiye ile İngiltere arasında gerginliğe neden olan petrol zengini Musul'un statüsü sorunudur. 1926 Ankara Antlaşması ile Irak'a bırakılmasıyla çözüme kavuşmuştur.",
+    "examples": [
+      "Şeyh Said İsyanı, Musul sorununun Türkiye aleyhine sonuçlanmasında etkili olmuştur.",
+      "Ankara Antlaşması ile Türkiye, Musul üzerindeki haklarından vazgeçmiştir."
+    ],
+    "relatedTerms": [
+      "Lozan Barış Antlaşması",
+      "Şeyh Said İsyanı",
+      "Ankara Antlaşması (1926)"
+    ],
+    "order": 109
+  },
+  {
+    "id": "hatay_sorunu",
+    "term": "Hatay Sorunu",
+    "definition": "Fransa'nın Suriye'den çekilmesiyle gündeme gelen ve Hatay'ın Türkiye'ye katılmasıyla sonuçlanan dış politika sorunudur. Atatürk'ün kişisel çabaları ve diplomasi sayesinde 1939'da Hatay, Türkiye'ye katılmıştır.",
+    "examples": [
+      "Atatürk'ün 'Kırk Asırlık Türk Yurdu düşman elinde esir kalamaz' sözü bu döneme aittir.",
+      "Hatay'ın anavatana katılması, Misak-ı Milli'nin son parçalarından birinin gerçekleşmesidir."
+    ],
+    "relatedTerms": [
+      "Misak-ı Milli",
+      "Dış Politika",
+      "Diplomasi"
+    ],
+    "order": 110
+  },
+  {
+    "id": "balfour_deklarasyonu",
+    "term": "Balfour Deklarasyonu (İlgili)",
+    "definition": "1917'de İngiliz Dışişleri Bakanı Arthur Balfour tarafından yayınlanan ve Filistin'de bir Yahudi devleti kurulmasını destekleyen bildirge. Osmanlı Devleti'nin Ortadoğu'daki toprakları üzerindeki emelleriyle ilişkilidir.",
+    "examples": [
+      "Bu deklarasyon, Ortadoğu'daki sorunların temelini oluşturan önemli bir belgedir.",
+      "Siyonist hareketin güçlenmesine zemin hazırlamıştır."
+    ],
+    "relatedTerms": [
+      "Ortadoğu Politikası",
+      "Siyonizm",
+      "I. Dünya Savaşı"
+    ],
+    "order": 111
+  },
+  {
+    "id": "milli_iktisat_politikası",
+    "term": "Milli İktisat Politikası",
+    "definition": "Cumhuriyetin ilk yıllarında uygulanan, yerli üretimi ve tüketimi teşvik eden, yabancı sermayeye bağımlılığı azaltmayı hedefleyen ekonomik politikadır. Devletçilik ilkesiyle desteklenmiştir.",
+    "examples": [
+      "İzmir İktisat Kongresi'nde alınan kararlar bu politikanın temelini oluşturmuştur.",
+      "Teşvik-i Sanayi Kanunu bu politikanın bir uygulamasıdır."
+    ],
+    "relatedTerms": [
+      "Devletçilik İlkesi",
+      "İzmir İktisat Kongresi",
+      "Teşvik-i Sanayi Kanunu"
+    ],
+    "order": 112
   }
 ]
