@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "temel_esitsizlik_kurallari",
+    "term": "Temel Eşitsizlik Kuralları",
+    "definition": "Eşitsizliklerde toplama, çıkarma, çarpma ve bölme işlemlerinin nasıl yapıldığını belirten kurallardır. Eşitsizliklerin yön değiştirmesi veya sabit kalması bu kurallara bağlıdır. Negatif bir sayıyla çarpma veya bölme eşitsizliğin yönünü değiştirir.",
+    "examples": [
+      "x + 3 < 7 ise x < 4",
+      "2x >= 10 ise x >= 5",
+      "-x > 5 ise x < -5"
+    ],
+    "relatedTerms": [
+      "Eşitsizlik Çözümü",
+      "Sayı Doğrusu"
+    ],
+    "order": 1
+  },
+  {
+    "id": "mutlak_deger_tanimi",
+    "term": "Mutlak Değer Tanımı",
+    "definition": "Bir sayının sayı doğrusunda 0'a olan uzaklığıdır. Her zaman pozitif veya sıfırdır. |x| = x, eğer x >= 0 ise; |x| = -x, eğer x < 0 ise.",
+    "examples": [
+      "|5| = 5",
+      "|-3| = 3",
+      "|0| = 0"
+    ],
+    "relatedTerms": [
+      "Sayı Doğrusu",
+      "Uzaklık"
+    ],
+    "order": 2
+  },
+  {
+    "id": "mutlak_deger_esitligi",
+    "term": "Mutlak Değer Eşitsizliği",
+    "definition": "Mutlak değeri bir sayıdan küçük veya büyük olan ifadelerin çözüm kümesini bulma yöntemidir. |x| < a ise -a < x < a'dır. |x| > a ise x < -a veya x > a'dır.",
+    "examples": [
+      "|x| < 4 ise -4 < x < 4",
+      "|x| >= 2 ise x <= -2 veya x >= 2",
+      "|2x - 1| <= 5 ise -5 <= 2x - 1 <= 5"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Tanımı",
+      "Eşitsizlik Çözümü"
+    ],
+    "order": 3
+  },
+  {
+    "id": "mutlak_deger_denklemi",
+    "term": "Mutlak Değer Denklemi",
+    "definition": "Mutlak değerli ifadeler içeren denklemleri çözme yöntemidir. |x| = a denkleminin çözümleri x = a veya x = -a'dır. Denklemin her iki tarafının karesini almak da bir yöntemdir.",
+    "examples": [
+      "|x| = 7 ise x = 7 veya x = -7",
+      "|x - 2| = 5 ise x - 2 = 5 veya x - 2 = -5",
+      "|3x + 1| = 10 ise 3x + 1 = 10 veya 3x + 1 = -10"
+    ],
+    "relatedTerms": [
+      "Denklem Çözümü",
+      "Mutlak Değer Tanımı"
+    ],
+    "order": 4
+  },
+  {
+    "id": "esitsizliklerde_islem_sirasi",
+    "term": "Eşitsizliklerde İşlem Sırası",
+    "definition": "Eşitsizlik çözerken işlemlerin hangi sırada yapılması gerektiğini belirler. Parantezli ifadeler, çarpma/bölme ve toplama/çıkarma işlemleri sırasıyla ele alınır. Amaç, bilinmeyeni yalnız bırakmaktır.",
+    "examples": [
+      "2(x + 1) < 10 ise x + 1 < 5, yani x < 4",
+      "5 - 3x > 2 ise -3x > -3, yani x < 1"
+    ],
+    "relatedTerms": [
+      "Temel Eşitsizlik Kuralları",
+      "Bilinmeyen Yalnız Bırakma"
+    ],
+    "order": 5
+  },
+  {
+    "id": "mutlak_degerli_esitsizlik_cozumleri",
+    "term": "Mutlak Değerli Eşitsizlik Çözümleri",
+    "definition": "Mutlak değerli eşitsizliklerin çözüm kümelerini bulmak için kullanılan farklı yaklaşımlardır. Sayı doğrusu üzerinde gösterme, kare alma veya tanıma göre çözüm yapma gibi yöntemler kullanılır. Çözüm kümesi aralık veya birleşim şeklinde ifade edilir.",
+    "examples": [
+      "|x - 1| < 3 ise -3 < x - 1 < 3, çözüm kümesi (-2, 4)",
+      "|x + 2| >= 1 ise x + 2 <= -1 veya x + 2 >= 1, çözüm kümesi (-∞, -3] U [-1, ∞)"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Eşitsizliği",
+      "Aralık Kavramı"
+    ],
+    "order": 6
+  },
+  {
+    "id": "esitsizlik_sistemleri",
+    "term": "Eşitsizlik Sistemleri",
+    "definition": "İki veya daha fazla eşitsizliğin birlikte sağlandığı durumları inceler. Her bir eşitsizliğin çözüm kümesi bulunur ve bu kümelerin kesişimi sistemin çözüm kümesini oluşturur. Sayı doğrusu üzerinde kesişim noktaları bulunur.",
+    "examples": [
+      "x > 2 ve x < 5 ise çözüm kümesi (2, 5)",
+      "x <= 3 ve x >= 0 ise çözüm kümesi [0, 3]"
+    ],
+    "relatedTerms": [
+      "Eşitsizlik Çözümü",
+      "Kesişim Kümesi"
+    ],
+    "order": 7
+  },
+  {
+    "id": "mutlak_degerin_ozellikleri",
+    "term": "Mutlak Değerin Özellikleri",
+    "definition": "Mutlak değerin matematiksel olarak sahip olduğu temel özelliklerdir. |x| = |-x|, |x.y| = |x|.|y|, |x/y| = |x|/|y| (y!=0) gibi özellikler denklemleri ve eşitsizlikleri çözerken kolaylık sağlar.",
+    "examples": [
+      "|(-3).5| = |-15| = 15 ve |-3|.|5| = 3.5 = 15",
+      "|10 / -2| = |-5| = 5 ve |10|/|-2| = 10/2 = 5"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Tanımı",
+      "Mutlak Değer Denklemi"
+    ],
+    "order": 8
+  },
+  {
+    "id": "esitsizliklerde_kare_alma",
+    "term": "Eşitsizliklerde Kare Alma",
+    "definition": "Eşitsizliklerde her iki tarafın karesini alarak çözüme ulaşma yöntemidir. Bu yöntem dikkatli kullanılmalıdır, özellikle negatif sayılar söz konusu olduğunda eşitsizliğin yönü değişebilir. Genellikle mutlak değerli eşitsizliklerde kullanılır.",
+    "examples": [
+      "|x| < 3 ise x^2 < 9, bu da -3 < x < 3 anlamına gelir",
+      "x^2 <= 16 ise -4 <= x <= 4"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Eşitsizliği",
+      "Kuvvet Alma"
+    ],
+    "order": 9
+  },
+  {
+    "id": "mutlak_deger_iceren_karma_sorular",
+    "term": "Mutlak Değer İçeren Karma Sorular",
+    "definition": "Hem eşitsizlik hem de denklem mantığını bir arada barındıran sorulardır. Birden fazla mutlak değer içeren veya mutlak değerin farklı işlemlerle birleştirildiği sorulardır. Adım adım çözüm ve mantık yürütme gerektirir.",
+    "examples": [
+      "|x - 1| + |x + 2| = 5",
+      "|x^2 - 4| < 5"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Denklemi",
+      "Mutlak Değer Eşitsizliği",
+      "Paralel Çözüm Yöntemleri"
+    ],
+    "order": 10
+  },
+  {
+    "id": "esitsizliklerde_sayi_dogrusu_kullanimi",
+    "term": "Eşitsizliklerde Sayı Doğrusu Kullanımı",
+    "definition": "Eşitsizliklerin çözüm kümelerini görselleştirmek ve anlamak için sayı doğrusundan yararlanma yöntemidir. Çözüm aralıkları sayı doğrusu üzerinde işaretlenir ve kesişim veya birleşimler kolayca görülebilir.",
+    "examples": [
+      "x >= -1 ve x < 3 eşitsizliğinin çözüm kümesi sayı doğrusunda [-1, 3) aralığıdır.",
+      "x < 0 veya x > 2 eşitsizliğinin çözüm kümesi sayı doğrusunda (-∞, 0) U (2, ∞) aralığıdır."
+    ],
+    "relatedTerms": [
+      "Sayı Doğrusu",
+      "Aralık Kavramı",
+      "Çözüm Kümesi"
+    ],
+    "order": 11
+  },
+  {
+    "id": "mutlak_deger_fonksiyonlari",
+    "term": "Mutlak Değer Fonksiyonları",
+    "definition": "Grafiği 'V' şeklinde olan, mutlak değerin fonksiyonel karşılığıdır. f(x) = |x| temel fonksiyonudur. Bu fonksiyonun öteleme, yansıma gibi dönüşümleriyle farklı grafikler elde edilebilir.",
+    "examples": [
+      "f(x) = |x - 2| fonksiyonunun grafiği, y = |x| grafiğinin 2 birim sağa ötelenmiş halidir.",
+      "g(x) = |x| + 1 fonksiyonunun grafiği, y = |x| grafiğinin 1 birim yukarı ötelenmiş halidir."
+    ],
+    "relatedTerms": [
+      "Fonksiyon Grafikleri",
+      "Dönüşümler",
+      "Mutlak Değer Tanımı"
+    ],
+    "order": 12
+  },
+  {
+    "id": "esitsizliklerde_esitligin_yoklugu",
+    "term": "Eşitsizliklerde Eşitliğin Yokluğu",
+    "definition": "Eşitsizliklerde 'küçüktür' (<) veya 'büyüktür' (>) ifadeleri kullanıldığında, çözüm kümesinde bu değerlerin dahil olmadığını belirtir. Sayı doğrusunda bu noktalar içi boş olarak gösterilir.",
+    "examples": [
+      "x < 5 çözüm kümesinde 5 sayısı bulunmaz.",
+      "x > -2 çözüm kümesinde -2 sayısı bulunmaz."
+    ],
+    "relatedTerms": [
+      "Sayı Doğrusu",
+      "Aralık Kavramı",
+      "Çözüm Kümesi"
+    ],
+    "order": 13
+  },
+  {
+    "id": "mutlak_deger_esitsizliginde_basit_durumlar",
+    "term": "Mutlak Değer Eşitsizliğinde Basit Durumlar",
+    "definition": "Mutlak değerin bir sabit sayıya eşit veya ondan küçük/büyük olduğu temel eşitsizlik türleridir. Bu durumlar doğrudan tanıma göre çözülür ve en sık karşılaşılan tiplerdir.",
+    "examples": [
+      "|x| <= 3",
+      "|x| > 7",
+      "|x - 1| < 2"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Eşitsizliği",
+      "Mutlak Değer Tanımı"
+    ],
+    "order": 14
+  },
+  {
+    "id": "esitsizliklerde_payda_durumu",
+    "term": "Eşitsizliklerde Payda Durumu",
+    "definition": "Eşitsizliklerde bilinmeyenin paydada bulunduğu durumlardır. Paydanın sıfır olamayacağı kuralı esastır. Çözüm kümesi bulunurken işaret tablosu veya sayı doğrusu kullanılır.",
+    "examples": [
+      "(x - 2) / (x + 1) > 0",
+      "3 / (x - 4) < 1"
+    ],
+    "relatedTerms": [
+      "İşaret Tablosu",
+      "Rasyonel Eşitsizlikler"
+    ],
+    "order": 15
+  },
+  {
+    "id": "mutlak_deger_icinde_mutlak_deger",
+    "term": "Mutlak Değer İçinde Mutlak Değer",
+    "definition": "İç içe geçmiş mutlak değer ifadeleri içeren denklemler veya eşitsizliklerdir. En içteki mutlak değerden başlayarak adım adım çözülür. Her adımda olası durumlar göz önünde bulundurulur.",
+    "examples": [
+      "||x - 1| - 3| = 2",
+      "| |x + 1| - 5 | <= 3"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Denklemi",
+      "Mutlak Değer Eşitsizliği",
+      "İç İçe İşlemler"
+    ],
+    "order": 16
+  },
+  {
+    "id": "esitsizliklerde_esitlik_durumu",
+    "term": "Eşitsizliklerde Eşitlik Durumu",
+    "definition": "Eşitsizliklerde 'küçüktür veya eşittir' (<=) veya 'büyüktür veya eşittir' (>=) ifadeleri kullanıldığında, çözüm kümesinde bu değerlerin de dahil olduğunu belirtir. Sayı doğrusunda bu noktalar içi dolu olarak gösterilir.",
+    "examples": [
+      "x <= 7 çözüm kümesinde 7 sayısı bulunur.",
+      "x >= -4 çözüm kümesinde -4 sayısı bulunur."
+    ],
+    "relatedTerms": [
+      "Sayı Doğrusu",
+      "Aralık Kavramı",
+      "Çözüm Kümesi"
+    ],
+    "order": 17
+  },
+  {
+    "id": "mutlak_deger_ve_esitsizlik_birlesimi",
+    "term": "Mutlak Değer ve Eşitsizlik Birleşimi",
+    "definition": "Mutlak değer kavramının eşitsizliklerle birlikte kullanıldığı sorulardır. Bu tür sorularda, mutlak değerin tanımına veya özelliklerine göre eşitsizlikler yeniden düzenlenir ve çözülür.",
+    "examples": [
+      "|x - 2| < 3x + 1",
+      "|x + 1| >= 2x - 1"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Eşitsizliği",
+      "Eşitsizlik Çözümü"
+    ],
+    "order": 18
+  },
+  {
+    "id": "esitsizliklerde_isaret_tablosu",
+    "term": "Eşitsizliklerde İşaret Tablosu",
+    "definition": "Paydada veya çarpım durumunda bilinmeyen içeren eşitsizlikleri çözmek için kullanılan bir yöntemdir. Kökler bulunur, sayı doğrusu üzerinde aralıklar oluşturulur ve her aralıktaki ifadenin işareti belirlenir.",
+    "examples": [
+      "(x - 1)(x + 3) > 0 eşitsizliğinde kökler 1 ve -3'tür. İşaret tablosu ile çözüm bulunur.",
+      "(x + 2) / (x - 5) <= 0 eşitsizliğinde kökler -2 ve 5'tir. İşaret tablosu kullanılır."
+    ],
+    "relatedTerms": [
+      "Kök Bulma",
+      "Aralık Kavramı",
+      "Eşitsizlik Çözümü"
+    ],
+    "order": 19
+  },
+  {
+    "id": "mutlak_deger_degerlendirme",
+    "term": "Mutlak Değer Değerlendirme",
+    "definition": "Verilen bir x değeri için mutlak değerli bir ifadenin alacağı değeri hesaplama veya bir ifadenin mutlak değerini doğru şekilde yorumlama becerisidir. Mutlak değerin pozitiflik kuralı burada esastır.",
+    "examples": [
+      "x = -5 için |-x + 2| = | -(-5) + 2 | = | 5 + 2 | = |7| = 7",
+      "x = 3 için |x - 5| = |3 - 5| = |-2| = 2"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Tanımı",
+      "Sayısal Değer Hesaplama"
+    ],
+    "order": 20
+  },
+  {
+    "id": "esitsizliklerde_toplama_cikarma",
+    "term": "Eşitsizliklerde Toplama ve Çıkarma",
+    "definition": "Bir eşitsizliğin her iki tarafına aynı sayı eklendiğinde veya çıkarıldığında eşitsizlik yön değiştirmez. Bu kural, eşitsizlikleri basitleştirmek için kullanılır.",
+    "examples": [
+      "x - 3 < 5 ise x < 8 olur.",
+      "y + 2 >= 7 ise y >= 5 olur.",
+      "2a < b - 1 ise 2a + 1 < b olur."
+    ],
+    "relatedTerms": [
+      "Temel Eşitsizlik Kuralları",
+      "Eşitsizliklerde İşlem Sırası"
+    ],
+    "order": 21
+  },
+  {
+    "id": "esitsizliklerde_carpma_bolme",
+    "term": "Eşitsizliklerde Çarpma ve Bölme",
+    "definition": "Bir eşitsizliğin her iki tarafı pozitif bir sayıyla çarpılır veya bölünürse eşitsizlik yön değiştirmez. Negatif bir sayıyla çarpılır veya bölünürse eşitsizlik yön değiştirir.",
+    "examples": [
+      "3x < 12 ise x < 4 olur.",
+      "-2y >= 10 ise y <= -5 olur.",
+      "a/4 > 2 ise a > 8 olur."
+    ],
+    "relatedTerms": [
+      "Temel Eşitsizlik Kuralları",
+      "Eşitsizliklerde İşaret Tablosu"
+    ],
+    "order": 22
+  },
+  {
+    "id": "mutlak_deger_esitlikleri_cozum_yontemleri",
+    "term": "Mutlak Değer Eşitsizlikleri Çözüm Yöntemleri",
+    "definition": "Mutlak değer içeren eşitsizlikler, mutlak değerin tanımına göre farklı durumlar incelenerek çözülür. Genellikle iki farklı eşitsizlik sistemi oluşturularak çözüme gidilir.",
+    "examples": [
+      "|x - 1| < 3 eşitsizliği -3 < x - 1 < 3 olarak çözülür.",
+      "|2x + 1| >= 5 eşitsizliği 2x + 1 >= 5 veya 2x + 1 <= -5 olarak çözülür.",
+      "|x| > 2 eşitsizliği x > 2 veya x < -2 olarak çözülür."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Tanımı",
+      "Mutlak Değer Eşitsizliği",
+      "Eşitsizlik Sistemleri"
+    ],
+    "order": 23
+  },
+  {
+    "id": "mutlak_deger_icinde_degisken_iceren_denklemler",
+    "term": "Mutlak Değer İçinde Değişken İçeren Denklemler",
+    "definition": "Mutlak değerin içi pozitif veya negatif olabileceğinden, mutlak değerin içindeki ifadeye göre denklemler ikiye ayrılır. Bu denklemlerin çözümleri birleştirilerek nihai sonuca ulaşılır.",
+    "examples": [
+      "|x - 2| = 5 denklemi x - 2 = 5 veya x - 2 = -5 olarak çözülür.",
+      "|3x + 1| = 7 denklemi 3x + 1 = 7 veya 3x + 1 = -7 olarak çözülür.",
+      "|x/2 - 1| = 3 denklemi x/2 - 1 = 3 veya x/2 - 1 = -3 olarak çözülür."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Tanımı",
+      "Mutlak Değer Denklemi"
+    ],
+    "order": 24
+  },
+  {
+    "id": "esitsizliklerde_kare_alma_kurallari",
+    "term": "Eşitsizliklerde Kare Alma Kuralları",
+    "definition": "Eşitsizliklerde kare alırken dikkatli olunmalıdır. Pozitif sayılarda kare alma eşitsizliği bozmazken, negatif sayılarda kare alma eşitsizlik yönünü değiştirir. Negatif ve pozitif sayıların olduğu durumlarda özel dikkat gerekir.",
+    "examples": [
+      "x > 3 ise x² > 9 olur.",
+      "x < -2 ise x² > 4 olur.",
+      "-3 < x < 2 ise 0 <= x² < 9 olur."
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde Kare Alma",
+      "Temel Eşitsizlik Kuralları"
+    ],
+    "order": 25
+  },
+  {
+    "id": "mutlak_degerli_esitsizliklerde_sayi_dogrusu",
+    "term": "Mutlak Değerli Eşitsizliklerde Sayı Doğrusu",
+    "definition": "Mutlak değer, bir sayının sayı doğrusunda 0'a olan uzaklığını ifade eder. Mutlak değer eşitsizlikleri sayı doğrusu üzerinde görselleştirilerek daha kolay anlaşılabilir ve çözülebilir.",
+    "examples": [
+      "|x| < 3 eşitsizliği, x'in 0'a uzaklığının 3'ten az olduğunu gösterir, yani -3 < x < 3.",
+      "|x - 2| <= 1 eşitsizliği, x'in 2'ye uzaklığının 1'den az veya eşit olduğunu gösterir, yani 1 <= x <= 3.",
+      "|x| >= 4 eşitsizliği, x'in 0'a uzaklığının 4'ten büyük veya eşit olduğunu gösterir, yani x >= 4 veya x <= -4."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Tanımı",
+      "Eşitsizliklerde Sayı Doğrusu Kullanımı",
+      "Mutlak Değer Eşitsizliği"
+    ],
+    "order": 26
+  },
+  {
+    "id": "esitsizlik_sistemlerinde_ortak_cozum",
+    "term": "Eşitsizlik Sistemlerinde Ortak Çözüm",
+    "definition": "Birden fazla eşitsizliğin birlikte sağlandığı değerler kümesini bulmak için eşitsizlik sistemleri kullanılır. Her bir eşitsizliğin çözüm kümesi bulunur ve bu kümelerin kesişimi ortak çözüm kümesini verir.",
+    "examples": [
+      "x > 2 ve x < 5 eşitsizlik sisteminin çözümü 2 < x < 5'tir.",
+      "y <= 3 ve y >= 1 eşitsizlik sisteminin çözümü 1 <= y <= 3'tür.",
+      "a + 1 < 6 ve a - 2 > 0 eşitsizlik sisteminin çözümü 2 < a < 5'tir."
+    ],
+    "relatedTerms": [
+      "Eşitsizlik Sistemleri",
+      "Eşitsizliklerde Sayı Doğrusu Kullanımı"
+    ],
+    "order": 27
+  },
+  {
+    "id": "mutlak_degerin_temel_ozellikleri",
+    "term": "Mutlak Değerin Temel Özellikleri",
+    "definition": "Mutlak değerin bazı temel özellikleri vardır. Örneğin, |a| >= 0, |a| = |-a|, |a.b| = |a|.|b| ve |a/b| = |a|/|b| (b ≠ 0). Bu özellikler işlemleri kolaylaştırır.",
+    "examples": [
+      "|-5| = 5",
+      "|3 * -4| = |-12| = 12, ve |3| * |-4| = 3 * 4 = 12",
+      "|10 / -2| = |-5| = 5, ve |10| / |-2| = 10 / 2 = 5"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Tanımı",
+      "Mutlak Değerin Özellikleri"
+    ],
+    "order": 28
+  },
+  {
+    "id": "mutlak_deger_icinde_mutlak_deger_cozumu",
+    "term": "Mutlak Değer İçinde Mutlak Değer Çözümü",
+    "definition": "İç içe geçmiş mutlak değer ifadeleri, dıştaki mutlak değerin özelliklerine göre çözülmeye başlanır. Her adımda mutlak değerin tanımına uygun olarak ifadeler basitleştirilir.",
+    "examples": [
+      "||x - 1| - 2| = 3",
+      "|1 + |x|| = 5",
+      "||x| + 1| = 2"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer İçinde Mutlak Değer",
+      "Mutlak Değer Tanımı"
+    ],
+    "order": 29
+  },
+  {
+    "id": "esitsizliklerde_payda_durumu_ve_isaret_analizi",
+    "term": "Eşitsizliklerde Payda Durumu ve İşaret Analizi",
+    "definition": "Paydada değişken içeren eşitsizliklerde, paydanın sıfır olamayacağı unutulmamalıdır. İşaret tablosu yöntemi, pay ve paydadaki ifadelerin işaret değişimlerini inceleyerek çözüm kümesini bulmada etkilidir.",
+    "examples": [
+      "(x - 2) / (x + 1) > 0",
+      "1 / (x - 3) <= 0",
+      "(x + 4) / (x - 1) < 1"
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde Payda Durumu",
+      "Eşitsizliklerde İşaret Tablosu"
+    ],
+    "order": 30
+  },
+  {
+    "id": "mutlak_deger_esitsizliklerinde_kare_alma",
+    "term": "Mutlak Değer Eşitsizliklerinde Kare Alma",
+    "definition": "Bazı mutlak değer eşitsizlikleri, her iki tarafın karesi alınarak çözülebilir. Bu yöntem, özellikle mutlak değerin bir sayıdan büyük veya küçük olduğu durumlarda kullanışlıdır.",
+    "examples": [
+      "|x| < 4 ise x² < 16 olur.",
+      "|x - 1| > 2 ise (x - 1)² > 4 olur.",
+      "|2x + 3| <= 5 ise (2x + 3)² <= 25 olur."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Eşitsizliği",
+      "Eşitsizliklerde Kare Alma"
+    ],
+    "order": 31
+  },
+  {
+    "id": "esitsizliklerde_esitlik_ve_esitlik_olmama_durumu",
+    "term": "Eşitsizliklerde Eşitlik ve Eşitlik Olmama Durumu",
+    "definition": "Eşitsizliklerde <, >, <=, >= gibi semboller kullanılır. <= ve >= sembolleri eşitlik durumunu da kapsarken, < ve > sembolleri eşitlik durumunu dışlar. Çözüm kümesi belirlenirken bu ayrım önemlidir.",
+    "examples": [
+      "x + 5 <= 10 eşitsizliğinde x = 5 çözüm olabilir.",
+      "y - 2 > 3 eşitsizliğinde y = 5 çözüm olamaz.",
+      "2a < 8 eşitsizliğinde a = 4 çözüm olamaz."
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde Eşitlik Durumu",
+      "Eşitsizliklerde Eşitliğin Yokluğu",
+      "Temel Eşitsizlik Kuralları"
+    ],
+    "order": 32
+  },
+  {
+    "id": "mutlak_degerli_denklem_ve_esitsizlik_birlesimi",
+    "term": "Mutlak Değerli Denklem ve Eşitsizlik Birleşimi",
+    "definition": "Bazı sorularda hem mutlak değerli denklemler hem de mutlak değerli eşitsizlikler bir arada bulunabilir. Bu tür sorularda her bir ifade ayrı ayrı çözülerek sonuçlar birleştirilir.",
+    "examples": [
+      "|x - 1| = 3 ve |x + 2| < 5",
+      "|2x| <= 4 veya |x - 1| = 2",
+      "|x + 1| = 5 ve |x - 2| > 1"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Denklemi",
+      "Mutlak Değer Eşitsizliği",
+      "Mutlak Değer ve Eşitsizlik Birleşimi"
+    ],
+    "order": 33
+  },
+  {
+    "id": "esitsizliklerde_toplama_cikarma_ve_carpma_bolme_kurallari",
+    "term": "Eşitsizliklerde Toplama, Çıkarma, Çarpma ve Bölme Kuralları",
+    "definition": "Eşitsizliklerde işlem yaparken temel kurallar uygulanır. Pozitif sayılarla çarpma/bölme eşitsizliği değiştirmezken, negatif sayılarla çarpma/bölme eşitsizliği ters çevirir. Toplama ve çıkarma işlemleri ise eşitsizliği değiştirmez.",
+    "examples": [
+      "x/2 + 1 < 4",
+      "3y - 5 >= 10",
+      "-a/4 + 2 > 1"
+    ],
+    "relatedTerms": [
+      "Temel Eşitsizlik Kuralları",
+      "Eşitsizliklerde İşlem Sırası",
+      "Eşitsizliklerde Çarpma ve Bölme"
+    ],
+    "order": 34
+  },
+  {
+    "id": "mutlak_deger_iceren_karma_sorular_cozum_stratejileri",
+    "term": "Mutlak Değer İçeren Karma Sorular Çözüm Stratejileri",
+    "definition": "Karmaşık görünen mutlak değer sorularında, adım adım ilerlemek önemlidir. Mutlak değerin tanımı, özellikleri ve eşitsizlik kuralları birlikte kullanılarak sorular çözülür.",
+    "examples": [
+      "|x - 1| + |x + 2| = 5",
+      "|x² - 4| < 5",
+      "|x - 1| = |2x + 3|"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer İçeren Karma Sorular",
+      "Mutlak Değer Tanımı",
+      "Mutlak Değerin Özellikleri"
+    ],
+    "order": 35
+  },
+  {
+    "id": "esitsizliklerde_isaret_tablosu_olusturma",
+    "term": "Eşitsizliklerde İşaret Tablosu Oluşturma",
+    "definition": "İşaret tablosu, bir ifadenin işaretinin değişimini gösteren bir tablodur. Kökler bulunur, bu kökler sayı doğrusuna yerleştirilir ve her aralıktaki ifadenin işareti belirlenir.",
+    "examples": [
+      "(x - 2)(x + 3) > 0",
+      "(x + 1) / (x - 4) <= 0",
+      "x² - 5x + 6 < 0"
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde İşaret Tablosu",
+      "Kök Bulma"
+    ],
+    "order": 36
+  },
+  {
+    "id": "mutlak_deger_degerlendirme_ve_analiz",
+    "term": "Mutlak Değer Değerlendirme ve Analiz",
+    "definition": "Mutlak değer içeren ifadelerin alabileceği minimum veya maksimum değerleri bulmak için analiz yapılır. Mutlak değerin negatif olamayacağı kuralı burada önemlidir.",
+    "examples": [
+      "|x - 3| + 5 ifadesinin alabileceği en küçük değer.",
+      "|2x + 1| - 4 ifadesinin alabileceği en küçük değer.",
+      "|x - 2| + |x - 5| ifadesinin alabileceği en küçük değer."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Değerlendirme",
+      "Mutlak Değer Tanımı"
+    ],
+    "order": 37
+  },
+  {
+    "id": "esitsizliklerde_mutlak_deger_fonksiyonlari",
+    "term": "Eşitsizliklerde Mutlak Değer Fonksiyonları",
+    "definition": "Mutlak değer fonksiyonları, grafikleri ve özellikleri incelenerek eşitsizlikleri çözmek için kullanılır. Fonksiyonun grafiği, eşitsizliğin çözüm kümesini görselleştirmeye yardımcı olur.",
+    "examples": [
+      "f(x) = |x| fonksiyonunun grafiği ve |x| < 3 eşitsizliğinin çözümü.",
+      "g(x) = |x - 2| fonksiyonunun grafiği ve |x - 2| >= 1 eşitsizliğinin çözümü.",
+      "h(x) = |x + 1| fonksiyonunun grafiği ve |x + 1| = 4 denkleminin çözümü."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Fonksiyonları",
+      "Eşitsizliklerde Sayı Doğrusu Kullanımı",
+      "Grafik Yorumlama"
+    ],
+    "order": 38
+  },
+  {
+    "id": "mutlak_degerli_esitsizliklerde_basit_durumlar",
+    "term": "Mutlak Değerli Eşitsizliklerde Basit Durumlar",
+    "definition": "Mutlak değerin bir sayıdan küçük veya eşit olduğu (|x| <= a) ve bir sayıdan büyük veya eşit olduğu (|x| >= a) durumları temel çözüm kalıplarını oluşturur. Bu kalıplar, karmaşık eşitsizliklerin çözümünde temel alınır.",
+    "examples": [
+      "|x| <= 5",
+      "|y| >= 2",
+      "|2x - 1| <= 7"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Eşitsizliği",
+      "Mutlak Değer Eşitsizliğinde Basit Durumlar"
+    ],
+    "order": 39
+  },
+  {
+    "id": "esitsizliklerde_kombine_islem_sirasi",
+    "term": "Eşitsizliklerde Kombine İşlem Sırası",
+    "definition": "Eşitsizliklerde birden fazla işlem yapılması gerektiğinde, işlem sırasına dikkat edilmelidir. Genellikle önce çarpma/bölme, sonra toplama/çıkarma işlemleri yapılır, ancak mutlak değer gibi özel durumlar öncelik kazanabilir.",
+    "examples": [
+      "2x + 5 < 15",
+      "3(y - 2) >= 9",
+      "(a + 1) / 2 - 3 <= 4"
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde İşlem Sırası",
+      "Temel Eşitsizlik Kuralları"
+    ],
+    "order": 40
+  },
+  {
+    "id": "mutlak_deger_esittir_kuralı",
+    "term": "Mutlak Değerin Eşittir Kuralı",
+    "definition": "|x| = a ise, a ≥ 0 olmak üzere x = a veya x = -a olur. Bu kural, mutlak değerin pozitif veya negatif olabileceği durumları ele alır. Denklemleri çözmek için temel bir adımdır.",
+    "examples": [
+      "|x - 2| = 5 ise, x - 2 = 5 veya x - 2 = -5",
+      "|2x + 1| = 7 ise, 2x + 1 = 7 veya 2x + 1 = -7",
+      "|x/3| = 4 ise, x/3 = 4 veya x/3 = -4"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Tanımı",
+      "Mutlak Değer Denklemi",
+      "Mutlak Değerin Özellikleri"
+    ],
+    "order": 41
+  },
+  {
+    "id": "mutlak_deger_buyuktur_kuralı",
+    "term": "Mutlak Değerin Büyüktür Kuralı",
+    "definition": "|x| > a ise, x > a veya x < -a olur. Bu kural, mutlak değerin belirli bir değerden daha büyük olduğu durumları ifade eder. Eşitsizlik çözümlerinde kullanılır.",
+    "examples": [
+      "|x + 1| > 3 ise, x + 1 > 3 veya x + 1 < -3",
+      "|2x - 4| > 6 ise, 2x - 4 > 6 veya 2x - 4 < -6",
+      "|x/2| > 2 ise, x/2 > 2 veya x/2 < -2"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Eşitsizliği",
+      "Eşitsizlik Kuralları",
+      "Sayı Doğrusu Kullanımı"
+    ],
+    "order": 42
+  },
+  {
+    "id": "mutlak_deger_kucuktur_kuralı",
+    "term": "Mutlak Değerin Küçüktür Kuralı",
+    "definition": "|x| < a ise, -a < x < a olur. Bu kural, mutlak değerin belirli bir değerden daha küçük olduğu durumları kapsar. Çözüm aralığı belirlemede önemlidir.",
+    "examples": [
+      "|x - 3| < 2 ise, -2 < x - 3 < 2",
+      "|2x + 5| < 1 ise, -1 < 2x + 5 < 1",
+      "|x/4| < 1 ise, -1 < x/4 < 1"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Eşitsizliği",
+      "Eşitsizlik Sistemleri",
+      "Mutlak Değerli Eşitsizlik Çözümleri"
+    ],
+    "order": 43
+  },
+  {
+    "id": "mutlak_deger_kare_alma",
+    "term": "Mutlak Değerde Kare Alma",
+    "definition": "Herhangi bir reel sayının mutlak değerinin karesi, o sayının karesine eşittir. Yani, |x|² = x². Bu özellik, mutlak değerli ifadeleri sadeleştirmede faydalıdır.",
+    "examples": [
+      "|x - 1|² = 9 ise, (x - 1)² = 9",
+      "|2x|² = 16 ise, (2x)² = 16",
+      "|y + 3|² = 25 ise, (y + 3)² = 25"
+    ],
+    "relatedTerms": [
+      "Mutlak Değerin Özellikleri",
+      "Eşitsizliklerde Kare Alma",
+      "Mutlak Değerli Eşitsizlik Çözümleri"
+    ],
+    "order": 44
+  },
+  {
+    "id": "mutlak_deger_icinde_mutlak_deger_denklemi",
+    "term": "Mutlak Değer İçinde Mutlak Değer Denklemi",
+    "definition": "İç içe geçmiş mutlak değer ifadeleri içeren denklemlerdir. Çözüm, en dıştaki mutlak değerden başlayarak adım adım içe doğru ilerler. Her adımda mutlak değerin tanımı kullanılır.",
+    "examples": [
+      "||x - 1| - 3| = 2",
+      "|5 - |2x + 1|| = 4",
+      "||x/2 + 1| - 2| = 1"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer İçinde Mutlak Değer",
+      "Mutlak Değer Denklemi",
+      "Mutlak Değerli Denklem ve Eşitsizlik Birleşimi"
+    ],
+    "order": 45
+  },
+  {
+    "id": "mutlak_deger_esitsizlik_sistemi",
+    "term": "Mutlak Değer Eşitsizlik Sistemi",
+    "definition": "İçinde mutlak değer bulunan birden fazla eşitsizliğin aynı anda sağlandığı durumları inceler. Her bir mutlak değer eşitsizliği ayrı ayrı çözülür ve bulunan çözüm kümelerinin kesişimi alınır.",
+    "examples": [
+      "|x - 1| < 2 ve |x + 1| > 0",
+      "|2x| ≤ 4 ve |x - 3| ≥ 1",
+      "|x + 2| > 1 ve |x - 1| < 3"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Eşitsizliği",
+      "Eşitsizlik Sistemleri",
+      "Mutlak Değerli Eşitsizlik Çözümleri"
+    ],
+    "order": 46
+  },
+  {
+    "id": "esitsizliklerde_payda_durumu_analizi",
+    "term": "Eşitsizliklerde Payda Durumu Analizi",
+    "definition": "Paydada değişken içeren eşitsizliklerde, paydanın sıfır olamayacağı durumu göz önünde bulundurulur. İşaret tablosu veya kritik noktalar yöntemiyle çözülür. Paydanın işaretinin eşitsizliği nasıl etkilediği önemlidir.",
+    "examples": [
+      "(x - 2) / (x + 1) > 0",
+      "1 / (x - 3) ≤ 2",
+      "(x + 4) / (x - 5) < 1"
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde Payda Durumu",
+      "Eşitsizliklerde İşaret Tablosu",
+      "Eşitsizliklerde Kare Alma Kuralları"
+    ],
+    "order": 47
+  },
+  {
+    "id": "mutlak_deger_icinde_degisken_esitsizlik",
+    "term": "Mutlak Değer İçinde Değişken İçeren Eşitsizlik",
+    "definition": "Mutlak değerin içinde hem sabit hem de değişken içeren eşitsizliklerdir. Mutlak değerin tanımı kullanılarak farklı durumlar incelenir veya kare alma yöntemi uygulanabilir.",
+    "examples": [
+      "|x + 2| > 3x",
+      "|2x - 1| ≤ x + 4",
+      "|x - 5| < 2x + 1"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Eşitsizliği",
+      "Mutlak Değer İçeren Karma Sorular",
+      "Eşitsizliklerde Kare Alma"
+    ],
+    "order": 48
+  },
+  {
+    "id": "esitsizliklerde_esitlik_olmayan_durum",
+    "term": "Eşitsizliklerde Eşitlik Olmayan Durum",
+    "definition": "Eşitsizliklerde 'büyük' (>) veya 'küçük' (<) sembolleri kullanıldığında, çözüm kümesinde eşitlik durumu dahil edilmez. Bu durum, sayı doğrusunda açık aralıklarla gösterilir.",
+    "examples": [
+      "x > 5 (5 dahil değil)",
+      "y < -2 (-2 dahil değil)",
+      "2z + 1 < 7 (7'ye eşit olamaz)"
+    ],
+    "relatedTerms": [
+      "Temel Eşitsizlik Kuralları",
+      "Sayı Doğrusu Kullanımı",
+      "Eşitsizliklerde Eşitlik Durumu"
+    ],
+    "order": 49
+  },
+  {
+    "id": "mutlak_deger_fonksiyonu_analizi",
+    "term": "Mutlak Değer Fonksiyonu Analizi",
+    "definition": "f(x) = |ax + b| gibi mutlak değer içeren fonksiyonların grafiklerini ve özelliklerini incelemektir. Fonksiyonun minimum değeri, simetri ekseni gibi kavramlar önemlidir.",
+    "examples": [
+      "f(x) = |x - 3| fonksiyonunun grafiği",
+      "g(x) = |2x + 4| fonksiyonunun minimum değeri",
+      "h(x) = |x| + |x - 2| fonksiyonunun analizi"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Fonksiyonları",
+      "Mutlak Değerin Özellikleri",
+      "Grafik Yorumlama"
+    ],
+    "order": 50
+  },
+  {
+    "id": "esitsizliklerde_isaret_degisimi",
+    "term": "Eşitsizliklerde İşaret Değişimi",
+    "definition": "Bir eşitsizlikte, bilinmeyenin katsayısının işareti değiştirildiğinde eşitsizliğin yönünün de değişmesi durumudur. Özellikle negatif bir sayıyla çarpma veya bölme işleminde görülür.",
+    "examples": [
+      "3x < 12 => x < 4",
+      "-3x < 12 => x > -4",
+      "x/2 > 5 => x > 10"
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde Çarpma ve Bölme",
+      "Eşitsizliklerde İşlem Sırası",
+      "Temel Eşitsizlik Kuralları"
+    ],
+    "order": 51
+  },
+  {
+    "id": "mutlak_deger_icinde_mutlak_deger_esitsizlik",
+    "term": "Mutlak Değer İçinde Mutlak Değer Eşitsizliği",
+    "definition": "İç içe geçmiş mutlak değer ifadeleri içeren eşitsizliklerdir. En dıştaki mutlak değerden başlayarak, mutlak değerin tanımı ve eşitsizlik kuralları kullanılarak çözüm kümesi bulunur.",
+    "examples": [
+      "||x - 2| - 1| < 3",
+      "|4 - |x + 1|| ≥ 2",
+      "||x/2 + 1| - 5| ≤ 1"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer İçinde Mutlak Değer",
+      "Mutlak Değer Eşitsizliği",
+      "Mutlak Değerli Eşitsizlik Çözümleri"
+    ],
+    "order": 52
+  },
+  {
+    "id": "mutlak_deger_esittir_esitsizlik_birlesimi",
+    "term": "Mutlak Değer Eşittir ve Eşitsizlik Birleşimi",
+    "definition": "Hem mutlak değer denklemi hem de mutlak değer eşitsizliği içeren sorulardır. Farklı durumlar ayrı ayrı incelenir ve elde edilen çözüm kümelerinin birleşimi alınır.",
+    "examples": [
+      "|x - 1| = 3 veya |x + 2| < 1",
+      "|2x| ≤ 4 ve |x - 1| = 2",
+      "|x + 3| > 2 veya |x - 1| = 0"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Denklemi",
+      "Mutlak Değer Eşitsizliği",
+      "Mutlak Değerli Denklem ve Eşitsizlik Birleşimi"
+    ],
+    "order": 53
+  },
+  {
+    "id": "esitsizliklerde_kombine_islem_analizi",
+    "term": "Eşitsizliklerde Kombine İşlem Analizi",
+    "definition": "Toplama, çıkarma, çarpma, bölme ve kare alma gibi birden fazla işlemin bir arada bulunduğu eşitsizliklerin çözümüdür. İşlem sırasına dikkat edilerek ve her adımda eşitsizlik kuralları uygulanarak çözülür.",
+    "examples": [
+      "2(x - 1) + 3 < 5x - 4",
+      "(x + 2)² > x² + 1",
+      "(3x - 1) / 2 ≤ x + 3"
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde İşlem Sırası",
+      "Eşitsizliklerde Kare Alma",
+      "Eşitsizliklerde Toplama, Çıkarma, Çarpma ve Bölme Kuralları"
+    ],
+    "order": 54
+  },
+  {
+    "id": "mutlak_deger_degerlendirme_analizi",
+    "term": "Mutlak Değer Değerlendirme ve Analizi",
+    "definition": "Mutlak değerli ifadelerin belirli değerler için alabileceği minimum veya maksimum değerleri incelemektir. Üçgen eşitsizliği gibi özellikler kullanılabilir. İfadeyi en sade hale getirmek önemlidir.",
+    "examples": [
+      "|x - 2| + |x - 5| ifadesinin minimum değeri",
+      "|x + 1| + |x - 3| ifadesinin alabileceği değerler",
+      "|a - b| ≤ |a| + |b| eşitsizliğinin kullanımı"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Değerlendirme",
+      "Mutlak Değerin Özellikleri",
+      "Üçgen Eşitsizliği"
+    ],
+    "order": 55
+  },
+  {
+    "id": "esitsizliklerde_kare_alma_durumlari",
+    "term": "Eşitsizliklerde Kare Alma Durumları",
+    "definition": "Eşitsizliklerde kare alma işlemi yapılırken, her iki tarafın da pozitif olduğundan emin olmak önemlidir. Negatif sayılar varsa işaretler dikkate alınmalıdır. |x|² = x² özelliğini kullanmak da bir yöntemdir.",
+    "examples": [
+      "x > 3 ise, x² > 9",
+      "x < -2 ise, x² > 4",
+      "|x| > 2 ise, x² > 4"
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde Kare Alma",
+      "Eşitsizliklerde Kare Alma Kuralları",
+      "Mutlak Değerde Kare Alma"
+    ],
+    "order": 56
+  },
+  {
+    "id": "mutlak_deger_icinde_degisken_esitsizlik_sistemi",
+    "term": "Mutlak Değer İçinde Değişken Eşitsizlik Sistemi",
+    "definition": "Mutlak değerin içinde değişken bulunan ve birden fazla eşitsizliğin aynı anda sağlandığı sistemlerdir. Her bir eşitsizlik ayrı ayrı çözülür ve çözüm kümelerinin kesişimi alınır.",
+    "examples": [
+      "|x - 1| > 2x ve |x + 3| < 1",
+      "|2x + 1| ≤ x + 5 ve |x - 2| > 0",
+      "|x - 4| < 3x ve |x + 1| ≥ 2"
+    ],
+    "relatedTerms": [
+      "Mutlak Değer İçinde Değişken İçeren Eşitsizlik",
+      "Mutlak Değer Eşitsizlik Sistemi",
+      "Eşitsizlik Sistemleri"
+    ],
+    "order": 57
+  },
+  {
+    "id": "esitsizliklerde_payda_mutlak_deger_durumu",
+    "term": "Eşitsizliklerde Payda ve Mutlak Değer Durumu",
+    "definition": "Paydada mutlak değer içeren eşitsizliklerin çözümüdür. Paydanın sıfır olamayacağı kuralı ve mutlak değerin pozitifliği göz önünde bulundurulur. İşaret analizi önemlidir.",
+    "examples": [
+      "1 / |x - 2| > 1",
+      "|x + 1| / |x - 3| ≤ 2",
+      "3 / |2x - 4| ≥ 1"
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde Payda Durumu",
+      "Mutlak Değer Eşitsizliği",
+      "Eşitsizliklerde İşaret Tablosu"
+    ],
+    "order": 58
+  },
+  {
+    "id": "mutlak_deger_esitsizliginde_kare_alma_yontemleri",
+    "term": "Mutlak Değer Eşitsizliğinde Kare Alma Yöntemleri",
+    "definition": "Mutlak değerli eşitsizliklerde, her iki tarafın da pozitif olduğu durumlarda, eşitsizliğin her iki tarafının karesini alarak mutlak değerden kurtulma yöntemidir. Bu yöntem, özellikle |x| < a veya |x| > a gibi temel eşitsizliklerde kullanılır.",
+    "examples": [
+      "|x - 2| < 3 ise, (x - 2)² < 9 olur.",
+      "|2x + 1| > 5 ise, (2x + 1)² > 25 olur.",
+      "|x| < -2 gibi bir eşitsizlikte kare alma yöntemi uygulanamaz."
+    ],
+    "relatedTerms": [
+      "Mutlak Değerin Büyüktür Kuralı",
+      "Mutlak Değerin Küçüktür Kuralı",
+      "Eşitsizliklerde Kare Alma Kuralları"
+    ],
+    "order": 59
+  },
+  {
+    "id": "esitsizliklerde_kok_bulma_ve_analizi",
+    "term": "Eşitsizliklerde Kök Bulma ve Analizi",
+    "definition": "Bir eşitsizliği sağlayan veya sağlamayan değerleri bulmak için, eşitsizliği 0'a eşitleyerek kökleri bulma ve bu köklerin işaret tablosundaki etkisini analiz etme işlemidir. Kökler, sayı doğrusunu belirli aralıklara ayırır.",
+    "examples": [
+      "x² - 5x + 6 > 0 eşitsizliğinin kökleri x = 2 ve x = 3'tür.",
+      "x - 1 ≤ 0 eşitsizliğinin kökü x = 1'dir.",
+      "Kökler, eşitsizliğin işaretinin değiştiği noktalardır."
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde İşaret Tablosu",
+      "Eşitsizliklerde Kök Kavramı",
+      "Polinom Eşitsizlikleri"
+    ],
+    "order": 60
+  },
+  {
+    "id": "mutlak_degerli_esitsizliklerde_parametre_degerleri",
+    "term": "Mutlak Değerli Eşitsizliklerde Parametre Değerleri",
+    "definition": "İçinde bilinmeyen (parametre) bulunan mutlak değerli eşitsizliklerde, parametrenin alabileceği değerler kümesini veya belirli koşulları sağlayan parametre değerlerini bulma işlemidir. Parametrenin mutlak değerin içindeki veya dışındaki konumu çözüm yöntemini etkiler.",
+    "examples": [
+      "|x - a| < 5 eşitsizliğinin her x gerçel sayısı için sağlanması için 'a' ne olmalı?",
+      "|x + 1| > m eşitsizliğinin çözüm kümesinin boş küme olması için 'm' ne olmalı?",
+      "|2x - 3| ≤ a eşitsizliğinin çözüm kümesi 7 birim uzunluğunda bir aralıktır."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Eşitsizlikleri Çözüm Yöntemleri",
+      "Parametrik Eşitsizlikler",
+      "Mutlak Değerin Temel Özellikleri"
+    ],
+    "order": 61
+  },
+  {
+    "id": "esitsizliklerde_esitsizlik_sistemleri_cozumleri",
+    "term": "Eşitsizliklerde Eşitsizlik Sistemleri Çözümleri",
+    "definition": "Birden fazla eşitsizliğin aynı anda sağlandığı durumları inceleyen sistemlerdir. Her bir eşitsizliğin çözüm kümesi bulunur ve bu kümelerin kesişimi sistemin çözüm kümesini oluşturur. Sayı doğrusu üzerinde ortak aralıklar belirlenir.",
+    "examples": [
+      "x + 2 > 0 ve x - 3 < 0 eşitsizlik sisteminin çözüm kümesi nedir?",
+      "2x - 1 ≤ 5 ve x + 3 > 1 eşitsizlik sistemini sağlayan tam sayılar nelerdir?",
+      "x² - 4 < 0 ve x + 1 > 0 eşitsizlik sisteminin çözüm kümesi."
+    ],
+    "relatedTerms": [
+      "Eşitsizlik Sistemlerinde Ortak Çözüm",
+      "Sayı Doğrusu Kullanımı",
+      "Kesşim Kümesi"
+    ],
+    "order": 62
+  },
+  {
+    "id": "mutlak_degerli_denklemlerde_kok_analizi",
+    "term": "Mutlak Değerli Denklemlerde Kök Analizi",
+    "definition": "Mutlak değer içeren denklemlerde bulunan köklerin, denklemi sağlayıp sağlamadığını kontrol etme ve çözüm kümesini doğru bir şekilde belirleme sürecidir. Mutlak değerin tanımına göre denklemi parçalara ayırarak veya özel yöntemler kullanarak kökler bulunur.",
+    "examples": [
+      "|x - 3| = 5 denkleminin kökleri x = 8 ve x = -2'dir.",
+      "|2x + 1| = x + 3 denkleminin kökleri incelenir.",
+      "|x² - 4| = 0 denkleminin kökleri x = 2 ve x = -2'dir."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer İçinde Değişken İçeren Denklemler",
+      "Denklem Kökleri",
+      "Mutlak Değerin Tanımı"
+    ],
+    "order": 63
+  },
+  {
+    "id": "esitsizliklerde_payda_ve_mutlak_deger_birlesimi",
+    "term": "Eşitsizliklerde Payda ve Mutlak Değer Birleşimi",
+    "definition": "Paydasında mutlak değer içeren veya hem payında hem de paydasında mutlak değer bulunan eşitsizliklerin çözüm yöntemidir. Paydanın sıfır olmaması kuralı ve mutlak değerin özellikleri birlikte kullanılır. İşaret tablosu bu tür sorularda önemlidir.",
+    "examples": [
+      "|x - 1| / (x + 2) > 0 eşitsizliğinin çözüm kümesi.",
+      "(x + 3) / |x - 4| ≤ 0 eşitsizliğinin çözüm kümesi.",
+      "|x + 1| / |x - 2| < 1 eşitsizliğinin çözüm kümesi."
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde Payda Durumu",
+      "Mutlak Değer Eşitsizlikleri Çözüm Yöntemleri",
+      "İşaret Tablosu"
+    ],
+    "order": 64
+  },
+  {
+    "id": "mutlak_deger_icinde_mutlak_deger_esitsizlikleri",
+    "term": "Mutlak Değer İçinde Mutlak Değer Eşitsizlikleri",
+    "definition": "İç içe geçmiş mutlak değer ifadeleri içeren eşitsizliklerin çözümüdür. En dıştaki mutlak değerden başlayarak adım adım içteki mutlak değerlere doğru çözülür. Her adımda mutlak değerin tanımı veya özellikleri kullanılır.",
+    "examples": [
+      "||x - 1| - 3| < 2 eşitsizliğinin çözüm kümesi.",
+      "| |x + 2| + 1 | ≤ 5 eşitsizliğinin çözüm kümesi.",
+      "| |x| - 2 | > 1 eşitsizliğinin çözüm kümesi."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer İçinde Mutlak Değer",
+      "Mutlak Değer Eşitsizlikleri Çözüm Yöntemleri",
+      "İç İçe İşlemler"
+    ],
+    "order": 65
+  },
+  {
+    "id": "esitsizliklerde_esitlik_ve_esitlik_olmama_durumu_analizi",
+    "term": "Eşitsizliklerde Eşitlik ve Eşitlik Olmama Durumu Analizi",
+    "definition": "Bir eşitsizlikte eşitlik durumunun (örn: ≤ veya ≥) veya eşitlik olmama durumunun (örn: < veya >) çözüm kümesini nasıl etkilediğini analiz etme işlemidir. Eşitlik durumunda kökler çözüm kümesine dahil edilirken, eşitlik olmama durumunda dahil edilmez.",
+    "examples": [
+      "x - 5 < 0 eşitsizliğinde x = 5 çözüm kümesine dahil değildir.",
+      "x - 5 ≤ 0 eşitsizliğinde x = 5 çözüm kümesine dahildir.",
+      "Eşitsizliklerde sınır değerlerin analizi."
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde Eşitlik Durumu",
+      "Eşitsizliklerde Eşitliğin Yokluğu",
+      "Sayı Doğrusu Kullanımı"
+    ],
+    "order": 66
+  },
+  {
+    "id": "mutlak_deger_degerlendirme_ve_isaret_analizi",
+    "term": "Mutlak Değer Değerlendirme ve İşaret Analizi",
+    "definition": "Mutlak değer içindeki ifadenin pozitif, negatif veya sıfır olma durumlarına göre mutlak değerin nasıl açıldığını ve bu açılımların eşitsizlik veya denklem çözümünde nasıl kullanıldığını inceleyen bir yaklaşımdır. Sayı doğrusu üzerinde kritik noktalar belirlenir.",
+    "examples": [
+      "|x - 2| ifadesi, x ≥ 2 için x - 2, x < 2 için 2 - x olarak açılır.",
+      "|x + 3| + |x - 1| = 6 gibi bir denklemde, x'in değer aralıklarına göre mutlak değerler açılır.",
+      "Mutlak değerin içindeki ifadenin işaretinin incelenmesi."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Değerlendirme",
+      "Eşitsizliklerde İşaret Tablosu",
+      "Mutlak Değerin Tanımı"
+    ],
+    "order": 67
+  },
+  {
+    "id": "mutlak_deger_fonksiyonu_grafik_yorumlama",
+    "term": "Mutlak Değer Fonksiyonu Grafik Yorumlama",
+    "definition": "Mutlak değer içeren fonksiyonların grafiklerinin çizilmesi ve bu grafikler üzerinden eşitsizlik veya denklem çözümlerinin yorumlanmasıdır. Grafiklerin tepe noktaları, kesişim noktaları ve eğimleri çözüm hakkında bilgi verir.",
+    "examples": [
+      "y = |x - 2| fonksiyonunun grafiği.",
+      "y = |x + 1| + 3 fonksiyonunun grafiği.",
+      "Grafik üzerinde |x - 1| < 2 eşitsizliğinin çözüm aralığının bulunması."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer Fonksiyonları",
+      "Fonksiyon Grafikleri",
+      "Sayı Doğrusu Kullanımı"
+    ],
+    "order": 68
+  },
+  {
+    "id": "esitsizliklerde_payda_durumu_ve_kok_analizi",
+    "term": "Eşitsizliklerde Payda Durumu ve Kök Analizi",
+    "definition": "Paydası bilinmeyen içeren eşitsizliklerde, paydanın sıfır olamayacağı kuralını göz önünde bulundurarak kök analizi yapma ve işaret tablosunu oluşturma işlemidir. Paydadaki kökler, işaret tablosunda boşluk (tanımsızlık) olarak gösterilir.",
+    "examples": [
+      "(x - 3) / (x + 1) > 0 eşitsizliğinde x = -1 tanımsızlık noktasıdır.",
+      "(x² - 9) / (x - 2) ≤ 0 eşitsizliğinde kökler ve tanımsızlık noktaları incelenir.",
+      "Paydadaki köklerin çözüm kümesine dahil edilmemesi."
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde Payda Durumu",
+      "Eşitsizliklerde Kök Bulma ve Analizi",
+      "İşaret Tablosu Oluşturma"
+    ],
+    "order": 69
+  },
+  {
+    "id": "mutlak_deger_esitsizliginde_basit_durumlar_analizi",
+    "term": "Mutlak Değer Eşitsizliğinde Basit Durumlar Analizi",
+    "definition": "Mutlak değerin bir sayıdan küçük veya büyük olduğu temel eşitsizliklerin (örn: |x| < a, |x| > a, |x| ≤ a, |x| ≥ a) farklı çözüm stratejileriyle incelenmesidir. Bu durumlar, mutlak değerin tanımına veya özelliklerine göre doğrudan çözülür.",
+    "examples": [
+      "|x| < 5 eşitsizliği -5 < x < 5 olarak çözülür.",
+      "|x| > 3 eşitsizliği x < -3 veya x > 3 olarak çözülür.",
+      "|x + 2| ≤ 4 eşitsizliğinin çözüm kümesi."
+    ],
+    "relatedTerms": [
+      "Mutlak Değerin Küçüktür Kuralı",
+      "Mutlak Değerin Büyüktür Kuralı",
+      "Mutlak Değer Eşitsizlikleri Çözüm Yöntemleri"
+    ],
+    "order": 70
+  },
+  {
+    "id": "esitsizliklerde_kare_alma_ve_isaret_etkisi",
+    "term": "Eşitsizliklerde Kare Alma ve İşaret Etkisi",
+    "definition": "Eşitsizliklerde kare alma işleminin, eşitsizliğin her iki tarafının işaretine göre nasıl farklı sonuçlar doğurabileceğini inceleyen bir konudur. Negatif bir sayının karesi pozitif olacağından, işaretlere dikkat etmek önemlidir.",
+    "examples": [
+      "x > 2 ise x² > 4 olur.",
+      "x < -2 ise x² > 4 olur.",
+      "-2 < x < 2 ise x² < 4 olur."
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde Kare Alma",
+      "Eşitsizliklerde Kare Alma Kuralları",
+      "İşaret Analizi"
+    ],
+    "order": 71
+  },
+  {
+    "id": "mutlak_degerli_esitsizliklerde_sayi_dogrusu_uygulamalari",
+    "term": "Mutlak Değerli Eşitsizliklerde Sayı Doğrusu Uygulamaları",
+    "definition": "Mutlak değerin geometrik yorumunu (iki nokta arasındaki uzaklık) kullanarak mutlak değerli eşitsizlikleri sayı doğrusu üzerinde görselleştirme ve çözüm kümesini belirleme yöntemidir. Bu yöntem, özellikle |x - a| < b gibi eşitsizliklerde etkilidir.",
+    "examples": [
+      "|x - 3| < 2 eşitsizliğinin sayı doğrusunda gösterimi.",
+      "|x + 1| ≥ 4 eşitsizliğinin sayı doğrusunda gösterimi.",
+      "Sayı doğrusunda mutlak değerin uzaklık olarak yorumlanması."
+    ],
+    "relatedTerms": [
+      "Mutlak Değerli Eşitsizliklerde Sayı Doğrusu",
+      "Sayı Doğrusu Kullanımı",
+      "Mutlak Değerin Geometrik Yorumu"
+    ],
+    "order": 72
+  },
+  {
+    "id": "esitsizliklerde_isaret_tablosu_olusturma_ve_yorumlama",
+    "term": "Eşitsizliklerde İşaret Tablosu Oluşturma ve Yorumlama",
+    "definition": "Bir eşitsizliğin kökleri bulunduktan sonra, bu köklerin sayı doğrusunu ayırdığı aralıklarda ifadenin işaretini belirlemek için kullanılan tablonun oluşturulması ve bu tablodan çözüm kümesinin çıkarılmasıdır. Her bir aralıkta ifadenin işareti incelenir.",
+    "examples": [
+      "(x - 1)(x + 2) > 0 eşitsizliği için işaret tablosu oluşturma.",
+      "x² - 4x + 3 ≤ 0 eşitsizliğinin çözüm kümesini işaret tablosu ile bulma.",
+      "İşaret tablosunda köklerin ve aralıkların gösterimi."
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde İşaret Tablosu",
+      "Eşitsizliklerde Kök Bulma ve Analizi",
+      "Polinom Eşitsizlikleri"
+    ],
+    "order": 73
+  },
+  {
+    "id": "mutlak_deger_icinde_degisken_iceren_esitsizlikler",
+    "term": "Mutlak Değer İçinde Değişken İçeren Eşitsizlikler",
+    "definition": "Mutlak değerin içinde bilinmeyen (değişken) bulunan eşitsizliklerin çözümüdür. Bu tür eşitsizlikler, mutlak değerin tanımına göre farklı durumlar incelenerek veya özel yöntemler kullanılarak çözülür. Örnek: |ax + b| < c veya |ax + b| > c.",
+    "examples": [
+      "|2x - 1| < 5 eşitsizliğinin çözüm kümesi.",
+      "|x + 3| > 2 eşitsizliğinin çözüm kümesi.",
+      "|3x - 2| ≤ 7 eşitsizliğinin çözüm kümesi."
+    ],
+    "relatedTerms": [
+      "Mutlak Değer İçinde Değişken İçeren Eşitsizlik",
+      "Mutlak Değer Eşitsizlikleri Çözüm Yöntemleri",
+      "Mutlak Değerin Temel Özellikleri"
+    ],
+    "order": 74
+  },
+  {
+    "id": "esitsizliklerde_toplama_cikarma_carpma_bolme_kurallari_analizi",
+    "term": "Eşitsizliklerde Toplama, Çıkarma, Çarpma, Bölme Kuralları Analizi",
+    "definition": "Eşitsizliklerde dört temel işlem yapılırken dikkat edilmesi gereken kuralların detaylı analizi. Pozitif bir sayıyla çarpma/bölme eşitsizliği değiştirmezken, negatif bir sayıyla çarpma/bölme eşitsizliğin yönünü tersine çevirir. Toplama/çıkarma ise eşitsizliği değiştirmez.",
+    "examples": [
+      "x - 3 < 5 eşitsizliğinde her iki tarafa 3 eklenir.",
+      "2x > 6 eşitsizliğinde her iki taraf 2'ye bölünür.",
+      "-3x < 9 eşitsizliğinde her iki taraf -3'e bölünür ve eşitsizlik yön değiştirir."
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde Toplama ve Çıkarma",
+      "Eşitsizliklerde Çarpma ve Bölme",
+      "Eşitsizliklerde Kombine İşlem Sırası"
+    ],
+    "order": 75
+  },
+  {
+    "id": "esitsizliklerde_esitlik_ve_esitlik_olmama_durumu_kavramlari",
+    "term": "Eşitsizliklerde Eşitlik ve Eşitlik Olmama Durumu Kavramları",
+    "definition": "Bir eşitsizlikte 'küçük eşittir' (≤) veya 'büyük eşittir' (≥) gibi eşitlik içeren durumlar ile sadece 'küçüktür' (<) veya 'büyüktür' (>) gibi eşitlik içermeyen durumların matematiksel anlamlarını ve çözüm kümelerine etkilerini inceleyen temel kavramlardır.",
+    "examples": [
+      "x < 5 eşitsizliğinde 5 dahil değildir.",
+      "x ≤ 5 eşitsizliğinde 5 dahildir.",
+      "Eşitsizliklerde sınır değerlerin durumu."
+    ],
+    "relatedTerms": [
+      "Eşitsizliklerde Eşitlik Durumu",
+      "Eşitsizliklerde Eşitliğin Yokluğu",
+      "Sayı Doğrusu Kullanımı"
+    ],
+    "order": 76
+  }
+]

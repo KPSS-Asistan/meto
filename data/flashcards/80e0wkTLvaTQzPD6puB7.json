@@ -1,0 +1,485 @@
+[
+  {
+    "question": "Türkçede kaç ünlü harf vardır?",
+    "answer": "8 ünlü (a, e, ı, i, o, ö, u, ü)",
+    "additionalInfo": "Kalın: a, ı, o, u / İnce: e, i, ö, ü",
+    "_part": 1
+  },
+  {
+    "question": "Büyük ünlü uyumu nedir?",
+    "answer": "Kalın ünlüden sonra kalın, ince ünlüden sonra ince ünlü gelmesi",
+    "additionalInfo": "Örnek: kitap-lar (uyumlu), saat-ler (uyumsuz)",
+    "_part": 2
+  },
+  {
+    "question": "Küçük ünlü uyumu nedir?",
+    "answer": "Düz ünlüden sonra düz, yuvarlak ünlüden sonra dar-yuvarlak veya düz-geniş ünlü gelmesi",
+    "additionalInfo": "Örnek: ev-ler (uyumlu), okul-lar (uyumsuz)",
+    "_part": 3
+  },
+  {
+    "question": "Ünsüz yumuşaması nedir?",
+    "answer": "p, ç, t, k sert ünsüzlerinin b, c, d, g/ğ'ye dönüşmesi",
+    "additionalInfo": "Örnek: kitap → kitabı, ağaç → ağacı",
+    "_part": 4
+  },
+  {
+    "question": "Ünsüz benzeşmesi nedir?",
+    "answer": "Sert ünsüzle biten kelimeye yumuşak ünsüzle başlayan ek gelince ekin sertleşmesi",
+    "additionalInfo": "Örnek: Türk-ce → Türkçe, git-di → gitti",
+    "_part": 5
+  },
+  {
+    "question": "Ünlü düşmesi nedir?",
+    "answer": "İki heceli kelimelerde ek alınca ortadaki ünlünün düşmesi",
+    "additionalInfo": "Örnek: burun → burnu, oğul → oğlu",
+    "_part": 6
+  },
+  {
+    "question": "Ünsüz düşmesi nedir?",
+    "answer": "Bazı kelimelerde ünsüzün düşmesi",
+    "additionalInfo": "Örnek: küçük → küçücük (k düştü)",
+    "_part": 7
+  },
+  {
+    "topicId": "SES01",
+    "question": "Ünlü düşmesi hangi durumlarda meydana gelir?",
+    "answer": "İkinci hecesinde dar ünlü bulunan kelimelere ünlü ile başlayan bir ek getirildiğinde.",
+    "additionalInfo": "Örn: Burun-u -> Burnu.",
+    "id": "flash_1",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES02",
+    "question": "Ünsüz benzeşmesi (sertleşmesi) nedir?",
+    "answer": "Sert ünsüzle (f, s, t, k, ç, ş, h, p) biten kelimeye yumuşak ünsüzle başlayan ek gelince ekin sertleşmesidir.",
+    "additionalInfo": "Kodlama: Fıstıkçı Şahap.",
+    "id": "flash_2",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES03",
+    "question": "Ünsüz yumuşaması hangi durumlarda görülmez?",
+    "answer": "Tek heceli kelimelerin çoğunda, yabancı dillerden gelen bazı sözcüklerde ve özel isimlerde.",
+    "additionalInfo": "Yazıda özel isimlerde yumuşama gösterilmez.",
+    "id": "flash_3",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES04",
+    "question": "Ünlü daralması hangi durumlarda oluşur?",
+    "answer": "A, e ile biten fiillere '-yor' eki getirildiğinde a, e seslerinin ı, i, u, ü'ye dönüşmesidir.",
+    "additionalInfo": "Örn: Bekle-yor -> Bekliyor.",
+    "id": "flash_4",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES05",
+    "question": "Ünsüz türemesi nedir?",
+    "answer": "Birleşme veya ek alma sırasında kelimeye yeni bir ünsüzün eklenmesidir.",
+    "additionalInfo": "Örn: His-etmek -> Hissetmek.",
+    "id": "flash_5",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES06",
+    "question": "Ünlü türemesi hangi durumlarda görülür?",
+    "answer": "Özellikle 'cik' eki alan tek heceli kelimelerde ve pekiştirmelerde.",
+    "additionalInfo": "Örn: Az-cık -> Azıcık.",
+    "id": "flash_6",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES07",
+    "question": "Büyük ünlü uyumu kuralı nedir?",
+    "answer": "Bir kelimenin ilk hecesi kalınsa diğer hecelerin de kalın, inceyse ince olmasıdır.",
+    "additionalInfo": "Kalınlar: a, ı, o, u; İnceler: e, i, ö, ü.",
+    "id": "flash_7",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES08",
+    "question": "Küçük ünlü uyumu kuralı nedir?",
+    "answer": "Düz ünlülerden sonra düz, yuvarlak ünlülerden sonra ya düz-geniş ya da yuvarlak-dar gelmesidir.",
+    "additionalInfo": "o, ö sadece ilk hecede bulunur.",
+    "id": "flash_8",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES09",
+    "question": "Kaynaştırma harfleri hangileridir?",
+    "answer": "y, ş, s, n",
+    "additionalInfo": "YaŞaSıN kodlamasıyla hatırlanabilir.",
+    "id": "flash_9",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES10",
+    "question": "Dudak ünsüzü benzeşmesi nedir?",
+    "answer": "Türkçede 'b' sesinden önce gelen 'n' sesinin 'm'ye dönüşmesidir.",
+    "additionalInfo": "Örn: Saklanbaç -> Saklambaç.",
+    "id": "flash_10",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES11",
+    "question": "Sözcük kökünde ünlü düşmesi olması için ne gerekir?",
+    "answer": "Kelimenin türetilmesi veya çekimlenmesi.",
+    "additionalInfo": "Örn: Alın -> Alnı.",
+    "id": "flash_11",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES12",
+    "question": "Ünsüz düşmesi en çok hangi ekle olur?",
+    "answer": "-cik, -cük küçültme ekiyle.",
+    "additionalInfo": "Örn: Küçük-cük -> Küçücük.",
+    "id": "flash_12",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES13",
+    "question": "Sert ünsüzler hangileridir?",
+    "answer": "f, s, t, k, ç, ş, h, p",
+    "additionalInfo": "Fıstıkçı Şahap.",
+    "id": "flash_13",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES14",
+    "question": "Yumuşak ünsüzler hangileridir?",
+    "answer": "b, c, d, g, ğ, j, l, m, n, r, v, y, z",
+    "additionalInfo": "Sert ünsüzler dışındakilerdir.",
+    "id": "flash_14",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES15",
+    "question": "Ulama nasıl yapılır?",
+    "answer": "Ünsüzle biten bir kelimeden sonra ünlüyle başlayan bir kelime gelirse birleştirilerek okunur.",
+    "additionalInfo": "Araya noktalama işareti girerse ulama olmaz.",
+    "id": "flash_15",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES16",
+    "question": "Hangi durumlarda ünlü daralması olmaz?",
+    "answer": "Fiil kökü a/e ile bitmiyorsa.",
+    "additionalInfo": "Örn: Gel-iyor (Daralma yok).",
+    "id": "flash_16",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES17",
+    "question": "Neden 'git-di' değil de 'gitti' deriz?",
+    "answer": "Ünsüz benzeşmesi kuralı gereği.",
+    "additionalInfo": "Sert ile biten sert ile devam eder.",
+    "id": "flash_17",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES18",
+    "question": "Ünlü düşmesi yazımda gösterilmezse ne olur?",
+    "answer": "Yazım yanlışı olur.",
+    "additionalInfo": "Örn: 'Beynim' değil 'Beynim' (doğru).",
+    "id": "flash_18",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES19",
+    "question": "Özel isimlerde ünsüz yumuşaması yazılır mı?",
+    "answer": "Hayır.",
+    "additionalInfo": "Örn: Ahmet'in (okunuş yumuşasa da yazı değişmez).",
+    "id": "flash_19",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES20",
+    "question": "Büyük ünlü uyumuna aykırı olan ekler nelerdir?",
+    "answer": "-yor, -ki, -leyin, -mtrak.",
+    "additionalInfo": "Bu ekler kelimeye uyumu bozar.",
+    "id": "flash_20",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES21",
+    "question": "Yabancı kökenli kelimelerde büyük ünlü uyumu aranır mı?",
+    "answer": "Hayır.",
+    "additionalInfo": "Örn: Otomobil, televizyon.",
+    "id": "flash_21",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES22",
+    "question": "Küçük ünlü uyumu kuralında 'o, ö' nerede bulunabilir?",
+    "answer": "Sadece ilk hecede.",
+    "additionalInfo": "Eğer sonraki hecelerdeyse uyum bozuktur.",
+    "id": "flash_22",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES23",
+    "question": "Sertleşme kuralı rakamlarda geçerli midir?",
+    "answer": "Evet.",
+    "additionalInfo": "Örn: 1923'te (3 sert olduğu için).",
+    "id": "flash_23",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES42",
+    "question": "Ünsüz türemesi her zaman yazılır mı?",
+    "answer": "Evet.",
+    "additionalInfo": "Örn: Af-etmek -> Affetmek.",
+    "id": "flash_42",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES25",
+    "question": "Kaynaştırma harfi 'n' hangi durumda sıkça karıştırılır?",
+    "answer": "İyelik eki olan -n ile.",
+    "additionalInfo": "Tamlayan ekinden sonra gelen 'n' kaynaştırmadır.",
+    "id": "flash_25",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES26",
+    "question": "Ünlü düşmesi 'aşınma' yoluyla nasıl olur?",
+    "answer": "İki kelimenin birleşirken ses kaybetmesiyle.",
+    "additionalInfo": "Örn: Ne asıl -> Nasıl.",
+    "id": "flash_26",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES27",
+    "question": "Sertleşme kuralı kısaltmalarda nasıl uygulanır?",
+    "answer": "Kısaltmanın son harfinin okunuşuna göre.",
+    "additionalInfo": "Örn: TÜBİTAK'ta (K sesi).",
+    "id": "flash_27",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES28",
+    "question": "Ünlü daralması 'de-' ve 'ye-' fiillerinde nasıl olur?",
+    "answer": "diyor ve yiyor şeklinde.",
+    "additionalInfo": "Burada daralma mecburi ve yazılır.",
+    "id": "flash_28",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES29",
+    "question": "Ulama için en önemli engel nedir?",
+    "answer": "Noktalama işaretleri.",
+    "additionalInfo": "Virgül, nokta vb. ulama yapılmasına engeldir.",
+    "id": "flash_29",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES30",
+    "question": "Ünsüz yumuşaması hangi harflerde olur?",
+    "answer": "p, ç, t, k harfleri b, c, d, g/ğ'ye dönüşür.",
+    "additionalInfo": "Kodlama: PÇTK -> BCDG.",
+    "id": "flash_30",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES31",
+    "question": "Ünlü düşmesi fiilden fiil yapım eklerinde olur mu?",
+    "answer": "Evet.",
+    "additionalInfo": "Örn: Sızı-la -> Sızla.",
+    "id": "flash_31",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES32",
+    "question": "Küçük ünlü uyumunda 'a, e' geniş ünlüdür; peki neyle devam edebilir?",
+    "answer": "Sadece düz (a, e, ı, i) ile.",
+    "additionalInfo": "Yuvarlak ünlü gelmez.",
+    "id": "flash_32",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES33",
+    "question": "Birleşik kelimelerde ünlü düşmesi yazılmalı mı?",
+    "answer": "Evet.",
+    "additionalInfo": "Örn: Kayıp oldu -> Kayboldu.",
+    "id": "flash_33",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES34",
+    "question": "Ünsüz benzeşmesi sayıların yazımında da aranır mı?",
+    "answer": "Evet.",
+    "additionalInfo": "Örn: 2'den değil 2'den (sert değilse).",
+    "id": "flash_34",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES35",
+    "question": "Göçüşme (metathesis) nedir?",
+    "answer": "Kelimedeki iki sesin yer değiştirmesi.",
+    "additionalInfo": "Örn: Yanlış -> Yalnış (yanlıştır).",
+    "id": "flash_35",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES36",
+    "question": "Ünlü daralması olmayan bir fiil örneği verin.",
+    "answer": "Geliyor.",
+    "additionalInfo": "Kök 'gel' olduğu için daralma yok.",
+    "id": "flash_36",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES37",
+    "question": "Hangi durumlarda 'n' harfi kaynaştırma değildir?",
+    "answer": "İyelik eki olan -n.",
+    "additionalInfo": "Örn: Evin (senin evin).",
+    "id": "flash_37",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES38",
+    "question": "Büyük ünlü uyumuna aykırı kelimelere ek getirilirken neye bakılır?",
+    "answer": "Kelimenin son hecesine.",
+    "additionalInfo": "Ek son heceye uymalıdır.",
+    "id": "flash_38",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES39",
+    "question": "Ünsüz yumuşamasına aykırı durum nedir?",
+    "answer": "Tek heceli kelimeler.",
+    "additionalInfo": "Örn: At-ı değil Atı.",
+    "id": "flash_39",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES40",
+    "question": "Ünlü türemesi pekiştirmelerde nasıl yapılır?",
+    "answer": "m, p, r, s harfleriyle.",
+    "additionalInfo": "Örn: Sap-sağlam -> Sapa-sağlam.",
+    "id": "flash_40",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES41",
+    "question": "Ünsüz benzeşmesi 'yabancı' kelimelerde olur mu?",
+    "answer": "Genellikle hayır.",
+    "additionalInfo": "Türkçe kökenli kelimelerde aranır.",
+    "id": "flash_41",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES43",
+    "question": "Ulama nasıl bir ses olayıdır?",
+    "answer": "Sözcükler arası bir ses olayıdır.",
+    "additionalInfo": "Kelime içi değil.",
+    "id": "flash_43",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES44",
+    "question": "Küçük ünlü uyumu kuralında 'u, ü'den sonra ne gelir?",
+    "answer": "Düz-geniş (a, e) veya yuvarlak-dar (u, ü).",
+    "additionalInfo": "Kritik kuraldır.",
+    "id": "flash_44",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES45",
+    "question": "Ünlü düşmesi 'halk ağzı'nda mı yoksa standart dilde mi aranır?",
+    "answer": "Standart dilde.",
+    "additionalInfo": "Sorularda standart yazı esas alınır.",
+    "id": "flash_45",
+    "_part": 51,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES46",
+    "question": "Ünsüz yumuşaması 'yazım' sorusu olarak gelir mi?",
+    "answer": "Evet.",
+    "additionalInfo": "Yumuşama kuralı yazıda gösterilmeli.",
+    "id": "flash_46",
+    "_part": 52,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES47",
+    "question": "Hangi ekler büyük ünlü uyumuna uymaz?",
+    "answer": "-yor, -ki, -leyin, -mtrak, -daş.",
+    "additionalInfo": "Bu ekler istisnadır.",
+    "id": "flash_47",
+    "_part": 53,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES48",
+    "question": "Ünsüz benzeşmesinde 'ç' sesi hangi sesle sertleşir?",
+    "answer": "Fıstıkçı Şahap ile.",
+    "additionalInfo": "Örn: Ağaç-tan.",
+    "id": "flash_48",
+    "_part": 54,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES49",
+    "question": "Ünlü daralması olmayan kelimeye örnek?",
+    "answer": "Seviyor.",
+    "additionalInfo": "Kök 'sev-' olduğu için daralma yok.",
+    "id": "flash_49",
+    "_part": 55,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  },
+  {
+    "topicId": "SES50",
+    "question": "Kaynaştırma ünsüzü 'y' hangi durumlarda kullanılır?",
+    "answer": "İki ünlü arasına geldiğinde.",
+    "additionalInfo": "Örn: Kapı-y-a.",
+    "id": "flash_50",
+    "_part": 56,
+    "_generatedAt": "2026-04-12T17:22:36.655Z"
+  }
+]

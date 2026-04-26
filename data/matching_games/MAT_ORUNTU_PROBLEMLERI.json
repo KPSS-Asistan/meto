@@ -1,0 +1,266 @@
+[
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Aritmetik Dizi",
+    "answer": "Ardışık terimleri arasındaki farkın sabit olduğu dizi.",
+    "id": "match_1776016985675_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Geometrik Dizi",
+    "answer": "Ardışık terimleri arasındaki oranın sabit olduğu dizi.",
+    "id": "match_1776016985675_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Genel Terim",
+    "answer": "Dizinin n. terimini n cinsinden ifade eden kural",
+    "id": "match_1776015730311_3",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:42:17.155Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Fibonacci Dizisi",
+    "answer": "Her terimin kendisinden önceki iki terimin toplamı olduğu dizi (1, 1, 2, 3, 5...).",
+    "id": "match_1776016985675_3",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Ortak Fark (d)",
+    "answer": "Aritmetik bir dizide ardışık iki terim arasındaki değişmez fark",
+    "id": "match_1776015730311_5",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:42:17.155Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Ortak Çarpan (r)",
+    "answer": "Geometrik bir dizide ardışık iki terimin birbirine oranı",
+    "id": "match_1776015730311_6",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T17:42:17.155Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Üçgensel Sayılar",
+    "answer": "N tane noktadan oluşan üçgenlerle ifade edilebilen sayılar (1, 3, 6, 10...).",
+    "id": "match_1776016985675_4",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Karesel Sayılar",
+    "answer": "Bir tam sayının karesi olan sayılar (1, 4, 9, 16...).",
+    "id": "match_1776016985675_5",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Ardışık Sayılar",
+    "answer": "Belirli bir kurala göre birbiri ardına gelen sayılar grubu",
+    "id": "match_1776015730311_9",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:42:17.155Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Şekil Örüntüsü",
+    "answer": "Belirli bir kural veya düzen içinde tekrar eden veya büyüyen şekiller dizisi.",
+    "id": "match_1776016985675_18",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Artış Miktarı",
+    "answer": "Örüntüde bir adımdan diğerine geçerken eklenen sabit değer",
+    "id": "match_1776015730311_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:42:17.155Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Dizi İndisi",
+    "answer": "Terimin dizideki kaçıncı sırada olduğunu belirten sayı",
+    "id": "match_1776015730311_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:42:17.155Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Sabit Dizi",
+    "answer": "Tüm terimleri birbirine eşit olan dizi",
+    "id": "match_1776015730311_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:42:17.155Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Örüntü Kuralı",
+    "answer": "Bir sayı veya şekil dizisindeki terimler arasındaki ilişkiyi ifade eden genel formül.",
+    "id": "match_1776016985675_7",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Terim",
+    "answer": "Bir sayı dizisini oluşturan her bir eleman",
+    "id": "match_1776015730311_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:42:17.155Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Ardışık Tek Sayılar",
+    "answer": "2n-1 genel kuralı ile ifade edilen sayılar dizisi",
+    "id": "match_1776015730311_16",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:42:17.155Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Ardışık Çift Sayılar",
+    "answer": "2n genel kuralı ile ifade edilen sayılar dizisi",
+    "id": "match_1776015730311_17",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:42:17.155Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Sonlu Dizi",
+    "answer": "Belirli bir terim sayısında biten sayı dizisi",
+    "id": "match_1776015730311_18",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:42:17.155Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Sonsuz Dizi",
+    "answer": "Terim sayısı sınırsız olan sayı dizisi",
+    "id": "match_1776015730311_19",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:42:17.155Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Örüntü Adımı",
+    "answer": "Örüntünün belirli bir aşamadaki görünümü",
+    "id": "match_1776015730311_20",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:42:17.155Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Küp Sayılar",
+    "answer": "Bir tam sayının küpü olan sayılar (1, 8, 27, 64...).",
+    "id": "match_1776016985675_6",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Terimler Arası Fark",
+    "answer": "Bir aritmetik dizide ardışık terimler arasındaki sabit değer.",
+    "id": "match_1776016985675_8",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Ortak Oran",
+    "answer": "Bir geometrik dizide ardışık terimler arasındaki sabit oran.",
+    "id": "match_1776016985675_9",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Genel Terim (an)",
+    "answer": "Bir dizinin n. terimini veren formül.",
+    "id": "match_1776016985675_10",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Artan Örüntü",
+    "answer": "Terimleri sürekli artış gösteren sayı dizisi.",
+    "id": "match_1776016985675_11",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Azalan Örüntü",
+    "answer": "Terimleri sürekli azalış gösteren sayı dizisi.",
+    "id": "match_1776016985675_12",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Periyodik Örüntü",
+    "answer": "Belirli bir kurala göre tekrar eden elemanlardan oluşan dizi.",
+    "id": "match_1776016985675_13",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Fraktal Örüntü",
+    "answer": "Kendi kendine benzerlik gösteren, sonsuz detay içeren geometrik şekil.",
+    "id": "match_1776016985675_14",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Pascal Üçgeni",
+    "answer": "Binom katsayılarını içeren ve üçgensel bir sayı örüntüsü oluşturan yapı.",
+    "id": "match_1776016985675_15",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Sıra Sayısı",
+    "answer": "Bir örüntüdeki terimin kaçıncı sırada olduğunu belirten sayı.",
+    "id": "match_1776016985675_16",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Örüntü Tamamlama",
+    "answer": "Verilen bir kurala göre eksik terimleri bulma işlemi.",
+    "id": "match_1776016985675_17",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Düzgün Çokgen Örüntüsü",
+    "answer": "Kenar ve açıları eşit olan çokgenlerin belirli bir düzenle dizilimi.",
+    "id": "match_1776016985675_19",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_PROBLEMLERI",
+    "question": "Örüntü Kuralları Keşfetme",
+    "answer": "Bir dizi veya şekil grubundaki gizli matematiksel ilişkiyi bulma süreci.",
+    "id": "match_1776016985675_20",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T18:03:14.684Z"
+  }
+]

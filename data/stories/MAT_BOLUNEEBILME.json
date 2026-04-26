@@ -1,0 +1,92 @@
+[
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 1: Bölme İşlemi ve Temel Kavramlar",
+    "content": "Bir zamanlar, uzak bir diyarda, sayılarla dolu bir krallık varmış. Bu krallıkta her şey düzenli ve belirli kurallara göre işlermiş. Kraliyetin en eski ve en hikmetli bilgelerinden biri olan Bölünen Amca, her sabah halkına dağıtılacak yiyecekleri adil bir şekilde paylaştırırdı. Bölünen Amca'nın elindeki toplam yiyecek miktarı 'Bölünen'i temsil ederdi. Bu yiyecekleri kaç kişiye dağıtacağı ise 'Bölen' olarak adlandırılırdı. Her bir kişinin aldığı paya 'Bölüm' denir, eğer yiyeceklerden artan olursa buna da 'Kalan' adı verilirdi. Bazen yiyecekler tam olarak paylaştırılır, hiç artan olmazdı; işte buna 'kalansız bölme' denirdi. Ama çoğu zaman ufak tefek artanlar olurdu, yani 'kalanlı bölme' yaşanırdı. Bilge Bölünen Amca her zaman şunu söylerdi: 'Kalan, asla Bölen'den büyük olamaz, çünkü eğer büyük olsaydı, Bölen'e bir pay daha düşerdi!' Bu basit ama derin kural, krallıktaki her paylaşımın temelini oluştururdu.",
+    "key_points": [
+      "Bölme işleminin tanımı ve matematiksel gösterimi",
+      "Bölünen, bölen, bölüm ve kalan arasındaki ilişki",
+      "Kalanlı ve kalansız bölme kavramları",
+      "Bölme işleminde kalan özellikleri ve önemi"
+    ],
+    "type": "story",
+    "id": "story_1776013560181_0",
+    "createdAt": "2026-04-12T17:06:00.181Z",
+    "updatedAt": "2026-04-12T17:06:00.181Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:06:08.045Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_BOLUNEEBILME_0.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 2: Sayıların Bölünebilme Kuralları",
+    "content": "Krallık büyüdükçe, Bölünen Amca'nın işleri de zorlaşmaya başladı. Her yiyecek dağıtımında uzun uzun hesap yapmak yerine, daha hızlı yollar bulmaya karar verdi. İşte o zaman, 'Bölünebilme Kuralları' adı verilen sihirli formüller keşfedildi. Eğer bir yiyecek miktarı '2'ye bölünecekse, Bölünen Amca sadece son rakamına bakardı; çift ise hemen anlardı. '3'e bölünebilmesi için tüm rakamlarını toplar, toplam '3'ün katıysa tamam derdi. '4' için son iki rakamına, '5' için son rakamının '0' ya da '5' olmasına bakardı. '6' biraz daha karmaşıktı; hem '2'ye hem de '3'e bölünmesi gerekirdi. '9' için de '3' gibi tüm rakamları toplardı ama bu sefer toplamın '9'un katı olması şarttı. '10' ise en kolayıydı, son rakamı '0' olmalıydı. Zamanla daha özel kurallar da ortaya çıktı: '7' için karmaşık bir dans, '8' için son üç rakamın incelenmesi ve '11' için rakamların bir artı bir eksi toplanması gibi. Hatta bu kuralları birleştirerek '12' (3 ve 4), '15' (3 ve 5) gibi bileşik sayılarla bölünebilme yollarını da öğrendiler. Bu kurallar, Bölünen Amca'nın hayatını kolaylaştıran, sayıların derinliklerindeki mantığı ve ispatları barındıran gerçek birer hazineydi.",
+    "key_points": [
+      "2, 3, 4, 5, 6, 9 ve 10 ile bölünebilme kuralları",
+      "Özel bölünebilme kuralları: 7, 8 ve 11 ile bölünebilme",
+      "Bileşik sayılarla bölünebilme kuralları (örn: 12, 15, 18, 30, 36)",
+      "Bölünebilme kurallarının ispatları ve mantığı"
+    ],
+    "type": "story",
+    "id": "story_1776013560181_1",
+    "createdAt": "2026-04-12T17:06:00.181Z",
+    "updatedAt": "2026-04-12T17:06:00.181Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:06:08.045Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_BOLUNEEBILME_1.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 3: Bölme ve Bölünebilme ile İlgili Problemler",
+    "content": "Krallıkta her şey yoluna girmişken, Bölünen Amca'nın torunu Genç Bölünen, yeni ve karmaşık sorunlarla karşılaştı. Bazen yiyeceklerin ne kadarının dağıtıldığı değil, ne kadarının arttığı önemliydi. 'Kalanı verilen bölme problemleri' Genç Bölünen'in en çok üzerinde çalıştığı konuydu. Bir keresinde, krallığın hazinesindeki altınların 'basamak değeri'ne göre paylaştırılması gerekti. Bu da Genç Bölünen'e, bir sayının basamaklarının bölünebilme üzerindeki etkisini gösterdi. Ayrıca, 'rakamları farklı sayılarla' belirli kurallara göre bölünebilme uygulamaları da günlük hayatta sıkça karşılaştığı zorluklardandı. Bazen en az yiyecekle en çok kişiyi doyurmak, bazen de en çok yiyecekle en az kişiyi doyurmak gerekiyordu; yani 'en küçük/en büyük sayı belirleme problemleri' çözüm bekliyordu. Genç Bölünen, dedesinden öğrendiği tüm bilgileri ve keşfedilen kuralları birleştirerek, bu yeni nesil problemleri çözmeye ant içti. Her problem, ona sayıların gizemli dünyasında yeni bir kapı aralıyordu ve her çözüm, krallığın refahına katkıda bulunuyordu.",
+    "key_points": [
+      "Kalanı verilen bölme problemlerinin çözümü",
+      "Basamak değeri ve bölünebilme ilişkisi",
+      "Rakamları farklı sayılarla bölünebilme uygulamaları",
+      "En küçük/en büyük sayı belirleme problemleri"
+    ],
+    "type": "story",
+    "id": "story_1776013560181_2",
+    "createdAt": "2026-04-12T17:06:00.181Z",
+    "updatedAt": "2026-04-12T17:06:00.181Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:06:08.045Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_BOLUNEEBILME_2.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 4: Modüler Aritmetik ve Bölme İlişkisi",
+    "content": "Bir zamanlar, sayılar diyarının en bilgin matematikçisi olan Akil Hoca, öğrencilerine yeni bir sırrı açıklamak için toplanmıştı. \"Sevgili öğrencilerim,\" dedi Akil Hoca, \"Bugün sizlere, sanki bir saatin kadranında dönüyormuş gibi, sayıların tekrar eden döngülerini inceleyeceğimiz Modüler Aritmetik'i anlatacağım. Bu, sayıların belirli bir sayıya (modül) bölümünden kalanlarıyla ilgilenen büyülü bir dünya. Tıpkı haftanın günlerinin 7 günde bir tekrar etmesi gibi, sayılar da modül etrafında döner durur. Bir sayının başka bir sayıya bölümünden kalan, aslında o sayının 'kalan sınıfı'nı belirler. Örneğin, 10'u 3'e böldüğümüzde kalan 1'dir. Yani 10, mod 3'e göre 1'e denktir. Bu denklik bağıntısı sayesinde, çok büyük sayılarla uğraşmak yerine, onların küçük kalanlarıyla işlem yapabiliriz. Özellikle üslü ifadelerde karşımıza çıkan devasa sayıların kalanlarını bulmak için bu yöntem paha biçilmezdir. Bir sayının kuvvetini alıp, her adımda modüle göre kalanını bularak, karmaşık hesaplamaları basitleştirebiliriz. Tıpkı bir labirentte kestirme yol bulmak gibi, modüler aritmetik de bize kısa yollar sunar.\"",
+    "key_points": [
+      "Modüler aritmetik kavramına giriş ve tanımı",
+      "Denklik bağıntısı ve kalan sınıfları",
+      "Modüler aritmetik kullanarak kalan bulma yöntemleri",
+      "Üslü ifadelerde kalan bulma teknikleri"
+    ],
+    "type": "story",
+    "id": "story_1776013568046_0",
+    "createdAt": "2026-04-12T17:06:08.046Z",
+    "updatedAt": "2026-04-12T17:06:08.046Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:06:13.212Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_BOLUNEEBILME_3.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 5: Faktöriyel ve Bölünebilme Uygulamaları",
+    "content": "Akil Hoca, bir sonraki dersinde öğrencilerini sayılar diyarının bir başka ilginç köşesine götürdü: Faktöriyel kasabasına. \"Çocuklar,\" diye başladı, \"Faktöriyel (!), bir sayıdan 1'e kadar olan tüm tam sayıların çarpımını ifade eder. Örneğin, 5! demek, 5 x 4 x 3 x 2 x 1 demektir. Bu sayılar büyüdükçe, sonlarında beliren sıfırların sayısı da artar. İşte bu sıfırlar, aslında 10 çarpanının, yani 2 ve 5 çarpanlarının kaç kez bir araya geldiğinin bir göstergesidir. Bir faktöriel sayının sondan kaç basamağının sıfır olduğunu bulmak için, o sayıyı sürekli 5'e bölüp bölümlerin toplamını alırız. Çünkü 2 çarpanı, 5 çarpanından her zaman daha fazladır. Peki, bu devasa faktöriel ifadelerin belirli bir sayıya bölümünden kalanı nasıl buluruz? Bu da yine modüler aritmetiğin güçlerini kullanmayı gerektirir. Bazen, faktöriyelin içindeki asal çarpanların sayısı da bizlere büyük ipuçları verir. Tıpkı bir hazine avında, doğru anahtarı bulmak gibi, asal çarpanları doğru bir şekilde tespit etmek, bize bölünebilme sırlarını açığa çıkarır. Faktöriyel, sadece bir çarpım değil, içinde birçok matematiksel gizemi barındıran bir kutudur.\"",
+    "key_points": [
+      "Faktöriyel kavramı ve tanımı",
+      "Faktöriyel içeren ifadelerin sondan kaç basamağının sıfır olduğu",
+      "Faktöriyel ifadelerin belirli bir sayıya bölümünden kalan",
+      "Faktöriyel içinde asal çarpan sayısı bulma"
+    ],
+    "type": "story",
+    "id": "story_1776013568046_1",
+    "createdAt": "2026-04-12T17:06:08.046Z",
+    "updatedAt": "2026-04-12T17:06:08.046Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:06:13.212Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fstory_MAT_BOLUNEEBILME_4.mp3?alt=media"
+  }
+]

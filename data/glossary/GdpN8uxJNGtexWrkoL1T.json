@@ -1,0 +1,1621 @@
+[
+  {
+    "id": "akdeniz_iklimi",
+    "term": "Akdeniz İklimi",
+    "definition": "Yazları sıcak ve kurak, kışları ılık ve yağışlı geçen iklim tipidir. Maki bitki örtüsü yaygındır. Türkiye'de kıyı bölgelerinde görülür.",
+    "examples": [
+      "Antalya",
+      "Mersin",
+      "İzmir"
+    ],
+    "relatedTerms": [
+      "Maki",
+      "Yaz Kuraklığı",
+      "Kış Ilımanlığı"
+    ],
+    "order": 1
+  },
+  {
+    "id": "karadeniz_iklimi",
+    "term": "Karadeniz İklimi",
+    "definition": "Her mevsim yağışlı ve ılıman bir iklimdir. Yıllık sıcaklık farkı azdır. Ormanlar yaygındır.",
+    "examples": [
+      "Rize",
+      "Trabzon",
+      "Sinop"
+    ],
+    "relatedTerms": [
+      "Orografik Yağışlar",
+      "Ormanlar",
+      "Yıllık Sıcaklık Farkı Azlığı"
+    ],
+    "order": 2
+  },
+  {
+    "id": "karasal_iklim",
+    "term": "Karasal İklim",
+    "definition": "Yazları sıcak ve kurak, kışları soğuk ve kar yağışlı geçen iklim tipidir. Yıllık sıcaklık farkı fazladır. Bozkır bitki örtüsü yaygındır.",
+    "examples": [
+      "Ankara",
+      "Konya",
+      "Erzurum"
+    ],
+    "relatedTerms": [
+      "Bozkır",
+      "Yıllık Sıcaklık Farkı Fazlalığı",
+      "Sert Kışlar"
+    ],
+    "order": 3
+  },
+  {
+    "id": "maki",
+    "term": "Maki",
+    "definition": "Akdeniz ikliminin karakteristik kısa boylu, bodur ağaç ve çalı topluluğudur. Yaprakları sert ve derimsidir.",
+    "examples": [
+      "Zeytin",
+      "Defne",
+      "Kocayemiş"
+    ],
+    "relatedTerms": [
+      "Akdeniz İklimi",
+      "Kış Ilımanlığı",
+      "Kurağa Dayanıklılık"
+    ],
+    "order": 4
+  },
+  {
+    "id": "bozkır",
+    "term": "Bozkır",
+    "definition": "Karasal iklim bölgelerinde görülen, yazları kuraklığa dayanıklı otlardan oluşan bitki örtüsüdür. Genellikle tarım alanlarına dönüştürülür.",
+    "examples": [
+      "Yavşan otu",
+      "Çayır otu",
+      "Süpürge otu"
+    ],
+    "relatedTerms": [
+      "Karasal İklim",
+      "Yaz Kuraklığı",
+      "Tarım Alanları"
+    ],
+    "order": 5
+  },
+  {
+    "id": "ormanlar",
+    "term": "Ormanlar",
+    "definition": "Türkiye'nin önemli bir kısmını kaplayan, ağaç topluluklarıdır. İklim ve toprak özelliklerine göre farklı türleri bulunur.",
+    "examples": [
+      "Kızılçam ormanları",
+      "Gürgen ormanları",
+      "Köknar ormanları"
+    ],
+    "relatedTerms": [
+      "Karadeniz İklimi",
+      "Akdeniz İklimi",
+      "Biyoçeşitlilik"
+    ],
+    "order": 6
+  },
+  {
+    "id": "dağlık_alanlar",
+    "term": "Dağlık Alanlar",
+    "definition": "Yüksekliğin fazla olduğu, engebeli arazilerdir. İklim ve bitki örtüsü çeşitliliği fazladır.",
+    "examples": [
+      "Toros Dağları",
+      "Kaçkar Dağları",
+      "Doğu Anadolu Dağları"
+    ],
+    "relatedTerms": [
+      "Yükseklik",
+      "Engebe",
+      "İklim Çeşitliliği"
+    ],
+    "order": 7
+  },
+  {
+    "id": "ovalar",
+    "term": "Ovalar",
+    "definition": "Düz ve geniş arazilerdir. Tarım ve yerleşim için elverişlidir. Akarsu biriktirmeleriyle oluşabilir.",
+    "examples": [
+      "Çukurova Ovası",
+      "Bafra Ovası",
+      "Ergene Ovası"
+    ],
+    "relatedTerms": [
+      "Düz Arazi",
+      "Tarım",
+      "Yerleşim"
+    ],
+    "order": 8
+  },
+  {
+    "id": "platolar",
+    "term": "Platolar",
+    "definition": "Çevresine göre yüksekte kalmış, düz veya hafif engebeli geniş alanlardır. Genellikle hayvancılık yapılır.",
+    "examples": [
+      "Anadolu Platosu",
+      "Teke Platosu",
+      "Erzurum-Kars Platosu"
+    ],
+    "relatedTerms": [
+      "Yüksek Alan",
+      "Düz Yüzey",
+      "Hayvancılık"
+    ],
+    "order": 9
+  },
+  {
+    "id": "tektonik_olaylar",
+    "term": "Tektonik Olaylar",
+    "definition": "Yer kabuğundaki hareketler sonucu oluşan depremler, volkanizma gibi olaylardır. Türkiye'nin jeolojik yapısını şekillendirir.",
+    "examples": [
+      "1999 Gölcük Depremi",
+      "Nemrut Dağı Volkanizması",
+      "Ege Grabeni"
+    ],
+    "relatedTerms": [
+      "Deprem",
+      "Volkanizma",
+      "Yer Kabuğu"
+    ],
+    "order": 10
+  },
+  {
+    "id": "erozyon",
+    "term": "Erozyon",
+    "definition": "Toprağın rüzgar ve su tarafından taşınarak aşındırılmasıdır. Türkiye'de önemli bir çevre sorunudur.",
+    "examples": [
+      "Çoraklaşma",
+      "Toprak Kaybı",
+      "Menderes Çizgileri"
+    ],
+    "relatedTerms": [
+      "Su",
+      "Rüzgar",
+      "Toprak Kaybı"
+    ],
+    "order": 11
+  },
+  {
+    "id": "jeotermal_enerji",
+    "term": "Jeotermal Enerji",
+    "definition": "Yer altı sıcak su ve buharından elde edilen enerji türüdür. Türkiye'de önemli potansiyele sahiptir.",
+    "examples": [
+      "Denizli Sarayköy",
+      "Aydın Germencik",
+      "Manisa Salihli"
+    ],
+    "relatedTerms": [
+      "Yer Altı Sıcak Suları",
+      "Enerji Kaynağı",
+      "Tektonik Aktiflik"
+    ],
+    "order": 12
+  },
+  {
+    "id": "hidroelektrik_enerji",
+    "term": "Hidroelektrik Enerji",
+    "definition": "Su gücünden yararlanılarak üretilen enerji türüdür. Barajlar aracılığıyla elde edilir.",
+    "examples": [
+      "Atatürk Barajı",
+      "Keban Barajı",
+      "Karakaya Barajı"
+    ],
+    "relatedTerms": [
+      "Baraj",
+      "Akarsu",
+      "Enerji Üretimi"
+    ],
+    "order": 13
+  },
+  {
+    "id": "tarım_alanlari",
+    "term": "Tarım Alanları",
+    "definition": "Tarımsal üretimin yapıldığı arazilerdir. Ovalar ve platolar tarım için elverişlidir.",
+    "examples": [
+      "Buğday tarlaları",
+      "Pamuk tarlaları",
+      "Meyve bahçeleri"
+    ],
+    "relatedTerms": [
+      "Ovalar",
+      "Platolar",
+      "Tarımsal Üretim"
+    ],
+    "order": 14
+  },
+  {
+    "id": "sanayi_bölgeleri",
+    "term": "Sanayi Bölgeleri",
+    "definition": "Sanayi tesislerinin yoğunlaştığı alanlardır. Ulaşım, enerji ve iş gücü imkanları önemlidir.",
+    "examples": [
+      "Marmara Bölgesi Sanayi Alanları",
+      "Ege Bölgesi Sanayi Alanları",
+      "İç Anadolu Sanayi Alanları"
+    ],
+    "relatedTerms": [
+      "Sanayi Tesisleri",
+      "Ulaşım",
+      "İş Gücü"
+    ],
+    "order": 15
+  },
+  {
+    "id": "turizm_potansiyeli",
+    "term": "Turizm Potansiyeli",
+    "definition": "Turistik çekiciliği olan doğal ve kültürel varlıkların bulunduğu alanlardır. Deniz, tarih, doğa turizmi yaygındır.",
+    "examples": [
+      "Antalya Sahilleri",
+      "Kapadokya",
+      "İstanbul Tarihi Yarımada"
+    ],
+    "relatedTerms": [
+      "Doğal Güzellikler",
+      "Tarihi Yerler",
+      "Kültürel Varlıklar"
+    ],
+    "order": 16
+  },
+  {
+    "id": "yer_sekilleri",
+    "term": "Yer Şekilleri",
+    "definition": "Yeryüzünün doğal olarak oluşan çeşitli biçimleridir. Dağlar, ovalar, platolar, vadiler gibi.",
+    "examples": [
+      "Toroslar",
+      "Çukurova",
+      "Fırat Vadisi"
+    ],
+    "relatedTerms": [
+      "Dağ",
+      "Ova",
+      "Plato",
+      "Vadi"
+    ],
+    "order": 17
+  },
+  {
+    "id": "iklim_tipleri",
+    "term": "İklim Tipleri",
+    "definition": "Belirli bir bölgedeki uzun süreli hava durumu ortalamalarıdır. Akdeniz, Karadeniz, Karasal iklim gibi.",
+    "examples": [
+      "Akdeniz İklimi",
+      "Karadeniz İklimi",
+      "Karasal İklim"
+    ],
+    "relatedTerms": [
+      "Sıcaklık",
+      "Yağış",
+      "Rüzgar"
+    ],
+    "order": 18
+  },
+  {
+    "id": "bitki_ortusu",
+    "term": "Bitki Örtüsü",
+    "definition": "Bir bölgede doğal olarak yetişen bitkilerin tümüdür. Maki, orman, bozkır gibi.",
+    "examples": [
+      "Maki",
+      "Orman",
+      "Bozkır"
+    ],
+    "relatedTerms": [
+      "İklim",
+      "Toprak",
+      "Yükseklik"
+    ],
+    "order": 19
+  },
+  {
+    "id": "yerlesme_dokusu",
+    "term": "Yerleşme Dokusu",
+    "definition": "İnsanların yerleşim alanlarının coğrafi dağılımı ve yapısıdır. Kırsal ve kentsel yerleşmeler.",
+    "examples": [
+      "Köy",
+      "Kasaba",
+      "Şehir"
+    ],
+    "relatedTerms": [
+      "Kırsal Yerleşme",
+      "Kentsel Yerleşme",
+      "Nüfus"
+    ],
+    "order": 20
+  },
+  {
+    "id": "dogu_anadolu_bolgesi_ozellikleri",
+    "term": "Doğu Anadolu Bölgesi Özellikleri",
+    "definition": "Türkiye'nin en doğusunda yer alan, yüksek ve engebeli arazi yapısıyla dikkat çeken bölgedir. Sert karasal iklimin hakim olduğu bölgede yazlar kısa ve serin, kışlar ise uzun ve kar yağışlı geçer. Hayvancılık bölge ekonomisinde önemli bir yere sahiptir.",
+    "examples": [
+      "Erzurum-Kars Platosu",
+      "Van Gölü",
+      "Ağrı Dağı"
+    ],
+    "relatedTerms": [
+      "Yüksek Platolar",
+      "Sert Karasal İklim",
+      "Hayvancılık"
+    ],
+    "order": 21
+  },
+  {
+    "id": "guneydogu_anadolu_bolgesi_ozellikleri",
+    "term": "Güneydoğu Anadolu Bölgesi Özellikleri",
+    "definition": "Türkiye'nin güneyinde yer alan, düz ve geniş ovalarıyla bilinen bölgedir. Yazları çok sıcak ve kurak, kışları ise ılık ve yağışlı geçer. GAP (Güneydoğu Anadolu Projesi) ile tarım ve sanayide önemli gelişmeler yaşanmıştır.",
+    "examples": [
+      "Fırat Nehri",
+      "Dicle Nehri",
+      "Mardin Eşiği"
+    ],
+    "relatedTerms": [
+      "GAP Projesi",
+      "Sıcak Çöl İklimi Etkisi",
+      "Tarımsal Sulama"
+    ],
+    "order": 22
+  },
+  {
+    "id": "ic_anadolu_bolgesi_ozellikleri",
+    "term": "İç Anadolu Bölgesi Özellikleri",
+    "definition": "Türkiye'nin orta kesiminde yer alan, geniş platolar ve bozkır bitki örtüsüyle karakterize edilen bölgedir. Yazları kurak ve sıcak, kışları ise soğuk ve kar yağışlıdır. Tahıl tarımı ve hayvancılık ön plandadır.",
+    "examples": [
+      "Konya Ovası",
+      "Tuz Gölü",
+      "Ankara Platosu"
+    ],
+    "relatedTerms": [
+      "Bozkır",
+      "Karasal İklim",
+      "Tahıl Tarımı"
+    ],
+    "order": 23
+  },
+  {
+    "id": "marmara_bolgesi_ozellikleri",
+    "term": "Marmara Bölgesi Özellikleri",
+    "definition": "Türkiye'nin kuzeybatısında yer alan, hem Karadeniz hem de Akdeniz iklimlerinin geçiş özelliklerini taşıyan bölgedir. Sanayi, ticaret ve nüfus yoğunluğunun en fazla olduğu bölgedir. Tarım alanları da oldukça çeşitlidir.",
+    "examples": [
+      "İstanbul",
+      "Çanakkale Boğazı",
+      "Bursa Ovası"
+    ],
+    "relatedTerms": [
+      "Geçiş İklimi",
+      "Sanayi Bölgeleri",
+      "Nüfus Yoğunluğu"
+    ],
+    "order": 24
+  },
+  {
+    "id": "ege_bolgesi_ozellikleri",
+    "term": "Ege Bölgesi Özellikleri",
+    "definition": "Türkiye'nin batısında yer alan, kıyı şeridinin girintili çıkıntılı olması ve dağların denize dik uzanmasıyla bilinen bölgedir. Akdeniz iklimi hakimdir. Zeytincilik, pamuk ve bağcılık gibi tarım ürünleri ön plandadır.",
+    "examples": [
+      "Gediz Nehri",
+      "Büyük Menderes Nehri",
+      "İzmir Körfezi"
+    ],
+    "relatedTerms": [
+      "Akdeniz İklimi",
+      "Zeytincilik",
+      "Dağların Denize Dik Uzaması"
+    ],
+    "order": 25
+  },
+  {
+    "id": "karadeniz_bolgesi_ozellikleri",
+    "term": "Karadeniz Bölgesi Özellikleri",
+    "definition": "Türkiye'nin kuzeyinde yer alan, dağların denize paralel uzanması ve bol yağış almasıyla bilinen bölgedir. Karadeniz iklimi hakimdir. Ormanlar ve tarım alanları geniştir. Fındık üretimi ön plandadır.",
+    "examples": [
+      "Kaçkar Dağları",
+      "Yeşilırmak",
+      "Bafra Ovası"
+    ],
+    "relatedTerms": [
+      "Karadeniz İklimi",
+      "Ormanlar",
+      "Fındık Üretimi"
+    ],
+    "order": 26
+  },
+  {
+    "id": "akdeniz_bolgesi_ozellikleri",
+    "term": "Akdeniz Bölgesi Özellikleri",
+    "definition": "Türkiye'nin güneyinde yer alan, kıyı şeridinde Akdeniz ikliminin, iç kesimlerinde ise karasal iklimin görüldüğü bölgedir. Dağların denize paralel uzanması belirgindir. Turunçgiller, pamuk ve sebze tarımı yaygındır.",
+    "examples": [
+      "Toros Dağları",
+      "Seyhan Nehri",
+      "Çukurova Ovası"
+    ],
+    "relatedTerms": [
+      "Akdeniz İklimi",
+      "Karasal İklim Geçişi",
+      "Turunçgil Tarımı"
+    ],
+    "order": 27
+  },
+  {
+    "id": "dogu_karadeniz_bolumu_ozellikleri",
+    "term": "Doğu Karadeniz Bölümü Özellikleri",
+    "definition": "Karadeniz Bölgesi'nin doğusunda yer alan, yüksek dağlar ve sık ormanlarla kaplıdır. Bol yağış alır ve yaylacılık kültürü yaygındır. Rize ve Trabzon çevresi çay tarımıyla öne çıkar.",
+    "examples": [
+      "Kaçkar Dağları Milli Parkı",
+      "Fırtına Vadisi",
+      "Ayder Yaylası"
+    ],
+    "relatedTerms": [
+      "Yüksek Dağlar",
+      "Yaylacılık",
+      "Çay Tarımı"
+    ],
+    "order": 28
+  },
+  {
+    "id": "bati_karadeniz_bolumu_ozellikleri",
+    "term": "Batı Karadeniz Bölümü Özellikleri",
+    "definition": "Karadeniz Bölgesi'nin batısında yer alan, kıyı kesiminde ormanlar, iç kesimlerinde ise daha çok platolar ve dağlık alanlar bulunur. Zonguldak çevresi taşkömürü yataklarıyla önemlidir.",
+    "examples": [
+      "Kastamonu Ormanları",
+      "Yedigöller Milli Parkı",
+      "Zonguldak Taşkömürü Havzası"
+    ],
+    "relatedTerms": [
+      "Orman Varlığı",
+      "Taşkömürü",
+      "Platolar"
+    ],
+    "order": 29
+  },
+  {
+    "id": "orta_karadeniz_bolumu_ozellikleri",
+    "term": "Orta Karadeniz Bölümü Özellikleri",
+    "definition": "Karadeniz Bölgesi'nin orta kesiminde yer alan, kıyı şeridinde genişleyerek Bafra ve Çarşamba gibi deltaları oluşturan bölümdür. Tarım alanları geniştir ve sanayi gelişmiştir.",
+    "examples": [
+      "Bafra Ovası",
+      "Çarşamba Ovası",
+      "Samsun Limanı"
+    ],
+    "relatedTerms": [
+      "Delta Ovaları",
+      "Tarım Alanları",
+      "Sanayi"
+    ],
+    "order": 30
+  },
+  {
+    "id": "yuzey_sekilleri_cesitlidi",
+    "term": "Yüzey Şekilleri Çeşitliliği",
+    "definition": "Türkiye'nin coğrafi bölgelerinde dağlar, platolar, ovalar, vadiler ve göller gibi çok çeşitli yer şekilleri bulunur. Bu çeşitlilik, iklim ve bitki örtüsü üzerinde doğrudan etkilidir.",
+    "examples": [
+      "Toros Dağları",
+      "Konya Ovası",
+      "Van Gölü"
+    ],
+    "relatedTerms": [
+      "Yer Şekilleri",
+      "Topografya",
+      "Jeomorfoloji"
+    ],
+    "order": 31
+  },
+  {
+    "id": "iklim_tipleri_dagilimi",
+    "term": "İklim Tipleri Dağılımı",
+    "definition": "Türkiye'de kıyı bölgelerinde ılıman iklimler (Akdeniz, Karadeniz), iç bölgelerde ise karasal iklimler görülür. Yükselti ve bakı gibi faktörler iklim tiplerinin dağılımını etkiler.",
+    "examples": [
+      "Akdeniz İklimi",
+      "Karasal İklim",
+      "Karadeniz İklimi"
+    ],
+    "relatedTerms": [
+      "İklim Tipleri",
+      "Yağış Rejimi",
+      "Sıcaklık Dağılışı"
+    ],
+    "order": 32
+  },
+  {
+    "id": "bitki_ortusu_cesitlidi",
+    "term": "Bitki Örtüsü Çeşitliliği",
+    "definition": "İklim ve yer şekillerinin etkisiyle Türkiye'de ormanlar, bozkırlar, makiler ve dağ çayırları gibi farklı bitki örtüsü tipleri görülür. Bu çeşitlilik, biyoçeşitlilik açısından önemlidir.",
+    "examples": [
+      "Maki",
+      "Bozkır",
+      "Ormanlar"
+    ],
+    "relatedTerms": [
+      "Bitki Örtüsü",
+      "Flora",
+      "Vejetasyon"
+    ],
+    "order": 33
+  },
+  {
+    "id": "tarimsal_yapı",
+    "term": "Tarımsal Yapı",
+    "definition": "Bölgesel farklılıklar gösteren tarımsal yapıda, iklim ve toprak özelliklerine göre tahıllar, sanayi bitkileri, meyve ve sebzeler ön plana çıkar. Sulama olanakları tarımsal üretimi doğrudan etkiler.",
+    "examples": [
+      "Tahıl Tarımı",
+      "Zeytincilik",
+      "Pamuk Yetiştiriciliği"
+    ],
+    "relatedTerms": [
+      "Tarım Alanları",
+      "Tarımsal Üretim",
+      "Sulama"
+    ],
+    "order": 34
+  },
+  {
+    "id": "sanayi_tesisleri_konumu",
+    "term": "Sanayi Tesisleri Konumu",
+    "definition": "Sanayi tesisleri genellikle hammadde kaynaklarına yakınlık, ulaşım olanakları ve pazar çeşitliliği gibi faktörlere göre bölgelere yerleşmiştir. Marmara ve Ege bölgeleri sanayi açısından gelişmiştir.",
+    "examples": [
+      "Otomotiv Sanayi",
+      "Tekstil Sanayi",
+      "Gıda Sanayi"
+    ],
+    "relatedTerms": [
+      "Sanayi Bölgeleri",
+      "Endüstriyel Gelişme",
+      "Ulaşım Ağları"
+    ],
+    "order": 35
+  },
+  {
+    "id": "turizm_aktiviteleri",
+    "term": "Turizm Aktiviteleri",
+    "definition": "Türkiye'nin coğrafi bölgeleri, doğal güzellikleri, tarihi ve kültürel mirası sayesinde çeşitli turizm aktivitelerine ev sahipliği yapar. Kış, yaz, kültür ve sağlık turizmi gibi alanlarda potansiyel yüksektir.",
+    "examples": [
+      "Deniz Turizmi",
+      "Kış Turizmi",
+      "Kültür Turizmi"
+    ],
+    "relatedTerms": [
+      "Turizm Potansiyeli",
+      "Doğal Güzellikler",
+      "Tarihi Mekanlar"
+    ],
+    "order": 36
+  },
+  {
+    "id": "enerji_kaynaklari",
+    "term": "Enerji Kaynakları",
+    "definition": "Türkiye'nin farklı bölgelerinde jeotermal, hidroelektrik, rüzgar ve güneş enerjisi gibi yenilenebilir enerji kaynakları potansiyeli bulunmaktadır. Fosil yakıtlar ise belirli bölgelerde yoğunlaşmıştır.",
+    "examples": [
+      "Jeotermal Enerji",
+      "Hidroelektrik Enerji",
+      "Rüzgar Enerjisi"
+    ],
+    "relatedTerms": [
+      "Enerji Üretimi",
+      "Yenilenebilir Enerji",
+      "Fosil Yakıtlar"
+    ],
+    "order": 37
+  },
+  {
+    "id": "yerlesme_dokusu_cesitlidi",
+    "term": "Yerleşme Dokusu Çeşitliliği",
+    "definition": "Yerleşme dokusu, coğrafi koşullara, ekonomik faaliyetlere ve tarihi gelişime bağlı olarak farklılık gösterir. Kırsal ve kentsel yerleşmeler, dağınık ve toplu yerleşmeler gibi çeşitlilikler bulunur.",
+    "examples": [
+      "Dağınık Yerleşme",
+      "Toplu Yerleşme",
+      "Kırsal Yerleşme"
+    ],
+    "relatedTerms": [
+      "Yerleşme Dokusu",
+      "Şehirleşme",
+      "Köy Yerleşmeleri"
+    ],
+    "order": 38
+  },
+  {
+    "id": "dogal_afetler",
+    "term": "Doğal Afetler",
+    "definition": "Türkiye'nin jeolojik konumu nedeniyle deprem, sel, heyelan ve erozyon gibi doğal afetler sıkça yaşanmaktadır. Bu afetler, yerleşim ve ekonomik faaliyetleri olumsuz etkileyebilir.",
+    "examples": [
+      "Depremler",
+      "Seller",
+      "Heyelanlar"
+    ],
+    "relatedTerms": [
+      "Tektonik Olaylar",
+      "Erozyon",
+      "Afet Yönetimi"
+    ],
+    "order": 39
+  },
+  {
+    "id": "su_kaynaklari_ve_havzalari",
+    "term": "Su Kaynakları ve Havzaları",
+    "definition": "Türkiye'nin akarsu, göl ve yeraltı su kaynakları bölgelere göre farklılık gösterir. Bu su kaynakları tarım, sanayi ve enerji üretimi için büyük önem taşır.",
+    "examples": [
+      "Fırat-Dicle Havzası",
+      "Tuz Gölü",
+      "Karadeniz Akarsuları"
+    ],
+    "relatedTerms": [
+      "Akarsu Ağı",
+      "Göl Tipleri",
+      "Su Potansiyeli"
+    ],
+    "order": 40
+  },
+  {
+    "id": "bolge_sinirlari",
+    "term": "Bölge Sınırları",
+    "definition": "Türkiye'nin coğrafi bölgeleri, doğal ve beşeri unsurların benzerlik gösterdiği alanları kapsayan sınırlarla belirlenir. Bu sınırlar genellikle fiziki coğrafya (yer şekilleri, iklim, bitki örtüsü) ve beşeri coğrafya (ekonomik faaliyetler, nüfus dağılımı) özelliklerine göre çizilir. Bölge sınırları kesin ve değişmez olmayıp, bilimsel çalışmalara göre farklılık gösterebilir.",
+    "examples": [
+      "Marmara Bölgesi'nin güney sınırı",
+      "İç Anadolu Bölgesi'nin doğu sınırı",
+      "Akdeniz Bölgesi'nin kuzey sınırı"
+    ],
+    "relatedTerms": [
+      "Bölge Sınıflandırması",
+      "Fiziki Coğrafya",
+      "Beşeri Coğrafya"
+    ],
+    "order": 41
+  },
+  {
+    "id": "iklim_tipleri_gecis",
+    "term": "İklim Tipleri Geçişleri",
+    "definition": "Farklı iklim tiplerinin bir arada görüldüğü alanlarda, iklim özelliklerinin kademeli olarak değişmesi durumudur. Bu geçişler, özellikle bölgelerin sınırlarında veya yüksekliğe bağlı olarak belirginleşir. Türkiye'de karasal iklimden Akdeniz iklimine geçişler buna örnektir.",
+    "examples": [
+      "İç Anadolu'dan Akdeniz'e geçişte görülen iklim özellikleri",
+      "Yüksek dağlık alanlarda görülen iklim kuşakları",
+      "Ege kıyılarından iç kesimlere doğru iklimin değişimi"
+    ],
+    "relatedTerms": [
+      "İklim Bölgeleri",
+      "Yükselti Etkisi",
+      "Enlem Etkisi"
+    ],
+    "order": 42
+  },
+  {
+    "id": "yer_sekilleri_etkilesimi",
+    "term": "Yer Şekilleri Etkileşimi",
+    "definition": "Türkiye'nin çeşitli yer şekillerinin (dağlar, platolar, ovalar) iklim, bitki örtüsü ve ekonomik faaliyetler üzerindeki karşılıklı etkileşimini ifade eder. Örneğin, dağların uzanışı deniz etkisinin iç kesimlere ulaşmasını engellerken, ovalar tarımsal faaliyetler için elverişli alanlar sunar.",
+    "examples": [
+      "Toros Dağları'nın Akdeniz iklimini etkilemesi",
+      "Anadolu Platosu'nun karasal iklimi belirlemesi",
+      "Gediz Deltası'nın tarım ve biyoçeşitlilik üzerindeki etkisi"
+    ],
+    "relatedTerms": [
+      "Yer Şekilleri",
+      "İklim",
+      "Bitki Örtüsü",
+      "Ekonomik Faaliyetler"
+    ],
+    "order": 43
+  },
+  {
+    "id": "su_kaynaklari_bolgesel",
+    "term": "Su Kaynakları ve Bölgesel Dağılımı",
+    "definition": "Türkiye'nin akarsuları, gölleri ve yeraltı sularının bölgelere göre dağılımını ve bu kaynakların bölgesel ekonomik ve yaşamsal önemi. Her bölgenin kendine özgü su kaynakları ve bu kaynakların kullanım biçimleri farklılık gösterir.",
+    "examples": [
+      "Fırat ve Dicle Havzası",
+      "Van Gölü'nün özellikleri",
+      "Ege Bölgesi'ndeki akarsu rejimleri"
+    ],
+    "relatedTerms": [
+      "Akarsu Havzaları",
+      "Göl Tipleri",
+      "Yeraltı Suları",
+      "Su Potansiyeli"
+    ],
+    "order": 44
+  },
+  {
+    "id": "tarimsal_cesitlilik",
+    "term": "Tarımsal Çeşitlilik",
+    "definition": "Farklı iklim ve yer şekilleri özelliklerine sahip bölgelerde yetişen tarım ürünlerinin çeşitliliği. Bu çeşitlilik, bölgelerin tarımsal üretim yapısını ve ekonomik potansiyelini belirler.",
+    "examples": [
+      "Marmara Bölgesi'nde ayçiçeği ve buğday üretimi",
+      "Doğu Anadolu Bölgesi'nde hayvancılık ve tahıl üretimi",
+      "Çukurova'da pamuk üretimi"
+    ],
+    "relatedTerms": [
+      "Tarım Ürünleri",
+      "İklim Etkisi",
+      "Toprak Yapısı",
+      "Sulama İmkanları"
+    ],
+    "order": 45
+  },
+  {
+    "id": "sanayi_dagilimi",
+    "term": "Sanayi Dağılımı ve Özellikleri",
+    "definition": "Türkiye'deki sanayi tesislerinin bölgelere göre yoğunlaştığı alanlar ve bu bölgelerin sanayi kolları. Sanayinin dağılımı, hammadde kaynakları, ulaşım olanakları ve pazar yakınlığı gibi faktörlere bağlıdır.",
+    "examples": [
+      "İstanbul ve çevresindeki sanayi kolları",
+      "İzmir'deki sanayi tesisleri",
+      "Kayseri'deki sanayi üretimi"
+    ],
+    "relatedTerms": [
+      "Sanayi Kolları",
+      "Ulaşım Ağları",
+      "Pazar Yapısı",
+      "Enerji Kaynakları"
+    ],
+    "order": 46
+  },
+  {
+    "id": "turizm_potansiyeli_bolgesel",
+    "term": "Bölgesel Turizm Potansiyeli",
+    "definition": "Her coğrafi bölgenin sahip olduğu doğal ve kültürel turizm değerlerinin çeşitliliği ve bu değerlerin turizm potansiyeli üzerindeki etkisi. Bu potansiyel, deniz turizmi, kış turizmi, kültür turizmi gibi farklı alanlarda kendini gösterir.",
+    "examples": [
+      "Antalya'nın turizm çeşitliliği",
+      "Kapadokya'nın turistik önemi",
+      "Karadeniz yaylalarının turizm potansiyeli"
+    ],
+    "relatedTerms": [
+      "Turizm Çeşitleri",
+      "Kültürel Miras",
+      "Doğal Güzellikler",
+      "Ulaşım Altyapısı"
+    ],
+    "order": 47
+  },
+  {
+    "id": "yerlesme_dokusu_bolgesel",
+    "term": "Bölgesel Yerleşme Dokusu",
+    "definition": "Türkiye'nin coğrafi bölgelerindeki yerleşmelerin (kırsal ve kentsel) coğrafi koşullara, ekonomik faaliyetlere ve kültürel özelliklere göre farklılık gösteren dokusu. Bu doku, yerleşmelerin büyüklüğü, yoğunluğu ve biçimiyle ilgilidir.",
+    "examples": [
+      "Ege'deki kıyı yerleşmeleri",
+      "Doğu Anadolu'daki dağınık kırsal yerleşmeler",
+      "Marmara'daki metropoliten yerleşme dokusu"
+    ],
+    "relatedTerms": [
+      "Yerleşme Tipleri",
+      "Nüfus Yoğunluğu",
+      "Kırsal Yerleşme",
+      "Kentsel Yerleşme"
+    ],
+    "order": 48
+  },
+  {
+    "id": "dogal_afetler_bolgesel",
+    "term": "Bölgesel Doğal Afetler",
+    "definition": "Türkiye'nin coğrafi bölgelerinde sıkça görülen doğal afetlerin (deprem, sel, heyelan, kuraklık vb.) bölgesel dağılımı ve bu afetlerin neden olduğu sonuçlar. Her bölgenin jeolojik yapısı ve iklim özellikleri farklı afet riskleri taşır.",
+    "examples": [
+      "Ege Bölgesi'nde deprem riski",
+      "Karadeniz Bölgesi'nde heyelan riski",
+      "Güneydoğu Anadolu'da kuraklık"
+    ],
+    "relatedTerms": [
+      "Depremsellik",
+      "Heyelan",
+      "Sel",
+      "Kuraklık"
+    ],
+    "order": 49
+  },
+  {
+    "id": "enerji_kaynaklari_dagilimi",
+    "term": "Enerji Kaynakları ve Bölgesel Dağılımı",
+    "definition": "Türkiye'nin enerji kaynaklarının (kömür, petrol, doğalgaz, jeotermal, hidroelektrik vb.) bölgelere göre dağılımı ve bu kaynakların bölgesel enerji üretimi ve tüketimi üzerindeki etkisi.",
+    "examples": [
+      "Doğu Anadolu'daki linyit yatakları",
+      "Marmara Bölgesi'ndeki petrol rafinerileri",
+      "Batı Karadeniz'deki hidroelektrik santraller"
+    ],
+    "relatedTerms": [
+      "Yenilenebilir Enerji",
+      "Yenilenemez Enerji",
+      "Enerji Üretimi",
+      "Enerji Tüketimi"
+    ],
+    "order": 50
+  },
+  {
+    "id": "bolgesel_iklim_ozellikleri",
+    "term": "Bölgesel İklim Özellikleri",
+    "definition": "Her coğrafi bölgenin kendine özgü iklim özelliklerinin (sıcaklık, yağış, rüzgar vb.) detaylı analizi. Bu özellikler, bölgenin bitki örtüsü, tarımsal potansiyeli ve doğal yaşamı üzerinde doğrudan etkilidir.",
+    "examples": [
+      "Akdeniz Bölgesi'nde yaz kuraklığı",
+      "Karadeniz Bölgesi'nde bol yağış",
+      "İç Anadolu'da karasal iklimin belirginliği"
+    ],
+    "relatedTerms": [
+      "Sıcaklık Dağılışı",
+      "Yağış Rejimi",
+      "Rüzgar Sistemleri",
+      "İklim Tipleri"
+    ],
+    "order": 51
+  },
+  {
+    "id": "yer_sekilleri_cesitliligi_bolgesel",
+    "term": "Bölgesel Yer Şekilleri Çeşitliliği",
+    "definition": "Her coğrafi bölgenin sahip olduğu yer şekillerinin (dağlar, platolar, ovalar, vadiler, deltalar vb.) çeşitliliği ve bu çeşitliliğin bölgesel coğrafya üzerindeki etkisi. Bu çeşitlilik, doğal kaynakların dağılımını ve ekonomik faaliyetleri şekillendirir.",
+    "examples": [
+      "Ege Bölgesi'ndeki dağların denize dik uzanışı",
+      "İç Anadolu'daki geniş platolar",
+      "Karadeniz Bölgesi'ndeki dağlık ve engebeli arazi"
+    ],
+    "relatedTerms": [
+      "Dağ Sistemleri",
+      "Plato Yapısı",
+      "Ova Oluşumu",
+      "Vadi Tipleri"
+    ],
+    "order": 52
+  },
+  {
+    "id": "bitki_ortusu_bolgesel",
+    "term": "Bölgesel Bitki Örtüsü",
+    "definition": "Her coğrafi bölgenin iklim, toprak ve yer şekilleri koşullarına bağlı olarak gelişen bitki örtüsü türleri (ormanlar, otlaklar, çayırlar, makiler vb.). Bu örtü, bölgenin doğal dengesi ve ekonomik kullanımı açısından önemlidir.",
+    "examples": [
+      "Akdeniz Bölgesi'ndeki maki toplulukları",
+      "Karadeniz Bölgesi'ndeki ormanlar",
+      "İç Anadolu'daki bozkırlar"
+    ],
+    "relatedTerms": [
+      "Maki",
+      "Bozkır",
+      "Ormanlar",
+      "Çayırlar"
+    ],
+    "order": 53
+  },
+  {
+    "id": "tarimsal_yapı_bolgesel",
+    "term": "Bölgesel Tarımsal Yapı",
+    "definition": "Her coğrafi bölgenin tarımsal üretimde öne çıkan ürünleri, üretim yöntemleri ve tarımsal organizasyon yapısı. Bu yapı, bölgenin iklimi, toprağı ve pazar koşullarına göre şekillenir.",
+    "examples": [
+      "Ege Bölgesi'nde zeytincilik ve pamuk üretimi",
+      "İç Anadolu'da tahıl tarımı ve hayvancılık",
+      "Marmara Bölgesi'nde sanayiye yönelik tarım"
+    ],
+    "relatedTerms": [
+      "Tarımsal Ürünler",
+      "Tarım Yöntemleri",
+      "Sulama",
+      "Pazar"
+    ],
+    "order": 54
+  },
+  {
+    "id": "sanayi_tesisleri_konumu_bolgesel",
+    "term": "Bölgesel Sanayi Tesisleri Konumu",
+    "definition": "Sanayi tesislerinin bölgelerdeki dağılımını etkileyen faktörler (hammaddeye yakınlık, ulaşım, iş gücü, pazar vb.) ve bu faktörlerin bölgesel sanayi yapısını nasıl şekillendirdiği.",
+    "examples": [
+      "Zonguldak'taki kömüre dayalı sanayi",
+      "İzmir'deki limana dayalı sanayi",
+      "Gaziantep'teki tekstil sanayi"
+    ],
+    "relatedTerms": [
+      "Hammadde Kaynakları",
+      "Ulaşım Ağları",
+      "Pazar Erişimi",
+      "İş Gücü"
+    ],
+    "order": 55
+  },
+  {
+    "id": "turizm_aktiviteleri_bolgesel",
+    "term": "Bölgesel Turizm Aktiviteleri",
+    "definition": "Her coğrafi bölgenin sunduğu farklı turizm aktiviteleri (deniz, kış, kültür, doğa, spor turizmi vb.) ve bu aktivitelerin bölgesel turizm ekonomisi üzerindeki etkisi.",
+    "examples": [
+      "Akdeniz'de su sporları",
+      "Doğu Anadolu'da kış sporları",
+      "Ege'de tarihi ve kültürel geziler"
+    ],
+    "relatedTerms": [
+      "Deniz Turizmi",
+      "Kış Turizmi",
+      "Kültür Turizmi",
+      "Doğa Turizmi"
+    ],
+    "order": 56
+  },
+  {
+    "id": "enerji_kaynaklari_bolgesel",
+    "term": "Bölgesel Enerji Kaynakları",
+    "definition": "Her coğrafi bölgenin sahip olduğu yerli enerji kaynaklarının (hidroelektrik, jeotermal, linyit, rüzgar vb.) dağılımı ve bu kaynakların bölgesel enerji üretimi ve tüketimindeki rolü.",
+    "examples": [
+      "Batı Anadolu'da jeotermal enerji",
+      "Doğu Anadolu'da hidroelektrik potansiyeli",
+      "Karadeniz'de rüzgar enerjisi potansiyeli"
+    ],
+    "relatedTerms": [
+      "Hidroelektrik Enerji",
+      "Jeotermal Enerji",
+      "Rüzgar Enerjisi",
+      "Linyit"
+    ],
+    "order": 57
+  },
+  {
+    "id": "yerlesme_dokusu_cesitliligi_bolgesel",
+    "term": "Bölgesel Yerleşme Dokusu Çeşitliliği",
+    "definition": "Türkiye'nin coğrafi bölgelerindeki yerleşmelerin (kırsal ve kentsel) coğrafi, ekonomik ve kültürel etkenlere bağlı olarak gösterdiği farklı doku özellikleri ve bu çeşitliliğin bölgesel kalkınma üzerindeki etkileri.",
+    "examples": [
+      "Trakya'daki tarım ve sanayi yerleşmeleri",
+      "Doğu Anadolu'daki dağınık ve toplu kırsal yerleşmeler",
+      "Ege'deki kıyı ve iç kesim yerleşmeleri"
+    ],
+    "relatedTerms": [
+      "Yerleşme Tipleri",
+      "Nüfus Dağılımı",
+      "Kırsal Yerleşme",
+      "Kentsel Yerleşme"
+    ],
+    "order": 58
+  },
+  {
+    "id": "dogal_afetler_riski_bolgesel",
+    "term": "Bölgesel Doğal Afet Riskleri",
+    "definition": "Her coğrafi bölgenin jeolojik yapısı, iklimi ve coğrafi konumu nedeniyle maruz kaldığı farklı doğal afet riskleri (deprem, sel, heyelan, çığ, kuraklık vb.) ve bu risklerin azaltılmasına yönelik önlemler.",
+    "examples": [
+      "Marmara Bölgesi'nde deprem riski",
+      "Karadeniz'de sel ve heyelan riski",
+      "İç Anadolu'da kuraklık riski"
+    ],
+    "relatedTerms": [
+      "Deprem Kuşakları",
+      "Sel Alanları",
+      "Heyelan",
+      "Kuraklık"
+    ],
+    "order": 59
+  },
+  {
+    "id": "su_kaynaklari_havzalari_bolgesel",
+    "term": "Bölgesel Su Kaynakları ve Havzaları",
+    "definition": "Türkiye'nin coğrafi bölgelerindeki akarsu havzalarının, göllerin ve yeraltı su kaynaklarının bölgesel dağılımı, özellikleri ve bu kaynakların bölgesel su yönetimi ve kullanımı açısından önemi.",
+    "examples": [
+      "Fırat-Dicle Havzası'nın önemi",
+      "Van Gölü'nün özellikleri",
+      "Akdeniz Bölgesi'ndeki karstik kaynaklar"
+    ],
+    "relatedTerms": [
+      "Akarsu Havzası",
+      "Göl Oluşumu",
+      "Yeraltı Suları",
+      "Su Yönetimi"
+    ],
+    "order": 60
+  },
+  {
+    "id": "karadeniz_bolgesi_iklimi",
+    "term": "Karadeniz Bölgesi İklimi",
+    "definition": "Her mevsim yağışlı, bol nemli ve ılıman bir iklim tipidir. Yıllık yağış miktarı yüksektir. Bu iklim, bölgenin bitki örtüsünü ve tarımsal faaliyetlerini doğrudan etkiler.",
+    "examples": [
+      "Rize'de yıllık yağış ortalaması",
+      "Trabzon'da nemlilik oranı",
+      "Artvin'de orman varlığı"
+    ],
+    "relatedTerms": [
+      "Orografik Yağışlar",
+      "Orman Varlığı",
+      "Yükselti Farkları"
+    ],
+    "order": 61
+  },
+  {
+    "id": "akdeniz_bolgesi_yersekilleri",
+    "term": "Akdeniz Bölgesi Yer Şekilleri",
+    "definition": "Genellikle dağların denize paralel uzandığı, kıyı şeridinin dar ve engebeli olduğu bir yapıya sahiptir. Toros Dağları bu bölgenin önemli bir kısmını kaplar. Bu durum, ulaşım ve yerleşme üzerinde etkilidir.",
+    "examples": [
+      "Toros Dağları",
+      "Kıyıdaki dar ova alanları",
+      "Falezler"
+    ],
+    "relatedTerms": [
+      "Dağlık Alanlar",
+      "Kıyı Şeridi Yapısı",
+      "Ulaşım Zorlukları"
+    ],
+    "order": 62
+  },
+  {
+    "id": "ic_anadolu_bolgesi_iklimi",
+    "term": "İç Anadolu Bölgesi İklimi",
+    "definition": "Yazları sıcak ve kurak, kışları ise soğuk ve kar yağışlı geçen karasal iklim hakimdir. Yıllık sıcaklık farkları belirgindir. Bu iklim, tarımda tahıl tarımını destekler.",
+    "examples": [
+      "Ankara'da yaz kuraklığı",
+      "Konya'da kış soğukları",
+      "Sivas'ta don olayları"
+    ],
+    "relatedTerms": [
+      "Karasal İklim",
+      "Sıcaklık Farkları",
+      "Tahıl Tarımı"
+    ],
+    "order": 63
+  },
+  {
+    "id": "ege_bolgesi_tarimsal_yapisi",
+    "term": "Ege Bölgesi Tarımsal Yapısı",
+    "definition": "Geniş ve verimli ovaları sayesinde çeşitli tarım ürünlerinin yetiştirildiği bir bölgedir. Zeytincilik, pamuk, tütün ve üzüm önemli tarım ürünleridir. Makineleşme yaygındır.",
+    "examples": [
+      "Gediz Deltası",
+      "Büyük Menderes Ovası",
+      "Zeytinlik alanları"
+    ],
+    "relatedTerms": [
+      "Delta Ovaları",
+      "Makineleşme",
+      "Ürün Çeşitliliği"
+    ],
+    "order": 64
+  },
+  {
+    "id": "marmara_bolgesi_sanayi",
+    "term": "Marmara Bölgesi Sanayi",
+    "definition": "Türkiye'nin sanayi ve ticaret merkezi konumundadır. Otomotiv, tekstil, kimya ve gıda sanayisi gibi birçok sektörde gelişmiştir. Nüfus yoğunluğu ve ulaşım ağları sanayinin gelişimini destekler.",
+    "examples": [
+      "İstanbul Sanayi Bölgeleri",
+      "Bursa Otomotiv Sanayii",
+      "Kocaeli Petrokimya Tesisleri"
+    ],
+    "relatedTerms": [
+      "Sanayi Merkezleri",
+      "Ulaşım Ağları",
+      "Nüfus Yoğunluğu"
+    ],
+    "order": 65
+  },
+  {
+    "id": "dogu_anadolu_bolgesi_yersekilleri",
+    "term": "Doğu Anadolu Bölgesi Yer Şekilleri",
+    "definition": "Yüksek platolar, geniş vadiler ve sönmüş volkanik dağlar ile karakterizedir. Türkiye'nin en yüksek dağları (Ağrı Dağı) bu bölgede bulunur. Bu durum, hayvancılık ve ulaşım üzerinde etkilidir.",
+    "examples": [
+      "Ağrı Dağı",
+      "Erciyes Dağı",
+      "Malazgirt Ovası"
+    ],
+    "relatedTerms": [
+      "Platolar",
+      "Volkanik Yapı",
+      "Yüksek Dağlar"
+    ],
+    "order": 66
+  },
+  {
+    "id": "guneydogu_anadolu_bolgesi_su_kaynaklari",
+    "term": "Güneydoğu Anadolu Bölgesi Su Kaynakları",
+    "definition": "Fırat ve Dicle nehirleri gibi büyük akarsulara ev sahipliği yapar. GAP (Güneydoğu Anadolu Projesi) ile bu su kaynakları sulama ve enerji üretimi için kullanılır. Bu durum, tarımsal potansiyeli artırmıştır.",
+    "examples": [
+      "Fırat Nehri",
+      "Dicle Nehri",
+      "Atatürk Barajı"
+    ],
+    "relatedTerms": [
+      "GAP Projesi",
+      "Sulama Kanalları",
+      "Enerji Üretimi"
+    ],
+    "order": 67
+  },
+  {
+    "id": "karadeniz_bolgesi_bitki_ortusu",
+    "term": "Karadeniz Bölgesi Bitki Örtüsü",
+    "definition": "Nemli iklimin etkisiyle gür ormanlar ve yaylalarla kaplıdır. Kıyı kesimlerinde geniş yapraklı ağaçlar, yüksek kesimlerde ise iğne yapraklı ağaçlar ve alpin çayırları görülür. Bu çeşitlilik, ekoturizm için önemlidir.",
+    "examples": [
+      "Kızılçam Ormanları",
+      "Geniş Yapraklı Ormanlar",
+      "Alpin Çayırlar"
+    ],
+    "relatedTerms": [
+      "Orman Varlığı",
+      "Yayla Turizmi",
+      "Ekoturizm"
+    ],
+    "order": 68
+  },
+  {
+    "id": "akdeniz_bolgesi_tarim",
+    "term": "Akdeniz Bölgesi Tarım",
+    "definition": "Sıcak iklimi ve verimli kıyı ovaları sayesinde turunçgiller, pamuk, muz ve sebze gibi ürünler yetiştirilir. Seracılık yaygındır. Bu durum, bölge ekonomisine önemli katkı sağlar.",
+    "examples": [
+      "Çukurova Ovaları",
+      "Muz Bahçeleri",
+      "Seracılık Faaliyetleri"
+    ],
+    "relatedTerms": [
+      "Seracılık",
+      "Turunçgiller",
+      "Kıyı Ovaları"
+    ],
+    "order": 69
+  },
+  {
+    "id": "ic_anadolu_bolgesi_yerlesme_dokusu",
+    "term": "İç Anadolu Bölgesi Yerleşme Dokusu",
+    "definition": "Genellikle seyrek nüfuslu ve dağınık yerleşmeler görülür. Tarım alanlarının çevresinde kümelenmiş köyler ve büyük ova yerleşimleri yaygındır. Su kaynaklarının çevresinde yoğunlaşma gözlenir.",
+    "examples": [
+      "Kırsal Yerleşimler",
+      "Ova Köyleri",
+      "Su Kaynağı Yakınındaki Yerleşimler"
+    ],
+    "relatedTerms": [
+      "Seyrek Nüfus",
+      "Dağınık Yerleşme",
+      "Kırsal Nüfus"
+    ],
+    "order": 70
+  },
+  {
+    "id": "marmara_bolgesi_turizm",
+    "term": "Marmara Bölgesi Turizm",
+    "definition": "Tarihi ve kültürel zenginlikleri, doğal güzellikleri ve gelişmiş altyapısı ile önemli bir turizm merkezidir. İstanbul başta olmak üzere birçok tarihi ve doğal cazibe merkezine sahiptir. Kongre turizmi de gelişmiştir.",
+    "examples": [
+      "İstanbul Tarihi Yarımada",
+      "Bursa Ulu Cami",
+      "Kaplıca Turizmi"
+    ],
+    "relatedTerms": [
+      "Tarihi Miras",
+      "Kültürel Turizm",
+      "Doğal Güzellikler"
+    ],
+    "order": 71
+  },
+  {
+    "id": "ege_bolgesi_iklimi",
+    "term": "Ege Bölgesi İklimi",
+    "definition": "Yazları sıcak ve kurak, kışları ılık ve yağışlı geçen Akdeniz iklimi hakimdir. Yıllık yağış miktarı İç Anadolu'ya göre daha fazladır. Bu iklim, tarımsal ürün çeşitliliğini destekler.",
+    "examples": [
+      "İzmir'de Yaz Sıcakları",
+      "Manisa'da Kış Yağışları",
+      "Muğla'da Ilıman Kışlar"
+    ],
+    "relatedTerms": [
+      "Akdeniz İklimi",
+      "Yaz Kuraklığı",
+      "Kış Yağışları"
+    ],
+    "order": 72
+  },
+  {
+    "id": "dogu_karadeniz_bolumu_turizm",
+    "term": "Doğu Karadeniz Bölümü Turizm",
+    "definition": "Yüksek dağları, yemyeşil yaylaları, şelaleleri ve tarihi konakları ile doğa turizmi açısından zengindir. Yayla şenlikleri ve trekking popüler aktivitelerdir. Rize ve Trabzon'un yaylaları ünlüdür.",
+    "examples": [
+      "Ayder Yaylası",
+      "Uzungöl",
+      "Fırtına Vadisi"
+    ],
+    "relatedTerms": [
+      "Yayla Turizmi",
+      "Doğa Turizmi",
+      "Şelaleler"
+    ],
+    "order": 73
+  },
+  {
+    "id": "batı_karadeniz_bolumu_yersekilleri",
+    "term": "Batı Karadeniz Bölümü Yer Şekilleri",
+    "definition": "Kıyıya yakın dağların yükseldiği, engebeli bir arazi yapısına sahiptir. Bolu Dağları ve Ilgaz Dağları önemli yükseltilerdir. Bu durum, ulaşımı zorlaştırır ve kıyı ile iç kesimler arasında iklim farklılıkları yaratır.",
+    "examples": [
+      "Bolu Dağları",
+      "Ilgaz Dağları",
+      "Küre Dağları Milli Parkı"
+    ],
+    "relatedTerms": [
+      "Dağlık Alanlar",
+      "Engebeli Arazi",
+      "Ulaşım Zorlukları"
+    ],
+    "order": 74
+  },
+  {
+    "id": "orta_karadeniz_bolumu_tarim",
+    "term": "Orta Karadeniz Bölümü Tarım",
+    "definition": "Geniş ve verimli ovaları sayesinde tahıl, tütün, mısır ve şeker pancarı gibi ürünlerin yetiştirildiği bir bölümdür. Samsun ve Amasya ovaları tarım için önemlidir. Sulama imkanları gelişmiştir.",
+    "examples": [
+      "Samsun Ovaları",
+      "Amasya Yeşilırmak Havzası",
+      "Şeker Pancarı Tarlaları"
+    ],
+    "relatedTerms": [
+      "Ovalar",
+      "Tahıl Tarımı",
+      "Sulama İmkanları"
+    ],
+    "order": 75
+  },
+  {
+    "id": "guneydogu_anadolu_bolgesi_iklimi",
+    "term": "Güneydoğu Anadolu Bölgesi İklimi",
+    "definition": "Yazları çok sıcak ve kurak, kışları ise ılık ve yağışlı geçen karasal iklim tipidir. Yıllık yağış miktarı düşüktür. Bu durum, tarımda sulama ihtiyacını artırır.",
+    "examples": [
+      "Şanlıurfa'da Yaz Sıcakları",
+      "Diyarbakır'da Kuraklık",
+      "Gaziantep'te Kış Yağışları"
+    ],
+    "relatedTerms": [
+      "Karasal İklim",
+      "Yaz Kuraklığı",
+      "Düşük Yağış"
+    ],
+    "order": 76
+  },
+  {
+    "id": "ic_anadolu_bolgesi_enerji_kaynaklari",
+    "term": "İç Anadolu Bölgesi Enerji Kaynakları",
+    "definition": "Linyit yatakları ve rüzgar enerjisi potansiyeli bulunur. Jeotermal enerji kaynakları da bazı alanlarda değerlendirilmektedir. Termik santraller ve rüzgar türbinleri enerji üretiminde kullanılır.",
+    "examples": [
+      "Çayırhan Linyit Sahası",
+      "Sivas Rüzgar Enerji Santrali",
+      "Kızılcahamam Jeotermal Enerji"
+    ],
+    "relatedTerms": [
+      "Linyit",
+      "Rüzgar Enerjisi",
+      "Jeotermal Enerji"
+    ],
+    "order": 77
+  },
+  {
+    "id": "ege_bolgesi_sanayi",
+    "term": "Ege Bölgesi Sanayi",
+    "definition": "Tarım ürünlerine dayalı sanayi (gıda, tekstil, zeytinyağı) gelişmiştir. Ayrıca liman kentlerinde petrokimya ve otomotiv sanayisi de bulunur. İzmir, Manisa ve Denizli önemli sanayi merkezleridir.",
+    "examples": [
+      "İzmir Limanı",
+      "Manisa Organize Sanayi Bölgesi",
+      "Denizli Tekstil Sanayii"
+    ],
+    "relatedTerms": [
+      "Tarım Sanayisi",
+      "Liman Kentleri",
+      "Organize Sanayi Bölgeleri"
+    ],
+    "order": 78
+  },
+  {
+    "id": "marmara_bolgesi_su_kaynaklari",
+    "term": "Marmara Bölgesi Su Kaynakları",
+    "definition": "Sanayi ve nüfus yoğunluğu nedeniyle su kaynakları üzerinde baskı vardır. Yer altı ve yer üstü su kaynakları kullanılır. İstanbul'un su ihtiyacını karşılayan barajlar önemlidir.",
+    "examples": [
+      "Sapanca Gölü",
+      "Yenice Barajı",
+      "İkitelli Su Arıtma Tesisi"
+    ],
+    "relatedTerms": [
+      "Su Baskısı",
+      "Yer Altı Suları",
+      "Barajlar"
+    ],
+    "order": 79
+  },
+  {
+    "id": "dogu_anadolu_bolgesi_iklimi",
+    "term": "Doğu Anadolu Bölgesi İklimi",
+    "definition": "Kışları çok sert ve uzun, yazları ise kısa ve serin geçen karasal iklim hakimdir. Yıllık ve günlük sıcaklık farkları çok yüksektir. Don olayları ve kar örtüsü uzun süre kalır.",
+    "examples": [
+      "Erzurum'da Kış Sıcaklıkları",
+      "Kars'ta Don Olayları",
+      "Van Gölü Havzası'nda İklim"
+    ],
+    "relatedTerms": [
+      "Sert Karasal İklim",
+      "Sıcaklık Farkları",
+      "Don Olayları"
+    ],
+    "order": 80
+  },
+  {
+    "id": "bolgesel_toprak_yapisi",
+    "term": "Bölgesel Toprak Yapısı",
+    "definition": "Her coğrafi bölgenin kendine özgü toprak türlerini ve özelliklerini ifade eder. Bu, tarımsal verimlilik ve bitki örtüsü üzerinde doğrudan etkilidir. Farklı toprak tipleri, su tutma kapasitesi ve besin maddeleri açısından değişiklik gösterir.",
+    "examples": [
+      "Karadeniz'in kireçsiz orman toprakları",
+      "İç Anadolu'nun kestane renkli step toprakları",
+      "Akdeniz'in terra rossa toprakları"
+    ],
+    "relatedTerms": [
+      "Tarımsal Yapı",
+      "Bitki Örtüsü Çeşitliliği",
+      "İklim Tipleri Dağılımı"
+    ],
+    "order": 81
+  },
+  {
+    "id": "bolgesel_yeralti_suyu_potansiyeli",
+    "term": "Bölgesel Yeraltı Suyu Potansiyeli",
+    "definition": "Her coğrafi bölgedeki yeraltı suyu rezervlerinin ve kullanım olanaklarının genel durumunu belirtir. Yağış miktarı, jeolojik yapı ve yer şekilleri yeraltı suyu potansiyelini belirleyen başlıca faktörlerdir. Tarım, sanayi ve içme suyu temininde kritik rol oynar.",
+    "examples": [
+      "Konya Ovası'ndaki yeraltı suyu çekimi",
+      "Marmara Bölgesi'ndeki yeraltı suyu kaynakları",
+      "Güneydoğu Anadolu'da yeraltı suyu sondajları"
+    ],
+    "relatedTerms": [
+      "Su Kaynakları ve Havzaları",
+      "Yer Şekilleri Çeşitliliği",
+      "İklim Tipleri Dağılımı"
+    ],
+    "order": 82
+  },
+  {
+    "id": "bolgesel_orman_varligi",
+    "term": "Bölgesel Orman Varlığı",
+    "definition": "Her coğrafi bölgedeki orman alanlarının kapladığı alan, tür çeşitliliği ve yoğunluğunu ifade eder. İklim, toprak yapısı ve insan etkisi orman varlığını şekillendirir. Ormanlar, ekosistem dengesi ve ekonomik değer açısından önemlidir.",
+    "examples": [
+      "Karadeniz'in geniş yapraklı ve iğne yapraklı ormanları",
+      "Akdeniz'in kızılçam ormanları",
+      "Marmara'nın karma ormanları"
+    ],
+    "relatedTerms": [
+      "Bitki Örtüsü Çeşitliliği",
+      "İklim Tipleri Dağılımı",
+      "Yüzey Şekilleri Çeşitliliği"
+    ],
+    "order": 83
+  },
+  {
+    "id": "bolgesel_enerji_tuketimi",
+    "term": "Bölgesel Enerji Tüketimi",
+    "definition": "Her coğrafi bölgenin sanayi, konut ve ulaşım gibi sektörlerdeki enerji tüketim düzeyini ve eğilimlerini gösterir. Sanayileşme, nüfus yoğunluğu ve iklim koşulları tüketimi etkileyen başlıca etkenlerdir. Enerji arz güvenliği ve çevre sorunları açısından önemlidir.",
+    "examples": [
+      "Marmara Bölgesi'nin yüksek sanayi kaynaklı enerji tüketimi",
+      "İç Anadolu'nun konut ve tarımsal sulama amaçlı enerji tüketimi",
+      "Güneydoğu Anadolu'nun barajlardan elde edilen hidroelektrik enerji tüketimi"
+    ],
+    "relatedTerms": [
+      "Sanayi Tesisleri Konumu",
+      "Nüfus Dağılımı",
+      "Enerji Kaynakları"
+    ],
+    "order": 84
+  },
+  {
+    "id": "bolgesel_tarim_urunleri_cesitlidi",
+    "term": "Bölgesel Tarım Ürünleri Çeşitliliği",
+    "definition": "Her coğrafi bölgede yetişen tarım ürünlerinin çeşitliliğini ve bu çeşitliliğin nedenlerini inceler. İklim, toprak, su kaynakları ve pazar koşulları bu çeşitliliği belirler. Bölge ekonomisi ve gıda güvenliği açısından önemlidir.",
+    "examples": [
+      "Ege'nin zeytin, incir ve pamuk üretimi",
+      "Karadeniz'in fındık, çay ve mısır üretimi",
+      "İç Anadolu'nun buğday, arpa ve pancar üretimi"
+    ],
+    "relatedTerms": [
+      "Tarımsal Yapı",
+      "İklim Tipleri Dağılımı",
+      "Su Kaynakları ve Havzaları"
+    ],
+    "order": 85
+  },
+  {
+    "id": "bolgesel_ulasim_agirligi",
+    "term": "Bölgesel Ulaşım Ağırlığı",
+    "definition": "Her coğrafi bölgedeki ulaşım ağlarının (kara, demir, hava, deniz) yoğunluğunu, türünü ve önemini ifade eder. Sanayi, ticaret, turizm ve nüfus dağılımı ulaşım ağlarını etkiler. Ekonomik gelişme ve entegrasyon için hayati öneme sahiptir.",
+    "examples": [
+      "Marmara Bölgesi'ndeki yoğun kara ve demiryolu ağı",
+      "Ege Bölgesi'ndeki limanların önemi",
+      "Doğu Anadolu'daki dağlık alanlarda sınırlı ulaşım imkanları"
+    ],
+    "relatedTerms": [
+      "Sanayi Tesisleri Konumu",
+      "Turizm Aktiviteleri",
+      "Yerleşme Dokusu Çeşitliliği"
+    ],
+    "order": 86
+  },
+  {
+    "id": "bolgesel_nufus_yogunlugu",
+    "term": "Bölgesel Nüfus Yoğunluğu",
+    "definition": "Her coğrafi bölgedeki nüfusun dağılımını ve yoğunluğunu gösterir. İklim koşulları, ekonomik faaliyetler, yer şekilleri ve tarihi faktörler nüfus yoğunluğunu belirler. Bölgesel kalkınma ve hizmet sunumu açısından önemlidir.",
+    "examples": [
+      "Marmara Bölgesi'nin yüksek nüfus yoğunluğu",
+      "İç Anadolu'nun seyrek nüfuslu alanları",
+      "Akdeniz kıyılarındaki yoğun nüfus"
+    ],
+    "relatedTerms": [
+      "Yerleşme Dokusu Çeşitliliği",
+      "Sanayi Tesisleri Konumu",
+      "Tarımsal Yapı"
+    ],
+    "order": 87
+  },
+  {
+    "id": "bolgesel_endustriyel_donusum",
+    "term": "Bölgesel Endüstriyel Dönüşüm",
+    "definition": "Her coğrafi bölgedeki sanayinin zaman içindeki değişimini, gelişmesini ve dönüşümünü ifade eder. Teknolojik gelişmeler, küresel ekonomik eğilimler ve bölgesel teşvikler bu dönüşümü etkiler. İstihdam ve ekonomik yapı üzerinde büyük etkisi vardır.",
+    "examples": [
+      "Güneydoğu Anadolu'da GAP ile tarıma dayalı sanayinin gelişimi",
+      "Karadeniz'de madencilik ve orman ürünleri sanayisinin değişimi",
+      "İç Anadolu'da otomotiv ve makine sanayisinin gelişimi"
+    ],
+    "relatedTerms": [
+      "Sanayi Tesisleri Konumu",
+      "Enerji Kaynakları",
+      "Ulaşım Ağırlığı"
+    ],
+    "order": 88
+  },
+  {
+    "id": "bolgesel_turizm_destinasyonlari",
+    "term": "Bölgesel Turizm Destinasyonları",
+    "definition": "Her coğrafi bölgenin sunduğu turizm çeşitliliğini ve öne çıkan turizm merkezlerini belirtir. Doğal güzellikler, tarihi ve kültürel miras, iklim koşulları ve ulaşım imkanları destinasyonları oluşturur. Bölgesel gelir ve istihdam kaynağıdır.",
+    "examples": [
+      "Akdeniz'in sahil turizmi",
+      "İç Anadolu'nun Kapadokya ve tarihi turizmi",
+      "Doğu Anadolu'nun kış ve doğa turizmi"
+    ],
+    "relatedTerms": [
+      "Turizm Aktiviteleri",
+      "Yer Şekilleri Çeşitliliği",
+      "İklim Tipleri Dağılımı"
+    ],
+    "order": 89
+  },
+  {
+    "id": "bolgesel_afet_risk_analizi",
+    "term": "Bölgesel Afet Risk Analizi",
+    "definition": "Her coğrafi bölgedeki olası doğal afetlerin (deprem, sel, heyelan, kuraklık vb.) risk düzeyini ve etki alanlarını değerlendirir. Jeolojik yapı, iklim ve coğrafi konum afet riskini belirler. Afet yönetimi ve önleyici tedbirler için önemlidir.",
+    "examples": [
+      "Ege ve Marmara'da deprem riski",
+      "Karadeniz'de sel ve heyelan riski",
+      "İç Anadolu'da kuraklık riski"
+    ],
+    "relatedTerms": [
+      "Doğal Afetler",
+      "Yer Şekilleri Çeşitliliği",
+      "İklim Tipleri Dağılımı"
+    ],
+    "order": 90
+  },
+  {
+    "id": "bolgesel_su_yolculugu_ve_havzalari",
+    "term": "Bölgesel Su Yolculuğu ve Havzaları",
+    "definition": "Her coğrafi bölgedeki akarsuların kaynaklarından denize dökülünceye kadar izlediği yolu ve oluşturduğu havzaları inceler. Yer şekilleri, yağış rejimi ve jeolojik yapı su yolculuğunu ve havza özelliklerini belirler. Su kaynaklarının yönetimi ve kullanımı açısından önemlidir.",
+    "examples": [
+      "Fırat ve Dicle havzaları",
+      "Yeşilırmak ve Kızılırmak havzaları",
+      "Menderes ve Gediz havzaları"
+    ],
+    "relatedTerms": [
+      "Su Kaynakları ve Havzaları",
+      "Yer Şekilleri Çeşitliliği",
+      "İklim Tipleri Dağılımı"
+    ],
+    "order": 91
+  },
+  {
+    "id": "bolgesel_yerlesme_dinamikleri",
+    "term": "Bölgesel Yerleşme Dinamikleri",
+    "definition": "Her coğrafi bölgedeki yerleşmelerin zaman içindeki değişimini, göç hareketlerini ve yerleşme dokusundaki dönüşümleri inceler. Ekonomik fırsatlar, doğal çevre koşulları ve ulaşım imkanları yerleşme dinamiklerini etkiler. Kentsel ve kırsal kalkınma politikaları için önemlidir.",
+    "examples": [
+      "Marmara'da sanayiye bağlı iç göçler",
+      "Doğu Anadolu'da kırsaldan kente göçler",
+      "İç Anadolu'da tarımsal nüfusun azalması"
+    ],
+    "relatedTerms": [
+      "Yerleşme Dokusu Çeşitliliği",
+      "Nüfus Dağılımı",
+      "Sanayi Tesisleri Konumu"
+    ],
+    "order": 92
+  },
+  {
+    "id": "bolgesel_enerji_uretim_merkezleri",
+    "term": "Bölgesel Enerji Üretim Merkezleri",
+    "definition": "Her coğrafi bölgedeki başlıca enerji üretim santrallerinin (termik, hidroelektrik, rüzgar, güneş vb.) yerlerini ve üretim kapasitelerini belirtir. Enerji kaynaklarının çeşitliliği, yer şekilleri ve iklim koşulları üretim merkezlerini belirler. Enerji arz güvenliği ve bölgesel kalkınma için önemlidir.",
+    "examples": [
+      "Karadeniz'deki hidroelektrik santraller",
+      "İç Anadolu'daki rüzgar ve güneş enerjisi santralleri",
+      "Güneydoğu Anadolu'daki barajlar"
+    ],
+    "relatedTerms": [
+      "Enerji Kaynakları",
+      "Su Kaynakları ve Havzaları",
+      "Yer Şekilleri Çeşitliliği"
+    ],
+    "order": 93
+  },
+  {
+    "id": "bolgesel_tarimsal_mekanizasyon",
+    "term": "Bölgesel Tarımsal Mekanizasyon",
+    "definition": "Her coğrafi bölgedeki tarımsal faaliyetlerde kullanılan makineleşme düzeyini ve yaygınlığını ifade eder. Arazi yapısı, tarla büyüklükleri, çiftçi gelirleri ve teknolojik altyapı mekanizasyonu etkiler. Tarımsal üretim verimliliği ve istihdam yapısı için önemlidir.",
+    "examples": [
+      "Ege'de pamuk toplama makineleri",
+      "İç Anadolu'da traktör ve biçerdöver kullanımı",
+      "Karadeniz'de fındık toplama makineleri"
+    ],
+    "relatedTerms": [
+      "Tarımsal Yapı",
+      "Yer Şekilleri Çeşitliliği",
+      "Sanayi Tesisleri Konumu"
+    ],
+    "order": 94
+  },
+  {
+    "id": "bolgesel_sanayi_yapisi_ve_sektorleri",
+    "term": "Bölgesel Sanayi Yapısı ve Sektörleri",
+    "definition": "Her coğrafi bölgedeki sanayinin hangi sektörlere dayandığını, bu sektörlerin gelişim düzeyini ve bölgesel ekonomik yapıdaki payını inceler. Hammadde kaynakları, ulaşım ağları, sermaye birikimi ve işgücü bu yapıyı belirler. Bölgesel kalkınma stratejileri için önemlidir.",
+    "examples": [
+      "Marmara'da otomotiv ve tekstil sanayisi",
+      "Ege'de gıda ve tekstil sanayisi",
+      "Karadeniz'de demir-çelik ve orman ürünleri sanayisi"
+    ],
+    "relatedTerms": [
+      "Sanayi Tesisleri Konumu",
+      "Enerji Kaynakları",
+      "Ulaşım Ağırlığı"
+    ],
+    "order": 95
+  },
+  {
+    "id": "bolgesel_iklim_degiskenligi",
+    "term": "Bölgesel İklim Değişkenliği",
+    "definition": "Her coğrafi bölgedeki iklim elemanlarının (sıcaklık, yağış, nem vb.) zamansal ve mekansal değişimlerini, aşırı hava olaylarının sıklığını ve şiddetini inceler. Küresel iklim değişikliğinin bölgesel etkileri, tarım, su kaynakları ve ekosistemler üzerinde önemli sonuçlar doğurur.",
+    "examples": [
+      "Karadeniz'de aşırı yağışlar ve sel baskınları",
+      "İç Anadolu'da kuraklıkların artması",
+      "Akdeniz'de sıcaklık rekorları"
+    ],
+    "relatedTerms": [
+      "İklim Tipleri Dağılımı",
+      "Doğal Afetler",
+      "Su Kaynakları ve Havzaları"
+    ],
+    "order": 96
+  },
+  {
+    "id": "bolgesel_bitki_ortusu_degerlendirmesi",
+    "term": "Bölgesel Bitki Örtüsü Değerlendirmesi",
+    "definition": "Her coğrafi bölgedeki doğal vejetasyonun türlerini, dağılımını ve ekolojik önemini inceler. İklim, toprak, yer şekilleri ve insan etkisi bitki örtüsünü şekillendirir. Biyoçeşitlilik, erozyon kontrolü ve tarımsal potansiyel açısından önemlidir.",
+    "examples": [
+      "Akdeniz'in makilikleri",
+      "Karadeniz'in ormanları",
+      "İç Anadolu'nun bozkırları"
+    ],
+    "relatedTerms": [
+      "Bitki Örtüsü Çeşitliliği",
+      "İklim Tipleri Dağılımı",
+      "Tarımsal Yapı"
+    ],
+    "order": 97
+  },
+  {
+    "id": "bolgesel_yer_sekilleri_etkilesimi",
+    "term": "Bölgesel Yer Şekilleri Etkileşimi",
+    "definition": "Her coğrafi bölgedeki farklı yer şekillerinin (dağlar, platolar, ovalar, vadiler vb.) birbirleriyle olan etkileşimini ve bu etkileşimin iklim, su kaynakları ve yerleşme üzerindeki sonuçlarını inceler. Örneğin, dağların yağış oluşumuna etkisi veya vadilerin ulaşım yolları üzerindeki etkisi.",
+    "examples": [
+      "Toros Dağları'nın Akdeniz iklimini karasallıktan ayırması",
+      "Anadolu'nun iç kesimlerindeki platoların tarımsal kullanımı",
+      "Büyük Menderes Vadisi'nin tarımsal potansiyeli"
+    ],
+    "relatedTerms": [
+      "Yüzey Şekilleri Çeşitliliği",
+      "İklim Tipleri Dağılımı",
+      "Su Kaynakları ve Havzaları"
+    ],
+    "order": 98
+  },
+  {
+    "id": "bolgesel_turizm_ekonomisi",
+    "term": "Bölgesel Turizm Ekonomisi",
+    "definition": "Her coğrafi bölgedeki turizm faaliyetlerinin ekonomik etkilerini, gelir düzeyini, istihdam olanaklarını ve turizm sektörünün bölgesel ekonomiye katkısını analiz eder. Turizm altyapısı, pazarlama stratejileri ve yerel halkın turizmden faydalanma düzeyi bu ekonomiyi şekillendirir.",
+    "examples": [
+      "Antalya'nın turizm gelirleri ve istihdamı",
+      "Kapadokya'nın yerel ekonomiye katkısı",
+      "Ege kıyılarındaki turizm işletmelerinin ekonomik etkisi"
+    ],
+    "relatedTerms": [
+      "Turizm Aktiviteleri",
+      "Nüfus Dağılımı",
+      "Ulaşım Ağırlığı"
+    ],
+    "order": 99
+  },
+  {
+    "id": "bolgesel_enerji_politikasi",
+    "term": "Bölgesel Enerji Politikası",
+    "definition": "Her coğrafi bölgenin enerji ihtiyacını karşılamak, enerji kaynaklarını verimli kullanmak ve enerji güvenliğini sağlamak amacıyla uyguladığı veya uygulayacağı stratejileri ve politikaları ifade eder. Bölgesel enerji potansiyeli, tüketim eğilimleri ve çevresel etkiler bu politikaları belirler.",
+    "examples": [
+      "GAP kapsamında hidroelektrik enerji üretimi politikası",
+      "Marmara Bölgesi'nin enerji ithalatına bağımlılığı ve politikaları",
+      "İç Anadolu'da yenilenebilir enerji kaynaklarının (rüzgar, güneş) teşvik politikaları"
+    ],
+    "relatedTerms": [
+      "Enerji Kaynakları",
+      "Enerji Tüketimi",
+      "Su Kaynakları ve Havzaları"
+    ],
+    "order": 100
+  }
+]

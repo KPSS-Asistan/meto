@@ -1,0 +1,1557 @@
+[
+  {
+    "id": "iki_bölünebilme_kurali",
+    "term": "İki'ye Bölünebilme Kuralı",
+    "definition": "Bir sayının 2'ye tam bölünebilmesi için son basamağının 0, 2, 4, 6 veya 8 olması gerekir. Bu kural, sayının çiftliğini hızlıca test eder. KPSS'de en temel bölünebilme testidir.",
+    "examples": [
+      "372 sayısı 2'ye bölünür, son basamak 2'dir.",
+      "456 ÷ 2 = 228 tam bölünmedir.",
+      "135 bölünmez, son basamak 5 tek sayıdır."
+    ],
+    "relatedTerms": [
+      "Dört'e Bölünebilme Kuralı",
+      "Altı'ya Bölünebilme Kuralı",
+      "Sekiz'e Bölünebilme Kuralı"
+    ],
+    "order": 1
+  },
+  {
+    "id": "üç_bölünebilme_kurali",
+    "term": "Üç'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 3'e tam bölünebilmesi için rakamlarının toplamının 3'e tam bölünmesi şarttır. Toplamı tekrar hesaplayarak kural uygulanabilir. Sınavda zincirleme testlerde sık kullanılır.",
+    "examples": [
+      "123 sayısı 3'e bölünür, 1+2+3=6 ve 6÷3=2.",
+      "456 ÷ 3=152 tam bölünmedir.",
+      "124 toplamı 7, 3'e bölünmez."
+    ],
+    "relatedTerms": [
+      "Dokuz'a Bölünebilme Kuralı",
+      "Altı'ya Bölünebilme Kuralı"
+    ],
+    "order": 2
+  },
+  {
+    "id": "dört_bölünebilme_kurali",
+    "term": "Dört'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 4'e tam bölünebilmesi için son iki basamağının 4'e tam bölünmesi gerekir. Bu, 100'ün 4'e bölünmesinden kaynaklanır. KPSS'de son basamaklara odaklanan sorularda esastır.",
+    "examples": [
+      "1236 sayısı 4'e bölünür, 36÷4=9.",
+      "1240 ÷4=310 tamdır.",
+      "1234 son iki 34, 34÷4=8.5 bölünmez."
+    ],
+    "relatedTerms": [
+      "İki'ye Bölünebilme Kuralı",
+      "Sekiz'e Bölünebilme Kuralı"
+    ],
+    "order": 3
+  },
+  {
+    "id": "beş_bölünebilme_kurali",
+    "term": "Beş'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 5'e tam bölünebilmesi için son basamağının 0 veya 5 olması yeterlidir. En basit kurallardan biridir. Sınavda hızlı elemelerde kullanılır.",
+    "examples": [
+      "125 sayısı 5'e bölünür, son basamak 5.",
+      "230 ÷5=46 tam bölünmedir.",
+      "123 son basamak 3, bölünmez."
+    ],
+    "relatedTerms": [
+      "On'a Bölünebilme Kuralı"
+    ],
+    "order": 4
+  },
+  {
+    "id": "altı_bölünebilme_kurali",
+    "term": "Altı'ya Bölünebilme Kuralı",
+    "definition": "Bir sayının 6'ya tam bölünebilmesi için hem 2'ye hem 3'e tam bölünmesi gerekir. İki kuralın kombinasyonudur. KPSS'de bileşik test soruları için kritiktir.",
+    "examples": [
+      "126 sayısı 6'ya bölünür, son basamak 6 (2'ye) ve 1+2+6=9 (3'e).",
+      "372 ÷6=62 tamdır.",
+      "135 2'ye bölünmez."
+    ],
+    "relatedTerms": [
+      "İki'ye Bölünebilme Kuralı",
+      "Üç'e Bölünebilme Kuralı"
+    ],
+    "order": 5
+  },
+  {
+    "id": "yedi_bölünebilme_kurali",
+    "term": "Yedi'ye Bölünebilme Kuralı",
+    "definition": "Bir sayıyı ikiye bölüp birini 5 ile çarpıp diğerinden çıkarıp 7'ye bölünebilirlik testi yapılır. Tekrarlanır. KPSS'de ileri seviye sorularda nadir ama önemli.",
+    "examples": [
+      "343 ÷7=49 tamdır, çapraz testle doğrulanır.",
+      "49 sayısı 7'ye bölünür.",
+      "50 testi başarısız."
+    ],
+    "relatedTerms": [
+      "Onbir'e Bölünebilme Kuralı"
+    ],
+    "order": 6
+  },
+  {
+    "id": "sekiz_bölünebilme_kurali",
+    "term": "Sekiz'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 8'e tam bölünebilmesi için son üç basamağının 8'e tam bölünmesi şarttır. 1000'in 8'e bölünmesinden gelir. Sınavda büyük sayılarda kullanılır.",
+    "examples": [
+      "12368 ÷8 tamdır, 368÷8=46.",
+      "1000 ÷8=125.",
+      "1234 son üç 234÷8=29.25 bölünmez."
+    ],
+    "relatedTerms": [
+      "Dört'e Bölünebilme Kuralı",
+      "İki'ye Bölünebilme Kuralı"
+    ],
+    "order": 7
+  },
+  {
+    "id": "dokuz_bölünebilme_kurali",
+    "term": "Dokuz'a Bölünebilme Kuralı",
+    "definition": "Bir sayının 9'a tam bölünebilmesi için rakamlarının toplamının 9'a tam bölünmesi gerekir. 3 kuralının genelleşmesidir. KPSS'de toplam testlerinde esastır.",
+    "examples": [
+      "729 ÷9=81, 7+2+9=18÷9=2.",
+      "81 tam bölünür.",
+      "82 toplam 10, bölünmez."
+    ],
+    "relatedTerms": [
+      "Üç'e Bölünebilme Kuralı"
+    ],
+    "order": 8
+  },
+  {
+    "id": "on_bölünebilme_kurali",
+    "term": "On'a Bölünebilme Kuralı",
+    "definition": "Bir sayının 10'a tam bölünebilmesi için son basamağının 0 olması yeterlidir. 2 ve 5 kuralının birleşimidir. Sınavda temel ondalık testler için kullanılır.",
+    "examples": [
+      "120 ÷10=12 tamdır.",
+      "100 son basamak 0.",
+      "123 bölünmez."
+    ],
+    "relatedTerms": [
+      "İki'ye Bölünebilme Kuralı",
+      "Beş'e Bölünebilme Kuralı"
+    ],
+    "order": 9
+  },
+  {
+    "id": "onbir_bölünebilme_kurali",
+    "term": "Onbir'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 11'e tam bölünebilmesi için rakamlarının yerlerine göre toplarının farkının 11'in katı olması gerekir. Tek-çift pozisyon farkıdır. KPSS'de özel test sorusu.",
+    "examples": [
+      "121 ÷11=11, (1-2+1)=0 11'e bölünür.",
+      "1331 tamdır.",
+      "123 fark 1-2+3=2 bölünmez."
+    ],
+    "relatedTerms": [
+      "Yedi'ye Bölünebilme Kuralı"
+    ],
+    "order": 10
+  },
+  {
+    "id": "tam_bölünme",
+    "term": "Tam Bölünme",
+    "definition": "Bir sayının başka bir sayıya bölündüğünde kalan sıfır kalmasıdır. Bölünen tam bölen sayısına bölünür. KPSS'de tüm kuralların amacıdır.",
+    "examples": [
+      "24 ÷ 6 = 4, tam bölünmedir.",
+      "100 ÷ 5 = 20.",
+      "25 ÷ 7 kalan 4, tam değil."
+    ],
+    "relatedTerms": [
+      "Kalan",
+      "Bölen"
+    ],
+    "order": 11
+  },
+  {
+    "id": "kalan",
+    "term": "Kalan",
+    "definition": "Bölme işleminde bölünenden bölen çıkarıldıktan sonra geriye kalan pozitif değerdir. Tam bölünmede sıfırdır. Sınavda bölüm-kalan ilişkisi sorulur.",
+    "examples": [
+      "23 ÷ 5 = 4 tam, kalan 3.",
+      "17 ÷ 3 = 5 tam, kalan 2.",
+      "Tam bölmede kalan 0."
+    ],
+    "relatedTerms": [
+      "Tam Bölünme",
+      "Bölme İşlemi"
+    ],
+    "order": 12
+  },
+  {
+    "id": "bölen",
+    "term": "Bölen",
+    "definition": "Bölme işleminde bölüneceği sayıdan küçük veya eşit olan faktördür. Tam bölen kalan bırakmaz. KPSS'de faktörleme için temel.",
+    "examples": [
+      "24'ün bölenleri: 1,2,3,4,6,8,12,24.",
+      "15'in tam bölenleri 1,3,5,15."
+    ],
+    "relatedTerms": [
+      "Bölünen",
+      "Tam Bölen"
+    ],
+    "order": 13
+  },
+  {
+    "id": "bölünen",
+    "term": "Bölünen",
+    "definition": "Bölme işleminde bölenle bölünen büyük sayıdır. Sonuç bölüm ve kalan verir. Sınavda işlem terminolojisi için şart.",
+    "examples": [
+      "24 ÷ 6'da 24 bölünendir.",
+      "100 ÷ 4=25, 100 bölünendir."
+    ],
+    "relatedTerms": [
+      "Bölen",
+      "Bölüm"
+    ],
+    "order": 14
+  },
+  {
+    "id": "ebob",
+    "term": "En Büyük Ortak Bölen (EBOB)",
+    "definition": "İki veya daha fazla sayının ortak tam bölenlerinin en büyüğüdür. Öklid algoritmasıyla bulunur. KPSS'de sadeleştirme ve EKOK için zorunludur.",
+    "examples": [
+      "EBOB(12,18)=6.",
+      "EBOB(24,36)=12.",
+      "EBOB(7,13)=1 asal."
+    ],
+    "relatedTerms": [
+      "EKOK",
+      "Tam Bölen"
+    ],
+    "order": 15
+  },
+  {
+    "id": "on_bir_bölünebilme_kurali",
+    "term": "On Bir'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 11'e bölünebilmesi için rakamlarının alternatif toplamı (tek-çift pozisyon) 11'in katı olmalıdır. Farkın 0 veya 11'in katı olması kuralıdır. KPSS'de pozisyonlu hesaplama sorulur.",
+    "examples": [
+      "121 sayısı 1-2+1=0 olduğundan 11'e bölünür.",
+      "1331 sayısı 1-3+3-1=0 olduğundan 11'e bölünür."
+    ],
+    "relatedTerms": [
+      "Alternatif Toplam",
+      "Tam Bölünme",
+      "Üç'e Bölünebilme Kuralı"
+    ],
+    "order": 16
+  },
+  {
+    "id": "kalan_kavrami",
+    "term": "Kalan Kavramı",
+    "definition": "Bölme işleminde bölenin katları çıkarıldıktan sonra artan değerdir; 0'dan büyük ve bölen'den küçük olur. Tam bölünmede sıfırdır. Sınavlarda bölüm-kalan ayrımı sorulur.",
+    "examples": [
+      "23/5=4 bölüm, 3 kalan.",
+      "17/3=5 bölüm, 2 kalan."
+    ],
+    "relatedTerms": [
+      "Bölüm Kavramı",
+      "Tam Bölünme",
+      "Bölme Algoritması"
+    ],
+    "order": 17
+  },
+  {
+    "id": "bölüm_kavrami",
+    "term": "Bölüm Kavramı",
+    "definition": "Bölmede bölenin tam sayı katı sayısıdır; tam bölünmede kalan sıfırla çarpılır. Euclidean algoritmasında kullanılır. KPSS'de işlem sonucu hesaplanır.",
+    "examples": [
+      "20/4=5 bölüm, kalan 0.",
+      "22/5=4 bölüm, kalan 2."
+    ],
+    "relatedTerms": [
+      "Kalan Kavramı",
+      "Tam Bölünme",
+      "OBEB"
+    ],
+    "order": 18
+  },
+  {
+    "id": "son_basamak_kurali",
+    "term": "Son Basamak Kuralı",
+    "definition": "2,5,10 gibi sayılar için son basamağın kontrolüyle bölünebilme belirlenir. 10'un kuvvetlerinden kaynaklanır. Birçok kuralın temelidir.",
+    "examples": [
+      "Son basamak 0 ise 10'a bölünür.",
+      "Son basamak çift ise 2'ye bölünür."
+    ],
+    "relatedTerms": [
+      "İki'ye Bölünebilme Kuralı",
+      "Beş'e Bölünebilme Kuralı",
+      "On'a Bölünebilme Kuralı"
+    ],
+    "order": 19
+  },
+  {
+    "id": "rakamlar_toplamı_kurali",
+    "term": "Rakamlar Toplamı Kuralı",
+    "definition": "3 ve 9 için rakamların toplamının o sayıya bölünebilirliği kontrol edilir; 9=10-1, 3=9/3'ten gelir. Recursive uygulanır.",
+    "examples": [
+      "1+2+3=6, 3'e bölünür.",
+      "4+5+6+7=22, 22/3 değil."
+    ],
+    "relatedTerms": [
+      "Üç'e Bölünebilme Kuralı",
+      "Dokuz'a Bölünebilme Kuralı",
+      "Tam Bölünme"
+    ],
+    "order": 20
+  },
+  {
+    "id": "bolme_algoritmasi",
+    "term": "Bölme Algoritması",
+    "definition": "Her tam sayı n ve pozitif tam sayı d için n = q*d + r şeklinde yazılır, burada q bölüm, r kalan ve 0 ≤ r < d'dir. KPSS'de kalan ve tam bölünme hesaplarında temel kuraldır.",
+    "examples": [
+      "17 = 3*5 + 2 (q=3, r=2)",
+      "25 = 5*5 + 0 (tam bölünme)"
+    ],
+    "relatedTerms": [
+      "Kalan",
+      "Bölüm",
+      "Tam Bölünme"
+    ],
+    "order": 21
+  },
+  {
+    "id": "bolum",
+    "term": "Bölüm",
+    "definition": "Bölme algoritmasında n = q*d + r'de q tam sayıdır ve bölüm olarak adlandırılır. KPSS soruları bölümün tam sayı olmasını test eder.",
+    "examples": [
+      "28 / 7 = 4 (bölüm 4)",
+      "30 / 4 = 7 (bölüm 7, kalan 2)"
+    ],
+    "relatedTerms": [
+      "Bölme Algoritması",
+      "Kalan",
+      "Tam Bölünme"
+    ],
+    "order": 22
+  },
+  {
+    "id": "ikiye_bolunebilme_kurali",
+    "term": "2'ye Bölünebilme Kuralı",
+    "definition": "Bir sayı 2'ye bölünebilirse son basamağı çift (0,2,4,6,8)'dir. KPSS'de hızlı kontrol için kullanılır.",
+    "examples": [
+      "246 son basamak 6, 2'ye bölünür",
+      "135 son basamak 5, bölünmez"
+    ],
+    "relatedTerms": [
+      "Tam Bölünme",
+      "Dörde Bölünebilme Kuralı",
+      "Altıya Bölünebilme Kuralı"
+    ],
+    "order": 23
+  },
+  {
+    "id": "uce_bolunebilme_kurali",
+    "term": "3'e Bölünebilme Kuralı",
+    "definition": "Bir sayının rakamları toplamı 3'e tam bölünürse sayı 3'e bölünür. Tekrarlanabilir kuraldır.",
+    "examples": [
+      "123: 1+2+3=6, 3'e bölünür",
+      "145: 1+4+5=10, bölünmez"
+    ],
+    "relatedTerms": [
+      "Dokuz'a Bölünebilme Kuralı",
+      "Altıya Bölünebilme Kuralı",
+      "Tam Bölünme"
+    ],
+    "order": 24
+  },
+  {
+    "id": "dorde_bolunebilme_kurali",
+    "term": "4'e Bölünebilme Kuralı",
+    "definition": "Son iki basamak 4'e tam bölünürse sayı 4'e bölünür. KPSS'de son iki rakam kontrolü sorusu yaygındır.",
+    "examples": [
+      "1236: 36/4=9, bölünür",
+      "1234: 34/4=8.5, bölünmez"
+    ],
+    "relatedTerms": [
+      "İkiye Bölünebilme Kuralı",
+      "Sekize Bölünebilme Kuralı",
+      "Tam Bölünme"
+    ],
+    "order": 25
+  },
+  {
+    "id": "bese_bolunebilme_kurali",
+    "term": "5'e Bölünebilme Kuralı",
+    "definition": "Son basamağı 0 veya 5 ise 5'e tam bölünür. En basit kurallardan biridir.",
+    "examples": [
+      "125 son basamak 5, bölünür",
+      "130 son basamak 0, bölünür"
+    ],
+    "relatedTerms": [
+      "Ona Bölünebilme Kuralı",
+      "Tam Bölünme"
+    ],
+    "order": 26
+  },
+  {
+    "id": "altıya_bolunebilme_kurali",
+    "term": "6'ya Bölünebilme Kuralı",
+    "definition": "Sayı hem 2'ye hem 3'e tam bölünürse 6'ya bölünür. İki kuralın kombinasyonudur.",
+    "examples": [
+      "126: çift ve 1+2+6=9 (3'e bölünür), 6'ya bölünür",
+      "125: tek, bölünmez"
+    ],
+    "relatedTerms": [
+      "İkiye Bölünebilme Kuralı",
+      "Üçe Bölünebilme Kuralı"
+    ],
+    "order": 27
+  },
+  {
+    "id": "sekize_bolunebilme_kurali",
+    "term": "8'e Bölünebilme Kuralı",
+    "definition": "Son üç basamak 8'e tam bölünürse sayı 8'e bölünür. KPSS'de son üç rakam sorusu sık sorulur.",
+    "examples": [
+      "12368: 368/8=46, bölünür",
+      "12370: 370/8=46.25, bölünmez"
+    ],
+    "relatedTerms": [
+      "Dörde Bölünebilme Kuralı",
+      "İkiye Bölünebilme Kuralı"
+    ],
+    "order": 28
+  },
+  {
+    "id": "dokuz_a_bolunebilme_kurali",
+    "term": "9'a Bölünebilme Kuralı",
+    "definition": "Rakamlar toplamı 9'a tam bölünürse sayı 9'a bölünür. 3 kuralının genelleşmesidir.",
+    "examples": [
+      "729: 7+2+9=18, 9'a bölünür",
+      "123: 1+2+3=6, bölünmez"
+    ],
+    "relatedTerms": [
+      "Üçe Bölünebilme Kuralı",
+      "Tam Bölünme"
+    ],
+    "order": 29
+  },
+  {
+    "id": "ona_bolunebilme_kurali",
+    "term": "10'a Bölünebilme Kuralı",
+    "definition": "Son basamağı 0 ise 10'a tam bölünür. 2 ve 5 kuralının kombinasyonudur.",
+    "examples": [
+      "120 son basamak 0, bölünür",
+      "123 son basamak 3, bölünmez"
+    ],
+    "relatedTerms": [
+      "İkiye Bölünebilme Kuralı",
+      "Beşe Bölünebilme Kuralı"
+    ],
+    "order": 30
+  },
+  {
+    "id": "on_bir_e_bolunebilme_kurali",
+    "term": "11'e Bölünebilme Kuralı",
+    "definition": "Rakamların yerlerine göre farkı (tek-çift basamaklar) 11'in katı ise 11'e bölünür. KPSS'de fark hesabı sorusu yaygındır.",
+    "examples": [
+      "121: 1-2+1=0 (11 katı), bölünür",
+      "1331: 1-3+3-1=0, bölünür"
+    ],
+    "relatedTerms": [
+      "Tam Bölünme",
+      "Üçe Bölünebilme Kuralı"
+    ],
+    "order": 31
+  },
+  {
+    "id": "obeb",
+    "term": "OBEB",
+    "definition": "İki veya daha fazla sayının ortak bölenlerinin en büyüğüdür. Bölünebilme ve sadeleştirme için KPSS'de esastır.",
+    "examples": [
+      "OBEB(12,18)=6",
+      "OBEB(15,25)=5"
+    ],
+    "relatedTerms": [
+      "Tam Bölünme",
+      "OKEK"
+    ],
+    "order": 32
+  },
+  {
+    "id": "okek",
+    "term": "OKEK",
+    "definition": "İki veya daha fazla sayının ortak katlarının en küçüğüdür. Dönemsel problemlerde ve bölünebilmede kullanılır.",
+    "examples": [
+      "OKEK(4,6)=12",
+      "OKEK(3,5)=15"
+    ],
+    "relatedTerms": [
+      "OBEB",
+      "Tam Bölünme"
+    ],
+    "order": 33
+  },
+  {
+    "id": "on_uc_e_bolunebilme_kurali",
+    "term": "13'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 13'e tam bölünmesi için sayıdaki son basamağı 4 ile çarpıp sayıdan (son basamak hariç) kısma ekleyin, elde edilen sayı 13'e tam bölünmelidir. Bu işlem tekrarlanarak kontrol edilir. KPSS'de büyük sayılarda pratik yöntem olarak kullanılır.",
+    "examples": [
+      "351 sayısı: 35 + 4×1 = 39, 39÷13=3 tam.",
+      "169 sayısı: 16 + 4×9 = 52, 52÷13=4 tam.",
+      "KPSS sorusu: 12391'in 13'e bölünüp bölünmediği bu yöntemle kontrol edilir."
+    ],
+    "relatedTerms": [
+      "Onbir'e Bölünebilme Kuralı",
+      "Yedi'ye Bölünebilme Kuralı",
+      "Tam Bölünme"
+    ],
+    "order": 34
+  },
+  {
+    "id": "on_yedi_ye_bolunebilme_kurali",
+    "term": "17'ye Bölünebilme Kuralı",
+    "definition": "Bir sayının 17'ye tam bölünmesi için son basamağı 5 ile çarpıp sayıdan (son basamak hariç) kısma çıkarın, elde edilen sayı 17'ye tam bölünmelidir. KPSS sınavlarında ileri bölünebilme testlerinde sorulur.",
+    "examples": [
+      "51: 5 - 5×1 = 0, 0÷17=0 tam.",
+      "289: 28 - 5×9 = 28-45=-17, -17÷17 tam.",
+      "KPSS'de 12347'nin 17'ye bölünürlüğü bu kural ile hesaplanır."
+    ],
+    "relatedTerms": [
+      "On Üç'e Bölünebilme Kuralı",
+      "On Dokuz'a Bölünebilme Kuralı",
+      "Kalan"
+    ],
+    "order": 35
+  },
+  {
+    "id": "on_dokuz_a_bolunebilme_kurali",
+    "term": "19'a Bölünebilme Kuralı",
+    "definition": "Bir sayının 19'a tam bölünmesi için son basamağı 2 ile çarpıp sayıdan (son basamak hariç) kısma ekleyin, elde edilen sayı 19'a tam bölünmelidir. Bu yöntem KPSS'de asal sayı bölünebilmeleri için esastır.",
+    "examples": [
+      "38: 3 + 2×8 = 19, 19÷19=1 tam.",
+      "95: 9 + 2×5 = 19 tam.",
+      "KPSS sorusunda 114'in 19'a bölünmesi: 11 + 2×4=19 tam."
+    ],
+    "relatedTerms": [
+      "On Yedi'ye Bölünebilme Kuralı",
+      "Üç'e Bölünebilme Kuralı",
+      "Tam Bölünme"
+    ],
+    "order": 36
+  },
+  {
+    "id": "yirmi_bes_e_bolunebilme_kurali",
+    "term": "25'e Bölünebilme Kuralı",
+    "definition": "Bir sayı 25'e tam bölünüyorsa son iki basamağı 00, 25, 50 veya 75'tir. KPSS'de 100'ün katı sayılarla ilgili sorularda kullanılır.",
+    "examples": [
+      "1250 son iki 50, 1250÷25=50 tam.",
+      "1875 son iki 75, tam bölünür.",
+      "KPSS: 100'ün 25'e tam bölündüğünü son iki basamakla doğrula."
+    ],
+    "relatedTerms": [
+      "Beş'e Bölünebilme Kuralı",
+      "Dört'e Bölünebilme Kuralı",
+      "On'a Bölünebilme Kuralı"
+    ],
+    "order": 37
+  },
+  {
+    "id": "yuz_yirmi_bes_e_bolunebilme_kurali",
+    "term": "125'e Bölünebilme Kuralı",
+    "definition": "Bir sayı 125'e tam bölünüyorsa son üç basamağı 000, 125, 250, 375, 500, 625, 750 veya 875'tir. KPSS'de 5^3 ile ilgili testlerde sorulur.",
+    "examples": [
+      "1250 son üç 250, tam bölünür.",
+      "9375 son üç 375, 9375÷125=75 tam.",
+      "KPSS sorusu: 15625'in son üç basamağı 625 ile 125'e bölünür."
+    ],
+    "relatedTerms": [
+      "Yirmi Beş'e Bölünebilme Kuralı",
+      "Beş'e Bölünebilme Kuralı",
+      "Son Basamak Kuralı"
+    ],
+    "order": 38
+  },
+  {
+    "id": "on_alti_ya_bolunebilme_kurali",
+    "term": "16'ya Bölünebilme Kuralı",
+    "definition": "Bir sayı 16'ya tam bölünüyorsa son dört basamağı oluşturan sayı 16'ya tam bölünmelidir. KPSS'de 2^4 kuçüklü için son rakamlar kuralı uygulanır.",
+    "examples": [
+      "1232 son dört 1232÷16=77 tam.",
+      "10016 son dört 0016÷16=1 tam.",
+      "KPSS: Büyük sayının son dört basamağı ile 16'ya bölünürlük kontrolü."
+    ],
+    "relatedTerms": [
+      "Sekiz'e Bölünebilme Kuralı",
+      "Dört'e Bölünebilme Kuralı",
+      "Son Basamak Kuralı"
+    ],
+    "order": 39
+  },
+  {
+    "id": "seksen_bir_e_bolunebilme_kurali",
+    "term": "81'e Bölünebilme Kuralı",
+    "definition": "Bir sayı 81'e (3^4) tam bölünüyorsa rakamları toplamı 9'un tam katıdır ve ek kontroller yapılır. KPSS'de güçlü 3 kurallarıyla ilişkilendirilir.",
+    "examples": [
+      "81 rakam toplam 9, tam.",
+      "243: 2+4+3=9 tam.",
+      "KPSS sorusu: Rakam toplamı 18 olan sayının 81'e bölünürlüğü."
+    ],
+    "relatedTerms": [
+      "Dokuz'a Bölünebilme Kuralı",
+      "Üç'e Bölünebilme Kuralı",
+      "Rakamlar Toplamı Kuralı"
+    ],
+    "order": 40
+  },
+  {
+    "id": "asal_carpanlara_ayirma",
+    "term": "Asal Çarpanlara Ayırma",
+    "definition": "Bir sayının asal çarpanlarını bulma işlemidir; tekrarlanan bölme ile en küçük asal bölenlerden başlayarak yapılır. KPSS'de EBOB ve OKEK hesaplarında zorunludur.",
+    "examples": [
+      "12=2×2×3.",
+      "100=2²×5².",
+      "KPSS: 360'ın asal çarpanları 2³×3²×5 ile EBOB hesapla."
+    ],
+    "relatedTerms": [
+      "En Büyük Ortak Bölen (EBOB)",
+      "OBEB",
+      "Asal Sayı"
+    ],
+    "order": 41
+  },
+  {
+    "id": "euclid_algoritmasi",
+    "term": "Euclid Algoritması",
+    "definition": "İki sayının EBOB'unu bulmak için tekrarlı bölümleme: Büyük olanı küçüğe böl, kalanı al, devam et sıfır kalana kadar. KPSS'de en etkili EBOB hesaplama yöntemidir.",
+    "examples": [
+      "48 ve 18: 48=2×18+12, 18=1×12+6, 12=2×6+0, EBOB=6.",
+      "KPSS sorusu: 126 ve 231'in EBOB'u Euclid ile 21.",
+      "105 ve 45: Sonuç 15."
+    ],
+    "relatedTerms": [
+      "En Büyük Ortak Bölen (EBOB)",
+      "Bölme Algoritması",
+      "Kalan"
+    ],
+    "order": 42
+  },
+  {
+    "id": "bolme_lemmasi",
+    "term": "Bölme Lemması",
+    "definition": "Her iki doğal sayı a,b (b>0) için b = q*a + r şeklinde yazılır ki 0 ≤ r < a. KPSS'de kalan ve bölüm kavramlarının temelini oluşturur.",
+    "examples": [
+      "17÷5=3 kalan 2 (17=3*5+2).",
+      "100÷7=14 kalan 2.",
+      "KPSS: 123÷11=11 kalan 2 olarak yazılır."
+    ],
+    "relatedTerms": [
+      "Bölme Algoritması",
+      "Kalan",
+      "Bölüm"
+    ],
+    "order": 43
+  },
+  {
+    "id": "asal_sayi",
+    "term": "Asal Sayı",
+    "definition": "1'den büyük ve 1'den başka tam böleni olmayan doğal sayıdır. KPSS'de bölünebilme kurallarının temel taşıdır.",
+    "examples": [
+      "2,3,5,7,11,13 asal.",
+      "17 asal, böleni yok.",
+      "KPSS: 29'un asal olup 13'e bölünmediği doğrulanır."
+    ],
+    "relatedTerms": [
+      "Bileşik Sayı",
+      "Tam Bölünme",
+      "Bölen"
+    ],
+    "order": 44
+  },
+  {
+    "id": "bilesik_sayi",
+    "term": "Bileşik Sayı",
+    "definition": "1 ve kendisinden başka pozitif bölenleri olan 1'den büyük doğal sayıdır. KPSS'de asal çarpanlara ayırmada kullanılır.",
+    "examples": [
+      "4=2×2, 6=2×3 bileşik.",
+      "9=3×3 bileşik.",
+      "KPSS: 15'in bileşik olup 3 ve 5'e bölündüğü."
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Asal Çarpanlara Ayırma",
+      "Bölen"
+    ],
+    "order": 45
+  },
+  {
+    "id": "ortak_bolen",
+    "term": "Ortak Bölen",
+    "definition": "İki veya daha fazla sayının her birini tam bölen sayıdır. KPSS'de EBOB bulmada ilk adımdır.",
+    "examples": [
+      "12 ve 18'in ortak bölenleri 1,2,3,6.",
+      "20 ve 30: 1,2,5,10.",
+      "KPSS: 45 ve 60'ın ortak bölenleri arasından en büyüğü EBOB."
+    ],
+    "relatedTerms": [
+      "En Büyük Ortak Bölen (EBOB)",
+      "Bölen",
+      "Tam Bölünme"
+    ],
+    "order": 46
+  },
+  {
+    "id": "tam_kat",
+    "term": "Tam Kat",
+    "definition": "Bir sayı diğerinin tam böleni ile çarpımıdır, yani kalan olmadan bölünür. KPSS'de OKEK ve kat ilişkilerinde kullanılır.",
+    "examples": [
+      "24, 6'nın tam katı (4×6).",
+      "100, 25'in tam katı.",
+      "KPSS: 36'nın 12'nin tam katı olup olmadığı."
+    ],
+    "relatedTerms": [
+      "Tam Bölünme",
+      "OKEK",
+      "Bölünen"
+    ],
+    "order": 47
+  },
+  {
+    "id": "bolunebilme_iliskisi",
+    "term": "Bölünebilme İlişkisi",
+    "definition": "Eğer d|a ve a|b ise d|b (transitiflik); KPSS'de zincirleme bölünebilme sorularında geçerlidir. Bölünebilme kısmi sıralama ilişkisidir.",
+    "examples": [
+      "2|4 ve 4|8 ise 2|8.",
+      "3|6 ve 6|12 ise 3|12.",
+      "KPSS: 5|10|20 zincirinde 5|20."
+    ],
+    "relatedTerms": [
+      "Tam Bölünme",
+      "Bölen",
+      "En Büyük Ortak Bölen (EBOB)"
+    ],
+    "order": 48
+  },
+  {
+    "id": "yuze_bolunebilme_kurali",
+    "term": "Yüz'e Bölünebilme Kuralı",
+    "definition": "Bir tam sayının 100'e tam bölünebilmesi için son iki basamağının 00 olması gerekir. Bu kural, sayının 100'ün katı olup olmadığını hızlıca belirler.",
+    "examples": [
+      "5600'ün son iki basamağı 00 olduğundan 100'e tam bölünür (5600 ÷ 100 = 56).",
+      "12300 son iki 00 ile 100'e bölünür.",
+      "4567 son iki 67 ile 100'e bölünmez."
+    ],
+    "relatedTerms": [
+      "On'a Bölünebilme Kuralı",
+      "Dört'e Bölünebilme Kuralı",
+      "Son Basamak Kuralı",
+      "Beş'e Bölünebilme Kuralı"
+    ],
+    "order": 49
+  },
+  {
+    "id": "yedi_ye_bolunebilme_kurali",
+    "term": "7'ye Bölünebilme Kuralı",
+    "definition": "Bir sayının 7'ye tam bölünüp bölünmediğini anlamak için, sayının kalan kısmından (y) son rakamın (x) iki katını (2x) çıkarılır; elde edilen sayı 7'ye tam bölünürse orijinal sayı da 7'ye tam bölünür. İşlem gerektiğinde kalan sayıya tekrar uygulanır. KPSS'de sıkça test edilen pratik bir bölünebilme kriteridir.",
+    "examples": [
+      "49 sayısı: y=4, x=9; 4 - 2×9 = -14, -14 ÷ 7 tam bölünür.",
+      "343 sayısı: y=34, x=3; 34 - 2×3 = 28, 28 ÷ 7 = 4 tam.",
+      "123 sayısı: y=12, x=3; 12 - 2×3 = 6, 6 ÷ 7 tam bölünmez."
+    ],
+    "relatedTerms": [
+      "Tam Bölünme",
+      "Kalan",
+      "Bölen",
+      "Euclid Algoritması"
+    ],
+    "order": 50
+  },
+  {
+    "id": "on_ikiye_bolunebilme",
+    "term": "On İkiye Bölünebilme Kuralı",
+    "definition": "Bir sayının 12'ye tam bölünebilmesi için hem 3'e hem de 4'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması zorunludur.",
+    "examples": [
+      "240 sayısı hem 3'e (2+4+0=6) hem de 4'e (40) bölündüğü için 12'ye tam bölünür.",
+      "132 sayısı hem 3'e (1+3+2=6) hem de 4'e (32) bölündüğü için 12'ye tam bölünür.",
+      "360 sayısı hem 3'e (3+6+0=9) hem de 4'e (60) bölündüğü için 12'ye tam bölünür."
+    ],
+    "relatedTerms": [
+      "Üç'e Bölünebilme Kuralı",
+      "Dört'e Bölünebilme Kuralı",
+      "Ortak Bölen"
+    ],
+    "order": 51
+  },
+  {
+    "id": "on_bes_bolunebilme",
+    "term": "On Beşe Bölünebilme Kuralı",
+    "definition": "Bir sayının 15'e tam bölünebilmesi için hem 3'e hem de 5'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması gereklidir.",
+    "examples": [
+      "150 sayısı hem 3'e (1+5+0=6) hem de 5'e (sonu 0) bölündüğü için 15'e tam bölünür.",
+      "225 sayısı hem 3'e (2+2+5=9) hem de 5'e (sonu 5) bölündüğü için 15'e tam bölünür.",
+      "300 sayısı hem 3'e (3+0+0=3) hem de 5'e (sonu 0) bölündüğü için 15'e tam bölünür."
+    ],
+    "relatedTerms": [
+      "Üç'e Bölünebilme Kuralı",
+      "Beş'e Bölünebilme Kuralı",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 52
+  },
+  {
+    "id": "yirmi_bes_bolunebilme",
+    "term": "Yirmi Beşe Bölünebilme Kuralı",
+    "definition": "Bir sayının son iki basamağının 00, 25, 50 veya 75 olması durumunda o sayı 25'e tam bölünür. Bu, sayının son iki basamağının 25'in katı olması anlamına gelir.",
+    "examples": [
+      "125 sayısı son iki basamağı 25 olduğu için 25'e tam bölünür.",
+      "350 sayısı son iki basamağı 50 olduğu için 25'e tam bölünür.",
+      "1075 sayısı son iki basamağı 75 olduğu için 25'e tam bölünür."
+    ],
+    "relatedTerms": [
+      "Son Basamak Kuralı",
+      "Yüz'e Bölünebilme Kuralı",
+      "Kalan Kavramı"
+    ],
+    "order": 53
+  },
+  {
+    "id": "yuz_bolunebilme",
+    "term": "Yüze Bölünebilme Kuralı",
+    "definition": "Bir sayının 100'e tam bölünebilmesi için sayının son iki basamağının 00 olması gerekir. Bu, sayının 10'un karesine tam bölünmesi anlamına gelir.",
+    "examples": [
+      "500 sayısı son iki basamağı 00 olduğu için 100'e tam bölünür.",
+      "1200 sayısı son iki basamağı 00 olduğu için 100'e tam bölünür.",
+      "3400 sayısı son iki basamağı 00 olduğu için 100'e tam bölünür."
+    ],
+    "relatedTerms": [
+      "On'a Bölünebilme Kuralı",
+      "Yirmi Beşe Bölünebilme Kuralı",
+      "Tam Bölünme"
+    ],
+    "order": 54
+  },
+  {
+    "id": "yuz_elli_bolunebilme",
+    "term": "Yüz Elli'ye Bölünebilme Kuralı",
+    "definition": "Bir sayının 150'ye tam bölünebilmesi için hem 2'ye, hem 3'e hem de 5'e tam bölünmesi gerekir. Bu, sayının 2, 3 ve 5'in ortak katı olması anlamına gelir.",
+    "examples": [
+      "300 sayısı 2'ye (sonu çift), 3'e (3+0+0=3) ve 5'e (sonu 0) bölündüğü için 150'ye tam bölünür.",
+      "600 sayısı 2'ye (sonu çift), 3'e (6+0+0=6) ve 5'e (sonu 0) bölündüğü için 150'ye tam bölünür.",
+      "900 sayısı 2'ye (sonu çift), 3'e (9+0+0=9) ve 5'e (sonu 0) bölündüğü için 150'ye tam bölünür."
+    ],
+    "relatedTerms": [
+      "İki'ye Bölünebilme Kuralı",
+      "Üç'e Bölünebilme Kuralı",
+      "Beş'e Bölünebilme Kuralı",
+      "OKEK"
+    ],
+    "order": 55
+  },
+  {
+    "id": "yuz_yetmis_bes_bolunebilme",
+    "term": "Yüz Yetmiş Beşe Bölünebilme Kuralı",
+    "definition": "Bir sayının 175'e tam bölünebilmesi için hem 7'ye hem de 25'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması zorunludur.",
+    "examples": [
+      "350 sayısı 7'ye (350/7=50) ve 25'e (son iki basamağı 50) bölündüğü için 175'e tam bölünür.",
+      "700 sayısı 7'ye (700/7=100) ve 25'e (son iki basamağı 00) bölündüğü için 175'e tam bölünür.",
+      "1050 sayısı 7'ye (1050/7=150) ve 25'e (son iki basamağı 50) bölündüğü için 175'e tam bölünür."
+    ],
+    "relatedTerms": [
+      "Yedi'ye Bölünebilme Kuralı",
+      "Yirmi Beşe Bölünebilme Kuralı",
+      "Ortak Bölen"
+    ],
+    "order": 56
+  },
+  {
+    "id": "iki_yuz_elli_bolunebilme",
+    "term": "İki Yüz Elli'ye Bölünebilme Kuralı",
+    "definition": "Bir sayının 250'ye tam bölünebilmesi için hem 2'ye hem de 125'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması zorunludur.",
+    "examples": [
+      "500 sayısı 2'ye (sonu çift) ve 125'e (son üç basamağı 500) bölündüğü için 250'ye tam bölünür.",
+      "1000 sayısı 2'ye (sonu çift) ve 125'e (son üç basamağı 000) bölündüğü için 250'ye tam bölünür.",
+      "1500 sayısı 2'ye (sonu çift) ve 125'e (son üç basamağı 500) bölündüğü için 250'ye tam bölünür."
+    ],
+    "relatedTerms": [
+      "İki'ye Bölünebilme Kuralı",
+      "Yüz Yirmi Beş'e Bölünebilme Kuralı",
+      "OKEK"
+    ],
+    "order": 57
+  },
+  {
+    "id": "bes_yuz_bolunebilme",
+    "term": "Beş Yüz'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 500'e tam bölünebilmesi için hem 4'e hem de 125'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması zorunludur.",
+    "examples": [
+      "1000 sayısı 4'e (son iki basamağı 00) ve 125'e (son üç basamağı 000) bölündüğü için 500'e tam bölünür.",
+      "2000 sayısı 4'e (son iki basamağı 00) ve 125'e (son üç basamağı 000) bölündüğü için 500'e tam bölünür.",
+      "2500 sayısı 4'e (son iki basamağı 00) ve 125'e (son üç basamağı 500) bölündüğü için 500'e tam bölünür."
+    ],
+    "relatedTerms": [
+      "Dört'e Bölünebilme Kuralı",
+      "Yüz Yirmi Beş'e Bölünebilme Kuralı",
+      "Ortak Bölen"
+    ],
+    "order": 58
+  },
+  {
+    "id": "bin_bolunebilme",
+    "term": "Bin'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 1000'e tam bölünebilmesi için sayının son üç basamağının 000 olması gerekir. Bu, sayının 10'un küpüne tam bölünmesi anlamına gelir.",
+    "examples": [
+      "7000 sayısı son üç basamağı 000 olduğu için 1000'e tam bölünür.",
+      "15000 sayısı son üç basamağı 000 olduğu için 1000'e tam bölünür.",
+      "23000 sayısı son üç basamağı 000 olduğu için 1000'e tam bölünür."
+    ],
+    "relatedTerms": [
+      "On'a Bölünebilme Kuralı",
+      "Yüz'e Bölünebilme Kuralı",
+      "Tam Bölünme"
+    ],
+    "order": 59
+  },
+  {
+    "id": "asal_carpan_kavrami",
+    "term": "Asal Çarpan Kavramı",
+    "definition": "Bir sayıyı oluşturan ve kendisinden ve 1'den başka pozitif böleni olmayan sayılara asal çarpan denir. Bir sayının asal çarpanlarına ayrılması, o sayıyı asal sayıların çarpımı şeklinde yazmaktır.",
+    "examples": [
+      "12 sayısının asal çarpanları 2 ve 3'tür (12 = 2 x 2 x 3).",
+      "30 sayısının asal çarpanları 2, 3 ve 5'tir (30 = 2 x 3 x 5).",
+      "45 sayısının asal çarpanları 3 ve 5'tir (45 = 3 x 3 x 5)."
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Bileşik Sayı",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 60
+  },
+  {
+    "id": "asal_sayi_kavrami",
+    "term": "Asal Sayı Kavramı",
+    "definition": "1'den büyük, kendisi ve 1 dışında pozitif tam böleni olmayan doğal sayılara asal sayı denir. En küçük asal sayı 2'dir ve tek çift asal sayıdır.",
+    "examples": [
+      "2, 3, 5, 7, 11, 13 asal sayılardır.",
+      "4 sayısı asal değildir çünkü 1, 2 ve 4'e bölünür.",
+      "1 sayısı asal değildir."
+    ],
+    "relatedTerms": [
+      "Bileşik Sayı",
+      "Asal Çarpan Kavramı",
+      "Ortak Bölen"
+    ],
+    "order": 61
+  },
+  {
+    "id": "bileşik_sayi_kavrami",
+    "term": "Bileşik Sayı Kavramı",
+    "definition": "1'den büyük, asal olmayan doğal sayılara bileşik sayı denir. Bileşik sayılar en az üç pozitif tam bölene sahiptir.",
+    "examples": [
+      "4, 6, 8, 9, 10, 12 bileşik sayılardır.",
+      "4 sayısının bölenleri 1, 2, 4'tür.",
+      "6 sayısının bölenleri 1, 2, 3, 6'dır."
+    ],
+    "relatedTerms": [
+      "Asal Sayı",
+      "Asal Çarpan Kavramı",
+      "Tam Kat"
+    ],
+    "order": 62
+  },
+  {
+    "id": "ebob_ekok_iliskisi",
+    "term": "EBOB ve EKOK İlişkisi",
+    "definition": "İki pozitif tam sayının çarpımı, bu iki sayının en büyük ortak böleni (EBOB) ile en küçük ortak katının (EKOK) çarpımına eşittir. Yani, a x b = EBOB(a, b) x EKOK(a, b).",
+    "examples": [
+      "a=6, b=8 için EBOB(6,8)=2 ve EKOK(6,8)=24'tür. 6 x 8 = 48 ve 2 x 24 = 48. İlişki sağlanır.",
+      "a=10, b=15 için EBOB(10,15)=5 ve EKOK(10,15)=30'dur. 10 x 15 = 150 ve 5 x 30 = 150. İlişki sağlanır.",
+      "a=7, b=5 için EBOB(7,5)=1 ve EKOK(7,5)=35'tir. 7 x 5 = 35 ve 1 x 35 = 35. İlişki sağlanır."
+    ],
+    "relatedTerms": [
+      "En Büyük Ortak Bölen (EBOB)",
+      "OKEK",
+      "Ortak Bölen",
+      "Tam Kat"
+    ],
+    "order": 63
+  },
+  {
+    "id": "ardışık_sayıların_ebob_ekok",
+    "term": "Ardışık Sayıların EBOB ve EKOK'u",
+    "definition": "İki ardışık pozitif tam sayının en büyük ortak böleni (EBOB) her zaman 1'dir. Bu iki sayının en küçük ortak katı (EKOK) ise bu iki sayının çarpımına eşittir.",
+    "examples": [
+      "Ardışık sayılar 5 ve 6 için EBOB(5,6)=1 ve EKOK(5,6)=5x6=30'dur.",
+      "Ardışık sayılar 10 ve 11 için EBOB(10,11)=1 ve EKOK(10,11)=10x11=110'dur.",
+      "Ardışık sayılar 20 ve 21 için EBOB(20,21)=1 ve EKOK(20,21)=20x21=420'dir."
+    ],
+    "relatedTerms": [
+      "En Büyük Ortak Bölen (EBOB)",
+      "OKEK",
+      "Asal Sayı",
+      "Tam Kat"
+    ],
+    "order": 64
+  },
+  {
+    "id": "asal_çarpan_ile_ebob_ekok",
+    "term": "Asal Çarpanlar ile EBOB ve EKOK Bulma",
+    "definition": "İki sayının EBOB'u, ortak asal çarpanların en küçük üslü olanlarının çarpımıdır. EKOK'u ise tüm asal çarpanların en büyük üslü olanlarının çarpımıdır.",
+    "examples": [
+      "12 = 2^2 x 3, 18 = 2 x 3^2. EBOB(12,18) = 2^1 x 3^1 = 6. EKOK(12,18) = 2^2 x 3^2 = 36.",
+      "24 = 2^3 x 3, 36 = 2^2 x 3^2. EBOB(24,36) = 2^2 x 3^1 = 12. EKOK(24,36) = 2^3 x 3^2 = 72.",
+      "40 = 2^3 x 5, 60 = 2^2 x 3 x 5. EBOB(40,60) = 2^2 x 5^1 = 20. EKOK(40,60) = 2^3 x 3^1 x 5^1 = 120."
+    ],
+    "relatedTerms": [
+      "En Büyük Ortak Bölen (EBOB)",
+      "OKEK",
+      "Asal Çarpan Kavramı",
+      "Üslü Sayılar"
+    ],
+    "order": 65
+  },
+  {
+    "id": "bölünebilme_ile_kalan",
+    "term": "Bölünebilme ve Kalan İlişkisi",
+    "definition": "Bir sayının belirli bir sayıya tam bölünmesi, o sayıya bölündüğünde kalanın 0 olması anlamına gelir. Eğer kalan 0'dan farklı ise, sayı tam bölünmemiş demektir.",
+    "examples": [
+      "15 sayısı 3'e tam bölünür çünkü 15 / 3 = 5 ve kalan 0'dır.",
+      "17 sayısı 3'e tam bölünmez çünkü 17 / 3 = 5 ve kalan 2'dir.",
+      "20 sayısı 4'e tam bölünür çünkü 20 / 4 = 5 ve kalan 0'dır."
+    ],
+    "relatedTerms": [
+      "Tam Bölünme",
+      "Kalan",
+      "Bölen",
+      "Bölünen"
+    ],
+    "order": 66
+  },
+  {
+    "id": "bölme_algoritması_kavrami",
+    "term": "Bölme Algoritması Kavramı",
+    "definition": "Herhangi iki pozitif tam sayı olan a (bölünen) ve b (bölen) için, a = b.q + r eşitliğini sağlayan tek bir q (bölüm) ve r (kalan) tam sayıları vardır. Burada 0 ≤ r < b şartı sağlanır.",
+    "examples": [
+      "23 sayısını 5'e böldüğümüzde: 23 = 5.4 + 3. Burada a=23, b=5, q=4, r=3.",
+      "17 sayısını 3'e böldüğümüzde: 17 = 3.5 + 2. Burada a=17, b=3, q=5, r=2.",
+      "30 sayısını 6'ya böldüğümüzde: 30 = 6.5 + 0. Burada a=30, b=6, q=5, r=0."
+    ],
+    "relatedTerms": [
+      "Bölünen",
+      "Bölen",
+      "Bölüm",
+      "Kalan"
+    ],
+    "order": 67
+  },
+  {
+    "id": "rakamlar_toplami_ve_bolunebilme",
+    "term": "Rakamlar Toplamı ile Bölünebilme",
+    "definition": "Bir sayının rakamları toplamı, o sayının 3'e ve 9'a bölünebilirliği hakkında bilgi verir. Sayının rakamları toplamı 3'e (veya 9'a) bölünüyorsa, sayı da 3'e (veya 9'a) tam bölünür.",
+    "examples": [
+      "123 sayısının rakamları toplamı 1+2+3=6'dır. 6, 3'e bölündüğü için 123 de 3'e tam bölünür.",
+      "459 sayısının rakamları toplamı 4+5+9=18'dir. 18, 9'a bölündüğü için 459 da 9'a tam bölünür.",
+      "781 sayısının rakamları toplamı 7+8+1=16'dır. 16, 3'e veya 9'a tam bölünmediği için 781 de tam bölünmez."
+    ],
+    "relatedTerms": [
+      "Üç'e Bölünebilme Kuralı",
+      "Dokuz'a Bölünebilme Kuralı",
+      "Rakamlar Toplamı Kuralı"
+    ],
+    "order": 68
+  },
+  {
+    "id": "son_basamak_ile_bolunebilme",
+    "term": "Son Basamak ile Bölünebilme",
+    "definition": "Bir sayının 2, 5 ve 10'a bölünebilirliği doğrudan son basamağına bakılarak anlaşılır. 4, 8, 25, 125 gibi sayılara bölünebilirlik için ise son birkaç basamağa bakılır.",
+    "examples": [
+      "Bir sayının son basamağı çift ise 2'ye tam bölünür (örn: 124).",
+      "Bir sayının son basamağı 0 veya 5 ise 5'e tam bölünür (örn: 345).",
+      "Bir sayının son basamağı 0 ise 10'a tam bölünür (örn: 560)."
+    ],
+    "relatedTerms": [
+      "İki'ye Bölünebilme Kuralı",
+      "Beş'e Bölünebilme Kuralı",
+      "On'a Bölünebilme Kuralı",
+      "Son Basamak Kuralı"
+    ],
+    "order": 69
+  },
+  {
+    "id": "euclid_algoritmasi_kavrami",
+    "term": "Euclid Algoritması Kavramı",
+    "definition": "İki pozitif tam sayının en büyük ortak bölenini (EBOB) bulmak için kullanılan etkili bir yöntemdir. Bu algoritma, ardışık olarak bölme ve kalanları kullanarak EBOB'a ulaşır.",
+    "examples": [
+      "EBOB(48, 18) için: 48 = 18.2 + 12; 18 = 12.1 + 6; 12 = 6.2 + 0. Kalan 0 olunca, son kalan bölen 6'dır. EBOB(48,18)=6.",
+      "EBOB(105, 30) için: 105 = 30.3 + 15; 30 = 15.2 + 0. Kalan 0 olunca, son kalan bölen 15'tir. EBOB(105,30)=15.",
+      "EBOB(72, 54) için: 72 = 54.1 + 18; 54 = 18.3 + 0. Kalan 0 olunca, son kalan bölen 18'dir. EBOB(72,54)=18."
+    ],
+    "relatedTerms": [
+      "En Büyük Ortak Bölen (EBOB)",
+      "Bölme Algoritması Kavramı",
+      "Ortak Bölen"
+    ],
+    "order": 70
+  },
+  {
+    "id": "onaltiya_bolunebilme",
+    "term": "On Altıya Bölünebilme Kuralı",
+    "definition": "Bir sayının 16'ya tam bölünebilmesi için, sayının son dört basamağının oluşturduğu sayının 16'ya tam bölünmesi gerekir. Bu kural, 16'nın asal çarpanları olan 2'nin kuvvetlerinden gelir.",
+    "examples": [
+      "1256 sayısı son dört basamağı 1256'dır. 1256 / 16 = 78.5, tam bölünmez.",
+      "3072 sayısı son dört basamağı 3072'dir. 3072 / 16 = 192. Tam bölünür.",
+      "10000 sayısı son dört basamağı 0000'dır. 0, 16'ya tam bölündüğü için 10000 de tam bölünür."
+    ],
+    "relatedTerms": [
+      "Sekiz'e Bölünebilme Kuralı",
+      "Asal Çarpanlara Ayırma",
+      "Kalan Kavramı"
+    ],
+    "order": 71
+  },
+  {
+    "id": "seksen_bir_bolunebilme",
+    "term": "Seksen Bir'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 81'e tam bölünebilmesi için, sayının rakamları toplamının 9'a tam bölünmesi ve bu toplamın da 9'a bölündüğünde elde edilen sonucun tekrar 9'a tam bölünmesi gerekir. Bu, sayının 3'ün 4. kuvvetine bölünmesiyle ilgilidir.",
+    "examples": [
+      "162 sayısı rakamları toplamı 1+6+2=9'dur. 9, 9'a bölünür. 9/9=1. 1, 9'a bölünmez. 162, 81'e tam bölünmez.",
+      "324 sayısı rakamları toplamı 3+2+4=9'dur. 9, 9'a bölünür. 9/9=1. 1, 9'a bölünmez. 324, 81'e tam bölünmez.",
+      "6561 sayısı rakamları toplamı 6+5+6+1=18'dir. 18, 9'a bölünür. 18/9=2. 2, 9'a bölünmez. 6561, 81'e tam bölünmez."
+    ],
+    "relatedTerms": [
+      "Dokuz'a Bölünebilme Kuralı",
+      "Üç'e Bölünebilme Kuralı",
+      "Rakamlar Toplamı Kuralı"
+    ],
+    "order": 72
+  },
+  {
+    "id": "bolunebilme_kuralı_12",
+    "term": "12'ye Bölünebilme Kuralı",
+    "definition": "Bir sayının 12'ye tam bölünebilmesi için hem 3'e hem de 4'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması şarttır.",
+    "examples": [
+      "132 için: Son iki basamağı 32, 4'e bölünür. Rakamları toplamı 1+3+2=6, 3'e bölünür. Bu nedenle 132, 12'ye bölünür.",
+      "240 için: Son iki basamağı 40, 4'e bölünür. Rakamları toplamı 2+4+0=6, 3'e bölünür. Bu nedenle 240, 12'ye bölünür.",
+      "360 için: Son iki basamağı 60, 4'e bölünür. Rakamları toplamı 3+6+0=9, 3'e bölünür. Bu nedenle 360, 12'ye bölünür."
+    ],
+    "relatedTerms": [
+      "3'e Bölünebilme Kuralı",
+      "4'e Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 73
+  },
+  {
+    "id": "bolunebilme_kuralı_15",
+    "term": "15'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 15'e tam bölünebilmesi için hem 3'e hem de 5'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması zorunludur.",
+    "examples": [
+      "150 için: Son basamağı 0, 5'e bölünür. Rakamları toplamı 1+5+0=6, 3'e bölünür. Bu nedenle 150, 15'e bölünür.",
+      "375 için: Son basamağı 5, 5'e bölünür. Rakamları toplamı 3+7+5=15, 3'e bölünür. Bu nedenle 375, 15'e bölünür.",
+      "420 için: Son basamağı 0, 5'e bölünür. Rakamları toplamı 4+2+0=6, 3'e bölünür. Bu nedenle 420, 15'e bölünür."
+    ],
+    "relatedTerms": [
+      "3'e Bölünebilme Kuralı",
+      "5'e Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 74
+  },
+  {
+    "id": "bolunebilme_kuralı_18",
+    "term": "18'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 18'e tam bölünebilmesi için hem 2'ye hem de 9'a tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması gerekmektedir.",
+    "examples": [
+      "162 için: Son basamağı 2, 2'ye bölünür. Rakamları toplamı 1+6+2=9, 9'a bölünür. Bu nedenle 162, 18'e bölünür.",
+      "378 için: Son basamağı 8, 2'ye bölünür. Rakamları toplamı 3+7+8=18, 9'a bölünür. Bu nedenle 378, 18'e bölünür.",
+      "540 için: Son basamağı 0, 2'ye bölünür. Rakamları toplamı 5+4+0=9, 9'a bölünür. Bu nedenle 540, 18'e bölünür."
+    ],
+    "relatedTerms": [
+      "2'ye Bölünebilme Kuralı",
+      "9'a Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 75
+  },
+  {
+    "id": "bolunebilme_kuralı_20",
+    "term": "20'ye Bölünebilme Kuralı",
+    "definition": "Bir sayının 20'ye tam bölünebilmesi için hem 4'e hem de 5'e tam bölünmesi gerekir. Bu iki koşulun birlikte sağlanması şarttır.",
+    "examples": [
+      "140 için: Son iki basamağı 40, 4'e bölünür. Son basamağı 0, 5'e bölünür. Bu nedenle 140, 20'ye bölünür.",
+      "260 için: Son iki basamağı 60, 4'e bölünür. Son basamağı 0, 5'e bölünür. Bu nedenle 260, 20'ye bölünür.",
+      "480 için: Son iki basamağı 80, 4'e bölünür. Son basamağı 0, 5'e bölünür. Bu nedenle 480, 20'ye bölünür."
+    ],
+    "relatedTerms": [
+      "4'e Bölünebilme Kuralı",
+      "5'e Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 76
+  },
+  {
+    "id": "bolunebilme_kuralı_24",
+    "term": "24'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 24'e tam bölünebilmesi için hem 3'e hem de 8'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması gereklidir.",
+    "examples": [
+      "192 için: Son üç basamağı 192, 8'e bölünür. Rakamları toplamı 1+9+2=12, 3'e bölünür. Bu nedenle 192, 24'e bölünür.",
+      "384 için: Son üç basamağı 384, 8'e bölünür. Rakamları toplamı 3+8+4=15, 3'e bölünür. Bu nedenle 384, 24'e bölünür.",
+      "576 için: Son üç basamağı 576, 8'e bölünür. Rakamları toplamı 5+7+6=18, 3'e bölünür. Bu nedenle 576, 24'e bölünür."
+    ],
+    "relatedTerms": [
+      "3'e Bölünebilme Kuralı",
+      "8'e Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 77
+  },
+  {
+    "id": "bolunebilme_kuralı_30",
+    "term": "30'a Bölünebilme Kuralı",
+    "definition": "Bir sayının 30'a tam bölünebilmesi için hem 3'e hem de 10'a tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması şarttır.",
+    "examples": [
+      "150 için: Son basamağı 0, 10'a bölünür. Rakamları toplamı 1+5+0=6, 3'e bölünür. Bu nedenle 150, 30'a bölünür.",
+      "270 için: Son basamağı 0, 10'a bölünür. Rakamları toplamı 2+7+0=9, 3'e bölünür. Bu nedenle 270, 30'a bölünür.",
+      "480 için: Son basamağı 0, 10'a bölünür. Rakamları toplamı 4+8+0=12, 3'e bölünür. Bu nedenle 480, 30'a bölünür."
+    ],
+    "relatedTerms": [
+      "3'e Bölünebilme Kuralı",
+      "10'a Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 78
+  },
+  {
+    "id": "bolunebilme_kuralı_36",
+    "term": "36'ya Bölünebilme Kuralı",
+    "definition": "Bir sayının 36'ya tam bölünebilmesi için hem 4'e hem de 9'a tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması zorunludur.",
+    "examples": [
+      "180 için: Son iki basamağı 80, 4'e bölünür. Rakamları toplamı 1+8+0=9, 9'a bölünür. Bu nedenle 180, 36'ya bölünür.",
+      "252 için: Son iki basamağı 52, 4'e bölünür. Rakamları toplamı 2+5+2=9, 9'a bölünür. Bu nedenle 252, 36'ya bölünür.",
+      "396 için: Son iki basamağı 96, 4'e bölünür. Rakamları toplamı 3+9+6=18, 9'a bölünür. Bu nedenle 396, 36'ya bölünür."
+    ],
+    "relatedTerms": [
+      "4'e Bölünebilme Kuralı",
+      "9'a Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 79
+  },
+  {
+    "id": "bolunebilme_kuralı_45",
+    "term": "45'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 45'e tam bölünebilmesi için hem 5'e hem de 9'a tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması gereklidir.",
+    "examples": [
+      "225 için: Son basamağı 5, 5'e bölünür. Rakamları toplamı 2+2+5=9, 9'a bölünür. Bu nedenle 225, 45'e bölünür.",
+      "360 için: Son basamağı 0, 5'e bölünür. Rakamları toplamı 3+6+0=9, 9'a bölünür. Bu nedenle 360, 45'e bölünür.",
+      "540 için: Son basamağı 0, 5'e bölünür. Rakamları toplamı 5+4+0=9, 9'a bölünür. Bu nedenle 540, 45'e bölünür."
+    ],
+    "relatedTerms": [
+      "5'e Bölünebilme Kuralı",
+      "9'a Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 80
+  },
+  {
+    "id": "bolunebilme_kuralı_50",
+    "term": "50'ye Bölünebilme Kuralı",
+    "definition": "Bir sayının 50'ye tam bölünebilmesi için hem 2'ye hem de 25'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması şarttır.",
+    "examples": [
+      "100 için: Son iki basamağı 00, 25'e bölünür. Son basamağı 0, 2'ye bölünür. Bu nedenle 100, 50'ye bölünür.",
+      "250 için: Son iki basamağı 50, 25'e bölünür. Son basamağı 0, 2'ye bölünür. Bu nedenle 250, 50'ye bölünür.",
+      "400 için: Son iki basamağı 00, 25'e bölünür. Son basamağı 0, 2'ye bölünür. Bu nedenle 400, 50'ye bölünür."
+    ],
+    "relatedTerms": [
+      "2'ye Bölünebilme Kuralı",
+      "25'e Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 81
+  },
+  {
+    "id": "bolunebilme_kuralı_75",
+    "term": "75'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 75'e tam bölünebilmesi için hem 3'e hem de 25'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması gereklidir.",
+    "examples": [
+      "225 için: Son iki basamağı 25, 25'e bölünür. Rakamları toplamı 2+2+5=9, 3'e bölünür. Bu nedenle 225, 75'e bölünür.",
+      "450 için: Son iki basamağı 50, 25'e bölünür. Rakamları toplamı 4+5+0=9, 3'e bölünür. Bu nedenle 450, 75'e bölünür.",
+      "675 için: Son iki basamağı 75, 25'e bölünür. Rakamları toplamı 6+7+5=18, 3'e bölünür. Bu nedenle 675, 75'e bölünür."
+    ],
+    "relatedTerms": [
+      "3'e Bölünebilme Kuralı",
+      "25'e Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 82
+  },
+  {
+    "id": "bolunebilme_kuralı_100",
+    "term": "100'e Bölünebilme Kuralı",
+    "definition": "Bir sayının son iki basamağının 00 olması durumunda o sayı 100'e tam bölünür. Bu kural, 100'ün 4 ve 25'in çarpımı olmasından kaynaklanır.",
+    "examples": [
+      "1200 için: Son iki basamağı 00'dır. Bu nedenle 1200, 100'e bölünür.",
+      "3500 için: Son iki basamağı 00'dır. Bu nedenle 3500, 100'e bölünür.",
+      "7800 için: Son iki basamağı 00'dır. Bu nedenle 7800, 100'e bölünür."
+    ],
+    "relatedTerms": [
+      "4'e Bölünebilme Kuralı",
+      "25'e Bölünebilme Kuralı",
+      "Son Basamak ile Bölünebilme"
+    ],
+    "order": 83
+  },
+  {
+    "id": "bolunebilme_kuralı_120",
+    "term": "120'ye Bölünebilme Kuralı",
+    "definition": "Bir sayının 120'ye tam bölünebilmesi için hem 3'e hem de 40'a tam bölünmesi gerekir. Bu iki koşulun birlikte sağlanması şarttır.",
+    "examples": [
+      "240 için: Son üç basamağı 240, 40'a bölünür. Rakamları toplamı 2+4+0=6, 3'e bölünür. Bu nedenle 240, 120'ye bölünür.",
+      "360 için: Son üç basamağı 360, 40'a bölünür. Rakamları toplamı 3+6+0=9, 3'e bölünür. Bu nedenle 360, 120'ye bölünür.",
+      "720 için: Son üç basamağı 720, 40'a bölünür. Rakamları toplamı 7+2+0=9, 3'e bölünür. Bu nedenle 720, 120'ye bölünür."
+    ],
+    "relatedTerms": [
+      "3'e Bölünebilme Kuralı",
+      "40'a Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 84
+  },
+  {
+    "id": "bolunebilme_kuralı_150",
+    "term": "150'ye Bölünebilme Kuralı",
+    "definition": "Bir sayının 150'ye tam bölünebilmesi için hem 2'ye hem de 75'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması gereklidir.",
+    "examples": [
+      "300 için: Son iki basamağı 00, 75'e bölünmez (ancak 75'in katı olan 00, 75'e bölünür). Son basamağı 0, 2'ye bölünür. Bu nedenle 300, 150'ye bölünür.",
+      "450 için: Son iki basamağı 50, 75'e bölünmez. Rakamları toplamı 4+5+0=9, 3'e bölünür. Son basamağı 0, 2'ye bölünür. Bu nedenle 450, 150'ye bölünür.",
+      "600 için: Son iki basamağı 00, 75'e bölünür. Son basamağı 0, 2'ye bölünür. Bu nedenle 600, 150'ye bölünür."
+    ],
+    "relatedTerms": [
+      "2'ye Bölünebilme Kuralı",
+      "75'e Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 85
+  },
+  {
+    "id": "bolunebilme_kuralı_175",
+    "term": "175'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 175'e tam bölünebilmesi için hem 7'ye hem de 25'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması şarttır.",
+    "examples": [
+      "350 için: Son iki basamağı 50, 25'e bölünür. 350, 7'ye bölünür. Bu nedenle 350, 175'e bölünür.",
+      "525 için: Son iki basamağı 25, 25'e bölünür. 525, 7'ye bölünür. Bu nedenle 525, 175'e bölünür.",
+      "700 için: Son iki basamağı 00, 25'e bölünür. 700, 7'ye bölünür. Bu nedenle 700, 175'e bölünür."
+    ],
+    "relatedTerms": [
+      "7'ye Bölünebilme Kuralı",
+      "25'e Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 86
+  },
+  {
+    "id": "bolunebilme_kuralı_200",
+    "term": "200'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 200'e tam bölünebilmesi için hem 8'e hem de 100'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması gereklidir.",
+    "examples": [
+      "1600 için: Son üç basamağı 600, 8'e bölünür. Son iki basamağı 00, 100'e bölünür. Bu nedenle 1600, 200'e bölünür.",
+      "2400 için: Son üç basamağı 400, 8'e bölünür. Son iki basamağı 00, 100'e bölünür. Bu nedenle 2400, 200'e bölünür.",
+      "4000 için: Son üç basamağı 000, 8'e bölünür. Son iki basamağı 00, 100'e bölünür. Bu nedenle 4000, 200'e bölünür."
+    ],
+    "relatedTerms": [
+      "8'e Bölünebilme Kuralı",
+      "100'e Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 87
+  },
+  {
+    "id": "bolunebilme_kuralı_225",
+    "term": "225'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 225'e tam bölünebilmesi için hem 9'a hem de 25'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması şarttır.",
+    "examples": [
+      "450 için: Son iki basamağı 50, 25'e bölünür. Rakamları toplamı 4+5+0=9, 9'a bölünür. Bu nedenle 450, 225'e bölünür.",
+      "675 için: Son iki basamağı 75, 25'e bölünür. Rakamları toplamı 6+7+5=18, 9'a bölünür. Bu nedenle 675, 225'e bölünür.",
+      "900 için: Son iki basamağı 00, 25'e bölünür. Rakamları toplamı 9+0+0=9, 9'a bölünür. Bu nedenle 900, 225'e bölünür."
+    ],
+    "relatedTerms": [
+      "9'a Bölünebilme Kuralı",
+      "25'e Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 88
+  },
+  {
+    "id": "bolunebilme_kuralı_250",
+    "term": "250'ye Bölünebilme Kuralı",
+    "definition": "Bir sayının 250'ye tam bölünebilmesi için hem 2'ye hem de 125'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması gereklidir.",
+    "examples": [
+      "500 için: Son üç basamağı 500, 125'e bölünür. Son basamağı 0, 2'ye bölünür. Bu nedenle 500, 250'ye bölünür.",
+      "750 için: Son üç basamağı 750, 125'e bölünür. Son basamağı 0, 2'ye bölünür. Bu nedenle 750, 250'ye bölünür.",
+      "1000 için: Son üç basamağı 000, 125'e bölünür. Son basamağı 0, 2'ye bölünür. Bu nedenle 1000, 250'ye bölünür."
+    ],
+    "relatedTerms": [
+      "2'ye Bölünebilme Kuralı",
+      "125'e Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 89
+  },
+  {
+    "id": "bolunebilme_kuralı_375",
+    "term": "375'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 375'e tam bölünebilmesi için hem 3'e hem de 125'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması şarttır.",
+    "examples": [
+      "750 için: Son üç basamağı 750, 125'e bölünür. Rakamları toplamı 7+5+0=12, 3'e bölünür. Bu nedenle 750, 375'e bölünür.",
+      "1125 için: Son üç basamağı 125, 125'e bölünür. Rakamları toplamı 1+1+2+5=9, 3'e bölünür. Bu nedenle 1125, 375'e bölünür.",
+      "1500 için: Son üç basamağı 500, 125'e bölünür. Rakamları toplamı 1+5+0+0=6, 3'e bölünür. Bu nedenle 1500, 375'e bölünür."
+    ],
+    "relatedTerms": [
+      "3'e Bölünebilme Kuralı",
+      "125'e Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 90
+  },
+  {
+    "id": "bolunebilme_kuralı_500",
+    "term": "500'e Bölünebilme Kuralı",
+    "definition": "Bir sayının 500'e tam bölünebilmesi için hem 4'e hem de 125'e tam bölünmesi gerekir. Bu iki kuralın aynı anda sağlanması gereklidir.",
+    "examples": [
+      "1000 için: Son üç basamağı 000, 125'e bölünür. Son iki basamağı 00, 4'e bölünür. Bu nedenle 1000, 500'e bölünür.",
+      "1500 için: Son üç basamağı 500, 125'e bölünür. Son iki basamağı 00, 4'e bölünür. Bu nedenle 1500, 500'e bölünür.",
+      "2000 için: Son üç basamağı 000, 125'e bölünür. Son iki basamağı 00, 4'e bölünür. Bu nedenle 2000, 500'e bölünür."
+    ],
+    "relatedTerms": [
+      "4'e Bölünebilme Kuralı",
+      "125'e Bölünebilme Kuralı",
+      "OBEB"
+    ],
+    "order": 91
+  },
+  {
+    "id": "bolunebilme_kuralı_1000",
+    "term": "1000'e Bölünebilme Kuralı",
+    "definition": "Bir sayının son üç basamağının 000 olması durumunda o sayı 1000'e tam bölünür. Bu kural, 1000'in 8 ve 125'in çarpımı olmasından kaynaklanır.",
+    "examples": [
+      "5000 için: Son üç basamağı 000'dır. Bu nedenle 5000, 1000'e bölünür.",
+      "12000 için: Son üç basamağı 000'dır. Bu nedenle 12000, 1000'e bölünür.",
+      "23000 için: Son üç basamağı 000'dır. Bu nedenle 23000, 1000'e bölünür."
+    ],
+    "relatedTerms": [
+      "8'e Bölünebilme Kuralı",
+      "125'e Bölünebilme Kuralı",
+      "Son Basamak ile Bölünebilme"
+    ],
+    "order": 92
+  },
+  {
+    "id": "uc_ile_bolunebilme",
+    "term": "3 ile Bölünebilme Kuralı",
+    "definition": "Bir sayının rakamları toplamı 3 veya 3'ün katı ise o sayı 3 ile tam bölünebilir. Bu kural, sayının kendisinin büyük olması durumunda pratiklik sağlar.",
+    "examples": [
+      "123 -> 1+2+3=6 (6, 3'ün katı olduğu için 123 sayısı 3'e bölünür)",
+      "457 -> 4+5+7=16 (16, 3'ün katı olmadığı için 457 sayısı 3'e bölünmez)",
+      "999 -> 9+9+9=27 (27, 3'ün katı olduğu için 999 sayısı 3'e bölünür)"
+    ],
+    "relatedTerms": [
+      "Rakamlar Toplamı ile Bölünebilme",
+      "9 ile Bölünebilme Kuralı"
+    ],
+    "order": 93
+  },
+  {
+    "id": "dort_ile_bolunebilme",
+    "term": "4 ile Bölünebilme Kuralı",
+    "definition": "Bir sayının son iki basamağının oluşturduğu sayı 4 veya 4'ün katı ise o sayı 4 ile tam bölünebilir. Eğer sayının son iki basamağı 00 ise de sayı 4 ile tam bölünür.",
+    "examples": [
+      "124 -> 24 (24, 4'ün katı olduğu için 124 sayısı 4'e bölünür)",
+      "567 -> 67 (67, 4'ün katı olmadığı için 567 sayısı 4'e bölünmez)",
+      "300 -> 00 (00, 4'ün katı olduğu için 300 sayısı 4'e bölünür)"
+    ],
+    "relatedTerms": [
+      "Son Basamak ile Bölünebilme",
+      "8 ile Bölünebilme Kuralı"
+    ],
+    "order": 94
+  },
+  {
+    "id": "bes_ile_bolunebilme",
+    "term": "5 ile Bölünebilme Kuralı",
+    "definition": "Bir sayının son basamağı 0 veya 5 ise o sayı 5 ile tam bölünebilir. Bu, bölünebilme kurallarının en temel ve kolay olanlarından biridir.",
+    "examples": [
+      "120 -> Son basamağı 0 (120 sayısı 5'e bölünür)",
+      "455 -> Son basamağı 5 (455 sayısı 5'e bölünür)",
+      "783 -> Son basamağı 3 (783 sayısı 5'e bölünmez)"
+    ],
+    "relatedTerms": [
+      "Son Basamak ile Bölünebilme",
+      "10 ile Bölünebilme Kuralı"
+    ],
+    "order": 95
+  },
+  {
+    "id": "alti_ile_bolunebilme",
+    "term": "6 ile Bölünebilme Kuralı",
+    "definition": "Bir sayının hem 2 ile hem de 3 ile tam bölünebilmesi durumunda o sayı 6 ile tam bölünebilir. Bu, iki farklı kuralın birleşimiyle oluşur.",
+    "examples": [
+      "126 -> Hem 2'ye (çift sayı) hem de 3'e (1+2+6=9, 3'ün katı) bölündüğü için 6'ya bölünür.",
+      "458 -> 2'ye bölünür ancak 3'e bölünmez (4+5+8=17), bu yüzden 6'ya bölünmez.",
+      "720 -> Hem 2'ye (çift sayı) hem de 3'e (7+2+0=9, 3'ün katı) bölündüğü için 6'ya bölünür."
+    ],
+    "relatedTerms": [
+      "2 ile Bölünebilme Kuralı",
+      "3 ile Bölünebilme Kuralı"
+    ],
+    "order": 96
+  },
+  {
+    "id": "sekiz_ile_bolunebilme",
+    "term": "8 ile Bölünebilme Kuralı",
+    "definition": "Bir sayının son üç basamağının oluşturduğu sayı 8 veya 8'in katı ise o sayı 8 ile tam bölünebilir. Eğer sayının son üç basamağı 000 ise de sayı 8 ile tam bölünür.",
+    "examples": [
+      "1128 -> 128 (128, 8'in katı olduğu için 1128 sayısı 8'e bölünür)",
+      "5672 -> 672 (672, 8'in katı olduğu için 5672 sayısı 8'e bölünür)",
+      "3000 -> 000 (000, 8'in katı olduğu için 3000 sayısı 8'e bölünür)"
+    ],
+    "relatedTerms": [
+      "Son Basamak ile Bölünebilme",
+      "4 ile Bölünebilme Kuralı"
+    ],
+    "order": 97
+  },
+  {
+    "id": "dokuz_ile_bolunebilme",
+    "term": "9 ile Bölünebilme Kuralı",
+    "definition": "Bir sayının rakamları toplamı 9 veya 9'un katı ise o sayı 9 ile tam bölünebilir. Bu kural, 3 ile bölünebilme kuralına benzerlik gösterir.",
+    "examples": [
+      "189 -> 1+8+9=18 (18, 9'un katı olduğu için 189 sayısı 9'a bölünür)",
+      "457 -> 4+5+7=16 (16, 9'un katı olmadığı için 457 sayısı 9'a bölünmez)",
+      "9999 -> 9+9+9+9=36 (36, 9'un katı olduğu için 9999 sayısı 9'a bölünür)"
+    ],
+    "relatedTerms": [
+      "Rakamlar Toplamı ile Bölünebilme",
+      "3 ile Bölünebilme Kuralı"
+    ],
+    "order": 98
+  },
+  {
+    "id": "on_ile_bolunebilme",
+    "term": "10 ile Bölünebilme Kuralı",
+    "definition": "Bir sayının son basamağı 0 ise o sayı 10 ile tam bölünebilir. Bu, 5 ile bölünebilme kuralının özel bir halidir.",
+    "examples": [
+      "120 -> Son basamağı 0 (120 sayısı 10'a bölünür)",
+      "455 -> Son basamağı 5 (455 sayısı 10'a bölünmez)",
+      "780 -> Son basamağı 0 (780 sayısı 10'a bölünür)"
+    ],
+    "relatedTerms": [
+      "Son Basamak ile Bölünebilme",
+      "5 ile Bölünebilme Kuralı"
+    ],
+    "order": 99
+  },
+  {
+    "id": "on_bir_ile_bolunebilme",
+    "term": "11 ile Bölünebilme Kuralı",
+    "definition": "Bir sayının basamak değerleri sırasıyla sağdan sola doğru +,-,+,- şeklinde işaretlenip toplandığında sonuç 0 veya 11'in katı ise o sayı 11 ile tam bölünebilir.",
+    "examples": [
+      "1331 -> +1-3+3-1 = 0 (0, 11'in katı olduğu için 1331 sayısı 11'e bölünür)",
+      "2585 -> +5-8+5-2 = 0 (0, 11'in katı olduğu için 2585 sayısı 11'e bölünür)",
+      "1234 -> +4-3+2-1 = 2 (2, 11'in katı olmadığı için 1234 sayısı 11'e bölünmez)"
+    ],
+    "relatedTerms": [
+      "Alternatif Toplama",
+      "Basamak Değeri"
+    ],
+    "order": 100
+  }
+]

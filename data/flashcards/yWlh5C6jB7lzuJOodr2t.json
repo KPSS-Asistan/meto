@@ -1,0 +1,518 @@
+[
+  {
+    "question": "Sözcüğün anlamlı en küçük parçasına ne denir?",
+    "answer": "Kök",
+    "additionalInfo": "Kök ile kelimenin tamamı arasında anlamsal bağ olmalıdır (Balık'ın kökü Bal değildir).",
+    "_part": 1
+  },
+  {
+    "question": "İsim kökü ve Fiil kökü nasıl ayırt edilir?",
+    "answer": "\"-mek / -mak\" mastar eki getirilerek",
+    "additionalInfo": "Eki alıyorsa fiil (Gel-mek), almıyorsa isim (Masa-mak olmaz).",
+    "_part": 2
+  },
+  {
+    "topicId": "yapi_bilgisi_006",
+    "question": "Sesteş (eş sesli) kök nedir?",
+    "answer": "Yazılışları aynı, anlamları tamamen farklı olan köklerdir.",
+    "additionalInfo": "Aralarında anlam bağı yoktur, örn: Gül, yüz, çay.",
+    "id": "flash_006",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "question": "Kökteş (Ortak) kök nedir?",
+    "answer": "Hem isim hem fiil olarak kullanılabilen ve aralarında anlam bağı olan kökler",
+    "additionalInfo": "Boya (Nesne) - Boya (Eylem). Savaş, Güreş.",
+    "_part": 4
+  },
+  {
+    "question": "Yansıma kökler isim mi fiil mi kabul edilir?",
+    "answer": "İsim kökü",
+    "additionalInfo": "Doğadaki seslerin taklidi (Pat, Küt, Miyav). Pat-la-mak (İsimden türemiş fiildir).",
+    "_part": 5
+  },
+  {
+    "question": "Sözcüğün anlamını veya türünü değiştiren eklere ne denir?",
+    "answer": "Yapım Eki",
+    "additionalInfo": "Yol (İsim) -> Yolcu (Yeni İsim).",
+    "_part": 6
+  },
+  {
+    "question": "Sözcüğün anlamını değiştirmeyen, cümledeki görevini belirleyen eklere ne denir?",
+    "answer": "Çekim Eki",
+    "additionalInfo": "Kitap (İsim) -> Kitaplar (Çoğul).",
+    "_part": 7
+  },
+  {
+    "question": "Türkçede ek sıralaması nasıldır?",
+    "answer": "Kök + Yapım Eki + Çekim Eki",
+    "additionalInfo": "İstisnalar vardır (Annemsiz - Önce çekim sonra yapım).",
+    "_part": 8
+  },
+  {
+    "question": "İyelik ekleri neyi bildirir?",
+    "answer": "Varlığın kime ait olduğunu",
+    "additionalInfo": "Ev-im (Benim evim).",
+    "_part": 9
+  },
+  {
+    "topicId": "yapi_bilgisi_015",
+    "question": "Hal (durum) ekleri nelerdir?",
+    "answer": "-i (belirtme), -e (yönelme), -de (bulunma), -den (ayrılma).",
+    "additionalInfo": "Yalın hal eki yoktur.",
+    "id": "flash_015",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "question": "Basit sözcük nedir?",
+    "answer": "Yapım eki almamış sözcük",
+    "additionalInfo": "Çekim eki alabilir. \"Masada\" basittir.",
+    "_part": 11
+  },
+  {
+    "question": "Türemiş sözcük nedir?",
+    "answer": "En az bir yapım eki almış sözcük",
+    "additionalInfo": "\"Yolculuk\" türemiştir.",
+    "_part": 12
+  },
+  {
+    "question": "Birleşik sözcük nasıl oluşur?",
+    "answer": "En az iki sözcüğün birleşmesiyle",
+    "additionalInfo": "Bitişik veya ayrı yazılabilir.",
+    "_part": 13
+  },
+  {
+    "topicId": "yapi_bilgisi_031",
+    "question": "Gövde nedir?",
+    "answer": "Bir sözcüğün en az bir yapım eki almış halidir.",
+    "additionalInfo": "Gövdeye tekrar yapım eki gelebilir.",
+    "id": "flash_031",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_001",
+    "question": "Yapı bilgisi nedir?",
+    "answer": "Sözcüklerin kök ve eklerini inceleyen dil bilgisi dalıdır.",
+    "additionalInfo": "Kök + Ek = Sözcük.",
+    "id": "flash_001",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_002",
+    "question": "Kök nedir?",
+    "answer": "Sözcüğün anlamlı en küçük parçasıdır.",
+    "additionalInfo": "Kök ile sözcüğün tamamı arasında anlam bağı olmalıdır.",
+    "id": "flash_002",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_003",
+    "question": "İsim kökü nedir?",
+    "answer": "Varlıkların, kavramların adı olan köklerdir.",
+    "additionalInfo": "Mak-mek mastar eki almazlar.",
+    "id": "flash_003",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_004",
+    "question": "Fiil kökü nedir?",
+    "answer": "İş, oluş veya hareket bildiren köklerdir.",
+    "additionalInfo": "Mak-mek mastar eki alırlar.",
+    "id": "flash_004",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_005",
+    "question": "Ortak (sesteş) kök nedir?",
+    "answer": "Hem isim hem fiil olarak kullanılabilen, aralarında anlam bağı olan köklerdir.",
+    "additionalInfo": "Örnek: Boya, güven, barış.",
+    "id": "flash_005",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_007",
+    "question": "Yansıma kök nedir?",
+    "answer": "Doğadaki seslerin taklidiyle oluşan köklerdir.",
+    "additionalInfo": "Örnek: Şır, gür, pat, hav.",
+    "id": "flash_007",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_008",
+    "question": "Yapım eki nedir?",
+    "answer": "Eklendiği sözcüğün anlamını veya türünü değiştiren eklerdir.",
+    "additionalInfo": "Her zaman çekim ekinden önce gelir.",
+    "id": "flash_008",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_009",
+    "question": "Çekim eki nedir?",
+    "answer": "Sözcüğün anlamını değiştirmeyen, cümlede görev kazandıran eklerdir.",
+    "additionalInfo": "Yapım ekinden sonra gelirler.",
+    "id": "flash_009",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_010",
+    "question": "İsimden isim yapım eki örneği veriniz.",
+    "answer": "-lik, -siz, -cil, -daş.",
+    "additionalInfo": "Örnek: Göz-lük.",
+    "id": "flash_010",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_011",
+    "question": "İsimden fiil yapım eki örneği veriniz.",
+    "answer": "-le, -la, -al, -el, -se.",
+    "additionalInfo": "Örnek: Su-la-mak.",
+    "id": "flash_011",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_012",
+    "question": "Fiilden isim yapım eki örneği veriniz.",
+    "answer": "-gi, -gin, -ici, -im, -ak.",
+    "additionalInfo": "Örnek: Sev-gi.",
+    "id": "flash_012",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_013",
+    "question": "Fiilden fiil yapım eki örneği veriniz.",
+    "answer": "-l, -n, -r, -t, -ş.",
+    "additionalInfo": "Örnek: Yaz-ıl-mak.",
+    "id": "flash_013",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_014",
+    "question": "İsim çekim ekleri nelerdir?",
+    "answer": "Hal ekleri, iyelik ekleri, ilgi ekleri, çoğul ekleri.",
+    "additionalInfo": "İsimlere gelirler.",
+    "id": "flash_014",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_016",
+    "question": "İyelik eki nedir?",
+    "answer": "Sözcüğün kime ait olduğunu bildiren eklerdir.",
+    "additionalInfo": "İsim tamlamasında tamlanana gelir.",
+    "id": "flash_016",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_017",
+    "question": "İlgi eki nedir?",
+    "answer": "-ın, -in, -un, -ün ekleridir.",
+    "additionalInfo": "İsim tamlamasında tamlayana gelir.",
+    "id": "flash_017",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_018",
+    "question": "Fiil çekim ekleri nelerdir?",
+    "answer": "Kip ekleri ve kişi ekleridir.",
+    "additionalInfo": "Fiillere gelirler.",
+    "id": "flash_018",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_019",
+    "question": "Haber (bildirme) kipleri nelerdir?",
+    "answer": "-di, -miş, -iyor, -ecek, -er/ar.",
+    "additionalInfo": "Zaman anlamı taşırlar.",
+    "id": "flash_019",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_020",
+    "question": "Dilek kipleri nelerdir?",
+    "answer": "-sa, -e, -meli, (emir kipi).",
+    "additionalInfo": "Zaman anlamı yoktur.",
+    "id": "flash_020",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_021",
+    "question": "Basit yapılı sözcük nedir?",
+    "answer": "Yapım eki almamış sözcüklerdir.",
+    "additionalInfo": "Sadece kök veya çekim eki alabilir.",
+    "id": "flash_021",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_022",
+    "question": "Türemiş yapılı sözcük nedir?",
+    "answer": "En az bir tane yapım eki almış sözcüklerdir.",
+    "additionalInfo": "Gövde halindedir.",
+    "id": "flash_022",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_023",
+    "question": "Birleşik yapılı sözcük nedir?",
+    "answer": "En az iki sözcüğün birleşmesiyle oluşan sözcüklerdir.",
+    "additionalInfo": "Farklı yollarla oluşabilir.",
+    "id": "flash_023",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_024",
+    "question": "Anlamca kaynaşmış birleşik fiil nedir?",
+    "answer": "Sözcüklerin gerçek anlamından uzaklaştığı fiillerdir.",
+    "additionalInfo": "Örnek: Varsaymak, öngörmek.",
+    "id": "flash_024",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_025",
+    "question": "Yardımcı eylemle oluşan birleşik fiil nedir?",
+    "answer": "İsim + etmek, olmak, eylemek, kılmak.",
+    "additionalInfo": "Örnek: Yardım etmek, mutlu olmak.",
+    "id": "flash_025",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_026",
+    "question": "Kurallı birleşik fiiller nelerdir?",
+    "answer": "Yeterlilik, tezlik, sürerlilik, yaklaşma.",
+    "additionalInfo": "Tek sözcük gibi yazılırlar.",
+    "id": "flash_026",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_027",
+    "question": "Yeterlilik fiili nedir?",
+    "answer": "-ebilmek ekidir.",
+    "additionalInfo": "Gücü yetme veya olasılık bildirir.",
+    "id": "flash_027",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_028",
+    "question": "Tezlik fiili nedir?",
+    "answer": "-ivermek ekidir.",
+    "additionalInfo": "Çabukluk veya kolaylık bildirir.",
+    "id": "flash_028",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_029",
+    "question": "Sürerlilik fiili nedir?",
+    "answer": "-edurmak, -ekalmak, -egelmek.",
+    "additionalInfo": "Devamlılık bildirir.",
+    "id": "flash_029",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_030",
+    "question": "Yaklaşma fiili nedir?",
+    "answer": "-eyazmak ekidir.",
+    "additionalInfo": "Az kalsın olma anlamı vardır.",
+    "id": "flash_030",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_032",
+    "question": "Belirtme durumu eki ile iyelik eki nasıl ayırt edilir?",
+    "answer": "Başına 'onun' getirilirse iyelik, getirilmezse belirtmedir.",
+    "additionalInfo": "Çok önemli bir ayrım yöntemidir.",
+    "id": "flash_032",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_033",
+    "question": "Fiilimsi ekleri yapım eki midir?",
+    "answer": "Evet, fiilden isim yapım ekidir.",
+    "additionalInfo": "Fiilimsiler türemiş sözcüktür.",
+    "id": "flash_033",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_034",
+    "question": "İsim tamlamasında tamlayan hangi eki alır?",
+    "answer": "İlgi eki (-ın, -in).",
+    "additionalInfo": "Tamlayan eki ilgi ekidir.",
+    "id": "flash_034",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_035",
+    "question": "İsim tamlamasında tamlanan hangi eki alır?",
+    "answer": "İyelik eki.",
+    "additionalInfo": "Tamlanan eki iyelik ekidir.",
+    "id": "flash_035",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_036",
+    "question": "Sözcükte yapı sorusu nasıl çözülür?",
+    "answer": "Kökü bul, sonra ekleri sırasıyla ayır.",
+    "additionalInfo": "Yapım eki mi çekim eki mi olduğuna bak.",
+    "id": "flash_036",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_037",
+    "question": "Ayrılma durumu eki nedir?",
+    "answer": "-den eki.",
+    "additionalInfo": "Ayrılma, çıkma veya karşılaştırma bildirir.",
+    "id": "flash_037",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_038",
+    "question": "Bulunma durumu eki nedir?",
+    "answer": "-de eki.",
+    "additionalInfo": "Zaman veya yer bildirir.",
+    "id": "flash_038",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_039",
+    "question": "Yönelme durumu eki nedir?",
+    "answer": "-e eki.",
+    "additionalInfo": "Durağana doğru hareket bildirir.",
+    "id": "flash_039",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_040",
+    "question": "İsim kökü ile fiil kökü nasıl ayırt edilir?",
+    "answer": "-mak/-mek mastar eki getirilerek.",
+    "additionalInfo": "Anlamlıysa fiil, değilse isimdir.",
+    "id": "flash_040",
+    "_part": 51,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_041",
+    "question": "Ek eylem (ek fiil) nedir?",
+    "answer": "İsimleri yüklem yapan veya basit zamanlı fiili birleşik yapan ektir.",
+    "additionalInfo": "İdi, imiş, ise, -dir.",
+    "id": "flash_041",
+    "_part": 52,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_042",
+    "question": "Ünsüz türemesi bir yapım eki midir?",
+    "answer": "Hayır, ses olayıdır.",
+    "additionalInfo": "Yazım kuralı olarak da karşımıza çıkar.",
+    "id": "flash_042",
+    "_part": 53,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_043",
+    "question": "Ünlü düşmesi bir yapım eki midir?",
+    "answer": "Hayır, ses olayıdır.",
+    "additionalInfo": "Sözcük yapısı incelenirken kök değişmiş gibi görünür.",
+    "id": "flash_043",
+    "_part": 54,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_044",
+    "question": "Sözcüğün yapısı sorulduğunda bakılması gereken ilk şey nedir?",
+    "answer": "Yapım eki alıp almadığıdır.",
+    "additionalInfo": "Basit, türemiş, birleşik.",
+    "id": "flash_044",
+    "_part": 55,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_045",
+    "question": "Birleşik sözcükler nasıl yazılır?",
+    "answer": "Anlam kayması varsa bitişik, yoksa ayrı.",
+    "additionalInfo": "Yazım kuralları ile bağlantılıdır.",
+    "id": "flash_045",
+    "_part": 56,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_046",
+    "question": "Topluluk ismi bir yapım eki midir?",
+    "answer": "Hayır, isim köküdür.",
+    "additionalInfo": "Sözcük yapısı bakımından basittir.",
+    "id": "flash_046",
+    "_part": 57,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_047",
+    "question": "Çoğul eki (-ler, -lar) nedir?",
+    "answer": "İsim çekim ekidir.",
+    "additionalInfo": "Sözcüğün anlamını değiştirmez.",
+    "id": "flash_047",
+    "_part": 58,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_048",
+    "question": "Fiil köküne gelen -dir eki nedir?",
+    "answer": "Bildirme ekidir.",
+    "additionalInfo": "Fiil çekim ekidir.",
+    "id": "flash_048",
+    "_part": 59,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_049",
+    "question": "Kökü fiil olan sözcük nasıl bulunur?",
+    "answer": "Sözcüğün en son aldığı yapım ekini çıkararak.",
+    "additionalInfo": "Kalan kısım fiil köküdür.",
+    "id": "flash_049",
+    "_part": 60,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  },
+  {
+    "topicId": "yapi_bilgisi_050",
+    "question": "Sözcükte yapı konusu KPSS'de kaç soru getirir?",
+    "answer": "Genellikle 1 veya 2 soru.",
+    "additionalInfo": "Diğer konuların temelini oluşturur.",
+    "id": "flash_050",
+    "_part": 61,
+    "_generatedAt": "2026-04-12T17:22:31.965Z"
+  }
+]

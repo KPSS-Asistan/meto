@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "merkezi_yonetim",
+    "term": "Merkezi Yönetim",
+    "definition": "Devletin ülkesi ve milletiyle bütün bütünlüğü içinde idari tasarruflarını yürüten ana teşkilattır. Başkentte yer alan bakanlıklar ve bağlı kuruluşlar aracılığıyla yürütülür. Devletin temel politikalarının belirlenmesi ve uygulanmasında birincil role sahiptir.",
+    "examples": [
+      "Cumhurbaşkanlığı Hükümet Sistemi",
+      "Bakanlıklar",
+      "Genel Müdürlükler"
+    ],
+    "relatedTerms": [
+      "Taşra Teşkilatı",
+      "Yerel Yönetimler",
+      "Siyasi İktidar"
+    ],
+    "order": 1
+  },
+  {
+    "id": "tasra_teskilati",
+    "term": "Taşra Teşkilatı",
+    "definition": "Merkezi yönetimin, ülkenin çeşitli bölgelerindeki idari işlemlerini yürütmek üzere kurduğu birimlerdir. Valilikler, kaymakamlıklar ve il müdürlükleri bu teşkilatın ana unsurlarıdır. Merkezi yönetimin yerel düzeydeki temsilcisidir.",
+    "examples": [
+      "İl Valiliği",
+      "İlçe Kaymakamlığı",
+      "İl Tarım ve Orman Müdürlüğü"
+    ],
+    "relatedTerms": [
+      "Merkezi Yönetim",
+      "Yerel Yönetimler",
+      "İdari Bölge"
+    ],
+    "order": 2
+  },
+  {
+    "id": "yerel_yonetimler",
+    "term": "Yerel Yönetimler",
+    "definition": "Mahalli müşterek nitelikteki ihtiyaçları karşılamak üzere kurulan tüzel kişilerdir. Belediye, il özel idaresi ve köy idaresi bu kapsamdadır. Kendi karar organları ve bütçeleri bulunur.",
+    "examples": [
+      "Büyükşehir Belediyesi",
+      "İlçe Belediyesi",
+      "Köy Muhtarlığı"
+    ],
+    "relatedTerms": [
+      "Merkezi Yönetim",
+      "Taşra Teşkilatı",
+      "Mahalli İdareler",
+      "Kamu Tüzel Kişiliği"
+    ],
+    "order": 3
+  },
+  {
+    "id": "il_ozel_idaresi",
+    "term": "İl Özel İdaresi",
+    "definition": "İl genelindeki mahalli müşterek nitelikteki ihtiyaçları karşılamakla görevli, karar organları seçmenler tarafından seçilerek oluşturulan tüzel kişiliğe sahip kamu kurumudur. Vali, il genel meclisi ve il encümeni bu idarenin ana organlarıdır.",
+    "examples": [
+      "İl yol yapım ve bakım hizmetleri",
+      "Köy içme suyu projeleri",
+      "Kırsal kalkınma destekleri"
+    ],
+    "relatedTerms": [
+      "Yerel Yönetimler",
+      "Belediye",
+      "Köy İdaresi",
+      "Mahalli Müşterek Nitelik"
+    ],
+    "order": 4
+  },
+  {
+    "id": "belediye",
+    "term": "Belediye",
+    "definition": "Belde ve şehirlerdeki mahalli müşterek ihtiyaçları karşılamak üzere kurulan, karar organları seçmenler tarafından seçilen tüzel kişiliğe sahip kamu kurumudur. Belediye başkanı, belediye meclisi ve belediye encümeni bu idarenin ana organlarıdır.",
+    "examples": [
+      "Şehir içi ulaşım hizmetleri",
+      "İmar planlaması",
+      "Çevre temizliği"
+    ],
+    "relatedTerms": [
+      "Yerel Yönetimler",
+      "İl Özel İdaresi",
+      "Köy İdaresi",
+      "Şehirleşme"
+    ],
+    "order": 5
+  },
+  {
+    "id": "koy_idaresi",
+    "term": "Köy İdaresi",
+    "definition": "Köy nüfusunun mahalli müşterek ihtiyaçlarını karşılamak üzere kurulan, muhtar ve köy ihtiyar heyeti/meclisinden oluşan en küçük yerel yönetim birimidir. Muhtar, köy tüzel kişiliğini temsil eder.",
+    "examples": [
+      "Köy yolu bakımı",
+      "Köy çeşmesi onarımı",
+      "Köy mezarlığı yönetimi"
+    ],
+    "relatedTerms": [
+      "Yerel Yönetimler",
+      "İl Özel İdaresi",
+      "Belediye",
+      "Muhtar"
+    ],
+    "order": 6
+  },
+  {
+    "id": "bakanliklar",
+    "term": "Bakanlıklar",
+    "definition": "Merkezi yönetimin ana yürütme organlarıdır. Belirli kamu hizmetlerinin yürütülmesinden sorumludurlar. Her bakanlığın başında bir bakan bulunur ve bakanlar Cumhurbaşkanı tarafından atanır.",
+    "examples": [
+      "Adalet Bakanlığı",
+      "Milli Eğitim Bakanlığı",
+      "Sağlık Bakanlığı"
+    ],
+    "relatedTerms": [
+      "Merkezi Yönetim",
+      "Cumhurbaşkanlığı",
+      "Kamu Hizmeti",
+      "Bakan"
+    ],
+    "order": 7
+  },
+  {
+    "id": "cumhurbaskanligi",
+    "term": "Cumhurbaşkanlığı",
+    "definition": "Türkiye Cumhuriyeti'nin en üst yürütme organıdır. Devletin başı olan Cumhurbaşkanı tarafından yönetilir. Hükümetin genel siyasetinin belirlenmesi ve uygulanmasında kilit rol oynar.",
+    "examples": [
+      "Kararname çıkarma yetkisi",
+      "Milli Güvenlik Kurulu'na başkanlık etme",
+      "Yüksek Askeri Şura'yı toplama"
+    ],
+    "relatedTerms": [
+      "Merkezi Yönetim",
+      "Bakanlıklar",
+      "Yürütme Organı",
+      "Devlet Başkanı"
+    ],
+    "order": 8
+  },
+  {
+    "id": "valilik",
+    "term": "Valilik",
+    "definition": "İlin genel idaresinden sorumlu, merkezi yönetimin en üst düzeydeki temsilcisidir. Cumhurbaşkanı tarafından atanır ve ildeki kamu kurum ve kuruluşları üzerinde gözetim ve denetim yetkisine sahiptir.",
+    "examples": [
+      "İl düzeyinde kamu düzenini sağlama",
+      "Afet ve acil durum yönetimi",
+      "İl kalkınma planlarının uygulanması"
+    ],
+    "relatedTerms": [
+      "Taşra Teşkilatı",
+      "Kaymakamlık",
+      "Merkezi Yönetim",
+      "Kamu Düzeni"
+    ],
+    "order": 9
+  },
+  {
+    "id": "kaymakamlik",
+    "term": "Kaymakamlık",
+    "definition": "İlçenin genel idaresinden sorumlu, valiye bağlı olarak çalışan mülki idare amiridir. İlçedeki kamu hizmetlerinin yürütülmesinden ve kamu düzeninin sağlanmasından sorumludur.",
+    "examples": [
+      "İlçe düzeyinde imar işleri",
+      "Sosyal yardımların dağıtımı",
+      "İlçe seçim işlerinin yürütülmesi"
+    ],
+    "relatedTerms": [
+      "Taşra Teşkilatı",
+      "Valilik",
+      "Mülki İdare Amiri",
+      "İlçe İdaresi"
+    ],
+    "order": 10
+  },
+  {
+    "id": "idari_bolumlenme",
+    "term": "İdari Bölümlenme",
+    "definition": "Devletin ülkesini, idari görevlerin daha etkin bir şekilde yürütülebilmesi amacıyla coğrafi olarak alt birimlere ayırmasıdır. Bu bölümlenme, merkezi ve yerel yönetimlerin teşkilatlanmasında temel oluşturur.",
+    "examples": [
+      "İller",
+      "İlçeler",
+      "Bucaklar (tarihsel olarak)"
+    ],
+    "relatedTerms": [
+      "Taşra Teşkilatı",
+      "Merkezi Yönetim",
+      "Yerel Yönetimler",
+      "Mülki Taksimat"
+    ],
+    "order": 11
+  },
+  {
+    "id": "kamu_kurumu",
+    "term": "Kamu Kurumu",
+    "definition": "Genel kamu hizmetlerini yürütmek amacıyla devlet veya diğer kamu tüzel kişileri tarafından kurulan, tüzel kişiliğe sahip kuruluşlardır. Kendi bütçeleri ve personeli bulunur.",
+    "examples": [
+      "Sosyal Güvenlik Kurumu (SGK)",
+      "Türkiye İstatistik Kurumu (TÜİK)",
+      "Devlet Demiryolları (TCDD)"
+    ],
+    "relatedTerms": [
+      "Kamu Tüzel Kişiliği",
+      "Özerklik",
+      "Kamu Hizmeti",
+      "Devlet"
+    ],
+    "order": 12
+  },
+  {
+    "id": "kamu_tuzel_kisiligi",
+    "term": "Kamu Tüzel Kişiliği",
+    "definition": "Kanunla kurulan, belirli bir kamu hizmetini görmek üzere oluşturulan, bağımsız karar alma ve yetki kullanma yetkisine sahip tüzel kişiliktir. Kendi mal varlığı ve borçları olabilir.",
+    "examples": [
+      "Belediyeler",
+      "Üniversiteler",
+      "Barolar"
+    ],
+    "relatedTerms": [
+      "Kamu Kurumu",
+      "Tüzel Kişilik",
+      "Özerklik",
+      "Hukuk Kişiliği"
+    ],
+    "order": 13
+  },
+  {
+    "id": "merkezi_denge_ilkesi",
+    "term": "Merkezi Denge İlkesi",
+    "definition": "Devletin, idari yapısında merkezi yönetimin gücünü ve yetkisini koruma eğilimidir. Yerel yönetimlerin özerkliği sınırlı tutulur ve merkezi otoritenin denetimi ön planda tutulur.",
+    "examples": [
+      "Valinin ildeki yetkileri",
+      "Merkezi hükümetin yerel yönetimlere müdahale yetkisi",
+      "Bakanlıkların genelgeleri"
+    ],
+    "relatedTerms": [
+      "Merkezi Yönetim",
+      "Yerel Yönetimler",
+      "Yetki Devri",
+      "Denetim"
+    ],
+    "order": 14
+  },
+  {
+    "id": "yerel_denge_ilkesi",
+    "term": "Yerel Denge İlkesi",
+    "definition": "Yerel yönetimlerin kendi kararlarını alma ve kendi faaliyetlerini yürütme konusunda sahip oldukları özerklik ve yetkiyi ifade eder. Merkezi yönetimin müdahalesinin sınırlı olduğu durumları tanımlar.",
+    "examples": [
+      "Belediye meclisinin imar planı kararları",
+      "İl genel meclisinin bütçe onaylaması",
+      "Köy muhtarının köy işlerini yönetmesi"
+    ],
+    "relatedTerms": [
+      "Yerel Yönetimler",
+      "Özerklik",
+      "Merkezi Denge İlkesi",
+      "Mahalli İdareler"
+    ],
+    "order": 15
+  },
+  {
+    "id": "idari_vesayet",
+    "term": "İdari Vesayet",
+    "definition": "Merkezi yönetimin, yerel yönetimlerin hukuka uygunluk ve yerindelik denetimini sağlamak amacıyla sahip olduğu denetim yetkisidir. Bu denetim, yerel yönetimlerin özerkliğini sınırlayabilir.",
+    "examples": [
+      "Valinin belediye kararlarını onaylaması veya reddetmesi",
+      "Merkezi hükümetin il özel idaresi bütçesini denetlemesi",
+      "Danıştay'ın idari işlemleri denetimi"
+    ],
+    "relatedTerms": [
+      "Merkezi Yönetim",
+      "Yerel Yönetimler",
+      "Denetim",
+      "Hukuka Uygunluk"
+    ],
+    "order": 16
+  },
+  {
+    "id": "idari_yaptirim",
+    "term": "İdari Yaptırım",
+    "definition": "İdari makamlar tarafından, kamu düzenini sağlamak, kanunlara uyumu temin etmek veya görevlerini yerine getirmeyen kamu görevlilerini cezalandırmak amacıyla uygulanan yaptırımlardır. Cezalar, uyarılar veya görevden alma şeklinde olabilir.",
+    "examples": [
+      "Trafik cezaları",
+      "Memurun uyarı cezası alması",
+      "İşyeri kapatma cezası"
+    ],
+    "relatedTerms": [
+      "İdari Yargı",
+      "Kamu Görevlisi",
+      "Kamu Düzeni",
+      "Cezalandırma"
+    ],
+    "order": 17
+  },
+  {
+    "id": "idari_usul",
+    "term": "İdari Usul",
+    "definition": "İdari makamların karar alırken ve işlemlerini yürütürken uymaları gereken kurallar bütünüdür. Bu usuller, hukuka uygunluğu ve şeffaflığı sağlamayı amaçlar.",
+    "examples": [
+      "İhale usulleri",
+      "İmar planı onay usulleri",
+      "Atama ve terfi usulleri"
+    ],
+    "relatedTerms": [
+      "İdari İşlem",
+      "Hukuka Uygunluk",
+      "Şeffaflık",
+      "Karar Alma Süreci"
+    ],
+    "order": 18
+  },
+  {
+    "id": "idari_islem",
+    "term": "İdari İşlem",
+    "definition": "İdari makamların, kamu hukuku alanında, tek taraflı olarak ve hukuki sonuç doğuracak şekilde yaptıkları işlemlerdir. Bu işlemler, bireylerin hak ve menfaatlerini etkileyebilir.",
+    "examples": [
+      "Ruhsat verme",
+      "Ceza kesme",
+      "Kamu personeli atama"
+    ],
+    "relatedTerms": [
+      "İdari Usul",
+      "İdari Yaptırım",
+      "Kamu Hukuku",
+      "Hukuki Sonuç"
+    ],
+    "order": 19
+  },
+  {
+    "id": "idari_yargi",
+    "term": "İdari Yargı",
+    "definition": "İdari işlemlerden doğan uyuşmazlıkları çözümleyen bağımsız mahkemelerdir. İdari işlemlerin hukuka uygunluğunu denetler ve idarenin hukuka aykırı eylemlerinden kaynaklanan zararları giderir.",
+    "examples": [
+      "İdare Mahkemeleri",
+      "Vergi Mahkemeleri",
+      "Danıştay"
+    ],
+    "relatedTerms": [
+      "İdari İşlem",
+      "Hukuka Uygunluk",
+      "Yargı Denetimi",
+      "Dava"
+    ],
+    "order": 20
+  },
+  {
+    "id": "merkezi_idare_teskilati",
+    "term": "Merkezi İdare Teşkilatı",
+    "definition": "Devletin en üst düzeydeki karar alma ve yürütme organlarını ifade eder. Başkentte yer alan bakanlıklar ve Cumhurbaşkanlığı bu teşkilatın ana unsurlarıdır. Devletin ülkenin tamamı üzerindeki yetkisini kullanmasını sağlar.",
+    "examples": [
+      "Cumhurbaşkanlığı Külliyesi",
+      "Dışişleri Bakanlığı",
+      "Milli Savunma Bakanlığı"
+    ],
+    "relatedTerms": [
+      "Merkezi Yönetim",
+      "Bakanlıklar",
+      "Cumhurbaşkanlığı"
+    ],
+    "order": 21
+  },
+  {
+    "id": "tasra_teskilati_birimleri",
+    "term": "Taşra Teşkilatı Birimleri",
+    "definition": "Merkezi idarenin ülkenin farklı bölgelerindeki yansımalarıdır. Valilikler, kaymakamlıklar ve il müdürlükleri bu birimlere örnektir. Merkezi idarenin kararlarını yerel düzeyde uygularlar.",
+    "examples": [
+      "İl Milli Eğitim Müdürlüğü",
+      "İl Sağlık Müdürlüğü",
+      "İl Tarım ve Orman Müdürlüğü"
+    ],
+    "relatedTerms": [
+      "Taşra Teşkilatı",
+      "Valilik",
+      "Kaymakamlık"
+    ],
+    "order": 22
+  },
+  {
+    "id": "yerel_yonetim_ilkeleri",
+    "term": "Yerel Yönetim İlkeleri",
+    "definition": "Yerel yönetimlerin çalışma prensiplerini belirleyen temel esaslardır. Yetki genişliği, özerklik ve hizmette yerellik bu ilkeler arasında sayılabilir. Yerel ihtiyaçların yerel düzeyde karşılanmasını hedefler.",
+    "examples": [
+      "Yetki genişliği ilkesi gereği bazı kararların illerde alınabilmesi",
+      "Belediyelerin kendi bütçeleriyle hizmet sunması",
+      "Köy muhtarlarının kendi bölgelerindeki sorunlara çözüm üretmesi"
+    ],
+    "relatedTerms": [
+      "Yerel Yönetimler",
+      "Merkezi Denge İlkesi",
+      "Yerel Denge İlkesi"
+    ],
+    "order": 23
+  },
+  {
+    "id": "il_yonetimi",
+    "term": "İl Yönetimi",
+    "definition": "İl özel idaresi, il genel meclisi ve il encümeninden oluşan idari yapıdır. İl özel idaresi, illerin genel idaresinden ve mallarından sorumludur. Köylerin ve belirli kamu hizmetlerinin yürütülmesinde rol oynar.",
+    "examples": [
+      "İl özel idaresinin köylere yol yapması",
+      "İl genel meclisinin eğitim yatırımları hakkında karar alması",
+      "İl encümeninin imar planlarını onaylaması"
+    ],
+    "relatedTerms": [
+      "İl Özel İdaresi",
+      "Valilik",
+      "İdari Bölümlenme"
+    ],
+    "order": 24
+  },
+  {
+    "id": "belediye_teskilati",
+    "term": "Belediye Teşkilatı",
+    "definition": "Belediye başkanı, belediye meclisi ve belediye encümeninden oluşan yerel yönetim birimidir. Beldelerin imar, ulaşım, çevre gibi temel ihtiyaçlarını karşılar. Tüzel kişiliğe sahiptir ve kendi bütçesiyle çalışır.",
+    "examples": [
+      "Belediyenin park ve bahçe düzenlemesi yapması",
+      "Belediye meclisinin imar planını değiştirmesi",
+      "Belediye encümeninin ruhsat başvurularını değerlendirmesi"
+    ],
+    "relatedTerms": [
+      "Belediye",
+      "Yerel Yönetimler",
+      "Kamu Tüzel Kişiliği"
+    ],
+    "order": 25
+  },
+  {
+    "id": "koy_yonetimi",
+    "term": "Köy Yönetimi",
+    "definition": "Köy muhtarı ve köy ihtiyar heyetinden oluşan en küçük yerel yönetim birimidir. Köyün ortak ihtiyaçlarını karşılar, köy mallarını yönetir ve köy işleriyle ilgili kararlar alır. Muhtar, köyün tüzel kişiliğini temsil eder.",
+    "examples": [
+      "Köy muhtarının köy çeşmesinin onarımını sağlaması",
+      "İhtiyar heyetinin köyde hayvancılıkla ilgili kararlar alması",
+      "Köyün ortak kullanım alanlarının belirlenmesi"
+    ],
+    "relatedTerms": [
+      "Köy İdaresi",
+      "Yerel Yönetimler",
+      "Muhtarlık"
+    ],
+    "order": 26
+  },
+  {
+    "id": "bakanliklarin_gorevleri",
+    "term": "Bakanlıkların Görevleri",
+    "definition": "Her bir bakanlık, kendi alanıyla ilgili devlet politikalarını belirler, uygular ve denetler. Kanunlarla verilen görevleri yerine getirir ve ilgili kamu kurumlarını yönetir. Bakan, bakanlığın en üst düzey yetkilisidir.",
+    "examples": [
+      "Milli Eğitim Bakanlığı'nın eğitim müfredatını hazırlaması",
+      "Sağlık Bakanlığı'nın salgınla mücadele planını oluşturması",
+      "Adalet Bakanlığı'nın yargı sistemini yönetmesi"
+    ],
+    "relatedTerms": [
+      "Bakanlıklar",
+      "Merkezi Yönetim",
+      "Cumhurbaşkanlığı"
+    ],
+    "order": 27
+  },
+  {
+    "id": "cumhurbaskanligi_yapisi",
+    "term": "Cumhurbaşkanlığı Yapısı",
+    "definition": "Devletin en üst makamıdır ve yürütme organının başıdır. Cumhurbaşkanlığı bünyesinde çeşitli ofisler, kurullar ve danışma organları bulunur. Ülke yönetiminde koordinasyon ve dengeyi sağlar.",
+    "examples": [
+      "Cumhurbaşkanlığı İletişim Başkanlığı",
+      "Cumhurbaşkanlığı Savunma Sanayii Başkanlığı",
+      "Milli Güvenlik Kurulu"
+    ],
+    "relatedTerms": [
+      "Cumhurbaşkanlığı",
+      "Merkezi Yönetim",
+      "Bakanlıklar"
+    ],
+    "order": 28
+  },
+  {
+    "id": "valilik_yetkileri",
+    "term": "Valilik Yetkileri",
+    "definition": "Valilik, ildeki merkezi idarenin temsilcisidir ve ilin genel idaresinden sorumludur. Kanunlara göre verilen görevleri yerine getirir, ildeki kamu kurum ve kuruluşları arasında koordinasyonu sağlar. İdari vesayet yetkisini kullanır.",
+    "examples": [
+      "Valinin ildeki kamu düzenini sağlaması",
+      "Valinin ildeki yatırımları koordine etmesi",
+      "Valinin ildeki afet durumlarında koordinasyonu üstlenmesi"
+    ],
+    "relatedTerms": [
+      "Valilik",
+      "Taşra Teşkilatı",
+      "İdari Vesayet"
+    ],
+    "order": 29
+  },
+  {
+    "id": "kaymakamlik_gorevleri",
+    "term": "Kaymakamlık Görevleri",
+    "definition": "Kaymakam, ilçenin en üst düzey idare amiridir ve ilçenin genel idaresinden sorumludur. Merkezi idarenin ilçedeki temsilcisidir ve kanunlarla verilen görevleri yerine getirir. İlçedeki kamu hizmetlerinin yürütülmesinde koordinasyonu sağlar.",
+    "examples": [
+      "Kaymakamın ilçe halkının temel ihtiyaçlarını koordine etmesi",
+      "Kaymakamın ilçedeki eğitim ve sağlık hizmetlerini denetlemesi",
+      "Kaymakamın ilçedeki kamu güvenliğini sağlaması"
+    ],
+    "relatedTerms": [
+      "Kaymakamlık",
+      "Taşra Teşkilatı",
+      "İlçe İdaresi"
+    ],
+    "order": 30
+  },
+  {
+    "id": "idari_bolumler",
+    "term": "İdari Bölümler",
+    "definition": "Devletin idari amaçlarla ülkeyi ayırdığı birimlerdir. İller, ilçeler, bucaklar ve köyler gibi alt birimlerden oluşur. İdari bölümlenme, kamu hizmetlerinin daha etkin sunulmasını sağlar.",
+    "examples": [
+      "Türkiye'nin 81 ile ayrılması",
+      "Her ilin birden çok ilçeye ayrılması",
+      "Her ilçenin bucak ve köylere ayrılması"
+    ],
+    "relatedTerms": [
+      "İdari Bölümlenme",
+      "Merkezi Yönetim",
+      "Taşra Teşkilatı"
+    ],
+    "order": 31
+  },
+  {
+    "id": "kamu_kurumlari_siniflandirmasi",
+    "term": "Kamu Kurumları Sınıflandırması",
+    "definition": "Kamu hizmetlerini yerine getiren ve devlet tüzel kişiliğine bağlı olan kuruluşlardır. Merkezi idareye bağlı kurumlar, yerel yönetimler ve kamu kurumu niteliğindeki meslek kuruluşları olarak sınıflandırılabilir. Hepsi kamu yararına hizmet eder.",
+    "examples": [
+      "Türkiye Büyük Millet Meclisi",
+      "Danıştay",
+      "Sosyal Güvenlik Kurumu"
+    ],
+    "relatedTerms": [
+      "Kamu Kurumu",
+      "Kamu Tüzel Kişiliği",
+      "Merkezi Yönetim",
+      "Yerel Yönetimler"
+    ],
+    "order": 32
+  },
+  {
+    "id": "kamu_tuzel_kisiligi_edinimi",
+    "term": "Kamu Tüzel Kişiliği Edinimi",
+    "definition": "Belirli bir kamu hizmetini görmek üzere kanunla kurulan ve kendi tüzel kişiliği olan kuruluşlardır. Kendi mal varlığına, personeline ve yetkilerine sahiptirler. Kendi adlarına hak edinebilir ve borç altına girebilirler.",
+    "examples": [
+      "Belediyeler",
+      "Üniversiteler",
+      "Kamu bankaları"
+    ],
+    "relatedTerms": [
+      "Kamu Tüzel Kişiliği",
+      "Kamu Kurumu",
+      "Yerel Yönetimler"
+    ],
+    "order": 33
+  },
+  {
+    "id": "merkezi_denge_mekanizmalari",
+    "term": "Merkezi Denge Mekanizmaları",
+    "definition": "Merkezi yönetimin, yerel yönetimler üzerindeki dengeleyici ve denetleyici etkisini ifade eder. İdari vesayet bu mekanizmalardan biridir. Yerel yönetimlerin keyfi davranmasını önlemeyi amaçlar.",
+    "examples": [
+      "Valinin belediye kararlarını denetlemesi",
+      "Merkezi hükümetin yerel yönetimlere genelgeler göndermesi",
+      "Danıştay'ın yerel yönetim kararlarını incelemesi"
+    ],
+    "relatedTerms": [
+      "Merkezi Denge İlkesi",
+      "İdari Vesayet",
+      "Yerel Yönetimler"
+    ],
+    "order": 34
+  },
+  {
+    "id": "yerel_denge_mekanizmalari",
+    "term": "Yerel Denge Mekanizmaları",
+    "definition": "Yerel yönetimlerin kendi içlerinde ve diğer yerel birimlerle olan ilişkilerinde dengeyi sağlayan prensiplerdir. Yetki paylaşımı ve hizmetlerin koordinasyonu bu kapsamda değerlendirilebilir. Yerel özerkliği korumayı hedefler.",
+    "examples": [
+      "Belediyeler arası işbirliği protokolleri",
+      "İlçe belediyeleri ile büyükşehir belediyesi arasındaki yetki paylaşımı",
+      "Köy muhtarlarının kendi aralarındaki koordinasyonu"
+    ],
+    "relatedTerms": [
+      "Yerel Denge İlkesi",
+      "Yerel Yönetimler",
+      "Yetki Genişliği"
+    ],
+    "order": 35
+  },
+  {
+    "id": "idari_vesayet_uygulamasi",
+    "term": "İdari Vesayet Uygulaması",
+    "definition": "Merkezi idarenin, yerel yönetimler üzerinde sahip olduğu denetim ve düzenleme yetkisidir. Kanunlara aykırı işlem yapan yerel yönetimleri durdurabilir veya iptal edebilir. Yerel yönetimlerin hukuka uygunluğunu sağlar.",
+    "examples": [
+      "Valinin, il genel meclisinin kanuna aykırı kararını iptal etmesi",
+      "Danıştay'ın, belediye meclisinin bir kararını bozması",
+      "Merkezi hükümetin, yerel yönetimlerin bütçelerini denetlemesi"
+    ],
+    "relatedTerms": [
+      "İdari Vesayet",
+      "Merkezi Yönetim",
+      "Yerel Yönetimler"
+    ],
+    "order": 36
+  },
+  {
+    "id": "idari_yaptirim_cesitleri",
+    "term": "İdari Yaptırım Çeşitleri",
+    "definition": "Kamu düzenini sağlamak ve hukuka aykırı eylemleri önlemek amacıyla idare tarafından uygulanan yaptırımlardır. İdari para cezaları, ruhsat iptalleri, faaliyet durdurma gibi çeşitli şekilleri bulunur. Cezalandırmadan ziyade önleyici ve düzenleyici niteliktedir.",
+    "examples": [
+      "Trafik cezaları",
+      "İşyeri açma ruhsatının iptali",
+      "İmar mevzuatına aykırı yapılaşmaya verilen cezalar"
+    ],
+    "relatedTerms": [
+      "İdari Yaptırım",
+      "İdari İşlem",
+      "Kamu Düzeni"
+    ],
+    "order": 37
+  },
+  {
+    "id": "idari_usul_kurallari",
+    "term": "İdari Usul Kuralları",
+    "definition": "İdari işlemlerin hazırlanması, yürütülmesi ve sonuçlandırılması sırasında uyulması gereken kurallardır. Başvuru, bildirim, savunma alma gibi aşamaları içerir. Adil bir idari süreç sağlamayı amaçlar.",
+    "examples": [
+      "Bir vatandaşa idari işlem yapılmadan önce savunmasının alınması",
+      "Bir idari işlemin ilgili kişiye tebliğ edilmesi",
+      "Bir başvurunun belirli bir süre içinde karara bağlanması"
+    ],
+    "relatedTerms": [
+      "İdari Usul",
+      "İdari İşlem",
+      "Hukuk Devleti"
+    ],
+    "order": 38
+  },
+  {
+    "id": "idari_islem_ozellikleri",
+    "term": "İdari İşlem Özellikleri",
+    "definition": "İdare tarafından, idari kamu hukuku kurallarına göre, tek yanlı irade beyanıyla tesis edilen ve hukuki sonuç doğuran işlemlerdir. Kurucu, değiştirici veya sona erdirici nitelikte olabilirler. İdari yargı denetimine tabidirler.",
+    "examples": [
+      "Bir kişinin memuriyete atanması",
+      "Bir binaya yapı ruhsatı verilmesi",
+      "Bir kamu görevlisinin görevden uzaklaştırılması"
+    ],
+    "relatedTerms": [
+      "İdari İşlem",
+      "İdari Yargı",
+      "Tek Taraflılık"
+    ],
+    "order": 39
+  },
+  {
+    "id": "idari_yargi_organlari",
+    "term": "İdari Yargı Organları",
+    "definition": "İdare hukuku alanındaki uyuşmazlıkları çözümleyen mahkemelerdir. Danıştay, Bölge İdare Mahkemeleri ve İdare Mahkemeleri bu organlara örnektir. İdari işlemleri hukuka uygunluk açısından denetler.",
+    "examples": [
+      "İdare Mahkemesi'nin bir idari işlemi iptal etmesi",
+      "Danıştay'ın bir idari işlemin hukuka uygun olduğuna karar vermesi",
+      "Bölge İdare Mahkemesi'nin ilk derece mahkeme kararını onaması veya bozması"
+    ],
+    "relatedTerms": [
+      "İdari Yargı",
+      "İdari İşlem",
+      "Hukuk Devleti"
+    ],
+    "order": 40
+  },
+  {
+    "id": "ilce_teskilati",
+    "term": "İlçe Teşkilatı",
+    "definition": "Taşra teşkilatının iller düzeyindeki alt birimidir. Kaymakam başkanlığında ilçenin genel idaresinden sorumludur. İlçenin mülki ve idari amiridir.",
+    "examples": [
+      "İlçe Kaymakamlığı",
+      "İlçe Emniyet Müdürlüğü",
+      "İlçe Milli Eğitim Müdürlüğü"
+    ],
+    "relatedTerms": [
+      "Taşra Teşkilatı",
+      "Kaymakamlık",
+      "İl Yönetimi"
+    ],
+    "order": 41
+  },
+  {
+    "id": "belde_teskilati",
+    "term": "Belde Teşkilatı",
+    "definition": "Nüfusu belirli bir sınırın üzerinde olan yerleşim yerlerinde kurulan yerel yönetim birimidir. Belediye teşkilatı ile benzer yetki ve görevlere sahiptir.",
+    "examples": [
+      "Belde Belediye Başkanlığı",
+      "Belde Encümeni",
+      "Belde Meclisi"
+    ],
+    "relatedTerms": [
+      "Yerel Yönetimler",
+      "Belediye",
+      "Köy İdaresi"
+    ],
+    "order": 42
+  },
+  {
+    "id": "bucak_teskilati",
+    "term": "Bucak Teşkilatı",
+    "definition": "İlçe idaresinin daha alt birimini oluşturan idari bir yapıdır. Günümüzde birçok ilde kaldırılmıştır. Muhtar ve ihtiyar heyeti tarafından yönetilirdi.",
+    "examples": [
+      "Bucak Müdürlüğü (kaldırıldı)",
+      "Bucak Komutanlığı (kaldırıldı)"
+    ],
+    "relatedTerms": [
+      "İdari Bölümlenme",
+      "Taşra Teşkilatı",
+      "İlçe Teşkilatı"
+    ],
+    "order": 43
+  },
+  {
+    "id": "idaribirim",
+    "term": "İdari Birim",
+    "definition": "Devletin idari yapısını oluşturan, belirli bir coğrafi alanı veya fonksiyonu yöneten temel parçalardır. Merkezden veya yerel düzeyde yetkilendirilebilir.",
+    "examples": [
+      "İl",
+      "İlçe",
+      "Belediye"
+    ],
+    "relatedTerms": [
+      "İdari Bölümlenme",
+      "Merkezi Yönetim",
+      "Yerel Yönetimler"
+    ],
+    "order": 44
+  },
+  {
+    "id": "idari_yetki",
+    "term": "İdari Yetki",
+    "definition": "Kamu idarelerinin, kamu hizmetlerini yürütmek üzere mevzuatla kendilerine verilen görev ve sorumlulukları yerine getirme gücüdür. Kanunilik ilkesine dayanır.",
+    "examples": [
+      "Valinin idari yetkisi",
+      "Belediye başkanının idari yetkisi",
+      "Bakanın idari yetkisi"
+    ],
+    "relatedTerms": [
+      "İdari İşlem",
+      "Kamu Tüzel Kişiliği",
+      "İdari Vesayet"
+    ],
+    "order": 45
+  },
+  {
+    "id": "idari_görev",
+    "term": "İdari Görev",
+    "definition": "Kamu tüzel kişilerinin, kamu hizmetlerini yerine getirmekle yükümlü olduğu faaliyetlerdir. Bu görevler mevzuatla belirlenir ve idari yetki ile yerine getirilir.",
+    "examples": [
+      "Eğitim hizmetleri",
+      "Sağlık hizmetleri",
+      "Güvenlik hizmetleri"
+    ],
+    "relatedTerms": [
+      "Kamu Hizmeti",
+      "İdari Yetki",
+      "Kamu Tüzel Kişiliği"
+    ],
+    "order": 46
+  },
+  {
+    "id": "idari_karar",
+    "term": "İdari Karar",
+    "definition": "Kamu idarelerinin, idari yetkilerini kullanarak, belirli bir konuda hukuki sonuç doğuran tek taraflı işlemleridir. İdari işlemin bir türüdür.",
+    "examples": [
+      "Ruhsat verme kararı",
+      "Atama kararı",
+      "İmar planı onayı"
+    ],
+    "relatedTerms": [
+      "İdari İşlem",
+      "İdari Yetki",
+      "İdari Usul"
+    ],
+    "order": 47
+  },
+  {
+    "id": "idari_hukuk",
+    "term": "İdari Hukuk",
+    "definition": "Devletin idari faaliyetlerini, idare ile bireyler arasındaki ilişkileri düzenleyen hukuk dalıdır. İdari yargının temelini oluşturur.",
+    "examples": [
+      "İdare Hukuku Ders Kitabı",
+      "Danıştay Kararları",
+      "İdari Yargılama Usulü Kanunu"
+    ],
+    "relatedTerms": [
+      "İdari Yargı",
+      "Kamu Hukuku",
+      "İdari İşlem"
+    ],
+    "order": 48
+  },
+  {
+    "id": "idari_sorumluluk",
+    "term": "İdari Sorumluluk",
+    "definition": "Kamu görevlilerinin, görevlerini yerine getirirken hukuka aykırı davrandıklarında doğan hukuki sorumluluktur. Hem idari hem de cezai sorumluluk söz konusu olabilir.",
+    "examples": [
+      "Görevi kötüye kullanma",
+      "İhmal sonucu zarar verme",
+      "Rüşvet alma"
+    ],
+    "relatedTerms": [
+      "İdari Yaptırım",
+      "Kamu Görevlisi",
+      "Hukuka Aykırılık"
+    ],
+    "order": 49
+  },
+  {
+    "id": "idari_denetim",
+    "term": "İdari Denetim",
+    "definition": "Kamu idarelerinin hukuka uygun, verimli ve etkili çalışmasını sağlamak amacıyla yapılan inceleme ve kontrollerdir. İç ve dış denetim olarak ayrılır.",
+    "examples": [
+      "Sayıştay denetimi",
+      "Teftiş kurulu denetimi",
+      "İç denetim birimi"
+    ],
+    "relatedTerms": [
+      "İdari Vesayet",
+      "İdari Yaptırım",
+      "Kamu Yönetimi"
+    ],
+    "order": 50
+  },
+  {
+    "id": "idari_teskilat_sistemleri",
+    "term": "İdari Teşkilat Sistemleri",
+    "definition": "Devletin idari yapısının nasıl kurulduğuna ve işlediğine dair farklı yaklaşımlardır. Merkeziyetçi, adem-i merkeziyetçi ve karma sistemler bulunur.",
+    "examples": [
+      "Fransız Sistemi (Merkeziyetçi)",
+      "İngiliz Sistemi (Karma)",
+      "Federal Sistem (Adem-i Merkeziyetçi)"
+    ],
+    "relatedTerms": [
+      "Merkezi Yönetim",
+      "Yerel Yönetimler",
+      "İdari Bölümlenme"
+    ],
+    "order": 51
+  },
+  {
+    "id": "idari_merkez",
+    "term": "İdari Merkez",
+    "definition": "Bir idari birimin yönetim ve karar alma fonksiyonlarının toplandığı yerdir. Başkent, il merkezi, ilçe merkezi gibi coğrafi konumları ifade edebilir.",
+    "examples": [
+      "Ankara (Merkezi İdarenin Merkezi)",
+      "İl Valiliği Binası",
+      "Belediye Başkanlığı Binası"
+    ],
+    "relatedTerms": [
+      "Merkezi Yönetim",
+      "Taşra Teşkilatı",
+      "İdari Birim"
+    ],
+    "order": 52
+  },
+  {
+    "id": "idari_yetki_devri",
+    "term": "İdari Yetki Devri",
+    "definition": "Bir idari makamın, kendi yetkisindeki bazı görev ve yetkileri, başka bir idari makama veya kuruluşa devretmesidir. Belirli şartlara bağlıdır.",
+    "examples": [
+      "Bakanın belirli yetkileri Müsteşara devretmesi",
+      "Valinin bazı yetkileri Kaymakama devretmesi"
+    ],
+    "relatedTerms": [
+      "İdari Yetki",
+      "Yetki Aşımı",
+      "İdari Hiyerarşi"
+    ],
+    "order": 53
+  },
+  {
+    "id": "idari_ihtisas",
+    "term": "İdari İhtisas",
+    "definition": "Kamu hizmetlerinin yürütülmesinde belirli bir alanda uzmanlaşmış ve teknik bilgiye sahip kamu görevlileri tarafından verilen hizmettir. İdari kararlarda uzmanlık önemlidir.",
+    "examples": [
+      "Çevre mühendisinin atık yönetimi konusundaki kararları",
+      "Mali müşavirin vergi konusunda verdiği görüş"
+    ],
+    "relatedTerms": [
+      "Kamu Kurumu",
+      "Uzmanlık",
+      "İdari Karar"
+    ],
+    "order": 54
+  },
+  {
+    "id": "idari_kolluk",
+    "term": "İdari Kolluk",
+    "definition": "Kamu düzenini, genel sağlığı ve güvenliği sağlamak amacıyla önleyici veya düzenleyici tedbirler alan idari birimlerdir. Polis, jandarma gibi teşkilatları kapsar.",
+    "examples": [
+      "Trafik düzenlemesi",
+      "Toplantı ve gösteri yürüyüşlerinin denetimi",
+      "Sağlık denetimleri"
+    ],
+    "relatedTerms": [
+      "Kamu Düzeni",
+      "Önleyici Tedbir",
+      "İdari Yaptırım"
+    ],
+    "order": 55
+  },
+  {
+    "id": "idari_yargilama",
+    "term": "İdari Yargılama",
+    "definition": "İdari işlemlerden doğan uyuşmazlıkların çözümlendiği yargı sistemidir. İdare mahkemeleri, bölge idare mahkemeleri ve Danıştay bu süreci yürütür.",
+    "examples": [
+      "İptal davası",
+      "Tazminat davası",
+      "Tam yargı davası"
+    ],
+    "relatedTerms": [
+      "İdari Yargı",
+      "İdari İşlem",
+      "Dava"
+    ],
+    "order": 56
+  },
+  {
+    "id": "idari_teskilat_kanunu",
+    "term": "İdari Teşkilat Kanunu",
+    "definition": "Devletin idari yapısını, bakanlıkların ve diğer merkezi ve taşra kuruluşlarının görev ve yetkilerini düzenleyen kanundur. 1982 Anayasası'nda da ilgili maddeler bulunur.",
+    "examples": [
+      "1 Numaralı Cumhurbaşkanlığı Kararnamesi",
+      "Bakanlıkların Kuruluş ve Görevleri Hakkında Kanunlar"
+    ],
+    "relatedTerms": [
+      "Merkezi Yönetim",
+      "Taşra Teşkilatı",
+      "Cumhurbaşkanlığı Kararnamesi"
+    ],
+    "order": 57
+  },
+  {
+    "id": "idari_vesayet_yetkisi",
+    "term": "İdari Vesayet Yetkisi",
+    "definition": "Merkezi idarenin, yerel yönetimler üzerindeki denetim ve müdahale yetkisidir. Kanunlarla belirlenen sınırlar içinde kullanılır.",
+    "examples": [
+      "Valinin belediye meclisi kararlarını onaylaması",
+      "Bakanlığın il özel idaresi bütçesini denetlemesi"
+    ],
+    "relatedTerms": [
+      "İdari Vesayet",
+      "Yerel Yönetimler",
+      "Merkezi Yönetim"
+    ],
+    "order": 58
+  },
+  {
+    "id": "belediye_birligi",
+    "term": "Belediye Birliği",
+    "definition": "Birden fazla belediyenin, ortak bir kamu hizmetini daha etkin ve verimli bir şekilde sunmak amacıyla kurdukları tüzel kişiliğe sahip kuruluştur. Birlikler, kendi meclisleri ve encümenleri aracılığıyla yönetilir.",
+    "examples": [
+      "Atık su arıtma tesisi kurma",
+      "Toplu taşıma hizmetleri",
+      "İtfaiye hizmetlerinin ortak yürütülmesi"
+    ],
+    "relatedTerms": [
+      "Belediye",
+      "Mahalli İdareler",
+      "Ortak Hizmet"
+    ],
+    "order": 59
+  },
+  {
+    "id": "koy_hizmetleri_birim",
+    "term": "Köy Hizmetleri Birimi",
+    "definition": "Kırsal alanlardaki köylerin altyapı, üstyapı ve diğer temel ihtiyaçlarını karşılamak amacıyla kurulan, özel idarelere bağlı veya bağımsız birimlerdir. Köy muhtarlıklarının yetersiz kaldığı durumlarda devreye girerler.",
+    "examples": [
+      "Köy yollarının bakımı",
+      "İçme suyu ve kanalizasyon projeleri",
+      "Köy okullarının onarımı"
+    ],
+    "relatedTerms": [
+      "Köy Muhtarlığı",
+      "İl Özel İdaresi",
+      "Kırsal Kalkınma"
+    ],
+    "order": 60
+  },
+  {
+    "id": "merkezi_idare_tasra_teskilati",
+    "term": "Merkezi İdare Taşra Teşkilatı",
+    "definition": "Merkezi idarenin, ülke genelinde illerde ve ilçelerde oluşturduğu hiyerarşik bir yapılanmadır. Valilikler ve kaymakamlıklar bu teşkilatın ana unsurlarıdır.",
+    "examples": [
+      "İl Milli Eğitim Müdürlüğü",
+      "İl Emniyet Müdürlüğü",
+      "İl Tarım ve Orman Müdürlüğü"
+    ],
+    "relatedTerms": [
+      "Valilik",
+      "Kaymakamlık",
+      "Merkezi İdare Teşkilatı"
+    ],
+    "order": 61
+  },
+  {
+    "id": "ilce_idare_kurulu",
+    "term": "İlçe İdare Kurulu",
+    "definition": "Kaymakam başkanlığında, ilçenin mülki ve idari amirlerinden oluşan, ilçenin idari işleyişiyle ilgili kararlar alan bir kuruldur. Kaymakamın bazı kararları için bu kurula başvurması gerekebilir.",
+    "examples": [
+      "İmar planı değişiklikleri",
+      "Kamu hizmetlerinin koordinasyonu",
+      "İlçe sınırları ile ilgili düzenlemeler"
+    ],
+    "relatedTerms": [
+      "Kaymakamlık",
+      "İlçe Yönetimi",
+      "İdari Karar"
+    ],
+    "order": 62
+  },
+  {
+    "id": "ilce_belediyesi",
+    "term": "İlçe Belediyesi",
+    "definition": "İlçelerde yaşayan nüfusun yerel nitelikli müşterek ihtiyaçlarını karşılamak amacıyla kurulan, karar organı belediye meclisi, yürütme organı ise belediye encümeni ve başkandan oluşan kamu tüzel kişiliğidir.",
+    "examples": [
+      "İlçe merkezindeki parkların bakımı",
+      "İlçe içi ulaşım hizmetleri",
+      "İlçe mezarlıklarının yönetimi"
+    ],
+    "relatedTerms": [
+      "Belediye Teşkilatı",
+      "Mahalli İdareler",
+      "İlçe Yönetimi"
+    ],
+    "order": 63
+  },
+  {
+    "id": "belde_belediyesi",
+    "term": "Belde Belediyesi",
+    "definition": "Nüfusu belirli bir seviyenin üzerinde olan ve belediye kurmak için gerekli şartları taşıyan yerleşim yerlerinde kurulan, yerel hizmetleri yürüten kamu tüzel kişiliğidir. İlçe belediyelerine benzer bir yapıdadır.",
+    "examples": [
+      "Belde içi yol yapımı ve bakımı",
+      "Temizlik hizmetleri",
+      "Belde park ve bahçelerinin düzenlenmesi"
+    ],
+    "relatedTerms": [
+      "Belediye Teşkilatı",
+      "Mahalli İdareler",
+      "Yerel Yönetim İlkeleri"
+    ],
+    "order": 64
+  },
+  {
+    "id": "idari_denetim_mekanizmalari",
+    "term": "İdari Denetim Mekanizmaları",
+    "definition": "Kamu kurum ve kuruluşlarının hukuka uygun, verimli ve etkili çalışmasını sağlamak amacıyla uygulanan denetim sistemleridir. İç denetim, dış denetim ve yargısal denetim gibi türleri bulunur.",
+    "examples": [
+      "Sayıştay denetimi",
+      "TBMM Kamu Denetçiliği Kurumu denetimi",
+      "İçişleri Bakanlığı'nın mahalli idareler denetimi"
+    ],
+    "relatedTerms": [
+      "İdari Denetim",
+      "Sayıştay",
+      "Kamu Denetçiliği Kurumu"
+    ],
+    "order": 65
+  },
+  {
+    "id": "idari_denetim_turu",
+    "term": "İdari Denetim Türleri",
+    "definition": "İdari denetim, idarenin hukuka uygunluğunu ve verimliliğini sağlamak amacıyla gerçekleştirilir. Bu denetimler, hiyerarşik denetim, vesayet denetimi, iç denetim ve bağımsız denetim gibi türlere ayrılır.",
+    "examples": [
+      "Bakanın genel müdürlüğü denetlemesi (hiyerarşik denetim)",
+      "İçişleri Bakanlığı'nın belediyeler üzerindeki denetimi (vesayet denetimi)",
+      "Sayıştay'ın kamu kurumlarının hesaplarını denetlemesi (bağımsız denetim)"
+    ],
+    "relatedTerms": [
+      "İdari Denetim",
+      "İdari Vesayet",
+      "Hiyerarşi"
+    ],
+    "order": 66
+  },
+  {
+    "id": "idari_kolluk_turu",
+    "term": "İdari Kolluk Türleri",
+    "definition": "İdari kolluk, kamu düzenini sağlamak amacıyla alınan önleyici ve düzenleyici tedbirleri ifade eder. Genel idari kolluk ve özel idari kolluk olmak üzere ikiye ayrılır.",
+    "examples": [
+      "Polisin genel asayişi sağlaması (genel idari kolluk)",
+      "Tarım ve Orman Bakanlığı'nın gıda güvenliğini denetlemesi (özel idari kolluk)",
+      "Belediye zabıtasının çevre düzenini sağlaması (genel idari kolluk)"
+    ],
+    "relatedTerms": [
+      "İdari Kolluk",
+      "Kamu Düzeni",
+      "Önleyici Kolluk"
+    ],
+    "order": 67
+  },
+  {
+    "id": "idari_yargi_mercii",
+    "term": "İdari Yargı Mercileri",
+    "definition": "İdari yargı mercileri, idarenin hukuka aykırı işlemlerine karşı açılan davalara bakan bağımsız mahkemelerdir. Türkiye'de idari yargı alanında Danıştay, Bölge İdare Mahkemeleri ve İdare Mahkemeleri bulunur.",
+    "examples": [
+      "Bir idari işlemin iptali için idare mahkemesine başvurulması",
+      "Vergi uyuşmazlıklarının vergi mahkemelerinde çözülmesi",
+      "İdari sözleşmelerden doğan uyuşmazlıkların Danıştay'da görülmesi"
+    ],
+    "relatedTerms": [
+      "İdari Yargı",
+      "İptal Davası",
+      "Tazminat Davası"
+    ],
+    "order": 68
+  },
+  {
+    "id": "idari_basin_hukuku",
+    "term": "İdari Basın Hukuku",
+    "definition": "İdari basın hukuku, idarenin basın ve yayın organlarıyla olan ilişkilerini düzenleyen hukuk dalıdır. İdarenin basın özgürlüğüne müdahalesi ve basının idareyi denetleme rolü bu alanda incelenir.",
+    "examples": [
+      "Bir bakanın gazetecilere bilgi vermesi",
+      "İdarenin yayınladığı resmi duyurular",
+      "Basının idari yolsuzlukları ortaya çıkarması"
+    ],
+    "relatedTerms": [
+      "Basın Özgürlüğü",
+      "Bilgi Edinme Hakkı",
+      "İdari Şeffaflık"
+    ],
+    "order": 69
+  },
+  {
+    "id": "idari_yetki_sinirlari",
+    "term": "İdari Yetki Sınırları",
+    "definition": "İdari yetki sınırları, idarelerin görev ve sorumluluklarının nerede başlayıp nerede bittiğini belirleyen kurallardır. Yetki aşımı veya yetki gaspı gibi durumlar bu sınırların ihlali anlamına gelir.",
+    "examples": [
+      "Bir valinin il sınırları dışındaki bir konuda karar alamaması",
+      "Bir belediye başkanının bakanlık düzeyinde bir düzenleme yapamaması",
+      "Merkezi idarenin yerel yönetimlerin yetki alanına doğrudan müdahale edememesi"
+    ],
+    "relatedTerms": [
+      "İdari Yetki",
+      "Yetki Aşımı",
+      "Yetki Gaspı"
+    ],
+    "order": 70
+  },
+  {
+    "id": "idari_islem_iptali",
+    "term": "İdari İşlem İptali",
+    "definition": "İdari işlem iptali, idarenin hukuka aykırı bir işleminin yargı kararıyla geçersiz kılınmasıdır. Bu, idarenin hukuka uygun davranmasını sağlamanın en önemli yollarından biridir.",
+    "examples": [
+      "Bir ruhsatın keyfi olarak iptal edilmesi üzerine idare mahkemesine başvurulması",
+      "Bir atama işleminin kanuna aykırı olması nedeniyle iptal edilmesi",
+      "Bir imar planının hukuka aykırı gerekçelerle değiştirilmesi ve iptal edilmesi"
+    ],
+    "relatedTerms": [
+      "İdari İşlem",
+      "İptal Davası",
+      "Hukuka Aykırılık"
+    ],
+    "order": 71
+  },
+  {
+    "id": "idari_karar_alma_sureci",
+    "term": "İdari Karar Alma Süreci",
+    "definition": "İdari karar alma süreci, bir idari kararın alınması için izlenen adımları ve usulleri ifade eder. Bu süreç, bilgi toplama, değerlendirme, danışma ve nihai kararın verilmesi aşamalarından oluşur.",
+    "examples": [
+      "Bir kamu ihalesinin değerlendirme süreci",
+      "Bir imar planının hazırlanması ve onaylanması süreci",
+      "Bir personel atama kararının alınması süreci"
+    ],
+    "relatedTerms": [
+      "İdari Karar",
+      "İdari Usul",
+      "Bilgi Edinme"
+    ],
+    "order": 72
+  },
+  {
+    "id": "idari_yapilanma_modelleri",
+    "term": "İdari Yapılanma Modelleri",
+    "definition": "İdari yapılanma modelleri, devletin idari birimlerinin nasıl organize edildiğini gösteren farklı yaklaşımlardır. Merkeziyetçi, federal ve üniter yapılar bu modellerin başında gelir.",
+    "examples": [
+      "Almanya'nın federal yapısı",
+      "İtalya'nın bölgesel yönetimlere sahip üniter yapısı",
+      "Türkiye'nin merkezi ve yerel yönetimleri içeren üniter yapısı"
+    ],
+    "relatedTerms": [
+      "Merkezi İdare Teşkilatı",
+      "Yerel Yönetimler",
+      "Federal Devlet",
+      "Üniter Devlet"
+    ],
+    "order": 73
+  },
+  {
+    "id": "idari_yetki_genisletilmesi",
+    "term": "İdari Yetki Genişletilmesi",
+    "definition": "İdari yetki genişletilmesi, mevcut idari birimlerin görev ve yetkilerinin artırılması veya yeni yetkilerin verilmesi anlamına gelir. Bu, genellikle değişen ihtiyaçlara veya yeni politikaların uygulanmasına yönelik olarak yapılır.",
+    "examples": [
+      "Bir bakanlığa yeni bir alanla ilgili düzenleme yapma yetkisi verilmesi",
+      "Belediyelerin çevre koruma alanında yetkilerinin artırılması",
+      "Cumhurbaşkanlığı kararnameleri ile yeni idari görevlerin tanımlanması"
+    ],
+    "relatedTerms": [
+      "İdari Yetki",
+      "Görev Tanımı",
+      "Cumhurbaşkanlığı Kararnamesi"
+    ],
+    "order": 74
+  },
+  {
+    "id": "idari_hukuk_ilkeleri",
+    "term": "İdari Hukuk İlkeleri",
+    "definition": "İdari hukuk ilkeleri, idarenin faaliyetlerini yönlendiren temel prensiplerdir. Hukuk devleti ilkesi, kanunilik ilkesi, eşitlik ilkesi ve idarenin malumatı ilkesi bu ilkeler arasında sayılabilir.",
+    "examples": [
+      "İdarenin keyfi uygulamalardan kaçınması (hukuk devleti)",
+      "İdarenin yetkisini kanunlardan alması (kanunilik)",
+      "Vatandaşlara eşit muamele yapılması (eşitlik)"
+    ],
+    "relatedTerms": [
+      "İdari Hukuk",
+      "Hukuk Devleti",
+      "Kanunilik İlkesi"
+    ],
+    "order": 75
+  },
+  {
+    "id": "idari_yapilanma_reformlari",
+    "term": "İdari Yapılanma Reformları",
+    "definition": "İdari yapılanma reformları, devletin idari yapısını daha etkin, verimli ve çağdaş hale getirmek amacıyla yapılan köklü değişikliklerdir. Bu reformlar, kurumsal yapıyı, görev dağılımını ve işleyişi etkileyebilir.",
+    "examples": [
+      "Kamu kurumlarının birleştirilmesi veya kapatılması",
+      "Yerel yönetimlerin yetki ve sorumluluklarının yeniden düzenlenmesi",
+      "E-devlet uygulamalarıyla idari süreçlerin dijitalleştirilmesi"
+    ],
+    "relatedTerms": [
+      "İdari Teşkilat Sistemleri",
+      "Kamu Yönetimi",
+      "Dijitalleşme"
+    ],
+    "order": 76
+  },
+  {
+    "id": "idari_denetim_mekanizmalari_cesitleri",
+    "term": "İdari Denetim Mekanizmaları Çeşitleri",
+    "definition": "İdari denetim mekanizmaları çeşitleri, idarenin hukuka uygunluğunu ve performansını kontrol etmek için kullanılan araçlardır. Bunlar arasında teftiş, denetim, inceleme ve soruşturma gibi yöntemler bulunur.",
+    "examples": [
+      "Bir müfettişin bir kamu kurumunu denetlemesi",
+      "Sayıştay'ın kamu harcamalarını incelemesi",
+      "Bir valinin ilindeki kamu hizmetlerini denetlemesi"
+    ],
+    "relatedTerms": [
+      "İdari Denetim",
+      "Teftiş",
+      "Soruşturma"
+    ],
+    "order": 77
+  },
+  {
+    "id": "idari_yetki_devri_sinirlari",
+    "term": "İdari Yetki Devri Sınırları",
+    "definition": "İdari yetki devri sınırları, bir idari makamın kendi yetkisini başka bir makama devredebileceği durumları ve bu devrin kapsamını belirleyen kurallardır. Yetki devri, kanunla veya yetkili makamın onayıyla gerçekleşebilir.",
+    "examples": [
+      "Bir bakanın bazı yetkilerini genel müdürlere devretmesi",
+      "Valinin bazı yetkilerini vali yardımcılarına devretmesi",
+      "Cumhurbaşkanının bazı yetkilerini bakanlara devretmesi"
+    ],
+    "relatedTerms": [
+      "İdari Yetki Devri",
+      "Yetki Sınırları",
+      "Hiyerarşi"
+    ],
+    "order": 78
+  },
+  {
+    "id": "idari_teskilat_kanunlari",
+    "term": "İdari Teşkilat Kanunları",
+    "definition": "İdari teşkilat kanunları, devletin idari yapısını, kurumlarının kuruluşunu, görev ve yetkilerini düzenleyen yasalardır. Bu kanunlar, idarenin işleyişinin temelini oluşturur.",
+    "examples": [
+      "1982 Anayasası'nın idari teşkilatla ilgili maddeleri",
+      "Bakanlıkların kuruluş ve görevleri hakkında kanunlar",
+      "Yerel yönetimlerin kuruluş ve görevleri hakkında kanunlar"
+    ],
+    "relatedTerms": [
+      "İdari Teşkilat Sistemleri",
+      "Anayasa",
+      "Kanun"
+    ],
+    "order": 79
+  },
+  {
+    "id": "idari_basin_yayini_denetimi",
+    "term": "İdari Basın ve Yayını Denetimi",
+    "definition": "İdari basın ve yayını denetimi, idarenin basın ve yayın organları üzerindeki düzenleyici ve sınırlayıcı yetkisini ifade eder. Bu denetim, kamu düzeni, milli güvenlik gibi nedenlerle sınırlı olabilir.",
+    "examples": [
+      "RTÜK'ün yayın kuruluşlarını denetlemesi",
+      "Mahkemelerin yayın yasağı kararları",
+      "İdarenin kamu spotları aracılığıyla bilgilendirme yapması"
+    ],
+    "relatedTerms": [
+      "İdari Basın Hukuku",
+      "Sansür",
+      "Kamu Denetimi"
+    ],
+    "order": 80
+  },
+  {
+    "id": "idari_yetki_sinirlamasi",
+    "term": "İdari Yetki Sınırlaması",
+    "definition": "İdari yetki sınırlaması, idarelerin sahip olduğu yetkilerin kanunlar veya anayasa tarafından belirli sınırlar içine alınmasıdır. Bu, keyfi uygulamaları önlemeyi ve bireysel hakları korumayı amaçlar.",
+    "examples": [
+      "İdarenin özel hayatın gizliliğine müdahale edememesi",
+      "Mülkiyet hakkına keyfi olarak müdahale edilememesi",
+      "İfade özgürlüğünün kanuni sınırlar dışında kısıtlanamaması"
+    ],
+    "relatedTerms": [
+      "İdari Yetki",
+      "Hak ve Özgürlükler",
+      "Hukuk Devleti"
+    ],
+    "order": 81
+  },
+  {
+    "id": "idari_teskilat_yapisi",
+    "term": "İdari Teşkilat Yapısı",
+    "definition": "İdari teşkilat yapısı, bir devletin idari birimlerinin birbirleriyle olan ilişkilerini, görev dağılımını ve hiyerarşik düzenini gösteren bütündür. Merkezi ve yerel idareler bu yapının ana unsurlarıdır.",
+    "examples": [
+      "Merkezi idarenin iller ve ilçelerle olan ilişkisi",
+      "Yerel yönetimlerin kendi içindeki hiyerarşisi",
+      "Bakanlıkların genel müdürlükler ve daire başkanlıkları ile olan ilişkisi"
+    ],
+    "relatedTerms": [
+      "Merkezi İdare Teşkilatı",
+      "Taşra Teşkilatı Birimleri",
+      "Yerel Yönetimler"
+    ],
+    "order": 82
+  },
+  {
+    "id": "idari_yetki_kullanimi",
+    "term": "İdari Yetki Kullanımı",
+    "definition": "İdari yetki kullanımı, idarelerin kanunlardan aldıkları yetkileri belirli amaçlar doğrultusunda kullanmasıdır. Bu kullanım, keyfi olmamalı, hukuka uygunluk ve kamu yararı gözetilmelidir.",
+    "examples": [
+      "Valinin kamu düzenini sağlamak için aldığı önlemler",
+      "Belediyenin imar planı yapma yetkisini kullanması",
+      "Bir bakanın yönetmelik çıkarma yetkisini kullanması"
+    ],
+    "relatedTerms": [
+      "İdari Yetki",
+      "Kamu Yararı",
+      "Hukuka Uygunluk"
+    ],
+    "order": 83
+  },
+  {
+    "id": "merkezi_ida_yerinden_yonetim",
+    "term": "Merkezi İdare Yerinden Yönetim",
+    "definition": "Merkezi idarenin, ülkenin yönetimini coğrafi olarak bölümlere ayırarak, bu bölümlerde merkezi idare adına görev yapan birimler aracılığıyla yürütmesidir. Bu birimler, merkezi idarenin hiyerarşisine bağlıdır ve merkezi idarenin emir ve talimatlarına göre hareket ederler.",
+    "examples": [
+      "Valilikler",
+      "Kaymakamlıklar",
+      "Bölge müdürlükleri"
+    ],
+    "relatedTerms": [
+      "Merkezi İdare",
+      "Taşra Teşkilatı",
+      "Hiyerarşi"
+    ],
+    "order": 84
+  },
+  {
+    "id": "buyuksehir_belediyesi",
+    "term": "Büyükşehir Belediyesi",
+    "definition": "Nüfusu belirli bir sınırın üzerinde olan ve birden fazla ilçeyi kapsayan yerleşim yerlerinde kurulan özel statülü belediyelerdir. Hem ilçe belediyeleri üzerinde koordinasyon ve denetim yetkisine sahiptir hem de kendi yetki alanında doğrudan hizmet sunar.",
+    "examples": [
+      "İstanbul Büyükşehir Belediyesi",
+      "Ankara Büyükşehir Belediyesi"
+    ],
+    "relatedTerms": [
+      "Belediye",
+      "İlçe Belediyesi",
+      "Yerel Yönetimler"
+    ],
+    "order": 85
+  },
+  {
+    "id": "idari_teskilat_ilkeleri",
+    "term": "İdari Teşkilat İlkeleri",
+    "definition": "İdari teşkilatın oluşturulmasında ve işleyişinde temel alınan prensiplerdir. Merkeziyetçilik, yerinden yönetim, hiyerarşi, vesayet, yetki genişliği gibi ilkeleri kapsar.",
+    "examples": [
+      "Merkeziyetçilik ilkesi",
+      "Yerinden yönetim ilkesi"
+    ],
+    "relatedTerms": [
+      "Merkeziyetçilik",
+      "Yerinden Yönetim",
+      "Hiyerarşi"
+    ],
+    "order": 86
+  },
+  {
+    "id": "idari_faaliyet",
+    "term": "İdari Faaliyet",
+    "definition": "Kamu idaresinin, kamu hizmetlerini yerine getirmek amacıyla yaptığı tüm eylem ve işlemlerdir. Bu faaliyetler, idari işlem, idari eylem ve idari sözleşme şeklinde ortaya çıkabilir.",
+    "examples": [
+      "Bir ruhsat verilmesi",
+      "Bir yol yapım çalışması",
+      "Kamu ihalesi sözleşmesi"
+    ],
+    "relatedTerms": [
+      "İdari İşlem",
+      "Kamu Hizmeti",
+      "İdari Sözleşme"
+    ],
+    "order": 87
+  },
+  {
+    "id": "idari_islemin_unsurlari",
+    "term": "İdari İşlemin Unsurları",
+    "definition": "Bir idari işlemin geçerli olabilmesi için taşıması gereken zorunlu öğelerdir. Yetki, şekil, sebep, konu ve amaç olmak üzere beş temel unsuru bulunur.",
+    "examples": [
+      "Yetkisiz bir memur tarafından verilen karar",
+      "Kanuna aykırı bir amaçla yapılan işlem"
+    ],
+    "relatedTerms": [
+      "İdari İşlem",
+      "İdari Yargı",
+      "Hukuka Aykırılık"
+    ],
+    "order": 88
+  },
+  {
+    "id": "idari_sozlesmeler",
+    "term": "İdari Sözleşmeler",
+    "definition": "İdarenin, kamu hizmeti görmek amacıyla özel hukuk kişileri veya diğer kamu tüzel kişileri ile yaptığı, kamu hukuku hükümlerine tabi sözleşmelerdir. Bu sözleşmelerde idarenin tek taraflı üstün yetkileri bulunur.",
+    "examples": [
+      "Yap-işlet-devret modeli sözleşmeleri",
+      "İmtiyaz sözleşmeleri"
+    ],
+    "relatedTerms": [
+      "Kamu İhalesi",
+      "Kamu Hizmeti",
+      "İdari Faaliyet"
+    ],
+    "order": 89
+  },
+  {
+    "id": "kamu_hizmeti",
+    "term": "Kamu Hizmeti",
+    "definition": "Devlet veya diğer kamu tüzel kişileri tarafından, kamu yararını sağlamak amacıyla yürütülen, sürekli ve düzenli faaliyetlerdir. Kamu hizmetleri, idarenin temel varlık nedenidir.",
+    "examples": [
+      "Eğitim hizmetleri",
+      "Sağlık hizmetleri",
+      "Güvenlik hizmetleri"
+    ],
+    "relatedTerms": [
+      "İdari Faaliyet",
+      "Kamu Yararı",
+      "Sosyal Devlet"
+    ],
+    "order": 90
+  },
+  {
+    "id": "mahalli_idareler",
+    "term": "Mahalli İdareler",
+    "definition": "Yerel düzeyde, kanunla belirlenmiş görevleri yerine getiren, karar organları halk tarafından seçilen kamu tüzel kişileridir. Merkezi idarenin hiyerarşik denetimine değil, idari vesayet denetimine tabidirler.",
+    "examples": [
+      "Belediyeler",
+      "İl Özel İdareleri",
+      "Köyler"
+    ],
+    "relatedTerms": [
+      "Yerinden Yönetim",
+      "İdari Vesayet",
+      "Kamu Tüzel Kişiliği"
+    ],
+    "order": 91
+  },
+  {
+    "id": "merkezi_idare",
+    "term": "Merkezi İdare",
+    "definition": "Devletin tüm ülke genelinde kamu hizmetlerini yürütmek üzere oluşturduğu idari yapıdır. Başkent teşkilatı ve taşra teşkilatı olmak üzere ikiye ayrılır.",
+    "examples": [
+      "Cumhurbaşkanlığı",
+      "Bakanlıklar",
+      "Valilikler"
+    ],
+    "relatedTerms": [
+      "Başkent Teşkilatı",
+      "Taşra Teşkilatı",
+      "Hiyerarşi"
+    ],
+    "order": 92
+  },
+  {
+    "id": "yerinden_yonetim",
+    "term": "Yerinden Yönetim",
+    "definition": "Kamu hizmetlerinin, merkezi idarenin hiyerarşik denetimi dışında, ayrı kamu tüzel kişilikleri tarafından yürütülmesidir. Coğrafi yerinden yönetim ve hizmet yerinden yönetimi olarak ikiye ayrılır.",
+    "examples": [
+      "Belediyelerin çöp toplama hizmeti",
+      "Üniversitelerin eğitim faaliyetleri"
+    ],
+    "relatedTerms": [
+      "Mahalli İdareler",
+      "Hizmet Yerinden Yönetim",
+      "İdari Özerklik"
+    ],
+    "order": 93
+  },
+  {
+    "id": "idari_eylem",
+    "term": "İdari Eylem",
+    "definition": "İdarenin hukuki sonuç doğurmayan, maddi nitelikteki fiilleridir. Genellikle bir idari işlemin uygulanması veya yerine getirilmesi sırasında ortaya çıkar.",
+    "examples": [
+      "Yol yapım çalışması",
+      "Polisin trafik düzenlemesi",
+      "Yangın söndürme faaliyeti"
+    ],
+    "relatedTerms": [
+      "İdari İşlem",
+      "Hizmet Kusuru",
+      "Maddi Fiil"
+    ],
+    "order": 94
+  },
+  {
+    "id": "idarenin_butunlugu_ilkesi",
+    "term": "İdarenin Bütünlüğü İlkesi",
+    "definition": "İdarenin, merkezi ve yerel tüm birimleriyle, tek bir bütün olarak hareket etmesini ifade eden anayasal ilkedir. Hiyerarşi ve idari vesayet bu bütünlüğü sağlayan araçlardır.",
+    "examples": [
+      "Bakanlıkların taşra teşkilatları üzerindeki denetimi",
+      "Merkezi idarenin mahalli idareler üzerindeki vesayet yetkisi"
+    ],
+    "relatedTerms": [
+      "Hiyerarşi",
+      "İdari Vesayet",
+      "Merkeziyetçilik"
+    ],
+    "order": 95
+  },
+  {
+    "id": "yetki_genisligi",
+    "term": "Yetki Genişliği",
+    "definition": "Merkezi idarenin taşra teşkilatındaki en üst amirine (vali gibi) tanınan, merkeze danışmadan ve merkezin onayı olmaksızın karar alma yetkisidir. Bu yetki, sadece valilere tanınmıştır.",
+    "examples": [
+      "Valinin ildeki olağanüstü durumlarda tek başına karar alması",
+      "Valinin ildeki kamu düzenini sağlamak için gerekli tedbirleri alması"
+    ],
+    "relatedTerms": [
+      "Vali",
+      "Taşra Teşkilatı",
+      "Merkezi İdare"
+    ],
+    "order": 96
+  },
+  {
+    "id": "hizmet_yerinden_yonetim",
+    "term": "Hizmet Yerinden Yönetim",
+    "definition": "Belirli bir kamu hizmetinin, merkezi idareden ayrı bir kamu tüzel kişiliği tarafından yürütülmesidir. Bu kuruluşlar, kendi uzmanlık alanlarında özerk bir yapıya sahiptir.",
+    "examples": [
+      "Üniversiteler",
+      "TRT",
+      "Sosyal Güvenlik Kurumu"
+    ],
+    "relatedTerms": [
+      "Yerinden Yönetim",
+      "Kamu Tüzel Kişiliği",
+      "İdari Özerklik"
+    ],
+    "order": 97
+  },
+  {
+    "id": "idarenin_mal_edinme_yollari",
+    "term": "İdarenin Mal Edinme Yolları",
+    "definition": "İdarenin kamu hizmetlerini yerine getirmek amacıyla özel mülkiyetteki taşınmazları edinme yöntemleridir. Başlıcaları kamulaştırma, istimval ve devletleştirme gibi yollardır.",
+    "examples": [
+      "Otoyol yapımı için arazinin kamulaştırılması",
+      "Savaş halinde araçlara el konulması (istimval)"
+    ],
+    "relatedTerms": [
+      "Kamulaştırma",
+      "İstimval",
+      "Devletleştirme"
+    ],
+    "order": 98
+  },
+  {
+    "id": "kanunsuz_emir",
+    "term": "Kanunsuz Emir",
+    "definition": "Üst amir tarafından astına verilen, konusu suç teşkil eden veya kanuna açıkça aykırı olan emirdir. Ast, bu emri yerine getirmez ve üstüne bildirir; yerine getirmesi halinde sorumluluktan kurtulamaz.",
+    "examples": [
+      "Bir memura rüşvet alması yönünde verilen talimat",
+      "Hukuka aykırı bir yıkım kararı için verilen emir"
+    ],
+    "relatedTerms": [
+      "Hukuka Aykırılık",
+      "Amirin Sorumluluğu",
+      "Memurun Sorumluluğu"
+    ],
+    "order": 99
+  },
+  {
+    "id": "idarenin_sorumlulugu",
+    "term": "İdarenin Sorumluluğu",
+    "definition": "İdarenin, kamu hizmetlerini yürütürken neden olduğu zararları tazmin etme yükümlülüğüdür. Kusurlu sorumluluk ve kusursuz sorumluluk olmak üzere iki temel esasa dayanır.",
+    "examples": [
+      "Hizmet kusuru nedeniyle oluşan trafik kazası zararı",
+      "Terör eylemleri sonucu oluşan zararların tazmini (kusursuz sorumluluk)"
+    ],
+    "relatedTerms": [
+      "Kusurlu Sorumluluk",
+      "Kusursuz Sorumluluk",
+      "Tazminat"
+    ],
+    "order": 100
+  },
+  {
+    "id": "idarenin_ozel_hukuk_islemleri",
+    "term": "İdarenin Özel Hukuk İşlemleri",
+    "definition": "İdarenin, kamu gücü ayrıcalıklarını kullanmadan, özel hukuk kişileri gibi hareket ederek yaptığı işlemlerdir. Bu işlemler, özel hukuk hükümlerine tabidir ve uyuşmazlıklar adli yargıda çözülür.",
+    "examples": [
+      "Devletin bir taşınmazı kiralaması",
+      "Kamu kurumunun personel için servis hizmeti satın alması"
+    ],
+    "relatedTerms": [
+      "İdari İşlem",
+      "Özel Hukuk",
+      "Adli Yargı"
+    ],
+    "order": 101
+  },
+  {
+    "id": "idarenin_takdir_yetkisi",
+    "term": "İdarenin Takdir Yetkisi",
+    "definition": "Kanunların idareye, belirli durumlarda çeşitli seçenekler arasından seçim yapma veya belli bir kararı alıp almamaya karar verme imkanı tanımasıdır. Bu yetki, kamu yararı ve hizmet gerekleri doğrultusunda kullanılmalıdır. Takdir yetkisinin kullanımı yargı denetimine tabidir.",
+    "examples": [
+      "Bir memurun kademe ilerlemesi için gerekli şartları taşıması durumunda idarenin takdir yetkisini kullanarak ilerlemeyi uygun görmesi.",
+      "Belediyenin, bir bölgede park yapıp yapmama konusunda takdir yetkisini kullanması."
+    ],
+    "relatedTerms": [
+      "Kamu Yararı",
+      "Hizmet Gerekleri",
+      "Yargı Denetimi",
+      "Yetki Aşımı"
+    ],
+    "order": 102
+  },
+  {
+    "id": "hizmet_imtiyazi",
+    "term": "Hizmet İmtiyazı",
+    "definition": "Bir kamu hizmetinin, idare tarafından bir sözleşmeyle özel hukuk kişisine devredilmesi ve bu kişinin kendi nam ve hesabına, kendi riskiyle, idarenin denetimi altında yürütmesidir. İmtiyaz sözleşmeleri idare hukuku esaslarına tabidir. Genellikle büyük altyapı projelerinde görülür.",
+    "examples": [
+      "Bir otoyolun yapım ve işletmesinin özel bir şirkete verilmesi hizmet imtiyazıdır.",
+      "Elektrik dağıtım hizmetinin özel şirketler tarafından yürütülmesi."
+    ],
+    "relatedTerms": [
+      "Kamu Hizmeti",
+      "İdari Sözleşme",
+      "Yap-İşlet-Devret",
+      "Denetim"
+    ],
+    "order": 103
+  },
+  {
+    "id": "kamu_gorevlileri",
+    "term": "Kamu Görevlileri",
+    "definition": "Devlet ve diğer kamu tüzel kişiliklerinde, kamu hizmetlerini yürütmek üzere istihdam edilen kişilerdir. Memurlar, işçiler ve sözleşmeli personel gibi farklı statülerde bulunabilirler. Kamu görevlileri, kamu yararı doğrultusunda tarafsız ve dürüst bir şekilde görevlerini yerine getirmekle yükümlüdürler.",
+    "examples": [
+      "Bir bakanlıkta çalışan daire başkanı bir kamu görevlisidir.",
+      "Belediyede temizlik işçisi olarak çalışan kişi de kamu görevlisi sayılır."
+    ],
+    "relatedTerms": [
+      "Memur",
+      "Sözleşmeli Personel",
+      "İşçi",
+      "Tarafsızlık İlkesi"
+    ],
+    "order": 104
+  },
+  {
+    "id": "merkezi_idarenin_tasra_teskilati",
+    "term": "Merkezi İdarenin Taşra Teşkilatı",
+    "definition": "Merkezi idarenin, ülke genelinde kamu hizmetlerini daha etkin sunabilmek amacıyla kurduğu, coğrafi temele dayalı örgütlenmesidir. Bu teşkilat, merkeze bağlı olarak faaliyet gösterir ve merkezi idarenin hiyerarşisine tabidir.",
+    "examples": [
+      "Valilikler",
+      "Kaymakamlıklar",
+      "Bölge Müdürlükleri"
+    ],
+    "relatedTerms": [
+      "İl Özel İdaresi",
+      "Mahalli İdareler",
+      "Merkezi İdare"
+    ],
+    "order": 105
+  },
+  {
+    "id": "idari_yaptirimlar",
+    "term": "İdari Yaptırımlar",
+    "definition": "İdarenin, kanunların kendisine verdiği yetkiye dayanarak, kamu düzenini sağlamak veya idari kurallara uyulmasını temin etmek amacıyla uyguladığı ceza ve tedbirlerdir. Yargı kararı olmaksızın doğrudan idare tarafından uygulanabilirler.",
+    "examples": [
+      "Trafik para cezaları",
+      "Ruhsat iptali",
+      "İşyeri kapatma"
+    ],
+    "relatedTerms": [
+      "İdari Kolluk",
+      "Adli Yaptırımlar",
+      "Suç ve Ceza"
+    ],
+    "order": 106
+  }
+]

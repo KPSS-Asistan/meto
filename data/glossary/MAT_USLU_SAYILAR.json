@@ -1,0 +1,1444 @@
+[
+  {
+    "id": "uslu_sayi_tanimi",
+    "term": "Üslü Sayı Tanımı",
+    "definition": "Bir sayının kendisiyle tekrarlı çarpımını ifade eden matematiksel gösterimdir. 'a^n' şeklinde gösterilir, burada 'a' taban, 'n' ise üs'tür. Üs, tabanın kaç kez kendisiyle çarpılacağını belirtir.",
+    "examples": [
+      "2^3 = 2 * 2 * 2 = 8",
+      "5^2 = 5 * 5 = 25",
+      "10^4 = 10 * 10 * 10 * 10 = 10000"
+    ],
+    "relatedTerms": [
+      "Taban",
+      "Üs",
+      "Kuvvet"
+    ],
+    "order": 1
+  },
+  {
+    "id": "us_sifir",
+    "term": "Sıfırıncı Kuvvet",
+    "definition": "Herhangi bir sayının sıfırıncı kuvveti (kendisi hariç) 1'e eşittir. Bu, üslü sayılarda özel bir kuraldır ve hesaplamalarda önemlidir.",
+    "examples": [
+      "7^0 = 1",
+      "(-3)^0 = 1",
+      "(1/2)^0 = 1"
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Tanımı",
+      "Birim"
+    ],
+    "order": 2
+  },
+  {
+    "id": "us_bir",
+    "term": "Birinci Kuvvet",
+    "definition": "Bir sayının birinci kuvveti kendisine eşittir. Bu, üslü sayılarda en temel durumlardan biridir ve sayının kendisini ifade eder.",
+    "examples": [
+      "9^1 = 9",
+      "(-5)^1 = -5",
+      "(2/3)^1 = 2/3"
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Tanımı",
+      "Taban"
+    ],
+    "order": 3
+  },
+  {
+    "id": "negatif_us",
+    "term": "Negatif Üs",
+    "definition": "Bir sayının negatif üssü, o sayının pozitif üssünün çarpmaya göre tersine eşittir. Yani, a^-n = 1 / a^n şeklinde ifade edilir. Bu kural, kesirli ifadelerde üslü sayıları basitleştirmek için kullanılır.",
+    "examples": [
+      "3^-2 = 1 / 3^2 = 1/9",
+      "10^-3 = 1 / 10^3 = 1/1000",
+      "(1/4)^-1 = 1 / (1/4)^1 = 4"
+    ],
+    "relatedTerms": [
+      "Çarpmaya Göre Ters",
+      "Kesirli Üslü Sayılar"
+    ],
+    "order": 4
+  },
+  {
+    "id": "uslerin_carpimi",
+    "term": "Aynı Tabanlı Üslü Sayıların Çarpımı",
+    "definition": "Aynı tabana sahip üslü sayılar çarpıldığında, üsler toplanır. Yani, a^m * a^n = a^(m+n) formülü kullanılır. Bu kural, çarpma işlemini üslerin toplamına indirger.",
+    "examples": [
+      "2^3 * 2^4 = 2^(3+4) = 2^7",
+      "5^2 * 5^1 = 5^(2+1) = 5^3",
+      "x^a * x^b = x^(a+b)"
+    ],
+    "relatedTerms": [
+      "Üslü Sayıların Bölümü",
+      "Toplama"
+    ],
+    "order": 5
+  },
+  {
+    "id": "uslerin_bolumu",
+    "term": "Aynı Tabanlı Üslü Sayıların Bölümü",
+    "definition": "Aynı tabana sahip üslü sayılar bölündüğünde, payın üssünden paydanın üssü çıkarılır. Yani, a^m / a^n = a^(m-n) formülü kullanılır. Bu kural, bölme işlemini üslerin farkına indirger.",
+    "examples": [
+      "3^5 / 3^2 = 3^(5-2) = 3^3",
+      "7^4 / 7^4 = 7^(4-4) = 7^0 = 1",
+      "y^p / y^q = y^(p-q)"
+    ],
+    "relatedTerms": [
+      "Aynı Tabanlı Üslü Sayıların Çarpımı",
+      "Çıkarma"
+    ],
+    "order": 6
+  },
+  {
+    "id": "us_us",
+    "term": "Üssün Üssü",
+    "definition": "Bir üslü sayının üssü alındığında, üsler çarpılır. Yani, (a^m)^n = a^(m*n) formülü kullanılır. Bu kural, iç içe üslü ifadeleri tek bir üslü ifadeye dönüştürür.",
+    "examples": [
+      "(2^3)^2 = 2^(3*2) = 2^6",
+      "(5^2)^4 = 5^(2*4) = 5^8",
+      "(x^a)^b = x^(a*b)"
+    ],
+    "relatedTerms": [
+      "Çarpma",
+      "Üslü Sayı Tanımı"
+    ],
+    "order": 7
+  },
+  {
+    "id": "carpanlarin_usi",
+    "term": "Çarpımın Üssü",
+    "definition": "Bir çarpımın üssü alındığında, her bir çarpanın üssü alınır ve sonuçlar çarpılır. Yani, (a * b)^n = a^n * b^n formülü kullanılır. Bu kural, çarpma ve üs alma işlemlerini ayırır.",
+    "examples": [
+      "(2 * 3)^2 = 2^2 * 3^2 = 4 * 9 = 36",
+      "(x * y)^m = x^m * y^m",
+      "(5 * 10)^3 = 5^3 * 10^3"
+    ],
+    "relatedTerms": [
+      "Bölümün Üssü",
+      "Çarpma"
+    ],
+    "order": 8
+  },
+  {
+    "id": "bolumun_usi",
+    "term": "Bölümün Üssü",
+    "definition": "Bir bölümün üssü alındığında, payın üssü ile paydanın üssü alınır ve sonuçlar bölünür. Yani, (a / b)^n = a^n / b^n formülü kullanılır. Bu kural, bölme ve üs alma işlemlerini ayırır.",
+    "examples": [
+      "(2 / 3)^2 = 2^2 / 3^2 = 4/9",
+      "(x / y)^m = x^m / y^m",
+      "(10 / 2)^3 = 10^3 / 2^3"
+    ],
+    "relatedTerms": [
+      "Çarpımın Üssü",
+      "Bölme"
+    ],
+    "order": 9
+  },
+  {
+    "id": "kesirli_us",
+    "term": "Kesirli Üs",
+    "definition": "Bir sayının kesirli üssü, o sayının kökünü ifade eder. Yani, a^(m/n) = n√(a^m) veya (n√a)^m şeklinde gösterilir. Bu, üslü sayıları köklü sayılarla ilişkilendirir.",
+    "examples": [
+      "4^(1/2) = √4 = 2",
+      "8^(2/3) = (³√8)² = 2² = 4",
+      "x^(p/q) = q√(x^p)"
+    ],
+    "relatedTerms": [
+      "Kök Alma",
+      "Üslü Sayı Tanımı"
+    ],
+    "order": 10
+  },
+  {
+    "id": "kok_uslu_sayi_iliski",
+    "term": "Kök ve Üslü Sayı İlişkisi",
+    "definition": "Kök alma işlemi, kesirli üsler aracılığıyla üslü sayılarla ifade edilebilir. Örneğin, n. dereceden 'a'nın karekökü, a^(1/n) olarak yazılır. Bu ilişki, köklü ifadeleri üslü sayılar kurallarıyla çözmeyi sağlar.",
+    "examples": [
+      "√x = x^(1/2)",
+      "³√y = y^(1/3)",
+      "⁵√z² = z^(2/5)"
+    ],
+    "relatedTerms": [
+      "Kesirli Üs",
+      "Kök Alma"
+    ],
+    "order": 11
+  },
+  {
+    "id": "tabani_eksi_olan_uslu_sayi",
+    "term": "Tabanı Negatif Olan Üslü Sayılar",
+    "definition": "Tabanı negatif olan üslü sayılarda, üssün tek veya çift olması sonucun işaretini belirler. Üs çift ise sonuç pozitif, üs tek ise sonuç negatiftir.",
+    "examples": [
+      "(-2)^4 = 16 (üs çift, sonuç pozitif)",
+      "(-3)^3 = -27 (üs tek, sonuç negatif)",
+      "(-5)^2 = 25 (üs çift, sonuç pozitif)"
+    ],
+    "relatedTerms": [
+      "İşaret Analizi",
+      "Tek ve Çift Sayılar"
+    ],
+    "order": 12
+  },
+  {
+    "id": "uslu_sayi_denklemleri",
+    "term": "Üslü Sayı Denklemleri",
+    "definition": "Temel olarak, aynı tabana sahip üslü sayılar eşitlendiğinde üsler de eşitlenir (a^x = a^y ise x=y). Bu prensip, bilinmeyeni üs konumunda olan denklemleri çözmek için kullanılır.",
+    "examples": [
+      "2^x = 2^5 => x = 5",
+      "3^(x+1) = 3^4 => x+1 = 4 => x = 3",
+      "5^(2x) = 5^6 => 2x = 6 => x = 3"
+    ],
+    "relatedTerms": [
+      "Eşitlik",
+      "Bilinmeyen"
+    ],
+    "order": 13
+  },
+  {
+    "id": "uslu_sayilarda_siralama",
+    "term": "Üslü Sayılarda Sıralama",
+    "definition": "Üslü sayılar sıralanırken, tabanların ve üslerin büyüklüğü dikkate alınır. Tabanlar 1'den büyükse üsler büyüdükçe sayı büyür, tabanlar 0 ile 1 arasındaysa üsler büyüdükçe sayı küçülür.",
+    "examples": [
+      "2^3 < 2^4 (taban > 1, üs arttı)",
+      "(1/2)^2 > (1/2)^3 (taban < 1, üs arttı, sayı küçüldü)",
+      "3^2 < 4^2 (üsler aynı, taban büyüdü)"
+    ],
+    "relatedTerms": [
+      "Karşılaştırma",
+      "Büyüktür/Küçüktür"
+    ],
+    "order": 14
+  },
+  {
+    "id": "birin_her_usi",
+    "term": "Birin Her Kuvveti",
+    "definition": "1 sayısının tüm tam sayı kuvvetleri yine 1'e eşittir. Bu, üslü sayılarda basit ama önemli bir özelliktir.",
+    "examples": [
+      "1^5 = 1",
+      "1^-3 = 1",
+      "1^100 = 1"
+    ],
+    "relatedTerms": [
+      "Birim",
+      "Üslü Sayı Tanımı"
+    ],
+    "order": 15
+  },
+  {
+    "id": "eksi_birin_kuvvetleri",
+    "term": "Eksi Birin Kuvvetleri",
+    "definition": "-1 sayısının çift kuvvetleri 1'e, tek kuvvetleri ise -1'e eşittir. Bu kural, işaret analizinde sıkça kullanılır.",
+    "examples": [
+      "(-1)^4 = 1 (üs çift)",
+      "(-1)^7 = -1 (üs tek)",
+      "(-1)^100 = 1 (üs çift)"
+    ],
+    "relatedTerms": [
+      "İşaret Analizi",
+      "Tek ve Çift Sayılar"
+    ],
+    "order": 16
+  },
+  {
+    "id": "uslu_sayilarda_toplama_cikarma",
+    "term": "Üslü Sayılarda Toplama ve Çıkarma",
+    "definition": "Toplama ve çıkarma işlemleri için tabanların ve üslerin aynı olması gerekir. Eğer aynıysa, katsayılar toplanıp çıkarılır, ortak üslü ifade yanına yazılır.",
+    "examples": [
+      "3 * 2^5 + 2 * 2^5 = (3+2) * 2^5 = 5 * 2^5",
+      "4 * 5^3 - 2 * 5^3 = (4-2) * 5^3 = 2 * 5^3",
+      "2^3 + 2^4 (taban ve üsler farklı, doğrudan toplanamaz)"
+    ],
+    "relatedTerms": [
+      "Katsayı",
+      "Ortak Çarpan Parantezine Alma"
+    ],
+    "order": 17
+  },
+  {
+    "id": "uslu_sayilarda_sadeleştirme",
+    "term": "Üslü Sayılarda Sadeleştirme",
+    "definition": "Üslü sayılarla ilgili işlemlerde, kurallar kullanılarak ifadeler daha basit bir hale getirilir. Amaç, genellikle tek bir üslü ifade elde etmek veya sonucu kolay hesaplanabilir bir forma sokmaktır.",
+    "examples": [
+      "(2^3 * 2^4) / 2^5 = 2^(3+4) / 2^5 = 2^7 / 2^5 = 2^(7-5) = 2^2 = 4",
+      "(5^2)^3 / 5^4 = 5^(2*3) / 5^4 = 5^6 / 5^4 = 5^(6-4) = 5^2 = 25",
+      "(x^a * y^a) / (x*y)^a = (xy)^a / (xy)^a = 1"
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Kuralları",
+      "İşlem Önceliği"
+    ],
+    "order": 18
+  },
+  {
+    "id": "buyuk_sayilarin_karsilastirilmasi",
+    "term": "Büyük Sayıların Karşılaştırılması (Üslü)",
+    "definition": "Çok büyük sayıları karşılaştırmak için üslü sayılar ve onların kuralları kullanılır. Genellikle sayıları aynı tabana veya aynı üsse getirme stratejisi izlenir.",
+    "examples": [
+      "2^100 mü, 3^75 mi? (Her ikisini de 25. kuvvete indirgeyerek karşılaştırma yapılabilir)",
+      "5^10 < 10^5",
+      "2^50 > 5^20"
+    ],
+    "relatedTerms": [
+      "Sıralama",
+      "Ortak Taban/Üs Bulma"
+    ],
+    "order": 19
+  },
+  {
+    "id": "uslu_sayilarin_bilimsel_gosterimi",
+    "term": "Üslü Sayıların Bilimsel Gösterimi",
+    "definition": "Çok büyük veya çok küçük sayıları ifade etmek için kullanılan standart bir yöntemdir. Sayı, 1 ile 10 arasındaki bir sayı ile 10'un bir tam sayı kuvvetinin çarpımı şeklinde yazılır (a x 10^n).",
+    "examples": [
+      "300.000.000 = 3 x 10^8",
+      "0.000005 = 5 x 10^-6",
+      "1.234.000 = 1.234 x 10^6"
+    ],
+    "relatedTerms": [
+      "Onun Kuvvetleri",
+      "Çok Büyük/Küçük Sayılar"
+    ],
+    "order": 20
+  },
+  {
+    "id": "üslerin_toplanması",
+    "term": "Aynı Tabanlı Üslü Sayıların Toplanması",
+    "definition": "Aynı tabana sahip üslü sayılar toplanırken, ortak çarpan parantezine alınarak işlem yapılır. Bu, toplama işleminin çarpma işlemine dönüştürülerek sadeleştirilmesini sağlar.",
+    "examples": [
+      "2^3 + 2^3 = 2 * 2^3 = 2^4",
+      "3^5 + 3^5 + 3^5 = 3 * 3^5 = 3^6",
+      "5^2 + 5^2 + 5^2 + 5^2 = 4 * 5^2"
+    ],
+    "relatedTerms": [
+      "Ortak Çarpan Parantezi",
+      "Üslü Sayıların Çarpımı"
+    ],
+    "order": 21
+  },
+  {
+    "id": "üslerin_çıkarılması",
+    "term": "Aynı Tabanlı Üslü Sayıların Çıkarılması",
+    "definition": "Aynı tabana sahip üslü sayılar çıkarılırken, benzer şekilde ortak çarpan parantezine alma yöntemi kullanılır. Bu, çıkarma işlemini çarpma ve üslü sayı işlemlerine indirger.",
+    "examples": [
+      "2^5 - 2^4 = 2^4 * (2 - 1) = 2^4",
+      "3^7 - 3^6 = 3^6 * (3 - 1) = 2 * 3^6",
+      "7^3 - 7^2 = 7^2 * (7 - 1) = 6 * 7^2"
+    ],
+    "relatedTerms": [
+      "Ortak Çarpan Parantezi",
+      "Üslü Sayıların Çarpımı"
+    ],
+    "order": 22
+  },
+  {
+    "id": "farklı_taban_aynı_üs",
+    "term": "Farklı Tabanlı Üslü Sayıların Çarpımı (Aynı Üs)",
+    "definition": "Üsleri aynı olan farklı tabanlı üslü sayılar çarpılırken, tabanlar çarpılır ve ortak üs bu çarpımın üssü olarak yazılır. (a^n) * (b^n) = (a*b)^n",
+    "examples": [
+      "2^3 * 5^3 = (2*5)^3 = 10^3",
+      "4^2 * 3^2 = (4*3)^2 = 12^2",
+      "7^4 * 2^4 = (7*2)^4 = 14^4"
+    ],
+    "relatedTerms": [
+      "Çarpımın Üssü",
+      "Üslü Sayıların Çarpımı"
+    ],
+    "order": 23
+  },
+  {
+    "id": "farklı_taban_aynı_üs_bölümü",
+    "term": "Farklı Tabanlı Üslü Sayıların Bölümü (Aynı Üs)",
+    "definition": "Üsleri aynı olan farklı tabanlı üslü sayılar bölünürken, tabanlar bölünür ve ortak üs bu bölümün üssü olarak yazılır. (a^n) / (b^n) = (a/b)^n",
+    "examples": [
+      "10^3 / 2^3 = (10/2)^3 = 5^3",
+      "12^2 / 4^2 = (12/4)^2 = 3^2",
+      "21^4 / 7^4 = (21/7)^4 = 3^4"
+    ],
+    "relatedTerms": [
+      "Bölümün Üssü",
+      "Üslü Sayıların Bölümü"
+    ],
+    "order": 24
+  },
+  {
+    "id": "üsleri_farklı_sayılar_üsleri_aynı",
+    "term": "Üsleri Farklı, Tabanları Farklı Üslü Sayıların Karşılaştırılması",
+    "definition": "Bu tür karşılaştırmalarda, sayılar ortak bir üsse veya ortak bir tabana getirilir. Ortak üs veya taban elde etmek için üslü sayıların özelliklerinden yararlanılır.",
+    "examples": [
+      "2^10 ve 3^5 karşılaştırması: 2^10 = (2^2)^5 = 4^5. Şimdi 4^5 ve 3^5 karşılaştırılır.",
+      "5^6 ve 2^12 karşılaştırması: 2^12 = (2^2)^6 = 4^6. Şimdi 5^6 ve 4^6 karşılaştırılır.",
+      "3^8 ve 4^4 karşılaştırması: 3^8 = (3^2)^4 = 9^4. Şimdi 9^4 ve 4^4 karşılaştırılır."
+    ],
+    "relatedTerms": [
+      "Üslü Sayılarda Sıralama",
+      "Üssün Üssü"
+    ],
+    "order": 25
+  },
+  {
+    "id": "üslerin_çarpımı_toplamı",
+    "term": "Üslü Sayılarda Üslerin Çarpımı ve Toplamı İlişkisi",
+    "definition": "Üslü sayılarda, üslerin çarpımı veya toplamı gibi işlemler, sayının kendisini farklı kuvvetlere taşır. a^(m*n) = (a^m)^n = (a^n)^m ve a^(m+n) = a^m * a^n",
+    "examples": [
+      "2^(3*4) = (2^3)^4 = 8^4",
+      "3^(2+5) = 3^2 * 3^5 = 9 * 243",
+      "5^(2*2) = (5^2)^2 = 25^2"
+    ],
+    "relatedTerms": [
+      "Üssün Üssü",
+      "Aynı Tabanlı Üslü Sayıların Çarpımı"
+    ],
+    "order": 26
+  },
+  {
+    "id": "negatif_taban_tek_çift_üs",
+    "term": "Negatif Tabanlı Üslü Sayılarda Tek ve Çift Kuvvet",
+    "definition": "Negatif bir tabanın tek kuvveti negatif, çift kuvveti ise pozitiftir. İşaretin belirlenmesinde kuvvetin tek veya çift olması belirleyicidir.",
+    "examples": [
+      "(-2)^3 = -8 (tek kuvvet)",
+      "(-2)^4 = 16 (çift kuvvet)",
+      "(-5)^3 = -125 (tek kuvvet)"
+    ],
+    "relatedTerms": [
+      "Tabanı Negatif Olan Üslü Sayılar",
+      "Üslü Sayı Tanımı"
+    ],
+    "order": 27
+  },
+  {
+    "id": "üsleri_sıfır_olan_negatif_taban",
+    "term": "Sıfırıncı Kuvvetin Negatif Tabana Uygulanması",
+    "definition": "Herhangi bir negatif sayının sıfırıncı kuvveti 1'dir. Sıfır hariç tüm sayıların sıfırıncı kuvveti 1'dir.",
+    "examples": [
+      "(-7)^0 = 1",
+      "(-1/2)^0 = 1",
+      "(-100)^0 = 1"
+    ],
+    "relatedTerms": [
+      "Sıfırıncı Kuvvet",
+      "Tabanı Negatif Olan Üslü Sayılar"
+    ],
+    "order": 28
+  },
+  {
+    "id": "üsleri_negatif_olan_kesirler",
+    "term": "Negatif Üslü Kesirli Sayılar",
+    "definition": "Kesirli bir sayının negatif üssü, sayının çarpımsal tersinin pozitif üssüne eşittir. (a/b)^(-n) = (b/a)^n",
+    "examples": [
+      "(2/3)^(-2) = (3/2)^2 = 9/4",
+      "(1/5)^(-3) = 5^3 = 125",
+      "(4/1)^(-1) = 1/4"
+    ],
+    "relatedTerms": [
+      "Negatif Üs",
+      "Kesirli Üs"
+    ],
+    "order": 29
+  },
+  {
+    "id": "üsleri_negatif_olan_tam_sayılar",
+    "term": "Negatif Üslü Tam Sayılar",
+    "definition": "Bir tam sayının negatif üssü, o sayının çarpımsal tersinin pozitif üssüne eşittir. a^(-n) = 1 / a^n",
+    "examples": [
+      "3^(-2) = 1 / 3^2 = 1/9",
+      "10^(-1) = 1/10",
+      "2^(-3) = 1 / 2^3 = 1/8"
+    ],
+    "relatedTerms": [
+      "Negatif Üs",
+      "Kesirli Üs"
+    ],
+    "order": 30
+  },
+  {
+    "id": "üsleri_kesirli_olan_negatif_taban",
+    "term": "Kesirli Üslü Negatif Tabanlı Sayılar",
+    "definition": "Negatif tabanlı sayıların kesirli üsleri genellikle reel sayılar kümesinde tanımlı değildir veya karmaşık sayılar gerektirir. KPSS'de bu tür durumlar genellikle sorulmaz veya özel olarak belirtilir.",
+    "examples": [
+      "(-8)^(1/3) = -2 (reel sonuç)",
+      "(-4)^(1/2) (reel değildir)",
+      "(-27)^(2/3) = ((-27)^(1/3))^2 = (-3)^2 = 9"
+    ],
+    "relatedTerms": [
+      "Kesirli Üs",
+      "Kök ve Üslü Sayı İlişkisi",
+      "Tabanı Negatif Olan Üslü Sayılar"
+    ],
+    "order": 31
+  },
+  {
+    "id": "üsleri_farklı_sayıların_bölümü",
+    "term": "Aynı Tabanlı, Üsleri Farklı Üslü Sayıların Bölümü",
+    "definition": "Aynı tabana sahip üslü sayılar bölünürken, taban aynı kalır ve payın üssünden paydanın üssü çıkarılır. a^m / a^n = a^(m-n)",
+    "examples": [
+      "2^5 / 2^3 = 2^(5-3) = 2^2 = 4",
+      "3^7 / 3^2 = 3^(7-2) = 3^5",
+      "10^4 / 10^4 = 10^(4-4) = 10^0 = 1"
+    ],
+    "relatedTerms": [
+      "Aynı Tabanlı Üslü Sayıların Bölümü",
+      "Üslü Sayıların Bölümü"
+    ],
+    "order": 32
+  },
+  {
+    "id": "üsleri_farklı_sayıların_çarpımı",
+    "term": "Aynı Tabanlı, Üsleri Farklı Üslü Sayıların Çarpımı",
+    "definition": "Aynı tabana sahip üslü sayılar çarpılırken, taban aynı kalır ve üsler toplanır. a^m * a^n = a^(m+n)",
+    "examples": [
+      "2^3 * 2^4 = 2^(3+4) = 2^7",
+      "5^2 * 5^5 = 5^(2+5) = 5^7",
+      "10^1 * 10^3 = 10^(1+3) = 10^4"
+    ],
+    "relatedTerms": [
+      "Aynı Tabanlı Üslü Sayıların Çarpımı",
+      "Üslü Sayıların Çarpımı"
+    ],
+    "order": 33
+  },
+  {
+    "id": "üslerin_üstünü_alma",
+    "term": "Üssün Üssü Alma İşlemi",
+    "definition": "Bir üslü sayının üssü alındığında, taban aynı kalır ve üsler çarpılır. (a^m)^n = a^(m*n)",
+    "examples": [
+      "(2^3)^4 = 2^(3*4) = 2^12",
+      "(5^2)^3 = 5^(2*3) = 5^6",
+      "(10^1)^5 = 10^(1*5) = 10^5"
+    ],
+    "relatedTerms": [
+      "Üssün Üssü",
+      "Üslü Sayıların Çarpımı"
+    ],
+    "order": 34
+  },
+  {
+    "id": "üsleri_aynı_olan_çarpımın_üssü",
+    "term": "Çarpımın Üssü Alma İşlemi (Aynı Üs)",
+    "definition": "Çarpımın üssü alınırken, her bir çarpanın üssü aynı olur. (a*b)^n = a^n * b^n",
+    "examples": [
+      "(2*3)^4 = 2^4 * 3^4",
+      "(5*10)^2 = 5^2 * 10^2",
+      "(a*b)^3 = a^3 * b^3"
+    ],
+    "relatedTerms": [
+      "Çarpımın Üssü",
+      "Farklı Tabanlı Üslü Sayıların Çarpımı (Aynı Üs)"
+    ],
+    "order": 35
+  },
+  {
+    "id": "üsleri_aynı_olan_bölümün_üssü",
+    "term": "Bölümün Üssü Alma İşlemi (Aynı Üs)",
+    "definition": "Bölümün üssü alınırken, payın ve paydanın üssü aynı olur. (a/b)^n = a^n / b^n",
+    "examples": [
+      "(2/3)^4 = 2^4 / 3^4",
+      "(10/5)^2 = 10^2 / 5^2",
+      "(a/b)^3 = a^3 / b^3"
+    ],
+    "relatedTerms": [
+      "Bölümün Üssü",
+      "Farklı Tabanlı Üslü Sayıların Bölümü (Aynı Üs)"
+    ],
+    "order": 36
+  },
+  {
+    "id": "kesirli_üs_kök_ilişkisi",
+    "term": "Kesirli Üslerin Kök İfadesine Dönüşümü",
+    "definition": "Bir sayının kesirli üssü, o sayının köklü ifadesine karşılık gelir. a^(m/n) = n√(a^m) = (n√a)^m",
+    "examples": [
+      "8^(2/3) = (³√8)^2 = 2^2 = 4",
+      "16^(1/4) = ⁴√16 = 2",
+      "27^(1/3) = ³√27 = 3"
+    ],
+    "relatedTerms": [
+      "Kesirli Üs",
+      "Kök ve Üslü Sayı İlişkisi"
+    ],
+    "order": 37
+  },
+  {
+    "id": "üsleri_eşit_sayıların_denklemi",
+    "term": "Üsleri Eşit Olan Üslü Sayı Denklemleri",
+    "definition": "Eğer a^n = b^n ve n ≠ 0 ise, bu durumda a = b veya a = -b (n çift ise) olabilir. Tabanlar arasındaki ilişkiyi kurar.",
+    "examples": [
+      "x^3 = 5^3 => x = 5",
+      "y^2 = 9^2 => y = 9 veya y = -9",
+      "(x-1)^4 = 3^4 => x-1 = 3 veya x-1 = -3"
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Denklemleri",
+      "Negatif Tabanlı Üslü Sayılar"
+    ],
+    "order": 38
+  },
+  {
+    "id": "tabanları_eşit_sayıların_denklemi",
+    "term": "Tabanları Eşit Olan Üslü Sayı Denklemleri",
+    "definition": "Eğer a^m = a^n ve a ≠ 0, 1, -1 ise, bu durumda m = n olur. Tabanlar aynı olduğunda üsler eşitlenir.",
+    "examples": [
+      "2^x = 2^5 => x = 5",
+      "3^(x+1) = 3^4 => x+1 = 4 => x = 3",
+      "5^(2x-1) = 5^(x+2) => 2x-1 = x+2 => x = 3"
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Denklemleri",
+      "Aynı Tabanlı Üslü Sayıların Çarpımı/Bölümü"
+    ],
+    "order": 39
+  },
+  {
+    "id": "büyük_sayıları_üssü_ile_ifade",
+    "term": "Büyük Sayıların Üslü İfade ile Gösterimi",
+    "definition": "Çok büyük veya çok küçük sayıları daha anlaşılır kılmak için üslü ifadeler kullanılır. Genellikle 10'un kuvvetleri şeklinde gösterilir.",
+    "examples": [
+      "1.000.000 = 10^6",
+      "0,0001 = 10^(-4)",
+      "5.000.000.000 = 5 * 10^9"
+    ],
+    "relatedTerms": [
+      "Üslü Sayıların Bilimsel Gösterimi",
+      "Sayıların Karşılaştırılması (Üslü)"
+    ],
+    "order": 40
+  },
+  {
+    "id": "üsleri_farklı_birin_kuvvetleri",
+    "term": "Birin Farklı Kuvvetleri",
+    "definition": "1 sayısının tüm reel sayı kuvvetleri 1'e eşittir. 1^n = 1",
+    "examples": [
+      "1^5 = 1",
+      "1^(-3) = 1",
+      "1^(1/2) = 1"
+    ],
+    "relatedTerms": [
+      "Birinci Kuvvet",
+      "Negatif Üs",
+      "Kesirli Üs"
+    ],
+    "order": 41
+  },
+  {
+    "id": "uslu_sayilarin_taban_ve_us_degiskenligine_gore_karsilastirilmasi",
+    "term": "Taban ve Üs Değişkenliğine Göre Karşılaştırma",
+    "definition": "Hem tabanları hem de üsleri farklı olan üslü sayıları karşılaştırırken, ortak bir taban veya üs elde etmeye çalışılır. Gerekirse sayılar köklü ifadeye çevrilerek veya üslü sayılar kuralları kullanılarak karşılaştırma yapılır.",
+    "examples": [
+      "2^3 ile 3^2 karşılaştırılması (8 < 9)",
+      "3^4 ile 4^3 karşılaştırılması (81 > 64)",
+      "5^2 ile 2^5 karşılaştırılması (25 < 32)"
+    ],
+    "relatedTerms": [
+      "Üslü Sayılarda Sıralama",
+      "Kök ve Üslü Sayı İlişkisi",
+      "Üssün Üssü"
+    ],
+    "order": 42
+  },
+  {
+    "id": "uslu_sayilarda_taban_ve_us_arasindaki_iliski",
+    "term": "Taban ve Üs İlişkisi",
+    "definition": "Bir üslü sayıda tabanın ve üssün alabileceği değerler arasındaki ilişkiyi incelemek, özellikle denklem çözümlerinde önemlidir. Tabanın pozitif, negatif veya kesirli olması, üssün tek veya çift olması sonuçları etkiler.",
+    "examples": [
+      "x^2 = 4 denkleminin çözümü (x=2 veya x=-2)",
+      "2^x = 8 denkleminin çözümü (x=3)",
+      "(-3)^x = -27 denkleminin çözümü (x=3)"
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Denklemleri",
+      "Tabanı Negatif Olan Üslü Sayılar",
+      "Kesirli Üs"
+    ],
+    "order": 43
+  },
+  {
+    "id": "uslu_sayilarda_katsayi_islem",
+    "term": "Katsayı İşlemleri",
+    "definition": "Üslü sayılarda toplama ve çıkarma işlemi yapılırken, tabanları ve üsleri aynı olan terimlerin katsayıları toplanır veya çıkarılır. Taban ve üsleri farklı olan terimler arasında işlem yapılamaz.",
+    "examples": [
+      "3 * 2^5 + 5 * 2^5 = (3+5) * 2^5 = 8 * 2^5",
+      "7 * 3^4 - 2 * 3^4 = (7-2) * 3^4 = 5 * 3^4",
+      "2 * 5^3 + 4 * 5^2 (işlem yapılamaz)"
+    ],
+    "relatedTerms": [
+      "Üslü Sayılarda Toplama ve Çıkarma",
+      "Aynı Tabanlı Üslü Sayıların Toplanması",
+      "Aynı Tabanlı Üslü Sayıların Çıkarılması"
+    ],
+    "order": 44
+  },
+  {
+    "id": "uslu_sayilarda_sadeleştirme_teknikleri",
+    "term": "Sadeleştirme Teknikleri",
+    "definition": "Karmaşık üslü ifadeleri daha basit hale getirmek için üslü sayılar kuralları kullanılır. Ortak çarpan parantezine alma, üssün üssünü alma ve tabanları eşitleme gibi teknikler sıkça kullanılır.",
+    "examples": [
+      "(2^5 * 2^3) / 2^6 = 2^(5+3-6) = 2^2 = 4",
+      "(3^4)^2 / 3^7 = 3^(4*2-7) = 3^1 = 3",
+      "(5^6 + 5^5) / 5^4 = 5^4 * (5^2 + 5^1) / 5^4 = 25 + 5 = 30"
+    ],
+    "relatedTerms": [
+      "Üslü Sayılarda Sadeleştirme",
+      "Aynı Tabanlı Üslü Sayıların Çarpımı",
+      "Aynı Tabanlı Üslü Sayıların Bölümü",
+      "Üssün Üssü"
+    ],
+    "order": 45
+  },
+  {
+    "id": "uslu_sayi_denklemlerinde_taban_esitleme",
+    "term": "Taban Eşitleme",
+    "definition": "Üslü sayı denklemlerinde, eşitliğin her iki tarafındaki tabanlar aynı hale getirilerek üsler eşitlenir ve denklem çözülür. Tabanlar farklıysa, ortak bir tabana indirgenmeye çalışılır.",
+    "examples": [
+      "4^x = 8 => (2^2)^x = 2^3 => 2^(2x) = 2^3 => 2x = 3 => x = 3/2",
+      "9^(x+1) = 27 => (3^2)^(x+1) = 3^3 => 3^(2x+2) = 3^3 => 2x+2 = 3 => x = 1/2",
+      "25^x = 125 => (5^2)^x = 5^3 => 5^(2x) = 5^3 => 2x = 3 => x = 3/2"
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Denklemleri",
+      "Aynı Tabanlı Üslü Sayıların Çarpımı",
+      "Aynı Tabanlı Üslü Sayıların Bölümü"
+    ],
+    "order": 46
+  },
+  {
+    "id": "uslu_sayi_denklemlerinde_us_esitleme",
+    "term": "Üs Eşitleme",
+    "definition": "Üslü sayı denklemlerinde, eşitliğin her iki tarafındaki üsler aynı hale getirilerek tabanlar eşitlenir ve denklem çözülür. Üsler farklıysa, ortak bir üsse indirgenmeye çalışılır.",
+    "examples": [
+      "x^3 = 8 => x^3 = 2^3 => x = 2",
+      "(x-1)^4 = 16 => (x-1)^4 = 2^4 => x-1 = 2 veya x-1 = -2 => x=3 veya x=-1",
+      "(x+2)^5 = 32 => (x+2)^5 = 2^5 => x+2 = 2 => x = 0"
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Denklemleri",
+      "Tabanı Negatif Olan Üslü Sayılar",
+      "Tek ve Çift Kuvvet"
+    ],
+    "order": 47
+  },
+  {
+    "id": "kesirli_uslu_sayilarin_karsilastirilmasi",
+    "term": "Kesirli Üslü Sayıların Karşılaştırılması",
+    "definition": "Kesirli üslere sahip sayıları karşılaştırırken, paydaları eşitlemek veya sayıları köklü ifadeye çevirmek faydalı olabilir. Ortak bir üsse veya tabana indirgenerek karşılaştırma yapılabilir.",
+    "examples": [
+      "2^(1/2) ile 3^(1/3) karşılaştırılması (√2 ile ³√3)",
+      "5^(1/4) ile 4^(1/5) karşılaştırılması",
+      "7^(1/3) ile 3^(1/2) karşılaştırılması"
+    ],
+    "relatedTerms": [
+      "Kesirli Üs",
+      "Kök ve Üslü Sayı İlişkisi",
+      "Üslü Sayılarda Sıralama"
+    ],
+    "order": 48
+  },
+  {
+    "id": "negatif_tabanli_uslu_sayilarin_degerlendirilmesi",
+    "term": "Negatif Tabanlı Üslü Sayıların Değerlendirilmesi",
+    "definition": "Negatif tabanlı üslü sayılarda üssün tek veya çift olması sonucun işaretini belirler. Tek üslerde sonuç negatif, çift üslerde sonuç pozitiftir. Tabanın kesirli olması durumu karmaşıklaştırabilir.",
+    "examples": [
+      "(-2)^3 = -8",
+      "(-2)^4 = 16",
+      "(-1/2)^3 = -1/8"
+    ],
+    "relatedTerms": [
+      "Tabanı Negatif Olan Üslü Sayılar",
+      "Negatif Tabanlı Üslü Sayılarda Tek ve Çift Kuvvet",
+      "Negatif Üs"
+    ],
+    "order": 49
+  },
+  {
+    "id": "uslu_sayilarin_bilimsel_gosterimle_ifadesi",
+    "term": "Bilimsel Gösterim",
+    "definition": "Çok büyük veya çok küçük sayıları ifade etmek için kullanılan bilimsel gösterim, sayının 1 ile 10 arasındaki bir sayı ile 10'un tam sayı kuvvetinin çarpımı şeklinde yazılmasıdır.",
+    "examples": [
+      "3.14 x 10^5",
+      "6.022 x 10^23",
+      "1.6 x 10^-19"
+    ],
+    "relatedTerms": [
+      "Üslü Sayıların Bilimsel Gösterimi",
+      "Büyük Sayıların Üslü İfade ile Gösterimi",
+      "Kesirli Üs"
+    ],
+    "order": 50
+  },
+  {
+    "id": "uslu_sayilarda_taban_donusumu",
+    "term": "Taban Dönüşümü",
+    "definition": "Farklı tabanlara sahip üslü sayıları aynı tabana indirgeyerek işlem yapmak veya karşılaştırmak için taban dönüşümü yapılır. Bu, genellikle sayının asal çarpanlarına ayrılarak yapılır.",
+    "examples": [
+      "8^2 * 4^3 = (2^3)^2 * (2^2)^3 = 2^6 * 2^6 = 2^12",
+      "9^5 / 27^2 = (3^2)^5 / (3^3)^2 = 3^10 / 3^6 = 3^4",
+      "16^3 = (2^4)^3 = 2^12"
+    ],
+    "relatedTerms": [
+      "Aynı Tabanlı Üslü Sayıların Çarpımı",
+      "Aynı Tabanlı Üslü Sayıların Bölümü",
+      "Üssün Üssü"
+    ],
+    "order": 51
+  },
+  {
+    "id": "uslu_sayilarda_us_donusumu",
+    "term": "Üs Dönüşümü",
+    "definition": "Farklı üslere sahip üslü sayıları aynı üsse indirgeyerek işlem yapmak veya karşılaştırmak için üs dönüşümü yapılır. Bu, genellikle üssün çarpanlarına ayrılarak veya ortak bir üs bulunarak yapılır.",
+    "examples": [
+      "2^6 = (2^2)^3 = 4^3",
+      "3^10 = (3^5)^2 = 243^2",
+      "5^8 = (5^4)^2 = 625^2"
+    ],
+    "relatedTerms": [
+      "Üssün Üssü",
+      "Çarpımın Üssü",
+      "Üslü Sayılarda Sıralama"
+    ],
+    "order": 52
+  },
+  {
+    "id": "uslu_sayilarin_kok_ifadesine_cevrilmesi",
+    "term": "Köklü İfadeye Çevirme",
+    "definition": "Kesirli üslü sayılar, köklü sayılara dönüştürülerek daha kolay anlaşılabilir ve işlem yapılabilir hale getirilebilir. a^(m/n) = n√(a^m) formülü kullanılır.",
+    "examples": [
+      "x^(2/3) = ³√(x^2)",
+      "y^(1/2) = √y",
+      "z^(3/4) = ⁴√(z^3)"
+    ],
+    "relatedTerms": [
+      "Kesirli Üs",
+      "Kök ve Üslü Sayı İlişkisi",
+      "Üslü Sayılarda Sıralama"
+    ],
+    "order": 53
+  },
+  {
+    "id": "koklu_ifadelerin_uslu_sayiya_cevrilmesi",
+    "term": "Üslü Sayıya Çevirme",
+    "definition": "Köklü ifadeler, üslü sayılara dönüştürülerek üslü sayılar kurallarıyla işlem yapılabilir hale getirilebilir. n√(a^m) = a^(m/n) formülü kullanılır.",
+    "examples": [
+      "√x = x^(1/2)",
+      "³√(y^2) = y^(2/3)",
+      "⁵√(z^3) = z^(3/5)"
+    ],
+    "relatedTerms": [
+      "Kök ve Üslü Sayı İlişkisi",
+      "Kesirli Üs",
+      "Üslü Sayılarda Sadeleştirme"
+    ],
+    "order": 54
+  },
+  {
+    "id": "uslu_sayilarda_ters_islem",
+    "term": "Ters İşlem",
+    "definition": "Üslü sayılarda ters işlem, genellikle denklem çözümlerinde veya bilinmeyenin bulunmasında kullanılır. Kök alma işlemi, üslü işlemin tersidir.",
+    "examples": [
+      "x^2 = 9 ise x = ±√9 = ±3",
+      "x^3 = 27 ise x = ³√27 = 3",
+      "2^x = 16 ise x = log₂(16) = 4 (logaritma kavramı ile ilişkilidir)"
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Denklemleri",
+      "Kök ve Üslü Sayı İlişkisi",
+      "Kesirli Üs"
+    ],
+    "order": 55
+  },
+  {
+    "id": "uslu_sayilarda_kural_uygulamasi",
+    "term": "Kural Uygulaması",
+    "definition": "Üslü sayılarla ilgili temel kuralların (çarpma, bölme, üssün üssü vb.) doğru ve etkin bir şekilde uygulanması, karmaşık problemleri çözmenin anahtarıdır. Kuralların hangi durumlarda geçerli olduğu önemlidir.",
+    "examples": [
+      "2^3 * 2^4 = 2^(3+4) = 2^7",
+      "5^6 / 5^2 = 5^(6-2) = 5^4",
+      "(3^2)^4 = 3^(2*4) = 3^8"
+    ],
+    "relatedTerms": [
+      "Aynı Tabanlı Üslü Sayıların Çarpımı",
+      "Aynı Tabanlı Üslü Sayıların Bölümü",
+      "Üssün Üssü"
+    ],
+    "order": 56
+  },
+  {
+    "id": "uslu_sayilarda_basamak_kavrami",
+    "term": "Basamak Kavramı",
+    "definition": "Büyük üslü sayıların basamak sayısını bulmak için genellikle 10'un kuvvetleri kullanılır. Bir sayının basamak sayısı, o sayının 10'un kuvveti cinsinden ifadesindeki üsse 1 eklenerek bulunur.",
+    "examples": [
+      "10^5 sayısının basamak sayısı 6'dır.",
+      "2^10 sayısının basamak sayısı yaklaşık olarak log₁₀(2^10) + 1 = 10 * log₁₀(2) + 1 ≈ 10 * 0.301 + 1 = 3.01 + 1 = 4.01, yani 4 basamaklıdır.",
+      "5^3 sayısının basamak sayısı 125'tir, yani 3 basamaklıdır."
+    ],
+    "relatedTerms": [
+      "Üslü Sayıların Bilimsel Gösterimi",
+      "Büyük Sayıların Karşılaştırılması (Üslü)",
+      "Logaritma (İlgili Kavram)"
+    ],
+    "order": 57
+  },
+  {
+    "id": "uslu_sayilarda_taban_ve_us_degiskeni",
+    "term": "Taban ve Üs Değişkeni",
+    "definition": "Üslü sayılarda taban veya üs yerine bilinmeyen bir değişkenin bulunması durumunda, bu değişkeni bulmak için farklı yöntemler kullanılır. Bu, genellikle üslü sayı denklemleri ile ilgilidir.",
+    "examples": [
+      "3^x = 81 => 3^x = 3^4 => x = 4",
+      "y^2 = 16 => y = ±4",
+      "2^(x+1) = 32 => 2^(x+1) = 2^5 => x+1 = 5 => x = 4"
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Denklemleri",
+      "Taban Eşitleme",
+      "Üs Eşitleme"
+    ],
+    "order": 58
+  },
+  {
+    "id": "uslu_sayilarda_ornekleme_ve_genelleme",
+    "term": "Örnekleme ve Genelleme",
+    "definition": "Belirli sayılarla yapılan işlemlerden yola çıkarak genel bir kural veya formül çıkarma yöntemidir. Bu, özellikle üslü sayılar kurallarının ispatında veya yeni kuralların keşfedilmesinde kullanılır.",
+    "examples": [
+      "2^1=2, 2^2=4, 2^3=8... Bu örüntüden 2^n kuralı genelleştirilir.",
+      "3^2=9, 4^2=16, 5^2=25... Bu örüntüden x^2 kuralı genelleştirilir.",
+      "(-1)^1=-1, (-1)^2=1, (-1)^3=-1... Bu örüntüden (-1)^n kuralı genelleştirilir."
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Tanımı",
+      "Birin Her Kuvveti",
+      "Eksi Birin Kuvvetleri"
+    ],
+    "order": 59
+  },
+  {
+    "id": "uslu_sayilarda_karma_islem_sirasina_dikkat",
+    "term": "Karma İşlem Sırası",
+    "definition": "Üslü sayılar içeren işlemlerde işlem önceliği kurallarına (parantez içi, üslü sayılar, çarpma/bölme, toplama/çıkarma) dikkat etmek, doğru sonuca ulaşmak için kritiktir.",
+    "examples": [
+      "2 + 3^2 = 2 + 9 = 11",
+      "(2 + 3)^2 = 5^2 = 25",
+      "4 * 2^3 - 5 = 4 * 8 - 5 = 32 - 5 = 27"
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Tanımı",
+      "Üssün Üssü",
+      "Çarpımın Üssü",
+      "Bölümün Üssü"
+    ],
+    "order": 60
+  },
+  {
+    "id": "uslu_sayilarda_orantisallik_ve_ters_orantisallik",
+    "term": "Orantısallık ve Ters Orantısallık",
+    "definition": "İki nicelik arasındaki ilişkinin üslü sayılarla ifade edilmesi durumunda, bu niceliklerin birbirine göre nasıl değiştiği incelenir. Doğru orantıda bir nicelik artarken diğeri de artar, ters orantıda biri artarken diğeri azalır.",
+    "examples": [
+      "Bir kenarı 'a' olan karenin alanı a²'dir. Kenar iki katına çıkarsa alan dört katına çıkar (doğru orantı).",
+      "Sabit bir hacim için bir küpün yüzey alanı ile kenarı arasındaki ilişki (ters orantısal bir durum söz konusu olabilir).",
+      "Basit faiz hesaplarında anapara ve faiz arasındaki ilişki (doğru orantı)."
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Tanımı",
+      "Çarpımın Üssü",
+      "Bölümün Üssü",
+      "Kesirli Üs"
+    ],
+    "order": 61
+  },
+  {
+    "id": "uslu_sayi_temel_kurali",
+    "term": "Üslü Sayıların Temel Kuralı",
+    "definition": "Bir sayının kendisiyle tekrarlı çarpımını üslü biçimde gösterme kuralıdır. Taban, çarpılan sayıyı; üs ise çarpma işleminin kaç kez tekrarlandığını gösterir. a^n = a * a * ... * a (n defa)",
+    "examples": [
+      "2^3 = 2 * 2 * 2 = 8",
+      "5^2 = 5 * 5 = 25",
+      "10^4 = 10 * 10 * 10 * 10 = 10000"
+    ],
+    "relatedTerms": [
+      "Taban",
+      "Üs",
+      "Tekrarlı Çarpım"
+    ],
+    "order": 62
+  },
+  {
+    "id": "ussu_sifir_kurali",
+    "term": "Üssü Sıfır Olan Sayılar",
+    "definition": "Sıfır hariç her sayının sıfırıncı kuvveti 1'e eşittir. Sıfırın sıfırıncı kuvveti belirsizdir ancak KPSS'de genellikle 1 olarak kabul edilir.",
+    "examples": [
+      "7^0 = 1",
+      "(-5)^0 = 1",
+      "(1/2)^0 = 1"
+    ],
+    "relatedTerms": [
+      "Sıfırıncı Kuvvet",
+      "Birim Her Kuvveti"
+    ],
+    "order": 63
+  },
+  {
+    "id": "ussu_bir_kurali",
+    "term": "Üssü Bir Olan Sayılar",
+    "definition": "Her sayının birinci kuvveti kendisine eşittir. Bu kural, sayının kendisiyle bir kez çarpıldığını ifade eder.",
+    "examples": [
+      "9^1 = 9",
+      "(-3)^1 = -3",
+      "(2/3)^1 = 2/3"
+    ],
+    "relatedTerms": [
+      "Birinci Kuvvet",
+      "Temel Kural"
+    ],
+    "order": 64
+  },
+  {
+    "id": "negatif_us_kurali",
+    "term": "Negatif Üslü Sayılar",
+    "definition": "Bir sayının negatif üssü, o sayının çarpma işlemine göre tersinin pozitif üssü olarak ifade edilir. a^(-n) = 1 / a^n",
+    "examples": [
+      "3^(-2) = 1 / 3^2 = 1/9",
+      "2^(-3) = 1 / 2^3 = 1/8",
+      "(1/4)^(-1) = 1 / (1/4)^1 = 4"
+    ],
+    "relatedTerms": [
+      "Çarpma İşlemine Göre Ters",
+      "Kesirli Üslü Sayılar"
+    ],
+    "order": 65
+  },
+  {
+    "id": "uslerin_usleri",
+    "term": "Üssün Üssü Alma",
+    "definition": "Bir üslü sayının üssü alındığında, üsler çarpılır. (a^m)^n = a^(m*n)",
+    "examples": [
+      "(2^3)^2 = 2^(3*2) = 2^6",
+      "(5^2)^4 = 5^(2*4) = 5^8",
+      "(x^a)^b = x^(a*b)"
+    ],
+    "relatedTerms": [
+      "Üslerin Çarpımı",
+      "Temel Kurallar"
+    ],
+    "order": 66
+  },
+  {
+    "id": "carpinimin_ussu",
+    "term": "Çarpımın Üssü Alma",
+    "definition": "Bir çarpımın üssü alındığında, her çarpanın ayrı ayrı aynı üssü alınır ve sonuçlar çarpılır. (a * b)^n = a^n * b^n",
+    "examples": [
+      "(2 * 3)^2 = 2^2 * 3^2 = 4 * 9 = 36",
+      "(x * y)^m = x^m * y^m",
+      "(5 * 10)^3 = 5^3 * 10^3"
+    ],
+    "relatedTerms": [
+      "Dağılma Özelliği",
+      "Temel Kurallar"
+    ],
+    "order": 67
+  },
+  {
+    "id": "bolumun_ussu",
+    "term": "Bölümün Üssü Alma",
+    "definition": "Bir bölümün üssü alındığında, hem payın hem de paydanın ayrı ayrı aynı üssü alınır ve sonuçlar bölünür. (a / b)^n = a^n / b^n",
+    "examples": [
+      "(3 / 4)^2 = 3^2 / 4^2 = 9 / 16",
+      "(x / y)^m = x^m / y^m",
+      "(10 / 2)^3 = 10^3 / 2^3"
+    ],
+    "relatedTerms": [
+      "Dağılma Özelliği",
+      "Temel Kurallar"
+    ],
+    "order": 68
+  },
+  {
+    "id": "farkli_taban_ayni_us_carpma",
+    "term": "Farklı Tabanlı, Aynı Üslü Sayıların Çarpımı",
+    "definition": "Üsleri aynı olan farklı tabanlı üslü sayılar çarpılırken tabanlar çarpılır ve ortak üs aynen yazılır. a^n * b^n = (a * b)^n",
+    "examples": [
+      "2^3 * 5^3 = (2 * 5)^3 = 10^3 = 1000",
+      "x^m * y^m = (x * y)^m",
+      "3^2 * 7^2 = (3 * 7)^2 = 21^2 = 441"
+    ],
+    "relatedTerms": [
+      "Çarpımın Üssü Alma",
+      "Temel Kurallar"
+    ],
+    "order": 69
+  },
+  {
+    "id": "farkli_taban_ayni_us_bolme",
+    "term": "Farklı Tabanlı, Aynı Üslü Sayıların Bölümü",
+    "definition": "Üsleri aynı olan farklı tabanlı üslü sayılar bölünürken tabanlar bölünür ve ortak üs aynen yazılır. a^n / b^n = (a / b)^n",
+    "examples": [
+      "6^3 / 2^3 = (6 / 2)^3 = 3^3 = 27",
+      "x^m / y^m = (x / y)^m",
+      "10^2 / 5^2 = (10 / 5)^2 = 2^2 = 4"
+    ],
+    "relatedTerms": [
+      "Bölümün Üssü Alma",
+      "Temel Kurallar"
+    ],
+    "order": 70
+  },
+  {
+    "id": "tabani_negatif_tek_us",
+    "term": "Tabanı Negatif, Tek Üslü Sayılar",
+    "definition": "Tabanı negatif ve üssü tek olan bir sayının sonucu negatiftir. (-a)^(tek sayı) = - (a^(tek sayı))",
+    "examples": [
+      "(-2)^3 = - (2^3) = -8",
+      "(-5)^1 = -5",
+      "(-1)^99 = -1"
+    ],
+    "relatedTerms": [
+      "Negatif Taban",
+      "Tek ve Çift Kuvvet"
+    ],
+    "order": 71
+  },
+  {
+    "id": "tabani_negatif_cift_us",
+    "term": "Tabanı Negatif, Çift Üslü Sayılar",
+    "definition": "Tabanı negatif ve üssü çift olan bir sayının sonucu pozitiftir. (-a)^(çift sayı) = a^(çift sayı)",
+    "examples": [
+      "(-2)^4 = 2^4 = 16",
+      "(-3)^2 = 3^2 = 9",
+      "(-1)^100 = 1"
+    ],
+    "relatedTerms": [
+      "Negatif Taban",
+      "Tek ve Çift Kuvvet"
+    ],
+    "order": 72
+  },
+  {
+    "id": "kesirli_us_kok_iliski",
+    "term": "Kesirli Üslerin Köklü İfadeye Dönüşümü",
+    "definition": "Kesirli üsler, köklü ifadelerle temsil edilebilir. a^(m/n) = n√(a^m) = (n√a)^m",
+    "examples": [
+      "4^(1/2) = √4 = 2",
+      "8^(2/3) = ³√(8^2) = ³√64 = 4",
+      "x^(p/q) = q√(x^p)"
+    ],
+    "relatedTerms": [
+      "Köklü Sayılar",
+      "Kesirli Üslü Sayılar"
+    ],
+    "order": 73
+  },
+  {
+    "id": "uslu_sayi_denklemleri_taban_esitleme",
+    "term": "Üslü Sayı Denklemleri (Taban Eşitleme)",
+    "definition": "Eşitliğin her iki tarafındaki tabanlar eşitlenebiliyorsa, üsler de eşitlenerek denklem çözülür. a^x = a^y ise x = y",
+    "examples": [
+      "2^x = 8 => 2^x = 2^3 => x = 3",
+      "3^(x+1) = 9 => 3^(x+1) = 3^2 => x+1 = 2 => x = 1",
+      "5^(2x-1) = 125 => 5^(2x-1) = 5^3 => 2x-1 = 3 => 2x = 4 => x = 2"
+    ],
+    "relatedTerms": [
+      "Denklem Çözme",
+      "Taban Eşitleme"
+    ],
+    "order": 74
+  },
+  {
+    "id": "uslu_sayi_denklemleri_us_esitleme",
+    "term": "Üslü Sayı Denklemleri (Üs Eşitleme)",
+    "definition": "Eşitliğin her iki tarafındaki üsler eşitlenebiliyorsa, tabanlar da eşitlenerek denklem çözülür. x^n = y^n ise x = y (n tek ise) veya x = ±y (n çift ise)",
+    "examples": [
+      "x^3 = 27 => x^3 = 3^3 => x = 3",
+      "x^2 = 16 => x^2 = 4^2 => x = ±4",
+      "(x-1)^5 = 32 => (x-1)^5 = 2^5 => x-1 = 2 => x = 3"
+    ],
+    "relatedTerms": [
+      "Denklem Çözme",
+      "Üs Eşitleme"
+    ],
+    "order": 75
+  },
+  {
+    "id": "buyuk_sayilarin_karsilastirilmasi_taban_esitleme",
+    "term": "Büyük Sayıların Karşılaştırılması (Taban Eşitleme)",
+    "definition": "Karşılaştırılacak üslü sayılarda tabanlar eşitlenerek üsler karşılaştırılır. Taban 1'den büyükse üssü büyük olan daha büyüktür. Taban 0 ile 1 arasındaysa üssü küçük olan daha büyüktür.",
+    "examples": [
+      "2^10 ve 2^12 karşılaştırması: Tabanlar eşit (2), üsler 10 ve 12. 12 > 10 olduğundan 2^12 > 2^10.",
+      "3^5 ve 3^7 karşılaştırması: 3^7 > 3^5",
+      "(1/2)^4 ve (1/2)^6 karşılaştırması: Tabanlar eşit (1/2), üsler 4 ve 6. Taban 0 ile 1 arasında olduğundan üssü küçük olan daha büyüktür. (1/2)^4 > (1/2)^6."
+    ],
+    "relatedTerms": [
+      "Karşılaştırma",
+      "Taban Eşitleme"
+    ],
+    "order": 76
+  },
+  {
+    "id": "buyuk_sayilarin_karsilastirilmasi_us_esitleme",
+    "term": "Büyük Sayıların Karşılaştırılması (Üs Eşitleme)",
+    "definition": "Karşılaştırılacak üslü sayılarda üsler eşitlenerek tabanlar karşılaştırılır. Üsler eşit ve pozitifse, tabanı büyük olan daha büyüktür.",
+    "examples": [
+      "3^4 ve 5^4 karşılaştırması: Üsler eşit (4), tabanlar 3 ve 5. 5 > 3 olduğundan 5^4 > 3^4.",
+      "7^2 ve 9^2 karşılaştırması: 9^2 > 7^2",
+      "2^6 ve 3^6 karşılaştırması: 3^6 > 2^6."
+    ],
+    "relatedTerms": [
+      "Karşılaştırma",
+      "Üs Eşitleme"
+    ],
+    "order": 77
+  },
+  {
+    "id": "negatif_taban_tek_us",
+    "term": "Negatif Tabanlı Sayıların Tek Kuvvetleri",
+    "definition": "Tabanı negatif olan bir sayının tek kuvveti alındığında sonuç negatif olur. Bu durum, çarpma işleminin işaret kurallarına dayanır. Örneğin, (-2)^3 = (-2) * (-2) * (-2) = -8'dir.",
+    "examples": [
+      "(-3)^3 = -27",
+      "(-5)^1 = -5",
+      "(-1)^7 = -1"
+    ],
+    "relatedTerms": [
+      "Negatif Tabanlı Sayıların Çift Kuvvetleri",
+      "İşaret Kuralları",
+      "Tek ve Çift Sayılar"
+    ],
+    "order": 78
+  },
+  {
+    "id": "negatif_taban_cift_us",
+    "term": "Negatif Tabanlı Sayıların Çift Kuvvetleri",
+    "definition": "Tabanı negatif olan bir sayının çift kuvveti alındığında sonuç pozitif olur. Çünkü negatif iki sayının çarpımı pozitiftir. Örneğin, (-2)^4 = (-2) * (-2) * (-2) * (-2) = 16'dır.",
+    "examples": [
+      "(-4)^2 = 16",
+      "(-1)^6 = 1",
+      "(-10)^4 = 10000"
+    ],
+    "relatedTerms": [
+      "Negatif Tabanlı Sayıların Tek Kuvvetleri",
+      "İşaret Kuralları",
+      "Tek ve Çift Sayılar"
+    ],
+    "order": 79
+  },
+  {
+    "id": "kesirli_taban_us",
+    "term": "Kesirli Tabanlı Üslü Sayılar",
+    "definition": "Tabanı kesirli bir sayı olan ifadelerde üs alma işlemi, payın ve paydanın ayrı ayrı üssünün alınmasıyla yapılır. Örneğin, (2/3)^2 = (2^2) / (3^2) = 4/9'dur.",
+    "examples": [
+      "(1/2)^3 = 1/8",
+      "(3/4)^2 = 9/16",
+      "(5/2)^0 = 1"
+    ],
+    "relatedTerms": [
+      "Kesirli Sayılarda Çarpma",
+      "Kesirli Sayılarda Bölme",
+      "Üssün Üssü Alma"
+    ],
+    "order": 80
+  },
+  {
+    "id": "us_icinde_carpma_bolme",
+    "term": "Üslü Sayılarda Çarpma ve Bölme İşlemlerinin Önceliği",
+    "definition": "Üslü sayılarda çarpma ve bölme işlemleri, toplama ve çıkarmadan önce yapılır. İşlem önceliği sırası dikkate alınarak çözümleme yapılır. Örneğin, 2^3 * 2^2 + 5 = 2^(3+2) + 5 = 2^5 + 5 = 32 + 5 = 37'dir.",
+    "examples": [
+      "3^2 * 3^3 - 10 = 3^5 - 10 = 243 - 10 = 233",
+      "10^4 / 10^2 + 5^2 = 10^2 + 25 = 100 + 25 = 125",
+      "2^3 + 2^3 * 2^2 = 2^3 + 2^5 = 8 + 32 = 40"
+    ],
+    "relatedTerms": [
+      "İşlem Önceliği",
+      "Aynı Tabanlı Üslü Sayılar",
+      "Çok Adımlı İşlemler"
+    ],
+    "order": 81
+  },
+  {
+    "id": "uslu_ifade_denklemleri_taban_us_esitleme",
+    "term": "Üslü Denklemde Taban ve Üs Eşitleme",
+    "definition": "Üslü denklemleri çözerken, eğer mümkünse tabanlar veya üsler eşitlenerek denklem basitleştirilir. Tabanlar eşitlenirse üsler eşitlenir, üsler eşitlenirse tabanlar karşılaştırılır. Örneğin, 4^x = 8^2 denkleminde, tabanlar 2'ye eşitlenerek (2^2)^x = (2^3)^2 => 2^(2x) = 2^6 => 2x = 6 => x = 3 bulunur.",
+    "examples": [
+      "9^x = 27 => (3^2)^x = 3^3 => 3^(2x) = 3^3 => 2x = 3 => x = 3/2",
+      "5^(x+1) = 5^3 => x+1 = 3 => x = 2",
+      "2^x = 1/16 => 2^x = 2^(-4) => x = -4"
+    ],
+    "relatedTerms": [
+      "Taban Eşitleme",
+      "Üs Eşitleme",
+      "Üslü Denklem Çözme"
+    ],
+    "order": 82
+  },
+  {
+    "id": "bilimsel_gosterim_kural",
+    "term": "Bilimsel Gösterim Kuralları",
+    "definition": "Bir sayının bilimsel gösterimi, a x 10^n şeklinde yazılır. Burada 'a' katsayısı 1'e eşit veya büyük, 10'dan küçük olmalıdır (1 ≤ |a| < 10). 'n' ise bir tam sayıdır. Sayının büyüklüğüne göre 'n' pozitif veya negatif olabilir.",
+    "examples": [
+      "345.000.000 = 3.45 x 10^8",
+      "0.0000078 = 7.8 x 10^-6",
+      "5.2 x 10^3 = 5200"
+    ],
+    "relatedTerms": [
+      "Büyük Sayıların Üslü İfade ile Gösterimi",
+      "Ondalık Sayılar",
+      "Üslü Sayılar"
+    ],
+    "order": 83
+  },
+  {
+    "id": "uslu_sayi_sadeleştirme_ortak_carpan",
+    "term": "Üslü Sayılarda Ortak Çarpan Parantezine Alma",
+    "definition": "Üslü sayılarda toplama veya çıkarma işlemlerinde, ortak taban ve en küçük üs parantezine alınarak sadeleştirme yapılır. Bu, işlemleri kolaylaştırır. Örneğin, 2^5 + 2^4 = 2^4 * (2^1 + 1) = 2^4 * 3'tür.",
+    "examples": [
+      "3^7 - 3^6 = 3^6 * (3 - 1) = 3^6 * 2",
+      "5^3 + 5^3 + 5^3 = 3 * 5^3",
+      "2^10 + 2^11 + 2^12 = 2^10 * (1 + 2 + 2^2) = 2^10 * 7"
+    ],
+    "relatedTerms": [
+      "Ortak Çarpan Parantezine Alma",
+      "Üslü Sayılarda Toplama ve Çıkarma",
+      "Sadeleştirme Teknikleri"
+    ],
+    "order": 84
+  },
+  {
+    "id": "uslu_sayi_kural_uygulamasi_karma",
+    "term": "Üslü Sayı Kurallarının Karma İşlemde Uygulanması",
+    "definition": "Karmaşık üslü sayı problemlerinde, işlem önceliği sırasına dikkat edilerek üssün üssü alma, çarpma, bölme ve toplama/çıkarma kuralları bir arada uygulanır. Parantezli ifadeler önceliklidir.",
+    "examples": [
+      "(2^3)^2 * 2^4 / 2^5 = 2^(3*2) * 2^4 / 2^5 = 2^6 * 2^4 / 2^5 = 2^(6+4-5) = 2^5 = 32",
+      "3^2 + (4^2 / 2^2) = 9 + (16 / 4) = 9 + 4 = 13",
+      "5 * (10^3 / 5^3) = 5 * (10/5)^3 = 5 * 2^3 = 5 * 8 = 40"
+    ],
+    "relatedTerms": [
+      "İşlem Önceliği",
+      "Üssün Üssü Alma",
+      "Aynı Tabanlı Üslü Sayılar",
+      "Çok Adımlı İşlemler"
+    ],
+    "order": 85
+  },
+  {
+    "id": "kesirli_us_kok_donusumu",
+    "term": "Kesirli Üssün Köklü İfadeye Dönüşümü",
+    "definition": "a^(m/n) şeklindeki bir üslü ifade, 'n' dereceden kök 'a'nın 'm' kuvveti olarak yazılabilir (ⁿ√a^m). Burada 'n' kökün derecesi, 'm' ise kök içindeki sayının kuvvetidir. Örneğin, x^(2/3) = ³√x²'dir.",
+    "examples": [
+      "5^(1/2) = √5",
+      "y^(3/4) = ⁴√y³",
+      "8^(2/3) = ³√8² = ³√64 = 4"
+    ],
+    "relatedTerms": [
+      "Köklü İfadenin Üslü İfadeye Dönüşümü",
+      "Kesirli Üslü Sayılar",
+      "Kök Derecesi"
+    ],
+    "order": 86
+  },
+  {
+    "id": "kok_uslu_ifade_donusumu",
+    "term": "Köklü İfadenin Üslü İfadeye Dönüşümü",
+    "definition": "ⁿ√a^m şeklindeki bir köklü ifade, a^(m/n) şeklinde üslü sayıya dönüştürülebilir. Burada 'm' üs, 'n' ise kökün derecesidir. Örneğin, ³√x² = x^(2/3)'tür.",
+    "examples": [
+      "√7 = 7^(1/2)",
+      "⁵√a⁴ = a^(4/5)",
+      "³√27² = 27^(2/3) = (3³)^(2/3) = 3^(3 * 2/3) = 3^2 = 9"
+    ],
+    "relatedTerms": [
+      "Kesirli Üssün Köklü İfadeye Dönüşümü",
+      "Üslü Sayılar",
+      "Kök Derecesi"
+    ],
+    "order": 87
+  },
+  {
+    "id": "uslu_sayi_karsilastirma_us_esitleme",
+    "term": "Üs Eşitleyerek Karşılaştırma",
+    "definition": "Farklı tabanlara sahip üslü sayıları karşılaştırırken, üsler eşitlenerek tabanlar karşılaştırılır. Üsler eşitlendiğinde, tabanı büyük olan sayı daha büyüktür. Örneğin, 2^6 ve 3^4 karşılaştırılırken, üsler EKOK'ları olan 12'de eşitlenir: (2^2)^3 = 4^3 ve (3^1)^4 = 3^4. Bu durumda 4^3 < 3^4 yanlıştır. Doğrusu: 2^6 = (2^3)^2 = 8^2 ve 3^4 = (3^2)^2 = 9^2. Üsler eşit olduğundan, tabanı büyük olan (9) daha büyüktür, yani 3^4 > 2^6.",
+    "examples": [
+      "3^10 ve 2^15: Üsler EKOK(10,15)=30'da eşitlenir. (3^3)^10 = 27^10 ve (2^2)^15 = 4^15. Bu yanlış. Doğrusu: (3^2)^5 = 9^5 ve (2^3)^5 = 8^5. Üsler eşit olduğundan 9^5 > 8^5, yani 3^10 > 2^15.",
+      "4^8 ve 5^6: Üsler EKOK(8,6)=24'te eşitlenir. (4^3)^8 = 64^8 ve (5^4)^6 = 625^6. Bu yanlış. Doğrusu: (4^4)^2 = 256^2 ve (5^3)^2 = 125^2. Üsler eşit olduğundan 256^2 > 125^2, yani 4^8 > 5^6.",
+      "7^12 ve 11^18: Üsler EKOK(12,18)=36'da eşitlenir. (7^3)^12 = 343^12 ve (11^2)^18 = 121^18. Bu yanlış. Doğrusu: (7^2)^6 = 49^6 ve (11^3)^6 = 1331^6. Üsler eşit olduğundan 1331^6 > 49^6, yani 11^18 > 7^12."
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Karşılaştırma",
+      "Üs Eşitleme",
+      "Ortak Kat",
+      "Asal Çarpanlara Ayırma"
+    ],
+    "order": 88
+  },
+  {
+    "id": "uslu_sayi_karsilastirma_taban_esitleme",
+    "term": "Taban Eşitleyerek Karşılaştırma",
+    "definition": "Farklı tabanlara sahip üslü sayıları karşılaştırırken, tabanlar mümkünse aynı sayıya (genellikle asal çarpanlarına ayırarak) eşitlenir. Tabanlar eşitlendiğinde, üssü büyük olan sayı daha büyüktür. Örneğin, 4^5 ve 8^3 karşılaştırılırken, tabanlar 2'ye eşitlenir: (2^2)^5 = 2^10 ve (2^3)^3 = 2^9. Tabanlar eşit olduğundan, üssü büyük olan (10) daha büyüktür, yani 4^5 > 8^3.",
+    "examples": [
+      "9^4 ve 27^2: Tabanlar 3'e eşitlenir. (3^2)^4 = 3^8 ve (3^3)^2 = 3^6. Tabanlar eşit olduğundan 3^8 > 3^6, yani 9^4 > 27^2.",
+      "25^3 ve 125^2: Tabanlar 5'e eşitlenir. (5^2)^3 = 5^6 ve (5^3)^2 = 5^6. Tabanlar ve üsler eşit olduğundan 25^3 = 125^2.",
+      "8^4 ve 16^3: Tabanlar 2'ye eşitlenir. (2^3)^4 = 2^12 ve (2^4)^3 = 2^12. Tabanlar ve üsler eşit olduğundan 8^4 = 16^3."
+    ],
+    "relatedTerms": [
+      "Üslü Sayı Karşılaştırma",
+      "Taban Eşitleme",
+      "Asal Çarpanlara Ayırma",
+      "Üssün Üssü Alma"
+    ],
+    "order": 89
+  },
+  {
+    "id": "uslu_sayi_denklemleri_taban_us_esitligi",
+    "term": "Üslü Denklemlerde Taban ve Üs Eşitliği Kuralı",
+    "definition": "a^x = a^y ise x = y'dir (a ≠ 0, 1, -1). Ayrıca x^a = y^a ise (a ≠ 0): eğer 'a' tek ise x = y; eğer 'a' çift ise x = y veya x = -y'dir.",
+    "examples": [
+      "3^(x-2) = 3^5 => x-2 = 5 => x = 7",
+      "x^4 = 16 => x = 4 veya x = -4",
+      "(x-1)^3 = 27 => x-1 = 3 => x = 4"
+    ],
+    "relatedTerms": [
+      "Üslü Denklem Çözme",
+      "Taban Eşitleme",
+      "Üs Eşitleme",
+      "Tek ve Çift Üsler"
+    ],
+    "order": 90
+  },
+  {
+    "id": "uslu_sayi_kural_uygulamasi_carpim_bolum_ussu",
+    "term": "Çarpım ve Bölümün Üssü Alma Kuralları",
+    "definition": "Çarpımın üssü alınırken her çarpanın ayrı ayrı üssü alınır: (a*b)^n = a^n * b^n. Bölümün üssü alınırken payın ve paydanın ayrı ayrı üssü alınır: (a/b)^n = a^n / b^n. Bu kurallar, aynı üsse sahip farklı tabanlı çarpma ve bölme işlemlerinde kullanılır.",
+    "examples": [
+      "(2*3)^4 = 2^4 * 3^4 = 16 * 81 = 1296",
+      "(5/2)^3 = 5^3 / 2^3 = 125 / 8",
+      "(2x)^3 = 2^3 * x^3 = 8x^3"
+    ],
+    "relatedTerms": [
+      "Çarpımın Üssü Alma İşlemi",
+      "Bölümün Üssü Alma İşlemi",
+      "Dağılma Özelliği"
+    ],
+    "order": 91
+  },
+  {
+    "id": "uslu_sayi_kural_uygulamasi_ussun_ussu",
+    "term": "Üssün Üssü Alma Kuralı",
+    "definition": "Bir üslü sayının üssü alındığında, üsler birbiriyle çarpılır: (a^m)^n = a^(m*n). Bu kural, tabanın tekrar tekrar üslü hale getirildiği durumlarda kullanılır ve işlemleri basitleştirir.",
+    "examples": [
+      "(3^2)^4 = 3^(2*4) = 3^8",
+      "(x^5)^-2 = x^(5*-2) = x^-10",
+      "((2^3)^2)^3 = 2^(3*2*3) = 2^18"
+    ],
+    "relatedTerms": [
+      "Üssün Üssü Alma İşlemi",
+      "Çarpma İşlemi",
+      "Üslü Sayıların Özellikleri"
+    ],
+    "order": 92
+  },
+  {
+    "id": "uslu_sayi_kural_uygulamasi_ayni_taban",
+    "term": "Aynı Tabanlı Üslü Sayıların Çarpımı ve Bölümü",
+    "definition": "Aynı tabana sahip üslü sayılar çarpılırken üsler toplanır: a^m * a^n = a^(m+n). Bölünürken üsler çıkarılır: a^m / a^n = a^(m-n). Bu kurallar, taban aynı kaldığı sürece geçerlidir.",
+    "examples": [
+      "2^5 * 2^3 = 2^(5+3) = 2^8",
+      "7^6 / 7^2 = 7^(6-2) = 7^4",
+      "x^3 * x^4 * x^2 = x^(3+4+2) = x^9"
+    ],
+    "relatedTerms": [
+      "Aynı Tabanlı, Üsleri Farklı Üslü Sayıların Çarpımı",
+      "Aynı Tabanlı, Üsleri Farklı Üslü Sayıların Bölümü",
+      "Toplama ve Çıkarma İşlemleri"
+    ],
+    "order": 93
+  }
+]

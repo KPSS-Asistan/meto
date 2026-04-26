@@ -1,0 +1,452 @@
+[
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Rakam nedir?",
+    "answer": "Sayıları yazmak için kullanılan sembollerdir (0, 1, 2, 3, 4, 5, 6, 7, 8, 9).",
+    "additionalInfo": "10 farklı rakam vardır.",
+    "id": "flash_1776014513078_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Doğal sayılar kümesi nasıl gösterilir ve hangi sayıları içerir?",
+    "answer": "N sembolü ile gösterilir ve {0, 1, 2, 3, ...} sayılarını içerir.",
+    "additionalInfo": "En küçük doğal sayı 0'dır.",
+    "id": "flash_1776014513078_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Sayma sayıları kümesi nasıl gösterilir ve hangi sayıları içerir?",
+    "answer": "N+ veya Z+ sembolü ile gösterilir ve {1, 2, 3, ...} sayılarını içerir.",
+    "additionalInfo": "Sayma sayıları doğal sayılardan 0'ın çıkarılmasıyla elde edilir.",
+    "id": "flash_1776014513078_3",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Tam sayılar kümesi nasıl gösterilir ve hangi sayıları içerir?",
+    "answer": "Z sembolü ile gösterilir ve {... -2, -1, 0, 1, 2, ...} sayılarını içerir.",
+    "additionalInfo": "Negatif ve pozitif tam sayıları ile 0'ı kapsar.",
+    "id": "flash_1776014513078_4",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Pozitif tam sayılar kümesi nedir?",
+    "answer": "Z+ = {1, 2, 3, ...}",
+    "additionalInfo": "En küçük pozitif tam sayı 1'dir.",
+    "id": "flash_1776014513078_5",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Negatif tam sayılar kümesi nedir?",
+    "answer": "Z- = {... -3, -2, -1}",
+    "additionalInfo": "En büyük negatif tam sayı -1'dir.",
+    "id": "flash_1776014513078_6",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "0 (sıfır) sayısı pozitif midir, negatif midir?",
+    "answer": "0 ne pozitif ne de negatiftir. Nötr bir sayıdır.",
+    "additionalInfo": "Tam sayıların ayrımında önemli bir noktadır.",
+    "id": "flash_1776014513078_7",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Rasyonel sayılar kümesi nasıl tanımlanır ve gösterilir?",
+    "answer": "Q sembolü ile gösterilir ve a/b şeklinde yazılabilen sayılardır (a, b tam sayı, b ≠ 0).",
+    "additionalInfo": "Her tam sayı aynı zamanda bir rasyonel sayıdır (örneğin 5 = 5/1).",
+    "id": "flash_1776014513078_8",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "İrrasyonel sayılar kümesi nasıl tanımlanır ve gösterilir?",
+    "answer": "Q' veya I sembolü ile gösterilir ve a/b şeklinde yazılamayan sayılardır (örneğin √2, π, e).",
+    "additionalInfo": "Devirli olmayan ondalık açılımlara sahiptir.",
+    "id": "flash_1776014513078_9",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Gerçek (Reel) sayılar kümesi nasıl gösterilir ve hangi sayıları içerir?",
+    "answer": "R sembolü ile gösterilir ve rasyonel sayılar ile irrasyonel sayıların birleşimidir.",
+    "additionalInfo": "Sayı doğrusu üzerindeki tüm noktaları temsil eder.",
+    "id": "flash_1776014513078_10",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Tek sayı nedir?",
+    "answer": "2 ile tam bölünemeyen tam sayılardır (..., -3, -1, 1, 3, ...).",
+    "additionalInfo": "Tek sayıların birler basamağı 1, 3, 5, 7, 9 ile biter.",
+    "id": "flash_1776014513078_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Çift sayı nedir?",
+    "answer": "2 ile tam bölünebilen tam sayılardır (..., -4, -2, 0, 2, 4, ...).",
+    "additionalInfo": "Çift sayıların birler basamağı 0, 2, 4, 6, 8 ile biter.",
+    "id": "flash_1776014513078_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Tek ve çift sayıların toplamı/farkı ne olur?",
+    "answer": "Tek ± Çift = Tek; Çift ± Tek = Tek; Çift ± Çift = Çift; Tek ± Tek = Çift.",
+    "additionalInfo": "Aynı cinsten iki sayının toplamı/farkı çift, farklı cinsten iki sayının toplamı/farkı tektir.",
+    "id": "flash_1776014513078_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Tek ve çift sayıların çarpımı ne olur?",
+    "answer": "Tek × Tek = Tek; Tek × Çift = Çift; Çift × Tek = Çift; Çift × Çift = Çift.",
+    "additionalInfo": "Çarpılan sayılardan en az biri çift ise sonuç çifttir.",
+    "id": "flash_1776014513078_14",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Bir sayının basamak değeri ne anlama gelir?",
+    "answer": "Bir rakamın sayıda bulunduğu yere göre aldığı değerdir.",
+    "additionalInfo": "Örn: 345 sayısında 4'ün basamak değeri 40'tır.",
+    "id": "flash_1776014513078_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Bir sayının sayı değeri (yüz değeri) ne anlama gelir?",
+    "answer": "Bir rakamın sayıda bulunduğu yerden bağımsız olarak kendi değeridir.",
+    "additionalInfo": "Örn: 345 sayısında 4'ün sayı değeri 4'tür.",
+    "id": "flash_1776014513078_16",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Birler basamağının basamak değeri ve sayı değeri arasındaki fark nedir?",
+    "answer": "Birler basamağındaki rakamın basamak değeri ve sayı değeri her zaman aynıdır.",
+    "additionalInfo": "Örneğin, 123 sayısında 3'ün basamak değeri de 3, sayı değeri de 3'tür.",
+    "id": "flash_1776014513078_17",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "ABC üç basamaklı bir sayısının çözümlenmiş hali nasıldır?",
+    "answer": "100A + 10B + C",
+    "additionalInfo": "A, B, C birer rakamdır ve A ≠ 0'dır.",
+    "id": "flash_1776014513078_18",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "AB iki basamaklı sayısının çözümlenmiş hali nasıldır?",
+    "answer": "10A + B",
+    "additionalInfo": "A ve B birer rakamdır ve A ≠ 0'dır.",
+    "id": "flash_1776014513078_19",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "ABCD dört basamaklı sayısının çözümlenmiş hali nasıldır?",
+    "answer": "1000A + 100B + 10C + D",
+    "additionalInfo": "A, B, C, D birer rakamdır ve A ≠ 0'dır.",
+    "id": "flash_1776014513078_20",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Bir sayının rakamları toplamı ile sayı değeri toplamı aynı mıdır?",
+    "answer": "Evet, aynıdır. Rakamları toplamı, aslında her bir rakamın sayı değerinin toplamıdır.",
+    "additionalInfo": "Örn: 234 sayısının rakamları toplamı 2+3+4=9'dur.",
+    "id": "flash_1776014513078_21",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Bir sayının basamak değerleri toplamı neye eşittir?",
+    "answer": "Sayının kendisine eşittir.",
+    "additionalInfo": "Örn: 234 = 200 + 30 + 4 (basamak değerleri toplamı).",
+    "id": "flash_1776014513078_22",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "a, b, c birbirinden farklı rakamlar olmak üzere, yazılabilecek en küçük üç basamaklı sayı kaçtır?",
+    "answer": "102",
+    "additionalInfo": "Yüzler basamağına 0 gelemez. En küçük rakamları kullanmalısınız.",
+    "id": "flash_1776014513078_23",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "a, b, c farklı rakamlar olmak üzere, yazılabilecek en büyük üç basamaklı sayı kaçtır?",
+    "answer": "987",
+    "additionalInfo": "En büyük rakamları azalan sırayla kullanmalısınız.",
+    "id": "flash_1776014513078_24",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "İki basamaklı en büyük doğal sayı kaçtır?",
+    "answer": "99",
+    "additionalInfo": "Rakamları farklı denmediği için 99'dur.",
+    "id": "flash_1776014513078_25",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "İki basamaklı en küçük doğal sayı kaçtır?",
+    "answer": "10",
+    "additionalInfo": "Doğal sayılar 0'dan başlar ancak iki basamaklı olması için 10'dur.",
+    "id": "flash_1776014513078_26",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Ardışık tam sayılar arasındaki fark kaçtır?",
+    "answer": "1",
+    "additionalInfo": "Örn: 5 ve 6 ardışık tam sayılardır.",
+    "id": "flash_1776014513078_27",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Ardışık çift sayılar arasındaki fark kaçtır?",
+    "answer": "2",
+    "additionalInfo": "Örn: 8 ve 10 ardışık çift sayılardır.",
+    "id": "flash_1776014513078_28",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Ardışık tek sayılar arasındaki fark kaçtır?",
+    "answer": "2",
+    "additionalInfo": "Örn: 7 ve 9 ardışık tek sayılardır.",
+    "id": "flash_1776014513078_29",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Pozitif sayılar kümesi için 'en küçük' veya 'en büyük' eleman var mıdır?",
+    "answer": "En küçük pozitif tam sayı 1'dir. En büyük pozitif sayı yoktur.",
+    "additionalInfo": "Pozitif reel sayılarda 'en küçük' bir eleman tanımlanamaz.",
+    "id": "flash_1776014513078_30",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Negatif sayılar kümesi için 'en küçük' veya 'en büyük' eleman var mıdır?",
+    "answer": "En büyük negatif tam sayı -1'dir. En küçük negatif sayı yoktur.",
+    "additionalInfo": "Negatif reel sayılarda 'en büyük' bir eleman tanımlanamaz.",
+    "id": "flash_1776014513078_31",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Asal sayı nedir?",
+    "answer": "1'den büyük, 1 ve kendisinden başka pozitif tam böleni olmayan sayılardır.",
+    "additionalInfo": "En küçük asal sayı 2'dir ve tek çift asal sayıdır.",
+    "id": "flash_1776014513078_32",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "En küçük asal sayı kaçtır?",
+    "answer": "2",
+    "additionalInfo": "2 dışındaki tüm asal sayılar tektir.",
+    "id": "flash_1776014513078_33",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "1 sayısı asal mıdır?",
+    "answer": "Hayır, 1 asal sayı değildir.",
+    "additionalInfo": "Asal sayılar tanım gereği 1'den büyük olmalıdır.",
+    "id": "flash_1776014513078_34",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "A bir rakam olmak üzere, AA iki basamaklı sayısının çözümlenmiş hali nedir?",
+    "answer": "10A + A = 11A",
+    "additionalInfo": "Örn: 77 = 11 * 7.",
+    "id": "flash_1776014513078_35",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "ABC üç basamaklı sayısında A rakamı 2 artırılır, C rakamı 3 azaltılırsa sayı nasıl değişir?",
+    "answer": "Sayı 200 artar, 3 azalır; yani toplamda 197 artar.",
+    "additionalInfo": "Yüzler basamağı 100 ile, birler basamağı 1 ile çarpılır.",
+    "id": "flash_1776014513078_36",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "AB iki basamaklı sayısının rakamları yer değiştirildiğinde oluşan yeni sayı nedir?",
+    "answer": "BA",
+    "additionalInfo": "AB = 10A + B iken BA = 10B + A olur.",
+    "id": "flash_1776014513078_37",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "AB iki basamaklı sayısı ile BA iki basamaklı sayısının toplamı kaçtır?",
+    "answer": "(10A + B) + (10B + A) = 11A + 11B = 11(A + B)",
+    "additionalInfo": "Rakamları toplamının 11 katıdır.",
+    "id": "flash_1776014513078_38",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "AB iki basamaklı sayısı ile BA iki basamaklı sayısının farkı (AB > BA ise) kaçtır?",
+    "answer": "(10A + B) - (10B + A) = 9A - 9B = 9(A - B)",
+    "additionalInfo": "Rakamları farkının 9 katıdır.",
+    "id": "flash_1776014513078_39",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Bir sayının basamak değerleri ile sayı değerleri arasında nasıl bir ilişki vardır?",
+    "answer": "Basamak değeri = Sayı değeri × Basamak çarpanı (1, 10, 100, ...).",
+    "additionalInfo": "Birler basamağı dışındaki tüm basamaklarda bu fark belirgindir.",
+    "id": "flash_1776014513078_40",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Üç basamaklı en küçük tek doğal sayı kaçtır?",
+    "answer": "101",
+    "additionalInfo": "En küçük üç basamaklı sayı 100'dür, tek olması için bir artırılır.",
+    "id": "flash_1776014513078_41",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Üç basamaklı en büyük çift tam sayı kaçtır?",
+    "answer": "998",
+    "additionalInfo": "En büyük üç basamaklı sayı 999'dur, çift olması için bir azaltılır.",
+    "id": "flash_1776014513078_42",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Negatif tam sayılarda en küçük rakam nedir?",
+    "answer": "Negatif tam sayılarda tek bir 'rakam' kavramı yoktur, rakamlar 0-9 arasındadır.",
+    "additionalInfo": "Soru, 'negatif tam sayılarda en küçük değer' olarak düşünülürse, böyle bir sayı yoktur.",
+    "id": "flash_1776014513078_43",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Rakamları farklı iki basamaklı en büyük çift sayı kaçtır?",
+    "answer": "98",
+    "additionalInfo": "En büyük rakam 9, ikinci en büyük çift rakam 8'dir.",
+    "id": "flash_1776014513078_44",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Rakamları farklı üç basamaklı en küçük tek sayı kaçtır?",
+    "answer": "103",
+    "additionalInfo": "Yüzler basamağı 1, onlar basamağı 0, birler basamağı tek ve küçük olması için 3.",
+    "id": "flash_1776014513078_45",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Yüzde birler basamağı nedir?",
+    "answer": "Ondalık sayılarda virgülden sonraki ikinci basamaktır.",
+    "additionalInfo": "Örn: 0.123 sayısında 2'nin bulunduğu basamak.",
+    "id": "flash_1776014513078_46",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Binde birler basamağı nedir?",
+    "answer": "Ondalık sayılarda virgülden sonraki üçüncü basamaktır.",
+    "additionalInfo": "Örn: 0.123 sayısında 3'ün bulunduğu basamak.",
+    "id": "flash_1776014513078_47",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "Basamak değeri 0 olan rakam hangisidir?",
+    "answer": "Sıfır (0) rakamının basamak değeri her zaman 0'dır.",
+    "additionalInfo": "0'ın bulunduğu basamağın değerini değiştirmez.",
+    "id": "flash_1776014513078_48",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "x, y, z birer rakam olmak üzere en büyük x+y+z toplamı kaçtır?",
+    "answer": "9+8+7 = 24 (rakamlar farklı ise)",
+    "additionalInfo": "Rakamlar farklı denmezse 9+9+9=27'dir.",
+    "id": "flash_1776014513078_49",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "question": "x, y, z farklı rakamlar olmak üzere en küçük x+y+z toplamı kaçtır?",
+    "answer": "0+1+2 = 3",
+    "additionalInfo": "Rakamlar 0'dan başlar.",
+    "id": "flash_1776014513078_50",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:19.988Z"
+  }
+]

@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "karekok",
+    "term": "Karekök",
+    "definition": "Bir sayının karesinin kendisine eşit olduğu pozitif ondalık sayıdır. KPSS'de √ işaretiyle gösterilir ve temel sadeleştirme işlemlerinde kullanılır. Negatif sayıların reel karekökü yoktur.",
+    "examples": [
+      "√9 = 3, çünkü 3²=9.",
+      "√16=4.",
+      "√(-4) reel değildir."
+    ],
+    "relatedTerms": [
+      "n_inci_kok",
+      "sade_koklu_sayi",
+      "tam_sayi_karekoku"
+    ],
+    "order": 1
+  },
+  {
+    "id": "n_inci_kok",
+    "term": "n'inci Kök",
+    "definition": "Bir sayının n'inci üssünün kendisine eşit olduğu sayıdır. KPSS'de ⁿ√a şeklinde yazılır ve tek n için negatiflerde tanımlıdır. Çift n için pozitif sonuç alınır.",
+    "examples": [
+      "²√9=3.",
+      "³√8=2.",
+      "³√(-27)=-3."
+    ],
+    "relatedTerms": [
+      "karekok",
+      "ucuncu_kok",
+      "karekok_sadeleştirme"
+    ],
+    "order": 2
+  },
+  {
+    "id": "sade_koklu_sayi",
+    "term": "Sade Köklü Sayı",
+    "definition": "Kökünde tam kare veya tam küp gibi mükemmel üslü sayı olmayan köklü sayıdır. KPSS'de sadeleştirme sonrası elde edilir ve işlemler için standart haldir.",
+    "examples": [
+      "√12 sade değildir, √3 sade köklüdür.",
+      "³√16 sade köklüdür."
+    ],
+    "relatedTerms": [
+      "karekok_sadeleştirme",
+      "tam_sayi_karekoku",
+      "rasyonellestirme"
+    ],
+    "order": 3
+  },
+  {
+    "id": "tam_sayi_karekoku",
+    "term": "Tam Sayı Karekökü",
+    "definition": "Karekökü tam sayı olan sayıdır. KPSS'de mükemmel kareler (1,4,9,16,...) olarak sorulur ve sade köklü tanımlarında kullanılır.",
+    "examples": [
+      "9 tam sayı kareköküne sahiptir (3).",
+      "25'in karekökü 5'tir."
+    ],
+    "relatedTerms": [
+      "karekok",
+      "sade_koklu_sayi",
+      "mukkemmel_kare"
+    ],
+    "order": 4
+  },
+  {
+    "id": "karekok_sadeleştirme",
+    "term": "Karekök Sadeleştirme",
+    "definition": "Kök içindeki tam kareleri dışarı çıkararak sadeleştirmedir. KPSS'de √(a²b)=a√b formülüyle yapılır.",
+    "examples": [
+      "√50=5√2.",
+      "√72=6√2."
+    ],
+    "relatedTerms": [
+      "sade_koklu_sayi",
+      "koklu_sayilarin_carpimi",
+      "tam_sayi_karekoku"
+    ],
+    "order": 5
+  },
+  {
+    "id": "koklu_sayilarin_carpimi",
+    "term": "Köklü Sayıların Çarpımı",
+    "definition": "Aynı indekste √a * √b = √(a*b) kuralıyla çarpılır. KPSS'de sadeleştirmeden önce çarpma yapılır.",
+    "examples": [
+      "√2 * √8 = √16=4.",
+      "√3 * √12=√36=6."
+    ],
+    "relatedTerms": [
+      "karekok_sadeleştirme",
+      "koklu_sayilarin_bolumu",
+      "benzer_koklu_sayilar"
+    ],
+    "order": 6
+  },
+  {
+    "id": "koklu_sayilarin_bolumu",
+    "term": "Köklü Sayıların Bölümü",
+    "definition": "√a / √b = √(a/b) kuralıyla bölünür, b≠0. KPSS'de rasyonelleştirme ile kullanılır.",
+    "examples": [
+      "√18 / √2 = √9=3.",
+      "√50 / √2=5√2."
+    ],
+    "relatedTerms": [
+      "rasyonellestirme",
+      "koklu_sayilarin_carpimi",
+      "benzer_koklu_sayilar"
+    ],
+    "order": 7
+  },
+  {
+    "id": "benzer_koklu_sayilar",
+    "term": "Benzer Köklü Sayılar",
+    "definition": "İndeks ve katsayıları aynı olan köklü sayılardır. KPSS'de toplama-çıkarmada doğrudan işlenir.",
+    "examples": [
+      "3√2 ve 5√2 benzerdir.",
+      "2³√3 ve -4³√3 benzerdir."
+    ],
+    "relatedTerms": [
+      "koklu_sayilarin_carpimi",
+      "koklu_sayilarin_bolumu",
+      "kok_toplamasi"
+    ],
+    "order": 8
+  },
+  {
+    "id": "rasyonellestirme",
+    "term": "Rasyonelleştirme",
+    "definition": "Payda köklü ifadeyi tam sayı yapmak için pay ile payda çarpılır. KPSS'de √a / √b = (√a * √b)/b formu kullanılır.",
+    "examples": [
+      "(√5 + √3)/(√5 - √3) = (√5 + √3)² / (5-3).",
+      "1/√2 = √2/2."
+    ],
+    "relatedTerms": [
+      "koklu_sayilarin_bolumu",
+      "denk_koklu_ifadeler",
+      "ucuncu_kok"
+    ],
+    "order": 9
+  },
+  {
+    "id": "denk_koklu_ifadeler",
+    "term": "Denk Köklü İfadeler",
+    "definition": "Farklı yazımla aynı değere sahip köklü ifadelerdir. KPSS'de √(a/b) = √a / √b eşitliği sorulur.",
+    "examples": [
+      "√(9/4)=3/2=√9/√4.",
+      "⁴√16=²√4=2."
+    ],
+    "relatedTerms": [
+      "rasyonellestirme",
+      "kok_ici_kok",
+      "uslu_koklu_ifadeler"
+    ],
+    "order": 10
+  },
+  {
+    "id": "kok_ici_kok",
+    "term": "Kök İçi Kök",
+    "definition": "Bir kökün içinde başka kök içeren ifadelerdir. KPSS'de sadeleştirme ve denk yazım için kullanılır.",
+    "examples": [
+      "√(√8)=⁴√(2²)=√2.",
+      "√(√18)=³√(√2)."
+    ],
+    "relatedTerms": [
+      "denk_koklu_ifadeler",
+      "n_inci_kok",
+      "uslu_koklu_ifadeler"
+    ],
+    "order": 11
+  },
+  {
+    "id": "uslu_koklu_ifadeler",
+    "term": "Üslü Köklü İfadeler",
+    "definition": "(√a)^n = a^(n/2) ve (a^m)^(1/n)=a^(m/n) kurallarıyla dönüştürülür. KPSS'de üs-kök dönüşümü sorulur.",
+    "examples": [
+      "(√4)^3=2^3=8.",
+      "(2^6)^(1/3)=2^2=4."
+    ],
+    "relatedTerms": [
+      "kok_ici_kok",
+      "denk_koklu_ifadeler",
+      "ucuncu_kok"
+    ],
+    "order": 12
+  },
+  {
+    "id": "ucuncu_kok",
+    "term": "Üçüncü Kök",
+    "definition": "Bir sayının küpünün kendisine eşit olduğu sayıdır. KPSS'de ³√a ve negatiflerde tanımlıdır.",
+    "examples": [
+      "³√27=3.",
+      "³√(-8)=-2."
+    ],
+    "relatedTerms": [
+      "n_inci_kok",
+      "uslu_koklu_ifadeler",
+      "rasyonellestirme"
+    ],
+    "order": 13
+  },
+  {
+    "id": "kok_toplamasi",
+    "term": "Köklü Sayıların Toplama-Çıkarma",
+    "definition": "Sadece benzer köklülerde katsayılar toplanır/çıkarılır. KPSS'de farklı kökler toplanmaz.",
+    "examples": [
+      "3√2 + 5√2=8√2.",
+      "4√3 - √3=3√3."
+    ],
+    "relatedTerms": [
+      "benzer_koklu_sayilar",
+      "karekok_sadeleştirme",
+      "koklu_denklmeler"
+    ],
+    "order": 14
+  },
+  {
+    "id": "mukkemmel_kare",
+    "term": "Mükemmel Kare",
+    "definition": "Tam sayı kareköküne sahip sayıdır. KPSS'de sadeleştirmede kök dışına çıkarılır.",
+    "examples": [
+      "36 mükemmel karedir (6²).",
+      "49=7² mükemmel karedir."
+    ],
+    "relatedTerms": [
+      "tam_sayi_karekoku",
+      "karekok_sadeleştirme",
+      "sade_koklu_sayi"
+    ],
+    "order": 15
+  },
+  {
+    "id": "kupkok",
+    "term": "Küpkök",
+    "definition": "Bir sayının küpkökü, o sayıyı küpü ile veren sayıdır. ∛a şeklinde gösterilir ve her gerçek sayı için tanımlıdır.",
+    "examples": [
+      "∛8=2, çünkü 2³=8.",
+      "∛(-27)=-3."
+    ],
+    "relatedTerms": [
+      "Karekök",
+      "n_inci_kok",
+      "tam_kok"
+    ],
+    "order": 16
+  },
+  {
+    "id": "radyand",
+    "term": "Radyand",
+    "definition": "Kök işaretinin altında kalan sayıdır. √a'da a radyanddır.",
+    "examples": [
+      "√12'de 12 radyand.",
+      "∛27'de 27 radyand."
+    ],
+    "relatedTerms": [
+      "Karekök",
+      "indis",
+      "sade_kok"
+    ],
+    "order": 17
+  },
+  {
+    "id": "indis",
+    "term": "İndis",
+    "definition": "Kökün türünü belirten üst indekstir. √a = ²√a'da 2 indisdir.",
+    "examples": [
+      "³√8'de 3 indis.",
+      "⁴√81'de 4 indis."
+    ],
+    "relatedTerms": [
+      "n_inci_kok",
+      "radyand",
+      "uslu_koklu_donusumu"
+    ],
+    "order": 18
+  },
+  {
+    "id": "tam_kok",
+    "term": "Tam Kök",
+    "definition": "Radyandı tam bir üsse sahip tam sayı veren köktür. Sade bir tam sayı sonucudur.",
+    "examples": [
+      "√16=4 tam kareköktür.",
+      "∛64=4 tam küpkök."
+    ],
+    "relatedTerms": [
+      "Karekök",
+      "Küpkök",
+      "sade_kok"
+    ],
+    "order": 19
+  },
+  {
+    "id": "sade_kok",
+    "term": "Sadeleştirilmiş Kök",
+    "definition": "Radyandındaki tam sayı faktörler kök dışına çıkarılır. √(a*b²)=b√a şeklinde sadeleşir.",
+    "examples": [
+      "√50=5√2.",
+      "√72=6√2."
+    ],
+    "relatedTerms": [
+      "tam_kok",
+      "radyand",
+      "benzer_koklu_ifadeler"
+    ],
+    "order": 20
+  },
+  {
+    "id": "benzer_koklu_ifadeler",
+    "term": "Benzer Köklü İfadeler",
+    "definition": "Aynı indis ve sade kök içeren ifadelerdir. Toplama-çıkarma için benzer olmalıdırlar.",
+    "examples": [
+      "3√2 ve 5√2 benzerdir.",
+      "√3 ve √2 benzer değildir."
+    ],
+    "relatedTerms": [
+      "sade_kok",
+      "koklu_ifadelerin_toplanip_cikilmasi"
+    ],
+    "order": 21
+  },
+  {
+    "id": "koklu_ifadelerin_toplanip_cikilmasi",
+    "term": "Köklü İfadelerin Toplanıp Çıkılması",
+    "definition": "Sadece benzer köklü ifadeler toplanır veya çıkarılır. Farklı indisler ortak paydada birleştirilir.",
+    "examples": [
+      "3√2 + 5√2 = 8√2.",
+      "√8 - √18 = 2√2 - 3√2 = -√2."
+    ],
+    "relatedTerms": [
+      "benzer_koklu_ifadeler",
+      "sade_kok"
+    ],
+    "order": 22
+  },
+  {
+    "id": "koklu_ifadelerin_carpilmasi",
+    "term": "Köklü İfadelerin Çarpılması",
+    "definition": "√a * √b = √(a*b) ve (√a)^n = a^(n/2) kuralları kullanılır.",
+    "examples": [
+      "√3 * √12 = √36=6.",
+      "√2 * √8 = √16=4."
+    ],
+    "relatedTerms": [
+      "sade_kok",
+      "radyand",
+      "koklu_ifadelerin_bolinmesi"
+    ],
+    "order": 23
+  },
+  {
+    "id": "koklu_ifadelerin_bolinmesi",
+    "term": "Köklü İfadelerin Bölünmesi",
+    "definition": "√a / √b = √(a/b) kuralı geçerlidir, b≠0.",
+    "examples": [
+      "√18 / √2 = √9=3.",
+      "√(48/3)=√16=4."
+    ],
+    "relatedTerms": [
+      "koklu_ifadelerin_carpilmasi",
+      "payda_rasyonellestirme"
+    ],
+    "order": 24
+  },
+  {
+    "id": "payda_rasyonellestirme",
+    "term": "Paydanın Rasyonelleştirilmesi",
+    "definition": "Paydada kök varsa, uygun çarpanla kök paydadan atılır. (a/√b)*(√b/√b)=(a√b)/b.",
+    "examples": [
+      "1/√2 = √2/2.",
+      "(√3 +1)/√3 rasyonelleştirilir."
+    ],
+    "relatedTerms": [
+      "koklu_ifadelerin_bolinmesi",
+      "sade_kok"
+    ],
+    "order": 25
+  },
+  {
+    "id": "uslu_koklu_donusumu",
+    "term": "Üslü-Köklü Dönüşümü",
+    "definition": "ⁿ√a = a^(1/n) ve (a^m)^(1/n)=a^(m/n) eşitliğidir.",
+    "examples": [
+      "√9=9^(1/2)=3.",
+      "(8^(1/3))^2=4."
+    ],
+    "relatedTerms": [
+      "indis",
+      "n_inci_kok",
+      "kok_ici_kok"
+    ],
+    "order": 26
+  },
+  {
+    "id": "koklerin_karsilastirilmasi",
+    "term": "Köklerin Karşılaştırılması",
+    "definition": "Kökler üsleri eşitlenerek veya kareleme ile karşılaştırılır. √a > √b ise a>b (a,b>0).",
+    "examples": [
+      "√8 ? √18 → 8?18, √18>√8.",
+      "∛9 ? ∛8 →9>8."
+    ],
+    "relatedTerms": [
+      "karekok",
+      "benzer_koklu_ifadeler",
+      "tam_kok"
+    ],
+    "order": 27
+  },
+  {
+    "id": "koklu_sayi",
+    "term": "Köklü Sayı",
+    "definition": "Kök işareti altında bir sayı veya ifade içeren sayısal yapıdır. √a şeklinde yazılır ve KPSS'de sadeleştirme, işlemler ağırlıklı sorulur. İndis belirtilmezse 2 kabul edilir.",
+    "examples": [
+      "√16 = 4 (KPSS temel eşitlik).",
+      "√(x²) = |x| (mutlak değer sorusu)."
+    ],
+    "relatedTerms": [
+      "Radykal",
+      "Radikand",
+      "İndis",
+      "Kare Kök"
+    ],
+    "order": 28
+  },
+  {
+    "id": "radykal",
+    "term": "Radykal",
+    "definition": "Kök işaretini temsil eden semboldür. Köklü sayının tamamını kapsar ve KPSS'de ifadelerin yazımında kullanılır.",
+    "examples": [
+      "√9 radikaldir ve 3'e eşittir.",
+      "³√8 radikaldir."
+    ],
+    "relatedTerms": [
+      "Köklü Sayı",
+      "İndis",
+      "Radikand"
+    ],
+    "order": 29
+  },
+  {
+    "id": "radikand",
+    "term": "Radikand",
+    "definition": "Kök işareti altında kalan sayıdır. Sadeleştirme ve işlemlerde temel elemandır.",
+    "examples": [
+      "√16'da 16 radikanddır.",
+      "⁴√81'de 81 radikanddır."
+    ],
+    "relatedTerms": [
+      "Köklü Sayı",
+      "Sade Kök",
+      "Kok_sadeleştirme"
+    ],
+    "order": 30
+  },
+  {
+    "id": "kare_kok",
+    "term": "Kare Kök",
+    "definition": "İndisi 2 olan köktür, √ işaretiyle gösterilir. Tam sayıların kare kökleri KPSS'de ezberlenir.",
+    "examples": [
+      "√25 = 5.",
+      "√(1/4) = 1/2 (kesir sorusu)."
+    ],
+    "relatedTerms": [
+      "Köklü Sayı",
+      "İndis",
+      "Tam Kusuratli Kok"
+    ],
+    "order": 31
+  },
+  {
+    "id": "kup_kok",
+    "term": "Küp Kök",
+    "definition": "İndisi 3 olan köktür, ³√ ile gösterilir. KPSS'de hacim ve tam küsurat sorularında çıkar.",
+    "examples": [
+      "³√8 = 2.",
+      "³√(-27) = -3 (negatif kök)."
+    ],
+    "relatedTerms": [
+      "İndis",
+      "n_inci_kok",
+      "Tam Kusuratli Kok"
+    ],
+    "order": 32
+  },
+  {
+    "id": "kok_sadeleştirme",
+    "term": "Köklü Sayıların Sadeleştirilmesi",
+    "definition": "Radikandın tam bölen faktörlerini dışarı çıkarıp sade kök elde etmektir. KPSS'de zorunlu adımdır.",
+    "examples": [
+      "√18 = √(9*2) = 3√2.",
+      "√75 = 5√3."
+    ],
+    "relatedTerms": [
+      "Sade Kök",
+      "Radikand",
+      "Tam Kusuratli Kok"
+    ],
+    "order": 33
+  },
+  {
+    "id": "kok_top_cik",
+    "term": "Köklü Sayıların Toplanması ve Çıkarılması",
+    "definition": "Sadece benzer köklü sayılar toplanır veya çıkarılır. Farklı kökler toplanamaz.",
+    "examples": [
+      "2√3 + 4√3 = 6√3.",
+      "√2 + √8 = √2 + 2√2 = 3√2."
+    ],
+    "relatedTerms": [
+      "Benzer Köklü Sayılar",
+      "Sadeleştirme"
+    ],
+    "order": 34
+  },
+  {
+    "id": "kok_carpma",
+    "term": "Köklü Sayıların Çarpılması",
+    "definition": "√a * √b = √(a*b) kuralıyla çarpılır. Farklı indislerde ortak indis bulunur.",
+    "examples": [
+      "√2 * √8 = √16 = 4.",
+      "√3 * √12 = √36 = 6."
+    ],
+    "order": 35
+  },
+  {
+    "id": "kok_bolme",
+    "term": "Köklü Sayıların Bölünmesi",
+    "definition": "√a / √b = √(a/b) kuralıyla bölünür. Sadeleştirmeden sonra uygulanır.",
+    "examples": [
+      "√18 / √2 = √9 = 3.",
+      "√50 / √2 = √25 = 5."
+    ],
+    "relatedTerms": [
+      "Kok_carpma",
+      "Rasyonalizasyon"
+    ],
+    "order": 36
+  },
+  {
+    "id": "rasyonalizasyon",
+    "term": "Rasyonalizasyon",
+    "definition": "Kökü payda veya paydayan dışarı taşıma işlemidir. KPSS'de payda kökünü kaldırma sorularında şarttır.",
+    "examples": [
+      "1/√2 = √2/2.",
+      "(√3 + √2)/(√3 - √2) rasyonalize edilir."
+    ],
+    "relatedTerms": [
+      "Kok_bolme",
+      "Benzer Kokler"
+    ],
+    "order": 37
+  },
+  {
+    "id": "uslu_koklu_donusum",
+    "term": "Üslü-Köklü İfadeler Arası Dönüşüm",
+    "definition": "ⁿ√a = a^(1/n), (a^m)^(1/n) = a^(m/n) eşitlikleridir. KPSS üslü denklem sorularında kullanılır.",
+    "examples": [
+      "√x = x^(1/2).",
+      "⁴√(x^3) = x^(3/4)."
+    ],
+    "relatedTerms": [
+      "n_inci_kok",
+      "Kare Kök",
+      "İndis"
+    ],
+    "order": 38
+  },
+  {
+    "id": "kok_carpimi",
+    "term": "Kök Çarpımı",
+    "definition": "Aynı dereceli köklerin çarpımı, kök içine radicandların çarpımı alınarak yapılır. Farklı kökler çarpılırsa kökler ayrık kalır. KPSS'de sadeleştirme için sık sorulur.",
+    "examples": [
+      "√8 * √2 = √16 = 4.",
+      "√(a*b) = √a * √b (a,b ≥ 0)."
+    ],
+    "relatedTerms": [
+      "Kök Bölümü",
+      "Sadeleştirilmiş Kök",
+      "Rasyonelleştirme"
+    ],
+    "order": 39
+  },
+  {
+    "id": "kok_bolumu",
+    "term": "Kök Bölümü",
+    "definition": "Aynı dereceli köklerin bölümü, kök içine radicandların bölümünü alır. Payda köklüyse rasyonelleştirme yapılır. Sınavda işlem basitleştirmede kullanılır.",
+    "examples": [
+      "√18 / √2 = √9 = 3.",
+      "√(a/b) = √a / √b (b ≠ 0)."
+    ],
+    "relatedTerms": [
+      "Kök Çarpımı",
+      "Rasyonelleştirme",
+      "Sadeleştirilmiş Kök"
+    ],
+    "order": 40
+  },
+  {
+    "id": "konjugat_cift",
+    "term": "Konjugat Çift",
+    "definition": "a + √b ve a - √b şeklinde kök içeren ifadelerin farkıdır, fark kareleri kök içermez. Rasyonelleştirmede kullanılır. Sınavda işlem hızlandırma için bilinir.",
+    "examples": [
+      "(2 + √3)(2 - √3) = 4 - 3 = 1.",
+      "(√a + b)(√a - b) = a - b²."
+    ],
+    "relatedTerms": [
+      "Rasyonelleştirme",
+      "Kök Çarpımı",
+      "Tam Kare Kök"
+    ],
+    "order": 41
+  },
+  {
+    "id": "farkli_dereceli_kokler",
+    "term": "Farklı Dereceli Kökler",
+    "definition": "Üsleri eşitlemek için en küçük ortak kat alınır, örneğin ∛a = a^(1/3). KPSS'de denklem ve işlem sorularında eşitlik için dönüştürülür.",
+    "examples": [
+      "√(∛8) = 8^(1/2 * 1/3) = 8^(1/6).",
+      "⁴√16 / ∛8 = (2^4)^(1/4) / 2 = 2 / 2 = 1."
+    ],
+    "relatedTerms": [
+      "Kök Çarpımı",
+      "Üs-Kök İlişkisi",
+      "Sadeleştirilmiş Kök"
+    ],
+    "order": 42
+  },
+  {
+    "id": "pozitif_karekök",
+    "term": "Pozitif Karekök",
+    "definition": "Karekök sembolü √ ile ifade edilen kökün her zaman pozitif veya sıfır değer aldığı kavramdır. KPSS'de köklü ifadelerin işaretini doğru belirlemek için zorunludur.",
+    "examples": [
+      "√16 = 4 (pozitif değer alınır).",
+      "√0 = 0."
+    ],
+    "relatedTerms": [
+      "Kare Kök",
+      "Tam Sayı Karekökü"
+    ],
+    "order": 43
+  },
+  {
+    "id": "kökün_tekliği",
+    "term": "Kökün Tekliği",
+    "definition": "Her pozitif gerçek sayıdan benzersiz bir pozitif karekök çıktığı özelliktir. KPSS soruları denk köklü ifadeleri ayırt etmede kullanılır.",
+    "examples": [
+      "√9 = 3 (tek çözüm)."
+    ],
+    "relatedTerms": [
+      "Denk Köklü İfadeler",
+      "Tam Kök"
+    ],
+    "order": 44
+  },
+  {
+    "id": "negatif_radikand",
+    "term": "Negatif Radikand",
+    "definition": "Karekök içinde negatif sayı bulunduğunda gerçek sayılarda tanımsız olmasıdır. KPSS'de işlem hatalarını önlemek için bilinmesi şarttır.",
+    "examples": [
+      "√(-25) gerçek sayılarda tanımsızdır."
+    ],
+    "relatedTerms": [
+      "Radikand",
+      "Kare Kök"
+    ],
+    "order": 45
+  },
+  {
+    "id": "kök_yaklaşık_değeri",
+    "term": "Kök Yaklaşık Değeri",
+    "definition": "Köklü sayıların ondalık tam sayılara yuvarlanmış değerleridir. KPSS'de büyüklük karşılaştırmalarında sıkça kullanılır.",
+    "examples": [
+      "√2 ≈ 1,41.",
+      "√10 ≈ 3,16."
+    ],
+    "relatedTerms": [
+      "Köklerin Karşılaştırılması",
+      "Kök Tablosu"
+    ],
+    "order": 46
+  },
+  {
+    "id": "temel_kök_tablosu",
+    "term": "Temel Kök Tablosu",
+    "definition": "Sık kullanılan köklü sayıların (√2, √3 vb.) yaklaşık değerlerinin ezber tablosudur. KPSS hesaplamalarında zaman kazandırır.",
+    "examples": [
+      "√2 ≈ 1,41; √3 ≈ 1,73; √5 ≈ 2,24."
+    ],
+    "relatedTerms": [
+      "Kök Yaklaşık Değeri",
+      "Köklerin Karşılaştırılması"
+    ],
+    "order": 47
+  },
+  {
+    "id": "kökün_artan_özelliği",
+    "term": "Kökün Artan Özelliği",
+    "definition": "Radikand arttıkça karekök değerinin de arttığı monoton artan özelliktir. KPSS'de eşitsizlik çözümlerinde uygulanır.",
+    "examples": [
+      "√8 > √4 çünkü 8 > 4."
+    ],
+    "relatedTerms": [
+      "Köklerin Karşılaştırılması",
+      "Benzer Köklü Sayılar"
+    ],
+    "order": 48
+  },
+  {
+    "id": "kök_içi_kesir",
+    "term": "Kök İçi Kesir",
+    "definition": "Karekök içinde kesir bulunduğunda pay ve payda ayrı ayrı sadeleştirilerek basitleştirilir. KPSS'de sadeleştirme sorularında karşımıza çıkar.",
+    "examples": [
+      "√(4/9) = 2/3."
+    ],
+    "relatedTerms": [
+      "Karekök Sadeleştirme",
+      "Sade Köklü Sayı"
+    ],
+    "order": 49
+  },
+  {
+    "id": "köklü_mutlak_değer",
+    "term": "Köklü Mutlak Değer",
+    "definition": "Köklü ifadelerin mutlak değerinin her zaman pozitif karekök olarak alınmasıdır. KPSS'de işaretli ifadelerde kullanılır.",
+    "examples": [
+      "|√4| = 2.",
+      "√(x²) = |x|."
+    ],
+    "relatedTerms": [
+      "Pozitif Karekök",
+      "Mükemmel Kare"
+    ],
+    "order": 50
+  },
+  {
+    "id": "kok_disina_cikarma",
+    "term": "Kök Dışına Çıkarma",
+    "definition": "Kök içindeki bir sayının, kök derecesine uygun üsleri olan çarpanlarının kök dışına çıkarılması işlemidir. Bu, köklü ifadenin daha basit bir biçimde yazılmasını sağlar ve genellikle köklü sayılarla yapılan işlemlerde ilk adımdır.",
+    "examples": [
+      "√12 = √(4*3) = 2√3",
+      "³√54 = ³√(27*2) = 3³√2"
+    ],
+    "relatedTerms": [
+      "Sadeleştirilmiş Kök",
+      "Mükemmel Kare",
+      "Üslü-Köklü Dönüşümü"
+    ],
+    "order": 51
+  },
+  {
+    "id": "kok_derecesi_genisletme",
+    "term": "Kök Derecesi Genişletme",
+    "definition": "Farklı derecelere sahip köklü ifadeleri karşılaştırmak veya çarpmak/bölmek için kök derecelerinin eşitlenmesi işlemidir. Kök derecesi ve kök içindeki sayının üssü aynı oranda çarpılarak veya bölünerek yapılır.",
+    "examples": [
+      "√2 = ²√2 = ⁶√2³ = ⁶√8",
+      "³√3 = ⁶√3² = ⁶√9"
+    ],
+    "relatedTerms": [
+      "Köklerin Karşılaştırılması",
+      "Farklı Dereceli Kökler",
+      "Üslü-Köklü Dönüşümü"
+    ],
+    "order": 52
+  },
+  {
+    "id": "koklu_esitsizlikler",
+    "term": "Köklü Eşitsizlikler",
+    "definition": "Bilinmeyenin kök içinde bulunduğu eşitsizliklerdir. Çözüm kümesi bulunurken kök içindeki ifadenin tanım aralığına ve eşitsizliğin yönüne dikkat edilmelidir. Genellikle her iki tarafın karesi alınarak çözüme ulaşılır.",
+    "examples": [
+      "√(x-3) < 2",
+      "√(2x+1) ≥ 3"
+    ],
+    "relatedTerms": [
+      "Tanım Kümesi",
+      "Eşitsizlik Çözümü",
+      "Kökün Tekliği"
+    ],
+    "order": 53
+  },
+  {
+    "id": "koklu_denklemler",
+    "term": "Köklü Denklemler",
+    "definition": "Bilinmeyenin kök içinde yer aldığı denklemlerdir. Çözümde her iki tarafın karesi veya küpü alınarak kökten kurtulunur. Bulunan köklerin denklemi sağlayıp sağlamadığı kontrol edilmelidir.",
+    "examples": [
+      "√(x+1) = 3",
+      "³√(2x-1) = 2"
+    ],
+    "relatedTerms": [
+      "Denklem Çözümü",
+      "Kök Dışına Çıkarma",
+      "Sağlama"
+    ],
+    "order": 54
+  },
+  {
+    "id": "ardisik_kokler",
+    "term": "Ardışık Kökler",
+    "definition": "Bir köklü ifadenin içinde başka bir köklü ifadenin bulunması durumudur. Bu tür ifadeler tek bir kök altında birleştirilebilir. Kök dereceleri çarpılarak yeni kök derecesi elde edilir.",
+    "examples": [
+      "√(√2) = ⁴√2",
+      "³√(√5) = ⁶√5"
+    ],
+    "relatedTerms": [
+      "Kök İçi Kök",
+      "Üslü Köklü İfadeler",
+      "Kök Derecesi Genişletme"
+    ],
+    "order": 55
+  },
+  {
+    "id": "sonsuz_koklu_ifadeler",
+    "term": "Sonsuz Köklü İfadeler",
+    "definition": "Sonsuza kadar devam eden köklü toplama, çıkarma, çarpma veya bölme işlemlerini içeren ifadelerdir. Bu tür ifadeler genellikle 'x' değişkenine eşitlenerek bir denklem oluşturulur ve çözülür.",
+    "examples": [
+      "√(6+√(6+√(6+...)))",
+      "³√(24/√24/√24/...))"
+    ],
+    "relatedTerms": [
+      "Köklü Denklemler",
+      "Dizi ve Seri",
+      "Limit"
+    ],
+    "order": 56
+  },
+  {
+    "id": "koklu_ifadelerde_siralama",
+    "term": "Köklü İfadelerde Sıralama",
+    "definition": "Birden fazla köklü ifadenin büyüklüklerine göre küçükten büyüğe veya büyükten küçüğe doğru dizilmesidir. Sıralama yapabilmek için genellikle kök dereceleri eşitlenir veya kök içindeki sayılar aynı dereceye getirilir.",
+    "examples": [
+      "√2, ³√3, ⁴√4 ifadelerini sıralama",
+      "2√3, 3√2 ifadelerini sıralama"
+    ],
+    "relatedTerms": [
+      "Kök Derecesi Genişletme",
+      "Köklerin Karşılaştırılması",
+      "Üslü-Köklü Dönüşümü"
+    ],
+    "order": 57
+  },
+  {
+    "id": "koklu_ifadelerin_ussu",
+    "term": "Köklü İfadelerin Üssü",
+    "definition": "Bir köklü ifadenin belirli bir üsse yükseltilmesi işlemidir. Bu işlemde kök dışındaki sayı ve kök içindeki sayının üssü ayrı ayrı etkilenir. (√a)^n = a^(n/k) şeklinde ifade edilebilir.",
+    "examples": [
+      "(√3)² = 3",
+      "(³√2)⁶ = 2² = 4"
+    ],
+    "relatedTerms": [
+      "Üslü Köklü İfadeler",
+      "Üslü Sayılar",
+      "Kök Dışına Çıkarma"
+    ],
+    "order": 58
+  },
+  {
+    "id": "kok_icine_alma",
+    "term": "Kök İçine Alma",
+    "definition": "Kök dışındaki bir sayının, kök derecesine uygun olarak üssü alınarak kök içine dahil edilmesi işlemidir. Bu, genellikle köklü ifadelerin çarpma veya bölme işlemlerinde kolaylık sağlar.",
+    "examples": [
+      "2√3 = √(2²*3) = √12",
+      "3³√2 = ³√(3³*2) = ³√54"
+    ],
+    "relatedTerms": [
+      "Kök Dışına Çıkarma",
+      "Sadeleştirilmiş Kök",
+      "Üslü-Köklü Dönüşümü"
+    ],
+    "order": 59
+  },
+  {
+    "id": "koklu_ifadelerde_ozdeslikler",
+    "term": "Köklü İfadelerde Özdeşlikler",
+    "definition": "Köklü sayılarla ilgili cebirsel özdeşliklerin (tam kare, iki kare farkı vb.) uygulanmasıdır. Bu, karmaşık köklü ifadelerin basitleştirilmesine yardımcı olur ve işlem kolaylığı sağlar.",
+    "examples": [
+      "(√a + √b)² = a + b + 2√ab",
+      "(√a - √b)(√a + √b) = a - b"
+    ],
+    "relatedTerms": [
+      "Cebirsel Özdeşlikler",
+      "Paydanın Rasyonelleştirilmesi",
+      "Konjugat Çift"
+    ],
+    "order": 60
+  },
+  {
+    "id": "koklu_sayilarda_yaklasik_deger",
+    "term": "Köklü Sayılarda Yaklaşık Değer",
+    "definition": "Tam kare veya tam küp olmayan sayıların karekök veya küpkök değerlerinin tahmin edilmesidir. Bu, genellikle ardışık tam kareler veya tam küpler arasında bir değer bularak yapılır.",
+    "examples": [
+      "√10'un yaklaşık değeri (3 ile 4 arasında)",
+      "³√30'un yaklaşık değeri (3 ile 4 arasında)"
+    ],
+    "relatedTerms": [
+      "Kök Yaklaşık Değeri",
+      "Sayı Doğrusu",
+      "Tahmin"
+    ],
+    "order": 61
+  },
+  {
+    "id": "koklu_ifadelerde_islem_onceligi",
+    "term": "Köklü İfadelerde İşlem Önceliği",
+    "definition": "Birden fazla köklü işlemin bir arada bulunduğu durumlarda hangi işlemin önce yapılacağını belirleyen kurallar bütünüdür. Üslü sayılar ve parantezlerle benzer öncelik sıralamasına sahiptir.",
+    "examples": [
+      "2 + 3√4 işlemini yapma",
+      "5 * (√9 - 1) işlemini yapma"
+    ],
+    "relatedTerms": [
+      "İşlem Önceliği",
+      "Parantez",
+      "Üslü Sayılar"
+    ],
+    "order": 62
+  },
+  {
+    "id": "koklu_ifadelerin_tanim_araligi",
+    "term": "Köklü İfadelerin Tanım Aralığı",
+    "definition": "Bir köklü ifadenin reel sayılarda tanımlı olabilmesi için kök içindeki ifadenin alabileceği değerler kümesidir. Çift dereceli köklerde kök içi negatif olamazken, tek dereceli köklerde herhangi bir sınırlama yoktur.",
+    "examples": [
+      "√(x-5) ifadesinin tanım aralığı x ≥ 5",
+      "³√(x+2) ifadesinin tanım aralığı tüm reel sayılar"
+    ],
+    "relatedTerms": [
+      "Tanım Kümesi",
+      "Pozitif Karekök",
+      "Negatif Radikand"
+    ],
+    "order": 63
+  },
+  {
+    "id": "koklu_ifadelerde_sifir_olma_durumu",
+    "term": "Köklü İfadelerde Sıfır Olma Durumu",
+    "definition": "Bir köklü ifadenin sonucunun sıfır olması için kök içindeki ifadenin sıfıra eşit olması durumudur. Bu, özellikle denklemlerde çözüm bulmada kullanılır.",
+    "examples": [
+      "√x = 0 ise x = 0",
+      "√(x-2) = 0 ise x = 2"
+    ],
+    "relatedTerms": [
+      "Köklü Denklemler",
+      "Kökün Tekliği",
+      "Tanım Aralığı"
+    ],
+    "order": 64
+  },
+  {
+    "id": "koklu_ifadelerde_katsayi",
+    "term": "Köklü İfadelerde Katsayı",
+    "definition": "Bir köklü ifadenin önünde çarpım durumunda bulunan tam sayıdır. Köklü ifadelerle toplama, çıkarma, çarpma ve bölme işlemlerinde katsayılar önemli rol oynar.",
+    "examples": [
+      "3√5 ifadesinde 3 katsayıdır",
+      "2√7 + 4√7 = 6√7"
+    ],
+    "relatedTerms": [
+      "Benzer Köklü İfadeler",
+      "Kök Dışına Çıkarma",
+      "Köklü Sayıların Toplanması ve Çıkarılması"
+    ],
+    "order": 65
+  },
+  {
+    "id": "ic_ice_kokler",
+    "term": "İç İçe Kökler",
+    "definition": "Bir köklü ifadenin içinde başka bir köklü ifadenin bulunması durumudur. Bu tür ifadeler genellikle tek bir kök altında birleştirilerek veya özel formüller kullanılarak sadeleştirilir. Özellikle 'a ± 2√b' şeklindeki ifadeler önemlidir.",
+    "examples": [
+      "√(5 + 2√6) ifadesinin eşitini bulunuz.",
+      "³√(√64) ifadesini sadeleştiriniz."
+    ],
+    "relatedTerms": [
+      "Kök İçi Kök",
+      "Sadeleştirilmiş Kök",
+      "Kök Derecesi"
+    ],
+    "order": 66
+  },
+  {
+    "id": "sonsuz_kokler",
+    "term": "Sonsuz Kökler",
+    "definition": "Bir köklü ifadenin kendisini sonsuz kez tekrar etmesi durumudur. Bu tür ifadeler genellikle 'x = ...' şeklinde bir denkleme dönüştürülerek çözülür. Tekrar eden kısmın 'x'e eşit olduğu varsayılır.",
+    "examples": [
+      "√[6 + √(6 + √(6 + ...))] ifadesinin değerini bulunuz.",
+      "√[12 - √(12 - √(12 - ...))] ifadesinin sonucu nedir?"
+    ],
+    "relatedTerms": [
+      "Köklü Denklemler",
+      "Limit",
+      "Tekrar Eden İfadeler"
+    ],
+    "order": 67
+  },
+  {
+    "id": "koklu_sayilarin_yaklasik_degeri",
+    "term": "Köklü Sayıların Yaklaşık Değeri",
+    "definition": "Tam kare veya tam küp olmayan sayıların kök değerlerinin hangi tam sayılar arasında olduğunu veya yaklaşık olarak kaç olduğunu bulma işlemidir. Bu, kök içindeki sayının en yakın tam kare veya tam küp sayılarla karşılaştırılmasıyla yapılır.",
+    "examples": [
+      "√50 sayısının hangi iki tam sayı arasında olduğunu bulunuz.",
+      "³√100 sayısının yaklaşık değerini tahmin ediniz."
+    ],
+    "relatedTerms": [
+      "Kök Yaklaşık Değeri",
+      "Tam Kare",
+      "Tam Küp"
+    ],
+    "order": 68
+  },
+  {
+    "id": "koklu_ifadelerde_carpma_ve_bolme_ozellikleri",
+    "term": "Köklü İfadelerde Çarpma ve Bölme Özellikleri",
+    "definition": "Aynı dereceli köklü ifadeler çarpılırken veya bölünürken kök içindeki sayılar kendi aralarında çarpılır veya bölünür, kök derecesi değişmez. Farklı dereceli kökler için önce kök dereceleri eşitlenmelidir. ⁿ√a ⋅ ⁿ√b = ⁿ√(a⋅b) ve ⁿ√a / ⁿ√b = ⁿ√(a/b).",
+    "examples": [
+      "√2 ⋅ √8 ifadesinin sonucunu bulunuz.",
+      "³√54 / ³√2 ifadesini sadeleştiriniz."
+    ],
+    "relatedTerms": [
+      "Köklü İfadelerin Çarpılması",
+      "Köklü İfadelerin Bölünmesi",
+      "Kök Derecesi"
+    ],
+    "order": 69
+  },
+  {
+    "id": "koklu_ifadelerin_toplami_ve_farki",
+    "term": "Köklü İfadelerin Toplamı ve Farkı",
+    "definition": "Sadece kök dereceleri ve kök içleri aynı olan (benzer köklü) ifadeler toplanabilir veya çıkarılabilir. Kök dışındaki katsayılar kendi aralarında toplanır veya çıkarılır, köklü kısım aynen kalır. a√x ± b√x = (a ± b)√x.",
+    "examples": [
+      "3√5 + 2√5 - √5 ifadesinin eşitini bulunuz.",
+      "√18 + √8 - √2 ifadesini sadeleştiriniz."
+    ],
+    "relatedTerms": [
+      "Benzer Köklü İfadeler",
+      "Köklü Sayıların Toplama-Çıkarma",
+      "Sadeleştirilmiş Kök"
+    ],
+    "order": 70
+  },
+  {
+    "id": "koklu_ifadelerde_payda_rasyonellestirme",
+    "term": "Köklü İfadelerde Payda Rasyonelleştirme",
+    "definition": "Paydasında köklü ifade bulunan kesirleri, paydasını kökten kurtararak rasyonel bir sayı haline getirme işlemidir. Tek terimli köklü ifadeler için kendisiyle, iki terimli ifadeler için ise eşleniğiyle çarpılır.",
+    "examples": [
+      "1/√3 ifadesinin paydasını rasyonel yapınız.",
+      "2/(√5 - √2) ifadesinin paydasını rasyonel yapınız."
+    ],
+    "relatedTerms": [
+      "Rasyonalizasyon",
+      "Konjugat Çift",
+      "Köklü İfadelerin Çarpılması"
+    ],
+    "order": 71
+  },
+  {
+    "id": "koklu_ifadelerde_isaret_incelemesi",
+    "term": "Köklü İfadelerde İşaret İncelemesi",
+    "definition": "Köklü bir ifadenin sonucunun pozitif mi, negatif mi yoksa tanımsız mı olduğunu belirleme işlemidir. Çift dereceli köklerin içi negatif olamazken, tek dereceli köklerin içi her reel sayı olabilir. Pozitif karekök daima pozitiftir.",
+    "examples": [
+      "√(-4) ifadesi neden reel sayılarda tanımlı değildir?",
+      "³√(-8) ifadesinin işaretini belirleyiniz."
+    ],
+    "relatedTerms": [
+      "Tanım Kümesi",
+      "Negatif Radikand",
+      "Pozitif Karekök"
+    ],
+    "order": 72
+  },
+  {
+    "id": "koklu_ifadelerde_deger_araligi",
+    "term": "Köklü İfadelerde Değer Aralığı",
+    "definition": "Bir köklü ifadenin alabileceği en küçük ve en büyük değerleri veya belirli bir değişkene bağlı olarak hangi aralıkta değerler alabileceğini belirleme işlemidir. Özellikle eşitsizliklerin çözümünde ve fonksiyonların tanım kümelerinde önemlidir.",
+    "examples": [
+      "√(x-3) ifadesinin tanımlı olması için x'in değer aralığını bulunuz.",
+      "f(x) = √(25-x²) fonksiyonunun tanım kümesini belirleyiniz."
+    ],
+    "relatedTerms": [
+      "Tanım Aralığı",
+      "Köklü Eşitsizlikler",
+      "Fonksiyon Tanım Kümesi"
+    ],
+    "order": 73
+  },
+  {
+    "id": "koklu_ifadelerde_sadelestirme",
+    "term": "Köklü İfadelerde Sadeleştirme",
+    "definition": "Bir köklü ifadenin kök içindeki sayının tam kare veya tam küp çarpanlarını kök dışına çıkararak daha basit bir biçimde yazılması işlemidir. Bu, özellikle büyük sayılarla işlem yaparken veya denklemleri çözerken kolaylık sağlar.",
+    "examples": [
+      "√12 = √(4 * 3) = 2√3",
+      "³√54 = ³√(27 * 2) = 3³√2"
+    ],
+    "relatedTerms": [
+      "Kök Dışına Çıkarma",
+      "Kök İçine Alma",
+      "Kök Derecesi"
+    ],
+    "order": 74
+  },
+  {
+    "id": "koklu_ifadelerde_esitlik",
+    "term": "Köklü İfadelerde Eşitlik",
+    "definition": "İki köklü ifadenin birbirine eşit olabilmesi için, hem kök derecelerinin hem de kök içindeki sayıların (radikandların) birbirine eşit olması gerekir. Bu prensip, köklü denklemleri çözerken veya ifadeleri karşılaştırırken temel bir kuraldır.",
+    "examples": [
+      "√x = √9 ise x = 9'dur.",
+      "³√a = ³√b ise a = b'dir."
+    ],
+    "relatedTerms": [
+      "Köklü Denklemler",
+      "Kök Derecesi",
+      "Radikand"
+    ],
+    "order": 75
+  },
+  {
+    "id": "koklu_ifadelerde_taban_esitleme",
+    "term": "Köklü İfadelerde Taban Eşitleme",
+    "definition": "Farklı kök derecelerine sahip köklü ifadeleri karşılaştırmak, çarpmak veya bölmek için kök derecelerini ortak bir paydaya eşitleme işlemidir. Bu, üslü sayılardaki taban eşitlemeye benzer bir mantıkla çalışır.",
+    "examples": [
+      "√2 ve ³√3'ü karşılaştırmak için dereceleri 6'da eşitlenir: √2 = ⁶√2³ = ⁶√8 ve ³√3 = ⁶√3² = ⁶√9."
+    ],
+    "relatedTerms": [
+      "Farklı Dereceli Kökler",
+      "Kök Derecesi Genişletme",
+      "Köklü İfadelerde Sıralama"
+    ],
+    "order": 76
+  },
+  {
+    "id": "koklu_ifadelerde_tam_kare_yapma",
+    "term": "Köklü İfadelerde Tam Kare Yapma",
+    "definition": "Kök içindeki bir ifadeyi tam kare veya tam küp bir ifadeye dönüştürerek kökten tamamen veya kısmen kurtulma yöntemidir. Genellikle a ± 2√b veya benzeri ifadelerde kullanılır ve (√x ± √y)² açılımına benzetilir.",
+    "examples": [
+      "√(5 + 2√6) = √( (√3)² + (√2)² + 2√3√2 ) = √(√3 + √2)² = √3 + √2"
+    ],
+    "relatedTerms": [
+      "Kök Dışına Çıkarma",
+      "Özdeşlikler",
+      "Köklü İfadelerde Sadeleştirme"
+    ],
+    "order": 77
+  },
+  {
+    "id": "koklu_ifadelerde_tanimsizlik",
+    "term": "Köklü İfadelerde Tanımsızlık",
+    "definition": "Çift dereceli köklerin (karekök, dördüncü dereceden kök vb.) içerisine negatif bir sayı gelmesi durumunda ifadenin reel sayılarda tanımlı olmamasıdır. Tek dereceli köklerde ise kök içi her zaman tanımlıdır.",
+    "examples": [
+      "√(-4) ifadesi reel sayılarda tanımsızdır.",
+      "³√(-8) ifadesi reel sayılarda tanımlıdır ve -2'ye eşittir."
+    ],
+    "relatedTerms": [
+      "Tanım Aralığı",
+      "Negatif Radikand",
+      "Kökün Tekliği"
+    ],
+    "order": 78
+  },
+  {
+    "id": "koklu_ifadelerde_basit_esitlikler",
+    "term": "Köklü İfadelerde Basit Eşitlikler",
+    "definition": "Köklü ifadelerde karşılaşılan temel eşitlikler ve kurallar bütünüdür. Bu eşitlikler, köklü ifadelerle yapılan işlemlerde pratik çözümler sunar ve karmaşık ifadeleri basitleştirmek için kullanılır.",
+    "examples": [
+      "(√a)² = a (a ≥ 0)",
+      "√a * √a = a (a ≥ 0)"
+    ],
+    "relatedTerms": [
+      "Köklü İfadelerde Özdeşlikler",
+      "Kök Çarpımı",
+      "Köklü Denklemler"
+    ],
+    "order": 79
+  },
+  {
+    "id": "koklu_ifadelerde_deger_kumesi",
+    "term": "Köklü İfadelerde Değer Kümesi",
+    "definition": "Bir köklü ifadenin alabileceği tüm gerçek sayı değerlerinin kümesidir. Özellikle çift dereceli köklerin sonucu her zaman pozitif veya sıfır olacağı için bu durum değer kümesini etkiler.",
+    "examples": [
+      "f(x) = √x fonksiyonunun değer kümesi [0, ∞)'dur.",
+      "f(x) = -√x fonksiyonunun değer kümesi (-∞, 0]'dır."
+    ],
+    "relatedTerms": [
+      "Tanım Aralığı",
+      "Pozitif Karekök",
+      "Köklü Eşitsizlikler"
+    ],
+    "order": 80
+  }
+]

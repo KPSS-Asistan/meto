@@ -1,0 +1,162 @@
+[
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Kök",
+    "answer": "Sözcüğün anlamlı en küçük parçası",
+    "id": "match_1776015640931_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Yapım Eki",
+    "answer": "Sözcüğün anlamını veya türünü değiştiren ek",
+    "id": "match_1776015640931_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Çekim Eki",
+    "answer": "Sözcüğün anlamını değiştirmeyen ek",
+    "id": "match_1776015640931_3",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "İsim Kökü",
+    "answer": "Mak-mek mastar eki almayan kök",
+    "id": "match_1776015640931_4",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Fiil Kökü",
+    "answer": "Mak-mek mastar eki alabilen kök",
+    "id": "match_1776015640931_5",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Ortak Kök",
+    "answer": "Hem isim hem fiil olarak kullanılabilen kök",
+    "id": "match_1776015640931_6",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Sesteş Kök",
+    "answer": "Yazılışları aynı, anlamları tamamen farklı kök",
+    "id": "match_1776015640931_7",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Gövde",
+    "answer": "En az bir yapım eki almış sözcük",
+    "id": "match_1776015640931_8",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Basit Sözcük",
+    "answer": "Yapım eki almamış sözcük",
+    "id": "match_1776015640931_9",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Türemiş Sözcük",
+    "answer": "Yapım eki almış sözcük",
+    "id": "match_1776015640931_10",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Birleşik Sözcük",
+    "answer": "İki veya daha fazla kelimenin anlamca birleşmesi",
+    "id": "match_1776015640931_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Hal Ekleri",
+    "answer": "İsimleri cümlede görevlendiren çekim ekleri",
+    "id": "match_1776015640931_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "İyelik Eki",
+    "answer": "Sözcüğün kime ait olduğunu bildiren ek",
+    "id": "match_1776015640931_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Çoğul Eki",
+    "answer": "-lar/-ler eki",
+    "id": "match_1776015640931_14",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Fiilden İsim Yapım Eki",
+    "answer": "-gi, -gin, -ici gibi ekler",
+    "id": "match_1776015640931_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "İsimden Fiil Yapım Eki",
+    "answer": "-le, -la, -al gibi ekler",
+    "id": "match_1776015640931_16",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Fiilden Fiil Yapım Eki",
+    "answer": "-iş, -il, -dir gibi ekler",
+    "id": "match_1776015640931_17",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "İsimden İsim Yapım Eki",
+    "answer": "-lik, -siz, -li gibi ekler",
+    "id": "match_1776015640931_18",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Ek Fiil",
+    "answer": "İsimleri yüklem yapan veya fiilleri birleşik zamanlı yapan ek",
+    "id": "match_1776015640931_19",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  },
+  {
+    "topicId": "yWlh5C6jB7lzuJOodr2t",
+    "question": "Vurgu",
+    "answer": "Sözcüğün anlamını değiştirmeyen ancak görevini belirleyen öge",
+    "id": "match_1776015640931_20",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:40:45.763Z"
+  }
+]

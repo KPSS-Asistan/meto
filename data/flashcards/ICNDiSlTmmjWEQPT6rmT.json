@@ -1,0 +1,542 @@
+[
+  {
+    "question": "Canlı ve cansız varlıkların adı olan kelimelere ne denir?",
+    "answer": "İsim (Ad)",
+    "additionalInfo": "Masa, Kalem, Ali.",
+    "_part": 1
+  },
+  {
+    "question": "Tekil, Çoğul ve Topluluk ismi farkı",
+    "answer": "Tekil (Ev), Çoğul (Evler), Topluluk (Sürü, Ordu)",
+    "additionalInfo": "Topluluk isimleri çoğul eki almadan çokluk ifade eder.",
+    "_part": 2
+  },
+  {
+    "question": "Özel isimlerin baş harfi nasıl yazılır?",
+    "answer": "Büyük harfle",
+    "additionalInfo": "İnsan adları, yer adları, kurum adları.",
+    "_part": 3
+  },
+  {
+    "question": "İsmi niteleyen veya belirten sözcüklere ne denir?",
+    "answer": "Sıfat (Ön Ad)",
+    "additionalInfo": "Mutlaka ismin önüne gelmelidir. (Güzel ev).",
+    "_part": 4
+  },
+  {
+    "question": "Sıfatla ismin birlikte olduğu gruba ne denir?",
+    "answer": "Sıfat Tamlaması",
+    "additionalInfo": "Kırmızı elma, Bu çocuk.",
+    "_part": 5
+  },
+  {
+    "question": "Pekiştirme sıfatları nasıl yapılır?",
+    "answer": "m, p, r, s ünsüzleriyle",
+    "additionalInfo": "Masmavi, Bembeyaz.",
+    "_part": 6
+  },
+  {
+    "topicId": "sozcuk_turleri_015",
+    "question": "Adlaşmış sıfat nedir?",
+    "answer": "Sıfatın önündeki ismin düşüp sıfatın isimleşmesidir.",
+    "additionalInfo": "Gençler (genç insanlar) örneğindeki gibi.",
+    "id": "flash_1776014537498_15",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "question": "İsmin yerini tutan sözcüklere ne denir?",
+    "answer": "Zamir (Adıl)",
+    "additionalInfo": "O geldi (Ali geldi yerine).",
+    "_part": 8
+  },
+  {
+    "question": "Kişi zamirleri nelerdir?",
+    "answer": "Ben, Sen, O, Biz, Siz, Onlar",
+    "additionalInfo": "\"Kendi\" dönüşlülük zamiridir.",
+    "_part": 9
+  },
+  {
+    "question": "İşaret zamirleri nelerdir?",
+    "answer": "Bu, Şu, O, Bunlar, Şunlar, Onlar",
+    "additionalInfo": "\"Bunu al\" (Zamir), \"Bu kalemi al\" (Sıfat).",
+    "_part": 10
+  },
+  {
+    "question": "Belgisiz zamir örnekleri",
+    "answer": "Herkes, Kimse, Hiçbiri, Bazısı, Birkaçı",
+    "additionalInfo": "Net belli olmayan.",
+    "_part": 11
+  },
+  {
+    "question": "Fiilleri, sıfatları ve zarfları niteleyen sözcüklere ne denir?",
+    "answer": "Zarf (Belirteç)",
+    "additionalInfo": "Nasıl? (Durum), Ne zaman? (Zaman), Ne kadar? (Miktar), Nereye? (Yer-Yön).",
+    "_part": 12
+  },
+  {
+    "question": "Yer-Yön zarfları ek alır mı?",
+    "answer": "Hayır, almaz",
+    "additionalInfo": "\"İçeri girdi\" (Zarf), \"İçeriye girdi\" (İsim).",
+    "_part": 13
+  },
+  {
+    "question": "Tek başına anlamı olmayan, sözcükler arası ilişki kuran sözcüklere ne denir?",
+    "answer": "Edat (İlgeç)",
+    "additionalInfo": "Gibi, İçin, Kadar, Üzere, İle (Birliktelik).",
+    "_part": 14
+  },
+  {
+    "question": "Sözcükleri ve cümleleri birbirine bağlayan sözcüklere ne denir?",
+    "answer": "Bağlaç",
+    "additionalInfo": "Ve, Veya, Ya da, Ama, Fakat, Çünkü.",
+    "_part": 15
+  },
+  {
+    "question": "Duygu bildiren sözcüklere ne denir?",
+    "answer": "Ünlem",
+    "additionalInfo": "Eyvah!, Ayy!, Haydi!",
+    "_part": 16
+  },
+  {
+    "topicId": "sozcuk_turleri_001",
+    "question": "İsim (Ad) nedir?",
+    "answer": "Varlıkları, kavramları karşılayan sözcüklerdir.",
+    "additionalInfo": "İsimler çekim eki alabilirler.",
+    "id": "flash_1776014537498_1",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_002",
+    "question": "Özel isim nedir?",
+    "answer": "Tek olan, eşi benzeri bulunmayan varlıkları karşılayan isimlerdir.",
+    "additionalInfo": "Büyük harfle başlar.",
+    "id": "flash_1776014537498_2",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_003",
+    "question": "Cins isim nedir?",
+    "answer": "Aynı türden olan varlıkları karşılayan isimlerdir.",
+    "additionalInfo": "Özel isim değilse cins isimdir.",
+    "id": "flash_1776014537498_3",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_004",
+    "question": "Somut isim nedir?",
+    "answer": "Beş duyu organımızla algılayabildiğimiz isimlerdir.",
+    "additionalInfo": "Hava, rüzgar, ses somuttur.",
+    "id": "flash_1776014537498_4",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_005",
+    "question": "Soyut isim nedir?",
+    "answer": "Duyu organlarıyla algılanamayan, zihinsel kavranan isimlerdir.",
+    "additionalInfo": "Sevgi, nefret, umut soyuttur.",
+    "id": "flash_1776014537498_5",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_006",
+    "question": "Tekil isim nedir?",
+    "answer": "Çoğul eki (-lar, -ler) almamış isimlerdir.",
+    "additionalInfo": "Kök halindeki isimler tekildir.",
+    "id": "flash_1776014537498_6",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_007",
+    "question": "Çoğul isim nedir?",
+    "answer": "-lar, -ler çoğul ekini almış isimlerdir.",
+    "additionalInfo": "Bazen abartma anlamı katar.",
+    "id": "flash_1776014537498_7",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_008",
+    "question": "Topluluk ismi nedir?",
+    "answer": "Çoğul eki almadığı halde birden fazla varlığı karşılayan isimlerdir.",
+    "additionalInfo": "Ordu, sürü, komite örneklerindendir.",
+    "id": "flash_1776014537498_8",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_009",
+    "question": "Sıfat (Ön Ad) nedir?",
+    "answer": "İsimlerin önüne gelerek onları niteleyen veya belirten sözcüklerdir.",
+    "additionalInfo": "İsimsiz sıfat olmaz.",
+    "id": "flash_1776014537498_9",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_010",
+    "question": "Niteleme sıfatı nasıl bulunur?",
+    "answer": "İsimlere sorulan 'nasıl' sorusu ile bulunur.",
+    "additionalInfo": "Renk ve şekil bildirir.",
+    "id": "flash_1776014537498_10",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_011",
+    "question": "İşaret sıfatı nedir?",
+    "answer": "İsimleri işaret yoluyla belirten sıfatlardır.",
+    "additionalInfo": "Bu, şu, o, öteki, beriki sözcükleridir.",
+    "id": "flash_1776014537498_11",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_012",
+    "question": "Sayı sıfatı türleri nelerdir?",
+    "answer": "Asıl, sıra, üleştirme ve kesir sayı sıfatları.",
+    "additionalInfo": "Hepsi isimden önce gelir.",
+    "id": "flash_1776014537498_12",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_013",
+    "question": "Belgisiz sıfat nedir?",
+    "answer": "İsimleri kesinlik bildirmeden belirten sıfatlardır.",
+    "additionalInfo": "Birçok, birkaç, bazı, her gibi.",
+    "id": "flash_1776014537498_13",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_014",
+    "question": "Soru sıfatı nedir?",
+    "answer": "İsimleri soru yoluyla belirten sözcüklerdir.",
+    "additionalInfo": "Hangi, kaç, nasıl, ne kadar soruları.",
+    "id": "flash_1776014537498_14",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_016",
+    "question": "Zamir (Adıl) nedir?",
+    "answer": "İsimlerin yerini tutan sözcüklerdir.",
+    "additionalInfo": "İsmin yerine geçerler.",
+    "id": "flash_1776014537498_16",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_017",
+    "question": "Kişi zamiri nelerdir?",
+    "answer": "Ben, sen, o, biz, siz, onlar.",
+    "additionalInfo": "İnsan isminin yerini tutar.",
+    "id": "flash_1776014537498_17",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_018",
+    "question": "İşaret zamiri nedir?",
+    "answer": "Varlıkları işaret yoluyla karşılayan zamirlerdir.",
+    "additionalInfo": "Bu, şu, o, bunlar, şunlar, onlar.",
+    "id": "flash_1776014537498_18",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_019",
+    "question": "Belgisiz zamir nedir?",
+    "answer": "Varlıkların yerini belgisiz şekilde tutan sözcükler.",
+    "additionalInfo": "Herkes, kimse, birçoğu, bazısı.",
+    "id": "flash_1776014537498_19",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_020",
+    "question": "Soru zamiri nedir?",
+    "answer": "İsmin yerini soru yoluyla tutan sözcükler.",
+    "additionalInfo": "Kim, ne, hangisi, kaçı.",
+    "id": "flash_1776014537498_20",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_021",
+    "question": "İlgi zamiri nedir?",
+    "answer": "-ki ekidir.",
+    "additionalInfo": "İsmin yerini tutar (benimki, seninki).",
+    "id": "flash_1776014537498_21",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_022",
+    "question": "İyelik eki nedir?",
+    "answer": "Eklendiği ismin kime ait olduğunu bildiren eklerdir.",
+    "additionalInfo": "İsim tamlamalarında tamlanan ekidir.",
+    "id": "flash_1776014537498_22",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_023",
+    "question": "Zarf (Belirteç) nedir?",
+    "answer": "Fiilleri, fiilimsileri, sıfatları veya zarfları niteleyen sözcüklerdir.",
+    "additionalInfo": "İsmi nitelemez.",
+    "id": "flash_1776014537498_23",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_024",
+    "question": "Durum zarfı nasıl bulunur?",
+    "answer": "Fiile sorulan 'nasıl' sorusu ile bulunur.",
+    "additionalInfo": "Eylem nasıl yapılıyor?",
+    "id": "flash_1776014537498_24",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_025",
+    "question": "Zaman zarfı nasıl bulunur?",
+    "answer": "Fiile sorulan 'ne zaman' sorusu ile bulunur.",
+    "additionalInfo": "Bugün, yarın, şimdi.",
+    "id": "flash_1776014537498_25",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_026",
+    "question": "Miktar (Azlık-Çokluk) zarfı nedir?",
+    "answer": "Fiilin, sıfatın veya zarfın miktarını belirtir.",
+    "additionalInfo": "En, çok, daha, az.",
+    "id": "flash_1776014537498_26",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_027",
+    "question": "Yer-yön zarfı nedir?",
+    "answer": "Fiili yer yön bakımından belirten sözcükler.",
+    "additionalInfo": "Ek almazlar (aşağı, yukarı, içeri).",
+    "id": "flash_1776014537498_27",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_028",
+    "question": "Soru zarfı nedir?",
+    "answer": "Fiili soru yoluyla etkileyen sözcükler.",
+    "additionalInfo": "Nasıl, ne zaman, niçin, neden.",
+    "id": "flash_1776014537498_28",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_029",
+    "question": "Edat (İlgeç) nedir?",
+    "answer": "Tek başına anlamı olmayan, cümle içinde anlam kazanan sözcükler.",
+    "additionalInfo": "İle, gibi, kadar, için, göre.",
+    "id": "flash_1776014537498_29",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_030",
+    "question": "Bağlaç nedir?",
+    "answer": "Eş görevli veya cümleleri bağlayan sözcükler.",
+    "additionalInfo": "Ve, veya, ama, fakat, lakin.",
+    "id": "flash_1776014537498_30",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_031",
+    "question": "Ünlem nedir?",
+    "answer": "Duyguları veya seslenişleri bildiren sözcükler.",
+    "additionalInfo": "Ey, vah, tüh, hey.",
+    "id": "flash_1776014537498_31",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_032",
+    "question": "Fiil (Eylem) nedir?",
+    "answer": "İş, oluş, hareket bildiren sözcüklerdir.",
+    "additionalInfo": "Mastar eki (-mak/-mek) alır.",
+    "id": "flash_1776014537498_32",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_033",
+    "question": "Basit fiil nedir?",
+    "answer": "Yapım eki almamış fiillerdir.",
+    "additionalInfo": "Kök halindedir.",
+    "id": "flash_1776014537498_33",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_034",
+    "question": "Türemiş fiil nedir?",
+    "answer": "Yapım eki almış fiillerdir.",
+    "additionalInfo": "İsimden veya fiilden türeyebilir.",
+    "id": "flash_1776014537498_34",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_035",
+    "question": "Birleşik fiil nedir?",
+    "answer": "En az iki kelimenin birleşmesiyle oluşan fiillerdir.",
+    "additionalInfo": "Yardımcı eylemle oluşanlar, kurallılar, anlamca kaynaşmışlar.",
+    "id": "flash_1776014537498_35",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_036",
+    "question": "İsim-fiil (Mastar) ekleri nelerdir?",
+    "answer": "-ma, -ış, -mak.",
+    "additionalInfo": "Kodlaması: MAYIŞMAK.",
+    "id": "flash_1776014537498_36",
+    "_part": 51,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_037",
+    "question": "Sıfat-fiil (Ortaç) ekleri nelerdir?",
+    "answer": "-an, -ası, -mez, -ar, -dik, -ecek, -miş.",
+    "additionalInfo": "Kodlaması: ANASIZ MEZAR DİK ECEK MİŞ.",
+    "id": "flash_1776014537498_37",
+    "_part": 52,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_038",
+    "question": "Zarf-fiil (Ulaç) ekleri nelerdir?",
+    "answer": "-ip, -erek, -meden, -dıkça, -ken, -ince.",
+    "additionalInfo": "Fiili zarf yapar.",
+    "id": "flash_1776014537498_38",
+    "_part": 53,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_039",
+    "question": "Basit zamanlı fiil nedir?",
+    "answer": "Tek bir kip eki almış fiillerdir.",
+    "additionalInfo": "Geldim (sadece görülen geçmiş zaman).",
+    "id": "flash_1776014537498_39",
+    "_part": 54,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_040",
+    "question": "Birleşik zamanlı fiil nedir?",
+    "answer": "İki kip eki almış fiillerdir.",
+    "additionalInfo": "Geliyordum (şimdiki zaman + geçmiş zaman).",
+    "id": "flash_1776014537498_40",
+    "_part": 55,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_041",
+    "question": "Ek eylem (Ek fiil) nedir?",
+    "answer": "İsim soylu sözcükleri yüklem yapan veya basit zamanlı fiilleri birleşik zamanlı yapan ekler.",
+    "additionalInfo": "İdi, imiş, ise, -dir.",
+    "id": "flash_1776014537498_41",
+    "_part": 56,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_042",
+    "question": "Belirtisiz isim tamlaması nedir?",
+    "answer": "Tamlayanın ek almadığı tamlamadır.",
+    "additionalInfo": "Okul bahçesi.",
+    "id": "flash_1776014537498_42",
+    "_part": 57,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_043",
+    "question": "Belirtili isim tamlaması nedir?",
+    "answer": "Tamlayanın ilgi, tamlananın iyelik eki aldığı tamlamadır.",
+    "additionalInfo": "Okulun kapısı.",
+    "id": "flash_1776014537498_43",
+    "_part": 58,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_044",
+    "question": "Zincirleme isim tamlaması nedir?",
+    "answer": "En az üç ismin birbirine bağlandığı tamlamadır.",
+    "additionalInfo": "Okul kapısının kolu.",
+    "id": "flash_1776014537498_44",
+    "_part": 59,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_045",
+    "question": "Sıfat tamlaması nedir?",
+    "answer": "Sıfatın ismi nitelediği veya belirttiği yapıdır.",
+    "additionalInfo": "Her sıfat bir sıfat tamlamasıdır.",
+    "id": "flash_1776014537498_45",
+    "_part": 60,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_046",
+    "question": "Yansıma sözcük nedir?",
+    "answer": "Doğadaki seslerin taklidiyle oluşan sözcüklerdir.",
+    "additionalInfo": "Pat, çat, şırıl, fokur.",
+    "id": "flash_1776014537498_46",
+    "_part": 61,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_047",
+    "question": "Dönüşlülük zamiri nedir?",
+    "answer": "Kendi sözcüğüdür.",
+    "additionalInfo": "Kendi kendime yaptım.",
+    "id": "flash_1776014537498_47",
+    "_part": 62,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_048",
+    "question": "Yapım eki nedir?",
+    "answer": "Sözcüğün anlamını veya türünü değiştiren eklerdir.",
+    "additionalInfo": "Türemiş sözcük yaparlar.",
+    "id": "flash_1776014537498_48",
+    "_part": 63,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_049",
+    "question": "Çekim eki nedir?",
+    "answer": "Sözcüğün anlamını değiştirmeyen, cümlede görev kazandıran eklerdir.",
+    "additionalInfo": "İsme veya fiile gelirler.",
+    "id": "flash_1776014537498_49",
+    "_part": 64,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  },
+  {
+    "topicId": "sozcuk_turleri_050",
+    "question": "Olumsuzluk eki nedir?",
+    "answer": "-ma, -me ekidir.",
+    "additionalInfo": "Fiile gelir, isim-fiil ekiyle karıştırmayın.",
+    "id": "flash_1776014537498_50",
+    "_part": 65,
+    "_generatedAt": "2026-04-12T17:22:37.417Z"
+  }
+]
