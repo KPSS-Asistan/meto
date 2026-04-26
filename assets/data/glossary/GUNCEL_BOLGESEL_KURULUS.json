@@ -1,0 +1,1521 @@
+[
+  {
+    "id": "avrasya_ekonomik_birligi",
+    "term": "Avrasya Ekonomik Birliği (AEB)",
+    "definition": "Rusya, Kazakistan, Belarus, Ermenistan ve Kırgızistan'ın üye olduğu, malların, hizmetlerin, sermayenin ve işgücünün serbest dolaşımını amaçlayan entegrasyon örgütüdür. Gümrük birliği ve ortak pazar prensipleri üzerine kurulmuştur.",
+    "examples": [
+      "Gümrük vergilerinin kaldırılması",
+      "Ortak ekonomik politikaların belirlenmesi"
+    ],
+    "relatedTerms": [
+      "Gümrük Birliği",
+      "Serbest Ticaret Anlaşması",
+      "Ekonomik Entegrasyon"
+    ],
+    "order": 1
+  },
+  {
+    "id": "karadeniz_ekonomik_isbirligi_teskilati",
+    "term": "Karadeniz Ekonomik İşbirliği Teşkilatı (KEİ)",
+    "definition": "Karadeniz'e kıyıdaş ve bölgeyle ekonomik ilişkileri olan ülkelerin katılımıyla oluşturulan, bölgesel ekonomik işbirliğini geliştirmeyi hedefleyen bir kuruluştur. Ulaştırma, enerji, çevre ve turizm gibi alanlarda projeler yürütür.",
+    "examples": [
+      "Trans-Karadeniz Ulaştırma Koridoru Projesi",
+      "KEİ Turizm Forumu"
+    ],
+    "relatedTerms": [
+      "Bölgesel İşbirliği",
+      "Ekonomik Kalkınma",
+      "Karadeniz Havzası"
+    ],
+    "order": 2
+  },
+  {
+    "id": "orgut_islami_isbirligi",
+    "term": "İslam İşbirliği Teşkilatı (İİT)",
+    "definition": "Müslüman çoğunluklu ülkelerin üye olduğu, siyasi, ekonomik, sosyal ve kültürel alanlarda işbirliğini teşvik eden uluslararası bir kuruluştur. Üye ülkeler arasındaki dayanışmayı güçlendirmeyi amaçlar.",
+    "examples": [
+      "Filistin meselesine yönelik ortak politikalar",
+      "İslam ülkeleri arasındaki ticaretin artırılması"
+    ],
+    "relatedTerms": [
+      "Müslüman Ülkeler",
+      "Kültürel Dayanışma",
+      "Siyasi İşbirliği"
+    ],
+    "order": 3
+  },
+  {
+    "id": "bagimsiz_devletler_toplulugu",
+    "term": "Bağımsız Devletler Topluluğu (BDT)",
+    "definition": "Sovyetler Birliği'nin dağılmasının ardından kurulan, üye ülkeler arasında siyasi, ekonomik ve askeri işbirliğini öngören bir bölgesel örgüttür. Üye ülkeler egemenliklerini korumakla birlikte belirli alanlarda ortak hareket ederler.",
+    "examples": [
+      "Ortak savunma politikaları",
+      "Ekonomik entegrasyon çabaları"
+    ],
+    "relatedTerms": [
+      "Sovyetler Birliği Sonrası",
+      "Bölgesel Güvenlik",
+      "Ekonomik İşbirliği"
+    ],
+    "order": 4
+  },
+  {
+    "id": "ekonomik_isbirligi_ve_kalkinma_orgutu",
+    "term": "Ekonomik İşbirliği ve Kalkınma Teşkilatı (OECD)",
+    "definition": "Piyasa ekonomisine sahip ülkelerin üye olduğu, küresel ekonomik büyüme, kalkınma ve sürdürülebilirlik konularında araştırmalar yapan ve politika önerileri sunan uluslararası bir kuruluştur. Üye ülkeler arasında ekonomik ve sosyal politikaların uyumlaştırılmasını hedefler.",
+    "examples": [
+      "Kalkınma yardımları üzerine raporlar",
+      "Vergi politikaları üzerine standartlar"
+    ],
+    "relatedTerms": [
+      "Gelişmiş Ülkeler",
+      "Ekonomik Politika",
+      "Sürdürülebilir Kalkınma"
+    ],
+    "order": 5
+  },
+  {
+    "id": "arap_ligii",
+    "term": "Arap Ligi",
+    "definition": "Arapça konuşan ülkelerin üye olduğu, Arap dünyasının siyasi, ekonomik, sosyal ve kültürel bağlarını güçlendirmeyi amaçlayan bölgesel bir kuruluştur. Arap ülkeleri arasındaki sorunların çözümünde arabuluculuk yapar.",
+    "examples": [
+      "Filistin-İsrail çatışmasında arabuluculuk",
+      "Arap ülkeleri arasındaki serbest ticaret anlaşmaları"
+    ],
+    "relatedTerms": [
+      "Arap Ülkeleri",
+      "Siyasi Birlik",
+      "Kültürel Yakınlık"
+    ],
+    "order": 6
+  },
+  {
+    "id": "guvenlik_ve_isbirligi_orgutu",
+    "term": "Avrupa Güvenlik ve İşbirliği Teşkilatı (AGİT)",
+    "definition": "Avrupa, Kuzey Amerika ve Orta Asya ülkelerini kapsayan, güvenlik, siyasi, insan hakları ve çevre konularında işbirliğini teşvik eden bir kuruluştur. Silahların kontrolü ve insan hakları gözlemleri gibi alanlarda faaliyet gösterir.",
+    "examples": [
+      "Ukrayna'daki AGİT Gözlem Misyonu",
+      "Silahların kontrolü anlaşmaları"
+    ],
+    "relatedTerms": [
+      "Avrupa Güvenliği",
+      "İnsan Hakları",
+      "Silahların Kontrolü"
+    ],
+    "order": 7
+  },
+  {
+    "id": "asya_isbirligi_orgutu",
+    "term": "Şanghay İşbirliği Örgütü (ŞİÖ)",
+    "definition": "Çin, Rusya, Kazakistan, Kırgızistan, Tacikistan ve Özbekistan'ın kurucu üye olduğu, bölgesel barış, güvenlik ve işbirliğini amaçlayan bir örgüttür. Terörizm, ayrılıkçılık ve aşırıcılıkla mücadele öncelikli konularıdır.",
+    "examples": [
+      "Ortak askeri tatbikatlar",
+      "Terörle mücadele işbirliği"
+    ],
+    "relatedTerms": [
+      "Asya Güvenliği",
+      "Terörle Mücadele",
+      "Bölgesel İstikrar"
+    ],
+    "order": 8
+  },
+  {
+    "id": "guney_asya_ulkesel_kalkinma_birligi",
+    "term": "Güney Asya Ülkeleri Kalkınma Birliği (SAARC)",
+    "definition": "Hindistan, Pakistan, Bangladeş, Sri Lanka, Nepal, Bhutan, Maldivler ve Afganistan'ın üye olduğu, Güney Asya'da ekonomik ve bölgesel işbirliğini geliştirmeyi hedefleyen bir kuruluştur. Yoksullukla mücadele ve kalkınma projeleri önceliklidir.",
+    "examples": [
+      "Güney Asya Serbest Ticaret Alanı (SAFTA)",
+      "Yoksullukla mücadele programları"
+    ],
+    "relatedTerms": [
+      "Güney Asya",
+      "Ekonomik Kalkınma",
+      "Bölgesel Entegrasyon"
+    ],
+    "order": 9
+  },
+  {
+    "id": "merkez_amerika_entegrasyon_sistemi",
+    "term": "Orta Amerika Entegrasyon Sistemi (SICA)",
+    "definition": "Orta Amerika ülkelerinin üye olduğu, bölgesel barış, demokrasi, kalkınma ve güvenliği sağlamayı amaçlayan bir kuruluştur. Ekonomik ve sosyal entegrasyonu teşvik eder.",
+    "examples": [
+      "Bölgesel serbest ticaret anlaşmaları",
+      "Demokrasi ve insan hakları standartları"
+    ],
+    "relatedTerms": [
+      "Orta Amerika",
+      "Bölgesel Entegrasyon",
+      "Demokrasi"
+    ],
+    "order": 10
+  },
+  {
+    "id": "afrika_birligi",
+    "term": "Afrika Birliği (AfB)",
+    "definition": "Afrika kıtasındaki 55 ülkenin üye olduğu, kıtasal barış, güvenlik, istikrar, kalkınma ve entegrasyonu amaçlayan siyasi ve ekonomik bir kuruluştur. Afrika'nın küresel düzeyde sesini yükseltmeyi hedefler.",
+    "examples": [
+      "Afrika Kıtasal Serbest Ticaret Alanı (AfCFTA)",
+      "Barış ve güvenlik konseyi"
+    ],
+    "relatedTerms": [
+      "Afrika Kıtası",
+      "Kıtasal Entegrasyon",
+      "Siyasi Birlik"
+    ],
+    "order": 11
+  },
+  {
+    "id": "gelişmekte_olan_ekonomiler_orgutu",
+    "term": "Gelişmekte Olan Sekiz Ülke (D-8)",
+    "definition": "Türkiye, Bangladeş, Mısır, Endonezya, İran, Malezya, Nijerya ve Pakistan'ın üye olduğu, kalkınma ve işbirliğini amaçlayan bir örgüttür. Ticaret, sanayi, tarım ve enerji alanlarında işbirliği yapar.",
+    "examples": [
+      "D-8 Ticaret ve Sanayi Odaları Konfederasyonu",
+      "Ortak yatırım projeleri"
+    ],
+    "relatedTerms": [
+      "Gelişmekte Olan Ülkeler",
+      "Ekonomik İşbirliği",
+      "Kalkınma"
+    ],
+    "order": 12
+  },
+  {
+    "id": "pasifik_ekonomik_isbirligi",
+    "term": "Asya-Pasifik Ekonomik İşbirliği (APEC)",
+    "definition": "Asya-Pasifik bölgesindeki 21 ekonominin üye olduğu, serbest ticareti ve yatırımı teşvik eden, bölgesel ekonomik büyümeyi amaçlayan bir forumdur. Ticaret engellerinin kaldırılması üzerine çalışır.",
+    "examples": [
+      "APEC Ticaret Kolaylaştırma Çabaları",
+      "Yatırım teşvik programları"
+    ],
+    "relatedTerms": [
+      "Asya-Pasifik",
+      "Serbest Ticaret",
+      "Ekonomik Büyüme"
+    ],
+    "order": 13
+  },
+  {
+    "id": "balkan_ülkeleri_isbirligi",
+    "term": "Güneydoğu Avrupa İşbirliği Süreci (SEECP)",
+    "definition": "Balkan ülkelerinin üye olduğu, bölgesel işbirliğini, istikrarı ve kalkınmayı teşvik eden bir girişimdir. Avrupa Birliği ile bütünleşme sürecini destekler.",
+    "examples": [
+      "Balkan ülkeleri arasındaki sınır ötesi projeler",
+      "AB ile ortaklık programları"
+    ],
+    "relatedTerms": [
+      "Balkanlar",
+      "Bölgesel İşbirliği",
+      "Avrupa Birliği"
+    ],
+    "order": 14
+  },
+  {
+    "id": "akdeniz_diyaloğu",
+    "term": "Akdeniz Diyaloğu",
+    "definition": "NATO'nun Akdeniz ülkeleriyle yürüttüğü, güvenlik ve istikrarı artırmayı amaçlayan bir işbirliği programıdır. Terörizm, deniz güvenliği ve sınır yönetimi gibi konularda işbirliği yapar.",
+    "examples": [
+      "Ortak deniz güvenliği tatbikatları",
+      "Terörle mücadele alanında bilgi paylaşımı"
+    ],
+    "relatedTerms": [
+      "Akdeniz",
+      "Güvenlik İşbirliği",
+      "NATO"
+    ],
+    "order": 15
+  },
+  {
+    "id": "kuzey_avrupa_isbirligi",
+    "term": "Kuzey Avrupa İşbirliği (Nordik Konsey)",
+    "definition": "Danimarka, Finlandiya, İzlanda, Norveç ve İsveç'in üye olduğu, sosyal, kültürel ve ekonomik alanlarda işbirliğini teşvik eden bir kuruluştur. Vatandaşların serbest dolaşımı ve sosyal haklar önceliklidir.",
+    "examples": [
+      "Ortak sosyal güvenlik anlaşmaları",
+      "Kültürel değişim programları"
+    ],
+    "relatedTerms": [
+      "Kuzey Avrupa",
+      "Sosyal İşbirliği",
+      "Kültürel Entegrasyon"
+    ],
+    "order": 16
+  },
+  {
+    "id": "karayip_topluluğu",
+    "term": "Karayip Topluluğu (CARICOM)",
+    "definition": "Karayip bölgesindeki ülkelerin üye olduğu, ekonomik entegrasyonu, kalkınmayı ve bölgesel güvenliği amaçlayan bir kuruluştur. Ortak pazar ve serbest ticaret alanları oluşturur.",
+    "examples": [
+      "CARICOM Ortak Pazarı",
+      "Afet yönetimi işbirliği"
+    ],
+    "relatedTerms": [
+      "Karayipler",
+      "Ekonomik Entegrasyon",
+      "Bölgesel Güvenlik"
+    ],
+    "order": 17
+  },
+  {
+    "id": "güney_amerika_ortak_pazari",
+    "term": "Güney Amerika Ortak Pazarı (MERCOSUR)",
+    "definition": "Arjantin, Brezilya, Paraguay ve Uruguay'ın üye olduğu, Güney Amerika'da ekonomik entegrasyonu ve serbest ticareti amaçlayan bir gümrük birliğidir. Ortak dış ticaret politikaları uygular.",
+    "examples": [
+      "Gümrük vergilerinin kaldırılması",
+      "Ortak dış ticaret politikaları"
+    ],
+    "relatedTerms": [
+      "Güney Amerika",
+      "Gümrük Birliği",
+      "Serbest Ticaret"
+    ],
+    "order": 18
+  },
+  {
+    "id": "orta_asya_isbirligi",
+    "term": "Orta Asya Bölgesel Ekonomik İşbirliği (ECO)",
+    "definition": "İran, Pakistan, Türkiye, Afganistan, Azerbaycan, Kazakistan, Kırgızistan, Tacikistan, Türkmenistan ve Özbekistan'ın üye olduğu, bölgesel ekonomik işbirliğini ve kalkınmayı amaçlayan bir kuruluştur. Ulaştırma ve enerji projeleri önceliklidir.",
+    "examples": [
+      "Orta Asya-Avrupa Ulaştırma Koridoru",
+      "Enerji projeleri"
+    ],
+    "relatedTerms": [
+      "Orta Asya",
+      "Ekonomik İşbirliği",
+      "Kalkınma"
+    ],
+    "order": 19
+  },
+  {
+    "id": "pasifik_adalari_orgutu",
+    "term": "Pasifik Adaları Forumu",
+    "definition": "Pasifik Okyanusu'ndaki ada devletlerinin üye olduğu, bölgesel işbirliğini, kalkınmayı ve güvenliği amaçlayan bir kuruluştur. İklim değişikliği ve okyanus yönetimi gibi konular önceliklidir.",
+    "examples": [
+      "Pasifik Adaları İklim Değişikliği Girişimi",
+      "Deniz kaynaklarının sürdürülebilir yönetimi"
+    ],
+    "relatedTerms": [
+      "Pasifik Adaları",
+      "Bölgesel İşbirliği",
+      "İklim Değişikliği"
+    ],
+    "order": 20
+  },
+  {
+    "id": "dogu_afrika_toplulugu",
+    "term": "Doğu Afrika Topluluğu (EAC)",
+    "definition": "Kenya, Tanzanya, Uganda, Ruanda, Burundi, Güney Sudan ve Demokratik Kongo Cumhuriyeti'nin üye olduğu, ekonomik entegrasyonu, ortak pazarı ve siyasi federasyonu amaçlayan bir bölgesel örgüttür. Serbest dolaşım ve ortak para birimi hedeflenir.",
+    "examples": [
+      "EAC Ortak Pazarı",
+      "Sınır ötesi altyapı projeleri"
+    ],
+    "relatedTerms": [
+      "Doğu Afrika",
+      "Ekonomik Entegrasyon",
+      "Ortak Pazar"
+    ],
+    "order": 21
+  },
+  {
+    "id": "kuzey_atlantik_antlasmasi_orgutu",
+    "term": "Kuzey Atlantik Antlaşması Örgütü (NATO)",
+    "definition": "Kuzey Amerika ve Avrupa ülkelerinin askeri ittifakıdır. Temel amacı üye devletlerin özgürlük ve güvenliklerini siyasi ve askeri yollarla güvence altına almaktır. Kolektif savunma prensibine dayanır.",
+    "examples": [
+      "Türkiye'nin üyeliği",
+      "Afganistan misyonu",
+      "Rusya'nın Ukrayna'yı işgaline tepki"
+    ],
+    "relatedTerms": [
+      "Kolektif Savunma",
+      "Kuzey Atlantik Konseyi",
+      "Varşova Paktı"
+    ],
+    "order": 22
+  },
+  {
+    "id": "birlesmis_milletler_teskilati",
+    "term": "Birleşmiş Milletler Teşkilatı (BM)",
+    "definition": "Uluslararası barış ve güvenliği korumak, uluslararasında ekonomik, sosyal ve kültürel alanda işbirliği sağlamak amacıyla kurulmuş küresel bir kuruluştur. 1945'te kurulmuştur.",
+    "examples": [
+      "Güvenlik Konseyi",
+      "Genel Kurul",
+      "BM Kalkınma Programı (UNDP)"
+    ],
+    "relatedTerms": [
+      "Uluslararası Hukuk",
+      "Barış Gücü",
+      "Veto Hakkı"
+    ],
+    "order": 23
+  },
+  {
+    "id": "avrupa_konseyi",
+    "term": "Avrupa Konseyi",
+    "definition": "Avrupa'da insan hakları, demokrasi ve hukukun üstünlüğü ilkelerini yaymayı amaçlayan uluslararası bir kuruluştur. 1949'da kurulmuştur ve Avrupa Birliği'nden farklı bir yapılanmadır.",
+    "examples": [
+      "Avrupa İnsan Hakları Mahkemesi (AİHM)",
+      "İnsan Hakları Evrensel Beyannamesi",
+      "Kültürel Miras Sözleşmesi"
+    ],
+    "relatedTerms": [
+      "İnsan Hakları",
+      "Demokrasi",
+      "Hukukun Üstünlüğü"
+    ],
+    "order": 24
+  },
+  {
+    "id": "avrasya_gumruk_birligi",
+    "term": "Avrasya Gümrük Birliği",
+    "definition": "Rusya, Kazakistan ve Belarus arasındaki gümrük duvarlarını kaldırarak ortak bir gümrük tarifesi ve ticaret politikası oluşturmayı amaçlayan bir ekonomik entegrasyon birliğidir.",
+    "examples": [
+      "Ortak Gümrük Tarifesi",
+      "Sınır kontrollerinin kaldırılması",
+      "Serbest dolaşım"
+    ],
+    "relatedTerms": [
+      "Gümrük Birliği",
+      "Ekonomik Entegrasyon",
+      "Avrasya Ekonomik Birliği"
+    ],
+    "order": 25
+  },
+  {
+    "id": "hilal_ulke_grubu",
+    "term": "Hilal Ülke Grubu",
+    "definition": "Coğrafi olarak hilal şeklinde bir konuma sahip, stratejik öneme sahip ülkeler arasındaki işbirliğini geliştirmeyi amaçlayan gayri resmi bir oluşumdur. Genellikle ekonomik ve siyasi işbirliği konularını ele alır.",
+    "examples": [
+      "Türkiye'nin öncülüğü",
+      "Enerji koridorları",
+      "Ulaşım ağları"
+    ],
+    "relatedTerms": [
+      "Stratejik Konum",
+      "Bölgesel İşbirliği",
+      "Lojistik"
+    ],
+    "order": 26
+  },
+  {
+    "id": "kizil_deniz_ve_aden_korfezi_ulke_orgutu",
+    "term": "Kızıldeniz ve Aden Körfezi Ülkeleri Örgütü (PULSE)",
+    "definition": "Kızıldeniz ve Aden Körfezi çevresindeki ülkeler arasında ekonomik, sosyal ve kültürel işbirliğini teşvik etmeyi amaçlayan bir bölgesel kuruluştur. Güvenlik ve istikrar konularına da odaklanır.",
+    "examples": [
+      "Deniz güvenliği",
+      "Ticaretin geliştirilmesi",
+      "Çevre koruma"
+    ],
+    "relatedTerms": [
+      "Denizcilik",
+      "Bölgesel Güvenlik",
+      "Kızıldeniz"
+    ],
+    "order": 27
+  },
+  {
+    "id": "dogu_akdeniz_gaz_forum",
+    "term": "Doğu Akdeniz Gaz Forumu (EMGF)",
+    "definition": "Doğu Akdeniz'deki doğal gaz kaynaklarının keşfi, üretimi ve dağıtımı konusunda bölgesel işbirliğini sağlamayı amaçlayan bir uluslararası kuruluştur. Enerji güvenliği önemli bir hedefidir.",
+    "examples": [
+      "Doğal gaz keşifleri",
+      "Enerji ihracatı",
+      "Bölgesel enerji politikaları"
+    ],
+    "relatedTerms": [
+      "Enerji Güvenliği",
+      "Doğal Gaz",
+      "Doğu Akdeniz"
+    ],
+    "order": 28
+  },
+  {
+    "id": "merkez_avrupa_serbest_ticaret_anlasmasi",
+    "term": "Orta Avrupa Serbest Ticaret Anlaşması (CEFTA)",
+    "definition": "Orta ve Güneydoğu Avrupa ülkeleri arasında serbest ticaret bölgeleri oluşturmayı ve ekonomik ilişkileri derinleştirmeyi amaçlayan bir anlaşmadır. Avrupa Birliği'ne aday ülkeler için önemli bir adımdır.",
+    "examples": [
+      "Gümrük vergilerinin azaltılması",
+      "Ticaret engellerinin kaldırılması",
+      "Yatırım teşvikleri"
+    ],
+    "relatedTerms": [
+      "Serbest Ticaret Bölgesi",
+      "Ekonomik Entegrasyon",
+      "Gümrük Vergileri"
+    ],
+    "order": 29
+  },
+  {
+    "id": "kuzey_afrika_serbest_ticaret_bolgesi",
+    "term": "Kuzey Afrika Serbest Ticaret Bölgesi (NAFTA)",
+    "definition": "Kuzey Afrika ülkeleri arasında ticareti serbestleştirmeyi, ekonomik büyümeyi teşvik etmeyi ve bölgesel entegrasyonu güçlendirmeyi amaçlayan bir girişimdir. Henüz tam olarak faaliyette değildir.",
+    "examples": [
+      "Ticaret engellerinin kaldırılması",
+      "Ortak pazar oluşturma",
+      "Yatırım imkanları"
+    ],
+    "relatedTerms": [
+      "Serbest Ticaret",
+      "Ekonomik Kalkınma",
+      "Kuzey Afrika"
+    ],
+    "order": 30
+  },
+  {
+    "id": "batı_afrika_ekonomik_ve_parasal_birligi",
+    "term": "Batı Afrika Ekonomik ve Parasal Birliği (WAEMU)",
+    "definition": "Batı Afrika'daki sekiz ülkenin ekonomik ve parasal politikalarını koordine ederek ortak bir pazar ve para birimi oluşturmayı amaçlayan bir kuruluştur. CFA frangını kullanırlar.",
+    "examples": [
+      "Ortak para birimi (CFA Frangı)",
+      "Bölgesel kalkınma bankası",
+      "Serbest dolaşım"
+    ],
+    "relatedTerms": [
+      "Parasal Birlik",
+      "Ortak Pazar",
+      "Batı Afrika"
+    ],
+    "order": 31
+  },
+  {
+    "id": "guney_afrika_gelistirme_toplulugu",
+    "term": "Güney Afrika Kalkınma Topluluğu (SADC)",
+    "definition": "Güney Afrika ülkeleri arasında siyasi, ekonomik ve sosyal işbirliğini geliştirmeyi amaçlayan bölgesel bir kuruluştur. Bölgesel barış ve güvenliğin sağlanması da önemli hedeflerindendir.",
+    "examples": [
+      "Serbest ticaret anlaşmaları",
+      "Altyapı projeleri",
+      "Bölgesel güvenlik operasyonları"
+    ],
+    "relatedTerms": [
+      "Bölgesel Kalkınma",
+      "Siyasi İşbirliği",
+      "Güney Afrika"
+    ],
+    "order": 32
+  },
+  {
+    "id": "dogu_karayip_devletleri_orgutu",
+    "term": "Doğu Karayip Devletleri Örgütü (OECS)",
+    "definition": "Doğu Karayip Denizi'ndeki küçük ada devletleri arasında ekonomik entegrasyonu, siyasi işbirliğini ve ortak savunmayı sağlamayı amaçlayan bir kuruluştur. Ortak bir mahkeme sistemi vardır.",
+    "examples": [
+      "Ortak pazar",
+      "Bölgesel mahkeme",
+      "Çevre politikaları"
+    ],
+    "relatedTerms": [
+      "Küçük Ada Devletleri",
+      "Ekonomik Entegrasyon",
+      "Karayipler"
+    ],
+    "order": 33
+  },
+  {
+    "id": "guvenlik_isbirligi_anlasmasi",
+    "term": "Güvenlik İşbirliği Anlaşması (C.S.A.)",
+    "definition": "Belirli ülkeler arasında terörizmle mücadele, organize suçlarla mücadele ve sınır güvenliği gibi konularda işbirliğini öngören ikili veya çok taraflı anlaşmalardır. Sınır aşan suçlarla mücadelede önemlidir.",
+    "examples": [
+      "Bilgi paylaşımı",
+      "Ortak operasyonlar",
+      "Suçluların iadesi"
+    ],
+    "relatedTerms": [
+      "Sınır Güvenliği",
+      "Terörle Mücadele",
+      "Organize Suçlar"
+    ],
+    "order": 34
+  },
+  {
+    "id": "kizil_deniz_ticaret_ve_guvenlik_anlasmasi",
+    "term": "Kızıldeniz Ticaret ve Güvenlik Anlaşması",
+    "definition": "Kızıldeniz'deki deniz ticaretinin güvenliğini sağlamak, korsanlıkla mücadele etmek ve bölgedeki ekonomik faaliyetleri desteklemek amacıyla imzalanan uluslararası anlaşmalardır. Deniz güvenliği odaklıdır.",
+    "examples": [
+      "Korsanlıkla mücadele operasyonları",
+      "Deniz trafiği güvenliği",
+      "Ticaret gemilerinin korunması"
+    ],
+    "relatedTerms": [
+      "Deniz Güvenliği",
+      "Korsanlık",
+      "Kızıldeniz"
+    ],
+    "order": 35
+  },
+  {
+    "id": "avrasya_parlamenter_asemble",
+    "term": "Avrasya Parlamenter Asamblesi (APA)",
+    "definition": "Avrasya coğrafyasındaki ülkelerin parlamentoları arasında işbirliğini, diyalogu ve ortak sorunlara çözüm bulmayı amaçlayan bir platformdur. Yasama organları arasında köprü kurar.",
+    "examples": [
+      "Parlamentolar arası işbirliği",
+      "Yasama çalışmaları",
+      "Bölgesel sorunlar"
+    ],
+    "relatedTerms": [
+      "Parlamenter Diplomasi",
+      "Avrasya",
+      "Yasama Organları"
+    ],
+    "order": 36
+  },
+  {
+    "id": "islam_ve_islam_dunyasi_arastirma_merkezi",
+    "term": "İslam ve İslam Dünyası Araştırma Merkezi",
+    "definition": "İslam ülkelerinin sosyal, kültürel, ekonomik ve siyasi sorunlarını inceleyen, araştıran ve bu konularda bilgi üreten bağımsız bir kuruluştur. İİT ile ilişkili olabilir.",
+    "examples": [
+      "İslam dünyası sorunları",
+      "Kültürel etkileşim",
+      "Ekonomik kalkınma modelleri"
+    ],
+    "relatedTerms": [
+      "İslam Dünyası",
+      "Kültürel Araştırmalar",
+      "Siyasi Analiz"
+    ],
+    "order": 37
+  },
+  {
+    "id": "turk_dili_konusan_ulkeler_isbirligi_konseyi",
+    "term": "Türk Dili Konuşan Ülkeler İşbirliği Konseyi (Türk Konseyi)",
+    "definition": "Türk Dili Konuşan ülkeler arasında kapsamlı işbirliğini geliştirmeyi, bölgesel barış ve güvenliğe katkıda bulunmayı amaçlayan uluslararası bir kuruluştur. 2009'da kurulmuştur.",
+    "examples": [
+      "Türkçe'nin yaygınlaştırılması",
+      "Ortak kültürel etkinlikler",
+      "Ekonomik işbirliği"
+    ],
+    "relatedTerms": [
+      "Türk Devletleri",
+      "Kültürel İşbirliği",
+      "Türkçe"
+    ],
+    "order": 38
+  },
+  {
+    "id": "guvenlik_ve_isbirligi_anlaşmasi_orgutu",
+    "term": "Güvenlik ve İşbirliği Anlaşması Örgütü (SCA)",
+    "definition": "Belirli bölgelerdeki ülkeler arasında güvenlik tehditlerine karşı ortak mücadele ve işbirliğini sağlamayı amaçlayan bir örgüttür. Terörizm, organize suçlar ve sınır aşan suçlar gibi konuları kapsar.",
+    "examples": [
+      "Ortak istihbarat paylaşımı",
+      "Sınır güvenliği operasyonları",
+      "Terörle mücadele"
+    ],
+    "relatedTerms": [
+      "Bölgesel Güvenlik",
+      "Terörle Mücadele",
+      "Sınır Güvenliği"
+    ],
+    "order": 39
+  },
+  {
+    "id": "avrasya_ekonomik_ve_sosyal_birlesme_orgutu",
+    "term": "Avrasya Ekonomik ve Sosyal Birleşme Örgütü (AESBO)",
+    "definition": "Avrasya coğrafyasındaki ülkeler arasında ekonomik entegrasyonu ve sosyal kalkınmayı desteklemeyi amaçlayan bir kuruluştur. Ticaret, yatırım ve beşeri sermaye konularına odaklanır.",
+    "examples": [
+      "Serbest ticaret anlaşmaları",
+      "Ortak projeler",
+      "Sosyal kalkınma programları"
+    ],
+    "relatedTerms": [
+      "Ekonomik Entegrasyon",
+      "Sosyal Kalkınma",
+      "Avrasya"
+    ],
+    "order": 40
+  },
+  {
+    "id": "akdeniz_ve_karadeniz_ulkelere_isbirligi",
+    "term": "Akdeniz ve Karadeniz Ülkeleri İşbirliği",
+    "definition": "Akdeniz ve Karadeniz'e kıyısı olan ülkeler arasında ekonomik, kültürel ve siyasi alanlarda işbirliğini teşvik eden bir çerçevedir. Bölgesel istikrar ve kalkınma önemlidir.",
+    "examples": [
+      "Ticaretin geliştirilmesi",
+      "Turizm işbirliği",
+      "Çevre koruma"
+    ],
+    "relatedTerms": [
+      "Akdeniz",
+      "Karadeniz",
+      "Bölgesel İşbirliği"
+    ],
+    "order": 41
+  },
+  {
+    "id": "arap_milliyetciligi_orgutu",
+    "term": "Arap Milliyetçiliği Örgütü",
+    "definition": "Arap dünyasının siyasi, ekonomik ve kültürel birliğini hedefleyen bölgesel bir örgüttür. Temel amacı Arap ülkeleri arasındaki işbirliğini güçlendirmek ve ortak çıkarları korumaktır. Arap Ligi'nin kültürel ve siyasi etkisini artırma yönünde çalışmalar yapar.",
+    "examples": [
+      "Arap Kültür Festivali",
+      "Ortak Arap Medya Platformu"
+    ],
+    "relatedTerms": [
+      "Arap Ligi",
+      "Bağlantısızlar Hareketi"
+    ],
+    "order": 42
+  },
+  {
+    "id": "balkan_ulkeleri_ekonomik_isbirligi",
+    "term": "Balkan Ülkeleri Ekonomik İşbirliği",
+    "definition": "Balkan coğrafyasındaki ülkeler arasında ekonomik entegrasyonu ve ticareti geliştirmeyi amaçlayan bir işbirliği platformudur. Ulaşım, enerji ve serbest ticaret bölgeleri oluşturulması gibi projelere odaklanır. Bölgesel kalkınma ve istikrarı desteklemeyi hedefler.",
+    "examples": [
+      "Balkan Serbest Ticaret Anlaşması",
+      "Ortak Altyapı Projeleri"
+    ],
+    "relatedTerms": [
+      "Güneydoğu Avrupa İşbirliği Süreci (SEECP)",
+      "Karadeniz Ekonomik İşbirliği Teşkilatı (KEİ)"
+    ],
+    "order": 43
+  },
+  {
+    "id": "dogu_akdeniz_enerji_forum",
+    "term": "Doğu Akdeniz Enerji Forumu",
+    "definition": "Doğu Akdeniz'deki enerji kaynaklarının işbirliği içinde geliştirilmesi ve pazarlanmasını amaçlayan bir forumdur. Bölge ülkeleri arasında enerji güvenliğini ve sürdürülebilirliğini sağlamayı hedefler. Doğal gaz ve petrol kaynaklarının ortak kullanımı üzerine odaklanır.",
+    "examples": [
+      "Doğu Akdeniz Gaz Forumu (EMGF)",
+      "Enerji Boru Hatları Projeleri"
+    ],
+    "relatedTerms": [
+      "Akdeniz Diyaloğu",
+      "Enerji Piyasası Düzenleme Kurumu (EPDK)"
+    ],
+    "order": 44
+  },
+  {
+    "id": "avrasya_gumruk_birligi_ve_ekonomik_entegrasyon",
+    "term": "Avrasya Gümrük Birliği ve Ekonomik Entegrasyon",
+    "definition": "Avrasya Gümrük Birliği'nin ötesinde, üye ülkeler arasında daha derin ekonomik entegrasyonu hedefleyen bir yapıdır. Ortak pazar, serbest dolaşım ve ekonomik politikaların uyumlaştırılması gibi konuları kapsar. Avrasya Ekonomik Birliği'nin (AEB) temelini oluşturur.",
+    "examples": [
+      "Avrasya Ekonomik Birliği (AEB)",
+      "Ortak Gümrük Tarifeleri"
+    ],
+    "relatedTerms": [
+      "Avrasya Ekonomik Birliği (AEB)",
+      "Gümrük Birliği"
+    ],
+    "order": 45
+  },
+  {
+    "id": "hilal_ulkeler_grubu_ekonomik_isbirligi",
+    "term": "Hilal Ülkeler Grubu Ekonomik İşbirliği",
+    "definition": "Coğrafi olarak hilal şeklinde birleşen ülkeler arasında ekonomik ve ticari ilişkileri geliştirmeyi amaçlayan bir oluşumdur. Ortak projeler ve yatırımlar yoluyla bölgesel ekonomik büyümeyi teşvik eder. Gelişmekte olan ülkeler arasındaki işbirliğini güçlendirir.",
+    "examples": [
+      "Ortak Yatırım Fonları",
+      "Ticaret Anlaşmaları"
+    ],
+    "relatedTerms": [
+      "Gelişmekte Olan Sekiz Ülke (D-8)",
+      "İslam İşbirliği Teşkilatı (İİT)"
+    ],
+    "order": 46
+  },
+  {
+    "id": "kizildeniz_ve_aden_korfezi_guvenlik_isbirligi",
+    "term": "Kızıldeniz ve Aden Körfezi Güvenlik İşbirliği",
+    "definition": "Kızıldeniz ve Aden Körfezi çevresindeki ülkeler arasında deniz güvenliği, terörle mücadele ve kaçakçılığın önlenmesi konularında işbirliğini amaçlar. Bölgesel istikrarın sağlanması ve deniz ticaretinin korunması önceliklerindendir. Uluslararası denizcilik örgütleriyle de koordinasyon içinde çalışır.",
+    "examples": [
+      "Korsanlıkla Mücadele Operasyonları",
+      "Ortak Deniz Güvenliği Tatbikatları"
+    ],
+    "relatedTerms": [
+      "Kızıldeniz Ticaret ve Güvenlik Anlaşması",
+      "Afrika Birliği (AfB)"
+    ],
+    "order": 47
+  },
+  {
+    "id": "orta_avrupa_serbest_ticaret_anlasmasi_kapsami",
+    "term": "Orta Avrupa Serbest Ticaret Anlaşması Kapsamı",
+    "definition": "Orta Avrupa ülkeleri arasında mal, hizmet ve sermaye dolaşımını serbestleştiren bir anlaşmadır. AB'ye üye olmayan ancak AB ile yakın ekonomik ilişkiler içinde olan ülkeleri kapsar. Bölgesel ticareti artırarak ekonomik büyümeyi desteklemeyi amaçlar.",
+    "examples": [
+      "CEFTA Anlaşması",
+      "Gümrük Vergilerinin Kaldırılması"
+    ],
+    "relatedTerms": [
+      "Orta Avrupa Serbest Ticaret Anlaşması (CEFTA)",
+      "Avrupa Birliği (AB)"
+    ],
+    "order": 48
+  },
+  {
+    "id": "pasifik_adalar_forumunun_ekonomik_etkileri",
+    "term": "Pasifik Adaları Forumunun Ekonomik Etkileri",
+    "definition": "Pasifik'teki ada devletleri arasındaki ekonomik işbirliğini ve kalkınmayı teşvik eden bir forumdur. Sürdürülebilir kalkınma, çevre koruma ve bölgesel ticaretin geliştirilmesi gibi konulara odaklanır. Küçük ada devletlerinin kalkınma sorunlarına çözüm bulmayı hedefler.",
+    "examples": [
+      "Pasifik Adaları Forumu Zirveleri",
+      "Bölgesel Kalkınma Fonları"
+    ],
+    "relatedTerms": [
+      "Pasifik Adaları Forumu",
+      "ASEAN"
+    ],
+    "order": 49
+  },
+  {
+    "id": "turk_dili_konusan_ulkeler_isbirligi_ve_kulturel_baglar",
+    "term": "Türk Dili Konuşan Ülkeler İşbirliği ve Kültürel Bağlar",
+    "definition": "Türk dilini konuşan ülkeler arasında siyasi, ekonomik, kültürel ve sosyal alanlarda işbirliğini geliştirmeyi amaçlar. Ortak tarih ve kültür bağlarını güçlendirmeyi hedefler. Türk Konseyi'nin faaliyet alanını genişletir.",
+    "examples": [
+      "Türk Konseyi Zirveleri",
+      "Ortak Kültürel Etkinlikler"
+    ],
+    "relatedTerms": [
+      "Türk Dili Konuşan Ülkeler İşbirliği Konseyi (Türk Konseyi)",
+      "Bağımsız Devletler Topluluğu (BDT)"
+    ],
+    "order": 50
+  },
+  {
+    "id": "avrasya_parlamenter_avrasyasi_ve_demokrasi",
+    "term": "Avrasya Parlamenter Asamblesi ve Demokrasi",
+    "definition": "Avrasya coğrafyasındaki ülkelerin parlamenterleri arasında diyaloğu ve işbirliğini teşvik eden bir platformdur. Demokrasinin, insan haklarının ve hukukun üstünlüğünün geliştirilmesini amaçlar. Parlamenter diplomasinin güçlendirilmesine katkı sağlar.",
+    "examples": [
+      "Avrasya Parlamenter Asamblesi Toplantıları",
+      "Ortak Bildirgeler"
+    ],
+    "relatedTerms": [
+      "Avrasya Parlamenter Asamblesi (APA)",
+      "Avrupa Konseyi"
+    ],
+    "order": 51
+  },
+  {
+    "id": "dogu_afrika_toplulugu_ve_ekonomik_entegrasyon",
+    "term": "Doğu Afrika Topluluğu ve Ekonomik Entegrasyon",
+    "definition": "Doğu Afrika ülkeleri arasında ekonomik, sosyal ve siyasi entegrasyonu hedefleyen bölgesel bir örgüttür. Ortak pazar, serbest dolaşım ve altyapı projeleri gibi alanlarda işbirliğini geliştirir. Bölgesel barış ve güvenliği de destekler.",
+    "examples": [
+      "Doğu Afrika Topluluğu (EAC) Ortak Pazarı",
+      "Sınır Ötesi Altyapı Projeleri"
+    ],
+    "relatedTerms": [
+      "Doğu Afrika Topluluğu (EAC)",
+      "Afrika Birliği (AfB)"
+    ],
+    "order": 52
+  },
+  {
+    "id": "kuzey_atlantik_antlasmasi_orgutu_ve_guvenlik",
+    "term": "Kuzey Atlantik Antlaşması Örgütü ve Güvenlik",
+    "definition": "Kuzey Amerika ve Avrupa ülkeleri arasında kolektif savunmayı amaçlayan askeri bir ittifaktır. Üye ülkelerin güvenliğini sağlamak, krizleri yönetmek ve barışı korumak temel görevlerindendir. Uluslararası güvenlik işbirliğinin önemli bir unsurudur.",
+    "examples": [
+      "NATO Zirveleri",
+      "Kolektif Savunma Maddesi"
+    ],
+    "relatedTerms": [
+      "Kuzey Atlantik Antlaşması Örgütü (NATO)",
+      "Avrupa Güvenlik ve İşbirliği Teşkilatı (AGİT)"
+    ],
+    "order": 53
+  },
+  {
+    "id": "birlesmis_milletler_teskilati_ve_baris",
+    "term": "Birleşmiş Milletler Teşkilatı ve Barış",
+    "definition": "Uluslararası barış ve güvenliği sağlamak, uluslararasında dostane ilişkiler geliştirmek ve ekonomik, sosyal, kültürel ve insani sorunları çözmek amacıyla kurulmuş küresel bir kuruluştur. Üye devletler arasında işbirliğini teşvik eder.",
+    "examples": [
+      "BM Güvenlik Konseyi Kararları",
+      "BM Barış Gücü Operasyonları"
+    ],
+    "relatedTerms": [
+      "Birleşmiş Milletler Teşkilatı (BM)",
+      "Avrupa Konseyi"
+    ],
+    "order": 54
+  },
+  {
+    "id": "avrupa_konseyi_ve_demokratik_degerler",
+    "term": "Avrupa Konseyi ve Demokratik Değerler",
+    "definition": "Avrupa'da demokrasi, insan hakları ve hukukun üstünlüğünü korumayı ve geliştirmeyi amaçlayan uluslararası bir kuruluştur. Üye ülkeler arasında bu değerlerin yaygınlaşması için çalışmalar yapar. Avrupa İnsan Hakları Mahkemesi'ni bünyesinde barındırır.",
+    "examples": [
+      "Avrupa İnsan Hakları Sözleşmesi",
+      "Demokrasi ve Hukuk Reformları"
+    ],
+    "relatedTerms": [
+      "Avrupa Konseyi",
+      "Avrupa Güvenlik ve İşbirliği Teşkilatı (AGİT)"
+    ],
+    "order": 55
+  },
+  {
+    "id": "avrasya_gumruk_birligi_ve_ticaret",
+    "term": "Avrasya Gümrük Birliği ve Ticaret",
+    "definition": "Avrasya'daki bazı ülkeler arasında ortak gümrük tarifeleri ve ticaret politikaları oluşturarak mal dolaşımını kolaylaştırmayı amaçlar. Üye ülkeler arasındaki ekonomik entegrasyonu derinleştirmeyi hedefler. Avrasya Ekonomik Birliği'nin (AEB) bir parçasıdır.",
+    "examples": [
+      "Ortak Gümrük Tarifeleri",
+      "Serbest Ticaret Anlaşmaları"
+    ],
+    "relatedTerms": [
+      "Avrasya Gümrük Birliği",
+      "Avrasya Ekonomik Birliği (AEB)"
+    ],
+    "order": 56
+  },
+  {
+    "id": "guney_afrika_kalkinma_toplulugu_ve_entegrasyon",
+    "term": "Güney Afrika Kalkınma Topluluğu ve Entegrasyon",
+    "definition": "Güney Afrika'daki ülkeler arasında ekonomik entegrasyonu, kalkınmayı ve barışı sağlamayı amaçlayan bir örgüttür. Serbest ticaret, altyapı projeleri ve bölgesel güvenlik konularında işbirliği yapar. Bölgesel kalkınma için önemli bir platformdur.",
+    "examples": [
+      "SADC Ortak Pazarı",
+      "Sınır Ötesi Altyapı Projeleri"
+    ],
+    "relatedTerms": [
+      "Güney Afrika Kalkınma Topluluğu (SADC)",
+      "Afrika Birliği (AfB)"
+    ],
+    "order": 57
+  },
+  {
+    "id": "dogu_karayip_devletleri_orgutu_ve_birlesme",
+    "term": "Doğu Karayip Devletleri Örgütü ve Birleşme",
+    "definition": "Doğu Karayip Denizi'ndeki küçük ada devletleri arasında ekonomik, sosyal ve siyasi birliği güçlendirmeyi amaçlar. Ortak pazar, serbest dolaşım ve bölgesel kalkınma gibi konulara odaklanır. Küçük devletlerin karşılaştığı zorluklara çözüm bulmayı hedefler.",
+    "examples": [
+      "OECS Ortak Pazar",
+      "Bölgesel Kalkınma Fonları"
+    ],
+    "relatedTerms": [
+      "Doğu Karayip Devletleri Örgütü (OECS)",
+      "Karayip Topluluğu (CARICOM)"
+    ],
+    "order": 58
+  },
+  {
+    "id": "karadeniz_ekonomik_isbirligi_orgutu",
+    "term": "Karadeniz Ekonomik İşbirliği Örgütü (KEİ)",
+    "definition": "Karadeniz'e kıyıdaş ülkelerin ekonomik ilişkilerini geliştirmek, bölgesel işbirliğini güçlendirmek ve istikrarı sağlamak amacıyla 1992'de kurulmuştur. Ticaret, sanayi, tarım ve turizm gibi alanlarda işbirliğini teşvik eder.",
+    "examples": [
+      "Türkiye",
+      "Rusya",
+      "Ukrayna"
+    ],
+    "relatedTerms": [
+      "ECO",
+      "Avrupa Birliği"
+    ],
+    "order": 59
+  },
+  {
+    "id": "asya_isbirligi_ve_guven_artirici_onlemler_konferansi",
+    "term": "Asya İşbirliği ve Güven Artırıcı Önlemler Konferansı (CICA)",
+    "definition": "Asya kıtasında barış, güvenlik ve istikrarı sağlamak amacıyla 1992'de kurulmuş bir uluslararası işbirliği platformudur. Güven artırıcı önlemler ve işbirliği alanlarını kapsar.",
+    "examples": [
+      "Çin",
+      "Hindistan",
+      "Rusya"
+    ],
+    "relatedTerms": [
+      "BM",
+      "NATO"
+    ],
+    "order": 60
+  },
+  {
+    "id": "uluslararasi_para_fona",
+    "term": "Uluslararası Para Fonu (IMF)",
+    "definition": "Küresel finansal istikrarı sağlamak, uluslararası para ticaretini kolaylaştırmak ve üye ülkelere mali destek sağlamak amacıyla 1944'te kurulmuştur. Ekonomik krizlere müdahale eder.",
+    "examples": [
+      "ABD",
+      "Çin",
+      "Almanya"
+    ],
+    "relatedTerms": [
+      "Dünya Bankası",
+      "G20"
+    ],
+    "order": 61
+  },
+  {
+    "id": "dunya_ticaret_orgutu",
+    "term": "Dünya Ticaret Örgütü (DTÖ)",
+    "definition": "Uluslararası ticaretin serbestleştirilmesini, gümrük vergilerinin düşürülmesini ve ticaret engellerinin kaldırılmasını sağlamak amacıyla 1995'te kurulmuştur. Üye ülkeler arasındaki ticaret anlaşmazlıklarını çözer.",
+    "examples": [
+      "Çin",
+      "ABD",
+      "Avrupa Birliği"
+    ],
+    "relatedTerms": [
+      "IMF",
+      "Gümrük Birliği"
+    ],
+    "order": 62
+  },
+  {
+    "id": "birlesmis_milletler_guvenlik_konseyi",
+    "term": "Birleşmiş Milletler Güvenlik Konseyi",
+    "definition": "Uluslararası barış ve güvenliği sağlamaktan sorumlu BM organıdır. Kararları bağlayıcıdır ve barış operasyonları başlatma, yaptırım uygulama yetkisine sahiptir.",
+    "examples": [
+      "ABD",
+      "Rusya",
+      "Çin"
+    ],
+    "relatedTerms": [
+      "BM",
+      "NATO"
+    ],
+    "order": 63
+  },
+  {
+    "id": "uluslararasi_ceza_mahkemesi",
+    "term": "Uluslararası Ceza Mahkemesi (UCM)",
+    "definition": "Savaş suçları, insanlığa karşı suçlar ve soykırım gibi en ciddi uluslararası suçları işleyen kişileri yargılamak amacıyla 2002'de kurulmuştur. Uluslararası hukukun uygulanmasını sağlar.",
+    "examples": [
+      "UCM'ye taraf ülkeler"
+    ],
+    "relatedTerms": [
+      "BM",
+      "Avrupa Konseyi"
+    ],
+    "order": 64
+  },
+  {
+    "id": "kuzey_amerika_serbest_ticaret_anlasmasi",
+    "term": "Kuzey Amerika Serbest Ticaret Anlaşması (NAFTA)",
+    "definition": "ABD, Kanada ve Meksika arasında 1994'te imzalanan, bu ülkeler arasındaki ticaret ve yatırımları serbestleştiren bir anlaşmadır. Günümüzde yerine ABD-Meksika-Kanada Anlaşması (USMCA) geçmiştir.",
+    "examples": [
+      "ABD",
+      "Kanada",
+      "Meksika"
+    ],
+    "relatedTerms": [
+      "DTÖ",
+      "ECO"
+    ],
+    "order": 65
+  },
+  {
+    "id": "birlesmis_milletler_cocuk_fona",
+    "term": "Birleşmiş Milletler Çocuk Fonu (UNICEF)",
+    "definition": "Dünya genelinde çocukların haklarını korumak, sağlık, eğitim ve refahlarını iyileştirmek amacıyla 1946'da kurulmuştur. Çocukların hayatta kalması ve gelişimi için çalışır.",
+    "examples": [
+      "Küresel çocuk sağlığı programları",
+      "Eğitim projeleri"
+    ],
+    "relatedTerms": [
+      "BM",
+      "WHO"
+    ],
+    "order": 66
+  },
+  {
+    "id": "birlesmis_milletler_insani_isleri_koordinasyon_ofisi",
+    "term": "Birleşmiş Milletler İnsani İşleri Koordinasyon Ofisi (OCHA)",
+    "definition": "Dünya genelindeki insani krizlerde koordinasyonu sağlamak, yardım çalışmalarını organize etmek ve acil durumlarda müdahale etmekle görevlidir.",
+    "examples": [
+      "Suriye İç Savaşı yardımları",
+      "Yemen insani krizi"
+    ],
+    "relatedTerms": [
+      "BM",
+      "Kızılay"
+    ],
+    "order": 67
+  },
+  {
+    "id": "uluslararasi_calisma_orgutu",
+    "term": "Uluslararası Çalışma Örgütü (ILO)",
+    "definition": "Uluslararası çalışma standartlarını belirlemek, işçi haklarını korumak ve sosyal adaleti teşvik etmek amacıyla 1919'da kurulmuştur. Çalışma koşullarını iyileştirmeyi hedefler.",
+    "examples": [
+      "Asgari ücret politikaları",
+      "Çocuk işçiliğinin önlenmesi"
+    ],
+    "relatedTerms": [
+      "BM",
+      "IMF"
+    ],
+    "order": 68
+  },
+  {
+    "id": "uluslararasi_enerji_ajansi",
+    "term": "Uluslararası Enerji Ajansı (IEA)",
+    "definition": "Enerji güvenliğini sağlamak, enerji piyasalarını analiz etmek ve sürdürülebilir enerji politikalarını teşvik etmek amacıyla 1974'te kurulmuştur. Enerji politikaları konusunda tavsiyelerde bulunur.",
+    "examples": [
+      "Petrol rezervleri",
+      "Yenilenebilir enerji politikaları"
+    ],
+    "relatedTerms": [
+      "BM",
+      "OPEC"
+    ],
+    "order": 69
+  },
+  {
+    "id": "uluslararasi_sivil_havacilik_orgutu",
+    "term": "Uluslararası Sivil Havacılık Örgütü (ICAO)",
+    "definition": "Uluslararası sivil havacılığın güvenli, düzenli ve verimli bir şekilde gelişmesini sağlamak amacıyla 1947'de kurulmuştur. Hava seyrüsefer standartlarını belirler.",
+    "examples": [
+      "Uçuş güvenliği standartları",
+      "Hava trafik kontrolü"
+    ],
+    "relatedTerms": [
+      "BM",
+      "Uluslararası Denizcilik Örgütü"
+    ],
+    "order": 70
+  },
+  {
+    "id": "uluslararasi_denizcilik_orgutu",
+    "term": "Uluslararası Denizcilik Örgütü (IMO)",
+    "definition": "Uluslararası denizcilik sektöründe güvenliği ve çevresel performansı artırmak amacıyla 1958'de kurulmuştur. Deniz kirliliğini önleme ve deniz güvenliğini sağlama konularında çalışır.",
+    "examples": [
+      "Gemi güvenliği kuralları",
+      "Deniz kirliliği önleme anlaşmaları"
+    ],
+    "relatedTerms": [
+      "BM",
+      "ICAO"
+    ],
+    "order": 71
+  },
+  {
+    "id": "birlesmis_milletler_egitim_bilim_ve_kultur_orgutu",
+    "term": "Birleşmiş Milletler Eğitim, Bilim ve Kültür Örgütü (UNESCO)",
+    "definition": "Eğitim, bilim, kültür ve iletişim alanlarında uluslararası işbirliğini teşvik etmek, barış ve güvenliği sağlamak amacıyla 1945'te kurulmuştur. Miras alanlarını korur.",
+    "examples": [
+      "Dünya Mirası Listesi",
+      "Eğitim reformları"
+    ],
+    "relatedTerms": [
+      "BM",
+      "Avrupa Konseyi"
+    ],
+    "order": 72
+  },
+  {
+    "id": "uluslararasi_telekomunikasyon_birligi",
+    "term": "Uluslararası Telekomünikasyon Birliği (ITU)",
+    "definition": "Küresel telekomünikasyon ağlarını ve hizmetlerini standartlaştırmak, uluslararası iletişimi kolaylaştırmak ve teknolojik gelişmeleri desteklemek amacıyla 1865'te kurulmuştur.",
+    "examples": [
+      "Frekans tahsisi",
+      "İnternet standartları"
+    ],
+    "relatedTerms": [
+      "BM",
+      "Dünya Posta Birliği"
+    ],
+    "order": 73
+  },
+  {
+    "id": "dunya_saglik_orgutu",
+    "term": "Dünya Sağlık Örgütü (WHO)",
+    "definition": "Uluslararası halk sağlığını koordine etmek, salgın hastalıklarla mücadele etmek ve sağlık hizmetlerine erişimi iyileştirmek amacıyla 1948'de kurulmuştur. Küresel sağlık standartlarını belirler.",
+    "examples": [
+      "COVID-19 ile mücadele",
+      "Aşılama kampanyaları"
+    ],
+    "relatedTerms": [
+      "BM",
+      "UNICEF"
+    ],
+    "order": 74
+  },
+  {
+    "id": "balkanlar_ve_ekonomik_isbirligi",
+    "term": "Balkan Ülkeleri Ekonomik İşbirliği Örgütü (BSEC)",
+    "definition": "Balkan ve Karadeniz'e kıyısı olan ülkeler arasında ekonomik işbirliğini teşvik etmek amacıyla 1992'de kurulmuştur. Bölgesel kalkınma ve istikrarı hedefler.",
+    "examples": [
+      "Türkiye",
+      "Yunanistan",
+      "Romanya"
+    ],
+    "relatedTerms": [
+      "Karadeniz Ekonomik İşbirliği Örgütü (KEİ)",
+      "Orta Avrupa Serbest Ticaret Anlaşması (CEFTA)"
+    ],
+    "order": 75
+  },
+  {
+    "id": "brezilya_rusya_hindistan_cin_guney_afrika",
+    "term": "BRICS Ülkeleri",
+    "definition": "Gelişmekte olan büyük ekonomilere sahip Brezilya, Rusya, Hindistan, Çin ve Güney Afrika'dan oluşan birliiktir. Küresel ekonomik ve siyasi konularda işbirliği yaparlar.",
+    "examples": [
+      "Brezilya",
+      "Rusya",
+      "Hindistan",
+      "Çin",
+      "Güney Afrika"
+    ],
+    "relatedTerms": [
+      "Gelişmekte Olan Ülkeler",
+      "Uluslararası Para Fonu (IMF)"
+    ],
+    "order": 76
+  },
+  {
+    "id": "avrupa_birligi",
+    "term": "Avrupa Birliği (AB)",
+    "definition": "27 üye ülkeden oluşan, siyasi ve ekonomik bir birliktir. Ortak pazar, ortak para birimi (Euro) ve ortak politikalarla bölgesel entegrasyonu hedefler.",
+    "examples": [
+      "Türkiye'nin Avrupa Birliği'ne tam üyelik süreci.",
+      "Schengen Bölgesi, AB'nin serbest dolaşım ilkesinin bir örneğidir."
+    ],
+    "relatedTerms": [
+      "Ortak Pazar",
+      "Euro Bölgesi",
+      "Siyasi Entegrasyon"
+    ],
+    "order": 77
+  },
+  {
+    "id": "petrol_ihrac_eden_ulkeler_orgutu",
+    "term": "Petrol İhraç Eden Ülkeler Örgütü (OPEC)",
+    "definition": "Petrol üreten ülkeler arasında petrol politikalarını koordine etmek ve petrol piyasasında istikrarı sağlamak amacıyla kurulmuş uluslararası bir karteldir. Üye ülkelerin petrol gelirlerini maksimize etmeyi hedefler.",
+    "examples": [
+      "OPEC'in petrol üretim kotaları kararları.",
+      "Petrol fiyatlarındaki dalgalanmalarda OPEC'in rolü."
+    ],
+    "relatedTerms": [
+      "Petrol Piyasası",
+      "Kartel",
+      "Enerji Politikaları"
+    ],
+    "order": 78
+  },
+  {
+    "id": "g20",
+    "term": "G20 (Yirmiler Grubu)",
+    "definition": "Dünyanın en büyük ekonomilerine sahip 19 ülke ve Avrupa Birliği'nden oluşan uluslararası bir forumdur. Küresel ekonomik istikrar, sürdürülebilir büyüme ve finansal düzenlemeler konularında işbirliği yapar.",
+    "examples": [
+      "G20 liderler zirvesinde küresel ekonomik sorunların ele alınması.",
+      "G20'nin iklim değişikliği ile mücadele kararları."
+    ],
+    "relatedTerms": [
+      "Küresel Ekonomi",
+      "Finansal İstikrar",
+      "Uluslararası Forum"
+    ],
+    "order": 79
+  },
+  {
+    "id": "g7",
+    "term": "G7 (Yediler Grubu)",
+    "definition": "Dünyanın en büyük yedi gelişmiş ekonomisine sahip ülkelerin oluşturduğu bir forumdur. Küresel ekonomik ve siyasi konuları tartışmak ve ortak politikalar geliştirmek amacıyla toplanır.",
+    "examples": [
+      "G7 liderlerinin uluslararası güvenlik konularındaki açıklamaları.",
+      "G7 ülkelerinin ekonomik büyüme stratejileri."
+    ],
+    "relatedTerms": [
+      "Gelişmiş Ekonomiler",
+      "Küresel Siyaset",
+      "Ekonomik Forum"
+    ],
+    "order": 80
+  },
+  {
+    "id": "latin_amerika_entegrasyon_birligi",
+    "term": "Latin Amerika Entegrasyon Birliği (ALADI)",
+    "definition": "Latin Amerika ülkeleri arasında bölgesel entegrasyonu, serbest ticareti ve ekonomik işbirliğini geliştirmeyi amaçlayan bir kuruluştur. Üye ülkeler arasında ortak pazar oluşturmayı hedefler.",
+    "examples": [
+      "ALADI çerçevesinde uygulanan tercihli ticaret anlaşmaları.",
+      "Latin Amerika ülkeleri arasındaki gümrük birliği çalışmaları."
+    ],
+    "relatedTerms": [
+      "Bölgesel Entegrasyon",
+      "Serbest Ticaret Bölgesi",
+      "Latin Amerika"
+    ],
+    "order": 81
+  },
+  {
+    "id": "uluslararasi_kizilay_ve_kizilhac_federasyonu",
+    "term": "Uluslararası Kızılhaç ve Kızılay Dernekleri Federasyonu (IFRC)",
+    "definition": "Dünya genelinde insani yardım ve felaketlere müdahale sağlayan, ulusal Kızılhaç ve Kızılay derneklerini bir araya getiren bir kuruluştur. İnsan acısını hafifletmeyi ve insan onurunu korumayı amaçlar.",
+    "examples": [
+      "Deprem sonrası insani yardım faaliyetlerinde IFRC'nin rolü.",
+      "Savaş bölgelerinde tıbbi yardım sağlama çalışmaları."
+    ],
+    "relatedTerms": [
+      "İnsani Yardım",
+      "Felaket Yönetimi",
+      "Sivil Toplum Kuruluşu"
+    ],
+    "order": 82
+  },
+  {
+    "id": "uluslararasi_adalet_divani",
+    "term": "Uluslararası Adalet Divanı (UAD)",
+    "definition": "Birleşmiş Milletler'in başlıca yargı organıdır. Devletler arasındaki hukuki uyuşmazlıkları çözmek ve uluslararası hukuka uygun olarak danışma görüşleri vermekle görevlidir.",
+    "examples": [
+      "Devletler arasındaki sınır anlaşmazlıklarının UAD'de görülmesi.",
+      "UAD'nin soykırım davalarına ilişkin kararları."
+    ],
+    "relatedTerms": [
+      "Uluslararası Hukuk",
+      "Birleşmiş Milletler",
+      "Yargı Organı"
+    ],
+    "order": 83
+  },
+  {
+    "id": "uluslararasi_atom_enerjisi_ajansi",
+    "term": "Uluslararası Atom Enerjisi Ajansı (UAEA)",
+    "definition": "Nükleer enerjinin barışçıl amaçlarla kullanımını teşvik eden ve nükleer silahların yayılmasını önlemeyi amaçlayan bağımsız bir kuruluştur. Nükleer tesislerin denetimini yapar.",
+    "examples": [
+      "UAEA'nın İran'ın nükleer programını denetlemesi.",
+      "Nükleer güvenlik standartlarının belirlenmesi."
+    ],
+    "relatedTerms": [
+      "Nükleer Enerji",
+      "Nükleer Güvenlik",
+      "Silahsızlanma"
+    ],
+    "order": 84
+  },
+  {
+    "id": "birlesmis_milletler_kalkinma_programi",
+    "term": "Birleşmiş Milletler Kalkınma Programı (UNDP)",
+    "definition": "Yoksulluğu azaltmak, eşitsizlikleri gidermek ve sürdürülebilir kalkınmayı teşvik etmek amacıyla faaliyet gösteren bir BM kuruluşudur. Ülkelerin kalkınma kapasitelerini artırmayı hedefler.",
+    "examples": [
+      "UNDP'nin Afrika'da yoksullukla mücadele projeleri.",
+      "İnsani Gelişme Raporu UNDP tarafından yayınlanır."
+    ],
+    "relatedTerms": [
+      "Sürdürülebilir Kalkınma",
+      "Yoksullukla Mücadele",
+      "Birleşmiş Milletler"
+    ],
+    "order": 85
+  },
+  {
+    "id": "birlesmis_milletler_multeciler_yuksek_komiserligi",
+    "term": "Birleşmiş Milletler Mülteciler Yüksek Komiserliği (UNHCR)",
+    "definition": "Mültecilerin haklarını korumak, onlara uluslararası koruma sağlamak ve gönüllü geri dönüşlerini veya yerleşimlerini kolaylaştırmak amacıyla kurulmuş bir BM kuruluşudur. Mülteci krizlerine müdahale eder.",
+    "examples": [
+      "UNHCR'nin Suriyeli mültecilere yönelik yardım kampanyaları.",
+      "Mülteci kamplarındaki yaşam koşullarının iyileştirilmesi."
+    ],
+    "relatedTerms": [
+      "Mülteci Hakları",
+      "Uluslararası Koruma",
+      "İnsani Krizler"
+    ],
+    "order": 86
+  },
+  {
+    "id": "d8_gelisen_sekiz_ulke",
+    "term": "D-8 (Gelişen Sekiz Ülke)",
+    "definition": "Türkiye, İran, Pakistan, Bangladeş, Malezya, Endonezya, Mısır ve Nijerya'dan oluşan ekonomik işbirliği örgütüdür. Üye ülkeler arasında ticareti, sanayiyi ve kalkınmayı teşvik etmeyi amaçlar.",
+    "examples": [
+      "D-8, üye ülkeler arasında tercihli ticaret anlaşmaları yapmayı hedefler.",
+      "D-8'in temel amacı, üye ülkelerin küresel ekonomideki konumlarını güçlendirmektir."
+    ],
+    "relatedTerms": [
+      "İslam İşbirliği Teşkilatı",
+      "ASEAN",
+      "BRICS"
+    ],
+    "order": 87
+  },
+  {
+    "id": "uluslararasi_kizilay_ve_kizil_hilal_hareketi",
+    "term": "Uluslararası Kızılhaç ve Kızılay Hareketi",
+    "definition": "Uluslararası insani yardım kuruluşudur. Savaş, doğal afet ve diğer acil durumlarda insan acılarını hafifletmeyi, yaşamı ve sağlığı korumayı amaçlar. Kızılay ve Kızılhaç ulusal derneklerinden oluşur.",
+    "examples": [
+      "Türk Kızılayı, bu hareketin Türkiye'deki temsilcisidir.",
+      "Savaş bölgelerinde insani yardım sağlama çalışmaları yürütürler."
+    ],
+    "relatedTerms": [
+      "Birleşmiş Milletler",
+      "UNICEF",
+      "Dünya Sağlık Örgütü"
+    ],
+    "order": 88
+  },
+  {
+    "id": "uluslararasi_tarimsal_kalkinma_fonu",
+    "term": "Uluslararası Tarımsal Kalkınma Fonu (IFAD)",
+    "definition": "Gelişmekte olan ülkelerde kırsal yoksulluğu azaltmayı amaçlayan bir Birleşmiş Milletler kuruluşudur. Kırsal kesimdeki küçük çiftçilere ve yoksul topluluklara finansman ve destek sağlar.",
+    "examples": [
+      "IFAD, Afrika'daki tarım projelerine kredi sağlamaktadır.",
+      "Gıda güvenliğini artırmaya yönelik programlar yürütür."
+    ],
+    "relatedTerms": [
+      "Dünya Bankası",
+      "FAO",
+      "Birleşmiş Milletler Kalkınma Programı"
+    ],
+    "order": 89
+  },
+  {
+    "id": "uluslararasi_yenilenebilir_enerji_ajansi",
+    "term": "Uluslararası Yenilenebilir Enerji Ajansı (IRENA)",
+    "definition": "Yenilenebilir enerji kaynaklarının dünya genelinde benimsenmesini ve sürdürülebilir kullanımını teşvik eden hükümetler arası bir kuruluştur. Politika tavsiyeleri, teknoloji transferi ve kapasite geliştirme konularında destek sağlar.",
+    "examples": [
+      "IRENA, güneş ve rüzgar enerjisi projelerine teknik destek sunar.",
+      "Üye ülkelerin yenilenebilir enerji hedeflerine ulaşmalarına yardımcı olur."
+    ],
+    "relatedTerms": [
+      "Uluslararası Enerji Ajansı",
+      "Birleşmiş Milletler Çevre Programı",
+      "Paris Anlaşması"
+    ],
+    "order": 90
+  },
+  {
+    "id": "uluslararasi_goc_orgutu",
+    "term": "Uluslararası Göç Örgütü (IOM)",
+    "definition": "Göçün düzenli ve insancıl bir şekilde yönetilmesini sağlamayı amaçlayan başlıca uluslararası kuruluştur. Göçmenlere yardım, göç politikası geliştirme ve göçmen haklarının korunması konularında faaliyet gösterir.",
+    "examples": [
+      "IOM, afet sonrası yerinden edilmiş kişilere barınma ve gıda yardımı sağlar.",
+      "Göçmenlerin entegrasyonu için programlar yürütür."
+    ],
+    "relatedTerms": [
+      "Birleşmiş Milletler Mülteciler Yüksek Komiserliği",
+      "UNICEF"
+    ],
+    "order": 91
+  },
+  {
+    "id": "uluslararasi_kriminal_polis_teskilati",
+    "term": "Uluslararası Kriminal Polis Teşkilatı (Interpol)",
+    "definition": "Uluslararası suçla mücadele etmek amacıyla dünya genelindeki emniyet teşkilatları arasında işbirliğini sağlayan bir kuruluştur. Üye ülkeler arasında bilgi alışverişini ve operasyonel desteği kolaylaştırır.",
+    "examples": [
+      "Interpol, uluslararası aranan suçluların yakalanmasında önemli rol oynar.",
+      "Terörizm ve organize suçlarla mücadele eder."
+    ],
+    "relatedTerms": [
+      "Europol",
+      "Birleşmiş Milletler"
+    ],
+    "order": 92
+  },
+  {
+    "id": "uluslararasi_deniz_hukuku_mahkemesi",
+    "term": "Uluslararası Deniz Hukuku Mahkemesi (ITLOS)",
+    "definition": "Birleşmiş Milletler Deniz Hukuku Sözleşmesi'nin yorumlanması ve uygulanmasından doğan uyuşmazlıkları çözmek için kurulmuş bağımsız bir yargı organıdır. Deniz alanlarındaki devletler arası anlaşmazlıklara bakar.",
+    "examples": [
+      "Deniz sınırları ve balıkçılık hakları konusundaki anlaşmazlıklar ITLOS'ta ele alınabilir.",
+      "Deniz çevresinin korunması ile ilgili davalara bakar."
+    ],
+    "relatedTerms": [
+      "Uluslararası Adalet Divanı",
+      "Birleşmiş Milletler"
+    ],
+    "order": 93
+  },
+  {
+    "id": "uluslararasi_ticaret_merkezi",
+    "term": "Uluslararası Ticaret Merkezi (ITC)",
+    "definition": "Gelişmekte olan ülkelerin uluslararası ticarete katılımını artırmayı ve ihracat kapasitelerini geliştirmeyi amaçlayan bir kuruluştur. Dünya Ticaret Örgütü ve Birleşmiş Milletler'in ortak ajansıdır.",
+    "examples": [
+      "ITC, küçük ve orta ölçekli işletmelere ihracat danışmanlığı sağlar.",
+      "Pazar araştırmaları ve ticaret bilgileri sunar."
+    ],
+    "relatedTerms": [
+      "Dünya Ticaret Örgütü",
+      "Birleşmiş Milletler Ticaret ve Kalkınma Konferansı"
+    ],
+    "order": 94
+  },
+  {
+    "id": "uluslararasi_sivil_savunma_orgutu",
+    "term": "Uluslararası Sivil Savunma Örgütü (ICDO)",
+    "definition": "Üye ülkeler arasında sivil savunma ve afet yönetimi alanında işbirliğini geliştirmeyi amaçlayan hükümetler arası bir kuruluştur. Doğal ve insan kaynaklı afetlere karşı hazırlık ve müdahale kapasitelerini artırır.",
+    "examples": [
+      "ICDO, afet risk azaltma eğitimleri düzenler.",
+      "Üye ülkeler arasında acil durum ekipmanlarının paylaşımını teşvik eder."
+    ],
+    "relatedTerms": [
+      "Birleşmiş Milletler Afet Riskini Azaltma Ofisi",
+      "Kızılay/Kızılhaç"
+    ],
+    "order": 95
+  },
+  {
+    "id": "ekonomik_isbirligi_orgutu_eco",
+    "term": "Ekonomik İşbirliği Teşkilatı (ECO)",
+    "definition": "Türkiye, İran ve Pakistan tarafından kurulan, Orta Asya ve Kafkasya ülkelerini de içine alan bölgesel bir ekonomik örgüttür. Temel amacı üye ülkeler arasında sürdürülebilir ekonomik kalkınmayı teşvik etmektir. Ticaretin serbestleştirilmesi ve bölgesel entegrasyon hedeflenir.",
+    "examples": [
+      "ECO'nun en önemli faaliyetlerinden biri üye ülkeler arasında tercihli ticaret anlaşmaları imzalamaktır.",
+      "ECO, bölgesel altyapı projelerinin geliştirilmesine destek vermektedir."
+    ],
+    "relatedTerms": [
+      "İslam İşbirliği Teşkilatı (İİT)",
+      "Avrasya Ekonomik Birliği",
+      "Gelişen Sekiz Ülke (D-8)"
+    ],
+    "order": 96
+  },
+  {
+    "id": "körfez_isbirligi_konseyi_kik",
+    "term": "Körfez İşbirliği Konseyi (KİK)",
+    "definition": "Basra Körfezi'ndeki altı Arap ülkesi (Suudi Arabistan, Kuveyt, Birleşik Arap Emirlikleri, Katar, Bahreyn ve Umman) tarafından kurulmuş bölgesel bir örgüttür. Üye ülkeler arasında ekonomik, siyasi, askeri ve sosyal işbirliğini ve entegrasyonu teşvik eder. Ortak pazar ve gümrük birliği oluşturma hedefleri vardır.",
+    "examples": [
+      "KİK ülkeleri, ortak bir savunma anlaşması çerçevesinde askeri işbirliği yapmaktadır.",
+      "Bölgesel mali ve ekonomik politikaların uyumlaştırılması KİK'in önemli hedeflerindendir."
+    ],
+    "relatedTerms": [
+      "Arap Ligi",
+      "OPEC",
+      "İslam İşbirliği Teşkilatı (İİT)"
+    ],
+    "order": 97
+  },
+  {
+    "id": "güneydoğu_asya_uluslar_birliği_asean",
+    "term": "Güneydoğu Asya Ulusları Birliği (ASEAN)",
+    "definition": "Güneydoğu Asya ülkeleri arasında bölgesel işbirliğini, ekonomik büyümeyi, sosyal ilerlemeyi ve kültürel gelişmeyi teşvik eden bir örgüttür. Bölgesel barış ve istikrarın sağlanmasına katkıda bulunur. Ortak bir pazar ve üretim üssü oluşturmayı hedefler.",
+    "examples": [
+      "ASEAN, üye ülkeler arasında serbest ticaret anlaşmaları yaparak ekonomik entegrasyonu derinleştirir.",
+      "Bölgesel güvenlik konularında ortak deklarasyonlar yayınlar ve işbirliği yapar."
+    ],
+    "relatedTerms": [
+      "APEC",
+      "Doğu Asya Zirvesi",
+      "Mekong Nehri Komisyonu"
+    ],
+    "order": 98
+  },
+  {
+    "id": "akdeniz_için_birlik",
+    "term": "Akdeniz İçin Birlik (AiB)",
+    "definition": "Avrupa Birliği üye ülkeleri ile Akdeniz'in güney kıyısındaki ülkeleri bir araya getiren bir işbirliği platformudur. Bölgesel istikrar, güvenlik ve ekonomik kalkınmayı teşvik etmeyi amaçlar. Enerji, ulaştırma, çevre gibi alanlarda projeler geliştirir.",
+    "examples": [
+      "AiB, Akdeniz'de yenilenebilir enerji projelerini destekleyerek sürdürülebilir kalkınmaya katkıda bulunur.",
+      "Bölgesel su yönetimi ve kirlilikle mücadele konularında ortak projeler yürütülür."
+    ],
+    "relatedTerms": [
+      "Avrupa Birliği (AB)",
+      "Arap Ligi",
+      "Karadeniz Ekonomik İşbirliği Örgütü (KEİ)"
+    ],
+    "order": 99
+  },
+  {
+    "id": "turk_devletleri_teskilati",
+    "term": "Türk Devletleri Teşkilatı (TDT)",
+    "definition": "Türk dili konuşan devletler arasında kapsamlı işbirliğini amaçlayan uluslararası bir kuruluştur. Üye ülkeler arasında siyasi, ekonomik, kültürel ve sosyal bağları güçlendirmeyi hedefler.",
+    "examples": [
+      "TDT, üye ülkeler arasında ortak tarih ve kültürü vurgulayan projeler gerçekleştirmektedir.",
+      "Ekonomik entegrasyon ve ticaret hacminin artırılması TDT'nin önceliklerindendir."
+    ],
+    "relatedTerms": [
+      "Ekonomik İşbirliği Teşkilatı",
+      "Türksoy",
+      "Ortak Pazar"
+    ],
+    "order": 100
+  },
+  {
+    "id": "uluslararasi_kalkinma_ajansi",
+    "term": "Uluslararası Kalkınma Ajansı (IDA)",
+    "definition": "Dünya Bankası Grubu'nun bir parçası olan IDA, dünyanın en yoksul ülkelerine faizsiz kredi ve hibe sağlayarak kalkınmalarına yardımcı olur. Yoksulluğun azaltılması ve yaşam standartlarının yükseltilmesi hedeflenir.",
+    "examples": [
+      "IDA, Afrika'daki birçok ülkeye altyapı projeleri için finansman sağlamıştır.",
+      "Eğitim ve sağlık hizmetlerinin geliştirilmesi, IDA'nın desteklediği alanlardır."
+    ],
+    "relatedTerms": [
+      "Dünya Bankası",
+      "Uluslararası Para Fonu",
+      "Birleşmiş Milletler Kalkınma Programı"
+    ],
+    "order": 101
+  },
+  {
+    "id": "uluslararasi_tarim_ve_gida_orgutu",
+    "term": "Birleşmiş Milletler Gıda ve Tarım Örgütü (FAO)",
+    "definition": "Açlığı yenmek ve gıda güvenliğini sağlamak için uluslararası çabaları yöneten bir Birleşmiş Milletler kuruluşudur. Tarımsal üretimi artırma, beslenmeyi iyileştirme ve kırsal kalkınmayı destekleme konularında çalışmalar yapar.",
+    "examples": [
+      "FAO, gelişmekte olan ülkelerde sürdürülebilir tarım tekniklerini teşvik etmektedir.",
+      "Gıda israfının azaltılması, FAO'nun küresel kampanyalarından biridir."
+    ],
+    "relatedTerms": [
+      "Dünya Gıda Programı",
+      "Uluslararası Tarımsal Kalkınma Fonu",
+      "Dünya Sağlık Örgütü"
+    ],
+    "order": 102
+  }
+]

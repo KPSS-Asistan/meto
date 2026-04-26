@@ -1,0 +1,242 @@
+[
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Oran",
+    "answer": "İki çokluğun birbirine bölünerek kıyaslanması",
+    "id": "match_1776016983636_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Orantı",
+    "answer": "İki veya daha fazla oranın eşitliği",
+    "id": "match_1776016983636_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Doğru Orantı",
+    "answer": "Bir çokluk artarken diğeri de aynı oranda artar",
+    "id": "match_1776016983636_3",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Ters Orantı",
+    "answer": "Bir çokluk artarken diğeri aynı oranda azalır",
+    "id": "match_1776016983636_4",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Orantı Sabiti (k)",
+    "answer": "Orantıda oranların eşit olduğu sayısal değer",
+    "id": "match_1776016983636_5",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "İçler Dışlar Çarpımı",
+    "answer": "Orantıda iç terimlerin çarpımının dış terimlerin çarpımına eşit olması",
+    "id": "match_1776015722796_6",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T17:42:09.201Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Bileşik Orantı",
+    "answer": "Birden fazla doğru veya ters orantının bir arada bulunması",
+    "id": "match_1776016983636_7",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Aritmetik Ortalama",
+    "answer": "Verilerin toplamının veri sayısına bölünmesi",
+    "id": "match_1776016983636_8",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Geometrik Ortalama",
+    "answer": "n tane pozitif sayının çarpımının n. dereceden kökü",
+    "id": "match_1776016983636_9",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Harmonik Ortalama",
+    "answer": "Veri sayısının, verilerin çarpmaya göre terslerinin toplamına oranı",
+    "id": "match_1776016983636_10",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Doğru Orantı Grafiği",
+    "answer": "Orijinden geçen doğrusal bir doğru",
+    "id": "match_1776015722796_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:42:09.201Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Ters Orantı Grafiği",
+    "answer": "Hiperbolik eğri",
+    "id": "match_1776015722796_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:42:09.201Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Dördüncü Orantılı",
+    "answer": "a/b = c/d eşitliğinde d değeri",
+    "id": "match_1776015722796_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:42:09.201Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Orantılı Paylaştırma",
+    "answer": "Bir bütünün parçalara orantılı şekilde bölünmesi",
+    "id": "match_1776015722796_14",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:42:09.201Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Kare Ortalama",
+    "answer": "Verilerin kareleri toplamının ortalamasının karekökü",
+    "id": "match_1776015722796_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:42:09.201Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Ölçek",
+    "answer": "Harita veya modeldeki bir uzunluğun gerçek uzunluğa oranı",
+    "id": "match_1776016983636_19",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "İçler Yer Değiştirme",
+    "answer": "a/b = c/d iken a/c = b/d olması özelliği",
+    "id": "match_1776015722796_17",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:42:09.201Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Pay ve Payda Toplama",
+    "answer": "a/b = c/d ise (a+c)/(b+d) = k olması",
+    "id": "match_1776015722796_18",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:42:09.201Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Ters Çevirme Özelliği",
+    "answer": "a/b = c/d ise b/a = d/c olması",
+    "id": "match_1776015722796_19",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:42:09.201Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Kısmi Orantı",
+    "answer": "Bir çokluğun başka bir çokluğun parçasıyla orantılı olması",
+    "id": "match_1776015722796_20",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:42:09.201Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "İçler-Dı��lar Çarpımı",
+    "answer": "Orantıda çapraz terimlerin çarpımının eşitliği",
+    "id": "match_1776016983636_6",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Altın Oran",
+    "answer": "Bir bütünün parçaları arasındaki özel bir oran (yaklaşık 1.618)",
+    "id": "match_1776016983636_11",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Yüzde",
+    "answer": "Bir sayının 100'lük oran cinsinden ifadesi",
+    "id": "match_1776016983636_12",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Kesir Oran",
+    "answer": "Bir bütünün parçalarının kesirli olarak ifadesi",
+    "id": "match_1776016983636_13",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Doğru Orantılı Çokluklar",
+    "answer": "Bölümleri sabit olan çokluklar",
+    "id": "match_1776016983636_14",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Ters Orantılı Çokluklar",
+    "answer": "Çarpımları sabit olan çokluklar",
+    "id": "match_1776016983636_15",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Ardışık Orantı",
+    "answer": "A/B = B/C şeklinde devam eden orantı",
+    "id": "match_1776016983636_16",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Oranlama",
+    "answer": "İki niceliği karşılaştırma işlemi",
+    "id": "match_1776016983636_17",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Paylaştırma (Orantılı)",
+    "answer": "Bir bütünü belirli oranlara göre bölme",
+    "id": "match_1776016983636_18",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  },
+  {
+    "topicId": "MAT_ORAN_ORANTI",
+    "question": "Birimsiz Oran",
+    "answer": "Aynı türden iki çokluğun oranı",
+    "id": "match_1776016983636_20",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T18:03:11.247Z"
+  }
+]

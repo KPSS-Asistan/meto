@@ -1,0 +1,1174 @@
+[
+  {
+    "id": "oran",
+    "term": "Oran",
+    "definition": "İki büyüklüğün bölümü olarak ifade edilen ilişkiyi gösterir. KPSS'de iki niceliğin kıyaslanması için kullanılır. a/b şeklinde yazılır ve sadeleştirilir.",
+    "examples": [
+      "12 litre benzin 4 saat yol yaparsa, benzin/saat oranı 3'tür.",
+      "Bir sınıfta 25 erkek 20 kız varsa erkek/kız oranı 5/4'tür."
+    ],
+    "relatedTerms": [
+      "orantı",
+      "birim_oranı",
+      "kesirli_oran"
+    ],
+    "order": 1
+  },
+  {
+    "id": "orantı",
+    "term": "Orantı",
+    "definition": "İki oran arasında eşitlik ilişkisidir; a/b = c/d. KPSS soruları çarpraz çarpım ile kontrol eder. Eşitlik sağlanırsa orantılıdır.",
+    "examples": [
+      "2/3 = 4/6 ise orantılıdır.",
+      "Bir işçi 5 günde 20 m kazı yaparsa 10 günde 40 m yapar (orantı)."
+    ],
+    "relatedTerms": [
+      "çarpraz_çarpım",
+      "doğru_orantı",
+      "ters_orantı"
+    ],
+    "order": 2
+  },
+  {
+    "id": "doğru_orantı",
+    "term": "Doğru Orantı",
+    "definition": "Bir büyüklük artarsa diğeri de aynı yönde artar (x↑ y↑). KPSS'de y = kx formülüyle çözülür. Çarpan sabittir.",
+    "examples": [
+      "Hız artarsa yol aynı sürede artar.",
+      "İşçi sayısı artarsa iş süresi azalır mı? Hayır, doğru orantı."
+    ],
+    "relatedTerms": [
+      "oran_carpanı",
+      "birim_oranı",
+      "ters_orantı"
+    ],
+    "order": 3
+  },
+  {
+    "id": "ters_orantı",
+    "term": "Ters Orantı",
+    "definition": "Bir büyüklük artarsa diğeri azalır (x↑ y↓). KPSS'de xy = k sabit formülü kullanılır. Çarpraz çarpım eşitliği geçerlidir.",
+    "examples": [
+      "Hız artarsa süre azalır.",
+      "2 işçi 10 günde bitirirse 5 işçi 4 günde bitirir."
+    ],
+    "relatedTerms": [
+      "çarpraz_çarpım",
+      "doğru_orantı",
+      "bileşik_oran"
+    ],
+    "order": 4
+  },
+  {
+    "id": "çarpraz_çarpım",
+    "term": "Çarpraz Çarpım",
+    "definition": "Orantıda a*d = b*c eşitliğidir. KPSS'de orantı kontrolü ve denklem kurmada kullanılır. Eşitlik orantıyı doğrular.",
+    "examples": [
+      "2/4 = 3/6 için 2*6=12, 4*3=12 eşit.",
+      "İş sorusunda 3*20=5*12 kontrolü."
+    ],
+    "relatedTerms": [
+      "orantı",
+      "doğru_orantı",
+      "ters_orantı"
+    ],
+    "order": 5
+  },
+  {
+    "id": "oran_carpanı",
+    "term": "Oran Çarpanı",
+    "definition": "Oranları birbirine bağlayan sabit faktördür. KPSS'de doğru orantıda kullanılır (y = kx). Değişimi bulmada etkilidir.",
+    "examples": [
+      "2/5 = 6/15, çarpan 3'tür.",
+      "Maaş 1.2 kat artarsa oran çarpanı 1.2."
+    ],
+    "relatedTerms": [
+      "doğru_orantı",
+      "birim_oranı",
+      "bileşik_oran"
+    ],
+    "order": 6
+  },
+  {
+    "id": "birim_oranı",
+    "term": "Birim Oranı",
+    "definition": "Bir niceliğe karşılık 1 birim diğeridir. KPSS'de birim başına hesaplama için sadeleştirilir. Fiyat veya verim hesaplarında kullanılır.",
+    "examples": [
+      "1 kg elma 10 TL ise birim oranı 10 TL/kg.",
+      "1 saat 50 km ise birim hız 50 km/saat."
+    ],
+    "relatedTerms": [
+      "oran",
+      "oran_carpanı",
+      "kesirli_oran"
+    ],
+    "order": 7
+  },
+  {
+    "id": "kesirli_oran",
+    "term": "Kesirli Oran",
+    "definition": "Oran kesir şeklinde yazılır ve sadeleştirilir. KPSS'de oran eşitliklerinde kullanılır. Pay ve paydaya ortak bölenle kısaltılır.",
+    "examples": [
+      "3/6 = 1/2 sadeleştirme.",
+      "Mal paylaşımında 2/5 ve 3/5 oran."
+    ],
+    "relatedTerms": [
+      "oran",
+      "birim_oranı",
+      "alt_oran"
+    ],
+    "order": 8
+  },
+  {
+    "id": "ic_bölme",
+    "term": "İç Orantılı Bölme",
+    "definition": "Bir doğru parçası içten orantılı bölünürse AB/CD = AE/ED. KPSS'de nokta paylaşımı sorulur. Çarpraz çarpım geçerlidir.",
+    "examples": [
+      "AB=10, AE=4 ise ED=6.",
+      "Miras paylaşımında iç bölme."
+    ],
+    "relatedTerms": [
+      "dış_bölme",
+      "alt_oran",
+      "üst_oran"
+    ],
+    "order": 9
+  },
+  {
+    "id": "dış_bölme",
+    "term": "Dış Orantılı Bölme",
+    "definition": "Doğru parçası dıştan orantılı bölünür; AB/CD = AE/ED (ED negatif). KPSS'de oran farkı hesaplarında kullanılır.",
+    "examples": [
+      "AB=10, AE=15 ise ED=-5.",
+      "Yatırım oranlarında dış bölme."
+    ],
+    "relatedTerms": [
+      "ic_bölme",
+      "çarpraz_çarpım",
+      "bileşik_oran"
+    ],
+    "order": 10
+  },
+  {
+    "id": "alt_oran",
+    "term": "Alt Oran",
+    "definition": "Orantıda paydalar arasındaki orandır (b/d). KPSS'de orantı analizinde kullanılır. Üst oranla birlikte tam oranı verir.",
+    "examples": [
+      "2/3 = 4/6 ise alt oran 3/6=1/2.",
+      "Karışım sorusunda alt oran."
+    ],
+    "relatedTerms": [
+      "üst_oran",
+      "kesirli_oran",
+      "ic_bölme"
+    ],
+    "order": 11
+  },
+  {
+    "id": "üst_oran",
+    "term": "Üst Oran",
+    "definition": "Orantıda paylar arasındaki orandır (a/c). KPSS'de oran bileşenlerini ayırmada kullanılır. Alt oranla çarpımı tam orandır.",
+    "examples": [
+      "2/3=4/6 ise üst oran 2/4=1/2.",
+      "Hız oranlarında üst oran."
+    ],
+    "relatedTerms": [
+      "alt_oran",
+      "bileşik_oran",
+      "dış_bölme"
+    ],
+    "order": 12
+  },
+  {
+    "id": "bileşik_oran",
+    "term": "Bileşik Oran",
+    "definition": "Üç veya daha fazla nicelik arasındaki orandır. KPSS'de çapraz çarpımlar zinciriyle çözülür. Birim oranlara indirgenir.",
+    "examples": [
+      "A:B:C = 2:3:5 ise B/A=3/2.",
+      "Üç malın paylaşımı."
+    ],
+    "relatedTerms": [
+      "üçüncü_oran",
+      "dördüncü_oran",
+      "ters_orantı"
+    ],
+    "order": 13
+  },
+  {
+    "id": "üçüncü_oran",
+    "term": "Üçüncü Oran",
+    "definition": "Bileşik orantıda bir niceliğe göre üçüncü oran bulunur. KPSS'de (a/b)*(b/c)=a/c formülüyle hesaplanır.",
+    "examples": [
+      "A:B=2:3, B:C=3:4 ise A:C=2:4=1:2.",
+      "İşçi veriminde üçüncü oran."
+    ],
+    "relatedTerms": [
+      "bileşik_oran",
+      "dördüncü_oran",
+      "çarpraz_çarpım"
+    ],
+    "order": 14
+  },
+  {
+    "id": "dördüncü_oran",
+    "term": "Dördüncü Oran",
+    "definition": "Dört nicelikte son oran bulunur; zincir çarpraz çarpımla. KPSS'de karmaşık oran sorularında kullanılır.",
+    "examples": [
+      "A:B=1:2, B:C=2:3, C:D=3:4 ise A:D=1:6.",
+      "Karışım dördüncü oran."
+    ],
+    "relatedTerms": [
+      "bileşik_oran",
+      "üçüncü_oran",
+      "oran_carpanı"
+    ],
+    "order": 15
+  },
+  {
+    "id": "basit_oran",
+    "term": "Basit Oran",
+    "definition": "İki niceliğin oranı olup, pay ve payda asal sayılara indirgenmiştir. KPSS soruları sadeleştirme ve oran genişletme üzerine odaklanır. Çarpanlarına ayrılır.",
+    "examples": [
+      "4:6 oranı 2:3'e sadeleşir.",
+      "1:2 basit oranında 300 TL paylaşılırsa B 200 TL alır."
+    ],
+    "relatedTerms": [
+      "Oran",
+      "Bileşik Oran",
+      "Oran Eşitliği"
+    ],
+    "order": 16
+  },
+  {
+    "id": "uculu_oranti",
+    "term": "Üçlü Orantı",
+    "definition": "Üç niceliğin oranı olup, a/b = b/c şeklinde çapraz eşitliktir. KPSS'de geometrik ortalama hesaplarında kullanılır. Orta terim kareköküdür.",
+    "examples": [
+      "2, 4, 8 üçlü orantıdadır.",
+      "a:b = b:c ise b² = a*c."
+    ],
+    "relatedTerms": [
+      "Bileşik Oran",
+      "Orantıdaki Üçüncü",
+      "Alt Oran"
+    ],
+    "order": 17
+  },
+  {
+    "id": "besli_oranti",
+    "term": "Beşli Orantı",
+    "definition": "Beş niceliğin doğru veya ters ilişkisidir, KPSS'de karma problemlerde sorulur. Üçüncü ve dördüncü bulunur. Çapraz çarpımlar uygulanır.",
+    "examples": [
+      "a:b :: c:d :: e:f şeklinde.",
+      "İşçi, süre, iş üçlü ters; ücret doğru orantılı."
+    ],
+    "relatedTerms": [
+      "Ters Orantı",
+      "Orantıdaki Dördüncü",
+      "Üst Oran"
+    ],
+    "order": 18
+  },
+  {
+    "id": "oranti_ucuncu",
+    "term": "Orantıdaki Üçüncü",
+    "definition": "a:b = x:c ise x bulunur, x = (a*c)/b. KPSS'de doğru orantıda kullanılır. Çapraz çarpımla hesaplanır.",
+    "examples": [
+      "2:3 = 4:x ise x=6.",
+      "10 km/saat : 5 km/saat = x : 3 saat ise x=6 saat."
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Orantıdaki Dördüncü",
+      "Üçlü Orantı"
+    ],
+    "order": 19
+  },
+  {
+    "id": "oranti_dorduncu",
+    "term": "Orantıdaki Dördüncü",
+    "definition": "a:b = c:x ise x = (b*c)/a. KPSS'de ters orantıda sık sorulur. Çarpım eşitliğiyle bulunur.",
+    "examples": [
+      "3:5 = 12:x ise x=20.",
+      "8 işçi:12 işçi = x:10 gün ise x=6.67 gün."
+    ],
+    "relatedTerms": [
+      "Ters Orantı",
+      "Orantıdaki Üçüncü",
+      "Beşli Orantı"
+    ],
+    "order": 20
+  },
+  {
+    "id": "oran_esitligi",
+    "term": "Oran Eşitliği",
+    "definition": "a/b = c/d ise ad=bc kuralıdır. KPSS'de orantı kontrolünde ve sadeleştirmede temel alınır. Çapraz çarpım yapılır.",
+    "examples": [
+      "2/4 = 3/6, 12=12.",
+      "Oran eşitliği doğru orantı gösterir."
+    ],
+    "relatedTerms": [
+      "Oran",
+      "Doğru Orantı",
+      "Alt Oran"
+    ],
+    "order": 21
+  },
+  {
+    "id": "orantili_bolme",
+    "term": "Orantılı Bölme",
+    "definition": "Bir doğru parçasının oranlı noktalara bölünmesidir. KPSS'de iç ve dış bölme olarak sorulur. Bölüm oranı verilir.",
+    "examples": [
+      "AB'yi 2:3 oranında M noktası böler.",
+      "İç bölmede M, A ve B arasındadır."
+    ],
+    "relatedTerms": [
+      "İç Bölme",
+      "Dış Bölme",
+      "Oran"
+    ],
+    "order": 22
+  },
+  {
+    "id": "ic_bolme",
+    "term": "İç Bölme",
+    "definition": "Orantılı nokta segmentin içindedir, AM:MB = m:n. KPSS'de koordinat geometrisinde kullanılır. M = (nA + mB)/(m+n).",
+    "examples": [
+      "AB=10, 2:3 iç bölmede AM=4, MB=6.",
+      "Nokta A(0,0), B(5,0); 1:2 iç M(10/3,0)."
+    ],
+    "relatedTerms": [
+      "Dış Bölme",
+      "Orantılı Bölme",
+      "Oran"
+    ],
+    "order": 23
+  },
+  {
+    "id": "dis_bolme",
+    "term": "Dış Bölme",
+    "definition": "Orantılı nokta segmentin dışındadır, AM:MB = m:n (yön ters). KPSS'de koordinat formülü M = (nA - mB)/(n-m).",
+    "examples": [
+      "AB=10, 2:3 dış bölmede AM=20, MB=-10.",
+      "A(0,0), B(5,0); 1:2 dış M(-10/1,0)."
+    ],
+    "relatedTerms": [
+      "İç Bölme",
+      "Orantılı Bölme",
+      "Oran"
+    ],
+    "order": 24
+  },
+  {
+    "id": "ucuncu_orantili",
+    "term": "Üçüncü Orantılı Sayı",
+    "definition": "a:b = b:x ise x üçüncü orantılıdır ve x = b²/a. KPSS'de oran eşitliğinden bulunur. Çapraz çarpım ile hesaplanır.",
+    "examples": [
+      "3:6 = 6:x ise x=12.",
+      "4:10 = 10:x ise x=25."
+    ],
+    "relatedTerms": [
+      "Dördüncü Orantılı",
+      "Altı Orantılı",
+      "Çapraz Çarpım"
+    ],
+    "order": 25
+  },
+  {
+    "id": "dorduncu_orantili",
+    "term": "Dördüncü Orantılı Sayı",
+    "definition": "a:b = c:x ise x dördüncü orantılıdır ve x = (b*c)/a. KPSS soruları dört sayıdan birini buldurur. Orantı formülüyle çözülür.",
+    "examples": [
+      "2:3 = 8:x ise x=12.",
+      "5:7 = 10:x ise x=14."
+    ],
+    "relatedTerms": [
+      "Üçüncü Orantılı",
+      "Altı Orantılı",
+      "Oran Çarpanı"
+    ],
+    "order": 26
+  },
+  {
+    "id": "alti_orantili",
+    "term": "Altı Orantılı",
+    "definition": "a:b = c:d = e:f şeklinde üç oran eşitliğidir. KPSS'de eksik sayıyı çapraz çarpımla buldurur. Tüm oranlar eşittir.",
+    "examples": [
+      "1:2 = 3:6 = 5:x ise x=10.",
+      "2:5 = 4:x = 10:25."
+    ],
+    "relatedTerms": [
+      "Üçüncü Orantılı",
+      "Dördüncü Orantılı",
+      "Çapraz Çarpım"
+    ],
+    "order": 27
+  },
+  {
+    "id": "capraz_carpim",
+    "term": "Çapraz Çarpım",
+    "definition": "Orantıda a*d = b*c kontrolü veya çözümüdür. KPSS soruları eşitlik doğrulaması için sorar. Orantı eşitliğinin temelidir.",
+    "examples": [
+      "2/4 = 3/6 için 2*6=4*3=12.",
+      "5/10 = 1/2 çapraz 10=10."
+    ],
+    "relatedTerms": [
+      "Orantı",
+      "Üçüncü Orantılı",
+      "Dördüncü Orantılı"
+    ],
+    "order": 28
+  },
+  {
+    "id": "ortalama_oranti",
+    "term": "Ortalama Orantı",
+    "definition": "İki uç sayı arasında eşit oranlı ortadır, a:x:b ile x=(a+b)/2. KPSS'de geometrik değil aritmetik ortalama ile karışır. Doğru orantıdadır.",
+    "examples": [
+      "3:x:9 ise x=6.",
+      "2:4:8 ortalama 4."
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Üçüncü Orantılı",
+      "Geometrik Ortalama"
+    ],
+    "order": 29
+  },
+  {
+    "id": "geometrik_ortalama",
+    "term": "Geometrik Ortalama",
+    "definition": "Orantıda üçüncü orantılıdır, √(a*b). KPSS'de oran eşitliğiyle bulunur. İki sayı arasındaki orantılı ortadır.",
+    "examples": [
+      "4 ve 9'un geo ortalaması √36=6.",
+      "2:6:18 geo ort 6."
+    ],
+    "relatedTerms": [
+      "Üçüncü Orantılı",
+      "Ortalama Orantı",
+      "Altı Orantılı"
+    ],
+    "order": 30
+  },
+  {
+    "id": "denklem_kurma",
+    "term": "Orantı Denklem Kurma",
+    "definition": "Orantı sorunlarında değişkenli denklem yazmadır. KPSS'de doğru/ters orantı için x ile formül kurulur. Çözüm oran eşitliğinden yapılır.",
+    "examples": [
+      "İşçi artınca süre azalır: x* y = sabit.",
+      "Fiyat:miktar = sabit ise denklem x/y=k."
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Ters Orantı",
+      "Çapraz Çarpım"
+    ],
+    "order": 31
+  },
+  {
+    "id": "altigen",
+    "term": "Altıgen",
+    "definition": "Orantıda çapraz çarpımların yapılması işlemidir; a/b = c/d ise a*d = b*c olur. KPSS sorularında orantı eşitliğini kontrol etmek veya bilinmeyeni bulmak için kullanılır.",
+    "examples": [
+      "2/5 = 6/x ise 2x=30, x=15 (altıgenle çözülür).",
+      "İşçi/gün = işçi/gün denkliğinde çapraz çarpım yapılır."
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Ters Orantı",
+      "Orantı Çarpanı"
+    ],
+    "order": 32
+  },
+  {
+    "id": "oranti_carpani",
+    "term": "Orantı Çarpanı",
+    "definition": "Orantıda bir niceliğin diğerine oranıyla çarpılarak yeni nicelik bulunur. KPSS'de oranları değiştirerek çözüm için kullanılır, örneğin 2:3 oranını 4:6'ya çevirmek 2'yle çarpmaktır.",
+    "examples": [
+      "2:3 oranında 50 birim ilk kısma düşerse oran çarpanı 25'tir (50/2=25), ikincisi 75 olur.",
+      "1:4 oranını 3 katına çıkarırsak 3:12 olur."
+    ],
+    "relatedTerms": [
+      "Altıgen",
+      "Üçlü Orantı",
+      "Doğru Orantı"
+    ],
+    "order": 33
+  },
+  {
+    "id": "orantilik_katsayisi",
+    "term": "Orantılık Katsayısı",
+    "definition": "Doğru orantıda iki büyüklük arasındaki sabit çarpandır; y = kx formunda k katsayısıdır. KPSS'de işçi sayısı-iş miktarı gibi problemlerde bilinir.",
+    "examples": [
+      "3 işçi 12 günde iş bitiriyorsa k=36 işçi-gün olur.",
+      "Hız 60 km/sa, zaman 2 sa ise yol = k*60*2, k=1."
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Ters Orantı",
+      "Çarpraz Çarpım"
+    ],
+    "order": 34
+  },
+  {
+    "id": "oran_payi",
+    "term": "Oran Payı",
+    "definition": "Oranda kesrin üst kısmıdır; a/b oranında 'a' paydır. Sadeleştirmede pay ve paydayı ortak bölenle bölerek sade oran elde edilir.",
+    "examples": [
+      "5/10 oranında pay 5'tir, 1/2'ye sadeleşir.",
+      "Erkek:kız=3:4, pay 3 erkekleri gösterir."
+    ],
+    "relatedTerms": [
+      "Oran",
+      "Birim Oranı",
+      "Kesirli Oran"
+    ],
+    "order": 35
+  },
+  {
+    "id": "oran_paydasi",
+    "term": "Oran Paydası",
+    "definition": "Oranda kesrin alt kısmıdır; a/b oranında 'b' paydadır. Oran büyütme/küçültmede payda ile birlikte çarpılır/bölünür.",
+    "examples": [
+      "5/10 oranında payda 10'dur.",
+      "2:5 oranında payda 5'i temsil eder."
+    ],
+    "relatedTerms": [
+      "Oran",
+      "Oran Payı",
+      "Basit Oran"
+    ],
+    "order": 36
+  },
+  {
+    "id": "oranlarin_toplanmasi",
+    "term": "Oranların Toplanması",
+    "definition": "Aynı paydaya getirilerek toplanır; a/b + c/d = (ad+bc)/bd. KPSS karışım problemlerinde kullanılır.",
+    "examples": [
+      "1/2 + 1/3 = 5/6.",
+      "2 işçi:3 işçi oranı toplanmaz, payda eşitlenir."
+    ],
+    "relatedTerms": [
+      "Bileşik Oran",
+      "Oran Eşitliği"
+    ],
+    "order": 37
+  },
+  {
+    "id": "oranlarin_cikarilmasi",
+    "term": "Oranların Çıkarılması",
+    "definition": "Aynı paydaya getirilerek çıkarılır; a/b - c/d = (ad-bc)/bd. Zarar hesabı gibi KPSS sorularında yaygındır.",
+    "examples": [
+      "3/4 - 1/4 = 1/2.",
+      "Kar oranı 20% - gider %10 = net 10%."
+    ],
+    "relatedTerms": [
+      "Bileşik Oran",
+      "Oran Farkı"
+    ],
+    "order": 38
+  },
+  {
+    "id": "oranlarin_carpilmasi",
+    "term": "Oranların Çarpılması",
+    "definition": "Paylar ve paydalar ayrı çarpılır; (a/b)*(c/d)=(ac/ bd). Bileşik oranlarda KPSS'de sık sorulur.",
+    "examples": [
+      "2/3 * 3/4 = 1/2.",
+      "Hız oranı 2:3 çarpılır 4:6 olur."
+    ],
+    "relatedTerms": [
+      "Bileşik Oran",
+      "Oran Çarpanı"
+    ],
+    "order": 39
+  },
+  {
+    "id": "oranlarin_bolinmesi",
+    "term": "Oranların Bölünmesi",
+    "definition": "Çarpma tersine çevrilerek yapılır; (a/b)/(c/d)= (a/b)*(d/c). Ters orantı problemlerinde kullanılır.",
+    "examples": [
+      "(3/4)/(2/5)=15/8.",
+      "İş oranı 4:5 bölünürse 4/5 olur."
+    ],
+    "relatedTerms": [
+      "Ters Orantı",
+      "Çarpraz Çarpım"
+    ],
+    "order": 40
+  },
+  {
+    "id": "yuzde_orani",
+    "term": "Yüzde Oranı",
+    "definition": "Oranı 100'e böler yüzde olarak ifade eder; (a/b)*100. KPSS kar-zarar, nüfus sorularında zorunludur.",
+    "examples": [
+      "3/4 = %75.",
+      "Satış 120 TL, alış 100 TL ise kar %20."
+    ],
+    "relatedTerms": [
+      "Oran",
+      "Birim Oranı"
+    ],
+    "order": 41
+  },
+  {
+    "id": "ondalik_oran",
+    "term": "Ondalık Oran",
+    "definition": "Oranı ondalık kesre çevirir; a/b = a÷b. Hesaplamalarda KPSS hız problemlerinde pratiktir.",
+    "examples": [
+      "3/4=0.75.",
+      "2/5=0.4 oranında pay 0.4'tür."
+    ],
+    "relatedTerms": [
+      "Kesirli Oran",
+      "Yüzde Oranı"
+    ],
+    "order": 42
+  },
+  {
+    "id": "orantili_artis",
+    "term": "Orantılı Artış",
+    "definition": "Bir büyüklük doğru orantılı olarak artarsa diğerleri de aynı oranda artar. KPSS fiyat artışı sorularında kullanılır.",
+    "examples": [
+      "Mal %20 artarsa adet aynı kalır, toplam %20 artar.",
+      "İşçi 2 kat artarsa süre yarıya iner."
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Orantı Çarpanı"
+    ],
+    "order": 43
+  },
+  {
+    "id": "orantili_azalis",
+    "term": "Orantılı Azalış",
+    "definition": "Doğru orantılı büyüklük azalırsa diğeri de aynı oranda azalır. KPSS indirim problemlerinde yaygındır.",
+    "examples": [
+      "Fiyat %10 azalırsa adet aynı, toplam %10 azalır.",
+      "İşçi azalınca süre artar."
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Ters Orantı"
+    ],
+    "order": 44
+  },
+  {
+    "id": "oran_donusumu",
+    "term": "Oran Dönüşümü",
+    "definition": "Oranı sade, büyüme, yüzde veya ondalık forma çevirme işlemidir. KPSS karşılaştırmalarda zorunludur.",
+    "examples": [
+      "4/8=1/2 sade, %50 yüzde.",
+      "2:3=0.666 ondalık."
+    ],
+    "relatedTerms": [
+      "Basit Oran",
+      "Yüzde Oranı",
+      "Ondalık Oran"
+    ],
+    "order": 45
+  },
+  {
+    "id": "oran_tablosu",
+    "term": "Oran Tablosu",
+    "definition": "Problemlerde oranları tabloya yazarak çözüm kolaylaştırır. KPSS karışım ve iş sorularında standart yöntemdir.",
+    "examples": [
+      "A:B=2:3 tablosu: A=2k, B=3k."
+    ],
+    "relatedTerms": [
+      "Orantı Denklem Kurma",
+      "Üçlü Orantı"
+    ],
+    "order": 46
+  },
+  {
+    "id": "harmonik_ortalama",
+    "term": "Harmonik Ortalama",
+    "definition": "Ters orantılı ortalamadır; n sayı için n / (1/x1 + ... +1/xn). KPSS hız ortalamalarında sorulur.",
+    "examples": [
+      "2 hız 30 ve 60 km/sa, harmonik 40 km/sa.",
+      "İş süreleri için kullanılır."
+    ],
+    "relatedTerms": [
+      "Ters Orantı",
+      "Geometrik Ortalama"
+    ],
+    "order": 47
+  },
+  {
+    "id": "aritmetik_ortalama_oranti",
+    "term": "Aritmetik Ortalama Orantı",
+    "definition": "Ortalama ile ilgili doğru orantılı hesaptır; toplam/n. KPSS yaş, nüfus ortalamalarında kullanılır.",
+    "examples": [
+      "3/5 + 4/5 ortalaması 7/10.",
+      "Nüfus oranlarında aritmetik kullanılır."
+    ],
+    "relatedTerms": [
+      "Ortalama Orantı",
+      "Geometrik Ortalama"
+    ],
+    "order": 48
+  },
+  {
+    "id": "agırlıklı_ortalama",
+    "term": "Ağırlıklı Ortalama",
+    "definition": "Her veriye bir ağırlık verilerek hesaplanan ortalamadır: Σ (xi * wi) / Σ wi. KPSS puan hesaplamalarında branş ağırlıkları için kullanılır. Orantılı paylaştırmalarda temel kavramdır.",
+    "examples": [
+      "KPSS'de Eğitim Bilimleri %28, Genel Yetenek %28 ağırlıkla ağırlıklı ortalama puanı verir.",
+      "İki malzeme %60 ve %40 oranla karıştırılırsa birim maliyet ağırlıklı ortalamadır."
+    ],
+    "relatedTerms": [
+      "Orantılı Bölme",
+      "Bileşik Oran",
+      "Oran Çarpanı"
+    ],
+    "order": 49
+  },
+  {
+    "id": "orantı_sabiti",
+    "term": "Orantı Sabiti (k)",
+    "definition": "Doğru orantılı çoklukların oranının veya ters orantılı çoklukların çarpımının her zaman eşit olduğu sabit değerdir. Genellikle 'k' ile gösterilir.",
+    "examples": [
+      "a ve b doğru orantılı ise a/b = k'dır.",
+      "x ve y ters orantılı ise x * y = k'dır."
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Ters Orantı",
+      "Orantılılık"
+    ],
+    "order": 50
+  },
+  {
+    "id": "bileşik_orantı",
+    "term": "Bileşik Orantı",
+    "definition": "İki veya daha fazla çokluğun hem doğru hem de ters orantı ilişkisi içinde olduğu durumlardır. Problemler genellikle 'işçi-iş-zaman' gibi senaryolarda karşımıza çıkar.",
+    "examples": [
+      "x, y ile doğru orantılı, z ile ters orantılıdır.",
+      "3 işçi 5 günde 10 m duvar örerse, 6 işçi 8 günde kaç m duvar örer?"
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Ters Orantı",
+      "Orantı Problemleri"
+    ],
+    "order": 51
+  },
+  {
+    "id": "orantı_problemleri",
+    "term": "Orantı Problemleri",
+    "definition": "Oran ve orantı kavramlarını kullanarak günlük hayattaki veya matematiksel senaryolardaki bilinmeyen değerleri bulmaya yönelik sorulardır. KPSS'de sıklıkla karşılaşılan temel soru tipleridir.",
+    "examples": [
+      "Bir karışımın oranlarını kullanarak yeni bir karışım hazırlama.",
+      "Bir işin belirli bir kısmını yapan kişi sayısını veya süreyi hesaplama."
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Ters Orantı",
+      "Bileşik Orantı"
+    ],
+    "order": 52
+  },
+  {
+    "id": "orantılı_büyüme_katsayısı",
+    "term": "Orantılı Büyüme Katsayısı",
+    "definition": "Bir büyüklüğün zamanla veya başka bir değişkene bağlı olarak ne kadar kat arttığını veya azaldığını gösteren orandır. Genellikle yüzde olarak ifade edilir.",
+    "examples": [
+      "Nüfusun yıllık büyüme katsayısı.",
+      "Bir yatırımın getiri katsayısı."
+    ],
+    "relatedTerms": [
+      "Yüzde Artış",
+      "Yüzde Azalış",
+      "Oran"
+    ],
+    "order": 53
+  },
+  {
+    "id": "orantısal_dağılım",
+    "term": "Orantısal Dağılım",
+    "definition": "Bir bütünün belirli oranlara göre parçalara ayrılması işlemidir. Genellikle miras paylaşımı, kar dağıtımı gibi konularda kullanılır.",
+    "examples": [
+      "Bir mirasın 2:3:5 oranında paylaşılması.",
+      "Bir şirketin karının ortaklar arasında sermaye oranlarına göre dağıtılması."
+    ],
+    "relatedTerms": [
+      "Orantılı Bölme",
+      "Oran",
+      "Paylaşım"
+    ],
+    "order": 54
+  },
+  {
+    "id": "orantısal_temsil",
+    "term": "Orantısal Temsil",
+    "definition": "Bir bütünün veya grubun içindeki farklı bileşenlerin oranlarını gösteren temsildir. Genellikle grafikler (pasta grafiği, sütun grafiği) ile ifade edilir.",
+    "examples": [
+      "Bir ülkedeki farklı yaş gruplarının nüfusa oranı.",
+      "Bir bütçedeki harcama kalemlerinin toplam harcamaya oranı."
+    ],
+    "relatedTerms": [
+      "Yüzde Oranı",
+      "Oran",
+      "Veri Analizi"
+    ],
+    "order": 55
+  },
+  {
+    "id": "ters_orantılı_bölme",
+    "term": "Ters Orantılı Bölme",
+    "definition": "Bir sayının veya miktarın belirli sayılarla ters orantılı olacak şekilde parçalara ayrılmasıdır. Sayılar büyüdükçe düşen pay azalır.",
+    "examples": [
+      "Bir ödülün yaşları ile ters orantılı olarak dağıtılması.",
+      "Bir işin maliyetinin işin zorluğu ile ters orantılı olarak paylaşılması."
+    ],
+    "relatedTerms": [
+      "Doğru Orantılı Bölme",
+      "Ters Orantı",
+      "Orantısal Dağılım"
+    ],
+    "order": 56
+  },
+  {
+    "id": "orantı_kuralları",
+    "term": "Orantı Kuralları",
+    "definition": "Orantılarla işlem yaparken kullanılan temel cebirsel özelliklerdir. İçler dışlar çarpımı, oranların toplanıp çıkarılması gibi kuralları içerir.",
+    "examples": [
+      "a/b = c/d ise a*d = b*c'dir.",
+      "a/b = c/d = k ise (a+c)/(b+d) = k'dır."
+    ],
+    "relatedTerms": [
+      "Orantı",
+      "Denklem Çözme",
+      "Cebirsel İfadeler"
+    ],
+    "order": 57
+  },
+  {
+    "id": "orantı_grafikleri",
+    "term": "Orantı Grafikleri",
+    "definition": "Doğru veya ters orantılı ilişkileri görsel olarak temsil eden grafiklerdir. Doğru orantı genellikle orijinden geçen bir doğru, ters orantı ise bir eğri ile gösterilir.",
+    "examples": [
+      "Yol-zaman grafiği (sabit hızda doğru orantı).",
+      "Hız-zaman grafiği (sabit mesafe için ters orantı)."
+    ],
+    "relatedTerms": [
+      "Doğru Orantı",
+      "Ters Orantı",
+      "Fonksiyon Grafikleri"
+    ],
+    "order": 58
+  },
+  {
+    "id": "orantı_sistemleri",
+    "term": "Orantı Sistemleri",
+    "definition": "Birden fazla orantının bir arada bulunduğu ve birbirini etkilediği durumlardır. Genellikle karmaşık problemleri çözmek için kullanılır.",
+    "examples": [
+      "Bir fabrikadaki üretim hattında farklı makinelerin verimlilik oranları.",
+      "Bir projedeki farklı ekiplerin iş tamamlama oranları."
+    ],
+    "relatedTerms": [
+      "Bileşik Orantı",
+      "Orantı Problemleri",
+      "Sistem Analizi"
+    ],
+    "order": 59
+  },
+  {
+    "id": "oran_tahmini",
+    "term": "Oran Tahmini",
+    "definition": "Verilen bilgilere dayanarak bir olayın veya durumun gelecekteki oranını veya değerini öngörme işlemidir. İstatistik ve olasılıkla ilişkilidir.",
+    "examples": [
+      "Geçmiş verilere dayanarak bir ürünün satış oranını tahmin etme.",
+      "Seçim anketlerindeki oranlara göre sonuç tahmini."
+    ],
+    "relatedTerms": [
+      "Olasılık",
+      "İstatistik",
+      "Tahmin"
+    ],
+    "order": 60
+  },
+  {
+    "id": "orantısal_model",
+    "term": "Orantısal Model",
+    "definition": "Gerçek dünya olaylarını veya ilişkilerini oran ve orantı prensipleriyle basitleştirerek açıklayan matematiksel bir modeldir. Bilimsel ve mühendislik alanlarında kullanılır.",
+    "examples": [
+      "Bir harita üzerindeki ölçek (orantısal model).",
+      "Kimyasal reaksiyonlardaki madde oranları."
+    ],
+    "relatedTerms": [
+      "Matematiksel Modelleme",
+      "Oran",
+      "Uygulamalı Matematik"
+    ],
+    "order": 61
+  },
+  {
+    "id": "orantısal_ölçekleme",
+    "term": "Orantısal Ölçekleme",
+    "definition": "Bir nesnenin veya görüntünün boyutlarını belirli bir oranda büyütme veya küçültme işlemidir. Şeklin oranları korunur.",
+    "examples": [
+      "Bir fotoğrafı belirli bir oranda büyütme veya küçültme.",
+      "Bir mimari çizimin ölçeğini değiştirme."
+    ],
+    "relatedTerms": [
+      "Ölçek",
+      "Oran",
+      "Geometri"
+    ],
+    "order": 62
+  },
+  {
+    "id": "ters_orantili_iliskiler",
+    "term": "Ters Orantılı İlişkiler",
+    "definition": "İki değişkenin çarpımı sabit bir değere eşitse, bu değişkenler ters orantılıdır. Bir değişken artarken diğeri aynı oranda azalır.",
+    "examples": [
+      "Bir işi yapan işçi sayısı arttıkça işin bitme süresi azalır.",
+      "Sabit bir mesafeyi kat eden aracın hızı arttıkça yolculuk süresi azalır."
+    ],
+    "relatedTerms": [
+      "Doğru Orantılı İlişkiler",
+      "Orantı Sabiti",
+      "Oran"
+    ],
+    "order": 63
+  },
+  {
+    "id": "dogru_orantili_iliskiler",
+    "term": "Doğru Orantılı İlişkiler",
+    "definition": "İki değişkenin oranı sabit bir değere eşitse, bu değişkenler doğru orantılıdır. Bir değişken arttıkça diğeri de aynı oranda artar.",
+    "examples": [
+      "Alınan mal miktarı arttıkça ödenen ücret artar.",
+      "Bir aracın sabit hızla gittiği süre arttıkça katettiği mesafe artar."
+    ],
+    "relatedTerms": [
+      "Ters Orantılı İlişkiler",
+      "Oran Sabiti",
+      "Orantı"
+    ],
+    "order": 64
+  },
+  {
+    "id": "k_orantısı",
+    "term": "k Orantısı",
+    "definition": "Oran ve orantı problemlerinde kullanılan, orantılı çoklukların eşitlendiği sabite verilen genel addır. Problemleri çözmede kolaylık sağlar.",
+    "examples": [
+      "a/b = c/d = k eşitliğinde k, orantı sabitidir.",
+      "x:y:z = 2:3:5 ise x=2k, y=3k, z=5k şeklinde ifade edilir."
+    ],
+    "relatedTerms": [
+      "Orantı Sabiti",
+      "Oran",
+      "Doğru Orantı"
+    ],
+    "order": 65
+  },
+  {
+    "id": "orantı_kurma",
+    "term": "Orantı Kurma",
+    "definition": "Verilen iki veya daha fazla çokluk arasındaki ilişkiyi doğru veya ters orantı prensiplerine göre matematiksel bir denkleme dönüştürme işlemidir. Problemlerin çözümünde ilk adımdır.",
+    "examples": [
+      "3 kalem 15 TL ise 5 kalem kaç TL'dir? (3/15 = 5/x)",
+      "4 işçi bir işi 6 günde yaparsa, 8 işçi aynı işi kaç günde yapar? (4*6 = 8*x)"
+    ],
+    "relatedTerms": [
+      "Orantı Denklem Kurma",
+      "Problem Çözme",
+      "Orantı"
+    ],
+    "order": 66
+  },
+  {
+    "id": "ortalama_orantı_sayısı",
+    "term": "Ortalama Orantı Sayısı",
+    "definition": "İki sayının geometrik ortalamasına verilen diğer bir isimdir. a ve b sayılarının ortalama orantısı √(a*b) şeklinde bulunur.",
+    "examples": [
+      "4 ve 9 sayılarının ortalama orantısı √(4*9) = √36 = 6'dır."
+    ],
+    "relatedTerms": [
+      "Geometrik Ortalama",
+      "Orantı",
+      "Kareköklü İfadeler"
+    ],
+    "order": 67
+  },
+  {
+    "id": "orantısal_bölme",
+    "term": "Orantısal Bölme",
+    "definition": "Bir bütünün, belirli oranlara göre parçalara ayrılması işlemidir. Paylaştırma problemlerinde sıkça kullanılır.",
+    "examples": [
+      "120 TL'yi 2:3 oranında iki kişiye paylaştırmak.",
+      "Bir karışımı 1:2:3 oranında hazırlamak."
+    ],
+    "relatedTerms": [
+      "Oran Payı",
+      "Oran",
+      "Paylaştırma"
+    ],
+    "order": 68
+  },
+  {
+    "id": "orantı_özellikleri",
+    "term": "Orantı Özellikleri",
+    "definition": "Orantıların korunmasını sağlayan ve problem çözümünde kullanılan matematiksel kurallardır. İçler dışlar çarpımı, oranların toplanıp çıkarılması gibi özellikleri içerir.",
+    "examples": [
+      "a/b = c/d ise a*d = b*c (içler dışlar çarpımı)",
+      "a/b = c/d = (a+c)/(b+d)"
+    ],
+    "relatedTerms": [
+      "Orantı",
+      "Oran",
+      "Denklem Çözme"
+    ],
+    "order": 69
+  },
+  {
+    "id": "orantı_ile_yüzde_ilişkisi",
+    "term": "Orantı ile Yüzde İlişkisi",
+    "definition": "Yüzde kavramının, bir sayının 100'e oranlanması esasına dayanması nedeniyle orantı ile doğrudan ilişkilidir. Yüzde problemleri orantı kurularak çözülebilir.",
+    "examples": [
+      "30'un %20'si kaçtır? (30/x = 100/20)",
+      "Bir ürün %10 zamlanırsa yeni fiyatı ne olur? (Eski fiyat/Yeni fiyat = 100/110)"
+    ],
+    "relatedTerms": [
+      "Yüzde Oranı",
+      "Oran",
+      "Yüzde Problemleri"
+    ],
+    "order": 70
+  },
+  {
+    "id": "orantı_ile_kesir_ilişkisi",
+    "term": "Orantı ile Kesir İlişkisi",
+    "definition": "Oranlar, kesirler şeklinde ifade edilebilir ve kesirlerin temel özelliklerini taşır. Kesirlerle yapılan işlemler, orantılar için de geçerlidir.",
+    "examples": [
+      "2/3 oranı, bir bütünden 3 parçadan 2'sini ifade eden kesirdir.",
+      "Kesirlerde sadeleştirme, oranlarda da yapılabilir."
+    ],
+    "relatedTerms": [
+      "Oran",
+      "Kesirler",
+      "Sadeleştirme"
+    ],
+    "order": 71
+  },
+  {
+    "id": "orantı_ve_ölçek",
+    "term": "Orantı ve Ölçek",
+    "definition": "Haritalar, planlar ve modellerde kullanılan ölçekler, gerçek boyutlar ile çizim boyutları arasındaki sabit bir oranı ifade eder. Orantı prensipleriyle çalışır.",
+    "examples": [
+      "1:1000 ölçekli bir haritada 1 cm, gerçekte 1000 cm'ye karşılık gelir.",
+      "Bir model arabanın gerçek arabaya oranı."
+    ],
+    "relatedTerms": [
+      "Ölçek",
+      "Oran",
+      "Harita Bilgisi"
+    ],
+    "order": 72
+  },
+  {
+    "id": "orantı_ve_oran_farkı",
+    "term": "Orantı ve Oran Farkı",
+    "definition": "Oran, iki çokluğun birbirine bölünmesiyle elde edilen bir sayıdır. Orantı ise iki veya daha fazla oranın birbirine eşit olması durumudur.",
+    "examples": [
+      "3/5 bir orandır.",
+      "3/5 = 6/10 bir orantıdır."
+    ],
+    "relatedTerms": [
+      "Oran",
+      "Orantı",
+      "Eşitlik"
+    ],
+    "order": 73
+  },
+  {
+    "id": "dogru_orantili_bolme",
+    "term": "Doğru Orantılı Bölme",
+    "definition": "Bir bütünün, verilen oranlara göre parçalara ayrılması işlemidir. Parçalar, oranlarla doğru orantılı olarak büyür veya küçülür. Genellikle miras paylaşımı veya kâr dağıtımında kullanılır.",
+    "examples": [
+      "120 TL'yi 2:3 oranında bölüştürmek.",
+      "Bir şirketin kârını ortaklar arasında sermayeleri oranında dağıtmak."
+    ],
+    "relatedTerms": [
+      "Ters Orantılı Bölme",
+      "Orantısal Dağılım",
+      "Oran Payı"
+    ],
+    "order": 74
+  },
+  {
+    "id": "ortalama_hiz_problemleri",
+    "term": "Ortalama Hız Problemleri",
+    "definition": "Farklı hızlarla farklı mesafeler kat edilen durumlarda toplam yolun toplam zamana oranlanmasıyla bulunan ortalama hızı ifade eder. Genellikle iki nokta arasında gidiş-dönüş süreleri ve hızları üzerinden hesaplanır.",
+    "examples": [
+      "Bir aracın A noktasından B noktasına 60 km/s, B noktasından A noktasına 40 km/s hızla gitmesi durumunda ortalama hızı.",
+      "Bir koşucunun farklı etaplardaki hızlarına göre tüm parkurdaki ortalama hızı."
+    ],
+    "relatedTerms": [
+      "Doğru Orantılı İlişkiler",
+      "Oran Problemleri",
+      "Aritmetik Ortalama Orantı"
+    ],
+    "order": 75
+  },
+  {
+    "id": "is_havuz_problemleri",
+    "term": "İş ve Havuz Problemleri",
+    "definition": "Birden fazla kişinin veya kaynağın (musluk gibi) belirli bir işi veya havuzu doldurma/boşaltma süresi ile ilgili orantısal hesaplamaları içerir. İşin tamamı '1' kabul edilerek birim zamanda yapılan iş miktarları toplanır veya çıkarılır.",
+    "examples": [
+      "İki işçinin bir duvarı farklı sürelerde örmesi durumunda birlikte ne kadar sürede örecekleri.",
+      "İki musluğun bir havuzu farklı sürelerde doldurması ve bir musluğun boşaltması durumunda havuzun dolma süresi."
+    ],
+    "relatedTerms": [
+      "Ters Orantılı İlişkiler",
+      "Oran Problemleri",
+      "Bileşik Orantı"
+    ],
+    "order": 76
+  },
+  {
+    "id": "karisim_problemleri",
+    "term": "Karışım Problemleri",
+    "definition": "Farklı oranlarda veya yüzdelerde maddelerin karıştırılması sonucunda oluşan yeni karışımın oranını veya yüzdesini bulmaya yönelik problemlerdir. Genellikle tuzlu su, alkollü su gibi sıvı karışımlarında kullanılır.",
+    "examples": [
+      "Yüzde 20'lik tuzlu su ile yüzde 30'luk tuzlu suyun karıştırılmasıyla oluşan yeni karışımın tuz oranı.",
+      "Farklı ayardaki altınların eritilerek yeni bir alaşım elde edilmesi."
+    ],
+    "relatedTerms": [
+      "Yüzde Oranı",
+      "Oran Dönüşümü",
+      "Orantı Problemleri"
+    ],
+    "order": 77
+  },
+  {
+    "id": "yas_problemleri",
+    "term": "Yaş Problemleri",
+    "definition": "Kişilerin yaşları arasındaki oranların veya farkların zaman içindeki değişimini inceleyen problemlerdir. Genellikle birden fazla kişinin yaşları arasındaki orantısal ilişkileri ve bu ilişkilerin geçmiş veya gelecekteki durumunu sorgular.",
+    "examples": [
+      "Bir babanın yaşının oğlunun yaşının 3 katı olması ve 5 yıl sonraki yaş oranları.",
+      "İki kardeşin yaşları toplamının belirli bir oranda artması."
+    ],
+    "relatedTerms": [
+      "Oran Problemleri",
+      "Doğru Orantılı İlişkiler",
+      "Orantı Kurma"
+    ],
+    "order": 78
+  },
+  {
+    "id": "ortalama_orantili_bolme",
+    "term": "Ortalama Orantılı Bölme",
+    "definition": "Bir sayının belirli oranlara göre bölüştürülmesi işlemidir. Genellikle bir bütünün, verilen oranlar doğrultusunda parçalara ayrılmasında kullanılır ve her parçanın bütün içindeki payını belirler.",
+    "examples": [
+      "Bir mirası 2:3:5 oranında paylaşan üç kardeşin alacağı payları hesaplama.",
+      "Bir karışımı belirli oranlarda oluşturan maddelerin miktarlarını bulma."
+    ],
+    "relatedTerms": [
+      "Orantılı Bölme",
+      "Doğru Orantılı Bölme",
+      "Bileşik Orantı"
+    ],
+    "order": 79
+  }
+]

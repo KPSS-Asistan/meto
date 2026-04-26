@@ -1,0 +1,934 @@
+[
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 1: Bölme İşleminin Temel Tanımı ve Bileşenleri",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Bölme İşleminin Temel Tanımı ve Bileşenleri"
+      },
+      {
+        "type": "text",
+        "text": "Bölme işlemi, bir çokluğun eşit parçalara ayrılması sürecidir ve dört temel bileşenden oluşur. Bölünen, bölen, bölüm ve kalan arasındaki ilişki matematiksel olarak A = B . C + K formülüyle ifade edilir. Bu formül, bölme işlemlerindeki bilinmeyenleri bulmak için temel dayanağımızdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• A: Bölünen sayı\n• B: Bölen sayı\n• C: Bölüm\n• K: Kalan"
+      },
+      {
+        "type": "text",
+        "text": "Bölme algoritmasında her zaman bölen sayının sıfırdan farklı olması gerekmektedir. Kalanın varlığı, bölme işleminin tam bölünmediğini gösterir. Bu yapı, KPSS sınavında çıkan temel işlem sorularının temelini oluşturur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Bölünen = (Bölen x Bölüm) + Kalan eşitliği her zaman sağlanmalıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999828714_MAT__1",
+    "createdAt": "2026-04-12T13:17:08.714Z",
+    "updatedAt": "2026-04-12T13:17:08.714Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T13:17:20.202Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_0.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 2: Bölme İşleminde Kalanın Özellikleri",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Bölme İşleminde Kalanın Özellikleri"
+      },
+      {
+        "type": "text",
+        "text": "Bölme işleminde kalan (K), her zaman bölenden (B) küçük olmak zorundadır. Eğer kalan, bölene eşit veya büyükse, bölme işlemi henüz tamamlanmamış demektir. Kalanın sıfır olması ise bölünen sayının bölene tam bölündüğünü kanıtlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• 0 ≤ K < B şartı daima sağlanmalıdır.\n• Kalan negatif bir değer alamaz.\n• Bölüm ile kalan yer değiştirirse yeni bir bölme durumu oluşur.\n• Kalanın alabileceği en büyük değer bölenin bir eksiğidir."
+      },
+      {
+        "type": "text",
+        "text": "Kalanın sınırlarını bilmek, sınavda karşımıza çıkan 'kalanın alabileceği değerler toplamı' gibi sorularda hata yapmamızı engeller. Bu özellik, sayı kümeleri arasındaki geçişlerde kritik bir rol oynar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kural: Kalan her zaman bölenden küçük olmalıdır; aksi halde bölme işlemi devam eder."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999828715_MAT__2",
+    "createdAt": "2026-04-12T13:17:08.714Z",
+    "updatedAt": "2026-04-12T13:17:08.714Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T13:17:20.202Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_1.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 3: Bölme İşleminde Bölümün Değer Aralığı",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Bölme İşleminde Bölümün Değer Aralığı"
+      },
+      {
+        "type": "text",
+        "text": "Bölme işleminde bölümün değerini maksimize veya minimize etmek için bölen ile kalan arasındaki ilişkiyi optimize etmeliyiz. Bölen ve bölüm yer değiştirdiğinde, kalan değişmemek kaydıyla bölünen sayı aynı kalır. Bu durum, özellikle ardışık bölme işlemlerinde karşımıza çıkar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Bölümün en büyük olması için bölen en küçük seçilir.\n• Kalanın en büyük olması için bölenin bir eksiği alınır.\n• A = B.C + K yapısında B ve C yer değiştirebilir.\n• Kalanın sıfır olduğu durumlarda çarpan analizi yapılır."
+      },
+      {
+        "type": "text",
+        "text": "Bölünenin alabileceği değerleri hesaplarken, kalan kısıtlamasını dikkate alarak işlem yapmak sizi sonuca daha hızlı götürür. Özellikle KPSS sorularında bu değişkenlerin yer değiştirmesi, çözüm için anahtar bir yöntemdir."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Bölümün en küçük değerini bulmak için, kalan değerini olabildiğince büyük tutun."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999828716_MAT__3",
+    "createdAt": "2026-04-12T13:17:08.714Z",
+    "updatedAt": "2026-04-12T13:17:08.714Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T13:17:20.202Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_2.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 4: Bölme İşleminde Bölüneni Tahmin Etme",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Bölme İşleminde Bölüneni Tahmin Etme"
+      },
+      {
+        "type": "text",
+        "text": "Bölünen sayıyı tahmin ederken, verilen bölen, bölüm ve kalan değerleri temel algoritma içerisine yerleştirilir. Eğer değişkenlerden biri bilinmiyorsa, kalan kısıtlaması kullanılarak aralıklar belirlenir. Bu yöntem, özellikle tam sayı problemleri için vazgeçilmezdir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Kalanın bölenden küçük olduğu eşitsizliği yazın.\n• Bilinenleri formülde yerine koyun.\n• Bölünenin alabileceği tam sayı değerlerini listeleyin.\n• Sınır değerlerini kontrol ederek sonuca ulaşın."
+      },
+      {
+        "type": "text",
+        "text": "Bazen bölünen sayı bir aralık şeklinde ifade edilebilir. Bu gibi durumlarda, en küçük ve en büyük değerleri bularak toplam veya fark işlemleri gerçekleştirilir. Mantıksal çıkarım, işlemsel hızdan daha önemlidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Unutmayın: Bölünenin alabileceği değerler, kalan sınırına göre şekillenir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999828717_MAT__4",
+    "createdAt": "2026-04-12T13:17:08.714Z",
+    "updatedAt": "2026-04-12T13:17:08.714Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T13:17:20.202Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_3.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 5: Bölünebilme Kurallarına Giriş: 2 ile Bölünebilme",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Bölünebilme Kurallarına Giriş: 2 ile Bölünebilme"
+      },
+      {
+        "type": "text",
+        "text": "2 ile bölünebilme kuralı, sayıların son basamağının çift olup olmamasıyla ilgilidir. Bir sayının birler basamağı 0, 2, 4, 6 veya 8 rakamlarından biriyse, o sayı çift kabul edilir ve 2'ye tam bölünür. Bu, en temel bölünebilme kuralıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Birler basamağı 0, 2, 4, 6, 8 olan sayılar 2'ye tam bölünür.\n• Tek sayıların 2 ile bölümünden kalan her zaman 1'dir.\n• Çift sayıların 2 ile bölümünden kalan her zaman 0'dır.\n• Büyük sayılarda sadece son basamağa bakmak yeterlidir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sorularında 2 ile bölünebilme, diğer kurallarla birleştirilerek sorulur. Özellikle 'en büyük veya en küçük değer' sorularında birler basamağını belirlemek için ilk kontrol noktasıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Pratik Bilgi: Bir sayının çift olması, o sayının 2'nin tam katı olduğu anlamına gelir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999828718_MAT__5",
+    "createdAt": "2026-04-12T13:17:08.714Z",
+    "updatedAt": "2026-04-12T13:17:08.714Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T13:17:20.202Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_4.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 6: 5 ile Bölünebilme Kuralı",
+    "content": [
+      {
+        "type": "heading",
+        "text": "5 ile Bölünebilme Kuralı"
+      },
+      {
+        "type": "text",
+        "text": "5 ile bölünebilme kuralı, sayının birler basamağının 0 veya 5 olması durumuna dayanır. Eğer birler basamağı bu iki rakamdan biriyse, sayı 5'e tam bölünür. Diğer durumlarda ise kalan, birler basamağının 5'e bölümünden elde edilen değerdir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Son basamak 0 veya 5 ise kalan 0'dır.\n• Son basamak 0-4 arasındaysa kalan sayının kendisidir.\n• Son basamak 5-9 arasındaysa kalan sayının 5 eksiğidir.\n• 5'in katı olan sayılar 10 ile bölünebilme ile ilişkilidir."
+      },
+      {
+        "type": "text",
+        "text": "Bu kuralı uygulamak için sayının tamamını görmenize gerek yoktur. Sadece birler basamağını incelemek, sınavda zaman kazandıran hızlı bir yöntemdir. Kalan bulma pratikleri, test teknikleri açısından kritiktir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Sayının 5 ile bölümünden kalanı bulmak için birler basamağını 5'e bölmeniz yeterlidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999828719_MAT__6",
+    "createdAt": "2026-04-12T13:17:08.714Z",
+    "updatedAt": "2026-04-12T13:17:08.714Z",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T13:17:20.202Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_5.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 7: 10 ile Bölünebilme Kuralı",
+    "content": [
+      {
+        "type": "heading",
+        "text": "10 ile Bölünebilme Kuralı"
+      },
+      {
+        "type": "text",
+        "text": "10 ile bölünebilme, sayı sistemimizin onluk tabanda olmasından dolayı en basit kuraldır. Bir sayının 10'a tam bölünebilmesi için birler basamağının 0 olması gerekir. Birler basamağındaki her rakam, aslında o sayının 10 ile bölümünden kalanı verir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Birler basamağı 0 olan sayılar 10'a tam bölünür.\n• Birler basamağı kaç ise 10 ile bölümünden kalan odur.\n• 10'a bölünebilme, 2 ve 5 ile bölünebilmenin kesişimidir.\n• Sayı analizi yaparken ilk bakılması gereken kuraldır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavında verilen büyük sayılarda kalan sorulduğunda, direkt birler basamağına odaklanmak sizi doğrudan cevaba götürür. Bu kural, karmaşık bölünebilme sorularının çözümünde en hızlı yöntemdir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kural: Bir sayının 10 ile bölümünden kalan, o sayının birler basamağıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999828720_MAT__7",
+    "createdAt": "2026-04-12T13:17:08.714Z",
+    "updatedAt": "2026-04-12T13:17:08.714Z",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T13:17:20.202Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_6.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 8: 3 ile Bölünebilme Kuralı",
+    "content": [
+      {
+        "type": "heading",
+        "text": "3 ile Bölünebilme Kuralı"
+      },
+      {
+        "type": "text",
+        "text": "3 ile bölünebilme kuralı, sayıyı oluşturan tüm rakamların toplamının 3'ün katı olması esasına dayanır. Eğer rakamlar toplamı 3 veya 3'ün katıysa, sayı 3'e tam bölünür; değilse, toplamın 3'e bölümünden kalan, sayının 3 ile bölümünden kalanı verir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Rakamların toplamı 3, 6, 9... olmalıdır.\n• 9 ile bölünebilme kuralı ile benzer mantığa sahiptir.\n• Sayının basamak sayısı ne kadar büyük olursa olsun kural değişmez.\n• Kalan bulma işleminde toplama tekrar edilebilir."
+      },
+      {
+        "type": "text",
+        "text": "3 ile bölünebilme kuralı, 9 ile bölünebilme kuralı ile sıkça karıştırılır ancak 9'un kuralı 9'un katlarını, 3'ün kuralı ise 3'ün katlarını arar. Sınavlarda rakamları birbirine yakın olan sayılarda dikkatli analiz yapılmalıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Eğer rakamlar toplamı yine büyükse, toplamı tekrar toplayarak küçültebilirsiniz."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999828721_MAT__8",
+    "createdAt": "2026-04-12T13:17:08.714Z",
+    "updatedAt": "2026-04-12T13:17:08.714Z",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T13:17:20.202Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_7.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 9: 9 ile Bölünebilme Kuralı",
+    "content": [
+      {
+        "type": "text",
+        "text": "Bir sayının 9 ile tam bölünebilmesi için o sayının basamaklarındaki rakamların toplamının 9 veya 9'un katı olması gerekir. Bu kural, sayının büyüklüğünden bağımsız olarak uygulanabilen oldukça pratik bir yöntemdir. Kalanı bulmak için rakamlar toplamını 9'a bölmek yeterlidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sayının tüm rakamlarını toplayın.\n• Elde edilen toplam 9'un katı ise sayı 9'a tam bölünür.\n• Toplam 9'un katı değilse, bölümden kalan rakamlar toplamının 9 ile bölümünden kalandır.\n• Çok basamaklı sayılarda işlem yaparken rakamları toplamaya devam ederek sonucu hızla ulaşabilirsiniz."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavlarında genellikle bilinmeyen bir değişken içeren sayıların 9'a bölümünden kalan üzerinden soru sorulmaktadır. Bu tarz sorularda, diğer rakamların toplamını 9'a tamamlayan değerleri eleyerek işlem yapmak vakit kazandırır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: 9 ile bölünebilme kuralı, 3 ile bölünebilme kuralı ile benzer mantıkla çalışır ancak her 3'ün katı olan sayı 9'un katı değildir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999840203_MAT__9",
+    "createdAt": "2026-04-12T13:17:20.203Z",
+    "updatedAt": "2026-04-12T13:17:20.203Z",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T13:17:38.890Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_8.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 10: 4 ile Bölünebilme Kuralı",
+    "content": [
+      {
+        "type": "text",
+        "text": "Bir sayının 4 ile tam bölünebilmesi için sayının son iki basamağının oluşturduğu sayının 4'ün katı olması gerekir. Sayının yüzler, binler veya daha büyük basamaklarının 4'e bölünüp bölünmemesi sonucu etkilemez. Bu nedenle sadece birler ve onlar basamağına odaklanmak yeterlidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sayının son iki basamağını inceleyin.\n• Son iki basamak 00, 04, 08, 12, ... gibi 4'ün katı olmalıdır.\n• Son iki basamak 4'e tam bölünmüyorsa, kalan, bu iki basamaklı sayının 4'e bölümünden kalan ile aynıdır.\n• 100 ve 100'ün katı olan tüm sayılar 4'e tam bölündüğü için yüzler basamağından itibaren sola doğru olan kısım ihmal edilebilir."
+      },
+      {
+        "type": "text",
+        "text": "Sınavlarda genellikle son iki basamağı bilinmeyen (örneğin A4 gibi) sayıların 4'e tam bölünme şartları sorgulanır. Bu durumda A yerine gelebilecek değerleri 4'ün katlarına göre sistematik olarak yazmak en güvenli yoldur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Eğer bir sayı 4'e bölünüyorsa, aynı zamanda 2'ye de kesinlikle bölünür."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999840204_MAT__10",
+    "createdAt": "2026-04-12T13:17:20.203Z",
+    "updatedAt": "2026-04-12T13:17:20.203Z",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T13:17:38.890Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_9.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 11: 8 ile Bölünebilme Kuralı",
+    "content": [
+      {
+        "type": "text",
+        "text": "Bir sayının 8 ile bölünebilmesi için sayının son üç basamağının 8'in katı olması gerekir. 1000 sayısı 8'e tam bölündüğü için, 1000 ve üzerindeki basamakların 8 ile bölünebilme üzerinde bir etkisi yoktur. Bu yöntem, büyük sayılarla çalışırken işlem yükünü ciddi oranda azaltır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sayının son üç basamağına bakın.\n• Son üç basamak 000, 008, 016, 024 gibi 8'in katı olmalıdır.\n• Eğer son üç basamak 8'e tam bölünmüyorsa, kalan, bu üç basamaklı sayının 8'e bölümünden kalandır.\n• Çok büyük sayılarda bölme işlemi yapmak yerine, son üç basamağı kademeli olarak sadeleştirerek kontrol edebilirsiniz."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de 8 ile bölünebilme kuralları genellikle daha nadir gelse de, 4 ile bölünebilme ile birleştirilerek zorlaştırılmış sorular olarak karşımıza çıkabilir. Özellikle son üç basamağı bilinmeyen sorularda dikkatli olunmalıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Bir sayı 8'e bölünüyorsa, 2 ve 4'e de tam bölünür."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999840205_MAT__11",
+    "createdAt": "2026-04-12T13:17:20.203Z",
+    "updatedAt": "2026-04-12T13:17:20.203Z",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T13:17:38.890Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_10.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 12: 6 ile Bölünebilme Kuralı",
+    "content": [
+      {
+        "type": "text",
+        "text": "6 ile bölünebilme kuralı, sayının hem 2 hem de 3 ile aynı anda bölünmesini gerektirir. 6 sayısı aralarında asal iki çarpan olan 2 ve 3'ün çarpımıdır. Bu nedenle bir sayının 6'ya bölünebilmesi için hem çift olması hem de rakamları toplamının 3'ün katı olması gerekir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sayı önce 2 ile bölünebilme kuralına (çift olma) göre kontrol edilmelidir.\n• Ardından 3 ile bölünebilme kuralına (rakamlar toplamı 3'ün katı) göre kontrol edilmelidir.\n• Her iki kuralı da sağlayan sayı 6'ya tam bölünür.\n• Eğer sayı tek ise, rakamlar toplamı 3'ün katı olsa bile 6'ya bölünmez."
+      },
+      {
+        "type": "text",
+        "text": "Soru çözerken önce 2 ile bölünebilme kuralını uygulayarak seçenekleri elemek, 3 ile bölünebilme kuralını uygulamaktan daha hızlı sonuç verir. Bu strateji sınav anında süreyi verimli kullanmanızı sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: 6 ile bölünebilme kurallarında 2 ve 3'ün aralarında asal olması kuralın temelidir, diğer çarpanlar (örneğin 1 ve 6) kullanılamaz."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999840206_MAT__12",
+    "createdAt": "2026-04-12T13:17:20.203Z",
+    "updatedAt": "2026-04-12T13:17:20.203Z",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T13:17:38.890Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_11.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 13: 12 ile Bölünebilme Kuralı",
+    "content": [
+      {
+        "type": "text",
+        "text": "12 ile bölünebilme kuralı, sayının 3 ve 4 ile aynı anda bölünmesini gerektirir. 12'nin çarpanları 2 ve 6 seçilemez çünkü bunlar aralarında asal değildir. Bu nedenle kural, mutlaka aralarında asal olan 3 ve 4 üzerinden işlenmelidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sayı 3 ile bölünebilme kuralını (rakamlar toplamı 3'ün katı) sağlamalıdır.\n• Sayı 4 ile bölünebilme kuralını (son iki basamak 4'ün katı) sağlamalıdır.\n• İki kuralı da aynı anda sağlayan sayı 12'ye tam bölünür.\n• Bilinmeyen rakam içeren sorularda önce 4 ile bölünebilme kuralı ile seçenekler daraltılmalıdır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavlarında 12 ile bölünebilme, genellikle iki farklı değişkenin olduğu sorularda karşımıza çıkar. Öncelikle 4 ile bölünebilme kuralını kullanarak değişkenin alabileceği değerleri belirlemek, 3 ile bölünebilme kuralını uygulamayı kolaylaştırır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: 3 ve 4 aralarında asal olduğu için bu ikisinin kontrolü yeterlidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999840207_MAT__13",
+    "createdAt": "2026-04-12T13:17:20.203Z",
+    "updatedAt": "2026-04-12T13:17:20.203Z",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T13:17:38.890Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_12.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 14: 15 ile Bölünebilme Kuralı",
+    "content": [
+      {
+        "type": "text",
+        "text": "15 ile bölünebilme kuralı, sayının 3 ve 5 ile aynı anda bölünmesini gerektirir. 15'in çarpanları 3 ve 5'tir ve bu sayılar aralarında asaldır. Dolayısıyla bir sayının 15'e tam bölünmesi için birler basamağının 0 veya 5 olması ve rakamları toplamının 3'ün katı olması şarttır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Birler basamağı 0 veya 5 olmalıdır (5 ile bölünebilme).\n• Rakamlar toplamı 3'ün katı olmalıdır (3 ile bölünebilme).\n• Bu iki şartı sağlayan sayılar 15'e tam bölünür.\n• İşlem yaparken önce 5 ile bölünebilme kuralını kullanmak, birler basamağındaki belirsizliği ortadan kaldırır."
+      },
+      {
+        "type": "text",
+        "text": "Sınav sorularında genellikle birler basamağı bilinmeyen bir sayı verilir. 5 ile bölünebilme kuralı sayesinde birler basamağının alabileceği sadece iki değer (0 veya 5) olduğu için çözüm kümesi hızla daralır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: 15 ile bölünebilme kuralı, birler basamağına doğrudan müdahale ettiği için oldukça kritiktir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999840208_MAT__14",
+    "createdAt": "2026-04-12T13:17:20.203Z",
+    "updatedAt": "2026-04-12T13:17:20.203Z",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T13:17:38.890Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_13.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 15: 11 ile Bölünebilme Kuralı",
+    "content": [
+      {
+        "type": "text",
+        "text": "11 ile bölünebilme kuralında sayının basamakları sağdan sola doğru sırasıyla +, -, +, - şeklinde işaretlenir. İşaretlenen rakamların toplamı 11'in katı (0, 11, 22 gibi) ise sayı 11'e tam bölünür. Bu kural, özellikle çok basamaklı sayılarda oldukça etkilidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sayının en sağındaki basamağa + işareti vererek başlayın.\n• Sola doğru giderek işaretleri sırayla +, -, +, - şeklinde değiştirin.\n• İşaretli rakamları kendi aralarında toplayın.\n• Elde edilen fark 11'in katı ise sayı 11'e tam bölünür."
+      },
+      {
+        "type": "text",
+        "text": "Eğer sonuç negatif çıkarsa, üzerine 11 veya 11'in katlarını ekleyerek pozitif ve 11'in katı olan bir sayıya ulaşabilirsiniz. KPSS sorularında genellikle bu yöntemle bilinmeyen rakamlar kolaylıkla bulunur."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Sağdan sola işaretlemeye başlamak hayati önem taşır; soldan başlanırsa işaretler karışabilir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "hard",
+    "id": "exp_1775999840209_MAT__15",
+    "createdAt": "2026-04-12T13:17:20.203Z",
+    "updatedAt": "2026-04-12T13:17:20.203Z",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T13:17:38.890Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_14.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 16: 7, 13 ve Diğer Asal Sayılarla Bölünebilme",
+    "content": [
+      {
+        "type": "text",
+        "text": "7 ve 13 gibi asal sayılar için genel bölünebilme kuralları, basamakları belirli katsayılarla çarparak toplama yöntemine dayanır. 7 için katsayılar (1, 3, 2, -1, -3, -2) şeklindedir ve sağdan sola uygulanır. Bu yöntem büyük sayılarda bölme işlemi yapmadan kalan bulmayı sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sayının son basamağından başlayarak katsayıları sırayla çarpın.\n• 7 için katsayılar: sağdan sola 1, 3, 2, -1, -3, -2...\n• Sonuçların toplamını bulun ve 7'ye bölün.\n• 13 için benzer bir katsayı dizisi (1, -3, -4, -1, 3, 4...) kullanılır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de bu kurallar standart bir soru olarak gelmese de, ileri düzey sorularda pratik bir yöntem olarak kullanılabilir. Ancak genel olarak bu sayılar için uzun bölme yapmak bazen kuralı hatırlamaktan daha hızlı olabilir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: 7 ve 13 için katsayı yöntemini ezberlemek yerine, sadece 7 ve 13'ün katlarını bilmek çoğu soruyu çözmek için yeterlidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "hard",
+    "id": "exp_1775999840210_MAT__16",
+    "createdAt": "2026-04-12T13:17:20.203Z",
+    "updatedAt": "2026-04-12T13:17:20.203Z",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T13:17:38.890Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_15.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 17: Aralarında Asal Çarpanlara Ayırma Yöntemi",
+    "content": [
+      {
+        "type": "text",
+        "text": "KPSS sınavında doğrudan kuralı verilmeyen büyük sayılara bölünebilme sorularında, bu sayıları aralarında asal çarpanlarına ayırarak çözüme ulaşırız. Bir sayının 36 ile bölünebilmesi için hem 4 hem de 9 ile aynı anda bölünebilmesi gerekir. Bu yöntem, bölünebilme kurallarını birleştirerek karmaşık problemleri basitleştirmemize olanak tanır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• 36 ile bölünme: 4 ve 9 ile bölünme kuralı uygulanır.\n• 45 ile bölünme: 5 ve 9 ile bölünme kuralı uygulanır.\n• 72 ile bölünme: 8 ve 9 ile bölünme kuralı uygulanır.\n• Sayıların aralarında asal olmasına dikkat edilmelidir."
+      },
+      {
+        "type": "text",
+        "text": "Çarpanları seçerken aralarında asal olmayan (örneğin 12 ile bölünme için 2 ve 6 seçilmesi gibi) sayılar seçilirse kural hatalı sonuç verir. Her zaman ortak böleni olmayan en büyük çarpanları seçmeliyiz."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kural: A sayısı b ve c sayılarına tam bölünüyorsa ve b ile c aralarında asal ise, A sayısı b.c çarpımına da tam bölünür."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999858890_MAT__17",
+    "createdAt": "2026-04-12T13:17:38.890Z",
+    "updatedAt": "2026-04-12T13:17:38.890Z",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T13:17:51.589Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_16.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 18: Bölünebilme Sorularında Değişken Analizi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Çok basamaklı sayılarda bilinmeyen rakamların bulunması, basamak çözümleme ve bölünebilme kurallarının birlikte kullanılmasını gerektirir. Genellikle birler basamağı kuralı (2 veya 5) ile başlayıp, rakamlar toplamı (3 veya 9) kuralı ile devam etmek en hızlı yöntemdir. Değişkenlerin alabileceği değer aralıklarını belirlemek hata payını azaltır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Birler basamağı kısıtlaması olan kurallardan başlayın.\n• Rakamları toplamı kuralını en sona bırakın.\n• Basamak değerlerini göz önünde bulundurarak çözümleme yapın.\n• Bulunan değerlerin rakam olma şartını sağlayıp sağlamadığını kontrol edin."
+      },
+      {
+        "type": "text",
+        "text": "Bilinmeyenler arasında ilişki varsa, bu ilişkileri denkleme dökerek çözüm kümesini daraltmak önemlidir. Özellikle tek ve çift sayı olma durumları, son basamak üzerindeki kısıtlamaları doğrudan etkiler."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Eğer bir sayı hem 3'e hem de 5'e bölünüyorsa, önce 5'e bölünebilme kuralını uygulayarak son basamağı (0 veya 5) sabitleyin."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999858891_MAT__18",
+    "createdAt": "2026-04-12T13:17:38.890Z",
+    "updatedAt": "2026-04-12T13:17:38.890Z",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T13:17:51.589Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_17.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 19: Rakamları Farklı Sayılarda Bölünebilme",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sınav sorularında 'rakamları farklı' ifadesi, çözüm sürecindeki en kritik kısıtlamadır. Bir sayı belirlenirken seçilen değerlerin daha önce kullanılmamış olması gerekir. Bu durum, özellikle 3'e veya 9'a bölünebilme sorularında çözüm kümesini önemli ölçüde daraltır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Seçilen rakamların birbirinden farklı olması gerekir.\n• 0 rakamının başa gelmemesine dikkat edin.\n• Olası değerleri listeleyip kısıtlamaya uymayanları eleyin.\n• Küme elemanlarını belirlerken 0-9 aralığını dikkate alın."
+      },
+      {
+        "type": "text",
+        "text": "Rakamları farklı ifadesi ihmal edildiğinde bulunan sonuçlar genellikle hatalıdır ve şıklarda çeldirici olarak yer alır. İşlem sonunda mutlaka rakamların tekrar edip etmediğini gözden geçirin."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: Rakamları farklı denildiğinde, 0 rakamının kullanıldığı durumlarda sayının yüzler veya binler basamağına gelmediğinden emin olun."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999858892_MAT__19",
+    "createdAt": "2026-04-12T13:17:38.890Z",
+    "updatedAt": "2026-04-12T13:17:38.890Z",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T13:17:51.589Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_18.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 20: Kalanlı Bölme Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kalanlı bölme işlemlerinde sayıyı doğrudan bulmak yerine kalanlarla işlem yapmak daha pratiktir. Eğer bir sayının 9 ile bölümünden kalan 2 ise, o sayının rakamları toplamının 9 ile bölümünden kalan da 2'dir. Bu özellik, büyük sayılarla uğraşırken zaman kazandırır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Toplama işleminde kalanlar toplanıp tekrar bölünür.\n• Çarpma işleminde kalanlar çarpılıp tekrar bölünür.\n• Kalan, her zaman bölenden küçük olmalıdır.\n• Negatif kalan durumunda bölene tam sayı ekleyerek pozitife çevirin."
+      },
+      {
+        "type": "text",
+        "text": "Özellikle modüler aritmetik mantığı ile kalanları yönetmek, büyük üslü sayıların bölünebilme sorularında hayat kurtarıcıdır. Kalanın 0 olduğu durumların tam bölünebildiğini unutmayın."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: A sayısının 5 ile bölümünden kalan 3 ise, A yerine 3 yazarak işlemlere devam edebilirsiniz."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999858893_MAT__20",
+    "createdAt": "2026-04-12T13:17:38.890Z",
+    "updatedAt": "2026-04-12T13:17:38.890Z",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T13:17:51.589Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_19.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 21: Üslü İfadelerde Bölünebilme",
+    "content": [
+      {
+        "type": "text",
+        "text": "Üslü sayıların bir sayıya bölümünden kalanı bulmak için tabanın o sayıya bölümünden kalanı bulmak yeterlidir. Örneğin, 13 üzeri 20 sayısının 4 ile bölümünden kalanı bulurken, 13'ün 4 ile bölümünden kalan olan 1'i kullanırız. 1 üzeri 20 işleminin sonucu 1 olduğundan kalan 1'dir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Tabanın sayıya göre kalanını bulun.\n• Kalanın üssünü alarak yeni bir sayı elde edin.\n• Periyodik döngüleri (tekrar eden kalanları) yakalayın.\n• Üs çok büyükse kalan döngüsünü kullanın."
+      },
+      {
+        "type": "text",
+        "text": "Bazı durumlarda kalanlar belirli bir döngü oluşturur. Bu döngüleri takip ederek çok büyük üslerin sonucunu kolayca bulabiliriz. Sınavda bu pratik yöntem işlem yükünü minimize eder."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kural: (a^n) mod m = (a mod m)^n mod m ifadesi esastır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999858894_MAT__21",
+    "createdAt": "2026-04-12T13:17:38.890Z",
+    "updatedAt": "2026-04-12T13:17:38.890Z",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T13:17:51.589Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_20.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 22: Faktöriyel Kavramı ve Bölünebilme",
+    "content": [
+      {
+        "type": "text",
+        "text": "Faktöriyel içeren ifadelerde bölünebilme, çarpanların içindeki asal sayıların analizine dayanır. n! ifadesi içerisinde hangi asal çarpanların kaç adet olduğunu bulmak için sürekli bölme işlemi yapılır. Bu, özellikle bir sayının faktöriyel sonucu içinde kaç tane sıfır olduğunu bulmak için kullanılan temel yöntemdir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sondan kaç basamağın sıfır olduğunu bulmak için 5'e bölün.\n• Bölümleri toplayarak sonucu bulun.\n• Çarpanları analiz ederken asal sayıları baz alın.\n• Büyük faktöriyellerin küçük faktöriyellere bölümünde paranteze alma yöntemini kullanın."
+      },
+      {
+        "type": "text",
+        "text": "Örneğin 20! sayısı içinde kaç tane 3 çarpanı olduğunu bulmak için 20'yi sürekli 3'e böleriz. Bu yöntem, faktöriyelli ifadelerin hangi sayılara bölünebildiğini anlamamızı sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: n! içerisinde kaç tane 'a' çarpanı olduğunu bulmak için n sayısını sürekli a'ya bölün ve bölümleri toplayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999858895_MAT__22",
+    "createdAt": "2026-04-12T13:17:38.890Z",
+    "updatedAt": "2026-04-12T13:17:38.890Z",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T13:17:51.589Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_21.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 23: Çok Basamaklı Sayılarda Bölme İşlemi",
+    "content": [
+      {
+        "type": "text",
+        "text": "KPSS'de bazen doğrudan bölme algoritması gerektiren sorular sorulabilir. Özellikle bölünen, bölen, bölüm ve kalan arasındaki 'Bölünen = Bölen x Bölüm + Kalan' ilişkisi temeldir. İşlem hatalarını önlemek için basamakları dikkatli indirmek ve ara basamaklarda 0'ı unutmamak önemlidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Bölünen = Bölen x Bölüm + Kalan kuralını uygulayın.\n• Kalan her zaman bölenden küçük olmalıdır.\n• İşlem sırasında indirilen her rakam için mutlaka bir işlem yapın.\n• Bölen, bölünenin içinden çıkmıyorsa bölüme 0 ekleyin."
+      },
+      {
+        "type": "text",
+        "text": "Sistematik bir şekilde bölme işlemini gerçekleştirmek, özellikle sınav stresinde yapılabilecek işlem hatalarının önüne geçer. İşlemi kontrol etmek için bölen ile bölümü çarpıp kalanı ekleyerek sağlamasını yapabilirsiniz."
+      },
+      {
+        "type": "highlighted",
+        "text": "Uyarı: Bölme işleminde indirilen her rakamdan sonra bölüme bir basamak yazılması gerektiğini unutmayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999858896_MAT__23",
+    "createdAt": "2026-04-12T13:17:38.890Z",
+    "updatedAt": "2026-04-12T13:17:38.890Z",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T13:17:51.589Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_22.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 24: Bölünebilme Kurallarında 'En Çok - En Az' Soruları",
+    "content": [
+      {
+        "type": "text",
+        "text": "En çok veya en az soruları, belirlenen kısıtlamalar altında değişkenlere uç değerlerin verilmesini gerektirir. Bir sayının 9 ile bölünebilmesi isteniyorsa ve rakamları toplamı 9'un katı ise, değişkenlere vereceğimiz değerleri 0 ile 9 arasında seçerek toplamı maksimize veya minimize ederiz."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İstenen sonuca göre değişkenleri en küçük veya en büyük seçin.\n• Rakamların birbirinden farklı olup olmadığına dikkat edin.\n• Sınır değerleri (0 ve 9) kontrol edin.\n• Toplamda oluşabilecek kısıtlamaları önceden belirleyin."
+      },
+      {
+        "type": "text",
+        "text": "Bu tarz sorular, adayların kısıtlamaları yönetme becerisini ölçer. Genellikle bir değişkenin maksimum olması diğerinin minimum olmasıyla sonuçlanır. Tüm olasılıkları sistematik bir tablo üzerinde görmek hata riskini ortadan kaldırır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Strateji: 'En çok' istendiğinde büyük rakamları, 'en az' istendiğinde küçük rakamları (0 dahil) kullanın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999858897_MAT__24",
+    "createdAt": "2026-04-12T13:17:38.890Z",
+    "updatedAt": "2026-04-12T13:17:38.890Z",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T13:17:51.589Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_23.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 25: Ardışık Sayılarda Bölünebilme Özellikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Ardışık sayıların çarpımı, içerdikleri sayıların faktöriyelleri ile doğrudan ilişkilidir ve belirli bölünebilme özelliklerini barındırır. Ardışık n tane tam sayının çarpımı her zaman n faktöriyel sayısına tam bölünür. Bu kural, özellikle KPSS sorularında büyük sayıların çarpımıyla oluşturulan ifadelerin sadeleştirilmesinde kritik rol oynar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Ardışık 2 tam sayının çarpımı 2! = 2'ye tam bölünür.\n• Ardışık 3 tam sayının çarpımı 3! = 6'ya tam bölünür.\n• n tane ardışık tam sayının çarpımı n! ile daima bölünür.\n• Ardışık sayıların çarpımı her zaman çift sayıdır."
+      },
+      {
+        "type": "text",
+        "text": "Ardışık sayı dizilerinde çarpanlar arttıkça bölünebilme kuralları daha karmaşık hale gelir ancak temel prensip her zaman n! kuralına dayanır. Bu formüller sayesinde uzun işlemleri yapmadan cevaba ulaşmak mümkündür."
+      },
+      {
+        "type": "highlighted",
+        "text": "n tane ardışık tam sayının çarpımı her zaman n! değerine kalansız bölünür."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999871589_MAT__25",
+    "createdAt": "2026-04-12T13:17:51.589Z",
+    "updatedAt": "2026-04-12T13:17:51.589Z",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T13:18:06.827Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_24.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 26: Bölme ve Bölünebilme ile İlgili Çıkmış Soru Analizi",
+    "content": [
+      {
+        "type": "text",
+        "text": "KPSS sınavlarında bölme ve bölünebilme konusu, genellikle sayıların asal çarpanlarına ayrılması veya kalanlı bölme işlemleri üzerinden sorgulanmaktadır. Çıkmış sorular incelendiğinde, öğrencilerin bölme algoritmasını (A=B.C+K) iyi kavraması gerektiği görülmektedir. Özellikle kalanlı bölme işlemlerinde K < B şartının unutulması en sık yapılan hatalar arasındadır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Kalan, her zaman bölenden küçük olmalıdır.\n• Bölme işleminde bölüm ile bölen yer değiştirebilir.\n• Soru köklerinde 'en büyük değer' veya 'en küçük değer' ifadelerine dikkat edilmelidir.\n• Sayı basamakları ile bölünebilme kuralları sıklıkla birleştirilerek sorulur."
+      },
+      {
+        "type": "text",
+        "text": "Sınav stratejisi olarak, verilen denklemleri hızlıca bölme algoritması formülüne dönüştürmek işlem süresini önemli ölçüde kısaltır. Sorularda değişkenlerin tam sayı olup olmadığına mutlaka bakılmalıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kalanlı bölme işleminde kalan (K), bölen (B) değerinden her zaman küçüktür (K < B)."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999871590_MAT__26",
+    "createdAt": "2026-04-12T13:17:51.589Z",
+    "updatedAt": "2026-04-12T13:17:51.589Z",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T13:18:06.827Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_25.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 27: Modüler Aritmetiğe Giriş (Temel Düzey)",
+    "content": [
+      {
+        "type": "text",
+        "text": "Modüler aritmetik, bölme işlemindeki 'kalan' kavramının matematiksel bir sistem haline getirilmiş halidir. Bir sayının belirli bir modüle göre değerini bulmak, o sayının modül ile bölümünden kalanını hesaplamakla aynıdır. Bu yöntem, özellikle periyodik olarak tekrar eden soruların çözümünde büyük kolaylık sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Modül işlemi, kalan bulma işleminin başka bir ifadesidir.\n• Aynı kalanı veren sayılar aynı denklik sınıfına aittir.\n• Negatif sayıların modüler değerleri bulunurken modül eklenerek pozitif hale getirilir.\n• Modüler toplama ve çarpma kuralları temel aritmetik ile paralellik gösterir."
+      },
+      {
+        "type": "text",
+        "text": "Temel düzeyde modüler aritmetik, sayıların büyüklüğünden bağımsız olarak periyotların belirlenmesine yardımcı olur. Haftanın günleri veya saat problemleri bu konunun en somut örnekleridir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Bir sayının n ile bölümünden kalan, o sayının mod n değeridir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999871591_MAT__27",
+    "createdAt": "2026-04-12T13:17:51.589Z",
+    "updatedAt": "2026-04-12T13:17:51.589Z",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T13:18:06.827Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_26.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 28: Pratik Bölme ve Bölünebilme Taktikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sınav anında zamanı verimli kullanmak için standart kuralların ötesinde pratik yöntemler geliştirmek gerekir. Özellikle 9 ve 11 ile bölünebilme kuralları, karmaşık sayıların kalanlarını bulmada en etkili araçlardır. Basamak çözümleme yapmadan sadece rakamlar üzerinden işlem yapmak hata payını düşürür."
+      },
+      {
+        "type": "bulletList",
+        "text": "• 9 ile bölünebilmede rakamlar toplamı tek basamaklı olana kadar toplanır.\n• 11 ile bölünebilmede sağdan sola doğru +, -, +, - işaretleri verilir.\n• 36 ile bölünebilme sorulduğunda 4 ve 9 kuralları birlikte kontrol edilir.\n• Sonuç kontrolü için 'kalanlar üzerinden işlem yapma' kuralını kullanın."
+      },
+      {
+        "type": "text",
+        "text": "İşlem kontrol mekanizması olarak, bulduğunuz sonucu ters işlem yaparak doğrulamak, sınavda emin olmadığınız sorularda güvenli bir liman sağlar. Pratik yapmak, bu taktiklerin refleks haline gelmesini sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Aralarında asal çarpanlara ayırma yöntemi (örneğin 12 için 3 ve 4) en hızlı bölünebilme taktiğidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999871592_MAT__28",
+    "createdAt": "2026-04-12T13:17:51.589Z",
+    "updatedAt": "2026-04-12T13:17:51.589Z",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T13:18:06.827Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_27.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 29: Karmaşık Bölünebilme Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Karmaşık bölünebilme problemleri, birden fazla kuralın aynı anda uygulanmasını gerektiren, mantıksal çıkarım odaklı sorulardır. Bu tip sorularda değişkenlerin alabileceği değer aralıkları belirlenerek adım adım ilerlenmelidir. Özellikle 'x sayısı hem 4'e hem 9'a tam bölünüyorsa 36'ya tam bölünür' mantığı kilit noktadır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Çoklu bölünebilme sorularında önce en büyük kuralı uygulayın.\n• Değişkenleri sınırlandıran koşulları (pozitif tam sayı, rakam vb.) dikkate alın.\n• Birbirine bağlı bölünebilme şartlarını tablo haline getirin.\n• Mantıksal eleme yöntemi ile seçenekleri daraltın."
+      },
+      {
+        "type": "text",
+        "text": "Problemleri çözerken sayıların asal çarpanlarını kullanmak, karmaşıklığı azaltır ve çözüm yolunu netleştirir. Birden fazla kuralın kesiştiği noktaları doğru tespit etmek, sorunun çözümünü hızlandırır."
+      },
+      {
+        "type": "highlighted",
+        "text": "A ve B aralarında asal ise, bir sayı hem A'ya hem B'ye bölünüyorsa bu sayı A x B çarpımına da bölünür."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999871593_MAT__29",
+    "createdAt": "2026-04-12T13:17:51.589Z",
+    "updatedAt": "2026-04-12T13:17:51.589Z",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T13:18:06.827Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_28.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_BOLUNEEBILME",
+    "title": "Bölüm 30: Genel Değerlendirme ve Sınav Simülasyonu",
+    "content": [
+      {
+        "type": "text",
+        "text": "Bu bölüm, bölme ve bölünebilme kurallarının bütünüyle pekiştirilmesi için tasarlanmış bir genel tekrar ve simülasyon aşamasıdır. Karma testler çözerek konu eksiklerini belirlemek ve sınav pratiğini artırmak temel hedeftir. Sınav simülasyonunda süre tutarak çözülen sorular, gerçek sınav deneyimini taklit eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Tüm kuralları kapsayan karma testleri çözün.\n• Çözemediğiniz soruların hangi kurala dayandığını tekrar gözden geçirin.\n• Hız ve doğruluk dengesini kurmak için kronometre kullanın.\n• Yanlış yaptığınız soru tiplerine özel notlar alın."
+      },
+      {
+        "type": "text",
+        "text": "Sınav simülasyonu sonunda hataları analiz etmek, konunun kalıcı öğrenilmesini sağlar. Başarılı olmak için sadece kural bilmek yetmez, bu kuralları doğru soruda doğru zamanda uygulamak gerekir."
+      },
+      {
+        "type": "warning",
+        "text": "Süre tutmadan yapılan tekrarlar sınav anındaki zaman baskısını yönetmenizi zorlaştırır, mutlaka zamanlı çözün."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999871594_MAT__30",
+    "createdAt": "2026-04-12T13:17:51.589Z",
+    "updatedAt": "2026-04-12T13:17:51.589Z",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T13:18:06.827Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_BOLUNEEBILME_29.mp3?alt=media"
+  }
+]

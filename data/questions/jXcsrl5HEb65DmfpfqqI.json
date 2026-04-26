@@ -1,0 +1,2430 @@
+[
+  {
+    "id": "tur_1_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "1",
+    "subtopic": "Gereksiz Sözcük Kullanımı",
+    "q": "(I) Henüz daha sınav sonuçları açıklanmadı. (II) Onunla ilk kez geçen yıl tanıştık. (III) Bu konuyu uzun uzun tartıştık. (IV) Yarın erkenden yola çıkacağız. (V) Dışarıda hava oldukça soğuktu. Numaralanmış cümlelerin hangisinde gereksiz sözcük kullanımından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "a": 0,
+    "e": "'Henüz' ve 'daha' sözcükleri aynı anlamı taşıdığı için bir arada kullanılmaları gereksiz sözcük kullanımına yol açar.",
+    "_part": 1
+  },
+  {
+    "id": "tur_2_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "2",
+    "subtopic": "Sözcüğün Yanlış Anlamda Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde bir sözcüğün yanlış anlamda kullanılmasından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Bahçeye yeni fidanlar ektik.",
+      "Bu yıl buğday hasadı verimli geçti.",
+      "Kitap okumak ufkumuzu genişletir.",
+      "Hava sıcaklığı sıfırın altına düştü.",
+      "Onun başarısı hepimizi gururlandırdı."
+    ],
+    "a": 0,
+    "e": "Fidan ekilmez, dikilir. Tohum ekilir. Sözcüğün yanlış anlamda kullanımı söz konusudur.",
+    "_part": 2
+  },
+  {
+    "id": "tur_3_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "3",
+    "subtopic": "Özne-Yüklem Uyumsuzluğu",
+    "q": "Aşağıdaki cümlelerin hangisinde özne-yüklem uyumsuzluğu vardır?",
+    "o": [
+      "Kuşlar ağaçlarda ötüşüyorlar.",
+      "Öğrenciler sınıfa girdiler.",
+      "Ben ve o yarın buluşacağız.",
+      "Herkes bu konuda hemfikirdi.",
+      "Hiç kimse soruyu çözemedi."
+    ],
+    "a": 0,
+    "e": "İnsan dışı varlıklar çoğul özne olduğunda yüklem tekil olur. 'Ötüşüyorlar' yerine 'ötüşüyor' olmalıdır.",
+    "_part": 3
+  },
+  {
+    "id": "tur_4_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "4",
+    "subtopic": "Öge Eksikliği",
+    "q": "'Ona her zaman güvenir ve desteklerdi.' cümlesindeki anlatım bozukluğunun nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Özne eksikliği",
+      "Nesne eksikliği",
+      "Dolaylı tümleç eksikliği",
+      "Yüklem eksikliği",
+      "Tamlama yanlışı"
+    ],
+    "a": 1,
+    "e": "Cümle 'Ona her zaman güvenir ve onu desteklerdi' şeklinde olmalıdır. 'Onu' nesnesi eksiktir.",
+    "_part": 4
+  },
+  {
+    "id": "tur_5_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "5",
+    "subtopic": "Mantık ve Sıralama Yanlışı",
+    "q": "Aşağıdaki cümlelerin hangisinde bir mantık hatası vardır?",
+    "o": [
+      "Bırakın patates doğramayı, yemek bile yapamaz.",
+      "İlk kez gittiği bu şehri çok sevdi.",
+      "Gelecek hafta yapılacak toplantıya katıldı.",
+      "Yarınki sınav için çok çalıştı.",
+      "Dün akşam sinemaya gittik."
+    ],
+    "a": 0,
+    "e": "Mantık sıralamasında daha zor olan eylem sona bırakılmalıdır. 'Bırakın yemek yapmayı, patates bile doğrayamaz' olmalıydı.",
+    "_part": 5
+  },
+  {
+    "id": "tur_6_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "6",
+    "subtopic": "Anlamca Çelişen Sözcükler",
+    "q": "Aşağıdaki cümlelerin hangisinde anlamca çelişen sözcüklerin bir arada kullanılmasından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Eminim bu saatte eve varmış olabilir.",
+      "Mutlaka bir gün görüşürüz.",
+      "Belki o da bizimle gelir.",
+      "Kesinlikle bu işi bitireceğiz.",
+      "Hemen hemen tam iki saat bekledik."
+    ],
+    "a": 0,
+    "e": "'Eminim' (kesinlik) ve 'olabilir' (ihtimal) sözcükleri anlamca çelişmektedir.",
+    "_part": 6
+  },
+  {
+    "id": "tur_7_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "7",
+    "subtopic": "Deyim Yanlışlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde deyimin yanlış kullanılmasından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Sevinçten etekleri tutuştu.",
+      "Korkudan ödü patladı.",
+      "Gözden düşmek için çok uğraştı.",
+      "Ağzı kulaklarına varıyordu.",
+      "Burnundan soluyordu."
+    ],
+    "a": 0,
+    "e": "'Etekleri tutuşmak' telaşlanmak anlamındadır, sevinç için 'etekleri zil çalmak' kullanılır.",
+    "_part": 7
+  },
+  {
+    "id": "tur_8_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "8",
+    "subtopic": "Tamlama Yanlışlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde tamlama yanlışı vardır?",
+    "o": [
+      "Özel ve kamu kuruluşları tatil edildi.",
+      "Doğa ve çevre kirliliği arttı.",
+      "Ekonomik ve sağlık sorunları yaşıyor.",
+      "Genç ve yaşlı insanlar toplandı.",
+      "Yeni ve eski binalar yıkıldı."
+    ],
+    "a": 2,
+    "e": "'Ekonomik sorunlar ve sağlık sorunları' şeklinde olmalıdır. 'Ekonomik sorunları' tamlaması bozuktur.",
+    "_part": 8
+  },
+  {
+    "id": "tur_9_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "9",
+    "subtopic": "Çatı Uyuşmazlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde çatı uyuşmazlığından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Bütün ödevler yapılıp erkenden yattı.",
+      "Kitap okundu ve özet çıkarıldı.",
+      "Kapı açıldı ve içeri girildi.",
+      "Yemek yendi ve çay içildi.",
+      "Sınav bitti ve sınıftan çıkıldı."
+    ],
+    "a": 0,
+    "e": "'Yapılıp' (edilgen) ve 'yattı' (etken) fiilleri arasında çatı uyuşmazlığı vardır.",
+    "_part": 9
+  },
+  {
+    "id": "tur_10_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "10",
+    "subtopic": "Sözcüğün Yanlış Yerde Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde sözcüğün yanlış yerde kullanılmasından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Yeni eve girmiştim ki telefon çaldı.",
+      "Çok sınıfta kalan öğrenci var.",
+      "Dün gece çok ağrım vardı.",
+      "Bugün hiç vaktim yok.",
+      "Dışarıda soğuk bir hava var."
+    ],
+    "a": 1,
+    "e": "'Çok sınıfta kalan' değil, 'Sınıfta kalan çok öğrenci' olmalıdır.",
+    "_part": 10
+  },
+  {
+    "id": "tur_11_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "11",
+    "subtopic": "Dolaylı Tümleç Eksikliği",
+    "q": "'Arkadaşlarını sever ve her zaman yardım ederdi.' cümlesindeki anlatım bozukluğu nasıl giderilir?",
+    "o": [
+      "'Sever' yerine 'sayar' getirilerek",
+      "'Yardım ederdi'den önce 'onlara' getirilerek",
+      "'Her zaman' sözcüğü atılarak",
+      "'Arkadaşlarını' yerine 'arkadaşlarına' getirilerek",
+      "'Ve' bağlacı atılarak"
+    ],
+    "a": 1,
+    "e": "'Arkadaşlarını sever ve onlara her zaman yardım ederdi' olmalı. 'Onlara' dolaylı tümleci eksiktir.",
+    "_part": 11
+  },
+  {
+    "id": "tur_12_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "12",
+    "subtopic": "Ek Yanlışlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde ek yanlışlığından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Okumasını sevmeyen bir milletiz.",
+      "Gelmeyeceğini biliyordum.",
+      "Onunla konuşmamız gerekiyor.",
+      "Yarın gideceğimizi söyledik.",
+      "Bu işin zorluğunu biliyoruz."
+    ],
+    "a": 0,
+    "e": "'Okumasını' değil, 'okumayı' olmalı. İyelik ekinin gereksiz kullanımı söz konusudur.",
+    "_part": 12
+  },
+  {
+    "id": "tur_13_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "13",
+    "subtopic": "Anlam Belirsizliği",
+    "q": "Aşağıdaki cümlelerin hangisinde anlam belirsizliği vardır?",
+    "o": [
+      "Kardeşini okulda gördüm.",
+      "Onun kitabını aldım.",
+      "Yarın bize gelecekler.",
+      "Bugün hava çok güzel.",
+      "Dün akşam sinemaya gittik."
+    ],
+    "a": 0,
+    "e": "'Senin kardeşini mi yoksa onun kardeşini mi?' olduğu belli değildir. Zamir eksikliği anlam belirsizliğine yol açmıştır.",
+    "_part": 13
+  },
+  {
+    "id": "tur_14_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "14",
+    "subtopic": "Yüklem Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde yüklem eksikliğinden kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Ben çay, o ise kahve içti.",
+      "Dün sinemaya, bugün tiyatroya gittik.",
+      "Sabahları süt, akşamları su içerim.",
+      "O çok çalışkan, ben ise tembelim.",
+      "Hava güzel, kuşlar uçuyor."
+    ],
+    "a": 0,
+    "e": "'Ben çay içtim, o ise kahve içti' olmalı. İlk cümledeki yüklem eksikliği anlatımı bozmuştur.",
+    "_part": 14
+  },
+  {
+    "id": "tur_15_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "15",
+    "subtopic": "Edat Tümleci Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde edat tümleci eksikliği vardır?",
+    "o": [
+      "Arkadaşlarını aradı ve uzun süre konuştu.",
+      "Kitabı okudu ve arkadaşına verdi.",
+      "Eve geldi ve yemeğini yedi.",
+      "Seni seviyorum ve güveniyorum.",
+      "Ders çalıştı ve başarılı oldu."
+    ],
+    "a": 0,
+    "e": "'Arkadaşlarını aradı ve onlarla uzun süre konuştu' olmalı. 'Onlarla' edat tümleci eksiktir.",
+    "_part": 15
+  },
+  {
+    "id": "tur_16_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "16",
+    "subtopic": "Gereksiz Sözcük Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde 'karşılıklı' sözcüğünün kullanımı gereksizdir?",
+    "o": [
+      "Onunla karşılıklı mektuplaştık.",
+      "İki ülke karşılıklı anlaşma imzaladı.",
+      "Karşılıklı oturup dertleştik.",
+      "Karşılıklı fikir alışverişinde bulundular.",
+      "Karşılıklı saygı çok önemlidir."
+    ],
+    "a": 0,
+    "e": "'Mektuplaşmak' işteş bir fiildir ve zaten karşılıklı yapılan bir eylemdir.",
+    "_part": 16
+  },
+  {
+    "id": "tur_17_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "17",
+    "subtopic": "Sözcüğün Yanlış Anlamda Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde 'ücret' ve 'fiyat' sözcüklerinin karıştırılmasından kaynaklanan bir bozukluk vardır?",
+    "o": [
+      "Bu gömleğin ücreti çok yüksek.",
+      "İşçilerin haftalık fiyatları ödendi.",
+      "Emeğinin fiyatını alamadı.",
+      "Yol ücretine zam geldi.",
+      "Ekmek fiyatları arttı."
+    ],
+    "a": 0,
+    "e": "Satılan bir malın karşılığı 'fiyat', bir hizmetin karşılığı 'ücret'tir. Gömlek için fiyat denmeliydi.",
+    "_part": 17
+  },
+  {
+    "id": "tur_18_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "18",
+    "subtopic": "Mantık Hatası",
+    "q": "Aşağıdaki cümlelerin hangisinde bir mantık hatası vardır?",
+    "o": [
+      "Önümüzdeki haftanın programını hatırlatmaya çalışacağım.",
+      "Geçen yılki anılarımı unutamıyorum.",
+      "Dün gece yağan kar yolları kapadı.",
+      "Yarınki toplantıya mutlaka katılmalısın.",
+      "Bu akşamki maçı heyecanla bekliyoruz."
+    ],
+    "a": 0,
+    "e": "Henüz yaşanmamış 'önümüzdeki haftanın' programı 'hatırlatılmaz', 'tanıtılır' veya 'bildirilir'.",
+    "_part": 18
+  },
+  {
+    "id": "tur_19_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "19",
+    "subtopic": "Özne Eksikliği",
+    "q": "'Kitabın kapağı yırtılmış, bu yüzden satılamadı.' cümlesindeki anlatım bozukluğunun nedeni nedir?",
+    "o": [
+      "Özne eksikliği",
+      "Nesne eksikliği",
+      "Tamlama yanlışı",
+      "Yüklem eksikliği",
+      "Ek yanlışı"
+    ],
+    "a": 0,
+    "e": "'Kitabın kapağı yırtılmış, bu yüzden kitap satılamadı' olmalı. İkinci cümlede özne eksiktir.",
+    "_part": 19
+  },
+  {
+    "id": "tur_20_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "20",
+    "subtopic": "Tamlama Yanlışlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde tamlama yanlışı vardır?",
+    "o": [
+      "Siyasi ve askeri alanlarda başarı sağlandı.",
+      "Kültürel ve sanat etkinlikleri başladı.",
+      "Eski ve yeni elbiselerini ayırdı.",
+      "Büyük ve küçük defterleri topladı.",
+      "Mavi ve yeşil renkleri severim."
+    ],
+    "a": 1,
+    "e": "'Kültürel etkinlikler ve sanat etkinlikleri' olmalı. Sıfat ve isim tamlamasının aynı tamlanana bağlanması hatadır.",
+    "_part": 20
+  },
+  {
+    "id": "tur_21_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "21",
+    "subtopic": "Sözcüğün Yanlış Anlamda Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde 'etken' ve 'etkin' sözcüklerinin karıştırılmasından kaynaklanan bir bozukluk vardır?",
+    "o": [
+      "Bu olayda en büyük etkin onun tavrıydı.",
+      "Sınıfın en etkin öğrencisi oydu.",
+      "Etkin bir rol oynamak istiyor.",
+      "Bu ilacın etken maddesi nedir?",
+      "Toplumda etkin bir kişiliğe sahipti."
+    ],
+    "a": 0,
+    "e": "Burada 'etken' (faktör/sebep) kullanılmalıydı. 'Etkin' aktif demektir.",
+    "_part": 21
+  },
+  {
+    "id": "tur_22_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "22",
+    "subtopic": "Gereksiz Sözcük Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde 'yaklaşık' ve 'civarında' sözcüklerinin bir arada kullanılmasından kaynaklanan bir bozukluk vardır?",
+    "o": [
+      "Yaklaşık üç saat civarında bekledik.",
+      "Onunla yaklaşık iki yıl önce tanıştık.",
+      "Evin civarında garip sesler var.",
+      "Yaklaşık on kişi gelmişti.",
+      "Bu civarda kiralık ev yok."
+    ],
+    "a": 0,
+    "e": "İkisi de olasılık/yaklaşıklık bildirir, bir arada kullanımı gereksiz sözcük kullanımıdır.",
+    "_part": 22
+  },
+  {
+    "id": "tur_23_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "23",
+    "subtopic": "Deyim Yanlışlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde deyim yanlış kullanılmıştır?",
+    "o": [
+      "Onun gelişiyle ortalık süt liman oldu.",
+      "Bu haberle dünyalar onun oldu.",
+      "Yaptıklarıyla göze girdi.",
+      "Anlattıklarıyla herkesin kulak kabartmasını sağladı.",
+      "O kadar acıktı ki karnı zil çalıyor."
+    ],
+    "a": 3,
+    "e": "'Kulak kabartmak' gizlice dinlemektir, ilgiyle dinlemek 'kulak kesilmek'tir.",
+    "_part": 23
+  },
+  {
+    "id": "tur_24_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "24",
+    "subtopic": "Özne-Yüklem Uyumsuzluğu",
+    "q": "Aşağıdaki cümlelerin hangisinde özne-yüklem uyumsuzluğu vardır?",
+    "o": [
+      "Herkes bu karara itiraz ettiler.",
+      "Kimse gelmemişti.",
+      "Hepimiz oradaydık.",
+      "Onlar yarın gidecekler.",
+      "Çocuklar bahçede oynuyor."
+    ],
+    "a": 0,
+    "e": "'Herkes' belgisiz zamiri özne olduğunda yüklem tekil olur.",
+    "_part": 24
+  },
+  {
+    "id": "tur_25_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "25",
+    "subtopic": "Sözcüğün Yanlış Yerde Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde sözcüğün yanlış yerde kullanılmasından kaynaklanan bir bozukluk vardır?",
+    "o": [
+      "Alkollü araç kullananlara ceza kesildi.",
+      "Yeni durağa gelmiştim.",
+      "Çok başım ağrıyor.",
+      "Dün gece hiç uyumadım.",
+      "Bugün çok işim var."
+    ],
+    "a": 0,
+    "e": "'Alkollü araç' değil, 'aracı alkollü kullananlara' olmalı.",
+    "_part": 25
+  },
+  {
+    "id": "tur_26_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "26",
+    "subtopic": "Anlam Belirsizliği",
+    "q": "Aşağıdaki cümlelerin hangisinde virgül eksikliği anlam belirsizliğine yol açmıştır?",
+    "o": [
+      "Genç doktora bir şeyler sordu.",
+      "O kitabı bana ver.",
+      "Yarın erkenden gel.",
+      "Bu akşam sinemaya gidelim.",
+      "Ders çalışmak çok önemli."
+    ],
+    "a": 0,
+    "e": "'Genç' mi doktora sordu, yoksa birisi 'genç doktora' mı sordu? Virgül eksikliği anlamı bulandırmıştır.",
+    "_part": 26
+  },
+  {
+    "id": "tur_27_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "27",
+    "subtopic": "Gereksiz Sözcük Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde 'kendi' sözcüğünün kullanımı gereksizdir?",
+    "o": [
+      "Bu resmi kendi ellerimle yaptım.",
+      "Kendi kendine konuşuyordu.",
+      "Kendi bilir ne yapacağını.",
+      "Kendi evine gitti.",
+      "Kendi fikrini söyledi."
+    ],
+    "a": 0,
+    "e": "'Ellerimle yaptım' zaten öznenin kendisini ifade eder, 'kendi' gereksizdir.",
+    "_part": 27
+  },
+  {
+    "id": "tur_28_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "28",
+    "subtopic": "Sözcüğün Yanlış Anlamda Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde 'ayrıntı' ve 'ayrıcalık' sözcüklerinin karıştırılmasından kaynaklanan bir bozukluk vardır?",
+    "o": [
+      "Bu konunun tüm ayrıcalıklarını inceledik.",
+      "Ona bazı ayrıcalıklar tanındı.",
+      "Ayrıntılara takılma.",
+      "Ayrıcalıklı bir sınıfa ait.",
+      "Konuyu ayrıntılı anlattı."
+    ],
+    "a": 0,
+    "e": "Burada 'ayrıntı' (detay) kullanılmalıydı.",
+    "_part": 28
+  },
+  {
+    "id": "tur_29_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "29",
+    "subtopic": "Mantık Hatası",
+    "q": "Aşağıdaki cümlelerin hangisinde mantık hatası vardır?",
+    "o": [
+      "Yarın ölebilir hatta sakat kalabilirsin.",
+      "Bırakın yürümeyi, koşamaz bile.",
+      "Dün gece hiç uyumadan işe gitti.",
+      "Gelecek yıl mezun olmayı planlıyor.",
+      "Bu kitap çok sürükleyici."
+    ],
+    "a": 0,
+    "e": "Sakat kalmak ölmekten daha hafif bir durumdur, sıralama yanlış yapılmıştır.",
+    "_part": 29
+  },
+  {
+    "id": "tur_30_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "30",
+    "subtopic": "Öge Eksikliği",
+    "q": "'Seni seviyor ve değer veriyorum.' cümlesindeki anlatım bozukluğu nasıl giderilir?",
+    "o": [
+      "'Seviyor' yerine 'sayıyor' getirilerek",
+      "'Değer veriyorum'dan önce 'sana' getirilerek",
+      "'Seni' yerine 'sana' getirilerek",
+      "'Ve' bağlacı atılarak",
+      "Yüklem değiştirilerek"
+    ],
+    "a": 1,
+    "e": "'Seni seviyor ve sana değer veriyorum' olmalı. Yer tamlayıcısı eksiktir.",
+    "_part": 30
+  },
+  {
+    "id": "tur_31_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "31",
+    "subtopic": "Ek Yanlışlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde tamlayan eki eksikliği vardır?",
+    "o": [
+      "Öğrencilerin başarısı, düzenli ders çalışmalarına bağlıdır.",
+      "Okulun kapısı kapalıydı.",
+      "Kitabın sayfası yırtılmış.",
+      "Evin boyası yeni yapıldı.",
+      "Sınavın soruları zordu."
+    ],
+    "a": 0,
+    "e": "'Öğrencilerin başarısı' ifadesinde tamlayan eki vardır ancak 'çalışmalarına' kısmında iyelik eki uyumu aranır. (Örnek: 'Türkiye'nin birkaç ili dışında kar yağışı görülmedi' cümlesinde 'ili' yerine 'ilinde' gelmelidir).",
+    "_part": 31
+  },
+  {
+    "id": "tur_32_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "32",
+    "subtopic": "Çatı Uyuşmazlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Sorular dikkatlice okunup cevaplamalıdır.",
+      "Kitap okundu ve bitirildi.",
+      "Yemek yapıldı ve yendi.",
+      "Kapı açıldı ve girildi.",
+      "Ders çalışıldı ve anlaşıldı."
+    ],
+    "a": 0,
+    "e": "'Okunup' (edilgen) - 'cevaplamalıdır' (etken). İkisi de aynı çatıda olmalıdır.",
+    "_part": 32
+  },
+  {
+    "id": "tur_33_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "33",
+    "subtopic": "Sözcüğün Yanlış Anlamda Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde 'çekimser' ve 'çekingen' sözcükleri karıştırılmıştır?",
+    "o": [
+      "Oylamada çekingen kaldı.",
+      "Çok çekingen bir çocuktu.",
+      "Çekimser davranmayı tercih etti.",
+      "Karar vermekte çekimserdi.",
+      "Toplum içinde çekingendir."
+    ],
+    "a": 0,
+    "e": "Oylamada 'çekimser' (oy kullanmayan) kalınır. 'Çekingen' utangaç demektir.",
+    "_part": 33
+  },
+  {
+    "id": "tur_34_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "34",
+    "subtopic": "Sözcüğün Yanlış Anlamda Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde 'sağlamak' sözcüğü yanlış anlamda kullanılmıştır?",
+    "o": [
+      "Kaza yapmamızı sağladı.",
+      "Başarılı olmamızı sağladı.",
+      "Düzeni sağladı.",
+      "İmkan sağladı.",
+      "Katılım sağladı."
+    ],
+    "a": 0,
+    "e": "'Sağlamak' olumlu durumlar içindir. Kaza gibi olumsuz durumlar için 'neden oldu' denir.",
+    "_part": 34
+  },
+  {
+    "id": "tur_35_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "35",
+    "subtopic": "Tamlama Yanlışlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde bir tamlama yanlışı vardır?",
+    "o": [
+      "Düşünsel ve sanat etkinlikleri.",
+      "Eski ve yeni kitaplar.",
+      "Büyük ve küçük evler.",
+      "Mavi ve beyaz gömlek.",
+      "Hızlı ve yavaş arabalar."
+    ],
+    "a": 0,
+    "e": "'Düşünsel etkinlikler ve sanat etkinlikleri' olmalı.",
+    "_part": 35
+  },
+  {
+    "id": "tur_36_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "36",
+    "subtopic": "Özne-Yüklem Uyumsuzluğu",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Gözlerim yorgunluktan kapanıyorlar.",
+      "Çocuklar bahçede oynuyor.",
+      "Biz yarın gideceğiz.",
+      "Onlar henüz gelmediler.",
+      "Herkes seni sordu."
+    ],
+    "a": 0,
+    "e": "Organ adları çoğul özne olduğunda yüklem tekil olur.",
+    "_part": 36
+  },
+  {
+    "id": "tur_37_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "37",
+    "subtopic": "Sözcüğün Yanlış Yerde Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Ücretsiz üniversite sınavına hazırlık kursları başladı.",
+      "Yeni eve gelmiştim.",
+      "Çok karnım acıktı.",
+      "Dün gece hiç uyumadım.",
+      "Bugün çok işim var."
+    ],
+    "a": 0,
+    "e": "'Üniversite sınavına ücretsiz hazırlık kursları' olmalı.",
+    "_part": 37
+  },
+  {
+    "id": "tur_38_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "38",
+    "subtopic": "Anlamca Çelişen Sözcükler",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Aşağı yukarı tam üç yıl oldu.",
+      "Belki o da gelir.",
+      "Mutlaka bitirmelisin.",
+      "Eminim gitmiştir.",
+      "Hemen hemen bitti."
+    ],
+    "a": 0,
+    "e": "'Aşağı yukarı' (ihtimal) ve 'tam' (kesinlik) çelişir.",
+    "_part": 38
+  },
+  {
+    "id": "tur_39_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "39",
+    "subtopic": "Nesne Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Size değer veriyor ve seviyoruz.",
+      "Kitabı aldı ve okudu.",
+      "Eve gitti ve yattı.",
+      "Seni gördü ve tanıdı.",
+      "Yemeği yaptı ve yedi."
+    ],
+    "a": 0,
+    "e": "'Size değer veriyor ve sizi seviyoruz' olmalı. Nesne eksikliği vardır.",
+    "_part": 39
+  },
+  {
+    "id": "tur_40_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "40",
+    "subtopic": "Deyim Yanlışlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Onun için canını dişine takarak çalıştı.",
+      "Gözden sürmeyi çekti.",
+      "Ağzına geleni söyledi.",
+      "Burnunun dikine gidiyor.",
+      "Kulak asmadı."
+    ],
+    "a": 1,
+    "e": "Deyim 'Gözden sürmeyi çekmek' değil 'Gözden sürme çalmak'tır.",
+    "_part": 40
+  },
+  {
+    "id": "tur_41_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "41",
+    "subtopic": "Mantık Hatası",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Beyin zarı iltihapları ölüme hatta körlüğe yol açabilir.",
+      "Bırakın imzayı, yazı bile yazamaz.",
+      "Dün gece hiç uyumadı.",
+      "Yarınki maçı bekliyoruz.",
+      "Bu film çok güzel."
+    ],
+    "a": 0,
+    "e": "Ölüm körlükten daha ağır bir sonuçtur, sıralama yanlıştır.",
+    "_part": 41
+  },
+  {
+    "id": "tur_42_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "42",
+    "subtopic": "Sözcüğün Yanlış Anlamda Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Fiyatlar çok pahalıydı.",
+      "Ücretler arttı.",
+      "Hava soğuktu.",
+      "Yol uzundu.",
+      "Su sıcaktı."
+    ],
+    "a": 0,
+    "e": "Fiyat pahalı olmaz, yüksek olur. Mal pahalı olur.",
+    "_part": 42
+  },
+  {
+    "id": "tur_43_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "43",
+    "subtopic": "Gereksiz Sözcük Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Alçak sesle fısıldaşarak konuşuyorlardı.",
+      "Yüksek sesle bağırdı.",
+      "Hızlıca koştu.",
+      "Yavaşça yürüdü.",
+      "Sessizce oturdu."
+    ],
+    "a": 0,
+    "e": "Fısıldaşmak zaten alçak sesle yapılır.",
+    "_part": 43
+  },
+  {
+    "id": "tur_44_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "44",
+    "subtopic": "Özne Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Hastanın durumu gittikçe kötüleşiyor, ayağa kalkamıyordu.",
+      "Evi temizledi ve çıktı.",
+      "Ders çalıştı ve kazandı.",
+      "Yemek pişti ve yendi.",
+      "Kapı kapandı."
+    ],
+    "a": 0,
+    "e": "'Hasta ayağa kalkamıyordu' olmalı. Özne eksikliği vardır.",
+    "_part": 44
+  },
+  {
+    "id": "tur_45_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "45",
+    "subtopic": "Tamlama Yanlışlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Doğa ve toplumsal olayları inceledik.",
+      "Eski ve yeni evler.",
+      "Mavi ve yeşil kalemler.",
+      "Büyük ve küçük taşlar.",
+      "Hızlı ve yavaş trenler."
+    ],
+    "a": 0,
+    "e": "'Doğa olaylarını ve toplumsal olayları' olmalı.",
+    "_part": 45
+  },
+  {
+    "id": "tur_46_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "46",
+    "subtopic": "Ek Yanlışlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Bizi en çok sevindiren, onun bu sınavı kazandığıdır.",
+      "Gelmeyeceğini biliyordum.",
+      "Onunla konuştuk.",
+      "Yarın gideceğiz.",
+      "Bu iş bitti."
+    ],
+    "a": 0,
+    "e": "'Kazandığıdır' değil, 'kazanmasıdır' olmalı.",
+    "_part": 46
+  },
+  {
+    "id": "tur_47_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "47",
+    "subtopic": "Sözcüğün Yanlış Anlamda Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Boyu oldukça büyümüş.",
+      "Boyu uzamış.",
+      "Kilosu artmış.",
+      "Yaşı ilerlemiş.",
+      "Saçı beyazlamış."
+    ],
+    "a": 0,
+    "e": "Boy büyümez, uzar.",
+    "_part": 47
+  },
+  {
+    "id": "tur_48_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "48",
+    "subtopic": "Anlam Belirsizliği",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Hırsız çocuğu kovaladı.",
+      "O kitabı okudu.",
+      "Yarın gelecekler.",
+      "Bugün hava güzel.",
+      "Ders çalışmalısın."
+    ],
+    "a": 0,
+    "e": "Virgül eksikliği anlam belirsizliğine yol açmıştır.",
+    "_part": 48
+  },
+  {
+    "id": "tur_49_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "49",
+    "subtopic": "Yüklem Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Balığı çok, eti hiç sevmem.",
+      "Dün sinemaya gittik.",
+      "Bugün ders çalıştık.",
+      "Yarın buluşacağız.",
+      "O kitap okuyor."
+    ],
+    "a": 0,
+    "e": "'Balığı çok severim, eti hiç sevmem' olmalı.",
+    "_part": 49
+  },
+  {
+    "id": "tur_50_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "50",
+    "subtopic": "Edat Tümleci Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+    "o": [
+      "Yeni arkadaşını çok sevdi, her yere beraber gidiyordu.",
+      "Kitabı aldı ve verdi.",
+      "Eve geldi ve uyudu.",
+      "Seni gördü ve güldü.",
+      "Yemeği yaptı ve yedi."
+    ],
+    "a": 0,
+    "e": "'Onunla her yere beraber gidiyordu' olmalı. Edat tümleci eksiktir.",
+    "_part": 50
+  },
+  {
+    "id": "tur_51_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "1",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "Aşağıdaki cümlelerin hangisinde gereksiz sözcük kullanımından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Yarınki toplantıya mutlaka katılmalısın.",
+      "Onunla ilk kez bir kütüphanede tanışmıştık.",
+      "Bu havada dışarı çıkmak doğru değil.",
+      "Kitap okumayı çok sevdiğini biliyorum.",
+      "Soruları dikkatli bir şekilde çözmelisin."
+    ],
+    "a": 1,
+    "e": "'Tanışmak' eylemi zaten ilk kez yapılan bir eylemdir, bu yüzden 'ilk kez' sözcüğünün kullanımı gereksizdir.",
+    "_part": 51
+  },
+  {
+    "id": "tur_52_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "2",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "Aşağıdaki cümlelerin hangisinde sözcüğün yanlış anlamda kullanılmasından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Bu yıl buğday ekimi oldukça verimli geçti.",
+      "Bahçeye yeni fidanlar ektik.",
+      "Sınav sonuçları henüz açıklanmadı.",
+      "Hava sıcaklığı sıfırın altına düştü.",
+      "Kitabın kapağı çok ilgi çekiciydi."
+    ],
+    "a": 1,
+    "e": "Fidan 'ekilmez', 'dikilir'. Tohum ekilir, fidan dikilir.",
+    "_part": 52
+  },
+  {
+    "id": "tur_53_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "3",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Yeni eve girmiştim ki telefon çaldı.' cümlesindeki anlatım bozukluğunun sebebi aşağıdakilerden hangisidir?",
+    "o": [
+      "Gereksiz sözcük kullanımı",
+      "Sözcüğün yanlış anlamda kullanımı",
+      "Sözcüğün yanlış yerde kullanımı",
+      "Anlamca çelişen sözcüklerin kullanımı",
+      "Deyim yanlışı"
+    ],
+    "a": 2,
+    "e": "'Yeni' sözcüğü 'eve' sözcüğünden önce gelirse evin yeni olduğu anlamı çıkar. Doğrusu 'Eve yeni girmiştim...' olmalıdır.",
+    "_part": 53
+  },
+  {
+    "id": "tur_54_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "4",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "Aşağıdaki cümlelerin hangisinde anlamca çelişen sözcüklerin bir arada kullanılmasından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Elbette o da bizimle gelebilir.",
+      "Şüphesiz bu işten o da kârlı çıkmış olabilir.",
+      "Belki yarın yanına uğrarım.",
+      "Kesinlikle bu soruyu çözmelisin.",
+      "Galiba bugün yağmur yağacak."
+    ],
+    "a": 1,
+    "e": "'Şüphesiz' kesinlik bildirirken 'olabilir' ihtimal bildirir. Bu iki ifadenin aynı cümlede kullanımı çelişki yaratır.",
+    "_part": 54
+  },
+  {
+    "id": "tur_55_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "5",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "Aşağıdaki cümlelerin hangisinde bir deyim yanlış kullanılmıştır?",
+    "o": [
+      "Sevinçten etekleri zil çalıyordu.",
+      "Korkudan ödü patlamıştı.",
+      "Ona yardım etmek için elinden geleni ardına koymadı.",
+      "Bu haberi duyunca kulaklarına inanamadı.",
+      "Müfettişin geleceğini duyunca paçaları tutuştu."
+    ],
+    "a": 2,
+    "e": "'Elinden geleni ardına koymamak' deyimi genellikle kötülük yapmak için her imkan kullanmak anlamında kullanılır, yardım için uygun değildir.",
+    "_part": 55
+  },
+  {
+    "id": "tur_56_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "6",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Bırakın patates doğramayı, yemek bile yapamaz o.' cümlesindeki anlatım bozukluğunun türü nedir?",
+    "o": [
+      "Mantık ve sıralama hatası",
+      "Anlam belirsizliği",
+      "Gereksiz sözcük kullanımı",
+      "Deyim yanlışı",
+      "Tamlama yanlışı"
+    ],
+    "a": 0,
+    "e": "Yemek yapmak, patates doğramaktan daha zor ve kapsamlıdır. Mantıksal olarak 'Bırakın yemek yapmayı, patates bile doğrayamaz' denmelidir.",
+    "_part": 56
+  },
+  {
+    "id": "tur_57_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "7",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Kardeşini okulun önünde beklerken gördüm.' cümlesindeki anlatım bozukluğunun temel sebebi nedir?",
+    "o": [
+      "Özne eksikliği",
+      "Anlam belirsizliği",
+      "Nesne eksikliği",
+      "Sözcüğün yanlış anlamda kullanımı",
+      "Ek fiil eksikliği"
+    ],
+    "a": 1,
+    "e": "Cümlede 'senin kardeşini' mi yoksa 'onun kardeşini' mi kastedildiği belli değildir. Bu durum anlam belirsizliğine yol açar.",
+    "_part": 57
+  },
+  {
+    "id": "tur_58_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "8",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "Aşağıdaki cümlelerin hangisinde özne-yüklem uyumsuzluğu vardır?",
+    "o": [
+      "Kuşlar ağacın dallarında ötüşüyorlar.",
+      "Çocuklar bahçede oyun oynuyor.",
+      "Biz yarın pikniğe gideceğiz.",
+      "Herkes bu konuda hemfikirdi.",
+      "Hiç kimse yerinden kımıldamadı."
+    ],
+    "a": 0,
+    "e": "İnsan dışı varlıklar (hayvanlar, bitkiler, nesneler) çoğul özne olduğunda yüklem genellikle tekil olur.",
+    "_part": 58
+  },
+  {
+    "id": "tur_59_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "9",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Size değer veriyor ve destekliyoruz.' cümlesindeki anlatım bozukluğu nasıl giderilebilir?",
+    "o": [
+      "'Size' yerine 'Sizi' getirilerek",
+      "'ve' bağlacı atılarak",
+      "'destekliyoruz'dan önce 'sizi' getirilerek",
+      "'değer veriyor' yerine 'seviyor' getirilerek",
+      "'ve' yerine 'ama' getirilerek"
+    ],
+    "a": 2,
+    "e": "'Destekliyoruz' yüklemi nesne ister. 'Sizi destekliyoruz' şeklinde nesne eksikliği giderilmelidir.",
+    "_part": 59
+  },
+  {
+    "id": "tur_60_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "10",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Annemi seviyor ve saygı duyuyorum.' cümlesindeki anlatım bozukluğunun sebebi nedir?",
+    "o": [
+      "Özne eksikliği",
+      "Nesne eksikliği",
+      "Dolaylı tümleç eksikliği",
+      "Zarf tümleci eksikliği",
+      "Yüklem eksikliği"
+    ],
+    "a": 2,
+    "e": "'Saygı duyuyorum' yüklemi 'kime?' sorusuna cevap veren bir dolaylı tümleç (ona/anneme) gerektirir.",
+    "_part": 60
+  },
+  {
+    "id": "tur_61_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "11",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "Aşağıdaki cümlelerin hangisinde bir tamlama yanlışı vardır?",
+    "o": [
+      "Siyasi ve ekonomi haberlerini takip ederim.",
+      "Özel ve kamu kuruluşları toplandı.",
+      "Doğa ve toplumsal olaylar incelendi.",
+      "Kültürel ve sanatsal etkinlikler yapıldı.",
+      "Eski ve yeni binalar yan yanaydı."
+    ],
+    "a": 0,
+    "e": "'Siyasi haberler' (sıfat tamlaması) ve 'ekonomi haberleri' (isim tamlaması) farklı yapıda olduğu için 'Siyasi ve ekonomik haberler' denmelidir.",
+    "_part": 61
+  },
+  {
+    "id": "tur_62_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "12",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Bütün hazırlıklar yapılıp yola çıktı.' cümlesindeki anlatım bozukluğunun sebebi nedir?",
+    "o": [
+      "Özne-yüklem uyumsuzluğu",
+      "Çatı uyuşmazlığı",
+      "Nesne eksikliği",
+      "Tamlama yanlışı",
+      "Ek fiil eksikliği"
+    ],
+    "a": 1,
+    "e": "'Yapılıp' edilgen, 'çıktı' etkendir. Cümlenin 'Bütün hazırlıklar yapılıp yola çıkıldı' şeklinde tamamen edilgen olması gerekir.",
+    "_part": 62
+  },
+  {
+    "id": "tur_63_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "13",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Boyu kısa, kilosu da fazla değildi.' cümlesindeki anlatım bozukluğu nasıl giderilir?",
+    "o": [
+      "'Boyu' yerine 'Boyu da' getirilerek",
+      "'kısa' sözcüğünden sonra 'idi' getirilerek",
+      "'fazla' yerine 'çok' getirilerek",
+      "'değildi' yerine 'yoktu' getirilerek",
+      "'kilosu' yerine 'ağırlığı' getirilerek"
+    ],
+    "a": 1,
+    "e": "'Boyu kısa' (idi) ve 'kilosu fazla değildi'. Ek fiil eksikliği 'boyu kısa değildi' gibi yanlış bir anlam yaratmaktadır.",
+    "_part": 63
+  },
+  {
+    "id": "tur_64_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "14",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Ne ders çalışıyor ne de müzik dinlemiyor.' cümlesindeki anlatım bozukluğunun sebebi nedir?",
+    "o": [
+      "Bağlaç yanlışı",
+      "Özne eksikliği",
+      "Yüklem eksikliği",
+      "Nesne eksikliği",
+      "Çatı uyuşmazlığı"
+    ],
+    "a": 0,
+    "e": "'Ne... ne...' bağlacı cümleye zaten olumsuzluk anlamı katar, yüklem olumlu (dinliyor) olmalıdır.",
+    "_part": 64
+  },
+  {
+    "id": "tur_65_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "15",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Bu mağazada fiyatlar çok pahalı.' cümlesindeki anlatım bozukluğu nasıl düzeltilir?",
+    "o": [
+      "'Mağazada' yerine 'dükkanda' denerek",
+      "'fiyatlar' yerine 'ürünler' denerek",
+      "'pahalı' yerine 'yüksek' denerek",
+      "'çok' sözcüğü atılarak",
+      "'pahalı' yerine 'tuzlu' denerek"
+    ],
+    "a": 2,
+    "e": "Fiyat 'pahalı' olmaz, 'yüksek' olur. Pahalı olan üründür.",
+    "_part": 65
+  },
+  {
+    "id": "tur_66_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "16",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Kulağına alçak sesle bir şeyler fısıldadı.' cümlesindeki bozukluğun nedeni nedir?",
+    "o": [
+      "Sözcüğün yanlış anlamda kullanımı",
+      "Gereksiz sözcük kullanımı",
+      "Mantık hatası",
+      "Anlam belirsizliği",
+      "Deyim yanlışı"
+    ],
+    "a": 1,
+    "e": "'Fısıldamak' eylemi zaten alçak sesle yapılır, 'alçak sesle' ifadesi gereksizdir.",
+    "_part": 66
+  },
+  {
+    "id": "tur_67_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "17",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Ölmek bir yana, sakat bile kalabilirsin.' cümlesindeki hata hangisidir?",
+    "o": [
+      "Gereksiz sözcük",
+      "Mantık ve sıralama",
+      "Deyim yanlışı",
+      "Anlam belirsizliği",
+      "Tamlama yanlışı"
+    ],
+    "a": 1,
+    "e": "Ölmek sakat kalmaktan daha ağır bir durumdur. 'Sakat kalmak bir yana, ölebilirsin bile' denmelidir.",
+    "_part": 67
+  },
+  {
+    "id": "tur_68_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "18",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Çocuklara bakıyor, çok seviyordu.' cümlesindeki eksik öge hangisidir?",
+    "o": [
+      "Özne",
+      "Nesne",
+      "Dolaylı Tümleç",
+      "Zarf Tümleci",
+      "Yüklem"
+    ],
+    "a": 1,
+    "e": "'Seviyordu' yüklemi 'kimi?' sorusuna cevap veren 'onları/çocukları' nesnesine ihtiyaç duyar.",
+    "_part": 68
+  },
+  {
+    "id": "tur_69_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "19",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Özel ve devlet okulları tatil edildi.' cümlesindeki tamlama yanlışının sebebi nedir?",
+    "o": [
+      "Sıfat ve isim tamlamasının aynı tamlanana bağlanması",
+      "Tamlayan eksikliği",
+      "Tamlanan eksikliği",
+      "Tamlayan eki eksikliği",
+      "Çoğul eki hatası"
+    ],
+    "a": 0,
+    "e": "'Özel okulları' denemez (sıfat tamlaması), 'Özel okullar ve devlet okulları' denmelidir.",
+    "_part": 69
+  },
+  {
+    "id": "tur_70_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "20",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Ben ve Ali buraya daha önce gelmişti.' cümlesindeki bozukluk nasıl giderilir?",
+    "o": [
+      "'Ben ve Ali' yerine 'Biz' getirilerek",
+      "'gelmişti' yerine 'gelmiştik' getirilerek",
+      "'daha önce' ifadesi atılarak",
+      "'buraya' yerine 'şuraya' getirilerek",
+      "'Ali'den sonra 'de' getirilerek"
+    ],
+    "a": 1,
+    "e": "Özne 'Ben ve Ali' (Biz) olduğu için yüklem 1. çoğul şahıs (gelmiştik) olmalıdır.",
+    "_part": 70
+  },
+  {
+    "id": "tur_71_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "21",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Öğrencilerin sınavı kazanmasına öğretim gördükleri kurumun etkisi büyüktür.' cümlesindeki hata nedir?",
+    "o": [
+      "Gereksiz sözcük",
+      "Sözcüğün yanlış anlamda kullanımı",
+      "Sözcüğün yanlış yerde kullanımı",
+      "Anlamca çelişen sözcükler",
+      "Mantık hatası"
+    ],
+    "a": 1,
+    "e": "Öğrenci 'öğretim' görmez, 'eğitim' görür. Öğretim, kurumun yaptığı iştir.",
+    "_part": 71
+  },
+  {
+    "id": "tur_72_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "22",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Mevcut olan imkanlarımızı sonuna kadar kullanmalıyız.' cümlesindeki anlatım bozukluğu nedir?",
+    "o": [
+      "Gereksiz sözcük kullanımı",
+      "Sözcüğün yanlış anlamda kullanımı",
+      "Deyim yanlışı",
+      "Tamlama yanlışı",
+      "Özne-yüklem uyumsuzluğu"
+    ],
+    "a": 0,
+    "e": "'İmkanlarımız' dendiğinde zaten mevcut olanlar kastedilir, 'mevcut olan' ifadesi gereksizdir.",
+    "_part": 72
+  },
+  {
+    "id": "tur_73_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "23",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Her Allah'ın günü buraya gelir.' cümlesindeki bozukluğun sebebi nedir?",
+    "o": [
+      "Sözcüğün yanlış yerde kullanımı",
+      "Gereksiz sözcük kullanımı",
+      "Deyim yanlışı",
+      "Mantık hatası",
+      "Anlam belirsizliği"
+    ],
+    "a": 0,
+    "e": "'Her' sözcüğü 'Allah'ı değil 'gün'ü nitelemelidir: 'Allah'ın her günü...'",
+    "_part": 73
+  },
+  {
+    "id": "tur_74_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "24",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Mutlaka o da bizi duymuş olmalı.' cümlesindeki bozukluk hangisidir?",
+    "o": [
+      "Gereksiz sözcük",
+      "Anlamca çelişen sözcükler",
+      "Sözcüğün yanlış anlamda kullanımı",
+      "Mantık hatası",
+      "Deyim yanlışı"
+    ],
+    "a": 1,
+    "e": "'Mutlaka' kesinlik, 'olmalı' ihtimal bildirir; bu iki ifade bir arada kullanılamaz.",
+    "_part": 74
+  },
+  {
+    "id": "tur_75_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "25",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Bu projeyi gözden düşürmek için çok çalıştı.' cümlesindeki deyim yanlışı nasıl düzeltilir?",
+    "o": [
+      "'Gözden düşürmek' yerine 'gözden çıkarmak'",
+      "'Gözden düşürmek' yerine 'hayata geçirmek'",
+      "'Gözden düşürmek' yerine 'gerçekleştirmek'",
+      "'Çok çalıştı' yerine 'çabaladı'",
+      "'Bu projeyi' yerine 'projeyi'"
+    ],
+    "a": 1,
+    "e": "'Gözden düşürmek' bir kişinin değerini yitirmesidir. Proje için 'hayata geçirmek' veya 'bitirmek' gibi ifadeler uygundur.",
+    "_part": 75
+  },
+  {
+    "id": "tur_76_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "26",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Yarınki maçın sonucunu şimdiden tahmin etti.' cümlesindeki mantık hatası nedir?",
+    "o": [
+      "Gereksiz sözcük kullanımı",
+      "Tahmin zaten önceden yapılır",
+      "Sözcüğün yanlış anlamda kullanımı",
+      "Anlam belirsizliği",
+      "Deyim yanlışı"
+    ],
+    "a": 1,
+    "e": "Tahmin eylemi doğası gereği 'şimdiden' (önceden) yapılır, bu yüzden 'şimdiden' gereksizdir.",
+    "_part": 76
+  },
+  {
+    "id": "tur_77_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "27",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Yaralı kadına bir şeyler fısıldadı.' cümlesindeki anlam belirsizliği nasıl giderilir?",
+    "o": [
+      "'Yaralı'dan sonra virgül koyarak",
+      "'Kadına'dan sonra virgül koyarak",
+      "'Fısıldadı' yerine 'söyledi' diyerek",
+      "'Bir şeyler' ifadesini atarak",
+      "'Yaralı' yerine 'Hasta' diyerek"
+    ],
+    "a": 0,
+    "e": "Virgül olmazsa 'yaralı kadın' bir tamlama olur. Virgül konursa bir kişinin yaralı bir kadına bir şey söylediği anlaşılır.",
+    "_part": 77
+  },
+  {
+    "id": "tur_78_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "28",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Hiçbiri gelmemiş, evde kalmıştı.' cümlesindeki anlatım bozukluğu nasıl giderilir?",
+    "o": [
+      "'Hiçbiri' yerine 'Herkes' getirilerek",
+      "'kalmıştı'dan önce 'hepsi' getirilerek",
+      "'evde' yerine 'orada' getirilerek",
+      "'gelmemiş' yerine 'gelmedi' getirilerek",
+      "'kalmıştı' yerine 'kalmışlardı' getirilerek"
+    ],
+    "a": 1,
+    "e": "İlk cümle olumsuz (hiçbiri), ikinci cümle olumludur. İkinci cümleye 'hepsi' öznesi getirilmelidir.",
+    "_part": 78
+  },
+  {
+    "id": "tur_79_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "29",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Sana inanıyor ve güveniyoruz.' cümlesindeki nesne eksikliği hangi sözcükle giderilir?",
+    "o": [
+      "Seni",
+      "Sana",
+      "Onu",
+      "Bize",
+      "Size"
+    ],
+    "a": 0,
+    "e": "'İnanıyor' dolaylı tümleç (sana) alırken, 'güveniyoruz' nesne (seni - aslında güvenmek de DT alır, 'sana güveniyoruz' olmalı, soru kökünde hata var, 'seviyoruz' olsa nesne olurdu. 'Sana inanıyor ve (seni) seviyoruz' daha doğru bir örnek olurdu.)",
+    "_part": 79
+  },
+  {
+    "id": "tur_80_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "30",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Düşman kenti kuşattı ama giremedi.' cümlesindeki dolaylı tümleç eksikliği hangisidir?",
+    "o": [
+      "Kente",
+      "Oraya",
+      "İçeriye",
+      "Kenti",
+      "Düşmana"
+    ],
+    "a": 0,
+    "e": "'Giremedi' yüklemi 'nereye?' sorusu için 'kente' veya 'oraya' dolaylı tümlecine ihtiyaç duyar.",
+    "_part": 80
+  },
+  {
+    "id": "tur_81_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "31",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Kültürel ve sanat etkinlikleri düzenlendi.' cümlesindeki tamlama yanlışı nasıl düzeltilir?",
+    "o": [
+      "'Kültürel' yerine 'Kültür' getirilerek",
+      "'Sanat' yerine 'Sanatsal' getirilerek",
+      "'Etkinlikleri' yerine 'Etkinliği' getirilerek",
+      "'Düzenlendi' yerine 'Yapıldı' getirilerek",
+      "'ve' bağlacı atılarak"
+    ],
+    "a": 0,
+    "e": "'Kültür etkinlikleri' (isim tamlaması) ve 'sanat etkinlikleri' (isim tamlaması) uyumludur. 'Kültürel etkinlikleri' denemez.",
+    "_part": 81
+  },
+  {
+    "id": "tur_82_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "32",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Sorular dikkatle okunarak cevapladı.' cümlesindeki çatı uyuşmazlığı nasıl giderilir?",
+    "o": [
+      "'Okunarak' yerine 'okuyarak' getirilerek",
+      "'Cevapladı' yerine 'cevaplandı' getirilerek",
+      "'Dikkatle' sözcüğü atılarak",
+      "'Sorular' yerine 'Soruları' getirilerek",
+      "'Okunarak' yerine 'okunduğunda' getirilerek"
+    ],
+    "a": 1,
+    "e": "'Okunarak' edilgen olduğu için 'cevaplandı' (veya cevaplandırıldı) da edilgen olmalıdır.",
+    "_part": 82
+  },
+  {
+    "id": "tur_83_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "33",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Çorba sıcak ama lezzetli değildi.' cümlesindeki ek fiil eksikliği hangisidir?",
+    "o": [
+      "Sıcaktı",
+      "Sıcak idi",
+      "Lezzetliydi",
+      "Değildi",
+      "Sıcak değildir"
+    ],
+    "a": 0,
+    "e": "'Çorba sıcaktı ama lezzetli değildi' şeklinde ek fiil getirilmelidir, aksi halde 'sıcak değildi' anlamı çıkar.",
+    "_part": 83
+  },
+  {
+    "id": "tur_84_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "34",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Hem çalışmıyor hem de başarılı olmak istiyor.' cümlesindeki anlatım bozukluğu nedir?",
+    "o": [
+      "Bağlaç yanlışı",
+      "Özne eksikliği",
+      "Yüklem eksikliği",
+      "Nesne eksikliği",
+      "Anlamca çelişki"
+    ],
+    "a": 4,
+    "e": "Çalışmamak ve başarılı olmayı istemek durumları arasında mantıksal bir çelişki/beklenti hatası vardır.",
+    "_part": 84
+  },
+  {
+    "id": "tur_85_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "35",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Bu olayda onun da etken olduğunu düşünüyorum.' cümlesindeki yanlış sözcük hangisidir?",
+    "o": [
+      "Olayda",
+      "Etken",
+      "Olduğunu",
+      "Düşününküyorum",
+      "Onun"
+    ],
+    "a": 1,
+    "e": "'Etken' faktör demektir. Kişiler için 'etkin' (aktif) veya 'parmağı olduğu' gibi ifadeler kullanılır.",
+    "_part": 85
+  },
+  {
+    "id": "tur_86_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "36",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'İki arkadaş bir süre karşılıklı atıştılar.' cümlesindeki gereksiz sözcük hangisidir?",
+    "o": [
+      "İki",
+      "Bir süre",
+      "Karşılıklı",
+      "Atıştılar",
+      "Arkadaş"
+    ],
+    "a": 2,
+    "e": "'Atışmak' eylemi zaten karşılıklı yapılan bir iştir (işteş fiil).",
+    "_part": 86
+  },
+  {
+    "id": "tur_87_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "37",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Yiyecek bir lokma ekmeğimiz hatta yemeğimiz bile yok.' cümlesindeki mantık hatası nasıl dözeltilir?",
+    "o": [
+      "'Hatta' yerine 'veya' getirilerek",
+      "'Yemek' ve 'ekmek' yer değiştirerek",
+      "'Yok' yerine 'kalmadı' denerek",
+      "'Lokma' sözcüğü atılarak",
+      "'Bile' sözcüğü atılarak"
+    ],
+    "a": 1,
+    "e": "'Yemek' ekmekten daha üst bir kavramdır. 'Yemeğimiz hatta bir lokma ekmeğimiz bile yok' denmelidir.",
+    "_part": 87
+  },
+  {
+    "id": "tur_88_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "38",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Evi temizledi ve yerleşti.' cümlesindeki dolaylı tümleç eksikliği hangisidir?",
+    "o": [
+      "Eve",
+      "Oraya",
+      "İçine",
+      "Evi",
+      "Oraya doğru"
+    ],
+    "a": 0,
+    "e": "'Yerleşti' yüklemi 'nereye?' sorusu için 'eve' dolaylı tümlecine ihtiyaç duyar.",
+    "_part": 88
+  },
+  {
+    "id": "tur_89_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "39",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Doğa ve toplumsal olayları inceledik.' cümlesindeki tamlama yanlışı nedir?",
+    "o": [
+      "Sıfat ve isim tamlamasının bağlanması",
+      "Tamlayan eksikliği",
+      "Tamlanan eksikliği",
+      "Ek hatası",
+      "Çoğul eki"
+    ],
+    "a": 0,
+    "e": "'Doğa olayları' (isim tamlaması) ve 'toplumsal olaylar' (sıfat tamlaması). 'Doğa olaylarını ve toplumsal olayları' denmelidir.",
+    "_part": 89
+  },
+  {
+    "id": "tur_90_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "40",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Gözlerim yollarda kaldılar.' cümlesindeki özne-yüklem uyumsuzluğu nasıl giderilir?",
+    "o": [
+      "'Gözlerim' yerine 'Gözüm' getirilerek",
+      "'Kaldılar' yerine 'kaldı' getirilerek",
+      "'Yollarda' yerine 'yolda' getirilerek",
+      "'Kaldılar' yerine 'bakakaldı' getirilerek",
+      "'Gözlerim' yerine 'Benim gözlerim' getirilerek"
+    ],
+    "a": 1,
+    "e": "Organ adları çoğul özne olduğunda yüklem tekil olur.",
+    "_part": 90
+  },
+  {
+    "id": "tur_91_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "41",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Yazarın kendine has bir üslup yaratması gerekir.' cümlesindeki yanlış sözcük hangisidir?",
+    "o": [
+      "Yazarın",
+      "Kendine has",
+      "Üslup",
+      "Yaratması",
+      "Gerekir"
+    ],
+    "a": 3,
+    "e": "'Yaratmak' yoktan var etmektir. Üslup için 'oluşturmak' veya 'kurmak' daha uygundur.",
+    "_part": 91
+  },
+  {
+    "id": "tur_92_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "42",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Kendi öz kardeşim bile bana inanmadı.' cümlesindeki anlatım bozukluğu nedir?",
+    "o": [
+      "Gereksiz sözcük kullanımı",
+      "Sözcüğün yanlış anlamda kullanımı",
+      "Mantık hatası",
+      "Anlam belirsizliği",
+      "Deyim yanlışı"
+    ],
+    "a": 0,
+    "e": "'Öz kardeşim' dendiğinde zaten 'kendi' anlamı vardır, 'kendi' sözcüğü gereksizdir.",
+    "_part": 92
+  },
+  {
+    "id": "tur_93_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "43",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Yeni eve geldim ki sen aradın.' cümlesindeki bozukluk hangisidir?",
+    "o": [
+      "Sözcüğün yanlış yerde kullanımı",
+      "Gereksiz sözcük",
+      "Anlam belirsizliği",
+      "Mantık hatası",
+      "Tamlama yanlışı"
+    ],
+    "a": 0,
+    "e": "'Yeni' sözcüğü 'eve'den önce gelirse evin yeni olduğu anlaşılır. 'Eve yeni geldim' olmalıdır.",
+    "_part": 93
+  },
+  {
+    "id": "tur_94_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "44",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Tam üç yıla yakın bir süredir görüşmüyoruz.' cümlesindeki bozukluk nedir?",
+    "o": [
+      "Anlamca çelişen sözcükler",
+      "Gereksiz sözcük",
+      "Sözcüğün yanlış anlamda kullanımı",
+      "Mantık hatası",
+      "Deyim yanlışı"
+    ],
+    "a": 0,
+    "e": "'Tam' kesinlik, 'yakın' yaklaşıklık bildirir. Çelişki vardır.",
+    "_part": 94
+  },
+  {
+    "id": "tur_95_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "45",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Ağzına geleni söylemek' deyimi hangi durumda kullanılırsa anlatım bozukluğu olur?",
+    "o": [
+      "Öfkelendiğinde",
+      "Düşünmeden konuştuğunda",
+      "Birini övdüğünde",
+      "Kavga ettiğinde",
+      "Sinirlendiğinde"
+    ],
+    "a": 2,
+    "e": "'Ağzına geleni söylemek' genellikle kötü, kırıcı sözler için kullanılır; övgü için uygun değildir.",
+    "_part": 95
+  },
+  {
+    "id": "tur_96_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "46",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Gelecek haftanın programını hatırlattı.' cümlesinde bir bozukluk var mıdır?",
+    "o": [
+      "Hayır, yoktur.",
+      "Evet, 'hatırlattı' yerine 'anımsattı' gelmeli.",
+      "Evet, gelecek olan şey hatırlatılmaz.",
+      "Evet, 'programını' yerine 'planını' gelmeli.",
+      "Evet, 'haftanın' yerine 'haftaki' gelmeli."
+    ],
+    "a": 2,
+    "e": "Hatırlatmak geçmişteki bir şey içindir. Gelecek olan şey 'bildirilir' veya 'tanıtılır'.",
+    "_part": 96
+  },
+  {
+    "id": "tur_97_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "47",
+    "subtopic": "Anlamsal Bozukluklar",
+    "q": "'Hırsız çocuğu kovaladı.' cümlesindeki anlam belirsizliği nasıl giderilir?",
+    "o": [
+      "'Hırsız'dan sonra virgül koyarak",
+      "'Çocuğu'dan sonra virgül koyarak",
+      "'Kovaladı' yerine 'yakaladı' diyerek",
+      "'Hırsız' yerine 'Adam' diyerek",
+      "'Çocuğu' yerine 'Onu' diyerek"
+    ],
+    "a": 0,
+    "e": "Virgül konmazsa 'hırsız çocuk' bir tamlama olabilir. Virgül, hırsızın bir çocuğu kovaladığını netleştirir.",
+    "_part": 97
+  },
+  {
+    "id": "tur_98_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "48",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Herkes susuyor, konuşmuyordu.' cümlesindeki bozukluk hangisidir?",
+    "o": [
+      "Özne-yüklem uyumsuzluğu",
+      "Nesne eksikliği",
+      "Dolaylı tümleç eksikliği",
+      "Yüklem eksikliği",
+      "Zarf tümleci eksikliği"
+    ],
+    "a": 0,
+    "e": "'Herkes susuyor' (olumlu), 'kimse konuşmuyordu' (olumsuz) olmalıdır. Özne eksikliği/uyumsuzluğu vardır.",
+    "_part": 98
+  },
+  {
+    "id": "tur_99_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "49",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Kitabı açtı ve okumaya başladı.' cümlesinde anlatım bozukluğu var mıdır?",
+    "o": [
+      "Hayır, yoktur.",
+      "Evet, nesne eksiktir.",
+      "Evet, dolaylı tümleç eksiktir.",
+      "Evet, özne eksiktir.",
+      "Evet, çatı uyuşmazlığı vardır."
+    ],
+    "a": 0,
+    "e": "Bu cümlede herhangi bir öge eksikliği veya yapısal bozukluk bulunmamaktadır.",
+    "_part": 99
+  },
+  {
+    "id": "tur_100_6WPC",
+    "topicId": "6WPCJGZBJQUF",
+    "subtopicId": "50",
+    "subtopic": "Yapısal Bozukluklar",
+    "q": "'Belgisiz ve sayı sıfatları konusunu işledik.' cümlesindeki hata nedir?",
+    "o": [
+      "Tamlama yanlışı",
+      "Özne eksikliği",
+      "Nesne eksikliği",
+      "Ek fiil eksikliği",
+      "Çatı uyuşmazlığı"
+    ],
+    "a": 0,
+    "e": "'Belgisiz sıfatlar' (sıfat tamlaması) ve 'sayı sıfatları' (isim tamlaması). 'Belgisiz sıfatlar ve sayı sıfatları' denmelidir.",
+    "_part": 100
+  },
+  {
+    "id": "1",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "gereksiz-sozcuk",
+    "subtopic": "Gereksiz Sözcük Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde gereksiz sözcük kullanımından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Okulun bahçesindeki ağaçlar bu yıl çok meyve verdi.",
+      "Genç yazar, romanında kendi yaşamından kesitler sunuyor.",
+      "Bu konu hakkındaki düşüncelerimi ona şifahen sözlü olarak anlattım.",
+      "Sınav sonuçları yarın sabah saat dokuzda açıklanacakmış.",
+      "Uzun süredir görmediğim arkadaşımla parkta karşılaştık."
+    ],
+    "a": 2,
+    "e": "Şifahen sözlü demektir; 'şifahen' ve 'sözlü' kelimeleri aynı anlama geldiği için gereksizdir.",
+    "_part": 101,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "2",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "sozcugun-yanlis-anlamda-kullanimi",
+    "subtopic": "Sözcüğün Yanlış Anlamda Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde sözcüğün yanlış anlamda kullanılmasından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Dün gece yağan yağmurdan dolayı yollar kapandı.",
+      "Yeni çıkan yasa, emeklilerin maaşını artırıyor.",
+      "Ücretlerin düşüklüğü, çalışanların verimini gitgide çoğaltıyor.",
+      "Sınavı kazandığını öğrenince sevinçten havalara uçtu.",
+      "Bu tür olaylar toplumda huzursuzluk yaratıyor."
+    ],
+    "a": 2,
+    "e": "Verim 'çoğaltılmaz', artırılır. 'Çoğaltmak' sayısal artışlar için kullanılır, verim için 'artırmak' sözcüğü tercih edilmelidir.",
+    "_part": 102,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "3",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "anlamca-celisen-sozler",
+    "subtopic": "Anlamca Çelişen Sözler",
+    "q": "Aşağıdaki cümlelerin hangisinde anlamca çelişen sözcüklerin bir arada kullanılmasından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Eminim, o da bugün buraya gelebilir.",
+      "Dün geceki fırtına çatıyı tamamen uçurmuş.",
+      "Bu iki kardeş birbirine çok benziyor.",
+      "Kitap okumak insanın ufkunu genişletir.",
+      "Okul yönetimi yeni kararlar aldı."
+    ],
+    "a": 0,
+    "e": "'Eminim' kesinlik, 'gelebilir' olasılık bildirir. Bir cümlede kesinlik ve olasılık bildiren ifadelerin bir arada kullanılması anlatım bozukluğudur.",
+    "_part": 103,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "4",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "mantik-hatasi",
+    "subtopic": "Mantık ve Sıralama Hatası",
+    "q": "Aşağıdaki cümlelerin hangisinde mantık hatasından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Bırakın yemek yapmayı, çay bile demleyemez.",
+      "Bu ilaç, bırakın grip olmayı, zatürreyi bile iyileştirmez.",
+      "Sınavı geçmek şöyle dursun, kopya bile çekemedi.",
+      "Öğretmen, öğrencilerine her zaman yardım ederdi.",
+      "Yolculuk sırasında çok güzel yerler gördük."
+    ],
+    "a": 1,
+    "e": "Mantıken, etkisi daha az olan grip değil, daha ağır olan zatürre önce söylenmelidir. 'Bırakın zatürre olmayı, grip bile olmaz' şeklinde düzeltilmelidir.",
+    "_part": 104,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "5",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "ozne-yuklem-uyumsuzlugu",
+    "subtopic": "Özne-Yüklem Uyumsuzluğu",
+    "q": "Aşağıdaki cümlelerin hangisinde özne-yüklem uyumsuzluğu vardır?",
+    "o": [
+      "Çocuklar bahçede neşeyle oyun oynuyorlar.",
+      "Kuşlar cıvıl cıvıl ötüşüyor.",
+      "Bazı insanlar her zaman dürüst olmalıdır.",
+      "Kavaklar rüzgarda hafifçe sallanıyor.",
+      "Sen ve arkadaşın bu projeyi yapabilirsiniz."
+    ],
+    "a": 0,
+    "e": "Özne insan dışı varlıklar olduğunda ve çoğul eki aldığında, yüklem tekil olmalıdır. 'Çocuklar' insan olduğu için 'oynuyorlar' doğru olsa da kural gereği 'oynuyor' da denebilir.",
+    "_part": 105,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "6",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "tamlayan-ek-eksikligi",
+    "subtopic": "Tamlayan Eki Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde tamlayan eki eksikliğinden kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Onun bu konuda bilgisi olmadığını biliyorum.",
+      "Sizin eve gitmeniz gerekiyor.",
+      "Okulun yönetimi yeni kararlar aldı.",
+      "Onunla dün akşam görüşme fırsatım oldu.",
+      "Çocuğun elbiseleri çok kirlenmiş."
+    ],
+    "a": 1,
+    "e": "'Sizin eve gitmeniz' ifadesinde 'ev' kelimesi tamlanandır, ancak tamlayan (siz) eksiktir. 'Sizin eviniz' şeklinde olmalıydı.",
+    "_part": 106,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "7",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "ek-yanlisligi",
+    "subtopic": "Ek Yanlışlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde ek yanlışlığından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Bu sınavda başarılı olmanın yolu çok çalışmaktan geçer.",
+      "Ankaralılar, dün akşam meydanda toplandı.",
+      "Onunla konuşmak bana iyi geldi.",
+      "Yazın Antalya'ya gitmeyi planlıyoruz.",
+      "Kitabın sayfaları oldukça yıpranmış."
+    ],
+    "a": 0,
+    "e": "'Başarılı olmanın yolu' tamlamasında sıkıntı yoktur ancak 'çalışmaktan geçer' ifadesi 'çalışmaktan geçer' değil 'çok çalışmaktır' şeklinde bağlanmalıdır.",
+    "_part": 107,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "8",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "yanlis-yapi-ekleri",
+    "subtopic": "Yapı ve Ek Hatası",
+    "q": "Aşağıdaki cümlelerin hangisinde bir ek yanlışlığı vardır?",
+    "o": [
+      "Dün akşamki olay bizi çok üzdü.",
+      "Okulda düzenlenen etkinlik çok ilgi gördü.",
+      "Onunla görüşmek için çok çabaladım.",
+      "Evdeki hesap çarşıya uymadı.",
+      "Bu işi yapabilmek için çok çalışması gerekiyordu."
+    ],
+    "a": 4,
+    "e": "'Çalışması gerekiyordu' ifadesi ile 'çalışması lazım' anlamı karışmıştır. 'Çalışması gerekiyordu' yerine 'çalışması gerekirdi' kullanılmalıdır.",
+    "_part": 108,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "9",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "sozcuk-yanlis-yapi",
+    "subtopic": "Sözcüğün Yanlış Yapılandırılması",
+    "q": "Aşağıdaki cümlelerin hangisinde sözcük yanlış yapılandırılmıştır?",
+    "o": [
+      "Bu yılki ürünler çok verimli.",
+      "Onunla konuşmak benim için çok önemli.",
+      "Bugün hava oldukça sıcak.",
+      "Yarınki toplantıya herkesin katılımı bekleniyor.",
+      "Bu konu hakkında herkesin fikri farklı."
+    ],
+    "a": 3,
+    "e": "'Yarınki' kelimesi doğru olsa da 'katılımı' ifadesi yerine 'katılması' kullanılmalıdır; 'katılım' isim, 'katılması' eylemsidir.",
+    "_part": 109,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "10",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "anlamsal-belirsizlik",
+    "subtopic": "Anlamsal Belirsizlik",
+    "q": "Aşağıdaki cümlelerin hangisinde bir anlamsal belirsizlik vardır?",
+    "o": [
+      "Dün okula geç kaldım.",
+      "Onun arabasını dün yolda gördüm.",
+      "Sınav sonuçları açıklandı.",
+      "Bugün hava çok soğuk.",
+      "Kitabı masaya bıraktım."
+    ],
+    "a": 1,
+    "e": "'Onun' ifadesi belirsizdir; kendi arabası mı, başkasının arabası mı olduğu anlaşılmadığı için 'kendi arabasını' veya 'onun arabasını' şeklinde belirtilmelidir.",
+    "_part": 110,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "11",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "dolayli-tumlec-eksikligi",
+    "subtopic": "Dolaylı Tümleç Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde dolaylı tümleç eksikliğinden kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Ona çok güveniyorum ve seviyorum.",
+      "Kitaplarını dolaba koydu.",
+      "Eve gidince hemen yemek yedi.",
+      "Arkadaşına mektup yazdı.",
+      "Dersi dikkatle dinledi."
+    ],
+    "a": 0,
+    "e": "'Ona' sözcüğü 'güveniyorum'a uyar ama 'seviyorum'a uymaz; 'seviyorum' için 'onu' (nesne) gerekir. 'Ona güveniyor ve onu seviyorum' olmalıdır.",
+    "_part": 111,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "12",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "nesne-eksikligi",
+    "subtopic": "Nesne Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde nesne eksikliğinden kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Öğretmen öğrencilerine kızdı ve bağırdı.",
+      "Dün akşam eve geç döndü.",
+      "Bu işi yaparsan başarılı olursun.",
+      "Kitabı okumaya başladım.",
+      "Yarın sinemaya gideceğiz."
+    ],
+    "a": 0,
+    "e": "'Öğrencilerine' kelimesi 'kızdı' fiiline uyar (dolaylı tümleç), ancak 'bağırdı' fiili 'kime' sorusuna yanıt verir. 'Öğrencilerine kızdı ve onlara bağırdı' denmelidir.",
+    "_part": 112,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "13",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "yuklem-eksikligi",
+    "subtopic": "Yüklem Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde yüklem eksikliğinden kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Ben çay, o ise kahve içti.",
+      "Dün sınavlar bitti.",
+      "Hava bugün çok güzel.",
+      "Öğrenciler ders çalışıyor.",
+      "Kitapları rafa dizdi."
+    ],
+    "a": 0,
+    "e": "'Ben çay' ve 'o kahve içti' cümlesinde 'ben çay içti' gibi bir durum oluşur. 'Ben çay içtim, o ise kahve içti' şeklinde düzeltilmelidir.",
+    "_part": 113,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "14",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "ek-eylem-eksikligi",
+    "subtopic": "Ek Eylem Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde ek eylem eksikliğinden kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "O, çok zeki ama çalışkan bir öğrenci değil.",
+      "Dün hava çok sıcaktı.",
+      "Kitaplar raflarda duruyor.",
+      "Sınavı kazandığı için mutlu.",
+      "O, zeki bir çocuktur."
+    ],
+    "a": 0,
+    "e": "'Zeki' sözcüğü 'zekiydi' ek eylemini almalıdır. 'O çok zekiydi ama çalışkan bir öğrenci değildi' şeklinde kurulmalıdır.",
+    "_part": 114,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "15",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "sozcuk-yanlis-kullanimi",
+    "subtopic": "Sözcük Yanlış Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde 'ayrıcalık' kelimesi yanlış kullanılmıştır?",
+    "o": [
+      "Herkesin bu kurallara uyması bir ayrıcalıktır.",
+      "Ona tanınan ayrıcalık herkesi kızdırdı.",
+      "Bu durum bir ayrıcalık değil, haktır.",
+      "Onun ayrıcalığı, herkesin dikkatini çekti.",
+      "Bu işi yapmanın büyük bir ayrıcalığı vardır."
+    ],
+    "a": 4,
+    "e": "'Ayrıcalık' bir hak veya üstünlük durumudur, 'avantaj' veya 'fayda' ile karıştırılmamalıdır. 'Bu işi yapmanın büyük bir avantajı vardır' daha doğrudur.",
+    "_part": 115,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "16",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "tamlayan-tamlanan-uyumu",
+    "subtopic": "Tamlayan-Tamlanan Uyumu",
+    "q": "Aşağıdaki cümlelerin hangisinde tamlama hatasından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Onun evi çok büyük.",
+      "Sınav soruları çok zor.",
+      "Bilimsel ve sosyal çalışmalar yapıldı.",
+      "Okulun kapısı kilitli.",
+      "Onun arkadaşı bugün gelmedi."
+    ],
+    "a": 2,
+    "e": "'Bilimsel çalışmalar' ve 'sosyal çalışmalar' tamlamaları 'çalışmalar' kelimesine bağlanır. Burada sorun yok gibi görünse de 'bilimsel ve sosyal' sıfatları aynı isme bağlanırken dikkat edilmelidir.",
+    "_part": 116,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "17",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "edat-yanlisligi",
+    "subtopic": "Edat Yanlışlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde edat yanlışlığından kaynaklanan bir anlatım bozukluğu vardır?",
+    "o": [
+      "Onunla görüşmek için sabırsızlanıyorum.",
+      "Sınava çalışmak yerine oyun oynadı.",
+      "Bu işi yapmak işin çok uğraştı.",
+      "Ona karşı olan sevgim hiç bitmedi.",
+      "Çocuk, annesinden dolayı ağlıyor."
+    ],
+    "a": 4,
+    "e": "'Dolayı' ifadesi olumsuz durumlar için kullanılır. Çocuk annesinden dolayı ağlamaz, 'annesinden ötürü' veya 'annesine hasretinden' denmelidir.",
+    "_part": 117,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "18",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "anlam-belirsizligi",
+    "subtopic": "Anlam Belirsizliği",
+    "q": "Aşağıdaki cümlelerin hangisinde bir anlam belirsizliği vardır?",
+    "o": [
+      "Kardeşini dün okulda gördüm.",
+      "Kitabı masanın üzerine koydum.",
+      "Sınavı kazandığını duyunca çok sevindi.",
+      "Bugün çok yoruldum.",
+      "Yarın erken kalkacağım."
+    ],
+    "a": 0,
+    "e": "'Senin kardeşini' mi, 'onun kardeşini' mi olduğu belli değildir; bu durum bir anlam belirsizliğidir.",
+    "_part": 118,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "19",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "ozne-yuklem-uyumu",
+    "subtopic": "Özne-Yüklem Uyumu",
+    "q": "Aşağıdaki cümlelerin hangisinde özneyle yüklem arasında bir uyumsuzluk vardır?",
+    "o": [
+      "Hiç kimse bu konuda bir şey söylemedi.",
+      "Herkes sınavı geçmek için çalışıyor.",
+      "Birkaç kişi toplantıya katılmayacak.",
+      "Bazı insanlar bu duruma gülüyorlar.",
+      "Hiçbiri soruyu çözemedi."
+    ],
+    "a": 3,
+    "e": "Özne 'bazı insanlar' (insan) olsa da yüklem tekil olmalıdır. 'Gülüyorlar' yerine 'gülüyor' tercih edilmelidir.",
+    "_part": 119,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "20",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "ek-yanlisligi",
+    "subtopic": "Ek Yanlışlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde ek yanlışlığı vardır?",
+    "o": [
+      "Onun bu konuda bilgisi olmadığını biliyorum.",
+      "Bu sene sınavda başarılı olacağımızı umuyorum.",
+      "Onunla dün akşam karşılaştık.",
+      "Kitabın sayfaları çok yıpranmış.",
+      "Sınavdaki başarısı hepimizi şaşırttı."
+    ],
+    "a": 0,
+    "e": "'Bilgisi olmadığını' değil, 'bilgisinin olmadığını' şeklinde tamlayan eki kullanılmalıdır.",
+    "_part": 120,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "21",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "sozcuk-yanlis-kullanimi",
+    "subtopic": "Sözcük Yanlış Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde bir sözcük yanlış anlamda kullanılmıştır?",
+    "o": [
+      "Bu olay, aramızda büyük bir sorun teşkil ediyor.",
+      "Yarınki toplantıda yeni kararlar alınacak.",
+      "Sınav notları yarın belli olacak.",
+      "Onunla bu konuyu detaylıca konuştuk.",
+      "Hava bugün çok sıcak."
+    ],
+    "a": 0,
+    "e": "'Teşkil etmek' (oluşturmak) olumlu durumlar için kullanılır. Sorun 'teşkil edilmez', 'sorun yaratır' veya 'sorun olur' denmelidir.",
+    "_part": 121,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "22",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "mantik-hatasi",
+    "subtopic": "Mantık Hatası",
+    "q": "Aşağıdaki cümlelerin hangisinde mantık hatası vardır?",
+    "o": [
+      "Bu ilaç değil sizi iyileştirmek, öldürebilir bile.",
+      "Sınavı geçmek için çok çalıştı.",
+      "Dün akşam onu gördüm.",
+      "Hava bugün oldukça soğuk.",
+      "Kitabı okumaya başladım."
+    ],
+    "a": 0,
+    "e": "İyileştirmek zaten olumludur, öldürmek ise en uç olumsuzdur. 'Bu ilaç değil sizi iyileştirmek, sağlığınızı bozabilir bile' daha mantıklıdır.",
+    "_part": 122,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "23",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "nesne-eksikligi",
+    "subtopic": "Nesne Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde nesne eksikliği vardır?",
+    "o": [
+      "Ona yardım etti ve destekledi.",
+      "Dün akşam eve geç döndü.",
+      "Sınavı kazandığı için çok mutlu.",
+      "Kitabı masaya bıraktı.",
+      "Yarın sinemaya gideceğiz."
+    ],
+    "a": 0,
+    "e": "'Ona' (dolaylı tümleç) 'yardım etti'ye uyar ama 'destekledi' (neyi? onu) fiiline uymaz. 'Ona yardım etti ve onu destekledi' olmalıdır.",
+    "_part": 123,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "24",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "dolayli-tumlec-eksikligi",
+    "subtopic": "Dolaylı Tümleç Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde dolaylı tümleç eksikliği vardır?",
+    "o": [
+      "Bu konuya önem veriyor ve inanıyorum.",
+      "Dün akşam eve geç döndü.",
+      "Sınavı kazandığı için çok mutlu.",
+      "Kitabı masaya bıraktı.",
+      "Yarın sinemaya gideceğiz."
+    ],
+    "a": 0,
+    "e": "'Bu konuya' (dolaylı tümleç) 'önem veriyor'a uyar ama 'inanıyorum' (neye? bu konuya) fiiline uyar mı? Aslında uyar, ancak 'inanıyorum' ifadesi 'bu konuya' ile tam örtüşmez.",
+    "_part": 124,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "25",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "yuklem-eksikligi",
+    "subtopic": "Yüklem Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde yüklem eksikliği vardır?",
+    "o": [
+      "Ben tatlı, o ise tuzlu yedi.",
+      "Dün sınavlar bitti.",
+      "Hava bugün çok güzel.",
+      "Öğrenciler ders çalışıyor.",
+      "Kitapları rafa dizdi."
+    ],
+    "a": 0,
+    "e": "'Ben tatlı' ifadesi eksik kalmıştır. 'Ben tatlı yedim, o ise tuzlu yedi' şeklinde düzeltilmelidir.",
+    "_part": 125,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "26",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "tamlayan-ek-eksikligi",
+    "subtopic": "Tamlayan Eki Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde tamlayan eki eksikliği vardır?",
+    "o": [
+      "Okulun bahçesi çok geniş.",
+      "Sizin evin boyanması gerekiyor.",
+      "Onunla dün akşam görüştük.",
+      "Kitabın sayfaları çok yıpranmış.",
+      "Sınavdaki başarısı hepimizi şaşırttı."
+    ],
+    "a": 1,
+    "e": "'Sizin evin boyanması' ifadesinde 'ev' tamlanandır, 'evini' tamlayanı düşmüştür. 'Sizin evinizin boyanması' olmalıdır.",
+    "_part": 126,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "27",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "anlamca-celisen-sozler",
+    "subtopic": "Anlamca Çelişen Sözler",
+    "q": "Aşağıdaki cümlelerin hangisinde anlamca çelişen sözler bir arada kullanılmıştır?",
+    "o": [
+      "Aşağı yukarı tam üç yıl oldu.",
+      "Dün geceki fırtına çatıyı uçurmuş.",
+      "Bu iki kardeş birbirine benziyor.",
+      "Kitap okumak insanın ufkunu genişletir.",
+      "Okul yönetimi yeni kararlar aldı."
+    ],
+    "a": 0,
+    "e": "'Aşağı yukarı' olasılık, 'tam' kesinlik bildirir. Birbiriyle çelişen sözcüklerin kullanılması anlatım bozukluğudur.",
+    "_part": 127,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "28",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "ek-yanlisligi",
+    "subtopic": "Ek Yanlışlığı",
+    "q": "Aşağıdaki cümlelerin hangisinde ek yanlışlığı vardır?",
+    "o": [
+      "Bu sınavda başarılı olmanın yolu çok çalışmaktır.",
+      "Ankaralılar dün akşam meydanda toplandı.",
+      "Onunla konuşmak bana iyi geldi.",
+      "Yazın Antalya'ya gitmeyi planlıyoruz.",
+      "Kitabın sayfaları oldukça yıpranmış."
+    ],
+    "a": 0,
+    "e": "'Çalışmaktan geçer' değil 'çalışmaktır' şeklinde bitirilmelidir. İlk cümlede 'çalışmaktan' eki gereksizdir.",
+    "_part": 128,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "29",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "sozcuk-yanlis-kullanimi",
+    "subtopic": "Sözcük Yanlış Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde 'etken' kelimesi yanlış kullanılmıştır?",
+    "o": [
+      "Bu durum, hastalığın iyileşmesinde çok etken.",
+      "Başarılı olmasında çok etken vardı.",
+      "Bu olay, kararlarımızı etkiledi.",
+      "Onun bu işte bir etkisi yok.",
+      "Hava durumu, planlarımızı değiştirdi."
+    ],
+    "a": 0,
+    "e": "'Etken' bir sebeptir, 'etkili' ise bir durumun sonucudur. 'İyileşmesinde çok etkili' denmelidir.",
+    "_part": 129,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "30",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "ozne-yuklem-uyumu",
+    "subtopic": "Özne-Yüklem Uyumu",
+    "q": "Aşağıdaki cümlelerin hangisinde özne-yüklem uyumu yoktur?",
+    "o": [
+      "Çiçekler, rüzgarda güzel kokuyor.",
+      "Kuşlar, ağaçlarda ötüşüyor.",
+      "İnsanlar, bu konuda çok duyarlı.",
+      "Kitaplar, masanın üzerinde duruyor.",
+      "Sular, gürül gürül akıyorlar."
+    ],
+    "a": 4,
+    "e": "Özne insan dışı varlıklar olduğunda yüklem çoğul eki almamalıdır. 'Sular akıyor' doğru, 'akıyorlar' yanlıştır.",
+    "_part": 130,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "31",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "anlamsal-belirsizlik",
+    "subtopic": "Anlamsal Belirsizlik",
+    "q": "Aşağıdaki cümlelerin hangisinde anlamsal belirsizlik vardır?",
+    "o": [
+      "Yaşlı kadına yardım etti.",
+      "Yarın okula gideceğim.",
+      "Sınavı kazandığını duydum.",
+      "Bugün hava çok güzel.",
+      "Kitabı okudum."
+    ],
+    "a": 0,
+    "e": "'Yaşlı' sıfatı kadını mı niteliyor, yoksa 'bir yaşlı' mı var? 'Yaşlı, kadına yardım etti' şeklinde virgül eksikliği veya anlam belirsizliği vardır.",
+    "_part": 131,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "32",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "gereksiz-sozcuk",
+    "subtopic": "Gereksiz Sözcük Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde gereksiz sözcük kullanılmıştır?",
+    "o": [
+      "O, benim çok yakın bir arkadaşımdır.",
+      "Dün akşam sinemaya gittik.",
+      "Bu yıl çok meyve aldık.",
+      "Kitap okumayı çok seviyorum.",
+      "Onunla dün görüştük."
+    ],
+    "a": 0,
+    "e": "'Yakın' ve 'arkadaş' zaten yakınlığı belirtir. Gereksiz bir sözcük kullanımı olabilir (bağlama göre).",
+    "_part": 132,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "33",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "ek-eylem-eksikligi",
+    "subtopic": "Ek Eylem Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde ek eylem eksikliği vardır?",
+    "o": [
+      "O, zeki ama çalışkan değil.",
+      "Dün hava çok sıcaktı.",
+      "Kitaplar raflarda duruyor.",
+      "Sınavı kazandığı için mutlu.",
+      "O, zeki bir çocuktur."
+    ],
+    "a": 0,
+    "e": "'Zeki' sözcüğü 'zekiydi' ek eylemini almalıdır. 'O zekiydi ama çalışkan değildi' şeklinde kurulmalıdır.",
+    "_part": 133,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "34",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "sozcuk-yanlis-kullanimi",
+    "subtopic": "Sözcük Yanlış Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde 'sağlamak' kelimesi yanlış kullanılmıştır?",
+    "o": [
+      "Bu ilaç, sağlığına kavuşmanı sağlayacak.",
+      "Bu iş, bize para kazandırdı.",
+      "Sınavı kazanmasını sağladı.",
+      "Bu olay, karışıklığa sebep oldu.",
+      "O, bize çok destek sağladı."
+    ],
+    "a": 3,
+    "e": "'Sağlamak' olumlu durumlar içindir, 'sağlamak' ile 'sebep olmak' (olumsuz) karıştırılmamalıdır. 'Karışıklığı sağladı' denemez.",
+    "_part": 134,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "35",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "mantik-hatasi",
+    "subtopic": "Mantık Hatası",
+    "q": "Aşağıdaki cümlelerin hangisinde mantık hatası vardır?",
+    "o": [
+      "O değil futbol oynamak, basketbol bile oynayamaz.",
+      "Sınavı geçmek için çok çalıştı.",
+      "Dün akşam onu gördüm.",
+      "Hava bugün oldukça soğuk.",
+      "Kitabı okumaya başladım."
+    ],
+    "a": 0,
+    "e": "Futbol ve basketbolun zorluk derecesi kişiye göre değişse de, mantıksal sıralama hatası vardır. 'Basketbol oynayamayan futbolu nasıl oynasın' kurgusu olmalıdır.",
+    "_part": 135,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "36",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "ozne-yuklem-uyumu",
+    "subtopic": "Özne-Yüklem Uyumu",
+    "q": "Aşağıdaki cümlelerin hangisinde özne-yüklem uyumsuzluğu vardır?",
+    "o": [
+      "Ben ve arkadaşım sinemaya gittik.",
+      "Sen ve o, projeyi bitirdiniz.",
+      "Çocuklar, bahçede oynuyor.",
+      "Kitaplar, masada duruyor.",
+      "Kuşlar, uçuyorlar."
+    ],
+    "a": 4,
+    "e": "Özne insan dışı varlıklar olduğunda yüklem çoğul eki almamalıdır. 'Kuşlar uçuyor' doğru, 'uçuyorlar' yanlıştır.",
+    "_part": 136,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "37",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "tamlayan-ek-eksikligi",
+    "subtopic": "Tamlayan Eki Eksikliği",
+    "q": "Aşağıdaki cümlelerin hangisinde tamlayan eki eksikliği vardır?",
+    "o": [
+      "Okulun müdürü çok başarılı.",
+      "Sizin evin boyası dökülmüş.",
+      "Onunla dün akşam görüştüm.",
+      "Kitabın sayfaları yırtılmış.",
+      "Sınav başarısı çok yüksek."
+    ],
+    "a": 4,
+    "e": "'Sınav başarısı' bir isim tamlamasıdır. 'Sınavın başarısı' mı yoksa 'sınavdaki başarısı' mı? 'Sınavdaki başarısı' daha uygundur.",
+    "_part": 137,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "38",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "anlamsal-belirsizlik",
+    "subtopic": "Anlamsal Belirsizlik",
+    "q": "Aşağıdaki cümlelerin hangisinde anlamsal belirsizlik vardır?",
+    "o": [
+      "Yazarın yeni kitabını okudum.",
+      "Yarın okula gideceğim.",
+      "Sınavı kazandığını duydum.",
+      "Bugün hava çok güzel.",
+      "Kitabı okudum."
+    ],
+    "a": 0,
+    "e": "'Yazarın' ifadesi 'yazarın kendi kitabı mı' yoksa 'yazarın başka birinin kitabı mı' olduğu net değildir.",
+    "_part": 138,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "39",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "gereksiz-sozcuk",
+    "subtopic": "Gereksiz Sözcük Kullanımı",
+    "q": "Aşağıdaki cümlelerin hangisinde gereksiz sözcük kullanımı vardır?",
+    "o": [
+      "Dün akşamki olay bizi çok üzdü.",
+      "O, benim çok yakın arkadaşımdır.",
+      "Bu yıl çok meyve aldık.",
+      "Kitap okumayı çok seviyorum.",
+      "Onunla dün görüştük."
+    ],
+    "a": 1,
+    "e": "'Yakın' kelimesi 'arkadaş' kavramının içinde zaten vardır; 'o benim arkadaşımdır' yeterlidir.",
+    "_part": 139,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "40",
+    "topicId": "anlatim-bozukluklari",
+    "subtopicId": "ek-yanlisligi",
+    "subtopic": "Ek Yanlışlığı",
+    "_part": 140,
+    "_generatedAt": "2026-04-15T18:36:18.149Z"
+  },
+  {
+    "id": "kp1_1725123456789_1",
+    "topicId": "anlatimBozukluklariKPSS",
+    "subtopicId": "zaman-uyumsuzlugu",
+    "subtopic": "ZAMAN UYUMSUZLUĞU",
+    "q": "Aşağıdaki cümlelerin hangisinde fiiller arasındaki zaman uyumsuzluğu anlatım bozukluğuna neden olmuştur?",
+    "o": [
+      "Okula giderken defterini unuttu.",
+      "Eve döndüğünde yemeği yiyecek.",
+      "Kapıyı açtığında içeri girdi.",
+      "Telefonu çaldığında hemen cevap verdi.",
+      "Yarın gelecek ve görüşeceğiz."
+    ],
+    "a": 1,
+    "e": "Doğru cevap B. 'Eve döndüğünde yemeği yiyecek.' cümlesinde 'döndüğünde' geçmiş zaman, 'yiyecek' gelecek zaman uyumsuzluğu vardır. Diğer şıklarda zamanlar uyumludur, çeldiriciler uyumlu zaman örnekleridir.",
+    "_part": 141,
+    "_generatedAt": "2026-04-17T04:02:05.043Z"
+  }
+]

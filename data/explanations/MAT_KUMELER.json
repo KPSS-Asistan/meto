@@ -1,0 +1,934 @@
+[
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 1: Kümelerin Tanımı ve Temel Kavramlar",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Kümelerin Tanımı ve Temel Kavramlar"
+      },
+      {
+        "type": "text",
+        "text": "Küme, iyi tanımlanmış nesneler topluluğu olarak matematiksel literatürde yerini alır. Bir ifadenin küme belirtmesi için herkes tarafından aynı şekilde anlaşılması ve nesnelerin kişiden kişiye değişmemesi gerekmektedir. Bir nesnenin kümenin içerisinde yer alıp almadığı kesin bir hükümle belirlenmelidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Nesneler topluluğunun küme olması için herkes tarafından aynı şekilde yorumlanması gerekir.\n• Kümenin elemanları birbirinden farklı olmalıdır.\n• Bir eleman kümede sadece bir kez yazılır.\n• Elemanların yer değiştirmesi kümenin değerini değiştirmez.\n• 'Sınıfın çalışkan öğrencileri' ifadesi öznel olduğu için küme belirtmez."
+      },
+      {
+        "type": "text",
+        "text": "Küme içerisinde yer alan her bir nesneye o kümenin elemanı denir. Bir x elemanı A kümesine ait ise bu durum x ∈ A sembolü ile ifade edilir. Eğer bir eleman kümenin bir parçası değilse x ∉ A şeklinde gösterilir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Unutmayın: Öznel ifadeler (güzel, çalışkan, uzun) küme belirtmez, ancak nesnel veriler küme oluşturur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000770040_MAT__1",
+    "createdAt": "2026-04-12T13:32:50.040Z",
+    "updatedAt": "2026-04-12T13:32:50.040Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T13:33:09.178Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_0.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 2: Kümelerin Gösterim Yöntemleri",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Kümelerin Gösterim Yöntemleri"
+      },
+      {
+        "type": "text",
+        "text": "Kümeler matematiksel olarak üç farklı yöntemle ifade edilir. Liste yöntemi, ortak özellik yöntemi ve Venn şeması yöntemlerinin her birinin kullanım alanı farklıdır. Bu gösterimler, kümenin elemanlarının net bir şekilde anlaşılmasını sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Liste yöntemi: Elemanların {a, b, c} şeklinde aralarına virgül konularak yazılmasıdır.\n• Ortak özellik yöntemi: Elemanların sahip olduğu ortak bir niteliğin {x | x bir kuralı sağlar} şeklinde tanımlanmasıdır.\n• Venn şeması: Kümenin kapalı bir eğri (daire, üçgen vb.) içine elemanların nokta konularak yazılmasıdır.\n• Liste yönteminde aynı eleman tekrar yazılmaz.\n• Venn şemasında her elemanın önünde bir nokta bulunması gerekir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sorularında genellikle ortak özellik yöntemi ile verilen bir kümenin liste yöntemine dönüştürülmesi istenir. Bu süreçte kümenin tanım aralığına ve elemanların niteliğine dikkat etmek gerekir."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Ortak özellik yönteminde dikey çizgi (|) 'öyle ki' anlamına gelir ve kısıtlayıcı koşulları belirtir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000770041_MAT__2",
+    "createdAt": "2026-04-12T13:32:50.040Z",
+    "updatedAt": "2026-04-12T13:32:50.040Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T13:33:09.178Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_1.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 3: Sonlu ve Sonsuz Kümeler",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Sonlu ve Sonsuz Kümeler"
+      },
+      {
+        "type": "text",
+        "text": "Kümenin eleman sayısı bir doğal sayı ile ifade edilebiliyorsa bu kümeye sonlu küme denir. Eğer eleman sayısı sınırsız ise ve sayılamayacak kadar çok ise bu kümeler sonsuz küme olarak adlandırılır. Kümelerin bu ayrımı, işlem yaparken eleman sayısını belirleme aşamasında kritiktir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sonlu küme: Haftanın günleri, sınıfın mevcudu gibi sayılabilir çokluktaki kümelerdir.\n• Sonsuz küme: Doğal sayılar (N), Tam sayılar (Z) ve Gerçek sayılar (R) sonsuzdur.\n• Eleman sayısı s(A) veya n(A) sembolü ile gösterilir.\n• Sonsuz kümelerin eleman sayısı 's(A) = ∞' olarak ifade edilir.\n• Boş küme eleman sayısı sıfır olduğu için sonlu bir kümedir."
+      },
+      {
+        "type": "text",
+        "text": "Sınavlarda genellikle sonlu kümeler üzerinde işlem yapılır. Bir kümenin eleman sayısının sonlu olması, o küme üzerinde permütasyon veya kombinasyon gibi hesaplamaların yapılabilmesine olanak sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: Boş küme eleman sayısı 0 olduğu için sonlu bir kümedir, sonsuz değildir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000770042_MAT__3",
+    "createdAt": "2026-04-12T13:32:50.040Z",
+    "updatedAt": "2026-04-12T13:32:50.040Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T13:33:09.178Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_2.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 4: Boş Küme ve Evrensel Küme",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Boş Küme ve Evrensel Küme"
+      },
+      {
+        "type": "text",
+        "text": "Hiçbir elemanı bulunmayan kümeye boş küme denir ve ∅ veya {} sembolleri ile gösterilir. Evrensel küme ise üzerinde işlem yapılan tüm kümeleri kapsayan en geniş kümedir ve genellikle E harfi ile ifade edilir. Bu iki kavram kümeler teorisinde temel yapı taşlarıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Boş küme ∅ veya {} şeklinde gösterilir, {∅} bir boş küme değildir; içinde boş küme elemanı olan bir kümedir.\n• Evrensel küme, incelenen konu bağlamındaki tüm elemanları içerir.\n• Boş küme her kümenin alt kümesidir.\n• Evrensel küme alt kümesi olduğu işlemlerde en dıştaki dikdörtgen ile temsil edilir.\n• Boş kümenin eleman sayısı s(∅) = 0'dır."
+      },
+      {
+        "type": "text",
+        "text": "Evrensel küme, problem çözümünde tüm olasılıkları sınırlandıran bir çerçeve sunar. Boş küme ise bir işlemin sonucunun imkansız olduğunu gösteren matematiksel bir değerdir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: {∅} gösterimi boş küme değil, bir elemanlı bir kümedir!"
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000770043_MAT__4",
+    "createdAt": "2026-04-12T13:32:50.040Z",
+    "updatedAt": "2026-04-12T13:32:50.040Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T13:33:09.178Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_3.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 5: Eşit ve Denk Kümeler",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Eşit ve Denk Kümeler"
+      },
+      {
+        "type": "text",
+        "text": "Eşit kümeler, tamamen aynı elemanlara sahip olan kümelerdir. Denk kümeler ise sadece eleman sayıları birbirine eşit olan kümelerdir. Bu ayrım, kümeler arasındaki ilişkiyi tanımlarken sıkça karıştırılan bir noktadır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Eşit kümeler: A = B ise hem eleman sayıları hem de elemanları aynıdır.\n• Denk kümeler: A ≡ B ise sadece s(A) = s(B) şartı aranır.\n• Her eşit küme aynı zamanda denktir.\n• Her denk küme eşit olmak zorunda değildir.\n• Eşitlik sembolü '=' iken denklik sembolü '≡' şeklindedir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavında bu iki kavram üzerinden ayırt edici sorular gelebilir. Küme elemanlarının sırasının veya yazılış biçiminin eşitliği bozmadığını unutmamak gerekir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kural: Eşitlik elemanların aynılığını, denklik ise eleman sayısının aynılığını ifade eder."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000770044_MAT__5",
+    "createdAt": "2026-04-12T13:32:50.040Z",
+    "updatedAt": "2026-04-12T13:32:50.040Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T13:33:09.178Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_4.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 6: Alt Küme Kavramı",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Alt Küme Kavramı"
+      },
+      {
+        "type": "text",
+        "text": "A kümesinin her elemanı B kümesinin de bir elemanı ise A kümesine B'nin alt kümesi denir. A ⊆ B sembolü ile gösterilir. Öz alt küme ise bir kümenin kendisi dışındaki tüm alt kümelerini ifade eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Boş küme her kümenin alt kümesidir.\n• Her küme kendisinin alt kümesidir.\n• A ⊆ B ve B ⊆ A ise A = B'dir.\n• Öz alt küme sayısı alt küme sayısının 1 eksiğidir.\n• Alt küme ilişkisi geçişkenlik özelliğine sahiptir."
+      },
+      {
+        "type": "text",
+        "text": "Sınavlarda alt küme ile ilgili sorularda genellikle elemanların küme içerisindeki durumu sorgulanır. Bir kümenin elemanlarının alt küme olarak yazılabilmesi için elemanların parantez içine alınması gerekebilir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Not: Bir kümenin kendisi dışındaki tüm alt kümelerine öz alt küme denir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000770045_MAT__6",
+    "createdAt": "2026-04-12T13:32:50.040Z",
+    "updatedAt": "2026-04-12T13:32:50.040Z",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T13:33:09.178Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_5.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 7: Alt Küme Sayısı Hesaplama",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Alt Küme Sayısı Hesaplama"
+      },
+      {
+        "type": "text",
+        "text": "Eleman sayısı n olan bir kümenin alt kümelerinin toplam sayısı 2 üzeri n formülü ile hesaplanır. Bu formül, her bir elemanın alt kümede bulunup bulunmama durumuna göre elde edilen kombinasyonların sonucudur. Öz alt küme sayısı ise 2^n - 1 formülü ile bulunur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• n elemanlı bir kümenin alt küme sayısı: 2^n.\n• n elemanlı bir kümenin öz alt küme sayısı: 2^n - 1.\n• 3 elemanlı bir kümenin 8 alt kümesi vardır.\n• 4 elemanlı bir kümenin 15 öz alt kümesi vardır.\n• Alt küme sayısı hesaplanırken elemanların küme içindeki yapısı (alt küme olup olmaması) dikkatle incelenmelidir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sorularında bazen 'belirli elemanları içeren' veya 'içermeyen' alt küme sayıları sorulur. Bu durumda, ilgili elemanlar kümeden çıkarılarak kalan eleman sayısı ile 2 üzeri n formülü uygulanır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Formül: Bir kümenin alt küme sayısı 2^n, öz alt küme sayısı 2^n - 1'dir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000770046_MAT__7",
+    "createdAt": "2026-04-12T13:32:50.040Z",
+    "updatedAt": "2026-04-12T13:32:50.040Z",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T13:33:09.178Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_6.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 8: Kuvvet Kümesi",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Kuvvet Kümesi"
+      },
+      {
+        "type": "text",
+        "text": "Bir A kümesinin tüm alt kümelerinin oluşturduğu kümeye o kümenin kuvvet kümesi denir ve P(A) ile gösterilir. Kuvvet kümesinin eleman sayısı, A kümesinin alt küme sayısına eşittir. Bu kavram, kümelerin alt kümelerini birer eleman olarak kabul eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• A kümesinin kuvvet kümesi P(A) şeklinde gösterilir.\n• Kuvvet kümesinin eleman sayısı: s(P(A)) = 2^s(A).\n• A kümesi 3 elemanlı ise P(A) kümesi 8 elemanlıdır.\n• Kuvvet kümesinin elemanları kümenin kendisinden oluşur.\n• Boş kümenin kuvvet kümesi {∅} şeklindedir."
+      },
+      {
+        "type": "text",
+        "text": "Kuvvet kümesi, özellikle soyut matematik ve kümeler kuramında alt kümelerle işlem yapmayı kolaylaştırır. KPSS matematik sorularında kuvvet kümesi kavramı doğrudan sorulmasa da alt küme mantığı ile ilişkili olarak karşımıza çıkabilir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Özet: Kuvvet kümesi, bir kümenin tüm alt kümelerini içine alan bir 'küme kümesi'dir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000770047_MAT__8",
+    "createdAt": "2026-04-12T13:32:50.040Z",
+    "updatedAt": "2026-04-12T13:32:50.040Z",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T13:33:09.178Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_7.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 9: Kümelerde Birleşim İşlemi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kümelerde birleşim işlemi, iki kümenin tüm elemanlarının bir araya getirilerek yeni bir küme oluşturulmasıdır. Birleşim sembolü '∪' ile gösterilir ve elemanlar küme içerisinde sadece bir kez yazılır. Bu işlem, her iki kümenin de elemanlarını kapsayan en geniş kümeyi ifade eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• A ∪ B sembolü ile ifade edilir.\n• Ortak olan elemanlar kümede tek bir kez yazılır.\n• Birleşim kümesi her iki kümeyi de kapsar.\n• A ∪ B = B ∪ A (değişme özelliği vardır)."
+      },
+      {
+        "type": "text",
+        "text": "İki kümenin birleşimi oluşturulurken, her iki kümede bulunan ortak elemanların tekrar sayılmamasına dikkat edilmelidir. Bu kural, küme teorisinin temel disiplinlerinden biridir."
+      },
+      {
+        "type": "highlighted",
+        "text": "A ∪ B = {x | x ∈ A veya x ∈ B} tanımı, birleşimin temel mantığını oluşturur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000789178_MAT__9",
+    "createdAt": "2026-04-12T13:33:09.178Z",
+    "updatedAt": "2026-04-12T13:33:09.178Z",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T13:33:26.375Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_8.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 10: Kümelerde Kesişim İşlemi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kesişim işlemi, iki veya daha fazla kümenin ortak elemanlarını belirlemek için kullanılır. Kesişim sembolü '∩' ile gösterilir ve sadece her iki kümede de aynı anda bulunan elemanları içerir. Bu işlem, kümeler arasındaki ortak paydaları bulmak için kritiktir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• A ∩ B sembolü ile gösterilir.\n• Sadece her iki kümede de olan elemanlar yazılır.\n• Ortak eleman yoksa sonuç boş kümedir.\n• A ∩ B = B ∩ A özelliği geçerlidir."
+      },
+      {
+        "type": "text",
+        "text": "Kesişim kümesi, her zaman orijinal kümelerin bir alt kümesi veya kendisine eşittir. KPSS sorularında bu özellik, alt küme bağıntılarıyla birlikte sıkça sorgulanır."
+      },
+      {
+        "type": "highlighted",
+        "text": "A ∩ B = {x | x ∈ A ve x ∈ B} ifadesi, kesişim işleminin matematiksel tanımıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000789179_MAT__10",
+    "createdAt": "2026-04-12T13:33:09.178Z",
+    "updatedAt": "2026-04-12T13:33:09.178Z",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T13:33:26.375Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_9.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 11: Ayrık Kümeler",
+    "content": [
+      {
+        "type": "text",
+        "text": "Ayrık kümeler, ortak hiçbir elemanı bulunmayan kümelere verilen isimdir. İki kümenin kesişimi boş küme ise, bu kümeler birbirlerinden tamamen bağımsızdır. Venn şemasında bu kümeler birbirine değmeyen iki ayrı yuvarlak olarak çizilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• A ∩ B = ∅ ise bu kümeler ayrıktır.\n• Ortak eleman sayısı sıfırdır.\n• Birleşimlerinin eleman sayısı, eleman sayıları toplamına eşittir.\n• Ayrık olmayan kümeler kesişim bölgesine sahiptir."
+      },
+      {
+        "type": "text",
+        "text": "Ayrık kümeler mantığı, özellikle olasılık ve sayma problemlerinde grupların birbirini dışlaması durumunda kullanılır. Bu kavram, küme sorularında işlem kolaylığı sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Ayrık kümeler için s(A ∪ B) = s(A) + s(B) eşitliği her zaman doğrudur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000789180_MAT__11",
+    "createdAt": "2026-04-12T13:33:09.178Z",
+    "updatedAt": "2026-04-12T13:33:09.178Z",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T13:33:26.375Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_10.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 12: Kümelerde Fark İşlemi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Fark işlemi, bir kümenin diğer kümede bulunmayan elemanlarını ifade eder. A fark B işlemi (A \\ B veya A - B), A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu işlem, bir kümeden diğerinin çıkarılması olarak düşünülebilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• A \\ B şeklinde gösterilir.\n• A'nın elemanlarından B ile ortak olanlar atılır.\n• A \\ B ≠ B \\ A (değişme özelliği yoktur).\n• A \\ B = A ∩ B' (tümleyen ile ifade edilebilir)."
+      },
+      {
+        "type": "text",
+        "text": "Fark işlemi, grupların ayrıştırılmasında ve sadece belirli bir gruba ait olan öğelerin belirlenmesinde oldukça etkilidir. Sınavlarda genellikle Venn şeması üzerinde taralı alan soruları olarak karşımıza çıkar."
+      },
+      {
+        "type": "highlighted",
+        "text": "A \\ B kümesi, B kümesinin A kümesini kesen kısmının A'dan çıkarılmasıyla elde edilir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000789181_MAT__12",
+    "createdAt": "2026-04-12T13:33:09.178Z",
+    "updatedAt": "2026-04-12T13:33:09.178Z",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T13:33:26.375Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_11.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 13: Tümleme İşlemi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Tümleme işlemi, bir kümenin dışında kalan ancak evrensel kümenin içinde yer alan tüm elemanları kapsar. Bir A kümesinin tümleyeni A' veya Aᶜ sembolü ile gösterilir. Bu işlem evrensel kümeye göre tanımlanır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• A ∪ A' = E (Evrensel Küme).\n• A ∩ A' = ∅ (Boş Küme).\n• (A')' = A (Tümleyenin tümleyeni kendisidir).\n• E' = ∅ ve ∅' = E."
+      },
+      {
+        "type": "text",
+        "text": "Tümleme kavramı, 'olmayanlar' veya 'dışarıda kalanlar' üzerinden yapılan problemlerde çözüm hızını artırır. Evrensel küme kavramı ile birlikte ele alınması zorunludur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Bir küme ile tümleyeninin birleşimi her zaman evrensel kümeyi verir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000789182_MAT__13",
+    "createdAt": "2026-04-12T13:33:09.178Z",
+    "updatedAt": "2026-04-12T13:33:09.178Z",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T13:33:26.375Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_12.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 14: De Morgan Kuralları",
+    "content": [
+      {
+        "type": "text",
+        "text": "De Morgan kuralları, birleşim ve kesişim işlemlerinin tümleyenleri ile ilgili kurallardır. Bu kurallar, karmaşık küme problemlerini basitleştirmek ve ifadeyi daha kolay yorumlanabilir hale getirmek için kullanılır. Matematiksel mantığın temel taşlarından biridir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• (A ∪ B)' = A' ∩ B'\n• (A ∩ B)' = A' ∪ B'\n• İşaretler tümleyen dağılırken tersine döner.\n• Parantez dışındaki tümleyen her elemana etki eder."
+      },
+      {
+        "type": "text",
+        "text": "Bu kuralları uygulamak, özellikle test sorularında Venn şeması çizmeden işlem yapmanıza olanak tanır. Kesişimin tümleyenini bulmak, birleşimlerin tümleyenlerini bulmaktan daha pratik olabilir."
+      },
+      {
+        "type": "highlighted",
+        "text": "De Morgan kuralları, işlem sembollerini dağıtırken '∪' işaretini '∩' yapmayı ve tam tersini unutmamayı gerektirir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000789183_MAT__14",
+    "createdAt": "2026-04-12T13:33:09.178Z",
+    "updatedAt": "2026-04-12T13:33:09.178Z",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T13:33:26.375Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_13.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 15: Kümelerde İşlem Özellikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kümeler üzerinde yapılan birleşim ve kesişim işlemlerinin değişme, birleşme ve dağılma gibi temel cebirsel özellikleri vardır. Bu özellikler, karmaşık işlemleri daha küçük parçalara bölerek çözmemizi sağlar. Bu kurallar, küme işlemlerinin düzenli bir yapıda olmasını sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Değişme: A ∪ B = B ∪ A\n• Birleşme: (A ∪ B) ∪ C = A ∪ (B ∪ C)\n• Dağılma: A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)\n• Birim Eleman: A ∪ ∅ = A ve A ∩ E = A."
+      },
+      {
+        "type": "text",
+        "text": "Dağılma özelliği, kesişim ve birleşim bir arada kullanıldığında soruları çözmek için en etkili yöntemdir. Bu kuralların mantığını anlamak, işlem hatalarını minimize eder."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kesişimin birleşim üzerine dağılma özelliği, küme problemlerinde denklemleri sadeleştirmek için kullanılır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000789184_MAT__15",
+    "createdAt": "2026-04-12T13:33:09.178Z",
+    "updatedAt": "2026-04-12T13:33:09.178Z",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T13:33:26.375Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_14.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 16: İki Kümenin Birleşiminin Eleman Sayısı",
+    "content": [
+      {
+        "type": "text",
+        "text": "İki kümenin birleşiminin eleman sayısını bulmak için 'kapsama-dışlama prensibi' kullanılır. Eğer iki kümenin kesişimi varsa, elemanlarını sadece toplamak doğru sonucu vermez çünkü kesişimdeki elemanlar iki kez sayılmış olur. Bu nedenle ortak olan bölge bir kez çıkarılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• s(A ∪ B) = s(A) + s(B) - s(A ∩ B)\n• Kesişim bölgesi iki kez sayılmamalıdır.\n• Ayrık kümelerde s(A ∩ B) = 0'dır.\n• Üçlü kümeler için de benzer formül uygulanabilir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS matematik sorularında en çok karşımıza çıkan formüllerden biridir. Verilen sayısal verileri bu formülde yerine koyarak, bilinmeyen bölgeyi kolayca bulabilirsiniz."
+      },
+      {
+        "type": "warning",
+        "text": "Dikkat: s(A) + s(B) işlemini yaparken, kesişimi çıkarmayı unutursanız hata yaparsınız."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000789185_MAT__16",
+    "createdAt": "2026-04-12T13:33:09.178Z",
+    "updatedAt": "2026-04-12T13:33:09.178Z",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T13:33:26.375Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_15.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 17: Üç Kümenin Birleşiminin Eleman Sayısı",
+    "content": [
+      {
+        "type": "text",
+        "text": "Üç kümenin birleşiminin eleman sayısı hesaplanırken, kapsayıcı-dışlayıcı ilke temel alınır. Her kümenin elemanları toplanır, ardından ikili kesişimler çıkarılır ve son olarak üçlü kesişim tekrar eklenir. Venn şeması üzerinde bölgelerin doğru tanımlanması, karmaşık problemlerde hata payını minimize eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• s(A∪B∪C) = s(A) + s(B) + s(C) - s(A∩B) - s(A∩C) - s(B∩C) + s(A∩B∩C) formülü kullanılır.\n• Sadece bir kümede olan elemanların tespiti için kesişim bölgeleri dışarıda bırakılmalıdır.\n• Üç kümenin kesişim bölgesi, en içteki merkezde yer alan tek bir alandır.\n• Venn şemasındaki her bir bölge, toplam eleman sayısına sadece bir kez dahil edilmelidir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sorularında genellikle bu bölgelerin sayısal değerleri verilerek, sadece bir veya iki kümeye ait olanların toplamı sorulur. İşlem yaparken Venn şemasını çizmek, verileri görselleştirmenizi ve çözüm yolunu netleştirmenizi sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Unutmayın: Üçlü kesişimi (A∩B∩C) eklemeyi unutan adaylar, hesaplamada eksik sonuç alırlar."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000806375_MAT__17",
+    "createdAt": "2026-04-12T13:33:26.375Z",
+    "updatedAt": "2026-04-12T13:33:26.375Z",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T13:33:45.075Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_16.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 18: Kartezyen Çarpım Tanımı",
+    "content": [
+      {
+        "type": "text",
+        "text": "A ve B boş olmayan iki küme olmak üzere, birinci bileşeni A'dan, ikinci bileşeni B'den alınan sıralı ikililerin kümesine Kartezyen çarpım denir. (a, b) ifadesinde 'a' kümenin birinci elemanı, 'b' ise ikinci elemanıdır. Sıralı ikililerde yer değişimi kümenin içeriğini değiştirir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• AxB = {(a,b) | a∈A ve b∈B} şeklinde tanımlanır.\n• Kartezyen çarpımın eleman sayısı s(AxB) = s(A) . s(B) formülüyle hesaplanır.\n• Sıralı ikililerde (a,b) ≠ (b,a) durumudur.\n• Boş küme ile yapılan kartezyen çarpımın sonucu yine boş kümedir."
+      },
+      {
+        "type": "text",
+        "text": "Kartezyen çarpım, iki küme arasındaki ilişkileri tanımlamak için kullanılan temel bir yapıdır. Özellikle koordinat sisteminin mantığını kavramak için elzemdir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: AxB kartezyen çarpımı bir kümedir ve elemanları sıralı ikililerden oluşur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000806376_MAT__18",
+    "createdAt": "2026-04-12T13:33:26.375Z",
+    "updatedAt": "2026-04-12T13:33:26.375Z",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T13:33:45.075Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_17.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 19: Kartezyen Çarpımın Özellikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kartezyen çarpım işleminin en temel özelliği değişme özelliğinin olmamasıdır. Ayrıca birleşim ve kesişim işlemleri üzerinde dağılma özelliği gösterir. Bu özellikler, karmaşık küme işlemlerini basitleştirmek için kullanılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• AxB ≠ BxA (A≠B durumu için)\n• Ax(B∪C) = (AxB) ∪ (AxC) dağılma özelliği.\n• Ax(B∩C) = (AxB) ∩ (AxC) dağılma özelliği.\n• Ax(B-C) = (AxB) - (AxC) fark işlemi üzerine dağılma."
+      },
+      {
+        "type": "text",
+        "text": "Sorularda kartezyen çarpımın dağılma özellikleri kullanılarak küme işlemleri daha hızlı çözülür. A.B = B.A durumu sadece A=B veya kümelerden biri boş ise geçerlidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kartezyen çarpımda değişme özelliği yoktur, bu yüzden sıralamaya dikkat edilmelidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000806377_MAT__19",
+    "createdAt": "2026-04-12T13:33:26.375Z",
+    "updatedAt": "2026-04-12T13:33:26.375Z",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T13:33:45.075Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_18.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 20: Kartezyen Çarpımın Grafik Gösterimi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kartezyen çarpımın elemanlarını analitik düzlemde göstermek, kümeler arasındaki ilişkiyi görmeyi kolaylaştırır. Birinci küme yatay (x) eksenine, ikinci küme dikey (y) eksenine yerleştirilir. Kesişim noktaları çarpım kümesinin elemanlarını oluşturur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• AxB kümesi, yatay eksende A, dikey eksende B elemanlarının kesiştiği noktalardır.\n• Eğer kümeler aralık (reel sayılar) ise, grafik bir dikdörtgensel bölge belirtir.\n• Eğer kümeler sonlu ise, grafik bir nokta kümesi oluşturur.\n• Grafik alanı s(A) x s(B) formülüyle orantılıdır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavında kartezyen çarpım grafikleri genellikle taralı alan sorularında karşımıza çıkar. Eksenlerin hangi kümeye ait olduğunu doğru belirlemek, sorunun çözümünde ilk adımdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Aralık belirtilen sorularda boş ve dolu nokta ayrımına (dahil/hariç) mutlaka dikkat edilmelidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000806378_MAT__20",
+    "createdAt": "2026-04-12T13:33:26.375Z",
+    "updatedAt": "2026-04-12T13:33:26.375Z",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T13:33:45.075Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_19.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 21: Küme Problemleri (İki Küme)",
+    "content": [
+      {
+        "type": "text",
+        "text": "İki küme içeren problemlerde Venn şeması kullanmak en hızlı yöntemdir. 'Sadece A' ve 'A' kavramları arasındaki farkı bilmek kritik öneme sahiptir. 'Sadece A', B kümesine dahil olmayan A elemanlarını ifade eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• s(A∪B) = s(A) + s(B) - s(A∩B) temel formüldür.\n• 'A veya B' ifadesi birleşimi temsil eder.\n• 'A ve B' ifadesi kesişimi temsil eder.\n• 'Sadece A' = s(A) - s(A∩B) olarak hesaplanır."
+      },
+      {
+        "type": "text",
+        "text": "Sınavlarda 'en az bir dilden anlayanlar' veya 'hiçbirinden anlamayanlar' gibi ifadeler evrensel küme kavramını beraberinde getirir. Tüm verileri Venn şemasına doğru yerleştirdiğinizde cevap kendiliğinden ortaya çıkar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: 'A' kümesi ifadesi, A kümesinin tamamını (kesişim dahil) kapsar."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000806379_MAT__21",
+    "createdAt": "2026-04-12T13:33:26.375Z",
+    "updatedAt": "2026-04-12T13:33:26.375Z",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T13:33:45.075Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_20.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 22: Küme Problemleri (Üç Küme)",
+    "content": [
+      {
+        "type": "text",
+        "text": "Üç küme içeren problemlerde çözüm, genellikle en içteki kesişim bölgesinden dışa doğru yapılır. Her bir bölgesel alanın neyi temsil ettiğini bilmek, verilerin doğru yerleştirilmesini sağlar. Bu problemler mantıksal bir sıralama gerektirir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• En içteki (A∩B∩C) bölgesinden başlayarak dışa doğru ilerleyin.\n• Sadece iki kümenin kesişimi (A∩B) - (A∩B∩C) işlemini gerektirir.\n• Her bir bölgeyi isimlendirmek karışıklığı önler.\n• Evrensel küme (E) toplam eleman sayısını verir."
+      },
+      {
+        "type": "text",
+        "text": "Üç küme problemlerinde genellikle 'hiçbirini bilmeyenler' ifadesi evrensel küme içinde dışarıda kalan alanı temsil eder. Tüm bölgelerin toplamı evrensel kümeye eşitlenmelidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Strateji: En içteki kesişimden başlayarak boşlukları doldurmak en sağlıklı yöntemdir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000806380_MAT__22",
+    "createdAt": "2026-04-12T13:33:26.375Z",
+    "updatedAt": "2026-04-12T13:33:26.375Z",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T13:33:45.075Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_21.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 23: Dil ve Küme İlişkisi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kümeler konusu, mantıksal bağlaçlarla doğrudan ilişkilidir. 'Ve' bağlacı kesişim (∩) ile, 'Veya' bağlacı ise birleşim (∪) ile eşleşir. Dil bilgisi ile matematiksel semboller arasındaki bu köprü, problem çözme yeteneğinizi artırır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• 've' → Kesişim (∩)\n• 'veya' → Birleşim (∪)\n• 'değil' → Tümleyen (A')\n• 'yalnız' → Sadece o küme"
+      },
+      {
+        "type": "text",
+        "text": "Sorularda kullanılan 'en az bir', 'en çok bir' gibi ifadeler küme işlemlerindeki sınırları belirler. Dilin inceliklerini matematiksel sembollere dökmek, çözümün %50'sini oluşturur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Mantıksal 'veya' matematikte birleşimi temsil eder, bu yüzden geniş bir küme oluşturur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000806381_MAT__23",
+    "createdAt": "2026-04-12T13:33:26.375Z",
+    "updatedAt": "2026-04-12T13:33:26.375Z",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T13:33:45.075Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_22.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 24: Kümelerde Alt Eleman Sayısı Kısıtları",
+    "content": [
+      {
+        "type": "text",
+        "text": "Alt küme sorularında bazen belirli elemanların bulunması veya bulunmaması istenir. Bu durum, toplam eleman sayısından ilgili elemanları çıkararak veya ayırarak çözülür. Bu tür kısıtlı sorular KPSS'de sıklıkla tercih edilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• 'x elemanı bulunur' denildiğinde, x elemanı bir kenara ayrılır ve kalan elemanlarla alt küme sayısı hesaplanır.\n• 'y elemanı bulunmaz' denildiğinde, y elemanı kümeden tamamen çıkarılır.\n• n elemanlı bir kümenin 2^n tane alt kümesi vardır.\n• Öz alt küme sayısı 2^n - 1 formülüyle hesaplanır."
+      },
+      {
+        "type": "text",
+        "text": "Kısıtlı alt küme sorularında, 'en az bir elemanlı' veya 'belirli elemanları içeren' gibi ifadeler 2 üzeri n formülü üzerinde işlem yapmanızı gerektirir. Temel mantık, kısıtlı elemanları oyun dışı bırakıp kalanlar üzerinden işlem yapmaktır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Bulunması veya bulunmaması istenen her bir eleman için işlemdeki n değeri 1 azalır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000806382_MAT__24",
+    "createdAt": "2026-04-12T13:33:26.375Z",
+    "updatedAt": "2026-04-12T13:33:26.375Z",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T13:33:45.075Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_23.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 25: Simetrik Fark İşlemi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Simetrik fark işlemi, iki kümenin birleşiminden kesişimlerinin çıkarılmasıyla elde edilen elemanlar topluluğudur. Matematiksel olarak A ve B kümeleri için A Δ B şeklinde gösterilir. Bu işlem, her iki kümede ortak olmayan elemanları odak noktasına alır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• A Δ B = (A \\ B) ∪ (B \\ A)\n• A Δ B = (A ∪ B) \\ (A ∩ B)\n• İşlem değişme özelliğine sahiptir: A Δ B = B Δ A\n• Birleşme özelliği mevcuttur: (A Δ B) Δ C = A Δ (B Δ C)\n• A Δ A = ∅ ve A Δ ∅ = A durumları her zaman geçerlidir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sorularında simetrik fark genellikle iki farklı dil bilenlerin veya sadece bir gruba üye olanların sayısını bulmada kullanılır. Şemalar üzerinde kesişim bölgesi dışındaki tüm alanın taranmasıyla görselleştirilir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kritik İpucu: Simetrik fark işleminde sadece birine ait olan ama ikisine birden ait olmayan elemanlar kümesi hesaplandığını asla unutmayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000825076_MAT__25",
+    "createdAt": "2026-04-12T13:33:45.076Z",
+    "updatedAt": "2026-04-12T13:33:45.076Z",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T13:33:58.309Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_24.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 26: Kümelerle İspat Yöntemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kümeler arasındaki eşitlikleri veya bağıntıları doğrulamak için çeşitli ispat yöntemleri kullanılır. En yaygın yöntemler Venn şeması ile görselleştirme ve eleman yöntemi ile mantıksal çıkarsamadır. Her iki yöntem de kümelerin iç yapısını anlamak için temel teşkil eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Eleman yöntemi: x ∈ A ise x ∈ B olduğunu göstermeyi hedefler.\n• Venn şeması: Bölgelerin birbirini kapsayıp kapsamadığını kontrol eder.\n• De Morgan Kuralları: (A ∩ B)' = A' ∪ B' formülü ispatlarda sıkça kullanılır.\n• Dağılma özelliği: A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C) eşitliğinin analitik ispatı.\n• Kümelerin birbirinin alt kümesi olduğunu göstermek, eşitlik ispatının temelidir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavında doğrudan ispat sorusu gelmese de, verilen ifadelerin hangisinin her zaman doğru olduğunu saptamak için bu kuralları bilmek zorunludur. Özellikle De Morgan kuralları işlem hatasını önlemek için anahtardır."
+      },
+      {
+        "type": "highlighted",
+        "text": "İspat yaparken daima genel durumları dikkate alın; özel örnekler üzerinden yapılan ispatlar matematiksel olarak yeterli değildir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000825077_MAT__26",
+    "createdAt": "2026-04-12T13:33:45.076Z",
+    "updatedAt": "2026-04-12T13:33:45.076Z",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T13:33:58.309Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_25.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 27: Sayı Kümeleri ile İlişkilendirme",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sayı kümeleri arasındaki hiyerarşik yapı, küme mantığının en temel uygulama alanıdır. Doğal sayılar kümesi, tam sayıların; tam sayılar kümesi ise rasyonel sayıların bir alt kümesidir. Bu kapsayıcılık ilişkisi problem çözümlerinde hata yapmamak için iyi kavranmalıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• N ⊂ Z ⊂ Q ⊂ R (Doğal, Tam, Rasyonel, Reel) sıralaması.\n• İrrasyonel sayılar kümesi ile rasyonel sayıların kesişimi boştur.\n• Pozitif tam sayılar, tam sayılar kümesinin öz alt kümesidir.\n• Boş küme, her kümenin bir alt kümesidir.\n• Kümelerle sayı aralıklarını ifade etme becerisi."
+      },
+      {
+        "type": "text",
+        "text": "Sınavlarda genellikle bir kümenin elemanlarının hangi sayı kümesine ait olduğu üzerinden kısıtlamalar verilir. Örneğin 'x bir tam sayı' denildiğinde, çözüm kümesindeki değerlerin sadece tam sayı olanlarını seçmeniz beklenir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Sayı kümeleri arasındaki alt küme ilişkisini bir şema gibi zihninizde canlandırmak, çözüm aralığını belirlerken sizi büyük bir kolaylığa kavuşturur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000825078_MAT__27",
+    "createdAt": "2026-04-12T13:33:45.076Z",
+    "updatedAt": "2026-04-12T13:33:45.076Z",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T13:33:58.309Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_26.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 28: Küme Problemlerinde Pratik Yollar",
+    "content": [
+      {
+        "type": "text",
+        "text": "Küme problemlerini hızlı çözmek için görselleştirme tekniklerini profesyonelce kullanmalısınız. Tablo yöntemi, özellikle iki veya üç özellikli problemlerde karmaşıklığı giderir. Verileri tabloya doğru yerleştirmek, çözümün %80'ini oluşturur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İki özellikli sorularda tablo (matris) kullanımı.\n• Üç özellikli sorularda Venn şeması üzerindeki bölge numaralandırma.\n• Sadece A, sadece B ve her ikisini de bilenler ayrımı.\n• Toplam evrensel küme eleman sayısını koruma prensibi.\n• 'Hiçbiri' veya 'En az biri' ifadelerinin doğru yorumlanması."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavında zaman yönetimi kritiktir; bu nedenle problemleri denkleme dökmeden önce tabloya aktarmak hata payını azaltır. Özellikle 'sadece' ifadesine dikkat etmek sizi yanlış seçenekten kurtarır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Tablo yöntemini uygularken 'toplam' satır ve sütunlarını mutlaka kontrol edin; tüm bölgelerin toplamının evrensel kümeyi verip vermediği sağlamanızdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000825079_MAT__28",
+    "createdAt": "2026-04-12T13:33:45.076Z",
+    "updatedAt": "2026-04-12T13:33:45.076Z",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T13:33:58.309Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_27.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 29: Kümelerde Maksimum ve Minimum Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Küme problemlerinde eleman sayılarını en az veya en çok yapmak için bazı temel varsayımlar yapılır. Maksimum değer istendiğinde kümeler mümkün olduğunca ayrık tutulur. Minimum değer istendiğinde ise kümelerin mümkün olduğunca birbirini kapsaması sağlanır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Birleşim kümesinin en çok olması için kesişim kümesini boş kabul edin.\n• Birleşim kümesinin en az olması için alt küme ilişkisi kurun.\n• n(A ∪ B) = n(A) + n(B) - n(A ∩ B) formülünü dinamik kullanın.\n• Evrensel küme sınırlarını dikkate alarak değer atayın.\n• Kesişim bölgesini minimum yapmak için küme elemanlarını dışarı taşıyın."
+      },
+      {
+        "type": "text",
+        "text": "Bu tarz sorular KPSS'de 'en çok kaç kişi olur' veya 'en az kaç kişi olur' şeklinde sıkça sorulur. Formül ezberlemek yerine, kümeleri Venn şemasında birbirine yaklaştırıp uzaklaştırarak durumu analiz edin."
+      },
+      {
+        "type": "highlighted",
+        "text": "Maksimum/Minimum sorularında ifadenin 'en az biri' mi yoksa 'sadece biri' mi olduğunu belirlemek sonucunuzu doğrudan etkiler."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000825080_MAT__29",
+    "createdAt": "2026-04-12T13:33:45.076Z",
+    "updatedAt": "2026-04-12T13:33:45.076Z",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T13:33:58.309Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_28.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "title": "Bölüm 30: Genel Değerlendirme ve Soru Tipleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kümeler konusu, KPSS sınavında hem doğrudan soru olarak hem de diğer matematik konularının içinde temel olarak yer alır. Bütüncül bir strateji geliştirmek için farklı soru tiplerine hakim olmalısınız. Yeni nesil sorular, daha çok mantıksal yorumlama ve okuduğunu anlama becerisini ölçer."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Problem metninden küme denklemlerini kurma.\n• Mantık ve kümeler arasındaki geçişli soru tipleri.\n• Grafik ve tablo yardımıyla çözülen karmaşık sorular.\n• Alt küme sayısı ve öz alt küme sayısı hesaplamaları.\n• Kesişim ve birleşim özelliklerini kullanarak denklem çözme."
+      },
+      {
+        "type": "text",
+        "text": "Sınavda başarılı olmak için her konuyu kendi içinde değil, birbiriyle ilişkili olarak düşünün. Yanlış yaptığınız sorularda mutlaka Venn şemasını yeniden çizerek nerede hata yaptığınızı analiz edin."
+      },
+      {
+        "type": "highlighted",
+        "text": "Genel Değerlendirme: Kümeler konusu, sınavın temelidir; bol soru çözerek işlem hızınızı artırın ve kavramsal hatalara karşı dikkatli olun."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000825081_MAT__30",
+    "createdAt": "2026-04-12T13:33:45.076Z",
+    "updatedAt": "2026-04-12T13:33:45.076Z",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T13:33:58.309Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KUMELER_29.mp3?alt=media"
+  }
+]

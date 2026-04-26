@@ -1,0 +1,962 @@
+[
+  {
+    "id": "vat_001",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "idare-hukuku-kavramlar",
+    "subtopic": "İdarenin Bütünlüğü (Hiyerarşi ve Vesayet)",
+    "q": "İdare hukukunda idarenin bütünlüğünü sağlamak amacıyla kullanılan hukuki araçlar hiyerarşi ve idari vesayettir. Buna göre, aşağıdaki ilişkilerin hangisinde 'idari vesayet' denetimi söz konusudur?",
+    "o": [
+      "İçişleri Bakanı - Emniyet Genel Müdürü",
+      "Vali - Kaymakam",
+      "Rektör - Dekan",
+      "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı - Ankara Büyükşehir Belediyesi",
+      "Kaymakam - İlçe Yazı İşleri Müdürü"
+    ],
+    "a": 3,
+    "e": "İdari vesayet, merkezi idarenin yerinden yönetim kuruluşları üzerindeki denetim yetkisidir veya bir kamu tüzel kişisinin başka bir kamu tüzel kişisi üzerindeki denetimidir. A, B, C ve E seçeneklerindeki ilişkiler aynı tüzel kişilik (Devlet veya Üniversite) içerisinde gerçekleştiği için 'hiyerarşi' kapsamındadır. Ancak D seçeneğinde Bakanlık (Devlet tüzel kişiliği) ile Belediye (ayrı bir kamu tüzel kişiliği) arasındaki ilişki idari vesayettir."
+  },
+  {
+    "id": "vat_002",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "kamu-tuzel-kisiligi",
+    "subtopic": "Kamu Tüzel Kişiliği",
+    "q": "1982 Anayasası ve idare hukuku ilkeleri dikkate alındığında, aşağıdaki idari birimlerden hangisinin kendine ait ayrı bir 'kamu tüzel kişiliği' bulunmamaktadır?",
+    "o": [
+      "Ankara Üniversitesi",
+      "Türkiye Radyo Televizyon Kurumu (TRT)",
+      "Dışişleri Bakanlığı",
+      "Ankara Barosu",
+      "Çankaya Belediyesi"
+    ],
+    "a": 2,
+    "e": "Bakanlıklar, Devlet tüzel kişiliği (Merkezi İdare) içerisindedir ve kendilerine ait ayrı bir kamu tüzel kişilikleri yoktur. Üniversiteler, TRT, Barolar (Kamu kurumu niteliğindeki meslek kuruluşları) ve Belediyelerin ise Devletten ayrı kamu tüzel kişilikleri vardır."
+  },
+  {
+    "id": "vat_003",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "merkezi-idare",
+    "subtopic": "Merkezi İdare Teşkilatı",
+    "q": "Cumhurbaşkanlığı Hükümet Sistemi içerisinde, 'Devlet Tüzel Kişiliği'ni temsil eden en üst hiyerarşik amir aşağıdakilerden hangisidir?",
+    "o": [
+      "Cumhurbaşkanı Yardımcısı",
+      "İçişleri Bakanı",
+      "Cumhurbaşkanlığı İdari İşler Başkanı",
+      "Vali",
+      "Cumhurbaşkanı"
+    ],
+    "a": 4,
+    "e": "İdarenin bütünlüğü ilkesi ve hiyerarşik yapı gereği, Devlet tüzel kişiliğinin (ve yürütmenin) en üst hiyerarşik amiri Cumhurbaşkanı'dır. (Not: En yüksek devlet memuru sorulsaydı 'Cumhurbaşkanlığı İdari İşler Başkanı' olurdu, ancak en üst hiyerarşik amir Cumhurbaşkanı'dır)."
+  },
+  {
+    "id": "vat_004",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "mahalli-idareler",
+    "subtopic": "Yerel Yönetimlerin Kuruluşu",
+    "q": "Mahalli idare birimlerinin kurulması ile ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+    "o": [
+      "Büyükşehir Belediyesi - Kanunla kurulur.",
+      "İl Belediyesi - Müşterek kararname ile kurulur.",
+      "Nüfusu 5.000 ve üzeri yerleşim yerlerinde belediye - Cumhurbaşkanı Kararı ile kurulur.",
+      "Köy - İçişleri Bakanlığı kararı ile kurulur.",
+      "Bir ilçenin kurulması - Kanunla olur."
+    ],
+    "a": 1,
+    "e": "İl ve ilçe merkezlerinde belediye kurulması kanunla gerçekleşen idari düzenlemelerin (il/ilçe kurulmasının) doğal sonucudur; ancak il ve ilçe belediyelerinin tüzel kişilik kazanması için ayrıca bir kararnameye gerek yoktur, kanunla il/ilçe olunca belediye de kurulmuş olur. Ancak şıkkın yanlışlığı şuradadır: İl belediyeleri (merkez ilçe dışındakiler) veya yeni bir belediye kurulması kural olarak Cumhurbaşkanı Kararı ile olur. Müşterek kararname usulü kaldırılmıştır."
+  },
+  {
+    "id": "vat_005",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "idari-islemler",
+    "subtopic": "Yönetmelik Çıkarma Yetkisi",
+    "q": "1982 Anayasası'na göre, aşağıdakilerden hangisi kendi görev alanlarını ilgilendiren konularda yönetmelik çıkarma yetkisine sahip değildir?",
+    "o": [
+      "Sağlık Bakanlığı",
+      "Hacettepe Üniversitesi Rektörlüğü",
+      "Emniyet Genel Müdürlüğü",
+      "Kamu Denetçiliği Kurumu",
+      "Türk Mühendis ve Mimar Odaları Birliği"
+    ],
+    "a": 2,
+    "e": "Anayasa'ya göre Cumhurbaşkanı, Bakanlıklar ve Kamu Tüzel Kişileri yönetmelik çıkarabilir. Emniyet Genel Müdürlüğü, İçişleri Bakanlığı bünyesinde yer alan ve ayrı bir kamu tüzel kişiliği olmayan bir birimdir; bu nedenle kendi adına yönetmelik çıkaramaz, yönetmelikleri bağlı olduğu Bakanlık çıkarır."
+  },
+  {
+    "id": "vat_006",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "tasra-teskilati",
+    "subtopic": "Valilerin Hukuki Statüsü",
+    "q": "İl idaresinin başı olan Vali ile ilgili;\nI. İlde Cumhurbaşkanının temsilcisi ve idari yürütme vasıtasıdır.\nII. İstisnai memurluk statüsündedir.\nIII. Genel emir çıkarma yetkisine sahiptir.\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Valiler; ilde Devletin ve Cumhurbaşkanının temsilcisidir (I), atanma usulleri ve görevden alınmaları genel memuriyetten farklı olduğu için istisnai memurdur (II) ve kamu düzenini sağlamak amacıyla kanunların verdiği yetkiye dayanarak genel emir çıkarabilirler (III). Hepsi doğrudur."
+  },
+  {
+    "id": "vat_007",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "mahalli-idareler",
+    "subtopic": "Büyükşehir Belediyeleri",
+    "q": "5216 sayılı Büyükşehir Belediyesi Kanunu'na göre, bir yerleşim yerinin büyükşehir belediyesi olabilmesi için toplam nüfusun en az kaç olması gerekmektedir?",
+    "o": [
+      "500.000",
+      "750.000",
+      "1.000.000",
+      "2.000.000",
+      "5.000.000"
+    ],
+    "a": 1,
+    "e": "Büyükşehir belediyesi kurulabilmesi için toplam nüfusun en az 750.000 olması ve fiziki yerleşim durumunun uygun olması gerekmektedir. Ayrıca kuruluş işlemi Kanun ile gerçekleşir."
+  },
+  {
+    "id": "vat_008",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "idare-hukuku-kavramlar",
+    "subtopic": "Yetki Genişliği",
+    "q": "Merkezi idarenin taşra teşkilatındaki amirlerin, merkeze danışmadan, merkez adına kendiliğinden karar alabilmesi ve uygulayabilmesine 'yetki genişliği' denir. 1982 Anayasası'na göre bu yetki kime tanınmıştır?",
+    "o": [
+      "Sadece Valilere",
+      "Vali ve Kaymakamlara",
+      "Tüm Mülki İdare Amirlerine",
+      "Belediye Başkanlarına",
+      "Bölge Müdürlerine"
+    ],
+    "a": 0,
+    "e": "1982 Anayasası'nın 126. maddesine göre; 'İllerin idaresi yetki genişliği esasına dayanır.' Bu yetki, anayasal olarak sadece illerin idaresinin başı olan Valilere tanınmıştır. Kaymakamların yetki genişliği hakkı yoktur."
+  },
+  {
+    "id": "vat_009",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "kamu-gorevlileri",
+    "subtopic": "Memurluk İlkeleri",
+    "q": "657 sayılı Devlet Memurları Kanunu'na göre, devlet memurluğunun temel ilkeleri aşağıdakilerden hangisinde birlikte ve doğru olarak verilmiştir?",
+    "o": [
+      "Liyakat - Kariyer - Adalet",
+      "Sınıflandırma - Kariyer - Liyakat",
+      "Eşitlik - Sınıflandırma - Güvence",
+      "Kariyer - Liyakat - Sadakat",
+      "Sınıflandırma - Liyakat - Tarafsızlık"
+    ],
+    "a": 1,
+    "e": "657 sayılı Kanun'un temel ilkeleri üç tanedir: 1. Sınıflandırma (memurların görevlerine göre sınıflara ayrılması), 2. Kariyer (memurların bilgi ve yeteneklerine göre yükselme imkanı), 3. Liyakat (yetenek ve başarı esasına göre göreve alınma ve yükselme)."
+  },
+  {
+    "id": "vat_010",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "kamu-hizmetleri",
+    "subtopic": "Kolluk Faaliyetleri",
+    "q": "Aşağıdaki eşleştirmelerden hangisi, kolluk makamı ve o makamın görev yaptığı alan bakımından yanlıştır?",
+    "o": [
+      "Cumhurbaşkanı - Genel İdari Kolluk Makamı",
+      "İçişleri Bakanı - Genel İdari Kolluk Makamı",
+      "Vali - İl Genel İdari Kolluk Makamı",
+      "Belediye Başkanı - Mahalli İdari Kolluk Makamı",
+      "Jandarma Komutanı - Genel İdari Kolluk Makamı"
+    ],
+    "a": 4,
+    "e": "Jandarma Komutanı bir 'kolluk makamı' değil, 'kolluk amiri' veya personelidir. İdare hukukunda kolluk makamları karar alma yetkisine sahip sivil otoritelerdir (Cumhurbaşkanı, Bakan, Vali, Kaymakam gibi). Üniformalı ve silahlı güçler (Polis, Jandarma) kolluk kuvvetidir, makam değildir."
+  },
+  {
+    "id": "vat_011",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "idari-teskilat-ilkeleri",
+    "subtopic": "İdari Teşkilat İlkeleri",
+    "q": "Türkiye Cumhuriyeti idari teşkilat yapısında 'idarenin bütünlüğü' ilkesi, hiyerarşi ve idari vesayet yetkileriyle sağlanmaktadır. Buna göre, aşağıdaki eşleştirmelerden hangisinde yetkili makam ile denetlenen birim arasındaki ilişki 'idari vesayet' kapsamındadır?",
+    "o": [
+      "İçişleri Bakanı - Emniyet Genel Müdürü",
+      "Vali - Kaymakam",
+      "Vali - Belediye Başkanı",
+      "Belediye Başkanı - Zabıta Müdürü",
+      "Yükseköğretim Kurulu Başkanı - Üniversite Rektörü"
+    ],
+    "a": 2,
+    "e": "İdarenin bütünlüğü ilkesi hiyerarşi ve idari vesayet ile sağlanır. Hiyerarşi, aynı tüzel kişilik içerisindeki ast-üst ilişkisidir (Örn: Vali-Kaymakam, ikisi de Devlet tüzel kişiliğindedir). İdari vesayet ise merkezi idarenin, yerinden yönetim kuruluşları üzerindeki denetim yetkisidir. Vali (Devlet tüzel kişiliği) ile Belediye Başkanı (Belediye tüzel kişiliği) arasındaki ilişki, farklı tüzel kişilikler arası bir denetim olduğundan 'idari vesayet'tir."
+  },
+  {
+    "id": "vat_012",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "mahalli-idareler",
+    "subtopic": "Mahalli İdareler",
+    "q": "1982 Anayasası ve ilgili kanunlar çerçevesinde, aşağıdakilerden hangisi yerel yönetim (mahalli idare) birimleri arasında yer almaz?",
+    "o": [
+      "İl Özel İdaresi",
+      "Belediye",
+      "Büyükşehir Belediyesi",
+      "Köy",
+      "Mahalle"
+    ],
+    "a": 4,
+    "e": "Anayasa'nın 127. maddesine göre mahalli idareler; İl Özel İdaresi, Belediye ve Köy'den oluşur. Büyükşehir Belediyeleri de belediye statüsündedir. Ancak 'Mahalle', yönetimsel bir birim olsa da, kendine ait bir bütçesi ve kamu tüzel kişiliği bulunmadığı için teknik ve hukuki anlamda bir mahalli idare birimi (yerel yönetim kuruluşu) sayılmaz."
+  },
+  {
+    "id": "vat_013",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "kamu-tuzel-kisiligi",
+    "subtopic": "Kamu Tüzel Kişiliği",
+    "q": "İdare hukukunda, Devlet tüzel kişiliğinden ayrı bir mal varlığına ve bütçeye sahip olan kuruluşlar kamu tüzel kişiliğine sahiptir. Buna göre, aşağıdakilerden hangisinin kendine ait bir kamu tüzel kişiliği vardır?",
+    "o": [
+      "Emniyet Genel Müdürlüğü",
+      "Diyanet İşleri Başkanlığı",
+      "Jandarma Genel Komutanlığı",
+      "Türkiye Radyo Televizyon Kurumu (TRT)",
+      "İletişim Başkanlığı"
+    ],
+    "a": 3,
+    "e": "Emniyet Genel Müdürlüğü, Diyanet İşleri Başkanlığı, Jandarma Genel Komutanlığı ve İletişim Başkanlığı; Devlet tüzel kişiliği içerisinde yer alan (genel bütçeli) kuruluşlardır ve ayrı bir tüzel kişilikleri yoktur. Ancak TRT, kanunla kurulmuş, özerk bütçeli ve Devlet tüzel kişiliğinden ayrı bir 'kamu tüzel kişiliği'ne sahip kuruluştur."
+  },
+  {
+    "id": "vat_014",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "yetki-genisligi",
+    "subtopic": "Merkezden Yönetim ve Yetki Genişliği",
+    "q": "Merkezi idarenin taşra teşkilatındaki amirlerin, merkeze danışmadan, merkez adına karar alabilmesi ve uygulayabilmesine 'yetki genişliği' denir. Anayasamıza göre bu yetki, illerde sadece kime tanınmıştır?",
+    "o": [
+      "İl İdare Kurulu",
+      "Vali",
+      "Belediye Başkanı",
+      "İl Genel Meclisi Başkanı",
+      "Kaymakam"
+    ],
+    "a": 1,
+    "e": "Anayasa'nın 126. maddesi gereğince illerin idaresi yetki genişliği esasına dayanır. Bu yetki, merkezi idarenin taşradaki en yüksek temsilcisi olan 'Vali'ye tanınmıştır. Kaymakamların veya belediye başkanlarının yetki genişliği hakkı yoktur. Bu yetki sayesinde Vali, merkeze sormadan harcama yapabilir ve karar alabilir."
+  },
+  {
+    "id": "vat_015",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "belediye-kanunu",
+    "subtopic": "Belediyelerin Kurulması",
+    "q": "5393 sayılı Belediye Kanunu'na göre, bir yerde belediye kurulabilmesi için gereken asgari nüfus şartı ve kuruluş işlemi aşağıdakilerin hangisinde doğru verilmiştir?",
+    "o": [
+      "2.000 nüfus - İçişleri Bakanı Onayı",
+      "5.000 nüfus - Cumhurbaşkanı Kararı",
+      "5.000 nüfus - Kanun",
+      "2.000 nüfus - Cumhurbaşkanı Kararnamesi",
+      "10.000 nüfus - Müşterek Kararname"
+    ],
+    "a": 1,
+    "e": "5393 sayılı Belediye Kanunu uyarınca, nüfusu 5.000 ve üzeri olan yerleşim yerlerinde belediye kurulabilir. Bu kuruluş işlemi, Danıştay'ın görüşü alınarak 'Cumhurbaşkanı Kararı' ile gerçekleşir. (Not: Büyükşehir Belediyeleri ise kanunla kurulur ve en az 750.000 nüfus gerektirir.)"
+  },
+  {
+    "id": "vat_016",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "baskent-teskilati",
+    "subtopic": "Başkent Teşkilatına Yardımcı Kuruluşlar",
+    "q": "I. Milli Güvenlik Kurulu\nII. Sayıştay\nIII. Danıştay\nIV. Yüksek Seçim Kurulu\n\nYukarıdakilerden hangileri, idari yapıda 'Başkent Teşkilatına Yardımcı Kuruluşlar' arasında kabul edilir?",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "II ve III",
+      "I, II ve III",
+      "I, II, III ve IV"
+    ],
+    "a": 3,
+    "e": "İdare Hukuku tasnifinde Başkent Teşkilatına yardımcı kuruluşlar; Milli Güvenlik Kurulu (MGK), Danıştay, Sayıştay ve Ekonomik ve Sosyal Konsey'dir. Yüksek Seçim Kurulu (YSK) ise bir yüksek mahkeme statüsünde olmamakla birlikte, seçim yargısı organıdır ve idari teşkilatın yardımcı kuruluşu kategorisinde değerlendirilmez. Doğru cevap I, II ve III'tür."
+  },
+  {
+    "id": "vat_017",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "memurluk-statusu",
+    "subtopic": "Kamu Görevlileri ve İstisnai Memurluk",
+    "q": "657 sayılı Devlet Memurları Kanunu'na göre, atanmaları, sınav şartları ve görevden alınmaları genel hükümlerin dışındaki usullere tabi olan memurluklara 'istisnai memurluk' denir. Aşağıdakilerden hangisi istisnai memurluk kadrolarından biri değildir?",
+    "o": [
+      "Valilik",
+      "Büyükelçilik",
+      "MİT Memurlukları",
+      "Özel Kalem Müdürlükleri",
+      "Kaymakamlık"
+    ],
+    "a": 4,
+    "e": "Valiler, Büyükelçiler, MİT personeli ve Özel Kalem Müdürleri istisnai memur statüsündedir; yani atanmalarında sınav şartı gibi genel kurallar aranmayabilir. Ancak 'Kaymakamlık', mesleki bilgi ve yarışma sınavı ile girilen, belirli bir yetişme dönemini gerektiren ve güvenceli bir 'meslek memurluğu'dur. İstisnai memurluk değildir."
+  },
+  {
+    "id": "vat_018",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "koy-idaresi",
+    "subtopic": "Köy İdaresi Organları",
+    "q": "442 sayılı Köy Kanunu'na göre, köy idaresinin organları aşağıdakilerden hangisinde tam ve doğru olarak sayılmıştır?",
+    "o": [
+      "Muhtar - İhtiyar Heyeti - Köy Korucusu",
+      "Muhtar - Köy Derneği - İhtiyar Heyeti",
+      "Muhtar - İmam - Öğretmen",
+      "Köy Derneği - Muhtar - Zabıta",
+      "İhtiyar Heyeti - Muhtar - Çiftçi Malları Koruma Başkanı"
+    ],
+    "a": 1,
+    "e": "Köy idaresinin üç temel organı vardır: 1. Muhtar (Yürütme organı), 2. İhtiyar Heyeti (Danışma ve karar organı), 3. Köy Derneği (Köydeki tüm seçmenlerden oluşan karar organı). Köy korucusu, imam veya öğretmen köyün görevlileri veya doğal üyeleri olabilir ancak idarenin kurucu 'organları' sayılırken bu üçlü (Muhtar, İhtiyar Heyeti, Köy Derneği) esas alınır."
+  },
+  {
+    "id": "vat_019",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "tasra-teskilati",
+    "subtopic": "İl İdaresi",
+    "q": "İl İdaresi Kanunu'na göre, il genel idaresinin başı ve mercii Validir. Aşağıdakilerden hangisi Valinin görev ve yetkileri arasında yer almaz?",
+    "o": [
+      "İlde devletin ve hükümetin temsilcisi olmak",
+      "İldeki genel idare kuruluşlarını denetlemek",
+      "Yabancı ülke konsolosları ile ilişkileri yürütmek",
+      "İl Özel İdaresinin bütçesini hazırlamak",
+      "Suç işlenmesini önlemek için genel emir çıkarmak"
+    ],
+    "a": 3,
+    "e": "Vali; ilde Devletin ve Hükümetin temsilcisidir, genel idare kuruluşlarını denetler, kamu düzeni için genel emir çıkarır ve komşu ülkelerin sınır makamlarıyla ilişki kurabilir. Ancak 'İl Özel İdaresinin bütçesini hazırlamak' görevi, 2014 yılındaki değişikliklerle Validen alınmıştır. İl Özel İdaresinin yürütme organı Vali olsa da, bütçe yapma ve kesinleştirme süreçleri İl Genel Meclisi'nin yetkisindedir (Vali teklif eder, Meclis kabul eder). Ancak daha net bir ayrım şudur: Şıkta kastedilen, Valinin eskiden olduğu gibi İl Özel İdaresinin 'karar organı' gibi hareket etmesi değildir. Daha güçlü çeldirici C şıkkıdır; Valiler, yabancı konsoloslarla Dışişleri Bakanlığı aracılığı olmaksızın doğrudan siyasi ilişki yürütemezler, sadece 'komşu ülkelerin sınır makamlarıyla' idari ilişkiler kurabilirler. (Not: Bu soruda ÖSYM mantığıyla en net yanlış C şıkkıdır, çünkü konsolosluk ilişkileri diplomatik misyondur ve merkeze aittir)."
+  },
+  {
+    "id": "vat_020",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "buyuksehir-belediyesi",
+    "subtopic": "Büyükşehir Belediyesi",
+    "q": "Büyükşehir Belediyeleri ile ilgili olarak aşağıdaki ifadelerden hangisi yanlıştır?",
+    "o": [
+      "Kanunla kurulurlar.",
+      "Kurulmaları için toplam nüfusun en az 750.000 olması gerekir.",
+      "Sınırları il mülki sınırıdır.",
+      "İlçe belediyeleri üzerinde hiyerarşik denetim yetkisine sahiptirler.",
+      "Büyükşehir belediye başkanı, büyükşehir belediye meclisine başkanlık eder."
+    ],
+    "a": 3,
+    "e": "Büyükşehir belediyeleri ile ilçe belediyeleri arasındaki ilişki 'hiyerarşi' değil, 'idari vesayet' ilişkisidir. Her ne kadar vesayet yetkisi genişletilmiş olsa da, ilçe belediyeleri ayrı birer kamu tüzel kişiliğine sahiptir ve hiyerarşik olarak büyükşehire bağlı değildirler. Diğer şıklar doğrudur; kanunla kurulur, 750.000 nüfus gerekir, sınırları il sınırıdır."
+  },
+  {
+    "id": "vat_021",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "idari-teskilat-butunlugu",
+    "subtopic": "İdarenin Bütünlüğü ve Denetimi",
+    "q": "İdare hukukunda idarenin bütünlüğünü sağlamak amacıyla kullanılan hukuki araçlar hiyerarşi ve idari vesayettir. Buna göre, aşağıda verilen makamlar arasındaki ilişkilerden hangisi 'idari vesayet' yetkisine örnektir?",
+    "o": [
+      "İçişleri Bakanı - Emniyet Genel Müdürü",
+      "Vali - Kaymakam",
+      "Yükseköğretim Kurulu - Üniversite Rektörlüğü",
+      "İçişleri Bakanı - Büyükşehir Belediye Başkanı",
+      "Kaymakam - İlçe Yazı İşleri Müdürü"
+    ],
+    "a": 3,
+    "e": "İçişleri Bakanı merkezi idarenin (devlet tüzel kişiliğinin) bir parçası, Büyükşehir Belediyesi ise yerinden yönetim kuruluşudur (ayrı bir kamu tüzel kişiliğidir). Merkezi idarenin, yerinden yönetim kuruluşları üzerindeki denetim yetkisine 'idari vesayet' denir. Diğer seçeneklerin tamamı aynı tüzel kişilik (devlet tüzel kişiliği) içerisindeki ast-üst ilişkisi olduğu için hiyerarşidir."
+  },
+  {
+    "id": "vat_022",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "kamu-tuzel-kisiligi",
+    "subtopic": "Kamu Tüzel Kişiliği",
+    "q": "1982 Anayasası'na göre, aşağıda belirtilen idari birimlerden hangisinin kendine ait bir 'kamu tüzel kişiliği' bulunmamaktadır?",
+    "o": [
+      "Köy",
+      "Üniversite",
+      "İl Özel İdaresi",
+      "TRT",
+      "Emniyet Genel Müdürlüğü"
+    ],
+    "a": 4,
+    "e": "Köy, Üniversite, İl Özel İdaresi ve TRT'nin kendilerine ait kamu tüzel kişilikleri vardır (Anayasa veya kanunla verilir). Ancak Emniyet Genel Müdürlüğü, İçişleri Bakanlığı'na bağlıdır ve Devlet Tüzel Kişiliği (Merkezi İdare) bünyesinde yer alır; dolayısıyla ayrı bir kamu tüzel kişiliği yoktur."
+  },
+  {
+    "id": "vat_023",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "merkezi-idare-tasra",
+    "subtopic": "Taşra Teşkilatı ve Yetki Genişliği",
+    "q": "Merkezi idarenin taşra teşkilatında yer alan ve 'yetki genişliği' ilkesine dayanarak merkeze danışmadan, merkez adına karar alabilen ve uygulayabilen istisnai kamu görevlisi aşağıdakilerden hangisidir?",
+    "o": [
+      "Bölge İdare Mahkemesi Başkanı",
+      "Belediye Başkanı",
+      "Kaymakam",
+      "Vali",
+      "Büyükelçi"
+    ],
+    "a": 3,
+    "e": "Anayasa'nın 126. maddesine göre Türkiye'de illerin idaresi 'yetki genişliği' esasına dayanır. Bu yetkiyi ilde sadece Vali kullanır. Vali, merkeze sormadan, merkezden ödenek beklemeden acil durumlarda karar alabilir. Kaymakamların yetki genişliği hakkı yoktur."
+  },
+  {
+    "id": "vat_024",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "mahalli-idareler-belediye",
+    "subtopic": "Belediye İdaresi ve Organları",
+    "q": "Belediye idaresinin organları ve işleyişi ile ilgili olarak aşağıdaki ifadelerden hangisi yanlıştır?",
+    "o": [
+      "Belediye başkanı, belediye idaresinin başı ve tüzel kişiliğinin temsilcisidir.",
+      "Belediye meclisi, belediyenin karar organıdır ve üyeleri halk tarafından seçilir.",
+      "Belediye encümeni, sürekli görev yapan bir karar ve yürütme organıdır.",
+      "Belediye meclisinin feshine İçişleri Bakanlığı'nın bildirimi üzerine Danıştay karar verir.",
+      "Nüfusu 2.000'in altına düşen belediyeler, Vali kararı ile köye dönüştürülür."
+    ],
+    "a": 4,
+    "e": "Nüfusu 2.000'in altına düşen belediyeler 'Cumhurbaşkanı Kararı' ile köye dönüştürülür. Vali kararı ile değil. Diğer seçenekler (Meclis feshi prosedürü dahil) doğrudur."
+  },
+  {
+    "id": "vat_025",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "idari-birimlerin-kurulmasi",
+    "subtopic": "İdari Birimlerin Kurulma Usulleri",
+    "q": "Türkiye'nin idari yapısında yer alan birimlerin kurulma usulleri ile ilgili;\n\nI. İl ve ilçelerin kurulması\nII. Büyükşehir belediyelerinin kurulması\nIII. Bakanlıkların kurulması\n\nişlemlerinin hukuki dayanakları aşağıdakilerin hangisinde sırasıyla doğru verilmiştir?",
+    "o": [
+      "Kanun - Kanun - Kanun",
+      "Kanun - Kanun - Cumhurbaşkanlığı Kararnamesi",
+      "Cumhurbaşkanı Kararı - Kanun - Kanun",
+      "Kanun - Cumhurbaşkanı Kararı - Cumhurbaşkanlığı Kararnamesi",
+      "Cumhurbaşkanlığı Kararnamesi - Kanun - Kanun"
+    ],
+    "a": 1,
+    "e": "İl ve ilçelerin kurulması 'Kanun' ile olur. Büyükşehir belediyelerinin kurulması 'Kanun' ile olur. Bakanlıkların kurulması, kaldırılması ve teşkilat yapısı ise 2017 değişikliği ile 'Cumhurbaşkanlığı Kararnamesi' ile düzenlenmektedir."
+  },
+  {
+    "id": "vat_026",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "mahalli-idareler-koy",
+    "subtopic": "Köy İdaresi",
+    "q": "Köy idaresinin organlarından biri olan Köy İhtiyar Heyeti ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "o": [
+      "Üyelerinin tamamı köy derneği tarafından seçilir.",
+      "Köy muhtarı, ihtiyar heyetinin doğal üyesi değildir.",
+      "Köy imamı ve köy öğretmeni ihtiyar heyetinin doğal üyeleridir.",
+      "İhtiyar heyeti kararları kaymakamın onayı ile yürürlüğe girer.",
+      "İhtiyar heyeti seçimleri 4 yılda bir yapılır."
+    ],
+    "a": 2,
+    "e": "Köy İhtiyar Heyeti; seçimle gelen üyeler ve doğal üyelerden oluşur. Köy imamı ve köy öğretmeni (okul müdürü) ihtiyar heyetinin doğal üyeleridir. Seçimle gelenler Köy Derneği (seçmenler) tarafından 5 yılda bir seçilir."
+  },
+  {
+    "id": "vat_027",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "devlet-denetleme-kurulu",
+    "subtopic": "Devlet Denetleme Kurulu (DDK)",
+    "q": "Cumhurbaşkanlığına bağlı olarak çalışan Devlet Denetleme Kurulu (DDK), aşağıdakilerden hangisi üzerinde idari soruşturma, inceleme, araştırma ve denetleme yetkisine sahip değildir?",
+    "o": [
+      "Kamu kurumu niteliğindeki meslek kuruluşları",
+      "İşçi ve işveren sendikaları",
+      "Yargı organları",
+      "Kamuya yararlı dernekler",
+      "Silahlı Kuvvetler"
+    ],
+    "a": 2,
+    "e": "1982 Anayasası'na göre Devlet Denetleme Kurulu, yargı organları (mahkemeler, hakim ve savcılar) üzerinde denetim yetkisine sahip değildir. 2017 değişikliği ile Silahlı Kuvvetler denetim kapsamına alınmıştır."
+  },
+  {
+    "id": "vat_028",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "memurlar-disiplin",
+    "subtopic": "Kamu Görevlileri ve Disiplin Hukuku",
+    "q": "657 sayılı Devlet Memurları Kanunu'na göre, devlet memurlarına verilebilecek disiplin cezaları arasında aşağıdakilerden hangisi yer almaz?",
+    "o": [
+      "Uyarma",
+      "Kınama",
+      "Aylıktan kesme",
+      "Görevden uzaklaştırma",
+      "Devlet memurluğundan çıkarma"
+    ],
+    "a": 3,
+    "e": "Görevden uzaklaştırma (açığa alma), bir disiplin cezası değil; soruşturmanın selameti açısından uygulanan bir 'ihtiyati tedbir'dir. Disiplin cezaları: Uyarma, Kınama, Aylıktan Kesme, Kademe İlerlemesinin Durdurulması ve Devlet Memurluğundan Çıkarma'dır."
+  },
+  {
+    "id": "vat_029",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "buyuksehir-belediyesi",
+    "subtopic": "Büyükşehir Belediyesi",
+    "q": "5216 sayılı Büyükşehir Belediyesi Kanunu'na göre, bir ilin belediyesinin büyükşehir belediyesine dönüştürülebilmesi için toplam nüfusunun en az kaç olması gerekmektedir?",
+    "o": [
+      "300.000",
+      "500.000",
+      "750.000",
+      "1.000.000",
+      "2.000.000"
+    ],
+    "a": 2,
+    "e": "Büyükşehir belediyesi kurulabilmesi için toplam nüfusun en az 750.000 olması ve il merkezi belediyesi olması (veya sınırları il mülki sınırı olan belediye olması) gerekir. Bu statü kanunla verilir."
+  },
+  {
+    "id": "vat_030",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "baskent-teskilati",
+    "subtopic": "Başkent Teşkilatı Yardımcı Kuruluşlar",
+    "q": "İdarenin başkent teşkilatına yardımcı kuruluşları ile ilgili olarak;\n\nI. Danıştay, idari mahkemelerce verilen kararların son inceleme merciidir.\nII. Sayıştay, TBMM adına mali denetim yapar.\nIII. Ekonomik ve Sosyal Konsey'in kararları Cumhurbaşkanı için bağlayıcıdır.\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 2,
+    "e": "I. öncül doğrudur; Danıştay en yüksek idari mahkemedir. II. öncül doğrudur; Sayıştay TBMM adına denetim yapar. Ancak III. öncül yanlıştır; Ekonomik ve Sosyal Konsey, istişari (danışma) nitelikte bir organdır, kararları bağlayıcı değildir."
+  },
+  {
+    "id": "vat_031",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "idare-hukuku-genel",
+    "subtopic": "İdare Hukukunun Temel İlkeleri",
+    "q": "Türkiye Cumhuriyeti idaresinin bütünlüğü ilkesi anayasal bir zorunluluktur. İdarenin bütünlüğü, idari teşkilat içinde yer alan kurumlar arasındaki uyumu ve birliği sağlamayı amaçlar.\n\nBuna göre idarenin bütünlüğü hukukumuzda aşağıdaki hangi iki hukuki araç ile sağlanmaktadır?",
+    "o": [
+      "Hiyerarşi - Yetki Genişliği",
+      "İdari Vesayet - Yerinden Yönetim",
+      "Hiyerarşi - İdari Vesayet",
+      "Kanunsuz Emir - Yetki Genişliği",
+      "Merkezden Yönetim - Yetki Devri"
+    ],
+    "a": 2,
+    "e": "Anayasa'nın 123. maddesine göre idare, kuruluş ve görevleriyle bir bütündür. Bu bütünlük 'Hiyerarşi' ve 'İdari Vesayet' olmak üzere iki temel hukuki araçla sağlanır. Hiyerarşi, aynı tüzel kişilik içindeki ast-üst ilişkisini düzenlerken; idari vesayet, merkezi idarenin yerel yönetimler veya farklı kamu tüzel kişileri üzerindeki denetim yetkisini ifade eder."
+  },
+  {
+    "id": "vat_032",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "merkezi-idare",
+    "subtopic": "Merkezi İdarenin Başkent Teşkilatı",
+    "q": "1982 Anayasası'na göre, aşağıdakilerden hangisi Milli Güvenlik Kurulu (MGK) üyesi değildir?",
+    "o": [
+      "Adalet Bakanı",
+      "İçişleri Bakanı",
+      "Dışişleri Bakanı",
+      "Hazine ve Maliye Bakanı",
+      "Milli Savunma Bakanı"
+    ],
+    "a": 3,
+    "e": "Milli Güvenlik Kurulu üyeleri; Cumhurbaşkanı, Cumhurbaşkanı Yardımcıları, Adalet, İçişleri, Dışişleri, Milli Savunma Bakanları ile Genelkurmay Başkanı ve Kuvvet Komutanlarıdır (Kara, Deniz, Hava). Hazine ve Maliye Bakanı MGK'nın daimi üyesi değildir."
+  },
+  {
+    "id": "vat_033",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "mahalli-idareler",
+    "subtopic": "Yerel Yönetimlerin Kuruluşu",
+    "q": "Büyükşehir belediyeleri ile ilgili olarak;\n\nI. En az 750.000 nüfusa sahip olmalıdır.\nII. Kanunla kurulurlar.\nIII. Sınırları il mülki sınırıdır.\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Büyükşehir belediyesi kurulabilmesi için nüfusun en az 750.000 olması gerekir (I). Büyükşehir belediyeleri Cumhurbaşkanı kararı ile değil, Kanun ile kurulur (II). 6360 sayılı Kanun ile büyükşehir belediyelerinin sınırları il mülki sınırı (il sınırının tamamı) olarak belirlenmiştir (III). Dolayısıyla tüm öncüller doğrudur."
+  },
+  {
+    "id": "vat_034",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "kamu-tuzel-kisiligi",
+    "subtopic": "Kamu Tüzel Kişiliği",
+    "q": "Aşağıdaki idari birimlerden hangisinin kendine ait ayrı bir 'kamu tüzel kişiliği' bulunmaktadır?",
+    "o": [
+      "Emniyet Genel Müdürlüğü",
+      "Diyanet İşleri Başkanlığı",
+      "Jandarma Genel Komutanlığı",
+      "Ankara Üniversitesi Rektörlüğü",
+      "Gelir İdaresi Başkanlığı"
+    ],
+    "a": 3,
+    "e": "Üniversiteler, Anayasa'nın 130. maddesi uyarınca kamu tüzel kişiliğine sahiptir. Emniyet Genel Müdürlüğü, Jandarma Genel Komutanlığı, Diyanet İşleri Başkanlığı ve Gelir İdaresi Başkanlığı ise devlet tüzel kişiliği (Bakanlıklar hiyerarşisi) içerisinde yer alır ve ayrı bir kamu tüzel kişilikleri yoktur."
+  },
+  {
+    "id": "vat_035",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "idari-denetim",
+    "subtopic": "Hiyerarşi ve İdari Vesayet",
+    "q": "Aşağıdaki eşleşmelerin hangisinde, denetim yetkisi 'idari vesayet' kapsamında değerlendirilir?",
+    "o": [
+      "İçişleri Bakanı - Emniyet Genel Müdürü",
+      "Vali - Kaymakam",
+      "Rektör - Dekan",
+      "Vali - Belediye Başkanı",
+      "Kaymakam - İlçe Milli Eğitim Müdürü"
+    ],
+    "a": 3,
+    "e": "İçişleri Bakanı-Emniyet Genel Müdürü, Vali-Kaymakam, Rektör-Dekan ve Kaymakam-İlçe MEM arasındaki ilişkiler aynı tüzel kişilik içinde gerçekleştiği için 'Hiyerarşi'dir. Ancak Vali (Devlet Tüzel Kişiliği) ile Belediye Başkanı (Belediye Tüzel Kişiliği) arasındaki ilişki, iki farklı tüzel kişilik arasında gerçekleştiği için 'İdari Vesayet' denetimidir."
+  },
+  {
+    "id": "vat_036",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "tasra-teskilati",
+    "subtopic": "İl İdaresi",
+    "q": "Valinin hukuki statüsü ile ilgili;\n\nI. İlde Cumhurbaşkanının temsilcisi ve idari yürütme vasıtasıdır.\nII. İlde devletin ve hükümetin temsilcisidir.\nIII. Genel emir çıkarma yetkisine sahiptir.\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Vali, Anayasa ve İl İdaresi Kanunu'na göre ilde Cumhurbaşkanının temsilcisi ve idari yürütme vasıtasıdır (I). Aynı zamanda Devletin temsilcisidir (II). İlde kamu düzenini sağlamak amacıyla kanunların verdiği yetkiye dayanarak genel emir çıkarma yetkisine de sahiptir (III). Tüm öncüller doğrudur."
+  },
+  {
+    "id": "vat_037",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "mahalli-idareler",
+    "subtopic": "Köy İdaresi",
+    "q": "Köy idaresinin karar organı olan 'Köy Derneği' kimlerden oluşur?",
+    "o": [
+      "Köydeki tüm seçmenlerden",
+      "İhtiyar heyeti üyelerinden",
+      "Muhtar ve ihtiyar heyetinden",
+      "Köyde ikamet eden herkesten",
+      "Köy muhtarı ve köy imamından"
+    ],
+    "a": 0,
+    "e": "Köy Derneği, köyde bulunan ve köy muhtarını ve ihtiyar meclisini seçme hakkına sahip olan, yani 18 yaşını doldurmuş kadın ve erkek tüm seçmenlerden oluşur. Köyün en yüksek karar ve seçim organıdır."
+  },
+  {
+    "id": "vat_038",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "idari-islemler",
+    "subtopic": "Yönetmelik Çıkarma Yetkisi",
+    "q": "1982 Anayasası'na göre aşağıdakilerden hangisi kendi görev alanlarını ilgilendiren konularda yönetmelik çıkaramaz?",
+    "o": [
+      "Cumhurbaşkanı",
+      "Bakanlıklar",
+      "Kamu Tüzel Kişileri",
+      "Türkiye Barolar Birliği",
+      "Tapu ve Kadastro Genel Müdürlüğü"
+    ],
+    "a": 4,
+    "e": "Anayasa'nın 124. maddesine göre Cumhurbaşkanı, bakanlıklar ve kamu tüzel kişileri yönetmelik çıkarabilir. Türkiye Barolar Birliği kamu kurumu niteliğinde meslek kuruluşu olduğu için kamu tüzel kişiliği vardır ve yönetmelik çıkarabilir. Ancak Tapu ve Kadastro Genel Müdürlüğü, Çevre, Şehircilik ve İklim Değişikliği Bakanlığı'na bağlıdır ve ayrı bir kamu tüzel kişiliği yoktur; bu nedenle kendi adına yönetmelik çıkaramaz."
+  },
+  {
+    "id": "vat_039",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "mahalli-idareler",
+    "subtopic": "İl Özel İdaresi",
+    "q": "İl özel idaresinin en yüksek görüşme ve karar organı aşağıdakilerden hangisidir?",
+    "o": [
+      "İl Encümeni",
+      "İl Genel Meclisi",
+      "Vali",
+      "İl İdare Kurulu",
+      "İl Koordinasyon Kurulu"
+    ],
+    "a": 1,
+    "e": "İl özel idaresinin organları; Vali, İl Encümeni ve İl Genel Meclisi'dir. Bunlar arasında en yüksek görüşme ve karar organı, üyeleri halk tarafından seçilen 'İl Genel Meclisi'dir. İl İdare Kurulu ise merkezi idarenin taşra teşkilatına (İl Genel İdaresi) ait bir organdır, karıştırılmamalıdır."
+  },
+  {
+    "id": "vat_040",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "kamu-hizmetleri",
+    "subtopic": "Kamu Hizmeti İlkeleri",
+    "q": "Kamu hizmetlerinin yürütülmesinde, hizmetin kesintiye uğramadan düzenli bir şekilde işlemesini ifade eden ve memurlar için 'grev yasağı'nın temel dayanağını oluşturan ilke aşağıdakilerden hangisidir?",
+    "o": [
+      "Nesnellik",
+      "Eşitlik",
+      "Süreklilik (Devamlılık)",
+      "Uyarlama (Değişebilirlik)",
+      "Bedelsizlik"
+    ],
+    "a": 2,
+    "e": "Kamu hizmetlerinin en temel özelliklerinden biri sürekliliktir. Kamu hizmetleri, toplumun genel ihtiyaçlarını karşıladığı için kesintiye uğramamalıdır. Memurlara grev yasağı getirilmesinin ve istifa eden memurun yerine yenisi gelene kadar bekleme zorunluluğunun temel hukuki dayanağı 'Süreklilik (Devamlılık)' ilkesidir."
+  },
+  {
+    "id": "vat_041",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "idare-hukuku-genel",
+    "subtopic": "Kamu Tüzel Kişiliği",
+    "q": "1982 Anayasası'na göre, aşağıda belirtilen idari birimlerden hangisinin kamu tüzel kişiliği kanunla değil, doğrudan Anayasa ile düzenlenmiştir?",
+    "o": [
+      "Yükseköğretim Kurulu (YÖK)",
+      "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu",
+      "Kamu Kurumu Niteliğindeki Meslek Kuruluşları",
+      "İl Özel İdaresi",
+      "Radyo ve Televizyon Üst Kurulu (RTÜK)"
+    ],
+    "a": 3,
+    "e": "1982 Anayasası'nın 127. maddesinde mahalli idarelerin (İl özel idaresi, belediye ve köy) kamu tüzel kişisi olduğu açıkça belirtilmiştir. Diğer seçeneklerdeki kurumların (YÖK, RTÜK, Meslek Kuruluşları vb.) kamu tüzel kişiliği Anayasa'nın verdiği yetkiye dayanılarak kanunla veya Cumhurbaşkanlığı Kararnamesi ile kurulur/belirlenir. Ancak İl Özel İdaresi'nin tüzel kişiliği bizzat Anayasa'da sayılmıştır."
+  },
+  {
+    "id": "vat_042",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "merkezi-idare",
+    "subtopic": "İdari Vesayet ve Hiyerarşi",
+    "q": "İdare hukukunun bütünlüğünü sağlayan araçlar göz önüne alındığında, aşağıdaki makamlar arasındaki ilişkilerden hangisi 'hiyerarşi' kapsamında değerlendirilemez?",
+    "o": [
+      "İçişleri Bakanı - Emniyet Genel Müdürü",
+      "Vali - Kaymakam",
+      "Rektör - Dekan",
+      "Büyükşehir Belediye Başkanı - İlçe Belediye Başkanı",
+      "Kaymakam - İlçe Milli Eğitim Müdürü"
+    ],
+    "a": 3,
+    "e": "Hiyerarşi, aynı tüzel kişilik içerisindeki ast-üst ilişkisidir. Büyükşehir Belediyesi ve İlçe Belediyesi birbirinden ayrı iki farklı kamu tüzel kişiliğidir. Bu nedenle aralarındaki ilişki hiyerarşi değil, 'idari vesayet' ilişkisidir. Diğer seçeneklerin tamamı aynı tüzel kişilik (Devlet tüzel kişiliği veya Üniversite tüzel kişiliği) içinde cereyan ettiği için hiyerarşidir."
+  },
+  {
+    "id": "vat_043",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "mahalli-idareler",
+    "subtopic": "Yerel Yönetim Birimleri",
+    "q": "I. İl Özel İdaresi\nII. Belediye\nIII. Köy\nIV. Mahalle\n\nYukarıdakilerden hangileri 1982 Anayasası'nda yer alan mahalli idare birimleri arasında sayılmıştır?",
+    "o": [
+      "Yalnız II",
+      "I ve II",
+      "I, II ve III",
+      "II, III ve IV",
+      "I, II, III ve IV"
+    ],
+    "a": 2,
+    "e": "1982 Anayasası'nın 127. maddesine göre mahalli idareler; il özel idaresi, belediye ve köylerden oluşur. 'Mahalle' bir yönetim birimi olmakla birlikte, Anayasa'da sayılan, kendine ait bütçesi ve kamu tüzel kişiliği olan bir mahalli idare birimi değildir; belediye teşkilatının bir iç birimidir."
+  },
+  {
+    "id": "vat_044",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "tasra-teskilati",
+    "subtopic": "Valilik ve Yetki Genişliği",
+    "q": "İllerde merkezi idarenin en büyük temsilcisi olan Vali ile ilgili olarak;\n\nI. Hem devleti hem de Cumhurbaşkanını temsil eder.\nII. Yetki genişliği ilkesine dayanarak merkeze danışmadan karar alabilir.\nIII. Ataması İçişleri Bakanı'nın kararı ile gerçekleşir.\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
+    ],
+    "a": 2,
+    "e": "Valiler, ilde hem Devleti hem de Cumhurbaşkanını (Hükümeti) temsil ederler (I. öncül doğru). İllerin idaresi yetki genişliği esasına dayanır ve bu yetkiyi sadece Vali kullanır (II. öncül doğru). Ancak Valilerin atanması İçişleri Bakanı kararıyla değil, Cumhurbaşkanı Kararı ile gerçekleşir (III. öncül yanlış)."
+  },
+  {
+    "id": "vat_045",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "mahalli-idareler",
+    "subtopic": "Büyükşehir Belediyeleri",
+    "q": "Türkiye'de bir yerleşim yerinin Büyükşehir Belediyesi olabilmesi için gerekli olan nüfus kriteri ve kuruluş hukuki işlemi aşağıdakilerden hangisinde doğru eşleştirilmiştir?",
+    "o": [
+      "750.000 üzeri nüfus - Cumhurbaşkanı Kararı",
+      "500.000 üzeri nüfus - Kanun",
+      "750.000 üzeri nüfus - Kanun",
+      "1.000.000 üzeri nüfus - Kanun",
+      "750.000 üzeri nüfus - Cumhurbaşkanlığı Kararnamesi"
+    ],
+    "a": 2,
+    "e": "5216 sayılı Büyükşehir Belediyesi Kanunu'na göre, toplam nüfusu 750.000'den fazla olan iller, fiziki yerleşim durumları ve ekonomik gelişmişlik düzeyleri de dikkate alınarak kanunla büyükşehir belediyesine dönüştürülebilir. (Normal belediyeler Cumhurbaşkanı kararı ile kurulurken, Büyükşehirler kanunla kurulur.)"
+  },
+  {
+    "id": "vat_046",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "duzenleyici-islemler",
+    "subtopic": "Yönetmelik Çıkarma Yetkisi",
+    "q": "1982 Anayasası'na göre aşağıdakilerden hangisi kendi görev alanlarını ilgilendiren konularda yönetmelik çıkarma yetkisine sahip değildir?",
+    "o": [
+      "Sağlık Bakanlığı",
+      "Ankara Üniversitesi",
+      "Emniyet Genel Müdürlüğü",
+      "Sermaye Piyasası Kurulu",
+      "Türkiye Barolar Birliği"
+    ],
+    "a": 2,
+    "e": "Anayasa'nın 124. maddesine göre Cumhurbaşkanı, bakanlıklar ve kamu tüzel kişileri yönetmelik çıkarabilir. Emniyet Genel Müdürlüğü (EGM), İçişleri Bakanlığı'na bağlıdır ve ayrı bir kamu tüzel kişiliği yoktur; Devlet tüzel kişiliği içerisindedir. Bu nedenle kendi adına yönetmelik çıkaramaz. Diğer seçeneklerin tamamı (Üniversiteler, Meslek Kuruluşları, Düzenleyici Denetleyici Kurumlar) kamu tüzel kişiliğine haizdir."
+  },
+  {
+    "id": "vat_047",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "merkezi-idare",
+    "subtopic": "Başkent Teşkilatı",
+    "q": "Devlet Denetleme Kurulu (DDK) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "o": [
+      "Cumhurbaşkanlığına bağlı üst denetleme organıdır.",
+      "Başkan ve üyeleri Cumhurbaşkanı tarafından atanır.",
+      "Yargı organlarını denetleyemez.",
+      "Silahlı Kuvvetler, DDK'nın denetim alanı dışındadır.",
+      "İdari soruşturma, inceleme, araştırma ve denetleme yapar."
+    ],
+    "a": 3,
+    "e": "2017 Anayasa değişikliği ile birlikte Türk Silahlı Kuvvetleri (TSK), Devlet Denetleme Kurulu'nun denetim alanına dahil edilmiştir. DDK sadece yargı organlarını denetleyemez. D seçeneğindeki ifade eski düzenlemeye aittir ve şu an yanlıştır."
+  },
+  {
+    "id": "vat_048",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "mahalli-idareler",
+    "subtopic": "Köy İdaresi",
+    "q": "Köy yönetiminin organlarından biri olan 'Köy Derneği' aşağıdakilerin hangisinden oluşur?",
+    "o": [
+      "Muhtar ve İhtiyar Heyetinden",
+      "Köydeki tüm seçmenlerden",
+      "Köy İhtiyar Heyeti ve Öğretmenden",
+      "Kaymakam tarafından atanan üyelerden",
+      "Köydeki hane reislerinden"
+    ],
+    "a": 1,
+    "e": "Köy Derneği, köyde bulunan ve köy muhtarını ve ihtiyar heyetini seçme hakkına sahip olan tüm seçmenlerin (kadın-erkek) oluşturduğu kuruldur. Köyün en yüksek karar organı olmasa da seçme yetkisine sahip organdır. Doğrudan demokrasiye en yakın örnektir."
+  },
+  {
+    "id": "vat_049",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "idari-yapi",
+    "subtopic": "Kamu Hizmetleri",
+    "q": "I. Kolluk faaliyetleri\nII. Özelleştirme uygulamaları\nIII. İç düzen (nizam) faaliyetleri\n\nYukarıdakilerden hangileri, devletin 'kolluk' (zabıta) yetkisi kapsamında kamu düzenini sağlamaya yönelik unsurlar arasında yer alır?",
+    "o": [
+      "Yalnız I",
+      "Yalnız III",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
+    ],
+    "a": 3,
+    "e": "Kolluk (polis/jandarma/zabıta) faaliyetleri, kamu düzenini sağlamak, korumak ve bozulduğunda eski haline getirmek için yapılan faaliyetlerdir (I). İç düzen faaliyetleri de bu kapsamdadır (III). Ancak özelleştirme, ekonomik bir tasarruftur ve doğrudan kolluk faaliyeti veya kamu düzeni unsuru (güvenlik, esenlik, sağlık, ahlak) değildir."
+  },
+  {
+    "id": "vat_050",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "idare-hukuku-kavramlar",
+    "subtopic": "Yetki Devri ve İmza Devri",
+    "q": "Yetki devri ve imza devri ile ilgili aşağıdaki karşılaştırmalardan hangisi yanlıştır?",
+    "o": [
+      "Yetki devrinde karar alma yetkisi asta geçer, imza devrinde yetki üstte kalır.",
+      "Yetki devri için kanuni dayanak şarttır, imza devri için kanuni dayanak aranmaz.",
+      "Yetki devrinde sorumluluk devredene, imza devrinde devralana aittir.",
+      "Yetki devri makama, imza devri kişiye yapılır.",
+      "Yetki devri kısmi olmalıdır, tüm yetkiler devredilemez."
+    ],
+    "a": 2,
+    "e": "Yetki devrinde yetkiyi kullanan ast karar mercii haline gelir ve sorumluluk da asta geçer (kural olarak). Ancak C şıkkı tam tersini iddia ederek 'Yetki devrinde sorumluluk devredene aittir' demektedir, bu yanlıştır; yetki devrinde sorumluluk devralana (asta) geçer. İmza devrinde ise yetki asıl makamda kaldığı için sorumluluk da üstte (devredende) kalmaya devam eder."
+  },
+  {
+    "id": "vat_051",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "idari-teskilat-genel",
+    "subtopic": "İdare Hukuku Temel İlkeler",
+    "q": "Türkiye Cumhuriyeti idari teşkilat yapısında 'İdarenin Bütünlüğü' ilkesini sağlamak amacıyla kullanılan hukuki araçlar aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "o": [
+      "Yetki Genişliği - Hiyerarşi",
+      "İdari Vesayet - Hiyerarşi",
+      "Kanunilik - Yerinden Yönetim",
+      "Merkezden Yönetim - Yetki Genişliği",
+      "Kamu Tüzel Kişiliği - İdari Vesayet"
+    ],
+    "a": 1,
+    "e": "İdare hukukunda, idarenin bütünlüğü ilkesi anayasal bir zorunluluktur. Bu bütünlüğü sağlayan iki temel hukuki araç 'Hiyerarşi' ve 'İdari Vesayet'tir. Hiyerarşi, aynı tüzel kişilik içerisindeki ast-üst ilişkisini düzenlerken; idari vesayet, merkezi idarenin yerinden yönetim kuruluşları üzerindeki denetim yetkisini ifade eder."
+  },
+  {
+    "id": "vat_052",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "merkezi-idare",
+    "subtopic": "Merkezi İdare Taşra Teşkilatı",
+    "q": "Aşağıdakilerden hangisi merkezi idarenin taşra teşkilatında yer alan ve 'istisnai memurluk' statüsüne sahip olan en yüksek mülki amirdir?",
+    "o": [
+      "Kaymakam",
+      "Vali",
+      "Bölge Müdürü",
+      "İl Emniyet Müdürü",
+      "İlçe İdare Şube Başkanı"
+    ],
+    "a": 1,
+    "e": "Vali, ilde Cumhurbaşkanının temsilcisi ve idari yürütme vasıtasıdır. Merkezi idarenin taşra teşkilatındaki en yüksek hiyerarşik amirdir ve statüsü 'istisnai memurluk'tur. Kaymakamlar ise meslek memuru statüsündedir."
+  },
+  {
+    "id": "vat_053",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "kamu-tuzel-kisiligi",
+    "subtopic": "Kamu Tüzel Kişiliği",
+    "q": "1982 Anayasası'na göre, aşağıdakilerden hangisi yönetmelik çıkarma yetkisine sahip olmasına rağmen, Anayasa'da açıkça kamu tüzel kişisi olduğu belirtilen kuruluşlardan biri değildir?",
+    "o": [
+      "TRT",
+      "Üniversiteler",
+      "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu",
+      "Kamu Kurumu Niteliğindeki Meslek Kuruluşları",
+      "İl Özel İdaresi"
+    ],
+    "a": 2,
+    "e": "Anayasa'nın 124. maddesine göre Cumhurbaşkanı, bakanlıklar ve kamu tüzel kişileri yönetmelik çıkarabilir. TRT, Üniversiteler, İl Özel İdaresi ve Kamu Kurumu Niteliğindeki Meslek Kuruluşları (Barolar, Odalar vb.) Anayasa'da kamu tüzel kişiliği olduğu açıkça belirtilen veya anayasal dayanakla kurulan tüzel kişiliklerdir. Ancak Atatürk Kültür, Dil ve Tarih Yüksek Kurumu'nun kamu tüzel kişiliği Anayasa'da açıkça yazılı olmayıp, kanunla düzenlenmiştir (Anayasa m. 134'te kurulacağı belirtilmiş ancak tüzel kişiliği olduğu ibaresi doğrudan metinde değil, teşkilat kanununda yer alır). ÖSYM sorularında genellikle 'Anayasa'da belirtilenler' sorulduğunda; İl Özel İdaresi, Belediye, Köy, Üniversite, TRT ve Meslek Kuruluşları esas alınır."
+  },
+  {
+    "id": "vat_054",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "mahalli-idareler",
+    "subtopic": "Yerel Yönetimler",
+    "q": "I. İlçe kurulması\nII. Büyükşehir Belediyesi kurulması\nIII. Belediye kurulması\n\nYukarıdaki idari birimlerin kurulma usulleri aşağıdakilerin hangisinde sırasıyla doğru verilmiştir?",
+    "o": [
+      "Kanun - Kanun - Cumhurbaşkanı Kararı",
+      "Cumhurbaşkanı Kararnamesi - Kanun - Müşterek Kararname",
+      "Kanun - Cumhurbaşkanı Kararı - İçişleri Bakanı Onayı",
+      "Cumhurbaşkanı Kararı - Kanun - Danıştay Görüşü",
+      "Kanun - Cumhurbaşkanı Kararnamesi - Vali Kararı"
+    ],
+    "a": 0,
+    "e": "İl ve İlçe kurulması 'Kanun' ile olur. Büyükşehir Belediyesi kurulması yine 'Kanun' ile olur. Nüfusu 5.000 ve üzeri olan yerleşim yerlerinde Belediye kurulması ise 'Cumhurbaşkanı Kararı' ile gerçekleşir. Doğru sıralama Kanun - Kanun - Cumhurbaşkanı Kararı şeklindedir."
+  },
+  {
+    "id": "vat_055",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "idari-denetim",
+    "subtopic": "Hiyerarşi ve Vesayet",
+    "q": "Aşağıdaki eşleşmelerden hangisinde denetim yetkisi 'İdari Vesayet' kapsamındadır?",
+    "o": [
+      "İçişleri Bakanı - Emniyet Genel Müdürü",
+      "Vali - Kaymakam",
+      "Kaymakam - İlçe Milli Eğitim Müdürü",
+      "Rektör - Dekan",
+      "Vali - Belediye Başkanı"
+    ],
+    "a": 4,
+    "e": "İdari vesayet, merkezi idarenin (devlet tüzel kişiliği) yerel yönetimler (ayrı kamu tüzel kişiliği) üzerindeki denetim yetkisidir. Vali (Merkezi İdare) ile Belediye Başkanı (Mahalli İdare) arasındaki ilişki vesayettir. Diğer seçeneklerin tamamı aynı tüzel kişilik içerisindeki ast-üst ilişkisi olduğu için 'Hiyerarşi' kapsamındadır."
+  },
+  {
+    "id": "vat_056",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "il-ozel-idaresi",
+    "subtopic": "Mahalli İdare Organları",
+    "q": "İl Özel İdaresi'nin karar organı aşağıdakilerden hangisidir?",
+    "o": [
+      "Vali",
+      "İl Encümeni",
+      "İl Genel Meclisi",
+      "İl İdare Kurulu",
+      "Belediye Meclisi"
+    ],
+    "a": 2,
+    "e": "İl Özel İdaresi'nin üç temel organı vardır: Vali (Yürütme organı ve başı), İl Encümeni (Danışma ve ikinci karar organı), İl Genel Meclisi (Genel karar organı). İl Özel İdaresi'nin bütçesini kabul etmek gibi temel kararları alan organ İl Genel Meclisi'dir."
+  },
+  {
+    "id": "vat_057",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "kamu-gorevlileri",
+    "subtopic": "Memur Disiplin Cezaları",
+    "q": "657 sayılı Devlet Memurları Kanunu'na göre, aşağıdakilerden hangisi devlet memurlarına uygulanabilecek disiplin cezalarından biri değildir?",
+    "o": [
+      "Uyarma",
+      "Kınama",
+      "Aylıktan kesme",
+      "Görevden uzaklaştırma",
+      "Devlet memurluğundan çıkarma"
+    ],
+    "a": 3,
+    "e": "657 sayılı kanuna göre disiplin cezaları: Uyarma, Kınama, Aylıktan kesme, Kademe ilerlemesinin durdurulması ve Devlet memurluğundan çıkarmadır. 'Görevden uzaklaştırma' (açığa alma) bir disiplin cezası değil, soruşturmanın selameti açısından uygulanan bir ihtiyati tedbirdir."
+  },
+  {
+    "id": "vat_058",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "merkezi-idare",
+    "subtopic": "Başkent Teşkilatı",
+    "q": "Cumhurbaşkanlığı Hükümet Sistemi'nde, devletin en yüksek devlet memuru statüsündeki idari amir aşağıdakilerden hangisidir?",
+    "o": [
+      "Cumhurbaşkanı Yardımcısı",
+      "Cumhurbaşkanlığı İdari İşler Başkanı",
+      "İçişleri Bakanı",
+      "Diyanet İşleri Başkanı",
+      "Savunma Sanayii Başkanı"
+    ],
+    "a": 1,
+    "e": "Eski sistemde Başbakanlık Müsteşarı olan en yüksek devlet memuru unvanı, Cumhurbaşkanlığı Hükümet Sistemi ile birlikte 'Cumhurbaşkanlığı İdari İşler Başkanı'na geçmiştir."
+  },
+  {
+    "id": "vat_059",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "buyuksehir-belediyesi",
+    "subtopic": "Yerel Yönetimler",
+    "q": "I. Nüfusun en az 750.000 olması\nII. İl merkezi olması şartı\nIII. Kanunla kurulması\n\nBüyükşehir Belediyesi kurulabilmesi için yukarıdaki öncüllerden hangileri zorunludur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız III",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 2,
+    "e": "Büyükşehir Belediyesi kurulabilmesi için toplam nüfusun en az 750.000 olması ve bu işlemin Kanun ile yapılması gerekmektedir. Ancak 6360 sayılı kanun ile yapılan değişiklikle 'il merkezi olması' şartı esnetilmiş, nüfus kriterini sağlayan iller bütünşehir yasası kapsamına alınmıştır; fakat kuruluş kriteri olarak en belirleyici unsurlar nüfus (750.000) ve işlemin türü (Kanun) dur. Ayrıca fiziki yerleşim durumu da dikkate alınır ancak il merkezi olma şartı teknik olarak mülki sınır bütünlüğü ile ilişkilidir, sorularda ayırt edici kriter I ve III'tür."
+  },
+  {
+    "id": "vat_060",
+    "topicId": "lv93cmhwq7RmOFM5WxWD",
+    "subtopicId": "yetki-genisligi",
+    "subtopic": "İdare Hukuku İlkeleri",
+    "q": "'Yetki Genişliği' ilkesi ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Sadece illerde Valilere tanınmış bir yetkidir.",
+      "Merkezi idarenin sakıncalarını gidermeyi amaçlar.",
+      "Bu yetkiyi kullanan Vali, merkeze danışmadan karar alabilir.",
+      "Yetki kullanıldığında ortaya çıkan giderler il özel idaresi bütçesinden karşılanır.",
+      "Anayasal dayanağı olan bir ilkedir."
+    ],
+    "a": 3,
+    "e": "Yetki genişliği ilkesi Anayasa madde 126'da düzenlenmiştir ve sadece Valilere tanınmıştır. Vali bu yetkiyi kullanırken merkeze danışmaz, merkezin yürüttüğü bir hizmeti (örneğin milli eğitim, sağlık) merkezin adına yerine getirir. Ancak bu hizmet milli bir kamu hizmeti olduğu için giderler 'Devlet Bütçesinden' (Merkezi Bütçe) karşılanır, İl Özel İdaresi bütçesinden değil. Bu, ÖSYM'nin sıkça kullandığı bir çeldiricidir."
+  }
+]

@@ -1,0 +1,1366 @@
+[
+  {
+    "id": "bogazlar",
+    "term": "Boğazlar",
+    "definition": "Türkiye'nin Asya ve Avrupa kıtalarını birbirine bağlayan, Karadeniz ile Akdeniz'i birbirine bağlayan su yollarıdır. Stratejik öneme sahip olup uluslararası deniz trafiğinde önemli bir yere sahiptir.",
+    "examples": [
+      "İstanbul Boğazı",
+      "Çanakkale Boğazı"
+    ],
+    "relatedTerms": [
+      "Montrö Boğazlar Sözleşmesi",
+      "Transit Geçiş Rejimi"
+    ],
+    "order": 1
+  },
+  {
+    "id": "akyazilar",
+    "term": "Akyazılar",
+    "definition": "Türkiye'nin kuzey ve batı kesimlerinde görülen, genellikle kış aylarında yoğunlaşan kar yağışlarıdır. Yüksek rakımlı bölgelerde daha sık görülür ve ulaşımı olumsuz etkileyebilir.",
+    "examples": [
+      "Doğu Karadeniz'in yüksek kesimleri",
+      "Toros Dağları'nın zirveleri"
+    ],
+    "relatedTerms": [
+      "Kar örtüsü",
+      "Yüksek basınç"
+    ],
+    "order": 2
+  },
+  {
+    "id": "karadeniz_iklimi",
+    "term": "Karadeniz İklimi",
+    "definition": "Yıl boyunca bol yağışlı, yazları serin ve kışları ılık geçen bir iklim tipidir. Nem oranı yüksektir ve orman örtüsü yaygındır.",
+    "examples": [
+      "Rize",
+      "Trabzon"
+    ],
+    "relatedTerms": [
+      "Orografik yağışlar",
+      "Nemlilik"
+    ],
+    "order": 3
+  },
+  {
+    "id": "akdeniz_iklimi",
+    "term": "Akdeniz İklimi",
+    "definition": "Yazları sıcak ve kurak, kışları ılık ve yağışlı geçen bir iklim tipidir. Maki bitki örtüsü yaygındır.",
+    "examples": [
+      "Antalya",
+      "İzmir"
+    ],
+    "relatedTerms": [
+      "Maki",
+      "Kuraklık"
+    ],
+    "order": 4
+  },
+  {
+    "id": "karasal_iklim",
+    "term": "Karasal İklim",
+    "definition": "Yazları sıcak ve kurak, kışları ise soğuk ve kar yağışlı geçen bir iklim tipidir. Deniz etkisinden uzaktır ve yıllık sıcaklık farkı fazladır.",
+    "examples": [
+      "Ankara",
+      "Konya"
+    ],
+    "relatedTerms": [
+      "Step",
+      "Sıcaklık farkı"
+    ],
+    "order": 5
+  },
+  {
+    "id": "erazi_sekilleri",
+    "term": "Yeryüzü Şekilleri",
+    "definition": "Türkiye'nin dağlık, platoluk ve ovalık alanları gibi çeşitli coğrafi oluşumlarıdır. Tektonik hareketler, erozyon ve volkanizma gibi jeolojik süreçler sonucunda oluşmuşlardır.",
+    "examples": [
+      "Toros Dağları",
+      "Anadolu Platosu",
+      "Çukurova Ovası"
+    ],
+    "relatedTerms": [
+      "Tektonik hareketler",
+      "Erozyon",
+      "Volkanizma"
+    ],
+    "order": 6
+  },
+  {
+    "id": "daglar",
+    "term": "Dağlar",
+    "definition": "Yeryüzünün, çevresine göre oldukça yüksekte bulunan ve genellikle sarp yamaçlara sahip yeryüzü şekilleridir. Türkiye'nin önemli bir kısmını kaplar ve iklim üzerinde etkilidir.",
+    "examples": [
+      "Kaçkar Dağları",
+      "Erciyes Dağı",
+      "Uludağ"
+    ],
+    "relatedTerms": [
+      "Sıra dağlar",
+      "Kütle dağlar",
+      "Volkanik dağlar"
+    ],
+    "order": 7
+  },
+  {
+    "id": "platolar",
+    "term": "Platolar",
+    "definition": "Çevresine göre yüksekte kalan, düz veya hafif engebeli geniş düzlüklerdir. Genellikle tarım ve hayvancılık için elverişlidir.",
+    "examples": [
+      "Haymana Platosu",
+      "Obruk Platosu",
+      "Erzurum-Kars Platosu"
+    ],
+    "relatedTerms": [
+      "Yüksek düzlük",
+      "Tarım"
+    ],
+    "order": 8
+  },
+  {
+    "id": "ovalar",
+    "term": "Ovalar",
+    "definition": "Yeryüzünün, çevresine göre alçakta kalan ve genellikle düz veya hafif eğimli geniş alanlarıdır. Tarım için oldukça elverişlidir ve nüfus yoğunluğu fazladır.",
+    "examples": [
+      "Bafra Ovası",
+      "Çarşamba Ovası",
+      "Gediz Deltası"
+    ],
+    "relatedTerms": [
+      "Alüvyal ova",
+      "Delta ovası",
+      "Nüfus yoğunluğu"
+    ],
+    "order": 9
+  },
+  {
+    "id": "göller",
+    "term": "Göller",
+    "definition": "Kara içindeki çöküntü alanlarında birikmiş su kütleleridir. Oluşumlarına göre tektonik, volkanik, buzul ve karstik göller olarak sınıflandırılırlar.",
+    "examples": [
+      "Van Gölü",
+      "Beyşehir Gölü",
+      "Eğirdir Gölü"
+    ],
+    "relatedTerms": [
+      "Tektonik göl",
+      "Volkanik göl",
+      "Karstik göl"
+    ],
+    "order": 10
+  },
+  {
+    "id": "nehirler",
+    "term": "Nehirler",
+    "definition": "Belirli bir yatak boyunca sürekli veya mevsimlik olarak akan büyük su akıntılardır. Türkiye'nin su kaynakları açısından zengin olmasını sağlarlar ve enerji üretimi için kullanılırlar.",
+    "examples": [
+      "Fırat Nehri",
+      "Dicle Nehri",
+      "Kızılırmak Nehri"
+    ],
+    "relatedTerms": [
+      "Akarsu",
+      "Havza",
+      "Enerji üretimi"
+    ],
+    "order": 11
+  },
+  {
+    "id": "denizler",
+    "term": "Denizler",
+    "definition": "Türkiye'yi üç tarafı saran büyük tuzlu su kütleleridir. İklim üzerinde etkilidirler, ulaşım ve turizm açısından önemlidirler.",
+    "examples": [
+      "Karadeniz",
+      "Ege Denizi",
+      "Akdeniz"
+    ],
+    "relatedTerms": [
+      "Kıyı şeridi",
+      "Ulaşım",
+      "Turizm"
+    ],
+    "order": 12
+  },
+  {
+    "id": "yer_sekilleri_etkisi",
+    "term": "Yeryüzü Şekillerinin İklim Üzerindeki Etkisi",
+    "definition": "Dağların uzanış doğrultusu, yükseltisi ve denize göre konumu, kıyı bölgeleri ile iç kesimler arasındaki iklim farklılıklarını belirler. Dağlar, nemli havanın iç kesimlere ulaşmasını engelleyebilir.",
+    "examples": [
+      "Toros Dağları'nın Akdeniz kıyısındaki yağışları engellemesi",
+      "Karadeniz Dağları'nın kıyıdaki nemliliği artırması"
+    ],
+    "relatedTerms": [
+      "Orografik yağış",
+      "Denizellik",
+      "Karadallık"
+    ],
+    "order": 13
+  },
+  {
+    "id": "toprak_tipleri",
+    "term": "Toprak Tipleri",
+    "definition": "Türkiye'nin çeşitli iklim ve yer şekilleri nedeniyle farklı özelliklere sahip toprakları bulunur. Tarımsal verimlilik açısından önemlidirler.",
+    "examples": [
+      "Terra Rossa",
+      "Laterit",
+      "Kestane Renkli Topraklar"
+    ],
+    "relatedTerms": [
+      "Horizon",
+      "Toprak oluşumu",
+      "Tarımsal verimlilik"
+    ],
+    "order": 14
+  },
+  {
+    "id": "jeolojik_yapı",
+    "term": "Jeolojik Yapı",
+    "definition": "Türkiye'nin Alp-Himalaya kuşağında yer alması nedeniyle genç ve dinamik bir jeolojik yapıya sahip olmasıdır. Bu durum deprem riskini artırır.",
+    "examples": [
+      "Kuzey Anadolu Fay Hattı",
+      "Doğu Anadolu Fay Hattı"
+    ],
+    "relatedTerms": [
+      "Deprem",
+      "Fay hattı",
+      "Tektonik"
+    ],
+    "order": 15
+  },
+  {
+    "id": "bitki_ortusu",
+    "term": "Bitki Örtüsü",
+    "definition": "Türkiye'nin iklim ve yer şekillerine bağlı olarak ormanlar, bozkırlar (step) ve makiler gibi çeşitli bitki örtüsü tiplerine sahip olmasıdır.",
+    "examples": [
+      "Karadeniz'deki geniş yapraklı ormanlar",
+      "İç Anadolu'daki bozkırlar",
+      "Akdeniz kıyılarındaki makiler"
+    ],
+    "relatedTerms": [
+      "Orman",
+      "Bozkır",
+      "Maki"
+    ],
+    "order": 16
+  },
+  {
+    "id": "yer_sekilleri_yerlesme",
+    "term": "Yeryüzü Şekillerinin Yerleşme Üzerindeki Etkisi",
+    "definition": "İnsanların yerleşim yerlerini seçerken yükselti, eğim, su kaynaklarına yakınlık ve tarım alanlarının varlığı gibi yeryüzü şekillerini dikkate almasıdır.",
+    "examples": [
+      "Ovalarda yoğun nüfus",
+      "Dağlık alanlarda seyrek nüfus"
+    ],
+    "relatedTerms": [
+      "Nüfus dağılışı",
+      "Yerleşme tipi",
+      "Tarım alanları"
+    ],
+    "order": 17
+  },
+  {
+    "id": "su_kaynaklari",
+    "term": "Su Kaynakları",
+    "definition": "Türkiye'nin nehirler, göller, yeraltı suları ve kaynak suları gibi çeşitli su kaynaklarına sahip olmasıdır. Tarım, enerji ve sanayi için hayati öneme sahiptir.",
+    "examples": [
+      "Barajlar",
+      "Yeraltı suyu rezervleri",
+      "Doğal kaynaklar"
+    ],
+    "relatedTerms": [
+      "Hidrografya",
+      "Su yönetimi",
+      "Enerji"
+    ],
+    "order": 18
+  },
+  {
+    "id": "iklim_degisikligi",
+    "term": "İklim Değişikliği Etkileri",
+    "definition": "Küresel iklim değişikliğinin Türkiye'deki etkileri arasında kuraklık artışı, aşırı hava olayları ve su kaynaklarında azalma gibi durumlar yer alır.",
+    "examples": [
+      "Kuraklık şiddetinin artması",
+      "Sellerin sıklığının artması",
+      "Tarım ürünlerinde verim düşüşü"
+    ],
+    "relatedTerms": [
+      "Küresel ısınma",
+      "Kuraklık",
+      "Aşırı hava olayları"
+    ],
+    "order": 19
+  },
+  {
+    "id": "kıyı_sekilleri",
+    "term": "Kıyı Şekilleri",
+    "definition": "Denizlerin etkisiyle oluşan girinti ve çıkıntılar, koylar, körfezler ve plajlar gibi kıyı bölgelerindeki yeryüzü oluşumlarıdır.",
+    "examples": [
+      "Falezler",
+      "Koylar",
+      "Plajlar"
+    ],
+    "relatedTerms": [
+      "Aşınım",
+      "Birikim",
+      "Deniz ulaşımı"
+    ],
+    "order": 20
+  },
+  {
+    "id": "turkiyenin_tektonik_yapisi",
+    "term": "Türkiye'nin Tektonik Yapısı",
+    "definition": "Türkiye'nin, Avrasya, Afrika ve Arabistan levhalarının etkileşim alanında bulunması nedeniyle jeolojik olarak aktif bir bölge olmasıdır. Bu durum, deprem, volkanizma ve orojenez gibi jeolojik olayların sıkça görülmesine neden olur.",
+    "examples": [
+      "Kuzey Anadolu Fay Hattı",
+      "Doğu Anadolu Fay Hattı",
+      "Batı Anadolu Fay Zonu"
+    ],
+    "relatedTerms": [
+      "Depremsellik",
+      "Levha Tektoniği",
+      "Orojenez"
+    ],
+    "order": 21
+  },
+  {
+    "id": "turkiyenin_yer_sekillerinin_olussumu",
+    "term": "Türkiye'nin Yeryüzü Şekillerinin Oluşumu",
+    "definition": "Türkiye'nin dağlık, engebeli ve çeşitli yeryüzü şekillerine sahip olmasında iç kuvvetlerin (tektonizma, volkanizma) ve dış kuvvetlerin (akarsu aşındırması, buzul aşındırması, rüzgar aşındırması, kimyasal ve fiziksel çözülme) etkili olmasıdır. Bu süreçler sonucunda dağlar, platolar, ovalar ve vadiler gibi çeşitli yer şekilleri meydana gelir.",
+    "examples": [
+      "Toros Dağları'nın oluşumu",
+      "Anadolu Platosu'nun şekillenmesi",
+      "Fırat Nehri'nin vadisi"
+    ],
+    "relatedTerms": [
+      "İç Kuvvetler",
+      "Dış Kuvvetler",
+      "Aşınım Şekilleri",
+      "Birikim Şekilleri"
+    ],
+    "order": 22
+  },
+  {
+    "id": "turkiyenin_iklim_tipleri_dagilimi",
+    "term": "Türkiye'nin İklim Tipleri Dağılımı",
+    "definition": "Türkiye'nin coğrafi konumunun ve yeryüzü şekillerinin çeşitliliğine bağlı olarak farklı iklim tiplerinin görülmesidir. Başlıca iklim tipleri Karadeniz, Akdeniz ve Karasal iklimdir, ancak geçiş bölgelerinde farklı özellikler de gösterir.",
+    "examples": [
+      "Karadeniz kıyılarında görülen bol yağışlı iklim",
+      "İç Anadolu'da görülen yazları kurak, kışları sert karasal iklim",
+      "Ege kıyılarında görülen yazları sıcak ve kurak, kışları ılıman ve yağışlı iklim"
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Yükselti",
+      "Denizellik",
+      "Karasallık"
+    ],
+    "order": 23
+  },
+  {
+    "id": "turkiyenin_akarsu_sistemleri",
+    "term": "Türkiye'nin Akarsu Sistemleri",
+    "definition": "Türkiye'deki akarsuların kaynakları, rejimleri, akış yönleri ve döküldükleri yerleri kapsayan genel yapıdır. Akarsular, yurdumuzda hem aşındırma hem de biriktirme faaliyetlerinde bulunarak yer şekillerinin oluşumunda rol oynar.",
+    "examples": [
+      "Fırat ve Dicle nehirleri",
+      "Yeşilırmak ve Kızılırmak nehirleri",
+      "Menderes Nehri"
+    ],
+    "relatedTerms": [
+      "Rejim",
+      "Havza",
+      "Delta",
+      "Akarsu Arazisi"
+    ],
+    "order": 24
+  },
+  {
+    "id": "turkiyenin_gollu_yapisi",
+    "term": "Türkiye'nin Göllü Yapısı",
+    "definition": "Türkiye'de tektonik, volkanik, buzul ve karstik kökenli göllerin bulunmasıdır. Göller, tatlı su kaynakları açısından önemlidir ve turizm potansiyeli taşır.",
+    "examples": [
+      "Van Gölü (tektonik)",
+      "Eğirdir Gölü (tektonik)",
+      "Abant Gölü (heyelan set)",
+      "Tortum Gölü (heyelan set)"
+    ],
+    "relatedTerms": [
+      "Göl Oluşumu",
+      "Tektonik Göller",
+      "Volkanik Göller",
+      "Buzul Gölleri"
+    ],
+    "order": 25
+  },
+  {
+    "id": "turkiyenin_toprak_olussumu",
+    "term": "Türkiye'nin Toprak Oluşumu",
+    "definition": "Türkiye'deki toprakların oluşumunda ana kaya, iklim, topoğrafya, canlı faktörler ve zaman gibi etkenlerin rol oynamasıdır. Farklı iklim ve yer şekilleri nedeniyle zonal, intrazonal ve azonal topraklar görülür.",
+    "examples": [
+      "Terra Rossa (kırmızı Akdeniz toprakları)",
+      "Laterit topraklar",
+      "Çernezyom (kara topraklar)"
+    ],
+    "relatedTerms": [
+      "Zonal Topraklar",
+      "İntrazonal Topraklar",
+      "Azonal Topraklar",
+      "Toprak Horizonları"
+    ],
+    "order": 26
+  },
+  {
+    "id": "turkiyenin_bitki_ortusu_tipleri",
+    "term": "Türkiye'nin Bitki Örtüsü Tipleri",
+    "definition": "Türkiye'nin iklim ve yer şekilleri çeşitliliğine bağlı olarak ormanlar, bozkırlar (step) ve makiler gibi farklı bitki örtüsü tiplerinin görülmesidir. Bu örtü, doğal çevre ve tarım için büyük önem taşır.",
+    "examples": [
+      "Karadeniz'deki geniş yapraklı ormanlar",
+      "İç Anadolu'daki bozkırlar",
+      "Akdeniz kıyılarındaki makiler"
+    ],
+    "relatedTerms": [
+      "Ormanlar",
+      "Bozkır",
+      "Maki",
+      "Garbik"
+    ],
+    "order": 27
+  },
+  {
+    "id": "turkiyenin_jeomorfolojik_bolgeleri",
+    "term": "Türkiye'nin Jeomorfolojik Bölgeleri",
+    "definition": "Türkiye'nin yeryüzü şekillerinin genel özelliklerine göre ayrıldığı bölgelerdir. Bu bölgeler, dağlık alanlar, platolar, ovalar ve peneplenler gibi belirgin morfolojik özelliklere sahiptir.",
+    "examples": [
+      "Karadeniz Dağlık Bölgesi",
+      "İç Anadolu Platosu",
+      "Akdeniz Dağlık Bölgesi"
+    ],
+    "relatedTerms": [
+      "Jeomorfoloji",
+      "Topografya",
+      "Morfolojik Özellikler"
+    ],
+    "order": 28
+  },
+  {
+    "id": "turkiyenin_dogal_afetleri",
+    "term": "Türkiye'nin Doğal Afetleri",
+    "definition": "Türkiye'nin jeolojik yapısı ve iklim koşulları nedeniyle sıkça karşılaştığı doğal afetlerdir. Depremler, seller, heyelanlar, erozyon ve kuraklık gibi afetler yurdumuzda önemli can ve mal kayıplarına neden olabilir.",
+    "examples": [
+      "1999 Gölcük Depremi",
+      "2011 Van Depremi",
+      "Karadeniz'deki sel felaketleri"
+    ],
+    "relatedTerms": [
+      "Deprem",
+      "Sel",
+      "Heyelan",
+      "Erozyon",
+      "Kuraklık"
+    ],
+    "order": 29
+  },
+  {
+    "id": "turkiyenin_su_kaynaklarinin_dagilimi",
+    "term": "Türkiye'nin Su Kaynaklarının Dağılımı",
+    "definition": "Türkiye'deki akarsu, göl ve yeraltı sularının coğrafi dağılımı ve miktarıdır. Su kaynakları, tarım, sanayi ve enerji üretimi için hayati öneme sahiptir ve bölgeler arasında önemli farklılıklar gösterir.",
+    "examples": [
+      "GAP Projesi'nin su kaynakları kullanımı",
+      "İçme suyu kaynakları",
+      "Sulama kanalları"
+    ],
+    "relatedTerms": [
+      "Su Potansiyeli",
+      "Yeraltı Suları",
+      "Yüzey Suları",
+      "Su Yönetimi"
+    ],
+    "order": 30
+  },
+  {
+    "id": "turkiyenin_koyleri_ve_limanlari",
+    "term": "Türkiye'nin Koyları ve Limanları",
+    "definition": "Türkiye'nin üç tarafının denizlerle çevrili olması nedeniyle sahip olduğu çok sayıda doğal ve yapay koy ve limanlardır. Bu koy ve limanlar, deniz ticareti, balıkçılık ve turizm açısından büyük önem taşır.",
+    "examples": [
+      "İstanbul Limanı",
+      "İzmir Limanı",
+      "Antalya Limanı"
+    ],
+    "relatedTerms": [
+      "Körfez",
+      "Liman",
+      "Deniz Ticareti",
+      "Kıyı Alanları"
+    ],
+    "order": 31
+  },
+  {
+    "id": "turkiyenin_yer_sekillerinin_tarim_uzerindeki_etkisi",
+    "term": "Türkiye'nin Yeryüzü Şekillerinin Tarım Üzerindeki Etkisi",
+    "definition": "Türkiye'nin engebeli arazisi, dağlık alanları ve platoları, tarımsal faaliyetlerin yapısını ve dağılımını doğrudan etkiler. Düz ve verimli ovalar tarım için elverişliyken, eğimli arazilerde tarım zorlaşır veya teraslama gibi yöntemler gerektirir.",
+    "examples": [
+      "Konya Ovası'nda tahıl tarımı",
+      "Doğu Karadeniz'de çay tarımı",
+      "Akdeniz kıyılarında seracılık"
+    ],
+    "relatedTerms": [
+      "Tarımsal Üretim",
+      "Arazi Kullanımı",
+      "Ovalar",
+      "Dağlık Alanlar"
+    ],
+    "order": 32
+  },
+  {
+    "id": "turkiyenin_iklim_tiplerinin_yerlesme_uzerindeki_etkisi",
+    "term": "Türkiye'nin İklim Tiplerinin Yerleşme Üzerindeki Etkisi",
+    "definition": "Türkiye'nin farklı iklim bölgeleri, yerleşme tiplerini, nüfus yoğunluğunu ve konut mimarisini şekillendirir. Ilıman iklim bölgelerinde nüfus daha yoğun iken, sert iklim bölgelerinde yerleşme daha seyrektir.",
+    "examples": [
+      "Karadeniz kıyılarında dağınık yerleşme",
+      "İç Anadolu'da toplu yerleşme",
+      "Akdeniz'de kıyı yerleşmeleri"
+    ],
+    "relatedTerms": [
+      "Nüfus Dağılışı",
+      "Yerleşme Tipleri",
+      "Konut Tipleri",
+      "İklimsel Faktörler"
+    ],
+    "order": 33
+  },
+  {
+    "id": "turkiyenin_jeolojik_zamani",
+    "term": "Türkiye'nin Jeolojik Zamanı",
+    "definition": "Türkiye'nin oluşumunda rol oynayan jeolojik zaman dilimleridir. Özellikle 3. ve 4. zamanlarda meydana gelen tektonik hareketler, Türkiye'nin bugünkü coğrafi şekillerini büyük ölçüde belirlemiştir.",
+    "examples": [
+      "Neojen dönemindeki volkanizmalar",
+      "Kuvaterner dönemindeki buzul çağları"
+    ],
+    "relatedTerms": [
+      "Jeolojik Zamanlar",
+      "Tektonizma",
+      "Volkanizma",
+      "Buzul Çağları"
+    ],
+    "order": 34
+  },
+  {
+    "id": "turkiyenin_karsi_karsiya_oldugu_cevresel_sorunlar",
+    "term": "Türkiye'nin Karşı Karşıya Olduğu Çevresel Sorunlar",
+    "definition": "Sanayileşme, kentleşme, nüfus artışı ve doğal kaynakların aşırı kullanımı gibi nedenlerle Türkiye'nin karşı karşıya kaldığı çevresel sorunlardır. Hava kirliliği, su kirliliği, toprak erozyonu, ormansızlaşma ve biyoçeşitlilik kaybı başlıca sorunlardır.",
+    "examples": [
+      "Sanayi bölgelerindeki hava kirliliği",
+      "Endüstriyel atıkların sulara karışması",
+      "Tarım alanlarındaki erozyon"
+    ],
+    "relatedTerms": [
+      "Kirlilik",
+      "Erozyon",
+      "Ormansızlaşma",
+      "Biyoçeşitlilik Kaybı"
+    ],
+    "order": 35
+  },
+  {
+    "id": "turkiyenin_yer_sekillerinin_enerji_kaynaklari_uzerindeki_etkisi",
+    "term": "Türkiye'nin Yeryüzü Şekillerinin Enerji Kaynakları Üzerindeki Etkisi",
+    "definition": "Türkiye'nin dağlık ve engebeli arazisinin, hidroelektrik enerji potansiyelini artırması, ancak diğer enerji kaynaklarının (kömür, petrol, doğalgaz) çıkarılmasını ve taşınmasını zorlaştırmasıdır. Yer şekilleri, yenilenebilir enerji kaynaklarının kullanımını da etkiler.",
+    "examples": [
+      "Barajların kurulması için uygun vadiler",
+      "Dağlık alanlarda rüzgar enerjisi potansiyeli"
+    ],
+    "relatedTerms": [
+      "Hidroelektrik Enerji",
+      "Yenilenebilir Enerji",
+      "Doğal Kaynaklar",
+      "Enerji Potansiyeli"
+    ],
+    "order": 36
+  },
+  {
+    "id": "turkiyenin_iklim_tiplerinin_tarimsal_uretim_uzerindeki_etkisi",
+    "term": "Türkiye'nin İklim Tiplerinin Tarımsal Üretim Üzerindeki Etkisi",
+    "definition": "Türkiye'de görülen farklı iklim tipleri, hangi tarım ürünlerinin yetişebileceğini ve verimliliğini doğrudan belirler. Karadeniz iklimi çay ve fındık gibi ürünlere, Akdeniz iklimi turunçgiller ve pamuğa, karasal iklim ise tahıllara elverişlidir.",
+    "examples": [
+      "Akdeniz'de turunçgil üretimi",
+      "İç Anadolu'da buğday ve arpa üretimi",
+      "Karadeniz'de fındık üretimi"
+    ],
+    "relatedTerms": [
+      "Tarımsal Ürünler",
+      "İklimsel Faktörler",
+      "Verimlilik",
+      "Ürün Deseni"
+    ],
+    "order": 37
+  },
+  {
+    "id": "turkiyenin_yer_sekillerinin_ulasim_uzerindeki_etkisi",
+    "term": "Türkiye'nin Yeryüzü Şekillerinin Ulaşım Üzerindeki Etkisi",
+    "definition": "Türkiye'nin dağlık ve engebeli arazisi, ulaşım ağlarının (karayolları, demiryolları) planlanmasını ve inşasını zorlaştırır. Geçitler, tüneller ve köprüler gibi mühendislik yapıları, ulaşımın sağlanmasında kritik rol oynar.",
+    "examples": [
+      "Zigana Tüneli",
+      "Ovit Tüneli",
+      "Bolu Tüneli"
+    ],
+    "relatedTerms": [
+      "Ulaşım Ağları",
+      "Geçitler",
+      "Tüneller",
+      "Mühendislik Yapıları"
+    ],
+    "order": 38
+  },
+  {
+    "id": "turkiyenin_su_havzalari",
+    "term": "Türkiye'nin Su Havzaları",
+    "definition": "Türkiye'deki akarsuların sularını topladığı ve denize, göle veya başka bir akarsuya boşalttığı alanlardır. Başlıca su havzaları Fırat-Dicle, Yeşilırmak, Kızılırmak, Sakarya ve Meriç havzalarıdır.",
+    "examples": [
+      "Fırat-Dicle Havzası",
+      "Yeşilırmak Havzası",
+      "Kızılırmak Havzası"
+    ],
+    "relatedTerms": [
+      "Akarsu Havzası",
+      "Su Toplama Alanı",
+      "Drenaj Sistemi"
+    ],
+    "order": 39
+  },
+  {
+    "id": "turkiyenin_yer_sekillerinin_turizm_uzerindeki_etkisi",
+    "term": "Türkiye'nin Yeryüzü Şekillerinin Turizm Üzerindeki Etkisi",
+    "definition": "Türkiye'nin çeşitli ve etkileyici yeryüzü şekilleri, turizm potansiyelini önemli ölçüde artırır. Dağlar kış turizmi, platolar ve ovalar doğa turizmi, kıyılar deniz turizmi, mağaralar ve şelaleler ise özel ilgi turizmi için fırsatlar sunar.",
+    "examples": [
+      "Kapalı havza göllerinin turistik değeri",
+      "Peri Bacaları'nın turistik çekiciliği",
+      "Pamukkale travertenleri"
+    ],
+    "relatedTerms": [
+      "Doğa Turizmi",
+      "Kış Turizmi",
+      "Deniz Turizmi",
+      "Kültür Turizmi"
+    ],
+    "order": 40
+  },
+  {
+    "id": "turkiyenin_golleri",
+    "term": "Türkiye'nin Gölleri",
+    "definition": "Türkiye'nin çeşitli jeolojik ve jeomorfolojik süreçler sonucunda oluşmuş doğal ve yapay gölleridir. Göller, su kaynakları, turizm ve ekosistemler açısından önemlidir.",
+    "examples": [
+      "Van Gölü",
+      "Burdur Gölü",
+      "Manyas Gölü"
+    ],
+    "relatedTerms": [
+      "Su Kaynakları",
+      "Tektonik Göller",
+      "Volkanik Göller"
+    ],
+    "order": 41
+  },
+  {
+    "id": "turkiyenin_toprak_tipleri",
+    "term": "Türkiye'nin Toprak Tipleri",
+    "definition": "Türkiye'nin iklim, bitki örtüsü ve ana kaya özelliklerine göre çeşitlilik gösteren topraklarıdır. Bu topraklar tarımsal verimlilik açısından farklılıklar gösterir.",
+    "examples": [
+      "Terra Rossa",
+      "Kestane Renkli Topraklar",
+      "Alüvyal Topraklar"
+    ],
+    "relatedTerms": [
+      "Toprak Oluşumu",
+      "İklim",
+      "Bitki Örtüsü"
+    ],
+    "order": 42
+  },
+  {
+    "id": "turkiyenin_bitki_ortusu",
+    "term": "Türkiye'nin Bitki Örtüsü",
+    "definition": "Türkiye'nin iklim ve yer şekilleri çeşitliliğine bağlı olarak ormanlar, otlaklar ve bozkırlar gibi farklı bitki örtüsü tiplerine sahip olmasıdır. Ormanlar, özellikle Karadeniz ve Akdeniz bölgelerinde yaygındır.",
+    "examples": [
+      "Kızılçam Ormanları",
+      "Kızılçam Ormanları",
+      "Bozkır"
+    ],
+    "relatedTerms": [
+      "İklim",
+      "Yeryüzü Şekilleri",
+      "Biyoçeşitlilik"
+    ],
+    "order": 43
+  },
+  {
+    "id": "turkiyenin_yerlesme_yerleri_ve_dagilisi",
+    "term": "Türkiye'nin Yerleşme Yerleri ve Dağılışı",
+    "definition": "Türkiye'de yerleşmelerin iklim, yeryüzü şekilleri, su kaynakları ve ekonomik faaliyetlere bağlı olarak dağılımıdır. Yerleşmeler genellikle su kenarlarında ve düzlük alanlarda yoğunlaşır.",
+    "examples": [
+      "Ovalarda yoğunlaşan yerleşmeler",
+      "Dağlık alanlarda seyrek yerleşmeler",
+      "Kıyı şeridindeki yerleşmeler"
+    ],
+    "relatedTerms": [
+      "Yeryüzü Şekilleri",
+      "İklim",
+      "Su Kaynakları"
+    ],
+    "order": 44
+  },
+  {
+    "id": "turkiyenin_tarimsal_yapisi",
+    "term": "Türkiye'nin Tarımsal Yapısı",
+    "definition": "Türkiye'nin iklim, toprak ve yeryüzü şekillerinin tarımsal ürün çeşitliliğini ve üretimini etkilemesidir. Farklı bölgelerde farklı tarım ürünleri ön plana çıkar.",
+    "examples": [
+      "Akdeniz'de turunçgiller",
+      "İç Anadolu'da tahıl",
+      "Karadeniz'de fındık"
+    ],
+    "relatedTerms": [
+      "İklim",
+      "Toprak Tipleri",
+      "Yeryüzü Şekilleri"
+    ],
+    "order": 45
+  },
+  {
+    "id": "turkiyenin_enerji_kaynaklari",
+    "term": "Türkiye'nin Enerji Kaynakları",
+    "definition": "Türkiye'nin sahip olduğu fosil yakıtlar, hidrolik, rüzgar ve güneş gibi yenilenebilir enerji kaynaklarıdır. Bu kaynakların dağılımı coğrafi faktörlere bağlıdır.",
+    "examples": [
+      "Doğal gaz",
+      "Hidroelektrik Santraller",
+      "Rüzgar Enerji Santralleri"
+    ],
+    "relatedTerms": [
+      "Jeolojik Yapı",
+      "Yeryüzü Şekilleri",
+      "İklim"
+    ],
+    "order": 46
+  },
+  {
+    "id": "turkiyenin_ulasim_agları",
+    "term": "Türkiye'nin Ulaşım Ağları",
+    "definition": "Türkiye'nin kara, demir, hava ve deniz yollarından oluşan ulaşım sistemleridir. Yeryüzü şekilleri ve coğrafi konum, ulaşım ağlarının gelişimini etkiler.",
+    "examples": [
+      "Ankara-İstanbul Otoyolu",
+      "Demiryolu hatları",
+      "Boğaz Köprüleri"
+    ],
+    "relatedTerms": [
+      "Yeryüzü Şekilleri",
+      "Boğazlar",
+      "Ulaşım"
+    ],
+    "order": 47
+  },
+  {
+    "id": "turkiyenin_turizm_potansiyeli",
+    "term": "Türkiye'nin Turizm Potansiyeli",
+    "definition": "Türkiye'nin sahip olduğu doğal güzellikler, tarihi ve kültürel zenginlikler ile turizm açısından sunduğu olanaklardır. Yeryüzü şekilleri ve iklim bu potansiyeli şekillendirir.",
+    "examples": [
+      "Antalya'nın plajları",
+      "Kapadokya'nın peri bacaları",
+      "Pamukkale travertenleri"
+    ],
+    "relatedTerms": [
+      "Yeryüzü Şekilleri",
+      "İklim",
+      "Kültürel Miras"
+    ],
+    "order": 48
+  },
+  {
+    "id": "turkiyenin_cevresel_sorunlari",
+    "term": "Türkiye'nin Çevresel Sorunları",
+    "definition": "Türkiye'nin sanayileşme, kentleşme ve tarımsal faaliyetler sonucu karşılaştığı hava, su ve toprak kirliliği gibi sorunlardır. Bu sorunlar doğal dengeyi tehdit eder.",
+    "examples": [
+      "Hava kirliliği",
+      "Su kirliliği",
+      "Atık yönetimi"
+    ],
+    "relatedTerms": [
+      "Kirlilik",
+      "Sanayileşme",
+      "Kentleşme"
+    ],
+    "order": 49
+  },
+  {
+    "id": "turkiyenin_iklim_degisikligi_etkileri",
+    "term": "Türkiye'nin İklim Değişikliği Etkileri",
+    "definition": "Küresel iklim değişikliğinin Türkiye üzerindeki etkileridir. Bu etkiler arasında kuraklık artışı, deniz seviyesi yükselmesi ve aşırı hava olayları yer alır.",
+    "examples": [
+      "Kuraklık",
+      "Sıcaklık artışı",
+      "Deniz seviyesi yükselmesi"
+    ],
+    "relatedTerms": [
+      "İklim",
+      "Küresel Isınma",
+      "Kuraklık"
+    ],
+    "order": 50
+  },
+  {
+    "id": "turkiyenin_yeryuzu_sekillerinin_iklim_uzerindeki_etkisi",
+    "term": "Türkiye'nin Yeryüzü Şekillerinin İklim Üzerindeki Etkisi",
+    "definition": "Dağların uzanış doğrultusu, yükseltisi ve engelleme etkisi gibi yeryüzü şekillerinin, bölgelerdeki iklim tiplerini ve yağış dağılımını belirlemesidir. Örneğin, Toros Dağları Akdeniz ikliminin iç kesimlere sokulmasını engeller.",
+    "examples": [
+      "Torosların Akdeniz iklimini engellemesi",
+      "Kuzey Anadolu Dağlarının Karadeniz iklimini sınırlaması",
+      "Yükseltinin sıcaklık üzerindeki etkisi"
+    ],
+    "relatedTerms": [
+      "İklim",
+      "Yeryüzü Şekilleri",
+      "Denizellik-Karadellik"
+    ],
+    "order": 51
+  },
+  {
+    "id": "turkiyenin_yeryuzu_sekillerinin_yerlesme_uzerindeki_etkisi",
+    "term": "Türkiye'nin Yeryüzü Şekillerinin Yerleşme Üzerindeki Etkisi",
+    "definition": "Yerleşmelerin genellikle düz, verimli ve su kaynaklarına yakın alanlarda yoğunlaşması, engebeli ve sarp arazilerde ise seyrek olmasıdır. Dağlık bölgelerde yerleşmeler vadilerde veya eteklerde kurulur.",
+    "examples": [
+      "Ovalarda yoğun yerleşme",
+      "Dağlık bölgelerde seyrek yerleşme",
+      "Vadilerdeki yerleşimler"
+    ],
+    "relatedTerms": [
+      "Yerleşme",
+      "Yeryüzü Şekilleri",
+      "Ovalar",
+      "Dağlar"
+    ],
+    "order": 52
+  },
+  {
+    "id": "turkiyenin_jeomorfolojik_birimleri",
+    "term": "Türkiye'nin Jeomorfolojik Birimleri",
+    "definition": "Türkiye arazisinin ana yeryüzü şekli gruplarını ifade eder. Bu birimler dağlar, platolar, ovalar ve vadiler gibi temel unsurları içerir. Bu sınıflandırma, ülkenin coğrafi özelliklerini anlamak için kullanılır.",
+    "examples": [
+      "Toros Dağları",
+      "Anadolu Platosu",
+      "Çukurova Ovası"
+    ],
+    "relatedTerms": [
+      "Yeryüzü Şekilleri",
+      "Dağlar",
+      "Platolar",
+      "Ovalar"
+    ],
+    "order": 53
+  },
+  {
+    "id": "turkiyenin_tektonik_olaylari",
+    "term": "Türkiye'nin Tektonik Olayları",
+    "definition": "Türkiye'nin bulunduğu levha sınırları nedeniyle yaşadığı jeolojik hareketlerdir. Depremler, volkanizma ve orojenez (dağ oluşumu) gibi olaylar bu kapsamdadır. Bu olaylar, ülkenin jeolojik yapısını ve yeryüzü şekillerini doğrudan etkiler.",
+    "examples": [
+      "Kuzey Anadolu Fay Hattı",
+      "Doğu Anadolu Fay Hattı",
+      "Ege Bölgesi'ndeki grabenler"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin Tektonik Yapısı",
+      "Jeolojik Yapı",
+      "Depremler",
+      "Orojenez"
+    ],
+    "order": 54
+  },
+  {
+    "id": "turkiyenin_iklim_tiplerinin_etki_alanlari",
+    "term": "Türkiye İklim Tiplerinin Etki Alanları",
+    "definition": "Türkiye'nin üç ana iklim tipinin (Karadeniz, Akdeniz, Karasal) coğrafi bölgelerdeki yayılışını ve etkilerini inceler. Her iklim tipinin belirgin sıcaklık, yağış ve mevsim özellikleri vardır. Bu alanların bilinmesi, tarım ve yerleşme gibi faktörleri anlamak için önemlidir.",
+    "examples": [
+      "Karadeniz kıyılarında bol yağışlı iklim",
+      "İç Anadolu'da karasal iklim",
+      "Akdeniz kıyılarında yazları sıcak ve kurak iklim"
+    ],
+    "relatedTerms": [
+      "Karadeniz İklimi",
+      "Akdeniz İklimi",
+      "Karasal İklim",
+      "Türkiye'nin İklim Tipleri Dağılımı"
+    ],
+    "order": 55
+  },
+  {
+    "id": "turkiyenin_akarsularinin_havzalari",
+    "term": "Türkiye Akarsularının Havzaları",
+    "definition": "Türkiye'deki akarsuların sularını topladığı alanları ifade eder. Her akarsu, belirli bir havza içinde toplanan suları denize veya göle boşaltır. Havzaların büyüklüğü ve şekli, akarsuların debisini ve rejimi etkiler.",
+    "examples": [
+      "Fırat-Dicle Havzası",
+      "Yeşilırmak Havzası",
+      "Menderes Havzası"
+    ],
+    "relatedTerms": [
+      "Nehirler",
+      "Su Kaynakları",
+      "Türkiye'nin Akarsu Sistemleri",
+      "Türkiye'nin Su Havzaları"
+    ],
+    "order": 56
+  },
+  {
+    "id": "turkiyenin_gollu_yapisi_ve_olusu",
+    "term": "Türkiye Göllerinin Yapısı ve Oluşu",
+    "definition": "Türkiye'deki göllerin oluşum nedenlerini ve tiplerini kapsar. Tektonik, volkanik, buzul ve karstik göller gibi farklı oluşum mekanizmaları bulunur. Göllerin dağılımı ve özellikleri, çevresel faktörlerle yakından ilişkilidir.",
+    "examples": [
+      "Van Gölü (tektonik)",
+      "Eğirdir Gölü (tektonik-karstik)",
+      "Nemrut Gölü (volkanik)"
+    ],
+    "relatedTerms": [
+      "Göller",
+      "Türkiye'nin Göllü Yapısı",
+      "Türkiye'nin Gölleri",
+      "Tektonik Göller"
+    ],
+    "order": 57
+  },
+  {
+    "id": "turkiyenin_toprak_tipleri_ve_dagilimi",
+    "term": "Türkiye Toprak Tipleri ve Dağılımı",
+    "definition": "Ülke genelindeki farklı toprak türlerini ve bunların coğrafi dağılımını inceler. Laterit, terra rossa, çernezyom gibi toprakların oluşumunda iklim, anakaya ve bitki örtüsü gibi faktörler rol oynar. Bu, tarımsal potansiyeli belirler.",
+    "examples": [
+      "Kırmızı Akdeniz Toprakları (Terra Rossa)",
+      "Kara Topraklar (Çernezyom)",
+      "Kestane Renkli Topraklar"
+    ],
+    "relatedTerms": [
+      "Toprak Tipleri",
+      "Türkiye'nin Toprak Tipleri",
+      "Türkiye'nin Toprak Oluşumu",
+      "Anakaya"
+    ],
+    "order": 58
+  },
+  {
+    "id": "turkiyenin_bitki_ortusu_ve_etkileyen_faktorler",
+    "term": "Türkiye Bitki Örtüsü ve Etkileyen Faktörler",
+    "definition": "Türkiye'de doğal olarak yetişen bitki topluluklarını ve bu örtüyü şekillendiren etmenleri ele alır. İklim, yer şekilleri, toprak ve insan faaliyetleri bitki örtüsünün çeşitliliğini belirler. Ormanlar, bozkırlar ve makiler bu örtünün ana unsurlarıdır.",
+    "examples": [
+      "Kızılçam Ormanları",
+      "Bozkır (Step)",
+      "Maki Toplulukları"
+    ],
+    "relatedTerms": [
+      "Bitki Örtüsü",
+      "Türkiye'nin Bitki Örtüsü",
+      "Türkiye'nin Bitki Örtüsü Tipleri",
+      "İklim"
+    ],
+    "order": 59
+  },
+  {
+    "id": "turkiyenin_jeolojik_zamanlari_ve_yapisi",
+    "term": "Türkiye'nin Jeolojik Zamanları ve Yapısı",
+    "definition": "Türkiye'nin oluşum sürecini jeolojik zaman dilimlerine göre inceler. Ülkenin genç bir oluşuma sahip olması, tektonik hareketliliğin temel nedenidir. Farklı jeolojik dönemlerde meydana gelen olaylar, bugünkü jeolojik yapıyı oluşturmuştur.",
+    "examples": [
+      "1. Jeolojik Zaman (Paleozoik)",
+      "2. Jeolojik Zaman (Mezozoik)",
+      "3. ve 4. Jeolojik Zaman (Senozoyik)"
+    ],
+    "relatedTerms": [
+      "Jeolojik Yapı",
+      "Türkiye'nin Jeolojik Zamanı",
+      "Tektonik Yapı",
+      "Orojenez"
+    ],
+    "order": 60
+  },
+  {
+    "id": "turkiyenin_koyleri_ve_limanlari_jeomorfolojik_ozellikleri",
+    "term": "Türkiye Koyları ve Limanlarının Jeomorfolojik Özellikleri",
+    "definition": "Türkiye'nin kıyılarında yer alan koy ve limanların yeryüzü şekilleriyle olan ilişkisini inceler. Bu oluşumlar, deniz ve kara arasındaki etkileşim sonucu meydana gelir. Kıyıların girintili çıkıntılı yapısı, doğal limanların oluşumuna zemin hazırlar.",
+    "examples": [
+      "İzmir Körfezi",
+      "Antalya Körfezi",
+      "Karadeniz'deki doğal limanlar"
+    ],
+    "relatedTerms": [
+      "Kıyı Şekilleri",
+      "Denizler",
+      "Türkiye'nin Koyları ve Limanları",
+      "Yer Şekilleri"
+    ],
+    "order": 61
+  },
+  {
+    "id": "turkiyenin_dogal_afetleri_ve_nedenleri",
+    "term": "Türkiye'nin Doğal Afetleri ve Nedenleri",
+    "definition": "Ülkenin maruz kaldığı deprem, sel, heyelan, çığ gibi doğal afetlerin coğrafi nedenlerini açıklar. Türkiye'nin jeolojik konumu ve iklimsel özellikleri, bu afetlerin sıklığını ve şiddetini etkiler. Afetlerin önlenmesi ve zararlarının azaltılması için coğrafi bilgi önemlidir.",
+    "examples": [
+      "1999 Gölcük Depremi",
+      "2020 Elazığ Depremi",
+      "Karadeniz'deki seller"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin Tektonik Yapısı",
+      "Türkiye'nin İklim Tipleri",
+      "Türkiye'nin Doğal Afetleri",
+      "Jeolojik Yapı"
+    ],
+    "order": 62
+  },
+  {
+    "id": "turkiyenin_yer_sekillerinin_yerlesme_uzerindeki_etkisi",
+    "term": "Türkiye Yeryüzü Şekillerinin Yerleşme Üzerindeki Etkisi",
+    "definition": "Yerleşmelerin genellikle düzlük alanlarda, su kaynaklarına yakın ve ulaşımı kolay bölgelerde yoğunlaştığını açıklar. Dağlık ve engebeli araziler, yerleşmeyi kısıtlayıcı bir faktör olabilir. Bu, nüfus dağılışını doğrudan etkiler.",
+    "examples": [
+      "Deniz kenarı yerleşimleri",
+      "Vadi tabanlarında kurulan köyler",
+      "Yüksek dağlık bölgelerde seyrek nüfus"
+    ],
+    "relatedTerms": [
+      "Yeryüzü Şekilleri",
+      "Yerleşme",
+      "Türkiye'nin Yeryüzü Şekillerinin Yerleşme Üzerindeki Etkisi",
+      "Nüfus Dağılışı"
+    ],
+    "order": 63
+  },
+  {
+    "id": "turkiyenin_su_kaynaklarinin_dagilimi_ve_onemi",
+    "term": "Türkiye Su Kaynaklarının Dağılımı ve Önemi",
+    "definition": "Türkiye'deki tatlı su kaynaklarının (nehirler, göller, yeraltı suları) bölgelere göre dağılımını ve bu kaynakların ekonomik ve sosyal önemini inceler. Su kaynaklarının verimli kullanımı, tarım, sanayi ve enerji üretimi için kritik öneme sahiptir.",
+    "examples": [
+      "GAP Projesi kapsamındaki barajlar",
+      "Yer altı suyu rezervleri",
+      "İçme suyu kaynakları"
+    ],
+    "relatedTerms": [
+      "Su Kaynakları",
+      "Nehirler",
+      "Göller",
+      "Türkiye'nin Su Kaynaklarının Dağılımı"
+    ],
+    "order": 64
+  },
+  {
+    "id": "turkiyenin_jeomorfolojik_bolgeleri_ozellikleri",
+    "term": "Türkiye'nin Jeomorfolojik Bölgeleri Özellikleri",
+    "definition": "Türkiye'nin coğrafi özelliklerine göre ayrıldığı ana jeomorfolojik bölgelerin (İç Anadolu, Karadeniz, Akdeniz, Ege, Marmara, Doğu Anadolu, Güneydoğu Anadolu) belirgin yeryüzü şekillerini ve oluşumlarını inceler. Her bölgenin kendine özgü topoğrafik ve jeolojik özellikleri vardır.",
+    "examples": [
+      "Ege'nin graben ve horst yapısı",
+      "Doğu Anadolu'nun yüksek ve engebeli arazisi",
+      "İç Anadolu'nun platoları"
+    ],
+    "relatedTerms": [
+      "Yeryüzü Şekilleri",
+      "Türkiye'nin Jeomorfolojik Bölgeleri",
+      "Tektonik Yapı",
+      "İklim"
+    ],
+    "order": 65
+  },
+  {
+    "id": "turkiyenin_iklim_degisikligi_etkileri_ve_nedenleri",
+    "term": "Türkiye'nin İklim Değişikliği Etkileri ve Nedenleri",
+    "definition": "Küresel iklim değişikliğinin Türkiye üzerindeki etkilerini (sıcaklık artışı, yağış rejimindeki değişiklikler, aşırı hava olayları) ve bu değişikliklere neden olan faktörleri inceler. İklim değişikliği, tarım, su kaynakları ve biyoçeşitlilik üzerinde önemli sonuçlar doğurur.",
+    "examples": [
+      "Kuraklık riskinin artması",
+      "Sel ve taşkınların şiddetlenmesi",
+      "Deniz seviyesindeki yükselme"
+    ],
+    "relatedTerms": [
+      "İklim Değişikliği",
+      "Türkiye'nin İklim Değişikliği Etkileri",
+      "Sıcaklık Artışı",
+      "Yağış Değişiklikleri"
+    ],
+    "order": 66
+  },
+  {
+    "id": "turkiyenin_enerji_kaynaklarinin_dagilimi_ve_yer_sekilleri",
+    "term": "Türkiye Enerji Kaynaklarının Dağılımı ve Yer Şekilleri",
+    "definition": "Türkiye'nin sahip olduğu enerji kaynaklarının (kömür, petrol, doğalgaz, jeotermal, hidroelektrik) coğrafi dağılımını ve bu kaynakların yer şekilleriyle olan ilişkisini inceler. Dağlık alanlar hidroelektrik potansiyeli, jeotermal alanlar ise jeotermal enerji potansiyeli sunar.",
+    "examples": [
+      "Barajların kurulduğu akarsu vadileri",
+      "Jeotermal enerji santralleri",
+      "Linyit yataklarının bulunduğu alanlar"
+    ],
+    "relatedTerms": [
+      "Enerji Kaynakları",
+      "Yeryüzü Şekilleri",
+      "Hidroelektrik Enerji",
+      "Jeotermal Enerji"
+    ],
+    "order": 67
+  },
+  {
+    "id": "turkiyenin_akarsularinin_rejimleri_ve_beslenme_kaynaklari",
+    "term": "Türkiye Akarsularının Rejimleri ve Beslenme Kaynakları",
+    "definition": "Türkiye'deki akarsuların akım düzenlerini (rejimlerini) ve bu düzenleri etkileyen beslenme kaynaklarını (yağmur, kar, yeraltı suları) inceler. Akarsuların rejimi, mevsimlere göre debi değişimlerini ifade eder ve tarım, enerji üretimi gibi alanlarda önemlidir.",
+    "examples": [
+      "Karadeniz akarsularının düzenli rejimi",
+      "Doğu Anadolu akarsularının düzensiz rejimi",
+      "Kar erimeleriyle beslenen akarsular"
+    ],
+    "relatedTerms": [
+      "Nehirler",
+      "Türkiye'nin Akarsu Sistemleri",
+      "Rejim",
+      "Beslenme Kaynakları"
+    ],
+    "order": 68
+  },
+  {
+    "id": "turkiyenin_daglari_ve_olusumu",
+    "term": "Türkiye'nin Dağları ve Oluşumu",
+    "definition": "Türkiye arazisinin büyük bir kısmını oluşturan dağların kıvrılma, kırılma ve volkanik faaliyetler sonucu nasıl meydana geldiğini inceler. Alp-Himalaya kuşağı üzerindeki konumu bu oluşumda etkilidir.",
+    "examples": [
+      "Toros Dağları",
+      "Kuzey Anadolu Dağları",
+      "Doğu Anadolu'daki volkanik dağlar"
+    ],
+    "relatedTerms": [
+      "Tektonik Yapı",
+      "Jeolojik Zamanlar",
+      "Yeryüzü Şekilleri"
+    ],
+    "order": 69
+  },
+  {
+    "id": "turkiyenin_ovalarinin_dagilimi",
+    "term": "Türkiye'nin Ovalarının Dağılımı",
+    "definition": "Türkiye'deki delta ovaları, taban seviyesi ovaları ve karstik ovalar gibi farklı ova tiplerinin coğrafi dağılımını ve oluşum nedenlerini ele alır. Tarım ve yerleşim açısından önem taşırlar.",
+    "examples": [
+      "Çukurova Ovaları",
+      "Konya Ovası",
+      "Bafra Ovası"
+    ],
+    "relatedTerms": [
+      "Akarsu Sistemleri",
+      "Yeryüzü Şekilleri",
+      "Toprak Tipleri"
+    ],
+    "order": 70
+  },
+  {
+    "id": "turkiyenin_platolarinin_ozellikleri",
+    "term": "Türkiye'nin Platolarının Özellikleri",
+    "definition": "Türkiye'nin iç bölgelerinde yaygın olan yüksek düzlükler olan platoların oluşumunu, özelliklerini ve bu özelliklerin tarım ve hayvancılık üzerindeki etkilerini inceler.",
+    "examples": [
+      "Anadolu Platosu",
+      "Teke Platosu",
+      "Haymana Platosu"
+    ],
+    "relatedTerms": [
+      "Yeryüzü Şekilleri",
+      "İklim Tipleri",
+      "Yerleşme"
+    ],
+    "order": 71
+  },
+  {
+    "id": "turkiyenin_akarsularinin_havzalari_ve_rejimleri",
+    "term": "Türkiye Akarsularının Havzaları ve Rejimleri",
+    "definition": "Türkiye'deki büyük akarsu havzalarını, bu havzaların genişliğini ve akarsuların yıl içindeki debi değişimlerini (rejimlerini) ve beslenme kaynaklarını açıklar.",
+    "examples": [
+      "Fırat-Dicle Havzası",
+      "Yeşilırmak Havzası",
+      "Sakarya Havzası"
+    ],
+    "relatedTerms": [
+      "Su Kaynakları",
+      "Akarsu Sistemleri",
+      "İklim"
+    ],
+    "order": 72
+  },
+  {
+    "id": "turkiyenin_gollu_yapisi_ve_olusumu",
+    "term": "Türkiye'nin Göllerinin Yapısı ve Oluşumu",
+    "definition": "Tektonik, volkanik, karstik ve buzul gibi farklı oluşum süreçleriyle meydana gelmiş Türkiye'deki göllerin dağılımını ve özelliklerini inceler.",
+    "examples": [
+      "Van Gölü",
+      "Tuz Gölü",
+      "Abant Gölü"
+    ],
+    "relatedTerms": [
+      "Tektonik Yapı",
+      "Yeryüzü Şekilleri",
+      "Su Kaynakları"
+    ],
+    "order": 73
+  },
+  {
+    "id": "turkiyenin_iklim_tiplerinin_dagilimi_ve_etkileri",
+    "term": "Türkiye İklim Tiplerinin Dağılımı ve Etkileri",
+    "definition": "Karadeniz, Akdeniz, karasal ve geçiş iklimleri gibi Türkiye'de görülen başlıca iklim tiplerinin coğrafi dağılımını ve bu iklimlerin tarım, yerleşme ve bitki örtüsü üzerindeki etkilerini analiz eder.",
+    "examples": [
+      "Akdeniz İklimi",
+      "Karasal İklim",
+      "Karadeniz İklimi"
+    ],
+    "relatedTerms": [
+      "İklim Değişikliği",
+      "Bitki Örtüsü",
+      "Tarım"
+    ],
+    "order": 74
+  },
+  {
+    "id": "turkiyenin_toprak_tipleri_ve_olusum_faktörleri",
+    "term": "Türkiye Toprak Tipleri ve Oluşum Faktörleri",
+    "definition": "Terra rossa, laterit, çernezyom gibi Türkiye'de görülen başlıca toprak tiplerini, oluşumlarında etkili olan iklim, anakaya, topoğrafya ve bitki örtüsü gibi faktörleri açıklar.",
+    "examples": [
+      "Çernezyom (Kara Toprak)",
+      "Terra Rossa",
+      "Laterit"
+    ],
+    "relatedTerms": [
+      "Toprak Oluşumu",
+      "İklim Tipleri",
+      "Bitki Örtüsü"
+    ],
+    "order": 75
+  },
+  {
+    "id": "turkiyenin_jeomorfolojik_birimleri_ve_ozellikleri",
+    "term": "Türkiye'nin Jeomorfolojik Birimleri ve Özellikleri",
+    "definition": "Türkiye arazisini oluşturan dağlar, platolar, ovalar ve vadiler gibi ana jeomorfolojik birimleri, bunların oluşum süreçlerini ve coğrafi dağılımlarını detaylandırır.",
+    "examples": [
+      "Anadolu Yarımadası",
+      "Dağ Sistemleri",
+      "Büyük Ova Grupları"
+    ],
+    "relatedTerms": [
+      "Yeryüzü Şekilleri",
+      "Tektonik Yapı",
+      "Jeolojik Zamanlar"
+    ],
+    "order": 76
+  },
+  {
+    "id": "turkiyenin_dogal_afetleri_ve_risk_alanlari",
+    "term": "Türkiye'nin Doğal Afetleri ve Risk Alanları",
+    "definition": "Depremler, sel ve taşkınlar, heyelanlar, çığlar ve kuraklık gibi Türkiye'de sıkça görülen doğal afetlerin nedenlerini, dağılışını ve riskli bölgeleri belirler.",
+    "examples": [
+      "Deprem Risk Bölgeleri",
+      "Heyelan Olayları",
+      "Sel ve Taşkın Alanları"
+    ],
+    "relatedTerms": [
+      "Tektonik Yapı",
+      "İklim Tipleri",
+      "Yeryüzü Şekilleri"
+    ],
+    "order": 77
+  },
+  {
+    "id": "turkiyenin_koylari_ve_limanlari_jeomorfolojik_baglamda",
+    "term": "Türkiye'nin Koyları ve Limanları (Jeomorfolojik Bağlamda)",
+    "definition": "Türkiye'nin kıyı şeridindeki doğal koyların ve yapay limanların jeomorfolojik oluşumlarını, coğrafi konumlarını ve ekonomik önemlerini inceler.",
+    "examples": [
+      "İskenderun Körfezi",
+      "Gölcük Limanı",
+      "Antalya Limanı"
+    ],
+    "relatedTerms": [
+      "Kıyı Şekilleri",
+      "Yeryüzü Şekilleri",
+      "Ulaşım"
+    ],
+    "order": 78
+  },
+  {
+    "id": "turkiyenin_tarimsal_yapisi_ve_yetisen_urunler",
+    "term": "Türkiye'nin Tarımsal Yapısı ve Yetişen Ürünler",
+    "definition": "İklim ve toprak özelliklerine göre Türkiye'de yaygın olarak yetiştirilen tarım ürünlerini, tarım yöntemlerini ve tarımsal alanların dağılımını inceler.",
+    "examples": [
+      "Buğday Üretim Alanları",
+      "Pamuk Yetiştirilen Bölgeler",
+      "Fındık Üretimi"
+    ],
+    "relatedTerms": [
+      "İklim Tipleri",
+      "Toprak Tipleri",
+      "Yeryüzü Şekilleri"
+    ],
+    "order": 79
+  },
+  {
+    "id": "turkiyenin_enerji_kaynaklari_ve_dagilimi",
+    "term": "Türkiye'nin Enerji Kaynakları ve Dağılımı",
+    "definition": "Petrol, doğalgaz, kömür, linyit, jeotermal ve hidroelektrik gibi Türkiye'nin enerji kaynaklarının yer altındaki dağılımını ve bu kaynakların çıkarıldığı başlıca bölgeleri belirtir.",
+    "examples": [
+      "Kömür Madenleri",
+      "Jeotermal Enerji Kaynakları",
+      "Hidroelektrik Santraller"
+    ],
+    "relatedTerms": [
+      "Jeolojik Yapı",
+      "Tektonik Yapı",
+      "Yeryüzü Şekilleri"
+    ],
+    "order": 80
+  },
+  {
+    "id": "turkiyenin_ulasim_aglarinin_yapisi",
+    "term": "Türkiye'nin Ulaşım Ağlarının Yapısı",
+    "definition": "Karayolları, demiryolları, havayolları ve denizyollarının Türkiye'deki güzergahlarını, bu ağların yer şekilleri ve ekonomik faaliyetlerle ilişkisini inceler.",
+    "examples": [
+      "Anadolu Otoyolları",
+      "Demiryolu Ağları",
+      "Deniz Limanları"
+    ],
+    "relatedTerms": [
+      "Yeryüzü Şekilleri",
+      "Yerleşme",
+      "Ekonomik Faaliyetler"
+    ],
+    "order": 81
+  },
+  {
+    "id": "turkiyenin_turizm_potansiyeli_ve_turistik_bolgeler",
+    "term": "Türkiye'nin Turizm Potansiyeli ve Turistik Bölgeler",
+    "definition": "Tarihi, doğal ve kültürel zenginliklere dayalı olarak Türkiye'nin turizm potansiyelini, başlıca turistik bölgeleri ve bu bölgelerin coğrafi özelliklerini ele alır.",
+    "examples": [
+      "Kültür Turizmi Alanları",
+      "Doğa Turizmi Bölgeleri",
+      "Kış Turizmi Merkezleri"
+    ],
+    "relatedTerms": [
+      "Yeryüzü Şekilleri",
+      "İklim Tipleri",
+      "Yerleşme"
+    ],
+    "order": 82
+  },
+  {
+    "id": "turkiyenin_cevresel_sorunlari_ve_nedenleri",
+    "term": "Türkiye'nin Çevresel Sorunları ve Nedenleri",
+    "definition": "Sanayileşme, kentleşme, tarımsal faaliyetler ve doğal kaynakların kullanımı gibi nedenlerle ortaya çıkan hava, su ve toprak kirliliği gibi çevresel sorunları inceler.",
+    "examples": [
+      "Sanayi Kirliliği",
+      "Ormansızlaşma",
+      "Su Kirliliği"
+    ],
+    "relatedTerms": [
+      "İklim Değişikliği",
+      "Doğal Afetler",
+      "Yerleşme"
+    ],
+    "order": 83
+  },
+  {
+    "id": "turkiyenin_iklim_degisikligi_etkileri_ve_onlemler",
+    "term": "Türkiye'nin İklim Değişikliği Etkileri ve Önlemler",
+    "definition": "Küresel iklim değişikliğinin Türkiye üzerindeki etkilerini (sıcaklık artışı, yağış rejiminde değişimler, kuraklık riskleri) ve bu etkilere karşı alınabilecek önlemleri ele alır.",
+    "examples": [
+      "Sıcaklık Artışı",
+      "Kuraklık Riski",
+      "Deniz Seviyesi Yükselmesi"
+    ],
+    "relatedTerms": [
+      "İklim Tipleri",
+      "Su Kaynakları",
+      "Tarım"
+    ],
+    "order": 84
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cog_001",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "matematik-konum",
+    "subtopic": "Matematik (Mutlak) Konum",
+    "q": "Türkiye'nin matematik konumu (36° - 42° Kuzey paralelleri ve 26° - 45° Doğu meridyenleri) dikkate alındığında, aşağıdakilerden hangisi Türkiye'de yaşanan durumlardan biri değildir?",
+    "o": [
+      "Güneş ışınlarının hiçbir zaman dik açıyla gelmemesi",
+      "Dört mevsimin belirgin olarak yaşanması",
+      "Güneyden esen rüzgarların sıcaklığı artırması",
+      "Kış mevsiminde cephesel yağışların görülmesi",
+      "Cisimlerin gölge boyunun yıl içinde iki kez sıfır olması"
+    ],
+    "a": 4,
+    "e": "Türkiye, Yengeç Dönencesi'nin kuzeyinde (36°-42° K) yer aldığı için güneş ışınlarını hiçbir zaman 90 derecelik dik açıyla alamaz. Bu nedenle cisimlerin gölge boyu asla sıfır olmaz. Gölge boyunun sıfır olduğu yerler sadece dönenceler arasıdır."
+  },
+  {
+    "id": "cog_002",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "ozel-konum",
+    "subtopic": "Özel (Göreceli) Konum",
+    "q": "Ankara ve Erzurum yaklaşık olarak aynı enlem üzerinde yer almalarına rağmen, Erzurum'da yıllık ortalama sıcaklığın Ankara'dan daha düşük olmasının temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Denizellik etkisi",
+      "Ekvator'a uzaklık",
+      "Yükselti farkı",
+      "Bakı durumu",
+      "Bitki örtüsü"
+    ],
+    "a": 2,
+    "e": "Aynı enlemdeki merkezlerin güneş ışınlarını alma açıları aynıdır. Ancak Erzurum'un yükseltisi Ankara'dan fazla olduğu için sıcaklık değerleri daha düşüktür. Bu durum özel (göreceli) konumun bir sonucudur."
+  },
+  {
+    "id": "cog_003",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "yerel-saat",
+    "subtopic": "Yerel Saat ve Zaman",
+    "q": "Türkiye'de ulusal saat olarak 45° Doğu meridyeninin (Iğdır) yerel saati kullanılmaktadır. Buna göre, aşağıdaki illerden hangisinde yerel saat ile ulusal saat arasındaki zaman farkı en fazladır?",
+    "o": [
+      "İzmir",
+      "Sivas",
+      "Ankara",
+      "Van",
+      "Erzurum"
+    ],
+    "a": 0,
+    "e": "Ulusal saat ayarı 45° Doğu meridyenine göre yapıldığından, bu meridyene en uzak olan ilde yerel saat ile ulusal saat farkı en fazla olacaktır. Seçenekler arasında en batıda yer alan il İzmir'dir."
+  },
+  {
+    "id": "cog_004",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "sinir-komsulari",
+    "subtopic": "Sınır Komşuları ve Kapıları",
+    "q": "Türkiye'nin sınır komşuları ve sınır kapıları ile ilgili aşağıda verilen eşleştirmelerden hangisi yanlıştır?",
+    "o": [
+      "Yunanistan - İpsala",
+      "Bulgaristan - Kapıkule",
+      "Gürcistan - Sarp",
+      "İran - Habur",
+      "Ermenistan - Akyaka"
+    ],
+    "a": 3,
+    "e": "Habur Sınır Kapısı İran ile değil, Irak ile olan sınırımızda yer alır. İran ile olan en önemli sınır kapıları Gürbulak, Kapıköy ve Esendere'dir."
+  },
+  {
+    "id": "cog_005",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "matematik-konum",
+    "subtopic": "Matematik (Mutlak) Konum",
+    "q": "21 Haziran tarihinde Türkiye'de aşağıdaki durumlardan hangisi yaşanmaz?",
+    "o": [
+      "En uzun gündüz süresinin yaşanması",
+      "Kuzeye gidildikçe gündüz süresinin uzaması",
+      "Güneş ışınlarının yıl içindeki en büyük açıyla gelmesi",
+      "Yaz mevsiminin başlangıcı olması",
+      "Gölge boylarının yıl içindeki en uzun haline ulaşması"
+    ],
+    "a": 4,
+    "e": "21 Haziran'da güneş ışınları gelebileceği en dik açıyla (Türkiye için) geldiği için gölge boyları en uzun değil, en kısa konumundadır. Gölge boyunun en uzun olduğu tarih 21 Aralık'tır."
+  },
+  {
+    "id": "cog_006",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "orta-kusak",
+    "subtopic": "Orta Kuşak Sonuçları",
+    "q": "Türkiye'nin Orta Kuşak'ta yer almasının sonuçlarını kodlamak için kullanılan 'ABCD' kuralına göre, aşağıdakilerden hangisi bu grupta yer almaz?",
+    "o": [
+      "Akdeniz ikliminin görülmesi",
+      "Batı rüzgarlarının etkili olması",
+      "Cephesel yağışların görülmesi",
+      "Dört mevsimin belirgin yaşanması",
+      "Don olaylarının görülmesi"
+    ],
+    "a": 4,
+    "e": "Orta Kuşak (ABCD) kuralı: A-Akdeniz İklimi, B-Batı Rüzgarları, C-Cephesel Yağışlar, D-Dört Mevsim. Don olaylarının görülmesi yükselti ve karasallıkla (özel konum) veya kış mevsimiyle ilgilidir ancak doğrudan orta kuşak kanıtı olarak 'ABCD' kodlamasında yer almaz."
+  },
+  {
+    "id": "cog_007",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "cizgisel-hiz",
+    "subtopic": "Dünya'nın Dönüş Hızı",
+    "q": "Dünya'nın kendi ekseni etrafındaki dönüş hızı (çizgisel hız) Ekvator'dan kutuplara gidildikçe azalır. Buna göre, aşağıdaki illerden hangisinde güneşin doğuş ve batış süresi (tan ve gurup vakti) en uzundur?",
+    "o": [
+      "Hatay",
+      "Antalya",
+      "İzmir",
+      "Ankara",
+      "Sinop"
+    ],
+    "a": 4,
+    "e": "Çizgisel hız azaldıkça güneşin ufukta kalma süresi (doğuş ve batış anı) uzar. Türkiye'de çizgisel hızın en az olduğu yer en kuzeydeki Sinop'tur. Bu nedenle tan ve gurup süresi en uzun Sinop'ta izlenir."
+  },
+  {
+    "id": "cog_008",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "ozel-konum",
+    "subtopic": "Jeopolitik Konum",
+    "q": "Türkiye'nin Asya, Avrupa ve Afrika kıtalarının birbirine en çok yaklaştığı yerde bulunması ve önemli enerji koridorlarına sahip olması, aşağıdaki konum türlerinden hangisinin önemini artırmaktadır?",
+    "o": [
+      "Matematik konum",
+      "Jeopolitik konum",
+      "Simetrik konum",
+      "Ekinoks konumu",
+      "Tropikal konum"
+    ],
+    "a": 1,
+    "e": "Kıtalar arası geçiş noktasında olması, boğazlara sahip olması ve enerji nakil hatları üzerinde bulunması Türkiye'nin jeopolitik (özel) konumunun önemini vurgular."
+  },
+  {
+    "id": "cog_009",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "sinir-komsulari",
+    "subtopic": "Sınır Özellikleri",
+    "q": "Türkiye'nin en uzun kara sınırına sahip olduğu komşusu ile en kısa kara sınırına sahip olduğu komşusu aşağıdakilerden hangisinde sırasıyla verilmiştir?",
+    "o": [
+      "Suriye - Nahçıvan (Azerbaycan)",
+      "İran - Bulgaristan",
+      "Suriye - Yunanistan",
+      "Irak - Gürcistan",
+      "İran - Nahçıvan (Azerbaycan)"
+    ],
+    "a": 0,
+    "e": "Türkiye'nin en uzun kara sınırı Suriye (911 km), en kısa kara sınırı ise Nahçıvan (Azerbaycan) ile olan sınırdır (yaklaşık 18 km)."
+  },
+  {
+    "id": "cog_010",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "enlem-etkisi",
+    "subtopic": "Enlem Etkisi",
+    "q": "Aşağıdakilerden hangisi enlem etkisine ters düşen bir durumdur?",
+    "o": [
+      "Akdeniz'in Karadeniz'den daha tuzlu olması",
+      "Antalya'da kış sıcaklıklarının İstanbul'dan yüksek olması",
+      "Sinop'ta kışın sıcaklığın Erzurum'dan yüksek olması",
+      "Hatay'dan Sinop'a gidildikçe gölge boyunun uzaması",
+      "Güneyden esen rüzgarların sıcaklığı artırması"
+    ],
+    "a": 2,
+    "e": "Normalde enlem etkisine göre kuzeydeki bir yerin güneydeki bir yerden daha soğuk olması beklenir. Ancak Sinop (Kuzey), kışın Erzurum'dan (daha Güneyde) daha sıcaktır. Bunun nedeni denizellik ve yükselti (özel konum) faktörüdür ve bu durum enlem etkisine ters düşer."
+  },
+  {
+    "id": "cog_011",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "yer-sekilleri",
+    "subtopic": "Kıyı Tipleri ve Konum",
+    "q": "Türkiye'de Fiyort ve Skyer tipi kıyıların görülmemesinin temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Dağların kıyıya paralel uzanması",
+      "Gel-git genliğinin az olması",
+      "Matematik konum (Enlem)",
+      "Ortalama yükseltinin fazla olması",
+      "Jeolojik yapının genç olması"
+    ],
+    "a": 2,
+    "e": "Fiyort ve Skyer tipi kıyılar buzul aşındırması sonucu oluşur ve kutup kuşağına yakın yerlerde görülür. Türkiye Orta Kuşak'ta yer aldığı için (Matematik Konum) kıyılarında buzullar deniz seviyesine inememiş ve bu kıyı tipleri oluşmamıştır."
+  },
+  {
+    "id": "cog_012",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "meridyenler",
+    "subtopic": "Meridyen Özellikleri",
+    "q": "İki meridyen arasındaki mesafe Ekvator'dan kutuplara gidildikçe azalır. Buna göre, aşağıdaki illerden hangisinde iki meridyen arasındaki kuş uçuşu mesafe en kısadır?",
+    "o": [
+      "Mardin",
+      "Antalya",
+      "İzmir",
+      "Bursa",
+      "Sinop"
+    ],
+    "a": 4,
+    "e": "Meridyenlerin kutup noktalarında birleşmesi nedeniyle aralarındaki mesafe kuzeye gidildikçe daralır. Türkiye'nin en kuzey ucu Sinop olduğu için iki meridyen arası mesafe burada en kısadır."
+  },
+  {
+    "id": "cog_013",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "ozel-konum",
+    "subtopic": "Mikroklima Alanları",
+    "q": "Türkiye genel olarak karasal iklim özelliklerine sahip olmasına rağmen, Iğdır Ovası'nda pamuk, Rize çevresinde turunçgil ve kivi yetişebilmektedir. Bu durumun temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Matematik konum",
+      "Ekvator'a yakınlık",
+      "Özel konum (Mikroklima)",
+      "Toprak verimliliği",
+      "Sulama imkanları"
+    ],
+    "a": 2,
+    "e": "Bu alanlar, çevresine göre çukurda kalmaları veya rüzgar (fön) etkileri gibi nedenlerle genel iklimden farklı özellikler gösterirler. Bu durum mikroklima olarak adlandırılır ve özel konumun bir sonucudur."
+  },
+  {
+    "id": "cog_014",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "baki-etkisi",
+    "subtopic": "Bakı ve Dulda",
+    "q": "Türkiye'de dağların güney yamaçlarının kuzey yamaçlarına göre daha sıcak olması, karların daha erken erimesi ve yerleşmelerin daha yoğun olması aşağıdakilerden hangisiyle açıklanır?",
+    "o": [
+      "Yükselti etkisi",
+      "Bakı etkisi",
+      "Denizellik etkisi",
+      "Boylam etkisi",
+      "Karasallık etkisi"
+    ],
+    "a": 1,
+    "e": "Türkiye Kuzey Yarım Küre'de ve Yengeç Dönencesi'nin kuzeyinde yer aldığı için güneşi sürekli güneyden alır. Dağların güneşe bakan yamaçlarının (Güney) daha sıcak olması 'Bakı Etkisi' olarak adlandırılır."
+  },
+  {
+    "id": "cog_015",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "sinir-kapilari",
+    "subtopic": "Demiryolu Bağlantıları",
+    "q": "Aşağıdaki sınır kapılarından hangisinin üzerinden demiryolu bağlantısı bulunmamaktadır?",
+    "o": [
+      "Kapıkule (Bulgaria)",
+      "Kapıköy (İran)",
+      "Akyaka (Ermenistan - Kapalı)",
+      "İpsala (Yunanistan)",
+      "Çobanbey (Suriye)"
+    ],
+    "a": 3,
+    "e": "Kapıkule, Kapıköy, Akyaka (kapalı olsa da ray var) ve Çobanbey sınır kapılarında demiryolu bağlantısı vardır. Ancak Yunanistan ile olan İpsala sınır kapısı sadece karayolu geçişine sahiptir; Yunanistan ile demiryolu bağlantısı Uzunköprü üzerinden sağlanır."
+  },
+  {
+    "id": "cog_016",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "yerel-saat",
+    "subtopic": "Güneşin Konumu",
+    "q": "21 Mart tarihinde Iğdır'da (45° Doğu) güneş tam tepe noktasındayken (saat 12:00), İzmit'te (30° Doğu) yerel saat kaçtır?",
+    "o": [
+      "11:00",
+      "13:00",
+      "10:00",
+      "12:00",
+      "11:20"
+    ],
+    "a": 0,
+    "e": "İki merkez arasında 15 derecelik boylam farkı vardır (45 - 30 = 15). Her boylam arası 4 dakika olduğundan 15 x 4 = 60 dakika (1 saat) fark vardır. İzmit daha batıda olduğu için saati daha geridir. 12:00 - 1 saat = 11:00."
+  },
+  {
+    "id": "cog_017",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "ozel-konum",
+    "subtopic": "Jeolojik Yapı",
+    "q": "Türkiye'nin ortalama yükseltisinin fazla olması, sık sık tektonik depremlerin yaşanması ve linyit yataklarının yaygın olması, aşağıdaki özelliklerden hangisinin sonucudur?",
+    "o": [
+      "Kuzey Yarım Küre'de yer almasının",
+      "Genç oluşumlu bir arazi yapısına sahip olmasının",
+      "Üç tarafının denizlerle çevrili olmasının",
+      "Orta Kuşak'ta bulunmasının",
+      "Asya ve Avrupa arasında köprü olmasının"
+    ],
+    "a": 1,
+    "e": "Yüksek engebe, deprem riski, sıcak su kaynakları ve linyit gibi madenlerin varlığı, Türkiye'nin jeolojik olarak yakın zamanda (3. ve 4. jeolojik zaman) oluştuğunun (genç arazi) kanıtıdır."
+  },
+  {
+    "id": "cog_018",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "matematik-konum",
+    "subtopic": "Gölge Yönü",
+    "q": "Türkiye'de yıl boyunca öğle vakti cisimlerin gölgesinin daima kuzey yönüne düşmesi, Türkiye'nin hangi özelliğinin sonucudur?",
+    "o": [
+      "Başlangıç meridyeninin doğusunda olması",
+      "Yengeç Dönencesi'nin kuzeyinde yer alması",
+      "Yer şekillerinin engebeli olması",
+      "Deniz etkisine açık olması",
+      "Asya kıtasında yer alması"
+    ],
+    "a": 1,
+    "e": "Güneş ışınları dönenceler arasına dik gelir. Türkiye Yengeç Dönencesi'nin kuzeyinde yer aldığı için güneşi hep güneyden alır ve gölgeler daima kuzeye düşer."
+  },
+  {
+    "id": "cog_019",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "sinir-komsulari",
+    "subtopic": "Doğal Sınırlar",
+    "q": "Aşağıdaki akarsulardan hangisi Türkiye ile Yunanistan arasında doğal bir sınır oluşturur?",
+    "o": [
+      "Aras",
+      "Fırat",
+      "Meriç",
+      "Asi",
+      "Çoruh"
+    ],
+    "a": 2,
+    "e": "Meriç Nehri, Türkiye ile Yunanistan arasındaki sınırın büyük bir kısmını oluşturan doğal bir sınırdır. Aras Ermenistan/Nahçıvan, Asi ise Suriye sınırına yakındır ancak Meriç en belirgin sınır nehridir."
+  },
+  {
+    "id": "cog_020",
+    "topicId": "1FEcPsGduhjcQARpaGBk",
+    "subtopicId": "ozel-konum",
+    "subtopic": "Kıyı Turizmi",
+    "q": "Aynı anda dört mevsim özelliklerinin yaşanabilmesi (bir yerde denize girilirken diğer yerde kayak yapılabilmesi) Türkiye'nin hangi özelliğinin sonucudur?",
+    "o": [
+      "Matematik konum",
+      "Orta Kuşak'ta olması",
+      "Yer şekillerinin çeşitliliği ve yükselti farkları (Özel Konum)",
+      "Boylam farkının fazla olması",
+      "Kuzey Yarım Küre'de olması"
+    ],
+    "a": 2,
+    "e": "DİKKAT: 'Dört mevsimin belirgin yaşanması' matematik konum (Orta Kuşak) sonucudur; ancak 'AYNI ANDA farklı mevsim özelliklerinin yaşanması' yer şekilleri, yükselti ve denizellik gibi özel konum şartlarının kısa mesafede değişmesiyle ilgilidir."
+  }
+]

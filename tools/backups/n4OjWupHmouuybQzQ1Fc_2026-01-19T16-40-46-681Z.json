@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "n4OjWupHmouuybQzQ1Fc_gen_1",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "lessonId": "vatandaslik",
+    "q": "Anayasa Hukuku konusuyla ilgili çalışmalarımız devam etmektedir. Bu bir örnek sorudur.",
+    "o": [
+      "A Seçeneği",
+      "B Seçeneği",
+      "C Seçeneği",
+      "D Seçeneği",
+      "E Seçeneği"
+    ],
+    "a": 0,
+    "e": "Detaylı içerikler yakında GitHub üzerinden senkronize edilecektir.",
+    "subtopic": "Genel"
+  },
+  {
+    "id": "vat_001",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "genel-esaslar",
+    "subtopic": "Devletin Temel Nitelikleri",
+    "q": "1982 Anayasası'nın 2. maddesinde belirtilen 'Hukuk Devleti' ilkesinin gerekleri arasında aşağıdakilerden hangisi yer almaz?",
+    "o": [
+      "Yasama işlemlerinin yargısal denetime tabi olması",
+      "Yürütme işlemlerinin yargısal denetime tabi olması",
+      "Kanunların geriye yürümezliği ilkesi",
+      "İdarenin mali sorumluluğunun bulunması",
+      "Yönetimde istikrar ilkesinin mutlak surette sağlanması"
+    ],
+    "a": 4,
+    "e": "Hukuk devleti; yönetilenlere hukuki güvencelerin sağlandığı, devletin tüm eylem ve işlemlerinin hukuka uygun olduğu ve yargı denetimine tabi tutulduğu devlet anlayışıdır. Yasama ve yürütmenin yargısal denetimi, kanuni hakim güvencesi, kanunların geriye yürümezliği ve idarenin mali sorumluluğu hukuk devletinin gereklerindendir. Ancak 'Yönetimde istikrar', 1982 Anayasası'nın yürütme organına ilişkin benimsediği bir ilke olmakla birlikte (temsilde adalet ile dengelenir), doğrudan hukuk devleti ilkesinin kurucu bir unsuru veya olmazsa olmaz bir alt başlığı olarak literatürde sayılmaz."
+  },
+  {
+    "id": "vat_002",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "temel-haklar",
+    "subtopic": "Temel Hak ve Hürriyetlerin Sınırlandırılması",
+    "q": "1982 Anayasası'nın 13. maddesine göre, temel hak ve hürriyetlerin sınırlandırılmasında aşağıdaki ölçütlerden hangisine uyulması zorunluluğu yoktur?",
+    "o": [
+      "Sınırlamanın kanunla yapılması",
+      "Sınırlamanın Anayasanın sözüne ve ruhuna uygun olması",
+      "Demokratik toplum düzeninin gereklerine aykırı olmaması",
+      "Ölçülülük ilkesine aykırı olmaması",
+      "Sınırlamanın genel ahlak ilkelerine uygun olması"
+    ],
+    "a": 4,
+    "e": "1982 Anayasası'nın 13. maddesi uyarınca temel hak ve hürriyetler; özlerine dokunulmaksızın yalnızca Anayasanın ilgili maddelerinde belirtilen sebeplere bağlı olarak ve ancak kanunla sınırlanabilir. Bu sınırlamalar; Anayasanın sözüne ve ruhuna, demokratik toplum düzeninin ve laik Cumhuriyetin gereklerine ve ölçülülük ilkesine aykırı olamaz. 'Genel ahlak', 13. maddedeki genel sınırlama ölçütleri arasında değil, bazı hakların (örneğin toplantı ve gösteri yürüyüşü) özel sınırlama sebepleri arasında yer alabilir."
+  },
+  {
+    "id": "vat_003",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama",
+    "subtopic": "Milletvekilliğinin Düşmesi",
+    "q": "Aşağıdaki hallerin hangisinde, bir milletvekilinin milletvekilliğinin düşmesi için TBMM Genel Kurulu tarafından karar alınması gerekmez, üyelik kendiliğinden sona erer?",
+    "o": [
+      "Milletvekilliği ile bağdaşmayan bir görev sürdürmekte ısrar etmesi",
+      "Meclis çalışmalarına özürsüz veya izinsiz olarak bir ay içinde toplam beş birleşim günü katılmaması",
+      "İstifa etmesi",
+      "Kesin hüküm giymesi veya kısıtlanması",
+      "Partisinin temelli kapatılmasına beyan ve eylemleriyle sebep olması (Milletvekilliğinin düşme sebebi değildir)"
+    ],
+    "a": 3,
+    "e": "Anayasa'nın 84. maddesine göre; istifa, milletvekilliğiyle bağdaşmayan görevde ısrar ve devamsızlık hallerinde milletvekilliğinin düşmesi TBMM Genel Kurulu'nun kararına bağlıdır. Ancak kesin hüküm giyme veya kısıtlanma halinde, mahkeme kararının TBMM Genel Kurulu'na bildirilmesiyle üyelik kendiliğinden düşer; ayrıca bir oylama yapılmaz. (Not: Partinin kapatılmasına sebep olan vekilin üyeliği 2010 değişikliği ile artık düşmemektedir)."
+  },
+  {
+    "id": "vat_004",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama",
+    "subtopic": "TBMM'nin Görev ve Yetkileri",
+    "q": "1982 Anayasası'na göre aşağıdakilerden hangisi Türkiye Büyük Millet Meclisi'nin görev ve yetkileri arasında yer almaz?",
+    "o": [
+      "Para basılmasına karar vermek",
+      "Savaş ilanına karar vermek",
+      "Milletlerarası andlaşmaları onaylamak",
+      "Genel ve özel af ilanına karar vermek",
+      "Kalkınma planlarını onaylamak"
+    ],
+    "a": 2,
+    "e": "Buradaki ince ayrım 'onaylamak' ve 'uygun bulmak' kavramları arasındadır. Milletlerarası andlaşmaların onaylanmasını 'uygun bulmak' TBMM'nin görevidir (Kanunla yapılır). Ancak andlaşmaları 'onaylamak ve yayımlamak' Cumhurbaşkanı'nın görev ve yetkisidir (Anayasa Md. 104). Diğer seçenekler doğrudan TBMM'nin yetkisindedir."
+  },
+  {
+    "id": "vat_005",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yurutme",
+    "subtopic": "Cumhurbaşkanlığı Kararnameleri",
+    "q": "Olağan dönem Cumhurbaşkanlığı Kararnameleri (CBK) ile ilgili olarak aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "o": [
+      "Sosyal ve ekonomik haklar ve ödevler CBK ile düzenlenebilir.",
+      "Anayasada münhasıran kanunla düzenlenmesi öngörülen konularda CBK çıkarılamaz.",
+      "Kanunda açıkça düzenlenen konularda CBK çıkarılamaz.",
+      "CBK ile kanunlarda farklı hükümler bulunması halinde CBK hükümleri uygulanır.",
+      "TBMM'nin aynı konuda kanun çıkarması durumunda CBK hükümsüz hale gelir."
+    ],
+    "a": 3,
+    "e": "Normlar hiyerarşisi ve Anayasa'nın 104. maddesi gereği, Cumhurbaşkanlığı Kararnamesi ile kanunlarda farklı hükümler bulunması halinde, kanun hükümleri uygulanır (üstünlük kanundadır). Diğer seçenekler doğrudur; kişi hakları ve siyasi haklar olağan dönem CBK ile düzenlenemezken, sosyal ve ekonomik haklar düzenlenebilir."
+  },
+  {
+    "id": "vat_006",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yurutme",
+    "subtopic": "Devlet Denetleme Kurulu",
+    "q": "1982 Anayasası'na göre, Cumhurbaşkanlığına bağlı olarak çalışan Devlet Denetleme Kurulu (DDK), aşağıdakilerden hangisini denetleyemez?",
+    "o": [
+      "Türk Silahlı Kuvvetleri",
+      "Kamu kurumu niteliğindeki meslek kuruluşları",
+      "İşçi ve işveren meslek kuruluşları",
+      "Yargı organları",
+      "Kamuya yararlı dernekler"
+    ],
+    "a": 3,
+    "e": "Devlet Denetleme Kurulu (DDK), idarenin hukuka uygunluğunu, düzenli ve verimli çalışmasını sağlamak amacıyla kurulmuştur. 2017 değişikliği ile TSK denetim kapsamına alınmıştır. Ancak, yargı bağımsızlığı ilkesi gereği 'Yargı Organları' DDK tarafından denetlenemez. DDK'nın görev alanı idari işleyişle sınırlıdır."
+  },
+  {
+    "id": "vat_007",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yargi",
+    "subtopic": "Anayasa Mahkemesi",
+    "q": "Anayasa Mahkemesi'ne 'Bireysel Başvuru' yolu ile ilgili olarak aşağıdaki ifadelerden hangisi yanlıştır?",
+    "o": [
+      "Bireysel başvuru için olağan kanun yollarının tüketilmiş olması gerekir.",
+      "Sadece Anayasada güvence altına alınan temel haklardan, Avrupa İnsan Hakları Sözleşmesi kapsamındaki hakların ihlali iddiasıyla başvurulabilir.",
+      "Yasama işlemleri aleyhine doğrudan bireysel başvuru yapılamaz.",
+      "Anayasa Mahkemesi kararlarına karşı Avrupa İnsan Hakları Mahkemesi'ne başvurulamaz.",
+      "Kamu tüzel kişileri bireysel başvuru yapamazlar."
+    ],
+    "a": 3,
+    "e": "Anayasa Mahkemesi (AYM), iç hukuk yollarının son merciidir ancak uluslararası hukuk bağlamında son durak değildir. Türkiye, AİHM'in yargı yetkisini kabul etmiştir. Dolayısıyla AYM'nin bireysel başvuru sonucunda verdiği karardan tatmin olmayan bir vatandaş, şartları oluştuğunda Avrupa İnsan Hakları Mahkemesi'ne başvurabilir. Bu yol kapalı değildir."
+  },
+  {
+    "id": "vat_008",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yargi",
+    "subtopic": "Hakimler ve Savcılar Kurulu",
+    "q": "2017 Anayasa değişikliği sonrasında Hakimler ve Savcılar Kurulu'nun (HSK) üye yapısı ve seçimi ile ilgili aşağıdaki öncüllerden hangileri doğrudur?\n\nI. Kurulun başkanı Adalet Bakanıdır.\nII. Kurul 13 üyeden oluşur ve iki daire halinde çalışır.\nIII. Kurulun tüm üyelerini Cumhurbaşkanı seçer.",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 1,
+    "e": "Hakimler ve Savcılar Kurulu (HSK), 13 üyeden oluşur ve iki daire halinde çalışır. Kurulun başkanı Adalet Bakanıdır (Doğal üye). Adalet Bakanlığı Müsteşarı (Bakan Yardımcısı) da doğal üyedir. Kalan üyelerin 4'ünü Cumhurbaşkanı, 7'sini ise TBMM seçer. Dolayısıyla III. öncül yanlıştır, tüm üyeleri Cumhurbaşkanı seçmez."
+  },
+  {
+    "id": "vat_009",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "anayasa-degisikligi",
+    "subtopic": "Anayasa Değişikliği Usulü",
+    "q": "1982 Anayasası'na göre, Anayasa değişikliği teklifinin TBMM Genel Kurulu'nda kabul edilebilmesi için gereken asgari çoğunluk ve bu çoğunlukla kabul edilen teklifin akıbeti aşağıdakilerden hangisinde doğru eşleştirilmiştir?",
+    "o": [
+      "Üye tamsayısının salt çoğunluğu - Cumhurbaşkanı onayı",
+      "Üye tamsayısının beşte üçü (360) - Zorunlu referandum veya Cumhurbaşkanı onayı",
+      "Üye tamsayısının üçte ikisi (400) - Doğrudan onay",
+      "Üye tamsayısının beşte üçü ile üçte ikisi arası (360-399) - Cumhurbaşkanı tarafından meclise iade veya zorunlu referandum",
+      "Üye tamsayısının dörtte üçü - Doğrudan onay"
+    ],
+    "a": 3,
+    "e": "Anayasa değişikliği teklifleri iki farklı çoğunlukla kabul edilebilir: 1) Üye tamsayısının 3/5'i (360) ile 2/3'ü (400) arasında kabul edilirse; Cumhurbaşkanı ya Meclis'e iade eder ya da halkoyuna (referanduma) sunmak zorundadır. Onaylayamaz. 2) Üye tamsayısının 2/3'ü (400) ve üzeri oyla kabul edilirse; Cumhurbaşkanı onaylayabilir, iade edebilir veya ihtiyari olarak referanduma sunabilir. Doğru seçenek, 360-399 aralığındaki 'zorunlu referandum' kuralını ifade eden D seçeneğidir."
+  },
+  {
+    "id": "vat_010",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "siyasi-partiler",
+    "subtopic": "Siyasi Partilerin Mali Denetimi",
+    "q": "Siyasi partilerin mali denetimi anayasal olarak hangi organ tarafından yerine getirilir ve bu denetim sırasında hangi kurumdan yardım sağlanır?",
+    "o": [
+      "Yargıtay Cumhuriyet Başsavcılığı - Sayıştay",
+      "Anayasa Mahkemesi - Sayıştay",
+      "Sayıştay - Maliye Bakanlığı",
+      "Yüksek Seçim Kurulu - Sayıştay",
+      "Anayasa Mahkemesi - Yargıtay"
+    ],
+    "a": 1,
+    "e": "Anayasa'nın 69. maddesine göre; siyasi partilerin mali denetimini Anayasa Mahkemesi yapar. Anayasa Mahkemesi, bu denetim görevini yerine getirirken Sayıştay'dan yardım sağlar. Nihai karar mercii Anayasa Mahkemesi'dir."
+  },
+  {
+    "id": "vat_011",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "anayasa-turleri",
+    "subtopic": "Anayasa Türleri ve Kurucu İktidar",
+    "q": "Mevcut bir anayasanın öngördüğü kurallara ve çizdiği sınırlara uyarak anayasayı değiştirme yetkisine sahip olan iktidar türü aşağıdakilerden hangisidir?",
+    "o": [
+      "Asli kurucu iktidar",
+      "Tali kurucu iktidar",
+      "Kurulmuş iktidar",
+      "Mutlak iktidar",
+      "Fiili iktidar"
+    ],
+    "a": 1,
+    "e": "Hukuksal bir boşluk ortamında değil, mevcut anayasanın belirlediği usul ve esaslar çerçevesinde anayasa değişikliği yapan iktidara 'Tali Kurucu İktidar' denir. Asli kurucu iktidar ise devrim, darbe veya savaş gibi olağanüstü durumlarda, hukuk boşluğunda yeni bir anayasa yapan sınırsız iktidardır."
+  },
+  {
+    "id": "vat_012",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "devletin-nitelikleri",
+    "subtopic": "Cumhuriyetin Temel Nitelikleri",
+    "q": "1982 Anayasası'nın 2. maddesinde belirtilen Cumhuriyetin nitelikleri ile ilgili;\n\nI. İnsan haklarına dayalı devlet\nII. Atatürk milliyetçiliğine bağlı devlet\nIII. Laik devlet\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 3,
+    "e": "1982 Anayasası'nın 2. maddesine göre Türkiye Cumhuriyeti; insan haklarına 'saygılı', Atatürk milliyetçiliğine 'bağlı', demokratik, laik ve sosyal bir hukuk devletidir. 'İnsan haklarına dayalı' ifadesi 1961 Anayasası'na aittir; 1982 Anayasası 'saygılı' ifadesini kullanır. Bu nedenle I. öncül yanlıştır."
+  },
+  {
+    "id": "vat_013",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "temel-haklar",
+    "subtopic": "Temel Hak ve Hürriyetlerin Sınırlanması",
+    "q": "1982 Anayasası'nın 13. maddesine göre, temel hak ve hürriyetlerin sınırlandırılmasında aşağıdakilerden hangisi bir ölçüt olarak öngörülmemiştir?",
+    "o": [
+      "Kanunilik",
+      "Ölçülülük ilkesi",
+      "Hakkın özüne dokunmama",
+      "Laik Cumhuriyetin gereklerine uygunluk",
+      "Genel ahlak ve genel sağlık"
+    ],
+    "a": 4,
+    "e": "Anayasa'nın 13. maddesine göre sınırlama ölçütleri; kanunla sınırlama, Anayasa'nın sözüne ve ruhuna uygunluk, demokratik toplum düzeninin gerekleri, laik Cumhuriyetin gerekleri, ölçülülük ilkesi ve hakkın özüne dokunmama yasağıdır. 'Genel ahlak ve genel sağlık' genel bir sınırlama sebebi değil, bazı özel hakların (örneğin toplantı ve gösteri yürüyüşü) sınırlandırılmasında kullanılan özel sebeplerdir."
+  },
+  {
+    "id": "vat_014",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama",
+    "subtopic": "Milletvekilliğinin Sona Ermesi",
+    "q": "Aşağıdaki durumlardan hangisinde, TBMM Genel Kurulu kararına gerek olmaksızın milletvekilliği kendiliğinden sona erer?",
+    "o": [
+      "Milletvekilinin istifa etmesi",
+      "Milletvekilliği ile bağdaşmayan bir görevde ısrar edilmesi",
+      "Meclis çalışmalarına özürsüz veya izinsiz olarak bir ay içinde toplam beş birleşim günü katılmama",
+      "Cumhurbaşkanı seçilme",
+      "Kısıtlanmayı gerektiren bir suçtan hüküm giyme"
+    ],
+    "a": 3,
+    "e": "Cumhurbaşkanı seçilen kişinin milletvekilliği, seçildiği anda kendiliğinden sona erer; Meclis kararına gerek yoktur. İstifa, devamsızlık ve bağdaşmayan işlerde ısrar durumlarında TBMM Genel Kurulu kararı gerekir. Kesin hüküm giyme durumunda ise mahkeme kararının Genel Kurul'a bildirilmesiyle düşer."
+  },
+  {
+    "id": "vat_015",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama-dokunulmazligi",
+    "subtopic": "Yasama Dokunulmazlığı",
+    "q": "Yasama dokunulmazlığı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "o": [
+      "Milletvekillerini keyfi ve asılsız ceza kovuşturmalarından korumayı amaçlar.",
+      "Dokunulmazlık, milletvekilliği sıfatı devam ettiği sürece geçerlidir.",
+      "Ağır cezayı gerektiren suçüstü hali dokunulmazlık kapsamı dışındadır.",
+      "TBMM kararı ile dokunulmazlığı kaldırılan milletvekilinin vekilliği doğrudan düşer.",
+      "Dokunulmazlığı kaldırılan milletvekili 7 gün içinde Anayasa Mahkemesi'ne itiraz edebilir."
+    ],
+    "a": 3,
+    "e": "Yasama dokunulmazlığının kaldırılması, milletvekilliğinin düşmesi anlamına gelmez. Dokunulmazlık sadece o dosya için yargılama yolunun açılmasını sağlar. Milletvekilliği, ancak yargılama sonucunda hapis cezası alır ve bu karar kesinleşip TBMM Genel Kurulu'na bildirilirse düşer."
+  },
+  {
+    "id": "vat_016",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yurutme",
+    "subtopic": "Cumhurbaşkanlığı Adaylığı",
+    "q": "1982 Anayasası'na göre Cumhurbaşkanlığına aday gösterilmesi ile ilgili;\n\nI. Siyasi parti grupleri\nII. En son yapılan genel seçimlerde toplam geçerli oyların tek başına veya birlikte en az %5'ini alan siyasi partiler\nIII. En az 100.000 seçmen\n\nöncüllerinden hangileri aday gösterebilir?",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Anayasa'nın 101. maddesine göre Cumhurbaşkanlığına; siyasi parti grupleri, en son yapılan genel seçimlerde toplam geçerli oyların tek başına veya birlikte en az yüzde beşini almış olan siyasi partiler ile en az yüz bin seçmen aday gösterebilir."
+  },
+  {
+    "id": "vat_017",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yurutme-ohal",
+    "subtopic": "Olağanüstü Hal Yönetimi",
+    "q": "Olağanüstü hal (OHAL) süresinin uzatılması ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "o": [
+      "Cumhurbaşkanı, süreyi her defasında 6 ayı geçmemek üzere uzatabilir.",
+      "TBMM, Cumhurbaşkanının talebiyle her defasında 4 ayı geçmemek üzere uzatabilir.",
+      "TBMM, kendi inisiyatifiyle süreyi sınırsız olarak uzatabilir.",
+      "Milli Güvenlik Kurulu kararıyla süre 3 ay uzatılabilir.",
+      "Savaş hallerinde bile uzatma süresi 4 ayı geçemez."
+    ],
+    "a": 1,
+    "e": "Olağanüstü hal süresini uzatma yetkisi TBMM'ye aittir. Cumhurbaşkanının talebi üzerine TBMM, her defasında 4 ayı geçmemek üzere süreyi uzatabilir. Savaş hallerinde bu 4 aylık süre şartı aranmaz. (Not: İlan etme yetkisi Cumhurbaşkanında [max 6 ay], uzatma yetkisi TBMM'dedir [max 4 ay])."
+  },
+  {
+    "id": "vat_018",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yargi",
+    "subtopic": "Anayasa Mahkemesi - Somut Norm Denetimi",
+    "q": "Bir davaya bakmakta olan mahkemenin, uygulayacağı kanun hükmünün Anayasa'ya aykırı olduğu kanısına varması veya taraflardan birinin ileri sürdüğü aykırılık iddiasını ciddi bulması durumunda başvurduğu denetim yolu aşağıdakilerden hangisidir?",
+    "o": [
+      "İptal davası",
+      "Soyut norm denetimi",
+      "İtiraz yolu (Somut norm denetimi)",
+      "Bireysel başvuru",
+      "Yüce Divan yargılaması"
+    ],
+    "a": 2,
+    "e": "Görülmekte olan bir davada mahkemenin uygulayacağı kuralı Anayasa'ya aykırı bulması veya aykırılık iddiasını ciddi görmesi üzerine Anayasa Mahkemesi'ne başvurmasına 'İtiraz Yolu' veya 'Somut Norm Denetimi' denir. İptal davası (soyut norm denetimi) ise dava dışı doğrudan açılan davadır."
+  },
+  {
+    "id": "vat_019",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yargi-yuksek-mahkemeler",
+    "subtopic": "Yüksek Mahkemeler",
+    "q": "1982 Anayasası'nda düzenlenen Yüksek Mahkemeler arasında aşağıdakilerden hangisi yer almaz?",
+    "o": [
+      "Anayasa Mahkemesi",
+      "Yargıtay",
+      "Danıştay",
+      "Uyuşmazlık Mahkemesi",
+      "Sayıştay"
+    ],
+    "a": 4,
+    "e": "1982 Anayasası'na göre yüksek mahkemeler; Anayasa Mahkemesi, Yargıtay, Danıştay ve Uyuşmazlık Mahkemesi'dir. Sayıştay, Anayasa'nın yargı bölümünde düzenlenmiş olsa da ve kararları kesin olsa da, Anayasa'da sayılan 'Yüksek Mahkemeler' başlığı altında yer almaz."
+  },
+  {
+    "id": "vat_020",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "anayasa-degisikligi",
+    "subtopic": "Anayasa Değişikliği Usulü",
+    "q": "Anayasa değişikliği teklifi verebilmek için gerekli olan asgari milletvekili sayısı aşağıdakilerden hangisidir?",
+    "o": [
+      "TBMM üye tamsayısının salt çoğunluğu (301)",
+      "TBMM üye tamsayısının üçte biri (200)",
+      "TBMM üye tamsayısının beşte üçü (360)",
+      "TBMM üye tamsayısının üçte ikisi (400)",
+      "TBMM üye tamsayısının onda biri (60)"
+    ],
+    "a": 1,
+    "e": "Anayasa'nın 175. maddesine göre, Anayasa değişikliği teklifi TBMM üye tamsayısının en az üçte biri (1/3) tarafından yazılı olarak verilebilir. Bu sayı güncel olarak 200 milletvekiline tekabül eder."
+  },
+  {
+    "id": "vat_021",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "anayasa-tarihi",
+    "subtopic": "Türk Anayasa Tarihi",
+    "q": "1921 Anayasası (Teşkilat-ı Esasiye) ile ilgili aşağıda verilen öncüllerden hangileri doğrudur?\n\nI. Türkiye Devleti'nin 'yumuşak' ve 'çerçeve' nitelikli tek anayasasıdır.\nII. Güçler ayrılığı ilkesini tam anlamıyla benimsemiştir.\nIII. Yerel yönetimlere geniş yetkiler tanıyan hükümler içermektedir.",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 2,
+    "e": "1921 Anayasası, değiştirilmesi için özel çoğunluklar öngörmediği için 'yumuşak', kısa ve öz olduğu (kazuistik olmadığı) için 'çerçeve' bir anayasadır (I. öncül doğru). Anayasa, güçler birliği (meclis hükümeti) sistemini benimsemiş, güçler ayrılığını reddetmiştir (II. öncül yanlış). Ayrıca 1921 Anayasası, yerel yönetimlere (muhtariyet) geniş yetkiler tanıyan hükümler barındırmıştır (III. öncül doğru)."
+  },
+  {
+    "id": "vat_022",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "devletin-temel-nitelikleri",
+    "subtopic": "Cumhuriyetin Temel Nitelikleri",
+    "q": "1982 Anayasası'nın 2. maddesinde belirtilen 'Sosyal Devlet' ilkesinin hayata geçirilmesi amacıyla devletin kullanabileceği hukuki araçlar arasında aşağıdakilerden hangisi yer almaz?",
+    "o": [
+      "Vergide adalet ilkesi",
+      "Kamulaştırma",
+      "Devletleştirme",
+      "Planlama",
+      "Özelleştirme"
+    ],
+    "a": 4,
+    "e": "Sosyal devlet; vatandaşlarına insan onuruna yaraşır bir hayat seviyesi sunmayı amaçlayan devlettir. Bu amaçla vergi adaleti, kamulaştırma, devletleştirme ve planlama gibi araçları kullanır. Ancak 'özelleştirme', devletin ekonomideki payını küçültmeyi amaçlayan liberal bir ekonomik araçtır ve doğrudan sosyal devletin bir aracı olarak nitelendirilmez; aksine sosyal devlet araçlarının (kamulaştırma/devletleştirme) tersi bir işlemdir."
+  },
+  {
+    "id": "vat_023",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "temel-hak-ve-odevler",
+    "subtopic": "Temel Hak ve Hürriyetlerin Sınırlanması",
+    "q": "1982 Anayasası'nın 15. maddesine göre; savaş, seferberlik veya olağanüstü hallerde dahi dokunulamayan 'çekirdek haklar' (sert çekirdek alan) arasında aşağıdakilerden hangisi bulunmaz?",
+    "o": [
+      "Kişinin yaşama hakkı",
+      "Maddi ve manevi varlığın bütünlüğü",
+      "Suç ve cezaların geçmişe yürütülememesi",
+      "Masumiyet karinesi",
+      "Haberleşme hürriyeti"
+    ],
+    "a": 4,
+    "e": "Anayasa'nın 15. maddesine göre çekirdek haklar: 1) Savaş hukukuna uygun fiiller sonucu meydana gelen ölümler dışında yaşama hakkı, 2) Maddi ve manevi vücut bütünlüğü, 3) Din, vicdan, düşünce ve kanaatleri açıklamaya zorlanamama, 4) Suç ve cezaların geçmişe yürütülememesi, 5) Masumiyet karinesidir. Haberleşme hürriyeti ise olağanüstü durumlarda tamamen durdurulabilir bir haktır."
+  },
+  {
+    "id": "vat_024",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama",
+    "subtopic": "TBMM Üyeliğinin Sona Ermesi",
+    "q": "Türkiye Büyük Millet Meclisi (TBMM) üyeliğinin düşmesi ile ilgili aşağıdaki durumlardan hangisinde, Meclis Genel Kurulu tarafından bir karar alınmasına gerek yoktur (kendiliğinden düşme)?",
+    "o": [
+      "Milletvekilinin istifa etmesi",
+      "Milletvekilinin kısıtlanması",
+      "Milletvekilliği ile bağdaşmayan bir görevde ısrar edilmesi",
+      "Meclis çalışmalarına özürsüz veya izinsiz olarak bir ay içinde toplam beş birleşim günü katılmama",
+      "Cumhurbaşkanı seçilme"
+    ],
+    "a": 4,
+    "e": "Milletvekilinin Cumhurbaşkanı seçilmesi durumunda üyeliği kendiliğinden sona erer; Meclis kararına gerek yoktur. İstifa, devamsızlık ve bağdaşmayan işte ısrar durumlarında TBMM Genel Kurulu'nun kararı gerekir. Kısıtlanma ve kesin hüküm giyme hallerinde ise mahkeme kararının Genel Kurul'a bildirilmesiyle üyelik düşer (yine oylama yapılmaz ancak bildirim şarttır, Cumhurbaşkanı seçilme ise anında etki doğurur ve şıklarda en net 'kendiliğinden' durumdur)."
+  },
+  {
+    "id": "vat_025",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama",
+    "subtopic": "TBMM'nin Görev ve Yetkileri",
+    "q": "Aşağıdakilerden hangisi Türkiye Büyük Millet Meclisi'nin (TBMM) görev ve yetkileri arasında yer almaz?",
+    "o": [
+      "Para basılmasına karar vermek",
+      "Savaş ilanına karar vermek",
+      "Milletlerarası andlaşmaları onaylamak",
+      "Genel ve özel af ilan etmek",
+      "Bütçe ve kesin hesap kanun tekliflerini görüşmek ve kabul etmek"
+    ],
+    "a": 2,
+    "e": "1982 Anayasası'na göre milletlerarası andlaşmaların onaylanmasını 'uygun bulmak' TBMM'nin görevidir; ancak andlaşmaları 'onaylamak ve yayımlamak' Cumhurbaşkanı'nın görevidir. Bu ayrım ÖSYM tarafından sıkça sorulan teknik bir detaydır."
+  },
+  {
+    "id": "vat_026",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yurutme",
+    "subtopic": "Cumhurbaşkanlığı Kararnameleri",
+    "q": "Olağan Dönem Cumhurbaşkanlığı Kararnameleri (CBK) ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "o": [
+      "Yürütme yetkisine ilişkin konularda çıkarılabilir.",
+      "Sosyal ve ekonomik haklar düzenlenebilirken, siyasi haklar (kural olarak) düzenlenemez.",
+      "Kanunda açıkça düzenlenen konularda CBK çıkarılamaz.",
+      "TBMM'nin aynı konuda kanun çıkarması durumunda CBK hükümsüz hale gelir.",
+      "Yargısal denetimi Danıştay tarafından yapılır."
+    ],
+    "a": 4,
+    "e": "Cumhurbaşkanlığı Kararnamelerinin (CBK) yargısal denetimi Anayasa Mahkemesi tarafından yapılır, Danıştay tarafından değil. Danıştay, idari işlemlerin (tüzük -mülga-, yönetmelik vb.) yargısal denetimini yapar veya Cumhurbaşkanınca alınan idari kararlara bakar, ancak CBK bir norm koyma işlemidir ve denetimi AYM'dedir."
+  },
+  {
+    "id": "vat_027",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yargi",
+    "subtopic": "Yüksek Mahkemeler",
+    "q": "1982 Anayasası'na göre, aşağıdakilerden hangisi yüksek mahkemelerden biri değildir?",
+    "o": [
+      "Anayasa Mahkemesi",
+      "Yargıtay",
+      "Danıştay",
+      "Sayıştay",
+      "Uyuşmazlık Mahkemesi"
+    ],
+    "a": 3,
+    "e": "1982 Anayasası'nda sayılan yüksek mahkemeler: Anayasa Mahkemesi, Yargıtay, Danıştay ve Uyuşmazlık Mahkemesi'dir. Sayıştay, Anayasa'nın yargı bölümünde düzenlenmiş olsa da bir 'Yüksek Mahkeme' statüsünde değildir; kararları kesindir ancak hiyerarşik olarak yüksek mahkemeler başlığı altında sayılmamıştır."
+  },
+  {
+    "id": "vat_028",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "anayasa-degisikligi",
+    "subtopic": "Anayasa Değişikliği Süreci",
+    "q": "Anayasa değişikliği tekliflerinin TBMM Genel Kurulu'nda kabulü ve onay süreci ile ilgili aşağıdaki eşleştirmelerden hangisi doğrudur?",
+    "o": [
+      "300 - 360 arası kabul: Cumhurbaşkanı onaylayabilir.",
+      "360 - 400 arası kabul: Cumhurbaşkanı zorunlu olarak halkoyuna sunar.",
+      "400 ve üzeri kabul: Cumhurbaşkanı halkoyuna sunamaz, onaylamak zorundadır.",
+      "Teklif Yeter Sayısı: Üye tamsayısının salt çoğunluğudur (301).",
+      "Kabul Yeter Sayısı: En az üye tamsayısının 2/3'üdür."
+    ],
+    "a": 1,
+    "e": "Anayasa değişikliği teklifleri 360 (3/5) ile 400 (2/3) arasında bir oyla kabul edilirse, Cumhurbaşkanı bu değişikliği onaylayamaz; ya Meclis'e geri gönderir ya da zorunlu olarak halkoyuna (referanduma) sunar. 400 ve üzeri kabulde ise ihtiyari referandum hakkı vardır. Teklif yeter sayısı 1/3 (200 milletvekili), en düşük kabul yeter sayısı ise 3/5 (360 milletvekili)'tir."
+  },
+  {
+    "id": "vat_029",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yurutme",
+    "subtopic": "Devlet Denetleme Kurulu",
+    "q": "Devlet Denetleme Kurulu (DDK) ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Cumhurbaşkanlığına bağlıdır.",
+      "Üyelerini ve başkanını Cumhurbaşkanı atar.",
+      "Yargı organlarını denetleyemez.",
+      "Türk Silahlı Kuvvetlerini denetleyemez.",
+      "İdari soruşturma yapma yetkisine sahiptir."
+    ],
+    "a": 3,
+    "e": "2017 Anayasa değişikliği ile Devlet Denetleme Kurulu'nun (DDK) Türk Silahlı Kuvvetleri'ni denetlemesinin önündeki engel kaldırılmıştır. Artık TSK'yı denetleyebilir. Ancak DDK, yargı organlarını (mahkemeleri) denetleyemez. Dolayısıyla 'Türk Silahlı Kuvvetlerini denetleyemez' ifadesi yanlıştır, artık denetleyebilir."
+  },
+  {
+    "id": "vat_030",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "idare-hukuku-kavramlari",
+    "subtopic": "Hiyerarşi ve Vesayet",
+    "q": "Aşağıdaki idari birimler arasındaki ilişkilerden hangisi 'idari vesayet' denetimine örnektir?",
+    "o": [
+      "İçişleri Bakanlığı - Emniyet Genel Müdürlüğü",
+      "Vali - Kaymakam",
+      "Rektör - Dekan",
+      "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı - Ankara Büyükşehir Belediyesi",
+      "Büyükşehir Belediye Başkanı - Belediye Zabıta Müdürü"
+    ],
+    "a": 3,
+    "e": "İdari vesayet, merkezi idarenin yerinden yönetim kuruluşları üzerindeki denetim yetkisidir (Farklı tüzel kişilikler arası). Bakanlık (Devlet tüzel kişiliği) ile Belediye (Kamu tüzel kişiliği) arasındaki ilişki vesayettir. Diğer seçeneklerin tamamı (Bakan-Genel Md., Vali-Kaymakam vb.) aynı tüzel kişilik (Devlet tüzel kişiliği) içinde olduğu için hiyerarşi ilişkisidir."
+  },
+  {
+    "id": "vat_031",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "turk-anayasa-tarihi",
+    "subtopic": "Türk Anayasa Tarihi",
+    "q": "Türk anayasa tarihinde 'Tek yumuşak ve tek çerçeve anayasa' olma özelliğine sahip olan, egemenliği ilk kez kayıtsız şartsız millete veren anayasal belge aşağıdakilerden hangisidir?",
+    "o": [
+      "1921 Anayasası (Teşkilat-ı Esasiye)",
+      "1876 Kanun-i Esasi",
+      "1924 Anayasası",
+      "1961 Anayasası",
+      "1982 Anayasası"
+    ],
+    "a": 0,
+    "e": "1921 Anayasası (Teşkilat-ı Esasiye), 23 maddeden ve bir geçici maddeden oluşan kısa ve öz bir metin olduğu için 'çerçeve', değiştirilmesi için nitelikli çoğunluk aranmadığı (adi kanunlar gibi değiştirilebildiği) için 'yumuşak' anayasadır. Türk hukuk tarihinin tek yumuşak ve çerçeve anayasasıdır. Ayrıca 'Egemenlik kayıtsız şartsız milletindir' ilkesi ilk kez bu anayasada yer almıştır."
+  },
+  {
+    "id": "vat_032",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "temel-hak-ve-hurriyetler",
+    "subtopic": "Temel Hak ve Hürriyetler",
+    "q": "1982 Anayasası'nın 13. maddesine göre, temel hak ve hürriyetlerin sınırlandırılmasında aşağıdakilerden hangisi bir ölçüt olarak belirtilmemiştir?",
+    "o": [
+      "Kanunilik ilkesi",
+      "Anayasanın sözüne ve ruhuna uygunluk",
+      "Demokratik toplum düzeninin gereklerine uygunluk",
+      "Ölçülülük ilkesi",
+      "Genel ahlaka uygunluk"
+    ],
+    "a": 4,
+    "e": "1982 Anayasası'nın 13. maddesine göre temel hak ve hürriyetler; özlerine dokunulmaksızın yalnızca anayasanın ilgili maddelerinde belirtilen sebeplere bağlı olarak ve ancak kanunla sınırlanabilir. Bu sınırlamalar; Anayasanın sözüne ve ruhuna, demokratik toplum düzeninin ve laik Cumhuriyetin gereklerine ve ölçülülük ilkesine aykırı olamaz. 'Genel ahlaka uygunluk' 13. maddede sayılan genel sınırlama ölçütlerinden biri değildir (2001 değişikliği ile genel sınırlama sebepleri kaldırılmıştır)."
+  },
+  {
+    "id": "vat_033",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama",
+    "subtopic": "Yasama Organı",
+    "q": "1982 Anayasası'na göre, Türkiye Büyük Millet Meclisi (TBMM) üyeliğinin düşmesi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "o": [
+      "İstifa eden milletvekilinin üyeliğinin düşmesi için TBMM Genel Kurulu'nun kararı gereklidir.",
+      "Milletvekilliğiyle bağdaşmayan bir görev sürdürmekte ısrar eden üyenin üyeliğinin düşmesine TBMM Genel Kurulu gizli oyla karar verir.",
+      "Meclis çalışmalarına özürsüz veya izinsiz olarak bir ay içinde toplam beş birleşim günü katılmayan milletvekilinin üyeliği, durumun Meclis Başkanlık Divanı'nca tespiti üzerine Genel Kurul kararıyla düşer.",
+      "Partisinin temelli kapatılmasına beyan ve eylemleriyle sebep olan milletvekilinin üyeliği, Anayasa Mahkemesi'nin gerekçeli kararının Resmi Gazete'de yayımlanmasıyla kendiliğinden sona erer.",
+      "Cumhurbaşkanı seçilen milletvekilinin üyeliği, TBMM Genel Kurulu'nda yapılacak oylama sonucunda düşer."
+    ],
+    "a": 4,
+    "e": "Cumhurbaşkanı seçilen milletvekilinin TBMM üyeliği, seçildiği anda kendiliğinden sona erer. Bunun için TBMM Genel Kurulu'nda bir oylama veya karar alınmasına gerek yoktur. Diğer seçeneklerde belirtilen istifa, devamsızlık ve bağdaşmazlık durumlarında Genel Kurul kararı gerekirken; Cumhurbaşkanı seçilme, ölüm ve gaiplik gibi durumlarda üyelik kendiliğinden düşer."
+  },
+  {
+    "id": "vat_034",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama",
+    "subtopic": "Yasama Fonksiyonları",
+    "q": "1982 Anayasası'na göre, aşağıdakilerden hangisi TBMM'nin görev ve yetkileri arasında yer almaz?",
+    "o": [
+      "Savaş ilanına karar vermek",
+      "Genel ve özel af ilan etmek",
+      "Milletlerarası antlaşmaların onaylanmasını uygun bulmak",
+      "Kanunların Anayasaya uygunluğunu denetlemek",
+      "Bütçe ve kesin hesap kanun tekliflerini görüşmek ve kabul etmek"
+    ],
+    "a": 3,
+    "e": "Kanunların, Cumhurbaşkanlığı kararnamelerinin ve TBMM İçtüzüğü'nün Anayasaya şekil ve esas bakımdan uygunluğunu denetlemek (iptal davası veya itiraz yoluyla) Anayasa Mahkemesi'nin görevidir, TBMM'nin görevi değildir. Diğer seçenekler TBMM'nin asli yetkilerindendir."
+  },
+  {
+    "id": "vat_035",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yurutme",
+    "subtopic": "Yürütme Organı",
+    "q": "Cumhurbaşkanlığı Kararnameleri (CBK) ile ilgili olarak aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "o": [
+      "Olağan dönem Cumhurbaşkanlığı kararnameleri ile temel haklar, kişi hakları ve ödevleri ile siyasi haklar ve ödevler düzenlenemez.",
+      "Kanunda açıkça düzenlenen konularda Cumhurbaşkanlığı kararnamesi çıkarılamaz.",
+      "Cumhurbaşkanlığı kararnamesi ile kanunlarda farklı hükümler bulunması halinde, Cumhurbaşkanlığı kararnamesi hükümleri uygulanır.",
+      "TBMM'nin aynı konuda kanun çıkarması durumunda, Cumhurbaşkanlığı kararnamesi hükümsüz hale gelir.",
+      "Olağan dönem Cumhurbaşkanlığı kararnamelerinin yargısal denetimini Anayasa Mahkemesi yapar."
+    ],
+    "a": 2,
+    "e": "1982 Anayasası'na göre, Cumhurbaşkanlığı kararnamesi ile kanunlarda farklı hükümler bulunması halinde, kanun hükümleri uygulanır (Normlar hiyerarşisi gereği kanun, olağan CBK'dan üstündür). Diğer seçenekler doğrudur; sosyal ve ekonomik haklar dışındaki haklar olağan CBK ile düzenlenemez, kanunda açıkça düzenlenen konularda CBK çıkarılamaz."
+  },
+  {
+    "id": "vat_036",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yurutme",
+    "subtopic": "Devlet Denetleme Kurulu",
+    "q": "I. Yargı organları\nII. Türk Silahlı Kuvvetleri\nIII. Meslek kuruluşları (Kamu kurumu niteliğindeki)\nIV. İşçi ve işveren meslek kuruluşları\n\n1982 Anayasası'na göre, Devlet Denetleme Kurulu (DDK) yukarıdaki kurum ve kuruluşlardan hangilerini denetleyebilir?",
+    "o": [
+      "Yalnız II",
+      "I ve II",
+      "II, III ve IV",
+      "I, III ve IV",
+      "I, II, III ve IV"
+    ],
+    "a": 2,
+    "e": "Devlet Denetleme Kurulu (DDK), Cumhurbaşkanlığına bağlıdır. Yargı organları DDK'nın denetim alanı dışındadır. 2017 Anayasa değişikliği ile Türk Silahlı Kuvvetleri (TSK) DDK'nın denetim kapsamına alınmıştır. DDK; tüm kamu kurum ve kuruluşlarını, sermayesinin yarısından fazlasına bu kurumların katıldığı her türlü kuruluşu, kamu kurumu niteliğindeki meslek kuruluşlarını, işçi ve işveren meslek kuruluşlarını ve kamuya yararlı dernek ve vakıfları denetleyebilir."
+  },
+  {
+    "id": "vat_037",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yargi",
+    "subtopic": "Anayasa Mahkemesi",
+    "q": "1982 Anayasası'na göre, Anayasa Mahkemesi'nde iptal davası (soyut norm denetimi) açma yetkisi ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Cumhurbaşkanı iptal davası açabilir.",
+      "TBMM'de en fazla üyeye sahip iki siyasi parti grubu iptal davası açabilir.",
+      "TBMM üye tamsayısının en az beşte biri (1/5) tutarındaki milletvekilleri iptal davası açabilir.",
+      "İktidar partisi grubu iptal davası açabilir.",
+      "Adalet Bakanı resen iptal davası açabilir."
+    ],
+    "a": 4,
+    "e": "Anayasa Mahkemesi'ne iptal davası açma yetkisi; Cumhurbaşkanına, TBMM'de en fazla üyeye sahip iki siyasi parti grubuna ve TBMM üye tamsayısının en az beşte biri (120 milletvekili) tutarındaki milletvekillerine tanınmıştır. Adalet Bakanı'nın veya başka bir bakanın tek başına veya bakan sıfatıyla iptal davası açma yetkisi yoktur."
+  },
+  {
+    "id": "vat_038",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yargi",
+    "subtopic": "Hakimler ve Savcılar Kurulu",
+    "q": "I. Adalet Bakanı\nII. Adalet Bakanı Yardımcısı\nIII. Cumhurbaşkanı tarafından seçilen üyeler\nIV. Yargıtay tarafından seçilen üyeler\n\n1982 Anayasası'na göre, Hakimler ve Savcılar Kurulu'nun (HSK) yapısı ile ilgili yukarıdakilerden hangileri doğrudur?",
+    "o": [
+      "I ve II",
+      "I, II ve III",
+      "II ve IV",
+      "I, III ve IV",
+      "I, II, III ve IV"
+    ],
+    "a": 1,
+    "e": "Hakimler ve Savcılar Kurulu (HSK) 13 üyeden oluşur. Kurulun başkanı Adalet Bakanı'dır (I). Adalet Bakanı Yardımcısı kurulun tabii üyesidir (II). Kurulun 4 üyesini Cumhurbaşkanı, 7 üyesini ise TBMM seçer. Yargıtay veya Danıştay gibi yüksek mahkemeler doğrudan HSK'ya üye seçmezler (IV yanlıştır); ancak TBMM tarafından seçilecek üyeler Yargıtay ve Danıştay üyeleri ile öğretim üyeleri ve avukatlar arasından belirlenir."
+  },
+  {
+    "id": "vat_039",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "idare-hukuku",
+    "subtopic": "Anayasal İdari Kurumlar",
+    "q": "1982 Anayasası'nda düzenlenen Yüksek Seçim Kurulu (YSK) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "o": [
+      "Kararları aleyhine başka bir mercie başvurulamaz.",
+      "Üyeleri Yargıtay ve Danıştay genel kurullarınca kendi üyeleri arasından seçilir.",
+      "7 asıl ve 4 yedek üyeden oluşur.",
+      "Anayasa'nın 'Yargı' bölümünde düzenlenmiş bir yüksek mahkemedir.",
+      "Seçimlerin başlamasından bitimine kadar, seçimin düzen içinde yönetimi ve dürüstlüğü ile ilgili bütün işlemleri yapar."
+    ],
+    "a": 3,
+    "e": "Yüksek Seçim Kurulu (YSK), Anayasa'nın 'Yasama' bölümünde (m. 79) düzenlenmiştir, 'Yargı' bölümünde değil. YSK, seçimlerin yargısal denetimini yapmasına ve kararları kesin olmasına rağmen, Anayasa'da sayılan 'Yüksek Mahkemeler' (AYM, Yargıtay, Danıştay, Uyuşmazlık Mahkemesi) arasında yer almaz. Özel statülü anayasal bir kuruldur."
+  },
+  {
+    "id": "vat_040",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "anayasa-degisikligi",
+    "subtopic": "Anayasa Değişikliği Süreci",
+    "q": "1982 Anayasası'na göre, Anayasa değişikliği teklifinin TBMM Genel Kurulu'nda kabul edilebilmesi için gereken asgari çoğunluk ve bu çoğunlukla kabul edilen değişikliğin onay süreci ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "o": [
+      "Üye tamsayısının salt çoğunluğu (301) - Cumhurbaşkanı onayı",
+      "Üye tamsayısının beşte üçü (360) - Cumhurbaşkanı tarafından zorunlu halkoylamasına sunulması",
+      "Üye tamsayısının üçte ikisi (400) - Cumhurbaşkanı tarafından doğrudan onaylanması",
+      "Üye tamsayısının beşte üçü (360) ile üçte ikisi (400) arası - Cumhurbaşkanı tarafından meclise iade veya zorunlu halkoylaması",
+      "Üye tamsayısının dörtte üçü (450) - Cumhurbaşkanı onayı"
+    ],
+    "a": 3,
+    "e": "Anayasa değişikliği teklifleri TBMM üye tamsayısının en az 3/5'i (360) ile kabul edilebilir. Eğer kabul oyu 360 ile 400 (2/3) arasındaysa, Cumhurbaşkanı değişikliği ya Meclis'e iade eder ya da halkoylamasına (referanduma) sunmak zorundadır. Eğer 400 (2/3) ve üzeri oyla kabul edilirse, Cumhurbaşkanı onaylayabilir, iade edebilir veya ihtiyari olarak halkoylamasına sunabilir."
+  },
+  {
+    "id": "vat_041",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "turk-anayasa-tarihi",
+    "subtopic": "Türk Anayasa Tarihi",
+    "q": "1921 Anayasası (Teşkilat-ı Esasiye Kanunu) ile ilgili aşağıda verilen öncüllerden hangileri doğrudur?\n\nI. Türk hukuk tarihinin tek çerçeve anayasasıdır.\nII. Güçler ayrılığı ilkesini benimsemiştir.\nIII. En sert ve kazuistik anayasadır.\nIV. Yerel yönetimlere geniş yetkiler tanımıştır.",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve IV",
+      "II, III ve IV",
+      "I, II ve IV"
+    ],
+    "a": 2,
+    "e": "1921 Anayasası, 23 maddeden oluşan kısa ve öz yapısıyla Türk anayasa tarihinin tek 'çerçeve' anayasasıdır (I. öncül doğru). Meclis hükümeti sistemini benimsediği için güçler birliği ilkesi hakimdir (II. öncül yanlış). Değiştirilmesi için özel çoğunluk aranmadığından 'yumuşak' bir anayasadır (III. öncül yanlış). Anayasa'da yerel yönetimlere (muhtariyet) geniş yer verilmiş ve adem-i merkeziyetçilik anlayışı gözetilmiştir (IV. öncül doğru). Doğru cevap I ve IV'tür."
+  },
+  {
+    "id": "vat_042",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "temel-hak-ve-hurriyetler",
+    "subtopic": "Temel Hak ve Hürriyetler",
+    "q": "1982 Anayasası'nın 15. maddesine göre; savaş, seferberlik veya olağanüstü hallerde dahi dokunulamayan 'Çekirdek Haklar' arasında aşağıdakilerden hangisi yer almaz?",
+    "o": [
+      "Kişinin yaşama hakkı",
+      "Maddi ve manevi varlığın bütünlüğü",
+      "Suç ve cezaların geçmişe yürütülememesi",
+      "Masumiyet karinesi",
+      "Haberleşme hürriyeti"
+    ],
+    "a": 4,
+    "e": "1982 Anayasası'nın 15. maddesinde sayılan çekirdek haklar; yaşama hakkı, maddi ve manevi vücut bütünlüğü, din ve vicdan hürriyeti ile düşünce ve kanaatleri açıklama yasağı (bunlardan dolayı suçlanamama), suç ve cezaların geçmişe yürütülememesi ve masumiyet karinesidir. Haberleşme hürriyeti olağan dönemlerde kanunla, olağanüstü dönemlerde ise Cumhurbaşkanlığı Kararnamesi ile sınırlandırılabilen veya durdurulabilen bir haktır, çekirdek hak statüsünde değildir."
+  },
+  {
+    "id": "vat_043",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama",
+    "subtopic": "Yasama Organı",
+    "q": "Türkiye Büyük Millet Meclisi (TBMM) üyeliğinin düşmesi ile ilgili aşağıdaki durumlardan hangisinde, Meclis Genel Kurulu kararına gerek yoktur?",
+    "o": [
+      "Milletvekilinin istifa etmesi",
+      "Milletvekilinin devamsızlık yapması",
+      "Milletvekilliği ile bağdaşmayan bir görevde ısrar edilmesi",
+      "Milletvekilinin Cumhurbaşkanı seçilmesi",
+      "Milletvekilinin kısıtlanması üzerine kesin mahkeme kararının Genel Kurula bildirilmesi"
+    ],
+    "a": 3,
+    "e": "Milletvekilinin Cumhurbaşkanı seçilmesi durumunda üyeliği kendiliğinden (otomatik) düşer, Meclis kararına gerek yoktur. Ancak istifa, devamsızlık ve bağdaşmayan işlerde ısrar durumlarında TBMM Genel Kurulu'nun oylaması (kararı) gerekir. Kısıtlanma veya kesin hüküm giyme halinde ise mahkeme kararının Genel Kurula bildirilmesiyle üyelik düşer; oylama yapılmaz ancak bildirim şarttır. Soru 'karara gerek yoktur' dediği için Cumhurbaşkanı seçilmesi (veya ölüm gibi haller) doğrudan düşme sebebidir."
+  },
+  {
+    "id": "vat_044",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yurutme",
+    "subtopic": "Yürütme Organı",
+    "q": "1982 Anayasası'na göre Cumhurbaşkanlığı Kararnameleri (CBK) ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Olağan dönem kararnameleri ile sosyal ve ekonomik haklar düzenlenebilir.",
+      "Kanunda açıkça düzenlenen konularda olağan CBK çıkarılamaz.",
+      "TBMM'nin aynı konuda kanun çıkarması durumunda olağan CBK hükümsüz hale gelir.",
+      "Olağanüstü hal (OHAL) kararnameleri ile çekirdek haklar hariç tüm haklar düzenlenebilir.",
+      "Olağan dönem CBK'ları Resmi Gazete'de yayımlandıktan sonra TBMM onayına sunulur."
+    ],
+    "a": 4,
+    "e": "Olağan dönem Cumhurbaşkanlığı Kararnameleri TBMM onayına sunulmaz; yayımlandığı gün veya belirtilen tarihte yürürlüğe girer ve yargısal denetimi Anayasa Mahkemesi yapar (E seçeneği yanlıştır). OHAL kararnameleri ise TBMM onayına sunulmak zorundadır. Diğer seçenekler doğrudur: Olağan CBK ile sosyal haklar düzenlenebilir, siyasi haklar düzenlenemez. Kanunla çelişirse kanun esas alınır."
+  },
+  {
+    "id": "vat_045",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yargi",
+    "subtopic": "Yargı Organı",
+    "q": "Anayasa Mahkemesi'ne 'Bireysel Başvuru' yolu ile ilgili aşağıdakilerden hangisi söylenemez?",
+    "o": [
+      "Bireysel başvuru için olağan kanun yollarının tüketilmiş olması gerekir.",
+      "Kamu tüzel kişileri bireysel başvuruda bulunamazlar.",
+      "Yalnızca Anayasa'da güvence altına alınan temel haklar için başvurulabilir.",
+      "Avrupa İnsan Hakları Sözleşmesi kapsamındaki hakların ihlali iddiası da gereklidir.",
+      "Anayasa değişikliklerinin iptali için bireysel başvuru yoluna gidilebilir."
+    ],
+    "a": 4,
+    "e": "Bireysel başvuru, Anayasa'da güvence altına alınan temel hak ve özgürlüklerden, Avrupa İnsan Hakları Sözleşmesi (AİHS) ve buna ek protokoller kapsamındaki haklardan herhangi birinin kamu gücü tarafından ihlal edildiği iddiasıyla yapılır. Ancak Anayasa değişikliklerinin veya kanunların iptali için bireysel başvuru yapılamaz; bu 'soyut norm denetimi' veya 'itiraz yolu'nun konusudur. Bireysel başvuru, somut bir hak ihlaline ilişkindir."
+  },
+  {
+    "id": "vat_046",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "idare-hukuku-anayasa",
+    "subtopic": "Anayasal Kurumlar",
+    "q": "Hakimler ve Savcılar Kurulu (HSK) ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "o": [
+      "Kurulun başkanı Yargıtay Cumhuriyet Başsavcısıdır.",
+      "Üyelerinin tamamı TBMM tarafından seçilir.",
+      "Kurul, iki daire halinde çalışır.",
+      "Adalet Bakanı kurulun doğal üyesi değil, başkanıdır.",
+      "Kurulun meslekten çıkarma cezalarına karşı yargı yolu kapalıdır."
+    ],
+    "a": 2,
+    "e": "Hakimler ve Savcılar Kurulu (HSK) iki daire halinde çalışır (C seçeneği doğru). Kurulun başkanı Adalet Bakanıdır (A ve D yanlış). Üyelerin 7'sini TBMM, 4'ünü Cumhurbaşkanı seçer (B yanlış). 2017 değişikliği ile Kurulun meslekten çıkarma cezalarına karşı yargı yolu açılmıştır (E yanlış)."
+  },
+  {
+    "id": "vat_047",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama",
+    "subtopic": "Anayasa Değişikliği",
+    "q": "1982 Anayasası'na göre, Anayasa değişikliği teklifinin TBMM Genel Kurulu'nda kabul edilebilmesi için gereken asgari çoğunluk ve bu çoğunlukla kabul edilen değişikliğin onay süreci aşağıdakilerden hangisinde doğru eşleştirilmiştir?",
+    "o": [
+      "Üye tamsayısının salt çoğunluğu - Cumhurbaşkanı onayı",
+      "Üye tamsayısının 3/5'i - Zorunlu Referandum",
+      "Üye tamsayısının 2/3'ü - İhtiyari Referandum",
+      "Üye tamsayısının 3/5'i ile 2/3'ü arası - İhtiyari Referandum",
+      "Üye tamsayısının 3/4'ü - Doğrudan Onay"
+    ],
+    "a": 1,
+    "e": "Anayasa değişikliği teklifinin kabulü için en az üye tamsayısının 3/5'inin (360 milletvekili) oyu gerekir. Eğer kabul oyları 3/5 (360) ile 2/3 (400) arasında kalırsa, Cumhurbaşkanı değişikliği onaylayamaz, Meclis'e geri göndermezse 'Zorunlu Referandum'a sunmak zorundadır. Eğer 2/3 (400) ve üzeri oy ile kabul edilirse, Cumhurbaşkanı dilerse onaylar, dilerse halkoyuna sunar (İhtiyari Referandum). Doğru eşleştirme B seçeneğidir."
+  },
+  {
+    "id": "vat_048",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "hukukun-temel-kavramlari",
+    "subtopic": "Normlar Hiyerarşisi",
+    "q": "1982 Anayasası'nın 90. maddesine göre, usulüne göre yürürlüğe konulmuş temel hak ve özgürlüklere ilişkin milletlerarası antlaşmalar ile kanunların aynı konuda farklı hükümler içermesi durumunda nasıl bir yol izlenir?",
+    "o": [
+      "Kanun hükümleri esas alınır.",
+      "Daha sonraki tarihli olan düzenleme esas alınır.",
+      "Milletlerarası antlaşma hükümleri esas alınır.",
+      "Konu Anayasa Mahkemesi'ne taşınır.",
+      "Uyuşmazlık Mahkemesi karar verir."
+    ],
+    "a": 2,
+    "e": "Anayasa'nın 90. maddesinin son fıkrasına göre; usulüne göre yürürlüğe konulmuş temel hak ve özgürlüklere ilişkin milletlerarası antlaşmalarla kanunların aynı konuda farklı hükümler içermesi nedeniyle çıkabilecek uyuşmazlıklarda 'milletlerarası antlaşma hükümleri' esas alınır. Bu durumda kanun ihmal edilir, antlaşma uygulanır."
+  },
+  {
+    "id": "vat_049",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "siyasi-partiler",
+    "subtopic": "Siyasi Partiler Hukuku",
+    "q": "Siyasi partilerin mali denetimi ve kapatılması davaları ile ilgili aşağıdaki eşleştirmelerden hangisi doğrudur?",
+    "o": [
+      "Mali Denetim: Sayıştay - Kapatma Davası Kararı: Yargıtay",
+      "Mali Denetim: Anayasa Mahkemesi - Kapatma Davası Kararı: Anayasa Mahkemesi",
+      "Mali Denetim: Maliye Bakanlığı - Kapatma Davası Kararı: Danıştay",
+      "Mali Denetim: Sayıştay - Kapatma Davası Kararı: Anayasa Mahkemesi",
+      "Mali Denetim: Anayasa Mahkemesi - Kapatma Davası Kararı: Yargıtay"
+    ],
+    "a": 1,
+    "e": "Siyasi partilerin mali denetimini 'Anayasa Mahkemesi' yapar (Ancak bu denetimi yaparken Sayıştay'dan yardım alır, nihai karar AYM'nindir). Siyasi partilerin kapatılması davasını Yargıtay Cumhuriyet Başsavcısı açar, ancak kapatma kararını verecek olan merci yine 'Anayasa Mahkemesi'dir. Dolayısıyla her iki yetki de nihai olarak Anayasa Mahkemesi'ne aittir."
+  },
+  {
+    "id": "vat_050",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama",
+    "subtopic": "Yasama Dokunulmazlığı",
+    "q": "Yasama dokunulmazlığı ile ilgili;\n\nI. Nispi bir koruma sağlar.\nII. Milletvekilliği sıfatı sona erinceye kadar devam eder.\nIII. Sadece ceza davalarına karşı koruma sağlar, hukuk davalarını engellemez.\nIV. Meclis kararı ile kaldırılabilir.\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "I ve II",
+      "II ve III",
+      "I, III ve IV",
+      "II, III ve IV",
+      "I, II, III ve IV"
+    ],
+    "a": 4,
+    "e": "Yasama dokunulmazlığı; milletvekilinin seçimden önce veya sonra bir suç işlediği iddiasıyla tutulmasını, sorguya çekilmesini, tutuklanmasını ve yargılanmasını engelleyen geçici (nispi) bir korumadır (I doğru). Vekillik süresince geçerlidir (II doğru). Sadece ceza yargılamasına karşıdır, tazminat (hukuk) davalarına engel değildir (III doğru). TBMM Genel Kurulu kararıyla kaldırılabilir (IV doğru). Hepsi doğrudur."
+  },
+  {
+    "id": "vat_051",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "anayasa-temel-kavramlar",
+    "subtopic": "Anayasa Hukuku Temel Kavramlar",
+    "q": "Mevcut bir anayasal düzen içerisinde, anayasanın öngördüğü kurallara bağlı kalınarak anayasanın değiştirilmesi yetkisine ne ad verilir?",
+    "o": [
+      "Asli kurucu iktidar",
+      "Tali kurucu iktidar",
+      "Kurulmuş iktidar",
+      "Maddi iktidar",
+      "Mutlak iktidar"
+    ],
+    "a": 1,
+    "e": "Tali (türev) kurucu iktidar, mevcut anayasanın çizdiği hukuksal çerçeve içinde ve onun öngördüğü usullere uyarak anayasayı değiştirme yetkisidir. Asli kurucu iktidar ise hukuk boşluğu ortamında (darbe, devrim, savaş vb.) yeni bir anayasa yapma yetkisidir."
+  },
+  {
+    "id": "vat_052",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "1982-anayasa-genel-esaslar",
+    "subtopic": "1982 Anayasası Genel Esaslar",
+    "q": "1982 Anayasası'nın 'Cumhuriyetin Nitelikleri'ni düzenleyen 2. maddesinde aşağıdakilerden hangisi yer almaz?",
+    "o": [
+      "İnsan haklarına saygılı devlet",
+      "Atatürk milliyetçiliğine bağlı devlet",
+      "Demokratik devlet",
+      "Laik devlet",
+      "Bölünmez bütünlüğe sahip devlet"
+    ],
+    "a": 4,
+    "e": "1982 Anayasası'nın 2. maddesinde Cumhuriyetin nitelikleri; 'insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, başlangıçta belirtilen temel ilkelere dayanan, demokratik, laik ve sosyal bir hukuk devleti' olarak sayılmıştır. 'Devletin ülkesi ve milletiyle bölünmez bütünlüğü' ilkesi 2. maddede değil, 3. maddede düzenlenen devletin bütünlüğü başlığı altında yer alır."
+  },
+  {
+    "id": "vat_053",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "temel-hak-ve-hurriyetler",
+    "subtopic": "Temel Hak ve Hürriyetlerin Sınırlandırılması",
+    "q": "1982 Anayasası'nın 13. maddesine göre, temel hak ve hürriyetlerin sınırlandırılmasında aşağıdaki ölçütlerden hangisine uyulması zorunlu değildir?",
+    "o": [
+      "Sınırlamanın kanunla yapılması",
+      "Sınırlamanın anayasanın sözüne ve ruhuna uygun olması",
+      "Sınırlamanın demokratik toplum düzeninin gereklerine aykırı olmaması",
+      "Sınırlamanın genel sınırlama sebeplerine dayanması",
+      "Sınırlamanın ölçülülük ilkesine aykırı olmaması"
+    ],
+    "a": 3,
+    "e": "2001 yılında yapılan anayasa değişikliği ile 'genel sınırlama sebepleri' anayasadan çıkarılmış, her hak için ilgili maddesinde belirtilen 'özel sınırlama sebepleri' geçerli hale gelmiştir. Diğer seçenekler (kanunilik, anayasanın sözü ve ruhu, demokratik toplum düzeni, laik Cumhuriyet gerekleri ve ölçülülük) 13. maddedeki geçerli sınırlama ölçütleridir."
+  },
+  {
+    "id": "vat_054",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama-organi",
+    "subtopic": "TBMM Üyeliğinin Düşmesi",
+    "q": "Aşağıdaki hallerden hangisinde milletvekilliğinin düşmesi için TBMM Genel Kurulu'nun kararı gereklidir?",
+    "o": [
+      "Cumhurbaşkanı seçilme",
+      "Milletvekilliğinden istifa etme",
+      "Kısıtlanma (Hacir altına alınma)",
+      "Kesin hüküm giyme",
+      "Ölüm"
+    ],
+    "a": 1,
+    "e": "Milletvekilliğinin düşmesi bazı hallerde kendiliğinden (otomatik), bazı hallerde ise Meclis kararıyla olur. Ölüm, Cumhurbaşkanı seçilme, kısıtlanma ve kesin hüküm giyme (mahkeme kararının Genel Kurula bildirilmesiyle) hallerinde üyelik kendiliğinden/bildirimle düşerken; istifa (çekilme) ve devamsızlık hallerinde TBMM Genel Kurulu'nun oylaması ve kararı gereklidir."
+  },
+  {
+    "id": "vat_055",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yurutme-organi",
+    "subtopic": "Cumhurbaşkanlığı Kararnameleri",
+    "q": "Olağan dönem Cumhurbaşkanlığı Kararnameleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Yürütme yetkisine ilişkin konularda çıkarılabilir.",
+      "Sosyal ve ekonomik haklar düzenlenebilir.",
+      "Kişi hakları ve ödevleri ile siyasi haklar düzenlenemez.",
+      "Kanunda açıkça düzenlenen konularda çıkarılamaz.",
+      "Yargısal denetimi Danıştay tarafından yapılır."
+    ],
+    "a": 4,
+    "e": "Cumhurbaşkanlığı Kararnamelerinin (CBK) yargısal denetimi Anayasa Mahkemesi (AYM) tarafından yapılır, Danıştay tarafından değil. Danıştay, Cumhurbaşkanlığı'nın idari işlemlerini (yönetmelik vb.) denetler; ancak CBK bir yasama fonksiyonu benzeri norm olduğu için denetim mercii AYM'dir."
+  },
+  {
+    "id": "vat_056",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yargi-organi",
+    "subtopic": "Anayasa Mahkemesi",
+    "q": "1982 Anayasası'na göre, Anayasa Mahkemesi'ne 'bireysel başvuru' ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "o": [
+      "Sadece yasama işlemlerine karşı başvurulabilir.",
+      "Olağan kanun yolları tüketilmeden doğrudan başvurulabilir.",
+      "Kamu tüzel kişileri de her durumda başvurabilir.",
+      "Başvuru, anayasada güvence altına alınmış temel haklardan Avrupa İnsan Hakları Sözleşmesi kapsamındaki birinin ihlali iddiasıyla yapılır.",
+      "Bireysel başvuru süresi, ihlalin öğrenildiği tarihten itibaren 1 yıldır."
+    ],
+    "a": 3,
+    "e": "Bireysel başvuru, Anayasada güvence altına alınmış temel hak ve özgürlüklerden, Avrupa İnsan Hakları Sözleşmesi (AİHS) ve buna ek Türkiye'nin taraf olduğu protokoller kapsamındaki herhangi birinin kamu gücü tarafından ihlal edildiği iddiasıyla yapılır. Olağan kanun yolları tüketilmelidir. Başvuru süresi 30 gündür."
+  },
+  {
+    "id": "vat_057",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "anayasa-degisikligi",
+    "subtopic": "Anayasa Değişikliği Usulü",
+    "q": "Anayasa değişikliği süreci ile ilgili;\nI. Teklif için en az 200 milletvekilinin imzası gerekir.\nII. Değişiklik teklifinin kabulü için en az 360 milletvekilinin oyu gerekir.\nIII. Cumhurbaşkanı, 360-400 arası oyla kabul edilen değişikliği zorunlu olarak halkoyuna sunar.\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Anayasa değişikliği teklifi için TBMM üye tamsayısının 1/3'ü (200 mv) gerekir (I doğru). Kabul için en az 3/5 (360 mv) çoğunluk gerekir (II doğru). 360 ile 400 arasında bir oyla kabul edilen değişiklikler Cumhurbaşkanı tarafından onaylanırsa zorunlu olarak halkoyuna (referanduma) sunulur (III doğru)."
+  },
+  {
+    "id": "vat_058",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "siyasi-partiler",
+    "subtopic": "Siyasi Partilerin Kapatılması",
+    "q": "Siyasi partilerin mali denetimi ve kapatılması davası ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Siyasi partilerin mali denetimini Anayasa Mahkemesi yapar.",
+      "Mali denetim sürecinde Anayasa Mahkemesi Sayıştay'dan yardım alır.",
+      "Kapatma davasını Yargıtay Cumhuriyet Başsavcısı açar.",
+      "Kapatma davasına Yargıtay Genel Kurulu bakar.",
+      "Temelli kapatma kararı için toplantıya katılan üyelerin 2/3 oy çokluğu aranır."
+    ],
+    "a": 3,
+    "e": "Siyasi partilerin kapatılması davası Yargıtay Cumhuriyet Başsavcısı tarafından açılır ancak davaya bakmak ve karara bağlamak Anayasa Mahkemesi'nin görevidir. Yargıtay Genel Kurulu'nun böyle bir yetkisi yoktur."
+  },
+  {
+    "id": "vat_059",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "idare-hukuku-anayasal",
+    "subtopic": "Yüksek Mahkemeler",
+    "q": "1982 Anayasası'nın 'Yargı' bölümünde düzenlenen Yüksek Mahkemeler arasında aşağıdakilerden hangisi yer almaz?",
+    "o": [
+      "Anayasa Mahkemesi",
+      "Yargıtay",
+      "Danıştay",
+      "Uyuşmazlık Mahkemesi",
+      "Hakimler ve Savcılar Kurulu"
+    ],
+    "a": 4,
+    "e": "1982 Anayasası'na göre güncel Yüksek Mahkemeler; Anayasa Mahkemesi, Yargıtay, Danıştay ve Uyuşmazlık Mahkemesi'dir. Hakimler ve Savcılar Kurulu (HSK) bir mahkeme değil, idari ve özlük işlerini düzenleyen anayasal bir kuruldur."
+  },
+  {
+    "id": "vat_060",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "anayasa-tarihi",
+    "subtopic": "Türk Anayasa Tarihi",
+    "q": "1961 Anayasası ile 1982 Anayasası'nın karşılaştırılmasına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+    "o": [
+      "Her iki anayasa da askeri müdahale sonrası hazırlanmıştır.",
+      "Her iki anayasa da halkoylaması (referandum) ile kabul edilmiştir.",
+      "1961 Anayasası çift meclisli, 1982 Anayasası tek meclisli yasama yapısını benimsemiştir.",
+      "Anayasa Mahkemesi ilk kez 1982 Anayasası ile kurulmuştur.",
+      "1961 Anayasası'nda güçler ayrılığı daha belirginken, 1982 Anayasası yürütmeyi güçlendirmiştir."
+    ],
+    "a": 3,
+    "e": "Anayasa Mahkemesi ilk kez 1961 Anayasası ile kurulmuştur, 1982 Anayasası ile değil. 1982 Anayasası, Anayasa Mahkemesi'ni korumuş ve yapısında bazı değişiklikler yapmıştır. Diğer seçenekler (askeri müdahale, referandum, meclis yapısı ve yürütmenin gücü) doğrudur."
+  },
+  {
+    "id": "vat_061",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "anayasa-genel-esaslar",
+    "subtopic": "Anayasa Hukuku Genel Esaslar",
+    "q": "1982 Anayasası'nın değiştirilme usulü dikkate alındığında, anayasanın 'sert' (katı) bir anayasa olduğuna dair aşağıdaki öncüllerden hangileri kanıt olarak gösterilebilir?\n\nI. Değiştirilmesi için nitelikli çoğunluk aranması\nII. Değiştirilemeyecek maddelerin bulunması\nIII. Halkoylaması (referandum) usulünün öngörülmesi",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Sert (katı) anayasalar, değiştirilmesi normal kanunlardan daha zor usullere tabi olan anayasalardır. 1982 Anayasası'nda; değiştirilemeyecek hükümlerin varlığı (ilk 3 madde), değiştirme teklifi ve kabulü için üye tamsayısının belli oranlarına (nitelikli çoğunluk) ihtiyaç duyulması ve Cumhurbaşkanı'nın onay sürecinde halkoylaması yolunun bulunması, anayasanın sert karakterini oluşturan unsurlardır."
+  },
+  {
+    "id": "vat_062",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "temel-hak-ve-hurriyetler",
+    "subtopic": "Temel Hak ve Hürriyetlerin Sınırlanması",
+    "q": "1982 Anayasası'nın 13. maddesine göre, temel hak ve hürriyetlerin sınırlandırılmasında aşağıdaki ölçütlerden hangisi **yer almaz**?",
+    "o": [
+      "Kanunla sınırlama",
+      "Anayasanın sözüne ve ruhuna uygunluk",
+      "Genel ahlak ve kamu düzeni",
+      "Demokratik toplum düzeninin gerekleri",
+      "Ölçülülük ilkesi"
+    ],
+    "a": 2,
+    "e": "2001 değişikliği ile Anayasa'nın 13. maddesi yeniden düzenlenmiştir. Buna göre sınırlama ölçütleri; kanunilik, anayasanın sözüne ve ruhuna uygunluk, demokratik toplum düzeninin gerekleri, laik Cumhuriyetin gerekleri ve ölçülülük ilkesidir. 'Genel ahlak ve kamu düzeni' birer sınırlama *sebebi* olabilir (ilgili maddelerde yazar) ancak 13. maddedeki genel geçerlilik şartı olan sınırlama *aracı/ölçütü* değildir."
+  },
+  {
+    "id": "vat_063",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama-organi",
+    "subtopic": "TBMM Üyeliğinin Sona Ermesi",
+    "q": "Aşağıdaki durumlardan hangisinde, milletvekilliğinin sona ermesi için TBMM Genel Kurulu'nun kararına (oylamasına) ihtiyaç **duyulmaz**?",
+    "o": [
+      "Milletvekilinin istifa etmesi",
+      "Milletvekilinin devamsızlık yapması",
+      "Milletvekilliği ile bağdaşmayan bir görevde ısrar edilmesi",
+      "Milletvekilinin Cumhurbaşkanı seçilmesi",
+      "Milletvekilinin kısıtlanması"
+    ],
+    "a": 3,
+    "e": "Milletvekilinin Cumhurbaşkanı seçilmesi durumunda üyeliği kendiliğinden (otomatik) sona erer; Meclis kararına gerek yoktur. İstifa, devamsızlık ve bağdaşmayan işlerde ısrar durumlarında TBMM Genel Kurulu kararı gerekir. Kısıtlanma ve kesin hüküm giyme hallerinde ise mahkeme kararının Genel Kurul'a bildirilmesiyle üyelik düşer (oylama yapılmaz ancak bildirim şarttır, Cumhurbaşkanı seçilmek ise doğrudan düşürür)."
+  },
+  {
+    "id": "vat_064",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama-organi",
+    "subtopic": "Yasama Dokunulmazlığı",
+    "q": "Yasama dokunulmazlığı ile ilgili olarak aşağıdaki ifadelerden hangisi **yanlıştır**?",
+    "o": [
+      "Dokunulmazlık, milletvekilini tutuklanmaya karşı korur.",
+      "Dokunulmazlık, milletvekilliği süresince geçerlidir (nisbidir).",
+      "Dokunulmazlık TBMM kararı ile kaldırılabilir.",
+      "Ağır cezayı gerektiren suçüstü hali dokunulmazlık kapsamı dışındadır.",
+      "Dokunulmazlığı kaldırılan milletvekilinin milletvekilliği sıfatı derhal sona erer."
+    ],
+    "a": 4,
+    "e": "Yasama dokunulmazlığının kaldırılması, milletvekilliği sıfatını sona erdirmez. Milletvekili yargılanabilir hale gelir ancak vekilliği devam eder. Milletvekilliği, ancak yargılama sonucunda kesin hüküm giyerse ve bu karar TBMM Genel Kurulu'na bildirilirse sona erer."
+  },
+  {
+    "id": "vat_065",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yurutme-organi",
+    "subtopic": "Cumhurbaşkanlığı Kararnameleri",
+    "q": "Olağan dönem Cumhurbaşkanlığı Kararnameleri ile ilgili olarak;\n\nI. Sosyal ve ekonomik haklar düzenlenebilir.\nII. Kişi hakları ve ödevleri düzenlenebilir.\nIII. Anayasada münhasıran kanunla düzenlenmesi öngörülen konularda çıkarılamaz.\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 2,
+    "e": "Olağan dönem Cumhurbaşkanlığı Kararnameleri ile yalnızca sosyal ve ekonomik haklar düzenlenebilir; kişi hakları (sert çekirdek haklar dahil) ve siyasi haklar düzenlenemez (II yanlıştır). Ayrıca Anayasa'nın kanunla düzenlenmesini açıkça (münhasıran) emrettiği konularda kararname çıkarılamaz (III doğrudur). Dolayısıyla doğru cevap I ve III'tür."
+  },
+  {
+    "id": "vat_066",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yurutme-organi",
+    "subtopic": "Olağanüstü Hal Yönetimi",
+    "q": "1982 Anayasası'na göre, Olağanüstü Hal (OHAL) ilan etme yetkisi kime aittir ve bu karar kimin onayına sunulur?",
+    "o": [
+      "Cumhurbaşkanı ilan eder, Danıştay onayına sunulur.",
+      "Milli Güvenlik Kurulu ilan eder, Cumhurbaşkanı onayına sunulur.",
+      "İçişleri Bakanı ilan eder, TBMM onayına sunulur.",
+      "Cumhurbaşkanı ilan eder, TBMM onayına sunulur.",
+      "TBMM ilan eder, Cumhurbaşkanı onayına sunulur."
+    ],
+    "a": 3,
+    "e": "1982 Anayasası'na göre (2017 değişikliği sonrası), yurdun tamamında veya bir bölgesinde Olağanüstü Hal ilan etme yetkisi Cumhurbaşkanı'na aittir. Cumhurbaşkanı'nın bu kararı, Resmi Gazete'de yayımlandığı gün Türkiye Büyük Millet Meclisi'nin (TBMM) onayına sunulur."
+  },
+  {
+    "id": "vat_067",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yargi-organi",
+    "subtopic": "Yüksek Mahkemeler",
+    "q": "1982 Anayasası'nın yargı bölümünde düzenlenen 'Yüksek Mahkemeler' arasında aşağıdakilerden hangisi yer **almaz**?",
+    "o": [
+      "Anayasa Mahkemesi",
+      "Yargıtay",
+      "Danıştay",
+      "Sayıştay",
+      "Uyuşmazlık Mahkemesi"
+    ],
+    "a": 3,
+    "e": "1982 Anayasası'na göre Yüksek Mahkemeler şunlardır: Anayasa Mahkemesi, Yargıtay, Danıştay ve Uyuşmazlık Mahkemesi. Sayıştay, Anayasa'nın yargı bölümünde düzenlenmiş olsa da ve kararları kesin olsa da (yargısal denetim dışı), anayasal olarak bir 'Yüksek Mahkeme' statüsünde sayılmamıştır; mali denetim organıdır."
+  },
+  {
+    "id": "vat_068",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "siyasi-haklar",
+    "subtopic": "Seçme ve Seçilme Hakkı",
+    "q": "1982 Anayasası'na göre, aşağıdakilerden hangisi seçimlerde oy kullanabilir?",
+    "o": [
+      "Silah altındaki er ve erbaşlar",
+      "Askeri öğrenciler",
+      "Taksirli suçlardan hüküm giyenler",
+      "Kasıtlı suçtan dolayı ceza infaz kurumunda bulunan hükümlüler",
+      "Kısıtlılar"
+    ],
+    "a": 2,
+    "e": "Anayasa'nın 67. maddesine göre; silah altındaki er ve erbaşlar, askeri öğrenciler ve taksirli suçlardan hüküm giyenler hariç ceza infaz kurumundaki hükümlüler oy kullanamaz. Bu ifadeden 'taksirli suçlardan hüküm giyenlerin' oy kullanabileceği sonucu çıkar (tutuklular da oy kullanabilir). Kısıtlılar ise oy kullanamaz."
+  },
+  {
+    "id": "vat_069",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "anayasa-yargisi",
+    "subtopic": "Bireysel Başvuru",
+    "q": "Anayasa Mahkemesi'ne bireysel başvuruda bulunabilmek için, ihlal edildiği iddia edilen hakkın aşağıdaki hangi metinlerde ortak olarak güvence altına alınmış olması gerekir?",
+    "o": [
+      "1982 Anayasası ve İnsan Hakları Evrensel Beyannamesi",
+      "1982 Anayasası ve Avrupa İnsan Hakları Sözleşmesi",
+      "Kanunlar ve Avrupa İnsan Hakları Sözleşmesi",
+      "1982 Anayasası ve Birleşmiş Milletler Şartı",
+      "Avrupa İnsan Hakları Sözleşmesi ve Türk Ceza Kanunu"
+    ],
+    "a": 1,
+    "e": "Anayasa Mahkemesi'ne bireysel başvuru yapılabilmesi için; kamu gücü tarafından ihlal edildiği iddia edilen hakkın, Anayasa'da yer alması VE aynı zamanda Avrupa İnsan Hakları Sözleşmesi (veya buna ek protokoller) kapsamında olması gerekir. Her iki metnin ortak koruma alanındaki haklar konu edilebilir."
+  },
+  {
+    "id": "vat_070",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "idare-hukuku-anayasal",
+    "subtopic": "Yönetmelikler",
+    "q": "1982 Anayasası'na göre, yönetmelik çıkarma yetkisi aşağıdakilerden hangisine **verilmemiştir**?",
+    "o": [
+      "Cumhurbaşkanı",
+      "Bakanlıklar",
+      "Kamu Tüzel Kişileri",
+      "TBMM Başkanlığı",
+      "Belediyeler"
+    ],
+    "a": 3,
+    "e": "Anayasa'nın 124. maddesine göre yönetmelik çıkarma yetkisi; Cumhurbaşkanı, Bakanlıklar ve Kamu Tüzel Kişilerine verilmiştir. Belediyeler, üniversiteler veya TRT gibi kurumlar 'Kamu Tüzel Kişisi' sıfatıyla yönetmelik çıkarabilir. Ancak TBMM Başkanlığı'nın yönetmelik çıkarma yetkisi Anayasa'da açıkça düzenlenmemiştir (TBMM İçtüzüğü parlamento kararıdır, yönetmelik değildir)."
+  },
+  {
+    "id": "vat_071",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "anayasa-hukukuna-giris",
+    "subtopic": "Anayasa Hukukuna Giriş ve Temel Kavramlar",
+    "q": "Anayasaların değiştirilme usullerine göre sınıflandırılmasında, değiştirilmesi adi kanunlardan daha zor usullere bağlanmış veya değiştirilmesi yasaklanmış hükümler içeren anayasalar 'sert (katı) anayasa' olarak adlandırılır.\n\nBuna göre, Türk anayasa tarihinde 'en sert' ve 'kazuistik (ayrıntılı)' yöntemle hazırlanmış anayasa aşağıdakilerden hangisidir?",
+    "o": [
+      "1876 Kanun-i Esasi",
+      "1921 Anayasası",
+      "1924 Anayasası",
+      "1961 Anayasası",
+      "1982 Anayasası"
+    ],
+    "a": 4,
+    "e": "1982 Anayasası, Türk anayasa tarihindeki en sert ve en kazuistik anayasadır. Değiştirilemeyecek hükümlerin kapsamının genişletilmesi (Madde 4 ile ilk 3 maddenin koruma altına alınması) ve anayasa değişikliği için Cumhurbaşkanı'nın onayı ve halkoylaması gibi zorlaştırıcı süreçlerin öngörülmesi onu 'en sert'; madde sayısının fazlalığı ve ayrıntılı düzenlemeleri ise 'en kazuistik' yapar. 1921 Anayasası ise tek yumuşak ve çerçeve anayasamızdır."
+  },
+  {
+    "id": "vat_072",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "turk-anayasa-tarihi",
+    "subtopic": "Türk Anayasa Tarihi",
+    "q": "1921 Anayasası (Teşkilat-ı Esasiye Kanunu) ile ilgili olarak aşağıda verilen öncüllerden hangileri doğrudur?\n\nI. Egemenliğin kayıtsız şartsız millete ait olduğu ilk kez belirtilmiştir.\nII. Güçler ayrılığı ilkesi benimsenmiştir.\nIII. Yerel yönetimlere geniş yetkiler tanıyan bir sistem öngörülmüştür.",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
+    ],
+    "a": 3,
+    "e": "1921 Anayasası'nda egemenliğin kayıtsız şartsız millete ait olduğu ilk kez ifade edilmiştir (I. öncül doğru). Ancak bu anayasa güçler ayrılığını değil, 'Meclis Hükümeti Sistemi' gereği yasama ve yürütmenin mecliste toplandığı 'Güçler Birliği' ilkesini benimsemiştir (II. öncül yanlış). Ayrıca 1921 Anayasası, yerinden yönetim ilkesine en geniş yer veren ve 'müfettişlik' dışındaki maddelerinin çoğu yerel yönetimlerle ilgili olan bir anayasadır (III. öncül doğru)."
+  },
+  {
+    "id": "vat_073",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "1982-genel-esaslar",
+    "subtopic": "Devletin Temel Nitelikleri",
+    "q": "1982 Anayasası'nın 2. maddesinde belirtilen Cumhuriyetin temel nitelikleri arasında aşağıdakilerden hangisi yer almaz?",
+    "o": [
+      "Atatürk milliyetçiliğine bağlı devlet",
+      "Demokratik devlet",
+      "Laik devlet",
+      "Hukuk devleti",
+      "Federal devlet"
+    ],
+    "a": 4,
+    "e": "1982 Anayasası'nın 2. maddesinde Cumhuriyetin nitelikleri; 'insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, başlangıçta belirtilen temel ilkelere dayanan, demokratik, laik ve sosyal bir hukuk devleti' olarak sayılmıştır. 'Federal devlet' Türkiye Cumhuriyeti'nin bir niteliği değildir; aksine Anayasa'nın 3. maddesinde düzenlenen 'Devletin bütünlüğü' ilkesi gereği Türkiye 'Üniter' bir devlettir."
+  },
+  {
+    "id": "vat_074",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "temel-hak-ve-hurriyetler",
+    "subtopic": "Temel Hak ve Hürriyetlerin Sınırlanması",
+    "q": "1982 Anayasası'nın 13. maddesine göre, temel hak ve hürriyetlerin sınırlandırılmasında aşağıdaki ölçütlerden hangisine uyulması zorunlu değildir?",
+    "o": [
+      "Kanunla sınırlama",
+      "Anayasanın sözüne ve ruhuna uygunluk",
+      "Genel sınırlama sebeplerine uygunluk",
+      "Demokratik toplum düzeninin gereklerine uygunluk",
+      "Ölçülülük ilkesi"
+    ],
+    "a": 2,
+    "e": "2001 yılında yapılan Anayasa değişikliği ile 'Genel Sınırlama Sebepleri' (genel sağlık, genel ahlak vb. gibi tüm haklar için geçerli ortak sebepler) Anayasa'dan çıkarılmıştır. Artık her hak, ancak o harka ilişkin özel maddede belirtilen 'Özel Sınırlama Sebepleri'ne dayanılarak sınırlandırılabilir. Diğer seçenekler (Kanunilik, Anayasanın sözü/ruhu, Demokratik toplum düzeni, Laik Cumhuriyet gerekleri, Ölçülülük) Madde 13'te sayılan zorunlu kriterlerdir."
+  },
+  {
+    "id": "vat_075",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yasama",
+    "subtopic": "TBMM Üyeliğinin Sona Ermesi",
+    "q": "Aşağıdaki hallerden hangisinde, bir milletvekilinin üyeliğinin düşmesi için TBMM Genel Kurulu'nun kararına (oylamasına) ihtiyaç yoktur, üyelik kendiliğinden veya mahkeme kararıyla doğrudan sona erer?",
+    "o": [
+      "İstifa etme",
+      "Milletvekilliğiyle bağdaşmayan bir görevde ısrar etme",
+      "Meclis çalışmalarına özürsüz veya izinsiz olarak bir ay içinde toplam beş birleşim günü katılmama",
+      "Kısıtlanma veya kesinleşmiş hapis cezası alma",
+      "Partisinden istifa ederek başka partiye geçme"
+    ],
+    "a": 3,
+    "e": "İstifa, devamsızlık ve bağdaşmazlıkta ısrar durumlarında TBMM Genel Kurulu'nun oylaması ve kararı gerekir. Ancak 'Kısıtlanma veya kesinleşmiş hapis cezası alma' durumunda, mahkeme kararının TBMM Genel Kurulu'na bildirilmesiyle üyelik *kendiliğinden* düşer, ayrıca bir oylama yapılmaz. (Not: Parti değiştirmek milletvekilliğini düşüren bir sebep değildir.)"
+  },
+  {
+    "id": "vat_076",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yurutme",
+    "subtopic": "Cumhurbaşkanlığı Kararnameleri",
+    "q": "Cumhurbaşkanlığı Kararnameleri (CBK) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "o": [
+      "Olağan dönemlerde temel haklar, kişi hakları ve siyasi haklar CBK ile düzenlenemez.",
+      "Münhasıran kanunla düzenlenmesi gereken konularda CBK çıkarılamaz.",
+      "Kanunda açıkça düzenlenen konularda CBK çıkarılamaz.",
+      "TBMM'nin aynı konuda kanun çıkarması durumunda, olağan dönem CBK'sı hükümsüz hale gelir.",
+      "Olağanüstü Hal (OHAL) Cumhurbaşkanlığı Kararnamelerine karşı Anayasa Mahkemesi'ne iptal davası açılabilir."
+    ],
+    "a": 4,
+    "e": "1982 Anayasası'nın 148. maddesine göre; Olağanüstü hallerde ve savaş hallerinde çıkarılan Cumhurbaşkanlığı Kararnamelerinin şekil ve esas bakımından Anayasaya aykırılığı iddiasıyla Anayasa Mahkemesi'ne dava açılamaz. Bu kararnameler yargı denetimi dışındadır. Diğer seçenekler olağan dönem kararnameleri için doğru kurallardır."
+  },
+  {
+    "id": "vat_077",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yargi",
+    "subtopic": "Anayasa Mahkemesi Görev ve Yetkileri",
+    "q": "Siyasi partilerin mali denetimi, hukuki açıdan hangi organ tarafından, kimin yardımıyla yapılır?",
+    "o": [
+      "Anayasa Mahkemesi - Sayıştay",
+      "Yargıtay - Sayıştay",
+      "Sayıştay - Maliye Bakanlığı",
+      "Anayasa Mahkemesi - Yargıtay Cumhuriyet Başsavcısı",
+      "Yüksek Seçim Kurulu - Sayıştay"
+    ],
+    "a": 0,
+    "e": "Siyasi partilerin mali denetimini yapma yetkisi münhasıran Anayasa Mahkemesi'ne aittir. Ancak Anayasa Mahkemesi bu denetim görevini yerine getirirken Sayıştay'dan yardım alır. Kararı veren merci AYM, teknik incelemeyi yapan yardımcı merci Sayıştay'dır."
+  },
+  {
+    "id": "vat_078",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "idare-hukuku-anayasal",
+    "subtopic": "Yüksek Mahkemeler",
+    "q": "Adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözümlemeye yetkili yüksek mahkeme aşağıdakilerden hangisidir?",
+    "o": [
+      "Anayasa Mahkemesi",
+      "Yargıtay",
+      "Danıştay",
+      "Uyuşmazlık Mahkemesi",
+      "Hakimler ve Savcılar Kurulu"
+    ],
+    "a": 3,
+    "e": "Farklı yargı kolları (adli ve idari) arasındaki görev ve hüküm uyuşmazlıklarını çözen yüksek mahkeme Uyuşmazlık Mahkemesi'dir. Hakimler ve Savcılar Kurulu (HSK) bir mahkeme değil, idari bir kuruldur. Anayasa Mahkemesi ise bireysel başvurular ve norm denetimi ile ilgilenir, yargı kolları arası uyuşmazlığın doğrudan çözüm mercii değildir (kendi alanına girenler hariç)."
+  },
+  {
+    "id": "vat_079",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "anayasa-degisikligi",
+    "subtopic": "Anayasa Değiştirme Usulü",
+    "q": "1982 Anayasası'na göre, Anayasa değişikliği teklifinin TBMM Genel Kurulu'nda kabul edilebilmesi için gerekli olan en düşük çoğunluk ve bu çoğunlukla kabul edilen değişikliğin akıbeti aşağıdakilerden hangisinde doğru eşleştirilmiştir?",
+    "o": [
+      "Üye tamsayısının salt çoğunluğu (301) - Doğrudan onay",
+      "Üye tamsayısının beşte üçü (360) - Zorunlu referandum",
+      "Üye tamsayısının üçte ikisi (400) - İhtiyari referandum",
+      "Üye tamsayısının beşte üçü (360) - İhtiyari referandum",
+      "Üye tamsayısının üçte ikisi (400) - Zorunlu referandum"
+    ],
+    "a": 1,
+    "e": "Anayasa değişikliği teklifinin kabulü için alt sınır, üye tamsayısının 3/5'idir (360 oy). Eğer teklif 360 ile 400 (2/3) arasında bir oyla kabul edilirse, Cumhurbaşkanı bu değişikliği onaylayamaz; geri göndermezse halkoyuna (referanduma) sunmak *zorundadır*. Eğer 400 ve üzeri oyla kabul edilirse referandum *ihtiyaridir* (isteğe bağlı). En düşük kabul nisabı sorulduğu için cevap 360 ve Zorunlu Referandum'dur."
+  },
+  {
+    "id": "vat_080",
+    "topicId": "n4OjWupHmouuybQzQ1Fc",
+    "subtopicId": "yurutme-ohal",
+    "subtopic": "Olağanüstü Hal Yönetimi",
+    "q": "1982 Anayasası'na göre, Cumhurbaşkanı tarafından ilan edilen Olağanüstü Hal (OHAL) kararının onaylanması, süresinin uzatılması veya kaldırılması yetkisi aşağıdakilerden hangisine aittir?",
+    "o": [
+      "İçişleri Bakanlığı",
+      "Milli Güvenlik Kurulu",
+      "Türkiye Büyük Millet Meclisi",
+      "Anayasa Mahkemesi",
+      "Cumhurbaşkanlığı Kabinesi"
+    ],
+    "a": 2,
+    "e": "OHAL ilan etme yetkisi Cumhurbaşkanı'na aittir. Ancak ilan edilen bu kararın Resmi Gazete'de yayımlandığı gün TBMM'nin onayına sunulması zorunludur. TBMM, OHAL'i onaylayabilir, süresini değiştirebilir veya kaldırabilir. Ayrıca sürenin uzatılmasına karar verme yetkisi de (her defasında 4 ayı geçmemek üzere) TBMM'dedir."
+  }
+]

@@ -1,0 +1,494 @@
+[
+  {
+    "question": "Turkiyenin yururlukteki anayasasi hangi yil kabul edilmistir?",
+    "answer": "1982",
+    "additionalInfo": "Halk oylamasiyla kabul edildi",
+    "_part": 1
+  },
+  {
+    "question": "Anayasanin degistirilemez maddeleri hangileridir?",
+    "answer": "Ilk uc madde (Devletin sekli, Cumhuriyetin nitelikleri, Devletin butunlugu)",
+    "additionalInfo": "Madde 4: Bu hukumler degistirilemez",
+    "_part": 2
+  },
+  {
+    "question": "Cumhuriyetin temel nitelikleri nelerdir?",
+    "answer": "Demokratik, laik, sosyal hukuk devleti",
+    "additionalInfo": "Ataturk milliyetciligine bagli, insan haklarina saygili",
+    "_part": 3
+  },
+  {
+    "question": "TBMM kac milletvekilinden olusur?",
+    "answer": "600 milletvekili",
+    "additionalInfo": "2017 Anayasa degisikligi ile 550den 600e cikarildi",
+    "_part": 4
+  },
+  {
+    "question": "Cumhurbaskanligi secimi kac yilda bir yapilir?",
+    "answer": "5 yilda bir",
+    "additionalInfo": "En fazla iki donem secilebilir",
+    "_part": 5
+  },
+  {
+    "question": "Anayasa Mahkemesi kac uyeden olusur?",
+    "answer": "15 uye",
+    "additionalInfo": "Cumhurbaskani tarafindan atanir",
+    "_part": 6
+  },
+  {
+    "question": "Milletvekili secilme yasi kactir?",
+    "answer": "18 yas",
+    "additionalInfo": "2017 degisikligi ile 25ten 18e indirildi",
+    "_part": 7
+  },
+  {
+    "topicId": "anayasa_01",
+    "question": "1982 Anayasası'na göre devletin şekli nedir?",
+    "answer": "Cumhuriyet",
+    "additionalInfo": "Değiştirilemez ve değiştirilmesi teklif edilemez maddelerdendir.",
+    "id": "flash_001",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_02",
+    "question": "Anayasa'da hangi yıl yapılan değişiklikle 'Anayasa Mahkemesi' üyelerinin bir kısmını TBMM seçmeye başlamıştır?",
+    "answer": "2010",
+    "additionalInfo": "Yargı bağımsızlığı kapsamında önemli bir değişikliktir.",
+    "id": "flash_002",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_03",
+    "question": "Cumhurbaşkanı yardımcıları ve bakanlar hakkında soruşturma açılması için TBMM'de kaç üyenin teklifi gerekir?",
+    "answer": "Üye tamsayısının salt çoğunluğu (301)",
+    "additionalInfo": "Soruşturma açılması için üye tamsayısının 3/5'i gerekir.",
+    "id": "flash_003",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_04",
+    "question": "Yasama dokunulmazlığının kaldırılması için karar yeter sayısı nedir?",
+    "answer": "Üye tamsayısının salt çoğunluğu (301)",
+    "additionalInfo": "Dokunulmazlık kaldırılan milletvekili 7 gün içinde AYM'ye başvurabilir.",
+    "id": "flash_004",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_05",
+    "question": "Anayasa Mahkemesi'ne bireysel başvuru hakkı hangi yıl anayasal güvenceye kavuşmuştur?",
+    "answer": "2010",
+    "additionalInfo": "İç hukuk yolları tüketilmelidir.",
+    "id": "flash_005",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_06",
+    "question": "TBMM seçimleri savaş sebebiyle kaç yıl ertelenebilir?",
+    "answer": "1 yıl",
+    "additionalInfo": "Kararı TBMM alır.",
+    "id": "flash_006",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_07",
+    "question": "Anayasa'da 'Sosyal ve Ekonomik Haklar' hangi başlık altındadır?",
+    "answer": "İkinci Bölüm",
+    "additionalInfo": "Pozitif statü haklarıdır.",
+    "id": "flash_007",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_08",
+    "question": "Cumhurbaşkanı kararnamesi ile hangi alanda düzenleme yapılamaz?",
+    "answer": "Temel haklar, kişi hakları ve ödevleri",
+    "additionalInfo": "Münhasıran kanunla düzenlenen konularda KHK çıkarılamaz.",
+    "id": "flash_008",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_09",
+    "question": "Hâkimler ve Savcılar Kurulu'nun başkanı kimdir?",
+    "answer": "Adalet Bakanı",
+    "additionalInfo": "Kurul 13 üyeden oluşur.",
+    "id": "flash_009",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_10",
+    "question": "Anayasa Mahkemesi kaç üyeden oluşur?",
+    "answer": "15 üye",
+    "additionalInfo": "12'sini Cumhurbaşkanı, 3'ünü TBMM seçer.",
+    "id": "flash_010",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_11",
+    "question": "Milletvekili seçilme yaşı kaçtır?",
+    "answer": "18",
+    "additionalInfo": "2017 değişikliği ile düşürülmüştür.",
+    "id": "flash_011",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_12",
+    "question": "Bütçe kanun teklifini TBMM'ye kim sunar?",
+    "answer": "Cumhurbaşkanı",
+    "additionalInfo": "Mali yılbaşından en az 75 gün önce sunulur.",
+    "id": "flash_012",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_13",
+    "question": "Sıkıyönetim hangi anayasa değişikliği ile kaldırılmıştır?",
+    "answer": "2017",
+    "additionalInfo": "Artık sadece OHAL uygulanmaktadır.",
+    "id": "flash_013",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_14",
+    "question": "Anayasa Mahkemesi'nin yüce divan sıfatıyla yargıladığı kişiler arasında kimler vardır?",
+    "answer": "Cumhurbaşkanı, Bakanlar, Yüksek Yargı Mensupları",
+    "additionalInfo": "Genelkurmay Başkanı da dahildir.",
+    "id": "flash_014",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_15",
+    "question": "Siyasi partilerin mali denetimini kim yapar?",
+    "answer": "Anayasa Mahkemesi",
+    "additionalInfo": "Sayıştay yardım eder.",
+    "id": "flash_015",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_16",
+    "question": "Cumhurbaşkanı seçiminde ikinci tur oylama ne zaman yapılır?",
+    "answer": "İlk oylamayı takip eden ikinci pazar",
+    "additionalInfo": "İlk turda salt çoğunluk sağlanamazsa yapılır.",
+    "id": "flash_016",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_17",
+    "question": "TBMM'nin bilgi edinme ve denetim yolları nelerdir?",
+    "answer": "Yazılı soru, genel görüşme, meclis araştırması, meclis soruşturması",
+    "additionalInfo": "Gensoru artık yoktur.",
+    "id": "flash_017",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_18",
+    "question": "Yüksek Seçim Kurulu kaç üyeden oluşur?",
+    "answer": "11 (7 asıl, 4 yedek)",
+    "additionalInfo": "Kararları kesindir, itiraz edilemez.",
+    "id": "flash_018",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_19",
+    "question": "Anayasa değişikliği için TBMM'de gereken en az karar sayısı nedir?",
+    "answer": "3/5 çoğunluk (360)",
+    "additionalInfo": "360 ile 400 arası kabul edilirse referanduma gidilir.",
+    "id": "flash_019",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_20",
+    "question": "Yargı yetkisi kime aittir?",
+    "answer": "Türk milleti adına bağımsız ve tarafsız mahkemelere",
+    "additionalInfo": "Anayasa'nın 9. maddesidir.",
+    "id": "flash_020",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_21",
+    "question": "Cumhurbaşkanlığı kararnamesi ile kanun arasında çelişki varsa hangisi uygulanır?",
+    "answer": "Kanun",
+    "additionalInfo": "Kanunlar hiyerarşide üsttedir.",
+    "id": "flash_021",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_22",
+    "question": "Dilekçe hakkının kullanılmasında hangi kurum yetkilidir?",
+    "answer": "TBMM Dilekçe Komisyonu",
+    "additionalInfo": "Vatandaşların devlete başvurma hakkıdır.",
+    "id": "flash_022",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_23",
+    "question": "Sayıştay üyelerini kim seçer?",
+    "answer": "TBMM",
+    "additionalInfo": "İdari bir yargı organı değildir, denetim organıdır.",
+    "id": "flash_023",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_24",
+    "question": "Cumhurbaşkanı'nın görev süresi kaç yıldır?",
+    "answer": "5 yıl",
+    "additionalInfo": "Bir kişi en fazla iki defa seçilebilir.",
+    "id": "flash_024",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_25",
+    "question": "Türkiye'de anayasa yargısı ne zaman başlamıştır?",
+    "answer": "1961 Anayasası",
+    "additionalInfo": "Dünyada ilk kez ABD'de başlamıştır.",
+    "id": "flash_025",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_26",
+    "question": "Olağanüstü hal ilan etme yetkisi kime aittir?",
+    "answer": "Cumhurbaşkanı",
+    "additionalInfo": "Azami süresi 6 aydır.",
+    "id": "flash_026",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_27",
+    "question": "Milletvekilliği düşürülen kişi kaç gün içinde AYM'ye başvurabilir?",
+    "answer": "7 gün",
+    "additionalInfo": "AYM 15 gün içinde karar verir.",
+    "id": "flash_027",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_28",
+    "question": "Yargıtay üyelerini kim seçer?",
+    "answer": "HSK",
+    "additionalInfo": "Üyelerin tamamını HSK seçer.",
+    "id": "flash_028",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_29",
+    "question": "Anayasa'nın 2. maddesinde belirtilen 'Cumhuriyetin Nitelikleri' nelerdir?",
+    "answer": "İnsan haklarına saygılı, Atatürk milliyetçiliğine bağlı, demokratik, laik, sosyal hukuk devleti",
+    "additionalInfo": "Başlangıçta yer alan temel ilkelerdir.",
+    "id": "flash_029",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_30",
+    "question": "Dokunulmazlığın kaldırılması durumunda milletvekili ne zaman yargılanır?",
+    "answer": "Milletvekilliği sıfatı sona erince",
+    "additionalInfo": "Ancak ağır cezalık suçüstü hali hariçtir.",
+    "id": "flash_030",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_31",
+    "question": "TBMM Başkanı'nı kim seçer?",
+    "answer": "TBMM",
+    "additionalInfo": "Gizli oyla seçilir.",
+    "id": "flash_031",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_32",
+    "question": "Siyasi partilerin kapatılması davasını kim açar?",
+    "answer": "Yargıtay Cumhuriyet Başsavcısı",
+    "additionalInfo": "AYM'de a��ılır.",
+    "id": "flash_032",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_33",
+    "question": "İdari yargıda en yüksek merci hangisidir?",
+    "answer": "Danıştay",
+    "additionalInfo": "İdari mahkemelerin kararlarını inceler.",
+    "id": "flash_033",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_34",
+    "question": "Milli güvenliğin sağlanmasından ve ordunun hazırlanmasından TBMM'ye karşı kim sorumludur?",
+    "answer": "Cumhurbaşkanı",
+    "additionalInfo": "Eski sistemde Bakanlar Kurulu idi.",
+    "id": "flash_034",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_35",
+    "question": "Anayasa'da hangi haklar 'Çekirdek Haklar' olarak adlandırılır?",
+    "answer": "Dokunulmaz, vazgeçilmez haklar",
+    "additionalInfo": "Savaş durumunda bile durdurulamaz.",
+    "id": "flash_035",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_36",
+    "question": "Aday olabilmek için milletvekilliğinden istifa etmesi gerekenler kimlerdir?",
+    "answer": "Hakimler, savcılar, ordu mensupları, memurlar",
+    "additionalInfo": "Seçilemezlerse geri dönemezler.",
+    "id": "flash_036",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_37",
+    "question": "TBMM'nin seçimleri yenileme kararı için gereken sayı nedir?",
+    "answer": "3/5 çoğunluk (360)",
+    "additionalInfo": "Cumhurbaşkanı da seçim kararı alabilir.",
+    "id": "flash_037",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_38",
+    "question": "Anayasa'nın başlangıç kısmının hukuki niteliği nedir?",
+    "answer": "Anayasa'nın metnine dahildir",
+    "additionalInfo": "Anayasa metni ile beraber yorumlanır.",
+    "id": "flash_038",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_39",
+    "question": "Seçimlerin genel yönetim ve denetimi kime aittir?",
+    "answer": "Yüksek Seçim Kurulu",
+    "additionalInfo": "Yargı organıdır.",
+    "id": "flash_039",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_40",
+    "question": "Kamu Denetçiliği Kurumu kime bağlıdır?",
+    "answer": "TBMM",
+    "additionalInfo": "Ombudsmanlık olarak bilinir.",
+    "id": "flash_040",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_41",
+    "question": "Cumhurbaşkanı yardımcılarını kim atar?",
+    "answer": "Cumhurbaşkanı",
+    "additionalInfo": "TBMM'ye karşı sorumlu değillerdir.",
+    "id": "flash_041",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_42",
+    "question": "Hangi mahkeme 'Uyuşmazlık Mahkemesi'nde görev yapar?",
+    "answer": "Anayasa Mahkemesi başkanı belirler",
+    "additionalInfo": "Adli ve idari yargı arasındaki görev uyuşmazlıklarını çözer.",
+    "id": "flash_042",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_43",
+    "question": "Anayasa'ya göre herkes, kişiliğine bağlı, dokunulmaz, devredilmez, vazgeçilmez hak ve hürriyetlere sahiptir ifadesi hangi madde ile başlar?",
+    "answer": "12. madde",
+    "additionalInfo": "Temel hak ve hürriyetlerin niteliği.",
+    "id": "flash_043",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_44",
+    "question": "TBMM'de toplantı yeter sayısı kaçtır?",
+    "answer": "Üye tamsayısının 1/3'ü (200)",
+    "additionalInfo": "Karar yeter sayısı ise üye tamsayısının 1/4'ünün 1 fazlasıdır (151).",
+    "id": "flash_044",
+    "_part": 51,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_45",
+    "question": "Cumhurbaşkanı'nın veto ettiği kanunu TBMM tekrar kabul ederse ne olur?",
+    "answer": "Cumhurbaşkanı resmi gazetede yayımlamak zorundadır",
+    "additionalInfo": "Cumhurbaşkanı tekrar veto edemez.",
+    "id": "flash_045",
+    "_part": 52,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_46",
+    "question": "Siyasi partilerin kuruluşunda izin alma zorunluluğu var mıdır?",
+    "answer": "Hayır",
+    "additionalInfo": "Bildirim yeterlidir.",
+    "id": "flash_046",
+    "_part": 53,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_47",
+    "question": "Yürütme yetkisi kime aittir?",
+    "answer": "Cumhurbaşkanı",
+    "additionalInfo": "Anayasa 8. madde.",
+    "id": "flash_047",
+    "_part": 54,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_48",
+    "question": "Hangi hallerde milletvekilliği kendiliğinden düşer?",
+    "answer": "Cumhurbaşkanı yardımcısı veya bakan olarak atanma",
+    "additionalInfo": "Milletvekili seçilme yeterliliğini kaybedenlerin durumu meclis kararı ile düşer.",
+    "id": "flash_048",
+    "_part": 55,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_49",
+    "question": "Anayasa Mahkemesi'nin iptal kararları Resmi Gazete'de yayımlandığında ne zaman yürürlüğe girer?",
+    "answer": "Yayımlandığı gün",
+    "additionalInfo": "Geriye yürümez.",
+    "id": "flash_049",
+    "_part": 56,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  },
+  {
+    "topicId": "anayasa_50",
+    "question": "Milletvekili genel seçimleri kaç yılda bir yapılır?",
+    "answer": "5 yılda bir",
+    "abstract": "Cumhurbaşkanlığı seçimi ile aynı gün yapılır.",
+    "id": "flash_050",
+    "_part": 57,
+    "_generatedAt": "2026-04-12T17:22:27.735Z"
+  }
+]

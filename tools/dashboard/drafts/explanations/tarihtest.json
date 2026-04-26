@@ -1,0 +1,67 @@
+[
+  {
+    "topicId": "tarihtest",
+    "title": "Bölüm 1: Tarih Bilimine Giriş ve Temel Kavramlar",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Tarihin Tanımı, Konusu ve Amacı"
+      },
+      {
+        "type": "text",
+        "text": "Tarih, insan topluluklarının geçmişteki faaliyetlerini, bu faaliyetlerin nedenlerini ve sonuçlarını yer ve zaman belirterek inceleyen bir bilim dalıdır. İnsanlığın ortaya çıkışından günümüze kadar meydana gelen tüm olayları ele alır. Tarih, sadece geçmişi anlatmakla kalmaz, aynı zamanda bugünü anlamak ve geleceğe ışık tutmak gibi önemli bir amaca hizmet eder."
+      },
+      {
+        "type": "highlighted",
+        "text": "Tarih; yer, zaman, neden ve sonuç ilişkisi içerisinde insan faaliyetlerini inceleyen bir sosyal bilimdir."
+      },
+      {
+        "type": "heading",
+        "text": "Tarih Biliminin Yöntemleri"
+      },
+      {
+        "type": "text",
+        "text": "Tarih bilimi, olayları objektif bir şekilde açıklayabilmek için belirli bir yöntem izler. Bu yöntem, olayların doğru bir şekilde anlaşılmasını ve yorumlanmasını sağlar. Tarihçiler, bu yöntem basamaklarını titizlikle uygulayarak güvenilir bilgilere ulaşmayı hedeflerler."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Kaynak Tarama (Tasnif): Olayla ilgili tüm yazılı ve görsel kaynakların toplanmasıdır.\n• Tahlil (Çözümleme): Toplanan kaynakların güvenilirlik ve geçerlilik açısından incelenmesidir.\n• Tenkit (Eleştiri): Kaynakların doğru olup olmadığının, yazarın tarafsızlık derecesinin belirlenmesidir.\n• Terkip (Sentez): Elde edilen bilgilerin bir araya getirilerek genel bir yargıya varılmasıdır.\n• Tasnif (Sınıflandırma): Elde edilen bilgilerin zaman, mekan veya konuya göre düzenlenmesidir."
+      },
+      {
+        "type": "heading",
+        "text": "Tarih Biliminin Diğer Bilim Dallarıyla İlişkisi"
+      },
+      {
+        "type": "text",
+        "text": "Tarih, sadece kendi verileriyle değil, diğer bilim dallarından da faydalanarak olayları daha kapsamlı bir şekilde inceler. Coğrafya, arkeoloji, antropoloji, sosyoloji, kronoloji, filoloji, diplomasi gibi birçok bilim dalı tarihe yardımcı olur. Bu disiplinlerarası yaklaşım, tarihsel olayların çok yönlü bir bakış açısıyla değerlendirilmesini sağlar."
+      },
+      {
+        "type": "warning",
+        "text": "Tarih biliminin objektifliği, kullanılan kaynakların çeşitliliği ve diğer bilim dallarından alınan destekle doğrudan ilişkilidir. Tek bir kaynağa bağlı kalmak, yanıltıcı sonuçlara yol açabilir."
+      },
+      {
+        "type": "heading",
+        "text": "Tarih Yazıcılığı Türleri ve Tarih Felsefesi"
+      },
+      {
+        "type": "text",
+        "text": "Tarih yazıcılığı, farklı yaklaşımlarla ortaya çıkmış çeşitli türlere sahiptir. Hikayeci, öğretici, araştırmacı ve kronik tarih yazıcılığı gibi türler, tarihin farklı amaçlarla nasıl ele alındığını gösterir. Tarih felsefesi ise tarihin anlamı, amacı ve metodolojisi üzerine düşünsel bir sorgulama alanıdır."
+      },
+      {
+        "type": "heading",
+        "text": "Takvimler ve Zaman Kavramı"
+      },
+      {
+        "type": "text",
+        "text": "Tarihsel olayların doğru bir şekilde sıralanması ve anlaşılması için zaman kavramı ve takvimler büyük önem taşır. İnsanlık tarihi boyunca farklı uygarlıklar Güneş ve Ay'ın hareketlerine dayalı çeşitli takvim sistemleri geliştirmiştir. Bu takvimler, olayların kronolojik olarak yerleştirilmesini ve dönemlerin ayrılmasını sağlar."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775984947181_tari_1",
+    "createdAt": "2026-04-12T09:09:07.181Z",
+    "updatedAt": "2026-04-12T09:09:07.181Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T09:09:13.229Z"
+  }
+]

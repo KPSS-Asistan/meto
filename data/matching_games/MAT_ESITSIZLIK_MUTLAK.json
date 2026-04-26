@@ -1,0 +1,298 @@
+[
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Eşitsizlikte Yön Değişimi",
+    "answer": "Negatif sayı ile çarpma veya bölme",
+    "id": "match_1776015720612_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:42:05.234Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "|x| < a",
+    "answer": "-a < x < a",
+    "id": "match_1776015720612_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:42:05.234Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "|x| > a",
+    "answer": "x > a veya x < -a",
+    "id": "match_1776015720612_3",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:42:05.234Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "|x| = 0",
+    "answer": "x = 0",
+    "id": "match_1776015720612_4",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:42:05.234Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Mutlak Değerin Sonucu",
+    "answer": "Daima negatif olamaz",
+    "id": "match_1776015720612_5",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:42:05.234Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "|a - b|",
+    "answer": "|b - a|",
+    "id": "match_1776015720612_6",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T17:42:05.234Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "|a.b|",
+    "answer": "|a| . |b|",
+    "id": "match_1776015720612_7",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:42:05.234Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "|a| / |b|",
+    "answer": "|a / b| (b sıfır değil)",
+    "id": "match_1776015720612_8",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:42:05.234Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Üçgen Eşitsizliği",
+    "answer": "|a+b| ≤ |a| + |b|",
+    "id": "match_MAT_ES_MUT_017",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Taraf Tarafa Toplama",
+    "answer": "Eşitsizlik yönleri aynı ise yapılır",
+    "id": "match_1776015720612_10",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:42:05.234Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "x^2 < x",
+    "answer": "0 < x < 1 aralığı",
+    "id": "match_1776015720612_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:42:05.234Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "|x| = a (a < 0)",
+    "answer": "Çözüm kümesi boş kümedir",
+    "id": "match_1776015720612_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:42:05.234Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Ters Çevirme",
+    "answer": "Sayıların işaretleri aynı ise eşitsizlik yön değiştirir",
+    "id": "match_1776015720612_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:42:05.234Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "|x| + |y| = 0",
+    "answer": "x = 0 ve y = 0",
+    "id": "match_1776015720612_14",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:42:05.235Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "x^3 < x^2",
+    "answer": "x < 0 veya 0 < x < 1",
+    "id": "match_1776015720612_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:42:05.235Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Eşitsizlikte Kuvvet Alma",
+    "answer": "Sayılar pozitifse sıralama korunur",
+    "id": "match_1776015720612_16",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:42:05.235Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Mutlak Değerli İfadeyi Çıkarma",
+    "answer": "İçerisi negatifse eksi ile çarpılarak çıkarılır",
+    "id": "match_1776015720612_17",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:42:05.235Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Sayı Doğrusu",
+    "answer": "Eşitsizlik çözüm kümesini görselleştirmek için kullanılır",
+    "id": "match_MAT_ES_MUT_015",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "|x - a| = b",
+    "answer": "x - a = b veya x - a = -b",
+    "id": "match_1776015720612_19",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:42:05.235Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Mutlak Değerin Minimum Değeri",
+    "answer": "Sıfır",
+    "id": "match_MAT_ES_MUT_018",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Eşitsizlik",
+    "answer": "Büyüktür, küçüktür, büyük eşit veya küçük eşit sembolleri içeren ifade",
+    "id": "match_MAT_ES_MUT_001",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Mutlak Değer",
+    "answer": "Bir sayının sıfıra olan uzaklığı",
+    "id": "match_MAT_ES_MUT_002",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Çözüm Kümesi",
+    "answer": "Eşitsizliği sağlayan tüm değerlerin kümesi",
+    "id": "match_MAT_ES_MUT_003",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Aralık Gösterimi",
+    "answer": "Çözüm kümesini parantezlerle ifade etme yöntemi",
+    "id": "match_MAT_ES_MUT_004",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Kapalı Aralık",
+    "answer": "Uç noktaların da dahil olduğu aralık ([a,b])",
+    "id": "match_MAT_ES_MUT_005",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Açık Aralık",
+    "answer": "Uç noktaların dahil olmadığı aralık ((a,b))",
+    "id": "match_MAT_ES_MUT_006",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Mutlak Değerin Özelliği |x| = a",
+    "answer": "x = a veya x = -a",
+    "id": "match_MAT_ES_MUT_007",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Mutlak Değerin Özelliği |x| < a",
+    "answer": "-a < x < a",
+    "id": "match_MAT_ES_MUT_008",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Mutlak Değerin Özelliği |x| > a",
+    "answer": "x > a veya x < -a",
+    "id": "match_MAT_ES_MUT_009",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Kritik Nokta",
+    "answer": "Mutlak değerin içini sıfır yapan değer",
+    "id": "match_MAT_ES_MUT_010",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Eşitsizlik Yön Değiştirme",
+    "answer": "Her iki taraf negatif bir sayıyla çarpılır/bölünürse",
+    "id": "match_MAT_ES_MUT_011",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Birinci Dereceden Eşitsizlik",
+    "answer": "Bilinmeyenin en büyük kuvvetinin 1 olduğu eşitsizlik",
+    "id": "match_MAT_ES_MUT_012",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "İkinci Dereceden Eşitsizlik",
+    "answer": "Bilinmeyenin en büyük kuvvetinin 2 olduğu eşitsizlik",
+    "id": "match_MAT_ES_MUT_013",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Eşitsizlik Sistemleri",
+    "answer": "Birden fazla eşitsizliğin birlikte çözülmesi",
+    "id": "match_MAT_ES_MUT_014",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Mutlak Değer Fonksiyonu",
+    "answer": "f(x) = |x| şeklinde tanımlanan fonksiyon",
+    "id": "match_MAT_ES_MUT_016",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Eşitsizliklerde Toplama/Çıkarma",
+    "answer": "Eşitsizliğin her iki tarafına aynı sayı eklenebilir/çıkarılabilir",
+    "id": "match_MAT_ES_MUT_019",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  },
+  {
+    "topicId": "MAT_ESITSIZLIK_MUTLAK",
+    "question": "Tanımsızlık Durumu",
+    "answer": "Paydanın sıfır olması durumu",
+    "id": "match_MAT_ES_MUT_020",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T18:03:08.096Z"
+  }
+]

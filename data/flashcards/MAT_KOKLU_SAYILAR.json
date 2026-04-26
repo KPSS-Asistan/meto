@@ -1,0 +1,452 @@
+[
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kareköklü bir ifadenin tanımlı olması için kökün içi nasıl olmalıdır?",
+    "answer": "Sıfıra eşit veya sıfırdan büyük olmalıdır.",
+    "additionalInfo": "Negatif sayıların karekökü reel sayılar kümesinde tanımlı değildir.",
+    "id": "flash_1776014518042_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "n tek sayı iken n. dereceden kök içinde x^n ifadesi neye eşittir?",
+    "answer": "x",
+    "additionalInfo": "Kök derecesi tek ise mutlak değere gerek yoktur.",
+    "id": "flash_1776014518042_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "n çift sayı iken n. dereceden kök içinde x^n ifadesi neye eşittir?",
+    "answer": "|x|",
+    "additionalInfo": "Çift dereceli köklerde sonuç daima mutlak değer içinde çıkar.",
+    "id": "flash_1776014518042_3",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök içinde a.b ifadesi nasıl ayrılır?",
+    "answer": "Kök a çarpı kök b",
+    "additionalInfo": "Bu kural sadece çarpma ve bölme işlemlerinde geçerlidir.",
+    "id": "flash_1776014518042_4",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök içinde (a+b) ifadesi kök a + kök b'ye eşit midir?",
+    "answer": "Hayır",
+    "additionalInfo": "Toplama ve çıkarma işlemlerinde kökler ayrı ayrı dışarı çıkarılamaz.",
+    "id": "flash_1776014518042_5",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Paydası köklü olan bir ifadeyi rasyonel yapmak için ne yapılır?",
+    "answer": "Payda eşleniği ile çarpılır.",
+    "additionalInfo": "Eşlenik, köklü ifadeyi rasyonel sayıya dönüştüren çarpandır.",
+    "id": "flash_1776014518042_6",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök a ifadesinin eşleniği nedir?",
+    "answer": "Kök a",
+    "additionalInfo": "Kök a ile kök a çarpılırsa a elde edilir.",
+    "id": "flash_1776014518042_7",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "(a - kök b) ifadesinin eşleniği nedir?",
+    "answer": "(a + kök b)",
+    "additionalInfo": "İki kare farkı özdeşliğinden yararlanılır.",
+    "id": "flash_1776014518042_8",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "İç içe köklerde en içten başlanırsa hangi işlem yapılır?",
+    "answer": "Sırasıyla kök dışına çıkarma",
+    "additionalInfo": "Her zaman en sağdaki kökten başlayarak sola doğru ilerlenir.",
+    "id": "flash_1776014518042_9",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök içinde x çarpı kök içinde y çarpı kök içinde z şeklinde sonsuza giden çarpma işleminde kural nedir?",
+    "answer": "Kök derecesi 1 azaltılır ve kök içine yazılır.",
+    "additionalInfo": "Sonsuz çarpımlarda pratik yöntem kullanılır.",
+    "id": "flash_1776014518042_10",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök içinde x + kök içinde x + ... sonsuza giden toplamda kural nedir?",
+    "answer": "Ardışık çarpanlarına ayrılır, büyük olan sonuçtur.",
+    "additionalInfo": "Örn: Kök(6+Kök6...) = 3",
+    "id": "flash_1776014518042_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök içinde x - kök içinde x - ... sonsuza giden fark işleminde kural nedir?",
+    "answer": "Ardışık çarpanlarına ayrılır, küçük olan sonuçtur.",
+    "additionalInfo": "Örn: Kök(6-Kök6...) = 2",
+    "id": "flash_1776014518042_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök derecesi ile üs aynı sayı ile genişletilebilir mi?",
+    "answer": "Evet",
+    "additionalInfo": "Bu işlem köklü sayının değerini değiştirmez.",
+    "id": "flash_1776014518042_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök dışındaki bir sayı kök içine nasıl alınır?",
+    "answer": "Kök derecesi kadar üssü alınarak içeri girer.",
+    "additionalInfo": "Karekökte karesi alınarak içeri girer.",
+    "id": "flash_1776014518042_14",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 0.04 ifadesinin değeri kaçtır?",
+    "answer": "0.2",
+    "additionalInfo": "Ondalıklı sayıları rasyonel sayıya çevirerek kökten çıkarın.",
+    "id": "flash_1776014518042_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 12 ifadesi nasıl dışarı çıkar?",
+    "answer": "2 kök 3",
+    "additionalInfo": "12'yi tam kare çarpanlarına ayırın (4x3).",
+    "id": "flash_1776014518042_16",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 50 + Kök 18 toplamı kaçtır?",
+    "answer": "8 kök 2",
+    "additionalInfo": "Önce kökleri en sade hale getirin, sonra toplayın.",
+    "id": "flash_1776014518042_17",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 2 çarpı Kök 8 işleminin sonucu nedir?",
+    "answer": "4",
+    "additionalInfo": "Kök içlerini çarpıp kökünü alabilirsiniz.",
+    "id": "flash_1776014518042_18",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 20 bölü Kök 5 işleminin sonucu nedir?",
+    "answer": "2",
+    "additionalInfo": "Kök içlerini birbirine bölebilirsiniz.",
+    "id": "flash_1776014518042_19",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök içinde (a+b + 2 kök ab) ifadesinin eşiti nedir?",
+    "answer": "Kök a + kök b",
+    "additionalInfo": "Çarpımları b, toplamları a olan iki sayı bulunmalıdır.",
+    "id": "flash_1776014518042_20",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 100 ifadesinin değeri kaçtır?",
+    "answer": "10",
+    "additionalInfo": "Tam kare sayıların kökü tam sayıdır.",
+    "id": "flash_1776014518042_21",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Üslü sayı olarak kök x ifadesi nasıl yazılır?",
+    "answer": "x üzeri 1/2",
+    "additionalInfo": "Kök derecesi payda olur.",
+    "id": "flash_1776014518042_22",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Küp kök içinde 8 ifadesi kaçtır?",
+    "answer": "2",
+    "additionalInfo": "2'nin küpü 8'dir.",
+    "id": "flash_1776014518042_23",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Dördüncü dereceden kök 16 kaçtır?",
+    "answer": "2",
+    "additionalInfo": "2 üzeri 4 = 16.",
+    "id": "flash_1776014518042_24",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök içinde x^2 + 6x + 9 ifadesinin en sade hali nedir?",
+    "answer": "|x+3|",
+    "additionalInfo": "İfade bir tam karedir.",
+    "id": "flash_1776014518042_25",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Paydada (kök 3 + 1) varsa eşleniği nedir?",
+    "answer": "(kök 3 - 1)",
+    "additionalInfo": "Aradaki işaretin zıttı alınır.",
+    "id": "flash_1776014518042_26",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Sıralama yaparken köklü sayıların dereceleri nasıl eşitlenir?",
+    "answer": "EKOK ile",
+    "additionalInfo": "Dereceleri genişleterek ortak bir derecede buluşturun.",
+    "id": "flash_1776014518042_27",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök -4 sayısı reel midir?",
+    "answer": "Hayır",
+    "additionalInfo": "Karmaşık sayıdır (2i).",
+    "id": "flash_1776014518042_28",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 2 ile Kök 3'ü toplayabilir miyiz?",
+    "answer": "Hayır",
+    "additionalInfo": "Sadece kök içleri aynı olan terimler toplanabilir.",
+    "id": "flash_1776014518042_29",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 0 ifadesinin değeri nedir?",
+    "answer": "0",
+    "additionalInfo": "Sıfırın kökü sıfırdır.",
+    "id": "flash_1776014518042_30",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 1 ifadesinin değeri nedir?",
+    "answer": "1",
+    "additionalInfo": "1'in bütün kökleri 1'dir.",
+    "id": "flash_1776014518042_31",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 32'nin en sade hali nedir?",
+    "answer": "4 kök 2",
+    "additionalInfo": "32 = 16 x 2.",
+    "id": "flash_1776014518042_32",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 0.25 kaça eşittir?",
+    "answer": "0.5",
+    "additionalInfo": "0.5 x 0.5 = 0.25.",
+    "id": "flash_1776014518042_33",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "İç içe köklerde (kök içinde kök a) ifadesi tek kök olarak nasıl yazılır?",
+    "answer": "Kök dereceleri çarpılır.",
+    "additionalInfo": "Örn: Kök(Kök a) = 4. dereceden kök a.",
+    "id": "flash_1776014518042_34",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 27 - Kök 12 sonucu nedir?",
+    "answer": "Kök 3",
+    "additionalInfo": "3 kök 3 - 2 kök 3 = 1 kök 3.",
+    "id": "flash_1776014518042_35",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Paydadaki kök 2'den kurtulmak için ne ile çarpılır?",
+    "answer": "Kök 2",
+    "additionalInfo": "Pay ve payda aynı anda çarpılmalıdır.",
+    "id": "flash_1776014518042_36",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 75'i kök 3'e bölersek ne olur?",
+    "answer": "5",
+    "additionalInfo": "Kök 25 = 5.",
+    "id": "flash_1776014518042_37",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök içinde (a-b)^2 ifadesinin sonucu nedir?",
+    "answer": "|a-b|",
+    "additionalInfo": "Mutlak değer unutulmamalıdır.",
+    "id": "flash_1776014518042_38",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 2 yaklaşık kaçtır?",
+    "answer": "1.41",
+    "additionalInfo": "KPSS'de nadiren de olsa bilinmesi gerekebilir.",
+    "id": "flash_1776014518042_39",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 3 yaklaşık kaçtır?",
+    "answer": "1.73",
+    "additionalInfo": "Ezberlemek hız kazandırır.",
+    "id": "flash_1776014518042_40",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök derecesi yazılmayan bir kökün derecesi kaçtır?",
+    "answer": "2",
+    "additionalInfo": "Buna karekök denir.",
+    "id": "flash_1776014518042_41",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök içinde 10 üzeri 6 ifadesi kaçtır?",
+    "answer": "1000",
+    "additionalInfo": "Üs kök derecesine bölünür.",
+    "id": "flash_1776014518042_42",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Küp kök içinde -27 nedir?",
+    "answer": "-3",
+    "additionalInfo": "Tek dereceli köklerde sonuç negatif olabilir.",
+    "id": "flash_1776014518042_43",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "(Kök 5 - 2) x (Kök 5 + 2) çarpımı kaçtır?",
+    "answer": "1",
+    "additionalInfo": "İki kare farkı: 5 - 4 = 1.",
+    "id": "flash_1776014518042_44",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 80 sayısı hangi iki tam sayı arasındadır?",
+    "answer": "8 ile 9",
+    "additionalInfo": "Kök 64 < Kök 80 < Kök 81.",
+    "id": "flash_1776014518042_45",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök 200'ün en sade hali nedir?",
+    "answer": "10 kök 2",
+    "additionalInfo": "200 = 100 x 2.",
+    "id": "flash_1776014518042_46",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök içinde (a+b) ifadesi kök a + kök b'den büyük müdür, küçük müdür?",
+    "answer": "Küçüktür",
+    "additionalInfo": "Pozitif sayılar için bu kural geçerlidir.",
+    "id": "flash_1776014518042_47",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök x + Kök y = 0 ise x ve y nedir?",
+    "answer": "x=0 ve y=0",
+    "additionalInfo": "Köklerin toplamı 0 ise her biri 0 olmalıdır.",
+    "id": "flash_1776014518042_48",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Kök içinde 4/9 kaçtır?",
+    "answer": "2/3",
+    "additionalInfo": "Kökü ayrı ayrı pay ve paydaya uygulayın.",
+    "id": "flash_1776014518042_49",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "question": "Bir sayı kök dışına çıkamıyorsa ne denir?",
+    "answer": "İrrasyonel sayı",
+    "additionalInfo": "Bu sayılar köklü olarak bırakılır.",
+    "id": "flash_1776014518042_50",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:11.570Z"
+  }
+]

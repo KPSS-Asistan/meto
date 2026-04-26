@@ -1,0 +1,714 @@
+[
+  {
+    "id": "ornek_uzay",
+    "term": "Örnek Uzay",
+    "definition": "Bir deneyin tüm olası sonuçlarının kümesidir. KPSS'de olasılık hesaplarında temel alınır. Sembolü genellikle Ω ile gösterilir.",
+    "examples": [
+      "Bir zar atıldığında örnek uzay {1,2,3,4,5,6}'dır.",
+      "İki zar atıldığında örnek uzay 36 sonuç içerir."
+    ],
+    "relatedTerms": [
+      "Olay",
+      "Klasik Olasılık",
+      "Tam Olay Kümesi"
+    ],
+    "order": 1
+  },
+  {
+    "id": "olay",
+    "term": "Olay",
+    "definition": "Örnek uzayın bir alt kümesidir. Gerçekleşmesi istenen sonuçları temsil eder. Boş olay ∅ ve tam olay Ω'dur.",
+    "examples": [
+      "Zar atışında 'çift sayı gelmesi' olayı {2,4,6}'dır.",
+      "Bir torbadan kırmızı top çekmek olayıdır."
+    ],
+    "relatedTerms": [
+      "Örnek Uzay",
+      "Birleşik Olay",
+      "Kesişim"
+    ],
+    "order": 2
+  },
+  {
+    "id": "klasik_olasilik",
+    "term": "Klasik Olasılık",
+    "definition": "Eşit mümkünlüklü örnek uzayda bir olayın olasılığı, elverişli durum sayısının toplam durum sayısına oranıdır. P(A) = n(A)/n(Ω) formülüyle hesaplanır.",
+    "examples": [
+      "Bir zarda 3 gelme olasılığı 1/6'dır.",
+      "52'lik destede as çekme olasılığı 4/52=1/13'tür."
+    ],
+    "relatedTerms": [
+      "Örnek Uzay",
+      "Olay",
+      "Bağımsızlık"
+    ],
+    "order": 3
+  },
+  {
+    "id": "kosullu_olasilik",
+    "term": "Koşullu Olasılık",
+    "definition": "Bir olayın, başka bir olayın gerçekleşmesi altında olasılığıdır. P(A|B) = P(A∩B)/P(B) formülüyle hesaplanır.",
+    "examples": [
+      "İlk zar 3 gelmişken ikincisinin çift gelme olasılığı 1/2'dir.",
+      "Yağmur yağmışken şemsiye getirme olasılığı hesaplanır."
+    ],
+    "relatedTerms": [
+      "Bağımsız Olaylar",
+      "Bayes Teoremi",
+      "Kesişim"
+    ],
+    "order": 4
+  },
+  {
+    "id": "bagimsiz_olaylar",
+    "term": "Bağımsız Olaylar",
+    "definition": "Bir olayın gerçekleşmesi diğerini etkilemiyorsa bağımsızdır. P(A∩B) = P(A)P(B) ve P(A|B)=P(A) olur.",
+    "examples": [
+      "İki zar atışında ilk ve ikinci zarın sonuçları bağımsızdır.",
+      "Arka arkaya para atışlarında yazı-tura bağımsızdır."
+    ],
+    "relatedTerms": [
+      "Koşullu Olasılık",
+      "Çarpım Kuralı",
+      "Bağımlı Olaylar"
+    ],
+    "order": 5
+  },
+  {
+    "id": "birlesik_olay",
+    "term": "Birleşik Olay",
+    "definition": [
+      "A∪B olayı, A veya B veya her ikisinin gerçekleşmesidir.",
+      "P(A∪B) = P(A) + P(B) - P(A∩B) formülüyle bulunur."
+    ],
+    "examples": [
+      "Zar atışında '1 veya 6 gelmesi' birleşik olaydır.",
+      "Kırmızı veya siyah top çekmek birleşik olaydır."
+    ],
+    "relatedTerms": [
+      "Kesişim",
+      "Karşılıklı Dışarıda",
+      "Tamamlayıcı Olay"
+    ],
+    "order": 6
+  },
+  {
+    "id": "kesisim",
+    "term": "Kesişim",
+    "definition": "A∩B olayı, hem A hem B'nin gerçekleşmesidir. Bağımsız olaylarda P(A∩B)=P(A)P(B)'dir.",
+    "examples": [
+      "Çift ve asal sayı kesişimi zar için {2}'dir.",
+      "Yağmur ve şemsiye kesişimi 'ıslanan' olaydır."
+    ],
+    "relatedTerms": [
+      "Birleşik Olay",
+      "Koşullu Olasılık",
+      "Bağımsız Olaylar"
+    ],
+    "order": 7
+  },
+  {
+    "id": "tamamlayici_olay",
+    "term": "Tamamlayıcı Olay",
+    "definition": "A olayının tamamlayıcısı A' olup P(A')=1-P(A)'dır. 'Olmayanı' hesaplatır.",
+    "examples": [
+      "Zar 3 gelmemesi tamamlayıcıdır, P=5/6.",
+      "Başarısız olma olasılığı 1-başarıdır."
+    ],
+    "relatedTerms": [
+      "Olay",
+      "Birleşik Olay",
+      "Klasik Olasılık"
+    ],
+    "order": 8
+  },
+  {
+    "id": "aritmetik_ortalama",
+    "term": "Aritmetik Ortalama",
+    "definition": "Verilerin toplamının gözlem sayısına bölümüdür. Merkezi eğilim ölçüsüdür, X̄ = Σxi/n.",
+    "examples": [
+      "Notlar 70,80,90 ortalaması 80'dir.",
+      "KPSS'de sınıf başarı ortalaması hesaplanır."
+    ],
+    "relatedTerms": [
+      "Medyan",
+      "Mod",
+      "Ağırlıklı Ortalama"
+    ],
+    "order": 9
+  },
+  {
+    "id": "medyan",
+    "term": "Medyan",
+    "definition": "Veriler sıralandığında ortadaki değerdir. Çift sayıda (n/2 ve n/2+1) ortalaması alınır.",
+    "examples": [
+      "1,3,5,7,9 medyanı 5'tir.",
+      "Sıralı 2,4,6,8 medyanı (4+6)/2=5'tir."
+    ],
+    "relatedTerms": [
+      "Aritmetik Ortalama",
+      "Mod",
+      "Çeyreklik"
+    ],
+    "order": 10
+  },
+  {
+    "id": "mod",
+    "term": "Mod",
+    "definition": "En çok tekrarlanan değerdir. Çok modlu olabilir, bimodal vb.",
+    "examples": [
+      "1,2,2,3 mod 2'dir.",
+      "Sıklık tablosunda en yüksek frekanslıdır."
+    ],
+    "relatedTerms": [
+      "Medyan",
+      "Aritmetik Ortalama",
+      "Frekans"
+    ],
+    "order": 11
+  },
+  {
+    "id": "varyans",
+    "term": "Varyans",
+    "definition": "Verilerin ortalamadan sapmalarının karelerinin ortalamasıdır. S² = Σ(xi - X̄)² / (n-1).",
+    "examples": [
+      "KPSS puan dağılımında yayılımı gösterir.",
+      "Örnek varyansı popülasyonunkinden büyük hesaplanır."
+    ],
+    "relatedTerms": [
+      "Standart Sapma",
+      "Ortalama",
+      "Sapma"
+    ],
+    "order": 12
+  },
+  {
+    "id": "standart_sapma",
+    "term": "Standart Sapma",
+    "definition": "Varyansın kareköküdür, aynı birimin ortalamaya sapmasını verir. s = √S².",
+    "examples": [
+      "Puanlar ortalama 70, s=10 ise %68'i 60-80 arasındadır.",
+      "Dağılımın yayılımını ölçer."
+    ],
+    "relatedTerms": [
+      "Varyans",
+      "Normal Dağılım",
+      "Z Skoru"
+    ],
+    "order": 13
+  },
+  {
+    "id": "normal_dagilim",
+    "term": "Normal Dağılım",
+    "definition": "Çan eğrisi şeklinde simetrik dağılımdır. Ortalama, medyan, mod eşittir; %68 1σ, %95 2σ içindedir.",
+    "examples": [
+      "KPSS puanları yaklaşık normal dağılır.",
+      "Z-tablosu ile olasılık bulunur."
+    ],
+    "relatedTerms": [
+      "Standart Sapma",
+      "Z Skoru",
+      "Merkezi Limit Teoremi"
+    ],
+    "order": 14
+  },
+  {
+    "id": "binom_dagilimi",
+    "term": "Binom Dağılımı",
+    "definition": "Sabit n deneme, sabit p başarı olasılığıyla ikili sonuçlu deneylerdir. P(k) = C(n,k) p^k (1-p)^{n-k}.",
+    "examples": [
+      "10 soruda 0.7 başarıyla 7 doğru beklenen.",
+      "Para atışında yazı sayısı binomdur."
+    ],
+    "relatedTerms": [
+      "Normal Dağılım",
+      "Poisson Dağılımı",
+      "Beklenen Değer"
+    ],
+    "order": 15
+  },
+  {
+    "id": "kosulsuz_olasilik",
+    "term": "Koşulsuz Olasılık",
+    "definition": "Bir olayın gerçekleşme ihtimalidir, P(A) olarak gösterilir. Eşit olası sonuçlarda lehte/tepeden oran alınır. KPSS'de temel olasılık sorusu tipidir.",
+    "examples": [
+      "Bir zarda 3 gelme olasılığı 1/6'dır.",
+      "52'li destede as çekme olasılığı 4/52'dir."
+    ],
+    "relatedTerms": [
+      "Koşullu Olasılık",
+      "Bağımsız Olaylar"
+    ],
+    "order": 16
+  },
+  {
+    "id": "karsilikli_dislayici_olaylar",
+    "term": "Karşılıklı Dışlayıcı Olaylar",
+    "definition": "Aynı anda gerçekleşemezler, A∩B=∅. Birleşik olasılık P(A∪B)=P(A)+P(B). KPSS toplam olasılık hesaplarında kullanılır.",
+    "examples": [
+      "Zar atışında 1 veya 6 gelmesi.",
+      "Seçimde iki aday aynı oy alamaz."
+    ],
+    "relatedTerms": [
+      "Birleşik Olasılık",
+      "Örnek Uzay"
+    ],
+    "order": 17
+  },
+  {
+    "id": "birlesik_olasilik",
+    "term": "Birleşik Olasılık",
+    "definition": "En az birinin gerçekleşme olasılığı P(A∪B)=P(A)+P(B)-P(A∩B). Dışlayıcıysa kesim sıfırdır. KPSS formül sorusu klasiğidir.",
+    "examples": [
+      "Zar atışında tek veya çift: 1.",
+      "Yağmur veya kar yağması olasılığı."
+    ],
+    "relatedTerms": [
+      "Kesişim Olasılığı",
+      "Karşılıklı Dışlayıcı Olaylar"
+    ],
+    "order": 18
+  },
+  {
+    "id": "kesisim_olasiligi",
+    "term": "Kesişim Olasılığı",
+    "definition": "Her ikisinin de gerçekleşme olasılığı P(A∩B)=P(A)P(B|A). Bağımsızsa çarpımdır. KPSS koşullu ile hesaplanır.",
+    "examples": [
+      "İki zar toplam 7: 6/36.",
+      "İki torba çekiminde kırmızı ikisi."
+    ],
+    "relatedTerms": [
+      "Birleşik Olasılık",
+      "Bağımsız Olaylar"
+    ],
+    "order": 19
+  },
+  {
+    "id": "permutasyon",
+    "term": "Permütasyon",
+    "definition": "Sıralı seçim sayısı P(n,r)=n!/(n-r)!. KPSS'de dizilim soruları için kullanılır.",
+    "examples": [
+      "5 kişiden 3'ü sıralı: P(5,3)=60.",
+      "ABC harfleri farklı sıralar: 6."
+    ],
+    "relatedTerms": [
+      "Kombinasyon",
+      "Faktöriyel"
+    ],
+    "order": 20
+  },
+  {
+    "id": "kombinasyon",
+    "term": "Kombinasyon",
+    "definition": "Sırasız seçim sayısı C(n,r)=n!/(r!(n-r)!). KPSS komite veya takım seçiminde sorulur.",
+    "examples": [
+      "5 kişiden 3'ü sırasız: C(5,3)=10.",
+      "10 kitaptan 4'ü seçme: 210."
+    ],
+    "relatedTerms": [
+      "Permütasyon",
+      "Faktöriyel"
+    ],
+    "order": 21
+  },
+  {
+    "id": "faktoriyel",
+    "term": "Faktöriyel",
+    "definition": "n!=n×(n-1)×...×1, 0!=1. Permütasyon ve kombinasyonda temel alınır. KPSS hesaplama sorularında vazgeçilmezdir.",
+    "examples": [
+      "5!=120.",
+      "3!=6."
+    ],
+    "relatedTerms": [
+      "Permütasyon",
+      "Kombinasyon"
+    ],
+    "order": 22
+  },
+  {
+    "id": "poisson_dagilimi",
+    "term": "Poisson Dağılımı",
+    "definition": "Nadir olaylar için, λ ortalamalı P(X=k)= (λ^k e^{-λ})/k!. KPSS birim zamanda olay sayısında kullanılır.",
+    "examples": [
+      "Günde 2 kaza λ=2, tam 3 kaza olasılığı.",
+      "Çağrı merkezinde dakikada gelen telefon."
+    ],
+    "relatedTerms": [
+      "Binom Dağılımı",
+      "Beklenen Değer"
+    ],
+    "order": 23
+  },
+  {
+    "id": "ortalama",
+    "term": "Ortalama",
+    "definition": "Verilerin aritmetik ortalaması \bar{x}=Σx_i/n. KPSS merkez eğilim ölçüsü olarak sorulur.",
+    "examples": [
+      "Notlar 70,80,90 ortalaması 80.",
+      "KPSS puan ortalaması hesabı."
+    ],
+    "relatedTerms": [
+      "Varyans",
+      "Medyan"
+    ],
+    "order": 24
+  },
+  {
+    "id": "kesisim_olayi",
+    "term": "Kesişim Olayı",
+    "definition": "İki olayın aynı anda gerçekleşmesidir. A ∩ B ile gösterilir, bağımsızsa P(A∩B)=P(A)P(B).",
+    "examples": [
+      "'Hem çift hem asal sayı' kesişimdir.",
+      "KPSS'de iki koşulun ortak olasılığı sorulur."
+    ],
+    "relatedTerms": [
+      "Birleşik Olay",
+      "Bağımsız Olaylar",
+      "Koşullu Olasılık"
+    ],
+    "order": 25
+  },
+  {
+    "id": "bayes_teoremi",
+    "term": "Bayes Teoremi",
+    "definition": "Koşullu olasılıkları tersine çevirir: P(A|B)=[P(B|A)P(A)] / P(B). Tıbbi testlerde sık sorulur.",
+    "examples": [
+      "Test pozitifse hastalık olasılığı Bayes ile hesaplanır.",
+      "KPSS'de fabrika kalite kontrolünde kullanılır."
+    ],
+    "relatedTerms": [
+      "Koşullu Olasılık",
+      "Bağımsız Olaylar"
+    ],
+    "order": 26
+  },
+  {
+    "id": "frekans_dagilimi",
+    "term": "Frekans Dağılımı",
+    "definition": "Verilerin sıklıklarını sınıflara göre tablo halinde göstermesidir. KPSS'de grafik yorumlamada temel.",
+    "examples": [
+      "Öğrenci notlarının frekans tablosu.",
+      "Sınavda yaş gruplarının dağılımı."
+    ],
+    "relatedTerms": [
+      "Aritmetik Ortalama",
+      "Medyan",
+      "Mod"
+    ],
+    "order": 27
+  },
+  {
+    "id": "tam_olasilik_teoremi",
+    "term": "Tam Olasılık Teoremi",
+    "definition": "Bir olayın olasılığı, bölünebilir tam kümelerin koşullu olasılıklarının ağırlıklı toplamıdır. P(A) = Σ P(A|Bi) * P(Bi) formülüyle hesaplanır. Bayes teoremi için temel oluşturur.",
+    "examples": [
+      "Hastalık testi pozitif çıkma olasılığı, hasta ve sağlıklı popülasyon oranları ile hesaplanır."
+    ],
+    "relatedTerms": [
+      "Koşullu Olasılık",
+      "Bayes Teoremi"
+    ],
+    "order": 28
+  },
+  {
+    "id": "rassal_degisken",
+    "term": "Rassal Değişken",
+    "definition": "Bir deneyin olası sonuçlarını sayısal değerlere eşleyen fonksiyondur. Ayrık (sonlu/sayılabilir sonsuz) veya sürekli olabilir. KPSS'de olasılık dağılımlarının temelidir.",
+    "examples": [
+      "Zar atışında çıkan sayı (1-6) ayrık rassal değişkendir.",
+      "Bir bölgedeki günlük yağış miktarı sürekli rassal değişkendir."
+    ],
+    "relatedTerms": [
+      "Örnek Uzay",
+      "Olay",
+      "Beklenen Değer"
+    ],
+    "order": 29
+  },
+  {
+    "id": "beklenen_deger",
+    "term": "Beklenen Değer",
+    "definition": "Rassal değişkenin uzun vadeli ortalamasıdır, olasılıklarla ağırlıklı ortalamadır. Formülü E(X) = Σ x_i * P(x_i)'dir. KPSS'de risk hesaplarında kullanılır.",
+    "examples": [
+      "Havale oyunu: Kazanma olasılığı 0.4, ödül 10 TL ise beklenen değer 4 TL.",
+      "Sigorta prim hesaplarında beklenen kayıp kullanılır."
+    ],
+    "relatedTerms": [
+      "Aritmetik Ortalama",
+      "Varyans",
+      "Binom Dağılımı"
+    ],
+    "order": 30
+  },
+  {
+    "id": "goreli_olasilik",
+    "term": "Göreli Olasılık",
+    "definition": "Deney tekrarlandığında gözlenen frekans oranına göre hesaplanan yaklaşıktır. Büyük örneklemlerde klasik olasılığa yaklaşır. KPSS'de ampirik verilere dayalı sorularda esastır.",
+    "examples": [
+      "100 zar atışında 6 gelme frekansı 18 ise göreli olasılık 0.18.",
+      "Anketlerde oy oranı göreli olasılıkla tahmin edilir."
+    ],
+    "relatedTerms": [
+      "Klasik Olasılık",
+      "Frekans Dağılımı",
+      "Koşulsuz Olasılık"
+    ],
+    "order": 31
+  },
+  {
+    "id": "bagimli_olaylar",
+    "term": "Bağımlı Olaylar",
+    "definition": "Bir olayın gerçekleşmesi diğerinin olasılığını etkiler. P(A|B) ≠ P(A) olur. KPSS'de koşullu olasılık hesaplarında ayrım yapılır.",
+    "examples": [
+      "Torba: 1 kırmızı 2 mavi top, ilk kırmızı çekilirse ikincinin kırmızı olasılığı değişir.",
+      "Hastalık testi pozitiflikte gerçek hastalık olasılığı bağımlıdır."
+    ],
+    "relatedTerms": [
+      "Bağımsız Olaylar",
+      "Koşullu Olasılık",
+      "Bayes Teoremi"
+    ],
+    "order": 32
+  },
+  {
+    "id": "carpiklik_katsayisi",
+    "term": "Çarpıklık Katsayısı",
+    "definition": "Dağılımın simetrisini ölçer; pozitif sağa, negatif sola çarpıklık gösterir. Formülü γ = (ortalama - medyan)/standart sapma ≈ dir. KPSS'de veri dağılımı analizinde kullanılır.",
+    "examples": [
+      "Gelir dağılımı pozitif çarpıklıdır (sağa kuyruk).",
+      "Sınav notları negatif çarpık (sola kuyruk) olabilir."
+    ],
+    "relatedTerms": [
+      "Medyan",
+      "Standart Sapma",
+      "Normal Dağılım"
+    ],
+    "order": 33
+  },
+  {
+    "id": "basiklik_katsayisi",
+    "term": "Basıklık Katsayısı",
+    "definition": "Dağılımın tepe yüksekliğini ve kuyruk kalınlığını ölçer; >3 sivri tepe, <3 yassı tepe gösterir. Normal dağılımda 3'tür. KPSS'de dağılım karşılaştırmalarında sorulur.",
+    "examples": [
+      "t-dağılımı normalden daha basıktır.",
+      "Uniform dağılım negatif basıklığa sahiptir."
+    ],
+    "relatedTerms": [
+      "Normal Dağılım",
+      "Varyans",
+      "Çarpıklık Katsayısı"
+    ],
+    "order": 34
+  },
+  {
+    "id": "kovaryans",
+    "term": "Kovaryans",
+    "definition": "İki değişkenin birlikte değişim yönünü ölçer; pozitif aynı yönde, negatif ters yönde. Formülü Cov(X,Y)=E[(X-μx)(Y-μy)]. KPSS'de ilişki analizinde temel.",
+    "examples": [
+      "Boy ve kilo kovaryansı pozitiftir.",
+      "Faiz oranı ve hisse fiyatı kovaryansı negatiftir."
+    ],
+    "relatedTerms": [
+      "Korelasyon Katsayısı",
+      "Varyans",
+      "Beklenen Değer"
+    ],
+    "order": 35
+  },
+  {
+    "id": "korelasyon_katsayisi",
+    "term": "Korelasyon Katsayısı",
+    "definition": "Kovaryansı standartlaştırarak (-1 ile 1 arası) doğrusal ilişki gücünü verir. r=1 tam pozitif, r=-1 tam negatif. KPSS'de değişken ilişkilerinde standart ölçü.",
+    "examples": [
+      "Sınav çalışma saati-not korelasyonu r=0.8 güçlü pozitif.",
+      "Sigara-alkol tüketimi r=0.9."
+    ],
+    "relatedTerms": [
+      "Kovaryans",
+      "Standart Sapma",
+      "Normal Dağılım"
+    ],
+    "order": 36
+  },
+  {
+    "id": "ustel_dagilim",
+    "term": "Üstel Dağılım",
+    "definition": "Sürekli olaylar arası bekleme süresi dağılımıdır, parametresi λ (ortalama 1/λ). Belleksizdir. KPSS'de Poisson ile ilişkilendirilir.",
+    "examples": [
+      "Arıza arası süre üstel dağılımlıdır.",
+      "Müşteri geliş aralıkları üstel.",
+      "Otomobil bekleme süresi."
+    ],
+    "relatedTerms": [
+      "Poisson Dağılımı",
+      "Normal Dağılım",
+      "Beklenen Değer"
+    ],
+    "order": 37
+  },
+  {
+    "id": "hipergeometrik_dagilim",
+    "term": "Hipergeometrik Dağılım",
+    "definition": "Sınırlı popülasyondan sırasız tekrarısız çekimde başarı sayısıdır. Binomun genelleşmesidir. KPSS'de kalite kontrolde sorulur.",
+    "examples": [
+      "Urnada 10 top 4 kırmızı, 5 çekip kırmızı sayısı.",
+      "Parti seçiminde oy oranı."
+    ],
+    "relatedTerms": [
+      "Binom Dağılımı",
+      "Kombinasyon",
+      "Beklenen Değer"
+    ],
+    "order": 38
+  },
+  {
+    "id": "t_dagilimi",
+    "term": "t-Dağılımı",
+    "definition": "Küçük örneklemlerde ortalama için kullanılır, özgürlük derecesine bağlıdır. Normalden daha kalın kuyrukludur. KPSS'de hipotez testlerinde esastır.",
+    "examples": [
+      "n=10 örneklem ortalaması t ile test edilir.",
+      "Regresyon katsayıları t-testi."
+    ],
+    "relatedTerms": [
+      "Normal Dağılım",
+      "Standart Sapma",
+      "Varyans"
+    ],
+    "order": 39
+  },
+  {
+    "id": "ki_kare_dagilimi",
+    "term": "Ki-Kare Dağılımı",
+    "definition": "Varyans testleri ve bağımsızlık testlerinde kullanılır, pozitif asimetriklidir. Özgürlük derecesi k parametresidir. KPSS'de uyum iyiliği testinde sorulur.",
+    "examples": [
+      "Örnek varyansı ki-kare ile test.",
+      "Crosstab bağımsızlık ki-kare testi."
+    ],
+    "relatedTerms": [
+      "Normal Dağılım",
+      "Varyans",
+      "t-Dağılımı"
+    ],
+    "order": 40
+  },
+  {
+    "id": "z_skoru",
+    "term": "Z-Skoru",
+    "definition": "Değerin standart normal dağılımdaki konumunu verir, formül z=(x-μ)/σ. Ortalama 0, sd=1. KPSS'de percentile hesaplarında kullanılır.",
+    "examples": [
+      "Boy 170, μ=165 σ=5 ise z=1.",
+      "Sınav notu percentile için z-skoru."
+    ],
+    "relatedTerms": [
+      "Normal Dağılım",
+      "Standart Sapma",
+      "Beklenen Değer"
+    ],
+    "order": 41
+  },
+  {
+    "id": "guven_araligi",
+    "term": "Güven Aralığı",
+    "definition": "%95 güvenle parametreyi kapsayan aralıktır, genellikle ±1.96 SE. Örneklem büyüdükçe daralır. KPSS'de tahminlerde standarttır.",
+    "examples": [
+      "Ortalama için %95 GA: 50 ± 2.5.",
+      "Anket oran tahmini GA."
+    ],
+    "relatedTerms": [
+      "Normal Dağılım",
+      "Standart Sapma",
+      "Z-Skoru"
+    ],
+    "order": 42
+  },
+  {
+    "id": "kumesel_frekans",
+    "term": "Kümülatif Frekans",
+    "definition": "Veri gruplarının birikmiş frekans toplamıdır, ogiv çizilir. Yüzde kümülatif dağılımı verir. KPSS'de histogram yorumunda kullanılır.",
+    "examples": [
+      "0-10:20, 10-20:30 ise kümülatif 50.",
+      "Not dağılımında % kümülatif percentile verir."
+    ],
+    "relatedTerms": [
+      "Frekans Dağılımı",
+      "Medyan",
+      "Histogram"
+    ],
+    "order": 43
+  },
+  {
+    "id": "carpiklik",
+    "term": "Çarpıklık",
+    "definition": "Dağılımın sol-sağ simetrisini ölçer. Pozitif sağa (uzun kuyruk sağda), negatif sola çarpıklık gösterir.",
+    "examples": [
+      "Gelir dağılımı pozitif çarpıklıdır.",
+      "KPSS histogramında uzun sağ kuyruk pozitif çarpıklıktır."
+    ],
+    "relatedTerms": [
+      "Normal Dağılım",
+      "Medyan",
+      "Mod"
+    ],
+    "order": 44
+  },
+  {
+    "id": "basiklik",
+    "term": "Basıklık",
+    "definition": "Dağılımın tepe yüksekliği ve kuyruk kalınlığını ölçer. 3'ten büyük sivri tepe (leptokurtik), küçük yassı tepe (platikurtik).",
+    "examples": [
+      "Normal dağılımda basıklık 3'tür.",
+      "KPSS'de hisse getirileri yüksek basıklık gösterir."
+    ],
+    "relatedTerms": [
+      "Normal Dağılım",
+      "Çarpıklık",
+      "Varyans"
+    ],
+    "order": 45
+  },
+  {
+    "id": "orneklem_uzayi",
+    "term": "Örneklem Uzayı",
+    "definition": "Rassal bir deneyin tüm mümkün temel sonuçlarının kümesidir. Genellikle S ile gösterilir. KPSS'de olasılık hesaplamalarının temelini oluşturur.",
+    "examples": [
+      "Bir zar atışında örneklem uzayı {1,2,3,4,5,6}'dır.",
+      "İki para atışında {AA, AK, KA, KK}'dır."
+    ],
+    "relatedTerms": [
+      "Rassal Değişken",
+      "Tamamlayıcı Olay",
+      "Karşılıklı Dışlayıcı Olaylar"
+    ],
+    "order": 46
+  },
+  {
+    "id": "kuartiller",
+    "term": "Kuartiller",
+    "definition": "Sıralı verilerin %25, %50 ve %75'lik noktalarını belirleyen değerlerdir. Q1, Q2 (medyan), Q3 olarak adlandırılır. KPSS'de konum ölçüleri ve kutu grafiğinde kullanılır.",
+    "examples": [
+      "10 sayıdan oluşan sıralı sette Q1 birinci ve dördüncü sayı ortalamasıdır.",
+      "Veri dağılımının çeyreklik aralığını hesaplamada Q3 - Q1 alınır."
+    ],
+    "relatedTerms": [
+      "Medyan",
+      "Çarpıklık",
+      "Frekans Dağılımı"
+    ],
+    "order": 47
+  },
+  {
+    "id": "veri_capi",
+    "term": "Veri Çapı",
+    "definition": "Sıralı verilerde en büyük ve en küçük değer arasındaki farktır. Dağılımın yayılımını gösterir. KPSS'de merkezi eğilim ve yayılım ölçüleriyle birlikte sorulur.",
+    "examples": [
+      "Veriler: 2,5,8,12; çap = 12-2=10'dur.",
+      "Sıralı 20 veride çap maksimum - minimumdur."
+    ],
+    "relatedTerms": [
+      "Aritmetik Ortalama",
+      "Varyans",
+      "Standart Sapma"
+    ],
+    "order": 48
+  }
+]

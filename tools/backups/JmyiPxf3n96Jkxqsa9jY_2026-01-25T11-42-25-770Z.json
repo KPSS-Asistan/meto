@@ -1,0 +1,338 @@
+[
+  {
+    "id": "JmyiPxf3n96Jkxqsa9jY_gen_1",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "lessonId": "turkce",
+    "q": "Sözcükte Anlam konusuyla ilgili çalışmalarımız devam etmektedir. Bu bir örnek sorudur.",
+    "o": [
+      "A Seçeneği",
+      "B Seçeneği",
+      "C Seçeneği",
+      "D Seçeneği",
+      "E Seçeneği"
+    ],
+    "a": 0,
+    "e": "Detaylı içerikler yakında GitHub üzerinden senkronize edilecektir.",
+    "subtopic": "Genel"
+  },
+  {
+    "id": "turkce_001",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "soz-obeginde-anlam",
+    "subtopic": "Söz Öbeğinde Anlam",
+    "q": "Sanatçı, eserlerinde dili bir kuyumcu titizliğiyle işliyor; sözcükleri ---- seçerek okuyucunun zihninde ---- bir dünya kurmayı amaçlıyordu. \n\nBu cümlede boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+    "o": [
+      "gelişigüzel - sıradan",
+      "eleyip sık dokuyarak - çok katmanlı",
+      "rastgele - karmaşık",
+      "özenle - sığ",
+      "hızlıca - büyüleyici"
+    ],
+    "a": 1,
+    "e": "Cümledeki 'kuyumcu titizliğiyle işlemek' ifadesi, büyük bir özen ve dikkat gerektirir. Bu nedenle ilk boşluğa 'rastgele', 'gelişigüzel' veya 'hızlıca' gelemez. 'Özenle' veya 'eleyip sık dokuyarak' ifadeleri uygundur. İkinci kısımda ise sanatçının amacı okuyucuyu etkilemek ve derinlik yaratmak olduğundan 'sığ' kelimesi anlam akışını bozar. 'Çok katmanlı' ifadesi ise edebi derinliği karşılar. Doğru cevap 'eleyip sık dokuyarak - çok katmanlı' olmalıdır."
+  },
+  {
+    "id": "turkce_002",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "cok-anlamlilik",
+    "subtopic": "Çok Anlamlılık",
+    "q": "'Çekmek' sözcüğü, aşağıdaki cümlelerin hangisinde 'bir şeyi, bir yerden başka bir yere taşımak' anlamında kullanılmıştır?",
+    "o": [
+      "Bu acıları yıllardır tek başıma çekiyorum.",
+      "Fotoğraf makinesini çantadan çıkarıp güzel bir manzara çekti.",
+      "Sandalyeyi pencerenin kenarına çekip dışarıyı izlemeye başladı.",
+      "Kumaş yıkandıkça çekti ve kullanılamaz hale geldi.",
+      "Canı dondurma çektiği için markete gitti."
+    ],
+    "a": 2,
+    "e": "A seçeneğinde 'katlanmak', B seçeneğinde 'görüntülemek', D seçeneğinde 'kısalmak/büzülmek', E seçeneğinde 'istek duymak/arzulamak' anlamında kullanılmıştır. C seçeneğinde ise sandalyeyi bir konumdan başka bir konuma (pencere kenarına) taşımak/yer değiştirmek anlamı vardır."
+  },
+  {
+    "id": "turkce_003",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "mecaz-anlam",
+    "subtopic": "Gerçek ve Mecaz Anlam",
+    "q": "Modern şiirimiz, (I)kabuğunu kırmaya çalışan bir tohum gibi (II)sancılı bir süreçten geçiyor. Şairler, kelimelerin (III)sırtına yükledikleri yeni anlamlarla okuru (IV)şaşırtmayı hedefliyor. Ancak bu durum, bazen anlaşılırlığın (V)gölgede kalmasına neden oluyor.\n\nBu parçadaki numaralanmış sözcüklerden hangisi 'gerçek anlamında' kullanılmıştır?",
+    "o": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "a": 3,
+    "e": "I. 'Kabuğunu kırmak' mecazen gelişmek, dışa açılmak anlamındadır. II. 'Sancılı' mecazen sıkıntılı, zorlu anlamındadır. III. Kelimelerin 'sırtı' olmaz, insana özgü bir organ kelimeye aktarılarak mecaz (yan anlam yoluyla mecazlaşma) yapılmıştır. V. 'Gölgede kalmak' mecazen geri planda kalmak, önemini yitirmek demektir. Ancak IV. sözcükteki 'şaşırtmak' fiili, gerçek anlamıyla (birini şaşırtma eylemi) kullanılmıştır."
+  },
+  {
+    "id": "turkce_004",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "deyimler",
+    "subtopic": "Deyimler",
+    "q": "Aşağıdaki cümlelerin hangisinde deyim, açıklamasıyla birlikte verilmemiştir?",
+    "o": [
+      "O kadar sinirlendi ki küplere bindi, etrafındakilere bağırıp çağırdı.",
+      "Hiçbir iş yapmadan, elini sıcak sudan soğuk suya sokmadan yaşıyordu.",
+      "Sonunda korktuğu başına geldi, en çekindiği durumla yüzleşmek zorunda kaldı.",
+      "Bu konuyu etraflıca düşünmek, kılı kırk yarmak gerekiyordu.",
+      "Onun bu sözlerine kulak asmadı, söylenenleri dikkatle dinleyip not aldı."
+    ],
+    "a": 4,
+    "e": "A, B, C ve D seçeneklerinde kullanılan deyimler, cümlenin geri kalanında açıklanmıştır (Küplere binmek = Çok sinirlenmek; Elini sıcak sudan soğuk suya sokmamak = İş yapmamak vb.). Ancak E seçeneğinde 'kulak asmamak' deyimi 'önemsememek, dinlememek' anlamına gelirken, cümlenin devamında 'dikkatle dinleyip not aldı' denilerek deyimin tam zıttı bir durum ifade edilmiştir. Açıklama yanlıştır."
+  },
+  {
+    "id": "turkce_005",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "soz-sanatlari",
+    "subtopic": "Ad Aktarması (Mecaz-ı Mürsel)",
+    "q": "Aşağıdaki cümlelerin hangisinde ad aktarması (mecaz-ı mürsel) vardır?",
+    "o": [
+      "Güneş, dağların arkasından yavaşça gülümsüyordu.",
+      "Batı, bu konuda Doğu'ya göre daha temkinli davranıyor.",
+      "Keskin bir sirke kokusu tüm mutfağı sarmıştı.",
+      "Yazarın son kitabını bir solukta okuyup bitirdim.",
+      "Deniz, bugün çarşaf gibi dümdüz ve sakindi."
+    ],
+    "a": 1,
+    "e": "Ad aktarması, bir sözün benzetme amacı güdülmeden başka bir söz yerine kullanılmasıdır. B seçeneğinde 'Batı' ve 'Doğu' sözcükleriyle yönler değil, o bölgelerde yaşayan 'insanlar' veya 'yönetimler' kastedilmiştir (Yer-İnsan ilişkisi). A'da kişileştirme, C'de duyu aktarımı, D'de deyim, E'de benzetme vardır."
+  },
+  {
+    "id": "turkce_006",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "soz-obeginde-anlam-2",
+    "subtopic": "Altı Çizili Sözün Anlamı",
+    "q": "Usta yazar, genç öykücülere tavsiyelerde bulunurken şöyle dedi: 'Eğer kalıcı olmak istiyorsanız, *kendi sesinizi bulmak* zorundasınız; başkalarının ayak izlerine basarak yürüyenler, asla yeni bir yol keşfedemezler.'\n\nBu parçada geçen 'kendi sesini bulmak' sözüyle anlatılmak istenen aşağıdakilerden hangisidir?",
+    "o": [
+      "Toplumsal sorunları gür bir sesle dile getirmek",
+      "Yazın dünyasında popüler ve tanınır hale gelmek",
+      "Taklitten uzaklaşıp özgün bir üslup oluşturmak",
+      "Okuyucunun beklentilerine uygun eserler vermek",
+      "Eleştirmenlerin dikkatini çekecek konular seçmek"
+    ],
+    "a": 2,
+    "e": "Metinde 'başkalarının ayak izlerine basarak yürüyenler' ifadesi taklitçiliği eleştirir. Buna karşılık önerilen 'kendi sesini bulmak' ifadesi, yazarın kendine has, kimseye benzemeyen, orijinal ve özgün bir anlatım tarzı (üslup) geliştirmesi gerektiğini vurgular."
+  },
+  {
+    "id": "turkce_007",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "duyu-aktarimi",
+    "subtopic": "Duyu Aktarımı",
+    "q": "Aşağıdaki cümlelerin hangisinde bir duyuya ait özelliğin başka bir duyuya aktarılmasıyla (duyu aktarımı) oluşan bir mecazlı söyleyiş **yoktur**?",
+    "o": [
+      "Sokaktan gelen acı fren sesiyle hepimiz irkildik.",
+      "Yumuşak bakışlarıyla çocuğun korkusunu yatıştırdı.",
+      "Keskin bir zeka, her sorunun üstesinden gelir.",
+      "Sıcak bir karşılama töreniyle misafirleri ağırladılar.",
+      "Kadife gibi sesiyle salondaki herkesi büyüledi."
+    ],
+    "a": 2,
+    "e": "A'da tatma duyusu (acı) işitmeye; B'de dokunma duyusu (yumuşak) görmeye; D'de dokunma duyusu (sıcak) hissetmeye/davranışa; E'de dokunma duyusu (kadife-yumuşaklık) işitmeye aktarılmıştır. C seçeneğinde 'keskin zeka' ifadesinde 'keskin' sözcüğü mecaz anlamda kullanılmıştır ancak bu bir duyu aktarımı değil, soyut bir kavrama (zeka) somut bir nitelik (keskinlik) yüklenmesidir. Duyu aktarımı olması için iki farklı duyu (görme, işitme, tatma, koklama, dokunma) arasında geçiş olmalıdır."
+  },
+  {
+    "id": "turkce_008",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "yakin-anlam",
+    "subtopic": "Yakın Anlamlı Sözcükler",
+    "q": "Aşağıdaki cümlelerin hangisinde 'yadsımak' sözcüğünün anlamını karşılayan bir ifade kullanılmıştır?",
+    "o": [
+      "Yaptığı hataları kabul etmek yerine sürekli başkalarını suçluyordu.",
+      "Genç şairin yeteneği, eleştirmenler tarafından inkar edilemez bir gerçekti.",
+      "Konuyu küçümseyerek, önemsemeyerek bir kenara attı.",
+      "Bu davranışını garipsediğimi söylemeden geçemeyeceğim.",
+      "Eski arkadaşlarını görünce tanımazlıktan geldi."
+    ],
+    "a": 1,
+    "e": "'Yadsımak'; inkar etmek, yaptığını saklamak, kabul etmemek veya tanımazlıktan gelmek (yabancı gibi davranmak) anlamlarına gelir. B seçeneğindeki 'inkar edilemez' ifadesi 'yadsınamaz' ile eş anlamlıdır. Diğer seçeneklerde: A'da suçlamak, C'de azımsamak/küçümsemek, D'de yadırgamak (garipsemek) anlamları vardır."
+  },
+  {
+    "id": "turkce_009",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "ikilemeler",
+    "subtopic": "İkilemelerin Yapısı",
+    "q": "Aşağıdaki cümlelerin hangisinde ikilemeyi oluşturan sözcükler, tek başlarına kullanıldıklarında anlamlı değildir?",
+    "o": [
+      "Eş dost herkes bu düğüne davet edilmişti.",
+      "Yalan yanlış bilgilerle insanların kafasını karıştırıyor.",
+      "Üzerinde eski püskü bir ceket vardı.",
+      "Mırın kırın etmeden kendisine verilen görevi yaptı.",
+      "İrili ufaklı taşları toplayıp kenara dizdi."
+    ],
+    "a": 3,
+    "e": "A'da 'eş' ve 'dost' anlamlıdır. B'de 'yalan' ve 'yanlış' anlamlıdır. C'de 'eski' anlamlıdır ancak 'püskü' tek başına anlamsızdır (biri anlamlı biri anlamsız). E'de 'iri' ve 'ufak' anlamlıdır. D seçeneğindeki 'mırın kırın' ikilemesini oluşturan her iki sözcük de tek başına anlamsızdır. Soru kökü 'sözcükler' (çoğul) dediği için her ikisinin de anlamsız olduğu şıkkı (D) veya bağlama göre her ikisinin de anlamsız olduğu durumu ararız. Ancak burada en net 'ikisi de anlamsız' olan D şıkkıdır. \n*Düzeltme/Analiz:* C şıkkında 'püskü' anlamsızdır ama 'eski' anlamlıdır. D şıkkında 'mırın' ve 'kırın' tek başlarına anlamsızdır. Soru 'sözcükler' dediği için her ikisinin de anlamsız olduğu D seçeneği doğru cevaptır."
+  },
+  {
+    "id": "turkce_010",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "nicel-nitel-anlam",
+    "subtopic": "Nicel ve Nitel Anlam",
+    "q": "(I) Şehrin yüksek binaları, gökyüzünü adeta hapsetmişti. (II) Geniş caddelerde insanlar karınca sürüsü gibi görünüyordu. (III) Bu kötü mimari, insanın ruhunu daraltıyordu. (IV) Ağır çantasıyla yürümekte zorlanan bir öğrenci gördüm. (V) Yakın bir gelecekte bu beton yığınından kurtulmayı umuyordum.\n\nNumaralanmış cümlelerdeki altı çizili sözcüklerden hangisi 'nitel' anlamda kullanılmıştır? (Altı çizili sözcükler: I. Yüksek, II. Geniş, III. Kötü, IV. Ağır, V. Yakın)",
+    "o": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "a": 2,
+    "e": "Nicel anlam, ölçülebilen veya sayılabilen özellikleri ifade eder. Nitel anlam ise ölçülemeyen, keyfiyet bildiren özellikleri ifade eder. \nI. Yüksek (ölçülebilir - nicel)\nII. Geniş (ölçülebilir - nicel)\nIII. Kötü (ölçülemez, kişisel değerlendirme - nitel)\nIV. Ağır (tartılabilir - nicel)\nV. Yakın (mesafe olarak ölçülebilir - nicel)\nBu durumda 'kötü' sözcüğü nitel anlamlıdır."
+  },
+  {
+    "id": "turkce_011",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "cok-anlamlilik",
+    "subtopic": "Çok Anlamlılık",
+    "q": "\"Çekmek\" sözcüğü, aşağıdaki cümlelerin hangisinde \"bir şeyi, bir aracı veya taşıtı yürütmek, sürmek\" anlamında kullanılmıştır?",
+    "o": [
+      "Arabayı sağa çekip bagajdaki malzemeleri kontrol etti.",
+      "Halatı olanca gücüyle çekerek tekneyi kıyıya yanaştırdı.",
+      "Bu kumaş yıkandıkça çeker, o yüzden bir beden büyük almalısın.",
+      "Bütün gün evin yükünü tek başına çektiği için çok yorgundu.",
+      "Fotoğraf makinesini çıkarıp gün batımının harika bir karesini çekti."
+    ],
+    "a": 0,
+    "e": "A seçeneğinde geçen 'arabayı sağa çekmek' ifadesi, bir taşıtı belirli bir yöne doğru sürmek veya yürütmek anlamında kullanılmıştır. B seçeneğinde 'germek/sürüklemek', C seçeneğinde 'kısalmak/daralmak', D seçeneğinde 'katlanmak/üstlenmek', E seçeneğinde ise 'görüntülemek' anlamındadır."
+  },
+  {
+    "id": "turkce_012",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "soz-obekleri",
+    "subtopic": "Söz Öbeklerinde Anlam",
+    "q": "Edebiyatımızda bazı şairler, (I)sözcüklerin nabzını tutarak okurun (II)duygu dünyasına sızmayı başarır. Onlar için şiir, (III)sıradanlığın kabuğunu kırmak ve (IV)imge denizine yelken açmak demektir. Bu sayede okur, (V)düşünsel bir sarsıntı yaşayarak kendine gelir.\n\nBu parçadaki numaralanmış sözlerden hangisi, \"yerleşik kalıpların ve alışılmışın dışına çıkmak\" anlamını taşımaktadır?",
+    "o": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "a": 2,
+    "e": "Parçada geçen III numaralı 'sıradanlığın kabuğunu kırmak' sözü; bilinenin, alışılmışın, monotonluğun ve yerleşik kalıpların dışına çıkmayı, özgünleşmeyi ifade eder. 'Sözcüklerin nabzını tutmak' dili iyi kullanmayı, 'imge denizine yelken açmak' hayal gücünü kullanmayı ifade eder."
+  },
+  {
+    "id": "turkce_013",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "mecaz-anlam",
+    "subtopic": "Gerçek ve Mecaz Anlam",
+    "q": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük, ayraç içinde verilen anlama uygun kullanılmamıştır?",
+    "o": [
+      "Yazarın bu eseri, dönemin sosyal yapısına <ışık tutuyor>. (Aydınlatmak, açıklamak)",
+      "Toplantıda bize karşı takındığı <soğuk> tavır herkesi rahatsız etti. (Duygusuz, ilgisiz)",
+      "Bu işin <kokusu> yakında çıkar, o zaman ne yapacağımızı düşünürüz. (Belirti, işaret)",
+      "Genç sanatçı, eleştirmenlerin <keskin> kaleminden nasibini almıştı. (Kırıcı, sert)",
+      "Projenin detaylarını konuşmak için konuyu biraz daha <eşelemek> gerekiyor. (Toprağı kazmak)"
+    ],
+    "a": 4,
+    "e": "A, B, C ve D seçeneklerinde verilen altı çizili sözcükler, parantez içindeki mecaz anlamlarıyla örtüşmektedir. Ancak E seçeneğindeki 'eşelemek' sözcüğü cümlede 'bir konuyu derinlemesine araştırmak, incelemek' mecaz anlamında kullanılmıştır; parantez içinde verilen 'toprağı kazmak' ifadesi ise sözcüğün gerçek anlamıdır. Dolayısıyla açıklama uyuşmamaktadır."
+  },
+  {
+    "id": "turkce_014",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "bosluk-doldurma",
+    "subtopic": "Sözcük Yerleştirme (Boşluk Doldurma)",
+    "q": "Bilim insanları, karmaşık verileri analiz ederken sadece ---- sonuçlara odaklanmamalı, aynı zamanda bu sonuçların altında yatan nedenleri de ---- çalışmalıdır.",
+    "o": [
+      "nicel - irdelemeye",
+      "yüzeysel - saklamaya",
+      "kesin - reddetmeye",
+      "teorik - ezberlemeye",
+      "geçici - ertelemeye"
+    ],
+    "a": 0,
+    "e": "Cümlenin bağlamı, bilimsel bir sürecin derinliğini vurgulamaktadır. 'Sadece... odaklanmamalı' ifadesi, görünen veya ölçülebilen kısmın ötesine geçilmesi gerektiğini belirtir. Bu bağlamda ilk boşluğa ölçülebilir veriyi ifade eden 'nicel', ikinci boşluğa ise derinlemesine incelemeyi ifade eden 'irdelemeye' sözcükleri getirilmelidir."
+  },
+  {
+    "id": "turkce_015",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "deyimler",
+    "subtopic": "Deyimler",
+    "q": "İnsan ilişkilerinde bazen sabırlı olmak gerekir ancak sabrın da bir sınırı vardır. Karşısındakinin vurdumduymaz tavırları karşısında (I)tepesi atan adam, sonunda (II)açtı ağzını yumdu gözünü. Oysa o, her zaman (III)alttan alan, (IV)sineye çeken biriydi. Bu sefer (V)kabına sığmamış, öfkesini kontrol edememişti.\n\nBu parçadaki numaralanmış deyimlerden hangisi, anlatılan durumla uyuşmamaktadır?",
+    "o": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "a": 4,
+    "e": "Parçada bir kişinin sabrının taşması ve öfkelenmesi anlatılmaktadır. 'Tepesi atmak', 'açtı ağzını yumdu gözünü' (ağır sözler söylemek), 'alttan almak' ve 'sineye çekmek' deyimleri bağlama uygundur. Ancak V numaralı 'kabına sığmamak' deyimi genellikle 'sevinçten veya heyecandan taşkınlık göstermek' anlamında kullanılır. Burada öfke patlamasını anlatmak için 'barut kesilmek' veya 'çileden çıkmak' gibi deyimler daha uygun olurdu."
+  },
+  {
+    "id": "turkce_016",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "anlam-iliskisi",
+    "subtopic": "Anlamca Karşılık / Yakın Anlam",
+    "q": "Sanatçı, eserlerinde toplumsal sorunları **yadsınamaz** bir gerçeklikle ele alıyor.\n\nBu cümledeki altı çizili sözcüğün cümleye kattığı anlam, aşağıdakilerin hangisinde vardır?",
+    "o": [
+      "Bu konudaki başarısını inkar etmek mümkün değil.",
+      "Olayları abartarak anlatması inandırıcılığını zedeliyor.",
+      "Eleştirmenlerin görüşlerini her zaman önemserdi.",
+      "Gerçekleri olduğu gibi değil, kendi istediği gibi yansıtırdı.",
+      "Toplumun beklentilerini karşılamak için çaba sarf ediyordu."
+    ],
+    "a": 0,
+    "e": "'Yadsımak' sözcüğü 'inkar etmek, yok saymak, kabul etmemek' anlamlarına gelir. 'Yadsınamaz' ise 'inkar edilemez, reddedilemez' demektir. A seçeneğindeki 'inkar etmek mümkün değil' ifadesi, altı çizili sözcüğün anlamını tam olarak karşılamaktadır."
+  },
+  {
+    "id": "turkce_017",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "ad-aktarmasi",
+    "subtopic": "Ad Aktarması (Mecazımürsel)",
+    "q": "Ad aktarması; bir sözün, benzetme amacı güdülmeden başka bir sözün yerine kullanılmasıdır.\n\nBuna göre, aşağıdaki cümlelerin hangisinde ad aktarması **yoktur**?",
+    "o": [
+      "Tüm stat, hakemin verdiği penaltı kararına itiraz etti.",
+      "Ünlü raket, turnuvanın final maçında sakatlandı.",
+      "Sobayı yakmak için odunluktan biraz çıra getirdi.",
+      "Batı, bu teknolojik gelişmelere uzun süre kayıtsız kaldı.",
+      "Uçak İstanbul'a indiğinde saat gece yarısını geçiyordu."
+    ],
+    "a": 4,
+    "e": "A'da 'stat' (seyirciler), B'de 'raket' (tenisçi), C'de 'soba' (içindeki yakacaklar), D'de 'Batı' (Batı ülkeleri/halkları) kastedilerek ad aktarması yapılmıştır. E seçeneğinde ise 'uçak' sözcüğü kendi anlamında kullanılmıştır, herhangi bir mecazımürsel yoktur."
+  },
+  {
+    "id": "turkce_018",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "duyu-aktarimi",
+    "subtopic": "Duyu Aktarımı",
+    "q": "Aşağıdaki cümlelerin hangisinde bir duyudan başka bir duyuya aktarım yapılmıştır?",
+    "o": [
+      "Rüzgârın uğultusu sabaha kadar hiç dinmedi.",
+      "Sıcak bir çorba içince kendine geldiğini hissetti.",
+      "Acı bir fren sesiyle irkilen kalabalık sokağa döküldü.",
+      "Masanın üzerindeki pürüzlü yüzeyi zımparalamaya başladı.",
+      "Gökyüzü bugün her zamankinden daha parlak görünüyordu."
+    ],
+    "a": 2,
+    "e": "Duyu aktarımı, bir duyuya ait özelliğin başka bir duyu için kullanılmasıdır. C seçeneğinde 'acı' (tatma duyusu), 'ses' (işitme duyusu) için kullanılarak 'keskin, rahatsız edici ses' anlamında duyular arası aktarım yapılmıştır."
+  },
+  {
+    "id": "turkce_019",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "ikilemeler",
+    "subtopic": "İkilemeler",
+    "q": "İkilemeler, anlatımı pekiştirmek amacıyla kurulan söz öbekleridir ve farklı yollarla oluşturulabilir.\n\nAşağıdaki cümlelerin hangisinde ikileme, ötekilerden farklı bir yolla oluşturulmuştur?",
+    "o": [
+      "Eğri büğrü yollardan geçerek köye ulaştık.",
+      "Eski püskü kıyafetlerle dolaşmaktan utanmıyordu.",
+      "Yalan yanlış bilgilerle insanların kafasını karıştırma.",
+      "Ufak tefek sorunları büyütmeye gerek yok.",
+      "İleri geri konuşarak herkesin canını sıkmıştı."
+    ],
+    "a": 4,
+    "e": "A (eğri-büğrü), B (eski-püskü), C (yalan-yanlış) ve D (ufak-tefek) seçeneklerindeki ikilemeler; biri anlamlı, diğeri anlamsız sözcüklerin bir araya gelmesiyle veya yakın anlamlı sözcüklerle (yalan-yanlış gibi) oluşturulmuştur. Ancak E seçeneğindeki 'ileri geri' ikilemesi, zıt anlamlı sözcüklerin bir arada kullanılmasıyla oluşturulmuştur."
+  },
+  {
+    "id": "turkce_020",
+    "topicId": "JmyiPxf3n96Jkxqsa9jY",
+    "subtopicId": "somutlama",
+    "subtopic": "Somutlama",
+    "q": "Soyut bir kavramın, anlaşılmasını kolaylaştırmak için somut bir varlıkmış gibi anlatılmasına 'somutlama' denir.\n\nAşağıdakilerin hangisinde bu açıklamaya uygun bir kullanım vardır?",
+    "o": [
+      "Düşüncelerini özgürce ifade etmekten çekinmezdi.",
+      "Hüzün, boğazıma düğümlenen bir yumruk gibiydi.",
+      "Mutluluk paylaşıldıkça çoğalan bir hazinedir.",
+      "Zamanın nasıl geçtiğini anlamadan akşam oldu.",
+      "Cesareti sayesinde tüm zorlukların üstesinden geldi."
+    ],
+    "a": 1,
+    "e": "'Hüzün' soyut bir kavramdır. B seçeneğinde bu soyut kavram, boğazda düğümlenen 'bir yumruk' gibi somut bir nesneye benzetilerek anlatılmış ve somutlama yapılmıştır. C seçeneğinde de bir benzetme vardır ancak 'yumruk' kadar fiziksel bir somutlaştırma örneği olarak B seçeneği (hissedilebilir fiziksel etki) daha net bir somutlama örneğidir. (Not: ÖSYM sorularında 'hüzün-yumruk', 'umut-ışık' gibi ilişkiler somutlama için tipik örneklerdir.)"
+  }
+]

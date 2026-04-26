@@ -1,0 +1,746 @@
+[
+  {
+    "id": "birinci_kurtulus_savasinin_baslangici",
+    "term": "Birinci Kurtuluş Savaşı'nın Başlangıcı",
+    "definition": "Milli Mücadelenin başladığı, Türk milletinin bağımsızlık ve egemenlik haklarını savunmak için harekete geçtiği dönemdir. Mustafa Kemal Atatürk'ün Samsun'a çıkışı ile simgelenir.",
+    "examples": [
+      "Mustafa Kemal'in 19 Mayıs 1919'da Samsun'a çıkışı",
+      "Amasya Genelgesi'nin yayınlanması"
+    ],
+    "relatedTerms": [
+      "Milli Mücadele",
+      "Samsun",
+      "Amasya Genelgesi"
+    ],
+    "order": 1
+  },
+  {
+    "id": "sevr_anlasmasi",
+    "term": "Sevr Anlaşması",
+    "definition": "Osmanlı Devleti'nin I. Dünya Savaşı sonrası imzaladığı, Türk vatanının paylaşılmasını öngören ve Türk milleti tarafından kabul edilmeyen bir anlaşmadır. Milli Mücadele'nin temel motivasyonlarından biri olmuştur.",
+    "examples": [
+      "Anlaşmanın 10 Ağustos 1920'de imzalanması",
+      "Anlaşmanın Türk milleti tarafından reddedilmesi"
+    ],
+    "relatedTerms": [
+      "I. Dünya Savaşı",
+      "Mondros Mütarekesi",
+      "Lozan Barış Antlaşması"
+    ],
+    "order": 2
+  },
+  {
+    "id": "tbmm_nin_acilisi",
+    "term": "TBMM'nin Açılışı",
+    "definition": "Milli egemenliği temsil etmek ve Kurtuluş Savaşı'nı yönetmek amacıyla Ankara'da Türkiye Büyük Millet Meclisi'nin 23 Nisan 1920'de açılmasıdır. Milli iradenin tecelligahıdır.",
+    "examples": [
+      "23 Nisan 1920'de Ankara'da açılması",
+      "Milli egemenlik ilkesinin benimsenmesi"
+    ],
+    "relatedTerms": [
+      "Ankara",
+      "Milli Egemenlik",
+      "Kurtuluş Savaşı"
+    ],
+    "order": 3
+  },
+  {
+    "id": "mudanya_mütarekesi",
+    "term": "Mudanya Mütarekesi",
+    "definition": "Kurtuluş Savaşı'nın askeri safhasını sona erdiren, Osmanlı Devleti ile İtilaf Devletleri arasında imzalanan ateşkes anlaşmasıdır. Doğu Trakya'nın Türk egemenliğine geçişini sağlamıştır.",
+    "examples": [
+      "11 Ekim 1922'de imzalanması",
+      "Doğu Trakya'nın Türkiye'ye bırakılması"
+    ],
+    "relatedTerms": [
+      "Kurtuluş Savaşı",
+      "Ateşkes Anlaşması",
+      "Lozan Barış Antlaşması"
+    ],
+    "order": 4
+  },
+  {
+    "id": "lozanda_baris_antlasmasi",
+    "term": "Lozan Barış Antlaşması",
+    "definition": "Kurtuluş Savaşı'nı resmen sona erdiren, Türkiye Cumhuriyeti'nin tapu senedi niteliğindeki uluslararası anlaşmadır. Türkiye'nin bağımsızlığını ve Misak-ı Milli kararlarını teyit etmiştir.",
+    "examples": [
+      "24 Temmuz 1923'te imzalanması",
+      "Türkiye'nin bağımsızlığının tanınması"
+    ],
+    "relatedTerms": [
+      "Mudanya Mütarekesi",
+      "Misak-ı Milli",
+      "Türkiye Cumhuriyeti"
+    ],
+    "order": 5
+  },
+  {
+    "id": "cumhuriyetin_ilani",
+    "term": "Cumhuriyetin İlanı",
+    "definition": "29 Ekim 1923'te Türkiye Büyük Millet Meclisi tarafından Cumhuriyetin ilan edilmesiyle modern Türk devletinin temelinin atılmasıdır. Devletin yönetim şeklinin belirlenmesidir.",
+    "examples": [
+      "29 Ekim 1923'te ilan edilmesi",
+      "Rejimin Cumhuriyet olarak belirlenmesi"
+    ],
+    "relatedTerms": [
+      "TBMM",
+      "Rejim",
+      "Atatürk İlkeleri"
+    ],
+    "order": 6
+  },
+  {
+    "id": "hilafetin_kaldirilmasi",
+    "term": "Hilafetin Kaldırılması",
+    "definition": "3 Mart 1924'te TBMM tarafından hilafetin kaldırılması ve halifeliğin kaldırılmasıdır. Laiklik ilkesinin önemli bir adımıdır.",
+    "examples": [
+      "3 Mart 1924'te kaldırılması",
+      "Laiklik ilkesinin güçlenmesi"
+    ],
+    "relatedTerms": [
+      "Laiklik",
+      "TBMM",
+      "Tevhid-i Tedrisat Kanunu"
+    ],
+    "order": 7
+  },
+  {
+    "id": "tevhiditedrisat_kanunu",
+    "term": "Tevhid-i Tedrisat Kanunu",
+    "definition": "3 Mart 1924'te çıkarılan ve eğitimde birliği sağlayan kanundur. Tüm okullar Milli Eğitim Bakanlığı'na bağlanmıştır.",
+    "examples": [
+      "3 Mart 1924'te çıkarılması",
+      "Eğitimde birliğin sağlanması"
+    ],
+    "relatedTerms": [
+      "Eğitim",
+      "Laiklik",
+      "Hilafetin Kaldırılması"
+    ],
+    "order": 8
+  },
+  {
+    "id": "turk_medeni_kanunu",
+    "term": "Türk Medeni Kanunu",
+    "definition": "17 Şubat 1926'da kabul edilen ve Türk toplumunda kadın-erkek eşitliğini, aile hukukunu düzenleyen yenilikçi kanundur. Medeni hakların temelini oluşturur.",
+    "examples": [
+      "17 Şubat 1926'da kabul edilmesi",
+      "Kadın-erkek eşitliğinin sağlanması"
+    ],
+    "relatedTerms": [
+      "Kadın Hakları",
+      "Aile Hukuku",
+      "Laiklik"
+    ],
+    "order": 9
+  },
+  {
+    "id": "harf_inkilabi",
+    "term": "Harf İnkılabı",
+    "definition": "1 Kasım 1928'de Latin alfabesinin kabul edilmesiyle eski Arap harflerinin terk edilmesidir. Okuryazarlığın artırılmasına yönelik önemli bir adımdır.",
+    "examples": [
+      "1 Kasım 1928'de kabul edilmesi",
+      "Latin alfabesinin kullanılmaya başlanması"
+    ],
+    "relatedTerms": [
+      "Okuryazarlık",
+      "Eğitim",
+      "Dil Devrimi"
+    ],
+    "order": 10
+  },
+  {
+    "id": "soyadı_kanunu",
+    "term": "Soyadı Kanunu",
+    "definition": "21 Haziran 1934'te çıkarılan ve her Türk vatandaşının bir soyadı taşımasını zorunlu kılan kanundur. Toplumsal eşitlik ve resmi işlerde kolaylık sağlamıştır.",
+    "examples": [
+      "21 Haziran 1934'te kabul edilmesi",
+      "Her vatandaşa soyadı verilmesi"
+    ],
+    "relatedTerms": [
+      "Toplumsal Eşitlik",
+      "Nüfus Kayıtları",
+      "Resmi İşlemler"
+    ],
+    "order": 11
+  },
+  {
+    "id": "kadinlara_siyasi_haklar",
+    "term": "Kadınlara Siyasi Haklar",
+    "definition": "Türk kadınının 1930'da belediye, 1933'te muhtar ve 1934'te milletvekili seçme ve seçilme hakkını elde etmesidir. Kadınların toplumsal hayata katılımını artırmıştır.",
+    "examples": [
+      "1930'da belediye seçme ve seçilme hakkı",
+      "1934'te milletvekili seçme ve seçilme hakkı"
+    ],
+    "relatedTerms": [
+      "Kadın Hakları",
+      "Cumhuriyetçilik",
+      "Siyasi Katılım"
+    ],
+    "order": 12
+  },
+  {
+    "id": "munih_olaylari",
+    "term": "Münih Olayları",
+    "definition": "1938'de Türkiye'nin Hatay üzerindeki hak iddialarını uluslararası alanda dile getirmesi ve Fransa ile yapılan görüşmeler sonucunda Hatay'ın Türkiye'ye katılma sürecinin başlamasıdır.",
+    "examples": [
+      "1938'de Fransa ile yapılan görüşmeler",
+      "Hatay'ın Türkiye'ye katılması süreci"
+    ],
+    "relatedTerms": [
+      "Hatay",
+      "Dış Politika",
+      "Sınır Güvenliği"
+    ],
+    "order": 13
+  },
+  {
+    "id": "hatay_cumhuriyeti_ve_iltihakı",
+    "term": "Hatay Cumhuriyeti ve İltihakı",
+    "definition": "Hatay'ın 1938'de bağımsız bir cumhuriyet olarak kurulması ve 1939'da yapılan referandumla Türkiye'ye katılma kararı almasıdır. Sınırların kesinleşmesinde önemli bir adımdır.",
+    "examples": [
+      "1938'de bağımsız cumhuriyet ilanı",
+      "1939'da Türkiye'ye katılma referandumu"
+    ],
+    "relatedTerms": [
+      "Hatay",
+      "Referandum",
+      "Sınır Antlaşmaları"
+    ],
+    "order": 14
+  },
+  {
+    "id": "ikinci_dunya_savasina_giris",
+    "term": "İkinci Dünya Savaşı'na Giriş",
+    "definition": "Türkiye'nin II. Dünya Savaşı'nın sonlarına doğru, 23 Şubat 1945'te Müttefik Devletler safında Almanya ve Japonya'ya savaş ilan etmesidir. Savaş sonrası uluslararası düzende yer almayı hedeflemiştir.",
+    "examples": [
+      "23 Şubat 1945'te Almanya ve Japonya'ya savaş ilanı",
+      "BM'ye üyelik hedefi"
+    ],
+    "relatedTerms": [
+      "II. Dünya Savaşı",
+      "Müttefik Devletler",
+      "Birleşmiş Milletler"
+    ],
+    "order": 15
+  },
+  {
+    "id": "tek_parti_doneminin_sonu",
+    "term": "Tek Parti Döneminin Sonu",
+    "definition": "1946'da çok partili hayata geçişle birlikte Türkiye'de uzun yıllar süren tek parti yönetiminin sona ermesidir. Siyasi çeşitliliğin artmasını sağlamıştır.",
+    "examples": [
+      "1946'da çok partili hayata geçiş",
+      "Demokrat Parti'nin kurulması"
+    ],
+    "relatedTerms": [
+      "Çok Partili Hayat",
+      "Demokrat Parti",
+      "Siyasi Reformlar"
+    ],
+    "order": 16
+  },
+  {
+    "id": "kore_savasina_katilim",
+    "term": "Kore Savaşı'na Katılım",
+    "definition": "Türkiye'nin 1950'de Birleşmiş Milletler kararıyla Kore Savaşı'na asker göndermesi ve Batı Bloku'na yakınlaşma sürecinin hızlanmasıdır. NATO üyeliğinin önünü açmıştır.",
+    "examples": [
+      "1950'de Birleşmiş Milletler kararıyla asker gönderilmesi",
+      "NATO üyeliğine giden süreç"
+    ],
+    "relatedTerms": [
+      "Kore Savaşı",
+      "Birleşmiş Milletler",
+      "NATO"
+    ],
+    "order": 17
+  },
+  {
+    "id": "nato_yeliği",
+    "term": "NATO Üyeliği",
+    "definition": "Türkiye'nin 1952'de Kuzey Atlantik Antlaşması Örgütü'ne (NATO) üye olmasıdır. Soğuk Savaş döneminde güvenlik politikasının temelini oluşturmuştur.",
+    "examples": [
+      "1952'de üyeliğin kabul edilmesi",
+      "Soğuk Savaş dönemi güvenlik politikası"
+    ],
+    "relatedTerms": [
+      "NATO",
+      "Soğuk Savaş",
+      "Kore Savaşı"
+    ],
+    "order": 18
+  },
+  {
+    "id": "27_mayis_darbesi",
+    "term": "27 Mayıs Darbesi",
+    "definition": "27 Mayıs 1960'ta Türk Silahlı Kuvvetleri'nin yönetime el koyması ve iktidardaki Demokrat Parti'yi devirmesidir. Türkiye'de siyasi ve toplumsal çalkantılara yol açmıştır.",
+    "examples": [
+      "27 Mayıs 1960'ta gerçekleşmesi",
+      "Demokrat Parti'nin devrilmesi"
+    ],
+    "relatedTerms": [
+      "Askeri Darbe",
+      "Siyasi İstikrarsızlık",
+      "Anayasa Değişiklikleri"
+    ],
+    "order": 19
+  },
+  {
+    "id": "12_mart_muhtirasi",
+    "term": "12 Mart Muhtırası",
+    "definition": "12 Mart 1971'de Türk Silahlı Kuvvetleri'nin siyasi iktidara gönderdiği ve hükümetin istifasını istediği askeri müdahaledir. Siyasi krizlerin yaşandığı bir dönemdir.",
+    "examples": [
+      "12 Mart 1971'de verilmesi",
+      "Hükümetin istifasının istenmesi"
+    ],
+    "relatedTerms": [
+      "Askeri Müdahale",
+      "Siyasi Krizler",
+      "Anayasa Değişiklikleri"
+    ],
+    "order": 20
+  },
+  {
+    "id": "sivas_kongresi",
+    "term": "Sivas Kongresi",
+    "definition": "Milli Mücadele'nin temel prensiplerinin belirlendiği, tüm yararlı cemiyetlerin tek çatı altında toplandığı ve milli egemenliği esas alan önemli bir kongredir. Kongrede Mustafa Kemal Paşa, Milli Mücadele'nin lideri olarak kabul edilmiş ve İrade-i Milliye Gazetesi çıkarılması kararlaştırılmıştır.",
+    "examples": [
+      "Manda ve Himaye'nin kesin olarak reddedilmesi",
+      "Temsil Heyeti'nin tüm yurdu temsil eder hale gelmesi",
+      "Milli Mücadele'nin temel ilkelerinin belirlenmesi"
+    ],
+    "relatedTerms": [
+      "Amasya Genelgesi",
+      "Erzurum Kongresi",
+      "Temsil Heyeti"
+    ],
+    "order": 21
+  },
+  {
+    "id": "amasya_genelgesi",
+    "term": "Amasya Genelgesi",
+    "definition": "Milli Mücadele'nin amacını, gerekçesini ve yöntemini belirleyen ilk belgedir. Vatanın bütünlüğünün ve milletin bağımsızlığının tehlikede olduğu vurgulanmış, milletin azim ve kararlılığının kurtuluşu sağlayacağı belirtilmiştir.",
+    "examples": [
+      "Vatanın bütünlüğü ve milletin bağımsızlığı tehlikededir.",
+      "Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır.",
+      "Her türlü etki ve denetimden uzak milli bir kurul oluşturulmalıdır."
+    ],
+    "relatedTerms": [
+      "Havza Genelgesi",
+      "Sivas Kongresi",
+      "Milli Mücadele"
+    ],
+    "order": 22
+  },
+  {
+    "id": "tekalifimilliye_emirleri",
+    "term": "Tekalif-i Milliye Emirleri",
+    "definition": "Milli Mücadele'nin en kritik döneminde, ordunun ihtiyaçlarını karşılamak amacıyla halktan zorunlu olarak alınan mallar ve yardımlardır. Bu emirler, halkın fedakarlığını ve milli birlikteliği göstermesi açısından büyük önem taşır.",
+    "examples": [
+      "Her aileden bir kat giysi ve çamaşır verilmesi",
+      "Milli ordulara yardım için para toplanması",
+      "Çiftçilerin elindeki un, tuz gibi gıda maddelerinin orduya verilmesi"
+    ],
+    "relatedTerms": [
+      "Sakarya Meydan Muharebesi",
+      "Başkomutanlık Meydan Muharebesi",
+      "Milli Mücadele"
+    ],
+    "order": 23
+  },
+  {
+    "id": "saltanatın_kaldırılması",
+    "term": "Saltanatın Kaldırılması",
+    "definition": "TBMM tarafından 1 Kasım 1922'de alınan kararla Osmanlı Devleti'nin yönetim şekli olan saltanatın sona erdirilmesidir. Bu karar, milli egemenliğin tam olarak sağlanması yolunda atılmış en önemli adımlardan biridir.",
+    "examples": [
+      "Egemenliğin tek bir kişide toplanmasının önlenmesi",
+      "Milli egemenliğin pekiştirilmesi",
+      "Cumhuriyet rejimine geçişin önünün açılması"
+    ],
+    "relatedTerms": [
+      "TBMM'nin Açılışı",
+      "Cumhuriyetin İlanı",
+      "Lozan Barış Antlaşması"
+    ],
+    "order": 24
+  },
+  {
+    "id": "cumhuriyet_rejimi",
+    "term": "Cumhuriyet Rejimi",
+    "definition": "Devlet başkanının belirli bir süre için halk tarafından veya halkın temsilcileri tarafından seçildiği yönetim biçimidir. Türkiye Cumhuriyeti, milli egemenliğe dayanan bu rejimi benimsemiştir.",
+    "examples": [
+      "Demokrasi ve halk iradesinin ön planda olması",
+      "Seçimle işbaşına gelen yöneticiler",
+      "Yargı bağımsızlığı"
+    ],
+    "relatedTerms": [
+      "Cumhuriyetin İlanı",
+      "Milli Egemenlik",
+      "Demokrasi"
+    ],
+    "order": 25
+  },
+  {
+    "id": "halifeliğin_kaldırılması",
+    "term": "Halifeliğin Kaldırılması",
+    "definition": "TBMM tarafından 3 Mart 1924'te alınan kararla, dini ve siyasi bir makam olan halifeliğin kaldırılmasıdır. Bu adım, laik devlet düzenine geçişin önemli bir parçasıdır.",
+    "examples": [
+      "Laik devlet ilkesinin güçlendirilmesi",
+      "Dini liderliğin siyasi güçten ayrılması",
+      "Devletin tüm vatandaşlara eşit yaklaşmasının sağlanması"
+    ],
+    "relatedTerms": [
+      "Saltanatın Kaldırılması",
+      "Laiklik",
+      "TBMM'nin Açılışı"
+    ],
+    "order": 26
+  },
+  {
+    "id": "buyuk_taarruz",
+    "term": "Büyük Taarruz",
+    "definition": "Milli Mücadele'nin son aşamasında, Türk ordusunun Yunan işgaline karşı 26 Ağustos 1922'de başlattığı kesin sonuçlu askeri harekattır. Bu taarruz, Türk Kurtuluş Savaşı'nın zaferle sonuçlanmasında kilit rol oynamıştır.",
+    "examples": [
+      "Dumlupınar Meydan Muharebesi",
+      "İzmir'in kurtuluşu",
+      "Milli Mücadele'nin askeri zaferle taçlanması"
+    ],
+    "relatedTerms": [
+      "Sakarya Meydan Muharebesi",
+      "Tekalif-i Milliye Emirleri",
+      "Mudanya Mütarekesi"
+    ],
+    "order": 27
+  },
+  {
+    "id": "erzurum_kongresi",
+    "term": "Erzurum Kongresi",
+    "definition": "Milli mücadele döneminde toplanan ve milli sınırlardan ilk defa bahsedilen kongredir. Kongrede manda ve himaye reddedilmiştir.",
+    "examples": [
+      "Milli sınırlardan ilk kez bahsedilmesi",
+      "Manda ve himayenin reddedilmesi",
+      "Temsil Heyeti'nin kurulması"
+    ],
+    "relatedTerms": [
+      "Amasya Genelgesi",
+      "Sivas Kongresi",
+      "Milli Sınırlar"
+    ],
+    "order": 28
+  },
+  {
+    "id": "misak_i_milli",
+    "term": "Misak-ı Milli",
+    "definition": "Son Osmanlı Mebusan Meclisi'nde kabul edilen milli yemin anlamına gelen kararlardır. Milli bağımsızlığı ve milli egemenliği esas alır.",
+    "examples": [
+      "Boğazlar meselesinin Türk egemenliğinde çözümü",
+      "Kars, Ardahan, Batum'un referandumla belirlenmesi",
+      "Arapların kendi kaderini tayin hakkı"
+    ],
+    "relatedTerms": [
+      "Son Osmanlı Mebusan Meclisi",
+      "Sevr Anlaşması",
+      "Lozan Barış Antlaşması"
+    ],
+    "order": 29
+  },
+  {
+    "id": "tbmm_nin_ankara_da_acilmasi",
+    "term": "TBMM'nin Ankara'da Açılması",
+    "definition": "Milli mücadeleyi yönetmek ve halkın iradesini temsil etmek amacıyla Ankara'da Türkiye Büyük Millet Meclisi'nin açılmasıdır. Milli egemenliğin sembolüdür.",
+    "examples": [
+      "Ankara'nın milli mücadelenin merkezi olması",
+      "Halkın temsil edildiği bir meclisin kurulması",
+      "Yeni bir devletin temellerinin atılması"
+    ],
+    "relatedTerms": [
+      "TBMM'nin Açılışı",
+      "Ankara",
+      "Milli Mücadele"
+    ],
+    "order": 30
+  },
+  {
+    "id": "duzeni_bozan_isyani",
+    "term": "Düzenni Bozan İsyanları",
+    "definition": "TBMM'ye karşı çıkan ve milli birliği zedeleyen isyanlardır. Bu isyanların bastırılması milli mücadele için hayati önem taşımıştır.",
+    "examples": [
+      "Anzavur İsyanı",
+      "Pontus Rum İsyanı",
+      "Kuvâ-yi Milliye'nin bu isyanları bastırması"
+    ],
+    "relatedTerms": [
+      "Milli Mücadele",
+      "Kuvâ-yi Milliye",
+      "TBMM"
+    ],
+    "order": 31
+  },
+  {
+    "id": "hilafet_ve_saltanat_iliskisi",
+    "term": "Hilafet ve Saltanat İlişkisi",
+    "definition": "TBMM'nin açılmasıyla birlikte saltanatın ve hilafetin konumu tartışma konusu olmuştur. Kurtuluş Savaşı'nın amacı saltanatı yıkmak değil, vatanı kurtarmaktı.",
+    "examples": [
+      "Saltanatın kaldırılması",
+      "Hilafetin kaldırılması",
+      "TBMM'nin milli egemenliği temsil etmesi"
+    ],
+    "relatedTerms": [
+      "Saltanatın Kaldırılması",
+      "Hilafetin Kaldırılması",
+      "TBMM"
+    ],
+    "order": 32
+  },
+  {
+    "id": "tbmm_hukumetinin_kurulmasi",
+    "term": "TBMM Hükümetinin Kurulması",
+    "definition": "TBMM'nin açılmasının ardından milli mücadeleyi yönetmek üzere bir hükümetin kurulmasıdır. Bu hükümet, bağımsızlık mücadelesinin yürütülmesinde kilit rol oynamıştır.",
+    "examples": [
+      "Başvekilin seçilmesi",
+      "Bakanlıkların oluşturulması",
+      "Hükümetin milli mücadeleyi koordine etmesi"
+    ],
+    "relatedTerms": [
+      "TBMM'nin Açılışı",
+      "Milli Mücadele",
+      "Hükümet"
+    ],
+    "order": 33
+  },
+  {
+    "id": "bati_cephesi_komutanligi",
+    "term": "Batı Cephesi Komutanlığı",
+    "definition": "Milli mücadele döneminde Yunan ordusuna karşı mücadele eden askeri birliklerin genel adı. Bu cephede önemli muharebeler yaşanmıştır.",
+    "examples": [
+      "İnönü Savaşları",
+      "Sakarya Meydan Muharebesi",
+      "Büyük Taarruz"
+    ],
+    "relatedTerms": [
+      "Milli Mücadele",
+      "Yunan İşgali",
+      "Askeri Strateji"
+    ],
+    "order": 34
+  },
+  {
+    "id": "sakarya_meydan_muharebesi",
+    "term": "Sakarya Meydan Muharebesi",
+    "definition": "Milli mücadelenin dönüm noktalarından biridir. Mustafa Kemal'in 'Hattı müdafaa yoktur, sathı müdafaa vardır; o satıh bütün vatandır' sözü bu muharebede söylenmiştir.",
+    "examples": [
+      "Mustafa Kemal'e Gazilik ve Mareşallik unvanlarının verilmesi",
+      "Yunan ilerleyişinin durdurulması",
+      "Milli moralin yükselmesi"
+    ],
+    "relatedTerms": [
+      "Milli Mücadele",
+      "Batı Cephesi",
+      "Mustafa Kemal"
+    ],
+    "order": 35
+  },
+  {
+    "id": "buyuk_taarruz_ve_baskomutanlik_meydan_muharebesi",
+    "term": "Büyük Taarruz ve Başkomutanlık Meydan Muharebesi",
+    "definition": "Milli mücadelenin kesin zaferle sonuçlanmasını sağlayan son büyük askeri harekat. Yunan ordusunun Anadolu'dan atılmasını sağlamıştır.",
+    "examples": [
+      "Dumlupınar Meydan Muharebesi",
+      "İzmir'in kurtuluşu",
+      "Türk ordusunun ilerleyişi"
+    ],
+    "relatedTerms": [
+      "Sakarya Meydan Muharebesi",
+      "Milli Mücadele",
+      "Kurtuluş"
+    ],
+    "order": 36
+  },
+  {
+    "id": "seri_sifet_ve_menkul_kiymetler_vergisi",
+    "term": "Servet Vergisi",
+    "definition": "1942 yılında çıkarılan ve olağanüstü ekonomik koşullar nedeniyle alınan bir vergi türüdür. Varlık sahiplerinden alınmış, ancak uygulamada sorunlar yaşanmıştır.",
+    "examples": [
+      "Savaş ekonomisi dönemi",
+      "Zenginlerden vergi alınması",
+      "Uygulamadaki adaletsizlikler"
+    ],
+    "relatedTerms": [
+      "Ekonomi Politikaları",
+      "Savaş Dönemi",
+      "Vergi"
+    ],
+    "order": 37
+  },
+  {
+    "id": "ikinci_dunya_savasi_ve_turkiye",
+    "term": "İkinci Dünya Savaşı ve Türkiye",
+    "definition": "Türkiye'nin savaş boyunca tarafsız kalmaya çalışması ancak sonlara doğru Müttefikler safında Almanya'ya savaş ilan etmesi olayıdır. Savaşın etkileri Türkiye'yi de hissettirmiştir.",
+    "examples": [
+      "Savaş boyunca tarafsızlık politikası",
+      "Sona doğru Almanya'ya savaş ilanı",
+      "BM'ye üyelik için şart"
+    ],
+    "relatedTerms": [
+      "Savaş Dönemi",
+      "Tarafsızlık",
+      "Birleşmiş Milletler"
+    ],
+    "order": 38
+  },
+  {
+    "id": "bartin_anlasmasi",
+    "term": "Bartın Anlaşması",
+    "definition": "1921 yılında Sovyet Rusya ile TBMM Hükümeti arasında imzalanan dostluk ve işbirliği antlaşmasıdır. Bu antlaşma ile Sovyet Rusya, TBMM Hükümeti'ni tanıyan ilk büyük devletlerden biri olmuştur.",
+    "examples": [
+      "TBMM Hükümeti'nin uluslararası alanda tanınması"
+    ],
+    "relatedTerms": [
+      "Moskova Antlaşması",
+      "Kars Antlaşması"
+    ],
+    "order": 39
+  },
+  {
+    "id": "iskilipli_atuf_hoca_davası",
+    "term": "İskilipli Atıf Hoca Davası",
+    "definition": "Cumhuriyetin ilk yıllarında, şapka inkılabına karşı çıkanların yargılandığı önemli bir davadır. Bu dava, laiklik ilkesinin uygulanmasındaki kararlılığı göstermiştir.",
+    "examples": [
+      "Şapka ve kıyafet inkılabı"
+    ],
+    "relatedTerms": [
+      "Laiklik",
+      "Şapka İnkılabı"
+    ],
+    "order": 40
+  },
+  {
+    "id": "izmir_iktisat_kongresi",
+    "term": "İzmir İktisat Kongresi",
+    "definition": "1923 yılında toplanan ve milli ekonominin temellerinin atıldığı kongredir. Kongrede, tarım, sanayi, ticaret ve işçi hakları gibi konularda kararlar alınmıştır.",
+    "examples": [
+      "Milli Ekonomi ve Bağımsızlık",
+      "Yerli üretimin teşviki"
+    ],
+    "relatedTerms": [
+      "Milli Ekonomi",
+      "Tevhid-i Tedrisat Kanunu"
+    ],
+    "order": 41
+  },
+  {
+    "id": "menemen_olayı",
+    "term": "Menemen Olayı",
+    "definition": "1930 yılında Menemen'de meydana gelen, gerici bir ayaklanmadır. Bu olay, Cumhuriyet karşıtı grupların ilk önemli direnişlerinden biri olarak tarihe geçmiştir.",
+    "examples": [
+      "Derviş Mehmet Ayaklanması"
+    ],
+    "relatedTerms": [
+      "Atatürk İlkeleri",
+      "Laiklik"
+    ],
+    "order": 42
+  },
+  {
+    "id": "mus_ve_van_isyanları",
+    "term": "Muş ve Van İsyanları",
+    "definition": "1924-1925 yıllarında Doğu Anadolu'da çıkan, Şeyh Sait İsyanı'nın öncüsü niteliğindeki isyanlardır. Bu isyanlar, bölgedeki asayişi bozmuştur.",
+    "examples": [
+      "Şeyh Sait İsyanı"
+    ],
+    "relatedTerms": [
+      "Takrir-i Sükun Kanunu",
+      "İstiklal Mahkemeleri"
+    ],
+    "order": 43
+  },
+  {
+    "id": "seyh_sait_isyani",
+    "term": "Şeyh Sait İsyanı",
+    "definition": "1925 yılında Doğu ve Güneydoğu Anadolu'da çıkan, dini ve etnik temelli büyük bir isyandır. İsyan, Cumhuriyet rejimine karşı en önemli tehditlerden biri olmuştur.",
+    "examples": [
+      "Dini ve milliyetçi söylemler"
+    ],
+    "relatedTerms": [
+      "Takrir-i Sükun Kanunu",
+      "İstiklal Mahkemeleri",
+      "Muş ve Van İsyanları"
+    ],
+    "order": 44
+  },
+  {
+    "id": "trakya_olayları",
+    "term": "Trakya Olayları",
+    "definition": "1934 yılında Trakya'da yaşayan gayrimüslimlere yönelik yaşanan olaylardır. Bu olaylar, azınlık hakları konusunda uluslararası tepkilere yol açmıştır.",
+    "examples": [
+      "Azınlıkların göçü"
+    ],
+    "relatedTerms": [
+      "Lozan Barış Antlaşması",
+      "Mübadele"
+    ],
+    "order": 45
+  },
+  {
+    "id": "duzenli_bozan_isyanlari",
+    "term": "Düzensiz İsyanlar",
+    "definition": "Kurtuluş Savaşı döneminde ortaya çıkan ve milli mücadeleyi sekteye uğratan çeşitli isyanlardır. Bu isyanlar, Kuva-yi Milliye'nin düzenli orduya geçiş sürecini zorlaştırmıştır.",
+    "examples": [
+      "Anzavur Ayaklanması",
+      "Çerkez Ethem İsyanı"
+    ],
+    "relatedTerms": [
+      "Kuva-yi Milliye",
+      "Düzenli Ordu"
+    ],
+    "order": 46
+  },
+  {
+    "id": "bales_antlasmasi",
+    "term": "Bâles Antlaşması",
+    "definition": "Osmanlı Devleti'nin I. Dünya Savaşı sonrası imzaladığı, ancak TBMM tarafından tanınmayan ve Sevr Antlaşması'nın bir alternatifi olarak görülen bir anlaşmadır. Bu antlaşma, Osmanlı'nın işgalini ve parçalanmasını hızlandırmıştır.",
+    "examples": [
+      "Osmanlı Devleti'nin imzaladığı ilk işgal antlaşmalarından biridir.",
+      "TBMM tarafından kabul edilmemiştir."
+    ],
+    "relatedTerms": [
+      "Sevr Anlaşması",
+      "I. Dünya Savaşı Sonrası",
+      "İşgal Antlaşmaları"
+    ],
+    "order": 47
+  },
+  {
+    "id": "bartin_antlasmasi",
+    "term": "Bartın Antlaşması",
+    "definition": "II. Dünya Savaşı sırasında Türkiye'nin Almanya ile imzaladığı, ancak savaşın gidişatı nedeniyle tam olarak uygulanamayan bir antlaşmadır. Bu antlaşma, Türkiye'nin Almanya ile olan ilişkilerini düzenlemeyi amaçlıyordu.",
+    "examples": [
+      "1941 yılında imzalanmıştır.",
+      "Ekonomik işbirliği öngörüyordu.",
+      "Savaşın ilerleyen dönemlerinde önemi azalmıştır."
+    ],
+    "relatedTerms": [
+      "II. Dünya Savaşı",
+      "Almanya",
+      "Türkiye-Almanya İlişkileri",
+      "1941"
+    ],
+    "order": 48
+  },
+  {
+    "id": "sevr_antlasmasi",
+    "term": "Sevr Antlaşması",
+    "definition": "Osmanlı Devleti'nin I. Dünya Savaşı sonunda imzaladığı, ancak TBMM tarafından kabul edilmeyen ve Türk vatanını parçalayan bir antlaşmadır. Bu antlaşma, Türk bağımsızlığına yönelik en ağır şartları içermekteydi.",
+    "examples": [
+      "10 Ağustos 1920'de imzalanmıştır.",
+      "Türk vatanını parçalamıştır.",
+      "TBMM tarafından yok sayılmıştır."
+    ],
+    "relatedTerms": [
+      "I. Dünya Savaşı",
+      "Osmanlı Devleti",
+      "Lozan Barış Antlaşması",
+      "Milli Mücadele"
+    ],
+    "order": 49
+  }
+]

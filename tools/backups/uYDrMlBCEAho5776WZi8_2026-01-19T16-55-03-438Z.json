@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "cog_001",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-nufus-dagilisi",
+    "subtopic": "Türkiye'de Nüfus ve Yerleşme",
+    "q": "Türkiye'de nüfusun dağılışı üzerinde doğal ve beşeri faktörler etkili olmaktadır. Bazı yörelerde iklim koşulları elverişli olmasına rağmen yer şekillerinin engebeli olması nedeniyle nüfus yoğunluğu azdır.\n\nBuna göre haritada numaralandırılan alanların hangisinde bu duruma bağlı olarak nüfus seyrektir?",
+    "o": [
+      "Çatalca - Kocaeli Platosu",
+      "Menteşe Yöresi",
+      "Ergene Havzası",
+      "Çukurova Deltası",
+      "Gaziantep Platosu"
+    ],
+    "a": 1,
+    "e": "Menteşe Yöresi (Muğla çevresi), Akdeniz ikliminin görüldüğü, kıyı şeridinde ve yağışın bol olduğu bir alandır. İklim koşulları elverişli olmasına rağmen, dağların kıyıya paralel ve dik uzanması ile arazinin aşırı engebeli yapısı (karstik ve tektonik) nedeniyle nüfus seyrektir. Diğer seçeneklerdeki alanlar yer şekilleri bakımından daha sadedir veya sanayi/tarım nedeniyle yoğun nüfusludur."
+  },
+  {
+    "id": "cog_002",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "koy-alti-yerlesmeleri",
+    "subtopic": "Köy Altı Yerleşmeleri",
+    "q": "Türkiye'de köy altı yerleşmeleri devamlılık durumlarına göre geçici ve kalıcı olarak ikiye ayrılmaktadır. Ekonomik faaliyet türü bu ayrımda belirleyici temel faktördür.\n\nBuna göre aşağıdakilerden hangisi, yapılan ekonomik faaliyetin niteliği gereği 'kalıcı' köy altı yerleşmeleri grubunda yer alır?",
+    "o": [
+      "Yayla",
+      "Kom",
+      "Ağıl",
+      "Oba",
+      "Divan"
+    ],
+    "a": 4,
+    "e": "Türkiye'de köy altı yerleşmelerinden Yayla, Kom, Ağıl ve Oba genellikle hayvancılık faaliyetlerine dayalı olduğu için 'geçici' yerleşmeler grubundadır. Ancak 'Divan' (özellikle Batı Karadeniz'de yaygındır) ve 'Mahalle' gibi yerleşmeler tarımsal faaliyetlerin ön planda olduğu, yıl boyu yaşamın sürdüğü 'kalıcı' yerleşmelerdir."
+  },
+  {
+    "id": "cog_003",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-gocler",
+    "subtopic": "Türkiye'de Göçler",
+    "q": "Türkiye'de kırsal alanlardan kentlere doğru gerçekleşen göç hareketlerinde 'itici' ve 'çekici' faktörler rol oynamaktadır.\n\nAşağıdakilerden hangisi kırsal alandan kente göçte etkili olan 'itici' faktörlerden biri değildir?",
+    "o": [
+      "Tarımda makineleşme",
+      "Tarımsal arazilerin miras yoluyla parçalanması",
+      "Eğitim ve sağlık hizmetlerinin yetersizliği",
+      "Kentlerdeki iş imkanlarının çeşitliliği",
+      "Erozyon nedeniyle toprak veriminin düşmesi"
+    ],
+    "a": 3,
+    "e": "Göç olgusunda kırsalın olumsuzlukları 'itici', kentin sunduğu imkanlar ise 'çekici' faktördür. Tarımda makineleşme, mirasla toprak bölünmesi, hizmet yetersizliği ve erozyon kırsaldaki insanı göçe zorlayan itici faktörlerdir. Ancak 'Kentlerdeki iş imkanlarının çeşitliliği', kırsalın bir özelliği değil, kentin sunduğu bir avantaj olduğu için 'çekici' faktörler grubuna girer."
+  },
+  {
+    "id": "cog_004",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-tarim",
+    "subtopic": "Türkiye'de Tarım Ürünleri",
+    "q": "Türkiye'de bazı tarım ürünleri, yetiştirilme döneminde düşük sıcaklıklara dayanıklı olmadıkları için sadece belirli mikroklima alanlarında veya kıyı şeritlerinde yetişme imkanı bulurlar.\n\nAşağıdaki tarım ürünü ve yoğun olarak yetiştirildiği yer eşleştirmelerinden hangisi bu duruma örnek gösterilemez?",
+    "o": [
+      "Muz - Anamur",
+      "Çay - Rize",
+      "Fındık - Ordu",
+      "Turunçgil - Adana",
+      "Elma - Isparta"
+    ],
+    "a": 4,
+    "e": "Muz, Çay, Fındık ve Turunçgil kış ılıklığı isteyen, don olayına karşı hassas ve belirli iklim bölgelerine özgü (seçici) ürünlerdir. Ancak Elma, soğuğa karşı dayanıklılığı yüksek olan ve Türkiye'nin hemen her bölgesinde yetişebilen, seçiciliği az olan bir üründür. Bu nedenle elma, kıyı veya mikroklima şartına sıkı sıkıya bağlı değildir."
+  },
+  {
+    "id": "cog_005",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-enerji-kaynaklari",
+    "subtopic": "Türkiye'de Enerji Kaynakları",
+    "q": "Türkiye'nin jeolojik yapısı göz önüne alındığında, aşağıdaki enerji kaynaklarından hangisinin potansiyeli ile 'genç oluşumlu arazi yapısı' ve 'kırıklı hatlar' arasında doğrudan bir ilişki vardır?",
+    "o": [
+      "Taş kömürü",
+      "Rüzgar enerjisi",
+      "Jeotermal enerji",
+      "Güneş enerjisi",
+      "Biyokütle enerjisi"
+    ],
+    "a": 2,
+    "e": "Jeotermal enerji, yer altındaki sıcak su ve buhardan elde edilir. Bu kaynağın varlığı, aktif fay hatları, volkanik araziler ve genç tektonik oluşumlarla (kırıklı yapı) doğrudan ilişkilidir. Taş kömürü I. Jeolojik zamanda oluşmuştur (eski arazi). Rüzgar ve Güneş ise iklimsel (klimatolojik) kökenli kaynaklardır."
+  },
+  {
+    "id": "cog_006",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-sanayi",
+    "subtopic": "Türkiye'de Sanayi Kuruluşlarının Yer Seçimi",
+    "q": "Türkiye'de sanayi tesislerinin kuruluş yerinin belirlenmesinde hammaddeye yakınlık, ulaşım, pazar ve enerji gibi faktörler etkilidir.\n\nBuna göre aşağıdaki sanayi tesislerinden hangisinin kuruluş yeri belirlenirken 'hammaddeye yakınlık' ilkesine uyulmamıştır?",
+    "o": [
+      "Rize - Çay İşleme Tesisleri",
+      "Batman - Petrol Rafinerisi",
+      "Samsun - Bakır İzabe Tesisleri",
+      "Konya - Şeker Fabrikaları",
+      "Elazığ - Ferrokrom Tesisleri"
+    ],
+    "a": 2,
+    "e": "Rize'de çay, Batman'da petrol, Konya'da şeker pancarı ve Elazığ'da krom (Guleman) çıkarıldığı/yetiştirildiği için bu tesisler hammaddeye yakındır. Ancak Samsun'da bakır madeni çıkarılmaz. Kastamonu (Küre) ve Artvin'den (Murgul) çıkarılan bakır, ulaşım (liman) ve hinterland avantajı nedeniyle Samsun'da işlenir. Burada belirleyici faktör ulaşım/limandır."
+  },
+  {
+    "id": "cog_007",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "bolgesel-kalkinma-projeleri",
+    "subtopic": "Bölgesel Kalkınma Projeleri (GAP)",
+    "q": "Güneydoğu Anadolu Projesi (GAP), Türkiye'nin en kapsamlı bölgesel kalkınma projesidir. Projenin hayata geçmesiyle birlikte bölgenin ekonomik yapısında önemli değişimler yaşanmıştır.\n\nGAP'ın devreye girmesiyle birlikte bölgede aşağıdaki tarım ürünlerinden hangisinin üretim miktarında ve ekim alanında en büyük artış görülmüştür?",
+    "o": [
+      "Kırmızı Mercimek",
+      "Pamuk",
+      "Tütün",
+      "Buğday",
+      "Arpa"
+    ],
+    "a": 1,
+    "e": "GAP ile birlikte sulu tarım imkanlarının artması, bölgedeki tarımsal ürün desenini değiştirmiştir. Daha önce kuru tarım yöntemiyle yetiştirilen mercimek ve tahılların yerini, ekonomik getirisi yüksek olan ve bol su isteyen 'Pamuk' almıştır. Günümüzde Şanlıurfa, Türkiye pamuk üretiminde ilk sıradadır."
+  },
+  {
+    "id": "cog_008",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-ulasim",
+    "subtopic": "Türkiye'de Ulaşım Sistemleri",
+    "q": "Türkiye'de demir yolu ağı Cumhuriyet döneminde büyük gelişme göstermesine rağmen, yer şekillerinin engebeli olması bazı merkezlere demir yolu ulaşımını engellemiştir.\n\nBuna göre aşağıdaki liman kentlerinden hangisinin iç bölgelerle demir yolu bağlantısı bulunmamaktadır?",
+    "o": [
+      "İskenderun",
+      "Zonguldak",
+      "Samsun",
+      "Antalya",
+      "Mersin"
+    ],
+    "a": 3,
+    "e": "İskenderun, Zonguldak, Samsun ve Mersin limanlarının iç kesimlerle demir yolu bağlantısı vardır. Ancak Antalya Limanı, arkasındaki Batı Toroslar'ın sarp yapısı ve geçit vermemesi nedeniyle iç bölgelere demir yolu ile bağlanamamıştır. Ulaşım sadece kara ve hava yolu ile sağlanır."
+  },
+  {
+    "id": "cog_009",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-madenler",
+    "subtopic": "Türkiye'de Madencilik",
+    "q": "Türkiye, dünya rezervlerinin büyük bir kısmına sahip olduğu bor minerallerini hem hammadde hem de işlenmiş ürün olarak ihraç etmektedir.\n\nAşağıdaki merkezlerden hangisinde Bor işleme tesisi bulunmaz?",
+    "o": [
+      "Balıkesir - Bandırma",
+      "Eskişehir - Kırka",
+      "Kütahya - Emet",
+      "Bursa - Kestelek",
+      "Artvin - Murgul"
+    ],
+    "a": 4,
+    "e": "Bandırma, Kırka, Emet ve Kestelek (Bigadiç çevresi) Türkiye'nin önemli bor yataklarının bulunduğu ve işlendiği merkezlerdir. Artvin - Murgul ise Türkiye'nin en önemli Bakır çıkarma alanlarından biridir; burada bor madenciliği yapılmaz."
+  },
+  {
+    "id": "cog_010",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-turizm",
+    "subtopic": "Türkiye'de Turizm",
+    "q": "Türkiye'nin UNESCO Dünya Mirası Listesi'nde yer alan kültürel varlıkları, turizm potansiyeli açısından büyük önem taşımaktadır.\n\nI. Göbeklitepe (Şanlıurfa)\nII. Ani Harabeleri (Kars)\nIII. Gordion (Ankara)\n\nYukarıdaki kültürel miras alanlarından hangileri UNESCO Dünya Mirası Listesi'nde yer almaktadır?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Göbeklitepe (2018), Ani Harabeleri (2016) ve Gordion (2023) UNESCO Dünya Mirası Listesi'ne dahil edilmiştir. Gordion, listeye en son eklenen varlıklarımızdan biridir. Dolayısıyla öncüllerin hepsi doğrudur."
+  },
+  {
+    "id": "cog_011",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-nufus",
+    "subtopic": "Türkiye'de Nüfusun Dağılışı",
+    "q": "Türkiye'de nüfusun dağılışı üzerinde doğal ve beşeri faktörler etkili olmaktadır. Özellikle yer şekillerinin engebeli, yükseltinin fazla olduğu alanlarda nüfus yoğunluğu genellikle düşüktür.\n\nBuna göre, aşağıda verilen yörelerin hangisinde nüfusun seyrek olmasının temel nedeni **farklıdır**?",
+    "o": [
+      "Hakkâri Yöresi",
+      "Menteşe Yöresi",
+      "Teke Platosu",
+      "Yıldız Dağları Bölümü",
+      "Tuz Gölü Çevresi"
+    ],
+    "a": 4,
+    "e": "Hakkâri, Menteşe, Teke Platosu ve Yıldız Dağları bölümlerinde nüfusun seyrek olmasının temel nedeni yer şekillerinin engebeli ve dağlık olmasıdır. Ancak Tuz Gölü ve çevresinde yer şekilleri sade olmasına rağmen, nüfusun seyrek olmasının temel nedeni kuraklık (iklim koşulları) ve yağış azlığıdır."
+  },
+  {
+    "id": "cog_012",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-yerlesme",
+    "subtopic": "Kırsal Yerleşme Tipleri",
+    "q": "Türkiye'de kırsal yerleşmeler, kuruldukları yerin coğrafi özelliklerine göre toplu veya dağınık dokulu özellik gösterirler.\n\nKaradeniz Bölgesi'nin kırsal kesimlerinde yerleşmelerin genellikle **dağınık dokulu** olmasında;\n\nI. Su kaynaklarının bol olması,\nII. Tarım alanlarının parçalı ve dağınık olması,\nIII. Yer şekillerinin engebeli olması,\nIV. Ulaşım olanaklarının gelişmiş olması\n\nfaktörlerinden hangileri etkili olmuştur?",
+    "o": [
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III",
+      "II, III ve IV"
+    ],
+    "a": 3,
+    "e": "Karadeniz Bölgesi'nde dağınık yerleşmenin görülmesinin temel nedenleri; arazinin engebeli olması, tarım arazilerinin bu engebe nedeniyle parçalı olması ve su kaynaklarının her yerde bol bulunmasıdır (insanların suya yakın toplanma zorunluluğunun olmaması). Ulaşım olanaklarının gelişmiş olması dağınık yerleşmeyi teşvik eden bir unsur değildir, aksine zorlaştırır."
+  },
+  {
+    "id": "cog_013",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-tarim",
+    "subtopic": "Türkiye'de Tarım Ürünleri",
+    "q": "Türkiye'de iklim çeşitliliğinin fazla olması, yetiştirilen tarım ürünü çeşitliliğini de artırmıştır. Ancak bazı ürünlerin yetişme alanı, özel iklim istekleri nedeniyle oldukça dardır (Monokültür).\n\nAşağıdaki tarım ürünlerinden hangisinin Türkiye'deki doğal yetişme alanı diğerlerine göre **daha dardır**?",
+    "o": [
+      "Buğday",
+      "Şeker pancarı",
+      "Elma",
+      "Çay",
+      "Üzüm"
+    ],
+    "a": 3,
+    "e": "Buğday, şeker pancarı, elma ve üzüm Türkiye'nin hemen hemen her bölgesinde (kıyı veya iç kesim fark etmeksizin) yetişme imkanı bulur ve yetişme alanları geniştir. Ancak Çay, sadece Doğu Karadeniz kıyılarında, bol yağış, nem ve yıkanmış kireçsiz toprak isteyen, yetişme alanı en dar olan ürünlerden biridir."
+  },
+  {
+    "id": "cog_014",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-goc",
+    "subtopic": "Türkiye'de Göçler",
+    "q": "Türkiye'de mevsimlik göçler, tarım, turizm ve inşaat gibi sektörlerdeki iş gücü ihtiyacına bağlı olarak gerçekleşmektedir.\n\nBuna göre, aşağıdaki kentlerden hangisinin yaz mevsiminde aldığı göçün temel nedeni **diğerlerinden farklıdır**?",
+    "o": [
+      "Antalya",
+      "Muğla",
+      "Aydın",
+      "Ordu",
+      "İzmir"
+    ],
+    "a": 3,
+    "e": "Antalya, Muğla, Aydın ve İzmir yaz aylarında hem tarım hem de yoğun olarak 'Turizm' sektörüne bağlı mevsimlik göç alırlar. Ancak Ordu, yaz aylarında temel olarak 'Fındık hasadı' (Tarım) nedeniyle mevsimlik işçi göçü alır. Turizm faktörü Ordu'da diğer şıklardaki iller kadar belirleyici bir göç nedeni değildir."
+  },
+  {
+    "id": "cog_015",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-madenler",
+    "subtopic": "Madenler ve Enerji Kaynakları",
+    "q": "Türkiye'de bazı sanayi tesislerinin kuruluş yerinin belirlenmesinde hammaddeye yakınlık değil, enerji kaynağına yakınlık veya ulaşım kolaylığı etkili olmuştur.\n\nBuna göre; İskenderun Demir-Çelik Fabrikası'nın kurulmasında etkili olan temel faktör aşağıdakilerden hangisidir?",
+    "o": [
+      "Demir madeni yataklarına yakınlık",
+      "Taş kömürü yataklarına yakınlık",
+      "Ulaşım ve liman özellikleri",
+      "Su kaynaklarına yakınlık",
+      "İş gücü potansiyeli"
+    ],
+    "a": 2,
+    "e": "İskenderun'da demir madeni çıkarılmaz (hammadde yok) ve taş kömürü çıkarılmaz (enerji kaynağı yok). İskenderun Demir-Çelik Fabrikası'nın buraya kurulmasının temel nedeni; liman özelliği sayesinde hem hammaddenin hem de taş kömürünün ithalat yoluyla veya deniz yoluyla kolayca getirilebilmesi, yani 'Ulaşım' faktörüdür. (Karabük ve Ereğli ise enerji kaynağına/taş kömürüne yakınlık nedeniyle kurulmuştur)."
+  },
+  {
+    "id": "cog_016",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-ulasim",
+    "subtopic": "Ulaşım Sistemleri",
+    "q": "Türkiye'nin yer şekilleri dikkate alındığında, kara yolu ve demir yolu yapım maliyetlerinin bölgelere göre farklılık gösterdiği görülür.\n\nAşağıdaki güzergâhların hangisinde aynı uzunlukta yapılacak bir demir yolu hattının **birim maliyeti diğerlerine göre daha azdır**?",
+    "o": [
+      "Antalya - Burdur",
+      "Rize - Erzurum",
+      "Muğla - Denizli",
+      "Konya - Karaman",
+      "Sinop - Kastamonu"
+    ],
+    "a": 3,
+    "e": "Demir yolu ve kara yolu yapım maliyetleri, arazinin engebeli olduğu yerlerde tünel, viyadük ve köprü gerektirdiği için yüksektir. Antalya, Rize, Muğla ve Sinop çevreleri oldukça dağlık ve engebelidir. Ancak Konya - Karaman arası (İç Anadolu Bölgesi) yer şekillerinin sade ve düz olduğu bir plato sahasıdır, bu nedenle yol yapım maliyeti en düşüktür."
+  },
+  {
+    "id": "cog_017",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-sanayi",
+    "subtopic": "Sanayi Kollarının Dağılışı",
+    "q": "Türkiye'de sanayi kollarının dağılışı incelendiğinde, bazı sanayi kollarının hammadde bölgelerine paralellik gösterdiği, bazılarının ise pazar alanlarına yakın kurulduğu görülür.\n\nAşağıdaki sanayi tesislerinden hangisinin kuruluş yerinin belirlenmesinde **hammaddeye yakınlık zorunluluğu** en fazladır?",
+    "o": [
+      "İlaç Sanayisi",
+      "Otomotiv Sanayisi",
+      "Çay İşleme Sanayisi",
+      "Tekstil (Dokuma) Sanayisi",
+      "Cam Sanayisi"
+    ],
+    "a": 2,
+    "e": "Çay ve Şeker Pancarı gibi tarım ürünleri hasattan sonra kısa sürede işlenmezse bozulma eğilimi gösterirler. Bu nedenle Çay İşleme tesisleri, çay tarımının yapıldığı alanların (Doğu Karadeniz) hemen yanına kurulmak zorundadır. İlaç, Otomotiv, Tekstil ve Cam sanayisinde ise hammadde taşınabilir olduğu için pazar veya ulaşım koşulları daha belirleyicidir."
+  },
+  {
+    "id": "cog_018",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "bolgesel-kalkinma",
+    "subtopic": "Bölgesel Kalkınma Projeleri",
+    "q": "Güneydoğu Anadolu Projesi (GAP), Türkiye'nin en kapsamlı bölgesel kalkınma projesidir. Projenin hayata geçmesiyle birlikte bölgenin ekonomik ve sosyal yapısında önemli değişimler meydana gelmiştir.\n\nAşağıdakilerden hangisi GAP'ın devreye girmesiyle bölgede meydana gelen değişimlerden biri **değildir**?",
+    "o": [
+      "Tarımsal ürün çeşitliliğinin artması",
+      "Pamuk üretiminde bölgenin payının artması",
+      "Nadasa bırakılan tarım alanlarının azalması",
+      "Bölge dışına yapılan mevsimlik göçlerin azalması",
+      "Kış turizmi gelirlerinin artması"
+    ],
+    "a": 4,
+    "e": "GAP ile sulama imkanları artmış, ürün çeşitliliği (pamuk, mısır vb.) artmış, nadas alanları azalmış ve tarımsal istihdam arttığı için göç azalma eğilimine girmiştir. Ancak Güneydoğu Anadolu Bölgesi'nin yer şekilleri ve iklim özellikleri kış turizmine uygun değildir ve GAP'ın hedefleri arasında kış turizmini geliştirmek yer almaz."
+  },
+  {
+    "id": "cog_019",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-jeopolitik",
+    "subtopic": "Türkiye'nin Jeopolitik Konumu",
+    "q": "Türkiye, sahip olduğu jeopolitik konumu sayesinde enerji taşımacılığında önemli bir transit ülke (enerji koridoru) haline gelmiştir.\n\nAşağıdaki boru hatlarından hangisi, Hazar Bölgesi ve Orta Asya doğal gazını veya petrolünü Türkiye üzerinden dünya pazarlarına taşıyan projelerden biri **değildir**?",
+    "o": [
+      "Bakü-Tiflis-Ceyhan (BTC) Ham Petrol Boru Hattı",
+      "Trans Anadolu Doğal Gaz Boru Hattı (TANAP)",
+      "Bakü-Tiflis-Erzurum Doğal Gaz Boru Hattı",
+      "Mavi Akım Doğal Gaz Boru Hattı",
+      "Kerkük-Yumurtalık Ham Petrol Boru Hattı"
+    ],
+    "a": 4,
+    "e": "Kerkük-Yumurtalık Irak petrolünü taşır (Orta Asya/Hazar değil). Ancak soru kökü 'Hazar ve Orta Asya' dediği için dikkat edilmelidir. Şıklarda asıl çeldirici 'Mavi Akım'dır. Mavi Akım, Rusya doğal gazını Karadeniz altından Türkiye'ye (Samsun) getiren hattır ve Türkiye'nin kendi iç tüketimi içindir; Türkiye üzerinden Avrupa'ya giden bir transit hat niteliği taşımaz (Türk Akımı ile karıştırılmamalıdır). BTC, TANAP ve Bakü-Tiflis-Erzurum ise doğrudan Hazar havzası kaynaklarını taşır."
+  },
+  {
+    "id": "cog_020",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-afetler",
+    "subtopic": "Doğal Afetler",
+    "q": "Türkiye'de erozyon, toprak örtüsünün süpürülerek verim kaybına neden olduğu önemli bir sorundur. Erozyonla mücadele etmek için çeşitli yöntemler uygulanmaktadır.\n\nAşağıdakilerden hangisi erozyonu önlemek için alınacak tedbirlerden biri **olamaz**?",
+    "o": [
+      "Eğimli yamaçların basamaklandırılması (taraçalama)",
+      "Tarım arazilerinin eğime dik sürülmesi",
+      "Nadas tarımı yerine nöbetleşe ekim yapılması",
+      "Mera alanlarında aşırı otlatmanın önlenmesi",
+      "Dere yataklarının ıslah edilmesi ve betonlanması"
+    ],
+    "a": 4,
+    "e": "Taraçalama, eğime dik sürme, nöbetleşe ekim ve aşırı otlatmanın önlenmesi erozyonu azaltan (toprağı tutan) en etkili yöntemlerdir. Ancak 'Dere yataklarının ıslah edilmesi ve betonlanması' erozyonla (toprak süpürülmesiyle) ilgili değil, daha çok sel ve taşkınları kontrol altına almakla ilgili bir önlemdir. Betonlama toprağı tutmaz, suyun akışını düzenler."
+  },
+  {
+    "id": "cog_021",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-nufus",
+    "subtopic": "Türkiye'de Nüfusun Dağılışı",
+    "q": "Türkiye'de nüfusun dağılışı üzerinde doğal ve beşeri faktörler etkili olmaktadır. Genellikle kıyı kesimlerde nüfus yoğunluğu fazlayken, iç kesimlerde daha azdır. Ancak kıyı bölgelerinde yer almasına rağmen, yer şekillerinin engebeli ve dağlık olması nedeniyle nüfuslanmanın seyrek olduğu alanlar da bulunmaktadır.\n\nBuna göre, aşağıda verilen yörelerden hangisi bu duruma örnek olarak gösterilebilir?",
+    "o": [
+      "Çatalca - Kocaeli Bölümü",
+      "Çukurova Deltası",
+      "Menteşe Yöresi",
+      "Kıyı Ege (Graben Sahaları)",
+      "Bafra Ovası"
+    ],
+    "a": 2,
+    "e": "Soru, kıyı şeridinde yer almasına (yani iklimin elverişli olmasına) rağmen yer şekilleri nedeniyle seyrek nüfuslu olan bir yeri sormaktadır. Çatalca-Kocaeli, Çukurova, Kıyı Ege ve Bafra Ovası düzlük alanlardır ve yoğun nüfusludur. Ancak Muğla çevresini kapsayan Menteşe Yöresi, Akdeniz iklimi görülmesine ve kıyıda olmasına rağmen dağlık ve engebeli yapısı nedeniyle seyrek nüfuslanmıştır."
+  },
+  {
+    "id": "cog_022",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-yerlesme",
+    "subtopic": "Kır Yerleşmeleri",
+    "q": "Türkiye'de kırsal yerleşmelerin toplu veya dağınık dokuda olmasında; su kaynaklarının durumu, yer şekilleri ve tarım arazilerinin parçalılık durumu etkili olmaktadır.\n\nBuna göre, aşağıdaki bölümlerden hangisinde kırsal yerleşmelerin 'dağınık dokulu' olması beklenir?",
+    "o": [
+      "Konya Bölümü",
+      "Doğu Karadeniz Bölümü",
+      "Orta Fırat Bölümü",
+      "Ergene Bölümü",
+      "İç Batı Anadolu Bölümü"
+    ],
+    "a": 1,
+    "e": "Dağınık yerleşme dokusu; arazinin engebeli, tarım alanlarının parçalı ve dar, su kaynaklarının ise bol olduğu yerlerde görülür. Bu özelliklerin en belirgin olduğu yer Doğu Karadeniz Bölümü'dür. Diğer seçeneklerdeki alanlar (Konya, Ergene, Orta Fırat) daha düzlük ve su kaynaklarının kısıtlı olduğu yerler olduğu için toplu yerleşme görülür."
+  },
+  {
+    "id": "cog_023",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-goc",
+    "subtopic": "Türkiye'de Göçler",
+    "q": "Türkiye'de mevsimlik göçler, gidilen yerdeki ekonomik faaliyet türüne göre çeşitlilik gösterir. \n\nBuna göre, aşağıda verilen kent ve bu kente yapılan mevsimlik göçün temel nedeni eşleştirmelerinden hangisi yanlıştır?",
+    "o": [
+      "Ordu - Fındık hasadı (Tarım)",
+      "Antalya - Otel hizmetleri (Turizm)",
+      "Adana - Pamuk hasadı (Tarım)",
+      "Rize - Çay hasadı (Tarım)",
+      "Karabük - Demir Çelik üretimi (Sanayi)"
+    ],
+    "a": 4,
+    "e": "Ordu, Antalya, Adana ve Rize'de belirtilen faaliyetler yılın belli dönemlerinde yoğunlaştığı için geçici (mevsimlik) işçi göçü alırlar. Ancak Karabük'teki demir-çelik fabrikası yıl boyu üretim yapan, süreklilik arz eden bir sanayi kuruluşudur. Bu nedenle Karabük'e yapılan göçler mevsimlik değil, genellikle kalıcı sanayi göçü niteliğindedir."
+  },
+  {
+    "id": "cog_024",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-tarim",
+    "subtopic": "Tarımsal Ürünlerin Dağılışı",
+    "q": "Türkiye'de bazı tarım ürünlerinin yetişme alanı, iklim seçiciliklerinin fazla olması nedeniyle oldukça dardır (monokültür).\n\nBuna göre; aşağıdaki ürün çiftlerinden hangisinin Türkiye'deki doğal yetişme alanı diğerlerine göre daha dardır?",
+    "o": [
+      "Buğday - Arpa",
+      "Şeker pancarı - Elma",
+      "Çay - Muz",
+      "Üzüm - Tütün",
+      "Mısır - Ayçiçeği"
+    ],
+    "a": 2,
+    "e": "Buğday, arpa, elma, şeker pancarı, üzüm, tütün, mısır ve ayçiçeği Türkiye'nin birçok bölgesinde yetişme imkanı bulabilir. Ancak Çay sadece Doğu Karadeniz'in kıyı kesiminde (bol yağış ve yıkanmış toprak ister), Muz ise sadece Anamur-Alanya arasında (mikroklima, yüksek sıcaklık, don olmaması) yetişir. Bu ikilinin yetişme alanı diğerlerine göre çok daha sınırlıdır."
+  },
+  {
+    "id": "cog_025",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-sanayi",
+    "subtopic": "Sanayi Kuruluşlarının Yer Seçimi",
+    "q": "Sanayi tesislerinin kuruluş yerinin belirlenmesinde hammadde, enerji, pazar, ulaşım ve sermaye gibi faktörler etkilidir. Genellikle çabuk bozulabilir ürünleri işleyen tesisler hammaddeye yakın kurulur.\n\nBuna göre, aşağıdaki sanayi tesislerinden hangisinin kuruluş yerinin belirlenmesinde 'hammaddeye yakınlık' ilkesi belirleyici olmamıştır?",
+    "o": [
+      "Rize - Çay İşleme Tesisleri",
+      "Batman - Petrol Rafinerisi",
+      "Konya - Şeker Fabrikaları",
+      "İskenderun - Demir Çelik Fabrikası",
+      "Elazığ - Ferrokrom Tesisleri"
+    ],
+    "a": 3,
+    "e": "Rize'de çay, Konya'da şeker (çabuk bozulur), Batman'da petrol ve Elazığ'da krom (hammadde kaynağı orada) hammaddeye yakınlık ilkesiyle kurulmuştur. Ancak İskenderun'da demir madeni veya taş kömürü çıkarılmamaktadır. İskenderun Demir-Çelik Fabrikası'nın burada kurulmasının temel nedeni 'Ulaşım' (Liman) faktörüdür."
+  },
+  {
+    "id": "cog_026",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-madenler",
+    "subtopic": "Madenler ve Enerji Kaynakları",
+    "q": "Türkiye'nin jeolojik yapısı göz önüne alındığında, aşağıdaki enerji kaynaklarından hangisinin potansiyelinin yüksek olması, ülkenin genç oluşumlu bir arazi yapısına sahip olduğunun (fay hatları ve volkanizma) doğrudan kanıtıdır?",
+    "o": [
+      "Taş kömürü",
+      "Rüzgar enerjisi",
+      "Jeotermal enerji",
+      "Hidroelektrik enerji",
+      "Güneş enerjisi"
+    ],
+    "a": 2,
+    "e": "Taş kömürü 1. jeolojik zamana (eski arazi) aittir. Rüzgar ve güneş iklimle ilgilidir. Hidroelektrik yer şekilleriyle (eğim) ilgilidir. Ancak Jeotermal enerji, yer kabuğundaki kırık hatlarından (faylardan) çıkan sıcak sularla elde edilir. Türkiye'nin genç oluşumlu, tektonik açıdan aktif bir ülke olması jeotermal potansiyelini artırmıştır."
+  },
+  {
+    "id": "cog_027",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-ulasim",
+    "subtopic": "Ulaşım Sistemleri",
+    "q": "Limanların gelişmesinde ve hinterlandının (art bölgesi) genişlemesinde demir yolu bağlantısının varlığı büyük önem taşır.\n\nBuna göre, aşağıdaki liman kentlerinden hangisinin iç kesimlerle demir yolu bağlantısı bulunmamaktadır?",
+    "o": [
+      "Samsun",
+      "İskenderun",
+      "İzmir",
+      "Trabzon",
+      "Mersin"
+    ],
+    "a": 3,
+    "e": "Samsun, İskenderun, İzmir ve Mersin limanlarının demir yolu bağlantısı vardır ve bu durum ticaret hacimlerini artırır. Ancak Doğu Karadeniz'deki dağların kıyıya paralel ve çok yüksek uzanması nedeniyle Trabzon Limanı'nın iç kesimlerle demir yolu bağlantısı yoktur."
+  },
+  {
+    "id": "cog_028",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-kalkinma",
+    "subtopic": "Bölgesel Kalkınma Projeleri",
+    "q": "Güneydoğu Anadolu Projesi (GAP), bölgenin su ve toprak kaynaklarını geliştirmeyi amaçlayan Türkiye'nin en büyük bölgesel kalkınma projesidir.\n\nAşağıdakilerden hangisi GAP'ın hayata geçmesiyle birlikte bölgede meydana gelen değişimlerden biri değildir?",
+    "o": [
+      "Tarımsal ürün çeşitliliğinin artması",
+      "Pamuk üretiminde bölgenin payının artması",
+      "Nadasa bırakılan arazi miktarının azalması",
+      "Bölge dışına yapılan mevsimlik göçlerin azalması",
+      "Kırsal nüfus oranının kentsel nüfus oranını geçmesi"
+    ],
+    "a": 4,
+    "e": "GAP ile sulama imkanları artmış, pamuk üretimi artmış, nadas azalmış ve ürün çeşitliliği artmıştır. Ayrıca bölge dışına göç azalmıştır. Ancak GAP, bölgeyi tamamen kırsal bir yapıdan kurtarıp sanayi ve ticaretin geliştiği bir yapıya dönüştürmeyi de hedefler. Dolayısıyla 'Kırsal nüfusun kentsel nüfusu geçmesi' bir gelişme göstergesi değil, aksine kalkınmamışlık göstergesidir. Türkiye genelinde ve GAP bölgesinde modernleşmeyle birlikte kentsel nüfus artmaktadır."
+  },
+  {
+    "id": "cog_029",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-turizm",
+    "subtopic": "Turizm Değerleri",
+    "q": "Türkiye'nin UNESCO Dünya Mirası Listesi'nde yer alan kültürel varlıkları ve bulundukları il eşleştirmelerinden hangisi yanlıştır?",
+    "o": [
+      "Göbeklitepe - Şanlıurfa",
+      "Ani Harabeleri - Kars",
+      "Afrodisias - Aydın",
+      "Çatalhöyük - Konya",
+      "Gordion - Manisa"
+    ],
+    "a": 4,
+    "e": "Göbeklitepe (Şanlıurfa), Ani (Kars), Afrodisias (Aydın) ve Çatalhöyük (Konya) eşleştirmeleri doğrudur. Ancak Gordion Antik Kenti Manisa'da değil, Ankara'nın Polatlı ilçesindedir. (Not: Manisa'da Sardes antik kenti bulunur ancak UNESCO listesindeki Gordion Ankara'dadır)."
+  },
+  {
+    "id": "cog_030",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-nufus-politikasi",
+    "subtopic": "Nüfus Politikaları",
+    "q": "Türkiye Cumhuriyeti tarihinde dönem dönem farklı nüfus politikaları uygulanmıştır. \n\nI. Nüfus artış hızını yükseltmek\nII. Anne ve çocuk sağlığına önem vermek\nIII. Nüfusun niteliğini iyileştirmek\n\nYukarıdakilerden hangileri, 1965 yılından sonra uygulanan nüfus politikalarının temel amaçları arasında yer alır?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 3,
+    "e": "1923-1965 yılları arasında nüfus artış hızını 'yükseltici' politika izlenmiştir (I. öncül bu döneme aittir). 1965'ten sonra ise Nüfus Planlaması Kanunu ile birlikte artış hızını düşürmek yerine 'nüfusun niteliğini iyileştirmek' ve 'anne-çocuk sağlığını korumak' gibi amaçlar ön plana çıkmıştır. Dolayısıyla 1965 sonrası için II ve III geçerlidir."
+  },
+  {
+    "id": "cog_031",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "nufus-ve-yerlesme",
+    "subtopic": "Türkiye'de Nüfusun Dağılışı",
+    "q": "Türkiye'de nüfusun dağılışı üzerinde doğal ve beşeri faktörler etkili olmaktadır. Bazı yörelerde yer şekillerinin engebeli olması, sanayi ve ulaşım imkânlarını kısıtladığı için nüfus yoğunluğu azdır.\n\nBuna göre, haritada numaralandırılarak gösterilen (hayali harita üzerinde düşünüldüğünde) aşağıdaki yörelerin hangisinde nüfusun seyrek olması, yukarıda belirtilen nedene **bağlanamaz**?",
+    "o": [
+      "Menteşe Yöresi",
+      "Hakkâri Bölümü",
+      "Teke Platosu",
+      "Tuz Gölü Çevresi",
+      "Yıldız Dağları Bölümü"
+    ],
+    "a": 3,
+    "e": "Menteşe Yöresi, Hakkâri Bölümü, Teke Platosu ve Yıldız Dağları Bölümü yer şekillerinin engebeli ve dağlık olması nedeniyle seyrek nüfuslanmıştır. Ancak Tuz Gölü ve çevresinde yer şekilleri sade olmasına rağmen, nüfusun seyrek olmasının temel nedeni kuraklık ve yağış azlığıdır (iklim faktörü). Dolayısıyla bu durum yer şekillerinin engebesine bağlanamaz."
+  },
+  {
+    "id": "cog_032",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "gocler",
+    "subtopic": "Türkiye'de Göçler",
+    "q": "Türkiye'de kırsal alanlardan kentlere yapılan göçlerin nedenleri arasında aşağıdakilerden hangisi 'itici' faktörler grubunda **yer almaz**?",
+    "o": [
+      "Tarımda makineleşmenin artması",
+      "Erozyona bağlı toprak verimsizliği",
+      "Miras yoluyla tarım alanlarının parçalanması",
+      "Kentlerdeki eğitim ve sağlık hizmetlerinin çeşitliliği",
+      "Kan davaları ve güvenlik sorunları"
+    ],
+    "a": 3,
+    "e": "Göç literatüründe kırsaldan kente göçte; tarımda makineleşme, toprak bölünmesi, erozyon ve güvenlik sorunları kırsalın 'itici' faktörleridir. Ancak kentlerdeki eğitim, sağlık ve iş imkânlarının çeşitliliği kentlerin 'çekici' faktörleri arasında yer alır."
+  },
+  {
+    "id": "cog_033",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "koy-alti-yerlesmeleri",
+    "subtopic": "Köy Altı Yerleşmeleri",
+    "q": "Türkiye'de görülen köy altı yerleşmeleri süreklilik durumlarına göre daimi ve geçici olarak ikiye ayrılmaktadır.\n\nBuna göre;\nI. Divan\nII. Yayla\nIII. Mahalle\nIV. Kom\n\nyerleşmelerinden hangileri, ekonomik faaliyetlerin çeşitlenmesi ve idari yapının güçlenmesiyle **daimi** yerleşme özelliği gösterenler arasında yer alır?",
+    "o": [
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "II ve IV",
+      "III ve IV"
+    ],
+    "a": 1,
+    "e": "Türkiye'deki köy altı yerleşmelerinden Divan ve Mahalle (ayrıca Mezra ve Çiftlik) genellikle tarımsal faaliyetlerin ön planda olduğu daimi yerleşmelerdir. Yayla, Kom, Ağıl, Oba ve Dam ise hayvancılık faaliyetlerinin yapıldığı, genellikle yaz aylarında kullanılan geçici yerleşmelerdir."
+  },
+  {
+    "id": "cog_034",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-tarim",
+    "subtopic": "Türkiye'de Tarım Ürünleri",
+    "q": "Türkiye'de bazı tarım ürünlerinin ekimi, kalitenin korunması veya arz-talep dengesinin sağlanması amacıyla devlet tarafından sınırlandırılabilmektedir. Ancak bazı ürünlerde bu sınırlandırma doğrudan uyuşturucu yapımında kullanılabilme ihtimaline karşı güvenlik gerekçesiyle yapılır.\n\nBuna göre, aşağıdaki ürün çiftlerinden hangisinin devlet kontrolünde olmasının temel nedeni **güvenlik ve uyuşturucuyla mücadeledir**?",
+    "o": [
+      "Şeker pancarı - Tütün",
+      "Haşhaş - Kenevir",
+      "Çeltik - Tütün",
+      "Kenevir - Şeker pancarı",
+      "Haşhaş - Çay"
+    ],
+    "a": 1,
+    "e": "Şeker pancarı (kota/kalite), Tütün (kalite/kota) ve Çeltik (sıtma hastalığı riski/sağlık) gibi nedenlerle kontrol altındadır. Ancak Haşhaş ve Kenevir, uyuşturucu madde yapımında kullanılabilmeleri nedeniyle doğrudan güvenlik gerekçesiyle devlet denetiminde ve izne tabi olarak yetiştirilir."
+  },
+  {
+    "id": "cog_035",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-madenler",
+    "subtopic": "Türkiye'de Madencilik ve Enerji",
+    "q": "Bir sanayi tesisinin kuruluş yerinin belirlenmesinde hammaddeye yakınlık, enerji kaynağına yakınlık, ulaşım ve pazar gibi faktörler etkilidir.\n\nBuna göre, aşağıda verilen sanayi tesisi ve kuruluş yeri eşleştirmelerinden hangisinde kuruluş yeri seçiminin temel nedeni **yanlış** belirtilmiştir?",
+    "o": [
+      "Samsun - Bakır İşletmeleri (Ulaşım/Liman)",
+      "Batman - Petrol Rafinerisi (Hammaddeye yakınlık)",
+      "İskenderun - Demir Çelik Fabrikası (Enerji kaynağına yakınlık)",
+      "Seydişehir - Alüminyum Tesisleri (Hammaddeye yakınlık)",
+      "Ankara - Mobilya Sanayisi (Pazar ve Ulaşım)"
+    ],
+    "a": 2,
+    "e": "İskenderun Demir-Çelik Fabrikası'nın kurulma nedeni enerji kaynağına (taş kömürü) yakınlık değil, 'Ulaşım ve Liman' özellikleridir. Enerji kaynağına yakınlık Karabük ve Ereğli Demir-Çelik fabrikaları için geçerlidir. Samsun'da bakır çıkmaz ancak ulaşım (hinterland) sebebiyle fabrika oradadır; Batman'da petrol çıkar (hammadde); Seydişehir'de boksit çıkar (hammadde)."
+  },
+  {
+    "id": "cog_036",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-enerji",
+    "subtopic": "Alternatif Enerji Kaynakları",
+    "q": "Türkiye'nin jeolojik yapısı göz önüne alındığında, aşağıdaki enerji kaynaklarından hangisinin potansiyeli ile kırıklı yer yapısı (fay hatları) arasında **doğrudan** bir paralellik bulunur?",
+    "o": [
+      "Rüzgâr enerjisi",
+      "Hidroelektrik enerjisi",
+      "Biyokütle enerjisi",
+      "Jeotermal enerji",
+      "Güneş enerjisi"
+    ],
+    "a": 3,
+    "e": "Jeotermal enerji, yer altındaki sıcak su ve buhar kaynaklarından elde edilir. Bu kaynakların yeryüzüne çıkabilmesi için yer kabuğunun kırık (faylı) olması gerekir. Türkiye genç oluşumlu bir ülke olduğu için fay hatları yaygındır ve buna bağlı olarak jeotermal enerji potansiyeli yüksektir (özellikle Ege Bölgesi)."
+  },
+  {
+    "id": "cog_037",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "bolgesel-kalkinma",
+    "subtopic": "Bölgesel Kalkınma Projeleri",
+    "q": "Güneydoğu Anadolu Projesi (GAP), sadece bir sulama projesi olmayıp bölgenin sosyo-ekonomik kalkınmasını hedefleyen entegre bir projedir.\n\nGAP'ın devreye girmesiyle birlikte bölgede aşağıdakilerden hangisinde bir artış olması **beklenmez**?",
+    "o": [
+      "Tarımsal ürün çeşitliliği",
+      "Endüstriyel bitkilerin ekim alanı",
+      "Nadasa bırakılan tarım alanları",
+      "Tarıma dayalı sanayi işletmeleri",
+      "Birim alandan alınan verim"
+    ],
+    "a": 2,
+    "e": "GAP ile birlikte sulu tarım imkânları artmıştır. Sulu tarımın yaygınlaşması, toprağın her yıl ekilebilmesine olanak tanır. Bu durum, kuraklık nedeniyle zorunlu olarak yapılan 'nadas' uygulamasını azaltır. Diğer seçeneklerdeki (çeşitlilik, sanayi bitkileri, verim, sanayi) unsurlar proje ile birlikte artış göstermiştir."
+  },
+  {
+    "id": "cog_038",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-ulasim",
+    "subtopic": "Türkiye'de Ulaşım Sistemleri",
+    "q": "Türkiye'de demir yolu ağı, Cumhuriyet'in ilk yıllarında limanları iç kesimlere bağlamak ve maden bölgelerine ulaşmak amacıyla geliştirilmiştir. Ancak günümüzde dahi bazı önemli liman kentlerine ve turizm merkezlerine demir yolu bağlantısı bulunmamaktadır.\n\nBuna göre, aşağıdaki kentlerin hangisinde demir yolu bağlantısı **bulunmamaktadır**?",
+    "o": [
+      "Zonguldak",
+      "Mersin",
+      "Samsun",
+      "Antalya",
+      "İskenderun"
+    ],
+    "a": 3,
+    "e": "Zonguldak (kömür), Mersin, Samsun ve İskenderun limanlarına demir yolu bağlantısı vardır. Ancak Antalya, Türkiye'nin en önemli turizm ve tarım merkezlerinden biri olmasına rağmen, Toros Dağları'nın oluşturduğu engebeli yapı nedeniyle günümüzde aktif bir demir yolu bağlantısına sahip değildir."
+  },
+  {
+    "id": "cog_039",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-turizm",
+    "subtopic": "Türkiye'nin Kültürel Mirası",
+    "q": "UNESCO Dünya Mirası Listesi'nde Türkiye'den hem kültürel hem de doğal miras statüsünde (karma tip) yer alan varlıklar bulunmaktadır.\n\nAşağıdakilerden hangisi bu duruma örnektir?",
+    "o": [
+      "Efes Antik Kenti",
+      "Göbeklitepe",
+      "Pamukkale - Hierapolis",
+      "Cumalıkızık",
+      "Safranbolu Şehri"
+    ],
+    "a": 2,
+    "e": "UNESCO listesinde 'Karma' (Hem Doğal hem Kültürel) kategorisinde yer alan iki varlığımız vardır: 1. Göreme Milli Parkı ve Kapadokya, 2. Pamukkale - Hierapolis. Diğer seçenekler (Efes, Göbeklitepe, Cumalıkızık, Safranbolu) sadece kültürel miras kategorisindedir."
+  },
+  {
+    "id": "cog_040",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-ticaret",
+    "subtopic": "Türkiye'nin Dış Ticareti",
+    "q": "Türkiye'nin ihracatında (dış satım) son yıllardaki sektörel dağılım incelendiğinde, en büyük paya sahip olan sektör aşağıdakilerden hangisidir?",
+    "o": [
+      "Tarımsal ürünler",
+      "Madencilik ve taş ocakçılığı",
+      "Otomotiv endüstrisi",
+      "Tekstil ve konfeksiyon",
+      "Kimya ve kimyevi ürünler"
+    ],
+    "a": 2,
+    "e": "Türkiye'nin ihracatında uzun yıllardır aslan payı sanayi ürünlerine aittir. Sanayi sektörü içerisinde de 'Otomotiv Endüstrisi', ihracat gelirlerinde ilk sırada yer almaktadır. Tarım ürünlerinin payı oransal olarak sanayi ürünlerinden daha düşüktür."
+  },
+  {
+    "id": "cog_041",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "nufus-yogunlugu",
+    "subtopic": "Türkiye'de Nüfusun Dağılışı ve Yoğunluğu",
+    "q": "Türkiye'de fizyolojik nüfus yoğunluğu, toplam nüfusun tarım alanlarına bölünmesiyle elde edilir. Tarım alanlarının kısıtlı, nüfusun ise görece fazla olduğu engebeli arazilerde fizyolojik nüfus yoğunluğu artış gösterir.\n\nBuna göre, aşağıdaki illerin hangisinde aritmetik nüfus yoğunluğu Türkiye ortalamasının altında olmasına rağmen, yer şekilleri nedeniyle fizyolojik nüfus yoğunluğu oldukça yüksektir?",
+    "o": [
+      "Konya",
+      "Şanlıurfa",
+      "Edirne",
+      "Hakkâri",
+      "Tekirdağ"
+    ],
+    "a": 3,
+    "e": "Fizyolojik nüfus yoğunluğu, toplam nüfusun tarımsal alana bölünmesiyle bulunur. Hakkâri, dağlık ve engebeli yapısı nedeniyle tarım alanlarının çok kısıtlı olduğu bir ildir. Toplam nüfusu az olduğu için aritmetik yoğunluğu düşüktür; ancak payda (tarım alanı) çok küçük olduğu için fizyolojik yoğunluğu yüksek çıkar. Konya, Şanlıurfa, Edirne ve Tekirdağ'da ise tarım arazileri geniştir."
+  },
+  {
+    "id": "cog_042",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "gocler",
+    "subtopic": "Türkiye'de Göçler ve Nedenleri",
+    "q": "Türkiye'de kırsal kesimden kentlere yapılan göçlerde itici ve çekici faktörler etkili olmaktadır.\n\nI. Tarımda makineleşmenin artması\nII. Tarım arazilerinin miras yoluyla parçalanması\nIII. Kentlerde eğitim ve sağlık hizmetlerinin gelişmiş olması\nIV. Nöbetleşe ekim yönteminin uygulanması\n\nYukarıdakilerden hangileri, kırdan kente göçü artıran 'ekonomik kökenli itici' faktörler arasında yer alır?",
+    "o": [
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "II ve IV",
+      "III ve IV"
+    ],
+    "a": 0,
+    "e": "Göç nedenleri itici (kırsaldaki olumsuzluklar) ve çekici (kentteki imkanlar) olarak ayrılır. I. öncül (Makineleşme) işsizliğe yol açtığı için, II. öncül (Mirasla parçalanma) geliri düşürdüğü için 'ekonomik itici' faktörlerdir. III. öncül kentin 'çekici' sosyal faktörüdür. IV. öncül ise tarımsal bir yöntemdir ve doğrudan göç nedeni değildir."
+  },
+  {
+    "id": "cog_043",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "koy-alti-yerlesmeleri",
+    "subtopic": "Türkiye'de Yerleşme Tipleri",
+    "q": "Türkiye'de köy altı yerleşmeleri devamlılık durumlarına göre geçici ve sürekli olarak ikiye ayrılır. Sürekli yerleşmelerde tarımsal faaliyetler ön plandayken, geçici yerleşmelerde hayvancılık daha baskındır.\n\nBuna göre, aşağıdakilerden hangisi idari olarak köy muhtarlığına bağlı, tarımsal faaliyetlerin yapıldığı 'sürekli' köy altı yerleşmelerinden biridir?",
+    "o": [
+      "Yayla",
+      "Kom",
+      "Ağıl",
+      "Divan",
+      "Oba"
+    ],
+    "a": 3,
+    "e": "Türkiye'de Divan, Mahalle, Çiftlik ve Mezra (bazı kaynaklara göre geçici olsa da ÖSYM genellikle Doğu Anadolu'da sürekli kabul eder) sürekli köy altı yerleşmeleridir. Yayla, Kom, Ağıl, Oba ve Dam ise hayvancılık amaçlı kurulan geçici yerleşmelerdir. Divan, özellikle Batı Karadeniz'de yaygın olan sürekli bir yerleşme tipidir."
+  },
+  {
+    "id": "cog_044",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "tarim-urunleri",
+    "subtopic": "Türkiye'de Tarım Ürünleri",
+    "q": "Yetişme döneminde nem ve yağış, olgunlaşma ve hasat döneminde ise yüksek sıcaklık ve kuraklık isteyen bir tarım ürünü, aşağıdaki yörelerin hangisinde doğal koşullara bağlı olarak yetiştirilemez?",
+    "o": [
+      "Kıyı Ege ovaları",
+      "Güneydoğu Anadolu (GAP sahası)",
+      "Çukurova",
+      "Doğu Karadeniz kıyıları",
+      "Iğdır Ovası"
+    ],
+    "a": 3,
+    "e": "Soru metninde tarif edilen iklim isteği (olgunlaşma döneminde kuraklık), Pamuk ve Buğday gibi ürünler için geçerlidir. Doğu Karadeniz kıyıları her mevsim yağışlı olduğu için yaz kuraklığı isteyen pamuk, buğday, arpa veya mercimek gibi ürünlerin yetiştirilmesine elverişli değildir. Diğer seçeneklerde yaz kuraklığı belirgindir."
+  },
+  {
+    "id": "cog_045",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "sanayi-kuruluslari",
+    "subtopic": "Türkiye'de Sanayinin Kuruluş Yeri Seçimi",
+    "q": "Türkiye'de sanayi tesislerinin kuruluş yerinin belirlenmesinde hammaddeye yakınlık, enerji kaynağına yakınlık, ulaşım ve pazar gibi faktörler etkilidir.\n\nBuna göre, aşağıda verilen sanayi tesisi ve kuruluş yeri eşleştirmelerinden hangisinde belirleyici temel faktör 'hammaddeye yakınlık' değildir?",
+    "o": [
+      "Batman - Petrol Rafinerisi",
+      "Samsun - Bakır İzabe Tesisleri",
+      "Murgul - Bakır İşleme Tesisleri",
+      "Seydişehir - Alüminyum Tesisleri",
+      "Elazığ - Ferrokrom Tesisleri"
+    ],
+    "a": 1,
+    "e": "Batman (Petrol), Murgul (Bakır), Seydişehir (Boksit/Alüminyum) ve Elazığ (Krom), hammadde kaynağının orada bulunması nedeniyle kurulmuştur. Ancak Samsun'da bakır madeni çıkarılmaz; Küre (Kastamonu) ve çevresinden çıkarılan bakır, Samsun'a 'ulaşım' imkanlarının gelişmiş olması ve liman fonksiyonu nedeniyle getirilerek işlenir. Buradaki temel faktör ulaşımdır."
+  },
+  {
+    "id": "cog_046",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "enerji-kaynaklari",
+    "subtopic": "Türkiye'de Enerji Kaynakları",
+    "q": "Aşağıdaki enerji santrallerinden hangisi, kullandığı enerji kaynağı bakımından tükenebilir (yenilenemez) kaynaklar grubunda yer alır ve atmosferik kirlilik yaratma potansiyeli daha yüksektir?",
+    "o": [
+      "Sarayköy (Denizli)",
+      "Germencik (Aydın)",
+      "Alaçatı (İzmir)",
+      "Çatalağzı (Zonguldak)",
+      "Oymapınar (Antalya)"
+    ],
+    "a": 3,
+    "e": "Sarayköy ve Germencik Jeotermal; Alaçatı Rüzgar; Oymapınar Hidroelektrik santralidir. Bunlar yenilenebilir kaynaklardır. Çatalağzı Termik Santrali ise Taş Kömürü ile çalışır. Taş kömürü, fosil yakıtlı ve tükenebilir bir kaynaktır; ayrıca karbon emisyonu nedeniyle hava kirliliği yaratma potansiyeli yüksektir."
+  },
+  {
+    "id": "cog_047",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "ulasim-projeleri",
+    "subtopic": "Türkiye'de Ulaşım Sistemleri",
+    "q": "Türkiye'nin yer şekilleri dikkate alındığında, kuzey-güney yönlü ulaşımı sağlamak için birçok geçit ve tünel yapılmıştır. Doğu Karadeniz'i Doğu Anadolu'ya bağlayan ve kış aylarında ulaşımın aksamasını önlemek amacıyla Rize-Erzurum arasına inşa edilen tünel aşağıdakilerden hangisidir?",
+    "o": [
+      "Zigana Tüneli",
+      "Ovit Tüneli",
+      "Nefise Akçelik Tüneli",
+      "Ilgaz 15 Temmuz İstiklal Tüneli",
+      "Avrasya Tüneli"
+    ],
+    "a": 1,
+    "e": "Rize (İkizdere) ile Erzurum (İspir) arasında yer alan ve Ovit Dağı geçidini by-pass ederek kışın kapanan yolu sürekli açık tutan tünel Ovit Tüneli'dir. Zigana (Gümüşhane-Trabzon), Ilgaz (Kastamonu-Çankırı) ve Nefise Akçelik (Ordu) farklı güzergahlardadır."
+  },
+  {
+    "id": "cog_048",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "kalkinma-projeleri",
+    "subtopic": "Bölgesel Kalkınma Projeleri (GAP, DAP, KOP, ZBK)",
+    "q": "Doğu Karadeniz Projesi (DOKAP), bölgenin sosyo-ekonomik yapısını güçlendirmeyi hedefler. Başlangıçta sadece Doğu Karadeniz illerini kapsayan bu projeye daha sonra komşu bölgelerden de iller eklenmiştir.\n\nBuna göre, aşağıdakilerden hangisi DOKAP kapsamındaki illerden biri değildir?",
+    "o": [
+      "Samsun",
+      "Artvin",
+      "Tokat",
+      "Çorum",
+      "Erzurum"
+    ],
+    "a": 4,
+    "e": "Samsun, Artvin, Tokat ve Çorum DOKAP (Doğu Karadeniz Projesi) kapsamındadır. Erzurum ise DAP (Doğu Anadolu Projesi) kapsamındaki iller arasında yer alır. Not: Çorum ve Amasya DOKAP'a, Sivas ise DAP'a sonradan eklenmiştir; bu ayrımlar ÖSYM için önemlidir."
+  },
+  {
+    "id": "cog_049",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turizm",
+    "subtopic": "Türkiye'de Turizm Değerleri",
+    "q": "UNESCO Dünya Mirası Listesi'nde yer alan varlıklarımızdan bazıları hem kültürel hem de doğal miras kategorisinde yer aldığı için 'Karma Tip' (Miks) miras olarak adlandırılır.\n\nAşağıdakilerden hangisi Türkiye'nin bu kategorideki varlıklarından biridir?",
+    "o": [
+      "Divriği Ulu Cami ve Darüşşifası",
+      "Troya Antik Kenti",
+      "Hierapolis - Pamukkale",
+      "Safranbolu Şehri",
+      "Efes Antik Kenti"
+    ],
+    "a": 2,
+    "e": "Türkiye'de 'Karma' (Hem doğal hem kültürel) miras listesinde iki yer bulunur: 1) Göreme Milli Parkı ve Kapadokya, 2) Hierapolis - Pamukkale (Denizli). Diğer seçenekler (Divriği, Troya, Safranbolu, Efes) sadece 'Kültürel' miras kategorisindedir."
+  },
+  {
+    "id": "cog_050",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "hayvancilik",
+    "subtopic": "Türkiye'de Hayvancılık Faaliyetleri",
+    "q": "Türkiye'de hayvancılık faaliyetleri ile doğal bitki örtüsü arasında sıkı bir ilişki vardır.\n\nI. Bozkır alanlarında koyun yetiştiriciliği\nII. Maki bitki örtüsünün yaygın olduğu dağlık alanlarda kıl keçisi yetiştiriciliği\nIII. Çayır ve mera alanlarında sığır yetiştiriciliği\n\nYukarıdaki eşleştirmelerden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Türkiye'de iklim ve bitki örtüsü hayvancılık türünü belirler. İç bölgelerdeki kısa boylu otlar (bozkır) koyun için, Toroslar ve Akdeniz'deki çalılar (maki) kıl keçisi için, Erzurum-Kars gibi yaz yağışlarıyla yeşeren uzun boylu otlar (çayır) ise büyükbaş (sığır) hayvancılık için elverişli ortam oluşturur. Üç öncül de doğrudur."
+  },
+  {
+    "id": "cog_051",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiyede-nufus",
+    "subtopic": "Türkiye'de Nüfus ve Yerleşme",
+    "q": "Türkiye'de nüfusun dağılışı üzerinde doğal ve beşeri faktörler etkili olmaktadır. Kıyı bölgelerinde genellikle nüfus yoğunluğu fazlayken, bazı kıyı kesimlerinde yer şekillerinin engebeli olması nedeniyle nüfus seyrektir.\n\nAşağıdaki yörelerden hangisi, kıyıda yer almasına rağmen yer şekillerinin engebeli yapısı nedeniyle seyrek nüfuslanmıştır?",
+    "o": [
+      "Çatalca - Kocaeli Bölümü",
+      "Çukurova Deltası",
+      "Menteşe Yöresi",
+      "Bafra Ovası",
+      "Gediz Grabeni"
+    ],
+    "a": 2,
+    "e": "Menteşe Yöresi (Muğla çevresi), Ege Bölgesi'nde kıyıda yer almasına rağmen dağların kıyıya paralel uzanması ve arazinin oldukça engebeli olması nedeniyle seyrek nüfuslanmıştır. Diğer seçeneklerdeki alanlar (Çatalca-Kocaeli, Çukurova, Bafra, Gediz) düzlük alanlardır ve nüfus yoğunluğu fazladır."
+  },
+  {
+    "id": "cog_052",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "koy-alti-yerlesmeleri",
+    "subtopic": "Köy Altı Yerleşmeleri",
+    "q": "Türkiye'de köy altı yerleşmeleri ekonomik faaliyetlere ve yerleşme süresine göre devamlı ve geçici olarak ikiye ayrılır.\n\nAşağıda verilen köy altı yerleşmelerinden hangileri, yıl boyu ikamet edilen 'devamlı' yerleşmeler grubunda yer alır?",
+    "o": [
+      "Yayla - Kom - Ağıl",
+      "Mezra - Mahalle - Divan",
+      "Oba - Dam - Dalyan",
+      "Yayla - Mezra - Kom",
+      "Divan - Ağıl - Oba"
+    ],
+    "a": 1,
+    "e": "Türkiye'de köy altı yerleşmelerinden Mezra, Mahalle, Divan ve Çiftlik 'devamlı' yerleşmelerdir. Yayla, Kom, Ağıl, Oba, Dam ve Dalyan ise genellikle hayvancılık faaliyetlerine bağlı olarak kurulan 'geçici' yerleşmelerdir."
+  },
+  {
+    "id": "cog_053",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiyede-gocler",
+    "subtopic": "Türkiye'de Göçler",
+    "q": "Türkiye'de gerçekleşen iç göçler ile ilgili;\n\nI. Genellikle doğudan batıya doğru gerçekleşmesi,\nII. Mevsimlik göçlerde tarım ve turizm sektörünün etkili olması,\nIII. Erkek nüfusun göçlere katılım oranının kadınlardan daha düşük olması\n\nyargılarından hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 2,
+    "e": "Türkiye'de iç göçler genellikle az gelişmiş doğu bölgelerinden gelişmiş batı bölgelerine doğrudur (I. öncül doğru). Mevsimlik göçler tarım (pamuk, fındık toplama vb.) ve turizm amaçlı yapılır (II. öncül doğru). Ancak göç eden nüfus içinde genellikle erkek oranı daha yüksektir, kadın oranı daha düşüktür (III. öncül yanlış)."
+  },
+  {
+    "id": "cog_054",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiyede-tarim",
+    "subtopic": "Türkiye'de Tarım",
+    "q": "Türkiye'de bazı tarım ürünlerinin ekim alanları devlet tarafından kaliteyi korumak, sağlığı gözetmek veya arz-talep dengesini sağlamak amacıyla sınırlandırılmaktadır.\n\nAşağıdaki ürünlerden hangisinin ekim alanının sınırlandırılma gerekçesi diğerlerinden farklıdır?",
+    "o": [
+      "Haşhaş",
+      "Kenevir",
+      "Tütün",
+      "Pirinç",
+      "Şeker Pancarı"
+    ],
+    "a": 3,
+    "e": "Haşhaş ve Kenevir uyuşturucu yapımında kullanılabileceği için güvenlik gerekçesiyle; Tütün ve Şeker Pancarı ise kalite ve kota (ekonomik) nedenlerle sınırlandırılır veya denetlenir. Ancak Pirinç (Çeltik), sıtma hastalığına neden olan sivrisineklerin üremesine elverişli sulak alanlarda yetiştiği için 'toplum sağlığı' gerekçesiyle yerleşim yerlerine belirli bir mesafede sınırlandırılır. Bu yönüyle gerekçesi diğerlerinden (özellikle kota uygulananlardan) ayrılır."
+  },
+  {
+    "id": "cog_055",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiyede-madenler",
+    "subtopic": "Türkiye'de Madenler ve Enerji Kaynakları",
+    "q": "Aşağıdaki sanayi tesislerinden hangisinin kuruluş yerinin belirlenmesinde 'hammaddeye yakınlık' ilkesi etkili olmamıştır?",
+    "o": [
+      "Batman - Petrol Rafinerisi",
+      "Seydişehir - Alüminyum Tesisleri",
+      "Samsun - Bakır İşletmeleri",
+      "Murgul - Bakır İşletmeleri",
+      "Elazığ - Ferrokrom Tesisleri"
+    ],
+    "a": 2,
+    "e": "Batman'da petrol çıkarıldığı için rafineri hammaddeye yakındır. Seydişehir'de boksit çıkarılır. Murgul'da bakır çıkarılır. Elazığ'da krom çıkarılır. Ancak Samsun'da bakır madeni çıkarılmamaktadır; Kastamonu/Küre ve Artvin'den çıkarılan bakırın Samsun'da işlenmesinin temel nedeni 'ulaşım' (liman) ve 'hinterland' genişliğidir."
+  },
+  {
+    "id": "cog_056",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiyede-sanayi",
+    "subtopic": "Türkiye'de Sanayi",
+    "q": "Türkiye'de İskenderun Demir-Çelik Fabrikası'nın kurulduğu yer seçilirken enerji kaynağına veya demir madenine yakınlık değil, farklı bir faktör ön planda tutulmuştur.\n\nİskenderun Demir-Çelik Fabrikası'nın kuruluşunda belirleyici olan temel faktör aşağıdakilerden hangisidir?",
+    "o": [
+      "Su kaynaklarının bolluğu",
+      "Pazar alanlarına yakınlık",
+      "Ulaşım ve liman kolaylığı",
+      "İklim koşullarının elverişliliği",
+      "Ucuz iş gücü potansiyeli"
+    ],
+    "a": 2,
+    "e": "İskenderun'da ne taş kömürü (enerji) ne de demir madeni (hammadde) bulunur. Fabrikanın burada kurulmasının temel nedeni liman özelliği sayesinde hem hammadde ithalatının hem de ürün ihracatının kolay yapılmasıdır (Ulaşım)."
+  },
+  {
+    "id": "cog_057",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiyede-ulasim",
+    "subtopic": "Türkiye'de Ulaşım",
+    "q": "Türkiye'nin yer şekilleri dikkate alındığında, aşağıdaki liman kentlerinden hangisinin iç bölgelerle olan demir yolu bağlantısı bulunmamaktadır?",
+    "o": [
+      "Zonguldak",
+      "Samsun",
+      "İskenderun",
+      "Antalya",
+      "İzmir"
+    ],
+    "a": 3,
+    "e": "Zonguldak, Samsun, İskenderun ve İzmir limanlarının iç kesimlerle demir yolu bağlantısı vardır. Ancak Antalya, Batı Torosların yarattığı engebeli arazi yapısı nedeniyle iç bölgelere demir yolu ile bağlanamamıştır."
+  },
+  {
+    "id": "cog_058",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "bolgesel-kalkinma",
+    "subtopic": "Bölgesel Kalkınma Projeleri",
+    "q": "Güneydoğu Anadolu Projesi (GAP), sadece sulama ve enerji üretimi değil, bölgenin sosyo-ekonomik yapısını değiştirmeyi hedefleyen entegre bir projedir.\n\nAşağıdakilerden hangisi GAP'ın hayata geçmesiyle bölgede gözlemlenen değişimlerden biri değildir?",
+    "o": [
+      "Tarımsal ürün çeşitliliğinin artması",
+      "Pamuk üretiminde bölgenin payının artması",
+      "Tarıma dayalı sanayinin gelişmesi",
+      "Kırsal nüfus oranının kentsel nüfus oranını geçmesi",
+      "Bölge dışına yapılan göçlerin hızının azalması"
+    ],
+    "a": 3,
+    "e": "GAP ile birlikte sulu tarım gelişmiş, ürün çeşitliliği artmış (pamuk vb.), tarıma dayalı sanayi gelişmiş ve göç hızı nispeten yavaşlamıştır. Ancak 'kırsal nüfus oranının kentsel nüfus oranını geçmesi' beklenen veya gerçekleşen bir durum değildir; aksine modernleşme ve sanayileşme ile birlikte kentsel nüfus oranı artış eğilimindedir."
+  },
+  {
+    "id": "cog_059",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiyede-turizm",
+    "subtopic": "Türkiye'de Turizm",
+    "q": "Türkiye'nin turizm potansiyeli ile ilgili aşağıda verilen 'Turizm Merkezi - Turizm Türü' eşleştirmelerinden hangisi yanlıştır?",
+    "o": [
+      "Erciyes (Kayseri) - Kış Turizmi",
+      "Belek (Antalya) - Golf Turizmi",
+      "Çoruh Nehri (Artvin) - Rafting Turizmi",
+      "Sümela Manastırı (Trabzon) - İnanç Turizmi",
+      "Ilıca (Çeşme) - Yayla Turizmi"
+    ],
+    "a": 4,
+    "e": "Erciyes kış, Belek golf, Çoruh rafting, Sümela inanç turizmi için doğrudur. Ancak İzmir Çeşme-Ilıca yöresi 'Yayla Turizmi' ile değil, 'Kıyı/Deniz Turizmi' ve 'Termal Turizm' ile tanınır. Yayla turizmi daha çok Karadeniz ve Akdeniz'in yüksek kesimlerinde yaygındır."
+  },
+  {
+    "id": "cog_060",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "jeopolitik-konum",
+    "subtopic": "Türkiye'nin Jeopolitik Konumu",
+    "q": "Türkiye, enerji kaynaklarına sahip ülkeler ile bu enerjiye ihtiyaç duyan sanayileşmiş ülkeler arasında bir köprü konumundadır. Bu durum Türkiye'nin jeopolitik önemini artırmaktadır.\n\nAşağıdakilerden hangisi Türkiye üzerinden geçen uluslararası enerji nakil hatlarından biri değildir?",
+    "o": [
+      "Bakü - Tiflis - Ceyhan (BTC) Petrol Boru Hattı",
+      "Trans Anadolu Doğal Gaz Boru Hattı (TANAP)",
+      "Kerkük - Yumurtalık Petrol Boru Hattı",
+      "Mavi Akım Doğal Gaz Boru Hattı",
+      "Kuzey Akım (Nord Stream) Doğal Gaz Boru Hattı"
+    ],
+    "a": 4,
+    "e": "BTC, TANAP, Kerkük-Yumurtalık ve Mavi Akım Türkiye sınırları içerisinden geçen veya Türkiye'de sonlanan hatlardır. Ancak Kuzey Akım (Nord Stream), Rusya'dan Almanya'ya Baltık Denizi altından giden bir hattır ve Türkiye ile coğrafi bir bağlantısı yoktur."
+  },
+  {
+    "id": "cog_061",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "nufus-ve-yerlesme",
+    "subtopic": "Türkiye'de Nüfusun Dağılışı",
+    "q": "Türkiye'de nüfusun dağılışı üzerinde doğal ve beşeri faktörler birlikte etkili olmaktadır. Bazı yörelerde iklim koşulları elverişli olmasına rağmen, yer şekillerinin engebeli ve dağlık olması nüfuslanmayı sınırlandırmıştır.\n\nBuna göre, haritada numaralandırılarak gösterilen (zihinsel harita) aşağıdaki yörelerden hangisinde nüfusun seyrek olması, yukarıda belirtilen nedene bağlanabilir?",
+    "o": [
+      "Çatalca - Kocaeli Bölümü",
+      "Menteşe Yöresi",
+      "Ergene Havzası",
+      "Konya Ovası",
+      "Çukurova Deltası"
+    ],
+    "a": 1,
+    "e": "Menteşe Yöresi (Muğla ve çevresi), Akdeniz ikliminin görüldüğü, kıyı kesiminde yer alan ve iklim koşulları insan yaşamına oldukça elverişli olan bir alandır. Ancak dağların kıyıya paralel ve çok yakın uzanması, arazinin oldukça engebeli ve sarp olması nedeniyle nüfuslanma seyrektir. Diğer seçeneklerdeki alanlar (Çatalca-Kocaeli, Ergene, Konya, Çukurova) yer şekillerinin sade olduğu alanlardır."
+  },
+  {
+    "id": "cog_062",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "koy-alti-yerlesmeleri",
+    "subtopic": "Kırsal Yerleşme Tipleri",
+    "q": "Türkiye'de köy altı yerleşmeleri, ekonomik faaliyetlerin türüne ve yerleşmenin sürekliliğine göre geçici ve kalıcı olarak ikiye ayrılır.\n\nBuna göre aşağıda verilen köy altı yerleşmelerinden hangisi, 'kalıcı' yerleşme statüsündedir?",
+    "o": [
+      "Yayla",
+      "Kom",
+      "Ağıl",
+      "Oba",
+      "Divan"
+    ],
+    "a": 4,
+    "e": "Türkiye'deki köy altı yerleşmelerinden Yayla, Kom, Ağıl ve Oba genellikle hayvancılık faaliyetlerine bağlı olarak kurulan 'geçici' yerleşmelerdir. Ancak Batı Karadeniz'de yaygın olan 'Divan' ile Mahalle, Mezra ve Çiftlik yerleşmeleri tarımsal faaliyetlerin de ön planda olduğu 'kalıcı' köy altı yerleşmeleri grubunda yer alır."
+  },
+  {
+    "id": "cog_063",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "tarim-urunleri",
+    "subtopic": "Türkiye'de Tarım",
+    "q": "Türkiye'de yetiştirilen bazı tarım ürünlerinin üretim alanlarının belirlenmesinde devletin yasal düzenlemeleri ve kalite kontrol politikaları etkili olmaktadır.\n\nBuna göre aşağıdaki tarım ürünlerinden hangisinin üretim alanının sınırlandırılmasında 'kalite sorunu' veya 'sağlık/uyuşturucu ile mücadele' gibi devlet kontrolü etkili değildir?",
+    "o": [
+      "Kenevir",
+      "Haşhaş",
+      "Tütün",
+      "Pirinç (Çeltik)",
+      "Mısır"
+    ],
+    "a": 4,
+    "e": "Kenevir ve Haşhaş uyuşturucu yapımında kullanılabildiği için devlet kontrolündedir. Tütün, kalitenin düşmemesi adına devlet tarafından ekim alanları sınırlandırılan bir üründür. Pirinç (Çeltik), sıtma hastalığı riski nedeniyle yerleşim yerlerine belirli bir mesafede ve devlet izniyle yetiştirilir. Ancak Mısır üretimi üzerinde bu türden bir devlet sınırlaması yoktur; iklim ve sulama koşullarının uygun olduğu her yerde yetiştirilebilir."
+  },
+  {
+    "id": "cog_064",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "sanayi-kuruluslari",
+    "subtopic": "Türkiye'de Sanayi ve Kuruluş Yeri Seçimi",
+    "q": "Bir sanayi tesisinin kurulacağı yer belirlenirken hammaddeye yakınlık, enerji kaynağına yakınlık, pazar, ulaşım gibi faktörler göz önünde bulundurulur.\n\nBuna göre, Samsun'da Bakır İşletmeleri'nin kurulmuş olmasının temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Hammadde kaynaklarına yakın olması",
+      "Zengin linyit yataklarına sahip olması",
+      "İç kesimlerle demir yolu bağlantısı ve liman fonksiyonu (Ulaşım)",
+      "Nitelikli iş gücü potansiyelinin yüksek olması",
+      "Tüketim pazarlarına yakın olması"
+    ],
+    "a": 2,
+    "e": "Samsun'da bakır madeni çıkarılmaz (Hammaddeye yakınlık yoktur). Bakır, Karadeniz'in iç kesimlerinden (Kastamonu-Küre, Artvin-Murgul) çıkarılır. Samsun'da işlenmesinin temel nedeni, şehrin gelişmiş bir limana sahip olması ve iç bölgelerle demir yolu bağlantısının bulunmasıdır. Bu durum 'Ulaşım' faktörü ile açıklanır."
+  },
+  {
+    "id": "cog_065",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-madenleri",
+    "subtopic": "Türkiye'de Madencilik",
+    "q": "Türkiye'nin jeolojik yapısının çeşitlilik göstermesi, maden çeşitliliğini artırmıştır. Aşağıda bazı madenler ve bu madenlerin rezerv bakımından zengin olduğu merkezler eşleştirilmiştir.\n\nBu eşleştirmelerden hangisi yanlıştır?",
+    "o": [
+      "Demir: Sivas (Divriği) - Malatya (Hekimhan)",
+      "Boksit (Alüminyum): Konya (Seydişehir)",
+      "Krom: Elazığ (Guleman) - Muğla (Köyceğiz)",
+      "Barit: Antalya (Alanya) - Kahramanmaraş (Elbistan)",
+      "Taş Kömürü: Manisa (Soma) - Kütahya (Tunçbilek)"
+    ],
+    "a": 4,
+    "e": "Demir, Boksit, Krom ve Barit için verilen merkezler doğrudur. Ancak Taş Kömürü Türkiye'de sadece Zonguldak ve çevresinde (Batı Karadeniz) çıkarılır. Manisa (Soma) ve Kütahya (Tunçbilek) havzalarında çıkarılan maden taş kömürü değil, Linyit'tir. Linyit 3. Jeolojik zamanda oluşmuşken, Taş Kömürü 1. Jeolojik zamanda oluşmuştur."
+  },
+  {
+    "id": "cog_066",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "enerji-kaynaklari",
+    "subtopic": "Alternatif Enerji Kaynakları",
+    "q": "Türkiye'de yenilenebilir enerji kaynaklarının kullanımı giderek yaygınlaşmaktadır. Jeotermal enerji potansiyeli, ülkenin tektonik yapısıyla doğrudan ilişkilidir.\n\nBuna göre, fay hatlarının dağılışı göz önüne alındığında aşağıdaki bölgelerin hangisinde jeotermal enerji santrali kurulum potansiyeli en yüksektir?",
+    "o": [
+      "Yıldız Dağları Bölümü",
+      "Doğu Karadeniz Bölümü",
+      "Kıyı Ege Bölümü",
+      "Mardin Eşiği",
+      "Konya Kapalı Havzası"
+    ],
+    "a": 2,
+    "e": "Jeotermal enerji, kırıklı yer yapısının (fay hatlarının) bulunduğu alanlarda sıcak suyun yeryüzüne çıkmasıyla elde edilir. Türkiye'de Batı Anadolu Fay Hattı üzerindeki Kıyı Ege Bölümü (özellikle Aydın, Denizli, Manisa çevresindeki graben sahaları), jeotermal potansiyelin ve kurulu gücün en yüksek olduğu bölgedir. Yıldız Dağları, Mardin Eşiği ve Konya Ovası gibi alanlar deprem riskinin ve jeotermal potansiyelin düşük olduğu masif veya oturmuş arazilerdir."
+  },
+  {
+    "id": "cog_067",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "bolgesel-kalkinma",
+    "subtopic": "Bölgesel Kalkınma Projeleri (GAP)",
+    "q": "Güneydoğu Anadolu Projesi (GAP), sadece bir sulama projesi olmanın ötesinde, bölgenin sosyo-ekonomik yapısını değiştirmeyi hedefleyen entegre bir kalkınma projesidir.\n\nGAP'ın devreye girmesiyle birlikte Güneydoğu Anadolu Bölgesi'nde;\nI. Tarımsal ürün çeşitliliğinin artması,\nII. Tarıma dayalı sanayinin gelişmesi,\nIII. Nadasa bırakılan alanların artması\n\ndurumlarından hangilerinin gerçekleşmesi beklenir?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
+    ],
+    "a": 2,
+    "e": "GAP ile birlikte sulama imkanlarının artması, bölgede daha önce yetiştirilemeyen ürünlerin (pamuk, mısır vb.) yetiştirilmesine olanak sağlamış, bu da ürün çeşitliliğini artırmıştır (I). Üretilen hammaddenin işlenmesine yönelik tekstil ve gıda sanayisi gelişmiştir (II). Ancak sulama ile birlikte toprağın her yıl ekilebilmesi mümkün hale geldiği için nadasa (toprağı dinlendirme) bırakılan alanlar artmamış, aksine azalmıştır (III)."
+  },
+  {
+    "id": "cog_068",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-ulasim",
+    "subtopic": "Türkiye'de Ulaşım Sistemleri",
+    "q": "Türkiye'de demir yolu ağı, Cumhuriyet döneminde limanları iç kesimlere bağlamak ve maden havzalarına ulaşmak amacıyla genişletilmiştir. Ancak yer şekillerinin engebeli olması bazı önemli merkezlere demir yolu ulaşımını engellemiştir.\n\nBuna göre, aşağıdaki liman kentlerinden hangisinin iç bölgelerle demir yolu bağlantısı bulunmamaktadır?",
+    "o": [
+      "İskenderun",
+      "İzmir",
+      "Samsun",
+      "Mersin",
+      "Antalya"
+    ],
+    "a": 4,
+    "e": "İskenderun, İzmir, Samsun ve Mersin limanlarının iç bölgelerle demir yolu bağlantısı vardır ve bu durum limanların hinterlandını genişletmiştir. Ancak Antalya, Batı Torosların oluşturduğu sarp ve engebeli arazi yapısı nedeniyle iç bölgelere demir yolu ile bağlanamamıştır. Bu durum Antalya Limanı'nın ticari fonksiyonunu diğerlerine göre daha sınırlı kılmıştır."
+  },
+  {
+    "id": "cog_069",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turizm",
+    "subtopic": "Türkiye'de Turizm Değerleri",
+    "q": "Türkiye, UNESCO Dünya Mirası Listesi'nde yer alan birçok kültürel ve doğal varlığa sahiptir. Bazı eserler 'Karma' (hem doğal hem kültürel) miras kategorisindedir.\n\nAşağıdakilerden hangisi Türkiye'de UNESCO listesinde 'Karma Miras' (Hem doğal hem kültürel) statüsünde yer alan alanlardan biridir?",
+    "o": [
+      "Safranbolu Şehri (Karabük)",
+      "Pamukkale - Hierapolis (Denizli)",
+      "Divriği Ulu Camii ve Darüşşifası (Sivas)",
+      "Troya Antik Kenti (Çanakkale)",
+      "Nemrut Dağı (Adıyaman)"
+    ],
+    "a": 1,
+    "e": "Türkiye'de UNESCO listesinde 'Karma' (Mixed) kategorisinde yer alan iki önemli merkez vardır: 1. Göreme Milli Parkı ve Kapadokya, 2. Pamukkale ve Hierapolis. Pamukkale travertenleri (Doğal) ve Hierapolis Antik Kenti (Kültürel) bir arada bulunduğu için karma mirastır. Diğer seçenekler (Safranbolu, Divriği, Troya, Nemrut) sadece 'Kültürel' miras kategorisindedir."
+  },
+  {
+    "id": "cog_070",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "gocler",
+    "subtopic": "Türkiye'de Göçler",
+    "q": "Türkiye'de mevsimlik göçler, tarım, turizm ve inşaat sektörlerindeki iş gücü ihtiyacına bağlı olarak gerçekleşir.\n\nBuna göre, yaz mevsiminde aşağıdaki illerden hangisine yapılan göçün temel nedeni diğerlerinden farklıdır?",
+    "o": [
+      "Ordu",
+      "Rize",
+      "Adana",
+      "Muğla",
+      "Giresun"
+    ],
+    "a": 3,
+    "e": "Ordu ve Giresun fındık hasadı, Rize çay hasadı, Adana ise pamuk ve diğer tarım ürünlerinin hasadı için yazın yoğun şekilde 'tarım işçisi' göçü alır. Ancak Muğla (Bodrum, Marmaris, Fethiye vb.), yaz mevsiminde 'turizm' sektöründeki hareketlilik nedeniyle göç almaktadır. Dolayısıyla Muğla'daki göçün temel nedeni tarım değil, turizmdir."
+  },
+  {
+    "id": "cog_071",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "nufus-politikalar",
+    "subtopic": "Türkiye'de Nüfus Politikaları",
+    "q": "Cumhuriyetin ilk yıllarından günümüze kadar Türkiye'de uygulanan nüfus politikaları dönemlere göre farklılık göstermiştir.\n\nBuna göre, 1923-1965 döneminde uygulanan nüfus artırıcı politikaların nedenleri arasında aşağıdakilerden hangisi **gösterilemez**?",
+    "o": [
+      "Savaşlar nedeniyle genç ve erkek nüfusun azalmış olması",
+      "Tarımsal üretimde insan gücüne duyulan ihtiyacın fazla olması",
+      "Hızlı kalkınma hamlesi için iş gücü ihtiyacının yüksek olması",
+      "Makineleşmenin yetersiz olması nedeniyle kas gücüne dayalı ekonominin hakim olması",
+      "Nüfusun yaşlanması nedeniyle sosyal güvenlik sisteminin açık vermesi"
+    ],
+    "a": 4,
+    "e": "1923-1965 dönemi Türkiye'de nüfus artış hızını yükseltmeye yönelik politikaların izlendiği bir dönemdir. Bunun temel nedenleri arasında savaşlardan çıkan ülkenin nüfusunun azalması, kalkınma için iş gücüne duyulan ihtiyaç, tarımda makineleşmenin az olması ve savunma gücünü artırma isteği yer alır. Ancak 'nüfusun yaşlanması ve sosyal güvenlik sisteminin açık vermesi' bu dönemin değil, günümüzün ve yakın geleceğin bir sorunudur. O dönemde ortalama yaşam süresi zaten kısaydı ve nüfus gençti."
+  },
+  {
+    "id": "cog_072",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "kirsal-yerlesme",
+    "subtopic": "Türkiye'de Kırsal Yerleşmeler",
+    "q": "Türkiye'de köy altı yerleşmeleri, ekonomik faaliyetlerin süresine göre sürekli ve geçici yerleşmeler olarak ikiye ayrılmaktadır.\n\nBuna göre, aşağıda verilen köy altı yerleşmelerinden hangisi **süreklilik** özelliği bakımından diğerlerinden farklıdır?",
+    "o": [
+      "Mahalle",
+      "Divan",
+      "Mezra",
+      "Çiftlik",
+      "Kom"
+    ],
+    "a": 4,
+    "e": "Türkiye'deki köy altı yerleşmeleri süreklilik durumuna göre sınıflandırılır. Mahalle, Divan, Mezra ve Çiftlik yerleşmeleri tarımsal faaliyetlerin ön planda olduğu ve yıl boyu ikamet edilen 'sürekli' yerleşmelerdir. Ancak 'Kom' yerleşmeleri (ve ayrıca Yayla, Ağıl, Oba gibi), genellikle hayvancılık faaliyetleri için yaz aylarında kullanılan 'geçici' yerleşmeler grubunda yer alır."
+  },
+  {
+    "id": "cog_073",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turkiye-goc",
+    "subtopic": "Türkiye'de Göçler",
+    "q": "Türkiye'de iç göçlerin yönü genellikle doğudan batıya, iç kesimlerden kıyı kesimlere doğrudur. Ancak bazı illerimiz hem göç almakta hem de göç vermektedir.\n\nAşağıdaki illerden hangisi, tarım mevsiminde aldığı yoğun göç ile diğerlerinden belirgin şekilde ayrılır?",
+    "o": [
+      "İstanbul",
+      "Kocaeli",
+      "Adana",
+      "Eskişehir",
+      "Zonguldak"
+    ],
+    "a": 2,
+    "e": "İstanbul, Kocaeli ve Eskişehir gibi iller genellikle sanayi, eğitim ve hizmet sektörü nedeniyle kalıcı göç alırlar. Zonguldak madencilik eksenli bir göç geçmişine sahiptir. Ancak Adana (Çukurova), özellikle pamuk ve diğer tarım ürünlerinin hasat döneminde çevre illerden (Güneydoğu Anadolu vb.) yoğun miktarda 'mevsimlik tarım işçisi' göçü almasıyla diğerlerinden ayrılır. Bu durum mevsimlik nüfus dalgalanmasına yol açar."
+  },
+  {
+    "id": "cog_074",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "tarim-urunleri",
+    "subtopic": "Türkiye'de Tarım",
+    "q": "Türkiye'de tarımsal üretimde 'Nöbetleşe Ekim' (Münavebe) yönteminin uygulanmasının temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Tarımsal ürün çeşitliliğini artırmak",
+      "Toprağın mineral ve azot dengesini koruyarak verimi sürdürmek",
+      "Erozyonu tamamen engellemek",
+      "Tarımsal ürünlerin ihracat potansiyelini yükseltmek",
+      "Devletin taban fiyat uygulamasından yararlanmak"
+    ],
+    "a": 1,
+    "e": "Nöbetleşe ekim, toprağın her yıl aynı ürün tarafından sömürülmesini engellemek ve nadasa (toprağı boş bırakma) gerek kalmadan üretimi sürdürmek için yapılır. Özellikle kurak ve yarı kurak bölgelerde, toprağa azot kazandıran baklagiller ile tahılların sırayla ekilmesi, toprağın verimini ve mineral dengesini korumayı amaçlar. Erozyonu azaltır ancak tamamen engellemez; asıl amaç verimlilik ve sürdürülebilirliktir."
+  },
+  {
+    "id": "cog_075",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "madenler-enerji",
+    "subtopic": "Türkiye'de Madenler ve Enerji",
+    "q": "Aşağıdaki enerji üretim tesislerinden hangisinin kuruluş yerinin belirlenmesinde 'ham maddeye yakınlık' ilkesi zorunlu **değildir**?",
+    "o": [
+      "Yatağan Termik Santrali (Muğla)",
+      "Afşin-Elbistan Termik Santrali (Kahramanmaraş)",
+      "Sarayköy Jeotermal Santrali (Denizli)",
+      "Ambarlı Doğal Gaz Çevrim Santrali (İstanbul)",
+      "Hamitabat Doğal Gaz Çevrim Santrali (Kırklareli)"
+    ],
+    "a": 3,
+    "e": "Linyit (Yatağan, Afşin-Elbistan) kalori değeri düşük ve taşınması maliyetli olduğu için santraller maden sahasına kurulur. Jeotermal (Sarayköy) kaynağın olduğu yere kurulmak zorundadır. Hamitabat santrali, çıkarılan doğal gazın işlenmesi için kaynağa yakındır. Ancak İstanbul Ambarlı Doğal Gaz Çevrim Santrali, ham madde kaynağında değil, tüketim merkezine (pazar) yakınlık ve liman kolaylığı nedeniyle İstanbul'da kurulmuştur; doğal gaz boru hatları veya gemilerle taşınabilir."
+  },
+  {
+    "id": "cog_076",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "sanayi-kurulus",
+    "subtopic": "Türkiye'de Sanayi",
+    "q": "Türkiye'de sanayi tesislerinin dağılışı incelendiğinde, ham madde, enerji, pazar ve ulaşım gibi faktörlerin etkili olduğu görülür.\n\nBuna göre, Samsun'da Bakır İşletmeleri'nin ve İskenderun'da Demir-Çelik Fabrikası'nın kurulmasındaki **ortak temel neden** aşağıdakilerden hangisidir?",
+    "o": [
+      "Zengin ham madde yataklarına sahip olmaları",
+      "Enerji kaynaklarına yakın olmaları",
+      "Ulaşım (Liman) olanaklarının gelişmiş olması",
+      "Su kaynaklarının bol olması",
+      "Nitelikli iş gücünün fazla olması"
+    ],
+    "a": 2,
+    "e": "Samsun'da bakır çıkarılmaz (Küre ve Murgul'dan gelir), İskenderun'da demir çıkarılmaz (Sivas-Divriği/Malatya'dan gelir) ve taş kömürü yoktur. Her iki tesisin de bu şehirlerde kurulmasının temel nedeni 'Ulaşım' yani liman (hinterland) avantajıdır. Ham maddenin veya enerjinin deniz yoluyla getirilip, işlenen ürünün yine deniz yoluyla dağıtılabilmesi bu yer seçimlerinde belirleyici olmuştur."
+  },
+  {
+    "id": "cog_077",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "ulasim-sistemleri",
+    "subtopic": "Türkiye'de Ulaşım",
+    "q": "Türkiye'nin yer şekilleri dikkate alındığında, kara yolu ve demir yolu yapım maliyetlerinin bölgelere göre değiştiği görülmektedir.\n\nBuna göre, aynı standarttaki bir kara yolunun aşağıdaki hatlardan hangisinde yapılması durumunda **birim maliyetin daha düşük** olması beklenir?",
+    "o": [
+      "Antalya - Burdur",
+      "Rize - Erzurum",
+      "Şanlıurfa - Mardin",
+      "Muğla - Denizli",
+      "Kastamonu - Ankara"
+    ],
+    "a": 2,
+    "e": "Türkiye'de dağlık ve engebeli arazilerde (Karadeniz, Akdeniz, Menteşe Yöresi) yol yapım maliyetleri tünel, viyadük ve köprü gereksinimi nedeniyle yüksektir. Antalya-Burdur (Toroslar), Rize-Erzurum (Kuzey Anadolu Dağları), Muğla-Denizli (Menteşe engebeleri), Kastamonu-Ankara (Ilgaz Dağları) maliyetli güzergahlardır. Ancak Güneydoğu Anadolu Bölgesi'ndeki Şanlıurfa-Mardin hattı, yer şekillerinin sade ve düz olması (plato karakteri) nedeniyle yol yapım maliyetinin en düşük olduğu güzergahlardan biridir."
+  },
+  {
+    "id": "cog_078",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "bolgesel-kalkinma",
+    "subtopic": "Bölgesel Kalkınma Projeleri",
+    "q": "Güneydoğu Anadolu Projesi (GAP), sadece bir sulama ve enerji projesi olmayıp bölgenin sosyo-ekonomik yapısını değiştirmeyi hedefleyen entegre bir kalkınma projesidir.\n\nAşağıdakilerden hangisi GAP'ın hayata geçmesiyle bölgede meydana gelen değişimlerden biri **değildir**?",
+    "o": [
+      "Tarımsal ürün deseninin değişmesi ve pamuk üretiminin artması",
+      "Tarıma dayalı sanayi kollarının gelişmesi",
+      "Bölge dışına yapılan mevsimlik göçlerin azalması",
+      "Kırsal kesimde kerpiç meskenlerin yerini tamamen betonarme yapıların alması",
+      "Ulaşım, eğitim ve sağlık hizmetlerinin gelişmesi"
+    ],
+    "a": 3,
+    "e": "GAP ile birlikte sulu tarıma geçilmiş, pamuk üretimi artmış, tarıma dayalı sanayi gelişmiş ve bölge dışına göç azalma eğilimine girmiştir (tamamen durmasa da). Ancak 'kırsal kesimde kerpiç meskenlerin yerini tamamen betonarme yapıların alması' gibi bir durum söz konusu değildir. Kerpiç, bölgenin iklimine (karasallık, sıcaklık) en uygun ve ekonomik yapı malzemesi olduğu için kırsal mimaride varlığını sürdürmektedir. Projenin amacı yapı malzemesini değiştirmek değildir."
+  },
+  {
+    "id": "cog_079",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "turizm",
+    "subtopic": "Türkiye'de Turizm",
+    "q": "I. Sümela Manastırı\nII. Akdamar Kilisesi\nIII. St. Nicholas Kilisesi\n\nYukarıda verilen inanç turizmi merkezlerinin bulunduğu iller aşağıdakilerin hangisinde **doğru** eşleştirilmiştir?",
+    "o": [
+      "Trabzon - Van - Antalya",
+      "Trabzon - Kars - İzmir",
+      "Rize - Van - Mersin",
+      "Giresun - Bitlis - Antalya",
+      "Artvin - Mardin - Hatay"
+    ],
+    "a": 0,
+    "e": "Sümela Manastırı, Trabzon'un Maçka ilçesindedir. Akdamar Kilisesi, Van Gölü üzerindeki Akdamar Adası'ndadır (Van). St. Nicholas (Noel Baba) Kilisesi ise Antalya'nın Demre ilçesindedir. Doğru sıralama Trabzon - Van - Antalya şeklindedir."
+  },
+  {
+    "id": "cog_080",
+    "topicId": "uYDrMlBCEAho5776WZi8",
+    "subtopicId": "dogal-afetler",
+    "subtopic": "Doğal Afetler ve Türkiye",
+    "q": "Türkiye'de görülen doğal afetler ve bu afetlerin sıkça yaşandığı bölgeler eşleştirmelerinden hangisi **yanlıştır**?",
+    "o": [
+      "Heyelan - Doğu Karadeniz Bölümü",
+      "Orman Yangını - Akdeniz ve Ege Kıyıları",
+      "Çığ - Hakkari ve Çevresi",
+      "Erozyon - İç Anadolu ve Güneydoğu Anadolu",
+      "Tsunami - İç Anadolu Bölgesi"
+    ],
+    "a": 4,
+    "e": "Heyelan, yağış ve eğimin fazla olduğu Doğu Karadeniz'de; Orman yangınları, yaz kuraklığının belirgin olduğu Akdeniz ve Ege'de; Çığ, kar yağışı ve eğimin fazla olduğu Doğu Anadolu'da (Hakkari vb.); Erozyon ise bitki örtüsünün cılız olduğu İç ve Güneydoğu Anadolu'da yaygındır. Ancak Tsunami, deniz tabanında meydana gelen depremler sonucu oluşur ve denize kıyısı olmayan İç Anadolu Bölgesi'nde görülmesi mümkün değildir."
+  }
+]

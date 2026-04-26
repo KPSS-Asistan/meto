@@ -1,0 +1,452 @@
+[
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Asal sayı nedir?",
+    "answer": "Sadece 1'e ve kendisine bölünebilen 1'den büyük tam sayılardır.",
+    "additionalInfo": "En küçük asal sayı 2'dir.",
+    "id": "flash_1776014513873_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "En küçük asal sayı kaçtır?",
+    "answer": "2",
+    "additionalInfo": "Tek çift asal sayı 2'dir.",
+    "id": "flash_1776014513873_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "1'den 100'e kadar kaç tane asal sayı vardır?",
+    "answer": "25",
+    "additionalInfo": "Asal sayıların dağılımı giderek seyrekleşir.",
+    "id": "flash_1776014513873_3",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Bir sayının pozitif bölen sayısı nasıl bulunur?",
+    "answer": "Sayı asal çarpanlarına ayrılır, üsler 1 artırılarak çarpılır.",
+    "additionalInfo": "Örn: 12 = 2^2 * 3^1 ise (2+1)*(1+1) = 6 böleni vardır.",
+    "id": "flash_1776014513873_4",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "60 sayısının kaç tane pozitif tam sayı böleni vardır?",
+    "answer": "12",
+    "additionalInfo": "60 = 2^2 * 3^1 * 5^1. (2+1)*(1+1)*(1+1) = 12.",
+    "id": "flash_1776014513873_5",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "EBOB (En Büyük Ortak Bölen) nedir?",
+    "answer": "İki veya daha fazla sayıyı aynı anda bölen en büyük pozitif tam sayıdır.",
+    "additionalInfo": "Ortak bölenlerin en büyüğü.",
+    "id": "flash_1776014513873_6",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "EKOK (En Küçük Ortak Kat) nedir?",
+    "answer": "İki veya daha fazla sayının ortak katları arasında en küçük pozitif tam sayıdır.",
+    "additionalInfo": "Ortak katların en küçüğü.",
+    "id": "flash_1776014513873_7",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "EBOB(12, 18) kaçtır?",
+    "answer": "6",
+    "additionalInfo": "12 = 2^2 * 3, 18 = 2 * 3^2. Ortak üslerin en küçükleri: 2^1 * 3^1 = 6.",
+    "id": "flash_1776014513873_8",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "EKOK(12, 18) kaçtır?",
+    "answer": "36",
+    "additionalInfo": "12 = 2^2 * 3, 18 = 2 * 3^2. Tüm üslerin en büyükleri: 2^2 * 3^2 = 36.",
+    "id": "flash_1776014513873_9",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "A ve B iki sayı olmak üzere, EBOB(A,B) * EKOK(A,B) formülü neye eşittir?",
+    "answer": "A * B",
+    "additionalInfo": "Bu kural sadece iki sayı için geçerlidir.",
+    "id": "flash_1776014513873_10",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Aralarında asal sayılar ne demektir?",
+    "answer": "1'den başka ortak böleni olmayan sayılardır.",
+    "additionalInfo": "Aralarında asal sayıların asal olması gerekmez. Örn: 8 ve 9 aralarında asaldır.",
+    "id": "flash_1776014513873_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Aralarında asal iki sayının EBOB'u kaçtır?",
+    "answer": "1",
+    "additionalInfo": "Tanım gereği, 1'den başka ortak bölenleri yoktur.",
+    "id": "flash_1776014513873_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Aralarında asal iki sayının EKOK'u kaçtır?",
+    "answer": "Sayıların çarpımına eşittir.",
+    "additionalInfo": "EBOB(A,B) * EKOK(A,B) = A * B kuralından gelir.",
+    "id": "flash_1776014513873_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Asal çarpanlara ayırma yöntemi nedir?",
+    "answer": "Bir sayıyı sadece asal sayıların kuvvetleri şeklinde yazma işlemidir.",
+    "additionalInfo": "Örn: 24 = 2^3 * 3^1.",
+    "id": "flash_1776014513873_14",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Bölen sayısı ile ilgili, negatif bölen sayısı nasıl bulunur?",
+    "answer": "Pozitif bölen sayısı ile aynıdır.",
+    "additionalInfo": "Her pozitif bölenin bir de negatif karşılığı vardır.",
+    "id": "flash_1776014513873_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Bir sayının asal olmayan bölenlerinin sayısı nasıl bulunur?",
+    "answer": "Toplam bölen sayısından asal bölen sayısı çıkarılır.",
+    "additionalInfo": "Örn: 60'ın 12 böleni var, asal bölenleri (2,3,5) 3 tane. 12-3=9 asal olmayan böleni var.",
+    "id": "flash_1776014513873_16",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "EBOB problemlerinde genellikle hangi anahtar kelimeler kullanılır?",
+    "answer": "Paylaştırma, bölme, ayırma, eşit parçalara ayırma, bidonları doldurma.",
+    "additionalInfo": "Büyük parçalardan küçük parçalar elde etme mantığı.",
+    "id": "flash_1776014513873_17",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "EKOK problemlerinde genellikle hangi anahtar kelimeler kullanılır?",
+    "answer": "Birleşme, karşılaşma, bir araya gelme, otobüslerin aynı anda kalkması, zillerin aynı anda çalması.",
+    "additionalInfo": "Küçük parçalardan büyük bir bütün elde etme mantığı.",
+    "id": "flash_1776014513873_18",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Ardışık iki sayının EBOB'u kaçtır?",
+    "answer": "1",
+    "additionalInfo": "Ardışık sayılar her zaman aralarında asaldır.",
+    "id": "flash_1776014513873_19",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Ardışık iki sayının EKOK'u kaçtır?",
+    "answer": "Sayıların çarpımına eşittir.",
+    "additionalInfo": "EBOB'ları 1 olduğu için çarpımları EKOK'u verir.",
+    "id": "flash_1776014513873_20",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "40 sayısının asal çarpanları nelerdir?",
+    "answer": "2 ve 5",
+    "additionalInfo": "40 = 2^3 * 5^1.",
+    "id": "flash_1776014513873_21",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "EBOB(A,B) = x ise A ve B sayıları x'in nesidir?",
+    "answer": "Katlarıdır.",
+    "additionalInfo": "A = xk ve B = xm şeklinde yazılabilir (k, m aralarında asal).",
+    "id": "flash_1776014513873_22",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "EKOK(A,B) = y ise y, A ve B sayılarının nesidir?",
+    "answer": "Katıdır.",
+    "additionalInfo": "y hem A'ya hem de B'ye tam bölünür.",
+    "id": "flash_1776014513873_23",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "EBOB(20, 30, 40) kaçtır?",
+    "answer": "10",
+    "additionalInfo": "20=2^2*5, 30=2*3*5, 40=2^3*5. Ortak üslerin en küçükleri: 2^1*5^1=10.",
+    "id": "flash_1776014513873_24",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "EKOK(20, 30, 40) kaçtır?",
+    "answer": "120",
+    "additionalInfo": "20=2^2*5, 30=2*3*5, 40=2^3*5. Tüm üslerin en büyükleri: 2^3*3^1*5^1=120.",
+    "id": "flash_1776014513873_25",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Bir sayının pozitif tam bölenlerinin toplamı nasıl bulunur?",
+    "answer": "Asal çarpanlara ayrıldıktan sonra her asal çarpan için (p^0 + p^1 + ... + p^n) formülü uygulanır ve sonuçlar çarpılır.",
+    "additionalInfo": "Örn: 6 = 2^1 * 3^1. (2^0+2^1)*(3^0+3^1) = (1+2)*(1+3) = 3*4 = 12.",
+    "id": "flash_1776014513873_26",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "30 sayısının pozitif tam bölenlerinin toplamı kaçtır?",
+    "answer": "72",
+    "additionalInfo": "30 = 2^1 * 3^1 * 5^1. (1+2)(1+3)(1+5) = 3 * 4 * 6 = 72.",
+    "id": "flash_1776014513873_27",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "1 sayısı asal mıdır?",
+    "answer": "Hayır",
+    "additionalInfo": "Asal sayılar tanım gereği 1'den büyük olmalıdır.",
+    "id": "flash_1776014513873_28",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "EBOB(A, B) = d ise, A/d ve B/d sayıları nasıl sayılardır?",
+    "answer": "Aralarında asal sayılardır.",
+    "additionalInfo": "Bu, EBOB problemlerinde sıkça kullanılan bir özelliktir.",
+    "id": "flash_1776014513873_29",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "EKOK(A, B) = k ise, A ve B sayıları için ortak katların genel formülü nedir?",
+    "answer": "k'nın katları (k, 2k, 3k, ...)",
+    "additionalInfo": "EKOK, en küçük ortak kattır, diğerleri onun katlarıdır.",
+    "id": "flash_1776014513873_30",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "İki sayının birbirinin katı olması durumunda EBOB ve EKOK nasıl bulunur?",
+    "answer": "Küçük sayı EBOB, büyük sayı EKOK olur.",
+    "additionalInfo": "Örn: EBOB(6, 12)=6, EKOK(6, 12)=12.",
+    "id": "flash_1776014513873_31",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "2 basamaklı en küçük asal sayı kaçtır?",
+    "answer": "11",
+    "additionalInfo": "10'dan sonraki ilk asal sayı.",
+    "id": "flash_1776014513873_32",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "2 basamaklı en büyük asal sayı kaçtır?",
+    "answer": "97",
+    "additionalInfo": "100'den önceki en büyük asal sayı.",
+    "id": "flash_1776014513873_33",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Bir sayının tam sayı bölenlerinin sayısı nasıl bulunur?",
+    "answer": "Pozitif tam bölen sayısının 2 katıdır.",
+    "additionalInfo": "Her pozitif bölenin bir de negatif karşılığı vardır.",
+    "id": "flash_1776014513873_34",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "20 sayısının tam sayı bölenlerinin sayısı kaçtır?",
+    "answer": "12",
+    "additionalInfo": "20 = 2^2 * 5^1. Pozitif bölen sayısı (2+1)(1+1) = 6. Toplam bölen sayısı 2*6 = 12.",
+    "id": "flash_1776014513873_35",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "A = 2^3 * 3^1 * 5^2 ve B = 2^2 * 3^2 * 7^1 ise EBOB(A,B) kaçtır?",
+    "answer": "2^2 * 3^1 = 12",
+    "additionalInfo": "Ortak asal çarpanların en küçük üslülerini al.",
+    "id": "flash_1776014513873_36",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "A = 2^3 * 3^1 * 5^2 ve B = 2^2 * 3^2 * 7^1 ise EKOK(A,B) kaçtır?",
+    "answer": "2^3 * 3^2 * 5^2 * 7^1 = 1800 * 7 = 12600",
+    "additionalInfo": "Tüm asal çarpanların en büyük üslülerini al.",
+    "id": "flash_1776014513873_37",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Bir sayının pozitif tek bölen sayısı nasıl bulunur?",
+    "answer": "Sayının asal çarpanlara ayrılmış halindeki tek asal çarpanların üsleri 1 artırılarak çarpılır.",
+    "additionalInfo": "Çift asal çarpan (2) dikkate alınmaz.",
+    "id": "flash_1776014513873_38",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "120 sayısının kaç tane pozitif tek böleni vardır?",
+    "answer": "4",
+    "additionalInfo": "120 = 2^3 * 3^1 * 5^1. Tek bölenler için 2'yi at. (1+1)*(1+1) = 4 (1, 3, 5, 15).",
+    "id": "flash_1776014513873_39",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Bir sayının pozitif çift bölen sayısı nasıl bulunur?",
+    "answer": "Toplam pozitif bölen sayısından pozitif tek bölen sayısı çıkarılır.",
+    "additionalInfo": "Veya 2'nin üssü sabit kalır, diğer asal çarpanların üsleri 1 artırılarak çarpılır.",
+    "id": "flash_1776014513873_40",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "120 sayısının kaç tane pozitif çift böleni vardır?",
+    "answer": "12",
+    "additionalInfo": "120 = 2^3 * 3^1 * 5^1. Pozitif bölen sayısı (3+1)(1+1)(1+1) = 16. Tek bölen sayısı (1+1)(1+1) = 4. Çift = 16-4 = 12.",
+    "id": "flash_1776014513873_41",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Asal sayıların sonsuz olduğunu kim kanıtlamıştır?",
+    "answer": "Öklid",
+    "additionalInfo": "Antik Yunan matematikçisi.",
+    "id": "flash_1776014513873_42",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "EBOB ve EKOK bulunurken asal çarpan algoritmasında hangi işaretler kullanılır?",
+    "answer": "EBOB için ortak bölenlere işaret konur, EKOK için tüm çarpanlar alınır.",
+    "additionalInfo": "Genellikle yıldız (*) veya nokta (.) kullanılır.",
+    "id": "flash_1776014513873_43",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "30 ile 45 sayılarının EBOB'u kaçtır?",
+    "answer": "15",
+    "additionalInfo": "30=2*3*5, 45=3^2*5. En küçük üslüler: 3^1*5^1=15.",
+    "id": "flash_1776014513873_44",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "30 ile 45 sayılarının EKOK'u kaçtır?",
+    "answer": "90",
+    "additionalInfo": "30=2*3*5, 45=3^2*5. En büyük üslüler: 2^1*3^2*5^1=90.",
+    "id": "flash_1776014513873_45",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Bir sayının kendisi dışındaki pozitif bölenlerinin toplamı nasıl bulunur?",
+    "answer": "Pozitif bölenlerinin toplamından sayının kendisi çıkarılır.",
+    "additionalInfo": "Mükemmel sayı tanımıyla ilişkilidir (kendisi dışındaki bölenlerinin toplamı kendisine eşit olan sayılar).",
+    "id": "flash_1776014513873_46",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "10 sayısının kendisi dışındaki pozitif bölenlerinin toplamı kaçtır?",
+    "answer": "8",
+    "additionalInfo": "10'un bölenleri: 1, 2, 5, 10. Toplamı: 1+2+5+10=18. Kendisi dışındaki: 1+2+5=8.",
+    "id": "flash_1776014513873_47",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Ardışık tek sayılar aralarında asal mıdır?",
+    "answer": "Evet",
+    "additionalInfo": "Örn: 3 ve 5, 7 ve 9.",
+    "id": "flash_1776014513873_48",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "Ardışık çift sayılar aralarında asal mıdır?",
+    "answer": "Hayır",
+    "additionalInfo": "En az 2 ortak bölenleri vardır. Örn: 4 ve 6'nın EBOB'u 2'dir.",
+    "id": "flash_1776014513873_49",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  },
+  {
+    "topicId": "MAT_ASAL_EBOB_EKOK",
+    "question": "EBOB ve EKOK'u 15 olan iki sayı nedir?",
+    "answer": "15 ve 15",
+    "additionalInfo": "EBOB(A,A)=A ve EKOK(A,A)=A'dır.",
+    "id": "flash_1776014513873_50",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:17.461Z"
+  }
+]

@@ -1,0 +1,1545 @@
+[
+  {
+    "id": "anayasa_degisikligi",
+    "term": "Anayasa Değişikliği",
+    "definition": "Mevcut anayasanın maddelerinde yapılan değişikliklerdir. Bu değişiklikler, TBMM'nin nitelikli çoğunluğu ile yapılır ve halkoylamasına sunulabilir.",
+    "examples": [
+      "1982 Anayasası'nın 2017'de yapılan değişiklikleri."
+    ],
+    "relatedTerms": [
+      "Anayasa Yapma Yetkisi",
+      "Referandum",
+      "TBMM"
+    ],
+    "order": 1
+  },
+  {
+    "id": "yasama_yetkisi",
+    "term": "Yasama Yetkisi",
+    "definition": "Kanun yapma, değiştirme ve kaldırma yetkisidir. Bu yetki, Türkiye'de TBMM'ye aittir ve devredilemez.",
+    "examples": [
+      "Yeni bir vergi kanunu çıkarmak.",
+      "Mevcut bir kanunu değiştirmek."
+    ],
+    "relatedTerms": [
+      "TBMM",
+      "Kanun",
+      "Yürütme Yetkisi"
+    ],
+    "order": 2
+  },
+  {
+    "id": "yurutme_yetkisi",
+    "term": "Yürütme Yetkisi",
+    "definition": "Yasama organı tarafından çıkarılan kanunları uygulama ve devlet işlerini yürütme yetkisidir. Türkiye'de Cumhurbaşkanlığı ve Bakanlar Kurulu tarafından kullanılır.",
+    "examples": [
+      "Bakanlar Kurulu'nun kararname çıkarması.",
+      "Cumhurbaşkanının atama yapması."
+    ],
+    "relatedTerms": [
+      "Cumhurbaşkanlığı",
+      "Bakanlar Kurulu",
+      "İcra Kuvveti"
+    ],
+    "order": 3
+  },
+  {
+    "id": "yargi_yetkisi",
+    "term": "Yargı Yetkisi",
+    "definition": "Uyuşmazlıkları çözme ve adaleti sağlama yetkisidir. Bu yetki, bağımsız mahkemeler tarafından kullanılır.",
+    "examples": [
+      "Ceza davası açmak.",
+      "Anlaşmazlıkları mahkemede çözmek."
+    ],
+    "relatedTerms": [
+      "Bağımsız Mahkemeler",
+      "Yargıtay",
+      "Anayasa Mahkemesi"
+    ],
+    "order": 4
+  },
+  {
+    "id": "temel_haklar",
+    "term": "Temel Haklar",
+    "definition": "İnsan olmaktan kaynaklanan ve anayasalarla güvence altına alınan vazgeçilmez haklardır. Kişinin özgürlüğü, eşitliği ve yaşam hakkı gibi hakları kapsar.",
+    "examples": [
+      "Yaşam hakkı.",
+      "İfade özgürlüğü.",
+      "Mülkiyet hakkı."
+    ],
+    "relatedTerms": [
+      "Kişi Hakları",
+      "Sosyal Haklar",
+      "Siyasi Haklar"
+    ],
+    "order": 5
+  },
+  {
+    "id": "anayasa_mahkemesi",
+    "term": "Anayasa Mahkemesi",
+    "definition": "Anayasaya uygunluğu denetleyen ve bireysel başvuruları inceleyen yüksek mahkemedir. Yasaların anayasaya aykırı olup olmadığına karar verir.",
+    "examples": [
+      "Bir kanunun anayasaya aykırı olduğuna karar vermesi.",
+      "Bireysel başvuruları değerlendirmesi."
+    ],
+    "relatedTerms": [
+      "Yargı Yetkisi",
+      "Anayasaya Uygunluk Denetimi",
+      "Bireysel Başvuru"
+    ],
+    "order": 6
+  },
+  {
+    "id": "cumhurbaskanligi",
+    "term": "Cumhurbaşkanlığı",
+    "definition": "Türkiye Cumhuriyeti'nin en üst makamıdır. Devletin başı olup, yürütme yetkisinin önemli bir kısmını kullanır.",
+    "examples": [
+      "Cumhurbaşkanının yasa değişikliğini onaylaması.",
+      "Cumhurbaşkanının bakan ataması."
+    ],
+    "relatedTerms": [
+      "Yürütme Yetkisi",
+      "Devletin Başı",
+      "Milletvekili"
+    ],
+    "order": 7
+  },
+  {
+    "id": "tbmm",
+    "term": "TBMM",
+    "definition": "Türkiye Büyük Millet Meclisi'dir. Yasama yetkisini kullanan, kanunları çıkaran ve denetleyen parlamentodur.",
+    "examples": [
+      "Yeni bir yasa teklifi sunulması.",
+      "Bakanlar hakkında gensoru önergesi verilmesi."
+    ],
+    "relatedTerms": [
+      "Yasama Yetkisi",
+      "Milletvekili",
+      "Yasama Dokunulmazlığı"
+    ],
+    "order": 8
+  },
+  {
+    "id": "kanun",
+    "term": "Kanun",
+    "definition": "TBMM tarafından kabul edilen, yasama yetkisinin bir ürünü olan yazılı hukuk kuralıdır. Toplumun düzenini sağlar.",
+    "examples": [
+      "Medeni Kanun.",
+      "Ceza Kanunu."
+    ],
+    "relatedTerms": [
+      "Yasama Yetkisi",
+      "TBMM",
+      "Yönetmelik"
+    ],
+    "order": 9
+  },
+  {
+    "id": "yonetmelik",
+    "term": "Yönetmelik",
+    "definition": "Yürütme organları tarafından çıkarılan, kanunların uygulanmasını detaylandıran idari düzenlemelerdir. Kanunlara aykırı olamaz.",
+    "examples": [
+      "İçişleri Bakanlığı tarafından çıkarılan trafik yönetmeliği.",
+      "Milli Eğitim Bakanlığı tarafından çıkarılan okul yönetmeliği."
+    ],
+    "relatedTerms": [
+      "Yürütme Yetkisi",
+      "Kanun",
+      "Tüzük"
+    ],
+    "order": 10
+  },
+  {
+    "id": "anayasa_yargisi",
+    "term": "Anayasa Yargısı",
+    "definition": "Yürürlükteki kanunların ve diğer hukuki işlemlerin anayasaya uygunluğunu denetleyen yargı sürecidir. Anayasa Mahkemesi tarafından yürütülür.",
+    "examples": [
+      "Bir kanunun iptali davası.",
+      "Cumhurbaşkanlığı kararnamesinin denetimi."
+    ],
+    "relatedTerms": [
+      "Anayasa Mahkemesi",
+      "Anayasaya Uygunluk Denetimi",
+      "Hukuk Devleti"
+    ],
+    "order": 11
+  },
+  {
+    "id": "idare_hukuku",
+    "term": "İdare Hukuku",
+    "definition": "Devletin idari teşkilatını, kamu hizmetlerinin görülmesini ve idarenin işlemlerini düzenleyen hukuk dalıdır. İdari yargı organları tarafından denetlenir.",
+    "examples": [
+      "Bir kamu kurumunun verdiği karara itiraz etmek.",
+      "İmar planlarına itiraz etmek."
+    ],
+    "relatedTerms": [
+      "İdari Yargı",
+      "Kamu Tüzel Kişiliği",
+      "İdari İşlem"
+    ],
+    "order": 12
+  },
+  {
+    "id": "idari_yargi",
+    "term": "İdari Yargı",
+    "definition": "İdarenin eylem ve işlemlerinden doğan uyuşmazlıkları çözümleyen yargı koludur. Danıştay ve idare mahkemeleri bu alanda görev yapar.",
+    "examples": [
+      "Vergi uyuşmazlıklarının çözümü.",
+      "Kamu personelinin haklarına ilişkin davalar."
+    ],
+    "relatedTerms": [
+      "İdare Hukuku",
+      "Danıştay",
+      "İdare Mahkemesi"
+    ],
+    "order": 13
+  },
+  {
+    "id": "maliye_politikasi",
+    "term": "Maliye Politikası",
+    "definition": "Devletin gelir ve giderlerini düzenleyerek ekonomik istikrarı sağlamayı amaçlayan politikalardır. Bütçe, vergi ve kamu harcamaları bu politikanın araçlarıdır.",
+    "examples": [
+      "Vergi oranlarının artırılması veya azaltılması.",
+      "Kamu harcamalarının kısılması veya artırılması."
+    ],
+    "relatedTerms": [
+      "Bütçe",
+      "Vergi",
+      "Kamu Harcamaları"
+    ],
+    "order": 14
+  },
+  {
+    "id": "milletvekili",
+    "term": "Milletvekili",
+    "definition": "TBMM'de milleti temsil eden ve yasama yetkisini kullanan kişidir. Seçimle göreve gelir.",
+    "examples": [
+      "Bir kanun teklifi hazırlamak.",
+      "Meclis araştırması açılmasını istemek."
+    ],
+    "relatedTerms": [
+      "TBMM",
+      "Yasama Yetkisi",
+      "Seçim"
+    ],
+    "order": 15
+  },
+  {
+    "id": "cumhurbaskanligi_kararnamesi",
+    "term": "Cumhurbaşkanlığı Kararnamesi",
+    "definition": "Cumhurbaşkanının, yürütme yetkisine ilişkin konularda çıkardığı idari düzenlemelerdir. Olağanüstü hal dönemlerinde yetkileri genişler.",
+    "examples": [
+      "Olağanüstü hal kararnamesi.",
+      "Ekonomik tedbirlere ilişkin kararname."
+    ],
+    "relatedTerms": [
+      "Yürütme Yetkisi",
+      "Olağanüstü Hal",
+      "Kanun Hükmünde Kararname"
+    ],
+    "order": 16
+  },
+  {
+    "id": "hukuk_devleti",
+    "term": "Hukuk Devleti",
+    "definition": "Herkesin hukuka bağlı olduğu, yasaların üstünlüğünün kabul edildiği ve temel hak ve özgürlüklerin güvence altına alındığı devlet düzenidir. İdarenin hukuka uygunluğu esastır.",
+    "examples": [
+      "Keyfi tutuklamaların olmaması.",
+      "Mahkemelerin bağımsızlığı."
+    ],
+    "relatedTerms": [
+      "Anayasa",
+      "Temel Haklar",
+      "Yargı Bağımsızlığı"
+    ],
+    "order": 17
+  },
+  {
+    "id": "sosyal_devlet",
+    "term": "Sosyal Devlet",
+    "definition": "Vatandaşlarının temel ihtiyaçlarını karşılamayı, sosyal adaleti sağlamayı ve refah düzeyini yükseltmeyi amaçlayan devlet modelidir. Sosyal güvenlik, sağlık ve eğitim gibi alanlarda hizmet sunar.",
+    "examples": [
+      "Emeklilik maaşlarının ödenmesi.",
+      "Devlet hastanelerinde ücretsiz sağlık hizmeti."
+    ],
+    "relatedTerms": [
+      "Sosyal Haklar",
+      "Refah Devleti",
+      "Devletin Görevleri"
+    ],
+    "order": 18
+  },
+  {
+    "id": "demokratik_devlet",
+    "term": "Demokratik Devlet",
+    "definition": "Egemenliğin millete ait olduğu, halkın kendi kendini yönettiği ve temel hak ve özgürlüklerin güvence altına alındığı devlet biçimidir. Seçimler, çoğulculuk ve katılım esastır.",
+    "examples": [
+      "Serbest ve adil seçimler yapılması.",
+      "Siyasi partilerin faaliyet göstermesi."
+    ],
+    "relatedTerms": [
+      "Egemenlik",
+      "Millet Egemenliği",
+      "Çoğulculuk"
+    ],
+    "order": 19
+  },
+  {
+    "id": "laik_devlet",
+    "term": "Laik Devlet",
+    "definition": "Din ve devlet işlerinin birbirinden ayrıldığı, vicdan özgürlüğünün güvence altına alındığı ve devletin tüm dinlere eşit mesafede durduğu devlet düzenidir. Dini inançların bireysel olduğu kabul edilir.",
+    "examples": [
+      "Diyanet İşleri Başkanlığı'nın bağımsız yapısı.",
+      "Okullarda din dersinin seçmeli olması."
+    ],
+    "relatedTerms": [
+      "Din ve Vicdan Özgürlüğü",
+      "Devletin Dini"
+    ],
+    "order": 20
+  },
+  {
+    "id": "anayasa_yargisi_yargi_denetimi",
+    "term": "Anayasa Yargısı Yargı Denetimi",
+    "definition": "Yasama, yürütme ve yargı organlarının anayasaya uygunluğunun denetlendiği yargısal süreçtir. Anayasaya aykırı olduğu düşünülen kanun, kararname ve diğer işlemlerin iptali veya yok sayılmasına karar verilir. Bu denetim, anayasanın üstünlüğünü ve hukuk devletini güvence altına alır.",
+    "examples": [
+      "TBMM'de kabul edilen bir kanunun Anayasa Mahkemesi tarafından iptali.",
+      "Cumhurbaşkanlığı kararnamesinin anayasaya aykırılığı nedeniyle iptali.",
+      "Yargısal işlemlerin anayasaya uygunluğunun denetimi."
+    ],
+    "relatedTerms": [
+      "Anayasa Mahkemesi",
+      "Yargı Yetkisi",
+      "Hukuk Devleti"
+    ],
+    "order": 21
+  },
+  {
+    "id": "idari_islem",
+    "term": "İdari İşlem",
+    "definition": "Kamu idarelerinin, idare hukuku kurallarına göre, kamu hukuku alanında yaptıkları, tek yanlı irade açıklamalarıdır. İdari işlemler, idarenin kamu hizmetini yerine getirirken kullandığı araçlardır. İdari işlemler, idari yargı denetimine tabidir.",
+    "examples": [
+      "Bir kamu görevlisinin atanması.",
+      "Bir inşaat ruhsatının verilmesi veya reddedilmesi.",
+      "Bir vergi tahakkuk fişi."
+    ],
+    "relatedTerms": [
+      "İdare Hukuku",
+      "İdari Yargı",
+      "Kamu Hukuku"
+    ],
+    "order": 22
+  },
+  {
+    "id": "idari_yaptirim",
+    "term": "İdari Yaptırım",
+    "definition": "Kamu düzenini sağlamak, kamu hizmetlerinin aksamadan yürütülmesini temin etmek amacıyla idare tarafından uygulanan yaptırımlardır. İdari yaptırımlar, cezai yaptırımlardan farklı olarak idari makamlarca verilir.",
+    "examples": [
+      "Trafik cezası.",
+      "Bir işletmeye verilen kapatma cezası.",
+      "Bir memura verilen uyarı cezası."
+    ],
+    "relatedTerms": [
+      "İdare Hukuku",
+      "İdari İşlem",
+      "Kamu Düzeni"
+    ],
+    "order": 23
+  },
+  {
+    "id": "idari_teskilat",
+    "term": "İdari Teşkilat",
+    "definition": "Devletin idari fonksiyonlarını yerine getirmek üzere kurulan organlar bütünüdür. Merkezi idare ve yerinden yönetim kuruluşlarından oluşur. İdari teşkilatın yapısı ve görevleri kanunlarla düzenlenir.",
+    "examples": [
+      "Bakanlıklar.",
+      "Valilikler.",
+      "Belediyeler.",
+      "Üniversiteler."
+    ],
+    "relatedTerms": [
+      "İdare Hukuku",
+      "Merkezi İdare",
+      "Yerinden Yönetim"
+    ],
+    "order": 24
+  },
+  {
+    "id": "merkezi_idare",
+    "term": "Merkezi İdare",
+    "definition": "Devletin bütün ülkesini kapsayan ve merkezden yönetilen idari teşkilattır. Başkentte bulunan bakanlıklar ve onlara bağlı taşra teşkilatından oluşur. Merkezi idare, devletin genel politikalarını uygular.",
+    "examples": [
+      "İçişleri Bakanlığı.",
+      "Milli Eğitim Bakanlığı.",
+      "Valilikler."
+    ],
+    "relatedTerms": [
+      "İdari Teşkilat",
+      "Bakanlık",
+      "Valilik"
+    ],
+    "order": 25
+  },
+  {
+    "id": "yerinden_yonetim",
+    "term": "Yerinden Yönetim",
+    "definition": "Belirli coğrafi alanlarda veya belirli kamu hizmetlerinde özerk bir tüzel kişiliğe sahip, karar alma ve yürütme yetkisine sahip kuruluşlardır. Yerel ihtiyaçları karşılamak ve hizmetleri daha etkin sunmak amacıyla kurulurlar.",
+    "examples": [
+      "Belediyeler.",
+      "İl Özel İdareleri.",
+      "Kamu Kurumları (örn. SGK, TRT)."
+    ],
+    "relatedTerms": [
+      "İdari Teşkilat",
+      "Merkezi İdare",
+      "Mahalli İdareler"
+    ],
+    "order": 26
+  },
+  {
+    "id": "mahalli_idareler",
+    "term": "Mahalli İdareler",
+    "definition": "Belirli bir coğrafi bölgede yaşayan halkın yerel ortak ihtiyaçlarını karşılamak ve bu alanda temel kamu hizmetlerini görmek üzere kurulan tüzel kişiliklerdir. Yerinden yönetim ilkesinin bir parçasıdırlar.",
+    "examples": [
+      "Belediyeler.",
+      "İl Özel İdareleri.",
+      "Köy Muhtarlıkları."
+    ],
+    "relatedTerms": [
+      "Yerinden Yönetim",
+      "Belediye",
+      "İl Özel İdaresi"
+    ],
+    "order": 27
+  },
+  {
+    "id": "cumhurbaskanligi_teskilati",
+    "term": "Cumhurbaşkanlığı Teşkilatı",
+    "definition": "Türkiye Cumhuriyeti'nin en üst yürütme organı olan Cumhurbaşkanlığı'na bağlı olarak çalışan birimler bütünüdür. Cumhurbaşkanlığı'nın görev ve yetkilerini yerine getirmesine yardımcı olur.",
+    "examples": [
+      "Cumhurbaşkanlığı Ofisleri (örn. Strateji ve Bütçe Başkanlığı).",
+      "Cumhurbaşkanlığı Danışmanları.",
+      "Cumhurbaşkanlığı Külliyesi."
+    ],
+    "relatedTerms": [
+      "Cumhurbaşkanlığı",
+      "Yürütme Yetkisi",
+      "Cumhurbaşkanlığı Kararnamesi"
+    ],
+    "order": 28
+  },
+  {
+    "id": "kanun_hukmunde_kararname",
+    "term": "Kanun Hükmünde Kararname (KHK)",
+    "definition": "Olağanüstü hal veya sıkıyönetim zamanlarında, Cumhurbaşkanlığı'nın, Türkiye Büyük Millet Meclisi'nin (TBMM) yetkisine dayanarak çıkardığı, kanun gücünde belgelerdir. OHAL KHK'ları TBMM onayı olmadan da yürürlüğe girebilir.",
+    "examples": [
+      "15 Temmuz darbe girişimi sonrası çıkarılan OHAL KHK'ları.",
+      "Sıkıyönetim ilan edilen bölgelerde çıkarılan KHK'lar."
+    ],
+    "relatedTerms": [
+      "Cumhurbaşkanlığı Kararnamesi",
+      "TBMM",
+      "Olağanüstü Hal"
+    ],
+    "order": 29
+  },
+  {
+    "id": "anayasa_yargisi_yokluk",
+    "term": "Anayasa Yargısı Yokluk",
+    "definition": "Bir kanun veya Cumhurbaşkanlığı Kararnamesi'nin, anayasada öngörülen şekil ve esas şartlarına hiç uymaması durumunda Anayasa Mahkemesi tarafından verilen karardır. Yokluk hali, işlemin hiç var olmamış sayılması sonucunu doğurur.",
+    "examples": [
+      "TBMM'de kabul edilmeyen bir metnin kanun olarak nitelendirilmesi.",
+      "Cumhurbaşkanlığı tarafından yetkisi aşan bir konuda çıkarılan kararname."
+    ],
+    "relatedTerms": [
+      "Anayasa Mahkemesi",
+      "Anayasa Yargısı",
+      "Şekil Şartı"
+    ],
+    "order": 30
+  },
+  {
+    "id": "anayasa_yargisi_iptal",
+    "term": "Anayasa Yargısı İptal",
+    "definition": "Bir kanun, Cumhurbaşkanlığı Kararnamesi veya TBMM İç Tüzüğü'nün, anayasada yer alan maddelere veya ilkelere aykırı olması durumunda Anayasa Mahkemesi tarafından verilen karardır. İptal kararı, ilgili düzenlemenin geleceğe yönelik olarak yürürlükten kalkmasını sağlar.",
+    "examples": [
+      "Bir kanunun temel hak ve özgürlükleri kısıtladığı gerekçesiyle iptali.",
+      "Bir Cumhurbaşkanlığı Kararnamesi'nin yetki aşımı nedeniyle iptali."
+    ],
+    "relatedTerms": [
+      "Anayasa Mahkemesi",
+      "Anayasa Yargısı",
+      "Esas Şartı"
+    ],
+    "order": 31
+  },
+  {
+    "id": "idari_dava",
+    "term": "İdari Dava",
+    "definition": "İdare ile bireyler veya diğer idareler arasındaki uyuşmazlıkların çözümü için idari yargı mercilerine açılan davalardır. İdari işlemlerin hukuka uygunluğunun denetlenmesini amaçlar.",
+    "examples": [
+      "Bir kamu ihalesine itiraz davası.",
+      "Bir idari para cezasına itiraz davası.",
+      "Bir kamu görevlisinin atama işleminin iptali davası."
+    ],
+    "relatedTerms": [
+      "İdari Yargı",
+      "İdari İşlem",
+      "Dava"
+    ],
+    "order": 32
+  },
+  {
+    "id": "idari_yargi_mercii",
+    "term": "İdari Yargı Merci",
+    "definition": "İdari davalara bakmakla görevli mahkemelerdir. Danıştay, Bölge İdare Mahkemeleri ve İdare Mahkemeleri bu merciler arasında yer alır. İdari yargı, idarenin hukuka uygunluğunu denetler.",
+    "examples": [
+      "İdare Mahkemesi.",
+      "Bölge İdare Mahkemesi.",
+      "Danıştay."
+    ],
+    "relatedTerms": [
+      "İdari Yargı",
+      "İdari Dava",
+      "Danıştay"
+    ],
+    "order": 33
+  },
+  {
+    "id": "danistay",
+    "term": "Danıştay",
+    "definition": "İdari davalarda ilk ve son derece mahkemesi olarak veya itiraz ve temyiz mercii olarak görev yapan, idari yargının en yüksek mahkemesidir. İdari işlemler hakkında hukuka uygunluk denetimi yapar.",
+    "examples": [
+      "İdari işlemlere karşı itiraz ve temyiz başvurularını incelemek.",
+      "Danıştay davaları.",
+      "İdari düzenlemeler hakkında görüş bildirmek."
+    ],
+    "relatedTerms": [
+      "İdari Yargı",
+      "İdari Dava",
+      "İdari Yargı Merci"
+    ],
+    "order": 34
+  },
+  {
+    "id": "maliye_politikasi_araclari",
+    "term": "Maliye Politikası Araçları",
+    "definition": "Devletin ekonomik ve sosyal hedeflerine ulaşmak için kullandığı araçlardır. Başlıca araçları vergi politikası, harcama politikası ve borçlanma politikasıdır. Bu araçlar, ekonominin istikrarını sağlamaya yardımcı olur.",
+    "examples": [
+      "Vergi oranlarının ayarlanması.",
+      "Kamu harcamalarının artırılması veya azaltılması.",
+      "Devlet tahvili ihracı."
+    ],
+    "relatedTerms": [
+      "Maliye Politikası",
+      "Vergi Politikası",
+      "Harcama Politikası"
+    ],
+    "order": 35
+  },
+  {
+    "id": "vergi_politikasi",
+    "term": "Vergi Politikası",
+    "definition": "Devletin vergi gelirlerini artırmak, vergi yükünü adil dağıtmak ve ekonomik hedefleri gerçekleştirmek için belirlediği politikalardır. Vergi politikası, maliye politikasının önemli bir bileşenidir.",
+    "examples": [
+      "Gelir vergisi oranlarının belirlenmesi.",
+      "Katma değer vergisinin (KDV) uygulanması.",
+      "Kurumlar vergisinin düzenlenmesi."
+    ],
+    "relatedTerms": [
+      "Maliye Politikası",
+      "Vergi",
+      "Vergi Kanunu"
+    ],
+    "order": 36
+  },
+  {
+    "id": "harcama_politikasi",
+    "term": "Harcama Politikası",
+    "definition": "Devletin kamu hizmetlerini finanse etmek ve ekonomik kalkınmayı desteklemek amacıyla yaptığı harcamaları düzenleyen politikalardır. Bütçe, harcama politikasının temelini oluşturur.",
+    "examples": [
+      "Eğitim harcamalarının artırılması.",
+      "Sağlık hizmetlerine ayrılan bütçe.",
+      "Altyapı yatırımları."
+    ],
+    "relatedTerms": [
+      "Maliye Politikası",
+      "Bütçe",
+      "Kamu Harcamaları"
+    ],
+    "order": 37
+  },
+  {
+    "id": "milletvekili_dokunulmazligi",
+    "term": "Milletvekili Dokunulmazlığı",
+    "definition": "Milletvekillerinin, görevlerini serbestçe yerine getirebilmeleri ve siyasi baskı altında kalmamaları için ceza hukuku sorumluluğundan belirli ölçülerde muaf tutulmasıdır. Bu dokunulmazlık, yasama faaliyetlerinin özgürlüğünü güvence altına alır.",
+    "examples": [
+      "Milletvekillerinin Meclis çalışmaları sırasında veya dışında işledikleri iddia edilen suçlardan dolayı yargılanabilmesi için TBMM'nin izninin alınması.",
+      "Soruşturma ve kovuşturma süreçlerinin Meclis'in kararına bağlanması."
+    ],
+    "relatedTerms": [
+      "Milletvekili",
+      "TBMM",
+      "Yasama Yetkisi"
+    ],
+    "order": 38
+  },
+  {
+    "id": "milletvekili_bagisikligi",
+    "term": "Milletvekili Bağışıklığı",
+    "definition": "Milletvekillerinin, TBMM'nin kararı olmadan tutuklanamaması, sorguya çekilememesi veya haklarında soruşturma açılamaması durumudur. Bu bağışıklık, milletvekillerinin görevlerini özgürce yapabilmelerini sağlar.",
+    "examples": [
+      "Meclis'in kararı olmadan bir milletvekilinin gözaltına alınamaması.",
+      "Soruşturma ve kovuşturma işlemlerinin Meclis'in iznine tabi olması."
+    ],
+    "relatedTerms": [
+      "Milletvekili",
+      "TBMM",
+      "Yasama Yetkisi"
+    ],
+    "order": 39
+  },
+  {
+    "id": "cumhurbaskanligi_kararnamesi_yetkisi",
+    "term": "Cumhurbaşkanlığı Kararnamesi Yetkisi",
+    "definition": "Cumhurbaşkanlığı'nın, yürütme yetkisini kullanırken belirli konularda ve belirli sınırlar dahilinde çıkarabileceği düzenleyici işlemdir. Cumhurbaşkanlığı kararnameleri, kanunlara aykırı olamaz.",
+    "examples": [
+      "Bakanlıkların kuruluş ve görevleriyle ilgili kararnameler.",
+      "Kamu personeliyle ilgili düzenlemeler.",
+      "Ekonomik düzenlemeler."
+    ],
+    "relatedTerms": [
+      "Cumhurbaşkanlığı",
+      "Yürütme Yetkisi",
+      "Kanun"
+    ],
+    "order": 40
+  },
+  {
+    "id": "hukuk_devleti_ilkeleri",
+    "term": "Hukuk Devleti İlkeleri",
+    "definition": "Hukuk devletinin varlığını ve işleyişini sağlayan temel prensiplerdir. Bunlar arasında kanunların üstünlüğü, kuvvetler ayrılığı, yasama, yürütme ve yargı organlarının anayasaya uygunluğu, temel hak ve özgürlüklerin güvence altına alınması yer alır.",
+    "examples": [
+      "Kanunların geriye yürümemesi.",
+      "Mahkemelerin bağımsızlığı.",
+      "Temel hak ve özgürlüklerin anayasal güvence altında olması."
+    ],
+    "relatedTerms": [
+      "Hukuk Devleti",
+      "Anayasa",
+      "Temel Haklar"
+    ],
+    "order": 41
+  },
+  {
+    "id": "anayasa_suclari_ve_cezalar",
+    "term": "Anayasa Suçları ve Cezaları",
+    "definition": "Anayasaya aykırı davranışlar için öngörülen hukuki yaptırımlardır. Bu suçlar genellikle devletin temel düzenini, anayasal kurumları veya vatandaşların hak ve özgürlüklerini hedef alır. Cezalar, suçun niteliğine göre idari veya cezai nitelikte olabilir.",
+    "examples": [
+      "Cumhurbaşkanına suikast girişimi",
+      "Anayasal düzeni cebir ve şiddet kullanarak değiştirmeye teşebbüs",
+      "Devlet sırlarını açıklama"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Ceza Hukuku",
+      "Milli Güvenlik"
+    ],
+    "order": 42
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal",
+    "term": "Anayasa Yargısı Yokluk ve İptal",
+    "definition": "Anayasa Mahkemesi'nin, kanunların veya diğer hukuki işlemlerin anayasaya uygunluğunu denetlemesidir. Yokluk, hukuki işlemin hiç doğmamış sayılmasıdır. İptal ise, hukuki işlemin yürürlükten kaldırılmasıdır.",
+    "examples": [
+      "Bir kanunun anayasaya aykırı bulunarak iptal edilmesi",
+      "Cumhurbaşkanlığı kararının anayasaya aykırı olması nedeniyle yok sayılması",
+      "TBMM içtüzüğünün anayasaya aykırı maddelerinin iptali"
+    ],
+    "relatedTerms": [
+      "Anayasa Mahkemesi",
+      "Normlar Hiyerarşisi",
+      "Hukuki İşlem"
+    ],
+    "order": 43
+  },
+  {
+    "id": "anayasa_yargisi_itiraz",
+    "term": "Anayasa Yargısı İtiraz",
+    "definition": "Mahkemelerin, davaların görülmesi sırasında uygulayacakları kanun veya Cumhurbaşkanlığı Kararnamesi'nin Anayasa'ya aykırı olduğu kanısına vararak Anayasa Mahkemesi'ne başvurmasıdır. Bu başvuru, soyut norm denetimi yanında somut norm denetiminin bir türüdür.",
+    "examples": [
+      "Bir vergi davasında vergi kanununun anayasaya aykırı olduğu gerekçesiyle Anayasa Mahkemesi'ne başvurulması",
+      "Bir ceza davasında ilgili kanun maddesinin anayasaya aykırı olduğu iddiasıyla itiraz yoluna gidilmesi",
+      "Bir idari davada Cumhurbaşkanlığı Kararnamesi'nin anayasaya aykırılığı nedeniyle itiraz edilmesi"
+    ],
+    "relatedTerms": [
+      "Anayasa Mahkemesi",
+      "Somut Norm Denetimi",
+      "Yargısal Denetim"
+    ],
+    "order": 44
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_sonucu",
+    "term": "Anayasa Yargısı Yokluk ve İptal Sonucu",
+    "definition": "Anayasa Mahkemesi'nin bir normu iptal etmesi veya yok sayması halinde ortaya çıkan hukuki sonuçlardır. İptal edilen norm, kural olarak geleceğe yöneliktir ve geçmişe etkili olmaz. Ancak, mahkeme iptal kararının geriye yürüyüp yürümeyeceğine dair özel düzenlemeler yapabilir.",
+    "examples": [
+      "İptal edilen kanunun yürürlükten kalkması",
+      "Mahkemenin iptal kararının geriye dönük olarak uygulanması",
+      "Yok sayılan Cumhurbaşkanlığı Kararnamesi'nin hukuki sonuç doğurmaması"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Geriye Yürütme Yasağı",
+      "Hukuki Sonuç"
+    ],
+    "order": 45
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_gerekcesi",
+    "term": "Anayasa Yargısı Yokluk ve İptal Gerekçesi",
+    "definition": "Anayasa Mahkemesi'nin bir normu iptal etmesi veya yok sayması için gösterdiği nedenlerdir. Bu gerekçeler, normun anayasada yer alan bir ilkeye, hakka veya özgürlüğe aykırı olduğunu ortaya koyar. Gerekçeler, hukukun üstünlüğü ve anayasaya bağlılık ilkelerinin bir gereğidir.",
+    "examples": [
+      "Bir kanunun temel hak ve özgürlükleri kısıtladığı gerekçesiyle iptal edilmesi",
+      "Bir Cumhurbaşkanlığı Kararnamesi'nin yetki aşımı nedeniyle yok sayılması",
+      "Bir yönetmeliğin kanuna aykırı olması nedeniyle iptal edilmesi"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Gerekçe",
+      "Hukukun Üstünlüğü"
+    ],
+    "order": 46
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_kapsami",
+    "term": "Anayasa Yargısı Yokluk ve İptal Kapsamı",
+    "definition": "Anayasa Mahkemesi'nin iptal veya yok sayma kararlarının hangi normları kapsadığıdır. Mahkeme, bir normun tamamını veya bir kısmını iptal edebilir. Kapsam, kararın gerekçesinde açıkça belirtilir.",
+    "examples": [
+      "Bir kanunun sadece belirli maddelerinin iptali",
+      "Bir Cumhurbaşkanlığı Kararnamesi'nin tamamının yok sayılması",
+      "Bir yönetmeliğin anayasaya aykırı görülen hükümlerinin iptali"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Kapsam",
+      "Hukuki Norm"
+    ],
+    "order": 47
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_yetkisi",
+    "term": "Anayasa Yargısı Yokluk ve İptal Yetkisi",
+    "definition": "Anayasa Mahkemesi'nin, kanunları, Cumhurbaşkanlığı Kararnamelerini ve TBMM İçtüzüğü'nü Anayasaya aykırı oldukları gerekçesiyle iptal etme veya yok sayma yetkisidir. Bu yetki, anayasal düzenin korunması ve hukukun üstünlüğünün sağlanması açısından büyük önem taşır.",
+    "examples": [
+      "Anayasa Mahkemesi'nin bir kanunu iptal etmesi",
+      "Cumhurbaşkanlığı Kararnamesi'nin anayasaya aykırı bulunarak yok sayılması",
+      "TBMM İçtüzüğü'nün anayasaya aykırı hükümlerinin iptali"
+    ],
+    "relatedTerms": [
+      "Anayasa Mahkemesi",
+      "Yetki",
+      "Anayasal Düzen"
+    ],
+    "order": 48
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_süresi",
+    "term": "Anayasa Yargısı Yokluk ve İptal Süresi",
+    "definition": "Anayasa Mahkemesi'ne iptal davası açma süresi ile itiraz davası açma süresidir. İptal davası için belirli bir süre sınırı bulunmazken, itiraz davası için davaların görülmesi sırasında başvurulması gerekmektedir. İptal kararlarının yürürlüğe girme süresi ise mahkemenin kararına bağlıdır.",
+    "examples": [
+      "Bir kanunun yürürlüğe girmesinden sonra iptal davası açılması",
+      "Bir davada uygulanan kanunun anayasaya aykırı olduğu gerekçesiyle itiraz edilmesi",
+      "İptal kararının belirli bir süre sonra yürürlüğe girmesi"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Süre",
+      "Dava"
+    ],
+    "order": 49
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_sonucu_geriye_yurume",
+    "term": "Anayasa Yargısı Yokluk ve İptal Sonucu Geriye Yürüme",
+    "definition": "Anayasa Mahkemesi'nin iptal ettiği bir normun, iptal kararının yürürlüğe girmesinden önceki döneme de etki etmesidir. Kural olarak iptal kararları geriye yürümez. Ancak, mahkeme istisnai durumlarda geriye yürüme kararı alabilir.",
+    "examples": [
+      "İptal edilen bir kanunun geçmişteki hukuki durumları da etkilemesi",
+      "Mahkemenin geriye yürüme kararı alması",
+      "Geriye yürümenin sonuçları"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Geriye Yürüme",
+      "Hukuki Sonuç"
+    ],
+    "order": 50
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_sonucu_ileri_yurume",
+    "term": "Anayasa Yargısı Yokluk ve İptal Sonucu İleri Yürüme",
+    "definition": "Anayasa Mahkemesi'nin iptal ettiği bir normun, iptal kararının yürürlüğe girmesinden sonraki döneme etki etmesidir. Bu, iptal kararlarının genel kuralıdır. İptal edilen norm artık hukuki geçerliliğini yitirir.",
+    "examples": [
+      "İptal edilen bir kanunun yürürlüğe girmesinden sonra uygulanmaması",
+      "İptal kararının gelecekteki hukuki işlemleri etkilemesi",
+      "İleriye dönük sonuçlar"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "İleri Yürüme",
+      "Hukuki Geçerlilik"
+    ],
+    "order": 51
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_sonucu_yokluk",
+    "term": "Anayasa Yargısı Yokluk ve İptal Sonucu Yokluk",
+    "definition": "Anayasa Mahkemesi'nin bir hukuki işlemi yok saymasıdır. Yok sayılan işlem, hiç var olmamış gibi kabul edilir. Bu durum, işlemin baştan itibaren hukuki sonuç doğurmadığı anlamına gelir.",
+    "examples": [
+      "Bir Cumhurbaşkanlığı Kararnamesi'nin yok sayılması",
+      "Yok sayılan bir işlemin hukuki sonuçlarının ortadan kalkması",
+      "Yokluk durumunun hukuki sonuçları"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Yokluk",
+      "Hukuki İşlem"
+    ],
+    "order": 52
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_sonucu_iptal",
+    "term": "Anayasa Yargısı Yokluk ve İptal Sonucu İptal",
+    "definition": "Anayasa Mahkemesi'nin bir hukuki işlemi iptal etmesidir. İptal edilen işlem, yürürlükten kaldırılır ve geleceğe yönelik hukuki sonuç doğurmaz. İptal, yokluktan farklı olarak işlemin bir süre var olduğunu kabul eder.",
+    "examples": [
+      "Bir kanunun iptal edilmesi",
+      "İptal edilen bir işlemin gelecekteki etkilerinin sona ermesi",
+      "İptal durumunun hukuki sonuçları"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "İptal",
+      "Hukuki İşlem"
+    ],
+    "order": 53
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_sonucu_normlar_hiyerarsisi",
+    "term": "Anayasa Yargısı Yokluk ve İptal Sonucu Normlar Hiyerarşisi",
+    "definition": "Anayasa Mahkemesi'nin iptal veya yok sayma kararlarının, normlar hiyerarşisindeki yeri ve etkisidir. Anayasaya aykırı bulunan bir norm, hiyerarşide kendisinden üstün olan anayasaya aykırı olduğu için geçersiz hale gelir.",
+    "examples": [
+      "Kanunun anayasaya aykırı olması nedeniyle iptali",
+      "Yönetmeliğin kanuna aykırı olması nedeniyle iptali",
+      "Normlar hiyerarşisinin korunması"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Normlar Hiyerarşisi",
+      "Hukuki Geçerlilik"
+    ],
+    "order": 54
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_sonucu_hukukun_ustunlugu",
+    "term": "Anayasa Yargısı Yokluk ve İptal Sonucu Hukukun Üstünlüğü",
+    "definition": "Anayasa Mahkemesi'nin iptal ve yok sayma kararlarının, hukukun üstünlüğü ilkesinin bir gereği olarak anayasal düzeni korumasıdır. Bu kararlar, kanunların ve diğer hukuki işlemlerin anayasaya uygunluğunu sağlayarak hukukun üstünlüğünü pekiştirir.",
+    "examples": [
+      "Anayasaya aykırı kanunların iptali",
+      "Hukukun üstünlüğünün sağlanması",
+      "Anayasal güvence"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Hukukun Üstünlüğü",
+      "Anayasal Düzen"
+    ],
+    "order": 55
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_sonucu_demokrasi",
+    "term": "Anayasa Yargısı Yokluk ve İptal Sonucu Demokrasi",
+    "definition": "Anayasa Mahkemesi'nin iptal ve yok sayma kararlarının, demokratik devlet ilkesinin korunmasına katkısıdır. Bu kararlar, yasama organının anayasal sınırları aşmasını engelleyerek demokratik süreçlerin sağlıklı işlemesine yardımcı olur.",
+    "examples": [
+      "Demokratik hak ve özgürlükleri kısıtlayan kanunların iptali",
+      "Demokratik prensiplerin korunması",
+      "Yasama denetimi"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Demokratik Devlet",
+      "Yasama Denetimi"
+    ],
+    "order": 56
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_sonucu_laiklik",
+    "term": "Anayasa Yargısı Yokluk ve İptal Sonucu Laiklik",
+    "definition": "Anayasa Mahkemesi'nin iptal ve yok sayma kararlarının, laik devlet ilkesinin korunmasına katkısıdır. Bu kararlar, din ve devlet işlerinin ayrılığını güvence altına alarak laik prensipleri korur.",
+    "examples": [
+      "Laikliği zedeleyen kanunların iptali",
+      "Laiklik ilkesinin korunması",
+      "Din ve devlet işlerinin ayrılığı"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Laik Devlet",
+      "Din ve Vicdan Hürriyeti"
+    ],
+    "order": 57
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_sonucu_sosyal_devlet",
+    "term": "Anayasa Yargısı Yokluk ve İptal Sonucu Sosyal Devlet",
+    "definition": "Anayasa Mahkemesi'nin iptal ve yok sayma kararlarının, sosyal devlet ilkesinin korunmasına katkısıdır. Bu kararlar, sosyal adaleti ve vatandaşların refahını sağlamaya yönelik düzenlemeleri koruyabilir veya anayasaya aykırı sosyal politikaları engelleyebilir.",
+    "examples": [
+      "Sosyal güvenceyi azaltan kanunların iptali",
+      "Sosyal devlet ilkesinin güçlendirilmesi",
+      "Sosyal adalet"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Sosyal Devlet",
+      "Sosyal Adalet"
+    ],
+    "order": 58
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_sonucu_hukuk_devleti",
+    "term": "Anayasa Yargısı Yokluk ve İptal Sonucu Hukuk Devleti",
+    "definition": "Anayasa Mahkemesi'nin iptal ve yok sayma kararlarının, hukuk devleti ilkesinin korunmasına katkısıdır. Bu kararlar, kanunların anayasaya uygunluğunu sağlayarak hukukun üstünlüğünü ve keyfiliğin önlenmesini güvence altına alır.",
+    "examples": [
+      "Keyfi uygulamalara yol açan kanunların iptali",
+      "Hukuk devleti ilkelerinin korunması",
+      "Kanunların anayasaya uygunluğu"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Hukuk Devleti",
+      "Keyfilik Yasağı"
+    ],
+    "order": 59
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_sonucu_temel_haklar",
+    "term": "Anayasa Yargısı Yokluk ve İptal Sonucu Temel Haklar",
+    "definition": "Anayasa Mahkemesi'nin iptal ve yok sayma kararlarının, temel hak ve özgürlüklerin korunmasına katkısıdır. Mahkeme, temel hak ve özgürlükleri kısıtlayan veya ihlal eden kanunları iptal ederek bu hakları güvence altına alır.",
+    "examples": [
+      "İfade özgürlüğünü kısıtlayan kanunların iptali",
+      "Temel hak ve özgürlüklerin korunması",
+      "Anayasal güvence"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Temel Haklar",
+      "Özgürlükler"
+    ],
+    "order": 60
+  },
+  {
+    "id": "anayasa_yargisi_yokluk_iptal_sonucu_cumhurbaskanligi_kararnamesi",
+    "term": "Anayasa Yargısı Yokluk ve İptal Sonucu Cumhurbaşkanlığı Kararnamesi",
+    "definition": "Anayasa Mahkemesi'nin, Cumhurbaşkanlığı Kararnamelerini anayasaya aykırı oldukları gerekçesiyle iptal etmesi veya yok saymasıdır. Bu durum, yürütme organının anayasal sınırlar içinde hareket etmesini sağlar.",
+    "examples": [
+      "Cumhurbaşkanlığı Kararnamesi'nin anayasaya aykırı bulunarak iptali",
+      "Yetki aşımı nedeniyle Cumhurbaşkanlığı Kararnamesi'nin yok sayılması",
+      "Yürütmenin denetimi"
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Cumhurbaşkanlığı Kararnamesi",
+      "Yürütme Yetkisi"
+    ],
+    "order": 61
+  },
+  {
+    "id": "temel_hak_ve_ozgurlukler",
+    "term": "Temel Hak ve Özgürlükler",
+    "definition": "Anayasada güvence altına alınmış, kişinin vazgeçilmez ve devredilmez haklarıdır. Kişinin hem devlete hem de diğer bireylere karşı korunmasını amaçlar.",
+    "examples": [
+      "Yaşama Hakkı",
+      "Mülkiyet Hakkı",
+      "İfade Özgürlüğü"
+    ],
+    "relatedTerms": [
+      "Anayasa",
+      "Kişi Dokunulmazlığı",
+      "Sınırlama Rejimi"
+    ],
+    "order": 62
+  },
+  {
+    "id": "kanun_yargi_denetimi",
+    "term": "Kanun Yargı Denetimi",
+    "definition": "Yürürlüğe giren kanunların anayasaya uygunluğunun denetlenmesidir. Bu denetim, Anayasa Mahkemesi tarafından soyut veya somut norm denetimi yoluyla yapılır.",
+    "examples": [
+      "TBMM'ye iptal davası açılması",
+      "Anayasa Mahkemesi'nin bir kanunu iptal etmesi",
+      "Anayasa Mahkemesi'nin bir kanun maddesini anayasaya aykırı bulması"
+    ],
+    "relatedTerms": [
+      "Anayasa Mahkemesi",
+      "İptal Davası",
+      "Soyut Norm Denetimi",
+      "Somut Norm Denetimi"
+    ],
+    "order": 63
+  },
+  {
+    "id": "cumhurbaskanligi_secimi",
+    "term": "Cumhurbaşkanlığı Seçimi",
+    "definition": "Cumhurbaşkanının halk tarafından doğrudan seçilmesidir. Seçilme yeterliliği için oyların salt çoğunluğunu almak gerekir.",
+    "examples": [
+      "İlk turda salt çoğunluk sağlanamazsa ikinci tura gidilmesi",
+      "5 yıllık görev süresi",
+      "Adaylık şartları"
+    ],
+    "relatedTerms": [
+      "Cumhurbaşkanı",
+      "Seçim Hukuku",
+      "Yüksek Seçim Kurulu"
+    ],
+    "order": 64
+  },
+  {
+    "id": "idari_yargilama_usulü",
+    "term": "İdari Yargılama Usulü",
+    "definition": "İdare hukuku alanındaki uyuşmazlıkların çözümü için izlenen usul kurallarıdır. İdari davalar, idare mahkemeleri, bölge idare mahkemeleri ve Danıştay'da görülür.",
+    "examples": [
+      "İptal davası",
+      "Tam yargı davası",
+      "Danıştay'ın temyiz görevi"
+    ],
+    "relatedTerms": [
+      "İdari Yargı",
+      "İdari Dava",
+      "İdare Mahkemesi",
+      "Danıştay"
+    ],
+    "order": 65
+  },
+  {
+    "id": "vergi_adaleti",
+    "term": "Vergi Adaleti",
+    "definition": "Vergilendirmede eşitlik ve hakkaniyet ilkelerinin gözetilmesidir. Vergi yükünün adil bir şekilde dağıtılmasını amaçlar.",
+    "examples": [
+      "Kademeli gelir vergisi tarifesi",
+      "İhtiyaç ilkesine göre vergilendirme",
+      "Vergi muafiyetleri ve istisnaları"
+    ],
+    "relatedTerms": [
+      "Maliye Politikası",
+      "Vergi Hukuku",
+      "Vergi Usul Kanunu"
+    ],
+    "order": 66
+  },
+  {
+    "id": "milli_egemenlik",
+    "term": "Milli Egemenlik",
+    "definition": "Devletin ülkesi ve milletiyle bölünmez bir bütün olduğu ve egemenliğin kayıtsız şartsız millete ait olduğu ilkesidir. Bu ilke, TBMM aracılığıyla kullanılır.",
+    "examples": [
+      "TBMM'nin yasama yetkisi",
+      "Halkın iradesinin sandıkta tecelli etmesi",
+      "Anayasa yapma yetkisi"
+    ],
+    "relatedTerms": [
+      "Demokratik Devlet",
+      "TBMM",
+      "Halk Egemenliği"
+    ],
+    "order": 67
+  },
+  {
+    "id": "idari_islem_hukuku",
+    "term": "İdari İşlem Hukuku",
+    "definition": "İdare hukuku kapsamında yer alan ve idarenin tek taraflı irade beyanlarıyla hukuki sonuç doğuran işlemlerini inceleyen alandır. Bu işlemler idari yargı denetimine tabidir.",
+    "examples": [
+      "Atama kararı",
+      "Ruhsat verme işlemi",
+      "Para cezası kesme işlemi"
+    ],
+    "relatedTerms": [
+      "İdari İşlem",
+      "İdari Yargı",
+      "İptal Davası"
+    ],
+    "order": 68
+  },
+  {
+    "id": "merkezi_idare_teskilati",
+    "term": "Merkezi İdare Teşkilatı",
+    "definition": "Devletin genel idaresini yürüten, ülkenin tamamını kapsayan ve hiyerarşik bir yapıya sahip olan teşkilattır. Cumhurbaşkanlığı ve bakanlıklar bu teşkilatın ana unsurlarıdır.",
+    "examples": [
+      "Cumhurbaşkanlığı",
+      "Bakanlıklar",
+      "Valilikler"
+    ],
+    "relatedTerms": [
+      "Merkezi İdare",
+      "Cumhurbaşkanlığı Teşkilatı",
+      "Bakanlıklar"
+    ],
+    "order": 69
+  },
+  {
+    "id": "yerinden_yonetim_teskilati",
+    "term": "Yerinden Yönetim Teşkilatı",
+    "definition": "Belirli coğrafi alanlarda veya hizmet dallarında özerkliğe sahip, karar alma ve uygulama yetkisi bulunan kamu tüzel kişileridir. Merkezi idarenin denetimine tabidirler.",
+    "examples": [
+      "Mahalli idareler (belediyeler, il özel idareleri, köy idareleri)",
+      "Hizmet yerinden yönetim kuruluşları (üniversiteler, RTÜK)"
+    ],
+    "relatedTerms": [
+      "Yerinden Yönetim",
+      "Mahalli İdareler",
+      "Özerklik"
+    ],
+    "order": 70
+  },
+  {
+    "id": "anayasanin_ustunlugu",
+    "term": "Anayasanın Üstünlüğü",
+    "definition": "Anayasa, devletin temel hukuk belgesi olup, diğer tüm hukuk kurallarından üstündür. Hiçbir kanun veya düzenleme Anayasaya aykırı olamaz.",
+    "examples": [
+      "Bir kanunun Anayasaya aykırı olduğu iddiasıyla Anayasa Mahkemesi'ne başvurulması, Anayasanın üstünlüğü ilkesinin bir gereğidir.",
+      "Anayasa Mahkemesi'nin bir kanunu iptal etmesi, Anayasanın üstünlüğünü gösterir."
+    ],
+    "relatedTerms": [
+      "Normlar Hiyerarşisi",
+      "Hukuk Devleti"
+    ],
+    "order": 71
+  },
+  {
+    "id": "kuvvetler_ayriligi",
+    "term": "Kuvvetler Ayrılığı",
+    "definition": "Devletin yasama, yürütme ve yargı güçlerinin ayrı organlar tarafından kullanılmasını öngören ilkedir. Bu ilke, devlet gücünün kötüye kullanılmasını önlemeyi ve özgürlükleri güvence altına almayı amaçlar.",
+    "examples": [
+      "TBMM'nin kanun yapması, Cumhurbaşkanı'nın bu kanunları uygulaması ve mahkemelerin kanunlara uygunluğu denetlemesi, kuvvetler ayrılığının işleyişidir.",
+      "Yargının yürütme organının kararlarını denetleyebilmesi, kuvvetler ayrılığının bir göstergesidir."
+    ],
+    "relatedTerms": [
+      "Demokrasi",
+      "Hukuk Devleti"
+    ],
+    "order": 72
+  },
+  {
+    "id": "laiklik_ilkesi",
+    "term": "Laiklik İlkesi",
+    "definition": "Devletin din ve vicdan özgürlüğünü güvence altına alması, din işlerini devlet işlerinden ayırması ve tüm dinlere eşit mesafede durmasıdır. Türkiye Cumhuriyeti'nin temel niteliklerinden biridir.",
+    "examples": [
+      "Devlet okullarında din derslerinin seçmeli olması, laiklik ilkesinin bir yansımasıdır.",
+      "Devletin belirli bir dini desteklememesi veya engellememesi, laiklik ilkesinin gereğidir."
+    ],
+    "relatedTerms": [
+      "Din ve Vicdan Özgürlüğü",
+      "Cumhuriyetçilik"
+    ],
+    "order": 73
+  },
+  {
+    "id": "cumhuriyetcilik_ilkesi",
+    "term": "Cumhuriyetçilik İlkesi",
+    "definition": "Devlet yönetiminin halkın egemenliğine dayandığı, yöneticilerin seçimle işbaşına geldiği ve belirli bir süre için görev yaptığı yönetim biçimidir. Egemenlik kayıtsız şartsız milletindir.",
+    "examples": [
+      "Genel seçimlerde vatandaşların oy kullanarak milletvekillerini seçmesi, cumhuriyetçilik ilkesinin bir göstergesidir.",
+      "Cumhurbaşkanının halk tarafından seçilmesi, cumhuriyet yönetiminin bir özelliğidir."
+    ],
+    "relatedTerms": [
+      "Milli Egemenlik",
+      "Demokrasi"
+    ],
+    "order": 74
+  },
+  {
+    "id": "temel_hak_ve_ozgurluklerin_sinirlandirilmasi",
+    "term": "Temel Hak ve Özgürlüklerin Sınırlandırılması",
+    "definition": "Anayasa'da belirtilen temel hak ve özgürlüklerin, ancak kanunla ve Anayasa'nın ilgili maddelerinde belirtilen özel sebeplerle sınırlandırılabilmesidir. Sınırlama, hakkın özüne dokunamaz ve demokratik toplum düzeninin gereklerine aykırı olamaz.",
+    "examples": [
+      "Toplantı ve gösteri yürüyüşü hakkının, kamu düzeninin korunması amacıyla kanunla sınırlandırılması.",
+      "Seyahat özgürlüğünün, salgın hastalık durumunda kamu sağlığı nedeniyle kısıtlanması."
+    ],
+    "relatedTerms": [
+      "Temel Hak ve Özgürlükler",
+      "Kanunilik İlkesi"
+    ],
+    "order": 75
+  },
+  {
+    "id": "idarenin_denetlenmesi",
+    "term": "İdarenin Denetlenmesi",
+    "definition": "İdarenin eylem ve işlemlerinin hukuka uygunluğunun yargı organları tarafından incelenmesidir. Bu denetim, idarenin keyfi uygulamalarını önlemeyi ve bireylerin haklarını korumayı amaçlar.",
+    "examples": [
+      "Bir idari işlemin iptali için idare mahkemesinde dava açılması, idarenin yargısal denetimidir.",
+      "Sayıştay'ın kamu harcamalarını denetlemesi, idarenin mali denetimidir."
+    ],
+    "relatedTerms": [
+      "İdari Yargı",
+      "Hukuk Devleti"
+    ],
+    "order": 76
+  },
+  {
+    "id": "seckin_demokrasi",
+    "term": "Seçkin Demokrasi",
+    "definition": "Halkın doğrudan değil, seçtiği temsilciler aracılığıyla yönetime katıldığı demokrasi modelidir. Kararlar, halk adına seçilmiş temsilciler tarafından alınır.",
+    "examples": [
+      "Milletvekillerinin halk adına kanun yapması, temsili demokrasinin bir örneğidir.",
+      "Belediye meclis üyelerinin yerel yönetim kararlarını alması."
+    ],
+    "relatedTerms": [
+      "Doğrudan Demokrasi",
+      "Temsili Demokrasi"
+    ],
+    "order": 77
+  },
+  {
+    "id": "referandum",
+    "term": "Referandum (Halkoylaması)",
+    "definition": "Yasama organı tarafından kabul edilen veya Anayasa değişikliği gibi önemli konuların halkın oyuna sunulmasıdır. Halkın doğrudan karar alma sürecine katılımını sağlar.",
+    "examples": [
+      "Bir Anayasa değişikliğinin halkoyuna sunularak kabul edilmesi veya reddedilmesi.",
+      "Bir ülkenin Avrupa Birliği'nden ayrılma kararının referandumla belirlenmesi."
+    ],
+    "relatedTerms": [
+      "Doğrudan Demokrasi",
+      "Anayasa Değişikliği"
+    ],
+    "order": 78
+  },
+  {
+    "id": "idari_vesayet",
+    "term": "İdari Vesayet",
+    "definition": "Merkezi idarenin, yerel yönetimler üzerindeki denetim yetkisidir. Bu denetim, yerel yönetimlerin işlemlerinin hukuka uygunluğunu sağlamak ve kamu yararını korumak amacıyla sınırlı olarak kullanılır.",
+    "examples": [
+      "İçişleri Bakanlığı'nın bir belediye meclisi kararını hukuka aykırı bularak iptal etmesi.",
+      "Valinin, bir köy muhtarının kararını onaylamaması."
+    ],
+    "relatedTerms": [
+      "Yerel Yönetimler",
+      "Merkezi İdare"
+    ],
+    "order": 79
+  },
+  {
+    "id": "kanunlarin_hukuk_devletine_uygunlugu",
+    "term": "Kanunların Hukuk Devletine Uygunluğu",
+    "definition": "Çıkarılan tüm kanunların Anayasa'ya, temel hak ve özgürlüklere ve hukukun genel ilkelerine uygun olması zorunluluğudur. Bu uygunluk, Anayasa Mahkemesi tarafından denetlenir.",
+    "examples": [
+      "Anayasa Mahkemesi'nin, temel hakları kısıtlayan bir kanun maddesini iptal etmesi.",
+      "Kanunların eşitlik ilkesine aykırı olmaması."
+    ],
+    "relatedTerms": [
+      "Hukuk Devleti",
+      "Anayasa Mahkemesi",
+      "Temel Haklar",
+      "Normlar Hiyerarşisi"
+    ],
+    "order": 80
+  },
+  {
+    "id": "sosyal_devlet_ilkesi",
+    "term": "Sosyal Devlet İlkesi",
+    "definition": "Devletin, vatandaşlarının sosyal ve ekonomik refahını sağlamak, sosyal adaleti gerçekleştirmek ve fırsat eşitliğini temin etmekle yükümlü olmasıdır. Bu, devletin aktif müdahalesini gerektiren bir ilkedir.",
+    "examples": [
+      "Devletin eğitim ve sağlık hizmetlerini ücretsiz veya düşük ücretli sunması.",
+      "İşsizlik sigortası veya asgari ücret uygulamaları."
+    ],
+    "relatedTerms": [
+      "Hukuk Devleti",
+      "Fırsat Eşitliği",
+      "Sosyal Adalet",
+      "Refah Devleti"
+    ],
+    "order": 81
+  },
+  {
+    "id": "anayasa_mahkemesi_gorevleri",
+    "term": "Anayasa Mahkemesi Görevleri",
+    "definition": "Kanunların, Cumhurbaşkanlığı kararnamelerinin ve TBMM İçtüzüğü'nün Anayasa'ya uygunluğunu denetlemek, bireysel başvuruları karara bağlamak ve siyasi partilerin kapatılması davalarına bakmaktır. Anayasa Mahkemesi, Anayasa'nın üstünlüğünü ve bağlayıcılığını sağlar.",
+    "examples": [
+      "Bir kanun maddesinin Anayasa'ya aykırı bulunarak iptal edilmesi.",
+      "Vatandaşın temel hakkının ihlal edildiği gerekçesiyle yaptığı bireysel başvuruyu incelemesi."
+    ],
+    "relatedTerms": [
+      "Anayasa Yargısı",
+      "Bireysel Başvuru",
+      "Siyasi Partiler",
+      "Normlar Hiyerarşisi"
+    ],
+    "order": 82
+  },
+  {
+    "id": "idari_islemin_unsurlari",
+    "term": "İdari İşlemin Unsurları",
+    "definition": "Bir idari işlemin geçerli olabilmesi için bulunması gereken temel öğelerdir: Yetki, şekil, sebep, konu ve amaç. Bu unsurlardan herhangi birinin eksikliği veya hukuka aykırılığı, idari işlemi sakatlar.",
+    "examples": [
+      "Yetkisiz bir memur tarafından verilen bir kararın iptal edilmesi (yetki unsuru).",
+      "Kanunda belirtilen usule uyulmadan çıkarılan bir yönetmeliğin sakat olması (şekil unsuru)."
+    ],
+    "relatedTerms": [
+      "İdari İşlem",
+      "Hukuka Aykırılık",
+      "İptal Davası",
+      "İdari Yargı"
+    ],
+    "order": 83
+  },
+  {
+    "id": "yasama_dokunulmazligi",
+    "term": "Yasama Dokunulmazlığı",
+    "definition": "Milletvekillerinin görevleri sırasında veya öncesinde işledikleri iddia edilen suçlardan dolayı yargılanmalarını veya tutuklanmalarını TBMM kararı olmaksızın engelleyen hukuki güvencedir. Bu, milletvekillerinin yasama faaliyetlerini özgürce yapmalarını sağlar.",
+    "examples": [
+      "Bir milletvekilinin konuşması nedeniyle hakkında dava açılamaması.",
+      "Milletvekilinin tutuklanması için TBMM'nin dokunulmazlığını kaldırması gerekmesi."
+    ],
+    "relatedTerms": [
+      "Milletvekili",
+      "TBMM",
+      "Yasama Bağışıklığı",
+      "Dokunulmazlık"
+    ],
+    "order": 84
+  },
+  {
+    "id": "idarenin_sorumlulugu",
+    "term": "İdarenin Sorumluluğu",
+    "definition": "İdarenin, kamu hizmetlerini yürütürken sebep olduğu zararları tazmin etme yükümlülüğüdür. Bu sorumluluk, kusurlu sorumluluk (hizmet kusuru) veya kusursuz sorumluluk (risk ilkesi, fedakarlık ilkesi) şeklinde ortaya çıkabilir.",
+    "examples": [
+      "Devlet hastanesinde yapılan yanlış tedavi sonucu hastanın zarar görmesi (hizmet kusuru).",
+      "Kamu hizmeti sırasında oluşan bir patlamada çevredeki evlerin zarar görmesi (kusursuz sorumluluk)."
+    ],
+    "relatedTerms": [
+      "İdari Yargı",
+      "Tazminat Davası",
+      "Hizmet Kusuru",
+      "Kusursuz Sorumluluk"
+    ],
+    "order": 85
+  },
+  {
+    "id": "parlamenter_sistem",
+    "term": "Parlamenter Sistem",
+    "definition": "Hükümetin yasama organına (parlamento) karşı sorumlu olduğu ve yasama ile yürütme arasında işbirliğinin esas alındığı bir hükümet sistemidir. Yürütme, yasama organının içinden çıkar ve onun güvenine dayanır.",
+    "examples": [
+      "Türkiye'de 2017 Anayasa değişikliğine kadar uygulanan sistem parlamenter sistemdi.",
+      "Başbakanın ve Bakanlar Kurulunun parlamentoya karşı sorumlu olması bu sistemin temel özelliğidir."
+    ],
+    "relatedTerms": [
+      "Başkanlık Sistemi",
+      "Yarı Başkanlık Sistemi",
+      "Hükümet Sistemi"
+    ],
+    "order": 86
+  },
+  {
+    "id": "idarenin_kanuniligi",
+    "term": "İdarenin Kanuniliği",
+    "definition": "İdarenin tüm eylem ve işlemlerinin Anayasa'ya ve kanunlara uygun olması zorunluluğudur. İdareye verilen yetkiler kanunla belirlenir ve idare bu yetkilerin dışına çıkamaz.",
+    "examples": [
+      "Bir idari işlemin kanuna aykırı olması durumunda iptal davası açılabilir.",
+      "İdarenin keyfi uygulamalardan kaçınması ve hukuka bağlı kalması bu ilkenin gereğidir."
+    ],
+    "relatedTerms": [
+      "Hukuk Devleti",
+      "İdari İşlem",
+      "İdari Yargı"
+    ],
+    "order": 87
+  },
+  {
+    "id": "anayasal_devlet",
+    "term": "Anayasal Devlet",
+    "definition": "Devletin kuruluş ve işleyişinin bir anayasa ile belirlendiği, temel hak ve özgürlüklerin güvence altına alındığı, iktidarın sınırlandığı bir devlet biçimidir. Hukukun üstünlüğü ilkesi esastır.",
+    "examples": [
+      "Anayasal devletlerde yasama, yürütme ve yargı organlarının yetkileri anayasa ile çizilmiştir.",
+      "Temel hak ve özgürlüklerin anayasal güvence altında olması anayasal devletin bir göstergesidir."
+    ],
+    "relatedTerms": [
+      "Hukuk Devleti",
+      "Demokratik Devlet",
+      "Kuvvetler Ayrılığı"
+    ],
+    "order": 88
+  },
+  {
+    "id": "idari_duzenleyici_islemler",
+    "term": "İdari Düzenleyici İşlemler",
+    "definition": "İdarenin, kanunların uygulanmasını sağlamak amacıyla çıkardığı genel, soyut ve sürekli nitelikteki hukuk kurallarıdır. Yönetmelik, tüzük gibi isimler alabilirler.",
+    "examples": [
+      "Bir bakanlığın çıkardığı yönetmelik, idari düzenleyici işlemdir.",
+      "Belediyelerin çıkardığı genelgeler de bu kapsamda değerlendirilebilir."
+    ],
+    "relatedTerms": [
+      "İdari İşlem",
+      "Yönetmelik",
+      "Tüzük"
+    ],
+    "order": 89
+  },
+  {
+    "id": "anayasa_mahkemesi_bireysel_basvuru",
+    "term": "Anayasa Mahkemesi Bireysel Başvuru",
+    "definition": "Temel hak ve özgürlükleri kamu gücü tarafından ihlal edilen kişilerin, olağan kanun yollarını tükettikten sonra Anayasa Mahkemesi'ne yaptığı başvurudur. 2010 Anayasa değişikliği ile kabul edilmiştir.",
+    "examples": [
+      "Adil yargılanma hakkının ihlal edildiğini düşünen bir vatandaş, tüm iç hukuk yollarını tükettikten sonra bireysel başvuru yapabilir.",
+      "Bireysel başvuru ile Anayasa Mahkemesi, Avrupa İnsan Hakları Mahkemesi'ne gitmeden önce son iç hukuk yolu olma özelliği taşır."
+    ],
+    "relatedTerms": [
+      "Temel Hak ve Özgürlükler",
+      "Anayasa Mahkemesi",
+      "İnsan Hakları"
+    ],
+    "order": 90
+  },
+  {
+    "id": "siyasal_partiler",
+    "term": "Siyasal Partiler",
+    "definition": "Demokratik siyasal hayatın vazgeçilmez unsurlarıdır. Anayasa'ya ve kanunlara uygun olarak faaliyet gösterirler, seçimler aracılığıyla iktidara gelmeyi hedeflerler.",
+    "examples": [
+      "Türkiye'de Cumhuriyet Halk Partisi, Adalet ve Kalkınma Partisi gibi siyasal partiler mevcuttur.",
+      "Siyasal partilerin kapatılması Anayasa Mahkemesi kararı ile mümkündür."
+    ],
+    "relatedTerms": [
+      "Demokrasi",
+      "Seçim Sistemi",
+      "Çok Partili Hayat"
+    ],
+    "order": 91
+  },
+  {
+    "id": "kamu_denetçiliği_kurumu",
+    "term": "Kamu Denetçiliği Kurumu (Ombudsmanlık)",
+    "definition": "İdarenin işleyişiyle ilgili şikayetleri inceleyerek, idarenin tüm eylem ve işlemlerinde insan haklarına saygılı, hukuka uygun, adalet anlayışı içinde hareket etmesi için tavsiyelerde bulunan bağımsız bir denetim organıdır.",
+    "examples": [
+      "Bir vatandaş, idareden alamadığı bir hizmetle ilgili Kamu Denetçiliği Kurumu'na başvurabilir.",
+      "Kurumun tavsiye kararları bağlayıcı olmamakla birlikte idare üzerinde önemli bir etki yaratır."
+    ],
+    "relatedTerms": [
+      "İdarenin Denetlenmesi",
+      "İnsan Hakları",
+      "Şikayet Hakkı"
+    ],
+    "order": 92
+  },
+  {
+    "id": "milletlerarasi_anlasmalar",
+    "term": "Milletlerarası Anlaşmalar",
+    "definition": "Türkiye Cumhuriyeti adına yabancı devletler ve uluslararası kuruluşlarla yapılan anlaşmalardır. Usulüne göre yürürlüğe konulmuş milletlerarası anlaşmalar kanun hükmündedir ve Anayasa'ya aykırılıkları iddia edilemez.",
+    "examples": [
+      "Avrupa İnsan Hakları Sözleşmesi, Türkiye'nin taraf olduğu bir milletlerarası anlaşmadır.",
+      "Milletlerarası anlaşmaların onaylanması TBMM'nin uygun bulmasıyla gerçekleşir."
+    ],
+    "relatedTerms": [
+      "Kanun",
+      "Hukuk Normları Hiyerarşisi",
+      "Uluslararası Hukuk"
+    ],
+    "order": 93
+  },
+  {
+    "id": "idarenin_mal_edinme_yollari",
+    "term": "İdarenin Mal Edinme Yolları",
+    "definition": "Kamu hizmetlerinin yerine getirilmesi amacıyla idarenin taşınır ve taşınmaz malları elde etme yöntemleridir. Başlıcaları kamulaştırma, devletleştirme ve istimvaldir.",
+    "examples": [
+      "Otoyol yapımı için özel mülkiyetteki arazilerin kamulaştırılması.",
+      "Olağanüstü durumlarda özel kişilere ait araçlara el konulması (istimval)."
+    ],
+    "relatedTerms": [
+      "Kamulaştırma",
+      "Devletleştirme",
+      "İstimval"
+    ],
+    "order": 94
+  },
+  {
+    "id": "seçim_ilkeleri",
+    "term": "Seçim İlkeleri",
+    "definition": "Demokratik seçimlerin temelini oluşturan ve Anayasa'da güvence altına alınan prensiplerdir. Genel oy, eşit oy, gizli oy, tek dereceli seçim, açık sayım ve döküm başlıcalarıdır.",
+    "examples": [
+      "Her vatandaşın bir oy hakkına sahip olması eşit oy ilkesinin bir sonucudur.",
+      "Oy verme işleminin kapalı bir kabinde yapılması gizli oy ilkesini gösterir."
+    ],
+    "relatedTerms": [
+      "Seçim Sistemi",
+      "Demokrasi",
+      "Genel Oy"
+    ],
+    "order": 95
+  },
+  {
+    "id": "anayasal_devlet_ilkeleri",
+    "term": "Anayasal Devlet İlkeleri",
+    "definition": "Anayasal devlet, anayasanın üstünlüğünü kabul eden, devletin tüm eylem ve işlemlerini anayasa kurallarına uygun olarak gerçekleştirmesini öngören bir yönetim biçimidir. Bu ilkeler, devlet iktidarının sınırlandırılmasını ve bireylerin hak ve özgürlüklerinin güvence altına alınmasını amaçlar.",
+    "examples": [
+      "Anayasanın bağlayıcılığı ve üstünlüğü ilkesi.",
+      "Yasama, yürütme ve yargı organlarının anayasaya uygun hareket etme zorunluluğu."
+    ],
+    "relatedTerms": [
+      "Anayasanın Üstünlüğü",
+      "Hukuk Devleti",
+      "Kuvvetler Ayrılığı"
+    ],
+    "order": 96
+  },
+  {
+    "id": "parlamenter_sistem_ozellikleri",
+    "term": "Parlamenter Sistem Özellikleri",
+    "definition": "Parlamenter sistem, yürütme organının yasama organına karşı sorumlu olduğu, devlet başkanının sembolik yetkilere sahip olduğu bir hükümet sistemidir. Hükümet, yasama organının güvenoyuna dayanır ve yasama organı hükümeti düşürebilir.",
+    "examples": [
+      "Hükümetin meclisten güvenoyu alması.",
+      "Cumhurbaşkanının tarafsız ve sembolik bir rol üstlenmesi."
+    ],
+    "relatedTerms": [
+      "Hükümet Sistemi",
+      "Yürütme Organı",
+      "Yasama Organı"
+    ],
+    "order": 97
+  },
+  {
+    "id": "idarenin_takdir_yetkisi",
+    "term": "İdarenin Takdir Yetkisi",
+    "definition": "İdarenin takdir yetkisi, kanunların idareye belirli durumlarda çeşitli seçenekler arasından seçim yapma ve karar alma serbestisi tanımasıdır. Bu yetki, idarenin kamu yararı ve hizmet gerekleri doğrultusunda en uygun kararı vermesini sağlar ancak sınırsız değildir.",
+    "examples": [
+      "Belediyenin bir imar planında değişiklik yapma kararı.",
+      "Kamu görevlisine disiplin cezası verme konusunda idarenin sahip olduğu seçenekler."
+    ],
+    "relatedTerms": [
+      "İdari İşlem",
+      "Hukuka Bağlı İdare",
+      "Kamu Yararı"
+    ],
+    "order": 98
+  },
+  {
+    "id": "yasama_yetkisinin_devredilmezligi",
+    "term": "Yasama Yetkisinin Devredilmezliği",
+    "definition": "Yasama yetkisinin devredilmezliği ilkesi, Türkiye Büyük Millet Meclisi'nin (TBMM) kendisine Anayasa ile verilen kanun yapma yetkisini başka bir organa devredemeyeceği anlamına gelir. Bu ilke, kuvvetler ayrılığı prensibinin bir gereğidir ve yasama organının asli görevini korur.",
+    "examples": [
+      "TBMM'nin kanun yapma yetkisini Cumhurbaşkanlığına veya başka bir kuruma devredememesi.",
+      "Kanun hükmünde kararname çıkarma yetkisinin sınırlı ve istisnai olması."
+    ],
+    "relatedTerms": [
+      "Kuvvetler Ayrılığı",
+      "Yasama Organı",
+      "Kanun"
+    ],
+    "order": 99
+  },
+  {
+    "id": "anayasa_degisikligi_usulu",
+    "term": "Anayasa Değişikliği Usulü",
+    "definition": "Anayasa değişikliği usulü, Anayasa'nın belirli maddelerinin değiştirilmesi veya yeni maddeler eklenmesi için izlenmesi gereken özel ve nitelikli bir süreçtir. Bu usul, Anayasa'nın sıradan kanunlardan daha zor değiştirilebilir olmasını sağlayarak anayasal istikrarı güvence altına alır.",
+    "examples": [
+      "Anayasa değişikliği teklifinin TBMM üye tamsayısının en az üçte biri tarafından yapılması.",
+      "Değişiklik teklifinin TBMM'de iki defa görüşülmesi ve nitelikli çoğunlukla kabul edilmesi."
+    ],
+    "relatedTerms": [
+      "Anayasa",
+      "Nitelikli Çoğunluk",
+      "Yasama Süreci"
+    ],
+    "order": 100
+  }
+]

@@ -1,0 +1,962 @@
+[
+  {
+    "id": "vat_001",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "haklarin-siniflandirilmasi",
+    "subtopic": "Hakların Sınıflandırılması ve Jellinek Ayrımı",
+    "q": "1982 Anayasası'nın sistematiği ve Jellinek'in tasnifi dikkate alındığında, aşağıdakilerden hangisi 'Negatif Statü Hakları' (Koruyucu Haklar) grubunda yer almaz?",
+    "o": [
+      "Mülkiyet hakkı",
+      "Konut dokunulmazlığı",
+      "Toplantı ve gösteri yürüyüşü düzenleme hakkı",
+      "Çalışma ve sözleşme hürriyeti",
+      "Ailenin korunması ve çocuk hakları"
+    ],
+    "a": 4,
+    "e": "Negatif statü hakları (koruyucu haklar), devletin müdahale etmemesi gereken, kişinin dokunulmaz alanını ifade eden haklardır (Kişi hakları ve ödevleri). Mülkiyet, konut dokunulmazlığı, toplantı hürriyeti ve çalışma hürriyeti bu gruptadır. Ancak 'Ailenin korunması ve çocuk hakları', devletten müdahale ve destek beklenen 'Pozitif Statü' (Sosyal ve Ekonomik) hakları grubunda yer alır."
+  },
+  {
+    "id": "vat_002",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "temel-haklarin-sinirlanmasi",
+    "subtopic": "Temel Hak ve Hürriyetlerin Sınırlanması",
+    "q": "1982 Anayasası'nın 13. maddesine göre, temel hak ve hürriyetlerin sınırlandırılmasında aşağıdakilerden hangisi anayasal bir ölçüt değildir?",
+    "o": [
+      "Sınırlamanın kanunla yapılması",
+      "Sınırlamanın Anayasanın sözüne ve ruhuna uygun olması",
+      "Sınırlamanın genel ahlak ve genel sağlık sebeplerine dayanması",
+      "Sınırlamanın demokratik toplum düzeninin gereklerine aykırı olmaması",
+      "Sınırlamanın ölçülülük ilkesine aykırı olmaması"
+    ],
+    "a": 2,
+    "e": "2001 yılında yapılan Anayasa değişikliği ile 'genel sınırlama sebepleri' (genel ahlak, genel sağlık vb.) 13. maddeden çıkarılmıştır. Artık haklar yalnızca ilgili maddelerinde belirtilen 'özel sebepler'e bağlı olarak sınırlanabilir. Diğer seçenekler (Kanunilik, Anayasanın sözü/ruhu, Demokratik toplum düzeni, Laik Cumhuriyet gerekleri ve Ölçülülük) 13. maddede sayılan geçerli kriterlerdir."
+  },
+  {
+    "id": "vat_003",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "sert-cekirdek-haklar",
+    "subtopic": "Temel Hakların Kullanılmasının Durdurulması",
+    "q": "Savaş, seferberlik veya olağanüstü hallerde dahi dokunulması mümkün olmayan 'sert çekirdek haklar' ile ilgili aşağıdaki öncüllerden hangileri doğrudur?\n\nI. Kişinin yaşama hakkına (savaş hukukuna uygun fiiller sonucu meydana gelen ölümler dışında) dokunulamaz.\nII. Kimse din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaz.\nIII. Suçluluğu mahkeme kararı ile saptanana kadar kimse suçlu sayılamaz (Masumiyet karinesi).",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Anayasa'nın 15. maddesine göre, milletlerarası hukuktan doğan yükümlülükler ihlal edilmemek kaydıyla haklar durdurulabilir; ancak 'sert çekirdek' alana dokunulamaz. Bu alanlar: Savaş hukukuna uygun ölümler dışında yaşama hakkı, maddi ve manevi vücut bütünlüğü, din/vicdan/düşünce/kanaatleri açıklamaya zorlanamama ve bunlardan dolayı kınanamama, suç ve cezaların geriye yürümemesi ve masumiyet karinesidir. Üç öncül de doğrudur."
+  },
+  {
+    "id": "vat_004",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "ozel-hayatin-gizliligi",
+    "subtopic": "Kişi Hakları ve Ödevleri",
+    "q": "Özel hayatın gizliliği ve korunması kapsamında, usulüne göre verilmiş hakim kararı olmadıkça; yine bu sebeplere bağlı olarak gecikmesinde sakınca bulunan hallerde kanunla yetkili kılınmış merciin yazılı emri bulunmadıkça; kimsenin üstü, özel kağıtları ve eşyası aranamaz ve bunlara el konulamaz.\n\nYukarıda belirtilen 'yetkili merciin' kararı, yirmi dört saat içinde aşağıdakilerden hangisinin onayına sunulmalıdır?",
+    "o": [
+      "Cumhuriyet Savcısı",
+      "Sulh Ceza Hakimi",
+      "Vali",
+      "İl Emniyet Müdürü",
+      "Anayasa Mahkemesi"
+    ],
+    "a": 1,
+    "e": "Anayasa'nın 20. maddesi uyarınca, gecikmesinde sakınca bulunan hallerde kanunla yetkili kılınmış merciin (örneğin savcı veya kolluk amiri) verdiği yazılı arama/el koyma emri, yirmi dört saat içinde 'görevli hakimin' (uygulamada Sulh Ceza Hakimi) onayına sunulur. Hakim, kararını el koymadan itibaren kırk sekiz saat içinde açıklar."
+  },
+  {
+    "id": "vat_005",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "siyasi-haklar",
+    "subtopic": "Siyasi Haklar ve Ödevler",
+    "q": "Aşağıdakilerden hangisi 1982 Anayasası'nda düzenlenen 'Siyasi Haklar ve Ödevler' (Aktif Statü Hakları) bölümünde yer almaz?",
+    "o": [
+      "Türk vatandaşlığı",
+      "Seçme, seçilme ve siyasi faaliyette bulunma hakları",
+      "Kamu hizmetine girme hakkı",
+      "Sendika kurma hakkı",
+      "Dilekçe, bilgi edinme ve kamu denetçisine başvurma hakkı"
+    ],
+    "a": 3,
+    "e": "Siyasi haklar, kişinin devlet yönetimine katılmasına imkan veren haklardır. Vatandaşlık, seçme-seçilme, kamu hizmetine girme, dilekçe hakkı, mal bildirimi, vergi ödevi ve vatan hizmeti bu gruptadır. Ancak 'Sendika kurma hakkı' (Md. 51), Sosyal ve Ekonomik Haklar (Pozitif Statü) bölümünde düzenlenmiştir."
+  },
+  {
+    "id": "vat_006",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "yabancilarin-haklari",
+    "subtopic": "Yabancıların Durumu",
+    "q": "1982 Anayasası'nın 16. maddesine göre, temel hak ve hürriyetlerin 'yabancılar' için sınırlandırılmasıyla ilgili aşağıdakilerden hangisi zorunlu bir koşuldur?",
+    "o": [
+      "Sadece Cumhurbaşkanlığı Kararnamesi ile yapılması",
+      "Milletlerarası hukuka uygun olarak kanunla yapılması",
+      "Mütekabiliyet (karşılıklılık) ilkesinin bulunması",
+      "Yabancının ikamet izninin bulunması",
+      "Sınırlamanın süreli olması"
+    ],
+    "a": 1,
+    "e": "Anayasa'nın 16. maddesi sarihtir: 'Temel hak ve hürriyetler, yabancılar için, milletlerarası hukuka uygun olarak kanunla sınırlanabilir.' Burada iki temel şart vardır: Kanunla olması ve milletlerarası hukuka uygunluk."
+  },
+  {
+    "id": "vat_007",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "calisma-ve-sozlesme-hurriyeti",
+    "subtopic": "Sosyal ve Ekonomik Haklar",
+    "q": "Sosyal ve ekonomik haklar kapsamında yer alan 'Grev Hakkı ve Lokavt' ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "o": [
+      "Grev hakkı ve lokavt, toplu iş sözleşmesi yapılması sırasında uyuşmazlık çıkması halinde kullanılır.",
+      "Siyasi amaçlı grev ve lokavt, dayanışma grevi ve lokavtı yapılamaz.",
+      "Grev esnasında greve katılan işçilerin ve işyerinin güvenliği işveren tarafından sağlanır.",
+      "Grev ve lokavtın yasaklanabileceği veya ertelenebileceği haller kanunla düzenlenir.",
+      "Grev ve lokavtın yasaklandığı hallerde uyuşmazlık Yüksek Hakem Kurulunca çözülür."
+    ],
+    "a": 2,
+    "e": "Anayasa'nın 54. maddesine göre grev esnasında işyerinin güvenliğini sağlama yükümlülüğü işverene değil, 'Devlet'e aittir. Madde metni: 'Grev esnasında greve katılan işçilerin ve işyerinin güvenliğinin sağlanması için gerekli tedbirleri Devlet alır.' şeklindedir. Diğer seçenekler (Siyasi grev yasağı, Yüksek Hakem Kurulu yetkisi vb.) doğrudur."
+  },
+  {
+    "id": "vat_008",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "basin-yayin-hurriyeti",
+    "subtopic": "Düşünceyi Açıklama ve Yayma Hürriyeti",
+    "q": "Basın hürriyeti ve süreli/süresiz yayınlarla ilgili olarak Anayasa'da yer alan hükümlere göre; suç işlenmesinde kullanılan 'basın yayın araçlarına' (basımevi vb.) el konulabilmesi için aşağıdaki şartlardan hangisi gereklidir?",
+    "o": [
+      "Cumhuriyet Başsavcısının talebi",
+      "Mülki idare amirinin emri",
+      "Yargı mercilerinin (Hakim) kararı",
+      "İçişleri Bakanlığının genelgesi",
+      "RTÜK kararı"
+    ],
+    "a": 2,
+    "e": "Anayasa'nın 30. maddesine göre; kanuna uygun şekilde basın işletmesi olarak kurulan basımevi ve eklentileri ile basın araçları, suç aleti olduğu gerekçesiyle zapt ve müsadere edilemez veya işletilmekten alıkonulamaz. Ancak, bu araçların suç işlenmesinde kullanılması (örneğin devletin bütünlüğüne karşı suçlar) halinde 'yargı mercilerinin kararı' ile el konulabilir."
+  },
+  {
+    "id": "vat_009",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "dernek-kurma",
+    "subtopic": "Kişi Hakları ve Ödevleri",
+    "q": "Dernek kurma hürriyeti ile ilgili aşağıdakilerden hangisi 1982 Anayasası'nda yer alan düzenlemelerden biri değildir?",
+    "o": [
+      "Herkes, önceden izin almaksızın dernek kurma hakkına sahiptir.",
+      "Dernekler, tüzüklerinde gösterilen amaç ve faaliyetleri dışında faaliyette bulunamazlar.",
+      "Dernek kurabilmek için en az 18 yaşını doldurmuş olmak gerekir.",
+      "Silahlı Kuvvetler ve kolluk kuvvetleri mensuplarına dernek kurma yasağı getirilebilir.",
+      "Dernekler, hakim kararı olmaksızın hiçbir hal ve şartta kapatılamaz veya faaliyetten alıkonulamaz."
+    ],
+    "a": 4,
+    "e": "Dernekler kural olarak hakim kararı ile kapatılır; ancak Anayasa'nın 33. maddesine göre, gecikmesinde sakınca bulunan hallerde kanunla yetkili kılınan merciin (Valilik vb.) emriyle de faaliyetten men edilebilirler. Bu karar yirmi dört saat içinde hakimin onayına sunulur. Dolayısıyla 'hiçbir hal ve şartta' ifadesi yanlıştır. Ayrıca yaş şartı kanunla (Medeni Kanun) düzenlense de anayasal düzlemde 'herkes' ifadesi esastır, soru Anayasa metni üzerinden sorulduğunda istisna prosedürü (idari merciin durdurma yetkisi) belirleyicidir."
+  },
+  {
+    "id": "vat_010",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "hak-arama-hurriyeti",
+    "subtopic": "Hakların Korunması",
+    "q": "Anayasa'nın 74. maddesinde düzenlenen 'Dilekçe, Bilgi Edinme ve Kamu Denetçisine Başvurma Hakkı'ndan yararlanma konusunda, Türkiye'de ikamet eden yabancılar için aranan temel şart aşağıdakilerden hangisidir?",
+    "o": [
+      "Türk vatandaşlarıyla evli olmak",
+      "Karşılıklılık (Mütekabiliyet) esasının bulunması",
+      "En az 5 yıldır Türkiye'de ikamet ediyor olmak",
+      "Çalışma iznine sahip olmak",
+      "Türkçe okuma yazma bilmek"
+    ],
+    "a": 1,
+    "e": "Anayasa'nın 74. maddesi uyarınca; vatandaşlar ve 'karşılıklılık (mütekabiliyet) esası gözetilmek kaydıyla' Türkiye'de ikamet eden yabancılar, kendileriyle veya kamu ile ilgili dilek ve şikayetleri hakkında yetkili makamlara başvurma hakkına sahiptir. Yabancılar için şart, dilekçenin Türkçe yazılması ve karşılıklılık ilkesidir."
+  },
+  {
+    "id": "vat_011",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "haklarin-siniflandirilmasi",
+    "subtopic": "Hakların Sınıflandırılması (Jellinek Ayrımı)",
+    "q": "1982 Anayasası'nın sistematiği ve Jellinek'in tasnifi dikkate alındığında, aşağıdakilerden hangisi 'Negatif Statü Hakları' (Koruyucu Haklar) grubunda yer almaz?",
+    "o": [
+      "Mülkiyet hakkı",
+      "Konut dokunulmazlığı",
+      "Toplantı ve gösteri yürüyüşü düzenleme hakkı",
+      "Çalışma ve sözleşme hürriyeti",
+      "Ailenin korunması ve çocuk hakları"
+    ],
+    "a": 4,
+    "e": "Negatif statü hakları (Kişi hakları ve ödevleri), devletin müdahale etmemesi gereken, kişiyi devlete ve topluma karşı koruyan haklardır. Mülkiyet, konut dokunulmazlığı, toplantı/gösteri ve çalışma hürriyeti (teşebbüs hürriyeti bağlamında kişi hakkıdır, ancak çalışma hakkı sosyal haktır; burada şıkkın 'hürriyet' vurgusu önemlidir) kişi haklarıdır. Ancak 'Ailenin korunması ve çocuk hakları' (Md. 41), devletin aktif müdahalesini gerektiren Pozitif Statü (Sosyal ve Ekonomik) hakları grubunda yer alır."
+  },
+  {
+    "id": "vat_012",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "sert-cekirdek-haklar",
+    "subtopic": "Sert Çekirdek Haklar",
+    "q": "1982 Anayasası'nın 15. maddesine göre; savaş, seferberlik veya olağanüstü hallerde dahi dokunulamayan 'sert çekirdek haklar' ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "o": [
+      "Kişinin yaşama hakkına dokunulamaz.",
+      "Kimse din ve vicdan hürriyeti kapsamında ibadet etmeye zorlanamaz.",
+      "Suçluluğu mahkeme kararı ile saptanıncaya kadar kimse suçlu sayılamaz.",
+      "Savaş hukukuna uygun fiiller sonucu meydana gelen ölümler yaşama hakkı ihlali sayılmaz.",
+      "Düşünce ve kanaatleri açıklama hürriyeti mutlak suretle sınırlandırılamaz."
+    ],
+    "a": 4,
+    "e": "Sert çekirdek haklar kapsamında kişinin düşünce ve kanaatlerini açıklamaya zorlanamaması güvence altındadır; ancak 'düşünceyi açıklama hürriyeti' (yayma hürriyeti) sert çekirdek hak değildir ve olağanüstü hallerde sınırlandırılabilir. Dokunulamayan kısım, kişinin iç dünyası (forum internum) ve bunları açıklamaya zorlanamamasıdır."
+  },
+  {
+    "id": "vat_013",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "haklarin-sinirlanmasi",
+    "subtopic": "Temel Hak ve Hürriyetlerin Sınırlanması",
+    "q": "1982 Anayasası'nın 13. maddesine göre, temel hak ve hürriyetlerin sınırlandırılmasında aşağıdaki ölçütlerden hangisi anayasal bir kriter olarak açıkça sayılmamıştır?",
+    "o": [
+      "Kanunilik",
+      "Ölçülülük ilkesi",
+      "Demokratik toplum düzeninin gerekleri",
+      "Laik Cumhuriyetin gerekleri",
+      "Genel ahlak ve genel sağlık sebepleri"
+    ],
+    "a": 4,
+    "e": "2001 Anayasa değişikliği ile 'genel sınırlama sebepleri' (genel ahlak, genel sağlık vb.) 13. maddeden çıkarılmıştır. Artık haklar yalnızca ilgili maddelerinde belirtilen 'özel sınırlama sebeplerine' bağlı olarak sınırlandırılabilir. Diğer seçenekler (Kanun, Ölçülülük, Demokratik toplum düzeni, Laik Cumhuriyet) 13. maddede sayılan genel güvence ölçütleridir."
+  },
+  {
+    "id": "vat_014",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "siyasi-haklar",
+    "subtopic": "Siyasi Haklar ve Ödevler",
+    "q": "Aşağıdakilerden hangisi 1982 Anayasası'nda düzenlenen 'Siyasi Haklar ve Ödevler' (Aktif Statü Hakları) bölümünde yer almaz?",
+    "o": [
+      "Vatan hizmeti",
+      "Vergi ödevi",
+      "Dilekçe hakkı",
+      "Sendika kurma hakkı",
+      "Mal bildirimi"
+    ],
+    "a": 3,
+    "e": "Vatan hizmeti, Vergi ödevi, Dilekçe hakkı ve Mal bildirimi Anayasa'nın 'Siyasi Haklar ve Ödevler' bölümünde düzenlenmiştir. Ancak 'Sendika kurma hakkı', 'Sosyal ve Ekonomik Haklar ve Ödevler' bölümünde yer alan bir haktır. Bu ayrım ÖSYM tarafından sıkça sorulmaktadır."
+  },
+  {
+    "id": "vat_015",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "dernek-kurma",
+    "subtopic": "Kişi Hakları (Dernek Kurma)",
+    "q": "Dernek kurma hürriyeti ile ilgili olarak 1982 Anayasası'nda yer alan hükümler çerçevesinde aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Herkes, önceden izin almaksızın dernek kurma hakkına sahiptir.",
+      "Dernekler, kanunun öngördüğü hallerde hakim kararıyla kapatılabilir.",
+      "Gecikmesinde sakınca bulunan hallerde mülki amir derneği faaliyetten men edebilir.",
+      "Silahlı Kuvvetler ve kolluk kuvvetleri mensuplarının dernek kurmaları kanunla yasaklanabilir.",
+      "Yabancıların Türkiye'de dernek kurması mütekabiliyet (karşılıklılık) esasına tabidir."
+    ],
+    "a": 4,
+    "e": "Yabancıların Türkiye'de dernek kurma hakkı Anayasa'ya göre 'mütekabiliyet' esasına değil, milletlerarası hukuka uygun olarak 'kanunla sınırlanabilme' esasına tabidir. Mütekabiliyet şartı daha çok dilekçe hakkında (yabancılar için) aranır."
+  },
+  {
+    "id": "vat_016",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "secme-secilme",
+    "subtopic": "Seçme, Seçilme ve Siyasi Faaliyette Bulunma",
+    "q": "1982 Anayasası'nın 67. maddesine göre, aşağıdakilerden hangisi oy kullanma hakkına sahip değildir?",
+    "o": [
+      "Yurt dışında yaşayan Türk vatandaşları",
+      "Tutuklular",
+      "Taksirli suçlardan hüküm giyenler",
+      "Silah altında bulunan er ve erbaşlar",
+      "18 yaşını doldurmuş üniversite öğrencileri"
+    ],
+    "a": 3,
+    "e": "Anayasa'nın 67. maddesine göre; silah altında bulunan er ve erbaşlar ile askeri öğrenciler oy kullanamazlar. Ayrıca taksirli suçlar hariç kasıtlı suçlardan hüküm giyenler (ceza infaz kurumunda bulundukları sürece) oy kullanamazlar. Ancak tutuklular ve taksirli suçlardan hükümlü olanlar oy kullanabilirler."
+  },
+  {
+    "id": "vat_017",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "suc-ve-cezalar",
+    "subtopic": "Suç ve Cezalara İlişkin Esaslar",
+    "q": "I. Ceza sorumluluğu şahsidir.\nII. İdare, kişi hürriyetinin kısıtlanması sonucunu doğuran bir müeyyide uygulayamaz (istisnalar saklıdır).\nIII. Vatandaş, suç sebebiyle yabancı bir ülkeye iade edilemez.\n\n1982 Anayasası'nın 'Suç ve Cezalara İlişkin Esaslar' (Md. 38) düzenlemesi dikkate alındığında, yukarıdaki ifadelerden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 1,
+    "e": "I. ve II. öncüller doğrudur. Ancak III. öncül, 2004 Anayasa değişikliği ile farklılaşmıştır. Kural olarak vatandaş iade edilemez ancak 'Uluslararası Ceza Divanı'na (UCD) taraf olmanın gerektirdiği yükümlülükler hariçtir'. Yani UCD'ye iade mümkündür, bu nedenle III. öncül mutlak doğru kabul edilemez."
+  },
+  {
+    "id": "vat_018",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "mulkiyet-hakki",
+    "subtopic": "Mülkiyet Hakkı",
+    "q": "Mülkiyet hakkı ile ilgili olarak;\nI. Kamu yararı amacıyla sınırlandırılabilir.\nII. Mülkiyet hakkının kullanılması toplum yararına aykırı olamaz.\nIII. Taşınmaz mülkiyeti ancak kanunla sınırlanabilir.\n\nifadelerinden hangileri 1982 Anayasası'nda açıkça belirtilmiştir?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Anayasa'nın 35. maddesine göre; herkes mülkiyet ve miras hakkına sahiptir. Bu haklar ancak 'kamu yararı' amacıyla kanunla sınırlanabilir (I ve III). Ayrıca mülkiyet hakkının kullanılması 'toplum yararına' aykırı olamaz (II). Dolayısıyla üç öncül de doğrudur."
+  },
+  {
+    "id": "vat_019",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "ozel-hayat",
+    "subtopic": "Özel Hayatın Gizliliği ve Korunması",
+    "q": "Özel hayatın gizliliği kapsamında yapılan bir aramada, gecikmesinde sakınca bulunan hallerde kanunla yetkili kılınmış merciin yazılı emri yeterlidir. Bu durumda yetkili merciin kararı, kaç saat içinde görevli hakimin onayına sunulmalıdır?",
+    "o": [
+      "12 saat",
+      "24 saat",
+      "48 saat",
+      "3 gün",
+      "1 hafta"
+    ],
+    "a": 1,
+    "e": "Anayasa'nın 20. ve 21. maddelerine göre; gecikmesinde sakınca bulunan hallerde yetkili merciin yazılı emriyle arama yapılabilir. Ancak bu karar '24 saat' içinde görevli hakimin onayına sunulur. Hakim, kararını el koymadan itibaren '48 saat' içinde açıklar. Soru 'sunulma' süresini sorduğu için cevap 24 saattir."
+  },
+  {
+    "id": "vat_020",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "sosyal-devlet",
+    "subtopic": "Devletin İktisadi ve Sosyal Ödevlerinin Sınırı",
+    "q": "1982 Anayasası'nın 65. maddesinde yapılan 2001 değişikliğine göre; devlet, sosyal ve ekonomik alanlardaki görevlerini yerine getirirken aşağıdakilerden hangisini esas alır?",
+    "o": [
+      "Ekonomik istikrarın korunmasını",
+      "Mali kaynaklarının yeterliliğini",
+      "Kalkınma planlarının önceliklerini",
+      "Milli gelirin adaletli dağılımını",
+      "İşsizliğin önlenmesini"
+    ],
+    "a": 1,
+    "e": "Anayasa'nın 65. maddesi; 'Devlet, sosyal ve ekonomik alanlardaki anayasa görevlerini, bu görevlerin amaçlarına uygun öncelikleri gözeterek mali kaynaklarının yeterliliği ölçüsünde yerine getirir.' hükmünü amirdir. Bu madde, devletin pozitif statü haklarını gerçekleştirirken bütçe kısıtlarını gerekçe gösterebilmesine olanak tanır."
+  },
+  {
+    "id": "vat_021",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "haklarin-siniflandirilmasi",
+    "subtopic": "Hakların Sınıflandırılması (Jellinek Ayrımı)",
+    "q": "1982 Anayasası’nın sistematiği ve Jellinek’in sınıflandırması dikkate alındığında, aşağıdakilerden hangisi 'Negatif Statü Hakları' (Koruyucu Haklar) içerisinde yer almaz?",
+    "o": [
+      "Mülkiyet hakkı",
+      "Konut dokunulmazlığı",
+      "Din ve vicdan hürriyeti",
+      "Çalışma ve sözleşme hürriyeti",
+      "Dilekçe hakkı"
+    ],
+    "a": 4,
+    "e": "Negatif statü hakları (koruyucu haklar), kişinin devlet tarafından dokunulamayan özel alanını ifade eder (Kişi hak ve ödevleri). Mülkiyet, konut dokunulmazlığı, din ve vicdan hürriyeti bu gruptadır. Çalışma ve sözleşme hürriyeti de (sosyal hak gibi dursa da) Anayasa'nın kişi hakları bölümünde (m.48) düzenlendiği için negatif statü hakkı sayılır. Ancak 'Dilekçe hakkı', kişinin devlete katılımını sağlayan 'Aktif Statü' (Siyasi) hakları arasında yer alır."
+  },
+  {
+    "id": "vat_022",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "temel-haklarin-sinirlanmasi",
+    "subtopic": "Temel Hak ve Hürriyetlerin Sınırlanması",
+    "q": "1982 Anayasası'nın 13. maddesine göre, temel hak ve hürriyetlerin sınırlanmasında aşağıdakilerden hangisi bir ölçüt olarak öngörülmemiştir?",
+    "o": [
+      "Kanunla sınırlama",
+      "Anayasanın sözüne ve ruhuna uygunluk",
+      "Demokratik toplum düzeninin gereklerine uygunluk",
+      "Genel ahlaka uygunluk",
+      "Ölçülülük ilkesine uygunluk"
+    ],
+    "a": 3,
+    "e": "2001 yılında yapılan Anayasa değişikliği ile 'genel sınırlama sebepleri' (genel ahlak, genel sağlık vb.) yürürlükten kaldırılmış, her hak için ilgili maddesinde belirtilen 'özel sınırlama sebepleri' geçerli hale gelmiştir. Anayasa'nın 13. maddesindeki sınırlama ölçütleri şunlardır: Kanunilik, Anayasa'nın sözüne ve ruhuna uygunluk, Demokratik toplum düzeninin gereklerine uygunluk, Laik Cumhuriyetin gereklerine uygunluk ve Ölçülülük. 'Genel ahlak' artık 13. maddede sayılan genel bir sınırlama kriteri değildir."
+  },
+  {
+    "id": "vat_023",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "sert-cekirdek-haklar",
+    "subtopic": "Temel Hakların Durdurulması ve Sert Çekirdek Haklar",
+    "q": "Savaş, seferberlik veya olağanüstü hallerde dahi dokunulması mümkün olmayan, 'Sert Çekirdek Haklar' kapsamında aşağıdakilerden hangisi yer almaz?",
+    "o": [
+      "Kişinin yaşama hakkı",
+      "Maddi ve manevi varlığın bütünlüğü",
+      "Suç ve cezaların geçmişe yürütülememesi",
+      "Masumiyet karinesi",
+      "Basın hürriyeti"
+    ],
+    "a": 4,
+    "e": "Anayasa'nın 15. maddesine göre, savaş, seferberlik ve OHAL durumlarında dahi dokunulamayan haklar (sert çekirdek haklar) şunlardır: 1) Savaş hukukuna uygun fiiller sonucu meydana gelen ölümler dışında yaşama hakkı, 2) Maddi ve manevi varlığın bütünlüğü, 3) Din ve vicdan hürriyeti (düşünceleri açıklamaya zorlanamama), 4) Suç ve cezaların geçmişe yürütülememesi, 5) Masumiyet karinesi. Basın hürriyeti sert çekirdek bir hak değildir ve OHAL dönemlerinde kısıtlanabilir."
+  },
+  {
+    "id": "vat_024",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "kisi-haklari",
+    "subtopic": "Özel Hayatın Gizliliği ve Korunması",
+    "q": "1982 Anayasası'na göre; herkes, kendisiyle ilgili kişisel verilerin korunmasını isteme hakkına sahiptir. Bu hakla ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Bu hak, kişinin kendisiyle ilgili kişisel veriler hakkında bilgilendirilme hakkını da kapsar.",
+      "Kişisel veriler, ancak kanunda öngörülen hallerde veya kişinin açık rızasıyla işlenebilir.",
+      "Kişisel verilerin korunmasına ilişkin esas ve usuller Cumhurbaşkanlığı Kararnamesi ile düzenlenir.",
+      "Bu hakka, 2010 Anayasa değişikliği ile 'Özel hayatın gizliliği' maddesinde yer verilmiştir.",
+      "Kişinin verilerine erişme ve bunların düzeltilmesini talep etme hakkı vardır."
+    ],
+    "a": 2,
+    "e": "Anayasa'nın 20. maddesine eklenen fıkra uyarınca; kişisel verilerin korunmasına ilişkin esas ve usuller 'Kanunla' düzenlenir, Cumhurbaşkanlığı Kararnamesi ile değil. Temel hak ve hürriyetlerin sınırlanması ve düzenlenmesi (özellikle kişi hakları grubunda) yasama organının yetkisindedir (Kanunilik ilkesi)."
+  },
+  {
+    "id": "vat_025",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "siyasi-haklar",
+    "subtopic": "Seçme, Seçilme ve Siyasi Faaliyette Bulunma Hakları",
+    "q": "1982 Anayasası'na göre, aşağıda belirtilen kişilerden hangisi seçimlerde oy kullanma hakkına sahiptir?",
+    "o": [
+      "Silah altında bulunan er ve erbaşlar",
+      "Askeri öğrenciler",
+      "Taksirli suçlardan hüküm giyenler",
+      "Kasıtlı suçtan dolayı ceza infaz kurumunda bulunan hükümlüler",
+      "Kısıtlılar"
+    ],
+    "a": 2,
+    "e": "Anayasa'nın 67. maddesine göre; silah altında bulunan er ve erbaşlar, askeri öğrenciler ve taksirli suçlardan hüküm giyenler hariç ceza infaz kurumunda bulunan hükümlüler oy kullanamaz. Buradaki istisna 'taksirli suçlar'dır. Yani taksirli suçlardan (bilmeden, istemeden işlenen suçlar, örn: trafik kazası) hüküm giyenler cezaevinde olsalar dahi oy kullanabilirler. Tutuklular da oy kullanabilir."
+  },
+  {
+    "id": "vat_026",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "sosyal-ekonomik-haklar",
+    "subtopic": "Sendika Kurma ve Grev Hakkı",
+    "q": "Sendikal haklar ve grev hakkı ile ilgili olarak 1982 Anayasası'nda yer alan hükümler çerçevesinde aşağıdaki ifadelerden hangisi yanlıştır?",
+    "o": [
+      "Sendika kurmak için önceden izin alınması gerekmez.",
+      "Hiç kimse bir sendikaya üye olmaya veya üyelikten ayrılmaya zorlanamaz.",
+      "Grev esnasında greve katılan işçilerin ve işyerinin güvenliği işveren tarafından sağlanır.",
+      "Siyasi amaçlı grev ve lokavt, dayanışma grevi ve genel grev yapılamaz yasağı 2010 değişikliği ile kaldırılmıştır.",
+      "Memurlar ve diğer kamu görevlileri toplu sözleşme yapma hakkına sahiptir."
+    ],
+    "a": 2,
+    "e": "Anayasa'nın 54. maddesine göre, grev esnasında greve katılan işçilerin ve işyerinin güvenliğinin sağlanması görevi 'Devlet'e aittir, işverene değil. Diğer seçenekler doğrudur; 2010 değişikliği ile siyasi grev, dayanışma grevi gibi yasaklar Anayasa metninden çıkarılmıştır."
+  },
+  {
+    "id": "vat_027",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "hak-arama-hurriyeti",
+    "subtopic": "Hak Arama Hürriyeti ve Adil Yargılanma",
+    "q": "1982 Anayasası'na göre aşağıdakilerden hangisi 'Hak Arama Hürriyeti' kapsamında anayasal güvence altına alınan ilkelerden biri değildir?",
+    "o": [
+      "Tabii hakim ilkesi (Kanuni hakim güvencesi)",
+      "Masumiyet karinesi",
+      "Cezaların şahsiliği ilkesi",
+      "İspat hakkı",
+      "Delillerin serbestliği ilkesi"
+    ],
+    "a": 4,
+    "e": "'Delillerin serbestliği' (her türlü delille ispat) ceza muhakemesi hukukuna ait bir ilke olsa da, Anayasa'nın 'Hak Arama Hürriyeti' veya 'Suç ve Cezalara İlişkin Esaslar' (m.36-38) başlıkları altında açıkça sayılan bir anayasal hüküm değildir. Aksine, Anayasa m.38 'Kanuna aykırı elde edilmiş bulgular, delil olarak kabul edilemez' diyerek delil yasaklarını düzenler. Diğer şıklar (Tabii hakim, Masumiyet karinesi, Cezaların şahsiliği, İspat hakkı) Anayasa'da açıkça düzenlenmiştir."
+  },
+  {
+    "id": "vat_028",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "yerlesme-seyahat",
+    "subtopic": "Yerleşme ve Seyahat Hürriyeti",
+    "q": "1982 Anayasası'nın 23. maddesine göre, vatandaşın yurt dışına çıkma hürriyeti ancak aşağıdakilerden hangisine bağlı olarak sınırlanabilir?",
+    "o": [
+      "Suç soruşturması veya kovuşturması",
+      "Salgın hastalıkların önlenmesi",
+      "Kamu mallarını korumak",
+      "Ekonomik nedenler",
+      "Sosyal ve ekonomik gelişmeyi sağlamak"
+    ],
+    "a": 0,
+    "e": "2010 Anayasa değişikliği ile vatandaşın yurt dışına çıkma hürriyeti üzerindeki sınırlama sebepleri daraltılmıştır. Artık bu hak, sadece 'suç soruşturması veya kovuşturması sebebiyle ve hakim kararına bağlı olarak' sınırlanabilir. 'Ülkenin ekonomik durumu' gibi sebepler 2010 yılında yürürlükten kaldırılmıştır. Diğer seçenekler (kamu malları, salgın hastalık) yerleşme hürriyetinin sınırlama sebepleridir, yurt dışı çıkış yasağının değil."
+  },
+  {
+    "id": "vat_029",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "siyasi-partiler",
+    "subtopic": "Siyasi Partilerin Uyacağı Esaslar",
+    "q": "Siyasi partilerin mali denetimi ve kapatılması ile ilgili aşağıdaki öncüllerden hangileri doğrudur?\n\nI. Siyasi partilerin mali denetimini Sayıştay yapar.\nII. Siyasi partilerin kapatılması davasını Yargıtay Cumhuriyet Başsavcısı açar.\nIII. Temelli kapatılan bir partinin kurucuları, 5 yıl süreyle başka bir partinin kurucusu, üyesi, yöneticisi ve deneticisi olamazlar.",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 3,
+    "e": "I. öncül yanlıştır; Siyasi partilerin mali denetimini 'Anayasa Mahkemesi' yapar (Sayıştay sadece Anayasa Mahkemesi'ne bu konuda yardım eder). II. öncül doğrudur; kapatma davasını Yargıtay Cumhuriyet Başsavcısı açar, kararı Anayasa Mahkemesi verir. III. öncül doğrudur; kapatmaya beyan ve eylemleriyle sebep olanlar 5 yıl siyasi yasaklı hale gelir."
+  },
+  {
+    "id": "vat_030",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "vatandaslik",
+    "subtopic": "Türk Vatandaşlığı ve Yabancıların Durumu",
+    "q": "Türk vatandaşlığı ve yabancıların hakları ile ilgili 1982 Anayasası hükümleri dikkate alındığında, aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Türk babanın veya Türk ananın çocuğu Türktür.",
+      "Vatandaşlık, kanunun gösterdiği şartlarla kazanılır ve ancak kanunda belirtilen hallerde kaybedilir.",
+      "Hiçbir Türk, vatana bağlılıkla bağdaşmayan bir eylemde bulunmadıkça vatandaşlıktan çıkarılamaz.",
+      "Vatandaşlıktan çıkarma ile ilgili karar ve işlemlere karşı yargı yolu kapalıdır.",
+      "Yabancıların temel hak ve hürriyetleri, milletlerarası hukuka uygun olarak kanunla sınırlanabilir."
+    ],
+    "a": 3,
+    "e": "Anayasa'nın 66. maddesine göre, 'Vatandaşlıktan çıkarma ile ilgili karar ve işlemlere karşı yargı yolu kapatılamaz.' Bu hüküm, idarenin keyfi işlemlerini engellemek ve vatandaşlık güvencesini sağlamak için anayasal teminat altına alınmıştır. Diğer seçenekler Anayasa'nın 66. ve 16. maddelerine uygundur."
+  },
+  {
+    "id": "vat_031",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "haklarin-siniflandirilmasi",
+    "subtopic": "Hakların Sınıflandırılması (Jellinek Tasnifi)",
+    "q": "1982 Anayasası'nın sistematiği ve Jellinek'in tasnifi dikkate alındığında, aşağıdakilerden hangisi 'Kişinin Hakları ve Ödevleri' (Negatif Statü Hakları) bölümünde düzenlenmemiştir?",
+    "o": [
+      "Mülkiyet hakkı",
+      "İspat hakkı",
+      "Dernek kurma hürriyeti",
+      "Toplantı ve gösteri yürüyüşü düzenleme hakkı",
+      "Sendika kurma hakkı"
+    ],
+    "a": 4,
+    "e": "1982 Anayasası'na göre mülkiyet, ispat, dernek kurma, toplantı ve gösteri yürüyüşü düzenleme hakları 'Kişinin Hakları ve Ödevleri' (Negatif Statü/Koruyucu) başlığı altında düzenlenmiştir. Ancak 'Sendika kurma hakkı', Anayasa'nın üçüncü bölümü olan 'Sosyal ve Ekonomik Haklar ve Ödevler' (Pozitif Statü/İsteme) kısmında yer alır."
+  },
+  {
+    "id": "vat_032",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "haklarin-sinirlandirilmasi",
+    "subtopic": "Temel Hak ve Hürriyetlerin Sınırlanması",
+    "q": "1982 Anayasası'nın 13. maddesine göre, temel hak ve hürriyetlerin sınırlandırılmasında aşağıdaki ölçütlerden hangisi dikkate alınmaz?",
+    "o": [
+      "Sınırlamanın kanunla yapılması",
+      "Sınırlamanın anayasanın sözüne ve ruhuna uygun olması",
+      "Sınırlamanın demokratik toplum düzeninin gereklerine aykırı olmaması",
+      "Sınırlamanın genel ahlaka uygun olması",
+      "Sınırlamanın ölçülülük ilkesine aykırı olmaması"
+    ],
+    "a": 3,
+    "e": "2001 Anayasa değişiklikleri ile 'genel sınırlama sebepleri' (genel ahlak, genel sağlık vb. gibi genel ifadelerle tüm hakların sınırlanabilmesi) kaldırılmıştır. Anayasa'nın 13. maddesindeki sınırlama ölçütleri şunlardır: Kanunilik, sebebe bağlılık (ilgili maddedeki özel sebep), anayasanın sözüne ve ruhuna uygunluk, demokratik toplum düzeninin gerekleri, laik cumhuriyetin gerekleri ve ölçülülük ilkesi. 'Genel ahlak' artık genel bir sınırlama ölçütü değil, sadece ilgili maddede yazıyorsa özel bir sınırlama sebebidir."
+  },
+  {
+    "id": "vat_033",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "sert-cekirdek-haklar",
+    "subtopic": "Temel Hakların Durdurulması ve Çekirdek Haklar",
+    "q": "Savaş, seferberlik veya olağanüstü hallerde dahi dokunulamayan, 'sert çekirdek haklar' kapsamında aşağıdakilerden hangisi yer almaz?",
+    "o": [
+      "Maddi ve manevi varlığın bütünlüğü",
+      "Suç ve cezaların geçmişe yürütülememesi",
+      "Masumiyet karinesi",
+      "Din ve vicdan hürriyeti (düşünceyi açıklama boyutu hariç)",
+      "Yerleşme ve seyahat hürriyeti"
+    ],
+    "a": 4,
+    "e": "Anayasa'nın 15. maddesine göre sert çekirdek haklar şunlardır: 1) Savaş hukukuna uygun fiiller sonucu meydana gelen ölümler dışında kişinin yaşama hakkı ile maddi ve manevi varlığının bütünlüğü, 2) Kimsenin din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaması, 3) Suç ve cezaların geçmişe yürütülememesi, 4) Masumiyet karinesi. Yerleşme ve seyahat hürriyeti, olağanüstü hallerde durdurulabilen normal bir haktır, sert çekirdek hak değildir."
+  },
+  {
+    "id": "vat_034",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "siyasi-haklar",
+    "subtopic": "Siyasi Haklar ve Ödevler (Aktif Statü)",
+    "q": "1982 Anayasası'na göre aşağıdakilerden hangisi 'Siyasi Haklar ve Ödevler' bölümünde düzenlenen haklardan biri değildir?",
+    "o": [
+      "Vatan hizmeti",
+      "Vergi ödevi",
+      "Bilgi edinme hakkı",
+      "Dilekçe hakkı",
+      "Konut dokunulmazlığı"
+    ],
+    "a": 4,
+    "e": "Vatan hizmeti, vergi ödevi, bilgi edinme hakkı, dilekçe hakkı, seçme ve seçilme hakkı, kamu hizmetine girme hakkı gibi haklar 'Siyasi Haklar ve Ödevler' (Aktif Statü) bölümündedir. Konut dokunulmazlığı ise 'Kişinin Hakları ve Ödevleri' (Negatif Statü) bölümünde yer alan koruyucu bir haktır."
+  },
+  {
+    "id": "vat_035",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "sosyal-ekonomik-haklar",
+    "subtopic": "Sosyal ve Ekonomik Haklar",
+    "q": "I. Grev ve Lokavt Hakkı\nII. Toplantı ve Gösteri Yürüyüşü Düzenleme Hakkı\nIII. Çalışma ve Sözleşme Hürriyeti\n\nYukarıdakilerden hangileri 1982 Anayasası'nda 'Sosyal ve Ekonomik Haklar' bölümünde düzenlenmiştir?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 2,
+    "e": "Grev ve Lokavt Hakkı (I) ile Çalışma ve Sözleşme Hürriyeti (III), Sosyal ve Ekonomik Haklar bölümündedir. Ancak Toplantı ve Gösteri Yürüyüşü Düzenleme Hakkı (II), Kişinin Hakları ve Ödevleri (Negatif Statü) bölümünde düzenlenmiştir. Bu nedenle doğru cevap I ve III'tür."
+  },
+  {
+    "id": "vat_036",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "secme-secilme-hakki",
+    "subtopic": "Seçme, Seçilme ve Siyasi Faaliyette Bulunma Hakkı",
+    "q": "1982 Anayasası'na göre, aşağıdakilerden hangisi seçimlerde oy kullanabilir?",
+    "o": [
+      "Silah altında bulunan erler",
+      "Askeri öğrenciler",
+      "Taksirli suçlardan hüküm giyenler (ceza infaz kurumundakiler)",
+      "Kasıtlı suçtan hükümlü bulunanlar (ceza infaz kurumundakiler)",
+      "On sekiz yaşını doldurmamış Türk vatandaşları"
+    ],
+    "a": 2,
+    "e": "Anayasa'nın 67. maddesine göre; silah altında bulunan er ve erbaşlar ile askeri öğrenciler ve taksirli suçlardan hüküm giyenler hariç ceza infaz kurumunda bulunan hükümlüler oy kullanamaz. Bu ifadenin mefhum-u muhalifinden (zıttından) anlaşıldığı üzere, 'taksirli suçlardan hüküm giyenler' cezaevinde olsalar dahi oy kullanabilirler."
+  },
+  {
+    "id": "vat_037",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "yabancilarin-durumu",
+    "subtopic": "Yabancıların Hakları",
+    "q": "1982 Anayasası'nın 16. maddesine göre, temel hak ve hürriyetler yabancılar için nasıl sınırlandırılabilir?",
+    "o": [
+      "Sadece Anayasa'da belirtilen özel sebeplerle",
+      "Milletlerarası hukuka uygun olarak kanunla",
+      "Cumhurbaşkanlığı kararnamesi ile",
+      "Karşılıklılık ilkesi gözetilerek yönetmelikle",
+      "İçişleri Bakanlığı genelgesi ile"
+    ],
+    "a": 1,
+    "e": "Anayasa'nın 16. maddesi açık ve net bir hüküm içerir: 'Temel hak ve hürriyetler, yabancılar için, milletlerarası hukuka uygun olarak kanunla sınırlanabilir.' Burada iki temel şart vardır: Milletlerarası hukuka uygunluk ve Kanunilik."
+  },
+  {
+    "id": "vat_038",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "ozel-hayatin-gizliligi",
+    "subtopic": "Özel Hayatın Gizliliği ve Korunması",
+    "q": "Özel hayatın gizliliği kapsamında, gecikmesinde sakınca bulunan hallerde kanunla yetkili kılınmış merciin yazılı emriyle yapılan arama veya el koyma işlemi, en geç ne kadar süre içinde görevli hakimin onayına sunulmalıdır?",
+    "o": [
+      "12 saat",
+      "24 saat",
+      "48 saat",
+      "3 gün",
+      "1 hafta"
+    ],
+    "a": 1,
+    "e": "Anayasa'nın 20. ve 21. maddeleri uyarınca; gecikmesinde sakınca bulunan hallerde yetkili merciin emriyle yapılan işlem, 24 saat içinde görevli hakimin onayına sunulur. Hakim, kararını el koymadan itibaren 48 saat içinde açıklar; aksi halde el koyma kendiliğinden kalkar. Soru 'sunulma' süresini sorduğu için cevap 24 saattir."
+  },
+  {
+    "id": "vat_039",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "hak-arama-hurriyeti",
+    "subtopic": "Hak Arama Hürriyeti ve Adil Yargılanma",
+    "q": "1982 Anayasası'na göre, aşağıdakilerden hangisi 'Hak Arama Hürriyeti' başlığı altında düzenlenen ilkelerden biri değildir?",
+    "o": [
+      "Kanuni hakim güvencesi",
+      "Masumiyet karinesi",
+      "Cezaların şahsiliği",
+      "İspat hakkı",
+      "Dilekçe hakkı"
+    ],
+    "a": 4,
+    "e": "Kanuni hakim güvencesi (m.37), Masumiyet karinesi (m.38), Cezaların şahsiliği (m.38) ve İspat hakkı (m.39), Anayasa'nın 'Hak Arama Hürriyeti' ve ilgili ceza esasları bölümünde yer alan veya bu kapsamda değerlendirilen unsurlardır. Ancak 'Dilekçe hakkı' (m.74), Siyasi Haklar ve Ödevler bölümünde düzenlenen, idari makamlara başvuruyu içeren ayrı bir haktır."
+  },
+  {
+    "id": "vat_040",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "basin-yayin-hurriyeti",
+    "subtopic": "Basın ve Yayımla İlgili Hükümler",
+    "q": "I. Süreli veya süresiz yayın önceden izin alma şartına bağlanamaz.\nII. Basımevi kurmak için mali teminat yatırılması şart koşulamaz.\nIII. Kanunla yasaklanmış dilde yayın yapılamaz.\n\n1982 Anayasası'nın basın hürriyeti ile ilgili hükümleri dikkate alındığında, yukarıdaki ifadelerden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 1,
+    "e": "Anayasa'nın 28. ve 29. maddelerine göre; süreli veya süresiz yayın önceden izin alma ve mali teminat yatırma şartına bağlanamaz (I ve II doğrudur). Ancak 'Kanunla yasaklanmış dilde yayın yapılamaz' hükmü, 2001 yılında Anayasa'dan çıkarılmıştır. Dolayısıyla III. öncül yanlıştır (Mevcut anayasada böyle bir yasak yoktur)."
+  },
+  {
+    "id": "vat_041",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "temel-haklarin-siniflandirilmasi",
+    "subtopic": "Temel Hakların Sınıflandırılması",
+    "q": "1982 Anayasası'nın benimsediği Jellinek sınıflandırmasına göre, aşağıdakilerden hangisi 'Negatif Statü Hakları' (Kişinin Hakları ve Ödevleri) grubunda yer almaz?",
+    "o": [
+      "Mülkiyet hakkı",
+      "İspat hakkı",
+      "Toplantı ve gösteri yürüyüşü düzenleme hakkı",
+      "Konut dokunulmazlığı",
+      "Ailenin korunması ve çocuk hakları"
+    ],
+    "a": 4,
+    "e": "Negatif statü hakları (Kişinin hakları), devlete 'dokunma' emri veren koruyucu haklardır. Mülkiyet, ispat, toplantı ve gösteri yürüyüşü ve konut dokunulmazlığı bu gruptadır. Ancak 'Ailenin korunması ve çocuk hakları' devlete müdahale ve düzenleme görevi veren 'Pozitif Statü' (Sosyal ve Ekonomik) haklar grubunda yer alır."
+  },
+  {
+    "id": "vat_042",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "haklarin-sinirlandirilmasi",
+    "subtopic": "Temel Hak ve Hürriyetlerin Sınırlanması",
+    "q": "1982 Anayasası'nın 13. maddesine göre, temel hak ve hürriyetlerin sınırlandırılmasında aşağıdakilerden hangisi bir ölçüt olarak öngörülmemiştir?",
+    "o": [
+      "Kanunla sınırlama",
+      "Ölçülülük ilkesine uygunluk",
+      "Laik Cumhuriyet gereklerine uygunluk",
+      "Hakkın özüne dokunmama",
+      "Olağanüstü hal Cumhurbaşkanlığı kararnamesine uygunluk"
+    ],
+    "a": 4,
+    "e": "Anayasa'nın 13. maddesine göre haklar; kanunla, sebeplere bağlı olarak, Anayasa'nın sözüne ve ruhuna, demokratik toplum düzenine, laik Cumhuriyet gereklerine ve ölçülülük ilkesine uygun olarak sınırlanabilir. Olağan dönemlerde sınırlama aracı 'Kanun'dur. 'Olağanüstü hal Cumhurbaşkanlığı kararnamesi' ile sınırlama yapılması, 13. madde (genel sınırlama rejimi) kapsamında değil, 15. madde (hakların durdurulması) rejimi ile ilgilidir."
+  },
+  {
+    "id": "vat_043",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "sert-cekirdek-haklar",
+    "subtopic": "Sert Çekirdek Haklar",
+    "q": "Savaş, seferberlik veya olağanüstü hallerde dahi dokunulamayan, 'sert çekirdek haklar' arasında aşağıdakilerden hangisi yer almaz?",
+    "o": [
+      "Yaşama hakkı (savaş hukukuna uygun fiiller sonucu meydana gelen ölümler dışında)",
+      "Maddi ve manevi vücut bütünlüğü",
+      "Din ve vicdan hürriyeti (ibadet hariç)",
+      "Düşünce ve kanaatleri açıklama hürriyeti",
+      "Suç ve cezaların geçmişe yürütülememesi"
+    ],
+    "a": 3,
+    "e": "Sert çekirdek haklar kapsamında; kişinin yaşama hakkı, maddi ve manevi bütünlüğü, din ve vicdan hürriyeti (düşüncesi), düşünce ve kanaatleri (açıklama zorunluluğu olmaması) ve masumiyet karinesi yer alır. Ancak 'Düşünce ve kanaatleri açıklama hürriyeti' (yayma hürriyeti) sert çekirdek hak değildir; olağanüstü hallerde sınırlandırılabilir. Sert çekirdek olan kısım, kişinin düşüncesini açıklamaya 'zorlanamaması'dır."
+  },
+  {
+    "id": "vat_044",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "siyasi-haklar",
+    "subtopic": "Siyasi Haklar ve Ödevler",
+    "q": "Aşağıdakilerden hangisi 1982 Anayasası'nda düzenlenen 'Siyasi Haklar ve Ödevler' (Aktif Statü Hakları) bölümünde yer alır?",
+    "o": [
+      "Sendika kurma hakkı",
+      "Grev hakkı ve lokavt",
+      "Mal bildirimi",
+      "Çalışma ve sözleşme hürriyeti",
+      "Bilim ve sanat hürriyeti"
+    ],
+    "a": 2,
+    "e": "Sendika, grev, çalışma hürriyeti 'Sosyal ve Ekonomik Haklar'dır. Bilim ve sanat hürriyeti 'Kişinin Hakları'dır. 'Mal bildirimi' ise kamu hizmetine girenlerin yükümlülüğü olarak Siyasi Haklar ve Ödevler bölümünde (Vatan hizmeti, Vergi ödevi, Dilekçe hakkı gibi) düzenlenmiştir."
+  },
+  {
+    "id": "vat_045",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "secme-secilme-hakki",
+    "subtopic": "Seçme, Seçilme ve Siyasi Faaliyette Bulunma Hakkı",
+    "q": "1982 Anayasası'na göre, aşağıdakilerden hangisi oy kullanabilir?",
+    "o": [
+      "Silah altında bulunan erler",
+      "Askeri öğrenciler",
+      "Kasıtlı suçtan hükümlü bulunanlar (ceza infaz kurumundakiler)",
+      "Taksirli suçlardan hükümlü bulunanlar",
+      "Kısıtlılar"
+    ],
+    "a": 3,
+    "e": "Anayasa'nın 67. maddesine göre; silah altında bulunan er ve erbaşlar, askeri öğrenciler ve taksirli suçlardan hüküm giyenler hariç ceza infaz kurumundaki hükümlüler oy kullanamaz. Bu ifadeden yola çıkarak; 'Taksirli suçlardan hükümlü bulunanlar' oy kullanabilir. Ayrıca tutuklular da oy kullanabilir."
+  },
+  {
+    "id": "vat_046",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "ozel-hayatin-gizliligi",
+    "subtopic": "Özel Hayatın Gizliliği ve Korunması",
+    "q": "Özel hayatın gizliliği kapsamında, gecikmesinde sakınca bulunan hallerde kanunla yetkili kılınan merciin yazılı emriyle arama yapılması durumunda, bu kararın en geç ne kadar süre içinde görevli hakimin onayına sunulması gerekir?",
+    "o": [
+      "24 saat",
+      "48 saat",
+      "3 gün",
+      "5 gün",
+      "7 gün"
+    ],
+    "a": 0,
+    "e": "Anayasa'nın 20. maddesi (Özel hayatın gizliliği) ve 21. maddesi (Konut dokunulmazlığı) uyarınca; gecikmesinde sakınca bulunan hallerde yetkili merciin yazılı emriyle yapılan aramalarda, karar '24 saat' içinde görevli hakimin onayına sunulur. Hakim, kararını el koymadan itibaren '48 saat' içinde açıklar."
+  },
+  {
+    "id": "vat_047",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "sosyal-ekonomik-haklar",
+    "subtopic": "Sosyal ve Ekonomik Haklar",
+    "q": "I. Toplu iş sözleşmesi hakkı\nII. Kamu denetçisine başvurma hakkı\nIII. Konut hakkı\nIV. Dernek kurma hürriyeti\n\nYukarıdakilerden hangileri 'Sosyal ve Ekonomik Haklar' (Pozitif Statü) sınıflandırmasında yer alır?",
+    "o": [
+      "Yalnız I",
+      "I ve III",
+      "II ve IV",
+      "I, III ve IV",
+      "I, II, III ve IV"
+    ],
+    "a": 1,
+    "e": "I. Toplu iş sözleşmesi hakkı (Sosyal haktır). II. Kamu denetçisine başvurma hakkı (Siyasi haktır - Dilekçe hakkı ile beraber düzenlenmiştir). III. Konut hakkı (Sosyal haktır, devletin planlama yapmasını gerektirir). IV. Dernek kurma hürriyeti (Kişi hakkıdır/Negatif statü). Dolayısıyla doğru cevap I ve III'tür."
+  },
+  {
+    "id": "vat_048",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "yabancilarin-durumu",
+    "subtopic": "Yabancıların Hak ve Hürriyetleri",
+    "q": "1982 Anayasası'nın 16. maddesine göre, temel hak ve hürriyetler, yabancılar için aşağıdakilerden hangisine uygun olarak kanunla sınırlanabilir?",
+    "o": [
+      "Mütekabiliyet ilkesine",
+      "Milletlerarası hukuka",
+      "Kamu düzenine",
+      "Örf ve adet hukukuna",
+      "Ulusal çıkarlara"
+    ],
+    "a": 1,
+    "e": "Anayasa'nın 16. maddesi nettir: 'Temel hak ve hürriyetler, yabancılar için, milletlerarası hukuka uygun olarak kanunla sınırlanabilir.' Mütekabiliyet (karşılıklılık) ilkesi Tapu Kanunu gibi özel kanunlarda geçse de Anayasa'nın 16. maddesindeki genel kıstas 'Milletlerarası hukuk'tur."
+  },
+  {
+    "id": "vat_049",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "hak-arama-hurriyeti",
+    "subtopic": "Hak Arama Hürriyeti",
+    "q": "Anayasa'nın 36. maddesinde düzenlenen hak arama hürriyeti ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Herkes, meşru vasıta ve yollardan faydalanmak suretiyle yargı mercileri önünde davacı veya davalı olma hakkına sahiptir.",
+      "Hiçbir mahkeme, görev ve yetkisi içindeki davaya bakmaktan kaçınamaz.",
+      "Adil yargılanma hakkı, hak arama hürriyetinin bir parçasıdır.",
+      "İdari işlemler aleyhine açılacak davalarda süre aşımı kuralı uygulanamaz.",
+      "Kişiler, savunma hakkı kapsamında iddialarını ispat etme hakkına sahiptir."
+    ],
+    "a": 3,
+    "e": "Hak arama hürriyeti sınırsız değildir ve usul kanunlarına tabidir. İdari yargıda veya diğer yargı kollarında 'dava açma süreleri' (süre aşımı) hak düşürücü sürelerdir ve Anayasa'ya aykırı değildir. Dolayısıyla 'süre aşımı kuralı uygulanamaz' ifadesi yanlıştır; hukuk güvenliği ilkesi gereği süreler vardır."
+  },
+  {
+    "id": "vat_050",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "basin-yayin-hurriyeti",
+    "subtopic": "Basın ve Yayınla İlgili Hükümler",
+    "q": "1982 Anayasası'na göre süreli veya süresiz yayınlar, kanunun gösterdiği suçların soruşturma veya kovuşturması sırasında, aşağıdakilerden hangisinin kararıyla toplatılabilir?",
+    "o": [
+      "Cumhuriyet Savcısı",
+      "Kolluk Amiri",
+      "Hakim",
+      "Mülki Amir",
+      "İçişleri Bakanı"
+    ],
+    "a": 2,
+    "e": "Anayasa'nın 28. maddesine göre; süreli veya süresiz yayınlar, kanunun gösterdiği suçların soruşturma veya kovuşturması sırasında ancak 'Hakim kararıyla' toplatılabilir. Gecikmesinde sakınca bulunan hallerde yetkili merciin emriyle toplatılsa bile 24 saat içinde hakime bildirilmek zorundadır. Asıl yetkili merci Hakimdir."
+  },
+  {
+    "id": "vat_051",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "haklarin-siniflandirilmasi",
+    "subtopic": "Hakların Sınıflandırılması ve Jellinek Teorisi",
+    "q": "1982 Anayasası'nın sistematiği ve Jellinek'in sınıflandırması dikkate alındığında, aşağıdakilerden hangisi 'Koruyucu Haklar' (Negatif Statü Hakları) grubunda yer almaz?",
+    "o": [
+      "Konut dokunulmazlığı",
+      "Mülkiyet hakkı",
+      "Din ve vicdan hürriyeti",
+      "Toprak mülkiyeti",
+      "Basın hürriyeti"
+    ],
+    "a": 3,
+    "e": "Toprak mülkiyeti, Anayasa'nın 'Sosyal ve Ekonomik Haklar ve Ödevler' (Pozitif Statü) bölümünde düzenlenmiştir (Md. 44). Oysa Mülkiyet Hakkı, Konut Dokunulmazlığı, Din ve Vicdan Hürriyeti ve Basın Hürriyeti, kişinin devlet tarafından aşılamayan özel alanını koruduğu için 'Koruyucu Haklar' (Negatif Statü) grubundadır."
+  },
+  {
+    "id": "vat_052",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "haklarin-sinirlanmasi",
+    "subtopic": "Temel Hak ve Hürriyetlerin Sınırlanması",
+    "q": "1982 Anayasası'nın 13. maddesine göre, temel hak ve hürriyetlerin sınırlandırılmasında aşağıdakilerden hangisi bir ölçüt olarak belirtilmemiştir?",
+    "o": [
+      "Kanunla sınırlama",
+      "Hakkın özüne dokunmama",
+      "Genel ahlak ve genel sağlık",
+      "Ölçülülük ilkesi",
+      "Laik Cumhuriyetin gerekleri"
+    ],
+    "a": 2,
+    "e": "2001 Anayasa değişikliği ile 'Genel ahlak ve genel sağlık' gibi genel sınırlama sebepleri 13. maddeden çıkarılmıştır. Artık haklar yalnızca ilgili maddelerinde belirtilen 'özel sebepler'e bağlı olarak sınırlanabilir. Diğer şıklar (Kanun, Hakkın özü, Ölçülülük, Demokratik toplum ve Laik Cumhuriyet gerekleri) anayasal sınırlama ölçütleridir."
+  },
+  {
+    "id": "vat_053",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "sert-cekirdek-haklar",
+    "subtopic": "Temel Hakların Durdurulması ve Sert Çekirdek Haklar",
+    "q": "Savaş, seferberlik veya olağanüstü hallerde dahi dokunulması mümkün olmayan, 'Çekirdek Haklar' kapsamında aşağıdakilerden hangisi yer almaz?",
+    "o": [
+      "Yaşama hakkı (savaş hukukuna uygun fiiller hariç)",
+      "Maddi ve manevi vücut bütünlüğü",
+      "Din ve vicdan hürriyeti (ibadet ve ayinlere katılma hariç)",
+      "Suç ve cezaların geriye yürümemesi",
+      "Haberleşme hürriyeti"
+    ],
+    "a": 4,
+    "e": "Haberleşme hürriyeti, olağanüstü yönetim usullerinde durdurulabilen veya sınırlanabilen bir haktır; sert çekirdek hak değildir. Sert çekirdek haklar: Yaşama hakkı, vücut bütünlüğü, din ve vicdan hürriyetinin düşünce boyutu (açıklamaya zorlanamama), suç ve cezaların geriye yürümemesi ve masumiyet karinesidir."
+  },
+  {
+    "id": "vat_054",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "siyasi-haklar",
+    "subtopic": "Seçme, Seçilme ve Siyasi Faaliyette Bulunma Hakları",
+    "q": "1982 Anayasası'na göre, aşağıdakilerden hangisinin oy kullanma hakkı bulunmaktadır?",
+    "o": [
+      "Silah altında bulunan er ve erbaşlar",
+      "Askeri öğrenciler",
+      "Taksirli suçlardan hüküm giyenler",
+      "Kasıtlı suçlardan dolayı ceza infaz kurumunda bulunan hükümlüler",
+      "Kısıtlılar"
+    ],
+    "a": 2,
+    "e": "1982 Anayasası'nın 67. maddesine göre; silah altındaki er ve erbaşlar, askeri öğrenciler ve taksirli suçlar hariç ceza infaz kurumundaki hükümlüler (yani kasıtlı suçtan hükümlü olanlar) oy kullanamaz. Ancak, 'taksirli suçlardan hüküm giyenler' cezaevinde olsalar dahi oy kullanabilirler."
+  },
+  {
+    "id": "vat_055",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "ozel-hayatin-gizliligi",
+    "subtopic": "Kişi Hakları ve Ödevleri",
+    "q": "Konut dokunulmazlığı ile ilgili olarak;\nI. Kimsenin konutuna dokunulamaz.\nII. Milli güvenlik, kamu düzeni gibi hallerde kanunla yetkili kılınmış merciin yazılı emri yeterlidir.\nIII. Gecikmesinde sakınca bulunan haller dışında hakim kararı şarttır.\n\nifadelerinden hangileri 1982 Anayasası'na göre doğrudur?",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Anayasa'nın 21. maddesine göre; kimsenin konutuna dokunulamaz (I). Milli güvenlik, kamu düzeni, suç işlenmesinin önlenmesi gibi sebeplerle, gecikmesinde sakınca bulunan hallerde kanunla yetkili kılınmış merciin yazılı emri (II) veya normal şartlarda hakim kararı (III) ile arama yapılabilir. Tüm öncüller doğrudur."
+  },
+  {
+    "id": "vat_056",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "siyasi-partiler",
+    "subtopic": "Siyasi Partilerle İlgili Yasaklar",
+    "q": "Siyasi partilere üye olma yasağı bakımından aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Yükseköğretim elemanları siyasi partilere üye olabilirler.",
+      "Yükseköğretim öncesi öğrenciler siyasi partilere üye olamazlar.",
+      "Hakimler ve savcılar siyasi partilere üye olamazlar.",
+      "Yüksek yargı organı mensupları siyasi partilere üye olabilirler.",
+      "Devlet memurları siyasi partilere üye olamazlar."
+    ],
+    "a": 3,
+    "e": "Yüksek yargı organı mensupları, hakimler ve savcılar, Sayıştay mensupları, memurlar, işçi niteliği taşımayan kamu görevlileri, silahlı kuvvetler mensupları ve yükseköğretim öncesi öğrenciler siyasi partilere üye OLAMAZLAR. Yükseköğretim elemanları ve yükseköğretim öğrencileri üye olabilir. D seçeneği yanlıştır."
+  },
+  {
+    "id": "vat_057",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "sosyal-ekonomik-haklar",
+    "subtopic": "Çalışma ve Sözleşme Hürriyeti",
+    "q": "Sendika kurma hakkı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "o": [
+      "Çalışanlar ve işverenler önceden izin almaksızın sendika kurma hakkına sahiptir.",
+      "Sendikalar anayasada belirtilen amaçlar dışında faaliyette bulunamazlar.",
+      "Hiç kimse bir sendikaya üye olmaya zorlanamaz.",
+      "Sendika kurma hakkı sadece işçilere tanınmış bir haktır, memurlar yararlanamaz.",
+      "Sendika tüzükleri demokratik esaslara aykırı olamaz."
+    ],
+    "a": 3,
+    "e": "1995 ve 2010 Anayasa değişiklikleriyle memurlara (kamu görevlilerine) de sendika kurma hakkı tanınmıştır. Dolayısıyla sendika hakkı sadece işçilere hasredilmiş bir hak değildir. D seçeneği yanlıştır."
+  },
+  {
+    "id": "vat_058",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "hak-arama-hurriyeti",
+    "subtopic": "Dilekçe, Bilgi Edinme ve Kamu Denetçisine Başvuru",
+    "q": "2010 Anayasa değişikliği ile hukuk sistemimize giren 'Kamu Denetçiliği Kurumu' (Ombudsmanlık) ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "o": [
+      "Cumhurbaşkanlığına bağlı olarak çalışır.",
+      "Kamu Başdenetçisi Cumhurbaşkanı tarafından seçilir.",
+      "İdarenin işleyişiyle ilgili şikayetleri inceler ve kararları bağlayıcıdır.",
+      "Türkiye Büyük Millet Meclisi Başkanlığına bağlıdır.",
+      "Yargı kararlarını denetleme yetkisine sahiptir."
+    ],
+    "a": 3,
+    "e": "Kamu Denetçiliği Kurumu, TBMM Başkanlığına bağlıdır (D doğru). Kamu Başdenetçisi TBMM tarafından seçilir (B yanlış). Kurumun kararları bağlayıcı değil, tavsiye niteliğindedir (C yanlış). Yargı yetkisi içine giren konuları inceleyemez (E yanlış)."
+  },
+  {
+    "id": "vat_059",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "vatandaslik-hakki",
+    "subtopic": "Türk Vatandaşlığı",
+    "q": "Türk vatandaşlığı ile ilgili aşağıdaki hükümlerden hangisi 1982 Anayasası'nda yer almaz?",
+    "o": [
+      "Türk babanın veya Türk ananın çocuğu Türktür.",
+      "Vatandaşlık, kanunun gösterdiği şartlarla kazanılır ve kaybedilir.",
+      "Hiçbir Türk, vatana bağlılıkla bağdaşmayan bir eylemde bulunmadıkça vatandaşlıktan çıkarılamaz.",
+      "Vatandaşlıktan çıkarma ile ilgili karar ve işlemlere karşı yargı yolu kapatılamaz.",
+      "Vatandaşlıktan çıkarma kararı doğrudan Anayasa Mahkemesi tarafından verilir."
+    ],
+    "a": 4,
+    "e": "Vatandaşlıktan çıkarma kararı idari bir işlemdir (genellikle Cumhurbaşkanı kararı ile). Anayasa Mahkemesi doğrudan çıkarma kararı vermez. Ancak, Anayasa'nın 66. maddesi gereği bu kararlara karşı yargı yolu (Danıştay) kapatılamaz."
+  },
+  {
+    "id": "vat_060",
+    "topicId": "Bo3qqooJsqtIZrK5zc9S",
+    "subtopicId": "kisi-haklari",
+    "subtopic": "Suç ve Cezalara İlişkin Esaslar",
+    "q": "Suç ve cezalara ilişkin anayasal esaslar dikkate alındığında;\nI. Ceza sorumluluğu şahsidir.\nII. Ölüm cezası ve genel müsadere cezası verilemez.\nIII. İdare, kişi hürriyetinin kısıtlanması sonucunu doğuran bir müeyyide uygulayamaz (istisnalar saklı kalmak kaydıyla).\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Anayasa'nın 38. maddesine göre; ceza sorumluluğu şahsidir (I), ölüm cezası (2004'te kaldırıldı) ve genel müsadere cezası verilemez (II), idare kişi hürriyetini kısıtlayıcı (hapis gibi) müeyyide uygulayamaz (ancak TSK'nın iç düzeni gibi istisnalar saklıdır) (III). Hepsi doğrudur."
+  }
+]

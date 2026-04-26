@@ -1,0 +1,2572 @@
+[
+  {
+    "id": "cog_001",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "sicaklik-dagilisi",
+    "subtopic": "Sıcaklık Dağılışı ve Etkileyen Faktörler",
+    "q": "Türkiye'de yıllık ortalama sıcaklık dağılışı incelendiğinde, indirgenmiş sıcaklık haritalarında en düşük sıcaklıkların Kuzeydoğu Anadolu yerine genellikle Kuzey Anadolu dağlarının iç kesimlerinde veya Doğu Anadolu'nun kuzeyinde yoğunlaşmadığı, aksine en yüksek ve en düşük değerlerin enlem ve karasallık etkisiyle şekillendiği görülür. Ancak, gerçek sıcaklık ile indirgenmiş sıcaklık arasındaki farkın en fazla olduğu merkezler incelendiğinde, bu durumun temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Enlem derecesinin yüksek olması",
+      "Denizellik etkisinden uzaklaşılması",
+      "Yükselti ortalamasının fazla olması",
+      "Basınç merkezlerinin etkisi",
+      "Bitki örtüsünün cılız olması"
+    ],
+    "a": 2,
+    "e": "Gerçek sıcaklık, bir yerin termometre ile ölçülen fiili sıcaklığıdır. İndirgenmiş sıcaklık ise yükseltinin yok sayılarak (her yerin 0 metre kabul edilmesi) hesaplanan sıcaklığıdır. Yükselti arttıkça sıcaklık her 200 metrede yaklaşık 1°C azalır. Dolayısıyla, bir merkezin gerçek sıcaklığı ile indirgenmiş sıcaklığı arasındaki farkın fazla olması, o merkezin yükseltisinin fazla olduğunu kanıtlar. Türkiye'de bu farkın en fazla olduğu yer, ortalama yükseltinin en çok olduğu Doğu Anadolu Bölgesi'dir.",
+    "_part": 1
+  },
+  {
+    "id": "cog_002",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "basinc-ve-ruzgarlar",
+    "subtopic": "Türkiye'yi Etkileyen Basınç Merkezleri",
+    "q": "Türkiye'nin mutlak ve göreceli konumu gereği yıl içinde farklı basınç merkezlerinin etkisinde kalmaktadır. Yaz mevsiminde Türkiye genelinde sıcaklıkların artmasına ve kuraklığın belirginleşmesine neden olan, oluşum kökeni termik olup Güneydoğu Anadolu'dan yurda giriş yapan basınç merkezi aşağıdakilerden hangisidir?",
+    "o": [
+      "Sibirya Yüksek Basıncı",
+      "İzlanda Alçak Basıncı",
+      "Basra Alçak Basıncı",
+      "Asor Yüksek Basıncı",
+      "Balkan Yüksek Basıncı"
+    ],
+    "a": 2,
+    "e": "Soru kökünde belirtilen; yaz aylarında etkili olan, sıcaklığı artıran, kuraklığa neden olan ve termik kökenli olup güneydoğudan sokulan basınç merkezi Basra Alçak Basıncı'dır. Asor dinamik kökenlidir ve yıl boyu etkilidir (yazın kuraklığı artırır ancak güneydoğudan değil güneybatıdan etki alanı geniştir). Sibirya ve İzlanda ise kışın etkilidir.",
+    "_part": 2
+  },
+  {
+    "id": "cog_003",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-tipleri",
+    "subtopic": "Türkiye'de Görülen İklim Tipleri ve Yağış Rejimi",
+    "q": "Türkiye'de görülen iklim tipleri ve yağış rejimleri dikkate alındığında, aşağıdaki yörelerden hangisinin yağış rejimi 'düzenli' olarak nitelendirilebilir ve en fazla yağışı sonbahar mevsiminde alır?",
+    "o": [
+      "Menteşe Yöresi",
+      "Ergene Havzası",
+      "Doğu Karadeniz Kıyı Kuşağı",
+      "Hakkari Yöresi",
+      "Konya Ovası"
+    ],
+    "a": 2,
+    "e": "Türkiye'de yağış rejimi düzenli olan tek iklim tipi Karadeniz iklimidir. Karadeniz iklimi, en fazla yağışı sonbahar mevsiminde alır. Seçenekler arasında Doğu Karadeniz Kıyı Kuşağı bu özellikleri tam olarak yansıtır. Menteşe, Ergene, Hakkari ve Konya'da yağış rejimleri düzensizdir.",
+    "_part": 3
+  },
+  {
+    "id": "cog_004",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yerel-ruzgarlar",
+    "subtopic": "Yerel Rüzgarlar ve Etkileri",
+    "q": "Türkiye'yi etkileyen yerel rüzgarların özellikleri ile ilgili;\nI. Lodos, güneybatıdan eser ve denizden geldiği için nemli hava taşıyarak kışın ılımanlaştırıcı etki yapar, ancak soba zehirlenmelerine yol açabilir.\nII. Poyraz, kuzeydoğudan eser, sıcaklığı belirgin şekilde düşürür ve yazın Ege kıyılarında serinletici etki yapabilir.\nIII. Samyeli (Keşişleme), güneydoğudan eser ve getirdiği çöl tozlarıyla birlikte tarım ürünlerinde erken olgunlaşmaya veya kurumaya neden olabilir.\n\nyargılarından hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Verilen öncüllerin tamamı doğrudur. Lodos (GB) nemli ve sıcaktır, basınç farkı yarattığı için soba zehirlenmesi riski taşır. Poyraz (KD) Sibirya üzerinden soğuk hava taşır. Samyeli (GD) ise çöl bölgelerinden geldiği için sıcak, kuru ve buharlaştırıcı etkisi yüksektir.",
+    "_part": 4
+  },
+  {
+    "id": "cog_005",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yagis-olusum-tipleri",
+    "subtopic": "Yağış Oluşum Şekilleri (Konveksiyonel, Cephesel, Yamaç)",
+    "q": "Türkiye'de görülen yağış oluşum şekilleri ile ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+    "o": [
+      "İç Anadolu Bölgesi - Konveksiyonel (Yükselim) Yağışlar",
+      "Akdeniz Bölgesi - Cephesel (Frontal) Yağışlar",
+      "Karadeniz Bölgesi - Yamaç (Orografik) Yağışlar",
+      "Erzurum-Kars Platosu - Yazın Konveksiyonel Yağışlar",
+      "Güneydoğu Anadolu - Yazın Yamaç Yağışları"
+    ],
+    "a": 4,
+    "e": "Güneydoğu Anadolu Bölgesi, yaz aylarında şiddetli kuraklık yaşar ve belirgin bir yamaç yağışı görülmez. Bölgenin güneyinde yüksek dağ sıralarının (Toroslar gibi denize paralel set çekecek şekilde) bulunmaması ve Basra alçak basıncının kurutucu etkisi nedeniyle yazın yağış oluşumu çok azdır. Diğer eşleştirmeler doğrudur; İç Anadolu ve Erzurum-Kars'ta ısınan havanın yükselmesiyle konveksiyonel, Akdeniz'de sıcak ve soğuk havanın karşılaşmasıyla cephesel, Karadeniz'de ise denizden gelen nemli havanın dağlara çarpmasıyla yamaç yağışları görülür.",
+    "_part": 5
+  },
+  {
+    "id": "cog_006",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "mikroklima",
+    "subtopic": "Mikroklima Alanları",
+    "q": "Türkiye'nin genel iklim şartları düşünüldüğünde, bazı dar alanlarda çevresinden farklı iklim özellikleri görülmektedir. 'Mikroklima' olarak adlandırılan bu alanlar ve buralarda yetişen tarım ürünleri eşleştirmelerinden hangisi mikroklima örneği olarak kabul edilemez?",
+    "o": [
+      "Rize - Turunçgil",
+      "Iğdır - Pamuk",
+      "Artvin (Yusufeli) - Zeytin",
+      "Anamur - Muz",
+      "Malatya - Kayısı"
+    ],
+    "a": 4,
+    "e": "Mikroklima, çevresindeki geniş iklim bölgesinden (makroklima) farklı özellikler gösteren dar alanlardır. Rize'de turunçgil, Iğdır'da pamuk ve Artvin'de zeytin yetişmesi, fön rüzgarları veya yer şekillerinin koruyucu etkisiyle oluşan mikroklima sonucudur. Anamur'da muz yetişmesi de mikroklimadır. Ancak Malatya'da kayısı yetişmesi bir mikroklima sonucu değildir; kayısı karasal iklim şartlarına uyum sağlamış, soğuğa dayanıklı bir meyvedir ve geniş bir alanda yetişebilir. Malatya'nın kayısı ile anılması üretim yoğunluğu ile ilgilidir, iklimsel bir istisna (mikroklima) değildir.",
+    "_part": 6
+  },
+  {
+    "id": "cog_007",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "nem-ve-yagis",
+    "subtopic": "Bağıl Nem ve Maksimum Nem İlişkisi",
+    "q": "Yaz mevsiminde Güneydoğu Anadolu Bölgesi'nde sıcaklık değerlerinin Akdeniz Bölgesi'nden daha yüksek olmasına rağmen, hissedilen sıcaklığın Akdeniz kıyılarında daha bunaltıcı olmasının temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Akdeniz'de mutlak nem ve bağıl nemin yüksek olması",
+      "Güneydoğu Anadolu'da samyeli rüzgarının etkili olması",
+      "Akdeniz'de güneşlenme süresinin daha az olması",
+      "Güneydoğu Anadolu'da yükseltinin daha fazla olması",
+      "Akdeniz'de bitki örtüsünün gür olması"
+    ],
+    "a": 0,
+    "e": "Hissedilen sıcaklığı artıran en önemli faktör nemdir. Akdeniz Bölgesi'nde denizellikten dolayı havadaki nem oranı (mutlak ve bağıl nem) çok yüksektir. Bu durum terlemeyi zorlaştırarak bunaltıcı bir hava (yüksek hissedilen sıcaklık) oluşturur. Güneydoğu Anadolu'da ise termometre sıcaklığı (maksimum nem kapasitesi) daha yüksek olsa da, hava kurudur (bağıl nem düşüktür), bu da bunaltıcılığı nispeten azaltır.",
+    "_part": 7
+  },
+  {
+    "id": "cog_008",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "bitki-ortusu",
+    "subtopic": "Bitki Örtüsü ve İklim İlişkisi",
+    "q": "Türkiye'nin bitki örtüsü dağılışı incelendiğinde;\nI. Karadeniz ormanlarının tahrip edildiği yerlerde psödomaki,\nII. Akdeniz makilerinin tahrip edildiği yerlerde garig,\nIII. İç Anadolu ormanlarının tahrip edildiği yerlerde antropojen bozkır\n\noluşumlarına rastlanmaktadır. Bu bitki formasyonlarından hangilerinin oluşumunda 'insan tahribatı' doğrudan etkilidir?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Verilen üç öncül de ikincil (sekonder) bitki örtüsü türleridir ve hepsi insan tahribatı sonucu oluşmuştur. Psödomaki (yalancı maki) Karadeniz'de orman tahribiyle, Garig Akdeniz'de maki tahribiyle, Antropojen Bozkır ise İç bölgelerdeki ormanların tahribiyle ortaya çıkan bozkır alanlarıdır.",
+    "_part": 8
+  },
+  {
+    "id": "cog_009",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-genel",
+    "subtopic": "Türkiye İkliminin Genel Özellikleri",
+    "q": "Türkiye'de batıdan doğuya doğru gidildikçe genel olarak yükselti artmaktadır. Bu durumun iklim üzerindeki etkileri düşünüldüğünde, aşağıdakilerden hangisinin batıdan doğuya doğru 'düzenli olarak' arttığı söylenemez?",
+    "o": [
+      "Karla örtülü gün sayısı",
+      "Yıllık toplam yağış miktarı",
+      "Don olaylı gün sayısı",
+      "Gerçek sıcaklık ile indirgenmiş sıcaklık arasındaki fark",
+      "Yıllık sıcaklık farkı"
+    ],
+    "a": 1,
+    "e": "Batıdan doğuya doğru yükselti ve karasallık arttığı için; karla örtülü gün sayısı, don olaylı gün sayısı, gerçek-indirgenmiş sıcaklık farkı ve yıllık sıcaklık farkı genel olarak artar. Ancak yıllık toplam yağış miktarı düzenli olarak artmaz. Örneğin, Doğu Anadolu'daki çukur alanlar (Iğdır, Malatya) veya İç Anadolu, Batı'daki dağlık alanlardan (Menteşe, Yıldız Dağları) daha az yağış alabilir. Yağış, yükseltiden ziyade dağların uzanışı ve denize göre konumla daha çok ilgilidir.",
+    "_part": 9
+  },
+  {
+    "id": "cog_010",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yagis-rejimi",
+    "subtopic": "Yaz Kuraklığı ve Etkileri",
+    "q": "Türkiye'de yaz kuraklığının belirgin olduğu yörelerde tarımsal sulama ihtiyacı fazladır. Buna göre, aşağıdaki bölümlerin hangisinde doğal koşullar dikkate alındığında yaz döneminde sulama ihtiyacının 'en az' olması beklenir?",
+    "o": [
+      "Kıyı Ege Bölümü",
+      "Orta Fırat Bölümü",
+      "Konya Bölümü",
+      "Erzurum-Kars Bölümü",
+      "Antalya Bölümü"
+    ],
+    "a": 3,
+    "e": "Soru, yaz yağışlarının varlığını sorgulamaktadır. Türkiye'de karasal iklimin sertleştiği Erzurum-Kars Bölümü'nde yazlar yağışlı geçer (Konveksiyonel yağışlar). Yaz aylarının yağışlı geçmesi, diğer bölgelere (Ege, Akdeniz, Güneydoğu ve İç Anadolu) kıyasla tarımda sulama ihtiyacını nispeten azaltır veya doğal çayırların yeşil kalmasını sağlar. Diğer seçeneklerin tamamında yaz kuraklığı şiddetlidir.",
+    "_part": 10
+  },
+  {
+    "id": "cog_011",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "sicaklik-etmenleri",
+    "subtopic": "Sıcaklık ve Etkileyen Faktörler",
+    "q": "Türkiye'de yıllık ortalama sıcaklık dağılışı incelendiğinde, genel olarak güneyden kuzeye doğru gidildikçe sıcaklık değerlerinin azaldığı görülür. Ancak kış mevsiminde Ankara'nın sıcaklık ortalaması, daha kuzeyde yer alan Sinop'tan daha düşüktür.\n\nBu durum aşağıdakilerden hangisiyle açıklanabilir?",
+    "o": [
+      "Yükselti ve karasallık",
+      "Enlem etkisi",
+      "Basınç merkezlerinin konumu",
+      "Bitki örtüsü farkı",
+      "Bakı etkisi"
+    ],
+    "a": 0,
+    "e": "Normal şartlarda enlem etkisine bağlı olarak güneyden kuzeye sıcaklığın azalması beklenir. Ancak Ankara'nın Sinop'tan daha soğuk olması enlem ile çelişir (özel konum). Ankara'nın hem denizden uzak olması (karasallık) hem de ortalama yükseltisinin Sinop'tan fazla olması, kışın ısı kaybını artırarak sıcaklığın daha düşük olmasına neden olur. Sinop ise denizellik etkisiyle ılımanlaşır.",
+    "_part": 11
+  },
+  {
+    "id": "cog_012",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "basinc-ve-ruzgarlar",
+    "subtopic": "Türkiye'yi Etkileyen Basınç Merkezleri",
+    "q": "Türkiye'yi etkileyen basınç merkezleri ile ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+    "o": [
+      "Sibirya Yüksek Basıncı - Kışın etkilidir, termik kökenlidir.",
+      "Asor Yüksek Basıncı - Yıl boyu etkilidir, dinamik kökenlidir.",
+      "İzlanda Alçak Basıncı - Kışın ılık ve yağışlı hava getirir, dinamik kökenlidir.",
+      "Basra Alçak Basıncı - Yazın sıcak ve kuru hava getirir, termik kökenlidir.",
+      "Sibirya Yüksek Basıncı - Etkili olduğunda bol yağış bırakır."
+    ],
+    "a": 4,
+    "e": "Sibirya Yüksek Basıncı (Termik YB), kış mevsiminde etkili olduğunda Türkiye'de şiddetli soğuklara, don olaylarına ve ayaza neden olur. Yüksek basınç alanlarında alçalıcı hava hareketleri görüldüğü için genellikle yağış oluşumu engellenir (Karadeniz üzerinden nem alıp gelmediği sürece kuru soğuk yapar). Dolayısıyla 'bol yağış bırakır' ifadesi genelleme olarak yanlıştır; asıl karakteristiği şiddetli soğuktur.",
+    "_part": 12
+  },
+  {
+    "id": "cog_013",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yerel-ruzgarlar",
+    "subtopic": "Yerel Rüzgarlar",
+    "q": "Türkiye'de etkili olan yerel rüzgarlardan biri olan 'Lodos' ile ilgili;\n\nI. Güneybatı yönünden eser.\nII. Gözü yaşlı rüzgar olarak bilinir ve yağış bırakır.\nIII. Kışın estiğinde sıcaklığı belirgin şekilde düşürür.\n\nyargılarından hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
+    ],
+    "a": 2,
+    "e": "Lodos, Türkiye'nin güneybatısından esen (I. öncül doğru), deniz üzerinden geldiği için nem taşıyan ve 'gözü yaşlı' olarak bilinen yağış getirici bir rüzgardır (II. öncül doğru). Ancak güney sektörlü bir rüzgar olduğu için sıcaklığı düşürmez, aksine kışın sıcaklığı artırarak karların erimesine ve sel riskine neden olabilir (III. öncül yanlıştır).",
+    "_part": 13
+  },
+  {
+    "id": "cog_014",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "nem-ve-yagis",
+    "subtopic": "Nem Türleri ve Dağılışı",
+    "q": "Aşağıdaki haritada beş farklı merkez numaralandırılarak gösterilmiştir. Yaz mevsiminde maksimum nem miktarının en fazla olduğu merkez ile bağıl nem oranının en yüksek olduğu merkez sırasıyla hangisidir?",
+    "o": [
+      "Güneydoğu Anadolu (V) - Doğu Karadeniz (II)",
+      "Ege (I) - Doğu Anadolu (IV)",
+      "Akdeniz (III) - Güneydoğu Anadolu (V)",
+      "Doğu Karadeniz (II) - İç Anadolu (I)",
+      "Güneydoğu Anadolu (V) - Akdeniz (III)"
+    ],
+    "a": 0,
+    "e": "Maksimum nem, havanın taşıyabileceği en fazla nem miktarıdır ve sıcaklıkla doğru orantılıdır. Yazın Türkiye'nin en sıcak yeri Güneydoğu Anadolu olduğu için maksimum nem en fazla buradadır (V). Bağıl nem ise havanın neme doyma oranıdır ve yağış ihtimalini gösterir. Yazın en yağışlı ve nemli yer Doğu Karadeniz olduğu için bağıl nem en yüksek buradadır (II). Doğru eşleşme V ve II'dir.",
+    "_part": 14
+  },
+  {
+    "id": "cog_015",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yagis-olusum-tipleri",
+    "subtopic": "Yağış Oluşum Şekilleri",
+    "q": "Türkiye'de görülen yağış oluşum tipleriyle ilgili olarak;\n\nI. Yamaç (Orografik) yağışları en çok Karadeniz kıyılarında görülür.\nII. Konveksiyonel (Yükselim) yağışlar İç Anadolu'da ilkbaharda yaygındır.\nIII. Cephe (Frontal) yağışları sadece kıyı bölgelerde görülür.\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 1,
+    "e": "I. öncül doğrudur; dağların kıyıya paralel uzandığı Karadeniz'de yamaç yağışları yaygındır. II. öncül doğrudur; ısınan havanın yükselmesiyle oluşan konveksiyonel yağışlar İç Anadolu'da 'Kırkikindi' olarak bilinir. III. öncül yanlıştır; Cephe yağışları Türkiye'nin matematik konumu (Orta Kuşak) gereği genel karakteristiğidir ve sadece kıyıda değil, iç bölgelerde de kışın görülen yağışların temel sebebidir.",
+    "_part": 15
+  },
+  {
+    "id": "cog_016",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-tipleri",
+    "subtopic": "Türkiye'de İklim Tipleri",
+    "q": "Yazları sıcak ve kurak, kışları ılık ve yağışlı geçen, karakteristik bitki örtüsü kızılçam ormanlarının tahribiyle oluşan maki olan iklim tipi, aşağıdaki illerin hangisinde görülmez?",
+    "o": [
+      "İzmir",
+      "Antalya",
+      "Gaziantep",
+      "Çanakkale",
+      "Gümüşhane"
+    ],
+    "a": 4,
+    "e": "Tanımlanan iklim Akdeniz İklimi'dir. İzmir, Antalya, Çanakkale (Ege/Marmara kıyıları) ve Gaziantep'in batı kesimlerinde Akdeniz iklimi etkileri görülür. Ancak Gümüşhane, Karadeniz Bölgesi'nde yer almasına rağmen dağların gerisinde kaldığı için karasal iklim özellikleri gösterir ve Akdeniz iklim sahasında yer almaz.",
+    "_part": 16
+  },
+  {
+    "id": "cog_017",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "mikroklima",
+    "subtopic": "Mikroklima Alanları",
+    "q": "Türkiye'de genel iklim şartlarına uymayan, dar alanlı özel iklim bölgelerine 'mikroklima' denir. Aşağıdaki mikroklima alanı ve tarım ürünü eşleştirmelerinden hangisi Föhn rüzgarlarının etkisiyle açıklanır?",
+    "o": [
+      "Iğdır - Pamuk",
+      "Rize - Turunçgil",
+      "Anamur - Muz",
+      "Artvin - Zeytin",
+      "Malatya - Kayısı"
+    ],
+    "a": 1,
+    "e": "Rize'de kışın turunçgil yetişebilmesi, dağlardan kıyıya doğru alçalan havanın sürtünmeyle ısınması (Föhn etkisi) sonucu oluşan mikroklima ile ilgilidir. Iğdır'da pamuk yetişmesi çukurda kalması ve yaz sıcaklığıyla (Föhn etkisi yoktur denemez ama Rize en tipik örnektir), Anamur'da muz yetişmesi enlem ve kuytu yer olmasıyla, Artvin'de zeytin yine Föhn ve vadi etkisiyle ilgilidir. Ancak Föhn rüzgarının kış ılıklığı yaratarak turunçgil tarımına imkan vermesi literatürde en net Rize örneği ile özdeşleşmiştir.",
+    "_part": 17
+  },
+  {
+    "id": "cog_018",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "bitki-ortusu",
+    "subtopic": "Bitki Örtüsü Dağılışı",
+    "q": "Türkiye'de bitki örtüsünün dağılışı ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Maki üst sınırı Akdeniz'den Marmara'ya gidildikçe deniz seviyesine yaklaşır.",
+      "İç bölgelerde ormanların tahrip edildiği yerlerde antropojen bozkırlar oluşur.",
+      "Karadeniz ormanlarında geniş ve iğne yapraklı ağaçlar bir arada görülür.",
+      "Erzurum-Kars platosunda yaz yağışlarıyla yeşeren çayır bitki örtüsü hakimdir.",
+      "Step bitki örtüsü sadece İç Anadolu Bölgesi ile sınırlıdır."
+    ],
+    "a": 4,
+    "e": "Step (Bozkır) bitki örtüsü, karasal iklimin görüldüğü her yerde rastlanır. Sadece İç Anadolu'da değil, Doğu Anadolu, Güneydoğu Anadolu ve İç Ege gibi karasallığın hüküm sürdüğü geniş alanlarda görülür. Bu nedenle E seçeneğindeki 'sadece İç Anadolu ile sınırlıdır' ifadesi yanlıştır.",
+    "_part": 18
+  },
+  {
+    "id": "cog_019",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "sicaklik-farklari",
+    "subtopic": "Gerçek ve İndirgenmiş Sıcaklık",
+    "q": "Bir merkezin gerçek sıcaklığı ile deniz seviyesine indirgenmiş sıcaklığı arasındaki farkın fazla olması, o merkezin yükseltisinin fazla olduğunu gösterir.\n\nBuna göre, aşağıdaki kentlerden hangisinde gerçek sıcaklık ile indirgenmiş sıcaklık arasındaki fark en fazladır?",
+    "o": [
+      "Edirne",
+      "Şanlıurfa",
+      "İzmir",
+      "Erzurum",
+      "Samsun"
+    ],
+    "a": 3,
+    "e": "Gerçek sıcaklık ile indirgenmiş sıcaklık arasındaki fark doğrudan yükselti ile orantılıdır. Verilen iller arasında ortalama yükseltisi en fazla olan il Erzurum'dur (yaklaşık 1900m). Edirne, İzmir ve Samsun deniz seviyesine yakındır; Şanlıurfa ise Erzurum'a göre daha alçaktır.",
+    "_part": 19
+  },
+  {
+    "id": "cog_020",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yagis-rejimi",
+    "subtopic": "Yağış Rejimi ve Miktarı",
+    "q": "Türkiye'de yıllık yağış miktarının dağılışı incelendiğinde, kıyı bölgelerin iç bölgelere göre daha fazla yağış aldığı görülür. Ancak bazı kıyı kesimlerinde yağış miktarı diğer kıyılara göre daha azdır.\n\nBuna göre, aşağıdaki kıyı yörelerinden hangisi, dağların kıyıya uzanış doğrultusu nedeniyle diğerlerine göre daha az yağış alır?",
+    "o": [
+      "Doğu Karadeniz Kıyıları",
+      "Batı Karadeniz Kıyıları",
+      "Menteşe Yöresi",
+      "Antalya Bölümü",
+      "Kıyı Ege (Edremit-Kuşadası arası)"
+    ],
+    "a": 4,
+    "e": "Dağların kıyıya paralel uzandığı Doğu/Batı Karadeniz ve Akdeniz (Antalya) ile Menteşe Yöresi'nde orografik yağışlar nedeniyle yağış miktarı fazladır. Ancak Kıyı Ege'de (Menteşe hariç) dağlar kıyıya dik uzandığı için nemli hava kütleleri iç kesimlere sokulur ve kıyıda yükselip soğuyarak bol yağış bırakma (orografik yağış) ihtimali azalır. Bu yüzden Kıyı Ege'nin yağış ortalaması diğer şıklara göre daha düşüktür.",
+    "_part": 20
+  },
+  {
+    "id": "cog_021",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "sicaklik-etmenleri",
+    "subtopic": "Sıcaklığı Etkileyen Faktörler",
+    "q": "Türkiye'de yıllık ortalama sıcaklık dağılışı incelendiğinde, kıyı bölgelerinden iç kesimlere doğru gidildikçe sıcaklık değerlerinin genel olarak düştüğü görülmektedir. Ancak kış mevsiminde Ege kıyılarından aynı enlem üzerindeki İç Anadolu'ya doğru gidildiğinde sıcaklık düşüşü, Akdeniz kıyılarından Doğu Anadolu'ya doğru gidildiğindeki düşüşten daha azdır.\n\nBu durumun temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Ege Bölgesi'nde dağların kıyıya dik uzanması ile denizel etkinin iç kısımlara sokulabilmesi",
+      "İç Anadolu Bölgesi'nin ortalama yükseltisinin Doğu Anadolu'dan fazla olması",
+      "Akdeniz kıyılarında enlem etkisinin daha belirgin olması",
+      "Doğu Anadolu'da basınç merkezlerinin etkisini yitirmesi",
+      "Ege kıyılarında bitki örtüsünün daha gür olması"
+    ],
+    "a": 0,
+    "e": "Ege Bölgesi'nde dağların kıyıya dik uzanması, nemli ve ılıman deniz havasının (denizel etkinin) graben ovaları boyunca iç kesimlere kadar sokulmasına olanak tanır. Bu durum, kıyı ile iç kesim arasındaki sıcaklık farkının, dağların kıyıya paralel uzandığı ve denizel etkinin iç kısımlara giremediği Akdeniz-Doğu Anadolu hattına göre daha az olmasına neden olur.",
+    "_part": 21
+  },
+  {
+    "id": "cog_022",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "basinc-ve-ruzgarlar",
+    "subtopic": "Türkiye'yi Etkileyen Basınç Merkezleri",
+    "q": "Türkiye iklimi üzerinde etkili olan basınç merkezleri ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "o": [
+      "Sibirya Termik Yüksek Basıncı, sadece kış aylarında etkilidir ve şiddetli soğuklara neden olur.",
+      "Asor Dinamik Yüksek Basıncı, yıl boyunca etkili olabilen ve yazın kuraklığa neden olan basınç merkezidir.",
+      "İzlanda Dinamik Alçak Basıncı, kışın etkili olduğunda ılık ve yağışlı bir hava karakteri oluşturur.",
+      "Basra Termik Alçak Basıncı, yaz aylarında Güneydoğu Anadolu'da aşırı sıcaklık ve buharlaşmaya yol açar.",
+      "Basra Termik Alçak Basıncı, kökenini Balkanlar üzerindeki soğuk hava kütlelerinden alır."
+    ],
+    "a": 4,
+    "e": "Basra Termik Alçak Basıncı, kökenini Balkanlar'dan değil, Basra Körfezi ve çevresindeki çöl bölgelerinden (Muson sisteminin bir uzantısı olarak) alır. Yaz aylarında Türkiye'nin güneydoğusundan sokularak sıcaklığı ve buharlaşmayı artırır. Diğer seçeneklerdeki bilgiler doğrudur.",
+    "_part": 22
+  },
+  {
+    "id": "cog_023",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yagis-cesitleri",
+    "subtopic": "Yağış Oluşum Biçimleri",
+    "q": "Türkiye'de görülen yağış oluşum tipleriyle ilgili olarak;\n\nI. Yamaç (Orografik) yağışları en fazla Karadeniz Bölgesi'nde görülür.\nII. İç Anadolu Bölgesi'ndeki ilkbahar yağışları genellikle konveksiyonel (yükselim) kökenlidir.\nIII. Akdeniz iklim sahasında kış aylarında görülen yağışlar çoğunlukla cephesel kökenlidir.\n\nyargılarından hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Öncüllerin tamamı doğrudur. Karadeniz'de dağların kıyıya paralel uzanması yamaç yağışlarını artırır (I). İç bölgelerde ısınan havanın yükselmesiyle oluşan 'Kırkikindi' yağışları konveksiyoneldir (II). Akdeniz kuşağında sıcak ve soğuk hava kütlelerinin karşılaşmasıyla oluşan cephe yağışları kışın hakimdir (III).",
+    "_part": 23
+  },
+  {
+    "id": "cog_024",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yerel-ruzgarlar",
+    "subtopic": "Fön Rüzgarları ve Mikroklima",
+    "q": "Hava kütlesinin bir dağ yamacı boyunca alçalarak ısınması sonucunda oluşan rüzgarlara 'Fön Rüzgarı' denir. Fön rüzgarlarının etkili olduğu bir yörede aşağıdakilerden hangisinin gerçekleşmesi beklenmez?",
+    "o": [
+      "Havadaki nem açığının artması",
+      "Tarım ürünlerinin olgunlaşma süresinin kısalması",
+      "Kış aylarında kar erimelerinin hızlanması ve çığ riskinin artması",
+      "Bağıl nem oranının yükselerek yağış olasılığının artması",
+      "Sıcaklığın her 100 metrede yaklaşık 1°C artması"
+    ],
+    "a": 3,
+    "e": "Fön rüzgarları, dağ yamacından aşağı inerken sürtünmenin etkisiyle ısınır ve kurur (sıcak karakterlidir). Bu durum havanın nem taşıma kapasitesini (maksimum nemi) artırır, dolayısıyla bağıl nemi düşürür. Bağıl nemin düştüğü yerde yağış olasılığı azalır, artmaz. Diğer seçenekler Fön rüzgarının kurutucu ve ısıtıcı etkisinin sonuçlarıdır.",
+    "_part": 24
+  },
+  {
+    "id": "cog_025",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "indirgenmis-sicaklik",
+    "subtopic": "İndirgenmiş Sıcaklık Haritaları",
+    "q": "Türkiye'nin yıllık ortalama indirgenmiş sıcaklık haritası incelendiğinde, en yüksek sıcaklıkların Güneydoğu Anadolu Bölgesi'nin güneyinde olduğu görülür.\n\nBu durumun ortaya çıkmasında;\nI. Enlem etkisi,\nII. Karasallık,\nIII. Yükselti,\nIV. Güneyden gelen sıcak hava akımları\n\nfaktörlerinden hangilerinin etkisi yoktur?",
+    "o": [
+      "Yalnız II",
+      "Yalnız III",
+      "I ve II",
+      "II ve IV",
+      "III ve IV"
+    ],
+    "a": 1,
+    "e": "'İndirgenmiş sıcaklık', yükseltinin sıcaklık üzerindeki etkisinin yok sayılarak her yerin deniz seviyesinde (0 metre) kabul edilmesiyle elde edilen değerdir. Dolayısıyla bir indirgenmiş sıcaklık haritasında sıcaklık dağılışını açıklarken 'yükselti' faktörü bir neden olarak kullanılamaz. Enlem, karasallık ve güneyden gelen çöl rüzgarları (Basra etkisi vb.) bu durumda etkilidir.",
+    "_part": 25
+  },
+  {
+    "id": "cog_026",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "nem-kavramlari",
+    "subtopic": "Mutlak, Maksimum ve Bağıl Nem",
+    "q": "Aşağıdaki haritada beş farklı merkez numaralandırılarak gösterilmiştir. Yaz mevsiminde, maksimum nem miktarının (havanın nem taşıma kapasitesinin) en yüksek olduğu merkez ile bağıl nem oranının en yüksek olduğu merkez aşağıdakilerin hangisinde doğru eşleştirilmiştir?",
+    "o": [
+      "Maksimum Nem: Güneydoğu Anadolu (V) - Bağıl Nem: Doğu Karadeniz (IV)",
+      "Maksimum Nem: Akdeniz (II) - Bağıl Nem: İç Anadolu (III)",
+      "Maksimum Nem: Ege (I) - Bağıl Nem: Güneydoğu Anadolu (V)",
+      "Maksimum Nem: Doğu Karadeniz (IV) - Bağıl Nem: Akdeniz (II)",
+      "Maksimum Nem: İç Anadolu (III) - Bağıl Nem: Ege (I)"
+    ],
+    "a": 0,
+    "e": "Maksimum nem, sıcaklıkla doğru orantılıdır. Yazın Türkiye'nin en sıcak yeri Güneydoğu Anadolu olduğu için maksimum nem en fazla buradadır (V). Bağıl nem ise havadaki mevcut nemin taşıma kapasitesine oranıdır ve yağış ihtimalini gösterir. Yazın her mevsim yağışlı ve nemli olan Doğu Karadeniz'de bağıl nem en yüksektir (IV).",
+    "_part": 26
+  },
+  {
+    "id": "cog_027",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "bitki-ortusu",
+    "subtopic": "İklim ve Bitki Örtüsü İlişkisi",
+    "q": "Türkiye'de bitki örtüsünün dağılışı ile iklim özellikleri arasındaki ilişki düşünüldüğünde, aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+    "o": [
+      "Kızılçam ormanlarının tahribi -> Maki (Akdeniz İklimi)",
+      "Makilerin tahribi -> Garig (Akdeniz İklimi)",
+      "Ormanların tahribi -> Antropojen Bozkır (İç Bölgeler)",
+      "Nemli ormanların tahribi -> Psödomaki (Karadeniz İklimi)",
+      "Alpin çayırların tahribi -> Savan (Yüksek Kesimler)"
+    ],
+    "a": 4,
+    "e": "Savan bitki örtüsü tropikal iklim bölgelerinde görülür ve Türkiye'de görülmez. Yüksek dağ çayırları (Alpin çayırlar) Türkiye'de Erzurum-Kars ve yüksek dağlık alanlarda görülür ancak bunların tahribiyle savan oluşmaz. Diğer seçeneklerdeki bitki örtüsü formasyonları ve tahrip/sonuç ilişkileri (süksesyon) doğrudur.",
+    "_part": 27
+  },
+  {
+    "id": "cog_028",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-tipleri",
+    "subtopic": "Akdeniz İklimi Özellikleri",
+    "q": "Akdeniz ikliminin karakteristik özelliklerinin görüldüğü bir yöre için aşağıdakilerden hangisi kesin olarak söylenemez?",
+    "o": [
+      "Yıllık yağışın büyük bir kısmı kış aylarında düşer.",
+      "Doğal bitki örtüsü kısa boylu, kadifemsi yapraklı çalılardır.",
+      "Don olaylarına ve kar yağışlarına kıyı kesimlerde çok az rastlanır.",
+      "Kış aylarında cephesel yağışlar hakimdir.",
+      "Yıllık yağış miktarı 2000 mm'nin üzerindedir."
+    ],
+    "a": 4,
+    "e": "Akdeniz ikliminde yıllık toplam yağış miktarı yörenin yükseltisine ve dağların uzanışına göre değişir (genellikle 600-1000 mm arası). 2000 mm üzeri yağış Türkiye'de sadece Doğu Karadeniz kıyılarında (Rize çevresi) görülür. Akdeniz iklimi için 2000 mm yağış genel geçer bir özellik değildir.",
+    "_part": 28
+  },
+  {
+    "id": "cog_029",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yerel-ruzgarlar",
+    "subtopic": "Rüzgar Çeşitleri ve Yönleri",
+    "q": "Türkiye'nin mutlak konumu göz önüne alındığında, güneybatı yönünden esen, estiği bölgede sıcaklığı artıran, kışın ılık ve yağışlı hava getiren, zaman zaman soba zehirlenmelerine yol açan rüzgar aşağıdakilerden hangisidir?",
+    "o": [
+      "Poyraz",
+      "Karayel",
+      "Lodos",
+      "Samyeli (Keşişleme)",
+      "Kıble"
+    ],
+    "a": 2,
+    "e": "Tanımlanan rüzgar Lodos'tur. Güneybatıdan eser (Kayıp Sakal kodlamasında 'Sakal'ın L'si), deniz üzerinden geldiği için nemlidir, sıcaklığı artırır ve ters esen bir rüzgar olduğu için baca çekişini etkileyerek soba zehirlenmelerine (sessiz ölüm) neden olabilir.",
+    "_part": 29
+  },
+  {
+    "id": "cog_030",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "mikroklima",
+    "subtopic": "Mikroklima Alanları",
+    "q": "Türkiye'de genel iklim şartlarına uymayan, çevresine göre farklı iklim özelliği gösteren dar alanlara 'mikroklima' denir. Aşağıdaki tarım ürünü ve yetiştiği mikroklima alanı eşleştirmelerinden hangisi bu duruma örnek gösterilemez?",
+    "o": [
+      "Rize - Turunçgil (Kış ılıklığı/Fön etkisi)",
+      "Iğdır - Pamuk (Çevresine göre alçakta kalması)",
+      "Artvin/Yusufeli - Zeytin (Fön etkisi)",
+      "Anamur - Muz (Enlem ve kış ılıklığı)",
+      "Konya - Buğday (Karasal iklim)"
+    ],
+    "a": 4,
+    "e": "Rize'de turunçgil, Iğdır'da pamuk, Yusufeli'nde zeytin ve Anamur'da muz yetişmesi mikroklima veya özel konum şartlarının sonucudur (Bölgenin genel ikliminden farklıdır). Ancak Konya'da buğday yetişmesi mikroklima değil, İç Anadolu'nun hakim 'Karasal İklim' şartlarının doğal bir sonucudur.",
+    "_part": 30
+  },
+  {
+    "id": "cog_031",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "sicaklik-dagilisi",
+    "subtopic": "Sıcaklık Dağılışı ve İndirgenmiş Sıcaklık",
+    "q": "Türkiye'de yıllık ortalama sıcaklık dağılışı incelendiğinde, kıyı bölgelerden iç kesimlere gidildikçe genel olarak sıcaklık değerlerinin düştüğü görülmektedir. Ancak kış mevsiminde bu durum daha belirginleşirken, yaz mevsiminde Güneydoğu Anadolu Bölgesi, Akdeniz kıyılarından daha yüksek sıcaklık değerlerine ulaşmaktadır.\n\nYaz mevsiminde Güneydoğu Anadolu Bölgesi'nin Akdeniz kıyılarından daha sıcak olmasında;\n\nI. Enlem etkisi,\nII. Karasallık şiddeti,\nIII. Basra alçak basıncının etkisi\n\nfaktörlerinden hangileri belirleyici olmuştur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 3,
+    "e": "Güneydoğu Anadolu ve Akdeniz kıyıları yaklaşık aynı enlemlerde yer alır, bu yüzden enlem (I) ayırt edici bir faktör değildir. Güneydoğu Anadolu'nun yazın daha sıcak olmasının temel nedenleri; deniz etkisinden uzak olması (Karasallık - II) ve güneyden gelen sıcak hava dalgalarını taşıyan Basra Alçak Basıncı'nın (III) etkisidir.",
+    "_part": 31
+  },
+  {
+    "id": "cog_032",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "basinc-ve-ruzgarlar",
+    "subtopic": "Türkiye'yi Etkileyen Basınç Merkezleri",
+    "q": "Türkiye, mutlak konumu gereği yıl içinde farklı basınç merkezlerinin etkisi altına girmektedir. Kış mevsiminde etkili olduğunda ülke genelinde şiddetli soğuklara, don olaylarına ve yüksek atmosfer basıncına neden olan termik kökenli basınç merkezi aşağıdakilerden hangisidir?",
+    "o": [
+      "Sibirya Yüksek Basıncı",
+      "İzlanda Alçak Basıncı",
+      "Basra Alçak Basıncı",
+      "Asor Yüksek Basıncı",
+      "Aleut Alçak Basıncı"
+    ],
+    "a": 0,
+    "e": "Kışın Türkiye'yi kuzeydoğudan etkisi altına alan, şiddetli soğuk ve ayaz (kuru soğuk) getiren termik kökenli basınç merkezi Sibirya Yüksek Basıncı'dır. İzlanda dinamik kökenli olup daha ılık ve yağışlı hava getirir. Asor yıl boyu etkilidir. Basra ise yazın etkilidir.",
+    "_part": 32
+  },
+  {
+    "id": "cog_033",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yagis-cesitleri",
+    "subtopic": "Yağış Oluşum Biçimleri",
+    "q": "Türkiye'de görülen yağış oluşum tipleri ile ilgili olarak;\n\nI. Yamaç (Orografik) yağışları en çok Karadeniz Bölgesi'nde görülür.\nII. İç Anadolu Bölgesi'ndeki ilkbahar yağışları konveksiyonel (yükselim) kökenlidir.\nIII. Cephesel (Frontal) yağışlar, Türkiye'nin matematik konumu gereği en yaygın görülen yağış türüdür.\n\nyargılarışığından hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Karadeniz dağlarının kıyıya paralel uzanması yamaç yağışlarını artırır (I). İç bölgelerde ısınan havanın yükselmesiyle oluşan 'Kırkikindi' yağışları konveksiyoneldir (II). Türkiye orta kuşakta yer aldığı için sıcak ve soğuk hava kütlelerinin karşılaşma alanı olan cephesel yağışlar matematik konum gereği yaygındır (III). Her üç öncül de doğrudur.",
+    "_part": 33
+  },
+  {
+    "id": "cog_034",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yerel-ruzgarlar",
+    "subtopic": "Yerel Rüzgarlar ve Özellikleri",
+    "q": "Türkiye'de etkili olan yerel rüzgarlardan biri olan 'Lodos' ile ilgili aşağıdakilerden hangisi söylenemez?",
+    "o": [
+      "Güneybatı yönünden esen sıcak karakterli bir rüzgardır.",
+      "Kış mevsiminde estiğinde sıcaklığı artırarak kar erimelerine neden olabilir.",
+      "Deniz üzerinden geldiği için nem taşır ve yağış bırakma ihtimali yüksektir.",
+      "Menteşe Yöresi kıyılarında yaz kuraklığını belirginleştirir.",
+      "Bacalarda ters çekişe neden olarak soba zehirlenmesi riskini artırır."
+    ],
+    "a": 3,
+    "e": "Lodos, güneybatıdan esen, nemli ve sıcak bir rüzgardır. Kışın kar erimelerine ve soba zehirlenmelerine yol açar. Ancak Menteşe Yöresi'nde dağların uzanış doğrultusu nedeniyle denizden gelen nemli havayı yamaçlara çarptırarak yağış bırakır; yaz kuraklığını belirginleştirmez, aksine yağış getirici etkisi vardır.",
+    "_part": 34
+  },
+  {
+    "id": "cog_035",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-tipleri",
+    "subtopic": "Mikroklima Alanları",
+    "q": "Türkiye'de genel iklim şartlarına uymayan, çevresine göre farklı iklim özellikleri gösteren dar alanlara mikroklima denir. Aşağıdaki yöre ve mikroklima ürünü eşleştirmelerinden hangisi yanlıştır?",
+    "o": [
+      "Rize – Turunçgil",
+      "Iğdır – Pamuk",
+      "Anamur – Muz",
+      "Artvin (Çoruh Vadisi) – Zeytin",
+      "Malatya – Fındık"
+    ],
+    "a": 4,
+    "e": "Rize'de fön rüzgarları etkisiyle turunçgil, Iğdır'da çukurda kalması ve fön etkisiyle pamuk, Artvin/Yusufeli'nde zeytin mikroklima örneğidir. Anamur'da muz yetişmesi de mikroklima (veya tropikal kalıntı) olarak kabul edilir. Ancak Malatya'da fındık yetişmesi tipik bir mikroklima örneği değildir; fındık Karadeniz iklim sahasının ürünüdür, Malatya ise kayısısı ile meşhurdur ve karasal iklimdedir.",
+    "_part": 35
+  },
+  {
+    "id": "cog_036",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "nem-ve-yagis",
+    "subtopic": "Bağıl Nem ve Maksimum Nem",
+    "q": "Sıcaklık ile maksimum nem (havanın taşıyabileceği nem miktarı) arasında doğru orantı vardır. Sıcaklık ile bağıl nem (yağış ihtimali) arasında ise genellikle ters orantı bulunur.\n\nBuna göre, yaz mevsiminde aşağıdaki merkezlerin hangisinde maksimum nem miktarının en yüksek, bağıl nem oranının ise en düşük olması beklenir?",
+    "o": [
+      "Rize",
+      "Antalya",
+      "Şanlıurfa",
+      "Erzurum",
+      "İzmir"
+    ],
+    "a": 2,
+    "e": "Yaz mevsiminde Türkiye'nin en sıcak yeri Güneydoğu Anadolu'dur. Sıcaklığın en yüksek olduğu yerde havanın nem taşıma kapasitesi (maksimum nem) en yüksektir. Ancak bu bölge aynı zamanda karasal ve çöl etkisinde olduğu için mutlak nem azdır, dolayısıyla yağış ihtimalini gösteren bağıl nem en düşüktür. Cevap Şanlıurfa'dır.",
+    "_part": 36
+  },
+  {
+    "id": "cog_037",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "bitki-ortusu",
+    "subtopic": "Bitki Örtüsü Dağılışı",
+    "q": "Türkiye'nin bitki örtüsü dağılışı düşünüldüğünde, aşağıdaki çıkarımlardan hangisi yanlıştır?",
+    "o": [
+      "Maki, Akdeniz ikliminin görüldüğü kıyı kesimlerde, kızılçam ormanlarının tahribiyle oluşmuş çalı topluluğudur.",
+      "Karadeniz kıyılarında ormanların tahrip edildiği alanlarda oluşan çalı formasyonuna psödomaki (yalancı maki) denir.",
+      "İç Anadolu'da orman tahribi sonucu oluşan bozkırlara antropojen bozkır adı verilir.",
+      "Erzurum-Kars platosunda yaz yağışlarına bağlı olarak yeşeren gür ot topluluklarına (Alpin çayır) rastlanır.",
+      "Garig (frigana) formasyonu, Karadeniz ormanlarının üst sınırından sonra başlayan dağ çayırlarıdır."
+    ],
+    "a": 4,
+    "e": "Garig (frigana), Akdeniz iklim bölgesinde makilerin tahrip edilmesiyle ortaya çıkan, kurakçıl, dikenli ve kısa boylu çalı topluluklarıdır (lavanta, kekik vb.). Karadeniz orman üst sınırındaki çayırlara Alpin çayır denir. E seçeneğindeki tanım yanlıştır.",
+    "_part": 37
+  },
+  {
+    "id": "cog_038",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-grafikleri",
+    "subtopic": "Yağış Rejimi ve Mevsimler",
+    "q": "Türkiye'de bir merkezin yıllık yağış dağılışı incelendiğinde; en fazla yağışın sonbaharda, en az yağışın ise ilkbaharda düştüğü görülmektedir. Yağış rejimi kısmen düzenlidir.\n\nBu özelliklere sahip bir merkez harita üzerinde numaralandırılmış alanlardan hangisinde yer alabilir?",
+    "o": [
+      "Trakya (Ergene Havzası)",
+      "Doğu Karadeniz Kıyıları",
+      "İç Anadolu (Konya Çevresi)",
+      "Güneydoğu Anadolu",
+      "Ege Kıyıları"
+    ],
+    "a": 1,
+    "e": "Türkiye'de en fazla yağışı sonbaharda alan tek iklim tipi Karadeniz İklimi'dir. Bu iklim tipinde yağış rejimi düzenliye yakındır. Doğu Karadeniz kıyıları (Rize, Trabzon) bu grafiğe uyar. İç Anadolu en çok ilkbaharda, Erzurum-Kars yazın, Akdeniz ve Ege kıyıları ise kışın en çok yağış alır.",
+    "_part": 38
+  },
+  {
+    "id": "cog_039",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-etkileri",
+    "subtopic": "İklimin Ekonomik Etkileri",
+    "q": "Akdeniz Bölgesi'nde kıyı kesiminde seracılık faaliyetlerinin iç kesimlere ve diğer bölgelere göre daha az maliyetle yapılabilmesinin temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Yıllık yağış miktarının fazla olması",
+      "Güneşli gün sayısının ve kış sıcaklık ortalamalarının yüksek olması",
+      "Toprak verimliliğinin yüksek olması",
+      "Sulama imkanlarının gelişmiş olması",
+      "Pazar alanlarına yakınlık"
+    ],
+    "a": 1,
+    "e": "Seracılıkta temel maliyet ısıtmadır. Akdeniz kıyılarında kışlar ılık geçer (don olayı azdır) ve güneşlenme süresi uzundur. Bu durum seraların ısıtılma maliyetini düşürür. Diğer seçenekler tarım için önemlidir ancak seracılıkta maliyeti düşüren asıl faktör iklimsel avantajdır (kış ılıklığı).",
+    "_part": 39
+  },
+  {
+    "id": "cog_040",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "ozel-konum-iklim",
+    "subtopic": "Özel Konum ve İklim",
+    "q": "Aynı enlem üzerinde yer alan Çanakkale ve Erzurum'un yıllık ortalama sıcaklıklarının birbirinden farklı olmasında;\n\nI. Yükselti,\nII. Güneş ışınlarının düşme açısı,\nIII. Nemlilik,\nIV. Gündüz süresi\n\nözelliklerinden hangileri etkili **değildir**?",
+    "o": [
+      "I ve II",
+      "II ve III",
+      "II ve IV",
+      "I ve III",
+      "III ve IV"
+    ],
+    "a": 2,
+    "e": "Çanakkale ve Erzurum aynı enlemde oldukları için Güneş ışınlarının düşme açısı (II) ve yaşanan gündüz süreleri (IV) teorik olarak aynıdır veya sıcaklık farkını oluşturan temel sebepler değildir. Sıcaklık farkının sebebi özel konum şartları olan Yükselti (I) ve Nemlilik/Karasallık (III) farkıdır. Soru 'etkili değildir'i sorduğu için cevap II ve IV'tür.",
+    "_part": 40
+  },
+  {
+    "id": "cog_041",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "turkiye-iklim-sicaklik",
+    "subtopic": "Sıcaklık ve İndirgenmiş Sıcaklık",
+    "q": "Türkiye'de bir merkezin gerçek sıcaklığı ile deniz seviyesine indirgenmiş sıcaklığı arasındaki farkın fazla olması, o merkezin hangi özelliği hakkında kesin bilgi verir?",
+    "o": [
+      "Denize olan uzaklığı",
+      "Yükseltisinin fazla olması",
+      "Ekvator'a olan uzaklığı",
+      "Bakı durumu",
+      "Hakim rüzgar yönü"
+    ],
+    "a": 1,
+    "e": "Gerçek sıcaklık, bir noktanın o anki ölçülen sıcaklığıdır. İndirgenmiş sıcaklık ise yükseltinin ortadan kaldırılarak (her 200 metrede 1°C artırılarak) hesaplanan sıcaklıktır. Bu iki değer arasındaki farkın temel sebebi yükseltidir. Fark ne kadar fazlaysa, merkezin yükseltisi o kadar fazladır. Örneğin Erzurum'da bu fark fazlayken, İzmir'de azdır.",
+    "_part": 41
+  },
+  {
+    "id": "cog_042",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "turkiye-iklim-basinc",
+    "subtopic": "Basınç Merkezleri ve Etkileri",
+    "q": "Türkiye'yi etkileyen basınç merkezleri ile ilgili aşağıda verilen öncüllerden hangileri doğrudur?\n\nI. Sibirya Termik Yüksek Basıncı, kışın etkili olduğunda şiddetli soğuk ve ayaza neden olur.\nII. Basra Termik Alçak Basıncı, yaz aylarında Güneydoğu Anadolu'da aşırı sıcaklıklara ve buharlaşmaya yol açar.\nIII. İzlanda Dinamik Alçak Basıncı, sadece yaz mevsiminde etkilidir ve kuraklık getirir.",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
+    ],
+    "a": 2,
+    "e": "I. öncül doğrudur; Sibirya YB kışın etkilidir, karasallığı artırır ve ayaza neden olur. II. öncül doğrudur; Basra AB muson sisteminin uzantısıdır, yazın sıcaklığı artırır. III. öncül yanlıştır; İzlanda DAB kışın etkilidir ve genellikle yağışlı, ılıman bir hava kütlesi getirir.",
+    "_part": 42
+  },
+  {
+    "id": "cog_043",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "turkiye-iklim-yagis",
+    "subtopic": "Yağış Oluşum Biçimleri",
+    "q": "Türkiye'de görülen yağış oluşum tipleriyle ilgili aşağıdaki eşleştirmelerden hangisi, oluşumun en yaygın görüldüğü bölge ile **yanlış** eşleştirilmiştir?",
+    "o": [
+      "Yamaç (Orografik) Yağışları - Karadeniz Bölgesi",
+      "Konveksiyonel (Yükselim) Yağışları - İç Anadolu Bölgesi",
+      "Cephe (Frontal) Yağışları - Akdeniz Bölgesi",
+      "Konveksiyonel (Yükselim) Yağışları - Erzurum-Kars Platosu (Yazın)",
+      "Yamaç (Orografik) Yağışları - Güneydoğu Anadolu Bölgesi'nin güneyi"
+    ],
+    "a": 4,
+    "e": "Güneydoğu Anadolu'nun güneyi (Suriye sınırı), yer şekillerinin sade olduğu düzlük bir alandır. Yamaç yağışı oluşabilmesi için nemli hava kütlesinin bir dağ yamacı boyunca yükselmesi gerekir (Karadeniz ve Akdeniz kıyı kuşağı gibi). Güneydoğu'nun güneyinde bu şart sağlanmadığı için yamaç yağışları yaygın değildir.",
+    "_part": 43
+  },
+  {
+    "id": "cog_044",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "turkiye-iklim-ruzgar",
+    "subtopic": "Yerel Rüzgarlar ve Föhn",
+    "q": "Türkiye'de dağların denize paralel uzandığı kıyı kesimlerinde, dağın yamacını aşarak diğer tarafa alçalan hava kütleleri sürtünmenin etkisiyle ısınır ve kurur. 'Föhn' adı verilen bu rüzgarların etkili olduğu bir yörede aşağıdakilerden hangisinin gerçekleşmesi **beklenmez**?",
+    "o": [
+      "Havadaki nem açığının artması",
+      "Kış aylarında kar erimelerinin hızlanması",
+      "Tarım ürünlerinin olgunlaşma süresinin kısalması",
+      "Bağıl nem orançünkün yükselmesi",
+      "Orman yangını riskinin artması"
+    ],
+    "a": 3,
+    "e": "Föhn rüzgarları sıcak ve kuru karakterlidir. Sıcaklığı artırdığı için maksimum nem artar, mutlak nem sabit kalsa bile 'bağıl nem' düşer (D seçeneği yanlıştır). Diğer seçenekler (nem açığının artması, kar erimesi, erken olgunlaşma, yangın riski) Föhn rüzgarının kurutucu ve ısıtıcı etkisinin doğal sonuçlarıdır.",
+    "_part": 44
+  },
+  {
+    "id": "cog_045",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "turkiye-iklim-bitki",
+    "subtopic": "İklim ve Bitki Örtüsü İlişkisi",
+    "q": "Türkiye'de makinin üst sınırının Akdeniz'den Marmara'ya doğru gidildikçe deniz seviyesine yaklaşmasının temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Yükselti ortalamasının azalması",
+      "Enlem etkisiyle sıcaklık ortalamalarının düşmesi",
+      "Nem oranının kuzeye doğru artması",
+      "Dağların uzanış doğrultusunun değişmesi",
+      "Toprak yapısının farklılaşması"
+    ],
+    "a": 1,
+    "e": "Maki, Akdeniz ikliminin karakteristik bitki örtüsüdür. Akdeniz kıyılarında sıcaklık yüksek olduğu için makiler 800-900 metrelere kadar çıkabilirken, Ege'de 400-500 metreye, Marmara'da ise 200-300 metrelere kadar iner. Bu durumun temel sebebi 'Enlem' etkisine bağlı olarak güneyden kuzeye gidildikçe sıcaklığın azalmasıdır.",
+    "_part": 45
+  },
+  {
+    "id": "cog_046",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "turkiye-iklim-nem",
+    "subtopic": "Nemlilik Kavramları",
+    "q": "Yaz mevsiminde Güneydoğu Anadolu Bölgesi, Akdeniz Bölgesi'nden daha sıcak olmasına rağmen, hissedilen sıcaklığın ve bunaltıcılığın Akdeniz kıyılarında daha fazla olmasının temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Güneydoğu Anadolu'da maksimum nemin az olması",
+      "Akdeniz'de mutlak nem ve bağıl nemin yüksek olması",
+      "Güneydoğu Anadolu'da kuzeyli rüzgarların etkili olması",
+      "Akdeniz'de bitki örtüsünün gür olması",
+      "Güneydoğu Anadolu'da basınç değerlerinin yüksek olması"
+    ],
+    "a": 1,
+    "e": "Hissedilen sıcaklık ve bunaltıcılık büyük oranda havadaki nem ile ilgilidir. Akdeniz kıyılarında denizellikten dolayı mutlak nem fazladır ve bu durum bağıl nemi yüksek tutar, terlemeyi zorlaştırarak bunaltıcı bir hava oluşturur. Güneydoğu Anadolu ise karasaldır; sıcaklık çok yüksektir (maksimum nem fazladır) ancak havada nem az olduğu için (bağıl nem düşük) bunaltıcılık Akdeniz kadar hissedilmez.",
+    "_part": 46
+  },
+  {
+    "id": "cog_047",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "turkiye-iklim-matematik",
+    "subtopic": "Matematik Konum ve İklim",
+    "q": "Türkiye'nin iklim özellikleri dikkate alındığında, aşağıdakilerden hangisi **yalnızca** Matematik (Mutlak) Konumun bir sonucudur?",
+    "o": [
+      "Kısa mesafelerde iklim çeşitliliğinin görülmesi",
+      "Kış aylarında cephesel yağışların görülmesi",
+      "Doğu Anadolu'da kış mevsiminin uzun sürmesi",
+      "Karadeniz kıyılarının en fazla yağışı sonbaharda alması",
+      "İç bölgelerde karasal iklimin hakim olması"
+    ],
+    "a": 1,
+    "e": "Cephesel (frontal) yağışlar, sıcak ve soğuk hava kütlelerinin karşılaşma alanlarında oluşur. Bu karşılaşma dünyada Orta Kuşak'ta gerçekleşir. Türkiye'nin Orta Kuşak'ta yer alması enlem (matematik konum) sonucudur. Diğer seçenekler (yer şekilleri, yükselti, denizellik-karasallık) özel konumun sonuçlarıdır.",
+    "_part": 47
+  },
+  {
+    "id": "cog_048",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "turkiye-iklim-mikroklima",
+    "subtopic": "Mikroklima Alanları",
+    "q": "Türkiye'de genel iklim şartlarına uymayan, dar alanlı özel iklim bölgelerine 'mikroklima' denir. Aşağıdaki yöre ve yetiştirilen tarım ürünü eşleştirmelerinden hangisi mikroklima özelliğine örnek **gösterilemez**?",
+    "o": [
+      "Rize - Turunçgil",
+      "Iğdır - Pamuk",
+      "Anamur - Muz",
+      "Çoruh Vadisi - Zeytin",
+      "Konya - Buğday"
+    ],
+    "a": 4,
+    "e": "Konya Ovası'nda buğday yetiştirilmesi, bölgenin hakim olan karasal iklim şartlarının doğal bir sonucudur ve mikroklima değildir. Ancak Rize'de kış ılıklığı ile turunçgil, Iğdır'da çukurda kalması ve Föhn etkisiyle pamuk, Anamur'da korunaklı yapı ile muz, Çoruh Vadisi'nde ise zeytin yetişmesi mikroklima örnekleridir.",
+    "_part": 48
+  },
+  {
+    "id": "cog_049",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "turkiye-iklim-yagis-rejimi",
+    "subtopic": "Yağış Rejimleri",
+    "q": "Türkiye haritası üzerinde işaretlenmiş merkezlerin yağış rejimleri incelendiğinde, en fazla yağışı aldığı mevsimler bakımından aşağıdakilerden hangisi **yanlıştır**?",
+    "o": [
+      "Erzurum-Kars Platosu: Yaz",
+      "İç Anadolu Bölgesi: İlkbahar",
+      "Karadeniz Kıyıları: Sonbahar",
+      "Güney Marmara ve Ege: Kış",
+      "Güneydoğu Anadolu: Sonbahar"
+    ],
+    "a": 4,
+    "e": "Güneydoğu Anadolu Bölgesi, Akdeniz iklim karakteristiğine yakın özellikler gösterir ve yağışlarının büyük bir kısmını Kış mevsiminde alır. İlkbaharda da yağışlar devam eder ancak en kurak mevsim yazdır. Sonbahar en yağışlı mevsim değildir (Bu özellik Karadeniz'e aittir).",
+    "_part": 49
+  },
+  {
+    "id": "cog_050",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "turkiye-iklim-genel",
+    "subtopic": "İklim Tipleri ve Yayılışı",
+    "q": "Türkiye'de Karasal İklimin yayılış alanı oldukça geniştir. Bu durumun ortaya çıkmasında etkili olan temel faktörler aşağıdakilerden hangisinde birlikte verilmiştir?",
+    "o": [
+      "Enlem etkisi - Basınç merkezleri",
+      "Kuzey ve güneydeki sıradağların uzanışı - Ortalama yükselti",
+      "Bitki örtüsünün cılız olması - Rüzgarlar",
+      "Su kaynaklarının azlığı - Jeolojik yapı",
+      "Matematik konum - Bakı etkisi"
+    ],
+    "a": 1,
+    "e": "Türkiye'de karasal iklimin iç kesimlerde geniş alan kaplamasının temel nedeni, kuzeyde Kuzey Anadolu Dağları'nın, güneyde ise Torosların kıyıya paralel uzanarak nemli deniz havasının iç kesimlere girmesini engellemesidir. Ayrıca iç bölgelerin yüksek olması karasallığın şiddetini artırır. Bu nedenle cevap 'Dağların uzanışı ve Yükselti'dir (B seçeneği).",
+    "_part": 50
+  },
+  {
+    "id": "cog_051",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "sicaklik-dagilisi",
+    "subtopic": "Sıcaklık ve İndirgenmiş Sıcaklık",
+    "q": "Türkiye'de indirgenmiş sıcaklık haritaları incelendiğinde, en yüksek ve en düşük sıcaklık farklarının Doğu Anadolu Bölgesi'nde yoğunlaştığı görülmektedir. Bu durumun temel nedeni ile aşağıdakilerden hangisinin nedeni benzerlik gösterir?",
+    "o": [
+      "Kış mevsiminde kıyı kesimlerin iç kesimlerden daha ılık olması",
+      "Erzurum'da karın yerde kalma süresinin Ankara'dan fazla olması",
+      "Batıdan doğuya gidildikçe sıcaklık ortalamalarının düşmesi",
+      "Aynı enlemdeki İzmir ve Van arasındaki sıcaklık farkı",
+      "Gündüz ile gece arasındaki sıcaklık farkının Şanlıurfa'da Trabzon'dan fazla olması"
+    ],
+    "a": 2,
+    "e": "Soru kökünde bahsedilen durum 'yükselti' faktörüdür. İndirgenmiş sıcaklık, yükseltinin ortadan kaldırılarak (her yer 0 metre kabul edilerek) hesaplandığı sıcaklıktır. Gerçek sıcaklık ile indirgenmiş sıcaklık arasındaki farkın Doğu Anadolu'da fazla olması, bölgenin ortalama yükseltisinin fazla olmasından kaynaklanır. Seçenekler arasında 'Batıdan doğuya gidildikçe sıcaklık ortalamalarının düşmesi' durumu da doğrudan yükselti artışına bağlıdır. Diğer seçenekler nemlilik (karasallık-denizellik) veya enlem ile ilgilidir.",
+    "_part": 51
+  },
+  {
+    "id": "cog_052",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "basinc-merkezleri",
+    "subtopic": "Türkiye'yi Etkileyen Basınç Merkezleri",
+    "q": "Türkiye'nin iklimi üzerinde etkili olan basınç merkezleri ile ilgili;\n\nI. Kış aylarında etkili olduğunda şiddetli soğuk ve ayazlara neden olan Sibirya Yüksek Basıncıdır.\nII. Yaz aylarında Basra Alçak Basıncı'nın etkisiyle Güneydoğu Anadolu'da şiddetli buharlaşma görülür.\nIII. İzlanda Alçak Basıncı, kışın etkili olduğunda ılık ve yağışlı bir hava kütlesi getirir.\n\nyargılarından hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Verilen öncüllerin tamamı doğrudur. I. Öncül: Sibirya YB, termik kökenlidir ve kışın etkili olduğunda hava açık, çok soğuk ve ayaz olur. II. Öncül: Basra AB, muson sisteminin bir parçasıdır ve yazın aşırı sıcaklık ile buharlaşmaya yol açar. III. Öncül: İzlanda AB, dinamik kökenlidir ve kışın etkili olduğunda Sibirya'nın soğuğunu kırarak daha ılık ve yağışlı bir ortam oluşturur.",
+    "_part": 52
+  },
+  {
+    "id": "cog_053",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yerel-ruzgarlar",
+    "subtopic": "Rüzgarlar ve Etkileri",
+    "q": "Türkiye'de etkili olan yerel rüzgarlardan biri olan 'Lodos' ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "Güneybatı yönünden eser ve sıcaklığı artırıcı etki yapar.",
+      "Denizden geldiği için nemli ve yağış bırakma potansiyeli yüksektir.",
+      "Kış aylarında bacalarda ters tepmeye neden olarak soba zehirlenmelerine yol açabilir.",
+      "Doğu Karadeniz kıyılarında fön etkisi yaratarak mikroklima alanları oluşturur.",
+      "Menteşe Yöresi'ne bol yağış bırakır."
+    ],
+    "a": 3,
+    "e": "Doğu Karadeniz kıyılarında fön etkisi yaratarak mikroklima (turunçgil, çay tarımı vb.) oluşmasını sağlayan rüzgar Lodos değil, dağların güney yamacından aşan rüzgarların kuzeye doğru alçalmasıyla oluşan karakteristikteki rüzgarlardır (Genellikle güney sektörlü rüzgarların dağları aşmasıyla oluşur ancak Lodos'un karakteristik tanımı tüm Türkiye için 'Gözü yaşlı' olmasıdır). Ancak sorudaki çeldirici nokta şudur: Doğu Karadeniz'deki fön etkisinin asıl kaynağı genel hava sirkülasyonu ve yer şekilleridir, Lodos Ege ve Marmara'da daha baskın karakterdedir. Daha net bir ifadeyle; Doğu Karadeniz'deki mikroklimayı oluşturan fön rüzgarları, bölgedeki dağların uzanış doğrultusu ve güneyden gelen hava kütlelerinin (ki bu bazen lodos bileşeni olabilir ancak lodos rüzgarı olarak adlandırılmaz, fön olarak adlandırılır) sırttan aşmasıyla ilgilidir. Lodos'un en karakteristik ve ayırıcı özelliği Marmara ve Ege'deki etkisidir.",
+    "_part": 53
+  },
+  {
+    "id": "cog_054",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yagis-olusum-sekilleri",
+    "subtopic": "Yağış Oluşum Tipleri",
+    "q": "Türkiye'de görülen yağış oluşum tipleri dikkate alındığında; İç Anadolu Bölgesi'nde ilkbahar aylarında görülen ve halk arasında 'Kırkikindi' olarak adlandırılan yağışlar ile Akdeniz Bölgesi'nde kış aylarında görülen yağışların oluşum kökenleri sırasıyla aşağıdakilerden hangisidir?",
+    "o": [
+      "Konveksiyonel - Cephesel",
+      "Orografik - Konveksiyonel",
+      "Cephesel - Orografik",
+      "Konveksiyonel - Orografik",
+      "Orografik - Cephesel"
+    ],
+    "a": 0,
+    "e": "İç Anadolu'da ısınan havanın yükselerek soğuması sonucu oluşan yağışlara 'Yükselim' veya 'Konveksiyonel' yağış denir (Kırkikindi yağışları). Akdeniz Bölgesi'nde ise kışın farklı karakterdeki (sıcak ve soğuk) hava kütlelerinin karşılaşması sonucu oluşan yağışlara 'Cephesel' (Frontal) yağış denir. Yamaç (Orografik) yağışları ise en çok Karadeniz'de görülür.",
+    "_part": 54
+  },
+  {
+    "id": "cog_055",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "nemlilik-ve-yagis",
+    "subtopic": "Bağıl Nem ve Maksimum Nem İlişkisi",
+    "q": "Bir hava kütlesinin sıcaklığı arttıkça taşıyabileceği nem miktarı (maksimum nem) artar, buna bağlı olarak bağıl nem oranı düşer.\n\nBuna göre, yaz mevsiminde aşağıdaki merkezlerin hangisinde, mutlak nem miktarı az olmasına rağmen sıcaklığın yüksek olması nedeniyle yağış ihtimali (bağıl nem) en düşüktür",
+    "o": [
+      "Rize",
+      "Antalya",
+      "Şanlıurfa",
+      "Erzurum",
+      "İzmir"
+    ],
+    "a": 2,
+    "e": "Güneydoğu Anadolu Bölgesi (örneğin Şanlıurfa), yaz aylarında Türkiye'nin en sıcak bölgesidir. Sıcaklığın aşırı yüksek olması 'Maksimum Nem' kapasitesini (havanın nem taşıma kapasitesini) aşırı artırır. Havadaki mevcut su buharı (mutlak nem) bu geniş kapasiteyi dolduramaz ve 'nem açığı' oluşur. Bu nedenle bağıl nem en düşük seviyeye iner ve yağış ihtimali çok azalır.",
+    "_part": 55
+  },
+  {
+    "id": "cog_056",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-tipleri",
+    "subtopic": "Akdeniz İklimi Özellikleri",
+    "q": "Akdeniz ikliminin görüldüğü alanlarda, yaz kuraklığının belirgin olması ve kışların ılık geçmesi aşağıdakilerden hangisi üzerinde etkili olmamıştır?",
+    "o": [
+      "Maki bitki örtüsünün yaygın olması",
+      "Deniz turizmi süresinin uzun olması",
+      "Fiziksel (mekanik) çözülmenin kıyı kesimlerde şiddetli olması",
+      "Seracılık faaliyetlerinin gelişmiş olması",
+      "Akarsu rejimlerinin düzensiz olması"
+    ],
+    "a": 2,
+    "e": "Akdeniz ikliminin görüldüğü kıyı kesimlerde nem oranı yüksektir. Nemli bölgelerde sıcaklık farkları az olduğu için 'Kimyasal Çözülme' daha yaygındır. Fiziksel (mekanik) çözülme ise nemin az, günlük sıcaklık farkının fazla olduğu iç bölgelerde (karasal iklim) görülür. Diğer seçenekler (Maki, deniz turizmi, seracılık, düzensiz rejim) doğrudan Akdeniz ikliminin sıcaklık ve yağış rejimi sonuçlarıdır.",
+    "_part": 56
+  },
+  {
+    "id": "cog_057",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "mikroklima",
+    "subtopic": "Mikroklima Alanları",
+    "q": "Türkiye'nin genel iklim özellikleri düşünüldüğünde, çevresine göre çukurda kalan ve özel konum şartları sayesinde farklı iklim özellikleri gösteren alanlara mikroklima denir.\n\nAşağıdaki eşleşmelerden hangisi, mikroklima alanı ve bu alanda yetişen tarım ürünü bakımından yanlıştır?",
+    "o": [
+      "Rize - Turunçgil",
+      "Iğdır - Pamuk",
+      "Artvin (Çoruh Vadisi) - Zeytin",
+      "Anamur - Muz",
+      "Malatya - Kayısı"
+    ],
+    "a": 4,
+    "e": "Malatya'da kayısı yetişmesi bir mikroklima sonucu değildir; kayısı karasal iklim şartlarına uyum sağlayabilen ve geniş alanlarda yetişebilen bir üründür. Ancak Rize'de turunçgil (kış ılıklığı/fön), Iğdır'da pamuk (çukurda kalması/yaz sıcaklığı), Çoruh Vadisi'nde zeytin (kış ılıklığı) ve Anamur'da muz (yüksek sıcaklık/nem) mikroklima özelliğidir. Muz aslında tropikal bir ürün olup Türkiye'de sadece çok dar bir kıyı şeridinde yetişebildiği için mikroklima örneğidir.",
+    "_part": 57
+  },
+  {
+    "id": "cog_058",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "bitki-ortusu",
+    "subtopic": "Bitki Örtüsü Dağılışı",
+    "q": "Türkiye'de ormanların kıyı bölgelerde yoğunlaşması ve iç bölgelerde bozkırların geniş yer kaplaması aşağıdakilerden hangisiyle en güçlü ilişkiye sahiptir?",
+    "o": [
+      "Toprak türlerinin farklılığı",
+      "Yıllık toplam yağış miktarı ve nemlilik",
+      "Ortalama yükselti değerleri",
+      "Bakı durumu ve güneşlenme süresi",
+      "Basınç merkezlerinin konumu"
+    ],
+    "a": 1,
+    "e": "Bitki örtüsünün dağılışını belirleyen en temel faktör iklim, özellikle de yağış ve nemliliktir. Kıyı bölgelerimizde nem ve yağışın fazla olması orman örtüsünün gelişmesini sağlarken, iç bölgelerde yağış azlığı ve kuraklık (yaz kuraklığı değil, genel nem azlığı) ağaç yetişmesini zorlaştırarak bozkır (step) formasyonunun hakim olmasına neden olmuştur.",
+    "_part": 58
+  },
+  {
+    "id": "cog_059",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-grafikleri",
+    "subtopic": "Yağış Rejimi ve İklim Tipi",
+    "q": "Yıllık yağış miktarının 2000 mm'nin üzerinde olduğu, her mevsimin yağışlı geçtiği ve en fazla yağışın sonbahar aylarında düştüğü bir merkezin iklim özellikleri dikkate alındığında; bu merkezde aşağıdaki bitki topluluklarından hangisinin görülmesi beklenir?",
+    "o": [
+      "Antropojen Bozkır",
+      "Psödomaki (Yalancı Maki)",
+      "Garig",
+      "Savan",
+      "Tayga Ormanları"
+    ],
+    "a": 1,
+    "e": "Tarif edilen iklim tipi Karadeniz İklimi'dir (Her mevsim yağışlı, en çok yağış sonbahar). Karadeniz ikliminin ormanlarının tahrip edildiği yerlerde, orman altı florası olarak bilinen ve makiye benzeyen ancak kışın yapraçıını döken türlerin de bulunduğu çalılıklara 'Psödomaki' (Yalancı Maki) denir. Garig Akdeniz'de makinin tahribiyle, Antropojen Bozkır İç Anadolu'da ormanın tahribiyle oluşur.",
+    "_part": 59
+  },
+  {
+    "id": "cog_060",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "ozel-konum-iklim",
+    "subtopic": "İklim Üzerinde Özel Konumun Etkisi",
+    "q": "Kış mevsiminde Samsun'daki sıcaklık ortalamalarının, daha güneyde yer alan Ankara'dan ve Erzurum'dan yüksek olması aşağıdakilerden hangisi ile açıklanabilir?",
+    "o": [
+      "Enlem etkisi",
+      "Bakı etkisi",
+      "Denizellik etkisi",
+      "Ekvator'a yakınlık",
+      "Yüksek basınç etkisi"
+    ],
+    "a": 2,
+    "e": "Normal şartlarda enlem etkisine göre güneydeki merkezlerin (Ankara, Erzurum) kuzeydeki Samsun'dan sıcak olması beklenir. Ancak Samsun deniz kıyısındadır ve denizler geç soğuduğu için kışın ılıtıcı etki yapar. Ankara ve Erzurum ise karasaldır (ve Erzurum yüksektir). Bu durum enlem etkisine terstir ve temel nedeni 'Denizellik - Karasallık' (Özel Konum) ilişkisidir.",
+    "_part": 60
+  },
+  {
+    "id": "cog_061",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "basinc-ve-ruzgarlar",
+    "subtopic": "Basınç Merkezleri ve Etkileri",
+    "q": "Türkiye'yi etkileyen basınç merkezleri ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "o": [
+      "Sibirya Termik Yüksek Basıncı, kış aylarında etkili olduğunda şiddetli soğuk ve don olaylarına neden olur.",
+      "Asor Dinamik Yüksek Basıncı, yıl boyunca etkili olabilen ve yazın kuraklığa neden olan bir merkezdir.",
+      "Basra Termik Alçak Basıncı, muson sisteminin bir uzantısı olarak yaz aylarında sıcaklığı artırıcı etki yapar.",
+      "İzlanda Dinamik Alçak Basıncı, kışın etkili olduğunda ılık ve yağışlı bir hava kütlesi getirir.",
+      "Basınç merkezlerinin oluşumunda sadece Türkiye'nin jeolojik yapısı ve yer şekilleri etkilidir."
+    ],
+    "a": 4,
+    "e": "Basınç merkezlerinin oluşumunda temel faktörler termik (sıcaklık kökenli) ve dinamik (Dünyanın günlük hareketi kökenli) nedenlerdir. Türkiye'nin jeolojik yapısı (fay hatları, kayaç türü vb.) basınç merkezlerinin oluşumunda bir etken değildir. Diğer seçeneklerdeki basınç merkezi özellikleri (Sibirya'nın soğuk, Asor'un yaz kuraklığı, Basra'nın sıcaklık, İzlanda'nın ılık/yağışlı etkisi) doğrudur.",
+    "_part": 61
+  },
+  {
+    "id": "cog_062",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yerel-ruzgarlar",
+    "subtopic": "Türkiye'de Görülen Yerel Rüzgarlar",
+    "q": "Türkiye'de etkili olan yerel rüzgarlarla ilgili olarak;\n\nI. Lodos rüzgarı denizden geldiği için getirdiği nemli havayla yağış bırakabilir.\nII. Poyraz, kuzeydoğudan esen soğuk karakterli bir rüzgardır.\nIII. Föhn rüzgarları, Doğu Karadeniz ve Toroslarda kurutucu ve sıcaklık artırıcı etki yapar.\n\nyargılarından hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Lodos, güneybatıdan eser ve deniz üzerinden geçtiği için ılık ve nemli hava taşıyarak yağışa neden olabilir (I. öncül doğru). Poyraz, kuzeydoğudan eser, enlem etkisiyle sıcaklığı düşürür ve karasallığın da etkisiyle kışın ayaz yapar (II. öncül doğru). Föhn rüzgarları, dağ yamacı boyunca alçalan hava kütlesinin sürtünmeyle ısınması sonucu oluşur; Rize'de mikroklima (turunçgil), Toroslarda ise karların erken erimesine neden olur (III. öncül doğru). Cevap E seçeneğidir.",
+    "_part": 62
+  },
+  {
+    "id": "cog_063",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "sicaklik-dagilisi",
+    "subtopic": "İndirgenmiş Sıcaklık",
+    "q": "Türkiye'nin Yıllık Ortalama İndirgenmiş Sıcaklık Haritası incelendiğinde, en yüksek sıcaklıkların Güneydoğu Anadolu Bölgesi'nde, en düşük sıcaklıkların ise Kuzeydoğu Anadolu'da (Erzurum-Kars çevresi) olduğu görülür.\n\nBu durumun ortaya çıkmasında aşağıdaki faktörlerden hangisinin etkisi yoktur?",
+    "o": [
+      "Enlem etkisi",
+      "Karasallık derecesi",
+      "Yükselti farkları",
+      "Güneyden gelen sıcak hava dalgaları",
+      "Atmsoferdeki nem oranı"
+    ],
+    "a": 2,
+    "e": "Soru kökünde 'İndirgenmiş Sıcaklık Haritası' denilmektedir. İndirgenmiş sıcaklık, yükselti faktörünün ortadan kaldırılarak her yerin deniz seviyesinde (0 metre) kabul edilmesiyle elde edilir. Bu nedenle, indirgenmiş bir harita yorumlanırken sıcaklık dağılışında 'yükselti' faktörü asla bir neden olarak gösterilemez. Diğer faktörler (enlem, karasallık, güney rüzgarları, nem) bu dağılışta etkilidir.",
+    "_part": 63
+  },
+  {
+    "id": "cog_064",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yagis-cesitleri",
+    "subtopic": "Yağış Oluşum Biçimleri",
+    "q": "Türkiye'nin mutlak (matematik) konumu göz önüne alındığında, orta kuşakta yer almasının bir sonucu olarak en yaygın görülmesi beklenen yağış oluşum şekli aşağıdakilerden hangisidir?",
+    "o": [
+      "Orografik (Yamaç) Yağışlar",
+      "Konveksiyonel (Yükselim) Yağışlar",
+      "Cephesel (Frontal) Yağışlar",
+      "Muson Yağışları",
+      "Siklonik Olmayan Yağışlar"
+    ],
+    "a": 2,
+    "e": "Türkiye, matematik konumu itibarıyla Kuzey Yarım Küre'nin orta kuşağında yer alır. Orta kuşak, kuzeyden gelen soğuk hava kütleleri (Kutup kökenli) ile güneyden gelen sıcak hava kütlelerinin (Ekvator kökenli) karşılaşma alanıdır. Bu karşılaşma sonucunda oluşan yağışlara 'Cephesel (Frontal) Yağışlar' denir. Orografik ve konveksiyonel yağışlar daha çok özel konum (yer şekilleri ve karasallık) ile ilgilidir.",
+    "_part": 64
+  },
+  {
+    "id": "cog_065",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-tipleri",
+    "subtopic": "Akdeniz İklimi ve Bitki Örtüsü",
+    "q": "Akdeniz ikliminin karakteristik bitki örtüsü olan makilerin yetişme yükseltisi sınırı, Akdeniz kıyılarından Marmara kıyılarına doğru gidildikçe deniz seviyesine yaklaşır (alçalır).\n\nBu durumun temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Bakı etkisi",
+      "Enlem etkisi",
+      "Toprak yapısı",
+      "Dağların uzanış doğrultusu",
+      "Yağış rejimi farklılığı"
+    ],
+    "a": 1,
+    "e": "Maki üst sınırının Akdeniz'den (güneyden) Marmara'ya (kuzeye) doğru gidildikçe alçalması, sıcaklık ortalamalarının düşmesiyle ilgilidir. Ekvator'dan kutuplara doğru gidildikçe sıcaklığın azalması 'Enlem Etkisi' ile açıklanır. Akdeniz'de 800-900 metrelere kadar çıkabilen maki, Ege'de 400-500, Marmara'da ise 200 metreler civarında son bulur.",
+    "_part": 65
+  },
+  {
+    "id": "cog_066",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "nem-ve-yagis",
+    "subtopic": "Bağıl Nem ve Maksimum Nem",
+    "q": "Yaz aylarında Güneydoğu Anadolu Bölgesi'nde sıcaklıkların çok yüksek olmasına rağmen yağış ihtimalinin (bağıl nemin) çok düşük olmasının temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Mutlak nem miktarının az, maksimum nem kapasitesinin çok yüksek olması",
+      "Bölgenin dağlık ve engebeli olması",
+      "Bölgede yükselici hava hareketlerinin görülmesi",
+      "Bitki örtüsünün cılız olması",
+      "Basra Alçak Basıncı'nın etkisini yitirmesi"
+    ],
+    "a": 0,
+    "e": "Yağışın oluşabilmesi için havanın neme doyması (bağıl nemin %100'ü aşması) gerekir. Sıcaklık arttıkça havanın nem taşıma kapasitesi (maksimum nem) artar. Güneydoğu Anadolu'da yazın aşırı sıcaklar nedeniyle maksimum nem (kapasite) çok artar, ancak ortamda yeterli su kaynağı olmadığı için mutlak nem bu kapasiteyi dolduramaz. Dolayısıyla 'nem açığı' büyür ve yağış ihtimali azalır.",
+    "_part": 66
+  },
+  {
+    "id": "cog_067",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "mikroklima",
+    "subtopic": "Mikroklima Alanları",
+    "q": "Türkiye'de genel iklim şartlarına uymayan, dar alanlarda görülen özel iklim koşullarına 'mikroklima' denir. Aşağıdaki eşleştirmelerden hangisi Türkiye'deki mikroklima alanlarına örnek **gösterilemez**?",
+    "o": [
+      "Rize - Turunçgil",
+      "Iğdır - Pamuk",
+      "Artvin (Yusufeli) - Zeytin",
+      "Anamur - Muz",
+      "Konya - Buğday"
+    ],
+    "a": 4,
+    "e": "Rize'de turunçgil, Iğdır'da pamuk, Artvin/Yusufeli'nde zeytin ve Anamur'da muz yetiştirilmesi, o bölgelerin çevresine göre özel iklim koşullarına (mikroklima) sahip olduğunu gösterir (genellikle Föhn rüzgarı veya korunaklı vadi etkisiyle). Ancak Konya'da buğday yetiştirilmesi bir mikroklima sonucu değil, zaten o bölgede hakim olan Karasal İklimin doğal bir sonucudur.",
+    "_part": 67
+  },
+  {
+    "id": "cog_068",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-grafikleri",
+    "subtopic": "Yağış Rejimi ve Bölgeler",
+    "q": "Türkiye'de bir merkeze ait yıllık yağış ve sıcaklık grafiği incelendiğinde; en fazla yağışın sonbahar mevsiminde düştüğü, en az yağışın ise ilkbaharda olduğu, yıllık sıcaklık farkının ise az olduğu görülmektedir.\n\nBu merkez aşağıdakilerden hangisi olabilir?",
+    "o": [
+      "Konya",
+      "İzmir",
+      "Erzurum",
+      "Rize",
+      "Şanlıurfa"
+    ],
+    "a": 3,
+    "e": "Türkiye'de 'Sonbahar' yağış maksimumuna sahip olan tek iklim tipi Karadeniz İklimi'dir. Karadeniz ikliminde nemlilikten dolayı yıllık sıcaklık farkı azdır. Seçenekler arasında Karadeniz iklimini temsil eden il Rize'dir. (Konya: İlkbahar, Erzurum: Yaz, İzmir/Şanlıurfa: Kış yağışlıdır).",
+    "_part": 68
+  },
+  {
+    "id": "cog_069",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "ozel-konum-iklim",
+    "subtopic": "Karasallık ve Denizellik",
+    "q": "Kış mevsiminde Ankara'nın Samsun'dan daha soğuk olmasında;\n\nI. Yükselti\nII. Karasallık\nIII. Enlem\n\nfaktörlerinden hangileri etkili olmuştur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız III",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 2,
+    "e": "Normal şartlarda enlem etkisine göre Ekvator'a daha yakın olan Ankara'nın, daha kuzeydeki Samsun'dan sıcak olması beklenirdi. Ancak durum tam tersidir; Samsun daha sıcaktır. Bu durum enlem ile çelişir, dolayısıyla enlem (III) bir neden değildir. Ankara'nın daha soğuk olmasının nedeni; denizden uzak olması (Karasallık - II) ve Samsun'a göre daha yüksekte bulunmasıdır (Yükselti - I). Cevap I ve II'dir.",
+    "_part": 69
+  },
+  {
+    "id": "cog_070",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "bitki-ortusu",
+    "subtopic": "Antropojen Bozkır ve Garig",
+    "q": "Türkiye'de bitki örtüsünün insanlar tarafından tahrip edilmesi sonucunda ortaya çıkan bitki formasyonları ile ilgili;\n\nI. İç Anadolu'da ormanların tahribiyle 'Antropojen Bozkır' alanları oluşmuştur.\nII. Akdeniz'de makilerin tahribiyle 'Garig' formasyonu oluşmuştur.\nIII. Karadeniz'de ormanların tahribiyle 'Psödomaki' (Yalancı maki) oluşmuştur.\n\nifadelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Verilen öncüllerin tamamı doğrudur. İç bölgelerdeki meşe ormanlarının tahribiyle, bozkır içinde ağaç kalıntılarına rastlanan 'Antropojen Bozkır' oluşur. Akdeniz'de makilerin tahribiyle diz boyunu geçmeyen çalılar olan 'Garig'ler oluşur. Karadeniz'de ise nemli ormanların tahribiyle makiye benzeyen ancak kışın yaprak döken türlerin de olduğu 'Psödomaki'ler oluşur.",
+    "_part": 70
+  },
+  {
+    "id": "cog_071",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "sicaklik-dagilisi",
+    "subtopic": "Sıcaklık Dağılışı ve Etkileyen Faktörler",
+    "q": "Türkiye'de yıllık ortalama sıcaklık dağılışı incelendiğinde, indirgenmiş sıcaklık haritalarında en yüksek sıcaklıkların Güneydoğu Anadolu Bölgesi'nde görüldüğü, ancak gerçek sıcaklık haritalarında bu durumun her zaman geçerli olmadığı gözlemlenir.\n\nBu farklılığın ortaya çıkmasındaki temel etken aşağıdakilerden hangisidir?",
+    "o": [
+      "Enlem etkisi",
+      "Yükselti faktörü",
+      "Karasallık şiddeti",
+      "Basınç merkezleri",
+      "Bitki örtüsü cılızlığı"
+    ],
+    "a": 1,
+    "e": "İndirgenmiş sıcaklık haritaları, yükseltinin sıcaklık üzerindeki etkisinin ortadan kaldırılarak (her yer deniz seviyesinde kabul edilerek) hazırlandığı haritalardır. Gerçek sıcaklıkta ise yükselti temel belirleyicidir. Güneydoğu Anadolu'nun indirgenmiş haritalarda en sıcak olmasının sebebi enlem ve karasallıktır; ancak gerçek sıcaklıkta yükselti devreye girdiğinde durum değişebilir. İki harita türü arasındaki temel farkı oluşturan unsur yükseltidir.",
+    "_part": 71
+  },
+  {
+    "id": "cog_072",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "basinc-ve-ruzgarlar",
+    "subtopic": "Basınç Merkezleri ve Rüzgarlar",
+    "q": "Türkiye'yi etkileyen basınç merkezleri ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "o": [
+      "Sibirya Yüksek Basıncı, kış aylarında etkili olduğunda şiddetli soğuk ve don olaylarına neden olur.",
+      "Asor Yüksek Basıncı, yıl boyunca etkili olabilen dinamik kökenli bir basınç merkezidir.",
+      "Basra Alçak Basıncı, muson sisteminin bir uzantısı olup yaz aylarında sıcaklığı artırıcı etki yapar.",
+      "İzlanda Alçak Basıncı, kışın etkili olduğunda ılık ve yağışlı bir hava kütlesi getirir.",
+      "Sibirya Yüksek Basıncı termik kökenli olup, oluşumunda Dünya'nın günlük hareketi etkilidir."
+    ],
+    "a": 4,
+    "e": "Sibirya Yüksek Basıncı termik kökenlidir; ancak termik basınç kuşaklarının oluşumunda Dünya'nın günlük hareketi (dinamik etkenler) değil, Dünya'nın şekli ve buna bağlı sıcaklık (termik etkenler) belirleyicidir. Dünya'nın günlük hareketi dinamik basınçları (Asor ve İzlanda gibi) oluşturur.",
+    "_part": 72
+  },
+  {
+    "id": "cog_073",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "nem-ve-yagis",
+    "subtopic": "Nem ve Yağış Çeşitleri",
+    "q": "Türkiye'de görülen yağış oluşum türleri ile ilgili;\n\nI. Yamaç (Orografik) yağışları en çok Karadeniz ve Akdeniz kıyılarında görülür.\nII. Konveksiyonel (Yükselim) yağışlar, İç Anadolu'da ilkbaharda, Erzurum-Kars çevresinde yazın etkilidir.\nIII. Cephe (Frontal) yağışları, matematik konumun bir sonucu olarak en yaygın görülen yağış türüdür.\n\nyargılarından hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Verilen öncüllerin tamamı doğrudur. Dağların kıyıya paralel uzandığı alanlarda yamaç yağışları görülür (I). Isınan havanın yükselmesiyle oluşan konveksiyonel yağışlar karasal iç bölgelerde yaygındır (II). Türkiye orta kuşakta yer aldığı için sıcak ve soğuk hava kütlelerinin karşılaşma alanı olan cephe yaçıışları, matematik konum gereği en yaygın yağış türüdür (III).",
+    "_part": 73
+  },
+  {
+    "id": "cog_074",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yerel-ruzgarlar",
+    "subtopic": "Yerel Rüzgarlar",
+    "q": "Türkiye'de etkili olan yerel rüzgarlardan biri olan Lodos ile ilgili aşağıdakilerden hangisi söylenemez?",
+    "o": [
+      "Güneybatı yönünden eser ve deniz üzerinden geldiği için nem taşır.",
+      "Kış aylarında estiğinde sıcaklığı artırarak kar erimelerine ve taşkınlara neden olabilir.",
+      "Menteşe Yöresi kıyılarına bol yağış bırakır.",
+      "Göz hastalığı, baş ağrısı ve halsizlik gibi insan sağlığı üzerinde olumsuz etkileri vardır.",
+      "Yaz aylarında Güneydoğu Anadolu'da şiddetli buharlaşmaya ve kuraklığa neden olan temel rüzgardır."
+    ],
+    "a": 4,
+    "e": "Yaz aylarında Güneydoğu Anadolu'da şiddetli buharlaşma ve kuraklığa neden olan rüzgar Lodos değil, güneydoğudan esen Samyeli (Keşişleme) rüzgarıdır. Lodos, güneybatıdan eser ve genellikle kışın ılık karakteriyle bilinir.",
+    "_part": 74
+  },
+  {
+    "id": "cog_075",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-tipleri",
+    "subtopic": "Türkiye'de İklim Tipleri ve Bitki Örtüsü",
+    "q": "Akdeniz iklim bölgesinde, asıl bitki örtüsü olan kızılçam ormanlarının tahrip edilmesiyle ortaya çıkan bodur ağaççıklara maki denir. Makilerin de tahrip edildiği alanlarda garig (frigana) formasyonu görülür.\n\nAşağıdakilerden hangisi garig formasyonuna ait bir bitki türüdür?",
+    "o": [
+      "Lavanta",
+      "Zeytin",
+      "Defne",
+      "Kocayemiş",
+      "Mersin"
+    ],
+    "a": 0,
+    "e": "Zeytin, Defne, Kocayemiş ve Mersin tipik maki türleridir. Lavanta, kekik, funda, yasemin gibi türler ise makilerin tahribiyle oluşan, daha kısa boylu çalı topluluğu olan Garig formasyonuna örnektir.",
+    "_part": 75
+  },
+  {
+    "id": "cog_076",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "mikroklima",
+    "subtopic": "Mikroklima Alanları",
+    "q": "Türkiye'de genel iklim şartlarından farklılık gösteren dar kapsamlı iklim alanlarına mikroklima denir.\n\nAşağıdaki yer ve bu yerde mikroklima etkisiyle yetişen tarım ürünü eşleştirmelerinden hangisi yanlıştır?",
+    "o": [
+      "Rize - Turunçgil",
+      "Iğdır - Pamuk",
+      "Anamur - Muz",
+      "Artvin (Çoruh Vadisi) - Zeytin",
+      "Gümüşhane - Çay"
+    ],
+    "a": 4,
+    "e": "Rize'de turunçgil (Föhn rüzgarları etkisi), Iğdır'da pamuk (çukurda kalması), Anamur'da muz (korunaklı kıyı), Artvin/Yusufeli'nde zeytin (Föhn etkisi) mikroklima örnekleridir. Ancak Gümüşhane'de çay tarımı yapılmaz; çay Doğu Karadeniz kıyı şeridinde (Rize, Artvin kıyıları) yetişir. Gümüşhane, dağların gerisinde kaldığı için karasal iklim özellikleri gösterir.",
+    "_part": 76
+  },
+  {
+    "id": "cog_077",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yagis-rejimi",
+    "subtopic": "Yağış Rejimi ve Dağılışı",
+    "q": "Bir bölgenin yağış rejimi, o bölgedeki akarsuların rejimini ve tarımsal faaliyetlerin zamanlamasını doğrudan etkiler.\n\nBuna göre, Türkiye'de yağış rejiminin en düzenli olduğu bölüm ile en fazla yağışın düştüğü mevsim eşleştirmesi aşağıdakilerden hangisinde doğru verilmiştir?",
+    "o": [
+      "Doğu Karadeniz Bölümü - Sonbahar",
+      "Adana Bölümü - Kış",
+      "Yıldız Dağları Bölümü - İlkbahar",
+      "Erzurum-Kars Bölümü - Yaz",
+      "Kıyı Ege Bölümü - Kış"
+    ],
+    "a": 0,
+    "e": "Türkiye'de yağış rejiminin düzenliye en yakın olduğu yer Karadeniz iklim sahasıdır, özellikle Doğu Karadeniz Bölümü'dür. Karadeniz ikliminde en fazla yağış Sonbahar mevsiminde düşer. Erzurum-Kars'ta en çok yağış yazın düşer ancak rejim düzensizdir.",
+    "_part": 77
+  },
+  {
+    "id": "cog_078",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "nem-ve-sicaklik",
+    "subtopic": "Nemlilik ve Sıcaklık İlişkisi",
+    "q": "Kış mevsiminde, kıyı kesimlerden iç kesimlere doğru gidildikçe sıcaklık değerlerinin belirgin şekilde azalmasının temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Güneş ışınlarının düşme açısının küçülmesi",
+      "Nem miktarının azalması ve ısı kaybının artması",
+      "Bitki örtüsünün cılızlaşması",
+      "Basınç değerlerinin değişmesi",
+      "Kuzeyden gelen rüzgarların etkisi"
+    ],
+    "a": 1,
+    "e": "Kıyıdan iç kesimlere gidildikçe denizellikten uzaklaşılır (karasallık artar). Nem, ısıyı tutan bir tampon görevi görür. İç kesimlerde nem azaldığı için yerin ısı kaybı (ışıma) artar ve sıcaklıklar kıyılara göre çok daha hızlı düşer. Temel neden nem azlığına bağlı aşırı ısı kaybıdır.",
+    "_part": 78
+  },
+  {
+    "id": "cog_079",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "fohn-ruzgarlari",
+    "subtopic": "Föhn Rüzgarları ve Etkileri",
+    "q": "Hava kütlelerinin bir dağ yamacı boyunca alçalırken sürtünmenin etkisiyle ısınması sonucu oluşan rüzgarlara Föhn rüzgarı denir.\n\nTürkiye'de özellikle Doğu Karadeniz ve Toroslar'da etkili olan Föhn rüzgarlarının sonuçları arasında aşağıdakilerden hangisi gösterilemez?",
+    "o": [
+      "Ürünlerin olgunlaşma süresini kısaltır.",
+      "Kış aylarında kar erimelerini hızlandırarak çığ riskini artırır.",
+      "Havadaki nem açığını kapatarak bol yağış bırakır.",
+      "Orman yangını riskini artırır.",
+      "Bağıl nem oranını düşürür."
+    ],
+    "a": 2,
+    "e": "Föhn rüzgarları, alçaldıkça ısınan (her 100 metrede yaklaşık 1°C) ve kuruyan bir karakterdedir. Isındığı için havanın nem taşıma kapasitesi (maksimum nem) artar, ancak mutlak nem sabit kaldığı için bağıl nem düşer ve hava kurur. Dolayısıyla yağış getirmez, aksine yağış oluşumunu engeller (kurutucu etki yapar).",
+    "_part": 79
+  },
+  {
+    "id": "cog_080",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-grafikleri",
+    "subtopic": "İklim Grafikleri Yorumlama",
+    "q": "Yıllık yağış miktarı 400 mm civarında olan, en fazla yağışı ilkbahar aylarında alan ve yazları sıcak ve kurak, kışları soğuk ve kar yağışlı geçen bir merkezin iklim özellikleri dikkate alındığında, bu merkezin bitki örtüsü aşağıdakilerden hangisidir?",
+    "o": [
+      "Maki",
+      "Psödomaki",
+      "Antropojen Bozkır",
+      "Alpin Çayır",
+      "Tayga Ormanları"
+    ],
+    "a": 2,
+    "e": "Tanımlanan iklim özellikleri (İlkbahar yağışı, yaz kuraklığı, kış soğuğu, düşük yağış miktarı) Karasal (Step) iklime aittir. Bu iklimin doğal bitki örtüsü bozkırdır. İnsan tahribiyle ormanların yok edilmesi sonucu oluşan bozkırlara ise 'Antropojen Bozkır' denir ve İç Anadolu'da yaygındır. Alpin çayır sert karasalda (yaz yağışı), Maki Akdeniz'de (kış yağışı) görülür.",
+    "_part": 80
+  },
+  {
+    "id": "cog_081",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "sicaklik-dagilisi",
+    "subtopic": "Türkiye'de Sıcaklık Dağılışı",
+    "q": "Türkiye'de yıllık ortalama sıcaklık dağılışı incelendiğinde, indirgenmiş sıcaklık haritaları ile gerçek sıcaklık haritaları arasında belirgin farklılıklar gözlemlenmektedir.\n\nBuna göre, aşağıdaki kent merkezlerinden hangisinde gerçek sıcaklık ile deniz seviyesine indirgenmiş sıcaklık arasındaki fark en fazladır?",
+    "o": [
+      "İzmir",
+      "Samsun",
+      "Şanlıurfa",
+      "Erzurum",
+      "Konya"
+    ],
+    "a": 3,
+    "e": "Gerçek sıcaklık ile indirgenmiş sıcaklık arasındaki fark, yükselti ile doğru orantılıdır. Yükselti arttıkça bu fark artar. Seçenekler arasında Erzurum, ortalama yükseltisi en fazla olan merkezdir (yaklaşık 1900m). İzmir ve Samsun kıyıdadır (fark 0'a yakın), Şanlıurfa ve Konya ise Erzurum'a göre daha alçaktır.",
+    "_part": 81
+  },
+  {
+    "id": "cog_082",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "basinc-ve-ruzgarlar",
+    "subtopic": "Basınç Merkezleri ve Etkileri",
+    "q": "Türkiye'yi etkileyen basınç merkezleri ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "o": [
+      "İzlanda Dinamik Alçak Basıncı, kışın etkili olduğunda ılık ve yağışlı bir hava getirir.",
+      "Sibirya Termik Yüksek Basıncı, sadece kış aylarında etkili olur ve şiddetli soğuklara neden olur.",
+      "Basra Termik Alçak Basıncı, yaz aylarında güneydoğudan sokularak sıcaklığı ve buharlaşmayı artırır.",
+      "Asor Dinamik Yüksek Basıncı, yıl boyunca etkili olabilen ve yazın kuraklığa neden olan bir merkezdir.",
+      "Basra Alçak Basıncı'nın oluşum kökeni dünyanın günlük hareketine (dinamik köken) dayanır."
+    ],
+    "a": 4,
+    "e": "Basra Alçak Basıncı, Muson sisteminin bir uzantısıdır ve kökeni 'termik'tir (ısınmaya bağlı oluşur). Dünyanın günlük hareketine bağlı oluşan basınç merkezleri (Dinamik) Asor ve İzlanda'dır. Dolayısıyla E seçeneğindeki 'dinamik köken' ifadesi yanlıştır.",
+    "_part": 82
+  },
+  {
+    "id": "cog_083",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yerel-ruzgarlar",
+    "subtopic": "Türkiye'de Yerel Rüzgarlar",
+    "q": "Türkiye'de etkili olan Lodos rüzgari ile ilgili;\n\nI. Güneybatı yönünden eser ve denizden geldiği için nem taşır.\nII. Kış aylarında sıcaklığı artırarak kar erimelerine ve taşkınlara neden olabilir.\nIII. Menteşe Yöresi'nde yağış bırakırken, İç Anadolu'da fön etkisi yaparak kurutucu etki yapar.\n\nyargılarından hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "Lodos (GB), Türkiye'ye güneybatıdan sokulur, deniz üzerinden geldiği için nemlidir ve sıcaklığı artırır (I). Ani sıcaklık artışı kışın kar erimelerine (II) sebep olur. Ayrıca denizden gelen nemli hava dağları aşarken (Menteşe'de yağış bırakıp) iç kısımlara inerken fön karakteri kazanabilir (III). Tüm öncüller doğrudur.",
+    "_part": 83
+  },
+  {
+    "id": "cog_084",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yagis-rejimi",
+    "subtopic": "Yağış Oluşum Biçimleri",
+    "q": "Yükselim (Konveksiyonel) yağışlar, ısınan havanın yükselerek soğuması sonucu oluşur. Türkiye'de karasallığın şiddetli olduğu yerlerde yaygındır.\n\nBuna göre, haritada işaretli merkezlerin hangisinde ilkbahar mevsiminde konveksiyonel yağışların görülme olasılığı en yüksektir?",
+    "o": [
+      "Antalya ve çevresi",
+      "Rize ve çevresi",
+      "Konya ve çevresi",
+      "İzmir ve çevresi",
+      "Zonguldak ve çevresi"
+    ],
+    "a": 2,
+    "e": "Konveksiyonel (Yükselim) yağışlar Türkiye'de en çok İç Anadolu Bölgesi'nde ve İlkbahar mevsiminde görülür (Kırkikindi yağışları). Antalya ve İzmir'de cephesel, Rize ve Zonguldak'ta yamaç yağışları hakimdir. Konya, İç Anadolu'da yer aldığı için doğru cevaptır.",
+    "_part": 84
+  },
+  {
+    "id": "cog_085",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "nem-ve-yagis",
+    "subtopic": "Nem Türleri ve Dağılışı",
+    "q": "Maksimum nem, belirli bir sıcaklıkta havanın taşıyabileceği en fazla nem miktarını ifade eder ve sıcaklıkla doğru orantılıdır.\n\nBuna göre, aşağıdaki bölümlerin hangisinde yaz mevsiminde maksimum nem miktarı en fazladır?",
+    "o": [
+      "Doğu Karadeniz",
+      "Kıyı Ege",
+      "Güney Marmara",
+      "Güneydoğu Anadolu",
+      "Erzurum-Kars"
+    ],
+    "a": 3,
+    "e": "Maksimum nem sıcaklıkla doğru orantılıdır. Yaz mevsiminde Türkiye'de en yüksek sıcaklıklar, karasallık ve güneyden gelen sıcak hava dalgaları (Basra) etkisiyle Güneydoğu Anadolu Bölgesi'nde ölçülür. Sıcaklık en yüksek olduğu için havanın nem taşıma kapasitesi (maksimum nem) de burada en fazladır. (Not: Bağıl nem ile karıştırılmamalıdır).",
+    "_part": 85
+  },
+  {
+    "id": "cog_086",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-tipleri",
+    "subtopic": "Akdeniz İkliminin Yayılışı",
+    "q": "Akdeniz iklimi, Ege Bölgesi'nde kıyıdan 150-200 km iç kesimlere kadar sokulabilirken, Akdeniz Bölgesi'nde bu etki kıyıdan 40-50 km içeride sona erer.\n\nBu durumun temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Ege Bölgesi'nde dağların kıyı çizgisine dik uzanması",
+      "Akdeniz Bölgesi'nin Ekvator'a daha yakın olması",
+      "Ege Bölgesi'nde kıyı uzunluğunun daha fazla olması",
+      "Akdeniz Bölgesi'nde ortalama yükseltinin daha fazla olması",
+      "Ege Bölgesi'nde girinti ve çıkıntının fazla olması"
+    ],
+    "a": 0,
+    "e": "İklimin iç kesimlere sokulabilmesi, yer şekillerinin uzanış doğrultusu ile ilgilidir. Ege'de dağlar kıyıya dik uzandığı için (Horst-Graben sistemi), denizel etki graben ovaları boyunca içereye rahatça girer. Akdeniz'de ise Toroslar kıyıya paralel uzandığı için denizel etki iç kesimlere geçemez.",
+    "_part": 86
+  },
+  {
+    "id": "cog_087",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "bitki-ortusu",
+    "subtopic": "Türkiye'de Bitki Örtüsü",
+    "q": "Türkiye'nin bitki örtüsü dağılışı ile ilgili aşağıda verilen eşleştirmelerden hangisi yanlıştır?",
+    "o": [
+      "Maki - Akdeniz İklimi - Bodur ağaççıklar",
+      "Garig (Frigana) - Akdeniz - Makinin tahribiyle oluşan çalılar",
+      "Antropojen Bozkır - İç Anadolu - Orman tahribiyle ortaya çıkan ot toplulukları",
+      "Psödomaki - Karadeniz - Orman tahribiyle oluşan yalancı maki",
+      "Alpin Çayır - Güneydoğu Anadolu - Yüksek dağ zirveleri"
+    ],
+    "a": 4,
+    "e": "Alpin çayırlar, orman üst sınırından sonra başlayan yüksek dağ çayırlarıdır. Türkiye'de en yaygın ve belirgin olarak Erzurum-Kars platosu ve Doğu Karadeniz dağlarının yüksek kesimlerinde görülür. Güneydoğu Anadolu'da yükselti genel olarak batıdan doğuya artsa da, bölgenin genel karakteri ve kuraklık nedeniyle Alpin çayırların tipik yayılım alanı değildir; bölgede daha çok step (bozkır) hakimdir.",
+    "_part": 87
+  },
+  {
+    "id": "cog_088",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-ozellikleri",
+    "subtopic": "Mikroklima Alanları",
+    "q": "Türkiye'de genel iklim şartlarına uymayan, dar alanlı özel iklim bölgelerine 'mikroklima' denir.\n\nAşağıdaki tarım ürünü ve yetiştirildiği mikroklima alanı eşleştirmelerinden hangisi, fön rüzgarlarının etkisiyle açıklanabilir?",
+    "o": [
+      "Rize - Turunçgil",
+      "Iğdır - Pamuk",
+      "Anamur - Muz",
+      "Artvin - Zeytin",
+      "Malatya - Kayısı"
+    ],
+    "a": 0,
+    "e": "Rize'de kış aylarında dağlardan kıyıya doğru inen Fön rüzgarları, sıcaklığı artırarak ılıman bir ortam oluşturur ve bu sayede bölgede turunçgil (narenciye) tarımı yapılabilir. Iğdır'da pamuk yetişmesi çukurda kalması ve yaz sıcaklığı ile, Anamur'da muz yetişmesi enlem ve kuytu yer özelliği ile ilgilidir. Ancak Fön rüzgarının en tipik mikroklima etkisi Rize-Turunçgil ilişkisidir.",
+    "_part": 88
+  },
+  {
+    "id": "cog_089",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-elemanlari",
+    "subtopic": "Sıcaklık ve Enlem İlişkisi",
+    "q": "Aşağıdaki durumlardan hangisi, Türkiye'de sıcaklık üzerinde enlem etkisine ters düşen bir örnektir?",
+    "o": [
+      "Akdeniz kıyılarının Karadeniz kıyılarından sıcak olması",
+      "Güneyden esen rüzgarların sıcaklığı artırması",
+      "Kış mevsiminde Samsun'un Ankara'dan daha sıcak olması",
+      "Toros Dağları'nın güney yamacının kuzey yamacından sıcak olması",
+      "Yıllık sıcaklık ortalamasının güneyden kuzeye azalması"
+    ],
+    "a": 2,
+    "e": "Normal şartlarda enlem etkisine göre güneydeki bir merkezin (Ankara), kuzeydeki bir merkezden (Samsun) daha sıcak olması beklenir. Ancak kışın Samsun (denizellik etkisiyle) Ankara'dan (karasallık etkisiyle) daha sıcaktır. Bu durum enlem etkisine ters düşer ve özel konum (denizellik-karasallık) ile açıklanır.",
+    "_part": 89
+  },
+  {
+    "id": "cog_090",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-grafikleri",
+    "subtopic": "Yağış ve Sıcaklık Grafiği Yorumlama",
+    "q": "Bir merkeze ait iklim grafiğinde;\n- En fazla yağışın sonbahar aylarında düştüğü,\n- Yıllık sıcaklık farkının az olduğu,\n- Her mevsim yağışlı olduğu,\n- En kurak ayda bile yağış miktarının 50mm altına düşmediği görülmektedir.\n\nBu merkez aşağıdakilerden hangisi olabilir?",
+    "o": [
+      "Antalya",
+      "Konya",
+      "Ardahan",
+      "Rize",
+      "Edirne"
+    ],
+    "a": 3,
+    "e": "Verilen özellikler Karadeniz İklimi'ni (özellikle Doğu Karadeniz kıyı kuşağını) işaret etmektedir. En fazla yağışın sonbaharda düştüğü, nemliliğin yüksek olması nedeniyle sıcaklık farkının az olduğu ve yağış rejiminin düzenli olduğu tek iklim tipi Türkiye'de Karadeniz iklimidir. Rize bu özelliklere en uygun merkezdir.",
+    "_part": 90
+  },
+  {
+    "id": "cog_091",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "basinc-ve-ruzgarlar",
+    "subtopic": "Türkiye'de Basınç ve Rüzgarlar",
+    "q": "Türkiye'yi etkileyen yerel rüzgârlarla ilgili olarak aşağıda verilen özelliklerden hangisi yanlıştır?",
+    "o": [
+      "Lodos, güneybatıdan eser ve göz yaşartıcı etkisiyle bilinir; soba zehirlenmelerine yol açabilir.",
+      "Poyraz, kuzeydoğudan eser ve kışın sıcaklığı belirgin şekilde düşürür.",
+      "Keşişleme (Samyeli), güneydoğudan eser ve yazın Güneydoğu Anadolu'da şiddetli buharlaşmaya neden olur.",
+      "Etezyen, Ege Denizi'nde kuzeyden güneye doğru esen ve yazın serinletici etki yapan rüzgârdır.",
+      "Karayel, güneydoğudan esen ve kış aylarında ılık ve yağışlı hava getiren bir rüzgârdır."
+    ],
+    "a": 4,
+    "e": "Karayel, Türkiye'ye kuzeybatıdan esen, soğuk ve genellikle kar yağışı getiren bir rüzgârdır. Seçenekte belirtildiği gibi güneydoğudan esmez ve ılık değildir. Güneydoğudan esen rüzgâr Samyeli (Keşişleme)'dir.",
+    "_part": 91
+  },
+  {
+    "id": "cog_092",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "sicaklik-etmenleri",
+    "subtopic": "Sıcaklığı Etkileyen Faktörler",
+    "q": "Türkiye'de indirgenmiş sıcaklık haritaları incelendiğinde, sıcaklık dağılışı üzerinde aşağıdakilerden hangisinin etkisi ortadan kaldırılmış olur?",
+    "o": [
+      "Enlem",
+      "Yükselti",
+      "Karasallık",
+      "Denizellik",
+      "Bakı"
+    ],
+    "a": 1,
+    "e": "İndirgenmiş sıcaklık, bir yerin gerçek sıcaklığının deniz seviyesine (0 metre) uyarlanmasıdır. Bu işlem yapılırken her yer aynı seviyede kabul edildiği için 'yükselti' faktörünün sıcaklık üzerindeki etkisi ortadan kaldırılmış olur.",
+    "_part": 92
+  },
+  {
+    "id": "cog_093",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "yagis-cesitleri",
+    "subtopic": "Oluşumuna Göre Yağış Türleri",
+    "q": "Türkiye'de görülen yağış türleri ve yaygın oldukları bölgelerle ilgili;\n\nI. Yamaç Yağışları – Doğu Karadeniz Bölümü\nII. Konveksiyonel Yağışlar – İç Anadolu Bölgesi\nIII. Cephe Yağışları – Akdeniz Bölgesi\n\neşleştirmelerinden hangileri doğrudur?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 4,
+    "e": "I. öncül doğrudur; dağların kıyıya paralel uzandığı Karadeniz'de yamaç (orografik) yağışlar görülür. II. öncül doğrudur; ısınan havanın yükselmesiyle oluşan konveksiyonel (yükselim) yağışlar İç Anadolu'da (Kırkikindi) yaygındır. III. öncül doğrudur; Türkiye'nin matematik konumu (Orta Kuşak) gereği Akdeniz iklim sahasında kışın cephe yağışları görülür.",
+    "_part": 93
+  },
+  {
+    "id": "cog_094",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-tipleri-mikroklima",
+    "subtopic": "Mikroklima Alanları",
+    "q": "Rize çevresinde turunçgil, Çoruh Vadisi'nde (Artvin) zeytin ve Iğdır Ovası'nda pamuk yetiştirilebilmesi aşağıdakilerden hangisiyle açıklanır?",
+    "o": [
+      "Matematik konumun etkileriyle",
+      "Toprak verimliliğinin yüksek olmasıyla",
+      "Mikroklima özelliği gösteren dar alanlı iklim şartlarıyla",
+      "Bölgedeki akarsu ağının sık olmasıyla",
+      "Yıllık yağış miktarının fazla olmasıyla"
+    ],
+    "a": 2,
+    "e": "Belirtilen ürünler normalde o bölgelerin genel iklim şartlarına uyum sağlamaz (Örneğin pamuk tropikal/subtropikaldir, Iğdır karasaldır). Ancak yer şekillerinin etkisiyle (kuytuda kalma, fön rüzgarları vb.) oluşan özel iklim koşulları (mikroklima) bu ürünlerin dar alanlarda yetişmesine olanak tanır.",
+    "_part": 94
+  },
+  {
+    "id": "cog_095",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "basinc-merkezleri",
+    "subtopic": "Türkiye'yi Etkileyen Basınç Merkezleri",
+    "q": "Kış mevsiminde Türkiye'yi etkisi altına aldığında şiddetli soğuklara, don olaylarına ve yüksek atmosfer basıncına neden olan, ülkemize genellikle kuzeydoğudan sokulan basınç merkezi aşağıdakilerden hangisidir?",
+    "o": [
+      "Basra Alçak Basıncı",
+      "İzlanda Alçak Basıncı",
+      "Sibirya Yüksek Basıncı",
+      "Asor Yüksek Basıncı",
+      "Aleut Alçak Basıncı"
+    ],
+    "a": 2,
+    "e": "Sibirya Yüksek Basıncı (Termik kökenli), kışın Türkiye'yi etkilediğinde çok şiddetli soğuklara, ayaz ve don olaylarına neden olur. Kuzeydoğudan sokulur. İzlanda kışın ılık ve yağışlı, Basra yazın sıcak ve kurak, Asor ise yıl boyu etkilidir.",
+    "_part": 95
+  },
+  {
+    "id": "cog_096",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "bitki-ortusu",
+    "subtopic": "Türkiye'de Bitki Örtüsü",
+    "q": "İç Anadolu Bölgesi'ndeki ormanların yüzyıllar boyunca insanlar tarafından tahrip edilmesi sonucunda ortaya çıkan ve orman kalıntısı olarak nitelendirilen bozkır alanlarına ne ad verilir?",
+    "o": [
+      "Maki",
+      "Garig",
+      "Psödomaki",
+      "Antropojen Bozkır",
+      "Alpin Çayır"
+    ],
+    "a": 3,
+    "e": "İç bölgelerdeki ormanların tahribiyle oluşan bozkırlara 'Antropojen Bozkır' denir. Psödomaki Karadeniz'deki orman tahribiyle, Garig Akdeniz'deki maki tahribiyle oluşur. Alpin çayırlar ise yüksek dağ çayırlarıdır.",
+    "_part": 96
+  },
+  {
+    "id": "cog_097",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "sicaklik-dagilisi",
+    "subtopic": "Mevsimsel Sıcaklık Farkları",
+    "q": "Yaz aylarında Güneydoğu Anadolu Bölgesi'nin Akdeniz Bölgesi'nden daha sıcak olmasının temel nedeni aşağıdakilerden hangisidir?",
+    "o": [
+      "Güneş ışınlarının düşme açısı",
+      "Denizellik etkisi",
+      "Karasallık ve güneyden gelen sıcak rüzgârlar",
+      "Bitki örtüsünün cılız olması",
+      "Yükselti ortalamasının daha az olması"
+    ],
+    "a": 2,
+    "e": "Akdeniz ve Güneydoğu Anadolu yaklaşık aynı enlemlerdedir, dolayısıyla güneş ışınlarını alma açıları benzerdir. Ancak Güneydoğu Anadolu'nun denizden uzak (karasal) olması ve güneyden gelen çöl kökenli sıcak rüzgârların (Basra etkisi/Samyeli) etkisiyle yazın Türkiye'nin en sıcak bölgesi olur. Akdeniz'de nem (denizellik) aşırı ısınmayı engeller.",
+    "_part": 97
+  },
+  {
+    "id": "cog_098",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "iklim-grafikleri",
+    "subtopic": "Yağış Rejimi ve Mevsimsellik",
+    "q": "Aşağıdaki illerden hangisinin yıllık yağış miktarının en büyük bölümünü ilkbahar mevsiminde aldığı söylenebilir?",
+    "o": [
+      "Antalya",
+      "Rize",
+      "Erzurum",
+      "Konya",
+      "İzmir"
+    ],
+    "a": 3,
+    "e": "Türkiye'de yağış rejimleri bölgelere göre değişir. İç Anadolu Bölgesi (Konya, Ankara vb.) en çok yağışı konveksiyonel hareketlerle İlkbahar'da alır. Erzurum-Kars Yazın, Karadeniz (Rize) Sonbahar'da, Akdeniz ve Ege (Antalya, İzmir) ise Kışın en çok yağış alır.",
+    "_part": 98
+  },
+  {
+    "id": "cog_099",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "toprak-tipleri",
+    "subtopic": "İklim ve Toprak İlişkisi",
+    "q": "Akdeniz ikliminin karakteristik toprağı olan, kalkerli araziler üzerinde oluşan ve içerdiği demir oksit nedeniyle kırmızı renk alan toprak türü aşağıdakilerden hangisidir?",
+    "o": [
+      "Çernezyom",
+      "Podzol",
+      "Terra Rossa",
+      "Laterit",
+      "Kahverengi Orman Toprağı"
+    ],
+    "a": 2,
+    "e": "Akdeniz ikliminin karakteristik toprağı Terra Rossa'dır (Kırmızı Akdeniz Toprağı). Kireç taşlarının (kalker) çözünmesiyle oluşur ve demir oksitlendiği için kırmızı renklidir. Çernezyom Erzurum-Kars'ta, Podzol Batı Karadeniz'de görülür.",
+    "_part": 99
+  },
+  {
+    "id": "cog_100",
+    "topicId": "6e0Thsz2RRNHFcwqQXso",
+    "subtopicId": "matematik-konum",
+    "subtopic": "İklim ve Matematik Konum",
+    "q": "Türkiye'de iklim özellikleri düşünüldüğünde, aşağıdakilerden hangisi yalnızca 'Mutlak (Matematik) Konum' ile açıklanabilir?",
+    "o": [
+      "Kısa mesafelerde iklim özelliklerinin değişmesi",
+      "Dört mevsimin belirgin olarak yaşanması",
+      "Aynı anda farklı mevsim özelliklerinin görülmesi",
+      "Doğuya gidildikçe sıcaklık ortalamalarının düşmesi",
+      "Karadeniz kıyılarında yıllık yağış miktarının fazla olması"
+    ],
+    "a": 1,
+    "e": "Dört mevsimin belirgin olarak yaşanması, Türkiye'nin Orta Kuşak'ta (Matematik Konum) yer almasının sonucudur. Diğer seçenekler (kısa mesafede değişim, aynı anda farklı iklim, doğuya gidildikçe soğuma, yağış miktarı) yer şekilleri, yükselti ve denizellik gibi Özel Konum faktörleriyle ilgilidir.",
+    "_part": 100
+  },
+  {
+    "id": "geo_01",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "konum_etkisi",
+    "subtopic": "Türkiye'nin Matematik Konumu",
+    "q": "Türkiye'nin orta kuşakta yer almasının bir sonucu olarak yıl içinde yaşanan dört mevsimin belirgin olması, aşağıdakilerden hangisiyle doğrudan ilişkilidir?",
+    "o": [
+      "Mutlak konum",
+      "Yükselti farkları",
+      "Etrafındaki denizler",
+      "Yer şekillerinin engebeli olması",
+      "Kuzey yarım kürede bulunması"
+    ],
+    "a": 0,
+    "e": "Dört mevsimin belirgin yaşanması orta kuşakta yer almamızın yani matematiksel konumumuzun doğrudan bir sonucudur.",
+    "_part": 101,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_02",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "nemlilik",
+    "subtopic": "Nemlilik ve İklim",
+    "q": "Türkiye'de kış mevsiminde kıyı bölgelerindeki yıllık sıcaklık farklarının iç bölgelere göre daha az olmasının temel sebebi aşağıdakilerden hangisidir?",
+    "o": [
+      "Yükselti farkları",
+      "Denizellik etkisi",
+      "Rüzgar yönleri",
+      "Bitki örtüsü çeşitliliği",
+      "Enlem etkisi"
+    ],
+    "a": 1,
+    "e": "Denizellik, ısınma ve soğumayı geciktirerek yıllık sıcaklık farklarını azaltır. İç kesimlerde karasallık baskındır.",
+    "_part": 102,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_03",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "basinc_merkezleri",
+    "subtopic": "Basınç Merkezleri",
+    "q": "Türkiye'de kışın etkili olan İzlanda Alçak Basıncı'nın temel özelliği ve ülkemize etkisi aşağıdakilerden hangisidir?",
+    "o": [
+      "Sıcak ve kurak hava getirir",
+      "Dinamik kökenlidir ve yağış getirir",
+      "Termik kökenlidir ve soğuk hava getirir",
+      "Yazın etkili olur",
+      "Güneydoğu Anadolu'da kuraklığı artırır"
+    ],
+    "a": 1,
+    "e": "İzlanda dinamik kökenli bir alçak basınçtır ve kışın kuzeybatıdan gelerek ülkemize yağışlı hava koşulları getirir.",
+    "_part": 103,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_04",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "ruzgarlar",
+    "subtopic": "Yerel Rüzgarlar",
+    "q": "Türkiye'de kuzey sektörlü rüzgarların (Karayel, Yıldız, Poyraz) sıcaklığı düşürmesinin temel sebebi nedir?",
+    "o": [
+      "Deniz üzerinden gelmeleri",
+      "Yüksek basınçtan gelmeleri",
+      "Kutup yönünden gelmeleri",
+      "Engebeli arazi yapısı",
+      "Sürekli rüzgarlar olmaları"
+    ],
+    "a": 2,
+    "e": "Kuzeyden esen rüzgarlar enlem etkisi gereği daha soğuk olan kutup yönünden geldikleri için sıcaklığı düşürürler.",
+    "_part": 104,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_05",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "nemlilik_yagis",
+    "subtopic": "Yağış Rejimleri",
+    "q": "Türkiye'de her mevsim yağış alan tek bölge olan Doğu Karadeniz'de yağışların oluşum türü aşağıdakilerden hangisidir?",
+    "o": [
+      "Konveksiyonel yağışlar",
+      "Frontal yağışlar",
+      "Orografik yağışlar",
+      "Siklonik yağışlar",
+      "Yükselim yağışları"
+    ],
+    "a": 2,
+    "e": "Doğu Karadeniz'de denizden gelen nemli hava kütlelerinin dağlara çarparak yükselmesi sonucu orografik (yamaç) yağışları oluşur.",
+    "_part": 105,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_06",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "bitki_ortusu",
+    "subtopic": "Bitki Örtüsü",
+    "q": "Akdeniz iklim bölgesinde tahrip edilen ormanların yerinde oluşan kısa boylu çalılıklara ne ad verilir?",
+    "o": [
+      "Psödomaki",
+      "Garig",
+      "Antropojen bozkır",
+      "Maki",
+      "Savan"
+    ],
+    "a": 3,
+    "e": "Akdeniz ikliminde maki, zeytin, zakkum gibi bitkilerden oluşan temel bitki topluluğudur. Garig ise makinin tahribiyle oluşur.",
+    "_part": 106,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_07",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "sicaklik_dagilisi",
+    "subtopic": "Sıcaklık Dağılışı",
+    "q": "Türkiye'de indirgenmiş sıcaklık haritalarında yükselti etkisinin ortadan kaldırılmasının temel amacı nedir?",
+    "o": [
+      "Yağış miktarını göstermek",
+      "Sadece enlem ve denizellik etkisini ölçmek",
+      "Bölgesel farkları yok etmek",
+      "Bitki örtüsünü belirlemek",
+      "Basınç merkezlerini bulmak"
+    ],
+    "a": 1,
+    "e": "İndirgenmiş sıcaklıkta tüm yükseltiler deniz seviyesine çekilir, böylece sıcaklık dağılışı üzerinde sadece enlem ve denizellik etkisi görülür.",
+    "_part": 107,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_08",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "iklim_tipleri",
+    "subtopic": "İklim Tipleri",
+    "q": "İç Anadolu Bölgesi'nde görülen step (bozkır) ikliminin en karakteristik özelliği aşağıdakilerden hangisidir?",
+    "o": [
+      "Kışın ılıman olması",
+      "Yazın kurak, kışın yağışlı olması",
+      "İlkbahar ve yaz başı yağışlarının belirgin olması",
+      "Yıllık sıcaklık farkının az olması",
+      "Her mevsim yağış alması"
+    ],
+    "a": 2,
+    "e": "Step ikliminde yükselim yağışları en fazla ilkbahar ve yaz başında görülür, bu durum bitki örtüsünü etkiler.",
+    "_part": 108,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_09",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "mikroklima",
+    "subtopic": "Mikroklima Alanları",
+    "q": "Doğu Karadeniz kıyılarında turunçgillerin yetişebilmesi, aşağıdaki coğrafi faktörlerden hangisiyle açıklanır?",
+    "o": [
+      "Enlem etkisi",
+      "Denizellik ve dağların uzanışı",
+      "Yükselti",
+      "Bakı etkisi",
+      "Toprak yapısı"
+    ],
+    "a": 1,
+    "e": "Deniz etkisi ve dağların kuzey yamaçlarına nemli hava taşıması, Doğu Karadeniz'de mikroklima alanları oluşturur.",
+    "_part": 109,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_10",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "sicaklik_farki",
+    "subtopic": "Sıcaklık Farkı",
+    "q": "Türkiye'de yıllık sıcaklık farkının en fazla olduğu bölge aşağıdakilerden hangisidir?",
+    "o": [
+      "Ege",
+      "Akdeniz",
+      "Karadeniz",
+      "Doğu Anadolu",
+      "Marmara"
+    ],
+    "a": 3,
+    "e": "Doğu Anadolu'da karasallık ve yüksekliğin etkisiyle kışlar çok soğuk, yazlar sıcak geçer, bu da yıllık sıcaklık farkını artırır.",
+    "_part": 110,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_11",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "nemlilik_sicaklik",
+    "subtopic": "Nemlilik",
+    "q": "Havanın nem taşıma kapasitesi sıcaklıkla doğru orantılıdır. Buna göre, Türkiye'de bağıl nemin en düşük olduğu bölge hangisidir?",
+    "o": [
+      "Karadeniz",
+      "Akdeniz",
+      "İç Anadolu",
+      "Güneydoğu Anadolu",
+      "Marmara"
+    ],
+    "a": 3,
+    "e": "Sıcaklığın çok yüksek olduğu Güneydoğu Anadolu'da hava genişlediği için bağıl nem oranı düşüktür.",
+    "_part": 111,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_12",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "bitki_ortusu",
+    "subtopic": "Bitki Örtüsü",
+    "q": "Türkiye'de 'Antropojen Bozkır' kavramı aşağıdakilerden hangisini ifade eder?",
+    "o": [
+      "Doğal bozkırları",
+      "İnsan müdahalesiyle ormanların tahrip edilip bozkıra dönüşmesini",
+      "Yüksek dağ çayırlarını",
+      "Deniz kıyısındaki maki topluluklarını",
+      "Nemli bölgelerdeki otları"
+    ],
+    "a": 1,
+    "e": "Antropojen bozkır, eskiden orman olan alanların insanlar tarafından yok edilmesiyle oluşan yapay bozkır sahalarıdır.",
+    "_part": 112,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_13",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "baki_etkisi",
+    "subtopic": "Bakı Etkisi",
+    "q": "Türkiye'de dağların güney yamaçlarının kuzey yamaçlarına göre daha sıcak olması aşağıdakilerden hangisinin bir sonucudur?",
+    "o": [
+      "Enlem etkisi (Bakı)",
+      "Denizellik",
+      "Rüzgarlar",
+      "Yükselti",
+      "Nemlilik"
+    ],
+    "a": 0,
+    "e": "Kuzey yarım kürede yer aldığımız için dağların güneye bakan yamaçları güneş ışınlarını daha dik alır; buna bakı etkisi denir.",
+    "_part": 113,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_14",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "yagis_rejimi",
+    "subtopic": "Yağış Rejimi",
+    "q": "Akdeniz ikliminde yağışların büyük kısmının kışın düşmesinin temel sebebi nedir?",
+    "o": [
+      "Sürekli rüzgarlar",
+      "Cephe yağışları",
+      "Konveksiyonel yağışlar",
+      "Yüksek basınç",
+      "Deniz akıntıları"
+    ],
+    "a": 1,
+    "e": "Akdeniz ikliminde kışın etkili olan gezici alçak basınç merkezleri (cepheler) kış yağışlarını getirir.",
+    "_part": 114,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_15",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "basinc_merkezleri",
+    "subtopic": "Basınç Merkezleri",
+    "q": "Türkiye'de yazın etkili olan ve sıcaklığı artıran Basra Alçak Basıncı'nın kökeni nedir?",
+    "o": [
+      "Dinamik",
+      "Termik",
+      "Okyanusal",
+      "Kutup",
+      "Yerel"
+    ],
+    "a": 1,
+    "e": "Basra Alçak Basıncı, çöl bölgelerindeki aşırı ısınmadan kaynaklanan termik bir basınç merkezidir.",
+    "_part": 115,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_16",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "ruzgarlar",
+    "subtopic": "Fön Rüzgarları",
+    "q": "Fön rüzgarlarının Türkiye'de en belirgin olduğu bölge hangisidir?",
+    "o": [
+      "İç Anadolu",
+      "Karadeniz",
+      "Güneydoğu Anadolu",
+      "Ege",
+      "Marmara"
+    ],
+    "a": 1,
+    "e": "Dağların kıyıya paralel uzandığı Karadeniz'de, nemli havanın dağdan aşıp ısınarak aşağı inmesiyle fön rüzgarları oluşur.",
+    "_part": 116,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_17",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "bitki_ortusu",
+    "subtopic": "Bitki Örtüsü",
+    "q": "Türkiye'de 'Psödomaki' (yalancı maki) bitki örtüsü hangi bölgede yaygındır?",
+    "o": [
+      "Akdeniz",
+      "Karadeniz",
+      "İç Anadolu",
+      "Ege",
+      "Güneydoğu Anadolu"
+    ],
+    "a": 1,
+    "e": "Karadeniz'in nemli ikliminde ormanların tahribiyle oluşan fındık, üvez gibi bitkilerden oluşan topluluklara psödomaki denir.",
+    "_part": 117,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_18",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "sicaklik_dagilisi",
+    "subtopic": "Sıcaklık",
+    "q": "Türkiye'de Ocak ayında kıyı bölgelerindeki sıcaklıkların iç bölgelerden yüksek olmasının temel nedeni nedir?",
+    "o": [
+      "Enlem",
+      "Denizellik",
+      "Yükselti",
+      "Bakı",
+      "Bitki örtüsü"
+    ],
+    "a": 1,
+    "e": "Denizler kışın geç soğuduğu için kıyıların iç kesimlere göre daha ılıman olmasını sağlar.",
+    "_part": 118,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_19",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "yagis_dagilisi",
+    "subtopic": "Yağış",
+    "q": "Türkiye'de yıllık yağış miktarının en az olduğu yer neresidir?",
+    "o": [
+      "Iğdır Ovası",
+      "Konya-Karapınar",
+      "Şanlıurfa",
+      "Tuz Gölü çevresi",
+      "Malatya"
+    ],
+    "a": 3,
+    "e": "Tuz Gölü çevresi, etrafının dağlarla çevrili olması nedeniyle nemli hava kütlelerine kapalıdır ve en az yağış alan yerdir.",
+    "_part": 119,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_20",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "iklim_tipleri",
+    "subtopic": "İklim",
+    "q": "Karadeniz ikliminin İç Anadolu ikliminden temel farkı nedir?",
+    "o": [
+      "Yaz sıcaklığı",
+      "Yağış rejimi ve nem miktarı",
+      "Yükselti",
+      "Bitki örtüsü türü",
+      "Enlem"
+    ],
+    "a": 1,
+    "e": "Karadeniz iklimi her mevsim yağışlı ve nemliyken, İç Anadolu step iklimi yazları kurak ve karasaldır.",
+    "_part": 120,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_21",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "basinc_merkezleri",
+    "subtopic": "Basınç",
+    "q": "Sibirya Yüksek Basıncı Türkiye'ye kışın hangi hava koşullarını getirir?",
+    "o": [
+      "Yağışlı ve ılık",
+      "Sert soğuklar ve kar yağışı",
+      "Sıcak ve kuru",
+      "Nemli ve ılıman",
+      "Fırtınalı ve yağışlı"
+    ],
+    "a": 1,
+    "e": "Sibirya termik yüksek basıncı, kışın kuzeydoğudan gelerek çok şiddetli soğuklar ve kar yağışları getirir.",
+    "_part": 121,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_22",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "ruzgarlar",
+    "subtopic": "Rüzgarlar",
+    "q": "Ege Bölgesi'nde yaz aylarında serinletici etkisi olan rüzgar hangisidir?",
+    "o": [
+      "Poyraz",
+      "Lodos",
+      "Etezyen",
+      "Keşişleme",
+      "Karayel"
+    ],
+    "a": 2,
+    "e": "Etezyen, Ege kıyılarında yazın etkili olan, kuzeyden esen ve sıcaklığı düşüren bir rüzgardır.",
+    "_part": 122,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_23",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "bitki_ortusu",
+    "subtopic": "Bitki Örtüsü",
+    "q": "Türkiye'de dağların yüksek kesimlerinde görülen ve orman üst sınırından sonra başlayan ot topluluklarına ne denir?",
+    "o": [
+      "Alpin çayırlar",
+      "Bozkır",
+      "Maki",
+      "Garig",
+      "Psödomaki"
+    ],
+    "a": 0,
+    "e": "Alpin çayırlar, yüksek dağlık alanlarda yaz yağışlarıyla yeşeren gür ot topluluklarıdır.",
+    "_part": 123,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_24",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "nemlilik",
+    "subtopic": "Nemlilik",
+    "q": "Mutlak nemin en fazla olduğu bölgemiz hangisidir?",
+    "o": [
+      "İç Anadolu",
+      "Akdeniz",
+      "Doğu Anadolu",
+      "Güneydoğu Anadolu",
+      "Karadeniz"
+    ],
+    "a": 1,
+    "e": "Mutlak nem sıcaklık ve denizellik ile doğru orantılıdır; Akdeniz hem sıcak hem denizel olduğu için mutlak nemi en yüksektir.",
+    "_part": 124,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_25",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "sicaklik_dagilisi",
+    "subtopic": "Sıcaklık",
+    "q": "Türkiye'de Temmuz ayında sıcaklığın en yüksek olduğu bölge hangisidir?",
+    "o": [
+      "Akdeniz",
+      "Ege",
+      "Güneydoğu Anadolu",
+      "Marmara",
+      "Karadeniz"
+    ],
+    "a": 2,
+    "e": "Güneydoğu Anadolu'da karasallık ve Basra alçak basıncının etkisiyle yaz sıcaklıkları en üst seviyeye çıkar.",
+    "_part": 125,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_26",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "iklim_tipleri",
+    "subtopic": "İklim",
+    "q": "Akdeniz ikliminin en belirgin karakteristik özelliği nedir?",
+    "o": [
+      "Kışların ılık ve yağışlı olması",
+      "Her mevsim yağışlı olması",
+      "Yazların serin geçmesi",
+      "Sert karasal iklim görülmesi",
+      "Yıllık sıcaklık farkının çok olması"
+    ],
+    "a": 0,
+    "e": "Akdeniz ikliminde yazlar sıcak ve kurak, kışlar ise ılık ve yağışlı geçer.",
+    "_part": 126,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_27",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "ruzgarlar",
+    "subtopic": "Rüzgarlar",
+    "q": "Lodos rüzgarının Türkiye'de genellikle hangi etkiyi yapması beklenir?",
+    "o": [
+      "Sıcaklığı düşürmesi",
+      "Kar yağışı getirmesi",
+      "Sıcaklığı artırması ve yağış getirmesi",
+      "Kuraklığı artırması",
+      "Don olaylarını tetiklemesi"
+    ],
+    "a": 2,
+    "e": "Lodos, güneybatıdan esen sıcak bir rüzgardır, beraberinde nemli hava ve yağış getirir.",
+    "_part": 127,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_28",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "bitki_ortusu",
+    "subtopic": "Bitki Örtüsü",
+    "q": "Türkiye'de orman varlığının en zengin olduğu bölge hangisidir?",
+    "o": [
+      "Ege",
+      "Karadeniz",
+      "Akdeniz",
+      "İç Anadolu",
+      "Marmara"
+    ],
+    "a": 1,
+    "e": "Karadeniz Bölgesi, nem ve yağışın en fazla olduğu bölge olduğu için orman varlığı açısından en zengindir.",
+    "_part": 128,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_29",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "yagis_dagilisi",
+    "subtopic": "Yağış",
+    "q": "Türkiye'de yağışın mevsimlere göre dağılımında 'Kış' mevsiminin en yağışlı olduğu yerler hangisidir?",
+    "o": [
+      "İç Anadolu",
+      "Karadeniz",
+      "Akdeniz ve Ege kıyıları",
+      "Erzurum-Kars",
+      "Hakkari yöresi"
+    ],
+    "a": 2,
+    "e": "Akdeniz ikliminin görüldüğü yerlerde yağışlar kışın cephe sistemlerine bağlı olarak maksimum seviyeye ulaşır.",
+    "_part": 129,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_30",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "mikroklima",
+    "subtopic": "Mikroklima",
+    "q": "Iğdır Ovası'nda pamuk tarımının yapılabilmesi aşağıdakilerden hangisiyle ilgilidir?",
+    "o": [
+      "Yükselti azlığı ve mikroklima",
+      "Deniz etkisi",
+      "Enlem",
+      "Bakı etkisi",
+      "Bol yağış"
+    ],
+    "a": 0,
+    "e": "Iğdır, çevresine göre alçakta kaldığı için çevresinden daha sıcak bir mikroklima oluşturur, bu da pamuk yetişmesini sağlar.",
+    "_part": 130,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_31",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "bitki_ortusu",
+    "subtopic": "Bitki Örtüsü",
+    "q": "Türkiye'de endemik bitki türlerinin en fazla olduğu bölge hangisidir?",
+    "o": [
+      "Marmara",
+      "Toros Dağları (Akdeniz)",
+      "Karadeniz",
+      "İç Anadolu",
+      "Ege"
+    ],
+    "a": 1,
+    "e": "Toros Dağları, iklim çeşitliliği ve engebeli yapısı nedeniyle çok sayıda endemik bitkiye ev sahipliği yapar.",
+    "_part": 131,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_32",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "sicaklik_dagilisi",
+    "subtopic": "Sıcaklık",
+    "q": "Türkiye'de yıllık sıcaklık ortalamasının en düşük olduğu bölge hangisidir?",
+    "o": [
+      "Doğu Anadolu",
+      "İç Anadolu",
+      "Güneydoğu Anadolu",
+      "Marmara",
+      "Ege"
+    ],
+    "a": 0,
+    "e": "Doğu Anadolu, yüksekliği ve karasallığı nedeniyle Türkiye'nin yıllık sıcaklık ortalaması en düşük bölgesidir.",
+    "_part": 132,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_33",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "yagis",
+    "subtopic": "Yağış",
+    "q": "Konveksiyonel (Yükselim) yağışlar Türkiye'de en çok hangi bölgede görülür?",
+    "o": [
+      "Karadeniz",
+      "Akdeniz",
+      "İç Anadolu",
+      "Marmara",
+      "Ege"
+    ],
+    "a": 2,
+    "e": "İç Anadolu'da ısınan havanın yükselmesiyle oluşan konveksiyonel (kırkikindi) yağışları yaygındır.",
+    "_part": 133,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_34",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "iklim_tipleri",
+    "subtopic": "İklim",
+    "q": "Karadeniz ikliminin yağış rejimi nasıldır?",
+    "o": [
+      "Düzenli",
+      "Düzensiz ve kışın yağışlı",
+      "Düzensiz ve yazın kurak",
+      "Düzensiz ve ilkbahar yağışlı",
+      "Çok düzensiz"
+    ],
+    "a": 0,
+    "e": "Karadeniz iklimi her mevsim yağış aldığı için yağış rejimi Türkiye'de en düzenli olan iklimdir.",
+    "_part": 134,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_35",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "nemlilik",
+    "subtopic": "Nemlilik",
+    "q": "Bağıl nemin yıl boyunca en yüksek olduğu bölgemiz hangisidir?",
+    "o": [
+      "Akdeniz",
+      "Karadeniz",
+      "Güneydoğu Anadolu",
+      "İç Anadolu",
+      "Ege"
+    ],
+    "a": 1,
+    "e": "Karadeniz her mevsim yağışlı ve nemli olduğu için bağıl nem oranı en yüksek olan bölgedir.",
+    "_part": 135,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_36",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "ruzgarlar",
+    "subtopic": "Rüzgarlar",
+    "q": "Poyraz rüzgarları ülkemize hangi yönden eser?",
+    "o": [
+      "Kuzeydoğu",
+      "Güneydoğu",
+      "Güneybatı",
+      "Kuzeybatı",
+      "Güney"
+    ],
+    "a": 0,
+    "e": "Poyraz, Türkiye'nin kuzeydoğusundan esen soğuk bir rüzgardır.",
+    "_part": 136,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_37",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "bitki_ortusu",
+    "subtopic": "Bitki Örtüsü",
+    "q": "Maki bitki örtüsünün tahrip edilmesiyle oluşan 'Garig' bitkilerine örnek hangisidir?",
+    "o": [
+      "Zeytin",
+      "Lavanta",
+      "Defne",
+      "Kekik",
+      "Kızılçam"
+    ],
+    "a": 3,
+    "e": "Lavanta, kekik, süpürge çalısı gibi kısa boylu bitkiler garig grubuna girer.",
+    "_part": 137,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_38",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "sicaklik_dagilisi",
+    "subtopic": "Sıcaklık",
+    "q": "Türkiye'de yükselti arttıkça sıcaklığın düşmesi aşağıdakilerden hangisinin sonucudur?",
+    "o": [
+      "Atmosferin yerden ısınması",
+      "Güneş ışınlarının açısı",
+      "Enlem etkisi",
+      "Nemliliğin azalması",
+      "Basınç"
+    ],
+    "a": 0,
+    "e": "Atmosfer yerden ısındığı için yükseldikçe sıcaklık her 200 metrede 1 derece azalır.",
+    "_part": 138,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_39",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "yagis_rejimi",
+    "subtopic": "Yağış",
+    "q": "İç Anadolu Bölgesi'nde yağışların en çok ilkbaharda düşmesinin temel sebebi nedir?",
+    "o": [
+      "Kışın soğuk olması",
+      "Konveksiyonel yükselme",
+      "Cephe sistemleri",
+      "Deniz etkisi",
+      "Dağların uzanışı"
+    ],
+    "a": 1,
+    "e": "İlkbaharda ısınan hava kütlelerinin yükselmesiyle (konveksiyonel) yağışlar meydana gelir.",
+    "_part": 139,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_40",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "basinc_merkezleri",
+    "subtopic": "Basınç",
+    "q": "Azor Yüksek Basıncı'nın Türkiye'de yazın etkili olması ne anlama gelir?",
+    "o": [
+      "Yağışların artması",
+      "Sıcak ve kurak bir yaz mevsimi",
+      "Sert soğuklar",
+      "Fırtınalar",
+      "Nem artışı"
+    ],
+    "a": 1,
+    "e": "Azor dinamik yüksek basıncı, yazın sıcak ve kurak hava koşullarının oluşmasında etkilidir.",
+    "_part": 140,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_41",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "bitki_ortusu",
+    "subtopic": "Bitki",
+    "q": "Kızılçam ormanlarının tahrip edilmesiyle maki oluşur. Peki, maki de tahrip edilirse ne oluşur?",
+    "o": [
+      "Antropojen bozkır",
+      "Garig",
+      "Alpin çayır",
+      "Step",
+      "Orman"
+    ],
+    "a": 1,
+    "e": "Makilerin daha fazla tahrip edilmesi sonucunda garig adı verilen çalı toplulukları ortaya çıkar.",
+    "_part": 141,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_42",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "sicaklik",
+    "subtopic": "Sıcaklık",
+    "q": "Türkiye'de kışın kar yağışlarının en uzun süre yerde kaldığı bölge hangisidir?",
+    "o": [
+      "Ege",
+      "Marmara",
+      "Doğu Anadolu",
+      "Akdeniz",
+      "Karadeniz"
+    ],
+    "a": 2,
+    "e": "Doğu Anadolu, yüksekliği ve sert iklimi nedeniyle karın en uzun süre yerde kaldığı bölgedir.",
+    "_part": 142,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_43",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "ruzgarlar",
+    "subtopic": "Rüzgar",
+    "q": "Türkiye'de kuzeybatıdan esen ve soğuk karakterli rüzgar hangisidir?",
+    "o": [
+      "Karayel",
+      "Poyraz",
+      "Lodos",
+      "Kıble",
+      "Yıldız"
+    ],
+    "a": 0,
+    "e": "Karayel kuzeybatıdan, Poyraz kuzeydoğudan, Yıldız ise kuzeyden eser.",
+    "_part": 143,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_44",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "iklim_tipleri",
+    "subtopic": "İklim",
+    "q": "Sert karasal iklimin Türkiye'deki en tipik görüldüğü alan hangisidir?",
+    "o": [
+      "Konya Ovası",
+      "Erzurum-Kars Platosu",
+      "Malatya Ovası",
+      "Trakya",
+      "Ege"
+    ],
+    "a": 1,
+    "e": "Erzurum-Kars Platosu, yüksekliği ve karasallığı nedeniyle sert karasal iklimin merkezidir.",
+    "_part": 144,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_45",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "nemlilik",
+    "subtopic": "Nemlilik",
+    "q": "Türkiye'de nemliliğin en az olduğu yerler nerelerdir?",
+    "o": [
+      "Kıyı bölgeleri",
+      "İç kesimler ve yüksek dağlık alanlar",
+      "Akdeniz kıyıları",
+      "Karadeniz",
+      "Marmara kıyıları"
+    ],
+    "a": 1,
+    "e": "Denizden uzak olan iç kesimler ve yükseltisi çok fazla olan dağlık alanlarda nemlilik azalır.",
+    "_part": 145,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_46",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "bitki_ortusu",
+    "subtopic": "Bitki",
+    "q": "Türkiye'de çay tarımının yapılabilmesi, hangi iklimsel koşulla doğrudan ilişkilidir?",
+    "o": [
+      "Kuraklık",
+      "Yüksek nem ve yağış",
+      "Sıcak yazlar",
+      "Yüksek sıcaklık farkı",
+      "Sert kışlar"
+    ],
+    "a": 1,
+    "e": "Çay, her mevsim yağış alan ve nemli bir iklim ister; bu yüzden Doğu Karadeniz'de yetişir.",
+    "_part": 146,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_47",
+    "topicId": "turkiye_iklim",
+    "subtopicId": "ruzgarlar",
+    "subtopic": "Rüzgar",
+    "q": "Kıble rüzgarı ülkemize hangi yönden eser?",
+    "o": [
+      "Güney",
+      "Kuzey",
+      "Doğu",
+      "Batı",
+      "Kuzeydoğu"
+    ],
+    "a": 0,
+    "e": "Kıble güneyden, Lodos güneybatıdan, Keşişleme ise güneydoğudan eser.",
+    "_part": 147,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "geo_48",
+    "topicId": "turkiye",
+    "_part": 148,
+    "_generatedAt": "2026-04-15T18:36:38.422Z"
+  },
+  {
+    "id": "iklim1_1720000000001",
+    "topicId": "turkiye-iklimi",
+    "subtopicId": "akdeniz-iklimi",
+    "subtopic": "AKDENİZ İKLİMİ",
+    "q": "Türkiye'de yazları sıcak ve kurak, kışları yumuşak ve yağışlı geçen Akdeniz ikliminin karakteristik bitki örtüsü aşağıdakilerden hangisidir?",
+    "o": [
+      "Maki",
+      "Orman",
+      "Bozkır",
+      "Step",
+      "Alpin çayır"
+    ],
+    "a": 0,
+    "e": "Doğru cevap A. Akdeniz ikliminde kuraklığa uyum sağlayan maki bitki örtüsü hâkimdir. Çeldiriciler diğer iklim tiplerinin bitki örtülerini temsil eder (120 karakter).",
+    "_part": 149,
+    "_generatedAt": "2026-04-17T04:02:07.545Z"
+  }
+]

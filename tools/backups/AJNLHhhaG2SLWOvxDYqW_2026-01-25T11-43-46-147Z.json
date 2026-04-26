@@ -1,0 +1,258 @@
+[
+  {
+    "id": "AJNLHhhaG2SLWOvxDYqW_gen_1",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "lessonId": "turkce",
+    "q": "Cümlede Anlam konusuyla ilgili çalışmalarımız devam etmektedir. Bu bir örnek sorudur.",
+    "o": [
+      "A Seçeneği",
+      "B Seçeneği",
+      "C Seçeneği",
+      "D Seçeneği",
+      "E Seçeneği"
+    ],
+    "a": 0,
+    "e": "Detaylı içerikler yakında GitHub üzerinden senkronize edilecektir.",
+    "subtopic": "Genel"
+  },
+  {
+    "id": "turkce_001",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "cumle-yorumu-yakin-anlam",
+    "subtopic": "Cümle Yorumu ve Yakın Anlam",
+    "q": "\"Gerçek sanatçı, başkalarının ayak izlerine basarak yürümeyi reddeden, kendi patikasını dikenler içinde de olsa açabilen kişidir.\"\n\nBu cümlede anlatılmak istenen aşağıdakilerden hangisidir?",
+    "o": [
+      "Sanatçıların başarılı olmak için toplumdan kopuk yaşamaları gerektiği",
+      "Sanatın evrensel değerlere ulaşmasının geleneksel yöntemlerle mümkün olduğu",
+      "Özgünlüğün, taklitten kaçınıp zorluklara rağmen kendi üslubunu oluşturmakla sağlandığı",
+      "Sanatçının, kendinden önceki ustaların birikiminden faydalanması gerektiği",
+      "Her sanat eserinin, yaratıcısının iç dünyasındaki karmaşayı yansıtması gerektiği"
+    ],
+    "a": 2,
+    "e": "Cümlede 'başkalarının ayak izlerine basarak yürümeyi reddetmek' ifadesi taklitten kaçınmayı (özgünlüğü), 'kendi patikasını dikenler içinde de olsa açabilmek' ifadesi ise zorluklara göğüs gererek kendi tarzını/üslubunu oluşturmayı anlatır. Bu nedenle doğru yanıt C seçeneğidir."
+  },
+  {
+    "id": "turkce_002",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "kesin-yargi",
+    "subtopic": "Cümleden Çıkarılabilecek Kesin Yargı",
+    "q": "\"Dünyanın en prestijli sinema ödüllerinden biri olan Akademi Ödülleri'nde, 2020 yılında ilk kez İngilizce dışındaki bir dilde çekilen film 'En İyi Film' kategorisinde ödül kazanmıştır.\"\n\nBu cümleden kesin olarak çıkarılabilecek yargı aşağıdakilerden hangisidir?",
+    "o": [
+      "2020 yılından önce Akademi Ödülleri'nde İngilizce dışındaki filmlere ödül verilmemiştir.",
+      "Akademi Ödülleri, sadece İngilizce çekilen filmlerin katılabildiği bir organizasyondur.",
+      "2020 yılında ödül alan film, tüm kategorilerde birinci seçilmiştir.",
+      "'En İyi Film' kategorisinde 2020 öncesinde ödül alan yapımların tamamı İngilizce çekilmiştir.",
+      "Akademi Ödülleri, dünyanın en çok izlenen ödül törenidir."
+    ],
+    "a": 3,
+    "e": "Cümlede, 2020 yılında 'ilk kez' İngilizce dışındaki bir filmin 'En İyi Film' ödülünü aldığı belirtilmektedir. Bu, 2020 öncesinde bu kategoride ödül alan filmlerin tamamının İngilizce olduğu anlamını kesin kılar. A seçeneği yanlıştır çünkü başka kategorilerde (örneğin Yabancı Dilde En İyi Film) ödül verilmiş olabilir. B seçeneği yanlıştır, katılım şartı değil ödül alma durumu belirtilmiştir."
+  },
+  {
+    "id": "turkce_003",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "cumle-tamamlama",
+    "subtopic": "Cümle Tamamlama",
+    "q": "Bilim insanları, yapay zekanın insan zekasını taklit etme yeteneğinin ötesine geçerek özgün kararlar alabileceği bir geleceği tartışıyor; ancak bu durum, etik açıdan ---- sorunları da beraberinde ----.\n\nBu cümlede boş bırakılan yerlere düşüncenin akışına göre aşağıdakilerden hangisi getirilmelidir?",
+    "o": [
+      "çözülebilir - getirmektedir",
+      "öngörülemez - getirecektir",
+      "basit - sürüklemektedir",
+      "karmaşık - sonlandırmaktadır",
+      "önemsiz - doğurmaktadır"
+    ],
+    "a": 1,
+    "e": "Cümlenin gidişatı, yapay zekanın özgün kararlar almasının yaratacağı belirsizliğe ve risklere işaret etmektedir. 'Etik açıdan' ifadesi ciddi bir durumu nitelediği için 'önemsiz' veya 'basit' gibi kelimeler uymaz. Geleceğe yönelik bir tartışma olduğu için 'öngörülemez' sorunları beraberinde 'getirecektir' ifadesi mantıksal bütünlüğü en iyi sağlayan seçenektir."
+  },
+  {
+    "id": "turkce_004",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "uslup-icerik",
+    "subtopic": "Üslup ve İçerik Cümleleri",
+    "q": "Aşağıdaki cümlelerin hangisinde yazarın 'üslubu' ile ilgili bir bilgiye yer verilmiştir?",
+    "o": [
+      "Yazar, romanında Kurtuluş Savaşı yıllarında Anadolu halkının çektiği sıkıntıları gözler önüne seriyor.",
+      "Öykülerinde genellikle kırsal kesimden şehre göç eden ailelerin dramını işliyor.",
+      "Eser, devrik cümlelerle örülü, sıfatlardan arındırılmış yalın bir anlatımla okura ulaşıyor.",
+      "Son makalesinde küresel ısınmanın tarım üzerindeki olumsuz etkilerine değinmiş.",
+      "Tarihi olayları, belgelerin ışığında kurgulayarak okuyucuya sunmayı tercih ediyor."
+    ],
+    "a": 2,
+    "e": "A, B, D ve E seçenekleri yazarın 'ne anlattığına' (konu/içerik) odaklanırken; C seçeneği yazarın dili 'nasıl kullandığına' (devrik cümleler, yalın anlatım, sıfat kullanımı) odaklanmaktadır. Bu, üslup (biçem) özelliğidir."
+  },
+  {
+    "id": "turkce_005",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "kavramlar",
+    "subtopic": "Hayıflanma ve Pişmanlık",
+    "q": "Aşağıdaki cümlelerin hangisinde 'hayıflanma' anlamı vardır?",
+    "o": [
+      "Keşke o gün arkadaşımın kalbini kırmasaydım.",
+      "Bu arabayı alırken bir ustaya göstermediğim için çok üzgünüm.",
+      "Sınavdan önce konuları tekrar etseydim şimdi çok daha yüksek bir puan alabilirdim.",
+      "Bana yalan söylediğini öğrendiğimden beri onunla konuşmuyorum.",
+      "Ona o kadar güvenmemeliydim, beni yarı yolda bıraktı."
+    ],
+    "a": 2,
+    "e": "Hayıflanma, kişinin yapmadığı bir işten dolayı duyduğu üzüntüdür (fırsatı kaçırma). Pişmanlık ise yapılan bir işten dolayı duyulan üzüntüdür. A, B ve E seçeneklerinde yapılan bir eylemden duyulan 'pişmanlık' vardır. C seçeneğinde ise yapılmayan bir eylemden (tekrar etmeme) dolayı duyulan üzüntü yani 'hayıflanma' söz konusudur."
+  },
+  {
+    "id": "turkce_006",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "cumle-birlestirme",
+    "subtopic": "Cümle Birleştirme",
+    "q": "I. Balzamik sirke, İtalya'nın Modena bölgesinde yetişen üzümlerden elde edilen özel bir sirke türüdür.\nII. Bu sirke, yıllarca ahşap fıçılarda bekletilerek yoğun kıvamını ve kendine has aromasını kazanır.\n\nBu iki cümlenin anlamca doğru bir biçimde birleştirilmiş hâli aşağıdakilerden hangisidir?",
+    "o": [
+      "İtalya'nın Modena bölgesinde yetişen üzümlerden elde edilen balzamik sirke, yoğun kıvamını ve aromasını ahşap fıçılarda yıllarca bekletilmesine borçludur.",
+      "Ahşap fıçılarda bekletilerek aroma kazanan balzamik sirke, sadece İtalya'nın Modena bölgesindeki üzümlerden yapılır.",
+      "Modena bölgesindeki üzümlerden elde edilen ve yıllarca bekletilen balzamik sirke, ahşap fıçılar sayesinde özel bir tür haline gelir.",
+      "İtalya'da üretilen balzamik sirke, Modena üzümlerinden elde edildiği için ahşap fıçılarda yoğun bir kıvam kazanır.",
+      "Yıllarca ahşap fıçılarda bekletildiği için yoğun kıvam kazanan balzamik sirke, İtalya'nın en özel sirke türüdür."
+    ],
+    "a": 0,
+    "e": "İki cümleyi birleştirirken hiçbir bilginin atlanmaması ve anlamın bozulmaması gerekir. A seçeneği, I. cümledeki 'menşei ve hammaddeyi' (Modena, üzüm) ve II. cümledeki 'süreç ve sonucu' (ahşap fıçı, bekleme, kıvam/aroma) eksiksiz ve neden-sonuç ilişkisini koruyarak birleştirmiştir. B'de 'sadece' ifadesi, C'de 'özel tür haline gelmesi' vurgusu, D'de neden-sonuç ilişkisinin yanlış kurulması (üzümden elde edildiği için değil, bekletildiği için kıvam kazanır), E'de ise 'en özel' ifadesi hatadır."
+  },
+  {
+    "id": "turkce_007",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "cumle-yorumu-oznel-nesnel",
+    "subtopic": "Öznel ve Nesnel Yargılar",
+    "q": "(I) Modern Türk şiiri, geleneğin sınırlarını zorlayarak kendine yeni bir mecra arayışındadır. (II) Bu arayış sürecinde şairler, imge dünyalarını genişletmek için sözcüklerin alışılmamış bağdaştırmalarına başvururlar. (III) İkinci Yeni akımı temsilcileri, şiirde anlamı kapalı tutmayı ve soyutlamayı esas almışlardır. (IV) Okuru büyüleyen bu kapalı anlatım, aslında şiirin çok katmanlı yapısının bir tezahürüdür. (V) Turgut Uyar, 'Dünyanın En Güzel Arabistanı' adlı eserinde bu anlayışın somut örneklerini sergiler.\n\nBu parçadaki numaralanmış cümlelerin hangilerinde 'öznel' bir değerlendirme söz konusudur?",
+    "o": [
+      "I ve II",
+      "II ve III",
+      "I ve IV",
+      "III ve V",
+      "IV ve V"
+    ],
+    "a": 2,
+    "e": "Öznel yargı, kişisel görüş ve beğeni içeren, kanıtlanamayan yargılardır. I. cümlede 'sınırları zorlamak' yorum içeren bir ifadedir. IV. cümlede geçen 'okuru büyüleyen' ifadesi kişisel bir beğeni ve yorum içerdiğinden özneldir. II, III ve V. cümleler ise nesnel, doğruluğu veya yanlışlığı kanıtlanabilir durum tespitleridir."
+  },
+  {
+    "id": "turkce_008",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "cumle-iliskileri",
+    "subtopic": "Neden-Sonuç / Amaç-Sonuç",
+    "q": "Aşağıdaki cümlelerin hangisinde 'amaç-sonuç' ilişkisi vardır?",
+    "o": [
+      "Yazar, romanındaki karakterleri gerçek hayattan seçtiği için eser inandırıcılığını koruyor.",
+      "Eleştirmenlerin haksız tutumlarına maruz kaldığından uzun süre yazı dünyasından uzaklaştı.",
+      "Genç şairlere yol göstermek, onlara şiir sanatının inceliklerini öğretmek üzere bir atölye kurdu.",
+      "Baharın gelmesiyle birlikte doğanın uyanışı, sanatçının tuvallerine canlı renkler olarak yansıdı.",
+      "Eski İstanbul fotoğraflarına baktıkça çocukluğunun geçtiği o ahşap evleri hatırlayıp hüzünlenirdi."
+    ],
+    "a": 2,
+    "e": "A, B, D ve E seçeneklerinde eylemin gerçekleşmesi bir nedene bağlanmıştır (Neden-Sonuç). C seçeneğinde ise atölye kurma eylemi, 'genç şairlere yol göstermek' amacına yöneliktir. Eylem henüz gerçekleşmemiş bir hedefe (amaca) bağlıdır."
+  },
+  {
+    "id": "turkce_009",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "yakin-anlam",
+    "subtopic": "Yakın Anlamlı Cümleler",
+    "q": "'Gerçek sanatçı; gördüğü manzarayı olduğu gibi tuvale aktaran değil, o manzaraya kendi ruhunun renklerini katarak onu yeniden inşa edendir.'\n\nBu cümleyle anlamca en yakın olan yargı aşağıdakilerden hangisidir?",
+    "o": [
+      "Sanatın temel işlevi, doğayı ve insanı hiçbir değişikliğe uğratmadan yansıtmaktır.",
+      "Başarılı bir eser, sanatçının dış dünyayı kendi iç dünyasında yoğurarak şekillendirmesiyle oluşur.",
+      "Sanatçı, toplumsal gerçekleri belgesel niteliğinde bir kesinlikle eserine taşımalıdır.",
+      "Hayal gücünden yoksun bir sanat eseri, teknik açıdan ne kadar mükemmel olsa da kalıcı olamaz.",
+      "Sanatçının özgünlüğü, daha önce kimsenin ele almadığı konuları işlemesine bağlıdır."
+    ],
+    "a": 1,
+    "e": "Soru kökündeki cümle, sanatın bir 'taklit' (mimesis) olmadığını, sanatçının yorumunu ve öznelliğini katması gerektiğini ('yeniden inşa etmek') vurgular. B seçeneğindeki 'dış dünyayı kendi iç dünyasında yoğurarak şekillendirmesi' ifadesi, 'kendi ruhunun renklerini katmak' ve 'yeniden inşa etmek' ile örtüşür."
+  },
+  {
+    "id": "turkce_010",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "kesin-yargi",
+    "subtopic": "Cümleden Çıkarılabilecek Kesin Yargı",
+    "q": "Türkiye'nin ilk yerli gözlem uydusu RASAT, tasarım ömrü üç yıl olmasına rağmen yörüngede geçirdiği on birinci yılında başarıyla görev yapmaya devam etmektedir.\n\nBu cümleden kesin olarak çıkarılabilecek yargı aşağıdakilerden hangisidir?",
+    "o": [
+      "RASAT, Türkiye'nin uzaya gönderdiği en gelişmiş uydudur.",
+      "Türkiye'nin uzay çalışmalarında kullandığı uyduların tamamı yerli üretimdir.",
+      "RASAT uydusu, hedeflenen görev süresinin çok üzerinde bir performans sergilemiştir.",
+      "Türkiye, yerli uydu teknolojisine sahip nadir ülkelerden biridir.",
+      "RASAT'tan elde edilen görüntüler sadece askeri amaçlarla kullanılmaktadır."
+    ],
+    "a": 2,
+    "e": "Cümlede RASAT'ın tasarım ömrünün 3 yıl olduğu ancak 11 yıldır görev yaptığı belirtilmektedir. Bu matematiksel veri, uydunun hedeflenen sürenin üzerinde çalıştığını (performans sergilediğini) kesin olarak kanıtlar. A, B, D ve E seçeneklerindeki bilgiler (en gelişmiş olduğu, tamamının yerli olduğu, nadir ülke olduğu, kullanım amacı) metinden çıkarılamaz."
+  },
+  {
+    "id": "turkce_011",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "kavramlar-duygular",
+    "subtopic": "Duygular ve Kavramlar (Hayıflanma, Sitem, Kanıksama)",
+    "q": "Aşağıdaki cümlelerin hangisinde 'hayıflanma' anlamı vardır?",
+    "o": [
+      "Keşke o gün toplantıda fikirlerimi daha cesurca savunabilseydim.",
+      "Bunca yıllık dostluğumuza rağmen beni en zor günümde yalnız bıraktın.",
+      "Artık İstanbul'un trafiğine de, gürültüsüne de aldırış etmiyorum.",
+      "Ne kadar çalışırsan çalış, bu projeyi zamanında bitiremeyeceksin.",
+      "Eskiden bayram sabahları sokaklar cıvıl cıvıl çocuk sesiyle dolardı."
+    ],
+    "a": 0,
+    "e": "Hayıflanma, kişinin kendi yapmadığı bir işten veya kaçırdığı bir fırsattan dolayı duyduğu üzüntüdür. A seçeneğinde kişi kendi yapmadığı bir eylem ('savunamamak') için üzüntü duymaktadır. B 'sitem', C 'kanıksama', D 'ön yargı', E 'özlem' anlamı taşır."
+  },
+  {
+    "id": "turkce_012",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "cumle-tamamlama",
+    "subtopic": "Boşluk Doldurma",
+    "q": "Bilim insanları, yapay zekanın insan zekasını taklit etme yeteneğinin ---- bir seviyeye ulaştığını kabul etmekle birlikte, duygusal zeka ve etik muhakeme konularında hala ---- bir yol olduğunu vurguluyorlar.",
+    "o": [
+      "şaşırtıcı - gidilecek",
+      "yadsınamaz - kat edilecek",
+      "tartışmalı - bilinmeyen",
+      "sıradan - görülecek",
+      "belirsiz - asılacak"
+    ],
+    "a": 1,
+    "e": "Cümlenin akışına göre, yapay zekanın gelişimi olumlu ve güçlü bir ifadeyle tanımlanmalı ('yadsınamaz'), ancak eksik yönleri olduğu için önünde daha süreç olduğu belirtilmelidir ('kat edilecek yol'). 'Yadsınamaz' (inkar edilemez) ve 'kat edilecek' (alınacak) sözcükleri bağlama en uygun olanlardır."
+  },
+  {
+    "id": "turkce_013",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "anlatim-teknikleri",
+    "subtopic": "Tanımlama ve Karşılaştırma",
+    "q": "(I) Deneme, yazarın herhangi bir konu hakkındaki kişisel görüşlerini, ispatlama kaygısı gütmeden anlattığı yazı türüdür. (II) Makalede ise yazar, öne sürdüğü tezi bilimsel verilerle desteklemek zorundadır. (III) Deneme yazarı, okurla sohbet ediyormuş gibi samimi bir üslup kullanır. (IV) Bu yönüyle deneme, fıkra türüyle benzerlik gösterse de kalıcılığı bakımından ondan ayrılır. (V) Türk edebiyatında Nurullah Ataç, bu türün en yetkin örneklerini vermiştir.\n\nBu parçadaki numaralanmış cümlelerle ilgili aşağıdakilerden hangisi söylenemez?",
+    "o": [
+      "I. cümlede bir tanım yapılmıştır.",
+      "II. cümlede karşılaştırma yoluyla bir ayrım belirtilmiştir.",
+      "III. cümlede üslup özelliğine değinilmiştir.",
+      "IV. cümlede bir varsayım üzerinde durulmuştur.",
+      "V. cümlede öznel bir değerlendirme yapılmıştır."
+    ],
+    "a": 3,
+    "e": "IV. cümlede 'varsayım' (olmamış bir şeyi olmuş gibi kabul etme) yoktur. Burada deneme ile fıkra arasında bir 'karşılaştırma' ve 'benzerlik/farklılık' ilişkisi kurulmuştur. I. cümlede 'nedir' sorusuna cevap verilir (Tanım). II. cümlede 'ise' bağlacı ile karşılaştırma yapılır. III. cümlede 'samimi üslup' denilerek üsluba değinilir. V. cümlede 'en yetkin' ifadesi öznel bir görüştür."
+  },
+  {
+    "id": "turkce_014",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "dolayli-dogrudan",
+    "subtopic": "Doğrudan ve Dolaylı Anlatım",
+    "q": "Aşağıdaki cümlelerin hangisinde 'dolaylı anlatım' yapılmıştır?",
+    "o": [
+      "Mevlana: 'Gel, ne olursan ol, yine gel.' diyerek hoşgörünün evrenselliğini vurgular.",
+      "Doktor, hastasına ilaçlarını düzenli kullanması gerektiğini ve stresten uzak durmasını tembihledi.",
+      "Öğretmen sınıfa girdi ve sert bir ses tonuyla 'Herkes yerine otursun!' diye bağırdı.",
+      "Yazarın 'Yalnızız' adlı romanı, Peyami Safa'nın en olgun eserlerinden biri kabul edilir.",
+      "Atalarımız, damlaya damlaya göl olur, diyerek tasarrufun önemine dikkat çekmişlerdir."
+    ],
+    "a": 1,
+    "e": "Dolaylı anlatım, başkasına ait bir sözün, cümledeki kişinin kendi ifadesiyle değiştirilerek aktarılmasıdır. B seçeneğinde doktorun sözleri ('İlaçlarını düzenli kullan, stresten uzak dur'), aktaran kişinin ağzıyla 'gerektiğini ve ... durmasını tembihledi' şeklinde değiştirilerek verilmiştir. A, C ve E seçeneklerinde sözler tırnak içinde veya virgüle ayrılarak olduğu gibi aktarılmıştır (Doğrudan anlatım)."
+  },
+  {
+    "id": "turkce_015",
+    "topicId": "AJNLHhhaG2SLWOvxDYqW",
+    "subtopicId": "anlam-belirsizligi",
+    "subtopic": "Anlam Belirsizliği",
+    "q": "Aşağıdaki cümlelerin hangisinde bir anlam belirsizliği vardır?",
+    "o": [
+      "Kardeşinin bu sınavı kazanacağını herkes biliyordu.",
+      "Yazarın son kitabını büyük bir merakla okudum.",
+      "Evi okula çok uzak olduğu için servisle gidiyor.",
+      "Yarışmada birinci olduğuna hepimiz çok sevindik.",
+      "Dosyaları masanın üzerine bırakıp odadan çıktı."
+    ],
+    "a": 3,
+    "e": "D seçeneğindeki 'Yarışmada birinci olduğuna hepimiz çok sevindik' cümlesinde, 'senin' mi yoksa 'onun' mu birinci olduğu belli değildir. Zamir eksikliğinden kaynaklanan bir anlam belirsizliği vardır. 'Senin birinci olduğuna' veya 'Onun birinci olduğuna' şeklinde anlaşılabilir."
+  }
+]

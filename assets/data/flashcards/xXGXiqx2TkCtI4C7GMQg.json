@@ -1,0 +1,590 @@
+[
+  {
+    "question": "1982 Anayasası'nın değişmez maddeleri kaç tanedir?",
+    "answer": "İlk 3 madde değişmez, 4. madde değişmenin teklif dahi edilemeyeceğini söyler",
+    "additionalInfo": "1. Devletin Şekli, 2. Cumhuriyetin Nitelikleri, 3. Devletin Bütünlüğü, Bayrağı, Marşı, Başkenti.",
+    "_part": 1
+  },
+  {
+    "question": "Türkiye Devleti'nin yönetim şekli (Madde 1)",
+    "answer": "Cumhuriyet",
+    "additionalInfo": "Tek kelime ile ifade edilir.",
+    "_part": 2
+  },
+  {
+    "question": "Cumhuriyetin nitelikleri (Madde 2)",
+    "answer": "İnsan haklarına saygılı, Atatürk milliyetçiliğine bağlı, demokratik, laik, sosyal, hukuk devleti",
+    "additionalInfo": "\"İnsan haklarına dayalı\" ibaresi 1961 Anayasasında vardır, 1982'de \"saygılı\" olmuştur.",
+    "_part": 3
+  },
+  {
+    "question": "Egemenlik kime aittir? (Madde 6)",
+    "answer": "Kayıtsız şartsız Millete",
+    "additionalInfo": "Türk Milleti egemenliğini yetkili organları eliyle kullanır.",
+    "_part": 4
+  },
+  {
+    "question": "Yasama yetkisi kime aittir?",
+    "answer": "TBMM",
+    "additionalInfo": "Devredilemez.",
+    "_part": 5
+  },
+  {
+    "question": "Yürütme yetkisi ve görevi kime aittir?",
+    "answer": "Cumhurbaşkanı",
+    "additionalInfo": "2017 değişikliği ile Bakanlar Kurulu kaldırılmıştır.",
+    "_part": 6
+  },
+  {
+    "question": "Yargı yetkisi kime aittir?",
+    "answer": "Bağımsız ve Tarafsız Mahkemeler",
+    "additionalInfo": "Türk Milleti adına kullanırlar. \"Tarafsız\" ibaresi 2017'de eklenmiştir.",
+    "_part": 7
+  },
+  {
+    "question": "Kanun önünde eşitlik ilkesi (Madde 10)",
+    "answer": "Herkes dil, ırk, renk, cinsiyet, siyasi düşünce, felsefi inanç, din, mezhep ayrımı gözetilmeksizin kanun önünde eşittir",
+    "additionalInfo": "Kadınlar ve erkekler eşit haklara sahiptir.",
+    "_part": 8
+  },
+  {
+    "question": "Temel hak ve hürriyetler ne ile sınırlandırılabilir?",
+    "answer": "Sadece Kanunla",
+    "additionalInfo": "Anayasanın sözüne ve ruhuna uygun olarak.",
+    "_part": 9
+  },
+  {
+    "question": "Temel hak ve hürriyetlerin durdurulması hangi hallerde olur?",
+    "answer": "Savaş, Seferberlik veya Olağanüstü Hal (OHAL)",
+    "additionalInfo": "Milletlerarası hukuktan doğan yükümlülükler ihlal edilmemek kaydıyla.",
+    "_part": 10
+  },
+  {
+    "question": "Savaş hukukunda bile dokunulamayan haklar (Sert Çekirdek Haklar)",
+    "answer": "Yaşama hakkı, maddi/manevi bütünlük, din/vicdan hürriyeti, suç ve cezaların geriye yürümemesi, masumiyet karinesi",
+    "additionalInfo": "Hiçbir durumda askıya alınamaz.",
+    "_part": 11
+  },
+  {
+    "question": "Yabancıların temel hak ve hürriyetleri ne ile sınırlandırılır?",
+    "answer": "Milletlerarası hukuka uygun olarak kanunla",
+    "additionalInfo": "Vatandaşlardan farklı olarak uluslararası hukuk da kriterdir.",
+    "_part": 12
+  },
+  {
+    "question": "Kişinin hak ve ödevleri (Negatif Statü Hakları)",
+    "answer": "Mülkiyet, konut dokunulmazlığı, kişi hürriyeti, haberleşme hürriyeti",
+    "additionalInfo": "Devletin müdahale etmemesi gereken haklardır (Koruyucu haklar).",
+    "_part": 13
+  },
+  {
+    "question": "Sosyal ve ekonomik haklar (Pozitif Statü Hakları)",
+    "answer": "Eğitim, sağlık, çalışma, sendika, konut hakkı",
+    "additionalInfo": "Devletin yerine getirmesi gereken ödevlerdir (İsteme hakları).",
+    "_part": 14
+  },
+  {
+    "question": "Siyasi haklar ve ödevler (Aktif Statü Hakları)",
+    "answer": "Seçme-seçilme, parti kurma, vergi ödevi, vatan hizmeti, dilekçe hakkı",
+    "additionalInfo": "Yönetime katılma haklarıdır (Katılma hakları).",
+    "_part": 15
+  },
+  {
+    "question": "Sadece Türk vatandaşlarına tanınan siyasi haklar",
+    "answer": "Seçme ve seçilme, siyasi parti kurma/üye olma, kamu hizmetine girme",
+    "additionalInfo": "Vergi ödevi ve dilekçe hakkı yabancılara da (karşılıklılık şartıyla) tanınır.",
+    "_part": 16
+  },
+  {
+    "question": "Seçimler ve halkoylaması nasıl yapılır?",
+    "answer": "Serbest, eşit, gizli, tek dereceli, genel oy, açık sayım ve döküm",
+    "additionalInfo": "Yargı yönetim ve denetimi altında.",
+    "_part": 17
+  },
+  {
+    "question": "Seçimlerde oy kullanamayanlar",
+    "answer": "Silah altındaki er ve erbaşlar, askeri öğrenciler, taksirli suçlar hariç hükümlüler",
+    "additionalInfo": "Tutuklular oy kullanabilir.",
+    "_part": 18
+  },
+  {
+    "question": "Genel seçimler kaç yılda bir yapılır?",
+    "answer": "5 Yılda bir",
+    "additionalInfo": "Cumhurbaşkanı ve TBMM seçimleri aynı gün yapılır.",
+    "_part": 19
+  },
+  {
+    "question": "Siyasi parti kurmak için izin gerekir mi?",
+    "answer": "Hayır (Bildirim yeterlidir)",
+    "additionalInfo": "En az 30 Türk vatandaşı tarafından kurulur.",
+    "_part": 20
+  },
+  {
+    "question": "Siyasi partilerin mali denetimini kim yapar?",
+    "answer": "Anayasa Mahkemesi (Sayıştay yardımıyla)",
+    "additionalInfo": "Kapatma davasına da Anayasa Mahkemesi bakar.",
+    "_part": 21
+  },
+  {
+    "question": "Siyasi parti kapatma davasını kim açar?",
+    "answer": "Yargıtay Cumhuriyet Başsavcısı",
+    "additionalInfo": "İddianame ile AYM'ye başvurur.",
+    "_part": 22
+  },
+  {
+    "question": "Partisi kapatılan bir üye ne kadar süreyle başka partiye kurucu/yönetici olamaz?",
+    "answer": "5 Yıl",
+    "additionalInfo": "Milletvekilliği düşer (Eğer beyan ve eylemleriyle kapatmaya sebep olduysa).",
+    "_part": 23
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'nın kabul edildiği tarih nedir?",
+    "answer": "7 Kasım 1982",
+    "additionalInfo": "Resmi Gazete'de yayımlanarak yürürlüğe girmiştir.",
+    "id": "flash_1776014529210_1",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'nın değiştirilemez maddeleri kaçıncı maddedir?",
+    "answer": "4. madde",
+    "additionalInfo": "İlk 3 maddeyi koruma altına alır.",
+    "id": "flash_1776014529210_2",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'nın dili nedir?",
+    "answer": "Türkçedir",
+    "additionalInfo": "Devletin dili Türkçedir (Madde 3).",
+    "id": "flash_1776014529210_3",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre devletin şekli nedir?",
+    "answer": "Cumhuriyet",
+    "additionalInfo": "Madde 1'de belirtilmiştir.",
+    "id": "flash_1776014529210_4",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre devletin başkenti neresidir?",
+    "answer": "Ankara",
+    "additionalInfo": "Değiştirilmesi teklif dahi edilemez.",
+    "id": "flash_1776014529210_5",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'nda 'Egemenlik kayıtsız şartsız milletindir' ilkesi kaçıncı maddededir?",
+    "answer": "6. madde",
+    "additionalInfo": "Egemenliğin kullanılması hiçbir kişiye, zümreye veya sınıfa bırakılamaz.",
+    "id": "flash_1776014529210_6",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre yasama yetkisi kime aittir?",
+    "answer": "TBMM",
+    "additionalInfo": "Bu yetki devredilemez.",
+    "id": "flash_1776014529210_7",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre yürütme yetkisi kime aittir?",
+    "answer": "Cumhurbaşkanı",
+    "additionalInfo": "Anayasa ve kanunlara uygun olarak kullanılır.",
+    "id": "flash_1776014529210_8",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre yargı yetkisi kime aittir?",
+    "answer": "Bağımsız ve tarafsız mahkemeler",
+    "additionalInfo": "Türk milleti adına kullanılır.",
+    "id": "flash_1776014529210_9",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'nda 'Devletin ülkesi ve milletiyle bölünmez bütünlüğü' ilkesi nerede yer alır?",
+    "answer": "3. madde",
+    "additionalInfo": "Değiştirilemez hükümler arasındadır.",
+    "id": "flash_1776014529210_10",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre devletin milli marşı nedir?",
+    "answer": "İstiklal Marşı",
+    "additionalInfo": "3. maddede yer alır.",
+    "id": "flash_1776014529210_11",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre devletin bayrağı nasıldır?",
+    "answer": "Şekli kanununda belirtilen, beyaz ay yıldızlı al bayrak",
+    "additionalInfo": "3. maddede tanımlanmıştır.",
+    "id": "flash_1776014529210_12",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'nın temel niteliklerinden olan 'Hukuk Devleti' kaçıncı maddede geçer?",
+    "answer": "2. madde",
+    "additionalInfo": "Cumhuriyetin temel nitelikleri 2. maddede sayılır.",
+    "id": "flash_1776014529210_13",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre Türkiye Cumhuriyeti nasıl bir devlettir?",
+    "answer": "Demokratik, laik ve sosyal bir hukuk devleti",
+    "additionalInfo": "Atatürk milliyetçiliğine bağlıdır.",
+    "id": "flash_1776014529210_14",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'nda 'Başlangıç' kısmı metne dahil midir?",
+    "answer": "Evet",
+    "additionalInfo": "Anayasa metnine dahildir.",
+    "id": "flash_1776014529210_15",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre anayasa değişiklikleri nasıl yapılır?",
+    "answer": "TBMM üye tamsayısının en az 1/3'ünün yazılı teklifiyle",
+    "additionalInfo": "Değişiklikler gizli oyla yapılır.",
+    "id": "flash_1776014529210_16",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'nda anayasa değişikliği teklifi için gereken imza sayısı kaçtır?",
+    "answer": "200 milletvekili",
+    "additionalInfo": "TBMM üye tamsayısının en az 1/3'ü.",
+    "id": "flash_1776014529210_17",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre anayasa değişikliği teklifinin kabulü için gereken sayı kaçtır?",
+    "answer": "3/5 çoğunluk (360)",
+    "additionalInfo": "360 ile 400 arası oy alırsa referandum zorunludur.",
+    "id": "flash_1776014529210_18",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'nda Cumhurbaşkanı anayasa değişikliğini kaç gün içinde onaylayabilir?",
+    "answer": "15 gün",
+    "additionalInfo": "İsterse referanduma sunabilir.",
+    "id": "flash_1776014529210_19",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre kanunların anayasaya aykırılığı iddiasını kim denetler?",
+    "answer": "Anayasa Mahkemesi",
+    "additionalInfo": "Şekil ve esas bakımından denetler.",
+    "id": "flash_1776014529210_20",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'nda kanunların şekil bakımından iptal davası kaç gün içinde açılabilir?",
+    "answer": "10 gün",
+    "additionalInfo": "Resmi Gazete'de yayımlanmasından itibaren.",
+    "id": "flash_1776014529210_21",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre temel hak ve hürriyetlerin sınırlandırılması nasıl olmalıdır?",
+    "answer": "Kanunla",
+    "additionalInfo": "Anayasanın ilgili maddelerine aykırı olmamalıdır.",
+    "id": "flash_1776014529210_22",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'nda 'Mülkiyet hakkı' hangi haklar kategorisindedir?",
+    "answer": "Sosyal ve ekonomik haklar",
+    "additionalInfo": "Kişisel haklar ile karıştırılmamalıdır.",
+    "id": "flash_1776014529210_23",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Seçme ve seçilme hakkı' hangi haklar kategorisindedir?",
+    "answer": "Siyasi haklar",
+    "additionalInfo": "Vatandaşlık hakkıdır.",
+    "id": "flash_1776014529210_24",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Kişi dokunulmazlığı' hangi haklar kategorisindedir?",
+    "answer": "Kişisel haklar (Klasik haklar)",
+    "additionalInfo": "Negatif statü haklarıdır.",
+    "id": "flash_1776014529210_25",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Dilekçe hakkı' hangi haklar kategorisindedir?",
+    "answer": "Siyasi haklar",
+    "additionalInfo": "Yabancılar da kullanabilir.",
+    "id": "flash_1776014529210_26",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'nda 'Sosyal güvenlik hakkı' hangi haklar kategorisindedir?",
+    "answer": "Sosyal ve ekonomik haklar",
+    "additionalInfo": "Pozitif statü haklarıdır.",
+    "id": "flash_1776014529210_27",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre kanun önünde eşitlik ilkesi kaçıncı maddededir?",
+    "answer": "10. madde",
+    "additionalInfo": "Herkes dil, ırk, renk, cinsiyet ayrımı gözetilmeksizin eşittir.",
+    "id": "flash_1776014529210_28",
+    "_part": 51,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre vatandaşlık nasıl kazanılır?",
+    "answer": "Kanunla düzenlenir",
+    "additionalInfo": "Doğumla kazanılır.",
+    "id": "flash_1776014529210_29",
+    "_part": 52,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre bir Türk vatandaşı vatandaşlıktan çıkarılabilir mi?",
+    "answer": "Evet",
+    "additionalInfo": "Ancak vatansız bırakılamaz.",
+    "id": "flash_1776014529210_30",
+    "_part": 53,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'nda 'Basın hürriyeti' hangi haklar kategorisindedir?",
+    "answer": "Kişisel haklar",
+    "additionalInfo": "Basın hürdür, sansür edilemez.",
+    "id": "flash_1776014529210_31",
+    "_part": 54,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Eğitim ve öğrenim hakkı' hangi haklar kategorisindedir?",
+    "answer": "Sosyal ve ekonomik haklar",
+    "additionalInfo": "Kimse bu haktan yoksun bırakılamaz.",
+    "id": "flash_1776014529210_32",
+    "_part": 55,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Çalışma hakkı ve ödevi' hangi haklar kategorisindedir?",
+    "answer": "Sosyal ve ekonomik haklar",
+    "additionalInfo": "Herkes çalışma hakkına sahiptir.",
+    "id": "flash_1776014529210_33",
+    "_part": 56,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'nda 'Sendika kurma hakkı' hangi haklar kategorisindedir?",
+    "answer": "Sosyal ve ekonomik haklar",
+    "additionalInfo": "Çalışanlar ve işverenler sendika kurabilir.",
+    "id": "flash_1776014529210_34",
+    "_part": 57,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre Cumhurbaşkanı kaç yaşını doldurmuş olmalıdır?",
+    "answer": "40 yaş",
+    "additionalInfo": "Yükseköğrenim mezunu olmalıdır.",
+    "id": "flash_1776014529210_35",
+    "_part": 58,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre TBMM üyeleri kaç yaşını doldurmuş olmalıdır?",
+    "answer": "18 yaş",
+    "additionalInfo": "Seçilme yaşı 18'e indirilmiştir.",
+    "id": "flash_1776014529210_36",
+    "_part": 59,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre TBMM seçimleri kaç yılda bir yapılır?",
+    "answer": "5 yılda bir",
+    "additionalInfo": "Cumhurbaşkanlığı seçimi ile aynı gün yapılır.",
+    "id": "flash_1776014529210_37",
+    "_part": 60,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Vergi ödevi' hangi haklar kategorisindedir?",
+    "answer": "Siyasi haklar (Ödevler)",
+    "additionalInfo": "Vatandaşlık ödevidir.",
+    "id": "flash_1776014529210_38",
+    "_part": 61,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Vatan hizmeti' hangi haklar kategorisindedir?",
+    "answer": "Siyasi haklar (Ödevler)",
+    "additionalInfo": "Her Türkün hakkı ve ödevidir.",
+    "id": "flash_1776014529210_39",
+    "_part": 62,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Toplantı ve gösteri yürüyüşü düzenleme hakkı' hangi haklar kategorisindedir?",
+    "answer": "Kişisel haklar",
+    "additionalInfo": "İzin almaksızın kullanılabilir.",
+    "id": "flash_1776014529210_40",
+    "_part": 63,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Dernek kurma hürriyeti' hangi haklar kategorisindedir?",
+    "answer": "Kişisel haklar",
+    "additionalInfo": "İzin almaksızın kurulabilir.",
+    "id": "flash_1776014529210_41",
+    "_part": 64,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Özel hayatın gizliliği' hangi haklar kategorisindedir?",
+    "answer": "Kişisel haklar",
+    "additionalInfo": "Temel bir haktır.",
+    "id": "flash_1776014529210_42",
+    "_part": 65,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Konut dokunulmazlığı' hangi haklar kategorisindedir?",
+    "answer": "Kişisel haklar",
+    "additionalInfo": "Hakim kararı olmadan girilemez.",
+    "id": "flash_1776014529210_43",
+    "_part": 66,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Haberleşme hürriyeti' hangi haklar kategorisindedir?",
+    "answer": "Kişisel haklar",
+    "additionalInfo": "Gizliliği esastır.",
+    "id": "flash_1776014529210_44",
+    "_part": 67,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Din ve vicdan hürriyeti' hangi haklar kategorisindedir?",
+    "answer": "Kişisel haklar",
+    "additionalInfo": "Mutlak hürriyettir.",
+    "id": "flash_1776014529210_45",
+    "_part": 68,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Düşünce ve kanaat hürriyeti' hangi haklar kategorisindedir?",
+    "answer": "Kişisel haklar",
+    "additionalInfo": "Kimse düşüncelerini açıklamaya zorlanamaz.",
+    "id": "flash_1776014529210_46",
+    "_part": 69,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Bilim ve sanat hürriyeti' hangi haklar kategorisindedir?",
+    "answer": "Kişisel haklar",
+    "additionalInfo": "Öğrenme, öğretme, açıklama serbesttir.",
+    "id": "flash_1776014529210_47",
+    "_part": 70,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Hak arama hürriyeti' hangi haklar kategorisindedir?",
+    "answer": "Kişisel haklar",
+    "additionalInfo": "Herkes meşru vasıta ve yollardan yararlanır.",
+    "id": "flash_1776014529210_48",
+    "_part": 71,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'Suç ve cezalara ilişkin esaslar' hangi haklar kategorisindedir?",
+    "answer": "Kişisel haklar",
+    "additionalInfo": "Kanunsuz suç ve ceza olmaz.",
+    "id": "flash_1776014529210_49",
+    "_part": 72,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  },
+  {
+    "topicId": "1982_anasayasa",
+    "question": "1982 Anayasası'na göre 'İspat hakkı' hangi haklar kategorisindedir?",
+    "answer": "Kişisel haklar",
+    "additionalInfo": "Basın ve yayın faaliyetlerinde geçerlidir.",
+    "id": "flash_1776014529210_50",
+    "_part": 73,
+    "_generatedAt": "2026-04-12T17:22:21.885Z"
+  }
+]

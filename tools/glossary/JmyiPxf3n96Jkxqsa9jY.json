@@ -1,0 +1,990 @@
+[
+  {
+    "id": "gercek_anlam",
+    "term": "Gerçek Anlam",
+    "definition": "Bir sözcüğün akla gelen ilk, temel ve herkesçe bilinen anlamıdır. Sözcüğün sözlükteki ilk karşılığıdır.",
+    "examples": [
+      "Soğuk su içince dişim sızladı.",
+      "Ağacın dalları kırılmış."
+    ],
+    "relatedTerms": [
+      "Yan Anlam",
+      "Mecaz Anlam"
+    ],
+    "order": 1
+  },
+  {
+    "id": "yan_anlam",
+    "term": "Yan Anlam",
+    "definition": "Bir sözcüğün temel anlamıyla bağlantısını koparmadan, şekil veya işlev benzerliğiyle kazandığı yeni anlamdır.",
+    "examples": [
+      "Ayakkabının burnu eskimiş.",
+      "Masanın gözüne kalemleri koydum."
+    ],
+    "relatedTerms": [
+      "Gerçek Anlam",
+      "Mecaz Anlam"
+    ],
+    "order": 2
+  },
+  {
+    "id": "mecaz_anlam",
+    "term": "Mecaz Anlam",
+    "definition": "Bir sözcüğün gerçek anlamından tamamen uzaklaşarak başka bir kavramı karşılayacak şekilde kullanılmasıdır.",
+    "examples": [
+      "Bu olay karşısında çok kırıldım.",
+      "Sana karşı soğuk davranıyor."
+    ],
+    "relatedTerms": [
+      "Deyim Aktarması",
+      "Terim Anlam"
+    ],
+    "order": 3
+  },
+  {
+    "id": "terim_anlam",
+    "term": "Terim Anlam",
+    "definition": "Bir bilim, sanat, spor veya meslek dalına özgü kavramları karşılayan sözcüklerdir.",
+    "examples": [
+      "Üçgenin iç açıları toplamı 180 derecedir.",
+      "Hakem penaltı noktasını gösterdi."
+    ],
+    "relatedTerms": [
+      "Gerçek Anlam",
+      "Özel Anlam"
+    ],
+    "order": 4
+  },
+  {
+    "id": "es_anlam",
+    "term": "Eş Anlamlılık",
+    "definition": "Yazılışları farklı ancak anlamları aynı olan sözcüklerdir. Birbirinin yerine kullanıldıklarında cümlede anlam bozulmaz.",
+    "examples": [
+      "Okul ve mektep binası yenilendi.",
+      "Siyah ve kara kalemleri ayırdı."
+    ],
+    "relatedTerms": [
+      "Zıt Anlam",
+      "Yakın Anlam"
+    ],
+    "order": 5
+  },
+  {
+    "id": "zit_anlam",
+    "term": "Zıt Anlamlılık",
+    "definition": "Birbirinin tam tersi olan kavramları karşılayan sözcüklerdir. Bir sözcüğün olumsuzu, onun zıt anlamlısı değildir.",
+    "examples": [
+      "İyi ve kötü günleri paylaştık.",
+      "Aşağı yukarı on dakika bekledik."
+    ],
+    "relatedTerms": [
+      "Eş Anlam",
+      "Olumsuzluk"
+    ],
+    "order": 6
+  },
+  {
+    "id": "yakin_anlam",
+    "term": "Yakın Anlamlılık",
+    "definition": "Anlamları birbirine çok yakın olan ancak birbirinin tam yerini tutmayan sözcüklerdir.",
+    "examples": [
+      "Yalan ve yanlış bilgiler yayılıyor.",
+      "Bakmak ve görmek arasında fark vardır."
+    ],
+    "relatedTerms": [
+      "Eş Anlam",
+      "Eş Sesli"
+    ],
+    "order": 7
+  },
+  {
+    "id": "es_sesli",
+    "term": "Eş Sesli (Sesteş)",
+    "definition": "Yazılışları aynı, anlamları tamamen farklı olan sözcüklerdir. Sözcüklerin kökleri arasında hiçbir anlam bağı yoktur.",
+    "examples": [
+      "Yüzmek için denize girdi.",
+      "Yüz lira borcu varmış."
+    ],
+    "relatedTerms": [
+      "Eş Anlam",
+      "Çok Anlamlılık"
+    ],
+    "order": 8
+  },
+  {
+    "id": "somut_anlam",
+    "term": "Somut Anlam",
+    "definition": "Beş duyu organımızdan en az biriyle algılanabilen kavramları karşılayan sözcüklerdir.",
+    "examples": [
+      "Rüzgar tenimi üşüttü.",
+      "Sıcak çay içini ısıttı."
+    ],
+    "relatedTerms": [
+      "Soyut Anlam",
+      "Nitel Anlam"
+    ],
+    "order": 9
+  },
+  {
+    "id": "soyut_anlam",
+    "term": "Soyut Anlam",
+    "definition": "Beş duyu organımızla algılanamayan, his ve düşünce dünyamıza ait kavramları karşılayan sözcüklerdir.",
+    "examples": [
+      "Mutluluk herkesin hakkıdır.",
+      "Dürüstlük en büyük erdemdir."
+    ],
+    "relatedTerms": [
+      "Somut Anlam",
+      "Nitel Anlam"
+    ],
+    "order": 10
+  },
+  {
+    "id": "nitel_anlam",
+    "term": "Nitel Anlam",
+    "definition": "Varlıkların nasıl olduğunu, niteliğini bildiren ve ölçülemeyen özellikleridir.",
+    "examples": [
+      "Güzel bir gün geçirdik.",
+      "Kötü bir haber aldık."
+    ],
+    "relatedTerms": [
+      "Nicel Anlam",
+      "Soyut Anlam"
+    ],
+    "order": 11
+  },
+  {
+    "id": "nicel_anlam",
+    "term": "Nicel Anlam",
+    "definition": "Varlıkların sayılabilen, ölçülebilen, azalıp çoğalabilen özelliklerini bildiren sözcüklerdir.",
+    "examples": [
+      "Uzun yollar aştık.",
+      "Küçük bir evde yaşıyor."
+    ],
+    "relatedTerms": [
+      "Nitel Anlam",
+      "Somut Anlam"
+    ],
+    "order": 12
+  },
+  {
+    "id": "genel_ozel_anlam",
+    "term": "Genel ve Özel Anlam",
+    "definition": "Bir sözcüğün kapsamı genişse genel, kapsamı dar ve sınırlıysa özel anlamlıdır.",
+    "examples": [
+      "Varlık (genel) - Canlı (daha özel) - İnsan (en özel).",
+      "Çiçek (genel) - Gül (özel)."
+    ],
+    "relatedTerms": [
+      "Nitel Anlam",
+      "Nicel Anlam"
+    ],
+    "order": 13
+  },
+  {
+    "id": "ad_aktarmasi",
+    "term": "Ad Aktarması (Mecaz-ı Mürsel)",
+    "definition": "Bir sözcüğün benzetme amacı güdülmeden, başka bir sözcüğün yerine kullanılmasıdır.",
+    "examples": [
+      "Tüm sınıf ayağa kalktı.",
+      "Soba yanıyor."
+    ],
+    "relatedTerms": [
+      "Mecaz Anlam",
+      "Deyim"
+    ],
+    "order": 14
+  },
+  {
+    "id": "yansima_sozcuk",
+    "term": "Yansıma Sözcük",
+    "definition": "Doğadaki seslerin taklit edilmesiyle oluşan sözcüklerdir. İnsan veya doğa kaynaklı sesleri karşılar.",
+    "examples": [
+      "Dere şırıl şırıl akıyor.",
+      "Kapı gıcırdadı."
+    ],
+    "relatedTerms": [
+      "Gerçek Anlam",
+      "Mecaz Anlam"
+    ],
+    "order": 15
+  },
+  {
+    "id": "somutlama",
+    "term": "Somutlama",
+    "definition": "Soyut bir kavramın, somut bir sözcükle karşılanarak zihinde daha görünür kılınmasıdır. Genellikle mecaz anlam yoluyla gerçekleştirilir.",
+    "examples": [
+      "Bu olaydan sonra içindeki sevgi bitti.",
+      "Aklındaki düşünceleri bir kenara bırak."
+    ],
+    "relatedTerms": [
+      "Soyutlama",
+      "Mecaz Anlam",
+      "Ad Aktarması"
+    ],
+    "order": 16
+  },
+  {
+    "id": "soyutlama",
+    "term": "Soyutlama",
+    "definition": "Somut bir sözcüğün, soyut bir kavramı karşılayacak şekilde kullanılmasıdır. Sözcüğün duyularla algılanamayan bir durumu ifade etmesi sağlanır.",
+    "examples": [
+      "Bu işin içinde büyük bir yüreklilik var.",
+      "O, çok derin bir insandır."
+    ],
+    "relatedTerms": [
+      "Somutlama",
+      "Mecaz Anlam",
+      "Yan Anlam"
+    ],
+    "order": 17
+  },
+  {
+    "id": "dolaylama",
+    "term": "Dolaylama",
+    "definition": "Tek sözcükle ifade edilebilecek bir kavramın, daha etkileyici olması için birden fazla sözcükle anlatılmasıdır.",
+    "examples": [
+      "File bekçisi golü önledi.",
+      "Yedi tepeli şehir her mevsim güzeldir."
+    ],
+    "relatedTerms": [
+      "Ad Aktarması",
+      "Güzel Adlandırma",
+      "Mecaz Anlam"
+    ],
+    "order": 18
+  },
+  {
+    "id": "guzel_adlandirma",
+    "term": "Güzel Adlandırma",
+    "definition": "Korkutucu, kötü veya çirkin çağrışım yapan kavramların, daha hoş ve kibar sözcüklerle ifade edilmesidir.",
+    "examples": [
+      "O, artık aramızdan ayrıldı.",
+      "İnce hastalık onu yatağa düşürdü."
+    ],
+    "relatedTerms": [
+      "Dolaylama",
+      "Eş Anlamlılık",
+      "Üslup"
+    ],
+    "order": 19
+  },
+  {
+    "id": "ikileme",
+    "term": "İkileme",
+    "definition": "Anlatımı güçlendirmek için aynı sözcüğün tekrarı, eş veya zıt anlamlı sözcüklerin yan yana getirilmesiyle oluşan söz grubudur.",
+    "examples": [
+      "Eski püskü kıyafetlerini bir kenara attı.",
+      "İyi kötü bir evimiz var."
+    ],
+    "relatedTerms": [
+      "Pekiştirme",
+      "Anlatım Bozukluğu",
+      "Sözcük Grupları"
+    ],
+    "order": 20
+  },
+  {
+    "id": "pekistirme",
+    "term": "Pekiştirme",
+    "definition": "Sıfat veya zarfların anlamını güçlendirmek için m, p, r, s ünsüzlerinden yararlanılarak yapılan sözcük türetme yöntemidir.",
+    "examples": [
+      "Masmavi deniz bizi karşıladı.",
+      "Dümdüz yolda ilerledik."
+    ],
+    "relatedTerms": [
+      "İkileme",
+      "Sıfat",
+      "Zarf"
+    ],
+    "order": 21
+  },
+  {
+    "id": "es_seslilik",
+    "term": "Eş Seslilik (Sesteş)",
+    "definition": "Yazılışları aynı ancak anlamları tamamen farklı olan sözcüklerdir. Aralarında hiçbir anlam bağı bulunmaz.",
+    "examples": [
+      "Yüzmeyi çok seviyorum.",
+      "Yüz lira borcu varmış."
+    ],
+    "relatedTerms": [
+      "Eş Anlamlılık",
+      "Çok Anlamlılık",
+      "Sözcükte Anlam"
+    ],
+    "order": 22
+  },
+  {
+    "id": "cok_anlamlilik",
+    "term": "Çok Anlamlılık",
+    "definition": "Bir sözcüğün kullanıldığı cümleye göre farklı anlamlar kazanmasıdır. KPSS'de genellikle 'altını çizili sözcüğün cümleye kattığı anlam' şeklinde sorulur.",
+    "examples": [
+      "Bu iş bizi çok yordu.",
+      "Bu sözler beni derinden yordu."
+    ],
+    "relatedTerms": [
+      "Mecaz Anlam",
+      "Yan Anlam",
+      "Bağlam"
+    ],
+    "order": 23
+  },
+  {
+    "id": "terim_anlami",
+    "term": "Terim Anlamı",
+    "definition": "Bir bilim, sanat, spor veya meslek dalına özgü kavramları karşılayan sözcüklerdir. Sözcüğün hangi alana ait olduğu bağlamdan çıkarılmalıdır.",
+    "examples": [
+      "Üçgenin iç açıları toplamı 180 derecedir.",
+      "Hakem penaltı noktasını gösterdi."
+    ],
+    "relatedTerms": [
+      "Bilimsel kavram",
+      "Sanat terimi"
+    ],
+    "order": 24
+  },
+  {
+    "id": "yakin_anlamli",
+    "term": "Yakın Anlamlı Sözcükler",
+    "definition": "Anlamları tam olarak aynı olmasa da birbirinin yerine kullanılabilen veya anlamca birbirine çok yakın olan sözcüklerdir. KPSS'de cümledeki kullanımına göre değerlendirilmelidir.",
+    "examples": [
+      "Doğru ve dürüst bir insan olduğu belliydi.",
+      "Korkak ve ürkek tavırları dikkat çekti."
+    ],
+    "relatedTerms": [
+      "Eş anlamlı",
+      "Anlamdaş"
+    ],
+    "order": 25
+  },
+  {
+    "id": "yalin_anlam",
+    "term": "Yalın Anlam (Temel Anlam)",
+    "definition": "Bir sözcüğün aklımıza gelen ilk ve en temel anlamıdır. Sözcüğün mecaz veya yan anlam kazanmamış, sözlükteki ilk karşılığıdır.",
+    "examples": [
+      "Gözüme toz kaçtı.",
+      "Ayağı taşa takılınca düştü."
+    ],
+    "relatedTerms": [
+      "Gerçek anlam",
+      "Sözlük anlamı"
+    ],
+    "order": 26
+  },
+  {
+    "id": "deyilesi",
+    "term": "Deyimleşmiş İfadeler",
+    "definition": "En az iki sözcüğün bir araya gelerek kalıplaşması ve gerçek anlamından uzaklaşmasıyla oluşan söz öbekleridir. Cümledeki bağlama göre anlam kazanırlar.",
+    "examples": [
+      "Bu işten burnu bile kanamadan kurtuldu.",
+      "Söyledikleriyle herkesin gözüne girdi."
+    ],
+    "relatedTerms": [
+      "Kalıplaşmış sözler",
+      "Deyim"
+    ],
+    "order": 27
+  },
+  {
+    "id": "anlam_genislemesi",
+    "term": "Anlam Genişlemesi",
+    "definition": "Bir sözcüğün zamanla temel anlamının dışına çıkarak daha geniş bir alanı kapsayacak şekilde kullanılmasıdır. Sözcüğün ifade ettiği kavramın kapsamının zamanla artması durumudur.",
+    "examples": [
+      "'Oğul' sözcüğünün sadece erkek çocuk değil, genel olarak evlat anlamında kullanılması."
+    ],
+    "relatedTerms": [
+      "Çok Anlamlılık",
+      "Mecaz Anlam"
+    ],
+    "order": 28
+  },
+  {
+    "id": "anlam_daralmasi",
+    "term": "Anlam Daralması",
+    "definition": "Bir sözcüğün genel bir anlamı karşılarken zamanla daha özel ve kısıtlı bir anlamı karşılar hale gelmesidir. Kavramın kapsadığı alanın zamanla azalmasıdır.",
+    "examples": [
+      "'Oğlan' sözcüğünün eskiden hem kız hem erkek çocuk için kullanılırken günümüzde sadece erkek çocuk için kullanılması."
+    ],
+    "relatedTerms": [
+      "Genel ve Özel Anlam",
+      "Çok Anlamlılık"
+    ],
+    "order": 29
+  },
+  {
+    "id": "anlam_kaymasi",
+    "term": "Anlam Kayması",
+    "definition": "Bir sözcüğün bir anlamı karşılarken zamanla o anlamı tamamen bırakıp tamamen farklı bir anlamı karşılamaya başlamasıdır. Sözcüğün eski anlamını yitirip yeni bir anlam kazanmasıdır.",
+    "examples": [
+      "'Yavuz' sözcüğünün eskiden 'hırsız' anlamındayken günümüzde 'yiğit, sert' anlamında kullanılması."
+    ],
+    "relatedTerms": [
+      "Mecaz Anlam",
+      "Sözcükte Anlam"
+    ],
+    "order": 30
+  },
+  {
+    "id": "kavram_alani",
+    "term": "Kavram Alanı",
+    "definition": "Bir sözcüğün çağrıştırdığı, aynı konu veya tema etrafında toplanan sözcükler bütünüdür. Bir metindeki sözcüklerin birbirini destekleyerek oluşturduğu anlamsal çerçevedir.",
+    "examples": [
+      "'Deniz' dendiğinde akla gelen; gemi, yelken, dalga, martı sözcüklerinin oluşturduğu alan."
+    ],
+    "relatedTerms": [
+      "Bağlam",
+      "Çok Anlamlılık"
+    ],
+    "order": 31
+  },
+  {
+    "id": "baglam",
+    "term": "Bağlam",
+    "definition": "Bir sözcüğün cümle içindeki diğer sözcüklerle oluşturduğu ilişkiler bütünüdür. Sözcüğün gerçek anlamından uzaklaşıp hangi anlamı kazandığını belirleyen ortamdır.",
+    "examples": [
+      "'Yüz' sözcüğünün 'yüzmek' fiili mi yoksa 'sayı' mı olduğunu belirleyen cümledeki diğer kelimeler."
+    ],
+    "relatedTerms": [
+      "Sözcükte Anlam",
+      "Mecaz Anlam"
+    ],
+    "order": 32
+  },
+  {
+    "id": "yansima_kok",
+    "term": "Yansıma Kök",
+    "definition": "Doğadaki canlı veya cansız varlıkların çıkardığı seslerin taklit edilmesiyle oluşan sözcük kökleridir. Anlamı doğrudan sesle ilişkilidir.",
+    "examples": [
+      "'Şırıl' (şırıltı), 'pat' (patlamak), 'miyav' (miyavlamak)."
+    ],
+    "relatedTerms": [
+      "Yansıma Sözcük",
+      "Sözcükte Yapı"
+    ],
+    "order": 33
+  },
+  {
+    "id": "kavramsal_cerceve",
+    "term": "Kavramsal Çerçeve",
+    "definition": "Bir metnin ana fikrini desteklemek için kullanılan sözcüklerin oluşturduğu anlamsal ağdır. Yazarın konuyu hangi açıdan ele aldığını gösterir.",
+    "examples": [
+      "Bir ekonomi metninde 'enflasyon, faiz, borsa, yatırım' sözcüklerinin bir arada kullanılması."
+    ],
+    "relatedTerms": [
+      "Kavram Alanı",
+      "Bağlam"
+    ],
+    "order": 34
+  },
+  {
+    "id": "sozcuk_oyunu",
+    "term": "Sözcük Oyunu",
+    "definition": "Sözcüklerin çok anlamlılığından veya ses benzerliğinden yararlanılarak yapılan edebi sanattır. Genellikle mizahi bir etki yaratmak için kullanılır.",
+    "examples": [
+      "'Gül' sözcüğünün hem çiçek hem de gülmek eylemi olarak bir cümlede kullanılması."
+    ],
+    "relatedTerms": [
+      "Eş Sesli (Sesteş)",
+      "Çok Anlamlılık"
+    ],
+    "order": 35
+  },
+  {
+    "id": "karsitlik_iliskisi",
+    "term": "Karşıtlık İlişkisi",
+    "definition": "İki sözcüğün anlamca birbirinin tam tersini ifade etmesi durumudur. Sadece zıt anlamlılar değil, kavramsal olarak birbirine zıt olan durumlar da bu kapsamdadır.",
+    "examples": [
+      "'Savaş' ve 'barış', 'gece' ve 'gündüz' kavramlarının metinde karşı karşıya getirilmesi."
+    ],
+    "relatedTerms": [
+      "Zıt Anlamlılık",
+      "Bağlam"
+    ],
+    "order": 36
+  },
+  {
+    "id": "anlamsal_baginti",
+    "term": "Anlamsal Bağıntı",
+    "definition": "Cümledeki sözcüklerin birbirine anlamca bağlanarak bir bütün oluşturmasıdır. Metnin anlam bütünlüğünü sağlayan temel unsurdur.",
+    "examples": [
+      "'Kitap okumak zihni açar; çünkü bilgi insanı geliştirir.' cümlesindeki sözcüklerin birbirini tamamlaması."
+    ],
+    "relatedTerms": [
+      "Bağlam",
+      "Genel ve Özel Anlam"
+    ],
+    "order": 37
+  },
+  {
+    "id": "deyimin_kapsami",
+    "term": "Deyimin Kapsamı",
+    "definition": "Deyimlerin kalıplaşmış bir yapıda olması ve genellikle mecazlı bir anlam taşımasıdır. Deyimler, tek bir sözcük gibi düşünülerek cümle içinde kullanılır.",
+    "examples": [
+      "'Göz boyamak' deyiminin 'aldatmak' anlamında kalıplaşmış olması."
+    ],
+    "relatedTerms": [
+      "Deyimleşmiş İfadeler",
+      "Mecaz Anlam"
+    ],
+    "order": 38
+  },
+  {
+    "id": "terimlesme",
+    "term": "Terimleşme",
+    "definition": "Genel bir sözcüğün zamanla bir bilim, sanat veya spor dalına ait özel bir anlam kazanmasıdır. Sözcüğün terim anlamlı hale gelme sürecidir.",
+    "examples": [
+      "'Açı' sözcüğünün günlük dilden geometri terimine dönüşmesi."
+    ],
+    "relatedTerms": [
+      "Terim Anlam",
+      "Anlam Kayması"
+    ],
+    "order": 39
+  },
+  {
+    "id": "sozcuk_tasarimi",
+    "term": "Sözcük Tasarımı",
+    "definition": "Bir yazarın veya konuşmacının, anlatmak istediği durumu en etkili şekilde ifade etmek için seçtiği sözcüklerin oluşturduğu üslup bütünüdür.",
+    "examples": [
+      "Şairin 'mavi' sözcüğünü sadece renk olarak değil, hüzün veya umut sembolü olarak kullanması."
+    ],
+    "relatedTerms": [
+      "Somutlama",
+      "Soyutlama"
+    ],
+    "order": 40
+  },
+  {
+    "id": "yan_anlam_genislemesi",
+    "term": "Yan Anlam Genişlemesi",
+    "definition": "Bir sözcüğün temel anlamından kopmadan, temel anlama yakın yeni bir işlev veya durum kazanmasıdır. Genellikle nesnelerin bölümleri veya organ adları üzerinden gerçekleşir.",
+    "examples": [
+      "Ayakkabının burnu kirlenmiş.",
+      "Dağın eteğinde kamp kurduk."
+    ],
+    "relatedTerms": [
+      "Yan Anlam",
+      "Somutlama",
+      "Bağlam"
+    ],
+    "order": 41
+  },
+  {
+    "id": "anlam_iyilesmesi",
+    "term": "Anlam İyileşmesi",
+    "definition": "Bir sözcüğün zamanla olumsuz veya nötr bir anlamdan daha olumlu, daha saygın bir anlama geçmesi durumudur. Sözcüğün toplumdaki değer algısının yükselmesiyle oluşur.",
+    "examples": [
+      "Yavuz kelimesinin eski dilde 'hırsız' iken günümüzde 'yiğit' anlamını kazanması."
+    ],
+    "relatedTerms": [
+      "Anlam Değişmesi",
+      "Anlam Genişlemesi",
+      "Anlam Daralması"
+    ],
+    "order": 42
+  },
+  {
+    "id": "anlam_kotulesmesi",
+    "term": "Anlam Kötüleşmesi",
+    "definition": "Bir sözcüğün başlangıçta olumlu veya nötr bir anlam taşırken, zamanla olumsuz, kötü veya aşağılayıcı bir anlam kazanmasıdır.",
+    "examples": [
+      "'Çapkın' sözcüğünün eskiden 'cesur, gözü pek' anlamındayken günümüzde farklı bir anlam kazanması."
+    ],
+    "relatedTerms": [
+      "Anlam Değişmesi",
+      "Anlam Genişlemesi",
+      "Anlam Daralması"
+    ],
+    "order": 43
+  },
+  {
+    "id": "cok_anlamlilik_baglam",
+    "term": "Çok Anlamlılıkta Bağlam",
+    "definition": "Bir sözcüğün birden fazla anlama gelebilmesi durumunda, sözcüğün hangi anlamda kullanıldığının cümledeki diğer sözcüklerle belirlenmesidir.",
+    "examples": [
+      "'Çıkmak' sözcüğünün 'yola çıkmak' ve 'fiyatı çıkmak' örneklerinde farklı anlam kazanması."
+    ],
+    "relatedTerms": [
+      "Bağlam",
+      "Sözcükte Anlam",
+      "Çok Anlamlılık"
+    ],
+    "order": 44
+  },
+  {
+    "id": "cok_anlamlilik_sozluk",
+    "term": "Sözlük Anlamı",
+    "definition": "Bir sözcüğün dildeki yerleşik, herkesçe bilinen ve sözlüklerde tanımlanan temel karşılığıdır. Bağlamdan bağımsız olarak sahip olduğu anlamdır.",
+    "examples": [
+      "Kitap: Basılı veya yazılı kâğıt yapraklarının ciltlenmesiyle oluşan eser."
+    ],
+    "relatedTerms": [
+      "Gerçek Anlam",
+      "Temel Anlam",
+      "Bağlam"
+    ],
+    "order": 45
+  },
+  {
+    "id": "yansimadan_tureme",
+    "term": "Yansımadan Türeme",
+    "definition": "Doğa seslerini taklit eden sözcüklerin yapım eki alarak farklı bir sözcük türüne dönüşmesi durumudur. Sözcüğün kökü mutlaka bir ses taklidi olmalıdır.",
+    "examples": [
+      "Horuldayan adamı uyandırdı.",
+      "Gürültülü bir ortamda çalışıyoruz."
+    ],
+    "relatedTerms": [
+      "Yansıma Sözcük",
+      "Yapım Eki",
+      "Kök"
+    ],
+    "order": 46
+  },
+  {
+    "id": "anlam_aktarmasi",
+    "term": "Anlam Aktarması",
+    "definition": "Bir sözcüğün benzetme amacı güdülerek veya benzetme amacı güdülmeden başka bir sözcüğün yerine kullanılmasıdır. İnsandan doğaya, doğadan insana veya duyular arası aktarım şeklinde görülür.",
+    "examples": [
+      "Keskin bir koku odayı sardı.",
+      "Sert bakışlarıyla herkesi susturdu."
+    ],
+    "relatedTerms": [
+      "Ad Aktarması",
+      "Duyular Arası Aktarım",
+      "Benzetme"
+    ],
+    "order": 47
+  },
+  {
+    "id": "duyular_arasi_aktarim",
+    "term": "Duyular Arası Aktarım",
+    "definition": "Bir duyuya ait olan özelliğin başka bir duyuya aktarılmasıdır. Genellikle sıfat tamlamalarında karşımıza çıkar.",
+    "examples": [
+      "Sıcak bir gülümsemeyle karşıladı.",
+      "Acı bir çığlık yükseldi."
+    ],
+    "relatedTerms": [
+      "Anlam Aktarması",
+      "Nitel Anlam",
+      "Sıfat"
+    ],
+    "order": 48
+  },
+  {
+    "id": "yakin_anlamli_cumle",
+    "term": "Yakın Anlamlı Cümle",
+    "definition": "Aynı düşünceyi veya duyguyu farklı sözcüklerle ifade eden cümlelerdir. Cümleler aynı konuyu işlese de vurgulanan nokta farklı olabilir.",
+    "examples": [
+      "Sanatçı, toplumun aynasıdır.",
+      "Sanat, toplumsal gerçekleri yansıtan bir araçtır."
+    ],
+    "relatedTerms": [
+      "Bağlam",
+      "Anlamdaşlık",
+      "Yorum"
+    ],
+    "order": 49
+  },
+  {
+    "id": "cagrisim",
+    "term": "Çağrışım",
+    "definition": "Bir sözcüğün zihinde başka bir kavramı veya görüntüyü uyandırmasıdır. Sözcüklerin metin içinde oluşturduğu anlam dünyasını genişletir.",
+    "examples": [
+      "Deniz dendiğinde akla gelen mavi, kum ve martı sözcükleri.",
+      "Kış sözcüğünün kar ve soğuk kavramlarını anımsatması."
+    ],
+    "relatedTerms": [
+      "Kavram Alanı",
+      "Bağlam",
+      "Anlam"
+    ],
+    "order": 50
+  },
+  {
+    "id": "kavram_alanlari",
+    "term": "Kavram Alanları",
+    "definition": "Birbiriyle ilişkili olan veya aynı konu başlığı altında toplanabilen sözcüklerin oluşturduğu kümedir. Metnin ana temasını belirlemede yardımcı olur.",
+    "examples": [
+      "Doktor, ilaç, hastane, reçete kavramları sağlık alanını oluşturur.",
+      "Kale, top, hakem, maç kavramları spor alanını oluşturur."
+    ],
+    "relatedTerms": [
+      "Bağlam",
+      "Çağrışım",
+      "Konu"
+    ],
+    "order": 51
+  },
+  {
+    "id": "anlamsal_ozellesme",
+    "term": "Anlamsal Özelleşme",
+    "definition": "Genel bir anlam taşıyan sözcüğün zamanla daha özel bir alanı karşılayacak şekilde daralması veya sınırlandırılmasıdır.",
+    "examples": [
+      "'Oğul' sözcüğünün sadece erkek çocuk için kullanılır hale gelmesi.",
+      "'Yemiş' sözcüğünün meyve yerine incir için kullanılması."
+    ],
+    "relatedTerms": [
+      "Anlam Daralması",
+      "Genel ve Özel Anlam",
+      "Anlam Değişimi"
+    ],
+    "order": 52
+  },
+  {
+    "id": "anlamsal_genellesme",
+    "term": "Anlamsal Genelleşme",
+    "definition": "Özel bir anlamı karşılayan sözcüğün zamanla daha geniş bir alanı kapsayacak şekilde kullanılmasıdır.",
+    "examples": [
+      "'Aşı' sözcüğünün sadece çiçek hastalığı için kullanılırken tüm aşıları kapsar hale gelmesi."
+    ],
+    "relatedTerms": [
+      "Anlam Genişlemesi",
+      "Anlam Değişimi"
+    ],
+    "order": 53
+  },
+  {
+    "id": "anlam_aktarimi",
+    "term": "Anlam Aktarımı",
+    "definition": "Bir sözcüğün temel anlamından uzaklaşarak başka bir varlığı veya kavramı karşılamak üzere yeni bir anlam kazanması sürecidir. İnsan organlarından doğaya veya doğadan insana aktarım şeklinde gerçekleşir.",
+    "examples": [
+      "Burnu havada bir insan.",
+      "Dağın eteğinde bekledik."
+    ],
+    "relatedTerms": [
+      "Somutlama",
+      "Mecaz Anlam",
+      "Ad Aktarması"
+    ],
+    "order": 54
+  },
+  {
+    "id": "anlamsal_kapsam",
+    "term": "Anlamsal Kapsam",
+    "definition": "Bir sözcüğün ifade ettiği varlıkların veya durumların genişliği veya sınırıdır. Genel anlamlı sözcükler geniş bir kapsama sahipken, özel anlamlı sözcükler dar bir kapsama sahiptir.",
+    "examples": [
+      "'Varlık' sözcüğü 'canlı' sözcüğünden daha geniş bir anlamsal kapsama sahiptir."
+    ],
+    "relatedTerms": [
+      "Genel Anlam",
+      "Özel Anlam",
+      "Kavram Alanı"
+    ],
+    "order": 55
+  },
+  {
+    "id": "terim_anlami_ozellik",
+    "term": "Terim Anlamlılık",
+    "definition": "Bir sözcüğün bilim, sanat, spor veya meslek dalıyla ilgili özel bir kavramı karşılamasıdır. Tek bir alana özgü anlam taşır.",
+    "examples": [
+      "Üçgenin iç açıları toplamı 180 derecedir.",
+      "Hakem penaltı noktasını gösterdi."
+    ],
+    "relatedTerms": [
+      "Terimleşme",
+      "Özel Anlam"
+    ],
+    "order": 56
+  },
+  {
+    "id": "es_anlamlilik",
+    "term": "Eş Anlamlılık (Anlamdaşlık)",
+    "definition": "Yazılışları ve okunuşları farklı olmasına rağmen aynı anlamı taşıyan sözcüklerdir. Birbirlerinin yerine kullanıldıklarında cümlenin anlamı değişmez.",
+    "examples": [
+      "Okulun bahçesi çok geniş.",
+      "Mektebin bahçesi çok geniş."
+    ],
+    "relatedTerms": [
+      "Yakın Anlamlı Sözcükler",
+      "Anlamsal Bağıntı"
+    ],
+    "order": 57
+  },
+  {
+    "id": "karsit_anlam",
+    "term": "Karşıt (Zıt) Anlam",
+    "definition": "Birbirinin tam tersi olan durumları ifade eden sözcüklerdir. Bir sözcüğün olumsuzu, o sözcüğün zıt anlamlısı değildir.",
+    "examples": [
+      "Aşağı bakınca yukarıyı unuttu.",
+      "İyi günlerin sonu kötü bitti."
+    ],
+    "relatedTerms": [
+      "Karşıtlık İlişkisi",
+      "Anlamsal Bağıntı"
+    ],
+    "order": 58
+  },
+  {
+    "id": "deyimin_ozelligi",
+    "term": "Deyimleşme",
+    "definition": "Kalıplaşmış, genellikle mecaz anlam taşıyan ve öğeleri değiştirilemeyen söz öbekleridir. Cümleye akıcılık ve anlatım gücü katar.",
+    "examples": [
+      "Bu iş için kılı kırk yarmak gerekiyor.",
+      "Sınavı kazanınca etekleri zil çaldı."
+    ],
+    "relatedTerms": [
+      "Deyimleşmiş İfadeler",
+      "Kalıplaşmış Sözler",
+      "Anlatım Gücü"
+    ],
+    "order": 59
+  },
+  {
+    "id": "anlamsal_celiski",
+    "term": "Anlamsal Çelişki",
+    "definition": "Bir cümlede birbirine zıt veya birbirini tutmayan ifadelerin bir arada kullanılmasıdır. Anlatım bozukluğu yaratır.",
+    "examples": [
+      "Aşağı yukarı tam üç yıl oldu.",
+      "Eminim ki o da gelmiş olabilir."
+    ],
+    "relatedTerms": [
+      "Karşıtlık İlişkisi",
+      "Bağlam",
+      "Anlam Kayması"
+    ],
+    "order": 60
+  },
+  {
+    "id": "deyimin_anlami",
+    "term": "Deyim Anlamı",
+    "definition": "Kalıplaşmış, en az iki sözcükten oluşan ve gerçek anlamından uzaklaşmış ifadelerdir. Genellikle bir durumu veya kavramı karşılar.",
+    "examples": [
+      "Etekleri zil çalmak.",
+      "Gözden düşmek.",
+      "Burnu havada olmak."
+    ],
+    "relatedTerms": [
+      "Deyimleşmiş İfadeler",
+      "Mecaz Anlam"
+    ],
+    "order": 61
+  },
+  {
+    "id": "mecaz_i_mursel",
+    "term": "Mecaz-ı Mürsel (Ad Aktarması)",
+    "definition": "Bir sözcüğün, benzetme amacı güdülmeden başka bir sözcüğün yerine kullanılmasıdır. Parça-bütün, iç-dış, yazar-eser veya yer-insan ilişkisi üzerinden kurulur.",
+    "examples": [
+      "'Sınıf ayağa kalktı' cümlesinde sınıfın içindeki öğrencilerin kastedilmesi.",
+      "'Tabağını bitir' derken yemeğin kastedilmesi."
+    ],
+    "relatedTerms": [
+      "Anlam Aktarması",
+      "Dolaylama"
+    ],
+    "order": 62
+  },
+  {
+    "id": "genel_anlam",
+    "term": "Genel Anlam",
+    "definition": "Bir sözcüğün, aynı türden varlıkların hepsini veya büyük bir kısmını kapsayan geniş anlamıdır. Kapsayıcı bir nitelik taşır.",
+    "examples": [
+      "'Ağaç' kelimesi tüm ağaç türlerini kapsar.",
+      "'Canlı' genel bir kavramdır."
+    ],
+    "relatedTerms": [
+      "Özel Anlam",
+      "Kapsam"
+    ],
+    "order": 63
+  },
+  {
+    "id": "ozel_anlam",
+    "term": "Özel Anlam",
+    "definition": "Bir sözcüğün, aynı türden varlıkların sadece birini veya belirli bir kısmını ifade eden dar anlamıdır. Daha belirgin ve sınırlayıcıdır.",
+    "examples": [
+      "'Çınar' ağacı özel bir ağaç türünü belirtir.",
+      "'İnsan' genel anlamken, 'öğrenci' özel anlamdır."
+    ],
+    "relatedTerms": [
+      "Genel Anlam",
+      "Sınırlama"
+    ],
+    "order": 64
+  },
+  {
+    "id": "ikilemeler",
+    "term": "İkilemeler",
+    "definition": "Anlamı güçlendirmek, pekiştirmek veya anlatıma akıcılık katmak amacıyla iki sözcüğün bir araya gelmesiyle oluşan söz öbekleridir. Farklı şekillerde oluşabilirler.",
+    "examples": [
+      "'Aşağı yukarı' ikileme örneğidir.",
+      "'Eski püskü' bir ikilemedir."
+    ],
+    "relatedTerms": [
+      "Pekiştirme",
+      "Yansıma Sözcükler"
+    ],
+    "order": 65
+  },
+  {
+    "id": "yakin_anlamli_cumleler",
+    "term": "Yakın Anlamlı Cümleler",
+    "definition": "Farklı sözcükler ve yapılar kullanılarak oluşturulmuş olsalar bile, temel düşünce ve ana mesaj açısından birbirine çok benzeyen cümlelerdir. Anlamdaşlık tam değildir, nüans farkları olabilir.",
+    "examples": [
+      "'Çok çalıştı, başarılı oldu.' ile 'Başarısının sırrı çok çalışmasıydı.' yakın anlamlıdır.",
+      "'Kitap okumak insanı geliştirir.' ve 'İnsanın gelişimi kitap okumayla doğru orantılıdır.'"
+    ],
+    "relatedTerms": [
+      "Eş Anlamlılık",
+      "Anlamdaş Cümleler"
+    ],
+    "order": 66
+  },
+  {
+    "id": "es_sesli_kelimeler",
+    "term": "Eş Sesli (Sesteş) Kelimeler",
+    "definition": "Yazılışları ve okunuşları aynı olan, ancak anlamları tamamen farklı olan sözcüklerdir. Genellikle kökenleri farklıdır.",
+    "examples": [
+      "'Yüz' kelimesi hem sayı hem de organ anlamında eş seslidir.",
+      "'Gül' hem çiçek hem de eylem olarak sesteştir."
+    ],
+    "relatedTerms": [
+      "Çok Anlamlılık",
+      "Homofon"
+    ],
+    "order": 67
+  },
+  {
+    "id": "anlam_iliskisi",
+    "term": "Anlam İlişkisi",
+    "definition": "Sözcükler arasında var olan anlam bağıdır. Eş anlamlılık, zıt anlamlılık, genel-özel anlam gibi çeşitli şekillerde ortaya çıkabilir. Sözcüklerin birbirini tamamlaması veya karşılaması durumudur.",
+    "examples": [
+      "'Siyah' ve 'beyaz' arasında zıt anlam ilişkisi vardır.",
+      "'Öğrenci' ve 'okul' arasında bir anlam ilişkisi bulunur."
+    ],
+    "relatedTerms": [
+      "Anlamdaşlık",
+      "Karşıt Anlam"
+    ],
+    "order": 68
+  },
+  {
+    "id": "ikilemelerde_anlam",
+    "term": "İkilemelerde Anlam",
+    "definition": "İkilemelerin oluşturduğu anlamın, tek tek sözcüklerin anlamlarından farklı veya daha vurgulu olmasıdır. Genellikle pekiştirme, abartma, yaklaşık anlam veya durum bildirme işlevi görürler.",
+    "examples": [
+      "'Abur cubur' ikilemesi, tek tek kelimelerin anlamından farklı bir 'düzensiz yiyecek' anlamı taşır.",
+      "'Eğri büğrü' düzensizliği vurgular."
+    ],
+    "relatedTerms": [
+      "İkilemeler",
+      "Pekiştirme"
+    ],
+    "order": 69
+  },
+  {
+    "id": "kinaye",
+    "term": "Kinaye",
+    "definition": "Bir sözün, karşıtını kastederek veya alaycı bir şekilde söylenmesidir. Genellikle ima yoluyla bir eleştiri veya gönderme içerir.",
+    "examples": [
+      "Ne kadar da zekisin, bu soruyu bile çözemedin!",
+      "Çok çalışkan olduğu için hep sonuncu olur."
+    ],
+    "relatedTerms": [
+      "İroni",
+      "Dolaylama",
+      "Mecaz",
+      "Söz Sanatları"
+    ],
+    "order": 70
+  }
+]

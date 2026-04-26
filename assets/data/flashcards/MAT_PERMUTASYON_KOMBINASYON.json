@@ -1,0 +1,448 @@
+[
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "n tane nesnenin n! farklı şekilde sıralanmasına ne ad verilir?",
+    "answer": "Permütasyon",
+    "additionalInfo": "Sıralama varsa permütasyon, seçim varsa kombinasyon kullanılır.",
+    "id": "flash_1776014519602_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "n elemanlı bir kümenin r'li kombinasyonlarının formülü nedir?",
+    "answer": "n! / (r! * (n-r)!)",
+    "additionalInfo": "Kombinasyonda sıra önemli değildir.",
+    "id": "flash_1776014519602_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "n tane nesnenin dairesel bir masa etrafına sıralanışı nedir?",
+    "answer": "(n-1)!",
+    "additionalInfo": "Dairesel sıralamada bir kişi sabitlenir.",
+    "id": "flash_1776014519602_3",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Tekrarlı permütasyonda n tane nesnenin n1, n2, n3 tanesi özdeş ise sıralama sayısı nedir?",
+    "answer": "n! / (n1! * n2! * n3!)",
+    "additionalInfo": "Özdeş nesnelere dikkat et.",
+    "id": "flash_1776014519602_4",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "0! kaça eşittir?",
+    "answer": "1",
+    "additionalInfo": "Boş kümenin de bir sıralanışı olduğu kabul edilir.",
+    "id": "flash_1776014519602_5",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "C(n, 0) değeri kaçtır?",
+    "answer": "1",
+    "additionalInfo": "Hiçbir şey seçmemenin 1 yolu vardır.",
+    "id": "flash_1776014519602_6",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "C(n, n) değeri kaçtır?",
+    "answer": "1",
+    "additionalInfo": "Tüm elemanları seçmenin tek yolu vardır.",
+    "id": "flash_1776014519602_7",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "C(n, 1) değeri kaçtır?",
+    "answer": "n",
+    "additionalInfo": "n elemandan 1 tanesini n farklı şekilde seçebilirsin.",
+    "id": "flash_1776014519602_8",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "P(n, 1) değeri kaçtır?",
+    "answer": "n",
+    "additionalInfo": "1'li permütasyon eleman sayısına eşittir.",
+    "id": "flash_1776014519602_9",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "n tane eleman yan yana dizilirken belirli iki kişi yan yana gelmek isterse ne yapılır?",
+    "answer": "İki kişi tek bir paket gibi düşünülür.",
+    "id": "flash_1776014519602_10",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "n tane eleman yan yana dizilirken belirli iki kişi yan yana gelmek istemezse ne yapılır?",
+    "answer": "Tüm durumdan yan yana oldukları durum çıkarılır.",
+    "id": "flash_1776014519602_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Aynı türden nesnelerin bir arada olması isteniyorsa nasıl bir yöntem izlenir?",
+    "answer": "Bu nesneler bir grup olarak kabul edilir.",
+    "id": "flash_1776014519602_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "C(n, r) ile C(n, n-r) arasındaki ilişki nedir?",
+    "answer": "Birbirine eşittirler.",
+    "id": "flash_1776014519602_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Pascal üçgeninde bir satırdaki elemanların toplamı nedir?",
+    "answer": "2^n",
+    "additionalInfo": "Alt küme sayısı formülüyle aynıdır.",
+    "id": "flash_1776014519602_14",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "n elemanlı bir kümenin alt küme sayısı nasıl bulunur?",
+    "answer": "2^n",
+    "additionalInfo": "Her eleman için 'seçildi' veya 'seçilmedi' durumu vardır.",
+    "id": "flash_1776014519602_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Bir kümenin r elemanlı alt küme sayısı neye eşittir?",
+    "answer": "C(n, r)",
+    "additionalInfo": "Kombinasyon seçim problemidir.",
+    "id": "flash_1776014519602_16",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Doğrusal olmayan n tane noktadan kaç farklı doğru geçer?",
+    "answer": "C(n, 2)",
+    "additionalInfo": "Bir doğru için iki nokta yeterlidir.",
+    "id": "flash_1776014519602_17",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Bir köşesi ortak n tane üçgen kaç farklı şekilde oluşturulabilir?",
+    "answer": "C(n, 2)",
+    "additionalInfo": "Taban üzerinde 2 nokta seçilmelidir.",
+    "id": "flash_1776014519602_18",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "n tane noktadan kaç farklı üçgen çizilebilir?",
+    "answer": "C(n, 3)",
+    "additionalInfo": "Doğrusal noktalar varsa çıkarılmalıdır.",
+    "id": "flash_1776014519602_19",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "n elemanlı bir kümenin boş küme hariç alt küme sayısı nedir?",
+    "answer": "2^n - 1",
+    "additionalInfo": "Boş küme 1 tanedir.",
+    "id": "flash_1776014519602_20",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Birbirinden farklı 5 matematik ve 4 fizik kitabı bir rafa dizilecektir. Matematik kitapları yan yana olmak şartıyla kaç farklı şekilde dizilir?",
+    "answer": "5! * 5!",
+    "additionalInfo": "5 matematik kitabı 1 grup, 4 fizik 4 ayrı kitap toplam 5 birim gibi düşünülür.",
+    "id": "flash_1776014519602_21",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "P(n, 2) = 42 ise n kaçtır?",
+    "answer": "7",
+    "additionalInfo": "n * (n-1) = 42 denklemi çözülür.",
+    "id": "flash_1776014519602_22",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "C(n, 2) = 10 ise n kaçtır?",
+    "answer": "5",
+    "additionalInfo": "(n * (n-1)) / 2 = 10 denklemi çözülür.",
+    "id": "flash_1776014519602_23",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Anne, baba ve 3 çocuktan oluşan bir aile yan yana fotoğrafta anne ve baba yan yana gelmemek şartıyla kaç farklı şekilde dizilir?",
+    "answer": "72",
+    "additionalInfo": "Tüm durumdan (5!) anne ve babanın yan yana olduğu durum (2! * 4!) çıkarılır.",
+    "id": "flash_1776014519602_24",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Bir kümenin eleman sayısı 1 artarsa alt küme sayısı nasıl değişir?",
+    "answer": "2 katına çıkar.",
+    "additionalInfo": "2^(n+1) = 2 * 2^n",
+    "id": "flash_1776014519602_25",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Özdeş 3 oyuncak 5 çocuğa kaç farklı şekilde dağıtılabilir?",
+    "answer": "C(n+r-1, r)",
+    "additionalInfo": "Ayraç yöntemi kullanılır.",
+    "id": "flash_1776014519602_26",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "4 farklı mektup 3 farklı posta kutusuna kaç farklı şekilde atılabilir?",
+    "answer": "3^4",
+    "additionalInfo": "Her mektup için 3 seçenek vardır.",
+    "id": "flash_1776014519602_27",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "6 kişinin katıldığı bir yarışta ilk 3 derece kaç farklı şekilde oluşur?",
+    "answer": "6 * 5 * 4 = 120",
+    "additionalInfo": "Sıralama önemli olduğu için permütasyon kullanılır.",
+    "id": "flash_1776014519602_28",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Bir çember üzerindeki 8 noktadan kaç farklı kiriş çizilebilir?",
+    "answer": "C(8, 2) = 28",
+    "additionalInfo": "İki nokta bir kiriş tanımlar.",
+    "id": "flash_1776014519602_29",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "4 kişi 4 sandalyeye kaç farklı şekilde oturabilir?",
+    "answer": "4! = 24",
+    "additionalInfo": "Sıralama önemlidir.",
+    "id": "flash_1776014519602_30",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Bir mağazada 5 farklı gömlek ve 4 farklı pantolon arasından 1 gömlek ve 1 pantolon kaç farklı şekilde seçilir?",
+    "answer": "5 * 4 = 20",
+    "additionalInfo": "Çarpma kuralı uygulanır.",
+    "id": "flash_1776014519602_31",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Bir kümenin alt kümelerinin kaç tanesinde 'a' elemanı bulunur?",
+    "answer": "2^(n-1)",
+    "additionalInfo": "a elemanını seçip geri kalan n-1 elemanla alt küme oluşturulur.",
+    "id": "flash_1776014519602_32",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Kelimelerin harfleri yer değiştirilerek oluşturulan anlamlı veya anlamsız kelimeler neyle çözülür?",
+    "answer": "Tekrarlı permütasyon",
+    "additionalInfo": "Özdeş harflere dikkat et.",
+    "id": "flash_1776014519602_33",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "5 farklı kişi dairesel bir masaya kaç farklı şekilde oturabilir?",
+    "answer": "(5-1)! = 24",
+    "additionalInfo": "Dairesel dizilimde (n-1)! formülü kullanılır.",
+    "id": "flash_1776014519602_34",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "C(n, r) + C(n, r+1) toplamı neye eşittir?",
+    "answer": "C(n+1, r+1)",
+    "additionalInfo": "Pascal özdeşliği olarak bilinir.",
+    "id": "flash_1776014519602_35",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "3 kız ve 3 erkek yan yana kızlar bir arada olmak üzere kaç şekilde dizilir?",
+    "answer": "4! * 3!",
+    "additionalInfo": "Kızlar 1 grup, 3 erkek toplam 4 birim.",
+    "id": "flash_1776014519602_36",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Bir madeni para 3 kez atıldığında tüm durumlar nedir?",
+    "answer": "2^3 = 8",
+    "additionalInfo": "Her atışın 2 sonucu vardır.",
+    "id": "flash_1776014519602_37",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Bir zarın 2 kez atılması deneyinde tüm durum nedir?",
+    "answer": "6^2 = 36",
+    "additionalInfo": "Her zarın 6 yüzü vardır.",
+    "id": "flash_1776014519602_38",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "10 kişilik bir gruptan 2 kişilik bir ekip kaç farklı şekilde seçilir?",
+    "answer": "C(10, 2) = 45",
+    "additionalInfo": "Sıralama önemsizdir.",
+    "id": "flash_1776014519602_39",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "A kümesinden B kümesine tanımlanan fonksiyon sayısı nedir?",
+    "answer": "s(B)^s(A)",
+    "additionalInfo": "Tanım kümesindeki her elemanın değer kümesinde gidecek bir yeri vardır.",
+    "id": "flash_1776014519602_40",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "A'dan B'ye birebir fonksiyon sayısı nedir?",
+    "answer": "P(s(B), s(A))",
+    "additionalInfo": "Sıralı seçim yapılır.",
+    "id": "flash_1776014519602_41",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Bir kümenin en az 2 elemanlı alt küme sayısı nasıl bulunur?",
+    "answer": "2^n - (n+1)",
+    "additionalInfo": "Tüm alt kümelerden boş küme ve 1 elemanlılar çıkarılır.",
+    "id": "flash_1776014519602_42",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "5 noktadan kaç farklı doğru çizilebilir?",
+    "answer": "C(5, 2) = 10",
+    "additionalInfo": "Doğrusal olmadıkları varsayılır.",
+    "id": "flash_1776014519602_43",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "3 özdeş kalem 4 kutuya kaç farklı şekilde atılır?",
+    "answer": "C(3+4-1, 3) = C(6, 3) = 20",
+    "additionalInfo": "Ayraç yöntemi (n+r-1)R(n) kullanılır.",
+    "id": "flash_1776014519602_44",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Bir kümenin eleman sayısı n, alt küme sayısı 64 ise n kaçtır?",
+    "answer": "6",
+    "additionalInfo": "2^n = 64 ise n=6.",
+    "id": "flash_1776014519602_45",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "5 kişi arasından başkan ve başkan yardımcısı kaç farklı şekilde seçilir?",
+    "answer": "P(5, 2) = 20",
+    "additionalInfo": "Görevler farklı olduğu için sıra önemlidir.",
+    "id": "flash_1776014519602_46",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Kelebek kelimesinin harfleriyle kaç farklı anlamlı/anlamsız kelime yazılır?",
+    "answer": "6! / (2! * 2!) = 180",
+    "additionalInfo": "e ve k harfleri tekrarlıdır.",
+    "id": "flash_1776014519602_47",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Bir sınavda 5 sorudan 3'ünü seçmek zorunda olan öğrenci kaç seçim yapabilir?",
+    "answer": "C(5, 3) = 10",
+    "additionalInfo": "Seçim yapıldığı için kombinasyon.",
+    "id": "flash_1776014519602_48",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "Doğrusal olmayan 6 noktadan kaç farklı üçgen çizilir?",
+    "answer": "C(6, 3) = 20",
+    "additionalInfo": "3 nokta bir üçgen oluşturur.",
+    "id": "flash_1776014519602_49",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "question": "n tane özdeş oyuncak r çocuğa kaç farklı şekilde dağıtılır?",
+    "answer": "C(n+r-1, n)",
+    "additionalInfo": "Bu temel bir kombinasyon kalıbıdır.",
+    "id": "flash_1776014519602_50",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:13.563Z"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "cumhuriyet",
+    "term": "Cumhuriyet",
+    "definition": "Egemenliğin millete ait olduğu, devlet başkanının seçimle belirlendiği yönetim biçimidir. Türkiye Cumhuriyeti 29 Ekim 1923'te ilan edilmiştir.",
+    "examples": [
+      "29 Ekim 1923'te Türkiye Cumhuriyeti ilan edildi.",
+      "Cumhurbaşkanı Mustafa Kemal Atatürk seçildi."
+    ],
+    "relatedTerms": ["demokrasi", "egemenlik", "anayasa"],
+    "order": 1
+  },
+  {
+    "id": "egemenlik",
+    "term": "Egemenlik",
+    "definition": "Bir devletin sınırları içinde en üstün güce sahip olması ve bu gücü bağımsız biçimde kullanmasıdır. Türkiye'de egemenlik kayıtsız şartsız millete aittir.",
+    "examples": [
+      "Türkiye Cumhuriyeti Anayasası'nın 6. maddesine göre egemenlik millete aittir.",
+      "TBMM milleti temsil ederek egemenliği kullanır."
+    ],
+    "relatedTerms": ["devlet", "cumhuriyet", "millet"],
+    "order": 2
+  },
+  {
+    "id": "anayasa",
+    "term": "Anayasa",
+    "definition": "Devletin temel yapısını, yönetim biçimini ve temel hak ile özgürlükleri düzenleyen en üst hukuk belgesidir.",
+    "examples": [
+      "Türkiye'nin mevcut anayasası 1982 yılında yürürlüğe girmiştir.",
+      "Anayasa değişiklikleri halk oylaması ile yapılabilir."
+    ],
+    "relatedTerms": ["hukuk devleti", "temel haklar", "kanun"],
+    "order": 3
+  },
+  {
+    "id": "laiklik",
+    "term": "Laiklik",
+    "definition": "Din ve devlet işlerinin birbirinden ayrılması; devletin tüm din ve inançlar karşısında tarafsız olması ilkesidir.",
+    "examples": [
+      "Atatürk, laikliği Türk devletinin temel ilkelerinden biri olarak benimsemiştir.",
+      "1924 yılında halifelik kaldırılarak laikliğe geçiş hızlandırılmıştır."
+    ],
+    "relatedTerms": ["Atatürk ilkeleri", "din özgürlüğü", "cumhuriyet"],
+    "order": 4
+  },
+  {
+    "id": "hukuk_devleti",
+    "term": "Hukuk Devleti",
+    "definition": "Devlet faaliyetlerinin hukuka bağlı olduğu, devletin tüm organlarının hukuk kurallarıyla sınırlandırıldığı devlet anlayışıdır.",
+    "examples": [
+      "Mahkemeler, devlet organlarının hukuka aykırı kararlarını iptal edebilir.",
+      "Herkes kanun önünde eşittir."
+    ],
+    "relatedTerms": ["hukuk", "anayasa", "yargı"],
+    "order": 5
+  }
+]

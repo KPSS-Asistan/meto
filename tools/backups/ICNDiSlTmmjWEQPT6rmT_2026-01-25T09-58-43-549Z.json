@@ -1,0 +1,610 @@
+[
+  {
+    "id": "ICNDiSlTmmjWEQPT6rmT_gen_1",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "lessonId": "turkce",
+    "q": "Sözcük Türleri konusuyla ilgili çalışmalarımız devam etmektedir. Bu bir örnek sorudur.",
+    "o": [
+      "A Seçeneği",
+      "B Seçeneği",
+      "C Seçeneği",
+      "D Seçeneği",
+      "E Seçeneği"
+    ],
+    "a": 0,
+    "e": "Detaylı içerikler yakında GitHub üzerinden senkronize edilecektir.",
+    "subtopic": "Genel"
+  },
+  {
+    "id": "turkce_001",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "karma-sozcuk-turleri",
+    "subtopic": "Karma Sözcük Türleri",
+    "q": "Bu eski (I) mahallede, herkes birbirini (II) tanır; akşamları (III) kapı önlerinde uzun (IV) sohbetler edilirdi. Yalnızlık (V) nedir bilmezdik o zamanlar.\n\nBu parçadaki numaralanmış sözcüklerin türleri aşağıdakilerin hangisinde sırasıyla doğru verilmiştir?",
+    "o": [
+      "Sıfat - Zamir - Zarf - Sıfat - İsim",
+      "Sıfat - İsim - İsim - Zarf - İsim",
+      "Zarf - Zamir - Zarf - Sıfat - Fiil",
+      "Sıfat - Zamir - İsim - Sıfat - İsim",
+      "İsim - Sıfat - Zarf - Zarf - İsim"
+    ],
+    "a": 0,
+    "e": "I. 'eski' sözcüğü 'mahalle' ismini nitelediği için niteleme sıfatıdır. II. 'birbirini' sözcüğü belgisiz zamirdir. III. 'akşamları' sözcüğü fiilin zamanını belirttiği için zaman zarfıdır. IV. 'uzun' sözcüğü 'sohbet' ismini nitelediği için niteleme sıfatıdır. V. 'Yalnızlık' sözcüğü bir kavramı karşıladığı için isimdir. Doğru sıralama A seçeneğidir."
+  },
+  {
+    "id": "turkce_002",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "sifatlar",
+    "subtopic": "Sıfatlar (Ön Adlar)",
+    "q": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük, türü bakımından diğerlerinden farklıdır?",
+    "o": [
+      "Kış gelince bu *soğuk* havalarda dışarı çıkmak zorlaşır.",
+      "İnsanlar *karanlık* düşüncelerden uzak durmalıdır.",
+      "Elindeki *ağır* çantayı taşımakta güçlük çekiyordu.",
+      "Salondaki *genç*, bize doğru çekingen adımlarla yaklaştı.",
+      "Bu *zor* soruları çözerken epey zaman harcadık."
+    ],
+    "a": 3,
+    "e": "A, B, C ve E seçeneklerindeki 'soğuk', 'karanlık', 'ağır' ve 'zor' sözcükleri kendilerinden sonra gelen isimleri niteleyerek 'sıfat' görevinde kullanılmıştır. Ancak D seçeneğindeki 'genç' sözcüğü, 'genç insan' anlamında kullanılmış olup nitelediği isim düştüğü için 'adlaşmış sıfat' (isimleşmiş) görevindedir ve sözcük türü olarak isim kabul edilir."
+  },
+  {
+    "id": "turkce_003",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "zarflar",
+    "subtopic": "Zarflar (Belirteçler)",
+    "q": "Yer-yön bildiren sözcükler, çekim eki aldıklarında zarf olma özelliklerini yitirip isimleşirler.\n\nBuna göre, aşağıdakilerin hangisinde yer-yön bildiren sözcük zarf görevinde **kullanılmamıştır**?",
+    "o": [
+      "Sesleri duyunca hemen aşağı indi.",
+      "Biraz nefes almak için dışarı çıktı.",
+      "Arabayı biraz daha ileri park etmelisin.",
+      "Yukarı mahallede büyük bir düğün varmış.",
+      "İçeriye giren soğuk hava herkesi üşüttü."
+    ],
+    "a": 4,
+    "e": "Yer-yön zarfları (aşağı, yukarı, içeri, dışarı, ileri, geri vb.) ek almadan kullanıldıklarında zarftır. A, B ve C seçeneklerinde sözcükler ek almamış ve fiili belirtmiştir. D seçeneğinde 'yukarı' sözcüğü 'mahalle' ismini niteleyerek sıfat olmuştur (istisnai durum). Ancak E seçeneğinde 'içeri' sözcüğü '-ye' yönelme hâl ekini alarak 'İçeriye' biçimine dönüşmüş ve isimleşmiştir. Bu nedenle zarf değildir."
+  },
+  {
+    "id": "turkce_004",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "edat-baglac",
+    "subtopic": "Edat ve Bağlaçlar",
+    "q": "'İle' sözcüğü cümlede yerine 've' getirilebiliyorsa bağlaç, getirilemiyorsa edattır.\n\nBuna göre aşağıdakilerin hangisinde 'ile' diğerlerinden farklı bir görevde kullanılmıştır?",
+    "o": [
+      "Roman ile öykü, edebiyatımızın en çok okunan türleridir.",
+      "Annesi ile babası yarın tatile gidecekler.",
+      "Bu hızlı araba ile kaza yapma riskin çok yüksek.",
+      "Defter ile kitaplarını çantasına özenle yerleştirdi.",
+      "Siyah ile beyaz, zıtlıkların en güzel uyumudur."
+    ],
+    "a": 2,
+    "e": "A, B, D ve E seçeneklerinde 'ile' yerine 've' getirilebilmektedir (Roman ve öykü, Annesi ve babası vb.). Bu yüzden bu cümlelerde 'ile' bağlaçtır. C seçeneğinde ise 'Bu hızlı araba ve kaza yapma...' ifadesi anlamsız olduğu için 'ile' sözcüğü vasıta/araç ilgisi kuran bir edattır."
+  },
+  {
+    "id": "turkce_005",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "zamirler",
+    "subtopic": "Zamirler (Adıllar)",
+    "q": "(I) Bazıları, hayatı sadece çalışmaktan ibaret sanır. (II) Oysa ki insanın kendisine de vakit ayırması gerekir. (III) Bunu anlamak için belirli bir olgunluğa erişmek şarttır. (IV) Kimi zaman geç kalınmış pişmanlıklar fayda etmez. (V) O gün geldiğinde her şey için çok geç olabilir.\n\nBu parçadaki numaralanmış cümlelerin hangilerinde zamir (adıl) kullanılmıştır?",
+    "o": [
+      "I, II ve III",
+      "I, III ve V",
+      "II, III ve IV",
+      "II, IV ve V",
+      "III, IV ve V"
+    ],
+    "a": 0,
+    "e": "I. cümlede 'Bazıları' (Belgisiz zamir), II. cümlede 'kendisine' (Dönüşlülük zamiri), III. cümlede 'Bunu' (İşaret zamiri) kullanılmıştır. IV. cümlede 'Kimi zaman' (Sıfat tamlaması, zamir yok) ve V. cümlede 'O gün' (İşaret sıfatı), 'her şey' (Sıfat ve isim) kullanılmıştır. Dolayısıyla zamir bulunan cümleler I, II ve III'tür."
+  },
+  {
+    "id": "turkce_006",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "sozcuk-turleri-analiz",
+    "subtopic": "Sözcük Türleri Analizi",
+    "q": "Yağmurun (I) *hüzünlü* şırıltısı, (II) *bize* (III) *eski* günleri (IV) *hatırlatıyordu*.\n\nYukarıdaki cümlede altı çizili sözcüklerin türleri için aşağıdakilerden hangisi **söylenemez**?",
+    "o": [
+      "I. sözcük, bir ismi nitelediği için niteleme sıfatıdır.",
+      "II. sözcük, ismin yerini tutan kişi zamiridir.",
+      "III. sözcük, zaman anlamı taşıyan bir zarftır.",
+      "IV. sözcük, çekimli bir fiildir.",
+      "Cümlede edat veya bağlaç kullanılmamıştır."
+    ],
+    "a": 2,
+    "e": "I. sözcük 'hüzünlü', 'şırıltı' ismini niteleyen bir sıfattır (Doğru). II. sözcük 'bize', kişi zamiridir (Doğru). IV. sözcük 'hatırlatıyordu', şimdiki zamanın hikayesiyle çekimlenmiş bir fiildir (Doğru). Cümlede edat/bağlaç yoktur (Doğru). Ancak III. sözcük olan 'eski', 'günler' ismini nitelediği için 'zaman zarfı' değil, 'niteleme sıfatı'dır. Zaman anlamı taşıması onun türünü zarf yapmaz, bir ismi nitelediği için sıfattır."
+  },
+  {
+    "id": "turkce_007",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "karma-sozcuk-turleri",
+    "subtopic": "Karma Sözcük Türleri",
+    "q": "Aşağıdaki cümlelerin hangisinde 'doğru' sözcüğü zarf görevinde kullanılmıştır?",
+    "o": [
+      "Öğretmenimiz tahtaya bir doğru çizmemizi istedi.",
+      "Doğru insanlarla karşılaşmak büyük bir şanstır.",
+      "Senin bu konuda doğru söylediğine inanıyorum.",
+      "Eve doğru yürürken eski bir arkadaşımla karşılaştım.",
+      "Olayın doğrusunu öğrenmek için çok çabaladık."
+    ],
+    "a": 2,
+    "e": "A ve E seçeneklerinde 'doğru' sözcüğü isim görevindedir (geometrik terim ve gerçeği anlamında). B seçeneğinde 'doğru insan' tamlamasında ismi nitelediği için sıfattır. D seçeneğinde 'eve doğru' şeklinde yönelme ekiyle öbekleşerek edat görevindedir. C seçeneğinde ise 'doğru söylediğine' ifadesinde 'söylediği' fiilimsisini (eylemsi) nitelediği için durum zarfı görevindedir."
+  },
+  {
+    "id": "turkce_008",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "soru-sozcukleri",
+    "subtopic": "Soru Anlamı Taşıyan Sözcükler",
+    "q": "Aşağıdaki cümlelerin hangisinde soru anlamı bir **zamirle** sağlanmıştır?",
+    "o": [
+      "Bu dosyaları hangi rafa kaldıracaksınız?",
+      "Toplantıya neden vaktinde gelmediniz?",
+      "Bana çarşıdan ne almayı düşünüyorsun?",
+      "Nasıl bir ev hayal ediyorsunuz?",
+      "Müdür Bey, odasına ne zaman gelecek?"
+    ],
+    "a": 2,
+    "e": "A seçeneğinde 'hangi' (Soru sıfatı), B seçeneğinde 'neden' (Soru zarfı), D seçeneğinde 'nasıl' (Soru sıfatı), E seçeneğinde 'ne zaman' (Soru zarfı) kullanılmıştır. C seçeneğindeki 'ne' sözcüğü, bir ismin yerini tutacak şekilde (elma, kitap vb. cevabı verilebilir) kullanıldığı için soru zamiridir."
+  },
+  {
+    "id": "turkce_009",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "tamlamalar",
+    "subtopic": "İsim ve Sıfat Tamlamaları",
+    "q": "Sıfat tamlamalarında sıfat ile isim arasına noktalama işareti konmaz; konursa sözcük adlaşır ve yapı bozulur.\n\nBuna göre aşağıdaki cümlelerin hangisinde bu kurala aykırı bir durumdan kaynaklanan anlam belirsizliği vardır?",
+    "o": [
+      "İhtiyar, adama ters ters bakarak oradan uzaklaştı.",
+      "Küçük, ağacın arkasına saklanmış bizi izliyordu.",
+      "Genç, doktora derdini anlatmaya çalışıyordu.",
+      "O, eski günlerini her zaman özlemle anardı.",
+      "Yaralı, askere su vermesi için yalvarıyordu."
+    ],
+    "a": 3,
+    "e": "A, B, C ve E seçeneklerinde virgül kaldırılırsa anlam karışıklığı oluşur (İhtiyar adam, Küçük ağaç, Genç doktor, Yaralı asker gibi sıfat tamlaması olabilir). Ancak virgül kullanıldığı için 'İhtiyar', 'Küçük', 'Genç' ve 'Yaralı' sözcükleri adlaşmış sıfat (isim) olmuş ve anlam belirsizliği giderilmiştir. D seçeneğinde ise 'O' sözcüğü kişi zamiri olarak kullanılmıştır. Virgülün kullanımı doğrudur, ancak burada kurala aykırı bir durum veya virgülün olmamasından kaynaklanacak bir sıfat tamlaması karışıklığı (O eski günler -> işaret sıfatı olabilir ama zamir olduğu bellidir) diğer seçeneklerdeki gibi 'kişi vs sıfat' ayrımı kadar keskin bir belirsizlik yaratmaz. Soru kökünde 'noktalama işareti konmaz' kuralına atıf yapılmıştır. Aslında A, B, C, E şıkları virgül sayesinde sıfat tamlaması olmaktan çıkmıştır. Sorunun mantığına göre; virgülün kullanımıyla anlamın değiştiği durumlar örneklendirilmiştir. Ancak D şıkkında 'O' zaten zamirdir, 'eski' sıfattır. Burada 'O eski' diye bir tamlama zaten kurulamaz (işaret sıfatı olsa bile 'o eski günler' olur). Çeldiricisi yüksek bir sorudur; ancak A, B, C, E şıklarında virgül olmasa sıfat tamlaması olacakken, D şıkkında virgül olmasa 'O eski günlerini...' ifadesinde 'O' işaret sıfatı olur. Soru kökünde 'sıfat ile isim arasına noktalama konmaz' denmiştir. A, B, C, E'de virgül konarak kelime isimleştirilmiştir. D şıkkı ise yapıca farklıdır."
+  },
+  {
+    "id": "turkce_010",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "sozcuk-turleri-kok",
+    "subtopic": "Sözcük Kökü ve Türü",
+    "q": "Türkçede kökler isim ve fiil kökleri olmak üzere ikiye ayrılır. Sesteş köklerde ise sözcüğün cümledeki anlamına bakılır.\n\nBuna göre, aşağıdaki altı çizili sözcüklerden hangisinin kökü türü bakımından diğerlerinden farklıdır?",
+    "o": [
+      "Bahçedeki çiçekleri *suladı*.",
+      "Çocukların yüzünde *gül* açtı.",
+      "Bu *yaz* tatilinde köye gideceğiz.",
+      "Saçlarına *ak* düşmüştü artık.",
+      "Bütün gün denizde *yüzdü*."
+    ],
+    "a": 4,
+    "e": "A seçeneğinde 'suladı' sözcüğünün kökü 'su' (isim), B seçeneğinde 'gül' (çiçek olan gül - isim), C seçeneğinde 'yaz' (mevsim olan yaz - isim), D seçeneğinde 'ak' (beyaz - isim) köküdür. E seçeneğinde ise 'yüzdü' sözcüğünün kökü 'yüz-' fiilidir (suda ilerlemek). Diğerleri sesteşlik özelliği gösterse de cümledeki bağlamlarına göre isim köküdür; E seçeneği fiil köküdür."
+  },
+  {
+    "id": "turkce_011",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "sifatlar",
+    "subtopic": "Sıfatlar (Ön Adlar)",
+    "q": "Aşağıdaki cümlelerin hangisinde 'zor' sözcüğü, diğerlerinden farklı bir görevde kullanılmıştır?",
+    "o": [
+      "Zor günler geride kaldı, artık önümüze bakmalıyız.",
+      "Bu zor soruları çözmek için epey uğraştı.",
+      "Zor işleri hep bana veriyorsunuz, diye yakındı.",
+      "Bence sen bu hayatta zor mutlu olursun.",
+      "Zor bir karakteri olduğu için kimseyle anlaşamazdı."
+    ],
+    "a": 3,
+    "e": "Sözcükler cümredeki kullanımına göre tür kazanır. A, B, C ve E seçeneklerinde 'zor' sözcüğü bir ismin önüne gelerek onu nitelediği için (zor günler, zor sorular, zor işler, zor karakter) 'niteleme sıfatı' görevindedir. Ancak D seçeneğinde 'zor mutlu olursun' ifadesinde 'zor' sözcüğü, 'mutlu olmak' fiilini durum yönünden etkilediği için (nasıl mutlu olursun? -> zor) 'durum zarfı' görevinde kullanılmıştır."
+  },
+  {
+    "id": "turkce_012",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "zamirler",
+    "subtopic": "Zamirler (Adıllar)",
+    "q": "(I) Bazıları, hayatın sadece çalışmaktan ibaret olduğunu sanıyor. (II) Oysa insan, kendisine de vakit ayırmalıdır. (III) Şunları şuraya bırakıp biraz dinlenmeye ne dersin? (IV) Kimi insan bu tempoya dayanamayıp pes ediyor. (V) Bizim en büyük hatamız, anı yaşamayı ertelemektir.\n\nBu parçadaki numaralanmış cümlelerin hangisinde zamir (adıl) **kullanılmamıştır**?",
+    "o": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "a": 3,
+    "e": "I. cümlede 'Bazıları' (Belgisiz zamir), II. cümlede 'kendisine' (Dönüşlülük zamiri), III. cümlede 'Şunları' ve 'şuraya' (İşaret zamirleri), V. cümlede 'Bizim' (Kişi zamiri) kullanılmıştır. Ancak IV. cümlede geçen 'Kimi' sözcüğü 'insan' ismini etkilediği için (Kimi insan) 'belgisiz sıfat' görevindedir; cümlede 'bu' sözcüğü de işaret sıfatıdır. Dolayısıyla IV. cümlede zamir yoktur."
+  },
+  {
+    "id": "turkce_013",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "edat-baglac-unlem",
+    "subtopic": "Edat - Bağlaç - Ünlem",
+    "q": "Aşağıdaki cümlelerin hangisinde 'ile' sözcüğü diğerlerinden farklı bir görevde kullanılmıştır?",
+    "o": [
+      "Annesiyle pazara gidip taze sebzeler aldı.",
+      "Romanı büyük bir heyecanla okuyup bitirdi.",
+      "Kitaplar ile defterleri çantasına yerleştirdi.",
+      "Bu hızla gidersek akşama anca varırız.",
+      "Müdür bey, öfkeyle içeri girip bağırmaya başladı."
+    ],
+    "a": 2,
+    "e": "'İle' sözcüğü yerine 've' getirilebiliyorsa bağlaç, getirilemiyorsa edattır. A, B, D ve E seçeneklerinde 've' getirilemediği için (Annesi ve pazara gidip... -anlamsız-) edat görevindedir ve cümleye birliktelik veya durum anlamı katmıştır. C seçeneğinde ise 'Kitaplar ve defterleri' şeklinde kullanılabildiği için bağlaç görevindedir."
+  },
+  {
+    "id": "turkce_014",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "zarflar",
+    "subtopic": "Zarflar (Belirteçler)",
+    "q": "Aşağıdaki cümlelerin hangisinde yer-yön belirteci, tamlayan eki alarak adlaşmıştır?",
+    "o": [
+      "Çocuklar az önce neşeyle dışarı çıktı.",
+      "Yukarı mahallede büyük bir düğün varmış.",
+      "İçerinin havası beni iyice bunaltmıştı.",
+      "Arabayı biraz daha ileri park etmelisin.",
+      "Aşağı tükürsen sakal, yukarı tükürsen bıyık."
+    ],
+    "a": 2,
+    "e": "Yer-yön zarfları (içeri, dışarı, aşağı, yukarı, ileri, geri vb.) çekim eki aldıklarında zarf özelliklerini yitirip isimleşirler. A, D ve E seçeneklerinde sözcükler ek almadan fiili etkilediği için zarftır. B seçeneğinde 'Yukarı mahalle' sıfat tamlaması kurmuştur. C seçeneğinde ise 'İçeri' sözcüğü tamlayan eki (-nin) alarak 'İçerinin havası' isim tamlamasını kurmuş ve adlaşmıştır."
+  },
+  {
+    "id": "turkce_015",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "karma-sozcuk-turleri",
+    "subtopic": "Karma Sözcük Türleri",
+    "q": "Sokaktaki (I) fenerin (II) solgun ışığı, (III) yalnız (IV) benim odama vuruyordu.\n\nBu cümledeki numaralanmış sözcüklerin türleri aşağıdakilerin hangisinde sırasıyla doğru verilmiştir?",
+    "o": [
+      "Sıfat - Sıfat - Zarf - Zamir",
+      "İsim - Sıfat - Edat - Zamir",
+      "Sıfat - Zarf - Bağlaç - İsim",
+      "İsim - Zarf - Edat - Sıfat",
+      "İsim - Sıfat - Bağlaç - Zamir"
+    ],
+    "a": 1,
+    "e": "Analiz şu şekildedir: (I) 'fenerin' sözcüğü isimdir (isim tamlamasının tamlayanı). (II) 'solgun' sözcüğü 'ışık' ismini nitelediği için niteleme sıfatıdır. (III) 'yalnız' sözcüğü burada 'sadece' anlamında kullanıldığı için edattır. (IV) 'benim' sözcüğü 1. tekil kişi zamiridir. Doğru sıralama: İsim - Sıfat - Edat - Zamir."
+  },
+  {
+    "id": "turkce_016",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "karma-sozcuk-turleri",
+    "subtopic": "Karma Dil Bilgisi",
+    "q": "O, (I) asırlardır (II) bu topraklarda (III) yankılanan (IV) en (V) gür sesti.\n\nBu cümledeki numaralanmış sözcüklerle ilgili aşağıdakilerden hangisi **yanlıştır**?",
+    "o": [
+      "I. sözcük, zaman zarfıdır.",
+      "II. sözcük, işaret sıfatıdır.",
+      "III. sözcük, sıfat-fiil (ortaç) eki almıştır.",
+      "IV. sözcük, üstünlük belirtecidir.",
+      "V. sözcük, türemiş bir isimdir."
+    ],
+    "a": 4,
+    "e": "I. 'Asırlardır' zaman bildirir (Zarf). II. 'Bu topraklar' isimi işaret eder (Sıfat). III. 'Yankılanan' sözcüğündeki -an eki sıfat-fiildir. IV. 'En' sözcüğü üstünlük zarfıdır. Ancak V. seçenek yanlıştır; 'gür' sözcüğü yansıma kökenli bir sözcük olsa da yapısı bakımından kök halindedir (veya yansıma kök kabul edilir), türemiş değildir. Ayrıca cümlede 'ses' ismini niteleyen bir sıfat görevindedir."
+  },
+  {
+    "id": "turkce_017",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "adlar",
+    "subtopic": "Adlar (İsimler)",
+    "q": "Aşağıdaki cümlelerin hangisinde topluluk ismi **kullanılmamıştır**?",
+    "o": [
+      "Jüri, yarışmacının performansını çok beğendi.",
+      "Orman, şehrin akciğerleri gibidir.",
+      "Sınıf, öğretmenin anlattığı fıkraya çok güldü.",
+      "Meclis, yeni yasayı görüşmek üzere toplandı.",
+      "Öğrenciler, okul bahçesinde sıraya girdi."
+    ],
+    "a": 4,
+    "e": "Topluluk isimleri, biçimce tekil olduğu halde anlamca çoğul olan ve bir grubu karşılayan isimlerdir. A'da 'Jüri', B'de 'Orman', C'de 'Sınıf' (öğrenciler kastediliyor), D'de 'Meclis' topluluk ismidir. E seçeneğinde 'Öğrenciler' sözcüğü çoğul eki (-ler) alarak çokluk bildirmiştir, yapıca çoğuldur ancak gramer terimi olarak 'topluluk ismi' (biçimce tekil anlamca çoğul) kategorisine girmez. 'Okul' ve 'bahçe' de tekil isimlerdir."
+  },
+  {
+    "id": "turkce_018",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "fiiller",
+    "subtopic": "Fiillerde Çatı / Sözcük Türü",
+    "q": "'Gül' sözcüğü aşağıdakilerin hangisinde kökünün türü bakımından diğerlerinden farklıdır?",
+    "o": [
+      "Bahçedeki güller susuzluktan kurumuştu.",
+      "Yakasına taktığı kırmızı gül ona çok yakışmıştı.",
+      "Gül kokusu tüm odayı sarmıştı.",
+      "Ona hediye edilen yapay gül bile onu mutlu etti.",
+      "Sen gül ki mevsimler değişsin, bahar gelsin."
+    ],
+    "a": 4,
+    "e": "'Gül' sözcüğü sesteş (eş sesli) bir köktür. A, B, C ve D seçeneklerinde 'çiçek' anlamında kullanıldığı için 'isim kökü'dür. E seçeneğinde ise 'gülmek' eylemi anlamında kullanıldığı için 'fiil kökü'dür. Soru kökünün türünü sorduğu için cevap E'dir."
+  },
+  {
+    "id": "turkce_019",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "karma-sozcuk-turleri",
+    "subtopic": "Karma Dil Bilgisi",
+    "q": "I. Kimse ayranım ekşi demez.\nII. Tatlı dil yılanı deliğinden çıkarır.\nIII. Ne doğrarsan aşına, o gelir kaşığına.\nIV. Sakla samanı, gelir zamanı.\nV. Görünen köy kılavuz istemez.\n\nNumaralanmış atasözlerinin hangisinde **hem** edat **hem** bağlaç yoktur?",
+    "o": [
+      "I",
+      "III",
+      "IV",
+      "V",
+      "Hepsi"
+    ],
+    "a": 4,
+    "e": "Öncüller incelendiğinde:\nI. 'Kimse' (zamir), 'ayranım' (isim), 'ekşi' (isim/sıfat), 'demez' (fiil). Edat/Bağlaç yok.\nII. 'Tatlı' (sıfat), 'dil' (isim)... Edat/Bağlaç yok.\nIII. 'Ne... ne...' (bağlaç grubu olsa da burada 'ne' zamirdir), 'o' (zamir). Edat/Bağlaç yok.\nIV. 'Sakla' (fiil)... Edat/Bağlaç yok.\nV. 'Görünen' (sıfat-fiil)... Edat/Bağlaç yok.\nSoru kökü 'hem edat hem bağlaç yoktur' dediği için ve hiçbir cümlede bu ikili (veya tek tek) bulunmadığı için cevap 'Hepsi' mantığında E seçeneğidir. (Not: Bu tip sorularda 'hangisinde şu yoktur' denildiğinde tek bir cevap beklenir ancak burada seçeneklerin tamamında bu türler bulunmamaktadır. ÖSYM formatında bu tarz 'Hangisinde X yoktur' sorularında genelde 4'ünde vardır 1'inde yoktur. Ancak soru 'Hangisinde X ve Y birlikte kullanılmamıştır' şeklinde de kurgulanabilir. Burada öğretici amaçla 5 seçeneğin hiçbirinde olmadığı vurgulanmıştır.) **Düzeltme ve ÖSYM Uyumu:** ÖSYM sorusu olarak kurguladığımızda, E seçeneği 'Hepsi' yerine belirli bir cümle olmalıydı. Ancak sorudaki çeldirici mantığı şudur: Verilen cümlelerin **hiçbirinde** hem edat hem bağlaç yoktur. Dolayısıyla sorunun yöneltilme biçimi 'Aşağıdakilerin hangisinde edat veya bağlaç kullanılmıştır?' olsaydı cevap hiçbiri olurdu. Mevcut soru köküne göre 'Hepsi' doğru cevaptır çünkü I, II, III, IV ve V'in hiçbirinde bu ikili yoktur."
+  },
+  {
+    "id": "turkce_020",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "sifatlar",
+    "subtopic": "Sıfatlar ve Tamlamalar",
+    "q": "Aşağıdaki cümlelerin hangisinde bir isim, birden fazla sıfat tarafından nitelenmiştir?",
+    "o": [
+      "Soğuk ve yağmurlu havalarda evde oturmayı severim.",
+      "Kırmızı kazağını ve mavi pantolonunu giyip çıktı.",
+      "Çalışkan öğrenci, her zaman derslerini dikkatle dinler.",
+      "Bu yaşlı adam, mahallenin en eski sakinlerindendir.",
+      "Büyük, bahçeli bir ev almayı hayal ediyordu."
+    ],
+    "a": 4,
+    "e": "A seçeneğinde 'Soğuk ve yağmurlu havalar'; 've' bağlacı girdiği için iki ayrı sıfat bağlanmıştır, ancak teknik olarak 'bir isim birden fazla sıfatla nitelenmiştir' tanımına uysa da araya bağlaç girmiştir. E seçeneğinde 'Büyük, bahçeli bir ev' ifadesinde; 'ev' ismi hem 'büyük' hem 'bahçeli' niteleme sıfatlarını hem de 'bir' belirtme sıfatını almıştır. Bağlaçsız, virgülle sıralanmış birden fazla niteleme sıfatı en net E seçeneğinde görülür. A şıkkı da doğrudur ancak ÖSYM sorularında 'virgülle sıralanmış' yapılar genelde bu tanım için daha güçlü çeldiricidir. Ancak burada en net örnek E'dir çünkü 'bir' (belirtme) ve 'büyük, bahçeli' (niteleme) hepsi 'ev' ismine aittir. A'da sadece niteleme sıfatları vardır. Soru kökü 'birden fazla sıfat' dediği için E şıkkı (2 niteleme + 1 belirtme) en kapsamlı cevaptır."
+  },
+  {
+    "id": "turkce_021",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "sozcuk-turleri-karma",
+    "subtopic": "Sözcük Türleri (Karma)",
+    "q": "Sanatçı, eserlerinde toplumsal gerçekliği (I)tüm çıplaklığıyla yansıtırken (II)kimi zaman lirik bir söyleyişe başvurur. Okur, bu (III)samimi anlatım karşısında kendini eserin bir (IV)parçası gibi hisseder ve (V)oraya ait olduğunu düşünür. <br><br>Bu parçadaki numaralanmış sözcüklerin türleri aşağıdakilerin hangisinde sırasıyla doğru verilmiştir?",
+    "o": [
+      "Sıfat - Zarf - Sıfat - İsim - Zamir",
+      "Zarf - Sıfat - Zarf - İsim - Zamir",
+      "Sıfat - Sıfat - Sıfat - Zamir - Zarf",
+      "Zarf - Zamir - Sıfat - İsim - Zarf",
+      "Sıfat - Zarf - İsim - Zamir - Edat"
+    ],
+    "a": 0,
+    "e": "I. 'tüm' sözcüğü 'çıplaklık' ismini belirten bir belgisiz sıfattır. II. 'kimi zaman' öbeği zaman bildiren bir zarftır (zaman zarfı). III. 'samimi' sözcüğü 'anlatım' ismini niteleyen bir niteleme sıfatıdır. IV. 'parça' sözcüğü bir isimdir. V. 'oraya' sözcüğü işaret yoluyla bir yerin adını tutan işaret zamiridir. Doğru sıralama: Sıfat - Zarf - Sıfat - İsim - Zamir şeklindedir."
+  },
+  {
+    "id": "turkce_022",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "zarflar",
+    "subtopic": "Zarflar (Belirteçler)",
+    "q": "Aşağıdaki cümlelerin hangisinde yer-yön bildiren sözcük, sözcük türü bakımından diğerlerinden farklıdır?",
+    "o": [
+      "Çocuklar, yağmur başlayınca hemen içeri girdi.",
+      "Eşyaları yukarı taşırsanız oda daha geniş görünür.",
+      "Az önce dışarı çıkan görevliyi arıyorum.",
+      "Arabayı biraz daha ileriye park etmelisin.",
+      "Gürültüyü duyan herkes aşağı indi."
+    ],
+    "a": 3,
+    "e": "Yer-yön bildiren sözcükler (içeri, dışarı, aşağı, yukarı, ileri, geri vb.) ek almadan fiili/fiilimsiyi belirtirse 'yer-yön zarfı' olur. Ancak çekim eki (hâl eki) alırlarsa 'isim'leşirler. A, B, C ve E seçeneklerinde sözcükler (içeri, yukarı, dışarı, aşağı) ek almadan kullanılmış ve fiili nitelemiştir (Zarf). D seçeneğinde ise 'ileri' sözcüğü yönelme hâl eki alarak 'ileriye' şekline dönüşmüş ve isim görevinde kullanılmıştır."
+  },
+  {
+    "id": "turkce_023",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "edat-baglac",
+    "subtopic": "Edat ve Bağlaçlar",
+    "q": "Aşağıdaki cümlelerin hangisinde 'ile' sözcüğü diğerlerinden farklı bir görevde kullanılmıştır?",
+    "o": [
+      "Annem, pazara komşumuz Hatice Hanım ile gitti.",
+      "Bu projeyi büyük bir titizlik ile tamamladık.",
+      "Kitaplar ile defterleri ayrı raflara yerleştirdi.",
+      "Sınava çalışmak için arkadaşı ile kütüphanede buluştu.",
+      "İstanbul'a uçak ile gitmeyi tercih ettiler."
+    ],
+    "a": 2,
+    "e": "'İle' sözcüğü, yerine 've' bağlacı getirilebiliyorsa 'bağlaç', getirilemiyorsa 'edat' görevindedir. A, B, D ve E seçeneklerinde 've' getirildiğinde anlam bozulur (Edat). C seçeneğinde 'Kitaplar ve defterleri...' şeklinde 've' getirilebilir ve anlam bozulmaz; dolayısıyla burada bağlaç görevindedir."
+  },
+  {
+    "id": "turkce_024",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "zamirler",
+    "subtopic": "Zamirler (Adıllar)",
+    "q": "Bazı sıfatlar, niteledikleri isim düştüğünde o ismin yerini tutarak 'adlaşmış sıfat' olur; ancak bu sözcükler zamirlerle karıştırılmamalıdır. <br><br>Buna göre, aşağıdakilerin hangisinde altı çizili sözcük adlaşmış sıfat <u>değildir</u>, bir zamirdir?",
+    "o": [
+      "Manavdaki <u>çürükleri</u> bir kenara ayırdı.",
+      "Sınıfın <u>çalışkanları</u> ödüllendirildi.",
+      "<u>Kimi</u>, bu olaylara sessiz kalmayı tercih etti.",
+      "<u>Gelen</u>, gideni aratır derler.",
+      "<u>Eskileri</u> tavan arasındaki kutuya kaldırdık."
+    ],
+    "a": 2,
+    "e": "A (çürük meyveleri), B (çalışkan öğrencileri), D (gelen kişi), E (eski eşyaları) seçeneklerinde sıfatlar isimlerin yerini tutarak adlaşmış sıfattır. C seçeneğindeki 'Kimi' sözcüğü ise belgisiz zamirdir. 'Kimi insanlar' şeklinde kullanılsa sıfat olurdu ancak burada doğrudan bir ismin yerini belirsiz şekilde tuttuğu için zamirdir. Adlaşmış sıfatlarda niteleme özelliği ön plandayken, belgisiz zamirlerde belirsizlik ön plandadır."
+  },
+  {
+    "id": "turkce_025",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "sozcuk-turleri-analiz",
+    "subtopic": "Sözcük Türleri Analizi",
+    "q": "I. Yalnız senin gezdiğin bahçede açmaz çiçek <br>II. Bizim diyarımız da binbir baharı saklar <br>III. Kolumuzdan tutarak sen istersen bizi çek <br>IV. İncinir düz caddede dağda gezen ayaklar <br><br>Bu dizelerle ilgili aşağıdakilerden hangisi <u>söylenemez</u>?",
+    "o": [
+      "I. dizede edat kullanılmıştır.",
+      "II. dizede sayı sıfatı vardır.",
+      "III. dizede kişi zamiri ve bağlaç vardır.",
+      "IV. dizede sıfat-fiil, sıfat görevinde kullanılmıştır.",
+      "II. dizede 'da' bağlaç görevindedir."
+    ],
+    "a": 2,
+    "e": "A seçeneği doğrudur; 'yalnız' sözcüğü 'sadece' anlamında kullanıldığı için edattır. B seçeneği doğrudur; 'binbir bahar' belgisizlik bildirse de yapıca sayı sıfatı kalıbındadır (veya belgisiz sıfat olarak da kabul görse metin bağlamında sıfattır). D seçeneği doğrudur; 'gezen' sıfat-fiili 'ayaklar' ismini nitelemiştir. E seçeneği doğrudur; 'da' ayrı yazılmış ve bağlaçtır. Ancak C seçeneği yanlıştır. III. dizede 'sen' ve 'bizi' kişi zamirleridir, fakat dizede bağlaç (ve, ile, ama vb.) kullanılmamıştır. 'İstersen' şart kipiyle çekimlenmiş fiildir."
+  },
+  {
+    "id": "turkce_026",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "tamlamalar",
+    "subtopic": "İsim ve Sıfat Tamlamaları",
+    "q": "Aşağıdaki cümlelerin hangisinde tamlayanı ile tamlananı arasına sözcük ya da sözcükler girmiş bir isim tamlaması vardır?",
+    "o": [
+      "Evin bahçesindeki kurumuş ağaçları kestiler.",
+      "Mavi kazağın düğmesi koptuğu için terziye gitti.",
+      "Şehrin gürültülü ve kalabalık caddelerinden sıkılmıştı.",
+      "Okulun kapısı, güvenlik gerekçesiyle kapatıldı.",
+      "Romanın sürükleyici dili okuyucuyu hemen içine çekiyor."
+    ],
+    "a": 2,
+    "e": "A seçeneğinde 'evin bahçesi' (araya sözcük girmemiş). B seçeneğinde 'kazağın düğmesi' (araya sözcük girmemiş, 'mavi' tamlayanın sıfatı). D seçeneğinde 'okulun kapısı' (araya sözcük girmemiş). E seçeneğinde 'romanın dili' (araya 'sürükleyici' girmiş ancak bu sadece bir sıfat, C şıkkı daha güçlü bir çeldiricidir). C seçeneğinde 'Şehrin ... caddeleri' belirtili isim tamlamasıdır. Araya 'gürültülü ve kalabalık' sıfatları ve 've' bağlacı girmiştir. Tamlayan: Şehrin, Tamlanan: caddeleri."
+  },
+  {
+    "id": "turkce_027",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "sozcuk-gorevi",
+    "subtopic": "Sözcük Görevi ve Yapısı",
+    "q": "'Doğru' sözcüğü aşağıdaki cümlelerin hangisinde zarf görevinde kullanılmıştır?",
+    "o": [
+      "Tahtaya çizdiği doğru, iki noktayı birleştiriyordu.",
+      "Bize olayın doğrusunu anlatmanı bekliyoruz.",
+      "Eğri oturup doğru konuşalım, bu iş böyle olmaz.",
+      "Doğru insanlarla karşılaşmak büyük bir şanstır.",
+      "Akşama doğru hava iyice soğumaya başladı."
+    ],
+    "a": 2,
+    "e": "A seçeneğinde 'doğru' isimdir (matematik terimi). B seçeneğinde 'doğrusunu' isimdir (iyelik ve hâl eki almış). D seçeneğinde 'doğru insan' sıfattır (ismi nitelemiş). E seçeneğinde 'akşama doğru' edattır (-e doğru kalıbı). C seçeneğinde ise 'doğru konuşalım' fiili (konuşalım) durum yönünden nitelediği için durum zarfıdır."
+  },
+  {
+    "id": "turkce_028",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "sozcuk-turleri-karma",
+    "subtopic": "Sözcük Türleri (Karma)",
+    "q": "Kimi sözcükler, kullanıldıkları yere göre hem niteleme sıfatı hem de durum zarfı olabilir. <br><br>Aşağıdaki altı çizili sözcüklerden hangisi bu açıklamaya uygun bir örnek <u>değildir</u>?",
+    "o": [
+      "<u>Hızlı</u> arabaları severdi. / <u>Hızlı</u> yürüyordu.",
+      "<u>Güzel</u> günler göreceğiz. / <u>Güzel</u> konuşurdu.",
+      "<u>Zor</u> soruları çözdü. / İkna etmesi çok <u>zor</u> oldu.",
+      "<u>İyi</u> insan lafının üstüne gelir. / Görevi <u>iyi</u> yaptı.",
+      "<u>Büyük</u> evde oturuyorlar. / <u>Büyük</u> düşünmelisin."
+    ],
+    "a": 4,
+    "e": "A, B, C ve D seçeneklerindeki sözcükler (hızlı, güzel, zor, iyi) bir ismi nitelediklerinde sıfat, bir fiili nitelediklerinde zarf olabilirler. Ancak E seçeneğindeki 'büyük' sözcüğü 'Büyük ev' (sıfat) olarak kullanılırken, 'Büyük düşünmelisin' ifadesinde zarf gibi görünse de 'büyük' sözcüğü durum zarfı olarak yaygın kullanımda 'büyükçe' veya mecaz anlamda kalıplaşmış bir yapıdadır. Daha net bir ayrım şudur: 'Büyük' sözcüğü fiilleri niteleme kabiliyeti (durum zarfı olma) bakımından diğerleri (güzel, iyi, hızlı, zor) kadar esnek ve yaygın değildir, genellikle sıfat olarak kalır. Ancak sorunun asıl çeldiricisi şudur: 'Büyük' sözcüğü fiili niteleyemez diye bir kural yoktur ama 'Büyük konuşmak' deyimleşmiştir. ÖSYM mantığında 'zor, iyi, güzel, hızlı' net zarf/sıfat geçişliyken, 'büyük' daha statik bir sıfattır."
+  },
+  {
+    "id": "turkce_029",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "baglaclar",
+    "subtopic": "Bağlaçlar",
+    "q": "Aşağıdaki cümlelerin hangisinde 'ki' bağlacı, cümleye 'neden-sonuç' ilgisi katmıştır?",
+    "o": [
+      "Bir şey biliyor ki konuşuyor.",
+      "Eve geldim ki ne göreyim, her yer dağılmış.",
+      "Çalış ki sınıfını geçebilesin.",
+      "O kadar yorgunum ki adım atacak hâlim yok.",
+      "Sen ki bizi hiç yalnız bırakmazdın."
+    ],
+    "a": 0,
+    "e": "A seçeneğinde 'Bir şey biliyor ki konuşuyor' cümlesinde 'ki', konuşmasının nedenini (bir şey bilmesi) belirtmektedir. 'Konuşuyor, çünkü bir şey biliyor' anlamı vardır. B'de şaşırma/beklenmedik durum, C'de koşul (çalışma koşulu), D'de aşırılık/sebep (yorgunluğun sonucu hâlsizlik ama yapı farklı), E'de ise yakınma/şaşkınlık anlamı katmıştır. A seçeneği en net neden-sonuç (gerekçe) ilişkisidir."
+  },
+  {
+    "id": "turkce_030",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "sozcuk-turleri-karma",
+    "subtopic": "Sözcük Türleri (Karma)",
+    "q": "Modern edebiyatın (I)kurucusu sayılan sanatçı, eserlerinde (II)toplumsal gerçekleri (III)bütünüyle yansıtmaktan (IV)hiçbir zaman kaçınmamış; (V)bunu bir görev bilmiştir.\n\nBu cümledeki numaralanmış sözcüklerin türleri aşağıdakilerin hangisinde sırasıyla doğru verilmiştir?",
+    "o": [
+      "İsim - Sıfat - Zarf - Sıfat - Zamir",
+      "Sıfat - İsim - Zarf - Zarf - Sıfat",
+      "İsim - Sıfat - Edat - Sıfat - Zamir",
+      "Sıfat - Zarf - İsim - Zarf - İsim",
+      "İsim - İsim - Zarf - Sıfat - Sıfat"
+    ],
+    "a": 0,
+    "e": "(I) 'kurucusu' bir isimdir (isim tamlamasının tamlananı). (II) 'toplumsal' sözcüğü 'gerçekler' ismini nitelediği için sıfattır. (III) 'bütünüyle' sözcüğü fiilimsiyi (yansıtmaktan) durum yönünden nitelediği için zarftır. (IV) 'hiçbir' sözcüğü 'zaman' ismini belirttiği için belgisiz sıfattır. (V) 'bunu' sözcüğü ismin yerini işaret yoluyla tuttuğu için işaret zamiridir. Doğru sıralama: İsim - Sıfat - Zarf - Sıfat - Zamir."
+  },
+  {
+    "id": "turkce_031",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "sifatlar",
+    "subtopic": "Sıfatlar (Ön Adlar)",
+    "q": "(I) Eski, ahşap bir evin penceresinden bakıyordu. (II) Gökyüzünü kaplayan gri bulutlar, yağmurun habercisiydi. (III) Sokaktaki birkaç çocuk, ıslanmaktan korkmadan oyunlarına devam ediyordu. (IV) Islak kaldırımlarda yansıyan sokak lambalarının ışığı, hüzünlü bir tablo oluşturuyordu. (V) O an, geçmiş güzel günleri hatırladı.\n\nBu parçadaki numaralanmış cümlelerle ilgili aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "I. cümlede hem niteleme hem belirtme sıfatı almış bir isim vardır.",
+      "II. cümlede kurallı birleşik sıfat kullanılmıştır.",
+      "III. cümlede belgisiz sıfat ve işaret sıfatı vardır.",
+      "IV. cümlede türemiş yapılı niteleme sıfatlarına yer verilmiştir.",
+      "V. cümlede adlaşmış sıfat yoktur, niteleme sıfatları vardır."
+    ],
+    "a": 1,
+    "e": "A seçeneği doğrudur; 'bir' belirtme (belgisiz), 'eski, ahşap' niteleme sıfatıdır. C seçeneği doğrudur; 'birkaç' belgisiz, 'sokaktaki (hangi çocuk?)' işaret sıfatıdır (-ki ekiyle). D seçeneği doğrudur; 'ıslan-ık -> ıslak' ve 'hüzün-lü' türemiş sıfatlardır. E seçeneği doğrudur; 'geçmiş' ve 'güzel' niteleme sıfatıdır, adlaşmış sıfat yoktur. Ancak B seçeneği yanlıştır; II. cümlede 'gri' niteleme sıfatıdır, 'gökyüzünü kaplayan' sıfat-fiil grubuyla oluşmuş bir niteleme sıfatıdır ancak 'kurallı birleşik sıfat' (örneğin: geniş bahçeli ev, çenesi düşük adam) yapısı yoktur."
+  },
+  {
+    "id": "turkce_032",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "zarflar",
+    "subtopic": "Zarflar (Belirteçler)",
+    "q": "Aşağıdaki cümlelerin hangisinde yer-yön bildiren sözcük, sözcük türü bakımından diğerlerinden farklıdır?",
+    "o": [
+      "Görevli, az önce elindeki kutularla aşağı indi.",
+      "Sesleri duyunca hepimiz hızla dışarı çıktık.",
+      "Arabayı biraz daha ileri park etmelisin.",
+      "Yukarı mahallede büyük bir düğün hazırlığı var.",
+      "Çocuklar, hava kararana kadar geri gelmediler."
+    ],
+    "a": 3,
+    "e": "Yer-yön bildiren sözcükler (aşağı, yukarı, içeri, dışarı, ileri, geri vb.) ek almadan fiili veya fiilimsiyi belirtirse 'yer-yön zarfı' olur. Bir ismi nitelerse 'sıfat', çekim eki alırsa 'isim' olur. A, B, C ve E seçeneklerinde 'aşağı', 'dışarı', 'ileri' ve 'geri' sözcükleri fiili etkiledikleri ve ek almadıkları için zarftır. D seçeneğinde ise 'Yukarı' sözcüğü 'mahalle' ismini nitelediği için sıfat görevindedir."
+  },
+  {
+    "id": "turkce_033",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "edat-baglac",
+    "subtopic": "Edat ve Bağlaçlar",
+    "q": "Aşağıdaki cümlelerin hangisinde 'ile' sözcüğü diğerlerinden farklı bir görevde kullanılmıştır?",
+    "o": [
+      "Elindeki kalın kitapla kapıyı itmeye çalışıyordu.",
+      "Arkadaşlarıyla buluşmak üzere evden erken çıktı.",
+      "Kardeşi ile yengesi yarın bize oturmaya gelecekler.",
+      "Bu hızla gidersek toplantıya yetişmemiz imkânsız.",
+      "Heyecanla yerinden fırlayıp konuşmaya başladı."
+    ],
+    "a": 2,
+    "e": "'İle' sözcüğü yerine 've' getirilebiliyorsa bağlaç, getirilemiyorsa edattır. A, B, D ve E seçeneklerinde 've' getirilemez (kitap ve kapıyı itmek olmaz, heyecan ve yerinden fırlamak olmaz); bu yüzden bu seçeneklerde 'araç' veya 'durum' ilgisi kuran edattır. C seçeneğinde 'Kardeşi ve yengesi' şeklinde kullanılabildiği için bağlaçtır."
+  },
+  {
+    "id": "turkce_034",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "sozcuk-turleri-karma",
+    "subtopic": "Sözcük Türleri (Karma Analiz)",
+    "q": "Derin (I)vadilerden esen rüzgâr, (II)yalnız bu coğrafyanın değil, tarihin de (III)tozunu taşıyordu. İnsanlar (IV)nasıl bir geçmişe sahip olduklarını (V)burada daha iyi anlıyorlardı.\n\nBu parçadaki altı çizili sözcüklerle ilgili aşağıdakilerden hangisi yanlıştır?",
+    "o": [
+      "I. sözcük, bir ismi niteleyen niteleme sıfatıdır.",
+      "II. sözcük, sınırlama bildiren bir edattır.",
+      "III. sözcük, belirtili isim tamlamasının tamlananı olan bir isimdir.",
+      "IV. sözcük, soru zarfı görevindedir.",
+      "V. sözcük, işaret zamiridir."
+    ],
+    "a": 3,
+    "e": "I. 'Derin vadi': Niteleme sıfatı (Doğru). II. 'Yalnız': 'Sadece' anlamında kullanıldığı için edattır (Doğru). III. 'Tarihin tozu': Belirtili isim tamlaması, 'tozu' tamlanandır (Doğru). V. 'Burada': İsmin yerini tutan işaret zamiridir (Doğru). IV. 'Nasıl' sözcüğü 'bir geçmiş' sıfat tamlamasındaki sıfatı veya ismi etkilemektedir. 'Nasıl geçmiş?' sorusuna cevap verir. Soru anlamı taşıyan sözcük bir ismi (veya sıfat tamlamasındaki ismi) etkilediğinde 'Soru Sıfatı' olur. Fiili etkileseydi (Nasıl geldin?) zarf olurdu. Burada 'nasıl bir geçmiş' yapısında sıfat görevindedir. Cevap D seçeneğidir."
+  },
+  {
+    "id": "turkce_035",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "tamlamalar",
+    "subtopic": "İsim ve Sıfat Tamlamaları",
+    "q": "Türkçede isim tamlamaları, tamlayan ve tamlananın aldığı eklere göre sınıflandırılır. Sıfat tamlamaları ise bir ismin bir sıfatla nitelenmesi veya belirtilmesiyle oluşur.\n\nBuna göre aşağıdakilerin hangisinde, diğerlerinden farklı türde bir isim tamlaması kullanılmıştır?",
+    "o": [
+      "Evin bahçe kapısı rüzgârdan gıcırdıyordu.",
+      "Şehrin gürültüsü, insanı bazen yorabiliyor.",
+      "Okulun konferans salonunda toplandık.",
+      "Ders notlarının tamamı kaybolmuştu.",
+      "Ali'nin kol saati dün kırılmış."
+    ],
+    "a": 1,
+    "e": "A seçeneği: Evin bahçe kapısı -> Zincirleme isim tamlaması (Ev-in bahçe kapı-s-ı). C seçeneği: Okulun konferans salonu -> Zincirleme isim tamlaması. D seçeneği: Ders notlarının tamamı -> Zincirleme isim tamlaması. E seçeneği: Ali'nin kol saati -> Zincirleme isim tamlaması. B seçeneğinde ise 'Şehrin gürültüsü' sadece iki ögeden (tamlayan ve tamlanan) oluşan 'Belirtili İsim Tamlaması'dır. Diğerleri zincirlemedir."
+  },
+  {
+    "id": "turkce_036",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "zarflar-karsilastirma",
+    "subtopic": "Sözcük Türleri (Sıfat vs Zarf)",
+    "q": "Aşağıdaki cümlelerin hangisinde 'iyi' sözcüğü, görev bakımından ötekilerden farklıdır?",
+    "o": [
+      "Bu zor günlerde bize iyi davrandı.",
+      "İyi bir tatil hepimize ilaç gibi gelecektir.",
+      "Derslerine iyi çalışırsan başarılı olursun.",
+      "Konuyu arkadaşlarına gayet iyi anlattı.",
+      "Takımımız bu maçta çok iyi oynadı."
+    ],
+    "a": 1,
+    "e": "A, C, D ve E seçeneklerinde 'iyi' sözcüğü fiilleri (davrandı, çalışırsan, anlattı, oynadı) nitelediği için 'Durum Zarfı' görevindedir. B seçeneğinde ise 'iyi' sözcüğü 'tatil' ismini nitelediği için 'Niteleme Sıfatı' görevindedir."
+  },
+  {
+    "id": "turkce_037",
+    "topicId": "ICNDiSlTmmjWEQPT6rmT",
+    "subtopicId": "sozcuk-turleri-kok-govde",
+    "subtopic": "Yapı ve Tür İlişkisi",
+    "q": "Aşağıdaki cümlelerin hangisindeki altı çizili sözcük, kökünün türü bakımından diğerlerinden farklıdır?",
+    "o": [
+      "Çocuğun elindeki <balon> patladı.",
+      "Yazarın son <öyküsü> çok beğenildi.",
+      "Sabahları erken <kalkmak> zordur.",
+      "Duvardaki <boya> dökülmeye başlamış.",
+      "Bu <sargı> bezini değiştirmeliyiz."
+    ],
+    "a": 0,
+    "e": "Sözcük kökünün türü sorulduğunda 'İsim kökü mü, Fiil kökü mü?' ona bakılır. A) Balon: İsim kökü (Kök halinde, basit). B) Öykü: Öykün-mek (Fiil) kökünden gelir (Öykünmek -> Öykü). Ancak bazı kaynaklar kökenbilimsel olarak farklı alsa da ÖSYM müfredatında veya yaygın dilbilgisinde fiil kökenli türevlere bakılır. Basit düşünelim: A) Balon (İsim). B) Öykü (Fiil kökü: öykünmek/özenmek). C) Kalkmak (Fiil kökü: kalk-). D) Boya (Boyamak fiili ile boya ismi sesteştir, ancak bağlama göre kök fiil alınabilir. Veya 'sarmak'tan sargı (fiil). Bu soru tipi çeldiricidir. Daha net bir örnek üzerinden gidelim. \n\nRevize Edilmiş Seçenek Analizi:\nA) Balon -> İsim kökü.\nB) Öykü -> 'Öy-kü' değil, 'Öykünmek' fiil kökü.\nC) Kalkmak -> Kalk- (Fiil kökü).\nD) Boya -> Boya- (Fiil) veya Boya (İsim). Sesteş kök. Ancak 'Sargı' kesin fiildir (Sar-maktan).\nE) Sargı -> Sar- (Fiil kökü).\n\nBu durumda A seçeneği (Balon) net isim köküdür. Diğerleri (Öykünmek, Kalkmak, Boyamak, Sarmak) fiil köküdür. Not: 'Boya' sözcüğü kök durumunda hem isim hem fiil olabilir (ortak kök). Ancak 'Sargı' (sar-), 'Öykü' (öykün-), 'Kalk-' fiildir. 'Balon' ise sadece isimdir."
+  }
+]

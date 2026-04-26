@@ -1,0 +1,542 @@
+[
+  {
+    "question": "Öznel Yargı nedir?",
+    "answer": "Kişisel görüş bildiren, kanıtlanamayan yargılar",
+    "additionalInfo": "\"Burası dünyanın en güzel şehri.\"",
+    "_part": 1
+  },
+  {
+    "question": "Nesnel Yargı nedir?",
+    "answer": "Herkes için aynı olan, kanıtlanabilir yargılar",
+    "additionalInfo": "\"Türkiye'nin başkenti Ankara'dır.\"",
+    "_part": 2
+  },
+  {
+    "question": "Neden-Sonuç (Sebep-Sonuç) İlişkisi",
+    "answer": "Eylemin gerçekleşmesi bir nedene bağlıdır (Eylem gerçekleşmiştir)",
+    "additionalInfo": "\"Yağmur yağdığı için ıslandım.\" (Yağmur yağmış, o da ıslanmış).",
+    "_part": 3
+  },
+  {
+    "question": "Amaç-Sonuç İlişkisi",
+    "answer": "Eylemin gerçekleşmesi bir amaca bağlıdır (Amaç henüz gerçekleşmemiş olabilir)",
+    "additionalInfo": "\"Seni görmek için geldim.\" (Görmüş mü bilmiyoruz, amacı bu). \"Kilo vermek için spor yapıyor.\"",
+    "_part": 4
+  },
+  {
+    "question": "Koşul-Sonuç (Şart-Sonuç) İlişkisi",
+    "answer": "Eylemin gerçekleşmesi bir şarta bağlıdır",
+    "additionalInfo": "\"Çalışırsan başarılı olursun.\" (Başarı çalışmaya bağlı).",
+    "_part": 5
+  },
+  {
+    "question": "Karşılaştırma Cümlesi",
+    "answer": "En az iki varlığın veya kavramın kıyaslanması",
+    "additionalInfo": "\"En\", \"daha\", \"kadar\" gibi kelimeler kullanılır. \"Sen ondan daha uzunsun.\"",
+    "_part": 6
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Tanım cümlesi nedir?",
+    "answer": "Bir kavramın ne olduğunu açıklayan, 'nedir?' sorusuna cevap veren cümlelerdir.",
+    "additionalInfo": "...-dır/-dir ekleriyle biter.",
+    "id": "flash_003",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "question": "İçerik (Muhteva) Cümlesi nedir?",
+    "answer": "Eserin konusunu anlatan cümle",
+    "additionalInfo": "\"Yazar bu romanda köy hayatını anlatıyor.\"",
+    "_part": 8
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Üslup (biçem) cümlesi nedir?",
+    "answer": "Yazarın dili nasıl kullandığını, anlatım tarzını belirten yargılardır.",
+    "additionalInfo": "Nasıl anlatıyor? sorusuna cevap verir.",
+    "id": "flash_025",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "question": "Ön Yargı (Peşin Hüküm) Cümlesi",
+    "answer": "Bir olay olmadan sonucu hakkında fikir yürütmek",
+    "additionalInfo": "\"Bu çocuk adam olmaz.\", \"Bu sınavı kesin kazanacak.\"",
+    "_part": 10
+  },
+  {
+    "question": "Varsayım Cümlesi",
+    "answer": "Olmayan bir şeyi olmuş gibi kabul etmek",
+    "additionalInfo": "\"Tut ki\", \"Diyelim ki\", \"Farz et ki\" ifadeleri kullanılır.",
+    "_part": 11
+  },
+  {
+    "question": "Hayıflanma Cümlesi",
+    "answer": "Yapılmayan bir işten dolayı duyulan üzüntü",
+    "additionalInfo": "\"Keşke o gün oraya gitmeseydim.\" değil, \"Keşke gitseydim.\" (Yapmamış). Yapılan işten pişmanlık ise \"Pişmanlık\" cümlesidir.",
+    "_part": 12
+  },
+  {
+    "question": "Sitem Cümlesi",
+    "answer": "Bir kimseye kırgınlığını, üzüntüsünü nazikçe belirtmek",
+    "additionalInfo": "\"Buralara kadar gelip de beni görmeden gittin.\"",
+    "_part": 13
+  },
+  {
+    "question": "Doğrudan Anlatım Cümlesi",
+    "answer": "Başkasının sözünü olduğu gibi aktaran cümle",
+    "additionalInfo": "\"Ali: 'Yarın geliyorum.' dedi.\"",
+    "_part": 14
+  },
+  {
+    "question": "Dolaylı Anlatım Cümlesi",
+    "answer": "Başkasının sözünü değiştirerek aktaran cümle",
+    "additionalInfo": "\"Ali yarın geleceğini söyledi.\"",
+    "_part": 15
+  },
+  {
+    "question": "Kinayeli Anlatım (Dokundurma)",
+    "answer": "Sözün tersini kastederek alay etme",
+    "additionalInfo": "\"O kadar zeki ki 2+2'yi bile zar zor buluyor.\"",
+    "_part": 16
+  },
+  {
+    "question": "Aşamalı Durum Bildiren Cümle",
+    "answer": "Bir olayın giderek (zamanla) değiştiğini anlatan cümle",
+    "additionalInfo": "\"Hava gittikçe kararıyor.\", \"Hasta günden güne iyileşiyor.\"",
+    "_part": 17
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Nesnel cümle nedir?",
+    "answer": "Doğruluğu veya yanlışlığı kişiden kişiye değişmeyen, kanıtlanabilir yargılar içeren cümlelerdir.",
+    "additionalInfo": "Bilimsel veriler ve istatistikler nesneldir.",
+    "id": "flash_001",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Öznel cümle nedir?",
+    "answer": "Kişisel görüş, beğeni veya yorum içeren, kanıtlanamayan yargılardır.",
+    "additionalInfo": "Bence, bana göre gibi ifadeler içerir.",
+    "id": "flash_002",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Doğrudan anlatım nedir?",
+    "answer": "Bir başkasının sözünü hiç değiştirmeden aktarmaktır.",
+    "additionalInfo": "Genellikle tırnak içinde verilir.",
+    "id": "flash_004",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Dolaylı anlatım nedir?",
+    "answer": "Bir başkasının sözünü, kendi cümlelerimizle değiştirerek aktarmaktır.",
+    "additionalInfo": "Genellikle 'belirtti, söyledi' şeklinde biter.",
+    "id": "flash_005",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Karşılaştırma cümlesi nedir?",
+    "answer": "İki veya daha fazla varlığı, durumu veya kavramı benzerlik ya da farklılık yönünden kıyaslamaktır.",
+    "additionalInfo": "En, daha, kadar, ise gibi sözcükler kullanılır.",
+    "id": "flash_006",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Ön yargı cümlesi nedir?",
+    "answer": "Bir kişi veya olayla ilgili, gerçekleşmeden önce edinilen olumlu veya olumsuz peşin hükümdür.",
+    "additionalInfo": "Kesinlik bildiren beklentilerdir.",
+    "id": "flash_007",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Varsayım cümlesi nedir?",
+    "answer": "Gerçekleşmemiş bir durumu gerçekleşmiş gibi kabul etmektir.",
+    "additionalInfo": "Diyelim ki, tut ki, farz et ki kalıpları kullanılır.",
+    "id": "flash_008",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Olasılık (ihtimal) cümlesi nedir?",
+    "answer": "Bir durumun gerçekleşme ihtimalinin bulunduğu cümlelerdir.",
+    "additionalInfo": "Belki, sanırım, olabilir gibi ifadeler içerir.",
+    "id": "flash_009",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Eleştiri cümlesi nedir?",
+    "answer": "Bir eser, kişi veya durumun doğru veya yanlış yönlerini belirten yargılardır.",
+    "additionalInfo": "Hem olumlu hem olumsuz olabilir.",
+    "id": "flash_010",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Öz eleştiri cümlesi nedir?",
+    "answer": "Kişinin kendi davranışlarını veya yaptıklarını değerlendirip eleştirmesidir.",
+    "additionalInfo": "Öznesi 'ben'dir.",
+    "id": "flash_011",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Sitem cümlesi nedir?",
+    "answer": "Bir kimseye karşı duyulan kırgınlığın, üzüntünün dile getirilmesidir.",
+    "additionalInfo": "Yüz yüze ifade edilir.",
+    "id": "flash_012",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Yakınma cümlesi nedir?",
+    "answer": "Bir durumdan duyulan rahatsızlığın (genellikle üçüncü kişilere) dile getirilmesidir.",
+    "additionalInfo": "Sitemden farkı genelde başkasına şikayet etmektir.",
+    "id": "flash_013",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Hayiflanma cümlesi nedir?",
+    "answer": "Kaçırılan bir fırsatın üzüntüsünü dile getiren cümlelerdir.",
+    "additionalInfo": "Keşke kelimesi sık kullanılır.",
+    "id": "flash_014",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Pişmanlık cümlesi nedir?",
+    "answer": "Yapılan bir hatadan dolayı duyulan üzüntüdür.",
+    "additionalInfo": "Kendi yaptığımız bir eylem söz konusudur.",
+    "id": "flash_015",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Beğeni cümlesi nedir?",
+    "answer": "Bir duruma veya esere karşı duyulan memnuniyet ve takdirin ifadesidir.",
+    "additionalInfo": "Olumlu bir yargı bildirir.",
+    "id": "flash_016",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Tahmin cümlesi nedir?",
+    "answer": "Akla veya verilere dayanarak gelecekle veya bilinmeyenle ilgili fikir yürütmektir.",
+    "additionalInfo": "Olasılıktan farkı 'kanıt'a dayanmasıdır.",
+    "id": "flash_017",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Öneri cümlesi nedir?",
+    "answer": "Bir sorunu çözmek veya bir amaca ulaşmak için sunulan görüşlerdir.",
+    "additionalInfo": "Daha iyiye ulaşmayı hedefler.",
+    "id": "flash_018",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Tasarım cümlesi nedir?",
+    "answer": "Gelecekte yapılması planlanan bir işin veya projenin ifade edilmesidir.",
+    "additionalInfo": "Henüz yapılmamıştır.",
+    "id": "flash_019",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Azımsama cümlesi nedir?",
+    "answer": "Bir şeyin miktarını az bulma, yetersiz görme anlamıdır.",
+    "additionalInfo": "Nicelik (sayısal) bir durum söz konusudur.",
+    "id": "flash_020",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Küçümseme cümlesi nedir?",
+    "answer": "Bir kişiyi veya durumu önemsememe, alaya alma anlamıdır.",
+    "additionalInfo": "Niteliksel bir değer düşürme vardır.",
+    "id": "flash_021",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Neden-sonuç cümlesi nedir?",
+    "answer": "Bir eylemin gerçekleşme gerekçesinin belirtildiği cümlelerdir.",
+    "additionalInfo": "Dı için, -den dolayı bağlaçları kullanılır.",
+    "id": "flash_022",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Amaç-sonuç cümlesi nedir?",
+    "answer": "Eylemin hangi hedefe yönelik yapıldığını belirten cümlelerdir.",
+    "additionalInfo": "İçin yerine 'amacıyla' kelimesi getirilebilir.",
+    "id": "flash_023",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Koşul-sonuç cümlesi nedir?",
+    "answer": "Bir eylemin gerçekleşmesinin başka bir eyleme bağlı olduğu cümlelerdir.",
+    "additionalInfo": "-se/-sa şart eki veya 'üzere' kullanılır.",
+    "id": "flash_024",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "İçerik (konu) cümlesi nedir?",
+    "answer": "Bir eserde ne anlatıldığını belirten yargılardır.",
+    "additionalInfo": "Ne anlatılıyor? sorusuna cevap verir.",
+    "id": "flash_026",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Aşamalı durum bildiren cümle nedir?",
+    "answer": "Bir durumun giderek değiştiğini belirten cümlelerdir.",
+    "additionalInfo": "Gittikçe, her geçen gün gibi ifadeler olur.",
+    "id": "flash_027",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Kanıtlanabilirlik bakımından cümleler kaça ayrılır?",
+    "answer": "İkiye ayrılır: Öznel ve Nesnel cümleler.",
+    "additionalInfo": "Sınavlarda en temel ayrım budur.",
+    "id": "flash_028",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Abartma nedir?",
+    "answer": "Bir şeyi olduğundan çok daha büyük veya çok daha küçük göstermektir.",
+    "additionalInfo": "Mübalağa sanatıdır.",
+    "id": "flash_029",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Tanıksama nedir?",
+    "answer": "Bir düşünceyi kanıtlamak için o alanda uzman birinin sözüne yer vermektir.",
+    "additionalInfo": "Alıntılama ile karıştırılmamalıdır.",
+    "id": "flash_030",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Eş anlamlı cümle ne demektir?",
+    "answer": "Farklı sözcüklerle aynı anlamı taşıyan cümlelerdir.",
+    "additionalInfo": "Duygu ve düşünce aynıdır.",
+    "id": "flash_031",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Çelişkili cümle ne demektir?",
+    "answer": "Aynı cümlede veya metinde birbirine zıt yargıların bulunmasıdır.",
+    "additionalInfo": "Mantık hatası içerir.",
+    "id": "flash_032",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Doğrudan anlatımda tırnak işareti kullanımı zorunlu mudur?",
+    "answer": "Hayır, tırnak işareti yerine virgül de kullanılabilir.",
+    "additionalInfo": "Sözden sonra virgül konur.",
+    "id": "flash_033",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Genelleme cümlesi nedir?",
+    "answer": "Özel bir durumdan yola çıkarak genel bir yargıya varmaktır.",
+    "additionalInfo": "Tümevarım mantığı işler.",
+    "id": "flash_034",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Karşıtlık (tezat) nedir?",
+    "answer": "Bir cümlede zıt kavramların bir arada kullanılmasıdır.",
+    "additionalInfo": "Ağlarım hatıra geldikçe güldüklerim.",
+    "id": "flash_035",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Deyimsel anlatım nedir?",
+    "answer": "Cümlede kalıplaşmış söz öbeklerinin (deyimlerin) kullanılmasıdır.",
+    "additionalInfo": "Anlatımı zenginleştirir.",
+    "id": "flash_036",
+    "_part": 51,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Yalınlık nedir?",
+    "answer": "Cümlenin süsten, özentiden uzak ve sade olmasıdır.",
+    "additionalInfo": "Söz sanatlarına yer verilmez.",
+    "id": "flash_037",
+    "_part": 52,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Duruluk nedir?",
+    "answer": "Cümlede gereksiz sözcük kullanılmamasıdır.",
+    "additionalInfo": "Çıkarıldığında anlam bozulmuyorsa o sözcük gereksizdir.",
+    "id": "flash_038",
+    "_part": 53,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Akıcılık nedir?",
+    "answer": "Okumayı zorlaştıran kelimelerin bulunmaması, anlatımın rahat olmasıdır.",
+    "additionalInfo": "Söylenişi kolay olan cümlelerdir.",
+    "id": "flash_039",
+    "_part": 54,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Özlülük (yoğunluk) nedir?",
+    "answer": "Az sözle çok şey anlatma sanatıdır.",
+    "additionalInfo": "Atasözleri tam bir özlülük örneğidir.",
+    "id": "flash_040",
+    "_part": 55,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Tutarlılık nedir?",
+    "answer": "Cümledeki yargıların birbirini desteklemesi, mantıksal olmasıdır.",
+    "additionalInfo": "Çelişki içermez.",
+    "id": "flash_041",
+    "_part": 56,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Doğallık nedir?",
+    "answer": "Anlatımın samimi, yapmacıksız ve içten olmasıdır.",
+    "additionalInfo": "Olduğu gibi aktarılır.",
+    "id": "flash_042",
+    "_part": 57,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Özgünlük nedir?",
+    "answer": "Anlatımın başkasına benzememesi, kendine has olmasıdır.",
+    "additionalInfo": "Yenilikçilikle ilgilidir.",
+    "id": "flash_043",
+    "_part": 58,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Evrensellik nedir?",
+    "answer": "Tüm insanlığa hitap edebilecek nitelikte olmasıdır.",
+    "additionalInfo": "Konu herkesi ilgilendirir.",
+    "id": "flash_044",
+    "_part": 59,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Ulusal (Yerellik) nedir?",
+    "answer": "Kendi toplumuna, kültürüne ait özellikleri yansıtmasıdır.",
+    "additionalInfo": "Yöresel unsurlar taşır.",
+    "id": "flash_045",
+    "_part": 60,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Kalıplaşmış ifadeler neyi etkiler?",
+    "answer": "Cümlenin anlamını değil, anlatım biçimini belirler.",
+    "additionalInfo": "Özellikle soru köklerinde sık kullanılır.",
+    "id": "flash_046",
+    "_part": 61,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Hangi cümleler 'neden' sorusuna cevap vermez?",
+    "answer": "Amaç-sonuç cümleleri.",
+    "additionalInfo": "Amaç-sonuçta 'niçin' sorusu sorulmaz, 'hangi amaçla' sorusu sorulur.",
+    "id": "flash_047",
+    "_part": 62,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Bir cümlede 'için' kelimesi hem amaç hem neden bildiriyorsa nasıl ayırt edilir?",
+    "answer": "Yerine 'amacıyla' getirilebiliyorsa amaç, 'nedeniyle' getirilebiliyorsa neden-sonuçtur.",
+    "additionalInfo": "Yerine koyma testi en sağlıklısıdır.",
+    "id": "flash_048",
+    "_part": 63,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Soru cümleleri her zaman soru mu sorar?",
+    "answer": "Hayır, bazen sözde soru cümlesi olarak kullanılır.",
+    "additionalInfo": "Cevap beklemez, duyguyu pekiştirir.",
+    "id": "flash_049",
+    "_part": 64,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  },
+  {
+    "topicId": "cumlede_anlam",
+    "question": "Cümle anlamı sorularında en önemli ipucu nedir?",
+    "answer": "Soru kökünü doğru okumak ve yüklemin bildirdiği yargıyı analiz etmektir.",
+    "additionalInfo": "Önce soru kökünü okuyun.",
+    "id": "flash_050",
+    "_part": 65,
+    "_generatedAt": "2026-04-12T17:22:28.888Z"
+  }
+]

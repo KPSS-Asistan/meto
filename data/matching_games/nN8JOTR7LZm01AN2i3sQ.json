@@ -1,0 +1,162 @@
+[
+  {
+    "topicId": "paragraf_anlam_001",
+    "question": "Ana Düşünce",
+    "answer": "Yazarın okura vermek istediği temel ileti",
+    "id": "match_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_002",
+    "question": "Yardımcı Düşünce",
+    "answer": "Ana düşünceyi destekleyen yan yargılar",
+    "id": "match_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_003",
+    "question": "Konu",
+    "answer": "Metinde üzerinde durulan olay, durum veya kavram",
+    "id": "match_3",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_004",
+    "question": "Başlık",
+    "answer": "Metnin tamamını kapsayan en özlü ifade",
+    "id": "match_4",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_005",
+    "question": "Betimleme",
+    "answer": "Varlıkların zihinde canlanacak şekilde anlatılması",
+    "id": "match_5",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_006",
+    "question": "Öyküleme",
+    "answer": "Bir olayın yer, zaman ve kişi bağlamında anlatılması",
+    "id": "match_6",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_007",
+    "question": "Açıklama",
+    "answer": "Bilgi vermek amacıyla oluşturulan nesnel anlatım",
+    "id": "match_7",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_008",
+    "question": "Tartışma",
+    "answer": "Bir görüşü çürütmek veya savunmak için yazılan metin",
+    "id": "match_8",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_009",
+    "question": "Tanımlama",
+    "answer": "Bir kavramın ne olduğunun açıklanması",
+    "id": "match_9",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_010",
+    "question": "Karşılaştırma",
+    "answer": "İki varlık veya kavramın ortak ya da farklı yönleri",
+    "id": "match_10",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_011",
+    "question": "Örneklendirme",
+    "answer": "Soyut bir düşünceyi somutlaştırmak için verilen örnekler",
+    "id": "match_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_012",
+    "question": "Tanık Gösterme",
+    "answer": "Düşünceyi kanıtlamak için ünlü birinin sözüne yer verme",
+    "id": "match_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_013",
+    "question": "Sayısal Verilerden Yararlanma",
+    "answer": "İstatistiksel bilgilerin kanıt olarak sunulması",
+    "id": "match_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_014",
+    "question": "Benzetme",
+    "answer": "Aralarında ilgi bulunan iki şeyden zayıf olanı güçlüye benzetme",
+    "id": "match_14",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_015",
+    "question": "��znel Anlatım",
+    "answer": "Kişisel görüş ve yorumlara dayalı anlatım",
+    "id": "match_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_016",
+    "question": "Nesnel Anlatım",
+    "answer": "Kanıtlanabilir ve kişiden kişiye değişmeyen anlatım",
+    "id": "match_16",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_017",
+    "question": "Duyularla İlgili Ayrıntı",
+    "answer": "Görme, işitme, tatma, dokunma veya koklama verileri",
+    "id": "match_17",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_018",
+    "question": "Paragrafın Yapısı",
+    "answer": "Giriş, gelişme ve sonuç bölümlerinden oluşan düzen",
+    "id": "match_18",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_019",
+    "question": "İçerik",
+    "answer": "Metinde ne anlatıldığı",
+    "id": "match_19",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  },
+  {
+    "topicId": "paragraf_anlam_020",
+    "question": "Üslup",
+    "answer": "Yazarın dili kullanma biçimi ve anlatım tarzı",
+    "id": "match_20",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:41:53.372Z"
+  }
+]

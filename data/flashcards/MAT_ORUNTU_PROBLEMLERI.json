@@ -1,0 +1,452 @@
+[
+  {
+    "topicId": "MAT_ORUNTU_01",
+    "question": "1, 3, 5, 7, ... dizisinin genel terimi (n. terim) nedir?",
+    "answer": "2n - 1",
+    "additionalInfo": "Ardışık tek sayıların genel formülüdür.",
+    "id": "flash_1776014521712_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_02",
+    "question": "2, 4, 6, 8, ... dizisinin genel terimi nedir?",
+    "answer": "2n",
+    "additionalInfo": "Ardışık çift sayıların genel formülüdür.",
+    "id": "flash_1776014521712_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_03",
+    "question": "3, 6, 9, 12, ... dizisinin genel terimi nedir?",
+    "answer": "3n",
+    "additionalInfo": "3'ün katı olan sayıların dizisidir.",
+    "id": "flash_1776014521712_3",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_04",
+    "question": "1, 4, 9, 16, ... dizisinin genel terimi nedir?",
+    "answer": "n²",
+    "additionalInfo": "Tam kare sayıların dizisidir.",
+    "id": "flash_1776014521712_4",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_05",
+    "question": "1, 8, 27, 64, ... dizisinin genel terimi nedir?",
+    "answer": "n��",
+    "additionalInfo": "Tam küp sayıların dizisidir.",
+    "id": "flash_1776014521712_5",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_06",
+    "question": "Bir sayı örüntüsünde artış miktarı sabitse bu örüntü ne tür bir örüntüdür?",
+    "answer": "Aritmetik örüntü",
+    "additionalInfo": "Doğrusal artış gösterir.",
+    "id": "flash_1776014521712_6",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_07",
+    "question": "5, 10, 15, 20 örüntüsünün 10. terimi kaçtır?",
+    "answer": "50",
+    "additionalInfo": "Genel terim 5n formülüne göre 5x10=50.",
+    "id": "flash_1776014521712_7",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_08",
+    "question": "2, 5, 8, 11 dizisinde artış miktarı (ortak fark) kaçtır?",
+    "answer": "3",
+    "additionalInfo": "İkinci terimden birinci terimi çıkararak bulabilirsin.",
+    "id": "flash_1776014521712_8",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_09",
+    "question": "Genel terimi 4n+2 olan örüntünün ilk terimi kaçtır?",
+    "answer": "6",
+    "additionalInfo": "n yerine 1 yazılır.",
+    "id": "flash_1776014521712_9",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_10",
+    "question": "Genel terimi 3n-5 olan örüntünün 5. terimi kaçtır?",
+    "answer": "10",
+    "additionalInfo": "3x5-5=10 işlemini yap.",
+    "id": "flash_1776014521712_10",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_11",
+    "question": "Fibonacci dizisinin ilk beş terimi nedir?",
+    "answer": "1, 1, 2, 3, 5",
+    "additionalInfo": "Kendinden önceki iki terimin toplamına eşittir.",
+    "id": "flash_1776014521712_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_12",
+    "question": "Genel terimi (n²+1) olan örüntünün 4. terimi kaçtır?",
+    "answer": "17",
+    "additionalInfo": "4'ün karesi 16, 1 ekle 17.",
+    "id": "flash_1776014521712_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_13",
+    "question": "Bir örüntüde terimler çarpılarak ilerliyorsa buna ne ad verilir?",
+    "answer": "Geometrik örüntü",
+    "additionalInfo": "Ortak çarpan ile büyür veya küçülür.",
+    "id": "flash_1776014521712_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_14",
+    "question": "2, 4, 8, 16, 32 dizisi nasıl bir örüntüdür?",
+    "answer": "Geometrik örüntü",
+    "additionalInfo": "Ortak çarpan 2'dir.",
+    "id": "flash_1776014521712_14",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_15",
+    "question": "3, 9, 27, 81 dizisinin genel terimi nedir?",
+    "answer": "3ⁿ",
+    "additionalInfo": "n=1 için 3¹=3.",
+    "id": "flash_1776014521712_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_16",
+    "question": "Üçgensel sayı örüntüsünün genel terimi nedir?",
+    "answer": "n(n+1)/2",
+    "additionalInfo": "1, 3, 6, 10, 15... dizisidir.",
+    "id": "flash_1776014521712_16",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_17",
+    "question": "Karesel say�� örüntüsünün 10. terimi kaçtır?",
+    "answer": "100",
+    "additionalInfo": "10'un karesini al.",
+    "id": "flash_1776014521712_17",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_18",
+    "question": "1, 3, 6, 10, 15 dizisinin 6. terimi kaçtır?",
+    "answer": "21",
+    "additionalInfo": "n(n+1)/2 formülünde n=6 yaz.",
+    "id": "flash_1776014521712_18",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_19",
+    "question": "Genel terimi n²-n olan örüntünün 3. terimi kaçtır?",
+    "answer": "6",
+    "additionalInfo": "3²-3 = 9-3 = 6.",
+    "id": "flash_1776014521712_19",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_20",
+    "question": "Bir kibrit çöpü sorusunda 1. adımda 4, 2. adımda 7, 3. adımda 10 çöp varsa 4. adımda kaç çöp olur?",
+    "answer": "13",
+    "additionalInfo": "Artış miktarı 3'tür.",
+    "id": "flash_1776014521712_20",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_21",
+    "question": "Genel terim formülü bulurken 'd' (artış miktarı) neyi temsil eder?",
+    "answer": "n'in katsayısı",
+    "additionalInfo": "Aritmetik dizilerde n'in önündeki sayıdır.",
+    "id": "flash_1776014521712_21",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_22",
+    "question": "10, 7, 4, 1 dizisinin 5. terimi kaçtır?",
+    "answer": "-2",
+    "additionalInfo": "Artış miktarı -3'tür.",
+    "id": "flash_1776014521712_22",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_23",
+    "question": "Genel terimi 2n+5 olan dizinin 20. terimi nedir?",
+    "answer": "45",
+    "additionalInfo": "2x20+5=45.",
+    "id": "flash_1776014521712_23",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_24",
+    "question": "Şekil örüntülerinde 'adım sayısı' ne ile ifade edilir?",
+    "answer": "n",
+    "additionalInfo": "n=1 ilk adımı temsil eder.",
+    "id": "flash_1776014521712_24",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_25",
+    "question": "1/2, 1/4, 1/8, 1/16 dizisinin genel terimi nedir?",
+    "answer": "(1/2)ⁿ",
+    "additionalInfo": "Payda 2'nin kuvvetleri şeklinde artar.",
+    "id": "flash_1776014521712_25",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_26",
+    "question": "Bir örüntüde 1. terim 3, 2. terim 7, 3. terim 11 ise genel terim nedir?",
+    "answer": "4n - 1",
+    "additionalInfo": "Artış 4, ilk terim 3 olması için 4(1)-1.",
+    "id": "flash_1776014521712_26",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_27",
+    "question": "Genel terimi 5n-2 olan dizinin kaçıncı terimi 48'dir?",
+    "answer": "10",
+    "additionalInfo": "5n-2=48, 5n=50, n=10.",
+    "id": "flash_1776014521712_27",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_28",
+    "question": "Ardışık sayıların toplamı formülü nedir?",
+    "answer": "n(n+1)/2",
+    "additionalInfo": "1'den n'e kadar olan sayıların toplamı.",
+    "id": "flash_1776014521712_28",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_29",
+    "question": "7, 14, 21, 28 dizisinin 10. terimi kaçtır?",
+    "answer": "70",
+    "additionalInfo": "7x10=70.",
+    "id": "flash_1776014521712_29",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_30",
+    "question": "Genel terimi 2n²+1 olan dizinin 3. terimi kaçtır?",
+    "answer": "19",
+    "additionalInfo": "2(3²)+1 = 2(9)+1 = 19.",
+    "id": "flash_1776014521712_30",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_31",
+    "question": "0, 3, 8, 15 dizisinin genel terimi nedir?",
+    "answer": "n²-1",
+    "additionalInfo": "n yerine 1, 2, 3 yazarak kontrol et.",
+    "id": "flash_1776014521712_31",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_32",
+    "question": "2, 6, 12, 20 dizisinin kuralı nedir?",
+    "answer": "n²+n",
+    "additionalInfo": "n(n+1) şeklinde de yazılabilir.",
+    "id": "flash_1776014521712_32",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_33",
+    "question": "Sabit dizilerde artış miktarı kaçtır?",
+    "answer": "0",
+    "additionalInfo": "Örn: 5, 5, 5, 5...",
+    "id": "flash_1776014521712_33",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_34",
+    "question": "Genel terimi 10n-5 olan dizinin 4. terimi nedir?",
+    "answer": "35",
+    "additionalInfo": "10x4-5=35.",
+    "id": "flash_1776014521712_34",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_35",
+    "question": "Bir örüntüde terimler arasındaki fark hep aynıysa ne denir?",
+    "answer": "Ortak fark",
+    "additionalInfo": "Aritmetik örüntü özelliği.",
+    "id": "flash_1776014521712_35",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_36",
+    "question": "3, 10, 17, 24 dizisinin genel terimi nedir?",
+    "answer": "7n - 4",
+    "additionalInfo": "Artış 7, 7(1)-4=3.",
+    "id": "flash_1776014521712_36",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_37",
+    "question": "Genel terimi 2n-1 olan dizinin 100. terimi nedir?",
+    "answer": "199",
+    "additionalInfo": "2x100-1=199.",
+    "id": "flash_1776014521712_37",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_38",
+    "question": "n=1 için 2, n=2 için 5, n=3 için 10 olan dizinin genel terimi nedir?",
+    "answer": "n²+1",
+    "additionalInfo": "1²+1=2, 2²+1=5, 3²+1=10.",
+    "id": "flash_1776014521712_38",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_39",
+    "question": "Şekil örüntüsü sorularında 'n' neyi temsil eder?",
+    "answer": "Adım veya şekil numarası",
+    "additionalInfo": "Soruda 'kaçıncı adım' diye sorulur.",
+    "id": "flash_1776014521712_39",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_40",
+    "question": "1, 2, 4, 8, 16 dizisinin genel terimi nedir?",
+    "answer": "2ⁿ⁻¹",
+    "additionalInfo": "Geometrik dizidir.",
+    "id": "flash_1776014521712_40",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_41",
+    "question": "Genel terimi 3n+1 olan dizinin ilk 3 teriminin toplamı kaçtır?",
+    "answer": "18",
+    "additionalInfo": "4+7+10=21 (Yanlış, 4+7+10=21, 3(1)+1=4, 3(2)+1=7, 3(3)+1=10, Toplam 21)",
+    "id": "flash_1776014521712_41",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_42",
+    "question": "5, 8, 11, 14 örüntüsünün 20. terimi kaçtır?",
+    "answer": "62",
+    "additionalInfo": "3n+2 kuralı, 3x20+2=62.",
+    "id": "flash_1776014521712_42",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_43",
+    "question": "Örüntü sorularında genel terimi bulmak için ilk yapılması gereken nedir?",
+    "answer": "Artış miktarını belirlemek",
+    "additionalInfo": "Artış miktarı 'n'in katsayısıdır.",
+    "id": "flash_1776014521712_43",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_44",
+    "question": "Genel terimi n olan bir dizide 50. terim nedir?",
+    "answer": "50",
+    "additionalInfo": "n=50 olduğu için cevap 50'dir.",
+    "id": "flash_1776014521712_44",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_45",
+    "question": "Genel terimi 6n-4 olan dizinin 10. terimi nedir?",
+    "answer": "56",
+    "additionalInfo": "6x10-4=56.",
+    "id": "flash_1776014521712_45",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_46",
+    "question": "4, 9, 14, 19 dizisinin genel terimi nedir?",
+    "answer": "5n - 1",
+    "additionalInfo": "Artış 5, 5(1)-1=4.",
+    "id": "flash_1776014521712_46",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_47",
+    "question": "İkinci dereceden artış gösteren örüntülerin genel teriminde ne bulunur?",
+    "answer": "n²",
+    "additionalInfo": "Sabit artış yoksa n² terimi olur.",
+    "id": "flash_1776014521712_47",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_48",
+    "question": "Genel terimi n³+1 olan dizinin 2. terimi kaçtır?",
+    "answer": "9",
+    "additionalInfo": "2³+1 = 8+1 = 9.",
+    "id": "flash_1776014521712_48",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_49",
+    "question": "100, 90, 80, 70 dizisinin genel terimi nedir?",
+    "answer": "110 - 10n",
+    "additionalInfo": "Azalan dizilerde n'in katsayısı negatiftir.",
+    "id": "flash_1776014521712_49",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  },
+  {
+    "topicId": "MAT_ORUNTU_50",
+    "question": "Genel terimi 2n+1 olan dizinin 15. terimi kaçtır?",
+    "answer": "31",
+    "additionalInfo": "2x15+1=31.",
+    "id": "flash_1776014521712_50",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:14.844Z"
+  }
+]

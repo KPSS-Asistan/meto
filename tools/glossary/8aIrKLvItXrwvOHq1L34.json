@@ -1,0 +1,1268 @@
+[
+  {
+    "id": "aynali_kervansaray",
+    "term": "Kervansaray",
+    "definition": "Ticaret yolları üzerinde yolcuların konaklama ve ihtiyaçlarını karşılayan yapılardır. Devlet tarafından inşa edilerek ticaretin güvenliğini ve sürekliliğini sağlamayı amaçlamıştır.",
+    "examples": [
+      "Alayhan",
+      "Sultanhanı"
+    ],
+    "relatedTerms": [
+      "Ahilik",
+      "Yabanlu Pazarı",
+      "Ticaret Yolları"
+    ],
+    "order": 1
+  },
+  {
+    "id": "ahilik_teskilati",
+    "term": "Ahilik",
+    "definition": "Ahi Evran tarafından kurulan, esnaf ve sanatkarları örgütleyen sosyal ve ekonomik bir kuruluştur. Mesleki eğitimin yanında ahlaki ve dini değerlerin öğretilmesini esas alır.",
+    "examples": [
+      "Lonca teşkilatının temeli",
+      "Esnaf dayanışması"
+    ],
+    "relatedTerms": [
+      "Fütüvvetname",
+      "Ahi Evran",
+      "Lonca"
+    ],
+    "order": 2
+  },
+  {
+    "id": "miryokefalon_savasi",
+    "term": "Miryokefalon Savaşı",
+    "definition": "1176 yılında II. Kılıç Arslan ile Bizans arasında yapılmıştır. Bu zaferle Anadolu'nun kesin olarak Türk yurdu olduğu kanıtlanmış ve Bizans'ın Türkleri Anadolu'dan atma umudu sona ermiştir.",
+    "examples": [
+      "Yurt tutan savaş",
+      "Anadolu'nun tapusunun alınması"
+    ],
+    "relatedTerms": [
+      "II. Kılıç Arslan",
+      "Bizans İmparatorluğu"
+    ],
+    "order": 3
+  },
+  {
+    "id": "giyaseddin_keyhusrev",
+    "term": "I. Gıyaseddin Keyhüsrev",
+    "definition": "Antalya'yı fethederek Anadolu Selçuklu Devleti'ne ilk deniz aşırı ticareti kazandıran hükümdardır. Ticaretin gelişmesi için Venediklilerle ilk ticaret antlaşmasını yapmıştır.",
+    "examples": [
+      "Antalya'nın fethi",
+      "Venedik ticaret antlaşması"
+    ],
+    "relatedTerms": [
+      "Ticaret",
+      "Denizcilik"
+    ],
+    "order": 4
+  },
+  {
+    "id": "izzeddin_keykavus",
+    "term": "I. İzzeddin Keykavus",
+    "definition": "Sinop'u fethederek Karadeniz'de ticaretin canlanmasını sağlamıştır. Ayrıca ilk defa devlet adına hastane (darüşşifa) yaptıran hükümdardır.",
+    "examples": [
+      "Sinop'un fethi",
+      "Keykavus Darüşşifası"
+    ],
+    "relatedTerms": [
+      "Darüşşifa",
+      "Karadeniz ticareti"
+    ],
+    "order": 5
+  },
+  {
+    "id": "alaaddin_keykubat",
+    "term": "I. Alaaddin Keykubat",
+    "definition": "Devletin en parlak dönemini yaşatan hükümdardır. Alaiye'yi (Alanya) fethederek tersane kurmuş ve Moğol tehlikesine karşı önlemler almıştır.",
+    "examples": [
+      "En parlak dönem",
+      "Alanya'nın fethi"
+    ],
+    "relatedTerms": [
+      "Yassıçemen Savaşı",
+      "Moğol istilası"
+    ],
+    "order": 6
+  },
+  {
+    "id": "yassicemen_savasi",
+    "term": "Yassıçemen Savaşı",
+    "definition": "1230 yılında Anadolu Selçuklu Devleti ile Harzemşahlar arasında yapılmıştır. Bu savaşın kaybedilmesi, Moğollar ile Selçuklular arasındaki tampon bölgenin kalkmasına ve Moğol istilasının kolaylaşmasına yol açmıştır.",
+    "examples": [
+      "Harzemşahların yıkılışı",
+      "Moğol sınır komşuluğu"
+    ],
+    "relatedTerms": [
+      "Harzemşahlar",
+      "Moğollar"
+    ],
+    "order": 7
+  },
+  {
+    "id": "kosedag_savasi",
+    "term": "Kösedağ Savaşı",
+    "definition": "1243 yılında Moğollar (İlhanlılar) ile Anadolu Selçuklu Devleti arasında yapılmıştır. Bu savaşın kaybedilmesiyle devlet yıkılma sürecine girmiş ve Anadolu'da Beylikler Dönemi başlamıştır.",
+    "examples": [
+      "Anadolu'nun Moğol istilasına girmesi",
+      "Selçuklunun çöküşü"
+    ],
+    "relatedTerms": [
+      "İlhanlılar",
+      "Beylikler Dönemi"
+    ],
+    "order": 8
+  },
+  {
+    "id": "darussifa",
+    "term": "Darüşşifa",
+    "definition": "Selçuklularda sağlık hizmetlerinin verildiği hastanelerdir. Sosyal devlet anlayışının bir göstergesi olarak ücretsiz tedavi hizmeti sunulmuştur.",
+    "examples": [
+      "Gevher Nesibe Darüşşifası",
+      "İzzeddin Keykavus Darüşşifası"
+    ],
+    "relatedTerms": [
+      "Sosyal devlet",
+      "Şifahane"
+    ],
+    "order": 9
+  },
+  {
+    "id": "ikta_sistemi",
+    "term": "İkta Sistemi",
+    "definition": "Devlet arazilerinin gelirlerinin askerlere ve devlet görevlilerine maaş karşılığı verilmesidir. Bu sistem sayesinde hem ordu beslenmiş hem de üretimde süreklilik sağlanmıştır.",
+    "examples": [
+      "Tımar sisteminin temeli",
+      "İkta sahiplerinin asker yetiştirmesi"
+    ],
+    "relatedTerms": [
+      "Miri arazi",
+      "Sipahi"
+    ],
+    "order": 10
+  },
+  {
+    "id": "baba_ishak_isyani",
+    "term": "Baba İshak İsyanı",
+    "definition": "II. Gıyaseddin Keyhüsrev döneminde çıkan ilk dini içerikli toplumsal ayaklanmadır. Devletin otoritesini sarsmış ve Moğolların Anadolu'yu işgal etme cesaretini artırmıştır.",
+    "examples": [
+      "Dini ve sosyal isyan",
+      "Merkezi otoritenin sarsılması"
+    ],
+    "relatedTerms": [
+      "II. Gıyaseddin Keyhüsrev",
+      "Moğol istilası"
+    ],
+    "order": 11
+  },
+  {
+    "id": "gevher_nesibe",
+    "term": "Gevher Nesibe",
+    "definition": "Kayseri'de vasiyeti üzerine dünyanın ilk tıp medreselerinden birini yaptıran Selçuklu sultanıdır. Kadınların eğitim ve sağlık alanındaki katkılarına önemli bir örnektir.",
+    "examples": [
+      "Kayseri Şifahanesi",
+      "Kadın sultanların hayır işleri"
+    ],
+    "relatedTerms": [
+      "Darüşşifa",
+      "Tıp eğitimi"
+    ],
+    "order": 12
+  },
+  {
+    "id": "yabanlu_pazari",
+    "term": "Yabanlu Pazarı",
+    "definition": "Kayseri yakınlarında kurulan, uluslararası ticaretin yapıldığı büyük bir fuardır. Anadolu Selçuklularında ticaretin gelişmişliğinin en somut göstergelerinden biridir.",
+    "examples": [
+      "Uluslararası ticaret merkezi",
+      "Kayseri fuarı"
+    ],
+    "relatedTerms": [
+      "Kervansaray",
+      "Ticaret yolları"
+    ],
+    "order": 13
+  },
+  {
+    "id": "sivas_gok_medrese",
+    "term": "Gök Medrese",
+    "definition": "Selçuklu mimarisinin en önemli örneklerinden biri olan ve eğitim faaliyetlerinin yürütüldüğü yapıdır. Taş işçiliği ve estetik mimarisiyle dikkat çeker.",
+    "examples": [
+      "Sivas mimarisi",
+      "Selçuklu eğitim kurumları"
+    ],
+    "relatedTerms": [
+      "Medrese",
+      "Selçuklu sanatı"
+    ],
+    "order": 14
+  },
+  {
+    "id": "sultan_han",
+    "term": "Sultan Hanı",
+    "definition": "Anadolu Selçuklu Devleti'nin en büyük ve en görkemli kervansaraylarından biridir. İpek Yolu üzerindeki ticaretin güvenliğini sağlamak amacıyla inşa edilmiştir.",
+    "examples": [
+      "Konya-Aksaray yolu",
+      "Anıtsal kervansaray mimarisi"
+    ],
+    "relatedTerms": [
+      "Kervansaray",
+      "İpek Yolu"
+    ],
+    "order": 15
+  },
+  {
+    "id": "yassi_cemen_savasi",
+    "term": "Yassı Çemen Savaşı",
+    "definition": "Türkiye Selçukluları ile Harzemşahlar arasında yapılan savaştır. Bu savaşın kaybedilmesiyle tampon bölge kalkmış ve Moğol istilası kolaylaşmıştır.",
+    "examples": [
+      "Harzemşahların yıkılış sürecine girmesi"
+    ],
+    "relatedTerms": [
+      "Moğol İstilası",
+      "Alaaddin Keykubat",
+      "Tampon Devlet"
+    ],
+    "order": 16
+  },
+  {
+    "id": "vakif_sistemi",
+    "term": "Vakıf Sistemi",
+    "definition": "Kişilerin mallarını toplumsal hizmetler için bağışlamasıdır. Eğitim, sağlık ve bayındırlık hizmetlerinin sürekliliğini sağlamıştır.",
+    "examples": [
+      "İmarethanelerin vakıflar aracılığıyla işletilmesi"
+    ],
+    "relatedTerms": [
+      "Sosyal Devlet",
+      "İmarethane",
+      "Külliye"
+    ],
+    "order": 17
+  },
+  {
+    "id": "gulam_sistemi",
+    "term": "Gulam Sistemi",
+    "definition": "Savaş esirlerinden seçilen çocukların eğitilerek orduya ve saray hizmetine alınmasıdır. Osmanlı'daki devşirme sisteminin temelini oluşturur.",
+    "examples": [
+      "Hassa ordusunun oluşturulması"
+    ],
+    "relatedTerms": [
+      "Kapıkulu",
+      "Devşirme",
+      "Hassa Ordusu"
+    ],
+    "order": 18
+  },
+  {
+    "id": "suğdak_seferi",
+    "term": "Suğdak Seferi",
+    "definition": "I. Alaaddin Keykubat döneminde Kırım'daki Suğdak limanının alınmasıdır. Karadeniz ticaretini kontrol altına almak amacıyla yapılmıştır.",
+    "examples": [
+      "Karadeniz ticaretinin güvenliğinin sağlanması"
+    ],
+    "relatedTerms": [
+      "Denizcilik",
+      "Alaaddin Keykubat",
+      "Ticaret Yolları"
+    ],
+    "order": 19
+  },
+  {
+    "id": "kumbet",
+    "term": "Kümbet",
+    "definition": "Selçuklu mimarisine özgü, genellikle devlet büyükleri için yapılan anıt mezarlardır. Silindirik veya çokgen gövdeli yapılarıyla dikkat çekerler.",
+    "examples": [
+      "Döner Kümbet",
+      "Mama Hatun Kümbeti"
+    ],
+    "relatedTerms": [
+      "Selçuklu Mimarisi",
+      "Taş İşçiliği"
+    ],
+    "order": 20
+  },
+  {
+    "id": "iki_kilic_arslan",
+    "term": "II. Kılıç Arslan",
+    "definition": "Anadolu'da Türk siyasi birliğini kurma yolunda önemli adımlar atan hükümdardır. Miryokefalon Savaşı'nı kazanarak Anadolu'nun Türk yurdu olduğunu tescillemiştir.",
+    "examples": [
+      "Miryokefalon zaferi"
+    ],
+    "relatedTerms": [
+      "Miryokefalon",
+      "Türkiye Selçuklu Devleti"
+    ],
+    "order": 21
+  },
+  {
+    "id": "aynalar_carsi",
+    "term": "Aynalar Çarşısı",
+    "definition": "Türkiye Selçuklularında şehirlerdeki ticaretin yoğun olduğu, esnafların toplandığı kapalı çarşı sistemidir. Ekonomik hayatın ve şehirleşmenin merkezini oluşturur.",
+    "examples": [
+      "Sivas ve Kayseri gibi ticaret merkezlerinde esnafların yoğunlaştığı alanlar."
+    ],
+    "relatedTerms": [
+      "Ahilik",
+      "Kervansaray",
+      "Lonca"
+    ],
+    "order": 22
+  },
+  {
+    "id": "vakfiye",
+    "term": "Vakfiye",
+    "definition": "Vakıfların işleyişini, amacını ve gelir-gider dengesini belirleyen hukuki belgedir. Sosyal devlet anlayışının bir gereği olarak eğitim ve sağlık hizmetlerinin sürekliliğini sağlar.",
+    "examples": [
+      "Medreselerin masraflarını karşılamak için hazırlanan resmi vakıf belgeleri."
+    ],
+    "relatedTerms": [
+      "Vakıf",
+      "İmarethane",
+      "Darüşşifa"
+    ],
+    "order": 23
+  },
+  {
+    "id": "atabeylik",
+    "term": "Atabeylik",
+    "definition": "Meliklerin (şehzadelerin) eğitiminden sorumlu olan tecrübeli devlet adamlarına verilen unvandır. Merkezi otorite zayıfladığında atabeyler bağımsızlıklarını ilan ederek devletin parçalanmasına neden olmuşlardır.",
+    "examples": [
+      "Selçuklu şehzadelerinin eğitiminde görev alan deneyimli komutanlar."
+    ],
+    "relatedTerms": [
+      "Melik",
+      "Merkezi Otorite",
+      "Şehzade"
+    ],
+    "order": 24
+  },
+  {
+    "id": "suleyman_sah",
+    "term": "Kutalmışoğlu Süleyman Şah",
+    "definition": "Türkiye Selçuklu Devleti'nin kurucusu ve ilk hükümdarıdır. İznik'i fethederek devleti burada kurmuş ve Bizans ile sınır komşusu olmuştur.",
+    "examples": [
+      "1075 yılında İznik'in fethedilmesi."
+    ],
+    "relatedTerms": [
+      "Anadolu Selçuklu Devleti",
+      "İznik",
+      "Malazgirt sonrası Anadolu"
+    ],
+    "order": 25
+  },
+  {
+    "id": "sivas_darussifasi",
+    "term": "Sivas Darüşşifası",
+    "definition": "I. İzzeddin Keykavus tarafından yaptırılan, Anadolu'nun en eski ve önemli tıp merkezlerinden biridir. Şifahane fonksiyonunun yanı sıra tıp eğitimi de verilmiştir.",
+    "examples": [
+      "Anadolu'daki ilk büyük ölçekli hastane yapılarından biri olması."
+    ],
+    "relatedTerms": [
+      "Gevher Nesibe",
+      "Tıp eğitimi",
+      "Selçuklu mimarisi"
+    ],
+    "order": 26
+  },
+  {
+    "id": "hacli_seferleri",
+    "term": "Haçlı Seferleri",
+    "definition": "Türkiye Selçuklularının Anadolu'daki hakimiyetini zorlayan, devletin başkentini İznik'ten Konya'ya taşımasına neden olan askeri ve dini seferlerdir.",
+    "examples": [
+      "I. Haçlı Seferi sonucunda İznik'in kaybedilmesi."
+    ],
+    "relatedTerms": [
+      "Bizans İmparatorluğu",
+      "Konya",
+      "I. Kılıç Arslan"
+    ],
+    "order": 27
+  },
+  {
+    "id": "ulubey",
+    "term": "Ulubey",
+    "definition": "Selçuklu şehzadelerinin devlet yönetimi tecrübesi kazanması için yanlarına verilen tecrübeli devlet adamları ve eğitmenlerdir.",
+    "examples": [
+      "Şehzadelerin sancaklara gönderilirken yanlarında görevlendirilmesi."
+    ],
+    "relatedTerms": [
+      "Atabeylik",
+      "Şehzade eğitimi",
+      "Merkezi otorite"
+    ],
+    "order": 28
+  },
+  {
+    "id": "kili_arslan_i",
+    "term": "I. Kılıç Arslan",
+    "definition": "Haçlılara karşı başarılı bir direniş gösteren ve başkenti Konya'ya taşıyan Türkiye Selçuklu hükümdarıdır. Danişmentliler ile mücadele etmiştir.",
+    "examples": [
+      "Haçlı ordularına karşı uygulanan yıpratma taktikleri."
+    ],
+    "relatedTerms": [
+      "Haçlı Seferleri",
+      "Konya",
+      "Danişmentliler"
+    ],
+    "order": 29
+  },
+  {
+    "id": "haci_bektas_veli",
+    "term": "Hacı Bektaş-ı Veli",
+    "definition": "Türkiye Selçukluları döneminde Anadolu'ya gelen, tasavvufi öğretileriyle halkı irşad eden ve Ahilik teşkilatının manevi liderlerinden kabul edilen mutasavvıftır.",
+    "examples": [
+      "Makalat adlı eseri ile tanınması."
+    ],
+    "relatedTerms": [
+      "Ahilik",
+      "Tasavvuf",
+      "Anadolu'nun Türkleşmesi"
+    ],
+    "order": 30
+  },
+  {
+    "id": "mevlana_celaleddin_rumi",
+    "term": "Mevlana Celaleddin Rumi",
+    "definition": "Anadolu Selçuklu döneminin en önemli mutasavvıfı ve şairidir. Eserlerini Farsça yazmış olup hoşgörü felsefesiyle geniş kitleleri etkilemiştir.",
+    "examples": [
+      "Mesnevi adlı eseri."
+    ],
+    "relatedTerms": [
+      "Tasavvuf",
+      "Konya",
+      "Selçuklu kültürü"
+    ],
+    "order": 31
+  },
+  {
+    "id": "tazik_ve_tazmin",
+    "term": "Tazik ve Tazmin",
+    "definition": "Selçuklu hukuk sisteminde, devletin veya şahısların uğradığı zararların tazmin edilmesiyle ilgili hukuki süreçleri ifade eden kavramdır.",
+    "examples": [
+      "Ticari anlaşmazlıklarda tazminat ödenmesi."
+    ],
+    "relatedTerms": [
+      "Şer'i hukuk",
+      "Örfi hukuk",
+      "Kadı"
+    ],
+    "order": 32
+  },
+  {
+    "id": "menzil_teskilati",
+    "term": "Menzil Teşkilatı",
+    "definition": "Devletin haberleşme ve ulaşım ağını sağlayan, belirli aralıklarla kurulan konaklama ve değişim noktalarıdır. Ticaretin güvenliği için de kullanılmıştır.",
+    "examples": [
+      "Kervansaraylar arası haberleşme hattı."
+    ],
+    "relatedTerms": [
+      "Kervansaray",
+      "İpek Yolu",
+      "Ulak sistemi"
+    ],
+    "order": 33
+  },
+  {
+    "id": "danismentliler",
+    "term": "Danişmentliler",
+    "definition": "Türkiye Selçukluları ile Anadolu hakimiyeti için mücadele eden, Tokat, Niksar ve Sivas çevresinde kurulan ilk Türk beyliklerindendir.",
+    "examples": [
+      "Yağıbasan Medresesi'nin inşa edilmesi."
+    ],
+    "relatedTerms": [
+      "Anadolu Beylikleri",
+      "I. Kılıç Arslan",
+      "Anadolu'nun Türkleşmesi"
+    ],
+    "order": 34
+  },
+  {
+    "id": "muhtesip",
+    "term": "Muhtesip",
+    "definition": "Çarşı ve pazarlarda fiyatları, ölçüleri, ürün kalitesini ve halkın düzenini denetleyen görevlidir. Belediye hizmetlerine benzer bir görev üstlenir.",
+    "examples": [
+      "Pazarlarda bozuk terazi kontrolü yapılması."
+    ],
+    "relatedTerms": [
+      "Ahilik",
+      "Hisbe teşkilatı",
+      "Çarşı denetimi"
+    ],
+    "order": 35
+  },
+  {
+    "id": "pervane",
+    "term": "Pervane",
+    "definition": "Türkiye Selçuklu Devleti'nde devletin toprak dağıtımından ve ikta kayıtlarının tutulmasından sorumlu olan, arazi işlerine bakan yüksek dereceli görevlidir. Özellikle devletin son dönemlerinde siyasi otorite üzerinde oldukça etkili olmuşlardır.",
+    "examples": [
+      "Muinüddin Pervane, Kösedağ Savaşı sonrası Moğol baskısı altında devlet yönetiminde en etkili isim haline gelmiştir."
+    ],
+    "relatedTerms": [
+      "İkta Sistemi",
+      "Divan-ı Pervane",
+      "Kösedağ Savaşı"
+    ],
+    "order": 36
+  },
+  {
+    "id": "ikta_sahibi_sipahi",
+    "term": "İkta Sahibi (Sipahi)",
+    "definition": "Devletten aldığı toprak karşılığında asker yetiştiren ve bulunduğu bölgenin güvenliğini sağlayan görevlidir. İkta topraklarının mülkiyeti devlete, kullanım hakkı ise sipahiye aittir.",
+    "examples": [
+      "İkta sahibi, toprağı işlemekle yükümlü olan köylüyü korumak zorundadır.",
+      "Sipahiler, savaş zamanı cebelü denilen atlı askerlerle orduya katılırlar."
+    ],
+    "relatedTerms": [
+      "İkta Sistemi",
+      "Tımar Sistemi",
+      "Miri Arazi"
+    ],
+    "order": 37
+  },
+  {
+    "id": "batinilik",
+    "term": "Batınilik",
+    "definition": "İslam'ın dış görünüşünden ziyade gizli ve batıni anlamlarına odaklanan, Türkiye Selçuklu Devleti'ni siyasi olarak istikrarsızlaştırmaya çalışan bir akımdır. Özellikle Nizamiye medreseleri ve devlet yönetimi üzerinde yarattığı tehditlerle bilinir.",
+    "examples": [
+      "Selçuklu yönetimi, Batınilik faaliyetlerine karşı sert önlemler almıştır."
+    ],
+    "relatedTerms": [
+      "Hasan Sabbah",
+      "Alamut Kalesi",
+      "İsmaililik"
+    ],
+    "order": 38
+  },
+  {
+    "id": "tursun_fakih",
+    "term": "Tursun Fakih",
+    "definition": "Türkiye Selçuklu Devleti'nin son dönemlerinde yaşamış, Osmanlı Devleti'nin kuruluş sürecinde etkili olmuş önemli bir din ve hukuk bilginidir. Osman Gazi adına ilk hutbeyi okuyan kişi olarak kabul edilir.",
+    "examples": [
+      "Tursun Fakih, Karacahisar'ın fethinden sonra bölgede kadılık yapmıştır."
+    ],
+    "relatedTerms": [
+      "Osmanlı'nın Kuruluşu",
+      "Şeyh Edebali",
+      "Derviş Gaziler"
+    ],
+    "order": 39
+  },
+  {
+    "id": "izzeddin_keykavus_darussifasi",
+    "term": "İzzeddin Keykavus Darüşşifası",
+    "definition": "Sivas'ta inşa edilen, Anadolu Selçuklu döneminin günümüze ulaşan en eski ve önemli şifahanesidir. İçerisinde medrese ve türbe bölümleri de bulunan bir külliye yapısıdır.",
+    "examples": [
+      "Sivas Şifaiyesi olarak da bilinir.",
+      "Anadolu'daki en eski tıp merkezlerinden biridir."
+    ],
+    "relatedTerms": [
+      "Gevher Nesibe",
+      "Darüşşifa",
+      "Anadolu Selçuklu Mimarisi"
+    ],
+    "order": 40
+  },
+  {
+    "id": "kubadabad_sarayi",
+    "term": "Kubadabad Sarayı",
+    "definition": "I. Alaaddin Keykubat tarafından Beyşehir Gölü kıyısında inşa ettirilen yazlık saraydır. Çini süslemeleri ve mimari yapısıyla Selçuklu sanatının zirve eserlerinden kabul edilir.",
+    "examples": [
+      "Beyşehir Gölü kıyısında yer alır.",
+      "Çinileriyle ünlü bir Selçuklu sarayıdır."
+    ],
+    "relatedTerms": [
+      "I. Alaaddin Keykubat",
+      "Keykubadiye Sarayı",
+      "Selçuklu Sanatı"
+    ],
+    "order": 41
+  },
+  {
+    "id": "sadeddin_kopek",
+    "term": "Sadeddin Köpek",
+    "definition": "Anadolu Selçuklu Devleti'nde devlet yönetiminde etkili olan ve II. Gıyaseddin Keyhüsrev döneminde güçlenen vezirdir. Devletin zayıflama sürecinde merkezi otoriteyi sarsan entrikalarıyla tanınır.",
+    "examples": [
+      "II. Gıyaseddin Keyhüsrev üzerindeki etkisiyle bilinir.",
+      "Devlet yönetiminde otoriteyi sarsan bir figürdür."
+    ],
+    "relatedTerms": [
+      "II. Gıyaseddin Keyhüsrev",
+      "Baba İshak İsyanı",
+      "Vezir"
+    ],
+    "order": 42
+  },
+  {
+    "id": "beylikler_donemi",
+    "term": "II. Beylikler Dönemi",
+    "definition": "Kösedağ Savaşı sonrasında Anadolu Selçuklu Devleti'nin merkezi otoritesini kaybetmesiyle uç beylerinin bağımsızlıklarını ilan etmesiyle başlayan süreçtir.",
+    "examples": [
+      "Osmanlı Beyliği bu süreçte kurulmuştur.",
+      "Anadolu'da siyasi birliğin bozulduğu dönemdir."
+    ],
+    "relatedTerms": [
+      "Kösedağ Savaşı",
+      "Uç Beyliği",
+      "Anadolu Türk Siyasi Birliği"
+    ],
+    "order": 43
+  },
+  {
+    "id": "uc_beyligi",
+    "term": "Uç Beyliği",
+    "definition": "Anadolu Selçuklu Devleti'nin sınır boylarını korumakla görevli, Bizans sınırına yerleştirilen Türkmen boylarıdır. Devletin yıkılışından sonra bağımsız beyliklere dönüşmüşlerdir.",
+    "examples": [
+      "Osmanoğulları bir uç beyliğidir.",
+      "Sınır güvenliğinden sorumlu idari birimlerdir."
+    ],
+    "relatedTerms": [
+      "Gaza ve Cihat",
+      "Bizans Sınırı",
+      "Türkmenler"
+    ],
+    "order": 44
+  },
+  {
+    "id": "keykubadiye_sarayi",
+    "term": "Keykubadiye Sarayı",
+    "definition": "Kayseri'de bulunan ve I. Alaaddin Keykubat tarafından yaptırılan önemli Selçuklu saray yapılarından biridir.",
+    "examples": [
+      "Kayseri'de inşa edilmiştir.",
+      "Selçuklu sultanlarının dinlenme mekanıdır."
+    ],
+    "relatedTerms": [
+      "I. Alaaddin Keykubat",
+      "Kubadabad Sarayı",
+      "Selçuklu Mimarisi"
+    ],
+    "order": 45
+  },
+  {
+    "id": "muhyiddin_arabi",
+    "term": "Muhyiddin Arabi",
+    "definition": "Anadolu Selçuklu döneminde Anadolu'ya gelen ve düşünceleriyle tasavvufi hayatı derinden etkileyen büyük İslam alimi ve mutasavvıftır.",
+    "examples": [
+      "Vahdet-i Vücut anlayışını savunmuştur.",
+      "Dönemin ilim ve irfan hayatına yön vermiştir."
+    ],
+    "relatedTerms": [
+      "Mevlana Celaleddin Rumi",
+      "Tasavvuf",
+      "Sadreddin Konevi"
+    ],
+    "order": 46
+  },
+  {
+    "id": "sadreddin_konevi",
+    "term": "Sadreddin Konevi",
+    "definition": "Konya'da yaşamış, Muhyiddin Arabi'nin öğrencisi olan ve döneminde tasavvufi düşüncenin Anadolu'da yayılmasını sağlayan önemli İslam alimidir.",
+    "examples": [
+      "Mevlana'nın çağdaşıdır.",
+      "Konya'da medfun olan büyük mutasavvıftır."
+    ],
+    "relatedTerms": [
+      "Muhyiddin Arabi",
+      "Tasavvuf",
+      "Mevlana Celaleddin Rumi"
+    ],
+    "order": 47
+  },
+  {
+    "id": "hac_yolu_guvenligi",
+    "term": "Hac Yolu Güvenliği",
+    "definition": "Anadolu Selçuklu Devleti'nin ticaret yolları kadar önem verdiği, hacıların güvenliğini sağlamak için kurduğu menzil ve güvenlik teşkilatıdır.",
+    "examples": [
+      "Kervansaraylar bu amaçla da kullanılmıştır.",
+      "Devletin sosyal devlet anlayışının bir göstergesidir."
+    ],
+    "relatedTerms": [
+      "Kervansaray",
+      "Menzil Teşkilatı",
+      "İkta Sistemi"
+    ],
+    "order": 48
+  },
+  {
+    "id": "caca_bey",
+    "term": "Caca Bey",
+    "definition": "Kırşehir'de kendi adıyla anılan medreseyi yaptıran, astronomi çalışmalarıyla tanınan Anadolu Selçuklu devlet adamıdır.",
+    "examples": [
+      "Caca Bey Medresesi bir rasathane olarak da kullanılmıştır.",
+      "Astronomi bilimine katkı sağlamıştır."
+    ],
+    "relatedTerms": [
+      "Caca Bey Medresesi",
+      "Anadolu Selçuklu Bilim",
+      "Medrese"
+    ],
+    "order": 49
+  },
+  {
+    "id": "caca_bey_medresesi",
+    "term": "Caca Bey Medresesi",
+    "definition": "Kırşehir'de bulunan, astronomi eğitimi verildiği için rasathane işlevi de görmüş olan önemli bir Selçuklu eğitim kurumudur.",
+    "examples": [
+      "Kırşehir'de yer alan tarihi bir yapıdır.",
+      "Rasathane olarak kullanılan nadir medreselerdendir."
+    ],
+    "relatedTerms": [
+      "Caca Bey",
+      "Medrese",
+      "Anadolu Selçuklu Bilim"
+    ],
+    "order": 50
+  },
+  {
+    "id": "ikinci_kiliç_arslan_donemi",
+    "term": "II. Kılıç Arslan Dönemi",
+    "definition": "Anadolu'nun kesin olarak Türk yurdu haline gelmesini sağlayan Miryokefalon Savaşı'nın kazanıldığı dönemdir.",
+    "examples": [
+      "Miryokefalon Savaşı bu dönemde yapılmıştır.",
+      "Anadolu'nun tapusunun alındığı dönem olarak geçer."
+    ],
+    "relatedTerms": [
+      "Miryokefalon Savaşı",
+      "Bizans",
+      "Anadolu Türk Tarihi"
+    ],
+    "order": 51
+  },
+  {
+    "id": "türkmen_beyleri",
+    "term": "Türkmen Beyleri",
+    "definition": "Anadolu'nun Türkleşmesi sürecinde uç bölgelerde yerleşen ve Selçuklu devlet yapısının temelini oluşturan boy beyleridir.",
+    "examples": [
+      "Oğuz boylarının liderleridir.",
+      "Anadolu'nun demografik yapısını değiştirmişlerdir."
+    ],
+    "relatedTerms": [
+      "Uç Beyliği",
+      "Oğuzlar",
+      "Anadolu'nun Türkleşmesi"
+    ],
+    "order": 52
+  },
+  {
+    "id": "selcuklu_parasi",
+    "term": "Selçuklu Parası (Sikke)",
+    "definition": "Anadolu Selçuklu Devleti'nde sultanın bağımsızlığının en önemli göstergesi olan, üzerine sultanın adının yazıldığı altın, gümüş ve bakır paralardır.",
+    "examples": [
+      "Sikke bastırmak bağımsızlık alametidir.",
+      "Ticari hayatın gelişmişliğini gösterir."
+    ],
+    "relatedTerms": [
+      "Bağımsızlık Alametleri",
+      "Ekonomi",
+      "Ticaret"
+    ],
+    "order": 53
+  },
+  {
+    "id": "melik",
+    "term": "Melik",
+    "definition": "Selçuklu hanedanına mensup şehzadelerin yönetim deneyimi kazanmaları için atandıkları eyaletlerin yöneticisidir. Atabeylerin gözetiminde görev yaparlar.",
+    "examples": [
+      "Şehzadelerin vilayetlerdeki idari sorumluluğu."
+    ],
+    "relatedTerms": [
+      "Atabey",
+      "Şehzade",
+      "İkta"
+    ],
+    "order": 54
+  },
+  {
+    "id": "hacib_ul_hucab",
+    "term": "Hacibü'l-Huccab",
+    "definition": "Saraydaki tüm haciblerin başı olan, hükümdar ile halk arasındaki iletişimi sağlayan en yüksek dereceli saray görevlisidir.",
+    "examples": [
+      "Sultanın huzuruna çıkacak kişilerin belirlenmesi."
+    ],
+    "relatedTerms": [
+      "Hacib",
+      "Saray Teşkilatı",
+      "Divan-ı Saltanat"
+    ],
+    "order": 55
+  },
+  {
+    "id": "emir_i_dad",
+    "term": "Emir-i Dad",
+    "definition": "Selçuklu devletinde adalet işlerinden sorumlu olan ve mahkemelerin kararlarını uygulayan üst düzey görevlidir. Hukuki otoriteyi temsil eder.",
+    "examples": [
+      "Adli işlerin yürütülmesinde sultanın yardımcısı."
+    ],
+    "relatedTerms": [
+      "Kadı",
+      "Kadıleşker",
+      "Divan-ı Mezalim"
+    ],
+    "order": 56
+  },
+  {
+    "id": "pervaneci",
+    "term": "Pervaneci",
+    "definition": "İkta topraklarının dağıtımından ve kayıtlarının tutulmasından sorumlu olan görevlidir. Devletin toprak yönetimindeki kilit isimdir.",
+    "relatedTerms": [
+      "İkta",
+      "Tahrir Defteri",
+      "Divan-ı Pervane"
+    ],
+    "examples": [
+      "İkta gelirlerinin tespiti ve dağıtımı."
+    ],
+    "order": 57
+  },
+  {
+    "id": "emir_i_candar",
+    "term": "Emir-i Candar",
+    "definition": "Sarayın ve hükümdarın güvenliğinden sorumlu olan, saray muhafızlarının komutanıdır.",
+    "examples": [
+      "Sultanın saraydaki özel koruma birliği."
+    ],
+    "relatedTerms": [
+      "Saray Teşkilatı",
+      "Gulam",
+      "Hassa Ordusu"
+    ],
+    "order": 58
+  },
+  {
+    "id": "taci_ul_arif",
+    "term": "Taci'ul-Arifin",
+    "definition": "Türkiye Selçuklularında tasavvufi düşüncenin yayılmasında etkili olan, döneminin önemli mutasavvıflarına verilen unvandır.",
+    "examples": [
+      "Ebu'l-Vefa gibi dönemin önemli mutasavvıfları."
+    ],
+    "relatedTerms": [
+      "Tasavvuf",
+      "Mevlevilik",
+      "Bektaşilik"
+    ],
+    "order": 59
+  },
+  {
+    "id": "divan_i_tugrai",
+    "term": "Divan-ı Tuğrai",
+    "definition": "Devletin iç ve dış yazışmalarından sorumlu olan, resmi belgelerin üzerine sultanın tuğrasını çeken divandır.",
+    "examples": [
+      "Ferman ve beratların hazırlanması."
+    ],
+    "relatedTerms": [
+      "Tuğra",
+      "Münşi",
+      "Divan-ı Saltanat"
+    ],
+    "order": 60
+  },
+  {
+    "id": "sipahiler",
+    "term": "Sipahiler",
+    "definition": "İkta sistemiyle beslenen, devletten maaş almayıp toprak gelirleriyle geçinen ve savaş zamanı orduya katılan atlı askerlerdir.",
+    "examples": [
+      "İkta ordusunun temelini oluşturan süvari birlikleri."
+    ],
+    "relatedTerms": [
+      "İkta",
+      "Cebelü",
+      "Gulam"
+    ],
+    "order": 61
+  },
+  {
+    "id": "emir_i_ahur",
+    "term": "Emir-i Ahur",
+    "definition": "Sarayın atlarından ve ahırlarından sorumlu olan görevlidir. Sultanın binek hayvanlarının bakımını üstlenir.",
+    "examples": [
+      "Saray ahırlarının yönetimi."
+    ],
+    "relatedTerms": [
+      "Saray Teşkilatı",
+      "Hassa Ordusu"
+    ],
+    "order": 62
+  },
+  {
+    "id": "hacib",
+    "term": "Hacib",
+    "definition": "Sarayda sultan ile halk arasındaki iletişimi sağlayan, protokol işlerini yürüten yüksek dereceli görevlidir. Devlet işlerinin düzenli yürütülmesinde önemli bir bürokratik role sahiptir.",
+    "examples": [
+      "Hacibü'l-Hüccab, saraydaki en yüksek rütbeli görevli olarak bilinir."
+    ],
+    "relatedTerms": [
+      "Saray Teşkilatı",
+      "Divan-ı Saltanat"
+    ],
+    "order": 63
+  },
+  {
+    "id": "taci_tevarih",
+    "term": "Taci't-Tevarih",
+    "definition": "Selçuklu döneminin siyasi ve kültürel tarihini yansıtan dönemin önemli tarih yazıcılığı eserlerinden biridir. Devletin kuruluş ve yükseliş süreçlerine dair bilgiler içerir.",
+    "examples": [
+      "Selçuklu tarihçileri bu tür eserlerle dönemi kayıt altına almıştır."
+    ],
+    "relatedTerms": [
+      "Tarih Yazıcılığı",
+      "İbn Bibi"
+    ],
+    "order": 64
+  },
+  {
+    "id": "mubarezuddin",
+    "term": "Mübarezüddin",
+    "definition": "Selçuklu sultanlarına verilen veya devlet adamları tarafından kullanılan, 'dinin savaşçısı' anlamına gelen fahri bir unvandır. Devletin İslam dünyasındaki koruyucu kimliğini vurgular.",
+    "examples": [
+      "Birçok Selçuklu devlet adamı bu tür dini içerikli lakaplar kullanmıştır."
+    ],
+    "relatedTerms": [
+      "Sultan",
+      "Gazilik"
+    ],
+    "order": 65
+  },
+  {
+    "id": "emiri_şikar",
+    "term": "Emir-i Şikar",
+    "definition": "Sultanın av partilerini düzenleyen ve av işlerinden sorumlu olan görevlidir. Selçuklu sarayında sosyal hayatın bir parçası olan avcılık faaliyetlerini yönetir.",
+    "examples": [
+      "Sultanın av organizasyonları Emir-i Şikar'ın sorumluluğundaydı."
+    ],
+    "relatedTerms": [
+      "Saray Teşkilatı",
+      "Saray Hayatı"
+    ],
+    "order": 66
+  },
+  {
+    "id": "cihan_numa",
+    "term": "Cihan-nüma",
+    "definition": "Selçuklu döneminde coğrafi bilgileri ve dünyanın düzenini anlatan eserlere verilen genel isimdir. Dönemin dünya görüşünü yansıtan bilimsel kaynaklardır.",
+    "examples": [
+      "Dönemin bilginleri dünyayı tasvir eden eserler kaleme almıştır."
+    ],
+    "relatedTerms": [
+      "Bilim",
+      "Coğrafya"
+    ],
+    "order": 67
+  },
+  {
+    "id": "emiri_alem",
+    "term": "Emir-i Alem",
+    "definition": "Sultanın bayrak ve sancaklarından sorumlu olan görevlidir. Ordunun sefer sırasında bayrağını taşıyan ve protokolde yer alan kişidir.",
+    "examples": [
+      "Sancakların korunması ve törenlerde taşınması Emir-i Alem'in görevidir."
+    ],
+    "relatedTerms": [
+      "Ordu",
+      "Saray Teşkilatı"
+    ],
+    "order": 68
+  },
+  {
+    "id": "ibn_bibi",
+    "term": "İbn Bibi",
+    "definition": "Türkiye Selçuklu Devleti tarihini anlatan en önemli kaynaklardan biri olan 'El-Evamirü'l-Ala'iye' eserinin yazarıdır. Selçuklu sarayında katiplik yapmıştır.",
+    "examples": [
+      "İbn Bibi'nin eserleri, Selçuklu döneminin siyasi olaylarını aydınlatır."
+    ],
+    "relatedTerms": [
+      "Tarih Yazıcılığı",
+      "Selçuklu Tarihi"
+    ],
+    "order": 69
+  },
+  {
+    "id": "ustad_id_dar",
+    "term": "Üstad-ı Dar",
+    "definition": "Sarayın genel idaresinden, masraflarından ve saray personelinin düzeninden sorumlu olan görevlidir. Saray içi hiyerarşinin en üstündeki isimlerden biridir.",
+    "examples": [
+      "Sarayın tüm giderleri ve işleyişi Üstad-ı Dar tarafından denetlenirdi."
+    ],
+    "relatedTerms": [
+      "Saray Teşkilatı",
+      "Bürokrasi"
+    ],
+    "order": 70
+  },
+  {
+    "id": "aynalar_cagi",
+    "term": "Aynalar Çağı",
+    "definition": "Türkiye Selçuklularında devlet yönetimi ve hükümdarlık sanatına dair öğütler içeren siyasetname türündeki eserlerin yoğunlaştığı dönemi ifade eder. Bu eserler, ideal yönetici profilini ve adalet anlayışını yansıtır.",
+    "examples": [
+      "Siyasetname türündeki eserlerin devlet adamlarına yol göstermesi."
+    ],
+    "relatedTerms": [
+      "Siyasetname",
+      "Nizamülmülk",
+      "Devlet Yönetimi"
+    ],
+    "order": 71
+  },
+  {
+    "id": "babai_ayaklanmasi",
+    "term": "Babai Ayaklanması",
+    "definition": "Baba İshak önderliğinde çıkan, Türkiye Selçukluları dönemindeki ilk dini ve sosyal içerikli halk isyanıdır. Devletin otoritesini sarsmış ve Moğolların Anadolu'yu işgalini kolaylaştırmıştır.",
+    "examples": [
+      "Baba İshak'ın Anadolu'da merkezi otoriteye başkaldırması."
+    ],
+    "relatedTerms": [
+      "Baba İshak",
+      "Merkezi Otorite",
+      "II. Gıyaseddin Keyhüsrev"
+    ],
+    "order": 72
+  },
+  {
+    "id": "kose_dag_savasi",
+    "term": "Köse Dağ Savaşı",
+    "definition": "1243 yılında Türkiye Selçukluları ile İlhanlılar (Moğollar) arasında yapılan ve Selçukluların yenilgisiyle sonuçlanan savaştır. Bu savaşla Anadolu'da Selçuklu otoritesi sona ermiş ve beylikler dönemi başlamıştır.",
+    "examples": [
+      "Anadolu'nun Moğol hakimiyetine girmesi."
+    ],
+    "relatedTerms": [
+      "İlhanlılar",
+      "Moğollar",
+      "Fetret Devri"
+    ],
+    "order": 73
+  },
+  {
+    "id": "gulamhane",
+    "term": "Gulamhane",
+    "definition": "Selçuklu devlet teşkilatında saray muhafızı ve ordu mensubu olacak gençlerin yetiştirildiği eğitim merkezidir. Buradan yetişenler 'Gulam' adıyla doğrudan sultana bağlı askerler olarak görev yapardı.",
+    "examples": [
+      "Gulam sistemi, Selçuklu ordusunun merkez kuvvetlerini oluşturmuştur."
+    ],
+    "relatedTerms": [
+      "Gulam Sistemi",
+      "Hassa Ordusu",
+      "Devşirme"
+    ],
+    "order": 74
+  },
+  {
+    "id": "mubarezeddin_ertokus",
+    "term": "Mübarezeddin Ertokuş",
+    "definition": "Türkiye Selçuklu Devleti'nin önemli komutanlarından olup, özellikle I. Alaeddin Keykubad döneminde deniz aşırı seferlerde (Kırım/Sudak) görev almıştır. Isparta'daki Ertokuş Medresesi onun adına inşa edilmiştir.",
+    "examples": [
+      "Sudak Seferi'nde gösterdiği başarılarla tanınan bir Selçuklu emîridir."
+    ],
+    "relatedTerms": [
+      "Sudak Seferi",
+      "I. Alaeddin Keykubad",
+      "Selçuklu Donanması"
+    ],
+    "order": 75
+  },
+  {
+    "id": "darul_huffaz",
+    "term": "Darü'l-Huffaz",
+    "definition": "Kur'an-ı Kerim'in ezberlenmesi ve öğretilmesi için medreselerin bünyesinde veya ayrı olarak kurulan eğitim kurumudur. Selçuklu mimarisinde dini eğitimin uzmanlaşmış bir kolu olarak yer almıştır.",
+    "examples": [
+      "Anadolu'daki birçok medresenin yanında bir bölüm olarak inşa edilmiştir."
+    ],
+    "relatedTerms": [
+      "Medrese",
+      "Darü'l-Hadis",
+      "Eğitim Kurumları"
+    ],
+    "order": 76
+  },
+  {
+    "id": "ahi_teskilati",
+    "term": "Ahilik Teşkilatı",
+    "definition": "Anadolu Selçuklu ve Osmanlı dönemlerinde esnaf ve zanaatkarların örgütlendiği, dini, ahlaki ve ekonomik ilkeleri olan bir kurumdur. Üretim kalitesini, mesleki eğitimi ve toplumsal dayanışmayı sağlamıştır.",
+    "examples": [
+      "Ahi Evran, Ahilik teşkilatının kurucusu ve lideridir.",
+      "Ahiler, savaş zamanlarında orduya destek vermişlerdir."
+    ],
+    "relatedTerms": [
+      "Lonca",
+      "Fütüvvetname",
+      "Esnaf"
+    ],
+    "order": 77
+  },
+  {
+    "id": "divan-i_arz",
+    "term": "Divan-ı Arz",
+    "definition": "Anadolu Selçuklu Devleti'nde askeri işlerden sorumlu olan divandır. Ordunun ihtiyaçlarını karşılar, askerlerin maaşlarını düzenler ve sefer hazırlıklarını yürütürdü.",
+    "examples": [
+      "Emir-i Arz, Divan-ı Arz'ın başkanıdır.",
+      "Divan-ı Arz, orduya iaşe ve teçhizat temininden sorumluydu."
+    ],
+    "relatedTerms": [
+      "Emir-i Arz",
+      "Divan-ı İşraf",
+      "Divan-ı İstifa"
+    ],
+    "order": 78
+  },
+  {
+    "id": "medrese",
+    "term": "Medrese",
+    "definition": "Selçuklu Devleti'nde eğitim ve öğretimin yapıldığı yükseköğretim kurumlarıdır. Din bilimleri, hukuk, tıp, matematik gibi çeşitli alanlarda eğitim verilmiştir.",
+    "examples": [
+      "Niğde Alaaddin Camii Medresesi, önemli Selçuklu medreselerindendir.",
+      "Medreseler, ilmi ve kültürel hayatın merkezi konumundaydı."
+    ],
+    "relatedTerms": [
+      "Darüşşifa",
+      "Kütüphane",
+      "Müderris"
+    ],
+    "order": 79
+  },
+  {
+    "id": "hatuniye_medresesi",
+    "term": "Hatuniye Medresesi",
+    "definition": "Selçuklu döneminde kadınlar tarafından yaptırılan veya kadınların adına kurulan medreselerdir. Genellikle sultan eşleri veya kızları tarafından finanse edilmiştir.",
+    "examples": [
+      "Erciyes Hatun Medresesi, Kayseri'de bulunan önemli bir Hatuniye Medresesidir.",
+      "Bu medreseler, kadınların hayırseverlik faaliyetlerinin bir göstergesidir."
+    ],
+    "relatedTerms": [
+      "Medrese",
+      "Vakıf",
+      "Kadın Baniler"
+    ],
+    "order": 80
+  },
+  {
+    "id": "divan-i_istifa",
+    "term": "Divan-ı İstifa",
+    "definition": "Anadolu Selçuklu Devleti'nde mali işlerden sorumlu olan divandır. Devletin gelir ve giderlerini düzenler, vergilerin toplanmasını ve harcamaların kontrolünü sağlardı.",
+    "examples": [
+      "Müstevfi, Divan-ı İstifa'nın başkanıdır.",
+      "Divan-ı İstifa, devletin ekonomik politikalarını belirlemede etkiliydi."
+    ],
+    "relatedTerms": [
+      "Müstevfi",
+      "Divan-ı Tuğra",
+      "Hazine"
+    ],
+    "order": 81
+  },
+  {
+    "id": "atabey",
+    "term": "Atabey",
+    "definition": "Selçuklu Devleti'nde şehzadelerin eğitimi ve yetiştirilmesinden sorumlu olan yüksek rütbeli devlet görevlisidir. Zamanla merkezi otoritenin zayıflamasıyla kendi beyliklerini kurmuşlardır.",
+    "examples": [
+      "Zengi Atabeyliği, Musul ve Halep'te kurulan önemli bir atabeyliktir.",
+      "Atabeyler, şehzadeler üzerinde büyük bir etkiye sahipti."
+    ],
+    "relatedTerms": [
+      "Melik",
+      "Şehzade",
+      "Beylikler"
+    ],
+    "order": 82
+  },
+  {
+    "id": "divan-i_tugra",
+    "term": "Divan-ı Tuğra",
+    "definition": "Anadolu Selçuklu Devleti'nde iç ve dış yazışmaları düzenleyen, resmi belgelerin hazırlanmasından sorumlu olan divandır. Sultanın tuğrasını (mührünü) taşıyan belgeleri hazırlardı.",
+    "examples": [
+      "Tuğrai, Divan-ı Tuğra'nın başkanıdır.",
+      "Divan-ı Tuğra, devletin resmi yazışmalarını yürütürdü."
+    ],
+    "relatedTerms": [
+      "Tuğrai",
+      "İnşa Divanı",
+      "Resmi Yazışma"
+    ],
+    "order": 83
+  },
+  {
+    "id": "muhittin_arabi",
+    "term": "Muhyiddin İbn Arabi",
+    "definition": "Endülüslü büyük mutasavvıf ve düşünürdür. Vahdet-i Vücud (varlığın birliği) felsefesinin en önemli temsilcilerindendir. Selçuklu Anadolu'sunda da etkili olmuştur.",
+    "examples": [
+      "İbn Arabi, Konya'da yaşamış ve eserler vermiştir.",
+      "Fütuhat-ı Mekkiyye, onun önemli eserlerindendir."
+    ],
+    "relatedTerms": [
+      "Sadreddin Konevi",
+      "Mevlana",
+      "Tasavvuf"
+    ],
+    "order": 84
+  },
+  {
+    "id": "alaeddin_keykubat",
+    "term": "Alaeddin Keykubat",
+    "definition": "Anadolu Selçuklu Devleti'nin en parlak dönemini yaşatan sultanlardan biridir. Ticareti geliştirmiş, imar faaliyetlerine önem vermiş ve sınırları genişletmiştir.",
+    "examples": [
+      "Alanya Kalesi, Alaeddin Keykubat döneminde inşa edilmiştir.",
+      "Alaeddin Keykubat, Moğol tehlikesine karşı önlemler almıştır."
+    ],
+    "relatedTerms": [
+      "I. Gıyaseddin Keyhüsrev",
+      "II. Kılıç Arslan",
+      "Sultan"
+    ],
+    "order": 85
+  },
+  {
+    "id": "koyunhisar_savasi",
+    "term": "Koyunhisar Savaşı",
+    "definition": "1302 yılında Osmanlı Beyliği ile Bizans İmparatorluğu arasında yapılan ilk önemli savaştır. Osmanlı Beyliği'nin kuruluş ve yükseliş sürecinde dönüm noktası olmuştur.",
+    "examples": [
+      "Koyunhisar Savaşı, Osman Bey döneminde gerçekleşmiştir.",
+      "Bu zafer, Osmanlı'ya Bizans karşısında önemli bir prestij sağlamıştır."
+    ],
+    "relatedTerms": [
+      "Osman Bey",
+      "Bizans",
+      "Kuruluş Dönemi"
+    ],
+    "order": 86
+  },
+  {
+    "id": "ribat",
+    "term": "Ribat",
+    "definition": "Türkiye Selçuklu Devleti döneminde ticaret yolları üzerinde kervanların güvenliğini sağlamak, yolcuların konaklamasını temin etmek ve askeri savunma amacıyla inşa edilen büyük kervansaraylardır. Aynı zamanda sınır bölgelerinde askeri üs olarak da kullanılmışlardır.",
+    "examples": [
+      "Ribatlar, Selçuklu ticaretinin gelişmesinde önemli rol oynamıştır.",
+      "Sınır bölgelerindeki ribatlar, Bizans'a karşı savunmada kullanılmıştır."
+    ],
+    "relatedTerms": [
+      "Kervansaray",
+      "Han",
+      "Kale"
+    ],
+    "order": 87
+  },
+  {
+    "id": "emir_ul_umera",
+    "term": "Emirü'l-Ümera",
+    "definition": "Türkiye Selçuklu Devleti'nde askeri hiyerarşinin en üst kademesinde yer alan, eyaletlerdeki askeri birliklerin komutanı ve aynı zamanda idari yetkilere sahip olan yüksek rütbeli komutanlardır. Sultanın vekili olarak geniş yetkilerle donatılmışlardır.",
+    "examples": [
+      "Emirü'l-Ümera, kendi bölgesinde hem askeri hem de sivil işlerden sorumluydu.",
+      "Bu unvan, merkezi otoritenin zayıfladığı dönemlerde güç kazanmıştır."
+    ],
+    "relatedTerms": [
+      "Subaşı",
+      "Beylerbeyi",
+      "Vali"
+    ],
+    "order": 88
+  },
+  {
+    "id": "divan_i_pervane",
+    "term": "Divan-ı Pervane",
+    "definition": "Türkiye Selçuklu Devleti'nde ikta topraklarının dağıtımı ve denetiminden sorumlu olan divandır. Başında Pervaneci adı verilen görevli bulunurdu ve ikta sisteminin işleyişinde merkezi bir rol oynardı.",
+    "examples": [
+      "Divan-ı Pervane, fethedilen toprakların ikta olarak dağıtılması kararlarını alırdı.",
+      "Pervaneci, ikta kayıtlarını tutar ve toprakların adil dağıtımını denetlerdi."
+    ],
+    "relatedTerms": [
+      "ikta sistemi",
+      "pervaneci",
+      "divan-ı arz"
+    ],
+    "order": 89
+  }
+]
