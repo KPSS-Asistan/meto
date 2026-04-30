@@ -1,6 +1,6 @@
 [
   {
-    "id": "vat_001",
+    "id": "vat_001_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idare-hukuku-kavramlar",
     "subtopic": "İdarenin Bütünlüğü (Hiyerarşi ve Vesayet)",
@@ -17,7 +17,7 @@
     "_part": 1
   },
   {
-    "id": "vat_002",
+    "id": "vat_002_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-tuzel-kisiligi",
     "subtopic": "Kamu Tüzel Kişiliği",
@@ -34,7 +34,7 @@
     "_part": 2
   },
   {
-    "id": "vat_003",
+    "id": "vat_003_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "merkezi-idare",
     "subtopic": "Merkezi İdare Teşkilatı",
@@ -51,24 +51,7 @@
     "_part": 3
   },
   {
-    "id": "vat_004",
-    "topicId": "lv93cmhwq7RmOFM5WxWD",
-    "subtopicId": "mahalli-idareler",
-    "subtopic": "Yerel Yönetimlerin Kuruluşu",
-    "q": "Mahalli idare birimlerinin kurulması ile ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
-    "o": [
-      "Büyükşehir Belediyesi - Kanunla kurulur.",
-      "İl Belediyesi - Müşterek kararname ile kurulur.",
-      "Nüfusu 5.000 ve üzeri yerleşim yerlerinde belediye - Cumhurbaşkanı Kararı ile kurulur.",
-      "Köy - İçişleri Bakanlığı kararı ile kurulur.",
-      "Bir ilçenin kurulması - Kanunla olur."
-    ],
-    "a": 1,
-    "e": "İl ve ilçe merkezlerinde belediye kurulması kanunla gerçekleşen idari düzenlemelerin (il/ilçe kurulmasının) doğal sonucudur; ancak il ve ilçe belediyelerinin tüzel kişilik kazanması için ayrıca bir kararnameye gerek yoktur, kanunla il/ilçe olunca belediye de kurulmuş olur. Ancak şıkkın yanlışlığı şuradadır: İl belediyeleri (merkez ilçe dışındakiler) veya yeni bir belediye kurulması kural olarak Cumhurbaşkanı Kararı ile olur. Müşterek kararname usulü kaldırılmıştır.",
-    "_part": 4
-  },
-  {
-    "id": "vat_005",
+    "id": "vat_005_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idari-islemler",
     "subtopic": "Yönetmelik Çıkarma Yetkisi",
@@ -85,7 +68,7 @@
     "_part": 5
   },
   {
-    "id": "vat_006",
+    "id": "vat_006_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "tasra-teskilati",
     "subtopic": "Valilerin Hukuki Statüsü",
@@ -102,7 +85,7 @@
     "_part": 6
   },
   {
-    "id": "vat_007",
+    "id": "vat_007_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler",
     "subtopic": "Büyükşehir Belediyeleri",
@@ -119,7 +102,7 @@
     "_part": 7
   },
   {
-    "id": "vat_008",
+    "id": "vat_008_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idare-hukuku-kavramlar",
     "subtopic": "Yetki Genişliği",
@@ -136,7 +119,7 @@
     "_part": 8
   },
   {
-    "id": "vat_009",
+    "id": "vat_009_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-gorevlileri",
     "subtopic": "Memurluk İlkeleri",
@@ -153,7 +136,7 @@
     "_part": 9
   },
   {
-    "id": "vat_010",
+    "id": "vat_010_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-hizmetleri",
     "subtopic": "Kolluk Faaliyetleri",
@@ -170,7 +153,7 @@
     "_part": 10
   },
   {
-    "id": "vat_011",
+    "id": "vat_011_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idari-teskilat-ilkeleri",
     "subtopic": "İdari Teşkilat İlkeleri",
@@ -187,7 +170,7 @@
     "_part": 11
   },
   {
-    "id": "vat_012",
+    "id": "vat_012_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler",
     "subtopic": "Mahalli İdareler",
@@ -204,7 +187,7 @@
     "_part": 12
   },
   {
-    "id": "vat_013",
+    "id": "vat_013_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-tuzel-kisiligi",
     "subtopic": "Kamu Tüzel Kişiliği",
@@ -221,7 +204,7 @@
     "_part": 13
   },
   {
-    "id": "vat_014",
+    "id": "vat_014_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "yetki-genisligi",
     "subtopic": "Merkezden Yönetim ve Yetki Genişliği",
@@ -238,7 +221,7 @@
     "_part": 14
   },
   {
-    "id": "vat_015",
+    "id": "vat_015_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "belediye-kanunu",
     "subtopic": "Belediyelerin Kurulması",
@@ -255,7 +238,7 @@
     "_part": 15
   },
   {
-    "id": "vat_016",
+    "id": "vat_016_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "baskent-teskilati",
     "subtopic": "Başkent Teşkilatına Yardımcı Kuruluşlar",
@@ -272,7 +255,7 @@
     "_part": 16
   },
   {
-    "id": "vat_017",
+    "id": "vat_017_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "memurluk-statusu",
     "subtopic": "Kamu Görevlileri ve İstisnai Memurluk",
@@ -289,7 +272,7 @@
     "_part": 17
   },
   {
-    "id": "vat_018",
+    "id": "vat_018_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "koy-idaresi",
     "subtopic": "Köy İdaresi Organları",
@@ -302,11 +285,11 @@
       "İhtiyar Heyeti - Muhtar - Çiftçi Malları Koruma Başkanı"
     ],
     "a": 1,
-    "e": "Köy idaresinin üç temel organı vardır: 1. Muhtar (Yürütme organı), 2. İhtiyar Heyeti (Danıüçüma ve karar organı), 3. Köy Derneği (Köydeki tüm seçmenlerden oluşan karar organı). Köy korucusu, imam veya öğretmen köyün görevlileri veya doğal üyeleri olabilir ancak idarenin kurucu 'organları' sayılırken bu üçlü (Muhtar, İhtiyar Heyeti, Köy Derneği) esas alınır.",
+    "e": "Köy idaresinin üç temel organı vardır: 1. Muhtar (Yürütme organı), 2. İhtiyar Heyeti (Danışma ve karar organı), 3. Köy Derneği (Köydeki tüm seçmenlerden oluşan karar organı). Köy korucusu, imam veya öğretmen köyün görevlileri veya doğal üyeleri olabilir ancak idarenin kurucu 'organları' sayılırken bu üçlü (Muhtar, İhtiyar Heyeti, Köy Derneği) esas alınır.",
     "_part": 18
   },
   {
-    "id": "vat_019",
+    "id": "vat_019_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "tasra-teskilati",
     "subtopic": "İl İdaresi",
@@ -323,7 +306,7 @@
     "_part": 19
   },
   {
-    "id": "vat_020",
+    "id": "vat_020_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "buyuksehir-belediyesi",
     "subtopic": "Büyükşehir Belediyesi",
@@ -340,7 +323,7 @@
     "_part": 20
   },
   {
-    "id": "vat_021",
+    "id": "vat_021_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idari-teskilat-butunlugu",
     "subtopic": "İdarenin Bütünlüğü ve Denetimi",
@@ -357,7 +340,7 @@
     "_part": 21
   },
   {
-    "id": "vat_022",
+    "id": "vat_022_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-tuzel-kisiligi",
     "subtopic": "Kamu Tüzel Kişiliği",
@@ -374,7 +357,7 @@
     "_part": 22
   },
   {
-    "id": "vat_023",
+    "id": "vat_023_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "merkezi-idare-tasra",
     "subtopic": "Taşra Teşkilatı ve Yetki Genişliği",
@@ -391,7 +374,7 @@
     "_part": 23
   },
   {
-    "id": "vat_024",
+    "id": "vat_024_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler-belediye",
     "subtopic": "Belediye İdaresi ve Organları",
@@ -408,7 +391,7 @@
     "_part": 24
   },
   {
-    "id": "vat_025",
+    "id": "vat_025_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idari-birimlerin-kurulmasi",
     "subtopic": "İdari Birimlerin Kurulma Usulleri",
@@ -425,7 +408,7 @@
     "_part": 25
   },
   {
-    "id": "vat_026",
+    "id": "vat_026_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler-koy",
     "subtopic": "Köy İdaresi",
@@ -442,7 +425,7 @@
     "_part": 26
   },
   {
-    "id": "vat_027",
+    "id": "vat_027_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "devlet-denetleme-kurulu",
     "subtopic": "Devlet Denetleme Kurulu (DDK)",
@@ -459,7 +442,7 @@
     "_part": 27
   },
   {
-    "id": "vat_028",
+    "id": "vat_028_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "memurlar-disiplin",
     "subtopic": "Kamu Görevlileri ve Disiplin Hukuku",
@@ -476,7 +459,7 @@
     "_part": 28
   },
   {
-    "id": "vat_029",
+    "id": "vat_029_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "buyuksehir-belediyesi",
     "subtopic": "Büyükşehir Belediyesi",
@@ -493,7 +476,7 @@
     "_part": 29
   },
   {
-    "id": "vat_030",
+    "id": "vat_030_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "baskent-teskilati",
     "subtopic": "Başkent Teşkilatı Yardımcı Kuruluşlar",
@@ -510,7 +493,7 @@
     "_part": 30
   },
   {
-    "id": "vat_031",
+    "id": "vat_031_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idare-hukuku-genel",
     "subtopic": "İdare Hukukunun Temel İlkeleri",
@@ -527,7 +510,7 @@
     "_part": 31
   },
   {
-    "id": "vat_032",
+    "id": "vat_032_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "merkezi-idare",
     "subtopic": "Merkezi İdarenin Başkent Teşkilatı",
@@ -544,7 +527,7 @@
     "_part": 32
   },
   {
-    "id": "vat_033",
+    "id": "vat_033_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler",
     "subtopic": "Yerel Yönetimlerin Kuruluşu",
@@ -561,7 +544,7 @@
     "_part": 33
   },
   {
-    "id": "vat_034",
+    "id": "vat_034_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-tuzel-kisiligi",
     "subtopic": "Kamu Tüzel Kişiliği",
@@ -578,7 +561,7 @@
     "_part": 34
   },
   {
-    "id": "vat_035",
+    "id": "vat_035_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idari-denetim",
     "subtopic": "Hiyerarşi ve İdari Vesayet",
@@ -595,7 +578,7 @@
     "_part": 35
   },
   {
-    "id": "vat_036",
+    "id": "vat_036_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "tasra-teskilati",
     "subtopic": "İl İdaresi",
@@ -612,7 +595,7 @@
     "_part": 36
   },
   {
-    "id": "vat_037",
+    "id": "vat_037_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler",
     "subtopic": "Köy İdaresi",
@@ -629,7 +612,7 @@
     "_part": 37
   },
   {
-    "id": "vat_038",
+    "id": "vat_038_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idari-islemler",
     "subtopic": "Yönetmelik Çıkarma Yetkisi",
@@ -646,7 +629,7 @@
     "_part": 38
   },
   {
-    "id": "vat_039",
+    "id": "vat_039_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler",
     "subtopic": "İl Özel İdaresi",
@@ -663,7 +646,7 @@
     "_part": 39
   },
   {
-    "id": "vat_040",
+    "id": "vat_040_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-hizmetleri",
     "subtopic": "Kamu Hizmeti İlkeleri",
@@ -680,7 +663,7 @@
     "_part": 40
   },
   {
-    "id": "vat_041",
+    "id": "vat_041_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idare-hukuku-genel",
     "subtopic": "Kamu Tüzel Kişiliği",
@@ -697,7 +680,7 @@
     "_part": 41
   },
   {
-    "id": "vat_042",
+    "id": "vat_042_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "merkezi-idare",
     "subtopic": "İdari Vesayet ve Hiyerarşi",
@@ -714,7 +697,7 @@
     "_part": 42
   },
   {
-    "id": "vat_043",
+    "id": "vat_043_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler",
     "subtopic": "Yerel Yönetim Birimleri",
@@ -731,7 +714,7 @@
     "_part": 43
   },
   {
-    "id": "vat_044",
+    "id": "vat_044_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "tasra-teskilati",
     "subtopic": "Valilik ve Yetki Genişliği",
@@ -748,7 +731,7 @@
     "_part": 44
   },
   {
-    "id": "vat_045",
+    "id": "vat_045_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler",
     "subtopic": "Büyükşehir Belediyeleri",
@@ -765,7 +748,7 @@
     "_part": 45
   },
   {
-    "id": "vat_046",
+    "id": "vat_046_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "duzenleyici-islemler",
     "subtopic": "Yönetmelik Çıkarma Yetkisi",
@@ -782,7 +765,7 @@
     "_part": 46
   },
   {
-    "id": "vat_047",
+    "id": "vat_047_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "merkezi-idare",
     "subtopic": "Başkent Teşkilatı",
@@ -799,7 +782,7 @@
     "_part": 47
   },
   {
-    "id": "vat_048",
+    "id": "vat_048_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler",
     "subtopic": "Köy İdaresi",
@@ -816,7 +799,7 @@
     "_part": 48
   },
   {
-    "id": "vat_049",
+    "id": "vat_049_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idari-yapi",
     "subtopic": "Kamu Hizmetleri",
@@ -833,7 +816,7 @@
     "_part": 49
   },
   {
-    "id": "vat_050",
+    "id": "vat_050_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idare-hukuku-kavramlar",
     "subtopic": "Yetki Devri ve İmza Devri",
@@ -850,7 +833,7 @@
     "_part": 50
   },
   {
-    "id": "vat_051",
+    "id": "vat_051_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idari-teskilat-genel",
     "subtopic": "İdare Hukuku Temel İlkeler",
@@ -867,7 +850,7 @@
     "_part": 51
   },
   {
-    "id": "vat_052",
+    "id": "vat_052_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "merkezi-idare",
     "subtopic": "Merkezi İdare Taçıra Teşkilatı",
@@ -884,7 +867,7 @@
     "_part": 52
   },
   {
-    "id": "vat_053",
+    "id": "vat_053_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-tuzel-kisiligi",
     "subtopic": "Kamu Tüzel Kişiliği",
@@ -901,7 +884,7 @@
     "_part": 53
   },
   {
-    "id": "vat_054",
+    "id": "vat_054_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler",
     "subtopic": "Yerel Yönetimler",
@@ -918,7 +901,7 @@
     "_part": 54
   },
   {
-    "id": "vat_055",
+    "id": "vat_055_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idari-denetim",
     "subtopic": "Hiyerarşi ve Vesayet",
@@ -935,7 +918,7 @@
     "_part": 55
   },
   {
-    "id": "vat_056",
+    "id": "vat_056_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "il-ozel-idaresi",
     "subtopic": "Mahalli İdare Organları",
@@ -952,7 +935,7 @@
     "_part": 56
   },
   {
-    "id": "vat_057",
+    "id": "vat_057_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-gorevlileri",
     "subtopic": "Memur Disiplin Cezaları",
@@ -969,7 +952,7 @@
     "_part": 57
   },
   {
-    "id": "vat_058",
+    "id": "vat_058_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "merkezi-idare",
     "subtopic": "Başkent Teşkilatı",
@@ -986,7 +969,7 @@
     "_part": 58
   },
   {
-    "id": "vat_059",
+    "id": "vat_059_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "buyuksehir-belediyesi",
     "subtopic": "Yerel Yönetimler",
@@ -1003,7 +986,7 @@
     "_part": 59
   },
   {
-    "id": "vat_060",
+    "id": "vat_060_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "yetki-genisligi",
     "subtopic": "İdare Hukuku İlkeleri",
@@ -1020,7 +1003,7 @@
     "_part": 60
   },
   {
-    "id": "vat_061",
+    "id": "vat_061_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-tuzel-kisiligi",
     "subtopic": "Kamu Tüzel Kişiliği",
@@ -1037,7 +1020,7 @@
     "_part": 61
   },
   {
-    "id": "vat_062",
+    "id": "vat_062_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idarenin-butunlugu",
     "subtopic": "İdarenin Bütünlüğü ve Denetim",
@@ -1054,7 +1037,7 @@
     "_part": 62
   },
   {
-    "id": "vat_063",
+    "id": "vat_063_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "yerel-yonetimler",
     "subtopic": "Mahalli İdareler (Köy)",
@@ -1071,7 +1054,7 @@
     "_part": 63
   },
   {
-    "id": "vat_064",
+    "id": "vat_064_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "tasra-teskilati",
     "subtopic": "İl İdaresi",
@@ -1088,7 +1071,7 @@
     "_part": 64
   },
   {
-    "id": "vat_065",
+    "id": "vat_065_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-gorevlileri",
     "subtopic": "Memurlarda Disiplin Cezaları",
@@ -1105,7 +1088,7 @@
     "_part": 65
   },
   {
-    "id": "vat_066",
+    "id": "vat_066_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "yerel-yonetimler",
     "subtopic": "Büyükşehir Belediyeleri",
@@ -1122,7 +1105,7 @@
     "_part": 66
   },
   {
-    "id": "vat_067",
+    "id": "vat_067_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "merkez-teskilati",
     "subtopic": "Başkent Teşkilatı",
@@ -1139,7 +1122,7 @@
     "_part": 67
   },
   {
-    "id": "vat_068",
+    "id": "vat_068_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-gorevlileri",
     "subtopic": "İstisnai Memurluk",
@@ -1156,7 +1139,7 @@
     "_part": 68
   },
   {
-    "id": "vat_069",
+    "id": "vat_069_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idare-hukuku-kavramlari",
     "subtopic": "Yetki Genişliği",
@@ -1173,7 +1156,7 @@
     "_part": 69
   },
   {
-    "id": "vat_070",
+    "id": "vat_070_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "yerel-yonetimler",
     "subtopic": "Belediye Organları",
@@ -1190,7 +1173,7 @@
     "_part": 70
   },
   {
-    "id": "vat_071",
+    "id": "vat_071_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idarenin-butunlugu",
     "subtopic": "İdarenin Bütünlüğü ve Denetimi",
@@ -1207,7 +1190,7 @@
     "_part": 71
   },
   {
-    "id": "vat_072",
+    "id": "vat_072_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-tuzel-kisiligi",
     "subtopic": "Kamu Tüzel Kişiliği",
@@ -1224,7 +1207,7 @@
     "_part": 72
   },
   {
-    "id": "vat_073",
+    "id": "vat_073_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler",
     "subtopic": "Mahalli İdareler",
@@ -1241,7 +1224,7 @@
     "_part": 73
   },
   {
-    "id": "vat_074",
+    "id": "vat_074_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "merkezi-idare-tasra",
     "subtopic": "Taşra Teşkilatı",
@@ -1258,7 +1241,7 @@
     "_part": 74
   },
   {
-    "id": "vat_075",
+    "id": "vat_075_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "yonetmelik",
     "subtopic": "Düzenleyici İşlemler",
@@ -1275,7 +1258,7 @@
     "_part": 75
   },
   {
-    "id": "vat_076",
+    "id": "vat_076_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "buyuksehir-belediyesi",
     "subtopic": "Büyükşehir Belediyeleri",
@@ -1292,7 +1275,7 @@
     "_part": 76
   },
   {
-    "id": "vat_077",
+    "id": "vat_077_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "koy-idaresi",
     "subtopic": "Köy İdaresi",
@@ -1309,7 +1292,7 @@
     "_part": 77
   },
   {
-    "id": "vat_078",
+    "id": "vat_078_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "baskent-teskilati",
     "subtopic": "Başkent Teşkilatı",
@@ -1326,7 +1309,7 @@
     "_part": 78
   },
   {
-    "id": "vat_079",
+    "id": "vat_079_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-gorevleri",
     "subtopic": "Kamu Görevlileri",
@@ -1343,7 +1326,7 @@
     "_part": 79
   },
   {
-    "id": "vat_080",
+    "id": "vat_080_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idari-denetim",
     "subtopic": "İdari Denetim Türleri",
@@ -1360,7 +1343,7 @@
     "_part": 80
   },
   {
-    "id": "vat_081",
+    "id": "vat_081_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idare-hukuku-kavramlar",
     "subtopic": "İdare Hukukuna Hakim Olan İlkeler",
@@ -1377,7 +1360,7 @@
     "_part": 81
   },
   {
-    "id": "vat_082",
+    "id": "vat_082_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-tuzel-kisiligi",
     "subtopic": "Kamu Tüzel Kişiliği",
@@ -1394,7 +1377,7 @@
     "_part": 82
   },
   {
-    "id": "vat_083",
+    "id": "vat_083_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idari-denetim",
     "subtopic": "İdari Vesayet ve Hiyerarşi",
@@ -1411,7 +1394,7 @@
     "_part": 83
   },
   {
-    "id": "vat_084",
+    "id": "vat_084_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler",
     "subtopic": "Belediyelerin Kurulması ve Organları",
@@ -1428,7 +1411,7 @@
     "_part": 84
   },
   {
-    "id": "vat_085",
+    "id": "vat_085_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "merkez-teskilati",
     "subtopic": "Başkent Teşkilatı",
@@ -1445,7 +1428,7 @@
     "_part": 85
   },
   {
-    "id": "vat_086",
+    "id": "vat_086_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler",
     "subtopic": "Büyükşehir Belediyeleri",
@@ -1462,7 +1445,7 @@
     "_part": 86
   },
   {
-    "id": "vat_087",
+    "id": "vat_087_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "devlet-memurlari",
     "subtopic": "Memurların Disiplin Cezaları",
@@ -1479,7 +1462,7 @@
     "_part": 87
   },
   {
-    "id": "vat_088",
+    "id": "vat_088_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "tasra-teskilati",
     "subtopic": "İl İdaresi",
@@ -1496,7 +1479,7 @@
     "_part": 88
   },
   {
-    "id": "vat_089",
+    "id": "vat_089_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler",
     "subtopic": "Köy İdaresi",
@@ -1513,7 +1496,7 @@
     "_part": 89
   },
   {
-    "id": "vat_090",
+    "id": "vat_090_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "duzenleyici-islemler",
     "subtopic": "Yönetmelikler",
@@ -1530,7 +1513,7 @@
     "_part": 90
   },
   {
-    "id": "vat_091",
+    "id": "vat_091_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idare-hukuku-ilkeleri",
     "subtopic": "İdare Hukukuna Hakim Olan İlkeler",
@@ -1547,7 +1530,7 @@
     "_part": 91
   },
   {
-    "id": "vat_092",
+    "id": "vat_092_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "merkezi-idare",
     "subtopic": "Merkezi İdare Teşkilatı",
@@ -1564,7 +1547,7 @@
     "_part": 92
   },
   {
-    "id": "vat_093",
+    "id": "vat_093_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "mahalli-idareler",
     "subtopic": "Yerel Yönetimler",
@@ -1581,7 +1564,7 @@
     "_part": 93
   },
   {
-    "id": "vat_094",
+    "id": "vat_094_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "idari-denetim",
     "subtopic": "İdarenin Bütünlüğü ve Denetim",
@@ -1598,7 +1581,7 @@
     "_part": 94
   },
   {
-    "id": "vat_095",
+    "id": "vat_095_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "belediyeler",
     "subtopic": "Belediye Kanunu",
@@ -1615,7 +1598,7 @@
     "_part": 95
   },
   {
-    "id": "vat_096",
+    "id": "vat_096_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "buyuksehir-belediyeleri",
     "subtopic": "Büyükşehir Belediyesi",
@@ -1632,7 +1615,7 @@
     "_part": 96
   },
   {
-    "id": "vat_097",
+    "id": "vat_097_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "koy-idaresi",
     "subtopic": "Köy Yönetimi",
@@ -1649,7 +1632,7 @@
     "_part": 97
   },
   {
-    "id": "vat_098",
+    "id": "vat_098_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "kamu-gorevlileri",
     "subtopic": "Devlet Memurları Kanunu",
@@ -1666,7 +1649,7 @@
     "_part": 98
   },
   {
-    "id": "vat_099",
+    "id": "vat_099_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "yonetmelikler",
     "subtopic": "Düzenleyici İşlemler",
@@ -1683,7 +1666,7 @@
     "_part": 99
   },
   {
-    "id": "vat_100",
+    "id": "vat_100_OFM5WxWD_1",
     "topicId": "lv93cmhwq7RmOFM5WxWD",
     "subtopicId": "il-ozel-idaresi",
     "subtopic": "İl Özel İdaresi Organları",

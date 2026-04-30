@@ -21,7 +21,7 @@
     "topicId": "80e0wkTLvaTQzPD6puB7",
     "subtopicId": "unsuz-benzesmesi",
     "subtopic": "Ünsüz Benzeşmesi",
-    "q": "Aşağıdaki cümlelerin hangisinde ünsüz benzeşmesine (sertleşmesine) uğramış bir sözcük **yoktur**?",
+    "q": "'Sokaktan geçen satıcıların sesleri, hafifçe aralanmış pencereyi aşıp içeri süzülüyordu. Akşamın hüznü, masadaki çiçeği izleyen çocuğun üzerine yavaşça çöküyordu.'\n\nBu parçada aşağıdaki ses olaylarından hangisi **yoktur**?",
     "o": [
       "Sınıftan çıkan öğrenciler neşeyle bahçeye koştu.",
       "Kitapçı, raflardaki tozlu eserleri özenle sildi.",
@@ -80,7 +80,7 @@
       "IV",
       "V"
     ],
-    "a": 1,
+        "q": "Bu parçada aşağıdaki ses olaylarından hangisi **yoktur**?\n\n'Sokaktan geçen satıcıların sesleri, hafifçe aralanmış pencereyi aşıp içeri süzülüyordu. Akşamın hüznü, masadaki çiçeği izleyen çocuğun üzerine yavaşça çöküyordu.'",
     "e": "Ünlü daralması, geniş ünlüyle (a, e) biten fiillere '-yor' eki geldiğinde bu ünlülerin 'ı, i, u, ü'ye dönüşmesidir.\n- I. cümlede 'sula-yor' > 'suluyor' (var),\n- III. cümlede 'de-miyor' > 'demiyor' (olumsuzluk eki 'ma/me' daralmıştır),\n- IV. cümlede 'izle-yor' > 'izliyor' (var),\n- V. cümlede 'bekle-miyor' > 'beklemiyor' (olumsuzluk eki daralmıştır).\n- II. cümlede ise fiil kökü 'bil-'dir. 'Bil-i-yor' yapısında aradaki 'i' yardımcı sestir, kökte veya ekte bir a/e daralması söz konusu değildir.",
     "_part": 5
   },
@@ -89,7 +89,7 @@
     "topicId": "80e0wkTLvaTQzPD6puB7",
     "subtopicId": "unsuz-dusmesi",
     "subtopic": "Ünsüz Düşmesi",
-    "q": "Aşağıdaki cümlelerin hangisinde **ünsüz düşmesine** uğramış bir sözcük kullanılmıştır?",
+        "e": "Parçada ünsüz benzeşmesi 'sokaktan' ve 'hafifçe' sözcüklerinde, ünlü düşmesi 'hüznü' sözcüğünde, ünsüz yumuşaması 'çiçeği' ve 'çocuğun' sözcüklerinde, kaynaştırma ünsüzü ise 'pencereyi' sözcüğünde görülür. 'Aşmak, süzülmek, çökmek' fiilleri 'a/e' ile bitmediği için ünlü daralması yoktur. Bu nedenle doğru cevap E seçeneğidir.",
     "o": [
       "Minicik elleriyle kalemi tutmaya çalışıyordu.",
       "Daracık sokaklardan geçerek denize ulaştık.",

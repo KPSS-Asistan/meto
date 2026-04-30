@@ -1152,7 +1152,7 @@
       "Beylikler arası ticareti tamamen yasaklamak."
     ],
     "a": 1,
-    "e": "Osmanlı'nın jeopolitik konumu, onu doğudaki Türk beylikleriyle Atıüçümak yerine batıda zayıflayan Bizans'a karşı fetihler yapmaya yöneltmiştir. Bu politika, beyliğin başlangıçta 'gaza' ruhuyla itibar kazanmasını ve diğer beyliklerle gereksiz çatışmalardan kaçınmasını sağlamıştır.",
+    "e": "Osmanlı'nın jeopolitik konumu, onu doğudaki Türk beylikleriyle Atışmak yerine batıda zayıflayan Bizans'a karşı fetihler yapmaya yöneltmiştir. Bu politika, beyliğin başlangıçta 'gaza' ruhuyla itibar kazanmasını ve diğer beyliklerle gereksiz çatışmalardan kaçınmasını sağlamıştır.",
     "_part": 68
   },
   {
@@ -1836,7 +1836,7 @@
     "_part": 108
   },
   {
-    "id": "1",
+    "id": "1_WxsCf4Li_1",
     "topicId": "osmanli_kultur",
     "subtopicId": "egitim_yapi",
     "subtopic": "Eğitim Sistemi",
@@ -1854,7 +1854,7 @@
     "_generatedAt": "2026-04-15T18:35:37.823Z"
   },
   {
-    "id": "2",
+    "id": "2_WxsCf4Li_1",
     "topicId": "osmanli_kultur",
     "subtopicId": "sanat_mimari",
     "subtopic": "Sanat ve Mimari",
@@ -1872,7 +1872,7 @@
     "_generatedAt": "2026-04-15T18:35:37.823Z"
   },
   {
-    "id": "3",
+    "id": "3_WxsCf4Li_1",
     "topicId": "osmanli_kultur",
     "subtopicId": "hukuk_sistemi",
     "subtopic": "Hukuk Sistemi",
@@ -1890,7 +1890,7 @@
     "_generatedAt": "2026-04-15T18:35:37.823Z"
   },
   {
-    "id": "4",
+    "id": "4_WxsCf4Li_1",
     "topicId": "osmanli_kultur",
     "subtopicId": "sosyal_yapi",
     "subtopic": "Sosyal Yapı",
@@ -1908,7 +1908,7 @@
     "_generatedAt": "2026-04-15T18:35:37.823Z"
   },
   {
-    "id": "5",
+    "id": "5_WxsCf4Li_1",
     "topicId": "osmanli_kultur",
     "subtopicId": "edebiyat_yazi",
     "subtopic": "Edebiyat ve Yazı",
@@ -1926,7 +1926,7 @@
     "_generatedAt": "2026-04-15T18:35:37.823Z"
   },
   {
-    "id": "6",
+    "id": "6_WxsCf4Li_1",
     "topicId": "osmanli_kultur",
     "subtopicId": "Lonca Sistemi",
     "q": "Osmanlı şehir ekonomisinde esnafların uyması gereken kuralları belirleyen, haksız rekabeti önleyen ve meslek içi eğitimi düzenleyen teşkilat hangisidir?",
@@ -1940,10 +1940,11 @@
     "a": 0,
     "e": "Lonca teşkilatı, esnaflar arasındaki kaliteyi, fiyatı ve üretimi denetleyen bir mesleki dayanışma örgütüdür. Tımar ise toprak sistemidir.",
     "_part": 114,
-    "_generatedAt": "2026-04-15T18:35:37.823Z"
+    "_generatedAt": "2026-04-15T18:35:37.823Z",
+    "subtopic": "Lonca Sistemi"
   },
   {
-    "id": "7",
+    "id": "7_WxsCf4Li_1",
     "topicId": "osmanli_kultur",
     "subtopicId": "bilim_dunyasi",
     "subtopic": "Bilim ve Düşünce",
@@ -1961,7 +1962,7 @@
     "_generatedAt": "2026-04-15T18:35:37.823Z"
   },
   {
-    "id": "8",
+    "id": "8_WxsCf4Li_1",
     "topicId": "osmanli_kultur",
     "subtopicId": "idari_yapi",
     "subtopic": "İdari Yapı",
@@ -1979,7 +1980,7 @@
     "_generatedAt": "2026-04-15T18:35:37.823Z"
   },
   {
-    "id": "9",
+    "id": "9_WxsCf4Li_1",
     "topicId": "osmanli_kultur",
     "subtopicId": "gundelik_yasam",
     "subtopic": "Sosyal Yaşam",
@@ -1997,7 +1998,7 @@
     "_generatedAt": "2026-04-15T18:35:37.823Z"
   },
   {
-    "id": "10",
+    "id": "10_WxsCf4Li_1",
     "topicId": "osmanli_kultur",
     "subtopicId": "sanat_süsleme",
     "subtopic": "Geleneksel Sanatlar",

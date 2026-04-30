@@ -1058,7 +1058,7 @@
     "topicId": "1FEcPsGduhjcQARpaGBk",
     "subtopicId": "yerel-saat",
     "subtopic": "Yerel Saat ve Saat Dilimleri",
-    "q": "Güneş Iğdır'da doğduktan kaç dakika sonra İzmit'te (30° Doğu) tepe noktasına ulaşır? (Iğdır: 45° Doğu)",
+    "q": "Güneş Iğdır'da doğduktan kaç dakika sonra İzmit'te (30° Doğu) tepe noktasına ulaşır (Iğdır: 45° Doğu)?",
     "o": [
       "30 dakika",
       "45 dakika",
@@ -2337,13 +2337,6 @@
     "a": 2,
     "e": "Boylam (meridyen), yerel saati ve zaman dilimlerini belirleyen temel ölçüttür.",
     "_part": 135,
-    "_generatedAt": "2026-04-15T18:36:28.245Z"
-  },
-  {
-    "id": "46",
-    "topicId": "turkiye-cografi-konum",
-    "subtopicId": "je",
-    "_part": 136,
     "_generatedAt": "2026-04-15T18:36:28.245Z"
   },
   {

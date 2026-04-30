@@ -1254,7 +1254,7 @@
       "I, II ve III"
     ],
     "a": 2,
-    "e": "üçümer Hayyam, Melikşah döneminde güneş yılı esasına dayalı Celali Takvimi'ni hazırlayan heyetin başındadır (I doğru). Matematik (cebir) ve astronomi alanında da çok önemli bilimsel çalışmaları vardır (II doğru). Sadece rubaileriyle değil, bir bilim insanı olarak da tarihe geüçümiştir (III yanlış). Bu nedenle I ve II doğrudur.",
+    "e": "üçümer Hayyam, Melikşah döneminde güneş yılı esasına dayalı Celali Takvimi'ni hazırlayan heyetin başındadır (I doğru). Matematik (cebir) ve astronomi alanında da çok önemli bilimsel çalışmaları vardır (II doğru). Sadece rubaileriyle değil, bir bilim insanı olarak da tarihe geçmiştir (III yanlış). Bu nedenle I ve II doğrudur.",
     "_part": 74
   },
   {
@@ -2233,11 +2233,11 @@
     "subtopic": "Karahanlılar",
     "q": "Karahanlı Devleti ile ilgili olarak\n\nI. İlk Müslüman Türk devleti olarak kabul edilir.\nII. Başkenti Balasagun'dur.\nIII. Satuk Buğra Han döneminde resmen Müslümanlaşmıştır.\n\nYukarıdakilerden hangileri doğrudur?",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 4,
     "e": "Doğru cevap E. Karahanlılar ilk Müslüman Türk devleti olup, Satuk Buğra Han ile Müslümanlaşmış ve Balasagun başkenttir.",
@@ -2250,11 +2250,11 @@
     "subtopic": "Karahanlılar",
     "q": "Aşağıdakilerden hangisi Karahanlı Devleti'nde vezirlik makamını ilk kez ihdas eden hükümdardır?",
     "o": [
-      "A) Bilge Kılıç Kadir Han",
-      "B) Satuk Buğra Han",
-      "C) İlig Nasr Han",
-      "D) Yusuf Kadir Han",
-      "E) Mahmud Karahanlı"
+      "Bilge Kılıç Kadir Han",
+      "Satuk Buğra Han",
+      "İlig Nasr Han",
+      "Yusuf Kadir Han",
+      "Mahmud Karahanlı"
     ],
     "a": 3,
     "e": "Doğru cevap C. İlig Nasr Han, Karahanlılar'da vezirlik makamını kurumsallaştırmıştır.",
@@ -2267,11 +2267,11 @@
     "subtopic": "Gazneliler",
     "q": "Gazneli Mahmud ile ilgili olarak\n\nI. Somnath tapınağını yağmalamıştır.\nII. Gazne'yi başkent yapmıştır.\nIII. Samanî Devleti'ni yıkmıştır.\n\nYukarıdakilerden hangileri doğrudur?",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 2,
     "e": "Doğru cevap C. Gazneli Mahmud Somnath'ı yağmalamış ve Gazne'yi başkent yapmıştır; Samanîler'i yıkmamıştır.",
@@ -2284,11 +2284,11 @@
     "subtopic": "Gazneliler",
     "q": "Aşağıdakilerden hangisi Gazneliler Dönemi'nde Hint seferlerini başlatan hükümdar değildir?",
     "o": [
-      "A) Sebüktegin",
-      "B) Gazneli Mahmud",
-      "C) Mesud",
-      "D) Nâsir Han",
-      "E) İbrahim"
+      "Sebüktegin",
+      "Gazneli Mahmud",
+      "Mesud",
+      "Nâsir Han",
+      "İbrahim"
     ],
     "a": 3,
     "e": "Doğru cevap D. Hint seferleri Sebüktegin ve Gazneli Mahmud ile başlamış; Nâsir Han dönemi geç Hint seferleridir.",
@@ -2301,11 +2301,11 @@
     "subtopic": "Büyük Selçuklular",
     "q": "Büyük Selçuklu Devleti ile ilgili\n\nI. Tuğrul Bey ve Çağrı Bey kardeşlerdir.\nII. Dandanakan Savaşı (1040) ile bağımsızlığını kazanmıştır.\nIII. Başkenti Rey'dir.\n\nYukarıdakilerden hangileri doğrudur?",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 2,
     "e": "Doğru cevap C. Tuğrul ve Çağrı kardeş olup Dandanakan ile bağımsız oldular; başkent Nişabur ve sonra İsfahan'dır.",
@@ -2318,11 +2318,11 @@
     "subtopic": "Büyük Selçuklular",
     "q": "Malazgirt Savaşı (1071) sonrasında Anadolu'ya yönelik fetihlerin önündeki en büyük engel aşağıdakilerden hangisidir?",
     "o": [
-      "A) Gazneliler",
-      "B) Karahanlılar",
-      "C) Bizans İmparatorluğu",
-      "D) Fatımîler",
-      "E) Haçlılar"
+      "Gazneliler",
+      "Karahanlılar",
+      "Bizans İmparatorluğu",
+      "Fatımîler",
+      "Haçlılar"
     ],
     "a": 2,
     "e": "Doğru cevap C. Malazgirt ile Bizans yenilgiye uğratılmış, Anadolu açılmıştır.",
@@ -2335,11 +2335,11 @@
     "subtopic": "Büyük Selçuklular",
     "q": "Nizamülmülk ile ilgili olarak\n\nI. Siyasetnâme adlı eseri yazmıştır.\nII. Melikşah'ın veziridir.\nIII. Hasan Sabbah tarafından öldürülmüştür.\n\nYukarıdakilerden hangileri doğrudur?",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 4,
     "e": "Doğru cevap E. Nizamülmülk, Melikşah'ın veziri olup Siyasetnâme'yi yazmış ve Hasan Sabbah'ın adamlarınca öldürülmüştür.",
@@ -2352,11 +2352,11 @@
     "subtopic": "Harzemşahlar",
     "q": "Harzemşahlar Devleti'nde sultan unvanını ilk kullanan hükümdar aşağıdakilerden hangisidir?",
     "o": [
-      "A) Atsız",
-      "B) Tekiş",
-      "C) İl Arslan",
-      "D) Muhammed",
-      "E) Celâleddin"
+      "Atsız",
+      "Tekiş",
+      "İl Arslan",
+      "Muhammed",
+      "Celâleddin"
     ],
     "a": 1,
     "e": "Doğru cevap B. Tekiş, Harzemşahlar'da sultan unvanını resmileştirmiştir.",
@@ -2369,11 +2369,11 @@
     "subtopic": "Karahanlılar",
     "q": "Karahanlılar Dönemi'nde aşağıdakilerden hangisi doğru değildir?\n\nAşağıdakilerden hangisi Karahanlı Devleti'nin ikili yönetim yapısından kaynaklanan bir durum değildir?",
     "o": [
-      "A) Doğu ve Batı Karahanlı olarak ayrılmışlardır.",
-      "B) Kağan ve Hakan unvanları kullanılmıştır.",
-      "C) Tamga sistemi geliştirilmiştir.",
-      "D) Satuk Buğra Han Balasagun'u fethetmiştir.",
-      "E) Yusuf Kadir Han Maveraünnehir'i ele geçirmiştir."
+      "Doğu ve Batı Karahanlı olarak ayrılmışlardır.",
+      "Kağan ve Hakan unvanları kullanılmıştır.",
+      "Tamga sistemi geliştirilmiştir.",
+      "Satuk Buğra Han Balasagun'u fethetmiştir.",
+      "Yusuf Kadir Han Maveraünnehir'i ele geçirmiştir."
     ],
     "a": 3,
     "e": "Doğru cevap C. Tamga sistemi Selçuklularda daha belirgindir; Karahanlılar'da ikili yapı hekimdir.",
@@ -2386,11 +2386,11 @@
     "subtopic": "Gazneliler",
     "q": "I. Gazneliler Farsça'yı saray dili yapmıştır.\nII. Gazneli Mesud'un veziri Hasan el-Mısrî'dir.\nIII. Gazneliler Karahanlılar ile savaşıp Nesa Antlaşması'nı imzalamıştır.\n\nYukarıdakilerden hangileri doğrudur?",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 0,
     "e": "Doğru cevap A. Gazneliler Farsça saray dili yapmış; diğerleri doğru değildir.",
@@ -2403,11 +2403,11 @@
     "subtopic": "Büyük Selçuklular",
     "q": "Büyük Selçuklu sultanları ile ilgili\n\nI. Alparslan Malazgirt Savaşı'nı kazanmıştır.\nII. Melikşah takvimi ıslah etmiştir.\nIII. Sencer Karahitaylar'a yenilmiştir.\n\nYukarıdakilerden hangileri doğrudur?",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 4,
     "e": "Doğru cevap E. Alparslan Malazgirt'i, Melikşah takvim ıslahını, Sencer Karahitay yenilgisini yaşamıştır.",
@@ -2420,11 +2420,11 @@
     "subtopic": "Büyük Selçuklular",
     "q": "1040 Dandanakan Savaşı sonrasında Selçuklular'a katılan bölgenin stratejik önemi nedir?",
     "o": [
-      "A) Horasan'ı kontrol altına almak",
-      "B) Maveraünnehir'e açılmak",
-      "C) Anadolu'ya geçiş sağlamak",
-      "D) Irak'ı ele geçirmek",
-      "E) Suriye'yi fethetmek"
+      "Horasan'ı kontrol altına almak",
+      "Maveraünnehir'e açılmak",
+      "Anadolu'ya geçiş sağlamak",
+      "Irak'ı ele geçirmek",
+      "Suriye'yi fethetmek"
     ],
     "a": 0,
     "e": "Doğru cevap A. Dandanakan ile Horasan Selçuklular'a katılmış, Gazneliler zayıflatılmıştır.",
@@ -2437,11 +2437,11 @@
     "subtopic": "Harzemşahlar",
     "q": "Harzemşah Muhammed'in Moğol istilâsına karşı aldığı tutum aşağıdakilerden hangisiyle ilişkilendirilemez?",
     "o": [
-      "A) Celâleddin Mengüberdi'nin babasıdır.",
-      "B) Semerkant'ı tahliye etmiştir.",
-      "C) Karahitaylar'a vergi ödemiştir.",
-      "D) Abbâsî Halifesi ile çatışmıştır.",
-      "E) Otrar valisi İnalcık'ın katliamı"
+      "Celâleddin Mengüberdi'nin babasıdır.",
+      "Semerkant'ı tahliye etmiştir.",
+      "Karahitaylar'a vergi ödemiştir.",
+      "Abbâsî Halifesi ile çatışmıştır.",
+      "Otrar valisi İnalcık'ın katliamı"
     ],
     "a": 3,
     "e": "Doğru cevap D. Harzemşah Muhammed Abbâsîlerle çatışmamış; diğerleri Moğol istilâsı bağlamındadır.",
@@ -2454,11 +2454,11 @@
     "subtopic": "Karahanlılar ve Gazneliler",
     "q": "I. Karahanlılar Şamanizm'den İslâm'a geçmişlerdir.\nII. Gazneliler Samanîler'in devamı niteliğindedir.\nIII. Her ikisi de Maveraünnehir'de egemen olmuştur.\n\nYukarıdakilerden hangileri doğrudur?",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 0,
     "e": "Doğru cevap A. Karahanlılar Şamanizm'den İslâm'a geçmiş; Gazneliler köle kökenli olup Maveraünnehir'de tam egemen değildir.",
@@ -2471,11 +2471,11 @@
     "subtopic": "Büyük Selçuklular",
     "q": "Büyük Selçuklular'da divan teşkilâtının Nizamülmülk tarafından sistemleştirilmesi, aşağıdaki analizlerden hangisini güçlendirir?",
     "o": [
-      "A) Merkezi otoritenin güçlendiğini",
-      "B) Feodal yapının hâkim olduğunu",
-      "C) Yerel beylerin bağımsızlaştığını",
-      "D) Abbâsî etkisinin arttığını",
-      "E) Moğol istilâsının hızlandığını"
+      "Merkezi otoritenin güçlendiğini",
+      "Feodal yapının hâkim olduğunu",
+      "Yerel beylerin bağımsızlaştığını",
+      "Abbâsî etkisinin arttığını",
+      "Moğol istilâsının hızlandığını"
     ],
     "a": 0,
     "e": "Doğru cevap A. Nizamülmülk'ün divan ıslahatları merkezi bürokrasiyi güçlendirmiştir.",
@@ -2488,11 +2488,11 @@
     "subtopic": "Gazneliler",
     "q": "Bir tarihçi, Gazneli Mahmud'un Hindistan seferlerini 'İslâm propagandası' olarak yorumlamaktadır. Buna göre aşağıdakilerden hangisi söylenebilir?",
     "o": [
-      "A) Seferler ekonomik değil dini amaçlıdır.",
-      "B) Somnath tapınağı yıkımı propaganda örneğidir.",
-      "C) Gazneliler Hindu devletlerle ittifak kurmuştur.",
-      "D) Mahmud'un veziri Firdevsî destan yazmıştır.",
-      "E) Seferler Gazne'nin zenginleşmesine katkı sağlamamıştır."
+      "Seferler ekonomik değil dini amaçlıdır.",
+      "Somnath tapınağı yıkımı propaganda örneğidir.",
+      "Gazneliler Hindu devletlerle ittifak kurmuştur.",
+      "Mahmud'un veziri Firdevsî destan yazmıştır.",
+      "Seferler Gazne'nin zenginleşmesine katkı sağlamamıştır."
     ],
     "a": 1,
     "e": "Doğru cevap B. Somnath yıkımı propaganda olarak görülür; seferler hem dini hem ekonomik.",
@@ -2505,11 +2505,11 @@
     "subtopic": "Harzemşahlar",
     "q": "I. Harzemşahlar Selçuklulara bağlı atabeylik olarak kurulmuştur.\nII. Celâleddin Mengüberdi Moğollara karşı direniş göstermiştir.\nIII. Başkentleri Ürgenç'tir.\n\nYukarıdakilerden hangileri doğrudur?",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 4,
     "e": "Doğru cevap E. Harzemşahlar Selçuklu atabeyliği olup Celâleddin direnmiş ve Ürgenç başkenttir.",
@@ -2522,11 +2522,11 @@
     "subtopic": "Büyük Selçuklular",
     "q": "1071 Malazgirt Savaşı öncesi Bizans elçisi Selçuklu sultanına 'barış' teklifinde bulunmuştur. Sultan teklifi reddetmiş ve savaşı kazanmıştır. Bu senaryoya göre sultan aşağıdakilerden hangisidir?",
     "o": [
-      "A) Tuğrul Bey",
-      "B) Çağrı Bey",
-      "C) Alparslan",
-      "D) Melikşah",
-      "E) Sencer"
+      "Tuğrul Bey",
+      "Çağrı Bey",
+      "Alparslan",
+      "Melikşah",
+      "Sencer"
     ],
     "a": 2,
     "e": "Doğru cevap C. Alparslan Malazgirt öncesi barış teklifini reddetmiştir.",
@@ -2539,11 +2539,11 @@
     "subtopic": "Karahanlılar",
     "q": "Karahanlı Yusuf Kadir Han'ın Gaznelilerle mücadelesi sonucunda Maveraünnehir'in fethi gerçekleşmiştir. Buna göre aşağıdakilerden hangisi söylenebilir?",
     "o": [
-      "A) Gazneliler tamamen yıkılmıştır.",
-      "B) Karahanlılar doğuya çekilmiştir.",
-      "C) Farsça saray dili olmuştur.",
-      "D) Büveyhîler destek vermiştir.",
-      "E) Balasagun terk edilmiştir."
+      "Gazneliler tamamen yıkılmıştır.",
+      "Karahanlılar doğuya çekilmiştir.",
+      "Farsça saray dili olmuştur.",
+      "Büveyhîler destek vermiştir.",
+      "Balasagun terk edilmiştir."
     ],
     "a": 1,
     "e": "Doğru cevap B. Yusuf Kadir Han Maveraünnehir'i aldıktan sonra Gazneliler doğuya çekilmiştir.",
@@ -2556,11 +2556,11 @@
     "subtopic": "Gazneliler",
     "q": "Bir Gazneli hükümdarı, her yıl baharda Hindistan'a sefer düzenleyip ganimetlerle dönmüştür. Bu hükümdar aşağıdakilerden hangisidir?",
     "o": [
-      "A) Sebüktegin",
-      "B) Gazneli Mahmud",
-      "C) Mesud",
-      "D) İbrahim",
-      "E) Behramşah"
+      "Sebüktegin",
+      "Gazneli Mahmud",
+      "Mesud",
+      "İbrahim",
+      "Behramşah"
     ],
     "a": 1,
     "e": "Doğru cevap B. Gazneli Mahmud 17 Hindistan seferi düzenlemiştir.",
@@ -2573,11 +2573,11 @@
     "subtopic": "Büyük Selçuklular",
     "q": "I. Alp Arslan veziri Nizamülmülk'ü öldürtmüştür.\nII. Melikşah döneminde Celâli Ayaklanmaları çıkmıştır.\nIII. Sencer'in veziri Ahmed Sandar'dır.\n\nHangileri yanlıştır?",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 0,
     "e": "Doğru cevap A. I yanlıştır; Nizamülmİlk Melikşah veziridir ve Hasan Sabbah öldürtmüştür.",
@@ -2590,11 +2590,11 @@
     "subtopic": "Harzemşahlar",
     "q": "Harzemşahlar'ın Karahitaylar'a vergi ödemesi, Selçuklular sonrası dönemde Türk devletlerinin hangi durumunu gösterir?",
     "o": [
-      "A) Bağımsızlığın güçlendiğini",
-      "B) Merkezi yapının devam ettiğini",
-      "C) Dış baskılara boyun eğdiğini",
-      "D) Abbâsî hâkimiyetini kabul ettiğini",
-      "E) Anadolu'ya yayıldığını"
+      "Bağımsızlığın güçlendiğini",
+      "Merkezi yapının devam ettiğini",
+      "Dış baskılara boyun eğdiğini",
+      "Abbâsî hâkimiyetini kabul ettiğini",
+      "Anadolu'ya yayıldığını"
     ],
     "a": 2,
     "e": "Doğru cevap C. Vergi ödemesi dış baskılara maruziyeti gösterir.",
@@ -2607,11 +2607,11 @@
     "subtopic": "Karahanlılar",
     "q": "Satuk Buğra Han'ın Müslüman oluşuyla ilgili rivayetlere göre aşağıdakilerden hangisi söylenemez?",
     "o": [
-      "A) Ahmet Yesevî'nin etkisi vardır.",
-      "B) Kaşgarlı Mahmud'un babasıdır.",
-      "C) Abdülkerim adını almıştır.",
-      "D) Balasagun'u fethetmiştir.",
-      "E) Veziri Hüseyin Has Hacib'tir."
+      "Ahmet Yesevî'nin etkisi vardır.",
+      "Kaşgarlı Mahmud'un babasıdır.",
+      "Abdülkerim adını almıştır.",
+      "Balasagun'u fethetmiştir.",
+      "Veziri Hüseyin Has Hacib'tir."
     ],
     "a": 3,
     "e": "Doğru cevap D. Balasagun Yusuf Kadir Han zamanında fethedilmiştir.",
@@ -2624,11 +2624,11 @@
     "subtopic": "Büyük Selçuklular",
     "q": "Melikşah'ın ölümü sonrası taht kavgaları sonucunda devletin ikiye bölünmesi aşağıdakilerden hangisiyle ilişkilendirilir?",
     "o": [
-      "A) Tuğrul Bey dönemi",
-      "B) Alparslan dönemi",
-      "C) Barkiyaruk dönemi",
-      "D) Mahmud dönemi",
-      "E) Sencer dönemi"
+      "Tuğrul Bey dönemi",
+      "Alparslan dönemi",
+      "Barkiyaruk dönemi",
+      "Mahmud dönemi",
+      "Sencer dönemi"
     ],
     "a": 2,
     "e": "Doğru cevap C. Melikşah sonrası Barkiyaruk ve kardeşleri arasında taht kavgası yaşanmıştır.",
@@ -2641,11 +2641,11 @@
     "subtopic": "Gazneliler ve Harzemşahlar",
     "q": "I. Gazneliler köle kökenli Türkler tarafından kurulmuştur.\nII. Harzemşahlar Büyük Selçuklu melikliği olarak başlamıştır.\nIII. Her ikisi de Gazne şehrini başkent yapmıştır.\n\nYukarıdakilerden hangileri doğrudur?",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 2,
     "e": "Doğru cevap C. Gazneliler köle kökenli, Harzemşahlar Selçuklu melikliği; Gazne Gazneliler başkentidir.",
@@ -2658,11 +2658,11 @@
     "subtopic": "Büyük Selçuklular",
     "q": "Bir Selçuklu veziri, sultana 'devlet adamları için siyaset kitabı' sunmuş ve medreseler kurmuştur. Bu vezir aşağıdakilerden hangisidir?",
     "o": [
-      "A) Ebû Ali Hasan",
-      "B) Nizamülmülk",
-      "C) Ahmed Sandar",
-      "D) Sadreddin",
-      "E) Atâ Melik Cüveynî"
+      "Ebû Ali Hasan",
+      "Nizamülmülk",
+      "Ahmed Sandar",
+      "Sadreddin",
+      "Atâ Melik Cüveynî"
     ],
     "a": 1,
     "e": "Doğru cevap B. Nizamülmülk Siyasetnâme'yi yazmış ve Nizamiye Medreseleri kurmuştur.",
@@ -2675,11 +2675,11 @@
     "subtopic": "Harzemşahlar",
     "q": "Moğol elçilerinin öldürülmesi üzerine Cengiz Han sefere çıkmış ve Otrar kuşatılmıştır. Bu olay Harzemşahlar'ın hangi hükümdarı zamanındadır?",
     "o": [
-      "A) Atsız",
-      "B) Tekiş",
-      "C) İl Arslan",
-      "D) Muhammed",
-      "E) Celâleddin"
+      "Atsız",
+      "Tekiş",
+      "İl Arslan",
+      "Muhammed",
+      "Celâleddin"
     ],
     "a": 3,
     "e": "Doğru cevap D. Harzemşah Muhammed zamanında Otrar olayı Moğol istilâsını başlatmıştır.",
@@ -2692,11 +2692,11 @@
     "subtopic": "Genel",
     "q": "Karahanlılar, Gazneliler ve Selçuklular'ın Abbâsî Halifesi'nden 'sultan' unvanı alması, Türk-İslam devletlerinde hâkimiyet anlayışını nasıl değiştirmiştir?",
     "o": [
-      "A) Dini otoriteyi zayıflatmıştır.",
-      "B) Laik bir yapı oluşturmuştur.",
-      "C) Sünni hâkimiyetin güçlendiğini gösterir.",
-      "D) Şii etkisini artırmıştır.",
-      "E) Göçebe hayatı sona erdirmiştir."
+      "Dini otoriteyi zayıflatmıştır.",
+      "Laik bir yapı oluşturmuştur.",
+      "Sünni hâkimiyetin güçlendiğini gösterir.",
+      "Şii etkisini artırmıştır.",
+      "Göçebe hayatı sona erdirmiştir."
     ],
     "a": 2,
     "e": "Doğru cevap C. Sultan unvanı Sünni Abbâsî desteğini pekiştirmiş, dini-siyasi ittifakı güçlendirmiştir.",
@@ -2709,11 +2709,11 @@
     "subtopic": "Karahanlılar",
     "q": "I. Karahanlılar'da 'Arslan Han' unvanı doğu kanadına verilmiştir.\nII. Batı Karahanlılar Balasagun'u kaybetmiştir.\nIII. Tamga sistemi kullanılmamıştır.\n\nYukarıdakilerden hangileri doğrudur?",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 1,
     "e": "Doğru cevap B. Batı Karahanlılar Balasagun'u kaybetmiş; doğu 'Böri Şah', tamga kullanılmıştır.",
@@ -2726,11 +2726,11 @@
     "subtopic": "Büyük Selçuklular",
     "q": "Büyük Selçuklular'ın Fatımîlere karşı Mısır Seferi düzenlememesi aşağıdakilerden hangisine bağlanamaz?",
     "o": [
-      "A) Haçlı Seferleri'nin başlaması",
-      "B) İç karışıklıklar",
-      "C) Nizamülmülk'ün politikası",
-      "D) Abbâsî Halifesi'nin isteği",
-      "E) Anadolu beyliklerinin kurulması"
+      "Haçlı Seferleri'nin başlaması",
+      "İç karışıklıklar",
+      "Nizamülmülk'ün politikası",
+      "Abbâsî Halifesi'nin isteği",
+      "Anadolu beyliklerinin kurulması"
     ],
     "a": 4,
     "e": "Doğru cevap E. Anadolu beylikleri sonrası oluşmuştur; diğerleri Mısır seferi engelidir.",
@@ -2743,11 +2743,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Aşağıdakilerden hangisi İlk Müslüman Türk Devletlerinden Karahanlılar Devleti'nin bilinen ilk hükümdarı değildir?\n\nI. Bilge Kül Kadir Han\nII. Satuk Buğra Han\nIII. Basıl Toghan",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 2,
     "e": "Doğru cevap C. Bilge Kül Kadir Han, Karahanlılar'ın ilk hükümdarıdır; Satuk Buğra Han ve Basıl Toghan sonraki dönemlere aittir.",
@@ -2760,11 +2760,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Karahanlılar Devleti'nde Müslüman Türk devlet geleneğinin yerleşmesinde etkili olan hanedan üyesi aşağıdakilerden hangisidir?",
     "o": [
-      "A) Bilge Kül Kadir Han",
-      "B) Basıl Toghan",
-      "C) Satuk Buğra Han",
-      "D) Musa Bin Taluk",
-      "E) Ali Tegin"
+      "Bilge Kül Kadir Han",
+      "Basıl Toghan",
+      "Satuk Buğra Han",
+      "Musa Bin Taluk",
+      "Ali Tegin"
     ],
     "a": 2,
     "e": "Doğru cevap C. Satuk Buğra Han, Karahanlılar'da ilk Müslüman hükümdar olarak devletin İslamlaşmasında dönüm noktasıdır.",
@@ -2777,11 +2777,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Aşağıdakilerden hangisi Gazneliler Devleti'nin Hindistan seferlerinde ön plana çıkan hükümdarıdır?\n\nI. Gazneli Mahmud\nII. Gazneli Mesud\nIII. Sebük Tegin",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) Yalnız III",
-      "D) I ve II",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "Yalnız III",
+      "I ve II",
+      "I, II ve III"
     ],
     "a": 0,
     "e": "Doğru cevap A. Gazneli Mahmud, Somnath seferi gibi Hindistan akınlarıyla ünlüdür; diğerleri farklı dönemlere odaklanmıştır.",
@@ -2794,11 +2794,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Büyük Selçuklu Devleti'nde sultan unvanını ilk kullanan hükümdar aşağıdakilerden hangisidir?",
     "o": [
-      "A) Çağrı Bey",
-      "B) Tuğrul Bey",
-      "C) Alparslan",
-      "D) Melikşah",
-      "E) Sencer"
+      "Çağrı Bey",
+      "Tuğrul Bey",
+      "Alparslan",
+      "Melikşah",
+      "Sencer"
     ],
     "a": 1,
     "e": "Doğru cevap B. Tuğrul Bey, 1038'de sultan unvanını alarak Selçuklu Devleti'ni resmileştirmiştir.",
@@ -2811,11 +2811,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Yukarıdaki bilgilere göre aşağıdakilerden hangisi Karahanlılar ile Gazneliler arasındaki ilişkiyi doğru yansıtmaz?\n\nI. Karahanlılar, Gazneliler'e karşı Maveraünnehir'de üstünlük kurmuştur.\nII. Gazneliler, Karahanlılar'dan Horasan'ı almıştır.\nIII. Her iki devlet de Satuk Buğra Han döneminde kurulmuştur.",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) Yalnız III",
-      "D) I ve II",
-      "E) II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "Yalnız III",
+      "I ve II",
+      "II ve III"
     ],
     "a": 2,
     "e": "Doğru cevap C. Satuk Buğra Han dönemi Karahanlılar'a özgüdür; Gazneliler Sebük Tegin ile kurulmuştur.",
@@ -2828,11 +2828,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Gazneliler Devleti'nin yıkılışında etkili olan olay aşağıdakilerden hangisidir?",
     "o": [
-      "A) Dandanakan Savaşı",
-      "B) Malazgirt Savaşı",
-      "C) Nesa Savaşı",
-      "D) Tebriz Kuşatması",
-      "E) Semerkant Seferi"
+      "Dandanakan Savaşı",
+      "Malazgirt Savaşı",
+      "Nesa Savaşı",
+      "Tebriz Kuşatması",
+      "Semerkant Seferi"
     ],
     "a": 0,
     "e": "Doğru cevap A. Dandanakan Savaşı (1040), Gazneliler'in Horasan'ı kaybetmesine yol açmıştır.",
@@ -2845,11 +2845,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Büyük Selçuklu Devleti'nde vezirlik makamını zirveye taşıyan kişi aşağıdakilerden hangisidir?",
     "o": [
-      "A) Ebû Ali",
-      "B) Amidü'l Mülk",
-      "C) Nizamülmülk",
-      "D) Tacülmülk",
-      "E) Müeyyidülmülk"
+      "Ebû Ali",
+      "Amidü'l Mülk",
+      "Nizamülmülk",
+      "Tacülmülk",
+      "Müeyyidülmülk"
     ],
     "a": 2,
     "e": "Doğru cevap C. Nizamülmülk, Siyasetname'yi yazarak vezirliğin simgesi olmuştur.",
@@ -2862,11 +2862,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Aşağıdakilerden hangisi İlk Müslüman Türk Devletleri'nin ortak özelliklerinden biri değildir?\n\nI. Türk-İslam sentezinin öncüleri olmaları\nII. Abbasi Halifesi'nden menşur almaları\nIII. Hanefi mezhebini benimsemeleri",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) Yalnız III",
-      "D) I ve II",
-      "E) II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "Yalnız III",
+      "I ve II",
+      "II ve III"
     ],
     "a": 1,
     "e": "Doğru cevap B. Gazneliler Şafi mezhebindendir; diğerleri Hanefi'dir ve sentezde rol oynamışlardır.",
@@ -2879,11 +2879,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Bir tarihçi, 'Devletinin temelini Horasan'da atan ve Gazneliler'i zayıflatan Türk beyi' diye bahsedilen kişi aşağıdakilerden hangisidir?",
     "o": [
-      "A) Satuk Buğra Han",
-      "B) Çağrı Bey",
-      "C) Gazneli Mahmud",
-      "D) Tuğrul Bey",
-      "E) Alparslan"
+      "Satuk Buğra Han",
+      "Çağrı Bey",
+      "Gazneli Mahmud",
+      "Tuğrul Bey",
+      "Alparslan"
     ],
     "a": 1,
     "e": "Doğru cevap B. Çağrı Bey, Horasan'ı üs yaparak Dandanakan Zaferi'ni hazırlamıştır.",
@@ -2896,11 +2896,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Karahanlılar Devleti'nde doğu-batı ayrılığına yol açan olay aşağıdakilerden hangisidir?",
     "o": [
-      "A) Balasagun'un başkent yapılması",
-      "B) Kaşgar'ın ikincil başkent olması",
-      "C) Semerkant'ın alınması",
-      "D) Gazneliler ile ittifak",
-      "E) Satuk Buğra'nın ölümü"
+      "Balasagun'un başkent yapılması",
+      "Kaşgar'ın ikincil başkent olması",
+      "Semerkant'ın alınması",
+      "Gazneliler ile ittifak",
+      "Satuk Buğra'nın ölümü"
     ],
     "a": 2,
     "e": "Doğru cevap C. Semerkant ve Buhara'nın alınması doğu-batı ayrılığına neden olmuştur.",
@@ -2913,11 +2913,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Yukarıdakilerden hangisi Büyük Selçuklu Devleti'nin Abbasi Halifesi ile ilişkisini doğru yorumlar?\n\nI. Tuğrul Bey, Bağdat'ı kurtararak 'Sultanü'l Muazzam' unvanını almıştır.\nII. Alparslan, Halife'nin sikkesini bastırmıştır.\nIII. Melikşah, Nizamülmülk aracılığıyla hilafeti güçlendirmiştir.",
     "o": [
-      "A) Yalnız I",
-      "B) I ve II",
-      "C) II ve III",
-      "D) I ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "I ve II",
+      "II ve III",
+      "I ve III",
+      "I, II ve III"
     ],
     "a": 4,
     "e": "Doğru cevap E. Selçuklular, halifeliği Fatımiler'den kurtararak güçlendirmiş ve unvanlar almışlardır.",
@@ -2930,11 +2930,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Gazneliler Devleti'nde edebiyat ve sanatın himaye edildiği dönem aşağıdakilerden hangisidir?",
     "o": [
-      "A) Sebük Tegin dönemi",
-      "B) Gazneli Mahmud dönemi",
-      "C) Gazneli Mesud dönemi",
-      "D) Behram Şah dönemi",
-      "E) Hızır Han dönemi"
+      "Sebük Tegin dönemi",
+      "Gazneli Mahmud dönemi",
+      "Gazneli Mesud dönemi",
+      "Behram Şah dönemi",
+      "Hızır Han dönemi"
     ],
     "a": 1,
     "e": "Doğru cevap B. Gazneli Mahmud, Firdevsi ve Beyhaki gibi isimleri himaye etmiştir.",
@@ -2947,11 +2947,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Aşağıdakilerden hangisi Karahanlılar Devleti'nin başkentleri arasında yer almaz?\n\nI. Balasagun\nII. Kaşgar\nIII. Gazne",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) Yalnız III",
-      "D) I ve II",
-      "E) II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "Yalnız III",
+      "I ve II",
+      "II ve III"
     ],
     "a": 2,
     "e": "Doğru cevap C. Gazne, Gazneliler'in başkentidir.",
@@ -2964,11 +2964,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Büyük Selçuklu Devleti'nde Malazgirt Zaferi'nin ardından fethedilen bölgelerden hangisi Anadolu'nun kapısını açmıştır?",
     "o": [
-      "A) Halep",
-      "B) Antakya",
-      "C) Urfa",
-      "D) Diyarbakır",
-      "E) Van"
+      "Halep",
+      "Antakya",
+      "Urfa",
+      "Diyarbakır",
+      "Van"
     ],
     "a": 1,
     "e": "Doğru cevap B. Antakya'nın fethi, Anadolu'ya Türk göçlerini hızlandırmıştır.",
@@ -2981,11 +2981,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Bir senaryoda, 'Türkmen beyleri Horasan'ı üs yaparak Gazneliler'e karşı zafer kazandı' denilirse bu olay aşağıdakilerden hangisidir?",
     "o": [
-      "A) Nesa Savaşı",
-      "B) Dandanakan Savaşı",
-      "C) Malazgirt Savaşı",
-      "D) Kapadokya Seferi",
-      "E) Tebriz Muharebesi"
+      "Nesa Savaşı",
+      "Dandanakan Savaşı",
+      "Malazgirt Savaşı",
+      "Kapadokya Seferi",
+      "Tebriz Muharebesi"
     ],
     "a": 1,
     "e": "Doğru cevap B. Dandanakan Savaşı (1040), Selçuklular'ın Gazneliler'i Horasan'dan çıkarmasıyla sonuçlanmıştır.",
@@ -2998,11 +2998,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Karahanlılar ile Büyük Selçuklular'ı karşılaştırdığımızda aşağıdakilerden hangisi Selçuklular'a özgüdür?\n\nI. İlk Müslüman Türk devleti olmak\nII. Abbasi Halifesi'ni kurtarmak\nIII. Divan-ı istifa kurmak",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve III",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 1,
     "e": "Doğru cevap B. Bağdat'ın kurtarılması Tuğrul Bey'e aittir; diğerleri Karahanlılar'la ilişkilidir.",
@@ -3015,11 +3015,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Gazneliler Devleti'nin ordu yapısında önemli rol oynayan unsur aşağıdakilerden hangisidir?",
     "o": [
-      "A) Köle askerler (gulâm)",
-      "B) Tımarlı sipahiler",
-      "C) Atabeylik sistemi",
-      "D) Nizâm-ı Âlem",
-      "E) Kulu sistemi"
+      "Köle askerler (gulâm)",
+      "Tımarlı sipahiler",
+      "Atabeylik sistemi",
+      "Nizâm-ı Âlem",
+      "Kulu sistemi"
     ],
     "a": 0,
     "e": "Doğru cevap A. Gazneliler, gulâm usulü köle askerlerle ordusunu oluşturmuştur.",
@@ -3032,11 +3032,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Aşağıdakilerden hangisi Büyük Selçuklu Devleti'nde Melikşah döneminin özelliklerinden değildir?\n\nI. Nizamiye Medreseleri'nin kurulması\nII. Celâli İsyanları'nın başlaması\nIII. Rûm Gazileri'nin Anadolu'ya yayılması",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) Yalnız III",
-      "D) I ve II",
-      "E) II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "Yalnız III",
+      "I ve II",
+      "II ve III"
     ],
     "a": 1,
     "e": "Doğru cevap B. Celâli İsyanları Sencer dönemindedir; diğerleri Melikşah'a aittir.",
@@ -3049,11 +3049,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Karahanlılar Devleti'nde Yusuf Kadir Han'ın yaptığı icraatı aşağıdakilerden hangisi doğru yorumlar?",
     "o": [
-      "A) Gazneliler'i yenerek Maveraünnehir'i aldı",
-      "B) Semerkant'ı başkent yaptı",
-      "C) Satuk Buğra'yı Müslüman yaptı",
-      "D) Buhara'yı fethetti",
-      "E) Kaşgar'ı terk etti"
+      "Gazneliler'i yenerek Maveraünnehir'i aldı",
+      "Semerkant'ı başkent yaptı",
+      "Satuk Buğra'yı Müslüman yaptı",
+      "Buhara'yı fethetti",
+      "Kaşgar'ı terk etti"
     ],
     "a": 1,
     "e": "Doğru cevap B. Yusuf Kadir Han, doğu Karahanlılar'ı yöneterek Semerkant'ı merkez yapmıştır.",
@@ -3066,11 +3066,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Büyük Selçuklu Devleti'nin yıkılış sürecinde rol oynayan Oğuz isyanı aşağıdakilerden hangisidir?",
     "o": [
-      "A) Dandanakan İsyanı",
-      "B) Celâli İsyanı",
-      "C) Babai İsyanı",
-      "D) Şiraz İsyanı",
-      "E) Rey Ayaklanması"
+      "Dandanakan İsyanı",
+      "Celâli İsyanı",
+      "Babai İsyanı",
+      "Şiraz İsyanı",
+      "Rey Ayaklanması"
     ],
     "a": 1,
     "e": "Doğru cevap B. Celâli İsyanları, Sencer döneminde devletin zayıflamasına yol açmıştır.",
@@ -3083,11 +3083,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Yukarıdaki bilgilere göre İlk Müslüman Türk Devletleri'nin fetih politikalarını karşılaştıran ifade aşağıdakilerden hangisidir?\n\nI. Gazneliler doğuya, Selçuklular batıya yönelmiştir.\nII. Karahanlılar Maveraünnehir'i, Gazneliler Horasan'ı kontrol etmiştir.\nIII. Selçuklular Anadolu'ya, Karahanlılar Çin'e sefer yapmıştır.",
     "o": [
-      "A) Yalnız I",
-      "B) I ve II",
-      "C) II ve III",
-      "D) I ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "I ve II",
+      "II ve III",
+      "I ve III",
+      "I, II ve III"
     ],
     "a": 3,
     "e": "Doğru cevap D. Gazneliler doğu (Hindistan), Selçuklular batı (Anadolu); Karahanlılar Çin'e baskın yapmıştır.",
@@ -3100,11 +3100,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Gazneli Mesud'un Selçuklular'a karşı kaybettiği savaş aşağıdakilerden hangisidir?",
     "o": [
-      "A) Nesa Savaşı",
-      "B) Dandanakan Savaşı",
-      "C) Rudrabati Savaşı",
-      "D) Malazgirt Savaşı",
-      "E) Kapani Savaşı"
+      "Nesa Savaşı",
+      "Dandanakan Savaşı",
+      "Rudrabati Savaşı",
+      "Malazgirt Savaşı",
+      "Kapani Savaşı"
     ],
     "a": 0,
     "e": "Doğru cevap A. Nesa Savaşı (1038), Gazneliler'in gerilemesinin başlangıcıdır.",
@@ -3117,11 +3117,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Aşağıdakilerden hangisi Karahanlılar Devleti'nin kültürel katkılarından biri değildir?\n\nI. Kutadgu Bilig'in yazılması\nII. Divanü Lügati't Türk'ün derlenmesi\nIII. Şehname'nin yazdırılması",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) Yalnız III",
-      "D) I ve II",
-      "E) II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "Yalnız III",
+      "I ve II",
+      "II ve III"
     ],
     "a": 2,
     "e": "Doğru cevap C. Şehname Gazneli Mahmud himayesinde yazılmıştır.",
@@ -3134,11 +3134,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Büyük Selçuklu Devleti'nde sultanların tahta çıkışında rol oynayan meclis aşağıdakilerden hangisidir?",
     "o": [
-      "A) Kengeş",
-      "B) Kurultay",
-      "C) Divan",
-      "D) Şura",
-      "E) Meclis-i Umumi"
+      "Kengeş",
+      "Kurultay",
+      "Divan",
+      "Şura",
+      "Meclis-i Umumi"
     ],
     "a": 0,
     "e": "Doğru cevap A. Kengeş meclisi, Selçuklu taht mücadelelerinde etkili olmuştur.",
@@ -3151,11 +3151,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Eğer bir hükümdar 'Bağdat'ı kurtararak doğu İslam dünyasının koruyucusu olduysa' bu Büyük Selçuklu sultanı aşağıdakilerden hangisidir?",
     "o": [
-      "A) Çağrı Bey",
-      "B) Tuğrul Bey",
-      "C) Alparslan",
-      "D) Melikşah",
-      "E) Berkyaruk"
+      "Çağrı Bey",
+      "Tuğrul Bey",
+      "Alparslan",
+      "Melikşah",
+      "Berkyaruk"
     ],
     "a": 1,
     "e": "Doğru cevap B. Tuğrul Bey, 1055'te Bağdat'ı Büveyhoğulları'ndan kurtarmıştır.",
@@ -3168,11 +3168,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "İlk Müslüman Türk Devletleri arasında Gazneliler'i diğerlerinden ayıran özellik aşağıdakilerden hangisidir?",
     "o": [
-      "A) Hanefi mezhebi",
-      "B) Köle asker ordusu",
-      "C) Abbasi menşuru",
-      "D) Türk-İslam mimarisi",
-      "E) Medrese inşası"
+      "Hanefi mezhebi",
+      "Köle asker ordusu",
+      "Abbasi menşuru",
+      "Türk-İslam mimarisi",
+      "Medrese inşası"
     ],
     "a": 1,
     "e": "Doğru cevap B. Gazneliler gulâm (köle asker) sistemine dayanırken diğerleri aile ordusuna sahiptir.",
@@ -3185,11 +3185,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Karahanlılar Devleti'nin Moğol istilasına kadar varlığını sürdürmesi aşağıdakilerden hangisiyle ilişkilendirilir?\n\nI. Doğu Karahanlılar\nII. Batı Karahanlılar\nIII. Büyük Selçuklu vassalı",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 0,
     "e": "Doğru cevap A. Doğu Karahanlılar 1212'ye kadar varlığını sürdürmüştür.",
@@ -3202,11 +3202,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Büyük Selçuklu Devleti'nde takvim ıslahatı yapan vezir aşağıdakilerden hangisidir?",
     "o": [
-      "A) Nizamülmülk",
-      "B) Amidü'l Mülk",
-      "C) Celaleddin",
-      "D) Ömer Hayyam",
-      "E) Tacülmülk"
+      "Nizamülmülk",
+      "Amidü'l Mülk",
+      "Celaleddin",
+      "Ömer Hayyam",
+      "Tacülmülk"
     ],
     "a": 3,
     "e": "Doğru cevap D. Ömer Hayyam, Melikşah takvimini vezirlik himayesinde düzenlemiştir.",
@@ -3219,11 +3219,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Gazneliler Devleti'nin Punjab'ı kontrol ettiği dönem aşağıdakilerden hangisidir?",
     "o": [
-      "A) Sebük Tegin",
-      "B) Gazneli Mahmud",
-      "C) Gazneli Mesud",
-      "D) Arslan Şah",
-      "E) Behram Şah"
+      "Sebük Tegin",
+      "Gazneli Mahmud",
+      "Gazneli Mesud",
+      "Arslan Şah",
+      "Behram Şah"
     ],
     "a": 1,
     "e": "Doğru cevap B. Gazneli Mahmud, Hindistan seferleriyle Punjab'ı fethetmiştir.",
@@ -3236,11 +3236,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri",
     "q": "Aşağıdakilerden hangisi İlk Müslüman Türk Devletleri'nin İslam dünyasındaki konumunu doğru analiz eder?\n\nI. Karahanlılar sentezin öncüsü\nII. Gazneliler gazâ politikası\nIII. Selçuklular halife koruyucusu",
     "o": [
-      "A) Yalnız I",
-      "B) I ve II",
-      "C) II ve III",
-      "D) I ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "I ve II",
+      "II ve III",
+      "I ve III",
+      "I, II ve III"
     ],
     "a": 4,
     "e": "Doğru cevap E. Her devlet belirtilen rolde İslam sentezi ve yayılmasında etkilidir.",
@@ -3253,11 +3253,11 @@
     "subtopic": "Karahanlılar Kuruluşu",
     "q": "Karahanlılar Devleti ile ilgili olarak aşağıdakilerden hangisi yanlıştır? Bilge Kül Kadir Han tarafından kurulmuştur.\nII. Satuk Buğra Han döneminde Müslüman Türk devleti unvanını almıştır.\nIII. Balasagun başkent yapılmıştır.",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 0,
     "e": "Doğru cevap A. Karahanlılar, Bilge Kül Kadir Han değil, Bilge Kül Kutlug tarafından kurulmuştur.",
@@ -3270,11 +3270,11 @@
     "subtopic": "Gazneliler Hükümdarları",
     "q": "Gazneliler Devleti'nde aşağıdakilerden hangisi doğrudur?\n\nI. Alp Tegin'in kurduğu devletin başkenti Gazne'dir.\nII. Sebüktegin, Gazne'yi ele geçirerek devletin temellerini atmıştır.\nIII. Mahmud Gazneli, Somnath tapınağını yıkmıştır.",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 3,
     "e": "Doğru cevap D. Sebüktegin Gazne'yi ele geçirmiş ve Mahmud Somnath'ı yıkmıştır; Alp Tegin Gazne'yi kurmamıştır.",
@@ -3287,11 +3287,11 @@
     "subtopic": "Büyük Selçuklular Fetihleri",
     "q": "Büyük Selçuklular'ın fetih politikaları aşağıdakilerden hangisinde doğru verilmiştir?\n\nI. Dandanakan Savaşı (1040) ile Gazneliler'e karşı zafer kazanıldı.\nII. Tuğrul Bey, 1055'te Bağdat'a girerek halifeyi himayesine aldı.\nIII. Alparslan, 1071 Malazgirt Zaferi ile Anadolu'yu Türklere açtı.",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) I ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
     ],
     "a": 2,
     "e": "Doğru cevap C. Dandanakan ve Bağdat girişi doğru; Malazgirt Alparslan dönemidir ama Anadolu Selçukluları ile ilişkilendirilir.",
@@ -3304,11 +3304,11 @@
     "subtopic": "Karahanlılar Kültürü",
     "q": "Karahanlılar Devleti'nde aşağıdakilerden hangisi kültürel özelliklere örnek değildir?\n\nI. Yusuf Has Hacib'in Kutadgu Bilig'i yazılmıştır.\nII. Kaşgarlı Mahmud'un Divanü Lügati't-Türk'ü kaleme alınmıştır.\nIII. İlk düzenli ordu Nizamiye Medreseleri'nde eğitilmiştir.",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 1,
     "e": "Doğru cevap B. Nizamiye Medreseleri Selçuklu dönemine aittir; diğerleri Karahanlı eserleridir.",
@@ -3321,11 +3321,11 @@
     "subtopic": "Gazneliler Seferleri",
     "q": "Yukarıdaki bilgilere göre Gazneliler'in seferleri hakkında hangisi söylenebilir?\n\nI. Hindistan'a 17 sefer düzenlenmiştir.\nII. Gazne, Samaniler'in yıkılmasıyla bağımsızlaşmıştır.\nIII. Celaleddin Harezmşah Gazneliler'i yenmiştir.",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) I ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
     ],
     "a": 2,
     "e": "Doğru cevap C. Mahmud'un 17 Hindistan seferi ve Samani yıkılışı doğru; Celaleddin Harzemşah dönemindedir.",
@@ -3338,11 +3338,11 @@
     "subtopic": "Büyük Selçuklular Yönetimi",
     "q": "Büyük Selçuklu Devleti'nde yönetim yapısı aşağıdakilerden hangisinde doğru verilmiştir?\n\nI. Divan-ı Arz ordu işlerini yürütmüştür.\nII. Nizamülmülk Siyasetname'yi yazmıştır.\nIII. Atabeylik sistemi Melikşah döneminde başlamıştır.",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 2,
     "e": "Doğru cevap C. Divan-ı Arz ve Siyasetname doğru; Atabeylik Tuğrul Bey dönemindedir.",
@@ -3355,11 +3355,11 @@
     "subtopic": "Harzemşahlar Kuruluşu",
     "q": "Harzemşahlar Devleti ile ilgili olarak aşağıdakilerden hangisi yanlıştır?\n\nI. Anuştegin Gürçani tarafından kurulmuştur.\nII. Atsız, Selçuklu Sultanı Sencer'i yenmiştir.\nIII. Başkent Ürgenç'tir.",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 3,
     "e": "Doğru cevap D. Anuştegin kurucudur ve Ürgenç başkenttir; Atsız Sencer'i yenmemiştir.",
@@ -3372,11 +3372,11 @@
     "subtopic": "Anadolu Selçukluları Kuruluşu",
     "q": "Anadolu Selçuklu Devleti hakkında aşağıdakilerden hangisi doğrudur?\n\nI. Süleyman Şah tarafından 1077'de kurulmuştur.\nII. Kutalmışoğlu Süleyman Şah'tır.\nIII. İznik ilk başkent yapılmıştır.",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) I ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
     ],
     "a": 3,
     "e": "Doğru cevap D. Süleyman Şah 1077'de İznik'i başkent yapmıştır; Kutalmışoğlu doğru ama II tam ifade.",
@@ -3389,11 +3389,11 @@
     "subtopic": "Karahanlılar Yıkılışı",
     "q": "Karahanlılar'ın yıkılışında aşağıdakilerden hangileri rol oynamıştır?\n\nI. Karahitaylar'ın saldırısı\nII. Moğol istilası\nIII. Selçuklu müdahalesi",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) I ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
     ],
     "a": 0,
     "e": "Doğru cevap A. Karahanlılar Karahitaylar tarafından yıkılmıştır; Moğollar daha sonra Harzemşahlar'ı etkilemiştir.",
@@ -3406,11 +3406,11 @@
     "subtopic": "Gazneliler Yıkılışı",
     "q": "Gazneliler Devleti'nin yıkılışında etkili olanlar aşağıdakilerden hangisidir?\n\nI. Selçuklular (Dandanakan)\nII. Gurlular\nIII. Harzemşahlar",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 2,
     "e": "Doğru cevap C. Dandanakan'da Selçuklular ve Gurlular Gazneliler'i yıkmıştır.",
@@ -3423,11 +3423,11 @@
     "subtopic": "Büyük Selçuklular İdari Yapı",
     "q": "Aşağıdakilerden hangisi Büyük Selçuklu idari teşkilatına ait değildir?",
     "o": [
-      "A) Divan-ı İstifa",
-      "B) Divan-ı İşraf",
-      "C) Divan-ı Berid",
-      "D) Divan-ı Mükafaat",
-      "E) Divan-ı Arz"
+      "Divan-ı İstifa",
+      "Divan-ı İşraf",
+      "Divan-ı Berid",
+      "Divan-ı Mükafaat",
+      "Divan-ı Arz"
     ],
     "a": 3,
     "e": "Doğru cevap D. Divan-ı Mükafaat Selçuklu'da yoktur; diğerleri mali, istihbarat ve ordu divanlarıdır.",
@@ -3440,11 +3440,11 @@
     "subtopic": "Harzemşahlar Yıkılışı",
     "q": "Buna göre aşağıdakilerden hangisi Harzemşahlar'ın Moğollara karşı tutumunu yansıtır?",
     "o": [
-      "A) Alaeddin Muhammed Cengiz Han'a elçi öldürttü.",
-      "B) Celaleddin Semerkant'ı savundu.",
-      "C) Atsız Moğollara vergi verdi.",
-      "D) Tekiş Moğolları yendi.",
-      "E) İl Arslan Moğolları kabul etti."
+      "Alaeddin Muhammed Cengiz Han'a elçi öldürttü.",
+      "Celaleddin Semerkant'ı savundu.",
+      "Atsız Moğollara vergi verdi.",
+      "Tekiş Moğolları yendi.",
+      "İl Arslan Moğolları kabul etti."
     ],
     "a": 0,
     "e": "Doğru cevap A. Alaeddin Muhammed'in Moğol elçileri öldürtmesi Cengiz Han'ın saldırısına neden olmuştur.",
@@ -3457,11 +3457,11 @@
     "subtopic": "Anadolu Selçukluları Hükümdarları",
     "q": "Anadolu Selçuklu hükümdarları arasında aşağıdakilerden hangisi I. Kılıç Arslan'dır?",
     "o": [
-      "A) Süleyman Şah'ın oğlu",
-      "B) Mesud'un oğlu",
-      "C) Melikşah'ın yeğeni",
-      "D) Rükneddin Kılıç Arslan",
-      "E) Gıyaseddin Keyhüsrev"
+      "Süleyman Şah'ın oğlu",
+      "Mesud'un oğlu",
+      "Melikşah'ın yeğeni",
+      "Rükneddin Kılıç Arslan",
+      "Gıyaseddin Keyhüsrev"
     ],
     "a": 3,
     "e": "Doğru cevap D. I. Kılıç Arslan, Rükneddin unvanıyla bilinir ve Haçlılara karşı savaşmıştır.",
@@ -3474,11 +3474,11 @@
     "subtopic": "Karahanlılar İslamlaşma",
     "q": "Karahanlılar'da İslamlaşma sürecini hızlandıran olay aşağıdakilerden hangisidir?",
     "o": [
-      "A) Satuk Buğra Han'ın Müslüman olması",
-      "B) Bilge Kül'ün cihat fetvaları",
-      "C) Mahmud Gazneli'nin yardımı",
-      "D) Tuğrul Bey'in himayesi",
-      "E) Nizamülmülk'ün medreseleri"
+      "Satuk Buğra Han'ın Müslüman olması",
+      "Bilge Kül'ün cihat fetvaları",
+      "Mahmud Gazneli'nin yardımı",
+      "Tuğrul Bey'in himayesi",
+      "Nizamülmülk'ün medreseleri"
     ],
     "a": 0,
     "e": "Doğru cevap A. Satuk Buğra Han'ın Müslümanlığı Karahanlılar'ı ilk Müslüman Türk devleti yapmıştır.",
@@ -3491,11 +3491,11 @@
     "subtopic": "Gazneliler Kültürü",
     "q": "Yukarıdaki metne göre Gazneliler döneminde aşağıdakilerden hangisi kültürel katkı olarak söylenebilir?",
     "o": [
-      "A) Firdevsi'nin Şehname'si",
-      "B) Yusuf Has Hacib'in eseri",
-      "C) Kaşgarlı Mahmud'un sözlüğü",
-      "D) Nizamülmülk'ün Siyasetname'si",
-      "E) Mevlana'nın Mesnevi'si"
+      "Firdevsi'nin Şehname'si",
+      "Yusuf Has Hacib'in eseri",
+      "Kaşgarlı Mahmud'un sözlüğü",
+      "Nizamülmülk'ün Siyasetname'si",
+      "Mevlana'nın Mesnevi'si"
     ],
     "a": 0,
     "e": "Doğru cevap A. Firdevsi Gazneliler himayesinde Şehname'yi yazmıştır.",
@@ -3508,11 +3508,11 @@
     "subtopic": "Büyük Selçuklular Kültürü",
     "q": "Büyük Selçuklular'da aşağıdakilerden hangisi Nizamülmülk ile ilişkilendirilmez?",
     "o": [
-      "A) Nizamiye Medreseleri",
-      "B) Siyasetname",
-      "C) Divan-ı Risalet",
-      "D) Hasan Sabbah suikastı",
-      "E) Bağdat Nizamiyesi"
+      "Nizamiye Medreseleri",
+      "Siyasetname",
+      "Divan-ı Risalet",
+      "Hasan Sabbah suikastı",
+      "Bağdat Nizamiyesi"
     ],
     "a": 2,
     "e": "Doğru cevap C. Divan-ı Risalet haberleşme divanıdır; diğerleri Nizamülmülk'ün eserleridir.",
@@ -3525,11 +3525,11 @@
     "subtopic": "Anadolu Selçukluları Ekonomi",
     "q": "Anadolu Selçukluları'nda ekonomik yapıyı güçlendiren unsurlar arasında hangisi yoktur?",
     "o": [
-      "A) İpek Yolu'nun kontrolü",
-      "B) Kervansaray inşası",
-      "C) İktâ sistemi",
-      "D) Moğol vergi reformu",
-      "E) Deniz ticareti"
+      "İpek Yolu'nun kontrolü",
+      "Kervansaray inşası",
+      "İktâ sistemi",
+      "Moğol vergi reformu",
+      "Deniz ticareti"
     ],
     "a": 3,
     "e": "Doğru cevap D. Moğol vergileri ekonomiyi zayıflatmıştır; diğerleri güçlendirmiştir.",
@@ -3542,11 +3542,11 @@
     "subtopic": "Harzemşahlar Savaşları",
     "q": "Harzemşahlar ile Selçuklular arasındaki ilişkiyi doğru yansıtan aşağıdakidir?",
     "o": [
-      "A) Atsız'ın Sencer'i yenmesi",
-      "B) Tekiş'in vassallığı",
-      "C) Alaeddin'in bağımsızlığı",
-      "D) Celaleddin'in ittifakı",
-      "E) İl Arslan'ın zaferi"
+      "Atsız'ın Sencer'i yenmesi",
+      "Tekiş'in vassallığı",
+      "Alaeddin'in bağımsızlığı",
+      "Celaleddin'in ittifakı",
+      "İl Arslan'ın zaferi"
     ],
     "a": 1,
     "e": "Doğru cevap B. Tekiş Harzemşahlar'ı Selçuklu vassalı yapmıştır.",
@@ -3559,11 +3559,11 @@
     "subtopic": "İlk Müslüman Türk Devletleri Karşılaştırma",
     "q": "Aşağıdaki devletlerden hangisi diğerlerine göre Orta Asya'da en uzun süre egemenlik kurmuştur?",
     "o": [
-      "A) Gazneliler",
-      "B) Karahanlılar",
-      "C) Büyük Selçuklular",
-      "D) Harzemşahlar",
-      "E) Anadolu Selçukluları"
+      "Gazneliler",
+      "Karahanlılar",
+      "Büyük Selçuklular",
+      "Harzemşahlar",
+      "Anadolu Selçukluları"
     ],
     "a": 1,
     "e": "Doğru cevap B. Karahanlılar 840-1212 yılları arasında yaklaşık 372 yıl sürmüştür.",
@@ -3576,11 +3576,11 @@
     "subtopic": "Selçuklu Nizamülmülk Etkisi",
     "q": "Büyük Selçuklu'da vezir Nizamülmülk'ün politikaları aşağıdakilerden hangisini analiz eder?\nI. Merkezi otorite güçlendirme II. Medrese sistemi III. İktisadi reformlar",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) II ve III",
-      "E) I, II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
     ],
     "a": 2,
     "e": "Doğru cevap C. Nizamülmülk merkeziyetçilik ve medreseleri ön plana çıkarmıştır.",
@@ -3593,11 +3593,11 @@
     "subtopic": "Gazne Hindistan Seferleri",
     "q": "Mahmud Gazneli'nin Hindistan seferleri senaryosunda aşağıdakilerden hangisi ekonomik kazanç sağlamıştır?",
     "o": [
-      "A) Somnath tapınağı yağması",
-      "B) Delhi'nin fethi",
-      "C) Ganj nehri geçişi",
-      "D) Pencap eyaleti ilhakı",
-      "E) Lahor'un terk edilmesi"
+      "Somnath tapınağı yağması",
+      "Delhi'nin fethi",
+      "Ganj nehri geçişi",
+      "Pencap eyaleti ilhakı",
+      "Lahor'un terk edilmesi"
     ],
     "a": 0,
     "e": "Doğru cevap A. Somnath yağması büyük ganimet getirmiştir.",
@@ -3610,11 +3610,11 @@
     "subtopic": "Dandanakan Savaşı Senaryosu",
     "q": "1040 Dandanakan Savaşı senaryosunda Selçuklular Gazneliler'e karşı aşağıdakilerden hangisini kazanmıştır?",
     "o": [
-      "A) Horasan'ı",
-      "B) Gazne'yi",
-      "C) Belh'i",
-      "D) Merv'i",
-      "E) Nişabur'u"
+      "Horasan'ı",
+      "Gazne'yi",
+      "Belh'i",
+      "Merv'i",
+      "Nişabur'u"
     ],
     "a": 0,
     "e": "Doğru cevap A. Dandanakan ile Horasan Selçuklular'a geçmiştir.",
@@ -3627,11 +3627,11 @@
     "subtopic": "Malazgirt Sonrası Anadolu",
     "q": "1071 Malazgirt Zaferi sonrası senaryoda Anadolu Selçukluları'nın kuruluşu için aşağıdakilerden hangisi temel olmuştur?",
     "o": [
-      "A) Alparslan'ın Süleyman Şah'a ahdnamesi",
-      "B) Tuğrul'un fermanı",
-      "C) Bizans ittifakı",
-      "D) Haçlı yardımı",
-      "E) Moğol desteği"
+      "Alparslan'ın Süleyman Şah'a ahdnamesi",
+      "Tuğrul'un fermanı",
+      "Bizans ittifakı",
+      "Haçlı yardımı",
+      "Moğol desteği"
     ],
     "a": 0,
     "e": "Doğru cevap A. Alparslan Süleyman Şah'a Anadolu'yu vermiştir.",
@@ -3644,11 +3644,11 @@
     "subtopic": "Moğol İstilası Harzem",
     "q": "Harzemşahlar'da Moğol istilası senaryosunda Celaleddin'in Parvan Zaferi sonrası ne olmuştur?",
     "o": [
-      "A) Hindistan'a çekilmesi",
-      "B) Bağdat'ı alması",
-      "C) Anadolu'ya sığınması",
-      "D) Semerkant'ı kurtarması",
-      "E) Ürgenç'i savunması"
+      "Hindistan'a çekilmesi",
+      "Bağdat'ı alması",
+      "Anadolu'ya sığınması",
+      "Semerkant'ı kurtarması",
+      "Ürgenç'i savunması"
     ],
     "a": 0,
     "e": "Doğru cevap A. Celaleddin Parvan'dan sonra Hindistan'a kaçmıştır.",
@@ -3661,11 +3661,11 @@
     "subtopic": "Karahanlılar-Gazneliler Karşılaştırma",
     "q": "Karahanlılar ile Gazneliler'i karşılaştırdığımızda aşağıdakilerden hangisi farklılıktır?",
     "o": [
-      "A) Her ikisi de Türk kökenli",
-      "B) Gazneliler'in Hindistan seferleri",
-      "C) Karahanlılar'ın Balasagun'u",
-      "D) Her ikisinde de Farsça saray dili",
-      "E) Her ikisi de Samanilerden etkilenmiş"
+      "Her ikisi de Türk kökenli",
+      "Gazneliler'in Hindistan seferleri",
+      "Karahanlılar'ın Balasagun'u",
+      "Her ikisinde de Farsça saray dili",
+      "Her ikisi de Samanilerden etkilenmiş"
     ],
     "a": 1,
     "e": "Doğru cevap B. Gazneliler Hindistan'a sefer düzenlemiştir; Karahanlılar Orta Asya odaklıdır.",
@@ -3678,11 +3678,11 @@
     "subtopic": "Selçuklu Divanları Analiz",
     "q": "Büyük Selçuklu divanları analiz edildiğinde aşağıdakilerden hangisi mali işleri yönetmemiştir?",
     "o": [
-      "A) Divan-ı Vekalet",
-      "B) Divan-ı İstifa",
-      "C) Divan-ı İşraf",
-      "D) Divan-ı Tomer",
-      "E) Divan-ı Amed"
+      "Divan-ı Vekalet",
+      "Divan-ı İstifa",
+      "Divan-ı İşraf",
+      "Divan-ı Tomer",
+      "Divan-ı Amed"
     ],
     "a": 0,
     "e": "Doğru cevap A. Divan-ı Vekalet vezirlik vekaleti; mali olanlar diğerleridir.",
@@ -3695,11 +3695,11 @@
     "subtopic": "Anadolu Selçuklu Batı Seferleri",
     "q": "I. Kılıç Arslan'ın Haçlılara karşı Miryokefalon öncesi senaryosu aşağıdakilerden hangisidir?",
     "o": [
-      "A) I. Haçlı Seferi'ni yenmesi",
-      "B) II. Haçlı'yı durdurması",
-      "C) III. Haçlı ile ittifak",
-      "D) IV. Haçlı'yı yenmesi",
-      "E) V. Haçlı seferini engellemesi"
+      "I. Haçlı Seferi'ni yenmesi",
+      "II. Haçlı'yı durdurması",
+      "III. Haçlı ile ittifak",
+      "IV. Haçlı'yı yenmesi",
+      "V. Haçlı seferini engellemesi"
     ],
     "a": 0,
     "e": "Doğru cevap A. I. Kılıç Arslan I. Haçlı Seferi'nde Konya önlerinde Barbaros'u yenmiştir.",
@@ -3712,11 +3712,11 @@
     "subtopic": "İlk Müslüman Devletler Ortak Özellik",
     "q": "İlk Müslüman Türk devletlerinin ortak özelliği aşağıdakilerden hangisidir?",
     "o": [
-      "A) Abbasi halifeliğiyle sıkı ittifak",
-      "B) Türkmen boylarının desteği",
-      "C) Farsça'nın terk edilmesi",
-      "D) Moğol yıkıcılığından kurtulma",
-      "E) Denizcilik gücü"
+      "Abbasi halifeliğiyle sıkı ittifak",
+      "Türkmen boylarının desteği",
+      "Farsça'nın terk edilmesi",
+      "Moğol yıkıcılığından kurtulma",
+      "Denizcilik gücü"
     ],
     "a": 1,
     "e": "Doğru cevap B. Hepsi Oğuz ve Karluk gibi Türkmen boyları temellidir.",
@@ -3729,11 +3729,11 @@
     "subtopic": "Bağdat'ın Fethi Analiz",
     "q": "1055 Tuğrul Bey'in Bağdat'a girişi analiz edildiğinde aşağıdakilerden hangisi sonuçtur?",
     "o": [
-      "A) Sultan unvanı alınması",
-      "B) Gazneli himayesi",
-      "C) Fatımi yenilgisi",
-      "D) Şiilik yayılması",
-      "E) Haçlı seferleri"
+      "Sultan unvanı alınması",
+      "Gazneli himayesi",
+      "Fatımi yenilgisi",
+      "Şiilik yayılması",
+      "Haçlı seferleri"
     ],
     "a": 0,
     "e": "Doğru cevap A. Halife Tuğrul'a 'Doğu Roma İmparatoru' ve Sultan unvanını vermiştir.",
@@ -3746,18 +3746,18 @@
     "subtopic": "Konya Başkent Anadolu",
     "q": "Anadolu Selçukluları'nda Konya'nın başkent yapılması I. Mesud döneminde gerçekleşmiştir. Buna göre aşağıdakilerden hangisi söylenebilir?\n\nI. İznik'in Bizansça alınması II. Sencer'in desteği III. Haçlı baskısı",
     "o": [
-      "A) Yalnız I",
-      "B) Yalnız II",
-      "C) I ve II",
-      "D) I ve III",
-      "E) II ve III"
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "II ve III"
     ],
     "a": 3,
     "e": "Doğru cevap D. İznik kaybı ve Haçlı baskısı Konya'yı başkent yapmıştır.",
     "_part": 221
   },
   {
-    "id": "1",
+    "id": "1_VY7OZ9HL_1",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "karahanlilar-ozellik",
     "subtopic": "Karahanlılar",
@@ -3775,7 +3775,7 @@
     "_generatedAt": "2026-04-15T18:13:25.013Z"
   },
   {
-    "id": "2",
+    "id": "2_VY7OZ9HL_1",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "gazneliler-yapisi",
     "subtopic": "Gazneliler",
@@ -3793,7 +3793,7 @@
     "_generatedAt": "2026-04-15T18:13:25.013Z"
   },
   {
-    "id": "3",
+    "id": "3_VY7OZ9HL_1",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "buyuk-selcuklu-siyasi",
     "subtopic": "Büyük Selçuklu Devleti",
@@ -3811,7 +3811,7 @@
     "_generatedAt": "2026-04-15T18:13:25.013Z"
   },
   {
-    "id": "4",
+    "id": "4_VY7OZ9HL_1",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "ilk-turk-islam-eserleri",
     "subtopic": "Kültür ve Medeniyet",
@@ -3829,7 +3829,7 @@
     "_generatedAt": "2026-04-15T18:13:25.013Z"
   },
   {
-    "id": "5",
+    "id": "5_VY7OZ9HL_1",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "mimar-sanat",
     "subtopic": "Mimari ve Sanat",
@@ -3847,7 +3847,7 @@
     "_generatedAt": "2026-04-15T18:13:25.013Z"
   },
   {
-    "id": "6",
+    "id": "6_VY7OZ9HL_1",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "egitim-kurum",
     "subtopic": "Eğitim",
@@ -3865,7 +3865,7 @@
     "_generatedAt": "2026-04-15T18:13:25.013Z"
   },
   {
-    "id": "7",
+    "id": "7_VY7OZ9HL_1",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "sosyal-yapi",
     "subtopic": "Sosyal Yapı",
@@ -3883,7 +3883,7 @@
     "_generatedAt": "2026-04-15T18:13:25.013Z"
   },
   {
-    "id": "8",
+    "id": "8_VY7OZ9HL_1",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "siyasi-olaylar",
     "subtopic": "Dandanakan Savaşı",
@@ -3901,7 +3901,7 @@
     "_generatedAt": "2026-04-15T18:13:25.013Z"
   },
   {
-    "id": "9",
+    "id": "9_VY7OZ9HL_1",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "bilim-insanlari",
     "subtopic": "Bilim ve Düşünce",
@@ -3919,7 +3919,7 @@
     "_generatedAt": "2026-04-15T18:13:25.013Z"
   },
   {
-    "id": "10",
+    "id": "10_VY7OZ9HL_1",
     "topicId": "ilk-musluman-turk",
     "subtopicId": "idari-yapi",
     "subtopic": "İdari Yapı",
@@ -4315,7 +4315,7 @@
     "_generatedAt": "2026-04-17T04:01:54.968Z"
   },
   {
-    "id": "1",
+    "id": "1_dup1",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "karahanlilar-devlet-yapisi",
     "subtopic": "KARAHANLILAR DEVLET YAPISI",
@@ -4333,7 +4333,7 @@
     "_generatedAt": "2026-04-17T04:49:13.466Z"
   },
   {
-    "id": "2",
+    "id": "2_dup1",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "gazneliler-kultur-medeniyet",
     "subtopic": "GAZNELİLER KÜLTÜR VE MEDENİYET",
@@ -4351,7 +4351,7 @@
     "_generatedAt": "2026-04-17T04:49:13.466Z"
   },
   {
-    "id": "3",
+    "id": "3_dup1",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "buyuk-selcuklu-devleti-yonetim",
     "subtopic": "BÜYÜK SELÇUKLU DEVLETİ YÖNETİM",
@@ -4369,7 +4369,7 @@
     "_generatedAt": "2026-04-17T04:49:13.466Z"
   },
   {
-    "id": "4",
+    "id": "4_dup1",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "buyuk-selcuklu-devleti-fetihler",
     "subtopic": "BÜYÜK SELÇUKLU DEVLETİ FETİHLER",
@@ -4387,7 +4387,7 @@
     "_generatedAt": "2026-04-17T04:49:13.466Z"
   },
   {
-    "id": "5",
+    "id": "5_dup1",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "ilk-turk-islam-devletleri-sanat",
     "subtopic": "İLK TÜRK-İSLAM DEVLETLERİ SANAT",
@@ -4405,7 +4405,7 @@
     "_generatedAt": "2026-04-17T04:49:13.466Z"
   },
   {
-    "id": "6",
+    "id": "6_dup1",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "karahanlilar-kultur-medeniyet",
     "subtopic": "KARAHANLILAR KÜLTÜR VE MEDENİYET",
@@ -4423,7 +4423,7 @@
     "_generatedAt": "2026-04-17T04:49:13.466Z"
   },
   {
-    "id": "7",
+    "id": "7_dup1",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "memlukler-devlet-yapisi",
     "subtopic": "MEMLÜKLER DEVLET YAPISI",
@@ -4441,7 +4441,7 @@
     "_generatedAt": "2026-04-17T04:49:13.466Z"
   },
   {
-    "id": "8",
+    "id": "8_dup1",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "buyuk-selcuklu-devleti-yikilis",
     "subtopic": "BÜYÜK SELÇUKLU DEVLETİ YIKILIŞ",
@@ -4459,7 +4459,7 @@
     "_generatedAt": "2026-04-17T04:49:13.466Z"
   },
   {
-    "id": "9",
+    "id": "9_dup1",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "tolunogullari-ihsidiler",
     "subtopic": "TOLUNOĞULLARI VE İHŞİDİLER",
@@ -4477,7 +4477,7 @@
     "_generatedAt": "2026-04-17T04:49:13.466Z"
   },
   {
-    "id": "10",
+    "id": "10_dup1",
     "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
     "subtopicId": "harzemşahlar-devleti",
     "subtopic": "HARZEMŞAHLAR DEVLETİ",

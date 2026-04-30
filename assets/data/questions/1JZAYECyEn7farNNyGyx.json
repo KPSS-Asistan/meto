@@ -208,7 +208,7 @@
     "topicId": "1JZAYECyEn7farNNyGyx",
     "subtopicId": "yargi-aym-yapisal",
     "subtopic": "Yargı Organı - Anayasa Mahkemesi",
-    "q": "Anayasa Mahkemesinin üye yapısı ve seçimi ile ilgili aşağıdaki öncüllerden hangileri doğrudur?\n\nI. Toplam 15 üyeden oluşur.\nII. Üyelerin tamamı Türkiye Büyük Millet Meclisi tarafından seçilir.\nIII. Üyeler 12 yıl için seçilirler ve yeniden seçilemezler?",
+    "q": "I. Toplam 15 üyeden oluşur.\nII. Üyelerin tamamı Türkiye Büyük Millet Meclisi tarafından seçilir.\nIII. Üyeler 12 yıl için seçilirler ve yeniden seçilemezler.\n\nAnayasa Mahkemesinin üye yapısı ve seçimi ile ilgili yukarıdaki öncüllerden hangileri doğrudur?",
     "o": [
       "Yalnız I",
       "Yalnız II",
@@ -638,11 +638,11 @@
       "Olağan dönemlerde Cumhurbaşkanlığı kararnamesi ile kişi hakları ve ödevleri düzenlenemez.",
       "Kanunda açıkça düzenlenen konularda Cumhurbaşkanlığı kararnamesi çıkarılamaz.",
       "TBMM'nin aynı konuda kanun çıkarması durumunda Cumhurbaşkanlığı kararnamesi hükümsüz hale gelir.",
-      "Cumhurbaşkanlığı kararnamelerinin yargısal denetimi Anayasa Mahkemesi tarafından yapılır.",
+      "Olağan dönem Cumhurbaşkanlığı kararnamelerinin yargısal denetimi Anayasa Mahkemesi tarafından yapılır.",
       "Olağanüstü hal Cumhurbaşkanlığı kararnameleri Resmi Gazete'de yayımlandıktan sonra 3 ay içinde TBMM onayına sunulmazsa kendiliğinden yürürlükten kalkar."
     ],
     "a": 4,
-    "e": "Olağanüstü hal (OHAL) kapsamında çıkarılan Cumhurbaşkanlığı kararnameleri, Resmi Gazete'de yayımlandıkları gün TBMM onayına sunulur. Eğer TBMM tarafından 3 ay (90 gün) içinde görüşülüp karara bağlanmazsa kendiliğinden yürürlükten kalkar ifadesi yanlıştır. Anayasa'ya göre; OHAL kararnameleri üç ay içinde TBMM'de görüşülüp karara bağlanır, aksi halde kendiliğinden yürürlükten kalkar. Ancak E seçeneğindeki ifade 'onaya sunulmazsa' şeklindedir, oysa sunulmak zorundadır. Asıl çeldirici nokta: OHAL CBK'larının yargısal denetimi yapılamaz (Anayasa m. 148). D seçeneği olağan CBK'lar için doğrudur ancak soru genel bir ifade kullandığı için E seçeneğindeki prosedür detayı (3 ay kuralı onay süreci içindir) doğru gibi görünse de, OHAL CBK'larının yargı denetimi dışında olması (m.148) daha temel bir bilgidir. Ancak sorudaki kesin yanlışlık şudur: OHAL CBK'ları için Anayasa Mahkemesine dava açılamaz. Dolayısıyla D şıkkı 'tüm kararnameler' algısı yarattığı için olağan dönem için doğru olsa da OHAL dönemi için yanlıştır. Ancak E şıkkı 2017 değişikliği ile gelen '3 ay içinde karara bağlanmazsa yürürlükten kalkar' hükmünü ifade eder. Burada en net yanlış bilgi: OHAL CBK'ları yargı denetimine kapalıdır, ancak soruda genel 'Cumhurbaşkanlığı kararnameleri' dendiği için D şıkkı olağan dönem için doğrudur. Soru kurgusunda E şıkkı doğru bilgidir. Yanlış olan bilgi: 'Milletlerarası antlaşmaları onaylamak' sorusundaki mantığa benzer şekilde, burada net yanlış aranmalıdır. Cevap E değil, sorunun kurgusuna göre D şıkkı da tartışmalıdır fakat, 'Kanunda açıkça düzenlenen konularda CBK çıkarılamaz' ilkesi olağan CBK'lar için geçerlidir. Soru kökü 'yanlıştır'ı sorduğu için, OHAL CBK'ları 3 ay içinde TBMM'de karara bağlanmazsa yürürlükten kalkar (Doğru). En net yanlış: E şıkkındaki 'sunulmazsa' ifadesi değil, sürenin işletilmesidir. Düzeltme: Soru köküne göre en net yanlış şudur: Olağanüstü hal CBK'larına karşı Anayasa Mahkemesine iptal davası açılamaz.",
+    "e": "Doğru cevap E'dir. Olağanüstü hal Cumhurbaşkanlığı kararnameleri Resmi Gazete'de yayımlandıkları gün TBMM'nin onayına sunulur. Bu kararnameler üç ay içinde TBMM'de görüşülüp karara bağlanmazsa kendiliğinden yürürlükten kalkar. D seçeneği ise yalnız olağan dönem Cumhurbaşkanlığı kararnameleri için geçerlidir.",
     "_part": 42
   },
   {
@@ -859,11 +859,11 @@
       "TBMM Başkanı",
       "Cumhurbaşkanı Yardımcıları",
       "Jandarma Genel Komutanı",
-      "Emniyet Genel Müdürü",
+      "Adalet Bakanı",
       "Hava Kuvvetleri Komutanı"
     ],
-    "a": 3,
-    "e": "2017 Anayasa değişikliği ile Jandarma Genel Komutanı Yüce Divan'da yargılanacaklar listesinden çıkarılmıştır. Emniyet Genel Müdürü de bu listede yoktur. Ancak soru çeldiricisi olarak genellikle kuvvet komutanları ile karıştırılır. Şıklarda 'Emniyet Genel Müdürü' de yargılanmaz ancak Jandarma Genel Komutanı'nın listeden çıkarılması spesifik bir anayasa değişikliği konusudur. (Not: Bu soruda teknik olarak iki doğru cevap gibi görünse de, Jandarma Genel Komutanı'nın statüsünün değişmesi akademik olarak daha ön plandadır, ancak ÖSYM formatında netlik açısından Emniyet Genel Müdürü seçeneği yerine 'Kara Kuvvetleri Komutanı' gibi yargılanan biri konulup Jandarma sorulabilirdi. Mevcut şıklara göre Jandarma Genel Komutanı Yüce Divan'da yargılanmaz, Emniyet Genel Müdürü de yargılanmaz. Soru kurgusunda Jandarma Genel Komutanı'nın 2017'de çıkarıldığı bilgisi ölçülmek istenmiştir. *Düzeltme*: ÖSYM formatına tam uygunluk için Emniyet Genel Müdürü şıkkı yerine 'Adalet Bakanı' gibi yargılanan biri olmalıydı. Ancak verilen şıklar içinde Jandarma Genel Komutanı en güçlü çeldiricidir çünkü askeri erkan içindedir. Yine de Emniyet Genel Müdürü de yargılanmaz. *Net Cevap*: Jandarma Genel Komutanı yargılanmaz.)",
+    "a": 2,
+    "e": "Doğru cevap C'dir. 2017 Anayasa değişikliği sonrasında Jandarma Genel Komutanı Yüce Divan'da yargılanacak kişiler arasından çıkarılmıştır. Buna karşılık TBMM Başkanı, Cumhurbaşkanı yardımcıları, bakanlar ve kuvvet komutanları Yüce Divan'da yargılanabilir.",
     "_part": 59
   },
   {
@@ -1489,11 +1489,11 @@
       "Para basılmasına karar vermek",
       "Genel ve özel af ilan etmek",
       "Cumhurbaşkanını görevden almak",
-      "Milletlerarası antlaşmaları onaylamak",
+      "Milletlerarası antlaşmaların onaylanmasını uygun bulmak",
       "Savaş ilanına karar vermek"
     ],
     "a": 2,
-    "e": "TBMM'nin Cumhurbaşkanını görevden alma yetkisi yoktur; sadece soruşturma açılmasına karar verebilir.",
+    "e": "Doğru cevap C'dir. TBMM'nin Cumhurbaşkanını görevden alma yetkisi yoktur; ancak soruşturma açılmasına karar verebilir. Milletlerarası antlaşmalar bakımından TBMM'nin görevi, onaylamayı değil onaylanmasını uygun bulmayı kanunla kabul etmektir.",
     "_part": 102,
     "_generatedAt": "2026-04-15T18:36:30.357Z"
   },
@@ -1540,14 +1540,14 @@
     "subtopic": "Yasama Dokunulmazlığı",
     "q": "Yasama dokunulmazlığı ile ilgili aşağıdakilerden hangisi doğrudur?",
     "o": [
-      "Sadece görev süresini kapsar",
+      "Milletvekilliği sona erdikten sonra da devam eder",
       "Ağır cezayı gerektiren suçüstü hallerini kapsamaz",
       "Kaldırılamaz bir haktır",
       "Sadece kürsüde geçerlidir",
       "Siyasi partilerce kaldırılabilir"
     ],
     "a": 1,
-    "e": "Ağır cezayı gerektiren suçüstü hallerinde dokunulmazlık işlemez.",
+    "e": "Doğru cevap B'dir. Ağır cezayı gerektiren suçüstü hâllerinde yasama dokunulmazlığı işlemez. Dokunulmazlık milletvekilliği süresiyle sınırlıdır, Meclis kararıyla kaldırılabilir ve kürsü sorumsuzluğundan farklıdır.",
     "_part": 105,
     "_generatedAt": "2026-04-15T18:36:30.357Z"
   },
@@ -1561,11 +1561,11 @@
       "Gizli oyla yapılır",
       "Açık oyla yapılır",
       "Cumhurbaşkanı tarafından atanır",
-      "Dört turda tamamlanır",
+      "Beş turda tamamlanır",
       "En çok oyu alan seçilir"
     ],
     "a": 0,
-    "e": "TBMM Başkanı seçimi gizli oyla yapılır.",
+    "e": "Doğru cevap A'dır. TBMM Başkanı seçimi gizli oyla yapılır. Seçim en fazla dört tur sürer; bu nedenle D seçeneği yanlıştır.",
     "_part": 106,
     "_generatedAt": "2026-04-15T18:36:30.357Z"
   },
@@ -1718,16 +1718,16 @@
     "topicId": "devlet_organlari",
     "subtopicId": "cb_kararnamesi",
     "subtopic": "Cumhurbaşkanlığı Kararnamesi",
-    "q": "Cumhurbaşkanlığı kararnamesi ile aşağıdakilerden hangisi düzenlenemez?",
+    "q": "Olağan dönem Cumhurbaşkanlığı kararnamesi ile aşağıdakilerden hangisi düzenlenemez?",
     "o": [
-      "Sosyal haklar",
+      "Kişi hakları ve ödevleri",
       "İdari teşkilat",
       "Kamu personeli",
       "Bakanlıkların kurulması",
       "Üst düzey yöneticilerin atanması"
     ],
     "a": 0,
-    "e": "Anayasanın ikinci kısmının birinci ve ikinci bölümlerinde yer alan temel haklar ve kişi hakları kararname ile düzenlenemez.",
+    "e": "Doğru cevap A'dır. Olağan dönem Cumhurbaşkanlığı kararnameleri ile kişi hakları ve ödevleri düzenlenemez. Buna karşılık idari teşkilat, kamu personeline ilişkin bazı hususlar ve bakanlıkların kurulmasına dair düzenlemeler Cumhurbaşkanlığı kararnamesiyle yapılabilir.",
     "_part": 115,
     "_generatedAt": "2026-04-15T18:36:30.357Z"
   },
@@ -1852,8 +1852,8 @@
       "Üye tamsayısının 2/3'ü",
       "Üye tamsayısının 1/4'ü"
     ],
-    "a": 1,
-    "e": "Soruşturma önergesi için üye tamsayısının salt çoğunluğu, soruşturma açılması için 3/5'i gerekir.",
+    "a": 0,
+    "e": "Doğru cevap A'dır. Cumhurbaşkanı yardımcıları ve bakanlar hakkında meclis soruşturması açılması istemi, TBMM üye tamsayısının salt çoğunluğunun vereceği önerge ile yapılır. Soruşturma açılmasına karar verilmesi için ise üye tamsayısının beşte üç çoğunluğu gerekir.",
     "_part": 122,
     "_generatedAt": "2026-04-15T18:36:30.357Z"
   },
@@ -1880,7 +1880,7 @@
     "topicId": "devlet_organlari",
     "subtopicId": "uyusmazlik_mahkemesi",
     "subtopic": "Uyuşmazlık Mahkemesi",
-    "q": "Adli, idari ve askeri yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kim çözer?",
+    "q": "Adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kim çözer?",
     "o": [
       "Anayasa Mahkemesi",
       "Yargıtay",
@@ -1889,7 +1889,7 @@
       "HSK"
     ],
     "a": 3,
-    "e": "Yargı kolları arasındaki uyuşmazlıkları Uyuşmazlık Mahkemesi karara bağlar.",
+    "e": "Doğru cevap D'dir. Adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını Uyuşmazlık Mahkemesi kesin olarak çözer.",
     "_part": 124,
     "_generatedAt": "2026-04-15T18:36:30.357Z"
   },
@@ -1996,8 +1996,8 @@
       "İçişleri Bakanı",
       "Yargıtay"
     ],
-    "a": 2,
-    "e": "Genelkurmay Başkanı, görev ve yetkilerinden dolayı Milli Savunma Bakanı'na karşı sorumludur.",
+    "a": 1,
+    "e": "Doğru cevap B'dir. Anayasa'nın 117. maddesine göre Genelkurmay Başkanı, görev ve yetkilerinden dolayı Cumhurbaşkanına karşı sorumludur.",
     "_part": 130,
     "_generatedAt": "2026-04-15T18:36:30.357Z"
   },
@@ -2050,8 +2050,8 @@
       "75",
       "90"
     ],
-    "a": 4,
-    "e": "Cumhurbaşkanı bütçeyi mali yılbaşından en az 75 gün önce TBMM'ye sunar (eskiden 75 idi, güncel kural 75 gün).",
+    "a": 3,
+    "e": "Doğru cevap D'dir. Cumhurbaşkanı bütçe kanun teklifini mali yılbaşından en az 75 gün önce TBMM'ye sunar.",
     "_part": 133,
     "_generatedAt": "2026-04-15T18:36:30.357Z"
   },
@@ -2064,12 +2064,12 @@
     "o": [
       "Kendiliğinden düşer",
       "Her durumda yargı kararı gerekir",
-      "Meclis kararı ile düşer",
+      "Bazı hallerde Meclis kararı ile düşer",
       "Cumhurbaşkanı kararı ile düşer",
       "Parti kararı ile düşer"
     ],
     "a": 2,
-    "e": "Milletvekilliğinin kesin hüküm giyme veya kısıtlanma gibi hallerde düşmesi TBMM Genel Kurul kararı ile olur.",
+    "e": "Doğru cevap C'dir. Milletvekilliğinin düşmesi bazı hallerde TBMM Genel Kurulu kararıyla gerçekleşir; istifa, devamsızlık ve bağdaşmayan görevi sürdürmede ısrar bunlara örnektir. Buna karşılık ölüm, Cumhurbaşkanı seçilme veya Cumhurbaşkanı yardımcısı ya da bakan olarak atanma gibi bazı hallerde üyelik kendiliğinden sona erer.",
     "_part": 134,
     "_generatedAt": "2026-04-15T18:36:30.357Z"
   },
@@ -2104,8 +2104,8 @@
       "90",
       "120"
     ],
-    "a": 2,
-    "e": "Cumhurbaşkanlığı makamı boşaldığında 45 gün içinde seçim yapılır.",
+    "a": 1,
+    "e": "Doğru cevap B'dir. Cumhurbaşkanlığı makamının boşalması hâlinde kırk beş gün içinde Cumhurbaşkanı seçimi yapılır.",
     "_part": 136,
     "_generatedAt": "2026-04-15T18:36:30.357Z"
   },
@@ -2114,16 +2114,16 @@
     "topicId": "devlet_organlari",
     "subtopicId": "kanun_hükmünde",
     "subtopic": "Kanun",
-    "q": "Kanunların anayasaya aykırılığı iddiasıyla Anayasa Mahkemesi'ne kimler başvurabilir?",
+    "q": "Aşağıdakilerden hangisi kanunların Anayasa'ya aykırılığı iddiasıyla Anayasa Mahkemesi'ne iptal davası açma yetkisine sahip değildir?",
     "o": [
       "Cumhurbaşkanı",
       "İktidar partisi grubu",
       "Ana muhalefet partisi grubu",
       "Barolar",
-      "Vatandaşlar"
+      "TBMM üye tamsayısının en az beşte biri tutarındaki milletvekilleri"
     ],
-    "a": 2,
-    "e": "Somut norm denetimi dışında, soyut norm denetiminde Cumhurbaşkanı, iktidar veya ana muhalefet partisi grubu başvurabilir.",
+    "a": 3,
+    "e": "Doğru cevap D'dir. Kanunlara karşı iptal davası açma yetkisi Cumhurbaşkanına, TBMM'de en çok üyeye sahip iki siyasi parti grubuna ve TBMM üye tamsayısının en az beşte biri tutarındaki milletvekillerine tanınmıştır. Baroların böyle bir yetkisi yoktur.",
     "_part": 137,
     "_generatedAt": "2026-04-15T18:36:30.357Z"
   },
@@ -2176,8 +2176,8 @@
       "Maliye Bakanlığı",
       "YSK"
     ],
-    "a": 0,
-    "e": "Siyasi partilerin mali denetimini Anayasa Mahkemesi adına Sayıştay yapar.",
+    "a": 2,
+    "e": "Doğru cevap C'dir. Siyasi partilerin mali denetimi Anayasa Mahkemesi tarafından yapılır. Sayıştay ise bu denetime teknik inceleme ve raporlama yönünden yardımcı olur.",
     "_part": 140,
     "_generatedAt": "2026-04-15T18:36:30.357Z"
   },
@@ -2222,7 +2222,7 @@
     "topicId": "devlet_organlari",
     "subtopicId": "tbmm_baskan",
     "subtopic": "TBMM Başkanı",
-    "q": "TBMM Başkanı'nın görev süresi ne kadardır?",
+    "q": "TBMM Başkanı, yasama döneminin ilk devresinde kaç yıl için seçilir?",
     "o": [
       "5 yıl",
       "Yasama dönemi sonuna kadar",
@@ -2230,8 +2230,8 @@
       "4 yıl",
       "Cumhurbaşkanı görev süresi kadar"
     ],
-    "a": 1,
-    "e": "TBMM Başkanı'nın görev süresi seçildiği yasama dönemi ile sınırlıdır.",
+    "a": 2,
+    "e": "Doğru cevap C'dir. TBMM Başkanı yasama döneminin ilk devresi için 2 yıl seçilir. İkinci devrede seçilen başkan ise o yasama döneminin sonuna kadar görev yapar.",
     "_part": 143,
     "_generatedAt": "2026-04-15T18:36:30.357Z"
   },
@@ -2278,14 +2278,14 @@
     "subtopic": "Cumhurbaşkanlığı Kararnamesi",
     "q": "Olağanüstü hal döneminde çıkarılan kararnamelerle hangisi düzenlenebilir?",
     "o": [
-      "Temel haklar",
-      "Kişi hakları",
-      "Anayasal düzen",
+      "Cumhurbaşkanı seçiminin süresi",
+      "TBMM üyelerinin seçilme yeterliliği",
+      "Anayasa'nın değiştirilemez hükümleri",
       "İdari işleyiş",
       "Seçim kanunları"
     ],
     "a": 3,
-    "e": "OHAL kararnameleri ile idari işleyiş düzenlenebilir; ancak kişi haklarına dokunulamaz.",
+    "e": "Doğru cevap D'dir. Olağanüstü hal Cumhurbaşkanlığı kararnameleriyle idari işleyişe ve olağanüstü halin gerektirdiği idari tedbirlere ilişkin düzenlemeler yapılabilir. Buna karşılık seçim rejimi, TBMM üyeliği şartları veya Anayasa'nın değiştirilemez hükümleri bu yolla düzenlenemez.",
     "_part": 146,
     "_generatedAt": "2026-04-15T18:36:30.357Z"
   },
