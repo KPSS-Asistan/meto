@@ -2,8 +2,8 @@
   "name": "kpss-dashboard",
   "version": "1.0.0",
   "scripts": {
-    "start": "node dashboard/server/server.js",
-    "dev": "nodemon dashboard/server/server.js"
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
   },
   "dependencies": {
     "dotenv": "^17.4.1",

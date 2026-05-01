@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 
-const ROOT_DIR = path.resolve(__dirname, '../../../');
+const ROOT_DIR = path.resolve(__dirname, '../../');
 const DATA_DIR = path.join(ROOT_DIR, 'assets/data');
 const QUESTIONS_DIR = path.join(DATA_DIR, 'questions');
 const TOOLS_DIR = path.join(ROOT_DIR, 'tools');
@@ -27,8 +27,8 @@ const PRODUCTIVITY_DIR = path.join(DATA_DIR, 'productivity');
 const STORIES_DIR = path.join(DATA_DIR, 'stories');
 const NOTIFICATIONS_FILE = path.join(DATA_DIR, 'notifications.json');
 const DRAFT_BASE = path.join(DATA_DIR, 'drafts');
-const COST_LOG_FILE = path.join(TOOLS_DIR, 'dashboard', 'server', 'cost-log.json');
-const NIGHTLY_CONFIG_FILE = path.join(TOOLS_DIR, 'dashboard', 'server', 'nightly-config.json');
+const COST_LOG_FILE = path.join(TOOLS_DIR, 'server', 'cost-log.json');
+const NIGHTLY_CONFIG_FILE = path.join(TOOLS_DIR, 'server', 'nightly-config.json');
 const GECMIS_SORULAR_PATH = path.join(DATA_DIR, 'kpss-tarih-gecmis-sorular.js');
 
 module.exports = {
