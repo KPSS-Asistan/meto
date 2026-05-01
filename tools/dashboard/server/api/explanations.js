@@ -6,7 +6,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const { sendJSON, parseBody } = require('../utils/helper');
 
-const EXPLANATIONS_DIR = path.join(__dirname, '../../../../explanations');
+const EXPLANATIONS_DIR = path.join(__dirname, '../../../../assets/data/explanations');
 
 // Sıralama - Flutter topics_data.dart ile aynı sıra
 const EXPLANATION_ORDER = [

@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
-const { TOOLS_DIR } = require('../config');
+const { DATA_DIR } = require('../config');
 
-const NOTIFICATIONS_FILE = path.join(TOOLS_DIR, 'notifications.json');
+const NOTIFICATIONS_FILE = path.join(DATA_DIR, 'notifications.json');
 
 // Ensure file exists
 if (!fs.existsSync(NOTIFICATIONS_FILE)) {

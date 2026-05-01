@@ -6,7 +6,7 @@ const fs = require('fs').promises;
 const fsSync = require('fs');
 const path = require('path');
 const { exec, execSync } = require('child_process');
-const { QUESTIONS_DIR, TOOLS_DIR, HISTORY_FILE } = require('../config');
+const { QUESTIONS_DIR, TOOLS_DIR, DATA_DIR, HISTORY_FILE } = require('../config');
 const { sendJSON, parseBody } = require('../utils/helper');
 
 // Auto-sync state
@@ -211,25 +211,25 @@ async function handleSyncRoutes(req, res, pathname) {
             
             switch (module) {
                 case 'flashcards':
-                    sourceDir = path.join(TOOLS_DIR, '..', 'flashcards');
+                    sourceDir = path.join(DATA_DIR, 'flashcards');
                     targetDir = path.join(metoDir, 'flashcards');
                     filePrefix = 'Flashcard';
                     commitMessage = 'Flashcards güncellendi';
                     break;
                 case 'stories':
-                    sourceDir = path.join(TOOLS_DIR, '..', 'stories');
+                    sourceDir = path.join(DATA_DIR, 'stories');
                     targetDir = path.join(metoDir, 'stories');
                     filePrefix = 'Story';
                     commitMessage = 'Stories güncellendi';
                     break;
                 case 'explanations':
-                    sourceDir = path.join(TOOLS_DIR, '..', 'explanations');
+                    sourceDir = path.join(DATA_DIR, 'explanations');
                     targetDir = path.join(metoDir, 'explanations');
                     filePrefix = 'Explanation';
                     commitMessage = 'Explanations güncellendi';
                     break;
                 case 'matching-games':
-                    sourceDir = path.join(TOOLS_DIR, '..', 'matching_games');
+                    sourceDir = path.join(DATA_DIR, 'matching_games');
                     targetDir = path.join(metoDir, 'matching_games');
                     filePrefix = 'Matching Game';
                     commitMessage = 'Matching games güncellendi';

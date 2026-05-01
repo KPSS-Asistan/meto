@@ -9,6 +9,7 @@ const path = require('path');
 const { exec, execSync } = require('child_process');
 const https = require('https');
 const { sendJSON, parseBody } = require('../utils/helper');
+const { DATA_DIR } = require('../config');
 
 require('dotenv').config({ path: path.join(__dirname, '../../.env') });
 
@@ -1021,7 +1022,7 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
 
     // GET /api/topics - Serve topics.json for lesson/topic name mapping
     if (pathname === '/api/topics' && req.method === 'GET') {
-        const topicsFile = path.join(__dirname, '..', '..', '..', 'topics.json');
+        const topicsFile = path.join(DATA_DIR, 'topics.json');
         try {
             const topics = fs.existsSync(topicsFile)
                 ? JSON.parse(fs.readFileSync(topicsFile, 'utf8'))

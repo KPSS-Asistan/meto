@@ -4,9 +4,9 @@ const { QUESTIONS_DIR, HISTORY_FILE } = require('../config');
 const { sendJSON } = require('../utils/helper');
 const { TOPICS } = require('../config/topics');
 
-const FLASHCARDS_DIR = path.join(__dirname, '../../../../flashcards');
-const STORIES_DIR = path.join(__dirname, '../../../../stories');
-const MATCHING_DIR = path.join(__dirname, '../../../../matching_games');
+const FLASHCARDS_DIR = path.join(__dirname, '../../../../assets/data/flashcards');
+const STORIES_DIR = path.join(__dirname, '../../../../assets/data/stories');
+const MATCHING_DIR = path.join(__dirname, '../../../../assets/data/matching_games');
 
 async function countJsonFiles(dir) {
     try {

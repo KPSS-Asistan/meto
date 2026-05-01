@@ -6,7 +6,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const { sendJSON, parseBody } = require('../utils/helper');
 
-const MATCHING_GAMES_DIR = path.join(__dirname, '../../../../matching_games');
+const MATCHING_GAMES_DIR = path.join(__dirname, '../../../../assets/data/matching_games');
 
 // Sıralama - Flutter topics_data.dart ile aynı sıra
 const MATCHING_ORDER = [
