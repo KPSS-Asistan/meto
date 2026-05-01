@@ -175,6 +175,7 @@ async function refreshProductivityCategories() {
         const res = await fetch(`${API}/api/ai-content/productivity-categories?_=${Date.now()}`);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
+        console.log(data);
         const categories = data.categories || [];
 
         if (categories.length === 0) {
