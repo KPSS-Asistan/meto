@@ -1,12 +1,8 @@
 const fs = require('fs').promises;
 const path = require('path');
-const { QUESTIONS_DIR, HISTORY_FILE } = require('../config');
+const { QUESTIONS_DIR, HISTORY_FILE, FLASHCARDS_DIR, STORIES_DIR, MATCHING_GAMES_DIR } = require('../config');
 const { sendJSON } = require('../utils/helper');
 const { TOPICS } = require('../config/topics');
-
-const FLASHCARDS_DIR = path.join(__dirname, '../../../../assets/data/flashcards');
-const STORIES_DIR = path.join(__dirname, '../../../../assets/data/stories');
-const MATCHING_DIR = path.join(__dirname, '../../../../assets/data/matching_games');
 
 async function countJsonFiles(dir) {
     try {
@@ -48,7 +44,7 @@ async function handleDashboardRoutes(req, res, pathname, searchParams) {
             const [totalFlashcards, totalStories, totalGames] = await Promise.all([
                 countJsonFiles(FLASHCARDS_DIR),
                 countJsonFiles(STORIES_DIR),
-                countJsonFiles(MATCHING_DIR),
+                countJsonFiles(MATCHING_GAMES_DIR),
             ]);
 
             await Promise.all(jsonFiles.map(async file => {

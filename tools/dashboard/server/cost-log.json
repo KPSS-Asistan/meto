@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-05-01T21:48:22.668Z",
+    "model": "google/gemini-2.5-flash",
+    "promptTokens": 1644,
+    "completionTokens": 2599,
+    "costUsd": 0.006991,
+    "costTl": 0.2691
+  },
+  {
+    "timestamp": "2026-05-01T21:46:01.544Z",
+    "model": "google/gemini-2.5-flash",
+    "promptTokens": 1650,
+    "completionTokens": 2729,
+    "costUsd": 0.007318,
+    "costTl": 0.2817
+  },
+  {
+    "timestamp": "2026-05-01T20:46:53.997Z",
+    "model": "google/gemini-2.5-flash",
+    "promptTokens": 1001,
+    "completionTokens": 2479,
+    "costUsd": 0.006498,
+    "costTl": 0.2502
+  },
+  {
     "timestamp": "2026-04-20T19:24:43.518Z",
     "model": "google/gemini-3.1-flash-lite-preview",
     "promptTokens": 1613,

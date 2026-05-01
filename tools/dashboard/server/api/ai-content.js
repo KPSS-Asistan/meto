@@ -4,12 +4,10 @@
  * Onaylı üretim sistemi: Taslak → Onay → Canlıya Al
  */
 const fs = require('fs');
-const fsPromises = require('fs').promises;
 const path = require('path');
-const { exec, execSync } = require('child_process');
 const https = require('https');
 const { sendJSON, parseBody } = require('../utils/helper');
-const { DATA_DIR } = require('../config');
+const { DATA_DIR, EXPLANATIONS_DIR, STORIES_DIR, FLASHCARDS_DIR, MATCHING_GAMES_DIR, PRODUCTIVITY_DIR, QUESTIONS_DIR, DRAFT_BASE, COST_LOG_FILE, NIGHTLY_CONFIG_FILE, GECMIS_SORULAR_PATH, TOPICS_FILE } = require('../config');
 
 require('dotenv').config({ path: path.join(__dirname, '../../.env') });
 
@@ -17,8 +15,6 @@ require('dotenv').config({ path: path.join(__dirname, '../../.env') });
 const _activeJobs = new Map();
 
 // ─── Maliyet Takibi ───
-const COST_LOG_FILE = path.join(__dirname, '..', 'cost-log.json');
-const NIGHTLY_CONFIG_FILE = path.join(__dirname, '..', 'nightly-config.json');
 // Fallback sırası: Kalite > Fiyat dengesi (2026 Nisan)
 // 1. DeepSeek V3.2 — GPT-5 sınıfı, çok ucuz, instruction-following güçlü
 // 2. Gemini 3 Flash Preview — Pro seviyesi reasoning, hızlı
@@ -101,20 +97,17 @@ function readNightlyConfig() {
     return { enabled: false, hour: 2, modules: ['explanations'], count: 5, model: 'anthropic/claude-3.5-haiku', minThreshold: 5 };
 }
 
-const ROOT_DIR = path.join(__dirname, '../../../..');
-
 // ─── Modül Dizinleri ───
 const MODULE_DIRS = {
-    explanations: path.join(ROOT_DIR, 'explanations'),
-    stories: path.join(ROOT_DIR, 'stories'),
-    flashcards: path.join(ROOT_DIR, 'flashcards'),
-    matching_games: path.join(ROOT_DIR, 'matching_games'),
-    questions: path.join(ROOT_DIR, 'questions'),
-    productivity: path.join(ROOT_DIR, 'productivity'),
+    explanations: EXPLANATIONS_DIR,
+    stories: STORIES_DIR,
+    flashcards: FLASHCARDS_DIR,
+    matching_games: MATCHING_GAMES_DIR,
+    questions: QUESTIONS_DIR,
+    productivity: PRODUCTIVITY_DIR,
 };
 
 // Draft dizini
-const DRAFT_BASE = path.join(__dirname, '..', '..', 'drafts');
 if (!fs.existsSync(DRAFT_BASE)) fs.mkdirSync(DRAFT_BASE, { recursive: true });
 
 const VALID_MODULES = Object.keys(MODULE_DIRS);
@@ -129,14 +122,13 @@ const VALID_MODULES = Object.keys(MODULE_DIRS);
  * @param {number} limit
  * @returns {string}
  */
-const _GECMIS_SORULAR_PATH = path.join(__dirname, '..', 'data', 'kpss-tarih-gecmis-sorular.js');
 let _gecmisSorular = null;
 
 function _loadGecmisSorular() {
     if (_gecmisSorular !== null) return _gecmisSorular;
     try {
-        if (fs.existsSync(_GECMIS_SORULAR_PATH)) {
-            _gecmisSorular = require(_GECMIS_SORULAR_PATH);
+        if (fs.existsSync(GECMIS_SORULAR_PATH)) {
+            _gecmisSorular = require(GECMIS_SORULAR_PATH);
         } else {
             _gecmisSorular = [];
         }
@@ -259,9 +251,8 @@ function deletePublishedContent(moduleType, topicId, topicName) {
     if (!dir) throw new Error('Geçersiz modül: ' + moduleType);
 
     const filePath = path.join(dir, `${topicId}.json`);
-    const assetsPath = path.join(ROOT_DIR, 'assets', 'data', moduleType, `${topicId}.json`);
+    const assetsPath = path.join(DATA_DIR, moduleType, `${topicId}.json`);
     let deletedCount = 0;
-    let fileExisted = false;
 
     // Ana klasörden sil
     if (fs.existsSync(filePath)) {
@@ -305,7 +296,7 @@ function saveToFile(moduleType, topicId, data) {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
 
     // Assets klasörüne de kaydet
-    const assetsDir = path.join(ROOT_DIR, 'assets', 'data', moduleType);
+    const assetsDir = path.join(DATA_DIR, moduleType);
     if (!fs.existsSync(assetsDir)) fs.mkdirSync(assetsDir, { recursive: true });
     const assetsPath = path.join(assetsDir, `${topicId}.json`);
     fs.writeFileSync(assetsPath, JSON.stringify(data, null, 2), 'utf8');
@@ -315,7 +306,7 @@ function saveToFile(moduleType, topicId, data) {
 
 // ─── version.json Bump Helper ───
 function bumpVersionJson(moduleType, topicId) {
-    const versionPath = path.join(ROOT_DIR, 'version.json');
+    const versionPath = path.join(DATA_DIR, 'version.json');
     let v = {};
     try {
         const raw = fs.readFileSync(versionPath, 'utf8');
@@ -362,8 +353,7 @@ function publishLocal(moduleType, topicId, topicName) {
 // ─── Konu Listesi ───
 function getTopicsList() {
     try {
-        const dataPath = path.join(__dirname, '..', '..', '..', '..', 'assets', 'data', 'topics.json');
-        const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+        const data = JSON.parse(fs.readFileSync(TOPICS_FILE, 'utf8'));
         return data.map(m => ({
             id: m.id,
             name: m.name
@@ -1314,7 +1304,6 @@ JSON şablonu (tam ${count} öğe):
     //  NOT: productivity öğeleri fullDescription 220-380 kelime + 5-8 step + 5-7 benefit + 4-6 tip + example içerir;
     //  her öğe ~1400 token kadar çıkabilir. Kısa kesilmemesi için bu modülde özellikle yüksek tutuyoruz.
     // Token limiti kaldırıldı - model kendi varsayılan limitini kullanacak
-    // Bu, truncation sorununu tamamen önler
     const maxTokens = undefined;
 
     aiLog('generate', `⚡ DOĞRUDAN TOPLU ÜRETİM: ${count} ${moduleType} → 1 API çağrısı (token limiti: yok)`, requestLogs);
@@ -1334,7 +1323,7 @@ function _buildBatchContentPrompt(moduleType, topicName, topicId, batch, partNum
 
     if (moduleType === 'explanations') {
         const now = new Date().toISOString();
-        return `Sen, MEB müfredatına ve ÖSYM'nin KPSS soru tarzına son derece hakim, 15+ yıl deneyimli bir eğitim içeriği editörüsün.
+        return `Sen, MEB müfredatına ve ÖSYM'nin KPSS soru tarzına hakim uzman bir eğitim içeriği editörüsün.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 KONU: "${topicName}"
@@ -1443,11 +1432,11 @@ BEKLENEN JSON (TAM ${batch.length} öğe):
 [
 ${batch.map((s, i) => `  {
     "topicId": "${topicId}",
-    "title": "Bölüm ${partNums[i]}: ${s.title}",
+    "title": "Bölüm ${part}: ${s.title}",
     "content": "[200-400 kelimelik akıcı tarihî/kavramsal anlatı]",
-    "key_points": ["[anahtar nokta 1]", "[anahtar nokta 2]", "[anahtar nokta 3]"],
+    "key_points": ["[madde 1]", "[madde 2]", "[madde 3]"],
     "type": "story",
-    "id": "story_${Date.now() + i}_${topicId.substring(0, 4)}_${partNums[i]}",
+    "id": "story_${Date.now() + i}_${topicId.substring(0, 4)}_${part}",
     "createdAt": "${now}",
     "updatedAt": "${now}"
   }`).join(',\n')}
@@ -1463,7 +1452,8 @@ ${batch.map((s, i) => `  {
 /**
  * Bir modül + topicId için halihazırda mevcut (yayınlanmış + taslak) içerikleri özetler
  * ve AI'ın TEKRAR ÜRETMEMESİ gereken ID/başlık listesini prompta enjekte edilecek
- * formatta döndürür. En çok productivity için kritik — aynı tekniği sürekli üretmeyi engeller.
+ * formatta döndürür. En çok productivity için kritik — aynı tekniği tekrar tekrar üretme
+ * sorununu önler.
  */
 function _buildExistingItemsBlock(moduleType, items) {
     if (!Array.isArray(items) || items.length === 0) return '';
@@ -1616,7 +1606,7 @@ ${contextInfo}
 3. 6-9 content bloğu: heading, text, bulletList, warning, highlighted
 4. 'text': 3-5 cümle, akademik-anlaşılır
 5. 'bulletList': 4-7 madde, "• " prefix, "\\n" ayraç
-6. En az 1 "highlighted" (KPSS'te sıkça sorulan püf nokta)
+6. En az 1 "highlighted" (KPSS'te sıkça sorulan püf nokta) içermeli
 7. Önceki/sonraki bölüme referans YASAK
 
 ⚠️ YASAKLAR: "..." ile yarım bırakma, replacement karakter, kod bloğu, önsöz.
@@ -1628,13 +1618,13 @@ BEKLENEN JSON:
   "content": [
     {"type": "heading", "text": "[başlık]"},
     {"type": "text", "text": "[giriş 3-5 cümle]"},
-    {"type": "bulletList", "text": "• ...\\n• ...\\n• ...\\n• ..."},
+    {"type": "bulletList", "text": "• [madde 1]\\n• [madde 2]\\n• [madde 3]\\n• [madde 4]"},
     {"type": "text", "text": "[detay 3-5 cümle]"},
     {"type": "highlighted", "text": "[KPSS püf noktası]"}
   ],
   "type": "detailed",
   "difficulty": "${difficulty}",
-  "id": "exp_${Date.now()}_${topicId.substring(0, 4)}_${part}",
+  "id": "exp_${Date.now() + i}_${topicId.substring(0, 4)}_${part}",
   "createdAt": "${new Date().toISOString()}",
   "updatedAt": "${new Date().toISOString()}"
 }]
@@ -1651,10 +1641,10 @@ ANAHTAR NOKTALAR: ${sectionInfo.key_points?.join(', ') || '-'}
 
 🎯 KURALLAR:
 • 200-400 kelime akıcı anlatı
-• BAŞLANGIÇ: Sahne/zaman/karakter ile aç
+• BAŞLANGIÇ: Bir sahne/zaman/karakter ile aç
 • ORTA: Sebep-sonuç zinciri, aktörlerin kararları
 • SON: Sonuç ve tarihî önemi
-• 3. tekil şahıs, geçmiş zaman
+• 3. tekil şahıs, geçmiş zaman — akademik ama canlı
 • Tarih/isim/yer DOĞRU — kurgu karakter YASAK
 
 key_points: 3-5 KISA madde (5-12 kelime), KPSS odaklı.
@@ -1666,7 +1656,7 @@ BEKLENEN JSON:
   "content": "[200-400 kelimelik gerçek anlatı]",
   "key_points": ["[madde 1]", "[madde 2]", "[madde 3]"],
   "type": "story",
-  "id": "story_${Date.now()}_${topicId.substring(0, 4)}_${part}",
+  "id": "story_${Date.now() + i}_${topicId.substring(0, 4)}_${part}",
   "createdAt": "${new Date().toISOString()}",
   "updatedAt": "${new Date().toISOString()}"
 }]
@@ -1899,7 +1889,7 @@ function callOpenRouter(prompt, model, apiKey, jsonMode = false, requestLogs = n
 
 // NOT: Eski `buildPrompt()` fonksiyonu kaldırıldı — hiçbir yerden çağrılmıyordu.
 // Tüm modüller artık `_generateDirectAll` (tek çağrılı) veya
-// `_buildBatchContentPrompt` / `buildDetailedContentPrompt` (syllabus tabanlı) üzerinden üretilir.
+// `_buildBatchContentPrompt` / `buildDetailedContentPrompt` üzerinden üretilir.
 
 function parseAIResponse(content, moduleType, topicId, part, requestLogs = null) {
     try {
@@ -2317,8 +2307,8 @@ function startNightlyScheduler() {
                 aiLog('nightly', `  → ${topic.name} / ${mod}: ${existing.length} mevcut, ${count} üretiliyor`);
                 try {
                     const generated = await generateWithAI(mod, topic.name, topic.id, existing.length + 1, count, cfg.model, null, { maxRetries: 2 });
-                    const allDrafts = [...readDraft(mod, topic.id), ...generated];
-                    writeDraft(mod, topic.id, allDrafts);
+                    const allDrafts = [...readDraft(mod, topicId), ...generated];
+                    writeDraft(mod, topicId, allDrafts);
                     aiLog('nightly', `  ✅ ${generated.length} taslak oluşturuldu: ${topic.name}`);
                 } catch (e) {
                     aiLog('nightly', `  ❌ Üretim hatası: ${topic.name} / ${mod}: ${e.message}`);

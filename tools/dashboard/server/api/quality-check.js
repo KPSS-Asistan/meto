@@ -6,18 +6,15 @@
 
 const fs = require('fs');
 const path = require('path');
-const https = require('https');
-
-const ROOT_DIR = path.join(__dirname, '..', '..', '..', '..');
-const ASSETS_DIR = path.join(ROOT_DIR, 'assets', 'data', 'questions');
+const { QUESTIONS_DIR } = require('../config');
 
 const OPTION_PREFIX_RE = /^[A-Ea-e][).–\-]\s*/;
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
 function getLocalTopicIds() {
-    if (!fs.existsSync(ASSETS_DIR)) return [];
-    return fs.readdirSync(ASSETS_DIR)
+    if (!fs.existsSync(QUESTIONS_DIR)) return [];
+    return fs.readdirSync(QUESTIONS_DIR)
         .filter(f => f.endsWith('.json'))
         .map(f => path.basename(f, '.json'));
 }
@@ -79,7 +76,7 @@ function checkTopic(topicId, jsonString) {
 // ─── Fix: prefix temizle ─────────────────────────────────────────────────────
 
 function fixLocalPrefixes(topicId) {
-    const filePath = path.join(ASSETS_DIR, `${topicId}.json`);
+    const filePath = path.join(QUESTIONS_DIR, `${topicId}.json`);
     if (!fs.existsSync(filePath)) return { fixed: 0, removed: 0, error: 'Dosya bulunamadı' };
 
     let data;
@@ -115,7 +112,7 @@ function fixLocalPrefixes(topicId) {
 // ─── Fix: encoding bozuk soruları sil ───────────────────────────────────────
 
 function removeEncodingBroken(topicId) {
-    const filePath = path.join(ASSETS_DIR, `${topicId}.json`);
+    const filePath = path.join(QUESTIONS_DIR, `${topicId}.json`);
     if (!fs.existsSync(filePath)) return { removed: 0, remaining: 0, error: 'Dosya bulunamadı' };
 
     let data;
@@ -182,7 +179,7 @@ module.exports = async function handleQualityCheckRoutes(req, res, pathname, sea
         for (const tid of topicIds) {
             let jsonString;
             try {
-                const fp = path.join(ASSETS_DIR, `${tid}.json`);
+                const fp = path.join(QUESTIONS_DIR, `${tid}.json`);
                 if (!fs.existsSync(fp)) continue;
                 jsonString = fs.readFileSync(fp, 'utf8');
             } catch (e) {

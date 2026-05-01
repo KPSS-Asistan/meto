@@ -5,8 +5,7 @@
 const fs = require('fs').promises;
 const path = require('path');
 const { sendJSON, parseBody } = require('../utils/helper');
-
-const FLASHCARDS_DIR = path.join(__dirname, '../../../../assets/data/flashcards');
+const { FLASHCARDS_DIR } = require('../config');
 
 // Ensure directory exists
 if (!require('fs').existsSync(FLASHCARDS_DIR)) {

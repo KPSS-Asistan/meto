@@ -5,10 +5,8 @@
 const fs = require('fs').promises;
 const path = require('path');
 const { sendJSON, parseBody } = require('../utils/helper');
+const { MATCHING_GAMES_DIR } = require('../config');
 
-const MATCHING_GAMES_DIR = path.join(__dirname, '../../../../assets/data/matching_games');
-
-// Sıralama - Flutter topics_data.dart ile aynı sıra
 const MATCHING_ORDER = [
     'JnFbEQt0uA8RSEuy22SQ','9Hg8tuMRdMTuVY7OZ9HL','8aIrKLvItXrwvOHq1L34','JU0iGKNhR7NQzA8M77vt','9WTotPoDW5OuWxsCf4Li',
     'DlT19snCttf5j5RUAXLz','4GUvpqBBImcLmN2eh1HK','onwrfsH02TgIhlyRUh56','xQWHl1hBYAKM96X4deR8',

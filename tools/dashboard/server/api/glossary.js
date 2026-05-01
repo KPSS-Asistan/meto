@@ -6,15 +6,11 @@ const fs = require('fs').promises;
 const fsSync = require('fs');
 const path = require('path');
 const https = require('https');
-const { exec } = require('child_process');
 const { sendJSON, parseBody } = require('../utils/helper');
-const { DATA_DIR } = require('../config');
+const { DATA_DIR, GLOSSARY_DIR } = require('../config');
 
 require('dotenv').config({ path: path.join(__dirname, '../../.env') });
 
-const GLOSSARY_DIR = path.join(DATA_DIR, 'glossary');
-
-// Dizinleri oluştur
 if (!fsSync.existsSync(GLOSSARY_DIR)) {
     fsSync.mkdirSync(GLOSSARY_DIR, { recursive: true });
 }
