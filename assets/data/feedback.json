@@ -1,0 +1,47 @@
+[
+  {
+    "message": "SASASASASA",
+    "type": "suggestion",
+    "typeName": "Öneri",
+    "userId": "omY8gp9BmFVvilyDQqxmz1CxfB93",
+    "userEmail": "6378226cilingir@gmail.com",
+    "userName": "mertcan",
+    "platform": "android",
+    "createdAt": "2026-04-20T19:31:18.609511",
+    "receivedAt": "2026-04-20T19:31:21.745Z"
+  },
+  {
+    "message": "SASASA",
+    "type": "suggestion",
+    "typeName": "Öneri",
+    "userId": "omY8gp9BmFVvilyDQqxmz1CxfB93",
+    "userEmail": "6378226cilingir@gmail.com",
+    "userName": "mertcan",
+    "platform": "android",
+    "createdAt": "2026-04-16T19:54:49.730003",
+    "receivedAt": "2026-04-16T19:54:45.846Z"
+  },
+  {
+    "message": "sadasd",
+    "type": "suggestion",
+    "typeName": "Öneri",
+    "userId": "omY8gp9BmFVvilyDQqxmz1CxfB93",
+    "userEmail": "6378226cilingir@gmail.com",
+    "platform": "android",
+    "receivedAt": "2026-01-25T15:12:33.794Z"
+  },
+  {
+    "type": "suggestion",
+    "message": "Test message",
+    "receivedAt": "2026-01-25T15:11:37.984Z"
+  },
+  {
+    "message": "sasa",
+    "type": "bug",
+    "typeName": "Hata Bildirimi",
+    "userId": "omY8gp9BmFVvilyDQqxmz1CxfB93",
+    "userEmail": "6378226cilingir@gmail.com",
+    "platform": "android",
+    "receivedAt": "2026-01-25T15:10:56.197Z"
+  }
+]
