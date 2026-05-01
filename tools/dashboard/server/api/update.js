@@ -120,7 +120,6 @@ async function handleUpdateRoutes(req, res, pathname) {
             console.log('✅ app_update.json güncellendi');
 
             // Git commit & push
-            let gitResult = { pushed: false, message: '' };
             try {
                 execSync('git add app_update.json', { cwd: ROOT_DIR, stdio: 'pipe' });
                 const commitMsg = `🔄 Güncelleme yapılandırması değiştirildi (${new Date().toLocaleDateString('tr-TR')})`;
@@ -131,21 +130,13 @@ async function handleUpdateRoutes(req, res, pathname) {
                 } catch { }
 
                 execSync('git push origin main', { cwd: ROOT_DIR, stdio: 'pipe' });
-                gitResult = { pushed: true, message: 'GitHub\'a başarıyla gönderildi' };
-                console.log('🚀 app_update.json GitHub\'a push edildi');
             } catch (gitErr) {
-                if (gitErr.message.includes('nothing to commit')) {
-                    gitResult = { pushed: true, message: 'Değişiklik yok, commit atlandı' };
-                } else {
-                    gitResult = { pushed: false, message: gitErr.message };
-                    console.log('⚠️ Git push hatası:', gitErr.message);
-                }
+                console.log(gitErr.message);
             }
 
             return sendJSON(res, {
                 success: true,
                 config: newConfig,
-                git: gitResult
             });
         } catch (e) {
             return sendJSON(res, { error: e.message }, 500);

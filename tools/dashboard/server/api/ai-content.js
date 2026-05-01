@@ -42,37 +42,37 @@ const FALLBACK_MODELS = [
 // $/M token (input/output) — 2026 Nisan güncel OpenRouter fiyatları
 const MODEL_PRICES = {
     // ⭐ TOP TIER — KPSS için önerilenler (kalite + fiyat)
-    'deepseek/deepseek-v3.2':                  { input: 0.26,  output: 0.38 }, // EN İYİ DEĞER
-    'google/gemini-3-flash-preview':           { input: 0.50,  output: 3.00 }, // Yüksek kalite
-    'minimax/minimax-m2.5':                    { input: 0.118, output: 0.99 }, // Coding+ofis
-    'minimax/minimax-m2.7':                    { input: 0.30,  output: 1.20 }, // Agentic SOTA
-    'google/gemini-2.5-flash':                 { input: 0.30,  output: 2.50 }, // Kararlı
-    'x-ai/grok-4.1-fast':                      { input: 0.20,  output: 0.50 }, // 2M context
+    'deepseek/deepseek-v3.2': { input: 0.26, output: 0.38 }, // EN İYİ DEĞER
+    'google/gemini-3-flash-preview': { input: 0.50, output: 3.00 }, // Yüksek kalite
+    'minimax/minimax-m2.5': { input: 0.118, output: 0.99 }, // Coding+ofis
+    'minimax/minimax-m2.7': { input: 0.30, output: 1.20 }, // Agentic SOTA
+    'google/gemini-2.5-flash': { input: 0.30, output: 2.50 }, // Kararlı
+    'x-ai/grok-4.1-fast': { input: 0.20, output: 0.50 }, // 2M context
 
     // 🆓 ÜCRETSİZ
-    'nvidia/nemotron-3-super-120b-a12b:free':  { input: 0,     output: 0    }, // 120B MoE
+    'nvidia/nemotron-3-super-120b-a12b:free': { input: 0, output: 0 }, // 120B MoE
 
     // 💰 BUDGET (hızlı, ucuz ama instruction-following orta)
-    'google/gemini-2.5-flash-lite':            { input: 0.10,  output: 0.40 },
-    'google/gemini-3.1-flash-lite-preview':    { input: 0.25,  output: 1.50 },
-    'moonshotai/kimi-k2.5':                    { input: 0.38,  output: 1.72 },
-    'openai/gpt-5-nano':                       { input: 0.05,  output: 0.40 },
-    'openai/gpt-4o-mini':                      { input: 0.15,  output: 0.60 },
+    'google/gemini-2.5-flash-lite': { input: 0.10, output: 0.40 },
+    'google/gemini-3.1-flash-lite-preview': { input: 0.25, output: 1.50 },
+    'moonshotai/kimi-k2.5': { input: 0.38, output: 1.72 },
+    'openai/gpt-5-nano': { input: 0.05, output: 0.40 },
+    'openai/gpt-4o-mini': { input: 0.15, output: 0.60 },
 
     // 👑 PREMIUM
-    'openai/gpt-5.2':                          { input: 1.75,  output: 14.00 },
-    'google/gemini-3.1-pro-preview':           { input: 2.00,  output: 12.00 },
-    'anthropic/claude-haiku-4.5':              { input: 1.00,  output: 5.00  },
-    'anthropic/claude-sonnet-4.6':             { input: 3.00,  output: 15.00 },
+    'openai/gpt-5.2': { input: 1.75, output: 14.00 },
+    'google/gemini-3.1-pro-preview': { input: 2.00, output: 12.00 },
+    'anthropic/claude-haiku-4.5': { input: 1.00, output: 5.00 },
+    'anthropic/claude-sonnet-4.6': { input: 3.00, output: 15.00 },
 
     // 📦 ESKİ (geriye uyumluluk)
-    'anthropic/claude-3.5-sonnet':             { input: 3.00,  output: 15.00 },
-    'anthropic/claude-3-haiku':                { input: 0.25,  output: 1.25  },
-    'anthropic/claude-3.5-haiku':              { input: 0.80,  output: 4.00  },
-    'openai/gpt-4o':                           { input: 5.00,  output: 15.00 },
-    'google/gemini-2.0-flash-001':             { input: 0.10,  output: 0.40  },
-    'google/gemini-flash-1.5':                 { input: 0.075, output: 0.30  },
-    'meta-llama/llama-3.3-70b-instruct':       { input: 0.59,  output: 0.79  },
+    'anthropic/claude-3.5-sonnet': { input: 3.00, output: 15.00 },
+    'anthropic/claude-3-haiku': { input: 0.25, output: 1.25 },
+    'anthropic/claude-3.5-haiku': { input: 0.80, output: 4.00 },
+    'openai/gpt-4o': { input: 5.00, output: 15.00 },
+    'google/gemini-2.0-flash-001': { input: 0.10, output: 0.40 },
+    'google/gemini-flash-1.5': { input: 0.075, output: 0.30 },
+    'meta-llama/llama-3.3-70b-instruct': { input: 0.59, output: 0.79 },
 };
 const USD_TO_TL = 38.5;
 
@@ -90,19 +90,18 @@ function logApiCost(model, promptTokens, completionTokens, context = {}) {
         ...context
     };
     let log = [];
-    try { if (fs.existsSync(COST_LOG_FILE)) log = JSON.parse(fs.readFileSync(COST_LOG_FILE, 'utf8')); } catch {}
+    try { if (fs.existsSync(COST_LOG_FILE)) log = JSON.parse(fs.readFileSync(COST_LOG_FILE, 'utf8')); } catch { }
     log.unshift(entry);
     fs.writeFileSync(COST_LOG_FILE, JSON.stringify(log.slice(0, 2000), null, 2), 'utf8');
     return entry;
 }
 
 function readNightlyConfig() {
-    try { if (fs.existsSync(NIGHTLY_CONFIG_FILE)) return JSON.parse(fs.readFileSync(NIGHTLY_CONFIG_FILE, 'utf8')); } catch {}
+    try { if (fs.existsSync(NIGHTLY_CONFIG_FILE)) return JSON.parse(fs.readFileSync(NIGHTLY_CONFIG_FILE, 'utf8')); } catch { }
     return { enabled: false, hour: 2, modules: ['explanations'], count: 5, model: 'anthropic/claude-3.5-haiku', minThreshold: 5 };
 }
 
 const ROOT_DIR = path.join(__dirname, '../../../..');
-const GITHUB_REPO_URL = 'https://github.com/mertcanasdf/meto';
 
 // ─── Modül Dizinleri ───
 const MODULE_DIRS = {
@@ -176,7 +175,7 @@ function getReferenceQuestions(topicId, topicName = '', limit = 12) {
             const score = allKeywords.reduce((acc, kw) => acc + (qTags.includes(kw) ? 1 : 0), 0);
             return { q, score };
         }).filter(x => x.score > 0)
-          .sort((a, b) => b.score - a.score);
+            .sort((a, b) => b.score - a.score);
 
         matched = scored.slice(0, limit).map(x => x.q);
     }
@@ -228,12 +227,12 @@ function readDraft(moduleType, topicId) {
         const parsed = JSON.parse(fs.readFileSync(draftFile, 'utf8'));
         // Boş/geçersiz draft dosyalarını opportunistically temizle — "bekleyen taslak" false positive'ini önler.
         if (!Array.isArray(parsed) || parsed.length === 0) {
-            try { fs.unlinkSync(draftFile); } catch {}
+            try { fs.unlinkSync(draftFile); } catch { }
             return [];
         }
         return parsed;
     } catch {
-        try { fs.unlinkSync(draftFile); } catch {}
+        try { fs.unlinkSync(draftFile); } catch { }
         return [];
     }
 }
@@ -254,16 +253,16 @@ function readPublished(moduleType, topicId) {
     } catch { return []; }
 }
 
-// ─── Yayınlanmış İçeriği Sil (Dosyayı Tamamen Sil + GitHub Push) ───
+// ─── Yayınlanmış İçeriği Sil (Dosyayı Tamamen Sil) ───
 function deletePublishedContent(moduleType, topicId, topicName) {
     const dir = MODULE_DIRS[moduleType];
     if (!dir) throw new Error('Geçersiz modül: ' + moduleType);
-    
+
     const filePath = path.join(dir, `${topicId}.json`);
     const assetsPath = path.join(ROOT_DIR, 'assets', 'data', moduleType, `${topicId}.json`);
     let deletedCount = 0;
     let fileExisted = false;
-    
+
     // Ana klasörden sil
     if (fs.existsSync(filePath)) {
         try {
@@ -283,8 +282,7 @@ function deletePublishedContent(moduleType, topicId, topicName) {
             console.error(`⚠️ Dosya okuma hatası (silme): ${filePath} - ${readErr.message}`);
         }
     }
-    
-    // Assets klasöründen de sil
+
     if (fs.existsSync(assetsPath)) {
         try {
             fs.unlinkSync(assetsPath);
@@ -292,27 +290,7 @@ function deletePublishedContent(moduleType, topicId, topicName) {
             console.error(`⚠️ Assets silme hatası: ${assetsPath} - ${e.message}`);
         }
     }
-    
-    // GitHub'a push et (silme işlemini gönder) - asenkron olarak
-    if (fileExisted) {
-        // GitHub push'u asenkron yap, silme işlemini bekletme
-        setTimeout(async () => {
-            try {
-                const commands = [
-                    `cd "${ROOT_DIR}"`,
-                    `git add "${filePath}" "${assetsPath}"`,
-                    `git commit -m "AI Content: DELETE ${moduleType} for ${topicName || topicId} [auto-delete]" || true`,
-                    'git push origin main || true'
-                ].join(' && ');
-                
-                execSync(commands, { cwd: ROOT_DIR, timeout: 60000, stdio: 'pipe' });
-                console.log(`✅ GitHub push (silme): ${moduleType}/${topicId}`);
-            } catch (e) {
-                console.error(`⚠️ Git push hatası (silme): ${e.message}`);
-            }
-        }, 100);
-    }
-    
+
     return { deleted: deletedCount };
 }
 
@@ -320,18 +298,18 @@ function deletePublishedContent(moduleType, topicId, topicName) {
 function saveToFile(moduleType, topicId, data) {
     const dir = MODULE_DIRS[moduleType];
     if (!dir) throw new Error('Geçersiz modül: ' + moduleType);
-    
+
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-    
+
     const filePath = path.join(dir, `${topicId}.json`);
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
-    
+
     // Assets klasörüne de kaydet
     const assetsDir = path.join(ROOT_DIR, 'assets', 'data', moduleType);
     if (!fs.existsSync(assetsDir)) fs.mkdirSync(assetsDir, { recursive: true });
     const assetsPath = path.join(assetsDir, `${topicId}.json`);
     fs.writeFileSync(assetsPath, JSON.stringify(data, null, 2), 'utf8');
-    
+
     return { filePath, assetsPath, count: data.length };
 }
 
@@ -353,139 +331,42 @@ function bumpVersionJson(moduleType, topicId) {
     const today = new Date().toISOString().split('T')[0];
     v.lastUpdated = today;
     v.last_updated = today;
-    
+
     const newContent = JSON.stringify(v, null, 2);
-    
+
     // Yaz öncesi üretilen JSON'ı doğrula (yarım yazma koruması)
     try {
         JSON.parse(newContent);
     } catch (e) {
         throw new Error(`version.json güncelleme hatası — geçersiz JSON üretildi: ${e.message}`);
     }
-    
+
     fs.writeFileSync(versionPath, newContent, 'utf8');
 }
 
-// ─── GitHub Push Helper ───
-// Önce hedef dosyanın .gitignore tarafından engellenmediğini doğrular (sessiz ignore
-// hataları üretimi "başarılı" gösterip içeriği Flutter'a asla ulaştırmazdı — bu yüzden
-// ön kontrol şart). Ardından version.json'u bump eder, commit + push atar ve son olarak
-// commit'e hedef yolun gerçekten girdiğini git ile tekrar doğrular.
-function pushToGitHub(moduleType, topicId, topicName) {
+// ─── Local Publish Helper ───
+// Sadece version.json bump edilir.
+function publishLocal(moduleType, topicId, topicName) {
     return new Promise((resolve) => {
-        const targetRelPath = `${moduleType}/${topicId}.json`;
-        const execOpts = { cwd: ROOT_DIR, timeout: 60000 };
-
-        // 1) .gitignore ön kontrolü: hedef dosya gerçekten ignore ediliyor mu?
-        //    DİKKAT: `git check-ignore` whitelist (!) kurallarını da "eşleşen kural" sayıp exit 0 döner.
-        //    Örnek çıktı: `.gitignore:13:!productivity/** productivity/x.json` — bu IGNORE DEĞİL, whitelist.
-        //    Pattern '!' ile başlıyorsa whitelist → push'a devam. Başlamıyorsa gerçek ignore → dur.
-        exec(`git check-ignore -v "${targetRelPath}"`, execOpts, (igErr, igStdout) => {
-            const matched = !igErr && (igStdout || '').trim();
-            // Çıktı format: "<file>:<line>:<pattern>\t<path>"  → pattern kısmını ayıkla
-            let isIgnored = false;
-            let rule = '';
-            if (matched) {
-                rule = matched;
-                // ilk satırdaki "pattern" üçüncü ":" arası token
-                const firstLine = matched.split(/\r?\n/)[0];
-                const beforeTab = firstLine.split('\t')[0];
-                const parts = beforeTab.split(':');
-                const pattern = parts.slice(2).join(':').trim(); // file:line: sonrası
-                isIgnored = pattern.length > 0 && !pattern.startsWith('!');
-            }
-
-            if (isIgnored) {
-                const msg = `❌ .gitignore "${targetRelPath}" dosyasını hariç tutuyor. `
-                    + `Kural: ${rule || '(bilinmiyor)'}. `
-                    + `Çözüm: .gitignore'a "!${moduleType}/**" satırını ekleyin.`;
-                aiLog('error', msg);
-                return resolve({
-                    pushed: false,
-                    reason: 'gitignored',
-                    target: targetRelPath,
-                    rule,
-                    error: msg,
-                    url: null,
-                });
-            }
-
-            // 2) version.json bump (sadece ignore sorunu yoksa)
-            try { bumpVersionJson(moduleType, topicId); } catch (e) {
-                aiLog('error', `version.json bump error: ${e.message}`);
-            }
-
-            // 3) add + commit + push
-            const commands = [
-                `cd "${ROOT_DIR}"`,
-                'git add .',
-                `git commit -m "AI Content: ${moduleType} for ${topicName || topicId} [auto-commit]"`,
-                'git push origin main',
-            ].join(' && ');
-
-            exec(commands, execOpts, (error, stdout, stderr) => {
-                if (error) {
-                    if (error.message.includes('nothing to commit')) {
-                        return resolve({ pushed: false, reason: 'no_changes', url: null });
-                    }
-                    aiLog('error', `Git push hatası: ${error.message}`);
-                    return resolve({ pushed: false, error: error.message, url: null });
-                }
-
-                // 4) Commit sonrası doğrulama: hedef yol gerçekten HEAD commit'ine girdi mi?
-                //    Bu, .gitignore check-ignore'unu atlatan başka bir sebep (LFS, submodule,
-                //    pre-commit hook, casing) varsa yakalar.
-                exec(`git diff-tree --no-commit-id --name-only -r HEAD`, execOpts, (vErr, vOut) => {
-                    const fileUrl = GITHUB_REPO_URL
-                        ? `${GITHUB_REPO_URL}/blob/main/${targetRelPath}`
-                        : null;
-
-                    if (vErr) {
-                        // Push başarılıydı ama doğrulama komutu hata verdi — push'u yine de
-                        // başarılı say, sadece uyarı düş.
-                        aiLog('warning', `Push doğrulama komutu hata verdi (push başarılı): ${vErr.message}`);
-                        return resolve({ pushed: true, url: fileUrl, verified: false });
-                    }
-
-                    const committedFiles = (vOut || '').split(/\r?\n/).map(s => s.trim()).filter(Boolean);
-                    // Windows ↔ POSIX path normalizasyonu
-                    const normalized = committedFiles.map(f => f.replace(/\\/g, '/'));
-                    const target = targetRelPath.replace(/\\/g, '/');
-                    const included = normalized.includes(target);
-
-                    if (!included) {
-                        const msg = `⚠️ Push atıldı ama "${target}" son commit'e girmedi. `
-                            + `Commit'teki dosyalar: [${normalized.slice(0, 10).join(', ')}${normalized.length > 10 ? `, +${normalized.length - 10}` : ''}]. `
-                            + `Muhtemel sebep: dosya üretilmemiş veya .gitignore benzeri bir kural engelliyor. `
-                            + `Flutter version.json'da bump görecek ama içerik 404 dönecek.`;
-                        aiLog('error', msg);
-                        return resolve({
-                            pushed: true,
-                            verified: false,
-                            reason: 'file_not_in_commit',
-                            target,
-                            committedFiles: normalized,
-                            error: msg,
-                            url: fileUrl,
-                        });
-                    }
-
-                    aiLog('publish', `✅ GitHub push doğrulandı: ${target}`);
-                    resolve({ pushed: true, verified: true, url: fileUrl });
-                });
-            });
-        });
+        try {
+            bumpVersionJson(moduleType, topicId);
+            aiLog('publish', `✅ Local publish başarılı (version.json güncellendi): ${moduleType}/${topicId}`);
+            resolve({ success: true });
+        } catch (e) {
+            aiLog('error', `version.json bump error: ${e.message}`);
+            resolve({ success: false, error: e.message });
+        }
     });
 }
 
 // ─── Konu Listesi ───
 function getTopicsList() {
     try {
-        const dartFile = fs.readFileSync(path.join(ROOT_DIR, 'lib/core/data/topics_data.dart'), 'utf8');
-        const matches = [...dartFile.matchAll(/'id':\s*'([^']+)'[\s\S]*?'name':\s*'((?:[^'\\]|\\'|\\\\)*?)'/g)];
-        return matches.map(m => ({ 
-            id: m[1], 
-            name: m[2].replace(/\\'/g, "'") 
+        const dataPath = path.join(__dirname, '..', '..', '..', '..', 'assets', 'data', 'topics.json');
+        const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+        return data.map(m => ({
+            id: m.id,
+            name: m.name
         }));
     } catch (e) {
         console.error('Topics parse error:', e);
@@ -497,8 +378,8 @@ function getTopicsList() {
 function buildExplanationPrompt(topicName, topicId, part, totalParts = 30, previousContext = '') {
     const p = { start: part, count: 1, range: `${part}` };
     const ts = Date.now();
-    
-    const contextSection = previousContext 
+
+    const contextSection = previousContext
         ? `\n\n🚫 YASAKLILAR LİSTESİ - BU KONULARI TEKRAR ETME:\n${previousContext}\n\n⚠️ KURAL: Yukarıdaki konular hakkında HİÇBİR BİLGİ tekrar etme.`
         : '';
 
@@ -528,7 +409,7 @@ BEKLENEN JSON FORMATI:
   ],
   "type": "detailed",
   "difficulty": "medium",
-  "id": "exp_${ts}_${topicId.substring(0,4)}_0",
+  "id": "exp_${ts}_${topicId.substring(0, 4)}_0",
   "createdAt": "${new Date().toISOString()}",
   "updatedAt": "${new Date().toISOString()}"
 }]
@@ -545,13 +426,13 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
     // Productivity üretimi için topic listesi bu endpoint'ten gelir; KPSS konularından ayrıdır.
     if (pathname === '/api/ai-content/productivity-categories' && req.method === 'GET') {
         const categories = [
-            { id: 'timeManagement',    name: 'Zaman Yönetimi' },
-            { id: 'motivation',        name: 'Motivasyon' },
-            { id: 'studyPlanning',     name: 'Çalışma Planlama' },
-            { id: 'concentration',     name: 'Odaklanma' },
-            { id: 'breakGuide',        name: 'Mola Rehberi' },
-            { id: 'examFastLearning',  name: 'Sınav & Hızlı Öğrenme' },
-            { id: 'noteMemory',        name: 'Not & Hafıza Teknikleri' },
+            { id: 'timeManagement', name: 'Zaman Yönetimi' },
+            { id: 'motivation', name: 'Motivasyon' },
+            { id: 'studyPlanning', name: 'Çalışma Planlama' },
+            { id: 'concentration', name: 'Odaklanma' },
+            { id: 'breakGuide', name: 'Mola Rehberi' },
+            { id: 'examFastLearning', name: 'Sınav & Hızlı Öğrenme' },
+            { id: 'noteMemory', name: 'Not & Hafıza Teknikleri' },
         ];
         const enriched = categories.map(c => {
             const fp = path.join(MODULE_DIRS.productivity, `${c.id}.json`);
@@ -561,7 +442,7 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
                     const data = JSON.parse(fs.readFileSync(fp, 'utf8'));
                     count = Array.isArray(data) ? data.length : 0;
                 }
-            } catch {}
+            } catch { }
             const drafts = readDraft('productivity', c.id).length;
             return { ...c, status: { productivity: count }, drafts };
         });
@@ -571,7 +452,7 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
     // GET /api/ai-content/topics - Konu listesi
     if (pathname === '/api/ai-content/topics' && req.method === 'GET') {
         const topics = getTopicsList();
-        
+
         const enriched = topics.map(t => {
             const status = {};
             for (const mod of Object.keys(MODULE_DIRS)) {
@@ -587,10 +468,10 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
             }
             return { ...t, status };
         });
-        
+
         return sendJSON(res, { success: true, topics: enriched });
     }
-    
+
     // POST /api/ai-content/delete-published - Yayınlanmış içeriği sil
     if (pathname === '/api/ai-content/delete-published' && req.method === 'POST') {
         try {
@@ -600,14 +481,13 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
             if (!VALID_MODULES.includes(moduleType))
                 return sendJSON(res, { error: 'Geçersiz modül' }, 400);
 
-            // Hem published hem draft'ları sil (tam temizlik + GitHub push)
             const pubResult = deletePublishedContent(moduleType, topicId, topicName);
             const draftResult = readDraft(moduleType, topicId);
             const draftFile = getDraftPath(moduleType, topicId);
             if (fs.existsSync(draftFile)) {
                 fs.unlinkSync(draftFile);
             }
-            
+
             const totalDeleted = (pubResult.deleted || 0) + (draftResult?.length || 0);
             return sendJSON(res, { success: true, deleted: totalDeleted, published: pubResult.deleted, drafts: draftResult?.length || 0 });
         } catch (e) {
@@ -638,7 +518,7 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
         // Productivity modülünde topicId, Flutter kategori ID'si olmak zorunda —
         // aksi hâlde üretilen içerik uygulamaya entegre olamaz.
         if (moduleType === 'productivity') {
-            const VALID_PROD_CATEGORIES = ['timeManagement','motivation','studyPlanning','concentration','breakGuide','examFastLearning','noteMemory'];
+            const VALID_PROD_CATEGORIES = ['timeManagement', 'motivation', 'studyPlanning', 'concentration', 'breakGuide', 'examFastLearning', 'noteMemory'];
             if (!VALID_PROD_CATEGORIES.includes(topicId)) {
                 return sendJSON(res, {
                     error: `Productivity üretimi için topicId Flutter kategori ID'si olmalı. Geçerli ID'ler: ${VALID_PROD_CATEGORIES.join(', ')}. Verilen: '${topicId}'`,
@@ -678,7 +558,7 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
                 const startPart = existingDrafts.length + 1;
                 aiLog('generate', `📁 Mevcut taslak: ${existingDrafts.length} | Bölüm ${startPart}'den başlıyor`, requestLogs);
 
-                const safeDifficulty = ['easy','medium','hard'].includes(difficulty) ? difficulty : 'medium';
+                const safeDifficulty = ['easy', 'medium', 'hard'].includes(difficulty) ? difficulty : 'medium';
                 aiLog('generate', `⚙️ Ayarlar: zorluk=${safeDifficulty} · kaliteKontrol=${enableQualityCheck} · referans=${useReferenceQuestions} · retry=${safeMaxRetries}`, requestLogs);
 
                 const generated = await generateWithAI(
@@ -738,7 +618,7 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
         const drafts = readDraft(moduleType, topicId);
         return sendJSON(res, { success: true, drafts, count: drafts.length });
     }
-    
+
     // POST /api/ai-content/update-draft - Tek taslağı güncelle
     if (pathname === '/api/ai-content/update-draft' && req.method === 'POST') {
         try {
@@ -785,25 +665,25 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
     if (pathname === '/api/ai-content/approve-draft' && req.method === 'POST') {
         try {
             const { moduleType, topicId, topicName, indices } = await parseBody(req);
-            
+
             if (!moduleType || !topicId)
                 return sendJSON(res, { error: 'moduleType ve topicId gerekli' }, 400);
-            
+
             const drafts = readDraft(moduleType, topicId);
             if (!drafts || drafts.length === 0)
                 return sendJSON(res, { error: 'Onaylanacak taslak bulunamadı' }, 400);
-            
+
             // Belirli indeksler seçilmişse filtrele, yoksa hepsini al
-            const toPublish = indices && indices.length > 0 
+            const toPublish = indices && indices.length > 0
                 ? drafts.filter((_, i) => indices.includes(i))
                 : drafts;
-            
+
             // Mevcut yayınlanmış içeriği oku
             const existing = readPublished(moduleType, topicId);
-            
+
             // Birleştir (yenileri sona ekle)
             const merged = [...existing, ...toPublish];
-            
+
             // Title bazlı dedup: aynı başlıklı varsa yeniyi tut
             const seen = new Map();
             for (const item of merged) {
@@ -822,20 +702,16 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
                 }
                 return cleaned;
             });
-            
+
             // Kaydet
             const result = saveToFile(moduleType, topicId, combined);
-            
-            // GitHub push
-            aiLog('publish', `GitHub push başlatılıyor: ${moduleType}/${topicId}`);
-            const pushResult = await pushToGitHub(moduleType, topicId, topicName);
-            
-            // Onaylananları taslaktan kaldır (eğer hepsi onaylandıysa)
+
+            aiLog('publish', `Local publish başlatılıyor: ${moduleType}/${topicId}`);
+            const publishResult = await publishLocal(moduleType, topicId, topicName);
+
             if (!indices || indices.length === 0) {
-                // Hepsini sil
                 fs.unlinkSync(getDraftPath(moduleType, topicId));
             } else {
-                // Sadece onaylananları sil, kalanları tut
                 const remaining = drafts.filter((_, i) => !indices.includes(i));
                 if (remaining.length > 0) {
                     writeDraft(moduleType, topicId, remaining);
@@ -843,14 +719,14 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
                     fs.unlinkSync(getDraftPath(moduleType, topicId));
                 }
             }
-            
+
             aiLog('publish', `✅ ${toPublish.length} bölüm canlıya alındı: ${topicName}`);
-            
-            return sendJSON(res, { 
-                success: true, 
+
+            return sendJSON(res, {
+                success: true,
                 published: toPublish.length,
                 total: combined.length,
-                github: pushResult,
+                publishResult: publishResult,
                 message: `${toPublish.length} bölüm başarıyla yayınlandı!`
             });
         } catch (e) {
@@ -880,21 +756,21 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
     // GET /api/cost-log - Maliyet logu
     if (pathname === '/api/cost-log' && req.method === 'GET') {
         let log = [];
-        try { if (fs.existsSync(COST_LOG_FILE)) log = JSON.parse(fs.readFileSync(COST_LOG_FILE, 'utf8')); } catch {}
-        const total = log.reduce((s, e) => ({ usd: s.usd + e.costUsd, tl: s.tl + e.costTl, tokens: s.tokens + (e.promptTokens||0) + (e.completionTokens||0) }), { usd: 0, tl: 0, tokens: 0 });
+        try { if (fs.existsSync(COST_LOG_FILE)) log = JSON.parse(fs.readFileSync(COST_LOG_FILE, 'utf8')); } catch { }
+        const total = log.reduce((s, e) => ({ usd: s.usd + e.costUsd, tl: s.tl + e.costTl, tokens: s.tokens + (e.promptTokens || 0) + (e.completionTokens || 0) }), { usd: 0, tl: 0, tokens: 0 });
         return sendJSON(res, { success: true, log: log.slice(0, 200), total: { usd: parseFloat(total.usd.toFixed(4)), tl: parseFloat(total.tl.toFixed(2)), tokens: total.tokens } });
     }
 
     // DELETE /api/cost-log - Logu temizle
     if (pathname === '/api/cost-log' && req.method === 'DELETE') {
-        try { fs.writeFileSync(COST_LOG_FILE, '[]', 'utf8'); } catch {}
+        try { fs.writeFileSync(COST_LOG_FILE, '[]', 'utf8'); } catch { }
         return sendJSON(res, { success: true });
     }
 
     // GET /api/cost-log/summary - Gün/model/modül bazlı özet
     if (pathname === '/api/cost-log/summary' && req.method === 'GET') {
         let log = [];
-        try { if (fs.existsSync(COST_LOG_FILE)) log = JSON.parse(fs.readFileSync(COST_LOG_FILE, 'utf8')); } catch {}
+        try { if (fs.existsSync(COST_LOG_FILE)) log = JSON.parse(fs.readFileSync(COST_LOG_FILE, 'utf8')); } catch { }
 
         const byDay = {};    // { '2026-04-16': { usd, tl, calls, tokens } }
         const byModel = {};  // { 'google/gemini-2.5-flash': { usd, tl, calls, tokens } }
@@ -970,8 +846,10 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
                     items.forEach((item, idx) => {
                         if (results.length >= 60) return;
                         if (JSON.stringify(item).toLowerCase().includes(q))
-                            results.push({ type: 'published', moduleType: mod, topicId: topic.id, topicName: topic.name, index: idx,
-                                title: item.title || item.front || item.left || `#${idx+1}` });
+                            results.push({
+                                type: 'published', moduleType: mod, topicId: topic.id, topicName: topic.name, index: idx,
+                                title: item.title || item.front || item.left || `#${idx + 1}`
+                            });
                     });
                 }
                 if (scope !== 'published') {
@@ -979,8 +857,10 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
                     drafts.forEach((item, idx) => {
                         if (results.length >= 60) return;
                         if (JSON.stringify(item).toLowerCase().includes(q))
-                            results.push({ type: 'draft', moduleType: mod, topicId: topic.id, topicName: topic.name, index: idx,
-                                title: item.title || item.front || item.left || `Taslak #${idx+1}` });
+                            results.push({
+                                type: 'draft', moduleType: mod, topicId: topic.id, topicName: topic.name, index: idx,
+                                title: item.title || item.front || item.left || `Taslak #${idx + 1}`
+                            });
                     });
                 }
                 if (results.length >= 60) break outer;
@@ -1043,7 +923,7 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
         if (!moduleType || !MODULE_DIRS[moduleType]) {
             return sendJSON(res, { error: 'Geçersiz module tipi' }, 400);
         }
-        
+
         const dirPath = MODULE_DIRS[moduleType];
         try {
             if (!fs.existsSync(dirPath)) {
@@ -1062,14 +942,14 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
     if (pathname === '/api/ai-content/file' && req.method === 'GET') {
         const moduleType = searchParams.get('module');
         const filename = searchParams.get('filename');
-        
+
         if (!moduleType || !MODULE_DIRS[moduleType]) {
             return sendJSON(res, { error: 'Geçersiz module tipi' }, 400);
         }
         if (!filename || !filename.endsWith('.json')) {
             return sendJSON(res, { error: 'Geçersiz dosya adı (.json gerekli)' }, 400);
         }
-        
+
         const filePath = path.join(MODULE_DIRS[moduleType], filename);
         try {
             if (!fs.existsSync(filePath)) {
@@ -1087,7 +967,7 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
         try {
             const body = await parseBody(req);
             const { module: moduleType, filename, content } = body;
-            
+
             if (!moduleType || !MODULE_DIRS[moduleType]) {
                 return sendJSON(res, { error: 'Geçersiz module tipi' }, 400);
             }
@@ -1097,15 +977,15 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
             if (content === undefined || content === null) {
                 return sendJSON(res, { error: 'İçerik gerekli' }, 400);
             }
-            
+
             const dirPath = MODULE_DIRS[moduleType];
             if (!fs.existsSync(dirPath)) {
                 fs.mkdirSync(dirPath, { recursive: true });
             }
-            
+
             const filePath = path.join(dirPath, filename);
             fs.writeFileSync(filePath, content, 'utf8');
-            
+
             return sendJSON(res, { success: true, message: 'Dosya kaydedildi' });
         } catch (e) {
             return sendJSON(res, { error: e.message }, 500);
@@ -1116,14 +996,14 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
     if (pathname === '/api/ai-content/file' && req.method === 'DELETE') {
         const moduleType = searchParams.get('module');
         const filename = searchParams.get('filename');
-        
+
         if (!moduleType || !MODULE_DIRS[moduleType]) {
             return sendJSON(res, { error: 'Geçersiz module tipi' }, 400);
         }
         if (!filename || !filename.endsWith('.json')) {
             return sendJSON(res, { error: 'Geçersiz dosya adı (.json gerekli)' }, 400);
         }
-        
+
         const filePath = path.join(MODULE_DIRS[moduleType], filename);
         try {
             if (!fs.existsSync(filePath)) {
@@ -1202,7 +1082,7 @@ async function generateWithAI(moduleType, topicName, topicId, startPart, count, 
         const syllabusContent = await callWithModelFallback(syllabusPrompt, model, OPENROUTER_API_KEY, true, requestLogs, requestTimeoutMs, maxRetries);
         syllabus = parseSyllabusResponse(syllabusContent, requestLogs);
         aiLog('generate', `✅ Syllabus oluşturuldu: ${syllabus.length} bölüm`, requestLogs);
-        syllabus.slice(0, 3).forEach((s, i) => aiLog('generate', `   ${i+1}. ${s.title}`, requestLogs));
+        syllabus.slice(0, 3).forEach((s, i) => aiLog('generate', `   ${i + 1}. ${s.title}`, requestLogs));
         if (syllabus.length > 3) aiLog('generate', `   ... ve ${syllabus.length - 3} bölüm daha`, requestLogs);
     } catch (e) {
         throw new Error('Konu outline\'ı oluşturulamadı: ' + e.message);
@@ -1222,7 +1102,7 @@ async function generateWithAI(moduleType, topicName, topicId, startPart, count, 
     for (let i = 0; i < total; i += BATCH_SIZE) {
         const batch = syllabus.slice(i, Math.min(i + BATCH_SIZE, total));
         const batchNums = batch.map((_, j) => startPart + i + j);
-        aiLog('generate', `⏳ Batch [${batchNums[0]}-${batchNums[batchNums.length-1]}]: ${batch.map(s => s.title?.substring(0, 30)).join(' | ')}`, requestLogs);
+        aiLog('generate', `⏳ Batch [${batchNums[0]}-${batchNums[batchNums.length - 1]}]: ${batch.map(s => s.title?.substring(0, 30)).join(' | ')}`, requestLogs);
 
         const contentPrompt = _buildBatchContentPrompt(moduleType, topicName, topicId, batch, batchNums, syllabus, difficulty) + refBlock;
         try {
@@ -1314,28 +1194,42 @@ JSON çıktısı (DİKKAT: Tam ${count} öğe, sayıyı kontrol et):
             // Flutter kategori ID'si bekleniyor (timeManagement, motivation, ...).
             // Geri uyumluluk için eski TR topic ID'lerini de haritalayalım.
             const categoryMap = {
-                timeManagement:   { label: 'Zaman Yönetimi',
-                    focus: 'Pomodoro, time-blocking, Eisenhower matrisi, Parkinson yasası, 2-dakika kuralı, Deep Work slotları, Ivy Lee metodu, Eat the Frog' },
-                motivation:       { label: 'Motivasyon',
-                    focus: 'SMART hedefler, erteleme ile mücadele, zincir kırmama (Seinfeld), küçük kazanım, ritüel oluşturma, görselleştirme, why-ladder' },
-                studyPlanning:    { label: 'Çalışma Planlama',
-                    focus: 'Haftalık/günlük plan, aralıklı tekrar (SRS), Leitner, konu rotasyonu, deneme sınavı programı, zayıf konu önceliklendirme' },
-                concentration:    { label: 'Odaklanma',
-                    focus: 'Deep work, dikkat dağıtıcı sindirimi, Flow durumu, dijital detoks, 90 dk ultradiyen ritmi, mindful breath, single-tasking' },
-                breakGuide:       { label: 'Mola Rehberi',
-                    focus: 'NSDR/Yoga Nidra, 20-20-20 kuralı, Niksen, aktif dinlenme, doğa yürüyüşü, uyku-performans, güneş ışığı molası' },
-                examFastLearning: { label: 'Sınav & Hızlı Öğrenme',
-                    focus: 'Feynman tekniği, aralıklı tekrar, çekirdek kavram çıkarma, sorudan başlama, deneme analizi, zor soru bankası, net hesabı taktikleri' },
-                noteMemory:       { label: 'Not & Hafıza Teknikleri',
-                    focus: 'Hafıza sarayı (method of loci), bağdaştırma, görselleştirme, akronim, Cornell notları, zihin haritası, chunking, mnemonic' },
+                timeManagement: {
+                    label: 'Zaman Yönetimi',
+                    focus: 'Pomodoro, time-blocking, Eisenhower matrisi, Parkinson yasası, 2-dakika kuralı, Deep Work slotları, Ivy Lee metodu, Eat the Frog'
+                },
+                motivation: {
+                    label: 'Motivasyon',
+                    focus: 'SMART hedefler, erteleme ile mücadele, zincir kırmama (Seinfeld), küçük kazanım, ritüel oluşturma, görselleştirme, why-ladder'
+                },
+                studyPlanning: {
+                    label: 'Çalışma Planlama',
+                    focus: 'Haftalık/günlük plan, aralıklı tekrar (SRS), Leitner, konu rotasyonu, deneme sınavı programı, zayıf konu önceliklendirme'
+                },
+                concentration: {
+                    label: 'Odaklanma',
+                    focus: 'Deep work, dikkat dağıtıcı sindirimi, Flow durumu, dijital detoks, 90 dk ultradiyen ritmi, mindful breath, single-tasking'
+                },
+                breakGuide: {
+                    label: 'Mola Rehberi',
+                    focus: 'NSDR/Yoga Nidra, 20-20-20 kuralı, Niksen, aktif dinlenme, doğa yürüyüşü, uyku-performans, güneş ışığı molası'
+                },
+                examFastLearning: {
+                    label: 'Sınav & Hızlı Öğrenme',
+                    focus: 'Feynman tekniği, aralıklı tekrar, çekirdek kavram çıkarma, sorudan başlama, deneme analizi, zor soru bankası, net hesabı taktikleri'
+                },
+                noteMemory: {
+                    label: 'Not & Hafıza Teknikleri',
+                    focus: 'Hafıza sarayı (method of loci), bağdaştırma, görselleştirme, akronim, Cornell notları, zihin haritası, chunking, mnemonic'
+                },
                 // Eski TR ID'ler (geri uyumluluk)
-                'zaman-yonetimi':      { label: 'Zaman Yönetimi',      focus: 'Pomodoro, time-blocking, Eisenhower, Parkinson yasası' },
-                'motivasyon':          { label: 'Motivasyon',          focus: 'SMART hedefler, erteleme ile mücadele' },
-                'calisma-planlama':    { label: 'Çalışma Planlama',    focus: 'Haftalık plan, SRS, deneme programı' },
-                'odaklanma':           { label: 'Odaklanma',           focus: 'Deep work, Flow, dijital detoks' },
-                'mola-rehberi':        { label: 'Mola Rehberi',        focus: 'NSDR, 20-20-20, aktif dinlenme' },
+                'zaman-yonetimi': { label: 'Zaman Yönetimi', focus: 'Pomodoro, time-blocking, Eisenhower, Parkinson yasası' },
+                'motivasyon': { label: 'Motivasyon', focus: 'SMART hedefler, erteleme ile mücadele' },
+                'calisma-planlama': { label: 'Çalışma Planlama', focus: 'Haftalık plan, SRS, deneme programı' },
+                'odaklanma': { label: 'Odaklanma', focus: 'Deep work, Flow, dijital detoks' },
+                'mola-rehberi': { label: 'Mola Rehberi', focus: 'NSDR, 20-20-20, aktif dinlenme' },
                 'sinav-hizli-ogrenme': { label: 'Sınav & Hızlı Öğrenme', focus: 'Feynman, hızlı okuma' },
-                'hafiza-teknikleri':   { label: 'Not & Hafıza Teknikleri', focus: 'Hafıza sarayı, mnemonik, Cornell' },
+                'hafiza-teknikleri': { label: 'Not & Hafıza Teknikleri', focus: 'Hafıza sarayı, mnemonik, Cornell' },
             };
             const cat = categoryMap[topicId] || { label: topicName, focus: '[bu kategoriye özgü teknikler]' };
             // Flutter category alanı MUTLAKA kategori ID'si olmalı
@@ -1411,7 +1305,7 @@ ${count} sorunun hepsi FARKLI kavram/olay. Zamansız (2024 Cumhurbaşkanı gibi 
 YASAK: \uFFFD/◆, 80+ kelime kök, bilgi hatası, kod bloğu, önsöz.
 
 JSON şablonu (tam ${count} öğe):
-[{"id":"${topicId.substring(0,6)}_${ts}_1","topicId":"${topicId}","subtopicId":"alt-konu","subtopic":"Alt Konu Başlığı","q":"... min 15 kelime soru ...","o":["Şık1","Şık2","Şık3","Şık4","Şık5"],"a":2,"e":"Doğru cevap C. [gerekçe, 100-220 karakter]."}]${refBlock}`
+[{"id":"${topicId.substring(0, 6)}_${ts}_1","topicId":"${topicId}","subtopicId":"alt-konu","subtopic":"Alt Konu Başlığı","q":"... min 15 kelime soru ...","o":["Şık1","Şık2","Şık3","Şık4","Şık5"],"a":2,"e":"Doğru cevap C. [gerekçe, 100-220 karakter]."}]${refBlock}`
     };
 
     // Modül + count'a göre dinamik max_tokens — kısa çıktı/truncation sorununu önler
@@ -1496,7 +1390,7 @@ ${batch.map((s, i) => `  {
     ],
     "type": "detailed",
     "difficulty": "${difficulty}",
-    "id": "exp_${Date.now() + i}_${topicId.substring(0,4)}_${partNums[i]}",
+    "id": "exp_${Date.now() + i}_${topicId.substring(0, 4)}_${partNums[i]}",
     "createdAt": "${now}",
     "updatedAt": "${now}"
   }`).join(',\n')}
@@ -1553,7 +1447,7 @@ ${batch.map((s, i) => `  {
     "content": "[200-400 kelimelik akıcı tarihî/kavramsal anlatı]",
     "key_points": ["[anahtar nokta 1]", "[anahtar nokta 2]", "[anahtar nokta 3]"],
     "type": "story",
-    "id": "story_${Date.now() + i}_${topicId.substring(0,4)}_${partNums[i]}",
+    "id": "story_${Date.now() + i}_${topicId.substring(0, 4)}_${partNums[i]}",
     "createdAt": "${now}",
     "updatedAt": "${now}"
   }`).join(',\n')}
@@ -1615,9 +1509,9 @@ function _buildExistingItemsBlock(moduleType, items) {
 // ═════════════════════════════════════════════════════════════════════════════
 function buildDifficultyGuide(difficulty, moduleType) {
     const base = {
-        easy:   'Zorluk: KOLAY — doğrudan bilgi hatırlama, bağlam max 1 cümle, çıkarım yok. Dağılım: %80 olgu · %20 basit eşleştirme.',
+        easy: 'Zorluk: KOLAY — doğrudan bilgi hatırlama, bağlam max 1 cümle, çıkarım yok. Dağılım: %80 olgu · %20 basit eşleştirme.',
         medium: 'Zorluk: ORTA (standart KPSS) — 1-2 cümle bağlam + çıkarım. Dağılım: %25 kolay · %50 orta · %25 zor.',
-        hard:   'Zorluk: ZOR — 2-3 cümle bağlam + çok adımlı çıkarım, yakın çeldiriciler. Dağılım: %15 kolay · %35 orta · %50 zor.',
+        hard: 'Zorluk: ZOR — 2-3 cümle bağlam + çok adımlı çıkarım, yakın çeldiriciler. Dağılım: %15 kolay · %35 orta · %50 zor.',
     };
     return base[difficulty] || base.medium;
 }
@@ -1649,43 +1543,43 @@ SADECE JSON döndür, başka açıklama ekleme.`;
 function parseSyllabusResponse(content, requestLogs = null) {
     try {
         aiLog('syllabus', `📋 Syllabus parse ediliyor... (${content.length} karakter)`, requestLogs);
-        
+
         // JSON'ı temizle
         let cleanContent = content.trim();
-        
+
         // Markdown code block içindeyse çıkar
         if (cleanContent.includes('```json')) {
             cleanContent = cleanContent.split('```json')[1].split('```')[0].trim();
         } else if (cleanContent.includes('```')) {
             cleanContent = cleanContent.split('```')[1].split('```')[0].trim();
         }
-        
+
         // JSON kısmını bul
         const jsonMatch = cleanContent.match(/\[[\s\S]*\]|\{[\s\S]*\}/);
         if (jsonMatch) {
             cleanContent = jsonMatch[0];
         }
-        
+
         // Common JSON hatalarını düzelt
         cleanContent = cleanContent
             .replace(/,\s*([}\]])/g, '$1')  // Trailing commas
             .replace(/\n/g, ' ')
             .replace(/\r/g, ' ')
             .replace(/\t/g, ' ');
-        
+
         const parsed = JSON.parse(cleanContent);
-        
+
         if (parsed.sections && Array.isArray(parsed.sections)) {
             aiLog('syllabus', `✅ Syllabus parse edildi: ${parsed.sections.length} bölüm`, requestLogs);
             return parsed.sections;
         }
-        
+
         // Eğer direkt array döndüyse
         if (Array.isArray(parsed)) {
             aiLog('syllabus', `✅ Syllabus parse edildi (array): ${parsed.length} bölüm`, requestLogs);
             return parsed;
         }
-        
+
         throw new Error('Geçersiz syllabus formatı: sections array bulunamadı');
     } catch (e) {
         aiLog('error', `❌ Syllabus parse hatası: ${e.message}`, requestLogs);
@@ -1740,7 +1634,7 @@ BEKLENEN JSON:
   ],
   "type": "detailed",
   "difficulty": "${difficulty}",
-  "id": "exp_${Date.now()}_${topicId.substring(0,4)}_${part}",
+  "id": "exp_${Date.now()}_${topicId.substring(0, 4)}_${part}",
   "createdAt": "${new Date().toISOString()}",
   "updatedAt": "${new Date().toISOString()}"
 }]
@@ -1772,7 +1666,7 @@ BEKLENEN JSON:
   "content": "[200-400 kelimelik gerçek anlatı]",
   "key_points": ["[madde 1]", "[madde 2]", "[madde 3]"],
   "type": "story",
-  "id": "story_${Date.now()}_${topicId.substring(0,4)}_${part}",
+  "id": "story_${Date.now()}_${topicId.substring(0, 4)}_${part}",
   "createdAt": "${new Date().toISOString()}",
   "updatedAt": "${new Date().toISOString()}"
 }]
@@ -1790,9 +1684,9 @@ BEKLENEN JSON:
 async function performQualityCheck(content, topicName, moduleType, model, apiKey) {
     // Hızlı/kaliteli kontrol için ucuz model kullan (gemini flash)
     const checkModel = model.includes('gemini') ? model : 'google/gemini-2.5-flash-lite';
-    
+
     const contentPreview = JSON.stringify(content).substring(0, 500);
-    
+
     const checkPrompt = `Sen bir eğitim içeriği denetçisisin. Aşağıdaki KPSS içeriğini kontrol et:
 
 KONU: ${topicName}
@@ -1827,9 +1721,9 @@ SADECE JSON döndür.`;
 // Auto-Retry wrapper for API calls
 async function callOpenRouterWithRetry(prompt, model, apiKey, jsonMode = false, maxRetries = 3, requestLogs = null, requestTimeoutMs = 240000, maxTokens = undefined) {
     let lastError;
-    
+
     aiLog('retry', `🔄 callOpenRouterWithRetry başlatıldı: ${maxRetries} deneme hakkı`, requestLogs);
-    
+
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
         try {
             aiLog('retry', `⏳ Deneme ${attempt}/${maxRetries}...`, requestLogs);
@@ -1842,7 +1736,7 @@ async function callOpenRouterWithRetry(prompt, model, apiKey, jsonMode = false, 
             lastError = e;
             aiLog('error', `❌ Deneme ${attempt} başarısız: ${e.message}`, requestLogs);
             aiLog('error', `   Hata tipi: ${e.code || 'N/A'}`, requestLogs);
-            
+
             if (attempt < maxRetries) {
                 const delay = Math.min(1000 * Math.pow(2, attempt - 1), 5000); // Exponential backoff
                 aiLog('retry', `⏱️ ${delay}ms sonra yeniden deneniyor...`, requestLogs);
@@ -1850,7 +1744,7 @@ async function callOpenRouterWithRetry(prompt, model, apiKey, jsonMode = false, 
             }
         }
     }
-    
+
     aiLog('error', `❌ ${maxRetries} deneme sonrası başarısız`, requestLogs);
     throw new Error(`${maxRetries} deneme sonrası başarısız: ${lastError.message}`);
 }
@@ -1865,7 +1759,7 @@ function callOpenRouter(prompt, model, apiKey, jsonMode = false, requestLogs = n
         console.log('   📊 JSON Mode:', jsonMode ? 'Aktif' : 'Pasif');
         console.log('   📝 Prompt uzunluğu:', prompt.length, 'karakter');
         console.log('   🔑 API Key başlangıcı:', apiKey ? apiKey.substring(0, 10) + '...' : 'YOK!');
-        
+
         // Dashboard loglarına da ekle
         aiLog('api', `══════════════════════════════════════════════════`, requestLogs);
         aiLog('api', `📤 OpenRouter API isteği hazırlanıyor...`, requestLogs);
@@ -1873,7 +1767,7 @@ function callOpenRouter(prompt, model, apiKey, jsonMode = false, requestLogs = n
         aiLog('api', `   📊 JSON Mode: ${jsonMode ? 'Aktif' : 'Pasif'}`, requestLogs);
         aiLog('api', `   📝 Prompt uzunluğu: ${prompt.length} karakter`, requestLogs);
         aiLog('api', `   🔑 API Key: ${apiKey ? apiKey.substring(0, 15) + '...' : 'YOK!'}`, requestLogs);
-        
+
         const requestBody = {
             model: model,
             messages: [
@@ -1904,9 +1798,9 @@ function callOpenRouter(prompt, model, apiKey, jsonMode = false, requestLogs = n
         if (disableReasoningFor.some(m => model.startsWith(m))) {
             requestBody.reasoning = { enabled: false };
         }
-        
+
         const data = JSON.stringify(requestBody);
-        
+
         const options = {
             hostname: 'openrouter.ai',
             port: 443,
@@ -1920,26 +1814,26 @@ function callOpenRouter(prompt, model, apiKey, jsonMode = false, requestLogs = n
             },
             timeout: requestTimeoutMs
         };
-        
+
         console.log('📡 API isteği gönderiliyor...');
         aiLog('api', `📡 API isteği gönderiliyor...`, requestLogs);
-        
+
         const req = https.request(options, (res) => {
             console.log('📥 HTTP Yanıt:', res.statusCode, res.statusMessage);
             aiLog('api', `📥 HTTP Yanıt: ${res.statusCode} ${res.statusMessage}`, requestLogs);
-            
+
             let chunks = [];
-            
+
             res.on('data', (chunk) => {
                 // Buffer olarak topla - Türkçe karakterler chunk sınırında bölünmesin
                 chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk));
             });
-            
+
             res.on('end', () => {
                 // Tüm chunk'ları birleştirip UTF-8 olarak decode et
                 const responseData = Buffer.concat(chunks).toString('utf8');
                 aiLog('api', `📄 Yanıt boyutu: ${responseData.length} karakter`, requestLogs);
-                
+
                 try {
 
                     const parsedResponse = JSON.parse(responseData);
@@ -1950,20 +1844,20 @@ function callOpenRouter(prompt, model, apiKey, jsonMode = false, requestLogs = n
                         reject(new Error(`OpenRouter HTTP hatası: ${errorMessage}`));
                         return;
                     }
-                    
+
                     if (parsedResponse.error) {
                         aiLog('error', `❌ OpenRouter hatası: ${JSON.stringify(parsedResponse.error)}`, requestLogs);
                         reject(new Error(`OpenRouter hatası: ${parsedResponse.error.message || JSON.stringify(parsedResponse.error)}`));
                         return;
                     }
-                    
+
                     const content = parsedResponse.choices?.[0]?.message?.content;
                     if (!content) {
                         aiLog('error', `❌ AI yanıtı boş: ${JSON.stringify(parsedResponse).substring(0, 200)}`, requestLogs);
                         reject(new Error('AI yanıtı boş'));
                         return;
                     }
-                    
+
                     aiLog('api', `✅ İçerik alındı: ${content.length} karakter`, requestLogs);
                     // Token kullanımını logla
                     const usage = parsedResponse.usage;
@@ -1979,7 +1873,7 @@ function callOpenRouter(prompt, model, apiKey, jsonMode = false, requestLogs = n
                 }
             });
         });
-        
+
         req.on('error', (e) => {
             console.log('❌ HTTP HATASI:', e.message);
             console.log('   Hata kodu:', e.code || 'N/A');
@@ -1987,7 +1881,7 @@ function callOpenRouter(prompt, model, apiKey, jsonMode = false, requestLogs = n
             aiLog('error', `   Hata kodu: ${e.code || 'N/A'}`, requestLogs);
             reject(new Error(`HTTP hatası: ${e.message}`));
         });
-        
+
         req.on('timeout', () => {
             const timeoutSec = Math.floor(requestTimeoutMs / 1000);
             console.log(`⏱️ TIMEOUT: API ${timeoutSec} saniye içinde yanıt vermedi!`);
@@ -1995,9 +1889,9 @@ function callOpenRouter(prompt, model, apiKey, jsonMode = false, requestLogs = n
             req.destroy();
             reject(new Error(`Request timeout - API ${timeoutSec} saniyede yanıt vermedi`));
         });
-        
+
         aiLog('api', `⏳ İstek gönderildi, yanıt bekleniyor...`, requestLogs);
-        
+
         req.write(data);
         req.end();
     });
@@ -2010,23 +1904,23 @@ function callOpenRouter(prompt, model, apiKey, jsonMode = false, requestLogs = n
 function parseAIResponse(content, moduleType, topicId, part, requestLogs = null) {
     try {
         aiLog('parse', `🔍 JSON parse ediliyor... (${content.length} karakter)`, requestLogs);
-        
+
         // JSON'ı temizle (markdown code block içinde olabilir)
         let cleanContent = content.trim();
-        
+
         // Markdown code block içindeyse çıkar
         if (cleanContent.includes('```json')) {
             cleanContent = cleanContent.split('```json')[1].split('```')[0].trim();
         } else if (cleanContent.includes('```')) {
             cleanContent = cleanContent.split('```')[1].split('```')[0].trim();
         }
-        
+
         // Yanıt direkt JSON array veya obje değilse, JSON kısmını bul
         const jsonMatch = cleanContent.match(/\[[\s\S]*\]|\{[\s\S]*\}/);
         if (jsonMatch) {
             cleanContent = jsonMatch[0];
         }
-        
+
         // Eksik/truncated JSON'ı tespit et ve tamamla
         // Eğer içerik } veya ] ile bitmiyorsa, eksik olabilir
         const lastChar = cleanContent.trim().slice(-1);
@@ -2082,16 +1976,16 @@ function parseAIResponse(content, moduleType, topicId, part, requestLogs = null)
 
             aiLog('parse', `🔧 Tamamlanmış içerik (son 100): ${cleanContent.substring(cleanContent.length - 100)}`, requestLogs);
         }
-        
+
         // Common JSON hatalarını düzelt
         cleanContent = cleanContent
             .replace(/,\s*([}\]])/g, '$1')  // Trailing commas
             .replace(/\n/g, ' ')             // Newlines
             .replace(/\r/g, ' ')             // Carriage returns
             .replace(/\t/g, ' ');            // Tabs
-        
+
         aiLog('parse', `📝 Temizlenmiş içerik: ${cleanContent.substring(0, 100)}...`, requestLogs);
-        
+
         let parsed;
         try {
             parsed = JSON.parse(cleanContent);
@@ -2178,7 +2072,7 @@ function parseAIResponse(content, moduleType, topicId, part, requestLogs = null)
                 throw parseErr;
             }
         }
-        
+
         // Her item'a part numarası ekle
         if (Array.isArray(parsed)) {
             parsed.forEach((item, index) => {
@@ -2191,7 +2085,7 @@ function parseAIResponse(content, moduleType, topicId, part, requestLogs = null)
             parsed._generatedAt = new Date().toISOString();
             aiLog('parse', `✅ 1 obje parse edildi`, requestLogs);
         }
-        
+
         const items = Array.isArray(parsed) ? parsed : [parsed];
         // Kaydetmeden önce sanitize et (prefix temizle, encoding bozukları çıkar, duplicate'leri dedupe et)
         const sanitized = sanitizeAIItems(items, moduleType, requestLogs, { topicId });
@@ -2302,7 +2196,7 @@ function sanitizeAIItems(items, moduleType, requestLogs = null, opts = {}) {
             if (!item.id) {
                 item.id = String(item.title)
                     .toLowerCase()
-                    .replace(/[çğıöşüÇĞIİÖŞÜ]/g, c => ({ç:'c',ğ:'g',ı:'i',ö:'o',ş:'s',ü:'u','Ç':'c','Ğ':'g','I':'i','İ':'i','Ö':'o','Ş':'s','Ü':'u'}[c] || c))
+                    .replace(/[çğıöşüÇĞIİÖŞÜ]/g, c => ({ ç: 'c', ğ: 'g', ı: 'i', ö: 'o', ş: 's', ü: 'u', 'Ç': 'c', 'Ğ': 'g', 'I': 'i', 'İ': 'i', 'Ö': 'o', 'Ş': 's', 'Ü': 'u' }[c] || c))
                     .replace(/\(.*?\)/g, '')
                     .replace(/[^a-z0-9]+/g, '-')
                     .replace(/^-|-$/g, '')
@@ -2328,9 +2222,9 @@ function sanitizeAIItems(items, moduleType, requestLogs = null, opts = {}) {
             if (topicId && (!item.category || item.category !== topicId)) {
                 item.category = topicId;
             }
-            if (!Array.isArray(item.steps))    item.steps    = [];
+            if (!Array.isArray(item.steps)) item.steps = [];
             if (!Array.isArray(item.benefits)) item.benefits = [];
-            if (!Array.isArray(item.tips))     item.tips     = [];
+            if (!Array.isArray(item.tips)) item.tips = [];
 
             // Kalite filtreleri: derin/zengin içerik şartı
             // fullDescription en az ~140 kelime (~900 karakter) olmalı — prompt 220-380 hedefliyor
@@ -2377,11 +2271,11 @@ function sanitizeAIItems(items, moduleType, requestLogs = null, opts = {}) {
         return true;
     });
 
-    if (prefixFixed > 0)      aiLog('sanitize', `🔧 ${prefixFixed} şık prefix'i otomatik temizlendi`, requestLogs);
-    if (encodingRemoved > 0)  aiLog('warn',     `⚠️ ${encodingRemoved} encoding bozuk öğe filtrelendi`, requestLogs);
-    if (emptyRemoved > 0)     aiLog('warn',     `⚠️ ${emptyRemoved} eksik alanlı öğe filtrelendi`, requestLogs);
-    if (tooShortRemoved > 0)  aiLog('warn',     `⚠️ ${tooShortRemoved} çok kısa öğe filtrelendi (<${MIN_Q_WORDS} kelime)`, requestLogs);
-    if (dedupRemoved > 0)     aiLog('warn',     `⚠️ ${dedupRemoved} tekrar eden öğe filtrelendi (aynı ID/başlık)`, requestLogs);
+    if (prefixFixed > 0) aiLog('sanitize', `🔧 ${prefixFixed} şık prefix'i otomatik temizlendi`, requestLogs);
+    if (encodingRemoved > 0) aiLog('warn', `⚠️ ${encodingRemoved} encoding bozuk öğe filtrelendi`, requestLogs);
+    if (emptyRemoved > 0) aiLog('warn', `⚠️ ${emptyRemoved} eksik alanlı öğe filtrelendi`, requestLogs);
+    if (tooShortRemoved > 0) aiLog('warn', `⚠️ ${tooShortRemoved} çok kısa öğe filtrelendi (<${MIN_Q_WORDS} kelime)`, requestLogs);
+    if (dedupRemoved > 0) aiLog('warn', `⚠️ ${dedupRemoved} tekrar eden öğe filtrelendi (aynı ID/başlık)`, requestLogs);
     if (prefixFixed === 0 && encodingRemoved === 0 && emptyRemoved === 0 && tooShortRemoved === 0 && dedupRemoved === 0) {
         aiLog('sanitize', `✅ Sanitize: tüm içerik temiz (${items.length} öğe)`, requestLogs);
     }
@@ -2395,7 +2289,7 @@ function aiLog(type, message, logsArray = null) {
     const logLine = `[${timestamp}] [${type.toUpperCase()}] ${message}`;
     console.log(logLine);
     if (logsArray) {
-        logsArray.push({type, message, time: timestamp});
+        logsArray.push({ type, message, time: timestamp });
     }
 }
 

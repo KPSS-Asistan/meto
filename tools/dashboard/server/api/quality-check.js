@@ -1,36 +1,19 @@
 /**
  * quality-check.js — Soru JSON kalite kontrol API
- * GET  /api/quality-check?source=local|github&topic=<id>
+ * GET  /api/quality-check?source=local&topic=<id>
  * POST /api/quality-check/fix  — local prefix'leri temizle
  */
 
-const fs    = require('fs');
-const path  = require('path');
+const fs = require('fs');
+const path = require('path');
 const https = require('https');
-const { execSync } = require('child_process');
 
-const ROOT_DIR    = path.join(__dirname, '..', '..', '..', '..');
-const ASSETS_DIR  = path.join(ROOT_DIR, 'assets', 'data', 'questions');
-const GITHUB_BASE = 'https://raw.githubusercontent.com/mertcanasdf/meto/main/questions';
+const ROOT_DIR = path.join(__dirname, '..', '..', '..', '..');
+const ASSETS_DIR = path.join(ROOT_DIR, 'assets', 'data', 'questions');
 
 const OPTION_PREFIX_RE = /^[A-Ea-e][).–\-]\s*/;
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
-
-function fetchUrl(url) {
-    return new Promise((resolve, reject) => {
-        const req = https.get(url, res => {
-            const chunks = [];
-            res.on('data', c => chunks.push(c));
-            res.on('end', () => {
-                if (res.statusCode !== 200) return reject(new Error(`HTTP ${res.statusCode}`));
-                resolve(Buffer.concat(chunks).toString('utf8'));
-            });
-        });
-        req.on('error', reject);
-        req.setTimeout(15000, () => { req.destroy(); reject(new Error('Timeout')); });
-    });
-}
 
 function getLocalTopicIds() {
     if (!fs.existsSync(ASSETS_DIR)) return [];
@@ -52,9 +35,9 @@ function checkTopic(topicId, jsonString) {
     const seenIds = new Set();
 
     data.forEach((q, idx) => {
-        if (!q.id)  issues.push({ severity: 'warn',  idx, msg: 'id eksik' });
-        if (!q.q)   issues.push({ severity: 'error', idx, msg: 'q (soru metni) eksik' });
-        if (!q.o)   issues.push({ severity: 'error', idx, msg: 'o (şıklar) eksik' });
+        if (!q.id) issues.push({ severity: 'warn', idx, msg: 'id eksik' });
+        if (!q.q) issues.push({ severity: 'error', idx, msg: 'q (soru metni) eksik' });
+        if (!q.o) issues.push({ severity: 'error', idx, msg: 'o (şıklar) eksik' });
         if (q.a === undefined || q.a === null) issues.push({ severity: 'error', idx, msg: 'a (cevap index) eksik' });
 
         if (q.id) {
@@ -89,7 +72,7 @@ function checkTopic(topicId, jsonString) {
         questionCount: data.length,
         issues,
         errorCount: issues.filter(i => i.severity === 'error').length,
-        warnCount:  issues.filter(i => i.severity === 'warn').length,
+        warnCount: issues.filter(i => i.severity === 'warn').length,
     };
 }
 
@@ -153,7 +136,7 @@ function removeEncodingBroken(topicId) {
         return false;
     };
 
-    const before  = data.length;
+    const before = data.length;
     const cleaned = data.filter(q => !isBad(q));
     const removed = before - cleaned.length;
 
@@ -190,7 +173,6 @@ async function bulkRemoveBroken(topicIds, onProgress) {
 module.exports = async function handleQualityCheckRoutes(req, res, pathname, searchParams) {
     // GET /api/quality-check
     if (req.method === 'GET' && pathname === '/api/quality-check') {
-        const source  = searchParams.get('source') || 'local';
         const topicId = searchParams.get('topic') || null;
 
         const topicIds = topicId ? [topicId] : getLocalTopicIds();
@@ -200,13 +182,9 @@ module.exports = async function handleQualityCheckRoutes(req, res, pathname, sea
         for (const tid of topicIds) {
             let jsonString;
             try {
-                if (source === 'github') {
-                    jsonString = await fetchUrl(`${GITHUB_BASE}/${tid}.json`);
-                } else {
-                    const fp = path.join(ASSETS_DIR, `${tid}.json`);
-                    if (!fs.existsSync(fp)) continue;
-                    jsonString = fs.readFileSync(fp, 'utf8');
-                }
+                const fp = path.join(ASSETS_DIR, `${tid}.json`);
+                if (!fs.existsSync(fp)) continue;
+                jsonString = fs.readFileSync(fp, 'utf8');
             } catch (e) {
                 results.push({ topicId: tid, fetchError: e.message, issues: [], questionCount: 0, errorCount: 1, warnCount: 0 });
                 continue;
@@ -218,11 +196,11 @@ module.exports = async function handleQualityCheckRoutes(req, res, pathname, sea
         }
 
         const summary = {
-            totalTopics:    results.length,
+            totalTopics: results.length,
             totalQuestions,
-            cleanTopics:    results.filter(r => r.errorCount === 0 && r.warnCount === 0).length,
-            totalErrors:    results.reduce((s, r) => s + (r.errorCount || 0), 0),
-            totalWarns:     results.reduce((s, r) => s + (r.warnCount  || 0), 0),
+            cleanTopics: results.filter(r => r.errorCount === 0 && r.warnCount === 0).length,
+            totalErrors: results.reduce((s, r) => s + (r.errorCount || 0), 0),
+            totalWarns: results.reduce((s, r) => s + (r.warnCount || 0), 0),
         };
 
         res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
@@ -239,7 +217,7 @@ module.exports = async function handleQualityCheckRoutes(req, res, pathname, sea
         let topicIds, bulk = false;
         try {
             const parsed = JSON.parse(body);
-            bulk     = parsed.bulk === true;
+            bulk = parsed.bulk === true;
             topicIds = parsed.topicIds || (bulk ? getLocalTopicIds() : []);
         } catch { topicIds = getLocalTopicIds(); bulk = true; }
 
@@ -270,7 +248,7 @@ module.exports = async function handleQualityCheckRoutes(req, res, pathname, sea
                 if (r.fixed > 0 || r.removed > 0) fixResults.push({ topicId: tid, ...r });
             }
             res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
-            res.end(JSON.stringify({ fixed: fixResults, totalFixed: fixResults.reduce((s, r) => s + (r.fixed||0), 0) }));
+            res.end(JSON.stringify({ fixed: fixResults, totalFixed: fixResults.reduce((s, r) => s + (r.fixed || 0), 0) }));
         }
         return true;
     }
@@ -284,7 +262,7 @@ module.exports = async function handleQualityCheckRoutes(req, res, pathname, sea
         let topicIds, bulk = false;
         try {
             const parsed = JSON.parse(body);
-            bulk     = parsed.bulk === true;
+            bulk = parsed.bulk === true;
             topicIds = parsed.topicIds || (bulk ? getLocalTopicIds() : []);
         } catch { topicIds = getLocalTopicIds(); bulk = true; }
 
@@ -319,55 +297,7 @@ module.exports = async function handleQualityCheckRoutes(req, res, pathname, sea
         return true;
     }
 
-    // POST /api/quality-check/push-github
-    if (req.method === 'POST' && pathname === '/api/quality-check/push-github') {
-        let body = '';
-        req.on('data', c => body += c);
-        await new Promise(r => req.on('end', r));
 
-        let message = 'kalite-kontrol: bozuk sorular temizlendi';
-        try {
-            const parsed = JSON.parse(body);
-            if (parsed.message) message = parsed.message;
-        } catch { /* varsayılan mesajı kullan */ }
-
-        try {
-            const gitOpts = { cwd: ROOT_DIR, encoding: 'utf8', stdio: 'pipe' };
-
-            // Sadece assets/data/questions klasörünü stage et
-            execSync('git add assets/data/questions/', gitOpts);
-
-            // Değişiklik var mı kontrol et
-            const status = execSync('git diff --cached --name-only', gitOpts).trim();
-            if (!status) {
-                res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
-                res.end(JSON.stringify({ ok: true, pushed: false, message: 'Push edilecek değişiklik yok (zaten güncel)' }));
-                return true;
-            }
-
-            const changedFiles = status.split('\n').filter(Boolean);
-
-            // Commit — hata mesajını stderr'den de al
-            try {
-                execSync(`git commit -m "${message.replace(/"/g, "'")}"`, gitOpts);
-            } catch (commitErr) {
-                const detail = (commitErr.stderr || commitErr.stdout || commitErr.message || '').toString().trim();
-                res.writeHead(500, { 'Content-Type': 'application/json; charset=utf-8' });
-                res.end(JSON.stringify({ ok: false, error: 'Commit başarısız: ' + detail }));
-                return true;
-            }
-
-            execSync('git push origin HEAD', gitOpts);
-
-            res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
-            res.end(JSON.stringify({ ok: true, pushed: true, files: changedFiles, message }));
-        } catch (e) {
-            const detail = (e.stderr || e.stdout || e.message || String(e)).toString().trim();
-            res.writeHead(500, { 'Content-Type': 'application/json; charset=utf-8' });
-            res.end(JSON.stringify({ ok: false, error: detail }));
-        }
-        return true;
-    }
 
     return false;
 };

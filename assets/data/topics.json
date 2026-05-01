@@ -1,474 +1,492 @@
 [
   {
-    "id": "1FEcPsGduhjcQARpaGBk",
-    "name": "Bölüm 1: Coğrafi Konum Kavramı ve Önemi",
-    "lesson": "COĞRAFYA",
-    "prefix": "",
+    "id": "JnFbEQt0uA8RSEuy22SQ",
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "İslamiyet Öncesi Türk Tarihi",
+    "description": "",
     "order": 0,
-    "count": 0
-  },
-  {
-    "id": "1JZAYECyEn7farNNyGyx",
-    "name": "Bölüm 1: Türk Anayasa Hukukuna Giriş ve Devlet Organları",
-    "lesson": "VATANDAŞLIK",
-    "prefix": "",
-    "order": 1,
-    "count": 0
-  },
-  {
-    "id": "4GUvpqBBImcLmN2eh1HK",
-    "name": "Bölüm 1: Atatürk İlkelerinin Doğuşu ve Temel Nitelikleri",
-    "lesson": "TARİH",
-    "prefix": "",
-    "order": 2,
-    "count": 0
-  },
-  {
-    "id": "6e0Thsz2RRNHFcwqQXso",
-    "name": "Bölüm 1: Türkiye'nin Coğrafi Konumu ve İklim Üzerindeki Etkileri",
-    "lesson": "COĞRAFYA",
-    "prefix": "",
-    "order": 3,
-    "count": 0
-  },
-  {
-    "id": "80e0wkTLvaTQzPD6puB7",
-    "name": "Bölüm 1: Ses Bilgisine Giriş ve Temel Kavramlar",
-    "lesson": "TÜRKÇE",
-    "prefix": "",
-    "order": 4,
-    "count": 0
-  },
-  {
-    "id": "8aIrKLvItXrwvOHq1L34",
-    "name": "Bölüm 1: Türkiye Selçuklu Devleti'nin Kuruluş Süreci",
-    "lesson": "TARİH",
-    "prefix": "",
-    "order": 5,
-    "count": 0
+    "question_count": 204,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
   },
   {
     "id": "9Hg8tuMRdMTuVY7OZ9HL",
-    "name": "Bölüm 1: Türklerin İslamiyet'le Tanışması ve İlk İlişkiler",
-    "lesson": "TARİH",
-    "prefix": "",
-    "order": 6,
-    "count": 0
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "İlk Müslüman Türk Devletleri",
+    "description": "",
+    "order": 1,
+    "question_count": 197,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
   },
   {
-    "id": "9WTotPoDW5OuWxsCf4Li",
-    "name": "Bölüm 1: Osmanlı Devlet Anlayışı ve Monarşi",
-    "lesson": "TARİH",
-    "prefix": "",
-    "order": 7,
-    "count": 0
-  },
-  {
-    "id": "AJNLHhhaG2SLWOvxDYqW",
-    "name": "Bölüm 1: Cümlede Anlamın Temelleri",
-    "lesson": "TÜRKÇE",
-    "prefix": "",
-    "order": 8,
-    "count": 0
-  },
-  {
-    "id": "AQ0Zph76dzPdr87H1uKa",
-    "name": "Bölüm 1: Hukukun Tanımı ve Sosyal Düzen Kuralları",
-    "lesson": "VATANDAŞLIK",
-    "prefix": "",
-    "order": 9,
-    "count": 0
-  },
-  {
-    "id": "Bo3qqooJsqtIZrK5zc9S",
-    "name": "Bölüm 1: Temel Hak ve Özgürlüklerin Kavramsal Çerçevesi",
-    "lesson": "VATANDAŞLIK",
-    "prefix": "",
-    "order": 10,
-    "count": 0
-  },
-  {
-    "id": "DlT19snCttf5j5RUAXLz",
-    "name": "Bölüm 1: Mondros Ateşkes Antlaşması ve İşgaller",
-    "lesson": "TARİH",
-    "prefix": "",
-    "order": 11,
-    "count": 0
-  },
-  {
-    "id": "GdpN8uxJNGtexWrkoL1T",
-    "name": "Bölüm 1: Türkiye Coğrafyasında Bölge Kavramı ve Sınır Belirleme",
-    "lesson": "COĞRAFYA",
-    "prefix": "",
-    "order": 12,
-    "count": 0
-  },
-  {
-    "id": "GUNCEL_BM_KURULUS",
-    "name": "Bölüm 1: Birleşmiş Milletler'in Tarihsel Gelişimi ve Kuruluşu",
-    "lesson": "GÜNCEL BİLGİLER",
-    "prefix": "",
-    "order": 13,
-    "count": 0
-  },
-  {
-    "id": "GUNCEL_BOLGESEL_KURULUS",
-    "name": "Bölüm 1: Uluslararası Örgütlerin Tarihsel Gelişimi ve Sınıflandırılması",
-    "lesson": "GÜNCEL BİLGİLER",
-    "prefix": "",
-    "order": 14,
-    "count": 0
-  },
-  {
-    "id": "GUNCEL_NATO_AB",
-    "name": "Bölüm 1: Soğuk Savaş Döneminde Güvenlik Arayışları",
-    "lesson": "GÜNCEL BİLGİLER",
-    "prefix": "",
-    "order": 15,
-    "count": 0
-  },
-  {
-    "id": "GUNCEL_OLAYLAR",
-    "name": "GUNCEL_OLAYLAR",
-    "lesson": "GÜNCEL BİLGİLER",
-    "prefix": "",
-    "order": 16,
-    "count": 0
-  },
-  {
-    "id": "GUNCEL_ONEMLI_TARIHLER",
-    "name": "Bölüm 1: Milli Mücadele Dönemi Önemli Tarihler",
-    "lesson": "GÜNCEL BİLGİLER",
-    "prefix": "",
-    "order": 17,
-    "count": 0
-  },
-  {
-    "id": "GUNCEL_TURKIYE_KURULUS",
-    "name": "Bölüm 1: Uluslararası İlişkilerde Türkiye'nin Konumu",
-    "lesson": "GÜNCEL BİLGİLER",
-    "prefix": "",
-    "order": 18,
-    "count": 0
-  },
-  {
-    "id": "ICNDiSlTmmjWEQPT6rmT",
-    "name": "Bölüm 1: Sözcük Türlerine Giriş ve Genel Bakış",
-    "lesson": "TÜRKÇE",
-    "prefix": "",
-    "order": 19,
-    "count": 0
-  },
-  {
-    "id": "JmyiPxf3n96Jkxqsa9jY",
-    "name": "Bölüm 1: Bölüm 1: Sözcükte Anlamın Temelleri",
-    "lesson": "TÜRKÇE",
-    "prefix": "",
-    "order": 20,
-    "count": 0
-  },
-  {
-    "id": "JnFbEQt0uA8RSEuy22SQ",
-    "name": "Bölüm 1: İslamiyet Öncesi Türk Tarihine Giriş ve Kaynaklar",
-    "lesson": "TARİH",
-    "prefix": "",
-    "order": 21,
-    "count": 0
+    "id": "8aIrKLvItXrwvOHq1L34",
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "Türkiye Selçuklu Devleti",
+    "description": "Anadolu Selçuklu Tarihi ve Kültür-Medeniyet",
+    "order": 2,
+    "question_count": 242,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
   },
   {
     "id": "JU0iGKNhR7NQzA8M77vt",
-    "name": "Bölüm 1: Osmanlı Beyliği'nin Kuruluşu ve Anadolu'daki Siyasi Durum",
-    "lesson": "TARİH",
-    "prefix": "",
-    "order": 22,
-    "count": 0
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "Osmanlı Devleti Tarihi (Siyasi)",
+    "description": "Osmanlı Siyasi Tarihi, Fetihler ve Önemli Olaylar",
+    "order": 3,
+    "question_count": 231,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
   },
   {
-    "id": "jXcsrl5HEb65DmfpfqqI",
-    "name": "Bölüm 1: Anlatım Bozukluklarına Giriş ve Temel İlkeler",
-    "lesson": "TÜRKÇE",
-    "prefix": "",
-    "order": 23,
-    "count": 0
+    "id": "9WTotPoDW5OuWxsCf4Li",
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "Osmanlı Devleti Tarihi (Kültür)",
+    "description": "Osmanlı Devleti Kuruluş ve Kültür - Medeniyet",
+    "order": 4,
+    "question_count": 108,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
   },
   {
-    "id": "kbs0Ffved9pCP3Hq9M9k",
-    "name": "Bölüm 1: Türkiye'nin Coğrafi Konumu ve Etkileri",
-    "lesson": "COĞRAFYA",
-    "prefix": "",
-    "order": 24,
-    "count": 0
+    "id": "DlT19snCttf5j5RUAXLz",
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "Kurtuluş Savaşı Dönemi",
+    "description": "",
+    "order": 5,
+    "question_count": 217,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
   },
   {
-    "id": "lv93cmhwq7RmOFM5WxWD",
-    "name": "Bölüm 1: Türk İdari Teşkilatının Temel İlkeleri",
-    "lesson": "VATANDAŞLIK",
-    "prefix": "",
-    "order": 25,
-    "count": 0
-  },
-  {
-    "id": "MAT_ASAL_EBOB_EKOK",
-    "name": "Bölüm 1: Sayı Kümelerine Giriş ve Temel Kavramlar",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 26,
-    "count": 0
-  },
-  {
-    "id": "MAT_BOLUNEEBILME",
-    "name": "Bölüm 1: Bölme İşleminin Temel Tanımı ve Bileşenleri",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 27,
-    "count": 0
-  },
-  {
-    "id": "mat_carpan_001",
-    "name": "mat_carpan_001",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 28,
-    "count": 0
-  },
-  {
-    "id": "MAT_DENKLEM_PROBLEMLER",
-    "name": "Bölüm 1: Denklem Kavramına Giriş",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 29,
-    "count": 0
-  },
-  {
-    "id": "mat_esitsizlik_001",
-    "name": "mat_esitsizlik_001",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 30,
-    "count": 0
-  },
-  {
-    "id": "MAT_ESITSIZLIK_MUTLAK",
-    "name": "Bölüm 1: Eşitsizlik Kavramı ve Semboller",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 31,
-    "count": 0
-  },
-  {
-    "id": "MAT_FONKSIYONLAR",
-    "name": "Bölüm 1: Fonksiyon Kavramı ve Tanım Kümesi",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 32,
-    "count": 0
-  },
-  {
-    "id": "MAT_KOKLU_SAYILAR",
-    "name": "Bölüm 1: Köklü Sayıların Tanımı ve Temel Kavramlar",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 33,
-    "count": 0
-  },
-  {
-    "id": "MAT_KUMELER",
-    "name": "Bölüm 1: Kümelerin Tanımı ve Temel Kavramlar",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 34,
-    "count": 0
-  },
-  {
-    "id": "mat_kume_001",
-    "name": "mat_kume_001",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 35,
-    "count": 0
-  },
-  {
-    "id": "mat_mantik_001",
-    "name": "mat_mantik_001",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 36,
-    "count": 0
-  },
-  {
-    "id": "mat_olasilik_001",
-    "name": "mat_olasilik_001",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 37,
-    "count": 0
-  },
-  {
-    "id": "MAT_OLASILIK_ISTATISTIK",
-    "name": "Bölüm 1: Temel Sayma İlkeleri",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 38,
-    "count": 0
-  },
-  {
-    "id": "MAT_ORAN_ORANTI",
-    "name": "Bölüm 1: Oran Kavramı ve Temel Özellikleri",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 39,
-    "count": 0
-  },
-  {
-    "id": "MAT_ORUNTU_PROBLEMLERI",
-    "name": "Bölüm 1: Sayı Örüntülerine Giriş ve Temel Kavramlar",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 40,
-    "count": 0
-  },
-  {
-    "id": "MAT_PERMUTASYON_KOMBINASYON",
-    "name": "Bölüm 1: Saymanın Temel İlkeleri",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 41,
-    "count": 0
-  },
-  {
-    "id": "mat_prob_001",
-    "name": "mat_prob_001",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 42,
-    "count": 0
-  },
-  {
-    "id": "mat_rasyonel_001",
-    "name": "mat_rasyonel_001",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 43,
-    "count": 0
-  },
-  {
-    "id": "MAT_RASYONEL_SAYILAR",
-    "name": "Bölüm 1: Rasyonel Sayıların Tanımı ve Kümeler",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 44,
-    "count": 0
-  },
-  {
-    "id": "mat_temel_001",
-    "name": "mat_temel_001",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 45,
-    "count": 0
-  },
-  {
-    "id": "MAT_TEMEL_KAVRAMLAR",
-    "name": "Bölüm 1: Sayı Kümelerine Giriş",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 46,
-    "count": 0
-  },
-  {
-    "id": "mat_uslu_001",
-    "name": "mat_uslu_001",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 47,
-    "count": 0
-  },
-  {
-    "id": "MAT_USLU_SAYILAR",
-    "name": "Bölüm 1: Üslü Sayıların Tanımı ve Temel Kavramlar",
-    "lesson": "MATEMATİK",
-    "prefix": "",
-    "order": 48,
-    "count": 0
-  },
-  {
-    "id": "n4OjWupHmouuybQzQ1Fc",
-    "name": "Bölüm 1: Anayasa Hukukuna Giriş ve Temel Kavramlar",
-    "lesson": "VATANDAŞLIK",
-    "prefix": "",
-    "order": 49,
-    "count": 0
-  },
-  {
-    "id": "nN8JOTR7LZm01AN2i3sQ",
-    "name": "Bölüm 1: Paragrafın Yapısı ve Temel Kavramlar",
-    "lesson": "TÜRKÇE",
-    "prefix": "",
-    "order": 50,
-    "count": 0
+    "id": "4GUvpqBBImcLmN2eh1HK",
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "Atatürk İlke ve İnkılapları",
+    "description": "",
+    "order": 6,
+    "question_count": 162,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
   },
   {
     "id": "onwrfsH02TgIhlyRUh56",
-    "name": "Bölüm 1: Saltanatın Kaldırılması ve Siyasi Sonuçları",
-    "lesson": "TARİH",
-    "prefix": "",
-    "order": 51,
-    "count": 0
-  },
-  {
-    "id": "qSEqigIsIEBAkhcMTyCE",
-    "name": "Bölüm 1: Büyük Harflerin Kullanımı: Temel Kurallar",
-    "lesson": "TÜRKÇE",
-    "prefix": "",
-    "order": 52,
-    "count": 0
-  },
-  {
-    "id": "uYDrMlBCEAho5776WZi8",
-    "name": "Bölüm 1: Beşeri Coğrafyaya Giriş ve Kapsamı",
-    "lesson": "COĞRAFYA",
-    "prefix": "",
-    "order": 53,
-    "count": 0
-  },
-  {
-    "id": "wnt2zWaV1pX8p8s8BBc9",
-    "name": "Bölüm 1: Sözel Mantığa Giriş ve Temel Kavramlar",
-    "lesson": "TÜRKÇE",
-    "prefix": "",
-    "order": 54,
-    "count": 0
-  },
-  {
-    "id": "WxrtQ26p2My4uJa0h1kk",
-    "name": "Bölüm 1: Ekonomik Coğrafya'ya Giriş ve Temel Kavramlar",
-    "lesson": "COĞRAFYA",
-    "prefix": "",
-    "order": 55,
-    "count": 0
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "Cumhuriyet Dönemi",
+    "description": "",
+    "order": 7,
+    "question_count": 151,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
   },
   {
     "id": "xQWHl1hBYAKM96X4deR8",
-    "name": "Bölüm 1: 20. Yüzyıl Başlarında Dünya ve Osmanlı Devleti",
-    "lesson": "TARİH",
-    "prefix": "",
-    "order": 56,
-    "count": 0
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "Çağdaş Türk ve Dünya Tarihi",
+    "description": "",
+    "order": 8,
+    "question_count": 264,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
   },
   {
-    "id": "xXGXiqx2TkCtI4C7GMQg",
-    "name": "Bölüm 1: 1982 Anayasası'nın Hazırlanma Süreci ve Hukuki Niteliği",
-    "lesson": "VATANDAŞLIK",
-    "prefix": "",
-    "order": 57,
-    "count": 0
+    "id": "80e0wkTLvaTQzPD6puB7",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Ses Bilgisi",
+    "description": "",
+    "order": 0,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
   },
   {
     "id": "yWlh5C6jB7lzuJOodr2t",
-    "name": "Bölüm 1: Sözcükte Yapıya Giriş ve Temel Kavramlar",
-    "lesson": "TÜRKÇE",
-    "prefix": "",
-    "order": 58,
-    "count": 0
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Yapı Bilgisi",
+    "description": "",
+    "order": 1,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "ICNDiSlTmmjWEQPT6rmT",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Sözcük Türleri",
+    "description": "",
+    "order": 2,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "JmyiPxf3n96Jkxqsa9jY",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Sözcükte Anlam",
+    "description": "",
+    "order": 3,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "AJNLHhhaG2SLWOvxDYqW",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Cümlede Anlam",
+    "description": "",
+    "order": 4,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "nN8JOTR7LZm01AN2i3sQ",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Paragrafta Anlam",
+    "description": "",
+    "order": 5,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "jXcsrl5HEb65DmfpfqqI",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Anlatım Bozuklukları",
+    "description": "",
+    "order": 6,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "qSEqigIsIEBAkhcMTyCE",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Yazım Kuralları ve Noktalama İşaretleri",
+    "description": "",
+    "order": 7,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "wnt2zWaV1pX8p8s8BBc9",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Sözel Mantık ve Akıl Yürütme",
+    "description": "",
+    "order": 8,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "1FEcPsGduhjcQARpaGBk",
+    "lesson_id": "A779wvZWQcbvanmbS8Qz",
+    "name": "Türkiye'nin Coğrafi Konumu",
+    "description": "",
+    "order": 0,
+    "question_count": 90,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "kbs0Ffved9pCP3Hq9M9k",
+    "lesson_id": "A779wvZWQcbvanmbS8Qz",
+    "name": "Türkiye'nin Fiziki Özellikleri",
+    "description": "",
+    "order": 1,
+    "question_count": 108,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "6e0Thsz2RRNHFcwqQXso",
+    "lesson_id": "A779wvZWQcbvanmbS8Qz",
+    "name": "Türkiye'nin İklimi ve Bitki Örtüsü",
+    "description": "",
+    "order": 2,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "uYDrMlBCEAho5776WZi8",
+    "lesson_id": "A779wvZWQcbvanmbS8Qz",
+    "name": "Beşeri Coğrafya",
+    "description": "",
+    "order": 3,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "WxrtQ26p2My4uJa0h1kk",
+    "lesson_id": "A779wvZWQcbvanmbS8Qz",
+    "name": "Ekonomik Coğrafya",
+    "description": "",
+    "order": 4,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "GdpN8uxJNGtexWrkoL1T",
+    "lesson_id": "A779wvZWQcbvanmbS8Qz",
+    "name": "Türkiye'nin Coğrafi Bölgeleri",
+    "description": "",
+    "order": 5,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "AQ0Zph76dzPdr87H1uKa",
+    "lesson_id": "2ztkqV35cWjGRkhYRutg",
+    "name": "Hukuka Giriş",
+    "description": "",
+    "order": 0,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "n4OjWupHmouuybQzQ1Fc",
+    "lesson_id": "2ztkqV35cWjGRkhYRutg",
+    "name": "Anayasa Hukuku",
+    "description": "",
+    "order": 1,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "xXGXiqx2TkCtI4C7GMQg",
+    "lesson_id": "2ztkqV35cWjGRkhYRutg",
+    "name": "1982 Anayasası Temel İlkeleri",
+    "description": "",
+    "order": 2,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "1JZAYECyEn7farNNyGyx",
+    "lesson_id": "2ztkqV35cWjGRkhYRutg",
+    "name": "Devlet Organları",
+    "description": "",
+    "order": 3,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "lv93cmhwq7RmOFM5WxWD",
+    "lesson_id": "2ztkqV35cWjGRkhYRutg",
+    "name": "İdari Yapı",
+    "description": "",
+    "order": 4,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "Bo3qqooJsqtIZrK5zc9S",
+    "lesson_id": "2ztkqV35cWjGRkhYRutg",
+    "name": "Temel Hak ve Özgürlükler",
+    "description": "Kişi hakları, sosyal ve ekonomik haklar",
+    "order": 5,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "GUNCEL_BM_KURULUS",
+    "lesson_id": "guncel_bilgiler",
+    "name": "Birleşmiş Milletler ve Bağlı Kuruluşlar",
+    "description": "BM, UNESCO, UNICEF, WHO, IMF, Dünya Bankası",
+    "order": 0,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "GUNCEL_NATO_AB",
+    "lesson_id": "guncel_bilgiler",
+    "name": "NATO ve Avrupa Birliği",
+    "description": "NATO yapısı, AB kurumları, üyelik süreçleri",
+    "order": 1,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "GUNCEL_BOLGESEL_KURULUS",
+    "lesson_id": "guncel_bilgiler",
+    "name": "Bölgesel ve Ekonomik Kuruluşlar",
+    "description": "G20, BRICS, Şangay, İİT, Türk Konseyi",
+    "order": 2,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "GUNCEL_TURKIYE_KURULUS",
+    "lesson_id": "guncel_bilgiler",
+    "name": "Türkiye'nin Üye Olduğu Kuruluşlar",
+    "description": "Türkiye'nin uluslararası üyelikleri",
+    "order": 3,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "GUNCEL_ONEMLI_TARIHLER",
+    "lesson_id": "guncel_bilgiler",
+    "name": "Önemli Tarihler ve Günler",
+    "description": "Ulusal ve uluslararası önemli günler",
+    "order": 4,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_TEMEL_KAVRAMLAR",
+    "lesson_id": "MATEMATIK001",
+    "name": "Temel Kavramlar ve Sayı Basamakları",
+    "description": "Doğal sayılar, tam sayılar, basamak değeri ve çözümleme",
+    "order": 0,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_BOLUNEEBILME",
+    "lesson_id": "MATEMATIK001",
+    "name": "Bölme ve Bölünebilme Kuralları",
+    "description": "Bölme işlemi ve bölünebilme kuralları",
+    "order": 1,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_ASAL_EBOB_EKOK",
+    "lesson_id": "MATEMATIK001",
+    "name": "Asal Sayılar, Bölen Sayısı, EBOB-EKOK",
+    "description": "Asal sayılar, bölen sayısı, EBOB ve EKOK hesaplamaları",
+    "order": 2,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_RASYONEL_SAYILAR",
+    "lesson_id": "MATEMATIK001",
+    "name": "Rasyonel Sayılar",
+    "description": "Rasyonel sayılar ve rasyonel sayılarla işlemler",
+    "order": 3,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_ESITSIZLIK_MUTLAK",
+    "lesson_id": "MATEMATIK001",
+    "name": "Basit Eşitsizlikler ve Mutlak Değer",
+    "description": "Eşitsizlikler ve mutlak değer problemleri",
+    "order": 4,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_USLU_SAYILAR",
+    "lesson_id": "MATEMATIK001",
+    "name": "Üslü Sayılar",
+    "description": "Üslü sayılar ve üslü sayılarla işlemler",
+    "order": 5,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_KOKLU_SAYILAR",
+    "lesson_id": "MATEMATIK001",
+    "name": "Köklü Sayılar",
+    "description": "Köklü sayılar ve köklü sayılarla işlemler",
+    "order": 6,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_ORAN_ORANTI",
+    "lesson_id": "MATEMATIK001",
+    "name": "Oran ve Orantı",
+    "description": "Oran, orantı ve karışım problemleri",
+    "order": 7,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_DENKLEM_PROBLEMLER",
+    "lesson_id": "MATEMATIK001",
+    "name": "Denklem Çözme ve Problemler",
+    "description": "Birinci dereceden denklemler ve problemler",
+    "order": 8,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_KUMELER",
+    "lesson_id": "MATEMATIK001",
+    "name": "Kümeler",
+    "description": "Kümeler ve kümelerde işlemler",
+    "order": 9,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_FONKSIYONLAR",
+    "lesson_id": "MATEMATIK001",
+    "name": "Fonksiyonlar",
+    "description": "Fonksiyon kavramı ve fonksiyon çeşitleri",
+    "order": 10,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_PERMUTASYON_KOMBINASYON",
+    "lesson_id": "MATEMATIK001",
+    "name": "Permütasyon ve Kombinasyon",
+    "description": "Permütasyon, kombinasyon ve sayma yöntemleri",
+    "order": 11,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_OLASILIK_ISTATISTIK",
+    "lesson_id": "MATEMATIK001",
+    "name": "Olasılık ve İstatistik",
+    "description": "Olasılık hesaplamaları ve istatistiksel kavramlar",
+    "order": 12,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_ORUNTU_PROBLEMLERI",
+    "lesson_id": "MATEMATIK001",
+    "name": "Sayı ve Şekil Örüntüleri",
+    "description": "Sayı örüntüleri ve şekil örüntüleri problemleri",
+    "order": 13,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
   }
 ]

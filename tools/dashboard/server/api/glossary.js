@@ -42,24 +42,6 @@ function deleteDraft(topicId) {
     if (fsSync.existsSync(fp)) fsSync.unlinkSync(fp);
 }
 
-// ─── Git push ───
-function pushGlossaryToGitHub(topicId, topicName) {
-    return new Promise((resolve) => {
-        const commands = [
-            `cd "${ROOT_DIR}"`,
-            `git add assets/data/glossary/${topicId}.json`,
-            `git commit -m "AI Content: glossary for ${topicName || topicId} [auto-commit]" || true`,
-            'git push origin main',
-        ].join(' && ');
-        exec(commands, { cwd: ROOT_DIR, timeout: 60000 }, (err, stdout, stderr) => {
-            if (err && !err.message.includes('nothing to commit')) {
-                return resolve({ pushed: false, error: err.message });
-            }
-            resolve({ pushed: true });
-        });
-    });
-}
-
 // Konu başlıkları (stories/flashcards ile aynı ID'ler)
 const TOPIC_TITLES = {
     'JnFbEQt0uA8RSEuy22SQ': 'Tarih - İslamiyet Öncesi Türk Tarihi',
@@ -396,7 +378,7 @@ async function handleGlossaryRoutes(req, res, pathname, searchParams) {
                         draftCount: draftTerms ? draftTerms.length : 0,
                         preview: Array.isArray(terms) && terms[0] ? terms[0].term : ''
                     });
-                } catch {}
+                } catch { }
             }
             // Taslağı olan ama henüz yayınlanmamış konuları da ekle
             const draftFiles = fsSync.existsSync(DRAFT_DIR) ? fsSync.readdirSync(DRAFT_DIR).filter(f => f.endsWith('.json')) : [];
@@ -529,8 +511,7 @@ async function handleGlossaryRoutes(req, res, pathname, searchParams) {
         console.log(`[Glossary] Yayınlanıyor: ${topicId} (${terms.length} kavram)`);
         await saveGlossary(topicId, terms);
         deleteDraft(topicId);
-        const pushResult = await pushGlossaryToGitHub(topicId, topicName);
-        return sendJSON(res, { success: true, count: terms.length, github: pushResult });
+        return sendJSON(res, { success: true, count: terms.length });
     }
 
     // ── DELETE /glossary/draft/:topicId — taslağı sil ──

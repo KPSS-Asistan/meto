@@ -15,7 +15,7 @@ const handleReportRoutes = require('./api/reports');
 const handleFeedbackRoutes = require('./api/feedback');
 const handleDashboardRoutes = require('./api/dashboard');
 const handleUserRoutes = require('./api/users');
-const { handleSyncRoutes, startAutoSyncScheduler } = require('./api/sync');
+const { handleSyncRoutes } = require('./api/sync');
 const handleAIRoutes = require('./api/ai');
 // AI Content Routes - DEBUG
 let handleAIContentRoutes, startNightlyScheduler;
@@ -93,11 +93,22 @@ const server = http.createServer(async (req, res) => {
         // Users API
         if (await handleUserRoutes(req, res, pathname)) return;
 
-        // Git/Sync API (auto-sync, publish to github)
+        // Sync API (local-only)
         if (await handleSyncRoutes(req, res, pathname)) return;
 
         // AI API (generate, analyze)
         if (await handleAIRoutes(req, res, pathname)) return;
+
+        // Dev Reload SSE
+        if (pathname === '/dev-reload') {
+            res.writeHead(200, {
+                'Content-Type': 'text/event-stream',
+                'Cache-Control': 'no-cache',
+                'Connection': 'keep-alive'
+            });
+            res.write('data: connected\n\n');
+            return;
+        }
 
         // AI Content API (30 bölüm explanations, stories, flashcards)
         if (await handleAIContentRoutes(req, res, pathname, searchParams)) return;
@@ -160,13 +171,11 @@ server.listen(PORT, () => {
 ║     ✓ Reports API    (/reports)                                           ║
 ║     ✓ Feedback API   (/feedback)                                          ║
 ║     ✓ Users API      (/users)                                             ║
-║     ✓ Sync API       (/auto-sync/*, /publish-to-github, /git/*)           ║
+║     ✓ Sync API       (local)                                ║
 ║     ✓ AI API         (/generate-ai, /analyze-ai, /ai-review)              ║
 ║                                                                           ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
     `);
 
-    // Auto-sync scheduler başlat
-    startAutoSyncScheduler();
     if (startNightlyScheduler) startNightlyScheduler();
 });

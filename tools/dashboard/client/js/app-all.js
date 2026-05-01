@@ -16,11 +16,11 @@ let _allPageDrafts = [];
 function aiLog(msg, type = 'info', details = null) {
     const log = document.getElementById('aiLog');
     if (!log) return;
-    
+
     // Boş log mesajını kaldır
     const placeholder = log.querySelector('[style*="text-align: center"]');
     if (placeholder) placeholder.remove();
-    
+
     const config = {
         info: { color: '#60a5fa', bg: 'rgba(96, 165, 250, 0.1)', icon: 'ℹ️', label: 'INFO' },
         success: { color: '#34d399', bg: 'rgba(52, 211, 153, 0.1)', icon: '✅', label: 'OK' },
@@ -30,11 +30,11 @@ function aiLog(msg, type = 'info', details = null) {
         api: { color: '#f472b6', bg: 'rgba(244, 114, 182, 0.1)', icon: '📡', label: 'API' },
         ai: { color: '#22d3ee', bg: 'rgba(34, 211, 238, 0.1)', icon: '🤖', label: 'AI' }
     };
-    
+
     const c = config[type] || config.info;
     const time = new Date().toLocaleTimeString('tr-TR', { hour12: false });
     const ms = new Date().getMilliseconds().toString().padStart(3, '0');
-    
+
     const entry = document.createElement('div');
     entry.style.cssText = `
         color: ${c.color}; 
@@ -47,23 +47,23 @@ function aiLog(msg, type = 'info', details = null) {
         font-size: 0.75rem;
         line-height: 1.5;
     `;
-    
+
     let html = `<span style="opacity: 0.6; font-size: 0.7rem;">[${time}.${ms}]</span> <b>${c.icon} [${c.label}]</b> ${msg}`;
-    
+
     if (details) {
         const detailsStr = typeof details === 'object' ? JSON.stringify(details, null, 2) : details;
         html += `<div style="margin-top: 4px; padding-left: 20px; opacity: 0.8; white-space: pre-wrap; font-size: 0.7rem;">${detailsStr}</div>`;
     }
-    
+
     entry.innerHTML = html;
     log.appendChild(entry);
     log.scrollTop = log.scrollHeight;
-    
+
     // Console'a da yaz
     console.log(`[AI-${c.label}] ${msg}`, details || '');
 }
 
-window.clearAILog = function() {
+window.clearAILog = function () {
     const log = document.getElementById('aiLog');
     if (log) log.innerHTML = '<div style="color: var(--text-muted);">AI üretim logu burada görünecek...</div>';
 };
@@ -73,72 +73,72 @@ async function refreshTopics() {
     aiLog('═══════════════════════════════════════', 'info');
     aiLog('🔄 KONU LİSTESİ YÜKLEME BAŞLATILIYOR', 'info');
     aiLog('═══════════════════════════════════════', 'info');
-    
+
     try {
         // API URL
         const url = `${API}/api/ai-content/topics?_=${Date.now()}`;
         aiLog(`📡 API Endpoint: ${url}`, 'api');
         aiLog(`⏱️  İstek zamanı: ${new Date().toISOString()}`, 'debug');
-        
+
         // Fetch
         aiLog('📤 GET isteği gönderiliyor...', 'api');
         const res = await fetch(url);
-        
+
         // HTTP Durumu
         const httpTime = performance.now();
         const httpDuration = (httpTime - startTime).toFixed(2);
         aiLog(`📥 HTTP Yanıt: ${res.status} ${res.statusText}`, res.ok ? 'success' : 'error');
         aiLog(`   ⏱️  Yanıt süresi: ${httpDuration}ms`, 'debug');
         aiLog(`   📋 Content-Type: ${res.headers.get('content-type') || 'N/A'}`, 'debug');
-        
+
         if (!res.ok) {
             throw new Error(`HTTP ${res.status} - ${res.statusText}`);
         }
-        
+
         // JSON Parse
         aiLog('🔍 JSON parse ediliyor...', 'debug');
         const data = await res.json();
         const parseTime = performance.now();
         const parseDuration = (parseTime - httpTime).toFixed(2);
         aiLog(`✅ JSON parse tamamlandı (${parseDuration}ms)`, 'success');
-        
+
         // Veri analizi
         _aiTopics = data.topics || [];
         const topicCount = _aiTopics.length;
-        
+
         aiLog('📊 VERİ ANALİZİ:', 'info');
         aiLog(`   📁 Toplam konu: ${topicCount}`, 'info');
-        
+
         // Modül bazlı istatistikler
         let totalExplanations = 0;
         let totalStories = 0;
         let totalFlashcards = 0;
         let totalMatching = 0;
         let withContent = 0;
-        
+
         _aiTopics.forEach(t => {
             const exp = t.status?.explanations || 0;
             const st = t.status?.stories || 0;
             const fl = t.status?.flashcards || 0;
             const ma = t.status?.matching_games || 0;
             const qu = t.status?.questions || 0;
-            
+
             totalExplanations += exp;
             totalStories += st;
             totalFlashcards += fl;
             totalMatching += ma;
-            
+
             if (exp > 0 || st > 0 || fl > 0 || ma > 0 || qu > 0) {
                 withContent++;
             }
         });
-        
+
         aiLog(`   📚 Toplam Anlatım: ${totalExplanations} bölüm`, 'info');
         aiLog(`   📖 Toplam Hikaye: ${totalStories} hikaye`, 'info');
         aiLog(`   🃏 Toplam Flashcard: ${totalFlashcards} kart`, 'info');
         aiLog(`   🔗 Toplam Eşleştirme: ${totalMatching} çift`, 'info');
         aiLog(`   ✅ İçerikli konu: ${withContent}/${topicCount}`, 'success');
-        
+
         // Render
         aiLog('🎨 Tablo render ediliyor...', 'info');
         const renderStart = performance.now();
@@ -146,13 +146,13 @@ async function refreshTopics() {
         const renderEnd = performance.now();
         const renderDuration = (renderEnd - renderStart).toFixed(2);
         aiLog(`✅ Render tamamlandı (${renderDuration}ms)`, 'success');
-        
+
         // Toplam süre
         const totalDuration = (renderEnd - startTime).toFixed(2);
         aiLog('═══════════════════════════════════════', 'success');
         aiLog(`✅ İŞLEM TAMAMLANDI - Toplam: ${totalDuration}ms`, 'success');
         aiLog('═══════════════════════════════════════', 'success');
-        
+
     } catch (e) {
         console.error('Topic refresh error:', e);
         aiLog('═══════════════════════════════════════', 'error');
@@ -198,16 +198,16 @@ async function refreshProductivityCategories() {
                     <div style="font-size:0.65rem;color:#64748b;font-family:monospace">${c.id}</div>
                 </td>
                 <td style="text-align:center;padding:0.5rem">
-                    <span style="background:${count>0?'#10b981':'#374151'};color:#fff;padding:0.15rem 0.45rem;border-radius:4px;font-size:0.72rem;font-weight:600">${count}</span>
+                    <span style="background:${count > 0 ? '#10b981' : '#374151'};color:#fff;padding:0.15rem 0.45rem;border-radius:4px;font-size:0.72rem;font-weight:600">${count}</span>
                     ${delBtn}
                 </td>
                 <td style="text-align:center;padding:0.5rem">
                     ${drafts > 0
-                        ? `<button onclick="showDraftsModal('${c.id}','${c.name.replace(/'/g,"\\'")}','productivity')" style="background:#f59e0b;border:none;color:#fff;padding:0.2rem 0.5rem;border-radius:4px;font-size:0.72rem;cursor:pointer">${drafts} 📝</button>`
-                        : '<span style="color:#475569;font-size:0.72rem">—</span>'}
+                    ? `<button onclick="showDraftsModal('${c.id}','${c.name.replace(/'/g, "\\'")}','productivity')" style="background:#f59e0b;border:none;color:#fff;padding:0.2rem 0.5rem;border-radius:4px;font-size:0.72rem;cursor:pointer">${drafts} 📝</button>`
+                    : '<span style="color:#475569;font-size:0.72rem">—</span>'}
                 </td>
                 <td style="text-align:center;padding:0.5rem;background:rgba(99,102,241,0.05)">
-                    <button id="${btnId}" onclick="generateWithAI('${c.id}','${c.name.replace(/'/g,"\\'")}','productivity',getGenCount('productivity'),'${btnId}')"
+                    <button id="${btnId}" onclick="generateWithAI('${c.id}','${c.name.replace(/'/g, "\\'")}','productivity',getGenCount('productivity'),'${btnId}')"
                         style="background:#6366f1;border:none;color:#fff;padding:0.3rem 0.65rem;border-radius:5px;font-size:0.8rem;cursor:pointer;font-weight:600"
                         title="Bu kategoride yeni teknik üret">⚡ Üret</button>
                 </td>
@@ -228,21 +228,21 @@ function renderTopicTable() {
     const tbody = document.getElementById('aiTopicTableBody');
     const topicCountEl = document.getElementById('topicCount');
     if (!tbody) return;
-    
+
     // Filtreleme uygula
     let topicsToShow = _aiTopics;
-    
+
     if (_currentFilter.search) {
         const searchLower = _currentFilter.search.toLowerCase();
         topicsToShow = topicsToShow.filter(t => t.name.toLowerCase().includes(searchLower));
     }
-    
+
     if (_currentFilter.module) {
         if (_currentFilter.module === 'any') {
             // Hiç içerik olmayanlar
             topicsToShow = topicsToShow.filter(t => {
-                const total = (t.status?.explanations || 0) + (t.status?.stories || 0) + 
-                             (t.status?.flashcards || 0) + (t.status?.matching_games || 0) + (t.status?.questions || 0) + (t.status?.productivity || 0);
+                const total = (t.status?.explanations || 0) + (t.status?.stories || 0) +
+                    (t.status?.flashcards || 0) + (t.status?.matching_games || 0) + (t.status?.questions || 0) + (t.status?.productivity || 0);
                 return total === 0;
             });
         } else {
@@ -250,35 +250,35 @@ function renderTopicTable() {
             topicsToShow = topicsToShow.filter(t => !(t.status?.[_currentFilter.module] > 0));
         }
     }
-    
+
     _filteredTopics = topicsToShow;
-    
+
     // Konu sayısını güncelle
     if (topicCountEl) {
         const total = _aiTopics.length;
         const filtered = topicsToShow.length;
         topicCountEl.textContent = filtered === total ? `Tüm Konular (${total})` : `Gösterilen: ${filtered}/${total}`;
     }
-    
+
     if (topicsToShow.length === 0) {
         tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; padding: 2rem; color: var(--text-muted);">Filtreye uygun konu bulunamadı</td></tr>';
         return;
     }
-    
+
     const rowsHtml = topicsToShow.map(t => {
         const explanations = t.status?.explanations || 0;
         const stories = t.status?.stories || 0;
         const flashcards = t.status?.flashcards || 0;
         const matching = t.status?.matching_games || 0;
         const questions = t.status?.questions || 0;
-        
+
         // Silme butonu (sadece içerik varsa) - küçük
-        const delBtn = (count, type) => count > 0 
+        const delBtn = (count, type) => count > 0
             ? `<button onclick="deleteModuleContent('${t.id}', '${t.name.replace(/'/g, "\\'")}', '${type}')" 
                 style="background: transparent; border: none; color: #ef4444; cursor: pointer; font-size: 0.7rem; padding: 0; margin-left: 0.2rem;" 
                 title="Sil">×</button>`
             : '';
-        
+
         // Modül hücresi - sadece sayı ve silme butonu
         const cellContent = (count, type) => `
             <div style="display: flex; align-items: center; justify-content: center;">
@@ -289,7 +289,7 @@ function renderTopicTable() {
                 ${delBtn(count, type)}
             </div>
         `;
-        
+
         // Üretim butonları - count tıklama anında inputs'tan okunur
         const genBtn = (type, icon) => {
             const btnId = `btn-${t.id}-${type}`;
@@ -304,10 +304,10 @@ function renderTopicTable() {
         };
 
         const explanationsBtns = genBtn('explanations', '📚');
-        const storiesBtns     = genBtn('stories', '📖');
-        const flashcardsBtns  = genBtn('flashcards', '🃏');
-        const matchingBtns    = genBtn('matching_games', '🔗');
-        const questionsBtns   = genBtn('questions', '❓');
+        const storiesBtns = genBtn('stories', '📖');
+        const flashcardsBtns = genBtn('flashcards', '🃏');
+        const matchingBtns = genBtn('matching_games', '🔗');
+        const questionsBtns = genBtn('questions', '❓');
         // ⚡ Productivity butonu buradan kaldırıldı — KPSS topic'leri Flutter
         // StudyTechnique kategorileriyle eşleşmediği için ayrı panelde (⚡ Verimlilik Kategorileri) üretiliyor.
 
@@ -329,59 +329,59 @@ function renderTopicTable() {
             </td>
         </tr>`;
     }).join('');
-    
+
     tbody.innerHTML = rowsHtml;
 }
 
 // Filtreleme fonksiyonu
-window.filterTopics = function() {
+window.filterTopics = function () {
     const searchInput = document.getElementById('topicSearch');
     const moduleSelect = document.getElementById('topicModuleFilter');
-    
+
     _currentFilter = {
         search: searchInput ? searchInput.value : '',
         module: moduleSelect ? moduleSelect.value : ''
     };
-    
+
     renderTopicTable();
-    
+
     aiLog(`🔍 Filtreleme: "${_currentFilter.search}" | Modül: ${_currentFilter.module || 'Tümü'}`, 'debug');
 };
 
-window.deleteModuleContent = async function(topicId, topicName, moduleType) {
+window.deleteModuleContent = async function (topicId, topicName, moduleType) {
     const moduleNames = {
         'explanations': '📚 Konu Anlatımı',
-        'stories': '📖 Hikaye', 
+        'stories': '📖 Hikaye',
         'flashcards': '🃏 Flashcard',
         'matching_games': '🔗 Eşleştirme',
         'questions': '❓ Sorular',
         'productivity': '⚡ Verimlilik'
     };
     const moduleLabel = moduleNames[moduleType] || moduleType;
-    
+
     if (!confirm(`⚠️ SİLME ONAYI\n\nKonu: "${topicName}"\nModül: ${moduleLabel}\n\nBu içerik KALICI olarak silinecek!\n\nDevam etmek istiyor musunuz?`)) {
         aiLog(`⏹️ "${topicName}" silme işlemi iptal edildi`, 'warn');
         return;
     }
-    
+
     aiLog(`🗑️ [${topicName}] ${moduleLabel} siliniyor...`, 'info');
     aiLog(`   📡 API isteği gönderiliyor...`, 'info');
-    
+
     try {
         const res = await fetch(`${API}/api/ai-content/delete-published`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ moduleType, topicId, topicName }),
         });
-        
+
         aiLog(`   📥 HTTP ${res.status} ${res.statusText}`, res.ok ? 'success' : 'error');
-        
+
         // Yanıt içeriğini kontrol et
         const rawText = await res.text();
         if (!rawText || !rawText.trim()) {
             throw new Error('Sunucu boş yanıt döndürdü. Sunucu loglarını kontrol edin.');
         }
-        
+
         let data;
         try {
             data = JSON.parse(rawText);
@@ -389,17 +389,17 @@ window.deleteModuleContent = async function(topicId, topicName, moduleType) {
             console.error('JSON parse hatası:', rawText.substring(0, 200));
             throw new Error(`Sunucu yanıtı JSON formatında değil: ${parseErr.message}`);
         }
-        
+
         if (!data.success) {
             throw new Error(data.error || 'Bilinmeyen hata');
         }
-        
+
         aiLog(`✅ [${topicName}] ${moduleLabel} başarıyla silindi:`, 'success');
         aiLog(`   📊 Silinen: ${data.published || 0} yayınlanmış + ${data.drafts || 0} taslak = ${data.deleted} toplam`, 'success');
         aiLog(`   🔄 Liste yenileniyor...`, 'info');
-        
+
         await refreshTopics();
-        
+
         aiLog(`✅ İşlem tamamlandı`, 'success');
     } catch (e) {
         aiLog(`❌ [${topicName}] ${moduleLabel} silme hatası:`, 'error');
@@ -414,13 +414,13 @@ window.deleteModuleContent = async function(topicId, topicName, moduleType) {
 // ═══════════════════════════════════════════════════════════════════════════
 
 // Model seçimi için kart tıklama fonksiyonu
-window.selectModel = function(modelId) {
+window.selectModel = function (modelId) {
     // Gizli select'i güncelle
     const select = document.getElementById('aiModel');
     if (select) {
         select.value = modelId;
     }
-    
+
     // Tüm kartlardan selected class'ını kaldır
     document.querySelectorAll('.model-card').forEach(card => {
         card.classList.remove('selected');
@@ -428,7 +428,7 @@ window.selectModel = function(modelId) {
         card.style.background = 'var(--bg)';
         card.style.boxShadow = 'none';
     });
-    
+
     // Seçili karta stil uygula
     const selectedCard = document.querySelector(`[data-model="${modelId}"]`);
     if (selectedCard) {
@@ -437,64 +437,64 @@ window.selectModel = function(modelId) {
         selectedCard.style.background = 'rgba(99, 102, 241, 0.1)';
         selectedCard.style.boxShadow = '0 0 0 2px rgba(99, 102, 241, 0.3)';
     }
-    
+
     // Model ismini ve maliyeti güncelle (2026 Nisan)
     const modelNames = {
         // TOP TIER
-        'deepseek/deepseek-v3.2':                  'DeepSeek V3.2',
-        'google/gemini-3-flash-preview':           'Gemini 3 Flash',
-        'minimax/minimax-m2.5':                    'MiniMax M2.5',
-        'minimax/minimax-m2.7':                    'MiniMax M2.7',
-        'google/gemini-2.5-flash':                 'Gemini 2.5 Flash',
-        'x-ai/grok-4.1-fast':                      'Grok 4.1 Fast',
+        'deepseek/deepseek-v3.2': 'DeepSeek V3.2',
+        'google/gemini-3-flash-preview': 'Gemini 3 Flash',
+        'minimax/minimax-m2.5': 'MiniMax M2.5',
+        'minimax/minimax-m2.7': 'MiniMax M2.7',
+        'google/gemini-2.5-flash': 'Gemini 2.5 Flash',
+        'x-ai/grok-4.1-fast': 'Grok 4.1 Fast',
         // FREE
-        'nvidia/nemotron-3-super-120b-a12b:free':  'Nemotron 3 Super',
+        'nvidia/nemotron-3-super-120b-a12b:free': 'Nemotron 3 Super',
         // BUDGET
-        'google/gemini-2.5-flash-lite':            'Gemini 2.5 Flash Lite',
-        'google/gemini-3.1-flash-lite-preview':    'Gemini 3.1 Flash Lite',
-        'moonshotai/kimi-k2.5':                    'Kimi K2.5',
-        'openai/gpt-5-nano':                       'GPT-5 Nano',
-        'openai/gpt-4o-mini':                      'GPT-4o Mini',
+        'google/gemini-2.5-flash-lite': 'Gemini 2.5 Flash Lite',
+        'google/gemini-3.1-flash-lite-preview': 'Gemini 3.1 Flash Lite',
+        'moonshotai/kimi-k2.5': 'Kimi K2.5',
+        'openai/gpt-5-nano': 'GPT-5 Nano',
+        'openai/gpt-4o-mini': 'GPT-4o Mini',
         // PREMIUM
-        'openai/gpt-5.2':                          'GPT-5.2',
-        'google/gemini-3.1-pro-preview':           'Gemini 3.1 Pro',
-        'anthropic/claude-haiku-4.5':              'Claude Haiku 4.5',
-        'anthropic/claude-sonnet-4.6':             'Claude Sonnet 4.6',
+        'openai/gpt-5.2': 'GPT-5.2',
+        'google/gemini-3.1-pro-preview': 'Gemini 3.1 Pro',
+        'anthropic/claude-haiku-4.5': 'Claude Haiku 4.5',
+        'anthropic/claude-sonnet-4.6': 'Claude Sonnet 4.6',
     };
 
     // Ortalama $/M token (input+output için tahmini)
     const modelPrices = {
-        'deepseek/deepseek-v3.2':                  0.32,
-        'google/gemini-3-flash-preview':           1.75,
-        'minimax/minimax-m2.5':                    0.55,
-        'minimax/minimax-m2.7':                    0.75,
-        'google/gemini-2.5-flash':                 1.40,
-        'x-ai/grok-4.1-fast':                      0.35,
-        'nvidia/nemotron-3-super-120b-a12b:free':  0,
-        'google/gemini-2.5-flash-lite':            0.25,
-        'google/gemini-3.1-flash-lite-preview':    0.88,
-        'moonshotai/kimi-k2.5':                    1.05,
-        'openai/gpt-5-nano':                       0.23,
-        'openai/gpt-4o-mini':                      0.38,
-        'openai/gpt-5.2':                          7.88,
-        'google/gemini-3.1-pro-preview':           7.00,
-        'anthropic/claude-haiku-4.5':              3.00,
-        'anthropic/claude-sonnet-4.6':             9.00,
+        'deepseek/deepseek-v3.2': 0.32,
+        'google/gemini-3-flash-preview': 1.75,
+        'minimax/minimax-m2.5': 0.55,
+        'minimax/minimax-m2.7': 0.75,
+        'google/gemini-2.5-flash': 1.40,
+        'x-ai/grok-4.1-fast': 0.35,
+        'nvidia/nemotron-3-super-120b-a12b:free': 0,
+        'google/gemini-2.5-flash-lite': 0.25,
+        'google/gemini-3.1-flash-lite-preview': 0.88,
+        'moonshotai/kimi-k2.5': 1.05,
+        'openai/gpt-5-nano': 0.23,
+        'openai/gpt-4o-mini': 0.38,
+        'openai/gpt-5.2': 7.88,
+        'google/gemini-3.1-pro-preview': 7.00,
+        'anthropic/claude-haiku-4.5': 3.00,
+        'anthropic/claude-sonnet-4.6': 9.00,
     };
-    
+
     const modelNameEl = document.getElementById('currentModelName');
     const costEl = document.getElementById('estimatedCost');
-    
+
     if (modelNameEl) {
         modelNameEl.textContent = modelNames[modelId] || modelId;
     }
-    
+
     updateCostDisplay();
     aiLog(`🤖 Model seçildi: ${modelNames[modelId] || modelId}`, 'info');
 };
 
 // Üretim başına adet - inputs'tan oku (tıklama anında)
-window.getGenCount = function(type) {
+window.getGenCount = function (type) {
     const ids = { explanations: 'countExplanations', stories: 'countStories', flashcards: 'countFlashcards', matching_games: 'countMatching', questions: 'countQuestions', productivity: 'countProductivity' };
     const defaults = { explanations: 5, stories: 5, flashcards: 10, matching_games: 5, questions: 20, productivity: 5 };
     const el = document.getElementById(ids[type]);
@@ -502,26 +502,26 @@ window.getGenCount = function(type) {
 };
 
 // API çağrısı ve maliyet tahminini güncelle
-window.updateCostDisplay = function() {
+window.updateCostDisplay = function () {
     const select = document.getElementById('aiModel');
     const model = select?.value || 'google/gemini-2.5-flash';
     const modelPrices = {
-        'deepseek/deepseek-v3.2':                  0.32,
-        'google/gemini-3-flash-preview':           1.75,
-        'google/gemini-2.5-flash':                 1.40,
-        'x-ai/grok-4.1-fast':                      0.35,
-        'minimax/minimax-m2.5':                    0.55,
-        'minimax/minimax-m2.7':                    0.75,
-        'moonshotai/kimi-k2.5':                    1.05,
-        'nvidia/nemotron-3-super-120b-a12b:free':  0,
-        'google/gemini-2.5-flash-lite':            0.25,
-        'google/gemini-3.1-flash-lite-preview':    0.88,
-        'openai/gpt-5-nano':                       0.23,
-        'openai/gpt-4o-mini':                      0.38,
-        'anthropic/claude-haiku-4.5':              3.00,
-        'google/gemini-3.1-pro-preview':           7.00,
-        'openai/gpt-5.2':                          7.88,
-        'anthropic/claude-sonnet-4.6':             9.00,
+        'deepseek/deepseek-v3.2': 0.32,
+        'google/gemini-3-flash-preview': 1.75,
+        'google/gemini-2.5-flash': 1.40,
+        'x-ai/grok-4.1-fast': 0.35,
+        'minimax/minimax-m2.5': 0.55,
+        'minimax/minimax-m2.7': 0.75,
+        'moonshotai/kimi-k2.5': 1.05,
+        'nvidia/nemotron-3-super-120b-a12b:free': 0,
+        'google/gemini-2.5-flash-lite': 0.25,
+        'google/gemini-3.1-flash-lite-preview': 0.88,
+        'openai/gpt-5-nano': 0.23,
+        'openai/gpt-4o-mini': 0.38,
+        'anthropic/claude-haiku-4.5': 3.00,
+        'google/gemini-3.1-pro-preview': 7.00,
+        'openai/gpt-5.2': 7.88,
+        'anthropic/claude-sonnet-4.6': 9.00,
     };
     const price = modelPrices[model] || 0.32;
 
@@ -548,7 +548,7 @@ window.updateCostDisplay = function() {
     }
 };
 
-window.generateWithAI = async function(topicId, topicName, moduleType, count = 30, btnId = null) {
+window.generateWithAI = async function (topicId, topicName, moduleType, count = 30, btnId = null) {
     // Bu buton zaten loading mi kontrol et (aynı anda çoklu üretim için buton bazlı lock)
     if (btnId && _loadingButtons.has(btnId)) {
         aiLog('⚠️ Bu konu için zaten üretim devam ediyor', 'warn');
@@ -718,52 +718,52 @@ async function _pollJobStatus(jobId, expectedCount) {
 
 async function generateExplanationsBatch(topicId, topicName, count) {
     aiLog(`📚 ${topicName} için ${count} bölüm anlatım üretiliyor...`, 'ai');
-    
+
     for (let i = 1; i <= count; i++) {
         aiLog(`   📝 Bölüm ${i}/${count} üretiliyor...`, 'info');
-        
+
         // Simülasyon - gerçek API entegrasyonu buraya gelecek
         await simulateAIRequest(2000);
-        
+
         aiLog(`   ✅ Bölüm ${i} tamamlandı`, 'success');
     }
-    
+
     aiLog(`📚 ${count} bölüm anlatım üretildi`, 'success');
 }
 
 async function generateStoriesBatch(topicId, topicName, count) {
     aiLog(`📖 ${topicName} için ${count} hikaye üretiliyor...`, 'ai');
-    
+
     for (let i = 1; i <= count; i++) {
         aiLog(`   📜 Hikaye ${i}/${count} üretiliyor...`, 'info');
         await simulateAIRequest(1500);
         aiLog(`   ✅ Hikaye ${i} tamamlandı`, 'success');
     }
-    
+
     aiLog(`📖 ${count} hikaye üretildi`, 'success');
 }
 
 async function generateFlashcardsBatch(topicId, topicName, count) {
     aiLog(`🃏 ${topicName} için ${count} flashcard üretiliyor...`, 'ai');
-    
+
     for (let i = 1; i <= count; i++) {
         aiLog(`   🎴 Flashcard ${i}/${count} üretiliyor...`, 'info');
         await simulateAIRequest(800);
         aiLog(`   ✅ Flashcard ${i} tamamlandı`, 'success');
     }
-    
+
     aiLog(`🃏 ${count} flashcard üretildi`, 'success');
 }
 
 async function generateMatchingBatch(topicId, topicName, count) {
     aiLog(`🔗 ${topicName} için ${count} eşleştirme çifti üretiliyor...`, 'ai');
-    
+
     for (let i = 1; i <= count; i++) {
         aiLog(`   🔗 Eşleştirme ${i}/${count} üretiliyor...`, 'info');
         await simulateAIRequest(1000);
         aiLog(`   ✅ Eşleştirme ${i} tamamlandı`, 'success');
     }
-    
+
     aiLog(`🔗 ${count} eşleştirme çifti üretildi`, 'success');
 }
 
@@ -775,7 +775,7 @@ function simulateAIRequest(ms) {
 // DRAFTS & APPROVAL SYSTEM
 // ═══════════════════════════════════════════════════════════════════════════
 
-window.showDraftsModal = async function(topicId, topicName, moduleType) {
+window.showDraftsModal = async function (topicId, topicName, moduleType) {
     const moduleNames = {
         'explanations': '📚 Konu Anlatımı',
         'stories': '📖 Hikaye',
@@ -785,29 +785,29 @@ window.showDraftsModal = async function(topicId, topicName, moduleType) {
         'productivity': '⚡ Verimlilik Teknikleri'
     };
     const moduleLabel = moduleNames[moduleType] || moduleType;
-    
+
     aiLog(`📋 [${topicName}] ${moduleLabel} taslakları yükleniyor...`, 'info');
-    
+
     try {
         const res = await fetch(`${API}/api/ai-content/drafts?topicId=${topicId}&moduleType=${moduleType}`);
         const data = await res.json();
-        
+
         if (!data.success || !data.drafts || data.drafts.length === 0) {
             aiLog(`⚠️ [${topicName}] Henüz taslak yok. "🤖 Üret" butonuna tıklayın.`, 'warn');
             alert('Henüz taslak yok! 🤖 Üret butonuna tıklayarak içerik üretin.');
             return;
         }
-        
+
         const drafts = data.drafts;
         _currentDrafts = drafts; // Global değişkene ata
         _currentTopicId = topicId;
         _currentTopicName = topicName;
         _currentModuleType = moduleType;
-        
+
         aiLog(`✅ ${drafts.length} taslak yüklendi`, 'success');
-        
+
         renderDraftsModal(drafts, topicId, topicName, moduleType, moduleLabel);
-        
+
     } catch (e) {
         aiLog(`❌ [${topicName}] Taslak yükleme hatası: ${e.message}`, 'error');
         alert('Taslaklar yüklenirken hata oluştu!');
@@ -818,7 +818,7 @@ function renderDraftsModal(drafts, topicId, topicName, moduleType, moduleLabel) 
     // Mevcut modalı kaldır
     const existingModal = document.getElementById('draftsModal');
     if (existingModal) existingModal.remove();
-    
+
     const modal = document.createElement('div');
     modal.id = 'draftsModal';
     modal.style.cssText = `
@@ -827,7 +827,7 @@ function renderDraftsModal(drafts, topicId, topicName, moduleType, moduleLabel) 
         display: flex; align-items: center; justify-content: center;
         padding: 1rem; overflow: auto;
     `;
-    
+
     const previewContent = (draft, index) => {
         if (moduleType === 'explanations') {
             const contentPreview = draft.content?.slice(0, 2).map(c => {
@@ -861,7 +861,7 @@ function renderDraftsModal(drafts, topicId, topicName, moduleType, moduleLabel) 
             return `<div style="font-size: 0.75rem; color: #94a3b8; margin-top: 0.3rem;">${draft.left || ''} ↔️ ${draft.right || ''}</div>`;
         }
     };
-    
+
     modal.innerHTML = `
         <div style="background: #0f172a; border: 1px solid #334155; border-radius: 12px; max-width: 900px; width: 100%; max-height: 95vh; overflow: hidden; display: flex; flex-direction: column;">
             <div style="padding: 1.25rem; border-bottom: 1px solid #334155; background: #1e293b; display: flex; justify-content: space-between; align-items: center;">
@@ -940,12 +940,12 @@ function renderDraftsModal(drafts, topicId, topicName, moduleType, moduleLabel) 
             </div>
         </div>
     `;
-    
+
     document.body.appendChild(modal);
     aiLog(`📋 [${topicName}] Gelişmiş taslak modal açıldı (${drafts.length} taslak)`, 'success');
 }
 
-window.closeDraftsModal = function() {
+window.closeDraftsModal = function () {
     const modal = document.getElementById('draftsModal');
     if (modal) {
         modal.remove();
@@ -953,7 +953,7 @@ window.closeDraftsModal = function() {
     }
 };
 
-window.approveSingleDraft = async function(topicId, topicName, moduleType, index) {
+window.approveSingleDraft = async function (topicId, topicName, moduleType, index) {
     const moduleNames = {
         'explanations': '📚 Konu Anlatımı',
         'stories': '📖 Hikaye',
@@ -962,28 +962,28 @@ window.approveSingleDraft = async function(topicId, topicName, moduleType, index
         'questions': '❓ Sorular'
     };
     const moduleLabel = moduleNames[moduleType] || moduleType;
-    
+
     if (!confirm(`✅ ONAY\n\n"${topicName}" - ${moduleLabel}\nSadece #${index + 1} numaralı taslak onaylanacak.\n\nDevam?`)) return;
-    
+
     aiLog(`✅ [${topicName}] #${index + 1} onaylanıyor...`, 'ai');
-    
+
     try {
         const res = await fetch(`${API}/api/ai-content/approve-draft`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ moduleType, topicId, topicName, indices: [index] })
         });
-        
+
         const data = await res.json();
-        
+
         if (!data.success) throw new Error(data.error);
-        
+
         aiLog(`✅ [${topicName}] #${index + 1} başarıyla yayınlandı!`, 'success');
         aiLog(`   📊 Toplam canlı içerik: ${data.total}`, 'success');
-        
+
         closeDraftsModal();
         await refreshTopics();
-        
+
         showToast(`${topicName} - #${index + 1} yayınlandı!`, 'success');
     } catch (e) {
         aiLog(`❌ [${topicName}] Onay hatası: ${e.message}`, 'error');
@@ -991,7 +991,7 @@ window.approveSingleDraft = async function(topicId, topicName, moduleType, index
     }
 };
 
-window.approveAllDrafts = async function(topicId, topicName, moduleType) {
+window.approveAllDrafts = async function (topicId, topicName, moduleType) {
     const moduleNames = {
         'explanations': '📚 Konu Anlatımı',
         'stories': '📖 Hikaye',
@@ -1000,29 +1000,29 @@ window.approveAllDrafts = async function(topicId, topicName, moduleType) {
         'questions': '❓ Sorular'
     };
     const moduleLabel = moduleNames[moduleType] || moduleType;
-    
+
     if (!confirm(`🚀 TOPLU ONAY\n\n"${topicName}" - ${moduleLabel}\nTÜM taslaklar onaylanacak ve canlıya alınacak!\n\nDevam?`)) return;
-    
+
     aiLog(`🚀 [${topicName}] Tüm taslaklar onaylanıyor...`, 'ai');
-    
+
     try {
         const res = await fetch(`${API}/api/ai-content/approve-draft`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ moduleType, topicId, topicName })
         });
-        
+
         const data = await res.json();
-        
+
         if (!data.success) throw new Error(data.error);
-        
+
         aiLog(`🚀 [${topicName}] ${data.published} taslak başarıyla yayınlandı!`, 'success');
         aiLog(`   📊 Toplam canlı içerik: ${data.total}`, 'success');
-        aiLog(`   🔗 GitHub: ${data.github?.pushed ? 'Başarılı' : 'Hatası'}`, data.github?.pushed ? 'success' : 'warn');
-        
+
+
         closeDraftsModal();
         await refreshTopics();
-        
+
         showToast(`${topicName} - ${data.published} içerik yayınlandı!`, 'success');
     } catch (e) {
         aiLog(`❌ [${topicName}] Toplu onay hatası: ${e.message}`, 'error');
@@ -1034,24 +1034,24 @@ window.approveAllDrafts = async function(topicId, topicName, moduleType) {
 // DRAFT MULTI-SELECT & BULK OPERATIONS
 // ═══════════════════════════════════════════════════════════════════════════
 
-window.toggleSelectAllDrafts = function(checked) {
+window.toggleSelectAllDrafts = function (checked) {
     const checkboxes = document.querySelectorAll('.draft-checkbox');
     checkboxes.forEach(cb => cb.checked = checked);
     updateDraftSelection();
 };
 
-window.updateDraftSelection = function() {
+window.updateDraftSelection = function () {
     const checkboxes = document.querySelectorAll('.draft-checkbox:checked');
     const selectedCount = checkboxes.length;
-    
+
     const approveBtn = document.getElementById('approveSelectedBtn');
     const deleteBtn = document.getElementById('deleteSelectedBtn');
     const countSpan = document.getElementById('selectedCount');
     const deleteCountSpan = document.getElementById('deleteCount');
-    
+
     if (countSpan) countSpan.textContent = selectedCount;
     if (deleteCountSpan) deleteCountSpan.textContent = selectedCount;
-    
+
     if (approveBtn) {
         approveBtn.disabled = selectedCount === 0;
         approveBtn.style.opacity = selectedCount === 0 ? '0.5' : '1';
@@ -1062,13 +1062,13 @@ window.updateDraftSelection = function() {
     }
 };
 
-window.approveSelectedDraftsBulk = async function() {
+window.approveSelectedDraftsBulk = async function () {
     const checkboxes = document.querySelectorAll('.draft-checkbox:checked');
     if (checkboxes.length === 0) {
         alert('Lütfen en az bir taslak seçin!');
         return;
     }
-    
+
     const indices = Array.from(checkboxes).map(cb => parseInt(cb.dataset.index));
     const moduleNames = {
         'explanations': '📚 Konu Anlatımı',
@@ -1078,27 +1078,27 @@ window.approveSelectedDraftsBulk = async function() {
         'questions': '❓ Sorular'
     };
     const moduleLabel = moduleNames[_currentModuleType] || _currentModuleType;
-    
+
     if (!confirm(`✓ TOPLU ONAY\n\n${_currentTopicName} - ${moduleLabel}\n${indices.length} taslak onaylanacak!\n\nDevam?`)) return;
-    
+
     aiLog(`✓ [${_currentTopicName}] ${indices.length} taslak onaylanıyor...`, 'ai');
-    
+
     try {
         const res = await fetch(`${API}/api/ai-content/approve-draft`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ 
-                moduleType: _currentModuleType, 
-                topicId: _currentTopicId, 
+            body: JSON.stringify({
+                moduleType: _currentModuleType,
+                topicId: _currentTopicId,
                 topicName: _currentTopicName,
                 indices: indices
             })
         });
-        
+
         const data = await res.json();
-        
+
         if (!data.success) throw new Error(data.error);
-        
+
         aiLog(`✓ [${_currentTopicName}] ${data.published} taslak onaylandı!`, 'success');
         closeDraftsModal();
         await refreshTopics();
@@ -1109,27 +1109,27 @@ window.approveSelectedDraftsBulk = async function() {
     }
 };
 
-window.deleteSelectedDraftsBulk = async function() {
+window.deleteSelectedDraftsBulk = async function () {
     const checkboxes = document.querySelectorAll('.draft-checkbox:checked');
     if (checkboxes.length === 0) {
         alert('Lütfen en az bir taslak seçin!');
         return;
     }
-    
+
     const indices = Array.from(checkboxes).map(cb => parseInt(cb.dataset.index));
-    
+
     if (!confirm(`🗑️ TASLAK SİLME\n\n${indices.length} taslak kalıcı olarak SİLİNECEK!\n\nBu işlem geri alınamaz!\n\nDevam?`)) return;
-    
+
     aiLog(`🗑️ ${_currentTopicName} - ${indices.length} taslak siliniyor...`, 'warn');
-    
+
     // Taslakları filtrele
     const remainingDrafts = _currentDrafts.filter((_, i) => !indices.includes(i));
-    
+
     try {
         // API'ye güncellenmiş taslağı gönder (sadece kalanlar)
         // TODO: API endpoint'i eklenecek
         aiLog(`🗑️ ${indices.length} taslak silindi`, 'success');
-        renderDraftsModal(remainingDrafts, _currentTopicId, _currentTopicName, _currentModuleType, 
+        renderDraftsModal(remainingDrafts, _currentTopicId, _currentTopicName, _currentModuleType,
             { 'explanations': '📚', 'stories': '📖', 'flashcards': '🃏', 'matching_games': '🔗', 'questions': '❓' }[_currentModuleType]);
         showToast(`${indices.length} taslak silindi`, 'success');
     } catch (e) {
@@ -1137,17 +1137,17 @@ window.deleteSelectedDraftsBulk = async function() {
     }
 };
 
-window.previewDraftDetail = function(index) {
+window.previewDraftDetail = function (index) {
     console.log('🔍 previewDraftDetail çağrıldı:', index);
     const draft = _currentDrafts[index];
     if (!draft) {
         console.log('❌ Draft bulunamadı:', index);
         return;
     }
-    
+
     const moduleType = _currentModuleType;
     let content = '';
-    
+
     if (moduleType === 'explanations') {
         content = draft.content?.map(c => {
             if (c.type === 'heading') return `<h3 style="color: #f8fafc; margin: 1rem 0 0.5rem 0;">${c.text}</h3>`;
@@ -1192,7 +1192,7 @@ window.previewDraftDetail = function(index) {
             </div>
         `;
     }
-    
+
     const modal = document.createElement('div');
     modal.id = 'draftPreviewModal';
     modal.style.cssText = `
@@ -1201,7 +1201,7 @@ window.previewDraftDetail = function(index) {
         display: flex; align-items: center; justify-content: center;
         padding: 2rem; overflow: auto;
     `;
-    
+
     modal.innerHTML = `
         <div style="background: #1e293b; border: 1px solid #334155; border-radius: 12px; max-width: 700px; width: 100%; max-height: 85vh; overflow: auto;">
             <div style="padding: 1.25rem; border-bottom: 1px solid #334155; display: flex; justify-content: space-between; align-items: center;">
@@ -1219,11 +1219,11 @@ window.previewDraftDetail = function(index) {
             </div>
         </div>
     `;
-    
+
     document.body.appendChild(modal);
 };
 
-window.closePreviewModal = function() {
+window.closePreviewModal = function () {
     const modal = document.getElementById('draftPreviewModal');
     if (modal) modal.remove();
 };
@@ -1232,17 +1232,17 @@ window.closePreviewModal = function() {
 // INLINE EDITOR (WYSIWYG) FOR DRAFTS
 // ═══════════════════════════════════════════════════════════════════════════
 
-window.openInlineEditor = function(index) {
+window.openInlineEditor = function (index) {
     console.log('✏️ openInlineEditor çağrıldı:', index);
     const draft = _currentDrafts[index];
     if (!draft) {
         console.log('❌ Draft bulunamadı:', index);
         return;
     }
-    
+
     const moduleType = _currentModuleType;
     let editorContent = '';
-    
+
     if (moduleType === 'explanations') {
         editorContent = `
             <div style="margin-bottom: 1rem;">
@@ -1302,10 +1302,10 @@ window.openInlineEditor = function(index) {
         `;
     } else if (moduleType === 'questions') {
         // Soru alanları: q (soru), o (şıklar array), a (doğru cevap index), e (açıklama)
-        const opts = (draft.o || []).map((opt, i) => 
+        const opts = (draft.o || []).map((opt, i) =>
             `<div style="display:flex;gap:0.5rem;margin-bottom:0.5rem;">
                 <input type="radio" name="editCorrect-${index}" value="${i}" ${i === draft.a ? 'checked' : ''} style="margin-top:0.3rem;">
-                <input type="text" id="editOption-${index}-${i}" value="${opt || ''}" placeholder="${['A','B','C','D','E'][i]} şıkkı" 
+                <input type="text" id="editOption-${index}-${i}" value="${opt || ''}" placeholder="${['A', 'B', 'C', 'D', 'E'][i]} şıkkı" 
                     style="flex:1;padding:0.5rem;background:#1e293b;border:1px solid #334155;border-radius:4px;color:#f8fafc;">
             </div>`
         ).join('');
@@ -1325,12 +1325,12 @@ window.openInlineEditor = function(index) {
         `;
     } else if (moduleType === 'productivity') {
         // Verimlilik alanları: title, content, tips (array), steps (array)
-        const tips = (draft.tips || []).map((tip, i) => 
-            `<input type="text" id="editTip-${index}-${i}" value="${tip || ''}" placeholder="İpucu ${i+1}" 
+        const tips = (draft.tips || []).map((tip, i) =>
+            `<input type="text" id="editTip-${index}-${i}" value="${tip || ''}" placeholder="İpucu ${i + 1}" 
                 style="width:100%;padding:0.5rem;background:#1e293b;border:1px solid #334155;border-radius:4px;color:#f8fafc;margin-bottom:0.5rem;">`
         ).join('');
-        const steps = (draft.steps || []).map((step, i) => 
-            `<input type="text" id="editStep-${index}-${i}" value="${step || ''}" placeholder="Adım ${i+1}" 
+        const steps = (draft.steps || []).map((step, i) =>
+            `<input type="text" id="editStep-${index}-${i}" value="${step || ''}" placeholder="Adım ${i + 1}" 
                 style="width:100%;padding:0.5rem;background:#1e293b;border:1px solid #334155;border-radius:4px;color:#f8fafc;margin-bottom:0.5rem;">`
         ).join('');
         editorContent = `
@@ -1368,7 +1368,7 @@ window.openInlineEditor = function(index) {
             </div>
         `;
     }
-    
+
     const modal = document.createElement('div');
     modal.id = 'inlineEditorModal';
     modal.style.cssText = `
@@ -1377,7 +1377,7 @@ window.openInlineEditor = function(index) {
         display: flex; align-items: center; justify-content: center;
         padding: 2rem; overflow: auto;
     `;
-    
+
     modal.innerHTML = `
         <div style="background: #0f172a; border: 1px solid #334155; border-radius: 12px; max-width: 800px; width: 100%; max-height: 90vh; overflow: auto;">
             <div style="padding: 1.25rem; border-bottom: 1px solid #334155; background: #1e293b;">
@@ -1392,24 +1392,24 @@ window.openInlineEditor = function(index) {
             </div>
         </div>
     `;
-    
+
     document.body.appendChild(modal);
 };
 
-window.closeInlineEditor = function() {
+window.closeInlineEditor = function () {
     const modal = document.getElementById('inlineEditorModal');
     if (modal) modal.remove();
 };
 
-window.addContentBlock = function(draftIndex) {
+window.addContentBlock = function (draftIndex) {
     const container = document.getElementById(`contentBlocks-${draftIndex}`);
     const blockCount = container.querySelectorAll('.content-block').length;
-    
+
     const newBlock = document.createElement('div');
     newBlock.className = 'content-block';
     newBlock.dataset.index = blockCount;
     newBlock.style.cssText = 'margin-bottom: 0.75rem; padding: 0.75rem; background: #1e293b; border: 1px solid #334155; border-radius: 6px;';
-    
+
     newBlock.innerHTML = `
         <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
             <select class="block-type" style="padding: 0.3rem 0.5rem; background: #0f172a; border: 1px solid #334155; border-radius: 4px; color: #e2e8f0; font-size: 0.8rem;">
@@ -1423,17 +1423,17 @@ window.addContentBlock = function(draftIndex) {
         </div>
         <textarea class="block-content" rows="3" style="width: 100%; padding: 0.5rem; background: #0f172a; border: 1px solid #334155; border-radius: 4px; color: #e2e8f0; font-size: 0.85rem; resize: vertical;" placeholder="İçerik..."> </textarea>
     `;
-    
+
     container.appendChild(newBlock);
 };
 
-window.saveDraftChanges = function(index) {
+window.saveDraftChanges = function (index) {
     const moduleType = _currentModuleType;
     const draft = _currentDrafts[index];
-    
+
     if (moduleType === 'explanations') {
         draft.title = document.getElementById(`editTitle-${index}`).value;
-        
+
         // Content bloklarını topla
         const blocks = [];
         document.querySelectorAll(`#contentBlocks-${index} .content-block`).forEach(block => {
@@ -1444,66 +1444,66 @@ window.saveDraftChanges = function(index) {
             }
         });
         draft.content = blocks;
-        
+
     } else if (moduleType === 'stories') {
         draft.title = document.getElementById(`editTitle-${index}`).value;
         draft.content = document.getElementById(`editContent-${index}`).value;
         draft.key_points = document.getElementById(`editKeyPoints-${index}`).value.split(',').map(s => s.trim()).filter(s => s);
-        
+
     } else if (moduleType === 'flashcards') {
         draft.front = document.getElementById(`editFront-${index}`).value;
         draft.back = document.getElementById(`editBack-${index}`).value;
-        
+
     } else if (moduleType === 'questions') {
         // Soru alanlarını doğru yapıda kaydet: q, o, a, e
         draft.q = document.getElementById(`editQuestion-${index}`).value;
         draft.e = document.getElementById(`editExplanation-${index}`).value;
-        
+
         // Şıkları topla
         draft.o = [];
         for (let i = 0; i < 5; i++) {
             const optEl = document.getElementById(`editOption-${index}-${i}`);
             if (optEl) draft.o.push(optEl.value);
         }
-        
+
         // Doğru cevabı al (radio button)
         const correctRadio = document.querySelector(`input[name="editCorrect-${index}"]:checked`);
         draft.a = correctRadio ? parseInt(correctRadio.value) : 0;
-        
+
     } else if (moduleType === 'productivity') {
         // Verimlilik alanlarını kaydet: title, content, tips, steps
         draft.title = document.getElementById(`editTitle-${index}`).value;
         draft.content = document.getElementById(`editContent-${index}`).value;
-        
+
         // İpuçlarını topla
         draft.tips = [];
         for (let i = 0; i < 5; i++) {
             const tipEl = document.getElementById(`editTip-${index}-${i}`);
             if (tipEl && tipEl.value.trim()) draft.tips.push(tipEl.value.trim());
         }
-        
+
         // Adımları topla
         draft.steps = [];
         for (let i = 0; i < 5; i++) {
             const stepEl = document.getElementById(`editStep-${index}-${i}`);
             if (stepEl && stepEl.value.trim()) draft.steps.push(stepEl.value.trim());
         }
-        
+
     } else {
         draft.left = document.getElementById(`editLeft-${index}`).value;
         draft.right = document.getElementById(`editRight-${index}`).value;
     }
-    
+
     // Değişiklikleri kaydet
     _currentDrafts[index] = draft;
-    
+
     // Modalı kapat ve listeyi yenile
     closeInlineEditor();
-    
+
     // Taslak modalını yeniden render et
     const moduleNames = { 'explanations': '📚', 'stories': '📖', 'flashcards': '🃏', 'matching_games': '🔗', 'questions': '❓', 'productivity': '⚡' };
     renderDraftsModal(_currentDrafts, _currentTopicId, _currentTopicName, _currentModuleType, moduleNames[_currentModuleType]);
-    
+
     aiLog(`✏️ Taslak #${index + 1} düzenlendi ve kaydedildi`, 'success');
     showToast(`Taslak #${index + 1} güncellendi!`, 'success');
 };
@@ -1523,21 +1523,21 @@ const DEFAULT_AI_SETTINGS = {
 };
 
 // Ayarları localStorage'dan yükle
-window.loadAISettings = function() {
+window.loadAISettings = function () {
     const saved = localStorage.getItem('aiSettings');
     return saved ? JSON.parse(saved) : { ...DEFAULT_AI_SETTINGS };
 };
 
 // Ayarları kaydet
-window.saveAISettings = function(settings) {
+window.saveAISettings = function (settings) {
     localStorage.setItem('aiSettings', JSON.stringify(settings));
     aiLog('⚙️ AI ayarları güncellendi', 'success');
 };
 
 // AI Ayarları modalını aç
-window.openAISettingsModal = function() {
+window.openAISettingsModal = function () {
     const settings = loadAISettings();
-    
+
     const modal = document.createElement('div');
     modal.id = 'aiSettingsModal';
     modal.style.cssText = `
@@ -1546,7 +1546,7 @@ window.openAISettingsModal = function() {
         display: flex; align-items: center; justify-content: center;
         padding: 2rem; overflow: auto;
     `;
-    
+
     modal.innerHTML = `
         <div style="background:#0f172a;border:1px solid #334155;border-radius:12px;max-width:560px;width:100%;max-height:90vh;overflow:auto">
             <div style="padding:1.25rem;border-bottom:1px solid #334155;background:#1e293b">
@@ -1565,9 +1565,9 @@ window.openAISettingsModal = function() {
                         Zorluk Seviyesi
                     </label>
                     <select id="settingDifficulty" style="width:100%;padding:0.6rem;background:#1e293b;border:1px solid #334155;border-radius:6px;color:#e2e8f0">
-                        <option value="easy"   ${settings.difficulty === 'easy'   ? 'selected' : ''}>🟢 Kolay — Temel seviye, doğrudan bilgi</option>
+                        <option value="easy"   ${settings.difficulty === 'easy' ? 'selected' : ''}>🟢 Kolay — Temel seviye, doğrudan bilgi</option>
                         <option value="medium" ${settings.difficulty === 'medium' ? 'selected' : ''}>🟡 Orta — Standart KPSS (önerilen)</option>
-                        <option value="hard"   ${settings.difficulty === 'hard'   ? 'selected' : ''}>🔴 Zor — Çıkarım, analiz, çeldirici yoğun</option>
+                        <option value="hard"   ${settings.difficulty === 'hard' ? 'selected' : ''}>🔴 Zor — Çıkarım, analiz, çeldirici yoğun</option>
                     </select>
                     <p style="margin:0.3rem 0 0;color:#64748b;font-size:0.72rem">
                         Promptlara zorluk direktifi ve dağılım hedefi olarak enjekte edilir.
@@ -1621,16 +1621,16 @@ window.openAISettingsModal = function() {
             </div>
         </div>
     `;
-    
+
     document.body.appendChild(modal);
 };
 
-window.closeAISettingsModal = function() {
+window.closeAISettingsModal = function () {
     const modal = document.getElementById('aiSettingsModal');
     if (modal) modal.remove();
 };
 
-window.applyAISettings = function() {
+window.applyAISettings = function () {
     const settings = {
         difficulty: document.getElementById('settingDifficulty').value,
         enableQualityCheck: document.getElementById('settingQualityCheck').checked,
@@ -1643,7 +1643,7 @@ window.applyAISettings = function() {
     showToast('AI ayarları kaydedildi!', 'success');
 };
 
-window.resetAISettings = function() {
+window.resetAISettings = function () {
     if (!confirm('Tüm AI ayarları varsayılana döndürülsün mü?')) return;
     localStorage.removeItem('aiSettings');
     closeAISettingsModal();
@@ -1652,7 +1652,7 @@ window.resetAISettings = function() {
 };
 
 // AI Ayarlarını API isteğine dahil et
-window.getAISettingsForAPI = function() {
+window.getAISettingsForAPI = function () {
     return loadAISettings();
 };
 
@@ -1660,18 +1660,18 @@ window.getAISettingsForAPI = function() {
 // BULK GENERATION & DRAFTS PAGE FUNCTIONS
 // ═══════════════════════════════════════════════════════════════════════════
 
-window.startBulkGeneration = async function() {
+window.startBulkGeneration = async function () {
     const moduleType = document.getElementById('bulkModuleType').value;
     const count = parseInt(document.getElementById('bulkCount').value);
     const model = document.getElementById('bulkModel').value;
-    
+
     // Konu seçimi için basit bir prompt
     const topicName = prompt('Hangi konu için içerik üretmek istiyorsunuz?\n\nÖrnek: İlk Müslüman Türk Devletleri');
     if (!topicName) return;
-    
+
     // Topic ID oluştur (basitleştirilmiş)
     const topicId = topicName.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '').substring(0, 20);
-    
+
     aiLog('═══════════════════════════════════════════', 'ai');
     aiLog('🤖 TOPLU YZ ÜRETİMİ BAŞLATILIYOR', 'ai');
     aiLog(`   📋 Konu: ${topicName}`, 'ai');
@@ -1679,24 +1679,24 @@ window.startBulkGeneration = async function() {
     aiLog(`   🔢 Adet: ${count}`, 'ai');
     aiLog(`   🤖 Model: ${model}`, 'ai');
     aiLog('═══════════════════════════════════════════', 'ai');
-    
+
     try {
         const res = await fetch(`${API}/api/ai-content/generate`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ moduleType, topicId, topicName, count, model })
         });
-        
+
         const data = await res.json();
-        
+
         if (!data.success) throw new Error(data.error);
-        
+
         aiLog(`✅ ${data.generated} içerik üretildi ve taslaklara kaydedildi!`, 'success');
         aiLog(`📋 Toplam taslak: ${data.total}`, 'info');
         aiLog(`💡 Onaylamak için "Taslaklar" sayfasına gidin`, 'info');
-        
+
         showToast(`${data.generated} içerik taslaklara kaydedildi!`, 'success');
-        
+
         // Taslaklar sayfasına yönlendirme seçeneği
         if (confirm('Taslaklar sayfasına gidip içerikleri onaylamak ister misiniz?')) {
             showPage('drafts');
@@ -1707,11 +1707,11 @@ window.startBulkGeneration = async function() {
     }
 };
 
-window.loadAllDrafts = async function() {
+window.loadAllDrafts = async function () {
     aiLog('📋 Tüm taslaklar yükleniyor...', 'info');
-    
+
     const moduleType = document.getElementById('draftModuleFilter')?.value || '';
-    
+
     try {
         const allDrafts = [];
 
@@ -1906,12 +1906,12 @@ function renderDraftsList(drafts) {
         </div>`;
 }
 
-window.toggleSelectAllPageDrafts = function(checked) {
+window.toggleSelectAllPageDrafts = function (checked) {
     document.querySelectorAll('.page-draft-cb').forEach(cb => cb.checked = checked);
     updatePageDraftSelection();
 };
 
-window.updatePageDraftSelection = function() {
+window.updatePageDraftSelection = function () {
     const all = document.querySelectorAll('.page-draft-cb');
     const checked = document.querySelectorAll('.page-draft-cb:checked');
     const n = checked.length;
@@ -1920,18 +1920,18 @@ window.updatePageDraftSelection = function() {
     if (info) info.textContent = n > 0 ? `${n} seçili / ${all.length} taslak` : `${all.length} taslak`;
 
     const approveBtn = document.getElementById('pageApproveBulkBtn');
-    const deleteBtn  = document.getElementById('pageDeleteBulkBtn');
+    const deleteBtn = document.getElementById('pageDeleteBulkBtn');
     const approveCount = document.getElementById('pageApproveCount');
-    const deleteCount  = document.getElementById('pageDeleteCount');
+    const deleteCount = document.getElementById('pageDeleteCount');
 
     if (approveCount) approveCount.textContent = n;
-    if (deleteCount)  deleteCount.textContent  = n;
+    if (deleteCount) deleteCount.textContent = n;
 
     [approveBtn, deleteBtn].forEach(btn => {
         if (!btn) return;
         btn.disabled = n === 0;
         btn.style.opacity = n === 0 ? '0.4' : '1';
-        btn.style.cursor  = n === 0 ? 'not-allowed' : 'pointer';
+        btn.style.cursor = n === 0 ? 'not-allowed' : 'pointer';
     });
 
     // Kart kenar rengi
@@ -1948,7 +1948,7 @@ window.updatePageDraftSelection = function() {
     }
 };
 
-window.approveSelectedDrafts = async function() {
+window.approveSelectedDrafts = async function () {
     const checked = document.querySelectorAll('.page-draft-cb:checked');
     if (checked.length === 0) { showToast('En az bir taslak seçin', 'warning'); return; }
 
@@ -1987,7 +1987,7 @@ window.approveSelectedDrafts = async function() {
     await loadAllDrafts();
 };
 
-window.deleteSelectedPageDrafts = async function() {
+window.deleteSelectedPageDrafts = async function () {
     const checked = document.querySelectorAll('.page-draft-cb:checked');
     if (checked.length === 0) { showToast('En az bir taslak seçin', 'warning'); return; }
 
@@ -2024,7 +2024,7 @@ window.deleteSelectedPageDrafts = async function() {
     await loadAllDrafts();
 };
 
-window.deletePageDraftSingle = async function(pageIndex) {
+window.deletePageDraftSingle = async function (pageIndex) {
     const draft = _allPageDrafts[pageIndex];
     if (!draft) return;
 
@@ -2082,7 +2082,7 @@ function getDraftPreview(draft) {
         return `<b>S:</b> ${front.substring(0, 100)}...<br><b>C:</b> ${back.substring(0, 100)}...${info ? '<br><span style="color:#f59e0b;font-size:0.75rem">💡 ' + info.substring(0, 50) + '...</span>' : ''}`;
     } else if (draft._moduleType === 'questions') {
         const labels = ['A', 'B', 'C', 'D', 'E'];
-        const opts = (draft.o || []).map((o, i) => `<span style="color:${i===draft.a?'#10b981':'inherit'}">${labels[i]}) ${o}</span>`).join('<br>');
+        const opts = (draft.o || []).map((o, i) => `<span style="color:${i === draft.a ? '#10b981' : 'inherit'}">${labels[i]}) ${o}</span>`).join('<br>');
         return `<b>S:</b> ${(draft.q || draft.question || '').substring(0, 120)}<br>${opts}`;
     } else if (draft._moduleType === 'matching_games') {
         const left = draft.left || draft.question || draft.q || 'Sol taraf';
@@ -2103,26 +2103,26 @@ function getDraftPreview(draft) {
 }
 
 // ── Önizleme Modalı ──────────────────────────────────────────────────────────
-window.previewPageDraft = function(pageIndex) {
+window.previewPageDraft = function (pageIndex) {
     const draft = _allPageDrafts[pageIndex];
     if (!draft) return;
 
-    const typeLabels = { explanations:'📚 Konu Anlatımı', stories:'📖 Hikaye', flashcards:'🃏 Flashcard', matching_games:'🔗 Eşleştirme', questions:'❓ Sorular', productivity:'⚡ Verimlilik' };
+    const typeLabels = { explanations: '📚 Konu Anlatımı', stories: '📖 Hikaye', flashcards: '🃏 Flashcard', matching_games: '🔗 Eşleştirme', questions: '❓ Sorular', productivity: '⚡ Verimlilik' };
     let body = '';
     const mt = draft._moduleType;
 
     if (mt === 'explanations') {
         body = (draft.content || []).map(c => {
-            if (c.type === 'heading')     return `<h3 style="color:#a5b4fc;margin:1rem 0 0.4rem">${c.text}</h3>`;
-            if (c.type === 'text')        return `<p style="margin:0 0 0.6rem;line-height:1.65;color:#cbd5e1">${c.text}</p>`;
-            if (c.type === 'bulletList')  return `<ul style="margin:0 0 0.6rem 1.2rem;color:#cbd5e1">${(c.text||'').split(/\\n|\n/).filter(Boolean).map(l=>`<li>${l.replace(/^•\s*/,'')}</li>`).join('')}</ul>`;
-            if (c.type === 'warning')     return `<div style="background:rgba(239,68,68,0.1);border-left:3px solid #ef4444;padding:0.6rem 0.75rem;margin:0.5rem 0;color:#fca5a5;border-radius:0 6px 6px 0">${c.text}</div>`;
+            if (c.type === 'heading') return `<h3 style="color:#a5b4fc;margin:1rem 0 0.4rem">${c.text}</h3>`;
+            if (c.type === 'text') return `<p style="margin:0 0 0.6rem;line-height:1.65;color:#cbd5e1">${c.text}</p>`;
+            if (c.type === 'bulletList') return `<ul style="margin:0 0 0.6rem 1.2rem;color:#cbd5e1">${(c.text || '').split(/\\n|\n/).filter(Boolean).map(l => `<li>${l.replace(/^•\s*/, '')}</li>`).join('')}</ul>`;
+            if (c.type === 'warning') return `<div style="background:rgba(239,68,68,0.1);border-left:3px solid #ef4444;padding:0.6rem 0.75rem;margin:0.5rem 0;color:#fca5a5;border-radius:0 6px 6px 0">${c.text}</div>`;
             if (c.type === 'highlighted') return `<div style="background:rgba(99,102,241,0.15);border-left:3px solid #6366f1;padding:0.6rem 0.75rem;margin:0.5rem 0;color:#c7d2fe;border-radius:0 6px 6px 0">${c.text}</div>`;
             return '';
         }).join('');
     } else if (mt === 'stories') {
         body = `<p style="line-height:1.8;color:#cbd5e1;white-space:pre-wrap">${draft.content || ''}</p>`;
-        if (draft.key_points?.length) body += `<ul style="margin-top:1rem;color:#a5b4fc">${draft.key_points.map(k=>`<li>${k}</li>`).join('')}</ul>`;
+        if (draft.key_points?.length) body += `<ul style="margin-top:1rem;color:#a5b4fc">${draft.key_points.map(k => `<li>${k}</li>`).join('')}</ul>`;
     } else if (mt === 'flashcards') {
         const front = draft.front || draft.question || '';
         const back = draft.back || draft.answer || '';
@@ -2156,7 +2156,7 @@ window.previewPageDraft = function(pageIndex) {
         body = `<div style="margin-bottom:1rem;padding:1rem;background:rgba(99,102,241,0.1);border:1px solid #6366f1;border-radius:8px;color:#e2e8f0;line-height:1.6">${qText}</div>${optsHtml}${draft.e ? `<div style="margin-top:1rem;padding:0.75rem;background:rgba(245,158,11,0.1);border-left:3px solid #f59e0b;border-radius:0 6px 6px 0;color:#fcd34d;font-size:0.85rem"><b>Açıklama:</b> ${draft.e}</div>` : ''}`;
     } else if (mt === 'productivity') {
         const stepsHtml = (draft.steps || []).map((step, i) =>
-            `<div style="padding:0.5rem 0.75rem;margin:0.3rem 0;border-radius:6px;background:rgba(99,102,241,0.1);border:1px solid #6366f1;color:#e2e8f0"><b>${i+1}.</b> ${step}</div>`
+            `<div style="padding:0.5rem 0.75rem;margin:0.3rem 0;border-radius:6px;background:rgba(99,102,241,0.1);border:1px solid #6366f1;color:#e2e8f0"><b>${i + 1}.</b> ${step}</div>`
         ).join('');
         const benefitsHtml = (draft.benefits || []).map(b =>
             `<li style="margin:0.4rem 0;color:#cbd5e1">✨ ${b}</li>`
@@ -2193,7 +2193,7 @@ window.previewPageDraft = function(pageIndex) {
         <div style="background:#1e293b;border:1px solid #334155;border-radius:12px;width:min(700px,100%);max-height:85vh;display:flex;flex-direction:column;overflow:hidden">
             <div style="display:flex;align-items:center;justify-content:space-between;padding:1rem 1.25rem;border-bottom:1px solid #334155;flex-shrink:0">
                 <div>
-                    <div style="font-size:0.72rem;color:#6366f1;font-weight:600;margin-bottom:0.2rem">${typeLabels[mt]||mt}</div>
+                    <div style="font-size:0.72rem;color:#6366f1;font-weight:600;margin-bottom:0.2rem">${typeLabels[mt] || mt}</div>
                     <div style="font-weight:600;color:#e2e8f0">${getDraftTitle(draft, pageIndex)}</div>
                 </div>
                 <button onclick="document.getElementById('draftPreviewModal').remove()"
@@ -2216,48 +2216,48 @@ window.previewPageDraft = function(pageIndex) {
 };
 
 // ── Düzenleme Modalı ─────────────────────────────────────────────────────────
-window.editPageDraft = function(pageIndex) {
+window.editPageDraft = function (pageIndex) {
     const draft = _allPageDrafts[pageIndex];
     if (!draft) return;
     const mt = draft._moduleType;
 
     let fieldsHtml = '';
-    const inp = (id, label, val, tag='input', rows=3) => tag === 'input'
+    const inp = (id, label, val, tag = 'input', rows = 3) => tag === 'input'
         ? `<div style="margin-bottom:0.75rem">
                <label style="display:block;font-size:0.75rem;color:#94a3b8;margin-bottom:0.3rem">${label}</label>
-               <input id="${id}" value="${(val||'').replace(/"/g,'&quot;')}"
+               <input id="${id}" value="${(val || '').replace(/"/g, '&quot;')}"
                    style="width:100%;padding:0.5rem 0.65rem;background:#0f172a;border:1px solid #334155;border-radius:6px;color:#e2e8f0;font-size:0.9rem;box-sizing:border-box">
            </div>`
         : `<div style="margin-bottom:0.75rem">
                <label style="display:block;font-size:0.75rem;color:#94a3b8;margin-bottom:0.3rem">${label}</label>
                <textarea id="${id}" rows="${rows}"
-                   style="width:100%;padding:0.5rem 0.65rem;background:#0f172a;border:1px solid #334155;border-radius:6px;color:#e2e8f0;font-size:0.9rem;resize:vertical;box-sizing:border-box">${(val||'').replace(/</g,'&lt;')}</textarea>
+                   style="width:100%;padding:0.5rem 0.65rem;background:#0f172a;border:1px solid #334155;border-radius:6px;color:#e2e8f0;font-size:0.9rem;resize:vertical;box-sizing:border-box">${(val || '').replace(/</g, '&lt;')}</textarea>
            </div>`;
 
     if (mt === 'flashcards') {
         const frontVal = draft.front || draft.question || '';
         const backVal = draft.back || draft.answer || '';
         const infoVal = draft.additionalInfo || '';
-        fieldsHtml = inp('ef_front','Soru (Ön Yüz)',frontVal,'textarea',3) 
-            + inp('ef_back','Cevap (Arka Yüz)',backVal,'textarea',3)
-            + inp('ef_info','Ek Bilgi / İpucu',infoVal,'textarea',2);
+        fieldsHtml = inp('ef_front', 'Soru (Ön Yüz)', frontVal, 'textarea', 3)
+            + inp('ef_back', 'Cevap (Arka Yüz)', backVal, 'textarea', 3)
+            + inp('ef_info', 'Ek Bilgi / İpucu', infoVal, 'textarea', 2);
     } else if (mt === 'questions') {
         const oVals = (draft.o || []).join('\n');
-        fieldsHtml = inp('ef_q','Soru',draft.q||draft.question,'textarea',3)
-            + inp('ef_o','Şıklar (her satır bir şık, A-E)',oVals,'textarea',5)
-            + inp('ef_a','Doğru Cevap İndeksi (0=A, 1=B...)',String(draft.a??''))
-            + inp('ef_e','Açıklama',draft.e||draft.explanation,'textarea',3);
+        fieldsHtml = inp('ef_q', 'Soru', draft.q || draft.question, 'textarea', 3)
+            + inp('ef_o', 'Şıklar (her satır bir şık, A-E)', oVals, 'textarea', 5)
+            + inp('ef_a', 'Doğru Cevap İndeksi (0=A, 1=B...)', String(draft.a ?? ''))
+            + inp('ef_e', 'Açıklama', draft.e || draft.explanation, 'textarea', 3);
     } else if (mt === 'matching_games') {
         const leftVal = draft.left || draft.question || draft.q || '';
         const rightVal = draft.right || draft.answer || draft.a || '';
-        fieldsHtml = inp('ef_left','Sol',leftVal) + inp('ef_right','Sağ',rightVal);
+        fieldsHtml = inp('ef_left', 'Sol', leftVal) + inp('ef_right', 'Sağ', rightVal);
     } else if (mt === 'stories') {
-        fieldsHtml = inp('ef_title','Başlık',draft.title) + inp('ef_content','İçerik',draft.content,'textarea',10);
+        fieldsHtml = inp('ef_title', 'Başlık', draft.title) + inp('ef_content', 'İçerik', draft.content, 'textarea', 10);
     } else {
-        fieldsHtml = inp('ef_title','Başlık',draft.title);
-        (draft.content||[]).forEach((b,i) => {
-            const typeLabel = {heading:'Başlık',text:'Metin',bulletList:'Madde Listesi',warning:'Uyarı',highlighted:'Vurgulanan'}[b.type] || b.type;
-            fieldsHtml += inp(`ef_block_${i}`, `${i+1}. Blok — ${typeLabel}`, b.text, 'textarea', b.type==='bulletList'?5:3);
+        fieldsHtml = inp('ef_title', 'Başlık', draft.title);
+        (draft.content || []).forEach((b, i) => {
+            const typeLabel = { heading: 'Başlık', text: 'Metin', bulletList: 'Madde Listesi', warning: 'Uyarı', highlighted: 'Vurgulanan' }[b.type] || b.type;
+            fieldsHtml += inp(`ef_block_${i}`, `${i + 1}. Blok — ${typeLabel}`, b.text, 'textarea', b.type === 'bulletList' ? 5 : 3);
         });
     }
 
@@ -2285,7 +2285,7 @@ window.editPageDraft = function(pageIndex) {
     document.body.appendChild(modal);
 };
 
-window.savePageDraftEdit = async function(pageIndex) {
+window.savePageDraftEdit = async function (pageIndex) {
     const draft = _allPageDrafts[pageIndex];
     if (!draft) return;
     const mt = draft._moduleType;
@@ -2296,7 +2296,7 @@ window.savePageDraftEdit = async function(pageIndex) {
     try {
         if (mt === 'flashcards') {
             updatedDraft.front = document.getElementById('ef_front').value;
-            updatedDraft.back  = document.getElementById('ef_back').value;
+            updatedDraft.back = document.getElementById('ef_back').value;
             updatedDraft.additionalInfo = document.getElementById('ef_info').value;
             // Alternatif alan isimleri de destekle
             updatedDraft.question = updatedDraft.front;
@@ -2307,7 +2307,7 @@ window.savePageDraftEdit = async function(pageIndex) {
             updatedDraft.a = parseInt(document.getElementById('ef_a').value) || 0;
             updatedDraft.e = document.getElementById('ef_e').value;
         } else if (mt === 'matching_games') {
-            updatedDraft.left  = document.getElementById('ef_left').value;
+            updatedDraft.left = document.getElementById('ef_left').value;
             updatedDraft.right = document.getElementById('ef_right').value;
             updatedDraft.q = updatedDraft.left;
             updatedDraft.a = updatedDraft.right;
@@ -2315,7 +2315,7 @@ window.savePageDraftEdit = async function(pageIndex) {
             updatedDraft.question = updatedDraft.left;
             updatedDraft.answer = updatedDraft.right;
         } else if (mt === 'stories') {
-            updatedDraft.title   = document.getElementById('ef_title').value;
+            updatedDraft.title = document.getElementById('ef_title').value;
             updatedDraft.content = document.getElementById('ef_content').value;
         } else {
             updatedDraft.title = document.getElementById('ef_title').value;
@@ -2344,163 +2344,10 @@ window.savePageDraftEdit = async function(pageIndex) {
     }
 };
 
-// ── GitHub Sayfası ───────────────────────────────────────────────────────────
-window.initGithubPage = function() {
-    githubRefreshStatus();
-    githubRefreshAutoSync();
-    githubRefreshLog();
-};
-
-window.githubRefreshStatus = async function() {
-    const el = document.getElementById('githubStatusBody');
-    if (!el) return;
-    el.innerHTML = '<span style="color:var(--text-muted);font-size:0.85rem">Kontrol ediliyor...</span>';
-    try {
-        const res = await fetch(`${API}/git/status`);
-        const data = await res.json();
-        if (!data.configured) {
-            el.innerHTML = `<div style="color:#ef4444;font-size:0.85rem">⚠️ ${data.error || 'Git yapılandırılmamış'}</div>`;
-            return;
-        }
-        if (!data.hasChanges) {
-            el.innerHTML = `<div style="display:flex;align-items:center;gap:0.5rem;color:#10b981;font-size:0.85rem">
-                <span class="material-icons-round" style="font-size:1.1rem">check_circle</span>
-                Her şey güncel — bekleyen değişiklik yok
-            </div>`;
-            return;
-        }
-        const rows = data.changedFiles.map(f => {
-            const statusColor = f.status === 'M' ? '#f59e0b' : f.status === '?' ? '#94a3b8' : '#10b981';
-            const statusLabel = { M:'Değiştirildi', A:'Eklendi', D:'Silindi', '??':'İzlenmiyor' }[f.status] || f.status;
-            return `<div style="display:flex;align-items:center;gap:0.6rem;padding:0.35rem 0;border-bottom:1px solid rgba(255,255,255,0.05)">
-                <span style="background:${statusColor};color:#000;font-size:0.65rem;font-weight:700;padding:0.1rem 0.35rem;border-radius:3px;min-width:5rem;text-align:center">${statusLabel}</span>
-                <span style="font-family:monospace;font-size:0.8rem;color:#e2e8f0">${f.file}</span>
-            </div>`;
-        }).join('');
-        el.innerHTML = `<div style="color:#f59e0b;font-weight:600;margin-bottom:0.5rem;font-size:0.85rem">
-            ${data.changedFiles.length} değişiklik bekliyor
-        </div>${rows}`;
-    } catch (e) {
-        el.innerHTML = `<div style="color:#ef4444;font-size:0.85rem">Hata: ${e.message}</div>`;
-    }
-};
-
-window.githubRefreshAutoSync = async function() {
-    const el = document.getElementById('githubAutoSyncBody');
-    if (!el) return;
-    try {
-        const res = await fetch(`${API}/auto-sync/status`);
-        const d = await res.json();
-        const dot = d.enabled ? '#10b981' : '#ef4444';
-        const label = d.enabled ? 'AKTİF' : 'DEVRE DIŞI';
-        el.innerHTML = `
-            <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.6rem">
-                <span style="width:10px;height:10px;background:${dot};border-radius:50%;display:inline-block"></span>
-                <span style="font-weight:700;color:${dot}">${label}</span>
-                <span style="color:var(--text-muted);font-size:0.78rem">(${d.interval})</span>
-            </div>
-            <div style="color:var(--text-muted);font-size:0.8rem;line-height:1.8">
-                Son sync: <span style="color:#e2e8f0">${d.lastSync}</span><br>
-                Sonraki: <span style="color:#e2e8f0">${d.nextSync}</span>
-            </div>`;
-    } catch (e) {
-        el.innerHTML = `<div style="color:#ef4444;font-size:0.85rem">Hata: ${e.message}</div>`;
-    }
-};
-
-window.githubRefreshLog = async function() {
-    const el = document.getElementById('githubLogBody');
-    if (!el) return;
-    el.innerHTML = '<span style="color:var(--text-muted);font-size:0.83rem">Yükleniyor...</span>';
-    try {
-        const res = await fetch(`${API}/git/log`);
-        const data = await res.json();
-        if (!data.success || !data.commits?.length) {
-            el.innerHTML = '<span style="color:var(--text-muted);font-size:0.83rem">Commit bulunamadı</span>';
-            return;
-        }
-        el.innerHTML = data.commits.map((c, i) => `
-            <div style="display:flex;align-items:center;gap:0.75rem;padding:0.45rem 0;
-                        border-bottom:1px solid rgba(255,255,255,0.05);${i===0?'':''}">
-                <span style="font-family:monospace;background:rgba(99,102,241,0.2);color:#a5b4fc;
-                             padding:0.15rem 0.4rem;border-radius:4px;font-size:0.75rem;flex-shrink:0">${c.hash}</span>
-                <span style="color:var(--text-muted);font-size:0.75rem;flex-shrink:0;min-width:7rem">${c.time}</span>
-                <span style="color:#e2e8f0;font-size:0.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${c.message}</span>
-            </div>`).join('');
-    } catch (e) {
-        el.innerHTML = `<div style="color:#ef4444;font-size:0.83rem">Hata: ${e.message}</div>`;
-    }
-};
-
-window.githubPushAll = async function() {
-    const modules = ['explanations', 'flashcards', 'stories', 'matching-games', 'questions', 'productivity'];
-    const el = document.getElementById('githubStatusBody');
-    if (el) el.innerHTML = '<span style="color:#f59e0b">🚀 Push ediliyor...</span>';
-    let ok = 0, fail = 0;
-    for (const m of modules) {
-        try {
-            const res = await fetch(`${API}/publish-to-github`, {
-                method: 'POST', headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ module: m })
-            });
-            const d = await res.json();
-            if (d.success) ok++; else fail++;
-        } catch { fail++; }
-    }
-    showToast(`Push tamamlandı: ${ok} başarılı / ${fail} başarısız`, ok > 0 ? 'success' : 'error');
-    githubRefreshStatus();
-    githubRefreshLog();
-};
-
-window.githubPushModule = async function(module) {
-    const resultEl = document.getElementById('githubModulePushResult');
-    if (resultEl) resultEl.innerHTML = `<span style="color:#f59e0b">🚀 ${module} push ediliyor...</span>`;
-    try {
-        const res = await fetch(`${API}/publish-to-github`, {
-            method: 'POST', headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ module })
-        });
-        const d = await res.json();
-        if (d.success) {
-            if (resultEl) resultEl.innerHTML = `<span style="color:#10b981">✅ ${d.message}</span>`;
-            showToast(d.message, 'success');
-        } else {
-            if (resultEl) resultEl.innerHTML = `<span style="color:#ef4444">❌ ${d.error}</span>`;
-            showToast(d.error, 'error');
-        }
-        githubRefreshStatus();
-        githubRefreshLog();
-    } catch (e) {
-        if (resultEl) resultEl.innerHTML = `<span style="color:#ef4444">Hata: ${e.message}</span>`;
-        showToast('Push hatası: ' + e.message, 'error');
-    }
-};
-
-window.githubToggleAutoSync = async function() {
-    try {
-        await fetch(`${API}/auto-sync/toggle`, { method: 'POST' });
-        githubRefreshAutoSync();
-    } catch (e) { showToast('Toggle hatası: ' + e.message, 'error'); }
-};
-
-window.githubSyncNow = async function() {
-    const el = document.getElementById('githubAutoSyncBody');
-    if (el) el.innerHTML = '<span style="color:#f59e0b">🔄 Sync yapılıyor...</span>';
-    try {
-        const res = await fetch(`${API}/auto-sync/now`, { method: 'POST' });
-        const d = await res.json();
-        showToast(d.success ? `Sync tamamlandı (${d.changedCount || 0} değişiklik)` : `Sync hatası: ${d.reason}`,
-            d.success ? 'success' : 'error');
-        githubRefreshAutoSync();
-        githubRefreshStatus();
-        githubRefreshLog();
-    } catch (e) { showToast('Sync hatası: ' + e.message, 'error'); }
-};
-
 // ── İçerik İstatistikleri ─────────────────────────────────────────────────────
 let _statsData = [];
 
-window.initContentStatsPage = async function() {
+window.initContentStatsPage = async function () {
     const el = document.getElementById('statsTableBody');
     if (!el) return;
     el.innerHTML = '<span style="color:#94a3b8">Yükleniyor...</span>';
@@ -2514,7 +2361,7 @@ window.initContentStatsPage = async function() {
     }
 };
 
-window.filterStatsTable = function() { renderStatsTable(); };
+window.filterStatsTable = function () { renderStatsTable(); };
 
 function renderStatsTable() {
     const el = document.getElementById('statsTableBody');
@@ -2535,8 +2382,8 @@ function renderStatsTable() {
 
     if (!rows.length) { el.innerHTML = '<span style="color:#64748b">Sonuç bulunamadı</span>'; return; }
 
-    const totalByMod = mods.reduce((acc, m) => { acc[m] = _statsData.reduce((s, t) => s + (t[m]||0), 0); return acc; }, {});
-    const lowCount = _statsData.filter(t => mods.some(m => (t[m]||0) < threshold)).length;
+    const totalByMod = mods.reduce((acc, m) => { acc[m] = _statsData.reduce((s, t) => s + (t[m] || 0), 0); return acc; }, {});
+    const lowCount = _statsData.filter(t => mods.some(m => (t[m] || 0) < threshold)).length;
 
     const summary = `<div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1rem;padding-bottom:0.75rem;border-bottom:1px solid #334155">
         ${mods.map(m => `<div style="text-align:center">
@@ -2556,13 +2403,13 @@ function renderStatsTable() {
             return `<td style="text-align:center;padding:0.4rem 0.5rem;color:${color};font-weight:600">${v}</td>`;
         }).join('');
         const draftBadge = t.drafts > 0 ? `<span style="background:rgba(99,102,241,0.2);color:#a5b4fc;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;margin-left:0.4rem">${t.drafts} taslak</span>` : '';
-        const anyLow = mods.some(m => (t[m]||0) < threshold);
-        const genBtns = anyLow ? mods.filter(m => (t[m]||0) < threshold)
-            .map(m => `<button onclick="generateWithAI('${t.id}','${t.name.replace(/'/g,"\\'")}','${m}',${threshold - (t[m]||0)},'stats-btn-${t.id}-${m}')" 
+        const anyLow = mods.some(m => (t[m] || 0) < threshold);
+        const genBtns = anyLow ? mods.filter(m => (t[m] || 0) < threshold)
+            .map(m => `<button onclick="generateWithAI('${t.id}','${t.name.replace(/'/g, "\\'")}','${m}',${threshold - (t[m] || 0)},'stats-btn-${t.id}-${m}')" 
                 id="stats-btn-${t.id}-${m}"
                 style="padding:0.15rem 0.4rem;background:rgba(99,102,241,0.2);border:1px solid rgba(99,102,241,0.3);
                        color:#a5b4fc;border-radius:4px;font-size:0.68rem;cursor:pointer;margin:0.1rem">
-                +${threshold-(t[m]||0)} ${modLabels[m]}</button>`).join('') : '';
+                +${threshold - (t[m] || 0)} ${modLabels[m]}</button>`).join('') : '';
         return `<tr style="border-bottom:1px solid rgba(51,65,85,0.5)">
             <td style="padding:0.4rem 0.5rem;color:#e2e8f0">${t.name}${draftBadge}</td>
             ${cells}
@@ -2581,7 +2428,7 @@ function renderStatsTable() {
 }
 
 // ── Maliyet Takibi ──────────────────────────────────────────────────────────
-window.initCostTrackerPage = async function() {
+window.initCostTrackerPage = async function () {
     const logEl = document.getElementById('costLogBody');
     const summEl = document.getElementById('costSummaryCards');
     if (!logEl) return;
@@ -2606,7 +2453,7 @@ window.initCostTrackerPage = async function() {
 
         logEl.innerHTML = log.map(e => {
             const d = new Date(e.timestamp);
-            const time = `${d.toLocaleDateString('tr')} ${d.toLocaleTimeString('tr', {hour:'2-digit',minute:'2-digit'})}`;
+            const time = `${d.toLocaleDateString('tr')} ${d.toLocaleTimeString('tr', { hour: '2-digit', minute: '2-digit' })}`;
             const model = e.model?.split('/').pop() || e.model;
             return `<div style="display:flex;gap:0.75rem;align-items:center;padding:0.4rem 0;border-bottom:1px solid rgba(51,65,85,0.5);flex-wrap:wrap">
                 <span style="color:#64748b;font-size:0.75rem;min-width:9rem">${time}</span>
@@ -2621,7 +2468,7 @@ window.initCostTrackerPage = async function() {
     }
 };
 
-window.clearCostLog = async function() {
+window.clearCostLog = async function () {
     if (!confirm('Maliyet logu temizlensin mi?')) return;
     await fetch(`${API}/api/cost-log`, { method: 'DELETE' });
     showToast('Log temizlendi', 'success');
@@ -2629,7 +2476,7 @@ window.clearCostLog = async function() {
 };
 
 // ── İçerik Arama ─────────────────────────────────────────────────────────────
-window.doContentSearch = async function() {
+window.doContentSearch = async function () {
     const q = document.getElementById('searchInput')?.value?.trim();
     const scope = document.getElementById('searchScope')?.value || 'all';
     const el = document.getElementById('searchResults');
@@ -2642,7 +2489,7 @@ window.doContentSearch = async function() {
         const data = await res.json();
         if (!data.results?.length) { el.innerHTML = `<span style="color:#64748b">Sonuç bulunamadı: "${q}"</span>`; return; }
 
-        const modLabels = { explanations:'Anlatım', flashcards:'Flashcard', stories:'Hikaye', matching_games:'Eşleştirme' };
+        const modLabels = { explanations: 'Anlatım', flashcards: 'Flashcard', stories: 'Hikaye', matching_games: 'Eşleştirme' };
         el.innerHTML = `<div style="color:#94a3b8;font-size:0.8rem;margin-bottom:0.75rem">${data.results.length} sonuç bulundu</div>` +
             data.results.map(r => {
                 const badge = r.type === 'draft'
@@ -2662,9 +2509,9 @@ window.doContentSearch = async function() {
 
 // ── Gece Otomatik Üretim ──────────────────────────────────────────────────────
 const _nightlyAllMods = ['explanations', 'flashcards', 'stories', 'matching_games'];
-const _nightlyModLabels = { explanations:'📚 Anlatım', flashcards:'🃏 Flashcard', stories:'📖 Hikaye', matching_games:'🔗 Eşleştirme' };
+const _nightlyModLabels = { explanations: '📚 Anlatım', flashcards: '🃏 Flashcard', stories: '📖 Hikaye', matching_games: '🔗 Eşleştirme' };
 
-window.initNightlyPage = async function() {
+window.initNightlyPage = async function () {
     try {
         const res = await fetch(`${API}/api/nightly-config`);
         const { config } = await res.json();
@@ -2679,9 +2526,9 @@ window.initNightlyPage = async function() {
             modsEl.innerHTML = _nightlyAllMods.map(m => {
                 const active = (config.modules || []).includes(m);
                 return `<button onclick="toggleNightlyMod('${m}', this)" data-active="${active}"
-                    style="padding:0.3rem 0.7rem;border-radius:20px;border:1px solid ${active?'#6366f1':'#334155'};
-                           background:${active?'rgba(99,102,241,0.2)':'transparent'};
-                           color:${active?'#a5b4fc':'#94a3b8'};font-size:0.8rem;cursor:pointer">
+                    style="padding:0.3rem 0.7rem;border-radius:20px;border:1px solid ${active ? '#6366f1' : '#334155'};
+                           background:${active ? 'rgba(99,102,241,0.2)' : 'transparent'};
+                           color:${active ? '#a5b4fc' : '#94a3b8'};font-size:0.8rem;cursor:pointer">
                     ${_nightlyModLabels[m]}
                 </button>`;
             }).join('');
@@ -2698,7 +2545,7 @@ function updateNightlyToggleBtn(enabled) {
     btn.dataset.enabled = enabled ? '1' : '0';
 }
 
-window.toggleNightlyMod = function(mod, btn) {
+window.toggleNightlyMod = function (mod, btn) {
     const active = btn.dataset.active === 'true';
     btn.dataset.active = active ? 'false' : 'true';
     btn.style.borderColor = !active ? '#6366f1' : '#334155';
@@ -2706,19 +2553,19 @@ window.toggleNightlyMod = function(mod, btn) {
     btn.style.color = !active ? '#a5b4fc' : '#94a3b8';
 };
 
-window.toggleNightly = async function() {
+window.toggleNightly = async function () {
     const btn = document.getElementById('nightlyToggleBtn');
     const enabled = btn?.dataset.enabled !== '1';
     try {
-        await fetch(`${API}/api/nightly-config`, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ enabled }) });
+        await fetch(`${API}/api/nightly-config`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ enabled }) });
         updateNightlyToggleBtn(enabled);
         showToast(`Gece üretimi ${enabled ? 'aktif' : 'pasif'}`, 'success');
     } catch (e) { showToast('Hata: ' + e.message, 'error'); }
 };
 
-window.saveNightlyConfig = async function() {
+window.saveNightlyConfig = async function () {
     const activeMods = Array.from(document.querySelectorAll('#nightlyModules button[data-active="true"]')).map(b => b.textContent.trim().replace(/^.*\s/, '').toLowerCase());
-    const modMap = { 'Anlatım':'explanations', 'Flashcard':'flashcards', 'Hikaye':'stories', 'Eşleştirme':'matching_games' };
+    const modMap = { 'Anlatım': 'explanations', 'Flashcard': 'flashcards', 'Hikaye': 'stories', 'Eşleştirme': 'matching_games' };
     const modules = activeMods.map(n => {
         const found = Object.entries(_nightlyModLabels).find(([, l]) => l.includes(n));
         return found ? found[0] : null;
@@ -2733,18 +2580,18 @@ window.saveNightlyConfig = async function() {
         modules: selectedMods.length ? selectedMods : ['explanations'],
     };
     try {
-        await fetch(`${API}/api/nightly-config`, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(config) });
+        await fetch(`${API}/api/nightly-config`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(config) });
         showToast('Ayarlar kaydedildi ✓', 'success');
     } catch (e) { showToast('Kayıt hatası: ' + e.message, 'error'); }
 };
 
 // ── Toplu Onayla + Push ────────────────────────────────────────────────────
-window.approveAndPushSelected = async function() {
+window.approveAndPushSelected = async function () {
     const checked = document.querySelectorAll('.page-draft-cb:checked');
     if (checked.length === 0) { showToast('En az bir taslak seçin', 'warning'); return; }
 
     const indices = Array.from(checked).map(cb => parseInt(cb.dataset.index));
-    if (!confirm(`✅ ${indices.length} taslak onaylanıp GitHub'a push edilecek.\n\nDevam?`)) return;
+    if (!confirm(`✅ ${indices.length} taslak onaylanacak.\n\nDevam?`)) return;
 
     const groups = {};
     indices.forEach(i => {
@@ -2770,11 +2617,7 @@ window.approveAndPushSelected = async function() {
 
     for (const mod of affectedModules) {
         try {
-            await fetch(`${API}/publish-to-github`, {
-                method: 'POST', headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ module: mod })
-            });
-        } catch {}
+        } catch { }
     }
 
     const msg = errors > 0 ? `${approved} onaylandı, ${errors} hata, meto-data push edildi` : `✅ ${approved} yayınlandı + meto-data push edildi`;
@@ -2822,10 +2665,10 @@ window.showToast = function (msg, type = 'info') {
 };
 
 // Copy Template to Clipboard
-window.copyTemplate = async function(templateId) {
+window.copyTemplate = async function (templateId) {
     const el = document.getElementById(templateId);
     if (!el) return;
-    
+
     const text = el.textContent;
     try {
         await navigator.clipboard.writeText(text);
@@ -3374,8 +3217,8 @@ window.loadAddTopics = async function () {
 
         // Apply search filter if there's a search term
         if (searchInput) {
-            filteredTopics = filteredTopics.filter(t => 
-                t.name.toLowerCase().includes(searchInput) || 
+            filteredTopics = filteredTopics.filter(t =>
+                t.name.toLowerCase().includes(searchInput) ||
                 t.id.toLowerCase().includes(searchInput)
             );
         }
@@ -3420,25 +3263,25 @@ window.loadTopicCount = function () {
 // Open editor for selected topic (from add page)
 window.openEditorForTopic = async function () {
     const topicId = document.getElementById('addTopic')?.value;
-    
+
     if (!topicId) {
         showToast('Lütfen önce bir konu seçin', 'warning');
         return;
     }
-    
+
     showToast('Editör yükleniyor...', 'info');
-    
+
     try {
         // Load questions for this topic
         const res = await fetch(API + `/questions/${encodeURIComponent(topicId)}`);
         const questions = await res.json();
-        
+
         // Convert to JSON and populate the bulk editor
         const questionsArray = Array.isArray(questions) ? questions : (questions.questions || []);
-        
+
         // Switch to browse page to edit questions
         showPage('browse');
-        
+
         // Wait for browse page to load then select the topic
         setTimeout(() => {
             const browseSelect = document.getElementById('browseTopics');
@@ -3448,7 +3291,7 @@ window.openEditorForTopic = async function () {
                 showToast(`${questionsArray.length} soru yüklendi`, 'success');
             }
         }, 100);
-        
+
     } catch (e) {
         console.error(e);
         showToast('Sorular yüklenemedi: ' + e.message, 'error');
@@ -3500,41 +3343,41 @@ window.loadAddQuestions = async function (topicIdOrEvent) {
             .replace(/"/g, '&quot;')
             .replace(/'/g, '&#39;');
     };
-    
+
     console.log('[loadAddQuestions] Starting with topicId:', topicId);
-    
+
     if (!topicId) {
         console.log('[loadAddQuestions] No topicId, hiding section');
         if (questionsSection) questionsSection.style.display = 'none';
         return;
     }
-    
+
     // Show questions section
     if (questionsSection) questionsSection.style.display = 'block';
     if (questionsList) questionsList.innerHTML = '<div class="loading"><span class="material-icons-round">sync</span> Sorular yükleniyor...</div>';
-    
+
     try {
         const url = API + `/questions/${encodeURIComponent(topicId)}`;
         console.log('[loadAddQuestions] Fetching from:', url);
-        
+
         const res = await window.fetchWithTimeout(url);
         console.log('[loadAddQuestions] Response status:', res.status);
-        
+
         if (!res.ok) {
             throw new Error(`HTTP error! status: ${res.status}`);
         }
-        
+
         const questions = await res.json();
         console.log('[loadAddQuestions] Questions data:', typeof questions, Array.isArray(questions) ? questions.length : 'not array');
-        
+
         const questionsArray = Array.isArray(questions) ? questions : (questions.questions || []);
 
         // Give the browser a paint opportunity before the potentially large render.
         await new Promise(requestAnimationFrame);
-        
+
         // Update title with count
         if (questionsTitle) questionsTitle.innerText = `Sorular (${questionsArray.length})`;
-        
+
         // Render questions
         if (questionsArray.length === 0) {
             questionsList.innerHTML = `
@@ -3579,7 +3422,7 @@ window.loadAddQuestions = async function (topicIdOrEvent) {
                         <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.5rem; margin-bottom:0.75rem;">
                             ${(q.o || []).map((opt, i) => `
                                 <div style="display:flex; align-items:center; padding:0.5rem; border-radius:8px; background:${i === q.a ? 'rgba(34,197,94,0.1)' : 'var(--bg-hover)'}; border:1px solid ${i === q.a ? 'rgba(34,197,94,0.3)' : 'var(--border)'};">
-                                    <span style="display:inline-flex; align-items:center; justify-content:center; width:24px; height:24px; border-radius:50%; font-size:0.7rem; font-weight:600; margin-right:0.5rem; background:${i === q.a ? '#22c55e' : 'var(--text-muted)'}; color:white;">${String.fromCharCode(65+i)}</span>
+                                    <span style="display:inline-flex; align-items:center; justify-content:center; width:24px; height:24px; border-radius:50%; font-size:0.7rem; font-weight:600; margin-right:0.5rem; background:${i === q.a ? '#22c55e' : 'var(--text-muted)'}; color:white;">${String.fromCharCode(65 + i)}</span>
                                     <span style="font-size:0.85rem; color:var(--text);">${esc(opt || '')}</span>
                                 </div>
                             `).join('')}
@@ -3601,7 +3444,7 @@ window.loadAddQuestions = async function (topicIdOrEvent) {
             await window.renderHtmlInBatches(questionsList, questionCards, 15);
             console.log('[loadAddQuestions] Render complete. HTML length:', questionsList.innerHTML.length);
         }
-        
+
         // Force visibility after a short delay to ensure DOM has painted
         setTimeout(() => {
             if (questionsSection) questionsSection.style.display = 'block';
@@ -3620,20 +3463,20 @@ window.editAddQuestion = async function (questionId) {
         showToast('Konu seçilmedi', 'error');
         return;
     }
-    
+
     showToast('Soru yükleniyor...', 'info');
-    
+
     try {
         // Fetch the question
         const res = await window.fetchWithTimeout(API + `/questions/${encodeURIComponent(topicId)}/${encodeURIComponent(questionId)}`);
         if (!res.ok) throw new Error('Soru bulunamadı');
-        
+
         const payload = await res.json();
         const question = payload.question || payload;
-        
+
         // Open edit modal with the question data
         window.openEditModal({ ...question, id: question.id || questionId }, topicId);
-        
+
     } catch (e) {
         console.error('Edit error:', e);
         showToast('Soru yüklenemedi: ' + e.message, 'error');
@@ -3644,15 +3487,15 @@ window.editAddQuestion = async function (questionId) {
 window.deleteAddQuestion = async function (questionId) {
     const topicId = document.getElementById('addTopic')?.value;
     if (!topicId) return;
-    
+
     if (!confirm('Soru silinecek. Emin misiniz?')) return;
-    
+
     try {
         const res = await fetch(API + `/questions/${encodeURIComponent(topicId)}/${encodeURIComponent(questionId)}`, {
             method: 'DELETE'
         });
         const data = await res.json();
-        
+
         if (data.success) {
             showToast('Soru silindi', 'success');
             window.loadAddQuestions(); // Refresh list
@@ -3857,7 +3700,7 @@ if (typeof API === 'undefined') {
 window.currentBrowseData = [];
 
 // Initialize browse page
-window.initBrowse = async function() {
+window.initBrowse = async function () {
     await window.loadBrowseTopics();
     // Add topic search input listener if exists
     const searchInput = document.getElementById('browseTopicSearch');
@@ -3867,13 +3710,13 @@ window.initBrowse = async function() {
 };
 
 // Filter topics by search term
-window.filterBrowseTopics = function() {
+window.filterBrowseTopics = function () {
     const searchTerm = document.getElementById('browseTopicSearch')?.value?.toLowerCase() || '';
     const lessonId = document.getElementById('browseLesson')?.value;
     if (!window.topicsCache) return;
-    
+
     let filtered = window.topicsCache;
-    
+
     // Filter by lesson if selected
     if (lessonId) {
         const lessonNameMap = {
@@ -3883,38 +3726,38 @@ window.filterBrowseTopics = function() {
         const lessonName = lessonNameMap[lessonId] || lessonId.toUpperCase();
         filtered = filtered.filter(t => t.lesson === lessonName);
     }
-    
+
     // Filter by search term
     if (searchTerm) {
-        filtered = filtered.filter(t => 
-            t.name.toLowerCase().includes(searchTerm) || 
+        filtered = filtered.filter(t =>
+            t.name.toLowerCase().includes(searchTerm) ||
             t.lesson.toLowerCase().includes(searchTerm) ||
             t.id.toLowerCase().includes(searchTerm)
         );
     }
-    
+
     window.renderBrowseTopics(filtered);
 };
 
 // Load topics when lesson is selected (for Browse page)
-window.loadBrowseTopicsByLesson = async function() {
+window.loadBrowseTopicsByLesson = async function () {
     const lessonId = document.getElementById('browseLesson')?.value;
     const browseTopicsEl = document.getElementById('browseTopics');
-    
+
     if (!browseTopicsEl) return;
-    
+
     if (!lessonId) {
         browseTopicsEl.innerHTML = '<div class="loading"><span class="material-icons-round">sync</span> Önce ders seçin...</div>';
         return;
     }
-    
+
     browseTopicsEl.innerHTML = '<div class="loading"><span class="material-icons-round">sync</span> Konular yükleniyor...</div>';
-    
+
     try {
         const res = await fetch(API + '/topics');
         const topics = await res.json();
         window.topicsCache = topics;
-        
+
         // Filter by selected lesson
         const lessonNameMap = {
             'tarih': 'TARİH', 'cografya': 'COĞRAFYA', 'vatandaslik': 'VATANDAŞLIK',
@@ -3922,7 +3765,7 @@ window.loadBrowseTopicsByLesson = async function() {
         };
         const lessonName = lessonNameMap[lessonId] || lessonId.toUpperCase();
         const filteredTopics = topics.filter(t => t.lesson === lessonName);
-        
+
         window.renderBrowseTopics(filteredTopics);
     } catch (e) {
         console.error('Topics yüklenemedi:', e);
@@ -3988,7 +3831,7 @@ window.loadBrowseTopics = async function () {
 };
 
 // Render topics as clickable cards
-window.renderBrowseTopics = function(topics) {
+window.renderBrowseTopics = function (topics) {
     const container = document.getElementById('browseTopicsList') || document.getElementById('browseTopics');
     if (!container) return;
 
@@ -4014,7 +3857,7 @@ window.renderBrowseTopics = function(topics) {
     `).join('');
 };
 
-window.selectBrowseTopic = function(topicId) {
+window.selectBrowseTopic = function (topicId) {
     const browseTopicsEl = document.getElementById('browseTopics');
     if (browseTopicsEl && browseTopicsEl.tagName === 'SELECT') {
         browseTopicsEl.value = topicId;
@@ -4105,7 +3948,7 @@ window.renderBrowseList = async function (questions, topicId) {
     await window.renderHtmlInBatches(listEl, questionCards, 15);
 };
 
-window.editQuestionById = async function(topicId, questionId, index) {
+window.editQuestionById = async function (topicId, questionId, index) {
     const resolvedTopicId = topicId || window.currentBrowseTopicId;
     const currentList = Array.isArray(window.currentBrowseData) ? window.currentBrowseData : [];
 
@@ -4331,14 +4174,14 @@ window.loadUserDetails = async function (uid) {
             return;
         }
         const u = data.user;
-        const formatDate = (d) => d ? new Date(d).toLocaleString('tr-TR', {day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit'}) : '-';
+        const formatDate = (d) => d ? new Date(d).toLocaleString('tr-TR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '-';
         const formatDateInput = (d) => {
             if (!d) return '';
             const date = new Date(d);
             return date.toISOString().split('T')[0];
         };
         const isPremium = u.isPremium;
-        
+
         // Calculate days left properly
         let daysLeft = 0;
         if (u.premiumEndDate && isPremium) {
@@ -4347,11 +4190,11 @@ window.loadUserDetails = async function (uid) {
             const diffTime = end - now;
             daysLeft = Math.max(0, Math.ceil(diffTime / (1000 * 60 * 60 * 24)));
         }
-        
+
         const statusColor = daysLeft > 7 ? '#10b981' : daysLeft > 0 ? '#f59e0b' : '#ef4444';
         const statusBg = daysLeft > 7 ? 'rgba(16, 185, 129, 0.1)' : daysLeft > 0 ? 'rgba(245, 158, 11, 0.1)' : 'rgba(239, 68, 68, 0.1)';
         const statusBorder = daysLeft > 7 ? 'rgba(16, 185, 129, 0.3)' : daysLeft > 0 ? 'rgba(245, 158, 11, 0.3)' : 'rgba(239, 68, 68, 0.3)';
-        
+
         content.innerHTML = `
         <!-- Profil Kartı -->
         <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 20px; padding: 16px; background: var(--bg); border-radius: 12px; border: 1px solid var(--border);">
@@ -4475,10 +4318,10 @@ window.loadUserDetails = async function (uid) {
 window.setPremiumPlan = async function (uid, months) {
     const endDate = new Date();
     endDate.setMonth(endDate.getMonth() + months);
-    
+
     document.getElementById('premStart_' + uid).value = new Date().toISOString().split('T')[0];
     document.getElementById('premEnd_' + uid).value = endDate.toISOString().split('T')[0];
-    
+
     await savePremiumDates(uid, true);
 };
 
@@ -4486,25 +4329,25 @@ window.setPremiumPlan = async function (uid, months) {
 window.savePremiumDates = async function (uid, isSilent = false) {
     const startDate = document.getElementById('premStart_' + uid)?.value;
     const endDate = document.getElementById('premEnd_' + uid)?.value;
-    
+
     if (!startDate || !endDate) {
         if (!isSilent) showToast('Başlangıç ve bitiş tarihleri gereklidir', 'error');
         return;
     }
-    
+
     try {
         const res = await fetch(API + '/users/premium', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ 
-                uid, 
+            body: JSON.stringify({
+                uid,
                 isPremium: true,
                 premiumStartDate: startDate,
                 premiumEndDate: endDate
             })
         });
         const data = await res.json();
-        
+
         if (data.success) {
             if (!isSilent) showToast('Premium tarihleri güncellendi', 'success');
             await loadUserDetails(uid);
@@ -4521,7 +4364,7 @@ window.savePremiumDates = async function (uid, isSilent = false) {
 window.togglePremiumModal = async function (uid, makePremium) {
     const action = makePremium ? 'Premium aktif edilsin mi?' : 'Premium iptal edilsin mi?';
     if (!confirm(action)) return;
-    
+
     try {
         const res = await fetch(API + '/users/premium', {
             method: 'POST',
@@ -4529,7 +4372,7 @@ window.togglePremiumModal = async function (uid, makePremium) {
             body: JSON.stringify({ uid, isPremium: makePremium })
         });
         const data = await res.json();
-        
+
         if (data.success) {
             showToast(makePremium ? 'Premium aktif edildi' : 'Premium iptal edildi', 'success');
             await loadUserDetails(uid);
@@ -4545,7 +4388,7 @@ window.togglePremiumModal = async function (uid, makePremium) {
 // Admin notunu kaydet
 window.saveAdminNote = async function (uid) {
     const note = document.getElementById('adminNote_' + uid)?.value;
-    
+
     try {
         const res = await fetch(API + '/users/' + uid + '/note', {
             method: 'POST',
@@ -4553,7 +4396,7 @@ window.saveAdminNote = async function (uid) {
             body: JSON.stringify({ note })
         });
         const data = await res.json();
-        
+
         if (data.success) {
             showToast('Not kaydedildi', 'success');
         } else {
@@ -4706,7 +4549,7 @@ window.loadFeedbacks = async function () {
 
 /**
  * KPSS Dashboard - Sync Module
- * Contains logic for Auto-Sync (Local-FS) and Smart Sync (FS-GitHub).
+ * Contains logic for Auto-Sync (Local-FS).
  */
 
 // Ensure API URL is available
@@ -4736,7 +4579,7 @@ window.checkAutoSyncStatus = async function () {
             icon.innerText = 'sync';
             text.style.color = '#22c55e';
             text.innerText = 'Auto-Sync';
-            indicator.title = `Otomatik GitHub Sync AKTİF\nSon: ${data.lastSync}\nSonraki: ${data.nextSync}`;
+            indicator.title = `Otomatik Sync AKTİF\nSon: ${data.lastSync}\nSonraki: ${data.nextSync}`;
         } else {
             indicator.style.background = 'rgba(239, 68, 68, 0.1)';
             indicator.style.borderColor = 'rgba(239, 68, 68, 0.3)';
@@ -4744,7 +4587,7 @@ window.checkAutoSyncStatus = async function () {
             icon.innerText = 'sync_disabled';
             text.style.color = '#ef4444';
             text.innerText = 'Sync OFF';
-            indicator.title = 'Otomatik GitHub Sync DEVRE DIŞI - Tıklayarak aktifleştir';
+            indicator.title = 'Otomatik Sync DEVRE DIŞI - Tıklayarak aktifleştir';
         }
     } catch (e) {
         console.log('Auto-sync status check failed:', e.message);
@@ -4788,72 +4631,6 @@ window.triggerManualSync = async function () {
 };
 
 
-// ══════════════════════════════════════════════════════════════════════════
-// 2. SMART SYNC (GitHub Integration)
-// ══════════════════════════════════════════════════════════════════════════
-
-window.checkGitStatus = async function () {
-    try {
-        const res = await fetch(API + '/git/status');
-        const data = await res.json();
-        if (document.getElementById('gitBranch')) document.getElementById('gitBranch').innerText = data.branch;
-
-        const remoteInfo = document.getElementById('gitRemoteInfo');
-        if (remoteInfo) remoteInfo.innerText = data.remote || 'Ayarlanmamış';
-
-        const list = document.getElementById('gitStatusList');
-        if (!list) return;
-
-        if (data.changes.length === 0) {
-            list.innerHTML = `
-                <div style="text-align:center; margin-top:3rem; color:var(--text-muted); opacity:0.6">
-                    <span class="material-icons-round" style="font-size:3rem">check_circle</span>
-                    <p>Her şey güncel!</p>
-                </div>`;
-            window.updateSyncBtn('idle');
-        } else {
-            window.updateSyncBtn('ready');
-            list.innerHTML = data.changes.map(c => {
-                const type = c.trim().substring(0, 2).trim();
-                const rawFile = c.trim().substring(2).trim();
-                const fileName = rawFile.split('/').pop().replace('.json', '');
-
-                let badgeClass = 'badge-mod';
-                let icon = 'edit_note';
-                if (type.includes('?')) { badgeClass = 'badge-new'; icon = 'note_add'; }
-                if (type.includes('D')) { badgeClass = 'badge-mod'; icon = 'delete'; }
-
-                return `
-                <div class="file-item">
-                    <div class="file-icon"><span class="material-icons-round" style="font-size:1.2rem">${icon}</span></div>
-                    <div class="file-name">${fileName}</div>
-                    <div class="file-badge ${badgeClass}">${type}</div>
-                </div>`
-            }).join('');
-        }
-    } catch (e) { console.error(e); }
-};
-
-window.configureGit = async function () {
-    const current = document.getElementById('gitRemoteInfo')?.innerText || '';
-    const newUrl = prompt("Yeni GitHub Repository URL'ini girin:", current);
-
-    if (!newUrl || newUrl === current) return;
-
-    try {
-        const res = await fetch(API + '/git/set-remote', {
-            method: 'POST', headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ url: newUrl })
-        });
-        const data = await res.json();
-        if (data.success) {
-            showToast('Remote URL güncellendi!', 'success');
-            checkGitStatus();
-        } else {
-            showToast('Hata: ' + data.error, 'error');
-        }
-    } catch (e) { showToast('Ayarlama hatası', 'error'); }
-};
 
 window.smartSync = async function () {
     const btn = document.getElementById('syncBtn');
@@ -4948,37 +4725,7 @@ window.updateSyncBtn = function (state) {
 // MODULE PUBLISH FUNCTION
 // ══════════════════════════════════════════════════════════════════════════
 
-window.publishModule = async function(module) {
-    try {
-        const btn = event.target;
-        const originalText = btn.innerHTML;
-        btn.innerHTML = '<span class="material-icons-round">sync</span> Yükleniyor...';
-        btn.disabled = true;
 
-        const response = await fetch(API + '/publish-to-github', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ module })
-        });
-
-        const data = await response.json();
-
-        if (data.success) {
-            showToast(`${module} başarıyla GitHub'a pushlandı`, 'success');
-        } else {
-            showToast(data.error || 'Push başarısız', 'error');
-        }
-    } catch (error) {
-        console.error('Publish error:', error);
-        showToast('GitHub push hatası', 'error');
-    } finally {
-        const btn = event.target;
-        btn.innerHTML = originalText;
-        btn.disabled = false;
-    }
-};
 
 // ══════════════════════════════════════════════════════════════════════════
 // INITIALIZATION
@@ -5619,13 +5366,13 @@ async function loadFlashcardFiles() {
     try {
         const response = await fetch(API + '/flashcards');
         const data = await response.json();
-        
+
         console.log('[Flashcards] Response:', data);
-        
+
         if (data.success) {
             const select = document.getElementById('flashcardFile');
             select.innerHTML = '<option value="">Set seçin...</option>';
-            
+
             console.log('[Flashcards] Files to add:', data.flashcards.length);
             data.flashcards.forEach(file => {
                 const option = document.createElement('option');
@@ -5644,18 +5391,18 @@ async function loadFlashcardFiles() {
 async function loadFlashcardFile() {
     const select = document.getElementById('flashcardFile');
     const filename = select.value;
-    
+
     if (!filename) {
         document.getElementById('flashcardEditor').value = '';
         currentFlashcardFile = null;
         flashcardData = [];
         return;
     }
-    
+
     try {
         const response = await fetch(API + `/flashcards/${filename}`);
         const data = await response.json();
-        
+
         if (data.success) {
             currentFlashcardFile = filename;
             flashcardData = data.cards;
@@ -5673,24 +5420,24 @@ async function saveFlashcards() {
         showToast('Önce bir flashcard seti seçin', 'warning');
         return;
     }
-    
+
     const editor = document.getElementById('flashcardEditor');
     const jsonText = editor.value.trim();
-    
+
     if (!jsonText) {
         showToast('JSON verisi girin', 'warning');
         return;
     }
-    
+
     try {
         const cards = JSON.parse(jsonText);
-        
+
         // Validate structure
         if (!Array.isArray(cards)) {
             showToast('Flashcard verisi bir dizi olmalı', 'error');
             return;
         }
-        
+
         for (let i = 0; i < cards.length; i++) {
             const card = cards[i];
             if (!card.question || !card.answer) {
@@ -5698,7 +5445,7 @@ async function saveFlashcards() {
                 return;
             }
         }
-        
+
         // Save entire array to server
         const response = await fetch(API + `/flashcards/${currentFlashcardFile}/save`, {
             method: 'POST',
@@ -5707,9 +5454,9 @@ async function saveFlashcards() {
             },
             body: JSON.stringify({ cards })
         });
-        
+
         const data = await response.json();
-        
+
         if (data.success) {
             showToast('Flashcards kaydedildi', 'success');
             flashcardData = cards;
@@ -5732,23 +5479,23 @@ async function saveFlashcards() {
 function validateFlashcards() {
     const editor = document.getElementById('flashcardEditor');
     const jsonText = editor.value.trim();
-    
+
     if (!jsonText) {
         showToast('JSON verisi girin', 'warning');
         return;
     }
-    
+
     try {
         const cards = JSON.parse(jsonText);
-        
+
         if (!Array.isArray(cards)) {
             showToast('Flashcard verisi bir dizi olmalı', 'error');
             return;
         }
-        
+
         let errors = [];
         let warnings = [];
-        
+
         cards.forEach((card, index) => {
             if (!card.question) {
                 errors.push(`Kart ${index + 1}: question alanı eksik`);
@@ -5763,7 +5510,7 @@ function validateFlashcards() {
                 warnings.push(`Kart ${index + 1}: answer çok kısa`);
             }
         });
-        
+
         if (errors.length > 0) {
             showToast('Hatalar: ' + errors.join(', '), 'error');
         } else if (warnings.length > 0) {
@@ -5809,11 +5556,11 @@ async function loadStoryFiles() {
     try {
         const response = await fetch('/stories');
         const data = await response.json();
-        
+
         if (data.success) {
             const select = document.getElementById('storyFile');
             select.innerHTML = '<option value="">Dosya seçin...</option>';
-            
+
             data.stories.forEach(file => {
                 const option = document.createElement('option');
                 option.value = file.filename;
@@ -5830,18 +5577,18 @@ async function loadStoryFiles() {
 async function loadStoryFile() {
     const select = document.getElementById('storyFile');
     const filename = select.value;
-    
+
     if (!filename) {
         document.getElementById('storyEditor').value = '';
         currentStoryFile = null;
         storyData = [];
         return;
     }
-    
+
     try {
         const response = await fetch(`/stories/${filename}`);
         const data = await response.json();
-        
+
         if (data.success) {
             currentStoryFile = filename;
             storyData = data.stories;
@@ -5859,24 +5606,24 @@ async function saveStories() {
         showToast('Önce bir hikaye dosyası seçin', 'warning');
         return;
     }
-    
+
     const editor = document.getElementById('storyEditor');
     const jsonText = editor.value.trim();
-    
+
     if (!jsonText) {
         showToast('JSON verisi girin', 'warning');
         return;
     }
-    
+
     try {
         const stories = JSON.parse(jsonText);
-        
+
         // Validate structure
         if (!Array.isArray(stories)) {
             showToast('Hikaye verisi bir dizi olmalı', 'error');
             return;
         }
-        
+
         for (let i = 0; i < stories.length; i++) {
             const story = stories[i];
             if (!story.title || !story.content) {
@@ -5884,7 +5631,7 @@ async function saveStories() {
                 return;
             }
         }
-        
+
         // Save entire array to server
         const response = await fetch(`/stories/${currentStoryFile}/save`, {
             method: 'POST',
@@ -5893,9 +5640,9 @@ async function saveStories() {
             },
             body: JSON.stringify({ stories })
         });
-        
+
         const data = await response.json();
-        
+
         if (data.success) {
             showToast('Hikayeler kaydedildi', 'success');
             storyData = stories;
@@ -5918,23 +5665,23 @@ async function saveStories() {
 function validateStories() {
     const editor = document.getElementById('storyEditor');
     const jsonText = editor.value.trim();
-    
+
     if (!jsonText) {
         showToast('JSON verisi girin', 'warning');
         return;
     }
-    
+
     try {
         const stories = JSON.parse(jsonText);
-        
+
         if (!Array.isArray(stories)) {
             showToast('Hikaye verisi bir dizi olmalı', 'error');
             return;
         }
-        
+
         let errors = [];
         let warnings = [];
-        
+
         stories.forEach((story, index) => {
             if (!story.title) {
                 errors.push(`Hikaye ${index + 1}: title alanı eksik`);
@@ -5952,7 +5699,7 @@ function validateStories() {
                 errors.push(`Hikaye ${index + 1}: keyPoints bir dizi olmalı`);
             }
         });
-        
+
         if (errors.length > 0) {
             showToast('Hatalar: ' + errors.join(', '), 'error');
         } else if (warnings.length > 0) {
@@ -5998,11 +5745,11 @@ async function loadExplanationFiles() {
     try {
         const response = await fetch('/explanations');
         const data = await response.json();
-        
+
         if (data.success) {
             const select = document.getElementById('explanationFile');
             select.innerHTML = '<option value="">Dosya seçin...</option>';
-            
+
             data.explanations.forEach(file => {
                 const option = document.createElement('option');
                 option.value = file.filename;
@@ -6019,18 +5766,18 @@ async function loadExplanationFiles() {
 async function loadExplanationFile() {
     const select = document.getElementById('explanationFile');
     const filename = select.value;
-    
+
     if (!filename) {
         document.getElementById('explanationEditor').value = '';
         currentExplanationFile = null;
         explanationData = [];
         return;
     }
-    
+
     try {
         const response = await fetch(`/explanations/${filename}`);
         const data = await response.json();
-        
+
         if (data.success) {
             currentExplanationFile = filename;
             explanationData = data.explanations;
@@ -6048,24 +5795,24 @@ async function saveExplanations() {
         showToast('Önce bir açıklama dosyası seçin', 'warning');
         return;
     }
-    
+
     const editor = document.getElementById('explanationEditor');
     const jsonText = editor.value.trim();
-    
+
     if (!jsonText) {
         showToast('JSON verisi girin', 'warning');
         return;
     }
-    
+
     try {
         const explanations = JSON.parse(jsonText);
-        
+
         // Validate structure
         if (!Array.isArray(explanations)) {
             showToast('Açıklama verisi bir dizi olmalı', 'error');
             return;
         }
-        
+
         for (let i = 0; i < explanations.length; i++) {
             const explanation = explanations[i];
             if (!explanation.topicId || !explanation.title || !explanation.content) {
@@ -6073,7 +5820,7 @@ async function saveExplanations() {
                 return;
             }
         }
-        
+
         // Save entire array to server using PUT endpoint
         const response = await fetch(`/explanations/${currentExplanationFile}/save`, {
             method: 'POST',
@@ -6082,9 +5829,9 @@ async function saveExplanations() {
             },
             body: JSON.stringify({ explanations })
         });
-        
+
         const data = await response.json();
-        
+
         if (data.success) {
             showToast('Açıklamalar kaydedildi', 'success');
             explanationData = explanations;
@@ -6107,23 +5854,23 @@ async function saveExplanations() {
 function validateExplanations() {
     const editor = document.getElementById('explanationEditor');
     const jsonText = editor.value.trim();
-    
+
     if (!jsonText) {
         showToast('JSON verisi girin', 'warning');
         return;
     }
-    
+
     try {
         const explanations = JSON.parse(jsonText);
-        
+
         if (!Array.isArray(explanations)) {
             showToast('Açıklama verisi bir dizi olmalı', 'error');
             return;
         }
-        
+
         let errors = [];
         let warnings = [];
-        
+
         explanations.forEach((explanation, index) => {
             if (!explanation.topicId) {
                 errors.push(`Açıklama ${index + 1}: topicId alanı eksik`);
@@ -6147,7 +5894,7 @@ function validateExplanations() {
                 warnings.push(`Açıklama ${index + 1}: geçersiz difficulty`);
             }
         });
-        
+
         if (errors.length > 0) {
             showToast('Hatalar: ' + errors.join(', '), 'error');
         } else if (warnings.length > 0) {
@@ -6193,11 +5940,11 @@ async function loadMatchingGameFiles() {
     try {
         const response = await fetch('/matching-games');
         const data = await response.json();
-        
+
         if (data.success) {
             const select = document.getElementById('matchingGameFile');
             select.innerHTML = '<option value="">Dosya seçin...</option>';
-            
+
             data.games.forEach(file => {
                 const option = document.createElement('option');
                 option.value = file.filename;
@@ -6214,18 +5961,18 @@ async function loadMatchingGameFiles() {
 async function loadMatchingGameFile() {
     const select = document.getElementById('matchingGameFile');
     const filename = select.value;
-    
+
     if (!filename) {
         document.getElementById('matchingGameEditor').value = '';
         currentMatchingGameFile = null;
         matchingGameData = [];
         return;
     }
-    
+
     try {
         const response = await fetch(`/matching-games/${filename}`);
         const data = await response.json();
-        
+
         if (data.success) {
             currentMatchingGameFile = filename;
             matchingGameData = data.games;
@@ -6243,24 +5990,24 @@ async function saveMatchingGames() {
         showToast('Önce bir oyun dosyası seçin', 'warning');
         return;
     }
-    
+
     const editor = document.getElementById('matchingGameEditor');
     const jsonText = editor.value.trim();
-    
+
     if (!jsonText) {
         showToast('JSON verisi girin', 'warning');
         return;
     }
-    
+
     try {
         const games = JSON.parse(jsonText);
-        
+
         // Validate structure
         if (!Array.isArray(games)) {
             showToast('Oyun verisi bir dizi olmalı', 'error');
             return;
         }
-        
+
         for (let i = 0; i < games.length; i++) {
             const game = games[i];
             if (!game.title || !game.question || !game.pairs) {
@@ -6272,7 +6019,7 @@ async function saveMatchingGames() {
                 return;
             }
         }
-        
+
         // Save entire array to server
         const response = await fetch(`/matching-games/${currentMatchingGameFile}/save`, {
             method: 'POST',
@@ -6281,9 +6028,9 @@ async function saveMatchingGames() {
             },
             body: JSON.stringify({ games })
         });
-        
+
         const data = await response.json();
-        
+
         if (data.success) {
             showToast('Eşleştirme oyunları kaydedildi', 'success');
             matchingGameData = games;
@@ -6306,23 +6053,23 @@ async function saveMatchingGames() {
 function validateMatchingGames() {
     const editor = document.getElementById('matchingGameEditor');
     const jsonText = editor.value.trim();
-    
+
     if (!jsonText) {
         showToast('JSON verisi girin', 'warning');
         return;
     }
-    
+
     try {
         const games = JSON.parse(jsonText);
-        
+
         if (!Array.isArray(games)) {
             showToast('Oyun verisi bir dizi olmalı', 'error');
             return;
         }
-        
+
         let errors = [];
         let warnings = [];
-        
+
         games.forEach((game, index) => {
             if (!game.title) {
                 errors.push(`Oyun ${index + 1}: title alanı eksik`);
@@ -6356,7 +6103,7 @@ function validateMatchingGames() {
                 warnings.push(`Oyun ${index + 1}: geçersiz difficulty`);
             }
         });
-        
+
         if (errors.length > 0) {
             showToast('Hatalar: ' + errors.join(', '), 'error');
         } else if (warnings.length > 0) {
@@ -6472,15 +6219,10 @@ window.saveUpdateConfig = async function () {
             throw new Error(data.error || 'Bilinmeyen hata');
         }
 
-        // Git result
-        const gitMsg = data.git?.pushed
-            ? '✅ GitHub\'a gönderildi'
-            : `⚠️ Git: ${data.git?.message || 'Push yapılamadı'}`;
-
         document.getElementById('updateStatus').innerHTML = `
             <div style="color:#22c55e; display:flex; align-items:center; gap:0.5rem">
                 <span class="material-icons-round">check_circle</span>
-                Kaydedildi! ${gitMsg}
+                Kaydedildi!
             </div>`;
 
         // Update last_updated display
@@ -6510,7 +6252,7 @@ window.fetchCurrentVersion = async function () {
     try {
         const res = await fetch(`${API}/api/update/current-version`);
         const data = await res.json();
-        
+
         if (data.success && data.version) {
             document.getElementById('android_latest_version').value = data.version;
             document.getElementById('ios_latest_version').value = data.version;
@@ -6610,9 +6352,7 @@ window.showPage = function (pageId) {
         if (pageId === 'drafts') {
             if (window.loadAllDrafts) window.loadAllDrafts();
         }
-        if (pageId === 'github') {
-            if (window.initGithubPage) window.initGithubPage();
-        }
+
         if (pageId === 'content-stats') {
             if (window.initContentStatsPage) window.initContentStatsPage();
         }
@@ -6645,7 +6385,7 @@ window.loadForceUpdateConfig = async function () {
             banner.innerHTML = `<span class="material-icons-round" style="color:#818cf8">info</span>
                 <span style="font-size:0.85rem;color:#94a3b8">Mevcut pubspec versiyonu: <strong style="color:#e2e8f0">${vd.version}</strong></span>`;
         }
-    } catch (_) {}
+    } catch (_) { }
 
     // Fetch app_update.json config
     try {
@@ -6732,7 +6472,7 @@ window.saveForceUpdateConfig = async function () {
     statusEl.style.background = 'rgba(99,102,241,0.1)';
     statusEl.style.border = '1px solid rgba(99,102,241,0.3)';
     statusEl.style.color = '#a5b4fc';
-    statusEl.textContent = '⏳ Kaydediliyor ve GitHub\'a push ediliyor...';
+    statusEl.textContent = '⏳ Kaydediliyor...';
 
     try {
         const r = await fetch(`${window.API}/api/update/config`, {
@@ -6743,11 +6483,10 @@ window.saveForceUpdateConfig = async function () {
         const d = await r.json();
 
         if (d.success) {
-            const gitMsg = d.git?.pushed ? `✅ GitHub'a push edildi.` : `⚠️ Push hatası: ${d.git?.message}`;
-            statusEl.style.background = d.git?.pushed ? 'rgba(52,211,153,0.1)' : 'rgba(251,191,36,0.1)';
-            statusEl.style.border = d.git?.pushed ? '1px solid rgba(52,211,153,0.3)' : '1px solid rgba(251,191,36,0.3)';
-            statusEl.style.color = d.git?.pushed ? '#6ee7b7' : '#fde68a';
-            statusEl.textContent = `✅ app_update.json kaydedildi. ${gitMsg}`;
+            statusEl.style.background = 'rgba(52,211,153,0.1)';
+            statusEl.style.border = '1px solid rgba(52,211,153,0.3)';
+            statusEl.style.color = '#6ee7b7';
+            statusEl.textContent = `✅ app_update.json kaydedildi.`;
         } else {
             statusEl.style.background = 'rgba(239,68,68,0.1)';
             statusEl.style.border = '1px solid rgba(239,68,68,0.3)';
@@ -6870,8 +6609,8 @@ function _modRenderTree(files) {
           </div>
           <div class="mod-lesson-topics">
             ${topics.map(t => {
-                const isActive = _modulesPageFile === t.file;
-                return `<div onclick="loadModuleFile('${t.file}')"
+            const isActive = _modulesPageFile === t.file;
+            return `<div onclick="loadModuleFile('${t.file}')"
                   style="padding:9px 14px 9px 38px;cursor:pointer;display:flex;align-items:center;gap:8px;
                          border-bottom:1px solid var(--border);transition:background 0.12s;
                          background:${isActive ? `${color}18` : 'transparent'};"
@@ -6883,7 +6622,7 @@ function _modRenderTree(files) {
                   <span style="font-size:0.82rem;color:${isActive ? color : 'var(--text)'};font-weight:${isActive ? '600' : '400'};
                                flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${t.name}</span>
                 </div>`;
-            }).join('')}
+        }).join('')}
           </div>
         </div>`;
     }).join('');
@@ -6892,14 +6631,14 @@ function _modRenderTree(files) {
 
 // ─── Page init / type switch ───────────────────────────────────────────────
 
-window.initModulesPage = async function() {
+window.initModulesPage = async function () {
     if (!_modulesPageType) _modulesPageType = 'explanations';
     _modUpdateTabStyles(_modulesPageType);
     if (_modulesTopics.length === 0) await _modLoadTopics();
     await refreshModuleFiles();
 };
 
-window.selectModuleType = async function(type) {
+window.selectModuleType = async function (type) {
     _modulesPageType = type;
     _modulesPageFile = null;
     window._modulesPageFile = null;
@@ -6909,7 +6648,7 @@ window.selectModuleType = async function(type) {
     await refreshModuleFiles();
 };
 
-window.refreshModuleFiles = async function() {
+window.refreshModuleFiles = async function () {
     const treeEl = document.getElementById('modLessonTree');
     if (!treeEl) return;
     treeEl.innerHTML = `<div style="padding:16px;display:flex;align-items:center;gap:8px;color:var(--text-muted);font-size:0.82rem;">
@@ -6937,7 +6676,7 @@ function _modShowItemPanel(state) {
 
 // ─── Load file → render items ──────────────────────────────────────────────
 
-window.loadModuleFile = async function(filename) {
+window.loadModuleFile = async function (filename) {
     _modulesPageFile = filename;
     window._modulesPageFile = filename;
 
@@ -6981,25 +6720,25 @@ function _modRenderItems() {
 
 // ─── Item card + inline editor ─────────────────────────────────────────────
 
-const _BLOCK_COLORS = { heading:'#6366f1', text:'#64748b', bulletList:'#0ea5e9', highlighted:'#f59e0b', example:'#22c55e', tip:'#a78bfa' };
+const _BLOCK_COLORS = { heading: '#6366f1', text: '#64748b', bulletList: '#0ea5e9', highlighted: '#f59e0b', example: '#22c55e', tip: '#a78bfa' };
 
 function _modItemCard(item, i) {
     const type = _modulesPageType;
     let summary = '';
     if (type === 'flashcards' || type === 'matching_games') {
         summary = `<div style="font-size:0.85rem;font-weight:500;color:var(--text);line-height:1.4;">${item.question || '<em style="opacity:0.5">Soru yok</em>'}</div>
-                   <div style="font-size:0.75rem;color:var(--text-muted);margin-top:3px;">${(item.answer||'').substring(0,80)}${(item.answer||'').length>80?'…':''}</div>`;
+                   <div style="font-size:0.75rem;color:var(--text-muted);margin-top:3px;">${(item.answer || '').substring(0, 80)}${(item.answer || '').length > 80 ? '…' : ''}</div>`;
     } else if (type === 'explanations') {
         summary = `<div style="font-size:0.85rem;font-weight:500;color:var(--text);">${item.title || '<em style="opacity:0.5">Başlık yok</em>'}</div>
-                   <div style="font-size:0.75rem;color:var(--text-muted);margin-top:3px;">${item.difficulty||'medium'} · ${(item.content||[]).length} blok</div>`;
+                   <div style="font-size:0.75rem;color:var(--text-muted);margin-top:3px;">${item.difficulty || 'medium'} · ${(item.content || []).length} blok</div>`;
     } else if (type === 'stories') {
         summary = `<div style="font-size:0.85rem;font-weight:500;color:var(--text);">${item.title || '<em style="opacity:0.5">Başlık yok</em>'}</div>
-                   <div style="font-size:0.75rem;color:var(--text-muted);margin-top:3px;">${(item.key_points||[]).length} anahtar nokta · ${Math.round((item.content||'').length/1000)}k karakter</div>`;
+                   <div style="font-size:0.75rem;color:var(--text-muted);margin-top:3px;">${(item.key_points || []).length} anahtar nokta · ${Math.round((item.content || '').length / 1000)}k karakter</div>`;
     }
 
     return `<div id="mod-item-${i}" style="border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:8px;">
       <div style="padding:11px 14px;display:flex;align-items:center;gap:10px;background:var(--bg-card);">
-        <span style="background:var(--primary);color:white;border-radius:6px;padding:2px 8px;font-size:0.7rem;font-weight:700;flex-shrink:0;">${i+1}</span>
+        <span style="background:var(--primary);color:white;border-radius:6px;padding:2px 8px;font-size:0.7rem;font-weight:700;flex-shrink:0;">${i + 1}</span>
         <div style="flex:1;min-width:0;">${summary}</div>
         <div style="display:flex;gap:5px;flex-shrink:0;">
           <button onclick="editModuleItem(${i})"
@@ -7027,12 +6766,12 @@ function _modEditorForm(item, i) {
         <div style="margin-bottom:12px;">
           <label style="font-size:0.72rem;font-weight:700;color:var(--text-muted);display:block;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.05em;">${label}</label>
           ${rows === 1
-            ? `<input type="text" id="mod-f-${i}-${id}" value="${String(val||'').replace(/"/g,'&quot;').replace(/\n/g,' ')}"
+            ? `<input type="text" id="mod-f-${i}-${id}" value="${String(val || '').replace(/"/g, '&quot;').replace(/\n/g, ' ')}"
                  style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:8px;background:var(--bg-card);color:var(--text);font-size:0.85rem;outline:none;box-sizing:border-box;"
                  onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'">`
             : `<textarea id="mod-f-${i}-${id}" rows="${rows}"
                  style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:8px;background:var(--bg-card);color:var(--text);font-size:0.85rem;resize:vertical;outline:none;font-family:inherit;box-sizing:border-box;"
-                 onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'">${String(val||'').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</textarea>`}
+                 onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'">${String(val || '').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</textarea>`}
         </div>`;
 
     const actions = `<div style="display:flex;justify-content:flex-end;gap:8px;margin-top:4px;">
@@ -7049,12 +6788,12 @@ function _modEditorForm(item, i) {
         return field('question', 'Soru', 3, item.question) + field('answer', 'Cevap', 3, item.answer) + field('additionalInfo', 'Ek Bilgi (opsiyonel)', 2, item.additionalInfo) + actions;
     }
     if (type === 'explanations') {
-        const blocks = (item.content||[]).map((b, bi) => `
+        const blocks = (item.content || []).map((b, bi) => `
           <div data-bi="${bi}" style="display:flex;gap:8px;align-items:flex-start;margin-bottom:8px;">
-            <span style="padding:3px 7px;border-radius:5px;font-size:0.62rem;font-weight:700;background:${_BLOCK_COLORS[b.type]||'#64748b'}22;color:${_BLOCK_COLORS[b.type]||'#64748b'};white-space:nowrap;margin-top:6px;min-width:64px;text-align:center;" data-block-type="${b.type||'text'}">${b.type||'text'}</span>
+            <span style="padding:3px 7px;border-radius:5px;font-size:0.62rem;font-weight:700;background:${_BLOCK_COLORS[b.type] || '#64748b'}22;color:${_BLOCK_COLORS[b.type] || '#64748b'};white-space:nowrap;margin-top:6px;min-width:64px;text-align:center;" data-block-type="${b.type || 'text'}">${b.type || 'text'}</span>
             <textarea class="mod-block-ta" data-index="${i}" rows="3"
               style="flex:1;padding:8px 10px;border:1px solid var(--border);border-radius:8px;background:var(--bg-card);color:var(--text);font-size:0.82rem;resize:vertical;outline:none;font-family:inherit;"
-              onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'">${String(b.text||'').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</textarea>
+              onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'">${String(b.text || '').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</textarea>
             <button onclick="this.closest('[data-bi]').remove()" style="margin-top:6px;padding:4px;border:none;background:transparent;color:#ef4444;cursor:pointer;">
               <span class="material-icons-round" style="font-size:15px;">close</span>
             </button>
@@ -7065,9 +6804,9 @@ function _modEditorForm(item, i) {
             <div>
               <label style="font-size:0.72rem;font-weight:700;color:var(--text-muted);display:block;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.05em;">Zorluk</label>
               <select id="mod-f-${i}-difficulty" style="padding:8px 10px;border:1px solid var(--border);border-radius:8px;background:var(--bg-card);color:var(--text);font-size:0.85rem;outline:none;">
-                <option value="easy" ${item.difficulty==='easy'?'selected':''}>Kolay</option>
-                <option value="medium" ${(!item.difficulty||item.difficulty==='medium')?'selected':''}>Orta</option>
-                <option value="hard" ${item.difficulty==='hard'?'selected':''}>Zor</option>
+                <option value="easy" ${item.difficulty === 'easy' ? 'selected' : ''}>Kolay</option>
+                <option value="medium" ${(!item.difficulty || item.difficulty === 'medium') ? 'selected' : ''}>Orta</option>
+                <option value="hard" ${item.difficulty === 'hard' ? 'selected' : ''}>Zor</option>
               </select>
             </div>
           </div>
@@ -7079,10 +6818,10 @@ function _modEditorForm(item, i) {
           ${actions}`;
     }
     if (type === 'stories') {
-        const kpRows = (item.key_points||[]).map((kp, ki) => `
+        const kpRows = (item.key_points || []).map((kp, ki) => `
           <div style="display:flex;gap:8px;align-items:center;margin-bottom:6px;">
             <span style="color:var(--primary);font-size:1rem;flex-shrink:0;">•</span>
-            <input type="text" class="mod-kp-input" data-index="${i}" value="${String(kp).replace(/"/g,'&quot;')}"
+            <input type="text" class="mod-kp-input" data-index="${i}" value="${String(kp).replace(/"/g, '&quot;')}"
               style="flex:1;padding:6px 10px;border:1px solid var(--border);border-radius:7px;background:var(--bg-card);color:var(--text);font-size:0.82rem;outline:none;"
               onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'">
             <button onclick="this.closest('div').remove()" style="padding:3px;border:none;background:transparent;color:#ef4444;cursor:pointer;">
@@ -7102,7 +6841,7 @@ function _modEditorForm(item, i) {
 
 // ─── Edit / Cancel / Save / Delete / Add ──────────────────────────────────
 
-window.editModuleItem = function(index) {
+window.editModuleItem = function (index) {
     document.querySelectorAll('[id^="mod-editor-"]').forEach(el => { el.style.display = 'none'; });
     const ed = document.getElementById(`mod-editor-${index}`);
     if (ed) {
@@ -7111,12 +6850,12 @@ window.editModuleItem = function(index) {
     }
 };
 
-window.cancelEditModuleItem = function(index) {
+window.cancelEditModuleItem = function (index) {
     const ed = document.getElementById(`mod-editor-${index}`);
     if (ed) ed.style.display = 'none';
 };
 
-window.saveModuleItem = async function(index) {
+window.saveModuleItem = async function (index) {
     const type = _modulesPageType;
     const item = JSON.parse(JSON.stringify(_modulesCurrentItems[index]));
     const g = (id) => document.getElementById(`mod-f-${index}-${id}`)?.value ?? '';
@@ -7162,22 +6901,22 @@ async function _modSaveCurrentItems() {
     if (!data.success) throw new Error(data.error || 'Bilinmeyen hata');
 }
 
-window.deleteModuleItem = async function(index) {
-    if (!confirm(`${index+1}. öğeyi silmek istediğinize emin misiniz?`)) return;
+window.deleteModuleItem = async function (index) {
+    if (!confirm(`${index + 1}. öğeyi silmek istediğinize emin misiniz?`)) return;
     _modulesCurrentItems.splice(index, 1);
     try { await _modSaveCurrentItems(); _modRenderItems(); showToast('Silindi', 'success'); }
     catch (e) { showToast('Hata: ' + e.message, 'error'); _modulesCurrentItems.splice(index, 0, _modulesCurrentItems[index]); }
 };
 
-window.addNewModuleItem = function() {
+window.addNewModuleItem = function () {
     const type = _modulesPageType;
     const topicId = (_modulesPageFile || '').replace('.json', '');
     const ts = Date.now();
     const defaults = {
-        flashcards:     { topicId, question: '', answer: '', additionalInfo: '', id: `flash_${ts}_new` },
+        flashcards: { topicId, question: '', answer: '', additionalInfo: '', id: `flash_${ts}_new` },
         matching_games: { topicId, question: '', answer: '', id: `match_${ts}_new` },
-        explanations:   { topicId, title: 'Yeni Bölüm', content: [{ type: 'text', text: '' }], difficulty: 'medium', type: 'detailed', id: `exp_${ts}_new` },
-        stories:        { topicId, title: 'Yeni Bölüm', content: '', key_points: [], type: 'story', id: `story_${ts}_new` }
+        explanations: { topicId, title: 'Yeni Bölüm', content: [{ type: 'text', text: '' }], difficulty: 'medium', type: 'detailed', id: `exp_${ts}_new` },
+        stories: { topicId, title: 'Yeni Bölüm', content: '', key_points: [], type: 'story', id: `story_${ts}_new` }
     };
     _modulesCurrentItems.push(defaults[type] || { topicId, id: `item_${ts}` });
     _modRenderItems();
@@ -7188,7 +6927,7 @@ window.addNewModuleItem = function() {
     }, 80);
 };
 
-window.addExpBlock = function(index) {
+window.addExpBlock = function (index) {
     const container = document.getElementById(`mod-blocks-${index}`);
     if (!container) return;
     const bi = container.children.length;
@@ -7206,7 +6945,7 @@ window.addExpBlock = function(index) {
     container.appendChild(div);
 };
 
-window.addKeyPoint = function(index) {
+window.addKeyPoint = function (index) {
     const container = document.getElementById(`mod-keypoints-${index}`);
     if (!container) return;
     const div = document.createElement('div');
@@ -7265,7 +7004,7 @@ window.qualityCheck = (() => {
     // ── helpers ──────────────────────────────────────────────────────────────
 
     function escapeHtml(str) {
-        return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
     }
 
     function toast(msg, type = 'success') {
@@ -7281,7 +7020,7 @@ window.qualityCheck = (() => {
     function setLoading(on) {
         document.getElementById('qc-loading').style.display = on ? 'block' : 'none';
         if (on) document.getElementById('qc-results').innerHTML = '';
-        ['qc-run-local','qc-run-github'].forEach(id => {
+        ['qc-run-local'].forEach(id => {
             const el = document.getElementById(id);
             if (el) el.disabled = on;
         });
@@ -7291,31 +7030,22 @@ window.qualityCheck = (() => {
     // ── summary ───────────────────────────────────────────────────────────────
 
     function renderSummary(s, source) {
-        document.getElementById('qc-stat-topics').textContent    = s.totalTopics;
+        document.getElementById('qc-stat-topics').textContent = s.totalTopics;
         document.getElementById('qc-stat-questions').textContent = s.totalQuestions.toLocaleString();
-        document.getElementById('qc-stat-clean').textContent     = s.cleanTopics;
-        document.getElementById('qc-stat-errors').textContent    = s.totalErrors;
-        document.getElementById('qc-stat-warns').textContent     = s.totalWarns;
-        document.getElementById('qc-summary').style.display      = 'grid';
+        document.getElementById('qc-stat-clean').textContent = s.cleanTopics;
+        document.getElementById('qc-stat-errors').textContent = s.totalErrors;
+        document.getElementById('qc-stat-warns').textContent = s.totalWarns;
+        document.getElementById('qc-summary').style.display = 'grid';
 
-        // Global aksiyon butonları — sadece local taramada düzelt/sil yapılabilir
-        const fixBtn    = document.getElementById('qc-fix-btn');
+        // Global aksiyon butonları
+        const fixBtn = document.getElementById('qc-fix-btn');
         const removeBtn = document.getElementById('qc-remove-btn');
-        const pushBtn   = document.getElementById('qc-push-btn');
-        const githubNote = document.getElementById('qc-github-note');
         if (source === 'local') {
-            const hasIssues = s.totalWarns > 0 || s.totalErrors > 0;
-            if (fixBtn)    fixBtn.style.display    = s.totalWarns  > 0 ? 'flex' : 'none';
+            if (fixBtn) fixBtn.style.display = s.totalWarns > 0 ? 'flex' : 'none';
             if (removeBtn) removeBtn.style.display = s.totalErrors > 0 ? 'flex' : 'none';
-            // Push butonu: her zaman göster (temiz de olsa push edilebilir) ama sadece son işlemden sonra
-            if (pushBtn)   pushBtn.style.display   = _pendingPush ? 'flex' : 'none';
-            if (githubNote) githubNote.style.display = 'none';
         } else {
-            // GitHub taraması — butonları gizle, açıklama göster
-            if (fixBtn)    fixBtn.style.display    = 'none';
+            if (fixBtn) fixBtn.style.display = 'none';
             if (removeBtn) removeBtn.style.display = 'none';
-            if (pushBtn)   pushBtn.style.display   = 'none';
-            if (githubNote) githubNote.style.display = (s.totalErrors > 0 || s.totalWarns > 0) ? 'flex' : 'none';
         }
     }
 
@@ -7328,7 +7058,7 @@ window.qualityCheck = (() => {
     }
 
     function actionButtons(r, source) {
-        if (source !== 'local') return ''; // GitHub taramasında düzeltme yapılamaz
+        if (source !== 'local') return ''; // Sadece yerel dosyalarda düzeltme yapılabilir
         const btns = [];
 
         const hasPrefixWarns = r.issues && r.issues.some(i => i.severity === 'warn' && i.msg.includes('prefix'));
@@ -7347,7 +7077,7 @@ window.qualityCheck = (() => {
             btns.push(`<button onclick="qualityCheck.removeBrokenQuestions('${r.topicId}', this)"
                 style="background:rgba(239,68,68,.15);border:1px solid rgba(239,68,68,.4);color:#f87171;
                        padding:4px 10px;border-radius:6px;cursor:pointer;font-size:12px;display:flex;align-items:center;gap:4px;white-space:nowrap">
-                <span class="material-icons-round" style="font-size:14px">delete_sweep</span>Bozukları Sil (${r.issues.filter(i=>i.severity==='error'&&i.msg.includes('encoding')).length})
+                <span class="material-icons-round" style="font-size:14px">delete_sweep</span>Bozukları Sil (${r.issues.filter(i => i.severity === 'error' && i.msg.includes('encoding')).length})
             </button>`);
         }
 
@@ -7362,11 +7092,11 @@ window.qualityCheck = (() => {
         }
 
         container.innerHTML = results.map(r => {
-            const isClean     = !r.parseError && !r.fetchError && r.errorCount === 0 && r.warnCount === 0;
-            const hasError    = r.parseError || r.fetchError || r.errorCount > 0;
+            const isClean = !r.parseError && !r.fetchError && r.errorCount === 0 && r.warnCount === 0;
+            const hasError = r.parseError || r.fetchError || r.errorCount > 0;
             const borderColor = isClean ? 'var(--success)' : (hasError ? 'var(--danger)' : 'var(--warning)');
-            const icon        = isClean ? '✅' : (hasError ? '❌' : '⚠️');
-            const expandId    = `qc-issues-${r.topicId}`;
+            const icon = isClean ? '✅' : (hasError ? '❌' : '⚠️');
+            const expandId = `qc-issues-${r.topicId}`;
 
             const issuesHtml = r.issues && r.issues.length > 0
                 ? `<div id="${expandId}" style="display:none;margin-top:0.75rem;border-top:1px solid var(--border);padding-top:0.75rem;max-height:300px;overflow-y:auto;">
@@ -7399,7 +7129,7 @@ window.qualityCheck = (() => {
                     ${errorMsg}
                     <span style="color:var(--text-muted);font-size:12px">${r.questionCount || 0} soru</span>
                     ${r.errorCount > 0 ? `<span style="color:var(--danger);font-size:12px;font-weight:600">${r.errorCount} hata</span>` : ''}
-                    ${r.warnCount  > 0 ? `<span style="color:var(--warning);font-size:12px;font-weight:600">${r.warnCount} uyarı</span>` : ''}
+                    ${r.warnCount > 0 ? `<span style="color:var(--warning);font-size:12px;font-weight:600">${r.warnCount} uyarı</span>` : ''}
                     <div style="margin-left:auto;display:flex;gap:0.5rem;align-items:center;flex-wrap:wrap;">
                         ${actionButtons(r, source)}
                         ${detailBtn}
@@ -7420,7 +7150,7 @@ window.qualityCheck = (() => {
         setLoading(true);
 
         try {
-            const res  = await fetch(url);
+            const res = await fetch(url);
             const data = await res.json();
             _lastResults = { ...data, source: _currentSource };
             renderSummary(data.summary, _currentSource);
@@ -7441,7 +7171,7 @@ window.qualityCheck = (() => {
         btn.innerHTML = '<span class="material-icons-round" style="font-size:14px;animation:spin .8s linear infinite">sync</span>Temizleniyor...';
 
         try {
-            const res  = await fetch('/api/quality-check/fix', {
+            const res = await fetch('/api/quality-check/fix', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ topicIds: [topicId] }),
@@ -7468,7 +7198,7 @@ window.qualityCheck = (() => {
         btn.innerHTML = '<span class="material-icons-round" style="font-size:14px;animation:spin .8s linear infinite">sync</span>Siliniyor...';
 
         try {
-            const res  = await fetch('/api/quality-check/remove-broken', {
+            const res = await fetch('/api/quality-check/remove-broken', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ topicIds: [topicId] }),
@@ -7486,7 +7216,7 @@ window.qualityCheck = (() => {
 
     async function refreshCard(topicId) {
         try {
-            const res  = await fetch(`/api/quality-check?source=local&topic=${encodeURIComponent(topicId)}`);
+            const res = await fetch(`/api/quality-check?source=local&topic=${encodeURIComponent(topicId)}`);
             const data = await res.json();
             const card = document.getElementById(`qc-card-${topicId}`);
             if (!card || !data.results.length) return;
@@ -7499,8 +7229,8 @@ window.qualityCheck = (() => {
             }
 
             // Kartı güncelle
-            const isClean     = r.errorCount === 0 && r.warnCount === 0;
-            const hasError    = r.errorCount > 0;
+            const isClean = r.errorCount === 0 && r.warnCount === 0;
+            const hasError = r.errorCount > 0;
             const borderColor = isClean ? 'var(--success)' : (hasError ? 'var(--danger)' : 'var(--warning)');
             card.style.borderColor = borderColor;
             card.style.transition = 'border-color 0.4s';
@@ -7513,23 +7243,23 @@ window.qualityCheck = (() => {
             // Summary yenile
             if (_lastResults) {
                 const s = {
-                    totalTopics:    _lastResults.results.length,
-                    totalQuestions: _lastResults.results.reduce((s, r) => s + (r.questionCount||0), 0),
-                    cleanTopics:    _lastResults.results.filter(r => r.errorCount===0 && r.warnCount===0).length,
-                    totalErrors:    _lastResults.results.reduce((s, r) => s + (r.errorCount||0), 0),
-                    totalWarns:     _lastResults.results.reduce((s, r) => s + (r.warnCount||0), 0),
+                    totalTopics: _lastResults.results.length,
+                    totalQuestions: _lastResults.results.reduce((s, r) => s + (r.questionCount || 0), 0),
+                    cleanTopics: _lastResults.results.filter(r => r.errorCount === 0 && r.warnCount === 0).length,
+                    totalErrors: _lastResults.results.reduce((s, r) => s + (r.errorCount || 0), 0),
+                    totalWarns: _lastResults.results.reduce((s, r) => s + (r.warnCount || 0), 0),
                 };
                 renderSummary(s, _currentSource);
             }
-        } catch (_) {}
+        } catch (_) { }
     }
 
     function renderSingleCard(r, source) {
-        const isClean     = !r.parseError && !r.fetchError && r.errorCount === 0 && r.warnCount === 0;
-        const hasError    = r.parseError || r.fetchError || r.errorCount > 0;
+        const isClean = !r.parseError && !r.fetchError && r.errorCount === 0 && r.warnCount === 0;
+        const hasError = r.parseError || r.fetchError || r.errorCount > 0;
         const borderColor = isClean ? 'var(--success)' : (hasError ? 'var(--danger)' : 'var(--warning)');
-        const icon        = isClean ? '✅' : (hasError ? '❌' : '⚠️');
-        const expandId    = `qc-issues-${r.topicId}`;
+        const icon = isClean ? '✅' : (hasError ? '❌' : '⚠️');
+        const expandId = `qc-issues-${r.topicId}`;
 
         const issuesHtml = r.issues && r.issues.length > 0
             ? `<div id="${expandId}" style="display:none;margin-top:0.75rem;border-top:1px solid var(--border);padding-top:0.75rem;max-height:300px;overflow-y:auto;">
@@ -7557,7 +7287,7 @@ window.qualityCheck = (() => {
                 <span style="font-family:monospace;font-size:13px;color:var(--text-primary);font-weight:600">${r.topicId}</span>
                 <span style="color:var(--text-muted);font-size:12px">${r.questionCount || 0} soru</span>
                 ${r.errorCount > 0 ? `<span style="color:var(--danger);font-size:12px;font-weight:600">${r.errorCount} hata</span>` : ''}
-                ${r.warnCount  > 0 ? `<span style="color:var(--warning);font-size:12px;font-weight:600">${r.warnCount} uyarı</span>` : ''}
+                ${r.warnCount > 0 ? `<span style="color:var(--warning);font-size:12px;font-weight:600">${r.warnCount} uyarı</span>` : ''}
                 <div style="margin-left:auto;display:flex;gap:0.5rem;align-items:center;flex-wrap:wrap;">
                     ${actionButtons(r, source)}
                     ${detailBtn}
@@ -7627,7 +7357,7 @@ window.qualityCheck = (() => {
                                 setProgressLabel(`${label} — ${evt.topicId} (${evt.done}/${evt.total})`);
                                 if (onEvent) onEvent(evt);
                             }
-                        } catch (_) {}
+                        } catch (_) { }
                     }
                     read();
                 });
@@ -7652,9 +7382,8 @@ window.qualityCheck = (() => {
         bulkSSE('/api/quality-check/fix', { topicIds }, {
             label: 'Prefix temizleniyor',
             onFinish(evt) {
-                toast(`✅ ${evt.totalFixed} şık prefix'i temizlendi — Push Et butonu aktif`);
+                toast(`✅ ${evt.totalFixed} şık prefix'i temizlendi`);
                 btn.disabled = false;
-                _pendingPush = true;
                 run('local');
             },
             onError(e) {
@@ -7679,9 +7408,8 @@ window.qualityCheck = (() => {
         bulkSSE('/api/quality-check/remove-broken', { topicIds }, {
             label: 'Bozuk sorular siliniyor',
             onFinish(evt) {
-                toast(`🗑️ ${evt.totalRemoved} bozuk soru silindi — Push Et butonu aktif`, 'warn');
+                toast(`🗑️ ${evt.totalRemoved} bozuk soru silindi`, 'warn');
                 btn.disabled = false;
-                _pendingPush = true;
                 run('local');
             },
             onError(e) {
@@ -7691,41 +7419,7 @@ window.qualityCheck = (() => {
         });
     }
 
-    // ── GitHub'a push et ─────────────────────────────────────────────────────
 
-    async function pushToGithub() {
-        if (!confirm('Temizlenen soru dosyaları GitHub\'a push edilecek.\n\ngit add assets/data/questions/ → commit → push\n\nDevam?')) return;
-
-        const btn = document.getElementById('qc-push-btn');
-        btn.disabled = true;
-        btn.innerHTML = '<span class="material-icons-round" style="font-size:18px;animation:spin 1s linear infinite">sync</span> Push ediliyor...';
-
-        try {
-            const res = await fetch('/api/quality-check/push-github', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ message: 'kalite-kontrol: bozuk sorular temizlendi' }),
-            });
-            const data = await res.json();
-
-            if (data.ok && data.pushed) {
-                toast(`GitHub'a push edildi — ${data.files?.length || 0} dosya`);
-                _pendingPush = false;
-                btn.style.display = 'none';
-            } else if (data.ok && !data.pushed) {
-                toast(data.message || 'Push edilecek değişiklik yok', 'warn');
-                _pendingPush = false;
-                btn.style.display = 'none';
-            } else {
-                toast('Push hatası: ' + (data.error || 'Bilinmeyen hata'), 'error');
-            }
-        } catch (e) {
-            toast('Bağlantı hatası: ' + e.message, 'error');
-        } finally {
-            btn.disabled = false;
-            btn.innerHTML = '<span class="material-icons-round" style="font-size:18px">cloud_upload</span> GitHub\'a Push Et';
-        }
-    }
 
     // ── eski fix (geriye uyumluluk) ───────────────────────────────────────────
     function fix() { fixAll(); }
@@ -7746,7 +7440,7 @@ window.qualityCheck = (() => {
     }
 
     return {
-        run, fix, fixAll, removeAllBroken, pushToGithub,
+        run, fix, fixAll, removeAllBroken,
         filterTopic, toggleIssues,
         fixTopicPrefixes, removeBrokenQuestions,
         get _hasRun() { return _hasRun; },
