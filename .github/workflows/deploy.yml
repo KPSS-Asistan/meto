@@ -1,0 +1,71 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      app_env:
+        description: 'Environment'
+        required: true
+        default: 'stage'
+        type: choice
+        options:
+          - stage
+          - prod
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate Env File
+        run: |
+          # Generate js/env.js based on input or default
+          ENV_VALUE="${{ github.event.inputs.app_env || 'prod' }}"
+          echo "window.APP_ENV = '$ENV_VALUE';" > client/js/env.js
+          echo "Generated env.js with APP_ENV=$ENV_VALUE"
+
+      - name: Create Deployment Archive
+        run: |
+          # Compress the entire project excluding local-only files
+          tar -czf deploy.tar.gz client/ server/ assets/ package.json
+
+      - name: Transfer Archive to Server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.PRIVATE_HOST }}
+          username: ${{ secrets.PRIVATE_USER }}
+          key: ${{ secrets.PRIVATE_SSH_KEY }}
+          source: "deploy.tar.gz"
+          target: "/home/${{ secrets.PRIVATE_USER }}/kpssasistan-admin/${{ github.event.inputs.app_env || 'prod' }}"
+
+      - name: Extract and Restart Services
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.PRIVATE_HOST }}
+          username: ${{ secrets.PRIVATE_USER }}
+          key: ${{ secrets.PRIVATE_SSH_KEY }}
+          script: |
+            cd /home/${{ secrets.PRIVATE_USER }}/kpssasistan-admin/${{ github.event.inputs.app_env || 'prod' }}
+            
+            # Extract
+            tar -xzf deploy.tar.gz
+            rm deploy.tar.gz
+            
+            # Setup Backend
+            cd server
+            npm install --production
+            pm2 restart kpss-backend || pm2 start server.js --name kpss-backend
+            
+            # Setup Frontend
+            cd ../client
+            npm install --production
+            pm2 restart kpss-frontend || pm2 start "npx serve -l 8001" --name kpss-frontend
