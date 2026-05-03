@@ -1,31 +1,3 @@
-# --- Flutter / Dart ---
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub/
-.pub-cache/
-build/
-**/doc/api/
-**/ios/Flutter/.last_build_id
-coverage/
-lib/generated_plugin_registrant.dart
-
-# --- Android ---
-**/android/**/gradle-wrapper.jar
-**/android/.gradle/
-**/android/captures/
-**/android/local.properties
-**/android/**/GeneratedPluginRegistrant.java
-**/android/key.properties
-*.jks
-
-# --- iOS / macOS ---
-**/ios/Pods/
-**/ios/.symlinks/
-**/ios/**/DerivedData/
-**/macos/Flutter/ephemeral/
-
 # --- IDE / OS ---
 .idea/
 *.iml
@@ -50,31 +22,7 @@ node_modules/
 /build_log.txt
 /server.log
 /server_error.log
-/server_output.txt
-/startup_output.txt
-/keytool_output.txt
-/keytool_output_utf8.txt
-/git_log.txt
-/git_log2.txt
-/git_reflog_logs.txt
-/git_show_*.txt
-/validation_report.txt
-/validation_report_utf8.txt
-/matches_2026.txt
-/matches_kpss_asistan.txt
-/prod_test_out.json
-/test-gen.json
-/test-gen-2.json
-/test-gen-gemini.json
-/explanation_tts_log.txt
-/story_tts_log.txt
-/testsprite_tests/tmp/
 
-# TypeScript Cloud Functions derlemesi (kaynak: functions/src)
-functions/lib/
-
-# Araç test medyası
-tools/test_gul.mp3
 
 .env
-kpss-c5cad-firebase-adminsdk-fbsvc-f0d8381226.json
+serviceAccountKey.json
