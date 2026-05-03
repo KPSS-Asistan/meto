@@ -14,7 +14,7 @@ async function countJsonFiles(dir) {
                 const content = await fs.readFile(path.join(dir, f), 'utf8');
                 const data = JSON.parse(content);
                 total += Array.isArray(data) ? data.length : 1;
-            } catch {}
+            } catch { }
         }
         return total;
     } catch { return 0; }

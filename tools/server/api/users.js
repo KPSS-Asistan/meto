@@ -281,12 +281,12 @@ async function handleUserRoutes(req, res, pathname) {
                     email: authUser?.email || userData.email || 'N/A',
                     displayName: authUser?.displayName || userData.displayName || userData.name || 'Anonim',
                     photoURL: authUser?.photoURL || userData.photoURL,
-                    
+
                     // Kayıt & Giriş bilgileri
                     createdAt: authUser?.metadata?.creationTime || (userData.createdAt?.toDate?.() || userData.createdAt),
                     lastLogin: authUser?.metadata?.lastSignInTime || (userData.lastLogin?.toDate?.() || userData.lastLogin),
                     platform: userData.platform || 'Bilinmiyor',
-                    
+
                     // Premium bilgileri
                     isPremium: isPremium,
                     premiumType: userData.premiumType || userData.premium_type || null,
@@ -294,7 +294,7 @@ async function handleUserRoutes(req, res, pathname) {
                     premiumEndDate: premiumEnd,
                     premiumDaysLeft: premiumDaysLeft,
                     premiumHistory: premiumHistory,
-                    
+
                     // İstatistikler
                     stats: {
                         totalQuestionsSolved: userData.totalQuestionsSolved || totalSolved,
@@ -305,7 +305,7 @@ async function handleUserRoutes(req, res, pathname) {
                         longestStreak: userData.longestStreak || 0,
                         totalStudyTime: userData.totalStudyTime || 0, // dakika
                     },
-                    
+
                     // Detaylı konu istatistikleri
                     topicStats: Object.entries(topicStats)
                         .map(([topic, data]) => ({
@@ -315,7 +315,7 @@ async function handleUserRoutes(req, res, pathname) {
                             accuracy: Math.round((data.correct / data.solved) * 100)
                         }))
                         .sort((a, b) => b.solved - a.solved),
-                    
+
                     // Son aktiviteler
                     recentActivity: solvedQuestions.slice(0, 20).map(q => ({
                         type: 'question_solved',
@@ -326,7 +326,7 @@ async function handleUserRoutes(req, res, pathname) {
                         timestamp: q.solvedAt,
                         timeSpent: q.timeSpent || null
                     })),
-                    
+
                     // Sistem aktiviteleri
                     systemActivities: activities
                 }
@@ -369,12 +369,12 @@ async function handleUserRoutes(req, res, pathname) {
                 premiumUpdatedAt: admin.firestore.FieldValue.serverTimestamp(),
                 updatedAt: admin.firestore.FieldValue.serverTimestamp()
             };
-            
+
             // Handle premium type
             if (premiumType) {
                 updateData.premiumType = premiumType;
             }
-            
+
             // Handle dates if provided
             const { premiumStartDate, premiumEndDate } = body;
             if (premiumStartDate) {
@@ -383,10 +383,10 @@ async function handleUserRoutes(req, res, pathname) {
             if (premiumEndDate) {
                 updateData.premiumEndDate = admin.firestore.Timestamp.fromDate(new Date(premiumEndDate));
             }
-            
+
             // Use set with merge to create doc if not exists
             await db.collection('users').doc(uid).set(updateData, { merge: true });
-            
+
             // Add to premium history
             try {
                 await db.collection('users').doc(uid).collection('premiumHistory').add({
@@ -419,21 +419,21 @@ async function handleUserRoutes(req, res, pathname) {
         if (!uid) {
             return sendJSON(res, { error: 'UID gerekli' }, 400);
         }
-        
+
         try {
             const body = await parseBody(req);
             const { note } = body;
-            
+
             if (!db) {
                 return sendJSON(res, { success: true, note, message: 'Mock: Not kaydedildi' });
             }
-            
+
             await db.collection('users').doc(uid).set({
                 adminNote: note || '',
                 adminNoteUpdatedAt: admin.firestore.FieldValue.serverTimestamp(),
                 updatedAt: admin.firestore.FieldValue.serverTimestamp()
             }, { merge: true });
-            
+
             return sendJSON(res, {
                 success: true,
                 message: 'Not kaydedildi'
@@ -490,14 +490,14 @@ async function handleUserRoutes(req, res, pathname) {
     if (pathname === '/webhooks/revenuecat' && req.method === 'POST') {
         try {
             const event = await parseBody(req);
-            
+
             // RevenueCat event yapısı kontrolü
             if (!event || !event.event) {
                 return sendJSON(res, { error: 'Invalid webhook payload' }, 400);
             }
-            
+
             const { event: eventData } = event;
-            const { 
+            const {
                 type, // INITIAL_PURCHASE, RENEWAL, CANCELLATION, EXPIRATION, etc.
                 app_user_id, // Firebase UID
                 product_id, // com.kpss.premium.monthly, com.kpss.premium.yearly, etc.
@@ -507,11 +507,11 @@ async function handleUserRoutes(req, res, pathname) {
                 is_trial_conversion,
                 cancel_reason
             } = eventData;
-            
+
             if (!app_user_id) {
                 return sendJSON(res, { error: 'User ID required' }, 400);
             }
-            
+
             // Mock mode - just log and return success
             if (!db) {
                 console.log('📱 RevenueCat Webhook (Mock):', {
@@ -522,14 +522,14 @@ async function handleUserRoutes(req, res, pathname) {
                 });
                 return sendJSON(res, { success: true, message: 'Webhook received (Mock)' });
             }
-            
+
             // Calculate premium dates based on event type
             const now = new Date();
             let premiumStartDate = now;
             let premiumEndDate = null;
             let isPremium = false;
             let premiumType = 'monthly';
-            
+
             // Determine duration from product_id
             if (product_id) {
                 if (product_id.includes('yearly') || product_id.includes('annual')) {
@@ -540,7 +540,7 @@ async function handleUserRoutes(req, res, pathname) {
                     premiumType = 'monthly';
                 }
             }
-            
+
             // Calculate end date based on expiration
             if (expiration_at_ms) {
                 premiumEndDate = new Date(expiration_at_ms);
@@ -555,7 +555,7 @@ async function handleUserRoutes(req, res, pathname) {
                     premiumEndDate.setFullYear(premiumEndDate.getFullYear() + 1);
                 }
             }
-            
+
             // Handle different event types
             switch (type) {
                 case 'INITIAL_PURCHASE':
@@ -563,27 +563,27 @@ async function handleUserRoutes(req, res, pathname) {
                 case 'UNCANCELLATION':
                     isPremium = true;
                     break;
-                    
+
                 case 'CANCELLATION':
                     // Don't immediately remove premium - let it expire naturally
                     isPremium = true; // Still premium until expiration
                     break;
-                    
+
                 case 'EXPIRATION':
                 case 'SUBSCRIPTION_PAUSED':
                     isPremium = false;
                     break;
-                    
+
                 case 'PRODUCT_CHANGE':
                     // Handle upgrade/downgrade
                     isPremium = true;
                     break;
-                    
+
                 default:
                     // For unknown events, maintain current status
                     break;
             }
-            
+
             // Update user in Firestore
             const userRef = db.collection('users').doc(app_user_id);
             const updateData = {
@@ -594,7 +594,7 @@ async function handleUserRoutes(req, res, pathname) {
                 premiumEndDate: premiumEndDate ? admin.firestore.Timestamp.fromDate(premiumEndDate) : null,
                 premiumUpdatedAt: admin.firestore.FieldValue.serverTimestamp(),
                 updatedAt: admin.firestore.FieldValue.serverTimestamp(),
-                
+
                 // RevenueCat specific data
                 revenueCat: {
                     lastEventType: type,
@@ -606,16 +606,16 @@ async function handleUserRoutes(req, res, pathname) {
                     cancelReason: cancel_reason || null
                 }
             };
-            
+
             await userRef.set(updateData, { merge: true });
-            
+
             // Add to premium history
             try {
                 await userRef.collection('premiumHistory').add({
                     action: type === 'INITIAL_PURCHASE' ? 'Satın alma (RevenueCat)' :
-                            type === 'RENEWAL' ? 'Yenileme (RevenueCat)' :
+                        type === 'RENEWAL' ? 'Yenileme (RevenueCat)' :
                             type === 'CANCELLATION' ? 'İptal (RevenueCat)' :
-                            type === 'EXPIRATION' ? 'Süre doldu (RevenueCat)' : 'RevenueCat Olayı',
+                                type === 'EXPIRATION' ? 'Süre doldu (RevenueCat)' : 'RevenueCat Olayı',
                     isPremium: isPremium,
                     source: 'revenuecat',
                     eventType: type,
@@ -629,14 +629,14 @@ async function handleUserRoutes(req, res, pathname) {
             } catch (historyErr) {
                 console.log('Premium history error:', historyErr.message);
             }
-            
+
             console.log('✅ RevenueCat webhook processed:', {
                 userId: app_user_id,
                 type,
                 isPremium,
                 endDate: premiumEndDate
             });
-            
+
             return sendJSON(res, {
                 success: true,
                 message: `Premium ${isPremium ? 'activated' : 'deactivated'}`,
@@ -644,7 +644,7 @@ async function handleUserRoutes(req, res, pathname) {
                 type,
                 premiumEndDate: premiumEndDate?.toISOString()
             });
-            
+
         } catch (e) {
             console.error('RevenueCat webhook error:', e);
             return sendJSON(res, { error: e.message }, 500);
@@ -654,28 +654,28 @@ async function handleUserRoutes(req, res, pathname) {
     // GET /users/:uid/premium-status - Check and update premium status
     if (pathname.startsWith('/users/') && pathname.endsWith('/premium-status') && req.method === 'GET') {
         const uid = pathname.split('/')[2];
-        
+
         if (!uid) {
             return sendJSON(res, { error: 'UID gerekli' }, 400);
         }
-        
+
         try {
             if (!db) {
                 return sendJSON(res, { success: true, isPremium: false, message: 'Mock mode' });
             }
-            
+
             const userDoc = await db.collection('users').doc(uid).get();
             if (!userDoc.exists) {
                 return sendJSON(res, { error: 'Kullanıcı bulunamadı' }, 404);
             }
-            
+
             const userData = userDoc.data();
             const now = new Date();
             const endDate = userData.premiumEndDate?.toDate?.() || userData.premiumEndDate;
-            
+
             let isPremium = userData.isPremium || false;
             let daysLeft = 0;
-            
+
             // Check if premium expired
             if (isPremium && endDate) {
                 if (endDate < now) {
@@ -687,7 +687,7 @@ async function handleUserRoutes(req, res, pathname) {
                         premiumExpiredAt: admin.firestore.Timestamp.fromDate(now),
                         updatedAt: admin.firestore.FieldValue.serverTimestamp()
                     }, { merge: true });
-                    
+
                     // Add expiration to history
                     await db.collection('users').doc(uid).collection('premiumHistory').add({
                         action: 'Süre doldu (Otomatik kontrol)',
@@ -700,7 +700,7 @@ async function handleUserRoutes(req, res, pathname) {
                     daysLeft = Math.ceil((endDate - now) / (1000 * 60 * 60 * 24));
                 }
             }
-            
+
             return sendJSON(res, {
                 success: true,
                 isPremium,
@@ -709,7 +709,7 @@ async function handleUserRoutes(req, res, pathname) {
                 premiumType: userData.premiumType || null,
                 revenueCat: userData.revenueCat || null
             });
-            
+
         } catch (e) {
             return sendJSON(res, { error: e.message }, 500);
         }

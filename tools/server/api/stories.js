@@ -9,12 +9,12 @@ const { STORIES_DIR } = require('../config');
 
 // Sıralama - Flutter topics_data.dart ile aynı sıra
 const STORY_ORDER = [
-    'JnFbEQt0uA8RSEuy22SQ','9Hg8tuMRdMTuVY7OZ9HL','8aIrKLvItXrwvOHq1L34','JU0iGKNhR7NQzA8M77vt','9WTotPoDW5OuWxsCf4Li',
-    'DlT19snCttf5j5RUAXLz','4GUvpqBBImcLmN2eh1HK','onwrfsH02TgIhlyRUh56','xQWHl1hBYAKM96X4deR8',
-    '80e0wkTLvaTQzPD6puB7','yWlh5C6jB7lzuJOodr2t','ICNDiSlTmmjWEQPT6rmT','JmyiPxf3n96Jkxqsa9jY','AJNLHhhaG2SLWOvxDYqW',
-    'nN8JOTR7LZm01AN2i3sQ','jXcsrl5HEb65DmfpfqqI','qSEqigIsIEBAkhcMTyCE','wnt2zWaV1pX8p8s8BBc9',
-    '1FEcPsGduhjcQARpaGBk','kbs0Ffved9pCP3Hq9M9k','6e0Thsz2RRNHFcwqQXso','uYDrMlBCEAho5776WZi8','WxrtQ26p2My4uJa0h1kk','GdpN8uxJNGtexWrkoL1T',
-    'AQ0Zph76dzPdr87H1uKa','n4OjWupHmouuybQzQ1Fc','xXGXiqx2TkCtI4C7GMQg','1JZAYECyEn7farNNyGyx','lv93cmhwq7RmOFM5WxWD','Bo3qqooJsqtIZrK5zc9S',
+    'JnFbEQt0uA8RSEuy22SQ', '9Hg8tuMRdMTuVY7OZ9HL', '8aIrKLvItXrwvOHq1L34', 'JU0iGKNhR7NQzA8M77vt', '9WTotPoDW5OuWxsCf4Li',
+    'DlT19snCttf5j5RUAXLz', '4GUvpqBBImcLmN2eh1HK', 'onwrfsH02TgIhlyRUh56', 'xQWHl1hBYAKM96X4deR8',
+    '80e0wkTLvaTQzPD6puB7', 'yWlh5C6jB7lzuJOodr2t', 'ICNDiSlTmmjWEQPT6rmT', 'JmyiPxf3n96Jkxqsa9jY', 'AJNLHhhaG2SLWOvxDYqW',
+    'nN8JOTR7LZm01AN2i3sQ', 'jXcsrl5HEb65DmfpfqqI', 'qSEqigIsIEBAkhcMTyCE', 'wnt2zWaV1pX8p8s8BBc9',
+    '1FEcPsGduhjcQARpaGBk', 'kbs0Ffved9pCP3Hq9M9k', '6e0Thsz2RRNHFcwqQXso', 'uYDrMlBCEAho5776WZi8', 'WxrtQ26p2My4uJa0h1kk', 'GdpN8uxJNGtexWrkoL1T',
+    'AQ0Zph76dzPdr87H1uKa', 'n4OjWupHmouuybQzQ1Fc', 'xXGXiqx2TkCtI4C7GMQg', '1JZAYECyEn7farNNyGyx', 'lv93cmhwq7RmOFM5WxWD', 'Bo3qqooJsqtIZrK5zc9S',
 ];
 
 const STORY_TITLES = {
@@ -56,13 +56,13 @@ if (!require('fs').existsSync(STORIES_DIR)) {
 }
 
 async function handleStoryRoutes(req, res, pathname, searchParams) {
-    
+
     // GET /stories - Tüm story dosyalarını listele
     if (pathname === '/stories' && req.method === 'GET') {
         try {
             const files = await fs.readdir(STORIES_DIR);
             const jsonFiles = files.filter(f => f.endsWith('.json'));
-            
+
             const storyFiles = [];
             for (const file of jsonFiles) {
                 try {
@@ -70,7 +70,7 @@ async function handleStoryRoutes(req, res, pathname, searchParams) {
                     const stats = await fs.stat(filePath);
                     const content = await fs.readFile(filePath, 'utf8');
                     const stories = JSON.parse(content);
-                    
+
                     const fileId = path.basename(file, '.json');
                     storyFiles.push({
                         filename: file,
@@ -84,7 +84,7 @@ async function handleStoryRoutes(req, res, pathname, searchParams) {
                     console.error(`Error reading ${file}:`, e.message);
                 }
             }
-            
+
             storyFiles.sort((a, b) => {
                 const idxA = STORY_ORDER.indexOf(a.id);
                 const idxB = STORY_ORDER.indexOf(b.id);
@@ -95,7 +95,7 @@ async function handleStoryRoutes(req, res, pathname, searchParams) {
             return sendJSON(res, { error: e.message }, 500);
         }
     }
-    
+
     // GET /stories/:filename - Belirli dosyayı getir
     if (pathname.startsWith('/stories/') && req.method === 'GET') {
         const parts = pathname.split('/');
@@ -104,27 +104,27 @@ async function handleStoryRoutes(req, res, pathname, searchParams) {
             if (!filename.endsWith('.json')) {
                 filename += '.json';
             }
-            
+
             try {
                 const filePath = path.join(STORIES_DIR, filename);
                 if (!require('fs').existsSync(filePath)) {
                     return sendJSON(res, { error: 'File not found' }, 404);
                 }
-                
+
                 const content = await fs.readFile(filePath, 'utf8');
                 const stories = JSON.parse(content);
-                
-                return sendJSON(res, { 
-                    success: true, 
+
+                return sendJSON(res, {
+                    success: true,
                     filename,
-                    stories 
+                    stories
                 });
             } catch (e) {
                 return sendJSON(res, { error: e.message }, 500);
             }
         }
     }
-    
+
     // POST /stories/:filename - Yeni story ekle
     if (pathname.startsWith('/stories/') && req.method === 'POST') {
         const parts = pathname.split('/');
@@ -133,37 +133,37 @@ async function handleStoryRoutes(req, res, pathname, searchParams) {
             if (!filename.endsWith('.json')) {
                 filename += '.json';
             }
-            
+
             try {
                 const body = await parseBody(req);
                 const { title, content, keyPoints, order } = body;
-                
+
                 if (!title || !content) {
                     return sendJSON(res, { error: 'Title and content are required' }, 400);
                 }
-                
+
                 const filePath = path.join(STORIES_DIR, filename);
                 let stories = [];
-                
+
                 if (require('fs').existsSync(filePath)) {
                     const existingContent = await fs.readFile(filePath, 'utf8');
                     stories = JSON.parse(existingContent);
                 }
-                
+
                 const newStory = {
                     title: title.trim(),
                     content: content.trim(),
                     keyPoints: Array.isArray(keyPoints) ? keyPoints : [],
                     order: order || stories.length
                 };
-                
+
                 stories.push(newStory);
                 stories.sort((a, b) => a.order - b.order);
-                
+
                 await fs.writeFile(filePath, JSON.stringify(stories, null, 2), 'utf8');
-                
-                return sendJSON(res, { 
-                    success: true, 
+
+                return sendJSON(res, {
+                    success: true,
                     message: 'Story added',
                     totalStories: stories.length,
                     story: newStory
@@ -173,21 +173,21 @@ async function handleStoryRoutes(req, res, pathname, searchParams) {
             }
         }
     }
-    
+
     // POST /stories/:filename/save - Tüm hikayeleri kaydet (full array replace)
     if (pathname.startsWith('/stories/') && pathname.endsWith('/save') && req.method === 'POST') {
         const parts = pathname.split('/');
         if (parts.length === 4) {
             let filename = parts[2];
-            
+
             try {
                 const body = await parseBody(req);
                 const { stories } = body;
-                
+
                 if (!Array.isArray(stories)) {
                     return sendJSON(res, { error: 'Stories must be an array' }, 400);
                 }
-                
+
                 // Validate each story
                 for (let i = 0; i < stories.length; i++) {
                     const story = stories[i];
@@ -196,14 +196,14 @@ async function handleStoryRoutes(req, res, pathname, searchParams) {
                     }
                     if (!story.order) story.order = i;
                 }
-                
+
                 stories.sort((a, b) => a.order - b.order);
-                
+
                 const filePath = path.join(STORIES_DIR, filename);
                 await fs.writeFile(filePath, JSON.stringify(stories, null, 2), 'utf8');
-                
-                return sendJSON(res, { 
-                    success: true, 
+
+                return sendJSON(res, {
+                    success: true,
                     message: 'All stories saved',
                     count: stories.length
                 });
@@ -212,50 +212,50 @@ async function handleStoryRoutes(req, res, pathname, searchParams) {
             }
         }
     }
-    
+
     // PUT /stories/:filename/:index - Story güncelle
     if (pathname.startsWith('/stories/') && req.method === 'PUT') {
         const parts = pathname.split('/');
         if (parts.length === 4) {
             const filename = parts[2];
             const index = parseInt(parts[3]);
-            
+
             if (!filename.endsWith('.json')) {
                 filename += '.json';
             }
-            
+
             if (isNaN(index) || index < 0) {
                 return sendJSON(res, { error: 'Invalid index' }, 400);
             }
-            
+
             try {
                 const filePath = path.join(STORIES_DIR, filename);
                 if (!require('fs').existsSync(filePath)) {
                     return sendJSON(res, { error: 'File not found' }, 404);
                 }
-                
+
                 const content = await fs.readFile(filePath, 'utf8');
                 const stories = JSON.parse(content);
-                
+
                 if (index >= stories.length) {
                     return sendJSON(res, { error: 'Index out of range' }, 400);
                 }
-                
+
                 const body = await parseBody(req);
                 const { title, content: storyContent, keyPoints, order } = body;
-                
+
                 stories[index] = {
                     title: title?.trim() || stories[index].title,
                     content: storyContent?.trim() || stories[index].content,
                     keyPoints: Array.isArray(keyPoints) ? keyPoints : stories[index].keyPoints,
                     order: order !== undefined ? order : stories[index].order
                 };
-                
+
                 stories.sort((a, b) => a.order - b.order);
                 await fs.writeFile(filePath, JSON.stringify(stories, null, 2), 'utf8');
-                
-                return sendJSON(res, { 
-                    success: true, 
+
+                return sendJSON(res, {
+                    success: true,
                     message: 'Story updated',
                     story: stories[index]
                 });
@@ -264,42 +264,42 @@ async function handleStoryRoutes(req, res, pathname, searchParams) {
             }
         }
     }
-    
+
     // DELETE /stories/:filename/:index - Story sil
     if (pathname.startsWith('/stories/') && req.method === 'DELETE') {
         const parts = pathname.split('/');
         if (parts.length === 4) {
             const filename = parts[2];
             const index = parseInt(parts[3]);
-            
+
             if (!filename.endsWith('.json')) {
                 filename += '.json';
             }
-            
+
             if (isNaN(index) || index < 0) {
                 return sendJSON(res, { error: 'Invalid index' }, 400);
             }
-            
+
             try {
                 const filePath = path.join(STORIES_DIR, filename);
                 if (!require('fs').existsSync(filePath)) {
                     return sendJSON(res, { error: 'File not found' }, 404);
                 }
-                
+
                 const content = await fs.readFile(filePath, 'utf8');
                 const stories = JSON.parse(content);
-                
+
                 if (index >= stories.length) {
                     return sendJSON(res, { error: 'Index out of range' }, 400);
                 }
-                
+
                 const deletedStory = stories.splice(index, 1)[0];
                 stories.sort((a, b) => a.order - b.order);
-                
+
                 await fs.writeFile(filePath, JSON.stringify(stories, null, 2), 'utf8');
-                
-                return sendJSON(res, { 
-                    success: true, 
+
+                return sendJSON(res, {
+                    success: true,
                     message: 'Story deleted',
                     deletedStory,
                     remainingStories: stories.length
@@ -309,7 +309,7 @@ async function handleStoryRoutes(req, res, pathname, searchParams) {
             }
         }
     }
-    
+
     return false; // Route handled
 }
 

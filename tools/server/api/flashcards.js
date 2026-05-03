@@ -89,7 +89,7 @@ const FLASHCARD_TITLES = {
 };
 
 async function handleFlashcardRoutes(req, res, pathname, searchParams) {
-    
+
     // GET /flashcards - Tüm flashcard dosyalarını listele
     if (pathname === '/flashcards' && req.method === 'GET') {
         try {
@@ -98,7 +98,7 @@ async function handleFlashcardRoutes(req, res, pathname, searchParams) {
             console.log('[Flashcards API] Files found:', files);
             const jsonFiles = files.filter(f => f.endsWith('.json'));
             console.log('[Flashcards API] JSON files:', jsonFiles);
-            
+
             const flashcardSets = [];
             for (const file of jsonFiles) {
                 try {
@@ -107,7 +107,7 @@ async function handleFlashcardRoutes(req, res, pathname, searchParams) {
                     const content = await fs.readFile(filePath, 'utf8');
                     const cards = JSON.parse(content);
                     const fileId = path.basename(file, '.json');
-                    
+
                     flashcardSets.push({
                         filename: file,
                         id: fileId,
@@ -120,7 +120,7 @@ async function handleFlashcardRoutes(req, res, pathname, searchParams) {
                     console.error(`Error reading ${file}:`, e.message);
                 }
             }
-            
+
             flashcardSets.sort((a, b) => {
                 const idxA = FLASHCARD_ORDER.indexOf(a.id);
                 const idxB = FLASHCARD_ORDER.indexOf(b.id);
@@ -133,7 +133,7 @@ async function handleFlashcardRoutes(req, res, pathname, searchParams) {
             return sendJSON(res, { error: e.message }, 500);
         }
     }
-    
+
     // GET /flashcards/:filename - Belirli dosyayı getir
     if (pathname.startsWith('/flashcards/') && req.method === 'GET') {
         const parts = pathname.split('/');
@@ -142,27 +142,27 @@ async function handleFlashcardRoutes(req, res, pathname, searchParams) {
             if (!filename.endsWith('.json')) {
                 filename += '.json';
             }
-            
+
             try {
                 const filePath = path.join(FLASHCARDS_DIR, filename);
                 if (!require('fs').existsSync(filePath)) {
                     return sendJSON(res, { error: 'File not found' }, 404);
                 }
-                
+
                 const content = await fs.readFile(filePath, 'utf8');
                 const cards = JSON.parse(content);
-                
-                return sendJSON(res, { 
-                    success: true, 
+
+                return sendJSON(res, {
+                    success: true,
                     filename,
-                    cards 
+                    cards
                 });
             } catch (e) {
                 return sendJSON(res, { error: e.message }, 500);
             }
         }
     }
-    
+
     // POST /flashcards/:filename - Yeni flashcard ekle
     if (pathname.startsWith('/flashcards/') && req.method === 'POST') {
         const parts = pathname.split('/');
@@ -171,34 +171,34 @@ async function handleFlashcardRoutes(req, res, pathname, searchParams) {
             if (!filename.endsWith('.json')) {
                 filename += '.json';
             }
-            
+
             try {
                 const body = await parseBody(req);
                 const { question, answer, additionalInfo } = body;
-                
+
                 if (!question || !answer) {
                     return sendJSON(res, { error: 'Question and answer are required' }, 400);
                 }
-                
+
                 const filePath = path.join(FLASHCARDS_DIR, filename);
                 let cards = [];
-                
+
                 if (require('fs').existsSync(filePath)) {
                     const content = await fs.readFile(filePath, 'utf8');
                     cards = JSON.parse(content);
                 }
-                
+
                 const newCard = {
                     question: question.trim(),
                     answer: answer.trim(),
                     additionalInfo: additionalInfo?.trim() || ''
                 };
-                
+
                 cards.push(newCard);
                 await fs.writeFile(filePath, JSON.stringify(cards, null, 2), 'utf8');
-                
-                return sendJSON(res, { 
-                    success: true, 
+
+                return sendJSON(res, {
+                    success: true,
                     message: 'Flashcard added',
                     totalCards: cards.length,
                     card: newCard
@@ -208,21 +208,21 @@ async function handleFlashcardRoutes(req, res, pathname, searchParams) {
             }
         }
     }
-    
+
     // POST /flashcards/:filename/save - Tüm flashcard'ları kaydet (full array replace)
     if (pathname.startsWith('/flashcards/') && pathname.endsWith('/save') && req.method === 'POST') {
         const parts = pathname.split('/');
         if (parts.length === 4) {
             let filename = parts[2];
-            
+
             try {
                 const body = await parseBody(req);
                 const { cards } = body;
-                
+
                 if (!Array.isArray(cards)) {
                     return sendJSON(res, { error: 'Cards must be an array' }, 400);
                 }
-                
+
                 // Validate each card
                 for (let i = 0; i < cards.length; i++) {
                     const card = cards[i];
@@ -230,12 +230,12 @@ async function handleFlashcardRoutes(req, res, pathname, searchParams) {
                         return sendJSON(res, { error: `Item ${i}: question and answer required` }, 400);
                     }
                 }
-                
+
                 const filePath = path.join(FLASHCARDS_DIR, filename);
                 await fs.writeFile(filePath, JSON.stringify(cards, null, 2), 'utf8');
-                
-                return sendJSON(res, { 
-                    success: true, 
+
+                return sendJSON(res, {
+                    success: true,
                     message: 'All flashcards saved',
                     count: cards.length
                 });
@@ -244,48 +244,48 @@ async function handleFlashcardRoutes(req, res, pathname, searchParams) {
             }
         }
     }
-    
+
     // PUT /flashcards/:filename/:index - Flashcard güncelle
     if (pathname.startsWith('/flashcards/') && req.method === 'PUT') {
         const parts = pathname.split('/');
         if (parts.length === 4) {
             const filename = parts[2];
             const index = parseInt(parts[3]);
-            
+
             if (!filename.endsWith('.json')) {
                 filename += '.json';
             }
-            
+
             if (isNaN(index) || index < 0) {
                 return sendJSON(res, { error: 'Invalid index' }, 400);
             }
-            
+
             try {
                 const filePath = path.join(FLASHCARDS_DIR, filename);
                 if (!require('fs').existsSync(filePath)) {
                     return sendJSON(res, { error: 'File not found' }, 404);
                 }
-                
+
                 const content = await fs.readFile(filePath, 'utf8');
                 const cards = JSON.parse(content);
-                
+
                 if (index >= cards.length) {
                     return sendJSON(res, { error: 'Index out of range' }, 400);
                 }
-                
+
                 const body = await parseBody(req);
                 const { question, answer, additionalInfo } = body;
-                
+
                 cards[index] = {
                     question: question?.trim() || cards[index].question,
                     answer: answer?.trim() || cards[index].answer,
                     additionalInfo: additionalInfo?.trim() || cards[index].additionalInfo
                 };
-                
+
                 await fs.writeFile(filePath, JSON.stringify(cards, null, 2), 'utf8');
-                
-                return sendJSON(res, { 
-                    success: true, 
+
+                return sendJSON(res, {
+                    success: true,
                     message: 'Flashcard updated',
                     card: cards[index]
                 });
@@ -294,40 +294,40 @@ async function handleFlashcardRoutes(req, res, pathname, searchParams) {
             }
         }
     }
-    
+
     // DELETE /flashcards/:filename/:index - Flashcard sil
     if (pathname.startsWith('/flashcards/') && req.method === 'DELETE') {
         const parts = pathname.split('/');
         if (parts.length === 4) {
             const filename = parts[2];
             const index = parseInt(parts[3]);
-            
+
             if (!filename.endsWith('.json')) {
                 filename += '.json';
             }
-            
+
             if (isNaN(index) || index < 0) {
                 return sendJSON(res, { error: 'Invalid index' }, 400);
             }
-            
+
             try {
                 const filePath = path.join(FLASHCARDS_DIR, filename);
                 if (!require('fs').existsSync(filePath)) {
                     return sendJSON(res, { error: 'File not found' }, 404);
                 }
-                
+
                 const content = await fs.readFile(filePath, 'utf8');
                 const cards = JSON.parse(content);
-                
+
                 if (index >= cards.length) {
                     return sendJSON(res, { error: 'Index out of range' }, 400);
                 }
-                
+
                 const deletedCard = cards.splice(index, 1)[0];
                 await fs.writeFile(filePath, JSON.stringify(cards, null, 2), 'utf8');
-                
-                return sendJSON(res, { 
-                    success: true, 
+
+                return sendJSON(res, {
+                    success: true,
                     message: 'Flashcard deleted',
                     deletedCard,
                     remainingCards: cards.length
@@ -337,7 +337,7 @@ async function handleFlashcardRoutes(req, res, pathname, searchParams) {
             }
         }
     }
-    
+
     return false; // Route handled
 }
 
