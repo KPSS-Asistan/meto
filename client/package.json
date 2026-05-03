@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Frontend client for KPSS Dashboard",
   "scripts": {
-    "start": "serve -l 8001"
+    "start": "serve -l 8001",
+    "dev": "echo \"window.APP_ENV = '$APP_ENV';\" > js/env.js && serve -l 8001"
   },
   "dependencies": {
     "serve": "^14.2.4"
