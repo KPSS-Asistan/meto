@@ -36,7 +36,7 @@ jobs:
       - name: Create Deployment Archive
         run: |
           # Compress the entire project excluding local-only files
-          tar -czf deploy.tar.gz client/ server/ assets/ package.json
+          tar -czf deploy.tar.gz client/ server/ assets/
 
       - name: Transfer Archive to Server
         uses: appleboy/scp-action@v0.1.7
