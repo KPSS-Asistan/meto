@@ -7842,8 +7842,11 @@ window.aiAnalysis = (() => {
         document.getElementById('aa-bulk-btn').disabled = true;
         document.getElementById('aa-stop-btn').style.display = '';
         document.getElementById('aa-analyze-btn').disabled = true;
-        document.getElementById('aa-empty').style.display = 'none';
-        document.getElementById('aa-content').style.display = 'none';
+        // orta kolonu temizle
+        const verdictBanner = document.getElementById('aa-verdict-banner');
+        const criteriaList  = document.getElementById('aa-criteria-list');
+        if (verdictBanner) verdictBanner.style.display = 'none';
+        if (criteriaList)  criteriaList.innerHTML = '';
         document.getElementById('aa-loading').style.display = 'none';
 
         const updateProgress = () => {
@@ -7905,6 +7908,9 @@ window.aiAnalysis = (() => {
 
         // Bitince
         _bulkRunning = false;
+        // Analiz edilmişleri göster
+        const filterSel = document.getElementById('aa-filter-select');
+        if (filterSel) filterSel.value = 'analyzed';
         applyFilter();
         document.getElementById('aa-stop-btn').style.display = 'none';
         document.getElementById('aa-bulk-btn').disabled = false;
