@@ -583,6 +583,9 @@
         <button class="nav-tab" onclick="showPage('quality-check')" data-page="quality-check">
             <span class="material-icons-round">fact_check</span>Kalite Kontrol
         </button>
+        <button class="nav-tab" onclick="showPage('ai-analysis')" data-page="ai-analysis">
+            <span class="material-icons-round">psychology</span>AI Analiz
+        </button>
 
         <div class="nav-group-label">Modüller</div>
         <button class="nav-tab" onclick="showPage('modules')" data-page="modules">
@@ -1320,6 +1323,195 @@
             <!-- Sonuçlar -->
             <div id="qc-results" style="display:flex; flex-direction:column; gap:0.75rem;"></div>
         </div><!-- end page-quality-check -->
+
+        <!-- AI ANALİZ PAGE -->
+        <div id="page-ai-analysis" class="page">
+            <div class="page-header">
+                <h1 class="page-title">
+                    <span class="material-icons-round">psychology</span>
+                    AI Soru Analizi
+                </h1>
+                <p class="page-subtitle">Soruları 10 kriterde AI ile analiz et, düzelt ve kaydet</p>
+            </div>
+
+            <!-- Kontrol Çubuğu -->
+            <div style="display:flex;gap:0.75rem;margin-bottom:1rem;flex-wrap:wrap;align-items:flex-end">
+                <div style="display:flex;flex-direction:column;gap:0.25rem">
+                    <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600">KONU</label>
+                    <select id="aa-topic-select" class="form-input" style="min-width:200px;padding:0.45rem 0.7rem" onchange="aiAnalysis.onTopicChange()">
+                        <option value="">-- Konu seçin --</option>
+                    </select>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:0.25rem">
+                    <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600">FİLTRE</label>
+                    <select id="aa-filter-select" class="form-input" style="padding:0.45rem 0.7rem" onchange="aiAnalysis.onFilterChange()">
+                        <option value="unanalyzed">Analiz Edilmemiş</option>
+                        <option value="analyzed">Analiz Edilmiş</option>
+                        <option value="all">Tümü</option>
+                    </select>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:0.25rem">
+                    <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600">ARAMA</label>
+                    <input id="aa-search-input" type="text" class="form-input" placeholder="Soru ara..." style="padding:0.45rem 0.7rem;min-width:160px" oninput="aiAnalysis.onSearchInput()">
+                </div>
+                <div style="display:flex;flex-direction:column;gap:0.25rem">
+                    <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600">MODEL</label>
+                    <select id="aa-model-select" class="form-input" style="padding:0.45rem 0.7rem">
+                        <option value="google/gemini-3.1-flash-lite-preview" selected>Gemini 3.1 Flash Lite</option>
+                        <option value="google/gemini-2.5-flash">Gemini 2.5 Flash</option>
+                        <option value="google/gemini-3-flash-preview">Gemini 3 Flash</option>
+                        <option value="deepseek/deepseek-v3.2">DeepSeek V3.2</option>
+                        <option value="google/gemini-2.5-flash-lite">Gemini 2.5 Flash Lite</option>
+                    </select>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:0.25rem">
+                    <label style="font-size:0.72rem;color:transparent">.</label>
+                    <button id="aa-analyze-btn" class="btn btn-primary" onclick="aiAnalysis.analyze()" disabled>
+                        <span class="material-icons-round" style="font-size:18px">psychology</span>
+                        Analiz Et
+                    </button>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:0.25rem">
+                    <label style="font-size:0.72rem;color:transparent">.</label>
+                    <button id="aa-bulk-btn" class="btn" onclick="aiAnalysis.bulkAnalyze()" disabled
+                        style="background:rgba(99,102,241,0.2);border:1px solid rgba(99,102,241,0.5);color:#a5b4fc">
+                        <span class="material-icons-round" style="font-size:18px">playlist_add_check</span>
+                        Tüm Konuyu Analiz Et
+                    </button>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:0.25rem">
+                    <label style="font-size:0.72rem;color:transparent">.</label>
+                    <button id="aa-stop-btn" class="btn" onclick="aiAnalysis.stopBulk()" style="display:none;background:rgba(239,68,68,0.2);border:1px solid rgba(239,68,68,0.5);color:#f87171">
+                        <span class="material-icons-round" style="font-size:18px">stop</span>
+                        Durdur
+                    </button>
+                </div>
+            </div>
+
+            <!-- Toplu Analiz Progress -->
+            <div id="aa-bulk-progress" style="display:none;margin-bottom:1rem;padding:0.85rem 1rem;background:var(--bg-card);border:1px solid var(--border);border-radius:10px">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+                    <span id="aa-bulk-label" style="font-size:0.83rem;color:var(--text-secondary)">Analiz ediliyor...</span>
+                    <span id="aa-bulk-pct" style="font-size:0.83rem;font-weight:600;color:var(--primary)">0%</span>
+                </div>
+                <div style="height:6px;background:var(--border);border-radius:3px;overflow:hidden;margin-bottom:0.5rem">
+                    <div id="aa-bulk-bar" style="height:100%;background:var(--primary);border-radius:3px;width:0%;transition:width .3s"></div>
+                </div>
+                <div style="display:flex;gap:1.5rem;font-size:0.75rem;color:var(--text-muted)">
+                    <span>✅ <span id="aa-bulk-ok">0</span> başarılı</span>
+                    <span>❌ <span id="aa-bulk-err">0</span> hatalı</span>
+                    <span>⏳ <span id="aa-bulk-remain">0</span> kalan</span>
+                </div>
+            </div>
+
+            <!-- Boş durum -->
+            <div id="aa-empty" style="text-align:center;padding:4rem;color:var(--text-muted)">
+                <span class="material-icons-round" style="font-size:3rem;display:block;margin-bottom:1rem;opacity:0.4">psychology</span>
+                <p>Konu seçin</p>
+            </div>
+
+            <!-- Ana İçerik: 3 Kolon -->
+            <div id="aa-main" style="display:none;gap:1rem;grid-template-columns:300px 1fr 1fr;align-items:start">
+
+                <!-- SOL: Soru Listesi -->
+                <div style="display:flex;flex-direction:column;gap:0;">
+                    <div style="padding:0.55rem 0.85rem;background:var(--bg-input);border:1px solid var(--border);border-bottom:none;border-radius:8px 8px 0 0;display:flex;justify-content:space-between;align-items:center">
+                        <span id="aa-q-stats" style="font-size:0.75rem;font-weight:600;color:var(--text-secondary)">Sorular</span>
+                    </div>
+                    <div id="aa-question-list"
+                        style="border:1px solid var(--border);border-radius:0 0 8px 8px;overflow-y:auto;max-height:calc(100vh - 340px);min-height:200px;background:var(--bg-card)">
+                        <div style="padding:2rem;text-align:center;color:var(--text-muted);font-size:0.82rem">Önce konu seçin</div>
+                    </div>
+                </div>
+
+                <!-- ORTA: Analiz Sonuçları -->
+                <div>
+                    <!-- Yükleniyor -->
+                    <div id="aa-loading" style="display:none;text-align:center;padding:3rem;color:var(--text-secondary)">
+                        <span class="material-icons-round" style="font-size:2.5rem;display:block;margin-bottom:1rem;animation:spin 1s linear infinite">sync</span>
+                        AI analiz yapıyor...
+                    </div>
+                    <!-- Sonuç -->
+                    <div id="aa-content">
+                        <div id="aa-verdict-banner" style="display:none;padding:0.85rem 1.2rem;border-radius:10px;margin-bottom:1rem;display:flex;align-items:center;gap:0.75rem">
+                            <span class="material-icons-round" id="aa-verdict-icon" style="font-size:1.5rem"></span>
+                            <div style="flex:1">
+                                <div id="aa-verdict-text" style="font-size:1.1rem;font-weight:700"></div>
+                                <div id="aa-verdict-summary" style="font-size:0.82rem;opacity:0.85;margin-top:0.1rem"></div>
+                            </div>
+                            <div style="text-align:center">
+                                <div id="aa-score" style="font-size:2rem;font-weight:800;line-height:1"></div>
+                                <div style="font-size:0.65rem;opacity:0.7">/ 10</div>
+                            </div>
+                        </div>
+                        <div id="aa-criteria-list" style="display:flex;flex-direction:column;gap:0.5rem"></div>
+                    </div>
+                </div>
+
+                <!-- Sağ: Inline Editör -->
+                <div>
+                    <div class="card">
+                        <div class="card-header" style="display:flex;justify-content:space-between;align-items:center">
+                            <h3 class="card-title">
+                                <span class="material-icons-round">edit</span>
+                                Soru Editörü
+                            </h3>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Soru Metni</label>
+                            <textarea id="aa-edit-q" class="form-input" rows="4" placeholder="Soru metni..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Şıklar</label>
+                            <div style="display:flex;flex-direction:column;gap:0.4rem">
+                                <div style="display:flex;align-items:center;gap:0.5rem"><span style="min-width:20px;font-weight:600;color:var(--text-secondary);font-size:0.85rem">A)</span><input id="aa-edit-o0" type="text" class="form-input" placeholder="A şıkkı"></div>
+                                <div style="display:flex;align-items:center;gap:0.5rem"><span style="min-width:20px;font-weight:600;color:var(--text-secondary);font-size:0.85rem">B)</span><input id="aa-edit-o1" type="text" class="form-input" placeholder="B şıkkı"></div>
+                                <div style="display:flex;align-items:center;gap:0.5rem"><span style="min-width:20px;font-weight:600;color:var(--text-secondary);font-size:0.85rem">C)</span><input id="aa-edit-o2" type="text" class="form-input" placeholder="C şıkkı"></div>
+                                <div style="display:flex;align-items:center;gap:0.5rem"><span style="min-width:20px;font-weight:600;color:var(--text-secondary);font-size:0.85rem">D)</span><input id="aa-edit-o3" type="text" class="form-input" placeholder="D şıkkı"></div>
+                                <div style="display:flex;align-items:center;gap:0.5rem"><span style="min-width:20px;font-weight:600;color:var(--text-secondary);font-size:0.85rem">E)</span><input id="aa-edit-o4" type="text" class="form-input" placeholder="E şıkkı"></div>
+                            </div>
+                        </div>
+                        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem">
+                            <div class="form-group">
+                                <label class="form-label">Doğru Cevap</label>
+                                <select id="aa-edit-a" class="form-input">
+                                    <option value="0">A</option>
+                                    <option value="1">B</option>
+                                    <option value="2">C</option>
+                                    <option value="3">D</option>
+                                    <option value="4">E</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Zorluk (1-5)</label>
+                                <select id="aa-edit-d" class="form-input">
+                                    <option value="1">1 - Çok Kolay</option>
+                                    <option value="2">2 - Kolay</option>
+                                    <option value="3" selected>3 - Orta</option>
+                                    <option value="4">4 - Zor</option>
+                                    <option value="5">5 - Çok Zor</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Açıklama</label>
+                            <textarea id="aa-edit-e" class="form-input" rows="3" placeholder="Cevap açıklaması..."></textarea>
+                        </div>
+                        <div style="display:flex;gap:0.5rem;flex-wrap:wrap">
+                            <button id="aa-save-btn" class="btn btn-primary" onclick="aiAnalysis.save()">
+                                <span class="material-icons-round" style="font-size:16px">save</span>
+                                Kaydet &amp; İşaretle
+                            </button>
+                            <button class="btn btn-secondary" onclick="aiAnalysis.nextQuestion()" style="display:flex;align-items:center;gap:4px">
+                                <span class="material-icons-round" style="font-size:16px">skip_next</span>
+                                Sonraki
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- end aa-main -->
+        </div><!-- end page-ai-analysis -->
 
         <!-- NOTIFICATIONS PAGE -->
         <div id="page-notifications" class="page">

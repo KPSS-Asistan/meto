@@ -6346,6 +6346,9 @@ window.showPage = function (pageId) {
                 window.qualityCheck.run('local');
             }
         }
+        if (pageId === 'ai-analysis') {
+            if (window.aiAnalysis) window.aiAnalysis.init();
+        }
         if (pageId === 'ai-content') {
             if (window.refreshTopics) window.refreshTopics();
             if (window.updateCostDisplay) window.updateCostDisplay();
@@ -7447,4 +7450,480 @@ window.qualityCheck = (() => {
         get _hasRun() { return _hasRun; },
         set _hasRun(v) { _hasRun = v; },
     };
+})();
+
+// ═════════════════════════════════════════════════════════════════════════
+// AI ANALİZ PANELİ
+// ═════════════════════════════════════════════════════════════════════════
+window.aiAnalysis = (() => {
+    const API = () => window.CONFIG?.API_URL || 'http://localhost:8002';
+
+    let _topicId = null;
+    let _topicName = null;
+    let _topicLesson = null;
+    let _questions = [];
+    let _filteredQuestions = [];
+    let _currentQuestion = null;
+    let _currentResult = null;
+    let _initialized = false;
+
+    async function init() {
+        if (_initialized) return;
+        _initialized = true;
+        await loadTopics();
+    }
+
+    async function loadTopics() {
+        const sel = document.getElementById('aa-topic-select');
+        if (!sel) return;
+        sel.innerHTML = '<option value="">-- Konu seçin --</option>';
+        try {
+            const res = await fetch(`${API()}/topics`);
+            const topics = await res.json();
+            topics.sort((a, b) => (a.lesson || '').localeCompare(b.lesson || '') || (a.name || '').localeCompare(b.name || ''));
+            let currentLesson = '';
+            topics.forEach(t => {
+                if (t.lesson !== currentLesson) {
+                    const og = document.createElement('optgroup');
+                    og.label = t.lesson || 'Diğer';
+                    sel.appendChild(og);
+                    currentLesson = t.lesson;
+                }
+                const opt = document.createElement('option');
+                opt.value = t.id;
+                opt.textContent = `${t.name} (${t.count})`;
+                opt.dataset.lesson = t.lesson || '';
+                opt.dataset.name = t.name || '';
+                sel.appendChild(opt);
+            });
+        } catch (e) {
+            console.error('aiAnalysis.loadTopics hatası:', e);
+        }
+    }
+
+    async function onTopicChange() {
+        const sel = document.getElementById('aa-topic-select');
+        _topicId = sel.value;
+        const selectedOpt = sel.options[sel.selectedIndex];
+        _topicName = selectedOpt?.dataset?.name || _topicId;
+        _topicLesson = selectedOpt?.dataset?.lesson || '';
+        _questions = [];
+        _filteredQuestions = [];
+        _currentQuestion = null;
+        _currentResult = null;
+        resetContent();
+        if (!_topicId) { updateQuestionSelect([]); document.getElementById('aa-bulk-btn').disabled = true; return; }
+        try {
+            const res = await fetch(`${API()}/questions/${encodeURIComponent(_topicId)}`);
+            const data = await res.json();
+            _questions = Array.isArray(data) ? data : (data.questions || []);
+        } catch (e) {
+            _questions = [];
+        }
+        document.getElementById('aa-bulk-btn').disabled = _questions.length === 0;
+        applyFilter();
+    }
+
+    function onFilterChange() {
+        applyFilter();
+    }
+
+    function applyFilter() {
+        const filter = document.getElementById('aa-filter-select')?.value || 'unanalyzed';
+        const search = (document.getElementById('aa-search-input')?.value || '').toLowerCase().trim();
+        let filtered = _questions;
+        if (filter === 'unanalyzed') filtered = filtered.filter(q => !q._analyzed);
+        else if (filter === 'analyzed') filtered = filtered.filter(q => !!q._analyzed);
+        if (search) filtered = filtered.filter(q => (q.q || '').toLowerCase().includes(search) || (q.id || '').toLowerCase().includes(search));
+        _filteredQuestions = filtered;
+        // show aa-main if topic is selected
+        const mainEl = document.getElementById('aa-main');
+        const emptyEl = document.getElementById('aa-empty');
+        if (_topicId) {
+            if (mainEl) mainEl.style.display = 'grid';
+            if (emptyEl) emptyEl.style.display = 'none';
+        } else {
+            if (mainEl) mainEl.style.display = 'none';
+            if (emptyEl) emptyEl.style.display = 'block';
+        }
+        renderQuestionList(_filteredQuestions);
+    }
+
+    let _expandedIdx = null; // hangi kart açık
+
+    function renderQuestionList(questions) {
+        const listEl = document.getElementById('aa-question-list');
+        const statsEl = document.getElementById('aa-q-stats');
+        if (!listEl) return;
+        const analyzedCount = _questions.filter(q => q._analyzed).length;
+        if (statsEl) statsEl.textContent = _questions.length > 0 ? `${analyzedCount}/${_questions.length} analiz edildi` : 'Sorular';
+
+        if (!questions.length) {
+            const filter = document.getElementById('aa-filter-select')?.value || 'unanalyzed';
+            listEl.innerHTML = `<div style="padding:1.5rem;text-align:center;color:var(--text-muted);font-size:0.82rem">
+                ${filter === 'unanalyzed' && _questions.length > 0 ? '✅ Tüm sorular analiz edildi' : 'Soru bulunamadı'}
+            </div>`;
+            document.getElementById('aa-analyze-btn').disabled = true;
+            return;
+        }
+
+        listEl.innerHTML = questions.map((q, listIdx) => {
+            const realIdx = _questions.indexOf(q);
+            const isSelected = _currentQuestion === q;
+            const isExpanded = _expandedIdx === realIdx;
+            const answerLabel = ['A','B','C','D','E'][q.a ?? 0];
+            const analyzedBadge = q._analyzed
+                ? `<span style="background:rgba(16,185,129,.15);border:1px solid rgba(16,185,129,.4);color:#34d399;font-size:0.65rem;padding:1px 6px;border-radius:8px;flex-shrink:0">✓</span>`
+                : '';
+            const selectedStyle = isSelected
+                ? 'border-left:3px solid var(--primary);background:rgba(99,102,241,0.08);'
+                : 'border-left:3px solid transparent;';
+
+            const optionsHtml = isExpanded && Array.isArray(q.o) ? `
+                <div style="margin-top:0.5rem;display:flex;flex-direction:column;gap:0.2rem">
+                    ${q.o.map((o, i) => `
+                        <div style="font-size:0.75rem;padding:0.25rem 0.4rem;border-radius:4px;${i === q.a ? 'background:rgba(16,185,129,.15);color:#34d399;font-weight:600;' : 'color:var(--text-muted);'}">
+                            ${['A','B','C','D','E'][i]}) ${o}
+                        </div>`).join('')}
+                    ${q.e ? `<div style="margin-top:0.3rem;font-size:0.72rem;color:var(--text-muted);border-top:1px solid var(--border);padding-top:0.3rem">💡 ${q.e}</div>` : ''}
+                </div>` : '';
+
+            return `<div style="border-bottom:1px solid var(--border);${selectedStyle}transition:background .15s">
+                <div style="display:flex;align-items:flex-start;gap:0;padding:0.55rem 0.5rem 0.55rem 0.65rem;cursor:pointer"
+                    onclick="aiAnalysis.selectQuestion(${realIdx})">
+                    <span class="material-icons-round" style="font-size:0.9rem;color:var(--text-muted);margin-top:2px;flex-shrink:0;margin-right:4px;transition:transform .2s;${isExpanded ? 'transform:rotate(90deg)' : ''}">chevron_right</span>
+                    <div style="flex:1;min-width:0">
+                        <div style="display:flex;align-items:center;gap:4px;margin-bottom:2px">
+                            ${analyzedBadge}
+                            <span style="font-size:0.65rem;color:var(--text-muted)">${q.id || realIdx}</span>
+                        </div>
+                        <div style="font-size:0.78rem;color:var(--text-primary);line-height:1.4;${isExpanded ? '' : 'overflow:hidden;white-space:nowrap;text-overflow:ellipsis;max-width:200px'}">
+                            ${(q.q || '').substring(0, isExpanded ? 9999 : 80).replace(/</g,'&lt;')}
+                        </div>
+                        ${optionsHtml}
+                    </div>
+                    <div style="display:flex;gap:3px;flex-shrink:0;margin-left:4px" onclick="event.stopPropagation()">
+                        <button title="Sil" onclick="aiAnalysis.deleteQuestion(${realIdx})"
+                            style="background:rgba(239,68,68,.15);border:1px solid rgba(239,68,68,.3);color:#f87171;border-radius:5px;padding:3px 5px;cursor:pointer;display:flex;align-items:center">
+                            <span class="material-icons-round" style="font-size:0.85rem">delete</span>
+                        </button>
+                    </div>
+                </div>
+            </div>`;
+        }).join('');
+    }
+
+    function onSearchInput() {
+        applyFilter();
+    }
+
+    function onQuestionChange() { /* no-op, replaced by selectQuestion */ }
+
+    function selectQuestion(realIdx) {
+        const q = _questions[realIdx];
+        if (!q) return;
+        // toggle expand
+        if (_expandedIdx === realIdx) {
+            _expandedIdx = null;
+        } else {
+            _expandedIdx = realIdx;
+        }
+        _currentQuestion = q;
+        document.getElementById('aa-analyze-btn').disabled = false;
+        fillEditor(q);
+        renderQuestionList(_filteredQuestions); // re-render to update expansion/selection
+        // scroll into view
+        const listEl = document.getElementById('aa-question-list');
+        if (listEl) {
+            const items = listEl.querySelectorAll('[onclick]');
+            // just keep focus; DOM re-rendered already
+        }
+    }
+
+    async function deleteQuestion(realIdx) {
+        const q = _questions[realIdx];
+        if (!q || !_topicId) return;
+        if (!confirm(`Bu soru silinecek:\n\n"${(q.q || '').substring(0, 80)}..."\n\nEmin misiniz?`)) return;
+        try {
+            const res = await fetch(`${API()}/questions/${encodeURIComponent(_topicId)}/${encodeURIComponent(q.id)}`, {
+                method: 'DELETE'
+            });
+            const data = await res.json();
+            if (!data.success) throw new Error(data.error || 'Silme başarısız');
+            _questions.splice(realIdx, 1);
+            if (_currentQuestion === q) {
+                _currentQuestion = null;
+                document.getElementById('aa-analyze-btn').disabled = true;
+                resetContent();
+            }
+            if (_expandedIdx === realIdx) _expandedIdx = null;
+            applyFilter();
+            document.getElementById('aa-bulk-btn').disabled = _questions.length === 0;
+            if (typeof toast === 'function') toast('✅ Soru silindi');
+        } catch (e) {
+            if (typeof toast === 'function') toast('❌ ' + e.message, 'error');
+        }
+    }
+
+    function fillEditor(q) {
+        if (!q) return;
+        const el = id => document.getElementById(id);
+        if (el('aa-edit-q')) el('aa-edit-q').value = q.q || '';
+        for (let i = 0; i < 5; i++) {
+            if (el(`aa-edit-o${i}`)) el(`aa-edit-o${i}`).value = (q.o && q.o[i]) ? q.o[i] : '';
+        }
+        if (el('aa-edit-a')) el('aa-edit-a').value = String(q.a ?? 0);
+        if (el('aa-edit-d')) el('aa-edit-d').value = String(q.d ?? 3);
+        if (el('aa-edit-e')) el('aa-edit-e').value = q.e || '';
+    }
+
+    function resetContent() {
+        // sadece orta kolon sıfırla; aa-main görünür kalır
+        const verdictBanner = document.getElementById('aa-verdict-banner');
+        const criteriaList  = document.getElementById('aa-criteria-list');
+        const loadingEl     = document.getElementById('aa-loading');
+        if (verdictBanner) verdictBanner.style.display = 'none';
+        if (criteriaList)  criteriaList.innerHTML = '';
+        if (loadingEl)     loadingEl.style.display = 'none';
+    }
+
+    async function analyze() {
+        if (!_currentQuestion) return;
+        const btn = document.getElementById('aa-analyze-btn');
+        btn.disabled = true;
+        btn.innerHTML = '<span class="material-icons-round" style="font-size:18px;animation:spin 1s linear infinite">sync</span> Analiz Ediliyor...';
+        document.getElementById('aa-loading').style.display = 'block';
+        const verdictBanner = document.getElementById('aa-verdict-banner');
+        const criteriaList  = document.getElementById('aa-criteria-list');
+        if (verdictBanner) verdictBanner.style.display = 'none';
+        if (criteriaList)  criteriaList.innerHTML = '';
+        const model = document.getElementById('aa-model-select')?.value || 'google/gemini-3.1-flash-lite-preview';
+        try {
+            const res = await fetch(`${API()}/api/ai/deep-analyze`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    question: _currentQuestion,
+                    topicInfo: { name: _topicName, lesson: _topicLesson },
+                    model
+                })
+            });
+            const data = await res.json();
+            if (!data.success) throw new Error(data.error || 'Analiz başarısız');
+            _currentResult = data;
+            renderResults(data);
+        } catch (e) {
+            document.getElementById('aa-loading').style.display = 'none';
+            const criteriaList = document.getElementById('aa-criteria-list');
+            if (criteriaList) criteriaList.innerHTML = `<div style="padding:1rem;color:var(--danger);text-align:center">
+                <span class="material-icons-round" style="display:block;font-size:2rem;margin-bottom:0.5rem">error</span>${e.message}</div>`;
+        } finally {
+            btn.disabled = false;
+            btn.innerHTML = '<span class="material-icons-round" style="font-size:18px">psychology</span> Analiz Et';
+        }
+    }
+
+    function renderResults(data) {
+        document.getElementById('aa-loading').style.display = 'none';
+        const verdictStyles = {
+            'Geçerli':                   { bg: 'rgba(16,185,129,0.15)',  border: 'rgba(16,185,129,0.4)',  color: '#34d399', icon: 'check_circle' },
+            'Küçük düzeltme gerekli':   { bg: 'rgba(245,158,11,0.15)',  border: 'rgba(245,158,11,0.4)',  color: '#fbbf24', icon: 'warning' },
+            'Revizyon gerekli':            { bg: 'rgba(249,115,22,0.15)',  border: 'rgba(249,115,22,0.4)',  color: '#fb923c', icon: 'edit_note' },
+            'Hatalı':                    { bg: 'rgba(239,68,68,0.15)',   border: 'rgba(239,68,68,0.4)',   color: '#f87171', icon: 'cancel' },
+        };
+        const vs = verdictStyles[data.verdict] || verdictStyles['Geçerli'];
+        const banner = document.getElementById('aa-verdict-banner');
+        banner.style.background = vs.bg;
+        banner.style.border = `1px solid ${vs.border}`;
+        banner.style.color = vs.color;
+        document.getElementById('aa-verdict-icon').textContent = vs.icon;
+        document.getElementById('aa-verdict-text').textContent = data.verdict;
+        document.getElementById('aa-verdict-summary').textContent = data.summary || '';
+        document.getElementById('aa-score').textContent = data.score || '-';
+        const list = document.getElementById('aa-criteria-list');
+        list.innerHTML = (data.criteria || []).map(c => {
+            const borderColor = c.hasError ? 'rgba(239,68,68,0.4)' : 'rgba(16,185,129,0.3)';
+            const iconColor   = c.hasError ? '#f87171' : '#34d399';
+            const icon        = c.hasError ? 'cancel' : 'check_circle';
+            const bgColor     = c.hasError ? 'rgba(239,68,68,0.05)' : 'rgba(16,185,129,0.05)';
+            return `<div style="background:${bgColor};border:1px solid ${borderColor};border-radius:8px;padding:0.7rem 0.9rem">
+                <div style="display:flex;align-items:flex-start;gap:0.6rem">
+                    <span class="material-icons-round" style="font-size:1.1rem;color:${iconColor};flex-shrink:0;margin-top:1px">${icon}</span>
+                    <div style="flex:1;min-width:0">
+                        <div style="font-size:0.78rem;font-weight:600;color:var(--text-primary);margin-bottom:0.2rem">
+                            <span style="color:var(--text-muted);font-size:0.7rem">${c.id}.</span> ${c.name}
+                        </div>
+                        <div style="font-size:0.78rem;color:var(--text-secondary);line-height:1.45">${c.explanation || ''}</div>
+                        ${c.suggestion ? `<div style="margin-top:0.35rem;padding:0.3rem 0.5rem;background:rgba(99,102,241,0.1);border-left:2px solid #6366f1;border-radius:0 4px 4px 0;font-size:0.75rem;color:#a5b4fc">💡 ${c.suggestion}</div>` : ''}
+                    </div>
+                </div>
+            </div>`;
+        }).join('');
+        const contentEl = document.getElementById('aa-content');
+        if (contentEl) contentEl.style.display = 'block';
+        banner.style.display = 'flex';
+    }
+
+    async function save() {
+        if (!_currentQuestion || !_topicId) return;
+        const btn = document.getElementById('aa-save-btn');
+        btn.disabled = true;
+        btn.innerHTML = '<span class="material-icons-round" style="font-size:16px;animation:spin 1s linear infinite">sync</span> Kaydediliyor...';
+        const updatedQ = {
+            ..._currentQuestion,
+            q: document.getElementById('aa-edit-q')?.value || _currentQuestion.q,
+            o: [0,1,2,3,4].map(i => document.getElementById(`aa-edit-o${i}`)?.value || (_currentQuestion.o?.[i] || '')),
+            a: parseInt(document.getElementById('aa-edit-a')?.value ?? _currentQuestion.a ?? 0),
+            d: parseInt(document.getElementById('aa-edit-d')?.value ?? _currentQuestion.d ?? 3),
+            e: document.getElementById('aa-edit-e')?.value || _currentQuestion.e || '',
+            _analyzed: true,
+            _analyzedAt: new Date().toISOString(),
+        };
+        try {
+            const qId = encodeURIComponent(_currentQuestion.id);
+            const res = await fetch(`${API()}/questions/${encodeURIComponent(_topicId)}/${qId}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(updatedQ)
+            });
+            const data = await res.json();
+            if (!data.success) throw new Error(data.error || 'Kayıt başarısız');
+            const idx = _questions.indexOf(_currentQuestion);
+            if (idx !== -1) { _questions[idx] = updatedQ; _currentQuestion = updatedQ; }
+            applyFilter();
+            if (typeof toast === 'function') toast('✅ Soru kaydedildi ve analiz edildi olarak işaretlendi');
+        } catch (e) {
+            if (typeof toast === 'function') toast('❌ ' + e.message, 'error');
+        } finally {
+            btn.disabled = false;
+            btn.innerHTML = '<span class="material-icons-round" style="font-size:16px">save</span> Kaydet &amp; İşaretle';
+        }
+    }
+
+    function nextQuestion() {
+        if (!_currentQuestion || !_filteredQuestions.length) return;
+        const curIdx = _filteredQuestions.indexOf(_currentQuestion);
+        const next = _filteredQuestions[curIdx + 1];
+        if (next) {
+            const realIdx = _questions.indexOf(next);
+            selectQuestion(realIdx);
+        } else {
+            if (typeof toast === 'function') toast('Son sorudayınız', 'warn');
+        }
+    }
+
+    // ─── Toplu Analiz ───────────────────────────────────────────
+    let _bulkRunning = false;
+    let _bulkStop = false;
+
+    async function bulkAnalyze() {
+        if (!_topicId || !_questions.length) return;
+        if (_bulkRunning) return;
+
+        // Analiz edilmemiş soruları bul
+        const toAnalyze = _questions.filter(q => !q._analyzed);
+        if (!toAnalyze.length) {
+            if (typeof toast === 'function') toast('Bu konudaki tüm sorular zaten analiz edilmiş', 'warn');
+            return;
+        }
+
+        const ok = confirm(`${toAnalyze.length} soru sırayla analiz edilip kaydedilecek. Devam edilsin mi?`);
+        if (!ok) return;
+
+        _bulkRunning = true;
+        _bulkStop = false;
+        const model = document.getElementById('aa-model-select')?.value || 'google/gemini-3.1-flash-lite-preview';
+        const total = toAnalyze.length;
+        let done = 0;
+        let errCount = 0;
+
+        // UI güncellemeleri
+        document.getElementById('aa-bulk-progress').style.display = 'block';
+        document.getElementById('aa-bulk-btn').disabled = true;
+        document.getElementById('aa-stop-btn').style.display = '';
+        document.getElementById('aa-analyze-btn').disabled = true;
+        document.getElementById('aa-empty').style.display = 'none';
+        document.getElementById('aa-content').style.display = 'none';
+        document.getElementById('aa-loading').style.display = 'none';
+
+        const updateProgress = () => {
+            const pct = Math.round((done / total) * 100);
+            document.getElementById('aa-bulk-bar').style.width = pct + '%';
+            document.getElementById('aa-bulk-pct').textContent = pct + '%';
+            document.getElementById('aa-bulk-ok').textContent = done - errCount;
+            document.getElementById('aa-bulk-err').textContent = errCount;
+            document.getElementById('aa-bulk-remain').textContent = total - done;
+            document.getElementById('aa-bulk-label').textContent = `Analiz ediliyor: ${done}/${total}`;
+        };
+
+        updateProgress();
+
+        for (const q of toAnalyze) {
+            if (_bulkStop) break;
+
+            document.getElementById('aa-bulk-label').textContent = `İşleniyor: ${(q.q || '').substring(0, 60)}...`;
+
+            try {
+                const res = await fetch(`${API()}/api/ai/deep-analyze`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        question: q,
+                        topicInfo: { name: _topicName, lesson: _topicLesson },
+                        model
+                    })
+                });
+                const data = await res.json();
+                if (!data.success) throw new Error(data.error || 'Analiz başarısız');
+
+                // Soruyu kaydet
+                const updatedQ = { ...q, _analyzed: true, _analyzedAt: new Date().toISOString() };
+                const qId = encodeURIComponent(q.id);
+                const saveRes = await fetch(`${API()}/questions/${encodeURIComponent(_topicId)}/${qId}`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(updatedQ)
+                });
+                const saveData = await saveRes.json();
+                if (!saveData.success) throw new Error(saveData.error || 'Kayıt başarısız');
+
+                const idx = _questions.indexOf(q);
+                if (idx !== -1) _questions[idx] = updatedQ;
+
+                done++;
+            } catch (e) {
+                errCount++;
+                done++;
+                console.error('Bulk analiz hatası (soru:', q.id, '):', e);
+            }
+
+            updateProgress();
+
+            // API rate limit için kısa bekleme
+            if (!_bulkStop) await new Promise(r => setTimeout(r, 300));
+        }
+
+        // Bitince
+        _bulkRunning = false;
+        applyFilter();
+        document.getElementById('aa-stop-btn').style.display = 'none';
+        document.getElementById('aa-bulk-btn').disabled = false;
+        document.getElementById('aa-bulk-label').textContent = _bulkStop
+            ? `⏹ Durduruldu: ${done} / ${total} tamamlandı`
+            : `✅ Tamamlandı: ${done - errCount} başarılı, ${errCount} hatalı`;
+        if (typeof toast === 'function') {
+            toast(_bulkStop
+                ? `⏹ Analiz durduruldu: ${done}/${total} soru işlendi`
+                : `✅ Toplu analiz tamamlandı: ${done - errCount}/${total} başarılı`, _bulkStop ? 'warn' : 'success');
+        }
+        _bulkStop = false;
+    }
+
+    function stopBulk() {
+        _bulkStop = true;
+        document.getElementById('aa-stop-btn').disabled = true;
+        document.getElementById('aa-stop-btn').innerHTML = '<span class="material-icons-round" style="font-size:18px">hourglass_empty</span> Durduruluyor...';
+    }
+
+    return { init, loadTopics, onTopicChange, onFilterChange, onQuestionChange, onSearchInput, selectQuestion, deleteQuestion, analyze, save, nextQuestion, fillEditor, bulkAnalyze, stopBulk };
 })();
