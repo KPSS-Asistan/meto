@@ -7632,11 +7632,11 @@ window.aiAnalysis = (() => {
         document.getElementById('aa-analyze-btn').disabled = false;
         fillEditor(q);
         renderQuestionList(_filteredQuestions); // re-render to update expansion/selection
-        // scroll into view
-        const listEl = document.getElementById('aa-question-list');
-        if (listEl) {
-            const items = listEl.querySelectorAll('[onclick]');
-            // just keep focus; DOM re-rendered already
+        // Kayıtlı analiz sonucu varsa göster, yoksa temizle
+        if (q._analysisResult) {
+            renderResults(q._analysisResult);
+        } else {
+            resetContent();
         }
     }
 
@@ -7778,6 +7778,7 @@ window.aiAnalysis = (() => {
             e: document.getElementById('aa-edit-e')?.value || _currentQuestion.e || '',
             _analyzed: true,
             _analyzedAt: new Date().toISOString(),
+            _analysisResult: _currentResult || undefined,
         };
         try {
             const qId = encodeURIComponent(_currentQuestion.id);
@@ -7880,7 +7881,7 @@ window.aiAnalysis = (() => {
                 if (!data.success) throw new Error(data.error || 'Analiz başarısız');
 
                 // Soruyu kaydet
-                const updatedQ = { ...q, _analyzed: true, _analyzedAt: new Date().toISOString() };
+                const updatedQ = { ...q, _analyzed: true, _analyzedAt: new Date().toISOString(), _analysisResult: { criteria: data.criteria, verdict: data.verdict, score: data.score, summary: data.summary } };
                 const qId = encodeURIComponent(q.id);
                 const saveRes = await fetch(`${API()}/questions/${encodeURIComponent(_topicId)}/${qId}`, {
                     method: 'PUT',
