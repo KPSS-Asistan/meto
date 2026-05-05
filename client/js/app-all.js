@@ -1958,6 +1958,83 @@ function renderDraftAnalysisBadge(result) {
     </div>`;
 }
 
+let _bulkDraftStop = false;
+
+window.bulkAnalyzeDrafts = async function() {
+    const questions = _allPageDrafts.filter(d => d._moduleType === 'questions');
+    if (questions.length === 0) { showToast('Analiz edilecek soru taslağı yok', 'warn'); return; }
+
+    _bulkDraftStop = false;
+    const startBtn = document.getElementById('bulk-draft-analyze-btn');
+    const stopBtn = document.getElementById('bulk-draft-stop-btn');
+    if (startBtn) startBtn.style.display = 'none';
+    if (stopBtn) stopBtn.style.display = 'flex';
+
+    let done = 0, failed = 0;
+    const model = document.getElementById('aa-model-select')?.value || 'google/gemini-3.1-flash-lite-preview';
+
+    for (let i = 0; i < _allPageDrafts.length; i++) {
+        if (_bulkDraftStop) break;
+        const draft = _allPageDrafts[i];
+        if (draft._moduleType !== 'questions') continue;
+
+        const btn = document.getElementById(`draftAnalyzeBtn-${i}`);
+        const resultEl = document.getElementById(`draftAnalysisResult-${i}`);
+        if (btn) { btn.disabled = true; btn.innerHTML = '<span class="material-icons-round" style="font-size:0.9rem;animation:spin 1s linear infinite">sync</span>Analiz...'; }
+
+        try {
+            const res = await fetch(`${API}/api/ai/deep-analyze`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    question: draft,
+                    topicInfo: { name: draft._topicName, lesson: draft._topicLesson },
+                    model
+                })
+            });
+            const data = await res.json();
+            if (!data.success) throw new Error(data.error || 'Analiz başarısız');
+
+            await fetch(`${API}/api/ai-content/update-draft`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    moduleType: 'questions',
+                    topicId: draft._topicId,
+                    index: draft._index,
+                    updatedDraft: {
+                        _analyzed: true,
+                        _analyzedAt: new Date().toISOString(),
+                        _analysisResult: { criteria: data.criteria, verdict: data.verdict, score: data.score, summary: data.summary }
+                    }
+                })
+            });
+
+            _allPageDrafts[i]._analyzed = true;
+            _allPageDrafts[i]._analysisResult = { criteria: data.criteria, verdict: data.verdict, score: data.score, summary: data.summary };
+            if (resultEl) resultEl.innerHTML = renderDraftAnalysisBadge(_allPageDrafts[i]._analysisResult);
+            if (btn) { btn.disabled = false; btn.innerHTML = '<span class="material-icons-round" style="font-size:0.9rem;">psychology</span>Tekrar Analiz'; }
+            done++;
+
+            if (startBtn) startBtn.textContent = `Analiz ediliyor... ${done}/${questions.length}`;
+        } catch(e) {
+            failed++;
+            if (btn) { btn.disabled = false; btn.innerHTML = '<span class="material-icons-round" style="font-size:0.9rem;">psychology</span>Analiz Et'; }
+        }
+    }
+
+    if (startBtn) { startBtn.style.display = 'flex'; startBtn.innerHTML = '<span class="material-icons-round" style="font-size:1rem">psychology</span> Tümünü Analiz Et'; }
+    if (stopBtn) stopBtn.style.display = 'none';
+    showToast(`Analiz tamamlandı: ${done} başarılı${failed ? ', ' + failed + ' hatalı' : ''}`, done > 0 ? 'success' : 'warn');
+};
+
+window.stopBulkAnalyzeDrafts = function() {
+    _bulkDraftStop = true;
+    const stopBtn = document.getElementById('bulk-draft-stop-btn');
+    if (stopBtn) stopBtn.style.display = 'none';
+    showToast('Analiz durduruldu', 'warn');
+};
+
 window.analyzeDraftQuestion = async function(pageIndex) {
     const draft = _allPageDrafts[pageIndex];
     if (!draft || draft._moduleType !== 'questions') return;
