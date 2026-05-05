@@ -7628,6 +7628,48 @@ window.aiAnalysis = (() => {
         applyFilter();
     }
 
+    // 7. kriter hariç herhangi bir kriterinde hata olan analiz edilmiş soruları toplu sil
+    async function deleteErrored() {
+        if (!_topicId || !_questions.length) { aaToast('Önce konu seçin', 'warn'); return; }
+
+        const errored = _questions.filter(q =>
+            q._analyzed &&
+            q._analysisResult?.criteria?.some(c => c.id !== 7 && c.hasError === true)
+        );
+
+        if (!errored.length) {
+            aaToast('7. kriter dışında hata olan soru bulunamadı ✅', 'warn');
+            return;
+        }
+
+        const preview = errored.slice(0, 3).map(q => `• ${(q.q || '').substring(0, 60)}...`).join('\n');
+        const ok = confirm(
+            `7. kriter dışında hata bulunan ${errored.length} soru silinecek:\n\n${preview}${errored.length > 3 ? `\n...ve ${errored.length - 3} tane daha` : ''}\n\nEmin misiniz?`
+        );
+        if (!ok) return;
+
+        let deleted = 0;
+        let failed = 0;
+        for (const q of errored) {
+            try {
+                const res = await fetch(`${API()}/questions/${encodeURIComponent(_topicId)}/${encodeURIComponent(q.id)}`, { method: 'DELETE' });
+                const data = await res.json();
+                if (!data.success) throw new Error(data.error);
+                const idx = _questions.indexOf(q);
+                if (idx !== -1) _questions.splice(idx, 1);
+                if (_currentQuestion === q) { _currentQuestion = null; resetContent(); }
+                deleted++;
+            } catch (e) {
+                console.error('[deleteErrored]', q.id, e.message);
+                failed++;
+            }
+        }
+
+        applyFilter();
+        aaToast(`🗑️ ${deleted} soru silindi${failed ? `, ${failed} hata` : ''}`, failed ? 'warn' : 'success');
+        if (deleted > 0) gitPush();
+    }
+
     // Kayıt sonrası git push
     async function gitPush() {        try {
             const res = await fetch(`${API()}/api/git-push`, { method: 'POST' });
@@ -7973,5 +8015,5 @@ window.aiAnalysis = (() => {
         document.getElementById('aa-stop-btn').innerHTML = '<span class="material-icons-round" style="font-size:18px">hourglass_empty</span> Durduruluyor...';
     }
 
-    return { init, loadTopics, onTopicChange, onFilterChange, onQuestionChange, onSearchInput, selectQuestion, deleteQuestion, analyze, save, nextQuestion, fillEditor, bulkAnalyze, stopBulk };
+    return { init, loadTopics, onTopicChange, onFilterChange, onQuestionChange, onSearchInput, selectQuestion, deleteQuestion, deleteErrored, analyze, save, nextQuestion, fillEditor, bulkAnalyze, stopBulk };
 })();
