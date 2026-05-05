@@ -1101,11 +1101,29 @@
                         </div>
 
                         <!-- AI ile Üret butonu -->
-                        <button id="as-generate-btn" onclick="addSmart.generateWithAI()"
-                            style="width:100%;margin-bottom:1rem;display:flex;align-items:center;justify-content:center;gap:8px;padding:0.65rem;background:linear-gradient(135deg,rgba(99,102,241,0.25),rgba(139,92,246,0.25));border:1px solid rgba(139,92,246,0.5);color:#c4b5fd;border-radius:10px;font-weight:700;font-size:0.9rem;cursor:pointer">
-                            <span class="material-icons-round" style="font-size:20px">auto_awesome</span>
-                            AI ile Soru Üret
-                        </button>
+                        <div style="display:flex;gap:0.5rem;margin-bottom:1rem;align-items:stretch">
+                            <div style="display:flex;flex-direction:column;gap:3px;min-width:72px">
+                                <label style="font-size:0.65rem;color:var(--text-muted);font-weight:600;text-align:center">KAÇ SORU</label>
+                                <input id="as-gen-count" type="number" min="1" max="20" value="1" class="form-input"
+                                    style="width:100%;padding:0.4rem 0.5rem;text-align:center;font-weight:700;font-size:1rem">
+                            </div>
+                            <div style="display:flex;flex-direction:column;gap:3px;flex:1;min-width:100px">
+                                <label style="font-size:0.65rem;color:var(--text-muted);font-weight:600;text-align:center">ZORLUK</label>
+                                <select id="as-gen-difficulty" class="form-input" style="width:100%;padding:0.4rem 0.5rem">
+                                    <option value="0">Rastgele</option>
+                                    <option value="1">1 - Çok Kolay</option>
+                                    <option value="2">2 - Kolay</option>
+                                    <option value="3" selected>3 - Orta</option>
+                                    <option value="4">4 - Zor</option>
+                                    <option value="5">5 - Çok Zor</option>
+                                </select>
+                            </div>
+                            <button id="as-generate-btn" onclick="addSmart.generateWithAI()"
+                                style="flex:2;display:flex;align-items:center;justify-content:center;gap:8px;padding:0.5rem 0.75rem;background:linear-gradient(135deg,rgba(99,102,241,0.25),rgba(139,92,246,0.25));border:1px solid rgba(139,92,246,0.5);color:#c4b5fd;border-radius:10px;font-weight:700;font-size:0.9rem;cursor:pointer;align-self:flex-end">
+                                <span class="material-icons-round" style="font-size:20px">auto_awesome</span>
+                                AI ile Üret
+                            </button>
+                        </div>
 
                         <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-bottom:0.75rem">
                             <div>

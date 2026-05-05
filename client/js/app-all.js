@@ -8357,48 +8357,89 @@ window.addSmart = (() => {
         };
     }
 
+    async function _generateOne(difficulty, subtopic, model) {
+        const genDiff = difficulty === 0 ? Math.ceil(Math.random() * 5) : difficulty;
+        const res = await fetch(`${API()}/api/ai/generate-one`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ topicId: _topicId, topicName: _topicName, lesson: _topicLesson, subtopic, difficulty: genDiff, model })
+        });
+        const data = await res.json();
+        if (!data.success) throw new Error(data.error || 'Üretim başarısız');
+        return { ...data.question, d: data.question.d || genDiff };
+    }
+
+    function _fillForm(q) {
+        const qEl = document.getElementById('as-q');
+        if (qEl) qEl.value = q.q || '';
+        [0,1,2,3,4].forEach(i => {
+            const el = document.getElementById(`as-o${i}`);
+            if (el) el.value = (q.o || [])[i] || '';
+        });
+        const ansEl = document.getElementById('as-answer');
+        if (ansEl) ansEl.value = q.a ?? 0;
+        const expEl = document.getElementById('as-explanation');
+        if (expEl) expEl.value = q.e || '';
+        const diffEl = document.getElementById('as-difficulty');
+        if (diffEl) diffEl.value = q.d || 3;
+        const subEl = document.getElementById('as-subtopic');
+        if (subEl && q.subtopic) subEl.value = q.subtopic;
+    }
+
     async function generateWithAI() {
         if (!_topicId) { asToast('Önce ders ve konu seçin', 'warn'); return; }
 
-        const btn = document.getElementById('as-generate-btn');
-        if (btn) { btn.disabled = true; btn.innerHTML = '<span class="material-icons-round" style="font-size:18px;animation:spin 1s linear infinite">sync</span> Üretiliyor...'; }
-
+        const count = Math.min(20, Math.max(1, parseInt(document.getElementById('as-gen-count')?.value || '1') || 1));
+        const difficulty = parseInt(document.getElementById('as-gen-difficulty')?.value ?? '3');
         const model = document.getElementById('as-model-select')?.value || 'google/gemini-3.1-flash-lite-preview';
         const subtopic = document.getElementById('as-subtopic')?.value.trim() || '';
-        const difficulty = parseInt(document.getElementById('as-difficulty')?.value || '3');
+
+        const btn = document.getElementById('as-generate-btn');
+        const setBtn = (label) => { if (btn) { btn.disabled = !!label; btn.innerHTML = label || '<span class="material-icons-round" style="font-size:20px">auto_awesome</span> AI ile Üret'; } };
+
+        setBtn('<span class="material-icons-round" style="font-size:18px;animation:spin 1s linear infinite">sync</span> Üretiliyor...');
 
         try {
-            const res = await fetch(`${API()}/api/ai/generate-one`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ topicId: _topicId, topicName: _topicName, lesson: _topicLesson, subtopic, difficulty, model })
-            });
-            const data = await res.json();
-            if (!data.success) throw new Error(data.error || 'Üretim başarısız');
+            if (count === 1) {
+                // Tek soru → formu doldur
+                const q = await _generateOne(difficulty, subtopic, model);
+                _fillForm(q);
+                _lastResult = null;
+                resetResult();
+                asToast('✨ Soru üretildi! Düzenleyin ardından analiz edin.', 'success');
+            } else {
+                // Çoklu soru → hepsini taslağa kaydet
+                const questions = [];
+                let done = 0;
+                setBtn(`<span class="material-icons-round" style="font-size:18px;animation:spin 1s linear infinite">sync</span> 0/${count}...`);
+                for (let i = 0; i < count; i++) {
+                    try {
+                        const q = await _generateOne(difficulty, subtopic, model);
+                        questions.push({ ...q, topicId: _topicId, _draftAddedAt: new Date().toISOString() });
+                    } catch(e) {
+                        console.warn(`Soru ${i+1} üretilemedi:`, e.message);
+                    }
+                    done++;
+                    setBtn(`<span class="material-icons-round" style="font-size:18px;animation:spin 1s linear infinite">sync</span> ${done}/${count}...`);
+                }
+                if (questions.length === 0) throw new Error('Hiç soru üretilemedi');
 
-            const q = data.question;
-            const qEl = document.getElementById('as-q');
-            if (qEl) qEl.value = q.q || '';
-            [0,1,2,3,4].forEach(i => {
-                const el = document.getElementById(`as-o${i}`);
-                if (el) el.value = (q.o || [])[i] || '';
-            });
-            const ansEl = document.getElementById('as-answer');
-            if (ansEl) ansEl.value = q.a ?? 0;
-            const expEl = document.getElementById('as-explanation');
-            if (expEl) expEl.value = q.e || '';
-            const diffEl = document.getElementById('as-difficulty');
-            if (diffEl) diffEl.value = q.d || difficulty;
-            const subEl = document.getElementById('as-subtopic');
-            if (subEl && q.subtopic) subEl.value = q.subtopic;
+                const saveRes = await fetch(`${API()}/api/ai-content/add-draft`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ moduleType: 'questions', topicId: _topicId, items: questions })
+                });
+                const saveData = await saveRes.json();
+                if (!saveData.success) throw new Error(saveData.error || 'Taslağa kayıt başarısız');
 
-            _lastResult = null;
-            resetResult();
-            asToast('✨ Soru üretildi! İsterseniz düzenleyin, ardından analiz edin.', 'success');
+                asToast(`✨ ${questions.length} soru taslağa eklendi!`, 'success');
+                if (typeof window.showPage === 'function') window.showPage('drafts');
+                if (typeof window.loadAllDrafts === 'function') window.loadAllDrafts();
+            }
         } catch(e) {
             asToast('Üretim hatası: ' + e.message, 'error');
         } finally {
-            if (btn) { btn.disabled = false; btn.innerHTML = '<span class="material-icons-round" style="font-size:20px">auto_awesome</span> AI ile Soru Üret'; }
+            setBtn(null);
         }
     }
 
