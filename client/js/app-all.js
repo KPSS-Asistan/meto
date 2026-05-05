@@ -8273,6 +8273,7 @@ window.aiAnalysis = (() => {
 // AKILLI SORU EKLE MODULE
 // =====================================================================
 window.addSmart = (() => {
+    const API = () => window.CONFIG?.API_URL || 'http://localhost:8002';
     let _allTopics = [];
     let _topicId = null;
     let _topicName = null;
