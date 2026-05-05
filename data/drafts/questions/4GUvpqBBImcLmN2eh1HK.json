@@ -15,7 +15,101 @@
     "a": 2,
     "e": "Doğru cevap C. Bu söz, toplumda eşitliği, ayrıcalıksızlığı ve kaynaşmayı vurguladığından Halkçılık ilkesi ile doğrudan ilişkilidir.",
     "_part": 1,
-    "_generatedAt": "2026-05-01T21:48:22.676Z"
+    "_generatedAt": "2026-05-01T21:48:22.676Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:44:16.319Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Söz konusu ifade, Halkçılık ilkesinin temelini oluşturan sınıf ayrımının reddi ve toplumsal bütünleşme vurgusuyla tam örtüşmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve doğrudan bilgiye yöneliktir.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": true,
+          "explanation": "Soru kökünde tırnak içindeki ifadede 'bilakis' kelimesinden önce virgül eksikliği ve anlatım bozukluğu riski bulunmaktadır.",
+          "suggestion": "Tırnak içindeki ifade: 'Türk milleti çeşitli sınıflardan oluşan bir bütün değildir; bilakis varlığı ve birliği ile kaynaşmış bir kütledir.' şeklinde düzeltilmelidir."
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru mantıksal olarak tutarlıdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih/vatandaşlık düzeyi için uygun bir bilgi sorusudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Atatürk ilkelerinin temel kavramlarını ayırt etme becerisini ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": false,
+          "explanation": "Şıklar homojen ve konuyla ilgilidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama kısa ve öz bir şekilde doğru cevabı desteklemektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlke ve İnkılapları konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılıdır, sadece küçük bir yazım/noktalama düzeltmesi ile mükemmel hale gelebilir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 9,
+      "summary": "Soru, KPSS standartlarına uygun ve ölçücülüğü yüksek bir sorudur. Sadece tırnak içindeki alıntıda noktalama ve ifade bütünlüğü açısından küçük bir düzeltme yapılması önerilir."
+    },
+    "updatedAt": "2026-05-05T17:44:16.328Z"
   },
   {
     "id": "4GUvpq_1777672087905_2",
@@ -33,7 +127,101 @@
     "a": 4,
     "e": "Doğru cevap E. Soyadı Kanunu, toplumsal eşitliği ve kargaşayı önlemeyi amaçlar, laiklik ilkesiyle doğrudan ilgili değildir.",
     "_part": 1,
-    "_generatedAt": "2026-05-01T21:48:22.676Z"
+    "_generatedAt": "2026-05-01T21:48:22.676Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:44:19.357Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap E şıkkıdır, teknik olarak doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kökünde belirtilen 'eğitim-öğretim birliği' ve 'dinin devlet işlerinden ayrılması' ifadeleri ile şıklar arasında mantıksal bir bağ kurulmuştur.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "İnkılapların amaçlarını ayırt etme becerisini ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "D şıkkı (Tekke, zaviye ve türbelerin kapatılması) laiklik ile doğrudan ilgili olsa da, soru kökündeki 'eğitim-öğretim birliği' vurgusuyla tam örtüşmemektedir. Bu durum çeldiriciliği zayıflatmaktadır.",
+          "suggestion": "Soru kökü sadece 'laiklik' ilkesine odaklanacak şekilde revize edilirse şıklar daha homojen hale gelir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik bir hata bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": true,
+          "explanation": "Açıklama çok kısa ve eksiktir. Soyadı Kanunu'nun halkçılık ilkesiyle ilişkisine değinilmemiştir.",
+          "suggestion": "Açıklama kısmına Soyadı Kanunu'nun 'Halkçılık' ilkesiyle ilgili olduğu bilgisi eklenmelidir."
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Tarafsızdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlke ve İnkılapları konusuna tam uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılıdır ancak açıklama kısmı geliştirilmelidir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru teknik olarak doğru ve KPSS formatına uygun, ancak açıklama kısmının daha detaylı hale getirilmesi ve soru kökündeki 'eğitim-öğretim birliği' vurgusunun şıklarla daha uyumlu hale getirilmesi faydalı olacaktır."
+    },
+    "updatedAt": "2026-05-05T17:44:19.359Z"
   },
   {
     "id": "4GUvpq_1777672087905_3",
@@ -51,7 +239,101 @@
     "a": 0,
     "e": "Doğru cevap A. Saltanatın kaldırılması (1922), egemenliğin tek kişiden millete geçişindeki ilk ve en önemli adımlardandır.",
     "_part": 1,
-    "_generatedAt": "2026-05-01T21:48:22.676Z"
+    "_generatedAt": "2026-05-01T21:48:22.676Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:44:22.086Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Saltanatın kaldırılması (1 Kasım 1922) verilen seçenekler arasındaki en erken tarihli gelişmedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kronolojik bir sıralama mantığına dayanmaktadır ve tutarlıdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Adayın kronolojik bilgi düzeyini ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": false,
+          "explanation": "Şıklar homojen ve konuyla ilgilidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Soru formatı standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": true,
+          "explanation": "Açıklama çok kısa ve yüzeyseldir. Tarihsel süreçlerin kronolojisi (yılları) belirtilerek açıklama zenginleştirilmelidir.",
+          "suggestion": "Açıklamaya olayların tarihleri (1922, 1923, 1924, 1934, 1930/46) eklenerek neden A şıkkının önce olduğu netleştirilmelidir."
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Tarafsız ve etik kurallara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlke ve İnkılapları konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılıdır.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 9,
+      "summary": "Soru teknik ve içerik olarak başarılıdır; ancak açıklama kısmına tarihlerin eklenmesi adayın öğrenme sürecini destekleyecektir."
+    },
+    "updatedAt": "2026-05-05T17:44:22.091Z"
   },
   {
     "id": "4GUvpq_1777672087905_4",
@@ -69,7 +351,101 @@
     "a": 3,
     "e": "Doğru cevap D. Ekonomik kalkınmada devletin aktif rol alması, büyük sanayi ve altyapı yatırımlarını üstlenmesi Devletçilik ilkesinin temelini oluşturur.",
     "_part": 1,
-    "_generatedAt": "2026-05-01T21:48:22.676Z"
+    "_generatedAt": "2026-05-01T21:48:22.676Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:44:24.685Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap Devletçilik ilkesi ile tam örtüşmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve doğrudan bilgiye yöneliktir.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kurgusu mantıksal bir bütünlük arz etmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Temel bir kavram bilgisini ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Çeldiriciler zayıf kalmıştır. Özellikle Milliyetçilik ve Halkçılık, Devletçilik ile karıştırılmaya müsait olsa da daha güçlü çeldiriciler eklenebilirdi.",
+          "suggestion": "Çeldiriciler daha ayırt edici hale getirilebilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama kısa ve öz bir şekilde doğru cevabı desteklemektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlke ve İnkılapları konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılı ve sınav formatına uygundur.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Geçerli",
+      "score": 9,
+      "summary": "Soru, KPSS standartlarına uygun, net ve doğru bir bilgi sorusudur. Çeldiricilerin biraz daha güçlendirilmesi sorunun ayırt ediciliğini artıracaktır."
+    },
+    "updatedAt": "2026-05-05T17:44:24.688Z"
   },
   {
     "id": "4GUvpq_1777672087905_5",
@@ -87,7 +463,101 @@
     "a": 1,
     "e": "Doğru cevap B. Atatürk milliyetçiliği barışçıl ve yayılmacı olmayan bir nitelik taşır, bu nedenle yayılmacılık ile çelişir.",
     "_part": 1,
-    "_generatedAt": "2026-05-01T21:48:22.676Z"
+    "_generatedAt": "2026-05-01T21:48:22.676Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:44:27.670Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Atatürk milliyetçiliği yayılmacı (emperyalist) bir anlayışa karşıdır, cevap doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kökü ile şıklar arasında mantıksal bir bağ kurulmuştur.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS İnkılap Tarihi seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": true,
+          "explanation": "Soru, tanım üzerinden bir çıkarım yapmayı gerektiriyor ancak şıklar kavramsal olarak çok zayıf.",
+          "suggestion": "Şıklar, Atatürk milliyetçiliğinin temel özelliklerini (akılcı, birleştirici, barışçı, milli birlik ve beraberlik) daha iyi yansıtacak şekilde yeniden düzenlenmelidir."
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "A, C, D ve E şıkları Atatürk milliyetçiliği ile çelişmediği için doğrudan eleniyor, çeldiricilikleri çok düşüktür.",
+          "suggestion": "Çeldiriciler; 'ırkçılık', 'ümmetçilik', 'yayılmacılık' gibi Atatürk milliyetçiliğinin reddettiği kavramlar arasından seçilmelidir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik bir hata bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": true,
+          "explanation": "Açıklama çok kısa ve yüzeyseldir.",
+          "suggestion": "Açıklama kısmına Atatürk milliyetçiliğinin 'yurtta sulh cihanda sulh' ilkesiyle olan bağı ve yayılmacılığı reddeden yapısı detaylandırılmalıdır."
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Konu ile tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": true,
+          "explanation": "Soru mantıksal olarak doğru olsa da çeldiriciler zayıf olduğu için ölçme gücü düşüktür.",
+          "suggestion": "Şıklar ve açıklama kısmı daha akademik bir dille zenginleştirilmelidir."
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 6,
+      "summary": "Soru mantıksal olarak doğru ancak çeldiriciler çok zayıf olduğu için sınav formatında ayırt ediciliği düşüktür; şıkların ve açıklamanın geliştirilmesi gerekir."
+    },
+    "updatedAt": "2026-05-05T17:44:27.675Z"
   },
   {
     "id": "4GUvpq_1777672087905_6",
@@ -105,7 +575,101 @@
     "a": 3,
     "e": "Doğru cevap D. İnkılapçılık, çağdaşlaşma ve sürekli yenilenme anlamına gelir, bu da durağanlığın reddedilmesi demektir.",
     "_part": 1,
-    "_generatedAt": "2026-05-01T21:48:22.676Z"
+    "_generatedAt": "2026-05-01T21:48:22.676Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:44:33.230Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap İnkılapçılık ilkesinin tanımıyla tam örtüşmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru mantıksal bir bütünlük içindedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS genel kültür düzeyi için uygun bir bilgi sorusudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "İlke tanımlarını ayırt etme becerisini ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Çeldiriciler zayıf kalmıştır. Diğer ilkeler (Halkçılık, Devletçilik vb.) bu tanım için çok uzak kalmaktadır.",
+          "suggestion": "Çeldiriciler, İnkılapçılık ile karıştırılabilecek 'Batıcılık' veya 'Çağdaşlaşma' gibi kavramlarla desteklenebilir veya soru kökü daha ayırt edici hale getirilebilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama kısa ve öz bir şekilde doğru cevabı desteklemektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlke ve İnkılapları konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru temel düzeyde geçerli bir sorudur.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru teknik ve içerik olarak doğru ancak çeldiricilerin zayıflığı nedeniyle ayırt ediciliği düşüktür; çeldiriciler daha güçlü seçeneklerle zenginleştirilmelidir."
+    },
+    "updatedAt": "2026-05-05T17:44:33.236Z"
   },
   {
     "id": "4GUvpq_1777672087905_7",
@@ -123,7 +687,101 @@
     "a": 2,
     "e": "Doğru cevap C. Millet Mektepleri, Harf İnkılabı sonrası okuma-yazma seferberliği için kurulmuş önemli eğitim kurumlarıdır.",
     "_part": 1,
-    "_generatedAt": "2026-05-01T21:48:22.676Z"
+    "_generatedAt": "2026-05-01T21:48:22.676Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:44:36.278Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap Millet Mektepleri'dir, bilgi doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru mantıksal bir bütünlük arz etmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyinde bir ölçme yapmaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Halkevleri ve Köy Enstitüleri, Millet Mektepleri ile aynı dönemde veya benzer amaçlarla kurulmuş olsa da, 'yeni harflerin tanıtımı' vurgusu soruyu tek cevaba indirgemiştir. Ancak çeldiriciler biraz daha güçlendirilebilir.",
+          "suggestion": "Çeldiriciler, eğitim alanındaki diğer kurumlarla (örneğin Türk Eğitim Derneği gibi) daha homojen hale getirilebilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": true,
+          "explanation": "Açıklama çok kısa ve yüzeysel kalmıştır.",
+          "suggestion": "Açıklama kısmına Millet Mektepleri'nin 1928 yılında kurulduğu ve Harf İnkılabı'nın tamamlayıcısı olduğu bilgisi eklenmelidir."
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Tarafsız ve etik kurallara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlke ve İnkılapları konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılıdır, küçük iyileştirmelerle daha profesyonel hale gelebilir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru, KPSS formatına uygun ve doğru bir bilgiye dayanmaktadır. Sadece açıklama kısmının zenginleştirilmesi ve çeldiricilerin tarihsel bağlamda daha dikkatli seçilmesi önerilir."
+    },
+    "updatedAt": "2026-05-05T17:44:36.281Z"
   },
   {
     "id": "4GUvpq_1777672087905_8",
@@ -141,7 +799,101 @@
     "a": 4,
     "e": "Doğru cevap E. Türk Medeni Kanunu kadınlara medeni haklar tanımış ancak siyasi hakları (seçme ve seçilme) daha sonraki yıllarda verilmiştir.",
     "_part": 1,
-    "_generatedAt": "2026-05-01T21:48:22.676Z"
+    "_generatedAt": "2026-05-01T21:48:22.676Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:44:41.546Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap tarihsel gerçeklerle örtüşmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru, medeni haklar ile siyasi haklar ayrımını doğru bir mantıkla sorgulamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyinde ölçme yapmaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "A, B, C ve D şıkları Medeni Kanun ile verilen haklardır ancak çeldiricilik düzeyleri düşüktür.",
+          "suggestion": "Çeldiriciler, Medeni Kanun ile karıştırılabilecek diğer inkılaplar veya haklar üzerinden daha güçlü kurgulanabilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik bir hata bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterli ve doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlke ve İnkılapları konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılıdır.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Geçerli",
+      "score": 9,
+      "summary": "Soru, KPSS standartlarına uygun, net ve doğru bir bilgi sorusudur. Çeldiricilerin biraz daha güçlendirilmesi soru kalitesini artıracaktır."
+    },
+    "updatedAt": "2026-05-05T17:44:41.553Z"
   },
   {
     "id": "4GUvpq_1777672087905_9",
@@ -157,7 +909,101 @@
     "a": "I ve III",
     "e": "Doğru cevap C. Sosyal eşitlik Halkçılık ile, çağdaşlaşma ve eskiyi bırakma İnkılapçılık ile ilgilidir. Laiklik din-devlet işleri ayrımıdır.",
     "_part": 1,
-    "_generatedAt": "2026-05-01T21:48:22.676Z"
+    "_generatedAt": "2026-05-01T21:48:22.676Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:44:44.728Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": true,
+          "explanation": "Soru kökünde 'sosyal alanda eşitlik' vurgusu baskındır, bu da doğrudan Halkçılık ilkesini işaret eder. İnkılapçılık genel bir süreçtir, ancak Halkçılık daha spesifik ve doğru cevaptır.",
+          "suggestion": "Doğru cevabı A (Halkçılık) olarak güncelleyin."
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü anlaşılır ancak iki farklı ilkeye (Halkçılık ve İnkılapçılık) atıf yapması kafa karıştırıcı.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Ciddi bir yazım hatası yok.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": true,
+          "explanation": "Soru kökünde verilen örnekler (unvanların kaldırılması, kılık-kıyafet) doğrudan Halkçılık ilkesinin temel uygulama alanlarıdır.",
+          "suggestion": "Soru kökünü tek bir ilkeye odaklanacak şekilde netleştirin."
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "Konu müfredata uygun ancak soru kurgusu zayıf.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": true,
+          "explanation": "Soru, iki ilke arasında çelişki yarattığı için ayırt ediciliği düşüktür.",
+          "suggestion": "Çeldiricileri daha belirgin hale getirin."
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Sadece 3 şık verilmiş, KPSS formatına uygun değil.",
+          "suggestion": "Şık sayısını 5'e tamamlayın (D: Devletçilik, E: Milliyetçilik ekleyin)."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": true,
+          "explanation": "KPSS standartlarında 5 şık bulunmalıdır.",
+          "suggestion": "Şık sayısını 5'e çıkarın."
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": true,
+          "explanation": "Açıklama, sorunun neden Halkçılık yerine İnkılapçılık olduğunu mantıksal olarak zayıf temellendiriyor.",
+          "suggestion": "Açıklamayı Halkçılık ilkesinin 'sosyal eşitlik' vurgusu üzerinden yeniden yazın."
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun yok.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Konu Atatürk İlke ve İnkılapları ile uyumlu.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": true,
+          "explanation": "Soru teknik ve içerik açısından revizyona muhtaçtır.",
+          "suggestion": "Soru kökü, şık sayısı ve doğru cevap anahtarı yeniden düzenlenmelidir."
+        }
+      ],
+      "verdict": "Revizyon gerekli",
+      "score": 3,
+      "summary": "Soru, KPSS formatına uygun olmayan şık sayısı ve Halkçılık ilkesini göz ardı eden hatalı cevap anahtarı nedeniyle revizyon gerektirmektedir."
+    },
+    "updatedAt": "2026-05-05T17:44:44.733Z"
   },
   {
     "id": "4GUvpq_1777672087905_10",
@@ -175,6 +1021,1200 @@
     "a": 4,
     "e": "Doğru cevap E. 'Yurtta sulh, cihanda sulh' ilkesi barışçıl ve yayılmacı olmayan bir dış politikayı benimser. Yayılmacılık bu ilkeye aykırıdır.",
     "_part": 1,
-    "_generatedAt": "2026-05-01T21:48:22.676Z"
+    "_generatedAt": "2026-05-01T21:48:22.676Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:44:50.288Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap ilke ile mantıksal olarak çelişmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kurgusu mantıksal bir bütünlük arz etmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": true,
+          "explanation": "E şıkkı bir 'gelişme' değil, bir 'politika türü'dür. Soru kökü 'gelişme' sorduğu için E şıkkı yapısal olarak hatalıdır.",
+          "suggestion": "E şıkkı yerine, yayılmacı bir tutumu temsil eden tarihsel bir olay (örneğin: 'İtalya'nın Habeşistan'ı işgali' gibi) konulmalıdır."
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "E şıkkı diğer şıklarla (tarihsel olaylar) aynı kategoride değildir, bu da çeldiriciliği zayıflatır.",
+          "suggestion": "E şıkkını tarihsel bir olayla değiştirin."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterlidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlkeleri ve dış politika konusuyla uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": true,
+          "explanation": "Soru kökü ile şıklar arasındaki kategorik uyumsuzluk giderilmelidir.",
+          "suggestion": "E şıkkını somut bir tarihsel olayla güncelleyin."
+        }
+      ],
+      "verdict": "Revizyon gerekli",
+      "score": 5,
+      "summary": "Soru kökü 'gelişme' sorduğu halde E şıkkının bir 'politika türü' olması ölçme kalitesini düşürmektedir; şıkların homojenliği sağlanmalıdır."
+    },
+    "updatedAt": "2026-05-05T17:44:50.295Z"
+  },
+  {
+    "q": "Atatürk'ün 'Siyasi ve askeri zaferler ne kadar büyük olursa olsun, ekonomik zaferlerle taçlandırılmazsa meydana gelen zaferler devamlı olamaz.' sözü, aşağıdaki Atatürk ilkelerinden hangisiyle doğrudan ilişkilidir?",
+    "o": [
+      "A) Cumhuriyetçilik",
+      "B) Milliyetçilik",
+      "C) Devletçilik",
+      "D) Halkçılık",
+      "E) İnkılapçılık"
+    ],
+    "a": 2,
+    "e": "Atatürk bu sözüyle ekonomik bağımsızlığı ve kalkınmayı vurgulamıştır. Devletçilik ilkesi, Türkiye'nin ekonomik olarak dışa bağımlılıktan kurtulmasını ve sanayileşmesini hedeflediği için bu sözle doğrudan örtüşmektedir.",
+    "d": 3,
+    "subtopic": "Atatürk İlke ve İnkılapları",
+    "topicId": "4GUvpqBBImcLmN2eh1HK",
+    "_draftAddedAt": "2026-05-05T17:26:39.445Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:44:52.861Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Söz, ekonomik kalkınmayı vurguladığı için Devletçilik ile ilişkilendirilmesi doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": true,
+          "explanation": "Şıkların başında 'A) A)' gibi tekrarlar bulunmaktadır.",
+          "suggestion": "Şık formatlarını 'A)', 'B)' şeklinde düzeltin."
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru mantıksal bir bütünlüğe sahiptir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyini ölçen standart bir sorudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": false,
+          "explanation": "Çeldiriciler makul düzeydedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": true,
+          "explanation": "Şıkların yazımında teknik bir hata (tekrarlı harf kullanımı) mevcuttur.",
+          "suggestion": "Şık formatını standart hale getirin."
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterli ve doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlke ve İnkılapları konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru içerik olarak başarılı ancak biçimsel düzenleme gerektiriyor.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru içerik ve müfredat açısından oldukça başarılıdır; ancak şıkların yazımındaki teknik tekrarların düzeltilmesi gerekmektedir."
+    },
+    "updatedAt": "2026-05-05T17:44:52.864Z"
+  },
+  {
+    "q": "Atatürk ilkelerinden hangisi, devletin ekonomik hayata yön vermesini, yatırımları planlamasını ve özel sektörün yetersiz kaldığı alanlarda bizzat üretici olarak rol almasını zorunlu kılan bir anlayışa dayanmaktadır?",
+    "o": [
+      "A) Milliyetçilik",
+      "B) Halkçılık",
+      "C) Devletçilik",
+      "D) İnkılapçılık",
+      "E) Laiklik"
+    ],
+    "a": 2,
+    "e": "Devletçilik ilkesi, Türkiye'de özel sermaye birikiminin yetersizliği nedeniyle ekonomik kalkınmanın hızlandırılması, yatırımların devlet eliyle yapılması ve devletin ekonomide düzenleyici bir rol üstlenmesini temel alan ekonomi politikasıdır.",
+    "d": 3,
+    "subtopic": "Atatürk İlke ve İnkılapları",
+    "topicId": "4GUvpqBBImcLmN2eh1HK",
+    "_draftAddedAt": "2026-05-05T17:26:39.445Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:44:55.419Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap Devletçilik ilkesidir, tarihsel ve akademik olarak doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve doğrudan bilgiye yöneliktir.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": true,
+          "explanation": "Şıkların başında 'A) A)', 'B) B)' gibi tekrarlı ifadeler bulunmaktadır.",
+          "suggestion": "Şık formatlarını 'A) Milliyetçilik' şeklinde düzeltin."
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kurgusu mantıksal bir bütünlük arz etmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine tam uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Temel bir kavram bilgisini ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": false,
+          "explanation": "Çeldiriciler diğer Atatürk ilkelerinden seçilerek homojen bir yapı oluşturulmuştur.",
+          "suggestion": ""
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": true,
+          "explanation": "Şıkların yazımında teknik bir format hatası mevcuttur.",
+          "suggestion": "Şıkların başındaki harf tekrarlarını kaldırın."
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterli ve konuyu özetler niteliktedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Soru, Atatürk İlke ve İnkılapları konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru içerik olarak başarılı ancak biçimsel düzenleme gerektiriyor.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 9,
+      "summary": "Soru içerik ve akademik doğruluk açısından oldukça başarılıdır; sadece şıkların yazımındaki biçimsel tekrarların düzeltilmesi yeterlidir."
+    },
+    "updatedAt": "2026-05-05T17:44:55.426Z"
+  },
+  {
+    "q": "Atatürkçü düşünce sisteminde aşağıdaki ilkelerden hangisi; devletin dini kurallardan arındırılmasını, aklın ve bilimin rehberliğinde modern bir hukuk düzeninin kurulmasını doğrudan esas alarak, diğer tüm inkılapların gerçekleşmesi için hukuki ve düşünsel bir zemin oluşturmuştur?",
+    "o": [
+      "Laiklik",
+      "Cumhuriyetçilik",
+      "Halkçılık",
+      "Milliyetçilik",
+      "Devletçilik"
+    ],
+    "a": 0,
+    "e": "Laiklik ilkesi, devlet düzeninin ve hukuk kurallarının din kurallarından ayrılmasını ifade eder. Akıl ve bilimi merkeze alarak diğer tüm inkılapların (siyasi, sosyal, hukuki) temel dayanağını oluşturduğu için bütünleyici bir ilkedir.",
+    "d": 2,
+    "subtopic": "Atatürk İlke ve İnkılapları",
+    "topicId": "4GUvpqBBImcLmN2eh1HK",
+    "_draftAddedAt": "2026-05-05T17:26:39.445Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:44:57.779Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap Laikliktir, Atatürkçü düşünce sisteminde hukuki ve düşünsel zemini oluşturan temel ilkedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü oldukça net ve tanımlayıcıdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kurgusu mantıksal bir çerçeveye oturmaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih/inkılap tarihi seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyini ölçen, doğrudan bir soru tipidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": false,
+          "explanation": "Şıklar homojen ve konuyla ilgilidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterli ve doyurucudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Akademik ve tarafsız bir dille yazılmıştır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlke ve İnkılapları konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru, sınav formatına uygun ve kaliteli bir sorudur.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Geçerli",
+      "score": 10,
+      "summary": "Soru, Atatürkçü düşünce sisteminin temelini doğru bir şekilde tanımlamakta olup, KPSS formatına uygun, net ve hatasız bir sorudur."
+    },
+    "updatedAt": "2026-05-05T17:44:57.783Z"
+  },
+  {
+    "q": "Atatürk ilkeleri arasında yer alan 'Laiklik' ilkesinin uygulanması sürecinde, aşağıdakilerden hangisi doğrudan doğruya din ve devlet işlerinin birbirinden ayrılmasını amaçlayan bir düzenleme değildir?",
+    "o": [
+      "Saltanatın kaldırılması",
+      "Tevhid-i Tedrisat Kanunu'nun kabulü",
+      "Medeni Kanun'un kabulü",
+      "Şeriye ve Evkaf Vekâleti'nin kaldırılması",
+      "Tekke, zaviye ve türbelerin kapatılması"
+    ],
+    "a": 1,
+    "e": "Tevhid-i Tedrisat Kanunu (Öğretimin Birleştirilmesi), eğitim ve öğretimde birlik sağlamayı ve milli bir eğitim sistemi kurmayı amaçlayan 'Milliyetçilik' ve 'Halkçılık' ilkeleriyle doğrudan ilgili bir düzenlemedir. Diğer seçenekler ise doğrudan laikleşme süreciyle ilgilidir.",
+    "d": 3,
+    "subtopic": "Atatürk İlke ve İnkılapları",
+    "topicId": "4GUvpqBBImcLmN2eh1HK",
+    "_draftAddedAt": "2026-05-05T17:26:39.445Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:45:01.408Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": true,
+          "explanation": "Tevhid-i Tedrisat Kanunu, eğitimde laikleşmeyi sağlayan en temel adımlardan biridir. Bu nedenle 'laiklik ile ilgisi yoktur' demek tarihsel olarak yanlıştır.",
+          "suggestion": "Soru kökü veya seçenekler değiştirilmelidir. Örneğin; 'Saltanatın kaldırılması' laiklik ile doğrudan ilgili olsa da, Tevhid-i Tedrisat da laiklik sürecinin bir parçasıdır."
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü anlaşılır ancak 'doğrudan doğruya' ifadesi öznel bir yoruma açıktır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": true,
+          "explanation": "Tevhid-i Tedrisat Kanunu, medreselerin kapatılmasına zemin hazırladığı için laiklik ilkesinin eğitim alanındaki en önemli uygulamasıdır. Bu şıkkın 'laiklik ile ilgisiz' olarak işaretlenmesi mantıksal bir çelişkidir.",
+          "suggestion": "Soru kökü '...doğrudan siyasi alanda laikleşmeyi amaçlayan bir düzenleme değildir' şeklinde revize edilmelidir."
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS formatına uygun bir soru tipidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": true,
+          "explanation": "Bilgiyi ölçmek yerine, tartışmalı bir akademik yorumu doğru kabul ettirmeye çalışmaktadır.",
+          "suggestion": "Daha net ayrımı olan seçenekler kullanılmalıdır."
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": false,
+          "explanation": "Çeldiriciler genel olarak laiklik konusuyla ilişkilidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik bir hata yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": true,
+          "explanation": "Açıklama, Tevhid-i Tedrisat'ın laiklik ile olan bağını yok sayarak hatalı bir gerekçe sunmaktadır.",
+          "suggestion": "Açıklama, kanunun laiklik ile olan bağını kabul eden ancak diğer şıkların daha 'doğrudan' olduğunu savunan bir mantığa oturtulmalıdır."
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Konu Atatürk İlke ve İnkılapları ile uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": true,
+          "explanation": "Soru, tarihsel gerçeklik ile çelişen bir doğru cevaba sahip olduğu için hatalıdır.",
+          "suggestion": "Soru kökü veya seçenekler tamamen değiştirilmelidir."
+        }
+      ],
+      "verdict": "Hatalı",
+      "score": 3,
+      "summary": "Tevhid-i Tedrisat Kanunu, laiklik ilkesinin eğitim alanındaki en temel uygulamasıdır; bu nedenle sorunun doğru cevabı tarihsel gerçeklikle çelişmektedir."
+    },
+    "updatedAt": "2026-05-05T17:45:01.417Z"
+  },
+  {
+    "q": "Atatürk'ün 'Siyasal, sosyal ve ekonomik alanlardaki bütün devrimlerimizin temel taşıdır' ifadesiyle tanımladığı ve Türk toplumunu çağdaş uygarlık düzeyine ulaştırma yolunda atılan en köklü adımlardan biri olarak nitelendirdiği inkılap aşağıdakilerden hangisidir?",
+    "o": [
+      "Saltanatın kaldırılması",
+      "Harf İnkılabı",
+      "Tevhid-i Tedrisat Kanunu'nun kabulü",
+      "Türk Medeni Kanunu'nun kabulü",
+      "Soyadı Kanunu'nun kabulü"
+    ],
+    "a": 1,
+    "e": "Mustafa Kemal Atatürk, Harf İnkılabı'nı 'yeni Türk harfleriyle okuma yazmayı öğrenmenin, Türk toplumunun çağdaşlaşması ve eğitim düzeyinin yükseltilmesi yolunda atılan en köklü adım' olarak görmüş ve bunu devrimlerin 'temel taşı' olarak nitelendirmiştir.",
+    "d": 2,
+    "subtopic": "Atatürk İlke ve İnkılapları",
+    "topicId": "4GUvpqBBImcLmN2eh1HK",
+    "_draftAddedAt": "2026-05-05T17:26:39.445Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:45:04.814Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": true,
+          "explanation": "Atatürk'ün 'devrimlerin temel taşı' olarak nitelediği inkılap literatürde genellikle 'Harf İnkılabı' olarak geçse de, bu ifade bazen 'Tevhid-i Tedrisat' veya 'Medeni Kanun' ile karıştırılabilmektedir. Ancak soru kökünde verilen ifade Harf İnkılabı ile özdeşleşmiştir.",
+          "suggestion": "Soru köküne 'okuma yazma seferberliği' veya 'yeni Türk harfleri' gibi ayırt edici bir anahtar kelime eklenerek belirsizlik giderilmelidir."
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü anlaşılır ancak Atatürk'ün bu ifadeyi hangi bağlamda kullandığına dair daha spesifik bir atıf yapılabilir.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kendi içinde tutarlıdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyini ölçen standart bir sorudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": false,
+          "explanation": "Çeldiriciler konuyla ilgili ve makuldür.",
+          "suggestion": ""
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik bir hata yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterlidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlke ve İnkılapları konusuna tam uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılıdır.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru, KPSS formatına uygun ve bilgi ölçücüdür. Ancak 'temel taş' ifadesinin akademik literatürde farklı inkılaplar için de kullanılabildiği göz önüne alınarak, soru köküne daha belirgin bir ipucu eklenmesi sorunun geçerliliğini artıracaktır."
+    },
+    "updatedAt": "2026-05-05T17:45:04.818Z"
+  },
+  {
+    "q": "Atatürk ilkeleri arasında yer alan 'Devletçilik' ilkesinin temel amacı doğrultusunda, aşağıdakilerden hangisi doğrudan bu ilkeyi hayata geçirmek amacıyla atılan adımlardan biri olarak kabul edilemez?",
+    "o": [
+      "Sümerbank'ın kurulması",
+      "I. Beş Yıllık Sanayi Planı'nın uygulanması",
+      "Teşvik-i Sanayi Kanunu'nun çıkarılması",
+      "Etibank'ın kurulması",
+      "Kamu iktisadi teşebbüslerinin (KİT) yaygınlaştırılması"
+    ],
+    "a": 2,
+    "e": "Teşvik-i Sanayi Kanunu (1927), özel sektörü sanayiye yönlendirmek için çıkarılmıştır ve 'Liberal Ekonomi' anlayışını yansıtır. Devletçilik ilkesi ise özel sektörün yetersiz kaldığı alanlarda devletin doğrudan yatırıma girmesini savunur; bu nedenle devletçilik ile doğrudan örtüşmez.",
+    "d": 3,
+    "subtopic": "Atatürk İlke ve İnkılapları",
+    "topicId": "4GUvpqBBImcLmN2eh1HK",
+    "_draftAddedAt": "2026-05-05T17:26:39.445Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:45:07.834Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap tarihsel gerçeklerle tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru, devletçilik ve liberal ekonomi ayrımını mantıksal bir zemine oturtmaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Adayın kavramsal ayrım yapma becerisini ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": false,
+          "explanation": "Çeldiriciler devletçilik uygulamalarıyla doğrudan ilişkili olduğu için güçlüdür.",
+          "suggestion": ""
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama, cevabın nedenini net bir şekilde ortaya koymaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir önyargı veya etik sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlke ve İnkılapları konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru, sınav formatına uygun ve niteliklidir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Geçerli",
+      "score": 10,
+      "summary": "Soru, KPSS standartlarına uygun, kavramsal bilgiyi ölçen ve çeldiricileri güçlü, teknik açıdan hatasız bir sorudur."
+    },
+    "updatedAt": "2026-05-05T17:45:07.840Z"
+  },
+  {
+    "q": "Atatürk ilkeleri arasında yer alan 'Halkçılık' ilkesinin temel amaçlarından biri de toplumsal dayanışmayı güçlendirerek sınıf ayrımını ortadan kaldırmaktır. Aşağıdaki inkılaplardan hangisi doğrudan Halkçılık ilkesiyle ilişkilendirilemez?",
+    "o": [
+      "Soyadı Kanunu'nun kabul edilmesi",
+      "Aşar vergisinin kaldırılması",
+      "Kadınlara seçme ve seçilme hakkının verilmesi",
+      "Miladi takvimin kabul edilmesi",
+      "Kılık kıyafet düzenlemesi yapılması"
+    ],
+    "a": 3,
+    "e": "Miladi takvimin kabul edilmesi, Türk toplumunun Batı dünyası ile zaman birliğini sağlamak amacıyla yapılan bir 'İnkılapçılık' (Çağdaşlaşma) hamlesidir. Diğer seçenekler ise toplumsal eşitliği sağlamaya yönelik olduğundan Halkçılık ilkesiyle doğrudan ilgilidir.",
+    "d": 3,
+    "subtopic": "Atatürk İlke ve İnkılapları",
+    "topicId": "4GUvpqBBImcLmN2eh1HK",
+    "_draftAddedAt": "2026-05-05T17:26:39.445Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:45:11.024Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap D seçeneğidir, teknik olarak doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kurgusu mantıksal bir bütünlük arz etmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatı ve zorluk düzeyi ile uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "İlke-inkılap eşleştirmesi bilgisini ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "E seçeneği (Kılık kıyafet düzenlemesi) de Halkçılık ile doğrudan ilişkilendirilebilir (toplumsal eşitlik/ayrıcalıkların kaldırılması). Bu durum çeldiriciliği zayıflatmaktadır.",
+          "suggestion": "E seçeneği yerine 'Türk Medeni Kanunu'nun kabul edilmesi' gibi daha net bir Halkçılık örneği konulabilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterli ve açıklayıcıdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlke ve İnkılapları konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılı ancak çeldirici seçeneklerin netleştirilmesi gerekir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru genel yapısı itibarıyla KPSS formatına uygun ve başarılıdır. Ancak E seçeneğinin Halkçılık ile olan güçlü bağı, sorunun ayırt ediciliğini düşürmektedir; bu seçeneğin değiştirilmesi önerilir."
+    },
+    "updatedAt": "2026-05-05T17:45:11.027Z"
+  },
+  {
+    "q": "Atatürk ilkelerinden hangisi, devletin ekonomik hayata doğrudan müdahale etmesini, planlı bir kalkınma modelini benimsemesini ve özel sektörün yetersiz kaldığı alanlarda devletin bizzat yatırım yapmasını temel alan bir uygulamadır?",
+    "o": [
+      "Cumhuriyetçilik",
+      "Laiklik",
+      "Milliyetçilik",
+      "Devletçilik",
+      "Halkçılık"
+    ],
+    "a": 3,
+    "e": "Devletçilik ilkesi; ekonomik yatırımların devlet eliyle yapılması, sanayileşmenin hızlandırılması ve özel sermayenin yetersiz kaldığı durumlarda devletin bir girişimci olarak ekonomiye yön vermesini esas alan bir ilkedir.",
+    "d": 3,
+    "subtopic": "Atatürk İlke ve İnkılapları",
+    "topicId": "4GUvpqBBImcLmN2eh1HK",
+    "_draftAddedAt": "2026-05-05T17:26:39.445Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:45:14.038Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap Devletçilik ilkesi ile tam örtüşmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve doğrudan bilgiye yöneliktir.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kurgusu mantıksal bir bütünlük arz etmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Temel bir kavram bilgisini ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Çeldiriciler (Cumhuriyetçilik, Laiklik vb.) konuyla ilgili olsa da, Devletçilik tanımı çok belirgin olduğu için çeldiricilik gücü düşüktür.",
+          "suggestion": "Daha ayırt edici veya birbirine yakın kavramlar (örneğin Halkçılık ile Devletçilik arasındaki farkı sorgulayan bir yapı) tercih edilebilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterli ve açıklayıcıdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlke ve İnkılapları konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılı ve kullanılabilir düzeydedir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Geçerli",
+      "score": 9,
+      "summary": "Soru, KPSS standartlarına uygun, net ve doğru bir bilgi sorusudur. Çeldiricilerin ayırt ediciliği artırılabilir ancak mevcut haliyle de oldukça başarılıdır."
+    },
+    "updatedAt": "2026-05-05T17:45:14.045Z"
+  },
+  {
+    "q": "Atatürk ilkelerinden hangisi, devletin ekonomik alanda planlı ve müdahaleci bir yapı benimsemesini zorunlu kılmış; özel sektörün yetersiz kaldığı alanlarda devletin bizzat yatırım yapmasını öngörmüştür?",
+    "o": [
+      "A) Milliyetçilik",
+      "B) Halkçılık",
+      "C) Devletçilik",
+      "D) İnkılapçılık",
+      "E) Laiklik"
+    ],
+    "a": 2,
+    "e": "Devletçilik ilkesi, Türkiye'de özel sermaye birikiminin yetersiz olduğu dönemde, kalkınmanın hızlandırılması ve temel sanayi yatırımlarının yapılabilmesi için devletin doğrudan ekonomiye müdahale etmesini esas almıştır.",
+    "d": 3,
+    "subtopic": "Atatürk İlke ve İnkılapları",
+    "topicId": "4GUvpqBBImcLmN2eh1HK",
+    "_draftAddedAt": "2026-05-05T17:26:39.445Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:45:16.784Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap Devletçilik ilkesidir, tarihsel ve akademik olarak doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve doğrudan bilgiye yöneliktir.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": true,
+          "explanation": "Şıkların başında 'A) A)' gibi tekrarlı yazım hataları bulunmaktadır.",
+          "suggestion": "Şık formatlarını 'A) Milliyetçilik' şeklinde düzeltin."
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru mantıksal bir bütünlük arz etmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine tam uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Temel bir Atatürk ilkesi bilgisini ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": false,
+          "explanation": "Çeldiriciler diğer Atatürk ilkelerinden seçilerek homojen bir yapı oluşturulmuştur.",
+          "suggestion": ""
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": true,
+          "explanation": "Şıkların formatlanmasında teknik bir hata (harf tekrarı) mevcuttur.",
+          "suggestion": "Şıkların başındaki harf tekrarlarını kaldırın."
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama, cevabı destekleyen yeterli ve doğru bilgiler içermektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Soru tarafsız ve etik kurallara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Soru, Atatürk İlke ve İnkılapları konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru içeriği başarılı ancak biçimsel düzenleme gerektiriyor.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 9,
+      "summary": "Soru içeriği ve akademik doğruluğu açısından oldukça başarılıdır; ancak şıkların yazımındaki teknik tekrarların düzeltilmesi gerekmektedir."
+    },
+    "updatedAt": "2026-05-05T17:45:16.789Z"
+  },
+  {
+    "q": "Atatürk ilkelerinden hangisi, devletin ekonomik alanda planlı bir şekilde kalkınmasını esas alarak, özel sektörün yetersiz kaldığı alanlarda devletin doğrudan yatırım yapmasını zorunlu kılan ilkedir?",
+    "o": [
+      "Devletçilik",
+      "Halkçılık",
+      "Laiklik",
+      "Milliyetçilik",
+      "İnkılapçılık"
+    ],
+    "a": 0,
+    "e": "Devletçilik ilkesi; ekonomik yatırımların devlet eliyle gerçekleştirilmesini, özel sermayenin yetersiz olduğu durumlarda devletin bizzat girişimci olmasını ve planlı kalkınmayı esas alan temel Atatürk ilkesidir.",
+    "d": 3,
+    "subtopic": "Atatürk İlke ve İnkılapları",
+    "topicId": "4GUvpqBBImcLmN2eh1HK",
+    "_draftAddedAt": "2026-05-05T17:26:39.445Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-05T17:45:22.163Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap Devletçilik ilkesidir, bilgi doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve tek bir cevaba yöneliktir.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kurgusu mantıksal bir bütünlük arz etmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine tam uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Temel bir kavram bilgisini doğrudan ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Çeldiriciler Atatürk ilkeleri arasından seçilmiş ancak Devletçilik tanımıyla doğrudan karışma ihtimali düşük olan genel ilkelerdir.",
+          "suggestion": "Çeldiriciler daha çok ekonomik vurgusu olan veya devlet müdahalesiyle ilişkilendirilebilecek kavramlardan seçilebilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterli ve doyurucudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir önyargı veya etik sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Atatürk İlke ve İnkılapları konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru, sınav formatına uygun ve kaliteli bir bilgi sorusudur.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Geçerli",
+      "score": 9,
+      "summary": "Soru, KPSS standartlarına uygun, net ve doğru bir bilgi sorusudur. Çeldiricilerin biraz daha güçlendirilmesi soru kalitesini daha da artırabilir."
+    },
+    "updatedAt": "2026-05-05T17:45:22.170Z"
   }
 ]
