@@ -200,7 +200,7 @@ async function analyzeQuestionDeep(question, topicInfo, model = 'google/gemini-3
 
     const correctOption = Array.isArray(question.o) ? question.o[question.a] : 'bilinmiyor';
 
-    const prompt = `Sen bir KPSS sınav sorusu kalite uzmanısın. Aşağıdaki soruyu 10 kriterde analiz et.
+    const prompt = `Sen bir KPSS sınav sorusu kalite uzmanısın. Aşağıdaki soruyu 12 kriterde analiz et.
 
 KONU: ${topicInfo?.name || 'Genel'} (${topicInfo?.lesson || ''})
 
@@ -230,7 +230,8 @@ Aşağıdaki 10 kriterde TÜRKÇE analiz yap. SADECE JSON döndür, başka hiçb
     { "id": 8, "name": "Teknik Biçim Hataları", "hasError": false, "explanation": "Şık sayısı (5 olmalı), format, id eksikliği gibi teknik sorunları kontrol et", "suggestion": "" },
     { "id": 9, "name": "Açıklama Kalitesi", "hasError": false, "explanation": "Açıklamanın doğru, yeterli ve anlaşılır olup olmadığını değerlendir. Yoksa veya yetersizse hata say.", "suggestion": "" },
     { "id": 10, "name": "Tarafsızlık ve Etik Uygunluk", "hasError": false, "explanation": "Önyargı, ayrımcılık veya etik sorun olup olmadığını değerlendir", "suggestion": "" },
-    { "id": 11, "name": "Genel Karar", "hasError": false, "explanation": "Sorunun genel kullanılabilirlik değerlendirmesi", "suggestion": "" }
+    { "id": 11, "name": "Konu Uygunluğu", "hasError": false, "explanation": "Sorunun belirtilen konu ve ders alanına uygunluğunu değerlendir. Soru yanlış konuya atanmışsa veya konuyla ilgisizse hata say.", "suggestion": "" },
+    { "id": 12, "name": "Genel Karar", "hasError": false, "explanation": "Sorunun genel kullanılabilirlik değerlendirmesi", "suggestion": "" }
   ],
   "verdict": "Geçerli",
   "score": 8,

@@ -7634,17 +7634,17 @@ window.aiAnalysis = (() => {
 
         const errored = _questions.filter(q =>
             q._analyzed &&
-            q._analysisResult?.criteria?.some(c => c.id !== 7 && c.id !== 11 && c.hasError === true)
+            q._analysisResult?.criteria?.some(c => c.id !== 7 && c.id !== 12 && c.hasError === true)
         );
 
         if (!errored.length) {
-            aaToast('7. kriter dışında hata olan soru bulunamadı ✅', 'warn');
+            aaToast('7. ve 12. kriter dışında hata olan soru bulunamadı ✅', 'warn');
             return;
         }
 
         const preview = errored.slice(0, 3).map(q => `• ${(q.q || '').substring(0, 60)}...`).join('\n');
         const ok = confirm(
-            `7. kriter dışında hata bulunan ${errored.length} soru silinecek:\n\n${preview}${errored.length > 3 ? `\n...ve ${errored.length - 3} tane daha` : ''}\n\nEmin misiniz?`
+            `7. ve 12. kriter dışında hata bulunan ${errored.length} soru silinecek:\n\n${preview}${errored.length > 3 ? `\n...ve ${errored.length - 3} tane daha` : ''}\n\nEmin misiniz?`
         );
         if (!ok) return;
 
