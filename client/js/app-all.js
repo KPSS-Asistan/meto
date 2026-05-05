@@ -7634,7 +7634,7 @@ window.aiAnalysis = (() => {
 
         const errored = _questions.filter(q =>
             q._analyzed &&
-            q._analysisResult?.criteria?.some(c => c.id !== 7 && c.hasError === true)
+            q._analysisResult?.criteria?.some(c => c.id !== 7 && c.id !== 11 && c.hasError === true)
         );
 
         if (!errored.length) {

@@ -222,8 +222,9 @@ Aşağıdaki 10 kriterde TÜRKÇE analiz yap. SADECE JSON döndür, başka hiçb
     { "id": 6, "name": "Ölçme-Değerlendirme Kalitesi", "hasError": false, "explanation": "Sorunun gerçek bir bilgi/beceriyi ölçüp ölçmediğini değerlendir", "suggestion": "" },
     { "id": 7, "name": "Şıkların ve Çeldiricilerin Kalitesi", "hasError": false, "explanation": "Yanlış şıkların makul, çeldirici ve homojen olup olmadığını değerlendir", "suggestion": "" },
     { "id": 8, "name": "Teknik Biçim Hataları", "hasError": false, "explanation": "Şık sayısı (5 olmalı), format, id eksikliği gibi teknik sorunları kontrol et", "suggestion": "" },
-    { "id": 9, "name": "Tarafsızlık ve Etik Uygunluk", "hasError": false, "explanation": "Önyargı, ayrımcılık veya etik sorun olup olmadığını değerlendir", "suggestion": "" },
-    { "id": 10, "name": "Genel Karar", "hasError": false, "explanation": "Sorunun genel kullanılabilirlik değerlendirmesi", "suggestion": "" }
+    { "id": 9, "name": "Açıklama Kalitesi", "hasError": false, "explanation": "Açıklamanın doğru, yeterli ve anlaşılır olup olmadığını değerlendir. Yoksa veya yetersizse hata say.", "suggestion": "" },
+    { "id": 10, "name": "Tarafsızlık ve Etik Uygunluk", "hasError": false, "explanation": "Önyargı, ayrımcılık veya etik sorun olup olmadığını değerlendir", "suggestion": "" },
+    { "id": 11, "name": "Genel Karar", "hasError": false, "explanation": "Sorunun genel kullanılabilirlik değerlendirmesi", "suggestion": "" }
   ],
   "verdict": "Geçerli",
   "score": 8,
