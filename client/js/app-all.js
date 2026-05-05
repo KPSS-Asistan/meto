@@ -969,6 +969,29 @@ window.approveSingleDraft = async function (topicId, topicName, moduleType, inde
     aiLog(`✅ [${topicName}] #${index + 1} onaylanıyor...`, 'ai');
 
     try {
+        // Soru taslakları için /add endpointi kullan
+        if (moduleType === 'questions') {
+            const drafts = await (await fetch(`${API}/api/ai-content/drafts?topicId=${encodeURIComponent(topicId)}&moduleType=questions`)).json();
+            const item = (drafts.drafts || [])[index];
+            if (!item) throw new Error('Taslak bulunamadı');
+            const addRes = await fetch(`${API}/add`, {
+                method: 'POST', headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ topicId, questions: [item] })
+            });
+            const addData = await addRes.json();
+            if (!addData.success) throw new Error(addData.error || 'Eklenemedi');
+            // Taslaktan kaldır
+            await fetch(`${API}/api/ai-content/delete-draft`, {
+                method: 'POST', headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ moduleType, topicId, indices: [index] })
+            });
+            aiLog(`✅ [${topicName}] #${index + 1} soru veritabanına eklendi!`, 'success');
+            closeDraftsModal();
+            if (window.loadAllDrafts) await window.loadAllDrafts();
+            showToast(`${topicName} - Soru eklendi!`, 'success');
+            return;
+        }
+
         const res = await fetch(`${API}/api/ai-content/approve-draft`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -1887,11 +1910,18 @@ function renderDraftsList(drafts) {
                                            color:#a5b4fc;border-radius:6px;font-size:0.8rem;cursor:pointer;">
                                     <span class="material-icons-round" style="font-size:0.9rem;">edit</span>Düzenle
                                 </button>
+                                ${draft._moduleType === 'questions' ? `
+                                <button onclick="analyzeDraftQuestion(${i})" id="draftAnalyzeBtn-${i}"
+                                    style="display:flex;align-items:center;gap:0.3rem;padding:0.4rem 0.9rem;
+                                           background:rgba(99,102,241,0.15);border:1px solid rgba(99,102,241,0.4);
+                                           color:#a5b4fc;border-radius:6px;font-size:0.8rem;cursor:pointer;">
+                                    <span class="material-icons-round" style="font-size:0.9rem;">psychology</span>${draft._analyzed ? 'Tekrar Analiz' : 'Analiz Et'}
+                                </button>` : ''}
                                 <button onclick="approveSingleDraft('${draft._topicId}','${draft._topicName.replace(/'/g, "\\'")}','${draft._moduleType}',${draft._index})"
                                     style="display:flex;align-items:center;gap:0.3rem;padding:0.4rem 0.9rem;
                                            background:linear-gradient(135deg,#10b981,#059669);border:none;
                                            color:white;border-radius:6px;font-size:0.8rem;font-weight:600;cursor:pointer;">
-                                    <span class="material-icons-round" style="font-size:0.9rem;">check</span>Onayla
+                                    <span class="material-icons-round" style="font-size:0.9rem;">check</span>${draft._moduleType === 'questions' ? 'Onayla & Ekle' : 'Onayla'}
                                 </button>
                                 <button onclick="deletePageDraftSingle(${i})"
                                     style="display:flex;align-items:center;gap:0.3rem;padding:0.4rem 0.9rem;
@@ -1900,12 +1930,84 @@ function renderDraftsList(drafts) {
                                     <span class="material-icons-round" style="font-size:0.9rem;">delete</span>Sil
                                 </button>
                             </div>
+                            ${draft._moduleType === 'questions' && draft._analyzed && draft._analysisResult ? `
+                            <div id="draftAnalysisResult-${i}" style="margin-top:0.75rem;padding:0.75rem;background:rgba(15,23,42,0.6);border-radius:8px;border:1px solid rgba(255,255,255,0.07)">
+                                ${renderDraftAnalysisBadge(draft._analysisResult)}
+                            </div>` : `<div id="draftAnalysisResult-${i}"></div>`}
                         </div>
                     </div>
                 </div>
             `).join('')}
         </div>`;
 }
+
+function renderDraftAnalysisBadge(result) {
+    const verdictColors = {
+        'Geçerli': { color: '#34d399', icon: 'check_circle' },
+        'Küçük düzeltme gerekli': { color: '#fbbf24', icon: 'info' },
+        'Revizyon gerekli': { color: '#fb923c', icon: 'warning' },
+        'Hatalı': { color: '#f87171', icon: 'cancel' }
+    };
+    const vc = verdictColors[result.verdict] || { color: '#94a3b8', icon: 'help' };
+    const errorCriteria = (result.criteria || []).filter(c => c.hasError);
+    return `<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+        <span class="material-icons-round" style="font-size:16px;color:${vc.color}">${vc.icon}</span>
+        <span style="font-weight:700;color:${vc.color};font-size:0.82rem">${result.verdict}</span>
+        <span style="color:var(--text-muted);font-size:0.78rem">${result.score}/10</span>
+        ${errorCriteria.length ? `<span style="font-size:0.75rem;color:#f87171">${errorCriteria.length} hata: ${errorCriteria.map(c => c.id + '. ' + c.name).join(', ')}</span>` : '<span style="font-size:0.75rem;color:#34d399">✓ Hata yok</span>'}
+    </div>`;
+}
+
+window.analyzeDraftQuestion = async function(pageIndex) {
+    const draft = _allPageDrafts[pageIndex];
+    if (!draft || draft._moduleType !== 'questions') return;
+
+    const btn = document.getElementById(`draftAnalyzeBtn-${pageIndex}`);
+    const resultEl = document.getElementById(`draftAnalysisResult-${pageIndex}`);
+    if (btn) { btn.disabled = true; btn.innerHTML = '<span class="material-icons-round" style="font-size:0.9rem;animation:spin 1s linear infinite">sync</span>Analiz...'; }
+
+    try {
+        const model = document.getElementById('aa-model-select')?.value || 'google/gemini-3.1-flash-lite-preview';
+        const res = await fetch(`${API}/api/ai/deep-analyze`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                question: draft,
+                topicInfo: { name: draft._topicName, lesson: draft._topicLesson },
+                model
+            })
+        });
+        const data = await res.json();
+        if (!data.success) throw new Error(data.error || 'Analiz başarısız');
+
+        // Draft'ı güncelle
+        await fetch(`${API}/api/ai-content/update-draft`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                moduleType: 'questions',
+                topicId: draft._topicId,
+                index: draft._index,
+                updatedDraft: {
+                    _analyzed: true,
+                    _analyzedAt: new Date().toISOString(),
+                    _analysisResult: { criteria: data.criteria, verdict: data.verdict, score: data.score, summary: data.summary }
+                }
+            })
+        });
+
+        // Lokal state güncelle
+        _allPageDrafts[pageIndex]._analyzed = true;
+        _allPageDrafts[pageIndex]._analysisResult = { criteria: data.criteria, verdict: data.verdict, score: data.score, summary: data.summary };
+
+        if (resultEl) resultEl.innerHTML = renderDraftAnalysisBadge(_allPageDrafts[pageIndex]._analysisResult);
+        if (btn) { btn.disabled = false; btn.innerHTML = '<span class="material-icons-round" style="font-size:0.9rem;">psychology</span>Tekrar Analiz'; }
+        showToast(`✅ Analiz tamamlandı: ${data.verdict}`, 'success');
+    } catch(e) {
+        if (btn) { btn.disabled = false; btn.innerHTML = '<span class="material-icons-round" style="font-size:0.9rem;">psychology</span>Analiz Et'; }
+        showToast('Analiz hatası: ' + e.message, 'error');
+    }
+};
 
 window.toggleSelectAllPageDrafts = function (checked) {
     document.querySelectorAll('.page-draft-cb').forEach(cb => cb.checked = checked);
@@ -1971,6 +2073,27 @@ window.approveSelectedDrafts = async function () {
     let errors = 0;
     for (const g of Object.values(groups)) {
         try {
+            // Soru taslakları için /add kullan
+            if (g.moduleType === 'questions') {
+                const draftsRes = await fetch(`${API}/api/ai-content/drafts?topicId=${encodeURIComponent(g.topicId)}&moduleType=questions`);
+                const draftsData = await draftsRes.json();
+                const allDraftsForTopic = draftsData.drafts || [];
+                const toAdd = g.indices.map(i => allDraftsForTopic[i]).filter(Boolean);
+                if (toAdd.length) {
+                    const addRes = await fetch(`${API}/add`, {
+                        method: 'POST', headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ topicId: g.topicId, questions: toAdd })
+                    });
+                    const addData = await addRes.json();
+                    if (!addData.success) throw new Error(addData.error || 'Eklenemedi');
+                    await fetch(`${API}/api/ai-content/delete-draft`, {
+                        method: 'POST', headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ moduleType: 'questions', topicId: g.topicId, indices: g.indices })
+                    });
+                    approved += toAdd.length;
+                }
+                continue;
+            }
             const res = await fetch(`${API}/api/ai-content/approve-draft`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -8326,16 +8449,20 @@ window.addSmart = (() => {
         if (saveBtn) saveBtn.disabled = true;
 
         try {
-            const res = await fetch(`${API()}/add`, {
+            const res = await fetch(`${API()}/api/ai-content/add-draft`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ topicId: _topicId, questions: [question] })
+                body: JSON.stringify({ moduleType: 'questions', topicId: _topicId, items: [question] })
             });
             const data = await res.json();
             if (!data.success) throw new Error(data.error || 'Kayıt başarısız');
-            asToast(`✅ Soru eklendi (${_topicName})`, 'success');
+            asToast(`📥 Taslağa eklendi (${_topicName})`, 'success');
             clearForm();
-            gitPushSmart();
+            // Taslaklar sayfasına geç
+            if (window.showPage) {
+                window.showPage('drafts');
+                if (window.loadAllDrafts) setTimeout(() => window.loadAllDrafts(), 200);
+            }
         } catch (e) {
             asToast('Kayıt hatası: ' + e.message, 'error');
             if (saveBtn) saveBtn.disabled = false;

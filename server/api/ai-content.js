@@ -608,6 +608,23 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
         return sendJSON(res, { success: true, drafts, count: drafts.length });
     }
 
+    // POST /api/ai-content/add-draft - Taslağa yeni öğe ekle
+    if (pathname === '/api/ai-content/add-draft' && req.method === 'POST') {
+        try {
+            const { moduleType, topicId, items } = await parseBody(req);
+            if (!moduleType || !topicId || !items || !Array.isArray(items) || items.length === 0)
+                return sendJSON(res, { error: 'moduleType, topicId ve items[] gerekli' }, 400);
+            if (!VALID_MODULES.includes(moduleType))
+                return sendJSON(res, { error: `Geçersiz moduleType: ${moduleType}` }, 400);
+            const existing = readDraft(moduleType, topicId);
+            const withTs = items.map(item => ({ ...item, _draftAddedAt: new Date().toISOString() }));
+            writeDraft(moduleType, topicId, [...existing, ...withTs]);
+            return sendJSON(res, { success: true, added: items.length, total: existing.length + items.length });
+        } catch (e) {
+            return sendJSON(res, { error: e.message }, 500);
+        }
+    }
+
     // POST /api/ai-content/update-draft - Tek taslağı güncelle
     if (pathname === '/api/ai-content/update-draft' && req.method === 'POST') {
         try {
