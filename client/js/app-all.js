@@ -7624,9 +7624,12 @@ window.aiAnalysis = (() => {
         }).join('');
     }
 
+    function onSearchInput() {
+        applyFilter();
+    }
+
     // Kayıt sonrası git push
-    async function gitPush() {
-        try {
+    async function gitPush() {        try {
             const res = await fetch(`${API()}/api/git-push`, { method: 'POST' });
             const data = await res.json();
             if (data.success) {
