@@ -580,6 +580,9 @@
         <button class="nav-tab" onclick="showPage('add')" data-page="add">
             <span class="material-icons-round">add_circle</span>Soru Ekle
         </button>
+        <button class="nav-tab" onclick="showPage('add-smart')" data-page="add-smart">
+            <span class="material-icons-round">auto_fix_high</span>Akıllı Soru Ekle
+        </button>
         <button class="nav-tab" onclick="showPage('quality-check')" data-page="quality-check">
             <span class="material-icons-round">fact_check</span>Kalite Kontrol
         </button>
@@ -1038,6 +1041,167 @@
                     <div class="loading">
                         <span class="material-icons-round">sync</span>
                         Sorular yükleniyor...
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AKILLI SORU EKLE -->
+        <div id="page-add-smart" class="page">
+            <div class="page-header">
+                <h1 class="page-title">
+                    <span class="material-icons-round">auto_fix_high</span>
+                    Akıllı Soru Ekle
+                </h1>
+                <p class="page-subtitle">12 kriter analizinden geçirerek soru ekleyin</p>
+            </div>
+
+            <!-- Kontrol Barı -->
+            <div style="display:flex;flex-wrap:wrap;gap:1rem;align-items:flex-end;margin-bottom:1.5rem;background:var(--bg-card);padding:1rem 1.25rem;border-radius:12px;border:1px solid var(--border)">
+                <div style="display:flex;flex-direction:column;gap:0.25rem">
+                    <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600">DERS</label>
+                    <select id="as-lesson-select" class="form-input" style="padding:0.45rem 0.7rem;min-width:140px" onchange="addSmart.onLessonChange()">
+                        <option value="">Ders Seç...</option>
+                    </select>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:0.25rem">
+                    <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600">KONU</label>
+                    <select id="as-topic-select" class="form-input" style="padding:0.45rem 0.7rem;min-width:200px" onchange="addSmart.onTopicChange()">
+                        <option value="">Konu Seç...</option>
+                    </select>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:0.25rem">
+                    <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600">MODEL</label>
+                    <select id="as-model-select" class="form-input" style="padding:0.45rem 0.7rem">
+                        <option value="google/gemini-3.1-flash-lite-preview" selected>Gemini 3.1 Flash Lite</option>
+                        <option value="google/gemini-2.5-flash">Gemini 2.5 Flash</option>
+                        <option value="google/gemini-3-flash-preview">Gemini 3 Flash</option>
+                        <option value="deepseek/deepseek-v3.2">DeepSeek V3.2</option>
+                        <option value="google/gemini-2.5-flash-lite">Gemini 2.5 Flash Lite</option>
+                    </select>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:0.25rem">
+                    <label style="font-size:0.72rem;color:transparent">.</label>
+                    <button id="as-clear-btn" class="btn" onclick="addSmart.clearForm()" style="background:rgba(100,116,139,0.15);border:1px solid rgba(100,116,139,0.3);color:#94a3b8">
+                        <span class="material-icons-round" style="font-size:18px">restart_alt</span>
+                        Formu Temizle
+                    </button>
+                </div>
+            </div>
+
+            <!-- Ana 2-kolon layout -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;align-items:start">
+
+                <!-- SOL: Form -->
+                <div style="display:flex;flex-direction:column;gap:1rem">
+                    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem">
+                        <div style="font-weight:700;margin-bottom:1rem;display:flex;align-items:center;gap:8px;color:var(--text-primary)">
+                            <span class="material-icons-round" style="color:#818cf8">edit_note</span>
+                            Soru Bilgileri
+                        </div>
+
+                        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-bottom:0.75rem">
+                            <div>
+                                <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600;display:block;margin-bottom:4px">ALT KONU</label>
+                                <input id="as-subtopic" type="text" class="form-input" placeholder="Ör: Osmanlı Kuruluş" style="width:100%;padding:0.45rem 0.7rem">
+                            </div>
+                            <div>
+                                <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600;display:block;margin-bottom:4px">ZORLUK (1-5)</label>
+                                <select id="as-difficulty" class="form-input" style="width:100%;padding:0.45rem 0.7rem">
+                                    <option value="1">1 - Çok Kolay</option>
+                                    <option value="2">2 - Kolay</option>
+                                    <option value="3" selected>3 - Orta</option>
+                                    <option value="4">4 - Zor</option>
+                                    <option value="5">5 - Çok Zor</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom:0.75rem">
+                            <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600;display:block;margin-bottom:4px">SORU METNİ *</label>
+                            <textarea id="as-q" class="form-input" rows="4" placeholder="Soru metnini girin..." style="width:100%;padding:0.6rem 0.7rem;resize:vertical;font-family:inherit"></textarea>
+                        </div>
+
+                        <div style="margin-bottom:0.75rem">
+                            <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600;display:block;margin-bottom:4px">ŞIKLAR *</label>
+                            <div style="display:flex;flex-direction:column;gap:6px">
+                                <div style="display:flex;align-items:center;gap:8px">
+                                    <span style="font-weight:700;color:#818cf8;min-width:18px">A)</span>
+                                    <input id="as-o0" type="text" class="form-input" placeholder="A şıkkı" style="flex:1;padding:0.4rem 0.6rem">
+                                </div>
+                                <div style="display:flex;align-items:center;gap:8px">
+                                    <span style="font-weight:700;color:#818cf8;min-width:18px">B)</span>
+                                    <input id="as-o1" type="text" class="form-input" placeholder="B şıkkı" style="flex:1;padding:0.4rem 0.6rem">
+                                </div>
+                                <div style="display:flex;align-items:center;gap:8px">
+                                    <span style="font-weight:700;color:#818cf8;min-width:18px">C)</span>
+                                    <input id="as-o2" type="text" class="form-input" placeholder="C şıkkı" style="flex:1;padding:0.4rem 0.6rem">
+                                </div>
+                                <div style="display:flex;align-items:center;gap:8px">
+                                    <span style="font-weight:700;color:#818cf8;min-width:18px">D)</span>
+                                    <input id="as-o3" type="text" class="form-input" placeholder="D şıkkı" style="flex:1;padding:0.4rem 0.6rem">
+                                </div>
+                                <div style="display:flex;align-items:center;gap:8px">
+                                    <span style="font-weight:700;color:#818cf8;min-width:18px">E)</span>
+                                    <input id="as-o4" type="text" class="form-input" placeholder="E şıkkı" style="flex:1;padding:0.4rem 0.6rem">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom:0.75rem">
+                            <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600;display:block;margin-bottom:4px">DOĞRU CEVAP *</label>
+                            <select id="as-answer" class="form-input" style="padding:0.45rem 0.7rem">
+                                <option value="0">A</option>
+                                <option value="1">B</option>
+                                <option value="2">C</option>
+                                <option value="3">D</option>
+                                <option value="4">E</option>
+                            </select>
+                        </div>
+
+                        <div style="margin-bottom:1rem">
+                            <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600;display:block;margin-bottom:4px">AÇIKLAMA *</label>
+                            <textarea id="as-explanation" class="form-input" rows="3" placeholder="Cevabın açıklaması..." style="width:100%;padding:0.6rem 0.7rem;resize:vertical;font-family:inherit"></textarea>
+                        </div>
+
+                        <div style="display:flex;gap:0.75rem">
+                            <button id="as-analyze-btn" class="btn btn-primary" onclick="addSmart.analyze()" style="flex:1">
+                                <span class="material-icons-round" style="font-size:18px">psychology</span>
+                                Analiz Et
+                            </button>
+                            <button id="as-save-btn" class="btn" onclick="addSmart.save()" disabled
+                                style="flex:1;background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.4);color:#34d399;opacity:0.5">
+                                <span class="material-icons-round" style="font-size:18px">save</span>
+                                Kaydet &amp; Ekle
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SAĞ: Analiz Sonucu -->
+                <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem">
+                    <div style="font-weight:700;margin-bottom:1rem;display:flex;align-items:center;gap:8px;color:var(--text-primary)">
+                        <span class="material-icons-round" style="color:#818cf8">fact_check</span>
+                        Analiz Sonucu
+                    </div>
+                    <div id="as-placeholder" style="color:var(--text-muted);text-align:center;padding:3rem 1rem">
+                        <span class="material-icons-round" style="font-size:48px;opacity:0.3;display:block;margin-bottom:0.5rem">psychology</span>
+                        Formu doldurup "Analiz Et" butonuna tıklayın
+                    </div>
+                    <div id="as-loading" style="display:none;color:var(--text-muted);text-align:center;padding:3rem 1rem">
+                        <span class="material-icons-round" style="font-size:36px;opacity:0.5;display:block;margin-bottom:0.5rem;animation:spin 1s linear infinite">sync</span>
+                        Analiz ediliyor...
+                    </div>
+                    <div id="as-result" style="display:none">
+                        <div id="as-verdict-banner" style="padding:0.75rem 1rem;border-radius:10px;margin-bottom:1rem;display:flex;align-items:center;gap:10px">
+                            <span id="as-verdict-icon" class="material-icons-round" style="font-size:22px"></span>
+                            <div>
+                                <div id="as-verdict-text" style="font-weight:700;font-size:1rem"></div>
+                                <div id="as-verdict-summary" style="font-size:0.82rem;opacity:0.85;margin-top:2px"></div>
+                            </div>
+                            <div id="as-score" style="margin-left:auto;font-size:1.5rem;font-weight:800"></div>
+                        </div>
+                        <div id="as-criteria-list" style="display:flex;flex-direction:column;gap:6px"></div>
                     </div>
                 </div>
             </div>

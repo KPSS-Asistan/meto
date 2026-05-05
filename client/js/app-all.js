@@ -8145,3 +8145,220 @@ window.aiAnalysis = (() => {
 
     return { init, loadTopics, onTopicChange, onFilterChange, onQuestionChange, onSearchInput, selectQuestion, deleteQuestion, deleteErrored, analyze, save, nextQuestion, fillEditor, bulkAnalyze, bulkAnalyzeAll, stopBulk };
 })();
+
+// =====================================================================
+// AKILLI SORU EKLE MODULE
+// =====================================================================
+window.addSmart = (() => {
+    let _allTopics = [];
+    let _topicId = null;
+    let _topicName = null;
+    let _topicLesson = null;
+    let _lastResult = null;
+
+    function asToast(msg, type = 'success') {
+        const t = document.getElementById('toast');
+        if (!t) return;
+        t.textContent = msg;
+        t.className = 'toast show' + (type === 'error' ? ' toast-error' : type === 'warn' ? ' toast-warn' : '');
+        clearTimeout(asToast._timer);
+        asToast._timer = setTimeout(() => { t.className = 'toast'; }, 3500);
+    }
+
+    async function init() {
+        try {
+            const res = await fetch(`${API()}/topics`);
+            _allTopics = await res.json();
+            populateLessons();
+        } catch (e) {
+            asToast('Konular yüklenemedi: ' + e.message, 'error');
+        }
+    }
+
+    function populateLessons() {
+        const sel = document.getElementById('as-lesson-select');
+        if (!sel) return;
+        const lessons = [...new Set(_allTopics.map(t => t.lesson).filter(Boolean))].sort();
+        sel.innerHTML = '<option value="">Ders Seç...</option>' +
+            lessons.map(l => `<option value="${l}">${l}</option>`).join('');
+    }
+
+    function onLessonChange() {
+        const lesson = document.getElementById('as-lesson-select')?.value;
+        const topicSel = document.getElementById('as-topic-select');
+        if (!topicSel) return;
+        const filtered = lesson ? _allTopics.filter(t => t.lesson === lesson) : _allTopics;
+        topicSel.innerHTML = '<option value="">Konu Seç...</option>' +
+            filtered.map(t => `<option value="${t.id}">${t.name}</option>`).join('');
+        _topicId = null; _topicName = null; _topicLesson = null;
+    }
+
+    function onTopicChange() {
+        const val = document.getElementById('as-topic-select')?.value;
+        const topic = _allTopics.find(t => t.id === val);
+        _topicId = topic?.id || null;
+        _topicName = topic?.name || null;
+        _topicLesson = topic?.lesson || null;
+    }
+
+    function clearForm() {
+        ['as-q', 'as-o0', 'as-o1', 'as-o2', 'as-o3', 'as-o4', 'as-subtopic', 'as-explanation'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.value = '';
+        });
+        const ans = document.getElementById('as-answer');
+        if (ans) ans.value = '0';
+        const diff = document.getElementById('as-difficulty');
+        if (diff) diff.value = '3';
+        _lastResult = null;
+        resetResult();
+    }
+
+    function resetResult() {
+        document.getElementById('as-placeholder').style.display = '';
+        document.getElementById('as-loading').style.display = 'none';
+        document.getElementById('as-result').style.display = 'none';
+        const saveBtn = document.getElementById('as-save-btn');
+        if (saveBtn) { saveBtn.disabled = true; saveBtn.style.opacity = '0.5'; }
+    }
+
+    function readForm() {
+        return {
+            q: document.getElementById('as-q')?.value.trim() || '',
+            o: [0,1,2,3,4].map(i => document.getElementById(`as-o${i}`)?.value.trim() || ''),
+            a: parseInt(document.getElementById('as-answer')?.value || '0'),
+            e: document.getElementById('as-explanation')?.value.trim() || '',
+            d: parseInt(document.getElementById('as-difficulty')?.value || '3'),
+            subtopic: document.getElementById('as-subtopic')?.value.trim() || '',
+        };
+    }
+
+    async function analyze() {
+        if (!_topicId) { asToast('Önce konu seçin', 'warn'); return; }
+        const q = readForm();
+        if (!q.q) { asToast('Soru metnini girin', 'warn'); return; }
+        const emptyOpts = q.o.filter(o => !o);
+        if (emptyOpts.length > 0) { asToast('Tüm 5 şıkkı doldurun', 'warn'); return; }
+        if (!q.e) { asToast('Açıklama girin', 'warn'); return; }
+
+        document.getElementById('as-placeholder').style.display = 'none';
+        document.getElementById('as-loading').style.display = '';
+        document.getElementById('as-result').style.display = 'none';
+        document.getElementById('as-analyze-btn').disabled = true;
+
+        const model = document.getElementById('as-model-select')?.value || 'google/gemini-3.1-flash-lite-preview';
+        try {
+            const res = await fetch(`${API()}/api/ai/deep-analyze`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ question: q, topicInfo: { name: _topicName, lesson: _topicLesson }, model })
+            });
+            const data = await res.json();
+            if (!data.success) throw new Error(data.error || 'Analiz başarısız');
+            _lastResult = data;
+            renderResult(data);
+        } catch (e) {
+            asToast('Analiz hatası: ' + e.message, 'error');
+            resetResult();
+        } finally {
+            document.getElementById('as-loading').style.display = 'none';
+            document.getElementById('as-analyze-btn').disabled = false;
+        }
+    }
+
+    function renderResult(data) {
+        const verdictColors = {
+            'Geçerli': { bg: 'rgba(16,185,129,0.15)', border: 'rgba(16,185,129,0.4)', color: '#34d399', icon: 'check_circle' },
+            'Küçük düzeltme gerekli': { bg: 'rgba(234,179,8,0.12)', border: 'rgba(234,179,8,0.35)', color: '#fbbf24', icon: 'info' },
+            'Revizyon gerekli': { bg: 'rgba(249,115,22,0.12)', border: 'rgba(249,115,22,0.35)', color: '#fb923c', icon: 'warning' },
+            'Hatalı': { bg: 'rgba(239,68,68,0.12)', border: 'rgba(239,68,68,0.35)', color: '#f87171', icon: 'cancel' }
+        };
+        const vc = verdictColors[data.verdict] || verdictColors['Revizyon gerekli'];
+        const banner = document.getElementById('as-verdict-banner');
+        banner.style.cssText = `padding:0.75rem 1rem;border-radius:10px;margin-bottom:1rem;display:flex;align-items:center;gap:10px;background:${vc.bg};border:1px solid ${vc.border}`;
+        document.getElementById('as-verdict-icon').textContent = vc.icon;
+        document.getElementById('as-verdict-icon').style.color = vc.color;
+        document.getElementById('as-verdict-text').textContent = data.verdict;
+        document.getElementById('as-verdict-text').style.color = vc.color;
+        document.getElementById('as-verdict-summary').textContent = data.summary || '';
+        document.getElementById('as-score').textContent = (data.score || '-') + '/10';
+        document.getElementById('as-score').style.color = vc.color;
+
+        const list = document.getElementById('as-criteria-list');
+        list.innerHTML = (data.criteria || []).map(c => {
+            const hasErr = c.hasError;
+            return `<div style="padding:0.6rem 0.8rem;border-radius:8px;background:${hasErr ? 'rgba(239,68,68,0.07)' : 'rgba(255,255,255,0.03)'};border:1px solid ${hasErr ? 'rgba(239,68,68,0.25)' : 'rgba(255,255,255,0.07)'}">
+                <div style="display:flex;align-items:center;gap:6px;margin-bottom:${c.explanation ? '4px' : '0'}">
+                    <span class="material-icons-round" style="font-size:15px;color:${hasErr ? '#f87171' : '#34d399'}">${hasErr ? 'error' : 'check_circle'}</span>
+                    <span style="font-size:0.8rem;font-weight:700;color:var(--text-primary)">${c.id}. ${c.name}</span>
+                </div>
+                ${c.explanation ? `<div style="font-size:0.78rem;color:var(--text-muted);margin-left:21px">${c.explanation}</div>` : ''}
+                ${c.suggestion ? `<div style="font-size:0.78rem;color:#fbbf24;margin-left:21px;margin-top:2px">💡 ${c.suggestion}</div>` : ''}
+            </div>`;
+        }).join('');
+
+        document.getElementById('as-result').style.display = '';
+        const saveBtn = document.getElementById('as-save-btn');
+        if (saveBtn) { saveBtn.disabled = false; saveBtn.style.opacity = '1'; }
+    }
+
+    async function save() {
+        if (!_topicId) { asToast('Konu seçilmedi', 'warn'); return; }
+        const q = readForm();
+        if (!q.q || q.o.some(o => !o) || !q.e) {
+            asToast('Formu eksiksiz doldurun', 'warn'); return;
+        }
+
+        const question = {
+            ...q,
+            topicId: _topicId,
+            _analyzed: !!_lastResult,
+            _analyzedAt: _lastResult ? new Date().toISOString() : undefined,
+            _analysisResult: _lastResult ? {
+                criteria: _lastResult.criteria,
+                verdict: _lastResult.verdict,
+                score: _lastResult.score,
+                summary: _lastResult.summary
+            } : undefined
+        };
+
+        const saveBtn = document.getElementById('as-save-btn');
+        if (saveBtn) saveBtn.disabled = true;
+
+        try {
+            const res = await fetch(`${API()}/add`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ topicId: _topicId, questions: [question] })
+            });
+            const data = await res.json();
+            if (!data.success) throw new Error(data.error || 'Kayıt başarısız');
+            asToast(`✅ Soru eklendi (${_topicName})`, 'success');
+            clearForm();
+            gitPushSmart();
+        } catch (e) {
+            asToast('Kayıt hatası: ' + e.message, 'error');
+            if (saveBtn) saveBtn.disabled = false;
+        }
+    }
+
+    async function gitPushSmart() {
+        try {
+            const res = await fetch(`${API()}/api/git-push`, { method: 'POST' });
+            const data = await res.json();
+            if (data.success && data.message && !data.message.includes('atlandı') && !data.message.includes('yok'))
+                asToast('☁️ GitHub\'a push edildi', 'success');
+        } catch {}
+    }
+
+    // Sayfa açıldığında init çalıştır
+    document.addEventListener('DOMContentLoaded', () => {
+        const origShow = window.showPage;
+        window.showPage = function(page) {
+            origShow && origShow(page);
+            if (page === 'add-smart' && _allTopics.length === 0) init();
+        };
+    });
+
+    return { init, onLessonChange, onTopicChange, clearForm, analyze, save };
+})();
