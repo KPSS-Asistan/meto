@@ -358,6 +358,69 @@ async function handleAIRoutes(req, res, pathname) {
         }
     }
 
+    // POST /api/ai/generate-one - Tek soru üret
+    if (pathname === '/api/ai/generate-one' && req.method === 'POST') {
+        try {
+            const body = await parseBody(req);
+            const { topicId, topicName, lesson, subtopic, difficulty, model } = body;
+            if (!topicName) return sendJSON(res, { error: 'topicName gerekli' }, 400);
+
+            const apiKey = apiKeyManager.getKey('OPENROUTER_API_KEY');
+            if (!apiKey) return sendJSON(res, { error: 'OpenRouter API key bulunamadı' }, 400);
+
+            const diffLabel = ['', 'Çok Kolay', 'Kolay', 'Orta', 'Zor', 'Çok Zor'][difficulty || 3] || 'Orta';
+
+            const prompt = `Sen bir KPSS sınav uzmanısın. ${lesson || 'KPSS'} dersi, "${topicName}" konusu${subtopic ? ', alt konu: "' + subtopic + '"' : ''} için zorluk seviyesi ${diffLabel} olan 1 adet özgün çoktan seçmeli soru yaz.
+
+KURALLAR:
+- 5 şık olmalı (A-E)
+- Soru kökü KPSS sınav diline uygun, net ve tek anlamlı
+- Yanlış şıklar makul ve çeldirici
+- Açıklama doğru cevabı kısaca gerekçelendirmeli
+- Tamamen Türkçe
+
+SADECE aşağıdaki JSON formatını döndür:
+{
+  "q": "Soru metni...",
+  "o": ["A şıkkı", "B şıkkı", "C şıkkı", "D şıkkı", "E şıkkı"],
+  "a": 0,
+  "e": "Açıklama...",
+  "d": ${difficulty || 3},
+  "subtopic": "${subtopic || topicName}"
+}`;
+
+            const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+                method: 'POST',
+                headers: {
+                    'Authorization': `Bearer ${apiKey}`,
+                    'Content-Type': 'application/json',
+                    'HTTP-Referer': 'http://localhost:8002',
+                    'X-Title': 'KPSS Akilli Soru Uretici'
+                },
+                body: JSON.stringify({
+                    model: model || 'google/gemini-3.1-flash-lite-preview',
+                    messages: [{ role: 'user', content: prompt }],
+                    temperature: 0.8
+                })
+            });
+
+            if (!response.ok) {
+                const errText = await response.text();
+                throw new Error(`OpenRouter: ${response.status} — ${errText.substring(0, 200)}`);
+            }
+
+            const data = await response.json();
+            const content = data.choices?.[0]?.message?.content || '';
+            const jsonMatch = content.match(/\{[\s\S]*\}/);
+            if (!jsonMatch) throw new Error('AI yanıtı parse edilemedi: ' + content.substring(0, 300));
+            const q = JSON.parse(jsonMatch[0]);
+            if (!q.q || !Array.isArray(q.o) || q.o.length !== 5) throw new Error('Geçersiz soru formatı');
+            return sendJSON(res, { success: true, question: q });
+        } catch (e) {
+            return sendJSON(res, { error: e.message }, 500);
+        }
+    }
+
     return false;
 }
 

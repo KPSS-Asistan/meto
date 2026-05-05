@@ -8357,6 +8357,51 @@ window.addSmart = (() => {
         };
     }
 
+    async function generateWithAI() {
+        if (!_topicId) { asToast('Önce ders ve konu seçin', 'warn'); return; }
+
+        const btn = document.getElementById('as-generate-btn');
+        if (btn) { btn.disabled = true; btn.innerHTML = '<span class="material-icons-round" style="font-size:18px;animation:spin 1s linear infinite">sync</span> Üretiliyor...'; }
+
+        const model = document.getElementById('as-model-select')?.value || 'google/gemini-3.1-flash-lite-preview';
+        const subtopic = document.getElementById('as-subtopic')?.value.trim() || '';
+        const difficulty = parseInt(document.getElementById('as-difficulty')?.value || '3');
+
+        try {
+            const res = await fetch(`${API()}/api/ai/generate-one`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ topicId: _topicId, topicName: _topicName, lesson: _topicLesson, subtopic, difficulty, model })
+            });
+            const data = await res.json();
+            if (!data.success) throw new Error(data.error || 'Üretim başarısız');
+
+            const q = data.question;
+            const qEl = document.getElementById('as-q');
+            if (qEl) qEl.value = q.q || '';
+            [0,1,2,3,4].forEach(i => {
+                const el = document.getElementById(`as-o${i}`);
+                if (el) el.value = (q.o || [])[i] || '';
+            });
+            const ansEl = document.getElementById('as-answer');
+            if (ansEl) ansEl.value = q.a ?? 0;
+            const expEl = document.getElementById('as-explanation');
+            if (expEl) expEl.value = q.e || '';
+            const diffEl = document.getElementById('as-difficulty');
+            if (diffEl) diffEl.value = q.d || difficulty;
+            const subEl = document.getElementById('as-subtopic');
+            if (subEl && q.subtopic) subEl.value = q.subtopic;
+
+            _lastResult = null;
+            resetResult();
+            asToast('✨ Soru üretildi! İsterseniz düzenleyin, ardından analiz edin.', 'success');
+        } catch(e) {
+            asToast('Üretim hatası: ' + e.message, 'error');
+        } finally {
+            if (btn) { btn.disabled = false; btn.innerHTML = '<span class="material-icons-round" style="font-size:20px">auto_awesome</span> AI ile Soru Üret'; }
+        }
+    }
+
     async function analyze() {
         if (!_topicId) { asToast('Önce konu seçin', 'warn'); return; }
         const q = readForm();
@@ -8495,5 +8540,5 @@ window.addSmart = (() => {
         init();
     }
 
-    return { init, onLessonChange, onTopicChange, clearForm, analyze, save };
+    return { init, onLessonChange, onTopicChange, clearForm, generateWithAI, analyze, save };
 })();
