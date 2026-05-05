@@ -1,10 +1,27 @@
 const fs = require('fs').promises;
+const fsSync = require('fs');
 const path = require('path');
-const { QUESTIONS_DIR } = require('../config');
+const { QUESTIONS_DIR, DATA_DIR } = require('../config');
 const { sendJSON, parseBody } = require('../utils/helper');
 const { loadQuestions, saveQuestions } = require('../services/questionService');
 
 const { TOPICS } = require('../config/topics');
+
+function bumpVersion(topicId) {
+    const versionPath = path.join(DATA_DIR, 'version.json');
+    try {
+        let v = {};
+        try { v = JSON.parse(fsSync.readFileSync(versionPath, 'utf8')); } catch { v = {}; }
+        if (!v.questions) v.questions = {};
+        v.questions[topicId] = (v.questions[topicId] || 0) + 1;
+        const today = new Date().toISOString().split('T')[0];
+        v.lastUpdated = today;
+        v.last_updated = today;
+        fsSync.writeFileSync(versionPath, JSON.stringify(v, null, 2), 'utf8');
+    } catch (e) {
+        console.error('version.json bump hatası:', e.message);
+    }
+}
 
 async function handleQuestionRoutes(req, res, pathname, searchParams) {
 
@@ -87,6 +104,7 @@ async function handleQuestionRoutes(req, res, pathname, searchParams) {
                 questions[idx] = { ...questions[idx], ...body };
 
                 await saveQuestions(topicId, questions);
+                bumpVersion(topicId);
                 return sendJSON(res, { success: true, question: questions[idx] });
             } catch (e) {
                 return sendJSON(res, { error: e.message }, 500);
@@ -162,7 +180,7 @@ async function handleQuestionRoutes(req, res, pathname, searchParams) {
 
                 questions.splice(idx, 1);
                 await saveQuestions(topicId, questions);
-
+                bumpVersion(topicId);
                 return sendJSON(res, { success: true, message: 'Soru silindi' });
             } catch (e) {
                 return sendJSON(res, { error: e.message }, 500);
@@ -281,6 +299,7 @@ async function handleQuestionRoutes(req, res, pathname, searchParams) {
 
             // Kaydet
             await saveQuestions(topicId, existingQuestions);
+            bumpVersion(topicId);
 
             return sendJSON(res, {
                 success: true,
