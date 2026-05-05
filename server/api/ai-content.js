@@ -1305,6 +1305,7 @@ Hedef dağılım: ~%25 klasik · %30 bağlamsal · %15 öncüllü · %15 olumsuz
 
 CEVAP (a): 0-4 index (A=0..E=4). Tartışmasız kaynaklı.
 AÇIKLAMA (e): 100-220 karakter. Format: "Doğru cevap [HARF]. [Gerekçe + çeldirici notu]."
+YASAK: Düşünce süreci, seçenek analizi ("Seçenekleri inceleyelim:", "Şıkları analiz edelim:", "Sözcüklerin yapısını inceleyelim:" vb.) veya iç monolog ifadeleri KESİNLİKLE yazma. Sadece tek cümle özet.
 ALT KONU: subtopic (TR, büyük harfle) + subtopicId (küçük harf, tire). En az 3-5 farklı subtopic.
 
 ${count} sorunun hepsi FARKLI kavram/olay. Zamansız (2024 Cumhurbaşkanı gibi güncel YOK).
