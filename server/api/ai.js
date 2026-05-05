@@ -187,6 +187,87 @@ JSON FORMAT (Sadece bu formatta yanıt ver):
     }
 }
 
+// AI Deep Analysis - 10 Kriter (Tek Soru)
+async function analyzeQuestionDeep(question, topicInfo, model = 'google/gemini-3.1-flash-lite-preview') {
+    const apiKey = apiKeyManager.getKey('OPENROUTER_API_KEY');
+    if (!apiKey) throw new Error('OpenRouter API key bulunamadı');
+
+    const correctOption = Array.isArray(question.o) ? question.o[question.a] : 'bilinmiyor';
+
+    const prompt = `Sen bir KPSS sınav sorusu kalite uzmanısın. Aşağıdaki soruyu 10 kriterde analiz et.
+
+KONU: ${topicInfo?.name || 'Genel'} (${topicInfo?.lesson || ''})
+
+SORU:
+${question.q}
+
+ŞIKLAR:
+${Array.isArray(question.o) ? question.o.map((o, i) => `${String.fromCharCode(65 + i)}) ${o}`).join('\n') : 'Yok'}
+
+DOĞRU CEVAP: ${String.fromCharCode(65 + (question.a || 0))}) ${correctOption}
+
+AÇIKLAMA: ${question.e || 'Yok'}
+
+---
+
+Aşağıdaki 10 kriterde TÜRKÇE analiz yap. SADECE JSON döndür, başka hiçbir şey yazma:
+
+{
+  "criteria": [
+    { "id": 1, "name": "Doğru Cevap Doğruluğu", "hasError": false, "explanation": "Doğru cevabın gerçekten doğru olup olmadığını değerlendir", "suggestion": "" },
+    { "id": 2, "name": "Soru Kökü Açıklığı", "hasError": false, "explanation": "Soru kökünün net, anlaşılır ve tek anlamlı olup olmadığını değerlendir", "suggestion": "" },
+    { "id": 3, "name": "Yazım, Noktalama ve Anlatım Hataları", "hasError": false, "explanation": "Yazım/dil/noktalama hatalarını belirt", "suggestion": "" },
+    { "id": 4, "name": "Mantık ve Tutarlılık", "hasError": false, "explanation": "Sorunun iç tutarlılığını ve mantıksal bütünlüğünü değerlendir", "suggestion": "" },
+    { "id": 5, "name": "KPSS Müfredat ve Seviye Uygunluğu", "hasError": false, "explanation": "KPSS müfredatına ve sınav düzeyine uygunluğunu değerlendir", "suggestion": "" },
+    { "id": 6, "name": "Ölçme-Değerlendirme Kalitesi", "hasError": false, "explanation": "Sorunun gerçek bir bilgi/beceriyi ölçüp ölçmediğini değerlendir", "suggestion": "" },
+    { "id": 7, "name": "Şıkların ve Çeldiricilerin Kalitesi", "hasError": false, "explanation": "Yanlış şıkların makul, çeldirici ve homojen olup olmadığını değerlendir", "suggestion": "" },
+    { "id": 8, "name": "Teknik Biçim Hataları", "hasError": false, "explanation": "Şık sayısı (5 olmalı), format, id eksikliği gibi teknik sorunları kontrol et", "suggestion": "" },
+    { "id": 9, "name": "Tarafsızlık ve Etik Uygunluk", "hasError": false, "explanation": "Önyargı, ayrımcılık veya etik sorun olup olmadığını değerlendir", "suggestion": "" },
+    { "id": 10, "name": "Genel Karar", "hasError": false, "explanation": "Sorunun genel kullanılabilirlik değerlendirmesi", "suggestion": "" }
+  ],
+  "verdict": "Geçerli",
+  "score": 8,
+  "summary": "Kısa genel özet (1-2 cümle)"
+}
+
+KURALLAR:
+- verdict SADECE: "Geçerli" | "Küçük düzeltme gerekli" | "Revizyon gerekli" | "Hatalı"
+- hasError true ise explanation ve suggestion doldur
+- hasError false ise suggestion boş bırakabilirsin
+- score 1-10 arası tam sayı
+- SADECE JSON döndür`;
+
+    const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+            'Authorization': `Bearer ${apiKey}`,
+            'Content-Type': 'application/json',
+            'HTTP-Referer': 'http://localhost:3456',
+            'X-Title': 'KPSS Soru Derin Analiz'
+        },
+        body: JSON.stringify({
+            model,
+            messages: [{ role: 'user', content: prompt }],
+            temperature: 0.1
+        })
+    });
+
+    if (!response.ok) {
+        const errText = await response.text();
+        throw new Error(`OpenRouter hatası: ${response.status} — ${errText.substring(0, 200)}`);
+    }
+
+    const data = await response.json();
+    const content = data.choices?.[0]?.message?.content || '';
+
+    const jsonMatch = content.match(/\{[\s\S]*\}/);
+    if (jsonMatch) {
+        return JSON.parse(jsonMatch[0]);
+    }
+
+    throw new Error('AI yanıtı parse edilemedi: ' + content.substring(0, 300));
+}
+
 async function handleAIRoutes(req, res, pathname) {
     // GET /api/ai/status
     if (pathname === '/api/ai/status' && req.method === 'GET') {
@@ -246,6 +327,23 @@ async function handleAIRoutes(req, res, pathname) {
 
             const results = await analyzeQuestionsWithAI(toReview, topicInfo);
             return sendJSON(res, { success: true, reviewed: toReview.length, results });
+        } catch (e) {
+            return sendJSON(res, { error: e.message }, 500);
+        }
+    }
+
+    // POST /api/ai/deep-analyze
+    if (pathname === '/api/ai/deep-analyze' && req.method === 'POST') {
+        try {
+            const body = await parseBody(req);
+            const { question, topicInfo, model } = body;
+
+            if (!question || !question.q) {
+                return sendJSON(res, { error: 'question objesi gerekli (q alanı içermeli)' }, 400);
+            }
+
+            const result = await analyzeQuestionDeep(question, topicInfo, model);
+            return sendJSON(res, { success: true, ...result });
         } catch (e) {
             return sendJSON(res, { error: e.message }, 500);
         }

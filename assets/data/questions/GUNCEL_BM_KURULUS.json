@@ -1,182 +1,972 @@
 [
-  {
-    "id": "GUNCEL_1776016403013_1",
-    "topicId": "GUNCEL_BM_KURULUS",
-    "subtopicId": "BM_TEMEL_ILKELER",
-    "subtopic": "Birleşmiş Milletler'in Kuruluşu ve Temel İlkeleri",
-    "q": "Birleşmiş Milletler (BM) teşkilatı, II. Dünya Savaşı sonrasında uluslararası barışı ve güvenliği korumak amacıyla 1945 yılında hangi şehirde imzalanan antlaşma ile kurulmuştur?",
-    "o": [
-      "Londra",
-      "Paris",
-      "San Francisco",
-      "Washington",
-      "Cenevre"
-    ],
-    "a": 2,
-    "e": "Doğru cevap San Francisco'dur; BM Şartı 1945'te San Francisco Konferansı'nda imzalanmıştır. Londra ve Paris gibi şehirler kuruluş sürecinde etkin olsa da imza yeri San Francisco'dur.",
-    "_part": 1,
-    "_generatedAt": "2026-04-12T17:53:33.397Z"
-  },
-  {
-    "id": "GUNCEL_1776016403013_2",
-    "topicId": "GUNCEL_BM_KURULUS",
-    "subtopicId": "GUVENLIK_KONSEY_KONSEYI",
-    "subtopic": "BM Güvenlik Konseyi Yapısı",
-    "q": "Birleşmiş Milletler Güvenlik Konseyi'nde (BMGK) veto yetkisine sahip olan beş daimi üyeden biri aşağıdakilerden hangisidir?",
-    "o": [
-      "Almanya",
-      "Japonya",
-      "Hindistan",
-      "Çin",
-      "Brezilya"
-    ],
-    "a": 3,
-    "e": "Doğru cevap Çin'dir. BMGK'nın 5 daimi üyesi ABD, Rusya, Çin, Fransa ve İngiltere'dir. Diğer şıklar geçici üye adayı olsalar da daimi statüde değildirler.",
-    "_part": 2,
-    "_generatedAt": "2026-04-12T17:53:33.397Z"
-  },
-  {
-    "id": "GUNCEL_1776016403013_3",
-    "topicId": "GUNCEL_BM_KURULUS",
-    "subtopicId": "UNESCO",
-    "subtopic": "UNESCO'nun Görevleri",
-    "q": "Dünya genelinde kültürel mirasın korunması, eğitimde fırsat eşitliği ve bilimsel iş birliğini teşvik etmeyi amaçlayan BM uzmanlık kuruluşu aşağıdakilerden hangisidir?",
-    "o": [
-      "UNICEF",
-      "UNESCO",
-      "WHO",
-      "FAO",
-      "ILO"
-    ],
-    "a": 1,
-    "e": "Doğru cevap UNESCO'dur; eğitim, bilim ve kültür alanlarında çalışır. UNICEF çocuklara, WHO sağlığa, FAO gıdaya, ILO ise çalışma yaşamına odaklanır.",
-    "_part": 3,
-    "_generatedAt": "2026-04-12T17:53:33.397Z"
-  },
-  {
-    "id": "GUNCEL_1776016403013_4",
-    "topicId": "GUNCEL_BM_KURULUS",
-    "subtopicId": "BM_GENEL_KURUL",
-    "subtopic": "BM Genel Kurulu'nun Yetkileri",
-    "q": "BM Genel Kurulu ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
-    "o": [
-      "Tüm üye devletler temsil edilir",
-      "Her ülkenin bir oy hakkı vardır",
-      "Bağlayıcı kararlar alma yetkisi sınırlıdır",
-      "Güvenlik Konseyi kararlarını veto edebilir",
-      "Bütçe onaylama yetkisine sahiptir"
-    ],
-    "a": 3,
-    "e": "Doğru cevap D'dir; Genel Kurul'un Güvenlik Konseyi'ni veto etme yetkisi yoktur. Aksine, BMGK kararları üzerinde Genel Kurul'un yaptırım gücü oldukça kısıtlıdır.",
-    "_part": 4,
-    "_generatedAt": "2026-04-12T17:53:33.397Z"
-  },
-  {
-    "id": "GUNCEL_1776016403013_5",
-    "topicId": "GUNCEL_BM_KURULUS",
-    "subtopicId": "WHO",
-    "subtopic": "Dünya Sağlık Örgütü (WHO)",
-    "q": "Küresel halk sağlığı standartlarını belirleyen, salgın hastalıklarla mücadele eden ve merkezi Cenevre'de bulunan BM kuruluşu hangisidir?",
-    "o": [
-      "UNHCR",
-      "WHO",
-      "WFP",
-      "UNCTAD",
-      "UNEP"
-    ],
-    "a": 1,
-    "e": "Doğru cevap WHO (Dünya Sağlık Örgütü)'dür. Diğerleri sırasıyla mülteciler, gıda, ticaret ve çevre ile ilgilidir.",
-    "_part": 5,
-    "_generatedAt": "2026-04-12T17:53:33.397Z"
-  },
-  {
-    "id": "GUNCEL_1776016403013_6",
-    "topicId": "GUNCEL_BM_KURULUS",
-    "subtopicId": "ADALET_DIVANI",
-    "subtopic": "Uluslararası Adalet Divanı",
-    "q": "Devletler arasındaki hukuki uyuşmazlıkları çözümleyen ve merkezi Hollanda'nın Lahey kentinde bulunan BM yargı organı aşağıdakilerden hangisidir?",
-    "o": [
-      "Uluslararası Ceza Mahkemesi",
-      "Uluslararası Adalet Divanı",
-      "BM İnsan Hakları Konseyi",
-      "Ekonomik ve Sosyal Konsey",
-      "Vesayet Konseyi"
-    ],
-    "a": 1,
-    "e": "Doğru cevap Uluslararası Adalet Divanı'dır. Uluslararası Ceza Mahkemesi (UCM) BM'ye bağlı olsa da statüsü farklıdır ve bireyleri yargılar.",
-    "_part": 6,
-    "_generatedAt": "2026-04-12T17:53:33.397Z"
-  },
-  {
-    "id": "GUNCEL_1776016403013_7",
-    "topicId": "GUNCEL_BM_KURULUS",
-    "subtopicId": "UNICEF",
-    "subtopic": "UNICEF'in Faaliyet Alanı",
-    "q": "İkinci Dünya Savaşı sonrasında çocukların beslenme, sağlık ve eğitim ihtiyaçlarını karşılamak amacıyla kurulan BM kuruluşu hangisidir?",
-    "o": [
-      "UNICEF",
-      "UNDP",
-      "UNIDO",
-      "UNFPA",
-      "UNRWA"
-    ],
-    "a": 0,
-    "e": "Doğru cevap UNICEF'tir. Çocuklara yardım fonu olarak kurulmuştur. Diğerleri kalkınma, endüstri, nüfus ve mültecilerle ilgili kuruluşlardır.",
-    "_part": 7,
-    "_generatedAt": "2026-04-12T17:53:33.397Z"
-  },
-  {
-    "id": "GUNCEL_1776016403013_8",
-    "topicId": "GUNCEL_BM_KURULUS",
-    "subtopicId": "BM_GENEL_SEKRETER",
-    "subtopic": "BM Genel Sekreteri'nin Seçimi",
-    "q": "BM'nin idari başkanı olan Genel Sekreter, hangi organın tavsiyesi üzerine Genel Kurul tarafından atanır?",
-    "o": [
-      "Ekonomik ve Sosyal Konsey",
-      "Güvenlik Konseyi",
-      "Uluslararası Adalet Divanı",
-      "Vesayet Konseyi",
-      "Sekretarya"
-    ],
-    "a": 1,
-    "e": "Doğru cevap Güvenlik Konseyi'dir. Genel Sekreter, BMGK'nın önerisi üzerine Genel Kurul tarafından 5 yıllık dönemler için seçilir.",
-    "_part": 8,
-    "_generatedAt": "2026-04-12T17:53:33.397Z"
-  },
-  {
-    "id": "GUNCEL_1776016403013_9",
-    "topicId": "GUNCEL_BM_KURULUS",
-    "subtopicId": "FAO",
-    "subtopic": "Gıda ve Tarım Örgütü (FAO)",
-    "q": "Dünyada açlıkla mücadele etmek, gıda güvenliğini sağlamak ve tarımsal verimliliği artırmakla görevli BM kuruluşu hangisidir?",
-    "o": [
-      "IFAD",
-      "FAO",
-      "WFP",
-      "UNEP",
-      "UNWTO"
-    ],
-    "a": 1,
-    "e": "Doğru cevap FAO'dur. WFP (Dünya Gıda Programı) gıda yardımı operasyonlarını yürütürken, FAO daha çok tarımsal politikalar ve gıda güvenliği standartları ile ilgilenir.",
-    "_part": 9,
-    "_generatedAt": "2026-04-12T17:53:33.397Z"
-  },
-  {
-    "id": "GUNCEL_1776016403013_10",
-    "topicId": "GUNCEL_BM_KURULUS",
-    "subtopicId": "BM_MERKEZ",
-    "subtopic": "BM Merkez Binası",
-    "q": "Birleşmiş Milletler Genel Merkezi hangi ülkenin sınırları içerisinde bulunmaktadır?",
-    "o": [
-      "İsviçre",
-      "Avusturya",
-      "ABD",
-      "İngiltere",
-      "Fransa"
-    ],
-    "a": 2,
-    "e": "Doğru cevap ABD'dir; BM Genel Merkezi New York'ta yer alır. İsviçre (Cenevre) ve Avusturya (Viyana) BM'nin önemli ofislerine ev sahipliği yapsa da ana merkez New York'tur.",
-    "_part": 10,
-    "_generatedAt": "2026-04-12T17:53:33.397Z"
-  }
+    {
+        "id": "GUNCEL_1776016403013_1",
+        "topicId": "GUNCEL_BM_KURULUS",
+        "subtopicId": "BM_TEMEL_ILKELER",
+        "subtopic": "Birleşmiş Milletler'in Kuruluşu ve Temel İlkeleri",
+        "q": "Birleşmiş Milletler (BM) teşkilatı, II. Dünya Savaşı sonrasında uluslararası barışı ve güvenliği korumak amacıyla 1945 yılında hangi şehirde imzalanan antlaşma ile kurulmuştur?",
+        "o": [
+            "Londra",
+            "Paris",
+            "San Francisco",
+            "Washington",
+            "Cenevre"
+        ],
+        "a": 2,
+        "e": "Doğru cevap San Francisco'dur; BM Şartı 1945'te San Francisco Konferansı'nda imzalanmıştır. Londra ve Paris gibi şehirler kuruluş sürecinde etkin olsa da imza yeri San Francisco'dur.",
+        "_part": 1,
+        "_generatedAt": "2026-04-12T17:53:33.397Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-04T20:53:39.270Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "Doğru cevap San Francisco'dur, bilgi tarihsel olarak doğrudur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve anlaşılırdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Dil bilgisi kurallarına uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru mantıksal bir bütünlük arz etmektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "Güncel bilgiler konusu için uygun bir zorluk seviyesindedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Doğrudan bilgi ölçen, net bir sorudur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": true,
+                    "explanation": "Çeldiriciler (Londra, Paris, Cenevre) BM ile ilişkili şehirler olsa da, soru kökünde 'imzalanan antlaşma' vurgusu çeldiricilerin gücünü zayıflatmaktadır.",
+                    "suggestion": "Çeldiriciler, BM'nin merkezinin bulunduğu veya önemli konferansların yapıldığı diğer şehirlerle (örneğin New York veya Yalta) daha güçlü hale getirilebilir."
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "Format standartlara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru genel olarak başarılıdır.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Küçük düzeltme gerekli",
+            "score": 8,
+            "summary": "Soru, KPSS güncel bilgiler formatına uygun ve doğrudur; ancak çeldiricilerin tarihsel bağlamı biraz daha güçlendirilerek ayırt edicilik artırılabilir."
+        }
+    },
+    {
+        "id": "GUNCEL_1776016403013_2",
+        "topicId": "GUNCEL_BM_KURULUS",
+        "subtopicId": "GUVENLIK_KONSEY_KONSEYI",
+        "subtopic": "BM Güvenlik Konseyi Yapısı",
+        "q": "Birleşmiş Milletler Güvenlik Konseyi'nde (BMGK) veto yetkisine sahip olan beş daimi üyeden biri aşağıdakilerden hangisidir?",
+        "o": [
+            "Almanya",
+            "Japonya",
+            "Hindistan",
+            "Çin",
+            "Brezilya"
+        ],
+        "a": 3,
+        "e": "Doğru cevap Çin'dir. BMGK'nın 5 daimi üyesi ABD, Rusya, Çin, Fransa ve İngiltere'dir. Diğer şıklar geçici üye adayı olsalar da daimi statüde değildirler.",
+        "_part": 2,
+        "_generatedAt": "2026-04-12T17:53:33.397Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-04T20:53:43.258Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "Doğru cevap Çin'dir ve BMGK'nın 5 daimi üyesinden biridir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve anlaşılırdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Dil bilgisi kurallarına uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru mantıksal bir bütünlük içindedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "KPSS Güncel Bilgiler konusu için uygun bir zorluk seviyesindedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Temel bir uluslararası ilişkiler bilgisini ölçmektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": true,
+                    "explanation": "Şıklar arasında G4 ülkeleri (Almanya, Japonya, Hindistan, Brezilya) yer almaktadır. Bu ülkeler daimi üyelik için en güçlü adaylar olduklarından çeldiricilikleri yüksektir ancak homojenlik açısından 'G4' grubu olarak bilinmeleri aday için ipucu oluşturabilir.",
+                    "suggestion": "Çeldiricilerden birini (örneğin Brezilya) daha az belirgin bir ülke ile değiştirerek çeldirici gücünü artırabilirsiniz."
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "Soru formatı ve şık sayısı standartlara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Siyasi veya etik bir sorun teşkil etmemektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru, KPSS formatına uygun ve kaliteli bir sorudur.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Geçerli",
+            "score": 9,
+            "summary": "Soru, KPSS Güncel Bilgiler formatına tam uyum sağlamaktadır. Çeldiricilerin G4 ülkelerinden seçilmesi akademik açıdan tutarlı olsa da, adaylar için tahmin edilebilirliği artırabilir."
+        }
+    },
+    {
+        "id": "GUNCEL_1776016403013_3",
+        "topicId": "GUNCEL_BM_KURULUS",
+        "subtopicId": "UNESCO",
+        "subtopic": "UNESCO'nun Görevleri",
+        "q": "Dünya genelinde kültürel mirasın korunması, eğitimde fırsat eşitliği ve bilimsel iş birliğini teşvik etmeyi amaçlayan BM uzmanlık kuruluşu aşağıdakilerden hangisidir?",
+        "o": [
+            "UNICEF",
+            "UNESCO",
+            "WHO",
+            "FAO",
+            "ILO"
+        ],
+        "a": 1,
+        "e": "Doğru cevap UNESCO'dur; eğitim, bilim ve kültür alanlarında çalışır. UNICEF çocuklara, WHO sağlığa, FAO gıdaya, ILO ise çalışma yaşamına odaklanır.",
+        "_part": 3,
+        "_generatedAt": "2026-04-12T17:53:33.397Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-04T20:53:46.163Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "Doğru cevap UNESCO olarak doğru verilmiştir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve anlaşılırdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Dil bilgisi kurallarına uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru kurgusu mantıksal bir bütünlük arz etmektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "KPSS Güncel Bilgiler konusu için ideal bir zorluk seviyesindedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Bilgi düzeyini ölçmeye yönelik başarılı bir sorudur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": false,
+                    "explanation": "Şıklar homojen ve BM kuruluşları arasından seçildiği için çeldiriciliği yüksektir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "Soru formatı ve şık sayısı standartlara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru, sınav formatına uygun ve kaliteli bir sorudur.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Geçerli",
+            "score": 10,
+            "summary": "Soru, KPSS Güncel Bilgiler formatına tam uyumlu, net ve çeldiricileri güçlü bir sorudur. Herhangi bir hata içermemektedir."
+        }
+    },
+    {
+        "id": "GUNCEL_1776016403013_4",
+        "topicId": "GUNCEL_BM_KURULUS",
+        "subtopicId": "BM_GENEL_KURUL",
+        "subtopic": "BM Genel Kurulu'nun Yetkileri",
+        "q": "BM Genel Kurulu ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+        "o": [
+            "Tüm üye devletler temsil edilir",
+            "Her ülkenin bir oy hakkı vardır",
+            "Bağlayıcı kararlar alma yetkisi sınırlıdır",
+            "Güvenlik Konseyi kararlarını veto edebilir",
+            "Bütçe onaylama yetkisine sahiptir"
+        ],
+        "a": 3,
+        "e": "Doğru cevap D'dir; Genel Kurul'un Güvenlik Konseyi'ni veto etme yetkisi yoktur. Aksine, BMGK kararları üzerinde Genel Kurul'un yaptırım gücü oldukça kısıtlıdır.",
+        "_part": 4,
+        "_generatedAt": "2026-04-12T17:53:33.397Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-04T20:53:49.312Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "Doğru cevap D şıkkıdır, BM Genel Kurulu'nun Güvenlik Konseyi kararlarını veto etme yetkisi yoktur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve anlaşılırdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Dil bilgisi kurallarına uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru mantıksal bir çerçeveye oturmaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "Güncel bilgiler konusu için uygun bir zorluk seviyesindedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Bilgi düzeyini ölçen, ayırt edici bir sorudur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": true,
+                    "explanation": "C şıkkı 'sınırlıdır' ifadesiyle yoruma açık bir alan bırakmaktadır, daha net bir ifade kullanılabilir.",
+                    "suggestion": "C şıkkı 'Tavsiye niteliğinde kararlar alır' şeklinde değiştirilerek daha akademik bir ifadeye kavuşturulabilir."
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "Şık sayısı ve format standartlara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru genel olarak başarılıdır.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Küçük düzeltme gerekli",
+            "score": 9,
+            "summary": "Soru, KPSS formatına uygun ve bilgi ölçücü niteliktedir. C şıkkındaki ifadenin daha teknik bir dille revize edilmesi sorunun kalitesini artıracaktır."
+        }
+    },
+    {
+        "id": "GUNCEL_1776016403013_5",
+        "topicId": "GUNCEL_BM_KURULUS",
+        "subtopicId": "WHO",
+        "subtopic": "Dünya Sağlık Örgütü (WHO)",
+        "q": "Küresel halk sağlığı standartlarını belirleyen, salgın hastalıklarla mücadele eden ve merkezi Cenevre'de bulunan BM kuruluşu hangisidir?",
+        "o": [
+            "UNHCR",
+            "WHO",
+            "WFP",
+            "UNCTAD",
+            "UNEP"
+        ],
+        "a": 1,
+        "e": "Doğru cevap WHO (Dünya Sağlık Örgütü)'dür. Diğerleri sırasıyla mülteciler, gıda, ticaret ve çevre ile ilgilidir.",
+        "_part": 5,
+        "_generatedAt": "2026-04-12T17:53:33.397Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-04T20:53:52.476Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "Doğru cevap WHO (Dünya Sağlık Örgütü) olarak doğru verilmiştir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve anlaşılırdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru, bilgiye dayalı mantıksal bir bütünlük içermektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "KPSS Güncel Bilgiler konusu için uygun bir zorluk seviyesindedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Temel bir bilgi düzeyini ölçmektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": true,
+                    "explanation": "Şıklar kısaltma olarak verilmiştir, ancak KPSS formatında genellikle açık isimleri veya kısaltmaların Türkçe karşılıkları ile birlikte verilmesi daha yaygındır.",
+                    "suggestion": "Şıklar 'A) UNHCR (BM Mülteciler Yüksek Komiserliği)' şeklinde açık isimleriyle verilmelidir."
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "5 şıklı format korunmuştur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Tarafsız ve etik kurallara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru genel olarak başarılıdır.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Küçük düzeltme gerekli",
+            "score": 9,
+            "summary": "Soru teknik ve içerik olarak oldukça başarılıdır; ancak adayların kısaltmalara aşinalığını artırmak adına şıkların açık isimleriyle verilmesi sınav formatına daha uygun olacaktır."
+        }
+    },
+    {
+        "id": "GUNCEL_1776016403013_6",
+        "topicId": "GUNCEL_BM_KURULUS",
+        "subtopicId": "ADALET_DIVANI",
+        "subtopic": "Uluslararası Adalet Divanı",
+        "q": "Devletler arasındaki hukuki uyuşmazlıkları çözümleyen ve merkezi Hollanda'nın Lahey kentinde bulunan BM yargı organı aşağıdakilerden hangisidir?",
+        "o": [
+            "Uluslararası Ceza Mahkemesi",
+            "Uluslararası Adalet Divanı",
+            "BM İnsan Hakları Konseyi",
+            "Ekonomik ve Sosyal Konsey",
+            "Vesayet Konseyi"
+        ],
+        "a": 1,
+        "e": "Doğru cevap Uluslararası Adalet Divanı'dır. Uluslararası Ceza Mahkemesi (UCM) BM'ye bağlı olsa da statüsü farklıdır ve bireyleri yargılar.",
+        "_part": 6,
+        "_generatedAt": "2026-04-12T17:53:33.397Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-04T20:53:55.318Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "Doğru cevap Uluslararası Adalet Divanı'dır ve bilgi doğrudur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve tek bir cevaba yöneliktir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Dil bilgisi kurallarına uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru, BM'nin yargı organı tanımıyla tam örtüşmektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "KPSS Güncel Bilgiler konusu için ideal bir zorluk seviyesindedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Temel bir uluslararası hukuk bilgisini ölçmektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": true,
+                    "explanation": "A şıkkı (UCM) güçlü bir çeldiricidir ancak diğer şıklar (C, D, E) BM'nin yargı organı olma vasfına sahip olmadıkları için çok zayıf kalmaktadır.",
+                    "suggestion": "Çeldiricilerin daha ayırt edici olması için BM'nin diğer yargısal veya hukuki birimlerine benzer yapılar eklenebilir."
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "5 şıklı format korunmuştur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Tarafsız ve etik bir sorudur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru genel olarak başarılı ve sınav formatına uygundur.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Geçerli",
+            "score": 9,
+            "summary": "Soru, KPSS Güncel Bilgiler formatına uygun, net ve doğru bir bilgiyi ölçmektedir; çeldiricilerin biraz daha güçlendirilmesi soru kalitesini mükemmelleştirecektir."
+        }
+    },
+    {
+        "id": "GUNCEL_1776016403013_7",
+        "topicId": "GUNCEL_BM_KURULUS",
+        "subtopicId": "UNICEF",
+        "subtopic": "UNICEF'in Faaliyet Alanı",
+        "q": "İkinci Dünya Savaşı sonrasında çocukların beslenme, sağlık ve eğitim ihtiyaçlarını karşılamak amacıyla kurulan BM kuruluşu hangisidir?",
+        "o": [
+            "UNICEF",
+            "UNDP",
+            "UNIDO",
+            "UNFPA",
+            "UNRWA"
+        ],
+        "a": 0,
+        "e": "Doğru cevap UNICEF'tir. Çocuklara yardım fonu olarak kurulmuştur. Diğerleri kalkınma, endüstri, nüfus ve mültecilerle ilgili kuruluşlardır.",
+        "_part": 7,
+        "_generatedAt": "2026-04-12T17:53:33.397Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-04T20:53:58.470Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "Doğru cevap UNICEF'tir, bilgi doğrudur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve anlaşılırdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Dil bilgisi kurallarına uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru mantıksal bir bütünlük içindedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "Güncel bilgiler konusu için uygun bir seviyededir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Doğrudan bilgi ölçen, net bir sorudur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": true,
+                    "explanation": "Çeldiriciler BM kuruluşları olsa da, soru kökünde 'çocuk' vurgusu çok baskın olduğu için çeldiriciler zayıf kalmaktadır.",
+                    "suggestion": "Çeldiriciler, benzer işlevleri olan veya isim benzerliği taşıyan kuruluşlardan seçilerek ayırt edicilik artırılabilir."
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "Teknik format standartlara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru genel olarak başarılıdır.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Küçük düzeltme gerekli",
+            "score": 8,
+            "summary": "Soru, KPSS güncel bilgiler formatına uygun ve doğrudur; ancak çeldiricilerin ayırt ediciliğinin artırılması sınav kalitesini yükseltecektir."
+        }
+    },
+    {
+        "id": "GUNCEL_1776016403013_8",
+        "topicId": "GUNCEL_BM_KURULUS",
+        "subtopicId": "BM_GENEL_SEKRETER",
+        "subtopic": "BM Genel Sekreteri'nin Seçimi",
+        "q": "BM'nin idari başkanı olan Genel Sekreter, hangi organın tavsiyesi üzerine Genel Kurul tarafından atanır?",
+        "o": [
+            "Ekonomik ve Sosyal Konsey",
+            "Güvenlik Konseyi",
+            "Uluslararası Adalet Divanı",
+            "Vesayet Konseyi",
+            "Sekretarya"
+        ],
+        "a": 1,
+        "e": "Doğru cevap Güvenlik Konseyi'dir. Genel Sekreter, BMGK'nın önerisi üzerine Genel Kurul tarafından 5 yıllık dönemler için seçilir.",
+        "_part": 8,
+        "_generatedAt": "2026-04-12T17:53:33.397Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-04T20:54:01.738Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "BM Şartı'nın 97. maddesine göre Genel Sekreter, Güvenlik Konseyi'nin tavsiyesi üzerine Genel Kurul tarafından atanır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve doğrudan bilgiye dayalıdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru, BM'nin işleyiş mekanizmasıyla tam uyumludur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "Güncel bilgiler ve uluslararası kuruluşlar konusu için ideal bir zorluk seviyesindedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Bilgi düzeyini ölçen, net bir sorudur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": true,
+                    "explanation": "E şıkkı (Sekretarya) doğrudan Genel Sekreterlik makamını çağrıştırdığı için zayıf bir çeldiricidir.",
+                    "suggestion": "E şıkkı yerine 'Vesayet Konseyi' zaten mevcut, onun yerine 'BM İnsan Hakları Konseyi' gibi daha ayırt edici bir seçenek eklenebilir."
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "Format standartlara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru genel olarak başarılı ve sınav formatına uygundur.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Küçük düzeltme gerekli",
+            "score": 9,
+            "summary": "Soru, KPSS müfredatına uygun ve doğru bir bilgiye dayanmaktadır. Sadece çeldiricilerin daha homojen hale getirilmesiyle mükemmel bir soru haline gelebilir."
+        }
+    },
+    {
+        "id": "GUNCEL_1776016403013_9",
+        "topicId": "GUNCEL_BM_KURULUS",
+        "subtopicId": "FAO",
+        "subtopic": "Gıda ve Tarım Örgütü (FAO)",
+        "q": "Dünyada açlıkla mücadele etmek, gıda güvenliğini sağlamak ve tarımsal verimliliği artırmakla görevli BM kuruluşu hangisidir?",
+        "o": [
+            "IFAD",
+            "FAO",
+            "WFP",
+            "UNEP",
+            "UNWTO"
+        ],
+        "a": 1,
+        "e": "Doğru cevap FAO'dur. WFP (Dünya Gıda Programı) gıda yardımı operasyonlarını yürütürken, FAO daha çok tarımsal politikalar ve gıda güvenliği standartları ile ilgilenir.",
+        "_part": 9,
+        "_generatedAt": "2026-04-12T17:53:33.397Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-04T20:54:04.267Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "FAO (Gıda ve Tarım Örgütü), BM'nin gıda güvenliği ve tarımsal verimlilikten sorumlu temel kuruluşudur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve doğrudan bilgiye odaklanmaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Dil bilgisi açısından herhangi bir hata bulunmamaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru, tanımlanan görev ile kurum arasında mantıksal bir bağ kurmaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "Güncel bilgiler kategorisinde KPSS standartlarına uygun bir sorudur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Bilgi düzeyini ölçen, net bir soru tipidir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": true,
+                    "explanation": "WFP (Dünya Gıda Programı) ile FAO arasındaki fark, adaylar için kafa karıştırıcı olabilir ancak bu durum sorunun ayırt ediciliğini artırır. Yine de çeldiricilerin hepsi BM kuruluşu olduğu için homojenlik sağlanmıştır.",
+                    "suggestion": "WFP'nin insani yardım odaklı olduğu vurgusu soru kökünde 'operasyonel yardım' ifadesiyle daha belirginleştirilebilir."
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "5 şıklı format ve teknik yapı uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru, KPSS güncel bilgiler formatına tam uyum sağlamaktadır.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Geçerli",
+            "score": 9,
+            "summary": "Soru, KPSS güncel bilgiler müfredatına uygun, teknik açıdan hatasız ve ayırt ediciliği yüksek bir sorudur."
+        }
+    },
+    {
+        "id": "GUNCEL_1776016403013_10",
+        "topicId": "GUNCEL_BM_KURULUS",
+        "subtopicId": "BM_MERKEZ",
+        "subtopic": "BM Merkez Binası",
+        "q": "Birleşmiş Milletler Genel Merkezi hangi ülkenin sınırları içerisinde bulunmaktadır?",
+        "o": [
+            "İsviçre",
+            "Avusturya",
+            "ABD",
+            "İngiltere",
+            "Fransa"
+        ],
+        "a": 2,
+        "e": "Doğru cevap ABD'dir; BM Genel Merkezi New York'ta yer alır. İsviçre (Cenevre) ve Avusturya (Viyana) BM'nin önemli ofislerine ev sahipliği yapsa da ana merkez New York'tur.",
+        "_part": 10,
+        "_generatedAt": "2026-04-12T17:53:33.397Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-04T20:54:07.185Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "Doğru cevap ABD (New York) olarak doğru verilmiştir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve anlaşılırdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Dil bilgisi kurallarına uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru mantıksal bir bütünlük içindedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "KPSS Güncel Bilgiler konusu için uygun bir seviyededir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Temel bir bilgi düzeyini ölçmektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": true,
+                    "explanation": "Çeldiriciler (İsviçre ve Avusturya) BM'nin diğer merkezleri olduğu için güçlüdür ancak şıklar arasında bir hiyerarşi veya mantıksal sıralama yoktur.",
+                    "suggestion": "Şıklar alfabetik sıraya göre düzenlenmelidir."
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "5 şıklı format korunmuştur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Tarafsız ve etik kurallara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru genel olarak başarılıdır.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Geçerli",
+            "score": 9,
+            "summary": "Soru, KPSS formatına uygun, net ve doğru bir bilgi ölçmektedir. Şıkların alfabetik olarak sıralanması teknik mükemmelliği artıracaktır."
+        }
+    }
 ]
