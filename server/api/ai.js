@@ -19,12 +19,18 @@ class ApiKeyManager {
 
     loadKeys() {
         const geminiKey = process.env.GEMINI_API_KEY;
-        const openrouterKey = process.env.OPENROUTER_API_KEY;
-
         if (geminiKey) this.keys.GEMINI_API_KEY.push(geminiKey.trim());
-        if (openrouterKey) this.keys.OPENROUTER_API_KEY.push(openrouterKey.trim());
 
-        console.log(`🔑 API Keys: Gemini=${this.keys.GEMINI_API_KEY.length}, OpenRouter=${this.keys.OPENROUTER_API_KEY.length}`);
+        // OPENROUTER_API_KEY, OPENROUTER_API_KEY_2, OPENROUTER_API_KEY_3 ... hepsini topla
+        const base = process.env.OPENROUTER_API_KEY;
+        if (base) this.keys.OPENROUTER_API_KEY.push(base.trim());
+        for (let i = 2; i <= 20; i++) {
+            const k = process.env[`OPENROUTER_API_KEY_${i}`];
+            if (k) this.keys.OPENROUTER_API_KEY.push(k.trim());
+            else break;
+        }
+
+        console.log(`🔑 API Keys: Gemini=${this.keys.GEMINI_API_KEY.length}, OpenRouter=${this.keys.OPENROUTER_API_KEY.length} (paralel kapasite: ${this.keys.OPENROUTER_API_KEY.length})`);
     }
 
     getKey(keyName) {
@@ -274,7 +280,8 @@ async function handleAIRoutes(req, res, pathname) {
     if (pathname === '/api/ai/status' && req.method === 'GET') {
         return sendJSON(res, {
             gemini: apiKeyManager.hasKey('GEMINI_API_KEY'),
-            openrouter: apiKeyManager.hasKey('OPENROUTER_API_KEY')
+            openrouter: apiKeyManager.hasKey('OPENROUTER_API_KEY'),
+            openrouterKeyCount: apiKeyManager.keys['OPENROUTER_API_KEY'].length
         });
     }
 

@@ -7905,14 +7905,21 @@ window.aiAnalysis = (() => {
         if (!_topicId || !_questions.length) return;
         if (_bulkRunning) return;
 
-        // Analiz edilmemiş soruları bul
         const toAnalyze = _questions.filter(q => !q._analyzed);
         if (!toAnalyze.length) {
             aaToast('Bu konudaki tüm sorular zaten analiz edilmiş', 'warn');
             return;
         }
 
-        const ok = confirm(`${toAnalyze.length} soru sırayla analiz edilip kaydedilecek. Devam edilsin mi?`);
+        // Kaç paralel worker kullanılacak? Backend'den key sayısını al
+        let workerCount = 1;
+        try {
+            const statusRes = await fetch(`${API()}/api/ai/status`);
+            const statusData = await statusRes.json();
+            workerCount = Math.max(1, statusData.openrouterKeyCount || 1);
+        } catch {}
+
+        const ok = confirm(`${toAnalyze.length} soru analiz edilecek.\n${workerCount > 1 ? `⚡ ${workerCount} API key ile paralel çalışacak` : '1 sıralı worker'}.\nDevam edilsin mi?`);
         if (!ok) return;
 
         _bulkRunning = true;
@@ -7921,13 +7928,12 @@ window.aiAnalysis = (() => {
         const total = toAnalyze.length;
         let done = 0;
         let errCount = 0;
+        const queue = [...toAnalyze]; // işlenecek kuyruk
 
-        // UI güncellemeleri
         document.getElementById('aa-bulk-progress').style.display = 'block';
         document.getElementById('aa-bulk-btn').disabled = true;
         document.getElementById('aa-stop-btn').style.display = '';
         document.getElementById('aa-analyze-btn').disabled = true;
-        // orta kolonu temizle
         const verdictBanner = document.getElementById('aa-verdict-banner');
         const criteriaList  = document.getElementById('aa-criteria-list');
         if (verdictBanner) verdictBanner.style.display = 'none';
@@ -7941,59 +7947,60 @@ window.aiAnalysis = (() => {
             document.getElementById('aa-bulk-ok').textContent = done - errCount;
             document.getElementById('aa-bulk-err').textContent = errCount;
             document.getElementById('aa-bulk-remain').textContent = total - done;
-            document.getElementById('aa-bulk-label').textContent = `Analiz ediliyor: ${done}/${total}`;
+            document.getElementById('aa-bulk-label').textContent = `Analiz ediliyor: ${done}/${total} (${workerCount} paralel)`;
         };
-
         updateProgress();
 
-        for (const q of toAnalyze) {
-            if (_bulkStop) break;
+        // Her worker kuyruktaki sıradaki soruyu alıp işler
+        async function worker(workerId) {
+            while (queue.length > 0 && !_bulkStop) {
+                const q = queue.shift();
+                if (!q) break;
+                try {
+                    const res = await fetch(`${API()}/api/ai/deep-analyze`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            question: q,
+                            topicInfo: { name: _topicName, lesson: _topicLesson },
+                            model
+                        })
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(data.error || 'Analiz başarısız');
 
-            document.getElementById('aa-bulk-label').textContent = `İşleniyor: ${(q.q || '').substring(0, 60)}...`;
+                    const updatedQ = {
+                        ...q,
+                        _analyzed: true,
+                        _analyzedAt: new Date().toISOString(),
+                        _analysisResult: { criteria: data.criteria, verdict: data.verdict, score: data.score, summary: data.summary }
+                    };
+                    const saveRes = await fetch(`${API()}/questions/${encodeURIComponent(_topicId)}/${encodeURIComponent(q.id)}`, {
+                        method: 'PUT',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(updatedQ)
+                    });
+                    const saveData = await saveRes.json();
+                    if (!saveData.success) throw new Error(saveData.error || 'Kayıt başarısız');
 
-            try {
-                const res = await fetch(`${API()}/api/ai/deep-analyze`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        question: q,
-                        topicInfo: { name: _topicName, lesson: _topicLesson },
-                        model
-                    })
-                });
-                const data = await res.json();
-                if (!data.success) throw new Error(data.error || 'Analiz başarısız');
-
-                // Soruyu kaydet
-                const updatedQ = { ...q, _analyzed: true, _analyzedAt: new Date().toISOString(), _analysisResult: { criteria: data.criteria, verdict: data.verdict, score: data.score, summary: data.summary } };
-                const qId = encodeURIComponent(q.id);
-                const saveRes = await fetch(`${API()}/questions/${encodeURIComponent(_topicId)}/${qId}`, {
-                    method: 'PUT',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(updatedQ)
-                });
-                const saveData = await saveRes.json();
-                if (!saveData.success) throw new Error(saveData.error || 'Kayıt başarısız');
-
-                const idx = _questions.indexOf(q);
-                if (idx !== -1) _questions[idx] = updatedQ;
-
-                done++;
-            } catch (e) {
-                errCount++;
-                done++;
-                console.error('Bulk analiz hatası (soru:', q.id, '):', e);
+                    const idx = _questions.indexOf(q);
+                    if (idx !== -1) _questions[idx] = updatedQ;
+                    done++;
+                } catch (e) {
+                    errCount++;
+                    done++;
+                    console.error(`[worker${workerId}] hata (${q.id}):`, e.message);
+                }
+                updateProgress();
             }
-
-            updateProgress();
-
-            // API rate limit için kısa bekleme
-            if (!_bulkStop) await new Promise(r => setTimeout(r, 300));
         }
 
-        // Bitince
+        // N worker başlat, hepsi bitene kadar bekle
+        await Promise.all(
+            Array.from({ length: workerCount }, (_, i) => worker(i + 1))
+        );
+
         _bulkRunning = false;
-        // Analiz edilmişleri göster
         const filterSel = document.getElementById('aa-filter-select');
         if (filterSel) filterSel.value = 'analyzed';
         applyFilter();
@@ -8003,8 +8010,8 @@ window.aiAnalysis = (() => {
             ? `⏹ Durduruldu: ${done} / ${total} tamamlandı`
             : `✅ Tamamlandı: ${done - errCount} başarılı, ${errCount} hatalı`;
         aaToast(_bulkStop
-                ? `⏹ Analiz durduruldu: ${done}/${total} soru işlendi`
-                : `✅ Toplu analiz tamamlandı: ${done - errCount}/${total} başarılı`, _bulkStop ? 'warn' : 'success');
+            ? `⏹ Analiz durduruldu: ${done}/${total} soru işlendi`
+            : `✅ Toplu analiz tamamlandı: ${done - errCount}/${total} başarılı`, _bulkStop ? 'warn' : 'success');
         if (done > errCount) gitPush();
         _bulkStop = false;
     }
