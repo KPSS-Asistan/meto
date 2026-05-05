@@ -7624,8 +7624,20 @@ window.aiAnalysis = (() => {
         }).join('');
     }
 
-    function onSearchInput() {
-        applyFilter();
+    // Kayıt sonrası git push
+    async function gitPush() {
+        try {
+            const res = await fetch(`${API()}/api/git-push`, { method: 'POST' });
+            const data = await res.json();
+            if (data.success) {
+                if (data.message && !data.message.includes('atlandı')) aaToast('☁️ GitHub\'a push edildi', 'success');
+            } else {
+                console.warn('[git-push]', data.error);
+                aaToast('⚠️ Push başarısız: ' + data.error, 'warn');
+            }
+        } catch (e) {
+            console.warn('[git-push] network error', e.message);
+        }
     }
 
     function onQuestionChange() { /* no-op, replaced by selectQuestion */ }
@@ -7671,6 +7683,7 @@ window.aiAnalysis = (() => {
             applyFilter();
             document.getElementById('aa-bulk-btn').disabled = _questions.length === 0;
             if (typeof aaToast === 'function') aaToast('✅ Soru silindi');
+            gitPush();
         } catch (e) {
             aaToast('❌ ' + e.message, 'error');
         }
@@ -7817,6 +7830,7 @@ window.aiAnalysis = (() => {
             if (filterSel && filterSel.value === 'unanalyzed') filterSel.value = 'all';
             applyFilter();
             aaToast('✅ Kaydedildi');
+            gitPush();
         } catch (e) {
             console.error('[save] error', e);
             aaToast('❌ ' + e.message, 'error');
@@ -7946,6 +7960,7 @@ window.aiAnalysis = (() => {
         aaToast(_bulkStop
                 ? `⏹ Analiz durduruldu: ${done}/${total} soru işlendi`
                 : `✅ Toplu analiz tamamlandı: ${done - errCount}/${total} başarılı`, _bulkStop ? 'warn' : 'success');
+        if (done > errCount) gitPush();
         _bulkStop = false;
     }
 
