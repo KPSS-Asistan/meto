@@ -8478,14 +8478,21 @@ window.addSmart = (() => {
         } catch {}
     }
 
-    // Sayfa açıldığında init çalıştır
-    document.addEventListener('DOMContentLoaded', () => {
-        const origShow = window.showPage;
-        window.showPage = function(page) {
-            origShow && origShow(page);
-            if (page === 'add-smart' && _allTopics.length === 0) init();
-        };
-    });
+    // Sayfa açıldığında init çalıştır ve showPage hook'u kur
+    const _origShowPage = window.showPage;
+    window.showPage = function(page) {
+        _origShowPage && _origShowPage(page);
+        if (page === 'add-smart') {
+            if (_allTopics.length === 0) init();
+            else populateLessons(); // Zaten yüklüyse dropdown'ı tekrar doldur
+        }
+    };
+    // DOMContentLoaded sonrasında da init'i tetikle (sayfa zaten açıksa)
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => init());
+    } else {
+        init();
+    }
 
     return { init, onLessonChange, onTopicChange, clearForm, analyze, save };
 })();
