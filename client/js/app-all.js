@@ -7458,6 +7458,17 @@ window.qualityCheck = (() => {
 window.aiAnalysis = (() => {
     const API = () => window.CONFIG?.API_URL || 'http://localhost:8002';
 
+    // Toast yardımcısı — global toast varsa kullan, yoksa alert
+    function aaToast(msg, type = 'success') {
+        const t = document.getElementById('toast');
+        const m = document.getElementById('toastMessage');
+        if (!t || !m) { alert(msg); return; }
+        m.textContent = msg;
+        t.style.background = type === 'error' ? 'var(--danger)' : type === 'warn' ? '#d97706' : 'var(--success)';
+        t.classList.add('show');
+        setTimeout(() => t.classList.remove('show'), 3500);
+    }
+
     let _topicId = null;
     let _topicName = null;
     let _topicLesson = null;
@@ -7659,9 +7670,9 @@ window.aiAnalysis = (() => {
             if (_expandedIdx === realIdx) _expandedIdx = null;
             applyFilter();
             document.getElementById('aa-bulk-btn').disabled = _questions.length === 0;
-            if (typeof toast === 'function') toast('✅ Soru silindi');
+            if (typeof aaToast === 'function') aaToast('✅ Soru silindi');
         } catch (e) {
-            if (typeof toast === 'function') toast('❌ ' + e.message, 'error');
+            aaToast('❌ ' + e.message, 'error');
         }
     }
 
@@ -7765,7 +7776,14 @@ window.aiAnalysis = (() => {
     }
 
     async function save() {
-        if (!_currentQuestion || !_topicId) return;
+        if (!_currentQuestion) {
+            alert('Lütfen önce bir soru seçin');
+            return;
+        }
+        if (!_topicId) {
+            alert('Konu bilgisi eksik, sayfayı yenileyin');
+            return;
+        }
         const btn = document.getElementById('aa-save-btn');
         btn.disabled = true;
         btn.innerHTML = '<span class="material-icons-round" style="font-size:16px;animation:spin 1s linear infinite">sync</span> Kaydediliyor...';
@@ -7782,19 +7800,26 @@ window.aiAnalysis = (() => {
         };
         try {
             const qId = encodeURIComponent(_currentQuestion.id);
-            const res = await fetch(`${API()}/questions/${encodeURIComponent(_topicId)}/${qId}`, {
+            const url = `${API()}/questions/${encodeURIComponent(_topicId)}/${qId}`;
+            console.log('[save] PUT', url, updatedQ);
+            const res = await fetch(url, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(updatedQ)
             });
             const data = await res.json();
+            console.log('[save] response', data);
             if (!data.success) throw new Error(data.error || 'Kayıt başarısız');
             const idx = _questions.indexOf(_currentQuestion);
             if (idx !== -1) { _questions[idx] = updatedQ; _currentQuestion = updatedQ; }
+            // Filtre "analiz edilmemiş" ise kaydettiğimiz soru listeden çıkacak — "tümü"ne geç
+            const filterSel = document.getElementById('aa-filter-select');
+            if (filterSel && filterSel.value === 'unanalyzed') filterSel.value = 'all';
             applyFilter();
-            if (typeof toast === 'function') toast('✅ Soru kaydedildi ve analiz edildi olarak işaretlendi');
+            aaToast('✅ Kaydedildi');
         } catch (e) {
-            if (typeof toast === 'function') toast('❌ ' + e.message, 'error');
+            console.error('[save] error', e);
+            aaToast('❌ ' + e.message, 'error');
         } finally {
             btn.disabled = false;
             btn.innerHTML = '<span class="material-icons-round" style="font-size:16px">save</span> Kaydet &amp; İşaretle';
@@ -7824,7 +7849,7 @@ window.aiAnalysis = (() => {
         // Analiz edilmemiş soruları bul
         const toAnalyze = _questions.filter(q => !q._analyzed);
         if (!toAnalyze.length) {
-            if (typeof toast === 'function') toast('Bu konudaki tüm sorular zaten analiz edilmiş', 'warn');
+            aaToast('Bu konudaki tüm sorular zaten analiz edilmiş', 'warn');
             return;
         }
 
@@ -7918,11 +7943,9 @@ window.aiAnalysis = (() => {
         document.getElementById('aa-bulk-label').textContent = _bulkStop
             ? `⏹ Durduruldu: ${done} / ${total} tamamlandı`
             : `✅ Tamamlandı: ${done - errCount} başarılı, ${errCount} hatalı`;
-        if (typeof toast === 'function') {
-            toast(_bulkStop
+        aaToast(_bulkStop
                 ? `⏹ Analiz durduruldu: ${done}/${total} soru işlendi`
                 : `✅ Toplu analiz tamamlandı: ${done - errCount}/${total} başarılı`, _bulkStop ? 'warn' : 'success');
-        }
         _bulkStop = false;
     }
 
