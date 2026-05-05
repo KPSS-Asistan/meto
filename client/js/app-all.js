@@ -7911,13 +7911,8 @@ window.aiAnalysis = (() => {
             return;
         }
 
-        // Kaç paralel worker kullanılacak? Backend'den key sayısını al
-        let workerCount = 1;
-        try {
-            const statusRes = await fetch(`${API()}/api/ai/status`);
-            const statusData = await statusRes.json();
-            workerCount = Math.max(1, statusData.openrouterKeyCount || 1);
-        } catch {}
+        // Kaç paralel worker kullanılacak? UI input'tan oku
+        const workerCount = Math.max(1, parseInt(document.getElementById('aa-worker-count')?.value) || 3);
 
         const ok = confirm(`${toAnalyze.length} soru analiz edilecek.\n${workerCount > 1 ? `⚡ ${workerCount} API key ile paralel çalışacak` : '1 sıralı worker'}.\nDevam edilsin mi?`);
         if (!ok) return;
@@ -8026,13 +8021,8 @@ window.aiAnalysis = (() => {
     async function bulkAnalyzeAll() {
         if (_bulkRunning) return;
 
-        // Key sayısını al
-        let workerCount = 1;
-        try {
-            const s = await fetch(`${API()}/api/ai/status`);
-            const sd = await s.json();
-            workerCount = Math.max(1, sd.openrouterKeyCount || 1);
-        } catch {}
+        // Kaç paralel worker kullanılacak? UI input'tan oku
+        const workerCount = Math.max(1, parseInt(document.getElementById('aa-worker-count')?.value) || 3);
 
         // Tüm konuları yükle
         let allTopics = [];

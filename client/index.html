@@ -1355,6 +1355,10 @@
                     <input id="aa-search-input" type="text" class="form-input" placeholder="Soru ara..." style="padding:0.45rem 0.7rem;min-width:160px" oninput="aiAnalysis.onSearchInput()">
                 </div>
                 <div style="display:flex;flex-direction:column;gap:0.25rem">
+                    <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600">WORKER</label>
+                    <input id="aa-worker-count" type="number" class="form-input" value="3" min="1" max="20" step="1" style="padding:0.45rem 0.7rem;width:75px" title="Paralel worker sayısı">
+                </div>
+                <div style="display:flex;flex-direction:column;gap:0.25rem">
                     <label style="font-size:0.72rem;color:var(--text-muted);font-weight:600">MODEL</label>
                     <select id="aa-model-select" class="form-input" style="padding:0.45rem 0.7rem">
                         <option value="google/gemini-3.1-flash-lite-preview" selected>Gemini 3.1 Flash Lite</option>
