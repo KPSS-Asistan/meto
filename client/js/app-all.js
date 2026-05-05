@@ -8022,5 +8022,136 @@ window.aiAnalysis = (() => {
         document.getElementById('aa-stop-btn').innerHTML = '<span class="material-icons-round" style="font-size:18px">hourglass_empty</span> Durduruluyor...';
     }
 
-    return { init, loadTopics, onTopicChange, onFilterChange, onQuestionChange, onSearchInput, selectQuestion, deleteQuestion, deleteErrored, analyze, save, nextQuestion, fillEditor, bulkAnalyze, stopBulk };
+    // ─── Tüm Konuları Analiz Et ─────────────────────────────────
+    async function bulkAnalyzeAll() {
+        if (_bulkRunning) return;
+
+        // Key sayısını al
+        let workerCount = 1;
+        try {
+            const s = await fetch(`${API()}/api/ai/status`);
+            const sd = await s.json();
+            workerCount = Math.max(1, sd.openrouterKeyCount || 1);
+        } catch {}
+
+        // Tüm konuları yükle
+        let allTopics = [];
+        try {
+            const res = await fetch(`${API()}/topics`);
+            allTopics = await res.json();
+        } catch (e) {
+            aaToast('❌ Konular yüklenemedi: ' + e.message, 'error');
+            return;
+        }
+
+        const model = document.getElementById('aa-model-select')?.value || 'google/gemini-3.1-flash-lite-preview';
+
+        const ok = confirm(`${allTopics.length} konudaki tüm analiz edilmemiş sorular işlenecek.\n⚡ ${workerCount} paralel worker.\nBu işlem uzun sürebilir. Devam edilsin mi?`);
+        if (!ok) return;
+
+        _bulkRunning = true;
+        _bulkStop = false;
+
+        document.getElementById('aa-bulk-progress').style.display = 'block';
+        document.getElementById('aa-stop-btn').style.display = '';
+        document.getElementById('aa-stop-btn').disabled = false;
+        document.getElementById('aa-stop-btn').innerHTML = '<span class="material-icons-round" style="font-size:18px">stop</span> Durdur';
+        document.getElementById('aa-bulk-btn').disabled = true;
+
+        let totalDone = 0, totalErr = 0, totalQuestions = 0;
+        const labelEl = document.getElementById('aa-bulk-label');
+        const barEl = document.getElementById('aa-bulk-bar');
+        const pctEl = document.getElementById('aa-bulk-pct');
+        const okEl = document.getElementById('aa-bulk-ok');
+        const errEl = document.getElementById('aa-bulk-err');
+        const remEl = document.getElementById('aa-bulk-remain');
+
+        // Önce tüm konuların soru sayısını sayalım
+        labelEl.textContent = 'Sorular yükleniyor...';
+
+        // Büyük kuyruk: { q, topicId, topicName, topicLesson }
+        const globalQueue = [];
+        for (const topic of allTopics) {
+            if (_bulkStop) break;
+            try {
+                const res = await fetch(`${API()}/questions/${encodeURIComponent(topic.id)}`);
+                const qs = await res.json();
+                const arr = Array.isArray(qs) ? qs : (qs.questions || []);
+                const unanalyzed = arr.filter(q => !q._analyzed);
+                unanalyzed.forEach(q => globalQueue.push({ q, topicId: topic.id, topicName: topic.name, topicLesson: topic.lesson }));
+            } catch {}
+        }
+
+        totalQuestions = globalQueue.length;
+        if (!totalQuestions) {
+            aaToast('✅ Tüm konulardaki sorular zaten analiz edilmiş', 'warn');
+            _bulkRunning = false;
+            document.getElementById('aa-stop-btn').style.display = 'none';
+            document.getElementById('aa-bulk-btn').disabled = false;
+            return;
+        }
+
+        labelEl.textContent = `${totalQuestions} soru bulundu, analiz başlıyor (${workerCount} worker)...`;
+        barEl.style.width = '0%'; pctEl.textContent = '0%';
+        okEl.textContent = '0'; errEl.textContent = '0'; remEl.textContent = totalQuestions;
+
+        const updateProg = () => {
+            const pct = Math.round((totalDone / totalQuestions) * 100);
+            barEl.style.width = pct + '%';
+            pctEl.textContent = pct + '%';
+            okEl.textContent = totalDone - totalErr;
+            errEl.textContent = totalErr;
+            remEl.textContent = totalQuestions - totalDone;
+        };
+
+        async function allTopicsWorker(wid) {
+            while (globalQueue.length > 0 && !_bulkStop) {
+                const item = globalQueue.shift();
+                if (!item) break;
+                const { q, topicId, topicName, topicLesson } = item;
+                labelEl.textContent = `[${wid}] ${topicName}: ${(q.q || '').substring(0, 50)}...`;
+                try {
+                    const res = await fetch(`${API()}/api/ai/deep-analyze`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ question: q, topicInfo: { name: topicName, lesson: topicLesson }, model })
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(data.error);
+                    const updatedQ = { ...q, _analyzed: true, _analyzedAt: new Date().toISOString(), _analysisResult: { criteria: data.criteria, verdict: data.verdict, score: data.score, summary: data.summary } };
+                    const saveRes = await fetch(`${API()}/questions/${encodeURIComponent(topicId)}/${encodeURIComponent(q.id)}`, {
+                        method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(updatedQ)
+                    });
+                    if (!(await saveRes.json()).success) throw new Error('Kayıt başarısız');
+                    // Eğer o an açık konu buysa memory'de güncelle
+                    if (topicId === _topicId) {
+                        const idx = _questions.findIndex(x => x.id === q.id);
+                        if (idx !== -1) _questions[idx] = updatedQ;
+                    }
+                    totalDone++;
+                } catch (e) {
+                    totalErr++; totalDone++;
+                    console.error(`[allWorker${wid}] ${topicId}/${q.id}:`, e.message);
+                }
+                updateProg();
+            }
+        }
+
+        await Promise.all(Array.from({ length: workerCount }, (_, i) => allTopicsWorker(i + 1)));
+
+        _bulkRunning = false;
+        if (_topicId) applyFilter();
+        document.getElementById('aa-stop-btn').style.display = 'none';
+        document.getElementById('aa-bulk-btn').disabled = false;
+        labelEl.textContent = _bulkStop
+            ? `⏹ Durduruldu: ${totalDone}/${totalQuestions} tamamlandı`
+            : `✅ Tüm konular tamamlandı: ${totalDone - totalErr} başarılı, ${totalErr} hatalı`;
+        aaToast(_bulkStop
+            ? `⏹ Durduruldu: ${totalDone}/${totalQuestions}`
+            : `✅ ${totalDone - totalErr}/${totalQuestions} soru analiz edildi`, _bulkStop ? 'warn' : 'success');
+        if (totalDone > totalErr) gitPush();
+        _bulkStop = false;
+    }
+
+    return { init, loadTopics, onTopicChange, onFilterChange, onQuestionChange, onSearchInput, selectQuestion, deleteQuestion, deleteErrored, analyze, save, nextQuestion, fillEditor, bulkAnalyze, bulkAnalyzeAll, stopBulk };
 })();
