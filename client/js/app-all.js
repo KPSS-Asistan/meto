@@ -7523,7 +7523,7 @@ window.aiAnalysis = (() => {
         _currentQuestion = null;
         _currentResult = null;
         resetContent();
-        if (!_topicId) { updateQuestionSelect([]); document.getElementById('aa-bulk-btn').disabled = true; return; }
+        if (!_topicId) { renderQuestionList([]); document.getElementById('aa-bulk-btn').disabled = true; return; }
         try {
             const res = await fetch(`${API()}/questions/${encodeURIComponent(_topicId)}`);
             const data = await res.json();
