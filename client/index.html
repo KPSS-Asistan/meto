@@ -533,10 +533,162 @@
                 transform: rotate(360deg);
             }
         }
+
+        /* ===================== LOGIN OVERLAY ===================== */
+        #loginOverlay {
+            position: fixed;
+            inset: 0;
+            background: var(--bg-dark);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.3s ease;
+        }
+
+        #loginOverlay.hidden {
+            display: none;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+
+        .login-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2.5rem 2rem;
+            width: 100%;
+            max-width: 400px;
+            animation: slideUp 0.35s ease;
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(24px); opacity: 0; }
+            to   { transform: translateY(0);    opacity: 1; }
+        }
+
+        .login-logo {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .login-logo .material-icons-round {
+            font-size: 3rem;
+            color: var(--primary);
+        }
+
+        .login-logo h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 0.5rem;
+        }
+
+        .login-logo p {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+
+        .login-field {
+            margin-bottom: 1rem;
+        }
+
+        .login-field label {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 0.4rem;
+        }
+
+        .login-field input {
+            width: 100%;
+            background: var(--bg-input);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 0.65rem 0.9rem;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .login-field input:focus {
+            border-color: var(--primary);
+        }
+
+        .login-btn {
+            width: 100%;
+            background: var(--primary);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 0.75rem;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 0.5rem;
+            transition: background 0.2s, opacity 0.2s;
+        }
+
+        .login-btn:hover { background: var(--primary-dark); }
+        .login-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+        .login-error {
+            background: rgba(239,68,68,0.15);
+            border: 1px solid var(--danger);
+            color: var(--danger);
+            border-radius: 8px;
+            padding: 0.6rem 0.9rem;
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+            display: none;
+        }
+
+        /* app wrapper: gizli iken kullanıcı içeriği görmesin */
+        #appWrapper {
+            display: none;
+        }
+
+        #appWrapper.visible {
+            display: contents;
+        }
+        /* ======================================================== */
     </style>
 </head>
 
 <body>
+
+    <!-- ============ LOGIN OVERLAY ============ -->
+    <div id="loginOverlay">
+        <div class="login-card">
+            <div class="login-logo">
+                <span class="material-icons-round">admin_panel_settings</span>
+                <h1>KPSS Admin</h1>
+                <p>Yönetim paneline giriş yapın</p>
+            </div>
+            <div class="login-error" id="loginError"></div>
+            <form id="loginForm" onsubmit="return false;">
+                <div class="login-field">
+                    <label for="loginUsername">Kullanıcı Adı</label>
+                    <input type="text" id="loginUsername" autocomplete="username" placeholder="admin" required>
+                </div>
+                <div class="login-field">
+                    <label for="loginPassword">Şifre</label>
+                    <input type="password" id="loginPassword" autocomplete="current-password" placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="login-btn" id="loginBtn">Giriş Yap</button>
+            </form>
+        </div>
+    </div>
+    <!-- ======================================= -->
+
+    <!-- APP WRAPPER (gizli, login sonrası açılır) -->
+    <div id="appWrapper">
+
     <!-- NAVBAR -->
     <nav class="navbar">
         <div class="navbar-content">
@@ -544,6 +696,9 @@
                 <span class="material-icons-round">admin_panel_settings</span>
                 KPSS Admin
             </div>
+            <button onclick="adminLogout()" title="Çıkış Yap" style="background:transparent;border:1px solid var(--border);border-radius:8px;padding:0.4rem 0.85rem;color:var(--text-secondary);cursor:pointer;display:flex;align-items:center;gap:0.4rem;font-size:0.85rem;transition:color 0.2s,border-color 0.2s;" onmouseover="this.style.color='var(--danger)';this.style.borderColor='var(--danger)'" onmouseout="this.style.color='var(--text-secondary)';this.style.borderColor='var(--border)'">
+                <span class="material-icons-round" style="font-size:1.1rem;">logout</span>Çıkış
+            </button>
         </div>
     </nav>
 
@@ -648,6 +803,24 @@
                 </div>
             </div>
 
+            <!-- Editör İnceleme Widget -->
+            <div class="card" style="margin-bottom:2rem">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        <span class="material-icons-round">rate_review</span>
+                        Editör İnceleme Durumu
+                    </h3>
+                    <span id="statReviewedPct" style="font-size:.85rem;color:var(--text-secondary);font-weight:600">-</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:16px">
+                    <div style="flex:1;height:10px;background:var(--bg-input);border-radius:99px;overflow:hidden">
+                        <div id="statReviewedBar" style="height:100%;width:0%;background:linear-gradient(90deg,#6366f1,#22c55e);border-radius:99px;transition:width .8s ease"></div>
+                    </div>
+                    <span id="statReviewed" style="font-size:.9rem;font-weight:700;color:var(--text-primary);white-space:nowrap">-</span>
+                    <span style="font-size:.8rem;color:var(--text-muted)">incelendi</span>
+                </div>
+            </div>
+
             <div class="grid-2">
                 <div class="card">
                     <div class="card-header">
@@ -687,6 +860,66 @@
                     Soru Yönetimi
                 </h1>
                 <p class="page-subtitle">Soruları ekleyin ve düzenleyin</p>
+            </div>
+
+            <!-- ChatGPT / AI'dan JSON Yapıştır -->
+            <div class="card" style="margin-bottom:1.5rem;border-color:rgba(99,102,241,0.4);">
+                <div class="card-header" style="border-bottom:1px solid rgba(99,102,241,0.2);">
+                    <h3 class="card-title">
+                        <span class="material-icons-round" style="color:#a78bfa;">content_paste</span>
+                        <span style="color:#a78bfa;">ChatGPT / AI'dan İçe Aktar</span>
+                    </h3>
+                </div>
+                <div style="padding:1rem 0 0.5rem;font-size:0.85rem;color:var(--text-muted);line-height:1.6;">
+                    ChatGPT veya başka bir yapay zekaya soru ürettirin, JSON çıktısını buraya yapıştırın. Sistem farklı formatları otomatik tanır ve düzeltir.
+                    <details style="margin-top:0.5rem;">
+                        <summary style="cursor:pointer;color:#6366f1;font-size:0.8rem;">AI'ya göndereceğin prompt örneği ▸</summary>
+                        <pre style="background:#0f172a;border:1px solid #334155;border-radius:8px;padding:0.75rem;font-size:0.75rem;color:#94a3b8;margin-top:0.5rem;white-space:pre-wrap;">KPSS Tarih dersinden 5 adet çoktan seçmeli soru üret.
+Her soru için JSON formatında yaz:
+{
+  "q": "Soru metni",
+  "o": ["A şıkkı", "B şıkkı", "C şıkkı", "D şıkkı", "E şıkkı"],
+  "a": 0,
+  "e": "Açıklama",
+  "d": 2,
+  "subtopic": "Alt konu adı"
+}
+Tüm soruları bir JSON dizisi olarak döndür: [...]</pre>
+                    </details>
+                </div>
+                <div class="form-group" style="margin-top:0.75rem;">
+                    <label class="form-label">Ders ve Konu</label>
+                    <div class="grid-2">
+                        <select id="pasteLesson" class="form-select" onchange="loadPasteTopics()">
+                            <option value="">Ders Seçin...</option>
+                            <option value="tarih">Tarih</option>
+                            <option value="cografya">Coğrafya</option>
+                            <option value="vatandaslik">Vatandaşlık</option>
+                            <option value="turkce">Türkçe</option>
+                            <option value="matematik">Matematik</option>
+                        </select>
+                        <select id="pasteTopic" class="form-select">
+                            <option value="">Önce Ders Seçin...</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">JSON Yapıştır</label>
+                    <textarea id="pasteJsonInput" class="form-textarea" rows="8"
+                        style="font-family:monospace;font-size:0.82rem;"
+                        placeholder='[{"q": "Soru?", "o": ["A", "B", "C", "D", "E"], "a": 0, "e": "Açıklama", "d": 2}]'></textarea>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-primary" onclick="window.previewPasteQuestions()" style="background:linear-gradient(135deg,#6366f1,#8b5cf6);">
+                        <span class="material-icons-round">preview</span>
+                        Önizle & Doğrula
+                    </button>
+                    <button class="btn btn-secondary" onclick="document.getElementById('pasteJsonInput').value=''; document.getElementById('pastePreviewArea').innerHTML='';">
+                        <span class="material-icons-round">clear</span>
+                        Temizle
+                    </button>
+                </div>
+                <div id="pastePreviewArea" style="margin-top:1rem;"></div>
             </div>
 
             <div class="editor-layout">
@@ -1950,34 +2183,7 @@
                                 <span style="font-size:0.7rem;color:#94a3b8">$0.88/M (zayıf)</span>
                             </button>
 
-                            <!-- 👑 PREMIUM -->
-                            <div
-                                style="font-size:0.65rem;color:#f472b6;font-weight:600;padding:0.5rem 0.25rem 0.1rem;letter-spacing:0.05em">
-                                👑 PREMIUM (pahalı)</div>
-                            <button onclick="selectModel('anthropic/claude-haiku-4.5')" class="model-card"
-                                data-model="anthropic/claude-haiku-4.5"
-                                style="padding:0.5rem 0.65rem;border:1px solid #334155;border-radius:6px;background:#0f172a;cursor:pointer;text-align:left;display:flex;justify-content:space-between;align-items:center">
-                                <span style="font-size:0.8rem;color:#e2e8f0;font-weight:500">Claude Haiku 4.5</span>
-                                <span style="font-size:0.7rem;color:#f472b6">$3.00/M</span>
-                            </button>
-                            <button onclick="selectModel('google/gemini-3.1-pro-preview')" class="model-card"
-                                data-model="google/gemini-3.1-pro-preview"
-                                style="padding:0.5rem 0.65rem;border:1px solid #334155;border-radius:6px;background:#0f172a;cursor:pointer;text-align:left;display:flex;justify-content:space-between;align-items:center">
-                                <span style="font-size:0.8rem;color:#e2e8f0;font-weight:500">Gemini 3.1 Pro</span>
-                                <span style="font-size:0.7rem;color:#f472b6">$7.00/M</span>
-                            </button>
-                            <button onclick="selectModel('openai/gpt-5.2')" class="model-card"
-                                data-model="openai/gpt-5.2"
-                                style="padding:0.5rem 0.65rem;border:1px solid #334155;border-radius:6px;background:#0f172a;cursor:pointer;text-align:left;display:flex;justify-content:space-between;align-items:center">
-                                <span style="font-size:0.8rem;color:#e2e8f0;font-weight:500">GPT-5.2</span>
-                                <span style="font-size:0.7rem;color:#f472b6">$7.88/M</span>
-                            </button>
-                            <button onclick="selectModel('anthropic/claude-sonnet-4.6')" class="model-card"
-                                data-model="anthropic/claude-sonnet-4.6"
-                                style="padding:0.5rem 0.65rem;border:1px solid #334155;border-radius:6px;background:#0f172a;cursor:pointer;text-align:left;display:flex;justify-content:space-between;align-items:center">
-                                <span style="font-size:0.8rem;color:#e2e8f0;font-weight:500">Claude Sonnet 4.6</span>
-                                <span style="font-size:0.7rem;color:#f472b6">$9.00/M</span>
-                            </button>
+
                         </div>
                         <select id="aiModel" style="display:none">
                             <option value="google/gemini-2.5-flash" selected>Gemini 2.5 Flash ★</option>
@@ -1992,10 +2198,7 @@
                             <option value="google/gemini-2.5-flash-lite">Gemini 2.5 Flash Lite</option>
                             <option value="openai/gpt-4o-mini">GPT-4o Mini</option>
                             <option value="google/gemini-3.1-flash-lite-preview">Gemini 3.1 Flash Lite</option>
-                            <option value="anthropic/claude-haiku-4.5">Claude Haiku 4.5</option>
-                            <option value="google/gemini-3.1-pro-preview">Gemini 3.1 Pro</option>
-                            <option value="openai/gpt-5.2">GPT-5.2</option>
-                            <option value="anthropic/claude-sonnet-4.6">Claude Sonnet 4.6</option>
+
                         </select>
                     </div>
 
@@ -2765,10 +2968,55 @@
         </div>
     </div>
 
-    <!-- SCRIPTS - Consolidated into single bundle -->
+    <!-- JOB PROGRESS PANEL — AI üretimi sırasında alt sabit çubuk -->
+    <div id="jobProgressPanel" class="jp-hidden" style="
+        position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+        background: #1e293b; border-top: 1px solid #334155;
+        padding: 0.6rem 1.5rem; display: flex; align-items: center; gap: 1rem;
+        box-shadow: 0 -4px 20px rgba(0,0,0,0.4); transition: transform 0.3s ease, opacity 0.3s ease;
+    ">
+        <style>
+            #jobProgressPanel.jp-hidden { transform: translateY(100%); opacity: 0; pointer-events: none; }
+            #jobProgressPanel.jp-visible { transform: translateY(0); opacity: 1; }
+            #jobProgressPanel.jp-done #jpBar { background: #10b981; }
+            #jobProgressPanel.jp-error #jpBar { background: #ef4444; }
+            #jpBarTrack { flex: 1; background: #334155; border-radius: 6px; height: 8px; overflow: hidden; min-width: 120px; }
+            #jpBar { height: 100%; width: 0%; background: linear-gradient(90deg, #6366f1, #3b82f6); border-radius: 6px; transition: width 0.4s ease; }
+            .jp-pulse { animation: jpSpin 1.2s linear infinite; display: inline-block; }
+            @keyframes jpSpin { to { transform: rotate(360deg); } }
+        </style>
+        <span class="jp-pulse" style="font-size: 1.1rem;">⚙️</span>
+        <span id="jpJobName" style="font-size: 0.82rem; font-weight: 600; color: #a5b4fc; min-width: 140px; max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"></span>
+        <div id="jpBarTrack"><div id="jpBar"></div></div>
+        <span id="jpPct" style="font-size: 0.78rem; font-weight: 700; color: #94a3b8; min-width: 38px; text-align: right;">0%</span>
+        <span id="jpCount" style="font-size: 0.75rem; color: #64748b; min-width: 60px;">0 / ?</span>
+        <span id="jpStatus" style="font-size: 0.78rem; color: #94a3b8; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"></span>
+        <button onclick="_jobPanel && _jobPanel.hide()" style="background:transparent; border:none; color:#64748b; cursor:pointer; font-size:1rem; padding:0.2rem 0.4rem; border-radius:4px; line-height:1;" title="Paneli kapat">✕</button>
+    </div>
+
+    <!-- SCRIPTS -->
     <script src="js/env.js"></script>
     <script src="js/config.js"></script>
-    <script src="js/app-all.js?v=66"></script>
+    <!-- Modüler yapı: app-all.js yerine ayrı modüller yüklenir -->
+    <script src="js/modules/ai-content.js?v=1"></script>
+    <script src="js/modules/ui.js?v=1"></script>
+    <script src="js/modules/validation.js?v=1"></script>
+    <script src="js/modules/dashboard.js?v=1"></script>
+    <script src="js/modules/editor.js?v=1"></script>
+    <script src="js/modules/browse.js?v=1"></script>
+    <script src="js/modules/admin.js?v=1"></script>
+    <script src="js/modules/sync.js?v=1"></script>
+    <script src="js/modules/ai.js?v=1"></script>
+    <script src="js/modules/notifications.js?v=1"></script>
+    <script src="js/modules/flashcards.js?v=1"></script>
+    <script src="js/modules/stories.js?v=1"></script>
+    <script src="js/modules/explanations.js?v=1"></script>
+    <script src="js/modules/matching_games.js?v=1"></script>
+    <script src="js/modules/update.js?v=1"></script>
+    <script src="js/modules/navigation.js?v=1"></script>
+    <script src="js/modules/quality-check.js?v=1"></script>
+    <script src="js/modules/smart-add.js?v=1"></script>
+    <script src="js/modules/editor-role.js?v=1"></script>
     <!-- LIVE RELOAD -->
     <script>
         (function () {
@@ -2792,6 +3040,365 @@
             connect();
         })();
     </script>
+
+    </div><!-- /#appWrapper -->
+
+    <!-- ============ EDITOR WRAPPER (editörler için panel) ============ -->
+    <div id="editorWrapper" style="display:none;min-height:100vh;background:#f0f2f5;font-family:'Inter',sans-serif;color:#1e293b">
+    <style>
+        #editorWrapper * { box-sizing: border-box; }
+        #editorWrapper button { font-family: inherit; }
+        #editorWrapper .etab-btn {
+            padding: 14px 20px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            font-size: .9rem;
+            font-weight: 600;
+            border-bottom: 3px solid transparent;
+            margin-bottom: -2px;
+            color: #64748b;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: color .15s;
+        }
+        #editorWrapper .etab-btn.active {
+            color: #6366f1;
+            border-bottom-color: #6366f1;
+        }
+        #editorWrapper .etab-btn:hover { color: #334155; }
+        #editorWrapper .ecard {
+            background: #fff;
+            border-radius: 14px;
+            padding: 24px 28px;
+            box-shadow: 0 1px 8px rgba(0,0,0,.08);
+        }
+        #editorWrapper .eopt {
+            padding: 9px 14px;
+            margin: 5px 0;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            background: #f8fafc;
+            color: #1e293b;
+            font-size: .92rem;
+            line-height: 1.5;
+        }
+        #editorWrapper .eopt.correct {
+            background: #f0fdf4;
+            border-color: #22c55e;
+            color: #15803d;
+            font-weight: 600;
+        }
+        #editorWrapper .eexplain {
+            margin-top: 14px;
+            padding: 12px 16px;
+            background: #eff6ff;
+            border-radius: 8px;
+            font-size: .88rem;
+            color: #1e40af;
+            line-height: 1.6;
+        }
+        #editorWrapper .ebtn {
+            padding: 10px 22px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: .9rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: opacity .15s, transform .1s;
+        }
+        #editorWrapper .ebtn:active { transform: scale(.97); }
+        #editorWrapper .ebtn-green  { background: #22c55e; color: #fff; }
+        #editorWrapper .ebtn-blue   { background: #6366f1; color: #fff; }
+        #editorWrapper .ebtn-orange { background: #f97316; color: #fff; }
+        #editorWrapper .ebtn-gray   { background: #94a3b8; color: #fff; }
+        #editorWrapper .ebtn-dark   { background: #1e293b; color: #fff; }
+        #editorWrapper input, #editorWrapper textarea, #editorWrapper select {
+            width: 100%;
+            padding: 9px 12px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: .9rem;
+            font-family: inherit;
+            color: #1e293b;
+            background: #f8fafc;
+            transition: border-color .15s;
+            resize: vertical;
+        }
+        #editorWrapper input:focus, #editorWrapper textarea:focus, #editorWrapper select:focus {
+            outline: none;
+            border-color: #6366f1;
+            background: #fff;
+        }
+        #editorWrapper label.eform-label {
+            display: block;
+            font-size: .8rem;
+            font-weight: 600;
+            color: #64748b;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: .04em;
+        }
+    </style>
+
+        <!-- Header -->
+        <header style="background:linear-gradient(135deg,#1e293b 0%,#334155 100%);color:#fff;padding:0 28px;height:62px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 2px 8px rgba(0,0,0,.2)">
+            <div style="display:flex;align-items:center;gap:12px">
+                <span class="material-icons-round" style="font-size:26px;color:#818cf8">rate_review</span>
+                <span style="font-size:1.05rem;font-weight:700;letter-spacing:.01em">KPSS Editör Paneli</span>
+            </div>
+            <button id="editorLogoutBtn" class="ebtn" style="background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.2);font-size:.85rem">
+                <span class="material-icons-round" style="font-size:16px">logout</span> Çıkış Yap
+            </button>
+        </header>
+
+        <!-- Tab Bar -->
+        <div style="background:#fff;border-bottom:2px solid #e2e8f0;display:flex;gap:0;padding:0 24px">
+            <button id="editorTab_review" class="etab-btn active">
+                <span class="material-icons-round" style="font-size:18px">checklist</span>
+                İnceleme Kuyruğu
+            </button>
+            <button id="editorTab_search" class="etab-btn">
+                <span class="material-icons-round" style="font-size:18px">manage_search</span>
+                İncelenen Sorularda Ara
+            </button>
+        </div>
+
+        <!-- İnceleme Kuyruğu Paneli -->
+        <div id="editorPanel_review" style="max-width:780px;margin:28px auto;padding:0 16px">
+
+            <!-- Konu Filtresi -->
+            <div class="ecard" style="margin-bottom:16px;padding:14px 20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+                <span class="material-icons-round" style="color:#94a3b8;font-size:20px">filter_list</span>
+                <label style="font-size:.82rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap">Konu Filtresi</label>
+                <select id="editorTopicFilter" style="flex:1;min-width:200px;max-width:400px;padding:7px 10px">
+                    <option value="">Tüm Konular</option>
+                </select>
+                <span id="editorSkipBadge" style="display:none;font-size:.8rem;font-weight:600;color:#f97316;background:#fff7ed;border:1px solid #fed7aa;border-radius:99px;padding:4px 12px;cursor:pointer;white-space:nowrap"></span>
+            </div>
+
+            <!-- İlerleme -->
+            <div id="editorProgress" class="ecard" style="margin-bottom:16px;padding:16px 22px"></div>
+
+            <!-- Soru Kartı -->
+            <div id="editorQuestionCard" class="ecard" style="min-height:100px">
+                <p style="color:#94a3b8;text-align:center;padding:32px 0">Yükleniyor...</p>
+            </div>
+
+            <!-- Aksiyonlar -->
+            <div id="editorActions" style="display:none;margin-top:14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center">
+                <button id="editorBtnMark" class="ebtn ebtn-green">
+                    <span class="material-icons-round" style="font-size:17px">check_circle</span>
+                    İşaretle &amp; İleri
+                </button>
+                <button id="editorBtnEdit" class="ebtn ebtn-blue">
+                    <span class="material-icons-round" style="font-size:17px">edit</span>
+                    Düzenle
+                </button>
+                <button id="editorBtnSkip" class="ebtn ebtn-gray">
+                    <span class="material-icons-round" style="font-size:17px">skip_next</span>
+                    Atla
+                </button>
+                <button id="editorBtnUndo" class="ebtn" style="display:none;background:#fef3c7;color:#92400e;border:1px solid #fde68a">
+                    <span class="material-icons-round" style="font-size:17px">undo</span>
+                    Geri Al
+                </button>
+                <span style="margin-left:auto;font-size:.78rem;color:#94a3b8">Space=İşaretle &nbsp; S=Atla &nbsp; E=Düzenle &nbsp; Ctrl+Z=Geri Al</span>
+            </div>
+
+            <!-- Düzenleme Formu -->
+            <div id="editorEditSection" class="ecard" style="display:none;margin-top:14px">
+                <h3 style="margin:0 0 18px;font-size:.95rem;font-weight:700;color:#334155;display:flex;align-items:center;gap:8px">
+                    <span class="material-icons-round" style="font-size:18px;color:#6366f1">edit_note</span>
+                    Soru Düzenle
+                </h3>
+                <div style="margin-bottom:14px">
+                    <label class="eform-label">Soru Metni</label>
+                    <textarea id="editQ" rows="3"></textarea>
+                </div>
+                <div style="margin-bottom:14px">
+                    <label class="eform-label">Seçenekler (A–E)</label>
+                    <div style="display:flex;flex-direction:column;gap:7px">
+                        <div style="display:flex;align-items:center;gap:8px"><span style="font-weight:700;min-width:24px;color:#64748b">A)</span><input id="editO0" style="width:auto;flex:1"></div>
+                        <div style="display:flex;align-items:center;gap:8px"><span style="font-weight:700;min-width:24px;color:#64748b">B)</span><input id="editO1" style="width:auto;flex:1"></div>
+                        <div style="display:flex;align-items:center;gap:8px"><span style="font-weight:700;min-width:24px;color:#64748b">C)</span><input id="editO2" style="width:auto;flex:1"></div>
+                        <div style="display:flex;align-items:center;gap:8px"><span style="font-weight:700;min-width:24px;color:#64748b">D)</span><input id="editO3" style="width:auto;flex:1"></div>
+                        <div style="display:flex;align-items:center;gap:8px"><span style="font-weight:700;min-width:24px;color:#64748b">E)</span><input id="editO4" style="width:auto;flex:1"></div>
+                    </div>
+                </div>
+                <div style="margin-bottom:14px;display:flex;gap:16px;align-items:flex-start">
+                    <div style="flex:0 0 140px">
+                        <label class="eform-label">Doğru Cevap</label>
+                        <select id="editA" style="width:140px"></select>
+                    </div>
+                </div>
+                <div style="margin-bottom:20px">
+                    <label class="eform-label">Açıklama</label>
+                    <textarea id="editE" rows="3"></textarea>
+                </div>
+                <button id="editorBtnSaveEdit" class="ebtn ebtn-orange">
+                    <span class="material-icons-round" style="font-size:17px">save</span>
+                    Düzenleyerek İşaretle
+                </button>
+            </div>
+        </div>
+
+        <!-- Arama Paneli -->
+        <div id="editorPanel_search" style="display:none;max-width:780px;margin:28px auto;padding:0 16px">
+            <div class="ecard" style="margin-bottom:16px">
+                <div style="display:flex;gap:10px;align-items:center">
+                    <span class="material-icons-round" style="color:#94a3b8">search</span>
+                    <input id="editorSearchInput" type="text" placeholder="İncelenen sorularda arama yapın..." style="flex:1;border:none;outline:none;font-size:.95rem;background:transparent;color:#1e293b;padding:4px 0">
+                    <button id="editorBtnSearch" class="ebtn ebtn-dark" style="flex-shrink:0">
+                        <span class="material-icons-round" style="font-size:17px">search</span>
+                        Ara
+                    </button>
+                </div>
+            </div>
+            <div id="editorSearchResults"></div>
+        </div>
+
+    </div><!-- /#editorWrapper -->
+
+    <!-- ============ AUTH SCRIPT ============ -->
+    <script>
+    (function () {
+        // Auth istekleri daima aynı origin'e gider (sunucu HTML'i de serve eder)
+        const API_BASE = window.location.origin;
+        const TOKEN_KEY = 'kpss_admin_token';
+        const ROLE_KEY  = 'kpss_admin_role';
+
+        const overlay    = document.getElementById('loginOverlay');
+        const appWrap    = document.getElementById('appWrapper');
+        const editorWrap = document.getElementById('editorWrapper');
+        const loginForm  = document.getElementById('loginForm');
+        const loginErr   = document.getElementById('loginError');
+        const loginBtn   = document.getElementById('loginBtn');
+
+        function showApp(role) {
+            overlay.classList.add('hidden');
+            if (role === 'editor') {
+                appWrap.classList.remove('visible');
+                if (editorWrap) editorWrap.style.display = '';
+                if (window.initEditorApp) window.initEditorApp();
+            } else {
+                appWrap.classList.add('visible');
+                if (editorWrap) editorWrap.style.display = 'none';
+                if (window.initApp) window.initApp();
+            }
+        }
+
+        function showLogin(msg) {
+            overlay.classList.remove('hidden');
+            appWrap.classList.remove('visible');
+            if (editorWrap) editorWrap.style.display = 'none';
+            if (msg) {
+                loginErr.textContent = msg;
+                loginErr.style.display = 'block';
+            }
+        }
+
+        // --- Global: tüm fetch isteklerine token ekle + 401 yakala ---
+        const _origFetch = window.fetch;
+        window.fetch = async function (url, opts = {}) {
+            const token = localStorage.getItem(TOKEN_KEY);
+            opts.credentials = opts.credentials || 'include';
+            if (token) {
+                opts.headers = Object.assign({}, opts.headers || {}, {
+                    'Authorization': 'Bearer ' + token
+                });
+            }
+            const resp = await _origFetch(url, opts);
+            if (resp.status === 401) {
+                const clone = resp.clone();
+                const data = await clone.json().catch(() => ({}));
+                // /auth/* yollarına 401 gelirse sonsuz döngü yaşanmasın
+                if (!url.toString().includes('/auth/')) {
+                    localStorage.removeItem(TOKEN_KEY);
+                    localStorage.removeItem(ROLE_KEY);
+                    showLogin('Oturum süresi doldu. Lütfen tekrar giriş yapın.');
+                }
+            }
+            return resp;
+        };
+
+        // --- Login form ---
+        loginForm.addEventListener('submit', async function () {
+            const username = document.getElementById('loginUsername').value.trim();
+            const password = document.getElementById('loginPassword').value;
+            loginErr.style.display = 'none';
+            loginBtn.disabled = true;
+            loginBtn.textContent = 'Giriş yapılıyor...';
+
+            try {
+                const resp = await _origFetch(API_BASE + '/auth/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username, password })
+                });
+                const data = await resp.json();
+                if (resp.ok && data.token) {
+                    localStorage.setItem(TOKEN_KEY, data.token);
+                    localStorage.setItem(ROLE_KEY, data.role || 'admin');
+                    window.location.reload();
+                    return;
+                } else {
+                    loginErr.textContent = data.error || 'Giriş başarısız.';
+                    loginErr.style.display = 'block';
+                }
+            } catch (e) {
+                loginErr.textContent = 'Sunucuya ulaşılamadı: ' + e.message;
+                loginErr.style.display = 'block';
+            } finally {
+                loginBtn.disabled = false;
+                loginBtn.textContent = 'Giriş Yap';
+            }
+        });
+
+        // --- Logout ---
+        window.adminLogout = async function () {
+            const token = localStorage.getItem(TOKEN_KEY);
+            if (token) {
+                await _origFetch(API_BASE + '/auth/logout', {
+                    method: 'POST',
+                    headers: { 'Authorization': 'Bearer ' + token }
+                }).catch(() => {});
+            }
+            localStorage.removeItem(TOKEN_KEY);
+            localStorage.removeItem(ROLE_KEY);
+            showLogin();
+        };
+
+        // Editör logout butonu
+        const editorLogoutBtn = document.getElementById('editorLogoutBtn');
+        if (editorLogoutBtn) editorLogoutBtn.addEventListener('click', window.adminLogout);
+
+        // --- Sayfa yüklenince token kontrol et (cookie otomatik gönderilir) ---
+        _origFetch(API_BASE + '/auth/verify', {
+            credentials: 'include',
+            headers: localStorage.getItem(TOKEN_KEY)
+                ? { 'Authorization': 'Bearer ' + localStorage.getItem(TOKEN_KEY) }
+                : {}
+        }).then(r => r.json().catch(() => ({}))).then(data => {
+            if (data.authenticated) {
+                // Sunucudan gelen (yenilenmiş) token ve rolü kaydet
+                if (data.token) localStorage.setItem(TOKEN_KEY, data.token);
+                const role = data.role || localStorage.getItem(ROLE_KEY) || 'admin';
+                localStorage.setItem(ROLE_KEY, role);
+                showApp(role);
+            } else {
+                localStorage.removeItem(TOKEN_KEY);
+                localStorage.removeItem(ROLE_KEY);
+                showLogin();
+            }
+        }).catch(() => showLogin());
+    })();
+    </script>
+    <!-- ====================================== -->
 
 </body>
 

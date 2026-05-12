@@ -69,6 +69,49 @@ async function handleReportRoutes(req, res, pathname) {
         }
     }
 
+    // PATCH /reports — durum güncelle (pending | resolved | rejected)
+    if (pathname === '/reports' && req.method === 'PATCH') {
+        try {
+            const body = await parseBody(req);
+            const { id, questionId, receivedAt, status } = body;
+            const validStatuses = ['pending', 'resolved', 'rejected'];
+            if (!validStatuses.includes(status)) {
+                return sendJSON(res, { error: 'Geçersiz durum' }, 400);
+            }
+
+            // 1) Firestore güncelle
+            if (db && id) {
+                try {
+                    await db.collection('reports').doc(id).update({
+                        status,
+                        updatedAt: new Date().toISOString()
+                    });
+                } catch (e) {
+                    console.error('Firestore rapor güncelleme hatası:', e.message);
+                }
+            }
+
+            // 2) Dosyayı güncelle
+            if (fsSync.existsSync(REPORTS_FILE)) {
+                const content = await fs.readFile(REPORTS_FILE, 'utf8');
+                const reports = JSON.parse(content);
+                const idx = reports.findIndex(r =>
+                    (id && r.id === id) ||
+                    (r.questionId === questionId && (r.receivedAt === receivedAt || r.timestamp === receivedAt))
+                );
+                if (idx !== -1) {
+                    reports[idx].status = status;
+                    reports[idx].updatedAt = new Date().toISOString();
+                    await fs.writeFile(REPORTS_FILE, JSON.stringify(reports, null, 2), 'utf8');
+                }
+            }
+
+            return sendJSON(res, { success: true });
+        } catch (e) {
+            return sendJSON(res, { error: e.message }, 500);
+        }
+    }
+
     return false;
 }
 

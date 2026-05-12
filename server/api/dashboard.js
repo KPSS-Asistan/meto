@@ -81,6 +81,20 @@ async function handleDashboardRoutes(req, res, pathname, searchParams) {
             }));
 
             let recentActivity = [];
+            // İnceleme istatistikleri
+            let reviewedQuestions = 0;
+            try {
+                const qFiles = await fs.readdir(QUESTIONS_DIR);
+                await Promise.all(qFiles.filter(f => f.endsWith('.json')).map(async (file) => {
+                    try {
+                        const content = await fs.readFile(path.join(QUESTIONS_DIR, file), 'utf8');
+                        const data = JSON.parse(content);
+                        if (Array.isArray(data)) {
+                            reviewedQuestions += data.filter(q => q._reviewed === true).length;
+                        }
+                    } catch { }
+                }));
+            } catch { }
             try {
                 const historyContent = await fs.readFile(HISTORY_FILE, 'utf8');
                 const rawHistory = JSON.parse(historyContent);
@@ -121,6 +135,7 @@ async function handleDashboardRoutes(req, res, pathname, searchParams) {
 
             const payload = {
                 totalQuestions,
+                reviewedQuestions,
                 totalFlashcards,
                 totalStories,
                 totalGames,

@@ -3,11 +3,160 @@
  * Firebase Admin SDK ile kullanıcı yönetimi
  */
 const path = require('path');
+const https = require('https');
+const fs = require('fs');
 const { sendJSON, parseBody } = require('../utils/helper');
+const { FEEDBACK_FILE, REPORTS_FILE } = require('../config');
 
 // Firebase Admin SDK
 const { admin, db: firebaseDb } = require('../firebase-admin');
 let db = firebaseDb;
+
+function normalizePlatform(value) {
+    const platform = (value || '').toString().trim().toLowerCase();
+    if (platform.includes('android')) return 'Android';
+    if (platform.includes('ios') || platform.includes('iphone') || platform.includes('ipad')) return 'iOS';
+    if (platform.includes('web')) return 'Web';
+    return '';
+}
+
+function normalizeLoginMethod(providerId, email) {
+    const value = (providerId || '').toString().trim().toLowerCase();
+    if (!value) return email ? 'E-posta/Şifre' : 'Bilinmiyor';
+    if (value === 'password') return 'E-posta/Şifre';
+    if (value === 'google.com') return 'Google';
+    if (value === 'apple.com') return 'Apple';
+    if (value === 'phone') return 'Telefon';
+    if (value === 'anonymous') return 'Misafir';
+    if (value === 'custom') return 'Özel Giriş';
+    return value.replace('.com', '').replace('.', ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+
+async function collectPlatformHints() {
+    const hints = {};
+
+    const ingestRecord = (data) => {
+        const uid = data.userId || data.uid;
+        const platform = normalizePlatform(data.platform);
+        if (!uid || !platform) return;
+        if (!hints[uid]) hints[uid] = platform;
+    };
+
+    const ingestFile = (filePath) => {
+        try {
+            if (!fs.existsSync(filePath)) return;
+            const raw = fs.readFileSync(filePath, 'utf8');
+            const parsed = JSON.parse(raw);
+            if (Array.isArray(parsed)) {
+                parsed.forEach(ingestRecord);
+            }
+        } catch (e) {
+            // Dosya yoksa ya da JSON bozuksa sessizce geç
+        }
+    };
+
+    ingestFile(FEEDBACK_FILE);
+    ingestFile(REPORTS_FILE);
+
+    if (!db) return hints;
+
+    const sources = [
+        { collection: 'feedbacks', dateField: 'createdAt' },
+        { collection: 'reports', dateField: 'createdAt' },
+        { collection: 'feedback', dateField: 'receivedAt' },
+        { collection: 'report', dateField: 'receivedAt' }
+    ];
+
+    for (const source of sources) {
+        try {
+            const snap = await db.collection(source.collection).orderBy(source.dateField, 'desc').limit(500).get();
+            snap.forEach(doc => {
+                ingestRecord(doc.data());
+            });
+        } catch (e) {
+            // Koleksiyon veya index yoksa sessizce geç
+        }
+    }
+
+    return hints;
+}
+
+// ─── RevenueCat REST API Helpers ───────────────────────────────────────────
+// Gerekli .env değişkenleri:
+//   REVENUECAT_SECRET_KEY   → RevenueCat Dashboard > Project > API Keys > Secret Key (sk_...)
+//   REVENUECAT_ENTITLEMENT_ID → Entitlement identifier (varsayılan: "premium")
+
+function rcRequest(method, path, body) {
+    return new Promise((resolve, reject) => {
+        const secretKey = process.env.REVENUECAT_SECRET_KEY;
+        if (!secretKey) {
+            return resolve({ skipped: true, reason: 'REVENUECAT_SECRET_KEY tanımlı değil' });
+        }
+        const payload = body ? JSON.stringify(body) : null;
+        const options = {
+            hostname: 'api.revenuecat.com',
+            path,
+            method,
+            headers: {
+                'Authorization': `Bearer ${secretKey}`,
+                'Content-Type': 'application/json',
+                ...(payload ? { 'Content-Length': Buffer.byteLength(payload) } : {})
+            }
+        };
+        const req = https.request(options, (res) => {
+            let data = '';
+            res.on('data', chunk => data += chunk);
+            res.on('end', () => {
+                resolve({ statusCode: res.statusCode, body: data });
+            });
+        });
+        req.on('error', reject);
+        if (payload) req.write(payload);
+        req.end();
+    });
+}
+
+// RevenueCat duration map: premiumType → RevenueCat duration string
+const RC_DURATION_MAP = {
+    monthly: 'monthly',
+    quarterly: 'three_month',
+    yearly: 'yearly'
+};
+
+async function grantRevenueCatEntitlement(uid, premiumType) {
+    const entitlementId = process.env.REVENUECAT_ENTITLEMENT_ID || 'premium';
+    const duration = RC_DURATION_MAP[premiumType] || 'monthly';
+    const result = await rcRequest(
+        'POST',
+        `/v1/subscribers/${encodeURIComponent(uid)}/entitlements/${encodeURIComponent(entitlementId)}/promotional`,
+        { duration }
+    );
+    if (result.skipped) {
+        console.log('⚠️ RevenueCat atlandı:', result.reason);
+    } else if (result.statusCode >= 200 && result.statusCode < 300) {
+        console.log(`✅ RevenueCat entitlement verildi (uid=${uid}, duration=${duration})`);
+    } else {
+        console.error(`❌ RevenueCat entitlement hatası (${result.statusCode}):`, result.body);
+    }
+    return result;
+}
+
+async function revokeRevenueCatEntitlement(uid) {
+    const entitlementId = process.env.REVENUECAT_ENTITLEMENT_ID || 'premium';
+    const result = await rcRequest(
+        'DELETE',
+        `/v1/subscribers/${encodeURIComponent(uid)}/entitlements/${encodeURIComponent(entitlementId)}`
+    );
+    if (result.skipped) {
+        console.log('⚠️ RevenueCat atlandı:', result.reason);
+    } else if (result.statusCode >= 200 && result.statusCode < 300) {
+        console.log(`✅ RevenueCat entitlement kaldırıldı (uid=${uid})`);
+    } else {
+        console.error(`❌ RevenueCat revoke hatası (${result.statusCode}):`, result.body);
+    }
+    return result;
+}
+// ───────────────────────────────────────────────────────────────────────────
 
 // Mock users for development without Firebase
 const MOCK_USERS = [
@@ -88,20 +237,51 @@ async function handleUserRoutes(req, res, pathname) {
                 firestoreData[doc.id] = doc.data();
             });
 
+            const platformHints = await collectPlatformHints();
+
             // 3. Verileri birleştir
             const users = authUsers.map(userRecord => {
                 const fsData = firestoreData[userRecord.uid] || {};
+                const hasEmail = !!userRecord.email;
+                const providerIds = (userRecord.providerData || []).map(p => p.providerId).filter(Boolean);
+                const isAnonymousProvider = providerIds.includes('anonymous');
+                const inferredGuest = !hasEmail || isAnonymousProvider || fsData.isGuest === true || fsData.userType === 'guest';
+                const platformFromData = normalizePlatform(fsData.platform);
+                const platform = platformFromData || platformHints[userRecord.uid] || 'Bilinmiyor';
+                const primaryProvider = providerIds[0] || (inferredGuest ? 'anonymous' : (hasEmail ? 'password' : 'custom'));
+                const loginMethod = normalizeLoginMethod(primaryProvider, hasEmail);
+
+                // İsim için tüm olası alanları sırayla dene
+                const resolvedName =
+                    userRecord.displayName ||
+                    fsData.displayName ||
+                    fsData.name ||
+                    fsData.fullName ||
+                    fsData.adSoyad ||
+                    fsData.ad ||
+                    fsData.isim ||
+                    fsData.kullaniciAdi ||
+                    fsData.username ||
+                    (fsData.firstName && fsData.lastName ? `${fsData.firstName} ${fsData.lastName}` : null) ||
+                    fsData.firstName ||
+                    // Son çare: e-posta'nın @ öncesi kısmını capitalize et
+                    (userRecord.email ? userRecord.email.split('@')[0].replace(/[._-]/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) : null) ||
+                    'İsimsiz';
 
                 return {
                     uid: userRecord.uid,
                     email: userRecord.email || 'N/A',
-                    displayName: userRecord.displayName || fsData.displayName || fsData.name || 'İsimsiz',
+                    displayName: resolvedName,
                     photoURL: userRecord.photoURL,
+                    isGuest: inferredGuest,
+                    accountType: inferredGuest ? 'guest' : 'email',
+                    loginMethod,
+                    authProviders: providerIds,
                     isPremium: fsData.isPremium || false,
                     premiumType: fsData.premiumType || null,
                     createdAt: userRecord.metadata.creationTime,
                     lastLogin: userRecord.metadata.lastSignInTime,
-                    platform: fsData.platform || 'Mobil',
+                    platform,
                     stats: {
                         totalQuestions: fsData.totalQuestionsSolved || 0,
                         correctAnswers: fsData.correctAnswers || 0,
@@ -151,6 +331,7 @@ async function handleUserRoutes(req, res, pathname) {
             }
 
             const data = userDoc.data();
+            const platform = normalizePlatform(data.platform) || 'Bilinmiyor';
             return sendJSON(res, {
                 success: true,
                 user: {
@@ -161,6 +342,7 @@ async function handleUserRoutes(req, res, pathname) {
                     premiumType: data.premiumType || null,
                     createdAt: data.createdAt ? data.createdAt.toDate().toISOString() : null,
                     lastLogin: data.lastLogin ? data.lastLogin.toDate().toISOString() : null,
+                    platform,
                     ...data
                 }
             });
@@ -269,6 +451,9 @@ async function handleUserRoutes(req, res, pathname) {
             const isPremium = userData.isPremium || userData.is_premium || false;
             const premiumStart = userData.premiumStartDate?.toDate?.() || userData.premiumStartDate;
             const premiumEnd = userData.premiumEndDate?.toDate?.() || userData.premiumEndDate;
+            const platform = normalizePlatform(userData.platform) || 'Bilinmiyor';
+            const providerIds = (authUser?.providerData || []).map(p => p.providerId).filter(Boolean);
+            const loginMethod = normalizeLoginMethod(providerIds[0], !!(authUser?.email || userData.email));
             let premiumDaysLeft = null;
             if (isPremium && premiumEnd) {
                 premiumDaysLeft = Math.max(0, Math.ceil((new Date(premiumEnd) - new Date()) / (1000 * 60 * 60 * 24)));
@@ -285,7 +470,9 @@ async function handleUserRoutes(req, res, pathname) {
                     // Kayıt & Giriş bilgileri
                     createdAt: authUser?.metadata?.creationTime || (userData.createdAt?.toDate?.() || userData.createdAt),
                     lastLogin: authUser?.metadata?.lastSignInTime || (userData.lastLogin?.toDate?.() || userData.lastLogin),
-                    platform: userData.platform || 'Bilinmiyor',
+                    platform: platform,
+                    loginMethod: loginMethod,
+                    authProviders: providerIds,
 
                     // Premium bilgileri
                     isPremium: isPremium,
@@ -299,7 +486,7 @@ async function handleUserRoutes(req, res, pathname) {
                     stats: {
                         totalQuestionsSolved: userData.totalQuestionsSolved || totalSolved,
                         correctAnswers: userData.correctAnswers || correctAnswers,
-                        wrongAnswers: userData.wrongAnswers || wrongAnswers,
+                        wrongAnswers: userData.wrongAnswers !== undefined ? userData.wrongAnswers : wrongAnswers,
                         accuracyRate: accuracyRate,
                         currentStreak: userData.currentStreak || 0,
                         longestStreak: userData.longestStreak || 0,
@@ -371,8 +558,16 @@ async function handleUserRoutes(req, res, pathname) {
             };
 
             // Handle premium type
-            if (premiumType) {
-                updateData.premiumType = premiumType;
+            if (isPremium) {
+                // Set type if provided, otherwise keep existing (don't overwrite)
+                if (premiumType) {
+                    updateData.premiumType = premiumType;
+                }
+            } else {
+                // Clear premium type and dates when cancelling
+                updateData.premiumType = admin.firestore.FieldValue.delete();
+                updateData.premiumEndDate = admin.firestore.FieldValue.delete();
+                updateData.premiumStartDate = admin.firestore.FieldValue.delete();
             }
 
             // Handle dates if provided
@@ -399,6 +594,17 @@ async function handleUserRoutes(req, res, pathname) {
                 });
             } catch (e) {
                 // Non-critical, continue
+            }
+
+            // RevenueCat entitlement sync (uygulamanın görmesi için)
+            try {
+                if (isPremium) {
+                    await grantRevenueCatEntitlement(uid, premiumType || 'monthly');
+                } else {
+                    await revokeRevenueCatEntitlement(uid);
+                }
+            } catch (rcErr) {
+                console.error('RevenueCat sync hatası (kritik değil):', rcErr.message);
             }
 
             return sendJSON(res, {

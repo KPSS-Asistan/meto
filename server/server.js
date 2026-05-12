@@ -2,10 +2,37 @@
  * KPSS Dashboard Server v2.0 - Full Integration
  */
 const http = require('http');
+const fs = require('fs');
+const path = require('path');
 const { PORT, ENV_FILE } = require('./config');
 require('dotenv').config({ path: ENV_FILE });
 
+const CLIENT_DIR = path.join(__dirname, '..', 'client');
+
+function serveStatic(res, filePath) {
+    const ext = path.extname(filePath).toLowerCase();
+    const mime = {
+        '.html': 'text/html',
+        '.js': 'application/javascript',
+        '.css': 'text/css',
+        '.json': 'application/json',
+        '.png': 'image/png',
+        '.ico': 'image/x-icon',
+        '.svg': 'image/svg+xml'
+    };
+    const contentType = mime[ext] || 'text/plain';
+    try {
+        const data = fs.readFileSync(filePath);
+        res.writeHead(200, { 'Content-Type': contentType });
+        res.end(data);
+    } catch {
+        res.writeHead(404);
+        res.end('Not Found');
+    }
+}
+
 // API Route Handlers
+const { handleAuthRoutes, verifyToken } = require('./api/auth');
 const handleQuestionRoutes = require('./api/questions');
 const handleReportRoutes = require('./api/reports');
 const handleFeedbackRoutes = require('./api/feedback');
@@ -35,11 +62,12 @@ const handleStoryRoutes = require('./api/stories');
 const handleExplanationRoutes = require('./api/explanations');
 const handleMatchingGamesRoutes = require('./api/matching_games');
 const handleGlossaryRoutes = require('./api/glossary');
+const handleEditorRoutes = require('./api/editor');
 
 const server = http.createServer(async (req, res) => {
     // CORS headers
     res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE, PATCH');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Title');
 
     if (req.method === 'OPTIONS') {
@@ -53,7 +81,55 @@ const server = http.createServer(async (req, res) => {
         const pathname = urlObj.pathname;
         const searchParams = urlObj.searchParams;
 
+        // === Auth Routes (public - no token required) ===
+        if (await handleAuthRoutes(req, res, pathname)) return;
+
+        // === Auth Guard: protect all /api/* and other API routes ===
+        const isApiRoute = pathname.startsWith('/api/') ||
+            pathname.startsWith('/users') ||
+            pathname.startsWith('/topics') ||
+            pathname.startsWith('/questions') ||
+            pathname.startsWith('/reports') ||
+            pathname.startsWith('/feedback') ||
+            pathname.startsWith('/stats') ||
+            pathname.startsWith('/activities') ||
+            pathname.startsWith('/generate') ||
+            pathname.startsWith('/analyze') ||
+            pathname.startsWith('/ai') ||
+            pathname.startsWith('/notifications') ||
+            pathname.startsWith('/update') ||
+            pathname.startsWith('/quality') ||
+            pathname.startsWith('/sync') ||
+            pathname.startsWith('/flashcards') ||
+            pathname.startsWith('/stories') ||
+            pathname.startsWith('/explanations') ||
+            pathname.startsWith('/matching-games') ||
+            pathname.startsWith('/glossary') ||
+            pathname.startsWith('/editor');
+
+        // RevenueCat webhook ve dev-reload auth'dan muaf
+        const isPublicRoute = pathname === '/webhooks/revenuecat' || pathname === '/dev-reload';
+
+        const tokenInfo = isApiRoute && !isPublicRoute ? verifyToken(req) : null;
+
+        if (isApiRoute && !isPublicRoute && !tokenInfo) {
+            res.writeHead(401, { 'Content-Type': 'application/json' });
+            res.end(JSON.stringify({ error: 'Yetkisiz erişim. Lütfen giriş yapın.' }));
+            return;
+        }
+
+        // Editör rolü yalnızca /editor/* ve /auth/* erişebilir
+        if (tokenInfo && tokenInfo.role === 'editor' &&
+            !pathname.startsWith('/editor') && !pathname.startsWith('/auth')) {
+            res.writeHead(403, { 'Content-Type': 'application/json' });
+            res.end(JSON.stringify({ error: 'Bu işlem için yetkiniz yok.' }));
+            return;
+        }
+
         // === API Route Handlers (Modular) ===
+
+        // Editor API (review queue)
+        if (await handleEditorRoutes(req, res, pathname, searchParams)) return;
 
         // Questions API (CRUD, topics, browse)
         if (await handleQuestionRoutes(req, res, pathname, searchParams)) return;
@@ -105,6 +181,20 @@ const server = http.createServer(async (req, res) => {
 
         // Quality Check API
         if (await handleQualityCheckRoutes(req, res, pathname, searchParams)) return;
+
+        // === Static file serving (client) ===
+        if (req.method === 'GET') {
+            let filePath;
+            if (pathname === '/' || pathname === '/index.html') {
+                filePath = path.join(CLIENT_DIR, 'index.html');
+            } else {
+                filePath = path.join(CLIENT_DIR, pathname);
+            }
+            // Güvenlik: CLIENT_DIR dışına çıkılmasın
+            if (filePath.startsWith(CLIENT_DIR) && fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
+                return serveStatic(res, filePath);
+            }
+        }
 
         // === End of API routes ===
         res.writeHead(404);

@@ -598,6 +598,85 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
         });
     }
 
+    // GET /api/ai-content/job-stream - SSE ile canlı job takibi
+    if (pathname === '/api/ai-content/job-stream' && req.method === 'GET') {
+        const jobId = searchParams.get('jobId');
+        if (!jobId) {
+            res.writeHead(400, { 'Content-Type': 'text/plain' });
+            res.end('jobId gerekli');
+            return true;
+        }
+        const job = _activeJobs.get(jobId);
+        if (!job) {
+            res.writeHead(404, { 'Content-Type': 'text/plain' });
+            res.end('Job bulunamadı');
+            return true;
+        }
+
+        res.writeHead(200, {
+            'Content-Type': 'text/event-stream; charset=utf-8',
+            'Cache-Control': 'no-cache, no-store',
+            'Connection': 'keep-alive',
+            'X-Accel-Buffering': 'no',
+        });
+        res.write('retry: 3000\n\n');
+
+        let logOffset = 0;
+        let lastProgress = -1;
+
+        function sendSSE(type, data) {
+            try {
+                res.write(`event: ${type}\ndata: ${JSON.stringify(data)}\n\n`);
+            } catch { /* bağlantı kapandı */ }
+        }
+
+        // İlk durum bilgisi
+        sendSSE('init', {
+            status: job.status,
+            progress: job.progress,
+            total: job.total,
+            generated: job.generated,
+            total_drafts: job.total_drafts
+        });
+
+        // Mevcut logları ilk seferde gönder
+        if (job.logs.length > 0) {
+            job.logs.forEach(log => sendSSE('log', log));
+            logOffset = job.logs.length;
+        }
+
+        const tick = setInterval(() => {
+            const j = _activeJobs.get(jobId);
+            if (!j) { clearInterval(tick); try { res.end(); } catch { } return; }
+
+            // Yeni logları gönder
+            if (j.logs.length > logOffset) {
+                const newLogs = j.logs.slice(logOffset);
+                logOffset = j.logs.length;
+                newLogs.forEach(log => sendSSE('log', log));
+            }
+
+            // İlerleme güncellemesi
+            if (j.progress !== lastProgress) {
+                lastProgress = j.progress;
+                sendSSE('progress', { progress: j.progress, total: j.total });
+            }
+
+            if (j.status === 'done') {
+                sendSSE('done', { generated: j.generated, total_drafts: j.total_drafts });
+                clearInterval(tick);
+                setTimeout(() => { try { res.end(); } catch { } }, 300);
+            } else if (j.status === 'error') {
+                sendSSE('error', { error: j.error });
+                clearInterval(tick);
+                setTimeout(() => { try { res.end(); } catch { } }, 300);
+            }
+        }, 500);
+
+        req.on('close', () => clearInterval(tick));
+        return true;
+    }
+
     // GET /api/ai-content/drafts - Taslakları listele
     if (pathname === '/api/ai-content/drafts' && req.method === 'GET') {
         const topicId = searchParams.get('topicId');

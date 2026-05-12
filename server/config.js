@@ -35,7 +35,7 @@ const NIGHTLY_CONFIG_FILE = path.join(TOOLS_DIR, 'server', 'nightly-config.json'
 const GECMIS_SORULAR_PATH = path.join(DATA_DIR, 'kpss-tarih-gecmis-sorular.js');
 
 module.exports = {
-    PORT: process.env.PORT || 8002,
+    PORT: process.env.PORT || 8001,
     ROOT_DIR,
     DATA_DIR,
     QUESTIONS_DIR,

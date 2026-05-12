@@ -358,6 +358,96 @@ async function handleAIRoutes(req, res, pathname) {
         }
     }
 
+    // POST /api/ai/analyze-report
+    if (pathname === '/api/ai/analyze-report' && req.method === 'POST') {
+        try {
+            const body = await parseBody(req);
+            const { report, question, topicInfo } = body;
+            if (!report) return sendJSON(res, { error: 'report objesi gerekli' }, 400);
+
+            const apiKey = apiKeyManager.getKey('OPENROUTER_API_KEY');
+            if (!apiKey) return sendJSON(res, { error: 'OpenRouter API key bulunamadı' }, 400);
+
+            const typeLabels = {
+                wrong_answer: 'Yanlış Cevap',
+                typo: 'Yazım/Dil Hatası',
+                wrong_topic: 'Yanlış Konu',
+                unclear: 'Belirsiz Soru',
+                duplicate: 'Mükerrer Soru',
+                other: 'Diğer'
+            };
+
+            const reportTypeTr = typeLabels[report.type] || report.type || 'Bilinmiyor';
+
+            const questionSection = question && question.q ? `
+SORU METNİ:
+${question.q}
+
+ŞIKLAR:
+${Array.isArray(question.o) ? question.o.map((o, i) => `${String.fromCharCode(65 + i)}) ${o}`).join('\n') : 'Yok'}
+DOĞRU CEVAP: ${question.a !== undefined ? String.fromCharCode(65 + question.a) + ') ' + (question.o?.[question.a] || '') : 'Belirtilmemiş'}
+AÇIKLAMA: ${question.e || 'Yok'}
+KONU: ${topicInfo?.name || 'Bilinmiyor'} (${topicInfo?.lesson || ''})` : '(Soru içeriği bulunamadı, sadece rapor bilgisiyle değerlendir)';
+
+            const prompt = `Sen bir KPSS sınav sorusu kalite uzmanısın. Bir kullanıcı raporu inceliyorsun.
+
+RAPOR BİLGİLERİ:
+- Rapor Türü: ${reportTypeTr}
+- Soru ID: ${report.questionId || 'Bilinmiyor'}
+- Kullanıcı Açıklaması: ${report.description || '(Açıklama yok)'}
+${questionSection}
+
+Bu raporu değerlendir ve SADECE aşağıdaki JSON formatını döndür:
+
+{
+  "valid": true,
+  "verdict": "Geçerli rapor",
+  "action": "resolved",
+  "summary": "Kısa değerlendirme (2-3 cümle)",
+  "details": "Detaylı analiz — raporlanan sorun gerçekten var mı, soru ne durumda, ne yapılmalı",
+  "confidence": 85
+}
+
+KURALLAR:
+- valid: Kullanıcı raporunun haklı/geçerli olup olmadığı (true/false)
+- verdict: "Geçerli rapor" | "Kısmen geçerli" | "Geçersiz rapor" | "Sorun tespit edilemedi"
+- action: "resolved" (düzelt ve çözüldü say) | "rejected" (rapor hatalı, reddet) | "review" (daha fazla inceleme gerekiyor)
+- summary: 1-2 cümle özet
+- details: Kapsamlı Türkçe analiz
+- confidence: 0-100 arasında güven skoru
+- SADECE JSON döndür`;
+
+            const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+                method: 'POST',
+                headers: {
+                    'Authorization': `Bearer ${apiKey}`,
+                    'Content-Type': 'application/json',
+                    'HTTP-Referer': 'http://localhost:8001',
+                    'X-Title': 'KPSS Rapor Analiz'
+                },
+                body: JSON.stringify({
+                    model: 'google/gemini-3.1-flash-lite-preview',
+                    messages: [{ role: 'user', content: prompt }],
+                    temperature: 0.15
+                })
+            });
+
+            if (!response.ok) {
+                const errText = await response.text();
+                throw new Error(`OpenRouter hatası: ${response.status} — ${errText.substring(0, 200)}`);
+            }
+
+            const data = await response.json();
+            const content = data.choices?.[0]?.message?.content || '';
+            const jsonMatch = content.match(/\{[\s\S]*\}/);
+            if (!jsonMatch) throw new Error('AI yanıtı parse edilemedi: ' + content.substring(0, 300));
+            const result = JSON.parse(jsonMatch[0]);
+            return sendJSON(res, { success: true, ...result });
+        } catch (e) {
+            return sendJSON(res, { error: e.message }, 500);
+        }
+    }
+
     // POST /api/ai/generate-one - Tek soru üret
     if (pathname === '/api/ai/generate-one' && req.method === 'POST') {
         try {

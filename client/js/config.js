@@ -12,16 +12,16 @@ window.CONFIG = {
 
         // Development
         if (env === 'dev' || hostname === 'localhost' || hostname === '127.0.0.1') {
-            return 'http://localhost:8002';
+            return 'http://localhost:8001';
         }
 
         // Stage
         if (env === 'stage') {
             // Adjust this to your stage backend IP/Hostname
-            return `http://${hostname}:8002`;
+            return `http://${hostname}:8001`;
         }
 
         // Production
-        return window.location.origin.replace(':8001', ':8002');
+        return window.location.origin.replace(':8001', ':8001');
     })()
 };
