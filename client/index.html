@@ -3016,7 +3016,7 @@ Tüm soruları bir JSON dizisi olarak döndür: [...]</pre>
     <script src="js/modules/navigation.js?v=1"></script>
     <script src="js/modules/quality-check.js?v=1"></script>
     <script src="js/modules/smart-add.js?v=1"></script>
-    <script src="js/modules/editor-role.js?v=1"></script>
+    <script src="js/modules/editor-role.js?v=3"></script>
     <!-- LIVE RELOAD -->
     <script>
         (function () {
@@ -3075,14 +3075,37 @@ Tüm soruları bir JSON dizisi olarak döndür: [...]</pre>
             box-shadow: 0 1px 8px rgba(0,0,0,.08);
         }
         #editorWrapper .eopt {
-            padding: 9px 14px;
+            padding: 10px 12px;
             margin: 5px 0;
-            border-radius: 8px;
-            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            border: 1.5px solid #e2e8f0;
             background: #f8fafc;
             color: #1e293b;
             font-size: .92rem;
             line-height: 1.5;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            cursor: default;
+            transition: border-color .15s, background .15s;
+        }
+        #editorWrapper .eopt:hover {
+            border-color: #c7d2fe;
+            background: #f5f3ff;
+        }
+        #editorWrapper .eopt .eletter {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 26px;
+            height: 26px;
+            min-width: 26px;
+            border-radius: 50%;
+            background: #e2e8f0;
+            color: #475569;
+            font-size: .72rem;
+            font-weight: 800;
+            margin-top: 1px;
         }
         #editorWrapper .eopt.correct {
             background: #f0fdf4;
@@ -3090,14 +3113,44 @@ Tüm soruları bir JSON dizisi olarak döndür: [...]</pre>
             color: #15803d;
             font-weight: 600;
         }
+        #editorWrapper .eopt.correct .eletter {
+            background: #22c55e;
+            color: #fff;
+        }
+        #editorWrapper kbd {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2px 7px;
+            background: #f1f5f9;
+            border: 1px solid #cbd5e1;
+            border-bottom: 2px solid #94a3b8;
+            border-radius: 5px;
+            font-family: 'SF Mono', 'Consolas', monospace;
+            font-size: .7rem;
+            font-weight: 700;
+            color: #475569;
+            line-height: 1.5;
+            white-space: nowrap;
+        }
         #editorWrapper .eexplain {
             margin-top: 14px;
             padding: 12px 16px;
             background: #eff6ff;
-            border-radius: 8px;
+            border-radius: 10px;
+            border-left: 3px solid #3b82f6;
             font-size: .88rem;
             color: #1e40af;
-            line-height: 1.6;
+            line-height: 1.65;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        #editorWrapper .eexplain .eexplain-icon {
+            font-size: 16px;
+            color: #3b82f6;
+            flex-shrink: 0;
+            margin-top: 2px;
         }
         #editorWrapper .ebtn {
             padding: 10px 22px;
@@ -3112,8 +3165,10 @@ Tüm soruları bir JSON dizisi olarak döndür: [...]</pre>
             transition: opacity .15s, transform .1s;
         }
         #editorWrapper .ebtn:active { transform: scale(.97); }
-        #editorWrapper .ebtn-green  { background: #22c55e; color: #fff; }
+        #editorWrapper .ebtn-green  { background: linear-gradient(135deg,#22c55e,#16a34a); color: #fff; box-shadow: 0 3px 10px rgba(34,197,94,.35); }
+        #editorWrapper .ebtn-green:hover { box-shadow: 0 5px 16px rgba(34,197,94,.45); transform: translateY(-1px); }
         #editorWrapper .ebtn-blue   { background: #6366f1; color: #fff; }
+        #editorWrapper .ebtn-blue:hover { background: #4f46e5; }
         #editorWrapper .ebtn-orange { background: #f97316; color: #fff; }
         #editorWrapper .ebtn-gray   { background: #94a3b8; color: #fff; }
         #editorWrapper .ebtn-dark   { background: #1e293b; color: #fff; }
@@ -3190,24 +3245,34 @@ Tüm soruları bir JSON dizisi olarak döndür: [...]</pre>
             </div>
 
             <!-- Aksiyonlar -->
-            <div id="editorActions" style="display:none;margin-top:14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center">
-                <button id="editorBtnMark" class="ebtn ebtn-green">
-                    <span class="material-icons-round" style="font-size:17px">check_circle</span>
-                    İşaretle &amp; İleri
-                </button>
-                <button id="editorBtnEdit" class="ebtn ebtn-blue">
-                    <span class="material-icons-round" style="font-size:17px">edit</span>
-                    Düzenle
-                </button>
-                <button id="editorBtnSkip" class="ebtn ebtn-gray">
-                    <span class="material-icons-round" style="font-size:17px">skip_next</span>
-                    Atla
-                </button>
-                <button id="editorBtnUndo" class="ebtn" style="display:none;background:#fef3c7;color:#92400e;border:1px solid #fde68a">
-                    <span class="material-icons-round" style="font-size:17px">undo</span>
-                    Geri Al
-                </button>
-                <span style="margin-left:auto;font-size:.78rem;color:#94a3b8">Space=İşaretle &nbsp; S=Atla &nbsp; E=Düzenle &nbsp; Ctrl+Z=Geri Al</span>
+            <div id="editorActions" style="display:none;margin-top:14px">
+                <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:10px">
+                    <button id="editorBtnMark" class="ebtn ebtn-green" style="font-size:.95rem;padding:11px 26px">
+                        <span class="material-icons-round" style="font-size:19px">check_circle</span>
+                        İşaretle &amp; İleri
+                    </button>
+                    <button id="editorBtnEdit" class="ebtn ebtn-blue">
+                        <span class="material-icons-round" style="font-size:17px">edit</span>
+                        Düzenle
+                    </button>
+                    <button id="editorBtnSkip" class="ebtn ebtn-gray">
+                        <span class="material-icons-round" style="font-size:17px">skip_next</span>
+                        Atla
+                    </button>
+                    <button id="editorBtnUndo" class="ebtn" style="display:none;background:#fef3c7;color:#92400e;border:1px solid #fde68a">
+                        <span class="material-icons-round" style="font-size:17px">undo</span>
+                        Geri Al
+                    </button>
+                </div>
+                <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:.75rem;color:#94a3b8">
+                    <kbd>Space</kbd><span>İşaretle</span>
+                    <span style="color:#cbd5e1">·</span>
+                    <kbd>S</kbd><span>Atla</span>
+                    <span style="color:#cbd5e1">·</span>
+                    <kbd>E</kbd><span>Düzenle</span>
+                    <span style="color:#cbd5e1">·</span>
+                    <kbd>Ctrl</kbd><span style="color:#cbd5e1">+</span><kbd>Z</kbd><span>Geri Al</span>
+                </div>
             </div>
 
             <!-- Düzenleme Formu -->
