@@ -3,6 +3,7 @@ const fsSync = require('fs');
 const { REPORTS_FILE } = require('../config');
 const { sendJSON, parseBody } = require('../utils/helper');
 const { db } = require('../firebase-admin');
+const { pushAllRemotes } = require('./sync');
 
 async function handleReportRoutes(req, res, pathname) {
     // GET /reports — Firestore + file merge
@@ -105,6 +106,9 @@ async function handleReportRoutes(req, res, pathname) {
                     await fs.writeFile(REPORTS_FILE, JSON.stringify(reports, null, 2), 'utf8');
                 }
             }
+
+            // Rapor durumu değişti — arka planda push
+            pushAllRemotes('rapor güncelleme').catch(e => console.error('[reports/PATCH] git push hatası:', e.message));
 
             return sendJSON(res, { success: true });
         } catch (e) {

@@ -772,6 +772,9 @@
         <button class="nav-tab" onclick="showPage('feedbacks')" data-page="feedbacks">
             <span class="material-icons-round">feedback</span>Geri Bildirim
         </button>
+        <button class="nav-tab" onclick="showPage('backup')" data-page="backup">
+            <span class="material-icons-round">backup</span>Yedek
+        </button>
     </aside>
 
     <!-- MAIN CONTAINER -->
@@ -1604,6 +1607,78 @@ Tüm soruları bir JSON dizisi olarak döndür: [...]</pre>
                 <div id="feedbacksList">
                     <div class="loading">
                         <span class="material-icons-round">sync</span>
+                        Yükleniyor...
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BACKUP PAGE -->
+        <div id="page-backup" class="page">
+            <div class="page-header">
+                <h1 class="page-title">
+                    <span class="material-icons-round">backup</span>
+                    Yedek
+                </h1>
+                <p class="page-subtitle">Veri yükleme geçmişi ve yedek noktası yönetimi</p>
+            </div>
+
+            <!-- İşlemler -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-bottom:1.25rem;">
+                <!-- Yedek Noktası Oluştur -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title"><span class="material-icons-round">bookmark_add</span>Yedek Noktası Oluştur</h3>
+                    </div>
+                    <div style="padding:1.25rem;display:flex;flex-direction:column;gap:.85rem;">
+                        <p style="font-size:.85rem;color:var(--text-muted);line-height:1.5;">Mevcut durumu etiketleyerek kalıcı bir yedek noktası oluşturur. İstediğiniz zaman bu noktaya dönebilirsiniz.</p>
+                        <input id="backupLabelInput" type="text" placeholder="Yedek adı (isteğe bağlı, ör: sorular-eklendi)" maxlength="50"
+                            style="padding:.65rem .9rem;background:var(--bg-input);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:.88rem;">
+                        <button id="createBackupBtn" onclick="createBackupPoint()"
+                            style="padding:.65rem 1.25rem;background:linear-gradient(135deg,#6366f1,#4f46e5);color:white;border:none;border-radius:8px;font-weight:600;font-size:.88rem;cursor:pointer;display:flex;align-items:center;gap:.5rem;justify-content:center;">
+                            <span class="material-icons-round" style="font-size:1.1rem;">bookmark_add</span>
+                            Yedek Noktası Oluştur
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ZIP İndir -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title"><span class="material-icons-round">download</span>ZIP İndir</h3>
+                    </div>
+                    <div style="padding:1.25rem;display:flex;flex-direction:column;gap:.85rem;">
+                        <p style="font-size:.85rem;color:var(--text-muted);line-height:1.5;">Tüm <code style="background:var(--bg-input);padding:1px 5px;border-radius:4px;">assets/</code> klasörünü ZIP olarak indirir. İndirim sonrası dosyayı güvenli bir yerde saklayın.</p>
+                        <button onclick="downloadBackup()"
+                            style="padding:.65rem 1.25rem;background:rgba(16,185,129,.15);color:#10b981;border:1px solid rgba(16,185,129,.3);border-radius:8px;font-weight:600;font-size:.88rem;cursor:pointer;display:flex;align-items:center;gap:.5rem;justify-content:center;">
+                            <span class="material-icons-round" style="font-size:1.1rem;">download</span>
+                            assets.zip İndir
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mevcut Yedek Noktaları -->
+            <div class="card" style="margin-bottom:1.25rem;">
+                <div class="card-header" style="display:flex;justify-content:space-between;align-items:center;">
+                    <h3 class="card-title"><span class="material-icons-round">bookmarks</span>Kaydetmiş Yedek Noktaları</h3>
+                    <button onclick="loadBackupPage()" style="padding:.4rem .75rem;background:transparent;border:1px solid var(--border);border-radius:7px;color:var(--text-muted);cursor:pointer;font-size:.8rem;display:flex;align-items:center;gap:.35rem;">
+                        <span class="material-icons-round" style="font-size:.95rem;">refresh</span>Yenile
+                    </button>
+                </div>
+                <div id="backupTagsList">
+                    <div style="padding:1rem;text-align:center;color:var(--text-muted);font-size:.85rem">Yükleniyor...</div>
+                </div>
+            </div>
+
+            <!-- Commit Geçmişi -->
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title"><span class="material-icons-round">history</span>Son 30 Değişiklik</h3>
+                </div>
+                <div id="backupHistoryList">
+                    <div style="padding:1.5rem;text-align:center;color:var(--text-muted)">
+                        <span class="material-icons-round" style="font-size:2rem;display:block;margin-bottom:.5rem">hourglass_empty</span>
                         Yükleniyor...
                     </div>
                 </div>
@@ -3088,6 +3163,7 @@ Tüm soruları bir JSON dizisi olarak döndür: [...]</pre>
     <script src="js/modules/quality-check.js?v=1"></script>
     <script src="js/modules/smart-add.js?v=1"></script>
     <script src="js/modules/editor-role.js?v=3"></script>
+    <script src="js/modules/backup.js?v=1"></script>
     <!-- LIVE RELOAD -->
     <script>
         (function () {

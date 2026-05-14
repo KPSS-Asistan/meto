@@ -106,6 +106,7 @@ async function handleQuestionRoutes(req, res, pathname, searchParams) {
 
                 await saveQuestions(topicId, questions);
                 bumpVersion(topicId);
+                pushAllRemotes('soru güncelleme').catch(e => console.error('[questions/PUT] git push hatası:', e.message));
                 return sendJSON(res, { success: true, question: questions[idx] });
             } catch (e) {
                 return sendJSON(res, { error: e.message }, 500);
@@ -182,6 +183,7 @@ async function handleQuestionRoutes(req, res, pathname, searchParams) {
                 questions.splice(idx, 1);
                 await saveQuestions(topicId, questions);
                 bumpVersion(topicId);
+                pushAllRemotes('soru silme').catch(e => console.error('[questions/DELETE] git push hatası:', e.message));
                 return sendJSON(res, { success: true, message: 'Soru silindi' });
             } catch (e) {
                 return sendJSON(res, { error: e.message }, 500);

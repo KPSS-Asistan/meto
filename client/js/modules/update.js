@@ -178,6 +178,9 @@ window.showPage = function (pageId) {
         if (pageId === 'editors') {
             if (window.loadEditors) window.loadEditors();
         }
+        if (pageId === 'backup') {
+            if (window.loadBackupPage) window.loadBackupPage();
+        }
         if (pageId === 'reports') {
             if (window.loadReports) window.loadReports();
         }

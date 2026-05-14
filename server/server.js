@@ -39,6 +39,7 @@ const handleFeedbackRoutes = require('./api/feedback');
 const handleDashboardRoutes = require('./api/dashboard');
 const handleUserRoutes = require('./api/users');
 const { handleSyncRoutes } = require('./api/sync');
+const handleBackupRoutes = require('./api/backup');
 const handleAIRoutes = require('./api/ai');
 let handleAIContentRoutes, startNightlyScheduler;
 try {
@@ -110,6 +111,7 @@ const server = http.createServer(async (req, res) => {
             pathname.startsWith('/update') ||
             pathname.startsWith('/quality') ||
             pathname.startsWith('/sync') ||
+            pathname.startsWith('/api/backup') ||
             pathname.startsWith('/flashcards') ||
             pathname.startsWith('/stories') ||
             pathname.startsWith('/explanations') ||
@@ -165,6 +167,9 @@ const server = http.createServer(async (req, res) => {
 
         // Sync API (local-only)
         if (await handleSyncRoutes(req, res, pathname)) return;
+
+        // Backup API
+        if (await handleBackupRoutes(req, res, pathname)) return;
 
         // AI API (generate, analyze)
         if (await handleAIRoutes(req, res, pathname)) return;
