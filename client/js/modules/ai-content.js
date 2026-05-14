@@ -1026,7 +1026,16 @@ function renderDraftsModal(drafts, topicId, topicName, moduleType, moduleLabel) 
                     <input type="checkbox" id="selectAllDrafts" onchange="toggleSelectAllDrafts(this.checked)" style="width: 1.2rem; height: 1.2rem; cursor: pointer;">
                     <label for="selectAllDrafts" style="color: #e2e8f0; font-size: 0.85rem; cursor: pointer;">Tümünü Seç</label>
                 </div>
-                <div style="margin-left: auto; display: flex; gap: 0.5rem;">
+                <div style="margin-left: auto; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                    ${moduleType === 'questions' ? `
+                    <button onclick="modalCheckDuplicates('${topicId}', '${moduleType}')" id="modalDupBtn"
+                        style="background: #1e3a5f; border: 1px solid #3b82f6; color: #93c5fd; padding: 0.6rem 1rem; border-radius: 6px; cursor: pointer; font-size: 0.85rem;">
+                        🔍 Duplike Kontrol
+                    </button>
+                    <button onclick="modalAnalyzeDrafts('${topicId}', '${moduleType}')" id="modalAiBtn"
+                        style="background: #2e1065; border: 1px solid #7c3aed; color: #c4b5fd; padding: 0.6rem 1rem; border-radius: 6px; cursor: pointer; font-size: 0.85rem;">
+                        🤖 AI Analiz
+                    </button>` : ''}
                     <button onclick="approveSelectedDraftsBulk()" id="approveSelectedBtn" disabled
                         style="background: linear-gradient(135deg, #10b981, #059669); border: none; color: white; padding: 0.6rem 1.25rem; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.85rem; opacity: 0.5; transition: all 0.2s;">
                         ✓ Seçilenleri Onayla (<span id="selectedCount">0</span>)
@@ -1052,6 +1061,7 @@ function renderDraftsModal(drafts, topicId, topicName, moduleType, moduleLabel) 
                                         <b style="color: #f8fafc; font-size: 0.85rem; white-space: normal; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.3;">${getDraftTitle(draft, index)}</b>
                                     </div>
                                     ${previewContent(draft, index)}
+                                    <div id="modalStatus-${index}" style="margin-top:0.4rem;">${draft._analyzed && draft._analysisResult ? `<span style="font-size:0.72rem;padding:0.15rem 0.45rem;border-radius:3px;background:rgba(99,102,241,0.15);color:#a5b4fc;">🤖 ${draft._analysisResult.verdict || ''} ${draft._analysisResult.score ? draft._analysisResult.score + '/10' : ''}</span>` : ''}</div>
                                 </div>
                                 
                                 <div style="display: flex; gap: 0.3rem; flex-shrink: 0;">
@@ -1097,6 +1107,117 @@ window.closeDraftsModal = function () {
         modal.remove();
         aiLog('📋 Modal kapatıldı', 'debug');
     }
+};
+
+// ─── Modal: Duplicate Kontrol ──────────────────────────────────────────────
+window.modalCheckDuplicates = async function (topicId, moduleType) {
+    const btn = document.getElementById('modalDupBtn');
+    if (btn) { btn.disabled = true; btn.textContent = '⏳ Kontrol ediliyor...'; }
+
+    try {
+        const res = await fetch(`${API}/api/ai-content/check-duplicates`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ moduleType, topicId })
+        });
+        const data = await res.json();
+        if (!data.success) throw new Error(data.error || 'Kontrol başarısız');
+
+        let dupCount = 0, simCount = 0;
+        for (const r of data.results) {
+            const el = document.getElementById(`modalStatus-${r.draftIndex}`);
+            if (!el) continue;
+            if (r.status === 'duplicate') {
+                dupCount++;
+                el.innerHTML = `<span style="font-size:0.72rem;padding:0.15rem 0.45rem;border-radius:3px;background:rgba(239,68,68,0.2);color:#fca5a5;">🔴 Duplike (~${r.score}%) — ${r.matchedQuestion || ''}</span>`;
+                const card = document.getElementById(`draftItem-${r.draftIndex}`);
+                if (card) card.style.borderColor = '#ef4444';
+            } else if (r.status === 'similar') {
+                simCount++;
+                el.innerHTML = `<span style="font-size:0.72rem;padding:0.15rem 0.45rem;border-radius:3px;background:rgba(251,191,36,0.15);color:#fde68a;">🟡 Benzer (~${r.score}%) — ${r.matchedQuestion || ''}</span>`;
+                const card = document.getElementById(`draftItem-${r.draftIndex}`);
+                if (card) card.style.borderColor = '#f59e0b';
+            } else {
+                const prev = el.innerHTML;
+                if (!prev.includes('🤖')) {
+                    el.innerHTML = `<span style="font-size:0.72rem;padding:0.15rem 0.45rem;border-radius:3px;background:rgba(16,185,129,0.15);color:#6ee7b7;">🟢 Temiz</span>`;
+                }
+            }
+        }
+        if (btn) btn.textContent = `🔍 ${dupCount} duplike, ${simCount} benzer`;
+    } catch (e) {
+        if (btn) { btn.disabled = false; btn.textContent = '🔍 Duplike Kontrol'; }
+        showToast('Duplike kontrol hatası: ' + e.message, 'error');
+    }
+};
+
+// ─── Modal: AI Analiz ──────────────────────────────────────────────────────
+window.modalAnalyzeDrafts = async function (topicId, moduleType) {
+    const btn = document.getElementById('modalAiBtn');
+    if (btn) { btn.disabled = true; btn.textContent = '⏳ Analiz ediliyor...'; }
+
+    const ANALYSIS_MODEL = 'openai/gpt-5-nano';
+    let done = 0, failed = 0;
+
+    for (let i = 0; i < _currentDrafts.length; i++) {
+        const draft = _currentDrafts[i];
+        const statusEl = document.getElementById(`modalStatus-${i}`);
+        if (statusEl) {
+            const prev = statusEl.innerHTML;
+            statusEl.innerHTML = prev + ' <span style="font-size:0.7rem;color:#94a3b8;">⏳</span>';
+        }
+        try {
+            const res = await fetch(`${API}/api/ai/deep-analyze`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    question: draft,
+                    topicInfo: { name: _currentTopicName },
+                    model: ANALYSIS_MODEL
+                })
+            });
+            const data = await res.json();
+            if (!data.success) throw new Error(data.error || 'Analiz başarısız');
+
+            // Taslağı güncelle
+            await fetch(`${API}/api/ai-content/update-draft`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    moduleType,
+                    topicId,
+                    index: i,
+                    updatedDraft: {
+                        _analyzed: true,
+                        _analyzedAt: new Date().toISOString(),
+                        _analysisResult: { criteria: data.criteria, verdict: data.verdict, score: data.score, summary: data.summary }
+                    }
+                })
+            });
+
+            _currentDrafts[i]._analyzed = true;
+            _currentDrafts[i]._analysisResult = { criteria: data.criteria, verdict: data.verdict, score: data.score, summary: data.summary };
+
+            const verdictColor = { 'Geçerli': '#34d399', 'Küçük düzeltme gerekli': '#fbbf24', 'Revizyon gerekli': '#fb923c', 'Hatalı': '#f87171' }[data.verdict] || '#94a3b8';
+            if (statusEl) {
+                const dupPart = statusEl.innerHTML.includes('🔴') || statusEl.innerHTML.includes('🟡') || statusEl.innerHTML.includes('🟢')
+                    ? statusEl.innerHTML.replace(/<span[^>]*>⏳<\/span>/, '') : '';
+                statusEl.innerHTML = (dupPart || '') + `<span style="font-size:0.72rem;padding:0.15rem 0.45rem;border-radius:3px;background:rgba(99,102,241,0.15);color:${verdictColor};">🤖 ${data.verdict} ${data.score}/10</span>`;
+            }
+            done++;
+        } catch (e) {
+            failed++;
+            if (statusEl) {
+                const s = statusEl.innerHTML.replace(/<span[^>]*>⏳<\/span>/, '');
+                statusEl.innerHTML = s + '<span style="font-size:0.7rem;color:#f87171;">❌</span>';
+            }
+        }
+
+        if (btn) btn.textContent = `⏳ ${done + failed}/${_currentDrafts.length}`;
+    }
+
+    if (btn) { btn.disabled = false; btn.textContent = `🤖 Analiz (${done} ✓${failed ? ', ' + failed + ' ✗' : ''})`; }
+    showToast(`AI analiz tamamlandı: ${done} başarılı${failed ? ', ' + failed + ' hata' : ''}`, done > 0 ? 'success' : 'warn');
 };
 
 window.approveSingleDraft = async function (topicId, topicName, moduleType, index) {

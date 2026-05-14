@@ -1,5 +1,45 @@
 [
   {
+    "timestamp": "2026-05-14T01:52:21.948Z",
+    "model": "openai/gpt-5-nano",
+    "promptTokens": 1669,
+    "completionTokens": 20791,
+    "costUsd": 0.0084,
+    "costTl": 0.3234
+  },
+  {
+    "timestamp": "2026-05-14T01:43:22.937Z",
+    "model": "openai/gpt-5.4-nano",
+    "promptTokens": 1669,
+    "completionTokens": 2635,
+    "costUsd": 0.003628,
+    "costTl": 0.1397
+  },
+  {
+    "timestamp": "2026-05-14T01:37:10.503Z",
+    "model": "google/gemini-2.5-flash",
+    "promptTokens": 1685,
+    "completionTokens": 2549,
+    "costUsd": 0.006878,
+    "costTl": 0.2648
+  },
+  {
+    "timestamp": "2026-05-14T01:35:56.170Z",
+    "model": "google/gemini-2.5-flash",
+    "promptTokens": 1685,
+    "completionTokens": 2807,
+    "costUsd": 0.007523,
+    "costTl": 0.2896
+  },
+  {
+    "timestamp": "2026-05-13T18:03:27.906Z",
+    "model": "google/gemini-3.1-flash-lite-preview",
+    "promptTokens": 1685,
+    "completionTokens": 2185,
+    "costUsd": 0.003699,
+    "costTl": 0.1424
+  },
+  {
     "timestamp": "2026-05-01T21:48:22.668Z",
     "model": "google/gemini-2.5-flash",
     "promptTokens": 1644,

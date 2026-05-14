@@ -175,6 +175,9 @@ window.showPage = function (pageId) {
         if (pageId === 'users') {
             if (window.loadUsers) window.loadUsers();
         }
+        if (pageId === 'editors') {
+            if (window.loadEditors) window.loadEditors();
+        }
         if (pageId === 'reports') {
             if (window.loadReports) window.loadReports();
         }

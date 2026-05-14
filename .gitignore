@@ -18,6 +18,18 @@ node_modules/
 *.swp
 .cursor/
 
+# --- Sertifika / Anahtar dosyaları ---
+*.pem
+*.p12
+*.pfx
+*.key
+*.crt
+*.cer
+
+# --- Ek env dosyaları ---
+.env.local
+.env.*.local
+
 # Kök dizindeki teşhis ve geçici çıktılar (commitlenmez)
 /build_log.txt
 /server.log

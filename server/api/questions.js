@@ -280,8 +280,21 @@ async function handleQuestionRoutes(req, res, pathname, searchParams) {
             const topicInfo = TOPICS[topicId];
             const prefix = topicInfo?.prefix || topicId.substring(0, 3).toLowerCase();
 
+            const normalize = (t) => (t || '').toString().toLowerCase().replace(/[^a-z0-9]/g, '');
+
             const addedQuestions = [];
+            let skippedDuplicates = 0;
             for (const q of newQuestions) {
+                // Duplicate kontrolü: aynı soru metni varsa atla
+                const qNorm = normalize(q.q);
+                if (qNorm.length > 10) {
+                    const isDup = existingQuestions.some(eq => normalize(eq.q) === qNorm);
+                    if (isDup) {
+                        skippedDuplicates++;
+                        continue;
+                    }
+                }
+
                 // ID oluştur
                 const timestamp = Date.now();
                 const random = Math.random().toString(36).substring(2, 6);
@@ -304,6 +317,7 @@ async function handleQuestionRoutes(req, res, pathname, searchParams) {
             return sendJSON(res, {
                 success: true,
                 added: addedQuestions.length,
+                skipped: skippedDuplicates,
                 questions: addedQuestions
             });
         } catch (e) {

@@ -21,7 +21,10 @@ window.CONFIG = {
             return `http://${hostname}:8001`;
         }
 
-        // Production
-        return window.location.origin.replace(':8001', ':8001');
+        // Production - env.js ile set edilmiş backend URL varsa onu kullan
+        if (window.BACKEND_URL) {
+            return window.BACKEND_URL;
+        }
+        return window.location.origin;
     })()
 };

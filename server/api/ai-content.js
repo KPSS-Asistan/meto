@@ -28,6 +28,9 @@ const _activeJobs = new Map();
 //   gemini-2.5-flash-lite   : 1155ms ✓ 10/10 soru
 //   deepseek-v3.2           : 1942ms ✓ 10/10 soru (reasoning OFF'ta kesilir → ON tutulur)
 const FALLBACK_MODELS = [
+    'openai/gpt-5-nano',
+    'openai/gpt-5.4-nano',
+    'openai/gpt-5-mini',
     'google/gemini-2.5-flash',
     'google/gemini-3-flash-preview',
     'deepseek/deepseek-v3.2',
@@ -52,6 +55,8 @@ const MODEL_PRICES = {
     'google/gemini-3.1-flash-lite-preview': { input: 0.25, output: 1.50 },
     'moonshotai/kimi-k2.5': { input: 0.38, output: 1.72 },
     'openai/gpt-5-nano': { input: 0.05, output: 0.40 },
+    'openai/gpt-5.4-nano': { input: 0.20, output: 1.25 },
+    'openai/gpt-5-mini': { input: 0.25, output: 2.00 },
     'openai/gpt-4o-mini': { input: 0.15, output: 0.60 },
 
     // 👑 PREMIUM
@@ -543,9 +548,32 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
             const job = _activeJobs.get(jobId);
             try {
                 aiLog('generate', `🚀 Job başladı: ${topicName} - ${moduleType} (${safeCount} bölüm)`, requestLogs);
-                const existingDrafts = readDraft(moduleType, topicId);
-                const startPart = existingDrafts.length + 1;
-                aiLog('generate', `📁 Mevcut taslak: ${existingDrafts.length} | Bölüm ${startPart}'den başlıyor`, requestLogs);
+
+                let startPart = 1;
+                let existingDrafts = readDraft(moduleType, topicId);
+
+                // Sorular modülü için mevcut veriyi ASLA silme (kümülatif ekleme yapılır)
+                if (moduleType !== 'questions') {
+                    // Mevcut yayınlanmış içeriği otomatik sil (sorular hariç)
+                    const existingPublished = readPublished(moduleType, topicId);
+                    if (existingPublished.length > 0) {
+                        deletePublishedContent(moduleType, topicId, topicName);
+                        aiLog('generate', `🗑️ Mevcut yayınlanmış ${existingPublished.length} içerik silindi, yeniden üretiliyor`, requestLogs);
+                    }
+
+                    // Mevcut taslakları da temizle (taze üretim)
+                    const draftFile = getDraftPath(moduleType, topicId);
+                    if (existingDrafts.length > 0) {
+                        if (fs.existsSync(draftFile)) fs.unlinkSync(draftFile);
+                        aiLog('generate', `🗑️ Mevcut ${existingDrafts.length} taslak silindi, baştan üretiliyor`, requestLogs);
+                        existingDrafts = [];
+                    }
+                    startPart = 1;
+                    aiLog('generate', `📁 Bölüm 1'den başlıyor (temiz üretim)`, requestLogs);
+                } else {
+                    startPart = existingDrafts.length + 1;
+                    aiLog('generate', `📁 Mevcut taslak: ${existingDrafts.length} | Bölüm ${startPart}'den devam ediyor`, requestLogs);
+                }
 
                 const safeDifficulty = ['easy', 'medium', 'hard'].includes(difficulty) ? difficulty : 'medium';
                 aiLog('generate', `⚙️ Ayarlar: zorluk=${safeDifficulty} · kaliteKontrol=${enableQualityCheck} · referans=${useReferenceQuestions} · retry=${safeMaxRetries}`, requestLogs);
@@ -1096,6 +1124,57 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
             }
             fs.unlinkSync(filePath);
             return sendJSON(res, { success: true, message: 'Dosya silindi' });
+        } catch (e) {
+            return sendJSON(res, { error: e.message }, 500);
+        }
+    }
+
+    // POST /api/ai-content/check-duplicates - Draft soruları yayınlananlarla karşılaştır
+    if (pathname === '/api/ai-content/check-duplicates' && req.method === 'POST') {
+        try {
+            const { moduleType, topicId } = await parseBody(req);
+            if (!moduleType || !topicId)
+                return sendJSON(res, { error: 'moduleType ve topicId gerekli' }, 400);
+            if (moduleType !== 'questions')
+                return sendJSON(res, { error: 'Sadece questions modülü desteklenir' }, 400);
+
+            const drafts = readDraft(moduleType, topicId);
+            if (!drafts || drafts.length === 0)
+                return sendJSON(res, { success: true, results: [] });
+
+            const publishedFile = path.join(QUESTIONS_DIR, `${topicId}.json`);
+            let published = [];
+            if (fs.existsSync(publishedFile)) {
+                try { published = JSON.parse(fs.readFileSync(publishedFile, 'utf8')); } catch {}
+            }
+            if (!Array.isArray(published)) published = [];
+
+            function normQ(text) {
+                return (text || '').toLowerCase()
+                    .replace(/[^\w\sğüşöçıa-z]/gi, ' ')
+                    .replace(/\s+/g, ' ').trim();
+            }
+            function jaccard(a, b) {
+                const sa = new Set(a.split(' ').filter(w => w.length > 2));
+                const sb = new Set(b.split(' ').filter(w => w.length > 2));
+                if (sa.size === 0 || sb.size === 0) return 0;
+                const inter = [...sa].filter(w => sb.has(w)).length;
+                return inter / new Set([...sa, ...sb]).size;
+            }
+
+            const results = drafts.map((draft, i) => {
+                const draftText = normQ(draft.q || draft.question || '');
+                if (!draftText) return { draftIndex: i, status: 'unknown', score: 0, matchedQuestion: null };
+                let bestScore = 0, bestMatch = null;
+                for (const pub of published) {
+                    const score = jaccard(draftText, normQ(pub.q || pub.question || ''));
+                    if (score > bestScore) { bestScore = score; bestMatch = (pub.q || pub.question || '').substring(0, 80); }
+                }
+                const status = bestScore >= 0.7 ? 'duplicate' : bestScore >= 0.4 ? 'similar' : 'clean';
+                return { draftIndex: i, status, score: Math.round(bestScore * 100), matchedQuestion: bestMatch };
+            });
+
+            return sendJSON(res, { success: true, results });
         } catch (e) {
             return sendJSON(res, { error: e.message }, 500);
         }
@@ -1872,16 +1951,15 @@ function callOpenRouter(prompt, model, apiKey, jsonMode = false, requestLogs = n
         // OpenAI GPT-5 serisi reasoning token'ları çok kullanıyor, yanıt boş kalabilir.
         // Onlarda reasoning'i kapat. DeepSeek ve Grok'ta `reasoning: false` yanıtı KISA kesiyor
         // (tespit edildi — DeepSeek reasoning OFF → 620 char vs. reasoning ON → 7700 char).
-        // Dolayısıyla SADECE OpenAI'ye uygula.
+        // NOT: gpt-5-nano ve gpt-5.4-nano reasoning'i ZORUNLU tutuyor, disabled desteklemiyor.
         const disableReasoningFor = [
-            'openai/gpt-5-nano',
             'openai/gpt-5-mini',
             'openai/gpt-5-pro',
             'openai/gpt-5.2',
             'openai/gpt-5.1',
             'openai/gpt-5',
         ];
-        if (disableReasoningFor.some(m => model.startsWith(m))) {
+        if (disableReasoningFor.includes(model)) {
             requestBody.reasoning = { enabled: false };
         }
 

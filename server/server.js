@@ -40,7 +40,6 @@ const handleDashboardRoutes = require('./api/dashboard');
 const handleUserRoutes = require('./api/users');
 const { handleSyncRoutes } = require('./api/sync');
 const handleAIRoutes = require('./api/ai');
-// AI Content Routes - DEBUG
 let handleAIContentRoutes, startNightlyScheduler;
 try {
     const aiContent = require('./api/ai-content');
@@ -65,8 +64,19 @@ const handleGlossaryRoutes = require('./api/glossary');
 const handleEditorRoutes = require('./api/editor');
 
 const server = http.createServer(async (req, res) => {
-    // CORS headers
-    res.setHeader('Access-Control-Allow-Origin', '*');
+    // CORS headers — ALLOWED_ORIGINS env var'ı set edilmişse sadece o origin'lere izin ver
+    const _allowedOrigins = process.env.ALLOWED_ORIGINS
+        ? process.env.ALLOWED_ORIGINS.split(',').map(o => o.trim())
+        : null;
+    const _reqOrigin = req.headers.origin;
+    if (_allowedOrigins && _reqOrigin && _allowedOrigins.includes(_reqOrigin)) {
+        res.setHeader('Access-Control-Allow-Origin', _reqOrigin);
+        res.setHeader('Vary', 'Origin');
+    } else if (!_allowedOrigins) {
+        res.setHeader('Access-Control-Allow-Origin', _reqOrigin || '*');
+        if (_reqOrigin) res.setHeader('Vary', 'Origin');
+    }
+    res.setHeader('Access-Control-Allow-Credentials', 'true');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE, PATCH');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Title');
 

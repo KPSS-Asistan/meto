@@ -100,7 +100,7 @@ SADECE JSON döndür, başka hiçbir şey yazma!`;
                 'X-Title': 'KPSS Question Generator'
             },
             body: JSON.stringify({
-                model: 'google/gemini-2.0-flash-001',
+                model: 'openai/gpt-5-nano',
                 messages: [{ role: 'user', content: prompt }],
                 temperature: 0.7
             })
@@ -173,7 +173,7 @@ JSON FORMAT (Sadece bu formatta yanıt ver):
                 'X-Title': 'KPSS Soru Analizi'
             },
             body: JSON.stringify({
-                model: 'google/gemini-2.0-flash-001',
+                model: 'openai/gpt-5-nano',
                 messages: [{ role: 'user', content: prompt }],
                 temperature: 0.1
             })
@@ -194,7 +194,7 @@ JSON FORMAT (Sadece bu formatta yanıt ver):
 }
 
 // AI Deep Analysis - 10 Kriter (Tek Soru)
-async function analyzeQuestionDeep(question, topicInfo, model = 'google/gemini-3.1-flash-lite-preview') {
+async function analyzeQuestionDeep(question, topicInfo, model = 'openai/gpt-5-nano') {
     const apiKey = apiKeyManager.getKey('OPENROUTER_API_KEY');
     if (!apiKey) throw new Error('OpenRouter API key bulunamadı');
 
@@ -426,7 +426,7 @@ KURALLAR:
                     'X-Title': 'KPSS Rapor Analiz'
                 },
                 body: JSON.stringify({
-                    model: 'google/gemini-3.1-flash-lite-preview',
+                    model: 'openai/gpt-5-nano',
                     messages: [{ role: 'user', content: prompt }],
                     temperature: 0.15
                 })
@@ -488,7 +488,7 @@ SADECE aşağıdaki JSON formatını döndür:
                     'X-Title': 'KPSS Akilli Soru Uretici'
                 },
                 body: JSON.stringify({
-                    model: model || 'google/gemini-3.1-flash-lite-preview',
+                    model: model || 'openai/gpt-5-nano',
                     messages: [{ role: 'user', content: prompt }],
                     temperature: 0.8
                 })

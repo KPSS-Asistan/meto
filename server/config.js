@@ -30,8 +30,8 @@ const PRODUCTIVITY_DIR = path.join(DATA_DIR, 'productivity');
 const STORIES_DIR = path.join(DATA_DIR, 'stories');
 const NOTIFICATIONS_FILE = path.join(DATA_DIR, 'notifications.json');
 const DRAFT_BASE = path.join(DATA_DIR, 'drafts');
-const COST_LOG_FILE = path.join(TOOLS_DIR, 'server', 'cost-log.json');
-const NIGHTLY_CONFIG_FILE = path.join(TOOLS_DIR, 'server', 'nightly-config.json');
+const COST_LOG_FILE = path.join(BASE_DIR, 'cost-log.json');
+const NIGHTLY_CONFIG_FILE = path.join(BASE_DIR, 'nightly-config.json');
 const GECMIS_SORULAR_PATH = path.join(DATA_DIR, 'kpss-tarih-gecmis-sorular.js');
 
 module.exports = {

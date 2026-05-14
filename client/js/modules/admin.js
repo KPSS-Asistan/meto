@@ -9,6 +9,16 @@ if (typeof API === 'undefined') {
     window.API = window.API_URL || 'http://localhost:3456';
 }
 
+// HTML injection'a karşı sanitizer — tüm kullanıcı verileri bu fonksiyondan geçmeli
+function escHtml(str) {
+    return String(str == null ? '' : str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#x27;');
+}
+
 // ══════════════════════════════════════════════════════════════════════════
 // USER MANAGEMENT
 // ══════════════════════════════════════════════════════════════════════════
@@ -74,7 +84,7 @@ window.renderUserRows = function (users) {
             : platformType === 'ios'
                 ? `<span style="background:rgba(148, 163, 184, 0.14); color:#e2e8f0; padding:2px 8px; border-radius:12px; font-size:0.72rem; font-weight:700">iOS</span>`
                 : `<span style="background:rgba(148, 163, 184, 0.14); color:#94a3b8; padding:2px 8px; border-radius:12px; font-size:0.72rem; font-weight:700">DİĞER</span>`;
-        const photo = `<div style="width:32px; height:32px; border-radius:50%; background:var(--accent); color:white; display:grid; place-items:center; font-weight:bold">${(user.displayName || '?').charAt(0).toUpperCase()}</div>`;
+        const photo = `<div style="width:32px; height:32px; border-radius:50%; background:var(--accent); color:white; display:grid; place-items:center; font-weight:bold">${escHtml((user.displayName || '?').charAt(0).toUpperCase())}</div>`;
         const lastLogin = user.lastLogin
             ? new Date(user.lastLogin).toLocaleDateString('tr-TR', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })
             : (user.createdAt ? new Date(user.createdAt).toLocaleDateString('tr-TR') : '-');
@@ -84,12 +94,12 @@ window.renderUserRows = function (users) {
                     <div style="display:flex; align-items:center; gap:0.75rem">
                         ${photo}
                         <div>
-                            <div style="font-weight:500">${user.displayName}</div>
-                            <div style="font-size:0.8rem; color:var(--text-muted)">${accountTypeLabel} · ${platformLabel} · ${loginMethodLabel}</div>
+                            <div style="font-weight:500">${escHtml(user.displayName)}</div>
+                            <div style="font-size:0.8rem; color:var(--text-muted)">${escHtml(accountTypeLabel)} · ${escHtml(platformLabel)} · ${escHtml(loginMethodLabel)}</div>
                         </div>
                     </div>
                 </td>
-                <td style="padding:1rem; color:var(--text-muted)">${accountType === 'guest' ? '-' : user.email}</td>
+                <td style="padding:1rem; color:var(--text-muted)">${accountType === 'guest' ? '-' : escHtml(user.email)}</td>
                 <td style="padding:1rem">${statusBadge}</td>
                 <td style="padding:1rem; font-size:0.9rem">${lastLogin}</td>
                 <td style="padding:1rem; font-family:monospace; font-size:0.75rem; color:var(--text-muted)">${user.uid.substring(0, 12)}...</td>
@@ -678,6 +688,7 @@ window._renderReports = function () {
     const cardsHtml = filtered.length === 0
         ? '<div style="padding:2rem; text-align:center; color:var(--text-muted);">Rapor bulunamadı.</div>'
         : filtered.map((r, i) => {
+            const allIdx    = window._allReports.indexOf(r);
             const typeInfo  = TYPE_MAP[r.reportType] || TYPE_MAP['other'];
             const dateStr   = new Date(r.receivedAt || r.timestamp || r.createdAt).toLocaleString('tr-TR');
             const status    = r.status || 'pending';
@@ -755,11 +766,11 @@ window._renderReports = function () {
                         style="padding:0.42rem 0.85rem; font-size:0.78rem; background:transparent; border:1px solid var(--border); color:var(--text-muted); border-radius:7px; cursor:pointer;">
                         ↩ Geri Al
                     </button>` : ''}
-                    <button onclick="window._deleteReportedQuestion('${qId}', ${i})"
+                    <button onclick="window._deleteReportedQuestion('${qId}', ${allIdx})"
                         style="padding:0.42rem 0.85rem; font-size:0.82rem; background:rgba(239,68,68,0.08); border:1px solid rgba(239,68,68,0.4); color:#f87171; border-radius:7px; cursor:pointer; display:flex; align-items:center; gap:0.3rem; margin-left:auto;">
                         <span class="material-icons-round" style="font-size:0.95rem;">delete_forever</span> Soruyu Sil
                     </button>
-                    <button onclick="window._analyzeReportWithAI(${i})"
+                    <button onclick="window._analyzeReportWithAI(${i}, ${allIdx})"
                         style="padding:0.42rem 0.85rem; font-size:0.82rem; background:linear-gradient(135deg,rgba(99,102,241,0.15),rgba(168,85,247,0.15)); border:1px solid rgba(99,102,241,0.5); color:#a78bfa; border-radius:7px; cursor:pointer; display:flex; align-items:center; gap:0.3rem;">
                         <span class="material-icons-round" style="font-size:0.95rem;">auto_awesome</span> AI Analiz
                     </button>
@@ -803,9 +814,16 @@ window._deleteReportedQuestion = async function (questionId, reportIndex) {
 
         const delRes  = await fetch(`${API}/questions/${encodeURIComponent(topicId)}/${encodeURIComponent(qId)}`, { method: 'DELETE' });
         const delData = await delRes.json();
-        if (!delData.success) throw new Error(delData.error || 'Silme başarısız');
+        if (!delData.success) throw new Error(delData.error || `Silme başarısız (${delRes.status})`);
 
-        // Raporu da otomatik olarak çözüldü yap
+        // Silme sonrası doğrula
+        const verifyRes = await fetch(`${API}/find-question?id=${encodeURIComponent(questionId)}`);
+        const verifyData = await verifyRes.json();
+        if (verifyData.success) {
+            throw new Error('Soru dosyadan silinemedi, tekrar deneyin');
+        }
+
+        // Raporu listeden kaldır ve çözüldü olarak işaretle
         const report = window._allReports[reportIndex];
         if (report) {
             const rId = report.id || '';
@@ -815,18 +833,21 @@ window._deleteReportedQuestion = async function (questionId, reportIndex) {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ id: rId || undefined, questionId, receivedAt: rAt, status: 'resolved' })
             });
-            report.status = 'resolved';
+            // Raporu listeden tamamen kaldır
+            const idx = window._allReports.indexOf(report);
+            if (idx !== -1) window._allReports.splice(idx, 1);
         }
 
-        showToast(`✅ Soru silindi: ${questionId}`, 'success');
+        showToast(`✅ Soru silindi ve rapor kapatıldı: ${questionId}`, 'success');
         window._renderReports();
     } catch (e) {
         showToast('Silme hatası: ' + e.message, 'error');
     }
 };
 
-window._analyzeReportWithAI = async function (index) {
-    const report = window._allReports[index];
+window._analyzeReportWithAI = async function (index, allIndex) {
+    const reportIdx = (allIndex !== undefined) ? allIndex : index;
+    const report = window._allReports[reportIdx];
     if (!report) return;
 
     const analysisEl = document.getElementById(`rqAiAnalysis-${index}`);
@@ -1004,6 +1025,139 @@ window.viewReportQuestion = async function (questionId) {
     } catch (e) {
         showToast('Hata: ' + e.message, 'error');
     }
+};
+
+
+// ══════════════════════════════════════════════════════════════════════════
+// EDITOR MANAGEMENT (sadece admin rolü)
+// ══════════════════════════════════════════════════════════════════════════
+
+window._editorsData = [];
+
+window.loadEditors = async function () {
+    const el = document.getElementById('editorsList');
+    if (!el) return;
+    el.innerHTML = '<div style="padding:1.5rem;text-align:center;color:var(--text-muted);">Yükleniyor...</div>';
+    try {
+        const res = await fetch(`${API}/auth/editors`);
+        const data = await res.json();
+        if (!data.success) throw new Error(data.error || 'Yükleme başarısız');
+        window._editorsData = data.editors || [];
+        _renderEditors();
+    } catch (e) {
+        el.innerHTML = `<div style="padding:1rem;color:#ef4444;">Hata: ${e.message}</div>`;
+    }
+};
+
+function _renderEditors() {
+    const el = document.getElementById('editorsList');
+    if (!el) return;
+    const editors = window._editorsData;
+    if (!editors.length) {
+        el.innerHTML = '<div style="padding:1.5rem;text-align:center;color:var(--text-muted);">Henüz editör hesabı yok. Yukarıdan ekleyin.</div>';
+        return;
+    }
+    el.innerHTML = editors.map(e => `
+        <div style="display:flex;align-items:center;gap:0.85rem;padding:0.85rem 1.25rem;border-bottom:1px solid var(--border);flex-wrap:wrap;">
+            <div style="width:38px;height:38px;background:rgba(99,102,241,0.15);color:#6366f1;border-radius:9px;display:grid;place-items:center;flex-shrink:0;">
+                <span class="material-icons-round">person</span>
+            </div>
+            <div style="flex:1;min-width:120px;">
+                <div style="font-weight:700;color:var(--text);font-size:0.95rem;">${escHtml(e.username)}</div>
+                <div style="font-size:0.75rem;color:var(--text-muted);">Eklenme: ${e.createdAt ? new Date(e.createdAt).toLocaleDateString('tr-TR') : '-'}</div>
+            </div>
+            <span style="padding:3px 11px;border-radius:20px;font-size:0.72rem;font-weight:600;
+                background:${e.active !== false ? 'rgba(16,185,129,0.15)' : 'rgba(239,68,68,0.15)'};
+                color:${e.active !== false ? '#10b981' : '#ef4444'};">
+                ${e.active !== false ? '✅ Aktif' : '⛔ Pasif'}
+            </span>
+            <div style="display:flex;gap:0.4rem;flex-wrap:wrap;">
+                <button onclick="window._changeEditorPassword('${e.username}')"
+                    style="padding:0.38rem 0.7rem;font-size:0.8rem;background:transparent;border:1px solid var(--border);color:var(--text);border-radius:7px;cursor:pointer;">
+                    🔑 Şifre Değiştir
+                </button>
+                <button onclick="window._toggleEditorActive('${e.username}', ${e.active === false})"
+                    style="padding:0.38rem 0.7rem;font-size:0.8rem;background:transparent;border:1px solid ${e.active !== false ? '#ef4444' : '#10b981'};color:${e.active !== false ? '#ef4444' : '#10b981'};border-radius:7px;cursor:pointer;">
+                    ${e.active !== false ? 'Pasifleştir' : 'Aktifleştir'}
+                </button>
+                <button onclick="window._deleteEditor('${e.username}')"
+                    style="padding:0.38rem 0.7rem;font-size:0.8rem;background:rgba(239,68,68,0.08);border:1px solid rgba(239,68,68,0.4);color:#f87171;border-radius:7px;cursor:pointer;">
+                    🗑 Sil
+                </button>
+            </div>
+        </div>
+    `).join('');
+}
+
+window._openAddEditorForm = function () {
+    const formEl = document.getElementById('addEditorForm');
+    if (!formEl) return;
+    const isOpen = formEl.style.display !== 'none';
+    formEl.style.display = isOpen ? 'none' : 'block';
+    if (!isOpen) {
+        document.getElementById('newEditorUsername').value = '';
+        document.getElementById('newEditorPassword').value = '';
+        document.getElementById('newEditorUsername').focus();
+    }
+};
+
+window._submitAddEditor = async function () {
+    const username = (document.getElementById('newEditorUsername')?.value || '').trim();
+    const password = document.getElementById('newEditorPassword')?.value || '';
+    if (!username || !password) { showToast('Kullanıcı adı ve şifre zorunlu', 'error'); return; }
+    try {
+        const res = await fetch(`${API}/auth/editors`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ username, password })
+        });
+        const data = await res.json();
+        if (!data.success) throw new Error(data.error);
+        showToast(`✅ Editör eklendi: ${username}`, 'success');
+        document.getElementById('addEditorForm').style.display = 'none';
+        window.loadEditors();
+    } catch (e) { showToast('Hata: ' + e.message, 'error'); }
+};
+
+window._changeEditorPassword = async function (username) {
+    const newPassword = prompt(`"${username}" için yeni şifre girin (min 6 karakter):`);
+    if (!newPassword) return;
+    if (newPassword.length < 6) { showToast('Şifre en az 6 karakter olmalı', 'error'); return; }
+    try {
+        const res = await fetch(`${API}/auth/editors/${encodeURIComponent(username)}`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ password: newPassword })
+        });
+        const data = await res.json();
+        if (!data.success) throw new Error(data.error);
+        showToast(`✅ Şifre güncellendi: ${username}`, 'success');
+    } catch (e) { showToast('Hata: ' + e.message, 'error'); }
+};
+
+window._toggleEditorActive = async function (username, active) {
+    try {
+        const res = await fetch(`${API}/auth/editors/${encodeURIComponent(username)}`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ active })
+        });
+        const data = await res.json();
+        if (!data.success) throw new Error(data.error);
+        showToast(`✅ ${username}: ${active ? 'aktifleştirildi' : 'pasifleştirildi'}`, 'success');
+        window.loadEditors();
+    } catch (e) { showToast('Hata: ' + e.message, 'error'); }
+};
+
+window._deleteEditor = async function (username) {
+    if (!confirm(`"${username}" editör hesabı kalıcı olarak silinecek.\nOnaylıyor musunuz?`)) return;
+    try {
+        const res = await fetch(`${API}/auth/editors/${encodeURIComponent(username)}`, { method: 'DELETE' });
+        const data = await res.json();
+        if (!data.success) throw new Error(data.error);
+        showToast(`✅ Editör silindi: ${username}`, 'success');
+        window.loadEditors();
+    } catch (e) { showToast('Hata: ' + e.message, 'error'); }
 };
 
 

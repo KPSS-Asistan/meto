@@ -757,6 +757,9 @@
         <button class="nav-tab" onclick="showPage('users')" data-page="users">
             <span class="material-icons-round">people</span>Kullanıcılar
         </button>
+        <button class="nav-tab" onclick="showPage('editors')" data-page="editors">
+            <span class="material-icons-round">manage_accounts</span>Editörler
+        </button>
         <button class="nav-tab" onclick="showPage('reports')" data-page="reports">
             <span class="material-icons-round">report</span>Raporlar
         </button>
@@ -1206,6 +1209,55 @@ Tüm soruları bir JSON dizisi olarak döndür: [...]</pre>
                             </tr>
                         </tbody>
                     </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- EDITORS PAGE -->
+        <div id="page-editors" class="page">
+            <div class="page-header">
+                <h1 class="page-title">
+                    <span class="material-icons-round">manage_accounts</span>
+                    Editör Hesapları
+                </h1>
+                <p class="page-subtitle">Admin paneline giriş yapabilen editörleri yönet</p>
+            </div>
+            <div class="card">
+                <div class="card-header" style="display:flex;justify-content:space-between;align-items:center;">
+                    <h3 class="card-title">
+                        <span class="material-icons-round">group</span>
+                        Editörler
+                    </h3>
+                    <button onclick="window._openAddEditorForm()"
+                        style="padding:0.5rem 1rem;font-size:0.85rem;background:rgba(99,102,241,0.15);border:1px solid rgba(99,102,241,0.5);color:#a5b4fc;border-radius:8px;cursor:pointer;display:flex;align-items:center;gap:0.4rem;">
+                        <span class="material-icons-round" style="font-size:1rem;">person_add</span> Yeni Editör
+                    </button>
+                </div>
+                <!-- Yeni editör ekleme formu (açılır/kapanır) -->
+                <div id="addEditorForm" style="display:none;padding:1rem 1.25rem;border-bottom:1px solid var(--border);background:rgba(99,102,241,0.05);">
+                    <div style="display:flex;gap:0.75rem;flex-wrap:wrap;align-items:flex-end;">
+                        <div style="flex:1;min-width:140px;">
+                            <label style="font-size:0.78rem;color:var(--text-muted);display:block;margin-bottom:4px;">Kullanıcı Adı</label>
+                            <input id="newEditorUsername" type="text" placeholder="örn: ahmet42" autocomplete="off"
+                                style="width:100%;padding:0.5rem 0.75rem;background:var(--bg,#0f172a);border:1px solid var(--border);border-radius:7px;color:var(--text);font-size:0.9rem;">
+                        </div>
+                        <div style="flex:1;min-width:140px;">
+                            <label style="font-size:0.78rem;color:var(--text-muted);display:block;margin-bottom:4px;">Şifre (min 6 karakter)</label>
+                            <input id="newEditorPassword" type="password" placeholder="Şifre"
+                                style="width:100%;padding:0.5rem 0.75rem;background:var(--bg,#0f172a);border:1px solid var(--border);border-radius:7px;color:var(--text);font-size:0.9rem;">
+                        </div>
+                        <button onclick="window._submitAddEditor()"
+                            style="padding:0.5rem 1.1rem;background:rgba(16,185,129,0.15);border:1px solid #10b981;color:#10b981;border-radius:7px;cursor:pointer;font-size:0.88rem;white-space:nowrap;">
+                            ✅ Ekle
+                        </button>
+                        <button onclick="document.getElementById('addEditorForm').style.display='none'"
+                            style="padding:0.5rem 0.9rem;background:transparent;border:1px solid var(--border);color:var(--text-muted);border-radius:7px;cursor:pointer;font-size:0.88rem;">
+                            İptal
+                        </button>
+                    </div>
+                </div>
+                <div id="editorsList" style="padding:0.5rem 0;">
+                    <div style="padding:1.5rem;text-align:center;color:var(--text-muted);">Yükleniyor...</div>
                 </div>
             </div>
         </div>
@@ -1788,6 +1840,9 @@ Tüm soruları bir JSON dizisi olarak döndür: [...]</pre>
                         <option value="google/gemini-3-flash-preview">Gemini 3 Flash</option>
                         <option value="deepseek/deepseek-v3.2">DeepSeek V3.2</option>
                         <option value="google/gemini-2.5-flash-lite">Gemini 2.5 Flash Lite</option>
+                        <option value="openai/gpt-5-nano">GPT-5 Nano</option>
+                        <option value="openai/gpt-5.4-nano">GPT-5.4 Nano</option>
+                        <option value="openai/gpt-5-mini">GPT-5 Mini</option>
                     </select>
                 </div>
                 <div style="display:flex;flex-direction:column;gap:0.25rem">
@@ -2162,6 +2217,18 @@ Tüm soruları bir JSON dizisi olarak döndür: [...]</pre>
                                 <span style="font-size:0.8rem;color:#e2e8f0;font-weight:500">GPT-5 Nano</span>
                                 <span style="font-size:0.7rem;color:#34d399">$0.23/M</span>
                             </button>
+                            <button onclick="selectModel('openai/gpt-5.4-nano')" class="model-card"
+                                data-model="openai/gpt-5.4-nano"
+                                style="padding:0.5rem 0.65rem;border:1px solid #334155;border-radius:6px;background:#0f172a;cursor:pointer;text-align:left;display:flex;justify-content:space-between;align-items:center">
+                                <span style="font-size:0.8rem;color:#e2e8f0;font-weight:500">GPT-5.4 Nano</span>
+                                <span style="font-size:0.7rem;color:#34d399">$0.25/M</span>
+                            </button>
+                            <button onclick="selectModel('openai/gpt-5-mini')" class="model-card"
+                                data-model="openai/gpt-5-mini"
+                                style="padding:0.5rem 0.65rem;border:1px solid #334155;border-radius:6px;background:#0f172a;cursor:pointer;text-align:left;display:flex;justify-content:space-between;align-items:center">
+                                <span style="font-size:0.8rem;color:#e2e8f0;font-weight:500">GPT-5 Mini</span>
+                                <span style="font-size:0.7rem;color:#34d399">$0.35/M</span>
+                            </button>
                             <button onclick="selectModel('google/gemini-2.5-flash-lite')" class="model-card"
                                 data-model="google/gemini-2.5-flash-lite"
                                 style="padding:0.5rem 0.65rem;border:1px solid #334155;border-radius:6px;background:#0f172a;cursor:pointer;text-align:left;display:flex;justify-content:space-between;align-items:center">
@@ -2195,6 +2262,8 @@ Tüm soruları bir JSON dizisi olarak döndür: [...]</pre>
                             <option value="moonshotai/kimi-k2.5">Kimi K2.5</option>
                             <option value="nvidia/nemotron-3-super-120b-a12b:free">Nemotron 3 Super (Free)</option>
                             <option value="openai/gpt-5-nano">GPT-5 Nano</option>
+                            <option value="openai/gpt-5.4-nano">GPT-5.4 Nano</option>
+                            <option value="openai/gpt-5-mini">GPT-5 Mini</option>
                             <option value="google/gemini-2.5-flash-lite">Gemini 2.5 Flash Lite</option>
                             <option value="openai/gpt-4o-mini">GPT-4o Mini</option>
                             <option value="google/gemini-3.1-flash-lite-preview">Gemini 3.1 Flash Lite</option>
@@ -2711,6 +2780,8 @@ Tüm soruları bir JSON dizisi olarak döndür: [...]</pre>
                             <option value="moonshotai/kimi-k2.5">Kimi K2.5</option>
                             <option value="nvidia/nemotron-3-super-120b-a12b:free">Nemotron 3 Super (Free)</option>
                             <option value="openai/gpt-5-nano">GPT-5 Nano</option>
+                            <option value="openai/gpt-5.4-nano">GPT-5.4 Nano</option>
+                            <option value="openai/gpt-5-mini">GPT-5 Mini</option>
                             <option value="google/gemini-2.5-flash-lite">Gemini 2.5 Flash Lite</option>
                             <option value="openai/gpt-4o-mini">GPT-4o Mini</option>
                             <option value="anthropic/claude-haiku-4.5">Claude Haiku 4.5</option>
