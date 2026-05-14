@@ -4,6 +4,7 @@ const path = require('path');
 const { QUESTIONS_DIR, DATA_DIR } = require('../config');
 const { sendJSON, parseBody } = require('../utils/helper');
 const { loadQuestions, saveQuestions } = require('../services/questionService');
+const { pushAllRemotes } = require('./sync');
 
 const { TOPICS } = require('../config/topics');
 
@@ -313,6 +314,9 @@ async function handleQuestionRoutes(req, res, pathname, searchParams) {
             // Kaydet
             await saveQuestions(topicId, existingQuestions);
             bumpVersion(topicId);
+
+            // Arka planda push — response'u bloklamaz
+            pushAllRemotes('soru').catch(e => console.error('[questions] git push hatası:', e.message));
 
             return sendJSON(res, {
                 success: true,

@@ -7,6 +7,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const { sendJSON, parseBody } = require('../utils/helper');
+const { pushAllRemotes } = require('./sync');
 const { DATA_DIR, EXPLANATIONS_DIR, STORIES_DIR, FLASHCARDS_DIR, MATCHING_GAMES_DIR, PRODUCTIVITY_DIR, QUESTIONS_DIR, DRAFT_BASE, COST_LOG_FILE, NIGHTLY_CONFIG_FILE, GECMIS_SORULAR_PATH, TOPICS_FILE } = require('../config');
 
 
@@ -834,6 +835,14 @@ async function handleAIContentRoutes(req, res, pathname, searchParams) {
             }
 
             aiLog('publish', `✅ ${toPublish.length} bölüm canlıya alındı: ${topicName}`);
+
+            // Arka planda git push (origin + meto/main + mobile assets) — response'u bloklamaz
+            pushAllRemotes(moduleType)
+                .then(({ committed, results }) => {
+                    if (committed) aiLog('publish', `✅ Git push tamamlandı: ${JSON.stringify(results)}`);
+                    else aiLog('publish', 'Git push: commit edilecek değişiklik yoktu');
+                })
+                .catch(e => aiLog('error', `Git push arka plan hatası: ${e.message}`));
 
             return sendJSON(res, {
                 success: true,
