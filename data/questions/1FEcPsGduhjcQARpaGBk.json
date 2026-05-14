@@ -93,7 +93,9 @@
             "verdict": "Geçerli",
             "score": 10,
             "summary": "Soru, Türkiye'nin matematik konumu konusundaki temel kazanımları ölçen, teknik ve akademik açıdan kusursuz bir sorudur."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-05-13T19:32:54.224Z"
     },
     {
         "id": "cog_002",
