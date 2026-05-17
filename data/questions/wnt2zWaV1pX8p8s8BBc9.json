@@ -1122,23 +1122,6 @@
         "_part": 69
     },
     {
-        "id": "tur_70_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "SM-20",
-        "subtopic": "Sözel Mantık",
-        "q": "Yemek senaryosuna göre, hangisi kesinlikle doğrudur?",
-        "o": [
-            "Pırasa Salı günüdür.",
-            "Mantı Perşembe günüdür.",
-            "Balık Pazartesi günüdür.",
-            "Kebap Salı günüdür.",
-            "Taze Fasulye Cuma günüdür."
-        ],
-        "a": 3,
-        "e": "Dizilim: Mantı, Kebap, Taze Fasulye, Balık, Pırasa.",
-        "_part": 70
-    },
-    {
         "id": "tur_71_1Q7S",
         "topicId": "1Q7SADACD2BP",
         "subtopicId": "SM-21",
