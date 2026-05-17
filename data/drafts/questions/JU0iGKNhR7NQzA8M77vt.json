@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "Q1",
+    "topicId": "OSMANLI-SIYASI",
+    "subtopicId": "kurulus-donemi",
+    "subtopic": "KURULUŞ DÖNEMİ",
+    "q": "Osmanlı Devleti'nin Rumeli'deki ilerleyişini kolaylaştırmak amacıyla, Çimpe Kalesi'nin alınmasından sonra bölgeye yapılan ilk sistemli Türk göçü ve yerleştirme faaliyetine verilen ad nedir?",
+    "o": [
+      "İstimalet",
+      "İskân",
+      "Tımar",
+      "Devşirme",
+      "Sürgün"
+    ],
+    "a": 1,
+    "e": "Doğru cevap B. Osmanlı Devleti, fethedilen bölgelerin kalıcı olması için Rumeli'ye Anadolu'dan Türk aileleri yerleştirmiştir. İstimalet ise hoşgörü politikasıdır.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:12.380Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:34:12.211Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap İskân politikasıdır, tarihsel olarak doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kurgusu mantıksal bir bütünlük arz etmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk düzeyine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyini ölçen, doğrudan bir soru tipidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Çeldiriciler (İstimalet, Tımar, Devşirme) konuyla ilgili olsa da 'Sürgün' şıkkı İskân politikasıyla doğrudan bağlantılı bir yöntem olduğu için kafa karıştırıcı olabilir.",
+          "suggestion": "Sürgün yerine daha alakasız bir terim (örneğin: Pençik) kullanılabilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Şık sayısı ve format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterli ve doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Tarafsız ve etik kurallara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Osmanlı siyasi tarihi ve kurumları konusuna tam uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılı ve sınav formatına uygundur.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 9,
+      "summary": "Soru, KPSS formatına uygun ve bilgi düzeyini ölçen niteliktedir; sadece çeldiricilerden biri olan 'Sürgün' kavramı İskân ile iç içe geçtiği için daha ayırt edici bir seçenekle değiştirilebilir."
+    },
+    "updatedAt": "2026-05-17T03:34:12.212Z"
+  },
+  {
+    "id": "Q2",
+    "topicId": "OSMANLI-SIYASI",
+    "subtopicId": "yükselme-donemi",
+    "subtopic": "YÜKSELME DÖNEMİ",
+    "q": "Fatih Sultan Mehmet döneminde, Venedik ile yapılan uzun süreli savaşların ardından imzalanan 1479 tarihli antlaşma ile Osmanlı Devleti'nin Venedik'e tanıdığı ticari ayrıcalıklar, ilerleyen süreçte Avrupa devletlerine karşı nasıl bir diplomatik araç olarak kullanılmıştır?",
+    "o": [
+      "Siyasi ittifak sağlama",
+      "Gümrük vergilerini artırma",
+      "Hristiyan birliğini bölme",
+      "Deniz ticaretini yasaklama",
+      "Akdeniz'de egemenlik kurma"
+    ],
+    "a": 2,
+    "e": "Doğru cevap C. Kapitülasyonlar, özellikle Hristiyan birliğini parçalamak ve Avrupa devletlerini Osmanlı yanında tutmak için bir diplomasi aracı olarak kullanılmıştır.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:12.380Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:34:15.257Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Tarihsel olarak Osmanlı'nın kapitülasyonları bir diplomasi aracı olarak Hristiyan birliğini bölmek için kullandığı bilgisi doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kökü ile şıklar arasında mantıksal bir bağ kurulmuştur.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve bilgi düzeyine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgiyi yorumlama becerisini ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Çeldiriciler biraz zayıf kalmıştır. Özellikle A şıkkı ile C şıkkı birbirine çok yakın anlamlar içermektedir.",
+          "suggestion": "Çeldiriciler daha ayırt edici ve tarihsel bağlama uygun seçeneklerle güçlendirilmelidir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik bir hata yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": true,
+          "explanation": "Açıklama çok kısa ve yüzeyseldir. 1479 Venedik antlaşması ile kapitülasyonların diplomatik işlevi arasındaki bağ daha detaylı açıklanmalıdır.",
+          "suggestion": "Açıklama kısmına, bu ayrıcalıkların Avrupa devletleri arasındaki rekabeti nasıl körüklediğine dair kısa bir bilgi eklenmelidir."
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Tarafsızlık ilkesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Osmanlı Siyasi Tarihi konusu ile tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılı ancak çeldiriciler ve açıklama kısmı geliştirilmelidir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 7,
+      "summary": "Soru tarihsel açıdan doğru ve müfredata uygun, ancak çeldiricilerin ayırt ediciliği artırılmalı ve açıklama kısmı daha öğretici hale getirilmelidir."
+    },
+    "updatedAt": "2026-05-17T03:34:15.258Z"
+  },
+  {
+    "id": "Q3",
+    "topicId": "OSMANLI-SIYASI",
+    "subtopicId": "yükselme-donemi",
+    "subtopic": "YÜKSELME DÖNEMİ",
+    "q": "Kanuni Sultan Süleyman döneminde gerçekleşen aşağıdaki gelişmelerden hangisi, Osmanlı Devleti'nin Orta Avrupa'daki egemenliğini kesinleştiren ve Habsburg hanedanına karşı üstünlük sağlayan bir antlaşma niteliğindedir?",
+    "o": [
+      "Mohaç Meydan Muharebesi",
+      "İstanbul Antlaşması",
+      "Belgrad'ın fethi",
+      "Zigetvar Seferi",
+      "Preveze Deniz Zaferi"
+    ],
+    "a": 1,
+    "e": "Doğru cevap B. 1533 İstanbul Antlaşması ile Avusturya Arşidükü, Osmanlı sadrazamına denk sayılarak Osmanlı'nın Avrupa üzerindeki üstünlüğü resmen kabul edilmiştir.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:12.380Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:34:17.922Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap tarihsel gerçeklerle örtüşmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru, bilgi düzeyinde mantıksal bir bütünlüğe sahiptir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyinde ayırt edici bir sorudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Şıklar arasında 'Zigetvar Seferi' ve 'Preveze Deniz Zaferi' gibi olaylar, antlaşma niteliği taşımadıkları için çok zayıf çeldiricilerdir.",
+          "suggestion": "Çeldiriciler, antlaşma niteliği taşıyan diğer Osmanlı-Avusturya antlaşmalarıyla (Örn: Zitvatorok, Vasvar) değiştirilerek soru zorlaştırılabilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterli ve doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Belirtilen konu ile tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak kullanılabilir ancak çeldiriciler güçlendirilmelidir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru teknik olarak doğru ve müfredata uygun, ancak çeldiricilerin antlaşma niteliği taşımayan olaylardan seçilmesi sorunun ayırt ediciliğini düşürmektedir."
+    },
+    "updatedAt": "2026-05-17T03:34:17.924Z"
+  },
+  {
+    "id": "Q4",
+    "topicId": "OSMANLI-SIYASI",
+    "subtopicId": "kurulus-donemi",
+    "subtopic": "KURULUŞ DÖNEMİ",
+    "q": "Osmanlı Devleti'nin kuruluş sürecinde I. Murat döneminde gerçekleşen gelişmeler arasında aşağıdakilerden hangisi yer almaz?",
+    "o": [
+      "Edirne'nin başkent yapılması",
+      "Yeniçeri Ocağı'nın kurulması",
+      "Rumeli Beylerbeyliği'nin oluşturulması",
+      "Sırpsındığı Savaşı'nın yapılması",
+      "Ankara Savaşı'nın kaybedilmesi"
+    ],
+    "a": 4,
+    "e": "Doğru cevap E. Ankara Savaşı, I. Murat döneminde değil, 1402 yılında Yıldırım Bayezid döneminde Timur ile Osmanlı arasında yapılmıştır.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:12.380Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:34:20.655Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap E seçeneğidir ve tarihsel olarak doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kendi içinde tutarlıdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyini ölçen standart bir sorudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": false,
+          "explanation": "Şıklar homojen ve I. Murat dönemi ile ilgili önemli olayları kapsamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterli ve doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Soru, Osmanlı kuruluş dönemi siyasi tarihi ile tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru, sınav formatına uygun ve kaliteli bir sorudur.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Geçerli",
+      "score": 10,
+      "summary": "Soru, KPSS standartlarına uygun, dil bilgisi hatası içermeyen ve tarihsel gerçeklerle tam örtüşen başarılı bir sorudur."
+    },
+    "updatedAt": "2026-05-17T03:34:20.657Z"
+  },
+  {
+    "id": "Q5",
+    "topicId": "OSMANLI-SIYASI",
+    "subtopicId": "yükselme-donemi",
+    "subtopic": "YÜKSELME DÖNEMİ",
+    "q": "I. Osmanlı donanmasının Hint Okyanusu'ndaki Portekiz varlığına karşı gönderilmesi\nII. Yemen ve Habeşistan kıyılarının Osmanlı yönetimine girmesi\nIII. Baharat Yolu'nun güvenliğini yeniden sağlamaya çalışılması\nYukarıdaki gelişmeler hangi padişah dönemiyle doğrudan ilişkilidir?",
+    "o": [
+      "Fatih Sultan Mehmet",
+      "II. Bayezid",
+      "Yavuz Sultan Selim",
+      "Kanuni Sultan Süleyman",
+      "II. Selim"
+    ],
+    "a": 3,
+    "e": "Doğru cevap D. Hint Deniz Seferleri, Kanuni Sultan Süleyman döneminde Portekizlilerin bölgedeki baskısını kırmak amacıyla gerçekleştirilmiştir.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:12.380Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:34:26.936Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Verilen bilgiler Hint Deniz Seferleri'ni işaret etmektedir ve bu seferler Kanuni Sultan Süleyman dönemine aittir.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Öncüller ile cevap arasında mantıksal bir bağ kurulmuştur.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyini ölçen standart bir sorudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Çeldiriciler (Fatih, II. Bayezid, II. Selim) Hint Deniz Seferleri ile doğrudan ilişkilendirilemeyecek kadar uzaktır, daha güçlü çeldiriciler eklenebilir.",
+          "suggestion": "Çeldiriciler, Hint Okyanusu ile ilgisi olan veya o dönemle karıştırılabilecek padişahlar arasından seçilebilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": true,
+          "explanation": "Açıklama çok kısa ve yüzeyseldir; öncüllerdeki maddelerin (Yemen, Baharat Yolu) neden Kanuni dönemiyle ilişkili olduğu detaylandırılmalıdır.",
+          "suggestion": "Açıklama kısmına Hint Deniz Seferleri'nin nedenleri ve sonuçları hakkında kısa bir bilgi eklenmelidir."
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Tarafsızdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Osmanlı siyasi tarihi konusuna tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılıdır ancak açıklama ve çeldirici kalitesi artırılabilir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru, KPSS formatına uygun ve doğru bir bilgiye dayanmaktadır; ancak açıklama kısmının zenginleştirilmesi ve çeldiricilerin daha dikkat çekici hale getirilmesi önerilir."
+    },
+    "updatedAt": "2026-05-17T03:34:26.937Z"
+  },
+  {
+    "id": "Q6",
+    "topicId": "OSMANLI-SIYASI",
+    "subtopicId": "kurulus-donemi",
+    "subtopic": "KURULUŞ DÖNEMİ",
+    "q": "Osmanlı Devleti'nin kuruluş döneminde Bizans İmparatorluğu ile yapılan ilk savaş olma özelliğini taşıyan ve Osmanlı ordusunun Bizans sınırındaki tekfurlara karşı kazandığı ilk önemli zafer aşağıdakilerden hangisidir?",
+    "o": [
+      "Maltepe Savaşı",
+      "Koyunhisar Savaşı",
+      "Sırpsındığı Savaşı",
+      "I. Kosova Savaşı",
+      "Niğbolu Savaşı"
+    ],
+    "a": 1,
+    "e": "Doğru cevap B. 1302 yılında yapılan Koyunhisar (Bafeus) Savaşı, Osmanlı'nın Bizans'a karşı yaptığı ilk savaştır ve devletin bağımsızlığını kanıtlar.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:12.380Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:34:30.191Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap Koyunhisar (Bafeus) Savaşı'dır, tarihsel olarak doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kurgusu mantıksal bir bütünlük arz etmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyini ölçen, net bir sorudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Çeldiriciler (Sırpsındığı, I. Kosova, Niğbolu) Osmanlı'nın kuruluş dönemi savaşları olsa da Bizans ile yapılmadıkları için çok zayıf kalmaktadır.",
+          "suggestion": "Çeldiriciler arasına Bizans ile yapılan diğer savaşlar (örneğin Pelekanon/Maltepe zaten var, Bapheus/Koyunhisar zaten cevap) veya Bizans ile ilişkili başka bir olay eklenebilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "5 şıklı format korunmuştur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterlidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Osmanlı Kuruluş Dönemi siyasi tarih konusuna tam uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılıdır.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru teknik ve içerik olarak başarılıdır; ancak çeldiricilerin daha güçlü ve birbirine yakın dönem/konu özelliklerini taşıması sınav kalitesini artıracaktır."
+    },
+    "updatedAt": "2026-05-17T03:34:30.192Z"
+  },
+  {
+    "id": "Q7",
+    "topicId": "OSMANLI-SIYASI",
+    "subtopicId": "yükselme-donemi",
+    "subtopic": "YÜKSELME DÖNEMİ",
+    "q": "Osmanlı Devleti'nin 1453 yılında İstanbul'u fethetmesiyle birlikte, şehirden kaçan Bizanslı bilim insanlarının İtalya'ya giderek antik Yunan eserlerini incelemeleri, Avrupa'da hangi düşünce akımının başlamasını doğrudan tetiklemiştir?",
+    "o": [
+      "Reform",
+      "Rönesans",
+      "Aydınlanma",
+      "Sanayi İnkılabı",
+      "Skolastik Düşünce"
+    ],
+    "a": 1,
+    "e": "Doğru cevap B. İstanbul'un fethi sonrası İtalya'ya giden bilginler, antik eserleri taşıyarak Rönesans'ın başlamasında ve gelişmesinde önemli bir rol oynamışlardır.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:12.380Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:34:35.166Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap tarihsel gerçeklerle örtüşmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kurgusu mantıksal bir nedensellik üzerine kuruludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyini ölçen standart bir sorudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "E şıkkı (Skolastik Düşünce) bir düşünce akımı değil, Rönesans ile yıkılmaya çalışılan bir sistemdir. Çeldirici olarak zayıftır.",
+          "suggestion": "E şıkkı yerine 'Coğrafi Keşifler' veya 'Merkantilizm' gibi daha güçlü bir çeldirici getirilebilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterlidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Tarafsız ve etik kurallara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Osmanlı siyasi tarihi ve etkileri konusuyla uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılıdır.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru, KPSS standartlarına uygun ve doğru kurgulanmış bir bilgi sorusudur. Sadece E şıkkındaki çeldiricinin kavramsal olarak daha uygun bir seçenekle değiştirilmesi sorunun kalitesini artıracaktır."
+    },
+    "updatedAt": "2026-05-17T03:34:35.167Z"
+  },
+  {
+    "id": "Q8",
+    "topicId": "OSMANLI-SIYASI",
+    "subtopicId": "yükselme-donemi",
+    "subtopic": "YÜKSELME DÖNEMİ",
+    "q": "Yavuz Sultan Selim döneminde gerçekleştirilen Mısır Seferi'nin sonuçları değerlendirildiğinde, aşağıdakilerden hangisinin gerçekleştiği söylenemez?",
+    "o": [
+      "Halifelik Osmanlı'ya geçti",
+      "Baharat Yolu Osmanlı'ya geçti",
+      "Kutsal emanetler İstanbul'a getirildi",
+      "Memlûk Devleti tamamen yıkıldı",
+      "Venedik'ten Kıbrıs vergisi alınmaya başlandı"
+    ],
+    "a": 4,
+    "e": "Doğru cevap E. Kıbrıs, Venediklilerden Yavuz döneminde değil, 1571 yılında II. Selim döneminde fethedilmiştir; Mısır seferi ile ilgisi yoktur.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:12.380Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:34:37.707Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap tarihsel olarak doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kendi içinde mantıksal bir bütünlüğe sahiptir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyini ölçen standart bir sorudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": false,
+          "explanation": "Çeldiriciler konuyla ilgili ve makuldür.",
+          "suggestion": ""
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterli ve bilgilendiricidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Osmanlı siyasi tarihi konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru sınavda kullanılabilir niteliktedir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Geçerli",
+      "score": 10,
+      "summary": "Soru, KPSS formatına uygun, tarihsel gerçeklerle örtüşen ve çeldiricileri güçlü, kaliteli bir bilgi sorusudur."
+    },
+    "updatedAt": "2026-05-17T03:34:37.708Z"
+  },
+  {
+    "id": "Q9",
+    "topicId": "OSMANLI-SIYASI",
+    "subtopicId": "yükselme-donemi",
+    "subtopic": "YÜKSELME DÖNEMİ",
+    "q": "Osmanlı padişahlarından hangisi, 'Karadeniz bir Türk gölü haline gelmiştir' ifadesinin temelini oluşturan Kırım'ın fethini gerçekleştirerek bölgedeki ticaret yollarının kontrolünü sağlamıştır?",
+    "o": [
+      "Fatih Sultan Mehmet",
+      "II. Bayezid",
+      "Yavuz Sultan Selim",
+      "Kanuni Sultan Süleyman",
+      "II. Selim"
+    ],
+    "a": 0,
+    "e": "Doğru cevap A. 1475 yılında Kırım'ın fethi ile Karadeniz bir Türk iç denizi haline gelmiş ve Karadeniz ticaret yolu Osmanlı kontrolüne girmiştir.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:12.380Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:34:40.464Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Kırım'ın fethi 1475 yılında Fatih Sultan Mehmet döneminde gerçekleşmiştir.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru, tarihsel bir olgu ile padişah eşleştirmesi üzerine kuruludur, mantıksal bir hata yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyini ölçen standart bir sorudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": false,
+          "explanation": "Şıklar Osmanlı padişahlarından seçilmiş olup homojendir.",
+          "suggestion": ""
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterli ve doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Tarafsız ve etik kurallara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Osmanlı Siyasi Tarihi konusu ile tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru, sınav formatına uygun ve hatasızdır.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Geçerli",
+      "score": 10,
+      "summary": "Soru, KPSS standartlarına uygun, tarihsel olarak doğru ve teknik açıdan hatasız bir bilgi sorusudur."
+    },
+    "updatedAt": "2026-05-17T03:34:40.464Z"
+  },
+  {
+    "id": "Q10",
+    "topicId": "OSMANLI-SIYASI",
+    "subtopicId": "yükselme-donemi",
+    "subtopic": "YÜKSELME DÖNEMİ",
+    "q": "Osmanlı Devleti'nin Akdeniz'deki hâkimiyetini pekiştiren ve Kuzey Afrika'daki toprakların güvenliğini sağlayan, Barbaros Hayrettin Paşa'nın kazandığı büyük deniz zaferi hangisidir?",
+    "o": [
+      "İnebahtı",
+      "Preveze",
+      "Cerbe",
+      "Navarin",
+      "Çeşme"
+    ],
+    "a": 1,
+    "e": "Doğru cevap B. 1538 Preveze Deniz Zaferi ile Akdeniz'de Osmanlı üstünlüğü kesinleşmiş ve Türk gölü haline gelme süreci büyük oranda tamamlanmıştır.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:12.380Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:34:45.499Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap Preveze'dir, tarihsel olarak doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kurgusu mantıksal bir bütünlük arz etmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyini ölçen standart bir sorudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Çeldiriciler (İnebahtı, Navarin, Çeşme) Osmanlı'nın deniz yenilgileridir, Cerbe ise bir zaferdir. Cerbe de bir zafer olduğu için güçlü bir çeldiricidir ancak soru kökünde 'Barbaros Hayrettin Paşa' vurgusu yapıldığı için Cerbe elenmektedir.",
+          "suggestion": "Çeldiriciler tarihsel olarak Osmanlı deniz savaşları olduğu için uygundur."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterli ve bilgilendiricidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Osmanlı Siyasi Tarihi konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru, KPSS formatına uygun ve kaliteli bir bilgi sorusudur.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Geçerli",
+      "score": 9,
+      "summary": "Soru, KPSS standartlarına uygun, net ve doğru bir bilgi sorusudur. Çeldiriciler konu bütünlüğü açısından başarılı seçilmiştir."
+    },
+    "updatedAt": "2026-05-17T03:34:45.500Z"
+  }
+]

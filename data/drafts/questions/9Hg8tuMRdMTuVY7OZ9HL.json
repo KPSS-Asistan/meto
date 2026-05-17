@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "kpss_1",
+    "topicId": "ilk-musluman-turk-devletleri",
+    "subtopicId": "idari-yapi",
+    "subtopic": "İDARİ YAPI",
+    "q": "Karahanlılar döneminde devlet işlerinin görüşüldüğü ve karara bağlandığı en yüksek danışma organı olan, günümüzdeki bakanlar kuruluna benzer görevleri yerine getiren kurula ne ad verilmiştir?",
+    "o": [
+      "Divan-ı Saltanat",
+      "Meclis-i Ali",
+      "Divan-ı Vezaret",
+      "Divan-ı Mezalim",
+      "Divan-ı Bela"
+    ],
+    "a": 1,
+    "e": "Doğru cevap B. Karahanlılarda devlet işlerinin görüşüldüğü en yüksek danışma organına Meclis-i Ali adı verilmiştir. Divan-ı Saltanat Büyük Selçuklularda kullanılmıştır.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:40.128Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:33:31.855Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Karahanlılarda devlet işlerinin görüşüldüğü en yüksek kurul Meclis-i Ali'dir.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kendi içinde tutarlıdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına uygun bir bilgi sorusudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyinde bir ölçme yapmaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Şıklar (Divan-ı Saltanat, Divan-ı Mezalim vb.) tarihsel olarak diğer devletlere ait terimler olduğu için çeldiricilik düzeyi düşüktür.",
+          "suggestion": "Çeldiriciler, Karahanlılar dönemine ait diğer kurum isimlerinden (örneğin; Divan-ı Ali, Meclis-i Meşveret gibi) seçilerek daha güçlü hale getirilmelidir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "5 şıklı format korunmuştur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": true,
+          "explanation": "Açıklama çok yüzeyseldir, diğer şıkların neden yanlış olduğu hakkında bilgi verilmemiştir.",
+          "suggestion": "Açıklama kısmına diğer şıkların hangi devletlere ait olduğu veya neden yanlış olduğu eklenmelidir."
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Konu ile tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru teknik olarak doğru ancak çeldiriciler ve açıklama kısmı geliştirilmelidir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 7,
+      "summary": "Soru bilgi açısından doğru ve müfredata uygundur; ancak çeldiricilerin tarihsel bağlamı güçlendirilmeli ve açıklama kısmı daha detaylı hale getirilmelidir."
+    },
+    "updatedAt": "2026-05-17T03:33:31.856Z"
+  },
+  {
+    "id": "kpss_2",
+    "topicId": "ilk-musluman-turk-devletleri",
+    "subtopicId": "hukuk-sistemi",
+    "subtopic": "HUKUK SİSTEMİ",
+    "q": "Türk-İslam devletlerinde şer'i mahkemelerin başında bulunan ve davalara bakan kadıların, görevlerini yerine getirirken bağımsız hareket edebilmeleri ve halkın adalet sistemine güven duyması için aşağıdakilerden hangisi uygulanmıştır?",
+    "o": [
+      "Kadıların halk tarafından seçilmesi",
+      "Hükümdarın kadı kararlarına müdahale etmemesi",
+      "Kadıların merkezden atanarak maaş alması",
+      "Kadıların sadece askerlere bakması",
+      "Kadıların vakıf gelirleri ile geçinmesi"
+    ],
+    "a": 2,
+    "e": "Doğru cevap C. Kadıların bağımsızlığı için merkezden atanmaları ve devletten maaş almaları esastır. Bu durum, yargının idari baskıdan uzak tutulmasını sağlamıştır.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:40.128Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:33:34.892Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Cevap tarihsel gerçeklik ve KPSS kaynaklarıyla uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru, yargı bağımsızlığı ilkesiyle mantıksal bir bağ kurmaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS Genel Kültür Tarih seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyini ölçen, standart bir sınav sorusudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "D şıkkı (kadıların sadece askerlere bakması) tarihsel olarak yanlıştır, kadılar askerlere değil halka bakar. Çeldirici olarak zayıf kalmıştır.",
+          "suggestion": "D şıkkı 'Kadıların hükümdar tarafından görevden alınamaması' gibi daha güçlü bir çeldirici ile değiştirilebilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterlidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir etik sorun yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "İlk Müslüman Türk Devletleri konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılıdır.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru, KPSS formatına uygun ve doğru bir bilgiye dayanmaktadır; ancak çeldiricilerin tarihsel gerçeklikle daha uyumlu hale getirilmesi soru kalitesini artıracaktır."
+    },
+    "updatedAt": "2026-05-17T03:33:34.893Z"
+  },
+  {
+    "id": "kpss_3",
+    "topicId": "ilk-musluman-turk-devletleri",
+    "subtopicId": "kultur-medeniyet",
+    "subtopic": "KÜLTÜR VE MEDENİYET",
+    "q": "I. Hükümdarın mutlak otoritesini temsil etmesi\nII. Toprağın devlete ait olduğunu kanıtlaması\nIII. Askeri ve idari giderlerin hazineye yük olmadan karşılanması\nYukarıdakilerden hangileri, Türk-İslam devletlerinde uygulanan İkta sisteminin temel amaçları arasında yer alır?",
+    "o": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "a": 3,
+    "e": "Doğru cevap D. İkta sistemi, toprağın işlenmesini sağlamak, üretimi artırmak ve devletin merkez hazinesine yük olmadan ordu ihtiyacının karşılanmasını hedefleyen bir yöntemdir.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:40.128Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:33:46.261Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "İkta sistemi, mülkiyeti devlete ait olan toprağın işletilmesi ve hazineye yük olmadan asker beslenmesini amaçlar. I. öncül hükümdarın otoritesiyle doğrudan ilgili değildir.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Öncüller ve cevap anahtarı arasında mantıksal bir tutarsızlık yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS formatına ve zorluk düzeyine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "İkta sisteminin temel işlevlerini ayırt etme becerisini ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "I. öncülün neden yanlış olduğu veya neden çeldirici olarak kullanıldığı zayıf kalmış.",
+          "suggestion": "I. öncül yerine 'Merkezi otoriteyi güçlendirmek' gibi daha güçlü bir çeldirici eklenebilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik bir hata bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": true,
+          "explanation": "Açıklama, I. öncülün neden dahil edilmediğine dair bir bilgi içermiyor.",
+          "suggestion": "Açıklamaya 'I. öncül, İkta sisteminin doğrudan bir amacı değil, sistemin bir sonucu veya devletin genel yapısıyla ilgili bir durumdur' ifadesi eklenmelidir."
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Konu ile tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılı ancak açıklama kısmı geliştirilmelidir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru, KPSS standartlarına uygun ve doğru kurgulanmış bir bilgi sorusudur. Sadece açıklama kısmının, elenen öncülün neden yanlış olduğunu daha net ifade edecek şekilde genişletilmesi önerilir."
+    },
+    "updatedAt": "2026-05-17T03:33:46.263Z"
+  },
+  {
+    "id": "kpss_4",
+    "topicId": "ilk-musluman-turk-devletleri",
+    "subtopicId": "siyasi-tarih",
+    "subtopic": "SİYASİ TARİH",
+    "q": "Aşağıdakilerden hangisi, Büyük Selçuklu Devleti'nin yıkılış nedenleri arasında yer almaz?",
+    "o": [
+      "Katvan Savaşı'nın kaybedilmesi",
+      "Oğuzların devlete küstürülmesi",
+      "Atabeylerin bağımsızlıklarını ilan etmesi",
+      "Batınilik faaliyetlerinin artması",
+      "Bizans ile yapılan Malazgirt Savaşı"
+    ],
+    "a": 4,
+    "e": "Doğru cevap E. Malazgirt Savaşı Büyük Selçuklu Devleti'nin zaferidir ve devletin yükselme dönemini başlatmıştır. Diğer şıklar devletin yıkılış sürecini hızlandıran etkenlerdir.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:40.128Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:33:49.448Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap E seçeneğidir, tarihsel olarak doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru mantıksal bir kurguya sahiptir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyini ölçen standart bir sorudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "E şıkkı çok belirgin bir doğru cevaptır, çeldiriciliği düşüktür.",
+          "suggestion": "E şıkkı yerine daha yakın tarihli veya yıkılış süreciyle karıştırılabilecek bir olay (örneğin: Dandanakan Savaşı) konulabilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik bir hata bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterlidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Konu ile tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak kullanılabilir düzeydedir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Geçerli",
+      "score": 8,
+      "summary": "Soru, KPSS standartlarına uygun ve doğru bir bilgi ölçmektedir; ancak çeldiricilerin ayırt ediciliği artırılabilir."
+    },
+    "updatedAt": "2026-05-17T03:33:49.449Z"
+  },
+  {
+    "id": "kpss_5",
+    "topicId": "ilk-musluman-turk-devletleri",
+    "subtopicId": "bilim-dunyasi",
+    "subtopic": "BİLİM DÜNYASI",
+    "q": "Hükümdar Alp Arslan'a sunduğu 'Siyasetname' adlı eseriyle devlet yönetimi, adalet, ordu ve halkla ilişkiler konusunda önemli tavsiyelerde bulunan ünlü vezir aşağıdakilerden hangisidir?",
+    "o": [
+      "Nizamülmülk",
+      "Farabi",
+      "İbn-i Sina",
+      "Harezmi",
+      "Utbi"
+    ],
+    "a": 0,
+    "e": "Doğru cevap A. Nizamiye medreselerinin kurucusu olan Nizamülmülk, yazdığı Siyasetname ile Türk-İslam devlet yönetimine dair temel ilkeleri belirlemiş ve devlete yol göstermiştir.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:40.128Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:33:52.219Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap Nizamülmülk'tür.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru mantıksal bir bilgiye dayanmaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Doğrudan bilgi ölçen bir sorudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Çeldiriciler (Farabi, İbn-i Sina, Harezmi, Utbi) Nizamülmülk ile aynı dönemde veya aynı alanda (siyasetname yazarlığı) güçlü çeldiriciler değildir.",
+          "suggestion": "Çeldiriciler arasına Siyasetname türünde eser vermiş veya aynı dönemde yaşamış başka vezirler (örneğin; Yusuf Has Hacib gibi) eklenebilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik bir hata bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterlidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "İlk Müslüman Türk Devletleri konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak kullanılabilir ancak çeldiriciler güçlendirilebilir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru bilgi düzeyi açısından KPSS standartlarına uygundur ancak çeldiricilerin konuyla daha ilişkili isimlerden seçilmesi sorunun ayırt ediciliğini artıracaktır."
+    },
+    "updatedAt": "2026-05-17T03:33:52.220Z"
+  },
+  {
+    "id": "kpss_6",
+    "topicId": "ilk-musluman-turk-devletleri",
+    "subtopicId": "sanat-mimari",
+    "subtopic": "SANAT VE MİMARİ",
+    "q": "Türk-İslam mimarisinde özellikle türbe ve anıt mezarlarda görülen, Orta Asya'daki Türk çadır geleneğinin taşa yansımış hali olarak nitelendirilen mimari yapı türü aşağıdakilerden hangisidir?",
+    "o": [
+      "Kümbet",
+      "Ribat",
+      "Kervansaray",
+      "Darüşşifa",
+      "Bedesten"
+    ],
+    "a": 0,
+    "e": "Doğru cevap A. Kümbetler, Türklerin çadır formundaki mezar geleneklerini İslamiyet sonrası taşa uyarladıkları özgün yapılardır. Diğerleri işlevsel veya ticari yapılardır.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:40.128Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:33:55.314Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap Kümbet'tir, tarihsel ve mimari açıdan doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve tanımlayıcıdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru, tanım ile kavram arasında mantıksal bir bağ kurmaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine tam uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyini ölçen, ayırt edici bir sorudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Çeldiriciler (Ribat, Kervansaray, Darüşşifa, Bedesten) işlevsel olarak birbirinden çok farklıdır. Hepsi mimari yapı olsa da, 'çadır geleneği' vurgusuyla doğrudan ilişkili değillerdir.",
+          "suggestion": "Çeldiriciler arasına 'Türbe' gibi daha yakın kavramlar eklenebilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterli ve bilgilendiricidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "İlk Müslüman Türk Devletleri mimarisi konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılıdır.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Geçerli",
+      "score": 9,
+      "summary": "Soru, KPSS formatına uygun, net ve doğru bir bilgi sorusudur. Çeldiricilerin biraz daha güçlendirilmesi sorunun ayırt ediciliğini artırabilir."
+    },
+    "updatedAt": "2026-05-17T03:33:55.315Z"
+  },
+  {
+    "id": "kpss_7",
+    "topicId": "ilk-musluman-turk-devletleri",
+    "subtopicId": "bilim-dunyasi",
+    "subtopic": "BİLİM DÜNYASI",
+    "q": "İslam dünyasında 'Muallim-i Sani' (İkinci Öğretmen) olarak bilinen ve Aristo felsefesini İslam dünyasına tanıtan, 'İhsaü'l-Ulûm' adlı eseriyle bilimleri sınıflandıran düşünür kimdir?",
+    "o": [
+      "Farabi",
+      "İbn-i Rüşd",
+      "Gazali",
+      "Biruni",
+      "İbn-i Haldun"
+    ],
+    "a": 0,
+    "e": "Doğru cevap A. Farabi, mantık ve felsefe alanındaki çalışmalarıyla Muallim-i Sani unvanını almış, bilimlerin sınıflandırılması konusunda öncü bir eser kaleme almıştır.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:40.128Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:33:57.593Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap Farabi'dir, bilgi doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kendi içinde tutarlıdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS Tarih/Kültür Medeniyet konusu için uygun bir bilgi sorusudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Doğrudan bilgi hatırlama düzeyinde bir sorudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": false,
+          "explanation": "Şıklar aynı dönem veya yakın alan düşünürlerinden seçildiği için çeldiriciliği yüksektir.",
+          "suggestion": ""
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterlidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "İlk Müslüman Türk Devletleri kültür-medeniyet konusu ile tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru sınav formatına uygundur.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Geçerli",
+      "score": 10,
+      "summary": "Soru, KPSS formatına uygun, net ve çeldiricileri güçlü bir bilgi sorusudur. Herhangi bir hata içermemektedir."
+    },
+    "updatedAt": "2026-05-17T03:33:57.594Z"
+  },
+  {
+    "id": "kpss_8",
+    "topicId": "ilk-musluman-turk-devletleri",
+    "subtopicId": "siyasi-tarih",
+    "subtopic": "SİYASİ TARİH",
+    "q": "Tolunoğulları ve İhşidiler gibi Mısır'da kurulan Türk devletlerinin kısa sürede yıkılmalarında, halkın büyük çoğunluğunun Arap olması ve yönetici kadronun Türk olması etkili olmuştur. Bu durum, devletlerin hangi özelliğiyle açıklanabilir?",
+    "o": [
+      "Ekonomik zayıflık",
+      "Askeri yetersizlik",
+      "Ulusal bir devlet yapısına sahip olamama",
+      "Dış baskılar",
+      "Taht kavgaları"
+    ],
+    "a": 2,
+    "e": "Doğru cevap C. Yönetilen halk ile yöneten kesimin etnik köken farkı, devletin tabana yayılamamasına ve ulusal bir bütünlük kurulamamasına neden olmuştur.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:40.128Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:33:59.996Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Cevap tarihsel gerçeklik ve akademik literatürle uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Öncül ile sonuç arasında mantıksal bir bağ kurulmuştur.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgiyi yorumlama becerisini ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Çeldiriciler biraz zayıf kalmıştır; 'ulusal devlet' kavramı orta çağ devletleri için tartışmalı bir terimdir.",
+          "suggestion": "Çeldiriciler daha güçlü ve akademik terminolojiye uygun hale getirilebilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik bir hata bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterlidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Herhangi bir önyargı veya etik sorun içermemektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "Konu ile tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılıdır.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Geçerli",
+      "score": 9,
+      "summary": "Soru, İlk Müslüman Türk Devletleri konusunu analiz etme becerisini ölçen, teknik açıdan başarılı bir sorudur. Sadece 'ulusal devlet' kavramının orta çağ bağlamında kullanımı akademik olarak daha dikkatli seçilebilir."
+    },
+    "updatedAt": "2026-05-17T03:33:59.997Z"
+  },
+  {
+    "id": "kpss_9",
+    "topicId": "ilk-musluman-turk-devletleri",
+    "subtopicId": "sosyal-yapi",
+    "subtopic": "SOSYAL YAPI",
+    "q": "İlk Türk-İslam devletlerinde ticaret yolları üzerinde kurulan, tüccarların güvenliğini ve konaklamasını sağlayan, aynı zamanda devletin haberleşme ağına katkıda bulunan yapılar hangisidir?",
+    "o": [
+      "Kervansaray",
+      "İmarethane",
+      "Tabhane",
+      "Arasta",
+      "Kışla"
+    ],
+    "a": 0,
+    "e": "Doğru cevap A. Kervansaraylar, ticaretin gelişmesi ve güvenliğin korunması amacıyla inşa edilmiş, Türk-İslam devletlerinin ekonomik kalkınmasında kilit rol oynamıştır.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:40.128Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:34:03.572Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": false,
+          "explanation": "Doğru cevap kervansaraydır, bilgi doğrudur.",
+          "suggestion": ""
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü net ve anlaşılırdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Dil bilgisi kurallarına uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru mantıksal bir kurguya sahiptir.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Temel bir bilgi düzeyini ölçmektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": true,
+          "explanation": "Çeldiriciler (İmarethane, Tabhane, Arasta) konuyla ilgili olsa da 'Kışla' terimi İlk Türk-İslam devletleri terminolojisinde pek kullanılmaz, daha çok Osmanlı'ya özgü bir terimdir.",
+          "suggestion": "Kışla yerine 'Bedesten' veya 'Darüşşifa' gibi daha akademik ve konuyla uyumlu bir çeldirici kullanılabilir."
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik format standartlara uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama yeterlidir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "İlk Müslüman Türk Devletleri konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılıdır.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru, KPSS formatına uygun ve doğru bir bilgi içermektedir; ancak çeldiricilerden 'Kışla' yerine daha uygun bir mimari terim seçilerek sorunun akademik kalitesi artırılabilir."
+    },
+    "updatedAt": "2026-05-17T03:34:03.574Z"
+  },
+  {
+    "id": "kpss_10",
+    "topicId": "ilk-musluman-turk-devletleri",
+    "subtopicId": "hukuk-sistemi",
+    "subtopic": "HUKUK SİSTEMİ",
+    "q": "Türk-İslam devletlerinde örfi hukuk kurallarını düzenleyen ve sultanın başkanlık ettiği en yüksek mahkeme aşağıdakilerden hangisidir?",
+    "o": [
+      "Divan-ı Mezalim",
+      "Divan-ı Berid",
+      "Divan-ı Arz",
+      "Divan-ı Tuğra",
+      "Divan-ı İnşa"
+    ],
+    "a": 0,
+    "e": "Doğru cevap A. Divan-ı Mezalim, halkın şikayetlerinin dinlendiği ve haksızlıkların giderildiği, sultanın başkanlık ettiği en yüksek yargı organıdır.",
+    "_part": 1,
+    "_generatedAt": "2026-05-17T03:32:40.128Z",
+    "_analyzed": true,
+    "_analyzedAt": "2026-05-17T03:34:09.037Z",
+    "_analysisResult": {
+      "criteria": [
+        {
+          "id": 1,
+          "name": "Doğru Cevap Doğruluğu",
+          "hasError": true,
+          "explanation": "Divan-ı Mezalim, şeri ve örfi hukukun uygulandığı en yüksek mahkemedir ancak soru 'örfi hukuk kurallarını düzenleyen' ifadesiyle sınırlandırılmıştır. Divan-ı Mezalim daha çok 'haksızlıkların giderildiği' bir üst yargı organıdır.",
+          "suggestion": "Soru kökü 'halkın şikayetlerinin dinlendiği ve haksızlıkların giderildiği en yüksek yargı organı' şeklinde güncellenmelidir."
+        },
+        {
+          "id": 2,
+          "name": "Soru Kökü Açıklığı",
+          "hasError": false,
+          "explanation": "Soru kökü anlaşılır ancak 'örfi hukuk kurallarını düzenleyen' ifadesi teknik olarak tartışmaya açıktır.",
+          "suggestion": ""
+        },
+        {
+          "id": 3,
+          "name": "Yazım, Noktalama ve Anlatım Hataları",
+          "hasError": false,
+          "explanation": "Yazım ve noktalama hatası bulunmamaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 4,
+          "name": "Mantık ve Tutarlılık",
+          "hasError": false,
+          "explanation": "Soru kendi içinde tutarlıdır.",
+          "suggestion": ""
+        },
+        {
+          "id": 5,
+          "name": "KPSS Müfredat ve Seviye Uygunluğu",
+          "hasError": false,
+          "explanation": "KPSS müfredatına ve zorluk seviyesine uygundur.",
+          "suggestion": ""
+        },
+        {
+          "id": 6,
+          "name": "Ölçme-Değerlendirme Kalitesi",
+          "hasError": false,
+          "explanation": "Bilgi düzeyinde bir ölçme yapmaktadır.",
+          "suggestion": ""
+        },
+        {
+          "id": 7,
+          "name": "Şıkların ve Çeldiricilerin Kalitesi",
+          "hasError": false,
+          "explanation": "Çeldiriciler diğer divanlardan seçilerek homojen bir yapı oluşturulmuştur.",
+          "suggestion": ""
+        },
+        {
+          "id": 8,
+          "name": "Teknik Biçim Hataları",
+          "hasError": false,
+          "explanation": "Teknik bir hata yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 9,
+          "name": "Açıklama Kalitesi",
+          "hasError": false,
+          "explanation": "Açıklama doğru cevabı desteklemektedir.",
+          "suggestion": ""
+        },
+        {
+          "id": 10,
+          "name": "Tarafsızlık ve Etik Uygunluk",
+          "hasError": false,
+          "explanation": "Etik bir sorun yoktur.",
+          "suggestion": ""
+        },
+        {
+          "id": 11,
+          "name": "Konu Uygunluğu",
+          "hasError": false,
+          "explanation": "İlk Müslüman Türk Devletleri konusuyla tam uyumludur.",
+          "suggestion": ""
+        },
+        {
+          "id": 12,
+          "name": "Genel Karar",
+          "hasError": false,
+          "explanation": "Soru genel olarak başarılıdır ancak soru kökündeki ifade netleştirilmelidir.",
+          "suggestion": ""
+        }
+      ],
+      "verdict": "Küçük düzeltme gerekli",
+      "score": 8,
+      "summary": "Soru genel olarak KPSS formatına uygun ve başarılıdır; ancak 'örfi hukuk kurallarını düzenleyen' ifadesi yerine 'haksızlıkların giderildiği en yüksek yargı organı' ifadesinin kullanılması soruyu daha akademik ve hatasız kılacaktır."
+    },
+    "updatedAt": "2026-05-17T03:34:09.038Z"
+  }
+]
