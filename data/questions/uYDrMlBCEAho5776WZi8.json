@@ -1140,25 +1140,6 @@
         "_analyzedAt": "2026-05-04T20:41:01.416Z"
     },
     {
-        "id": "cog_072",
-        "topicId": "uYDrMlBCEAho5776WZi8",
-        "subtopicId": "kirsal-yerlesme",
-        "subtopic": "Türkiye'de Kırsal Yerleşmeler",
-        "q": "Türkiye'de köy altı yerleşmeleri, ekonomik faaliyetlerin süresine göre sürekli ve geçici yerleşmeler olarak ikiye ayrılmaktadır.\n\nBuna göre, aşağıda verilen köy altı yerleşmelerinden hangisi **süreklilik** özelliği bakımından diğerlerinden farklıdır?",
-        "o": [
-            "Mahalle",
-            "Divan",
-            "Mezra",
-            "Çiftlik",
-            "Kom"
-        ],
-        "a": 4,
-        "e": "Türkiye'deki köy altı yerleşmeleri süreklilik durumuna göre sınıflandırılır. Mahalle, Divan, Mezra ve Çiftlik yerleşmeleri tarımsal faaliyetlerin ön planda olduğu ve yıl boyu ikamet edilen 'sürekli' yerleşmelerdir. Ancak 'Kom' yerleşmeleri (ve ayrıca Yayla, Ağıl, Oba gibi), genellikle hayvancılık faaliyetleri için yaz aylarında kullanılan 'geçici' yerleşmeler grubunda yer alır.",
-        "_part": 72,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-04T20:41:06.305Z"
-    },
-    {
         "id": "cog_073",
         "topicId": "uYDrMlBCEAho5776WZi8",
         "subtopicId": "turkiye-goc",
