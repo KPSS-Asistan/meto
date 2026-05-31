@@ -1026,25 +1026,6 @@
         "_analyzedAt": "2026-05-04T20:40:35.887Z"
     },
     {
-        "id": "cog_066",
-        "topicId": "uYDrMlBCEAho5776WZi8",
-        "subtopicId": "enerji-kaynaklari",
-        "subtopic": "Alternatif Enerji Kaynakları",
-        "q": "Türkiye'de yenilenebilir enerji kaynaklarının kullanımı giderek yaygınlaşmaktadır. Jeotermal enerji potansiyeli, ülkenin tektonik yapısıyla doğrudan ilişkilidir.\n\nBuna göre, fay hatlarının dağılışı göz önüne alındığında aşağıdaki bölgelerin hangisinde jeotermal enerji santrali kurulum potansiyeli en yüksektir?",
-        "o": [
-            "Yıldız Dağları Bölümü",
-            "Doğu Karadeniz Bölümü",
-            "Kıyı Ege Bölümü",
-            "Mardin Eşiği",
-            "Konya Kapalı Havzası"
-        ],
-        "a": 2,
-        "e": "Jeotermal enerji, kırıklı yer yapısının (fay hatlarının) bulunduğu alanlarda sıcak suyun yeryüzüne çıkmasıyla elde edilir. Türkiye'de Batı Anadolu Fay Hattı üzerindeki Kıyı Ege Bölümü (özellikle Aydın, Denizli, Manisa çevresindeki graben sahaları), jeotermal potansiyelin ve kurulu gücün en yüksek olduğu bölgedir. Yıldız Dağları, Mardin Eşiği ve Konya Ovası gibi alanlar deprem riskinin ve jeotermal potansiyelin düşük olduğu masif veya oturmuş arazilerdir.",
-        "_part": 66,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-04T20:40:41.687Z"
-    },
-    {
         "id": "cog_067",
         "topicId": "uYDrMlBCEAho5776WZi8",
         "subtopicId": "bolgesel-kalkinma",

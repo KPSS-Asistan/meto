@@ -23177,5 +23177,23 @@
         "e": "Doğru cevap D. Haçlı Seferleri 11. yüzyılda başlamıştır, Kavimler Göçü dönemiyle ilgili değildir.",
         "_part": 1,
         "_generatedAt": "2026-05-22T03:58:45.520Z"
+    },
+    {
+        "id": "JnFbEQ_1779422255183_3",
+        "topicId": "JnFbEQt0uA8RSEuy22SQ",
+        "subtopicId": "gokturk",
+        "subtopic": "Göktürk Devleti",
+        "q": "I. Orta Asya'da kurulan ilk Türk devletidir.\nII. Çin ile diplomatik ilişkiler kurmuştur.\nIII. İpek Yolu üzerinde denetim sağlamıştır.\nYukarıdaki yargılardan hangileri I. Göktürk Devleti için doğrudur?",
+        "o": [
+            "Yalnız I",
+            "Yalnız II",
+            "I ve II",
+            "II ve III",
+            "I, II ve III"
+        ],
+        "a": 3,
+        "e": "Doğru cevap D. I. Göktürk Devleti ilk Türk devleti değildir (Hunlar vardır), bu nedenle I yanlıştır; II ve III doğrudur.",
+        "_part": 1,
+        "_generatedAt": "2026-05-22T03:58:45.520Z"
     }
 ]

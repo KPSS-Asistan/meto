@@ -1275,23 +1275,6 @@
         "_part": 81
     },
     {
-        "id": "tur_82_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "SM-32",
-        "subtopic": "Sözel Mantık",
-        "q": "Şehir senaryosuna göre, Can nereye gitmiş olabilir?",
-        "o": [
-            "Ankara",
-            "Bursa",
-            "İstanbul",
-            "Sadece İzmir",
-            "İstanbul veya İzmir"
-        ],
-        "a": 4,
-        "e": "Veli ve Can, İstanbul ve İzmir'i paylaşırlar.",
-        "_part": 82
-    },
-    {
         "id": "tur_83_1Q7S",
         "topicId": "1Q7SADACD2BP",
         "subtopicId": "SM-33",
