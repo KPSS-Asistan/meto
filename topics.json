@@ -1,0 +1,492 @@
+[
+  {
+    "id": "JnFbEQt0uA8RSEuy22SQ",
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "İslamiyet Öncesi Türk Tarihi",
+    "description": "",
+    "order": 0,
+    "question_count": 204,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "9Hg8tuMRdMTuVY7OZ9HL",
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "İlk Müslüman Türk Devletleri",
+    "description": "",
+    "order": 1,
+    "question_count": 197,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "8aIrKLvItXrwvOHq1L34",
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "Türkiye Selçuklu Devleti",
+    "description": "Anadolu Selçuklu Tarihi ve Kültür-Medeniyet",
+    "order": 2,
+    "question_count": 242,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "JU0iGKNhR7NQzA8M77vt",
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "Osmanlı Devleti Tarihi (Siyasi)",
+    "description": "Osmanlı Siyasi Tarihi, Fetihler ve Önemli Olaylar",
+    "order": 3,
+    "question_count": 231,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "9WTotPoDW5OuWxsCf4Li",
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "Osmanlı Devleti Tarihi (Kültür)",
+    "description": "Osmanlı Devleti Kuruluş ve Kültür - Medeniyet",
+    "order": 4,
+    "question_count": 108,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "DlT19snCttf5j5RUAXLz",
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "Kurtuluş Savaşı Dönemi",
+    "description": "",
+    "order": 5,
+    "question_count": 217,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "4GUvpqBBImcLmN2eh1HK",
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "Atatürk İlke ve İnkılapları",
+    "description": "",
+    "order": 6,
+    "question_count": 162,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "onwrfsH02TgIhlyRUh56",
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "Cumhuriyet Dönemi",
+    "description": "",
+    "order": 7,
+    "question_count": 151,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "xQWHl1hBYAKM96X4deR8",
+    "lesson_id": "caZ5LwfH3QJrBVUQCros",
+    "name": "Çağdaş Türk ve Dünya Tarihi",
+    "description": "",
+    "order": 8,
+    "question_count": 264,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "80e0wkTLvaTQzPD6puB7",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Ses Bilgisi",
+    "description": "",
+    "order": 0,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "yWlh5C6jB7lzuJOodr2t",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Yapı Bilgisi",
+    "description": "",
+    "order": 1,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "ICNDiSlTmmjWEQPT6rmT",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Sözcük Türleri",
+    "description": "",
+    "order": 2,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "JmyiPxf3n96Jkxqsa9jY",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Sözcükte Anlam",
+    "description": "",
+    "order": 3,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "AJNLHhhaG2SLWOvxDYqW",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Cümlede Anlam",
+    "description": "",
+    "order": 4,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "nN8JOTR7LZm01AN2i3sQ",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Paragrafta Anlam",
+    "description": "",
+    "order": 5,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "jXcsrl5HEb65DmfpfqqI",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Anlatım Bozuklukları",
+    "description": "",
+    "order": 6,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "qSEqigIsIEBAkhcMTyCE",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Yazım Kuralları ve Noktalama İşaretleri",
+    "description": "",
+    "order": 7,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "wnt2zWaV1pX8p8s8BBc9",
+    "lesson_id": "L3i1Rqv2LN3AKFFejuUg",
+    "name": "Sözel Mantık ve Akıl Yürütme",
+    "description": "",
+    "order": 8,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "1FEcPsGduhjcQARpaGBk",
+    "lesson_id": "A779wvZWQcbvanmbS8Qz",
+    "name": "Türkiye'nin Coğrafi Konumu",
+    "description": "",
+    "order": 0,
+    "question_count": 90,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "kbs0Ffved9pCP3Hq9M9k",
+    "lesson_id": "A779wvZWQcbvanmbS8Qz",
+    "name": "Türkiye'nin Fiziki Özellikleri",
+    "description": "",
+    "order": 1,
+    "question_count": 108,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "6e0Thsz2RRNHFcwqQXso",
+    "lesson_id": "A779wvZWQcbvanmbS8Qz",
+    "name": "Türkiye'nin İklimi ve Bitki Örtüsü",
+    "description": "",
+    "order": 2,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "uYDrMlBCEAho5776WZi8",
+    "lesson_id": "A779wvZWQcbvanmbS8Qz",
+    "name": "Beşeri Coğrafya",
+    "description": "",
+    "order": 3,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "WxrtQ26p2My4uJa0h1kk",
+    "lesson_id": "A779wvZWQcbvanmbS8Qz",
+    "name": "Ekonomik Coğrafya",
+    "description": "",
+    "order": 4,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "GdpN8uxJNGtexWrkoL1T",
+    "lesson_id": "A779wvZWQcbvanmbS8Qz",
+    "name": "Türkiye'nin Coğrafi Bölgeleri",
+    "description": "",
+    "order": 5,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "AQ0Zph76dzPdr87H1uKa",
+    "lesson_id": "2ztkqV35cWjGRkhYRutg",
+    "name": "Hukuka Giriş",
+    "description": "",
+    "order": 0,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "n4OjWupHmouuybQzQ1Fc",
+    "lesson_id": "2ztkqV35cWjGRkhYRutg",
+    "name": "Anayasa Hukuku",
+    "description": "",
+    "order": 1,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "xXGXiqx2TkCtI4C7GMQg",
+    "lesson_id": "2ztkqV35cWjGRkhYRutg",
+    "name": "1982 Anayasası Temel İlkeleri",
+    "description": "",
+    "order": 2,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "1JZAYECyEn7farNNyGyx",
+    "lesson_id": "2ztkqV35cWjGRkhYRutg",
+    "name": "Devlet Organları",
+    "description": "",
+    "order": 3,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "lv93cmhwq7RmOFM5WxWD",
+    "lesson_id": "2ztkqV35cWjGRkhYRutg",
+    "name": "İdari Yapı",
+    "description": "",
+    "order": 4,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "Bo3qqooJsqtIZrK5zc9S",
+    "lesson_id": "2ztkqV35cWjGRkhYRutg",
+    "name": "Temel Hak ve Özgürlükler",
+    "description": "Kişi hakları, sosyal ve ekonomik haklar",
+    "order": 5,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "GUNCEL_BM_KURULUS",
+    "lesson_id": "guncel_bilgiler",
+    "name": "Birleşmiş Milletler ve Bağlı Kuruluşlar",
+    "description": "BM, UNESCO, UNICEF, WHO, IMF, Dünya Bankası",
+    "order": 0,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "GUNCEL_NATO_AB",
+    "lesson_id": "guncel_bilgiler",
+    "name": "NATO ve Avrupa Birliği",
+    "description": "NATO yapısı, AB kurumları, üyelik süreçleri",
+    "order": 1,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "GUNCEL_BOLGESEL_KURULUS",
+    "lesson_id": "guncel_bilgiler",
+    "name": "Bölgesel ve Ekonomik Kuruluşlar",
+    "description": "G20, BRICS, Şangay, İİT, Türk Konseyi",
+    "order": 2,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "GUNCEL_TURKIYE_KURULUS",
+    "lesson_id": "guncel_bilgiler",
+    "name": "Türkiye'nin Üye Olduğu Kuruluşlar",
+    "description": "Türkiye'nin uluslararası üyelikleri",
+    "order": 3,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "GUNCEL_ONEMLI_TARIHLER",
+    "lesson_id": "guncel_bilgiler",
+    "name": "Önemli Tarihler ve Günler",
+    "description": "Ulusal ve uluslararası önemli günler",
+    "order": 4,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_TEMEL_KAVRAMLAR",
+    "lesson_id": "MATEMATIK001",
+    "name": "Temel Kavramlar ve Sayı Basamakları",
+    "description": "Doğal sayılar, tam sayılar, basamak değeri ve çözümleme",
+    "order": 0,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_BOLUNEEBILME",
+    "lesson_id": "MATEMATIK001",
+    "name": "Bölme ve Bölünebilme Kuralları",
+    "description": "Bölme işlemi ve bölünebilme kuralları",
+    "order": 1,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_ASAL_EBOB_EKOK",
+    "lesson_id": "MATEMATIK001",
+    "name": "Asal Sayılar, Bölen Sayısı, EBOB-EKOK",
+    "description": "Asal sayılar, bölen sayısı, EBOB ve EKOK hesaplamaları",
+    "order": 2,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_RASYONEL_SAYILAR",
+    "lesson_id": "MATEMATIK001",
+    "name": "Rasyonel Sayılar",
+    "description": "Rasyonel sayılar ve rasyonel sayılarla işlemler",
+    "order": 3,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_ESITSIZLIK_MUTLAK",
+    "lesson_id": "MATEMATIK001",
+    "name": "Basit Eşitsizlikler ve Mutlak Değer",
+    "description": "Eşitsizlikler ve mutlak değer problemleri",
+    "order": 4,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_USLU_SAYILAR",
+    "lesson_id": "MATEMATIK001",
+    "name": "Üslü Sayılar",
+    "description": "Üslü sayılar ve üslü sayılarla işlemler",
+    "order": 5,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_KOKLU_SAYILAR",
+    "lesson_id": "MATEMATIK001",
+    "name": "Köklü Sayılar",
+    "description": "Köklü sayılar ve köklü sayılarla işlemler",
+    "order": 6,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_ORAN_ORANTI",
+    "lesson_id": "MATEMATIK001",
+    "name": "Oran ve Orantı",
+    "description": "Oran, orantı ve karışım problemleri",
+    "order": 7,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_DENKLEM_PROBLEMLER",
+    "lesson_id": "MATEMATIK001",
+    "name": "Denklem Çözme ve Problemler",
+    "description": "Birinci dereceden denklemler ve problemler",
+    "order": 8,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_KUMELER",
+    "lesson_id": "MATEMATIK001",
+    "name": "Kümeler",
+    "description": "Kümeler ve kümelerde işlemler",
+    "order": 9,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_FONKSIYONLAR",
+    "lesson_id": "MATEMATIK001",
+    "name": "Fonksiyonlar",
+    "description": "Fonksiyon kavramı ve fonksiyon çeşitleri",
+    "order": 10,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_PERMUTASYON_KOMBINASYON",
+    "lesson_id": "MATEMATIK001",
+    "name": "Permütasyon ve Kombinasyon",
+    "description": "Permütasyon, kombinasyon ve sayma yöntemleri",
+    "order": 11,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_OLASILIK_ISTATISTIK",
+    "lesson_id": "MATEMATIK001",
+    "name": "Olasılık ve İstatistik",
+    "description": "Olasılık hesaplamaları ve istatistiksel kavramlar",
+    "order": 12,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "MAT_ORUNTU_PROBLEMLERI",
+    "lesson_id": "MATEMATIK001",
+    "name": "Sayı ve Şekil Örüntüleri",
+    "description": "Sayı örüntüleri ve şekil örüntüleri problemleri",
+    "order": 13,
+    "question_count": 0,
+    "created_at": "2025-01-01T00:00:00.000Z",
+    "updated_at": "2025-01-01T00:00:00.000Z"
+  }
+]

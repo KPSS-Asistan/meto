@@ -1,0 +1,266 @@
+[
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Birinci Dereceden Denklem",
+    "answer": "Bir bilinmeyenli, en büyük üssü 1 olan denklem",
+    "id": "match_1776016983926_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bilinmeyen",
+    "answer": "Değeri bulunması gereken değişken",
+    "id": "match_1776015723069_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:42:19.708Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Oran",
+    "answer": "İki çokluğun birbirine bölünerek karşılaştırılması",
+    "id": "match_1776016983926_7",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Orantı",
+    "answer": "İki veya daha fazla oranın eşitliği",
+    "id": "match_1776016983926_8",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Doğru Orantı",
+    "answer": "Bir çokluk artarken diğerinin de aynı oranda artması",
+    "id": "match_1776016983926_9",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Ters Orantı",
+    "answer": "Bir çokluk artarken diğerinin aynı oranda azalması",
+    "id": "match_1776016983926_10",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Yüzde Problemi",
+    "answer": "Bir bütünün 100 parçadan kaçını ifade ettiği",
+    "id": "match_1776015723069_7",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:42:19.708Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Kar-Zarar Problemi",
+    "answer": "Maliyet ve satış fiyatı arasındaki fark",
+    "id": "match_1776015723069_8",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:42:19.708Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Hız Problemi",
+    "answer": "Yol eşittir hız çarpı zaman formülü",
+    "id": "match_1776015723069_9",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:42:19.708Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "İşçi Problemi",
+    "answer": "Birim zamanda yapılan iş kapasitesi",
+    "id": "match_1776015723069_10",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:42:19.708Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Yaş Problemi",
+    "answer": "İki kişi arasındaki yaş farkının sabit kalması",
+    "id": "match_1776015723069_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:42:19.708Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Karışım Problemi",
+    "answer": "Saf madde bölü toplam karışım oranı",
+    "id": "match_1776015723069_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:42:19.708Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Maliyet Fiyatı",
+    "answer": "Bir ürünün alış veya üretim gideri",
+    "id": "match_1776015723069_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:42:19.708Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Etiket Fiyatı",
+    "answer": "Ürün üzerine yazılan satış fiyatı",
+    "id": "match_1776015723069_14",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:42:19.708Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "İndirim",
+    "answer": "Etiket fiyatı üzerinden yapılan değer düşüşü",
+    "id": "match_1776015723069_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:42:19.708Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Katsayı",
+    "answer": "Değişkenin önündeki çarpım durumundaki sayı",
+    "id": "match_1776016983926_20",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Sabit Terim",
+    "answer": "Değişken içermeyen sayısal ifade",
+    "id": "match_1776016983926_4",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Denklem Sistemi",
+    "answer": "Birden fazla bilinmeyeni olan denklem grubu",
+    "id": "match_1776015723069_18",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:42:19.708Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Faiz Problemi",
+    "answer": "Anapara, faiz oranı ve zaman ilişkisi",
+    "id": "match_1776015723069_19",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:42:19.708Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Ortalama Hız",
+    "answer": "Toplam yolun toplam zamana oranı",
+    "id": "match_1776015723069_20",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:42:19.708Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "İkinci Dereceden Denklem",
+    "answer": "En büyük üssü 2 olan ve ax^2+bx+c=0 şeklinde yazılan denklem",
+    "id": "match_1776016983926_2",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Değişken (Bilinmeyen)",
+    "answer": "Denklemdeki değeri aranan harfli ifade",
+    "id": "match_1776016983926_3",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Denklem Çözümü",
+    "answer": "Bilinmeyenin değerini bulma işlemi",
+    "id": "match_1776016983926_5",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Kök (Çözüm Kümesi)",
+    "answer": "Denklemi sağlayan bilinmeyenin değeri veya değerleri",
+    "id": "match_1776016983926_6",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Yaş Problemleri",
+    "answer": "Kişilerin yaşları arasındaki ilişkileri denklemlerle çözme",
+    "id": "match_1776016983926_11",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Kesir Problemleri",
+    "answer": "Bütünün parçaları arasındaki ilişkileri içeren problemler",
+    "id": "match_1776016983926_12",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Yüzde Problemleri",
+    "answer": "Bir sayının belirli bir yüzdesini bulma veya yüzde değişimini hesaplama",
+    "id": "match_1776016983926_13",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "İşçi Problemleri",
+    "answer": "Bireylerin veya grupların iş yapma hızlarını içeren problemler",
+    "id": "match_1776016983926_14",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Hareket Problemleri",
+    "answer": "Hız, zaman ve yol arasındaki ilişkileri içeren problemler",
+    "id": "match_1776016983926_15",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Karışım Problemleri",
+    "answer": "Farklı oranlardaki maddelerin karıştırılmasıyla ilgili problemler",
+    "id": "match_1776016983926_16",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Sayı Problemleri",
+    "answer": "Sayılar arasındaki ilişkileri denklemlerle ifade etme",
+    "id": "match_1776016983926_17",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Eşitsizlik",
+    "answer": "İki ifade arasında <, >, ≤, ≥ sembollerinden birinin bulunması",
+    "id": "match_1776016983926_18",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Denklem Kurma",
+    "answer": "Problemlerdeki sözel ifadeleri matematiksel denkleme çevirme",
+    "id": "match_1776016983926_19",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T18:03:10.891Z"
+  }
+]

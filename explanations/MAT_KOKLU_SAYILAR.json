@@ -1,0 +1,934 @@
+[
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 1: Köklü Sayıların Tanımı ve Temel Kavramlar",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Köklü Sayıların Tanımı ve Temel Kavramlar"
+      },
+      {
+        "type": "text",
+        "text": "Köklü ifadeler, bir sayının hangi sayının kuvveti olduğunu belirlemek için kullanılan matematiksel yapılardır. Kök derecesi n, kök içindeki ifade x olmak üzere n. dereceden kök x gösterimi ile ifade edilir. Reel sayılarda tanımlı olabilmesi için kök derecesi ve içindeki sayının işaretleri kritik önem taşır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Kök derecesi (n) her zaman doğal sayı ve n ≥ 2 olmalıdır.\n• Kök derecesi çift ise, kök içindeki ifade daima negatif olmayan bir değer almalıdır.\n• Kök derecesi tek ise, kök içindeki ifade tüm reel sayıları alabilir.\n• Tanımsızlık durumu genellikle çift dereceli köklerin içinin negatif olmasıyla oluşur."
+      },
+      {
+        "type": "text",
+        "text": "KPSS matematik sorularında, ifadenin reel sayı belirtmesi sorulduğunda doğrudan çift dereceli köklerin içindeki değerin sıfıra eşit veya büyük olması şartına bakılmalıdır. Bu temel kural, eşitsizlikler ve fonksiyon sorularının çözümünde anahtar rol oynar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kritik Kural: Çift dereceli köklerin içi negatif olamaz; negatiflik durumunda ifade reel sayı değil, karmaşık sayıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000427455_MAT__1",
+    "createdAt": "2026-04-12T13:27:07.455Z",
+    "updatedAt": "2026-04-12T13:27:07.455Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T13:27:19.330Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_0.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 2: Karekök ve Küpkök İlişkisi",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Karekök ve Küpkök İlişkisi"
+      },
+      {
+        "type": "text",
+        "text": "Karekök, bir sayının kendisiyle çarpımının sonucunu bulma işlemidir ve genellikle n=2 durumu olarak adlandırılır. Küpkök ise bir sayının kendisiyle üç kez çarpılması sonucu elde edilen değeri ifade eden n=3 durumudur. Bu iki kavramın işaret analizi açısından birbirinden ayrılması gerekir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Karekök (n=2) sonucu asla negatif olamaz, daima mutlak değerce dışarı çıkar.\n• Küpkök (n=3) işleminde negatif sayıların sonucu negatiftir.\n• Pozitif reel sayılarda hem karekök hem de küpkök işlemleri her zaman pozitiftir.\n• Karekök sembolü genellikle '√' ile gösterilirken, küpkök '³√' şeklinde belirtilir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavlarında genellikle negatif sayıların küpkökü ile pozitif kareköklerin toplamı gibi karmaşık görünen ancak temel kurala dayanan sorular sorulur. Küpkökün negatiften kurtulma özelliği, işlem hatasını önlemek için mutlaka hatırlanmalıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Karekök içindeki bir ifade dışarı çıkarken mutlak değer içinde çıkar, ancak küpkök içindeki sayılar aynen dışarı çıkar."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000427456_MAT__2",
+    "createdAt": "2026-04-12T13:27:07.455Z",
+    "updatedAt": "2026-04-12T13:27:07.455Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T13:27:19.330Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_1.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 3: Köklü İfadelerde Tanımlılık Şartları",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Köklü İfadelerde Tanımlılık Şartları"
+      },
+      {
+        "type": "text",
+        "text": "Bir matematiksel ifadenin tanımlı olması, sonucun bir reel sayıya karşılık gelmesi demektir. Köklü sayılarda tanımlılık, hem kök içindeki ifadenin hem de payda durumundaki ifadelerin incelenmesini gerektirir. KPSS'de 'ifadeyi tanımlı yapan kaç tam sayı değeri vardır' soru tipi oldukça yaygındır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Çift dereceli köklerin içi her zaman ≥ 0 olmalıdır.\n• Payda kısmında köklü ifade varsa, payda asla 0'a eşit olamaz.\n• Tek dereceli köklerde herhangi bir tanımlılık kısıtı bulunmaz.\n• İç içe köklerde en içten başlayarak tüm köklerin tanımlılık şartı sağlanmalıdır."
+      },
+      {
+        "type": "text",
+        "text": "Paydada köklü ifade bulunması durumunda, hem kök içi ≥ 0 hem de kök dışı ≠ 0 şartlarının aynı anda sağlanması gerekir. Bu durum, öğrenciler tarafından sıklıkla unutulan bir kısıt olup, sınavda eleyici soru olarak karşımıza çıkabilmektedir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Uyarı: Payda sıfır olamaz kuralı, köklü ifadeler için de geçerlidir. Kökün kendisi sıfırsa payda tanımsız olur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000427457_MAT__3",
+    "createdAt": "2026-04-12T13:27:07.455Z",
+    "updatedAt": "2026-04-12T13:27:07.455Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T13:27:19.330Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_2.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 4: Köklü Sayıların Üslü Sayı Olarak İfadesi",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Köklü Sayıların Üslü Sayı Olarak İfadesi"
+      },
+      {
+        "type": "text",
+        "text": "Köklü ifadeleri rasyonel üslü sayılar biçiminde yazmak, işlem kolaylığı sağlar ve karmaşık kök problemlerini çözülebilir kılar. n. dereceden x üzeri m ifadesi, x üzeri (m/n) şeklinde gösterilir. Bu dönüşüm, üslü sayılar özelliklerinin köklü sayılara uygulanmasına imkan verir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• n. dereceden kök x = x^(1/n) şeklinde ifade edilir.\n• n. dereceden kök x^m = x^(m/n) kuralı her zaman geçerlidir.\n• Üslü sayıların özellikleri (çarpma, bölme) bu formül ile köklü sayılara taşınır.\n• Kök dışına çıkarma işlemleri bu rasyonel üsler sayesinde daha kolay görülür."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de özellikle kök derecelerini eşitleme veya üslü ifadelerle köklü ifadeleri tek bir tabanda birleştirme soruları için bu yöntem vazgeçilmezdir. Rasyonel üs kavramını iyi kavramak, sınavda zamandan tasarruf etmenizi sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Köklü sayılarda çarpma veya bölme yapmadan önce, ifadeleri rasyonel üslü sayı biçimine çevirmek işlem karmaşasını engeller."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000427458_MAT__4",
+    "createdAt": "2026-04-12T13:27:07.455Z",
+    "updatedAt": "2026-04-12T13:27:07.455Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T13:27:19.330Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_3.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 5: Kök Dışına Çıkarma İşlemleri",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Kök Dışına Çıkarma İşlemleri"
+      },
+      {
+        "type": "text",
+        "text": "Bir köklü sayıyı en sade biçimde yazmak, kök içindeki sayıyı çarpanlarına ayırarak tam kare olanları dışarı çıkarmakla mümkündür. KPSS sınavlarında genellikle kök içindeki ifade tam kare olarak verilir veya çarpanlarına kolayca ayrılması beklenir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Kök içindeki sayı asal çarpanlarına ayrılır.\n• Aynı çarpanlardan n tanesi (kök derecesi n ise) bir tane olarak dışarı çıkar.\n• Tam kare sayılar (4, 9, 16, 25...) kök dışına doğrudan çıkar.\n• Kök derecesi ile üs aynı ise, ifade dışarı çıkarılır."
+      },
+      {
+        "type": "text",
+        "text": "Katsayıyı kök dışına çıkarmak, köklü sayılarda toplama ve çıkarma yapabilmek için ön koşuldur. Öğrencilerin 1'den 20'ye kadar olan sayıların karelerini ezbere bilmesi, sınavda hız kazandıracaktır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Estrategy: Kök içindeki büyük sayıları hemen asal çarpanlarına ayırarak gruplandır, tam kare olanları dışarı aktar."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000427459_MAT__5",
+    "createdAt": "2026-04-12T13:27:07.455Z",
+    "updatedAt": "2026-04-12T13:27:07.455Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T13:27:19.330Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_4.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 6: Kök İçine Alma İşlemleri",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Kök İçine Alma İşlemleri"
+      },
+      {
+        "type": "text",
+        "text": "Kök dışındaki bir katsayıyı kök içine almak, özellikle köklü sayılarda sıralama sorularında kullanılan en temel tekniktir. Bu işlem yapılırken katsayının kök derecesi kadar kuvveti alınarak kök içine dahil edilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• k.n. dereceden kök x = n. dereceden kök (k^n * x) formülü uygulanır.\n• Katsayı negatif ise, sadece mutlak değeri kök içine alınır, negatif işaret dışarıda bırakılır.\n• Çift dereceli köklerde dışarıdaki sayı içeri girerken işareti dikkate alınmalıdır.\n• İşlem sonrası kök içi karşılaştırması çok daha kolay hale gelir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de sıralama sorularında 'kök dışına çıkarma' yerine 'kök içine alma' yapmak çok daha pratiktir. Negatif katsayılarda işaretin kök içine girmemesi gerektiği kuralı, sınavda çeldirici soru olarak çokça kullanılır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: Negatif katsayıyı kök içine alırken işareti kök dışında bırakmayı unutma, aksi takdirde yanlış sonuç alırsın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000427460_MAT__6",
+    "createdAt": "2026-04-12T13:27:07.455Z",
+    "updatedAt": "2026-04-12T13:27:07.455Z",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T13:27:19.330Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_5.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 7: Köklü Sayılarda Sıralama",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Köklü Sayılarda Sıralama"
+      },
+      {
+        "type": "text",
+        "text": "Köklü sayıları sıralamak için öncelikle kök derecelerinin eşitlenmesi veya katsayıların kök içine alınması gerekir. Kök dereceleri eşitlendiğinde, kök içindeki değeri büyük olan sayı daha büyüktür. Bu yöntem, rasyonel ve irrasyonel sayıları kıyaslarken temel yöntemdir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Kök derecelerini (n) en küçük ortak katta (EKOK) eşitle.\n• Katsayıları kök içine alarak kök içindeki değerleri karşılaştır.\n• Negatif köklü sayıları sıralarken pozitif gibi düşünüp, sonra sıralamayı ters çevir.\n• Dereceler eşitlendiğinde kök içi küçük olan daha küçüktür."
+      },
+      {
+        "type": "text",
+        "text": "Sıralama soruları KPSS'de her yıl çıkma potansiyeli yüksek olan konulardandır. Özellikle kök dereceleri farklı olan ifadelerde, dereceleri eşitlemek yerine katsayıları kök içine alıp kıyaslamak çok daha hızlı sonuç verir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Negatif sayılarda sıralama yaparken pozitifmiş gibi sırala, ardından eşitsizlik yönünü değiştir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000427461_MAT__7",
+    "createdAt": "2026-04-12T13:27:07.455Z",
+    "updatedAt": "2026-04-12T13:27:07.455Z",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T13:27:19.330Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_6.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 8: Köklü Sayılarda Toplama ve Çıkarma",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Köklü Sayılarda Toplama ve Çıkarma"
+      },
+      {
+        "type": "text",
+        "text": "Köklü sayılarda toplama ve çıkarma işlemi yapabilmek için köklerin dereceleri ve kök içindeki değerlerin aynı olması gerekir. Benzer terim kavramı, tıpkı cebirsel ifadelerdeki gibi köklü sayılar için de geçerlidir. Sadece kök dışındaki katsayılar toplanır veya çıkarılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Kök dereceleri farklı olan ifadeler doğrudan toplanamaz.\n• Kök içleri aynı değilse, kök dışına çıkarma yaparak kök içlerini eşitlemeye çalış.\n• Benzer olmayan köklü terimler olduğu gibi bırakılır.\n• Katsayılar toplanırken kök kısmı aynen korunur."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de köklü sayılarda toplama soruları genellikle kök dışına çıkarma gerektiren ifadeleri içerir. Kök içini en sade hale getirdiğinizde, kök içlerinin birbirine eşit olduğunu göreceksiniz. Bu adımı atlamak, sorunun çözümünü imkansız kılar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kural: √a + √b ≠ √(a+b) olduğunu unutma! Sadece kök içleri aynı olan terimler toplanabilir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000427462_MAT__8",
+    "createdAt": "2026-04-12T13:27:07.455Z",
+    "updatedAt": "2026-04-12T13:27:07.455Z",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T13:27:19.330Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_7.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 9: Köklü Sayılarda Çarpma İşlemi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Köklü sayılarda çarpma işlemi yapabilmek için öncelikle kök derecelerinin eşit olması gerekir. Dereceler eşit olduğunda kök içindeki sayılar doğrudan çarpılarak tek bir kök altında toplanır. Farklı dereceli köklerde ise genişletme veya sadeleştirme yapılarak dereceler ortak bir paydada birleştirilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Aynı dereceli kökler çarpılırken kök içleri çarpılıp kök derecesi aynen yazılır.\n• Dereceler farklı ise, ortak katları bulunarak kökler genişletilir.\n• Kök dışındaki katsayılar kendi arasında, kök içleri kendi arasında çarpılır.\n• Çarpma sonucunda elde edilen ifade en sade haline getirilmelidir."
+      },
+      {
+        "type": "text",
+        "text": "Köklerin dereceleri arasında bir ilişki yoksa, köklü ifadeler üslü sayıya çevrilerek rasyonel üsler üzerinden çarpma işlemi gerçekleştirilebilir. Bu yöntem, özellikle karmaşık sorularda hata yapma riskini azaltır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kök dereceleri eşitlenmeden kök içleri çarpılamaz; bu en sık yapılan işlem hatasıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000439331_MAT__9",
+    "createdAt": "2026-04-12T13:27:19.331Z",
+    "updatedAt": "2026-04-12T13:27:19.331Z",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T13:27:31.678Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_8.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 10: Köklü Sayılarda Bölme İşlemi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Köklü sayılarda bölme işlemi, çarpma işlemine benzer şekilde kök derecelerinin eşit olması şartına dayanır. Dereceler eşit olduğunda, kök içleri birbirine bölünerek tek bir kök içinde ifade edilebilir. Pay ve payda arasındaki sadeleştirme işlemleri, sonucun daha hızlı bulunmasını sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Dereceleri eşit olan köklü sayılarda bölme işlemi yapılırken kök içleri oranlanır.\n• Kök dışındaki katsayılar kendi aralarında, kök içleri kendi aralarında bölünür.\n• Paydadaki köklü ifade rasyonel sayı değilse eşlenik ile genişletilir.\n• Bölme işleminden sonra kök içindeki ifade tam kare çarpanlarına ayrılmalıdır."
+      },
+      {
+        "type": "text",
+        "text": "İşlem yaparken kök dışındaki katsayıların pay ve paydada ortak çarpanları varsa bunları sadeleştirmek işlemin sonucunu kolaylaştırır. Özellikle büyük sayılarla çalışırken kök içlerini çarpanlarına ayırarak bölme yapmak pratik bir yoldur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Pay ve paydadaki kök dereceleri eşit değilse, mutlaka genişletme yaparak dereceleri ortak bir sayıda eşitleyin."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000439332_MAT__10",
+    "createdAt": "2026-04-12T13:27:19.331Z",
+    "updatedAt": "2026-04-12T13:27:19.331Z",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T13:27:31.678Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_9.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 11: Paydayı Rasyonel Yapma (Eşlenik)",
+    "content": [
+      {
+        "type": "text",
+        "text": "Matematikte paydanın köklü olması işlem yapmayı zorlaştırdığı için paydayı rasyonel hale getirmek standart bir yöntemdir. Bir köklü ifadeyi kendisiyle veya uygun bir çarpanla çarparak kökten kurtarma işlemine eşlenik alma denir. Bu sayede payda tam sayı haline dönüştürülür."
+      },
+      {
+        "type": "bulletList",
+        "text": "• √a ifadesinin eşleniği √a'dır.\n• (a+√b) ifadesinin eşleniği (a-√b)'dir.\n• (√a+√b) ifadesinin eşleniği (√a-√b)'dir.\n• Eşlenik ile çarparken pay ve paydanın aynı değerle çarpılması gerektiğini unutmayın."
+      },
+      {
+        "type": "text",
+        "text": "Eşlenik alma işlemi, iki kare farkı özdeşliğinden faydalanır. Paydada yer alan (√a - √b) gibi ifadeler, (√a + √b) ile çarpıldığında kökler birbirini yok ederek rasyonel bir sonuç verir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Paydayı rasyonel yaparken sadece paydayı değil, kesrin payını da aynı eşlenik ile çarpmayı ihmal etmeyin."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000439333_MAT__11",
+    "createdAt": "2026-04-12T13:27:19.331Z",
+    "updatedAt": "2026-04-12T13:27:19.331Z",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T13:27:31.678Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_10.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 12: İç İçe Köklü İfadeler (Sonsuz Seri)",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sonsuza giden iç içe köklü ifadeler, belirli bir örüntüye sahip olduklarında çok kolay bir şekilde çözülebilir. Çarpım durumundaki sonsuz serilerde, kök derecesi n ise kök içindeki sayı bir derece azaltılarak sonuç bulunur. Bölüm durumundaki sonsuz serilerde ise kök derecesi n ise bu kez derece bir artırılarak sonuç elde edilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Çarpım durumunda: n. dereceden √x.√x.√x... = (n-1). dereceden √x\n• Bölüm durumunda: n. dereceden √x/√x/√x... = (n+1). dereceden √x\n• Karekök (derece 2) çarpım serilerinde sonuç doğrudan sayının kendisine eşittir.\n• Karekök (derece 2) bölüm serilerinde sonuç sayının küpköküne eşittir."
+      },
+      {
+        "type": "text",
+        "text": "Bu yöntem, KPSS gibi zaman kısıtlı sınavlarda hız kazandıran en önemli pratik bilgilerden biridir. Örüntünün sonsuza gittiğinden emin olduktan sonra formülü doğrudan uygulayabilirsiniz."
+      },
+      {
+        "type": "highlighted",
+        "text": "Sonsuz çarpım serilerinde, eğer kök derecesi 2 ise sonuç her zaman kök içindeki sayının kendisidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000439334_MAT__12",
+    "createdAt": "2026-04-12T13:27:19.331Z",
+    "updatedAt": "2026-04-12T13:27:19.331Z",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T13:27:31.678Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_11.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 13: İç İçe Köklü İfadeler (Sonlu Seri)",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sonlu sayıda iç içe köklü ifadenin çözümü için köklerin derecelerinin çarpılması temel yöntemdir. Eğer köklerin dışında katsayılar varsa, bu katsayılar kök derecesinin kuvveti alınarak içeri aktarılır. Bu işlemler sonucunda tüm ifadeler tek bir kök altında birleştirilebilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İç içe köklerde dereceler çarpılarak tek bir kök derecesi elde edilir.\n• Katsayı içeri girerken kökün derecesini kuvvet olarak alır.\n• Tüm köklü terimler en içteki kökten başlanarak dışarı çıkarılır.\n• İfade üslü sayıya çevrilerek de çözüme ulaşılabilir."
+      },
+      {
+        "type": "text",
+        "text": "Bu tür sorularda en içten dışa doğru işlem yapmak, işlem karmaşasını önler. Katsayıları içeri alırken yapılan hatalar sonucu değiştireceği için adım adım ilerlemek kritiktir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Katsayı içeri girerken sadece kök içine değil, kökün kendi derecesini de kuvvet olarak alarak girer."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000439335_MAT__13",
+    "createdAt": "2026-04-12T13:27:19.331Z",
+    "updatedAt": "2026-04-12T13:27:19.331Z",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T13:27:31.678Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_12.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 14: İki Katlı Köklü İfadeler (Kök İçinde Kök)",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kök içinde kök ifadesi, √(a+b ± 2√a.b) formunda olduğunda oldukça kolay çözülür. Burada temel mantık, toplamları a+b, çarpımları a.b olan iki sayıyı bulmaktır. Bulunan bu iki sayı (√a ± √b) şeklinde dışarı çıkarılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İfadenin başında mutlaka 2 çarpanı bulunmalıdır.\n• Toplamları a+b, çarpımları a.b olan iki sayı bulunmalıdır.\n• Büyük sayı her zaman başa yazılmalıdır.\n• Eğer 2 çarpanı yoksa, içerideki kök düzenlenerek 2 oluşturulmalıdır."
+      },
+      {
+        "type": "text",
+        "text": "Bu formül, özellikle kareköklü ifadelerin sadeleştirilmesinde sıklıkla kullanılır. Eğer 2 çarpanı yoksa kökü genişleterek veya parçalayarak 2'yi elde etmek, problemin çözüm anahtarıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Formülü uygularken her zaman büyük olan sayıyı başa yazın ki sonuç negatif çıkmasın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000439336_MAT__14",
+    "createdAt": "2026-04-12T13:27:19.331Z",
+    "updatedAt": "2026-04-12T13:27:19.331Z",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T13:27:31.678Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_13.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 15: Mutlak Değer ve Köklü İfadeler",
+    "content": [
+      {
+        "type": "text",
+        "text": "Köklü ifadelerde derecenin tek veya çift olması, dışarı çıkış kurallarını belirler. Derece çift olduğunda ifade mutlak değer içinde dışarı çıkarılırken, derece tek olduğunda ifade olduğu gibi çıkar. Bu kural, özellikle değişkenli ifadelerde işaret analizi yapmayı zorunlu kılar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• n. dereceden √x^n, n çift ise |x| olarak çıkar.\n• n. dereceden √x^n, n tek ise x olarak çıkar.\n• Karekök içindeki tam kare ifadeler her zaman mutlak değerle dışarı çıkarılır.\n• Negatif sayıların çift dereceli kökleri reel sayı kümesinde tanımsızdır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sorularında genellikle x < 0 < y gibi eşitsizlikler verilerek ifadenin dışarı nasıl çıkacağı sorulur. Burada değişkenin işaretini belirleyip mutlak değerin içini pozitif veya negatif yapma kuralını uygulamak gerekir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Derece çiftse mutlak değeri asla unutmayın; aksi takdirde işaret hatası yaparsınız."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000439337_MAT__15",
+    "createdAt": "2026-04-12T13:27:19.331Z",
+    "updatedAt": "2026-04-12T13:27:19.331Z",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T13:27:31.678Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_14.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 16: Köklü Sayılarda Denklem Çözme",
+    "content": [
+      {
+        "type": "text",
+        "text": "Köklü denklemleri çözerken temel strateji, köklü ifadeyi yalnız bırakıp her iki tarafın kök derecesi kadar kuvvetini alarak kökten kurtulmaktır. Ancak bu işlem sonucunda bulunan köklerin, orijinal denklemde yerine yazılarak doğrulanması gerekir. Çünkü kuvvet alma işlemi bazen denklemi sağlamayan 'yalancı kök'lerin oluşmasına neden olabilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Kökü yalnız bırakın ve derecesi kadar kuvvet alın.\n• Denklemi polinom formuna getirip çözün.\n• Bulduğunuz değerleri mutlaka ilk denklemde kontrol edin.\n• Tanımsızlık durumlarına (kök içi negatif) dikkat edin."
+      },
+      {
+        "type": "text",
+        "text": "Denklemin her iki tarafının karesini alırken parantez karesi alma kurallarını (a+b)² = a² + 2ab + b² dikkatli uygulamak gerekir. İşlem hatası yapmamak için denklemi düzenli bir şekilde basitleştirerek ilerlemek önemlidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Bulduğunuz sonuçları mutlaka orijinal denklemde yerine koyup kontrol etmeyi unutmayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000439338_MAT__16",
+    "createdAt": "2026-04-12T13:27:19.331Z",
+    "updatedAt": "2026-04-12T13:27:19.331Z",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T13:27:31.678Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_15.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 17: Köklü Sayılarda Değişken Değiştirme",
+    "content": [
+      {
+        "type": "text",
+        "text": "Karmaşık köklü ifadelerin çözümünde, ifadeyi daha basit bir değişkenle temsil etmek işlem kolaylığı sağlar. Özellikle birbirine benzeyen köklü terimler içeren denklemlerde, bu terimlere 'u' veya 'x' gibi bir değişken atanarak ikinci dereceden denklemlere geçiş yapılır. Bu yöntem, KPSS sınavında zaman yönetimi açısından kritik öneme sahiptir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Benzer köklü ifadeleri tespit edin.\n• Uygun bir değişken ataması yapın.\n• İfadeyi ikinci dereceden denklem formuna dönüştürün.\n• Çarpanlara ayırma yöntemini uygulayın.\n• Bulunan değerleri orijinal köklü ifadeye geri dönüştürün."
+      },
+      {
+        "type": "text",
+        "text": "Değişken değiştirme yöntemi, özellikle köklü ifadelerin karesinin alınması gereken durumlarda hata payını minimize eder. İşlem sürecinde değişken kısıtlamalarını (örneğin köklü ifade negatif olamaz) göz ardı etmemek gerekir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kritik İpucu: Değişken değiştirme yaparken, köklü ifadenin sonucunun her zaman negatif olamayacağını hatırlayarak çözüm kümesini buna göre daraltın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000451678_MAT__17",
+    "createdAt": "2026-04-12T13:27:31.678Z",
+    "updatedAt": "2026-04-12T13:27:31.678Z",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T13:27:44.197Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_16.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 18: Köklü İfadelerde Yaklaşık Değer Bulma",
+    "content": [
+      {
+        "type": "text",
+        "text": "Tam kare olmayan köklü sayıların değerlerini tahmin etmek, sayı doğrusu üzerindeki yerlerini belirlemek için temel bir beceridir. Verilen köklü sayıya en yakın alt ve üst tam kare sayılar belirlenerek aralık tahmini yapılır. Bu yöntem, sınavdaki sıralama sorularında hızlı sonuç verir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sayının en yakın olduğu tam kareleri bulun.\n• Alt ve üst sınır aralığını belirleyin.\n• Sayısal tahmin formülünü (x + kalan/2*kök(x)) kullanın.\n• Hata payını minimize etmek için ondalık basamakları kontrol edin.\n• Sıralama sorularında kare alma yöntemine başvurun."
+      },
+      {
+        "type": "text",
+        "text": "Yaklaşık değer hesaplamalarında, özellikle rasyonel olmayan sayıların sayı doğrusunda hangi tam sayılar arasında olduğunun bilinmesi yeterlidir. KPSS sınavında genellikle tam değerden ziyade aralık sorulmaktadır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Sıralama sorularında, kök içindeki sayıların değerlerini kıyaslamak yerine her iki tarafın karesini alarak tam sayıya dönüştürmek en güvenli yoldur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000451679_MAT__18",
+    "createdAt": "2026-04-12T13:27:31.678Z",
+    "updatedAt": "2026-04-12T13:27:31.678Z",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T13:27:44.197Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_17.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 19: Köklü Sayılarda Özel Çarpanlara Ayırma",
+    "content": [
+      {
+        "type": "text",
+        "text": "Köklü ifadelerle çalışırken iki kare farkı ve tam kare özdeşliklerini kullanmak, ifadeyi sadeleştirmede büyük kolaylık sağlar. Özellikle paydadaki köklü ifadeleri yok etmek için eşlenik kullanımı, bu bölümün temelini oluşturur. Bu teknikler, karmaşık görünen sorularda hızlı sadeleşme sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İki kare farkı (a-b)(a+b) kuralını uygulayın.\n• Tam kare ifadeleri (a+b)^2 şeklinde açın veya kapatın.\n• Eşlenik ile çarpma yaparak paydayı rasyonel yapın.\n• Ortak çarpan parantezine alma yöntemini kullanın.\n• Sadeleştirme sonrası kalan ifadeleri kontrol edin."
+      },
+      {
+        "type": "text",
+        "text": "Özel çarpanlara ayırma, köklü denklemleri çözmek için en etkili metodolojidir. Özellikle paydada (kök x + kök y) gibi ifadeler varsa, eşleniği olan (kök x - kök y) ile çarpmak temel bir kuraldır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Püf Noktası: Paydada köklü ifade olduğunda, ifadeyi rasyonel hale getirmek için mutlaka eşlenik ile genişletme yapmalısınız."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000451680_MAT__19",
+    "createdAt": "2026-04-12T13:27:31.678Z",
+    "updatedAt": "2026-04-12T13:27:31.678Z",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T13:27:44.197Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_18.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 20: Köklü Sayı Problemleri (Geometri)",
+    "content": [
+      {
+        "type": "text",
+        "text": "Geometrik şekillerin kenar uzunlukları genellikle köklü sayılarla ifade edilir. Pisagor bağıntısı, köklü kenar uzunluklarına sahip dik üçgenlerde hipotenüsü bulmak için kullanılır. Bu tür sorular, geometrik bilgi ile köklü sayı işlemleri becerisini birleştirir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Dik üçgenlerde Pisagor bağıntısını (a^2+b^2=c^2) uygulayın.\n• Kenar uzunluklarını kök dışına çıkarma yöntemlerini kullanın.\n• Köklü sayıların çarpımı ve toplamı kurallarına dikkat edin.\n• Alan hesaplamalarında köklü ifadelerin çarpımını doğru yapın.\n• Sonucu en sade köklü biçimde ifade edin."
+      },
+      {
+        "type": "text",
+        "text": "Geometride köklü ifadelerle çalışırken, uzunluğun her zaman pozitif olması gerektiğini unutmamak gerekir. Problem çözümlerinde kök dışına çıkan ifadeler, işlemleri oldukça hızlandırmaktadır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: Geometrik sorularda köklü ifadelerin karesini alırken katsayıların da karesinin alınacağını unutmayın, 2kök3'ün karesi 12'dir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000451681_MAT__20",
+    "createdAt": "2026-04-12T13:27:31.678Z",
+    "updatedAt": "2026-04-12T13:27:31.678Z",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T13:27:44.197Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_19.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 21: Köklü Sayı Problemleri (Sayısal)",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sayısal problemlerde köklü ifadeler oran-orantı ve temel denklem kurma süreçlerinde yer alır. Köklü terim içeren kesirli ifadelerin sadeleştirilmesi, sınavda sıkça karşılaşılan bir problem tipidir. Oran-orantı mantığı ile kökler arasındaki ilişkiyi kurmak çözümü kolaylaştırır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Oran-orantı kurallarını köklü sayılara uyarlayın.\n• İçler-dışlar çarpımı yaparak köklü denklemleri kurun.\n• Paydadaki köklü ifadeleri rasyonel yapın.\n• Köklü sayıları ortak bir kök derecesinde birleştirin.\n• Denklemi çözerek bilinmeyeni yalnız bırakın."
+      },
+      {
+        "type": "text",
+        "text": "Sayısal problemlerde kök içindeki sayıların asal çarpanlarına ayrılması, işlemleri sadeleştirmek için en pratik yoldur. Karmaşık kesirlerde pay ve paydanın eşlenik ile çarpımı, sonucu hızla görünür kılar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Köklü sayılarda bölme işlemi yaparken, pay ve paydanın kök dereceleri aynı değilse, önce kök derecelerini eşitlemeyi unutmayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000451682_MAT__21",
+    "createdAt": "2026-04-12T13:27:31.678Z",
+    "updatedAt": "2026-04-12T13:27:31.678Z",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T13:27:44.197Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_20.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 22: Köklü Sayılarda Üstün İşlem Özellikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Dağılma özelliği ve ortak paranteze alma, köklü ifadelerdeki toplama ve çıkarma işlemlerinde temel araçlardır. Benzer köklü terimlerin katsayıları toplanırken, köklerin içi aynı kalmalıdır. Bu özellikler, büyük ifadelerin tek bir terime indirgenmesini sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Kök içi aynı olan terimleri ortak paranteze alın.\n• Dağılma özelliğini parantez içindeki köklü sayılara uygulayın.\n• Katsayıları toplarken sadece kök içi aynı olanları işleme alın.\n• Farklı kök içlerini aynı kök derecesine dönüştürmeye çalışın.\n• İşlem önceliği kuralına dikkat edin."
+      },
+      {
+        "type": "text",
+        "text": "Köklü ifadelerde işlem yaparken, kök içindeki sayıları en sade haline (a kök b) getirmek, ortak paranteze almayı çok daha belirgin hale getirir. Bu yöntem, KPSS sınavında hata yapmayı önleyen ana stratejidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Kök içindeki sayıları asal çarpanlarına ayırarak dışarı çıkarırsanız, benzer terimleri daha kolay görebilirsiniz."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000451683_MAT__22",
+    "createdAt": "2026-04-12T13:27:31.678Z",
+    "updatedAt": "2026-04-12T13:27:31.678Z",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T13:27:44.197Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_21.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 23: Köklü Sayılarda Kuvvet Alma",
+    "content": [
+      {
+        "type": "text",
+        "text": "Köklü bir sayının kuvvetini almak, hem kök içindeki sayının hem de katsayının kuvvetini almayı gerektirir. İfadenin tamamının kuvveti alındığında, kök derecesi ile kuvvet ilişkisi sadeleşebilir. Bu konu üslü sayılarla olan bağın en güçlü olduğu alandır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Katsayının kuvvetini ayrıca hesaplayın.\n• Kök içindeki sayının kuvvetini kök derecesi ile sadeleştirin.\n• (kök x)^n = x^(n/2) kuralını kullanın.\n• Negatif kuvvetlerde ifadeyi ters çevirmeyi unutmayın.\n• Parantez dışındaki kuvvetin tüm terimlere etki ettiğinden emin olun."
+      },
+      {
+        "type": "text",
+        "text": "Kuvvet alma işlemlerinde, köklü sayıyı üslü sayı biçimine (x^m/n) dönüştürmek işlem yapmayı kolaylaştırır. Özellikle çok basamaklı kuvvetlerde bu yaklaşım, hata payını ciddi oranda düşürür."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: Bir köklü ifadenin karesi alındığında kök ortadan kalkar, ancak ifade bir katsayı içeriyorsa katsayının karesini almayı sakın unutmayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000451684_MAT__23",
+    "createdAt": "2026-04-12T13:27:31.678Z",
+    "updatedAt": "2026-04-12T13:27:31.678Z",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T13:27:44.197Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_22.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 24: Köklü İfadenin Kökünü Alma",
+    "content": [
+      {
+        "type": "text",
+        "text": "İç içe kökler, kök derecelerinin çarpımı kuralı ile tek bir kök haline getirilebilir. Arada başka terimler varsa, bu terimleri içeri alarak kökleri birleştirmek gerekir. Bu konu, KPSS matematik testlerinin ileri seviye sorularında yer alır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İç içe köklerde dereceleri çarpın.\n• Kök dışındaki katsayıyı içeri alırken dereceyi kuvvet olarak kullanın.\n• İç içe kök formülü (kök(x+2kök y)) uygulamasını öğrenin.\n• En içteki kökten başlayarak dışa doğru işlem yapın.\n• İfadeyi tek bir kök derecesinde yazmaya çalışın."
+      },
+      {
+        "type": "text",
+        "text": "İç içe köklerde, dıştaki kökü içeri alırken katsayının kök derecesi kadar kuvvet alarak içeri girmesi kuralı hayati önem taşır. Bu kural doğru uygulandığında, karmaşık görünen birçok soru tek bir köklü terime indirgenir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kritik Kural: İç içe köklerde katsayıyı içeri alırken, katsayının kuvvetinin kök derecesi ile aynı olması gerektiğini unutmayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000451685_MAT__24",
+    "createdAt": "2026-04-12T13:27:31.678Z",
+    "updatedAt": "2026-04-12T13:27:31.678Z",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T13:27:44.197Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_23.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 25: Rasyonel Sayılarla Köklü Sayı İlişkisi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Köklü ifadeler, rasyonel sayıların karekök alma işlemiyle doğrudan ilişkilidir. Özellikle ondalık sayıların karekökü alınırken sayıyı rasyonel biçimde yazmak işlem kolaylığı sağlar. Devirli ondalık sayılar ise önce kesirli forma dönüştürülüp sonra kök dışına çıkarılmalıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Ondalık sayıları rasyonel sayıya çevirirken basamak sayısına dikkat edilmelidir.\n• 0,09 sayısı 9/100 olarak yazılıp kök dışına 3/10 olarak çıkarılır.\n• Devirli ondalık sayılarda (0,44...) kuralı uygulandıktan sonra kök işlemi yapılır.\n• Paydadaki rasyonel ifadeler kök dışına ayrı ayrı çıkarılabilir.\n• Kök içindeki ondalık sayıların basamak sayısı çift ise tam sayıya dönüştürmek daha pratiktir."
+      },
+      {
+        "type": "text",
+        "text": "Bu yöntem, özellikle KPSS'de rasyonel sayılarla iç içe sorulan köklü ifade sorularında zaman kazandırır. Pay ve paydanın ayrı ayrı köklerinin alınması, karmaşık görünen ifadeleri basitleştirir. İşlem yaparken sadeleştirme adımlarını atlamamak sonuca hızlı ulaşmanızı sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Kök içindeki ondalık sayılarda virgül kaydırırken pay ve paydayı aynı oranda 10'un kuvvetleriyle genişletmeyi unutmayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000464197_MAT__25",
+    "createdAt": "2026-04-12T13:27:44.197Z",
+    "updatedAt": "2026-04-12T13:27:44.197Z",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T13:28:01.081Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_24.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 26: Köklü Sayılarda Hatalı İşlem Analizi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Köklü sayılarda yapılan hatalar genellikle toplama-çıkarma işlemlerinde kök içlerinin toplanması veya işaretlerin yanlış yorumlanmasıyla oluşur. Sınavlarda çeldirici olarak kullanılan bu hatalar, temel kuralların yanlış uygulanmasından kaynaklanır. Doğru teknikleri öğrenmek, bu yaygın hatalardan kaçınmanızı sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Kök içindeki sayıları toplarken kök derecelerinin ve içlerinin aynı olması şarttır.\n• Çarpma işleminde kök dereceleri farklıysa kökler birleştirilemez.\n• Negatif sayıların çift dereceli kökten çıkamayacağı unutulmamalıdır.\n• Parantez kare alma işlemlerinde terimlerin karesi ayrı ayrı alınmamalıdır.\n• Eşlenik çarpımında işaret hatası yapılması sık rastlanan bir sorundur."
+      },
+      {
+        "type": "text",
+        "text": "İşaret hataları özellikle kök dışına çıkan ifadelerin mutlak değer içinde kalması durumunda yaşanır. Çift dereceli köklerden çıkan sonuçların negatif olamayacağını hatırlamak, işaret analizinde büyük önem taşır. Hata yapmamak için işlem adımlarını sistematik bir şekilde yazarak ilerlemek en güvenli yöntemdir."
+      },
+      {
+        "type": "warning",
+        "text": "Dikkat: √a + √b asla √(a+b) ifadesine eşit değildir; bu, öğrencilerin en sık düştüğü matematiksel yanılgıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000464198_MAT__26",
+    "createdAt": "2026-04-12T13:27:44.197Z",
+    "updatedAt": "2026-04-12T13:27:44.197Z",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T13:28:01.081Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_25.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 27: İleri Seviye Köklü Denklem Sistemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "İleri seviye köklü denklem sistemlerinde, değişkenler genellikle kök içinde tanımlanır ve çözüm için taraf tarafa işlem yapma veya değişken değiştirme yöntemleri kullanılır. Bu denklemler, iki veya daha fazla bilinmeyenin köklü ifadelerle birbirine bağlandığı karmaşık yapılardır. Doğru çözüm yolu, ifadeleri sadeleştirecek bir form yakalamaktır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Taraf tarafa toplama veya çıkarma yaparak köklü ifadelerden kurtulmaya çalışın.\n• Değişken değiştirme yöntemiyle karmaşık köklü ifadeleri basit harflere atayın.\n• İç içe köklerin olduğu durumlarda en içten dışa doğru çözüm geliştirin.\n• Eşlenik ile genişletme, paydadaki veya eşitliğin bir tarafındaki köklerden kurtulmayı sağlar.\n• Bulunan köklerin denklemi sağlayıp sağlamadığını kontrol etmek için sağlamasını yapın."
+      },
+      {
+        "type": "text",
+        "text": "Bu tarz sorularda denklemleri birbirine oranlamak veya taraf tarafa çıkarmak, bilinmeyenlerden birini hızla yok etmenizi sağlar. KPSS sınavında bu sorular genellikle zaman alıcı göründüğü için pratik yöntemler geliştirmek hayati önem taşır. Sabırlı bir yaklaşımla, köklü ifadeleri üslü sayı formatına çevirerek de çözüm üretebilirsiniz."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: İki bilinmeyenli köklü denklemlerde, ifadelerin tam kare formuna benzetilip benzetilemeyeceğini kontrol edin."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "hard",
+    "id": "exp_1776000464199_MAT__27",
+    "createdAt": "2026-04-12T13:27:44.197Z",
+    "updatedAt": "2026-04-12T13:27:44.197Z",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T13:28:01.081Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_26.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 28: Köklü Sayılarda Fonksiyonel Yaklaşım",
+    "content": [
+      {
+        "type": "text",
+        "text": "Köklü ifadelerin fonksiyonel yaklaşımı, özellikle tanım kümesi ve görüntü kümesi üzerinde durur. Çift dereceli köklerin içindeki ifadenin daima sıfıra eşit veya büyük olması gerektiği, fonksiyonun tanım kümesini belirleyen temel kuraldır. Grafik yorumlama ise bu fonksiyonların davranışlarını anlamak için kritik bir adımdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Çift dereceli bir köklü fonksiyonun tanım kümesi f(x) ≥ 0 şartıyla belirlenir.\n• Tek dereceli kökler tüm reel sayılarda tanımlı olabilir.\n• Grafik çizimlerinde kökün başlangıç noktası (kritik nokta) çok önemlidir.\n• Kök fonksiyonlarının grafikleri genellikle parabolün yarısı şeklinde bir eğri oluşturur.\n• Fonksiyonun artan veya azalan olması kök içindeki katsayıya bağlıdır."
+      },
+      {
+        "type": "text",
+        "text": "Fonksiyonel yaklaşımda, x değerinin sonsuza gitmesi durumunda köklü ifadenin hangi değerlere yaklaştığını incelemek, grafik yorumlamayı kolaylaştırır. KPSS'de doğrudan grafik sorulmasa bile, fonksiyonun tanım aralığı üzerinden soru gelme ihtimali yüksektir. Bu yüzden köklü ifadelerdeki eşitsizlikleri çözme yeteneğiniz güçlendirilmelidir."
+      },
+      {
+        "type": "warning",
+        "text": "Dikkat: f(x) = √g(x) fonksiyonunda g(x) < 0 olduğunda fonksiyon reel sayılarda tanımsızdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000464200_MAT__28",
+    "createdAt": "2026-04-12T13:27:44.197Z",
+    "updatedAt": "2026-04-12T13:27:44.197Z",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T13:28:01.081Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_27.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 29: KPSS Çıkmış Soru Analizi (Temel)",
+    "content": [
+      {
+        "type": "text",
+        "text": "KPSS'de çıkan köklü sayı soruları genellikle işlem yeteneği ve kural bilgisini birleştirir. Geçmiş yılların soruları incelendiğinde, eşlenik alma ve kök dışına çıkarma tekniklerinin çokça kullanıldığı görülmektedir. Soru tiplerini analiz etmek, sınav anında hangi yöntemi seçeceğinizi belirlemenizi sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Paydayı rasyonel yapma soruları sınavın vazgeçilmezidir.\n• İç içe köklerin sonsuza giden serilerinde pratik formüller kullanılır.\n• Kök içindeki tam kare ifadeleri bulma sorularına hazırlıklı olun.\n• Rasyonel sayılarla birleştirilmiş köklü işlem sorularını analiz edin.\n• Geçmiş sınav sorularında benzer rakamların kullanımı sıkça görülür."
+      },
+      {
+        "type": "text",
+        "text": "Çözüm hızlandırma teknikleri arasında en önemlisi, şıklardan gitme veya değer verme yöntemidir. Belirli bir kalıba sahip olan köklü sayı soruları, pratik yaptıkça çok hızlı çözülebilir. Çıkmış soruları analiz ederken sadece çözümü değil, sorunun hangi kuralla kurgulandığını anlamaya çalışın."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: En çok çıkan soru tipi, paydadaki eşlenik çarpımı ile sadeleştirme gerektiren sorulardır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776000464201_MAT__29",
+    "createdAt": "2026-04-12T13:27:44.197Z",
+    "updatedAt": "2026-04-12T13:27:44.197Z",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T13:28:01.081Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_28.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_KOKLU_SAYILAR",
+    "title": "Bölüm 30: Köklü Sayılar Genel Tekrar ve Karma Sorular",
+    "content": [
+      {
+        "type": "text",
+        "text": "Köklü sayılar ünitesinin genel tekrarı, tüm kuralların sentezlenmesini ve zaman yönetimi stratejilerinin uygulanmasını gerektirir. Karma sorular, konular arasındaki geçişleri kavramanıza ve sınav stresinde hata yapma oranınızı düşürmenize yardımcı olur. Şimdiye kadar öğrenilen tüm teknikleri bir arada kullanma zamanı."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Tüm kuralları bir kağıda yazarak zihinsel bir harita oluşturun.\n• Karma sorularda işlem sırasına (önce parantez içi, sonra çarpma/bölme) dikkat edin.\n• Zaman yönetimi için kolay sorulardan başlayarak özgüveninizi artırın.\n• Yanlış yaptığınız her soruyu neden yanlış yaptığınızı analiz ederek not alın.\n• Farklı kaynaklardan karma soru çözerek soru tiplerine aşinalık kazanın."
+      },
+      {
+        "type": "text",
+        "text": "Genel tekrar sürecinde, köklü sayıların üslü sayılarla olan bağını da hatırlamak geniş bir perspektif sunar. Sınav anında zaman yönetimi için, çözülemeyen soruları turlayarak geçmek en stratejik yaklaşımdır. Başarı, düzenli tekrar ve kararlı bir soru çözme disiplini ile mümkündür."
+      },
+      {
+        "type": "highlighted",
+        "text": "Özet: Köklü sayılarda ustalaşmak, işlem adımlarını sabırla takip etmek ve bol pratikle hız kazanmaktan geçer."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "hard",
+    "id": "exp_1776000464202_MAT__30",
+    "createdAt": "2026-04-12T13:27:44.197Z",
+    "updatedAt": "2026-04-12T13:27:44.197Z",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T13:28:01.081Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_KOKLU_SAYILAR_29.mp3?alt=media"
+  }
+]

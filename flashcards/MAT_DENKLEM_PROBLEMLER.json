@@ -1,0 +1,452 @@
+[
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir denklemde bilinmeyeni bulmak için ne yapılır?",
+    "answer": "Bilinmeyen ifade eşitliğin bir tarafında yalnız bırakılır.",
+    "additionalInfo": "Terim karşı tarafa geçerken işaret değiştirir.",
+    "id": "flash_1776014518638_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "ax + b = 0 denkleminde x nedir?",
+    "answer": "x = -b/a",
+    "additionalInfo": "a sıfırdan farklı olmalıdır.",
+    "id": "flash_1776014518638_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir sayının 3 katının 5 fazlası 20 ise sayı kaçtır?",
+    "answer": "5",
+    "additionalInfo": "3x + 5 = 20 denklemi kurulur.",
+    "id": "flash_1776014518638_3",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Hangi sayının yarısının 4 fazlası 10 eder?",
+    "answer": "12",
+    "additionalInfo": "x/2 + 4 = 10 denkleminden x=12 bulunur.",
+    "id": "flash_1776014518638_4",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Ardışık iki tam sayının toplamı 21 ise küçük sayı kaçtır?",
+    "answer": "10",
+    "additionalInfo": "x + (x+1) = 21",
+    "id": "flash_1776014518638_5",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir sınıftaki kızların sayısı erkeklerin sayısının 2 katıdır. Sınıf mevcudu 30 ise kız sayısı kaçtır?",
+    "answer": "20",
+    "additionalInfo": "Kızlar 2x, erkekler x, toplam 3x=30.",
+    "id": "flash_1776014518638_6",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir dikdörtgenin çevresi 40 cm, uzun kenarı kısa kenarının 3 katı ise kısa kenar kaç cm'dir?",
+    "answer": "5 cm",
+    "additionalInfo": "Çevre = 2(kısa + uzun) formülünü kullan.",
+    "id": "flash_1776014518638_7",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir sayının %20'si 10 ise bu sayı kaçtır?",
+    "answer": "50",
+    "additionalInfo": "x * 20/100 = 10",
+    "id": "flash_1776014518638_8",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "İki sayının toplamı 50, farkı 10 ise büyük sayı kaçtır?",
+    "answer": "30",
+    "additionalInfo": "Taraf tarafa toplama yöntemi kullan.",
+    "id": "flash_1776014518638_9",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir miktar para 3 kişiye eşit paylaştırılırsa kişi başına düşen miktar ne olur?",
+    "answer": "x/3",
+    "additionalInfo": "Toplam paraya x de.",
+    "id": "flash_1776014518638_10",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Yaş problemi: Bir babanın yaşı kızının yaşının 4 katıdır. 5 yıl sonra toplam yaşları 55 olacağına göre baba bugün kaç yaşındadır?",
+    "answer": "40",
+    "additionalInfo": "Baba 4x, kız x; 5 yıl sonra (4x+5)+(x+5)=55.",
+    "id": "flash_1776014518638_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir kalemlikteki kalemlerin sayısı 15'ten fazladır. 3'erli ve 4'erli sayıldığında hiç artmıyorsa en az kaç kalem vardır?",
+    "answer": "24",
+    "additionalInfo": "3 ve 4'ün EKOK'unu al.",
+    "id": "flash_1776014518638_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir araç saatte 80 km hızla 4 saatte ne kadar yol alır?",
+    "answer": "320 km",
+    "additionalInfo": "Yol = Hız x Zaman",
+    "id": "flash_1776014518638_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir kesrin değeri 2/3'tür. Payına 2 eklenirse değeri 1 oluyorsa bu kesrin paydası kaçtır?",
+    "answer": "6",
+    "additionalInfo": "2x/3x -> (2x+2)/3x = 1",
+    "id": "flash_1776014518638_14",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir otobüste 10 erkek, 8 kadın yolcu vardır. Kaç evli çift inerse erkek sayısı kadın sayısının 2 katı olur?",
+    "answer": "2",
+    "additionalInfo": "10-x = 2*(8-x)",
+    "id": "flash_1776014518638_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir sınavda 20 soru vardır. Doğru cevap 5 puan, yanlış cevap 2 puan götürüyorsa 15 doğru yapanın puanı nedir?",
+    "answer": "65",
+    "additionalInfo": "Doğru puanı - Yanlış puanı",
+    "id": "flash_1776014518638_16",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Hangi sayının 1/3'ünün 2 eksiği 4'tür?",
+    "answer": "18",
+    "additionalInfo": "x/3 - 2 = 4",
+    "id": "flash_1776014518638_17",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir sınıftaki öğrencilerin yaş ortalaması 15'tir. 5 öğrenci daha gelince ortalama 16 oluyorsa gelenlerin yaş toplamı nedir?",
+    "answer": "85",
+    "additionalInfo": "Yeni toplam - Eski toplam",
+    "id": "flash_1776014518638_18",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir kumaşın 1/4'ü kesilince 30 cm kalıyor. Kumaşın tamamı kaç cm'dir?",
+    "answer": "40 cm",
+    "additionalInfo": "3/4'ü 30 olan sayı.",
+    "id": "flash_1776014518638_19",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Ardışık 3 tek sayının toplamı 33 ise en büyük sayı kaçtır?",
+    "answer": "13",
+    "additionalInfo": "Sayılar x, x+2, x+4 olur.",
+    "id": "flash_1776014518638_20",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir işi 6 işçi 10 günde yapıyorsa, 12 işçi kaç günde yapar?",
+    "answer": "5 gün",
+    "additionalInfo": "Ters orantı vardır.",
+    "id": "flash_1776014518638_21",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir sayının 3 katının 1 eksiği ile 2 katının 4 fazlası eşitse bu sayı kaçtır?",
+    "answer": "5",
+    "additionalInfo": "3x - 1 = 2x + 4",
+    "id": "flash_1776014518638_22",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir torbadaki bilyelerin 2/5'i kırmızıdır. 10 bilye daha eklenince yarısı kırmızı oluyorsa başlangıçta kaç bilye vardı?",
+    "answer": "20",
+    "additionalInfo": "Denklem kurarak çöz.",
+    "id": "flash_1776014518638_23",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Kümes sorularında tavuk ve tavşanların toplam 20 başı varsa ayak sayısı en fazla kaçtır?",
+    "answer": "80",
+    "additionalInfo": "Hepsinin tavşan olduğunu varsay.",
+    "id": "flash_1776014518638_24",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir satıcı 5 tanesini 10 TL'ye aldığı kalemleri 3 tanesini 9 TL'ye satıyorsa kâr oranı nedir?",
+    "answer": "%50",
+    "additionalInfo": "Maliyet ve satış fiyatlarını eşitleyerek hesapla.",
+    "id": "flash_1776014518638_25",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir saatin yelkovanı 1 saatte kaç derece döner?",
+    "answer": "360 derece",
+    "additionalInfo": "Tam çember 360 derecedir.",
+    "id": "flash_1776014518638_26",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir sayının karesinin 2 eksiği 14 ise bu sayı kaçtır?",
+    "answer": "4 veya -4",
+    "additionalInfo": "x^2 - 2 = 14 -> x^2 = 16",
+    "id": "flash_1776014518638_27",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir otelde 2 ve 3 yataklı odalar vardır. Toplam 10 oda ve 25 yatak varsa 3 yataklı oda sayısı kaçtır?",
+    "answer": "5",
+    "additionalInfo": "2x + 3y = 25 ve x + y = 10",
+    "id": "flash_1776014518638_28",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir musluk boş havuzu 6 saatte dolduruyor, alttaki delik 12 saatte boşaltıyorsa havuz kaç saatte dolar?",
+    "answer": "12 saat",
+    "additionalInfo": "1/6 - 1/12 = 1/t",
+    "id": "flash_1776014518638_29",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir dikdörtgenin kısa kenarı 2 katına çıkarılırsa alanı nasıl değişir?",
+    "answer": "2 katına çıkar",
+    "additionalInfo": "Alan = kısa x uzun",
+    "id": "flash_1776014518638_30",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir sınıftaki öğrencilerin %60'ı kızdır. Erkek sayısı 12 ise sınıf mevcudu kaçtır?",
+    "answer": "30",
+    "additionalInfo": "Erkekler %40'tır.",
+    "id": "flash_1776014518638_31",
+    "_part": 31,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "İki kardeşin yaşları toplamı 20, yaşları farkı 4 ise büyük kardeş kaç yaşındadır?",
+    "answer": "12",
+    "additionalInfo": "x+y=20, x-y=4",
+    "id": "flash_1776014518638_32",
+    "_part": 32,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir araç A'dan B'ye 60 km/s ile gidip, 40 km/s ile dönüyor. Ortalama hız kaçtır?",
+    "answer": "48 km/s",
+    "additionalInfo": "2*v1*v2 / (v1+v2) formülü.",
+    "id": "flash_1776014518638_33",
+    "_part": 33,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Hangi sayının 5 katı ile 3 katının toplamı 80 eder?",
+    "answer": "10",
+    "additionalInfo": "5x + 3x = 80",
+    "id": "flash_1776014518638_34",
+    "_part": 34,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir sepetteki elmaların 1/3'ü çürük çıkmıştır. 4 elma daha çürürse toplam 12 elma çürük oluyor. Sepette kaç elma vardır?",
+    "answer": "24",
+    "additionalInfo": "x/3 + 4 = 12",
+    "id": "flash_1776014518638_35",
+    "_part": 35,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir öğrenci 100 soruluk testte her boş için 0.5 puan kaybediyor. 10 boşu olan öğrencinin puanı kaç düşer?",
+    "answer": "5",
+    "additionalInfo": "10 * 0.5 = 5",
+    "id": "flash_1776014518638_36",
+    "_part": 36,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir karenin alanı 64 ise çevresi kaçtır?",
+    "answer": "32",
+    "additionalInfo": "Bir kenarı 8'dir.",
+    "id": "flash_1776014518638_37",
+    "_part": 37,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "3x - 12 = 0 ise x kaçtır?",
+    "answer": "4",
+    "additionalInfo": "3x = 12",
+    "id": "flash_1776014518638_38",
+    "_part": 38,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir sayının 10 fazlası, aynı sayının 2 katına eşitse sayı kaçtır?",
+    "answer": "10",
+    "additionalInfo": "x + 10 = 2x",
+    "id": "flash_1776014518638_39",
+    "_part": 39,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "İki sayının oranı 3/4'tür. Toplamları 70 ise küçük sayı kaçtır?",
+    "answer": "30",
+    "additionalInfo": "3k + 4k = 70",
+    "id": "flash_1776014518638_40",
+    "_part": 40,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir satıcı %20 kârla 120 TL'ye sattığı malın maliyeti nedir?",
+    "answer": "100 TL",
+    "additionalInfo": "Maliyet x 1.20 = 120",
+    "id": "flash_1776014518638_41",
+    "_part": 41,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir merdiveni 2'şer çıkıp 3'er inen birinin adım farkı 5 ise merdiven kaç basamaklıdır?",
+    "answer": "30",
+    "additionalInfo": "x/2 - x/3 = 5",
+    "id": "flash_1776014518638_42",
+    "_part": 42,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir sınıftaki öğrencilerin %10'u gözlüklüdür. Gözlüksüz öğrenci sayısı 36 ise sınıf mevcudu kaçtır?",
+    "answer": "40",
+    "additionalInfo": "Gözlüksüzler %90'dır.",
+    "id": "flash_1776014518638_43",
+    "_part": 43,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir dikdörtgenin uzun kenarı 10, kısa kenarı 5 cm ise alanı kaçtır?",
+    "answer": "50 cm kare",
+    "additionalInfo": "Alan = a * b",
+    "id": "flash_1776014518638_44",
+    "_part": 44,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Hangi sayının 4 katının 2 fazlası aynı sayının 6 katının 10 eksiğine eşittir?",
+    "answer": "6",
+    "additionalInfo": "4x + 2 = 6x - 10",
+    "id": "flash_1776014518638_45",
+    "_part": 45,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir kutudaki kalemlerin 1/5'i kırmızı, 1/4'ü mavidir. Geriye 22 kalem kalıyorsa toplam kaç kalem vardır?",
+    "answer": "40",
+    "additionalInfo": "Paydaları eşitle (20).",
+    "id": "flash_1776014518638_46",
+    "_part": 46,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir işi 2 usta 6 günde, 3 çırak 12 günde yapmaktadır. 1 usta ve 1 çırak kaç günde yapar?",
+    "answer": "8 gün",
+    "additionalInfo": "İşçi kapasitelerini birim zamana indir.",
+    "id": "flash_1776014518638_47",
+    "_part": 47,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Ardışık 4 çift sayının toplamı 44 ise en küçük sayı kaçtır?",
+    "answer": "8",
+    "additionalInfo": "x + (x+2) + (x+4) + (x+6) = 44",
+    "id": "flash_1776014518638_48",
+    "_part": 48,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir sayının %30'u ile %20'si arasındaki fark 10 ise bu sayı kaçtır?",
+    "answer": "100",
+    "additionalInfo": "%10'u 10 olan sayı.",
+    "id": "flash_1776014518638_49",
+    "_part": 49,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  },
+  {
+    "topicId": "MAT_DENKLEM_PROBLEMLER",
+    "question": "Bir babanın yaşı 40, çocuğunun yaşı 10'dur. Kaç yıl sonra babanın yaşı çocuğun 2 katı olur?",
+    "answer": "20",
+    "additionalInfo": "40+x = 2*(10+x)",
+    "id": "flash_1776014518638_50",
+    "_part": 50,
+    "_generatedAt": "2026-04-12T17:22:20.674Z"
+  }
+]

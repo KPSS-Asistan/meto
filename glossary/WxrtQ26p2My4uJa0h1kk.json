@@ -1,0 +1,2045 @@
+[
+  {
+    "id": "tarimsal_uretim_yontemleri",
+    "term": "Tarımsal Üretim Yöntemleri",
+    "definition": "Tarım ürünlerinin yetiştirilmesinde kullanılan geleneksel, modern veya entansif yöntemlerdir. Bu yöntemler, kullanılan teknoloji, iş gücü ve sermaye miktarına göre farklılık gösterir. Amaç, verimliliği ve ürün kalitesini artırmaktır.",
+    "examples": [
+      "İntansif tarım",
+      "Ekstansif tarım",
+      "Nadas uygulaması"
+    ],
+    "relatedTerms": [
+      "Tarım",
+      "Toprak verimliliği",
+      "İklim"
+    ],
+    "order": 1
+  },
+  {
+    "id": "sanayi_kuruluslari",
+    "term": "Sanayi Kuruluşları",
+    "definition": "Ham maddeleri işleyerek nihai ürün haline getiren üretim tesisleridir. Konumları, hammaddeye yakınlık, enerji kaynakları, ulaşım ağları ve iş gücü gibi faktörlere bağlıdır. Sanayi kuruluşları, ekonomik kalkınmanın temel taşlarındandır.",
+    "examples": [
+      "Otomotiv fabrikası",
+      "Tekstil atölyesi",
+      "Demir-çelik tesisi"
+    ],
+    "relatedTerms": [
+      "Sanayi devrimi",
+      "Organize sanayi bölgeleri",
+      "Teknolojik gelişim"
+    ],
+    "order": 2
+  },
+  {
+    "id": "enerji_kaynaklari",
+    "term": "Enerji Kaynakları",
+    "definition": "Ekonomik faaliyetlerin sürdürülmesi için gerekli olan enerjiyi sağlayan doğal veya yapay kaynaklardır. Yenilenebilir ve yenilenemez enerji kaynakları olarak ikiye ayrılırlar. Enerji kaynaklarının çeşitliliği ve erişilebilirliği, ülkelerin ekonomik gücünü belirler.",
+    "examples": [
+      "Petrol",
+      "Doğalgaz",
+      "Hidroelektrik",
+      "Güneş enerjisi"
+    ],
+    "relatedTerms": [
+      "Enerji politikası",
+      "Nükleer enerji",
+      "Fosil yakıtlar"
+    ],
+    "order": 3
+  },
+  {
+    "id": "madencilik",
+    "term": "Madencilik",
+    "definition": "Yer altından ekonomik değeri olan minerallerin ve kayaçların çıkarılması işlemidir. Madencilik faaliyetleri, sanayi için hammadde sağlar ve ülke ekonomisine önemli katkıda bulunur. Çıkarılan madenlerin türü ve miktarı, bölgenin jeolojik yapısına bağlıdır.",
+    "examples": [
+      "Kömür madenciliği",
+      "Demir madenciliği",
+      "Bor madenciliği"
+    ],
+    "relatedTerms": [
+      "Rezerv",
+      "Tükenmeyen kaynaklar",
+      "Yer altı zenginlikleri"
+    ],
+    "order": 4
+  },
+  {
+    "id": "turizm_ekonomisi",
+    "term": "Turizm Ekonomisi",
+    "definition": "Turizm faaliyetlerinin ekonomik etkilerini inceleyen alandır. Turizm, döviz girdisi sağlar, istihdam yaratır ve yerel ekonomileri canlandırır. Turizm potansiyeli, doğal güzellikler, tarihi yapılar ve kültürel miras gibi faktörlere bağlıdır.",
+    "examples": [
+      "Kültür turizmi",
+      "Deniz turizmi",
+      "Sağlık turizmi"
+    ],
+    "relatedTerms": [
+      "Döviz kuru",
+      "Konaklama sektörü",
+      "Ulaşım"
+    ],
+    "order": 5
+  },
+  {
+    "id": "ticaret_ve_lojistik",
+    "term": "Ticaret ve Lojistik",
+    "definition": "Mal ve hizmetlerin üreticiden tüketiciye ulaştırılmasını sağlayan faaliyetlerdir. Ticaret, mal değişimi yoluyla ekonomik büyümeyi desteklerken, lojistik bu sürecin verimli yönetilmesini sağlar. Ulaşım ağları ve depolama tesisleri, lojistiğin temel unsurlarıdır.",
+    "examples": [
+      "İhracat",
+      "İthalat",
+      "Depolama",
+      "Taşımacılık"
+    ],
+    "relatedTerms": [
+      "Serbest ticaret bölgeleri",
+      "Gümrük vergileri",
+      "Tedarik zinciri"
+    ],
+    "order": 6
+  },
+  {
+    "id": "nufus_dagilisi",
+    "term": "Nüfus Dağılışı",
+    "definition": "Bir bölgedeki nüfusun coğrafi olarak nasıl yayıldığını gösterir. Nüfus dağılışı, iklim, yer şekilleri, su kaynakları, ekonomik faaliyetler ve tarihi faktörlerden etkilenir. Yoğun nüfuslu alanlar genellikle tarıma elverişli ve ekonomik açıdan gelişmiş bölgelerdir.",
+    "examples": [
+      "Kıyı kesimlerde yoğunlaşma",
+      "Dağlık alanlarda seyrek nüfus",
+      "Şehirleşme"
+    ],
+    "relatedTerms": [
+      "Nüfus yoğunluğu",
+      "Kırsal nüfus",
+      "Kentsel nüfus"
+    ],
+    "order": 7
+  },
+  {
+    "id": "sehirlesme",
+    "term": "Şehirleşme",
+    "definition": "Kırsal alanlardan kentsel alanlara doğru nüfusun göç etmesi ve kentlerin büyümesi sürecidir. Şehirleşme, sanayileşme ve ekonomik fırsatlarla yakından ilişkilidir. Kentler, ticaret, sanayi ve hizmet sektörlerinin merkezi haline gelir.",
+    "examples": [
+      "Sanayi devrimi sonrası şehirleşme",
+      "Metropollerin oluşumu",
+      "Gecekondu bölgeleri"
+    ],
+    "relatedTerms": [
+      "Kentleşme",
+      "Kentsel dönüşüm",
+      "Altyapı"
+    ],
+    "order": 8
+  },
+  {
+    "id": "tarimsal_verimlilik",
+    "term": "Tarımsal Verimlilik",
+    "definition": "Belirli bir alandan elde edilen tarım ürünlerinin miktarını veya değerini ifade eder. Verimlilik, kullanılan tohum, gübre, sulama teknikleri ve iklim koşulları gibi birçok faktöre bağlıdır. Yüksek tarımsal verimlilik, gıda güvenliği için önemlidir.",
+    "examples": [
+      "Birim alandan elde edilen buğday verimi",
+      "Hayvan başına elde edilen süt verimi",
+      "Meyve ağacı başına verim"
+    ],
+    "relatedTerms": [
+      "Gıda güvenliği",
+      "Sürdürülebilir tarım",
+      "Teknolojik tarım"
+    ],
+    "order": 9
+  },
+  {
+    "id": "sanayi_sektorleri",
+    "term": "Sanayi Sektörleri",
+    "definition": "Ekonomide mal üreten farklı sanayi dallarını ifade eder. Sanayi sektörleri, hafif sanayi ve ağır sanayi olarak sınıflandırılabilir. Her sektörün kendine özgü hammadde, enerji ve iş gücü ihtiyaçları bulunur.",
+    "examples": [
+      "Otomotiv sanayi",
+      "Gıda sanayi",
+      "Kimya sanayi",
+      "Tekstil sanayi"
+    ],
+    "relatedTerms": [
+      "Katma değer",
+      "Sanayi üretimi",
+      "Teknolojik yoğunluk"
+    ],
+    "order": 10
+  },
+  {
+    "id": "ulasim_aglari",
+    "term": "Ulaşım Ağları",
+    "definition": "İnsanların ve malların bir yerden başka bir yere taşınmasını sağlayan yollar, demiryolları, havaalanları ve limanlar gibi altyapı sistemleridir. Ulaşım ağlarının gelişmişliği, ekonomik faaliyetlerin verimliliğini ve entegrasyonunu artırır. Kara, deniz, hava ve demiryolu ulaşımı başlıca türleridir.",
+    "examples": [
+      "Otoyol ağı",
+      "Demiryolu hattı",
+      "Deniz limanları",
+      "Havaalanları"
+    ],
+    "relatedTerms": [
+      "Lojistik",
+      "Taşımacılık maliyeti",
+      "Ulaşım modları"
+    ],
+    "order": 11
+  },
+  {
+    "id": "dogal_kaynaklarin_yongetimi",
+    "term": "Doğal Kaynakların Yönetimi",
+    "definition": "Bir ülkenin sahip olduğu doğal kaynakların sürdürülebilir bir şekilde kullanılması ve korunmasıdır. Bu yönetim, ekonomik kalkınma ile çevresel dengeyi sağlamayı hedefler. Aşırı kullanım ve kirlilik, doğal kaynakların tükenmesine yol açabilir.",
+    "examples": [
+      "Su kaynaklarının korunması",
+      "Ormanların sürdürülebilir kullanımı",
+      "Maden rezervlerinin planlanması"
+    ],
+    "relatedTerms": [
+      "Sürdürülebilirlik",
+      "Çevre kirliliği",
+      "Kaynak tahsisi"
+    ],
+    "order": 12
+  },
+  {
+    "id": "gelir_dagilimi",
+    "term": "Gelir Dağılımı",
+    "definition": "Bir toplumdaki toplam gelirin bireyler veya haneler arasında nasıl paylaşıldığını ifade eder. Gelir dağılımındaki adaletsizlikler, toplumsal sorunlara yol açabilir. Ekonomik politikalar, gelir dağılımını etkileyebilir.",
+    "examples": [
+      "Gini katsayısı",
+      "Asgari ücret",
+      "Vergi politikaları"
+    ],
+    "relatedTerms": [
+      "Sosyal adalet",
+      "Ekonomik eşitsizlik",
+      "Yoksulluk"
+    ],
+    "order": 13
+  },
+  {
+    "id": "istihdam_ve_is_guucu",
+    "term": "İstihdam ve İş Gücü",
+    "definition": "Bir ekonomideki iş gücünün ne kadarının istihdam edildiğini ve iş gücünün yapısını inceler. İstihdam oranları, ekonomik sağlığın önemli bir göstergesidir. İşsizlik, ekonomik kalkınmanın önündeki engellerden biridir.",
+    "examples": [
+      "İşsizlik oranı",
+      "Sektörel istihdam",
+      "Genç işsizliği"
+    ],
+    "relatedTerms": [
+      "İşsizlik",
+      "İş gücü piyasası",
+      "Asgari ücret"
+    ],
+    "order": 14
+  },
+  {
+    "id": "tarimsal_ihracat",
+    "term": "Tarımsal İhracat",
+    "definition": "Bir ülkenin ürettiği tarım ürünlerini başka ülkelere satmasıdır. Tarımsal ihracat, ülke ekonomisine döviz girdisi sağlar ve tarım sektörünün gelişmesine katkıda bulunur. İhracat ürünlerinin kalitesi ve rekabet gücü önemlidir.",
+    "examples": [
+      "Fındık ihracatı",
+      "Kayısı ihracatı",
+      "Domates ihracatı"
+    ],
+    "relatedTerms": [
+      "Dış ticaret",
+      "Tarım ürünleri",
+      "Pazar araştırması"
+    ],
+    "order": 15
+  },
+  {
+    "id": "sanayi_yatirimlari",
+    "term": "Sanayi Yatırımları",
+    "definition": "Sanayi tesislerinin kurulması, genişletilmesi veya modernize edilmesi için yapılan harcamalardır. Yatırımlar, yeni istihdam alanları yaratır ve üretim kapasitesini artırır. Devlet teşvikleri ve yabancı sermaye, sanayi yatırımlarını etkiler.",
+    "examples": [
+      "Yeni fabrika kurulumu",
+      "Makine parkuru yenileme",
+      "Ar-Ge yatırımları"
+    ],
+    "relatedTerms": [
+      "Yabancı sermaye",
+      "Devlet teşvikleri",
+      "Kalkınma planları"
+    ],
+    "order": 16
+  },
+  {
+    "id": "enerji_politikasi",
+    "term": "Enerji Politikası",
+    "definition": "Bir ülkenin enerji kaynaklarının üretimi, dağıtımı ve tüketimi ile ilgili izlediği stratejilerdir. Enerji politikaları, enerji güvenliği, fiyat istikrarı ve çevresel sürdürülebilirlik gibi hedeflere ulaşmayı amaçlar. Yenilenebilir enerji kaynaklarının kullanımı, enerji politikasının önemli bir parçasıdır.",
+    "examples": [
+      "Nükleer enerji santralleri",
+      "Yenilenebilir enerji teşvikleri",
+      "Enerji verimliliği"
+    ],
+    "relatedTerms": [
+      "Enerji kaynakları",
+      "Enerji güvenliği",
+      "Fosil yakıtlar"
+    ],
+    "order": 17
+  },
+  {
+    "id": "maden_rezervleri",
+    "term": "Maden Rezervleri",
+    "definition": "Bir bölgede ekonomik olarak çıkarılabilir durumdaki maden yataklarının miktarıdır. Maden rezervlerinin bilinmesi, ülke ekonomisinin geleceği açısından önemlidir. Rezervlerin tükenmesi, yeni kaynak arayışını zorunlu kılar.",
+    "examples": [
+      "Türkiye'nin bor rezervleri",
+      "Dünyanın petrol rezervleri",
+      "Kömür yatakları"
+    ],
+    "relatedTerms": [
+      "Madencilik",
+      "Tükenen kaynaklar",
+      "Jeolojik araştırmalar"
+    ],
+    "order": 18
+  },
+  {
+    "id": "turizm_potansiyeli",
+    "term": "Turizm Potansiyeli",
+    "definition": "Bir bölgenin turistik çekiciliğini oluşturan doğal, tarihi ve kültürel değerlerin toplamıdır. Turizm potansiyeli, bölgenin turizm gelirlerini ve gelişimini doğrudan etkiler. Doğal güzellikler, tarihi eserler ve yerel kültür, turizm potansiyelini artırır.",
+    "examples": [
+      "Sahil şeritleri",
+      "Tarihi kentler",
+      "Milli parklar"
+    ],
+    "relatedTerms": [
+      "Turizm ekonomisi",
+      "Kültürel miras",
+      "Doğal güzellikler"
+    ],
+    "order": 19
+  },
+  {
+    "id": "kuresel_ticaret",
+    "term": "Küresel Ticaret",
+    "definition": "Ülkeler arasındaki mal ve hizmet alım satımıdır. Küresel ticaret, ülkelerin uzmanlaştığı alanlarda üretim yapmasını ve ihtiyaç duyduğu ürünleri ithal etmesini sağlar. Dünya ticaret örgütü (WTO), küresel ticaretin düzenlenmesinde rol oynar.",
+    "examples": [
+      "Uluslararası mal değişimi",
+      "Serbest ticaret anlaşmaları",
+      "Gümrük vergileri"
+    ],
+    "relatedTerms": [
+      "Dış ticaret",
+      "İhracat",
+      "İthalat"
+    ],
+    "order": 20
+  },
+  {
+    "id": "tarimsal_yapilar",
+    "term": "Tarımsal Yapılar",
+    "definition": "Tarım arazilerinin büyüklüğü, işletme sahipliği ve kullanılan yöntemler gibi tarımsal üretimdeki düzenlemelerdir. Tarımsal yapılar, verimlilik ve üretim çeşitliliğini etkiler. Küçük aile işletmeleri ve büyük tarım işletmeleri farklı yapılar sunar.",
+    "examples": [
+      "Küçük aile işletmeleri",
+      "Büyük ölçekli tarım işletmeleri",
+      "Kooperatifler"
+    ],
+    "relatedTerms": [
+      "Arazi kullanımı",
+      "Tarım politikaları",
+      "Toprak mülkiyeti"
+    ],
+    "order": 21
+  },
+  {
+    "id": "tarimsal_alan_kullanimi",
+    "term": "Tarımsal Alan Kullanımı",
+    "definition": "Bir bölgedeki tarıma elverişli arazilerin hangi amaçlarla kullanıldığını ifade eder. Bu kullanım, ekim alanları, mera alanları, ormanlar ve yerleşim alanları gibi farklılıklar gösterebilir. Tarımsal alan kullanımının planlanması, gıda güvenliği ve çevresel sürdürülebilirlik açısından önemlidir.",
+    "examples": [
+      "Türkiye'de buğday ekilen alanlar",
+      "Avustralya'da büyükbaş mera alanları",
+      "Hollanda'da seracılık için kullanılan alanlar"
+    ],
+    "relatedTerms": [
+      "Arazi Örtüsü",
+      "Toprak Kullanımı",
+      "Arazi Sınıflandırması"
+    ],
+    "order": 22
+  },
+  {
+    "id": "endustriyel_bolgeler",
+    "term": "Endüstriyel Bölgeler",
+    "definition": "Belirli bir sanayi dalının yoğunlaştığı, bu sanayiye ait üretim tesislerinin ve ilgili altyapının bulunduğu coğrafi alanlardır. Bu bölgeler, hammaddelere yakınlık, ulaşım kolaylığı ve iş gücü gibi faktörler nedeniyle oluşur. Organize sanayi bölgeleri bu kavramın önemli bir örneğidir.",
+    "examples": [
+      "Almanya'nın Ruhr Bölgesi (kömür ve çelik)",
+      "İtalya'nın Kuzeydoğu Bölgesi (mobilya ve tekstil)",
+      "Türkiye'nin Gebze Sanayi Bölgesi"
+    ],
+    "relatedTerms": [
+      "Sanayi Konumu",
+      "Organize Sanayi Bölgeleri",
+      "Sanayi Devrimi"
+    ],
+    "order": 23
+  },
+  {
+    "id": "yenilenebilir_enerji_kaynaklari",
+    "term": "Yenilenebilir Enerji Kaynakları",
+    "definition": "Doğada sürekli olarak bulunan veya kısa sürede kendini yenileyebilen enerji kaynaklarıdır. Bu kaynaklar, fosil yakıtlara göre çevre dostudur ve sürdürülebilir bir enerji geleceği için kritik öneme sahiptir. Güneş, rüzgar, su, jeotermal ve biyokütle bu kaynaklara örnektir.",
+    "examples": [
+      "Güneş enerjisi santralleri",
+      "Rüzgar türbinleri",
+      "Hidroelektrik santraller"
+    ],
+    "relatedTerms": [
+      "Enerji Dönüşümü",
+      "Sürdürülebilir Enerji",
+      "Fosil Yakıtlar"
+    ],
+    "order": 24
+  },
+  {
+    "id": "maden_isleme_sanayii",
+    "term": "Maden İşleme Sanayii",
+    "definition": "Çıkarılan ham madenlerin, kullanım amacına uygun hale getirilmesi için işlendiği sanayi koludur. Bu süreç, cevherin zenginleştirilmesi, rafine edilmesi veya alaşımlar haline getirilmesini içerebilir. Maden işleme sanayii, nihai ürünlerin üretiminde önemli bir ara sanayidir.",
+    "examples": [
+      "Demir cevherinin çeliğe dönüştürülmesi",
+      "Boksitin alüminyuma işlenmesi",
+      "Altının saflaştırılması"
+    ],
+    "relatedTerms": [
+      "Ham Madde",
+      "Katma Değer",
+      "Metalurji"
+    ],
+    "order": 25
+  },
+  {
+    "id": "rekreasyonel_turizm",
+    "term": "Rekreasyonel Turizm",
+    "definition": "İnsanların boş zamanlarını değerlendirmek, dinlenmek ve eğlenmek amacıyla gerçekleştirdiği turizm türüdür. Bu tür turizm, doğa ile iç içe olmayı, spor aktivitelerini veya kültürel etkinlikleri kapsayabilir. Tatil köyleri ve doğa parkları bu turizmin merkezleridir.",
+    "examples": [
+      "Kayak merkezleri",
+      "Plaj turizmi",
+      "Doğa yürüyüşü ve kampçılık"
+    ],
+    "relatedTerms": [
+      "Kültürel Turizm",
+      "Sağlık Turizmi",
+      "Eko-turizm"
+    ],
+    "order": 26
+  },
+  {
+    "id": "ic_ticaret",
+    "term": "İç Ticaret",
+    "definition": "Bir ülkenin sınırları içinde, farklı bölgeler veya şehirler arasında yapılan mal ve hizmet alım satımıdır. İç ticaret, ülke ekonomisinin canlanmasına, bölgesel kalkınmaya ve istihdamın artmasına katkı sağlar. Üreticiler ile tüketiciler arasındaki bağlantıyı güçlendirir.",
+    "examples": [
+      "İstanbul'dan Ankara'ya sebze sevkiyatı",
+      "İzmir'den Kayseri'ye tekstil ürünleri satışı",
+      "Yerel pazarlarda tarım ürünlerinin alınıp satılması"
+    ],
+    "relatedTerms": [
+      "Dış Ticaret",
+      "Pazar",
+      "Tedarik Zinciri"
+    ],
+    "order": 27
+  },
+  {
+    "id": "nufus_yogunlugu",
+    "term": "Nüfus Yoğunluğu",
+    "definition": "Belirli bir coğrafi alanda yaşayan insan sayısının, o alanın yüz ölçümüne oranıdır. Nüfus yoğunluğu, bir bölgenin yerleşim durumu, ekonomik faaliyetleri ve altyapısı hakkında bilgi verir. Yüksek nüfus yoğunluğu genellikle şehirlerde görülür.",
+    "examples": [
+      "Monako'nun yüksek nüfus yoğunluğu",
+      "Kanada'nın seyrek nüfuslu bölgeleri",
+      "Bangladeş'in yoğun nüfuslu delta bölgeleri"
+    ],
+    "relatedTerms": [
+      "Nüfus Piramitleri",
+      "Kır-kent Nüfusu",
+      "Göç"
+    ],
+    "order": 28
+  },
+  {
+    "id": "metropollesme",
+    "term": "Metropolleşme",
+    "definition": "Büyük şehirlerin (metropollerin) nüfus, ekonomik ve sosyal açıdan giderek büyümesi ve çevresindeki daha küçük yerleşim birimlerini etkisi altına alması sürecidir. Metropolleşme, kentsel alanların genişlemesine, altyapı sorunlarına ve sosyal değişimlere yol açabilir. Bu süreç, küreselleşme ile de yakından ilişkilidir.",
+    "examples": [
+      "Tokyo metropol alanı",
+      "New York metropol alanı",
+      "İstanbul metropol alanı"
+    ],
+    "relatedTerms": [
+      "Kentleşme",
+      "Kentsel Yayılma",
+      "Megakent"
+    ],
+    "order": 29
+  },
+  {
+    "id": "tarimsal_inovasyon",
+    "term": "Tarımsal İnovasyon",
+    "definition": "Tarım sektöründe verimliliği, karlılığı ve sürdürülebilirliği artırmak amacıyla yeni teknolojilerin, yöntemlerin veya ürünlerin geliştirilmesi ve uygulanmasıdır. Bu, genetik ıslah, modern sulama teknikleri, hassas tarım uygulamaları veya yeni pazarlama stratejilerini içerebilir. İnovasyon, tarımın geleceği için hayati önem taşır.",
+    "examples": [
+      "Genetiği değiştirilmiş ürünler (GDO)",
+      "Dikey tarım sistemleri",
+      "Drone ile ilaçlama"
+    ],
+    "relatedTerms": [
+      "Teknokent",
+      "Ar-Ge",
+      "Tarımsal Teknoloji"
+    ],
+    "order": 30
+  },
+  {
+    "id": "hizmet_sektoru",
+    "term": "Hizmet Sektörü",
+    "definition": "Mal üretimi yerine hizmet sunan ekonomik faaliyetleri kapsayan sektördür. Bu sektör, finans, eğitim, sağlık, turizm, ulaştırma, iletişim ve perakende gibi geniş bir yelpazeyi içerir. Gelişmiş ekonomilerde hizmet sektörü genellikle en büyük paya sahiptir.",
+    "examples": [
+      "Bankacılık hizmetleri",
+      "Eğitim kurumları",
+      "Sağlık kuruluşları"
+    ],
+    "relatedTerms": [
+      "Birincil Sektör",
+      "İkincil Sektör",
+      "Katma Değerli Hizmetler"
+    ],
+    "order": 31
+  },
+  {
+    "id": "lojistik_merkezleri",
+    "term": "Lojistik Merkezleri",
+    "definition": "Malın depolanması, taşınması, dağıtımı ve ilgili diğer hizmetlerin organize edildiği coğrafi noktalardır. Bu merkezler, tedarik zincirinin verimliliğini artırır ve ticareti kolaylaştırır. Limanlar, havaalanları ve büyük dağıtım depoları lojistik merkezleri olarak işlev görür.",
+    "examples": [
+      "Rotterdam Limanı",
+      "Dubai Uluslararası Havaalanı Kargo Terminali",
+      "Amazon'un Avrupa'daki dağıtım merkezleri"
+    ],
+    "relatedTerms": [
+      "Tedarik Zinciri Yönetimi",
+      "Depolama",
+      "Multimodal Taşımacılık"
+    ],
+    "order": 32
+  },
+  {
+    "id": "su_kaynaklari_yonetimi",
+    "term": "Su Kaynakları Yönetimi",
+    "definition": "Su kaynaklarının sürdürülebilir bir şekilde kullanımını, korunmasını ve dağıtımını planlama ve uygulama sürecidir. Bu, tarım, sanayi ve evsel kullanımlar için suyun adil ve verimli bir şekilde tahsis edilmesini içerir. Kuraklık ve su kıtlığı ile mücadelede kritik öneme sahiptir.",
+    "examples": [
+      "Barajların inşası ve işletilmesi",
+      "Sulama sistemlerinin modernizasyonu",
+      "Atık su arıtma ve geri dönüşümü"
+    ],
+    "relatedTerms": [
+      "Su Kirliliği",
+      "Hidroloji",
+      "Su Tasarrufu"
+    ],
+    "order": 33
+  },
+  {
+    "id": "gelir_esitsizligi",
+    "term": "Gelir Eşitsizliği",
+    "definition": "Bir toplumdaki bireyler veya gruplar arasındaki gelir dağılımında görülen farklılıklardır. Gelir eşitsizliği, sosyal adaletsizliklere, ekonomik istikrarsızlığa ve toplumsal gerilimlere yol açabilir. Vergi politikaları ve sosyal yardımlar bu durumu etkileyen faktörlerdendir.",
+    "examples": [
+      "Gelişmiş ülkelerdeki gelir uçurumu",
+      "Gelişmekte olan ülkelerde artan gelir farkları",
+      "Servet dağılımındaki adaletsizlikler"
+    ],
+    "relatedTerms": [
+      "Gelişmişlik Düzeyi",
+      "Sosyal Adalet",
+      "Yoksulluk"
+    ],
+    "order": 34
+  },
+  {
+    "id": "isgucu_piyasasi",
+    "term": "İş Gücü Piyasası",
+    "definition": "İşverenlerin iş gücü taleplerini ve çalışanların iş gücü arzını karşıladığı ekonomik alandır. Bu piyasa, ücretleri, istihdam düzeyini ve çalışma koşullarını belirler. Eğitim düzeyi, beceri ve sektördeki değişimler iş gücü piyasasını etkiler.",
+    "examples": [
+      "Teknoloji sektöründeki nitelikli iş gücü talebi",
+      "İnşaat sektöründeki mevsimlik iş gücü",
+      "Genç işsizlik oranları"
+    ],
+    "relatedTerms": [
+      "İşsizlik",
+      "Asgari Ücret",
+      "Sendikacılık"
+    ],
+    "order": 35
+  },
+  {
+    "id": "tarimsal_ihracat_fazlasi",
+    "term": "Tarımsal İhracat Fazlası",
+    "definition": "Bir ülkenin tarım ürünleri ihracatının, tarım ürünleri ithalatından fazla olması durumudur. Bu durum, ülkenin tarımsal üretimde kendine yeterli olduğunu ve uluslararası pazarda rekabet gücüne sahip olduğunu gösterir. Tarımsal ihracat fazlası, dış ticaret dengesine olumlu katkı sağlar.",
+    "examples": [
+      "Türkiye'nin fındık ihracatı",
+      "Brezilya'nın kahve ihracatı",
+      "Mısır'ın narenciye ihracatı"
+    ],
+    "relatedTerms": [
+      "Dış Ticaret Dengesi",
+      "Tarım Politikaları",
+      "Küresel Tarım Piyasası"
+    ],
+    "order": 36
+  },
+  {
+    "id": "dogrudan_yabanci_yatirim",
+    "term": "Doğrudan Yabancı Yatırım (DYY)",
+    "definition": "Yabancı bir şirketin veya yatırımcının, başka bir ülkedeki bir işletmede kontrol sahibi olmak amacıyla yaptığı yatırımdır. DYY, teknoloji transferi, istihdam yaratma ve ekonomik büyümeyi teşvik edebilir. Fabrika kurma, şirket satın alma veya ortaklıklar bu tür yatırımlara örnek olabilir.",
+    "examples": [
+      "Yabancı otomotiv firmalarının Türkiye'de fabrika kurması",
+      "Bir Amerikan teknoloji şirketinin Avrupa'da bir startup'ı satın alması",
+      "Çinli bir şirketin Afrika'da altyapı projesine yatırım yapması"
+    ],
+    "relatedTerms": [
+      "Sermaye Hareketleri",
+      "Uluslararası Ekonomi",
+      "Yatırım Ortamı"
+    ],
+    "order": 37
+  },
+  {
+    "id": "enerji_guvenligi",
+    "term": "Enerji Güvenliği",
+    "definition": "Bir ülkenin, ekonomik büyüme ve toplumsal refahı destekleyecek şekilde, yeterli miktarda ve uygun fiyatlı enerjiye sürekli erişimini sağlama durumudur. Enerji güvenliği, yerli kaynakların kullanımı, ithalata bağımlılığın azaltılması ve enerji arzının çeşitlendirilmesi ile sağlanır. Jeopolitik riskler enerji güvenliğini etkileyebilir.",
+    "examples": [
+      "Doğal gaz boru hatları projeleri",
+      "Nükleer enerji santrallerinin inşası",
+      "Yenilenebilir enerji kaynaklarına yönelim"
+    ],
+    "relatedTerms": [
+      "Enerji Piyasası",
+      "Jeopolitik",
+      "Enerji İthalatı"
+    ],
+    "order": 38
+  },
+  {
+    "id": "maden_ihracati",
+    "term": "Maden İhracatı",
+    "definition": "Bir ülkenin çıkardığı veya işlediği madenlerin yurt dışına satılmasıdır. Maden ihracatı, ülkenin döviz gelirlerini artırır ve dış ticaret dengesine katkı sağlar. Madenlerin türü, kalitesi ve küresel talep bu ihracatı etkiler.",
+    "examples": [
+      "Türkiye'nin krom ihracatı",
+      "Şili'nin bakır ihracatı",
+      "Avustralya'nın demir cevheri ihracatı"
+    ],
+    "relatedTerms": [
+      "Maden Rezervleri",
+      "Dış Ticaret",
+      "Emtia Fiyatları"
+    ],
+    "order": 39
+  },
+  {
+    "id": "kulturel_turizm",
+    "term": "Kültürel Turizm",
+    "definition": "İnsanların tarihi, sanatsal, arkeolojik ve kültürel miras alanlarını ziyaret etmek amacıyla gerçekleştirdiği turizm türüdür. Bu tür turizm, müze gezileri, tarihi kent ziyaretleri, festivaller ve geleneksel etkinlikleri kapsar. Kültürel turizm, yerel kültürlerin korunmasına ve tanıtılmasına katkı sağlar.",
+    "examples": [
+      "Roma'daki Kolezyum ziyareti",
+      "Mısır'daki piramitler turu",
+      "Fransa'daki Louvre Müzesi"
+    ],
+    "relatedTerms": [
+      "Tarihi Miras",
+      "Arkeoloji",
+      "Somut Olmayan Kültürel Miras"
+    ],
+    "order": 40
+  },
+  {
+    "id": "serbest_ticaret_anlasmalari",
+    "term": "Serbest Ticaret Anlaşmaları (STA)",
+    "definition": "İki veya daha fazla ülke arasında, üye ülkeler arasındaki ticaret engellerini (gümrük vergileri, kotalar vb.) azaltmayı veya kaldırmayı amaçlayan anlaşmalardır. STA'lar, ticareti teşvik eder, ekonomik büyümeyi hızlandırır ve yatırım fırsatlarını artırır. Bu anlaşmalar, küresel ticaretin önemli bir parçasıdır.",
+    "examples": [
+      "Kuzey Amerika Serbest Ticaret Anlaşması (NAFTA)",
+      "Avrupa Birliği (AB) iç pazarı",
+      "Türkiye ile Gelişmiş Ülkeler arasındaki STA'lar"
+    ],
+    "relatedTerms": [
+      "Gümrük Birliği",
+      "Ekonomik Entegrasyon",
+      "Uluslararası Ticaret Hukuku"
+    ],
+    "order": 41
+  },
+  {
+    "id": "tarimsal_yapilanma",
+    "term": "Tarımsal Yapılanma",
+    "definition": "Bir bölgedeki tarım arazilerinin büyüklüğü, işletme tipleri ve üretim desenlerinin genel yapısını ifade eder. Bu yapılanma, küçük aile işletmelerinden büyük ticari çiftliklere kadar çeşitlilik gösterebilir. Tarımsal yapılanma, teknolojik düzey, pazar erişimi ve devlet politikalarından etkilenir.",
+    "examples": [
+      "ABD'deki büyük ölçekli mısır ve soya fasulyesi çiftlikleri",
+      "Hindistan'daki küçük ölçekli pirinç tarlaları",
+      "Avrupa'daki kooperatif tarım modelleri"
+    ],
+    "relatedTerms": [
+      "Arazi Mülkiyeti",
+      "Tarım İşletmeleri",
+      "Kırsal Kalkınma"
+    ],
+    "order": 42
+  },
+  {
+    "id": "tarimsal_destekleme_politikalari",
+    "term": "Tarımsal Destekleme Politikaları",
+    "definition": "Devletin tarımsal üretimi teşvik etmek, çiftçinin gelirini artırmak ve tarımsal istikrarı sağlamak amacıyla uyguladığı politikalardır. Bu politikalar sübvansiyonlar, alım garantileri ve vergi indirimleri gibi çeşitli araçları içerebilir.",
+    "examples": [
+      "Toprak Mahsulleri Ofisi (TMO) alımları",
+      "Çiftçi Kayıt Sistemi (ÇKS) desteklemeleri",
+      "Mazot ve gübre destekleri"
+    ],
+    "relatedTerms": [
+      "Tarım Sigortaları",
+      "Kooperatifçilik",
+      "Tarım Kredi Kooperatifleri"
+    ],
+    "order": 43
+  },
+  {
+    "id": "sanayi_devrimi_etkileri",
+    "term": "Sanayi Devrimi Etkileri",
+    "definition": "Sanayi Devrimi'nin üretim biçimleri, toplumsal yapı, kentleşme ve ekonomik sistemler üzerindeki köklü değişimleridir. Bu etkiler, seri üretime geçiş, iş gücü göçü ve yeni sınıf oluşumları gibi alanlarda gözlemlenir.",
+    "examples": [
+      "Buhar gücünün kullanımı",
+      "Fabrikalaşma",
+      "Demiryollarının gelişimi"
+    ],
+    "relatedTerms": [
+      "Teknolojik Gelişme",
+      "Kapitalizm",
+      "İşçi Sınıfı"
+    ],
+    "order": 44
+  },
+  {
+    "id": "enerji_verimliligi",
+    "term": "Enerji Verimliliği",
+    "definition": "Belirli bir işi yapmak için kullanılan enerji miktarının azaltılmasıdır. Enerji verimliliği, hem ekonomik tasarruf sağlar hem de çevresel etkileri azaltır.",
+    "examples": [
+      "Yalıtımlı binalar",
+      "LED aydınlatma",
+      "Enerji tasarruflu ev aletleri"
+    ],
+    "relatedTerms": [
+      "Enerji Politikası",
+      "Yenilenebilir Enerji Kaynakları",
+      "Sürdürülebilirlik"
+    ],
+    "order": 45
+  },
+  {
+    "id": "maden_cevre_etkileri",
+    "term": "Maden Çevre Etkileri",
+    "definition": "Madenlerin çıkarılması, işlenmesi ve taşınması süreçlerinin çevre üzerinde yarattığı olumsuz etkilerdir. Bu etkiler toprak, su ve hava kirliliği ile biyoçeşitlilik kaybını içerebilir.",
+    "examples": [
+      "Asit yağmurları",
+      "Atık su deşarjı",
+      "Toprak erozyonu"
+    ],
+    "relatedTerms": [
+      "Çevresel Etki Değerlendirmesi (ÇED)",
+      "Sürdürülebilir Madencilik",
+      "Doğal Kaynakların Yönetimi"
+    ],
+    "order": 46
+  },
+  {
+    "id": "kongre_turizmi",
+    "term": "Kongre Turizmi",
+    "definition": "İş, bilim, sanat ve diğer alanlarda düzenlenen ulusal veya uluslararası kongre, seminer, fuar gibi etkinliklere katılım amacıyla yapılan seyahatlerdir. Bu turizm türü, şehirlerin ekonomik kalkınmasına önemli katkı sağlar.",
+    "examples": [
+      "Uluslararası tıp kongreleri",
+      "Teknoloji fuarları",
+      "Siyasi zirveler"
+    ],
+    "relatedTerms": [
+      "Kültürel Turizm",
+      "Turizm Mevsimi",
+      "Destinasyon Yönetimi"
+    ],
+    "order": 47
+  },
+  {
+    "id": "tedarik_zinciri_yonetimi",
+    "term": "Tedarik Zinciri Yönetimi",
+    "definition": "Bir ürünün hammaddeden son kullanıcıya ulaşana kadar geçen tüm süreçlerin planlanması, uygulanması ve kontrol edilmesidir. Etkin bir tedarik zinciri yönetimi, maliyetleri düşürür ve müşteri memnuniyetini artırır.",
+    "examples": [
+      "Depolama ve stok yönetimi",
+      "Nakliye planlaması",
+      "Gümrük işlemleri"
+    ],
+    "relatedTerms": [
+      "Lojistik",
+      "Ticaret",
+      "Küresel Ticaret"
+    ],
+    "order": 48
+  },
+  {
+    "id": "nufus_yapisi_degiskenleri",
+    "term": "Nüfus Yapısı Değişkenleri",
+    "definition": "Bir ülkenin nüfusunu demografik, sosyal ve ekonomik açılardan tanımlayan özelliklerdir. Bu değişkenler yaş, cinsiyet, eğitim durumu, medeni hal ve meslek gibi unsurları içerir.",
+    "examples": [
+      "Ortalama yaşam süresi",
+      "Bağımlılık oranı",
+      "Okuryazarlık oranı"
+    ],
+    "relatedTerms": [
+      "Nüfus Dağılışı",
+      "Nüfus Piramitleri",
+      "Demografik Geçiş"
+    ],
+    "order": 49
+  },
+  {
+    "id": "kentsel_donusum",
+    "term": "Kentsel Dönüşüm",
+    "definition": "Şehirlerdeki eski, yıpranmış veya plansız yapıların yerine modern, güvenli ve yaşanabilir yaşam alanları oluşturma sürecidir. Bu süreç, kentsel altyapıyı iyileştirmeyi ve yaşam kalitesini artırmayı hedefler.",
+    "examples": [
+      "Riskli yapıların yıkılıp yeniden yapılması",
+      "Sosyal donatı alanlarının artırılması",
+      "Yeşil alanların oluşturulması"
+    ],
+    "relatedTerms": [
+      "Şehirleşme",
+      "Metropolleşme",
+      "Kentsel Planlama"
+    ],
+    "order": 50
+  },
+  {
+    "id": "tarimsal_inovasyon_teknolojileri",
+    "term": "Tarımsal İnovasyon Teknolojileri",
+    "definition": "Tarım sektöründe verimliliği, kaliteyi ve sürdürülebilirliği artırmak için kullanılan yenilikçi teknolojilerdir. Bu teknolojiler, genetik ıslah, hassas tarım ve biyoteknoloji gibi alanları kapsar.",
+    "examples": [
+      "Genetiği değiştirilmiş organizmalar (GDO)",
+      "Dronlarla ilaçlama",
+      "Otomatik sulama sistemleri"
+    ],
+    "relatedTerms": [
+      "Tarımsal Üretim Yöntemleri",
+      "Biyoteknoloji",
+      "Hassas Tarım"
+    ],
+    "order": 51
+  },
+  {
+    "id": "sanayide_otomasyon",
+    "term": "Sanayide Otomasyon",
+    "definition": "Üretim süreçlerinde insan müdahalesini azaltarak makineler ve yazılımlar aracılığıyla işleyişin otomatikleştirilmesidir. Otomasyon, üretim hızını ve kalitesini artırırken iş gücü maliyetlerini düşürebilir.",
+    "examples": [
+      "Robotik üretim hatları",
+      "Otomatik paketleme makineleri",
+      "Kontrol sistemleri"
+    ],
+    "relatedTerms": [
+      "Sanayi Sektörleri",
+      "Teknolojik Gelişme",
+      "Endüstri 4.0"
+    ],
+    "order": 52
+  },
+  {
+    "id": "demiryolu_aglari",
+    "term": "Demiryolu Ağları",
+    "definition": "Ülkelerin veya bölgelerin demiryolu hatları ile birbirine bağlanmasını sağlayan sistemlerdir. Demiryolları, özellikle yük ve yolcu taşımacılığında önemli bir ulaşım ağıdır.",
+    "examples": [
+      "Yüksek hızlı tren hatları",
+      "Yük taşımacılığı demiryolları",
+      "Kentsel raylı sistemler"
+    ],
+    "relatedTerms": [
+      "Ulaşım Ağları",
+      "Lojistik",
+      "Kara Yolu Taşımacılığı"
+    ],
+    "order": 53
+  },
+  {
+    "id": "su_kaynaklari_kirliligi",
+    "term": "Su Kaynakları Kirliliği",
+    "definition": "Su kaynaklarının endüstriyel atıklar, tarımsal ilaçlar, evsel atıklar ve diğer kirleticilerle bozulması durumudur. Kirlilik, suyun kullanımını sınırlar ve ekosistemlere zarar verir.",
+    "examples": [
+      "Endüstriyel atıkların nehirlere deşarjı",
+      "Tarım ilaçlarının yeraltı sularına karışması",
+      "Plastik atıkların denizlere ulaşması"
+    ],
+    "relatedTerms": [
+      "Su Kaynakları Yönetimi",
+      "Çevre Kirliliği",
+      "Sürdürülebilirlik"
+    ],
+    "order": 54
+  },
+  {
+    "id": "gelir_degiskenligi",
+    "term": "Gelir Değişkenliği",
+    "definition": "Bir ülke veya bölgedeki bireylerin veya hanelerin gelir düzeylerinde meydana gelen dalgalanmalar ve farklılıklardır. Bu değişkenlik, ekonomik istikrar ve sosyal adalet açısından önemlidir.",
+    "examples": [
+      "Enflasyonun alım gücüne etkisi",
+      "Mevsimlik işlerde gelir dalgalanmaları",
+      "Ekonomik krizlerin gelir üzerindeki etkisi"
+    ],
+    "relatedTerms": [
+      "Gelir Dağılımı",
+      "Gelir Eşitsizliği",
+      "Ekonomik Büyüme"
+    ],
+    "order": 55
+  },
+  {
+    "id": "is_gucu_gocu",
+    "term": "İş Gücü Göçü",
+    "definition": "İnsanların daha iyi iş olanakları, daha yüksek ücretler veya daha iyi yaşam koşulları bulmak amacıyla bir yerden başka bir yere taşınmasıdır. Bu göç, hem göç veren hem de göç alan ülkeler için sosyo-ekonomik etkiler yaratır.",
+    "examples": [
+      "Kırsaldan kente göç",
+      "Uluslararası işçi göçü",
+      "Beyin göçü"
+    ],
+    "relatedTerms": [
+      "İstihdam ve İş Gücü",
+      "Nüfus Dağılışı",
+      "Demografi"
+    ],
+    "order": 56
+  },
+  {
+    "id": "tarimsal_ihracat_urunleri",
+    "term": "Tarımsal İhracat Ürünleri",
+    "definition": "Bir ülkenin tarım sektöründe üreterek yurt dışına sattığı ürünlerdir. Bu ürünler, ülkenin dış ticaret dengesine ve ekonomik kalkınmasına katkı sağlar.",
+    "examples": [
+      "Fındık ihracatı",
+      "Buğday ihracatı",
+      "Meyve ve sebze ihracatı"
+    ],
+    "relatedTerms": [
+      "Tarımsal İhracat",
+      "Dış Ticaret",
+      "Tarım Politikaları"
+    ],
+    "order": 57
+  },
+  {
+    "id": "sanayi_yatirimi_tesvikleri",
+    "term": "Sanayi Yatırımı Teşvikleri",
+    "definition": "Devletin, sanayi sektöründe yeni yatırımların yapılması, mevcut yatırımların geliştirilmesi ve istihdamın artırılması amacıyla sağladığı desteklerdir. Bu teşvikler vergi muafiyetleri, kredi olanakları veya arazi tahsisi şeklinde olabilir.",
+    "examples": [
+      "Bölgesel yatırım teşvikleri",
+      "AR-GE yatırımı destekleri",
+      "Enerji verimli makine yatırımları"
+    ],
+    "relatedTerms": [
+      "Sanayi Yatırımları",
+      "Doğrudan Yabancı Yatırım (DYY)",
+      "Ekonomik Kalkınma"
+    ],
+    "order": 58
+  },
+  {
+    "id": "enerji_politikasi_araclari",
+    "term": "Enerji Politikası Araçları",
+    "definition": "Devletlerin enerji kaynaklarının yönetimi, üretimi, tüketimi ve güvenliği konularında uyguladığı stratejiler ve mekanizmalardır. Bu araçlar düzenlemeler, vergiler, sübvansiyonlar ve uluslararası anlaşmalar olabilir.",
+    "examples": [
+      "Enerji piyasası düzenlemeleri",
+      "Yenilenebilir enerji teşvikleri",
+      "Nükleer enerji politikaları"
+    ],
+    "relatedTerms": [
+      "Enerji Kaynakları",
+      "Enerji Güvenliği",
+      "Sürdürülebilir Enerji"
+    ],
+    "order": 59
+  },
+  {
+    "id": "maden_rezervleri_dagilimi",
+    "term": "Maden Rezervleri Dağılımı",
+    "definition": "Dünya üzerindeki veya belirli bir ülkedeki maden yataklarının coğrafi olarak nasıl dağıldığıdır. Rezervlerin dağılımı, ülkelerin ekonomik güçlerini ve jeopolitik konumlarını etkiler.",
+    "examples": [
+      "Petrol rezervlerinin Orta Doğu'da yoğunlaşması",
+      "Kömür rezervlerinin Çin ve ABD'de bulunması",
+      "Doğal gaz rezervlerinin Rusya ve İran'da olması"
+    ],
+    "relatedTerms": [
+      "Madencilik",
+      "Doğal Kaynaklar",
+      "Ekonomik Coğrafya"
+    ],
+    "order": 60
+  },
+  {
+    "id": "turizm_pazarlamasi",
+    "term": "Turizm Pazarlaması",
+    "definition": "Turizm destinasyonlarının, ürünlerinin ve hizmetlerinin potansiyel turistlere tanıtılması ve cazip hale getirilmesi sürecidir. Bu süreç, reklam, halkla ilişkiler ve dijital pazarlama gibi araçları kullanır.",
+    "examples": [
+      "Tanıtım filmleri",
+      "Sosyal medya kampanyaları",
+      "Fuarlarda tanıtım stantları"
+    ],
+    "relatedTerms": [
+      "Turizm Ekonomisi",
+      "Turizm Potansiyeli",
+      "Destinasyon Yönetimi"
+    ],
+    "order": 61
+  },
+  {
+    "id": "kuresel_deger_zincirleri",
+    "term": "Küresel Değer Zincirleri",
+    "definition": "Bir ürünün veya hizmetin üretim, pazarlama ve dağıtım süreçlerinin farklı ülkelerde ve firmalar arasında bölünerek gerçekleştirildiği ağlardır. Bu zincirler, küresel ekonomik entegrasyonu ve iş bölümünü yansıtır.",
+    "examples": [
+      "Elektronik ürünlerin montajı",
+      "Otomotiv tedarik zincirleri",
+      "Hazır giyim üretimi"
+    ],
+    "relatedTerms": [
+      "Küresel Ticaret",
+      "Tedarik Zinciri Yönetimi",
+      "Doğrudan Yabancı Yatırım (DYY)"
+    ],
+    "order": 62
+  },
+  {
+    "id": "sanayi_yapilanmasi",
+    "term": "Sanayi Yapılanması",
+    "definition": "Bir ülkenin sanayi sektörünün alt kollara ayrılması ve bu kollar arasındaki ilişkiler bütünüdür. Gelişmiş bir sanayi yapılanması, ekonomik çeşitliliği ve dayanıklılığı artırır. Sanayinin hammaddeden nihai ürüne kadar olan süreci kapsar.",
+    "examples": [
+      "Otomotiv sanayii",
+      "Tekstil sanayii",
+      "Kimya sanayii"
+    ],
+    "relatedTerms": [
+      "Endüstriyel Bölgeler",
+      "Sanayi Yatırımları",
+      "Katma Değer"
+    ],
+    "order": 63
+  },
+  {
+    "id": "enerji_kaynaklari_cesitlilig",
+    "term": "Enerji Kaynakları Çeşitliliği",
+    "definition": "Bir ülkenin enerji ihtiyacını karşılamak için kullandığı farklı enerji kaynaklarının (fosil yakıtlar, yenilenebilir enerji vb.) oranını ifade eder. Enerji güvenliğini sağlamak ve dışa bağımlılığı azaltmak için önemlidir. Çeşitlilik, enerji arzında istikrarı destekler.",
+    "examples": [
+      "Kömür, petrol, doğalgazın yanı sıra güneş, rüzgar, jeotermal enerji kullanımı",
+      "Hidroelektrik santrallerin payı",
+      "Nükleer enerji"
+    ],
+    "relatedTerms": [
+      "Enerji Politikası",
+      "Yenilenebilir Enerji Kaynakları",
+      "Enerji Güvenliği"
+    ],
+    "order": 64
+  },
+  {
+    "id": "maden_degerlendirme",
+    "term": "Maden Değerlendirme",
+    "definition": "Çıkarılan madenlerin işlenerek katma değeri yüksek ürünlere dönüştürülmesi sürecidir. Bu, madenlerin ülke ekonomisine katkısını artırır ve ithal ikamesini destekler. İşleme tesislerinin kurulması ve teknolojik yatırım gerektirir.",
+    "examples": [
+      "Demir cevherinden çelik üretimi",
+      "Boksitten alüminyum üretimi",
+      "Altının işlenerek takıya dönüştürülmesi"
+    ],
+    "relatedTerms": [
+      "Maden Rezervleri",
+      "Maden İşleme Sanayii",
+      "Sanayi Yatırımları"
+    ],
+    "order": 65
+  },
+  {
+    "id": "turizm_gelirleri",
+    "term": "Turizm Gelirleri",
+    "definition": "Ülkeye gelen turistlerin harcamalarından elde edilen döviz geliridir. Cari açığın finansmanında önemli bir rol oynar ve istihdam yaratır. Çeşitli turizm türleri (kültür, sağlık, deniz vb.) gelirleri artırabilir.",
+    "examples": [
+      "Yabancı turistlerin konaklama, yeme-içme, ulaşım harcamaları",
+      "Hediyelik eşya satışlarından elde edilen gelir",
+      "Turistik turlardan elde edilen gelir"
+    ],
+    "relatedTerms": [
+      "Turizm Potansiyeli",
+      "Kültürel Turizm",
+      "Hizmet Sektörü"
+    ],
+    "order": 66
+  },
+  {
+    "id": "sanayi_bolgeleri_planlamasi",
+    "term": "Sanayi Bölgeleri Planlaması",
+    "definition": "Sanayi tesislerinin belirli alanlarda yoğunlaşmasını sağlamak ve çevresel etkileri kontrol altına almak için yapılan planlamadır. Bu planlama, altyapı hizmetlerinin etkin kullanımını ve bölgesel kalkınmayı hedefler. Organize Sanayi Bölgeleri (OSB) bu kapsamdadır.",
+    "examples": [
+      "Organize Sanayi Bölgeleri (OSB)",
+      "Teknoloji Geliştirme Bölgeleri",
+      "Serbest Bölgeler"
+    ],
+    "relatedTerms": [
+      "Endüstriyel Bölgeler",
+      "Sanayi Yatırımları",
+      "Çevresel Etki Değerlendirmesi (ÇED)"
+    ],
+    "order": 67
+  },
+  {
+    "id": "enerji_ithalati_bagimliligi",
+    "term": "Enerji İthalatı Bağımlılığı",
+    "definition": "Bir ülkenin enerji ihtiyacının önemli bir kısmını dış kaynaklardan temin etme durumudur. Bu durum, ekonomik ve siyasi riskler taşır. Yerli ve yenilenebilir enerji kaynaklarının geliştirilmesiyle azaltılabilir.",
+    "examples": [
+      "Petrol ve doğalgaz ithalatı",
+      "Enerji dış ticaret açığı",
+      "Küresel enerji fiyatlarındaki dalgalanmalardan etkilenme"
+    ],
+    "relatedTerms": [
+      "Enerji Güvenliği",
+      "Enerji Politikası",
+      "Yenilenebilir Enerji Kaynakları"
+    ],
+    "order": 68
+  },
+  {
+    "id": "maden_ihracat_gelirleri",
+    "term": "Maden İhracat Gelirleri",
+    "definition": "Ülkenin çıkardığı madenlerin yurt dışına satılmasıyla elde edilen döviz geliridir. Bu gelirler, ülkenin dış ticaret dengesine katkı sağlar. Madenlerin işlenerek ihraç edilmesi, geliri artırır.",
+    "examples": [
+      "Krom, demir, bakır cevheri ihracatı",
+      "İşlenmiş metal ihracatı",
+      "Enerji mineralleri ihracatı"
+    ],
+    "relatedTerms": [
+      "Maden İhracatı",
+      "Maden Rezervleri",
+      "Katma Değer"
+    ],
+    "order": 69
+  },
+  {
+    "id": "turizm_alt_yapisi",
+    "term": "Turizm Altyapısı",
+    "definition": "Turistlerin konaklama, ulaşım, eğlence ve diğer ihtiyaçlarını karşılamak için gerekli olan fiziksel ve hizmete yönelik tesislerdir. Güçlü bir turizm altyapısı, turizm potansiyelinin tam olarak kullanılmasını sağlar.",
+    "examples": [
+      "Otel ve konaklama tesisleri",
+      "Havalimanları, limanlar, karayolları",
+      "Turistik rekreasyon alanları ve eğlence merkezleri"
+    ],
+    "relatedTerms": [
+      "Turizm Potansiyeli",
+      "Rekreasyonel Turizm",
+      "Lojistik Merkezleri"
+    ],
+    "order": 70
+  },
+  {
+    "id": "tarimsal_uretim_yapisi",
+    "term": "Tarımsal Üretim Yapısı",
+    "definition": "Bir ülkenin tarım sektöründe hangi ürünlerin ne kadar üretildiğini gösteren dağılımdır. Bu yapı, iklim koşulları, toprak yapısı, pazar talebi ve devlet politikalarından etkilenir. Çeşitlendirme, riskleri azaltır.",
+    "examples": [
+      "Tahıl üretimi ağırlıklı yapı",
+      "Sanayi bitkileri (pamuk, şeker pancarı) üretimi",
+      "Hayvancılık ve su ürünleri üretimi"
+    ],
+    "relatedTerms": [
+      "Tarımsal Yapılar",
+      "Tarımsal Alan Kullanımı",
+      "Tarımsal Destekleme Politikaları"
+    ],
+    "order": 71
+  },
+  {
+    "id": "sanayi_sektorunde_istihdam",
+    "term": "Sanayi Sektöründe İstihdam",
+    "definition": "Sanayi kollarında çalışan toplam iş gücü sayısıdır. Sanayileşme, genellikle istihdam artışına yol açar ve işsizlik oranını düşürür. Otomasyon ve teknoloji gelişmeleri bu istihdamı etkileyebilir.",
+    "examples": [
+      "İmalat sanayiinde çalışan işçi sayısı",
+      "Enerji ve madencilik sektöründe istihdam",
+      "Teknoloji odaklı sanayi kollarındaki istihdam"
+    ],
+    "relatedTerms": [
+      "İstihdam ve İş Gücü",
+      "Sanayi Yatırımları",
+      "İş Gücü Piyasası"
+    ],
+    "order": 72
+  },
+  {
+    "id": "enerji_sektorunde_yatirim",
+    "term": "Enerji Sektöründe Yatırım",
+    "definition": "Enerji üretim, iletim ve dağıtım altyapısına yapılan sermaye harcamalarıdır. Bu yatırımlar, enerji arz güvenliğini sağlar ve ekonomik büyümeyi destekler. Yenilenebilir enerji yatırımları giderek önem kazanmaktadır.",
+    "examples": [
+      "Termik santral yatırımları",
+      "Rüzgar ve güneş enerjisi santrali kurulumları",
+      "Enerji iletim hatları ve dağıtım şebekeleri yatırımları"
+    ],
+    "relatedTerms": [
+      "Enerji Politikası",
+      "Yenilenebilir Enerji Kaynakları",
+      "Enerji Güvenliği"
+    ],
+    "order": 73
+  },
+  {
+    "id": "maden_arz_talep",
+    "term": "Maden Arz ve Talep",
+    "definition": "Belirli bir madenin piyasada sunulan miktarı (arz) ile bu madeni kullanmak isteyenlerin talebi arasındaki ilişkidir. Küresel ekonomik koşullar, teknolojik gelişmeler ve jeopolitik olaylar arz ve talebi etkiler.",
+    "examples": [
+      "Petrol fiyatlarının arz ve talep dengesine göre değişimi",
+      "Krom madeni talebinin artmasıyla fiyatların yükselmesi",
+      "Lityum talebinin elektrikli araç pazarından etkilenmesi"
+    ],
+    "relatedTerms": [
+      "Maden Rezervleri",
+      "Küresel Ticaret",
+      "Enerji Kaynakları"
+    ],
+    "order": 74
+  },
+  {
+    "id": "turizm_pazarlamasi_stratejileri",
+    "term": "Turizm Pazarlaması Stratejileri",
+    "definition": "Turistik destinasyonların, hizmetlerin ve ürünlerin hedef kitleye tanıtılması ve pazarlanması için kullanılan yöntemlerdir. Dijital pazarlama, marka oluşturma ve tanıtım faaliyetleri bu stratejilerin bir parçasıdır.",
+    "examples": [
+      "Sosyal medya kampanyaları",
+      "Fuarlarda tanıtım faaliyetleri",
+      "Ünlülerin turizm elçisi olarak kullanılması"
+    ],
+    "relatedTerms": [
+      "Turizm Potansiyeli",
+      "Kültürel Turizm",
+      "Rekreasyonel Turizm"
+    ],
+    "order": 75
+  },
+  {
+    "id": "tarimsal_destekleme_mekanizmalari",
+    "term": "Tarımsal Destekleme Mekanizmaları",
+    "definition": "Devletin çiftçiyi ve tarımsal üretimi teşvik etmek için uyguladığı politikalardır. Bu mekanizmalar arasında doğrudan gelir desteği, girdi sübvansiyonları ve alım garantileri bulunur. Tarımsal üretimin sürdürülebilirliğini hedefler.",
+    "examples": [
+      "Mazot, gübre, tohum destekleri",
+      "Alan bazlı gelir desteği",
+      "Ürün alım fiyatlarının belirlenmesi"
+    ],
+    "relatedTerms": [
+      "Tarımsal Destekleme Politikaları",
+      "Tarımsal Üretim Yapısı",
+      "Tarım Politikaları"
+    ],
+    "order": 76
+  },
+  {
+    "id": "sanayide_otomasyon_ve_robotik",
+    "term": "Sanayide Otomasyon ve Robotik",
+    "definition": "Üretim süreçlerinde insan müdahalesini azaltmak ve verimliliği artırmak için otomasyon sistemleri ve robotların kullanılmasıdır. Bu, üretim kalitesini artırır ve maliyetleri düşürebilir.",
+    "examples": [
+      "Otomotiv fabrikalarında robot kollarla montaj",
+      "Paketleme ve lojistik süreçlerinde otomasyon",
+      "Akıllı üretim hatları"
+    ],
+    "relatedTerms": [
+      "Sanayi Yatırımları",
+      "Sanayi Devrimi Etkileri",
+      "Teknoloji Geliştirme Bölgeleri"
+    ],
+    "order": 77
+  },
+  {
+    "id": "enerji_tasarrufu_ve_verimliligi",
+    "term": "Enerji Tasarrufu ve Verimliliği",
+    "definition": "Enerji tüketimini azaltma ve mevcut enerjiyi daha etkin kullanma çabalarıdır. Bu, hem çevresel faydalar sağlar hem de enerji maliyetlerini düşürür. Enerji verimliliği politikaları bu amaçla oluşturulur.",
+    "examples": [
+      "Binalarda yalıtım uygulamaları",
+      "Enerji verimli ev aletleri kullanımı",
+      "Sanayide proses optimizasyonu"
+    ],
+    "relatedTerms": [
+      "Enerji Verimliliği",
+      "Enerji Politikası",
+      "Sürdürülebilirlik"
+    ],
+    "order": 78
+  },
+  {
+    "id": "madenlerin_stratejik_onemi",
+    "term": "Madenlerin Stratejik Önemi",
+    "definition": "Ülkenin ekonomik ve askeri güvenliği açısından kritik öneme sahip madenlerdir. Bu madenlerin kontrolü ve tedarik güvenliği, ulusal çıkarlar açısından hayati önem taşır. Nadir toprak elementleri gibi madenler stratejik olabilir.",
+    "examples": [
+      "Petrol ve doğalgaz gibi enerji kaynakları",
+      "Uranyum gibi nükleer yakıtlar",
+      "Nadiren bulunan endüstriyel metaller"
+    ],
+    "relatedTerms": [
+      "Maden Rezervleri",
+      "Enerji Güvenliği",
+      "Doğal Kaynaklar"
+    ],
+    "order": 79
+  },
+  {
+    "id": "kuresel_deger_zincirleri_katilim",
+    "term": "Küresel Değer Zincirlerine Katılım",
+    "definition": "Bir ülkenin üretim ve ticaret süreçlerinin uluslararası mal ve hizmet akışına entegre olmasıdır. Bu, uzmanlaşmayı artırır ve küresel ekonomiye entegrasyonu sağlar. Tedarik zincirleri bu yapıların temelini oluşturur.",
+    "examples": [
+      "Elektronik ürünlerin farklı ülkelerde üretilen parçalarının birleştirilmesi",
+      "Otomotiv sektöründe küresel tedarik zincirleri",
+      "Tekstil ürünlerinin farklı ülkelerde işlenmesi"
+    ],
+    "relatedTerms": [
+      "Küresel Ticaret",
+      "Tedarik Zinciri Yönetimi",
+      "Doğrudan Yabancı Yatırım (DYY)"
+    ],
+    "order": 80
+  },
+  {
+    "id": "tarimsal_verimlilik_artisi",
+    "term": "Tarımsal Verimlilik Artışı",
+    "definition": "Birim alandan elde edilen ürün miktarının veya birim girdi başına üretilen ürün miktarının artırılmasıdır. Modern tarım teknikleri, genetik ıslah ve teknolojik gelişmelerle sağlanır. Amaç, gıda güvenliğini sağlamak ve tarımsal geliri yükseltmektir.",
+    "examples": [
+      "Yüksek verimli tohum kullanımı",
+      "Modern sulama sistemleri",
+      "Hassas tarım uygulamaları"
+    ],
+    "relatedTerms": [
+      "Tarımsal İnovasyon Teknolojileri",
+      "Tarımsal Üretim Yapısı",
+      "Tarımsal Destekleme Politikaları"
+    ],
+    "order": 81
+  },
+  {
+    "id": "endustriyel_donusum",
+    "term": "Endüstriyel Dönüşüm",
+    "definition": "Ekonominin tarım veya hizmet ağırlıklı yapısından sanayi ağırlıklı bir yapıya geçiş sürecidir. Bu süreçte üretim yöntemleri değişir, teknoloji yoğun kullanılır ve kentleşme hızlanır. Ülke ekonomisinin büyümesi ve gelişmesi için kritik öneme sahiptir.",
+    "examples": [
+      "Tekstil sanayinin gelişimi",
+      "Otomotiv sektörünün yükselişi",
+      "Kimya sanayinin yaygınlaşması"
+    ],
+    "relatedTerms": [
+      "Sanayi Devrimi Etkileri",
+      "Sanayi Yapılanması",
+      "Sanayi Bölgeleri Planlaması"
+    ],
+    "order": 82
+  },
+  {
+    "id": "enerji_sektorunde_yatirimlar",
+    "term": "Enerji Sektöründe Yatırımlar",
+    "definition": "Enerji üretim, iletim ve dağıtım altyapılarına yapılan sermaye harcamalarıdır. Yenilenebilir enerji kaynaklarına, nükleer enerjiye veya fosil yakıtlara yönelik yatırımlar bu kapsamdadır. Enerji arz güvenliğini sağlamak ve talebi karşılamak için gereklidir.",
+    "examples": [
+      "Baraj inşaatları",
+      "Rüzgar türbinleri kurulumu",
+      "Doğalgaz boru hatları projeleri"
+    ],
+    "relatedTerms": [
+      "Enerji Güvenliği",
+      "Enerji Politikası Araçları",
+      "Enerji Kaynakları Çeşitliliği"
+    ],
+    "order": 83
+  },
+  {
+    "id": "maden_degerlendirme_ve_isleme",
+    "term": "Maden Değerlendirme ve İşleme",
+    "definition": "Çıkarılan madenlerin katma değerini artırmak amacıyla işlenmesi ve nihai ürünlere dönüştürülmesidir. Bu süreç, madenlerin ihracat potansiyelini yükseltir ve sanayi sektörüne hammadde sağlar. İşlenmiş madenler, ham madenlere göre daha yüksek ekonomik değer taşır.",
+    "examples": [
+      "Demir cevherinden çelik üretimi",
+      "Boksitten alüminyum üretimi",
+      "Altın ve gümüş işleme"
+    ],
+    "relatedTerms": [
+      "Maden İhracatı",
+      "Maden Arz ve Talep",
+      "Madenlerin Stratejik Önemi"
+    ],
+    "order": 84
+  },
+  {
+    "id": "turizm_sektorunde_istihdam",
+    "term": "Turizm Sektöründe İstihdam",
+    "definition": "Konaklama, yeme-içme, ulaşım, eğlence ve rehberlik gibi turizmle ilgili faaliyetlerde sağlanan iş olanaklarıdır. Turizm, önemli bir döviz girdisi kaynağı olmasının yanı sıra, yerel ekonomilerde istihdamı artırıcı bir rol oynar.",
+    "examples": [
+      "Otel çalışanları",
+      "Restoran personeli",
+      "Rehberlik hizmetleri"
+    ],
+    "relatedTerms": [
+      "Turizm Gelirleri",
+      "Turizm Altyapısı",
+      "Turizm Pazarlaması"
+    ],
+    "order": 85
+  },
+  {
+    "id": "lojistik_aglarinin_gelistirilmesi",
+    "term": "Lojistik Ağlarının Geliştirilmesi",
+    "definition": "Mal ve hizmetlerin üretildiği yerden tüketildiği yere kadar olan akışını en verimli şekilde sağlamak için oluşturulan ulaşım, depolama ve dağıtım sistemlerinin iyileştirilmesidir. Küresel ticaretin ve bölgesel entegrasyonun temelini oluşturur.",
+    "examples": [
+      "Gelişmiş limanlar ve havalimanları",
+      "Akıllı depolama sistemleri",
+      "Entegre taşımacılık çözümleri"
+    ],
+    "relatedTerms": [
+      "Lojistik Merkezleri",
+      "Tedarik Zinciri Yönetimi",
+      "Demiryolu Ağları"
+    ],
+    "order": 86
+  },
+  {
+    "id": "hizmet_sektorunde_inovasyon",
+    "term": "Hizmet Sektöründe İnovasyon",
+    "definition": "Hizmetlerin sunumunda, kalitesinde veya çeşitliliğinde yenilikler yapılmasıdır. Dijitalleşme, kişiselleştirme ve yeni iş modelleri bu alanda öne çıkar. Hizmet sektörünün rekabet gücünü ve verimliliğini artırır.",
+    "examples": [
+      "Online bankacılık hizmetleri",
+      "Tele-sağlık uygulamaları",
+      "Dijital eğitim platformları"
+    ],
+    "relatedTerms": [
+      "Hizmet Sektörü",
+      "Küresel Değer Zincirleri",
+      "İş Gücü Piyasası"
+    ],
+    "order": 87
+  },
+  {
+    "id": "dogrudan_yabanci_yatirimlarin_cekiciligi",
+    "term": "Doğrudan Yabancı Yatırımların (DYY) Çekiciliği",
+    "definition": "Yabancı yatırımcıları bir ülkeye yatırım yapmaya teşvik eden faktörlerin bütünüdür. Bunlar arasında istikrarlı ekonomik ortam, uygun yasal düzenlemeler, yetişmiş iş gücü ve pazar büyüklüğü yer alır. Ülke ekonomisinin büyümesine ve teknoloji transferine katkı sağlar.",
+    "examples": [
+      "Yabancı şirketlerin fabrika kurması",
+      "Enerji projelerine yatırım",
+      "Finans sektörüne sermaye girişi"
+    ],
+    "relatedTerms": [
+      "Doğrudan Yabancı Yatırım (DYY)",
+      "Serbest Ticaret Anlaşmaları (STA)",
+      "Küresel Değer Zincirlerine Katılım"
+    ],
+    "order": 88
+  },
+  {
+    "id": "enerji_kaynaklarinin_cesitlendirilmesi",
+    "term": "Enerji Kaynaklarının Çeşitlendirilmesi",
+    "definition": "Enerji ihtiyacını tek bir kaynağa bağlı kalmadan, farklı yenilenebilir ve fosil kaynaklardan karşılamaktır. Bu, enerji arz güvenliğini artırır ve fiyat dalgalanmalarına karşı direnci güçlendirir. İklim değişikliğiyle mücadelede de önemli bir adımdır.",
+    "examples": [
+      "Güneş enerjisi santralleri",
+      "Jeotermal enerji kullanımı",
+      "Biyokütle enerjisi"
+    ],
+    "relatedTerms": [
+      "Enerji Güvenliği",
+      "Enerji Politikası Araçları",
+      "Enerji İthalatı Bağımlılığı"
+    ],
+    "order": 89
+  },
+  {
+    "id": "tarimsal_uretimin_modernizasyonu",
+    "term": "Tarımsal Üretimin Modernizasyonu",
+    "definition": "Tarımsal üretim süreçlerinde geleneksel yöntemler yerine modern teknolojilerin, makinelerin ve bilimsel bilgilerin kullanılmasıdır. Bu, verimliliği artırır, maliyetleri düşürür ve ürün kalitesini yükseltir. Gıda güvenliğine katkı sağlar.",
+    "examples": [
+      "Otomatik traktörler",
+      "Dronlarla ilaçlama",
+      "Seralarda iklim kontrolü"
+    ],
+    "relatedTerms": [
+      "Tarımsal Yapılanma",
+      "Tarımsal İnovasyon Teknolojileri",
+      "Tarımsal Destekleme Mekanizmaları"
+    ],
+    "order": 90
+  },
+  {
+    "id": "su_kaynaklarinin_verimli_kullanimi",
+    "term": "Su Kaynaklarının Verimli Kullanımı",
+    "definition": "Mevcut su kaynaklarının israf edilmeden, en etkin şekilde kullanılmasıdır. Tarım, sanayi ve evsel kullanımda su tasarrufu sağlayan teknolojiler ve yöntemler bu kapsamdadır. Su kıtlığına karşı mücadelede hayati önem taşır.",
+    "examples": [
+      "Damla sulama sistemleri",
+      "Yağmur suyu hasadı",
+      "Endüstriyel atık su arıtma"
+    ],
+    "relatedTerms": [
+      "Su Kaynakları Yönetimi",
+      "Su Kaynakları Kirliliği",
+      "Enerji Verimliliği"
+    ],
+    "order": 91
+  },
+  {
+    "id": "gelir_dagilimi_adaleti",
+    "term": "Gelir Dağılımı Adaleti",
+    "definition": "Bir toplumda fertlerin veya hanelerin elde ettiği gelirlerin adil bir şekilde dağıtılmasıdır. Gelir eşitsizliğini azaltmayı hedefler ve sosyal refahı artırır. Vergi politikaları ve sosyal transferler bu konuda rol oynar.",
+    "examples": [
+      "Asgari ücret politikaları",
+      "Kademeli vergilendirme",
+      "Sosyal yardım programları"
+    ],
+    "relatedTerms": [
+      "Gelir Eşitsizliği",
+      "Gelir Değişkenliği",
+      "İş Gücü Piyasası"
+    ],
+    "order": 92
+  },
+  {
+    "id": "lojistik_merkezlerinin_stratejik_konumu",
+    "term": "Lojistik Merkezlerinin Stratejik Konumu",
+    "definition": "Mal ve hizmet akışının verimli yönetilebilmesi için ulaşım ağlarının kesişim noktalarında veya önemli üretim/tüketim alanlarına yakın konumlanmış merkezlerdir. Ticaretin hızlanması ve maliyetlerin düşürülmesinde etkilidir.",
+    "examples": [
+      "Konteyner limanları çevresindeki depolar",
+      "Ana karayolu ve demiryolu kavşaklarındaki dağıtım merkezleri",
+      "Hava kargo terminalleri"
+    ],
+    "relatedTerms": [
+      "Lojistik Merkezleri",
+      "Tedarik Zinciri Yönetimi",
+      "Serbest Ticaret Anlaşmaları (STA)"
+    ],
+    "order": 93
+  },
+  {
+    "id": "tarimsal_ihracatin_cesitlendirilmesi",
+    "term": "Tarımsal İhracatın Çeşitlendirilmesi",
+    "definition": "Tarım ürünlerinin ihracatında tek bir ürüne veya birkaç ürüne bağımlı kalmak yerine ürün gamının genişletilmesidir. Bu, dış ticaretteki riskleri azaltır ve yeni pazar fırsatları yaratır.",
+    "examples": [
+      "Fındık ihracatına ek olarak meyve ve sebze ihracatının artırılması",
+      "Organik ürünlerin ihracatı",
+      "İşlenmiş tarım ürünlerinin ihracatı"
+    ],
+    "relatedTerms": [
+      "Tarımsal İhracat Fazlası",
+      "Tarımsal İhracat Ürünleri",
+      "Tarımsal Üretim Yapısı"
+    ],
+    "order": 94
+  },
+  {
+    "id": "endustriyel_bolgelerin_planlanmasi",
+    "term": "Endüstriyel Bölgelerin Planlanması",
+    "definition": "Sanayi tesislerinin belirli alanlarda toplanarak kurulması ve bu bölgelerin altyapı, ulaşım ve çevresel etkilerinin planlanmasıdır. Kaynakların verimli kullanılması, çevre kirliliğinin kontrolü ve bölgesel kalkınma için önemlidir.",
+    "examples": [
+      "Organize Sanayi Bölgeleri (OSB)",
+      "Teknoloji Geliştirme Bölgeleri",
+      "Serbest Bölgeler"
+    ],
+    "relatedTerms": [
+      "Sanayi Bölgeleri Planlaması",
+      "Sanayi Yatırımı Teşvikleri",
+      "Sanayi Yapılanması"
+    ],
+    "order": 95
+  },
+  {
+    "id": "turizm_gelirlerinin_artirilmasi",
+    "term": "Turizm Gelirlerinin Artırılması",
+    "definition": "Turizm faaliyetlerinden elde edilen döviz gelirini yükseltmek için yapılan stratejik çalışmalardır. Daha fazla turist çekmek, turistin harcama miktarını artırmak ve turizm sezonunu uzatmak hedeflenir.",
+    "examples": [
+      "Yüksek sezonda fiyat optimizasyonu",
+      "Kültürel etkinliklerin tanıtımı",
+      "Yerel ürünlerin turiste sunulması"
+    ],
+    "relatedTerms": [
+      "Turizm Gelirleri",
+      "Turizm Pazarlaması",
+      "Kültürel Turizm"
+    ],
+    "order": 96
+  },
+  {
+    "id": "maden_arz_ve_talep_dinamikleri",
+    "term": "Maden Arz ve Talep Dinamikleri",
+    "definition": "Küresel ve yerel piyasalarda madenlerin arzı (üretimi ve stokları) ile talebi (kullanımı ve tüketimi) arasındaki etkileşimdir. Bu dinamikler maden fiyatlarını, üretim kararlarını ve yatırım eğilimlerini belirler.",
+    "examples": [
+      "Petrol fiyatlarındaki dalgalanmalar",
+      "Lityum talebinin artmasıyla maden üretiminin teşvik edilmesi",
+      "Altın fiyatlarının güvenli liman olarak algılanması"
+    ],
+    "relatedTerms": [
+      "Maden Arz ve Talep",
+      "Maden Rezervleri Dağılımı",
+      "Enerji Güvenliği"
+    ],
+    "order": 97
+  },
+  {
+    "id": "is_gucu_piyasasinda_yapısal_değişimler",
+    "term": "İş Gücü Piyasasında Yapısal Değişimler",
+    "definition": "Ekonomik ve teknolojik gelişmelerin iş gücü piyasasında yarattığı uzun vadeli değişimlerdir. Nitelikli iş gücü talebinin artması, otomasyonun etkisi ve esnek çalışma modelleri bu değişimlere örnektir.",
+    "examples": [
+      "Yazılım mühendisliği talebinin artması",
+      "Mavi yakalı işlerde otomasyonun yaygınlaşması",
+      "Freelancer çalışma modellerinin yaygınlaşması"
+    ],
+    "relatedTerms": [
+      "İş Gücü Piyasası",
+      "İş Gücü Göçü",
+      "Nüfus Yapısı Değişkenleri"
+    ],
+    "order": 98
+  },
+  {
+    "id": "dogrudan_yabanci_yatirimlarin_etkileri",
+    "term": "Doğrudan Yabancı Yatırımların (DYY) Etkileri",
+    "definition": "Bir ülkeye yapılan doğrudan yabancı yatırımların ekonomik, sosyal ve teknolojik açıdan yarattığı sonuçlardır. Sermaye girişi, istihdam artışı, teknoloji transferi ve rekabetin artması gibi olumlu etkileri olabilir.",
+    "examples": [
+      "Yabancı otomotiv firmasının Türkiye'de fabrika kurması",
+      "Teknoloji şirketlerinin Ar-Ge merkezleri açması",
+      "Yerli firmaların rekabet gücünün artması"
+    ],
+    "relatedTerms": [
+      "Doğrudan Yabancı Yatırım (DYY)",
+      "Küresel Değer Zincirleri",
+      "Sanayi Yatırımı Teşvikleri"
+    ],
+    "order": 99
+  },
+  {
+    "id": "bolgesel_kalkinma_farkliliklari",
+    "term": "Bölgesel Kalkınma Farklılıkları",
+    "definition": "Türkiye'de bölgeler arası ekonomik ve sosyal gelişmişlik düzeylerindeki farklılıkları ifade eder. Bu farklılıklar, coğrafi koşullar, kaynak dağılımı ve uygulanan politikalar sonucunda ortaya çıkar.",
+    "examples": [
+      "Doğu Anadolu Bölgesi'nin sosyo-ekonomik gelişmişlik düzeyinin Marmara Bölgesi'ne göre daha düşük olması.",
+      "GAP projesi ile Güneydoğu Anadolu Bölgesi'nin kalkınma hızının artırılması hedeflenmesi."
+    ],
+    "relatedTerms": [
+      "Bölgesel Eşitsizlikler",
+      "Kalkınma Ajansları",
+      "Bölgesel Politikalar"
+    ],
+    "order": 100
+  },
+  {
+    "id": "tarimsal_urun_deseni",
+    "term": "Tarımsal Ürün Deseni",
+    "definition": "Bir bölgede veya ülkede yetiştirilen tarım ürünlerinin türleri ve bunların üretimdeki paylarını gösteren yapıdır. İklim, toprak yapısı ve pazar koşulları bu deseni belirler.",
+    "examples": [
+      "Akdeniz Bölgesi'nde turunçgil ve seracılık ürünlerinin yoğun olması.",
+      "İç Anadolu Bölgesi'nde buğday ve arpa üretiminin öne çıkması."
+    ],
+    "relatedTerms": [
+      "İklim Kuşakları",
+      "Toprak Tipleri",
+      "Tarımsal Coğrafya"
+    ],
+    "order": 101
+  },
+  {
+    "id": "ulasim_aglari_ve_ekonomi",
+    "term": "Ulaşım Ağları ve Ekonomi",
+    "definition": "Karayolu, demiryolu, denizyolu ve havayolu gibi ulaşım sistemlerinin ekonomik faaliyetler üzerindeki etkisidir. Mal ve hizmet akışını kolaylaştırarak ticaret ve sanayiyi geliştirir.",
+    "examples": [
+      "İstanbul'un coğrafi konumu sayesinde önemli bir uluslararası ticaret merkezi olması.",
+      "Yeni otoyolların tarımsal ürünlerin pazara ulaşım süresini kısaltması."
+    ],
+    "relatedTerms": [
+      "Lojistik",
+      "Ticaret Yolları",
+      "Altyapı Yatırımları"
+    ],
+    "order": 102
+  },
+  {
+    "id": "kentlesme_ve_ekonomik_etkileri",
+    "term": "Kentleşme ve Ekonomik Etkileri",
+    "definition": "Nüfusun kırsal alanlardan kentlere doğru hareket etmesi ve kentlerde yoğunlaşması sürecidir. Bu durum, hizmet sektörünün büyümesi, sanayileşme ve işgücü piyasasında değişimlere yol açar.",
+    "examples": [
+      "Büyük şehirlerde hizmet sektörünün ve sanayinin gelişmesiyle iş imkanlarının artması.",
+      "Kentlerdeki konut ve altyapı yatırımlarının ekonomik büyümeyi tetiklemesi."
+    ],
+    "relatedTerms": [
+      "Metropol Alanlar",
+      "Kentsel Dönüşüm",
+      "Göç Hareketleri"
+    ],
+    "order": 103
+  },
+  {
+    "id": "balikcilik_ve_su_urunleri",
+    "term": "Balıkçılık ve Su Ürünleri",
+    "definition": "Denizlerde, göllerde ve akarsularda yapılan balık avcılığı ile su ürünleri yetiştiriciliğini kapsar. Türkiye'nin üç tarafının denizlerle çevrili olması bu sektöre potansiyel sunar.",
+    "examples": [
+      "Karadeniz'de hamsi avcılığının yoğun olması.",
+      "Tatlı su balıkçılığının ve alabalık tesislerinin iç bölgelerde yaygınlaşması."
+    ],
+    "relatedTerms": [
+      "Deniz Ticareti",
+      "Kıyı Coğrafyası",
+      "Akuakültür"
+    ],
+    "order": 104
+  },
+  {
+    "id": "orman_urunleri_endustrisi",
+    "term": "Orman Ürünleri Endüstrisi",
+    "definition": "Ormanlardan elde edilen odun ve odun dışı ürünlerin işlenerek ekonomiye kazandırılmasıdır. Mobilya, kağıt ve inşaat sektörleri için hammadde sağlar.",
+    "examples": [
+      "Karadeniz ve Akdeniz bölgelerindeki ormanlardan kereste üretimi.",
+      "Mobilya sanayisinin orman ürünlerine bağımlılığı."
+    ],
+    "relatedTerms": [
+      "Ormancılık",
+      "Ağaçlandırma",
+      "Sürdürülebilir Orman Yönetimi"
+    ],
+    "order": 105
+  },
+  {
+    "id": "hayvancilik_faaliyetleri",
+    "term": "Hayvancılık Faaliyetleri",
+    "definition": "Büyükbaş, küçükbaş ve kümes hayvancılığı başta olmak üzere hayvanların yetiştirilmesi ve bunlardan et, süt, yün gibi ürünlerin elde edilmesidir. Bölgesel iklim ve bitki örtüsü ile ilişkilidir.",
+    "examples": [
+      "Doğu Anadolu'da büyükbaş hayvancılığın yaygın olması.",
+      "İç Anadolu'da küçükbaş hayvancılığın önemli yer tutması."
+    ],
+    "relatedTerms": [
+      "Mera Hayvancılığı",
+      "Besicilik",
+      "Yem Bitkileri"
+    ],
+    "order": 106
+  },
+  {
+    "id": "yer_alti_kaynaklari_dagilimi",
+    "term": "Yer Altı Kaynakları Dağılımı",
+    "definition": "Türkiye'deki madenlerin ve enerji hammaddelerinin coğrafi olarak bulunduğu yerleri ve rezerv miktarlarını ifade eder. Ülke ekonomisi için stratejik öneme sahiptir.",
+    "examples": [
+      "Bor madenlerinin dünya rezervlerinin büyük kısmının Türkiye'de bulunması.",
+      "Zonguldak ve çevresinde taş kömürü yataklarının yoğunlaşması."
+    ],
+    "relatedTerms": [
+      "Maden Yatakları",
+      "Jeolojik Yapı",
+      "Enerji Hammaddeleri"
+    ],
+    "order": 107
+  },
+  {
+    "id": "jeotermal_enerji_potansiyeli",
+    "term": "Jeotermal Enerji Potansiyeli",
+    "definition": "Yer altından çıkan sıcak su ve buhardan elde edilen yenilenebilir enerji kaynağıdır. Türkiye, fay hatları üzerinde bulunması nedeniyle bu potansiyel açısından zengindir.",
+    "examples": [
+      "Denizli Sarayköy'deki jeotermal enerji santrali.",
+      "Afyonkarahisar'da jeotermal suların ısınma ve turizm amaçlı kullanılması."
+    ],
+    "relatedTerms": [
+      "Yenilenebilir Enerji",
+      "Fay Hatları",
+      "Termal Turizm"
+    ],
+    "order": 108
+  },
+  {
+    "id": "ruzgar_enerjisi_potansiyeli",
+    "term": "Rüzgar Enerjisi Potansiyeli",
+    "definition": "Rüzgar gücünden elektrik enerjisi üretme kapasitesidir. Türkiye'nin özellikle Ege ve Marmara kıyılarında rüzgar koridorları açısından yüksek potansiyeli bulunmaktadır.",
+    "examples": [
+      "Çanakkale ve İzmir'deki rüzgar enerji santralleri (RES).",
+      "Rüzgar atlası verileriyle uygun alanların belirlenmesi."
+    ],
+    "relatedTerms": [
+      "Yenilenebilir Enerji",
+      "Meteorolojik Veriler",
+      "Enerji Santralleri"
+    ],
+    "order": 109
+  },
+  {
+    "id": "gunes_enerjisi_potansiyeli",
+    "term": "Güneş Enerjisi Potansiyeli",
+    "definition": "Güneş ışınlarından elektrik veya ısı enerjisi üretme kapasitesidir. Türkiye, coğrafi konumu itibarıyla yüksek güneşlenme süresine sahip olup önemli bir potansiyel taşır.",
+    "examples": [
+      "Konya Karapınar'da kurulan büyük ölçekli güneş enerjisi santrali (GES).",
+      "Evlerin çatılarında güneş panellerinin kullanılması."
+    ],
+    "relatedTerms": [
+      "Yenilenebilir Enerji",
+      "Güneşlenme Süresi",
+      "Fotovoltaik Paneller"
+    ],
+    "order": 110
+  },
+  {
+    "id": "sinir_ticareti_ve_ekonomi",
+    "term": "Sınır Ticareti ve Ekonomi",
+    "definition": "Komşu ülkeler arasında sınır bölgelerinde yapılan ticari faaliyetlerdir. Bölgesel ekonomilere canlılık katar ve kültürel etkileşimi artırır.",
+    "examples": [
+      "Güneydoğu Anadolu Bölgesi'nin Suriye ve Irak ile yaptığı sınır ticareti.",
+      "Doğu Karadeniz Bölgesi'nin Gürcistan ile olan ticari ilişkileri."
+    ],
+    "relatedTerms": [
+      "Gümrük Kapıları",
+      "Dış Ticaret",
+      "Bölgesel Kalkınma"
+    ],
+    "order": 111
+  },
+  {
+    "id": "tarimsal_sanayi_entegrasyonu",
+    "term": "Tarımsal Sanayi Entegrasyonu",
+    "definition": "Tarım ürünlerinin işlenerek katma değeri yüksek ürünlere dönüştürülmesi sürecidir. Bu entegrasyon, tarım sektörünün gelişimini destekler ve sanayiye hammadde sağlar.",
+    "examples": [
+      "Şeker pancarından şeker üretimi.",
+      "Domatesin salça veya konserve olarak işlenmesi."
+    ],
+    "relatedTerms": [
+      "Gıda Sanayi",
+      "Tarım Ürünleri İşleme",
+      "Katma Değer"
+    ],
+    "order": 112
+  },
+  {
+    "id": "kalkinmada_oncelikli_bolgeler",
+    "term": "Kalkınmada Öncelikli Bölgeler",
+    "definition": "Ekonomik ve sosyal gelişmişlik düzeyi düşük olan, devlet tarafından özel teşvik ve desteklerle kalkındırılması hedeflenen bölgelerdir. Bölgesel eşitsizlikleri azaltmayı amaçlar.",
+    "examples": [
+      "Doğu ve Güneydoğu Anadolu bölgelerine sağlanan yatırım teşvikleri.",
+      "OSB'lerin (Organize Sanayi Bölgeleri) bu bölgelerde yaygınlaştırılması."
+    ],
+    "relatedTerms": [
+      "Bölgesel Kalkınma Planları",
+      "Teşvik Politikaları",
+      "GAP"
+    ],
+    "order": 113
+  },
+  {
+    "id": "ulasim_aglari_ve_etkileri",
+    "term": "Ulaşım Ağları ve Etkileri",
+    "definition": "Karayolu, demiryolu, denizyolu ve havayolu gibi farklı ulaşım sistemlerinin birbiriyle bağlantılı yapısı ve bu ağların ekonomik, sosyal ve kültürel etkileridir. Ulaşım ağları, bölgeler arası ticaretin, üretimin ve nüfus hareketlerinin temelini oluşturur. KPSS'de ulaşım koridorlarının bölgesel kalkınmaya etkileri ve Türkiye'deki önemli ulaşım projeleri sorulabilir.",
+    "examples": [
+      "Marmaray projesinin İstanbul trafiği ve ulaşımına etkileri.",
+      "Kuzey Anadolu Otoyolu'nun Karadeniz Bölgesi'ne erişimi kolaylaştırması."
+    ],
+    "relatedTerms": [
+      "Lojistik Merkezleri",
+      "Ticaret Yolları",
+      "Altyapı Yatırımları"
+    ],
+    "order": 114
+  },
+  {
+    "id": "kentlesme_ve_cevre_sorunlari",
+    "term": "Kentleşme ve Çevre Sorunları",
+    "definition": "Nüfusun kırsal alanlardan kentlere doğru hareket etmesiyle ortaya çıkan kentleşme sürecinin yol açtığı çevresel problemlerdir. Hava kirliliği, su kirliliği, atık yönetimi, gürültü kirliliği ve yeşil alanların azalması başlıca sorunlardır. KPSS'de kentleşmenin çevresel etkileri ve sürdürülebilir kentleşme politikaları önemli bir konudur.",
+    "examples": [
+      "Büyük şehirlerdeki trafik yoğunluğunun hava kirliliğini artırması.",
+      "Sanayi bölgelerindeki atıkların su kaynaklarını kirletmesi."
+    ],
+    "relatedTerms": [
+      "Sürdürülebilir Kalkınma",
+      "Ekolojik Ayak İzi",
+      "Atık Yönetimi"
+    ],
+    "order": 115
+  },
+  {
+    "id": "sinir_ticareti_ve_ekonomik_etkileri",
+    "term": "Sınır Ticareti ve Ekonomik Etkileri",
+    "definition": "Komşu ülkeler arasında sınır bölgelerinde gerçekleştirilen mal ve hizmet alışverişidir. Bu ticaret, sınır bölgelerinin ekonomisine canlılık katar, istihdam yaratır ve kültürel etkileşimi artırır. KPSS'de Türkiye'nin sınır komşularıyla olan ticaret ilişkileri ve bu ticaretin bölgesel kalkınmaya katkıları incelenir.",
+    "examples": [
+      "Güneydoğu Anadolu Bölgesi'nin Suriye ve Irak ile yaptığı sınır ticareti.",
+      "Doğu Anadolu Bölgesi'nin İran ve Nahçıvan ile olan ticari ilişkileri."
+    ],
+    "relatedTerms": [
+      "Dış Ticaret",
+      "Gümrük Birliği",
+      "Serbest Bölgeler"
+    ],
+    "order": 116
+  },
+  {
+    "id": "iklim_degisikliginin_ekonomik_etkileri",
+    "term": "İklim Değişikliğinin Ekonomik Etkileri",
+    "definition": "Küresel iklim değişikliğinin tarım, sanayi, turizm ve enerji gibi ekonomik sektörler üzerindeki olumsuz ve olumlu yansımalarıdır. Kuraklık, sel, aşırı hava olayları gibi durumlar üretim kayıplarına, altyapı hasarlarına ve maliyet artışlarına yol açar. KPSS'de iklim değişikliğinin Türkiye ekonomisi üzerindeki potansiyel etkileri ve uyum stratejileri sorulabilir.",
+    "examples": [
+      "Kuraklık nedeniyle tarımsal verimdeki düşüşler.",
+      "Deniz seviyesinin yükselmesinin kıyı turizmine etkileri."
+    ],
+    "relatedTerms": [
+      "Küresel Isınma",
+      "Karbon Ayak İzi",
+      "Yenilenebilir Enerji"
+    ],
+    "order": 117
+  },
+  {
+    "id": "demografik_yapi_ve_isgucu",
+    "term": "Demografik Yapı ve İşgücü",
+    "definition": "Bir ülkenin veya bölgenin nüfusunun yaş, cinsiyet, eğitim düzeyi ve mesleki dağılım gibi özelliklerini ifade eden demografik yapının işgücü piyasası üzerindeki etkileridir. Nüfusun yaşlanması, genç işsizliği veya nitelikli işgücü eksikliği gibi durumlar ekonomik büyümeyi etkiler. KPSS'de Türkiye'nin demografik dönüşümü ve bunun işgücü piyasasına yansımaları önemlidir.",
+    "examples": [
+      "Genç ve dinamik nüfusun işgücü piyasasına katkısı.",
+      "Nüfusun yaşlanmasının sosyal güvenlik sistemi üzerindeki baskısı."
+    ],
+    "relatedTerms": [
+      "Nüfus Artış Hızı",
+      "Göç Hareketleri",
+      "İşsizlik Oranları"
+    ],
+    "order": 118
+  },
+  {
+    "id": "kirsaldan_kente_goc_ve_sonuclari",
+    "term": "Kırsaldan Kente Göç ve Sonuçları",
+    "definition": "Kırsal bölgelerde yaşayan insanların daha iyi eğitim, sağlık, iş ve yaşam koşulları arayışıyla kentlere taşınması olayıdır. Bu durum, kentlerde plansız büyümeye, altyapı yetersizliklerine ve sosyal sorunlara yol açarken, kırsal bölgelerde nüfus azalması ve tarımsal üretimin düşmesine neden olabilir. KPSS'de göçün nedenleri, sonuçları ve bölgesel etkileri sıkça sorulan konular arasındadır.",
+    "examples": [
+      "1950'lerden sonra Türkiye'de hızlanan kırsaldan kente göç dalgası.",
+      "Büyük şehirlerin çevresinde oluşan gecekondu bölgeleri."
+    ],
+    "relatedTerms": [
+      "İç Göç",
+      "Kentleşme Oranı",
+      "Bölgesel Gelişmişlik"
+    ],
+    "order": 119
+  },
+  {
+    "id": "cografya_ve_ticaret_yollari",
+    "term": "Coğrafya ve Ticaret Yolları",
+    "definition": "Bir bölgenin veya ülkenin coğrafi konumu, doğal geçitleri, denizlere ve su yollarına erişimi gibi faktörlerin uluslararası ticaret yollarının oluşumu ve gelişimi üzerindeki etkisidir. Tarih boyunca İpek Yolu, Baharat Yolu gibi ticaret yolları coğrafi konumun önemini göstermiştir. KPSS'de Türkiye'nin jeopolitik konumu ve küresel ticaret yollarındaki rolü incelenir.",
+    "examples": [
+      "İstanbul ve Çanakkale Boğazları'nın uluslararası deniz ticaretindeki önemi.",
+      "Türkiye'nin Avrupa ve Asya arasındaki köprü konumu."
+    ],
+    "relatedTerms": [
+      "Jeopolitik Konum",
+      "Boğazlar",
+      "Ulaşım Koridorları"
+    ],
+    "order": 120
+  },
+  {
+    "id": "tarimsal_bolgelendirme",
+    "term": "Tarımsal Bölgelendirme",
+    "definition": "Benzer iklim, toprak, topografya ve ekonomik özelliklere sahip alanların tarımsal üretim potansiyellerine göre gruplandırılmasıdır. Bu bölgelendirme, tarım politikalarının belirlenmesinde ve kaynakların etkin kullanımında rehberlik eder. KPSS'de Türkiye'deki tarım bölgeleri ve bu bölgelerin karakteristik özellikleri sorulabilir.",
+    "examples": [
+      "Karadeniz Bölgesi'nin fındık ve çay tarımı için uygun olması.",
+      "Ege Bölgesi'nin zeytin ve pamuk üretimine elverişli olması."
+    ],
+    "relatedTerms": [
+      "İklim Tipleri",
+      "Toprak Verimliliği",
+      "Tarımsal Ürün Deseni"
+    ],
+    "order": 121
+  },
+  {
+    "id": "sanayi_kurulus_yer_secimi",
+    "term": "Sanayi Kuruluş Yeri Seçimi",
+    "definition": "Bir sanayi tesisinin kurulacağı yerin belirlenmesinde hammadde kaynaklarına yakınlık, pazar, ulaşım olanakları, işgücü, enerji kaynakları ve teşvikler gibi faktörlerin dikkate alınmasıdır. Doğru yer seçimi, işletmenin karlılığı ve rekabet gücü açısından kritik öneme sahiptir. KPSS'de sanayi tesislerinin yer seçimini etkileyen faktörler ve Türkiye'deki sanayi bölgelerinin dağılımı incelenir.",
+    "examples": [
+      "Demir-çelik fabrikalarının demir madenlerine yakın kurulması.",
+      "Otomotiv sanayinin pazara ve yan sanayiye yakın bölgelerde yoğunlaşması."
+    ],
+    "relatedTerms": [
+      "Sanayi Bölgeleri",
+      "Hammadde Kaynakları",
+      "Pazar Ekonomisi"
+    ],
+    "order": 122
+  },
+  {
+    "id": "ekoturizm_ve_kirsal_kalkinma",
+    "term": "Ekoturizm ve Kırsal Kalkınma",
+    "definition": "Doğal alanlara yapılan, çevreyi korumayı ve yerel halkın refahını artırmayı amaçlayan sorumlu turizm türüdür. Kırsal bölgelerde gelir kaynaklarını çeşitlendirerek ve yerel ürünlerin tanıtımını sağlayarak kalkınmaya katkıda bulunur. KPSS'de ekoturizmin kırsal bölgelerdeki potansiyeli ve sürdürülebilir turizm yaklaşımları sorulabilir.",
+    "examples": [
+      "Karadeniz yaylalarında yapılan doğa yürüyüşleri ve konaklama tesisleri.",
+      "Kapadokya'daki balon turları ve yerel el sanatlarının tanıtımı."
+    ],
+    "relatedTerms": [
+      "Sürdürülebilir Turizm",
+      "Kırsal Turizm",
+      "Yerel Ürünler"
+    ],
+    "order": 123
+  },
+  {
+    "id": "bolgesel_tesvik_sistemleri",
+    "term": "Bölgesel Teşvik Sistemleri",
+    "definition": "Devletin, bölgeler arası gelişmişlik farklarını azaltmak ve az gelişmiş bölgelerde yatırımı teşvik etmek amacıyla uyguladığı ekonomik destek ve avantajlar bütünüdür. Vergi indirimleri, faiz destekleri, arsa tahsisi gibi uygulamaları içerir. KPSS'de Türkiye'deki bölgesel teşvik sistemlerinin amaçları, kapsamı ve etkileri sıklıkla sorulur.",
+    "examples": [
+      "Doğu ve Güneydoğu Anadolu Bölgeleri'ne sağlanan cazip yatırım teşvikleri.",
+      "Organize Sanayi Bölgeleri'ndeki yatırım avantajları."
+    ],
+    "relatedTerms": [
+      "Kalkınma Ajansları",
+      "Yatırım Teşvikleri",
+      "Bölgesel Kalkınma"
+    ],
+    "order": 124
+  },
+  {
+    "id": "ekonomik_koridorlar",
+    "term": "Ekonomik Koridorlar",
+    "definition": "Bölgeler veya ülkeler arasında ekonomik faaliyetleri ve ticareti kolaylaştırmak amacıyla oluşturulan, genellikle ulaşım altyapılarıyla desteklenen coğrafi alanlardır. Bu koridorlar, üretimden tüketime kadar tüm tedarik zincirini kapsayabilir ve bölgesel entegrasyonu teşvik eder.",
+    "examples": [
+      "Trans-Anadolu Doğalgaz Boru Hattı (TANAP) güzergahı boyunca gelişen ekonomik faaliyetler.",
+      "İpek Yolu güzergahında tarihi ticaretin canlanması çabaları."
+    ],
+    "relatedTerms": [
+      "Bölgesel Kalkınma",
+      "Ulaşım Ağları",
+      "Ticaret Yolları",
+      "Lojistik"
+    ],
+    "order": 125
+  },
+  {
+    "id": "kentsel_tarim",
+    "term": "Kentsel Tarım",
+    "definition": "Şehir içinde veya çevresinde, gıda üretimi, işlenmesi ve dağıtımını içeren faaliyetlerdir. Sürdürülebilir şehir yaşamını destekler, gıda güvenliğini artırır ve yerel ekonomiye katkıda bulunur.",
+    "examples": [
+      "Şehir merkezindeki boş arazilerde kurulan bostanlar ve hobi bahçeleri.",
+      "Çatılarda veya dikey çiftliklerde sebze-meyve üretimi."
+    ],
+    "relatedTerms": [
+      "Sürdürülebilir Şehirler",
+      "Gıda Güvenliği",
+      "Yerel Ekonomi",
+      "Yeşil Alanlar"
+    ],
+    "order": 126
+  },
+  {
+    "id": "mavi_ekonomi",
+    "term": "Mavi Ekonomi",
+    "definition": "Deniz ve okyanus kaynaklarının sürdürülebilir kullanımı yoluyla ekonomik büyüme, geçim kaynaklarının iyileştirilmesi ve ekosistem sağlığının korunmasını hedefleyen bir yaklaşımdır. Balıkçılık, deniz turizmi, deniz taşımacılığı ve deniz enerjisi gibi sektörleri kapsar.",
+    "examples": [
+      "Deniz rüzgar enerjisi santrallerinin kurulması.",
+      "Sürdürülebilir balıkçılık uygulamaları ve deniz ürünleri yetiştiriciliği."
+    ],
+    "relatedTerms": [
+      "Sürdürülebilir Kalkınma",
+      "Deniz Kaynakları",
+      "Ekoturizm",
+      "Yenilenebilir Enerji"
+    ],
+    "order": 127
+  },
+  {
+    "id": "dijital_gocmenlik",
+    "term": "Dijital Göçmenlik",
+    "definition": "Bireylerin veya şirketlerin, coğrafi konumdan bağımsız olarak uzaktan çalışma imkanlarını kullanarak farklı bir ülkeye veya bölgeye yerleşmesidir. Bu durum, özellikle hizmet sektöründe ve bilgi teknolojileri alanında ekonomik ve demografik değişimlere yol açar.",
+    "examples": [
+      "Avrupa'dan Türkiye'ye gelip uzaktan çalışarak yaşayan yazılımcılar.",
+      "Pandemi sonrası uzaktan çalışma imkanlarının artmasıyla kırsal bölgelere yerleşen beyaz yakalılar."
+    ],
+    "relatedTerms": [
+      "Uzaktan Çalışma",
+      "Beyin Göçü",
+      "Demografik Yapı",
+      "Hizmet Sektörü"
+    ],
+    "order": 128
+  },
+  {
+    "id": "ekonomik_bolgesel_entegrasyon",
+    "term": "Ekonomik Bölgesel Entegrasyon",
+    "definition": "Coğrafi olarak birbirine yakın ülkelerin veya bölgelerin, ekonomik ilişkilerini derinleştirmek ve ortak bir pazar oluşturmak amacıyla yaptıkları işbirliğidir. Gümrük birliği, serbest ticaret bölgeleri veya ortak para birimi gibi farklı düzeylerde gerçekleşebilir.",
+    "examples": [
+      "Avrupa Birliği'nin (AB) tek pazar uygulamaları.",
+      "Karadeniz Ekonomik İşbirliği (KEİ) üyesi ülkeler arasındaki ticari anlaşmalar."
+    ],
+    "relatedTerms": [
+      "Küreselleşme",
+      "Serbest Ticaret Bölgesi",
+      "Gümrük Birliği",
+      "Ortak Pazar"
+    ],
+    "order": 129
+  }
+]

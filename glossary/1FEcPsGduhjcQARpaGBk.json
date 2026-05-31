@@ -1,0 +1,2080 @@
+[
+  {
+    "id": "mutlak_konum",
+    "term": "Mutlak Konum",
+    "definition": "Bir yerin Dünya üzerindeki koordinatları (enlem ve boylam) ile belirlenen konumudur. Türkiye'nin enlem ve boylam dereceleriyle ifade edilir. Bu konum, iklim ve saat dilimi gibi özellikleri doğrudan etkiler.",
+    "examples": [
+      "Türkiye'nin 36°-42° Kuzey enlemleri arasında yer alması.",
+      "Türkiye'nin 26°-45° Doğu boylamları arasında yer alması."
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Boylam",
+      "Koordinat"
+    ],
+    "order": 1
+  },
+  {
+    "id": "goreceli_konum",
+    "term": "Göreceli Konum",
+    "definition": "Bir yerin, diğer yerlere ve çevresindeki kara ve denizlere göre konumu ile belirlenmesidir. Türkiye'nin kıtalar arasındaki konumu ve çevresindeki denizler bu durumu açıklar. Üç tarafının denizlerle çevrili olması önemli bir göreceli konum özelliğidir.",
+    "examples": [
+      "Türkiye'nin Asya ve Avrupa kıtaları arasında bir köprü görevi görmesi.",
+      "Karadeniz, Marmara Denizi, Ege Denizi ve Akdeniz'e kıyısının olması."
+    ],
+    "relatedTerms": [
+      "Kıtalar",
+      "Denizler",
+      "Stratejik Konum"
+    ],
+    "order": 2
+  },
+  {
+    "id": "enlem",
+    "term": "Enlem",
+    "definition": "Ekvator'dan kuzeye veya güneye olan açısal uzaklıktır. Türkiye'nin kuzey yarım kürede yer almasını sağlar. Enlem, sıcaklık ve güneş ışınlarının geliş açısını etkileyen temel faktördür.",
+    "examples": [
+      "Kuzeye gidildikçe deniz suyu sıcaklığının azalması.",
+      "Yaz aylarında kuzeydeki illerde gündüz süresinin daha uzun olması."
+    ],
+    "relatedTerms": [
+      "Mutlak Konum",
+      "Ekvator",
+      "Kuzey Yarım Küre"
+    ],
+    "order": 3
+  },
+  {
+    "id": "boylam",
+    "term": "Boylam",
+    "definition": "Başlangıç meridyeni (Greenwich) ile bir yer arasındaki açısal uzaklıktır. Türkiye'nin doğu yarım kürede yer almasını sağlar. Boylam farkı, yerel saat farklarının oluşmasına neden olur.",
+    "examples": [
+      "Türkiye'nin en doğusu ile en batısı arasındaki yerel saat farkı.",
+      "Türkiye'nin ulusal saatinin belirlenmesinde boylamın kullanılması."
+    ],
+    "relatedTerms": [
+      "Mutlak Konum",
+      "Başlangıç Meridyeni",
+      "Yerel Saat"
+    ],
+    "order": 4
+  },
+  {
+    "id": "kuzey_yarim_kure",
+    "term": "Kuzey Yarım Küre",
+    "definition": "Dünya'nın Ekvator'un kuzeyinde kalan kısmıdır. Türkiye, bu yarım kürede yer alır. Bu durum, Türkiye'nin mevsim özelliklerini ve güneş ışınlarının geliş açısını belirler.",
+    "examples": [
+      "Yaz mevsiminin Haziran, Temmuz, Ağustos aylarında yaşanması.",
+      "Kış mevsiminin Aralık, Ocak, Şubat aylarında yaşanması."
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Ekvator",
+      "Mevsim"
+    ],
+    "order": 5
+  },
+  {
+    "id": "dogu_yarim_kure",
+    "term": "Doğu Yarım Küre",
+    "definition": "Dünya'nın Başlangıç Meridyeni'nin doğusunda kalan kısmıdır. Türkiye, bu yarım kürede yer alır. Bu konum, ulusal saatin belirlenmesinde önemli bir rol oynar.",
+    "examples": [
+      "Türkiye'nin saatinin Greenwich'ten ileri olması.",
+      "Türkiye'nin ulusal saatinin 3. saat dilimine göre ayarlanması."
+    ],
+    "relatedTerms": [
+      "Boylam",
+      "Başlangıç Meridyeni",
+      "Ulusal Saat"
+    ],
+    "order": 6
+  },
+  {
+    "id": "stratejik_konum",
+    "term": "Stratejik Konum",
+    "definition": "Bir ülkenin jeopolitik, ekonomik ve askeri açıdan önemli bir yerde bulunmasıdır. Türkiye'nin üç tarafının denizlerle çevrili olması ve kıtalar arası geçiş noktasında yer alması bu durumu güçlendirir. Bu konum, uluslararası ilişkilerde önemli bir avantaj sağlar.",
+    "examples": [
+      "Boğazların (İstanbul ve Çanakkale) stratejik önemi.",
+      "Doğal kaynaklara ve enerji hatlarına yakınlık."
+    ],
+    "relatedTerms": [
+      "Göreceli Konum",
+      "Boğazlar",
+      "Jeopolitik"
+    ],
+    "order": 7
+  },
+  {
+    "id": "bogazlar",
+    "term": "Boğazlar",
+    "definition": "İki denizi birbirine bağlayan dar su geçitleridir. Türkiye'deki İstanbul ve Çanakkale Boğazları, Karadeniz ile Akdeniz arasında deniz ulaşımını sağlar. Bu boğazlar, hem ticari hem de askeri açıdan büyük öneme sahiptir.",
+    "examples": [
+      "İstanbul Boğazı'nın Karadeniz'i Marmara Denizi'ne bağlaması.",
+      "Çanakkale Boğazı'nın Marmara Denizi'ni Ege Denizi'ne bağlaması."
+    ],
+    "relatedTerms": [
+      "Stratejik Konum",
+      "Deniz Ulaşımı",
+      "Uluslararası Sular"
+    ],
+    "order": 8
+  },
+  {
+    "id": "iklim",
+    "term": "İklim",
+    "definition": "Bir bölgenin uzun yıllar boyunca gözlemlenen ortalama hava koşullarıdır. Türkiye'nin enlem, göreceli konum ve yer şekilleri gibi faktörler nedeniyle çeşitli iklim tipleri görülür. Akdeniz, Karadeniz ve karasal iklimler başlıcalarıdır.",
+    "examples": [
+      "Akdeniz kıyılarında yazların sıcak ve kurak, kışların ılık ve yağışlı geçmesi.",
+      "İç Anadolu'da yazların sıcak ve kurak, kışların soğuk ve kar yağışlı geçmesi."
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Göreceli Konum",
+      "Yer Şekilleri"
+    ],
+    "order": 9
+  },
+  {
+    "id": "yer_sekilleri",
+    "term": "Yer Şekilleri",
+    "definition": "Bir bölgenin yüzeyini oluşturan dağlar, platolar, ovalar, vadiler gibi coğrafi oluşumlardır. Türkiye'nin genç bir oluşum sürecine sahip olması nedeniyle dağlık ve engebeli bir arazi yapısı vardır. Bu durum, iklim ve ulaşım üzerinde etkilidir.",
+    "examples": [
+      "Toros Dağları'nın güneyde Akdeniz iklimini etkilemesi.",
+      "Anadolu Platosu'nun geniş ve düz alanlar sunması."
+    ],
+    "relatedTerms": [
+      "Dağlar",
+      "Platolar",
+      "Ovalar"
+    ],
+    "order": 10
+  },
+  {
+    "id": "denizler",
+    "term": "Denizler",
+    "definition": "Kara parçalarını çevreleyen büyük tuzlu su kütleleridir. Türkiye'nin üç tarafının denizlerle çevrili olması, iklimi yumuşatır ve ulaşım imkanları sunar. Karadeniz, Marmara Denizi, Ege Denizi ve Akdeniz Türkiye'nin önemli denizleridir.",
+    "examples": [
+      "Karadeniz'in bol yağış bırakması.",
+      "Ege Denizi'nin girintili çıkıntılı kıyı yapısı."
+    ],
+    "relatedTerms": [
+      "Göreceli Konum",
+      "Kıyı Şeridi",
+      "İklim"
+    ],
+    "order": 11
+  },
+  {
+    "id": "komsu_ulkeler",
+    "term": "Komşu Ülkeler",
+    "definition": "Türkiye'nin kara ve deniz sınırlarının bulunduğu ülkelerdir. Türkiye'nin sekiz ülkeyle sınırı vardır. Bu durum, Türkiye'nin dış politikası ve ekonomik ilişkileri açısından önemlidir.",
+    "examples": [
+      "Yunanistan ve Bulgaristan ile kara sınırı.",
+      "Suriye, Irak ve İran ile kara sınırı."
+    ],
+    "relatedTerms": [
+      "Sınırlar",
+      "Dış Politika",
+      "Kara Sınırı"
+    ],
+    "order": 12
+  },
+  {
+    "id": "ulusal_saat",
+    "term": "Ulusal Saat",
+    "definition": "Bir ülkenin tümünde kullanılan standart saattir. Türkiye, coğrafi konumuna göre belirlenen bir saat dilimini kullanır. Bu, günlük yaşam ve ekonomik faaliyetlerin düzenlenmesinde önemlidir.",
+    "examples": [
+      "Türkiye'nin Doğu Grubu'nda yer alması nedeniyle UTC+3 saat dilimini kullanması.",
+      "Yaz saati uygulaması."
+    ],
+    "relatedTerms": [
+      "Boylam",
+      "Saat Dilimi",
+      "Doğu Yarım Küre"
+    ],
+    "order": 13
+  },
+  {
+    "id": "saat_dilimi",
+    "term": "Saat Dilimi",
+    "definition": "Dünya'nın boylamlarına göre belirlenen zaman bölgeleridir. Türkiye, doğu boylamlarında yer aldığı için Greenwich'ten ileri bir saat dilimindedir. Bu, yerel saat farklarından kaynaklanan karmaşayı önler.",
+    "examples": [
+      "Türkiye'nin tek bir saat dilimi kullanması.",
+      "Komşu ülkelerle saat farklarının olması."
+    ],
+    "relatedTerms": [
+      "Boylam",
+      "Ulusal Saat",
+      "UTC"
+    ],
+    "order": 14
+  },
+  {
+    "id": "jeopolitik",
+    "term": "Jeopolitik",
+    "definition": "Coğrafi konumun siyasi olaylar ve devletlerin politikaları üzerindeki etkisidir. Türkiye'nin stratejik konumu, onu bölgesel ve küresel güç dengelerinde önemli bir aktör yapar. Enerji kaynakları ve ticaret yolları üzerindeki konumu jeopolitik önemini artırır.",
+    "examples": [
+      "Enerji hatlarının Türkiye üzerinden geçmesi.",
+      "Kıtalararası ulaşım ve ticaretin merkezinde yer alması."
+    ],
+    "relatedTerms": [
+      "Stratejik Konum",
+      "Konum",
+      "Siyasi Etki"
+    ],
+    "order": 15
+  },
+  {
+    "id": "kitalar_arasi_kopru",
+    "term": "Kıtalar Arası Köprü",
+    "definition": "Farklı kıtaları birbirine bağlayan coğrafi özelliklere sahip bölgelerdir. Türkiye, Avrupa ve Asya kıtaları arasında bir köprü görevi görür. Bu durum, kültürel ve ekonomik etkileşim açısından önemlidir.",
+    "examples": [
+      "İstanbul'un iki kıtayı birbirine bağlaması.",
+      "Anadolu'nun Asya ile Avrupa arasındaki kara bağlantısını sağlaması."
+    ],
+    "relatedTerms": [
+      "Göreceli Konum",
+      "Asya",
+      "Avrupa"
+    ],
+    "order": 16
+  },
+  {
+    "id": "akdeniz_iklimi",
+    "term": "Akdeniz İklimi",
+    "definition": "Yazları sıcak ve kurak, kışları ılık ve yağışlı geçen iklim tipidir. Türkiye'nin güney kıyıları ve Ege Bölgesi'nin kıyı kesimlerinde görülür. Bu iklim, tarım ürünleri ve turizm açısından önemlidir.",
+    "examples": [
+      "Antalya ve Muğla çevresinde görülmesi.",
+      "Zeytin ve turunçgillerin yetişmesine uygun olması."
+    ],
+    "relatedTerms": [
+      "İklim",
+      "Enlem",
+      "Deniz Etkisi"
+    ],
+    "order": 17
+  },
+  {
+    "id": "karadeniz_iklimi",
+    "term": "Karadeniz İklimi",
+    "definition": "Her mevsim yağışlı ve ılıman geçen iklim tipidir. Türkiye'nin Karadeniz kıyılarında görülür. Bu iklim, orman varlığı ve tarım ürünleri açısından önemlidir.",
+    "examples": [
+      "Rize ve Trabzon çevresinde görülmesi.",
+      "Mısır ve fındık tarımına uygun olması."
+    ],
+    "relatedTerms": [
+      "İklim",
+      "Deniz Etkisi",
+      "Yağış"
+    ],
+    "order": 18
+  },
+  {
+    "id": "karasal_iklim",
+    "term": "Karasal İklim",
+    "definition": "Yazları sıcak ve kurak, kışları soğuk ve kar yağışlı geçen iklim tipidir. Türkiye'nin iç bölgelerinde görülür. Bu iklim, tarım ve hayvancılık üzerinde etkilidir.",
+    "examples": [
+      "Ankara ve Sivas çevresinde görülmesi.",
+      "Buğday ve arpa tarımına uygun olması."
+    ],
+    "relatedTerms": [
+      "İklim",
+      "Enlem",
+      "Denizden Uzaklık"
+    ],
+    "order": 19
+  },
+  {
+    "id": "turkiye_haritasi",
+    "term": "Türkiye Haritası",
+    "definition": "Türkiye'nin coğrafi özelliklerini, sınırlarını, yerleşim yerlerini ve idari bölümlerini gösteren görsel temsilidir. KPSS coğrafya sorularının anlaşılması ve çözülmesi için temel bir araçtır. Konum, iklim, yer şekilleri gibi pek çok bilgiyi barındırır.",
+    "examples": [
+      "Siyasi harita üzerinde komşu ülkeleri gösterme.",
+      "Fiziki harita üzerinde dağları ve platoları belirleme."
+    ],
+    "relatedTerms": [
+      "Harita Bilgisi",
+      "Coğrafi Gösterim",
+      "Konum"
+    ],
+    "order": 20
+  },
+  {
+    "id": "meridianlar",
+    "term": "Meridianlar",
+    "definition": "Kutupları birleştiren hayali yarım çemberlerdir. Başlangıç meridyeni (Greenwich) ile birlikte Dünya'yı doğu ve batı olarak ikiye ayırır. Türkiye, başlangıç meridyeninin doğusunda yer alır.",
+    "examples": [
+      "Başlangıç Meridyeni (0°)",
+      "15° Doğu Meridyeni",
+      "36° Doğu Meridyeni"
+    ],
+    "relatedTerms": [
+      "Boylam",
+      "Doğu Yarım Küre",
+      "Yerel Saat"
+    ],
+    "order": 21
+  },
+  {
+    "id": "paraleller",
+    "term": "Paraleller",
+    "definition": "Ekvator'a paralel uzanan hayali çemberlerdir. Ekvator başlangıç paraleli (0°) olup, kuzeye ve güneye doğru dereceleri artar. Türkiye, Ekvator'un kuzeyinde yer alır.",
+    "examples": [
+      "Ekvator (0°)",
+      "23°27' Kuzey Paraleli (Yengeç Dönencesi)",
+      "36° Kuzey Paraleli (Enlem)",
+      "42° Kuzey Paraleli (Enlem)"
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Kuzey Yarım Küre",
+      "Güneş Işınları Açısı"
+    ],
+    "order": 22
+  },
+  {
+    "id": "ekvator",
+    "term": "Ekvator",
+    "definition": "Dünya'yı kuzey ve güney olarak iki eşit yarım küreye ayıran hayali çemberdir. 0° enlem olarak kabul edilir. Türkiye, Ekvator'un kuzeyinde yer aldığı için Kuzey Yarım Küre'dedir.",
+    "examples": [
+      "0° Enlem",
+      "Dünyanın Ortası",
+      "Kuzey ve Güney Yarım Küre Ayrımı"
+    ],
+    "relatedTerms": [
+      "Paraleller",
+      "Enlem",
+      "Kuzey Yarım Küre"
+    ],
+    "order": 23
+  },
+  {
+    "id": "yengec_donencesi",
+    "term": "Yengeç Dönencesi",
+    "definition": "23°27' Kuzey enlemidir. Yaz aylarında Güneş ışınlarının dik geldiği en kuzey sınırdır. Türkiye'nin güney sınırları bu dönencenin kuzeyinde yer alır.",
+    "examples": [
+      "23°27' Kuzey Paraleli",
+      "Yaz Gündönümü",
+      "Güneş'in Dik Geldiği En Kuzey Nokta"
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Güneş Işınları",
+      "Yaz Mevsimi"
+    ],
+    "order": 24
+  },
+  {
+    "id": "oglak_donencesi",
+    "term": "Oğlak Dönencesi",
+    "definition": "23°27' Güney enlemidir. Türkiye'nin konumu itibarıyla bu dönence ile doğrudan bir ilişkisi yoktur, ancak Dünya üzerindeki konumu anlamak için önemlidir.",
+    "examples": [
+      "23°27' Güney Paraleli",
+      "Kış Gündönümü",
+      "Güneş'in Dik Geldiği En Güney Nokta"
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Güneş Işınları",
+      "Kış Mevsimi"
+    ],
+    "order": 25
+  },
+  {
+    "id": "baslangic_meridyeni",
+    "term": "Başlangıç Meridyeni",
+    "definition": "0° boylam olarak kabul edilen ve Greenwich Gözlemevi'nden geçen hayali dikey çizgidir. Dünya'yı doğu ve batı yarım kürelerine ayırır. Türkiye, bu meridyenin doğusunda yer alır.",
+    "examples": [
+      "Greenwich Meridyeni",
+      "0° Boylam",
+      "Doğu ve Batı Yarım Küre Ayrımı"
+    ],
+    "relatedTerms": [
+      "Meridianlar",
+      "Boylam",
+      "Doğu Yarım Küre"
+    ],
+    "order": 26
+  },
+  {
+    "id": "uluslararasi_saat_dilimleri",
+    "term": "Uluslararası Saat Dilimleri",
+    "definition": "Dünya'nın kendi ekseni etrafında dönmesiyle oluşan gece ve gündüz farkından dolayı belirlenen zaman dilimleridir. Her 15 boylam bir saat dilimini oluşturur. Türkiye tek bir saat dilimini kullanır.",
+    "examples": [
+      "15° Boylam Farkı = 1 Saat",
+      "24 Saat Dilimi",
+      "UTC (Eşgüdümlü Evrensel Zaman)"
+    ],
+    "relatedTerms": [
+      "Saat Dilimi",
+      "Boylam",
+      "Yerel Saat"
+    ],
+    "order": 27
+  },
+  {
+    "id": "yerel_saat",
+    "term": "Yerel Saat",
+    "definition": "Bir meridyen üzerindeki noktalarda Güneş'in aynı anda en tepede olduğu zamana göre belirlenen saattir. Boylamlara göre farklılık gösterir. Türkiye'de doğu-batı yönünde yerel saat farkları bulunur.",
+    "examples": [
+      "Ankara'nın Yerel Saati",
+      "İstanbul'un Yerel Saati",
+      "Doğu-Batı Farkı"
+    ],
+    "relatedTerms": [
+      "Boylam",
+      "Meridianlar",
+      "Saat Dilimi"
+    ],
+    "order": 28
+  },
+  {
+    "id": "turkiye_merkez_enlemi",
+    "term": "Türkiye Merkez Enlemi",
+    "definition": "Türkiye'nin ortalama enlem değeridir. Yaklaşık olarak 36°-42° Kuzey enlemleri arasında yer alır. Bu enlem, Türkiye'nin iklim ve tarım özellikleri üzerinde etkilidir.",
+    "examples": [
+      "Ortalama Enlem Değeri",
+      "39° Kuzey Enlemi (Yaklaşık)",
+      "Orta Kuşak"
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Kuzey Yarım Küre",
+      "Orta Kuşak"
+    ],
+    "order": 29
+  },
+  {
+    "id": "turkiye_merkez_boylami",
+    "term": "Türkiye Merkez Boylamı",
+    "definition": "Türkiye'nin ortalama boylam değeridir. Yaklaşık olarak 26°-45° Doğu boylamları arasında yer alır. Bu boylam, Türkiye'nin ulusal saatini belirlemede önemlidir.",
+    "examples": [
+      "Ortalama Boylam Değeri",
+      "35° Doğu Boylamı (Yaklaşık)",
+      "UTC+2 veya UTC+3"
+    ],
+    "relatedTerms": [
+      "Boylam",
+      "Doğu Yarım Küre",
+      "Ulusal Saat"
+    ],
+    "order": 30
+  },
+  {
+    "id": "orta_kusak",
+    "term": "Orta Kuşak",
+    "definition": "Yengeç ve Oğlak Dönenceleri arasındaki enlemleri kapsayan kuşaktır. Türkiye, orta kuşakta yer aldığı için dört mevsim belirgin olarak yaşanır.",
+    "examples": [
+      "Yengeç ve Oğlak Dönenceleri Arası",
+      "Dört Mevsim Yaşanması",
+      "Batı Rüzgarları"
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Dört Mevsim",
+      "İklim"
+    ],
+    "order": 31
+  },
+  {
+    "id": "kutup_dairesi",
+    "term": "Kutup Dairesi",
+    "definition": "Kuzey Kutup Dairesi (66°33' Kuzey) ve Güney Kutup Dairesi (66°33' Güney) olarak ikiye ayrılır. Türkiye'nin konumu itibarıyla bu dairelerin güneyinde yer alır.",
+    "examples": [
+      "66°33' Kuzey Paraleli",
+      "Aşırı Soğuk İklim",
+      "Kutup Gündüz ve Geceleri"
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Kutuplar",
+      "İklim"
+    ],
+    "order": 32
+  },
+  {
+    "id": "turkiye_sinirlari",
+    "term": "Türkiye Sınırları",
+    "definition": "Türkiye'nin kara ve deniz sınırlarını ifade eder. Komşu ülkelerle olan kara sınırları ve denizlerle olan sınırlar, Türkiye'nin coğrafi konumunun önemli bir unsurudur.",
+    "examples": [
+      "Kara Sınırları (Yunanistan, Bulgaristan, Gürcistan, Ermenistan, Nahçıvan, İran, Irak, Suriye)",
+      "Deniz Sınırları (Karadeniz, Ege Denizi, Akdeniz)"
+    ],
+    "relatedTerms": [
+      "Komşu Ülkeler",
+      "Denizler",
+      "Stratejik Konum"
+    ],
+    "order": 33
+  },
+  {
+    "id": "turkiye_denizleri",
+    "term": "Türkiye Denizleri",
+    "definition": "Türkiye'nin çevresini saran Karadeniz, Ege Denizi ve Akdeniz'dir. Bu denizler, ulaşım, ticaret ve iklim üzerinde önemli etkilere sahiptir.",
+    "examples": [
+      "Karadeniz",
+      "Ege Denizi",
+      "Akdeniz"
+    ],
+    "relatedTerms": [
+      "Denizler",
+      "Ulaşım",
+      "İklim"
+    ],
+    "order": 34
+  },
+  {
+    "id": "turkiye_bogazlari",
+    "term": "Türkiye Boğazları",
+    "definition": "İstanbul Boğazı ve Çanakkale Boğazı'dır. Karadeniz ile Akdeniz'i birbirine bağlar. Stratejik önemi nedeniyle uluslararası denizcilik ve jeopolitik açısından büyük önem taşır.",
+    "examples": [
+      "İstanbul Boğazı",
+      "Çanakkale Boğazı",
+      "Marmara Denizi"
+    ],
+    "relatedTerms": [
+      "Boğazlar",
+      "Stratejik Konum",
+      "Jeopolitik"
+    ],
+    "order": 35
+  },
+  {
+    "id": "turkiye_komsu_ulkeler",
+    "term": "Türkiye Komşu Ülkeler",
+    "definition": "Türkiye'nin kara sınırlarını paylaştığı sekiz ülkedir. Bu ülkelerle olan ilişkiler, hem siyasi hem de ekonomik açıdan Türkiye'nin konumunu etkiler.",
+    "examples": [
+      "Yunanistan",
+      "Bulgaristan",
+      "Suriye",
+      "İran"
+    ],
+    "relatedTerms": [
+      "Komşu Ülkeler",
+      "Kara Sınırları",
+      "Jeopolitik"
+    ],
+    "order": 36
+  },
+  {
+    "id": "avrasya",
+    "term": "Avrasya",
+    "definition": "Avrupa ve Asya kıtalarının birleştiği büyük kara kütlesidir. Türkiye, Avrasya'nın batı ucunda, iki kıta arasında bir köprü konumundadır.",
+    "examples": [
+      "Avrupa Kıtası",
+      "Asya Kıtası",
+      "Kıtalar Arası Köprü"
+    ],
+    "relatedTerms": [
+      "Kıtalar Arası Köprü",
+      "Stratejik Konum",
+      "Jeopolitik"
+    ],
+    "order": 37
+  },
+  {
+    "id": "turkiyenin_stratejik_konumu",
+    "term": "Türkiye'nin Stratejik Konumu",
+    "definition": "Türkiye'nin, üç tarafının denizlerle çevrili olması, önemli boğazlara sahip olması ve Avrupa ile Asya arasında bir geçiş noktası olması nedeniyle sahip olduğu avantajlı durumdur. Enerji hatları ve ticaret yolları üzerinde bulunur.",
+    "examples": [
+      "Enerji Koridorları",
+      "Ticaret Yolları",
+      "Boğazlar"
+    ],
+    "relatedTerms": [
+      "Stratejik Konum",
+      "Jeopolitik",
+      "Kıtalar Arası Köprü"
+    ],
+    "order": 38
+  },
+  {
+    "id": "turkiyenin_jeopolitik_onemi",
+    "term": "Türkiye'nin Jeopolitik Önemi",
+    "definition": "Türkiye'nin coğrafi konumundan kaynaklanan siyasi ve askeri önemidir. Bölgesel ve küresel güç dengelerinde rol oynar. Komşuları ve çevresindeki denizler nedeniyle stratejik bir oyuncudur.",
+    "examples": [
+      "Bölgesel Güç Dengeleri",
+      "NATO Üyeliği",
+      "Doğalgaz Boru Hatları"
+    ],
+    "relatedTerms": [
+      "Jeopolitik",
+      "Stratejik Konum",
+      "Komşu Ülkeler"
+    ],
+    "order": 39
+  },
+  {
+    "id": "turkiyenin_iklim_cesitlilig",
+    "term": "Türkiye'nin İklim Çeşitliliği",
+    "definition": "Enlem, yer şekilleri ve denizlere olan uzaklık gibi faktörler nedeniyle Türkiye'de farklı iklim tiplerinin görülmesidir. Karadeniz, Akdeniz ve karasal iklim bölgeleri bulunur.",
+    "examples": [
+      "Akdeniz İklimi (Güney Sahilleri)",
+      "Karadeniz İklimi (Kuzey Sahilleri)",
+      "Karasal İklim (İç Bölgeler)"
+    ],
+    "relatedTerms": [
+      "İklim",
+      "Enlem",
+      "Yer Şekilleri"
+    ],
+    "order": 40
+  },
+  {
+    "id": "turkiyenin_uluslararasi_konumu",
+    "term": "Türkiye'nin Uluslararası Konumu",
+    "definition": "Türkiye'nin dünya üzerindeki yeri ve bu konumunun getirdiği avantajlar ile dezavantajları ifade eder. Hem siyasi hem de ekonomik açıdan büyük önem taşır.",
+    "examples": [
+      "Avrupa ve Asya kıtaları arasında köprü olması.",
+      "Üç tarafının denizlerle çevrili olması.",
+      "Önemli ticaret yolları üzerinde bulunması."
+    ],
+    "relatedTerms": [
+      "Stratejik Konum",
+      "Jeopolitik",
+      "Göreceli Konum"
+    ],
+    "order": 41
+  },
+  {
+    "id": "turkiyenin_kesin_konumu",
+    "term": "Türkiye'nin Kesin Konumu",
+    "definition": "Türkiye'nin matematiksel konumunu, yani enlem ve boylam dereceleriyle ifade edilen konumunu belirtir. Bu konum, Türkiye'nin iklim ve mevsim özelliklerini belirler.",
+    "examples": [
+      "36°-42° Kuzey enlemleri arasında yer alması.",
+      "26°-45° Doğu boylamları arasında yer alması.",
+      "Yengeç Dönencesi'nin kuzeyinde bulunması."
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Boylam",
+      "Mutlak Konum",
+      "Yengeç Dönencesi"
+    ],
+    "order": 42
+  },
+  {
+    "id": "turkiyenin_orijinal_konumu",
+    "term": "Türkiye'nin Orijinal Konumu",
+    "definition": "Türkiye'nin kıtalar ve okyanuslar arasındaki konumunu ifade eder. Bu konum, Türkiye'nin jeopolitik ve stratejik önemini doğrudan etkiler.",
+    "examples": [
+      "Avrupa, Asya ve Afrika kıtalarının kesişim noktasında bulunması.",
+      "Karadeniz, Akdeniz ve Ege Denizi'ne kıyısının olması.",
+      "Orta Doğu ve Balkanlar'a yakınlığı."
+    ],
+    "relatedTerms": [
+      "Göreceli Konum",
+      "Avrasya",
+      "Stratejik Konum",
+      "Jeopolitik"
+    ],
+    "order": 43
+  },
+  {
+    "id": "turkiyenin_merkez_enlemi",
+    "term": "Türkiye'nin Merkez Enlemi",
+    "definition": "Türkiye'nin en kuzey ve en güney enlemlerinin ortalaması alınarak hesaplanan enlem derecesidir. Bu değer, Türkiye'nin genel olarak hangi iklim kuşağında yer aldığını gösterir.",
+    "examples": [
+      "Yaklaşık 39° Kuzey enlemi.",
+      "Bu enlemin orta kuşakta yer alması.",
+      "Yaz ve kış mevsimlerinin belirgin yaşanması."
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Orta Kuşak",
+      "Kuzey Yarım Küre",
+      "Mevsimler"
+    ],
+    "order": 44
+  },
+  {
+    "id": "turkiyenin_merkez_boylami",
+    "term": "Türkiye'nin Merkez Boylamı",
+    "definition": "Türkiye'nin en doğu ve en batı boylamlarının ortalaması alınarak hesaplanan boylam derecesidir. Bu değer, Türkiye'nin ulusal saatinin belirlenmesinde kullanılır.",
+    "examples": [
+      "Yaklaşık 35° Doğu boylamı.",
+      "Bu boylamın ulusal saat diliminin belirlenmesinde etkili olması.",
+      "Yerel saat farklarının oluşması."
+    ],
+    "relatedTerms": [
+      "Boylam",
+      "Ulusal Saat",
+      "Yerel Saat",
+      "Saat Dilimi"
+    ],
+    "order": 45
+  },
+  {
+    "id": "turkiyenin_sinir_komgulari",
+    "term": "Türkiye'nin Sınır Komşuları",
+    "definition": "Türkiye'nin kara ve deniz yoluyla komşu olduğu ülkeleri ifade eder. Bu komşuluk ilişkileri, Türkiye'nin dış politikası ve güvenliği açısından önemlidir.",
+    "examples": [
+      "Kara komşuları: Yunanistan, Bulgaristan, Gürcistan, Ermenistan, Azerbaycan (Nahçıvan), İran, Irak, Suriye.",
+      "Deniz komşuları: Kıbrıs, Rusya, Ukrayna, Romanya, Bulgaristan (Karadeniz).",
+      "Bu komşulukların siyasi ve ekonomik etkileri."
+    ],
+    "relatedTerms": [
+      "Komşu Ülkeler",
+      "Sınırlar",
+      "Jeopolitik",
+      "Dış Politika"
+    ],
+    "order": 46
+  },
+  {
+    "id": "turkiyenin_bogazlari",
+    "term": "Türkiye'nin Boğazları",
+    "definition": "Türkiye'nin Asya ve Avrupa kıtaları arasında yer alan, Karadeniz'i Akdeniz'e bağlayan su yollarıdır. Bu boğazlar, uluslararası deniz ticareti ve stratejik açıdan büyük önem taşır.",
+    "examples": [
+      "İstanbul Boğazı.",
+      "Çanakkale Boğazı.",
+      "Montrö Boğazlar Sözleşmesi ile yönetilmesi."
+    ],
+    "relatedTerms": [
+      "Boğazlar",
+      "Stratejik Konum",
+      "Uluslararası Deniz Ticareti",
+      "Montrö Sözleşmesi"
+    ],
+    "order": 47
+  },
+  {
+    "id": "turkiyenin_denizleri",
+    "term": "Türkiye'nin Denizleri",
+    "definition": "Türkiye'nin üç tarafını çevreleyen denizlerdir. Bu denizler, Türkiye'nin iklimi, turizmi, balıkçılığı ve ulaşımı üzerinde önemli etkilere sahiptir.",
+    "examples": [
+      "Karadeniz.",
+      "Ege Denizi.",
+      "Akdeniz."
+    ],
+    "relatedTerms": [
+      "Denizler",
+      "İklim",
+      "Turizm",
+      "Ulaşım"
+    ],
+    "order": 48
+  },
+  {
+    "id": "turkiyenin_yer_sekilleri",
+    "term": "Türkiye'nin Yer Şekilleri",
+    "definition": "Türkiye'nin dağlar, platolar, ovalar ve vadiler gibi çeşitli yeryüzü şekillerini ifade eder. Bu şekiller, iklimi, yerleşmeyi ve ulaşımı etkiler.",
+    "examples": [
+      "Toros Dağları.",
+      "Anadolu Platosu.",
+      "Fırat ve Dicle nehir vadileri."
+    ],
+    "relatedTerms": [
+      "Yer Şekilleri",
+      "İklim",
+      "Dağlar",
+      "Platolar",
+      "Ovalar"
+    ],
+    "order": 49
+  },
+  {
+    "id": "turkiyenin_stratejik_onemi",
+    "term": "Türkiye'nin Stratejik Önemi",
+    "definition": "Türkiye'nin askeri ve siyasi açıdan sahip olduğu önemi ifade eder. Özellikle boğazlar, sınırları ve komşuluk ilişkileri bu stratejik değeri belirler.",
+    "examples": [
+      "Boğazların uluslararası deniz trafiği için hayati önemi.",
+      "Sınır güvenliği ve terörle mücadeledeki rolü.",
+      "Bölgesel istikrarın sağlanmasındaki konumu."
+    ],
+    "relatedTerms": [
+      "Stratejik Konum",
+      "Jeopolitik",
+      "Boğazlar",
+      "Sınırlar"
+    ],
+    "order": 50
+  },
+  {
+    "id": "turkiyenin_uluslararasi_ticaret_yollari",
+    "term": "Türkiye'nin Uluslararası Ticaret Yolları",
+    "definition": "Türkiye'nin üzerinde bulunduğu ve uluslararası ticaretin yoğun olarak yapıldığı yollardır. Bu yollar, Türkiye'nin ekonomik kalkınmasına katkı sağlar.",
+    "examples": [
+      "İpek Yolu'nun tarihi güzergahları.",
+      "Deniz ticaret yolları (Karadeniz-Akdeniz bağlantısı).",
+      "Demiryolu ve karayolu bağlantıları."
+    ],
+    "relatedTerms": [
+      "Stratejik Konum",
+      "Uluslararası Konum",
+      "Ekonomi",
+      "İpek Yolu"
+    ],
+    "order": 51
+  },
+  {
+    "id": "turkiyenin_kitalar_arasi_kopru_rolu",
+    "term": "Türkiye'nin Kıtalar Arası Köprü Rolü",
+    "definition": "Türkiye'nin Asya ve Avrupa kıtaları arasında bir geçiş noktası olmasıdır. Bu rol, hem kültürel hem de ekonomik etkileşimleri güçlendirir.",
+    "examples": [
+      "İstanbul'un iki kıtayı birbirine bağlaması.",
+      "Kültürel etkileşimlerin yoğunluğu.",
+      "Ulaşım ve lojistik avantajları."
+    ],
+    "relatedTerms": [
+      "Kıtalar Arası Köprü",
+      "Uluslararası Konum",
+      "Avrasya",
+      "Kültür"
+    ],
+    "order": 52
+  },
+  {
+    "id": "turkiyenin_uluslararasi_saat_dilimi",
+    "term": "Türkiye'nin Uluslararası Saat Dilimi",
+    "definition": "Türkiye'nin Greenwich'e (Başlangıç Meridyeni) göre konumundan kaynaklanan saat farkıdır. Türkiye, ulusal saatini genellikle Doğu 30. veya 45. meridyenlerine göre ayarlar.",
+    "examples": [
+      "Türkiye saati (TSİ) genellikle UTC+3 (kış saati) veya UTC+2 (yaz saati) olarak kullanılır.",
+      "Doğu 30. meridyeninin ulusal saat dilimini belirlemedeki rolü.",
+      "Diğer ülkelerle saat farkları."
+    ],
+    "relatedTerms": [
+      "Ulusal Saat",
+      "Saat Dilimi",
+      "Boylam",
+      "Başlangıç Meridyeni",
+      "UTC"
+    ],
+    "order": 53
+  },
+  {
+    "id": "turkiyenin_yerel_saat_farki",
+    "term": "Türkiye'nin Yerel Saat Farkı",
+    "definition": "Türkiye'nin doğu ve batı arasındaki geniş boylam farkından dolayı oluşan saat farkıdır. Farklı boylamlardaki yerleşim yerleri arasında güneşin doğuş ve batış zamanları farklılık gösterir.",
+    "examples": [
+      "Doğu illeri (örn: Iğdır) ile Batı illeri (örn: Edirne) arasındaki güneşin doğuşu ve batışı farkı.",
+      "Yerel saat ile ulusal saat arasındaki fark.",
+      "Boylamın yerel saat üzerindeki etkisi."
+    ],
+    "relatedTerms": [
+      "Yerel Saat",
+      "Boylam",
+      "Ulusal Saat",
+      "Saat Dilimi"
+    ],
+    "order": 54
+  },
+  {
+    "id": "turkiyenin_orijinal_iklim_kusagi",
+    "term": "Türkiye'nin Orijinal İklim Kuşağı",
+    "definition": "Türkiye'nin enlem derecelerine göre içinde bulunduğu iklim kuşağıdır. Türkiye, büyük ölçüde orta kuşakta yer alır.",
+    "examples": [
+      "Orta kuşakta yer alması nedeniyle dört mevsimin belirgin yaşanması.",
+      "Yengeç Dönencesi'nin kuzeyinde olması.",
+      "Kutup rüzgarlarının etkisine açık olması."
+    ],
+    "relatedTerms": [
+      "Orta Kuşak",
+      "Enlem",
+      "Kuzey Yarım Küre",
+      "Mevsimler",
+      "Yengeç Dönencesi"
+    ],
+    "order": 55
+  },
+  {
+    "id": "turkiyenin_kuzey_yari_kuresel_konumu",
+    "term": "Türkiye'nin Kuzey Yarımküresel Konumu",
+    "definition": "Türkiye'nin Ekvator'un kuzeyinde yer alması durumudur. Bu konum, Türkiye'nin güneş ışınlarını yıl boyunca eğik almasına ve mevsimlerin oluşmasına neden olur.",
+    "examples": [
+      "Yazın güneş ışınlarının daha dik, kışın daha eğik gelmesi.",
+      "Gölge boylarının mevsimlere göre değişmesi.",
+      "Kuzey yarımküreye özgü rüzgar sistemlerinin etkileri."
+    ],
+    "relatedTerms": [
+      "Kuzey Yarım Küre",
+      "Enlem",
+      "Ekvator",
+      "Mevsimler",
+      "Güneş Işınları"
+    ],
+    "order": 56
+  },
+  {
+    "id": "turkiyenin_dogu_yari_kuresel_konumu",
+    "term": "Türkiye'nin Doğu Yarımküresel Konumu",
+    "definition": "Türkiye'nin Başlangıç Meridyeni'nin doğusunda yer alması durumudur. Bu konum, Türkiye'nin saat dilimlerinin belirlenmesinde ve yerel saat farklarında etkili olur.",
+    "examples": [
+      "Doğu boylamlarında yer alması.",
+      "UTC'ye göre pozitif saat farkı.",
+      "Güneşin erken doğup erken batması (yerel saat bazında)."
+    ],
+    "relatedTerms": [
+      "Doğu Yarım Küre",
+      "Boylam",
+      "Başlangıç Meridyeni",
+      "Saat Dilimi",
+      "UTC"
+    ],
+    "order": 57
+  },
+  {
+    "id": "turkiyenin_denizlere_olan_baglantisi",
+    "term": "Türkiye'nin Denizlere Olan Bağlantısı",
+    "definition": "Türkiye'nin üç tarafının denizlerle çevrili olması ve bu denizlere olan erişimi. Bu durum, iklim, ulaşım, ticaret ve turizm açısından önemlidir.",
+    "examples": [
+      "Karadeniz'e İstanbul ve Çanakkale Boğazları ile ulaşım.",
+      "Ege Denizi'nin batı kıyılarımızda geniş yer kaplaması.",
+      "Akdeniz'in güney kıyılarımızda turizm ve ticaret için önemi."
+    ],
+    "relatedTerms": [
+      "Denizler",
+      "Boğazlar",
+      "Ulaşım",
+      "Ticaret",
+      "Turizm",
+      "İklim"
+    ],
+    "order": 58
+  },
+  {
+    "id": "turkiyenin_matematiksel_konumu",
+    "term": "Türkiye'nin Matematiksel Konumu",
+    "definition": "Türkiye'nin Ekvator ve Başlangıç Meridyeni'ne göre konumunu belirten enlem ve boylam dereceleridir. Bu konum, Türkiye'nin iklimini, gece-gündüz sürelerini ve yerel saat farklarını doğrudan etkiler.",
+    "examples": [
+      "36°-42° Kuzey enlemleri",
+      "26°-45° Doğu boylamları"
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Boylam",
+      "Ekvator",
+      "Başlangıç Meridyeni"
+    ],
+    "order": 59
+  },
+  {
+    "id": "turkiyenin_goreceli_konumu",
+    "term": "Türkiye'nin Göreceli Konumu",
+    "definition": "Türkiye'nin kıtalar, okyanuslar, denizler, boğazlar ve komşu ülkelere göre konumunu ifade eder. Bu konum, Türkiye'nin jeopolitik ve jeostratejik önemini belirleyen temel faktördür.",
+    "examples": [
+      "Avrupa ve Asya kıtaları arasında köprü olması",
+      "Karadeniz, Akdeniz ve Ege Denizi'ne kıyısı olması"
+    ],
+    "relatedTerms": [
+      "Jeopolitik",
+      "Jeostratejik",
+      "Kıtalar Arası Köprü",
+      "Boğazlar"
+    ],
+    "order": 60
+  },
+  {
+    "id": "turkiyenin_enlem_etkisi",
+    "term": "Türkiye'nin Enlem Etkisi",
+    "definition": "Türkiye'nin Kuzey Yarımküre'de orta kuşakta yer alması nedeniyle dört mevsim belirgin olarak yaşanır. Enlemin etkisiyle güneyden kuzeye doğru gidildikçe sıcaklıklar azalır.",
+    "examples": [
+      "Yazların sıcak ve kurak geçmesi",
+      "Kışların soğuk ve kar yağışlı geçmesi"
+    ],
+    "relatedTerms": [
+      "Orta Kuşak",
+      "Dört Mevsim",
+      "Sıcaklık",
+      "Enlem"
+    ],
+    "order": 61
+  },
+  {
+    "id": "turkiyenin_boylam_etkisi",
+    "term": "Türkiye'nin Boylam Etkisi",
+    "definition": "Türkiye'nin doğudan batıya doğru geniş bir boylam aralığına sahip olması, yerel saat farklarına neden olur. Doğu ile batı arasındaki güneşin doğuş ve batış zamanları farklılık gösterir.",
+    "examples": [
+      "Doğu Anadolu'da güneşin batıdan daha önce doğması",
+      "Yerel saat farklarının oluşması"
+    ],
+    "relatedTerms": [
+      "Boylam",
+      "Yerel Saat",
+      "Başlangıç Meridyeni",
+      "Meridian"
+    ],
+    "order": 62
+  },
+  {
+    "id": "turkiyenin_iklim_kusaklari",
+    "term": "Türkiye'nin İklim Kuşakları",
+    "definition": "Türkiye, orta kuşakta yer alması nedeniyle temel olarak Akdeniz, Karadeniz ve Karasal iklim tiplerinin görüldüğü bir ülkedir. Bu kuşaklar, enlem, yükselti ve denizelliğe göre değişiklik gösterir.",
+    "examples": [
+      "Akdeniz kıyıları",
+      "Karadeniz kıyıları",
+      "İç Anadolu platoları"
+    ],
+    "relatedTerms": [
+      "Akdeniz İklimi",
+      "Karadeniz İklimi",
+      "Karasal İklim",
+      "Orta Kuşak"
+    ],
+    "order": 63
+  },
+  {
+    "id": "turkiyenin_komsu_ulkeler",
+    "term": "Türkiye'nin Komşu Ülkeler",
+    "definition": "Türkiye, kara ve deniz sınırları boyunca sekiz ülkeyle komşudur. Bu komşuluk ilişkileri, siyasi, ekonomik ve kültürel etkileşimleri belirler.",
+    "examples": [
+      "Yunanistan",
+      "Bulgaristan",
+      "Gürcistan",
+      "Ermenistan",
+      "İran",
+      "Irak",
+      "Suriye",
+      "Kıbrıs (Deniz Komşusu)"
+    ],
+    "relatedTerms": [
+      "Sınırlar",
+      "Uluslararası İlişkiler",
+      "Jeopolitik",
+      "Kara Sınırları",
+      "Deniz Sınırları"
+    ],
+    "order": 64
+  },
+  {
+    "id": "turkiyenin_sinir_tipleri",
+    "term": "Türkiye'nin Sınır Tipleri",
+    "definition": "Türkiye'nin sınırları hem doğal (dağlar, nehirler) hem de yapay (sınır taşları ile belirlenen) özellikler gösterir. Bu sınırlar, komşu ülkelerle olan ilişkileri şekillendirir.",
+    "examples": [
+      "Doğal Sınırlar: Aras Nehri, Fırat Nehri",
+      "Yapay Sınırlar: Sınır taşları ile belirlenen hatlar"
+    ],
+    "relatedTerms": [
+      "Sınırlar",
+      "Doğal Sınırlar",
+      "Yapay Sınırlar",
+      "Komşu Ülkeler"
+    ],
+    "order": 65
+  },
+  {
+    "id": "turkiyenin_ulusal_saati",
+    "term": "Türkiye'nin Ulusal Saati",
+    "definition": "Türkiye'nin tek bir saat dilimi kullanması, ülke genelinde standart bir zaman uygulamasıdır. Bu, ulusal düzeyde koordinasyonu ve iletişimi kolaylaştırır.",
+    "examples": [
+      "UTC+3 saat dilimi"
+    ],
+    "relatedTerms": [
+      "Saat Dilimi",
+      "UTC",
+      "Yerel Saat",
+      "Uluslararası Saat Dilimleri"
+    ],
+    "order": 66
+  },
+  {
+    "id": "turkiyenin_merkez_enlemi_boylami",
+    "term": "Türkiye'nin Merkez Enlemi ve Boylamı",
+    "definition": "Türkiye'nin matematiksel konumunun ortalama değerlerini ifade eder. Bu değerler, ülkenin genel iklim ve coğrafi özelliklerini temsil etmede kullanılır.",
+    "examples": [
+      "Yaklaşık 39° Kuzey enlemi",
+      "Yaklaşık 35° Doğu boylamı"
+    ],
+    "relatedTerms": [
+      "Matematiksel Konum",
+      "Enlem",
+      "Boylam",
+      "Orta Kuşak"
+    ],
+    "order": 67
+  },
+  {
+    "id": "turkiyenin_kuzey_guney_karsitliklari",
+    "term": "Türkiye'nin Kuzey-Güney Karşıtlıkları",
+    "definition": "Türkiye'nin enlem farkları nedeniyle kuzey ve güney bölgeleri arasında belirgin iklim, bitki örtüsü ve tarımsal ürün çeşitliliği farklılıkları görülür. Kuzey daha nemli ve serin, güney daha sıcak ve kuraktır.",
+    "examples": [
+      "Karadeniz'de fındık, Akdeniz'de turunçgiller yetiştirilmesi",
+      "Sıcaklık farkları"
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "İklim",
+      "Bitki Örtüsü",
+      "Tarım"
+    ],
+    "order": 68
+  },
+  {
+    "id": "turkiyenin_dogu_bati_karsitliklari",
+    "term": "Türkiye'nin Doğu-Batı Karşıtlıkları",
+    "definition": "Türkiye'nin doğu ve batı bölgeleri arasında yükselti, iklim ve ekonomik gelişmişlik açısından farklılıklar bulunur. Batı daha alçak ve sanayileşmişken, doğu daha yüksek ve tarıma dayalıdır.",
+    "examples": [
+      "Sanayi tesislerinin batıda yoğunlaşması",
+      "Doğudaki platolar ve dağlık alanlar"
+    ],
+    "relatedTerms": [
+      "Yükselti",
+      "İklim",
+      "Ekonomi",
+      "Sanayi"
+    ],
+    "order": 69
+  },
+  {
+    "id": "turkiyenin_denizellik_karasallik_etkisi",
+    "term": "Türkiye'nin Denizellik ve Karasallık Etkisi",
+    "definition": "Türkiye'nin kıyı bölgelerinde denizellik, iç bölgelerinde ise karasallık hakimdir. Denizellik, sıcaklık farklarını azaltırken, karasallık belirgin mevsimsel sıcaklık değişimlerine yol açar.",
+    "examples": [
+      "Kıyı bölgelerinde ılıman iklim",
+      "İç bölgelerde yaz-kış sıcaklık farkı"
+    ],
+    "relatedTerms": [
+      "Denizler",
+      "Karasal İklim",
+      "İklim",
+      "Sıcaklık"
+    ],
+    "order": 70
+  },
+  {
+    "id": "turkiyenin_yersekilleri_ve_konumu",
+    "term": "Türkiye'nin Yer Şekilleri ve Konumu",
+    "definition": "Türkiye'nin dağlık ve engebeli yapısı, iklim çeşitliliğini ve ulaşım ağlarının gelişimini etkiler. Yer şekilleri, göreceli konumuyla birlikte ülkenin coğrafi özelliklerini belirler.",
+    "examples": [
+      "Toros Dağları",
+      "Anadolu Platosu"
+    ],
+    "relatedTerms": [
+      "Yer Şekilleri",
+      "Dağlar",
+      "Platolar",
+      "İklim",
+      "Ulaşım"
+    ],
+    "order": 71
+  },
+  {
+    "id": "turkiyenin_uluslararasi_saat_dilimi_uygulamasi",
+    "term": "Türkiye'nin Uluslararası Saat Dilimi Uygulaması",
+    "definition": "Türkiye, coğrafi konumu itibarıyla birden fazla saat dilimine denk gelse de, ulusal birliği sağlamak amacıyla tek bir saat dilimi kullanır (UTC+3). Bu, uluslararası ilişkilerde ve ticarette önemlidir.",
+    "examples": [
+      "Yaz saati uygulaması (geçmişte)",
+      "Kış saati uygulaması (geçmişte)"
+    ],
+    "relatedTerms": [
+      "Saat Dilimi",
+      "UTC",
+      "Ulusal Saat",
+      "Boylam"
+    ],
+    "order": 72
+  },
+  {
+    "id": "turkiyenin_mutlak_konumu",
+    "term": "Türkiye'nin Mutlak Konumu",
+    "definition": "Türkiye'nin coğrafi koordinatlarla ifade edilen, enlem ve boylam dereceleriyle belirlenen konumudur. Bu konum, Türkiye'nin sahip olduğu iklim, yer şekilleri ve doğal kaynaklar üzerinde doğrudan etkilidir. Türkiye, 36°-42° Kuzey enlemleri ile 26°-45° Doğu boylamları arasında yer alır.",
+    "examples": [
+      "36° Kuzey enlemi üzerinde bulunması, Türkiye'nin tropikal kuşak dışında olduğunu gösterir.",
+      "45° Doğu boylamı, Türkiye'nin uluslararası saat dilimi hesaplamalarında temel alınır.",
+      "Kuzey Yarımküre'de yer alması, mevsimlerin belirgin yaşanmasına neden olur."
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Boylam",
+      "Kuzey Yarımküre",
+      "Doğu Yarımküre"
+    ],
+    "order": 73
+  },
+  {
+    "id": "turkiyenin_komsu_ulkeler_ve_analizi",
+    "term": "Türkiye'nin Komşu Ülkeler ve Analizi",
+    "definition": "Türkiye'nin kara ve deniz sınırlarını paylaştığı sekiz ülkeyle olan ilişkileri ve bu ilişkilerin Türkiye'nin jeopolitik ve jeostratejik konumunu nasıl etkilediğidir. Komşu ülkeler; Yunanistan, Bulgaristan, Gürcistan, Ermenistan, Azerbaycan (Nahçıvan), İran, Irak ve Suriye'dir. Bu komşuluk ilişkileri, bölgesel güvenlik ve işbirliği açısından önemlidir.",
+    "examples": [
+      "Avrupa Birliği üyeleri Yunanistan ve Bulgaristan ile olan ilişkiler.",
+      "Doğu ve Güneydoğu komşularıyla olan sınır güvenliği ve ekonomik işbirliği.",
+      "Hazar Denizi'ne ulaşımda Azerbaycan'ın önemi."
+    ],
+    "relatedTerms": [
+      "Sınırlar",
+      "Jeopolitik Önem",
+      "Uluslararası İlişkiler",
+      "Bölgesel Güvenlik"
+    ],
+    "order": 74
+  },
+  {
+    "id": "turkiyenin_iklim_cesitliliginin_nedenleri",
+    "term": "Türkiye'nin İklim Çeşitliliğinin Nedenleri",
+    "definition": "Türkiye'de görülen farklı iklim tiplerinin temel sebeplerini açıklar. Bu nedenler arasında enlem, yükselti, denize göre konum, bakı ve rüzgar sistemleri bulunur.",
+    "examples": [
+      "Kuzey Yarımküre'de yer alması ve orta kuşakta bulunması.",
+      "Yükselti farkları ve dağların uzanış doğrultusu.",
+      "Denizellik ve karasallık etkisinin farklı bölgelerde hissedilmesi."
+    ],
+    "relatedTerms": [
+      "Orta Kuşak",
+      "Enlem Etkisi",
+      "Denizellik ve Karasallık Etkisi",
+      "Yükselti"
+    ],
+    "order": 75
+  },
+  {
+    "id": "turkiye_uluslararasi_saat_dilimi",
+    "term": "Türkiye Uluslararası Saat Dilimi",
+    "definition": "Türkiye'nin kullandığı resmi saat dilimini ifade eder. Dünya genelinde belirlenen saat dilimleri içerisinde Türkiye'nin konumu, bu dilimin belirlenmesinde esas alınır. Türkiye, genellikle Doğu'nun Greenwich'e göre 3 saat ilerisinde olan bir saat dilimi kullanır.",
+    "examples": [
+      "Türkiye'nin resmi saati UTC+3'tür.",
+      "Bu saat dilimi, Türkiye'nin ortalama boylamı dikkate alınarak belirlenmiştir.",
+      "Yaz saati uygulaması zaman zaman bu saat diliminde değişikliklere yol açabilir."
+    ],
+    "relatedTerms": [
+      "Başlangıç Meridyeni",
+      "Boylam",
+      "Yerel Saat",
+      "Uluslararası Saat Dilimleri"
+    ],
+    "order": 76
+  },
+  {
+    "id": "turkiye_yerel_saat_farki",
+    "term": "Türkiye Yerel Saat Farkı",
+    "definition": "Türkiye'nin en doğu ve en batı noktaları arasındaki saat farkını ifade eder. Farklı boylamlarda bulunan yerleşim yerlerinin güneşin aynı anda farklı açılarda doğması ve batması nedeniyle oluşan zaman farkıdır. Bu fark, genellikle birkaç dakika civarındadır.",
+    "examples": [
+      "Iğdır (en doğu) ile Gökçeada (en batı) arasındaki yerel saat farkı yaklaşık 20 dakikadır.",
+      "Bu fark, ulusal saat uygulamasından önce önemliydi.",
+      "Yerel saat farkı, boylamların etkisini gösteren somut bir örnektir."
+    ],
+    "relatedTerms": [
+      "Boylam",
+      "Yerel Saat",
+      "Merkez Boylam",
+      "Doğu Yarımküre"
+    ],
+    "order": 77
+  },
+  {
+    "id": "turkiye_matematiksel_konumu",
+    "term": "Türkiye Matematiksel Konumu",
+    "definition": "Türkiye'nin Dünya üzerindeki enlem ve boylam dereceleriyle ifade edilen kesin konumudur. Bu konum, ülkenin genel iklim özelliklerini, mevsimlerini ve coğrafi yapısını belirleyen temel unsurdur. Türkiye, Kuzey ve Doğu Yarımküre'de yer alır.",
+    "examples": [
+      "36°-42° Kuzey enlemleri ve 26°-45° Doğu boylamları arasındaki yer alması.",
+      "Kuzey Yarımküre'de olması nedeniyle dört mevsim yaşanması.",
+      "Doğu Yarımküre'de olması nedeniyle Greenwich'e göre ileri saat diliminde olması."
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Boylam",
+      "Kuzey Yarımküre",
+      "Doğu Yarımküre",
+      "Göreceli Konum"
+    ],
+    "order": 78
+  },
+  {
+    "id": "turkiye_goreceli_konumu",
+    "term": "Türkiye Göreceli Konumu",
+    "definition": "Türkiye'nin kıtalar, denizler, okyanuslar ve diğer ülkeler arasındaki konumunu ifade eder. Bu konum, ülkenin jeopolitik, jeostratejik ve ekonomik önemini belirleyen unsurları içerir. Türkiye, Asya ve Avrupa kıtaları arasında bir köprü görevi görür.",
+    "examples": [
+      "Üç tarafının denizlerle çevrili olması.",
+      "Avrupa ile Asya arasında stratejik bir geçiş noktası olması.",
+      "Önemli ticaret yolları üzerinde bulunması."
+    ],
+    "relatedTerms": [
+      "Stratejik Konum",
+      "Jeopolitik Önem",
+      "Kıtalar Arası Köprü Rolü",
+      "Denizlere Olan Bağlantı"
+    ],
+    "order": 79
+  },
+  {
+    "id": "turkiye_stratejik_konumu",
+    "term": "Türkiye Stratejik Konumu",
+    "definition": "Türkiye'nin bulunduğu coğrafi konumun askeri, siyasi ve ekonomik açıdan taşıdığı önemi ifade eder. Ülkenin üç kıtanın kesişim noktasında yer alması, bu stratejik önemi artırır. Türkiye, bölgesel ve küresel güç dengelerinde önemli bir rol oynar.",
+    "examples": [
+      "Boğazlar'ın kontrolü.",
+      "NATO üyeliği ve coğrafi konumu.",
+      "Enerji hatları üzerinde bulunması."
+    ],
+    "relatedTerms": [
+      "Jeopolitik Önem",
+      "Göreceli Konum",
+      "Uluslararası Ticaret Yolları",
+      "Kıtalar Arası Köprü Rolü"
+    ],
+    "order": 80
+  },
+  {
+    "id": "turkiye_jeopolitik_onemi",
+    "term": "Türkiye Jeopolitik Önemi",
+    "definition": "Türkiye'nin bulunduğu coğrafi konumun, siyasi ve askeri açıdan yarattığı etkiyi ve önemi tanımlar. Ülkenin komşu olduğu bölgelerdeki siyasi gelişmeler ve uluslararası ilişkilerdeki rolü bu önemi belirler. Türkiye, hem Avrupa hem de Asya'nın güvenlik ve istikrarı açısından kritik bir ülkedir.",
+    "examples": [
+      "Balkanlar, Kafkaslar ve Ortadoğu'daki etkileşimi.",
+      "Rusya, Avrupa Birliği ve Orta Doğu ülkeleri ile olan ilişkileri.",
+      "Terörizmle mücadeledeki konumu."
+    ],
+    "relatedTerms": [
+      "Stratejik Konum",
+      "Göreceli Konum",
+      "Komşu Ülkeler",
+      "Uluslararası İlişkiler"
+    ],
+    "order": 81
+  },
+  {
+    "id": "turkiye_uluslararasi_ticaret_yollari",
+    "term": "Türkiye Uluslararası Ticaret Yolları",
+    "definition": "Türkiye'nin üzerinde bulunduğu, geçmişten günümüze kadar önemini koruyan uluslararası ticaret güzergahlarını ifade eder. Bu yollar, ülkenin ekonomik kalkınması ve jeopolitik konumu açısından büyük önem taşır. İpek Yolu ve Baharat Yolu gibi tarihi yollar bu kapsamdadır.",
+    "examples": [
+      "İpek Yolu'nun batı uzantısı.",
+      "Karadeniz'den Akdeniz'e uzanan deniz ticaret yolları.",
+      "Demiryolu ve karayolu transit taşımacılığı."
+    ],
+    "relatedTerms": [
+      "Göreceli Konum",
+      "Stratejik Konum",
+      "Kıtalar Arası Köprü Rolü",
+      "Jeopolitik Önem"
+    ],
+    "order": 82
+  },
+  {
+    "id": "turkiye_iklim_cesitliliginin_nedenleri",
+    "term": "Türkiye İklim Çeşitliliğinin Nedenleri",
+    "definition": "Türkiye'de farklı iklim tiplerinin görülmesinin ardındaki coğrafi ve meteorolojik faktörlerdir. Bu nedenler arasında matematiksel konum, göreceli konum, yer şekilleri çeşitliliği ve denizellik-karasallık etkisi bulunur. Bu çeşitlilik, tarım ve biyoçeşitlilik açısından önemlidir.",
+    "examples": [
+      "Kuzey Yarımküre'de Orta Kuşak'ta yer alması.",
+      "Üç tarafının denizlerle çevrili olması.",
+      "Yükselti ve dağların uzanış doğrultusunun etkisi."
+    ],
+    "relatedTerms": [
+      "Matematiksel Konum",
+      "Göreceli Konum",
+      "Yer Şekilleri",
+      "Denizellik ve Karasallık Etkisi"
+    ],
+    "order": 83
+  },
+  {
+    "id": "turkiye_sinir_tipleri",
+    "term": "Türkiye Sınır Tipleri",
+    "definition": "Türkiye'nin komşu ülkelerle olan sınırlarının coğrafi özelliklerine göre sınıflandırılmasıdır. Sınırlar, doğal (nehir, dağ) veya yapay (çizgi) olabilir. Bu sınırlar, hem güvenlik hem de uluslararası ilişkiler açısından önemlidir.",
+    "examples": [
+      "Fırat ve Dicle nehirlerinin sınır olması (doğal sınır).",
+      "İran sınırının dağlık ve engebeli olması (doğal sınır).",
+      "Suriye sınırının büyük ölçüde yapay olarak çizilmiş olması."
+    ],
+    "relatedTerms": [
+      "Komşu Ülkeler",
+      "Türkiye Sınırları",
+      "Göreceli Konum",
+      "Jeopolitik Önem"
+    ],
+    "order": 84
+  },
+  {
+    "id": "turkiye_komsu_ulkeler_analizi",
+    "term": "Türkiye Komşu Ülkeler Analizi",
+    "definition": "Türkiye'nin kara ve deniz sınırlarının bulunduğu komşu ülkelerin coğrafi, siyasi ve ekonomik özelliklerinin incelenmesidir. Bu analiz, Türkiye'nin dış politikası, güvenliği ve ticari ilişkileri açısından büyük önem taşır. Türkiye'nin sekiz ülkeyle sınırı bulunmaktadır.",
+    "examples": [
+      "Yunanistan ve Bulgaristan ile olan Batı sınırı.",
+      "Gürcistan, Ermenistan, Azerbaycan (Nahçıvan) ve İran ile olan Doğu sınırı.",
+      "Irak ve Suriye ile olan Güney sınırı."
+    ],
+    "relatedTerms": [
+      "Türkiye Sınırları",
+      "Göreceli Konum",
+      "Jeopolitik Önem",
+      "Stratejik Konum"
+    ],
+    "order": 85
+  },
+  {
+    "id": "turkiye_denizler_ve_onemi",
+    "term": "Türkiye Denizleri ve Önemi",
+    "definition": "Türkiye'nin çevresini saran Karadeniz, Ege Denizi ve Akdeniz'in coğrafi, ekonomik ve stratejik önemini ifade eder. Bu denizler, ulaşım, ticaret, turizm, balıkçılık ve enerji kaynakları açısından büyük değer taşır. Ayrıca iklim üzerinde de etkileri vardır.",
+    "examples": [
+      "Karadeniz'in ulaşım ve enerji potansiyeli.",
+      "Ege Denizi'nin turizm ve adaları.",
+      "Akdeniz'in ticaret yolları üzerindeki konumu."
+    ],
+    "relatedTerms": [
+      "Denizlere Olan Bağlantı",
+      "Göreceli Konum",
+      "Uluslararası Ticaret Yolları",
+      "Stratejik Konum"
+    ],
+    "order": 86
+  },
+  {
+    "id": "turkiye_bogazlari_ve_onemi",
+    "term": "Türkiye Boğazları ve Önemi",
+    "definition": "Türkiye'nin Karadeniz'i Ege Denizi ve Akdeniz'e bağlayan Çanakkale ve İstanbul Boğazları'nın stratejik, ekonomik ve jeopolitik önemini tanımlar. Bu boğazlar, uluslararası deniz ulaşımı ve enerji nakil hatları açısından kritik bir role sahiptir. Montrö Sözleşmesi ile yönetilirler.",
+    "examples": [
+      "İstanbul Boğazı'nın iki kıtayı ayırması.",
+      "Çanakkale Boğazı'nın tarihi önemi.",
+      "Uluslararası deniz trafiğinin yoğunluğu."
+    ],
+    "relatedTerms": [
+      "Denizlere Olan Bağlantı",
+      "Göreceli Konum",
+      "Stratejik Konum",
+      "Uluslararası Ticaret Yolları"
+    ],
+    "order": 87
+  },
+  {
+    "id": "turkiyenin_yerlesim_yapisi",
+    "term": "Türkiye'nin Yerleşim Yapısı",
+    "definition": "Türkiye'nin coğrafi konumunun yerleşim alanlarının dağılışı üzerindeki etkisidir. Dağlık alanlar, kıyı şeritleri ve ovalar yerleşimi doğrudan etkiler. Bu durum, nüfus yoğunluğu ve yerleşim biçimlerinde farklılıklara yol açar.",
+    "examples": [
+      "Doğu Karadeniz'deki dar kıyı şeridinde yoğunlaşan yerleşimler",
+      "İç Anadolu'daki ovalarda kurulan geniş tarım köyleri",
+      "Ege Bölgesi'ndeki kıyı kentlerinin turizm odaklı gelişimi"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin Yer Şekilleri",
+      "Türkiye'nin İklim Çeşitliliği",
+      "Nüfus Dağılışı"
+    ],
+    "order": 88
+  },
+  {
+    "id": "turkiyenin_tarimsal_yapisi",
+    "term": "Türkiye'nin Tarımsal Yapısı",
+    "definition": "Türkiye'nin coğrafi konumunun tarımsal üretim çeşitliliği ve verimliliği üzerindeki etkisidir. Farklı iklim ve yer şekilleri, farklı ürünlerin yetiştirilmesine olanak tanır. Bu durum, tarımsal ürün deseni ve ekonomik önemini belirler.",
+    "examples": [
+      "Akdeniz Bölgesi'nde turunçgil yetiştiriciliği",
+      "Karadeniz Bölgesi'nde çay ve fındık üretimi",
+      "Güneydoğu Anadolu Bölgesi'nde pamuk ve buğday üretimi"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin İklim Çeşitliliği",
+      "Türkiye'nin Yer Şekilleri",
+      "Tarım Ürünleri"
+    ],
+    "order": 89
+  },
+  {
+    "id": "turkiyenin_enerji_kaynaklari_ve_konumu",
+    "term": "Türkiye'nin Enerji Kaynakları ve Konumu",
+    "definition": "Türkiye'nin coğrafi konumunun enerji kaynaklarının dağılışı ve uluslararası enerji taşımacılığındaki rolüdür. Petrol ve doğalgaz boru hatlarının geçtiği bir konumda yer alır. Bu durum, ülkenin enerji güvenliği ve jeopolitik önemini artırır.",
+    "examples": [
+      "Bakü-Tiflis-Ceyhan Petrol Boru Hattı",
+      "Tanap (Trans-Anadolu Doğalgaz Boru Hattı)",
+      "Ortadoğu'dan Avrupa'ya enerji geçiş güzergahı"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin Stratejik Konumu",
+      "Uluslararası Enerji Politikaları",
+      "Boru Hatları"
+    ],
+    "order": 90
+  },
+  {
+    "id": "turkiyenin_turizm_potansiyeli",
+    "term": "Türkiye'nin Turizm Potansiyeli",
+    "definition": "Türkiye'nin coğrafi konumunun sunduğu doğal ve kültürel zenginliklerin turizm açısından değerlendirilmesidir. Farklı iklim tipleri, tarihi yapılar ve doğal güzellikler turizmi çeşitlendirir. Bu durum, ülkenin turizm gelirlerini ve uluslararası tanınırlığını etkiler.",
+    "examples": [
+      "Antalya'nın deniz turizmi",
+      "Kapadokya'nın peri bacaları ve balon turları",
+      "İstanbul'un tarihi ve kültürel miras turizmi"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin İklim Çeşitliliği",
+      "Türkiye'nin Yer Şekilleri",
+      "Kültürel Miras"
+    ],
+    "order": 91
+  },
+  {
+    "id": "turkiyenin_dogal_afet_riskleri",
+    "term": "Türkiye'nin Doğal Afet Riskleri",
+    "definition": "Türkiye'nin coğrafi konumunun deprem, sel, heyelan gibi doğal afetlere yatkınlığını belirlemesidir. Fay hatlarının üzerinde yer alması deprem riskini artırır. Bu durum, afet yönetimi ve önleyici tedbirler açısından önemlidir.",
+    "examples": [
+      "Kuzey Anadolu Fay Hattı boyunca yaşanan depremler",
+      "Karadeniz'de yaşanan sel ve heyelanlar",
+      "Akdeniz kıyılarında görülen kuraklıklar"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin Yer Şekilleri",
+      "Tektonik Yapı",
+      "Afet Yönetimi"
+    ],
+    "order": 92
+  },
+  {
+    "id": "turkiyenin_su_kaynaklari_ve_havzalari",
+    "term": "Türkiye'nin Su Kaynakları ve Havzaları",
+    "definition": "Türkiye'nin coğrafi konumunun akarsu sistemleri, göller ve yeraltı su kaynakları üzerindeki etkisidir. Dağlık alanlardan kaynaklanan akarsular, tarım ve enerji üretimi için önemlidir. Bu durum, su kaynaklarının yönetimi ve kullanımı açısından kritik rol oynar.",
+    "examples": [
+      "Fırat ve Dicle nehirlerinin havzaları",
+      "Van Gölü'nün coğrafi önemi",
+      "Marmara Denizi'nin tatlı su kaynaklarına etkisi"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin Yer Şekilleri",
+      "Akarsu Havzaları",
+      "Su Yönetimi"
+    ],
+    "order": 93
+  },
+  {
+    "id": "turkiyenin_orman_varligi",
+    "term": "Türkiye'nin Orman Varlığı",
+    "definition": "Türkiye'nin coğrafi konumunun ormanların dağılışı ve tür çeşitliliği üzerindeki etkisidir. Yağışlı bölgelerde geniş ormanlık alanlar bulunur. Bu durum, biyolojik çeşitlilik ve ekosistem sağlığı açısından önemlidir.",
+    "examples": [
+      "Karadeniz Bölgesi'ndeki ladin ve köknar ormanları",
+      "Akdeniz Bölgesi'ndeki kızılçam ormanları",
+      "Marmara Bölgesi'ndeki karışık ormanlar"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin İklim Çeşitliliği",
+      "Biyoçeşitlilik",
+      "Ekoloji"
+    ],
+    "order": 94
+  },
+  {
+    "id": "turkiyenin_havacilik_ve_denizcilik_rotalari",
+    "term": "Türkiye'nin Havacılık ve Denizcilik Rotaları",
+    "definition": "Türkiye'nin coğrafi konumunun uluslararası hava ve deniz ulaşım yolları üzerindeki merkezi rolüdür. Avrupa ile Asya arasındaki köprü konumunda olması, bu rotaların kesişim noktası olmasını sağlar. Bu durum, lojistik ve ticaret için büyük önem taşır.",
+    "examples": [
+      "İstanbul'un stratejik havalimanı konumu",
+      "Türk Boğazları'nın deniz trafiği üzerindeki etkisi",
+      "Uluslararası uçuş koridorlarının Türkiye üzerinden geçmesi"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin Boğazları",
+      "Uluslararası Ticaret Yolları",
+      "Lojistik"
+    ],
+    "order": 95
+  },
+  {
+    "id": "turkiyenin_kulturel_etkilesim_noktasi",
+    "term": "Türkiye'nin Kültürel Etkileşim Noktası",
+    "definition": "Türkiye'nin coğrafi konumunun farklı medeniyetler ve kültürler arasında bir köprü görevi görmesidir. Tarih boyunca birçok uygarlığa ev sahipliği yapması, kültürel çeşitliliğin zenginleşmesini sağlamıştır. Bu durum, kültürel mirasın korunması ve tanıtılması açısından önemlidir.",
+    "examples": [
+      "Anadolu'nun Hitit, Roma ve Osmanlı medeniyetlerine ev sahipliği yapması",
+      "Farklı dinlerin ve dillerin bir arada yaşama kültürü",
+      "Müzelerdeki zengin arkeolojik eser koleksiyonları"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin Uluslararası Konumu",
+      "Medeniyetler Tarihi",
+      "Kültürel Miras"
+    ],
+    "order": 96
+  },
+  {
+    "id": "turkiyenin_iklim_degisikligi_etkileri",
+    "term": "Türkiye'nin İklim Değişikliği Etkileri",
+    "definition": "Türkiye'nin coğrafi konumunun iklim değişikliğinin etkilerine karşı hassasiyetidir. Kuraklık, aşırı hava olayları ve deniz seviyesindeki yükselme gibi etkiler bölgesel olarak farklılık gösterir. Bu durum, çevre politikaları ve adaptasyon stratejileri açısından önemlidir.",
+    "examples": [
+      "Kuraklığın tarımsal üretim üzerindeki olumsuz etkileri",
+      "Artan sıcaklıkların su kaynakları üzerindeki baskısı",
+      "Kıyı bölgelerinde deniz seviyesi yükselmesi riski"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin İklim Çeşitliliği",
+      "İklim Değişikliği",
+      "Çevre Politikaları"
+    ],
+    "order": 97
+  },
+  {
+    "id": "turkiyenin_biyoçeşitliliği",
+    "term": "Türkiye'nin Biyoçeşitliliği",
+    "definition": "Türkiye'nin coğrafi konumunun zengin bitki ve hayvan türlerine ev sahipliği yapmasını sağlayan faktörlerdir. Farklı iklim ve ekosistemlerin bir arada bulunması, yüksek biyoçeşitliliğe yol açar. Bu durum, doğal kaynakların korunması ve sürdürülebilir kalkınma açısından önemlidir.",
+    "examples": [
+      "Akdeniz'deki endemik bitki türleri",
+      "Karadeniz'deki orman canlıları",
+      "Anadolu'daki kuş göç yolları"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin İklim Çeşitliliği",
+      "Ekoloji",
+      "Doğal Kaynaklar"
+    ],
+    "order": 98
+  },
+  {
+    "id": "turkiyenin_denizcilik_ve_ticaret_önemi",
+    "term": "Türkiye'nin Denizcilik ve Ticaret Önemi",
+    "definition": "Türkiye'nin üç tarafının denizlerle çevrili olması ve stratejik boğazlara sahip olması nedeniyle denizcilik ve uluslararası ticaret için taşıdığı değerdir. Bu konum, deniz taşımacılığı ve liman işletmeciliği açısından büyük potansiyel sunar.",
+    "examples": [
+      "İstanbul ve İzmir limanlarının uluslararası ticaretteki rolü",
+      "Türk Boğazları'ndan geçen gemi trafiği",
+      "Karadeniz'e açılan önemli bir denizcilik ülkesi olması"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin Denizleri",
+      "Türkiye'nin Boğazları",
+      "Uluslararası Ticaret"
+    ],
+    "order": 99
+  },
+  {
+    "id": "turkiyenin_jeotermal_enerji_potansiyeli",
+    "term": "Türkiye'nin Jeotermal Enerji Potansiyeli",
+    "definition": "Türkiye'nin coğrafi konumunun ve tektonik yapısının jeotermal enerji kaynakları açısından zenginliğini ifade eder. Özellikle Batı Anadolu'da yoğunlaşan sıcak su kaynakları, enerji üretimi için önemli bir potansiyel sunar.",
+    "examples": [
+      "Denizli Sarayköy'deki jeotermal santraller",
+      "Afyon'daki jeotermal turizm alanları",
+      "Kızıldere Jeotermal Enerji Santrali"
+    ],
+    "relatedTerms": [
+      "Türkiye'nin Tektonik Yapısı",
+      "Yenilenebilir Enerji Kaynakları",
+      "Jeotermal Enerji"
+    ],
+    "order": 100
+  },
+  {
+    "id": "bakı_etkisi",
+    "term": "Bakı Etkisi",
+    "definition": "Bir dağın yamacının güneşe dönük olma durumudur. Türkiye'de dağların güney yamaçları bakı etkisindedir; bu durum sıcaklık, tarım ürünleri ve kalıcı kar sınırı üzerinde belirleyici rol oynar.",
+    "examples": [
+      "Toroslarda güney yamaçlarda tarım ürünlerinin daha erken olgunlaşması.",
+      "Kuzey yamaçlarda orman üst sınırının daha alçak olması."
+    ],
+    "relatedTerms": [
+      "Güneşlenme Süresi",
+      "Kalıcı Kar Sınırı",
+      "Sıcaklık Dağılışı"
+    ],
+    "order": 101
+  },
+  {
+    "id": "grup_yildiz_etkisi",
+    "term": "Grup ve Tan Süresi",
+    "definition": "Güneş'in doğuş ve batış anındaki alacakaranlık süresidir. Türkiye orta kuşakta yer aldığı için bu süre ekvatoral bölgelere göre daha uzundur.",
+    "examples": [
+      "Sinop'ta grup ve tan süresinin Hatay'dan daha uzun olması.",
+      "Türkiye'nin kuzeyine gidildikçe bu sürenin uzaması."
+    ],
+    "relatedTerms": [
+      "Çizgisel Hız",
+      "Enlem Etkisi",
+      "Dünya'nın Şekli"
+    ],
+    "order": 102
+  },
+  {
+    "id": "cizgisel_hiz",
+    "term": "Çizgisel Hız",
+    "definition": "Dünya'nın kendi ekseni etrafındaki dönüş hızıdır. Ekvator'dan kutuplara doğru gidildikçe azalır; Türkiye'de güneyden kuzeye gidildikçe çizgisel hız azalır.",
+    "examples": [
+      "Hatay'da çizgisel hızın Sinop'tan daha fazla olması.",
+      "Yerel saat farklarının enlem değiştikçe çizgisel hızla ilişkilendirilmesi."
+    ],
+    "relatedTerms": [
+      "Dünya'nın Dönüşü",
+      "Enlem Etkisi",
+      "Paralel Daireleri"
+    ],
+    "order": 103
+  },
+  {
+    "id": "orta_kusak_ozellikleri",
+    "term": "Orta Kuşak Özellikleri",
+    "definition": "Türkiye'nin 36-42 derece kuzey paralelleri arasında yer almasıdır. Bu konum, dört mevsimin belirgin yaşanmasını ve Akdeniz iklim kuşağında bulunmamızı sağlar.",
+    "examples": [
+      "Yıl içinde sıcaklık farklarının belirgin olması.",
+      "Cephesel yağışların görülmesi."
+    ],
+    "relatedTerms": [
+      "Matematiksel Konum",
+      "İklim Kuşakları",
+      "Dört Mevsim"
+    ],
+    "order": 104
+  },
+  {
+    "id": "cephe_yagislari",
+    "term": "Cephe Yağışları (Frontal)",
+    "definition": "Farklı karakterdeki hava kütlelerinin karşılaşmasıyla oluşan yağışlardır. Türkiye'nin orta kuşakta yer alması nedeniyle kış aylarında sıkça görülür.",
+    "examples": [
+      "Akdeniz iklim bölgesinde kışın görülen yağışlar.",
+      "Sıcak ve soğuk hava kütlelerinin karşılaşması."
+    ],
+    "relatedTerms": [
+      "Orta Kuşak",
+      "İklim Tipleri",
+      "Hava Kütleleri"
+    ],
+    "order": 105
+  },
+  {
+    "id": "gunduz_suresi_degisimi",
+    "term": "Gündüz Süresi Değişimi",
+    "definition": "Yıl içinde gece ve gündüz sürelerinin değişmesidir. Türkiye'de kuzeye gidildikçe yazın gündüz süresi uzar, kışın ise kısalır.",
+    "examples": [
+      "21 Haziran'da en uzun gündüzün Sinop'ta yaşanması.",
+      "21 Aralık'ta en uzun gecenin Sinop'ta yaşanması."
+    ],
+    "relatedTerms": [
+      "Eksen Eğikliği",
+      "Yıl İçinde Değişim",
+      "Enlem"
+    ],
+    "order": 106
+  },
+  {
+    "id": "gölge_boyu_degisimi",
+    "term": "Gölge Boyu Değişimi",
+    "definition": "Güneş ışınlarının geliş açısına bağlı olarak cisimlerin gölge boyunun değişmesidir. Türkiye'de yıl boyunca gölge yönü kuzeyi gösterir ve gölge boyu asla sıfır olmaz.",
+    "examples": [
+      "Öğle vaktinde gölgenin daima kuzeye düşmesi.",
+      "Güneş ışınlarının hiçbir zaman dik açıyla gelmemesi."
+    ],
+    "relatedTerms": [
+      "Dönenceler Dışı",
+      "Güneş Işınları",
+      "Matematiksel Konum"
+    ],
+    "order": 107
+  },
+  {
+    "id": "yer_sekilleri_cesitliligi",
+    "term": "Yer Şekillerinin Çeşitliliği",
+    "definition": "Türkiye'nin kısa mesafelerde farklı yer şekillerine sahip olmasıdır. Bu durum özel konumun bir sonucu olup iklim, tarım ve ulaşımı etkiler.",
+    "examples": [
+      "Doğu Anadolu'da yüksek dağların bulunması.",
+      "Kıyı bölgeler ile iç bölgeler arasında yükselti farkı."
+    ],
+    "relatedTerms": [
+      "Göreceli Konum",
+      "Yükselti",
+      "Dağlık Yapı"
+    ],
+    "order": 108
+  },
+  {
+    "id": "yükselti_etkisi",
+    "term": "Yükselti Etkisi",
+    "definition": "Yükseltinin sıcaklık ve iklim üzerindeki etkisidir. Türkiye'de batıdan doğuya gidildikçe yükselti arttığı için sıcaklıklar genel olarak düşer.",
+    "examples": [
+      "Erzurum-Kars platosunda sıcaklık ortalamalarının düşük olması.",
+      "Doğu Anadolu'da karın yerde kalma süresinin uzunluğu."
+    ],
+    "relatedTerms": [
+      "Sıcaklık Ortalamaları",
+      "Karasallık",
+      "Göreceli Konum"
+    ],
+    "order": 109
+  },
+  {
+    "id": "kıta_sahanligi",
+    "term": "Kıta Sahanlığı",
+    "definition": "Kıyı çizgisinden itibaren deniz derinliğinin 200 metreye kadar olan kısmıdır. Türkiye'de Ege Denizi'nde geniş, Karadeniz ve Akdeniz'de dardır.",
+    "examples": [
+      "Ege'de adaların çokluğu ve kıta sahanlığı sorunu.",
+      "Doğu Karadeniz'de dağların kıyıya paralel uzanması."
+    ],
+    "relatedTerms": [
+      "Kıyı Tipleri",
+      "Dağların Uzanışı",
+      "Denizler"
+    ],
+    "order": 110
+  },
+  {
+    "id": "kıyı_tipleri",
+    "term": "Kıyı Tipleri",
+    "definition": "Yer şekillerinin denize göre konumuna bağlı olarak oluşan kıyı şekilleridir. Türkiye'nin üç tarafının denizlerle çevrili olması zengin bir kıyı tipi çeşitliliği sağlar.",
+    "examples": [
+      "Dalmaçya kıyı tipi (Antalya-Kaş).",
+      "Ria kıyı tipi (İstanbul ve Çanakkale boğazları)."
+    ],
+    "relatedTerms": [
+      "Dağların Uzanış Doğrultusu",
+      "Denizellik",
+      "Kıyı Morfolojisi"
+    ],
+    "order": 111
+  },
+  {
+    "id": "özel_konum_etkisi",
+    "term": "Özel Konum (Göreceli Konum)",
+    "definition": "Bir yerin denizlere, dağlara, ulaşım yollarına ve komşularına göre sahip olduğu kendine has özelliklerdir. Matematiksel konum dışındaki tüm faktörleri kapsar.",
+    "examples": [
+      "İstanbul ve Çanakkale boğazlarının varlığı.",
+      "Yükseltinin batıdan doğuya artması."
+    ],
+    "relatedTerms": [
+      "Matematiksel Konum",
+      "Beşeri Coğrafya",
+      "Ekonomik Coğrafya"
+    ],
+    "order": 112
+  },
+  {
+    "id": "dağların_uzanış_doğrultusu",
+    "term": "Dağların Uzanış Doğrultusu",
+    "definition": "Dağların kıyı çizgisine paralel veya dik uzanma durumudur. Bu durum nemli havanın iç kesimlere sokulup sokulmamasını belirler.",
+    "examples": [
+      "Karadeniz ve Akdeniz'de paralel uzanış.",
+      "Ege'de dik uzanışın iç kesimlere ulaşımı kolaylaştırması."
+    ],
+    "relatedTerms": [
+      "İklim Çeşitliliği",
+      "Ulaşım",
+      "Kıyı Tipleri"
+    ],
+    "order": 113
+  },
+  {
+    "id": "nemlilik_etkisi",
+    "term": "Nemlilik Etkisi",
+    "definition": "Havadaki su buharı miktarının sıcaklık üzerindeki düzenleyici etkisidir. Kıyı bölgelerde nemlilik fazla olduğu için yıllık ve günlük sıcaklık farkları azdır.",
+    "examples": [
+      "Akdeniz kıyılarında kışın ılıman geçmesi.",
+      "İç Anadolu'da nem azlığı nedeniyle gece-gündüz farkının fazla olması."
+    ],
+    "relatedTerms": [
+      "Denizellik",
+      "Karasallık",
+      "Sıcaklık Farkı"
+    ],
+    "order": 114
+  },
+  {
+    "id": "güneşlenme_süresi",
+    "term": "Güneşlenme Süresi",
+    "definition": "Bir yerin yıl içinde güneşten doğrudan yararlandığı toplam süredir. Türkiye'de güneyden kuzeye gidildikçe güneşlenme süresi genellikle azalır.",
+    "examples": [
+      "Güneydoğu Anadolu'nun en yüksek güneşlenme süresine sahip olması.",
+      "Bulutluluk oranının güneşlenme süresini kısıtlaması."
+    ],
+    "relatedTerms": [
+      "Enlem Etkisi",
+      "Bulutluluk",
+      "İklim"
+    ],
+    "order": 115
+  },
+  {
+    "id": "yengec_donencesi_etkisi",
+    "term": "Yengeç Dönencesi Kuzeyi Etkisi",
+    "definition": "Türkiye'nin Yengeç Dönencesi'nin kuzeyinde yer alması nedeniyle güneş ışınlarının hiçbir zaman dik açıyla gelmemesi durumudur. Bu durum gölge boyunun yıl boyunca kuzeyi göstermesine ve cisimlerin gölgesinin hiçbir zaman sıfır olmamasına neden olur.",
+    "examples": [
+      "Güneş ışınlarının hiçbir zaman 90 derece ile gelmemesi",
+      "Gölge yönünün daima kuzey olması"
+    ],
+    "relatedTerms": [
+      "Güneş Işınları",
+      "Gölge Boyu",
+      "Bakı Etkisi"
+    ],
+    "order": 116
+  },
+  {
+    "id": "guney_yamac_baki",
+    "term": "Güney Yamaç Bakı Etkisi",
+    "definition": "Türkiye'nin Kuzey Yarım Küre'de yer alması nedeniyle dağların güney yamaçlarının güneşe dönük olmasıdır. Bu durum güney yamaçlarda sıcaklıkların daha yüksek, kalıcı kar sınırının daha yukarıda olmasına yol açar.",
+    "examples": [
+      "Güney yamaçlarda tarım ürünlerinin erken olgunlaşması",
+      "Güney yamaçlarda yerleşmelerin daha yoğun olması"
+    ],
+    "relatedTerms": [
+      "Bakı",
+      "Kalıcı Kar Sınırı",
+      "Sıcaklık Farkı"
+    ],
+    "order": 117
+  },
+  {
+    "id": "bati_ruzgarlari",
+    "term": "Batı Rüzgarları Etkisi",
+    "definition": "Türkiye'nin 30-60 derece enlemleri arasında bulunması nedeniyle yıl boyunca etkili olan rüzgarlardır. Bu rüzgarlar özellikle kıyı bölgelerimizde yağış oluşumuna katkı sağlar.",
+    "examples": [
+      "Kış aylarında etkili olan yağışlı hava sistemleri"
+    ],
+    "relatedTerms": [
+      "Orta Kuşak",
+      "Genel Hava Dolaşımı",
+      "İklim"
+    ],
+    "order": 118
+  },
+  {
+    "id": "kuzey_yarim_kure_konumu",
+    "term": "Kuzey Yarım Küre Konumu",
+    "definition": "Türkiye'nin Ekvator'un kuzeyinde yer almasıdır. Bu konum, Türkiye'de kuzeye gidildikçe güneş ışınlarının geliş açısının daralmasına ve sıcaklığın düşmesine neden olur.",
+    "examples": [
+      "Kuzeyden esen rüzgarların sıcaklığı düşürmesi",
+      "Güneye gidildikçe gece-gündüz süresinin kısalması"
+    ],
+    "relatedTerms": [
+      "Enlem Etkisi",
+      "Sıcaklık",
+      "Güneş Işınları"
+    ],
+    "order": 119
+  },
+  {
+    "id": "yerel_saat_boylam_iliskisi",
+    "term": "Yerel Saat ve Boylam İlişkisi",
+    "definition": "Her 1 derecelik boylam farkının 4 dakikalık zaman farkına denk gelmesi prensibidir. Türkiye'de doğu ve batı uçları arasında 76 dakikalık (19 boylam) yerel saat farkı bulunur.",
+    "examples": [
+      "Iğdır ile Çanakkale arasındaki saat farkı",
+      "Güneşin Iğdır'da daha erken doğması"
+    ],
+    "relatedTerms": [
+      "Boylam",
+      "Meridyen",
+      "Ulusal Saat"
+    ],
+    "order": 120
+  },
+  {
+    "id": "izdususum_yukseklik",
+    "term": "İzdüşüm Yüzölçümü",
+    "definition": "Bir yerin engebeleri yok sayılarak düz bir alanmış gibi hesaplanan yüzölçümüdür. Türkiye'nin gerçek yüzölçümü ile izdüşüm yüzölçümü arasındaki farkın fazla olması, ülkenin engebeli olduğunu gösterir.",
+    "examples": [
+      "Türkiye'nin gerçek alanı ile izdüşüm alanı arasındaki fark"
+    ],
+    "relatedTerms": [
+      "Yer Şekilleri",
+      "Engebe",
+      "Göreceli Konum"
+    ],
+    "order": 121
+  },
+  {
+    "id": "uc_deniz_etkisi",
+    "term": "Üç Tarafı Denizlerle Çevrili Olma",
+    "definition": "Türkiye'nin bir yarımada konumunda olmasıdır. Bu durum kıyı bölgelerinde nemliliği artırarak ılıman iklim koşullarının oluşmasını ve deniz turizminin gelişmesini sağlar.",
+    "examples": [
+      "Kıyı bölgelerinde sıcaklık farkının az olması",
+      "Deniz turizminin gelişmiş olması"
+    ],
+    "relatedTerms": [
+      "Denizellik",
+      "Yarımada",
+      "Göreceli Konum"
+    ],
+    "order": 122
+  },
+  {
+    "id": "yeralti_kaynaklari_cesitliligi",
+    "term": "Jeolojik Yapı ve Yer Altı Kaynakları",
+    "definition": "Türkiye'nin genç oluşumlu bir ülke olması nedeniyle yer altı kaynakları bakımından çeşitlilik göstermesidir. Özellikle Alp-Himalaya kıvrım kuşağında yer alması linyit, bor ve mermer gibi kaynakların zenginliğini açıklar.",
+    "examples": [
+      "Bor yataklarının yaygınlığı",
+      "Linyit kömürü rezervleri"
+    ],
+    "relatedTerms": [
+      "Jeolojik Devirler",
+      "Orojenez",
+      "Göreceli Konum"
+    ],
+    "order": 123
+  },
+  {
+    "id": "transit_ticaret_yolu",
+    "term": "Transit Ticaret Yolu Konumu",
+    "definition": "Türkiye'nin Asya, Avrupa ve Afrika kıtalarının birbirine en çok yaklaştığı noktada bulunmasıdır. Bu konum ülkeyi uluslararası enerji koridorları ve ticaret yolları için stratejik bir merkez haline getirir.",
+    "examples": [
+      "Bakü-Tiflis-Ceyhan boru hattı",
+      "İpek Yolu güzergahı"
+    ],
+    "relatedTerms": [
+      "Jeopolitik",
+      "Enerji Koridoru",
+      "Kıtalararası Konum"
+    ],
+    "order": 124
+  },
+  {
+    "id": "kisa_mesafede_iklim_degisimi",
+    "term": "Kısa Mesafede İklim Değişimi",
+    "definition": "Türkiye'nin yer şekillerinin çeşitliliği ve yükselti farkları nedeniyle çok kısa mesafelerde farklı iklim tiplerinin görülmesidir. Bu durum bitki örtüsü ve tarım ürünü çeşitliliğini doğrudan etkiler.",
+    "examples": [
+      "Deniz kıyısı ile iç kesimler arasındaki sıcaklık farkı",
+      "Dağların denize paralel uzanması"
+    ],
+    "relatedTerms": [
+      "Yer Şekilleri",
+      "Yükselti",
+      "Mikroklima"
+    ],
+    "order": 125
+  },
+  {
+    "id": "kuzey_guney_sicaklik_farki",
+    "term": "Kuzey-Güney Sıcaklık Farkı",
+    "definition": "Türkiye'de enlem etkisine bağlı olarak güneyden kuzeye gidildikçe sıcaklığın genel olarak azalması durumudur. Bu durum deniz suyu sıcaklıklarının da güneyden kuzeye azalmasına neden olur.",
+    "examples": [
+      "Akdeniz'de deniz turizm sezonunun uzun olması",
+      "Karadeniz'de orman üst sınırının daha alçak olması"
+    ],
+    "relatedTerms": [
+      "Enlem",
+      "Deniz Suyu Sıcaklığı",
+      "Sıcaklık Dağılışı"
+    ],
+    "order": 126
+  },
+  {
+    "id": "mikroklima_alanlari",
+    "term": "Mikroklima Alanları",
+    "definition": "Çevresine göre daha farklı iklim özellikleri gösteren dar alanlardır. Türkiye'de özel konum şartları (dağların uzanışı, vadi etkisi) sayesinde bazı bölgelerde normalde yetişmemesi gereken ürünler yetişebilir.",
+    "examples": [
+      "Rize'de turunçgil yetişmesi",
+      "Iğdır'da pamuk tarımı yapılması"
+    ],
+    "relatedTerms": [
+      "Özel Konum",
+      "Yer Şekilleri",
+      "Tarım"
+    ],
+    "order": 127
+  },
+  {
+    "id": "matematiksel_konum",
+    "term": "Matematiksel Konum (Mutlak Konum)",
+    "definition": "Bir yerin başlangıç paraleli ve meridyenine göre belirlenen, enlem ve boylam değerlerine dayalı konumudur. Türkiye'nin 36-42 derece kuzey paralelleri ile 26-45 derece doğu meridyenleri arasında yer alması bu kapsamdadır.",
+    "examples": [
+      "Türkiye'de dört mevsimin belirgin yaşanması",
+      "Güneş ışınlarının hiçbir zaman dik açıyla gelmemesi"
+    ],
+    "relatedTerms": [
+      "Enlem Etkisi",
+      "Boylam Etkisi",
+      "Paralel",
+      "Meridyen"
+    ],
+    "order": 128
+  },
+  {
+    "id": "jeopolitik_konum",
+    "term": "Jeopolitik Konum",
+    "definition": "Bir ülkenin sahip olduğu coğrafi özelliklerin, o ülkenin dünya siyaseti ve stratejik kararları üzerindeki etkisidir. Türkiye'nin üç kıta arasında bir köprü vazifesi görmesi ve boğazlara sahip olması en temel jeopolitik unsurlarıdır.",
+    "examples": [
+      "İstanbul ve Çanakkale Boğazlarının stratejik önemi",
+      "Enerji koridoru üzerinde yer alması"
+    ],
+    "relatedTerms": [
+      "Stratejik Bölge",
+      "Uluslararası İlişkiler",
+      "Sınır Komşuları"
+    ],
+    "order": 129
+  },
+  {
+    "id": "saat_dilimi_farki",
+    "term": "Ulusal Saat Uygulaması",
+    "definition": "Bir ülkenin boylam değerlerine göre kullandığı ortak zaman dilimidir. Türkiye, 45 derece doğu boylamındaki Iğdır'ın yerel saatini yıl boyunca ulusal saat olarak kullanmaktadır.",
+    "examples": [
+      "45 derece doğu meridyeninin esas alınması",
+      "İleri saat uygulaması"
+    ],
+    "relatedTerms": [
+      "Yerel Saat",
+      "Boylam",
+      "Güneşin Tepe Noktası"
+    ],
+    "order": 130
+  }
+]

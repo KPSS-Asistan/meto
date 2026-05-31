@@ -1,0 +1,934 @@
+[
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 1: Sayı Kümelerine Giriş",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Sayı Kümelerine Giriş"
+      },
+      {
+        "type": "text",
+        "text": "Matematikte sayılar, belirli özelliklerine göre farklı kümelere ayrılır. Doğal sayılar (N) kümesi 0'dan başlayarak sonsuza giderken, tam sayılar (Z) kümesi negatif değerleri de kapsar. Bu hiyerarşik yapı, sayı problemlerinin çözümünde temel teşkil eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sayma sayıları (N+) 1'den başlar.\n• Doğal sayılar (N) 0'ı kapsar ve 0, 1, 2... şeklinde ilerler.\n• Tam sayılar kümesi Z = {..., -2, -1, 0, 1, 2, ...} şeklindedir.\n• Z- negatif tam sayıları, Z+ pozitif tam sayıları ifade eder."
+      },
+      {
+        "type": "text",
+        "text": "Sayı kümeleri arasındaki kapsayıcılık ilişkisi, özellikle denklem çözümlerinde küme sınırlamalarını doğru belirlemek için kritiktir. Bir soruda değişkenin hangi kümeye ait olduğu çözüm kümesini doğrudan etkiler."
+      },
+      {
+        "type": "highlighted",
+        "text": "0 sayısı ne pozitif ne de negatiftir; ancak tam sayılar kümesinin bir elemanıdır ve işaretsizdir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999755762_MAT__1",
+    "createdAt": "2026-04-12T13:15:55.762Z",
+    "updatedAt": "2026-04-12T13:15:55.762Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T13:16:07.398Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_0.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 2: Rakam Kavramı",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Rakam Kavramı"
+      },
+      {
+        "type": "text",
+        "text": "Rakamlar, sayıları ifade etmek için kullanılan temel sembollerdir ve onluk tabanda toplam 10 adettir. 0'dan başlayıp 9'a kadar devam eden bu semboller kümesi, tüm sayısal değerlerin inşa edildiği atomik birimlerdir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Rakamlar kümesi R = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.\n• 0, bir rakamdır ve basamak değerinde kritik bir işleve sahiptir.\n• Sayı ve rakam kavramları birbirine karıştırılmamalıdır; her rakam bir sayıdır ancak her sayı bir rakam değildir.\n• En küçük rakam 0, en büyük rakam 9'dur."
+      },
+      {
+        "type": "text",
+        "text": "Sayı basamakları sorularında, bir bilinmeyenin rakam mı yoksa sayı mı olduğu sorunun çözümünü belirler. Rakam olduğu belirtilen bir değişkenin 9'dan büyük veya negatif olamayacağı unutulmamalıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Soru köklerinde 'birbirinden farklı rakamlar' ifadesi geçtiğinde, değişkenlerin 0'dan 9'a kadar aynı değeri alamayacağına dikkat edilmelidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999755763_MAT__2",
+    "createdAt": "2026-04-12T13:15:55.762Z",
+    "updatedAt": "2026-04-12T13:15:55.762Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T13:16:07.398Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_1.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 3: Sayı Kümelerinde İşlem Önceliği",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Sayı Kümelerinde İşlem Önceliği"
+      },
+      {
+        "type": "text",
+        "text": "Matematiksel ifadelerin doğru çözülebilmesi için evrensel bir işlem sırası kuralı uygulanır. Parantez içi işlemler, üslü ifadeler, çarpma-bölme ve toplama-çıkarma işlemleri belirli bir hiyerarşiye göre takip edilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• İşlem önceliği sıralaması: Üslü ifadeler, Parantez içleri, Çarpma/Bölme, Toplama/Çıkarma.\n• Çarpma ve bölme işlemleri aynı önceliğe sahipse, işlem soldan sağa doğru yapılır.\n• Toplama ve çıkarma işlemleri aynı önceliğe sahipse, işlem soldan sağa doğru yapılır.\n• Parantez kullanımı, işlem sırasını değiştirmek için en etkili yöntemdir."
+      },
+      {
+        "type": "text",
+        "text": "İşlem önceliğini göz ardı etmek, sınavda doğrudan yanlış sonuca ulaşılmasına neden olan en yaygın hatalardan biridir. Çok adımlı işlemlerde her bir adımı sırasıyla kontrol etmek hata payını minimize eder."
+      },
+      {
+        "type": "highlighted",
+        "text": "İşlem önceliğinde çarpma ve bölmenin toplama ve çıkarmaya göre her zaman önceliği vardır, parantez yoksa bu kural mutlak uygulanır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999755764_MAT__3",
+    "createdAt": "2026-04-12T13:15:55.762Z",
+    "updatedAt": "2026-04-12T13:15:55.762Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T13:16:07.398Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_2.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 4: Pozitif ve Negatif Sayılar",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Pozitif ve Negatif Sayılar"
+      },
+      {
+        "type": "text",
+        "text": "Sayı doğrusu üzerinde 0'ın sağında kalan sayılar pozitif, solunda kalan sayılar ise negatif olarak tanımlanır. Bu sayıların çarpım ve bölüm işlemlerinde işaret kurallarına uymak, sonucun doğruluğu açısından kritiktir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Aynı işaretli iki sayının çarpımı veya bölümü pozitiftir (+/+ = +, -/- = +).\n• Farklı işaretli iki sayının çarpımı veya bölümü negatiftir (+/- = -, -/+ = -).\n• Pozitif bir sayının tüm kuvvetleri pozitiftir.\n• Negatif bir sayının çift kuvvetleri pozitif, tek kuvvetleri negatiftir."
+      },
+      {
+        "type": "text",
+        "text": "Sıfır sayısı işaretsiz bir tam sayıdır ve yutan eleman özelliğine sahiptir. Eşitsizlik sorularında değişkenlerin işaretleri hakkında bilgi verilmediğinde, tüm olası durumlar (pozitif, negatif, sıfır) tek tek değerlendirilmelidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Negatif sayıların parantezli kuvvetlerinde işaretin değişimi, parantezin dışındaki üs ile parantezin içindeki değerin durumuna göre dikkatle incelenmelidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999755765_MAT__4",
+    "createdAt": "2026-04-12T13:15:55.762Z",
+    "updatedAt": "2026-04-12T13:15:55.762Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T13:16:07.398Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_3.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 5: Tek ve Çift Sayılar",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Tek ve Çift Sayılar"
+      },
+      {
+        "type": "text",
+        "text": "Tam sayılar 2'ye tam bölünüp bölünmeme durumlarına göre tek ve çift olarak sınıflandırılır. Bu sınıflama, özellikle denklem sorularında bilinmeyenlerin değer aralığını daraltmak için sıkça kullanılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Çift sayılar: 2n formunda olan tam sayılar (..., -4, -2, 0, 2, 4, ...).\n• Tek sayılar: 2n+1 formunda olan tam sayılar (..., -3, -1, 1, 3, 5, ...).\n• Tek + Tek = Çift; Çift + Çift = Çift; Tek + Çift = Tek.\n• Tek * Tek = Tek; Çift * Çift = Çift; Tek * Çift = Çift."
+      },
+      {
+        "type": "text",
+        "text": "Tek ve çift sayıların kuvvetleri incelenirken tabanın pozitif tam sayı olması şartı aranır. Negatif sayıların kuvvetlerinin tek veya çift olarak tanımlanması her zaman mümkün değildir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Bir çarpma işleminde sonuç çift ise, çarpanlardan en az birinin mutlaka çift olması gerekir; sonuç tek ise tüm çarpanlar tek olmalıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999755766_MAT__5",
+    "createdAt": "2026-04-12T13:15:55.762Z",
+    "updatedAt": "2026-04-12T13:15:55.762Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T13:16:07.398Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_4.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 6: Ardışık Sayılar",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Ardışık Sayılar"
+      },
+      {
+        "type": "text",
+        "text": "Belirli bir kurala göre artan veya azalan sayı dizilerine ardışık sayılar denir. Ardışık tam sayılar, ardışık çift sayılar veya ardışık tek sayılar gibi farklı türleri bulunan bu diziler, genel terim formülleri ile ifade edilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Ardışık tam sayılar 1'er artar (n, n+1, n+2...).\n• Ardışık çift sayılar 2'şer artar (2n, 2n+2, 2n+4...).\n• Ardışık tek sayılar 2'şer artar (2n-1, 2n+1, 2n+3...).\n• Genel terimi n olan bir dizide, ardışık terimler arasındaki fark sabittir."
+      },
+      {
+        "type": "text",
+        "text": "Ardışık sayılarla ilgili problemlerde terim sayısı ve terimlerin toplamı formülleri hayat kurtarıcıdır. Dizinin kaç terimden oluştuğunu belirlemek, toplamı bulmanın ilk adımıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Ardışık sayı dizilerinde terim sayısı (Son Terim - İlk Terim) / Artış Miktarı + 1 formülü ile hesaplanır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999755767_MAT__6",
+    "createdAt": "2026-04-12T13:15:55.762Z",
+    "updatedAt": "2026-04-12T13:15:55.762Z",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T13:16:07.398Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_5.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 7: Ardışık Sayıların Toplamı",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Ardışık Sayıların Toplamı"
+      },
+      {
+        "type": "text",
+        "text": "Ardışık sayı dizilerinin toplamı, Gauss toplam formülü kullanılarak pratik bir şekilde hesaplanabilir. Bu yöntem, tek tek toplama yapma zahmetinden kurtararak işlem hızını artırır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Terimler Toplamı = Terim Sayısı * (Son Terim + İlk Terim) / 2.\n• Terim Sayısı = (Son Terim - İlk Terim) / Artış Miktarı + 1.\n• 1'den n'e kadar olan sayıların toplamı: n * (n+1) / 2.\n• Ardışık çift sayıların toplamı: n * (n+1) (n burada son terim/2'dir)."
+      },
+      {
+        "type": "text",
+        "text": "Toplam formülleri uygulanırken dizinin artış miktarı tutarlı olmalıdır. Eğer dizi düzensiz bir artış gösteriyorsa, Gauss formülü doğrudan uygulanamaz ve dizi parçalara ayrılmalıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Ardışık sayıların toplamı sorularında, dizinin ilk ve son teriminin dahil olup olmadığına dikkat edilmelidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999755768_MAT__7",
+    "createdAt": "2026-04-12T13:15:55.762Z",
+    "updatedAt": "2026-04-12T13:15:55.762Z",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T13:16:07.398Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_6.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 8: Asal Sayılar",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Asal Sayılar"
+      },
+      {
+        "type": "text",
+        "text": "1'den büyük olan ve sadece 1'e ve kendisine tam bölünebilen doğal sayılara asal sayılar denir. Asal sayılar, sayı teorisinde temel yapı taşları olarak kabul edilir ve çarpanlara ayırma işlemlerinde sıkça kullanılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• En küçük asal sayı 2'dir.\n• 2'den başka çift asal sayı yoktur.\n• 1 sayısı asal sayı değildir.\n• Asal sayılar kümesi: {2, 3, 5, 7, 11, 13, 17, 19, ...} şeklinde devam eder."
+      },
+      {
+        "type": "text",
+        "text": "Sayıların asal olup olmadığını kontrol etmek için, o sayının kareköküne kadar olan asal sayılara bölünüp bölünmediğine bakmak yeterlidir. Eğer bu sayılara bölünmüyorsa, söz konusu sayı asaldır."
+      },
+      {
+        "type": "highlighted",
+        "text": "İki sayının aralarında asal olması için, 1'den başka ortak bölenlerinin olmaması gerekir; bu durum sayıların kendilerinin asal olması gerekmediği anlamına gelir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999755769_MAT__8",
+    "createdAt": "2026-04-12T13:15:55.762Z",
+    "updatedAt": "2026-04-12T13:15:55.762Z",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T13:16:07.398Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_7.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 9: Aralarında Asal Sayılar",
+    "content": [
+      {
+        "type": "text",
+        "text": "Aralarında asal sayılar, 1'den başka ortak pozitif böleni olmayan iki veya daha fazla tam sayıyı ifade eder. Bu sayıların asal olmaları gerekmez; önemli olan tek ortak bölenlerinin 1 olmasıdır. KPSS'de rasyonel sayıların sadeleşmesi sorularında bu kavram sıkça karşımıza çıkar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• 1 sayısı tüm pozitif tam sayılarla aralarında asaldır.\n• Ardışık iki tam sayı her zaman aralarında asaldır.\n• Aralarında asal iki sayının EBOB'u 1, EKOK'u ise sayıların çarpımıdır.\n• Sayıların kendilerinin asal olması şart değildir, örneğin 8 ve 9 aralarında asaldır."
+      },
+      {
+        "type": "text",
+        "text": "Aralarında asallık kontrolü yapılırken sayıların asal çarpanlarına ayrılması en güvenilir yöntemdir. Eğer iki sayının asal çarpanları arasında ortak olan hiçbir eleman yoksa, bu sayılar aralarında asaldır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli Kural: a/b = c/d ise ve a ile b aralarında asal ise, a = c ve b = d eşitliği kurulabilir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999767398_MAT__9",
+    "createdAt": "2026-04-12T13:16:07.398Z",
+    "updatedAt": "2026-04-12T13:16:07.398Z",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T13:16:17.526Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_8.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 10: Faktöriyel Kavramı",
+    "content": [
+      {
+        "type": "text",
+        "text": "Faktöriyel, 1'den n'e kadar olan doğal sayıların çarpımıdır ve n! şeklinde gösterilir. Matematikte permütasyon ve kombinasyon gibi konuların temelini oluşturur. 0! değerinin 1'e eşit olduğu unutulmamalıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• 0! = 1\n• 1! = 1\n• 2! = 2\n• 3! = 6\n• n! = n * (n-1)!"
+      },
+      {
+        "type": "text",
+        "text": "Sınavlarda genellikle faktöriyelli ifadelerin sadeleştirilmesi veya içindeki asal çarpanların bulunması istenir. Büyük faktöriyelli ifadelerde ortak paranteze alma yöntemi hayat kurtarır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: n! ifadesinde n her zaman doğal sayı olmalıdır, negatif sayıların faktöriyeli tanımlı değildir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999767399_MAT__10",
+    "createdAt": "2026-04-12T13:16:07.398Z",
+    "updatedAt": "2026-04-12T13:16:07.398Z",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T13:16:17.526Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_9.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 11: Basamak Kavramına Giriş",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sayı basamakları, bir sayıyı oluşturan rakamların bulunduğu konuma göre aldığı değerdir. Her basamak, 10'un bir kuvvetine karşılık gelir. Sayı değeri ise rakamın kendi değeridir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Birler basamağı: 10^0 = 1\n• Onlar basamağı: 10^1 = 10\n• Yüzler basamağı: 10^2 = 100\n• Binler basamağı: 10^3 = 1000"
+      },
+      {
+        "type": "text",
+        "text": "Bir sayının basamak değeri, rakamın sayı değeri ile bulunduğu basamağın değerinin çarpılmasıyla bulunur. Örneğin 245 sayısındaki 4'ün basamak değeri 40'tır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Not: Çok basamaklı sayılarda en soldaki basamak asla 0 olamaz."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999767400_MAT__11",
+    "createdAt": "2026-04-12T13:16:07.398Z",
+    "updatedAt": "2026-04-12T13:16:07.398Z",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T13:16:17.526Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_10.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 12: Çözümleme Yöntemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Çözümleme, bir sayıyı basamak değerlerinin toplamı şeklinde yazma işlemidir. Bu yöntem, sayı basamakları ile ilgili denklemleri çözmek için en temel araçtır. Her sayı, basamak değerlerinin toplamı olarak ifade edilebilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• ABC = 100A + 10B + C\n• AB = 10A + B\n• ABCD = 1000A + 100B + 10C + D\n• Çözümleme sayesinde bilinmeyen rakamlar bulunabilir."
+      },
+      {
+        "type": "text",
+        "text": "Çözümleme yaparken sayının basamak sayısı kadar 10'un kuvveti kullanıldığına dikkat edilmelidir. Bu yöntem, özellikle toplama veya çıkarma içeren işlemlerde bilinmeyenleri yalnız bırakmayı sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Sayı çözümlemelerinde rakamların 0 ile 9 arasında olduğu unutulmamalıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999767401_MAT__12",
+    "createdAt": "2026-04-12T13:16:07.398Z",
+    "updatedAt": "2026-04-12T13:16:07.398Z",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T13:16:17.526Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_11.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 13: İki Basamaklı Sayılar",
+    "content": [
+      {
+        "type": "text",
+        "text": "İki basamaklı sayılar AB şeklinde gösterilir ve 10A + B şeklinde çözümlenir. KPSS sorularında sıkça karşılaşılan 'AB sayısı BA sayısından ne kadar büyüktür?' gibi sorular bu yöntemle kolayca çözülür."
+      },
+      {
+        "type": "bulletList",
+        "text": "• AB = 10A + B\n• BA = 10B + A\n• AB - BA = 9(A - B)\n• AB + BA = 11(A + B)"
+      },
+      {
+        "type": "text",
+        "text": "AB - BA farkı her zaman 9'un katı olacaktır. Bu kural, sayıların yer değiştirmesiyle ilgili sorularda zaman kazandırır. A ve B rakam olduğu için 1 ile 9 arasında değer alabilirler."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli: Sorularda 'AB iki basamaklı bir sayı' ifadesi varsa A asla 0 olamaz."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999767402_MAT__13",
+    "createdAt": "2026-04-12T13:16:07.398Z",
+    "updatedAt": "2026-04-12T13:16:07.398Z",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T13:16:17.526Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_12.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 14: Üç Basamaklı Sayılar",
+    "content": [
+      {
+        "type": "text",
+        "text": "Üç basamaklı sayılar ABC şeklinde ifade edilir ve 100A + 10B + C olarak çözümlenir. Bu sayılarda yüzler basamağındaki A rakamı, sayının büyüklüğünü belirleyen en önemli faktördür."
+      },
+      {
+        "type": "bulletList",
+        "text": "• ABC = 100A + 10B + C\n• CBA = 100C + 10B + A\n• ABC - CBA = 99(A - C)\n• En küçük üç basamaklı sayı 100'dür."
+      },
+      {
+        "type": "text",
+        "text": "ABC - CBA farkı her zaman 99'un katı olur. Bu tip sorularda bilinmeyenler arasındaki farkı bulmak, sayıları tek tek denemekten çok daha hızlıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: A, B, C rakamdır ve A sıfırdan farklı olmalıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999767403_MAT__14",
+    "createdAt": "2026-04-12T13:16:07.398Z",
+    "updatedAt": "2026-04-12T13:16:07.398Z",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T13:16:17.526Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_13.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 15: Sayı Basamaklarında Dört İşlem",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sayı basamaklarında toplama ve çıkarma işlemleri, sayıların çözümlenmiş halleri kullanılarak gerçekleştirilir. Bilinmeyen rakamları bulmak için çözümleme ile kurulan denklemler oldukça etkilidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Toplamada basamaklar kendi aralarında toplanır.\n• Çıkarmada basamak değerleri farkı kullanılır.\n• Eldeli işlemlerde basamak değerlerine dikkat edilmelidir.\n• Denklemler kurulurken rakamların 0-9 aralığında olduğu unutulmamalıdır."
+      },
+      {
+        "type": "text",
+        "text": "Verilen işlemlerdeki boşlukları doldurmak için genellikle birler basamağından başlanarak analiz yapılır. İşlem sonucundaki sayının basamak sayısı, denklemdeki katsayıları doğrudan etkiler."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Birler basamağındaki C'den C çıkarsa 0 kalır, bu durum bilinmeyenleri sadeleştirmek için kullanılabilir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999767404_MAT__15",
+    "createdAt": "2026-04-12T13:16:07.398Z",
+    "updatedAt": "2026-04-12T13:16:07.398Z",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T13:16:17.526Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_14.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 16: Basamak Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Basamak problemleri, sayıların basamaklarına göre kurgulanmasıyla çözülen sözel sorulardır. Problemi denkleme dökmek, çözümün yarısını oluşturur; geri kalan kısmı ise basit cebirsel işlemlerdir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Soruda verilen bilgileri matematiksel ifadeye dökün.\n• Çözümleme yöntemini (10A+B gibi) kullanın.\n• Rakamların sınırlamalarını (0-9) göz ardı etmeyin.\n• İstenen değeri bulmak için denklemi sadeleştirin."
+      },
+      {
+        "type": "text",
+        "text": "Özellikle 'bir sayının rakamları toplamının k katı' gibi ifadeler, 10A+B = k(A+B) şeklinde denkleştirilmelidir. Bu tür problemlerde rasyonel sonuçlar çıkmayacağı için deneme-yanılma yöntemi de kullanılabilir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Strateji: Problemi çözerken önce rakamların alabileceği değer aralığını belirlemek, hata yapma riskini azaltır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999767405_MAT__16",
+    "createdAt": "2026-04-12T13:16:07.398Z",
+    "updatedAt": "2026-04-12T13:16:07.398Z",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T13:16:17.526Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_15.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 17: Sayı Basamaklarında Sıralama",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sayı basamaklarında sıralama soruları, değişkenler arasındaki bağıntıları analiz ederek en uygun değerleri belirlemeyi gerektirir. Bu süreçte eşitsizliklerin yönü ve değişkenlerin alabileceği maksimum veya minimum değerler kritik rol oynar. Doğru strateji, kısıtlamaları dikkate alarak sınır değerler üzerinden ilerlemektir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Değişkenlere değer verirken katsayısı büyük olan basamaklara odaklanılmalıdır.\n• Eşitsizlik durumunda sınır değerler (en küçük veya en büyük) test edilmelidir.\n• Pozitif ve negatif tam sayı kısıtlamaları dikkatle incelenmelidir.\n• Basamak kavramı gereği, yüzler basamağına sıfır gelemeyeceği unutulmamalıdır."
+      },
+      {
+        "type": "text",
+        "text": "Sıralama sorularında genellikle bir değişkenin alabileceği değer aralığı sorulur. Bu tip problemlerde değişkenlerin birbirinden farklı olup olmadığı bilgisi, çözüm kümesini doğrudan etkileyen bir unsurdur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Sıralama sorularında katsayısı en büyük olan değişkene en küçük değeri vererek diğerlerinin toplamını maksimize edebilirsiniz."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999777526_MAT__17",
+    "createdAt": "2026-04-12T13:16:17.526Z",
+    "updatedAt": "2026-04-12T13:16:17.526Z",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T13:16:29.370Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_16.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 18: Sayı Basamaklarında En Büyük-En Küçük Değer",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sayı basamaklarında en büyük veya en küçük değeri bulmak için katsayı analizi yapmak temel yaklaşımdır. Büyük bir sayı elde etmek isteniyorsa basamak değeri yüksek olan rakamlar büyük seçilir. Küçük bir sayı elde edilmek isteniyorsa, basamak değeri yüksek olan rakamlar mümkün olduğunca küçük seçilmelidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Rakamları farklı denildiğinde, basamaklara tekrarsız rakam atanmalıdır.\n• En büyük değer için büyük basamaklara 9, 8 gibi büyük rakamlar verilmelidir.\n• En küçük değer için yüzler veya binler basamağına 1 verilerek başlanmalıdır.\n• Toplamları sabit olan sayılarda, sayıların birbirine uzak seçilmesi çarpımı küçültür."
+      },
+      {
+        "type": "text",
+        "text": "Özellikle pozitif tam sayıların toplamı verildiğinde, oluşan sayının en büyük olması için sayılar birbirinden uzak, en küçük olması için ise birbirine yakın seçilmelidir. Bu kural KPSS sınavlarında sıkça karşımıza çıkan bir mantıksal çerçevedir."
+      },
+      {
+        "type": "highlighted",
+        "text": "En küçük değer hesaplanırken, kısıtlama yoksa en yüksek basamağa 1 verilmeli; ancak rakamlar farklı ise birbirini takip eden küçük değerler atanmalıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999777527_MAT__18",
+    "createdAt": "2026-04-12T13:16:17.526Z",
+    "updatedAt": "2026-04-12T13:16:17.526Z",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T13:16:29.370Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_17.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 19: Taban Aritmetiğine Giriş",
+    "content": [
+      {
+        "type": "text",
+        "text": "Taban aritmetiği, sayıların farklı gruplandırma sistemlerinde ifade edilmesidir. Günlük hayatta kullandığımız 10'luk sistemde rakamlar 0'dan 9'a kadar iken, n tabanındaki bir sistemde rakamlar 0'dan n-1'e kadar değer alır. Bu kural, taban aritmetiğinin temelini oluşturur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Bir sayı sisteminde taban, her zaman o sistemdeki en büyük rakamdan büyük olmalıdır.\n• Taban her zaman 1'den büyük bir tam sayı olmalıdır.\n• n tabanındaki bir sayıda, hiçbir basamak n'ye eşit veya n'den büyük olamaz.\n• Her taban sistemi kendi içerisinde tutarlı bir basamak değerine sahiptir."
+      },
+      {
+        "type": "text",
+        "text": "Taban aritmetiğinde temel kural, sistemin kısıtlamalarına uymaktır. Örneğin 5'lik tabanda 5 rakamı bulunamaz; sadece 0, 1, 2, 3 ve 4 rakamları kullanılabilir. Bu kurala aykırı her durum geçersiz bir sayı ifadesidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Bir 'a' tabanında yazılan (abc)_a sayısında a > a, a > b ve a > c şartı mutlaka sağlanmalıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999777528_MAT__19",
+    "createdAt": "2026-04-12T13:16:17.526Z",
+    "updatedAt": "2026-04-12T13:16:17.526Z",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T13:16:29.370Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_18.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 20: Farklı Tabanlardan 10'luk Tabana Geçiş",
+    "content": [
+      {
+        "type": "text",
+        "text": "Farklı bir tabanda verilen sayıyı 10'luk tabana çevirmek için çözümleme yöntemi kullanılır. Sayının her basamağı, bulunduğu basamağın değeri olan tabanın kuvveti ile çarpılır ve bu değerlerin toplamı alınır. Bu yöntem, sayı sistemlerini birbirine bağlayan temel köprüdür."
+      },
+      {
+        "type": "bulletList",
+        "text": "• En sağdaki basamak tabanın 0. kuvveti ile çarpılır.\n• Sola doğru gidildikçe kuvvetler birer artırılarak devam eder.\n• Çözümleme yapılırken katsayılar ile tabanın üsleri çarpılıp toplanır.\n• İşlem sonunda elde edilen sonuç, sayının 10'luk tabandaki karşılığıdır."
+      },
+      {
+        "type": "text",
+        "text": "Çözümleme yöntemi, bilinmeyen tabanlı sorularda deneme-yanılma yerine cebirsel çözüme gitmemizi sağlar. Özellikle tabanın bir değişken olduğu durumlarda, bu yöntemle kurulan denklemler hız kazandırır."
+      },
+      {
+        "type": "highlighted",
+        "text": "(abc)_n = a.n^2 + b.n^1 + c.n^0 formülü ile tüm tabanlardan 10'luk tabana geçiş yapılabilir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999777529_MAT__20",
+    "createdAt": "2026-04-12T13:16:17.526Z",
+    "updatedAt": "2026-04-12T13:16:17.526Z",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T13:16:29.370Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_19.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 21: 10'luk Tabandan Farklı Tabanlara Geçiş",
+    "content": [
+      {
+        "type": "text",
+        "text": "10'luk tabandaki bir sayıyı başka bir tabana çevirmek için ardışık bölme yöntemi uygulanır. Sayı, hedef tabana sürekli bölünür ve elde edilen kalanlar sondan başa doğru sıralanır. Bu yöntem, sayının yeni sistemdeki karşılığını kesin olarak verir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sayı, hedef tabana bölünür ve kalan not edilir.\n• Bölüm, tabandan küçük olana kadar bölme işlemine devam edilir.\n• En son bölüm ve elde edilen kalanlar sondan başa doğru yazılır.\n• Kalanların her birinin tabandan küçük olması zorunludur."
+      },
+      {
+        "type": "text",
+        "text": "Ardışık bölme yöntemi, özellikle büyük sayıların dönüşümünde hata payını düşüren en güvenilir yoldur. Kalanların sırasını karıştırmamak, sonucun doğruluğu için hayati önem taşır."
+      },
+      {
+        "type": "highlighted",
+        "text": "İşlem bittiğinde en son bölümü ve tüm kalanları tersten dizerek yeni tabandaki sayıyı oluşturmayı unutmayın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999777530_MAT__21",
+    "createdAt": "2026-04-12T13:16:17.526Z",
+    "updatedAt": "2026-04-12T13:16:17.526Z",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T13:16:29.370Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_20.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 22: Taban Aritmetiğinde İşlemler",
+    "content": [
+      {
+        "type": "text",
+        "text": "Taban aritmetiğinde toplama ve çıkarma işlemleri, 10'luk sistemdeki kurallara benzer ancak 'elde' mantığı tabana bağlıdır. Toplama işleminde basamak toplamı tabana eşit veya büyükse, tabana bölünüp kalan yazılır ve bölüme 'elde' olarak aktarılır. Çıkarma işleminde ise gereken durumda komşu basamaktan bir taban kadar değer alınır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Toplamada sonuç tabana eşitse 0 yazılır, 1 elde olarak geçer.\n• Çıkarmada komşudan alınan değer 1 değil, taban değeridir.\n• İşlemler her zaman sağdan sola doğru gerçekleştirilir.\n• İşlem sonunda elde edilen rakamların tabandan küçük olduğu kontrol edilmelidir."
+      },
+      {
+        "type": "text",
+        "text": "Taban aritmetiğinde işlemler karmaşık geliyorsa, sayıları 10'luk tabana çevirip işlemi yapıp sonucu tekrar istenen tabana dönüştürmek de bir alternatiftir. Ancak doğrudan işlem yapmak sınavda hız kazandırır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Elde kavramı 10'luk sistemde 10'un katları iken, n tabanında n'in katları üzerinden yürütülür."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999777531_MAT__22",
+    "createdAt": "2026-04-12T13:16:17.526Z",
+    "updatedAt": "2026-04-12T13:16:17.526Z",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T13:16:29.370Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_21.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 23: Sayı Basamaklarında Özel Durumlar",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sayı basamaklarında bazı rakamların konumu, sayının değerini ve tanımını doğrudan etkiler. Özellikle sıfırın en soldaki basamakta bulunması sayının basamak sayısını düşüreceği için kısıtlamalara tabidir. Boş veya eksik basamaklar, çözümleme yaparken dikkat edilmesi gereken tuzaklardır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Çok basamaklı sayılarda en başa 0 gelemez.\n• Bir basamağın boş olması, o basamağın katsayısının 0 olduğunu gösterir.\n• Çözümlemede eksik basamaklar 0 ile temsil edilmelidir.\n• Sayı basamaklarını yazarken değişkenlerin kısıtlarını iyi analiz edin."
+      },
+      {
+        "type": "text",
+        "text": "Özel durumlar genellikle 'üç basamaklı' veya 'dört basamaklı' ibarelerinde gizlidir. Bu ibareler, en soldaki basamağın sıfır olamayacağını belirten gizli bir kısıtlamadır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Sıfırın basamaklardaki etkisi, özellikle sayıların en büyük veya en küçük değerini bulurken en kritik dikkat noktasıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999777532_MAT__23",
+    "createdAt": "2026-04-12T13:16:17.526Z",
+    "updatedAt": "2026-04-12T13:16:17.526Z",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T13:16:29.370Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_22.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 24: Rakamları Farklı Sayılar",
+    "content": [
+      {
+        "type": "text",
+        "text": "Rakamları farklı olma koşulu, bir kümeden seçilen elemanların bir kez kullanılabileceği anlamını taşır. Bu koşul, özellikle en büyük veya en küçük sayı oluşturma sorularında seçenekleri daraltır. Kısıtlamaların en yoğun olduğu basamaktan başlayarak değer atamak, işlem kolaylığı sağlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• En soldaki basamak, tüm rakamlar arasından 0 hariç seçilmelidir.\n• İkinci basamakta 0 kullanılabilir ancak ilk seçilen rakam kullanılamaz.\n• Rakamları farklı denildiğinde her adımda mevcut havuzdan bir eleman eksilir.\n• Seçim yaparken kısıtlaması en fazla olan basamaktan başlanmalıdır."
+      },
+      {
+        "type": "text",
+        "text": "Rakamları farklı olma durumu, kombinasyon mantığı ile birleştiğinde daha karmaşık görünebilir. Ancak basit basamaklı sayılarda, kısıtlamalara uyarak rakamları tek tek elemek en güvenilir yoldur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Rakamları farklı sorularında 0'ın durumu her zaman öncelikli düşünülmelidir; çünkü 0 hem küçük bir değerdir hem de yüksek basamaklarda kısıtlıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999777533_MAT__24",
+    "createdAt": "2026-04-12T13:16:17.526Z",
+    "updatedAt": "2026-04-12T13:16:17.526Z",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T13:16:29.370Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_23.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 25: Sayı Basamaklarında Katsayı İlişkileri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sayı basamakları problemlerinde değişkenlerin katsayılarını analiz etmek, çözüm kümesini daraltmak için en etkili yöntemdir. Katsayısı büyük olan değişkenlere uygun değerler vererek sayı değerlerini optimize ederiz. Bu yaklaşım, özellikle 'en büyük' veya 'en küçük' değer sorularında işlem yükünü ciddi oranda azaltır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Katsayısı en büyük olan değişkene öncelik verilmeli.\n• Rakamların birbirinden farklı olup olmadığı şartına dikkat edilmeli.\n• Sınır değerler (0, 1, 9) katsayı analizinde kritik role sahiptir.\n• Değişkenlerin alabileceği değer aralıkları belirlenerek deneme yanılma süreci kısaltılmalıdır."
+      },
+      {
+        "type": "text",
+        "text": "Katsayılar arasındaki farkın büyük olduğu durumlarda, küçük katsayılı değişkene maksimum değer verilerek büyük katsayılının etkisi dengelenir. KPSS sınavında bu yöntem, karmaşık gibi görünen denklemleri saniyeler içinde çözmenizi sağlar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Katsayısı büyük olan değişkene verilecek yanlış bir değer, tüm sonucun hatalı çıkmasına neden olur; bu yüzden her zaman katsayı büyüklüğüne göre sıralama yapın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999789370_MAT__25",
+    "createdAt": "2026-04-12T13:16:29.370Z",
+    "updatedAt": "2026-04-12T13:16:29.370Z",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T13:16:40.149Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_24.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 26: Bölme ve Basamak İlişkisi",
+    "content": [
+      {
+        "type": "text",
+        "text": "Basamak analizi ile bölme algoritması, sayıların parçalanması noktasında birleşir. Bir sayının basamaklarına ayrılmış hali, bölme işleminde kalan bulma sorularında pratiklik sağlar. Özellikle modüler aritmetik ile basamak analizinin iç içe geçtiği sorular, KPSS için ayırt edici sorulardır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sayı basamaklarını çözümleyerek bölme işlemini modüler forma dönüştürün.\n• Kalan kavramını basamak değerlerine dağıtarak işlem yapın.\n• 9 ve 11 ile bölünebilme kuralları basamak analizinde sıkça kullanılır.\n• Bölme algoritmasındaki (Bölünen = Bölen x Bölüm + Kalan) eşitliğini basamaklı sayılara uygulayın."
+      },
+      {
+        "type": "text",
+        "text": "Örneğin, bir sayının 9 ile bölümünden kalan, rakamları toplamının 9 ile bölümünden kalandır. Bu özellik, basamaklı sayılarda işlem yaparken sayıları devasa değerlerden kurtararak küçük rakamlarla çalışmamıza olanak tanır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Bölme işleminde kalan, her zaman bölenden küçük olmalıdır; basamaklı çözümlemelerde bu kuralı unutmak işlem hatasına yol açar."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999789371_MAT__26",
+    "createdAt": "2026-04-12T13:16:29.370Z",
+    "updatedAt": "2026-04-12T13:16:29.370Z",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T13:16:40.149Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_25.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 27: Sayı Basamaklarında Toplamın Değeri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sayı basamaklarında toplamın değeri, sayıları çözümleyerek katsayıları ortak paranteze alma prensibine dayanır. Basamaklı sayılar toplandığında, her basamağın kendi çözümlemesi (100a+10b+c gibi) ayrı ayrı ele alınır. Bu yöntem, değişkenler arasındaki bağıntıyı net bir şekilde ortaya koyar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Toplama işleminde basamak değerlerini alt alta hizalayarak çözümleyin.\n• Ortak paranteze alma yöntemi ile değişken sayısını azaltın.\n• Toplamın sonucunun basamaklı bir sayıya eşit olup olmadığını kontrol edin.\n• Rakamların toplamı üzerindeki kısıtlamaları (0-9 arası) göz ardı etmeyin."
+      },
+      {
+        "type": "text",
+        "text": "Toplamın değeri analiz edilirken, özellikle elde edilen sonucun hangi basamakları etkilediği incelenmelidir. Basamak kaymaları veya elde edilen değerlerin basamak sınırlarını aşması, çözümde dikkat edilmesi gereken temel noktalardır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Toplamın sonucunda oluşan basamak kaymalarına dikkat edin; üç basamaklı iki sayının toplamı dört basamaklı bir sayıya dönüşebilir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999789372_MAT__27",
+    "createdAt": "2026-04-12T13:16:29.370Z",
+    "updatedAt": "2026-04-12T13:16:29.370Z",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T13:16:40.149Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_26.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 28: Negatif Tabanlar ve Özellikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Negatif tabanlı sayılar, alışılagelmiş 10'luk taban sisteminden farklı olarak işaret değişimlerini beraberinde getirir. Tabanın negatif olduğu durumlarda, her basamağın değeri tabanın kuvvetleri ile belirlenir. Bu konu, KPSS'de daha çok sayısal mantık ve ileri düzey matematik sorularında karşımıza çıkar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Taban negatif olduğunda basamak değerleri işaret değiştirir.\n• Çözümleme yaparken tabanın negatif işaretini parantez içinde koruyun.\n• Çift kuvvetlerde pozitif, tek kuvvetlerde negatif değer elde edileceğini unutmayın.\n• Sayıyı onluk tabana çevirirken her basamağı kendi taban kuvvetiyle çarpın."
+      },
+      {
+        "type": "text",
+        "text": "Negatif tabanlı sistemlerde en büyük zorluk, işaretlerin birbirini götürmesi veya toplamın beklenmedik değerler almasıdır. Sistematik çözümleme yaparak her bir basamağın işaretini önceden belirlemek hata riskini minimize eder."
+      },
+      {
+        "type": "highlighted",
+        "text": "Negatif taban sorularında mutlaka işaret tablolarını kullanın; işaret karışıklıkları bu konudaki en yaygın hata kaynağıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999789373_MAT__28",
+    "createdAt": "2026-04-12T13:16:29.370Z",
+    "updatedAt": "2026-04-12T13:16:29.370Z",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T13:16:40.149Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_27.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 29: Sayı Basamakları ile İlgili Çıkmış Sorular",
+    "content": [
+      {
+        "type": "text",
+        "text": "Çıkmış soruları incelemek, sınavın soru sorma mantığını ve hangi kavramlara odaklandığını anlamanın en iyi yoludur. Sayı basamakları konusunda ÖSYM, genellikle çözümleme ve katsayı analizi içeren, zaman yönetimi gerektiren soruları tercih etmektedir. Geçmiş yılların soruları, hız kazanmak için birer antrenman sahasıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Çıkmış sorularda ortak çarpan parantezine alma yöntemini inceleyin.\n• ÖSYM'nin sayı basamaklarında 'rakamları farklı' vurgusuna dikkat edin.\n• Yeni nesil sayı basamakları sorularında problem kurma becerisi ön plandadır.\n• Zaman yönetimi için sorularda pratik çözüm yollarını (değer verme) geliştirin."
+      },
+      {
+        "type": "text",
+        "text": "Geçmiş sınav sorularını çözerken sadece doğru cevabı bulmakla yetinmeyin, aynı zamanda soruya nasıl yaklaştığınızı da analiz edin. Alternatif çözüm yolları üretmek, sınav anında yaşanabilecek kilitlenme durumlarını önler ve size hız kazandırır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Sayı basamakları konusu, her yıl mutlaka KPSS'de yer alan bir konudur; çıkmış soruları çözmeden sınava girmeyin."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999789374_MAT__29",
+    "createdAt": "2026-04-12T13:16:29.370Z",
+    "updatedAt": "2026-04-12T13:16:29.370Z",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T13:16:40.149Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_28.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_TEMEL_KAVRAMLAR",
+    "title": "Bölüm 30: Genel Tekrar ve Karma Sorular",
+    "content": [
+      {
+        "type": "text",
+        "text": "Tüm konuları harmanlayarak genel tekrar yapmak, bilgilerin kalıcılığını sağlar ve konular arası geçiş yeteneğini geliştirir. Sayı basamakları, temel kavramların üzerine inşa edildiği için bu bölümdeki eksiklikler diğer konuları da olumsuz etkiler. Karma sorular, bilgiyi uygulama aşamasında karşılaşılan zorlukları gidermeye yöneliktir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Temel kavramlar, bölme ve basamak analizi arasındaki bağlantıları kurun.\n• Hatalı çözdüğünüz soruları bir kenara not edip tekrar gözden geçirin.\n• Karma sorularda süreli çözümler yaparak hızınızı test edin.\n• Bilgiyi ezberlemek yerine soru tiplerine göre yöntem belirlemeye çalışın."
+      },
+      {
+        "type": "text",
+        "text": "Hata analizi, genel tekrarın en önemli parçasıdır; neden yanlış yaptığınızı anlamak, o hatayı bir daha yapmamak anlamına gelir. Denemelerde veya soru bankalarında yaptığınız hatalar, sizin gelişiminizi belirleyen en önemli verilerdir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Genel tekrar sürecinde 'neden' ve 'nasıl' sorularını sorarak bilginin mantığını kavrayın; ezber sizi sınava kadar, mantık ise sınavın sonuna kadar taşır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1775999789375_MAT__30",
+    "createdAt": "2026-04-12T13:16:29.370Z",
+    "updatedAt": "2026-04-12T13:16:29.370Z",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T13:16:40.149Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_TEMEL_KAVRAMLAR_29.mp3?alt=media"
+  }
+]

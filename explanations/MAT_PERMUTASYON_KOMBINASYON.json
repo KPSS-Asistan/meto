@@ -1,0 +1,958 @@
+[
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 1: Saymanın Temel İlkeleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Saymanın temel ilkeleri, olasılık ve sayma problemlerinin çözümünde kullanılan en temel iki yaklaşımdır. Toplama yoluyla sayma, birbirinden ayrık iki işlemden birinin seçilmesi durumunda kullanılırken, çarpma yoluyla sayma birbirini takip eden bağımsız işlemler için tercih edilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Toplama yoluyla sayma: A veya B işleminin yapılması durumu.\n• Çarpma yoluyla sayma: A ve B işleminin birlikte yapılması durumu.\n• Birbirinden ayrık küme mantığı esastır.\n• Seçenekler birbirini etkilemiyorsa çarpım kuralı uygulanır.\n• Örtüşen durumlar varsa toplama kuralında dikkatli olunmalıdır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sorularında genellikle bir şehirden diğerine giden farklı yollar veya kıyafet kombinasyonları gibi çarpma kuralını gerektiren durumlar sorulmaktadır. İşlemlerin birbiriyle olan mantıksal bağı, hangi kuralın seçileceğini belirler."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kritik Bilgi: 'Veya' bağlacı genellikle toplama işlemini, 've' bağlacı ise çarpma işlemini ifade eder."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001356957_MAT__1",
+    "createdAt": "2026-04-12T13:42:36.957Z",
+    "updatedAt": "2026-04-12T13:42:36.957Z",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T13:42:55.769Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_0.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 2: Faktöriyel Kavramı",
+    "content": [
+      {
+        "type": "text",
+        "text": "Faktöriyel, 1'den n'e kadar olan doğal sayıların çarpımını ifade eden matematiksel bir işlemdir. Permütasyon hesaplamalarında sıralama sayısını belirlemek için temel bir araçtır ve n! sembolü ile gösterilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• 0! değeri 1'e eşittir (özel durum).\n• n! = n . (n-1)!\n• Faktöriyel sadece doğal sayılar için tanımlıdır.\n• Büyük faktöriyelleri sadeleştirmek için küçük olana benzetilir.\n• Permütasyon formüllerinin merkezinde yer alır."
+      },
+      {
+        "type": "text",
+        "text": "Sınavlarda genellikle faktöriyel içeren rasyonel ifadelerin sadeleştirilmesi veya bilinmeyen değerlerin bulunması sorulur. Pay ve payda arasındaki küçük farkları kullanarak büyük olanı küçüğe benzetmek en pratik yöntemdir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli Not: 0! = 1 olduğunu unutmak, birçok soruda işlem hatasına yol açar."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001356958_MAT__2",
+    "createdAt": "2026-04-12T13:42:36.957Z",
+    "updatedAt": "2026-04-12T13:42:36.957Z",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T13:42:55.769Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_1.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 3: Permütasyonun Temelleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Permütasyon, n elemanlı bir kümenin r elemanlı sıralı dizilişlerinin sayısıdır. Burada sıralama önemli olduğu için seçilen nesnelerin dizilimi sonucu değiştirir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Sıralama ve dizilim mantığı esastır.\n• P(n, r) formülü: n! / (n-r)!\n• Tüm elemanların sıralanışı n! şeklindedir.\n• n elemanlı bir kümenin n'li permütasyonu n!dir.\n• Nesnelerin yer değiştirmesi yeni bir durum oluşturur."
+      },
+      {
+        "type": "text",
+        "text": "Permütasyon sorularında genellikle 'kaç farklı şekilde sıralanabilir' veya 'kaç farklı numara oluşturulabilir' gibi ifadeler kullanılır. Seçilen nesnelerin sırasının önemli olduğu her durum permütasyon sorusudur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kritik İpucu: Sıralama varsa Permütasyon, sadece seçme varsa Kombinasyon kullanılır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001356959_MAT__3",
+    "createdAt": "2026-04-12T13:42:36.957Z",
+    "updatedAt": "2026-04-12T13:42:36.957Z",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T13:42:55.769Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_2.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 4: Tekrarlı Permütasyon",
+    "content": [
+      {
+        "type": "text",
+        "text": "Tekrarlı permütasyon, nesnelerin bir kısmının özdeş olduğu durumlarda yapılan sıralamaları ifade eder. Özdeş olan nesnelerin kendi aralarındaki yer değiştirmeleri sonucu değiştirmediği için toplam sıralama sayısından bölünerek çıkarılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Toplam nesne sayısı faktöriyel olarak paya yazılır.\n• Özdeş nesnelerin sayıları faktöriyel olarak paydaya yazılır.\n• Kelime harflerinin dizilimleri en klasik örnektir.\n• Rakamları aynı olan sayıların dizilişi de bu kapsama girer.\n• Her özdeş grup için ayrı bir bölme işlemi yapılır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de 'MATEMATİK' kelimesindeki harflerin yer değiştirme sayısı gibi sorular sık gelir. Pay kısmına toplam harf sayısı, payda kısmına ise tekrar eden harflerin faktöriyel çarpımı yazılır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Not: Tekrarlı permütasyon, özdeş nesnelerin ayırt edilemediği durumları yönetir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001356960_MAT__4",
+    "createdAt": "2026-04-12T13:42:36.957Z",
+    "updatedAt": "2026-04-12T13:42:36.957Z",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T13:42:55.769Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_3.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 5: Dairesel (Halkasal) Permütasyon",
+    "content": [
+      {
+        "type": "text",
+        "text": "Dairesel permütasyon, nesnelerin bir çember etrafına sıralanması durumudur. Düz bir sıradan farkı, başlangıç ve bitiş noktasının olmamasıdır; bu yüzden bir kişi sabitlenerek diğerleri ona göre dizilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• n nesne dairesel (n-1)! şekilde sıralanır.\n• Bir nesneyi sabitlemek, göreceli konumları belirler.\n• Anahtarlık veya boncuk dizilimlerinde ters çevirme durumu (n-1)!/2 olur.\n• İnsanların yuvarlak masa etrafındaki oturma düzenleri temel örnektir.\n• Sabitleme işlemi, dönme hareketinden kaynaklanan tekrarları engeller."
+      },
+      {
+        "type": "text",
+        "text": "Dairesel permütasyon sorularında 'yanyana olma' kısıtlamaları bazen dairesel mantıkla birleştirilir. Sabitleme yapıldıktan sonra kalan kişiler düz sıralama kurallarına göre yerleştirilir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Önemli Kural: Anahtarlık gibi ters çevrilebilen nesnelerde sonuç ikiye bölünür."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001356961_MAT__5",
+    "createdAt": "2026-04-12T13:42:36.957Z",
+    "updatedAt": "2026-04-12T13:42:36.957Z",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T13:42:55.769Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_4.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 6: Kısıtlamalı Sıralamalar",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kısıtlamalı sıralamalar, bazı elemanların yan yana olması veya olmaması gibi özel şartlar içeren sorulardır. Bu tür sorularda 'paketleme' yöntemi veya 'tüm durumdan istenmeyen durumu çıkarma' stratejisi kullanılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Yan yana olması istenenler bir paket olarak kabul edilir.\n• Paket içindeki elemanların kendi aralarında yer değiştirmesi unutulmamalıdır.\n• Yan yana olmaması istenenler, tüm durumdan yan yana olanlar çıkarılarak bulunur.\n• 'Arada bulunma' şartlarında boşluk yöntemi kullanılır.\n• Kısıtlama arttıkça çözüm kümesi daraltılır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavında genellikle 3 kişinin yan yana gelmesi veya 2 kişinin yan yana gelmemesi gibi sorular sorulur. Tüm durumdan istenmeyeni çıkarmak, özellikle yan yana gelmeme sorularında hayat kurtarır."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Yan yana gelmeme sorularında önce kısıtlamasız olanları dizip boşluklara diğerlerini yerleştirin."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001356962_MAT__6",
+    "createdAt": "2026-04-12T13:42:36.957Z",
+    "updatedAt": "2026-04-12T13:42:36.957Z",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T13:42:55.769Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_5.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 7: Kombinasyonun Temelleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kombinasyon, n elemanlı bir kümeden r tane elemanın seçilmesidir. Permütasyondan farkı, seçilen elemanların kendi aralarındaki sıralamasının önemli olmamasıdır; sadece seçim yapılması yeterlidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Seçme mantığı esastır, sıralama yoktur.\n• C(n, r) = n! / [r! . (n-r)!]\n• Küme elemanlarıyla yapılan alt küme soruları kombinasyondur.\n• Takım, grup, komite oluşturma sorularında kullanılır.\n• Seçimlerin sırası sonucu değiştirmez."
+      },
+      {
+        "type": "text",
+        "text": "Kombinasyon soruları genellikle 'kaç farklı grup oluşturulabilir' gibi ifadelerle başlar. Örneğin, 5 kişilik bir gruptan 2 kişilik bir komite seçilmesi tam bir kombinasyon problemidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Özetle: Sıralama yoksa, seçim varsa Kombinasyon formülüne başvurun."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001356963_MAT__7",
+    "createdAt": "2026-04-12T13:42:36.957Z",
+    "updatedAt": "2026-04-12T13:42:36.957Z",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T13:42:55.769Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_6.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 8: Kombinasyon Özellikleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Kombinasyonun kendine has özellikleri, işlemleri hızlandırmak ve karmaşık soruları basitleştirmek için kullanılır. Özellikle simetri özelliği ve Pascal özdeşliği, sınavda işlem yükünü minimize eder."
+      },
+      {
+        "type": "bulletList",
+        "text": "• C(n, r) = C(n, n-r) (Simetri özelliği).\n• C(n, 0) = C(n, n) = 1.\n• C(n, 1) = n.\n• Pascal özdeşliği: C(n, r) + C(n, r+1) = C(n+1, r+1).\n• Alt kümelerin toplamı 2 üzeri n formülü ile bulunur."
+      },
+      {
+        "type": "text",
+        "text": "Sınavlarda büyük değerli kombinasyonları çözmek yerine simetri özelliğini kullanarak daha küçük değerlere indirgemek pratiktir. Örneğin C(10, 8) hesaplamak yerine C(10, 2) hesaplamak çok daha kolaydır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kritik Bilgi: n'in r'lisi ile n'in (n-r)'lisi daima birbirine eşittir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001356964_MAT__8",
+    "createdAt": "2026-04-12T13:42:36.957Z",
+    "updatedAt": "2026-04-12T13:42:36.957Z",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T13:42:55.769Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_7.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 9: Gruplandırma Problemleri",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Gruplandırma Problemleri"
+      },
+      {
+        "type": "text",
+        "text": "Gruplandırma problemleri, belirli bir kümenin elemanlarının alt kümelere ayrılması veya paylaştırılması işlemlerini kapsar. Bu tür problemlerde elemanların kendi içindeki düzeninden ziyade, hangi grubun içinde yer aldığı önemlidir. KPSS sınavlarında genellikle kişilerin takımlara veya gruplara ayrılması şeklinde karşımıza çıkmaktadır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• n elemanlı bir kümenin r elemanlı alt küme sayısı C(n,r) formülü ile hesaplanır.\n• Gruplar arası eleman sayıları eşit ise gruplar kendi arasında sıralanabilir.\n• Boş grup olmayacak şekilde paylaştırma sorularında dikkatli olunmalıdır.\n• Alt küme sayısı formülü ile kombinasyon hesabı doğrudan ilişkilidir."
+      },
+      {
+        "type": "text",
+        "text": "Gruplandırma yaparken elemanların ayırt edilebilir olup olmadığına dikkat etmek gerekir. Eğer gruplar özdeş ise bölme işlemi yapılarak fazla sayım engellenir. Bu mantık, KPSS matematik testinde zorlayıcı soruların temelini oluşturur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Kombinasyon, seçme işlemidir; sıra önemli değildir. Gruplama sorularında da sıra değil, kimin hangi grupta olduğu esastır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001375769_MAT__9",
+    "createdAt": "2026-04-12T13:42:55.769Z",
+    "updatedAt": "2026-04-12T13:42:55.769Z",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T13:43:11.115Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_8.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 10: Seçim ve Sıralama İlişkisi",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Seçim ve Sıralama İlişkisi"
+      },
+      {
+        "type": "text",
+        "text": "Permütasyon ve kombinasyon arasındaki temel fark, sıralamanın olup olmadığına dayanır. Seçim yapıldıktan sonra bu elemanların dizilmesi gerekiyorsa permütasyon, sadece bir grubun oluşturulması yeterliyse kombinasyon kullanılır. KPSS adaylarının bu iki kavramı birbirinden ayırt etmesi soru çözümünde kritik öneme sahiptir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Permütasyon (P): Seç ve sırala mantığıyla çalışır.\n• Kombinasyon (C): Sadece seçme işlemi yapılır, sıralama yapılmaz.\n• n elemanlı bir kümeden r eleman seçip sıralamak için P(n,r) kullanılır.\n• Seçim ve sıralama ilişkisinde P(n,r) = C(n,r) * r! bağıntısı esastır."
+      },
+      {
+        "type": "text",
+        "text": "Örneğin, bir başkan ve başkan yardımcısı seçimi permütasyon gerektirirken, sadece iki kişilik bir komisyon seçimi kombinasyon ile çözülür. Sorunun metnindeki 'kaç farklı şekilde sıralanabilir' veya 'kaç farklı grup oluşturulabilir' ifadeleri belirleyicidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Sıralama önemliyse Permütasyon, sadece seçim önemliyse Kombinasyon formülünü tercih etmelisiniz."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001375770_MAT__10",
+    "createdAt": "2026-04-12T13:42:55.769Z",
+    "updatedAt": "2026-04-12T13:42:55.769Z",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T13:43:11.116Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_9.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 11: Geometrik Şekillerde Kombinasyon",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Geometrik Şekillerde Kombinasyon"
+      },
+      {
+        "type": "text",
+        "text": "Geometrik şekillerin oluşturulmasında kombinasyon, noktaların seçimi için kullanılan en etkili yöntemdir. Bir üçgen oluşturmak için doğrusal olmayan üç noktanın seçilmesi gerekir. KPSS sınavında sıkça sorulan bu tip sorularda doğrusal noktaların üçgen oluşturamayacağı bilgisi hayati önem taşır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Üçgen sayısı: Tüm noktaların 3'lü kombinasyonundan doğrusal olanların 3'lü kombinasyonunu çıkar.\n• Çokgen sorularında köşe seçimi için doğrusal olmayan noktalar seçilmelidir.\n• Bir doğru üzerindeki noktalarla oluşturulabilecek doğru sayısı C(n,2) ile bulunur.\n• Paralel doğrularla oluşturulan şekillerde seçimler ikili ikili yapılır."
+      },
+      {
+        "type": "text",
+        "text": "Çokgen sorularında, eğer köşelerden bazıları doğrusal ise bu noktalar üçgen veya çokgen oluşturmaz. Bu yüzden 'tüm durumlar - istenmeyen durumlar' stratejisi, sınavda vakit kazandıran en pratik yoldur."
+      },
+      {
+        "type": "highlighted",
+        "text": "Doğrusal noktalar üçgen oluşturmaz; bu yüzden toplam durumdan doğrusal olanların oluşturduğu hatalı durumları mutlaka çıkarın."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001375771_MAT__11",
+    "createdAt": "2026-04-12T13:42:55.769Z",
+    "updatedAt": "2026-04-12T13:42:55.769Z",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T13:43:11.116Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_10.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 12: Doğrular ve Düzlemler",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Doğrular ve Düzlemler"
+      },
+      {
+        "type": "text",
+        "text": "Doğruların kesişimi ile oluşan noktalar veya paralel doğrular arasındaki bölgeler, kombinasyonun uygulama alanlarından biridir. İki doğrunun tek bir noktada kesiştiği varsayılarak, n adet doğrunun en fazla kaç noktada kesişeceği hesaplanabilir. Bu konu, KPSS matematik geometrik kombinasyon sorularının temelini oluşturur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• n adet doğrudan herhangi ikisi kesişiyorsa, kesişim noktası sayısı C(n,2) formülü ile bulunur.\n• Paralel doğrular kesişmediği için bu doğrular çıkarılarak hesaplama yapılır.\n• Düzlem içindeki doğrularla oluşturulan bölge sayısı n(n+1)/2 + 1 formülü ile bulunur.\n• Kesişen doğrular arasında çakışanlar varsa, bunlar toplam noktadan eksiltilmelidir."
+      },
+      {
+        "type": "text",
+        "text": "Doğruların düzlemi kaç parçaya ayırdığı veya kaç farklı kesişim noktası oluştuğu, sınavda mantık yürütme gerektiren sorulardır. Özellikle paralel doğru demetleri içeren sorularda, her bir demetten birer doğru seçme mantığına dikkat edilmelidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "n adet doğrudan birbirine paralel olanlar varsa, kesişim noktası sayısı C(n,2) - C(paralel_sayısı, 2) formülü ile hesaplanır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001375772_MAT__12",
+    "createdAt": "2026-04-12T13:42:55.769Z",
+    "updatedAt": "2026-04-12T13:42:55.769Z",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T13:43:11.116Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_11.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 13: Binom Açılımı Temelleri",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Binom Açılımı Temelleri"
+      },
+      {
+        "type": "text",
+        "text": "Binom açılımı, (x+y)^n ifadesinin terimlerinin kombinasyon yardımıyla yazılmasıdır. Pascal üçgeni ile binom katsayıları arasındaki ilişki, açılımın daha kolay anlaşılmasını sağlar. KPSS müfredatında binom açılımı, genellikle katsayılar veya terim bulma soruları ile test edilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• (x+y)^n açılımında toplam n+1 tane terim bulunur.\n• Katsayılar Pascal üçgenindeki sayılarla aynıdır.\n• Her terimde değişkenlerin üsleri toplamı n'e eşittir.\n• Binom katsayıları C(n,r) formülü ile belirlenir."
+      },
+      {
+        "type": "text",
+        "text": "Binom açılımını anlamak için kombinasyonun özelliklerini bilmek yeterlidir. Özellikle n'in 0'dan n'e kadar olan kombinasyonlarının toplamının 2^n olması, katsayılar toplamını bulmada en pratik bilgidir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Bir açılımda katsayılar toplamını bulmak için değişkenlerin (x, y gibi) yerine 1 yazmanız yeterlidir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001375773_MAT__13",
+    "createdAt": "2026-04-12T13:42:55.769Z",
+    "updatedAt": "2026-04-12T13:42:55.769Z",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T13:43:11.116Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_12.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 14: Binom Katsayıları ve Terim Bulma",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Binom Katsayıları ve Terim Bulma"
+      },
+      {
+        "type": "text",
+        "text": "Binom açılımında belirli bir terimi bulmak için kullanılan genel terim formülü, KPSS'de sıklıkla karşımıza çıkan bir kalıptır. (x+y)^n ifadesinin baştan (r+1). terimi, C(n,r) * x^(n-r) * y^r şeklinde ifade edilir. Bu formül sayesinde tüm açılımı yapmadan istenen terime hızlıca ulaşılır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Baştan r+1. terim: C(n,r) * (ilk terim)^(n-r) * (ikinci terim)^r.\n• Katsayıları bulurken değişkenlerin önündeki katsayılar da formüle dahil edilmelidir.\n• Terim bulma sorularında üslerin toplamının n olduğu unutulmamalıdır.\n• Orta terim sorulduğunda n çift ise (n/2)+1. terim orta terimdir."
+      },
+      {
+        "type": "text",
+        "text": "Katsayıları bulurken işaretlere dikkat etmek çok önemlidir. Eğer terimlerden biri negatif ise (-y gibi), bu negatiflik kuvveti ile birlikte formüle yerleştirilmelidir. Bu küçük detay, soru çözümünde hata yapmanızı engeller."
+      },
+      {
+        "type": "highlighted",
+        "text": "Genel terim formülü her türlü terim bulma sorusunun anahtarıdır; r değerini doğru belirlemek çözümün %90'ıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001375774_MAT__14",
+    "createdAt": "2026-04-12T13:42:55.769Z",
+    "updatedAt": "2026-04-12T13:42:55.769Z",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T13:43:11.116Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_13.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 15: Sabit Terim Problemleri",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Sabit Terim Problemleri"
+      },
+      {
+        "type": "text",
+        "text": "Sabit terim, içinde değişken (x, y gibi) bulunmayan terimdir. Bir ifadede sabit terimi bulmak için değişkenlerin üssünü sıfırlamak gerekir. KPSS sınavında bu konu, binom açılımının bir alt başlığı olarak sıkça sorgulanır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Değişkenin üssünü sıfır yapan r değeri genel terim formülünde bulunur.\n• Sabit terimi bulmak için değişkenlerin yerine 0 yazmak da bir yöntemdir.\n• Eğer paydada değişken varsa, paydayı yok edecek r değeri hesaplanır.\n• Sabit terim, değişkenin olmadığı terimdir, yani katsayıdır."
+      },
+      {
+        "type": "text",
+        "text": "Sabit terim sorularında, genel terim açılımındaki değişkenlerin kuvvetlerini eşitleyip r değerini bulmak en güvenilir yöntemdir. R değeri bulunduktan sonra bu değer kombinasyon formülünde yerine yazılarak sabit terimin katsayısı elde edilir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Sabit terim sorulduğunda değişkenin kuvvetini 0'a eşitle ve r değerini bul; bu değer seni doğrudan sonuca götürür."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001375775_MAT__15",
+    "createdAt": "2026-04-12T13:42:55.769Z",
+    "updatedAt": "2026-04-12T13:42:55.769Z",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T13:43:11.116Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_14.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 16: Olasılığa Giriş",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Olasılığa Giriş"
+      },
+      {
+        "type": "text",
+        "text": "Olasılık, bir olayın gerçekleşme şansının sayısal ifadesidir. Örnek uzay, bir deneyin tüm olası sonuçlarını içeren kümedir. Olasılık hesaplamalarında, istenen durum sayısının tüm durum sayısına oranı temel kuraldır; bu nedenle permütasyon ve kombinasyon bilgisi olasılığın temelini oluşturur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Olasılık değeri her zaman 0 ile 1 arasındadır.\n• Örnek uzay (S), tüm olası sonuçların kümesidir.\n• P(A) = İstenen durum / Tüm durumlar formülü kullanılır.\n• İmkansız olayın olasılığı 0, kesin olayın olasılığı 1'dir."
+      },
+      {
+        "type": "text",
+        "text": "KPSS'de olasılık soruları genellikle zar atma, madeni para veya top seçimi gibi basit deneyler üzerine kuruludur. İstenen durumu doğru belirleyip tüm durumları kombinasyon ile hesaplamak, olasılık sorularının çözümünde standart bir yöntemdir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Olasılık = (İstenen Durum Sayısı) / (Tüm Durum Sayısı). Kombinasyonu iyi bilmek, olasılığı çözmektir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001375776_MAT__16",
+    "createdAt": "2026-04-12T13:42:55.769Z",
+    "updatedAt": "2026-04-12T13:42:55.769Z",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T13:43:11.116Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_15.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 17: Teorik Olasılık Hesabı",
+    "content": [
+      {
+        "type": "text",
+        "text": "Bir deneyin tüm olası sonuçlarının kümesi örnek uzayı oluşturur. Teorik olasılık, istenen durum sayısının tüm durumların sayısına bölünmesiyle elde edilen matematiksel değerdir. Bu değer her zaman 0 ile 1 aralığında sınırlıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Örnek uzay tüm çıktıları kapsar.\n• İstenen durum sayısı, örnek uzayın alt kümesidir.\n• P(A) = s(A) / s(E) formülü temeldir.\n• Kesin olayın olasılığı 1, imkansız olayın olasılığı 0'dır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sorularında genellikle örnek uzayın doğru belirlenmesi çözümün anahtarıdır. Kombinasyon bilgisi, özellikle seçim sorularında örnek uzayı hesaplarken kritik bir rol oynar."
+      },
+      {
+        "type": "highlighted",
+        "text": "Unutmayın: Bir olayın olasılığı hiçbir zaman 1'den büyük veya 0'dan küçük olamaz."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001391116_MAT__17",
+    "createdAt": "2026-04-12T13:43:11.116Z",
+    "updatedAt": "2026-04-12T13:43:11.116Z",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T13:43:29.577Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_16.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 18: Tümleyen Olay",
+    "content": [
+      {
+        "type": "text",
+        "text": "Bir olayın gerçekleşme olasılığı ile gerçekleşmeme olasılığının toplamı daima 1'e eşittir. Bu özellik, doğrudan hesaplanması zor olan durumlarda tümleyenini bularak sonuca gitmemizi sağlar. İşlem kolaylığı sağladığı için sınavda sıkça tercih edilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• A olayı ve A'nın tümleyeni ayrık olaylardır.\n• P(A) + P(A') = 1 eşitliği kullanılır.\n• 'En az bir' ifadesi geçen sorularda tümleyen tercih edilir.\n• P(A') = 1 - P(A) formülü ile hesaplanır."
+      },
+      {
+        "type": "text",
+        "text": "Özellikle 'en az bir tane' veya 'hepsi aynı değil' gibi ifadelerle başlayan problemlerde, tüm durumdan istenmeyen durumları çıkarmak pratik bir çözüm yöntemidir. Bu yaklaşım, işlem yükünü önemli ölçüde azaltır."
+      },
+      {
+        "type": "highlighted",
+        "text": "İpucu: Soru kökünde 'en az bir' ifadesini gördüğünüzde hemen tümleyen olay yöntemini düşünün."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001391117_MAT__18",
+    "createdAt": "2026-04-12T13:43:11.116Z",
+    "updatedAt": "2026-04-12T13:43:11.116Z",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T13:43:29.577Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_17.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 19: Birleşim ve Kesişim Olasılığı",
+    "content": [
+      {
+        "type": "text",
+        "text": "İki olayın birleşim olasılığı, her birinin ayrı ayrı olasılıklarının toplamından kesişimlerinin olasılığının çıkarılması ile bulunur. 'Veya' bağlacı birleşim işlemini, 've' bağlacı ise kesişim işlemini temsil eder. Bu ayrım, problemleri doğru formüle etmek için şarttır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• P(A U B) = P(A) + P(B) - P(A ∩ B) formülü esastır.\n• 'Veya' durumu birleşim kümesini ifade eder.\n• 'Ve' durumu kesişim kümesini ifade eder.\n• Kesişim boş ise P(A ∩ B) = 0 olur."
+      },
+      {
+        "type": "text",
+        "text": "Kesişim olasılığı, iki olayın aynı anda gerçekleştiği durumları temsil eder. Eğer olaylar birbirini etkilemiyorsa kesişim, olasılıkların çarpımı ile bulunur."
+      },
+      {
+        "type": "highlighted",
+        "text": "P(A U B) hesaplarken kesişimi çıkarmayı unutursanız, kesişim bölgesini iki kez saymış olursunuz."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001391118_MAT__19",
+    "createdAt": "2026-04-12T13:43:11.116Z",
+    "updatedAt": "2026-04-12T13:43:11.116Z",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T13:43:29.577Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_18.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 20: Ayrık ve Bağlantılı Olaylar",
+    "content": [
+      {
+        "type": "text",
+        "text": "Ayrık olaylar, aynı anda gerçekleşmesi mümkün olmayan, yani kesişim kümesi boş olan olaylardır. Bir zar atıldığında gelen sayının hem 2 hem de 3 olması imkansız olduğundan bu örnek ayrık olaylara girer. Bu kavram olasılık toplamlarını basitleştirir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Ayrık olaylarda P(A ∩ B) = 0'dır.\n• P(A U B) = P(A) + P(B) basitçe toplanır.\n• Birbirini etkileyen olaylar ayrık değildir.\n• Örnek uzayın parçalanması ayrık olaylarla mümkündür."
+      },
+      {
+        "type": "text",
+        "text": "Ayrık olmayan olaylar, ortak çıktıları olan durumlardır ve hesaplamada kesişim kümesinin mutlaka dikkate alınması gerekir. KPSS'de olayların ayrık olup olmadığını belirlemek, hata yapmamak adına ilk adım olmalıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Olayların ayrık olması, kesişimlerinin boş küme olduğu anlamına gelir."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001391119_MAT__20",
+    "createdAt": "2026-04-12T13:43:11.116Z",
+    "updatedAt": "2026-04-12T13:43:11.116Z",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T13:43:29.577Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_19.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 21: Koşullu Olasılık",
+    "content": [
+      {
+        "type": "text",
+        "text": "Koşullu olasılık, bir olayın gerçekleştiği bilindiğinde, diğer bir olayın gerçekleşme olasılığını hesaplar. Bu durumda örnek uzay daralır ve sadece koşulu sağlayan durumlar yeni örnek uzayımız olur. Formül, kesişim olasılığının koşul olan olayın olasılığına bölümüdür."
+      },
+      {
+        "type": "bulletList",
+        "text": "• P(A|B) = P(A ∩ B) / P(B) formülü kullanılır.\n• Payda, koşul olan olayın olasılığıdır.\n• Örnek uzay, koşul gerçekleştiği için daralır.\n• Soru kökünde 'bilindiğine göre' ifadesi aranır."
+      },
+      {
+        "type": "text",
+        "text": "Koşullu olasılıkta en önemli nokta, hangi olayın 'koşul' olduğunu doğru tespit etmektir. Paydaya koşulun gerçekleşme olasılığını yazmak, çözümde en sık yapılan hatayı engeller."
+      },
+      {
+        "type": "highlighted",
+        "text": "Koşullu olasılıkta örnek uzayın tamamını değil, sadece koşula uyan kısmı baz almalısınız."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001391120_MAT__21",
+    "createdAt": "2026-04-12T13:43:11.116Z",
+    "updatedAt": "2026-04-12T13:43:11.116Z",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T13:43:29.577Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_20.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 22: Bağımsız Olaylar",
+    "content": [
+      {
+        "type": "text",
+        "text": "Bağımsız olaylar, birinin gerçekleşme olasılığının diğerinin gerçekleşme olasılığını etkilemediği olaylardır. Bu tür olayların birlikte gerçekleşme olasılığı, tek tek olasılıklarının çarpımına eşittir. Ardışık deneyler genellikle bağımsızdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Olaylar bağımsız ise P(A ∩ B) = P(A) . P(B).\n• Birinin sonucu diğerini değiştirmez.\n• Madeni para atışları tipik bağımsız olaydır.\n• Ardışık deneylerde bağımsızlık sık görülür."
+      },
+      {
+        "type": "text",
+        "text": "Bir zar atıp ardından para atmak bağımsız olayların en klasik örneğidir. Zardaki sonuç, paradaki sonucu hiçbir şekilde etkilemez; bu nedenle olasılıklar doğrudan çarpılır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Eğer olaylar bağımsız ise, birinin gerçekleşmiş olması diğerinin olasılığını değiştirmez."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001391121_MAT__22",
+    "createdAt": "2026-04-12T13:43:11.116Z",
+    "updatedAt": "2026-04-12T13:43:11.116Z",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T13:43:29.577Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_21.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 23: Zar ve Para Atma Problemleri",
+    "content": [
+      {
+        "type": "text",
+        "text": "Zar ve para atma deneyleri, örnek uzayları önceden bilinen en temel olasılık problemleridir. Bir paranın 2, bir zarın 6 yüzü vardır ve n tane atıldığında örnek uzay $2^n$ veya $6^n$ şeklinde hesaplanır. Bu basit yapı, daha karmaşık soruların temelini oluşturur."
+      },
+      {
+        "type": "bulletList",
+        "text": "• 1 para için örnek uzay 2, 2 para için 4'tür.\n• 1 zar için örnek uzay 6, 2 zar için 36'dır.\n• Zar toplamları tablosu soru çözümlerini hızlandırır.\n• İstatistiksel beklenen değer, tüm durumların ortalamasıdır."
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavında iki zarın atılması durumunda toplamların alabileceği değerler (örneğin toplamın 7 olması) oldukça popülerdir. Toplamın 7 olması için (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) olmak üzere 6 farklı durum mevcuttur."
+      },
+      {
+        "type": "highlighted",
+        "text": "İki zar atıldığında toplamın 7 olma olasılığı en yüksek olasılıktır (6/36 = 1/6)."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001391122_MAT__23",
+    "createdAt": "2026-04-12T13:43:11.116Z",
+    "updatedAt": "2026-04-12T13:43:11.116Z",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T13:43:29.577Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_22.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 24: Torbadan Top Çekme Soruları",
+    "content": [
+      {
+        "type": "text",
+        "text": "Torbadan top çekme soruları, çekilen topun geri atılıp atılmamasına bağlı olarak iki farklı şekilde incelenir. Geri atılmayan çekimlerde top sayısı azaldığı için olaylar bağımlıdır ve olasılıklar çarpılırken paydalar güncellenir. Bu, KPSS'nin en çok soru gelen kısımlarından biridir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Geri atılmadan çekim: Olaylar bağımlıdır.\n• Geri atılarak çekim: Olaylar bağımsızdır.\n• Toplam top sayısı her çekimde azalır.\n• Renklerin dağılımı oranları değiştirir."
+      },
+      {
+        "type": "text",
+        "text": "Eğer torbadan art arda iki top çekiliyorsa ve ikinci top çekilirken ilki geri atılmadıysa, ikinci çekilişteki payda ilk çekilişten bir eksik olacaktır. Bu küçük ayrıntı, sorunun doğru cevabını belirleyen en kritik noktadır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Dikkat: Topun geri atılmaması, örnek uzaydaki eleman sayısını her aşamada azaltır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001391123_MAT__24",
+    "createdAt": "2026-04-12T13:43:11.116Z",
+    "updatedAt": "2026-04-12T13:43:11.116Z",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T13:43:29.577Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_23.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 25: Dizilimlerde Olasılık",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Dizilimlerde Olasılık"
+      },
+      {
+        "type": "text",
+        "text": "Dizilim tabanlı olasılık sorularında örnek uzay genellikle tüm sıralamaların sayısı, istenen durum ise belirli kısıtlamalara sahip sıralamalardır. Permütasyonun temel prensipleri kullanılarak kısıtlı durumlar matematiksel olarak modellenir. Bu tip sorularda 'yan yana gelmeme' veya 'belirli bir sırada olma' gibi koşullar olasılık hesabını doğrudan etkiler."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Tüm durumlar hesaplanırken nesnelerin farklı olup olmadığına dikkat edilmelidir.\n• Yan yana gelme koşullarında grup yöntemi, gelmeme durumlarında ise tümünden çıkarım yöntemi kullanılır.\n• Tekrarlı permütasyon içeren durumlarda pay ve payda sadeleştirilerek işlem kolaylığı sağlanır.\n• Belirli bir sırada olma koşulu, o nesnelerin özdeşmiş gibi düşünülerek çözülmesini kolaylaştırır."
+      },
+      {
+        "type": "text",
+        "text": "Koşullu olasılıkta, örnek uzayın kısıtlanması gerektiğini unutmamak gerekir. Payda kısmı kısıtlı olan evreni temsil ederken, pay kısmı bu evren içerisindeki istenen durumu yansıtmalıdır."
+      },
+      {
+        "type": "highlighted",
+        "text": "KPSS sorularında 'rastgele sıralanan' ifadesi, tüm sıralamaların eşit olasılıkla gerçekleştiğini varsaymamızı sağlar."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001409578_MAT__25",
+    "createdAt": "2026-04-12T13:43:29.578Z",
+    "updatedAt": "2026-04-12T13:43:29.578Z",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T13:43:46.793Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_24.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 26: Seçimlerde Olasılık",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Seçimlerde Olasılık"
+      },
+      {
+        "type": "text",
+        "text": "Kombinasyonlu olasılık soruları, bir gruptan alt grupların seçilmesi prensibine dayanır. Burada sıra önemli değildir, dolayısıyla seçimlerin sayısı kombinasyon formülü ile hesaplanır. İstenen durumun gerçekleşme olasılığı, seçilen alt grubun istenen özelliklere uygun olma durumunun tüm olasılıklara oranlanmasıdır."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Seçimlerde cinsiyet, yaş veya yetenek gibi gruplandırmalar soruların temelini oluşturur.\n• En az bir tane seçilme sorularında, tüm durumdan hiç seçilmeme durumu çıkarılır.\n• Gruplardan aynı anda seçim yapılıyorsa, olasılıklar çarpılarak ilerlenmelidir.\n• Seçimlerin birbirini etkileyip etkilemediği (yerine koymalı veya koymasız) mutlaka analiz edilmelidir."
+      },
+      {
+        "type": "text",
+        "text": "Özellikle 'en az bir' veya 'en fazla iki' gibi ifadeler, kombinasyon toplamlarını gerektirir. Payda kısmına toplamda seçilebilecek tüm gruplar yazılırken, pay kısmına sadece şartı sağlayanlar yazılır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Seçim problemlerinde payda her zaman 'n elemanlı bir kümeden r eleman seçimi' yani C(n,r) formülü ile başlar."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001409579_MAT__26",
+    "createdAt": "2026-04-12T13:43:29.578Z",
+    "updatedAt": "2026-04-12T13:43:29.578Z",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T13:43:46.793Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_25.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 27: Geometrik Olasılık",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Geometrik Olasılık"
+      },
+      {
+        "type": "text",
+        "text": "Geometrik olasılık, bir noktanın belirli bir bölgeye düşme olasılığını alanlar veya uzunluklar üzerinden hesaplar. Olasılık değeri, istenen bölgenin ölçüsünün (alan, uzunluk veya hacim) tüm bölgenin ölçüsüne oranı ile bulunur. Bu yöntem süreklilik gösteren değişkenlerde oldukça etkilidir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Doğru parçası üzerinde bir noktanın belirli bir aralığa düşme olasılığı uzunluk oranıdır.\n• Düzlemdeki bir bölgeye düşme olasılığı alanlar oranı ile hesaplanır.\n• Çember veya daire içindeki seçimlerde yarıçap ve alan formülleri kullanılmalıdır.\n• Taralı bölgelerin oranlanması sorularında benzerlikten yararlanmak vakit kazandırır."
+      },
+      {
+        "type": "text",
+        "text": "Geometrik olasılıkta mutlaka tüm şeklin kapsadığı alanı veya uzunluğu doğru belirlemek gerekir. Eğer şekiller orantılı ise, benzerlik oranının karesi alan oranını verir, bu da bazen hesaplamayı çok hızlandırır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Geometrik olasılıkta payda, noktaların düşebileceği tüm alanı; pay ise sadece istenen bölgeyi ifade eder."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001409580_MAT__27",
+    "createdAt": "2026-04-12T13:43:29.578Z",
+    "updatedAt": "2026-04-12T13:43:29.578Z",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T13:43:46.793Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_26.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 28: İleri Seviye Sayma Yöntemleri",
+    "content": [
+      {
+        "type": "heading",
+        "text": "İleri Seviye Sayma Yöntemleri"
+      },
+      {
+        "type": "text",
+        "text": "Ayıraç yöntemi, özdeş nesnelerin farklı kutulara dağıtılması problemlerinde kullanılan en etkili araçtır. Bu yöntem, nesneleri ve kutu sınırlarını birer simge gibi düşünerek toplam permütasyon üzerinden çözüm sağlar. Karmaşık dağılım problemlerinde bu yöntem ile hızlı sonuçlara ulaşılabilir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Özdeş n nesne k farklı kutuya dağıtılırken (n+k-1)C(k-1) formülü uygulanır.\n• Her kutuda en az bir nesne olma şartı varsa (n-1)C(k-1) formülü kullanılır.\n• Ayraç yöntemi sadece özdeş nesneler için geçerlidir, farklı nesneler için üslü ifade yöntemi kullanılır.\n• Kısıtlı dağılımlarda (örneğin bir kutuda en fazla 3 tane) tüm durumdan istenmeyen durumlar çıkarılabilir."
+      },
+      {
+        "type": "text",
+        "text": "Bu yöntem KPSS sınavında genellikle 'kaç farklı şekilde dağıtılabilir' sorusu olarak karşımıza çıkar. Mantığı, nesneleri ayırmak için gereken bölücüleri (ayraçları) yerleştirmektir."
+      },
+      {
+        "type": "highlighted",
+        "text": "Ayraç yöntemi, denklem çözme sorularında 'x+y+z=n' şeklindeki pozitif tam sayı çözümlerini bulmak için de kullanılır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "hard",
+    "id": "exp_1776001409581_MAT__28",
+    "createdAt": "2026-04-12T13:43:29.578Z",
+    "updatedAt": "2026-04-12T13:43:29.578Z",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T13:43:46.793Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_27.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 29: KPSS Tarzı Karma Sorular",
+    "content": [
+      {
+        "type": "heading",
+        "text": "KPSS Tarzı Karma Sorular"
+      },
+      {
+        "type": "text",
+        "text": "KPSS sınavında permütasyon ve kombinasyon soruları genellikle hikayeleştirilmiş bir yapıda sunulur. Sınav stratejisi olarak, sorunun hangi temel konuya (dizilim mi, seçim mi?) ait olduğunu ilk saniyede belirlemelisiniz. Karma sorular, birden fazla kuralın birleşimi ile oluşur ve dikkat gerektirir."
+      },
+      {
+        "type": "bulletList",
+        "text": "• Çıkmış sorularda genellikle 'seçilenlerden kaçı şartı sağlar' gibi kombinasyon temelli sorular ağırlıktadır.\n• Okuma aşamasında kısıtlayıcı kelimeler (en az, yan yana, farklı) altı çizilerek analiz edilmelidir.\n• Karma sorularda önce koşullu durumları halledip sonra genel dizilimi yapmak hatayı azaltır.\n• Sınavda zaman yönetimi için basitleştirme yöntemleri (küçük sayılarla deneme) kullanılabilir."
+      },
+      {
+        "type": "text",
+        "text": "Geçmiş yıllardaki soruları analiz ettiğimizde, özellikle şekil ve çizelge içeren permütasyon sorularının arttığı görülmektedir. Bu tip sorularda izlenecek yol, önce tüm durumu, sonra istenmeyenleri bulup çıkarmaktır."
+      },
+      {
+        "type": "highlighted",
+        "text": "Sınavda karmaşık görünen sorularda, problemi daha küçük parçalara bölerek çözmek en güvenilir yoldur."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "hard",
+    "id": "exp_1776001409582_MAT__29",
+    "createdAt": "2026-04-12T13:43:29.578Z",
+    "updatedAt": "2026-04-12T13:43:29.578Z",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T13:43:46.793Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_28.mp3?alt=media"
+  },
+  {
+    "topicId": "MAT_PERMUTASYON_KOMBINASYON",
+    "title": "Bölüm 30: Genel Tekrar ve Hata Analizi",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Genel Tekrar ve Hata Analizi"
+      },
+      {
+        "type": "text",
+        "text": "Öğrencilerin permütasyon ve kombinasyon konularında en çok yaptığı hata, sıralama ve seçim ayrımını yapamamaktır. Sıralama (permütasyon) her zaman daha büyük sonuçlar verirken, seçim (kombinasyon) daha küçük sonuçlar üretir. Bu bölüm, sınava girmeden önce yapılan yaygın hataları minimize etmeyi amaçlar."
+      },
+      {
+        "type": "bulletList",
+        "text": "• En büyük hata, tekrarlı permütasyonda bölmeyi unutmaktır.\n• 'En az bir' ifadesi görüldüğünde tüm durumdan hiç olmama durumunu çıkarmayı unutmayın.\n• Geometrik olasılıkta birimlerin (cm, m) aynı olduğundan emin olun.\n• Kombinasyon sorularında seçim sonrası dizilimin gerekip gerekmediğini tekrar kontrol edin."
+      },
+      {
+        "type": "text",
+        "text": "Zaman yönetimi açısından, 2 dakikayı geçen sorularda ısrarcı olmayın ve geçici olarak boş bırakın. Permütasyon ve kombinasyon soruları genellikle hızlıca çözülebilen veya tamamen kilitlenilen sorulardır."
+      },
+      {
+        "type": "warning",
+        "text": "Dikkat: 'Yan yana' ve 'yan yana gelmemesi' durumlarını birbirine karıştırmak en sık yapılan sınav hatasıdır."
+      }
+    ],
+    "type": "detailed",
+    "difficulty": "medium",
+    "id": "exp_1776001409583_MAT__30",
+    "createdAt": "2026-04-12T13:43:29.578Z",
+    "updatedAt": "2026-04-12T13:43:29.578Z",
+    "_part": 30,
+    "_generatedAt": "2026-04-12T13:43:46.793Z",
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/kpss-c5cad.firebasestorage.app/o/audio%2Fgenerated_tts%2Fexplanation_MAT_PERMUTASYON_KOMBINASYON_29.mp3?alt=media"
+  }
+]

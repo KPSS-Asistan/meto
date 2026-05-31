@@ -1,0 +1,234 @@
+[
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Küme",
+    "answer": "İyi tanımlanmış ve birbirinden farklı nesneler topluluğu",
+    "id": "match_1776016984205_1",
+    "_part": 1,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Eleman",
+    "answer": "Kümeyi oluşturan nesnelerden her biri",
+    "id": "match_1776016984205_2",
+    "_part": 2,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Boş Küme",
+    "answer": "Hiç elemanı olmayan küme",
+    "id": "match_1776016984205_3",
+    "_part": 3,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Evrensel Küme",
+    "answer": "Üzerinde çalışılan tüm kümeleri kapsayan en geniş küme",
+    "id": "match_1776016984205_4",
+    "_part": 4,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Alt Küme",
+    "answer": "Bir kümenin her elemanı, başka bir kümenin de elemanı ise",
+    "id": "match_1776016984205_5",
+    "_part": 5,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Öz Alt Küme",
+    "answer": "Bir kümenin kendisi hariç tüm alt kümeleri",
+    "id": "match_1776016984205_6",
+    "_part": 6,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Kesişim",
+    "answer": "İki kümenin ortak elemanlarının oluşturduğu küme",
+    "id": "match_7",
+    "_part": 7,
+    "_generatedAt": "2026-04-12T17:42:07.042Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Birleşim",
+    "answer": "İki kümenin tüm elemanlarının birleşimi",
+    "id": "match_8",
+    "_part": 8,
+    "_generatedAt": "2026-04-12T17:42:07.042Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Fark",
+    "answer": "Bir kümede olup diğerinde olmayan elemanlar",
+    "id": "match_9",
+    "_part": 9,
+    "_generatedAt": "2026-04-12T17:42:07.042Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Tümleyen",
+    "answer": "Evrensel kümede olup verilen kümede olmayan elemanlar",
+    "id": "match_10",
+    "_part": 10,
+    "_generatedAt": "2026-04-12T17:42:07.042Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Ayrık Küme",
+    "answer": "Kesişimleri boş küme olan kümeler",
+    "id": "match_11",
+    "_part": 11,
+    "_generatedAt": "2026-04-12T17:42:07.042Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Eşit Küme",
+    "answer": "Elemanları tamamen aynı olan kümeler",
+    "id": "match_12",
+    "_part": 12,
+    "_generatedAt": "2026-04-12T17:42:07.042Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Denk Küme",
+    "answer": "Eleman sayıları birbirine eşit olan kümeler",
+    "id": "match_13",
+    "_part": 13,
+    "_generatedAt": "2026-04-12T17:42:07.042Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Kuvvet Kümesi",
+    "answer": "Bir kümenin tüm alt kümelerinin kümesi",
+    "id": "match_14",
+    "_part": 14,
+    "_generatedAt": "2026-04-12T17:42:07.042Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Venn Şeması",
+    "answer": "Kümeleri kapalı eğrilerle gösterme yöntemi",
+    "id": "match_15",
+    "_part": 15,
+    "_generatedAt": "2026-04-12T17:42:07.042Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Liste Yöntemi",
+    "answer": "Küme elemanlarının virgülle ayrılarak süslü parantez içine yazılması",
+    "id": "match_1776016984205_19",
+    "_part": 16,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Ortak Özellik Yöntemi",
+    "answer": "Küme elemanlarının taşıdığı ortak özelliğin belirtilmesi",
+    "id": "match_1776016984205_20",
+    "_part": 17,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Kartezyen Çarpım",
+    "answer": "İki kümenin elemanlarıyla oluşturulan sıralı ikililerin kümesi",
+    "id": "match_1776016984205_16",
+    "_part": 18,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Eleman Sayısı",
+    "answer": "Bir kümenin içinde bulunan farklı nesnelerin adedi",
+    "id": "match_1776016984205_18",
+    "_part": 19,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Sonlu Küme",
+    "answer": "Eleman sayısı sayılabilir ve sonlu olan küme",
+    "id": "match_1776016984205_13",
+    "_part": 20,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Kesişim Kümesi",
+    "answer": "İki kümenin ortak elemanlarından oluşan küme",
+    "id": "match_1776016984205_7",
+    "_part": 21,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Birleşim Kümesi",
+    "answer": "İki kümenin tüm elemanlarından oluşan küme",
+    "id": "match_1776016984205_8",
+    "_part": 22,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Fark Kümesi",
+    "answer": "Bir kümede olup diğerinde olmayan elemanlardan oluşan küme",
+    "id": "match_1776016984205_9",
+    "_part": 23,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Tümleyen Küme",
+    "answer": "Evrensel kümede olup verilen kümede olmayan elemanlar",
+    "id": "match_1776016984205_10",
+    "_part": 24,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Denk Kümeler",
+    "answer": "Eleman sayıları eşit olan kümeler",
+    "id": "match_1776016984205_11",
+    "_part": 25,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Eşit Kümeler",
+    "answer": "Elemanları tamamen aynı olan kümeler",
+    "id": "match_1776016984205_12",
+    "_part": 26,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Sonsuz Küme",
+    "answer": "Eleman sayısı sayılamayacak kadar çok olan küme",
+    "id": "match_1776016984205_14",
+    "_part": 27,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Ven Şeması",
+    "answer": "Kümeler arası ilişkileri gösteren kapalı eğrilerle çizilen diyagram",
+    "id": "match_1776016984205_15",
+    "_part": 28,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  },
+  {
+    "topicId": "MAT_KUMELER",
+    "question": "Ayrık Kümeler",
+    "answer": "Kesişimleri boş küme olan kümeler",
+    "id": "match_1776016984205_17",
+    "_part": 29,
+    "_generatedAt": "2026-04-12T18:03:11.522Z"
+  }
+]
