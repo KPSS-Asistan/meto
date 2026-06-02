@@ -323,23 +323,6 @@
         "_part": 21
     },
     {
-        "id": "tur_22_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "22",
-        "subtopic": "Sözel Mantık - Sıralama",
-        "q": "Soru 21'deki verilere göre, F kaçıncı sıradadır?",
-        "o": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"
-        ],
-        "a": 0,
-        "e": "F, A'nın (2.) hemen önünde olduğu için 1. sıradadır.",
-        "_part": 22
-    },
-    {
         "id": "tur_23_1Q7S",
         "topicId": "1Q7SADACD2BP",
         "subtopicId": "23",
@@ -1052,23 +1035,6 @@
         "a": 1,
         "e": "Mantı Pazartesi ise Kebap Salı günüdür.",
         "_part": 67
-    },
-    {
-        "id": "tur_68_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "SM-18",
-        "subtopic": "Sözel Mantık",
-        "q": "Yemek senaryosuna göre, Cuma günü hangi yemek çıkmıştır?",
-        "o": [
-            "Mantı",
-            "Kebap",
-            "Taze Fasulye",
-            "Balık",
-            "Pırasa"
-        ],
-        "a": 4,
-        "e": "Balık Perşembe, Pırasa ise ondan sonraki gün olan Cuma'dır.",
-        "_part": 68
     },
     {
         "id": "tur_69_1Q7S",
