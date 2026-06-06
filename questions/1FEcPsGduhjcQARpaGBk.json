@@ -1367,7 +1367,9 @@
             "verdict": "Geçerli",
             "score": 9,
             "summary": "Soru, KPSS coğrafya müfredatına uygun, net ve doğru bir bilgi ölçmektedir. Çeldiricilerin daha homojen seçilmesiyle mükemmel seviyeye ulaşabilir."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-06T14:17:51.718Z"
     },
     {
         "id": "cog_020",
@@ -1463,7 +1465,9 @@
             "verdict": "Geçerli",
             "score": 9,
             "summary": "Soru, KPSS coğrafya müfredatındaki en kritik kavram yanılgılarından birini başarıyla ölçmektedir; çeldiricilerin çeşitlendirilmesiyle mükemmel düzeye ulaşabilir."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-06T14:18:05.211Z"
     },
     {
         "id": "cog_021",
