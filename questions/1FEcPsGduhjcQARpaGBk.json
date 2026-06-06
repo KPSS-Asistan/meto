@@ -1171,7 +1171,9 @@
             "verdict": "Geçerli",
             "score": 9,
             "summary": "Türkiye'nin jeolojik yapısını sorgulayan, müfredata uygun ve net bir sorudur. Çeldiricilerin biraz daha güçlendirilmesi soru kalitesini mükemmel seviyeye taşıyacaktır."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-06T14:17:29.383Z"
     },
     {
         "id": "cog_018",
@@ -1267,7 +1269,9 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru bilimsel olarak doğru ve net bir ifadeye sahip; ancak çeldiricilerin akademik derinliği artırılarak sorunun ayırt ediciliği güçlendirilebilir."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-06T14:17:47.694Z"
     },
     {
         "id": "cog_019",
