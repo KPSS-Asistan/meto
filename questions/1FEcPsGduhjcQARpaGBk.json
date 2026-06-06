@@ -1073,7 +1073,9 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru, KPSS müfredatına uygun ve doğru bir kurguya sahip; ancak çeldiricilerin ayırt ediciliğini artırmak için şıkların daha dikkatli seçilmesi önerilir."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-06T14:17:23.112Z"
     },
     {
         "id": "cog_017",
