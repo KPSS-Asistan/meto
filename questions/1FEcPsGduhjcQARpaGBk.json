@@ -2053,7 +2053,9 @@
             "verdict": "Geçerli",
             "score": 9,
             "summary": "Soru, Türkiye'nin matematiksel konumu ile güneş ışınlarının geliş açısı arasındaki ilişkiyi ölçen, müfredata uygun ve net bir sorudur."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-06T14:19:25.345Z"
     },
     {
         "id": "cog_030",
