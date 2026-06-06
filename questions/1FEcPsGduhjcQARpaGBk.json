@@ -583,7 +583,9 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru, KPSS müfredatına uygun ve doğru bir bilgiye dayanmaktadır. Sadece çeldirici şıkların akademik literatürdeki karşılıkları gözden geçirilerek daha güçlü seçenekler eklenebilir."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-06T14:15:47.078Z"
     },
     {
         "id": "cog_011",
