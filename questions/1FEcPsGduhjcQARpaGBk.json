@@ -1563,7 +1563,9 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru bilimsel olarak doğru ve müfredata uygundur; ancak E şıkkındaki 'gölge boyu' ifadesinin yıl boyu ortalamayı kastettiğinin netleştirilmesi sorunun kalitesini artıracaktır."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-06T14:18:23.989Z"
     },
     {
         "id": "cog_023",
