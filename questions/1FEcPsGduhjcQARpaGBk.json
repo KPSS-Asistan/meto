@@ -2151,7 +2151,9 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru, KPSS standartlarına uygun ve doğru bilgiler içermektedir. Ancak 'Nahçıvan' ifadesinin bir ülke olarak şıklarda yer alması yerine 'Azerbaycan' olarak belirtilmesi akademik açıdan daha doğru olacaktır."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-06T14:19:38.704Z"
     },
     {
         "id": "cog_031",
