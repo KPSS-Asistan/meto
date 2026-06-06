@@ -779,7 +779,9 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru, temel coğrafi bilgiyi ölçen, teknik olarak doğru ve net bir sorudur. Ancak çeldiricilerin daha ayırt edici illerle güçlendirilmesi sınav kalitesini artıracaktır."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-06T14:16:20.803Z"
     },
     {
         "id": "cog_013",
