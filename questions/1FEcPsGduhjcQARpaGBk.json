@@ -1857,7 +1857,9 @@
             "verdict": "Geçerli",
             "score": 9,
             "summary": "Soru, KPSS müfredatına uygun, net ve doğru bir bilgi sorusudur. Çeldiricilerin biraz daha akademik derinlik kazanması soru kalitesini mükemmelleştirecektir."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-06T14:18:55.608Z"
     },
     {
         "id": "cog_028",
