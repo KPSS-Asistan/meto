@@ -2543,14 +2543,16 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru, jeopolitik unsurların sınıflandırılması konusunu başarıyla ölçmektedir; ancak çeldiricilerin daha net ayrıştırılması için C şıkkının gözden geçirilmesi önerilir."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-07T15:55:13.468Z"
     },
     {
         "id": "cog_040",
         "topicId": "1FEcPsGduhjcQARpaGBk",
         "subtopicId": "matematik-konum",
         "subtopic": "Yerel Saat Hesaplamaları",
-        "q": "Türkiye'nin en doğusu (45° D) ile İzmit (30° D) arasında yerel saat farkı ne kadardır?",
+        "q": "Türkiye'nin en doğusu (45° D) ile İzmir (26° D) arasında yerel saat farkı ne kadardır?",
         "o": [
             "40 dakika",
             "50 dakika",
@@ -2558,8 +2560,8 @@
             "76 dakika",
             "80 dakika"
         ],
-        "a": 2,
-        "e": "İki meridyen arası zaman farkı 4 dakikadır. 45° - 30° = 15 meridyen fark vardır. 15 x 4 = 60 dakika (1 saat) fark bulunur.",
+        "a": 3,
+        "e": "İki meridyen arası zaman farkı 4 dakikadır. 45° - 26° = 19 meridyen fark vardır. 19 x 4 = 76 dakika fark bulunur.",
         "_part": 34,
         "_analyzed": true,
         "_analyzedAt": "2026-05-05T04:52:06.135Z",
@@ -2639,7 +2641,9 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru teknik ve içerik olarak doğrudur, ancak çeldiricilerin (yanlış şıkların) daha profesyonel ve ayırt edici şekilde yeniden düzenlenmesi sınav kalitesini artıracaktır."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-07T15:57:42.566Z"
     },
     {
         "id": "cog_041",
