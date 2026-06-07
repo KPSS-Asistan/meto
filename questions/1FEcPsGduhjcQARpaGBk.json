@@ -2837,7 +2837,9 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru, KPSS müfredatına uygun ve doğru bir bilgi ölçmektedir; ancak çeldiricilerin ayırt ediciliğini artırmak için seçeneklerin daha dikkatli kurgulanması önerilir."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-07T15:58:20.224Z"
     },
     {
         "id": "cog_043",
