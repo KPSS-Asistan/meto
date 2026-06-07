@@ -170,23 +170,6 @@
         "_part": 12
     },
     {
-        "id": "tur_13_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "13",
-        "subtopic": "Sözel Mantık - Yerleştirme",
-        "q": "Soru 11'deki verilere göre, R'nin alt rafta olduğu biliniyorsa aşağıdakilerden hangisi üst raftadır?",
-        "o": [
-            "S",
-            "T",
-            "U",
-            "P ve V",
-            "S, P ve V"
-        ],
-        "a": 4,
-        "e": "R alttaysa, S üsttedir. P ve V zaten üsttedir.",
-        "_part": 13
-    },
-    {
         "id": "tur_14_1Q7S",
         "topicId": "1Q7SADACD2BP",
         "subtopicId": "14",
