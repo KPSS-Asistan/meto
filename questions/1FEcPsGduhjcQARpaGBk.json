@@ -2445,7 +2445,9 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 9,
             "summary": "Soru, KPSS standartlarına uygun, net ve doğru bir sorudur. Sadece çeldiriciler arasındaki kavramsal hiyerarşi (özel konum-mikroklima ilişkisi) açısından küçük bir düzenleme ile mükemmel hale getirilebilir."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-07T15:52:08.102Z"
     },
     {
         "id": "cog_038",
