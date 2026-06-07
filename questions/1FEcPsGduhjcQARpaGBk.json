@@ -2543,7 +2543,9 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru, jeopolitik unsurların sınıflandırılması konusunu başarıyla ölçmektedir; ancak çeldiricilerin daha net ayrıştırılması için C şıkkının gözden geçirilmesi önerilir."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-07T15:52:29.510Z"
     },
     {
         "id": "cog_040",
