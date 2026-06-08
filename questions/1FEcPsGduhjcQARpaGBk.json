@@ -3033,7 +3033,9 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru bilimsel olarak doğru ve müfredata uygundur; ancak çeldiricilerin enlem farkları daha yakın illerden seçilerek sorunun ayırt ediciliği artırılabilir."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-08T18:57:39.924Z"
     },
     {
         "id": "cog_046",
