@@ -13,7 +13,7 @@
             "V"
         ],
         "a": 0,
-        "e": "'Henüz' ve 'daha' sözcükleri aynı anlamı taşıdığı için bir arada kullanılmaları gereksiz sözcük kullanımına yol açar.",
+        "e": "'Henüz' ve 'daha' sözcükleri aynı anlamı taşıdığı için bir arada kullanılmaları gereksiz sözcük kullanımına yol açmaktadır.",
         "_part": 1,
         "_analyzed": true,
         "_analyzedAt": "2026-05-04T21:00:35.991Z",
@@ -93,7 +93,9 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru, anlatım bozukluğu konusunu ölçmek için doğru ve net bir yapıya sahiptir; ancak çeldiricilerin zayıflığı nedeniyle ayırt ediciliği artırılmalıdır."
-        }
+        },
+        "_reviewed": true,
+        "_reviewedAt": "2026-06-08T18:59:44.392Z"
     },
     {
         "id": "tur_2_6WPC",
