@@ -1717,23 +1717,6 @@
         "_part": 101
     },
     {
-        "id": "turkce_102",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "oncullu-yapi",
-        "subtopic": "Ekler ve Sözcük Türleri (Öncüllü)",
-        "q": "I. İyelik eki almış sözcük\nII. Sıfat-fiil eki almış sözcük\nIII. Yönelme durumu eki almış sözcük\n\nAşağıdaki cümlelerin hangisinde bu özelliklerin TÜMÜNE yer verilmiştir?",
-        "o": [
-            "Okula giden öğrenciler, derslerini dikkatle dinliyordu.",
-            "Masadaki kitabı alıp kardeşine uzattı.",
-            "Yaptığı resimleri sergilemek için salona geçti.",
-            "Evden çıkan dumanları görünce itfaiyeyi aradı.",
-            "Kırılan kalbini onarmak için zamana ihtiyacı vardı."
-        ],
-        "a": 2,
-        "e": "C seçeneği incelendiğinde: \n- 'Yaptığı' (Sıfat-fiil eki: -dık/-tik + iyelik), \n- 'Resimleri' (İyelik eki olabilir bağlama göre, veya sadece belirtme. Ancak 'Yaptığı' kelimesinde iyelik eki zaten var: -ı), \n- 'Salona' (Yönelme durumu eki: -a). \nBu cümlede; 'Yaptığı' (Sıfat fiil ve iyelik), 'Salona' (Yönelme) bulunmaktadır. \nDiğer şıklar: \nA) 'Derslerini' (İyelik), 'Giden' (Sıfat fiil), 'Okula' (Yönelme). A seçeneği de tümünü kapsıyor. \nAnaliz derinleştirilirse: A şıkkında 'Okul-a' (Yönelme), 'Gid-en' (Sıfat fiil), 'Ders-ler-i-n-i' (İyelik ve Belirtme). Tüm şartlar sağlanıyor. \nC şıkkında 'Salona' (Yönelme), 'Yaptığı' (Sıfat Fiil), 'Resimleri' (Belirtme). \nHer iki şık da uygun gibi dursa da, A şıkkı daha net ve sıralı örnekler içerir. Soru yazımında tek doğru cevap ilkesi gereği A şıkkı en güçlü çeldiricilerden arınmış net cevaptır. C şıkkında 'Yaptığı' kelimesindeki iyelik eki (onun yaptığı) kabul edilir. Ancak A şıkkındaki dağılım (farklı kelimelerde olması) daha tipik bir ÖSYM sorusudur.",
-        "_part": 102
-    },
-    {
         "id": "turkce_103",
         "topicId": "yWlh5C6jB7lzuJOodr2t",
         "subtopicId": "kok-bilgisi",
