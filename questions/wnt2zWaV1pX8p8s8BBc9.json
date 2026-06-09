@@ -68,23 +68,6 @@
         "_part": 6
     },
     {
-        "id": "tur_7_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "7",
-        "subtopic": "Sözel Mantık - Sıralama",
-        "q": "Soru 6'daki verilere göre, yarışı sonuncu bitiren kimdir?",
-        "o": [
-            "K",
-            "L",
-            "M",
-            "N",
-            "O"
-        ],
-        "a": 1,
-        "e": "M 3, N 4 ise; K ve L ardışık olarak 1-2 veya 4-5 olamaz. O sonuncu değilse, K ve L 1-2 olamaz (çünkü o zaman O 5 olur). O halde K ve L 1-2 ise O 5 olur (çelişki). Tek ihtimal O'nun 1 veya 2, K-L'nin 1-2 veya 4-5 olmasıdır. O sonuncu değilse L sonuncudur.",
-        "_part": 7
-    },
-    {
         "id": "tur_8_1Q7S",
         "topicId": "1Q7SADACD2BP",
         "subtopicId": "8",
