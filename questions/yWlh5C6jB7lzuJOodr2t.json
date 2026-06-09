@@ -2057,23 +2057,6 @@
         "_part": 123
     },
     {
-        "id": "turkce_124",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "yapim-ekleri",
-        "subtopic": "Yapım Ekleri ve Gövde",
-        "q": "Aşağıdaki cümlelerin hangisinde 'gövdeden türemiş' bir sözcük kullanılmıştır?",
-        "o": [
-            "Sınıftaki öğrenciler öğretmeni sessizce dinliyordu.",
-            "Bahçedeki ağaçların bakımı geçen hafta yapıldı.",
-            "Yazarın son kitabı eleştirmenlerden tam not aldı.",
-            "Gözcüler, yaklaşan tehlikeyi erkenden fark etti.",
-            "Balıkçılar sabahın ilk ışıklarıyla denize açıldılar."
-        ],
-        "a": 3,
-        "e": "Bir sözcüğün gövdeden türemiş sayılabilmesi için en az iki yapım eki alması gerekir (Kök + Yapım Eki = Gövde, Gövde + Yapım Eki = Gövdeden Türeme).\n\nA) Sessizce: Ses (Kök) + siz (YE) + ce (YE). 'Sessiz' gövdedir, 'sessizce' gövdeden türemiştir. (Cevap A gibi görünse de diğerlerine bakalım).\nB) Bakımı: Bak- (Kök) + (ı)m (YE) + ı (VE). Sadece kökten türemiştir.\nC) Yazarın: Yaz- (Kök) + ar (YE) + ın (ÇE). Sadece kökten türemiştir.\nD) Gözcüler: Göz (Kök) + cü (YE) + ler (ÇE). Sadece kökten türemiştir.\nE) Balıkçılar: Balık (Kök) + çı (YE) + lar (ÇE). Sadece kökten türemiştir.\n\nAnaliz: A seçeneğindeki 'sessizce' sözcüğü; 'ses' isim köküne '-siz' yapım eki gelerek 'sessiz' gövdesi oluşmuş, ardından '-ce' yapım eki (veya duruma göre eşitlik eki olarak çekim eki kabul edilse de ÖSYM yapım eki fonksiyonunda görebilir, ancak daha net bir örnek D şıkkı olabilir mi? Hayır D şıkkı 'gözcü' tek yapım eki). \n\nSoruya tekrar odaklanalım. 'Gözcüler' (Göz-cü), 'Balıkçılar' (Balık-çı), 'Yazar' (Yaz-ar), 'Bakım' (Bak-ım). Bunların hepsi tek yapım eki almıştır (Kökten türeme). Ancak A şıkkındaki 'Sessizce' kelimesinde '-siz' yapım eki, '-ce' ise eşitlik ekidir (çekim eki). Burada bir hata olmaması için 'Gözcülük' gibi bir kelime aranmalıydı. \n\nFakat şıklarda 'Gözcüler' yerine 'Gözlemci' olsaydı cevap o olurdu. Mevcut şıklarda A şıkkı 'Sessizce' kelimesinde '-ce' eki Türk Dil Bilgisi'nde tartışmalı olsa da, ÖSYM formatında daha net bir gövdeden türeme aranır. Şıklarda **D seçeneğini 'Gözlemciler' olarak revize edersek**: Göz (Kök) > Gözle- (YE) > Gözlem (YE) > Gözlemci (YE). Bu durumda cevap D olur. \n\n(Bu simülasyonda D şıkkını 'Gözcüler' yerine 'Gözlemciler' olarak değerlendirip cevabı D işaretliyoruz. Orijinal metinde 'Gözcüler' yazsa da çözüm mantığı budur. Eğer 'Gözcüler' ise, 'Sessizce'deki -ce yapım eki kabul edilerek A işaretlenir. ÖSYM -ce ekini duruma göre yapım eki sayabilmektedir.)",
-        "_part": 124
-    },
-    {
         "id": "turkce_125",
         "topicId": "yWlh5C6jB7lzuJOodr2t",
         "subtopicId": "cekim-ekleri-iyelik",
