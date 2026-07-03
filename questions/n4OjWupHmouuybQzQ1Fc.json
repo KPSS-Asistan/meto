@@ -306,23 +306,6 @@
         "_part": 18
     },
     {
-        "id": "vat_019",
-        "topicId": "n4OjWupHmouuybQzQ1Fc",
-        "subtopicId": "yargi-yuksek-mahkemeler",
-        "subtopic": "Yüksek Mahkemeler",
-        "q": "1982 Anayasası'nda düzenlenen Yüksek Mahkemeler arasında aşağıdakilerden hangisi yer almaz?",
-        "o": [
-            "Anayasa Mahkemesi",
-            "Yargıtay",
-            "Danıştay",
-            "Uyuşmazlık Mahkemesi",
-            "Sayıştay"
-        ],
-        "a": 4,
-        "e": "1982 Anayasası'na göre yüksek mahkemeler; Anayasa Mahkemesi, Yargıtay, Danıştay ve Uyuşmazlık Mahkemesi'dir. Sayıştay, Anayasa'nın yargı bölümünde düzenlenmiş olsa da ve kararları kesin olsa da, Anayasa'da sayılan 'Yüksek Mahkemeler' başlığı altında yer almaz.",
-        "_part": 19
-    },
-    {
         "id": "vat_020",
         "topicId": "n4OjWupHmouuybQzQ1Fc",
         "subtopicId": "anayasa-degisikligi",
@@ -1173,23 +1156,6 @@
         "_part": 75
     },
     {
-        "id": "vat_076",
-        "topicId": "n4OjWupHmouuybQzQ1Fc",
-        "subtopicId": "yurutme",
-        "subtopic": "Cumhurbaşkanlığı Kararnameleri",
-        "q": "Cumhurbaşkanlığı Kararnameleri (CBK) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
-        "o": [
-            "Olağan dönemlerde temel haklar, kişi hakları ve siyasi haklar CBK ile düzenlenemez.",
-            "Münhasıran kanunla düzenlenmesi gereken konularda CBK çıkarılamaz.",
-            "Kanunda açıkça düzenlenen konularda CBK çıkarılamaz.",
-            "TBMM'nin aynı konuda kanun çıkarması durumunda, olağan dönem CBK'sı hükümsüz hale gelir.",
-            "Olağanüstü Hal (OHAL) Cumhurbaşkanlığı Kararnamelerine karşı Anayasa Mahkemesi'ne iptal davası açılabilir."
-        ],
-        "a": 4,
-        "e": "1982 Anayasası'nın 148. maddesine göre; Olağanüstü hallerde ve savaş hallerinde çıkarılan Cumhurbaşkanlığı Kararnamelerinin şekil ve esas bakımından Anayasaya aykırılığı iddiasıyla Anayasa Mahkemesi'ne dava açılamaz. Bu kararnameler yargı denetimi dışındadır. Diğer seçenekler olağan dönem kararnameleri için doğru kurallardır.",
-        "_part": 76
-    },
-    {
         "id": "vat_077",
         "topicId": "n4OjWupHmouuybQzQ1Fc",
         "subtopicId": "yargi",
@@ -1445,23 +1411,6 @@
         "_part": 98
     },
     {
-        "id": "vat_099",
-        "topicId": "n4OjWupHmouuybQzQ1Fc",
-        "subtopicId": "idare",
-        "subtopic": "Normlar Hiyerarşisi",
-        "q": "1982 Anayasası'nın 90. maddesine göre, usulüne göre yürürlüğe konulmuş temel hak ve özgürlüklere ilişkin milletlerarası antlaşmalar ile kanunların aynı konuda farklı hükümler içermesi durumunda nasıl bir yol izlenir?",
-        "o": [
-            "Kanun hükümleri esas alınır.",
-            "Milletlerarası antlaşma hükümleri esas alınır.",
-            "Uyuşmazlık Anayasa Mahkemesi'ne götürülür.",
-            "Uyuşmazlık Danıştay tarafından çözülür.",
-            "Daha sonra yürürlüğe giren düzenleme esas alınır."
-        ],
-        "a": 1,
-        "e": "Anayasa'nın 90. maddesine 2004 yılında eklenen fıkra gereği; usulüne göre yürürlüğe konulmuş temel hak ve özgürlüklere ilişkin milletlerarası antlaşmalarla kanunların aynı konuda farklı hükümler içermesi nedeniyle çıkabilecek uyuşmazlıklarda 'milletlerarası antlaşma hükümleri' esas alınır. Bu durum, temel haklar konusunda antlaşmaların kanunlardan üstün tutulduğunun göstergesidir.",
-        "_part": 99
-    },
-    {
         "id": "vat_100",
         "topicId": "n4OjWupHmouuybQzQ1Fc",
         "subtopicId": "anayasa-tarihi",
@@ -1512,24 +1461,6 @@
         "a": 1,
         "e": "Yumuşak anayasa, kanunlarla aynı usulle değiştirilebilen anayasadır. Sert anayasalarda ise değiştirme süreci zorlaştırılmıştır.",
         "_part": 102,
-        "_generatedAt": "2026-04-15T18:36:40.344Z"
-    },
-    {
-        "id": "3",
-        "topicId": "anayasa-hukuku",
-        "subtopicId": "anayasa-degisikligi",
-        "subtopic": "Anayasa Değişikliği Usulü",
-        "q": "Türkiye'de anayasa değişikliği teklifi için TBMM üye tam sayısının en az kaçta kaçının yazılı teklifi gereklidir?",
-        "o": [
-            "Beşte bir (1/5)",
-            "Dörtte bir (1/4)",
-            "Üçte bir (1/3)",
-            "Beşte üç (3/5)",
-            "İkide bir (1/2)"
-        ],
-        "a": 0,
-        "e": "Anayasa değişikliği teklifi, TBMM üye tam sayısının en az 1/5'inin yazılı teklifi ile mümkündür.",
-        "_part": 103,
         "_generatedAt": "2026-04-15T18:36:40.344Z"
     },
     {
@@ -1584,6 +1515,24 @@
         "a": 3,
         "e": "1982 Anayasası'na göre seçimlerin yenilenmesine TBMM veya Cumhurbaşkanı karar verebilir.",
         "_part": 106,
+        "_generatedAt": "2026-04-15T18:36:40.344Z"
+    },
+    {
+        "id": "7",
+        "topicId": "anayasa-hukuku",
+        "subtopicId": "yasama",
+        "subtopic": "Milletvekilliği",
+        "q": "Milletvekilliğinin düşmesi ile ilgili hangisi kendiliğinden (hukuki bir işlem gerekmeksizin) gerçekleşir?",
+        "o": [
+            "İstifa",
+            "Kısıtlanma",
+            "Cumhurbaşkanı yardımcısı atanma",
+            "Devamsızlık",
+            "Ölüm"
+        ],
+        "a": 4,
+        "e": "Ölüm ve milletvekilliği ile bağdaşmayan bir işi sürdürmekte ısrar etme (farklı durumlar) dışında, ölüm durumu kendiliğinden düşürür.",
+        "_part": 107,
         "_generatedAt": "2026-04-15T18:36:40.344Z"
     },
     {

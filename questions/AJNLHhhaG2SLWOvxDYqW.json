@@ -2112,102 +2112,6 @@
         }
     },
     {
-        "id": "turkce_033",
-        "topicId": "AJNLHhhaG2SLWOvxDYqW",
-        "subtopicId": "cumle-analizi",
-        "subtopic": "Cümle Analizi (Numaralanmış Cümleler)",
-        "q": "(I) Modern şiirimiz, gelenekten beslenmekle birlikte yüzünü Batı'ya dönmüştür. (II) Bu yöneliş, şiirimizin özgünlüğünü kaybettiği anlamına gelmemelidir. (III) Aksine, sentez yapabilme yeteneği şairlerimize yeni imkânlar sunmuştur. (IV) Ne var ki bazı genç şairler, bu sentezi yanlış yorumlayıp kopyacılığa düşmektedir. (V) Bu durum, edebiyatımızın geleceği açısından endişe verici bir tablodur.\n\nBu parçadaki numaralanmış cümlelerle ilgili aşağıdakilerden hangisi söylenemez?",
-        "o": [
-            "I. cümlede bir saptama yapılmıştır.",
-            "II. cümlede bir uyarı söz konusudur.",
-            "III. cümlede bir önceki yargının gerekçesi açıklanmıştır.",
-            "IV. cümlede olumsuz bir eleştiri yapılmıştır.",
-            "V. cümlede öznel bir çıkarımda bulunulmuştur."
-        ],
-        "a": 2,
-        "e": "I. cümle tespittir. II. cümle yanlış anlaşılmamaya dair bir uyarıdır. IV. cümle olumsuz bir eleştiridir. V. cümle kişisel bir yorum/çıkarımdır. Ancak III. cümle, II. cümlenin gerekçesi (nedeni) değil; tam tersine II. cümledeki fikri destekleyen, durumu açıklayan ve pekiştiren 'karşıt durumun olumlu yanını' belirten bir yargıdır. 'Aksine' bağlacı gerekçe değil, durumun pozitif yönünü vurgulamak için kullanılmıştır.",
-        "_part": 33,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T04:22:36.861Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Doğru cevap C seçeneğidir ve gerekçelendirmesi dil bilgisi/anlam bilgisi kurallarına uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü standart KPSS formatında ve oldukça nettir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Metin içerisinde herhangi bir yazım veya noktalama hatası bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Cümleler arası geçişler ve mantıksal kurgu KPSS standartlarına uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "Soru, ÖSYM'nin 'Cümlede Anlam' başlığı altında sorduğu soru tipleriyle tam örtüşmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Öğrencinin cümleler arası anlam ilişkilerini kurma becerisini başarıyla ölçmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": false,
-                    "explanation": "Çeldiriciler makul düzeydedir, ancak C seçeneği net bir şekilde diğerlerinden ayrılmaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Soru formatı ve şık sayısı (5) standartlara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Soru, herhangi bir ideolojik veya etik sorun teşkil etmemektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru, sınavda çıkmaya hazır, nitelikli bir sorudur.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Geçerli",
-            "score": 10,
-            "summary": "Soru, KPSS Türkçe testinin 'Cümlede Anlam' kazanımlarını tam olarak karşılayan, dil bilgisi ve mantık açısından kusursuz bir sorudur."
-        }
-    },
-    {
         "id": "turkce_035",
         "topicId": "AJNLHhhaG2SLWOvxDYqW",
         "subtopicId": "duygu-kavramlari",
@@ -2589,102 +2493,6 @@
             "verdict": "Geçerli",
             "score": 10,
             "summary": "Soru, KPSS müfredatına tam uyumlu, dil bilgisi kurallarına uygun ve çeldiricileri mantıklı kurgulanmış başarılı bir örnektir."
-        }
-    },
-    {
-        "id": "turkce_046",
-        "topicId": "AJNLHhhaG2SLWOvxDYqW",
-        "subtopicId": "varsayim-olasilik",
-        "subtopic": "Varsayım ve Olasılık",
-        "q": "Aşağıdaki cümlelerin hangisinde bir 'varsayım' söz konusudur?",
-        "o": [
-            "Belki de beklediğimiz haber yarın sabah elimize ulaşır.",
-            "Tut ki sınavda bildiğin konulardan hiç soru çıkmadı, ne yapacaksın?",
-            "Hava bulutlu, yağmur yağabilir; şemsiyeni yanına al.",
-            "Sanırım toplantı tahminimizden daha uzun sürecek.",
-            "Bu projeyi zamanında bitirebileceğimizi zannetmiyorum."
-        ],
-        "a": 1,
-        "e": "Varsayım, gerçekleşmemiş bir durumu geçici bir süre için gerçekleşmiş gibi kabul etmektir. 'Tut ki, diyelim ki, farz et ki' gibi ifadelerle sağlanır. B seçeneğindeki 'Tut ki...' ifadesi, olmamış bir durumu olmuş gibi kabul edip üzerine fikir yürütmeyi sağladığı için varsayımdır. Diğer seçenekler ihtimal (olasılık) veya tahmin bildirmektedir.",
-        "_part": 46,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T04:23:21.640Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Doğru cevap B seçeneğidir ve varsayım anlamını tam olarak karşılamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve doğrudan bilgiye yöneliktir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Metinde herhangi bir yazım veya noktalama hatası bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Soru, dil bilgisi kuralları çerçevesinde mantıksal bir bütünlüğe sahiptir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS Türkçe testindeki 'Cümlede Anlam' konusu ve zorluk düzeyi ile tam uyumludur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Varsayım ile olasılık/tahmin kavramlarını ayırt etme becerisini başarıyla ölçmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": false,
-                    "explanation": "Çeldiriciler (olasılık ve tahmin bildiren ifadeler) konuyu bilmeyen adaylar için yeterince güçlüdür.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Soru formatı ve şık sayısı KPSS standartlarına uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Soru herhangi bir önyargı veya etik sorun içermemektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru, sınav formatına uygun, kaliteli ve ayırt edici bir sorudur.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Geçerli",
-            "score": 10,
-            "summary": "Soru, KPSS müfredatına tam uyumlu, dil bilgisi açısından kusursuz ve kavramsal ayrımı net bir şekilde ölçen başarılı bir örnektir."
         }
     },
     {
@@ -3261,102 +3069,6 @@
             "verdict": "Geçerli",
             "score": 10,
             "summary": "Soru, KPSS müfredatına tam uyumlu, çeldiricileri güçlü ve dil bilgisi açısından kusursuz bir örnektir."
-        }
-    },
-    {
-        "id": "turkce_054",
-        "topicId": "AJNLHhhaG2SLWOvxDYqW",
-        "subtopicId": "uslup-icerik-cumlesi",
-        "subtopic": "Üslup ve İçerik Cümleleri",
-        "q": "(I) Yazar, son eserinde Anadolu insanının yaşam mücadelesini ve köyden kente göçün sancılarını ele alıyor. (II) Olayları anlatırken yerel ağız özelliklerine sıkça başvurarak kahramanları daha sahici kılıyor. (III) Romanın başkahramanı, köyün geleneklerine sıkı sıkıya bağlı yaşlı bir adamdır. (IV) Eserde, tarım toplumundan sanayi toplumuna geçişin yarattığı kültürel çatışmalar irdeleniyor. (V) Yazar, bu toplumsal dönüşümü anlatırken okuru yormayan, akıcı ve duru bir dil kullanmayı tercih ediyor.\n\nBu parçadaki numaralanmış cümlelerden hangileri, sözü edilen eserin “üslubu” (biçemi) ile ilgilidir?",
-        "o": [
-            "I ve III",
-            "I ve IV",
-            "II ve IV",
-            "II ve V",
-            "III ve V"
-        ],
-        "a": 3,
-        "e": "İçerik 'ne anlatıldığı', üslup ise 'nasıl anlatıldığı' ile ilgilidir. I, III ve IV. cümleler eserin konusunu (ne anlatıldığını) ifade ettiği için içerik cümlesidir. II. cümledeki 'yerel ağız özelliklerine başvurmak' ve V. cümledeki 'okuru yormayan, akıcı ve duru bir dil kullanmak' ifadeleri, anlatım tarzını (nasıl anlatıldığını) gösterdiği için üslup cümlesidir.",
-        "_part": 54,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T04:23:51.846Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Doğru cevap (II ve V) içerik ve üslup ayrımı açısından doğrudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve doğrudan bilgiye yöneliktir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Metin ve soru kökünde herhangi bir yazım veya noktalama hatası bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Sorunun mantıksal kurgusu, içerik-üslup ayrımı temelinde tutarlıdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS Türkçe testindeki 'Cümlede Anlam' konusu ve zorluk düzeyi ile tam uyumludur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Öğrencinin kavramsal ayrım yapma becerisini ölçmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": false,
-                    "explanation": "Çeldiriciler, içerik ve üslup kavramlarını karıştıran öğrenciler için makul düzeydedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Soru formatı ve şık sayısı KPSS standartlarına uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Soru, herhangi bir önyargı veya etik sorun içermemektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru, sınavda kullanılmaya hazır, nitelikli bir sorudur.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Geçerli",
-            "score": 10,
-            "summary": "Soru, KPSS müfredatına uygun, kavramsal ayrımı net bir şekilde ölçen, teknik ve dil bilgisi açısından kusursuz bir sorudur."
         }
     },
     {
@@ -4221,102 +3933,6 @@
             "verdict": "Geçerli",
             "score": 10,
             "summary": "Soru, metaforik anlatımı çözümleme becerisini ölçen, çeldiricileri güçlü ve KPSS formatına tam uygun, nitelikli bir sorudur."
-        }
-    },
-    {
-        "id": "turkce_073",
-        "topicId": "AJNLHhhaG2SLWOvxDYqW",
-        "subtopicId": "bosluk-doldurma",
-        "subtopic": "Cümle Tamamlama",
-        "q": "Bilim insanları, yapay zekânın insan hayatını kolaylaştırmasının yanında, etik ve hukuki birtakım ---- da beraberinde getireceğini, bu nedenle teknolojinin gelişimiyle eş zamanlı olarak yasal düzenlemelerin de ---- gerektiğini savunuyorlar.",
-        "o": [
-            "yenilikleri - durdurulması",
-            "sorunları - hayata geçirilmesi",
-            "çözümleri - ertelenmesi",
-            "kolaylıklar - tartışşılması",
-            "fırsatları - yok sayılması"
-        ],
-        "a": 1,
-        "e": "Cümlenin akışında 'yanında' bağlacı ve devamındaki bağlam, olumlu bir durumun (hayatı kolaylaştırma) aksine olası negatif veya karmaşık durumlara işaret etmektedir. 'Etik ve hukuki' dendiğinde genellikle 'sorunlar/problemler/tartışmalar' akla gelir. Ayrıca sorunlar varsa yasal düzenlemelerin 'hayata geçirilmesi' veya 'yapılması' gerekir. B seçeneği 'sorunları' ve 'hayata geçirilmesi' sözcükleriyle mantıksal ve anlamsal bütünlüğü en iyi sağlayan seçenektir.",
-        "_part": 73,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T04:24:53.737Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Doğru cevap metin bağlamına göre mantıksal olarak doğrudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve anlaşılırdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Metinde herhangi bir yazım veya noktalama hatası bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Cümle yapısı ve boşluk doldurma mantığı tutarlıdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS Türkçe 'Sözcükte/Cümlede Anlam' konusu ve zorluk düzeyi ile tam uyumludur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Adayın bağlamdan anlam çıkarma becerisini ölçmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": true,
-                    "explanation": "Çeldiriciler biraz zayıf kalmıştır; özellikle A, C ve E şıkları cümlenin genel olumsuz gidişatıyla doğrudan çelişmektedir.",
-                    "suggestion": "Çeldiriciler, cümlenin anlam akışını bozmayacak ancak bağlamı farklı yöne çekecek (örneğin; 'fırsatları - artırılması' gibi) daha güçlü seçeneklerle zenginleştirilebilir."
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Soru formatı ve şık sayısı standartlara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Soru tarafsız ve etik kurallara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru, sınav formatına uygun ve işlevseldir.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Geçerli",
-            "score": 9,
-            "summary": "Soru, KPSS standartlarına uygun, dil bilgisi açısından hatasız ve bağlamı doğru kurgulanmış bir 'cümlede anlam' sorusudur. Çeldiricilerin ayırt ediciliği artırılabilir."
         }
     },
     {
@@ -5473,6 +5089,103 @@
             "verdict": "Geçerli",
             "score": 9,
             "summary": "Soru, KPSS standartlarına uygun, dil bilgisi açısından hatasız ve varsayım kavramını ölçmek için oldukça başarılı bir örnektir."
+        }
+    },
+    {
+        "id": "7",
+        "topicId": "cumlede-anlam",
+        "subtopicId": "ozelestiri",
+        "subtopic": "Özeleştiri",
+        "q": "Aşağıdaki cümlelerin hangisinde kişi kendi davranışlarını eleştirmektedir?",
+        "o": [
+            "Onun bu tavrını hiçbir zaman kabullenemedim.",
+            "Toplantıdaki konuşmaların oldukça yetersiz olduğunu düşünüyorum.",
+            "İnsanlara karşı çok aceleci davrandığım için hata yaptım.",
+            "Yaptığı hataları görmezden gelmesi onu yalnızlaştırdı.",
+            "Bu kadar zahmete girmesine hiç gerek yoktu."
+        ],
+        "a": 2,
+        "e": "C seçeneğinde kişi kendi aceleciliğini ve bu tutumun sonuçlarını eleştirmektedir. Diğerleri başkasına yönelik eleştirilerdir.",
+        "_part": 93,
+        "_generatedAt": "2026-04-15T18:36:33.630Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-05T04:26:05.644Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "C seçeneği öz eleştiri içerdiği için doğru cevap olarak belirlenmiştir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve anlaşılırdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru kendi içinde tutarlıdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "KPSS Türkçe 'Cümlede Anlam' konusu için uygun bir seviyededir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Öz eleştiri kavramını ayırt etme becerisini ölçmektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": true,
+                    "explanation": "B ve D şıkları başkasına yönelik eleştiri içerse de, A ve E şıkları daha çok 'yakınma' veya 'değerlendirme' niteliğindedir. Çeldiriciler biraz daha öz eleştiriye yakın kurgulanabilirdi.",
+                    "suggestion": "A ve E şıkları yerine, öz eleştiriye daha yakın ancak yanlış olan (örneğin: 'Keşke ona daha nazik davransaydım.' gibi) ifadeler kullanılabilir."
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "Format standartlara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Etik bir sorun yoktur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru genel olarak başarılı ve sınav formatına uygundur.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Geçerli",
+            "score": 9,
+            "summary": "Soru, KPSS formatına uygun, net ve ölçücü bir sorudur. Çeldiricilerin ayırt ediciliği artırılarak mükemmel hale getirilebilir."
         }
     },
     {
@@ -6928,103 +6641,6 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 7,
             "summary": "Soru, tahmin anlamını ölçmek için doğru bir yapıya sahip olsa da çeldiricilerin zayıflığı nedeniyle ayırt ediciliği düşüktür; seçenekler daha güçlü çeldiricilerle zenginleştirilmelidir."
-        }
-    },
-    {
-        "id": "38",
-        "topicId": "cumlede-anlam",
-        "subtopicId": "beklenti",
-        "subtopic": "Beklenti",
-        "q": "Aşağıdaki cümlelerin hangisinde gerçekleşmemiş bir beklenti vardır?",
-        "o": [
-            "Sınavdan iyi bir not alacağımı sanıyordum.",
-            "Yarın onu mutlaka göreceğim.",
-            "Bu işin sonu hayırlı olacak.",
-            "Onun geleceğini umuyorum.",
-            "Herkesin mutlu olmasını bekliyorum."
-        ],
-        "a": 0,
-        "e": "A seçeneğinde geçmişte beklenen bir durumun gerçekleşmediği 'sanıyordum' ifadesiyle belirtilmiştir.",
-        "_part": 124,
-        "_generatedAt": "2026-04-15T18:36:33.630Z",
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T04:28:25.698Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Doğru cevap teknik olarak doğrudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve anlaşılırdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Soru mantıksal olarak tutarlıdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS Türkçe müfredatına ve sınav düzeyine uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Cümlede anlam bilgisini ölçmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": true,
-                    "explanation": "Çeldiriciler zayıftır; diğer şıklar beklenti veya umut bildiren ifadelerdir ancak 'gerçekleşmemiş' vurgusu A şıkkında çok belirgindir.",
-                    "suggestion": "Çeldiriciler, gerçekleşmiş veya gerçekleşme ihtimali olan durumlarla daha güçlü hale getirilmelidir."
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Teknik bir hata yoktur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Etik bir sorun yoktur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru genel olarak kullanılabilir düzeydedir.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Küçük düzeltme gerekli",
-            "score": 8,
-            "summary": "Soru, KPSS formatına uygun ve doğru bir yapıdadır; ancak çeldiricilerin ayırt ediciliğini artırmak için seçeneklerin dilsel olarak daha dikkatli kurgulanması önerilir."
         }
     },
     {

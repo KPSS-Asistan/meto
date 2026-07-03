@@ -480,102 +480,6 @@
         }
     },
     {
-        "id": "cog_009",
-        "topicId": "WxrtQ26p2My4uJa0h1kk",
-        "subtopicId": "turkiye-ticaret",
-        "subtopic": "Türkiye'nin Dış Ticareti",
-        "q": "Türkiye'nin dış ticaret yapısı incelendiğinde, ihracat gelirleri içerisinde en büyük paya sahip olan sektör aşağıdakilerden hangisidir?",
-        "o": [
-            "Tarım ve Hayvancılık ürünleri",
-            "Maden ve Taşocakçılığı ürünleri",
-            "Otomotiv ve Yan Sanayi ürünleri",
-            "Tekstil ve Konfeksiyon ürünleri",
-            "Turizm gelirleri"
-        ],
-        "a": 2,
-        "e": "Son yıllardaki TÜİK verilerine göre Türkiye'nin ihracatında en büyük paya sahip sektör 'İmalat Sanayi' içindeki 'Motorlu Kara Taşıtları' (Otomotiv) grubudur. Tarım ürünlerinin payı oransal olarak sanayi ürünlerine göre çok daha düşüktür. Turizm bir ihracat kalemi değil, 'hizmet ihracatı' veya 'bacasız sanayi' olarak ödemeler dengesinde yer alır ancak mal ticareti (Dış Ticaret) verilerinde fasıl olarak otomotiv liderdir.",
-        "_part": 9,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T16:22:48.705Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "TÜİK verilerine göre otomotiv sektörü ihracatta uzun yıllardır lider konumdadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve anlaşılırdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Dil bilgisi kurallarına uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Soru, dış ticaret verileri bağlamında mantıksal bir bütünlüğe sahiptir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS Coğrafya müfredatındaki ekonomik coğrafya kazanımlarıyla tam uyumludur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Bilgi düzeyini ölçen, standart bir sınav sorusudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": true,
-                    "explanation": "E şıkkı (Turizm) bir mal ihracatı kalemi olmadığı için teknik olarak çeldirici niteliği zayıftır.",
-                    "suggestion": "E şıkkı yerine 'Kimyevi Maddeler' veya 'Demir-Çelik' gibi ihracatta payı yüksek olan başka bir sanayi sektörü eklenmelidir."
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Format standartlara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Herhangi bir önyargı veya etik sorun bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru genel olarak başarılıdır ancak çeldiricilerin daha homojen olması sınav kalitesini artıracaktır.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Küçük düzeltme gerekli",
-            "score": 8,
-            "summary": "Soru, güncel verilerle uyumlu ve KPSS formatına uygundur. Sadece çeldirici şıkların (özellikle E şıkkının) mal ihracatı kategorisinden seçilmesi sorunun ayırt ediciliğini artıracaktır."
-        }
-    },
-    {
         "id": "cog_010",
         "topicId": "WxrtQ26p2My4uJa0h1kk",
         "subtopicId": "arazi-kullanimi",
@@ -1821,102 +1725,6 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 9,
             "summary": "Soru, KPSS standartlarına uygun, net ve ölçücü bir sorudur. Sadece 'Arıcılık' şıkkının bölgede de yapılıyor olması nedeniyle çeldiricilik açısından küçük bir revizyon yapılabilir."
-        }
-    },
-    {
-        "id": "cog_025",
-        "topicId": "WxrtQ26p2My4uJa0h1kk",
-        "subtopicId": "ulasim-sistemleri",
-        "subtopic": "Türkiye'de Ulaşım ve Geçitler",
-        "q": "Türkiye'nin yer şekilleri dikkate alındığında, kıyı ile iç kesimler arasındaki ulaşım genellikle geçitler vasıtasıyla sağlanmaktadır. Özellikle Akdeniz ve Karadeniz bölgelerinde dağların kıyıya paralel uzanması bu durumu zorunlu kılar.\n\nAşağıdaki geçitlerden hangisi Akdeniz Bölgesi'nin kıyı kesimini iç bölgelere bağlayan geçitlerden biri **değildir**?",
-        "o": [
-            "Çubuk Geçidi",
-            "Sertavul Geçidi",
-            "Gülek Boğazı",
-            "Belen Geçidi",
-            "Zigana Geçidi"
-        ],
-        "a": 4,
-        "e": "Çubuk, Sertavul, Gülek ve Belen geçitleri Akdeniz Bölgesi'nde yer alır ve kıyıyı iç kesimlere bağlar. Ancak Zigana (Kalkanlı) Geçidi, Doğu Karadeniz'de yer alır ve Trabzon'u Gümüşhane üzerinden iç kesimlere bağlar.",
-        "_part": 25,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T16:23:03.195Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Doğru cevap Zigana Geçidi'dir ve Karadeniz Bölgesi'nde yer almaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve anlaşılırdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Dil bilgisi kurallarına uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Soru öncülü ile seçenekler arasında mantıksal bir bağ kurulmuştur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS Coğrafya müfredatına ve zorluk seviyesine uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Bilgi düzeyini ölçen, standart bir coğrafya sorusudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": false,
-                    "explanation": "Çeldiriciler Akdeniz Bölgesi'ndeki önemli geçitlerden seçilerek homojenlik sağlanmıştır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Teknik bir hata bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Etik bir sorun yoktur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru, sınav formatına uygun ve kaliteli bir sorudur.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Geçerli",
-            "score": 10,
-            "summary": "Soru, KPSS müfredatına tam uyumlu, teknik olarak hatasız ve çeldiricileri güçlü bir coğrafya sorusudur."
         }
     },
     {
@@ -4224,102 +4032,6 @@
         }
     },
     {
-        "id": "cog_057",
-        "topicId": "WxrtQ26p2My4uJa0h1kk",
-        "subtopicId": "turkiyede-ticaret",
-        "subtopic": "Türkiye'de Ticaret",
-        "q": "Türkiye'nin dış ticaret yapısı incelendiğinde, ihracat gelirleri içerisinde en büyük paya sahip olan sektör aşağıdakilerden hangisidir?",
-        "o": [
-            "Tarım ve Hayvancılık",
-            "Madencilik",
-            "Otomotiv Endüstrisi (Sanayi)",
-            "Turizm",
-            "Ormancılık"
-        ],
-        "a": 2,
-        "e": "Türkiye'nin ihracatında (dış satım) en büyük pay sanayi sektörüne aittir. Sanayi sektörü içerisinde de 'Motorlu Kara Taşıtları' (Otomotiv endüstrisi) uzun yıllardır ihracat kalemleri arasında birinci sırada yer almaktadır. Turizm bir hizmet ihracıdır ancak mal ticaretinde otomotiv liderdir.",
-        "_part": 57,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T16:28:22.382Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Türkiye'nin ihracat verilerinde otomotiv sektörü uzun yıllardır lider konumdadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve anlaşılırdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Dil bilgisi kurallarına uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Soru ve şıklar arasında mantıksal bir bütünlük vardır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS Coğrafya müfredatındaki ekonomik coğrafya konusuna tam uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Bilgi düzeyini ölçen, standart bir KPSS sorusudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": true,
-                    "explanation": "D şıkkındaki 'Turizm' bir hizmet ihracıdır ve mal ticareti ile kıyaslanması kafa karıştırıcı olabilir. Ayrıca şıklar sektör bazında homojen dağılmamıştır.",
-                    "suggestion": "D şıkkı yerine 'Tekstil ve Hazır Giyim' gibi daha güçlü bir mal ihracatı sektörü eklenerek çeldiricilik artırılabilir."
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Şık sayısı ve format standartlara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Herhangi bir önyargı veya etik sorun bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru genel olarak başarılı ve sınav formatına uygundur.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Küçük düzeltme gerekli",
-            "score": 8,
-            "summary": "Soru, güncel ekonomik verilerle uyumlu ve KPSS formatına uygundur; ancak çeldiricilerin daha güçlü mal ihracatı kalemlerinden seçilmesi sorunun ayırt ediciliğini artıracaktır."
-        }
-    },
-    {
         "id": "cog_058",
         "topicId": "WxrtQ26p2My4uJa0h1kk",
         "subtopicId": "turkiyede-turizm",
@@ -4701,102 +4413,6 @@
             "verdict": "Geçerli",
             "score": 10,
             "summary": "Soru, Türkiye'nin yer şekilleri ve ulaşım maliyeti arasındaki ilişkiyi ölçen, müfredata uygun ve çeldiricileri güçlü, teknik açıdan kusursuz bir sorudur."
-        }
-    },
-    {
-        "id": "cog_068",
-        "topicId": "WxrtQ26p2My4uJa0h1kk",
-        "subtopicId": "turkiye-ticaret",
-        "subtopic": "Türkiye'nin Dış Ticareti",
-        "q": "Türkiye'nin son yıllardaki ihracat verileri incelendiğinde, ihracatta en büyük paya sahip olan sektör aşağıdakilerden hangisidir?",
-        "o": [
-            "Tekstil ve Konfeksiyon",
-            "Tarımsal Ürünler (Gıda)",
-            "Otomotiv Endüstrisi",
-            "Demir-Çelik",
-            "Kimyevi Maddeler"
-        ],
-        "a": 2,
-        "e": "TÜİK verilerine göre son yıllarda Türkiye'nin ihracatında en büyük payı 'Motorlu Kara Taşıtları' (Otomotiv) sektörü almaktadır. Bunu genellikle kazanlar/makineler, demir-çelik ve tekstil ürünleri takip etmektedir. Otomotiv sektörü, Türkiye'nin ihracat lokomotifidir.",
-        "_part": 68,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T16:28:30.918Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "TÜİK verilerine göre otomotiv sektörü uzun yıllardır ihracat lideridir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve anlaşılırdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Dil bilgisi kurallarına uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Soru, güncel ekonomik verilerle tutarlıdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS Coğrafya müfredatındaki ekonomik coğrafya konusuna uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Ezber bilgiye dayalı bir ölçme yapmaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": true,
-                    "explanation": "Şıklar homojen değil; bazıları sektör, bazıları ürün grubu niteliğinde. Ayrıca 'Kimyevi Maddeler' son yıllarda otomotiv ile yarışan bir hacme ulaştığı için çeldiriciliği çok yüksektir.",
-                    "suggestion": "Şıklar daha net sektör tanımlarıyla (örneğin: 'Motorlu kara taşıtları' yerine 'Otomotiv sektörü' gibi) standardize edilmelidir."
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Teknik bir hata bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Tarafsız ve etik kurallara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru genel olarak başarılı ancak verilerin güncelliği konusunda adaylarda kafa karışıklığı yaratabilir.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Küçük düzeltme gerekli",
-            "score": 8,
-            "summary": "Soru, KPSS müfredatına uygun ve doğru bir bilgiye dayanmaktadır; ancak şıkların isimlendirilmesinde daha standart bir terminoloji kullanılması sorunun kalitesini artıracaktır."
         }
     },
     {
@@ -6530,6 +6146,103 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru, temel ekonomik kavramları ölçme konusunda başarılı ve teknik olarak hatasızdır; ancak çeldiricilerin kavramsal olarak daha güçlü hale getirilmesi sınavın ayırt ediciliğini artıracaktır."
+        }
+    },
+    {
+        "id": "7",
+        "topicId": "ekonomik-cografya",
+        "subtopicId": "turizm",
+        "subtopic": "Turizm Faaliyetleri",
+        "q": "Antalya ve çevresinde kış turizminin gelişmemesinin temel sebebi nedir?",
+        "o": [
+            "Kışın sıcaklık değerlerinin yüksek olması",
+            "Yükseltinin az olması",
+            "Bitki örtüsü çeşitliliği",
+            "Ulaşım altyapısı",
+            "Turist profili"
+        ],
+        "a": 0,
+        "e": "Doğru cevap A'dır. Akdeniz iklimi nedeniyle kışın kar yağışı ve yerde kalma süresi kayak turizmi için yeterli değildir.",
+        "_part": 107,
+        "_generatedAt": "2026-04-15T18:36:35.202Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-05T16:28:59.766Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "Doğru cevap coğrafi gerçeklerle örtüşmektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve anlaşılırdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Dil bilgisi kurallarına uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru mantıksal bir nedensellik üzerine kuruludur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "KPSS coğrafya müfredatına ve zorluk düzeyine uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Temel bir coğrafi bilgiyi ölçmektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": true,
+                    "explanation": "B şıkkı (yükselti) çeldirici olarak zayıftır; çünkü Antalya'nın yüksek kesimlerinde (Toroslar) kış turizmi potansiyeli vardır ancak kıyı kesimi kastediliyorsa soru kökünde 'kıyı' ifadesi eksiktir.",
+                    "suggestion": "Soru kökü 'Antalya kıyı kesiminde' şeklinde güncellenmeli veya çeldiriciler daha ayırt edici hale getirilmelidir."
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "Şık sayısı ve format standartlara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Tarafsız ve etik kurallara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru genel olarak başarılıdır ancak teknik bir netleştirme ile daha kaliteli hale gelebilir.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Küçük düzeltme gerekli",
+            "score": 8,
+            "summary": "Soru coğrafi açıdan doğru ve müfredata uygundur; ancak 'Antalya' ifadesi ilin tamamını kapsadığı için 'Antalya kıyı kesimi' şeklinde daraltılarak soru kökü daha bilimsel hale getirilmelidir."
         }
     },
     {

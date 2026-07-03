@@ -1056,102 +1056,6 @@
         }
     },
     {
-        "id": "tarih_01_islam_017",
-        "topicId": "JnFbEQt0uA8RSEuy22SQ",
-        "subtopicId": "i_lk_turk_devletlerinin_cografi_dagilimi",
-        "subtopic": "İlk Türk Devletlerinin Coğrafi Dağılımı",
-        "q": "Büyük Hun Devleti'nin Ötüken'i merkez seçmesi, Köktürklerin yine aynı bölgede devlet kurması ve Uygurların Orhun Nehri civarındaki yerleşimleri, Orta Asya Türk devletlerinin coğrafi tercihleriyle ilgili önemli ipuçları sunmaktadır. Bu bölgelerin genellikle bozkır iklimine sahip olması, stratejik geçiş yollarına yakınlığı ve hayvancılığa elverişli olması gibi özellikler taşıdığı bilinmektedir. Buna göre, ilk Türk devletlerinin coğrafi konum seçimlerinde aşağıdaki özelliklerden hangisinin daha az etkili olduğu savunulabilir?",
-        "o": [
-            "Savunma kolaylığı sağlayan doğal sınırlar",
-            "Hayvancılığa uygun geniş otlaklar",
-            "Tarım ekonomisine yönelik sulak ve verimli ovalar",
-            "Ticaret yolları üzerinde stratejik kontrol imkanı",
-            "Göçebe yaşam tarzına elverişli açık araziler"
-        ],
-        "a": 2,
-        "e": "İlk Türk devletleri genellikle göçebe veya yarı göçebe yaşam tarzına sahip oldukları için ekonomileri büyük ölçüde hayvancılığa dayanmaktaydı. Bu nedenle, tarım ekonomisine yönelik sulak ve verimli ovalar yerine, hayvancılığa elverişli bozkırlar ve stratejik konuma sahip bölgeler tercih edilmiştir.",
-        "_part": 13,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T05:38:04.666Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Doğru cevap tarihsel gerçeklerle tam uyumludur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve anlaşılırdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Dil bilgisi kurallarına uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Öncül bilgiler ile soru kökü arasında mantıksal bir bağ kurulmuştur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Öğrencinin Türk devletlerinin yaşam tarzı ile coğrafya ilişkisini kavrayıp kavramadığını ölçmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": false,
-                    "explanation": "Çeldiriciler konuya uygun ve makuldür.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Teknik bir hata bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Tarafsız ve etik kurallara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru, sınavda kullanılmaya hazır niteliktedir.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Geçerli",
-            "score": 10,
-            "summary": "Soru, İslamiyet öncesi Türk devletlerinin coğrafya-ekonomi ilişkisini doğru bir mantıkla sorgulayan, KPSS formatına uygun ve kaliteli bir sorudur."
-        }
-    },
-    {
         "id": "tarih_01_islam_018",
         "topicId": "JnFbEQt0uA8RSEuy22SQ",
         "subtopicId": "i_pek_yolu_ve_turk_devletleri",
@@ -4800,102 +4704,6 @@
         }
     },
     {
-        "id": "tarih_01_islam_094",
-        "topicId": "JnFbEQt0uA8RSEuy22SQ",
-        "subtopicId": "diger_turk_devletleri",
-        "subtopic": "Avarlar",
-        "q": "Hem Asya'da hem de Avrupa'da devlet kuran, İstanbul'u kuşatan ilk Türk devleti aşağıdakilerden hangisidir?",
-        "o": [
-            "Avarlar",
-            "Hunlar",
-            "Sibirler",
-            "Kumanlar",
-            "Uzlar"
-        ],
-        "a": 0,
-        "e": "Avarlar (Juan-Juanlar), Göktürkler tarafından Asya'dan çıkarılınca Avrupa'ya göç etmişlerdir. İstanbul'u Sasanilerle iş birliği yaparak iki kez kuşatmışlar, İstanbul'u kuşatan ilk Türk topluluğu olmuşlardır.",
-        "_part": 55,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T16:47:49.347Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Avarlar hem Asya'da hem Avrupa'da devlet kurmuş ve İstanbul'u kuşatan ilk Türk devletidir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve tek bir cevaba odaklanmaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Soru, tarihsel gerçeklerle tam uyumludur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS tarih müfredatında yer alan temel bilgi düzeyindedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Bilgi düzeyinde bir kazanımı başarıyla ölçmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": true,
-                    "explanation": "Hunlar şıkkı, Avrupa Hun Devleti'nin de İstanbul'u kuşatmış olması (Attila dönemi) nedeniyle kafa karıştırıcı olabilir.",
-                    "suggestion": "Hunlar yerine daha az çeldirici olan başka bir Türk topluluğu (örneğin: Türgişler) eklenebilir."
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Format ve şık sayısı standartlara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru genel olarak başarılı ve sınav formatına uygundur.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Küçük düzeltme gerekli",
-            "score": 8,
-            "summary": "Soru, tarihsel bilgi açısından doğru ve KPSS formatına uygundur; ancak 'Hunlar' şıkkı Avrupa Hunları ile karıştırılabileceği için çeldirici kalitesi açısından revize edilebilir."
-        }
-    },
-    {
         "id": "tarih_01_islam_095",
         "topicId": "JnFbEQt0uA8RSEuy22SQ",
         "subtopicId": "kultur_medeniyet",
@@ -7104,102 +6912,6 @@
         }
     },
     {
-        "id": "tarih_01_islam_124",
-        "topicId": "JnFbEQt0uA8RSEuy22SQ",
-        "subtopicId": "ordu_savas",
-        "subtopic": "Ordu Sistemi",
-        "q": "Türklerde eli silah tutan herkesin asker sayılması ve özel bir askeri sınıfın bulunmaması anlayışına ne ad verilir?",
-        "o": [
-            "Ordu-Millet",
-            "Gulam Sistemi",
-            "İkta Sistemi",
-            "Paralı Askerlik",
-            "Devşirme"
-        ],
-        "a": 0,
-        "e": "Göçebe yaşamın zorlukları nedeniyle kadın-erkek herkes her an savaşa hazır olmak zorundadır. Bu yüzden Türklerde 'Askerlik ayrı bir meslek değildir' ve 'Ordu-Millet' anlayışı hakimdir.",
-        "_part": 79,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T16:48:20.556Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Doğru cevap tarihsel gerçeklik ile tam örtüşmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve doğrudan bilgiye yöneliktir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Dil bilgisi kurallarına uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Soru, tanım ve kavram eşleştirmesi açısından tutarlıdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "İslamiyet öncesi Türk tarihi ünitesi için temel ve uygun bir sorudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Bilgi düzeyinde bir kazanımı başarıyla ölçmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": true,
-                    "explanation": "Çeldiriciler (Gulam, İkta, Devşirme) İslamiyet sonrası Türk-İslam devletlerine ait kavramlardır. İslamiyet öncesi dönemi ölçen bir soru için bu çeldiriciler çok zayıf kalmaktadır.",
-                    "suggestion": "Çeldiriciler, İslamiyet öncesi Türk tarihi ile ilgili (örneğin: Onlu sistem, Turan taktiği, Kölemen vb.) kavramlardan seçilerek homojenlik artırılmalıdır."
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Teknik format standartlara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Etik bir sorun bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru temel düzeyde başarılıdır ancak çeldiricilerin tarihsel dönem uyumu zayıftır.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Küçük düzeltme gerekli",
-            "score": 8,
-            "summary": "Soru, bilgi düzeyi açısından doğru ve net bir yapıya sahiptir; ancak çeldiricilerin İslamiyet öncesi dönemi yansıtacak şekilde güncellenmesi sınav kalitesini artıracaktır."
-        }
-    },
-    {
         "id": "tarih_01_islam_126",
         "topicId": "JnFbEQt0uA8RSEuy22SQ",
         "subtopicId": "sanat_edebiyat",
@@ -8640,102 +8352,6 @@
         }
     },
     {
-        "id": "tarih_01_islam_147",
-        "topicId": "JnFbEQt0uA8RSEuy22SQ",
-        "subtopicId": "bilim_sanat",
-        "subtopic": "Bilim",
-        "q": "Türklerin kullandığı '12 Hayvanlı Türk Takvimi' hangi esasa dayanır?",
-        "o": [
-            "Güneş Yılı",
-            "Ay Yılı",
-            "Hicri Takvim",
-            "Celali Takvim",
-            "Rumi Takvim"
-        ],
-        "a": 0,
-        "e": "12 Hayvanlı Türk Takvimi, Güneş yılı esasına göre düzenlenmiştir. Her yıl bir hayvan adıyla anılır, aylar ise sayılarla belirtilir. Türklerin astronomi bilgisini gösterir.",
-        "_part": 96,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T16:48:44.472Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "12 Hayvanlı Türk Takvimi güneş yılı esasına dayanır, bilgi doğrudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve anlaşılırdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Soru mantıksal bir bütünlük arz etmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS İslamiyet Öncesi Türk Tarihi konusu için uygun bir bilgi sorusudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Doğrudan bilgi ölçen, standart bir sınav sorusudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": true,
-                    "explanation": "Şıklar homojen değildir. Hicri, Celali ve Rumi takvimler tarihsel süreçte farklı dönemlere ve takvim türlerine aittir, ancak çeldiricilik düzeyleri düşüktür.",
-                    "suggestion": "Çeldiriciler daha çok takvim türleri (Güneş/Ay) üzerinden kurgulanabilir veya daha yakın dönem takvimleri yerine kavramsal çeldiriciler eklenebilir."
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "5 şıklı format korunmuştur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Tarafsız ve etik kurallara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru genel olarak kullanılabilir düzeydedir.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Küçük düzeltme gerekli",
-            "score": 8,
-            "summary": "Soru teknik ve içerik olarak doğru ancak çeldiricilerin tarihsel bağlamı daha homojen hale getirilerek soru kalitesi artırılabilir."
-        }
-    },
-    {
         "id": "tarih_01_islam_148",
         "topicId": "JnFbEQt0uA8RSEuy22SQ",
         "subtopicId": "bagimsizlik_mucadeleleri",
@@ -9693,102 +9309,6 @@
             "verdict": "Geçerli",
             "score": 10,
             "summary": "Soru, KPSS müfredatına uygun, teknik olarak hatasız ve bilgi düzeyini ölçen başarılı bir sorudur."
-        }
-    },
-    {
-        "id": "tarih_01_islam_161",
-        "topicId": "JnFbEQt0uA8RSEuy22SQ",
-        "subtopicId": "kultur_medeniyet",
-        "subtopic": "Toplum",
-        "q": "Türklerde baharın gelişini kutlamak amacıyla 21 Mart'ta düzenlenen, 'Yeni Gün' anlamına gelen bayram hangisidir?",
-        "o": [
-            "Nevruz",
-            "Hıdırellez",
-            "Mihrican",
-            "Nardugan",
-            "Paskalya"
-        ],
-        "a": 0,
-        "e": "Nevruz (Yeni Gün); Türk dünyasında baharın başlangıcı, doğanın uyanış ve Ergenekon'dan çıkış günü olarak kutlanan en eski milli bayramdır.",
-        "_part": 107,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T16:49:00.089Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Doğru cevap Nevruz'dur, tarihsel ve kültürel olarak doğrudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve anlaşılırdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Dil bilgisi kurallarına uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Soru, tanım ve cevap arasında mantıksal bir bütünlük vardır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "İslamiyet öncesi Türk tarihi ve kültür tarihi kapsamında KPSS seviyesine uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Bilgi düzeyinde bir sorudur, doğrudan bilgi ölçmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": true,
-                    "explanation": "Paskalya şıkkı, Türk kültürü ile doğrudan ilgili olmadığı için zayıf bir çeldiricidir.",
-                    "suggestion": "Paskalya yerine 'Toy' veya 'Yuğ' gibi Türk kültürüne ait başka bir kavram eklenebilir."
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Şık sayısı ve format standartlara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Herhangi bir önyargı veya etik sorun bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru genel olarak başarılıdır.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Küçük düzeltme gerekli",
-            "score": 8,
-            "summary": "Soru, KPSS formatına uygun ve doğru bir bilgi içermektedir; ancak çeldiricilerin daha homojen olması adına 'Paskalya' şıkkı Türk kültürüne ait bir kavramla değiştirilmelidir."
         }
     },
     {
@@ -12484,6 +12004,103 @@
         }
     },
     {
+        "id": "7",
+        "topicId": "islamiyet-oncesi-turk-tarihi",
+        "subtopicId": "kultur-ve-medeniyet",
+        "subtopic": "Ekonomi",
+        "q": "İslamiyet öncesi Türk devletlerinde ekonominin temelini oluşturan 'hayvancılık' ve 'konar-göçer yaşam', aşağıdakilerden hangisi üzerinde etkili olmamıştır?",
+        "o": [
+            "Hapis cezalarının kısa süreli olması",
+            "Taşınabilir sanat eserlerinin gelişmesi",
+            "Vergi türlerinin çeşitlenmesi",
+            "Ordu-millet anlayışının pekişmesi",
+            "Mimari faaliyetlerin çok gelişmiş olması"
+        ],
+        "a": 4,
+        "e": "Konar-göçer yaşam, kalıcı mimari eserlerin gelişmesini engellemiştir. Sanat daha çok taşınabilir eşyalar (maden, dokuma) üzerine yoğunlaşmıştır.",
+        "_part": 137,
+        "_generatedAt": "2026-04-15T18:01:42.775Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-05T16:50:08.934Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "Doğru cevap tarihsel gerçeklerle tam uyumludur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve anlaşılırdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Dil bilgisi kurallarına uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru, konar-göçer yaşamın sonuçları ile tutarlıdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Öğrencinin konar-göçer yaşamın kültürel ve sosyal etkilerini analiz etme becerisini ölçmektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": true,
+                    "explanation": "C şıkkı (Vergi türlerinin çeşitlenmesi) konar-göçer yaşamla doğrudan ilişkili değildir, bu nedenle zayıf bir çeldiricidir.",
+                    "suggestion": "C şıkkı yerine 'Hukuk kurallarının sözlü olması' gibi daha güçlü bir çeldirici getirilebilir."
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "Teknik bir hata bulunmamaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Etik bir sorun yoktur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru genel olarak başarılıdır.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Küçük düzeltme gerekli",
+            "score": 8,
+            "summary": "Soru, İslamiyet öncesi Türk tarihinin temel özelliklerini ölçmek için oldukça başarılıdır; ancak C şıkkındaki çeldiricinin daha güçlü bir seçenekle değiştirilmesi soru kalitesini artıracaktır."
+        }
+    },
+    {
         "id": "8",
         "topicId": "islamiyet-oncesi-turk-tarihi",
         "subtopicId": "ilk-turk-devletleri",
@@ -13354,103 +12971,6 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru bilgi düzeyi açısından doğru ve net olmakla birlikte, çeldiricilerin kavramsal olarak daha homojen seçilmesi sorunun ayırt ediciliğini artıracaktır."
-        }
-    },
-    {
-        "id": "trk_hist_10",
-        "topicId": "JnFbEQt0uA8RSEuy22SQ",
-        "subtopicId": "diger_turk_devletleri",
-        "subtopic": "Avarlar",
-        "q": "Hem Asya'da hem de Avrupa'da devlet kuran, İstanbul'u kuşatan ilk Türk devleti hangisidir?",
-        "o": [
-            "Hunlar",
-            "Avarlar",
-            "Hazarlar",
-            "Kırgızlar",
-            "Türgişler"
-        ],
-        "a": 1,
-        "e": "Avarlar (Juan-Juan), hem Asya'da hem Avrupa'da devlet kurmuş ve İstanbul'u kuşatan ilk Türk topluluk devletidir.",
-        "_part": 147,
-        "_generatedAt": "2026-04-15T18:08:42.341Z",
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T16:50:22.567Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Avarlar hem Asya hem Avrupa'da devlet kurmuş ve İstanbul'u kuşatan ilk Türk devletidir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve doğrudan bilgiye dayalıdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Soru, iki farklı tarihsel bilgiyi birleştirerek mantıksal bir bütünlük oluşturmuştur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS tarih müfredatına ve sınav zorluk seviyesine tam uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Bilgi düzeyini ölçen, ayırt edici bir sorudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": true,
-                    "explanation": "A şıkkı (Hunlar) çeldirici olarak zayıftır çünkü Hunlar da hem Asya hem Avrupa'da devlet kurmuştur, bu durum öğrencinin kafasını karıştırabilir.",
-                    "suggestion": "A şıkkı yerine daha farklı bir Türk devleti (örneğin Göktürkler) getirilerek çeldiricilik artırılabilir."
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Şık sayısı ve format standartlara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Tarafsız ve etik kurallara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru genel olarak başarılıdır ancak çeldirici seçimi daha dikkatli yapılmalıdır.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Küçük düzeltme gerekli",
-            "score": 8,
-            "summary": "Soru, KPSS formatına uygun ve doğru bir bilgiye dayanmaktadır. Ancak 'Hunlar' şıkkı, sorunun cevabını teknik olarak tartışmalı hale getirebileceğinden çeldiricilerin revize edilmesi önerilir."
         }
     },
     {
@@ -15391,103 +14911,6 @@
             "verdict": "Geçerli",
             "score": 9,
             "summary": "Soru, KPSS müfredatına uygun, net ve doğru bilgiler içermektedir. Çeldiricilerin güçlendirilmesiyle mükemmel bir sınav sorusu haline gelebilir."
-        }
-    },
-    {
-        "id": "islam-oncesi-04",
-        "topicId": "islam-oncesi-turk-tarihi",
-        "subtopicId": "hukuk-sistemi",
-        "subtopic": "Hukuk Sistemi",
-        "q": "Aşağıdakilerden hangisi İslamiyet öncesi Türklerde hukuk sistemini oluşturan 'Töre'nin özelliklerinden biri değildir?",
-        "o": [
-            "Sözlü olması",
-            "Hükümdarın da uymak zorunda olması",
-            "Değişmez kurallardan oluşması",
-            "Toplumsal düzeni sağlaması",
-            "Geleneklere dayanması"
-        ],
-        "a": 2,
-        "e": "Doğru cevap C. Töre, ihtiyaçlara göre kurultay kararları ve hükümdar iradesiyle değiştirilebilir, bu nedenle 'değişmez olması' ifadesi yanlıştır.",
-        "_part": 168,
-        "_generatedAt": "2026-04-16T18:22:37.121Z",
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T16:50:52.059Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Töre, ihtiyaçlara göre değişebilen dinamik bir yapıya sahiptir, bu nedenle C şıkkı doğru cevaptır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve anlaşılırdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Dil bilgisi kurallarına uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Soru kendi içinde tutarlıdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS tarih müfredatına ve zorluk seviyesine uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Bilgi düzeyini ölçen standart bir sorudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": true,
-                    "explanation": "Çeldiriciler biraz zayıf kalmaktadır. 'Sözlü olması' ve 'Geleneklere dayanması' gibi şıklar çok temel bilgilerdir.",
-                    "suggestion": "Çeldiriciler, törenin 'hukuki yaptırım gücü' veya 'kaynağı' gibi daha ayırt edici özelliklerle zenginleştirilebilir."
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Teknik format standartlara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Herhangi bir etik sorun bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru genel olarak başarılı ve sınav formatına uygundur.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Geçerli",
-            "score": 9,
-            "summary": "Soru, İslamiyet öncesi Türk tarihi müfredatına uygun, net ve doğru bir bilgi sorusudur; çeldiricilerin biraz daha güçlendirilmesi sınav kalitesini artıracaktır."
         }
     },
     {

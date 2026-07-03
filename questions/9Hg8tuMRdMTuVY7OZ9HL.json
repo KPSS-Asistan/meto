@@ -4416,102 +4416,6 @@
         }
     },
     {
-        "id": "tarih_02_ilk_musluman_060",
-        "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
-        "subtopicId": "bilim_egitim_islam",
-        "subtopic": "Büyük Selçuklu Devleti",
-        "q": "Büyük Selçuklu Devleti'nin çeşitli şehirlerinde, özellikle Melikşah ve Vezir Nizamülmülk dönemlerinde, Nizamiye Medreselerinin sayısının hızla arttığı ve bu medreselerde Sünni İslam anlayışına uygun derslerin verildiği, kadrolarına ise dönemin önde gelen Sünni alimlerinin atandığı tarihi belgelerde açıkça görülmektedir. Ayrıca bu medreselerin devlet desteğiyle kurulduğu ve finanse edildiği belirtilmektedir. Yukarıdaki bilgilere dayanarak Nizamiye Medreselerinin kuruluş amaçları arasında aşağıdakilerden hangisi gösterilemez?",
-        "o": [
-            "Sünni İslam anlayışını güçlendirmek",
-            "Batınilik gibi zararlı akımlarla mücadele etmek",
-            "Devlete nitelikli memur ve din adamı yetiştirmek",
-            "Bilimsel gelişmeleri tamamen engellemek",
-            "Merkezi otoriteye bağlı alimler aracılığıyla halk arasında birlik sağlamak"
-        ],
-        "a": 3,
-        "e": "Nizamiye Medreseleri, Sünni İslam anlayışını yaymak ve zararlı akımlarla mücadele etmek gibi amaçlarla kurulmuş olsa da, bir eğitim kurumu olmaları nedeniyle bilimsel gelişmeleri tamamen engellemeyi değil, belirli bir düşünce doğrultusunda bilimsel faaliyetleri yürütmeyi hedeflerlerdi. Hatta bu medreseler birçok bilimsel çalışmaya da ev sahipliği yapmıştır. Dolayısıyla 'bilimsel gelişmeleri tamamen engellemek' medreselerin kuruluş amaçları arasında gösterilemez.",
-        "_part": 60,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-05T05:13:14.960Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Doğru cevap tarihsel gerçeklerle örtüşmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve anlaşılırdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Dil bilgisi kurallarına uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Metin ile şıklar arasında mantıksal bir bağ kurulmuştur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS tarih müfredatına ve zorluk düzeyine uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Bilgiyi yorumlama becerisini ölçmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": true,
-                    "explanation": "D şıkkı çok aşırı ve 'absürt' bir çeldirici olduğu için ayırt ediciliği düşüktür.",
-                    "suggestion": "D şıkkı yerine 'Eğitimde fırsat eşitliğini sağlamak' gibi daha akademik bir çeldirici kullanılabilir."
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Format standartlara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Tarafsız ve etik kurallara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru genel olarak başarılıdır.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Küçük düzeltme gerekli",
-            "score": 8,
-            "summary": "Soru, KPSS formatına uygun ve tarihsel açıdan doğrudur; ancak D şıkkının daha akademik bir çeldirici ile değiştirilmesi sorunun kalitesini artıracaktır."
-        }
-    },
-    {
         "id": "tarih_02_ilk_musluman_064",
         "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
         "subtopicId": "misir_turk_devletleri",
@@ -11135,6 +11039,103 @@
             "verdict": "Küçük düzeltme gerekli",
             "score": 8,
             "summary": "Soru, KPSS formatına uygun ve doğru bir bilgiye dayanmaktadır; ancak 'Külliye' seçeneği kavramsal olarak kervansaray ile örtüşebildiği için çeldiricilik gücü düşüktür."
+        }
+    },
+    {
+        "id": "7",
+        "topicId": "9Hg8tuMRdMTuVY7OZ9HL",
+        "subtopicId": "memlukler-devlet-yapisi",
+        "subtopic": "MEMLÜKLER DEVLET YAPISI",
+        "q": "Memlük Devleti'nde, diğer Türk devletlerinden farklı olarak, hükümdarlık babadan oğula geçmez, komutanların kendi aralarında yaptıkları seçimle belirlenirdi. Bu durumun Memlük Devleti'nde aşağıdaki gelişmelerden hangisine yol açtığı söylenebilir?",
+        "o": [
+            "Merkezi otoritenin güçlenmesine",
+            "Taht kavgalarının azalmasına",
+            "Hükümdar değişikliklerinin sık yaşanmasına",
+            "Hanedanlık sisteminin pekişmesine",
+            "Toplumsal tabakalaşmanın ortadan kalkmasına"
+        ],
+        "a": 2,
+        "e": "Doğru cevap C. Hükümdarın seçimle belirlenmesi, taht üzerinde hak iddia eden komutanların artmasına ve sık sık hükümdar değişikliklerine yol açmıştır.",
+        "_part": 259,
+        "_generatedAt": "2026-04-17T04:49:13.466Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-05T16:47:10.963Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "Doğru cevap tarihsel gerçeklerle örtüşmektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve anlaşılırdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Dil bilgisi kurallarına uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru kökü ile şıklar arasında mantıksal bir bağ kurulmuştur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "KPSS tarih müfredatındaki 'İlk Müslüman Türk Devletleri' ünitesine tam uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Bilgiyi yorumlama becerisini ölçmektedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": true,
+                    "explanation": "Çeldiriciler biraz zayıf kalmıştır; özellikle A ve D şıkları sorunun mantığıyla doğrudan çeliştiği için çok kolay elenmektedir.",
+                    "suggestion": "Çeldiriciler, Memlüklerin yönetim yapısını daha karmaşık gösterecek şekilde (örneğin; 'ordu-devlet yapısının zayıflaması' gibi) güçlendirilebilir."
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "Format standartlara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Tarafsız ve etik kurallara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru genel olarak başarılı ve sınav formatına uygundur.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Küçük düzeltme gerekli",
+            "score": 8,
+            "summary": "Soru, tarihsel bilgi ve mantık açısından doğru kurgulanmıştır; ancak çeldiricilerin ayırt ediciliğinin artırılması sınav kalitesini yükseltecektir."
         }
     },
     {

@@ -1243,24 +1243,6 @@
         "_generatedAt": "2026-04-15T18:36:32.495Z"
     },
     {
-        "id": "q3",
-        "topicId": "sozel-mantik",
-        "subtopicId": "mantiksal-cikarim",
-        "subtopic": "Mantıksal Çıkarım",
-        "q": "Tüm coğrafyacılar harita okumayı bilir. Harita okumayı bilen bazı kişiler ise jeoloji uzmanıdır. Bu önermelere göre kesin olarak söylenebilecek yargı hangisidir?",
-        "o": [
-            "Her jeoloji uzmanı coğrafyacıdır.",
-            "Bazı coğrafyacılar jeoloji uzmanıdır.",
-            "Tüm jeoloji uzmanları harita okur.",
-            "Harita okumayı bilmeyen coğrafyacı yoktur.",
-            "Coğrafyacı olmayanlar harita okuyamaz."
-        ],
-        "a": 3,
-        "e": "Tüm coğrafyacılar harita okuduğuna göre, harita okumayı bilmeyen bir coğrafyacı olması mantıksal olarak imkansızdır. Diğer şıklar kesin sonuç vermez.",
-        "_part": 103,
-        "_generatedAt": "2026-04-15T18:36:32.495Z"
-    },
-    {
         "id": "q4",
         "topicId": "sozel-mantik",
         "subtopicId": "sayisal-iliskiler",
@@ -1582,24 +1564,6 @@
         "a": 0,
         "e": "P -> Q önermesinin karşıt tersi (olumsuzu) değil Q -> değil P'dir. Tüketim azsa (değil Q), nüfus yoğunluğu azdır (değil P).",
         "_part": 121,
-        "_generatedAt": "2026-04-15T18:36:32.495Z"
-    },
-    {
-        "id": "q22",
-        "topicId": "sozel-mantik",
-        "subtopicId": "kume-kapsam",
-        "subtopic": "Küme Kapsamı",
-        "q": "Tüm akarsular denize dökülür (kapalı havza hariç). X bir akarsu olduğuna göre, X hakkında ne söylenebilir?",
-        "o": [
-            "X denize dökülür.",
-            "X kapalı havzadadır.",
-            "X dökülür ya da kapalı havza akarsuyudur.",
-            "X'in denize dökülmesi zorunludur.",
-            "X'in havzası yoktur."
-        ],
-        "a": 2,
-        "e": "Genel kural istisnaları içerir. X için iki ihtimal vardır; ya ana kurala uyar ya da istisnaya.",
-        "_part": 122,
         "_generatedAt": "2026-04-15T18:36:32.495Z"
     },
     {

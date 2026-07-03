@@ -527,57 +527,6 @@
         "_part": 31
     },
     {
-        "id": "turkce_032",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "sozcukte-yapi-karma",
-        "subtopic": "Karma Yapı Bilgisi",
-        "q": "Sanatçı, (I) eserlerinde toplumsal (II) gerçekliği tüm (III) çıplaklığıyla gözler önüne (IV) sererken dilin (V) olanaklarını da zorluyor.\n\nBu cümledeki numaralanmış sözcüklerle ilgili aşağıdakilerden hangisi yanlıştır?",
-        "o": [
-            "I. sözcük, hem çoğul hem de iyelik eki almıştır.",
-            "II. sözcük, sıfattan isim yapan yapım eki almıştır.",
-            "III. sözcük, gövdeden türemiş bir isimdir.",
-            "IV. sözcük, geniş zamanın rivayeti ile çekimlenmiştir.",
-            "V. sözcük, fiilden isim yapım eki almıştır."
-        ],
-        "a": 3,
-        "e": "Sözcükler incelendiğinde:\nA) Eser-ler-i-n-de: '-ler' çoğul, '-i' iyelik ekidir. Doğru.\nB) Gerçek-lik: 'Gerçek' sıfattır, '-lik' eki onu isme dönüştürmüştür. Doğru.\nC) Çıplak-lık: 'Çıplak' kök, '-lık' yapım ekidir. Tek yapım eki aldığı için gövdeden türemememiştir, kökten türemiştir. Yanlış.\nD) Ser-er-iken: 'Ser-' fiil, '-er' geniş zaman, '-ken' zarf-fiil ekidir. Burada 'geniş zamanın rivayeti' (serer imiş) yoktur; ek eylem değil, zarf-fiil eki vardır. (ÖSYM Çeldiricisi: İken eki bazen ek eylem gibi düşünülse de fiilimsidir). Ancak C şıkkındaki 'gövdeden türeme' kuralı (en az 2 yapım eki) daha net bir yanlıştır. \n\nD şıkkı düzeltme: 'Sererken' sözcüğünde zarf fiil vardır, kip eki yoktur (fiilimsiler kip almaz). Bu şık da yanlıştır. Sorunun tek doğru cevabı olması için D şıkkını 'zarf-fiil eki almıştır' şeklinde doğru bir ifadeye çevirip, C şıkkını cevap yapalım. Veya D şıkkını bariz yanlış bırakıp C'yi 'türemiş sözcüktür' yapalım. \n\nÖSYM formatında D şıkkı bariz yanlıştır (Rivayet 'imiş' ile yapılır). C şıkkı teknik olarak tartışmalıdır (bazı kaynaklar tek yapım ekine gövde der). Ancak 'Sererken'de rivayet (idi/imiş/ise) yoktur. Cevap D olarak ayarlanmalıdır. \n\nAnaliz güncellemesi:\nIV. sözcük: Ser-er-ken. Geniş zaman eki üzerine zarf fiil gelmiştir. 'Rivayet' birleşik zamanı (sererdi, serermiş) yoktur. Cevap D.",
-        "_part": 32
-    },
-    {
-        "id": "turkce_033",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "birlesik-sozcukler",
-        "subtopic": "Birleşik Sözcük Oluşumu",
-        "q": "Aşağıdaki cümlelerin hangisinde, oluşum yolu bakımından diğerlerinden farklı bir birleşik sözcük kullanılmıştır?",
-        "o": [
-            "Bu mevsimde **sivrisinek** ısırıklarına dikkat etmelisin.",
-            "Eski **boşboğaz** tavırlarını artık bırakmıştı.",
-            "Bahçedeki **açıkgöz** kedi yiyecekleri hemen kaptı.",
-            "Mutfaktaki **buzdolabı** bozulunca tamirci çağırdık.",
-            "Genç adam **mirasyedi** biri olarak tanınıyordu."
-        ],
-        "a": 3,
-        "e": "Birleşik sözcüklerin oluşum yolları incelendiğinde:\nA) Sivrisinek: Sıfat (Sivri) + İsim (Sinek) tamlaması yoluyla.\nB) Boşboğaz: Sıfat (Boş) + İsim (Boğaz) tamlaması yoluyla (ve anlam kayması).\nC) Açıkgöz: Sıfat (Açık) + İsim (Göz) tamlaması yoluyla (ve anlam kayması).\nE) Mirasyedi: İsim (Miras) + Fiil (Yedi) yoluyla oluşmuş olsa da sıfat tamlaması grubuna dahil edilmez, ancak yapısal olarak farklıdır. \n\nBurada daha belirgin bir ayrım şöyledir:\nA (Sıfat+İsim), B (Sıfat+İsim), C (Sıfat+İsim). \nD şıkkındaki 'Buzdolabı': İsim (Buz) + İsim (Dolabı) -> Belirtisiz İsim Tamlaması yoluyla oluşmuştur.\nE şıkkındaki 'Mirasyedi' (İsim+Fiil) kurguyu bozar. Bu nedenle E şıkkını 'Kırkayak' (Sıfat+İsim) gibi düşünmek gerekir veya soruyu İsim Tamlaması vs Sıfat Tamlaması ayrımına götürmek gerekir.\n\nRevize Şıklar:\nA) Sivrisinek (Sıfat+İsim)\nB) Karadeniz (Sıfat+İsim)\nC) Sonbahar (Sıfat+İsim)\nD) Buzdolabı (İsim+İsim - Belirtisiz Ad Tamlaması)\nE) Eskişehir (Sıfat+İsim)\n\nBu kurguda cevap D olur.",
-        "_part": 33
-    },
-    {
-        "id": "turkce_034",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "yapim-eki-islevi",
-        "subtopic": "Eklerin İşlevi",
-        "q": "Aşağıdaki altı çizili sözcüklerin hangisinde '-a / -e' eki, diğerlerinden farklı bir işlevde kullanılmıştır?",
-        "o": [
-            "Onunla **göz göze** gelmekten hep kaçınırdı.",
-            "Sabaha kadar **dize** getiremediği mısralarla uğraştı.",
-            "Bu iş, **süre** gelen alışkanlıkların bir sonucudur.",
-            "Köyün çıkışındaki **sapa** yoldan dönmelisin.",
-            "Çocuğun elindeki **yara** henüz iyileşmemişti."
-        ],
-        "a": 0,
-        "e": "'-a/-e' eki yönelme hâl eki olabileceği gibi, fiilden isim veya isimden fiil yapan yapım eki de olabilir.\n\nA) Göz göze: Burada ikileme kuran yönelme hali eki işlevindedir (çekim eki).\nB) Diz-e: Dizmek fiilinden 'dize' (şiir satırı) ismini türetmiştir (Yapım eki).\nC) Sür-e: Sürmek fiilinden 'süre' ismini türetmiştir (Yapım eki).\nD) Sap-a: Sapmak fiilinden 'sapa' (tenha/aykırı) ismini/sıfatını türetmiştir (Yapım eki).\nE) Yar-a: Yarmak fiilinden 'yara' ismini türetmiştir (Yapım eki).\n\nCevap A seçeneğidir; çünkü burada çekim eki (hâl eki) görevindedir.",
-        "_part": 34
-    },
-    {
         "id": "turkce_035",
         "topicId": "yWlh5C6jB7lzuJOodr2t",
         "subtopicId": "fiilde-yapi",
@@ -765,23 +714,6 @@
         "_part": 45
     },
     {
-        "id": "turkce_046",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "ek-fiil",
-        "subtopic": "Ek Fiil (Ek Eylem)",
-        "q": "Aşağıdaki cümlelerin hangisinde ek eylem (ek fiil) farklı bir görevde kullanılmıştır?",
-        "o": [
-            "Hava bugün düne göre daha soğuktu.",
-            "En sevdiği aktivite kitap okumaktı.",
-            "Dün akşam seni arayan bendim.",
-            "Çocukken çok yaramaz bir öğrenciydim.",
-            "Ödevlerini zamanında yapardı."
-        ],
-        "a": 4,
-        "e": "Ek fiilin iki temel görevi vardır: \n1. İsim ve isim soylu sözcüklere gelerek onları yüklem yapmak.\n2. Basit zamanlı fiillere gelerek onları birleşik zamanlı yapmak.\n\nSeçenekleri inceleyelim:\nA) Soğuk-tu (İsmi yüklem yapmış)\nB) Okumak-tı (Fiilimsi -isim soylu- yüklem yapmış)\nC) Ben-dim (Zamiri -isim soylu- yüklem yapmış)\nD) Öğrenci-y-dim (İsmi yüklem yapmış)\nE) Yap-ar-dı (Yapmak fiili, Geniş Zamanın Hikayesi). Burada fiili birleşik zamanlı yapmıştır.\n\nCevap E seçeneğidir.",
-        "_part": 46
-    },
-    {
         "id": "turkce_047",
         "topicId": "yWlh5C6jB7lzuJOodr2t",
         "subtopicId": "yapim-ekleri",
@@ -882,40 +814,6 @@
         "a": 4,
         "e": "Cümleyi analiz edelim: \n'Rüzgârın uğultusu pencerenin kenarından odama sızıyordu.' \n\nI. Yansımadan türemiş sözcük: 'Uğultu' sözcüğü 'uğ' yansıma kökünden '-ul' ve '-tu' ekleriyle türemiştir. (Doğru) \nII. Birleşik zamanlı fiil: 'Sızıyordu' -> Sız-ı-yor-du (Şimdiki zamanın hikâyesi). İki kip eki (zaman eki + ek fiil) olduğu için birleşik zamanlıdır. (Doğru) \nIII. İyelik ekinden sonra hâl eki: 'Kenar-ı-n-dan'. Kenar (kök), -ı (iyelik 3. tekil), -n (kaynaştırma), -dan (ayrılma hâl eki). İyelikten sonra hâl eki gelmiştir. (Doğru) \n\nCevap E seçeneği (I, II ve III) olmalıdır. \n\nNot: 'Uğultu' kelimesi yansıma köklü kabul edilir. 'Sızıyordu' kelimesinin kökü 'sız' yansıma değildir, 'sızmak' fiilidir. \n\nAnaliz kontrolü: \nI. Uğultu -> Uğ (yansıma). Doğru. \nII. Sızıyordu -> Birleşik zamanlı. Doğru. \nIII. Kenarından -> İyelik + Hal eki. Doğru. \nCevap E.",
         "_part": 52
-    },
-    {
-        "id": "turkce_053",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "ek-fiil-yapi",
-        "subtopic": "Ek Fiil ve Yapı",
-        "q": "Aşağıdaki cümlelerin hangisinde yüklem, **yapısı bakımından** diğerlerinden farklıdır?",
-        "o": [
-            "Bahçedeki çiçekleri her sabah **sulardı**.",
-            "Konuyu anlamadığı için bize **kızardı**.",
-            "Elindeki elmaları kardeşine **paylaştırdı**.",
-            "Akşam olunca gökyüzü birden **karardı**.",
-            "Eski dostumuzu görünce gözlerimiz **yaşardı**."
-        ],
-        "a": 2,
-        "e": "Yüklemlerin yapısını (Basit, Türemiş, Birleşik) inceleyelim. Burada kelime köklerine ve eklerine dikkat etmek gerekir, özellikle sesteş kökler ve zaman ekleri çeldiricidir. \n\nA) Sula-r-dı: Kökü 'su' (isim). Su-la (Yapım Eki). Türemiş fiil. \nB) Kız-ar-dı: Kökü 'kız-' (fiil). Kız-ar (Geniş zaman). Kızardı (Birleşik zamanlı ama yapıca BASİT fiil). Burada 'kızarmak' (renk değiştirmek) değil, 'öfkelenmek' anlamındaysa basittir. Cümle: 'bize kızardı' (öfkelenirdi). Basit. \nC) Pay-laş-tır-dı: Kökü 'pay' (isim). Pay-laş (YE), Pay-laş-tır (YE). Türemiş fiil. \nD) Kara-r-dı: Kökü 'kara' (isim). Kara-r-mak (İsimden fiil YE, ünlü düşmesiyle). Türemiş fiil. \nE) Yaş-ar-dı: Kökü 'yaş' (isim - ıslaklık/gözyaşı). Yaş-ar-mak (İsimden fiil YE). Türemiş fiil. \n\nAnaliz: \nA) Türemiş (Su-la) \nB) Basit (Kız-ar-dı / Geniş zaman hikayesi) \nC) Türemiş (Pay-laş) \nD) Türemiş (Kara-r) \nE) Türemiş (Yaş-ar) \n\nCevap B seçeneğidir. 'Kızarmak' (renk) olsaydı türemiş olurdu ancak 'öfkelenmek' anlamındaki 'kızmak' basittir.",
-        "_part": 53
-    },
-    {
-        "id": "turkce_054",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "fiilimsiler-yapi",
-        "subtopic": "Fiilimsiler ve Sözcük Yapısı",
-        "q": "Fiilimsiler, fiil kök veya gövdelerine getirilen yapım ekleriyle oluşturulur ve sözcüğün türünü değiştirir. Bu nedenle tüm fiilimsiler yapıca **türemiş** kabul edilir.\n\nBuna göre, aşağıdaki cümlelerin hangisinde altı çizili sözcük yapıca **türemiş değildir**?",
-        "o": [
-            "**Gelen** gideni aratır, derler.",
-            "**Koşar** adımlarla yanımıza geldi.",
-            "**Tanıdık** bir yüz aradı gözleri.",
-            "**Çıkar** yol bulmak için uğraşıyor.",
-            "**Yazar**, okurlarıyla buluşmak için fuara katıldı."
-        ],
-        "a": 4,
-        "e": "Bu soru çok güçlü bir çeldiriciye sahiptir. Tüm seçeneklerdeki kelimeler sıfat-fiil eklerine (-an, -ar, -dık, -acak, -mış) benzer ekler almıştır veya kalıplaşmıştır. \n\nA) Gelen: Gel-en (Sıfat fiil). Türemiş. \nB) Koşar (adım): Koş-ar (Sıfat fiil). Türemiş. \nC) Tanıdık (yüz): Tanı-dık (Sıfat fiil). Türemiş. \nD) Çıkar (yol): Çık-ar (Sıfat fiil). Türemiş. \nE) Yazar: Burada 'yazar' kelimesi artık bir fiilimsi değil, kalıcı isim olmuştur. Ancak kalıcı isimler de yapım eki aldığı için (yaz-ar) yapıca TÜREMİŞTİR. \n\nSoru kökü 'türemiş değildir' diyor. Bu durumda E şıkkı da türemiştir. Soruda bir mantık hatası oluşmaması için E şıkkına 'basit' yapılı bir kelime koymalıyız ki cevap o olsun. Ancak ÖSYM 'fiilimsi eki alanlar türemiştir' bilgisini yoklarken, zaman eki (kip) ile fiilimsi ekini karıştırmamızı ister. \n\nSoruyu revize ediyorum: Hangisi **fiilimsi** değildir? (Yapı sorusu formatında sorulursa: Hangisinin kökü veya gövdesi farklıdır değil, hangisi yapıca diğerlerinden farklıdır?) \n\nŞıkları şöyle kuralım: 4 tane fiilimsi (türemiş), 1 tane çekimli fiil (basit veya türemiş ama zaman eki almış). \n\nA) **Bakan** körden farkı yoktur. (Bak-an: Fiilimsi, Türemiş) \nB) **Görünmez** kaza dedikleri bu olsa gerek. (Gör-ün-mez: Fiilimsi, Türemiş) \nC) **Dondurma** yemek için durduk. (Dondurma: Kalıcı isim ama türemiş. Fiilimsi özelliğini yitirmiş olsa da yapıca türemiştir.) \nD) **Geçmiş** günleri yâd ettik. (Geç-miş: Fiilimsi, Türemiş) \nE) **Okur**, her zaman yeni şeyler bekler. (Okur: Kalıcı isim, Türemiş). \n\nBu yol çıkmaz sokak çünkü hepsi türemiş. \n\nDoğru ÖSYM formatı: Zaman eki vs Sıfat fiil eki. \nSoru: Altı çizili sözcüklerden hangisi yapıca diğerlerinden farklıdır? \nA) **Bilir** kişi (Sıfat fiil -> Türemiş) \nB) **Koşar** adım (Sıfat fiil -> Türemiş) \nC) **Yazar** kasa (Sıfat fiil/Kalıcı isim -> Türemiş) \nD) **Çalar** saat (Sıfat fiil -> Türemiş) \nE) O, her şeyi **bilir**. (Çekimli fiil. Bil-ir. Geniş zaman eki çekim ekidir. Dolayısıyla kelime BASİT yapılıdır.) \n\nCevap E olur. Bu klasik ve çok ayırt edici bir sorudur.",
-        "_part": 54
     },
     {
         "id": "turkce_055",
@@ -1190,23 +1088,6 @@
         "_part": 71
     },
     {
-        "id": "turkce_073",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "sozcukte-yapi-tureme",
-        "subtopic": "Sözcük Türetimi",
-        "q": "Aşağıdaki cümlelerde geçen altı çizili eylemlerden hangisi, kökünün türü bakımından diğerlerinden farklıdır?",
-        "o": [
-            "İşler beklediğimizden daha hızlı **ilerledi**.",
-            "Bahçedeki fidanlar bu yıl iyice **büyüdü**.",
-            "Tartışma uzayınca ortam biraz **gerildi**.",
-            "Güneş doğmadan yola **koyuldu**.",
-            "Çocuk, annesinin kucağında **uyudu**."
-        ],
-        "a": 0,
-        "e": "Eylemlerin köklerini inceleyelim:\n\nA) İlerledi -> Kökü 'ileri' (İsim kökü). İleri-le-di (Ünlü düşmesi var).\nB) Büyüdü -> Kökü 'büyü-' (Fiil kökü).\nC) Gerildi -> Kökü 'ger-' (Fiil kökü).\nD) Koyuldu -> Kökü 'koy-' (Fiil kökü).\nE) Uyudu -> Kökü 'uyu-' (Fiil kökü).\n\nSadece A seçeneğindeki eylem isim kökünden türemiştir, diğerleri fiil kökenlidir.",
-        "_part": 73
-    },
-    {
         "id": "turkce_074",
         "topicId": "yWlh5C6jB7lzuJOodr2t",
         "subtopicId": "sozcukte-yapi-analiz",
@@ -1445,23 +1326,6 @@
         "_part": 88
     },
     {
-        "id": "turkce_089",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "yapim-eki-turleri",
-        "subtopic": "Gövdeden Türeme",
-        "q": "Aşağıdaki altı çizili sözcüklerden hangisi, 'gövdeden türemiş' bir sözcüktür?",
-        "o": [
-            "Yazarın **anlatımı** oldukça sürükleyiciydi.",
-            "Bu **saygısız** davranışları kimse hak etmiyor.",
-            "**Bilgi** çaçıında yaşamanın zorlukları var.",
-            "**Yolcu** otobüsü az önce perona yanaştı.",
-            "**Sargı** bezlerini değiştirmemiz gerekiyor."
-        ],
-        "a": 1,
-        "e": "Gövdeden türeme, bir sözcüğün en az bir yapım eki aldıktan sonra (gövde haline geldikten sonra) tekrar yapım eki almasıdır.\nA) Anlatımı: anla-t-ım (anla: kök, anlat: gövde, anlatım: gövdeden türemiş). \nB) Saygısız: say-gı-sız (say-: fiil kökü, saygı: fiilden isim (gövde), saygısız: isimden isim). Gökdeden türemiştir.\nC) Bilgi: bil-gi (kök + yapım eki). Sadece kökten türemiş.\nD) Yolcu: yol-cu (kök + yapım eki). Sadece kökten türemiş.\nE) Sargı: sar-gı (kök + yapım eki). Sadece kökten türemiş.\n\nSoruya tekrar bakalım. A ve B şıklarının ikisi de gövdeden türemiştir. \nAnla-t-ım (Anla-mak kök, -t fiilden fiil, -ım fiilden isim). \nSay-gı-sız (Say-mak kök, -gı fiilden isim, -sız isimden isim).\nBu durumda çeldiriciyi düzeltmemiz gerekir. \nA şıkkını 'Yazım' yapalım (Yaz-ım, kökten türeme). \n\nRevize Şıklar:\nA) **Yazım** kurallarına dikkat etmelisin. (Yaz-ım: Kökten)\nB) **Saygısız** davranışlar... (Say-gı-sız: Gövdeden)\nC) **Bilgi**... (Bil-gi: Kökten)\nD) **Yolcu**... (Yol-cu: Kökten)E) **Sargı**... (Sar-gı: Kökten)\n\nCevap B olur. (Say-gı gövdesinden -sız ekiyle tekrar türemiştir).",
-        "_part": 89
-    },
-    {
         "id": "turkce_090",
         "topicId": "yWlh5C6jB7lzuJOodr2t",
         "subtopicId": "kok-sesteslik",
@@ -1530,23 +1394,6 @@
         "_part": 93
     },
     {
-        "id": "turkce_094",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "ekler-yapim-cekim",
-        "subtopic": "Yapım ve Çekim Ekleri",
-        "q": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük, hem yapım hem de çekim eki almıştır?",
-        "o": [
-            "Sınıfın en çalışkan öğrencisiydi.",
-            "Yazarlar, topluma ayna tutan kişilerdir.",
-            "Düşüncelerini korkmadan ifade etmelisin.",
-            "Sabahları sahilde yürümeyi çok severim.",
-            "Kalemlikteki silgiyi bana uzatır mısın?"
-        ],
-        "a": 1,
-        "e": "Doğru cevap B. Seçenekler incelendiğinde: A'da 'çalışkan' sadece yapım eki (-kan) almıştır.",
-        "_part": 94
-    },
-    {
         "id": "turkce_095",
         "topicId": "yWlh5C6jB7lzuJOodr2t",
         "subtopicId": "sozcuk-yapisi",
@@ -1579,23 +1426,6 @@
         "a": 2,
         "e": "Seçeneklerdeki '-ı / -i' ekleri incelendiğinde: A, B, D ve E seçeneklerinde kelimeler belirtme hâl eki (akkuzatif) almıştır (Neyi tadilattan geçirdi? Evi. Neyi bitirince? Okulu.). Bu sözcükler cümlede belirtili nesne görevindedir veya nesne ilgisi kurar. Ancak C seçeneğinde 'Yazısı' sözcüğündeki '-ı', iyelik ekidir (Onun yazısı). Bu ek, sözcüğün kime/neye ait olduğunu bildirir. Dolayısıyla C seçeneği farklıdır.",
         "_part": 96
-    },
-    {
-        "id": "turkce_097",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "ses-yapi-iliski",
-        "subtopic": "Türetilirken Ünlü Kaybı",
-        "q": "Aşağıdaki cümlelerin hangisinde türetilirken ünlü kaybına uğramış bir sözcük vardır?",
-        "o": [
-            "Omuzundaki ağrı nedeniyle doktora gitti.",
-            "Şehrin gürültüsünden uzaklaşmak istiyordu.",
-            "Sararmış yapraklar sonbaharın hüznünü taşıyordu.",
-            "Oğlunu okuldan almak için erkenden çıktı.",
-            "Burnu kanayan öğrenciye müdahale edildi."
-        ],
-        "a": 2,
-        "e": "Soruda 'türetilirken' (yapım eki alırken) ünlü kaybı sorulmaktadır. A'da 'omuz-u' (çekim eki alırken kayıp), B'de 'şehir-in' (çekim eki alırken kayıp), D'de 'oğul-u' (çekim eki alırken kayıp), E'de 'burun-u' (çekim eki alırken kayıp) söz konusudur. Ancak C seçeneğindeki 'sararmış' sözcüğü 'sarı' kökünden 'sarı-ar-' şeklinde türetilirken 'ı' ünlüsünü kaybetmiştir. Bu, yapım eki alırken gerçekleşen bir ses olayıdır.",
-        "_part": 97
     },
     {
         "id": "turkce_098",
@@ -1715,23 +1545,6 @@
         "a": 3,
         "e": "Sözcükleri analiz edelim:\n\nA) Bil-gi: Bil(kök) + gi(yapım eki) -> Kökten türemiş.\nB) Sar-gı: Sar(kök) + gı(yapım eki) -> Kökten türemiş.\nC) Ilı-k: Ilı(kök) + k(yapım eki) -> Kökten türemiş.\nD) Göz-le-m: Göz(isim kökü) + le(isimden fiil Y.E.) = Gözle (Gövde). Gözle- + m(fiilden isim Y.E.) = Gözlem. -> Gövdeden türemiş.\nE) Kork-u: Kork(kök) + u(yapım eki) -> Kökten türemiş.\n\nCevap D seçeneğidir.",
         "_part": 105
-    },
-    {
-        "id": "turkce_106",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "birlesik-sozcukler",
-        "subtopic": "Birleşik Sözcük Oluşumu",
-        "q": "Birleşik sözcükler oluşurken sözcüklerden her ikisi veya ikincisi anlamını yitirebilir, ses düşmesi olabilir ya da tür kayması gerçekleşebilir.\n\nBuna göre, aşaçııdaki birleşik sözcüklerden hangisinin oluşum şekli yay ayraç içinde **yanlış** belirtilmiştir?",
-        "o": [
-            "**Niçin** (Ses aşınması / Hece düşmesi)",
-            "**İmambayıldı** (Her iki sözcüğün anlamını yitirmesi)",
-            "**Külbastı** (Tür kayması yoluyla oluşum)",
-            "**Cumartesi** (Ses türemesi)",
-            "**Bülbülyuvası** (Anlam kayması)"
-        ],
-        "a": 3,
-        "e": "A) Niçin -> Ne + için (e sesi düşmüş, aşınma). Doğru.\nB) İmambayıldı -> Bir yemek adıdır; imam bayılmaz. Anlam kaybı var. Doğru.\nC) Külbastı -> Kül (isim) + bastı (fiil). İsim ve fiil birleşip yeni bir isim olmuş (Tür kayması). Doğru.\nD) Cumartesi -> Cuma + ertesi. 'ertesi' sözcüğündeki 'e' düşmüştür. Burada ses türemesi değil, ses düşmesi vardır. Yanlış.\nE) Bülbülyuvası -> Tatlı adıdır; bülbül veya yuva ile ilgisi kalmamıştır. Anlam kayması. Doğru.",
-        "_part": 106
     },
     {
         "id": "turkce_107",
@@ -1870,23 +1683,6 @@
         "_part": 114
     },
     {
-        "id": "turkce_115",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "cekim-ekleri",
-        "subtopic": "İyelik ve Belirtme Ekleri",
-        "q": "Türkçede '-ı/-i/-u/-ü' eki, belirtme hâl eki, iyelik eki veya yapım eki olarak kullanılabilir. Bu ekin işlevi cümlenin bağlamına göre belirlenir.\n\nBuna göre, aşağıdaki cümlelerin hangisinde altı çizili sözcükteki '-i' ekinin işlevi diğerlerinden farklıdır?",
-        "o": [
-            "Evin <u>bahçesi</u> rengarenk çiçeklerle donatılmıştı.",
-            "Onun bu konudaki <u>fikri</u> herkesçe kabul gördü.",
-            "Yeni aldığı <u>kalemi</u> okulda kaybetmiş.",
-            "Senin <u>derdi</u>n hiç bitmeyecek mi sanıyorsun?",
-            "Tarihi <u>gezisi</u> sırasında birçok fotoğraf çekti."
-        ],
-        "a": 2,
-        "e": "Sözcüklerdeki eklerin işlevleri incelendiğinde:\n\nA) Bahçe-s-i (Tamlanan/İyelik Eki - Evin bahçesi)\nB) Fikr-i (Tamlanan/İyelik Eki - Onun fikri)\nC) Kalem-i (Neyi kaybetti? -> Kalemi. Belirtme Hâl Eki)\nD) Derd-i-n (Senin derdin -> İyelik Eki)\nE) Gezi-s-i (Tamlanan/İyelik Eki - Tarihi gezi? Hayır, 'Gezi' sözcüğü burada kök+yapım eki 'Gez-i'dir. Ancak sondaki -si eki iyeliktir. Cümle bağlamı tamlama kurmasa da (onun) gezisi anlamındadır veya tamlama düşmüştür. Ancak C şıkkı net olarak nesne yapan hal ekidir.)\n\nNot: E şıkkında 'Gezi' kelimesindeki ilk -i yapım ekidir, sondaki -si iyeliktir. Soru altı çizili kelimenin sonundaki eki sormaktadır.\n\nFarklı olan C seçeneğindeki Belirtme Hâl Ekidir, diğerleri İyelik Ekidir.",
-        "_part": 115
-    },
-    {
         "id": "turkce_116",
         "topicId": "yWlh5C6jB7lzuJOodr2t",
         "subtopicId": "birlesik-sozcukler",
@@ -1955,23 +1751,6 @@
         "_part": 119
     },
     {
-        "id": "turkce_120",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "ses-bilgisi-yapi",
-        "subtopic": "Türetilirken Ses Kaybı",
-        "q": "Türkçede bazı sözcükler türetilirken (yapım eki alırken) köklerindeki ünlü veya ünsüz harflerden birini kaybedebilir.\n\nAşağıdaki altı çizili sözcüklerden hangisi bu kurala örnek <u>gösterilemez</u>?",
-        "o": [
-            "Şehrin gürültüsünden uzaklaşınca <u>syrıldı</u> bütün dertlerinden.",
-            "Küçük çocuğun <u>burnu</u> soğuktan kıpkırmızı olmuştu.",
-            "Bu <u>kavşakta</u> sürekli trafik kazası oluyor.",
-            "Olayın <u>ayrıntılarını</u> öğrenmek için bekliyoruz.",
-            "Saçları hastalığı nedeniyle epey <u>seyreldi</u>."
-        ],
-        "a": 1,
-        "e": "Sözcükleri inceleyelim:\n\nA) Sıyrıldı: Sıyır-ıl-dı. (Sıyır-mak fiilinden türemiştir, 'ı' düşmüştür. Türetilirken ses kaybı var.)\nB) Burnu: Burun-u. (Burun ismine çekim eki [iyelik] gelmiş ve ünlü düşmüştür. Bu türetilirken [yapım eki alırken] değil, çekimlenirken olan bir düşmedir.)\nC) Kavşakta: Kavuş-ak. (Kavuş-mak fiilinden türetilirken 'u' düşmüştür.)\nD) Ayrıntıların: Ayır-ın-tı. (Ayır-mak fiilinden türetilirken 'ı' düşmüştür.)\nE) Seyreldi: Seyrek-l-di. ('k' ünsüzü düşmüştür. Türetilirken ünsüz kaybı.)\n\nSoru 'türetilirken' ses kaybını sormaktadır. B seçeneğindeki düşme çekim eki alırken olmuştur. Cevap B.",
-        "_part": 120
-    },
-    {
         "id": "turkce_121",
         "topicId": "yWlh5C6jB7lzuJOodr2t",
         "subtopicId": "tamlamalar-yapi",
@@ -2004,23 +1783,6 @@
         "a": 4,
         "e": "Yansıma kök analizi:\n\nA) Hızlandı: Kök 'Hız'. Hız bir ses taklidi değildir, yansıma değildir. (Cevap adayı 1)\nB) Gıcırdıyordu: Kök 'Gıcır'. (Gıcır, ses taklididir, yansımadır.)\nC) Fokurduyordu: Kök 'Fokur'. (Su sesi, yansımadır.)\nD) Havladı: Kök 'Hav'. (Köpek sesi, yansımadır.)\nE) Ötüşüyordu: Kök 'Öt-'. 'Ötmek' fiili yansıma DEĞİLDİR. Kuşlar 'öt' diye ses çıkarmaz. Ötmek, bir eylemdir, ses taklidi değildir. \n\nSoruya tekrar bakalım: 'Yansıma kökten türemiş bir eylem yoktur.'\nA'da 'Hız' yansıma değildir. E'de 'Öt' yansıma değildir. İki şık da yansıma değil.\nAncak 'Hız' isim köküdür, 'Öt' fiil köküdür. Yansımalar isim kökü sayılır. \nŞıklara dikkat edelim:\nA) Hız-lan-dı (İsimden türemiş fiil, ama kök yansıma değil).\nE) Öt-üş-ü-yor-du (Fiilden türemiş fiil, kök yansıma değil).\n\nGenellikle 'Ötmek' kelimesi yansıma sanılır, bu yüzden güçlü bir çeldiricidir. 'Hız' kelimesi ise bariz yansıma değildir. Soru 'hangisinde yoktur' dediği için, A ve E şıklarının ikisinde de yoktur. Ancak ÖSYM sorularında 'Ötmek' kelimesi yansıma konusunda en klasik çeldiricidir. Muhtemelen A şıkkını 'Hapşır-dı' veya 'Patla-dı' gibi bir şeyle değiştirmem gerekirdi ki tek cevap olsun. \n\nSoruyu şu şekilde revize ediyorum (Düşünce aşamasında): A şıkkını yansıma yapalım.\nRevize A: 'Bomba büyük bir gürültüyle <u>patladı</u>.' (Pat: Yansıma).\nBu durumda cevap E olur (Ötmek yansıma değildir).\n\nJSON çıktısında A şıkkını 'Patladı' olarak güncelleyip cevabı E (Ötüşüyordu) olarak ayarlıyorum. Ötmek yansıma değildir, fiil köküdür.",
         "_part": 122
-    },
-    {
-        "id": "turkce_123",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "sozcukte-yapi-kok",
-        "subtopic": "Sözcükte Yapı (Kök Bilgisi)",
-        "q": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük, kökünün türü bakımından diğerlerinden farklıdır?",
-        "o": [
-            "Bu olaydan sonra aramızdaki bağ tamamen koptu.",
-            "Yazın en sıcak günlerinde bile tarlada çalışırdı.",
-            "Saçlarına düşen aklar, yaşanmışlığın birer nişanesiydi.",
-            "Kır gezisinde topladığımız çiçekleri vazoya yerleştirdik.",
-            "Ben, bu hayatta en çok yalnız kalmaktan korktum."
-        ],
-        "a": 4,
-        "e": "Sözcük kökleri isim ve fiil kökleri olmak üzere ikiye ayrılır. Seçenekleri incelediğimizde: \nA seçeneğindeki 'bağ' sözcüğünün kökü 'bağ' ismidir (üzüm bağı veya ilişki anlamında).\nB seçeneğindeki 'yazın' sözcüğünün kökü 'yaz' ismidir (mevsim).\nC seçeneğindeki 'ben' sözcüğünün kökü 'ben' ismidir (zamir olan ben).\nD seçeneğindeki 'kır' sözcüğünün kökü 'kır' ismidir (şehir dışı, arazi).\nE seçeneğindeki 'ben' sözcüğünün kökü 'ben' (kişi zamiri) olsa da cümlenin bağlamına bakıldığında altı çizili kelime 'ben' (vücuttaki leke) değil, zamir olan 'ben'dir. Ancak soru kurgusunda E şıkkı olarak verilen 'Ben, bu hayatta en çok yalnız kalmaktan korktum.' cümlesindeki 'ben' sözcüğü isim soyludur (zamir). Fakat dikkat edilirse A, B, C ve D seçeneklerindeki kökler sesteş (eş sesli) özellik gösterip isim kökü olarak kullanılmıştır. Sorudaki asıl çeldirici E şıkkındaki 'korktum' sözcüğüdür (Eğer altı çizili olsaydı). \n\n**Düzeltme ve Analiz:** Soru köküne göre seçeneklerin kök analizi şöyledir:\nA) Bağ (İsim Kökü)\nB) Yaz (İsim Kökü)\nC) Ak (İsim Kökü - beyaz)\nD) Kır (İsim Kökü - arazi)\nE) Ben (İsim Kökü - zamir)\n\nAncak soruda istenen 'farklılık' genellikle sesteş kök ayrımı veya kökteşliktir. Eğer E seçeneğini 'korktum' fiili olarak düşünürsek:\nKork- (Fiil Kökü). \nBu durumda cevap E olur. ÖSYM formatında genellikle sesteş köklerin isim/fiil ayrımı sorulur. Burada 'Ben' kelimesi (vücut lekesi vs zamir) her durumda isim soyludur. Ancak E seçeneğinde altı çizili kelimenin 'korktum' olduğunu varsayarak (soru metninde altı çizili ibaresi olmadığı için bağlamdan çıkarım yapılırsa): 'Kork-' fiil köküdür, diğerleri isim köküdür.",
-        "_part": 123
     },
     {
         "id": "turkce_125",
@@ -2125,23 +1887,6 @@
         "_part": 130
     },
     {
-        "id": "turkce_131",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "birlesik-sozcuk-olusum",
-        "subtopic": "Birleşik Sözcüklerin Oluşumu",
-        "q": "Aşağıdaki cümlelerin hangisinde bulunan birleşik sözcük, oluşum yolu bakımından diğerlerinden farklıdır?",
-        "o": [
-            "Akşamüzeri sahilde yürüyüşe çıktık.",
-            "Suçluları yakalamak için operasyon başlatıldı.",
-            "Bilinçaltı, davranışlarımızı etkileyen bir depodur.",
-            "Ayaküstü atıştırıp işe koyuldu.",
-            "Sütlaç, Türk mutfağının en sevilen tatlılarındandır."
-        ],
-        "a": 4,
-        "e": "Doğru cevap E. Birleşik sözcüklerin oluşum yolları incelendiğinde:",
-        "_part": 131
-    },
-    {
         "id": "turkce_132",
         "topicId": "yWlh5C6jB7lzuJOodr2t",
         "subtopicId": "sozcukte-yapi-analiz",
@@ -2174,23 +1919,6 @@
         "a": 4,
         "e": "Sözcük kökleri isim ve fiil olarak ikiye ayrılır. A'da 'kavşak' sözcüğünün kökü 'kavuş-' (fiil), B'de 'evrensel' sözcüğünün kökü 'evir-' (fiil), C'de 'gelişim' sözcüğünün kökü 'gel-' (fiil), D'de 'anlatım' sözcüğünün kökü 'anla-' (fiil) dır. Ancak E seçeneğindeki 'yaşantı' sözcüğünün kökü 'yaş' (isim) sözcüğüdür. Doğru cevap E seçeneğidir.",
         "_part": 133
-    },
-    {
-        "id": "turkce_134",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "eklerin-islevi",
-        "subtopic": "Eklerin İşlevi",
-        "q": "Aşağıdaki altı çizili sözcüklerin hangisinde “-ı / -i” eki, diğerlerinden farklı bir işlevde kullanılmıştır?",
-        "o": [
-            "Evi temizlemek bütün gününü **aldı**.",
-            "Sınıfın en çalışkanı **yazı** tahtasını sildi.",
-            "Onun bu tavırları herkesi **korkuttu**.",
-            "Bahçedeki **kazı** çalışmaları haftaya bitecek.",
-            "Kitabı çantasına koyup **çıktı**."
-        ],
-        "a": 3,
-        "e": "'-ı/-i' eki çekim eki (belirtme hâli veya iyelik) ya da yapım eki olabilir. A'da 'evi' (belirtme hâli), B'de 'yazı' (yaz-ı, fiilden isim yapım eki), C'de 'herkesi' (belirtme hâli), D'de 'kazı' (kaz-ı, fiilden isim yapım eki), E'de 'kitabı' (belirtme hâli). Soru kurgusunda bir hata olmaması için şıklara tekrar bakalım: A (Belirtme), B (Yapım Eki - Yazı tahtası belirtisiz isim tamlamasıdır ancak 'yazı' kelimesi türemiştir), C (Belirtme), D (Yapım Eki - Kazı), E (Belirtme). Burada B ve D yapım eki, A, C, E çekim ekidir. Ancak soru 'farklı işlev' dediğinde genellikle 4 çekim 1 yapım veya tam tersi sorulur. Şıklarda B seçeneğindeki 'yazı tahtası'ndaki 'yazı' sözcüğü 'yaz-' fiilinden türemiştir (Yapım eki). D seçeneğindeki 'kazı' da türemiştir. A, C ve E belirtme halidir. Bu durumda soru kurgusunda B seçeneğindeki bağlam 'Yazı tahtası' tamlamasında 'yazı' kelimesinin kökü fiildir. Soru kökünde 'kazı' (D) kelimesi de fiilden isimdir. Burada ayırt edici nokta: A, C, E şıkları belirtme hal ekidir. B ve D yapım ekidir. Ancak ÖSYM sorularında bazen iyelik eki çeldiricisi olur. 'Yazı' (yaz-ı F->İ YE), 'Kazı' (Kaz-ı F->İ YE). Soru metnini şu şekilde revize ederek doğru cevabı D yapacak bir kurgu düşünelim: D şıkkındaki kelime 'kazı' (kazmak eylemi) değil, 'kazı' (hayvan olan kaz-ı, belirtme) olsaydı cevap B olurdu. Ancak mevcut şıklarda B ve D aynıdır. Soruyu şu şekilde düzeltip özüme odaklanalım: D şıkkını 'Kazı göle bıraktılar.' (Hayvan olan kaz) şeklinde düşünürsek cevap B olurdu. Ancak mevcut haliyle D şıkkı 'kazı çalışmaları' (yapım eki) olduğu için B ve D aynı kategoridedir. Bu nedenle soruyu 'belirtme hali' vs 'iyelik eki' ayrımına çekelim. \n\nRevize Şıklar:\nA) Evi (Belirtme)\nB) Okulu (Belirtme)\nC) Sözü (İyelik - Onun sözü dinlenir)\nD) Arabayı (Belirtme)\nE) Kalemi (Belirtme)\n\nBu mantıkla C şıkkı farklıdır. Soru veritabanındaki JSON'da bu düzeltilmiş haliyle sunuyorum.",
-        "_part": 134
     },
     {
         "id": "turkce_135",
@@ -2414,23 +2142,6 @@
         "_part": 147
     },
     {
-        "id": "turkce_148",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "sozcukte-yapi-govde",
-        "subtopic": "Gövdeden Türeme",
-        "q": "Aşağıdaki cümlelerin hangisindeki altı çizili sözcük, **gövdeden türemiş** bir sözcüktür? (Kök + Yapım Eki + Yapım Eki)",
-        "o": [
-            "Bahçedeki çiçekleri her sabah özenle sulardı.",
-            "Yazarın son kitabı, okurlar tarafından çok beğenildi.",
-            "Gözlüklerini masanın üzerine bırakıp derin bir nefes aldı.",
-            "İşçiler, inşaatta güvenlik önlemlerine dikkat ediyor.",
-            "Sınıftaki öğrenciler öğretmeni sessizce dinliyordu."
-        ],
-        "a": 2,
-        "e": "Doğru cevap C. Gövdeden türeme, bir sözcüğün en az bir yapım eki aldıktan sonra (gövde haline geldikten sonra) tekrar bir yapım eki almasıdır.",
-        "_part": 148
-    },
-    {
         "id": "turkce_149",
         "topicId": "yWlh5C6jB7lzuJOodr2t",
         "subtopicId": "sozcukte-yapi-fiil",
@@ -2582,23 +2293,6 @@
         "a": 1,
         "e": "Birleşik fiillerin oluşum yolları:\n\nA) Nöbet tuttu -> İsim + Yardımcı Eylem (Etmek, eylemek, olmak, kılmak, tutmak vb.)\nB) Vazgeçirmek -> Vazgeçmek -> Anlamca Kaynaşmış Birleşik Fiil (Deyimleşmiş, kurallı veya yardımcı eylemle açıklanamayan özel yapı).\nC) Kaybolan -> Kayıp + Olmak -> İsim + Yardımcı Eylem (Ses düşmesiyle bitişik yazılmış).\nD) Seyrederken -> Seyir + Etmek -> İsim + Yardımcı Eylem.\nE) Hissettiği -> His + Etmek -> İsim + Yardımcı Eylem (Ses türemesiyle bitişik yazılmış).\n\nA, C, D ve E seçenekleri 'İsim + Yardımcı Eylem' yoluyla oluşmuştur. B seçeneği ise 'Anlamca Kaynaşmış' birleşik fiildir.",
         "_part": 158
-    },
-    {
-        "id": "turkce_159",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "sozcukte-yapi-ekler",
-        "subtopic": "İyelik ve Yapım Ekleri",
-        "q": "'Bölge' sözcüğündeki '-ge' eki, fiilden isim türeten bir yapım ekidir.\nAşağıdakilerin hangisinde bu açıklamaya uygun bir kullanım vardır?",
-        "o": [
-            "Bilge bir insan olduğu her halinden belliydi.",
-            "Süpürge sesinden rahatsız olup uyandı.",
-            "Çizelge üzerindeki hataları düzeltti.",
-            "Örge motifleri halıya ayrı bir hava katmış.",
-            "Hepsi"
-        ],
-        "a": 4,
-        "e": "Soru, '-ge / -ga' ekinin fiilden isim yapma işlevini sormaktadır.\n\nA) Bilge -> Bil-mekten Bil-ge (Fiilden İsim)\nB) Süpürge -> Süpür-mekten Süpür-ge (Fiilden İsim)\nC) Çizelge -> Çiz-mekten Çizel-ge (Burada araya -el eki girmiş gibi görünse de veya Çiz-ge formundan türemiş olsa da kök fiildir ve sonuç isimdir. TDK'ya göre Çiz-el-ge şeklindedir ancak -ge eki işlevi benzerdir. Daha net örnek: Dalga (Dal-mak))\nD) Örge -> Ör-mekten Ör-ge (Fiilden İsim)\n\nVerilen tüm seçeneklerde (Bilge, Süpürge, Örge) fiil köküne gelerek isim yapan bir ek kullanımı mevcuttur. Cevap E (Hepsi) seçeneğidir.",
-        "_part": 159
     },
     {
         "id": "turkce_160",

@@ -306,23 +306,6 @@
         "_part": 18
     },
     {
-        "id": "vat_019",
-        "topicId": "xXGXiqx2TkCtI4C7GMQg",
-        "subtopicId": "yargi",
-        "subtopic": "Hakimler ve Savcılar Kurulu",
-        "q": "2017 Anayasa değişiklikleri çerçevesinde Hakimler ve Savcılar Kurulu (HSK) ile ilgili aşağıdakilerden hangisi yanlıştır?",
-        "o": [
-            "Kurulun başkanı Adalet Bakanı'dır.",
-            "Adalet Bakanlığı Müsteşarı (Bakan Yardımcısı) kurulun doğal üyesidir.",
-            "Kurul iki daire halinde çalışır.",
-            "Üyelerinin tamamını Cumhurbaşkanı seçer.",
-            "Kurulun üye sayısı on üçtür."
-        ],
-        "a": 3,
-        "e": "Hakimler ve Savcılar Kurulu 13 üyeden oluşur. Başkan Adalet Bakanı'dır. Kurulun üyelerinin tamamını Cumhurbaşkanı seçmez. Üyelerin 4'ünü Cumhurbaşkanı, 7'sini ise TBMM seçer. Geriye kalan 2 üye (Bakan ve Bakan Yrd.) doğal üyedir.",
-        "_part": 19
-    },
-    {
         "id": "vat_020",
         "topicId": "xXGXiqx2TkCtI4C7GMQg",
         "subtopicId": "yasama",
@@ -1173,23 +1156,6 @@
         "_part": 75
     },
     {
-        "id": "vat_076",
-        "topicId": "xXGXiqx2TkCtI4C7GMQg",
-        "subtopicId": "yasama",
-        "subtopic": "Seçimlerin Yenilenmesi",
-        "q": "1982 Anayasası'na göre, Türkiye Büyük Millet Meclisi (TBMM) ve Cumhurbaşkanlığı seçimlerinin yenilenmesi ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
-        "o": [
-            "TBMM, üye tamsayısının salt çoğunluğuyla seçimlerin yenilenmesine karar verebilir.",
-            "Cumhurbaşkanı, seçimlerin yenilenmesine karar verirse sadece TBMM seçimleri yenilenir.",
-            "TBMM tarafından seçimlerin yenilenmesine karar verilmesi halinde, Cumhurbaşkanı seçimleri yenilenmez.",
-            "Cumhurbaşkanının ikinci döneminde Meclis tarafından seçimlerin yenilenmesine karar verilirse, Cumhurbaşkanı bir kez daha aday olabilir.",
-            "Seçimlerin yenilenmesi kararı alındığında seçimler 90 gün sonraki ilk Pazar günü yapılır."
-        ],
-        "a": 3,
-        "e": "Anayasa'nın 116. maddesine göre, TBMM üye tamsayısının beşte üç (3/5) çoğunluğuyla seçimlerin yenilenmesine karar verebilir. Cumhurbaşkanının ikinci döneminde Meclis tarafından seçimlerin yenilenmesine karar verilmesi halinde, Cumhurbaşkanı bir kez daha aday olabilir. Ayrıca, yenileme kararı kim tarafından verilirse verilsin (TBMM veya Cumhurbaşkanı), her iki seçim de birlikte yapılır.",
-        "_part": 76
-    },
-    {
         "id": "vat_077",
         "topicId": "xXGXiqx2TkCtI4C7GMQg",
         "subtopicId": "idare-hukuku",
@@ -1290,23 +1256,6 @@
         "a": 1,
         "e": "Milletvekilliğinin düşmesi konusunda iki usul vardır: Kendiliğinden düşme ve Meclis kararıyla düşme. Cumhurbaşkanı seçilme, ölüm, kısıtlanma ve kesin hüküm giyme hallerinde milletvekilliği kendiliğinden (veya mahkeme kararının bildirilmesiyle oylamasız) düşer. Ancak; (1) istifa, (2) milletvekilliği ile bağdaşmayan bir görevde ısrar etme ve (3) devamsızlık hallerinde TBMM Genel Kurulu'nun oylaması (kararı) şarttır.",
         "_part": 83
-    },
-    {
-        "id": "vat_084",
-        "topicId": "xXGXiqx2TkCtI4C7GMQg",
-        "subtopicId": "yasama",
-        "subtopic": "TBMM Bilgi Edinme ve Denetim Yolları",
-        "q": "1982 Anayasası'nda 2017 yılında yapılan değişiklikle, aşağıdaki TBMM bilgi edinme ve denetim yollarından hangisi yürürlükten kaldırılmıştır?",
-        "o": [
-            "Yazılı soru",
-            "Genel görüşme",
-            "Meclis soruşturması",
-            "Gensoru",
-            "Meclis araştırması"
-        ],
-        "a": 3,
-        "e": "2017 Anayasa değişikliği ile parlamenter sistemden Cumhurbaşkanlığı Hükümet Sistemine geçilmesiyle birlikte, hükümetin siyasi sorumluluğunu işleten 'Gensoru' ve sözlü soru mekanizmaları kaldırılmıştır. Yazılı soru, genel görüşme, meclis araştırması ve meclis soruşturması (cezai sorumluluk için) devam etmektedir.",
-        "_part": 84
     },
     {
         "id": "vat_085",
@@ -1530,23 +1479,6 @@
         "_part": 97
     },
     {
-        "id": "vat_099",
-        "topicId": "xXGXiqx2TkCtI4C7GMQg",
-        "subtopicId": "yurutme",
-        "subtopic": "Yönetmelikler",
-        "q": "1982 Anayasası'na göre yönetmeliklerle ilgili olarak;\nI. Sadece Cumhurbaşkanı ve Bakanlıklar tarafından çıkarılabilir.\nII. Kanunlara ve Cumhurbaşkanlığı kararnamelerine aykırı olamaz.\nIII. Hangi yönetmeliklerin Resmi Gazete'de yayımlanacağı kanunla belirtilir.\n\nifadelerinden hangileri doğrudur?",
-        "o": [
-            "Yalnız I",
-            "Yalnız II",
-            "I ve III",
-            "II ve III",
-            "I, II ve III"
-        ],
-        "a": 3,
-        "e": "I. öncül yanlıştır; yönetmelikleri Cumhurbaşkanı, bakanlıklar ve 'kamu tüzel kişileri' çıkarabilir. II. öncül doğrudur; yönetmelikler normlar hiyerarşisinde altta yer aldığından kanunlara ve CBK'lara aykırı olamaz. III. öncül doğrudur; Anayasa'ya göre hangi yönetmeliklerin Resmi Gazete'de yayımlanacağı kanunla düzenlenir.",
-        "_part": 99
-    },
-    {
         "id": "vat_100",
         "topicId": "xXGXiqx2TkCtI4C7GMQg",
         "subtopicId": "anayasa-degisikligi",
@@ -1597,24 +1529,6 @@
         "a": 4,
         "e": "Siyasi partilerin devlet yardımı alması hukuk devleti ilkesiyle doğrudan ilişkili bir zorunluluk değil, siyasi partiler mevzuatıyla ilgili bir düzenlemedir.",
         "_part": 102,
-        "_generatedAt": "2026-04-15T18:36:34.738Z"
-    },
-    {
-        "id": "3",
-        "topicId": "1982_Anayasasi",
-        "subtopicId": "demokratik_devlet",
-        "subtopic": "Demokratik Devlet İlkesi",
-        "q": "1982 Anayasası'nda yer alan demokratik devlet ilkesinin en temel göstergesi aşağıdakilerden hangisidir?",
-        "o": [
-            "Düşünce ve kanaat hürriyeti",
-            "Çok partili siyasi hayat ve serbest seçimler",
-            "Sosyal devlet anlayışı",
-            "Hukuk devleti ilkesi",
-            "Laiklik ilkesi"
-        ],
-        "a": 1,
-        "e": "Demokratik devletin en somut göstergesi halkın iradesini yansıtan serbest seçimler ve çok partili siyasi hayattır.",
-        "_part": 103,
         "_generatedAt": "2026-04-15T18:36:34.738Z"
     },
     {
@@ -1669,6 +1583,24 @@
         "a": 2,
         "e": "Anayasa'da yapılan değişikliklerle kadınlar, çocuklar ve engelliler gibi gruplar için pozitif ayrımcılık anayasal güvence altına alınmıştır.",
         "_part": 106,
+        "_generatedAt": "2026-04-15T18:36:34.738Z"
+    },
+    {
+        "id": "7",
+        "topicId": "1982_Anayasasi",
+        "subtopicId": "baslangic_ilkeleri",
+        "subtopic": "Başlangıç İlkeleri",
+        "q": "1982 Anayasası'nın başlangıç kısmında yer alan ilkelerle ilgili aşağıdakilerden hangisi doğrudur?",
+        "o": [
+            "Başlangıç metni anayasaya dahil değildir",
+            "Başlangıç metni bağlayıcı değildir",
+            "Başlangıç metni anayasanın bir parçasıdır",
+            "Başlangıç metni sadece tarihsel süreci anlatır",
+            "Başlangıç metni mahkemelerce dikkate alınmaz"
+        ],
+        "a": 2,
+        "e": "Anayasa Mahkemesi içtihatlarına göre başlangıç metni anayasanın bir parçasıdır ve hukuki bağlayıcılığı vardır.",
+        "_part": 107,
         "_generatedAt": "2026-04-15T18:36:34.738Z"
     },
     {

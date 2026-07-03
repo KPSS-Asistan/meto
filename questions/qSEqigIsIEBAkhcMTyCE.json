@@ -833,23 +833,6 @@
         "_part": 50
     },
     {
-        "id": "tur_51_WYKO",
-        "topicId": "WYKO6MZKW8NP",
-        "subtopicId": "1",
-        "subtopic": "Bitişik ve Ayrı Yazılan Kelimeler",
-        "q": "Aşağıdaki cümlelerin hangisinde altı çizili sözün yazımı yanlıştır?",
-        "o": [
-            "Olay yerinde yapılan incelemede suçüstü yakalandığı belgelendi.",
-            "Bu kadar olağanüstü bir başarıyı kimse beklemiyordu.",
-            "Hasta, ameliyattan sonra yüzüstü yatırılmalıdır.",
-            "Böbreküstü bezlerinin çalışmasında bir sorun tespit edildi.",
-            "Öğleüstü buluşmak üzere sözleşip ayrıldılar."
-        ],
-        "a": 3,
-        "e": "'Alt, üst, üzeri' sözcükleri somut bir yer bildirdiğinde ayrı, bildirdiğinde bitişik yazılır. 'Böbrek üstü' somut bir yer bildirdiği için ayrı yazılmalıdır.",
-        "_part": 51
-    },
-    {
         "id": "tur_53_WYKO",
         "topicId": "WYKO6MZKW8NP",
         "subtopicId": "3",
@@ -1735,24 +1718,6 @@
         "a": 3,
         "e": "Doğru cevap D'dir. Üleştirme sayıları rakamla değil yazıyla yazılır. '3'üncü' değil 'üçüncü' şeklinde yazılmalıdır.",
         "_part": 106,
-        "_generatedAt": "2026-04-15T18:36:26.860Z"
-    },
-    {
-        "id": "q7",
-        "topicId": "yazim-noktalama",
-        "subtopicId": "kisaltmalar",
-        "subtopic": "Kısaltmaların Yazımı",
-        "q": "Aşağıdakilerin hangisinde kısaltmaların yazımıyla ilgili bir yanlışlık yapılmıştır?",
-        "o": [
-            "TDK'nin kurallarına uymalıyız.",
-            "TBMM'de yeni yasalar görüşülüyor.",
-            "Prof. Dr. Ahmet Bey geldi.",
-            "kg'dan daha ağır bir yük.",
-            "cm'yi metreye çevir."
-        ],
-        "a": 0,
-        "e": "Doğru cevap A'dır. TDK'nin kısaltması 'TDK'nin' şeklinde okunur ve ek buna göre getirilir. Yazım doğrudur. Ancak bazı kaynaklarda harf okunuşuna göre hata yapılır.",
-        "_part": 107,
         "_generatedAt": "2026-04-15T18:36:26.860Z"
     },
     {

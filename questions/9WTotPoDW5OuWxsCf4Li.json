@@ -6724,6 +6724,103 @@
         }
     },
     {
+        "id": "7",
+        "topicId": "osmanli_kultur",
+        "subtopicId": "bilim_dunyasi",
+        "subtopic": "Bilim ve Düşünce",
+        "q": "Osmanlı Devleti'nde 'Cihannüma' adlı eseriyle coğrafya alanında önemli çalışmalar yapan ve batılı kaynaklardan yararlanan ünlü bilgin kimdir?",
+        "o": [
+            "Piri Reis",
+            "Seydi Ali Reis",
+            "Katip Çelebi",
+            "Evliya Çelebi",
+            "Takiyüddin"
+        ],
+        "a": 2,
+        "e": "Katip Çelebi, 17. yüzyılın en önemli bilim insanlarından olup Cihannüma adlı eseriyle coğrafyada Batı tarzı yaklaşımı benimsemiştir.",
+        "_part": 115,
+        "_generatedAt": "2026-04-15T18:35:37.823Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-05T05:19:23.403Z",
+        "_analysisResult": {
+            "criteria": [
+                {
+                    "id": 1,
+                    "name": "Doğru Cevap Doğruluğu",
+                    "hasError": false,
+                    "explanation": "Cevap Katip Çelebi'dir ve doğrudur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Soru Kökü Açıklığı",
+                    "hasError": false,
+                    "explanation": "Soru kökü net ve anlaşılırdır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Yazım, Noktalama ve Anlatım Hataları",
+                    "hasError": false,
+                    "explanation": "Yazım hatası bulunmamaktadır.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Mantık ve Tutarlılık",
+                    "hasError": false,
+                    "explanation": "Soru mantıksal bir bütünlük içindedir.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 5,
+                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
+                    "hasError": false,
+                    "explanation": "KPSS tarih müfredatına ve zorluk seviyesine uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Ölçme-Değerlendirme Kalitesi",
+                    "hasError": false,
+                    "explanation": "Bilgi düzeyini ölçen standart bir sorudur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
+                    "hasError": true,
+                    "explanation": "Çeldiriciler (Piri Reis, Seydi Ali Reis) coğrafya ile ilgili olduğu için iyidir ancak Takiyüddin astronomi ile bilinir, daha güçlü bir çeldirici eklenebilir.",
+                    "suggestion": "Takiyüddin yerine Evliya Çelebi'nin başka bir eseriyle karıştırılabilecek bir isim veya dönemin başka bir tarihçisi eklenebilir."
+                },
+                {
+                    "id": 8,
+                    "name": "Teknik Biçim Hataları",
+                    "hasError": false,
+                    "explanation": "Format kurallara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Tarafsızlık ve Etik Uygunluk",
+                    "hasError": false,
+                    "explanation": "Tarafsız ve etik kurallara uygundur.",
+                    "suggestion": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Genel Karar",
+                    "hasError": false,
+                    "explanation": "Soru genel olarak başarılı ve sınav formatına uygundur.",
+                    "suggestion": ""
+                }
+            ],
+            "verdict": "Geçerli",
+            "score": 9,
+            "summary": "Soru, KPSS formatına uygun, net ve doğru bir bilgi sorusudur. Çeldiriciler yeterli düzeydedir."
+        }
+    },
+    {
         "id": "8",
         "topicId": "osmanli_kultur",
         "subtopicId": "idari_yapi",

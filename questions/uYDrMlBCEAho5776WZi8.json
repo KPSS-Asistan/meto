@@ -152,25 +152,6 @@
         "_analyzedAt": "2026-05-04T20:37:15.063Z"
     },
     {
-        "id": "cog_009",
-        "topicId": "uYDrMlBCEAho5776WZi8",
-        "subtopicId": "turkiye-madenler",
-        "subtopic": "Türkiye'de Madencilik",
-        "q": "Türkiye, dünya rezervlerinin büyük bir kısmına sahip olduğu bor minerallerini hem hammadde hem de işlenmiş ürün olarak ihraç etmektedir.\n\nAşağıdaki merkezlerden hangisinde Bor işleme tesisi bulunmaz?",
-        "o": [
-            "Balıkesir - Bandırma",
-            "Eskişehir - Kırka",
-            "Kütahya - Emet",
-            "Bursa - Kestelek",
-            "Artvin - Murgul"
-        ],
-        "a": 4,
-        "e": "Bandırma, Kırka, Emet ve Kestelek (Bigadiç çevresi) Türkiye'nin önemli bor yataklarının bulunduğu ve işlendiği merkezlerdir. Artvin - Murgul ise Türkiye'nin en önemli Bakır çıkarma alanlarından biridir; burada bor madenciliği yapılmaz.",
-        "_part": 9,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-04T20:37:18.590Z"
-    },
-    {
         "id": "cog_010",
         "topicId": "uYDrMlBCEAho5776WZi8",
         "subtopicId": "turkiye-turizm",
@@ -226,25 +207,6 @@
         "_part": 12,
         "_analyzed": true,
         "_analyzedAt": "2026-05-04T20:37:40.190Z"
-    },
-    {
-        "id": "cog_013",
-        "topicId": "uYDrMlBCEAho5776WZi8",
-        "subtopicId": "turkiye-tarim",
-        "subtopic": "Türkiye'de Tarım Ürünleri",
-        "q": "Türkiye'de iklim çeşitliliğinin fazla olması, yetiştirilen tarım ürünü çeşitliliğini de artırmıştır. Ancak bazı ürünlerin yetişme alanı, özel iklim istekleri nedeniyle oldukça dardır (Monokültür).\n\nAşağıdaki tarım ürünlerinden hangisinin Türkiye'deki doğal yetişme alanı diğerlerine göre **daha dardır**?",
-        "o": [
-            "Buğday",
-            "Şeker pancarı",
-            "Elma",
-            "Çay",
-            "Üzüm"
-        ],
-        "a": 3,
-        "e": "Buğday, şeker pancarı, elma ve üzüm Türkiye'nin hemen hemen her bölgesinde (kıyı veya iç kesim fark etmeksizin) yetişme imkanı bulur ve yetişme alanları geniştir. Ancak Çay, sadece Doğu Karadeniz kıyılarında, bol yağış, nem ve yıkanmış kireçsiz toprak isteyen, yetişme alanı en dar olan ürünlerden biridir.",
-        "_part": 13,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-04T20:37:45.180Z"
     },
     {
         "id": "cog_014",
@@ -416,25 +378,6 @@
         "_part": 24,
         "_analyzed": true,
         "_analyzedAt": "2026-05-04T20:38:35.480Z"
-    },
-    {
-        "id": "cog_025",
-        "topicId": "uYDrMlBCEAho5776WZi8",
-        "subtopicId": "turkiye-sanayi",
-        "subtopic": "Sanayi Kuruluşlarının Yer Seçimi",
-        "q": "Sanayi tesislerinin kuruluş yerinin belirlenmesinde hammadde, enerji, pazar, ulaşım ve sermaye gibi faktörler etkilidir. Genellikle çabuk bozulabilir ürünleri işleyen tesisler hammaddeye yakın kurulur.\n\nBuna göre, aşağıdaki sanayi tesislerinden hangisinin kuruluş yerinin belirlenmesinde 'hammaddeye yakınlık' ilkesi belirleyici olmamıştır?",
-        "o": [
-            "Rize - Çay İşleme Tesisleri",
-            "Batman - Petrol Rafinerisi",
-            "Konya - Şeker Fabrikaları",
-            "İskenderun - Demir Çelik Fabrikası",
-            "Elazığ - Ferrokrom Tesisleri"
-        ],
-        "a": 3,
-        "e": "Rize'de çay, Konya'da şeker (çabuk bozulur), Batman'da petrol ve Elazığ'da krom (hammadde kaynağı orada) hammaddeye yakınlık ilkesiyle kurulmuştur. Ancak İskenderun'da demir madeni veya taş kömürü çıkarılmamaktadır. İskenderun Demir-Çelik Fabrikası'nın burada kurulmasının temel nedeni 'Ulaşım' (Liman) faktörüdür.",
-        "_part": 25,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-04T20:38:40.165Z"
     },
     {
         "id": "cog_026",
@@ -644,25 +587,6 @@
         "_part": 38,
         "_analyzed": true,
         "_analyzedAt": "2026-05-04T20:39:18.834Z"
-    },
-    {
-        "id": "cog_039",
-        "topicId": "uYDrMlBCEAho5776WZi8",
-        "subtopicId": "turkiye-turizm",
-        "subtopic": "Türkiye'nin Kültürel Mirası",
-        "q": "UNESCO Dünya Mirası Listesi'nde Türkiye'den hem kültürel hem de doğal miras statüsünde (karma tip) yer alan varlıklar bulunmaktadır.\n\nAşağıdakilerden hangisi bu duruma örnektir?",
-        "o": [
-            "Efes Antik Kenti",
-            "Göbeklitepe",
-            "Pamukkale - Hierapolis",
-            "Cumalıkızık",
-            "Safranbolu Şehri"
-        ],
-        "a": 2,
-        "e": "UNESCO listesinde 'Karma' (Hem Doğal hem Kültürel) kategorisinde yer alan iki varlığımız vardır: 1. Göreme Milli Parkı ve Kapadokya, 2. Pamukkale - Hierapolis. Diğer seçenekler (Efes, Göbeklitepe, Cumalıkızık, Safranbolu) sadece kültürel miras kategorisindedir.",
-        "_part": 39,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-04T20:39:21.635Z"
     },
     {
         "id": "cog_040",
@@ -931,25 +855,6 @@
         "_analyzedAt": "2026-05-04T20:40:15.832Z"
     },
     {
-        "id": "cog_057",
-        "topicId": "uYDrMlBCEAho5776WZi8",
-        "subtopicId": "turkiyede-ulasim",
-        "subtopic": "Türkiye'de Ulaşım",
-        "q": "Türkiye'nin yer şekilleri dikkate alındığında, aşağıdaki liman kentlerinden hangisinin iç bölgelerle olan demir yolu bağlantısı bulunmamaktadır?",
-        "o": [
-            "Zonguldak",
-            "Samsun",
-            "İskenderun",
-            "Antalya",
-            "İzmir"
-        ],
-        "a": 3,
-        "e": "Zonguldak, Samsun, İskenderun ve İzmir limanlarının iç kesimlerle demir yolu bağlantısı vardır. Ancak Antalya, Batı Torosların yarattığı engebeli arazi yapısı nedeniyle iç bölgelere demir yolu ile bağlanamamıştır.",
-        "_part": 57,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-04T20:40:19.149Z"
-    },
-    {
         "id": "cog_058",
         "topicId": "uYDrMlBCEAho5776WZi8",
         "subtopicId": "bolgesel-kalkinma",
@@ -1043,25 +948,6 @@
         "_part": 67,
         "_analyzed": true,
         "_analyzedAt": "2026-05-04T20:40:45.420Z"
-    },
-    {
-        "id": "cog_068",
-        "topicId": "uYDrMlBCEAho5776WZi8",
-        "subtopicId": "turkiye-ulasim",
-        "subtopic": "Türkiye'de Ulaşım Sistemleri",
-        "q": "Türkiye'de demir yolu ağı, Cumhuriyet döneminde limanları iç kesimlere bağlamak ve maden havzalarına ulaşmak amacıyla genişletilmiştir. Ancak yer şekillerinin engebeli olması bazı önemli merkezlere demir yolu ulaşımını engellemiştir.\n\nBuna göre, aşağıdaki liman kentlerinden hangisinin iç bölgelerle demir yolu bağlantısı bulunmamaktadır?",
-        "o": [
-            "İskenderun",
-            "İzmir",
-            "Samsun",
-            "Mersin",
-            "Antalya"
-        ],
-        "a": 4,
-        "e": "İskenderun, İzmir, Samsun ve Mersin limanlarının iç bölgelerle demir yolu bağlantısı vardır ve bu durum limanların hinterlandını genişletmiştir. Ancak Antalya, Batı Torosların oluşturduğu sarp ve engebeli arazi yapısı nedeniyle iç bölgelere demir yolu ile bağlanamamıştır. Bu durum Antalya Limanı'nın ticari fonksiyonunu diğerlerine göre daha sınırlı kılmıştır.",
-        "_part": 68,
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-04T20:40:48.677Z"
     },
     {
         "id": "cog_069",
@@ -1598,26 +1484,6 @@
         "_analyzedAt": "2026-05-04T20:42:53.113Z"
     },
     {
-        "id": "3",
-        "topicId": "beseri-cografya",
-        "subtopicId": "goc",
-        "subtopic": "Göç Türleri",
-        "q": "Türkiye'de 1950 sonrası kırdan kente göçün temel itici gücü aşağıdakilerden hangisidir?",
-        "o": [
-            "Eğitim olanakları",
-            "Sağlık hizmetleri",
-            "Tarımda makineleşme",
-            "Sanayileşme",
-            "İklim değişikliği"
-        ],
-        "a": 2,
-        "e": "Tarımda makineleşme, kırsal alanda iş gücü fazlası yaratarak göçü tetikleyen temel itici güçtür. Diğerleri ise kentin çekici faktörleridir.",
-        "_part": 103,
-        "_generatedAt": "2026-04-15T18:36:10.651Z",
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-04T20:42:57.349Z"
-    },
-    {
         "id": "4",
         "topicId": "beseri-cografya",
         "subtopicId": "sehir-fonksiyonlari",
@@ -1676,6 +1542,26 @@
         "_generatedAt": "2026-04-15T18:36:10.651Z",
         "_analyzed": true,
         "_analyzedAt": "2026-05-04T20:43:07.968Z"
+    },
+    {
+        "id": "7",
+        "topicId": "beseri-cografya",
+        "subtopicId": "koy-alti",
+        "subtopic": "Köy Altı Yerleşmeleri",
+        "q": "Aşağıdakilerden hangisi geçici bir köy altı yerleşmesi türü değildir?",
+        "o": [
+            "Yayla",
+            "Mezra",
+            "Ağıl",
+            "Dam",
+            "Oba"
+        ],
+        "a": 1,
+        "e": "Mezra, genellikle tarım ve hayvancılık yapılan, kalıcı yerleşme formuna dönüşebilen bir yerleşmedir. Diğerleri ise mevsimlik geçici yerleşmelerdir.",
+        "_part": 107,
+        "_generatedAt": "2026-04-15T18:36:10.651Z",
+        "_analyzed": true,
+        "_analyzedAt": "2026-05-04T20:43:11.158Z"
     },
     {
         "id": "8",
