@@ -136,23 +136,6 @@
         "_part": 11
     },
     {
-        "id": "tur_12_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "12",
-        "subtopic": "Sözel Mantık - Yerleştirme",
-        "q": "Soru 11'deki verilere göre, aşağıdakilerden hangisi kesinlikle üst raftadır?",
-        "o": [
-            "T",
-            "U",
-            "S",
-            "R",
-            "Hiçbiri"
-        ],
-        "a": 1,
-        "e": "T alt rafta ise U üst rafta olmak zorundadır.",
-        "_part": 12
-    },
-    {
         "id": "tur_14_1Q7S",
         "topicId": "1Q7SADACD2BP",
         "subtopicId": "14",
@@ -202,40 +185,6 @@
         "a": 0,
         "e": "Ece=A. Eğer Ali/Ayşe=A olursa, Can/Cem'den biri de A olacağı için A=4 kişi olur, B'ye 1 kişi kalır (en az 2 kuralına aykırı). Bu yüzden Ali/Ayşe=B olmalıdır.",
         "_part": 16
-    },
-    {
-        "id": "tur_17_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "17",
-        "subtopic": "Sözel Mantık - İlişkilendirme",
-        "q": "Soru 16'daki verilere göre, B marka telefon alanlar kimlerdir?",
-        "o": [
-            "Ali, Ayşe",
-            "Ali, Ayşe, Can veya Cem",
-            "Can, Cem, Ece",
-            "Ali, Ayşe, Ece",
-            "Sadece Ali"
-        ],
-        "a": 1,
-        "e": "Ali ve Ayşe kesin B'dir. Can veya Cem'den biri de B almak zorundadır ki toplamda 2 veya 3 olsun.",
-        "_part": 17
-    },
-    {
-        "id": "tur_18_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "18",
-        "subtopic": "Sözel Mantık - İlişkilendirme",
-        "q": "Soru 16'daki verilere göre, aşağıdakilerden hangisi kesinlikle yanlıştır?",
-        "o": [
-            "Can A marka almıştır.",
-            "Cem A marka almıştır.",
-            "Ali ve Can aynı markayı almıştır.",
-            "Ayşe ve Ece aynı markayı almıştır.",
-            "Ece ve Cem aynı markayı almıştır."
-        ],
-        "a": 3,
-        "e": "Ayşe B marka, Ece A marka almıştır. Aynı marka olamazlar.",
-        "_part": 18
     },
     {
         "id": "tur_19_1Q7S",
@@ -374,23 +323,6 @@
         "_part": 27
     },
     {
-        "id": "tur_28_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "28",
-        "subtopic": "Sözel Mantık - Gruplandırma",
-        "q": "Soru 26'daki verilere göre, aşağıdakilerden hangisi kesinlikle doğrudur?",
-        "o": [
-            "Fizik dersini Y öğretmeni verir.",
-            "Türkçe dersini X öğretmeni verir.",
-            "Kimya dersini Y öğretmeni verir.",
-            "Matematik dersini X öğretmeni verir.",
-            "Biyoloji dersini X öğretmeni verir."
-        ],
-        "a": 3,
-        "e": "Matematik ve Fizik X tarafından verilmek zorundadır.",
-        "_part": 28
-    },
-    {
         "id": "tur_29_1Q7S",
         "topicId": "1Q7SADACD2BP",
         "subtopicId": "29",
@@ -423,40 +355,6 @@
         "a": 1,
         "e": "X; Mat, Fiz ve (Türk veya Kimya) derslerini verir.",
         "_part": 30
-    },
-    {
-        "id": "tur_32_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "32",
-        "subtopic": "Sözel Mantık - Yerleştirme",
-        "q": "Soru 31'deki verilere göre, Siyah araç kaçıncı sıradadır?",
-        "o": [
-            "2",
-            "3",
-            "5",
-            "6",
-            "Bilinemez"
-        ],
-        "a": 0,
-        "e": "Yeşil; Mavi ve Siyah'ın arasındaysa ve Sarı 4. sıradaysa, bu grup 1-2-3 veya 4-5-6 olamaz. Tek çare 2-3-4 veya 3-4-5 olmasıdır ancak 4 dolu. Bu durumda 2. Siyah, 3. Yeşil, 5. Mavi, 6. Kırmızı uygundur.",
-        "_part": 32
-    },
-    {
-        "id": "tur_33_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "33",
-        "subtopic": "Sözel Mantık - Yerleştirme",
-        "q": "Soru 31'deki verilere göre, Kırmızı araç kaçıncı sıradadır?",
-        "o": [
-            "2",
-            "3",
-            "5",
-            "6",
-            "Bilinemez"
-        ],
-        "a": 3,
-        "e": "Mavi 5 ise Kırmızı 6. sıradadır.",
-        "_part": 33
     },
     {
         "id": "tur_34_1Q7S",
@@ -561,23 +459,6 @@
         "_part": 39
     },
     {
-        "id": "tur_40_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "40",
-        "subtopic": "Sözel Mantık - Sıralama",
-        "q": "Soru 36'daki verilere göre, E'nin Perşembe yapıldığı biliniyorsa Pazartesi hangi ödev yapılmıştır?",
-        "o": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E"
-        ],
-        "a": 0,
-        "e": "E Perşembe, D Cuma, C Çarşamba ise A ve B Pazartesi-Salı'dır. A < B olduğu için A Pazartesi'dir.",
-        "_part": 40
-    },
-    {
         "id": "tur_41_1Q7S",
         "topicId": "1Q7SADACD2BP",
         "subtopicId": "41",
@@ -593,40 +474,6 @@
         "a": 2,
         "e": "Veriler F'nin konumunu kesinleştirmez.",
         "_part": 41
-    },
-    {
-        "id": "tur_42_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "42",
-        "subtopic": "Sözel Mantık - Gruplandırma",
-        "q": "Soru 41'deki verilere göre, C ve D'nin X takımında olduğu biliniyorsa Y takımındakiler kimlerdir?",
-        "o": [
-            "A, B, F",
-            "B, E, F",
-            "A veya B, F ve ?",
-            "A, E, F",
-            "B, C, D"
-        ],
-        "a": 2,
-        "e": "C, D, E X takımındaysa (3 kişi doldu), Y takımı A/B'den biri ve F'den oluşur. Ancak A/B'den hangisi olduğu bilinmez.",
-        "_part": 42
-    },
-    {
-        "id": "tur_43_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "43",
-        "subtopic": "Sözel Mantık - Gruplandırma",
-        "q": "Soru 41'deki verilere göre, aşağıdakilerden hangisi kesinlikle aynı takımdadır?",
-        "o": [
-            "A ve E",
-            "B ve F",
-            "C ve D",
-            "E ve F",
-            "A ve C"
-        ],
-        "a": 2,
-        "e": "Öncülde C ve D'nin aynı takımda olduğu verilmiştir.",
-        "_part": 43
     },
     {
         "id": "tur_44_1Q7S",
@@ -782,40 +629,6 @@
         "_part": 53
     },
     {
-        "id": "tur_54_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "SM-04",
-        "subtopic": "Sözel Mantık",
-        "q": "Aynı senaryoya göre, aşağıdakilerden hangisi Mavi rengi seçmiş olabilir?",
-        "o": [
-            "Arzu",
-            "Berk",
-            "Elif",
-            "Can",
-            "Hiçbiri"
-        ],
-        "a": 3,
-        "e": "Mavi rengi Arzu ve Berk seçemez (çünkü aynı rengi seçtiler ve Mavi tek kişide). Elif Kırmızıdır. Geriye Can veya Deniz kalır.",
-        "_part": 54
-    },
-    {
-        "id": "tur_55_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "SM-05",
-        "subtopic": "Sözel Mantık",
-        "q": "Aynı senaryoya göre, tüm kişilerin renklerinin tam olarak bilinmesi için hangisinin bilinmesi yeterlidir?",
-        "o": [
-            "Arzu'nun rengi",
-            "Elif'in rengi",
-            "Can'ın rengi",
-            "Deniz'in rengi",
-            "Berk'in rengi"
-        ],
-        "a": 2,
-        "e": "Can'ın rengi (Mavi) bilindiğinde, Arzu ve Berk'in Yeşil, Deniz'in Kırmızı olduğu ortaya çıkar.",
-        "_part": 55
-    },
-    {
         "id": "tur_56_1Q7S",
         "topicId": "1Q7SADACD2BP",
         "subtopicId": "SM-06",
@@ -935,23 +748,6 @@
         "_part": 62
     },
     {
-        "id": "tur_63_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "SM-13",
-        "subtopic": "Sözel Mantık",
-        "q": "Apartman senaryosuna göre, hangisi kesinlikle yanlıştır?",
-        "o": [
-            "D 4. kattadır.",
-            "F 3. kattadır.",
-            "H 2. kattadır.",
-            "A 1. kattadır.",
-            "G 2. kattadır."
-        ],
-        "a": 4,
-        "e": "G, E'nin üstünde olduğu için 2. katta olamaz, en az 2. katın üstünde olmalıdır.",
-        "_part": 63
-    },
-    {
         "id": "tur_64_1Q7S",
         "topicId": "1Q7SADACD2BP",
         "subtopicId": "SM-14",
@@ -984,23 +780,6 @@
         "a": 4,
         "e": "G, E'nin (2. kat 102) hemen üstündeki 102 numaralı dairededir.",
         "_part": 65
-    },
-    {
-        "id": "tur_67_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "SM-17",
-        "subtopic": "Sözel Mantık",
-        "q": "Yemek senaryosuna göre, Kebap hangi gün çıkmıştır?",
-        "o": [
-            "Pazartesi",
-            "Salı",
-            "Çarşamba",
-            "Perşembe",
-            "Cuma"
-        ],
-        "a": 1,
-        "e": "Mantı Pazartesi ise Kebap Salı günüdür.",
-        "_part": 67
     },
     {
         "id": "tur_69_1Q7S",
@@ -1173,40 +952,6 @@
         "_part": 79
     },
     {
-        "id": "tur_80_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "SM-30",
-        "subtopic": "Sözel Mantık",
-        "q": "Koltuk senaryosuna göre, Ali 1. koltukta ise Veli kaçıncı koltuktadır?",
-        "o": [
-            "2",
-            "3",
-            "4",
-            "5",
-            "Bilinemez"
-        ],
-        "a": 1,
-        "e": "Ali 1'de ise, Fatma/Hayriye 2 ve 4'te olduğu için Veli'ye 3 kalır.",
-        "_part": 80
-    },
-    {
-        "id": "tur_81_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "SM-31",
-        "subtopic": "Sözel Mantık",
-        "q": "Ali, Veli, Can ve Ece; Ankara, İstanbul, İzmir ve Bursa şehirlerine gitmiştir. Ece Ankara'ya gitmiştir. Ali İzmir'e gitmemiştir. Veli ve Can'ın gittiği şehirler sessiz harfle başlamaktadır. Buna göre Ali nereye gitmiştir?",
-        "o": [
-            "Ankara",
-            "İstanbul",
-            "İzmir",
-            "Bursa",
-            "Antalya"
-        ],
-        "a": 3,
-        "e": "Ece: Ankara. Veli/Can: İstanbul/İzmir (sessiz harf kuralı: Bursa, İstanbul, İzmir içinden seçilecek). Ali İzmir'e gitmediyse ve Ankara doluysa Ali Bursa'ya gider.",
-        "_part": 81
-    },
-    {
         "id": "tur_83_1Q7S",
         "topicId": "1Q7SADACD2BP",
         "subtopicId": "SM-33",
@@ -1275,23 +1020,6 @@
         "_part": 86
     },
     {
-        "id": "tur_87_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "SM-37",
-        "subtopic": "Sözel Mantık",
-        "q": "Fiyat senaryosuna göre, Laptop hangi sırada olabilir? (Ucuzdan pahalıya)",
-        "o": [
-            "1.",
-            "2.",
-            "3.",
-            "4.",
-            "5."
-        ],
-        "a": 3,
-        "e": "Kamera(1), Tablet(2), Telefon(3). Laptop 4. sırada olabilir, 5. (en pahalı) olamaz.",
-        "_part": 87
-    },
-    {
         "id": "tur_88_1Q7S",
         "topicId": "1Q7SADACD2BP",
         "subtopicId": "SM-38",
@@ -1307,23 +1035,6 @@
         "a": 3,
         "e": "Öncülde Telefonun Saatten ucuz olduğu (Saatin pahalı olduğu) belirtilmiştir.",
         "_part": 88
-    },
-    {
-        "id": "tur_89_1Q7S",
-        "topicId": "1Q7SADACD2BP",
-        "subtopicId": "SM-39",
-        "subtopic": "Sözel Mantık",
-        "q": "Fiyat senaryosuna göre, Tablet kaçıncı sırada olabilir?",
-        "o": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"
-        ],
-        "a": 1,
-        "e": "Kamera en ucuz (1) ise Tablet 2. sıradadır.",
-        "_part": 89
     },
     {
         "id": "tur_90_1Q7S",
@@ -1982,24 +1693,6 @@
         "_generatedAt": "2026-04-15T18:36:32.495Z"
     },
     {
-        "id": "q28",
-        "topicId": "sozel-mantik",
-        "subtopicId": "ilgi-kurma",
-        "subtopic": "İlgi Kurma",
-        "q": "A, B'nin 3 katı nüfusa sahip. A+B=400 bin ise B'nin nüfusu kaçtır?",
-        "o": [
-            "50.000",
-            "100.000",
-            "150.000",
-            "200.000",
-            "250.000"
-        ],
-        "a": 1,
-        "e": "A=3B, B=B. 4B=400 bin. B=100 bin.",
-        "_part": 128,
-        "_generatedAt": "2026-04-15T18:36:32.495Z"
-    },
-    {
         "id": "q29",
         "topicId": "sozel-mantik",
         "subtopicId": "analoji",
@@ -2213,24 +1906,6 @@
         "a": 1,
         "e": "Genel bir kuraldan (tüm insanlar) özel bir duruma (Sokrates) geçiş yapıldığı için bu tümdengelimdir.",
         "_part": 140,
-        "_generatedAt": "2026-04-15T18:36:32.495Z"
-    },
-    {
-        "id": "q41",
-        "topicId": "sozel-mantik",
-        "subtopicId": "sozel-akil",
-        "subtopic": "Sözel Akıl Yürütme",
-        "q": "Eğer 'Yağmur yağarsa yerler ıslanır' önermesi doğruysa, yerler ıslaksa ne söylenebilir?",
-        "o": [
-            "Kesin yağmur yağmıştır.",
-            "Yağmur yağmamıştır.",
-            "Yağmur yağmış olabilir.",
-            "Yerler ıslak değildir.",
-            "Hava bulutludur."
-        ],
-        "a": 2,
-        "e": "Yağmur yağması ıslanmayı gerektirir ama ıslanmanın tek nedeni yağmur değildir (sulama, sızıntı vb.). Kesinlik yoktur.",
-        "_part": 141,
         "_generatedAt": "2026-04-15T18:36:32.495Z"
     },
     {
