@@ -1678,26 +1678,6 @@
         "_analyzedAt": "2026-05-04T20:43:07.968Z"
     },
     {
-        "id": "7",
-        "topicId": "beseri-cografya",
-        "subtopicId": "koy-alti",
-        "subtopic": "Köy Altı Yerleşmeleri",
-        "q": "Aşağıdakilerden hangisi geçici bir köy altı yerleşmesi türü değildir?",
-        "o": [
-            "Yayla",
-            "Mezra",
-            "Ağıl",
-            "Dam",
-            "Oba"
-        ],
-        "a": 1,
-        "e": "Mezra, genellikle tarım ve hayvancılık yapılan, kalıcı yerleşme formuna dönüşebilen bir yerleşmedir. Diğerleri ise mevsimlik geçici yerleşmelerdir.",
-        "_part": 107,
-        "_generatedAt": "2026-04-15T18:36:10.651Z",
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-04T20:43:11.158Z"
-    },
-    {
         "id": "8",
         "topicId": "beseri-cografya",
         "subtopicId": "nufus-projeksiyonu",

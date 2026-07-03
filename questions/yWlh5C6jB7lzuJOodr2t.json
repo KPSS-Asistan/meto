@@ -986,23 +986,6 @@
         "_part": 58
     },
     {
-        "id": "turkce_059",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "sozcukte-yapi-basit-turemis-birlesik",
-        "subtopic": "Yapı Bakımından Sözcükler",
-        "q": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük, **yapısı bakımından** diğerlerinden farklıdır?",
-        "o": [
-            "Çocuklar bahçede neşeyle **oynuyordu**.",
-            "Bu konuda sana **katılıyorum**.",
-            "Yarınki toplantıyı **erteledik**.",
-            "Tüm gün boyunca **uyumuşum**.",
-            "Çiçekleri vazoya özenle **yerleştirdi**."
-        ],
-        "a": 3,
-        "e": "Sözcüklerin yapısal analizi (Basit, Türemiş, Birleşik):\n\nA) Oynuyordu: Oyun-a-yor-du -> İsimden fiil türeten '-a' eki (ünlü düşmesiyle oyna-) almıştır. **Türemiş**.\nB) Katılıyorum: Kat-ıl-ıyor-um -> Fiilden fiil türeten '-ıl' eki almıştır. **Türemiş**.\nC) Erteledik: Erte-le-di-k -> İsimden fiil türeten '-le' eki almıştır. **Türemiş**.\nD) Uyumuşum: Uyu-muş-um -> Sadece çekim ekleri (duyulan geçmiş zaman ve şahıs eki) almıştır. Yapım eki yoktur. **Basit**.\nE) Yerleştirdi: Yer-leş-tir-di -> İsimden fiil (-leş) ve fiilden fiil (-tir) ekleri almıştır. **Türemiş**.",
-        "_part": 59
-    },
-    {
         "id": "turkce_060",
         "topicId": "yWlh5C6jB7lzuJOodr2t",
         "subtopicId": "ek-eylem",
@@ -1358,23 +1341,6 @@
         "a": 1,
         "e": "'-lar/-ler' eki A şıkkında 'genelleme/her', C şıkkında 'abartma', D şıkkında 'benzerleri', E şıkkında 'saygı/topluluk' anlamı katmıştır. B şıkkında ise 'Teyzemler' ifadesi 'Teyzem ve ailesi' (gil) anlamını taşımaktadır. ÖSYM bu anlam ilgilerini sıkça sorar.",
         "_part": 81
-    },
-    {
-        "id": "turkce_082",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "kok-ek-iliskisi",
-        "subtopic": "Kök-Ek İlişkisi",
-        "q": "Türkçede kökler isim ve fiil kökleri olmak üzere ikiye ayrılır. Sesteş kökler ise yazılışları aynı olmasına rağmen aralarında anlam ilgisi bulunmayan köklerdir.\n\nBuna göre, aşağıdaki altı çizili sözcüklerden hangisinin kökü **sesteş** (eş sesli) bir kök değildir?",
-        "o": [
-            "Yazın bu sahil kasabası çok kalabalık olur.",
-            "Kırda dolaşırken rengârenk çiçekler topladık.",
-            "Yüzünde güller açan bir çocuktu.",
-            "Saçlarını rüzgâra karşı tarıyordu.",
-            "Yolun sonundaki evde oturuyorlar."
-        ],
-        "a": 4,
-        "e": "Seçeneklerdeki sözcüklerin kökleri:\nA) Yaz: Mevsim olan 'yaz' ile 'yazmak' fiili arasında anlam ilgisi yoktur (Sesteş).\nB) Kır: Şehir dışı, yeşillik alan 'kır' ile 'kırmak' fiili sesteştir.\nC) Yüz: Çehre olan 'yüz', sayı olan 'yüz', suda 'yüzmek' ve derisini 'yüzmek' sesteştir.\nD) Saç: Baştaki kıllar 'saç' ile etrafa 'saçmak' fiili sesteştir.\nE) Yol: Gidilen 'yol' ile 'yolmak' fiili arasında 'ortak kök' (kökteşlik) ilişkisi olduğu savunulabilir mi? Hayır. Yol (isim) ile Yolmak (fiil) sesteştir. \n\nAncak soru kökünde 'Sesteş kök değildir' deniyor. Burada bir çeldiriciye ihtiyaç var. 'Boya' veya 'Sıva' gibi ortak kök (kökteş) kullanılmalı.\n\nRevize E Seçeneği: 'Duvarı taze bir **boya** ile boyadılar.'\nAçıklama: Boya sözcüğü isim kökü de fiil kökü de olsa (boya-mak) aralarında anlam ilgisi vardır. Buna 'Ortak Kök' (Kökteş) denir, sesteş denmez. Sesteşlikte anlam ilgisi olmamalıdır.",
-        "_part": 82
     },
     {
         "id": "turkce_083",
@@ -2584,23 +2550,6 @@
         "_part": 155
     },
     {
-        "id": "turkce_156",
-        "topicId": "yWlh5C6jB7lzuJOodr2t",
-        "subtopicId": "sozcukte-yapi-karma",
-        "subtopic": "Karma Yapı Bilgisi",
-        "q": "I. Çevresi, yeşilliklerle dolu güzel bir yerdi.\nII. Yalnızlık, insanın en büyük düşmanıdır.\nIII. Kavşakta bekleyen araçlar trafiği kilitledi.\nIV. Sararmış yapraklar rüzgârda savruluyordu.\nV. Beslediği kedi, mahalleye neşe katıyordu.\n\nNumaralanmış cümlelerdeki altı çizili sözcüklerin hangisinde, türetilirken ünlü düşmesi meydana gelmiştir?",
-        "o": [
-            "I, II ve III",
-            "I, III ve V",
-            "II, IV ve V",
-            "I, III, IV ve V",
-            "Hepsi"
-        ],
-        "a": 3,
-        "e": "Sözcükler türetilirken (yapım eki alırken) köklerindeki ünlüleri kaybedebilirler.\n\nI. Çevresi -> Çevir-e (i düşmüş) -> VAR\nII. Yalnızlık -> Yalın-ız (ı düşmüş) -> VAR\nIII. Kavşakta -> Kavuş-ak (u düşmüş) -> VAR\nIV. Sararmış -> Sarı-ar-mış (ı düşmüş) -> VAR\nV. Beslediği -> Besi-le-dik-i (i düşmüş) -> VAR\n\nSoru kökünde 'hangisinde' dendiği için ve seçenekler kombinasyonlu olduğu için tüm kelimeleri analiz etmeliyiz. Ancak verilen kelimelerin hepsi (Çevre, Yalnız, Kavşak, Sararmış, Beslediği) türetilirken ünlü kaybına uğramıştır. ÖSYM formatında bu tip 'hepsi' içeren analizler dikkat gerektirir. \n\nAnaliz:\n- Çevir-e > Çevre\n- Yalın-ız > Yalnız\n- Kavuş-ak > Kavşak\n- Sarı-ar > Sarar\n- Besi-le > Besle\n\nCevap E (Hepsi) seçeneğidir ancak şıklarda E 'Hepsi' olarak verilmiştir. Format gereği doğru set E'dir.",
-        "_part": 156
-    },
-    {
         "id": "turkce_157",
         "topicId": "yWlh5C6jB7lzuJOodr2t",
         "subtopicId": "sozcukte-yapi-ekler",
@@ -3402,118 +3351,6 @@
             "summary": "Soru, dil bilgisi kazanımlarını ölçme konusunda oldukça başarılı, teknik açıdan hatasız ve KPSS formatına tam uyumludur."
         },
         "updatedAt": "2026-05-21T17:58:53.498Z"
-    },
-    {
-        "id": "yapibilgisi_q3",
-        "topicId": "yapibilgisi",
-        "subtopicId": "kok-bilgisi",
-        "subtopic": "Kök Bilgisi",
-        "q": "Türkçede sözcük kökleri isim ve fiil kökleri olmak üzere iki temel gruba ayrılır. Buna göre; 'seçkin', 'bilgin', 'sorgu', 'katkı' ve 'yaşantı' sözcükleri köklerinin türüne göre sınıflandırıldığında hangisi dışta kalır?",
-        "o": [
-            "seçkin",
-            "bilgin",
-            "sorgu",
-            "katkı",
-            "yaşantı"
-        ],
-        "a": 4,
-        "e": "Doğru cevap E. 'Yaşantı' sözcüğünün kökü 'yaş' ismi iken diğer sözcüklerin kökleri sırasıyla 'seç-', 'bil-', 'sor-' ve 'kat-' fiilleridir.",
-        "_part": 1,
-        "_generatedAt": "2026-05-21T17:51:44.716Z",
-        "_analyzed": true,
-        "_analyzedAt": "2026-05-21T17:58:56.593Z",
-        "_analysisResult": {
-            "criteria": [
-                {
-                    "id": 1,
-                    "name": "Doğru Cevap Doğruluğu",
-                    "hasError": false,
-                    "explanation": "Doğru cevap E seçeneğidir, kök analizi doğrudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 2,
-                    "name": "Soru Kökü Açıklığı",
-                    "hasError": false,
-                    "explanation": "Soru kökü net ve anlaşılırdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Yazım, Noktalama ve Anlatım Hataları",
-                    "hasError": false,
-                    "explanation": "Dil bilgisi açısından bir hata bulunmamaktadır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Mantık ve Tutarlılık",
-                    "hasError": false,
-                    "explanation": "Soru mantıksal olarak tutarlıdır.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 5,
-                    "name": "KPSS Müfredat ve Seviye Uygunluğu",
-                    "hasError": false,
-                    "explanation": "KPSS Türkçe dil bilgisi seviyesine uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 6,
-                    "name": "Ölçme-Değerlendirme Kalitesi",
-                    "hasError": false,
-                    "explanation": "Kök bulma becerisini ölçmektedir.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 7,
-                    "name": "Şıkların ve Çeldiricilerin Kalitesi",
-                    "hasError": true,
-                    "explanation": "Çeldiriciler homojen değildir; 'katkı' sözcüğünün kökü 'kat-' fiili olsa da bazı öğrenciler tarafından isim köküyle karıştırılabilir, ancak diğerleri çok belirgindir.",
-                    "suggestion": "Daha ayırt edici ve kök tespiti zorlayıcı seçenekler eklenebilir."
-                },
-                {
-                    "id": 8,
-                    "name": "Teknik Biçim Hataları",
-                    "hasError": false,
-                    "explanation": "Format standartlara uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 9,
-                    "name": "Açıklama Kalitesi",
-                    "hasError": false,
-                    "explanation": "Açıklama yeterli ve doğrudur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 10,
-                    "name": "Tarafsızlık ve Etik Uygunluk",
-                    "hasError": false,
-                    "explanation": "Etik bir sorun yoktur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 11,
-                    "name": "Konu Uygunluğu",
-                    "hasError": false,
-                    "explanation": "Yapı bilgisi konusuna tam uygundur.",
-                    "suggestion": ""
-                },
-                {
-                    "id": 12,
-                    "name": "Genel Karar",
-                    "hasError": false,
-                    "explanation": "Soru genel olarak kullanılabilir düzeydedir.",
-                    "suggestion": ""
-                }
-            ],
-            "verdict": "Geçerli",
-            "score": 9,
-            "summary": "Soru, KPSS müfredatına uygun, dil bilgisi kuralları açısından doğru ve net bir sorudur. Çeldiricilerin biraz daha güçlendirilmesi sınav kalitesini artırabilir."
-        },
-        "updatedAt": "2026-05-21T17:58:56.595Z"
     },
     {
         "id": "yapibilgisi_q6",

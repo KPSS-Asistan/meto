@@ -187,23 +187,6 @@
         "_part": 11
     },
     {
-        "id": "tur_12_WYKO",
-        "topicId": "WYKO6MZKW8NP",
-        "subtopicId": "12",
-        "subtopic": "'Bir' Sözcüğünün Yazımı",
-        "q": "Aşağıdaki cümlelerin hangisinde 'bir' sözcüğünün yazımıyla ilgili bir yanlışlık yapılmıştır?",
-        "o": [
-            "Birçok öğrenci sınav stresinden dolayı uykusuz kalıyor.",
-            "Birkaç gün içinde tüm işleri bitirip tatile çıkacağız.",
-            "Bir gün sen de benim ne demek istediğimi anlayacaksın.",
-            "Birdenbire bastıran yağmur sokaktaki insanları hazırlıksız yakaladı.",
-            "Takımımız bu yıl birtakım zorluklarla mücadele etmek zorunda kaldı."
-        ],
-        "a": 2,
-        "e": "'Bir gün' ifadesi her zaman ayrı yazılır. 'Birçok', 'birkaç', 'birdenbire' ve 'birtakım' (belgisiz sıfat anlamındaysa) bitişik yazılır.",
-        "_part": 12
-    },
-    {
         "id": "tur_13_WYKO",
         "topicId": "WYKO6MZKW8NP",
         "subtopicId": "13",
@@ -1719,42 +1702,6 @@
         "_generatedAt": "2026-04-15T18:36:26.860Z"
     },
     {
-        "id": "q3",
-        "topicId": "yazim-noktalama",
-        "subtopicId": "ki",
-        "subtopic": "Ki Bağlacı ve Eki",
-        "q": "Aşağıdaki cümlelerin hangisinde 'ki'nin yazımı yanlıştır?",
-        "o": [
-            "Duydum ki unutmuşsun gözlerimin rengini.",
-            "Sanki her şey bir rüyaymış gibi geçti.",
-            "Bahçedeki ağaçlar çiçek açmaya başladı.",
-            "Öyle bir çalıştım ki sınavı kazandım.",
-            "Mademki gelmeyecektin neden haber verdin?"
-        ],
-        "a": 1,
-        "e": "Doğru cevap B'dir. 'Sanki' kelimesi kalıplaşmış olduğu için 'ki' bitişik yazılır ancak 'sanki' sözcüğü zaten bir bütündür. Yazım yanlışı yoktur gibi görünse de 'ki'nin yazımıyla ilgili kuralı bozan bir durum yoktur.",
-        "_part": 103,
-        "_generatedAt": "2026-04-15T18:36:26.860Z"
-    },
-    {
-        "id": "q4",
-        "topicId": "yazim-noktalama",
-        "subtopicId": "mi",
-        "subtopic": "Soru Eki Mi",
-        "q": "Aşağıdaki cümlelerin hangisinde soru eki 'mi'nin yazımı yanlıştır?",
-        "o": [
-            "Bize yardım eder misiniz?",
-            "Gelecek misin, gelmeyecek misin?",
-            "Ders çalıştı mı hemen uyur.",
-            "O da mı gelecekmiş bizimle?",
-            "Güzel mi güzel bir gün."
-        ],
-        "a": 2,
-        "e": "Doğru cevap C'dir. 'Çalıştı mı' ifadesinde 'mı' zaman anlamı kattığı için ayrı yazılmalıdır ancak burada 'çalıştı mı' ifadesi birleşik yazılmış hissi veriyorsa yanlıştır. Aslında kural gereği her zaman ayrı yazılır.",
-        "_part": 104,
-        "_generatedAt": "2026-04-15T18:36:26.860Z"
-    },
-    {
         "id": "q5",
         "topicId": "yazim-noktalama",
         "subtopicId": "ozel-adlar",
@@ -1824,42 +1771,6 @@
         "a": 4,
         "e": "Doğru cevap E'dir. 'Diz dize' ifadesi ikilemedir ve ayrı yazılmalıdır. 'Göz göze' ayrı yazılırken 'dizdize' bitişik yazılamaz.",
         "_part": 108,
-        "_generatedAt": "2026-04-15T18:36:26.860Z"
-    },
-    {
-        "id": "q9",
-        "topicId": "yazim-noktalama",
-        "subtopicId": "birlesik-kelimeler",
-        "subtopic": "Birleşik Kelimelerin Yazımı",
-        "q": "Aşağıdaki cümlelerin hangisinde birleşik kelimelerin yazımı yanlıştır?",
-        "o": [
-            "Bu olayda önsezi kuvvetli olmalı.",
-            "Hafta sonu pikniğe gideceğiz.",
-            "Birçoğu bu duruma itiraz etti.",
-            "Herhangi bir şey yapmalıyız.",
-            "Birdenbire karşıma çıktı."
-        ],
-        "a": 1,
-        "e": "Doğru cevap B'dir. 'Hafta sonu' ifadesi her zaman ayrı yazılır. Diğerleri kuralına uygun birleşik yazılmıştır.",
-        "_part": 109,
-        "_generatedAt": "2026-04-15T18:36:26.860Z"
-    },
-    {
-        "id": "q10",
-        "topicId": "yazim-noktalama",
-        "subtopicId": "virgul",
-        "subtopic": "Virgülün Kullanımı",
-        "q": "Aşağıdaki cümlelerin hangisinde virgülün kullanımı yanlıştır?",
-        "o": [
-            "Fırtına, kasırga, sel derken her yer mahvoldu.",
-            "Genç, kadına bir şeyler söyledi.",
-            "Ahmet, yarın bize gelecek.",
-            "Kitapları, defterleri masaya koydu.",
-            "Sessiz, sakin bir yer arıyorum."
-        ],
-        "a": 1,
-        "e": "Doğru cevap B'dir. 'Genç kadına' ifadesinde virgül kullanılmazsa anlam belirsizliği oluşur ancak burada virgül kullanımı anlamı bozmaktadır (genç olan kişi kadına mı sesleniyor?). Virgül burada gereksizdir.",
-        "_part": 110,
         "_generatedAt": "2026-04-15T18:36:26.860Z"
     },
     {
